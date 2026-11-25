@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Slyth",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid. −2 Strength, +2 Dexterity, +2 Wisdom. Land speed 30 ft. LA +2. The entry lists no racial Hit Dice.",
+      "Alternate Form (Su). Enter amorphous form as a standard action. It gives a 30-ft. swim speed and passage through openings as small as 2 inches in diameter. Return to normal form with a full-round action that does not provoke.",
+      "In amorphous form all worn and carried equipment melds and magic items stop functioning. Material and natural armor cease to apply. Dexterity, any effective deflection bonus, and armor from force effects can apply.",
+      "In amorphous form the Slyth cannot attack, be flanked, or be stunned, and is immune to critical hits. Other supernatural abilities stop. Spells with verbal, somatic, material, or focus components cannot be cast.",
+      "The form lasts up to 10 minutes per class level. After returning to normal, wait as long as the actual time spent in amorphous form before changing again.",
+      "Water Breathing (Ex) allows indefinite breathing underwater. Immunities (Ex) cover polymorphing and poison. Sonic resistance 5.",
+      "+4 racial on Disguise, Escape Artist, and Survival. Weapon Familiarity treats flutter blades as martial weapons.",
+      "Common and Undercommon are automatic. Bonus languages are Aquan, Elven, Gnome, and Terran or by region. Favored class Druid."
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+# Darfellan from Stormwrack
+
+This batch adds the D&D 3.5 Darfellan from the August 2005 first printing and two original encounters. Oru uses the primary bite. Tava can use the same primary bite with her spear set aside or make a secondary bite as part of an armed full attack. The builds follow the printed player formula for the secondary bite. The published Warrior example has a different attack bonus. [Original rules, p. 37]() · [Source notes](independent-source-notes.md) · [Encounter cards](encounter-cards.md) · [Rules patch](rules.patch)
+
+Both builds calculate Hold Breath from the Constitution score and use 20-ft. blindsense only in water. Oru’s portrait uses Big Linda’s plain parchment. The temporary copy found Darfellan by name, rule, and encounter role, returned both builds from both catalog commands, and resolved Oru’s portrait as the new list thumbnail. [Style comparison](portrait-comparison.jpg) · [96 px thumbnail](portrait-thumbnails.jpg) · [ImageGen prompt](portrait-prompts.json) · [Verification](verification.json) · [Before](catalog-before.json) · [After](catalog-after.json)

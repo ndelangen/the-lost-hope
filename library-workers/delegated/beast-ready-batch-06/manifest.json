@@ -1,0 +1,2464 @@
+{
+  "baseline": "ca9833aa9bfd1a8aed45fc921ce03cd38a87cddb",
+  "profiles": 50,
+  "generatedPortraits": 0,
+  "reusedExistingPortraits": 35,
+  "entries": [
+    {
+      "owner": "b06_01",
+      "name": "Ape",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "ape",
+      "reuse_source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+      "reuse_sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+      "runtime_file": "images/beast-ready-batch-02/ape.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/ape.png",
+        "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Ape",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 117,
+        "printedPages": [
+          117
+        ],
+        "pdfPage": 117,
+        "viewerPages": [
+          117
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "The fur and stance describe the approved portrait. The print gives Medium size, a climb speed and a fist attack.",
+        "habitatEvidence": "Forest and woodland canopy are suggested encounters based on the animal in the approved portrait and its climb speed.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+          "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2"
+        },
+        "mechanicsNotes": [
+          "The printed Multiattack names two Fist attacks. Rock is a separate action."
+        ]
+      }
+    },
+    {
+      "owner": "b06_01",
+      "name": "Axe Beak",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "axe-beak",
+      "reuse_source": "beast-ready-batch-02/parts/b02_01/portraits/axe-beak.png",
+      "reuse_sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c",
+      "runtime_file": "images/beast-ready-batch-02/axe-beak.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/axe-beak.png",
+        "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Axe Beak",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 118,
+        "printedPages": [
+          118
+        ],
+        "pdfPage": 118,
+        "viewerPages": [
+          118
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "Page 118 describes a tall, strong-legged flightless bird with a wedge-shaped beak. Plumage color comes from the approved portrait.",
+        "habitatEvidence": "Grassland and hills are encounter suggestions for the large running bird described on p. 118.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_01/portraits/axe-beak.png",
+          "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c"
+        }
+      }
+    },
+    {
+      "owner": "b06_01",
+      "name": "Baboon",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "baboon",
+      "reuse_source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+      "reuse_sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+      "runtime_file": "images/beast-ready-batch-02/baboon.png",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/baboon.png",
+        "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Baboon",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 118,
+        "printedPages": [
+          118
+        ],
+        "pdfPage": 118,
+        "viewerPages": [
+          118
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "Muzzle, ruff, fur and tail describe the approved portrait. The printed block gives Small size, a climb speed and a bite.",
+        "habitatEvidence": "Forest, grassland and hills are suggested encounters based on the pictured animal.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+          "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd"
+        }
+      }
+    },
+    {
+      "owner": "b06_01",
+      "name": "Badger",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "badger",
+      "reuse_source": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+      "reuse_sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+      "runtime_file": "images/beast-ready-batch-02/badger.png",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/badger.png",
+        "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Badger",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 118,
+        "printedPages": [
+          118
+        ],
+        "pdfPage": 118,
+        "viewerPages": [
+          118
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "The color, face stripes and claws describe the approved portrait. The block gives Tiny size and a burrow speed.",
+        "habitatEvidence": "Forest and grassland are suggested encounters for the depicted animal. Its printed burrow speed informs the Burrows tag.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+          "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e"
+        },
+        "layoutEvidence": "The stat block starts at the bottom of the left column of p. 118. Its Bite continues at the top of the right column, above the Banshee."
+      }
+    },
+    {
+      "owner": "b06_01",
+      "name": "Boar",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "boar",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+      "reuse_sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+      "runtime_file": "images/beast-ready-batch-02/boar.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/boar.png",
+        "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Boar",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 120,
+        "printedPages": [
+          120
+        ],
+        "pdfPage": 120,
+        "viewerPages": [
+          120
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "The block gives Medium size and a tusk attack. Bristles, tusk color and tail describe the approved portrait.",
+        "habitatEvidence": "Woodlands, grasslands and hills are editorial encounters for the depicted wild boar.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+          "sha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f"
+        },
+        "conditionRules": "",
+        "mechanicsNotes": [
+          "Charge adds damage against any target. Only a creature rolls the Strength save against prone. The printed damage type is slashing."
+        ]
+      }
+    },
+    {
+      "owner": "b06_01",
+      "name": "Camel",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "camel",
+      "reuse_source": "beast-ready-batch-02/parts/b02_04/portraits/camel.png",
+      "reuse_sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+      "runtime_file": "images/beast-ready-batch-02/camel.png",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/camel.png",
+        "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Camel",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 121,
+        "printedPages": [
+          121
+        ],
+        "pdfPage": 121,
+        "viewerPages": [
+          121
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "The block gives Large size and a bite. The coat, single hump, neck and feet describe the approved portrait.",
+        "habitatEvidence": "Desert and dry steppe are editorial encounter suggestions for the depicted dromedary.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "beast-ready-batch-02/parts/b02_04/portraits/camel.png",
+          "sha256": "bae753a3f850f569686f845b8f5db464cdd7341b0f819f5e320ee1bf0e5ceffd"
+        },
+        "mechanicsNotes": [
+          "The printed Bite gives +5 to hit and 2 (1d4) bludgeoning damage. Use the listed damage without an added modifier."
+        ]
+      }
+    },
+    {
+      "owner": "b06_01",
+      "name": "Cat",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "cat",
+      "reuse_source": "indexed:images/monsters/cat/parchment-portrait.webp",
+      "reuse_sha256": "f5931b59d47a2719402053c0e91fde2b60b6ae056ce18bccb64eb2d0488d78de",
+      "runtime_file": "images/monsters/cat/parchment-portrait.webp",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/cat.webp",
+        "sha256": "f5931b59d47a2719402053c0e91fde2b60b6ae056ce18bccb64eb2d0488d78de",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Cat",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "D&D Basic Rules v1.0, November 2018 ",
+        "printedPage": 121,
+        "printedPages": [
+          121
+        ],
+        "pdfPage": 121,
+        "viewerPages": [
+          121
+        ],
+        "section": "Chapter 12, Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "appearanceEvidence": "The striped coat, curled posture and face describe the indexed Cat portrait specified in the roster. The block gives Tiny size and a claws attack.",
+        "habitatEvidence": "Settlements, farms and woodland edges are suggested encounters for the depicted domestic cat.",
+        "habitatSourceKind": "Editorial encounter suggestions. The printed stat block supplies no habitat field.",
+        "reusedPortrait": {
+          "source": "indexed:images/monsters/cat/parchment-portrait.webp",
+          "sha256": "f5931b59d47a2719402053c0e91fde2b60b6ae056ce18bccb64eb2d0488d78de"
+        }
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Crocodile",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "crocodile",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+      "reuse_sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+      "runtime_file": "images/beast-ready-batch-02/crocodile.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/crocodile.png",
+        "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Crocodile",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          122
+        ],
+        "viewerPages": [
+          122
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16834-crocodile",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [
+          "The grapple follows the hit without a separate save. This entry has only the printed Bite and no tail attack."
+        ],
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Elk",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "elk",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/elk.png",
+      "reuse_sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+      "runtime_file": "images/beast-ready-batch-02/elk.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/elk.png",
+        "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Elk",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          125
+        ],
+        "viewerPages": [
+          125
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16857-elk",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [
+          "Charge leaves the extra damage’s type unspecified. Hooves needs a prone target and is listed as a separate action."
+        ],
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Lion",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "lion",
+      "reuse_source": "beast-ready-batch-02/parts/b02_08/portraits/lion.png",
+      "reuse_sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+      "runtime_file": "images/beast-ready-batch-02/lion.png",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/lion.png",
+        "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Lion",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          142
+        ],
+        "viewerPages": [
+          142
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16944-lion",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [],
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Mammoth",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "6",
+      "art_group": "mammoth",
+      "reuse_source": "beast-ready-batch-02/parts/b02_09/portraits/mammoth.png",
+      "reuse_sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+      "runtime_file": "images/beast-ready-batch-02/mammoth.png",
+      "printed_cr": "6",
+      "portrait": {
+        "file": "reused-portraits/mammoth.png",
+        "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Mammoth",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          143
+        ],
+        "viewerPages": [
+          143
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16950-mammoth",
+        "appearanceEvidence": "The printed description identifies elephantine anatomy, thick fur and long tusks. Color and posture follow the reused portrait.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [
+          "The Mammoth block starts in the left column. Its Gore and Stomp actions continue at the top of the right column, above Manticore."
+        ],
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Panther",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "panther",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/panther.png",
+      "reuse_sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+      "runtime_file": "images/beast-ready-batch-02/panther.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/panther.png",
+        "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Panther",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          148
+        ],
+        "viewerPages": [
+          148
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16976-panther",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [],
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Saber-­‐Toothed Tiger",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "saber-toothed-tiger",
+      "reuse_source": "indexed:images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "reuse_sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "runtime_file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/saber-toothed-tiger.webp",
+        "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Saber-­‐Toothed Tiger",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          151
+        ],
+        "viewerPages": [
+          151
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17002-saber-toothed-tiger",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [
+          "The printed attack bonuses are +6 and both printed damage modifiers are +5, with Strength +4. The catalog key retains the exact indexed hyphen characters."
+        ],
+        "conditionRules": "",
+        "printedHeading": "Saber-Toothed Tiger"
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Weasel",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "weasel",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/weasel.png",
+      "reuse_sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+      "runtime_file": "images/beast-ready-batch-02/weasel.png",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/weasel.png",
+        "sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Weasel",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          158
+        ],
+        "viewerPages": [
+          158
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17052-weasel",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "These are editorial tags informed by the publisher’s revised Weasel habitat labels. The 2018 print and publisher’s legacy Weasel entry do not specify habitat. https://www.dndbeyond.com/monsters/4775849-weasel",
+        "mechanicsNotes": [
+          "The Weasel block begins by the lower left of p. 158. Its skill, sense, trait and Bite lines continue at the top of the right column, above Werewolf. Bite deals fixed damage."
+        ]
+      }
+    },
+    {
+      "owner": "b06_02",
+      "name": "Wolf",
+      "kind": "beast",
+      "publication": "Basic Rules (2018)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "wolf",
+      "reuse_source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "reuse_sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+      "runtime_file": "images/beast-ready-batch-02/wolf.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/wolf.png",
+        "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Wolf",
+        "kind": "beast",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "printing": "D&D Basic Rules v1.0, November 2018",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 12, Monsters",
+        "printedPages": [
+          159
+        ],
+        "viewerPages": [
+          159
+        ],
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+        "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17062-wolf",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Habitat tags come from the publisher’s legacy D&D Beyond entry. The printed block has no habitat field.",
+        "mechanicsNotes": [
+          "The attack’s +4 to hit and +2 damage modifier are both printed. The prone rider requires a creature but lists no size cap."
+        ],
+        "conditionRules": ""
+      }
+    },
+    {
+      "owner": "b06_03",
+      "name": "Cave Bear",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "cave-bear",
+      "reuse_source": "adnd2e-monstrous-manual-bears/portraits/cave-bear-draft.png",
+      "reuse_sha256": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef",
+      "runtime_file": "images/adnd2e-monstrous-manual-bears/cave-bear.png",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/cave-bear.png",
+        "sha256": "f6d3312c593e7399bb0049f2e241485cdda38696d81a6874823e4fe32e65bfef",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Cave Bear",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          334
+        ],
+        "pdfPage": 335,
+        "section": "Polar Bear and Variant: Cave Bear",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page335.html",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+        "officialErrata": "",
+        "appearanceEvidence": "The printed sidebar describes coarse dark hair. Broad shoulders and the heavy head are visible in the reused Cave Bear portrait from the AD&D Monstrous Manual bundle.",
+        "habitatEvidence": "The sidebar specifies life underground. Caves and Underdark are editorial search tags for that environment.",
+        "printingNotes": [],
+        "variantDerivation": "The Cave Bear sidebar adds darkvision 60 ft. to the Polar Bear on the same folio. Carry over its other statistics, including its 30-ft. swim speed."
+      }
+    },
+    {
+      "owner": "b06_03",
+      "name": "Diseased Giant Rat",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-rat",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+      "reuse_sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "runtime_file": "images/beast-ready-batch-05/giant-rat.png",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-rat.png",
+        "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Diseased Giant Rat",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          327
+        ],
+        "pdfPage": 328,
+        "section": "Giant Rat and Variant: Diseased Giant Rats",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page328.html",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+        "officialErrata": "",
+        "appearanceEvidence": "Matches the shared Giant Rat portrait. The diseased variant describes transmission through bites and gives no visible signs.",
+        "habitatEvidence": "Underdark, forest, swamp, and urban are tags from the legacy Giant Rat listing. Sewers is an editorial search term. The disease sidebar does not change habitat.",
+        "printingNotes": [
+          "The first print uses +3 to hit and 3 (1d4 + 1) piercing. The official 2018 errata changes those to +4 and 4 (1d4 + 2).",
+          "The two roster spellings refer to the same printed variant. Both existing scope keys carry the same rules.",
+          "The source calls for one save on the hit. It gives a maximum-HP decrease every 24 hours until cure and specifies no recurring saving throw."
+        ],
+        "variantDerivation": "Keep the Giant Rat’s statistics and traits. Use the sidebar’s replacement Bite with the errata’s attack and damage numbers."
+      }
+    },
+    {
+      "owner": "b06_03",
+      "name": "Giant Lizard (Hold Breath and Spider Climb)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-lizard-variant",
+      "reuse_source": "indexed:images/beasts/giant-lizard-variant/parchment-portrait.webp",
+      "reuse_sha256": "d337638b8b6b403f290348ae39435f166fa423ee09ded386411630f34a2abbd5",
+      "runtime_file": "images/beasts/giant-lizard-variant/parchment-portrait.webp",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-lizard-variant.webp",
+        "sha256": "d337638b8b6b403f290348ae39435f166fa423ee09ded386411630f34a2abbd5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Lizard (Hold Breath and Spider Climb)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          326
+        ],
+        "pdfPage": 327,
+        "section": "Giant Lizard and Variant: Giant Lizard Traits",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+        "officialErrata": "",
+        "appearanceEvidence": "Editorial description of the existing olive-and-gold Giant Lizard variant portrait.",
+        "habitatEvidence": "The book places subterranean giant lizards among Underdark communities. The legacy Giant Lizard listing supplies forest, swamp, desert, and coastal habitat tags.",
+        "printingNotes": [
+          "Bite, the associated lore, and the variant box are at the top of the right column. The base stat block starts at the bottom of the left column."
+        ],
+        "variantDerivation": "This existing named scope uses both sidebar traits. Hold Breath adds a 30-ft. swim speed. Spider Climb retains the 30-ft. climb speed and removes the ability check on difficult surfaces."
+      }
+    },
+    {
+      "owner": "b06_03",
+      "name": "Giant Lizard (variant)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-lizard-variant",
+      "reuse_source": "indexed:images/beasts/giant-lizard-variant/parchment-portrait.webp",
+      "reuse_sha256": "d337638b8b6b403f290348ae39435f166fa423ee09ded386411630f34a2abbd5",
+      "runtime_file": "images/beasts/giant-lizard-variant/parchment-portrait.webp",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-lizard-variant.webp",
+        "sha256": "d337638b8b6b403f290348ae39435f166fa423ee09ded386411630f34a2abbd5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Lizard (variant)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          326
+        ],
+        "pdfPage": 327,
+        "section": "Giant Lizard and Variant: Giant Lizard Traits",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+        "officialErrata": "",
+        "appearanceEvidence": "Editorial description of the existing olive-and-gold Giant Lizard variant portrait.",
+        "habitatEvidence": "The book places subterranean giant lizards among Underdark communities. The legacy Giant Lizard listing supplies forest, swamp, desert, and coastal habitat tags.",
+        "printingNotes": [
+          "Bite, the associated lore, and the variant box are at the top of the right column. The base stat block starts at the bottom of the left column."
+        ],
+        "variantDerivation": "This existing generic scope presents the printed choice. Choose Hold Breath, Spider Climb, or both before use. Add a 30-ft. swim speed only if Hold Breath is selected."
+      }
+    },
+    {
+      "owner": "b06_03",
+      "name": "Giant Rat (Diseased)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "giant-rat",
+      "reuse_source": "beast-ready-batch-05/parts/b05_01/portraits/giant-rat.png",
+      "reuse_sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+      "runtime_file": "images/beast-ready-batch-05/giant-rat.png",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/giant-rat.png",
+        "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Rat (Diseased)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          327
+        ],
+        "pdfPage": 328,
+        "section": "Giant Rat and Variant: Diseased Giant Rats",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page328.html",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+        "officialErrata": "",
+        "appearanceEvidence": "Matches the shared Giant Rat portrait. The diseased variant describes transmission through bites and gives no visible signs.",
+        "habitatEvidence": "Underdark, forest, swamp, and urban are tags from the legacy Giant Rat listing. Sewers is an editorial search term. The disease sidebar does not change habitat.",
+        "printingNotes": [
+          "The first print uses +3 to hit and 3 (1d4 + 1) piercing. The official 2018 errata changes those to +4 and 4 (1d4 + 2).",
+          "The two roster spellings refer to the same printed variant. Both existing scope keys carry the same rules.",
+          "The source calls for one save on the hit. It gives a maximum-HP decrease every 24 hours until cure and specifies no recurring saving throw."
+        ],
+        "variantDerivation": "Keep the Giant Rat’s statistics and traits. Use the sidebar’s replacement Bite with the errata’s attack and damage numbers."
+      }
+    },
+    {
+      "owner": "b06_03",
+      "name": "Saber-Toothed Tiger",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "saber-toothed-tiger",
+      "reuse_source": "indexed:images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "reuse_sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "runtime_file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/saber-toothed-tiger.webp",
+        "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Saber-Toothed Tiger",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing",
+        "printedPages": [
+          336
+        ],
+        "pdfPage": 337,
+        "section": "Saber-Toothed Tiger",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page337.html",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "sourceWitness": "Local first-print scan, with printed folios confirmed visually. The public page viewer numbers pages one ahead of the book.",
+        "officialErrata": "",
+        "appearanceEvidence": "The print gives the name and attack types. The physical details describe the selected existing portrait.",
+        "habitatEvidence": "Arctic and mountain habitats come from the legacy D&D Beyond listing. The original stat block does not list habitat.",
+        "printingNotes": [
+          "The printed attacks use +5 to damage even though the Strength modifier is +4. Preserve the printed damage formulas."
+        ]
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Chain Mail Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Chain Mail Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Chain Mail",
+          "armorClass": 16,
+          "armorCategory": "heavy",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Leather Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Leather Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Leather",
+          "armorClass": 12,
+          "armorCategory": "light",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Plate Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Plate Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Plate",
+          "armorClass": 18,
+          "armorCategory": "heavy",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Ring Mail Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Ring Mail Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Ring Mail",
+          "armorClass": 14,
+          "armorCategory": "heavy",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Scale Mail Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Scale Mail Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Scale Mail",
+          "armorClass": 15,
+          "armorCategory": "medium",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Splint Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Splint Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Splint",
+          "armorClass": 17,
+          "armorCategory": "heavy",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_04",
+      "name": "Warhorse (Studded Leather Barding)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "riding-warhorse",
+      "reuse_source": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+      "reuse_sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+      "runtime_file": "images/beast-ready-batch-05/riding-warhorse.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/riding-warhorse.png",
+        "sha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Warhorse (Studded Leather Barding)",
+        "kind": "beast",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with official errata v2.0",
+        "printedPages": [
+          340
+        ],
+        "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+        "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+        "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+        "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "localPrintPdfPage": 341,
+        "localPrintCreditsPdfPage": 3,
+        "pageNumbering": "page 341 is printed folio 340.",
+        "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+        "mmErrataUrl": "",
+        "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+        "derivation": {
+          "baseName": "Warhorse",
+          "basePrintedPage": 340,
+          "variantTable": "Variant: Warhorse Armor",
+          "armor": "Studded Leather",
+          "armorClass": 13,
+          "armorCategory": "light",
+          "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+        },
+        "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "equipmentPrintedPages": [
+          144,
+          145,
+          155
+        ],
+        "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+        "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+        "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+        "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+        "artGroup": "riding-warhorse"
+      }
+    },
+    {
+      "owner": "b06_05",
+      "name": "Swarm of Bats",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "swarm-of-bats",
+      "reuse_source": "indexed:images/monsters/swarm-of-bats/parchment-portrait.webp",
+      "reuse_sha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+      "runtime_file": "images/monsters/swarm-of-bats/parchment-portrait.webp",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-bats.webp",
+        "sha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Bats",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing with official errata v2.0",
+        "printedPages": [
+          337
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/17028-swarm-of-bats",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/17028-swarm-of-bats",
+        "errataUrl": "",
+        "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+        "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+        "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+        "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+      }
+    },
+    {
+      "owner": "b06_05",
+      "name": "Swarm of Poisonous Snakes",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "swarm-of-poisonous-snakes",
+      "reuse_source": "indexed:images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+      "reuse_sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+      "runtime_file": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-poisonous-snakes.webp",
+        "sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Poisonous Snakes",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing with official errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/17030-swarm-of-poisonous-snakes",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/17030-swarm-of-poisonous-snakes",
+        "errataUrl": "",
+        "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+        "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+        "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+        "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+      }
+    },
+    {
+      "owner": "b06_05",
+      "name": "Swarm of Quippers",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "swarm-of-quippers",
+      "reuse_source": "indexed:images/monsters/swarm-of-quippers/parchment-portrait.webp",
+      "reuse_sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+      "runtime_file": "images/monsters/swarm-of-quippers/parchment-portrait.webp",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-quippers.webp",
+        "sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Quippers",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing with official errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/17031-swarm-of-quippers",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/17031-swarm-of-quippers",
+        "errataUrl": "",
+        "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+        "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+        "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+        "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+      }
+    },
+    {
+      "owner": "b06_05",
+      "name": "Swarm of Rats",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "swarm-of-rats",
+      "reuse_source": "indexed:images/monsters/swarm-of-rats/parchment-portrait.webp",
+      "reuse_sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+      "runtime_file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-rats.webp",
+        "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Rats",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing with official errata v2.0",
+        "printedPages": [
+          339
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/17032-swarm-of-rats",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/17032-swarm-of-rats",
+        "errataUrl": "",
+        "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+        "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+        "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+        "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+      }
+    },
+    {
+      "owner": "b06_05",
+      "name": "Swarm of Ravens",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "swarm-of-ravens",
+      "reuse_source": "indexed:images/monsters/swarm-of-ravens/parchment-portrait.webp",
+      "reuse_sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+      "runtime_file": "images/monsters/swarm-of-ravens/parchment-portrait.webp",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-ravens.webp",
+        "sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Ravens",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "printing": "September 2014 first printing with official errata v2.0",
+        "printedPages": [
+          339
+        ],
+        "pageNumbering": "Printed Appendix A folio.",
+        "url": "https://www.dndbeyond.com/monsters/17033-swarm-of-ravens",
+        "officialOnlineReference": "https://www.dndbeyond.com/monsters/17033-swarm-of-ravens",
+        "errataUrl": "",
+        "officialCorrection": "Monster Manual errata v2.0 p. 2 adds immunity to the grappled condition to swarms on pp. 337–339.",
+        "verification": "Read the first-print scan at the cited folio and checked the errata and the official legacy listing.",
+        "appearanceSource": "Editorial description of the existing parchment portrait. The printed block identifies the swarm’s constituent animals.",
+        "habitatSource": "Tags from the official D&D Beyond legacy listing. The print stat block supplies no habitat list."
+      }
+    },
+    {
+      "owner": "b06_06",
+      "name": "Swarm of Beetles",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-beetles",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-beetles/parchment-portrait.webp",
+      "reuse_sha256": "02360d39e5f8cff68fc1959ad5afa92ab5bcbb00d52256844a558efe9cd2298d",
+      "runtime_file": "images/beasts/swarm-of-insects-beetles/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-beetles.webp",
+        "sha256": "02360d39e5f8cff68fc1959ad5afa92ab5bcbb00d52256844a558efe9cd2298d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Beetles",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "viewerPages": [
+          339
+        ],
+        "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+        "heading": "Variant: Insect Swarms / Swarm of Beetles",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "errataUrl": "",
+        "errataVersion": "2.0, 2018",
+        "xp": 100,
+        "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+        "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+        "habitatSource": "Editorial habitat tags informed by beetle behavior and the printed 5-ft. burrowing speed.",
+        "sourceDistinctions": [
+          "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+          "The printed sidebar calls the variant Swarm of Beetles. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+          "Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."
+        ],
+        "derivedFrom": {
+          "name": "Swarm of Insects",
+          "printedPages": [
+            338
+          ],
+          "sidebar": "Variant: Insect Swarms",
+          "printedVariantName": "Swarm of Beetles"
+        }
+      }
+    },
+    {
+      "owner": "b06_06",
+      "name": "Swarm of Centipedes",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-centipedes",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-centipedes/parchment-portrait.webp",
+      "reuse_sha256": "577be40222026ec883a92e61e5c7f13947b096f5d177015dd8eb10e48cd0d60d",
+      "runtime_file": "images/beasts/swarm-of-insects-centipedes/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-centipedes.webp",
+        "sha256": "577be40222026ec883a92e61e5c7f13947b096f5d177015dd8eb10e48cd0d60d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Centipedes",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "viewerPages": [
+          339
+        ],
+        "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+        "heading": "Variant: Insect Swarms / Swarm of Centipedes",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "errataUrl": "",
+        "errataVersion": "2.0, 2018",
+        "xp": 100,
+        "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+        "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+        "habitatSource": "Editorial search terms based on centipede habitat. The printed sidebar assigns no habitat.",
+        "sourceDistinctions": [
+          "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+          "The printed sidebar calls the variant Swarm of Centipedes. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+          "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
+        ],
+        "derivedFrom": {
+          "name": "Swarm of Insects",
+          "printedPages": [
+            338
+          ],
+          "sidebar": "Variant: Insect Swarms",
+          "printedVariantName": "Swarm of Centipedes"
+        }
+      }
+    },
+    {
+      "owner": "b06_06",
+      "name": "Swarm of Insects",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects",
+      "reuse_source": "indexed:images/monsters/swarm-of-insects/parchment-portrait.webp",
+      "reuse_sha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+      "runtime_file": "images/monsters/swarm-of-insects/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects.webp",
+        "sha256": "b3f1d6781c24af1e1ebb0e2126fd4c153d4f1d552dbcb8dc880c34b416bc7952",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Insects",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "viewerPages": [
+          339
+        ],
+        "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+        "heading": "Swarm of Insects",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "errataUrl": "",
+        "errataVersion": "2.0, 2018",
+        "xp": 100,
+        "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+        "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+        "habitatSource": "Editorial encounter tags. The printed generic block assigns no habitat.",
+        "sourceDistinctions": [
+          "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+          "The p. 338 base print has walking and climbing speeds. Winged insects visible in the existing portrait are illustrative."
+        ]
+      }
+    },
+    {
+      "owner": "b06_06",
+      "name": "Swarm of Insects (Beetles)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-beetles",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-beetles/parchment-portrait.webp",
+      "reuse_sha256": "02360d39e5f8cff68fc1959ad5afa92ab5bcbb00d52256844a558efe9cd2298d",
+      "runtime_file": "images/beasts/swarm-of-insects-beetles/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-beetles.webp",
+        "sha256": "02360d39e5f8cff68fc1959ad5afa92ab5bcbb00d52256844a558efe9cd2298d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Insects (Beetles)",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "viewerPages": [
+          339
+        ],
+        "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+        "heading": "Variant: Insect Swarms / Swarm of Beetles",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "errataUrl": "",
+        "errataVersion": "2.0, 2018",
+        "xp": 100,
+        "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+        "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+        "habitatSource": "Editorial habitat tags informed by beetle behavior and the printed 5-ft. burrowing speed.",
+        "sourceDistinctions": [
+          "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+          "The printed sidebar calls the variant Swarm of Beetles. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+          "Burrowing speed 5 ft. The swarm keeps its 20-ft. walk and 20-ft. climb."
+        ],
+        "derivedFrom": {
+          "name": "Swarm of Insects",
+          "printedPages": [
+            338
+          ],
+          "sidebar": "Variant: Insect Swarms",
+          "printedVariantName": "Swarm of Beetles"
+        }
+      }
+    },
+    {
+      "owner": "b06_06",
+      "name": "Swarm of Insects (Centipedes)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-centipedes",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-centipedes/parchment-portrait.webp",
+      "reuse_sha256": "577be40222026ec883a92e61e5c7f13947b096f5d177015dd8eb10e48cd0d60d",
+      "runtime_file": "images/beasts/swarm-of-insects-centipedes/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-centipedes.webp",
+        "sha256": "577be40222026ec883a92e61e5c7f13947b096f5d177015dd8eb10e48cd0d60d",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Insects (Centipedes)",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, September 2014, with Monster Manual errata v2.0",
+        "printedPages": [
+          338
+        ],
+        "viewerPages": [
+          339
+        ],
+        "pageNumbering": "Monster Manual printed folio 338 is page 339 in the cover-inclusive local scan.",
+        "heading": "Variant: Insect Swarms / Swarm of Centipedes",
+        "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "errataUrl": "",
+        "errataVersion": "2.0, 2018",
+        "xp": 100,
+        "xpSource": "Monster Manual p. 338, Swarm of Insects.",
+        "appearanceSource": "Editorial description of the selected existing artwork and the relevant insect form from the printed name.",
+        "habitatSource": "Editorial search terms based on centipede habitat. The printed sidebar assigns no habitat.",
+        "sourceDistinctions": [
+          "The September 2014 printed block omits grappled from condition immunities. The 2018 official Monster Manual errata v2.0 adds grappled immunity to all swarms on pp. 337–339.",
+          "The printed sidebar calls the variant Swarm of Centipedes. This row preserves the roster title and applies that variant to the p. 338 generic block.",
+          "A creature this swarm reduces to 0 HP becomes stable and poisoned for 1 hour. The poison persists if the creature regains HP. The creature is paralyzed while poisoned by this effect."
+        ],
+        "derivedFrom": {
+          "name": "Swarm of Insects",
+          "printedPages": [
+            338
+          ],
+          "sidebar": "Variant: Insect Swarms",
+          "printedVariantName": "Swarm of Centipedes"
+        }
+      }
+    },
+    {
+      "owner": "b06_07",
+      "name": "Swarm of Insects (Spiders)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-spiders",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-spiders/parchment-portrait.webp",
+      "reuse_sha256": "f2e8a398cbb454682ca58b718c263e40e80d2e060252487dffc0270d073866af",
+      "runtime_file": "images/beasts/swarm-of-insects-spiders/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-spiders.webp",
+        "sha256": "f2e8a398cbb454682ca58b718c263e40e80d2e060252487dffc0270d073866af",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Insects (Spiders)",
+        "kind": "beast",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "publisher": "Wizards of the Coast",
+        "printing": "First-print text with official 2018 Monster Manual errata",
+        "printedPages": [
+          338
+        ],
+        "pdfPage": 339,
+        "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+        "sourceHeading": "Swarm of Spiders",
+        "derivedFrom": "Swarm of Insects",
+        "errataUrl": "",
+        "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+        "sourceDistinctions": [
+          "Swarm of Spiders is the printed sidebar label. Swarm of Insects (Spiders) is the other catalog label for this variant.",
+          "Keep 20-ft. walking and climbing speeds and 10-ft. blindsight from the base. Add Spider Climb, Web Sense, and Web Walker.",
+          "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+        ],
+        "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+        "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+        "artGroup": "swarm-of-insects-spiders"
+      }
+    },
+    {
+      "owner": "b06_07",
+      "name": "Swarm of Insects (Wasps)",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-wasps",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-wasps/parchment-portrait.webp",
+      "reuse_sha256": "13329a234d1710e75c3a727e4b84a923266134f8cd7bf941a9360d0c7962aae6",
+      "runtime_file": "images/beasts/swarm-of-insects-wasps/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-wasps.webp",
+        "sha256": "13329a234d1710e75c3a727e4b84a923266134f8cd7bf941a9360d0c7962aae6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Insects (Wasps)",
+        "kind": "beast",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "publisher": "Wizards of the Coast",
+        "printing": "First-print text with official 2018 Monster Manual errata",
+        "printedPages": [
+          338
+        ],
+        "pdfPage": 339,
+        "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+        "sourceHeading": "Swarm of Wasps",
+        "derivedFrom": "Swarm of Insects",
+        "errataUrl": "",
+        "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+        "sourceDistinctions": [
+          "Swarm of Wasps is the printed sidebar label. Swarm of Insects (Wasps) is the other catalog label for this variant.",
+          "Replace the base movement with 5-ft. walking and 30-ft. flying. The variant has no climbing speed. Keep 10-ft. blindsight from the base.",
+          "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+        ],
+        "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+        "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+        "artGroup": "swarm-of-insects-wasps"
+      }
+    },
+    {
+      "owner": "b06_07",
+      "name": "Swarm of Spiders",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-spiders",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-spiders/parchment-portrait.webp",
+      "reuse_sha256": "f2e8a398cbb454682ca58b718c263e40e80d2e060252487dffc0270d073866af",
+      "runtime_file": "images/beasts/swarm-of-insects-spiders/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-spiders.webp",
+        "sha256": "f2e8a398cbb454682ca58b718c263e40e80d2e060252487dffc0270d073866af",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Spiders",
+        "kind": "beast",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "publisher": "Wizards of the Coast",
+        "printing": "First-print text with official 2018 Monster Manual errata",
+        "printedPages": [
+          338
+        ],
+        "pdfPage": 339,
+        "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+        "sourceHeading": "Swarm of Spiders",
+        "derivedFrom": "Swarm of Insects",
+        "errataUrl": "",
+        "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+        "sourceDistinctions": [
+          "Swarm of Spiders is the printed sidebar label. Swarm of Insects (Spiders) is the other catalog label for this variant.",
+          "Keep 20-ft. walking and climbing speeds and 10-ft. blindsight from the base. Add Spider Climb, Web Sense, and Web Walker.",
+          "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+        ],
+        "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+        "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+        "artGroup": "swarm-of-insects-spiders"
+      }
+    },
+    {
+      "owner": "b06_07",
+      "name": "Swarm of Wasps",
+      "kind": "beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "swarm-of-insects-wasps",
+      "reuse_source": "indexed:images/beasts/swarm-of-insects-wasps/parchment-portrait.webp",
+      "reuse_sha256": "13329a234d1710e75c3a727e4b84a923266134f8cd7bf941a9360d0c7962aae6",
+      "runtime_file": "images/beasts/swarm-of-insects-wasps/parchment-portrait.webp",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/swarm-of-insects-wasps.webp",
+        "sha256": "13329a234d1710e75c3a727e4b84a923266134f8cd7bf941a9360d0c7962aae6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Swarm of Wasps",
+        "kind": "beast",
+        "edition": "2014 fifth edition",
+        "publication": "Monster Manual (2014)",
+        "publisher": "Wizards of the Coast",
+        "printing": "First-print text with official 2018 Monster Manual errata",
+        "printedPages": [
+          338
+        ],
+        "pdfPage": 339,
+        "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+        "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+        "sourceHeading": "Swarm of Wasps",
+        "derivedFrom": "Swarm of Insects",
+        "errataUrl": "",
+        "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+        "sourceDistinctions": [
+          "Swarm of Wasps is the printed sidebar label. Swarm of Insects (Wasps) is the other catalog label for this variant.",
+          "Replace the base movement with 5-ft. walking and 30-ft. flying. The variant has no climbing speed. Keep 10-ft. blindsight from the base.",
+          "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+        ],
+        "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+        "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+        "artGroup": "swarm-of-insects-wasps"
+      }
+    },
+    {
+      "owner": "b06_08",
+      "name": "Crocodile",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "crocodile",
+      "reuse_source": "beast-ready-batch-02/parts/b02_06/portraits/crocodile.png",
+      "reuse_sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+      "runtime_file": "images/beast-ready-batch-02/crocodile.png",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/crocodile.png",
+        "sha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Crocodile",
+        "kind": "beast",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "printing": "August 8, 2014, version 1",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          7
+        ],
+        "pdfPage": 7,
+        "viewerPages": [
+          7
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+        "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+        "relatedAdventureErrata": "",
+        "errataEvidence": "The publisher’s adventure errata lists no change to this Crocodile stat block.",
+        "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+        "habitatEvidence": "Editorial encounters based on ordinary crocodile habitat and the source’s swim speed. The supplement gives no habitat list.",
+        "habitatSourceKind": "Editorial encounter suggestions.",
+        "mechanicsNotes": [
+          "Bite targets one creature and the scoped block adds no size restriction to its grapple.",
+          "Grapple escape uses ordinary 2014 rules for monster attacks."
+        ],
+        "monsterGrappleRules": ""
+      }
+    },
+    {
+      "owner": "b06_08",
+      "name": "Deer",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "deer",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/deer.png",
+      "reuse_sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+      "runtime_file": "images/beast-ready-batch-02/deer.png",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/deer.png",
+        "sha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Deer",
+        "kind": "beast",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "printing": "August 8, 2014, version 1",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          7
+        ],
+        "pdfPage": 7,
+        "viewerPages": [
+          7
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+        "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+        "relatedAdventureErrata": "",
+        "errataEvidence": "The publisher’s adventure errata lists no change to this Deer stat block.",
+        "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+        "habitatEvidence": "Editorial habitat suggestions for the pictured deer. The supplement gives no habitat list.",
+        "habitatSourceKind": "Editorial encounter suggestions.",
+        "mechanicsNotes": [
+          "The printed action is Bite. The stat block has no Charge or antler attack."
+        ]
+      }
+    },
+    {
+      "owner": "b06_08",
+      "name": "Elk",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "elk",
+      "reuse_source": "beast-ready-batch-02/parts/b02_07/portraits/elk.png",
+      "reuse_sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+      "runtime_file": "images/beast-ready-batch-02/elk.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/elk.png",
+        "sha256": "a4a384c0fb3a24bf541af50be5654854a67c61789097f9c73e72183cdb2660ab",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Elk",
+        "kind": "beast",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "printing": "August 8, 2014, version 1",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          8
+        ],
+        "pdfPage": 8,
+        "viewerPages": [
+          8
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+        "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+        "relatedAdventureErrata": "",
+        "errataEvidence": "The publisher’s adventure errata lists no change to this Elk stat block.",
+        "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+        "habitatEvidence": "Editorial encounter suggestions based on ordinary elk habitat. The supplement gives no habitat list.",
+        "habitatSourceKind": "Editorial encounter suggestions.",
+        "mechanicsNotes": [
+          "The scoped Charge lists extra 7 (2d6) damage without specifying its type.",
+          "The prone-only Hooves attack is an action. The supplement gives no bonus-action follow-up."
+        ]
+      }
+    },
+    {
+      "owner": "b06_08",
+      "name": "Giant Centipede",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-centipede",
+      "reuse_source": "beast-ready-batch-04/parts/b04_05/portraits/giant-centipede.png",
+      "reuse_sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+      "runtime_file": "images/beast-ready-batch-04/giant-centipede.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-centipede.png",
+        "sha256": "b57d1dbbcc8f32643b9bc5a88d1fcbe6a64503d2776ebf07daca5b51bd1e5b01",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Centipede",
+        "kind": "beast",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "printing": "August 8, 2014, version 1",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          9
+        ],
+        "pdfPage": 9,
+        "viewerPages": [
+          9
+        ],
+        "section": "Monsters",
+        "sourceUrl": "",
+        "url": "",
+        "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+        "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+        "relatedAdventureErrata": "",
+        "errataEvidence": "The publisher’s adventure errata lists no change to this Giant Centipede stat block.",
+        "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+        "habitatEvidence": "Editorial placements based on centipede habitat. The printed block gives no habitat list.",
+        "habitatSourceKind": "Editorial encounter suggestions.",
+        "mechanicsNotes": [
+          "The centipede’s poison takes effect on a failed save. The printed block gives no half damage on success.",
+          "Do not carry over the adjacent Ettercap’s repeated saving throws. Its action block is in the other column. The centipede has a listed climb speed."
+        ]
+      }
+    },
+    {
+      "owner": "b06_09",
+      "name": "Giant Frog",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-frog",
+      "reuse_source": "beast-ready-batch-04/parts/b04_07/portraits/giant-frog.png",
+      "reuse_sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+      "runtime_file": "images/beast-ready-batch-04/giant-frog.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-frog.png",
+        "sha256": "9a7d088b8678ccf62b0ec08cf5278c20d901556d304348de7e229309ddf3e89e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Frog",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "August 8, 2014 release, version 1",
+        "section": "Monsters",
+        "printedPages": [
+          10
+        ],
+        "pdfPage": 10,
+        "pdfPageNumbering": "The one-based page number matches the printed folio.",
+        "sourceUrl": "",
+        "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "alternateOfficialWitness": "",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+        "printingDistinction": "p. 10 left column. The printed Bite grapples and restrains on a hit. Swallow requires a second Bite against a grappled target no larger than Small and has its own effects and exit rule."
+      }
+    },
+    {
+      "owner": "b06_09",
+      "name": "Giant Lizard",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "giant-lizard",
+      "reuse_source": "beast-ready-batch-04/parts/b04_08/portraits/giant-lizard.png",
+      "reuse_sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+      "runtime_file": "images/beast-ready-batch-04/giant-lizard.png",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/giant-lizard.png",
+        "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Lizard",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "August 8, 2014 release, version 1",
+        "section": "Monsters",
+        "printedPages": [
+          10
+        ],
+        "pdfPage": 10,
+        "pdfPageNumbering": "The one-based page number matches the printed folio.",
+        "sourceUrl": "",
+        "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "alternateOfficialWitness": "",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+        "printingDistinction": "p. 10 lower left. This supplement lists the base Giant Lizard block. The Monster Manual Hold Breath and Spider Climb variants are outside this printing."
+      }
+    },
+    {
+      "owner": "b06_09",
+      "name": "Giant Spider",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-spider",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+      "reuse_sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+      "runtime_file": "images/beast-ready-batch-05/giant-spider.png",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-spider.png",
+        "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Spider",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "August 8, 2014 release, version 1",
+        "section": "Monsters",
+        "printedPages": [
+          10
+        ],
+        "pdfPage": 10,
+        "pdfPageNumbering": "The one-based page number matches the printed folio.",
+        "sourceUrl": "",
+        "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "alternateOfficialWitness": "",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+        "printingDistinction": "p. 10 right column. Only reduction to 0 HP from the poison invokes stability and one-hour poison and paralysis. Escaping Web calls for a Strength check. The web is vulnerable to fire and immune to bludgeoning, poison and psychic damage."
+      }
+    },
+    {
+      "owner": "b06_09",
+      "name": "Stirge",
+      "kind": "beast",
+      "publication": "Hoard of the Dragon Queen - Online Supplement",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/8",
+      "art_group": "stirge",
+      "reuse_source": "beast-ready-batch-01/parts/black_flag/portraits/stirge.png",
+      "reuse_sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+      "runtime_file": "images/beast-ready-batch-01/stirge.png",
+      "printed_cr": "1/8",
+      "portrait": {
+        "file": "reused-portraits/stirge.png",
+        "sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Stirge",
+        "publication": "Hoard of the Dragon Queen - Online Supplement",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "August 8, 2014 release, version 1",
+        "section": "Monsters",
+        "printedPages": [
+          17
+        ],
+        "pdfPage": 17,
+        "pdfPageNumbering": "The one-based page number matches the printed folio.",
+        "sourceUrl": "",
+        "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+        "alternateOfficialWitness": "",
+        "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+        "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+        "printingDistinction": "p. 17 lower right. The Blood Drain hit deals piercing damage. Subsequent feeding is printed as hit point loss. The target’s hit point maximum is unaffected by the printed rule."
+      }
+    }
+  ]
+}

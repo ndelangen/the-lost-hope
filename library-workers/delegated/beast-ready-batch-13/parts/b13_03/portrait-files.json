@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "knucklehead-trout",
+    "file": "portraits/knucklehead-trout.png",
+    "sha256": "a7f4af50cac8153b121a1bdd23a77c6e119f76447d3268f0c1b20470e736e146",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "mountain-goat",
+    "file": "portraits/mountain-goat.png",
+    "sha256": "03616702362837fc41e1b82c393f5fc3b57d4915d7a9c4d2877e01a0e8430d7f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "sperm-whale",
+    "file": "portraits/sperm-whale.png",
+    "sha256": "fe12e531a0f009f4fa18851b8f43dc9e1a58454abf76a6dedd3b39cde5316f7d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

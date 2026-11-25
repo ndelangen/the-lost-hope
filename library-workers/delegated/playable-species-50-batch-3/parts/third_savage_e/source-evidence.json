@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Triton",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Water)",
+    "url": "",
+    "pages": "199, Table A–48",
+    "evidence": "The first class level has 1d8 Hit Dice, CR 1, the Water subtype, and swim speed 40 ft. Summon nature’s ally III comes at level 4 and is not part of this build.",
+    "catalogStatus": "Other species printings exist.",
+    "additionalSources": [
+      {
+        "name": "3.0 System Reference Document, weapons",
+        "url": "https://www.dragon.ee/30srd/equipment_wpns.htm"
+      }
+    ]
+  },
+  {
+    "name": "Troll",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Giant",
+    "url": "",
+    "pages": "199–200, Table A–49 on p. 200",
+    "evidence": "The level 4 row has 3d8 Hit Dice, CR 2, scent 10 ft., and regeneration 1. Large size and 10-ft. reach start at level 5. The separate scrag paragraph gives an aquatic option.",
+    "catalogStatus": "Other species printings exist.",
+    "additionalSources": [
+      {
+        "name": "3.0 System Reference Document, special abilities",
+        "url": "https://www.dragon.ee/30srd/special_abilities_overview.htm"
+      }
+    ]
+  },
+  {
+    "name": "Trumpet Archon",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Good, Lawful)",
+    "url": "",
+    "pages": "200–201, Table A–50 on p. 201",
+    "evidence": "Level 4 grants a 5-ft. trumpet blast and a +1 greatsword form at 3d8 Hit Dice, CR 3. Cleric spellcasting uses class Hit Dice +2. The three spell-like abilities use class Hit Dice.",
+    "catalogStatus": "Same name appears in a non-player entry.",
+    "additionalSources": [
+      {
+        "name": "3.0 System Reference Document, cleric spells per day",
+        "url": "https://www.dragon.ee/30srd/cleric.htm"
+      },
+      {
+        "name": "3.0 System Reference Document, cleric spell list",
+        "url": "https://www.dragon.ee/30srd/clericspells.htm"
+      },
+      {
+        "name": "3.0 System Reference Document, message",
+        "url": "https://www.dragon.ee/30srd/spellsm.htm"
+      }
+    ]
+  },
+  {
+    "name": "Vrock",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Chaotic, Evil)",
+    "url": "",
+    "pages": "202–204, Table A–52 on p. 203",
+    "evidence": "At level 7, the vrock has 4d8 Hit Dice, CR 5, fly 50 ft. (average), and daily spores. The row follows the 3.0 class for resistance and the lesser powers. The original Monster Manual describes using its lower claws while briefly airborne.",
+    "catalogStatus": "Same name appears in a non-player entry.",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), Vrock",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, minor image",
+        "url": "https://www.dragon.ee/30srd/spellsm.htm"
+      },
+      {
+        "name": "3.0 System Reference Document, desecrate",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD%3ADesecrate"
+      }
+    ]
+  },
+  {
+    "name": "Water Elemental",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental (Water)",
+    "url": "",
+    "pages": "204–205, Table A–53 on p. 204",
+    "evidence": "At level 4 the class is Medium, with 4d8 Hit Dice, CR 2, drench and vortex. The vortex follows the 2000 Monster Manual geometry and handling with the class’s damage and DC overrides. The table stops at level 12 despite the prose mentioning level 13 and damage reduction. This profile avoids assigning a feature to the absent row.",
+    "catalogStatus": "Same name appears in a non-player entry.",
+    "additionalSources": [
+      {
+        "name": "D&D Monster Manual (2000), Water Elemental vortex",
+        "url": ""
+      },
+      {
+        "name": "3.0 System Reference Document, combat and feats",
+        "url": "https://www.dragon.ee/30srd/feats_overview.htm"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "commit": "5c6360f7f2f2267701d90f4091292699cbe71bfb",
+  "publication": "Icewind Dale: Rime of the Frostmaiden",
+  "encounterVersions": 1,
+  "fullStatBlocks": 1,
+  "sharedSourcePublication": "Storm King's Thunder",
+  "publishedSheepVersions": 2,
+  "icewindRecordsWithLocalRules": 127,
+  "generatedPortraitsInstalled": 1,
+  "generatedDraftsBackedUp": 1,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 510,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-19-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/19/results.json",
+  "nextSourcePublication": "Fizban's Treasury of Dragons",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Animated Breath (Acid Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059699-animated-breath-acid-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Cold Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059700-animated-breath-cold-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Fire Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059701-animated-breath-fire-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Lightning Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059702-animated-breath-lightning-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Poison Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059703-animated-breath-poison-form",
+      "challenge": "6"
+    }
+  ]
+}

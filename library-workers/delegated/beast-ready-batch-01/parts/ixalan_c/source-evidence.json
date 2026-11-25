@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Hammerskull",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 28,
+    "pdfPages": [
+      28,
+      29
+    ],
+    "section": "An Ixalan Bestiary, Horned Herbivores, Scales, Spikes, and Hammers",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "entry": "Giant Goat",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 326,
+      "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16885-giant-goat",
+      "srdCrossCheck": "",
+      "pageLocatorWitness": "5etools 2014 Monster Manual index"
+    },
+    "appearanceEvidence": "The text on p. 28 describes defensive head plating and the lack of prominent horns or spikes. Lars Grant-West’s credited art on p. 29 shows the blue-green palette and body shape. The original portrait uses a new pose.",
+    "habitatEvidence": "The Horned Herbivores introduction on p. 28 places this group on the plains. Grassland is an editorial search tag for that setting.",
+    "creditedArt": "Lars Grant-West, Territorial Hammerskull, p. 29."
+  },
+  {
+    "name": "Horned Frog",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 39,
+    "pdfPages": [
+      39
+    ],
+    "section": "An Ixalan Bestiary, Life of the Forest",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "entry": "Giant Frog",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 325,
+      "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16884-giant-frog",
+      "srdCrossCheck": "",
+      "pageLocatorWitness": "5etools 2014 Monster Manual index"
+    },
+    "appearanceEvidence": "p. 39 describes a huge horned frog. The brow peaks, colors, and webbing are editorial visual details for the original portrait.",
+    "habitatEvidence": "p. 39 places the large horned frogs in marshes within the forest discussion. Rainforest wetlands is an editorial search tag."
+  },
+  {
+    "name": "Macaw",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 39,
+    "pdfPages": [
+      39
+    ],
+    "section": "An Ixalan Bestiary, Life of the Forest",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "entry": "Raven",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 335,
+      "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16992-raven",
+      "srdCrossCheck": "",
+      "pageLocatorWitness": "5etools 2014 Monster Manual index"
+    },
+    "appearanceEvidence": "p. 39 describes large macaws and parrots and mentions the plumage of jungle parrots. Beak, cheek, tail, and colors are editorial visual details in the shared original portrait.",
+    "habitatEvidence": "p. 39 places both birds in trees and at clay licks on riverbeds and the coast. Rainforest canopy is a search term for the tree habitat."
+  },
+  {
+    "name": "Parrot",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 39,
+    "pdfPages": [
+      39
+    ],
+    "section": "An Ixalan Bestiary, Life of the Forest",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "entry": "Raven",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 335,
+      "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16992-raven",
+      "srdCrossCheck": "",
+      "pageLocatorWitness": "5etools 2014 Monster Manual index"
+    },
+    "appearanceEvidence": "p. 39 describes large macaws and parrots and mentions the plumage of jungle parrots. Beak, cheek, tail, and colors are editorial visual details in the shared original portrait.",
+    "habitatEvidence": "p. 39 places both birds in trees and at clay licks on riverbeds and the coast. Rainforest canopy is a search term for the tree habitat."
+  },
+  {
+    "name": "Piranha",
+    "kind": "beast",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "printing": "First printing, January 2018",
+    "copyrightYear": 2017,
+    "author": "James Wyatt",
+    "publisher": "Wizards of the Coast",
+    "pdfPage": 40,
+    "pdfPages": [
+      40
+    ],
+    "section": "An Ixalan Bestiary, Life of the Waters",
+    "sourceUrl": "",
+    "sourceSha256": "56c0f5a90d4c396b88358fc2156f3dd14e29eb0cc77d344246747403dd85a411",
+    "reskinReference": {
+      "entry": "Quipper",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 335,
+      "rulesCrossCheck": "https://www.dndbeyond.com/monsters/16989-quipper",
+      "srdCrossCheck": "",
+      "pageLocatorWitness": "5etools 2014 Monster Manual index"
+    },
+    "appearanceEvidence": "p. 40 identifies piranhas as small biting fish. The coloration, scale pattern, and fin shapes are editorial visual details in the original portrait.",
+    "habitatEvidence": "p. 40 places the piranhas in the waters of the Great River and its tributaries. Freshwater rivers and Underwater are editorial search terms."
+  }
+]

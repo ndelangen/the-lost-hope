@@ -1,0 +1,20 @@
+[
+  {
+    "artGroup": "rothe",
+    "file": "portraits/rothe.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Generate one square fantasy bestiary portrait of an ordinary Rothé, a large animal resembling a musk ox as described in Volo's Guide to Monsters. Use the attached Big Linda painting only as a style, paper tone, and lighting reference. Match its muted warm tan matte parchment exactly, with a fine subtle paper grain, even tone from edge to edge, no vignette, no border, and a soft narrow contact shadow under the feet. On this plain parchment, paint one entire rotund musk-ox-like bovine in a three-quarter side view, its four legs grounded, with a heavy low head, broad pale downturned horn bases that sweep to pointed upturned tips, a weathered black-brown undercoat and floor-length umber guard hairs, a pale warm-gray saddle on its back, and a small dark eye. Solid, realistic quadrupedal bovine anatomy. Keep hoof tips and horns well within centered circular-crop margins. Natural-history specimen rendering with crisp realistic fur details, subtle muted colors and gentle modeling, 3D form painted in the style of the supplied reference. No scenery of any kind, no rocks, ground mound, grass, snow, mountains, type, lettering, other animals, props, framing, or atmospheric effects."
+  },
+  {
+    "artGroup": "stench-kow",
+    "file": "portraits/stench-kow.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3220893e5100a3e39c78e296f80c933830b66d3a95d70b79a483a99331942cd8",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Generate one square fantasy bestiary portrait of a Stench Kow, the misshapen orange and green bison from Volo's Guide to Monsters. Treat attached Big Linda painting as the style, paper tone, and lighting reference only. Copy its plain, warm matte muted tan parchment with fine even paper grain and soft understated contact shadow immediately beneath the hooves. Paint one full animal viewed three quarters from the side, with a bison's outsized front hump, thick shoulder shag, lowered deep head, two short curling horns, cloven hooves, and leaner hindquarters. Make the animal convincingly misshapen as a bestiary specimen through an uneven shoulder line and gently skewed horns. Burnt rust-orange and muted moss-green across its coat and skin are intrinsic colors, soft and naturally blended. The whole body and horns fit within generous circular thumbnail margins. Grounded believable quadruped anatomy, realistically painted fur and horn, muted naturalist brushwork, gentle illumination. Only the beast on plain parchment. No vapor, stink clouds, particles, gore, scenery, ground mound, grass, landscape, border, vignette, symbols, letters, or props."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "commit": "d20b7bfc1c57e111df3c7b56d47a9614c7edf6ca",
+  "publication": "Monster Manual (2024)",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "monsterManual2024RecordsWithLocalRules": 510,
+  "generatedPortraitsInstalled": 2,
+  "firstGeneratedPortraits": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 538,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-28-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-28-style-reference.jpg",
+  "styleDirection": "Use actual campaign event and stage illustrations for lighting and rendering. Keep the portraits square on light, subtly textured neutral parchment.",
+  "results": "output/dm-library/encounter-batches/28/results.json",
+  "searchResults": "output/dm-library/encounter-batches/28/search-results.json",
+  "nextSourcePublication": "Journeys through the Radiant Citadel",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Sensa Prince",
+      "source": "https://www.dndbeyond.com/monsters/2739102-sensa-prince",
+      "challenge": "3"
+    }
+  ],
+  "verificationBasis": "The licensed Monster Manual compendium confirms that each dragon pair shares its printed AC, HP and Hit Dice. The separate publisher records choose the exact size."
+}

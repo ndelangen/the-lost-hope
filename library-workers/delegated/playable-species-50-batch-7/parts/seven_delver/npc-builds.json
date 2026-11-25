@@ -1,0 +1,311 @@
+{
+  "builds": [
+    {
+      "id": "a5e-jessa-bentreach",
+      "title": "Jessa Bentreach, Motley Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +1",
+        "Perception +3 plus 1d4",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 16",
+      "languages": "Common, Gnomish, Halfling, Sylvan",
+      "traits": [
+        "Long Arms gift. Melee weapon reach increases by 5 ft. on Jessa's turn. It returns to 5 ft. off-turn.",
+        "Guard background. Standard array plus Strength and Constitution. Natural Authority can earn deference from civilians who mistake Jessa for local watch. Athletics (climbing) and Survival (tracking) specialties.",
+        "Forgotten Folx culture. Knows the general location of allies within 60 ft. except through 1 ft. of lead or iron or blocking magic. Can Help as a bonus action at 15 ft. and grant a bonus expertise die on one of those Helps per long rest.",
+        "Excellence destiny. A final natural 1 on a called-for test earns inspiration. Spend inspiration for +5 to a check, attack, or save after rolling and before learning the result.",
+        "Proficiency +2. Strength +5 and Constitution +4 saves. Maneuver DC 13. AC 12 + 2 Dexterity + 2 medium shield. Padded leather is comfortable to sleep in. Its piercing flaw can break it when a piercing critical hits or on a natural 1 Dexterity save as the armor flaw rules apply.",
+        "Dueling. +2 damage with the one-handed melee spear. The spear's Defensive property works with the medium shield. Burst of Strength knack spends 1 exertion to add proficiency (+2) to a Strength check, even if already applied. Four exertion per short or long rest. Adamant Mountain and Razor's Edge traditions."
+      ],
+      "actions": [
+        "Spear. +5 to hit, reach 10 ft. on Jessa's turn and 5 ft. outside it. Hit 1d6 + 5 piercing one-handed in melee. Thrown +5, range 20/60 ft., 1d6 + 3 piercing in this build.",
+        "After attacking with the spear while wielding the medium shield, use a bonus action for +1 AC until the start of next turn or to make an improvised shield attack at +3 for 1d4 + 3 bludgeoning. No improvised weapon proficiency.",
+        "Claw. +5 to hit, reach 5 ft., 1d6 + 3 slashing.",
+        "Sacrifice Shield (reaction). Break the nonmagical shield to turn one incoming critical hit into a normal hit.",
+        "Lean Into It (action, 2 exertion). Take the Attack action. Until the start of your next turn, a hit with a melee weapon forces a DC 13 Strength save or knocks the target prone.",
+        "Catch Your Breath (bonus action, 2 exertion). Recover 1d6 + 4 HP.",
+        "Iron Will (reaction, 1 exertion). Gain advantage on a save against being charmed or frightened."
+      ],
+      "tactics": "Warns travelers from spear's reach. If the road gate is forced, trips the first person through and helps an ally cover the gap."
+    },
+    {
+      "id": "a5e-luma-chalkcap",
+      "title": "Luma Chalkcap, Mycelial Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Small",
+      "type": "Plant and Humanoid",
+      "ac": 16,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 11,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Insight +3",
+        "Persuasion +1",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 11",
+      "languages": "Common, Undercommon",
+      "traits": [
+        "Adaptability gift. Resist poison, and currently resist cold from Cold Adapted. A long rest can change the adaptation.",
+        "Plant and Humanoid. Can eat local soil or rocks, still needs water, and during exploration uses one Supply every other day before fatigue. Squeezes as one size smaller. Her Spore Cloud does not affect Plants.",
+        "Underharvester culture. Search four hours once per long rest for two creatures' Supply, or reagents worth up to 5 gp. Advantage on mushroom identification, searching, cooking and alchemy. Expertise on attacks and saves against Plant creatures. With her spore pouches, double the duration of any medicinal she uses.",
+        "Artisan background. Standard array plus Intelligence and Constitution. Mason's tools, a free equipped workshop in town, and full value if a buyer purchases her work. Athletics (climbing) and Survival (tracking) specialties.",
+        "Knowledge destiny. Discoveries earn inspiration. Spend inspiration with a bonus action to assess one attribute of a creature or item in sight, such as an immunity or whether an item is trapped.",
+        "Proficiency +2. Strength +4 and Constitution +5 saves. Maneuver DC 12. AC 12 + 1 Dexterity + 2 Small-sized medium shield + 1 Defense style. Padded leather is comfortable to sleep in. Its piercing flaw can break it when a piercing critical hits or on a natural 1 Dexterity save as the armor flaw rules apply.",
+        "Mountaineer knack. Climb 30 ft. Ignore extra movement from nonmagical difficult terrain. Spend 1 exertion to reroll a failed Athletics check to climb and choose either roll. Four exertion per short or long rest. Adamant Mountain and Razor's Edge."
+      ],
+      "actions": [
+        "Handaxe. +4 to hit, 5-ft. reach or thrown 20/60 ft. Hit 1d6 + 2 slashing. Double damage to unattended wooden objects. Her medium shield prevents use of the handaxe's light-shield Defensive property.",
+        "Spore Cloud (bonus action, twice per long rest). Lightly obscures a 5-ft. radius centered on her at release for 1 minute unless a strong wind or current clears it. A non-Plant starting its turn there or first entering on a turn makes a DC 13 Constitution save. On failure it takes 1d6 poison and is poisoned through the end of its next turn. Affected creatures ignore it for 24 hours.",
+        "Sacrifice Shield (reaction). Break the nonmagical shield to turn one incoming critical hit into a normal hit.",
+        "Lean Into It (action, 2 exertion). Take the Attack action. Until the start of your next turn, a hit with a melee weapon forces a DC 12 Strength save or knocks the target prone.",
+        "Catch Your Breath (bonus action, 2 exertion). Recover 1d6 + 5 HP.",
+        "Iron Will (reaction, 1 exertion). Gain advantage on a save against being charmed or frightened."
+      ],
+      "tactics": "Tries to get intruders behind the roped-off mark. On a retreat, leaves her spores in the approach and climbs away from the cloud."
+    },
+    {
+      "id": "a5e-silt",
+      "title": "Silt, Oozefolk Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft., climb 30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Investigation +3",
+        "Perception +4",
+        "Sleight of Hand +5",
+        "Stealth +5"
+      ],
+      "senses": "Darkvision 120 ft., blindsight 10 ft., passive Perception 14",
+      "languages": "Common, Undercommon, Terran, Thieves' Cant",
+      "traits": [
+        "The Rogue's first d8 Hit Die makes Silt Small. Amorphous Body requires removing all armor and carried items before passing through a 1-inch opening without squeezing. Psychic Resistance gives psychic resistance and Intelligence save proficiency, already granted by Rogue.",
+        "Advantage on saves against effects that change form. Can speak telepathically to one seen creature within 30 ft. at a time if it shares a language.",
+        "Underlander culture. Blindsight 10 ft. and existing darkvision increases to 120 ft. Can go one day before fatigue from missing Supply. Navigate underground with advantage and use expertise on Underland journey activity checks.",
+        "Criminal background. Standard array plus Dexterity and Constitution. Knows Thieves' Cant, games of dice, and thieves' tools. Rogue also grants disguise kit and poisoner's kit. Specialties are balancing and finding traps. Terran is the bonus language from Intelligence 12.",
+        "Underdog destiny. A crit against a larger creature, natural 20 death save, openly defying a powerful being, or a successful long-odds risk earns inspiration. Spend it as a reaction when Silt or a visible ally fails Insight to get the result a success would reveal.",
+        "Proficiency +2. Dexterity +5 and Intelligence +3 saves. AC 12 + 3 Dexterity. Padded leather is comfortable to sleep in. Its piercing flaw can break it when a piercing critical hits or on a natural 1 Dexterity save as the armor flaw rules apply. Agile Athlete skill trick gives Athletics expertise and a climb speed equal to Speed.",
+        "Sneak Attack. Add 1d6 weapon damage once per turn on a finesse or ranged weapon hit when you have advantage, or when another non-incapacitated enemy of the target is within 5 ft. of it and the attack has no disadvantage."
+      ],
+      "actions": [
+        "Shortsword. +5 to hit, reach 5 ft., 1d6 + 3 slashing. While wielded without a shield, parry one visible incoming melee attack before the next turn by adding 1d4 AC, unless incapacitated, paralyzed, rattled, restrained, or stunned."
+      ],
+      "tactics": "Climbs out of reach, then uses overheard Thieves' Cant to seek help. Gives up armor and kit only after securing a second route."
+    },
+    {
+      "id": "a5e-tivin-crumbwick",
+      "title": "Tivin Crumbwick, Ratling Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Culture +2",
+        "Deception +3",
+        "Insight +4",
+        "Investigation +2",
+        "Perception +4, plus 1d4 by smell",
+        "Persuasion +3",
+        "Sleight of Hand +5",
+        "Stealth +5"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14 or 17 by smell",
+      "languages": "Common, Halfling, Dwarvish, Thieves' Cant",
+      "traits": [
+        "Strength in Numbers. Once per short or long rest, make one ability check in a group check with advantage. Twice per long rest, reroll an attack against a creature within 30 ft. if another creature attacked it in melee since Tivin's last turn. No more than one reroll per turn, on his turn.",
+        "Immune to ingested poison. Perception proficiency and expertise for smell only.",
+        "Cosmopolitan culture. Proficient in Culture and Persuasion, with expertise to conceal an item or stay armed with someone's permission. After watching a creature for 1 minute within 60 ft., use an action and Insight or History against its passive Deception to gauge Charisma relative to Tivin, origin and social standing. City Investigation checks locate people or clues, DC 15 or 20 if hiding. Extra background connection.",
+        "Criminal background. Standard array plus Dexterity and Constitution. Knows Thieves' Cant. Proficient with dice, thieves' tools, disguise kit and poisoner's kit. Investigation (finding traps) and Sleight of Hand (pickpocketing) specialties.",
+        "Underdog destiny. A crit against a larger creature, natural 20 death save, openly defying a powerful being, or a successful long-odds risk earns inspiration. Spend it as a reaction when Tivin or a visible ally fails Insight to learn what a success would reveal.",
+        "Proficiency +2. Dexterity +5 and Intelligence +2 saves. AC 12 + 3 Dexterity. Padded leather is comfortable to sleep in. Its piercing flaw can break it when a piercing critical hits or on a natural 1 Dexterity save as the armor flaw rules apply.",
+        "Delay Trap trick. Gain expertise with thieves' tools. When about to trigger a mechanical trap on his turn, Tivin can immediately end his turn to delay it until the start of his next turn.",
+        "Sneak Attack. Add 1d6 weapon damage once per turn on a finesse or ranged weapon hit when you have advantage, or when another non-incapacitated enemy of the target is within 5 ft. of it and the attack has no disadvantage."
+      ],
+      "actions": [
+        "Light crossbow. +5 to hit, range 80/320 ft., 1d8 + 3 piercing. Two hands and loading.",
+        "Shortsword. +5 to hit, 5-ft. reach, 1d6 + 3 slashing. If wielded without a shield, it can parry one visible incoming melee attack before the next turn by adding 1d4 AC, unless incapacitated, paralyzed, rattled, restrained, or stunned."
+      ],
+      "tactics": "Sounds the warning first. In a fight he waits for a partner to draw attention up close, then shoots from cover."
+    },
+    {
+      "id": "a5e-orven-veinlock",
+      "title": "Orven Veinlock, Rockborn Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Level Up: Advanced 5th Edition"
+      ],
+      "difficulty": "Tier 1 class-built NPC. No assigned CR.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 15,
+      "hp": 13,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 13",
+      "languages": "Common, Terran, Dwarvish",
+      "traits": [
+        "Stone Armaments gift. Repair stone weapons or armor with DC 15 mason's tools. Raise an existing attack expertise die one step for stone weapons.",
+        "Carven culture. Rock throwing proficiency, proficiency and expertise for carving stone with mason's tools, and History proficiency with expertise for stonework origins. Tough adds 1 HP per level.",
+        "Soldier background. Standard array plus Strength and Constitution. Knows dice. Off-duty soldiers are inclined to share stories, while on-duty soldiers recognize his bearing. Athletics (climbing) and Survival (tracking) specialties.",
+        "Knowledge destiny. Discoveries earn inspiration. Spend it as a bonus action to assess one objective attribute of a seen creature or item.",
+        "Proficiency +2. Strength +5 and Constitution +4 saves. Maneuver DC 13. AC 12 + 1 Dexterity + 2 medium shield. HP 10 + 2 Constitution + 1 Carven. Immune to petrification. Padded leather is comfortable to sleep in. Its piercing flaw can break it when a piercing critical hits or on a natural 1 Dexterity save as the armor flaw rules apply.",
+        "Protection style. Reaction to disadvantage a visible creature's attack on another target within 5 ft. of Orven while he wields his shield. Clearsight Sentinel knack prevents disadvantage on Perception checks in lightly obscured areas. Four exertion per short or long rest. Adamant Mountain and Razor's Edge."
+      ],
+      "actions": [
+        "Stone warhammer. +5 to hit, reach 5 ft., 1d8 + 3 bludgeoning one-handed or 1d10 + 3 two-handed with the shield doffed. Breaker doubles damage to unattended objects.",
+        "Carven rock. +5 to hit, thrown 40/80 ft., 1d6 + 3 bludgeoning.",
+        "Roll. Bonus action to curl, action to uncurl. While curled his AC drops to 13, Speed becomes 0 and he cannot attack, use his arms or cast spells with seen components. As an action roll straight 30 ft. or downhill 60 ft. A creature of Large or smaller in the path makes a DC 13 Dexterity save, taking 1d4 + 3 bludgeoning on failure and stopping him before its space on success. Objects in the path take 1d4 + 3.",
+        "Sacrifice Shield (reaction). Break the nonmagical shield to turn one incoming critical hit into a normal hit.",
+        "Lean Into It (action, 2 exertion). Take the Attack action. Until the start of your next turn, a hit with a melee weapon forces a DC 13 Strength save or knocks the target prone.",
+        "Catch Your Breath (bonus action, 2 exertion). Recover 1d6 + 4 HP.",
+        "Iron Will (reaction, 1 exertion). Gain advantage on a save against being charmed or frightened."
+      ],
+      "tactics": "Keeps a shield up for partners at the front. Curls only when he can see a straight path and has room to uncurl on the following turn."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Motley",
+      "speciesPublication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "name": "Jessa Bentreach",
+      "size": "Medium",
+      "build": "a5e-jessa-bentreach",
+      "role": "Toll-road watch",
+      "motive": "Find the missing runner before the bridge closers arrive.",
+      "hook": "The road ledger lists a toll Jessa never collected. Whoever paid may have taken a runner off the official route."
+    },
+    {
+      "species": "Mycelial",
+      "speciesPublication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "name": "Luma Chalkcap",
+      "size": "Small",
+      "build": "a5e-luma-chalkcap",
+      "role": "Mineral prospector",
+      "motive": "Bring the sample home before the tunnel thaws.",
+      "hook": "Luma needs someone to carry a cold-sensitive mineral specimen past a chamber where the spring flood has loosened the stone."
+    },
+    {
+      "species": "Oozefolk",
+      "speciesPublication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "name": "Silt",
+      "size": "Small",
+      "build": "a5e-silt",
+      "role": "Drain inspection scout",
+      "motive": "Retrieve the survey ledger without flooding the lower street.",
+      "hook": "Silt overheard two workers arguing in Cant about which gate to block. A missing map page marks the only spare route out."
+    },
+    {
+      "species": "Ratling",
+      "speciesPublication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "name": "Tivin Crumbwick",
+      "size": "Small",
+      "build": "a5e-tivin-crumbwick",
+      "role": "Market's night lookout",
+      "motive": "Find the food stores the baker is forced to hand over each night.",
+      "hook": "Tivin will show the party the route he watches if they help move the watch bell out of an extortionist's reach."
+    },
+    {
+      "species": "Rockborn",
+      "speciesPublication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "name": "Orven Veinlock",
+      "size": "Medium",
+      "build": "a5e-orven-veinlock",
+      "role": "Stone surveyor",
+      "motive": "Recover a field plate before the galleries are sealed for a century.",
+      "hook": "A new sinkhole has exposed an old chisel inscription that contradicts the mine owner's survey. Orven wants an impartial witness."
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "builds": [
+    {
+      "id": "mr2-tavir-rainbell",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "type": "Celestial",
+      "size": "Medium",
+      "title": "Tavir Rainbell, bridge hospice keeper",
+      "difficulty": "Draconic Sorcerer 1",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d6+3",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 10.",
+      "languages": "Common, Celestial, Draconic, Sylvan and Auran.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Arcana +1",
+        "Insight +2",
+        "Persuasion +5",
+        "Religion +1"
+      ],
+      "traits": [
+        "Proficiency +2. Constitution +4 and Charisma +5 saves. Draconic Resilience sets unarmored AC at 13 + Dexterity and adds 1 maximum HP. Bronze ancestry gives Draconic and doubles proficiency if it applies to a Charisma check with a dragon. Acolyte background.",
+        "Charisma casting DC 13, spell attacks +5. Two 1st-level spell slots per long rest. Sacred Flame comes from Ki-rin. Four Sorcerer cantrips and both known spells use verbal and somatic components without materials."
+      ],
+      "actions": [
+        "Horn or hooves. Melee unarmed strike +2, reach 5 ft., 1d8 piercing or bludgeoning.",
+        "Sacred Flame. Action, visible target within 60 ft. Dexterity DC 13 or 1d8 radiant. Cover gives no benefit on the save.",
+        "Other cantrips. Fire Bolt +5, range 120 ft., 1d10 fire. Ray of Frost +5, range 60 ft., 1d8 cold and speed reduced by 10 ft. until Tavir’s next turn. Shocking Grasp +5 at touch, with advantage against metal armor. On hit, 1d8 lightning and the target loses reactions until its next turn. Prestidigitation for minor utility.",
+        "Burning Hands. Action, 1st-level slot, 15-ft. cone. Dexterity DC 13, 3d6 fire on failure, half on success. Thunderwave. Action, 1st-level slot, 15-ft. cube from Tavir. Constitution DC 13, 2d8 thunder and a 10-ft. push on failure, half damage without a push on success. Audible 300 ft. away."
+      ],
+      "tactics": "Hovers above the bridge rail and asks for a ceasefire. Uses Ray of Frost to slow a pursuer and Thunderwave if cut off."
+    },
+    {
+      "id": "mr2-reva-flintcoil",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "type": "Fey",
+      "size": "Medium",
+      "title": "Reva Flintcoil, quarry marker",
+      "difficulty": "Fighter 1",
+      "speed": "25 ft.",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Terran, Undercommon.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength +5 and Constitution +4 saves. Leather 11 + Dexterity 2 + shield 2 gives AC 15. Dueling adds 2 damage to the one-handed axe. Advantage to hide in rocky ground. Customized mason’s background supplies Survival, Insight, mason’s tools and land vehicles."
+      ],
+      "actions": [
+        "Handaxe. Melee weapon attack +5, reach 5 ft., 1d6+5 slashing. With Stone’s Strength, 1d6+6 on the first weapon attack that turn if it hits. Activate while on the ground as a bonus action.",
+        "Control Hair. Action to move her 50-ft. rope up to 20 ft. If it ends in a visible creature’s space, Dexterity DC 11 or grappled. Escape DC 11. Rope AC 20, HP 20. It regains 1 HP at the start of Reva’s turn unless destroyed or Reva dies. Bonus action to release. Moving the rope again or Reva becoming incapacitated releases the creature.",
+        "Second Wind. Bonus action, once per short or long rest, recover 1d10+1 HP."
+      ],
+      "tactics": "Get the rope into a narrow approach before fighting. Use the rope on a runner and the handaxe on anyone who closes."
+    },
+    {
+      "id": "mr2-neral-ashcall",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "type": "Monstrosity",
+      "size": "Medium",
+      "title": "Neral Ashcall, imitation toll keeper",
+      "difficulty": "Barbarian 1",
+      "speed": "40 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 12. Keen Smell.",
+      "languages": "Common and Abyssal from background.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Perception +2",
+        "Deception +2",
+        "Insight +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength +5 and Constitution +4 saves. Natural armor 12 + Dexterity 2 gives 14, as does the separate Barbarian AC of 10 + Dexterity 2 + Constitution 2. Advantage on smell-based Perception checks. Customized voice-mimic background supplies Deception, Insight and its two languages."
+      ],
+      "actions": [
+        "Bite or hooves. Melee unarmed strike +5, reach 5 ft., 1d8+3 piercing or bludgeoning. Add 2 while raging.",
+        "Kicking Retreat. After a hoof attack on Neral’s turn, bonus action Disengage. Rampage. After reducing a creature to 0 HP with a melee attack on its turn, Neral can instead use its bonus action to move up to 20 ft. and bite.",
+        "Mimicry. Copy any sound Neral has heard. Insight DC 10 exposes the imitation.",
+        "Rage. Bonus action twice per long rest, lasts 1 minute. Advantage on Strength checks and saves, +2 to Strength melee damage, resistance to bludgeoning, piercing and slashing. Ends when unconscious or when a turn ends without an attack on a hostile creature or damage taken since the last turn."
+      ],
+      "tactics": "Calls from behind the toll booth in the keeper’s voice. If cornered, kicks and withdraws on turns when not starting Rage."
+    },
+    {
+      "id": "mr2-orr-mosswisp",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "type": "Fey",
+      "size": "Small",
+      "title": "Orr Mosswisp, shadow-route runner",
+      "difficulty": "Rogue 2",
+      "speed": "30 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Darkvision 120 ft. Passive Perception 16.",
+      "languages": "Understands, reads and writes Common and Undercommon. Cannot speak. Telepathy 30 ft. Rogue cant can be conveyed by signs.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity +5 and Intelligence +3 saves. Unarmored AC 10 + Dexterity 3. Expertise in Perception and Stealth. Immune to fear. Attacks and sight-based Perception have disadvantage in bright light. Gearless.",
+        "Customized courier background supplies Insight, Survival, Common and Undercommon. Uses no vocal components or weapons."
+      ],
+      "actions": [
+        "Claws. Melee unarmed strike +5, reach 5 ft., 1d8+3 slashing. Add Sneak Attack 1d6 once per turn with advantage, or when a non-incapacitated enemy of the target is within 5 ft. and Orr has no disadvantage.",
+        "Paralyzing Claws. After landing the claw attack, once per long rest, Constitution DC 12 or paralysis for up to 1 minute. Repeat at the end of each target turn. Elves and undead are immune.",
+        "Shadow Teleport. Bonus action, up to 30 ft. from dim light or darkness to a visible unoccupied space with dim light or darkness. Cunning Action. As a separate bonus-action choice, Dash, Disengage or Hide."
+      ],
+      "tactics": "Approaches through the darker path and tries to disable a pursuer. Favors a retreat or an ambush with an ally."
+    },
+    {
+      "id": "mr2-ixel-waker",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "type": "Aberration",
+      "size": "Medium",
+      "title": "Ixel Waker, relay keeper",
+      "difficulty": "Barbarian 2",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "ac": 14,
+      "hp": 21,
+      "hitDice": "2d12+2",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 11.",
+      "languages": "Deep Speech, Undercommon, Common and Dwarvish. Telepathic hub 30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 8,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Insight +1",
+        "Investigation +5",
+        "Perception +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength +4 and Constitution +3 saves. Natural armor 12 + Dexterity 2 is AC 14. HP 12 + 1 at first level and 7 + 1 at second. No wearable armor or carried items. Immune to prone.",
+        "Danger Sense grants advantage on visible Dexterity saves if not blinded, deafened or incapacitated. Reckless Attack on the first attack grants advantage on Strength melee weapon attacks that turn and gives opponents advantage on attacks until Ixel’s next turn. Eye rays use Intelligence DC 13. Customized relay background supplies Investigation, Insight and its two added languages."
+      ],
+      "actions": [
+        "Tentacles. Melee unarmed strike +4, reach 5 ft., 1d4+2 bludgeoning plus 1d4 psychic. Add 2 bludgeoning while raging.",
+        "Mind Spike. Action and target within 60 ft., Intelligence DC 13 or 1d6 psychic. Cover gives no benefit on this save. Spook. Action and target within 60 ft., Wisdom DC 13 or frightened until the start of Ixel’s next turn.",
+        "Mage Hand. Cast as an action to create a spectral hand within 30 ft. for up to 1 minute. On later turns use an action to manipulate an object. It can carry up to 10 lb. and cannot attack or activate magic items.",
+        "Rage. Bonus action twice per long rest, up to 1 minute. Advantage on Strength checks and saves, +2 Strength melee damage, resistance to bludgeoning, piercing and slashing. Ixel cannot cast or concentrate while raging. Rage ends when unconscious or if a turn ends without Ixel attacking a hostile creature or taking damage since the preceding turn."
+      ],
+      "tactics": "Holds a telepathic conference at a distance. Uses Spook to discourage a charge, then rages only if someone closes and negotiation fails."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tavir Rainbell",
+      "species": "Ki-rin",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-tavir-rainbell",
+      "size": "Medium",
+      "role": "Runs a wayside hospice at a high bridge.",
+      "motive": "Keep the storm bell ringing until an overdue patient gets across.",
+      "hook": "The bell rings from the wrong side of the ravine. Tavir asks the party to check the old crossing."
+    },
+    {
+      "name": "Reva Flintcoil",
+      "species": "Korred",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-reva-flintcoil",
+      "size": "Medium",
+      "role": "Marks safe footing and disputed claims at a slate quarry.",
+      "motive": "Stop someone cutting tally marks into a dangerous overhang.",
+      "hook": "Reva pays in iron hair rope for a witness who can identify the night crew."
+    },
+    {
+      "name": "Neral Ashcall",
+      "species": "Leucrotta",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-neral-ashcall",
+      "size": "Medium",
+      "role": "A voice mimic sheltering beneath a shuttered bridge toll.",
+      "motive": "Find out why the voice of the absent toll keeper is answering back.",
+      "hook": "Neral repeats the keeper’s warning about a washed-out crossing. It then repeats another voice asking to be let out."
+    },
+    {
+      "name": "Orr Mosswisp",
+      "species": "Meenlock",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-orr-mosswisp",
+      "size": "Small",
+      "role": "Carries written dispatches through forgotten light wells.",
+      "motive": "Recover an undelivered letter left at a flooded stair.",
+      "hook": "A voice inside the party’s thoughts asks them to follow fresh chalk marks into the dry part of the tunnel."
+    },
+    {
+      "name": "Ixel Waker",
+      "species": "Mindwitness",
+      "speciesPublication": "Monstrous Races 2",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr2-ixel-waker",
+      "size": "Medium",
+      "role": "Relays messages across a gap in a collapsed mining shaft.",
+      "motive": "Find the source of an extra voice that only arrives when the relay is open.",
+      "hook": "Ixel asks the party to stand exactly thirty feet apart and report which of them hears a third speaker."
+    }
+  ]
+}

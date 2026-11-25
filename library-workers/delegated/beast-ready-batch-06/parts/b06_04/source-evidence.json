@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Warhorse (Chain Mail Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Chain Mail",
+      "armorClass": 16,
+      "armorCategory": "heavy",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  },
+  {
+    "name": "Warhorse (Leather Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Leather",
+      "armorClass": 12,
+      "armorCategory": "light",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  },
+  {
+    "name": "Warhorse (Plate Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Plate",
+      "armorClass": 18,
+      "armorCategory": "heavy",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  },
+  {
+    "name": "Warhorse (Ring Mail Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Ring Mail",
+      "armorClass": 14,
+      "armorCategory": "heavy",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  },
+  {
+    "name": "Warhorse (Scale Mail Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Scale Mail",
+      "armorClass": 15,
+      "armorCategory": "medium",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  },
+  {
+    "name": "Warhorse (Splint Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Splint",
+      "armorClass": 17,
+      "armorCategory": "heavy",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  },
+  {
+    "name": "Warhorse (Studded Leather Barding)",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014, with official errata v2.0",
+    "printedPages": [
+      340
+    ],
+    "section": "Appendix A, Warhorse and Variant: Warhorse Armor",
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "url": "https://online.anyflip.com/pqhqn/sezy/index.html#p=341",
+    "localPrintWitness": " - 2026-11-21/DnD.5e/Rulebooks/Core/Monster ",
+    "localPrintSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "localPrintPdfPage": 341,
+    "localPrintCreditsPdfPage": 3,
+    "pageNumbering": "page 341 is printed folio 340.",
+    "digitalCrossCheckUrl": "https://www.dndbeyond.com/monsters/17049-warhorse",
+    "mmErrataUrl": "",
+    "errataEvidence": "The first printing gives Hooves +4 to hit. The official errata replace it with +6 for the 2014 Monster Manual Warhorse.",
+    "derivation": {
+      "baseName": "Warhorse",
+      "basePrintedPage": 340,
+      "variantTable": "Variant: Warhorse Armor",
+      "armor": "Studded Leather",
+      "armorClass": 13,
+      "armorCategory": "light",
+      "notes": "The base Warhorse provides hit points, speed, ability scores, CR, XP, Trampling Charge, and Hooves. The nearby sidebar supplies this variant's AC and states that barding does not change CR."
+    },
+    "equipmentSourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "equipmentPrintedPages": [
+      144,
+      145,
+      155
+    ],
+    "equipmentEvidence": "The Player's Handbook gives the armor's standard Stealth disadvantage and Strength threshold where applicable, and identifies barding as armor fitted to an animal. The variant uses the printed 60-ft. speed and adds no inferred armor-proficiency penalty.",
+    "mountedCombatUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat#MountedCombat",
+    "appearanceEvidence": "Editorial description based on the approved existing neutral horse image and the printed armor type. The shared portrait depicts the animal without barding.",
+    "habitatEvidence": "Editorial tags based on trained warhorses and places where they are ridden or housed.",
+    "artGroup": "riding-warhorse"
+  }
+]

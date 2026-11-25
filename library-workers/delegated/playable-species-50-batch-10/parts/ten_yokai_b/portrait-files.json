@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Kitsune",
+    "file": "portraits/kitsune.png",
+    "sha256": "d7078b6eb3598a8ec13abd69e01c872a1ce1342eeb9cf2b9bd9d5f9d6304a748",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Oniborne",
+    "file": "portraits/oniborne.png",
+    "sha256": "d14a954bd7ce97700313e9b3e5502f277c094691801de59c1a3281e2ac96268a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Ryokido",
+    "file": "portraits/ryokido.png",
+    "sha256": "fd10369fb4de332599f78ea328580bd1df5ca6cec8e81c46d647f861fb818458",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Tatsumi",
+    "file": "portraits/tatsumi.png",
+    "sha256": "35c6a2a8280bc97e1a017e7b1adcc41d4eb44a824b8a7b8c287d5f8a1b10b40d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

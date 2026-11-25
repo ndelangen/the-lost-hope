@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Grilp",
+    "slug": "grilp",
+    "caption": "Grilp · Original bestiary portrait",
+    "id": "monster-f52bfe74649595cbdd2e39df:5a1bfe6e54c81f75ea208ebf",
+    "entry": "monster-f52bfe74649595cbdd2e39df",
+    "version": "5a1bfe6e54c81f75ea208ebf",
+    "suffix": "encounters-73/grilp.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-73/grilp.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-73/event-drafts/grilp-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 73 2026-11-24/event-drafts/grilp-event-v1.png",
+    "overrides": [],
+    "sha256": "e7d1b1cf55b380a015abb45b55cff94385f12ff8cebaf255df6dff927e56354f",
+    "bytes": 2459747
+  }
+]

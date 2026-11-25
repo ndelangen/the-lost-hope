@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Orog",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium deep orc (Humanoid). +6 Strength, −2 Dexterity, −2 Wisdom, +2 Charisma. Land speed 30 ft. Darkvision 120 ft. and +2 natural armor.",
+      "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds an orog for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+      "Fire resistance 5 and cold resistance 5.",
+      "+2 racial bonus on Craft (armorsmithing) and Craft (weaponsmithing) checks.",
+      "Racial proficiency with the greatsword and throwing axe.",
+      "Orc Blood. An orog counts as an orc for racial effects, including the use or creation of magic items with orc-specific powers.",
+      "Orc and Undercommon are automatic. Bonus languages are Common, Dwarven, Elven, Goblin, and Giant.",
+      "Class Hit Dice only, LA +2, favored class Fighter. One class level puts a starting orog at ECL 3.",
+      "Underdark supplies the 3.5 advancement entry and refers to Races of Faerûn, pp. 71–73, for the detailed racial traits."
+    ]
+  }
+]

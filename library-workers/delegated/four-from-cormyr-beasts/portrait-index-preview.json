@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-9ebc6338af717f98b59c8ac5",
+    "version": "56cdce808524632c6063b89c",
+    "name": "Pernicon",
+    "file": "images/four-from-cormyr-beasts/pernicon.png",
+    "sha256": "ce218369b75c26fdb35d8cd3e62dba89db8ca246f28921cd518a534fb9e342ea",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-70e45cb538bb63128168ca05",
+    "version": "b12d3646d75617ddac8bfb8d",
+    "name": "Rot Grub",
+    "file": "images/four-from-cormyr-beasts/rot-grub.png",
+    "sha256": "2b8bfafc9b9f401c6dd1d6d6747b76d2c1973d8fb0baac077b4f98b42d52dc1e",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Fire Lizard",
+    "version": {
+      "key": "dfc68d0ea9472e4e4ec1770c",
+      "publication": "Undermountain: Stardock",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit points",
+          "60"
+        ],
+        [
+          "Hit dice",
+          "10"
+        ],
+        [
+          "Size",
+          "G, 30 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "9"
+        ],
+        [
+          "THAC0",
+          "11"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–8 / 1–8 / 2–16"
+        ],
+        [
+          "XP",
+          "3000"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Obscured chamber in the Crystal Labyrinth"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A wingless, 30-foot lizard with reddish scales, a bright red underside, and massive fangs."
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Fire-based attacks"
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Claws and bite · Two raking claws deal 1–8 each. The bite deals 2–16.",
+            "Fiery cone · The fire lizard can breathe fire at the same time as it attacks with claws and bite. The cone is 15 feet long, 5 feet wide at the mouth and 10 feet wide at the far end. It deals 2–12 fire damage, halved on a successful save vs. breath weapon."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Interrupted meal · The lizard is already awake when the party reaches its chamber. It follows if they immediately retreat. If it comes under serious attack, it retreats to tend its wounds."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "One fire lizard with 60 HP. Steady (11) morale. Animal intelligence (1). Neutral. Magic resistance Nil.",
+            "Steven E. Schend, Undermountain: Stardock (TSR, ©1996), The Crystal Labyrinth, Encounter 2: Where There’s Smoke, p. 19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Fire Lizard": true,
+      "fire lizard crystal labyrinth fiery cone": true
+    },
+    "hash": "9e18c38ba20b7cbd11b86d527f2d1c483e2dd798ff16f769e79b1849a1ca884a",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Bookworm",
+    "version": {
+      "key": "931e18dfbbe5596d76e682b8",
+      "publication": "Undermountain: Stardock",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "2"
+        ],
+        [
+          "Hit points",
+          "1"
+        ],
+        [
+          "Size",
+          "T, 1 in. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12, Br 3"
+        ],
+        [
+          "Attacks per round",
+          "0"
+        ],
+        [
+          "Damage per attack",
+          "0"
+        ],
+        [
+          "XP",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Shelves in the Stardock study"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tiny, normally gray worm that can change its color to blend in."
+          ]
+        },
+        {
+          "title": "Special defenses mechanics",
+          "lines": [
+            "Camouflage · The bookworm changes its color to match its surroundings. Opponents take a −6 penalty on surprise rolls."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Shelf contingency · When any living being touches an item on a shelf, the spell releases 50 bookworms into that shelf and its contents. Each bookworm has 1 HP.",
+            "Rescue the documents · The party has roughly five rounds to save 1d12 parchments, books, tomes, or maps. Of the saved items, 1d4 are in a non-illithid language."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Unreliable (2) morale. Nonintelligent (0). Neutral. The printed block leaves Hit Dice blank and gives Nil for THAC0, special attacks, and magic resistance.",
+            "Steven E. Schend, Undermountain: Stardock (TSR, ©1996), The Stardock, Area 2B: The Study, p. 28."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Bookworm": true,
+      "bookworm stardock shelves camouflage": true
+    },
+    "hash": "43d3d8e861be4dcbfc9e28ffa13154681fb6a56228fe13717126697ba05bcbce",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

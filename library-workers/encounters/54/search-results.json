@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Human Guard",
+    "query": "gray chain shirt town gates overwhelm",
+    "condition": "Restrained",
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Human Scoundrel",
+    "query": "parrying dagger warehouse districts ambusher",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  }
+]

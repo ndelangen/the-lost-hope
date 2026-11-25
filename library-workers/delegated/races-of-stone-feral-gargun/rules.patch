@@ -1,0 +1,161 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -311757,6 +311757,28 @@
+       ]
+     },
+     {
++      "name": "Feral Gargun",
++      "kind": "species",
++      "publication": "Races of Stone (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Monstrous Humanoid with 30-ft. land speed and 60-ft. black-and-white darkvision. Full ancestry gives +4 Strength, +2 Dexterity, +4 Constitution, −2 Intelligence, and −2 Charisma.",
++        "Full ancestry gives +2 natural armor. Cold resistance 5 applies to both mundane and magical cold damage.",
++        "Two racial Hit Dice give 2d8, BAB +2, base Fortitude +0, Reflex +3, and Will +3. One racial feat and 5 × (2 + Intelligence modifier) skill points. Racial class skills are Climb, Hide, Jump, Listen, Search, Spot, and Survival.",
++        "Racial proficiency covers simple weapons. Armor and shield proficiency come from other sources, such as class.",
++        "The full ancestry has two claws dealing 1d6 piercing and slashing damage each. In a full attack with a manufactured weapon, a free claw can be used as a secondary attack.",
++        "Powerful Build counts size as one category larger when advantageous on opposed checks with size modifiers and against size-dependent special attacks. It enables weapons one size larger and preserves actual space and reach. It stacks with size changes that preserve the trait.",
++        "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
++        "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
++        "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items.",
++        "The language entry gives Gol-Kaa. Favored class Barbarian. Level adjustment +2 gives ECL 4 with the two racial Hit Dice before adding class levels.",
++        "The optional four-level Feral Gargun monster class starts with +2 Strength, −2 Intelligence, −2 Charisma, 30-ft. speed, darkvision 60 ft., Cold resistance 5, Goliath Blood, and Mountain Movement.",
++        "Monster-class level 1 gives 1d8, BAB +1, base Fortitude +0, Reflex +2 and Will +2, one feat, and two 1d4 claws. Level 2 adds +2 Strength, +2 Constitution, +1 natural armor, and Acclimated.",
++        "Monster-class level 3 adds the second 1d8, BAB +2 total, base Fortitude +0, Reflex +3 and Will +3, Powerful Build, and 1d6 claws. Level 4 adds +2 Constitution and +2 Dexterity and brings natural armor to +2 total.",
++        "Skill points for the progression are (2 + Intelligence modifier) × 4 at 1st level and (2 + Intelligence modifier) at 3rd. The four levels incorporate level adjustment. Complete the progression before multiclassing. Table 4–4 lists CR 1, 1, 2, and 2."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+       "name": "Shifter; Longtooth",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1606,6 +1606,85 @@
+       "tactics": "Have the party hold the dry platform while checking the lock’s catch below. Keep the trident for underwater defence. Use the net only from the platform against a target above water."
+     },
+     {
++      "id": "feral-gargun-glacier-wayfinder-35e",
++      "title": "Feral Gargun glacier wayfinder, 2 Monstrous Humanoid HD and Ranger 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 3. ECL 5.",
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "ac": 16,
++      "hp": 31,
++      "hitDice": "3d8+12",
++      "initiative": 2,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 19,
++        "DEX": 14,
++        "CON": 18,
++        "INT": 10,
++        "WIS": 13,
++        "CHA": 6
++      },
++      "skills": ["Climb +10", "Jump +10", "Listen +3", "Spot +5", "Survival +3"],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Gol-Kaa",
++      "traits": [
++        "Leather armor +2, natural armor +2, Dexterity +2. Touch 12, flat-footed 14. BAB +3, grapple +11 with Powerful Build. Fortitude +6, Reflex +7, Will +4.",
++        "Space and natural reach 5 ft. Powerful Build allows the use of a Large battleaxe in one hand.",
++        "Cold resistance 5. Alertness, Weapon Focus (claw), and class bonus Track. Wild Empathy −1.",
++        "Favored enemy Giant grants +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot and Survival against giants.",
++        "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
++        "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
++        "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items."
++      ],
++      "actions": [
++        "Large battleaxe +7 melee, 2d6+4 slashing, critical ×3, 5-ft. reach.",
++        "Primary claws +8 melee, 1d6+4 piercing and slashing each, 5-ft. reach. Use both claws on a full attack when fighting with claws alone.",
++        "With a full attack using the battleaxe in one hand, add the free claw at +3 melee, 1d6+2 piercing and slashing."
++      ],
++      "tactics": "Sava wants the party to help move the waymarks above the crumbling ice. She shows them where a new path crosses the ridge, then checks for giant tracks before leading anyone across."
++    },
++    {
++      "id": "feral-gargun-river-salvage-guide-35e",
++      "title": "Feral Gargun river salvage guide, Feral Gargun monster class 2",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 2.",
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "ac": 12,
++      "hp": 14,
++      "hitDice": "1d8+3",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 17,
++        "DEX": 12,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": ["Climb +7", "Jump +3", "Survival +4"],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Gol-Kaa",
++      "traits": [
++        "Unarmored. Natural armor +1, Dexterity +1. Touch 11, flat-footed 11. BAB +1, grapple +4. Fortitude +3, Reflex +3, Will +2.",
++        "Space and natural reach 5 ft. Toughness adds 3 hp. Four ranks each in Climb and Survival. Jump is untrained.",
++        "Monster-class level 2 has one Hit Die, 1d4 claws and cold resistance 5. Powerful Build and 1d6 claws arrive at level 3.",
++        "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
++        "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
++        "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items."
++      ],
++      "actions": [
++        "Shortspear +4 melee, 1d6+3 piercing, critical ×2, 5-ft. reach. Thrown +2 ranged, 20-ft. increment and the same damage.",
++        "Primary claws +4 melee, 1d4+3 piercing and slashing each, 5-ft. reach. Use both claws on a full attack when fighting with claws alone.",
++        "With a full attack using the shortspear in one hand, add the free claw at −1 melee, 1d4+1 piercing and slashing."
++      ],
++      "tactics": "Gorren points out the ledge where a toll chest dropped during the ferry crossing. He offers to climb down on the river side if the party holds the raft against the pier."
++    },
++    {
+       "id": "elan-seal-escort-35e",
+       "title": "Elan night courier escort, Fighter 1",
+       "origin": "Original DM Library NPC",
+@@ -2507,6 +2586,28 @@
+       "hook": "Bekra can hear the ferry bell through the flood wall. She needs someone in the wheelhouse to tell her when to let go."
+     },
+     {
++      "species": "Feral Gargun",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Stone (2004)",
++      "name": "Sava of Rethma",
++      "build": "feral-gargun-glacier-wayfinder-35e",
++      "role": "Glacier wayfinder and Ranger.",
++      "motive": "Shift the route away from an ice shelf that has started to break.",
++      "hook": "Sava knows where the ridge takes a safe turn. She needs the party’s help moving the old waymarks before travelers follow them onto the shelf."
++    },
++    {
++      "species": "Feral Gargun",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Stone (2004)",
++      "name": "Gorren of Vekra",
++      "build": "feral-gargun-river-salvage-guide-35e",
++      "role": "River salvage guide and Feral Gargun monster class 2.",
++      "motive": "Retrieve a missing toll chest before the river rises over the ledge.",
++      "hook": "Gorren can climb down to the chest while the party holds the raft at the pier."
++    },
++    {
+       "species": "Dragonborn (Ravenite; White)",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -3414,6 +3414,7 @@
+ Fenthaza	monster	Monstrosity	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast		4
+ Feonor	monster	Humanoid	Baldur's Gate: Descent Into Avernus	2014 fifth edition	Wizards of the Coast		12
+ Feral Ashenwight	monster	Undead	Phandelver and Below: The Shattered Obelisk	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3805742-feral-ashenwight	5
++Feral Gargun	species	Monstrous Humanoid	Races of Stone (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144379M	
+ Feral Hunter	monster	Fey	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	3.0
+ Feral Hunter	monster	Medium Fey	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		3
+ Feral Tiefling	species		Sword Coast Adventurer's Guide	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/40-feral-tiefling	

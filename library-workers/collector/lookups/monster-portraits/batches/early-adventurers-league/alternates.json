@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Gnawb",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/gnawb/old-gnawbone-filip-burburan.png",
+    "artist": "Old Gnawbone by Filip Burburan · Adventures in the Forgotten Realms",
+    "kind": "illustration",
+    "sha256": "15f35a014919d1204fa2bfac4f38761ff1da45a0400f1accffca797507ffa640",
+    "reference": "https://magic.wizards.com/en/news/feature/legends-adventures-forgotten-realms-2021-07-16"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Gnawb",
+    "publication": "DDEP1 - Corruption in Kryptgarden",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/gnawb/old-gnawbone-randy-vargas.png",
+    "artist": "Old Gnawbone by Randy Vargas · Adventures in the Forgotten Realms · Showcase",
+    "kind": "illustration",
+    "sha256": "c534ea618110239dd78f29b9d06affdf671ce2b70b43895636ae5860b8ebae12",
+    "reference": "https://magic.wizards.com/en/news/feature/legends-adventures-forgotten-realms-2021-07-16"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Spernik (Cult Fanatic)",
+    "publication": "DDEX1-05 - The Courting of Fire",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/spernik-cult-fanatic/cult-fanatic-2014-related.webp",
+    "artist": "Related Cult Fanatic art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "b31e3372b373d7c59e966794be789593b351976857711dee579cfc384794e58c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Cult%20Fanatic.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Spernik (Cult Fanatic)",
+    "publication": "DDEX1-05 - The Courting of Fire",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/spernik-cult-fanatic/dragonclaw-related.webp",
+    "artist": "Related Cult of the Dragon art · Hoard of the Dragon Queen",
+    "kind": "illustration",
+    "sha256": "521caf100e27e812fa2e010acbd7f1b928ed9f87b6674460a1439a8974274eb0",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/HotDQ/Dragonclaw.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Bandit Mage",
+    "publication": "DDEX2-07 - Bounty in the Bog",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/bandit-mage/bandit-captain-2014-related.webp",
+    "artist": "Related Bandit Captain art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5bf384077a9eeec25453da021b2fe5b45d4d9822165f2be2e468aca7485aba9e",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Bandit%20Captain.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Bandit Mage",
+    "publication": "DDEX2-07 - Bounty in the Bog",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/bandit-mage/archmage-2014-related.webp",
+    "artist": "Related Archmage art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "f4cf4e545b9f7e436c4bdabca003a8ef02723f767dd949378b6d8c03fdfff8d8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Archmage.webp"
+  }
+]

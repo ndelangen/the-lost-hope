@@ -1,0 +1,328 @@
+[
+  {
+    "name": "Deer",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 12. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender red deer with a russet coat, pale throat, cloven hooves, and branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Forest edges",
+      "Meadows"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 123. ",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 2 (1d4) piercing damage on a hit."
+    }
+  },
+  {
+    "name": "Deer",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 12. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slender red deer with a russet coat, pale throat, cloven hooves, and branching antlers.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Forest edges",
+      "Meadows"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 321. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 2 (1d4) piercing damage on a hit."
+    }
+  },
+  {
+    "name": "Mule",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A brown mule with long donkey-like ears, a short dark mane, a gray muzzle, and narrow hooves.",
+    "habitats": [
+      "Hills",
+      "Desert",
+      "Urban",
+      "Farms",
+      "Trade roads",
+      "Mountain trails"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 145. ",
+      "Traits": "Beast of Burden. Treat the mule as Large when calculating its carrying capacity.\nSure-Footed. The mule has advantage on Strength or Dexterity saves against an effect that would knock it prone.",
+      "Actions": "Hooves. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 4 (1d4 + 2) bludgeoning damage on a hit."
+    }
+  },
+  {
+    "name": "Mule",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A brown mule with long donkey-like ears, a short dark mane, a gray muzzle, and narrow hooves.",
+    "habitats": [
+      "Hills",
+      "Desert",
+      "Urban",
+      "Farms",
+      "Trade roads",
+      "Mountain trails"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 333. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page334.html",
+      "Traits": "Beast of Burden. Treat the mule as Large when calculating its carrying capacity.\nSure-Footed. The mule has advantage on Strength or Dexterity saves against an effect that would knock it prone.",
+      "Actions": "Hooves. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 4 (1d4 + 2) bludgeoning damage on a hit."
+    }
+  },
+  {
+    "name": "Tiger",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +6. Darkvision 60 ft. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular striped cat with an ochre coat, ivory cheeks, rounded ears, heavy forepaws, and a long tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Jungle",
+      "Tall grass"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 156. ",
+      "Traits": "Keen Smell. Use advantage on Wisdom (Perception) checks based on smell.\nPounce. After moving straight toward a creature for at least 20 ft., the tiger forces a DC 13 Strength saving throw if it hits that creature with Claw on the same turn. The creature falls prone on a failure. If that target is prone, the tiger can make one Bite against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 8 (1d10 + 3) piercing damage on a hit.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) slashing damage on a hit."
+    }
+  },
+  {
+    "name": "Tiger",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +6. Darkvision 60 ft. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular striped cat with an ochre coat, ivory cheeks, rounded ears, heavy forepaws, and a long tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Jungle",
+      "Tall grass"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 339. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page340.html",
+      "Traits": "Keen Smell. Use advantage on Wisdom (Perception) checks based on smell.\nPounce. After moving straight toward a creature for at least 20 ft., the tiger forces a DC 13 Strength saving throw if it hits that creature with Claw on the same turn. The creature falls prone on a failure. If that target is prone, the tiger can make one Bite against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 8 (1d10 + 3) piercing damage on a hit.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) slashing damage on a hit."
+    }
+  }
+]

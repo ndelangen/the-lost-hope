@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Giant Snapping Turtle",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "copyrightYear": 2017,
+    "section": "Appendix D: Monsters and NPCs",
+    "sourceHeading": "Giant Snapping Turtle",
+    "pdfPage": 223,
+    "printedPages": [
+      222
+    ],
+    "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+    "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=223",
+    "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=223",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+    "digitalReference": "https://www.dndbeyond.com/monsters/33030-giant-snapping-turtle",
+    "errataUrl": "",
+    "sourceDistinctions": [
+      "The book separately gives King Toba 120 HP and enhanced saving throws against magic on p. 83. Neither modifier belongs to the standard appendix creature.",
+      "Stable lists a DC 10 Dexterity check and all movement to stand without granting a different action economy.",
+      "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+    ],
+    "appearanceEvidence": "Page 222 describes shells up to 12 ft. across and powerful snapping jaws. Shell scutes, beak details, and colors are editorial natural-history choices for the original portrait.",
+    "habitatEvidence": "Appendix B encounter table p. 195 gives Beach, Rivers, and Swamp. Chapter 2 p. 36 identifies Snapping Turtle Bay.",
+    "artGroup": "giant-snapping-turtle"
+  },
+  {
+    "name": "Hadrosaurus",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "copyrightYear": 2017,
+    "section": "Appendix D: Monsters and NPCs",
+    "sourceHeading": "Hadrosaurus",
+    "pdfPage": 225,
+    "printedPages": [
+      224
+    ],
+    "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+    "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=225",
+    "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=225",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+    "digitalReference": "https://www.dndbeyond.com/monsters/17241-hadrosaurus",
+    "errataUrl": "",
+    "sourceDistinctions": [
+      "The actual printed STR value is 15 (+2). OCR misreads it as −2. The printed Tail attack uses +4 to hit and 1d10 + 2.",
+      "The Racing Dinosaurs table in chapter 1 uses racetrack statistics. The encounter uses the appendix defaults.",
+      "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+    ],
+    "appearanceEvidence": "The description on p. 224 specifies a bony head crest and semi-quadrupedal herbivore form. The crest contour and colors in the original are editorial.",
+    "habitatEvidence": "Appendix B table p. 194 places hadrosauruses in jungle, river, and swamp encounters. The p. 197 encounter describes a grazing herd.",
+    "artGroup": "hadrosaurus"
+  },
+  {
+    "name": "Jaculi",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "copyrightYear": 2017,
+    "section": "Appendix D: Monsters and NPCs",
+    "sourceHeading": "Jaculi",
+    "pdfPage": 226,
+    "printedPages": [
+      224,
+      225
+    ],
+    "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+    "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=226",
+    "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=226",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+    "digitalReference": "https://www.dndbeyond.com/monsters/33039-jaculi",
+    "errataUrl": "",
+    "sourceDistinctions": [
+      "Spring’s range and advantage threshold are distinct. The added damage follows a successful Spring Bite independent of the 10-ft. advantage threshold.",
+      "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+    ],
+    "appearanceEvidence": "Appendix D p. 224 describes a 15-ft. snake whose scales imitate wood and stone. The credited plate on the same folio shows a cooler-toned spined head. The original portrait uses a different composition.",
+    "habitatEvidence": "Appendix D p. 224 describes damp climates, rainforests, and cool dungeons. Appendix B p. 195 adds River and Ruins encounter categories.",
+    "artGroup": "jaculi"
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "copyrightYear": 2017,
+    "section": "Appendix D: Monsters and NPCs",
+    "sourceHeading": "Quetzalcoatlus",
+    "pdfPage": 231,
+    "printedPages": [
+      229,
+      230
+    ],
+    "pageNumbering": "This copy counts the cover as page 1. The index is one greater than the printed folio.",
+    "sourceUrl": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=231",
+    "url": "https://online.anyflip.com/njbp/dfek/mobile/index.html#p=231",
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "publisherListing": "https://www.dndbeyond.com/sources/dnd/toa",
+    "digitalReference": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+    "errataUrl": "",
+    "sourceDistinctions": [
+      "The Dive Attack trait gives no separate damage type for the extra dice. The underlying Bite deals piercing damage.",
+      "The printed Bite targets one creature. The nearby Pterafolk belongs to another entry.",
+      "The 2021 publisher errata has no alteration to this creature’s Appendix D stat block."
+    ],
+    "appearanceEvidence": "Page 229 describes a pteranodon relative with a wingspan over 30 ft. and a quadrupedal ground gait. Colors, crest and membrane anatomy are editorial pterosaur portrait choices.",
+    "habitatEvidence": "Appendix B p. 194 places quetzalcoatluses in Beach, Mountains, and Rivers encounter columns. The p. 198 encounter describes a flight overhead.",
+    "artGroup": "quetzalcoatlus"
+  }
+]

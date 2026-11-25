@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Corvum",
+    "file": "portraits/corvum.png",
+    "sha256": "9779249a7dd5e8ff902562c3dd278b537b0ef3ab6921713cf1197f5df8141481",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Gallus",
+    "file": "portraits/gallus.png",
+    "sha256": "e59d7d851d975f086f51ba1ff8e766bd774612976427f4469499c4718267369b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Luma",
+    "file": "portraits/luma.png",
+    "sha256": "b910d2393362e88909f705f7e039096be2526291735b1f1e36b254407fd98c86",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Raptor",
+    "file": "portraits/raptor.png",
+    "sha256": "f984e223846014045322685e61c0723a138ce1948864e412ae715249d825055a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Strig",
+    "file": "portraits/strig.png",
+    "sha256": "0f0f74b96d94ab2e5ad574dd0a390f2c3dd617c2e4679126e63aaa4a8c3b0289",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Giant Badger",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., burrow 10 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 11. Languages none.",
+    "appearance": "A pony-sized, striped badger with opal-like eyes and obsidian-like teeth and digging claws.",
+    "habitats": [
+      "Urban",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Mulmaster Undone (DDEP2), V2, pp. 55, 42, 52, Track 2, Appendix NPC/Monster Statistics Part 1 and Luck Runs Out.",
+      "Traits": "Keen Smell. The badger has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 6 (2d4 + 1) slashing damage.",
+      "At the table": "Four badgers tainted by the Black Earth cult fight to the death in Tymora’s temple. The Combat Awards table on p. 52 assigns 100 XP per giant badger for the adventure."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Giant Shark",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 126,
+    "hitDice": "11d12 + 55",
+    "speed": "0 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Blindsight 60 ft. Passive Perception 13. Languages none. AC 13 from natural armor.",
+    "appearance": "A massive gray shark with a broad wedge-shaped head and prominent dorsal fin.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ],
+    "sections": {
+      "Printed source": "Mulmaster Undone (DDEP2), V2, pp. 92, 83, 89, Track 4, DM Appendix and Predators From Below.",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attack rolls against any creature below its maximum HP.\nWater Breathing. It breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit for 22 (3d10 + 6) piercing damage.",
+      "At the table": "One giant shark and four merrow patrol the water near the Dragon Turtle. A very strong party adds a shark and a merrow. When the party approaches by boat, the encounter has the creatures capsize the vessel in the first round. They are heavily obscured while approaching directly from below."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Giant Vulture",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, neutral evil",
+    "ac": 10,
+    "hp": 22,
+    "hitDice": "3d10 + 6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Passive Perception 13. Languages understands Common but cannot speak.",
+    "appearance": "A heavy-bodied vulture with broad wings, a bare head, and a hooked bill.",
+    "habitats": [
+      "Hills",
+      "Aerie"
+    ],
+    "sections": {
+      "Printed source": "Mulmaster Undone (DDEP2), V2, pp. 75, 76, 63, Track 3, DM Appendix and The Aerie.",
+      "Traits": "Keen Sight and Smell. The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.\nPack Tactics. The vulture has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 9 (2d6 + 2) slashing damage.",
+      "At the table": "Each of the four trained vultures at the aerie carries two armed and armored riders and has two saddles. Getting them to obey takes a DC 13 Wisdom (Animal Handling) check. At least 40 lb. of raw meat gives advantage on the handling checks. Speaking with the vultures through speak with animals gives all characters advantage on these checks for the rest of the adventure."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Medium Beast, unaligned",
+    "ac": 14,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Passive Perception 13. Languages none. AC 14 from studded leather barding.",
+    "appearance": "An alert gray wolf wearing fitted studded leather barding.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Mulmaster Undone (DDEP2), V2, pp. 37, 13, 23, 24, Track 1, DM Appendix and Emerald Enclave reinforcement.",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of that creature and is not incapacitated.",
+      "Actions": "Scimitar (printed action). Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 4 (1d6 + 1) slashing damage.",
+      "At the table": "If the party rescues the Emerald Enclave halfling, the halfling and wolf aid the fight with Crannak. They arrive at the end of round one and enter initiative in round two."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    }
+  },
+  {
+    "name": "Young Bulette (Rhinoceros)",
+    "publication": "DDEP2 - Mulmaster Undone V2",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "40 ft., burrow 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Tremorsense 30 ft. Passive Perception 11. Languages none. AC 11 from natural armor.",
+    "appearance": "A squat juvenile bulette with a rocky armored back, digging claws, and opalescent eyes.",
+    "habitats": [
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Mulmaster Undone (DDEP2), V2, pp. 57, 46, 47, 52, Track 2, Appendix NPC/Monster Statistics Part 2 and Staging Area.",
+      "Traits": "Charge. If the young bulette moves at least 20 ft. straight toward a target and then hits it with Claw on the same turn, the hit deals an extra 9 (2d8) slashing damage. A creature hit this way must pass a DC 15 Strength save or fall prone.",
+      "Actions": "Claw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit for 14 (2d8 + 5) slashing damage.",
+      "At the table": "Two young bulettes guard the staging area. Each starts at half HP for a very weak party. Add a young bulette for a very strong party. They habitually burrow and emerge among their opponents."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

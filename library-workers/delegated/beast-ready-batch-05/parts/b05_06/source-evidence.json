@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Poisonous Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      149
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16982-poisonous-snake",
+    "xp": 25,
+    "xpSource": "Basic Rules (2018), and printed p. 149.",
+    "habitatSource": "Editorial search terms for a small venomous snake. The stat block supplies a swim speed and gives no native habitat.",
+    "appearanceSource": "The printed size is Tiny. The selected coral-snake pattern and colors are editorial.",
+    "sourceDistinctions": [
+      "The two printings agree. The initial piercing damage is 1 HP. The Constitution save affects the poison damage only."
+    ],
+    "viewerPages": [
+      149
+    ]
+  },
+  {
+    "name": "Poisonous Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      334
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16982-poisonous-snake",
+    "xp": 25,
+    "xpSource": "Monster Manual (2014), printed p. 334.",
+    "habitatSource": "Editorial search terms for a small venomous snake. The stat block supplies a swim speed and gives no native habitat.",
+    "appearanceSource": "The printed size is Tiny. The selected coral-snake pattern and colors are editorial.",
+    "sourceDistinctions": [
+      "The two printings agree. The initial piercing damage is 1 HP. The Constitution save affects the poison damage only.",
+      "The official Monster Manual errata v2.0 does not revise this block."
+    ],
+    "viewerPages": [
+      335
+    ],
+    "errataUrl": ""
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      149
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16983-polar-bear",
+    "xp": 450,
+    "xpSource": "Basic Rules (2018), and printed p. 149.",
+    "habitatSource": "Editorial habitat terms from the ordinary animal. The base printed block gives a swim speed but names no habitat.",
+    "appearanceSource": "The base stat block identifies the Large polar bear. Coat, proportions, and other visual details are editorial and match the original portrait.",
+    "sourceDistinctions": [
+      "The base bear mechanics and statistics agree across both printings.",
+      "The 2018 Basic Rules page has no Cave Bear variant."
+    ],
+    "viewerPages": [
+      149
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      334
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/16983-polar-bear",
+    "xp": 450,
+    "xpSource": "Monster Manual (2014), printed p. 334.",
+    "habitatSource": "Editorial habitat terms from the ordinary animal. The base printed block gives a swim speed but names no habitat.",
+    "appearanceSource": "The base stat block identifies the Large polar bear. Coat, proportions, and other visual details are editorial and match the original portrait.",
+    "sourceDistinctions": [
+      "The base bear mechanics and statistics agree across both printings.",
+      "The Monster Manual prints the Cave Bear variant after the default Polar Bear. It adds 60-ft. darkvision to the cave bear only.",
+      "The official Monster Manual errata v2.0 does not revise the Polar Bear block."
+    ],
+    "viewerPages": [
+      335
+    ],
+    "errataUrl": ""
+  },
+  {
+    "name": "Pteranodon",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "printedPages": [
+      150
+    ],
+    "pageNumbering": "Printed folio and one-based page number agree.",
+    "url": "",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/17093-pteranodon",
+    "xp": 50,
+    "xpSource": "Basic Rules (2018), and printed p. 150.",
+    "habitatSource": "Coasts, sea cliffs and tropical islands are editorial encounter terms informed by the flying animal. The Basic Rules description has no habitat line.",
+    "appearanceSource": "Basic Rules p. 150 describes a flying reptile with a sharp toothless beak. Crest and colors are editorial features of the selected reused portrait.",
+    "sourceDistinctions": [
+      "The two printings agree on the mechanics. Flyby applies when the pteranodon flies out of an enemy’s reach."
+    ],
+    "viewerPages": [
+      150
+    ]
+  },
+  {
+    "name": "Pteranodon",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2014",
+    "printedPages": [
+      80
+    ],
+    "pageNumbering": "Printed Monster Manual folio. The local scan puts its cover on page 1, so the viewer page is one higher.",
+    "url": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "onlineComparisonUrl": "https://www.dndbeyond.com/monsters/17093-pteranodon",
+    "xp": 50,
+    "xpSource": "Monster Manual (2014), printed p. 80.",
+    "habitatSource": "The Monster Manual p. 79 Pteranodon description names dives for small marine prey, and the same page lists tropical islands among the chapter’s broader dinosaur habitats. Coastal cliffs are editorial.",
+    "appearanceSource": "Monster Manual p. 79 describes a 15-to-20-ft. wingspan and toothless beak. The backward crest, coloration and poses are editorial features of the selected reused portrait.",
+    "sourceDistinctions": [
+      "The two printings agree on the mechanics. Flyby applies when the pteranodon flies out of an enemy’s reach.",
+      "The official Monster Manual errata v2.0 does not revise this block."
+    ],
+    "viewerPages": [
+      81
+    ],
+    "errataUrl": "",
+    "supportingPages": [
+      79
+    ]
+  }
+]

@@ -1,0 +1,3180 @@
+{
+  "reviewed": 353,
+  "scalableProfiles": 126,
+  "remainingLookups": [],
+  "resolved": [
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Battle Familiar",
+      "kind": "monster",
+      "sourceName": "Battle Familiar",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Battle Familiar (Brute)",
+      "kind": "monster",
+      "sourceName": "Battle Familiar (Brute)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Battle Familiar (Flyer)",
+      "kind": "monster",
+      "sourceName": "Battle Familiar (Flyer)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Battle Familiar (Stalker)",
+      "kind": "monster",
+      "sourceName": "Battle Familiar (Stalker)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Dinosaur Spirit",
+      "kind": "beast",
+      "sourceName": "Dinosaur Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Dinosaur Spirit (Ankylosaur)",
+      "kind": "beast",
+      "sourceName": "Dinosaur Spirit (Ankylosaur)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Dinosaur Spirit (Triceratops)",
+      "kind": "beast",
+      "sourceName": "Dinosaur Spirit (Triceratops)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Dinosaur Spirit (Tyrannosaur)",
+      "kind": "beast",
+      "sourceName": "Dinosaur Spirit (Tyrannosaur)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Plant Spirit",
+      "kind": "monster",
+      "sourceName": "Plant Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Plant Spirit (Fungus)",
+      "kind": "monster",
+      "sourceName": "Plant Spirit (Fungus)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Plant Spirit (Tree)",
+      "kind": "monster",
+      "sourceName": "Plant Spirit (Tree)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Plant Spirit (Vine)",
+      "kind": "monster",
+      "sourceName": "Plant Spirit (Vine)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Vestige Companion",
+      "kind": "monster",
+      "sourceName": "Vestige Companion",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Vestige Companion (Celestial)",
+      "kind": "monster",
+      "sourceName": "Vestige Companion (Celestial)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Vestige Companion (Fiend)",
+      "kind": "monster",
+      "sourceName": "Vestige Companion (Fiend)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Arcana Unleashed",
+      "name": "Vestige Companion (Undead)",
+      "kind": "monster",
+      "sourceName": "Vestige Companion (Undead)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Big Water Slurpent",
+      "kind": "monster",
+      "sourceName": "Big Water Slurpent",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Birdsquirrel",
+      "kind": "beast",
+      "sourceName": "Birdsquirrel",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Boontu Monkey",
+      "kind": "beast",
+      "sourceName": "Boontu Monkey",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Crystal Cave Merfolk",
+      "kind": "monster",
+      "sourceName": "Crystal Cave Merfolk",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Dankwood Hag",
+      "kind": "monster",
+      "sourceName": "Dankwood Hag",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Dum-Dum Goblin",
+      "kind": "monster",
+      "sourceName": "Dum-Dum Goblin",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Dwarf",
+      "kind": "monster",
+      "sourceName": "Dwarf",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Great Kroom, Purple Worm",
+      "kind": "monster",
+      "sourceName": "Great Kroom, Purple Worm",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Hangry Otyugh",
+      "kind": "monster",
+      "sourceName": "Hangry Otyugh",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Hill Giant, Blorbo",
+      "kind": "monster",
+      "sourceName": "Hill Giant, Blorbo",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Adventure with Muk",
+      "name": "Saleeth the Couatl",
+      "kind": "monster",
+      "sourceName": "Saleeth the Couatl",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Baldur's Gate: Descent Into Avernus",
+      "name": "Sylvira Savikas",
+      "kind": "monster",
+      "sourceName": "Sylvira Savikas",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "The Book of Many Things",
+      "name": "Deck Defender",
+      "kind": "monster",
+      "sourceName": "Deck Defender",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "The Book of Many Things",
+      "name": "Reaper Spirit",
+      "kind": "monster",
+      "sourceName": "Reaper Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Candlekeep Mysteries",
+      "name": "Kharbek",
+      "kind": "monster",
+      "sourceName": "Kharbek",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Candlekeep Mysteries",
+      "name": "Zikran",
+      "kind": "monster",
+      "sourceName": "Zikran",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Arrigal",
+      "kind": "monster",
+      "sourceName": "Arrigal",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Cat Skeleton",
+      "kind": "monster",
+      "sourceName": "Cat Skeleton",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Luvash",
+      "kind": "monster",
+      "sourceName": "Luvash",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Assassin",
+      "kind": "monster",
+      "sourceName": "Vistana Assassin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Bandit",
+      "kind": "monster",
+      "sourceName": "Vistana Bandit",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Bandit Captain",
+      "kind": "monster",
+      "sourceName": "Vistana Bandit Captain",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Commoner",
+      "kind": "monster",
+      "sourceName": "Vistana Commoner",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Guard",
+      "kind": "monster",
+      "sourceName": "Vistana Guard",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Spy",
+      "kind": "monster",
+      "sourceName": "Vistana Spy",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Curse of Strahd",
+      "name": "Vistana Thug",
+      "kind": "monster",
+      "sourceName": "Vistana Thug",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Aradrine the Owl",
+      "kind": "monster",
+      "sourceName": "Aradrine the Owl",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Foghome",
+      "kind": "monster",
+      "sourceName": "Foghome",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Gryz Alakritos",
+      "kind": "monster",
+      "sourceName": "Gryz Alakritos",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Koris",
+      "kind": "monster",
+      "sourceName": "Koris",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Prolix Yusaf",
+      "kind": "monster",
+      "sourceName": "Prolix Yusaf",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Scribble",
+      "kind": "monster",
+      "sourceName": "Scribble",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Critical Role: Call of the Netherdeep",
+      "name": "Xot",
+      "kind": "monster",
+      "sourceName": "Xot",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Dungeon Master's Guide (2014)",
+      "name": "Avatar of Death",
+      "kind": "monster",
+      "sourceName": "Avatar of Death",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Dragonlance: Shadow of the Dragon Queen",
+      "name": "Cudgel Ironsmile",
+      "kind": "monster",
+      "sourceName": "Cudgel Ironsmile",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Dragonlance: Shadow of the Dragon Queen",
+      "name": "Tatina Rookledust",
+      "kind": "monster",
+      "sourceName": "Tatina Rookledust",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Eberron: Forge of the Artificer",
+      "name": "Homunculus Servant",
+      "kind": "monster",
+      "sourceName": "Homunculus Servant",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Eberron: Forge of the Artificer",
+      "name": "Steel Defender",
+      "kind": "monster",
+      "sourceName": "Steel Defender",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Hulil Lutan",
+      "kind": "monster",
+      "sourceName": "Hulil Lutan",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Karkethzerethzerus, the Sable Despoiler",
+      "kind": "monster",
+      "sourceName": "Karkethzerethzerus, the Sable Despoiler",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Oracs the Enduring",
+      "kind": "monster",
+      "sourceName": "Oracs the Enduring",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Raegrin Mau",
+      "kind": "monster",
+      "sourceName": "Raegrin Mau",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Explorer's Guide to Wildemount",
+      "name": "Three Earrings",
+      "kind": "monster",
+      "sourceName": "Three Earrings",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Eberron: Rising from the Last War",
+      "name": "Corrin Delmaco",
+      "kind": "monster",
+      "sourceName": "Corrin Delmaco",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Fizban's Treasury of Dragons",
+      "name": "Draconic Spirit",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Fizban's Treasury of Dragons",
+      "name": "Draconic Spirit (Chromatic)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Chromatic)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Fizban's Treasury of Dragons",
+      "name": "Draconic Spirit (Gem)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Gem)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Fizban's Treasury of Dragons",
+      "name": "Draconic Spirit (Metallic)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Metallic)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Fizban's Treasury of Dragons",
+      "name": "Drake Companion",
+      "kind": "monster",
+      "sourceName": "Drake Companion",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Ghosts of Saltmarsh",
+      "name": "Captain Xendros",
+      "kind": "monster",
+      "sourceName": "Captain Xendros",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Ghosts of Saltmarsh",
+      "name": "Krell Grohlg",
+      "kind": "monster",
+      "sourceName": "Krell Grohlg",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Ghosts of Saltmarsh",
+      "name": "Merfolk Scout",
+      "kind": "monster",
+      "sourceName": "Merfolk Scout",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Ghosts of Saltmarsh",
+      "name": "Sauriv",
+      "kind": "monster",
+      "sourceName": "Sauriv",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "name": "Battlehammer Dwarf",
+      "kind": "monster",
+      "sourceName": "Battlehammer Dwarf",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Icewind Dale: Rime of the Frostmaiden",
+      "name": "Kadroth",
+      "kind": "monster",
+      "sourceName": "Kadroth",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Infernal Machine Rebuild",
+      "name": "Dwarven Worker",
+      "kind": "monster",
+      "sourceName": "Dwarven Worker",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Infernal Machine Rebuild",
+      "name": "Tiefling Muralist",
+      "kind": "monster",
+      "sourceName": "Tiefling Muralist",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Afsoun Ghorbani",
+      "kind": "monster",
+      "sourceName": "Afsoun Ghorbani",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Gammon Xungoon",
+      "kind": "monster",
+      "sourceName": "Gammon Xungoon",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Kusa Xungoon",
+      "kind": "monster",
+      "sourceName": "Kusa Xungoon",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Laleh Ghorbani",
+      "kind": "monster",
+      "sourceName": "Laleh Ghorbani",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Lamai Tyenmo",
+      "kind": "monster",
+      "sourceName": "Lamai Tyenmo",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Madam Kulp",
+      "kind": "monster",
+      "sourceName": "Madam Kulp",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Myx Nargis Ruba",
+      "kind": "monster",
+      "sourceName": "Myx Nargis Ruba",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Ollin",
+      "kind": "monster",
+      "sourceName": "Ollin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Paloma",
+      "kind": "monster",
+      "sourceName": "Paloma",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Samira Arah",
+      "kind": "monster",
+      "sourceName": "Samira Arah",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Tonalli",
+      "kind": "monster",
+      "sourceName": "Tonalli",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Uzoma Baten",
+      "kind": "monster",
+      "sourceName": "Uzoma Baten",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "White Jade Emperor",
+      "kind": "monster",
+      "sourceName": "White Jade Emperor",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Journeys through the Radiant Citadel",
+      "name": "Young-Gi",
+      "kind": "monster",
+      "sourceName": "Young-Gi",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Lost Mine of Phandelver",
+      "name": "Gundren Rockseeker",
+      "kind": "monster",
+      "sourceName": "Gundren Rockseeker",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Lost Mine of Phandelver",
+      "name": "Nundro Rockseeker",
+      "kind": "monster",
+      "sourceName": "Nundro Rockseeker",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Spelljammer: Adventures in Space",
+      "name": "Aarakocra Spelljammer",
+      "kind": "monster",
+      "sourceName": "Aarakocra Spelljammer",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Spelljammer: Adventures in Space",
+      "name": "Fel Ardra",
+      "kind": "monster",
+      "sourceName": "Fel Ardra",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Monster Manual (2014)",
+      "name": "Troll (Loathsome Limb; Severed Arm)",
+      "kind": "monster",
+      "sourceName": "Troll (Loathsome Limb; Severed Arm)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Monster Manual (2014)",
+      "name": "Troll (Loathsome Limb; Severed Head)",
+      "kind": "monster",
+      "sourceName": "Troll (Loathsome Limb; Severed Head)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Monster Manual (2014)",
+      "name": "Troll (Loathsome Limb; Severed Leg)",
+      "kind": "monster",
+      "sourceName": "Troll (Loathsome Limb; Severed Leg)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Amarith Coppervein",
+      "kind": "monster",
+      "sourceName": "Amarith Coppervein",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Asha Vandree",
+      "kind": "monster",
+      "sourceName": "Asha Vandree",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Acolyte",
+      "kind": "monster",
+      "sourceName": "Drow Acolyte",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Assassin",
+      "kind": "monster",
+      "sourceName": "Drow Assassin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Bandit",
+      "kind": "monster",
+      "sourceName": "Drow Bandit",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Commoner",
+      "kind": "monster",
+      "sourceName": "Drow Commoner",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Cultist",
+      "kind": "monster",
+      "sourceName": "Drow Cultist",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Guard",
+      "kind": "monster",
+      "sourceName": "Drow Guard",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Noble",
+      "kind": "monster",
+      "sourceName": "Drow Noble",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Scout",
+      "kind": "monster",
+      "sourceName": "Drow Scout",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Drow Spy",
+      "kind": "monster",
+      "sourceName": "Drow Spy",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Eldeth Feldrun",
+      "kind": "monster",
+      "sourceName": "Eldeth Feldrun",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Glyphic Shroomlight",
+      "kind": "monster",
+      "sourceName": "Glyphic Shroomlight",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Jimjar",
+      "kind": "monster",
+      "sourceName": "Jimjar",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Khalessa Draga",
+      "kind": "monster",
+      "sourceName": "Khalessa Draga",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Kinyel Druu'giir",
+      "kind": "monster",
+      "sourceName": "Kinyel Druu'giir",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Mev Flintknapper",
+      "kind": "monster",
+      "sourceName": "Mev Flintknapper",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Ougalop",
+      "kind": "monster",
+      "sourceName": "Ougalop",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Peebles",
+      "kind": "monster",
+      "sourceName": "Peebles",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Shuushar the Awakened",
+      "kind": "monster",
+      "sourceName": "Shuushar the Awakened",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Sladis Vadir",
+      "kind": "monster",
+      "sourceName": "Sladis Vadir",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Svirfneblin Wererat",
+      "kind": "monster",
+      "sourceName": "Svirfneblin Wererat",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Topsy",
+      "kind": "monster",
+      "sourceName": "Topsy",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Turvy",
+      "kind": "monster",
+      "sourceName": "Turvy",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Viln Tirin",
+      "kind": "monster",
+      "sourceName": "Viln Tirin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Out of the Abyss",
+      "name": "Vizeran DeVir",
+      "kind": "monster",
+      "sourceName": "Vizeran DeVir",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "The Orrery of the Wanderer",
+      "name": "Dagdra Deepforge",
+      "kind": "monster",
+      "sourceName": "Dagdra Deepforge",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "The Orrery of the Wanderer",
+      "name": "Devil Dog",
+      "kind": "monster",
+      "sourceName": "Devil Dog",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "The Orrery of the Wanderer",
+      "name": "Gildha Duhn",
+      "kind": "monster",
+      "sourceName": "Gildha Duhn",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "The Orrery of the Wanderer",
+      "name": "Two Dry Cloaks",
+      "kind": "monster",
+      "sourceName": "Two Dry Cloaks",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Gundren Rockseeker",
+      "kind": "monster",
+      "sourceName": "Gundren Rockseeker",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Gwyn Oresong",
+      "kind": "monster",
+      "sourceName": "Gwyn Oresong",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Phandelver and Below: The Shattered Obelisk",
+      "name": "Nundro Rockseeker",
+      "kind": "monster",
+      "sourceName": "Nundro Rockseeker",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Plane Shift: Zendikar",
+      "name": "Emrakul",
+      "kind": "monster",
+      "sourceName": "Emrakul",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Plane Shift: Zendikar",
+      "name": "Kozilek",
+      "kind": "monster",
+      "sourceName": "Kozilek",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Plane Shift: Zendikar",
+      "name": "Ulamog",
+      "kind": "monster",
+      "sourceName": "Ulamog",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Player's Handbook (2014)",
+      "name": "Animated Object (Huge)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Huge)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Player's Handbook (2014)",
+      "name": "Animated Object (Large)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Large)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Player's Handbook (2014)",
+      "name": "Animated Object (Medium)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Medium)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Player's Handbook (2014)",
+      "name": "Animated Object (Small)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Small)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Player's Handbook (2014)",
+      "name": "Animated Object (Tiny)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Tiny)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Princes of the Apocalypse",
+      "name": "Nurvureem, The Dark Lady",
+      "kind": "monster",
+      "sourceName": "Nurvureem, The Dark Lady",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Cipolla",
+      "kind": "monster",
+      "sourceName": "Cipolla",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Iaseda",
+      "kind": "monster",
+      "sourceName": "Iaseda",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Isabela Folcarae",
+      "kind": "monster",
+      "sourceName": "Isabela Folcarae",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Juliana",
+      "kind": "monster",
+      "sourceName": "Juliana",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Orlando",
+      "kind": "monster",
+      "sourceName": "Orlando",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Piyarz",
+      "kind": "monster",
+      "sourceName": "Piyarz",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Porro",
+      "kind": "monster",
+      "sourceName": "Porro",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Shalfey",
+      "kind": "monster",
+      "sourceName": "Shalfey",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Quests from the Infinite Staircase",
+      "name": "Uma",
+      "kind": "monster",
+      "sourceName": "Uma",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Ravenloft: The Horrors Within",
+      "name": "Reanimated Companion",
+      "kind": "monster",
+      "sourceName": "Reanimated Companion",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Rise of Tiamat",
+      "name": "Half-Blue Dragon Gladiator",
+      "kind": "monster",
+      "sourceName": "Half-Blue Dragon Gladiator",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Rise of Tiamat",
+      "name": "Half-Green Dragon Assassin",
+      "kind": "monster",
+      "sourceName": "Half-Green Dragon Assassin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Rise of Tiamat",
+      "name": "Half-Red Dragon Gladiator",
+      "kind": "monster",
+      "sourceName": "Half-Red Dragon Gladiator",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Rise of Tiamat",
+      "name": "Maccath the Crimson",
+      "kind": "monster",
+      "sourceName": "Maccath the Crimson",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Rise of Tiamat",
+      "name": "Varram",
+      "kind": "monster",
+      "sourceName": "Varram",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Axe of Mirabar Soldier",
+      "kind": "monster",
+      "sourceName": "Axe of Mirabar Soldier",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Elister",
+      "kind": "monster",
+      "sourceName": "Elister",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Felbarren Dwarf",
+      "kind": "monster",
+      "sourceName": "Felbarren Dwarf",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Jasper Dimmerchasm",
+      "kind": "monster",
+      "sourceName": "Jasper Dimmerchasm",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Knight of the Mithral Shield",
+      "kind": "monster",
+      "sourceName": "Knight of the Mithral Shield",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Morak Ur'gray",
+      "kind": "monster",
+      "sourceName": "Morak Ur'gray",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Narbeck Horn",
+      "kind": "monster",
+      "sourceName": "Narbeck Horn",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Rool",
+      "kind": "monster",
+      "sourceName": "Rool",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Shield Dwarf Guard",
+      "kind": "monster",
+      "sourceName": "Shield Dwarf Guard",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Shield Dwarf Noble",
+      "kind": "monster",
+      "sourceName": "Shield Dwarf Noble",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "The Weevil",
+      "kind": "monster",
+      "sourceName": "The Weevil",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Wiri Fleagol",
+      "kind": "monster",
+      "sourceName": "Wiri Fleagol",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Storm King's Thunder",
+      "name": "Wood Elf",
+      "kind": "monster",
+      "sourceName": "Wood Elf",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Aberrant Spirit",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Aberrant Spirit (Beholderkin)",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit (Beholderkin)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Aberrant Spirit (Slaad)",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit (Slaad)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Aberrant Spirit (Star Spawn)",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit (Star Spawn)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Adult Red Dracolich",
+      "kind": "monster",
+      "sourceName": "Adult Red Dracolich",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Beast of the Land",
+      "kind": "beast",
+      "sourceName": "Beast of the Land",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Beast of the Sea",
+      "kind": "beast",
+      "sourceName": "Beast of the Sea",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Beast of the Sky",
+      "kind": "beast",
+      "sourceName": "Beast of the Sky",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Bestial Spirit",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Bestial Spirit (Air)",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit (Air)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Bestial Spirit (Land)",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit (Land)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Bestial Spirit (Water)",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit (Water)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Celestial Spirit",
+      "kind": "monster",
+      "sourceName": "Celestial Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Celestial Spirit (Avenger)",
+      "kind": "monster",
+      "sourceName": "Celestial Spirit (Avenger)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Celestial Spirit (Defender)",
+      "kind": "monster",
+      "sourceName": "Celestial Spirit (Defender)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Construct Spirit",
+      "kind": "monster",
+      "sourceName": "Construct Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Construct Spirit (Clay)",
+      "kind": "monster",
+      "sourceName": "Construct Spirit (Clay)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Construct Spirit (Metal)",
+      "kind": "monster",
+      "sourceName": "Construct Spirit (Metal)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Construct Spirit (Stone)",
+      "kind": "monster",
+      "sourceName": "Construct Spirit (Stone)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Dancing Item",
+      "kind": "monster",
+      "sourceName": "Dancing Item",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Elemental Spirit",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Elemental Spirit (Air)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Air)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Elemental Spirit (Earth)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Earth)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Elemental Spirit (Fire)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Fire)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Elemental Spirit (Water)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Water)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fey Spirit",
+      "kind": "monster",
+      "sourceName": "Fey Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fey Spirit (Fuming)",
+      "kind": "monster",
+      "sourceName": "Fey Spirit (Fuming)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fey Spirit (Mirthful)",
+      "kind": "monster",
+      "sourceName": "Fey Spirit (Mirthful)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fey Spirit (Tricksy)",
+      "kind": "monster",
+      "sourceName": "Fey Spirit (Tricksy)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fiendish Spirit",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fiendish Spirit (Demon)",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit (Demon)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fiendish Spirit (Devil)",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit (Devil)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Fiendish Spirit (Yugoloth)",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit (Yugoloth)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Homunculus Servant",
+      "kind": "monster",
+      "sourceName": "Homunculus Servant",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Shadow Spirit",
+      "kind": "monster",
+      "sourceName": "Shadow Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Shadow Spirit (Despair)",
+      "kind": "monster",
+      "sourceName": "Shadow Spirit (Despair)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Shadow Spirit (Fear)",
+      "kind": "monster",
+      "sourceName": "Shadow Spirit (Fear)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Shadow Spirit (Fury)",
+      "kind": "monster",
+      "sourceName": "Shadow Spirit (Fury)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Steel Defender",
+      "kind": "monster",
+      "sourceName": "Steel Defender",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Undead Spirit",
+      "kind": "monster",
+      "sourceName": "Undead Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Undead Spirit (Ghostly)",
+      "kind": "monster",
+      "sourceName": "Undead Spirit (Ghostly)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Undead Spirit (Putrid)",
+      "kind": "monster",
+      "sourceName": "Undead Spirit (Putrid)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Undead Spirit (Skeletal)",
+      "kind": "monster",
+      "sourceName": "Undead Spirit (Skeletal)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tasha's Cauldron of Everything",
+      "name": "Wildfire Spirit",
+      "kind": "monster",
+      "sourceName": "Wildfire Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Ashdra",
+      "kind": "monster",
+      "sourceName": "Ashdra",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Curran Corvalin",
+      "kind": "monster",
+      "sourceName": "Curran Corvalin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Drevin",
+      "kind": "monster",
+      "sourceName": "Drevin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Eira",
+      "kind": "monster",
+      "sourceName": "Eira",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Goblin Commoner",
+      "kind": "monster",
+      "sourceName": "Goblin Commoner",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Gorvan Ironheart",
+      "kind": "monster",
+      "sourceName": "Gorvan Ironheart",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Irisoth",
+      "kind": "monster",
+      "sourceName": "Irisoth",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Kelson Darktreader",
+      "kind": "monster",
+      "sourceName": "Kelson Darktreader",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Kobold Commoner",
+      "kind": "monster",
+      "sourceName": "Kobold Commoner",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Obmi",
+      "kind": "monster",
+      "sourceName": "Obmi",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Ogre Skeleton",
+      "kind": "monster",
+      "sourceName": "Ogre Skeleton",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Orc Commoner",
+      "kind": "monster",
+      "sourceName": "Orc Commoner",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Aboleth",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Aboleth",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Basilisk",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Basilisk",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Behir",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Behir",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Beholder",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Beholder",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Black Pudding",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Black Pudding",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Carrion Crawler",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Carrion Crawler",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Clay Golem",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Clay Golem",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Darkmantle",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Darkmantle",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Displacer Beast",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Displacer Beast",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Dragon Turtle",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Dragon Turtle",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Ettercap",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Ettercap",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Flesh Golem",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Flesh Golem",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Glabrezu",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Glabrezu",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Gray Ooze",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Gray Ooze",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Helmed Horror",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Helmed Horror",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Hezrou",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Hezrou",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Hook Horror",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Hook Horror",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Ochre Jelly",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Ochre Jelly",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Otyugh",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Otyugh",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Owlbear",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Owlbear",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Peryton",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Peryton",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Remorhaz",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Remorhaz",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Stone Golem",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Stone Golem",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Vrock",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Vrock",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Wight",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Wight",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Reduced-Threat Wyvern",
+      "kind": "monster",
+      "sourceName": "Reduced-Threat Wyvern",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Shalendra Floshin",
+      "kind": "monster",
+      "sourceName": "Shalendra Floshin",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tales from the Yawning Portal",
+      "name": "Therzt",
+      "kind": "monster",
+      "sourceName": "Therzt",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tomb of Annihilation",
+      "name": "Gondolo",
+      "kind": "monster",
+      "sourceName": "Gondolo",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tomb of Annihilation",
+      "name": "Ortimay Swift and Dark",
+      "kind": "monster",
+      "sourceName": "Ortimay Swift and Dark",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tomb of Annihilation",
+      "name": "Sekelok",
+      "kind": "monster",
+      "sourceName": "Sekelok",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Tomb of Annihilation",
+      "name": "Tomb Guardian",
+      "kind": "monster",
+      "sourceName": "Tomb Guardian",
+      "originalReason": "Challenge conflicts with existing catalog value",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Vecna: Eve of Ruin",
+      "name": "Figaro",
+      "kind": "monster",
+      "sourceName": "Figaro",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Vecna: Eve of Ruin",
+      "name": "Grottenelle Stonecutter",
+      "kind": "monster",
+      "sourceName": "Grottenelle Stonecutter",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Volo's Guide to Monsters",
+      "name": "Booyahg Booyahg Booyahg",
+      "kind": "monster",
+      "sourceName": "Booyahg Booyahg Booyahg",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Volo's Guide to Monsters",
+      "name": "Booyahg Slave of the Archfey",
+      "kind": "monster",
+      "sourceName": "Booyahg Slave of the Archfey",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Volo's Guide to Monsters",
+      "name": "Booyahg Slave of the Fiend",
+      "kind": "monster",
+      "sourceName": "Booyahg Slave of the Fiend",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Volo's Guide to Monsters",
+      "name": "Booyahg Slave of the Great Old One",
+      "kind": "monster",
+      "sourceName": "Booyahg Slave of the Great Old One",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Bepis Honeymaker",
+      "kind": "monster",
+      "sourceName": "Bepis Honeymaker",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Engineer",
+      "kind": "monster",
+      "sourceName": "Engineer",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Fala Lefaliir",
+      "kind": "monster",
+      "sourceName": "Fala Lefaliir",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Losser Mirklav",
+      "kind": "monster",
+      "sourceName": "Losser Mirklav",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Manafret Cherryport",
+      "kind": "monster",
+      "sourceName": "Manafret Cherryport",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Mechanical Bird",
+      "kind": "monster",
+      "sourceName": "Mechanical Bird",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Samara Strongbones",
+      "kind": "monster",
+      "sourceName": "Samara Strongbones",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dragon Heist",
+      "name": "Zhent Martial Arts Adept",
+      "kind": "monster",
+      "sourceName": "Zhent Martial Arts Adept",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Animated Staff",
+      "kind": "monster",
+      "sourceName": "Animated Staff",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Animated Wand",
+      "kind": "monster",
+      "sourceName": "Animated Wand",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Awakened Brown Bear",
+      "kind": "monster",
+      "sourceName": "Awakened Brown Bear",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Awakened Elk",
+      "kind": "monster",
+      "sourceName": "Awakened Elk",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Awakened Giant Wasp",
+      "kind": "monster",
+      "sourceName": "Awakened Giant Wasp",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Copper Stormforge",
+      "kind": "monster",
+      "sourceName": "Copper Stormforge",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Drivvin Freth",
+      "kind": "monster",
+      "sourceName": "Drivvin Freth",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Halaster Puppet",
+      "kind": "monster",
+      "sourceName": "Halaster Puppet",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Horned Sister",
+      "kind": "monster",
+      "sourceName": "Horned Sister",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Iron Spider",
+      "kind": "monster",
+      "sourceName": "Iron Spider",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Junior Drow Priestess of Lolth",
+      "kind": "monster",
+      "sourceName": "Junior Drow Priestess of Lolth",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Marta Moonshadow",
+      "kind": "monster",
+      "sourceName": "Marta Moonshadow",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Sing-Along",
+      "kind": "monster",
+      "sourceName": "Sing-Along",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "local-stat-block"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Sundeth",
+      "kind": "monster",
+      "sourceName": "Sundeth",
+      "originalReason": "Creature type conflicts with existing catalog value",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Thwad Underbrew",
+      "kind": "monster",
+      "sourceName": "Thwad Underbrew",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Torbit",
+      "kind": "monster",
+      "sourceName": "Torbit",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Umbraxakar",
+      "kind": "monster",
+      "sourceName": "Umbraxakar",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Valtagar Steelshadow",
+      "kind": "monster",
+      "sourceName": "Valtagar Steelshadow",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Wyllow",
+      "kind": "monster",
+      "sourceName": "Wyllow",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Xarann A'Daragon",
+      "kind": "monster",
+      "sourceName": "Xarann A'Daragon",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2014 fifth edition",
+      "publication": "Waterdeep: Dungeon of the Mad Mage",
+      "name": "Zox Clammersham",
+      "kind": "monster",
+      "sourceName": "Zox Clammersham",
+      "originalReason": "Source profile depends on an unapplied template",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "D&D: World of Warcraft",
+      "name": "Bear Form",
+      "kind": "monster",
+      "sourceName": "Bear Form",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "D&D: World of Warcraft",
+      "name": "Cat Form",
+      "kind": "monster",
+      "sourceName": "Cat Form",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Dungeon Master's Guide (2024)",
+      "name": "Avatar of Death",
+      "kind": "monster",
+      "sourceName": "Avatar of Death",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Monster Manual (2024)",
+      "name": "Empyrean (Fiend)",
+      "kind": "monster",
+      "sourceName": "Empyrean",
+      "originalReason": "Creature type conflicts with existing catalog value",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Monster Manual (2024)",
+      "name": "Empyrean Iota (Fiend)",
+      "kind": "monster",
+      "sourceName": "Empyrean Iota",
+      "originalReason": "Creature type conflicts with existing catalog value",
+      "result": "resolved-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Aberrant Spirit",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Aberrant Spirit (Beholderkin)",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit (Beholderkin)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Aberrant Spirit (Mind Flayer)",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit (Mind Flayer)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Aberrant Spirit (Slaad)",
+      "kind": "monster",
+      "sourceName": "Aberrant Spirit (Slaad)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Animated Object",
+      "kind": "monster",
+      "sourceName": "Animated Object",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Animated Object (Huge)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Huge)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Animated Object (Large)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Large)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Animated Object (Medium or Smaller)",
+      "kind": "monster",
+      "sourceName": "Animated Object (Medium or Smaller)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Beast of the Land",
+      "kind": "beast",
+      "sourceName": "Beast of the Land",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Beast of the Sea",
+      "kind": "beast",
+      "sourceName": "Beast of the Sea",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Beast of the Sky",
+      "kind": "beast",
+      "sourceName": "Beast of the Sky",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Bestial Spirit",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Bestial Spirit (Air)",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit (Air)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Bestial Spirit (Land)",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit (Land)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Bestial Spirit (Water)",
+      "kind": "beast",
+      "sourceName": "Bestial Spirit (Water)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Celestial Spirit",
+      "kind": "monster",
+      "sourceName": "Celestial Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Celestial Spirit (Avenger)",
+      "kind": "monster",
+      "sourceName": "Celestial Spirit (Avenger)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Celestial Spirit (Defender)",
+      "kind": "monster",
+      "sourceName": "Celestial Spirit (Defender)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Construct Spirit",
+      "kind": "monster",
+      "sourceName": "Construct Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Construct Spirit (Clay)",
+      "kind": "monster",
+      "sourceName": "Construct Spirit (Clay)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Construct Spirit (Metal)",
+      "kind": "monster",
+      "sourceName": "Construct Spirit (Metal)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Construct Spirit (Stone)",
+      "kind": "monster",
+      "sourceName": "Construct Spirit (Stone)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Draconic Spirit",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Draconic Spirit (Acid)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Acid)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Draconic Spirit (Cold)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Cold)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Draconic Spirit (Fire)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Fire)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Draconic Spirit (Lightning)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Lightning)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Draconic Spirit (Poison)",
+      "kind": "monster",
+      "sourceName": "Draconic Spirit (Poison)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Elemental Spirit",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Elemental Spirit (Air)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Air)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Elemental Spirit (Earth)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Earth)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Elemental Spirit (Fire)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Fire)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Elemental Spirit (Water)",
+      "kind": "monster",
+      "sourceName": "Elemental Spirit (Water)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fey Spirit",
+      "kind": "monster",
+      "sourceName": "Fey Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fey Spirit (Fuming)",
+      "kind": "monster",
+      "sourceName": "Fey Spirit (Fuming)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fey Spirit (Mirthful)",
+      "kind": "monster",
+      "sourceName": "Fey Spirit (Mirthful)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fey Spirit (Tricksy)",
+      "kind": "monster",
+      "sourceName": "Fey Spirit (Tricksy)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fiendish Spirit",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fiendish Spirit (Demon)",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit (Demon)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fiendish Spirit (Devil)",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit (Devil)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Fiendish Spirit (Yugoloth)",
+      "kind": "monster",
+      "sourceName": "Fiendish Spirit (Yugoloth)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Giant Insect",
+      "kind": "beast",
+      "sourceName": "Giant Insect",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Giant Insect (Centipede)",
+      "kind": "beast",
+      "sourceName": "Giant Insect (Centipede)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Giant Insect (Spider)",
+      "kind": "beast",
+      "sourceName": "Giant Insect (Spider)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Giant Insect (Wasp)",
+      "kind": "beast",
+      "sourceName": "Giant Insect (Wasp)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Otherworldly Steed",
+      "kind": "monster",
+      "sourceName": "Otherworldly Steed",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Otherworldly Steed (Celestial)",
+      "kind": "monster",
+      "sourceName": "Otherworldly Steed (Celestial)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Otherworldly Steed (Fey)",
+      "kind": "monster",
+      "sourceName": "Otherworldly Steed (Fey)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Otherworldly Steed (Fiend)",
+      "kind": "monster",
+      "sourceName": "Otherworldly Steed (Fiend)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Undead Spirit",
+      "kind": "monster",
+      "sourceName": "Undead Spirit",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-form-selector"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Undead Spirit (Ghostly)",
+      "kind": "monster",
+      "sourceName": "Undead Spirit (Ghostly)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Undead Spirit (Putrid)",
+      "kind": "monster",
+      "sourceName": "Undead Spirit (Putrid)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "edition": "2024 fifth edition",
+      "publication": "Player’s Handbook",
+      "name": "Undead Spirit (Skeletal)",
+      "kind": "monster",
+      "sourceName": "Undead Spirit (Skeletal)",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "scalable-combat-profile"
+    },
+    {
+      "name": "Meeseeks",
+      "publication": "The Lost Dungeon of Rickedness: Big Rick Energy",
+      "kind": "monster",
+      "edition": "2014 fifth edition",
+      "sourceName": "Meeseeks",
+      "originalReason": "Variable armor class or hit points in source",
+      "result": "local-stat-block"
+    },
+    {
+      "name": "Boggle",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "The book listing and comparison snapshot disagree. A verified match is still needed.",
+      "result": "local-stat-block"
+    },
+    {
+      "name": "Mossback Steward",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "The book listing and comparison snapshot disagree. A verified match is still needed.",
+      "result": "local-stat-block"
+    },
+    {
+      "name": "Elzerina Cassalanter",
+      "publication": "Waterdeep: Dragon Heist",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "Source has no ordinary AC/HP block.",
+      "result": "homebrew-stat-block"
+    },
+    {
+      "name": "Jenks",
+      "publication": "Waterdeep: Dragon Heist",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "Source has no ordinary AC/HP block.",
+      "result": "homebrew-stat-block"
+    },
+    {
+      "name": "Nat",
+      "publication": "Waterdeep: Dragon Heist",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "Source has no ordinary AC/HP block.",
+      "result": "homebrew-stat-block"
+    },
+    {
+      "name": "Squiddly",
+      "publication": "Waterdeep: Dragon Heist",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "Source has no ordinary AC/HP block.",
+      "result": "homebrew-stat-block"
+    },
+    {
+      "name": "Terenzio Cassalanter",
+      "publication": "Waterdeep: Dragon Heist",
+      "edition": "2014 fifth edition",
+      "kind": "monster",
+      "originalReason": "Source has no ordinary AC/HP block.",
+      "result": "homebrew-stat-block"
+    }
+  ],
+  "runnableStatBlocks": 111,
+  "compactProfiles": 111,
+  "homebrewStatBlocks": 5
+}

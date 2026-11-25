@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Trapper",
+    "statBlock": {
+      "name": "Trapper",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 245,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "This subterranean ambush predator spreads against floors, walls, and ceilings. It matches the color and texture of stone, earth, or wood and sometimes leaves old bones and treasure in view as bait.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 60 ft.",
+        "Traits": "False Appearance. The trapper has advantage on initiative if it starts combat motionless on a floor, wall, or ceiling. A creature that has never seen it move or act needs a successful DC 18 Intelligence (Investigation) check to distinguish it from that surface.\nSpider Climb. The trapper climbs difficult surfaces, including ceilings, without making an ability check.",
+        "Actions": "Smother. Choose one Large or smaller creature within 10 ft. It must succeed on a DC 13 Dexterity save or be grappled (escape DC 14). Until the grapple ends, it is restrained, blinded, and deprived of air. It takes 13 (3d6 + 3) bludgeoning damage plus 3 (1d6) acid damage at the start of each of its turns. The trapper can smother one creature at a time.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 245."
+      }
+    }
+  },
+  {
+    "name": "Ulitharid",
+    "statBlock": {
+      "name": "Ulitharid",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 249,
+      "classification": "Large aberration (mind flayer), typically lawful evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "17d10 + 34",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 18,
+      "description": "An ulitharid is a six-tentacled mind flayer that sometimes leaves its colony with followers to found another.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Arcana": 9,
+        "Insight": 8,
+        "Perception": 8,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 2 miles.",
+        "Traits": "Creature Sense. The ulitharid detects creatures with Intelligence 4 or higher within 2 miles. It learns each creature’s distance, direction, and Intelligence score. Mind Blank, Nondetection, and similar protections block this sense.\nMagic Resistance. The ulitharid has advantage on saves against spells and other magical effects.\nPsionic Hub. An Elder Brain psychically linked to the ulitharid can link to any other creature the ulitharid detects with Creature Sense. That creature’s link ends once it leaves the telepathy range of both. The ulitharid’s link to the Elder Brain persists across any distance on the same plane. More than 5 miles away from the Elder Brain, the ulitharid can end their link at any time without an action.",
+        "Actions": "Tentacles. Melee weapon attack, +9 to hit, reach 10 ft., one creature. A hit deals 27 (4d10 + 5) psychic damage. A Large or smaller target is also grappled (escape DC 14) and must succeed on a DC 17 Intelligence save or be stunned until the grapple ends.\nExtract Brain. Melee weapon attack, +9 to hit, reach 5 ft., one incapacitated Humanoid grappled by the ulitharid. A hit deals 55 (10d10) piercing damage. If this reduces the target to 0 HP, the ulitharid kills it by removing and eating its brain.\nMind Blast (Recharge 5–6). The ulitharid projects magical psychic energy. Each creature in a 60-ft. cone must succeed on a DC 17 Intelligence save or take 31 (4d12 + 5) psychic damage and be stunned for 1 minute. A stunned creature repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Spellcasting (Psionics)": "As an action, cast one listed spell using Intelligence (spell save DC 17). No components are needed.\nAt will. Detect Thoughts, Levitate.\n1/day each. Dominate Monster, Feeblemind, Mass Suggestion, Plane Shift (self only), Project Image, Scrying, Telekinesis.",
+        "Founding a colony": "An ulitharid preparing to give up its life can extract its brain using its psionic staff. Its followers plant the brain and staff in its corpse, which dissolves into ichor and helps form the new Elder Brain’s brine pool. A brain from an ulitharid that died naturally is unsuitable.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 249."
+      }
+    }
+  },
+  {
+    "name": "Vampiric Mist",
+    "statBlock": {
+      "name": "Vampiric Mist",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 250,
+      "classification": "Medium undead, typically chaotic evil",
+      "ac": 13,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "A vampire that fails to return to its resting place can disintegrate into a blood-drinking mist. The mist senses blood from up to 1 mile away and favors injured prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Acid, cold, lightning, necrotic, thunder. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Traits": "Life Sense. The mist knows the location of every creature within 60 ft. except Constructs and Undead.\nForbiddance. The mist can enter a residence only with an occupant’s invitation.\nMisty Form. The mist and other creatures can occupy each other’s spaces. It can pass without squeezing wherever air can pass. Moving through water costs 2 extra feet for each foot moved. It cannot manipulate objects that require fingers or manual dexterity.\nSunlight Hypersensitivity. The mist takes 10 radiant damage if it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.\nUnusual Nature. The mist needs neither air nor sleep.",
+        "Actions": "Life Drain. The mist touches one creature in its space. Constructs and Undead automatically succeed on the DC 13 Constitution save. On a failed save, the target takes 10 (2d6 + 3) necrotic damage, the mist regains 10 HP, and the target’s maximum HP drops by the necrotic damage taken. The reduction ends when the target finishes a long rest. The creature dies if its maximum reaches 0.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 250."
+      }
+    }
+  },
+  {
+    "name": "Vargouille",
+    "statBlock": {
+      "name": "Vargouille",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 251,
+      "classification": "Tiny fiend, typically chaotic evil",
+      "ac": 12,
+      "hp": 18,
+      "hitDice": "4d4 + 8",
+      "speed": "5 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 8,
+      "description": "A vargouille looks like a flying head with wings in place of ears. It sometimes escapes the Abyss by latching on to a creature summoned to another plane.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal, Infernal, and languages it knew before transforming. It cannot speak.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage plus 10 (3d6) poison damage.\nAbyssal Curse. Choose one incapacitated Humanoid within 5 ft. The target must succeed on a DC 12 Charisma save or become cursed. Each hour the curse progresses, it loses 1 Charisma. Time spent in sunlight or the area of a Daylight spell does not count. At Charisma 2, the victim dies and its head splits off as a new vargouille. Before the transformation, Remove Curse, Greater Restoration, or similar magic ends the curse and reverses its changes.\nStunning Shriek (Recharge 5–6). Every Humanoid or Beast within 30 ft. that can hear the vargouille must succeed on a DC 12 Wisdom save or become frightened of it until the end of the vargouille’s next turn. A creature frightened this way is also stunned. Once the creature succeeds on the save or the effect ends for it, it is immune to every vargouille’s Stunning Shriek for 1 hour.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 251."
+      }
+    }
+  },
+  {
+    "name": "Vegepygmy",
+    "statBlock": {
+      "name": "Vegepygmy",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 252,
+      "classification": "Small plant, typically neutral",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "Vegepygmies hunt in small bands in dark, damp places and use hisses, gestures, and taps to communicate. They often live near Myconids and other fungi.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Vegepygmy.",
+        "Damage resistances": "Lightning, piercing.",
+        "Traits": "Plant Camouflage. The vegepygmy has advantage on Dexterity (Stealth) checks in terrain where vegetation provides ample concealment.\nRegeneration. The vegepygmy regains 3 HP at the start of its turn. Cold, fire, or necrotic damage suppresses this trait at the start of its next turn. The vegepygmy dies only if it starts its turn at 0 HP and fails to regenerate.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Russet mold mechanics": "One or more vegepygmies emerge a day after russet mold kills a Humanoid or Giant. A Beast killed by the mold can instead produce a Thorny Vegepygmy. See the Russet Mold hazard in Volo’s Guide to Monsters for exposure and removal.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 252."
+      }
+    }
+  },
+  {
+    "name": "Vegepygmy Chief",
+    "statBlock": {
+      "name": "Vegepygmy Chief",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 253,
+      "classification": "Small plant, typically neutral",
+      "ac": 14,
+      "hp": 33,
+      "hitDice": "6d6 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "An older vegepygmy grows tougher and develops spore clusters. Other vegepygmies defer to it as their chief.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Vegepygmy.",
+        "Damage resistances": "Lightning, piercing.",
+        "Traits": "Plant Camouflage. The vegepygmy has advantage on Dexterity (Stealth) checks in terrain where vegetation provides ample concealment.\nRegeneration. The vegepygmy regains 5 HP at the start of its turn. Cold, fire, or necrotic damage suppresses this trait at the start of its next turn. The vegepygmy dies only if it starts its turn at 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make either two Claws attacks or two melee Spear attacks.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nSpear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if wielded in two hands for a melee attack.\nSpores (1/day). A cloud extends 15 ft. from the chief and spreads around corners. Each creature in the area other than a Plant must succeed on a DC 12 Constitution save or be poisoned. While poisoned this way, the target takes 9 (2d8) poison damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Spore infection mechanics": "If a creature dies while infected by the chief’s spores, its corpse produces vegepygmies under the Russet Mold rules. A Humanoid or Giant corpse produces one or more vegepygmies after one day. A Beast corpse can produce a Thorny Vegepygmy instead.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 253."
+      }
+    }
+  },
+  {
+    "name": "Venom Troll",
+    "statBlock": {
+      "name": "Venom Troll",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 248,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 15,
+      "hp": 94,
+      "hitDice": "9d10 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 12,
+      "description": "A troll that survives heavy poisoning can regenerate with venom in its blood and tissues. Its wounds spray poison into nearby spaces.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Poison Splash. Whenever the troll takes damage other than psychic damage, every creature within 5 ft. of it takes 9 (2d8) poison damage.\nRegeneration. The troll regains 10 HP at the start of its turn. Acid or fire damage suppresses regeneration at the start of its next turn. It dies only if it starts its turn at 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage plus 4 (1d8) poison damage. A creature hit is poisoned until the start of the troll’s next turn.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage plus 4 (1d8) poison damage.\nVenom Spray (Recharge 6). The troll cuts itself to release poison in a 15-ft. cube, taking 7 (2d6) slashing damage that cannot be reduced. Each creature in the area makes a DC 16 Constitution save. On a failure, it takes 18 (4d8) poison damage and is poisoned for 1 minute. On a success, it takes half damage and avoids the condition. A poisoned creature repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 248."
+      }
+    }
+  }
+]

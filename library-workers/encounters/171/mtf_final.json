@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Yagnoloth",
+    "statBlock": {
+      "name": "Yagnoloth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 252,
+      "classification": "Large fiend (yugoloth), neutral evil",
+      "ac": 17,
+      "hp": 147,
+      "hitDice": "14d10 + 70",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Yagnoloths draw up yugoloth contracts and negotiate on behalf of their kind. The smaller arm handles the paperwork. The larger arm settles disputes by force.",
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Deception": 8,
+        "Insight": 6,
+        "Perception": 6,
+        "Persuasion": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Innate Spellcasting": "The yagnoloth uses Charisma (spell save DC 16) and needs no material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Suggestion.\n3/day. Lightning Bolt.",
+        "Traits": "Magic Resistance. The yagnoloth has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.",
+        "Actions": "Multiattack. Make one Massive Arm attack and one Electrified Touch attack. Alternatively, make one Massive Arm attack and use Teleport before or after it.\nElectrified Touch. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 27 (6d8) lightning damage.\nMassive Arm. Melee weapon attack, +8 to hit, reach 15 ft., one target. A hit deals 23 (3d12 + 4) bludgeoning damage. A creature hit must pass a DC 16 Constitution save or be stunned until the end of the yagnoloth's next turn.\nLife Leech. Touch one incapacitated creature within 15 ft. The target takes 36 (7d8 + 4) necrotic damage, and the yagnoloth gains temporary hit points equal to half the damage dealt. On a failed DC 16 Constitution save, reduce the target's maximum hit points by the damage it took until it finishes a long rest. The target dies if the reduction brings its maximum to 0.\nBattlefield Cunning (Recharge 4–6). Up to two allied yugoloths within 60 ft. that can hear the yagnoloth can each spend their reaction to make one melee attack.\nTeleport. The yagnoloth and its worn or carried equipment magically move up to 60 ft. to an unoccupied space it can see.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 252."
+      }
+    }
+  },
+  {
+    "name": "Yeenoghu",
+    "statBlock": {
+      "name": "Yeenoghu",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 155,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 20,
+      "hp": 333,
+      "hitDice": "23d12 + 184",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 24,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The Gnoll Lord hunts captives across the Death Dells with gnolls and hyenas. He calls his three-headed flail the Butcher and can summon it into his hand at will.",
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 15,
+        "Wis": 14
+      },
+      "skills": {
+        "Intimidation": 9,
+        "Perception": 14
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, and slashing from nonmagical sources.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Innate Spellcasting": "Yeenoghu uses Charisma (spell save DC 17, +9 to hit with spell attacks) and needs no material components.\nAt will. Detect Magic.\n3/day each. Dispel Magic, Fear, Invisibility.\n1/day. Teleport.",
+        "Traits": "Legendary Resistance (3/day). Yeenoghu can choose to succeed on a failed saving throw.\nMagic Resistance. He has advantage on saves against spells and other magical effects.\nMagic Weapons. His weapon attacks are magical.\nRampage. After reducing a creature to 0 hit points with a melee attack on his turn, Yeenoghu can use a bonus action to move up to half his speed and make one Bite attack.",
+        "Actions": "Multiattack. Make three Flail attacks. After each hit, Yeenoghu may choose or roll for one extra effect below. Each effect can apply only once per Multiattack.\n1. Deal another 13 (2d12) bludgeoning damage.\n2. The target makes a DC 17 Constitution save. On a failure, it is paralyzed until the start of Yeenoghu's next turn.\n3. The target makes a DC 17 Wisdom save. On a failure, it suffers the effects of Confusion until the start of Yeenoghu's next turn.\nFlail. Melee weapon attack, +16 to hit, reach 15 ft., one target. A hit deals 15 (1d12 + 9) bludgeoning damage.\nBite. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 14 (1d10 + 9) piercing damage.",
+        "Legendary actions": "Yeenoghu has 3 legendary actions. He can use one option at the end of another creature's turn and recovers all spent actions at the start of his turn.\nCharge (1 action). Move up to his speed.\nSwat Away (1 action). Make one Flail attack. On a hit, the target makes a DC 24 Strength save. On a failure, it is pushed 15 ft. directly away from Yeenoghu. If the save fails by 5 or more, it also falls prone.\nSavage (2 actions). Make a separate Bite attack against each creature within 10 ft.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one effect. Yeenoghu cannot repeat the same effect in consecutive rounds.\nIron Spike. A spike 5 ft. tall and 1 inch wide rises from a point on the ground Yeenoghu can see within 100 ft. Each creature in that space makes a DC 24 Dexterity save. On a failure, the creature takes 27 (6d8) piercing damage and is restrained by the spike. A creature can use an action to pull itself or a creature it can reach off the spike, ending the restraint.\nPack Rush. Every gnoll or hyena Yeenoghu can see can use its reaction to move up to its speed.\nEnrage the Pack. Until the next initiative count 20, all gnolls and hyenas in the lair have advantage on melee weapon attack rolls. Attack rolls against them also have advantage.",
+        "Regional effects": "Choose one or more effects around the lair.\nIron spikes grow from ground and stone within 1 mile. Yeenoghu uses them to display bodies.\nPredatory beasts within 6 miles kill far more than they need to eat and leave the carcasses to rot.\nA humanoid that spends at least 1 hour within 1 mile must pass a DC 17 Wisdom save or roll on the Madness of Yeenoghu table. A successful save grants 24 hours of immunity to this effect.\nThe effects fade over 1d10 days after Yeenoghu dies.",
+        "Madness of Yeenoghu": "Roll d100 when a creature goes mad in the lair or in Yeenoghu's line of sight. The resulting flaw lasts until cured.\n01–20. Feeds on others' anger and tries to whip up a mob.\n21–40. Craves the flesh of other intelligent creatures.\n41–60. Rejects laws and customs in favor of a more primitive way of life.\n61–80. Starts fights in the hope that someone will die.\n81–100. Makes ornaments from trophies taken from the dead.",
+        "Source notes": "Page 155 lists Constitution 23 with a +8 modifier and Intelligence 15 with a +3 modifier. Under the standard ability rules the scores yield +6 and +2. The printed scores, listed saving throws, and hit points are preserved here.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 154–155."
+      }
+    }
+  },
+  {
+    "name": "Young Kruthik",
+    "statBlock": {
+      "name": "Young Kruthik",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Small monstrosity, unaligned",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "30 ft., burrow 10 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Young kruthiks hunt as a pack in rocky warrens near sources of heat. Guards warn the hive by tapping the stone with their legs. Kruthiks tend to avoid places that smell of their dead.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 30 ft., tremorsense 60 ft.",
+        "Languages": "Kruthik.",
+        "Traits": "Keen Smell. The young kruthik has advantage on Wisdom (Perception) checks that rely on smell.\nPack Tactics. Its attack roll has advantage if an ally that isn't incapacitated is within 5 ft. of the target.\nTunneler. The young kruthik can burrow through solid rock at half its burrowing speed. It leaves a tunnel 2½ ft. across.",
+        "Actions": "Stab. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 211."
+      }
+    }
+  },
+  {
+    "name": "Zaratan",
+    "statBlock": {
+      "name": "Zaratan",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Gargantuan elemental, neutral",
+      "ac": 21,
+      "hp": 307,
+      "hitDice": "15d20 + 150",
+      "speed": "40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A zaratan resembles an immense stone turtle. Its movements shake the ground and topple structures.",
+      "savingThrows": {
+        "Wis": 12,
+        "Cha": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage vulnerabilities": "Thunder.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, paralyzed, petrified, poisoned, stunned.",
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Languages": "None.",
+        "Traits": "Elemental Nature. The zaratan needs no air, food, drink, or sleep.\nLegendary Resistance (3/day). It can choose to succeed on a failed saving throw.\nMagic Weapons. Its weapon attacks are magical.\nSiege Monster. It deals double damage to objects and structures. The damage to structures in Earth-Shaking Movement already includes this trait.",
+        "Bonus actions": "Earth-Shaking Movement. After moving at least 10 ft. on the ground, the zaratan can send a shock wave through the ground in a 120-ft. radius centered on it. The affected area becomes difficult terrain for 1 minute. A concentrating creature on the ground makes a DC 25 Constitution save or loses concentration.\nEach structure in the area in contact with the ground takes 100 thunder damage. When one collapses, each creature within a distance equal to half the structure's height makes a DC 25 Dexterity save. On a failure it takes 17 (5d6) bludgeoning damage, falls prone, and is restrained by the rubble. On a success it takes half damage and avoids both conditions.\nA buried creature can use an action to attempt a DC 20 Strength (Athletics) check to escape. A helper within 5 ft. can use an action to clear rubble and grant advantage on the check. If three helpers do so, the check succeeds automatically.",
+        "Actions": "Multiattack. Make one Bite attack and one Stomp attack.\nBite. Melee weapon attack, +17 to hit, reach 20 ft., one target. A hit deals 28 (4d8 + 10) piercing damage.\nStomp. Melee weapon attack, +17 to hit, reach 20 ft., one target. A hit deals 26 (3d10 + 10) bludgeoning damage.\nSpit Rock. Ranged weapon attack, +17 to hit, range 120/240 ft., one target. A hit deals 31 (6d8 + 10) bludgeoning damage.\nSpew Debris (Recharge 5–6). Each creature in a 90-ft. cube makes a DC 25 Dexterity save. Deal 33 (6d10) bludgeoning damage on a failure or half on a success. A creature that fails by 5 or more also falls prone.",
+        "Legendary actions": "The zaratan has 3 legendary actions. It can use one option at the end of another creature's turn and recovers all spent actions at the start of its turn.\nStomp (1 action). Make one Stomp attack.\nMove (1 action). Move up to its speed.\nSpit (2 actions). Use Spit Rock.\nRetract (2 actions). Withdraw into its shell. It is restrained and has resistance to all damage until it uses Emerge. Its next legendary action must be Revitalize or Emerge.\nRevitalize (2 actions). While retracted, regain 52 (5d20) hit points. Its next legendary action must be Emerge.\nEmerge (2 actions). While retracted, leave the shell and use Spit Rock.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 201. The shared Elemental Nature rule appears on p. 198."
+      }
+    }
+  },
+  {
+    "name": "Zariel",
+    "statBlock": {
+      "name": "Zariel",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 180,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 21,
+      "hp": 580,
+      "hitDice": "40d10 + 360",
+      "speed": "50 ft., fly 150 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 24
+        },
+        "Con": {
+          "score": 28
+        },
+        "Int": {
+          "score": 26
+        },
+        "Wis": {
+          "score": 27
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 26,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The archduke of Avernus leads the infernal armies in the Blood War. Her basalt citadel rises above the Styx.",
+      "savingThrows": {
+        "Int": 16,
+        "Wis": 16,
+        "Cha": 18
+      },
+      "skills": {
+        "Intimidation": 18,
+        "Perception": 16
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, radiant. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Innate Spellcasting": "Zariel uses Charisma (spell save DC 26) and needs no material components.\nAt will. Alter Self (can appear Medium when changing appearance), Detect Evil and Good, Fireball, Invisibility (self only), Wall of Fire.\n3/day each. Blade Barrier, Dispel Evil and Good, Finger of Death.",
+        "Traits": "Devil's Sight. Zariel's darkvision works through magical darkness.\nFiery Weapons. Her weapon attacks are magical. Her weapons deal 36 (8d8) extra fire damage on a hit, already included in the Longsword and Javelin damage.\nLegendary Resistance (3/day). She can choose to succeed on a failed saving throw.\nMagic Resistance. She has advantage on saves against spells and other magical effects.\nRegeneration. Zariel regains 20 hit points at the start of her turn. Taking radiant damage prevents this recovery at the start of her next turn. She dies only if she starts a turn at 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Zariel makes two Longsword attacks or two Javelin attacks. She can replace one attack with Horrid Touch when it is available.\nLongsword. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) slashing damage with one hand or 19 (2d10 + 8) with two hands, plus 36 (8d8) fire damage.\nJavelin. Melee or ranged weapon attack, +16 to hit, reach 10 ft. or range 30/120 ft., one target. A hit deals 15 (2d6 + 8) piercing damage plus 36 (8d8) fire damage.\nHorrid Touch (Recharge 5–6). Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 44 (8d10) necrotic damage and leaves the target poisoned for 1 minute. While poisoned this way, the target is blinded and deafened. At the end of each of its turns, the target can attempt a DC 26 Constitution save to end the effect. The DC and ability for this repeat save are a table ruling.\nTeleport. Zariel and her worn or carried equipment magically move up to 120 ft. to an unoccupied space she can see.",
+        "Legendary actions": "Zariel has 3 legendary actions. She can use one option at the end of another creature's turn and recovers all spent actions at the start of her turn.\nImmolating Gaze (2 actions). One creature Zariel can see within 120 ft. makes a DC 26 Wisdom save. On a failure, it takes 22 (4d10) fire damage.\nTeleport (1 action). Use Teleport.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. Zariel cannot repeat the same option in consecutive rounds.\nIllusions. Cast Major Image four times at its lowest level in different areas. Zariel need not concentrate and the images disappear at initiative count 20 of the next round. Each creature that sees the illusions makes a DC 26 Wisdom save. On a failure, it is frightened of the illusion for 1 minute. It can repeat the save at the end of each of its turns to end the fear on a success.\nFireball. Cast her innate Fireball.",
+        "Regional effects": "Choose one or more effects around the lair.\nScreams and the smell of burning meat fill the area within 9 miles.\nWithin 1 mile, a 10-ft.-high burst of flame rises every 60 ft. Touching a flame deals 7 (2d6) fire damage to a creature or object, at most once per round.\nSmoke heavily obscures the area from 500 ft. to 2 miles from the lair. The smoke cannot be dispersed.\nThe effects fade over 1d10 days after Zariel dies.",
+        "Source notes": "Page 180 gives Horrid Touch an attack roll and allows a repeat saving throw, but leaves out the save's ability and DC. Use DC 26 Constitution for the end-of-turn save, borrowing those values from Zariel's later Monsters of the Multiverse profile. The printed attack and on-hit damage still apply.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 180–181. The official erratum adds a 10-ft. melee reach to Javelin."
+      }
+    }
+  },
+  {
+    "name": "Zuggtmoy",
+    "statBlock": {
+      "name": "Zuggtmoy",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 304,
+      "hitDice": "32d10 + 128",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 21,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The Demon Queen of Fungi reshapes living creatures into fungal servants. Her palace on Shedaklah is built from enormous mushrooms.",
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 11,
+        "Wis": 11
+      },
+      "skills": {
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, and slashing from nonmagical sources.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Innate Spellcasting": "Zuggtmoy uses Charisma (spell save DC 22) and needs no material components.\nAt will. Detect Magic, Locate Animals or Plants, Ray of Sickness.\n3/day each. Dispel Magic, Ensnaring Strike, Entangle, Plant Growth.\n1/day each. Etherealness, Teleport.",
+        "Traits": "Legendary Resistance (3/day). Zuggtmoy can choose to succeed on a failed saving throw.\nMagic Resistance. She has advantage on saves against spells and other magical effects.\nMagic Weapons. Her weapon attacks are magical.",
+        "Actions": "Multiattack. Make three Pseudopod attacks.\nPseudopod. Melee weapon attack, +13 to hit, reach 10 ft., one target. A hit deals 15 (2d8 + 6) bludgeoning damage plus 9 (2d8) poison damage.\nInfestation Spores (3/day). A spore cloud fills a 20-ft.-radius sphere centered on Zuggtmoy and lasts 1 minute. Each flesh-and-blood creature inside when it appears or that enters it later makes a DC 19 Constitution save. A success grants immunity to infection by these spores for 24 hours. On a failure, the target contracts the spores of Zuggtmoy, rolls on her madness table, and cannot be reinfected while the disease lasts. The madness lasts until the target is cured or dies. The target repeats the save after every 24 hours. A success ends the infection. Each failed repeat save advances the fungal takeover. After three failed repeat saves, the target dies and reanimates as a spore servant if eligible under the Monster Manual's Myconids entry.\nMind Control Spores (Recharge 5–6). A spore cloud fills a 20-ft.-radius sphere centered on Zuggtmoy and lasts 1 minute. Each humanoid or beast inside when it appears or that enters it later makes a DC 19 Wisdom save. A success grants immunity to infection by these spores for 24 hours. On a failure the target contracts the influence of Zuggtmoy for 24 hours. While infected, it is charmed by her and cannot be reinfected by the same spores.",
+        "Reactions": "Protective Thrall. When an attack hits Zuggtmoy, one creature she has charmed within 5 ft. of her must use its reaction to take the hit in her place.",
+        "Legendary actions": "Zuggtmoy has 3 legendary actions. She can use one option at the end of another creature's turn and recovers all spent actions at the start of her turn.\nAttack (1 action). Make one Pseudopod attack.\nExert Will (1 action). One creature charmed by Zuggtmoy that she can see must use its reaction to move up to its speed as she directs or make one weapon attack against a target she picks.",
+        "Lair actions": "On initiative count 20, losing initiative ties, choose one option. Zuggtmoy cannot repeat the same option in consecutive rounds.\nSpawn Fungi. Four gas spores or violet fungi appear in unoccupied spaces she chooses within the lair and vanish after 1 hour.\nCommand Plants. Up to four friendly plant creatures Zuggtmoy can see can use their reactions to move up to their speed and make one weapon attack each.\nFungal Source. Use Infestation Spores or Mind Control Spores, centered on a mushroom or other fungus within the lair.",
+        "Regional effects": "Choose one or more effects around the lair.\nMold and fungi take hold on surfaces within 6 miles, even if the surface would normally resist their growth.\nParasitic fungi infest and gradually deform plants within 1 mile.\nA humanoid that spends at least 1 hour within 1 mile makes a DC 17 Wisdom save. On a failure it rolls on the Madness of Zuggtmoy table. A success grants 24 hours of immunity to this effect.\nThe effects fade over 1d10 days after Zuggtmoy dies.",
+        "Madness of Zuggtmoy": "Roll d100 when a creature goes mad in the lair or in Zuggtmoy's line of sight. The resulting flaw lasts until cured, subject to the duration in Infestation Spores when applicable.\n01–20. Sees visions nobody else can see.\n21–40. Periodically goes still and stares into the distance.\n41–60. Believes an altered version of events even when the evidence contradicts it.\n61–80. Feels their thoughts sharpen and slip away without warning.\n81–100. Continually scratches at fungal infections nobody else can see.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 156–157."
+      }
+    }
+  }
+]

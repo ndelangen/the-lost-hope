@@ -1,0 +1,20 @@
+{
+  "entry": "monster-b0593ad8b0654df07f06874b",
+  "version": "4d39c745a3fb76024f5778d7",
+  "publisherArt": "",
+  "stats": {
+    "Armor class": "16",
+    "Hit points": "297",
+    "Hit dice": "18d20 + 108",
+    "Challenge": "15",
+    "Type": "Monstrosity",
+    "Speed": "60 ft., burrow 50 ft.",
+    "XP": "13000",
+    "Str": "29",
+    "Dex": "10",
+    "Con": "23",
+    "Int": "1",
+    "Wis": "10",
+    "Cha": "5"
+  }
+}

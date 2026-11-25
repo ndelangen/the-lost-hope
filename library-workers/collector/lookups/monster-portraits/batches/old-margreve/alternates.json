@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Lich Hound",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/lich-hound.jpg",
+    "url": "https://marketplace.dndbeyond.com/expansions/SRC-00139",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Lich Hound, Tome of Beasts 1"
+  },
+  {
+    "name": "Elf, Shadow Fey",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/shadow-fey.jpg",
+    "url": "https://koboldpress.com/midgard-monday-shadow-fey-lineage-and-heritage/",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Kaylassa, shadow fey lineage example"
+  },
+  {
+    "name": "Elf, Shadow Fey Duelist",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/duelist.jpg",
+    "url": "https://koboldpress.com/boss-fights-the-duelist/",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Duelist illustration"
+  },
+  {
+    "name": "Piney",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/piney.png",
+    "url": "https://koboldpress.com/landmarks-of-the-great-northern-road/",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Piney illustration"
+  },
+  {
+    "name": "Wraith Bear",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/wraith-bear.png",
+    "url": "https://koboldpress.com/forestry-service-top-5-margreve-destinations-your-pcs-should-visit-on-spring-break/",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Wraith Bear illustration"
+  },
+  {
+    "name": "Child of the Briar",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/child-of-the-briar.jpg",
+    "url": "https://koboldpress.com/tome-unleashed-child-of-the-briar/",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Child of the Briar illustration"
+  },
+  {
+    "name": "Vila",
+    "input": "output/dm-library/monster-portraits/batches/old-margreve/refs/vila.jpg",
+    "url": "https://koboldpress.com/on-the-road-with-phileus-j-abbertale-beneath-the-canopy/",
+    "filename": "margreve-source-1.webp",
+    "artist": "Kobold Press · Vila illustration"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Duskling",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "book": "Magic of Incarnum",
+    "authors": [
+      "James Wyatt",
+      "Frank Brunner",
+      "Stephen Schubert"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "September 2005",
+    "productCode": "620-88579720-001-EN",
+    "isbn": "0-7869-3701-7",
+    "printedPages": {
+      "racialTraits": 10,
+      "artAndPlanarHeritage": 11,
+      "capacity": 19,
+      "totemist": [
+        29,
+        30
+      ],
+      "barbarianSubstitution": [
+        43,
+        44
+      ],
+      "investment": 50,
+      "blinkShirt": [
+        60,
+        61
+      ],
+      "landsharkBoots": 75,
+      "incarnumSubtype": 169,
+      "publishedSamples": [
+        175,
+        176,
+        177
+      ]
+    },
+    "pdfPages": {
+      "racialTraits": 10,
+      "artAndPlanarHeritage": 11,
+      "capacity": 19,
+      "totemist": [
+        29,
+        30
+      ],
+      "barbarianSubstitution": [
+        43,
+        44
+      ],
+      "investment": 50,
+      "blinkShirt": [
+        60,
+        61
+      ],
+      "landsharkBoots": 75,
+      "incarnumSubtype": 169,
+      "publishedSamples": [
+        175,
+        176,
+        177
+      ]
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "176c0415edfe8216d7d4915d5fcc8459c3c6ee84d89ffe4beaa875739b91a823",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Mark Poole, male and female Duskling illustration, p. 11.",
+    "sourceDistinctions": [
+      "The racial movement option is +5 ft. per essentia, with light or no armor and a light load.",
+      "Barbarian Incarnum Speed has a wider armor and load allowance, and replaces Fast Movement. Its enhancement does not stack with the racial enhancement.",
+      "The optional Barbarian substitution uses d10 Hit Dice. Pool size and investment capacity are distinct.",
+      "The book has separate published Warrior 1, Barbarian 3, and Totemist 4 stat blocks. The staged NPCs are original."
+    ],
+    "entryId": "species-d936b210189e4755b5aa13b7",
+    "versionKey": "6c33b3e1f03d9f67f85cbecd",
+    "slug": "duskling",
+    "portraitSelection": "generated",
+    "portraitForm": "Iriavel Solthenar, an original Duskling Totemist",
+    "npcExamples": [
+      "Iriavel Solthenar",
+      "Darevia Thalliar"
+    ]
+  }
+]

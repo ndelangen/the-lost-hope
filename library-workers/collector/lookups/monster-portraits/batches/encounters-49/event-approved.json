@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Devil Notary",
+    "slug": "devil-notary",
+    "id": "monster-02e1f50b09a78442ab85bb8c:2903c25ccb37faa9c1cb3733",
+    "entry": "monster-02e1f50b09a78442ab85bb8c",
+    "version": "2903c25ccb37faa9c1cb3733",
+    "suffix": "encounters-49/devil-notary.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-49/devil-notary.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-49/event-drafts/devil-notary-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 49 2026-11-23/event-drafts/devil-notary-event-v1.png",
+    "overrides": [],
+    "sha256": "defd96c9b7d33cf50c3877da6d44cc0598e64179423f0c36c8edc34936a12241",
+    "bytes": 2473260
+  },
+  {
+    "name": "Infernal Chancellor Lazivos",
+    "slug": "infernal-chancellor-lazivos",
+    "id": "monster-3f78ba4718116227eca6d2bf:80f8b6d40ccc16c8e52654aa",
+    "entry": "monster-3f78ba4718116227eca6d2bf",
+    "version": "80f8b6d40ccc16c8e52654aa",
+    "suffix": "encounters-49/infernal-chancellor-lazivos.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-49/infernal-chancellor-lazivos.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-49/event-drafts/infernal-chancellor-lazivos-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 49 2026-11-23/event-drafts/infernal-chancellor-lazivos-event-v1.png",
+    "overrides": [],
+    "sha256": "93888d1c743c8d8ddb7f8e99d9f2a6af5415bb4b315f79c81b5ae14f1a7554ec",
+    "bytes": 2608520
+  }
+]

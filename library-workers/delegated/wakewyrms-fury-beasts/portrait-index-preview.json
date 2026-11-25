@@ -1,0 +1,42 @@
+[
+  {
+    "entry": "beast-9165cfcf0107ab4561393816",
+    "version": "6c90be6dbb7e7ad9e9b9ca78",
+    "name": "Young Wakewyrm",
+    "file": "images/wakewyrms-fury-beasts/young-wakewyrm.png",
+    "sha256": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-332e587050a0c943d6c5baae",
+    "version": "67ff0a14b0bf5f71378a133b",
+    "name": "Wakewyrm",
+    "file": "images/wakewyrms-fury-beasts/wakewyrm.png",
+    "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e942f96aa397498fac01a0f2",
+    "version": "3f2771c0f3f7ad7aca31205b",
+    "name": "Hunter Shark",
+    "file": "images/wakewyrms-fury-beasts/hunter-shark.png",
+    "sha256": "802eb1f7d0780cfdae404f354e0dbc36283458b6260c77027b4eb6e167a26179",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-5d790795330b9003623dd05d",
+    "version": "4dd6f0b84c593b3fb20788ed",
+    "name": "Boar",
+    "file": "images/wakewyrms-fury-beasts/boar.png",
+    "sha256": "3fdc524f15069857edc3ed41479e8fa06b006eb48977fa472493736d1bd81936",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-1349d5e18426092e5708ce21",
+    "version": "bf2cd3f0fce0176e8eb502fb",
+    "name": "Weasel",
+    "file": "images/wakewyrms-fury-beasts/weasel.png",
+    "sha256": "0c864256a181b95441368ceddf28b50d0fd81d371143031e59a2f85424813b46",
+    "credit": "OpenAI ImageGen"
+  }
+]

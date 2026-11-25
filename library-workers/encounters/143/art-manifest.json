@@ -1,0 +1,23 @@
+{
+  "Lich": {
+    "path": "output/dm-library/encounter-batches/143/art/lich.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "18c69ac39167359dc24a1a50a2d5894939a0bb33a4bc2a5ab2e0c1bb56bb24b8",
+    "bytes": 2596253
+  },
+  "Tarrasque": {
+    "path": "output/dm-library/encounter-batches/143/art/tarrasque.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "199acf270f6264ae6e7a40ec60f1c22b881d83554f734f670fa1f8e15c52cf09",
+    "bytes": 2708892
+  },
+  "Adult Red Dragon": {
+    "path": "output/dm-library/encounter-batches/143/art/adult-red-dragon.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "30206188e42c870862bbe7900c5e8e9e1ad08eb76d4dcfb716dc00467bf4ca58",
+    "bytes": 2747674
+  }
+}

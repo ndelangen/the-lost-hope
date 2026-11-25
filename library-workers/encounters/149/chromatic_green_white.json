@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Adult Green Dragon",
+    "statBlock": {
+      "name": "Adult Green Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge dragon, lawful evil",
+      "ac": 19,
+      "hp": 207,
+      "hitDice": "18d12 + 90",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 22,
+      "description": "A forest dragon that uses poison, threats, and deception to gain power over its neighbors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 8,
+        "Insight": 7,
+        "Perception": 12,
+        "Persuasion": 8,
+        "Stealth": 6
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 10,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Amphibious. The dragon breathes air and water.\nLegendary Resistance (3/day). After failing a save, the dragon can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence, then makes one bite attack and two claw attacks.\nBite. Melee weapon attack against one target within 10 ft., +11 to hit. Hit for 17 (2d10 + 6) piercing damage plus 7 (2d6) poison damage.\nClaw. Melee weapon attack against one target within 5 ft., +11 to hit. Hit for 13 (2d6 + 6) slashing damage.\nTail. Melee weapon attack against one target within 15 ft., +11 to hit. Hit for 15 (2d8 + 6) bludgeoning damage.\nFrightful Presence. Each creature of the dragon's choice within 120 ft. that is aware of it makes a DC 16 Wisdom save. On failure it is Frightened for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.\nPoison Breath (recharge 5–6). All creatures in a 60-ft. cone make a DC 18 Constitution save. Failure deals 56 (16d6) poison damage. Success halves the damage.",
+        "Legendary actions": "The dragon has three legendary actions. Spend them on one option at a time at the end of another creature's turn. Spent actions return at the start of the dragon's turn. The dragon can choose to pass. It cannot use these actions while Incapacitated or otherwise unable to act. If surprised, it must wait until it finishes its first turn. A creature that assumes the dragon's form gains none of its legendary actions, lair actions, or regional effects.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 19 Dexterity save. Failure deals 13 (2d6 + 6) bludgeoning damage and knocks the creature Prone. The dragon may then fly up to half its flying speed (40 ft.).",
+        "Lair actions": "On initiative count 20, after other creatures on that count, choose one effect. An effect cannot be chosen in consecutive rounds. Skip this action while the dragon is Incapacitated or otherwise unable to act. If surprised, wait until the dragon finishes its first turn.\nRoots and vines. Choose a visible point on the ground within 120 ft. The ground within 20 ft. becomes difficult terrain. Each creature there must pass a DC 15 Strength save or become Restrained. The creature or another creature can use an action to free it with a DC 15 Strength check. The growth wilts if the dragon chooses this effect again or dies.\nThorn wall. Choose a solid surface within 120 ft. A brush wall up to 60 ft. long, 10 ft. high, and 5 ft. thick blocks sight. When it appears, each creature in its space makes a DC 15 Dexterity save. On failure it takes 18 (4d8) piercing damage and is pushed 5 ft. out of the wall on the side it chooses. Crossing the wall costs 4 ft. of movement per foot traveled. Once per round while in contact with the wall in its space, a creature makes a DC 15 Dexterity save for 18 (4d8) piercing damage, halved on success. Each 10-ft. section has AC 5, 15 HP, fire vulnerability, bludgeoning and piercing resistance, and psychic immunity. The wall sinks into the ground if the dragon chooses this effect again or dies.\nBeguiling fog. Choose one visible creature within 120 ft. It makes a DC 15 Wisdom save or is Charmed by the dragon until initiative count 20 of the next round.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nThickets within 1 mile form a maze of walls 10 ft. high and 10 ft. thick that block sight. Moving through them costs 4 ft. per foot traveled. Each round a creature is in contact with them, it must pass a DC 15 Dexterity save or take 3 (1d6) piercing damage. Each 10-ft. cube has AC 5, 30 HP, bludgeoning and piercing resistance, fire vulnerability, and psychic and thunder immunity.\nWithin 1 mile, only magic can track the dragon unless it chooses to leave signs. Plants part for it in this area. It ignores obstacles and damage from ordinary plants, including the thickets.\nBirds and rodents within 1 mile relay sights and sounds to the dragon. Large game is conspicuously absent.\nOn the dragon's death, the animals lose their link immediately. Within 1d10 days, the thickets lose their thorns and become ordinary plants and difficult terrain.",
+        "Variant: innate spellcasting": "If using the optional dragon spellcasting rules, choose 3 spells of level 5 or lower. The dragon can cast each once per day without material components using Charisma. Spell save DC 16. Spell attack bonus +8.",
+        "Printed source": "Monster Manual (2014), p. 94 for the stat block and p. 86 for optional spellcasting. Lair and regional rules appear on pp. 95–96. The official errata clarifies the legendary and lair action restrictions."
+      }
+    }
+  },
+  {
+    "name": "Ancient Green Dragon",
+    "statBlock": {
+      "name": "Ancient Green Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, lawful evil",
+      "ac": 21,
+      "hp": 385,
+      "hitDice": "22d20 + 154",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 27,
+      "description": "A forest dragon that uses poison, threats, and deception to gain power over its neighbors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 11,
+        "Insight": 10,
+        "Perception": 17,
+        "Persuasion": 11,
+        "Stealth": 8
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 14,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Amphibious. The dragon breathes air and water.\nLegendary Resistance (3/day). After failing a save, the dragon can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence, then makes one bite attack and two claw attacks.\nBite. Melee weapon attack against one target within 15 ft., +15 to hit. Hit for 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage.\nClaw. Melee weapon attack against one target within 10 ft., +15 to hit. Hit for 22 (4d6 + 8) slashing damage.\nTail. Melee weapon attack against one target within 20 ft., +15 to hit. Hit for 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. Each creature of the dragon's choice within 120 ft. that is aware of it makes a DC 19 Wisdom save. On failure it is Frightened for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.\nPoison Breath (recharge 5–6). All creatures in a 90-ft. cone make a DC 22 Constitution save. Failure deals 77 (22d6) poison damage. Success halves the damage.",
+        "Legendary actions": "The dragon has three legendary actions. Spend them on one option at a time at the end of another creature's turn. Spent actions return at the start of the dragon's turn. The dragon can choose to pass. It cannot use these actions while Incapacitated or otherwise unable to act. If surprised, it must wait until it finishes its first turn. A creature that assumes the dragon's form gains none of its legendary actions, lair actions, or regional effects.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one tail attack.\nWing Attack (2 actions). Each creature within 15 ft. makes a DC 23 Dexterity save. Failure deals 15 (2d6 + 8) bludgeoning damage and knocks the creature Prone. The dragon may then fly up to half its flying speed (40 ft.).",
+        "Lair actions": "On initiative count 20, after other creatures on that count, choose one effect. An effect cannot be chosen in consecutive rounds. Skip this action while the dragon is Incapacitated or otherwise unable to act. If surprised, wait until the dragon finishes its first turn.\nRoots and vines. Choose a visible point on the ground within 120 ft. The ground within 20 ft. becomes difficult terrain. Each creature there must pass a DC 15 Strength save or become Restrained. The creature or another creature can use an action to free it with a DC 15 Strength check. The growth wilts if the dragon chooses this effect again or dies.\nThorn wall. Choose a solid surface within 120 ft. A brush wall up to 60 ft. long, 10 ft. high, and 5 ft. thick blocks sight. When it appears, each creature in its space makes a DC 15 Dexterity save. On failure it takes 18 (4d8) piercing damage and is pushed 5 ft. out of the wall on the side it chooses. Crossing the wall costs 4 ft. of movement per foot traveled. Once per round while in contact with the wall in its space, a creature makes a DC 15 Dexterity save for 18 (4d8) piercing damage, halved on success. Each 10-ft. section has AC 5, 15 HP, fire vulnerability, bludgeoning and piercing resistance, and psychic immunity. The wall sinks into the ground if the dragon chooses this effect again or dies.\nBeguiling fog. Choose one visible creature within 120 ft. It makes a DC 15 Wisdom save or is Charmed by the dragon until initiative count 20 of the next round.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nThickets within 1 mile form a maze of walls 10 ft. high and 10 ft. thick that block sight. Moving through them costs 4 ft. per foot traveled. Each round a creature is in contact with them, it must pass a DC 15 Dexterity save or take 3 (1d6) piercing damage. Each 10-ft. cube has AC 5, 30 HP, bludgeoning and piercing resistance, fire vulnerability, and psychic and thunder immunity.\nWithin 1 mile, only magic can track the dragon unless it chooses to leave signs. Plants part for it in this area. It ignores obstacles and damage from ordinary plants, including the thickets.\nBirds and rodents within 1 mile relay sights and sounds to the dragon. Large game is conspicuously absent.\nOn the dragon's death, the animals lose their link immediately. Within 1d10 days, the thickets lose their thorns and become ordinary plants and difficult terrain.",
+        "Variant: innate spellcasting": "If using the optional dragon spellcasting rules, choose 4 spells of level 7 or lower. The dragon can cast each once per day without material components using Charisma. Spell save DC 19. Spell attack bonus +11.",
+        "Printed source": "Monster Manual (2014), p. 93 for the stat block and p. 86 for optional spellcasting. Lair and regional rules appear on pp. 95–96. The official errata clarifies the legendary and lair action restrictions. The official errata corrects XP to 41,000."
+      }
+    }
+  },
+  {
+    "name": "Young Green Dragon",
+    "statBlock": {
+      "name": "Young Green Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, lawful evil",
+      "ac": 18,
+      "hp": 136,
+      "hitDice": "16d10 + 48",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "description": "A forest dragon that uses poison, threats, and deception to gain power over its neighbors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Perception": 7,
+        "Stealth": 4
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 6,
+        "Wis": 4,
+        "Cha": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Amphibious. The dragon breathes air and water.",
+        "Actions": "Multiattack. The dragon makes one bite attack and two claw attacks.\nBite. Melee weapon attack against one target within 10 ft., +7 to hit. Hit for 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage.\nClaw. Melee weapon attack against one target within 5 ft., +7 to hit. Hit for 11 (2d6 + 4) slashing damage.\nPoison Breath (recharge 5–6). All creatures in a 30-ft. cone make a DC 14 Constitution save. Failure deals 42 (12d6) poison damage. Success halves the damage.",
+        "Variant: innate spellcasting": "If using the optional dragon spellcasting rules, choose 2 spells of level 2 or lower. The dragon can cast each once per day without material components using Charisma. Spell save DC 13. Spell attack bonus +5.",
+        "Printed source": "Monster Manual (2014), p. 94 for the stat block and p. 86 for optional spellcasting."
+      }
+    }
+  },
+  {
+    "name": "Adult White Dragon",
+    "statBlock": {
+      "name": "Adult White Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge dragon, chaotic evil",
+      "ac": 18,
+      "hp": 200,
+      "hitDice": "16d12 + 96",
+      "speed": "40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 21,
+      "description": "A solitary arctic hunter that freezes prey and caches its kills beneath the ice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 11,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 11,
+        "Wis": 6,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Ice Walk. The dragon can cross and climb ice without ability checks. Ice and snow that count as difficult terrain cost it no extra movement.\nLegendary Resistance (3/day). After failing a save, the dragon can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence, then makes one bite attack and two claw attacks.\nBite. Melee weapon attack against one target within 10 ft., +11 to hit. Hit for 17 (2d10 + 6) piercing damage plus 4 (1d8) cold damage.\nClaw. Melee weapon attack against one target within 5 ft., +11 to hit. Hit for 13 (2d6 + 6) slashing damage.\nTail. Melee weapon attack against one target within 15 ft., +11 to hit. Hit for 15 (2d8 + 6) bludgeoning damage.\nFrightful Presence. Each creature of the dragon's choice within 120 ft. that is aware of it makes a DC 14 Wisdom save. On failure it is Frightened for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.\nCold Breath (recharge 5–6). All creatures in a 60-ft. cone make a DC 19 Constitution save. Failure deals 54 (12d8) cold damage. Success halves the damage.",
+        "Legendary actions": "The dragon has three legendary actions. Spend them on one option at a time at the end of another creature's turn. Spent actions return at the start of the dragon's turn. The dragon can choose to pass. It cannot use these actions while Incapacitated or otherwise unable to act. If surprised, it must wait until it finishes its first turn. A creature that assumes the dragon's form gains none of its legendary actions, lair actions, or regional effects.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 19 Dexterity save. Failure deals 13 (2d6 + 6) bludgeoning damage and knocks the creature Prone. The dragon may then fly up to half its flying speed (40 ft.).",
+        "Lair actions": "On initiative count 20, after other creatures on that count, choose one effect. An effect cannot be chosen in consecutive rounds. Skip this action while the dragon is Incapacitated or otherwise unable to act. If surprised, wait until the dragon finishes its first turn.\nFreezing fog. Choose a visible point within 120 ft. Fog spreads around corners in a 20-ft.-radius sphere and makes the area heavily obscured. Each creature in the fog when it appears makes a DC 10 Constitution save for 10 (3d6) cold damage, halved on success. A creature that ends its turn there takes 10 (3d6) cold damage. A wind of at least 20 mph disperses the fog. It otherwise lasts until the dragon uses this effect again or dies.\nFalling ice. Pick up to three creatures the dragon can see beneath the ceiling within 120 ft. Roll a separate ranged attack at +7 against each. A hit deals 10 (3d6) piercing damage.\nIce wall. Choose a visible solid surface within 120 ft. An opaque ice wall appears, up to 30 ft. long, 30 ft. high, and 1 ft. thick. When it appears, each creature in its space is pushed 5 ft. out of it on the side the dragon chooses. Each 10-ft. section has AC 5, 30 HP, fire vulnerability, and immunity to acid, cold, necrotic, poison, and psychic damage. The wall disappears if the dragon uses the effect again or dies.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nCold fog makes the land within 6 miles lightly obscured. Freezing precipitation falls within the same radius and can turn into a blizzard while the dragon rests.\nIce walls partition the lair. They are 6 inches thick, and each 10-ft. section has AC 5, 15 HP, fire vulnerability, and immunity to acid, cold, necrotic, poison, and psychic damage. The dragon can pass through a wall at full speed, destroying the part it crosses.\nAfter the dragon dies, the fog and precipitation fade within 1 day, and the walls melt over 1d10 days.",
+        "Variant: innate spellcasting": "If using the optional dragon spellcasting rules, choose 1 spell of level 4 or lower. The dragon can cast each once per day without material components using Charisma. Spell save DC 14. Spell attack bonus +6.",
+        "Printed source": "Monster Manual (2014), p. 101 for the stat block and p. 86 for optional spellcasting. Lair and regional rules appear on pp. 102–103. The official errata clarifies the legendary and lair action restrictions."
+      },
+      "ruleNotes": [
+        "The printed Ice Wall rule is ambiguous about who chooses the side. This profile gives the choice to the dragon."
+      ]
+    }
+  },
+  {
+    "name": "Ancient White Dragon",
+    "statBlock": {
+      "name": "Ancient White Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, chaotic evil",
+      "ac": 20,
+      "hp": 333,
+      "hitDice": "18d20 + 144",
+      "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 23,
+      "description": "A solitary arctic hunter that freezes prey and caches its kills beneath the ice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 13,
+        "Stealth": 6
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 14,
+        "Wis": 7,
+        "Cha": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 60 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Ice Walk. The dragon can cross and climb ice without ability checks. Ice and snow that count as difficult terrain cost it no extra movement.\nLegendary Resistance (3/day). After failing a save, the dragon can choose to succeed.",
+        "Actions": "Multiattack. The dragon may use Frightful Presence, then makes one bite attack and two claw attacks.\nBite. Melee weapon attack against one target within 15 ft., +14 to hit. Hit for 19 (2d10 + 8) piercing damage plus 9 (2d8) cold damage.\nClaw. Melee weapon attack against one target within 10 ft., +14 to hit. Hit for 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack against one target within 20 ft., +14 to hit. Hit for 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. Each creature of the dragon's choice within 120 ft. that is aware of it makes a DC 16 Wisdom save. On failure it is Frightened for 1 minute and can repeat the save at the end of each of its turns to end the effect. A successful save or the end of the effect gives that creature 24 hours of immunity to this dragon's Frightful Presence.\nCold Breath (recharge 5–6). All creatures in a 90-ft. cone make a DC 22 Constitution save. Failure deals 72 (16d8) cold damage. Success halves the damage.",
+        "Legendary actions": "The dragon has three legendary actions. Spend them on one option at a time at the end of another creature's turn. Spent actions return at the start of the dragon's turn. The dragon can choose to pass. It cannot use these actions while Incapacitated or otherwise unable to act. If surprised, it must wait until it finishes its first turn. A creature that assumes the dragon's form gains none of its legendary actions, lair actions, or regional effects.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make one tail attack.\nWing Attack (2 actions). Each creature within 15 ft. makes a DC 22 Dexterity save. Failure deals 15 (2d6 + 8) bludgeoning damage and knocks the creature Prone. The dragon may then fly up to half its flying speed (40 ft.).",
+        "Lair actions": "On initiative count 20, after other creatures on that count, choose one effect. An effect cannot be chosen in consecutive rounds. Skip this action while the dragon is Incapacitated or otherwise unable to act. If surprised, wait until the dragon finishes its first turn.\nFreezing fog. Choose a visible point within 120 ft. Fog spreads around corners in a 20-ft.-radius sphere and makes the area heavily obscured. Each creature in the fog when it appears makes a DC 10 Constitution save for 10 (3d6) cold damage, halved on success. A creature that ends its turn there takes 10 (3d6) cold damage. A wind of at least 20 mph disperses the fog. It otherwise lasts until the dragon uses this effect again or dies.\nFalling ice. Pick up to three creatures the dragon can see beneath the ceiling within 120 ft. Roll a separate ranged attack at +7 against each. A hit deals 10 (3d6) piercing damage.\nIce wall. Choose a visible solid surface within 120 ft. An opaque ice wall appears, up to 30 ft. long, 30 ft. high, and 1 ft. thick. When it appears, each creature in its space is pushed 5 ft. out of it on the side the dragon chooses. Each 10-ft. section has AC 5, 30 HP, fire vulnerability, and immunity to acid, cold, necrotic, poison, and psychic damage. The wall disappears if the dragon uses the effect again or dies.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nCold fog makes the land within 6 miles lightly obscured. Freezing precipitation falls within the same radius and can turn into a blizzard while the dragon rests.\nIce walls partition the lair. They are 6 inches thick, and each 10-ft. section has AC 5, 15 HP, fire vulnerability, and immunity to acid, cold, necrotic, poison, and psychic damage. The dragon can pass through a wall at full speed, destroying the part it crosses.\nAfter the dragon dies, the fog and precipitation fade within 1 day, and the walls melt over 1d10 days.",
+        "Variant: innate spellcasting": "If using the optional dragon spellcasting rules, choose 2 spells of level 6 or lower. The dragon can cast each once per day without material components using Charisma. Spell save DC 16. Spell attack bonus +8.",
+        "Printed source": "Monster Manual (2014), p. 100 for the stat block and p. 86 for optional spellcasting. Lair and regional rules appear on pp. 102–103. The official errata clarifies the legendary and lair action restrictions. The official errata corrects XP to 25,000."
+      },
+      "ruleNotes": [
+        "The printed Ice Wall rule is ambiguous about who chooses the side. This profile gives the choice to the dragon."
+      ]
+    }
+  },
+  {
+    "name": "Young White Dragon",
+    "statBlock": {
+      "name": "Young White Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, chaotic evil",
+      "ac": 17,
+      "hp": 133,
+      "hitDice": "14d10 + 56",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "description": "A solitary arctic hunter that freezes prey and caches its kills beneath the ice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6,
+        "Stealth": 3
+      },
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 7,
+        "Wis": 3,
+        "Cha": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 30 ft., Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Ice Walk. The dragon can cross and climb ice without ability checks. Ice and snow that count as difficult terrain cost it no extra movement.",
+        "Actions": "Multiattack. The dragon makes one bite attack and two claw attacks.\nBite. Melee weapon attack against one target within 10 ft., +7 to hit. Hit for 15 (2d10 + 4) piercing damage plus 4 (1d8) cold damage.\nClaw. Melee weapon attack against one target within 5 ft., +7 to hit. Hit for 11 (2d6 + 4) slashing damage.\nCold Breath (recharge 5–6). All creatures in a 30-ft. cone make a DC 15 Constitution save. Failure deals 45 (10d8) cold damage. Success halves the damage.",
+        "Variant: innate spellcasting": "If using the optional dragon spellcasting rules, choose 1 spell of level 2 or lower. The dragon can cast each once per day without material components using Charisma. Spell save DC 12. Spell attack bonus +4.",
+        "Printed source": "Monster Manual (2014), p. 101 for the stat block and p. 86 for optional spellcasting."
+      }
+    }
+  }
+]

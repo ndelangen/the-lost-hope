@@ -1,0 +1,260 @@
+{
+  "builds": [
+    {
+      "id": "brownie-hob-reedstitch-becmi",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Small",
+      "type": "Fairy",
+      "title": "Brownie household keeper, level 1",
+      "difficulty": "Level 1 at 2,000 XP, 3 HD.",
+      "languages": "Fairy, Thyatian, Halfling, Lawful. Can communicate with animals.",
+      "speed": "120 ft. per exploration turn, 40 ft. per encounter round.",
+      "ac": 8,
+      "hp": 15,
+      "hitDice": "3d8",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Cleaning",
+        "Cooking",
+        "Family genealogy",
+        "Hiding"
+      ],
+      "traits": [
+        "Lawful. Natural AC 9 with Dexterity improving it by 1. THAC0 17 on the 3 HD monster row. Halfling level 3 saves 8/9/10/13/12.",
+        "Roll 1d6 per side for initiative. Saves are d20 targets in order: death ray or poison, wands, paralysis or stone, breath, rod or staff or spell.",
+        "Hob has no restricted magic item on hand. If he acquires one, Table 9 at level 1 succeeds on 01–05, fails on 06–89, backfires on 90–99 and yields an unusual result on 00."
+      ],
+      "actions": [
+        "Belt dagger. One melee roll on the 3 HD monster row, dealing 1d4 on a hit.",
+        "Fairy invisibility at will. Hob can hide from ordinary mortal sight. Fairies and people with second sight can still see him."
+      ],
+      "tactics": "Slip out of sight and use the scullery door. Draw the dagger only if cornered."
+    },
+    {
+      "id": "dryad-linden-veil-becmi",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Woodland spirit",
+      "title": "Unattached dryad, level 1",
+      "difficulty": "Level 1 at 3,000 XP, 2 HD.",
+      "languages": "Dryad, Thyatian, Elvish, Fairy, Treant, Neutral. Can communicate with plants.",
+      "speed": "120 ft. per exploration turn, 40 ft. per encounter round.",
+      "ac": 7,
+      "hp": 10,
+      "hitDice": "2d8",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 15
+      },
+      "skills": [
+        "Plant lore",
+        "Horticulture",
+        "Forest survival",
+        "Storytelling"
+      ],
+      "traits": [
+        "Neutral. Unarmored, with natural AC 7. THAC0 18 on the 2 HD monster row. Cleric level 1 saves 11/12/14/16/15, with +1 on applicable saves against spells from Wisdom.",
+        "Roll 1d6 per side for initiative. Saves are d20 targets in order: death ray or poison, wands, paralysis or stone, breath, rod or staff or spell.",
+        "Linden has no soul-tree. Her class grants its first druid spell at level 2."
+      ],
+      "actions": [
+        "Dagger. One melee roll on the 2 HD monster row, dealing 1d4 on a hit.",
+        "Charm person, three times per day. One eligible living humanoid within 120 ft. saves vs. spells or treats Linden as a close friend. Repeat the save after a day at Intelligence 13–18, a week at 9–12 or a month at 3–8. Linden attacking the target ends the charm."
+      ],
+      "tactics": "Ask the plants who crossed the glade. Charm a lookout if the path needs to be cleared without a fight."
+    },
+    {
+      "id": "faun-fen-alderpipe-becmi",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Medium",
+      "type": "Woodland being",
+      "title": "Faun piper, level 5",
+      "difficulty": "Level 5 at 16,000 XP, 6 HD.",
+      "languages": "Dryad, Thyatian, Chaotic. Can communicate with animals.",
+      "speed": "150 ft. per exploration turn, 50 ft. per encounter round.",
+      "ac": 7,
+      "hp": 16,
+      "hitDice": "6d4",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 15,
+        "CON": 11,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Musical instrument (shepherd’s pipes)",
+        "Winemaking",
+        "Forest survival",
+        "Hunting"
+      ],
+      "traits": [
+        "Chaotic. Natural AC 8, improved by 1 through Dexterity. Base THAC0 14 on the 6 HD monster row. Thief level 5 saves 11/12/11/14/13.",
+        "Roll 1d6 per side for initiative. Saves are d20 targets in order: death ray or poison, wands, paralysis or stone, breath, rod or staff or spell."
+      ],
+      "actions": [
+        "Short sword. One melee attack with +1 to the roll for Strength, 1d6+1 damage on a hit.",
+        "Play the shepherd’s pipes. After a full uninterrupted round, draw out an impulse already present in a listener and try to make it dominate their behavior. The spell save is rolled at +4 in round 1, +3 in round 2 and one point lower each round to −4 in round 9 and later. Deafness or magical silence blocks the effect. Starting in round 5 Fen saves each round or succumbs to the same impulse. Any interruption resets progress."
+      ],
+      "tactics": "Play on doubt or the urge to flee from cover. Break off before round five if nothing has changed."
+    },
+    {
+      "id": "hsiao-sedge-of-the-quiet-branch-becmi",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Small",
+      "type": "Intelligent avian",
+      "title": "Hsiao scholar and priest, level 1",
+      "difficulty": "Level 1 at 8,000 XP, 5 HD. Two first-circle and two second-circle spells.",
+      "languages": "Hsiao, Thyatian, Centaur, Dryad, Elvish, Fairy, Treant, Lawful. Can communicate with birds.",
+      "speed": "Ground 90 ft. per exploration turn, 30 ft. per encounter round. Flight 210 ft. per exploration turn, 70 ft. per encounter round, while carrying at most 20 cn.",
+      "ac": 5,
+      "hp": 24,
+      "hitDice": "5d8",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 12,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Forest survival",
+        "Local history",
+        "Philosophy",
+        "Local birds"
+      ],
+      "traits": [
+        "Lawful. Natural AC 5 and THAC0 15 on the 5 HD monster row. Cleric level 1 saves 11/12/14/16/15, with +1 on applicable saves against spells from Wisdom.",
+        "Roll 1d6 per side for initiative. Saves are d20 targets in order: death ray or poison, wands, paralysis or stone, breath, rod or staff or spell.",
+        "Cleric spellcasting at effective level 5. Cast one prepared spell in the magic phase after declaring it before initiative."
+      ],
+      "actions": [
+        "Claw, claw, bite. Three separate attacks on the 5 HD monster row, for 1d6, 1d6 and 1d4 damage.",
+        "Cure light wounds, prepared once. Touch a living creature to restore 1d6+1 HP or remove paralysis. Protection from evil, prepared once. Self only for 12 turns. Gain +1 to saves, impose −1 on incoming attack rolls and ward off contact from enchanted creatures until Sedge attacks one.",
+        "Bless, prepared once. Allies outside melee in a 20-ft. square within 60 ft. get +1 morale, attack and damage for six turns. Resist fire, prepared once. One living creature within 30 ft. ignores ordinary fire for two turns, gets +2 to saves against magical fire and subtracts 1 point per die of magical fire damage, minimum 1 per die."
+      ],
+      "tactics": "Bless allies before melee and use elevation to stay clear. Save the healing spell for an injured companion."
+    },
+    {
+      "id": "leprechaun-niall-quickgold-becmi",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Basic D&D (BECMI)"
+      ],
+      "size": "Tiny",
+      "type": "Fairy",
+      "title": "Leprechaun cobbler, mature normal tier",
+      "difficulty": "Mature normal monster tier at 0 XP. ¼ HD, no spell slots yet.",
+      "languages": "Fairy, Thyatian, Elvish, Gnome, Neutral. Can communicate with animals.",
+      "speed": "60 ft. per exploration turn, 20 ft. per encounter round, with at most 20 cn.",
+      "ac": 8,
+      "hp": 2,
+      "hitDice": "¼ HD (1–2 HP)",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 11,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 12
+      },
+      "skills": [
+        "Cobbling",
+        "Hiding",
+        "Brewing",
+        "Local trade"
+      ],
+      "traits": [
+        "Neutral. Base AC 9 improved by 1 through Dexterity. THAC0 19 on the up-to-1-HD monster row. Elf level 1 saves 12/13/13/15/15.",
+        "Roll 1d6 per side for initiative. Saves are d20 targets in order: death ray or poison, wands, paralysis or stone, breath, rod or staff or spell."
+      ],
+      "actions": [
+        "Miniature sword. One melee roll on the up-to-1-HD monster row, dealing 1d3 on a hit.",
+        "Fairy invisibility at will. A mortal who sees Niall must look away before Niall can vanish from that mortal’s sight. Fairies and people with second sight can still see him."
+      ],
+      "tactics": "Turn a watcher’s attention to something else, vanish and leave through a narrow gap."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Hob Reedstitch",
+      "species": "Brownie",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "brownie-hob-reedstitch-becmi",
+      "size": "Small",
+      "role": "Night keeper for an isolated inn.",
+      "motive": "Keep the family’s winter stores from being impounded.",
+      "hook": "Hob leaves a clean flour handprint on the sack containing a counterfeit seal."
+    },
+    {
+      "name": "Linden Veil",
+      "species": "Dryad",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "dryad-linden-veil-becmi",
+      "size": "Medium",
+      "role": "Travelling caretaker working to restore a cleared orchard.",
+      "motive": "Recover a graft from the last living tree of an old variety.",
+      "hook": "Linden offers a safe route across the floodplain if the party brings back a living cutting."
+    },
+    {
+      "name": "Fen Alderpipe",
+      "species": "Faun",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "faun-fen-alderpipe-becmi",
+      "size": "Medium",
+      "role": "Piper who guides flocks between seasonal pastures.",
+      "motive": "Find out who cut the bridge ropes before the next crossing.",
+      "hook": "Fen asks the party to follow the trail his missing flock left in the alder thicket."
+    },
+    {
+      "name": "Sedge of the Quiet Branch",
+      "species": "Hsiao",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "hsiao-sedge-of-the-quiet-branch-becmi",
+      "size": "Small",
+      "role": "Keeper of a woodland flight-route archive.",
+      "motive": "Recover a missing folio before the next migration.",
+      "hook": "A jay carried the folio’s marker to a collapsed rookery above a stream."
+    },
+    {
+      "name": "Niall Quickgold",
+      "species": "Leprechaun",
+      "speciesPublication": "Tall Tales of the Wee Folk (PC1, 1989)",
+      "edition": "Basic D&D (BECMI)",
+      "build": "leprechaun-niall-quickgold-becmi",
+      "size": "Tiny",
+      "role": "Cobbler who mends lost shoes for travellers.",
+      "motive": "Recover a stolen shoe last before market day.",
+      "hook": "Niall heard the thief trade the last for a key at a roadside stall."
+    }
+  ]
+}

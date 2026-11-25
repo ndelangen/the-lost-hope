@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Owl",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races v2 player rules, p. 255. Uses 2014 fifth-edition rules.",
+      "Tiny Beast. Dexterity +1 and Wisdom +1. Walk 5 ft. and fly 60 ft. Medium or heavy armor prevents flight. Speaks, reads, and writes Common.",
+      "Superior Darkvision reaches 120 ft. Wisdom (Perception) checks that depend on hearing or sight have advantage.",
+      "Flyby lets these owls Disengage as a bonus action. Talon unarmed strikes deal 1d4 piercing, use Strength or Dexterity for attack and damage, and count as finesse for features such as Sneak Attack.",
+      "Has no hands for weapons, shields, spellcasting foci, tools, or other items that require manipulation. The Tiny rules on p. 8 govern carrying and fitted armor."
+    ]
+  },
+  {
+    "name": "Panther",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races v2 player rules, pp. 255–256. Uses 2014 fifth-edition rules.",
+      "Medium Beast. Dexterity +2 and Strength +1. Walk 50 ft. and climb 40 ft. Speaks, reads, and writes Common.",
+      "Keen Smell grants advantage on Perception checks relying on smell. Bite and claw unarmed strikes deal 1d8 piercing or slashing, respectively. They use Strength or Dexterity for attack and damage and count as finesse for features such as Sneak Attack.",
+      "Pounce. Move at least 15 ft. straight toward a target and hit it with an unarmed strike on the same turn. After the hit, use a bonus action to attempt a shove that knocks the target prone. Resolve the normal 2014 shove contest.",
+      "Panthers have no hands for weapons, shields, spellcasting foci, tools, or other items that require manipulation."
+    ]
+  },
+  {
+    "name": "Phase Spider",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races v2 player rules, pp. 256–257. Uses 2014 fifth-edition rules.",
+      "Medium Monstrosity. Strength and Dexterity +1 each. Walk and climb 30 ft. Darkvision 60 ft. Phase spiders in this profile have no language and have no hands for weapons, shields, or other gear they would need to manipulate.",
+      "Bite unarmed strikes deal both 1d4 piercing and 1d4 poison on a hit. Choose Strength or Dexterity for the attack and damage, and treat the strike as finesse for features that require it. Unarmored AC is 11 + Dexterity modifier.",
+      "Ethereal Jaunt. With a bonus action, switch between the Ethereal and Material planes. Return to the starting plane when your next turn begins. Recharges on a short or long rest.",
+      "Spider Climb allows checks to be skipped when scaling difficult surfaces, including ceilings. Web Walker ignores movement restrictions from webbing."
+    ]
+  },
+  {
+    "name": "Poisonous Snake",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races v2 player rules, p. 257. Uses 2014 fifth-edition rules.",
+      "Also called a venomous snake. Medium Beast. Dexterity +2. Walk and climb 30 ft., blindsight 10 ft. Speaks, reads, and writes Common.",
+      "A bite unarmed strike deals 1d8 poison. The published species provides no finesse clause or saving throw for its damage.",
+      "Serpentine Body. Has no arms or hands for weapons, shields, or gear that requires manipulation. Cannot wear armor."
+    ]
+  },
+  {
+    "name": "Polar Bear",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races v2 player rules, p. 258. Uses 2014 fifth-edition rules.",
+      "Medium Beast. Strength and Constitution +2 each. Walk 40 ft. and swim 30 ft. Speaks, reads, and writes Common.",
+      "Polar bears have advantage on Perception checks that rely on smell. Bite and claw are unarmed strikes for 1d8 piercing or slashing, respectively. Unarmored AC is 12 + Dexterity modifier.",
+      "Has no hands for weapons, shields, spellcasting foci, tools, or other items that require manipulation."
+    ]
+  }
+]

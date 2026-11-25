@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Batracine",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Small Beast, neutral",
+    "ac": 8,
+    "hp": null,
+    "hpRule": "Roll 2d8 + 2. Uses the source’s standard d8 Hit Dice.",
+    "hitDice": "2+2",
+    "speed": "6, swim 12",
+    "xp": 175,
+    "appearance": "A squat frog-bodied animal with a bulldog’s head, short tail, and oily brown or gray hair. Its front paws are webbed and its rear feet are frog-like. About 2 ft. tall and 50 lb.",
+    "habitats": [
+      "Dream River",
+      "River banks",
+      "Renardy"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "otherStatistics": "Descending AC 8. THAC0 19. One attack per round. Unsteady morale (5–7). Animal intelligence (1). No magic resistance. Size S, 2 ft. tall. No treasure.",
+    "sections": {
+      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 14–15. ",
+      "Attacks": "Bite. One attack for 1d4 damage. It catches small prey with its sticky tongue and pulls the prey to its mouth. The text gives this no separate attack, range, or restraint rule.",
+      "Defenses and Legacy": "Adult batracines have Leap. The p. 8 monster rules allow an instantaneous jump forward or straight upward 20 ft. plus 1 ft. per Hit Die, capped at 35 ft. A 2-HD batracine can jump 22 ft. It uses this to take birds or reach water when threatened. The creature never becomes Afflicted and needs no cinnabryl. It is immune to the amber lotus’s sleep effect. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
+      "Parasites": "Cardinal ticks can infest this creature. If the specimen is infested, a melee encounter leaves the combatants with 5% infestation. Infestation increases by 15 percentage points each time its host attempts to use a Legacy, up to 50% in nonhumanoids. A cinnabryl ointment clears it. Scratching costs 1 HP per percentage point removed unless the special Jibarú medicine is used. See Parasite, printed p. 85.",
+      "Encounter ecology": "Common river carnivore, active at dusk and dawn. Family organization and 1d4 appearing. Adults usually den alone near the Dream River and pair in mating season, with 2–4 pups. They gather to hunt when food is short. They take forest animals and favor birds. Fish and amphibians are outside their diet. Pups sell for 5 gp and a trained pet for 20 gp. The book describes their blood as an ingredient in a potion to counter magical sleep."
+    }
+  },
+  {
+    "name": "Caniquine",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large Beast, neutral",
+    "ac": 6,
+    "hp": null,
+    "hpRule": "Roll 4d8 + 1. Uses the source’s standard d8 Hit Dice.",
+    "hitDice": "4+1",
+    "speed": "18",
+    "xp": 270,
+    "appearance": "A muscular animal with the head and pawed forelegs of a large dog and the hindquarters of a horse. Its doglike coat can be short or long, from pale yellow and white to black.",
+    "habitats": [
+      "Temperate regions",
+      "Villages"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "otherStatistics": "Descending AC 6. THAC0 17. One basic attack per round. Elite morale (13–14). Low intelligence (5–7). No magic resistance. Size L, 9 ft. long. No treasure.",
+    "sections": {
+      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 15–16. ",
+      "Attacks": "Bite. One attack for 1d8 damage. A ridden caniquine bites to defend its master even at speed.\nKick. A trained combat mount can deal 2d6 to one opponent with a hind-leg kick while stationary. A rider must signal for the mount to both bite and kick in the same round.",
+      "Red Curse": "About 1 in 10 are affected. Those specimens need cinnabryl to avoid Affliction and are worth 420 XP when they have a Legacy. Their entry names Fly, Anti-Missile, Leap, Projectile, and War Cry as desirable choices. It gives no default Legacy for an individual. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
+      "Encounter ecology": "Uncommon temperate omnivore, active by day. Pack organization and 2d4 appearing. Wild packs rush prey and typically avoid humanoids, never attacking lupins. Individuals form family units outside pack hunts. Captives can be trained for work or riding and communicate in simple calls and movements. They will serve as loyal mounts for most riders except rakastas and lupins."
+    }
+  },
+  {
+    "name": "Cinnavixen",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Small Beast, neutral",
+    "ac": 5,
+    "hp": null,
+    "hpRule": "Roll 1d8 + 1. Uses the source’s standard d8 Hit Dice.",
+    "hitDice": "1+1",
+    "speed": "20",
+    "xp": 65,
+    "appearance": "A foxlike animal with a dark red coat, burnt-orange swirls on the chest, paws, and ears, and dark brown eyes. Its bushy tail makes up about a foot of its 3-ft. length.",
+    "habitats": [
+      "Temperate forest",
+      "Mountains"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "otherStatistics": "Descending AC 5. THAC0 19. One attack per round. Unsteady morale (5–7). Semi-intelligence (2–4). No magic resistance. Size S, 3 ft. long. No treasure.",
+    "sections": {
+      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 17–18. ",
+      "Attacks": "Bite. One attack for 1d4 damage. Each bite causes 1 HP of bleeding per round until direct pressure is applied. Keep the pressure in place until the wound has been bandaged for more than 24 hours. The bite also has a printed 20% chance of vermilia infection.",
+      "Vermilia": "The separate Parasite entry says living targets save vs. poison to avoid infection. Undead contract it automatically, then can save vs. death magic each day at day’s end to avoid that day’s damage. That save carries a penalty equal to the day’s vermilia damage. A Legacy user takes an additional −1 per Legacy on vermilia saves. Damage doubles daily from 1 HP on day one until cure disease, heal, or the setting’s special remedy treats it. It counts as a +2 magical weapon for purposes of affecting undead or other magical creatures. The text does not explicitly specify how the bite’s 20% check interacts with the general save. See printed pp. 85–86.",
+      "Parasites": "Cardinal ticks can infest this creature. If the specimen is infested, a melee encounter leaves the combatants with 5% infestation. Infestation increases by 15 percentage points each time its host attempts to use a Legacy, up to 50% in nonhumanoids. A cinnabryl ointment clears it. Scratching costs 1 HP per percentage point removed unless the special Jibarú medicine is used. See Parasite, printed p. 85.",
+      "Red Curse": "Cinnavixens never gain Legacies and do not need cinnabryl. Wild ones can find local cinnabryl by scent. Tamed specimens lose this ability.",
+      "Encounter ecology": "Uncommon temperate forest and mountain carnivore, active at dusk and dawn. Family organization and 1d4 appearing. It usually flees unless feeding or protecting pups, bites, then springs away. Mates stay together for life and typically raise 4–6 pups in a burrow. It hunts rodents, chiefly voats, and often shelters near rock ledges or roots. An undamaged treated pelt is worth up to 5 gp. Inheritors protect the animals because they can find cinnabryl."
+    }
+  },
+  {
+    "name": "Echyan",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large Beast, neutral",
+    "ac": 4,
+    "hp": null,
+    "hpRule": "Roll 5d8. Uses the source’s standard d8 Hit Dice.",
+    "hitDice": "5",
+    "speed": "6, swim 24",
+    "xp": 1400,
+    "appearance": "A translucent eyeless sea worm about 12 ft. long and 2 ft. thick, with a flattened tail and a suction-cup mouth containing three rows of crystalline fangs.",
+    "habitats": [
+      "Western Sea",
+      "Savage Coast rivers",
+      "Dream River",
+      "Jururú River",
+      "Xingá River",
+      "Beaches"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "otherStatistics": "Descending AC 4 (10). THAC0 15. One attack per round. Average morale (8–10). Animal intelligence (1). No magic resistance. Size L, 12 ft. long. No treasure.",
+    "sections": {
+      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed p. 26. ",
+      "Attacks": "Suction bite. One attack for 2d4 damage. It detects movement and strikes from behind or below. On a hit, it attaches and deals its damage again automatically each round until the victim succeeds on a bend bars roll to detach it.\nSwallow Whole. On a natural attack roll of 18–20 it swallows a man-sized or smaller target. The book supplies no separate save, swallowed damage, or escape procedure.",
+      "School tactics": "Only one worm attacks at a time. Once the active worm loses half of its HP, it disengages and another takes its turn. The rotation continues until all are injured, then those still able to swim try to escape.",
+      "Defenses and Legacy": "It is almost invisible underwater because of its translucent body and is immune to amber lotus. No detection modifier is given. It rarely gains a Legacy and is immune to Affliction, so it needs no cinnabryl. XP is 2,000 for a specimen with a Legacy. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
+      "Print ambiguity": "The entry prints descending AC 4 (10) and does not give the condition for switching to 10.",
+      "Encounter ecology": "Uncommon aquatic carnivore, active at any time. School organization and 1d6+6 appearing. Echyans breed in coastal rivers, with spring hatchlings heading to sea. Adults follow fish in summer and return to the rivers in winter. They sometimes come ashore for tortle eggs, and worms caught in daylight bury themselves partly in sand."
+    }
+  },
+  {
+    "name": "Feliquine",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large Beast, neutral",
+    "ac": 5,
+    "hp": null,
+    "hpRule": "Roll 4d8 + 4. Uses the source’s standard d8 Hit Dice.",
+    "hitDice": "4+4",
+    "speed": "18",
+    "xp": 270,
+    "appearance": "A large tawny animal with the head, chest, and clawed forelegs of a lion and the hindquarters of a horse. The portrait depicts a maned adult.",
+    "habitats": [
+      "Temperate steppes"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "otherStatistics": "Descending AC 5. THAC0 15. Three basic attacks per round. Steady morale (11–12). Semi-intelligence (2–4). No magic resistance. Size L, 10 ft. long. No treasure.",
+    "sections": {
+      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 32–33. ",
+      "Attacks": "Claws and bite. Two front claws for 1d6 each and one bite for 1d10. A bonded mount seldom uses claws while ridden. It fiercely attacks with claw and bite if its rider falls.\nKick. A stationary feliquine can kick for 2d6 with its hind legs. It cannot also use its front claws in that round. Wild ones kick when cornered, while trained mounts can use it in combat.",
+      "Defenses and Legacy": "Add +1 to all surprise rolls. Feliquines sometimes gain a Legacy and need no cinnabryl to avoid Affliction. XP is 420 with a Legacy. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
+      "Encounter ecology": "Uncommon temperate-steppe carnivore, active at any time. Pride organization and 3d4 appearing. Females may herd prey toward males, or attack directly. Herd mammals and horses are usual prey. Only rakastas and occasionally elves form rider bonds. A bonded mount may carry a wounded rider to safety, and must periodically be released to hunt and mate to remain manageable."
+    }
+  }
+]

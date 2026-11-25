@@ -1,0 +1,353 @@
+[
+  {
+    "name": "Mind Flayer",
+    "pages": "pp. 221–222",
+    "statBlock": {
+      "name": "Mind Flayer",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium aberration, lawful evil",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "cr": "7",
+      "xp": 2900,
+      "description": "Illithids rule Underdark colonies through telepathy and thralls. A mind flayer lets its thralls engage strong foes while it looks for an escape or an isolated target.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate.",
+        "Saves": "Intelligence +7, Wisdom +6, Charisma +6.",
+        "Skills": "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4.",
+        "Senses": "Darkvision 120 ft., passive Perception 16.",
+        "Languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+        "Traits": "Magic Resistance. The mind flayer has advantage on saves against spells and other magical effects.",
+        "Innate spellcasting": "Psionics use Intelligence (spell save DC 15) and require no components.\nAt will: detect thoughts, levitate.\n1/day each: dominate monster, plane shift (self only).",
+        "Actions": "Tentacles. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 15 (2d10 + 4) psychic damage. If the creature is Medium or smaller, it is Grappled (escape DC 15) and makes a DC 15 Intelligence save. On failure it is Stunned until this grapple ends.\nExtract Brain. Melee weapon attack, +7 to hit, reach 5 ft., one Incapacitated humanoid grappled by the mind flayer. Hit 55 (10d10) piercing damage. If the damage reduces it to 0 HP, the mind flayer extracts its brain and kills it.\nMind Blast (recharge 5–6). Each creature in a 60-ft. cone makes a DC 15 Intelligence save against the magical blast. On failure it takes 22 (4d8 + 4) psychic damage and is Stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.",
+        "Printed source": "Monster Manual (2014), pp. 221–222."
+      }
+    }
+  },
+  {
+    "name": "Mind Flayer Arcanist",
+    "pages": "p. 222",
+    "statBlock": {
+      "name": "Mind Flayer Arcanist",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium aberration, lawful evil",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "description": "This illithid adds wizard training to its psionics. Other mind flayers shun the practice.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate.",
+        "Saves": "Intelligence +7, Wisdom +6, Charisma +6.",
+        "Skills": "Arcana +7, Deception +6, Insight +6, Perception +6, Persuasion +6, Stealth +4.",
+        "Senses": "Darkvision 120 ft., passive Perception 16.",
+        "Languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+        "Traits": "Magic Resistance. The mind flayer has advantage on saves against spells and other magical effects.",
+        "Innate spellcasting": "Psionics use Intelligence (spell save DC 15) and require no components.\nAt will: detect thoughts, levitate.\n1/day each: dominate monster, plane shift (self only).",
+        "Actions": "Tentacles. Melee weapon attack, +7 to hit, reach 5 ft., one creature. Hit 15 (2d10 + 4) psychic damage. If the creature is Medium or smaller, it is Grappled (escape DC 15) and makes a DC 15 Intelligence save. On failure it is Stunned until this grapple ends.\nExtract Brain. Melee weapon attack, +7 to hit, reach 5 ft., one Incapacitated humanoid grappled by the mind flayer. Hit 55 (10d10) piercing damage. If the damage reduces it to 0 HP, the mind flayer extracts its brain and kills it.\nMind Blast (recharge 5–6). Each creature in a 60-ft. cone makes a DC 15 Intelligence save against the magical blast. On failure it takes 22 (4d8 + 4) psychic damage and is Stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.",
+        "Spellcasting": "The arcanist is a 10th-level wizard spellcaster. It uses Intelligence (spell save DC 15, +7 to hit with spell attacks).\nCantrips at will: blade ward, dancing lights, mage hand, shocking grasp.\n1st level, 4 slots: detect magic, disguise self, shield, sleep.\n2nd level, 3 slots: blur, invisibility, ray of enfeeblement.\n3rd level, 3 slots: clairvoyance, lightning bolt, sending.\n4th level, 3 slots: confusion, hallucinatory terrain.\n5th level, 2 slots: telekinesis, wall of force.",
+        "Variant": "Uses the Mind Flayer base profile, including Magic Resistance, innate psionics, and all three actions. The printed variant adds prepared wizard spells and changes the challenge to 8 (3,900 XP).",
+        "Printed source": "Monster Manual (2014), p. 222."
+      }
+    }
+  },
+  {
+    "name": "Intellect Devourer",
+    "pages": "p. 191",
+    "statBlock": {
+      "name": "Intellect Devourer",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny aberration, lawful evil",
+      "ac": 12,
+      "hp": 21,
+      "hitDice": "6d4 + 6",
+      "speed": "40 ft.",
+      "cr": "2",
+      "xp": 450,
+      "description": "A brain on clawed legs stalks the Underdark. It can steal a host, use its memories, and lure others to mind flayers.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Perception +2, Stealth +4.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical weapons.",
+        "Condition immunities": "Blinded.",
+        "Senses": "Blindsight 60 ft., blind beyond that range. Passive Perception 12.",
+        "Languages": "Understands Deep Speech. Cannot speak. Telepathy 60 ft.",
+        "Traits": "Detect Sentience. Senses the presence and location of creatures within 300 ft. that have Intelligence 3 or higher. Barriers do not block this sense. Mind blank protects a creature from it.",
+        "Actions": "Multiattack. Make one Claws attack and use Devour Intellect.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) slashing damage.\nDevour Intellect. One visible creature within 10 ft. that has a brain makes a DC 12 Intelligence save against this magic. On failure it takes 11 (2d10) psychic damage. Also roll 3d6 on that failure. If the roll meets or exceeds the target's Intelligence score, reduce the score to 0. The creature is Stunned until it regains at least 1 Intelligence.\nBody Thief. Make a contested Intelligence check against an Incapacitated humanoid within 5 ft. that lacks protection from evil and good. If the devourer wins, it magically consumes the humanoid's brain, teleports into its skull, and controls its body.\nWhile inside, the devourer has Total Cover against attacks and other effects from outside the host. It keeps its Intelligence, Wisdom, Charisma, traits, understanding of Deep Speech, and telepathy. It takes the host's other statistics and knows everything the host knew, including languages and spells.\nBody Thief ends when the host dies, protection from evil and good is cast on the body, or wish restores the brain. The devourer can leave voluntarily by spending 5 ft. of movement to teleport to the nearest empty space within 5 ft. If it leaves and the brain is not restored within 1 round, the body dies.",
+        "Printed source": "Monster Manual (2014), p. 191."
+      },
+      "ruleNotes": [
+        "Body Thief includes the 2015 Monster Manual errata for the 2014 rules. The errata bars protected targets and uses the host's death to force departure. The early printing triggers departure at 0 HP."
+      ]
+    }
+  },
+  {
+    "name": "Carrion Crawler",
+    "pages": "p. 37",
+    "statBlock": {
+      "name": "Carrion Crawler",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 51,
+      "hitDice": "6d10 + 18",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "description": "This scavenger patrols sewers, caves, and ruins. It can drop from a ceiling to paralyze prey and drag it away.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Perception +3.",
+        "Senses": "Darkvision 60 ft., passive Perception 13.",
+        "Languages": "None.",
+        "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks based on smell.\nSpider Climb. Climb difficult surfaces and ceilings without an ability check.",
+        "Actions": "Multiattack. Make one Tentacles attack and one Bite attack.\nTentacles. Melee weapon attack, +8 to hit, reach 10 ft., one creature. Hit 4 (1d4 + 2) poison damage. The creature makes a DC 13 Constitution save. On failure it is Poisoned for 1 minute and Paralyzed while that poison lasts. Repeat the save at the end of each of its turns, ending the poison on a success.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 37."
+      }
+    }
+  },
+  {
+    "name": "Grell",
+    "pages": "p. 172",
+    "statBlock": {
+      "name": "Grell",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium aberration, neutral evil",
+      "ac": 12,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "speed": "10 ft., fly 30 ft. (hover)",
+      "cr": "3",
+      "xp": 700,
+      "description": "A grell floats over dungeon passages and seizes prey from above. It can hover with a victim held in its tentacles.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Perception +4, Stealth +6.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Blinded, Prone.",
+        "Senses": "Blindsight 60 ft., blind beyond that range. Passive Perception 14.",
+        "Languages": "Grell.",
+        "Actions": "Multiattack. Make one Tentacles attack and one Beak attack.\nTentacles. Melee weapon attack, +4 to hit, reach 10 ft., one creature. Hit 7 (1d10 + 2) piercing damage. On a failed DC 11 Constitution save, the creature is Poisoned for 1 minute and Paralyzed while the poison lasts. It repeats the save at the end of each of its turns, ending the poison on a success.\nA Tentacles hit also Grapples the creature (escape DC 15). If the creature is Medium or smaller, it is Restrained until the grapple ends and moves with the grell when the grell moves. During this grapple the grell has advantage on attack rolls against its captive and cannot use Tentacles against anyone else.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 7 (2d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 172."
+      }
+    }
+  },
+  {
+    "name": "Displacer Beast",
+    "pages": "p. 81",
+    "statBlock": {
+      "name": "Displacer Beast",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, lawful evil",
+      "ac": 13,
+      "hp": 85,
+      "hitDice": "10d10 + 30",
+      "speed": "40 ft.",
+      "cr": "3",
+      "xp": 700,
+      "description": "A six-legged hunter appears several feet from where it stands. A pack can lure pursuers into a second ambush.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., passive Perception 11.",
+        "Languages": "None.",
+        "Traits": "Avoidance. If an effect allows a save for half damage, the displacer beast takes no damage on a success and half damage on a failure.\nDisplacement. Its magical image makes attack rolls against it have disadvantage. A hit suppresses the image until the end of its next turn. The image is also suppressed while the displacer beast is Incapacitated or its speed is 0.",
+        "Actions": "Multiattack. Make two Tentacle attacks.\nTentacle. Melee weapon attack, +6 to hit, reach 10 ft., one target. Hit 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 81."
+      }
+    }
+  },
+  {
+    "name": "Umber Hulk",
+    "pages": "p. 292",
+    "statBlock": {
+      "name": "Umber Hulk",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 18,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "30 ft., burrow 20 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "description": "An umber hulk waits behind stone and senses movement through the ground. It bursts into a passage and catches startled prey with its gaze.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., Tremorsense 60 ft., passive Perception 10.",
+        "Languages": "Umber Hulk.",
+        "Traits": "Confusing Gaze. Unless Incapacitated, the umber hulk can force a DC 15 Charisma save when a creature starts its turn within 30 ft. and can see its eyes. On failure the creature has no reactions until the start of its next turn and rolls a d8 to determine its current turn.\n1–4: do nothing. 5–6: take no action and use all movement to move in a random direction. 7–8: make one melee attack against a random creature within reach, or do nothing if no creature is within reach.\nUnless Surprised, the creature can avert its eyes at the start of its turn to skip the save. It cannot see the umber hulk until the start of its next turn. If it looks sooner, it makes the save immediately.\nTunneler. Burrow through solid rock at half burrow speed, leaving a tunnel 5 ft. wide and 8 ft. high.",
+        "Actions": "Multiattack. Make two Claw attacks and one Mandibles attack.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 9 (1d8 + 5) slashing damage.\nMandibles. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 14 (2d8 + 5) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 292."
+      }
+    }
+  }
+]

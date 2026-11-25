@@ -1,0 +1,117 @@
+{
+  "builds": [
+    {
+      "id": "sea-kin-harbor-healer-35e",
+      "title": "Sea Kin tidal basin healer, Druid 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 1,
+      "speed": "Walk 30 ft. Swim 30 ft.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 16,
+        "CHA": 8
+      },
+      "skills": [
+        "Concentration +6",
+        "Escape Artist +3",
+        "Heal +10",
+        "Knowledge (nature) +7",
+        "Spellcraft +5",
+        "Survival +9",
+        "Swim +12 on hazards and special actions"
+      ],
+      "senses": "Low-light vision",
+      "languages": "Common, Aquan. Also knows Druidic.",
+      "traits": [
+        "Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +0. Fortitude +4, Reflex +1, Will +5.",
+        "Constitution 14 gives 112 rounds of held breath before drowning risk. Mark an extra round spent for each standard or full-round action while holding breath. With swim speed, take 10 even when threatened on Swim checks needed for hazards or special actions.",
+        "Nature Sense adds +2 to Knowledge (nature) and Survival. Skill Focus (Heal) adds +3. Wild Empathy +0. No companion accompanies her on this inspection.",
+        "Caster level 1, save DC 13 + spell level, three prepared cantrips and two prepared 1st-level spells, including one Wisdom bonus slot. She carries a druidic focus and spell component pouch."
+      ],
+      "actions": [
+        "Spear +0 melee wielded two-handed, 1d8 piercing, critical ×3, reach 5 ft.",
+        "Prepared cantrips: guidance, know direction, purify food and drink. Purify Food and Drink makes up to 1 cubic foot of ordinary spoiled or fouled food and water fit for consumption at caster level 1.",
+        "Prepared 1st-level spells: cure light wounds and speak with animals. Cure Light Wounds heals 1d8+1 HP to a living creature touched. Speak with Animals lasts 1 minute at caster level 1. She can convert a 1st-level slot to Summon Nature’s Ally I, such as a porpoise in suitable water."
+      ],
+      "tactics": "Examine the water at the surface before diving to inspect the intake. Use Heal on the crew and cast at the surface. A small supply can be purified for drinking while the party looks for the source of the fouling."
+    },
+    {
+      "id": "sea-kin-lock-warden-35e",
+      "title": "Sea Kin tidal lock warden, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 5,
+      "speed": "Walk 30 ft. Swim 30 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +4",
+        "Escape Artist +1",
+        "Jump +4",
+        "Swim +10 on hazards and special actions"
+      ],
+      "senses": "Low-light vision",
+      "languages": "Common",
+      "traits": [
+        "Studded leather +3, light wooden shield +1, Dexterity +1. Touch 11, flat-footed 14. BAB +1, grapple +3. Fortitude +4, Reflex +1, Will +1.",
+        "Constitution 14 gives 112 rounds of held breath before drowning risk. Mark an extra round spent for each standard or full-round action while holding breath. With swim speed, take 10 even when threatened on Swim checks needed for hazards or special actions.",
+        "Improved Initiative and Fighter bonus Weapon Focus (trident). Weapon Familiarity makes the net and trident simple weapons. Fighter grants proficiency with them. The two armor penalties total −2, doubled to −4 for Swim."
+      ],
+      "actions": [
+        "Trident +4 melee wielded one-handed, 1d8+2 piercing, critical ×2, 5-ft. reach. The swim speed permits normal piercing melee attacks underwater.",
+        "Net +2 ranged touch, maximum 10 ft., used from the dry platform against a target from Small to Large. A hit entangles the target, giving −2 on attacks and −4 Dexterity, half speed, and no running or charging. Escape Artist DC 20 or Strength DC 25 as a full-round action. Thrown weapons are ineffective underwater."
+      ],
+      "tactics": "Have the party hold the dry platform while checking the lock’s catch below. Keep the trident for underwater defence. Use the net only from the platform against a target above water."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Sea Kin",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Neressa",
+      "build": "sea-kin-harbor-healer-35e",
+      "role": "Tidal basin healer and Druid.",
+      "motive": "Find why the boats can no longer draw safe water from the tidal basin.",
+      "hook": "Neressa can test a sample and tend the sick while the party searches the intake."
+    },
+    {
+      "species": "Sea Kin",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Emmoran",
+      "build": "sea-kin-lock-warden-35e",
+      "role": "Tidal lock warden and Fighter.",
+      "motive": "Open the jammed tide gate before the returning boats run out of time.",
+      "hook": "Emmoran can reach the submerged catch if the party keeps the dry platform clear."
+    }
+  ]
+}

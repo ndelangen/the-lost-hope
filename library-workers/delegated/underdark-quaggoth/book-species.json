@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Quaggoth",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid. +8 Strength, +4 Constitution, −4 Intelligence, +2 Wisdom, derived from the original stat block using the core monster ability-score rule.",
+      "Land speed 30 ft. Darkvision 60 ft. and +4 natural armor.",
+      "Climb speed 30 ft. gives +8 on Climb checks and lets the quaggoth take 10 even under pressure.",
+      "Immune to fear. Scent normally detects creatures within 30 ft. Spend a move action for direction, and pinpoint the source within 5 ft.",
+      "Two primary claws each deal 1d4 piercing and slashing damage. The secondary bite deals 1d4 bludgeoning, piercing, and slashing damage. Apply Strength modifiers to these base dice.",
+      "Rage (Ex). After taking damage in combat, check the following round for a 50% chance to rage. Magic-followers instead rage on 1 in 6 and drop their weapons. Rage grants +4 Strength and imposes −4 AC. The quaggoth fights with claws and bite until it or its opponent dies and cannot end the rage voluntarily.",
+      "Magic-followers paint or dye their fur and gain a +2 circumstance bonus on Hide checks in shadowy areas. Beast-followers leave their fur white and fight with natural weapons. The original entry describes classed quaggoths as never gaining spellcasting.",
+      "Three racial Hit Dice (3d8) grant BAB +3, base Fortitude +1, Reflex +3, Will +3, and two feats. The updated racial skill list has Climb, Hide, Listen, Spot, and Survival.",
+      "Quaggoths speak a dialect of Undercommon. LA +2, so ECL 5 before class levels. Favored class Barbarian.",
+      "Uses the Monsters of Faerûn entry carried forward by Underdark and revised by the 2004 Monster Update. The 2007 Drow of the Underdark uses a separate four-racial-Hit-Die profile."
+    ]
+  }
+]

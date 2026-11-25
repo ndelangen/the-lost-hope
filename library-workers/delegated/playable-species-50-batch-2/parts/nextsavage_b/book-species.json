@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Efreeti",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium outsider at entry with the Evil, Fire, and Lawful subtypes. Starts with +2 Strength and +2 Constitution, a 20-ft. land speed, darkvision 60 ft., and telepathy with creatures that have a language within 100 ft.",
+      "Fire immunity. Apply −10 to saves against cold attacks and double damage when cold offers no save.",
+      "Proficient with simple and martial weapons. The slam starts at 1d4 plus 1½ times the Strength bonus and explicitly gains iterative attacks from BAB. Heat starts at level 2 and adds fire damage on a slam hit, on a successful grapple, and each round a hold is maintained.",
+      "Level 2 grants +2 natural armor, detect magic 1/day, and enlarge 1/day. Level 3 grants another +2 Strength and produce flame and pyrotechnics at will. Spell-like caster level is class HD +8.",
+      "At level 4 the Efreeti can fly 40 ft. with perfect maneuverability and use invisibility 1/day. The class later grants plane shift, gaseous form, polymorph self, wall of fire, permanent image, and wish. It becomes Large with 10-ft. reach at level 10.",
+      "Auran, Common, Ignan, and Infernal are automatic languages. The preferred progression is Efreeti. The class ends at ECL 19 with 10d8 Hit Dice and a printed CR of 8."
+    ]
+  },
+  {
+    "name": "Flamebrother Salamander",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Small fire outsider, +2 Intelligence and +2 Wisdom, land speed 20 ft., darkvision 60 ft., and +4 racial on Craft (metalworking). Small size gives +1 AC and attacks, +4 Hide, and three-quarters of Medium carrying capacity.",
+      "Proficient with simple and martial weapons. Treats the metal salamander halfspear as martial. Natural attacks and attacks with metal weapons add heat damage, which starts at 1d2, rises to 1d4 at level 2, and reaches 1d6 at level 7.",
+      "The tail slap starts at 1d4 plus half the Strength bonus before heat. At level 4 a successful grapple check against a target of up to Medium size can deal tail slap damage with heat.",
+      "Fire damage immunity. Apply −10 to saves against cold attacks, and double damage if a cold attack offers no save.",
+      "Ignan is automatic. Favored class Flamebrother. At the end of the class the character is ECL 7 with 3d8 Hit Dice, +7 natural armor, and a printed CR of 2."
+    ]
+  },
+  {
+    "name": "Athach",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium aberration at entry, 30-ft. land speed, darkvision 60 ft., and starting adjustments of −4 Intelligence, +2 Wisdom, and −4 Charisma. Proficient with simple weapons and light armor.",
+      "Three Arms starts at level 1. Only the primary weapon arm gets iterative attacks. Extra weapon arms add half the Strength bonus to damage and use the two-weapon penalties. Multiweapon Fighting and Multidexterity reduce those penalties.",
+      "A 1d4 bite arrives at level 2 and gains Strength poison at level 3. The poison save DC is 10 + half monster-class HD + Constitution modifier. Initial and secondary damage are both 1d4 Strength at level 3. Bite size and poison damage improve with progression.",
+      "Rock throwing begins at level 8. Level 9 grants Large size, reach 10 ft., and bonus Multiattack. At level 19 the class ends at Huge, 50-ft. land speed, 15-ft. reach, 14d8 Hit Dice, ECL 19, and printed CR 7.",
+      "Giant is automatic. Favored class Athach."
+    ]
+  },
+  {
+    "name": "Grig",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Tiny fey, starting adjustments −6 Strength and +6 Dexterity, land speed 20 ft., fly 20 ft. (poor), 2½-ft. face, 0-ft. reach, and low-light vision. Tiny size gives +2 on attack rolls and AC and +8 Hide.",
+      "Racial bonuses are +2 Listen, Search, and Spot, +8 Jump, and +5 Move Silently in forests. Class weapon proficiencies cover simple weapons, the composite longbow, and the short sword.",
+      "Change self, entangle, invisibility on self, pyrotechnics, and ventriloquism begin at 1/day each as a 9th-level sorcerer. Spell resistance equals 13 + Grig class level.",
+      "At level 2, flight increases to 40 ft. (poor) and the Grig gains +2 Wisdom and bonus Dodge. Level 3 adds +2 Dexterity, +2 Constitution, and +1 natural armor. Level 4 adds +2 Charisma, raises natural armor to +2 and spell-like uses to 3/day each, and unlocks attune fiddle.",
+      "A level-4 Grig who has selected fiddle as a Perform mode can attune a properly sized fiddle in one day. While playing it, nonsprites within 30 ft. make a DC 15 Will save or dance for as long as the playing continues. Only its attuned player can use this magic. Separation for more than one week requires a new attunement.",
+      "Common and Sylvan are automatic. Favored class Grig. ECL 4, a half d6, and printed CR 1 at the end of the monster class."
+    ]
+  },
+  {
+    "name": "Harpy",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium monstrous humanoid at entry, +2 Dexterity, −4 Intelligence, +2 Charisma. Base land speed 20 ft., darkvision 60 ft., and Common. Favored class Harpy.",
+      "Proficient with simple weapons. The class begins with +1 natural armor and two claws dealing 1d3 each plus half the Strength bonus. Gain another +2 Dexterity at level 2 and a 40-ft. fly speed (average) at level 3.",
+      "Captivating Song starts at level 4 in a 10-ft. radius and expands to 30, 100, and 300 ft. at levels 6, 8, and 10. It affects nonharpies who fail Will DC 10 + half the Harpy’s class HD + Charisma modifier. It lasts while the Harpy sings and for another round per class HD.",
+      "Flight rises to 60 ft. at level 5 and 80 ft. at level 8, with average maneuverability. At ECL 10 the progression ends with 7d8 Hit Dice and a printed CR of 4."
+    ]
+  }
+]

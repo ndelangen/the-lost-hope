@@ -1,0 +1,26 @@
+{
+  "commit": "5a616ad8b5485799e17dadc0743d323a22999d13",
+  "publication": "Expanded Psionics Handbook (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 2,
+  "profiles": 2,
+  "fullNpcBuilds": 4,
+  "generatedPortraitsInstalled": 2,
+  "recentProfilesWithGeneratedPortrait": 618,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-60-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/60/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Death Captain",
+      "source": "https://www.dndbeyond.com/monsters/4485883-hobgoblin-death-captain",
+      "challenge": "6"
+    },
+    {
+      "name": "Hobgoblin War Mage",
+      "source": "https://www.dndbeyond.com/monsters/4485889-hobgoblin-war-mage",
+      "challenge": "3"
+    }
+  ]
+}

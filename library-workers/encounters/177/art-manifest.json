@@ -1,0 +1,839 @@
+{
+  "new": {
+    "Two-Headed Cerberus": {
+      "path": "output/dm-library/encounter-batches/177/art/two-headed-cerberus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5b5c115c431c1264d03fc6b9c30b36673e60a80eb1776b4641cc3077755ee413",
+      "bytes": 2646886
+    },
+    "Typhon": {
+      "path": "output/dm-library/encounter-batches/177/art/typhon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1dbeb980243c8c097be27f48cd0b3119ed27b571ecb75eb03a242f1333365c44",
+      "bytes": 2765341
+    },
+    "Underworld Cerberus": {
+      "path": "output/dm-library/encounter-batches/177/art/underworld-cerberus.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "adc8c58baaae405c80f6cd1186e934e5025cb7e6b14b65fe7a516d414bd8d5b2",
+      "bytes": 2669783
+    },
+    "Winged Bull": {
+      "path": "output/dm-library/encounter-batches/177/art/winged-bull.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a41333607d4db94228a18299fb560cf4bd2d742bb9e194a45b31f7c521a55c59",
+      "bytes": 2633272
+    },
+    "Winged Lion": {
+      "path": "output/dm-library/encounter-batches/177/art/winged-lion.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "690103710d66fcc9c00f402d8ee15758fa71f33a1cb0e9480f492c2b2d8b8904",
+      "bytes": 2842086
+    },
+    "Woe Strider": {
+      "path": "output/dm-library/encounter-batches/177/art/woe-strider.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "570e0fef56e10b8ba8471ba60ded7cfa1fde6163eca70d9964a8697a30799a66",
+      "bytes": 2503756
+    },
+    "Aartuk Elder": {
+      "path": "output/dm-library/encounter-batches/177/art/aartuk-elder.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "37ce14c9587df667389160f5a5b1c4b200769a7518fa16eb29e50cb20852b09f",
+      "bytes": 2897202
+    },
+    "Aartuk Starhorror": {
+      "path": "output/dm-library/encounter-batches/177/art/aartuk-starhorror.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3e24a547ffcb3ee1d9238bd5a5d4a438ba12af285f727f4e05195997dad221ae",
+      "bytes": 2692440
+    },
+    "Aartuk Weedling": {
+      "path": "output/dm-library/encounter-batches/177/art/aartuk-weedling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "53dbe440bd84108d07581ad6422aa7484819de03c14a3c3d4f8f7d2eb168f0d8",
+      "bytes": 2569306
+    },
+    "Adult Lunar Dragon": {
+      "path": "output/dm-library/encounter-batches/177/art/adult-lunar-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4c384f5c3ccb6a5cfb0718783c10086898a0c3b8e322aa599662361907a3e43f",
+      "bytes": 2753406
+    },
+    "Adult Solar Dragon": {
+      "path": "output/dm-library/encounter-batches/177/art/adult-solar-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f95c5442582bedb23bc77db889c23d5a9c9490378a6f8903e8332075ee147251",
+      "bytes": 2811654
+    },
+    "Ancient Lunar Dragon": {
+      "path": "output/dm-library/encounter-batches/177/art/ancient-lunar-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e77681d8581e6c67dd2762922519f67dd9bda116f2d307fabe9efb1810b24d95",
+      "bytes": 2989400
+    },
+    "Ancient Solar Dragon": {
+      "path": "output/dm-library/encounter-batches/177/art/ancient-solar-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d938b52a9c67822871d8235ea3ec0aa045c470d2a2318490337b6ea2d7f44aeb",
+      "bytes": 3152278
+    },
+    "Astral Elf Aristocrat": {
+      "path": "output/dm-library/encounter-batches/177/art/astral-elf-aristocrat.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f50ab4b4f6f46899e5edf76abdf8423eef33f83897728a2c87bf4bc02e6bbb91",
+      "bytes": 2348084
+    },
+    "Astral Elf Commander": {
+      "path": "output/dm-library/encounter-batches/177/art/astral-elf-commander.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e3bc6dcf74f7ef27f27177ca4d08177502a32442590088188ee96ef76964fcf3",
+      "bytes": 2516942
+    },
+    "Astral Elf Honor Guard": {
+      "path": "output/dm-library/encounter-batches/177/art/astral-elf-honor-guard.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b92e387524aaeb48d3a2411a15f174c82a10d2fe8f6f2b74b8e20c28a89c8665",
+      "bytes": 2616487
+    },
+    "Astral Elf Star Priest": {
+      "path": "output/dm-library/encounter-batches/177/art/astral-elf-star-priest.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4a346dcc2c8cd6443185eac7823069ab5c9a99fc226ab626f9bf08f5ec5314d1",
+      "bytes": 2612671
+    },
+    "Astral Elf Warrior": {
+      "path": "output/dm-library/encounter-batches/177/art/astral-elf-warrior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d9ec726b7fb066d6500e0f4f29966579a257a868f468ef32c674170f1b0bb72d",
+      "bytes": 2680357
+    },
+    "Autognome": {
+      "path": "output/dm-library/encounter-batches/177/art/autognome.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8d36e70d043e80697b1a1c1977b4fd7d889e0e6210ad84c9674e7cc23ba242fb",
+      "bytes": 2894901
+    },
+    "Braxat": {
+      "path": "output/dm-library/encounter-batches/177/art/braxat.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "da9b858abe8a4170775e31b8d4655ef700050b253ad54fe78a64eebeda52b719",
+      "bytes": 2911089
+    },
+    "Brown Scavver": {
+      "path": "output/dm-library/encounter-batches/177/art/brown-scavver.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6686ebee1342a958a518cc23324eef94f1813ca8fa736550093536314a6d09ca",
+      "bytes": 2697928
+    },
+    "B’rohg": {
+      "path": "output/dm-library/encounter-batches/177/art/b-rohg.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c30e0838f50ac79576d03e37839a1eeb1ba34589196f8cbbb5e95c8db14064d9",
+      "bytes": 2659402
+    },
+    "Chwinga Astronaut": {
+      "path": "output/dm-library/encounter-batches/177/art/chwinga-astronaut.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5414c40a06d66e20d5537949ebe3592a7da2456203304ab92bd5050b11f15eb0",
+      "bytes": 2748349
+    },
+    "Cosmic Horror": {
+      "path": "output/dm-library/encounter-batches/177/art/cosmic-horror.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1b37c3cb4a9a21db686eaccd876cebac3c3b368b580adc69384ed8d7c11fa590",
+      "bytes": 2979645
+    },
+    "Dohwar": {
+      "path": "output/dm-library/encounter-batches/177/art/dohwar.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3e1f840ab5cb395889be8a6f4ecc692a336511c78c67beb05b1938e8f24f2e16",
+      "bytes": 2843221
+    },
+    "Esthetic": {
+      "path": "output/dm-library/encounter-batches/177/art/esthetic.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ebbbdca87db7f4a81f5317befa7f1c7a30a05c3fcf809291df5824e68be25e14",
+      "bytes": 2543438
+    },
+    "Eye Monger": {
+      "path": "output/dm-library/encounter-batches/177/art/eye-monger.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fc670d14e4e275b05cea4ad122c4d2886badfe4fc40f1cfd148336646df4cdbd",
+      "bytes": 2883824
+    },
+    "Feyr": {
+      "path": "output/dm-library/encounter-batches/177/art/feyr.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f5857193a31e70c66e97c0c3ee015ad901a89e317ad4edf25bd0a4585aee6731",
+      "bytes": 2760123
+    },
+    "Gaj": {
+      "path": "output/dm-library/encounter-batches/177/art/gaj.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d2de2a6c01a980ad51427786336b03d80e0320bada5b34ce949c5841ebd013cd",
+      "bytes": 2825917
+    },
+    "Giff Shock Trooper": {
+      "path": "output/dm-library/encounter-batches/177/art/giff-shock-trooper.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e4c6f60f8717973d3b3e3e94f42942a2cab61844b6e183234ee2c470754a7e01",
+      "bytes": 2938088
+    },
+    "Giff Warlord": {
+      "path": "output/dm-library/encounter-batches/177/art/giff-warlord.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "019222b7134dfa171ff3d7ac0eecfef057a0a41f3b94536727a01af759c20d1c",
+      "bytes": 2474652
+    },
+    "Githyanki Buccaneer": {
+      "path": "output/dm-library/encounter-batches/177/art/githyanki-buccaneer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7579e935585d72d1a5276e9fe4aaa502053bf00cd6083d88fafa23569a498004",
+      "bytes": 2375972
+    },
+    "Githyanki Star Seer": {
+      "path": "output/dm-library/encounter-batches/177/art/githyanki-star-seer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0a5c729268e15cecf425c565012ae0d453ba4d9c3a89ff84d65c2f131014f724",
+      "bytes": 2186070
+    },
+    "Githyanki Xenomancer": {
+      "path": "output/dm-library/encounter-batches/177/art/githyanki-xenomancer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "299d273ca844ded5a750639ebb1902086f207076ba53086342813688dec751f4",
+      "bytes": 2489531
+    },
+    "Gray Scavver": {
+      "path": "output/dm-library/encounter-batches/177/art/gray-scavver.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "30faad86f222080b6f67b1df7da539f5e6d7d783e6400650a5aa73c82539dd31",
+      "bytes": 2382370
+    },
+    "Hadozee Explorer": {
+      "path": "output/dm-library/encounter-batches/177/art/hadozee-explorer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b96e238823d6bec019c4104c035c160f4ec27acc200de884e1dda50875d14802",
+      "bytes": 2424345
+    },
+    "Hadozee Shipmate": {
+      "path": "output/dm-library/encounter-batches/177/art/hadozee-shipmate.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bf95b746547cd0fc0bf69a94e51b021b9faa56dc48505acdbe40f0803d8c0235",
+      "bytes": 2429762
+    },
+    "Hadozee Warrior": {
+      "path": "output/dm-library/encounter-batches/177/art/hadozee-warrior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ce3a7d49dd60672bce7d125f3d8ea34c4fc02897f4f4a2f5ad7e58200409f949",
+      "bytes": 2567493
+    },
+    "Jammer Leech": {
+      "path": "output/dm-library/encounter-batches/177/art/jammer-leech.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "51224f9850530b5d8b747c98ffe4f118c1b62c522c55e372112b8a89f5113628",
+      "bytes": 2627704
+    },
+    "Kindori": {
+      "path": "output/dm-library/encounter-batches/177/art/kindori.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b372deb92e0aeb9238541db9f3106e7d820448b2ef8b8125c73543edad6e6b79",
+      "bytes": 2690355
+    },
+    "Lunar Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/177/art/lunar-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "89a3a11f2ba909bf5a6cefc1f15d1176a8463b3c38c43ad0541244d1b46f1fb3",
+      "bytes": 2509728
+    },
+    "Megapede": {
+      "path": "output/dm-library/encounter-batches/177/art/megapede.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "26372018d4815b7ed48c727345512739a217743275510637593e41fe93c52fb3",
+      "bytes": 2958603
+    },
+    "Mercane": {
+      "path": "output/dm-library/encounter-batches/177/art/mercane.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "dacd2f4ba52c591526feab385a7debe96693ba6eff9c8ab19acc6662b7160a63",
+      "bytes": 2432984
+    },
+    "Murder Comet": {
+      "path": "output/dm-library/encounter-batches/177/art/murder-comet.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c57ac22754e126c9331742ac4a767172384c357716b5b40a7c26731f339bf7bd",
+      "bytes": 2439275
+    },
+    "Neh-thalggu": {
+      "path": "output/dm-library/encounter-batches/177/art/neh-thalggu.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3cec86c1918e71437c760b0f40f0178c6504bddd4abc863570b0f2b0982da38c",
+      "bytes": 2487470
+    },
+    "Neogi Hatchling Swarm": {
+      "path": "output/dm-library/encounter-batches/177/art/neogi-hatchling-swarm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1ff2b83488d6b933805854bbc3c8f7c3e390ebe1367fc6f934ec8347e904d9a4",
+      "bytes": 2611817
+    },
+    "Neogi Pirate": {
+      "path": "output/dm-library/encounter-batches/177/art/neogi-pirate.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d8eda214c5aed8f3025dbe9a1e798f959c20827e762326bc800b2da496eef2cd",
+      "bytes": 2812123
+    },
+    "Neogi Void Hunter": {
+      "path": "output/dm-library/encounter-batches/177/art/neogi-void-hunter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "599b94680ac0dfdc30077172fb3b13988270f9549556d698e5df8b5b34097d8a",
+      "bytes": 2665506
+    },
+    "Night Scavver": {
+      "path": "output/dm-library/encounter-batches/177/art/night-scavver.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "05d446009819740787d6eeef720c69ba73cbc1b4de0e4593c0a2c03843d22615",
+      "bytes": 2581384
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-ef9f1573fb63c749b7e09575",
+      "version": "c27f57324d282c96fa10d265",
+      "name": "Two-Headed Cerberus",
+      "file": "images/monsters/two-headed-cerberus/batch-177-portrait.png",
+      "sha256": "5b5c115c431c1264d03fc6b9c30b36673e60a80eb1776b4641cc3077755ee413",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b1fc1c68a28135561cdb827e",
+      "version": "60ea4e61e71d1a26925e56b9",
+      "name": "Typhon",
+      "file": "images/monsters/typhon/batch-177-portrait.png",
+      "sha256": "1dbeb980243c8c097be27f48cd0b3119ed27b571ecb75eb03a242f1333365c44",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-45db5fbed3f3d5bb321d66ba",
+      "version": "f617246f7375f772c48868a8",
+      "name": "Underworld Cerberus",
+      "file": "images/monsters/underworld-cerberus/batch-177-portrait.png",
+      "sha256": "adc8c58baaae405c80f6cd1186e934e5025cb7e6b14b65fe7a516d414bd8d5b2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-11f828010e526cda6b7b4c6b",
+      "version": "fa895dcf343995e400ed3532",
+      "name": "Winged Bull",
+      "file": "images/monsters/winged-bull/batch-177-portrait.png",
+      "sha256": "a41333607d4db94228a18299fb560cf4bd2d742bb9e194a45b31f7c521a55c59",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e128b10171727f33a0d29a17",
+      "version": "6b2d901008a69a543833231b",
+      "name": "Winged Lion",
+      "file": "images/monsters/winged-lion/batch-177-portrait.png",
+      "sha256": "690103710d66fcc9c00f402d8ee15758fa71f33a1cb0e9480f492c2b2d8b8904",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9005ae8fea8e70ce33c785ed",
+      "version": "1270b1c97faefb189d5c68c9",
+      "name": "Woe Strider",
+      "file": "images/monsters/woe-strider/batch-177-portrait.png",
+      "sha256": "570e0fef56e10b8ba8471ba60ded7cfa1fde6163eca70d9964a8697a30799a66",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ecdd4dd4db4081d7308eff92",
+      "version": "faa7d25498df57d192143d5d",
+      "name": "Aartuk Elder",
+      "file": "images/monsters/aartuk-elder/batch-177-portrait.png",
+      "sha256": "37ce14c9587df667389160f5a5b1c4b200769a7518fa16eb29e50cb20852b09f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-24b420b7c804c8aeed9fde60",
+      "version": "a90d2af8b2b88993f1a9febe",
+      "name": "Aartuk Starhorror",
+      "file": "images/monsters/aartuk-starhorror/batch-177-portrait.png",
+      "sha256": "3e24a547ffcb3ee1d9238bd5a5d4a438ba12af285f727f4e05195997dad221ae",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f0bfb7d20dc510ee04a2948d",
+      "version": "47849d35b91bfc393cf8d33b",
+      "name": "Aartuk Weedling",
+      "file": "images/monsters/aartuk-weedling/batch-177-portrait.png",
+      "sha256": "53dbe440bd84108d07581ad6422aa7484819de03c14a3c3d4f8f7d2eb168f0d8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2c97e3a31b39bcc90b6ced80",
+      "version": "83dda6c4368e1ac1e8cadadd",
+      "name": "Adult Lunar Dragon",
+      "file": "images/monsters/adult-lunar-dragon/batch-177-portrait.png",
+      "sha256": "4c384f5c3ccb6a5cfb0718783c10086898a0c3b8e322aa599662361907a3e43f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-56832e7c98204bd39326743c",
+      "version": "dfe96c4e0563019aae21e547",
+      "name": "Adult Solar Dragon",
+      "file": "images/monsters/adult-solar-dragon/batch-177-portrait.png",
+      "sha256": "f95c5442582bedb23bc77db889c23d5a9c9490378a6f8903e8332075ee147251",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-715e3cea6bb7f182f20fc4cb",
+      "version": "eaee26333f100cb23f0d5004",
+      "name": "Ancient Lunar Dragon",
+      "file": "images/monsters/ancient-lunar-dragon/batch-177-portrait.png",
+      "sha256": "e77681d8581e6c67dd2762922519f67dd9bda116f2d307fabe9efb1810b24d95",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-59a0d3181daa40719a050726",
+      "version": "9422a0e6c03985b0188b824c",
+      "name": "Ancient Solar Dragon",
+      "file": "images/monsters/ancient-solar-dragon/batch-177-portrait.png",
+      "sha256": "d938b52a9c67822871d8235ea3ec0aa045c470d2a2318490337b6ea2d7f44aeb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-94744ecbf5206fa25b8c4dac",
+      "version": "6d07b98065683f7a43cce814",
+      "name": "Astral Elf Aristocrat",
+      "file": "images/monsters/astral-elf-aristocrat/batch-177-portrait.png",
+      "sha256": "f50ab4b4f6f46899e5edf76abdf8423eef33f83897728a2c87bf4bc02e6bbb91",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-af15b079f4a3756a2abcd8d5",
+      "version": "9f3f9c44d3922fae2a853910",
+      "name": "Astral Elf Commander",
+      "file": "images/monsters/astral-elf-commander/batch-177-portrait.png",
+      "sha256": "e3bc6dcf74f7ef27f27177ca4d08177502a32442590088188ee96ef76964fcf3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-89cacbcf34fc8c51ed44e538",
+      "version": "1d4cd7d55fa12f3c825e222c",
+      "name": "Astral Elf Honor Guard",
+      "file": "images/monsters/astral-elf-honor-guard/batch-177-portrait.png",
+      "sha256": "b92e387524aaeb48d3a2411a15f174c82a10d2fe8f6f2b74b8e20c28a89c8665",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-73af2bd3416c413185ae7898",
+      "version": "a9844ea7401420a47291c29e",
+      "name": "Astral Elf Star Priest",
+      "file": "images/monsters/astral-elf-star-priest/batch-177-portrait.png",
+      "sha256": "4a346dcc2c8cd6443185eac7823069ab5c9a99fc226ab626f9bf08f5ec5314d1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ed8c97fe82e6299e82a41048",
+      "version": "ceb84b9a0861bb3565a01f05",
+      "name": "Astral Elf Warrior",
+      "file": "images/monsters/astral-elf-warrior/batch-177-portrait.png",
+      "sha256": "d9ec726b7fb066d6500e0f4f29966579a257a868f468ef32c674170f1b0bb72d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-61de7e89b9ef1898c7402f84",
+      "version": "5c59a1360b8e0b7e760b45ef",
+      "name": "Autognome",
+      "file": "images/monsters/autognome/batch-177-portrait.png",
+      "sha256": "8d36e70d043e80697b1a1c1977b4fd7d889e0e6210ad84c9674e7cc23ba242fb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-49c89af1e2bc52369cba079a",
+      "version": "427eaf63d21a91c029e4d6fc",
+      "name": "Braxat",
+      "file": "images/monsters/braxat/batch-177-portrait.png",
+      "sha256": "da9b858abe8a4170775e31b8d4655ef700050b253ad54fe78a64eebeda52b719",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-cb76ebbbaead0573543a790b",
+      "version": "2ba54a69622184f11ef26b7a",
+      "name": "Brown Scavver",
+      "file": "images/monsters/brown-scavver/batch-177-portrait.png",
+      "sha256": "6686ebee1342a958a518cc23324eef94f1813ca8fa736550093536314a6d09ca",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-04f6f2a2f5b172ef12e2f0ce",
+      "version": "cedbcbbab83ccb9a38abf51b",
+      "name": "B’rohg",
+      "file": "images/monsters/b-rohg/batch-177-portrait.png",
+      "sha256": "c30e0838f50ac79576d03e37839a1eeb1ba34589196f8cbbb5e95c8db14064d9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-93b21149680e23c056b93a10",
+      "version": "b72bdc21bac954f91ddb9eab",
+      "name": "Chwinga Astronaut",
+      "file": "images/monsters/chwinga-astronaut/batch-177-portrait.png",
+      "sha256": "5414c40a06d66e20d5537949ebe3592a7da2456203304ab92bd5050b11f15eb0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-002c95f7a72e61dc280a8499",
+      "version": "df9d174309bbcd68610b9232",
+      "name": "Cosmic Horror",
+      "file": "images/monsters/cosmic-horror/batch-177-portrait.png",
+      "sha256": "1b37c3cb4a9a21db686eaccd876cebac3c3b368b580adc69384ed8d7c11fa590",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-34797dba5a842e4e42899fc1",
+      "version": "e6e3e75c5124bb1d82cc7c23",
+      "name": "Dohwar",
+      "file": "images/monsters/dohwar/batch-177-portrait.png",
+      "sha256": "3e1f840ab5cb395889be8a6f4ecc692a336511c78c67beb05b1938e8f24f2e16",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-45e969a683571704f51b2669",
+      "version": "092c9e44d98b01b8bce98059",
+      "name": "Esthetic",
+      "file": "images/monsters/esthetic/batch-177-portrait.png",
+      "sha256": "ebbbdca87db7f4a81f5317befa7f1c7a30a05c3fcf809291df5824e68be25e14",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-74c767975a825a5b465dac11",
+      "version": "4be8cc0243b2a230e9e5c3cd",
+      "name": "Eye Monger",
+      "file": "images/monsters/eye-monger/batch-177-portrait.png",
+      "sha256": "fc670d14e4e275b05cea4ad122c4d2886badfe4fc40f1cfd148336646df4cdbd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f38b4b6d9d1b819328a527f7",
+      "version": "132ac4a744b3f0ca2acbcbc9",
+      "name": "Feyr",
+      "file": "images/monsters/feyr/batch-177-portrait.png",
+      "sha256": "f5857193a31e70c66e97c0c3ee015ad901a89e317ad4edf25bd0a4585aee6731",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-60181d5733a7e21da0a0bc55",
+      "version": "f477b195f5479a4b562119d5",
+      "name": "Gaj",
+      "file": "images/monsters/gaj/batch-177-portrait.png",
+      "sha256": "d2de2a6c01a980ad51427786336b03d80e0320bada5b34ce949c5841ebd013cd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5ff7399e22226399cb3145c7",
+      "version": "4bfb3e18e107f7cb60993cca",
+      "name": "Giff Shock Trooper",
+      "file": "images/monsters/giff-shock-trooper/batch-177-portrait.png",
+      "sha256": "e4c6f60f8717973d3b3e3e94f42942a2cab61844b6e183234ee2c470754a7e01",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-74ef0403d0e5916c34b7a86b",
+      "version": "5316db98c9a7dc59cc63d1a7",
+      "name": "Giff Warlord",
+      "file": "images/monsters/giff-warlord/batch-177-portrait.png",
+      "sha256": "019222b7134dfa171ff3d7ac0eecfef057a0a41f3b94536727a01af759c20d1c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c08796155ee5ae8b7357902c",
+      "version": "c07cf92c4aacc8f50e3cfeaa",
+      "name": "Githyanki Buccaneer",
+      "file": "images/monsters/githyanki-buccaneer/batch-177-portrait.png",
+      "sha256": "7579e935585d72d1a5276e9fe4aaa502053bf00cd6083d88fafa23569a498004",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-81c7bd284981cb29826ffe41",
+      "version": "fa7e45d0c858c19dfc2ae3c5",
+      "name": "Githyanki Star Seer",
+      "file": "images/monsters/githyanki-star-seer/batch-177-portrait.png",
+      "sha256": "0a5c729268e15cecf425c565012ae0d453ba4d9c3a89ff84d65c2f131014f724",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-df4a5c27b5bdf78fa5f37be3",
+      "version": "50daad46778bf800e0b69c30",
+      "name": "Githyanki Xenomancer",
+      "file": "images/monsters/githyanki-xenomancer/batch-177-portrait.png",
+      "sha256": "299d273ca844ded5a750639ebb1902086f207076ba53086342813688dec751f4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3e141adb9857dc54a37a2f42",
+      "version": "a804a7419b8ca118bb519e7d",
+      "name": "Gray Scavver",
+      "file": "images/monsters/gray-scavver/batch-177-portrait.png",
+      "sha256": "30faad86f222080b6f67b1df7da539f5e6d7d783e6400650a5aa73c82539dd31",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e4921ff61eacf1a82a052372",
+      "version": "969cd9f6274702321ea655b1",
+      "name": "Hadozee Explorer",
+      "file": "images/monsters/hadozee-explorer/batch-177-portrait.png",
+      "sha256": "b96e238823d6bec019c4104c035c160f4ec27acc200de884e1dda50875d14802",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d1419b804c838febbec6351f",
+      "version": "f05e8b85395613e742ae04e4",
+      "name": "Hadozee Shipmate",
+      "file": "images/monsters/hadozee-shipmate/batch-177-portrait.png",
+      "sha256": "bf95b746547cd0fc0bf69a94e51b021b9faa56dc48505acdbe40f0803d8c0235",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-dc9a6e6d25eb565b9f6ea882",
+      "version": "bab8c502820e8dafdd7acb9d",
+      "name": "Hadozee Warrior",
+      "file": "images/monsters/hadozee-warrior/batch-177-portrait.png",
+      "sha256": "ce3a7d49dd60672bce7d125f3d8ea34c4fc02897f4f4a2f5ad7e58200409f949",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-97eae58638b42e14095b5b25",
+      "version": "ba6b25fcb3ed552087624d26",
+      "name": "Jammer Leech",
+      "file": "images/monsters/jammer-leech/batch-177-portrait.png",
+      "sha256": "51224f9850530b5d8b747c98ffe4f118c1b62c522c55e372112b8a89f5113628",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ce45155a00367b43cd74a809",
+      "version": "27de5584fa4f48210bec485b",
+      "name": "Kindori",
+      "file": "images/monsters/kindori/batch-177-portrait.png",
+      "sha256": "b372deb92e0aeb9238541db9f3106e7d820448b2ef8b8125c73543edad6e6b79",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9aa86482c1c67643010af2f8",
+      "version": "59cdf0217568d49157e58337",
+      "name": "Lunar Dragon Wyrmling",
+      "file": "images/monsters/lunar-dragon-wyrmling/batch-177-portrait.png",
+      "sha256": "89a3a11f2ba909bf5a6cefc1f15d1176a8463b3c38c43ad0541244d1b46f1fb3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f04b0a8a2cf04bd2f6d790aa",
+      "version": "4607079bc88c5504d03be6c1",
+      "name": "Megapede",
+      "file": "images/monsters/megapede/batch-177-portrait.png",
+      "sha256": "26372018d4815b7ed48c727345512739a217743275510637593e41fe93c52fb3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-79cef9dc2b4bd3c3be1802c1",
+      "version": "489d77ed3b645b63f7f2b227",
+      "name": "Mercane",
+      "file": "images/monsters/mercane/batch-177-portrait.png",
+      "sha256": "dacd2f4ba52c591526feab385a7debe96693ba6eff9c8ab19acc6662b7160a63",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e37f1ab2c02c09597ba2d062",
+      "version": "829f06233c7993adecea2655",
+      "name": "Murder Comet",
+      "file": "images/monsters/murder-comet/batch-177-portrait.png",
+      "sha256": "c57ac22754e126c9331742ac4a767172384c357716b5b40a7c26731f339bf7bd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-62d99b33be10779f535f4612",
+      "version": "5c1eb809afae368c341a6c4e",
+      "name": "Neh-thalggu",
+      "file": "images/monsters/neh-thalggu/batch-177-portrait.png",
+      "sha256": "3cec86c1918e71437c760b0f40f0178c6504bddd4abc863570b0f2b0982da38c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-dd807d18f609a7d6631cc0b2",
+      "version": "8d3bc1978a3d880dd491a3ae",
+      "name": "Neogi Hatchling Swarm",
+      "file": "images/monsters/neogi-hatchling-swarm/batch-177-portrait.png",
+      "sha256": "1ff2b83488d6b933805854bbc3c8f7c3e390ebe1367fc6f934ec8347e904d9a4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2b186e4680b42325e64ab5fa",
+      "version": "ab4678de6edf15cec7a4f3d2",
+      "name": "Neogi Pirate",
+      "file": "images/monsters/neogi-pirate/batch-177-portrait.png",
+      "sha256": "d8eda214c5aed8f3025dbe9a1e798f959c20827e762326bc800b2da496eef2cd",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-22ca1cc8cd729cacb1a847b3",
+      "version": "b878ee7a09eef176af8ed865",
+      "name": "Neogi Void Hunter",
+      "file": "images/monsters/neogi-void-hunter/batch-177-portrait.png",
+      "sha256": "599b94680ac0dfdc30077172fb3b13988270f9549556d698e5df8b5b34097d8a",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ab3d4d9d7588a0dd75b0837d",
+      "version": "79fc5ebde66693c67e7a4880",
+      "name": "Night Scavver",
+      "file": "images/monsters/night-scavver/batch-177-portrait.png",
+      "sha256": "05d446009819740787d6eeef720c69ba73cbc1b4de0e4593c0a2c03843d22615",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

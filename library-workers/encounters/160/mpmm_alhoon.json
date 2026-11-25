@@ -1,0 +1,476 @@
+[
+  {
+    "name": "Alhoon",
+    "statBlock": {
+      "name": "Alhoon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 43,
+      "classification": "Medium undead (mind flayer, wizard), typically neutral evil",
+      "ac": 15,
+      "hp": 150,
+      "hitDice": "20d8 + 60",
+      "speed": "30 ft., fly 15 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 17,
+      "description": "An exiled mind flayer arcanist bound to undeath by a periapt that holds sacrificed souls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Int": 8,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 8,
+        "Deception": 7,
+        "History": 8,
+        "Insight": 7,
+        "Perception": 7,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+        "Damage resistances": "Cold, lightning, necrotic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The alhoon has advantage on saving throws against spells and other magical effects.\nTurn Resistance. The alhoon has advantage on saving throws against effects that turn undead.",
+        "Actions": "Multiattack. Make two Chilling Grasp or Arcane Bolt attacks.\nChilling Grasp. Melee spell attack, +8 to hit, reach 5 ft., one target. A hit deals 14 (4d6) cold damage, and the alhoon regains 14 hit points.\nArcane Bolt. Ranged spell attack, +8 to hit, range 120 ft., one target. A hit deals 28 (8d6) force damage.\nMind Blast (Recharge 5–6). The alhoon releases magical psychic energy. Creatures in a 60-foot cone make a DC 16 Intelligence save. On a failure, a creature takes 22 (4d8 + 4) psychic damage and is stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.",
+        "Spellcasting": "As an action, cast one spell without material components, using Intelligence (spell save DC 16).\nAt will. Dancing Lights, Detect Magic, Detect Thoughts, Disguise Self, Mage Hand, Prestidigitation.\n1/day each. Dominate Monster, Globe of Invulnerability, Invisibility, Modify Memory, Plane Shift (self only), Wall of Force.",
+        "Reactions": "Negate Spell (3/day). When a creature the alhoon can see within 60 ft. casts a spell, the alhoon can target the caster. A spell of 3rd level or lower fails without wasting the slot or charge.",
+        "Periapt of mind trapping": "The periapt is a fist-sized container made of silver, emerald, and amethyst. At least three mind flayer arcanists create the periapt and sacrifice an equal number of living victims in a three-day ritual. Each alhoon remains undead for the lifespan remaining to its victim, and the rite can be repeated with new victims. When an alhoon is destroyed, its mind enters the periapt alongside the sacrificed souls. Destroying the periapt destroys the minds and souls trapped inside. Its holder has advantage on attacks, saves, and checks against the associated alhoons, and those alhoons have disadvantage on attacks, saves, and checks against the holder. The holder can speak telepathically with the trapped victims or silence them. Alhoons inside can speak telepathically to the holder without permission.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 43."
+      }
+    }
+  },
+  {
+    "name": "Alkilith",
+    "statBlock": {
+      "name": "Alkilith",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 44,
+      "classification": "Medium fiend (demon), typically chaotic evil",
+      "ac": 17,
+      "hp": 168,
+      "hitDice": "16d8 + 96",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 10,
+      "description": "A demon that clings to openings like fungal growth and turns them into permanent gates to the Abyss.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 10
+      },
+      "skills": {
+        "Stealth": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Abyssal but can't speak.",
+        "Damage resistances": "Acid, cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Abyssal Rift. If the alkilith continuously surrounds a door, window, or similar opening for 6d6 days, the opening becomes a permanent portal to a random layer of the Abyss.\nAmorphous. The alkilith passes through openings as narrow as 1 inch without squeezing.\nFalse Appearance. The alkilith has advantage on initiative if motionless at the start of combat. A creature that hasn't seen it move or act needs a successful DC 18 Intelligence (Investigation) check to recognize it as something other than slime or fungus.\nFoment Confusion. A creature other than a demon that starts its turn within 30 ft. makes a DC 18 Wisdom save. On a failure, it hears a brief buzz and has disadvantage on its next attack roll, save, or ability check. If it fails by 5 or more, it instead falls under Confusion for 1 minute without requiring the alkilith's concentration. While under that spell, it is immune to Foment Confusion.\nMagic Resistance. The alkilith has advantage on saving throws against spells and other magical effects.\nSpider Climb. The alkilith climbs difficult surfaces, including ceilings, without an ability check.\nUnusual Nature. The alkilith needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make three Tentacle attacks.\nTentacle. Melee weapon attack, +8 to hit, reach 15 ft., one target. A hit deals 18 (4d6 + 4) acid damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 44."
+      }
+    }
+  },
+  {
+    "name": "Allip",
+    "statBlock": {
+      "name": "Allip",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 45,
+      "classification": "Medium undead, typically neutral evil",
+      "ac": 13,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "A restless spirit driven to pass on the cursed secret that destroyed it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Acid, fire, lightning, thunder. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Traits": "Incorporeal Movement. The allip moves through creatures and objects as difficult terrain. If it ends its turn inside an object, it takes 5 (1d10) force damage.\nUnusual Nature. The allip needs no air, food, drink, or sleep.",
+        "Actions": "Maddening Touch. Melee spell attack, +6 to hit, reach 5 ft., one target. A hit deals 17 (4d6 + 3) psychic damage.\nHowling Babble (Recharge 6). Each creature within 30 ft. that can hear the allip makes a DC 14 Wisdom save. On a failure, the creature takes 12 (2d8 + 3) psychic damage and is stunned until the end of its next turn. On a success, it takes half damage and avoids the stun. Constructs and undead are immune.\nWhispers of Compulsion. The allip chooses up to three creatures it can see within 60 ft. Each makes a DC 14 Wisdom save. On a failure, it takes 12 (2d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against a creature the allip can see and chooses. Constructs and undead are immune.",
+        "Insidious lore": "Over days or weeks, a hidden allip can guide a scholar into writing its cursed knowledge without remembering what they wrote. Once the secret is recorded, the allip can pass into the afterlife. The writing still carries the curse.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 45."
+      }
+    }
+  },
+  {
+    "name": "Amnizu",
+    "statBlock": {
+      "name": "Amnizu",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 46,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 21,
+      "hp": 202,
+      "hitDice": "27d8 + 81",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 17,
+      "description": "An infernal commander who can strip away memories and compel attackers to turn on those around them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 10
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Infernal, telepathy 1,000 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Devil's Sight. Magical darkness doesn't block the amnizu's darkvision.\nMagic Resistance. The amnizu has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Use Blinding Rot or Forgetfulness if available. Also make two Taskmaster Whip attacks.\nTaskmaster Whip. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 9 (1d8 + 5) slashing damage plus 16 (3d10) force damage.\nBlinding Rot. Choose one or two creatures the amnizu can see within 60 ft. Each makes a DC 19 Wisdom save. On a failure, it takes 26 (4d12) necrotic damage and is blinded until the start of the amnizu's next turn.\nForgetfulness (Recharge 6). Choose a creature the amnizu can see within 60 ft. It makes a DC 18 Intelligence save. On a failure, it takes 26 (4d12) psychic damage and is stunned for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. If the stun lasts the full minute, the creature forgets everything it sensed, experienced, or learned in the previous 5 hours.",
+        "Spellcasting": "As an action, cast one spell without material components, using Intelligence (spell save DC 19).\nAt will. Command.\n3/day. Dominate Monster.\n1/day. Feeblemind.",
+        "Reactions": "Instinctive Charm. When a creature within 60 ft. makes an attack roll against the amnizu and another creature is within the attack's range, the attacker makes a DC 19 Wisdom save. On a failure, the attacker must instead target the creature closest to it, excluding itself and the amnizu. The attacker breaks ties. On a success, the attacker is immune to this amnizu's Instinctive Charm for 24 hours.",
+        "Optional action": "Summon Devil (1/day). Some amnizus can summon either 2d4 bearded devils or 1d4 barbed devils. The devils appear in unoccupied spaces within 60 ft. and act as allies. Summoned devils can't summon other devils. They remain for 1 minute, until the amnizu dies, or until it uses an action to dismiss them.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 46."
+      }
+    }
+  },
+  {
+    "name": "Angry Sorrowsworn",
+    "statBlock": {
+      "name": "Angry Sorrowsworn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 222,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 18,
+      "hp": 255,
+      "hitDice": "30d8 + 120",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 21,
+      "description": "A two-headed Shadowfell creature whose hook attacks grow more dangerous when it takes damage.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 11
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Bludgeoning, piercing, slashing while in dim light or darkness.",
+        "Armor": "Natural armor.",
+        "Traits": "Two Heads. The sorrowsworn has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.\nRising Anger. When another creature damages the sorrowsworn, it gains advantage on its attack rolls until the end of its next turn. Its first Hook hit on its next turn deals another 19 (3d12) psychic damage. On its turn, its attack rolls have disadvantage if no other creature has damaged it since the end of its last turn.",
+        "Actions": "Multiattack. Make two Hook attacks.\nHook. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 16 (2d12 + 3) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 222."
+      }
+    }
+  },
+  {
+    "name": "Annis Hag",
+    "statBlock": {
+      "name": "Annis Hag",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 47,
+      "classification": "Large fey, typically chaotic evil",
+      "ac": 17,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "A hulking hag who can crush a captive and use enchanted pieces of iron to whisper across miles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, Sylvan.",
+        "Damage resistances": "Cold.",
+        "Armor": "Natural armor.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) slashing damage.\nCrushing Hug. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 36 (9d6 + 5) bludgeoning damage and grapples a Large or smaller creature (escape DC 15). The creature takes 36 (9d6 + 5) bludgeoning damage at the start of each of the hag's turns until the grapple ends. The hag can't make attacks while holding a creature this way.",
+        "Spellcasting": "As an action, cast one spell using Charisma (spell save DC 13).\n3/day each. Disguise Self (can appear as a Medium humanoid), Fog Cloud.",
+        "Coven": "Challenge 8 (3,900 XP) as part of a coven.",
+        "Iron token": "The hag spends 1 minute shaping one of her own iron teeth or nails into a coin, ring, or tiny mirror. Its holder and the hag can whisper to each other within 10 miles. Neither hears other sounds at the opposite end. The hag can keep up to three tokens active, use an action to sense their direction and approximate distance, or deactivate one at any distance without an action. A deactivated token keeps its shape but loses its magic.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 47."
+      }
+    }
+  },
+  {
+    "name": "Apprentice Wizard",
+    "statBlock": {
+      "name": "Apprentice Wizard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 259,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 10,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A novice wizard who can throw bursts of force and cast a few practical spells.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "sections": {
+        "Languages": "Any one language (usually Common).",
+        "Actions": "Arcane Burst. Melee or ranged spell attack, +4 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 7 (1d10 + 2) force damage.",
+        "Spellcasting": "As an action, cast one spell using Intelligence (spell save DC 12).\nAt will. Mage Hand, Prestidigitation.\n1/day each. Burning Hands, Disguise Self, Mage Armor.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 259."
+      }
+    }
+  },
+  {
+    "name": "Archdruid",
+    "statBlock": {
+      "name": "Archdruid",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 48,
+      "classification": "Medium humanoid (druid), any alignment",
+      "ac": 14,
+      "hp": 154,
+      "hitDice": "28d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 19,
+      "description": "A guardian of wild places who can fight with wildfire or assume the form of a beast or elemental.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 9
+      },
+      "skills": {
+        "Medicine": 9,
+        "Nature": 5,
+        "Perception": 9
+      },
+      "sections": {
+        "Languages": "Druidic plus any two languages.",
+        "Armor": "Hide armor.",
+        "Actions": "Multiattack. Make three Staff or Wildfire attacks. The archdruid can replace one attack with Spellcasting.\nStaff. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage plus 21 (6d6) poison damage.\nWildfire. Ranged spell attack, +9 to hit, range 120 ft., one target. A hit deals 26 (6d6 + 5) fire damage and blinds the target until the start of the archdruid's next turn.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (spell save DC 17).\nAt will. Beast Sense, Entangle, Speak with Animals.\n3/day each. Animal Messenger, Dominate Beast, Faerie Fire, Tree Stride.\n1/day each. Commune with Nature (cast as an action), Mass Cure Wounds.",
+        "Bonus actions": "Change Shape (2/day). Magically assume the form of a Beast or Elemental of CR 6 or lower for up to 9 hours. Choose whether equipment falls, merges into the form, or remains worn. Use the new form's statistics except that the archdruid retains its current and maximum hit points, this bonus action, the languages it knows and the ability to speak, and Spellcasting. Attacks in the new form count as magical against resistance and immunity to nonmagical attacks. The archdruid reverts when it dies or falls unconscious, or can revert as a bonus action.",
+        "Favored shapes": "Choose an eligible form or roll 1d8. 1 Air Elemental, 2 Earth Elemental, 3 Fire Elemental, 4 Giant Crocodile, 5 Mammoth, 6 Flail Snail, 7 Triceratops, 8 Water Elemental.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 48."
+      }
+    }
+  }
+]

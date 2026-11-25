@@ -1,0 +1,20 @@
+{
+  "baseline": "e5c1bd09d3b517919e6b8d3da8db64e535bfcd78",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Stonechild"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Stone (2004)",
+  "racialHitDiceMonsterClassMagicStoneAndEclVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

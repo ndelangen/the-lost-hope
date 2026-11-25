@@ -1,0 +1,280 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-galeb-duhr-orr-of-the-ford",
+      "title": "Orr of the Ford, Galeb Duhr Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Elemental",
+      "ac": 16,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 2,
+      "speed": "15 ft. walking. 30 ft. rolling, or 60 ft. rolling downhill.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Terran. Common from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Wears no armor or shield. Natural AC 14 + 2 is used instead of Unarmored Defense, which would give 10 + 2 + 2.",
+        "Outlander grants Athletics, Survival and an additional language. Barbarian grants Intimidation and Perception.",
+        "False Appearance requires 1 minute staying still with concentration. Orr then looks like a boulder while stationary. Orr is immune to poison damage and to exhaustion, paralysis, petrification and the poisoned condition.",
+        "Rage twice per long rest. Start as a bonus action for up to 1 minute. Gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. Rage ends on unconsciousness or at the end of a turn unless the barbarian has attacked a hostile creature or taken damage since their last turn. A bonus action can end it early.",
+        "Reckless Attack. On the first attack of the turn, Orr can commit to advantage on all Strength-based melee weapon attack rolls that turn. Attack rolls against Orr then have advantage until Orr's next turn.",
+        "Danger Sense. Orr has advantage on Dexterity saves against effects Orr can see, provided Orr is neither blinded, deafened nor incapacitated."
+      ],
+      "actions": [
+        "Slam. Strength-based melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 bludgeoning, or 1d8 + 5 while raging.",
+        "Rolling Stone. Start or stop with a bonus action. While already rolling, take the Dash action and use a bonus action to slam or shove, then stop. For a shove within 5 ft., make Athletics +5 against the target's Athletics or Acrobatics. On a win, move a Large or smaller creature 5 ft. away or knock it prone."
+      ],
+      "tactics": "Orr stays still at the ford until a trespasser crosses the marked stones. Start rolling to close distance, then Dash and shove on a later turn. Against a nearby hostile, use Rage and slam instead."
+    },
+    {
+      "id": "mr2018-gargoyle-rusk-lintel",
+      "title": "Rusk Lintel, Gargoyle Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Elemental",
+      "ac": 14,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 2,
+      "speed": "30 ft. walking and 30 ft. flying.",
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 15,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +3",
+        "Insight +3",
+        "Intimidation +2",
+        "Perception +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Terran.",
+      "traits": [
+        "Proficiency +2. Strength save +3, Constitution save +4. Constitution was chosen for the species increase. Natural AC 14 is 12 + 2 Dexterity.",
+        "Soldier grants Athletics and Intimidation. Fighter grants Insight and Perception. Archery adds +2 on ranged weapon attack rolls.",
+        "Rusk carries a longbow and quiver of 20 arrows. Rusk uses no armor or shield.",
+        "False Appearance requires 1 minute staying still with concentration. Rusk then looks like a statue while stationary. Rusk is immune to poison damage and the poisoned and petrified conditions.",
+        "Second Wind. Once per short or long rest, regain 1d10 + 1 hp as a bonus action."
+      ],
+      "actions": [
+        "Longbow. Ranged weapon attack +6, range 150/600 ft. Hit 1d8 + 2 piercing. Requires two hands and one arrow per shot.",
+        "Claw. Melee unarmed strike +3, reach 5 ft. Hit 1d4 + 1 slashing."
+      ],
+      "tactics": "Rusk watches from an alcove in statue form. If threatened, Rusk flies into clear space to keep distance and fire the longbow. Rusk uses claws if pinned at close range."
+    },
+    {
+      "id": "mr2018-gibbering-mouther-hush-of-five",
+      "title": "Hush-of-Five, Gibbering Mouther Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Aberration",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "1d12 + 3",
+      "initiative": 1,
+      "speed": "20 ft. walking and 20 ft. swimming.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 13,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +4",
+        "Intimidation +3",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "senses": "Passive Perception 12.",
+      "languages": "Common and Undercommon. Undercommon from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength save +4, Constitution save +5. Unarmored Defense is 10 + 1 Dexterity + 3 Constitution.",
+        "Outlander grants Athletics, Survival and an additional language. Barbarian grants Intimidation and Perception.",
+        "Limbless body. Hush cannot wear armor, wield weapons or shields, or handle equipment.",
+        "Rage twice per long rest. Start as a bonus action for up to 1 minute. Gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. Rage ends on unconsciousness or at the end of a turn unless the barbarian has attacked a hostile creature or taken damage since their last turn. A bonus action can end it early."
+      ],
+      "actions": [
+        "Bite. Strength-based melee unarmed strike +4, reach 5 ft. Hit 1d8 + 2 slashing, or 1d8 + 4 while raging.",
+        "Trip. After a bite hits, use a bonus action to try to knock that target prone. Against a Large or smaller creature within reach, contest Athletics +4 against its Athletics or Acrobatics. Hush has advantage when raging.",
+        "Blinding Spittle. One visible creature within 15 ft. makes a DC 13 Dexterity save or becomes blinded through the end of Hush's next turn. Once per short or long rest.",
+        "Gibber. Every hearing creature within 20 ft. makes a DC 11 Wisdom save, including Hush if able to hear its own gibber. A failure removes reactions until the start of that creature's next turn. On that turn, roll 1d8. On 1–4 do nothing. On 5–6 spend all movement in a random direction with no action or bonus action. On 7–8 make a melee attack against a random reachable creature or do nothing if unable. Once per short or long rest."
+      ],
+      "tactics": "Hush warns intruders to speak one at a time. If cornered, blind the closest hostile and move for the water. Rage and Trip compete for the same bonus action, so on the first turn choose one."
+    },
+    {
+      "id": "mr2018-grell-keth-quiet-beak",
+      "title": "Keth Quiet-Beak, Grell Barbarian 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Aberration",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "1d12 + 1",
+      "initiative": 2,
+      "speed": "10 ft. walking and 30 ft. flying with hover.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Blind beyond 30-ft. blindsight. Passive Perception 13.",
+      "languages": "Grell, spoken. Common from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +3. Unarmored Defense is 10 + 2 Dexterity + 1 Constitution.",
+        "Outlander grants Athletics, Survival and an additional language. Barbarian grants Nature and Perception.",
+        "Blind senses and hover. Keth is immune to blinded and prone. The tentacles cannot hold weapons, shields or hand-dependent gear.",
+        "Rage twice per long rest. Start as a bonus action for up to 1 minute. Gain advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing and slashing. Rage ends on unconsciousness or at the end of a turn unless the barbarian has attacked a hostile creature or taken damage since their last turn. A bonus action can end it early."
+      ],
+      "actions": [
+        "Beak. Strength-based melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 slashing, or 1d8 + 5 while raging."
+      ],
+      "tactics": "Keth holds position just under a low ceiling and listens for anyone within blindsight. When forced to fight Keth closes and bites, then retreats through the first narrow bend."
+    },
+    {
+      "id": "mr2018-grick-slant",
+      "title": "Slant, Grick Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 2,
+      "speed": "30 ft. walking and 30 ft. climbing.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 12,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Medicine +4",
+        "Religion +1",
+        "Stealth +4"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Common. Undercommon from Hermit.",
+      "traits": [
+        "Proficiency +2. Strength save +5 and Dexterity save +4. Natural AC 14 is 12 + 2 Dexterity. Monk Unarmored Defense also gives 14 from 10 + 2 Dexterity + 2 Wisdom. Use one formula.",
+        "Hermit grants Medicine, Religion and Undercommon. Monk grants Athletics and Stealth.",
+        "Stone Camouflage grants advantage on Dexterity (Stealth) checks to hide in rocky terrain. Slant wears no armor and cannot use manufactured weapons, shields or items requiring hands.",
+        "Martial Arts. After an unarmed strike as part of the Attack action, Slant can make one bonus-action conventional unarmed strike. Its damage uses the standard monk die."
+      ],
+      "actions": [
+        "Beak or tentacles. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 bludgeoning or slashing.",
+        "Martial Arts follow-up. After the Attack action above, make a bonus-action body strike +5, reach 5 ft. Hit 1d4 + 3 bludgeoning."
+      ],
+      "tactics": "Slant climbs above the passage, stays still against the rock and talks first. If a hostile presses the issue, strike, follow with the body blow, and climb away on a later turn."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Galeb Duhr",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Orr of the Ford",
+      "size": "Medium",
+      "build": "mr2018-galeb-duhr-orr-of-the-ford",
+      "role": "Ford warden",
+      "motive": "Keep loaded carts off the shallow stones before the flood.",
+      "hook": "Orr needs someone small enough to recover a brass flood marker wedged beneath a stepping stone."
+    },
+    {
+      "species": "Gargoyle",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Rusk Lintel",
+      "size": "Medium",
+      "build": "mr2018-gargoyle-rusk-lintel",
+      "role": "Dispossessed watch archer",
+      "motive": "Recover the order that transferred the old watch post into private hands.",
+      "hook": "Rusk has a standing order to guard a closed archway. The person who can revoke it is missing."
+    },
+    {
+      "species": "Gibbering Mouther",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Hush-of-Five",
+      "size": "Medium",
+      "build": "mr2018-gibbering-mouther-hush-of-five",
+      "role": "Keeper of an abandoned cistern",
+      "motive": "Bring a trapped pipe cleaner back alive.",
+      "hook": "Several mouths call out a different name for the same missing worker. The clearest voice can describe a blocked side channel."
+    },
+    {
+      "species": "Grell",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Keth Quiet-Beak",
+      "size": "Medium",
+      "build": "mr2018-grell-keth-quiet-beak",
+      "role": "Silent cavern guide",
+      "motive": "Block traffic through a tunnel occupied by a newly hatched grell.",
+      "hook": "Keth will guide travelers through a detour if they can cross the bare stone in silence."
+    },
+    {
+      "species": "Grick",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Slant",
+      "size": "Medium",
+      "build": "mr2018-grick-slant",
+      "role": "Cavern hermit",
+      "motive": "Keep a limestone alcove out of a mining claim.",
+      "hook": "Slant found survey marks that place a quarry boundary through a burial alcove and wants them brought to its owners."
+    }
+  ]
+}

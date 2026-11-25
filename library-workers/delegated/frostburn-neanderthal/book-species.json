@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Neanderthal",
+    "kind": "species",
+    "publication": "Frostburn (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Human). +2 Strength, +2 Constitution, −2 Dexterity, and −2 Intelligence. Land speed 30 ft. LA +0.",
+      "Primitive Weapon Mastery (Ex) gives +1 racial on attacks with bolas, club, dart, greatclub, goad, harpoon, iuak, javelin, longspear, quarterstaff, ritiik, shortbow, shortspear, sling, spear, sugliin, throwing axe, and tigerskull club. It grants no proficiency or damage bonus.",
+      "+2 racial on Listen, Spot, and Survival.",
+      "Climate Tolerant (Ex) waives environmental Fortitude saves between −20°F and 140°F. It gives no protection from fire or cold damage and counts as Cold Endurance only for feat and prestige-class prerequisites.",
+      "Human Blood treats the Neanderthal as human for race-based effects and human-only items. The profile gives no human bonus feat or skill points.",
+      "Illiteracy. A Neanderthal can spend 2 skill points to read and write all spoken languages. Taking a nonbarbarian class preserves illiteracy unless the class is Wizard.",
+      "Common is automatic. Bonus languages are Dwarven, Giant, and Orc. Favored class Barbarian."
+    ]
+  }
+]

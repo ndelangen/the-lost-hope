@@ -1,0 +1,1911 @@
+{
+  "baseline": "5f228a25f34fad426978c1a24d85c916cab805fa",
+  "species": 50,
+  "profiles": 50,
+  "canonicalGroups": 50,
+  "groupedLineages": 0,
+  "newCatalogRows": 50,
+  "existingMetadataEnriched": 0,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Ape",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_a",
+      "parentSpecies": null,
+      "aliases": "Giant Ape shares these traits by the explicit cross-reference on p. 232.",
+      "npcs": [
+        "Flint Palm"
+      ],
+      "portrait": "parts/eleven_a/portraits/ape.png",
+      "source": {
+        "name": "Ape",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          219,
+          232
+        ],
+        "page": "p. 219, Ape Traits. p. 232, Giant Ape cross-reference.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The v2 Giant Ape entry directly refers back to the Ape trait block. The portrait and NPC use the ordinary Ape form.",
+          "Rock is presented as a ranged weapon attack with the thrown property and no melee profile. For this encounter, treat the species attack as proficient and use Dexterity for its ranged rolls."
+        ],
+        "npcExamples": [
+          "Flint Palm"
+        ],
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Awakened Tree",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_a",
+      "parentSpecies": null,
+      "aliases": "Awakened trees. The tree has its own printed block, separate from Awakened Shrub and Treant.",
+      "npcs": [
+        "Split Willow"
+      ],
+      "portrait": "parts/eleven_a/portraits/awakened-tree.png",
+      "source": {
+        "name": "Awakened Tree",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Plant",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          220
+        ],
+        "page": "p. 220 in v2. Traits under Awakened Tree.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The printed traits use Small size and a 1d6 slam. Medium size, added natural armor and a larger damage die appear in the design discussion and were excluded.",
+          "V2 p. 7 reserves the monk’s bonus strike for a conventional unarmed blow. Split Willow kicks with a root, using the monk die."
+        ],
+        "npcExamples": [
+          "Split Willow"
+        ]
+      }
+    },
+    {
+      "name": "Baboon",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_a",
+      "parentSpecies": null,
+      "aliases": "Baboons. Use the player block for the individual beast.",
+      "npcs": [
+        "Spindle"
+      ],
+      "portrait": "parts/eleven_a/portraits/baboon.png",
+      "source": {
+        "name": "Baboon",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          221
+        ],
+        "page": "p. 221 in v2. Baboon Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The player trait block gives the bite 1d6 slashing instead of the smaller die in the design discussion. It does not qualify as a finesse weapon.",
+          "No Hands does not appear in the baboon’s trait block. Spindle uses an ordinary shortbow under the core rules for Small creatures."
+        ],
+        "npcExamples": [
+          "Spindle"
+        ],
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Badger",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_a",
+      "parentSpecies": null,
+      "aliases": "Badgers. Giant Badger has a different player block.",
+      "npcs": [
+        "Ashsnout"
+      ],
+      "portrait": "parts/eleven_a/portraits/badger.png",
+      "source": {
+        "name": "Badger",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          221
+        ],
+        "page": "p. 221 in v2. Badger Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The printed block is Small even though the design discussion describes a Tiny creature.",
+          "Giant Badger has a separate player block and is outside this profile."
+        ],
+        "npcExamples": [
+          "Ashsnout"
+        ]
+      }
+    },
+    {
+      "name": "Bat",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_a",
+      "parentSpecies": null,
+      "aliases": "Bats. Giant Bat has a different player block. Swarm of Bats is an encounter or follows the separate swarm template.",
+      "npcs": [
+        "Eavespin"
+      ],
+      "portrait": "parts/eleven_a/portraits/bat.png",
+      "source": {
+        "name": "Bat",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          222
+        ],
+        "page": "p. 222 in v2. Bats Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The v2 player traits give 30 ft. of walking speed. The design discussion gives 5 ft.",
+          "Giant Bat is a separate player profile. Swarm of Bats has separate encounter rules or uses the supplement’s swarm template. Eavespin is an individual Tiny Beast."
+        ],
+        "npcExamples": [
+          "Eavespin"
+        ]
+      }
+    },
+    {
+      "name": "Black Bear",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_b",
+      "parentSpecies": null,
+      "aliases": "Brown Bear uses the Black Bear traits by the p. 225 cross-reference. Polar Bear has its own player block.",
+      "npcs": [
+        "Pitchfern"
+      ],
+      "portrait": "parts/eleven_b/portraits/black-bear.png",
+      "source": {
+        "name": "Black Bear",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          222,
+          223
+        ],
+        "page": "pp. 222–223 in v2, Black Bear Traits.",
+        "heading": "Black Bear Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "Brown Bear refers to Black Bear on p. 225. Polar Bear has its own player trait block and is outside this profile."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Boar",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_b",
+      "parentSpecies": null,
+      "aliases": "Giant Boar shares these traits by the p. 234 cross-reference.",
+      "npcs": [
+        "Gravelroot"
+      ],
+      "portrait": "parts/eleven_b/portraits/boar.png",
+      "source": {
+        "name": "Boar",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          224
+        ],
+        "page": "p. 224 in v2, Boar Traits.",
+        "heading": "Boar Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "Giant Boar refers to Boar on p. 234. The printed Charge adds damage without the encounter boar's prone save. The design notes' optional Athletics proficiency is not a species trait."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Camel",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_b",
+      "parentSpecies": null,
+      "aliases": "Camels. Use the printed traits without the optional upgrades in Design Notes.",
+      "npcs": [
+        "Rillglass"
+      ],
+      "portrait": "parts/eleven_b/portraits/camel.png",
+      "source": {
+        "name": "Camel",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          225
+        ],
+        "page": "p. 225 in v2, Camel Traits.",
+        "heading": "Camel Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "The player stat block grants no water or endurance mechanic. Rillglass takes Athletics through Outlander, not the species upgrades floated in the design notes.",
+          "Kamstra p. 7 uses conventional unarmed strikes with the monk damage die for Martial Arts and Flurry of Blows bonus attacks."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Cat",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_b",
+      "parentSpecies": null,
+      "aliases": "Cats. This ordinary beast is separate from Dreamlands Cat, Lion, Panther and Tiger.",
+      "npcs": [
+        "Pinwhisker"
+      ],
+      "portrait": "parts/eleven_b/portraits/cat.png",
+      "source": {
+        "name": "Cat",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          226
+        ],
+        "page": "p. 226 in v2, Cat Traits.",
+        "heading": "Cat Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "The player Cat is Small and the trait block omits Keen Smell. The design notes mention Tiny size and Keen Smell, and the encounter Cat is also Tiny."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Constrictor Snake",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_b",
+      "parentSpecies": null,
+      "aliases": "Giant Constrictor Snake shares these traits by the p. 234 cross-reference.",
+      "npcs": [
+        "Loamcoil"
+      ],
+      "portrait": "parts/eleven_b/portraits/constrictor-snake.png",
+      "source": {
+        "name": "Constrictor Snake",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          226
+        ],
+        "page": "p. 226 in v2, Constrictor Snake Traits.",
+        "heading": "Constrictor Snake Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "Giant Constrictor Snake refers to Constrictor Snake on p. 234. The printed player trait has only walking speed and does not automatically restrain a grappled target. The design notes mention a climb speed, and the encounter version has a swim speed."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Crab",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_c",
+      "parentSpecies": null,
+      "aliases": "Crabs. Giant Crab has a different player block.",
+      "npcs": [
+        "Clatterclaw"
+      ],
+      "portrait": "parts/eleven_c/portraits/crab.png",
+      "source": {
+        "name": "Crab",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 227, Crab Traits",
+        "printedPages": [
+          227
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "The printed Crab Traits line lists Small size, blindsight 60 ft., and no Amphibious trait. Its design commentary lists different values. Clatterclaw uses the trait block.",
+          "The Monk exception on p. 7 applies to the bonus-action strike. Base Claw remains slashing on the Attack action.",
+          "Giant Crab is a separate playable profile."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Crocodile",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_c",
+      "parentSpecies": null,
+      "aliases": "Giant Crocodile shares these traits by the p. 235 cross-reference.",
+      "npcs": [
+        "Mirejaw"
+      ],
+      "portrait": "parts/eleven_c/portraits/crocodile.png",
+      "source": {
+        "name": "Crocodile",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 227, with p. 235 cross-reference, Crocodile Traits",
+        "printedPages": [
+          227,
+          235
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "Giant Crocodile on p. 235 explicitly refers players to the Crocodile traits on p. 227.",
+          "The printed Bite allows a bonus-action grapple attempt after a successful Attack-action unarmed strike. Mirejaw uses its jaws and the 2014 contest. A successful bite alone does not impose grapple or restraint.",
+          "Crocodile Traits gives swim speed but omits the Hold Breath and No Hands lines mentioned in design commentary. Mirejaw has no equipment and uses the core breath rules."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Deer",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_c",
+      "parentSpecies": null,
+      "aliases": "Deer. Elk has a different player block.",
+      "npcs": [
+        "Tawnbell"
+      ],
+      "portrait": "parts/eleven_c/portraits/deer.png",
+      "source": {
+        "name": "Deer",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 pp. 228–229, Deer Traits",
+        "printedPages": [
+          228,
+          229
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "The character can supply form-appropriate somatic components under p. 8. Its spell list avoids material components, so it never needs a focus.",
+          "The 1d4 Gore has no species-granted finesse trait. Elk has its own rules."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Eagle",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_c",
+      "parentSpecies": null,
+      "aliases": "Eagles. Giant Eagle has a different player block.",
+      "npcs": [
+        "Brackenpin"
+      ],
+      "portrait": "parts/eleven_c/portraits/eagle.png",
+      "source": {
+        "name": "Eagle",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 229, Eagle Traits",
+        "printedPages": [
+          229
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "The printed Talons line grants finesse for effects that require it. Brackenpin applies 2014 Sneak Attack to a qualifying Talons hit.",
+          "Giant Eagle is a separate playable profile."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Elephant",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_c",
+      "parentSpecies": null,
+      "aliases": "Mammoth shares these traits by the p. 252 cross-reference.",
+      "npcs": [
+        "Kettlebrow"
+      ],
+      "portrait": "parts/eleven_c/portraits/elephant.png",
+      "source": {
+        "name": "Elephant",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 230, with p. 252 cross-reference, Elephant Traits",
+        "printedPages": [
+          230,
+          252
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "Mammoth on p. 252 explicitly refers players to Elephant traits on p. 230.",
+          "Trampling Charge grants a bonus-action attempt to knock prone after its stated movement and strike. Kettlebrow uses the 2014 shove contest and size limit."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Elk",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_d",
+      "parentSpecies": null,
+      "aliases": "Giant Elk shares these traits by the p. 236 cross-reference.",
+      "npcs": [
+        "Copper Tine"
+      ],
+      "portrait": "parts/eleven_d/portraits/elk.png",
+      "source": {
+        "name": "Elk",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 pp. 230–231, with Giant Elk cross-reference p. 236, Elk Traits.",
+        "printedPages": [
+          230,
+          231,
+          236
+        ],
+        "heading": "Elk Traits",
+        "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "Giant Elk explicitly refers back to Elk rather than providing another player race. This NPC uses the base Elk. Both forms use the Medium player block.",
+          "The 2014 rules treat unarmed strikes as melee weapon attacks, so the Strength-based ram qualifies for Charge. Knockdown uses a separate bonus action and a contested shove."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+      }
+    },
+    {
+      "name": "Giant Badger",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_d",
+      "parentSpecies": null,
+      "aliases": "Giant badgers. Badger has a different player block.",
+      "npcs": [
+        "Lint Digger"
+      ],
+      "portrait": "parts/eleven_d/portraits/giant-badger.png",
+      "source": {
+        "name": "Giant Badger",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 p. 232, Giant Badger Traits.",
+        "printedPages": [
+          232
+        ],
+        "heading": "Giant Badger Traits",
+        "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The design notes mention No Hands, but the printed Giant Badger player traits omit that rule. The NPC uses no weapons, shields, or other hand-dependent gear.",
+          "Badger has its own distinct player trait block. The giant build uses the Strength and Constitution increases printed on p. 232."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+      }
+    },
+    {
+      "name": "Giant Bat",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_d",
+      "parentSpecies": null,
+      "aliases": "Giant bats. Bat has a different player block.",
+      "npcs": [
+        "Rafter Click"
+      ],
+      "portrait": "parts/eleven_d/portraits/giant-bat.png",
+      "source": {
+        "name": "Giant Bat",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 p. 233, Giant Bat Traits.",
+        "printedPages": [
+          233
+        ],
+        "heading": "Giant Bat Traits",
+        "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The printed trait block sets the bite die to 1d8. The design notes say 1d6.",
+          "Bat's separate trait block supplies no rules to this Giant Bat build."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+      }
+    },
+    {
+      "name": "Giant Crab",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_d",
+      "parentSpecies": null,
+      "aliases": "Giant crabs. Crab has a different player block.",
+      "npcs": [
+        "Notch Shell"
+      ],
+      "portrait": "parts/eleven_d/portraits/giant-crab.png",
+      "source": {
+        "name": "Giant Crab",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 pp. 234–235, Giant Crab Traits.",
+        "printedPages": [
+          234,
+          235
+        ],
+        "heading": "Giant Crab Traits",
+        "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The printed Claw grants finesse but omits the encounter giant crab's automatic grapple. Crab has a different player block.",
+          "The monk uses the 1d6 piercing claw on the Attack action. Under the supplement's p. 7 clarification, the Martial Arts bonus strike uses a kick with the monk die for bludgeoning."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+      }
+    },
+    {
+      "name": "Giant Goat",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_d",
+      "parentSpecies": null,
+      "aliases": "Goat shares these traits by the p. 248 cross-reference.",
+      "npcs": [
+        "Fennel Cragstep"
+      ],
+      "portrait": "parts/eleven_d/portraits/giant-goat.png",
+      "source": {
+        "name": "Giant Goat",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 p. 237, with Goat cross-reference p. 248, Giant Goat Traits.",
+        "printedPages": [
+          237,
+          248
+        ],
+        "heading": "Giant Goat Traits",
+        "provenance": "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "Goat explicitly refers to Giant Goat. This is a single player trait block and the worked character is the Giant Goat.",
+          "The 2014 unarmed ram is a melee weapon attack and can trigger Charge. The player version lacks the encounter Giant Goat's forced-prone rider.",
+          "The source's p. 8 permits form-appropriate somatic components. The druid prepares spells with no material components."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "originsRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+      }
+    },
+    {
+      "name": "Giant Lizard",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_e",
+      "parentSpecies": null,
+      "aliases": "Group the printed Gecko, Iguana and Salamander forms. The Salamander form belongs to Giant Lizard and is separate from the elemental Salamander.",
+      "npcs": [
+        "Bramblepad"
+      ],
+      "portrait": "parts/eleven_e/portraits/giant-lizard.png",
+      "source": {
+        "name": "Giant Lizard",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "pp. 238–239 in v2, Giant Lizard Traits.",
+        "printedPages": [
+          238,
+          239
+        ],
+        "heading": "Giant Lizard Traits",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "All three forms share this profile. Bramblepad is an awakened Gecko."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Giant Rat",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_e",
+      "parentSpecies": null,
+      "aliases": "Giant rats. Rat, Cranium Rat and Ratling have separate rules.",
+      "npcs": [
+        "Cobbledot"
+      ],
+      "portrait": "parts/eleven_e/portraits/giant-rat.png",
+      "source": {
+        "name": "Giant Rat",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 242 in v2, Giant Rat Traits.",
+        "printedPages": [
+          242
+        ],
+        "heading": "Giant Rat Traits",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The printed player block omits darkvision and a disease attack despite references to those in surrounding text. The portrait uses ordinary rat anatomy and the NPC’s actions require no tools."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Giant Scorpion",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_e",
+      "parentSpecies": null,
+      "aliases": "Giant scorpions. Scorpion has a different player block.",
+      "npcs": [
+        "Keelpin"
+      ],
+      "portrait": "parts/eleven_e/portraits/giant-scorpion.png",
+      "source": {
+        "name": "Giant Scorpion",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "pp. 242–243 in v2, Giant Scorpion Traits.",
+        "printedPages": [
+          242,
+          243
+        ],
+        "heading": "Giant Scorpion Traits",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The claw’s damage type is missing from the player text. Keelpin uses bludgeoning as a table ruling. Its grapple is a contest after a hit and uses the claw allowed by the trait. The build requires no hand-dependent equipment."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Giant Sea Horse",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_e",
+      "parentSpecies": null,
+      "aliases": "Giant Seahorse is an alternate spelling. Sea Horse has a different player block.",
+      "npcs": [
+        "Siltcrest"
+      ],
+      "portrait": "parts/eleven_e/portraits/giant-sea-horse.png",
+      "source": {
+        "name": "Giant Sea Horse",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 243 in v2, Giant Sea Horse Traits.",
+        "printedPages": [
+          243
+        ],
+        "heading": "Giant Sea Horse Traits",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "Siltcrest uses Strength for the ram so it can trigger Charge under the 2014 rule for unarmed melee weapon attacks. The portrait uses ordinary seahorse anatomy and the build does not rely on object manipulation."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Giant Vulture",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_e",
+      "parentSpecies": null,
+      "aliases": "Giant vultures. Vulture has a different player block. Use the speaking rules in the trait block.",
+      "npcs": [
+        "Shearshade"
+      ],
+      "portrait": "parts/eleven_e/portraits/giant-vulture.png",
+      "source": {
+        "name": "Giant Vulture",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 245 in v2, Giant Vulture Traits.",
+        "printedPages": [
+          245
+        ],
+        "heading": "Giant Vulture Traits",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The specific language line grants reading and understanding Common. Shearshade communicates through wing and head signals and uses neither speech nor writing."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+      }
+    },
+    {
+      "name": "Giant Weasel",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_f",
+      "parentSpecies": null,
+      "aliases": "Giant weasels. Weasel has a different player block.",
+      "npcs": [
+        "Cinder Turnroot"
+      ],
+      "portrait": "parts/eleven_f/portraits/giant-weasel.png",
+      "source": {
+        "name": "Giant Weasel",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          246,
+          247
+        ],
+        "heading": "Giant weasel Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The player trait block sets walking speed at 35 ft. The design discussion mentions 40 ft. The build uses 35 ft. before class movement.",
+          "The v2 monk clarification on p. 7 makes bonus strikes from Martial Arts and Flurry of Blows ordinary bludgeoning strikes. The action bite retains its own damage.",
+          "The Weasel block later in the book is a different playable profile."
+        ]
+      }
+    },
+    {
+      "name": "Giant Wolf Spider",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_f",
+      "parentSpecies": null,
+      "aliases": "Giant wolf spiders. Giant Spider and Phase Spider have separate player blocks.",
+      "npcs": [
+        "Mica Understep"
+      ],
+      "portrait": "parts/eleven_f/portraits/giant-wolf-spider.png",
+      "source": {
+        "name": "Giant Wolf Spider",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          247
+        ],
+        "heading": "Giant Wolf Spider Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The wolf spider has no Web action. Its printed poison is additional damage with no saving throw.",
+          "The play example assigns Sneak Attack dice to the bite’s piercing component. The printed bite already qualifies as finesse."
+        ]
+      }
+    },
+    {
+      "name": "Hawk",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_f",
+      "parentSpecies": null,
+      "aliases": "Hawks. Blood Hawk has a different player block.",
+      "npcs": [
+        "Gale Quill"
+      ],
+      "portrait": "parts/eleven_f/portraits/hawk.png",
+      "source": {
+        "name": "Hawk",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          248
+        ],
+        "heading": "Hawk Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The trait block gives 60-ft. flight. The design discussion mentions 50 ft. The build uses the printed trait.",
+          "The Tiny weapon table on p. 8 resizes equipment. It does not replace the hawk’s printed natural talon die. Tiny carrying capacity is one quarter of the equivalent Small or Medium value.",
+          "Blood Hawk has its own published trait block."
+        ]
+      }
+    },
+    {
+      "name": "Hunter Shark",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_f",
+      "parentSpecies": null,
+      "aliases": "Giant Shark shares these traits by the p. 244 cross-reference. Reef Shark has a different player block.",
+      "npcs": [
+        "Slate Notch"
+      ],
+      "portrait": "parts/eleven_f/portraits/hunter-shark.png",
+      "source": {
+        "name": "Hunter Shark",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          244,
+          248,
+          249
+        ],
+        "heading": "Hunter Shark Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The Hunter Shark trait line for size is blank. Its own design notes on p. 249 specify the reduction from Large to Medium. This play example uses Medium.",
+          "The design notes mention natural weapon finesse, but the printed Bite trait has no finesse. This build uses Strength.",
+          "The Giant Shark entry on p. 244 redirects to Hunter Shark’s player traits. Retain one profile, one NPC in the base form and one portrait."
+        ]
+      }
+    },
+    {
+      "name": "Jackal",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_f",
+      "parentSpecies": null,
+      "aliases": "Jackals. Jackalwere has different traits.",
+      "npcs": [
+        "Rill Sandear"
+      ],
+      "portrait": "parts/eleven_f/portraits/jackal.png",
+      "source": {
+        "name": "Jackal",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules text, read in a text mirror",
+        "printedPages": [
+          250
+        ],
+        "heading": "Jackal Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "This playable bite deals slashing. Keen Hearing and Smell are discussed in the design notes but omitted from the published trait block.",
+          "Jackalwere has its own trait block and is a separate playable profile."
+        ]
+      }
+    },
+    {
+      "name": "Killer Whale",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_g",
+      "parentSpecies": null,
+      "aliases": "Orca is a common descriptive name. Dolphin has a different player block.",
+      "npcs": [
+        "Bellfin"
+      ],
+      "portrait": "parts/eleven_g/portraits/killer-whale.png",
+      "source": {
+        "name": "Killer Whale",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules, read in a text mirror",
+        "printedPages": [
+          251
+        ],
+        "heading": "Killer Whale Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Natural armor and Keen Hearing appear in the design commentary only. The printed bite deals slashing damage. Bellfin uses Unarmored Defense."
+        ],
+        "aliases": [
+          "Orca"
+        ]
+      }
+    },
+    {
+      "name": "Lion",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_g",
+      "parentSpecies": null,
+      "aliases": "Lions. Cat, Panther and Tiger have separate player blocks.",
+      "npcs": [
+        "Kedge"
+      ],
+      "portrait": "parts/eleven_g/portraits/lion.png",
+      "source": {
+        "name": "Lion",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules, read in a text mirror",
+        "printedPages": [
+          251
+        ],
+        "heading": "Lion Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The playable Pounce uses a shove contest after a hit. The encounter lion’s fixed save, follow-up bite, and other stat-block rules are separate."
+        ],
+        "aliases": [
+          "Lions"
+        ]
+      }
+    },
+    {
+      "name": "Mastiff",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_g",
+      "parentSpecies": null,
+      "aliases": "Mastiffs. The player entry uses the domesticated animal’s traits. Blink Dog and Death Dog have separate player blocks.",
+      "npcs": [
+        "Cinder"
+      ],
+      "portrait": "parts/eleven_g/portraits/mastiff.png",
+      "source": {
+        "name": "Mastiff",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules, read in a text mirror",
+        "printedPages": [
+          253
+        ],
+        "heading": "Mastiff Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The player bite lacks the encounter mastiff’s prone rider. The primary bite keeps its racial die. Kamstra’s p. 7 rule gives the martial-arts and Flurry bonus strikes the ordinary monk die and bludgeoning damage."
+        ],
+        "aliases": [
+          "Mastiffs"
+        ]
+      }
+    },
+    {
+      "name": "Mule",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_g",
+      "parentSpecies": null,
+      "aliases": "Mules. Pony has a different player block.",
+      "npcs": [
+        "Beam"
+      ],
+      "portrait": "parts/eleven_g/portraits/mule.png",
+      "source": {
+        "name": "Mule",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules, read in a text mirror",
+        "printedPages": [
+          253
+        ],
+        "heading": "Mule Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Sure-footed protects against being knocked prone, using the checks and saves named in the player text. The hide armor is fitted barding, not a racial AC bonus."
+        ],
+        "aliases": [
+          "Mules"
+        ]
+      }
+    },
+    {
+      "name": "Octopus",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_g",
+      "parentSpecies": null,
+      "aliases": "Octopuses or octopi. Giant Octopus has a different player block.",
+      "npcs": [
+        "Knots"
+      ],
+      "portrait": "parts/eleven_g/portraits/octopus.png",
+      "source": {
+        "name": "Octopus",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored rules, read in a text mirror",
+        "printedPages": [
+          254
+        ],
+        "heading": "Octopus Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Medium size is from the player trait block. The design notes discuss Small size and Grab, neither granted by the player traits.",
+          "The player entry leaves the cost of releasing ink unspecified. Knots uses an action, matching the 2014 encounter octopus. The player’s 20-ft. radius and 1-minute maximum duration still apply.",
+          "The player’s tentacle explicitly qualifies as finesse for Sneak Attack, and its grip may operate most nonweapon objects."
+        ],
+        "aliases": [
+          "Octopuses",
+          "Octopi"
+        ]
+      }
+    },
+    {
+      "name": "Owl",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_h",
+      "parentSpecies": null,
+      "aliases": "Owls. Giant Owl has a different player block.",
+      "npcs": [
+        "Pip Brasscall"
+      ],
+      "portrait": "parts/eleven_h/portraits/owl.png",
+      "source": {
+        "name": "Owl",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "author": "Tyler Kamstra",
+        "publisher": "Dungeon Masters Guild",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 p. 255, Owl Traits.",
+        "printedPages": [
+          255
+        ],
+        "heading": "Owl Traits",
+        "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, p. 255. Uses 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The printed player Flyby uses a bonus action to Disengage. The encounter Owl’s trait uses a separate rule.",
+          "Giant Owl has its own player trait block. Native Talons retain the printed 1d4 die. The supplement’s Tiny weapon damage table applies to resized equipment."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Panther",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_h",
+      "parentSpecies": null,
+      "aliases": "Panthers. Cat, Lion and Tiger have separate player blocks.",
+      "npcs": [
+        "Coalwhisk"
+      ],
+      "portrait": "parts/eleven_h/portraits/panther.png",
+      "source": {
+        "name": "Panther",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "author": "Tyler Kamstra",
+        "publisher": "Dungeon Masters Guild",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 pp. 255–256, Panther Traits.",
+        "printedPages": [
+          255,
+          256
+        ],
+        "heading": "Panther Traits",
+        "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, pp. 255–256. Uses 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The player Pounce uses a shove contest after an unarmed hit. The encounter version has a fixed DC and can grant a bonus-action bite."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Phase Spider",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_h",
+      "parentSpecies": null,
+      "aliases": "Phase spiders. Giant Spider and Giant Wolf Spider have separate player blocks.",
+      "npcs": [
+        "Seamstep"
+      ],
+      "portrait": "parts/eleven_h/portraits/phase-spider.png",
+      "source": {
+        "name": "Phase Spider",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "author": "Tyler Kamstra",
+        "publisher": "Dungeon Masters Guild",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 pp. 256–257, Phase Spider Traits.",
+        "printedPages": [
+          256,
+          257
+        ],
+        "heading": "Phase Spider Traits",
+        "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, pp. 256–257. Uses 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The printed alignment sentence refers to giant spiders. The adjacent Playing and Design Notes paragraphs describe the phase spider as intelligent and without language comprehension. The Creature Type field is Monstrosity.",
+          "The player trait block has Web Walker and Spider Climb, with no web production or web sense feature. Seamstep uses gestures and movement as immediate cues."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Poisonous Snake",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_h",
+      "parentSpecies": null,
+      "aliases": "Venomous Snake is a descriptive lookup term. Giant Poisonous Snake has a different player block.",
+      "npcs": [
+        "Rushcoil"
+      ],
+      "portrait": "parts/eleven_h/portraits/poisonous-snake.png",
+      "source": {
+        "name": "Poisonous Snake",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "author": "Tyler Kamstra",
+        "publisher": "Dungeon Masters Guild",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 p. 257, Poisonous Snake Traits.",
+        "printedPages": [
+          257
+        ],
+        "heading": "Poisonous Snake Traits",
+        "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, p. 257. Uses 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The p. 257 player block says Medium, while design commentary on p. 258 mentions Tiny as part of its derivation. The build follows the player block.",
+          "There is no racial finesse trait. Rushcoil can use Dexterity through the 2014 monk’s Martial Arts, and the supplement’s p. 7 limits the bonus strike to a conventional bludgeoning strike."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Polar Bear",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_h",
+      "parentSpecies": null,
+      "aliases": "Polar bears. Black Bear and its Brown Bear variant have separate player rules.",
+      "npcs": [
+        "Driftmark"
+      ],
+      "portrait": "parts/eleven_h/portraits/polar-bear.png",
+      "source": {
+        "name": "Polar Bear",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "author": "Tyler Kamstra",
+        "publisher": "Dungeon Masters Guild",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "v2 p. 258, Polar Bear Traits.",
+        "printedPages": [
+          258
+        ],
+        "heading": "Polar Bear Traits",
+        "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, p. 258. Uses 2014 fifth-edition rules.",
+        "sourceDistinctions": [
+          "The printed player block has swim speed and no cold resistance trait. The build selects the better of its natural armor or Barbarian Unarmored Defense without stacking them."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Pony",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_i",
+      "parentSpecies": null,
+      "aliases": "Draft Horse, Riding Horse and Warhorse each point to Pony on pp. 229, 262 and 266, respectively.",
+      "npcs": [
+        "Chaffstep"
+      ],
+      "portrait": "parts/eleven_i/portraits/pony.png",
+      "source": {
+        "name": "Pony",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored player traits, read in a text mirror",
+        "printedPages": [
+          258
+        ],
+        "heading": "Pony Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "generalRulesPrintedPages": [
+          7,
+          8
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The three horse entries explicitly point to Pony. Their encounter versions and art remain distinct.",
+          "The Outlander background’s musical instrument and any other hand-operated gear are unavailable under No Hands."
+        ],
+        "printedCrossReferences": {
+          "Draft Horse": 229,
+          "Riding Horse": 262,
+          "Warhorse": 266
+        }
+      }
+    },
+    {
+      "name": "Quipper",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_i",
+      "parentSpecies": null,
+      "aliases": "Quippers. Use the individual player block. Swarm of Quippers has its own encounter scope.",
+      "npcs": [
+        "Coppergill"
+      ],
+      "portrait": "parts/eleven_i/portraits/quipper.png",
+      "source": {
+        "name": "Quipper",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored player traits, read in a text mirror",
+        "printedPages": [
+          259
+        ],
+        "heading": "Quipper Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "generalRulesPrintedPages": [
+          7,
+          8
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "This is the individual Quipper. Swarm of Quippers has no role in this build.",
+          "The supplement’s Tiny equipment rules apply to equipment and carrying capacity. The printed natural bite keeps its listed damage and Finesse treatment."
+        ]
+      }
+    },
+    {
+      "name": "Reef Shark",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_i",
+      "parentSpecies": null,
+      "aliases": "Reef sharks. Hunter Shark and its Giant Shark variant use separate player rules.",
+      "npcs": [
+        "Slatewake"
+      ],
+      "portrait": "parts/eleven_i/portraits/reef-shark.png",
+      "source": {
+        "name": "Reef Shark",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored player traits, read in a text mirror",
+        "printedPages": [
+          261
+        ],
+        "heading": "Reef Shark Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "generalRulesPrintedPages": [
+          7,
+          8
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "This printing grants +1 Strength, 30-ft. blindsight and Pack Tactics as a bonus action. It grants no natural armor. The separate Hunter Shark and Giant Shark publication scope is outside this profile."
+        ]
+      }
+    },
+    {
+      "name": "Rhinoceros",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_i",
+      "parentSpecies": null,
+      "aliases": "Rhino is a common descriptive name. The printed block is Rhinoceros.",
+      "npcs": [
+        "Graysill"
+      ],
+      "portrait": "parts/eleven_i/portraits/rhinoceros.png",
+      "source": {
+        "name": "Rhinoceros",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored player traits, read in a text mirror",
+        "printedPages": [
+          261,
+          262
+        ],
+        "heading": "Rhinoceros Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "generalRulesPrintedPages": [
+          7,
+          8
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Player Rhinoceros is Medium. This charge uses the core contested shove instead of a monster save DC.",
+          "The 1st-level monk’s bonus kick uses the Martial Arts die and bludgeoning damage under Monstrous Races v2 p. 7. Natural Armor changes the AC calculation but does not count as worn armor."
+        ]
+      }
+    },
+    {
+      "name": "Scorpion",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_i",
+      "parentSpecies": null,
+      "aliases": "Scorpions. Giant Scorpion has a different player block.",
+      "npcs": [
+        "Tallowpin"
+      ],
+      "portrait": "parts/eleven_i/portraits/scorpion.png",
+      "source": {
+        "name": "Scorpion",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "v2 authored player traits, read in a text mirror",
+        "printedPages": [
+          262
+        ],
+        "heading": "Scorpion Traits",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "generalRulesPrintedPages": [
+          7,
+          8
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The Giant Scorpion has separate player rules. The ordinary Scorpion gives no darkvision or monster-sting save.",
+          "Use the Tiny carrying capacity rule. The natural sting keeps its printed damage and Finesse treatment."
+        ]
+      }
+    },
+    {
+      "name": "Tiger",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_j",
+      "parentSpecies": null,
+      "aliases": "Saber-Toothed Tiger shares these traits by the p. 262 cross-reference.",
+      "npcs": [
+        "Saffron Step"
+      ],
+      "portrait": "parts/eleven_j/portraits/tiger.png",
+      "source": {
+        "name": "Tiger",
+        "kind": "species",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          262,
+          265
+        ],
+        "page": "v2 p. 265, Tiger Traits. Saber-Toothed Tiger cross-reference on p. 262.",
+        "heading": "Tiger Traits",
+        "creatureType": "Beast",
+        "sourceVersion": "Monstrous Races v2 authored text",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Saffron uses the common tiger form. Saber-Toothed Tiger redirects to the same printed traits, including Medium size.",
+          "Pounce is the 2014 shove contest, not an encounter Strength-save ability. The printed Bite and Claw explicitly qualifies for finesse requirements."
+        ]
+      }
+    },
+    {
+      "name": "Weasel",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_j",
+      "parentSpecies": null,
+      "aliases": "Weasels. Giant Weasel has a different player block.",
+      "npcs": [
+        "Hush Thread"
+      ],
+      "portrait": "parts/eleven_j/portraits/weasel.png",
+      "source": {
+        "name": "Weasel",
+        "kind": "species",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          267
+        ],
+        "page": "v2 p. 267, Weasel Traits.",
+        "heading": "Weasel Traits",
+        "creatureType": "Beast",
+        "sourceVersion": "Monstrous Races v2 authored text",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Giant Weasel uses a separate player block. Hush uses the ordinary weasel in its winter coat.",
+          "The design suggestion to grant an extra skill or feat was not selected. Hush has no printed climb, burrow or darkvision trait."
+        ]
+      }
+    },
+    {
+      "name": "Winter Wolf",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_j",
+      "parentSpecies": null,
+      "aliases": "Winter wolves. Wolf, Dire Wolf and Worg use separate player rules.",
+      "npcs": [
+        "Rime Knell"
+      ],
+      "portrait": "parts/eleven_j/portraits/winter-wolf.png",
+      "source": {
+        "name": "Winter Wolf",
+        "kind": "species",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          267,
+          268
+        ],
+        "page": "v2 pp. 267–268, Winter Wolf Traits.",
+        "heading": "Winter Wolf Traits",
+        "creatureType": "Monstrosity",
+        "sourceVersion": "Monstrous Races v2 authored text",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Rime uses the Medium player form with 40-ft. walking speed. The player block gives no darkvision, cold immunity or Pack Tactics.",
+          "Reckless Attack applies to Strength-based melee attack rolls, not the breath saving throw."
+        ]
+      }
+    },
+    {
+      "name": "Wolf",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_j",
+      "parentSpecies": null,
+      "aliases": "Dire Wolf shares these traits by the p. 229 cross-reference. Winter Wolf and Worg have separate player blocks.",
+      "npcs": [
+        "Alder Pace"
+      ],
+      "portrait": "parts/eleven_j/portraits/wolf.png",
+      "source": {
+        "name": "Wolf",
+        "kind": "species",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          229,
+          268
+        ],
+        "page": "v2 p. 268, Wolf Traits. Dire Wolf cross-reference on p. 229.",
+        "heading": "Wolf Traits",
+        "creatureType": "Beast",
+        "sourceVersion": "Monstrous Races v2 authored text",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Monk",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Alder uses the ordinary wolf. The printed player block omits any special bite die and does not include a No Hands paragraph, although the design notes discuss both. The NPC is a handless quadruped and uses Monk damage for ordinary unarmed body strikes.",
+          "The encounter wolf’s passive Pack Tactics and bite are separate from the player rules."
+        ]
+      }
+    },
+    {
+      "name": "Worg",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "eleven_j",
+      "parentSpecies": null,
+      "aliases": "Worgs. Wolf, Dire Wolf and Winter Wolf use separate player rules.",
+      "npcs": [
+        "Gravel Jaw"
+      ],
+      "portrait": "parts/eleven_j/portraits/worg.png",
+      "source": {
+        "name": "Worg",
+        "kind": "species",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "printedPages": [
+          269
+        ],
+        "page": "v2 p. 269, Worg Traits.",
+        "heading": "Worg Traits",
+        "creatureType": "Monstrosity",
+        "sourceVersion": "Monstrous Races v2 authored text",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Monk",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "The design notes mention a d8 unarmed strike, but the player trait block does not grant one. Gravel uses ordinary Monk unarmed damage. No Pack Tactics or innate Common."
+        ]
+      }
+    }
+  ]
+}

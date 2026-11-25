@@ -1,0 +1,279 @@
+[
+  {
+    "name": "Black Bear",
+    "publication": "Player's Handbook (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "printedPage": 304,
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "appearance": "A dark-furred bear with rounded ears and a lighter brown muzzle.",
+    "habitats": [],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Player's Handbook, August 2014 first printing, Appendix D, p. 304.",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack +3, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack +3, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) slashing damage.",
+      "Official errata": "The Player's Handbook v3.0 errata raises the attack bonus of Bite and Claws to +4."
+    },
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Cat",
+    "publication": "Player's Handbook (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny beast, unaligned",
+    "ac": 12,
+    "hp": 2,
+    "hitDice": "1d4",
+    "printedPage": 305,
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Languages none.",
+    "appearance": "A slender gray-brown tabby with a ringed tail and pale paws.",
+    "habitats": [],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Player's Handbook, August 2014 first printing, Appendix D, p. 305.",
+      "Traits": "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Claws. Melee weapon attack +0, reach 5 ft., one target. On a hit, deal 1 slashing damage."
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Player's Handbook (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "printedPage": 305,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Blindsight 10 ft. Languages none.",
+    "appearance": "A thick olive-brown snake coiled low, with dark blotches and a broad head.",
+    "habitats": [],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Player's Handbook, August 2014 first printing, Appendix D, p. 305.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack +4, reach 5 ft., one creature. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple the target. The creature is restrained until the grapple ends. The snake can constrict only one target at a time. The Player's Handbook stat block gives no fixed escape DC."
+    }
+  },
+  {
+    "name": "Giant Weasel",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 13,
+    "hp": 9,
+    "hitDice": "2d8",
+    "printedPage": 26,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Darkvision 60 ft. Languages none.",
+    "appearance": "A chestnut weasel with a cream throat, long belly and raised, curling tail.",
+    "habitats": [
+      "King's Pyre",
+      "Kobold Caverns"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Outlaws of the Iron Route, DDEX1-9, December 2014, Appendix 1, p. 26.",
+      "Traits": "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage.",
+      "Encounter": "The caverns hold three kobolds and five giant weasels, three of them chained. At the first sign of trouble, a kobold rushes to free them. The weasels attack anyone who threatens their handlers. For a very weak or weak party, remove one weasel. For a very strong party, add one."
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 5
+    }
+  },
+  {
+    "name": "Spider",
+    "publication": "DDEX1-09 - Outlaws of the Iron Route",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "printedPage": 31,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Darkvision 30 ft. Languages none.",
+    "appearance": "A small mottled tan spider with a rounded abdomen and eight thin, banded legs.",
+    "habitats": [
+      "King's Pyre",
+      "Kobold Caverns"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Outlaws of the Iron Route, DDEX1-9, December 2014, Appendix 1, p. 31.",
+      "Traits": "Spider Climb. Climb difficult surfaces, including upside down on ceilings, without an ability check.\nWeb Sense. While touching a web, the spider knows the exact location of any other creature touching it.\nWeb Walker. Webbing does not impede its movement.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one creature. On a hit, deal 1 piercing damage. On a failed DC 9 Constitution save, the target also takes 2 (1d4) poison damage.",
+      "Encounter": "One kobold can throw its spider jar up to 20 ft. Make a ranged improvised-weapon attack against a creature or object. On a hit the jar shatters for 1 piercing damage. Roll 1d6 for the spiders that land on the target. Each spider attacks once and then skitters away."
+    },
+    "skills": {
+      "Stealth": 4
+    }
+  }
+]

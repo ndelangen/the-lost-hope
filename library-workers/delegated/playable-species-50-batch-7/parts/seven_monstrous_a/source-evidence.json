@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Aboleth",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+    "url": "",
+    "printedPages": [
+      9,
+      10
+    ],
+    "heading": "Aboleths, Aboleth Traits and Playing an Aboleth",
+    "creatureType": "Aberration",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+    "comparisonText": "",
+    "sourceDistinctions": "The preview's 1d6 tentacle strike uses core unarmed strike proficiency. The build treats a grasping tentacle as able to use the pouch and make somatic gestures, since the conversion does not add a no-hands trait.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+    }
+  },
+  {
+    "name": "Animated Object",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+    "url": "",
+    "printedPages": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "heading": "Animated Objects and the three subrace traits",
+    "creatureType": "Construct",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+    "comparisonText": "",
+    "sourceDistinctions": "The official preview gives Flying Sword natural AC 15 + Dexterity modifier. The separately mirrored v2 text gives 17 + Dexterity modifier. The profile follows the official preview. The worked NPC is Animated Armor.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+    }
+  },
+  {
+    "name": "Ankheg",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+    "url": "",
+    "printedPages": [
+      14,
+      15
+    ],
+    "heading": "Ankheg Traits and Playing an Ankheg",
+    "creatureType": "Monstrosity",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+    "comparisonText": "",
+    "sourceDistinctions": "The official preview scales Acid Spray at levels 5, 11, and 17. The separately mirrored v2 text lists levels 6, 11, and 16. The profile follows the official preview. The ordinary Strength damage modifier and Rage bonus apply once to the slashing part of the mixed bite damage.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+    }
+  },
+  {
+    "name": "Banshee",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+    "url": "",
+    "printedPages": [
+      17,
+      18
+    ],
+    "heading": "Banshee Traits and Variant Banshee Traits",
+    "creatureType": "Undead",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+    "comparisonText": "",
+    "sourceDistinctions": "The worked NPC uses flying Banshee and retains Sorrow Bound. A 5-ft. reach for Corrupting Touch is the encounter's reading of the unqualified melee spell attack. Wail uses the legacy Dissonant Whispers spell from the 2014 Player's Handbook, p. 234.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+    }
+  }
+]

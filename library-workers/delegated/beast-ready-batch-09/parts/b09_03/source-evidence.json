@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Brown Bear",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      350
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775806-brown-bear",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 350. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 347. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "Claw imposes Prone on a hit against an eligible creature without a saving throw."
+    ]
+  },
+  {
+    "name": "Camel",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      351
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775807-camel",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 347. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "Constitution save is +5. The printed Initiative is −1 (9)."
+    ]
+  },
+  {
+    "name": "Cat",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      351
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775808-cat",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 347. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "Dexterity save is +4. Jumper is printed under Traits."
+    ]
+  },
+  {
+    "name": "Constrictor Snake",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      351
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775809-constrictor-snake",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 348. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry.",
+      "Constrict is a saving throw action. Its printed failure applies Grappled and lists no additional Restrained effect or success effect."
+    ]
+  },
+  {
+    "name": "Crab",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 rules)",
+    "printedPages": [
+      351
+    ],
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775810-crab",
+    "sourceWitness": "The public D&D Beyond monster page credits Monster Manual p. 351. Its modern stat block prints Initiative, a modifier and save for every ability, and PB on the CR line.",
+    "sharedPublicationCrossCheck": "The 5etools Monster Manual index also cross-references Player’s Handbook (2024) p. 348. This rules overlay follows the publisher’s Monster Manual byline.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "appearanceEvidence": "Editorial description of the reused portrait. The stat block gives no formal appearance field.",
+    "habitatEvidence": "Habitat terms use the publisher listing on the cited D&D Beyond page.",
+    "printingNotes": [
+      "Neither official modern Monster Manual errata listing changes this entry."
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Insect, Giant Fire Beetle",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 13,
+    "hp": 7,
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Fixed Perception 8 and Stealth 10. Keensense 30 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A squat six-legged beetle with copper-red wing cases, rounded joints, and golden patches near its eyes.",
+    "habitats": [
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed Spanish translation of Kobold Press’s Monster Vault, p. 344, Insecto, Escarabajo de Fuego Gigante. XP follows the Spanish book’s CR table on p. 17.",
+      "Ability modifiers": "STR −1, DEX +0, CON +1, INT −5, WIS −2, CHA −4. Use the printed Black Flag modifiers with the fixed Perception and Stealth values.",
+      "Traits": "Illumination. Sheds bright light within 10 ft. and dim light for another 10 ft.",
+      "Actions": "Bite. Melee weapon attack +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) slashing damage.\nIgniting Mucus. Ranged weapon attack +2 to hit, range 15/30 ft., one target. A hit deals 2 (1d4) poison damage and covers the target in mucus. The mucus ignites after 1d4 rounds or when the target takes fire damage. An ignited creature takes 2 (1d4) fire damage at the start of each turn until a creature spends an action to put out the fire. A creature can spend an action to remove the mucus before ignition.",
+      "Source notes": "The beetle’s traits begin at the foot of the left column. Both actions continue at the top of the right column on p. 344."
+    }
+  },
+  {
+    "name": "Insect, Giant Scorpion",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 15,
+    "hp": 76,
+    "speed": "40 ft., burrow 20 ft.",
+    "cr": "3",
+    "xp": 700,
+    "otherStatistics": "Natural armor. Fixed Perception 11 and Stealth 13. Keensense 60 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A broad dark scorpion with a segmented shell, two oversized pincers, and an upright tail ending in a hooked stinger.",
+    "habitats": [
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed Spanish translation of Kobold Press’s Monster Vault, pp. 344–345, Insecto, Escorpión gigante. XP follows the Spanish book’s CR table on p. 17.",
+      "Ability modifiers": "STR +2, DEX +1, CON +2, INT −5, WIS −1, CHA −4. Use the printed Black Flag modifiers with the fixed Perception and Stealth values.",
+      "Defenses": "Resists poison damage and the poisoned condition. Halve poison damage and round down. Checks and saves to avoid or end the poisoned condition have advantage.",
+      "Actions": "Multiattack. Make two Claw attacks and one Sting attack.\nClaw. Melee weapon attack +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) bludgeoning damage and grapples the target. Each claw holds at most one target. The target can spend an action to escape with a DC 12 Strength (Athletics) or Dexterity (Acrobatics) check.\nSting. Melee weapon attack +4 to hit, reach 5 ft., one creature. A hit deals 7 (1d10 + 2) piercing damage and 7 (2d6) poison damage. The creature must make a DC 12 Constitution save or be poisoned through the end of its next turn.",
+      "Reactions": "Reflexive Sting. When a creature the scorpion can see attacks it from within 10 ft., the scorpion can react with its tail. The attacker makes a DC 12 Dexterity save or takes 5 (1d10) piercing damage.",
+      "Source notes": "The Sting action uses the 5-ft. reach printed on Spanish p. 344. Its saving throw and the separate 10-ft. Reflexive Sting trigger continue on p. 345. BFRD v0.2 prints a 10-ft. Sting action, which belongs to that separate publication.\nKobold Press’s Monster Vault p. 25 erratum clarifies that the initial grapple needs no extra check and an escape action uses the listed DC."
+    }
+  },
+  {
+    "name": "Insect, Giant Wasp",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 25,
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Fixed Perception 10 and Stealth 12. No listed special senses. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A yellow-and-dark striped wasp with a pinched waist, translucent veined wings, and a pointed stinger.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed Spanish translation of Kobold Press’s Monster Vault, p. 343, Insecto, Avispa Gigante. XP follows the Spanish book’s CR table on p. 17.",
+      "Ability modifiers": "STR +0, DEX +2, CON +0, INT −5, WIS +0, CHA −4. Use the printed Black Flag modifiers with the fixed Perception and Stealth values.",
+      "Actions": "Sting. Melee weapon attack +4 to hit, reach 5 ft., one creature. A hit deals 6 (1d8 + 2) piercing damage. On a failed DC 12 Constitution save, the target takes 10 (3d6) poison damage. If that poison damage reduces it to 0 HP, it is stable at 0 HP. It remains poisoned for 1 hour even if it regains HP, and is paralyzed while poisoned this way.",
+      "Reactions": "Assailing Pheromone. When the wasp takes damage, it can release a scent that only other wasps can perceive. Each wasp within 10 ft. has advantage on the next attack roll it makes before the end of its next turn.",
+      "Source notes": "The Wasp starts at the foot of the left column. Its ability modifiers, Sting, and reaction appear at the top of the right column on p. 343."
+    }
+  },
+  {
+    "name": "Insect, Scorpion",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "10 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Fixed Perception 9 and Stealth 12. Keensense 10 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A golden-brown scorpion with a narrow plated body, small pincers, and a curled tail.",
+    "habitats": [
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed Spanish translation of Kobold Press’s Monster Vault, p. 344, Insecto, Escorpión. XP follows the Spanish book’s CR table on p. 17.",
+      "Ability modifiers": "STR −4, DEX +0, CON −1, INT −5, WIS −1, CHA −4. Use the printed Black Flag modifiers with the fixed Perception and Stealth values.",
+      "Defenses": "Resists poison damage and the poisoned condition. Halve poison damage and round down. Checks and saves to avoid or end the poisoned condition have advantage.",
+      "Actions": "Sting. Melee weapon attack +2 to hit, reach 5 ft., one creature. A hit deals 2 (1d4) piercing damage. On a failed DC 10 Constitution save, the creature takes 2 (1d4) poison damage.",
+      "Source notes": "The ordinary scorpion’s Sting adds poison damage on a failed save. It lists no poisoned condition or reaction."
+    }
+  },
+  {
+    "name": "Insect, Swarm of Insects",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium swarm of Tiny Beasts",
+    "ac": 12,
+    "hp": 24,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Natural armor. Fixed Perception 8 and Stealth 11. Keensense 10 ft. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tight spiral of many small winged and crawling insects, with a few larger insect silhouettes at the margins.",
+    "habitats": [
+      "Desert",
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Swamp",
+      "Underground",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol, Cubil de Monstruos, licensed Spanish translation of Kobold Press’s Monster Vault, p. 344, Insecto, Enjambre de insectos. XP follows the Spanish book’s CR table on p. 17.",
+      "Ability modifiers": "STR −4, DEX +1, CON +0, INT −5, WIS −2, CHA −5. Use the printed Black Flag modifiers with the fixed Perception and Stealth values.",
+      "Traits": "Crawling Swarm. A creature in the swarm’s space that casts a spell with a somatic component must make a DC 11 Constitution save. On a failure casting fails and uses the required action, while the spell slot or daily use remains available.\nSwarm. The swarm and other creatures can share spaces. It passes through any opening wide enough for a Tiny insect. It cannot regain HP or gain temporary HP.",
+      "Defenses": "Swarm Resilience. Resists bludgeoning, piercing, and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned.",
+      "Actions": "Bites. Melee weapon attack +3 to hit, reach 0 ft., one creature inside the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) if the swarm is at half HP or less. With the printed 24 HP, the reduction begins at 12 HP."
+    }
+  }
+]

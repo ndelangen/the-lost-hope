@@ -1,0 +1,315 @@
+[
+  {
+    "name": "Awakened Rat",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, Unaligned",
+    "ac": 10,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. Speaks Common.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A brown rat with rounded ears, whiskers, and a long hairless tail.",
+    "habitats": [
+      "Urban",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Waterdeep: Dragon Heist, first printing, September 2018, p. 102. Base statistics use Rat in the 2014 Monster Manual, p. 335. https://online.anyflip.com/degf/fwng/mobile/index.html#p=103",
+      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. Hit for 1 piercing damage.",
+      "Adventure context": "Jeryth Phaulkon has one of her awakened rats guide Emerald Enclave characters to the secret staircase in the Castle Ward sewers that leads to Xanathar’s lair."
+    }
+  },
+  {
+    "name": "Diatryma",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. The summoned bird understands the summoner’s languages. The base block lists no languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A colorful flightless bird with a broad heavy beak, blue-gray mantle, russet plumage, and thick legs.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Waterdeep: Dragon Heist, first printing, September 2018, p. 191. Base statistics use Axe Beak in the 2014 Monster Manual, p. 317. https://online.anyflip.com/degf/fwng/mobile/index.html#p=192",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 6 (1d8 + 2) piercing damage.",
+      "Feather of Diatryma Summoning": "The rare feather requires attunement. Use an action to speak the command word and toss the feather into a Large unoccupied space on the ground within 5 ft. The bird appears for up to 6 hours. It reverts sooner at 0 HP or if the user touches it and spends an action to repeat the command word. The feather can summon again after 7 days have elapsed from the reversion. The summoned bird is friendly to the user and their companions and can be ridden. It understands the user’s languages and follows spoken commands. In the absence of orders, it defends itself and takes no other actions."
+    }
+  },
+  {
+    "name": "Falcon",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, Unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A compact falcon with pointed folded wings, a barred cream breast, and a dark leather falconry hood.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Waterdeep: Dragon Heist, first printing, September 2018, p. 53. Base statistics use Hawk in the 2014 Monster Manual, p. 330. https://online.anyflip.com/degf/fwng/mobile/index.html#p=54",
+      "Traits": "Keen Sight. The falcon has advantage on Wisdom (Perception) checks that rely on sight.",
+      "Actions": "Talons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 1 slashing damage.",
+      "Adventure context": "Lord Gralhund keeps the falcon hooded in a cage in the Den and Trophy Room, area G10."
+    }
+  },
+  {
+    "name": "Maxeene",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 10,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. Speaks Common.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular chestnut draft mare with a dark mane, a pale blaze, and feathered fetlocks.",
+    "habitats": [
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Waterdeep: Dragon Heist, first printing, September 2018, p. 37. Base statistics use Draft Horse in the 2014 Monster Manual, p. 321. https://online.anyflip.com/degf/fwng/mobile/index.html#p=38",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 9 (2d4 + 4) bludgeoning damage.",
+      "Harper mission": "Find Maxeene with a successful DC 13 Intelligence (Investigation) check. A successful DC 13 Charisma (Persuasion) check convinces her the characters are Harpers. She recalls carrying two passengers whose descriptions match Davil Starsong and Yagra Stonefist to the Yawning Portal and overhearing their discussion of hiring spies to find Xanathar Guild hideouts. Each Harper character earns 1 renown."
+    }
+  },
+  {
+    "name": "Obliteros",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, Chaotic Evil",
+    "ac": 13,
+    "hp": 126,
+    "hitDice": "11d12 + 55",
+    "speed": "0 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Blindsight 60 ft. Passive Perception 13. Speaks and understands Aquan.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An immense gray shark with a pale underside, a triangular dorsal fin, and visible rows of teeth.",
+    "habitats": [
+      "Coastal",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Waterdeep: Dragon Heist, first printing, September 2018, p. 66. Base statistics use Giant Shark in the 2014 Monster Manual, p. 328. https://online.anyflip.com/degf/fwng/mobile/index.html#p=67",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attack rolls against creatures below their hit point maximum.\nWater Breathing. It can breathe only underwater.",
+      "Actions": "Bite. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit for 22 (3d10 + 6) piercing damage.",
+      "Harbor encounter": "When the characters search Waterdeep’s harbor for treasure in Grinda Garloth’s submersible, roll any die. An even result means Obliteros attacks."
+    }
+  },
+  {
+    "name": "Sylgar",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, Unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 8. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small orange-gold fish with a pale belly, translucent fins, and a gently forked tail.",
+    "habitats": [
+      "Underground",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Waterdeep: Dragon Heist, first printing, September 2018, p. 220. Base statistics use Quipper in the 2014 Monster Manual, p. 335. https://online.anyflip.com/degf/fwng/mobile/index.html#p=221",
+      "Traits": "Water Breathing. Sylgar can breathe only underwater.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 1 piercing damage.",
+      "Adventure context": "When a character uses Sylgar as leverage over Xanathar, a DC 16 Charisma (Intimidation) check determines the response. On a success, Xanathar agrees to almost any request. On a failure, it demands Sylgar’s release and follows through on its threat to disintegrate the character if they refuse."
+    }
+  }
+]

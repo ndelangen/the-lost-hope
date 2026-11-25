@@ -1,0 +1,79 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Halfling Wererat",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/halfling-wererat/source-art-wererat.webp",
+    "artist": "Related creature art: Wererat by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "43bc4d6d87f53c863b42be903081b01238b7c9ee5eace8943fa8ac3f7639b6c3",
+    "reference": "images/monsters/wererat/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Havia Quickknife",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/havia-quickknife/source-art-martial-arts-adept.webp",
+    "artist": "Base stat block token: Martial Arts Adept · Volo’s Guide to Monsters",
+    "kind": "token",
+    "sha256": "b039d6f15a68875368f02db5f3b46aedddfca7b323348911d29aaf10d2fb60af",
+    "reference": "images/monsters/martial-arts-adept/vgm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mookie Plush",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/mookie-plush/source-art-martial-arts-adept.webp",
+    "artist": "Base stat block token: Martial Arts Adept · Volo’s Guide to Monsters",
+    "kind": "token",
+    "sha256": "b039d6f15a68875368f02db5f3b46aedddfca7b323348911d29aaf10d2fb60af",
+    "reference": "images/monsters/martial-arts-adept/vgm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Rishaal",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rishaal/source-art-rishaal-the-page-turner.webp",
+    "artist": "Source token: Rishaal the Page-Turner",
+    "kind": "token",
+    "sha256": "2788c73f261671b064964864a8b728a1b5e4b8fd61173ff8b7a08c8fdc03a9f4",
+    "reference": "images/monsters/rishaal-the-page-turner/wdh-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Roscoe Underbough",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/roscoe-underbough/source-art-wererat.webp",
+    "artist": "Related creature art: Wererat by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "43bc4d6d87f53c863b42be903081b01238b7c9ee5eace8943fa8ac3f7639b6c3",
+    "reference": "images/monsters/wererat/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Talisolvanar \"Tally\" Fellbranch",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/talisolvanar-tally-fellbranch/source-art-talisolvanar-tally-fellbranch.webp",
+    "artist": "Source token: Talisolvanar “Tally” Fellbranch",
+    "kind": "token",
+    "sha256": "6f5449bef728eaa7b340e0ca65bb641e6bf4a6b33b53f181c78dfcb743aaa59c",
+    "reference": "images/monsters/talisolvanar-tally-fellbranch/wdh-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Yorn the Terror",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/yorn-the-terror/source-art-yorn.webp",
+    "artist": "Source token: Yorn",
+    "kind": "token",
+    "sha256": "e9d957e88049aea91ed1bd90a62fb7a50503997cf076d5bcc3de5d0bca6b742d",
+    "reference": "images/monsters/yorn/wdh-1.webp"
+  }
+]

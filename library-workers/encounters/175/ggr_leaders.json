@@ -1,0 +1,447 @@
+[
+  {
+    "name": "Isperia",
+    "statBlock": {
+      "name": "Isperia",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 227,
+      "classification": "Gargantuan monstrosity, lawful neutral",
+      "ac": 17,
+      "hp": 261,
+      "hitDice": "18d20 + 72",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 26
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 25,
+      "description": "The Azorius Senate’s sphinx guildmaster serves as its supreme judge. In a fight, she favors subduing offenders for trial.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 11,
+        "Int": 13,
+        "Wis": 15
+      },
+      "skills": {
+        "Arcana": 13,
+        "History": 13,
+        "Insight": 15,
+        "Perception": 15
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Sphinx.",
+        "Damage immunities": "Psychic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Inscrutable. Isperia is immune to effects that sense her emotions or read her thoughts. Divination spells affect her only with her permission. Wisdom (Insight) checks to discern her intentions or sincerity have disadvantage.\nLegendary Resistance (3/day). When Isperia fails a saving throw, she can succeed instead.\nMagic Resistance. Isperia has advantage on saving throws against spells and other magical effects.",
+        "Innate Spellcasting": "Wisdom is the spellcasting ability (save DC 23). Isperia can cast Imprisonment twice per day without material components.",
+        "Spellcasting": "Isperia casts as a 15th-level Azorius cleric. Wisdom is the spellcasting ability (save DC 23, +14 to hit with spell attacks).\nCantrips (at will). Guidance, Light, Resistance, Sacred Flame, Thaumaturgy.\nLevel 1 (4 slots). Command, Detect Evil and Good, Ensnaring Strike, Sanctuary, Shield of Faith.\nLevel 2 (3 slots). Arcane Lock, Augury, Calm Emotions, Hold Person, Silence, Zone of Truth.\nLevel 3 (3 slots). Bestow Curse, Clairvoyance, Counterspell, Dispel Magic, Tongues.\nLevel 4 (3 slots). Divination, Locate Creature.\nLevel 5 (2 slots). Dispel Evil and Good, Scrying.\nLevel 6 (1 slot). Word of Recall.\nLevel 7 (1 slot). Divine Word.\nLevel 8 (1 slot). Antimagic Field.",
+        "Actions": "Multiattack. Make two Claw attacks. Isperia can replace one with a spell that takes 1 action to cast.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 21 (3d10 + 5) slashing damage. A creature hit must make a DC 23 Wisdom saving throw. On a failure, it takes 14 (4d6) psychic damage after each attack it makes against Isperia before the start of Isperia’s next turn.\nSupreme Legal Authority. Choose up to three creatures Isperia can see within 90 ft. Each makes a DC 23 Intelligence saving throw. For each failure, choose one action the target cannot take for 1 minute: Attack, Cast a Spell, Dash, Disengage, Dodge, Help, Hide, Ready, Search, or Use an Object. The target can repeat the DC 23 Intelligence save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the save is immune to Isperia’s Supreme Legal Authority for 24 hours.",
+        "Legendary actions": "The creature has three legendary actions and regains spent actions at the start of its turn. Use one legendary action option at the end of another creature’s turn.\nClaw Attack (1 action). Make one Claw attack.\nCast a Spell (2 actions). Cast a prepared spell of 3rd level or lower, spending a spell slot.\nSupreme Legal Authority (3 actions). Use Supreme Legal Authority.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 227. Isperia’s role and tactics appear on p. 226."
+      }
+    }
+  },
+  {
+    "name": "Jarad Vod Savo",
+    "statBlock": {
+      "name": "Jarad Vod Savo",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 235,
+      "classification": "Medium undead, neutral evil",
+      "ac": 17,
+      "hp": 180,
+      "hitDice": "24d8 + 72",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 20,
+      "description": "The Devkarin lich leads the Golgari Swarm, whose kraul legions and undercity creatures protect his seat in the guild.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10,
+        "Int": 12,
+        "Wis": 10
+      },
+      "skills": {
+        "Arcana": 12,
+        "Insight": 10,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Elvish, Kraul.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Traits": "Legendary Resistance (3/day). When Jarad fails a saving throw, he can succeed instead.\nMagic Resistance. Jarad has advantage on saving throws against spells and other magical effects.\nRegeneration. Jarad regains 25 HP at the start of his turn. Taking fire or radiant damage suppresses this recovery at the start of his next turn. He dies only if he starts his turn at 0 HP and fails to regenerate.\nTurn Resistance. Jarad has advantage on saving throws against effects that turn undead.\nUndead Fortitude. If damage drops Jarad to 0 HP, he makes a Constitution saving throw with DC 5 + the damage taken. On a success, he drops to 1 HP. This trait does not apply to radiant damage or damage from a critical hit.\nUndead Nature. Jarad needs no air, food, drink, or sleep.",
+        "Spellcasting": "Jarad casts as a 14th-level Golgari wizard. Intelligence is the spellcasting ability (save DC 20, +12 to hit with spell attacks).\nCantrips (at will). Acid Splash, Chill Touch, Mage Hand, Poison Spray, Prestidigitation.\nLevel 1 (4 slots). Entangle, Ray of Sickness, Sleep.\nLevel 2 (3 slots). Melf's Acid Arrow, Ray of Enfeeblement, Spider Climb, Web.\nLevel 3 (3 slots). Animate Dead, Plant Growth, Vampiric Touch.\nLevel 4 (3 slots). Blight, Giant Insect, Grasping Vine.\nLevel 5 (2 slots). Cloudkill, Insect Plague.\nLevel 6 (1 slot). Circle of Death, Create Undead.\nLevel 7 (1 slot). Finger of Death, Forcecage.",
+        "Actions": "Multiattack. Make one Noxious Touch attack and one Staff of Svogthir attack. Jarad can replace one attack with a spell that takes 1 action to cast.\nNoxious Touch. Melee spell attack, +12 to hit, reach 5 ft., one creature. A hit deals 28 (8d6) poison damage. The target must succeed on a DC 20 Constitution saving throw or be poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nStaff of Svogthir. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage, 13 (3d8) poison damage, and 13 (3d8) necrotic damage.",
+        "Bonus actions": "Spore Infusion. Choose one creature Jarad can see within 10 ft. His spores deal 11 (2d10) poison damage to it.",
+        "Legendary actions": "The creature has three legendary actions and regains spent actions at the start of its turn. Use one legendary action option at the end of another creature’s turn.\nCantrip (1 action). Cast a cantrip.\nNoxious Touch (2 actions). Use Noxious Touch.\nDisrupt Life (3 actions). Every creature within 30 ft. makes a DC 20 Constitution saving throw, taking 35 (10d6) necrotic damage on a failure or half on a success.",
+        "Golgari lairs": "Jarad Vod Savo or a Kraul Death Priest can qualify a group of at least six Golgari defending their territory for the shared lair actions. See Golgari Shaman for the encounter rules and regional effects on p. 236.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 235. Undead Nature appears on p. 234 and Golgari Lairs on p. 236."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Golgari Shaman",
+          "terms": [
+            "Golgari Shaman"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kraul Death Priest",
+    "statBlock": {
+      "name": "Kraul Death Priest",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium humanoid (kraul), neutral evil",
+      "ac": 18,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft., climb 30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "A winged priest who leads the buzzing rites of the Golgari kraul and turns nearby deaths into protection for its allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 4
+      },
+      "skills": {
+        "Insight": 4,
+        "Nature": 3,
+        "Religion": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Kraul.",
+        "Traits": "Feed on Death. When a creature within 30 ft. drops to 0 HP, the priest or another creature it chooses within 30 ft. gains 5 (1d10) temporary HP. This happens only if the priest is not incapacitated.\nHive Mind. While within 30 ft. of another kraul, the kraul is immune to being charmed and frightened.\nPack Tactics. The kraul has advantage on attacks against a creature if an ally that is not incapacitated is within 5 ft. of the target.\nSpider Climb. The kraul can climb difficult surfaces, including ceilings, without an ability check.",
+        "Innate Spellcasting": "Wisdom is the spellcasting ability (save DC 12, +4 to hit with spell attacks). These spells require no material components.\nAt will. Chill Touch, Poison Spray.\n3/day each. Ray of Enfeeblement, Ray of Sickness.\n1/day each. Animate Dead, Blight, Vampiric Touch.",
+        "Actions": "Multiattack. Make one Quarterstaff attack and cast one of the priest’s spells that takes 1 action to cast.\nQuarterstaff. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) when used with two hands.",
+        "Golgari lairs": "Jarad Vod Savo or a Kraul Death Priest can qualify a group of at least six Golgari defending their territory for the shared lair actions. See Golgari Shaman for the encounter rules and regional effects on p. 236.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 214. Golgari Lairs appears on p. 236."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Golgari Shaman",
+          "terms": [
+            "Golgari Shaman"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Kraul Warrior",
+    "statBlock": {
+      "name": "Kraul Warrior",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium humanoid (kraul), neutral evil",
+      "ac": 18,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "description": "A six-legged Golgari soldier that fights best with other kraul and can advance across walls and ceilings.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Kraul. Understands Common but cannot speak it.",
+        "Traits": "Hive Mind. While within 30 ft. of another kraul, the kraul is immune to being charmed and frightened.\nPack Tactics. The kraul has advantage on attacks against a creature if an ally that is not incapacitated is within 5 ft. of the target.\nSpider Climb. The kraul can climb difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, one target. Reach 5 ft. or range 20/60 ft. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) with a two-handed melee attack.",
+        "Winged variant": "The Winged Kraul Warrior adds gossamer wings and a flying speed of 40 ft. It uses the same statistics and can serve as a scout or shock troop.",
+        "Source notes": "The printed Kraul Warrior has passive Perception 11, which this profile uses. The indexed data gives 10.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 213."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Winged Kraul Warrior",
+          "terms": [
+            "Winged Kraul Warrior"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lawmage",
+    "statBlock": {
+      "name": "Lawmage",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 228,
+      "classification": "Medium humanoid (any race), lawful neutral",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "13d8 + 26",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "An Azorius spellcaster trained to restrain suspects and protect bystanders during arrests.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 6,
+        "Perception": 5,
+        "Persuasion": 4
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "Common and one other language.",
+        "Spellcasting": "The lawmage casts as an 8th-level Azorius wizard. Intelligence is the spellcasting ability (save DC 14, +6 to hit with spell attacks).\nCantrips (at will). Fire Bolt, Friends, Light, Message.\nLevel 1 (4 slots). Alarm, Expeditious Retreat, Shield.\nLevel 2 (3 slots). Arcane Lock, Detect Thoughts, Hold Person.\nLevel 3 (3 slots). Clairvoyance, Dispel Magic, Slow.\nLevel 4 (2 slots). Locate Creature, Stoneskin.",
+        "Actions": "Quarterstaff. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) when used with two hands.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 228."
+      }
+    }
+  },
+  {
+    "name": "Lazav",
+    "statBlock": {
+      "name": "Lazav",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 232,
+      "classification": "Medium monstrosity (shapechanger), neutral evil",
+      "ac": 18,
+      "hp": 204,
+      "hitDice": "24d8 + 96",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 24
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 21,
+      "description": "The unseen guildmaster of House Dimir gathers secrets through his agents and his own disguises. Nobody in his network has seen his true form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 13,
+        "Int": 12,
+        "Wis": 11,
+        "Cha": 12
+      },
+      "skills": {
+        "Deception": 18,
+        "Insight": 11,
+        "Perception": 11,
+        "Stealth": 19
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Thieves' Cant.",
+        "Damage resistances": "Necrotic, psychic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Elusive. Attacks against Lazav cannot have advantage unless he is incapacitated.\nLegendary Resistance (3/day). When Lazav fails a saving throw, he can succeed instead.\nPsychic Defenses. While Lazav is not incapacitated, magic cannot read his thoughts, detect lies he tells, reveal his alignment, or identify his creature type. Telepathic communication with him requires his permission.",
+        "Innate Spellcasting": "Intelligence is the spellcasting ability (save DC 20). These spells require no material components.\nAt will. Detect Thoughts, Encode Thoughts, Freedom of Movement, Vicious Mockery (4d4 psychic damage).\n3/day each. Blur, Confusion, Mirror Image.\n1/day each. Modify Memory, Rary's Telepathic Bond.",
+        "Actions": "Multiattack. Make three Shortsword attacks.\nShortsword. Melee weapon attack, +13 to hit, reach 5 ft., one target. A hit deals 10 (1d6 + 7) piercing damage and 10 (3d6) psychic damage. The target has disadvantage on the next attack roll it makes before Lazav’s next turn.",
+        "Bonus actions": "Shapechanger Savant. Lazav polymorphs into a Small or Medium humanoid he has seen. His size changes to match that form. He keeps his other statistics and his equipment stays unchanged.",
+        "Legendary actions": "The creature has three legendary actions and regains spent actions at the start of its turn. Use one legendary action option at the end of another creature’s turn.\nAttack (1 action). Make one weapon attack.\nCast a Spell (2 actions). Cast one of Lazav’s innate spells.\nShifting Nightmare (3 actions). Each creature within 10 ft. makes a DC 21 Dexterity saving throw. On a failure, it takes 18 (4d8) damage. Lazav chooses acid, cold, fire, lightning, or necrotic damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 232."
+      }
+    }
+  },
+  {
+    "name": "Winged Kraul Warrior",
+    "statBlock": {
+      "name": "Winged Kraul Warrior",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Medium humanoid (kraul), neutral evil",
+      "ac": 18,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft., climb 30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "description": "Gossamer wings elevate these kraul warriors to scouting and shock troop roles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Kraul. Understands Common but cannot speak it.",
+        "Traits": "Hive Mind. While within 30 ft. of another kraul, the kraul is immune to being charmed and frightened.\nPack Tactics. The kraul has advantage on attacks against a creature if an ally that is not incapacitated is within 5 ft. of the target.\nSpider Climb. The kraul can climb difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Spear. Melee or ranged weapon attack, +4 to hit, one target. Reach 5 ft. or range 20/60 ft. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) with a two-handed melee attack.",
+        "Winged variant": "Apply the printed Winged Kraul Warriors sidebar to Kraul Warrior. Its sole change to the base statistics is a flying speed of 40 ft.",
+        "Source notes": "The printed Kraul Warrior has passive Perception 11, which this profile uses. The indexed data gives 10.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 213, Kraul Warrior stat block and Winged Kraul Warriors sidebar."
+      }
+    }
+  }
+]

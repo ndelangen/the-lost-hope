@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Karsite",
+    "kind": "species",
+    "publication": "Tome of Magic (2006)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Human), 30-ft. land speed. +2 Constitution and +2 Charisma. Retains the human bonus feat, four extra skill points at 1st level and one per later level, and human languages.",
+      "Damage reduction 5/magic. Spell resistance equals 10 + class levels. When spell resistance blocks a spell, the Karsite heals twice the spell level in hit points.",
+      "A melee hit can suppress one magic weapon, suit of armor, or shield in the target’s possession for 1 round. The target negates this with Will DC 10 + the Karsite’s Charisma modifier. The Karsite may pick a visible item they know is magical. Otherwise, determine the item randomly.",
+      "Karsites cannot cast arcane or divine spells. Spell-like abilities, psionics, and magic item use still work. Proficient with martial weapons and light and medium armor.",
+      "Favored class Binder. No racial Hit Dice. Level adjustment +2. The book sets the CR to character level for NPC classes and character level +1 for PC classes."
+    ]
+  },
+  {
+    "name": "Lumi",
+    "kind": "species",
+    "publication": "Monster Manual III (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider native to the Positive Energy Plane. Gains the Extraplanar subtype when away from its native plane. Land speed 30 ft., darkvision 60 ft. +2 Strength, −2 Dexterity, +4 Constitution, +4 Wisdom.",
+      "Two outsider Hit Dice provide 2d8, BAB +2, and base Fortitude, Reflex, and Will +3. Racial skill points equal five times (8 + Intelligence modifier). Racial class skills are Concentration, Diplomacy, Heal, Knowledge (the planes), Listen, Search, Sense Motive, and Spot. Gain +2 racial Search, Sense Motive, and Spot, plus Improved Initiative as a bonus feat.",
+      "Body of Light (Su) sheds white light to 5 ft. and grants immunity to death spells and magical death effects, energy drain, and negative energy. Positive-dominant planes still grant fast healing but give no temporary HP to a Lumi. Magical darkness can conceal its light.",
+      "Clear Vision (Ex) prevents blindness and dazzling, and grants immunity to direct light attacks such as searing light. Darkness and fog can still conceal opponents. A sun blade deals only nonlethal damage.",
+      "Floating Head (Ex) prevents strangulation, suffocation, and vorpal decapitation. Attackers receive no flanking bonus. The head stays a few inches above the shoulders and can rotate in place.",
+      "Spell-like abilities at caster level 3. At will, disrupt undead and light. Three times per day each, cure light wounds and glitterdust. Glitterdust save DC is 12 + Charisma modifier.",
+      "Common and Lumi are automatic. Bonus languages Abyssal, Celestial, Dwarven, and Infernal. Favored class Cleric. Lumi clerics channel positive energy regardless of alignment, worship Light, and may choose Law, Sun, or War domains. Level adjustment +2, ECL 4 before classes."
+    ]
+  },
+  {
+    "name": "Maug",
+    "kind": "species",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Large Construct native to Acheron, 10-ft. space and reach. Speed 40 ft., cannot run. Darkvision 60 ft. and low-light vision under revised Construct traits. No Constitution score. Racial adjustments derived from the printed base scores are +10 Strength, +4 Dexterity, +2 Intelligence, and +2 Charisma.",
+      "Two racial construct Hit Dice, 2d10 plus 30 HP for Large size, BAB +1, and base Fortitude, Reflex, and Will +0. +7 natural armor and one slam for 1d8 before Strength. Applies standard Large attack, AC, Hide, and grapple modifiers.",
+      "Construct defenses include immunity to mind-affecting effects, poison, sleep, paralysis, stunning, disease, magical death effects, necromancy, and Fortitude effects that cannot affect objects. Immune to critical hits, nonlethal damage, ability damage, ability drain, and energy drain. Destroyed at 0 HP.",
+      "Pulverize (Su), 3/day as a standard action. Remove an object’s hardness for 1d4 rounds, Fortitude DC 18 negates. Affect up to a 10-ft. cube of its volume. Unattended nonmagical objects get no save. An object held, worn, or carried by a creature requires a melee touch attack that does not provoke.",
+      "Rapid Repair (Ex) restores 1 HP per full hour of rest while at 1 HP or more. An assistant with a DC 15 Craft (stonemasonry) check raises that rate to 2 HP an hour. Rapid Repair cannot regrow or reattach body parts.",
+      "Spell resistance 14 + class levels. Uses outsider skill points for its construct Hit Dice, for five times (8 + Intelligence modifier) racial skill points. +4 racial bonus to Craft (stonemasonry) and Knowledge (architecture and engineering), and Alertness as a bonus feat.",
+      "Common, Draconic, and Giant. Favored class Fighter. Level adjustment +3 and ECL 5 before class levels. Optional stone or metal grafts follow the separate rules in Appendix 2."
+    ]
+  },
+  {
+    "name": "Nerra",
+    "kind": "species",
+    "publication": "Fiend Folio (2003) · Varoot",
+    "edition": "3.5 edition",
+    "traits": [
+      "Varoot playable profile. Medium Outsider native to the Plane of Mirrors. Land speed 30 ft., darkvision 60 ft., +3 natural armor. Adjustments derived from the Varoot stat block are +4 Dexterity, +2 Constitution, +4 Wisdom, and +6 Charisma.",
+      "Resistance 5 to cold, electricity, and fire. Takes 50% extra sonic damage. Reflective spell resistance equals 12 + class levels. Targeted spells stopped by this resistance reflect to their caster. Immune to gaze attacks, which likewise reflect to their source.",
+      "Mirror Jump (Su), at will. As a standard action, touch a mirror and exit through another mirror up to 1 mile away. A suitable highly reflective surface that is not a mirror has a 30% chance to work for entry only. If there is no mirror in range, travel on the Plane of Mirrors and emerge at a random mirror portal.",
+      "At caster level 12, disguise self 3/day (printed as change self), and mirror image 1/day. Gains bonus Exotic Weapon Proficiency with the shard dagger and shard longsword.",
+      "Speaks Common and its own language of mirror sounds. Favored class Rogue. Replace the Varoot’s single racial Hit Die with its first class level. Level adjustment +3, ECL 4 at first class level. Kalareem and Sillit have different player adjustments."
+    ]
+  }
+]

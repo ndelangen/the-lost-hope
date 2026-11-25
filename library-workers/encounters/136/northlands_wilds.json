@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Andahestur",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 263",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Andahestur",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Celestial",
+      "ac": 12,
+      "hp": 37,
+      "speed": "60 ft., fly 60 ft.",
+      "cr": "1",
+      "otherStatistics": "Perception 13, Stealth 12. Immune to Frightened. No special senses. Understands Celestial and the Northern Tongue without speaking.",
+      "description": "A silver-hoofed flying horse that Odin grants to Valkyries. The gods sometimes reward mortal heroes with one.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +2, Int -1, Wis +1, Cha +1",
+        "Actions": "Hooves. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 7 (1d8 + 3) bludgeoning damage.",
+        "Reactions": "Divine Strike (3/day). After hitting with Hooves, add 7 (2d6) radiant damage to that hit.",
+        "Printed source": "Chapter 8, p. 263"
+      }
+    }
+  },
+  {
+    "name": "Brunnmigi",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 232",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Brunnmigi",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 13,
+      "hp": 52,
+      "speed": "40 ft.",
+      "cr": "1",
+      "otherStatistics": "Natural armor. Perception 14, Stealth 13. Immune to poison damage and Poisoned. No special senses. Understands Common and the Northern Tongue without speaking.",
+      "description": "A malicious creature that fouls wells and streams with its spit.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex -1, Con +3, Int -1, Wis +0, Cha -2",
+        "Traits": "Monstrosity Resilience. Resists Exhaustion and Frightened.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage plus 2 poison damage.\nBefouled Spittle. Ranged weapon attack, +4 to hit, range 30 ft., one target. Hit 4 (1d4 + 2) poison damage. The target makes a DC 13 Constitution save or becomes Poisoned, repeating the save after each long rest to end the condition on a success.",
+        "Printed source": "Chapter 8, p. 232"
+      }
+    }
+  },
+  {
+    "name": "Eikthyrnir",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 235",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Eikthyrnir",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Fiend",
+      "ac": 16,
+      "hp": 119,
+      "speed": "60 ft., climb 30 ft.",
+      "cr": "5",
+      "otherStatistics": "Natural armor. Perception 15, Stealth 16. Resists necrotic and radiant damage. Darkvision 60 ft. Understands Common, Dwarven, Elvish, and the Northern Tongue without speaking.",
+      "description": "An immense stag transformed after eating a corrupted World Tree acorn. Knotted thorns grow through its hide and catch nearby prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +6, Con +4, Int +1, Wis +2, Cha +1",
+        "Actions": "Ram. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 30 (4d12 + 4) piercing damage plus 7 (2d6) necrotic damage. A Huge or smaller target takes another 9 (2d8) piercing damage and falls Prone if the eikthyrnir moved at least 20 ft. straight toward it just before the hit.",
+        "Bonus Actions": "Grasping Thorns. Choose one visible Large or smaller creature within 30 ft. On a failed DC 15 Dexterity save, pull it to an adjacent space, Grapple it (escape DC 15), and Restrain it while the grapple lasts.",
+        "Printed source": "Chapter 8, p. 235"
+      }
+    }
+  },
+  {
+    "name": "Fenrikyn",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 235–236",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Fenrikyn",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 15,
+      "hp": 133,
+      "speed": "50 ft.",
+      "cr": "6",
+      "otherStatistics": "Natural armor. Perception 18, Stealth 12. Immune to cold damage and Frightened. Darkvision 90 ft. Understands Abyssal and Giant without speaking.",
+      "description": "A wolf twisted by Fenris that fights with a chain it can move at will. Breaking the chain leaves it stunned and limits it to its bite.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex +2, Con +6, Int -2, Wis +5, Cha -2",
+        "Traits": "Monstrosity Resilience. The printed trait grants resistance to Exhaustion and Frightened. The stat line grants immunity to Frightened.\nMystical Chain. Attack the chain at AC 17 and deal 20 slashing damage to cut it without hurting the fenrikyn with that attack. Severing it deals 18 (4d8) psychic damage to the fenrikyn, Stuns it until the end of its next turn, and disables Chain, Whirling Chain, and Deflecting Chain.",
+        "Actions": "Multiattack. Make one Bite attack and one Chain attack. If the chain is broken, make two Bite attacks instead.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 23 (4d8 + 5) piercing damage.\nChain. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit 19 (4d6 + 5) bludgeoning damage. A Medium or smaller target is also Grappled (escape DC 16). While held, it cannot move farther than 20 ft. from the fenrikyn and its speed drops by 10 ft.\nWhirling Chain (Recharge 6). Each creature within 20 ft. makes a DC 16 Dexterity save. Failure deals 21 (6d6) bludgeoning damage and the fenrikyn pushes or pulls it 10 ft. Success halves the damage and prevents the movement.",
+        "Reactions": "Deflecting Chain. When an attack hits, add 3 to AC against it, which can turn the hit into a miss.",
+        "Printed source": "Chapter 8, pp. 235–236"
+      }
+    }
+  },
+  {
+    "name": "Fleshcrawler",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 237",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Fleshcrawler",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Aberration",
+      "ac": 16,
+      "hp": 151,
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "7",
+      "otherStatistics": "Natural armor. Perception 12, Stealth 15. Immune to cold damage, Exhaustion, and Frightened. Tremorsense 30 ft. Speaks and understands all languages. Telepathy 120 ft. with other fleshcrawlers or infected creatures only.",
+      "description": "A mass of distorted flesh that wraps victims in webs and attempts to control them long enough to produce another fleshcrawler.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +5, Con +4, Int +4, Wis +2, Cha +4",
+        "Traits": "Aberrant Resilience. Resists Charmed, Frightened, Paralyzed, and Stunned, with immunity to Frightened from the stat line. Has advantage on saves against effects that would alter its form.\nInfect Humanoid. A creature held in Fleshwebs for one hour makes a DC 15 Intelligence save or becomes Charmed for 1d4 days. The fleshcrawler can issue telepathic orders, which the target tries to follow. Once it completes an order, it acts on its own and concentrates on protecting itself until it receives another. It repeats the save whenever damaged and at the end of each day, ending the effect on a success. If the full duration elapses with the target still Charmed, it dies and its body becomes a cocoon. A new fleshcrawler hatches an hour later.",
+        "Actions": "Multiattack. Make two attacks in any combination of Fleshwarp Strike and Necrotic Bolt.\nFleshwarp Strike. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 22 (4d8 + 4) necrotic damage and Restrain the target for 1 minute. The target can end the restraint with a DC 15 Constitution save at the end of each of its turns.\nNecrotic Bolt. Ranged weapon attack, +5 to hit, range 30 ft., one target. Hit 30 (8d6 + 2) necrotic damage.",
+        "Bonus Actions": "Fleshwebs (Recharge 5–6). One visible creature within 60 ft. must make a DC 15 Dexterity save or become Restrained until the web is destroyed. The web has AC 15, 15 HP, and immunity to poison and psychic damage.",
+        "Printed source": "Chapter 8, p. 237"
+      }
+    }
+  },
+  {
+    "name": "Fossegrim",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 237–238",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Fossegrim",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Fey",
+      "ac": 16,
+      "hp": 120,
+      "speed": "20 ft., swim 40 ft.",
+      "cr": "5",
+      "otherStatistics": "Natural armor. Perception 15, Stealth 16. Resists cold damage. Immune to Charmed. Darkvision 60 ft. Languages Common, Elvish, and Sylvan.",
+      "description": "A water fey who plays enchanted tunes near streams and waterfalls. Its music can disorient intruders or send a wave crashing over them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +1, Dex +6, Con +2, Int +1, Wis +2, Cha +7",
+        "Traits": "Amphibious. Breathes air and water.\nFey Resilience. The printed trait grants resistance to Charmed and Unconscious. The stat line grants immunity to Charmed.\nMagic Resistance. Has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Discordant Chord attacks.\nDiscordant Chord. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 60 ft., one target. Hit 17 (4d6 + 3) thunder damage.\nTorrential Tune (2/day). Each creature in a 20-ft. cone makes a DC 15 Dexterity save. Failure deals 14 (4d6) bludgeoning damage and knocks it Prone. Success halves the damage and prevents the fall.\nSpellcasting. Uses Charisma (save DC 15) and its instrument as the only material component. At will: Fog Cloud, Prestidigitation. Three times per day each: Charm Monster, Water Breathing. Once per day each: Control Weather, Disguise Self.",
+        "Bonus Actions": "Bewildering Harmonics. One visible creature within 30 ft. makes a DC 15 Wisdom save. On a failure it is confused through the end of its next turn and cannot take reactions. Roll 1d8 for that turn. On 1–4 it does nothing. On 5–6 it spends all its movement going in a random direction and takes neither an action nor a bonus action. On 7–8 it makes a melee attack against a random creature in reach or does nothing if none is available.\nVentriloquistic Step. Teleport up to 30 ft. to a visible, unoccupied space.",
+        "Reactions": "Cacophonous Note (Recharge 5–6). When a visible creature within 30 ft. succeeds on an attack, check, or save, force it to reroll and use the new result.",
+        "Printed source": "Chapter 8, pp. 237–238"
+      }
+    }
+  },
+  {
+    "name": "Garmr",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 238–239",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Garmr",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Fiend",
+      "ac": 14,
+      "hp": 85,
+      "speed": "50 ft.",
+      "cr": "4",
+      "otherStatistics": "Natural armor. Perception 17, Stealth 12. Immune to necrotic and poison damage, Exhaustion, Paralyzed, and Poisoned. Darkvision 60 ft. Understands Infernal without speaking. Telepathy 60 ft.",
+      "description": "A fiendish hound said to descend from Hel’s own. Its howl can shake stone and help it corner prey underground.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +2, Con +3, Int -1, Wis +3, Cha -1",
+        "Traits": "Maggoty Hide. When a creature within 5 ft. makes a melee attack against the garmr, it makes a DC 13 Dexterity save. If it fails, maggots infest it for 3 (1d6) necrotic damage at the start of each of its turns. It repeats the save at the end of each of its turns to end the infestation. Taking at least 5 acid or fire damage also destroys the maggots. After the creature saves or the maggots are destroyed, it is immune to this trait for 1 hour.\nPack Tactics. Has advantage on an attack if an ally within 5 ft. of the target is not Incapacitated.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing damage plus 7 (2d6) necrotic damage.\nEarth Rending Howl (Recharge 6). Each creature in a 20-ft. cone makes a DC 13 Strength save. Failure deals 17 (5d6) thunder damage and makes it Deafened for 1 minute. Success halves the damage and avoids the condition. Unattended objects and structures take double damage with no save or damage threshold.",
+        "Bonus Actions": "Rotten Shake (Recharge 5–6). Each creature within 5 ft. makes a DC 13 Dexterity save or suffers Maggoty Hide.",
+        "Printed source": "Chapter 8, pp. 238–239"
+      }
+    }
+  },
+  {
+    "name": "Grendelkyn",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 244–245",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Grendelkyn",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Fey",
+      "ac": 16,
+      "hp": 86,
+      "speed": "30 ft., swim 40 ft.",
+      "cr": "4",
+      "otherStatistics": "AC includes Shadow Armor. Perception 14, Stealth 17. Resists poison damage. Immune to cold damage, Charmed, and Frightened. Darkvision 90 ft. Speaks Sylvan.",
+      "description": "A lake-dwelling fey that prowls longhouses after dark. Its mantle of shadow lets it seize prey and move it away unseen.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex +3, Con +6, Int -1, Wis +2, Cha -2",
+        "Traits": "Amphibious. Breathes air and water.\nFey Resilience. The printed trait grants resistance to Charmed and Unconscious. The stat line grants immunity to Charmed.\nShadow Armor. The mantle gives +3 AC, included in the listed AC, and raises Stealth to 22 in dim light or darkness.\nSunlight Sensitivity. In sunlight it rolls checks and attacks with disadvantage, loses Shadow Armor, and cannot use Shadow Snare. Existing snares melt.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack. It can replace Claws with Shadow Snare.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 17 (4d6 + 3) piercing damage. A critical hit makes the target Frightened until the end of the grendelkyn’s next turn.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 14 (2d10 + 3) slashing damage.\nShadow Snare. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 9 (2d8) cold damage. The target makes a DC 14 Dexterity save or becomes Blinded and Restrained for 1 minute. It can repeat the save at the end of each of its turns to escape. The snare also ends if sunlight reaches the target, the grendelkyn dies or becomes Incapacitated, or it chooses to snare another target.",
+        "Bonus Actions": "Shadow Port. Teleport up to 30 ft. to a visible, unoccupied space in dim light or darkness, starting in dim light or darkness. A creature held in Shadow Snare also teleports 30 ft. to an unoccupied space in dim light or darkness within 10 ft. of the grendelkyn. If no such space exists, the grendelkyn releases it when teleporting.",
+        "Reactions": "Frenzied Shriek. When reduced to 43 HP or fewer, the grendelkyn can shriek. Each creature within 20 ft. makes a DC 12 Wisdom save or becomes Frightened for 1 minute, with a repeat save at the end of each of its turns to end the condition.",
+        "Printed source": "Chapter 8, pp. 244–245"
+      }
+    }
+  }
+]

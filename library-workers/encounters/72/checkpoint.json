@@ -1,0 +1,38 @@
+{
+  "commit": "48e21a5c9ecdef5b87e4a961710ea5c669011794",
+  "publication": "Races of Destiny (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "hide": {
+    "withoutCamouflage": 5,
+    "ordinary": 9,
+    "rockyTerrain": 15
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-72-underfolk-species.png",
+  "browser": {
+    "name": "Underfolk",
+    "species": "species-a53c3a83a6ee4a03eb2ce779",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Destiny (2004)"
+    ],
+    "portraitSha256": "f4e4b2cd855a948f6044638b7ab09b637dbfa43176590415a5bdb29ab725e0cb",
+    "caption": "Berren Shalebank · Original Underfolk NPC",
+    "npcReceipts": [
+      {
+        "name": "Berren Shalebank",
+        "id": "npc-fcaf382840571d7ad12c1e96",
+        "challenge": "Provisional CR 1/2. ECL 1."
+      },
+      {
+        "name": "Lysa Chalkmark",
+        "id": "npc-be623557067a6d9196ec2b62",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+}

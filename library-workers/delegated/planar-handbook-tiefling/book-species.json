@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Tiefling",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect a Tiefling.",
+      "+2 Dexterity, +2 Intelligence, and −2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Bluff and Hide.",
+      "Cold resistance 5, electricity resistance 5, and fire resistance 5.",
+      "Darkness (Sp) once per day. Caster level equals character level, excluding level adjustment. One touched object produces shadowy illumination for 10 minutes per caster level in a 20-ft. radius. Creatures in the area have concealment (20% miss chance), including against darkvision.",
+      "Automatic languages are Common and Infernal. Bonus languages are Draconic, Dwarven, Elven, Gnome, Goblin, Halfling, and Orc. Favored class Rogue. LA +1. No racial Hit Dice are listed."
+    ]
+  }
+]

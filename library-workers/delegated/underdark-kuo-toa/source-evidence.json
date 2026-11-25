@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Kuo-toa",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Underdark",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel",
+      "Jeff Quick"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "October 2003",
+    "productCode": "620-88581-001-EN",
+    "isbn": "0-7869-3053-5",
+    "printedPages": {
+      "playableSpecies": [
+        15,
+        16,
+        17
+      ],
+      "racialTraits": [
+        16,
+        17
+      ],
+      "illustration": 15,
+      "region": 23
+    },
+    "pdfPageOffset": 1,
+    "coreMonsterReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, p. 15.",
+    "sourceDistinctions": [
+      "The core monster entry confirms the Aquatic subtype. The Monstrous Humanoid type supplies 60-ft. darkvision.",
+      "The Underdark player Light Blindness penalty covers all attacks, saves, and checks in bright light. The core monster uses dazzled after abrupt exposure.",
+      "Adhesive uses Constitution, and the cooperative Lightning Bolt uses the highest participating whip Wisdom. The two original builds use neither the monster bite nor the core creature feat package.",
+      "The racial and regional language lists differ. Both original builds use the racial list, with Common selected as a bonus language.",
+      "Wizards’ collected archive has no Underdark errata file or Kuo-toa racial rules correction."
+    ],
+    "entryId": "species-01e6849c05ec71e07c8cf3ce",
+    "versionKey": "55ef17210653a24c20363c10",
+    "slug": "kuo-toa",
+    "portraitSelection": "generated",
+    "portraitForm": "Lilli Seachild, an original Kuo-toa Fighter with a coated shield",
+    "npcExamples": [
+      "Lilli Seachild",
+      "Rripp Siltwatch"
+    ]
+  }
+]

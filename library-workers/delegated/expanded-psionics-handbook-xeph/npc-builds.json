@@ -1,0 +1,119 @@
+{
+  "builds": [
+    {
+      "id": "xeph-lantern-rigger-35e",
+      "title": "Xeph lantern rigger, Soulknife 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Psionic, Xeph)",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 6,
+      "speed": "30 ft., 40 ft. with Burst",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 15,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Autohypnosis +5",
+        "Climb +4",
+        "Jump +4",
+        "Tumble +5"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Xeph",
+      "traits": [
+        "Studded leather +3, Dexterity +2. Touch 12, flat-footed 13. BAB +0, grapple +1. Fortitude +1, Reflex +4, Will +3.",
+        "+1 racial bonus to saves against powers, spells and spell-like effects. Base saves appear above.",
+        "Improved Initiative. Soulknife bonus feats Weapon Focus (mind blade) and Wild Talent. Reserve 3 PP from Wild Talent and Naturally Psionic. Blade and Burst consume none of that reserve.",
+        "The mind blade has hardness 10 and 10 HP. It dissipates when released. It counts as magic for overcoming damage reduction.",
+        "Racial Burst 3/day. Standard action. Base land speed becomes 40 ft. for 3 rounds, with +4 to Jump from the increased speed. It costs no PP."
+      ],
+      "actions": [
+        "Form mind blade (Su) as a move action. Mind blade +2 melee, 1d6+1 piercing, critical 19–20/×2, reach 5 ft.",
+        "Light crossbow +2 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. range increment. Reload as a move action."
+      ],
+      "tactics": "Ask the party to clear the square before freeing the jammed lantern counterweight. Use Burst to reach the far stair once the platform is clear. Keep the mind blade in hand if needed."
+    },
+    {
+      "id": "xeph-reserve-tracker-35e",
+      "title": "Xeph woodland reserve tracker, Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Psionic, Xeph)",
+      "ac": 16,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "speed": "30 ft., 40 ft. with Burst",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +6",
+        "Jump +3",
+        "Knowledge (nature) +5",
+        "Listen +5",
+        "Move Silently +6",
+        "Spot +5",
+        "Survival +5"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Xeph, Sylvan",
+      "traits": [
+        "Studded leather +3, Dexterity +3. Touch 13, flat-footed 13. BAB +1, grapple +1. Fortitude +3, Reflex +5, Will +1.",
+        "+1 racial bonus to saves against powers, spells and spell-like effects. Base saves appear above.",
+        "Track, Wild Empathy +0, and Point Blank Shot. Favored enemy animals adds +2 to weapon damage and to Bluff, Listen, Sense Motive, Spot, and Survival checks against animals.",
+        "Naturally Psionic supplies a 1 PP reserve. Burst is independent of it.",
+        "Racial Burst 3/day. Standard action. Base land speed becomes 40 ft. for 3 rounds, with +4 to Jump from the increased speed. It costs no PP."
+      ],
+      "actions": [
+        "Longbow +4 ranged, 1d8 piercing, critical ×3, 100-ft. range increment. Within 30 ft., Point Blank Shot gives +5 attack and 1d8+1 damage. Add +2 damage against animals.",
+        "Short sword +1 melee, 1d6 piercing, critical 19–20/×2, reach 5 ft. Add +2 damage against animals."
+      ],
+      "tactics": "Follow the wolf’s track to the reserve boundary. Keep the party from crowding it, then loop ahead with Burst to flag the snare line before the wolf reaches it."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Xeph",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Expanded Psionics Handbook (2004)",
+      "name": "Rovan Threadglass",
+      "build": "xeph-lantern-rigger-35e",
+      "role": "Festival rigging keeper and apprentice Soulknife.",
+      "motive": "Bring the festival lanterns down before a jammed counterweight tears free.",
+      "hook": "Rovan can reach the far stair if the party clears the square and holds the loose line."
+    },
+    {
+      "species": "Xeph",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Expanded Psionics Handbook (2004)",
+      "name": "Miren Trackweft",
+      "build": "xeph-reserve-tracker-35e",
+      "role": "Woodland reserve tracker and wildlife keeper.",
+      "motive": "Find a lost wolf before it blunders into someone else’s snare line.",
+      "hook": "Miren can identify where the wolf doubled back if the party keeps the last reliable tracks clear."
+    }
+  ]
+}

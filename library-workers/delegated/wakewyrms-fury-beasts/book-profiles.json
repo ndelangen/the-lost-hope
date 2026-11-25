@@ -1,0 +1,481 @@
+[
+  {
+    "name": "Young Wakewyrm",
+    "kind": "beast",
+    "publication": "Humblewood: The Wakewyrm's Fury",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "size": "Large",
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "armorClass": 15,
+      "hitPoints": 68,
+      "hitDice": "8d10 + 24",
+      "challenge": "2",
+      "xp": 450,
+      "speed": {
+        "walk": 30
+      },
+      "abilities": {
+        "Str": 16,
+        "Dex": 16,
+        "Con": 17,
+        "Int": 3,
+        "Wis": 10,
+        "Cha": 5
+      },
+      "passivePerception": 10,
+      "armorClassNote": "Natural armor",
+      "habitats": [
+        "Tideswell Cave",
+        "Talongrip Coast"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 5,
+          "mode": "Melee Weapon Attack",
+          "reach": 10,
+          "damage": [
+            {
+              "average": 10,
+              "type": "piercing",
+              "dice": "2d6 + 3"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A juvenile eel-like sea reptile with side fins and small spines along its back.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Hold Breath",
+          "effectNote": "Can hold its breath for 1 hour."
+        }
+      ],
+      "Bonus Actions": [
+        {
+          "name": "Plaintive Cry",
+          "effectNote": "The juvenile calls for its mother. If she is within 150 ft. and can hear it, she can use her reaction to move up to her speed toward the juvenile."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "effectNote": "The juvenile makes two Bite attacks.",
+          "attackCount": 2
+        },
+        {
+          "name": "Bite",
+          "effectNote": "One creature takes 10 (2d6 + 3) piercing damage on a hit.",
+          "toHit": 5,
+          "reachFeet": 10,
+          "damageRolls": [
+            {
+              "diceCount": 2,
+              "die": 6,
+              "bonus": 3,
+              "damageType": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "The adventure shows the juvenile swimming in Tideswell Cave. The card prints one speed of 30 ft. without a separate swim speed.",
+      "In the Wakewyrm’s Pool encounter, a DC 16 Wisdom (Animal Handling) check calms the juvenile. It lashes out at creatures in bite range if they fail to calm it. See adventure booklet p. 8.",
+      "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 5."
+    ]
+  },
+  {
+    "name": "Wakewyrm",
+    "kind": "beast",
+    "publication": "Humblewood: The Wakewyrm's Fury",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "size": "Huge",
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "armorClass": 16,
+      "hitPoints": 136,
+      "hitDice": "13d12 + 52",
+      "challenge": "6",
+      "xp": 2300,
+      "speed": {
+        "walk": 20,
+        "swim": 50
+      },
+      "abilities": {
+        "Str": 20,
+        "Dex": 14,
+        "Con": 18,
+        "Int": 3,
+        "Wis": 12,
+        "Cha": 3
+      },
+      "passivePerception": 11,
+      "armorClassNote": "Natural armor",
+      "habitats": [
+        "Talongrip Coast"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 8,
+          "mode": "Melee Weapon Attack",
+          "reach": 20,
+          "damage": [
+            {
+              "average": 15,
+              "type": "piercing",
+              "dice": "3d6 + 5"
+            }
+          ]
+        },
+        {
+          "name": "Tail",
+          "hitBonus": 8,
+          "mode": "Melee Weapon Attack",
+          "reach": 25,
+          "damage": [
+            {
+              "average": 18,
+              "type": "bludgeoning",
+              "dice": "3d8 + 5"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "An immense sea reptile with a long eel-like body and a spined ridge.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Hold Breath",
+          "effectNote": "Can hold its breath for 1 hour."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "effectNote": "One Bite and one Tail attack, or two Bites.",
+          "attackCount": 2
+        },
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 15 (3d6 + 5) piercing damage on a hit and is grappled on a failed save (escape DC 16). The wakewyrm can grapple only one creature. While holding that creature it cannot bite another.",
+          "toHit": 8,
+          "reachFeet": 20,
+          "saves": [
+            {
+              "ability": "Strength",
+              "dc": 16
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 6,
+              "bonus": 5,
+              "damageType": "piercing"
+            }
+          ]
+        },
+        {
+          "name": "Tail",
+          "effectNote": "One target takes 18 (3d8 + 5) bludgeoning damage on a hit.",
+          "toHit": 8,
+          "reachFeet": 25,
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 8,
+              "bonus": 5,
+              "damageType": "bludgeoning"
+            }
+          ]
+        },
+        {
+          "name": "Swallow",
+          "effectNote": "The wakewyrm bites a Large or smaller creature it is grappling. On a hit the creature is swallowed and the grapple ends. The swallowed creature is blinded, restrained, and has total cover from outside effects. It takes 11 (3d6) acid damage at the start of each wakewyrm turn. If the wakewyrm takes at least 18 damage from a creature inside, it saves at the end of that turn or expels all swallowed creatures prone within 10 ft. When it dies, swallowed creatures are freed from restraint and can escape by spending 20 ft. of movement.",
+          "saves": [
+            {
+              "ability": "Constitution",
+              "dc": 15
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 6,
+              "bonus": 0,
+              "damageType": "acid"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "The adult lingers near the coast while searching for its offspring. After death its body floats for several hours before sinking.",
+      "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 5."
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "kind": "beast",
+    "publication": "Humblewood: The Wakewyrm's Fury",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "size": "Large",
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "armorClass": 12,
+      "hitPoints": 45,
+      "hitDice": "6d10 + 12",
+      "challenge": "2",
+      "xp": 450,
+      "speed": {
+        "walk": 0,
+        "swim": 40
+      },
+      "abilities": {
+        "Str": 18,
+        "Dex": 13,
+        "Con": 15,
+        "Int": 1,
+        "Wis": 10,
+        "Cha": 4
+      },
+      "passivePerception": 12,
+      "armorClassNote": "Natural armor",
+      "skills": {
+        "Perception": 2
+      },
+      "senses": [
+        "Blindsight 30 ft."
+      ],
+      "habitats": [
+        "Talongrip Coast",
+        "Coastal waters"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 6,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 13,
+              "type": "piercing",
+              "dice": "2d8 + 4"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A large gray hunting shark with a pale belly and an exposed row of teeth.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Blood Frenzy",
+          "effectNote": "The shark has advantage on melee attack rolls against a creature below its hit-point maximum."
+        },
+        {
+          "name": "Water Breathing",
+          "effectNote": "The shark can breathe only underwater."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 13 (2d8 + 4) piercing damage on a hit.",
+          "toHit": 6,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 2,
+              "die": 8,
+              "bonus": 4,
+              "damageType": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "The adventure uses three hunter sharks near the cave mouth at high tide. See adventure booklet p. 5.",
+      "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 5."
+    ]
+  },
+  {
+    "name": "Boar",
+    "kind": "beast",
+    "publication": "Humblewood: The Wakewyrm's Fury",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "size": "Medium",
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "armorClass": 11,
+      "hitPoints": 11,
+      "hitDice": "2d8 + 2",
+      "challenge": "1/4",
+      "xp": 50,
+      "speed": {
+        "walk": 40
+      },
+      "abilities": {
+        "Str": 13,
+        "Dex": 11,
+        "Con": 12,
+        "Int": 2,
+        "Wis": 9,
+        "Cha": 5
+      },
+      "passivePerception": 9,
+      "armorClassNote": "Natural armor",
+      "skills": {
+        "Perception": 2
+      },
+      "attacks": [
+        {
+          "name": "Tusk",
+          "hitBonus": 3,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 4,
+              "type": "slashing",
+              "dice": "1d6 + 1"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A bristly wild pig with a high shoulder line and upturned tusks.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Charge",
+          "effectNote": "If the boar moves 20 ft. or more straight toward a target before hitting it with Tusk on the same turn, it deals an extra 3 (1d6) slashing damage. A creature hit also falls prone on a failed save.",
+          "saves": [
+            {
+              "ability": "Strength",
+              "dc": 11
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 6,
+              "bonus": 0,
+              "damageType": "slashing"
+            }
+          ]
+        },
+        {
+          "name": "Relentless",
+          "effectNote": "If taking 7 damage or less would reduce the boar to 0 HP, it drops to 1 HP instead.",
+          "usage": [
+            "Recharges after a short or long rest"
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Tusk",
+          "effectNote": "One target takes 4 (1d6 + 1) slashing damage on a hit.",
+          "toHit": 3,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 6,
+              "bonus": 1,
+              "damageType": "slashing"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Printed as a Wild Shape option for the pregenerated druid. The card lists Perception +2 and passive Perception 9.",
+      "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 6."
+    ]
+  },
+  {
+    "name": "Weasel",
+    "kind": "beast",
+    "publication": "Humblewood: The Wakewyrm's Fury",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "size": "Tiny",
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "armorClass": 13,
+      "hitPoints": 1,
+      "hitDice": "1d4 - 1",
+      "challenge": "0",
+      "xp": 10,
+      "speed": {
+        "walk": 30
+      },
+      "abilities": {
+        "Str": 3,
+        "Dex": 16,
+        "Con": 8,
+        "Int": 2,
+        "Wis": 12,
+        "Cha": 3
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 5,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 1,
+              "type": "piercing"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A slim, short-legged mustelid with a pointed muzzle.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Keen Hearing and Smell",
+          "effectNote": "Advantage on Wisdom (Perception) checks based on hearing or smell."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 1 piercing damage on a hit.",
+          "toHit": 5,
+          "reachFeet": 5
+        }
+      ]
+    },
+    "notes": [
+      "Printed as a Wild Shape option for the pregenerated druid.",
+      "Hit Point Press, The Wakewyrm's Fury, Reference Cards, p. 7."
+    ]
+  }
+]

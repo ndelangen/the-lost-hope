@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Duskling",
+    "kind": "species",
+    "group": "Fifth edition",
+    "groups": [
+      "Fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "6c33b3e1f03d9f67f85cbecd",
+      "publication": "Magic of Incarnum (2005)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144462M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Fey (Extraplanar, Incarnum)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Fey with the Incarnum subtype. +2 Constitution, −2 Intelligence. Base land speed 30 ft. Low-light vision doubles human range with color and detail.",
+            "Effects that specifically target humanoids, such as charm person, cannot target a Duskling. The species chooses a fixed home plane at character creation with DM approval. On the Material Plane it has the Extraplanar subtype.",
+            "The Incarnum subtype marks eligibility for targeted effects. The permanent racial essentia pool increases by 1, or starts at 1 if the character has no other source.",
+            "Racial movement gives a +5-ft. enhancement bonus to land speed per invested essentia. It applies with light or no armor and a light load.",
+            "Reallocate essentia among the eligible investments as a swift action on your turn. Pool size and the capacity of each investment are separate.",
+            "Normal capacity per investment is 1 at character levels 1–5, 2 at 6–11, 3 at 12–17, and 4 at 18–20.",
+            "Common and Sylvan are automatic. Bonus languages are Elf (the book’s name for Elven), Gnoll, Gnome, Goblin, and Halfling. Favored class Totemist. The published examples list LA +0 and use class Hit Dice.",
+            "The optional 1st-level Duskling Barbarian substitution uses a d10 Hit Die. Incarnum Speed replaces Fast Movement. Each invested point gives +10 ft. enhancement to base land speed with up to medium armor and load and +2 insight on initiative checks. The two enhancement bonuses to speed do not stack.",
+            "The optional d10 Barbarian substitutions at 7th and 11th level grant Incarnum Defense and Incarnum Rage respectively. Defense replaces Barbarian damage reduction and gives DR 1/— plus resistance 1 to each energy type per point. Incarnum Rage replaces Greater Rage and grants 2 essentia during rage. Greater Rage then replaces Mighty Rage if reached."
+          ]
+        },
+        {
+          "title": "Original NPC · Iriavel Solthenar",
+          "lines": [
+            "Ropeway guide and Totemist.",
+            "Motive. Carry a line past the snapped ropeway anchor before the next storm.",
+            "Hook. Iriavel can cross the broken span and set a guide rope if the party braces the anchor.",
+            "Duskling ropeway guide, Totemist 1 · Provisional CR 1. ECL 1. · Medium Fey (Extraplanar, Incarnum)",
+            "AC 15 · HP 11 (1d8+3) · Speed 35 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Darevia Thalliar",
+          "lines": [
+            "Forest corridor watch and Barbarian.",
+            "Motive. Find a delayed family before the forest corridor closes for the night.",
+            "Hook. Darevia can lead the party between clearings and hold the corridor long enough for the family to cross.",
+            "Duskling forest corridor watch, Barbarian 1 substitution · Provisional CR 1. ECL 1. · Medium Fey (Extraplanar, Incarnum)",
+            "AC 14 · HP 13 (1d10+3) · Speed 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Iriavel Solthenar": [
+          {
+            "start": 15,
+            "end": 32,
+            "target": {
+              "name": "Iriavel Solthenar",
+              "group": "Duskling",
+              "publication": "Duskling ropeway guide, Totemist 1",
+              "local": {
+                "entry": "npc-65d10aed45cf000a48824318",
+                "version": "99ef9727d27249812e29a2ba"
+              }
+            }
+          }
+        ],
+        "Original NPC · Darevia Thalliar": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Darevia Thalliar",
+              "group": "Duskling",
+              "publication": "Duskling forest corridor watch, Barbarian 1 substitution",
+              "local": {
+                "entry": "npc-68f582b69dc689ea7e4d526d",
+                "version": "6e38adbca92ae4f8168be5ce"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "caccd65f86368ab6d5e4ba8c",
+        "publication": "D&D Beyond Drops",
+        "edition": "Fifth edition",
+        "source": "https://www.dndbeyond.com/species/2209617-duskling",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/58709/735/340/340/639240585368232920.png",
+        "images": [],
+        "stats": [],
+        "sections": []
+      }
+    ],
+    "queries": {
+      "Duskling": true,
+      "duskling essentia pool": true,
+      "duskling incarnum speed": true,
+      "duskling ropeway guide": true,
+      "duskling forest corridor watch": true
+    },
+    "hash": "2db51ee9fd7c0b2038a4a193fbb75eeff82803aa73d7ca093b9960ada4769b6d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Magic of Incarnum (2005)",
+    "defaultVersionKey": "6c33b3e1f03d9f67f85cbecd",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

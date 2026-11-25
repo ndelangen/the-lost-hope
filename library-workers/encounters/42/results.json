@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Bigger Mimic",
+    "source": "https://www.dndbeyond.com/monsters/4485786-bigger-mimic",
+    "challenge": "4",
+    "entry": "monster-40ce0bb7460dc49772bbe1de",
+    "version": "2877abdcaacf4867b09b098d",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "bigger-mimic",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "d18e819ac74a5c5570e05d5f8c14edddee0cf6ff634a3281972156b31a743eed",
+    "status": "Stat block",
+    "appearance": "An amorphous predator that can imitate a building or a stone doorway, opening into a tooth-lined maw.",
+    "habitats": [
+      "Settlements",
+      "Roadside buildings",
+      "Ruins"
+    ]
+  },
+  {
+    "name": "Mimic (MCDM)",
+    "source": "https://www.dndbeyond.com/monsters/4485947-mimic-mcdm",
+    "challenge": "2",
+    "entry": "monster-569c2548b9d6d014c3c6211a",
+    "version": "89c005f7112c2090d9487276",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "mimic",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "8821101a76a2e71010e1b333e56003c394fad44876120f627b15b703235cb105",
+    "status": "Stat block",
+    "appearance": "An amorphous shapechanger that can resemble an oak chest or other object, then reveal a toothy maw and reaching pseudopods.",
+    "habitats": [
+      "Dungeons",
+      "Markets",
+      "Forests",
+      "Cliffs"
+    ]
+  }
+]

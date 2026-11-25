@@ -1,0 +1,2423 @@
+[
+  {
+    "name": "Diopsid",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "cats": [
+      {
+        "id": "beast-77af778b51abd4a3c51c5ddd",
+        "name": "Cat",
+        "kind": "beast",
+        "group": "Beast",
+        "groups": [
+          "Beast",
+          "Animal"
+        ],
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "versions": [
+          {
+            "key": "51f361d896ef306925946548",
+            "publication": "Basic Rules (2018)",
+            "edition": "2014 fifth edition",
+            "status": "Combat summary",
+            "images": [],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Size",
+                "Tiny"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "walk 40 ft., climb 30 ft."
+              ],
+              [
+                "Str",
+                "3"
+              ],
+              [
+                "Dex",
+                "15"
+              ],
+              [
+                "Con",
+                "10"
+              ],
+              [
+                "Int",
+                "3"
+              ],
+              [
+                "Wis",
+                "12"
+              ],
+              [
+                "Cha",
+                "7"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Attacks",
+                "lines": [
+                  "Claws · melee · +0 to hit · reach 5 ft. · 1 slashing"
+                ]
+              }
+            ],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "ddd5b3cc02c297606cb19d64",
+            "publication": "Black Flag Roleplaying Reference Document v0.2",
+            "edition": "Black Flag Roleplaying",
+            "status": "Combat summary",
+            "images": [],
+            "stats": [
+              [
+                "Armor class",
+                "11"
+              ],
+              [
+                "Hit points",
+                "8"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "0 4 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft., 6 , ft., 7   ft., 8 c ft., 9 l ft., 10 i ft., 11 m ft., 12 b ft., 13   ft., 14 3 ft., 15 0 ft., 16   ft., 17 f ft., 18 t ft., 19 . ft."
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Attacks",
+                "lines": [
+                  "Claws · melee"
+                ]
+              }
+            ],
+            "inline": {
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "490fed338ba33343d1aceb62",
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "description": "A Tiny beast with challenge rating 0. Listed habitats: grassland, forest, urban, desert. Named abilities include Keen Smell, Claws.",
+            "source": "https://5e.tools/bestiary.html#cat_mm",
+            "status": "Encounter reference",
+            "images": [
+              {
+                "url": "",
+                "credit": "Monster Manual (2014)"
+              }
+            ],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Size",
+                "Tiny"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "walk 40 ft., climb 30 ft."
+              ],
+              [
+                "Passive Perception",
+                "13"
+              ],
+              [
+                "Initiative",
+                "2"
+              ],
+              [
+                "Strength",
+                "3"
+              ],
+              [
+                "Dexterity",
+                "15"
+              ],
+              [
+                "Constitution",
+                "10"
+              ],
+              [
+                "Intelligence",
+                "3"
+              ],
+              [
+                "Wisdom",
+                "12"
+              ],
+              [
+                "Charisma",
+                "7"
+              ],
+              [
+                "Alignment",
+                "unaligned"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Attacks",
+                "lines": [
+                  "Claws · melee · +0 to hit · reach 5 ft. · 1 slashing"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Perception +3, Stealth +4"
+                ]
+              },
+              {
+                "title": "Habitats",
+                "lines": [
+                  "grassland, forest, urban, desert"
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Keen Smell · Perception"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Claws · Melee attack · +0 to hit · 1 slashing damage · reach 5 ft."
+                ]
+              }
+            ],
+            "sourceCode": "MM",
+            "page": 320,
+            "references": [
+              {
+                "label": "Monster Manual (2014), p. 320",
+                "url": "https://5e.tools/bestiary.html#cat_mm"
+              },
+              {
+                "label": "Perception (skill)",
+                "url": "https://5e.tools/skills.html#perception_phb",
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                },
+                "preview": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Initiative": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Initiative",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 369,
+                    "local": {
+                      "entry": "compendium-f7647d543d6e04bd0782c504",
+                      "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Perception +3, Stealth +4": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 15,
+                  "end": 22,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 177,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                    }
+                  }
+                }
+              ],
+              "Keen Smell · Perception": [
+                {
+                  "start": 13,
+                  "end": 23,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "603ea0174b9704ad8d38a068",
+            "publication": "Monster Manual (2024)",
+            "edition": "2024 fifth edition",
+            "description": "A Tiny beast with challenge rating 0. Listed habitats: desert, forest, grassland, urban. Named abilities include Jumper, Scratch.",
+            "source": "https://5e.tools/bestiary.html#cat_xmm",
+            "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43939/81/1000/1000/638607414147450285.png",
+            "status": "Encounter reference",
+            "images": [
+              {
+                "url": "",
+                "credit": "Monster Manual (2024)"
+              },
+              {
+                "url": "",
+                "credit": "Monster Manual (2024)"
+              },
+              {
+                "url": "",
+                "credit": "Monster Manual (2024)"
+              },
+              {
+                "url": "",
+                "credit": "Monster Manual (2024)"
+              }
+            ],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Size",
+                "Tiny"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "walk 40 ft., climb 40 ft."
+              ],
+              [
+                "Passive Perception",
+                "13"
+              ],
+              [
+                "Strength",
+                "3"
+              ],
+              [
+                "Dexterity",
+                "15"
+              ],
+              [
+                "Constitution",
+                "10"
+              ],
+              [
+                "Intelligence",
+                "3"
+              ],
+              [
+                "Wisdom",
+                "12"
+              ],
+              [
+                "Charisma",
+                "7"
+              ],
+              [
+                "Alignment",
+                "unaligned"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Saving throws",
+                "lines": [
+                  "Dex +4",
+                  "Dexterity +4"
+                ]
+              },
+              {
+                "title": "Habitats",
+                "lines": [
+                  "desert",
+                  "forest",
+                  "grassland",
+                  "urban",
+                  "desert, forest, grassland, urban"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Perception +3, Stealth +4"
+                ]
+              },
+              {
+                "title": "Senses",
+                "lines": [
+                  "Darkvision 60 ft."
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Jumper"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Scratch · Melee attack · +4 to hit · 1 Slashing damage · reach 5 ft."
+                ]
+              },
+              {
+                "title": "Lore topics in the source",
+                "lines": [
+                  "Animals"
+                ]
+              }
+            ],
+            "sourceCode": "XMM",
+            "references": [
+              {
+                "label": "Monster Manual (2025), p. 351",
+                "url": "https://5e.tools/bestiary.html#cat_xmm"
+              },
+              {
+                "label": "Panther (creature)",
+                "url": "https://5e.tools/bestiary.html#panther_xmm",
+                "local": {
+                  "entry": "beast-346793476af7c0a55cfa62ab",
+                  "version": "b2bb83792ec748263d8b7b46"
+                },
+                "preview": {
+                  "name": "Panther",
+                  "group": "Beast",
+                  "publication": "Monster Manual (2024)",
+                  "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+                  "local": {
+                    "entry": "beast-346793476af7c0a55cfa62ab",
+                    "version": "b2bb83792ec748263d8b7b46"
+                  }
+                }
+              },
+              {
+                "label": "Giant Goat (creature)",
+                "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+                "local": {
+                  "entry": "beast-6f3ba88f8055270588c02a34",
+                  "version": "426fa41934a075969d8d0faf"
+                },
+                "preview": {
+                  "name": "Giant Goat",
+                  "group": "Beast",
+                  "publication": "Monster Manual (2024)",
+                  "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+                  "local": {
+                    "entry": "beast-6f3ba88f8055270588c02a34",
+                    "version": "426fa41934a075969d8d0faf"
+                  }
+                }
+              }
+            ],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Perception +3, Stealth +4": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 15,
+                  "end": 22,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                    }
+                  }
+                }
+              ],
+              "Darkvision 60 ft.": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Darkvision",
+                    "group": "Senses",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 365,
+                    "local": {
+                      "entry": "compendium-7acfde2bf83729872c25017b",
+                      "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "aafc7e78898497ac82b3bbad",
+            "publication": "Monster Vault",
+            "edition": "Black Flag Roleplaying",
+            "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+            "images": [],
+            "stats": [
+              [
+                "Challenge",
+                "0.0"
+              ],
+              [
+                "Type",
+                "Beast"
+              ]
+            ],
+            "sections": []
+          },
+          {
+            "key": "4491a4c85f4d8a6758560255",
+            "publication": "Player's Handbook (2014)",
+            "edition": "2014 fifth edition",
+            "status": "Combat summary",
+            "images": [],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Size",
+                "Tiny"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "walk 40 ft."
+              ]
+            ],
+            "sections": [],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "8febf4bc9b67e49bc9e05a22",
+            "publication": "Revised v3.5 SRD (Monsters)",
+            "edition": "3.5 edition",
+            "images": [],
+            "stats": [
+              [
+                "Challenge",
+                "1/4"
+              ],
+              [
+                "Type",
+                "Animal"
+              ]
+            ],
+            "sections": []
+          },
+          {
+            "key": "62893b628f8f2ef167b73dcc",
+            "publication": "SRD 5.1",
+            "edition": "2014 fifth edition",
+            "status": "Stat block",
+            "images": [],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "40 ft., climb 30 ft."
+              ],
+              [
+                "XP",
+                "10"
+              ],
+              [
+                "Str",
+                "3"
+              ],
+              [
+                "Dex",
+                "15"
+              ],
+              [
+                "Con",
+                "10"
+              ],
+              [
+                "Int",
+                "3"
+              ],
+              [
+                "Wis",
+                "12"
+              ],
+              [
+                "Cha",
+                "7"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Classification",
+                "lines": [
+                  "Tiny beast, unaligned"
+                ]
+              },
+              {
+                "title": "Other statistics",
+                "lines": [
+                  "Skills Perception +3, Stealth +4 Senses passive Perception 13 Languages —"
+                ]
+              },
+              {
+                "title": "Traits",
+                "lines": [
+                  "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell."
+                ]
+              },
+              {
+                "title": "Actions",
+                "lines": [
+                  "Claws. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
+                ]
+              }
+            ],
+            "inline": {
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Skills Perception +3, Stealth +4 Senses passive Perception 13 Languages —": [
+                {
+                  "start": 7,
+                  "end": 17,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 22,
+                  "end": 29,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 177,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 48,
+                  "end": 58,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                }
+              ],
+              "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell.": [
+                {
+                  "start": 24,
+                  "end": 33,
+                  "target": {
+                    "name": "Advantage",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 173,
+                    "description": "Roll two d20s and use the higher roll.",
+                    "local": {
+                      "entry": "compendium-694118169b5a4aef2291ff71",
+                      "version": "PHB:173:https://5e.tools/book.html#PHB"
+                    }
+                  }
+                },
+                {
+                  "start": 45,
+                  "end": 55,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                }
+              ],
+              "Claws. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 slashing damage.": [
+                {
+                  "start": 13,
+                  "end": 26,
+                  "target": {
+                    "name": "Weapon Attack",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 377,
+                    "local": {
+                      "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                      "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "cf65cd70ccd13ceefda2256c",
+            "publication": "SRD 5.2.1",
+            "edition": "2024 fifth edition",
+            "status": "Stat block",
+            "images": [],
+            "stats": [
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Type",
+                "Beast"
+              ],
+              [
+                "Speed",
+                "40 ft., Climb 40 ft."
+              ],
+              [
+                "XP",
+                "10"
+              ],
+              [
+                "Str",
+                "3"
+              ],
+              [
+                "Dex",
+                "15"
+              ],
+              [
+                "Con",
+                "10"
+              ],
+              [
+                "Int",
+                "3"
+              ],
+              [
+                "Wis",
+                "12"
+              ],
+              [
+                "Cha",
+                "7"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Classification",
+                "lines": [
+                  "Tiny Beast, Unaligned"
+                ]
+              },
+              {
+                "title": "Other statistics",
+                "lines": [
+                  "Skills Perception +3, Stealth +4 Senses Darkvision 60 ft.; Passive Perception 13 Languages None"
+                ]
+              },
+              {
+                "title": "Traits",
+                "lines": [
+                  "Jumper. The cat’s jump distance is determined using its Dexterity rather than its Strength."
+                ]
+              },
+              {
+                "title": "Actions",
+                "lines": [
+                  "Scratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage."
+                ]
+              }
+            ],
+            "inline": {
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Skills Perception +3, Stealth +4 Senses Darkvision 60 ft.; Passive Perception 13 Languages None": [
+                {
+                  "start": 7,
+                  "end": 17,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 22,
+                  "end": 29,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 40,
+                  "end": 50,
+                  "target": {
+                    "name": "Darkvision",
+                    "group": "Senses",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 365,
+                    "local": {
+                      "entry": "compendium-7acfde2bf83729872c25017b",
+                      "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 59,
+                  "end": 77,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Scratch. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Slashing damage.": [
+                {
+                  "start": 15,
+                  "end": 26,
+                  "target": {
+                    "name": "Attack Roll",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 361,
+                    "local": {
+                      "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                      "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "image": {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        }
+      },
+      {
+        "id": "monster-77af778b51abd4a3c51c5ddd",
+        "name": "Cat",
+        "kind": "monster",
+        "group": "Unclassified",
+        "groups": [
+          "Unclassified"
+        ],
+        "images": [
+          {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          }
+        ],
+        "versions": [
+          {
+            "key": "MM:320:https://5e.tools/bestiary.html#cat_mm",
+            "publication": "Monster Manual (2014)",
+            "sourceCode": "MM",
+            "edition": "2014 fifth edition",
+            "page": 320,
+            "source": "https://5e.tools/bestiary.html#cat_mm",
+            "description": "A Tiny beast with challenge rating 0. Listed habitats: grassland, forest, urban, desert. Named abilities include Keen Smell, Claws.",
+            "references": [
+              {
+                "label": "Perception (skill)",
+                "url": "https://5e.tools/skills.html#perception_phb",
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                },
+                "preview": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "stats": [
+              [
+                "Type",
+                "beast"
+              ],
+              [
+                "Size",
+                "Tiny"
+              ],
+              [
+                "Alignment",
+                "unaligned"
+              ],
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Speed",
+                "walk 40 ft., climb 30 ft."
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Strength",
+                "3"
+              ],
+              [
+                "Dexterity",
+                "15"
+              ],
+              [
+                "Constitution",
+                "10"
+              ],
+              [
+                "Intelligence",
+                "3"
+              ],
+              [
+                "Wisdom",
+                "12"
+              ],
+              [
+                "Charisma",
+                "7"
+              ],
+              [
+                "Passive Perception",
+                "13"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Skills",
+                "lines": [
+                  "Perception +3, Stealth +4"
+                ]
+              },
+              {
+                "title": "Habitats",
+                "lines": [
+                  "grassland, forest, urban, desert"
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Keen Smell · Perception"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Claws · Melee attack · +0 to hit · 1 slashing damage · reach 5 ft."
+                ]
+              }
+            ],
+            "status": "Encounter reference",
+            "images": [],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Perception +3, Stealth +4": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                },
+                {
+                  "start": 15,
+                  "end": 22,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 177,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                    }
+                  }
+                }
+              ],
+              "Keen Smell · Perception": [
+                {
+                  "start": 13,
+                  "end": 23,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2014)",
+                    "page": 178,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "XMM:351:https://5e.tools/bestiary.html#cat_xmm",
+            "publication": "Monster Manual (2025)",
+            "sourceCode": "XMM",
+            "edition": "2024 fifth edition",
+            "page": 351,
+            "source": "https://5e.tools/bestiary.html#cat_xmm",
+            "description": "A Tiny beast with challenge rating 0. Listed habitats: desert, forest, grassland, urban. Named abilities include Jumper, Scratch.",
+            "references": [
+              {
+                "label": "Panther (creature)",
+                "url": "https://5e.tools/bestiary.html#panther_xmm",
+                "local": {
+                  "entry": "beast-346793476af7c0a55cfa62ab",
+                  "version": "b2bb83792ec748263d8b7b46"
+                },
+                "preview": {
+                  "name": "Panther",
+                  "group": "Beast",
+                  "publication": "Monster Manual (2024)",
+                  "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+                  "local": {
+                    "entry": "beast-346793476af7c0a55cfa62ab",
+                    "version": "b2bb83792ec748263d8b7b46"
+                  }
+                }
+              },
+              {
+                "label": "Giant Goat (creature)",
+                "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+                "local": {
+                  "entry": "beast-6f3ba88f8055270588c02a34",
+                  "version": "426fa41934a075969d8d0faf"
+                },
+                "preview": {
+                  "name": "Giant Goat",
+                  "group": "Beast",
+                  "publication": "Monster Manual (2024)",
+                  "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+                  "local": {
+                    "entry": "beast-6f3ba88f8055270588c02a34",
+                    "version": "426fa41934a075969d8d0faf"
+                  }
+                }
+              }
+            ],
+            "stats": [
+              [
+                "Type",
+                "beast"
+              ],
+              [
+                "Size",
+                "Tiny"
+              ],
+              [
+                "Alignment",
+                "unaligned"
+              ],
+              [
+                "Armor class",
+                "12"
+              ],
+              [
+                "Hit points",
+                "2"
+              ],
+              [
+                "Hit dice",
+                "1d4"
+              ],
+              [
+                "Speed",
+                "walk 40 ft., climb 40 ft."
+              ],
+              [
+                "Challenge",
+                "0"
+              ],
+              [
+                "Strength",
+                "3"
+              ],
+              [
+                "Dexterity",
+                "15"
+              ],
+              [
+                "Constitution",
+                "10"
+              ],
+              [
+                "Intelligence",
+                "3"
+              ],
+              [
+                "Wisdom",
+                "12"
+              ],
+              [
+                "Charisma",
+                "7"
+              ],
+              [
+                "Passive Perception",
+                "13"
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Saving throws",
+                "lines": [
+                  "Dexterity +4"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Perception +3, Stealth +4"
+                ]
+              },
+              {
+                "title": "Senses",
+                "lines": [
+                  "Darkvision 60 ft."
+                ]
+              },
+              {
+                "title": "Habitats",
+                "lines": [
+                  "desert, forest, grassland, urban"
+                ]
+              },
+              {
+                "title": "Traits reference",
+                "lines": [
+                  "Jumper"
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Scratch · Melee attack · +4 to hit · 1 Slashing damage · reach 5 ft."
+                ]
+              },
+              {
+                "title": "Lore topics in the source",
+                "lines": [
+                  "Animals"
+                ]
+              }
+            ],
+            "status": "Encounter reference",
+            "images": [],
+            "inline": {
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Alignment": [
+                {
+                  "start": 0,
+                  "end": 9,
+                  "target": {
+                    "name": "Alignment",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Passive Perception": [
+                {
+                  "start": 0,
+                  "end": 18,
+                  "target": {
+                    "name": "Passive Perception",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                    }
+                  }
+                }
+              ],
+              "Perception +3, Stealth +4": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Perception",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-f21bfeaccf140efabf3793fe",
+                      "version": "XPHB:14:https://5e.tools/skills.html#perception_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 15,
+                  "end": 22,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                    }
+                  }
+                }
+              ],
+              "Darkvision 60 ft.": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Darkvision",
+                    "group": "Senses",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 365,
+                    "local": {
+                      "entry": "compendium-7acfde2bf83729872c25017b",
+                      "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "key": "948cff9c56503e323720e96f",
+            "publication": "Denizens of Darkness",
+            "edition": "3.0 edition",
+            "images": [],
+            "stats": [],
+            "sections": []
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "image": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      },
+      {
+        "id": "monster-576a02e9dc77567030c8564a",
+        "name": "Cat Form",
+        "kind": "monster",
+        "group": "Special",
+        "groups": [
+          "Special"
+        ],
+        "images": [
+          {
+            "url": "",
+            "credit": "OpenAI ImageGen · The Lost Hope"
+          },
+          {
+            "url": "",
+            "credit": "Blizzard Entertainment · Druid cat form, night elf model · D&D: World of Warcraft"
+          },
+          {
+            "url": "",
+            "credit": "Blizzard Entertainment · Druid cat form, alternate night elf model · D&D: World of Warcraft"
+          },
+          {
+            "url": "",
+            "credit": "Blizzard Entertainment · Druid cat form, Skyborne model · D&D: World of Warcraft"
+          }
+        ],
+        "versions": [
+          {
+            "key": "74aa71c54095780d7f629e62",
+            "publication": "D&D: World of Warcraft",
+            "edition": "2024 fifth edition",
+            "description": "A Medium special. Named abilities include Pounce, Primal Wrath, Prowl.",
+            "source": "https://5e.tools/bestiary.html#cat%20form_wow",
+            "status": "Scalable profile",
+            "images": [
+              {
+                "url": "",
+                "credit": "Blizzard Entertainment · Druid cat form, night elf model · D&D: World of Warcraft"
+              },
+              {
+                "url": "",
+                "credit": "Blizzard Entertainment · Druid cat form, alternate night elf model · D&D: World of Warcraft"
+              },
+              {
+                "url": "",
+                "credit": "Blizzard Entertainment · Druid cat form, Skyborne model · D&D: World of Warcraft"
+              }
+            ],
+            "stats": [
+              [
+                "Type",
+                "Special"
+              ],
+              [
+                "Size",
+                "Medium"
+              ],
+              [
+                "Armor class",
+                "13 + your Wisdom modifier"
+              ],
+              [
+                "Hit points",
+                "3 times your Druid level"
+              ],
+              [
+                "Speed",
+                "walk 40 ft."
+              ],
+              [
+                "Proficiency bonus",
+                "Your Proficiency Bonus doesn't change."
+              ],
+              [
+                "Strength",
+                "Your Strength and Dexterity scores are equal to your Wisdom score."
+              ],
+              [
+                "Dexterity",
+                "Your Strength and Dexterity scores are equal to your Wisdom score."
+              ],
+              [
+                "Constitution",
+                "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+              ],
+              [
+                "Intelligence",
+                "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+              ],
+              [
+                "Wisdom",
+                "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+              ],
+              [
+                "Charisma",
+                "Your Constitution, Intelligence, Wisdom, and Charisma don't change."
+              ]
+            ],
+            "sections": [
+              {
+                "title": "Scaling inputs",
+                "lines": [
+                  "Cat Form · --spell-attack, --level, --wisdom, --spell-save-dc"
+                ]
+              },
+              {
+                "title": "Skills",
+                "lines": [
+                  "Special You have proficiency in Stealth."
+                ]
+              },
+              {
+                "title": "Senses",
+                "lines": [
+                  "Darkvision 60 ft."
+                ]
+              },
+              {
+                "title": "Languages",
+                "lines": [
+                  "Your languages don't change."
+                ]
+              },
+              {
+                "title": "Actions reference",
+                "lines": [
+                  "Multiattack",
+                  "Pounce · Melee attack · 1d10 · 2d10 · 3d10 · 4d10 · 1d6 slashing damage · 1d6 · 2d6 · 3d6 · 4d6 · 5d6 · 6d6 · reach 5 ft. · Advantage · Prone",
+                  "Primal Wrath · Dexterity save · 2d6 slashing damage · Emanation [Area of Effect]",
+                  "Prowl · Speed · Opportunity Attack · Hide"
+                ]
+              }
+            ],
+            "sourceCode": "WoW",
+            "references": [
+              {
+                "label": "D&D: World of Warcraft",
+                "url": "https://5e.tools/bestiary.html#cat%20form_wow"
+              },
+              {
+                "label": "Stealth (skill)",
+                "url": "https://5e.tools/skills.html#stealth_xphb",
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                },
+                "preview": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                  }
+                }
+              },
+              {
+                "label": "Advantage (rule)",
+                "url": "https://5e.tools/variantrules.html#advantage_xphb",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                },
+                "preview": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                  }
+                }
+              },
+              {
+                "label": "Prone (condition)",
+                "url": "https://5e.tools/conditionsdiseases.html#prone_xphb",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                },
+                "preview": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                  }
+                }
+              },
+              {
+                "label": "Emanation [Area of Effect] (rule)",
+                "url": "https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
+                "terms": [
+                  "Emanation"
+                ],
+                "local": {
+                  "entry": "compendium-a24ba32f829b2e4a9062d127",
+                  "version": "XPHB:366:https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
+                },
+                "preview": {
+                  "name": "Emanation [Area of Effect]",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 366,
+                  "local": {
+                    "entry": "compendium-a24ba32f829b2e4a9062d127",
+                    "version": "XPHB:366:https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
+                  }
+                }
+              },
+              {
+                "label": "Speed (rule)",
+                "url": "https://5e.tools/variantrules.html#speed_xphb",
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                },
+                "preview": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              },
+              {
+                "label": "Opportunity Attack (action)",
+                "url": "https://5e.tools/actions.html#opportunity%20attack_xphb",
+                "terms": [
+                  "Opportunity Attacks"
+                ],
+                "local": {
+                  "entry": "compendium-a05ec14a1e820d13424c67ff",
+                  "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+                },
+                "preview": {
+                  "name": "Opportunity Attack",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-a05ec14a1e820d13424c67ff",
+                    "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+                  }
+                }
+              },
+              {
+                "label": "Hide (action)",
+                "url": "https://5e.tools/actions.html#hide_xphb",
+                "local": {
+                  "entry": "compendium-18c4e45695f957ea23aae147",
+                  "version": "XPHB:368:https://5e.tools/actions.html#hide_xphb"
+                },
+                "preview": {
+                  "name": "Hide",
+                  "group": "Actions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 368,
+                  "local": {
+                    "entry": "compendium-18c4e45695f957ea23aae147",
+                    "version": "XPHB:368:https://5e.tools/actions.html#hide_xphb"
+                  }
+                }
+              }
+            ],
+            "inline": {
+              "A Medium special. Named abilities include Pounce, Primal Wrath, Prowl.": [
+                {
+                  "start": 57,
+                  "end": 62,
+                  "target": {
+                    "name": "Wrath",
+                    "group": "Spells",
+                    "publication": "D&D: World of Warcraft",
+                    "page": 27,
+                    "description": "A evocation cantrip.",
+                    "local": {
+                      "entry": "compendium-29e7157a8d87a0b7105e3f08",
+                      "version": "WoW:27:https://5e.tools/spells.html#wrath_wow"
+                    }
+                  }
+                }
+              ],
+              "Size": [
+                {
+                  "start": 0,
+                  "end": 4,
+                  "target": {
+                    "name": "Size",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                    }
+                  }
+                }
+              ],
+              "Speed": [
+                {
+                  "start": 0,
+                  "end": 5,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                }
+              ],
+              "Proficiency bonus": [
+                {
+                  "start": 0,
+                  "end": 11,
+                  "target": {
+                    "name": "Proficiency",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-7bf778e92e4105e60dc6d079",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                    }
+                  }
+                }
+              ],
+              "Your Proficiency Bonus doesn't change.": [
+                {
+                  "start": 5,
+                  "end": 16,
+                  "target": {
+                    "name": "Proficiency",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "local": {
+                      "entry": "compendium-7bf778e92e4105e60dc6d079",
+                      "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                    }
+                  }
+                }
+              ],
+              "Special You have proficiency in Stealth.": [
+                {
+                  "start": 32,
+                  "end": 39,
+                  "target": {
+                    "name": "Stealth",
+                    "group": "Skills",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 14,
+                    "local": {
+                      "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                      "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                    }
+                  }
+                }
+              ],
+              "Darkvision 60 ft.": [
+                {
+                  "start": 0,
+                  "end": 10,
+                  "target": {
+                    "name": "Darkvision",
+                    "group": "Senses",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 365,
+                    "local": {
+                      "entry": "compendium-7acfde2bf83729872c25017b",
+                      "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                    }
+                  }
+                }
+              ],
+              "Pounce · Melee attack · 1d10 · 2d10 · 3d10 · 4d10 · 1d6 slashing damage · 1d6 · 2d6 · 3d6 · 4d6 · 5d6 · 6d6 · reach 5 ft. · Advantage · Prone": [
+                {
+                  "start": 124,
+                  "end": 133,
+                  "target": {
+                    "name": "Advantage",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 360,
+                    "local": {
+                      "entry": "compendium-694118169b5a4aef2291ff71",
+                      "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 136,
+                  "end": 141,
+                  "target": {
+                    "name": "Prone",
+                    "group": "Conditions",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 372,
+                    "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                    "local": {
+                      "entry": "compendium-6bb47020835c218b46b7d85a",
+                      "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#prone_xphb"
+                    }
+                  }
+                }
+              ],
+              "Primal Wrath · Dexterity save · 2d6 slashing damage · Emanation [Area of Effect]": [
+                {
+                  "start": 7,
+                  "end": 12,
+                  "target": {
+                    "name": "Wrath",
+                    "group": "Spells",
+                    "publication": "D&D: World of Warcraft",
+                    "page": 27,
+                    "description": "A evocation cantrip.",
+                    "local": {
+                      "entry": "compendium-29e7157a8d87a0b7105e3f08",
+                      "version": "WoW:27:https://5e.tools/spells.html#wrath_wow"
+                    }
+                  }
+                },
+                {
+                  "start": 54,
+                  "end": 80,
+                  "target": {
+                    "name": "Emanation [Area of Effect]",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 366,
+                    "local": {
+                      "entry": "compendium-a24ba32f829b2e4a9062d127",
+                      "version": "XPHB:366:https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
+                    }
+                  }
+                }
+              ],
+              "Prowl · Speed · Opportunity Attack · Hide": [
+                {
+                  "start": 8,
+                  "end": 13,
+                  "target": {
+                    "name": "Speed",
+                    "group": "Variant rules",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 374,
+                    "local": {
+                      "entry": "compendium-264de61edc1e2fe941187374",
+                      "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 16,
+                  "end": 34,
+                  "target": {
+                    "name": "Opportunity Attack",
+                    "group": "Actions",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 371,
+                    "local": {
+                      "entry": "compendium-a05ec14a1e820d13424c67ff",
+                      "version": "XPHB:371:https://5e.tools/actions.html#opportunity%20attack_xphb"
+                    }
+                  }
+                },
+                {
+                  "start": 37,
+                  "end": 41,
+                  "target": {
+                    "name": "Hide",
+                    "group": "Actions",
+                    "publication": "Player's Handbook (2024)",
+                    "page": 368,
+                    "local": {
+                      "entry": "compendium-18c4e45695f957ea23aae147",
+                      "version": "XPHB:368:https://5e.tools/actions.html#hide_xphb"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "portrait": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        "image": {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      }
+    ],
+    "global": true,
+    "version": {
+      "key": "7eef816a3f66c4645ee357c5",
+      "publication": "Dragon Compendium, Volume I (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Dragon_Compendium.html?id=zeQhAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Monstrous Humanoid. +2 Constitution, −2 Dexterity, −2 Intelligence. Base land speed 30 ft. Darkvision 60 ft. Carapace gives +4 natural armor. Humanoid-only effects such as charm person and hold person do not affect Diopsids.",
+            "Bioluminescence can be lit or doused at will as a free action. It sheds light in a 10-ft. radius and shadowy illumination for 20 ft. beyond that.",
+            "Wings can be unfurled as an immediate action to descend at 60 ft. per round without falling damage. They grant no flight. A paralyzed, unconscious, or otherwise incapacitated Diopsid cannot use them.",
+            "Two strong primary arms and two weaker supporting arms. With the lower arms available for support, wield a weapon up to one size category larger without the normal size penalty. A Large longsword can be held by one primary arm and steadied by its matching lower arm.",
+            "Using all four hands, wield two two-handed weapons as a pair. Each gets full two-handed damage, including 1½ times a positive Strength modifier. Use the ordinary two-weapon attack penalties for a non-light off-hand weapon.",
+            "When a primary hand carries an item, an extra weapon used in a lower arm adds only half a positive Strength modifier. Each extra light weapon imposes −4 on all attacks, or −8 if the extra weapon is one-handed. The lower arms alone cannot wield a two-handed weapon. A lower-arm shield applies its armor check penalty to attacks and skill checks even if proficient.",
+            "Limb Symmetry waives the Dexterity prerequisite for feats with “two-weapon” in their name. Other prerequisites still apply. One free hand is enough for somatic components.",
+            "Light armor has no additional racial penalty. Medium armor imposes −2 Dexterity and heavy armor imposes −4 Dexterity. All armor must be custom-made and priced as one size larger. Diopsids do not need sleep and are immune to sleep effects.",
+            "Common and Diopsid are automatic. Bonus languages are Dwarf (Dwarven), Orc, Terran, and Undercommon. The native language uses light signals, including darkvision-only flashes. Spot detects the exchange in place of Listen. Those without bioluminescence can learn to understand and translate it.",
+            "Favored class Barbarian. LA +1. The playable profile adds no racial Hit Dice."
+          ]
+        },
+        {
+          "title": "Original NPC · Rivet",
+          "lines": [
+            "Scree hoist watch and Barbarian.",
+            "Motive. Get a new guide chain down to the stranded hoist platform.",
+            "Hook. Rivet can descend with a line while the party controls the hoist brake above.",
+            "Diopsid scree hoist watch, Barbarian 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Monstrous Humanoid",
+            "AC 14 · HP 15 (1d12+3) · Speed 40 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Tongs",
+          "lines": [
+            "Iron gantry guard and Fighter.",
+            "Motive. Get the porters across before the gantry is closed.",
+            "Hook. Tongs can flash readiness across the gantry and hold the approach while the party moves the last porters.",
+            "Diopsid iron gantry guard, Fighter 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Monstrous Humanoid",
+            "AC 18 · HP 13 (1d10+3) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Rivet": [
+          {
+            "start": 15,
+            "end": 20,
+            "target": {
+              "name": "Rivet",
+              "group": "Diopsid",
+              "publication": "Diopsid scree hoist watch, Barbarian 1",
+              "local": {
+                "entry": "npc-992952a966f8868f05a7d9aa",
+                "version": "d4cefa09f3e997778fbf602f"
+              }
+            }
+          }
+        ],
+        "Hook. Rivet can descend with a line while the party controls the hoist brake above.": [
+          {
+            "start": 6,
+            "end": 11,
+            "target": {
+              "name": "Rivet",
+              "group": "Diopsid",
+              "publication": "Diopsid scree hoist watch, Barbarian 1",
+              "local": {
+                "entry": "npc-992952a966f8868f05a7d9aa",
+                "version": "d4cefa09f3e997778fbf602f"
+              }
+            }
+          }
+        ],
+        "Original NPC · Tongs": [
+          {
+            "start": 15,
+            "end": 20,
+            "target": {
+              "name": "Tongs",
+              "group": "Diopsid",
+              "publication": "Diopsid iron gantry guard, Fighter 1",
+              "local": {
+                "entry": "npc-9cd1cba6c85cb4045e8d524f",
+                "version": "8b8bdcc2b7d12cea1564332f"
+              }
+            }
+          }
+        ],
+        "Hook. Tongs can flash readiness across the gantry and hold the approach while the party moves the last porters.": [
+          {
+            "start": 6,
+            "end": 11,
+            "target": {
+              "name": "Tongs",
+              "group": "Diopsid",
+              "publication": "Diopsid iron gantry guard, Fighter 1",
+              "local": {
+                "entry": "npc-9cd1cba6c85cb4045e8d524f",
+                "version": "8b8bdcc2b7d12cea1564332f"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Diopsid": true,
+      "diopsid extra arms": true,
+      "diopsid bioluminescence": true,
+      "diopsid scree hoist watch": true,
+      "diopsid iron gantry guard": true
+    },
+    "hash": "c95bb4afab74cf25ebc14d043812010690676c733097d0f009b447ecc5a62c97",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Dragon Compendium, Volume I (2005)",
+    "defaultVersionKey": "7eef816a3f66c4645ee357c5",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

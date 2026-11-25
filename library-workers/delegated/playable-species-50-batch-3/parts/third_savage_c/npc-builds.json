@@ -1,0 +1,277 @@
+{
+  "builds": [
+    {
+      "id": "savage-species-ghoul-harl-30e",
+      "size": "Medium",
+      "type": "Undead",
+      "title": "Harl Keybone, Ghoul 2",
+      "difficulty": "CR 1 by Table A–22. Ghoul monster class level 2, 1 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "30 ft.",
+      "ac": 13,
+      "hp": 8,
+      "hitDice": "1d12",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Hide +6",
+        "Listen +5",
+        "Move Silently +6",
+        "Search +5",
+        "Spot +5"
+      ],
+      "traits": [
+        "Lawful neutral. AC includes +2 Dexterity and +1 natural armor. Touch 12, flat-footed 11. BAB +0, grapple +2. Fortitude +0, Reflex +2, Will +3. Improved Initiative.",
+        "Turn resistance +2. Apply the 3.0 undead immunities, including mind-affecting effects, poison, sleep, paralysis, stunning and disease. Immune to critical hits, subdual damage, ability damage, energy drain, and massive-damage death. Destroyed at 0 HP."
+      ],
+      "actions": [
+        "Bite +2 melee, 1d4+2 piercing. Full attack includes the bite and two claws at −3 melee each, 1d3+1 slashing per claw.",
+        "Paralysis (Ex). Each bite or claw hit forces Fortitude DC 12 or paralysis for 1 minute. Elves are immune."
+      ],
+      "tactics": "Harl stays beside the marker stones. He bites the first pursuer who closes and uses the full attack only when he can hold his ground.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-green-hag-nella-30e",
+      "size": "Medium",
+      "type": "Monstrous Humanoid (Aquatic)",
+      "title": "Nella Reedfast, Green Hag 3",
+      "difficulty": "CR 2 by Table A–23. Green Hag monster class level 3, 3 HD.",
+      "senses": "Darkvision 90 ft.",
+      "languages": "Common, Giant",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "3d8+3",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Concentration +7",
+        "Hide +8",
+        "Knowledge (nature) +9",
+        "Listen +7",
+        "Spot +7",
+        "Swim +10"
+      ],
+      "traits": [
+        "Neutral. AC includes +2 Dexterity and +2 natural armor. Touch 12, flat-footed 12. BAB +3, grapple +5. Fortitude +2, Reflex +5, Will +4. Improved Initiative and Weapon Focus (claw).",
+        "Breathes air and water and can take 10 on Swim checks even under pressure. Mimics the calls of animals around her lair."
+      ],
+      "actions": [
+        "Claw +6 melee, 1d3+2 slashing. A full attack makes two claws at +6 each.",
+        "Lesser powers at will, CL 3. Change self lasts 30 minutes and gives +10 to disguise checks, Will DC 13 to disbelieve on interaction. Dancing lights lasts up to 1 minute and places moving lights within 130 ft., Will DC 12 to disbelieve on interaction. Ghost sound lasts 3 rounds within 30 ft., Will DC 12 to disbelieve on interaction. Pass without trace hides the trails of up to 3 touched creatures for 30 minutes.",
+        "Greater powers, each 1/day, CL 3. Invisibility makes a touched creature or object invisible for up to 30 minutes and ends early if the subject attacks. Tongues lets a touched creature speak and understand languages for 30 minutes. Water breathing grants 6 hours of underwater breathing divided among touched subjects."
+      ],
+      "tactics": "Nella meets strangers under change self. If attacked, she calls from the far bank with ghost sound, then swims through the reeds while a foe follows the decoy.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-griffon-tallow-30e",
+      "size": "Medium",
+      "type": "Magical Beast",
+      "title": "Tallowcrest, Griffon 4",
+      "difficulty": "CR 2 by Table A–24. Griffon monster class level 4, 4 HD.",
+      "senses": "Darkvision 60 ft., low-light vision, scent 10 ft.",
+      "languages": "Understands Common. Cannot speak.",
+      "speed": "30 ft., fly 50 ft. (average)",
+      "ac": 16,
+      "hp": 30,
+      "hitDice": "4d10+8",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 6,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Jump +9",
+        "Listen +3",
+        "Spot +5 (+9 in daylight)"
+      ],
+      "traits": [
+        "Neutral. AC includes +2 Dexterity and +4 natural armor. Touch 12, flat-footed 14. BAB +4, grapple +8. Fortitude +6, Reflex +6, Will +2.",
+        "Improved Initiative and Multiattack. Dexterity includes the Table 2–5 ability increase at 4 HD."
+      ],
+      "actions": [
+        "Bite +8 melee, 1d6+4 piercing. A full attack includes the bite and two claws at +6 each, 1d4+2 slashing each.",
+        "Pounce (Ex). When a clear charge is legal, make the full attack at the end of it. With the charge bonus, bite +10 and two claws +8. AC falls to 14 until the start of the next turn."
+      ],
+      "tactics": "Tallowcrest approaches down the clear side of the ledge, pounces once when the charge lane opens, then takes to the air if someone blocks the nest entrance.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-hamatula-kebr-30e",
+      "size": "Medium",
+      "type": "Outsider (Evil, Lawful)",
+      "title": "Kebr Ashscale, Hamatula 7",
+      "difficulty": "CR 5 by Table A–26. Hamatula monster class level 7, 6 HD.",
+      "senses": "Darkvision 60 ft., see in magical darkness",
+      "languages": "Celestial, Draconic, Infernal, telepathy 100 ft.",
+      "speed": "30 ft.",
+      "ac": 20,
+      "hp": 39,
+      "hitDice": "6d8+12",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Concentration +11",
+        "Craft (metalworking) +10",
+        "Hide +10",
+        "Listen +12",
+        "Move Silently +10",
+        "Search +10",
+        "Sense Motive +10",
+        "Spot +12"
+      ],
+      "traits": [
+        "Lawful evil. AC includes +1 Dexterity and +9 natural armor. Touch 11, flat-footed 19. BAB +6, grapple +10. Fortitude +7, Reflex +6, Will +6.",
+        "Improved Initiative, Weapon Focus (claw), and Alertness. Dexterity includes the Table 2–5 increase at 4 HD.",
+        "Immune to fire and poison. Acid and cold resistance 5. Damage reduction 5/+1. Telepathy reaches creatures with a language within 100 ft."
+      ],
+      "actions": [
+        "Claw +11 melee, 1d6+4 slashing. Full attack makes two claws at +11 each. On a hit against a Small or smaller foe, Kebr can attempt a free grapple at +10 without provoking. On a later successful grapple check against the held foe, impale deals 3d4+6 piercing.",
+        "Fear (Su). The first hit in a day against a particular foe forces Will DC 15 or fear as the 3.0 spell for 6 rounds. Affected foes panic and flee. The same target cannot be affected again by Kebr that day even on a successful save.",
+        "Summon baatezu (Sp), 1/day. Attempt to call 2d6 lemures with a 50 percent success chance. They return after 1 hour. Each is Medium, has 9 HP, AC 13, speed 20 ft., saves +3/+3/+3, two claws +2 for 1d3, DR 5/silver and SR 5. They are mindless, immune to fire and poison, resist acid and cold 20, see in darkness, and obey Kebr's telepathic orders.",
+        "Lesser powers, each 3/day, CL 6. Charm person, 40 ft., Will DC 13, 6 hours. Doom, 160 ft., Will DC 13, −2 morale to attacks, weapon damage, saves, skills, and ability checks for 6 minutes. Hold person, 160 ft., Will DC 15, paralyzes one Medium or smaller humanoid for up to 6 rounds. Produce flame, 6 rounds, +10 melee or +7 ranged touch to 120 ft., 1d4+3 fire. Desecrate, 40 ft., 20-ft. emanation for 12 hours. Turning checks take −3, undead gain +1 profane to attacks, damage, and saves, and undead created or summoned there gain +1 HP per HD. Pyrotechnics uses an existing fire within 640 ft. for a 120-ft. line-of-sight blind for 1d4+1 rounds (Will DC 14) or a choking 20-ft. smoke spread for 6 rounds (blocks sight, Fortitude DC 14 against −4 Strength and Dexterity).",
+        "Other powers, each 1/day, CL 6. Animate dead raises up to 6 HD of touched bones or corpses as skeletons or zombies, with up to 12 HD under control at once. Major image, 640 ft., lasts while concentrating and 3 rounds after, Will DC 15 to disbelieve on interaction. Suggestion, 40 ft., Will DC 15, guides one living creature toward a reasonable course of action for up to 6 hours or until completed."
+      ],
+      "tactics": "Kebr uses telepathy to tell a suspect to stop. He uses hold person if they run, then claws at anyone forcing the gate. Against smaller foes he grabs and impales. He saves his single summon attempt for a fight he cannot contain.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "savage-species-magmin-pinder-30e",
+      "size": "Small",
+      "type": "Elemental (Fire)",
+      "title": "Pinder, Magmin 3",
+      "difficulty": "CR 2 by Table A–33. Magmin monster class level 3, 1 HD.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Ignan",
+      "speed": "30 ft.",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +3",
+        "Escape Artist +4",
+        "Jump +3",
+        "Spot +2"
+      ],
+      "traits": [
+        "Chaotic neutral. AC includes +1 size, +2 Dexterity and +2 natural armor. Touch 13, flat-footed 13. BAB +0, grapple −3. Fortitude +2, Reflex +4, Will +0. Toughness adds 3 HP.",
+        "Elemental immunities include poison, sleep, paralysis and stunning. Critical hits and flanking do not apply. DR 5/+1. Fire immunity, −10 on saves against cold attacks, double cold damage when no save is offered."
+      ],
+      "actions": [
+        "Burning touch +2 melee, 1d6 fire. On a hit, the target makes Reflex DC 12. Failure adds 1d6 fire from its clothes or armor each round for 1d4+2 rounds after the last hit. The build treats the printed natural weapon as an attack against normal AC.",
+        "Fiery aura (Ex). Anyone within 5 ft. must succeed on Fortitude DC 12 or take 1 fire damage. For this encounter, check at first entry or when starting a turn there, at most once per creature each round.",
+        "Melt weapons (Ex). A metal weapon that hits Pinder must make Fortitude DC 12 or melt. Use the applicable 3.0 item saving throw."
+      ],
+      "tactics": "Pinder calls out from the far side of the chalk line. If pressed, he withdraws into the aisle instead of letting bystanders enter his aura.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Harl Keybone",
+      "species": "Ghoul",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-ghoul-harl-30e",
+      "role": "Escort who keeps visitors on marked paths through a flooded crypt.",
+      "motive": "Keep the crypt keys out of the hands of grave robbers.",
+      "hook": "Harl offers to guide the party past the drowned stair if they return a misplaced burial seal."
+    },
+    {
+      "name": "Nella Reedfast",
+      "species": "Green Hag",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-green-hag-nella-30e",
+      "role": "Mire broker who trades directions through a maze of reed beds.",
+      "motive": "Find out who has been replacing her trail markers.",
+      "hook": "A dry footpath appears only after Nella mimics the marsh birds in the right order."
+    },
+    {
+      "name": "Tallowcrest",
+      "species": "Griffon",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-griffon-tallow-30e",
+      "role": "Cliff sentinel who warns the ledge wardens when a trail gives way.",
+      "motive": "Keep loose rock and trespassers away from the nursery ledge.",
+      "hook": "Tallowcrest blocks the short route with an outstretched wing, then watches to see if the party notices the freshly cracked stone."
+    },
+    {
+      "name": "Kebr Ashscale",
+      "species": "Hamatula",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-hamatula-kebr-30e",
+      "role": "Barbed devil gatekeeper at a planar tollhouse.",
+      "motive": "Recover a missing stamped receipt before the inspectors arrive.",
+      "hook": "Kebr shows the party an empty line in the ledger and offers a safe crossing in return for the receipt."
+    },
+    {
+      "name": "Pinder",
+      "species": "Magmin",
+      "size": "Small",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "build": "savage-species-magmin-pinder-30e",
+      "role": "Smelter attendant whose heat keeps the pour gate open.",
+      "motive": "Safeguard a bucket of unfinished tin soldiers.",
+      "hook": "Pinder rolls a cooling ingot behind a line on the floor and asks the party to approach it from the far side."
+    }
+  ]
+}

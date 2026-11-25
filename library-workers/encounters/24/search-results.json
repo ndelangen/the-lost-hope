@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Inspired (Hashalaq variant)",
+    "query": "elegant crysteel suggestion riedra",
+    "term": "Suggestion",
+    "parent": "Hashalaq Quori",
+    "publication": "Eberron: Rising from the Last War",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Eberron: Rising from the Last War",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Inspired (Kalaraq variant)",
+    "query": "watchful crysteel arcane eye ambush",
+    "term": "Arcane Eye",
+    "parent": "Kalaraq Quori",
+    "publication": "Eberron: Rising from the Last War",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Eberron: Rising from the Last War",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Inspired (Tsucora variant)",
+    "query": "severe crysteel fear khorvaire",
+    "term": "Fear",
+    "parent": "Tsucora Quori",
+    "publication": "Eberron: Rising from the Last War",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Eberron: Rising from the Last War",
+        "url": ""
+      }
+    ]
+  }
+]

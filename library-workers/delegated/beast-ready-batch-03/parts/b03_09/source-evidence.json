@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Hyena",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Version 1.0, 2018",
+    "printedPages": [
+      141
+    ],
+    "sourceUrl": "",
+    "section": "Chapter 12, Monsters",
+    "appearanceEvidence": "Editorial description of the approved plain-parchment animal study.",
+    "habitatEvidence": "Editorial encounter habitats drawn from the spotted hyena used as the visual model. Neither stat block specifies habitats.",
+    "habitatSourceUrl": "https://animals.sandiegozoo.org/animals/spotted-hyena",
+    "pdfPage": 141,
+    "pdfPageNumbering": "The one-based number matches the printed folio.",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Hyena",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition book",
+    "printedPages": [
+      331
+    ],
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page332.html",
+    "section": "Appendix A, Miscellaneous Creatures",
+    "appearanceEvidence": "Editorial description of the approved plain-parchment animal study.",
+    "habitatEvidence": "Editorial encounter habitats drawn from the spotted hyena used as the visual model. Neither stat block specifies habitats.",
+    "habitatSourceUrl": "https://animals.sandiegozoo.org/animals/spotted-hyena",
+    "viewerPage": 332,
+    "pageNumbering": "Printed folio is one lower than viewer sheet.",
+    "errataUrl": "",
+    "errata": "No correction to this creature listed in the official errata."
+  },
+  {
+    "name": "Raven",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Version 1.0, 2018",
+    "printedPages": [
+      150
+    ],
+    "sourceUrl": "",
+    "section": "Chapter 12, Monsters",
+    "appearanceEvidence": "Editorial description of the approved plain-parchment animal study.",
+    "habitatEvidence": "Editorial encounter habitats drawn from the common raven’s forest, mountain and settled ranges and its use of carrion. Neither stat block specifies habitats.",
+    "habitatSourceUrl": "https://www.allaboutbirds.org/guide/Common_Raven/lifehistory",
+    "pdfPage": 150,
+    "pdfPageNumbering": "The one-based number matches the printed folio.",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Raven",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition book",
+    "printedPages": [
+      335
+    ],
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page336.html",
+    "section": "Appendix A, Miscellaneous Creatures",
+    "appearanceEvidence": "Editorial description of the approved plain-parchment animal study.",
+    "habitatEvidence": "Editorial encounter habitats drawn from the common raven’s forest, mountain and settled ranges and its use of carrion. Neither stat block specifies habitats.",
+    "habitatSourceUrl": "https://www.allaboutbirds.org/guide/Common_Raven/lifehistory",
+    "viewerPage": 336,
+    "pageNumbering": "Printed folio is one lower than viewer sheet.",
+    "errataUrl": "",
+    "errata": "No correction to this creature listed in the official errata."
+  }
+]

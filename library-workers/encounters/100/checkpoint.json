@@ -1,0 +1,35 @@
+{
+  "commit": "035c59b",
+  "batch": 100,
+  "verification": {
+    "testsPassed": 902,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Diabolus",
+        "species": "species-e23787a7b61a2b1c63a49f5c",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Dragon Compendium, Volume I (2005)"
+        ],
+        "portraitSha256": "df876a2c3a383b756d5f0c808dd97897ff34f7ce110776a7208650af60bec09b",
+        "caption": "Zareth Flintmere · Original Diabolus NPC",
+        "npcReceipts": [
+          {
+            "name": "Zareth Flintmere",
+            "id": "npc-7cf8cdda29f8deb56831a1c4",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          },
+          {
+            "name": "Vessa Nettle",
+            "id": "npc-ee184af7793f65d5107abe3a",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          }
+        ]
+      }
+    ],
+    "browseThumbnail": true,
+    "tableRulingLabeled": true,
+    "r2AndBothLocalBackups": true
+  }
+}

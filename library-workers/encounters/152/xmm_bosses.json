@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Aboleth",
+    "statBlock": {
+      "name": "Aboleth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 12,
+      "classification": "Large aberration, lawful evil",
+      "ac": 17,
+      "hp": 150,
+      "hitDice": "20d10 + 40",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 20,
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 6,
+        "Int": 8,
+        "Wis": 6
+      },
+      "skills": {
+        "History": 12,
+        "Perception": 10
+      },
+      "description": "This amphibious aberration gathers servants in sunken ruins and preserves memories of long-dead worlds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+7 (17).",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Deep Speech; telepathy 120 ft..",
+        "Traits": "Amphibious. Breathes air and water.\nEldritch Restoration. When destroyed, the aboleth returns in a new body at full HP after 5d10 days. It reappears in the Far Realm or another location chosen by the DM.\nLegendary Resistance (3/day, 4/day in its lair). It can turn a failed save into a success.\nMucus Cloud. While the aboleth is underwater, each creature within a 5-ft. Emanation from it makes a DC 14 Constitution save at the end of the aboleth’s turn. Failure curses the creature. Its skin becomes slimy, it can breathe air and water, and it can regain HP only underwater. Outside a body of water it takes 6 (1d12) acid damage at the end of every 10 minutes unless its skin is moistened before that interval is up.\nProbing Telepathy. When a creature the aboleth can see talks to it telepathically, it learns that creature’s greatest desires.",
+        "Actions": "Multiattack. Make two Tentacle attacks, then use Consume Memories or Dominate Mind if available.\nTentacle. Melee attack, +9 to hit, reach 15 ft. Hit deals 12 (2d6 + 5) bludgeoning damage. One of the four tentacles also Grapples a target that is Large or smaller (escape DC 14).\nConsume Memories. One creature within 30 ft. that the aboleth has Charmed or Grappled makes a DC 16 Intelligence save. Failure deals 10 (3d6) psychic damage and success halves it. The aboleth learns the memories of a Humanoid reduced to 0 HP by this action.\nDominate Mind (2/day). One visible creature within 30 ft. makes a DC 16 Wisdom save. Failure leaves it Charmed until the aboleth dies, the two are on different planes, or the creature succeeds on a repeat save. While Charmed it acts as the aboleth’s ally, obeys its control within 60 ft., and can communicate telepathically with it at any distance. It repeats the save whenever it takes damage and after every 24 hours it spends at least 1 mile away.",
+        "Legendary actions": "3 uses (4 in its lair). Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nLash. Make one Tentacle attack.\nPsychic Drain. If the aboleth has a creature Charmed or Grappled, use Consume Memories and regain 5 (1d10) HP.",
+        "Regional effects": "Foul Water. Water sources within 1 mile of the lair are befouled. Anyone other than the aboleth or its allies who drinks this water must make a DC 15 Constitution save or become Poisoned for 1 hour.\nPsionic Projection. In its lair the aboleth can cast Project Image without components. It uses Intelligence (save DC 16), the spell reaches 1 mile, and its telepathy can originate in the image’s space.\nBoth effects end immediately if the aboleth dies or its lair moves.",
+        "In its lair": "7,200 XP. The traits and Legendary actions sections give the increased resource limits.",
+        "Printed source": "Monster Manual (2024), p. 12."
+      }
+    }
+  },
+  {
+    "name": "Beholder",
+    "statBlock": {
+      "name": "Beholder",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 36,
+      "classification": "Large aberration, lawful evil",
+      "ac": 18,
+      "hp": 190,
+      "hitDice": "20d10 + 80",
+      "speed": "5 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 22,
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 12
+      },
+      "description": "A floating eye tyrant carves tunnels with its rays and collects the adventurers it petrifies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+12 (22).",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Deep Speech, Undercommon.",
+        "Condition immunities": "Prone.",
+        "Traits": "Legendary Resistance (3/day, 4/day in its lair). It can turn a failed save into a success.",
+        "Actions": "Multiattack. Use Eye Rays three times.\nBite. Melee attack, +8 to hit, reach 5 ft. Hit deals 13 (3d6 + 3) piercing damage.\nEye Rays. Choose a visible target within 120 ft. and roll 1d10 for its magical ray. Reroll a ray the beholder has already used during this turn. All saves below are DC 16.\n1. Charm Ray. Wisdom save. Failure deals 13 (3d8) psychic damage and leaves the target Charmed for 1 hour or until it takes damage. Success halves the damage and avoids the condition.\n2. Paralyzing Ray. Constitution save. Failure leaves the target Paralyzed. Repeat the save at the end of each of its turns to end the effect on success. It automatically succeeds after 1 minute.\n3. Fear Ray. Wisdom save. Failure deals 14 (4d6) psychic damage and leaves the target Frightened until the end of its next turn. Success halves the damage and avoids the condition.\n4. Slowing Ray. Constitution save. Failure deals 18 (4d8) necrotic damage. Until the end of its next turn, the target has half Speed, cannot take Reactions, and has to choose between taking an action and taking a Bonus Action on its turn. Success halves the damage and avoids the other effects.\n5. Enervation Ray. Constitution save. Failure deals 13 (3d8) poison damage and leaves the target Poisoned until the end of its next turn. While Poisoned this way, it cannot regain HP. Success halves the damage and avoids the condition.\n6. Telekinetic Ray. Strength save. A Gargantuan target succeeds automatically. On failure the beholder moves the target up to 30 ft. in any direction and Restrains it until the start of the beholder’s next turn or until the beholder is Incapacitated. This ray can also manipulate objects precisely, for example to open a door or operate a tool.\n7. Sleep Ray. Wisdom save. Constructs and Undead succeed automatically. On failure the target is Unconscious for 1 minute. Damage ends the effect. A creature within 5 ft. can also use an action to wake the target.\n8. Petrification Ray. Constitution save. Failure leaves the target Restrained. If it is still Restrained at the end of its next turn, it repeats the save. Success ends the effect. Failure changes Restrained to Petrified.\n9. Disintegration Ray. Dexterity save. Failure deals 36 (8d8) force damage and disintegrates a 10-ft. cube of a targeted nonmagical object or magical force creation. Success halves the damage. Either way, a creature reduced to 0 HP by the ray turns to dust.\n10. Death Ray. Dexterity save. Failure deals 55 (10d10) necrotic damage and success halves it. A creature reduced to 0 HP by the ray dies.",
+        "Bonus actions": "Antimagic Cone. Project a 150-ft. Cone from the central eye. Until the start of the beholder’s next turn, the area acts as Antimagic Field and suppresses even its own Eye Rays.",
+        "Legendary actions": "3 uses (4 in its lair). Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nChomp. Make two Bite attacks.\nGlare. Use Eye Rays.",
+        "Regional effects": "Scopophobia. Creatures within 1 mile feel watched. A creature other than the beholder or its allies that finishes a Short Rest within that area makes a DC 13 Wisdom save. On failure the rest grants no benefit.\nWarping Terrain. Any creature other than the beholder that rolls a natural 1 on a D20 Test within 1 mile of the lair falls Prone.\nBoth effects end immediately if the beholder dies or its lair moves.",
+        "In its lair": "11,500 XP. The traits and Legendary actions sections give the increased resource limits.",
+        "Printed source": "Monster Manual (2024), pp. 35–36. The stat block is on p. 36 and the regional effects are on p. 35."
+      }
+    }
+  },
+  {
+    "name": "Death Tyrant",
+    "statBlock": {
+      "name": "Death Tyrant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 95,
+      "classification": "Large undead (beholder), lawful evil",
+      "ac": 19,
+      "hp": 195,
+      "hitDice": "26d10 + 52",
+      "speed": "5 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 22,
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 12
+      },
+      "description": "A beholder can pursue its designs after death as an immense floating skull orbited by ten magical eyes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+12 (22).",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Deep Speech, Undercommon.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Charmed, Exhaustion, Paralyzed, Petrified, Poisoned, Prone.",
+        "Traits": "Legendary Resistance (3/day, 4/day in its lair). It can turn a failed save into a success.",
+        "Actions": "Multiattack. Use Eye Rays three times.\nBite. Melee attack, +9 to hit, reach 5 ft. Hit deals 13 (2d8 + 4) piercing damage.\nEye Rays. Choose a visible target within 120 ft. and roll 1d10 for its magical ray. Reroll a ray the death tyrant has already used during this turn. All saves below are DC 17.\n1. Charm Ray. Wisdom save. Failure deals 13 (3d8) psychic damage and leaves the target Charmed for 1 hour or until it takes damage. Success halves the damage and avoids the condition.\n2. Paralyzing Ray. Constitution save. Failure leaves the target Paralyzed. Repeat the save at the end of each of its turns to end the effect on success. It automatically succeeds after 1 minute.\n3. Fear Ray. Wisdom save. Failure deals 10 (3d6) psychic damage and leaves the target Frightened until the end of its next turn. Success halves the damage and avoids the condition.\n4. Slowing Ray. Constitution save. Failure deals 18 (4d8) necrotic damage. Until the end of its next turn, the target has half Speed, cannot take Reactions, and has to choose between taking an action and taking a Bonus Action on its turn. Success halves the damage and avoids the other effects.\n5. Enervation Ray. Constitution save. Failure deals 16 (3d10) poison damage and leaves the target Poisoned until the end of its next turn. While Poisoned this way, it cannot regain HP. Success halves the damage and avoids the condition.\n6. Telekinetic Ray. Strength save. A Gargantuan target succeeds automatically. On failure the death tyrant moves the target up to 30 ft. in any direction and Restrains it until the start of the death tyrant’s next turn or until the death tyrant is Incapacitated. This ray can also manipulate objects precisely, for example to open a door or operate a tool.\n7. Sleep Ray. Wisdom save. Constructs and Undead succeed automatically. On failure the target is Unconscious for 1 minute. Damage ends the effect. A creature within 5 ft. can also use an action to wake the target.\n8. Petrification Ray. Constitution save. Failure leaves the target Restrained. If it is still Restrained at the end of its next turn, it repeats the save. Success ends the effect. Failure changes Restrained to Petrified.\n9. Disintegration Ray. Dexterity save. Failure deals 36 (8d8) force damage and disintegrates a 10-ft. cube of a targeted nonmagical object or magical force creation. Success halves the damage. Either way, a creature reduced to 0 HP by the ray turns to dust.\n10. Death Ray. Dexterity save. Failure deals 55 (10d10) necrotic damage and success halves it. A creature reduced to 0 HP by the ray dies.",
+        "Bonus actions": "Negative Energy Cone. An imperceptible magical wave from its central eye covers a 150-ft. Cone. Creatures in the cone cannot regain HP until its next turn starts. Any intact Humanoid corpse in the cone immediately rises as its controlled Zombie and acts right after it on the same initiative count.",
+        "Legendary actions": "3 uses (4 in its lair). Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nChomp. Make two Bite attacks.\nGlare. Use Eye Rays.",
+        "Regional effects": "Negative Energy Suffusion. Whenever a spell restores a creature’s HP within 1 mile of the lair, subtract 1d10 from the amount healed.\nScopophobia. Creatures within 1 mile feel watched. A creature other than the death tyrant or its allies that finishes a Short Rest within that area makes a DC 15 Wisdom save. On failure the rest grants no benefit.\nBoth effects end immediately if the death tyrant dies or its lair moves.",
+        "In its lair": "13,000 XP. The traits and Legendary actions sections give the increased resource limits.",
+        "Printed source": "Monster Manual (2024), pp. 94–95. The stat block is on p. 95 and the regional effects are on p. 94."
+      }
+    }
+  },
+  {
+    "name": "Lich",
+    "statBlock": {
+      "name": "Lich",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 196,
+      "classification": "Medium undead (wizard), neutral evil",
+      "ac": 20,
+      "hp": 315,
+      "hitDice": "42d8 + 126",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 19,
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 10,
+        "Int": 12,
+        "Wis": 9
+      },
+      "skills": {
+        "Arcana": 19,
+        "History": 12,
+        "Insight": 9,
+        "Perception": 9
+      },
+      "description": "A lich binds its soul to a hidden spirit jar. It can outlast the loss of its body while that jar remains intact.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+17 (27).",
+        "Senses": "Truesight 120 ft..",
+        "Languages": "all.",
+        "Damage resistances": "cold, lightning.",
+        "Damage immunities": "necrotic, poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Poisoned.",
+        "Gear": "Component pouch.",
+        "Traits": "Legendary Resistance (4/day, 5/day in its lair). It can turn a failed save into a success.\nSpirit Jar. If destroyed while it has a spirit jar, the lich returns at full HP after 1d10 days. Its new body appears in an unoccupied space in its lair.",
+        "Actions": "Multiattack. Make three attacks in any combination of Eldritch Burst and Paralyzing Touch.\nEldritch Burst. Melee or ranged attack, +12 to hit, reach 5 ft. or range 120 ft. Hit deals 31 (4d12 + 5) force damage.\nParalyzing Touch. Melee attack, +12 to hit, reach 5 ft. Hit deals 15 (3d6 + 5) cold damage and leaves the target Paralyzed until the start of the lich’s next turn.",
+        "Spellcasting": "Cast one of these spells as an action, using Intelligence (spell save DC 20).\nAt will. Detect Magic, Detect Thoughts, Dispel Magic, Fireball (level 5), Invisibility, Lightning Bolt (level 5), Mage Hand, Prestidigitation.\n2/day each. Animate Dead, Dimension Door, Plane Shift.\n1/day each. Chain Lightning, Finger of Death, Power Word Kill, Scrying.",
+        "Reactions": "Protective Magic. Cast Counterspell or Shield when the chosen spell’s trigger occurs. Use the same spellcasting ability and save DC as Spellcasting.",
+        "Legendary actions": "3 uses (4 in its lair). Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nDeathly Teleport. Teleport up to 60 ft. to a visible unoccupied space. Each creature within 10 ft. of the space left behind takes 11 (2d10) necrotic damage.\nDisrupt Life. Each non-Undead creature in a 20-ft. Emanation from the lich makes a DC 20 Constitution save. Failure deals 31 (9d6) necrotic damage and success halves it. After using this option, wait until the start of its next turn before using it again.\nFrightening Gaze. The lich casts Fear using Intelligence (DC 20), as in its Spellcasting action. It can't use this option again until the start of its next turn.",
+        "Regional effects": "All-Seeing. In its lair the lich can cast Clairvoyance with no components, using the ability listed under Spellcasting.\nInevitable Siphon. The lich consumes the soul of any Humanoid that dies within 1 mile of its lair. Only True Resurrection or Wish can bring that Humanoid back to life.\nBoth effects end immediately if the lich is destroyed or moves its lair. They return if the lich gains a new body through Spirit Jar.",
+        "In its lair": "41,000 XP. The traits and Legendary actions sections give the increased resource limits.",
+        "Printed source": "Monster Manual (2024), p. 196."
+      }
+    }
+  },
+  {
+    "name": "Demilich",
+    "statBlock": {
+      "name": "Demilich",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 96,
+      "classification": "Tiny undead, neutral evil",
+      "ac": 20,
+      "hp": 180,
+      "hitDice": "72d4",
+      "speed": "5 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 13,
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 6,
+        "Int": 11,
+        "Wis": 9
+      },
+      "description": "A lich whose body has decayed can rise again as a floating skull, often set with gems or marked with arcane sigils.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+17 (27).",
+        "Senses": "Truesight 120 ft..",
+        "Damage resistances": "bludgeoning, piercing, slashing.",
+        "Damage immunities": "necrotic, poison, psychic.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Prone, Stunned.",
+        "Traits": "Legendary Resistance (3/day, 4/day in its lair). It can turn a failed save into a success.\nUndead Restoration. If destroyed, the demilich regains full HP when it reforms after 1d10 days. Casting Wish on its remains prevents this return.",
+        "Actions": "Multiattack. Make three Necrotic Burst attacks.\nNecrotic Burst. Melee or ranged attack, +11 to hit, reach 5 ft. or range 120 ft. Hit deals 24 (7d6) necrotic damage.\nHowl (recharge 5–6). Each creature in a 30-ft. Emanation from the demilich makes a DC 19 Constitution save. Failure deals 70 (20d6) psychic damage. Each target is Frightened until the start of the demilich’s next turn regardless of the save result.",
+        "Legendary actions": "3 uses (4 in its lair). Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nEnergy Drain. One visible creature within 120 ft. makes a DC 19 Constitution save. Failure reduces its HP maximum by 14 (4d6). After use, wait until the start of the demilich’s next turn before choosing this option again.\nGrave-Dust Flight. Fly up to the demilich’s Fly Speed. Each creature within 5 ft. of its path makes a DC 19 Constitution save once. Failure leaves that creature Blinded until the end of the demilich’s next turn. After use, wait until the start of that turn before choosing this option again.\nNecrosis. Make one Necrotic Burst attack.",
+        "Regional effects": "Enervating Domain. When a creature other than the demilich or an ally finishes a Long Rest within 1 mile of the lair, it makes a DC 20 Constitution save. Failure reduces its HP maximum by 1d4 until it finishes a Long Rest outside the area.\nTravel Ward. Teleportation and planar travel cannot take creatures into or out of the lair.\nBoth effects end immediately if the demilich dies or its lair moves.",
+        "In its lair": "22,000 XP. The traits and Legendary actions sections give the increased resource limits.",
+        "Printed source": "Monster Manual (2024), p. 96."
+      }
+    }
+  },
+  {
+    "name": "Tarrasque",
+    "statBlock": {
+      "name": "Tarrasque",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 305,
+      "classification": "Gargantuan monstrosity (titan), unaligned",
+      "ac": 25,
+      "hp": 697,
+      "hitDice": "34d20 + 340",
+      "speed": "60 ft., burrow 40 ft., climb 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "30",
+      "xp": 155000,
+      "passivePerception": 19,
+      "savingThrows": {
+        "Dex": 9,
+        "Int": 5,
+        "Wis": 9,
+        "Cha": 9
+      },
+      "skills": {
+        "Perception": 9
+      },
+      "description": "This immense, spiked titan wakes only rarely. It attacks large creatures and tears apart bridges, ships, and buildings.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+18 (28).",
+        "Senses": "Blindsight 120 ft..",
+        "Damage resistances": "bludgeoning, piercing, slashing.",
+        "Damage immunities": "fire, poison.",
+        "Condition immunities": "Charmed, Deafened, Frightened, Paralyzed, Poisoned.",
+        "Traits": "Legendary Resistance (6/day). It can turn a failed save into a success.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nReflective Carapace. Roll 1d6 when the tarrasque is targeted by Magic Missile or a spell requiring a ranged attack roll. The tarrasque is unaffected. On a 6, redirect the spell to the caster.\nSiege Monster. Deals double damage to structures and objects.",
+        "Actions": "Multiattack. Make one Bite and three more attacks using Claw or Tail in any combination.\nBite. Melee attack, +19 to hit, reach 15 ft. Hit deals 36 (4d12 + 10) piercing damage and Grapples the target (escape DC 20). Until the grapple ends the target is Restrained and cannot teleport.\nClaw. Melee attack, +19 to hit, reach 15 ft. Hit deals 28 (4d8 + 10) slashing damage.\nTail. Melee attack, +19 to hit, reach 30 ft. Hit deals 23 (3d8 + 10) bludgeoning damage. A Huge or smaller creature hit also falls Prone.\nThunderous Bellow (recharge 5–6). Every creature and every object that is neither worn nor carried in a 150-ft. Cone makes a DC 27 Constitution save. Failure deals 78 (12d12) thunder damage and leaves the target Deafened and Frightened until the end of its next turn. Success halves the damage and avoids both conditions.",
+        "Bonus actions": "Swallow. One Large or smaller creature Grappled by the tarrasque makes a DC 27 Strength save. On failure, the grapple ends and the creature is swallowed. The tarrasque can have up to six creatures inside it. A swallowed creature is Blinded and Restrained, cannot teleport, has Total Cover against outside attacks and effects, and takes 56 (16d6) acid damage at the start of each of the tarrasque’s turns.\nWhen a creature inside deals at least 60 damage to the tarrasque in a single turn, it makes a DC 20 Constitution save at the end of that turn. On failure it expels everyone it swallowed, and they fall Prone within 10 ft. If the tarrasque dies, swallowed creatures stop being Restrained. They can spend 20 ft. of movement to escape and exit Prone.",
+        "Legendary actions": "3 uses. Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nOnslaught. Move up to half the tarrasque’s Speed and make a Claw or Tail attack.\nWorld-Shaking Movement. Move up to its Speed. At the end of that movement, each creature in a 60-ft. Emanation from the tarrasque loses Concentration. Medium and smaller creatures there also fall Prone. Wait until the start of the tarrasque’s next turn before repeating this option.",
+        "Printed source": "Monster Manual (2024), p. 305."
+      }
+    }
+  },
+  {
+    "name": "Kraken",
+    "statBlock": {
+      "name": "Kraken",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 187,
+      "classification": "Gargantuan monstrosity (titan), chaotic evil",
+      "ac": 18,
+      "hp": 481,
+      "hitDice": "26d20 + 208",
+      "speed": "30 ft., swim 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 21,
+      "savingThrows": {
+        "Str": 17,
+        "Dex": 7,
+        "Con": 15,
+        "Wis": 11
+      },
+      "skills": {
+        "History": 13,
+        "Perception": 11
+      },
+      "description": "These immense tentacled titans were weapons of the gods. They rise from deep lairs to rip through fleets and coastal settlements.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+14 (24).",
+        "Senses": "Truesight 120 ft..",
+        "Languages": "understands Abyssal, Celestial, Infernal, and Primordial but can't speak; telepathy 120 ft..",
+        "Damage immunities": "cold, lightning.",
+        "Condition immunities": "Frightened, Grappled, Paralyzed, Restrained.",
+        "Traits": "Amphibious. Breathes air and water.\nLegendary Resistance (4/day, 5/day in its lair). It can turn a failed save into a success.\nSiege Monster. Deals double damage to structures and objects.",
+        "Actions": "Multiattack. Make two Tentacle attacks, then use Fling, Lightning Strike, or Swallow.\nTentacle. Melee attack, +17 to hit, reach 30 ft. Hit deals 24 (4d6 + 10) bludgeoning damage. One of the ten tentacles Grapples its target (escape DC 20) and Restrains it until the grapple ends.\nFling. Throw a Large or smaller creature Grappled by the kraken into a visible space within 60 ft. that is not in the air. The thrown creature and all creatures in that space make DC 25 Dexterity saves. Failure deals 18 (4d8) bludgeoning damage and leaves the target Prone. Success halves the damage and avoids the condition.\nLightning Strike. One visible creature within 120 ft. makes a DC 23 Dexterity save. Failure deals 33 (6d10) lightning damage and success halves it.\nSwallow. One creature Grappled by the kraken makes a DC 25 Dexterity save. Failure deals 23 (3d8 + 10) piercing damage. A Large or smaller target that fails is also swallowed and its grapple ends. The kraken can have up to four creatures swallowed. A swallowed creature is Restrained, has Total Cover against outside attacks and effects, and takes 24 (7d6) acid damage at the start of each of its own turns.\nWhen a creature inside deals at least 50 damage to the kraken in a single turn, the kraken makes a DC 25 Constitution save at the end of that turn. On failure, every swallowed creature is expelled and falls Prone within 10 ft. If the kraken dies, swallowed creatures stop being Restrained. They can spend 15 ft. of movement to escape the corpse and exit Prone.",
+        "Legendary actions": "3 uses (4 in its lair). Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nStorm Bolt. Use Lightning Strike.\nToxic Ink. Use while underwater. Each creature in a 15-ft. Emanation from the kraken makes a DC 23 Constitution save. Failure leaves it Blinded and Poisoned until the end of the kraken’s next turn. The kraken then moves up to its Speed. It cannot use this option again until the start of its next turn.",
+        "Regional effects": "Ocean Tyrant. Beasts are Charmed while within 1 mile of the lair.\nSea and Storms. In its lair, the kraken can cast Control Weather using Intelligence and without spell components.\nBoth effects end immediately if the kraken dies or its lair moves.",
+        "In its lair": "62,000 XP. The traits and Legendary actions sections give the increased resource limits.",
+        "Printed source": "Monster Manual (2024), p. 187."
+      }
+    }
+  }
+]

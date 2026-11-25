@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Neraph",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        12,
+        13
+      ],
+      "racialTraits": 13,
+      "illustration": 12,
+      "optionalCamouflageFeats": 40,
+      "cado": [
+        48,
+        49
+      ],
+      "annulat": [
+        68,
+        69
+      ]
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "David Roach, generic Neraph p. 12. Vinod Rams, Cado throwing an annulat, p. 48.",
+    "sourceDistinctions": [
+      "The racial charge and thrown options share a single use per enemy per encounter. The optional feat entries are separate.",
+      "An annulat reduces the existing cover bonus by two for a proficient user. It adds no general bonus against uncovered targets.",
+      "The PC rules describe a Limbo-origin Outsider who is Extraplanar away from home. The sample Cado block lists Native. The staged encounters use the PC traits on the Material Plane."
+    ],
+    "entryId": "species-45af444a4ef5476f17cd037d",
+    "versionKey": "80bbcdfc8623dc5d226caac2",
+    "slug": "neraph",
+    "portraitSelection": "generated",
+    "portraitForm": "Teo Spent River, an original Neraph Ranger",
+    "npcExamples": [
+      "Teo Spent River",
+      "Mai the Houseless"
+    ]
+  }
+]

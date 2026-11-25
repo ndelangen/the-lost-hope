@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Young Sea Serpent",
+    "statBlock": {
+      "name": "Young Sea Serpent",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Huge dragon, typically neutral",
+      "ac": 16,
+      "hp": 123,
+      "hitDice": "13d12 + 39",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This sea dragon hides along reefs before ambushing ship crews. It coils around its prey or drives it into the water with its tail.",
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage immunities": "Cold.",
+        "Traits": "Amphibious. The serpent breathes air and water.\nSiege Monster. The serpent deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Bite attack and one Constrict or Tail attack.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 15 (2d10 + 4) piercing damage plus 5 (1d10) cold damage.\nConstrict. Melee weapon attack, +7 to hit, reach 20 ft., one creature. A hit deals 22 (4d8 + 4) bludgeoning damage. If the creature is Large or smaller, it is grappled (escape DC 15) and restrained until the grapple ends. The serpent cannot constrict another target while this grapple lasts.\nTail. Melee weapon attack, +7 to hit, reach 15 ft., one target. A hit deals 9 (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength save or be pushed up to 20 ft. away and knocked prone.\nRime Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 14 Constitution save, taking 38 (7d10) cold damage on a failure or half as much on a success.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 219."
+      }
+    }
+  },
+  {
+    "name": "Brass Greatwyrm",
+    "statBlock": {
+      "name": "Brass Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Gargantuan dragon (metallic), typically lawful good",
+      "ac": 22,
+      "hp": 565,
+      "hitDice": "29d20 + 261",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "28",
+      "xp": 120000,
+      "passivePerception": 32,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The oldest brass dragons can fuse with counterparts from other worlds to become greatwyrms. A brass greatwyrm can breathe fire or sap its foes with gas.",
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 17,
+        "Int": 13,
+        "Cha": 18
+      },
+      "skills": {
+        "Insight": 14,
+        "Perception": 22,
+        "Persuasion": 18
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Metallic Awakening (recharges after a short or long rest). When the creature would drop to 0 HP, set its current HP to 450, recharge Breath Weapon, and restore all spent uses of Legendary Resistance. The creature can take mythic actions for the following hour. Award 120,000 extra XP if defeated after this trait activates (240,000 XP total).\nLegendary Resistance (4/day). Turn a failed save into a success.\nUnusual Nature. The greatwyrm needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +18 to hit, reach 15 ft., one target. A hit deals 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage.\nClaw. Melee weapon attack, +18 to hit, reach 10 ft., one target. A hit deals 19 (2d8 + 10) slashing damage. A Huge or smaller creature hit is grappled (escape DC 20) and restrained until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.\nTail. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 21 (2d10 + 10) bludgeoning damage. A creature hit must succeed on a DC 26 Strength save or fall prone.\nBreath Weapon (recharge 5–6). Choose Elemental Breath or Sapping Breath.\nElemental Breath. Each creature in a 300-ft. cone makes a DC 25 Dexterity save, taking 84 (13d12) fire damage on a failure or half on a success.\nSapping Breath. Each creature in a 300-ft. cone makes a DC 25 Constitution save. A failure leaves the creature unconscious for 1 minute. An unconscious creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.\nChange Shape. Magically take the form of any Medium or Small creature, retaining the greatwyrm’s statistics except size. The form ends if the greatwyrm drops to 0 HP or spends an action to end it.",
+        "Legendary actions": "The creature has 3 legendary actions. It can take one option at the end of another creature’s turn and regains spent actions at the start of its turn.\nAttack (1 action). Make one Claw or Tail attack.\nWing Attack (2 actions). Each creature within 30 ft. must succeed on a DC 26 Dexterity save or take 17 (2d6 + 10) bludgeoning damage and fall prone. The greatwyrm can then fly up to half its flying speed.",
+        "Mythic actions": "For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.",
+        "Dragon customization": "Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 208–209, brass variant of the Metallic Greatwyrm. The printed block lists Dexterity, Constitution, Intelligence and Charisma saving throw bonuses. Dragon customization appears on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Bronze Greatwyrm",
+    "statBlock": {
+      "name": "Bronze Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Gargantuan dragon (metallic), typically lawful good",
+      "ac": 22,
+      "hp": 565,
+      "hitDice": "29d20 + 261",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "28",
+      "xp": 120000,
+      "passivePerception": 32,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A bronze dragon can reach this form by uniting with counterparts across worlds. Its lightning breath shares a recharge with its debilitating gas.",
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 17,
+        "Int": 13,
+        "Cha": 18
+      },
+      "skills": {
+        "Insight": 14,
+        "Perception": 22,
+        "Persuasion": 18
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Metallic Awakening (recharges after a short or long rest). When the creature would drop to 0 HP, set its current HP to 450, recharge Breath Weapon, and restore all spent uses of Legendary Resistance. The creature can take mythic actions for the following hour. Award 120,000 extra XP if defeated after this trait activates (240,000 XP total).\nLegendary Resistance (4/day). Turn a failed save into a success.\nUnusual Nature. The greatwyrm needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +18 to hit, reach 15 ft., one target. A hit deals 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage.\nClaw. Melee weapon attack, +18 to hit, reach 10 ft., one target. A hit deals 19 (2d8 + 10) slashing damage. A Huge or smaller creature hit is grappled (escape DC 20) and restrained until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.\nTail. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 21 (2d10 + 10) bludgeoning damage. A creature hit must succeed on a DC 26 Strength save or fall prone.\nBreath Weapon (recharge 5–6). Choose Elemental Breath or Sapping Breath.\nElemental Breath. Each creature in a 300-ft. cone makes a DC 25 Dexterity save, taking 84 (13d12) lightning damage on a failure or half on a success.\nSapping Breath. Each creature in a 300-ft. cone makes a DC 25 Constitution save. A failure leaves the creature unconscious for 1 minute. An unconscious creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.\nChange Shape. Magically take the form of any Medium or Small creature, retaining the greatwyrm’s statistics except size. The form ends if the greatwyrm drops to 0 HP or spends an action to end it.",
+        "Legendary actions": "The creature has 3 legendary actions. It can take one option at the end of another creature’s turn and regains spent actions at the start of its turn.\nAttack (1 action). Make one Claw or Tail attack.\nWing Attack (2 actions). Each creature within 30 ft. must succeed on a DC 26 Dexterity save or take 17 (2d6 + 10) bludgeoning damage and fall prone. The greatwyrm can then fly up to half its flying speed.",
+        "Mythic actions": "For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.",
+        "Dragon customization": "Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 208–209, bronze variant of the Metallic Greatwyrm. The printed block lists Dexterity, Constitution, Intelligence and Charisma saving throw bonuses. Dragon customization appears on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Copper Greatwyrm",
+    "statBlock": {
+      "name": "Copper Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Gargantuan dragon (metallic), typically lawful good",
+      "ac": 22,
+      "hp": 565,
+      "hitDice": "29d20 + 261",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "28",
+      "xp": 120000,
+      "passivePerception": 32,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A copper dragon can become a greatwyrm by bringing together counterparts across worlds. It can breathe acid or release a cone of sapping gas.",
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 17,
+        "Int": 13,
+        "Cha": 18
+      },
+      "skills": {
+        "Insight": 14,
+        "Perception": 22,
+        "Persuasion": 18
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Acid.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Metallic Awakening (recharges after a short or long rest). When the creature would drop to 0 HP, set its current HP to 450, recharge Breath Weapon, and restore all spent uses of Legendary Resistance. The creature can take mythic actions for the following hour. Award 120,000 extra XP if defeated after this trait activates (240,000 XP total).\nLegendary Resistance (4/day). Turn a failed save into a success.\nUnusual Nature. The greatwyrm needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +18 to hit, reach 15 ft., one target. A hit deals 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage.\nClaw. Melee weapon attack, +18 to hit, reach 10 ft., one target. A hit deals 19 (2d8 + 10) slashing damage. A Huge or smaller creature hit is grappled (escape DC 20) and restrained until the grapple ends. The greatwyrm can hold only one creature with this attack at a time.\nTail. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 21 (2d10 + 10) bludgeoning damage. A creature hit must succeed on a DC 26 Strength save or fall prone.\nBreath Weapon (recharge 5–6). Choose Elemental Breath or Sapping Breath.\nElemental Breath. Each creature in a 300-ft. cone makes a DC 25 Dexterity save, taking 84 (13d12) acid damage on a failure or half on a success.\nSapping Breath. Each creature in a 300-ft. cone makes a DC 25 Constitution save. A failure leaves the creature unconscious for 1 minute. An unconscious creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds on the first save has disadvantage on attack rolls and saving throws until the end of the greatwyrm’s next turn.\nChange Shape. Magically take the form of any Medium or Small creature, retaining the greatwyrm’s statistics except size. The form ends if the greatwyrm drops to 0 HP or spends an action to end it.",
+        "Legendary actions": "The creature has 3 legendary actions. It can take one option at the end of another creature’s turn and regains spent actions at the start of its turn.\nAttack (1 action). Make one Claw or Tail attack.\nWing Attack (2 actions). Each creature within 30 ft. must succeed on a DC 26 Dexterity save or take 17 (2d6 + 10) bludgeoning damage and fall prone. The greatwyrm can then fly up to half its flying speed.",
+        "Mythic actions": "For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature in a 120-ft.-radius sphere centered on the greatwyrm must succeed on a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.",
+        "Dragon customization": "Customize the dragon’s languages or skills to suit its history. Skill changes can include double proficiency or tool proficiencies. Use the optional innate spellcasting guidance for the dragon’s color when adding magic. Other options on p. 34 include alternate senses and the Change Shape, Flyby, Mimicry, Rejuvenation, and Tunneler traits or actions.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 208–209, copper variant of the Metallic Greatwyrm. The printed block lists Dexterity, Constitution, Intelligence and Charisma saving throw bonuses. Dragon customization appears on p. 34."
+      }
+    }
+  }
+]

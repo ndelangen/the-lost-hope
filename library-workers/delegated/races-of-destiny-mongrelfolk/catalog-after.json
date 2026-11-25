@@ -1,0 +1,705 @@
+[
+  {
+    "name": "Mongrelfolk",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherEntry": {
+      "id": "monster-f3f96e7947bfb1b3277b5490",
+      "name": "Mongrelfolk",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Curse of Strahd"
+        }
+      ],
+      "versions": [
+        {
+          "key": "ebfb7dedc5e593f93f7948b6",
+          "publication": "Curse of Strahd",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 1/4. Named abilities include Extraordinary Feature, Mimicry, Bite.",
+          "source": "https://5e.tools/bestiary.html#mongrelfolk_cos",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/6529/151/1000/1000/636985373100391611.jpeg",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Curse of Strahd"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "26"
+            ],
+            [
+              "Hit dice",
+              "4d8 + 8"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 20 ft."
+            ],
+            [
+              "Creature tags",
+              "mongrelfolk"
+            ],
+            [
+              "Alignment",
+              "any alignment"
+            ],
+            [
+              "Strength",
+              "12"
+            ],
+            [
+              "Dexterity",
+              "9"
+            ],
+            [
+              "Constitution",
+              "15"
+            ],
+            [
+              "Intelligence",
+              "9"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "6"
+            ],
+            [
+              "Passive Perception",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +3 to hit · reach 5 ft. · 1d4 + 1 piercing",
+                "Claw · melee · +3 to hit · reach 5 ft. · 1d4 + 1 slashing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Deception +2, Perception +2, Stealth +3"
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Extraordinary Feature · d20 · up to 20 feet · up to 10 feet · Perception · Blinded · Charmed · Deafened · Frightened · Stunned · Unconscious",
+                "Mimicry · DC 12 · Insight"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Bite · Melee attack · +3 to hit · 1d4 + 1 piercing damage · reach 5 ft.",
+                "Claw · Melee attack · +3 to hit · 1d4 + 1 slashing damage · reach 5 ft.",
+                "Dagger · Melee or ranged attack · +3 to hit · 1d4 + 1 piercing damage · reach 5 ft. · range 20/60 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Sound Mimicry",
+                "Outcasts",
+                "Camouflage Experts",
+                "Horrific Offspring"
+              ]
+            }
+          ],
+          "sourceCode": "CoS",
+          "page": 234,
+          "references": [
+            {
+              "label": "Curse of Strahd, p. 234",
+              "url": "https://5e.tools/bestiary.html#mongrelfolk_cos"
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "label": "Blinded (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#blinded_phb",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              },
+              "preview": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            },
+            {
+              "label": "Charmed (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#charmed_phb",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              },
+              "preview": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "label": "Deafened (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#deafened_phb",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              },
+              "preview": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            },
+            {
+              "label": "Frightened (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#frightened_phb",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              },
+              "preview": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            },
+            {
+              "label": "Stunned (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#stunned_phb",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              },
+              "preview": {
+                "name": "Stunned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-d8bc271631b0ee01401d9eda",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                }
+              }
+            },
+            {
+              "label": "Unconscious (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#unconscious_phb",
+              "local": {
+                "entry": "compendium-f8c99497573ef8dfe75b50cd",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#unconscious_phb"
+              },
+              "preview": {
+                "name": "Unconscious",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You cannot act, move, or speak. You drop what you are holding and fall prone.",
+                "local": {
+                  "entry": "compendium-f8c99497573ef8dfe75b50cd",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#unconscious_phb"
+                }
+              }
+            },
+            {
+              "label": "Insight (skill)",
+              "url": "https://5e.tools/skills.html#insight_phb",
+              "local": {
+                "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+              },
+              "preview": {
+                "name": "Insight",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                  "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                }
+              }
+            },
+            {
+              "label": "Stealth (skill)",
+              "url": "https://5e.tools/skills.html#stealth_phb",
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              },
+              "preview": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "label": "Greater restoration (spell)",
+              "url": "https://5e.tools/spells.html#greater%20restoration_phb",
+              "local": {
+                "entry": "compendium-634b6a304a22a9fd1283a00c",
+                "version": "PHB:246:https://5e.tools/spells.html#greater%20restoration_phb"
+              },
+              "preview": {
+                "name": "Greater Restoration",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 246,
+                "description": "Remove one serious affliction, such as Petrified or Charmed, an applicable curse, a reduction to a score or hit point maximum, or a level of exhaustion.",
+                "local": {
+                  "entry": "compendium-634b6a304a22a9fd1283a00c",
+                  "version": "PHB:246:https://5e.tools/spells.html#greater%20restoration_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Deception +2, Perception +2, Stealth +3": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Deception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-0839cb8ea42ddb14652f72af",
+                    "version": "PHB:178:https://5e.tools/skills.html#deception_phb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 24,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 29,
+                "end": 36,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "Extraordinary Feature · d20 · up to 20 feet · up to 10 feet · Perception · Blinded · Charmed · Deafened · Frightened · Stunned · Unconscious": [
+              {
+                "start": 62,
+                "end": 72,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 75,
+                "end": 82,
+                "target": {
+                  "name": "Blinded",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                  "local": {
+                    "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                  }
+                }
+              },
+              {
+                "start": 85,
+                "end": 92,
+                "target": {
+                  "name": "Charmed",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                  "local": {
+                    "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                  }
+                }
+              },
+              {
+                "start": 95,
+                "end": 103,
+                "target": {
+                  "name": "Deafened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "You cannot hear and automatically fail checks that require hearing.",
+                  "local": {
+                    "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                  }
+                }
+              },
+              {
+                "start": 106,
+                "end": 116,
+                "target": {
+                  "name": "Frightened",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 290,
+                  "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                  "local": {
+                    "entry": "compendium-879f347e29c83a95483201f4",
+                    "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                  }
+                }
+              },
+              {
+                "start": 119,
+                "end": 126,
+                "target": {
+                  "name": "Stunned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-d8bc271631b0ee01401d9eda",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                  }
+                }
+              },
+              {
+                "start": 129,
+                "end": 140,
+                "target": {
+                  "name": "Unconscious",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You cannot act, move, or speak. You drop what you are holding and fall prone.",
+                  "local": {
+                    "entry": "compendium-f8c99497573ef8dfe75b50cd",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#unconscious_phb"
+                  }
+                }
+              }
+            ],
+            "Mimicry · DC 12 · Insight": [
+              {
+                "start": 18,
+                "end": 25,
+                "target": {
+                  "name": "Insight",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-1f9e2774a7c5b7ca92d7bde8",
+                    "version": "PHB:178:https://5e.tools/skills.html#insight_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Curse of Strahd"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "11814dd076eb175df5c1b492",
+      "publication": "Races of Destiny (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144441M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Human subtype and a 30-ft. base land speed. +4 Constitution, −2 Intelligence, −4 Charisma. Level adjustment +0.",
+            "Low-light vision extends to twice human distance in dim light and retains color and detail.",
+            "Emulate Race (Ex) automatically satisfies the racial requirement of a magic item for any humanoid race. A Mongrelfolk trained in Use Magic Device gets a +4 racial bonus on checks to emulate a nonhumanoid race.",
+            "Sound Imitation (Ex) reproduces any voice or sound the Mongrelfolk has heard. A listener detects the imitation with a DC 16 Will save.",
+            "Diffuse Blood gives +2 racial on saves against spells that target or exclude a particular race when the race named by the spell is human, halfling, dwarf, elf, gnome, goblin, or orc.",
+            "Immune to sleep spells and similar magical effects. +1 racial on saves against enchantment spells and effects, illusion spells and effects, and poison.",
+            "+1 racial on Appraise, Climb, Jump, Listen, Move Silently, Search, and Spot. +4 racial on Hide and Sleight of Hand.",
+            "Common is automatic. Any bonus language may be chosen. Favored class Rogue."
+          ]
+        },
+        {
+          "title": "Original NPC · Mara Fir Vale",
+          "lines": [
+            "Pawnbroker and Rogue.",
+            "Motive. Return an elf-restricted magic clasp before someone redeems it with a copied pawn ticket.",
+            "Hook. Mara can demonstrate the clasp for the party once they find the owner listed in her ledger.",
+            "Mongrelfolk pawnbroker, Rogue 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human)",
+            "AC 14 · HP 9 (1d6+3) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Tavin Nek Reed",
+          "lines": [
+            "Ferry bellkeeper and Expert.",
+            "Motive. Find out who rang the ferry in after it had already docked for the night.",
+            "Hook. Tavin can imitate the cracked ferry bell. The party can watch the landing to see who comes for the crossing.",
+            "Mongrelfolk ferry bellkeeper, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Human)",
+            "AC 13 · HP 10 (1d6+4) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Mara Fir Vale": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Mara Fir Vale",
+              "group": "Mongrelfolk",
+              "publication": "Mongrelfolk pawnbroker, Rogue 1",
+              "local": {
+                "entry": "npc-b83f4ff45d8c155f587c0520",
+                "version": "fd989314d6900c827526a1d9"
+              }
+            }
+          }
+        ],
+        "Original NPC · Tavin Nek Reed": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Tavin Nek Reed",
+              "group": "Mongrelfolk",
+              "publication": "Mongrelfolk ferry bellkeeper, Expert 1",
+              "local": {
+                "entry": "npc-df477aaf95540cc75e75cc3e",
+                "version": "c093d7fb25166ef0bad3b3d1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Mongrelfolk": true,
+      "mongrelfolk emulate race": true,
+      "mongrelfolk diffuse blood": true,
+      "mongrelfolk sound imitation": true,
+      "mongrelfolk pawnbroker": true,
+      "mongrelfolk ferry bellkeeper": true
+    },
+    "hash": "bc472884378d622743a2bf9b0d508db4db5051d240cfc03457813a2f27567050",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Destiny (2004)",
+    "defaultVersionKey": "11814dd076eb175df5c1b492",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

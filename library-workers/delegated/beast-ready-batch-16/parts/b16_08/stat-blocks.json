@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Giant Fly",
+    "publication": "Dungeon Master's Guide (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., Fly 60 ft.",
+    "cr": "Not listed",
+    "passivePerception": 10,
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No languages in the creature block. The block gives no XP or specific attack.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dark horsefly with large compound eyes, short antennae, and veined wings.",
+    "habitats": [],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Dungeon Master's Guide (2014), Chapter 7, Figurine of Wondrous Power, p. 169. https://www.dndbeyond.com/magic-items/4831-figurine-of-wondrous-power-ebony-fly",
+      "Figurine use": "As an action, speak the command word. Throw the figurine to a point on the ground within 60 ft. It becomes a living Giant Fly if there is space and the destination is clear of creatures and objects. The fly can carry a rider and remains for up to 12 hours. The fly is friendly to you and your companions, understands your languages, and follows spoken commands. Without a command, the fly defends itself and takes no other actions. It returns to figurine form when time expires or it drops to 0 HP. The figurine can be used again after 2 days. It also reverts if you spend an action speaking the command word while touching it."
+    },
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    }
+  },
+  {
+    "name": "Giant Fly",
+    "publication": "Dungeon Master's Guide (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., Fly 60 ft.",
+    "cr": "0",
+    "xp": 0,
+    "initiative": 1,
+    "initiativeScore": 11,
+    "proficiencyBonus": 2,
+    "passivePerception": 10,
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 1,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Darkvision 60 ft. Passive Perception 10. No languages in the creature block.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dark horsefly with large compound eyes, short antennae, and veined wings.",
+    "habitats": [],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Dungeon Master's Guide (2024), Chapter 7, Figurine of Wondrous Power, p. 261. https://www.dndbeyond.com/magic-items/9228613-figurine-of-wondrous-power-ebony-fly",
+      "Figurine use": "Take a Magic action. Throw the figurine to a point on the ground within 60 ft. It becomes a living Giant Fly if there is space and the destination is clear of creatures and objects. The fly can carry a rider and remains for up to 12 hours. The fly is friendly to you and your allies, understands your languages, and obeys your commands. It acts immediately after you on the same initiative count. Without a command, the fly defends itself and takes no other actions. It returns to figurine form when time expires or it drops to 0 HP. The figurine can be used again after 2 days. It also reverts if you take a Magic action to make it revert while touching it."
+    },
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    }
+  },
+  {
+    "name": "Wolf of the Overworld",
+    "publication": "Monstrous Compendium Vol. 3: Minecraft Creatures",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "passivePerception": 15,
+    "otherStatistics": "AC includes natural armor. Perception +5. Stealth +4. Passive Perception 15. Proficiency bonus +2. No languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A gray-furred wolf with a thick coat, pointed ears, and a bushy tail.",
+    "habitats": [
+      "Forest",
+      "Taiga"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast with Mojang Studios, Monstrous Compendium Vol. 3: Minecraft Creatures, Wolf of the Overworld, p. 7. ",
+      "Traits": "Pack Tactics. The wolf has advantage on attack rolls against a creature within 5 ft. of one of its allies, provided that ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) piercing damage. A creature hit must succeed on a DC 11 Strength save or fall prone.",
+      "Encounter notes": "Wild wolves usually ignore humanoids but their pack turns hostile if someone hurts a pack member. Adventurers can tame one by feeding and caring for it. Even tame wolves instinctively attack animated skeletons unless told to sit."
+    },
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    }
+  },
+  {
+    "name": "Hippocampus",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 42,
+    "speed": "10 ft., Swim 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Ability modifiers STR +4, DEX +1, CON +1, INT -4, WIS +1, CHA -1. Fixed Perception 13. Fixed Stealth 11. Cold damage resistance. Darkvision 60 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A blue-green creature with horse forequarters, coral-pink fins, and a curving fish tail.",
+    "habitats": [
+      "Coastal",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Open Design LLC d/b/a Kobold Press, Black Flag Roleplaying Reference Document v0.2, Monsters, pp. 305–306. ",
+      "Traits": "Amphibious. The hippocampus can breathe air and water.\n\nShared Breath. Its gills release extra air as bubbles along its neck and back. An air-breathing rider can use the bubbles for fresh air while the hippocampus is neither fighting nor traveling at a fast pace.",
+      "Actions": "Multiattack. Make one Bite and one Tail Slap.\n\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 7 (1d6 + 4) piercing damage.\n\nTail Slap. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 8 (1d8 + 4) bludgeoning damage.",
+      "Bonus actions": "Rearing Kick. The hippocampus rears and kicks with its forelegs at one creature it can see within 5 ft. The target makes a DC 14 Strength save. On a failure, the hippocampus chooses whether to knock it prone or push it up to 10 ft. away."
+    }
+  },
+  {
+    "name": "Orca",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 12,
+    "hp": 80,
+    "speed": "0 ft., Swim 60 ft.",
+    "cr": "3",
+    "xp": 700,
+    "otherStatistics": "Ability modifiers STR +4, DEX +0, CON +1, INT -4, WIS +1, CHA -2. AC includes natural armor. Fixed Perception 13. Fixed Stealth 10. Cold damage resistance. Keensense 120 ft. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black-and-white orca with a tall dorsal fin, pale eye patches, and a broad fluked tail.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Open Design LLC d/b/a Kobold Press, Black Flag Roleplaying Reference Document v0.2, Monsters, p. 365. ",
+      "Traits": "Echolocation. The orca loses use of its keensense while deafened.\n\nHeightened Hearing. Its Perception is 18 when it relies on hearing.\n\nHold Breath. The orca can hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make two Bite attacks.\n\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 14 (3d6 + 4) piercing damage.",
+      "Bonus actions": "Tail Slap. The orca slaps one creature it can see within 15 ft. The target makes a DC 14 Strength save. On a failure, the target is pushed up to 15 ft. away and knocked prone. If it fails by 5 or more, it is also stunned through the end of its next turn."
+    }
+  }
+]

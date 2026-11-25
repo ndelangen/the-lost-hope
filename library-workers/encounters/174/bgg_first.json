@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Giant Ox",
+    "statBlock": {
+      "name": "Giant Ox",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 152,
+      "classification": "Huge fey, unaligned",
+      "ac": 12,
+      "hp": 105,
+      "hitDice": "10d12 + 40",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "These shaggy oxen pull giants’ plows and haul their carts. Their coats can be bright blue or deep violet.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Understands Giant and Sylvan but cannot speak.",
+        "Traits": "Beast of Burden. Count the ox as one size larger when determining its carrying capacity.",
+        "Actions": "Gore. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 13 (2d6 + 6) piercing damage. If the ox moved at least 20 ft. straight toward the target immediately before the hit, it deals another 7 (2d6) piercing damage and the target must succeed on a DC 16 Strength saving throw or fall prone.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 152."
+      }
+    }
+  },
+  {
+    "name": "Giant Ram",
+    "statBlock": {
+      "name": "Giant Ram",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 153,
+      "classification": "Large fey, unaligned",
+      "ac": 13,
+      "hp": 28,
+      "hitDice": "3d10 + 12",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Giants prize this ram for its fleece, which stores ambient magic and absorbs spells. The ram releases that energy to drive off predators.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Traits": "Magic Resistance. The ram has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Ram. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage plus 3 (1d6) force damage. If the ram moved at least 20 ft. straight toward the target immediately before the hit, the target must succeed on a DC 14 Strength saving throw or fall prone.\nForce Bolt. Ranged spell attack, +4 to hit, range 30 ft., one target. A hit deals 7 (2d6) force damage.",
+        "Reactions": "Absorbent Fleece (Recharge 6). Immediately after the ram succeeds on a saving throw against a spell or a spell attack misses it, it can make one Force Bolt attack.",
+        "Magic fleece": "Fleece shorn without harming the ram can be woven into a Cloak of Protection or used to line Armor of Resistance to cold, fire, or lightning.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 153."
+      }
+    }
+  },
+  {
+    "name": "Giant Tick",
+    "statBlock": {
+      "name": "Giant Tick",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 153,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A boar-sized parasite that feeds on giants and readily attacks smaller prey.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Actions": "Proboscis. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 10 (2d6 + 3) piercing damage and attaches the tick to the target. It cannot use Proboscis while attached. It can spend 5 ft. of movement to detach. A creature within reach of the tick can use an action and succeed on a DC 13 Strength check to detach it.\nBlood Drain. Choose one creature the tick is attached to, other than a construct or undead. It takes 10 (2d6 + 3) necrotic damage, or 17 (4d6 + 3) if it is a giant. The tick regains HP equal to the damage dealt.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 153."
+      }
+    }
+  },
+  {
+    "name": "Gigant",
+    "statBlock": {
+      "name": "Gigant",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 154,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 17,
+      "hp": 325,
+      "hitDice": "21d20 + 105",
+      "speed": "50 ft., burrow 50 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An immense beetle-like hunter pulls prey with its hooked legs so it can catch them in its mandibles. Giants are its preferred prey.",
+      "savingThrows": {
+        "Dex": 8,
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Traits": "Spell-Resistant Carapace. The gigant has advantage on saves against spells. Spell attack rolls against it have disadvantage.",
+        "Actions": "Multiattack. Make one Mandibles attack and two Talons attacks.\nMandibles. Melee weapon attack, +13 to hit, reach 10 ft., one creature. A hit deals 21 (4d6 + 7) slashing damage and grapples the target (escape DC 17). Until the grapple ends, the target takes 21 (4d6 + 7) slashing damage at the start of each of the gigant’s turns. The gigant cannot use Mandibles on another target during that grapple.\nTalons. Melee weapon attack, +13 to hit, reach 20 ft., one target. A hit deals 17 (3d6 + 7) slashing damage and pulls the target 10 ft. straight toward the gigant.\nScale Dust (Recharge 5–6). The gigant releases magical dust from its wings in a 30-ft. cube. Each creature there makes a DC 19 Constitution saving throw, taking 45 (10d8) poison damage on a failure or half on a success. Either result leaves the creature poisoned for 1 hour. It cannot regain hit points while poisoned this way.",
+        "Bonus actions": "Drone. Each creature within 10 ft. makes a DC 19 Constitution saving throw. On a failure, it takes 10 (3d6) thunder damage and is incapacitated until the end of its next turn. The gigant can then fly up to half its flying speed.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 154."
+      }
+    }
+  },
+  {
+    "name": "Goliath Giant-Kin",
+    "statBlock": {
+      "name": "Goliath Giant-Kin",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 155,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Goliaths recognized as kin by giants often mediate between giant clans and other peoples. Their melee strikes can channel their clan’s magic.",
+      "skills": {
+        "Athletics": 6,
+        "Perception": 3,
+        "Survival": 3
+      },
+      "sections": {
+        "Armor": "Half plate and shield.",
+        "Damage resistances": "Cold.",
+        "Languages": "Common, Giant.",
+        "Actions": "Multiattack. Make two Spear attacks.\nSpear. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage with a two-handed melee attack.",
+        "Bonus actions": "Giant’s Strikes (Recharge 5–6). Until the end of this turn, each of the goliath’s melee attacks deals an extra 7 (2d6) damage. The type depends on its giant community: cold for frost, fire for fire, force for stone, lightning for storm, piercing for hill, and thunder for cloud.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 155."
+      }
+    }
+  },
+  {
+    "name": "Grinning Cat",
+    "statBlock": {
+      "name": "Grinning Cat",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 156,
+      "classification": "Large fey, typically chaotic neutral",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "7d10 + 7",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A huge, mischievous cat that questions travelers from an unseen perch. It sometimes reveals only its grin or tail while it talks.",
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Magic Resistance. The cat has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) slashing damage. If the cat was invisible before the attack, the target must succeed on a DC 12 Strength saving throw or fall prone. If the target is prone, the cat can Bite it as a bonus action.\nFade Away. The cat and its equipment magically become invisible over the course of the cat’s turn. The effect lasts for 1 hour or until the cat attacks. The cat can leave a body part such as its tail or grin visible.",
+        "Bonus actions": "Fade Back. The cat makes itself or part of its body visible. Any equipment on the visible part reappears with it.\nGrinning Step. The cat and its equipment teleport up to 60 ft. to an unoccupied space it can see.",
+        "Enchanted whiskers": "A cat can be persuaded to give someone a whisker. A creature holding one can cast Misty Step with it once, after which the whisker goes up in smoke. A slain cat yields 2d12 of these whiskers.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 156."
+      }
+    }
+  },
+  {
+    "name": "Hill Giant Avalancher",
+    "statBlock": {
+      "name": "Hill Giant Avalancher",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Huge giant (druid), any alignment",
+      "ac": 15,
+      "hp": 220,
+      "hitDice": "21d12 + 84",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Hill giant rune workers hang rocks from their armor on ropes or chains. Their control of earth and stone often earns them leadership of a band.",
+      "savingThrows": {
+        "Str": 9,
+        "Con": 8,
+        "Wis": 8
+      },
+      "skills": {
+        "Nature": 7,
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Giant.",
+        "Traits": "Hill Rune. While the giant wears or holds the rock or other object that bears its rune, it can use Stone Avalanche and Hill Rebuff. The object has AC 15 and 20 HP, is immune to necrotic, poison, and psychic damage, and regains all HP at the end of every turn. It turns to dust when it drops to 0 HP or the giant dies. If the rune is destroyed, the giant can inscribe another on an object it possesses when it finishes a short or long rest.\nLegendary Resistance (3/day). The giant can choose to succeed on a saving throw it fails.",
+        "Actions": "Multiattack. Make one Greatclub attack and use Stone Bolas.\nGreatclub. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 18 (3d8 + 5) bludgeoning damage plus 9 (2d8) thunder damage.\nStone Bolas. Throw three stones linked by magical force at a visible creature within 60 ft. It makes a DC 16 Dexterity saving throw. On a failure, it is restrained until the start of the giant’s next turn and the stones erupt, dealing 14 (4d6) thunder damage to the target and each creature within 10 ft. of it. On a success, the stones vanish without erupting.\nStone Avalanche (requires Hill Rune). Conjure rocks in a 20-ft.-radius, 40-ft.-high cylinder centered on a visible point on the ground within 120 ft. Each creature there makes a DC 16 Dexterity saving throw. On a failure, it takes 28 (8d6) bludgeoning damage and falls prone. On a success, it takes half damage. The rocks make the ground in the area difficult terrain until the start of the giant’s next turn, when they vanish.\nSpellcasting. Cast one listed spell using Wisdom (spell save DC 16). At will: Druidcraft, Guidance. 1/day each: Stone Shape, Wall of Stone.",
+        "Reactions": "Hill Rebuff (requires Hill Rune). Immediately after a visible creature within 10 ft. damages the giant, that creature must succeed on a DC 16 Constitution saving throw or take 10 (3d6) force damage and be pushed 10 ft. horizontally away from the giant.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Lightning Hulk",
+    "statBlock": {
+      "name": "Lightning Hulk",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Large elemental, typically chaotic neutral",
+      "ac": 15,
+      "hp": 102,
+      "hitDice": "12d10 + 36",
+      "speed": "0 ft., fly 90 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A living lightning bolt with a giant’s face flickering at its head. It briefly takes on the shape of a storm giant before streaking away again.",
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 7,
+        "Wis": 6,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Damage resistances": "Cold and thunder. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Lightning, poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Languages": "Auran, Giant.",
+        "Traits": "Illumination. The hulk sheds bright light for 20 ft. and dim light for another 20 ft.\nLightning Form. The hulk can enter and stop in hostile creatures’ spaces, and can move through openings as narrow as 1 inch without squeezing. A creature takes 7 (2d6) lightning damage the first time the hulk enters its space on a turn or if the hulk starts its turn there. A creature also takes 7 (2d6) lightning damage if it touches the hulk or hits it with a melee attack while within 5 ft.",
+        "Actions": "Arc Lightning. Melee or ranged weapon attack, +9 to hit, reach 10 ft. or range 60 ft., one target. A hit deals 18 (4d8) lightning damage. A creature hit cannot take reactions until the start of its next turn. If the target is a creature, lightning also jumps to another creature the hulk chooses and can see within 30 ft. of the target. The second creature must succeed on a DC 18 Dexterity saving throw or take 18 (4d8) lightning damage.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 158."
+      }
+    }
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "name": "Kuo-toa Archpriest",
+    "statBlock": {
+      "name": "Kuo-toa Archpriest",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 191,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 13,
+      "hp": 105,
+      "hitDice": "14d8 + 42",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 19,
+      "skills": {
+        "Perception": 9,
+        "Religion": 4
+      },
+      "description": "A priest of the kuo-toa wields lightning through a scepter and calls on its faith to protect allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 120 ft., Truesight 30 ft.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. The kuo-toa breathes both air and water.\nSunlight Sensitivity. In sunlight, it has Disadvantage on ability checks and attack rolls.",
+        "Actions": "Multiattack. Make three Strange Scepter attacks.\nStrange Scepter. Melee or ranged attack, +6 to hit, reach 5 ft. or range 120 ft. A hit deals 20 (5d6 + 3) lightning damage.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (save DC 14) without Material components.\nAt will. Detect Magic, Thaumaturgy.\n1/day each. Destructive Wave, Divination, Hold Monster (level 6 version), Scrying, Tongues.",
+        "Bonus actions": "Shield of Faith (2/day). Cast Shield of Faith using Wisdom, as in Spellcasting.",
+        "Habitats": "Coastal and Underdark.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 191."
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa Monitor",
+    "statBlock": {
+      "name": "Kuo-toa Monitor",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 13,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6,
+        "Religion": 3
+      },
+      "description": "A kuo-toa enforcer keeps enemies at a distance with a whip of bone and lightning.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft., Truesight 30 ft.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. The kuo-toa breathes both air and water.\nSunlight Sensitivity. In sunlight, it has Disadvantage on ability checks and attack rolls.",
+        "Actions": "Multiattack. Make two Bone Whip attacks.\nBone Whip. Melee attack, +5 to hit, reach 10 ft. A hit deals 6 (1d6 + 3) slashing damage plus 7 (2d6) lightning damage. The target cannot make Opportunity Attacks until the start of the kuo-toa's next turn.",
+        "Habitats": "Coastal and Underdark.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 190."
+      }
+    }
+  },
+  {
+    "name": "Kuo-toa Whip",
+    "statBlock": {
+      "name": "Kuo-toa Whip",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium aberration, neutral evil",
+      "ac": 11,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 16,
+      "skills": {
+        "Perception": 6,
+        "Religion": 3
+      },
+      "description": "A kuo-toa devotee pins foes with a pincer staff, hurls caustic slime, and casts Shield of Faith.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft., Truesight 30 ft.",
+        "Languages": "Undercommon.",
+        "Traits": "Amphibious. The kuo-toa breathes both air and water.\nSunlight Sensitivity. In sunlight, it has Disadvantage on ability checks and attack rolls.",
+        "Actions": "Pincer Staff. Melee attack, +4 to hit, reach 10 ft. A hit deals 9 (2d6 + 2) piercing damage. A Medium or smaller creature hit is Grappled, escape DC 12. The kuo-toa cannot make Pincer Staff attacks while this grapple lasts.\nConjure Slimy Glob. Ranged attack, +4 to hit, range 60 ft. A hit deals 9 (3d4 + 2) acid damage.",
+        "Bonus actions": "Shield of Faith (2/day). Cast Shield of Faith using Wisdom.",
+        "Habitats": "Coastal and Underdark.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 190."
+      }
+    }
+  },
+  {
+    "name": "Quaggoth",
+    "statBlock": {
+      "name": "Quaggoth",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 251,
+      "classification": "Medium monstrosity, chaotic neutral",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 11,
+      "skills": {
+        "Athletics": 5
+      },
+      "description": "A long-clawed Underdark predator climbs as fast as it walks and fights hardest when wounded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Undercommon.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Bloodied Fury. While Bloodied, the quaggoth has Advantage on attack rolls.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) slashing damage. While the quaggoth is Bloodied, a hit deals 13 (3d6 + 3) slashing damage instead.",
+        "Habitats": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 251."
+      }
+    }
+  },
+  {
+    "name": "Quaggoth Thonot",
+    "statBlock": {
+      "name": "Quaggoth Thonot",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 251,
+      "classification": "Medium monstrosity, chaotic neutral",
+      "ac": 15,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "skills": {
+        "Athletics": 5
+      },
+      "description": "A quaggoth with psionic gifts can fend off harm and strike at the mind as well as the body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Undercommon.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Bloodied Fury. While Bloodied, the quaggoth has Advantage on attack rolls.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) slashing damage plus 5 (2d4) psychic damage.",
+        "Spellcasting": "As an action, cast one spell with Wisdom (save DC 12), requiring no spell components.\nAt will. Mage Hand (the hand is Invisible), Minor Illusion.\n2/day. Mind Spike.",
+        "Reactions": "Psionic Defense (3/day total). When Feather Fall or Shield is triggered, cast the triggering spell without components using Wisdom, as in Spellcasting. Both spells draw from the same three uses.",
+        "Habitats": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 251."
+      }
+    }
+  },
+  {
+    "name": "Sahuagin Baron",
+    "statBlock": {
+      "name": "Sahuagin Baron",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 265,
+      "classification": "Large fiend, lawful evil",
+      "ac": 16,
+      "hp": 76,
+      "hitDice": "9d10 + 27",
+      "speed": "30 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "description": "This four-armed sea fiend leads sahuagin raids and turns its own spilled blood into a curse.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+5 (15).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Sahuagin.",
+        "Damage resistances": "Acid and cold.",
+        "Gear": "Breastplate and trident.",
+        "Traits": "Blood Frenzy. The sahuagin has Advantage on attack rolls against any creature below its hit point maximum.\nLimited Amphibiousness. The sahuagin breathes air and water and must submerge at least once every 4 hours to avoid suffocating outside water.\nShark Telepathy. The sahuagin can use special telepathy to magically control sharks within 120 ft.",
+        "Actions": "Multiattack. Make three Trident attacks.\nTrident. Melee or ranged attack, +7 to hit, reach 5 ft. or range 20/60 ft. A hit deals 13 (2d8 + 4) piercing damage.",
+        "Reactions": "Fiendish Blood. When the sahuagin takes piercing or slashing damage, each creature it chooses in a 5-ft. Emanation from it makes a DC 14 Constitution save. On a failure, the creature takes 10 (3d6) acid damage and is cursed until it finishes a Short or Long Rest. While cursed, the creature cannot benefit from being Invisible, its Speed decreases by 10 ft., and every Fiend within 120 ft. of the creature can sense its location even through obstacles.",
+        "Habitats": "Coastal and underwater.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 265."
+      }
+    }
+  },
+  {
+    "name": "Merrow",
+    "statBlock": {
+      "name": "Merrow",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 210,
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "10 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "An ogre-like aquatic hunter uses a harpoon to pull prey toward its jaws. Merrow ambush travelers in coastal waters and raid nearby settlements.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Primordial (Aquan).",
+        "Traits": "Amphibious. The merrow breathes both air and water.",
+        "Actions": "Multiattack. Make two attacks in any combination of Bite, Claw, and Harpoon.\nBite. Melee attack, +6 to hit, reach 5 ft. A hit deals 6 (1d4 + 4) piercing damage and leaves the target Poisoned until the end of the merrow's next turn.\nClaw. Melee attack, +6 to hit, reach 5 ft. A hit deals 9 (2d4 + 4) slashing damage.\nHarpoon. Melee or ranged attack, +6 to hit, reach 5 ft. or range 20/60 ft. A hit deals 11 (2d6 + 4) piercing damage. The merrow pulls a Large or smaller creature hit by the harpoon up to 15 ft. straight toward itself.",
+        "Habitats": "Coastal and underwater.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 210."
+      }
+    }
+  }
+]

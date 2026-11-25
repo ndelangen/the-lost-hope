@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Mousefolk",
+    "kind": "species",
+    "publication": "Mage Hand Press: Mousefolk (2021)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small. Walk 25 ft. Dexterity +2. Darkvision 60 ft. and Stealth proficiency. Speaks, reads and writes Common. Speaks Rodentia, which has no established script.",
+      "Scurry treats spaces occupied by hostile creatures as difficult terrain and allows passage through them. Squeeze removes the usual squeezing penalties in a space for a creature one size smaller.",
+      "Mouseling: Charisma +1 and advantage on saves against fear. In light armor or no armor, use your reaction to give disadvantage to an opportunity attack from a creature you can see. Large round ears and round black eyes. Mouselings traditionally sew and wear their own hoods.",
+      "Ratling: Strength +1. Advantage on saves against poison and resistance to poison damage. An action can break a small unattended nonmagical object by gnawing it. One minute of chewing can open a Tiny-sized hole in a wooden wall or floor. Teeth cannot chew through harder substances such as metal, stone or crystals."
+    ]
+  },
+  {
+    "name": "Sirine",
+    "kind": "species",
+    "publication": "Mage Hand Press: Sirine (2017)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium amphibious fey of the Material Plane. Walk and swim 30 ft. Breathe in air and water. Charisma +2 and Dexterity +1.",
+      "Advantage on saves against being charmed. Magic cannot induce sleep. Effects that target fey can affect a Sirine.",
+      "Performance proficiency. Speaks, reads and writes Sylvan and one other language of choice.",
+      "Cast charm person once per long rest. At 5th level, gain a separate once-per-long-rest casting of suggestion. Use Charisma for each spell and omit material components."
+    ]
+  },
+  {
+    "name": "Fetchling",
+    "kind": "species",
+    "publication": "Mage Hand Press: Fetchling (2016)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium. Walk 30 ft. Dexterity +2 and Charisma +1. Knows Common and one other language of choice. Darkvision 120 ft. and cold damage resistance.",
+      "Direct sunlight imposes disadvantage on attack rolls and sight-based Perception checks if it shines on you, the target or what you are trying to see.",
+      "Evil Eye takes an action and targets one creature within 30 ft. that you can see and that can see you. Wisdom save DC 8 + proficiency bonus + Charisma modifier. On a failure the victim is frightened for 1 minute. Repeat at the end of each of its turns, with disadvantage if it can see you. A success ends the effect and protects the creature from it for 24 hours.",
+      "Recluse allows Hide as a bonus action while you are in dim light or darkness. The source describes gaunt features, grey skin and eyes that reflect light."
+    ]
+  },
+  {
+    "name": "Myconid",
+    "kind": "species",
+    "publication": "Mage Hand Press: Myconid (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium mobile fungus. Walk 30 ft. Wisdom +2 and Constitution +1. There is no conventional spoken language. Nonverbal Magic allows spells with verbal components.",
+      "More than 1 minute in direct sunlight imposes the poisoned condition. It clears after 1 minute of dim light or darkness.",
+      "Rapport Spores connect you and eligible creatures within 15 ft. telepathically. They can talk with each other too. The Intelligence minimum is 2. Undead, constructs and elementals are excluded, and you may suppress the link at will.",
+      "Pacifying Spores take an action and target a creature you see within 5 ft. A failed DC 11 Constitution save stuns for up to 1 minute, with a repeat save at the end of each turn. Undead, constructs and elementals automatically succeed. Regain use after a long rest.",
+      "Hallucination Spores take an action and affect creatures within 30 ft. using minor illusion while you concentrate. Undead, constructs and elementals are excluded. DC is 8 + proficiency bonus + Intelligence modifier. The publisher gives no separate use limit.",
+      "When you take a long rest with at least two other Myconids, you may meld. The meld returns every spent Hit Die. Also choose one benefit: gain advantage on the next save within 24 hours, end a disease or the blinded, deafened, paralyzed or poisoned condition on yourself, or gain an inspiration point."
+    ]
+  }
+]

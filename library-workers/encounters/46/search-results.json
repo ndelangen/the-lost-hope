@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Aurumvas",
+    "query": "reptilian gold robe abyssal vaults greed is good",
+    "condition": "Charmed",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Pitling",
+    "query": "tiny verminlike abyssal wasteland soul feast",
+    "condition": "Poisoned",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

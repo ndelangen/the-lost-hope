@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "beast-02766f3002eaa501317fc1ac",
+    "version": "ccad7a1393721ff0954c51f2",
+    "name": "Crocodile",
+    "file": "images/night-of-the-walking-dead-beasts/crocodile.png",
+    "sha256": "dd125da20433b10de5f05477f5e3f17cb538d6eccf79c0b819715480a7ace6a6",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9eac7a553c5f1cd52724dc6f",
+    "version": "992bf5ede2cd59208f531ffd",
+    "name": "Giant Frog",
+    "file": "images/night-of-the-walking-dead-beasts/giant-frog.png",
+    "sha256": "73e5b1c7e40bc80a74d9b9329244661d12212598a5d114a11ac2e0b13449d453",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9c56a844ca4260d80807d1f8",
+    "version": "2258ecc36119a1c1d623418e",
+    "name": "Giant Bat",
+    "file": "images/night-of-the-walking-dead-beasts/giant-bat.png",
+    "sha256": "b642f3766b8d50778042fdc87e85e8bddc16fbad293e506f05c005f6f91a982a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d52fae2d1ea07a53f2c1ee64",
+    "version": "36bda090954a356449fb30fd",
+    "name": "Giant Rat",
+    "file": "images/night-of-the-walking-dead-beasts/giant-rat.png",
+    "sha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+    "credit": "OpenAI ImageGen"
+  }
+]

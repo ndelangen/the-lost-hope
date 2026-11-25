@@ -1,0 +1,35 @@
+{
+  "commit": "c980d5ff2c4cfc5544749e74294a29f4e560a85d",
+  "publication": "Curse of Strahd",
+  "encounterVersions": 3,
+  "fullStatBlocks": 3,
+  "curseOfStrahdRecordsWithLocalRules": 109,
+  "generatedPortraitsInstalled": 3,
+  "firstGeneratedPortraits": 3,
+  "generatedDraftsBackedUp": 6,
+  "creditedGalleriesVerified": 3,
+  "allRecentVersionsWithGeneratedPortrait": 532,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-25-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-25-style-reference.jpg",
+  "draftComparison": "output/dm-library/review/encounters-25-draft-comparison.jpg",
+  "styleDirection": "Use actual campaign event and stage illustrations for lighting, rendering and palette. Keep the library avatar square, with a light, subtly textured parchment background.",
+  "results": "output/dm-library/encounter-batches/25/results.json",
+  "searchResults": "output/dm-library/encounter-batches/25/search-results.json",
+  "aliasesVerified": "output/dm-library/encounter-batches/25/alias-results.json",
+  "nextSourcePublication": "Phandelver and Below: The Shattered Obelisk",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Aberrant Zealot (Variant)",
+      "source": "https://www.dndbeyond.com/monsters/3805735-aberrant-zealot-variant",
+      "challenge": "8"
+    },
+    {
+      "name": "Goblin Boss (Variant)",
+      "source": "https://www.dndbeyond.com/monsters/3805745-goblin-boss-variant",
+      "challenge": "1"
+    }
+  ],
+  "catalogFollowUp": "The current imports are corrected. The upstream 5e.tools version data still mislabels the three Eberron quori vessels as Wildemount; preserve the verified aliases during any future import."
+}

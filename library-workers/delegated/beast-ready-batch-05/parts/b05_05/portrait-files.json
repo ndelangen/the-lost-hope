@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "hunter-shark",
+    "file": "portraits/hunter-shark.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "killer-whale",
+    "file": "portraits/killer-whale.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

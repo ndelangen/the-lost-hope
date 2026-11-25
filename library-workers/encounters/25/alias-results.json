@@ -1,0 +1,32 @@
+[
+  {
+    "alias": "Inspired (Quori Vessel; Hashalaq)",
+    "name": "Inspired (Hashalaq variant)",
+    "publication": "Eberron: Rising from the Last War",
+    "source": "https://www.dndbeyond.com/monsters/489163-inspired-hashalaq-variant"
+  },
+  {
+    "alias": "Inspired (Quori Vessel; Kalaraq)",
+    "name": "Inspired (Kalaraq variant)",
+    "publication": "Eberron: Rising from the Last War",
+    "source": "https://www.dndbeyond.com/monsters/489171-inspired-kalaraq-variant"
+  },
+  {
+    "alias": "Inspired (Quori Vessel; Tsucora)",
+    "name": "Inspired (Tsucora variant)",
+    "publication": "Eberron: Rising from the Last War",
+    "source": "https://www.dndbeyond.com/monsters/489176-inspired-tsucora-variant"
+  },
+  {
+    "alias": "Rosavalda \"Rose\" Durst",
+    "name": "Rose Durst",
+    "publication": "Curse of Strahd",
+    "source": "https://www.dndbeyond.com/monsters/356626-rose-durst"
+  },
+  {
+    "alias": "Thornboldt \"Thorn\" Durst",
+    "name": "Thorn Durst",
+    "publication": "Curse of Strahd",
+    "source": "https://www.dndbeyond.com/monsters/356633-thorn-durst"
+  }
+]

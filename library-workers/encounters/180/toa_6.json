@@ -1,0 +1,508 @@
+[
+  {
+    "name": "Tomb Dwarf",
+    "statBlock": {
+      "name": "Tomb Dwarf",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 134,
+      "classification": "Medium undead, lawful evil",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "Acererak turned kidnapped dwarf miners into wights to build and maintain his tomb. A worker at the grand staircase wears a mask shaped like the entrance’s devil face.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Studded leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Languages": "Any languages it knew in life.",
+        "Traits": "Sunlight Sensitivity. In sunlight, roll attacks and sight-based Wisdom (Perception) checks with disadvantage.\nUndead Nature. It does not require air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Battleaxe attacks or two Light Crossbow attacks. One Battleaxe attack can be replaced with Life Drain.\nLife Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) necrotic damage. On a failed DC 13 Constitution save, reduce the target’s hit point maximum by the damage taken until it finishes a long rest. The target dies if the reduction leaves it with a maximum of 0. A Humanoid killed by this attack rises as a Zombie under the attacker’s control 24 hours later unless restored to life or its body is destroyed. Up to twelve Zombies can be controlled at a time.\nBattleaxe. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) if wielded in two hands.\nLight Crossbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Grand staircase": "The dwarf retreats through a secret door to area 25 unless the characters catch it immediately in area 7A.",
+        "Base stat block": "The adventure uses the 2014 Wight with a Battleaxe and Light Crossbow. Its Multiattack uses those weapons in the roles of the Wight’s original weapons.",
+        "Printed source": "Tomb of Annihilation, ch. 5, p. 134 (area 7A)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Wight",
+          "terms": [
+            "Wight",
+            "wights"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#wight_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Zombie",
+          "terms": [
+            "Zombie",
+            "Zombies"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zombie_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Acererak",
+          "terms": [
+            "Acererak"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#acererak_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tri-flower Frond",
+    "statBlock": {
+      "name": "Tri-flower Frond",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 234,
+      "classification": "Medium plant, unaligned",
+      "ac": 10,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "This walking Chultan plant grows three large trumpet-shaped flowers in orange, yellow, and red. Each flower attacks in a different way.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Blindsight 30 ft.",
+        "Condition immunities": "Blinded, deafened, exhaustion, prone.",
+        "Actions": "Multiattack. Use Orange Blossom, then Yellow Blossom, then Red Blossom.\nOrange Blossom. Choose one creature the frond can see within 5 ft. On a failed DC 11 Constitution save, the target is poisoned for 1 hour and unconscious while poisoned this way. It can repeat the save at the end of every minute, ending the effect on a success.\nYellow Blossom. Choose one creature the frond can see within 5 ft. On a failed DC 11 Dexterity save, corrosive sap coats the target and deals 5 acid damage at the start of each of its turns. Each pint or flask of water poured over it reduces that recurring damage by 1.\nRed Blossom. Melee weapon attack, +2 to hit, reach 5 ft., one creature. On a hit, deal 2 (1d4) piercing damage. The target is grappled (escape DC 11). While this grapple lasts, the target takes 5 (2d4) poison damage at the start of each of its turns. The blossom can grapple one target at a time. Another creature within the frond’s reach can use its action to free the target.",
+        "Encounters": "On the trail, a patch of 1d4 fronds passes for harmless plants until it strikes. Around a camp, the fronds creep closer and use Orange Blossom to incapacitate targets before attacking with the others. Three fronds grow in the garden at area 5B of Nangalore.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 234. The ability scores follow the printed stat block. See also appendix B for encounter tactics."
+      }
+    }
+  },
+  {
+    "name": "Tyrannosaurus Zombie",
+    "statBlock": {
+      "name": "Tyrannosaurus Zombie",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 241,
+      "classification": "Huge undead, unaligned",
+      "ac": 11,
+      "hp": 136,
+      "hitDice": "13d12 + 52",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 6,
+      "description": "This reanimated dinosaur carries independent Zombies in its gullet. They can spill out even after the dinosaur falls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Undead Fortitude. When damage would reduce it to 0 HP, roll a Constitution save with DC 5 plus the damage taken. On a success, it drops to 1 HP instead. Radiant damage and critical hits bypass this trait.\nDisgorge Zombie. As a bonus action, a regular Zombie emerges into a free space within 10 ft. and acts on its own initiative count. After each use, roll a d6. On a 1, the dinosaur runs out of Zombies and loses this trait. If it has this trait when it dies, 1d4 Zombies burst out at the start of what would have been its next turn. They also act on their own initiative.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 33 (4d12 + 7) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 17) and restrained until the grapple ends. The dinosaur cannot bite another target or Disgorge Zombie while holding it.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 20 (3d8 + 7) bludgeoning damage.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 241."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Zombie",
+          "terms": [
+            "Zombie",
+            "Zombies",
+            "regular Zombie"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zombie_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Valindra Shadowmantle",
+    "statBlock": {
+      "name": "Valindra Shadowmantle",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 58,
+      "classification": "Medium undead, neutral evil",
+      "ac": 17,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 19,
+      "description": "An elven lich working for Szass Tam, Valindra searches Chult for the Soulmonger. At the Heart of Ubtao she passes for a living scholar and may enlist the party to further her search.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10,
+        "Int": 12,
+        "Wis": 9
+      },
+      "skills": {
+        "Arcana": 19,
+        "History": 12,
+        "Insight": 9,
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Infernal.",
+        "Damage resistances": "Cold, lightning, necrotic.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Traits": "Preparation. When preparing spells, she can replace any prepared spell with a wizard spell of the same level.\nLegendary Resistance (3/day). She can choose to succeed when she fails a saving throw.\nRejuvenation. If destroyed with her phylactery intact, she returns at full HP in 1d10 days within 5 ft. of it.\nTurn Resistance. Roll saves against effects that turn undead with advantage.\nUndead Nature. It does not require air, food, drink, or sleep.",
+        "Actions": "Paralyzing Touch. Melee spell attack, +12 to hit, reach 5 ft., one creature. A hit deals 10 (3d6) cold damage. The target makes a DC 18 Constitution save or becomes paralyzed for 1 minute. At the end of each of its turns it can repeat the save, ending the condition on a success.",
+        "Bonus actions": "Mask. Magically appear as a living elf. She can end the illusion with a bonus action. It also ends when she uses Frightening Gaze, drops to 30 HP or fewer, or is targeted by Dispel Magic.",
+        "Legendary actions": "Valindra has three legendary actions. Use one option at a time at the end of another creature’s turn. Her uses refresh at the start of her own turn.\nCantrip (1 action). Cast a cantrip.\nParalyzing Touch (2 actions). Use Paralyzing Touch.\nFrightening Gaze (2 actions). A creature she can see within 10 ft. must pass a DC 18 Wisdom save against this magic or become frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the fear on a success. A successful initial save or the end of the effect grants immunity to her gaze for 24 hours.\nDisrupt Life (3 actions). Each creature other than Undead within 20 ft. takes 21 (6d6) necrotic damage on a failed DC 18 Constitution save against this magic, or half on a success.",
+        "Spellcasting": "18th-level wizard. Intelligence, spell save DC 20, +12 to hit with spell attacks.\nAt will: Mage Hand, Prestidigitation, Ray of Frost.\n1st level (4 slots): Detect Magic, Magic Missile, Shield, Thunderwave.\n2nd level (3 slots): Detect Thoughts, Invisibility, Melf’s Acid Arrow, Mirror Image.\n3rd level (3 slots): Animate Dead, Counterspell, Dispel Magic, Fireball.\n4th level (3 slots): Blight, Dimension Door.\n5th level (3 slots): Cloudkill, Scrying.\n6th level (1 slot): Disintegrate, Globe of Invulnerability.\n7th level (1 slot): Finger of Death, Plane Shift.\n8th level (1 slot): Dominate Monster, Power Word Stun.\n9th level (1 slot): Power Word Kill.",
+        "Heart of Ubtao": "Valindra cannot use lair actions here. She invites useful visitors up with an Arcane Gate scroll if necessary. If a fight starts, her undead servants engage while she escapes to Thay through her Teleportation Circle. Her phylactery stays in Thay. The return route’s destination sigils are absent from the Heart.",
+        "Base stat block": "The adventure uses the 2014 Lich, with the alignment, languages, spell preparation, Mask, and lair restriction given here.",
+        "Printed source": "Tomb of Annihilation, ch. 2, pp. 58–59 (Heart of Ubtao)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Lich",
+          "terms": [
+            "Lich"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#lich_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Withers",
+    "statBlock": {
+      "name": "Withers",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 145,
+      "classification": "Medium undead, neutral evil",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "Once an Omuan engineer called Gorra, Withers now maintains Acererak’s tomb. He questions trespassers about the outside world before trying to kill them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Studded leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Languages": "Any languages he knew in life.",
+        "Traits": "Sunlight Sensitivity. In sunlight, roll attacks and sight-based Wisdom (Perception) checks with disadvantage.\nSpecial Equipment. He wears the Amulet of the Black Skull. It holds 6 charges and regains 1d6 at dawn. As an action, spend a charge to teleport himself and his gear to a familiar spot within 100 ft. on the same plane, even through the tomb’s normal restrictions. Withers is Undead, so he does not roll the item’s transformation save.\nUndead Nature. It does not require air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Longsword attacks. One may be replaced with Life Drain.\nLife Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) necrotic damage. On a failed DC 13 Constitution save, reduce the target’s hit point maximum by the damage taken until it finishes a long rest. The target dies if the reduction leaves it with a maximum of 0. A Humanoid killed by this attack rises as a Zombie under the attacker’s control 24 hours later unless restored to life or its body is destroyed. Up to twelve Zombies can be controlled at a time.\nLongsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) if wielded in two hands.",
+        "Spellcasting": "9th-level wizard. Intelligence, spell save DC 13, +5 to hit with spell attacks.\nAt will: Acid Splash, Mage Hand, Minor Illusion, Prestidigitation.\n1st level (4 slots): Detect Magic, Expeditious Retreat, Feather Fall, Thunderwave.\n2nd level (3 slots): Darkness, Hold Person, Rope Trick.\n3rd level (3 slots): Dispel Magic, Lightning Bolt.\n4th level (3 slots): Blight, Wall of Fire.\n5th level (1 slot): Telekinesis.",
+        "Office encounter": "Seven Crawling Claws follow his commands in area 28. When pressed, he uses magic to retreat and Wall of Fire to cut off pursuit. His journals record the arrival of the Atropal and the building of the Soulmonger.",
+        "Base stat block": "The adventure uses the 2014 Wight. Withers gains the printed Intelligence, CR, amulet, and Spellcasting changes and does not carry a longbow.",
+        "Printed source": "Tomb of Annihilation, ch. 5, pp. 145–146 (area 28), and appendix C, p. 206 (amulet). The second-level slot count follows the printed adventure."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Wight",
+          "terms": [
+            "Wight"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#wight_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Zombie",
+          "terms": [
+            "Zombie",
+            "Zombies"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zombie_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Crawling Claw",
+          "terms": [
+            "Crawling Claws",
+            "Crawling Claw"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#crawling%20claw_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Atropal",
+          "terms": [
+            "Atropal"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#atropal_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Acererak",
+          "terms": [
+            "Acererak"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#acererak_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Xandala",
+    "statBlock": {
+      "name": "Xandala",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 236,
+      "classification": "Medium humanoid (half-elf), neutral evil",
+      "ac": 13,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 13,
+      "description": "A half-elf sorcerer with fine draconic scales, Xandala wants the Ring of Winter for its power and longevity. She claims to be Artus Cimber’s daughter to get help finding him.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Arcana": 7,
+        "Deception": 10,
+        "History": 7,
+        "Insight": 6,
+        "Survival": 6
+      },
+      "sections": {
+        "Armor": "Natural armor from draconic scales.",
+        "Languages": "Common, Draconic, Dwarvish, Elvish, Halfling.",
+        "Traits": "Quickened Spell (3/day). When she casts a spell with a casting time of one action, she can cast it as a bonus action instead.",
+        "Actions": "Quarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage, or 4 (1d8) if wielded in two hands.",
+        "Spellcasting": "9th-level sorcerer. Charisma, spell save DC 15, +7 to hit with spell attacks.\nAt will: Acid Splash, Fire Bolt, Light, Mage Hand, Ray of Frost.\n1st level (4 slots): Chromatic Orb, Feather Fall, Shield.\n2nd level (4 slots): Invisibility, Misty Step.\n3rd level (3 slots): Fireball, Fly.\n4th level (3 slots): Ice Storm, Polymorph.\n5th level (1 slot): Dominate Person.",
+        "Encounter context": "She plans to use Dominate Person to make Artus surrender the Ring of Winter, then escape with Fly. Her companion Summerwise is a Pseudodragon who thinks the quest is reckless. Good-aligned characters can win Summerwise over. Xandala trusts her draconic ancestry to carry her to greatness and treats others as fools.",
+        "Printed source": "Tomb of Annihilation, appendix D, p. 236. Four second-level slots are printed for this character."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Artus Cimber",
+          "terms": [
+            "Artus Cimber",
+            "Artus"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Pseudodragon",
+          "terms": [
+            "Pseudodragon",
+            "Summerwise"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#pseudodragon_mm"
+          }
+        }
+      ]
+    }
+  }
+]

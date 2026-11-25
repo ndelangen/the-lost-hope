@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Giant Strider",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "The book also names this species Firenewt Giant Strider. A Medium monstrosity gains +1 Strength and +1 Constitution, walks 40 feet and speaks, reads and writes Ignan.",
+      "Its bite is an unarmed strike for 1d8 piercing damage. The unarmored natural armor formula is 12 + Dexterity modifier.",
+      "The strider is immune to fire damage. When subjected to fire damage it can spend a reaction and one Hit Die to heal the number rolled on that die.",
+      "Its body cannot use wielded weapons, shields or gear that requires hands, such as tools, wands and spellcasting foci."
+    ]
+  },
+  {
+    "name": "Flail Snail",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "A Medium elemental walks 20 feet and sees in darkness out to 60 feet. Its unarmed flail tentacles deal 1d8 piercing damage. Unarmored AC is fixed at 17. It gains no benefit from wearing armor.",
+      "The shell sheds bright light for 10 feet and dim light for 10 more. Switching this light on or off takes a bonus action.",
+      "Entering the shell takes an action and gives +4 AC. The snail becomes blinded and restrained, cannot take the Attack action and cannot target creatures or objects with effects that require sight. Emerging takes a bonus action.",
+      "Antimagic Shell triggers against a line spell when the snail rolls a natural 20 on its save, or against a spell with a ranged attack when the caster rolls a natural 1 on that attack. Roll 1d6. On 1–2 the snail avoids the spell and reflects it at the caster with the caster’s original spell statistics. On 3–4 resolve the incoming spell normally. On 5–6 creatures within 30 feet make a DC 15 Constitution save against 1d6 force damage per spell level, halved on success.",
+      "The snail has no hands for weapons, shields, tools, foci or similar items. The printed trait lines for ability increases and languages omit a value."
+    ]
+  },
+  {
+    "name": "Froghemoth",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "A Medium monstrosity gains +2 Strength and +1 Constitution. It moves 30 feet on land or in water, has darkvision out to 60 feet and speaks, reads and writes Common. Its unarmored natural AC is 13 + Dexterity modifier.",
+      "Its bite deals 1d8 piercing as an unarmed strike. After a successful unarmed strike with the Attack action, it can spend a bonus action to try to grapple that target. It has no hands for wielded gear or manipulation.",
+      "The tongue attack takes an action. Make a melee weapon attack as for an unarmed strike against a creature within 15 feet, using necrotic damage in place of the strike’s normal damage. A hit pulls the target into an open adjacent space. After a successful pull, it can try to grapple the target as a bonus action.",
+      "Lightning damage halves its speed and imposes disadvantage on Dexterity saves until the end of its next turn. Attacks against it gain advantage during that time. It cannot react, and on its turn it can take an action or a bonus action, rather than both."
+    ]
+  },
+  {
+    "name": "Girallon",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "A Medium four-armed monstrosity gains +1 Strength and +1 Constitution. It walks or climbs 30 feet, has darkvision out to 60 feet and speaks, reads and writes Common.",
+      "Its unarmed bite or claw deals 1d6 piercing or slashing damage. It has advantage on Perception checks that rely on smell. Its Aggressive trait moves it up to its speed toward a visible hostile creature as a bonus action.",
+      "Each arm can hold and use an item. With Extra Attack, the girallon can choose a held weapon for each attack. After attacking with a weapon that qualifies for two-weapon fighting, it can use a bonus action to attack with a different qualifying weapon. Apply the usual modifier restriction to the bonus attack.",
+      "Using that bonus attack, using a Heavy weapon or using a Versatile weapon two-handed prevents benefiting from a shield until the start of its next turn. It can switch among held Heavy or Versatile weapons for its attacks."
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published on DMs Guild in Monstrous Races 2.",
+      "A Medium dragon gains +1 Strength and +1 Constitution and walks 30 feet. Its bite and tail allow unarmed strikes for 1d8 piercing or bludgeoning damage. Unarmored natural AC is 14 + Dexterity modifier. It speaks, reads and writes Draconic.",
+      "The player drake has no hands for weapons, shields or objects that need manipulation, including foci, wands and tools.",
+      "Black Guard Drake. Swim 30 feet, breathe air and water, and resist acid damage.",
+      "Blue Guard Drake. Burrow 10 feet and resist lightning damage.",
+      "Green Guard Drake. Swim 30 feet and breathe air and water. Resist poison damage and gain advantage on saves against poison.",
+      "Red Guard Drake. Climb 30 feet and resist fire damage.",
+      "White Guard Drake. Burrow 10 feet and resist cold damage."
+    ]
+  }
+]

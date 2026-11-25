@@ -1,0 +1,23 @@
+{
+  "baseline": "1575b4260e41b2ba0a7bdb2a5e3f15852097acc9",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 3,
+  "testedConditionalRuleProfiles": 3,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 3,
+  "portraitCoverage": {
+    "Large Spider": "generated",
+    "Huge Spider": "generated",
+    "Giant Spider": "generated"
+  },
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "printedMovementRatesPreserved": true,
+  "giantSpiderHitDiceThac0XpPaired": true,
+  "noChallengeImported": true,
+  "giantSpiderDefaultBefore": "Basic Rules (2018)",
+  "giantSpiderDefaultAfter": "Basic Rules (2018)",
+  "giantSpiderDefaultThumbnailPreserved": true,
+  "giantSpiderSelectedPublication": "Monstrous Manual (1994 third printing)"
+}

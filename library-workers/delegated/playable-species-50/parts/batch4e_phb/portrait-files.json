@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Deva",
+    "file": "",
+    "sha256": "08cdaf88abd1a0e578788d4f1b3687d38b10d218d994f83b3a32b6cb8ece108d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Githzerai",
+    "file": "",
+    "sha256": "cd2625757b866563562423bf5d7829f49f291dcbd3e6abedc61a045ebf6e9c3c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Minotaur",
+    "file": "",
+    "sha256": "0c64b9757fa2cff24f9467af313c2c9bbbd2b8f75086adf105e8d6c85108275d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Shardmind",
+    "file": "",
+    "sha256": "05a16602c4db815e9258ffdd8ecb637feb6004981ffb65973d872edce1ba201a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Wilden",
+    "file": "",
+    "sha256": "885814403e23cf497ff5fb5ca4f83f203208656a70ac38672cd505be16739068",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

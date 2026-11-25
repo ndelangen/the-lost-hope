@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Ashborn",
+    "file": "portraits/ashborn.png",
+    "sha256": "078cb5b0d1d50aded2876d847a6d8f25bbc16ca759c36b6f363fa39bec936b1a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Azureborn",
+    "file": "portraits/azureborn.png",
+    "sha256": "2923125a22c75e0006f8a95094d90b015b5a0d93f0972443aed4a373eddd1650",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Bogborn",
+    "file": "portraits/bogborn.png",
+    "sha256": "c3945ae0eaf08aac10daa5780fe0aa661f8f9c5a2380af12e3b42f59165a768e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Curseborn",
+    "file": "portraits/curseborn.png",
+    "sha256": "1d353d2226c172b2f1fd17bd39a2b2eaef435588762fd26fb8e7e3e8e91adab3",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Deepborn",
+    "file": "portraits/deepborn.png",
+    "sha256": "f44db0bc6c9d595e2a7b5accbdb83ad0c20cb659df466b6efe1575987b200b51",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

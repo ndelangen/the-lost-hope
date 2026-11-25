@@ -1,0 +1,408 @@
+[
+  {
+    "name": "Meenlock",
+    "statBlock": {
+      "name": "Meenlock",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 170,
+      "classification": "Small fey, neutral evil",
+      "ac": 15,
+      "hp": 31,
+      "hitDice": "7d6 + 7",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "A fear-born fey that hunts from a dark warren. It paralyzes victims and brings them back alive to torment them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Telepathy 120 ft.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Fear Aura. A Beast or Humanoid that starts its turn within 10 ft. makes a DC 11 Wisdom save. On a failure, it is frightened until the start of its next turn.\nLight Sensitivity. In bright light, the meenlock has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Bonus actions": "Shadow Teleport (Recharge 5–6). Teleport to an unoccupied space within 30 ft. if both the starting space and destination are in dim light or darkness. The meenlock can use this even when it cannot see the destination.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) slashing damage. The target must succeed on a DC 11 Constitution save or be paralyzed for 1 minute. It repeats the save at the end of each of its turns, ending the paralysis on a success.",
+        "Telepathic Torment": "Up to four meenlocks can torment one incapacitated creature. They give up other uses of telepathy for the duration and can otherwise move and act normally. A creature immune to being frightened is unaffected. After the victim spends an hour incapacitated, count only meenlocks that stayed within sight of it and never became incapacitated for the whole hour. The victim makes a Wisdom save with DC 10 plus the number of qualifying meenlocks. On a failed save it takes 10 (3d6) psychic damage, or half as much on a success. The meenlocks can repeat the process. A Humanoid reduced to 0 hit points by this damage immediately becomes a full-health meenlock under the DM's control. Only Wish or divine intervention can reverse the transformation.",
+        "Printed source": "Volo's Guide to Monsters, p. 170."
+      }
+    }
+  },
+  {
+    "name": "Mind Flayer Psion",
+    "statBlock": {
+      "name": "Mind Flayer Psion",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 71,
+      "classification": "Medium aberration, lawful evil",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 16,
+      "description": "An illithid that channels its psionic power through a broad spell repertoire and attacks prey with mind blasts and feeding tentacles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 7,
+        "Deception": 6,
+        "Insight": 6,
+        "Perception": 6,
+        "Persuasion": 6,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+        "Traits": "Magic Resistance. The psion has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "Innate Spellcasting (Psionics). A 10th-level spellcaster using Intelligence (save DC 15, +7 to hit with spell attacks). Its spells require no components.\nAt will: Guidance, Mage Hand, Vicious Mockery, True Strike, Detect Thoughts, Levitate.\n1/day each: Dominate Monster, Plane Shift (self only).\n1st level (4 slots): Charm Person, Command, Comprehend Languages, Sanctuary.\n2nd level (3 slots): Crown of Madness, Phantasmal Force, See Invisibility.\n3rd level (3 slots): Clairvoyance, Fear, Meld into Stone.\n4th level (3 slots): Confusion, Stone Shape.\n5th level (2 slots): Scrying, Telekinesis.",
+        "Actions": "Tentacles. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence save or be stunned until the grapple ends.\nExtract Brain. Melee weapon attack, +7 to hit, reach 5 ft., one incapacitated Humanoid grappled by the psion. A hit deals 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the psion extracts its brain and kills it.\nMind Blast (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 15 Intelligence save against the magical blast. On a failure, the creature takes 22 (4d8 + 4) psychic damage and is stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 71."
+      }
+    }
+  },
+  {
+    "name": "Mindwitness",
+    "statBlock": {
+      "name": "Mindwitness",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 176,
+      "classification": "Large aberration, lawful evil",
+      "ac": 15,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 18,
+      "description": "A Beholder transformed by illithid ceremorphosis. It relays the Elder Brain’s orders across the colony.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 600 ft.",
+        "Condition immunities": "Prone.",
+        "Traits": "Telepathic Hub. When the mindwitness receives a telepathic message, it can relay it telepathically to as many as seven other creatures it can see within 600 ft.",
+        "Actions": "Multiattack. Make one Tentacles attack and one Bite attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 16 (4d6 + 2) piercing damage.\nTentacles. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 20 (4d8 + 2) psychic damage. A Large or smaller target is grappled (escape DC 13) and must succeed on a DC 13 Intelligence save or be stunned until the grapple ends.\nEye Rays. Randomly roll three different rays from the list below, rerolling duplicates. Choose one to three targets the mindwitness can see within 120 ft.",
+        "Eye Rays": "1. Aversion Ray. On a failed DC 13 Charisma save, the creature has disadvantage on attack rolls for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\n2. Fear Ray. On a failed DC 13 Wisdom save, the creature is frightened for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\n3. Psychic Ray. On a failed DC 13 Intelligence save, the target takes 27 (6d8) psychic damage.\n4. Slowing Ray. On a failed DC 13 Dexterity save, for 1 minute the creature’s speed is halved, it cannot take reactions, and on each of its turns it can take either an action or a bonus action. It can repeat the save at the end of each of its turns to end the effect.\n5. Stunning Ray. On a failed DC 13 Constitution save, the creature is stunned for 1 minute. It can repeat the save at the start of each of its turns to end the effect.\n6. Telekinetic Ray. On a failed DC 13 Strength save, the ray moves a creature up to 30 ft. in any direction and restrains it until the start of the mindwitness’s next turn or until the mindwitness becomes incapacitated. The ray can also move up to 30 ft. any object of 300 lb. or less that nobody is wearing or carrying, and can manipulate objects with enough control to use a simple tool or open a door or container.",
+        "Printed source": "Volo's Guide to Monsters, p. 176."
+      }
+    }
+  },
+  {
+    "name": "Morkoth",
+    "statBlock": {
+      "name": "Morkoth",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 177,
+      "classification": "Medium aberration, chaotic evil",
+      "ac": 17,
+      "hp": 130,
+      "hitDice": "20d8 + 40",
+      "speed": "25 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 20,
+      "description": "A planar collector whose island lair draws in visitors and siphons their possessions into its hoard.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 9,
+        "Wis": 6
+      },
+      "skills": {
+        "Arcana": 9,
+        "History": 9,
+        "Perception": 10,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Telepathy 120 ft.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Traits": "Amphibious. The morkoth breathes air and water.",
+        "Spellcasting": "An 11th-level wizard spellcaster using Intelligence (save DC 17, +9 to hit with spell attacks).\nCantrips (at will): Acid Splash, Mage Hand, Mending, Ray of Frost, Shocking Grasp.\n1st level (4 slots): Detect Magic, Identify, Shield, Witch Bolt.\n2nd level (3 slots): Darkness, Detect Thoughts, Shatter.\n3rd level (3 slots): Dispel Magic, Lightning Bolt, Sending.\n4th level (3 slots): Dimension Door, Evard's Black Tentacles.\n5th level (3 slots): Geas, Scrying.\n6th level (1 slot): Chain Lightning.",
+        "Actions": "Multiattack. Make two Bite attacks and one Tentacles attack, or make three Bite attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) slashing damage.\nTentacles. Melee weapon attack, +6 to hit, reach 15 ft., one target. A hit deals 15 (3d8 + 2) bludgeoning damage and grapples a Large or smaller creature (escape DC 14). While grappled, the target is restrained and takes another 15 (3d8 + 2) bludgeoning damage at the start of each of the morkoth’s turns. The morkoth cannot use Tentacles on another target until the grapple ends.\nHypnosis. Each creature in a 30-ft. cone makes a DC 17 Wisdom save against the magical effect. On a failure, the morkoth charms the creature for 1 minute. The charmed target tries to get as close to the morkoth as it can. It uses its actions to Dash until it is within 5 ft. of the morkoth. The target can save again at the end of each of its turns or when it takes damage, ending the effect on a success. A creature that succeeds on its save or is no longer under the effect has advantage on saves against this morkoth’s Hypnosis for 24 hours.",
+        "Reactions": "Spell Reflection. When the morkoth succeeds on a save against a spell or a spell attack misses it, choose another creature it can see within 120 ft., including the caster. The spell targets that creature in its place. The new target makes its own save or the spell attack is rerolled against it.",
+        "Lair actions": "In its lair, the morkoth is CR 12 (8,400 XP). At initiative count 20, losing ties, it can use one of the following options.\nHypnosis. Use Hypnosis from a point within 120 ft. The morkoth can pick a point it cannot see.\nCast a Spell. Cast Darkness, Dispel Magic, or Misty Step using Intelligence and without expending a spell slot.",
+        "Regional effects": "Island Watch. The morkoth notices new creatures and objects arriving on its island or within its sanctum. As an action, it can find the location of one creature or object on the island. Visitors feel watched during their stay.\nLost Possessions. When a creature that has spent less than a year on the island finishes a short or long rest, it makes a DC 10 Intelligence (Investigation) check. On a failure, one possession goes missing. A player chooses what their character loses. The object stays hidden nearby and can be found on a successful DC 15 Wisdom (Perception) check. An hour later, an unrecovered object arrives in the morkoth’s lair. The owner immediately recognizes it there and can easily recover it.\nLure. While in its lair and not incapacitated, the morkoth can turn the enchantment on its entrances on or off at any time. A creature that can see an enchanted entrance within 30 ft. must make a DC 15 Wisdom save. On a failure, it uses its movement on each of its turns to enter and take the most direct route toward the morkoth without knowing where the urge leads. It can save again on seeing the morkoth, at the end of each of its turns, and whenever it takes damage, ending the effect on a success.\nAlter Water. The morkoth can change the water in its lair with a thought. The change takes 1 minute and requires no action. It can make the water as clear and breathable as air or return it to ordinary water, clear or murky.\nThese effects end immediately when the morkoth dies.",
+        "Printed source": "Volo's Guide to Monsters, p. 177."
+      }
+    }
+  },
+  {
+    "name": "Mouth of Grolantor",
+    "statBlock": {
+      "name": "Mouth of Grolantor",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 149,
+      "classification": "Huge giant (hill giant), chaotic evil",
+      "ac": 14,
+      "hp": 105,
+      "hitDice": "10d12 + 40",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A starved hill giant that its clan keeps shackled until it needs to unleash the giant in a raid or defense.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 1
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Giant.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Mouth of Madness. The giant is immune to Confusion and similar magic. On its turn, it uses all its movement to approach the nearest creature or anything else it regards as food. Roll 1d10 at the start of each of the giant’s turns to determine its action.\n1–3. Make three Fist attacks against one random target within reach. If no other creature is within reach, the giant rages and gains advantage on all attack rolls until the end of its next turn.\n4–5. Make one Fist attack against each creature within reach. If no other creature is within reach, the giant attacks itself once with Fist.\n6–7. Make one Bite attack against a random target within reach. If no other creature is within reach, the giant is stunned until the start of its next turn.\n8–10. Make one Bite attack and two Fist attacks against one random target within reach. If no other creature is within reach, the giant rages as on a roll of 1–3.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 15 (3d6 + 5) piercing damage and magically restores the giant’s hit points by the damage dealt.\nFist. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 18 (3d8 + 5) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 149."
+      }
+    }
+  },
+  {
+    "name": "Necromancer",
+    "statBlock": {
+      "name": "Necromancer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "A wizard who specializes in life, death, and undeath. A necromancer might raise undead servants or turn the same knowledge against them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 7,
+        "History": 7
+      },
+      "sections": {
+        "Armor": "AC 15 with Mage Armor.",
+        "Languages": "Any four languages.",
+        "Damage resistances": "Necrotic.",
+        "Traits": "Grim Harvest (Once per Turn). When the necromancer kills a creature other than a Construct or Undead with a spell of 1st level or higher, it heals hit points equal to twice the spell’s level. A necromancy spell heals three times its level instead.",
+        "Spellcasting": "A 12th-level wizard spellcaster using Intelligence (save DC 15, +7 to hit with spell attacks). An asterisk marks a necromancy spell of 1st level or higher.\nCantrips (at will): Chill Touch, Dancing Lights, Mage Hand, Mending.\n1st level (4 slots): False Life*, Mage Armor, Ray of Sickness*.\n2nd level (3 slots): Blindness/Deafness*, Ray of Enfeeblement*, Web.\n3rd level (3 slots): Animate Dead*, Bestow Curse*, Vampiric Touch*.\n4th level (3 slots): Blight*, Dimension Door, Stoneskin.\n5th level (2 slots): Bigby's Hand, Cloudkill.\n6th level (1 slot): Circle of Death*.",
+        "Actions": "Withering Touch. Melee spell attack, +7 to hit, reach 5 ft., one creature. A hit deals 5 (2d4) necrotic damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 217."
+      }
+    }
+  },
+  {
+    "name": "Neogi",
+    "statBlock": {
+      "name": "Neogi",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 180,
+      "classification": "Small aberration, lawful evil",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "6d6 + 12",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "An eel-headed, spiderlike slaver that uses venom and domination to control prey. Neogi often force Umber Hulks to serve them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 4,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Deep Speech, Undercommon.",
+        "Traits": "Mental Fortitude. The neogi has advantage on saves against being charmed or frightened. Magic cannot put it to sleep.\nSpider Climb. The neogi can climb difficult surfaces and move along ceilings without making an ability check.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage and 14 (4d6) poison damage. On a failed DC 12 Constitution save, the target is also poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the condition on a success.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) slashing damage.\nEnslave (Recharges after a Short or Long Rest). Choose one creature the neogi can see within 30 ft. On a failed DC 14 Wisdom save, the target is magically charmed for 1 day or until the neogi dies or is more than 1 mile from the target. While charmed, the target obeys its commands and cannot take reactions. The two can communicate telepathically up to 1 mile apart. Whenever the target takes damage, it can repeat the save to end the charm.",
+        "Printed source": "Volo's Guide to Monsters, p. 180."
+      }
+    }
+  }
+]

@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Canomorph",
+    "kind": "species",
+    "edition": "3.0 edition",
+    "publication": "Fiend Folio (2003)",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider (Evil, Extraplanar, Shapechanger)",
+    "url": "",
+    "page": "pp. 25, 26, 27, 28, 29",
+    "printedPages": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Haraknin combines the original 3.0 hell hound racial scores with the printed Canomorph rules and changes the example’s barbarian to ranger to respect lawful alignment. Its sample scimitar damage die conflicts with the 3.0 equipment table. The NPC uses the equipment table’s 1d6.",
+      "The Vultivor character paragraph sends readers to the vorr on p. 186. That species uses racial d8s. The Vultivor example on pp. 28–29 has d10s and an extended Shadow Jump allowance. Both source values are retained with their respective scope.",
+      "The common Command Fiendish Hound entry lacks a caster level and DC. The build sets CL to five total Hit Dice for this ability and uses Charisma and the cleric spell level for DC 12."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), monster character construction",
+        "url": ""
+      },
+      {
+        "name": "Original 3.0 SRD, Hell Hound",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Hell_Hound"
+      },
+      {
+        "name": "Original 3.0 SRD, Shadow Mastiff",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Shadow_Mastiff"
+      },
+      {
+        "name": "Original 3.0 SRD, Ranger",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Ranger"
+      },
+      {
+        "name": "Original 3.0 SRD, Weapons",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+      },
+      {
+        "name": "Original 3.0 SRD, Command, Greater",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Command,_Greater"
+      }
+    ]
+  },
+  {
+    "name": "Dark Creeper",
+    "kind": "species",
+    "edition": "3.0 edition",
+    "publication": "Fiend Folio (2003)",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid",
+    "url": "",
+    "page": "pp. 37, 38",
+    "printedPages": [
+      37,
+      38
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Dark Creeper is the Small profile under Dark Ones. Dark Stalker is a different profile. The sample uses Savage Species p. 13 to trade 1 racial HD for the Rogue 1 die while retaining racial evasion, natural armor and other racial qualities.",
+      "The source states the daily frequency and miss chances for Shadow Cloak without specifying an action or duration. The encounter uses a standard action and ten rounds."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), monster character construction",
+        "url": ""
+      },
+      {
+        "name": "Original 3.0 SRD, Rogue",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+      },
+      {
+        "name": "Original 3.0 SRD, Weapons",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Weapons"
+      }
+    ]
+  },
+  {
+    "name": "Ethergaunt",
+    "kind": "species",
+    "edition": "3.0 edition",
+    "publication": "Fiend Folio (2003)",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Aberration (Extraplanar)",
+    "url": "",
+    "page": "pp. 64, 65, 66, 67, 68",
+    "printedPages": [
+      64,
+      65,
+      66,
+      67,
+      68
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The dedicated player section gives the ECL increments and expressly stacks wizard levels with innate spellcasting. The red has innate Wizard 9 casting plus one actual Wizard level. The build adds the saves and skills of one class level only.",
+      "The text says ethergaunts cannot speak and still lists spells with verbal components. The worked NPC prepares Silent Spell versions in raised slots so a special verbal-component exception is unnecessary.",
+      "The portrait shows a normally closed mask. Its oval faceplate, central seam and trailing flesh tendrils identify the red caste at thumbnail size."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), monster character construction",
+        "url": ""
+      },
+      {
+        "name": "Original 3.0 SRD, Wizard",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Wizard"
+      },
+      {
+        "name": "Original 3.0 SRD, Silent Spell",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Silent_Spell"
+      },
+      {
+        "name": "Original 3.0 SRD, Fireball",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fireball"
+      },
+      {
+        "name": "Original 3.0 SRD, Magic Missile",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Missile"
+      },
+      {
+        "name": "Original 3.0 SRD, Dimension Door",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Dimension_Door"
+      }
+    ]
+  },
+  {
+    "name": "Fensir",
+    "kind": "species",
+    "edition": "3.0 edition",
+    "publication": "Fiend Folio (2003)",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant (Extraplanar)",
+    "url": "",
+    "page": "pp. 68, 69, 70, 71",
+    "printedPages": [
+      68,
+      69,
+      70,
+      71
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Rakka appears in its own stat block under Fensir and has a dedicated character paragraph. The worked NPC is an ordinary Fensir and uses the printed wizard stacking rule.",
+      "Source numbers for ordinary and Rakka rock attacks include inconsistencies. The example independently adds the racial +1, size modifier, Dexterity and BAB. Point Blank Shot applies when the target is within 30 ft."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), monster character construction",
+        "url": ""
+      },
+      {
+        "name": "Original 3.0 SRD, Wizard",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Wizard"
+      },
+      {
+        "name": "Original 3.0 SRD, Fireball",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Fireball"
+      },
+      {
+        "name": "Original 3.0 SRD, Magic Missile",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Magic_Missile"
+      },
+      {
+        "name": "Original 3.0 SRD, Transmute Rock to Mud",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Transmute_Rock_to_Mud"
+      },
+      {
+        "name": "Original 3.0 SRD, Transmute Mud to Rock",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Transmute_Mud_to_Rock"
+      }
+    ]
+  }
+]

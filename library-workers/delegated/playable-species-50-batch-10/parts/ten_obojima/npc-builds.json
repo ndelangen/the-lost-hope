@@ -1,0 +1,125 @@
+{
+  "builds": [
+    {
+      "id": "obojima-dara-selka",
+      "title": "Selka Dara, Blue Dara Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 3,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 12,
+        "INT": 14,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Arcana +4",
+        "History +4",
+        "Insight +4",
+        "Investigation +6",
+        "Nature +4",
+        "Perception +4",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Passive Perception 14.",
+      "languages": "Common, Archaic First Age, Naku Naku, Torum, and Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +4. AC 14 from leather armor and Dexterity. HP 9 from 8 + 1 Constitution.",
+        "Wayfarer adds 2 Dexterity and 1 Wisdom, Insight, Stealth, thieves’ tools, and Lucky. Rogue grants Acrobatics, Investigation, Perception, and Sleight of Hand. Expertise doubles proficiency for Investigation and Stealth. Awakened Skills supplies Arcana, History, and Nature.",
+        "Lucky. After a Long Rest, Selka has two Luck Points. Spend one for advantage on her D20 Test or to impose disadvantage when someone makes an attack roll against her.",
+        "Sneak Attack. Once per turn add 1d6 damage to a dagger or shortbow hit with advantage. She can also use it if an ally within 5 ft. of the target lacks the Incapacitated condition and Selka has no disadvantage.",
+        "Glyph reader. Touch and absorb a Dara glyph as a Magic action."
+      ],
+      "actions": [
+        "Dagger. +5 to hit, reach 5 ft. or thrown range 20/60 ft. Hit for 1d4 + 3 piercing. Nick moves the Light property attack into the Attack action once per turn when she also attacks with another Light weapon, such as her spare dagger. The extra attack does not add her Dexterity modifier to damage.",
+        "Shortbow. +5 to hit, range 80/320 ft. Hit for 1d6 + 3 piercing. On a hit that deals damage, Vex gives Selka advantage on her next attack roll against that target before the end of her next turn.",
+        "Create Talisman. Magic action to make one that lasts an hour or until used. One creation per Long Rest. If the Earth bearer would drop to 0 HP without dying outright, the talisman leaves them at 1 HP instead. Moon binds to her held weapon and adds 1 radiant damage on its next hit. A Sun bearer can use a Bonus Action for Dash or Disengage. As a Blue Dara, she can choose Knowledge. Its bearer can add 1d6 to an ability check before or after rolling. Apply the formal trait’s single use for this NPC."
+      ],
+      "tactics": "Selka marks a safe exit before examining a glyph. If someone corners her, she spends her general talisman on Sun and uses it to get clear."
+    },
+    {
+      "id": "obojima-nakudama-wick-tidecup",
+      "title": "Wick Tidecup, Nakudama Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 16,
+      "hp": 11,
+      "hitDice": "1d10 + 1",
+      "initiative": 3,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Naku Naku, Archaic First Age, and Torum.",
+      "traits": [
+        "Proficiency +2. Strength save +4 and Constitution save +3. AC 16 from studded leather 12 + 3 Dexterity + 1 Defense. HP 11 from 10 + 1 Constitution.",
+        "Soldier adds 2 Dexterity and 1 Strength, Athletics, Intimidation, dice set proficiency, and Savage Attacker. Fighter grants Perception and Survival.",
+        "Savage Attacker. Once per turn on a weapon hit, Wick can roll that weapon’s damage dice twice and use either set.",
+        "Amphibious. Wick breathes air and water. Standing Leap. He long jumps up to 20 ft. or high jumps up to 15 ft. with or without a run-up and pays the normal movement cost."
+      ],
+      "actions": [
+        "Shortsword. +5 to hit, reach 5 ft. Hit for 1d6 + 3 piercing. On a hit that deals damage, Vex gives Wick advantage on his next attack roll against that target before the end of his next turn.",
+        "Dagger. +5 to hit, reach 5 ft. or thrown range 20/60 ft. Hit for 1d4 + 3 piercing. After a shortsword or other distinct Light weapon attack, Nick moves the extra Light dagger attack into the Attack action once per turn. That extra hit deals 1d4 piercing.",
+        "Light crossbow. +5 to hit, range 80/320 ft. Hit for 1d8 + 3 piercing. Slow reduces the damaged target’s speed by 10 ft. until the start of his next turn.",
+        "Second Wind. Bonus Action to regain 1d10 + 1 HP. Two uses, recovering one on a Short Rest and both on a Long Rest.",
+        "Grasping Tongue. Bonus Action to pull a visible object of 5 lb. or less from within 15 ft. to his empty hand or feet. If someone wears or carries it, they keep it on a successful DC 12 Strength save.",
+        "Latching Tongue. Bonus Action to pull himself toward a surface or creature within 15 ft. that is at least one size larger than him."
+      ],
+      "tactics": "Wick uses his tongue to recover the dropped key or reach higher ground. If the lock gate starts to close, he jumps the canal before worrying about the attacker."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dara",
+      "speciesPublication": "Obojima: Tales from the Tall Grass (5.5e )",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Selka Dara",
+      "size": "Medium",
+      "build": "obojima-dara-selka",
+      "role": "Glyph conservator",
+      "motive": "Keep a marked cedar standing until she can learn who left the message.",
+      "hook": "A sawyer has given Selka until dawn to clear her notes out of the grove. She needs someone to negotiate for the tree while she reads the glyph."
+    },
+    {
+      "species": "Nakudama",
+      "speciesPublication": "Obojima: Tales from the Tall Grass (5.5e )",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "name": "Wick Tidecup",
+      "size": "Small",
+      "build": "obojima-nakudama-wick-tidecup",
+      "role": "Canal lock keeper",
+      "motive": "Keep upstream homes from flooding when the lock fails.",
+      "hook": "Wick has found two keys jammed in the lock’s winding gear. One is still warm, and the night crew swears nobody opened the housing."
+    }
+  ]
+}

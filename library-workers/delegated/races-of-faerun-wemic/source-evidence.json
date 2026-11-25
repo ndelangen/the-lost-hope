@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Wemic",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        149,
+        150,
+        151
+      ],
+      "racialTraits": [
+        150,
+        151
+      ],
+      "illustration": 150,
+      "monsterRevision": 6
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "revisionGuide": "",
+    "revisionGuideSha256": "cf7330becd93e73876cf4a081ade396666f9db7301f0094850f19cf666863a18",
+    "earlierMonsterProfile": "",
+    "earlierMonsterSha256": "b082477a2bb45178f7e28ff2fa1890ebe8fce21c238d69cbf4c19da9e5a783dc",
+    "coreErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "coreErrataFilename": "",
+    "coreErrataSha256": "ad0182470b2706542bf3faa9ab75bc225dd3abd93b7d6794a473d19629f4aa0f",
+    "printedArtCredit": "Mike Dutton, p. 150.",
+    "sourceDistinctions": [
+      "The 2003 player entry gives 5 racial Hit Dice, LA +3, and a weapon plus one secondary claw. The earlier monster uses two secondary claws with a weapon.",
+      "The 2004 conversion confirms 10-ft. space and 5-ft. reach. It updates the earlier monster’s skills and sample feats.",
+      "The player entry specifies twice Medium carrying limits. This profile retains that line. The core Large quadruped table gives a general three-times multiplier.",
+      "The 3.5 Jump rule gives a separate +4 at speed 40 ft. in addition to the Wemic’s +8 racial bonus. The earlier AD&D fixed leap distances are a separate ruleset."
+    ],
+    "entryId": "species-4d1fc4ee9bcd0265d3502a41",
+    "versionKey": "aa6e65d3c64e48a910ce4df9",
+    "slug": "wemic",
+    "portraitSelection": "generated",
+    "portraitForm": "Tavaro Sunmane, an original Wemic gully guide",
+    "npcExamples": [
+      "Tavaro Sunmane",
+      "Nasha Reedstep"
+    ]
+  }
+]

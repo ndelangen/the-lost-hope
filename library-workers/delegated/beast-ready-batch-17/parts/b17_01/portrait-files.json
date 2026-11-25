@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "parvaz",
+    "file": "portraits/parvaz.png",
+    "sha256": "bbd6d899124580c806b2aa07ee7304aa784fc59d51790606c644d73ebe30093f",
+    "credit": "OpenAI ImageGen",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "artGroup": "spotted-lion",
+    "file": "portraits/spotted-lion.png",
+    "sha256": "74a7b744511d2bcb17e5f586be2960052f7f492525d98b66cd2c318b0efe1d5d",
+    "credit": "OpenAI ImageGen",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "artGroup": "titanothere",
+    "file": "portraits/titanothere.png",
+    "sha256": "7c1ebd4ac96666e11ab9c317d8787514980696d7a800ea8b86508a381a44d0ac",
+    "credit": "OpenAI ImageGen",
+    "width": 1254,
+    "height": 1254
+  }
+]

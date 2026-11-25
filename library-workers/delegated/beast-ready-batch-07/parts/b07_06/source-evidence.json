@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Badger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD open RTF archive",
+    "archive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersAnimals.rtf",
+    "shardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "heading": "Monsters (Animals) / Badger",
+    "pageNumbering": "RTF heading. The open rules files do not have stable folios.",
+    "url": "https://www.d20srd.org/srd/monsters/badger.htm",
+    "sourceWitness": "Original publisher RTF stat table and its following combat text. The URL is a readable SRD mirror.",
+    "supportingRules": {
+      "shard": "TypesSubtypesAbilities.rtf",
+      "sha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+      "headings": [
+        "Animal Type",
+        "Low-Light Vision",
+        "Scent"
+      ]
+    },
+    "habitatSource": "Badger Environment field, MonstersAnimals.rtf.",
+    "appearanceSource": "Stat-block creature and scale, descriptive prose where applicable, and editorial details aligned to the selected existing portrait.",
+    "sourceDistinctions": [
+      "Use its own Small Animal size, listed Weapon Finesse claw bonus and negative bite modifier."
+    ]
+  },
+  {
+    "name": "Dire Badger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD open RTF archive",
+    "archive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersDi-Do.rtf",
+    "shardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "heading": "Dire Animal / Dire Badger",
+    "pageNumbering": "RTF heading. The open rules files do not have stable folios.",
+    "url": "https://www.d20srd.org/srd/monsters/direBadger.htm",
+    "sourceWitness": "Original publisher RTF stat table and its following combat text. The URL is a readable SRD mirror.",
+    "supportingRules": {
+      "shard": "TypesSubtypesAbilities.rtf",
+      "sha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+      "headings": [
+        "Animal Type",
+        "Low-Light Vision",
+        "Scent"
+      ]
+    },
+    "habitatSource": "Dire Badger Environment field, MonstersDi-Do.rtf.",
+    "appearanceSource": "Stat-block creature and scale, descriptive prose where applicable, and editorial details aligned to the selected existing portrait.",
+    "sourceDistinctions": [
+      "The dire version has its own Medium Animal stat block and leaves a tunnel in suitable material. Ordinary Badger’s +4 racial Escape Artist bonus is specific to its own entry."
+    ]
+  },
+  {
+    "name": "Dire Wolverine",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD open RTF archive",
+    "archive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersDi-Do.rtf",
+    "shardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "heading": "Dire Animal / Dire Wolverine",
+    "pageNumbering": "RTF heading. The open rules files do not have stable folios.",
+    "url": "https://www.d20srd.org/srd/monsters/direWolverine.htm",
+    "sourceWitness": "Original publisher RTF stat table and its following combat text. The URL is a readable SRD mirror.",
+    "supportingRules": {
+      "shard": "TypesSubtypesAbilities.rtf",
+      "sha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+      "headings": [
+        "Animal Type",
+        "Low-Light Vision",
+        "Scent"
+      ]
+    },
+    "habitatSource": "Dire Wolverine Environment field, MonstersDi-Do.rtf.",
+    "appearanceSource": "Stat-block creature and scale, descriptive prose where applicable, and editorial details aligned to the selected existing portrait.",
+    "sourceDistinctions": [
+      "The Large animal has 10-ft. space and only 5-ft. reach. Its native movement includes a 10-ft. climb."
+    ]
+  },
+  {
+    "name": "Leopard",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD open RTF archive",
+    "archive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersAnimals.rtf",
+    "shardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "heading": "Monsters (Animals) / Leopard",
+    "pageNumbering": "RTF heading. The open rules files do not have stable folios.",
+    "url": "https://www.d20srd.org/srd/monsters/leopard.htm",
+    "sourceWitness": "Original publisher RTF stat table and its following combat text. The URL is a readable SRD mirror.",
+    "supportingRules": {
+      "shard": "TypesSubtypesAbilities.rtf",
+      "sha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+      "headings": [
+        "Animal Type",
+        "Low-Light Vision",
+        "Scent",
+        "Improved Grab",
+        "Rake"
+      ]
+    },
+    "habitatSource": "Leopard Environment field, MonstersAnimals.rtf.",
+    "appearanceSource": "Stat-block creature and scale, descriptive prose where applicable, and editorial details aligned to the selected existing portrait.",
+    "sourceDistinctions": [
+      "The individual entry permits two rakes on Pounce. The shared Rake rule otherwise requires starting the turn grappling. The shared Improved Grab default limits the hold to smaller creatures."
+    ]
+  },
+  {
+    "name": "Pony",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 SRD open RTF archive",
+    "archive": "SRD-3.5-RTF.zip",
+    "archiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "shard": "MonstersAnimals.rtf",
+    "shardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "heading": "Monsters (Animals) / Pony",
+    "pageNumbering": "RTF heading. The open rules files do not have stable folios.",
+    "url": "https://www.d20srd.org/srd/monsters/pony.htm",
+    "sourceWitness": "Original publisher RTF stat table and its following combat text. The URL is a readable SRD mirror.",
+    "supportingRules": {
+      "shard": "TypesSubtypesAbilities.rtf",
+      "sha256": "55a8375ee6c8e65cff00ec82770122eae9dca63996980e5abab9114dc13e8dfc",
+      "headings": [
+        "Animal Type",
+        "Low-Light Vision",
+        "Scent"
+      ]
+    },
+    "habitatSource": "Pony Environment field, MonstersAnimals.rtf.",
+    "appearanceSource": "Stat-block creature and scale, descriptive prose where applicable, and editorial details aligned to the selected existing portrait.",
+    "sourceDistinctions": [
+      "This is the PONY entry. The adjacent PONY, WAR entry has different rules. The source prints −3 and 1d3 for hoof attacks."
+    ]
+  }
+]

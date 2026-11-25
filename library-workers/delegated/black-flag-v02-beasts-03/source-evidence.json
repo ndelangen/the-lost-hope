@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Saber-Toothed Tiger",
+    "entryId": "beast-4048966770801f16dd341807",
+    "versionKey": "8c08735b8482d303d31c325a",
+    "printedName": "Tiger, Saber-Toothed",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      372,
+      373
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 16
+    },
+    "abilityModifiers": {
+      "STR": 4,
+      "DEX": 2,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -1
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "arctic",
+      "hill",
+      "mountain"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195187-saber-toothed-tiger",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A muscular, heavy-shouldered cat with"
+  },
+  {
+    "name": "Scorpion Insect",
+    "entryId": "beast-6352452049bd9c133b571361",
+    "versionKey": "8779398bb005e104a5156b39",
+    "printedName": "Insect, Scorpion",
+    "cr": "0",
+    "sourceUrl": "",
+    "viewerPages": [
+      361,
+      361
+    ],
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 0,
+      "CON": -1,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "poisoned"
+    },
+    "habitatTags": [
+      "desert"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775840-scorpion",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A small segmented scorpion with"
+  },
+  {
+    "name": "Swarm of Bats",
+    "entryId": "beast-9b10029fdb104074fd926e87",
+    "versionKey": "8a47389ffe6795b14a3f899d",
+    "printedName": "Bat, Swarm of Bats",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      352,
+      353
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "conditionDefenses": {
+      "Vulnerable": "deafened",
+      "Resistant": "blinded"
+    },
+    "habitatTags": [
+      "forest",
+      "mountain",
+      "underdark",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195222-swarm-of-bats",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A dense flight of small"
+  },
+  {
+    "name": "Swarm of Insects",
+    "entryId": "beast-3dda0539047e0c2d32d2056b",
+    "versionKey": "4755087a3a32c55aaccc5905",
+    "printedName": "Insect, Swarm of Insects",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      362,
+      362
+    ],
+    "fixedValues": {
+      "Perception": 8,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -5,
+      "WIS": -2,
+      "CHA": -5
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "forest",
+      "grassland",
+      "hill",
+      "swamp",
+      "underdark",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195224-swarm-of-insects",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A mass of tiny crawling"
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "entryId": "beast-305b5bd24b513ff9b13296f9",
+    "versionKey": "48049ae9489d65520641f6fe",
+    "printedName": "Snake, Swarm of Poisonous Snakes",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      371,
+      371
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": -1,
+      "DEX": 4,
+      "CON": 0,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "poisoned"
+    },
+    "habitatTags": [
+      "coastal",
+      "desert",
+      "forest",
+      "grassland",
+      "hill",
+      "swamp"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195231-swarm-of-venomous-snakes",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A tangled mass of thin"
+  },
+  {
+    "name": "Swarm of Quippers",
+    "entryId": "beast-437bf30b25850b9c1f2cfc5a",
+    "versionKey": "552c442a70d5d290ed781804",
+    "printedName": "Quipper, Swarm of Quippers",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      366,
+      366
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 1,
+      "DEX": 3,
+      "CON": 0,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195227-swarm-of-piranhas",
+    "habitatSourceKind": "Printed swim and Water Breathing in v0.2; habitat concordance with the renamed 2024 Swarm of Piranhas.",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A tight school of small",
+    "habitatNameCrosswalk": ""
+  },
+  {
+    "name": "Swarm of Rats",
+    "entryId": "beast-5941966f457fe4f6c60c3939",
+    "versionKey": "3d06d99f60a01405687d2d75",
+    "printedName": "Rat, Swarm of Rats",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      367,
+      367
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "supplementUrl": "",
+    "abilityModifiers": {
+      "STR": -1,
+      "DEX": 0,
+      "CON": -1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "swamp",
+      "underdark",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195228-swarm-of-rats",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A tumbling mass of small"
+  },
+  {
+    "name": "Swarm of Ravens",
+    "entryId": "beast-eff4cac94120f8733a73e333",
+    "versionKey": "f49dff7812f6a7c9c0cf5d5c",
+    "printedName": "Raven, Swarm of Ravens",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      367,
+      368
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -2,
+      "DEX": 2,
+      "CON": -1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -1
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "hill",
+      "swamp",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195229-swarm-of-ravens",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A flock of black ravens"
+  },
+  {
+    "name": "War Horse",
+    "entryId": "beast-3f9454125ca694f7cbcd65dd",
+    "versionKey": "65fcc7f0b8d315e88dd30df5",
+    "printedName": "Horse, War",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      359,
+      360
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 4,
+      "DEX": 1,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775848-warhorse",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A strong riding horse with"
+  }
+]

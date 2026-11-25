@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Dybbuk",
+    "statBlock": {
+      "name": "Dybbuk",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 132,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 14,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This translucent, jellyfish-like demon can pass as the person whose body it inhabits. Its behavior usually gives it away.",
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 4,
+        "Perception": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common, telepathy 120 ft.",
+        "Damage resistances": "Acid, cold, fire, lightning, thunder. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone and restrained.",
+        "Traits": "Incorporeal Movement. Move through creatures and objects as difficult terrain. Ending its turn inside an object deals 5 (1d10) force damage to the dybbuk.\nMagic Resistance. The dybbuk has advantage on saves against spells and other magical effects.",
+        "Innate Spellcasting": "Charisma sets the save DC at 12. The dybbuk needs no material components.\nAt will. Dimension Door.\n3/day each. Fear, Phantasmal Force.",
+        "Bonus actions": "Violate Corpse. While possessing a body, the dybbuk can make it behave in an unnatural way. A beast or humanoid that sees this must succeed on a DC 12 Wisdom save or become frightened of the dybbuk for 1 minute. An affected creature can repeat the save at the end of each of its turns to end the effect on a success. A successful save against Violate Corpse grants immunity to it for 24 hours.\nEnd Possession. The dybbuk can leave the body as a bonus action. It appears in an unoccupied space within 5 ft. of the corpse.",
+        "Actions": "Tendril. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) necrotic damage. A creature hit also loses 3 (1d6) from its hit point maximum until it finishes a short or long rest. If this reduces its maximum to 0, it dies.\nPossess Corpse (Recharge 6). Enter a visible, intact corpse within 5 ft. It must be the body of a Large or smaller beast or humanoid. The dybbuk becomes undead and looks alive. It gains temporary hit points equal to the body’s hit point maximum in life. The dybbuk retains its own hit points, alignment, Intelligence, Wisdom, Charisma, telepathy and immunity to poison damage, exhaustion, charmed and frightened. It uses the corpse’s other game statistics and gains its knowledge and proficiencies. Its class features are unavailable. The body becomes a corpse again when the temporary hit points run out or the dybbuk leaves as a bonus action. The dybbuk then appears in an unoccupied space within 5 ft. of the corpse.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 132."
+      }
+    }
+  },
+  {
+    "name": "Earth Elemental Myrmidon",
+    "statBlock": {
+      "name": "Earth Elemental Myrmidon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 202,
+      "classification": "Medium elemental, neutral",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Magic binds an earth elemental into this suit of plate armor. It has forgotten its former life and follows its creator’s commands.",
+      "sections": {
+        "Armor": "Plate armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Terran and one language chosen by its creator.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Paralyzed, petrified, poisoned and prone.",
+        "Traits": "Magic Weapons. The myrmidon’s weapon attacks are magical.",
+        "Actions": "Multiattack. Make two Maul attacks.\nMaul. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nThunderous Strike (Recharge 6). Make one Maul attack. A hit deals an extra 16 (3d10) thunder damage and knocks the target prone unless it succeeds on a DC 14 Strength save.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 202."
+      }
+    }
+  },
+  {
+    "name": "Eidolon",
+    "statBlock": {
+      "name": "Eidolon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 194,
+      "classification": "Medium undead, any alignment",
+      "ac": 9,
+      "hp": 63,
+      "hitDice": "18d8 - 18",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An oath binds this devoted spirit to a sacred site. When intruders arrive, the eidolon enters a prepared statue and uses it to fight.",
+      "savingThrows": {
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Acid, fire, lightning, thunder. Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic and poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone and restrained.",
+        "Traits": "Incorporeal Movement. Move through creatures and objects as difficult terrain. Ending its turn inside an object other than a Sacred Statue deals 5 (1d10) force damage to the eidolon.\nSacred Animation (Recharge 5–6). When the eidolon enters a Sacred Statue’s space, it can disappear into the statue. The statue becomes a creature under its control. Use the Sacred Statue’s statistics instead of the eidolon’s until it leaves.\nTurn Resistance. The eidolon has advantage on saves against effects that turn undead.",
+        "Actions": "Divine Dread. Every creature within 60 ft. that can see the eidolon must succeed on a DC 15 Wisdom save or become frightened of it for 1 minute. At the start of each of its turns while frightened this way, the target must take the Dash action and move away by the safest available route. If it has nowhere to go, it is also stunned until it can move again. It can repeat the save at the end of each of its turns to end the effect on a success. A successful save or the end of the effect makes the target immune to any eidolon’s Divine Dread for 24 hours.",
+        "Sacred Statue": "Use the Sacred Statue on the same page. This printing’s Multiattack makes two Slam attacks. While motionless the statue looks like an ordinary statue. It is an object when unoccupied. The eidolon leaves when the statue reaches 0 hit points, when it spends a bonus action to leave, or when an effect such as Dispel Evil and Good turns or forces it out. It reappears in an unoccupied space within 5 ft. of the statue.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 194."
+      }
+    }
+  },
+  {
+    "name": "Elder Oblex",
+    "statBlock": {
+      "name": "Elder Oblex",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Huge ooze, lawful evil",
+      "ac": 16,
+      "hp": 115,
+      "hitDice": "10d12 + 50",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An elder oblex feeds on memories and sends lifelike copies of its victims to lure more prey or infiltrate a settlement.",
+      "savingThrows": {
+        "Int": 10,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 10,
+        "Deception": 8,
+        "History": 10,
+        "Nature": 10,
+        "Perception": 5,
+        "Religion": 10
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft. (blind beyond this distance).",
+        "Languages": "Common and six other languages.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion and prone.",
+        "Traits": "Amorphous. It can pass through gaps at least 1 inch wide without squeezing.\nAversion to Fire. After taking fire damage, the oblex has disadvantage on attack rolls and ability checks through the end of its next turn.",
+        "Innate Spellcasting": "Intelligence sets the save DC at 18. The oblex needs no material components.\nAt will. Charm Person (cast at 5th level), Detect Thoughts, Hold Person.\n3/day each. Confusion, Dimension Door, Dominate Person, Fear, Hallucinatory Terrain, Hold Monster, Hypnotic Pattern, Telekinesis.",
+        "Bonus actions": "Sulfurous Impersonation. Form a copy of one Medium or smaller creature whose memories the oblex stole. The copy looks, feels and sounds like the original but smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures. A strand of slime up to 120 ft. long joins each copy to the main body. The oblex occupies its own space and each copy’s space at the same time. The strand is immune to damage. If the route between the body and copy has no opening at least 1 inch wide, the strand breaks and the copy vanishes.",
+        "Actions": "Multiattack. Make two Pseudopod attacks and use Eat Memories.\nPseudopod. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 17 (4d6 + 3) bludgeoning damage plus 7 (2d6) psychic damage.\nEat Memories. Choose a visible creature within 5 ft. Constructs, oozes, plants and undead automatically succeed on the DC 18 Wisdom save. On a failed save the target takes 44 (8d10) psychic damage and becomes memory drained until it finishes a short or long rest or receives Greater Restoration or Heal. It subtracts a d4 from its ability checks and attack rolls. Each further drain raises the penalty die in order from d4 to d6, d8, d10, d12 and d20. At d20 the target becomes unconscious for 1 hour, after which the effect ends. Whenever the oblex drains a target’s memories, it learns the target’s languages and gains its proficiencies except saving throw proficiencies.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 219."
+      }
+    }
+  },
+  {
+    "name": "Elder Tempest",
+    "statBlock": {
+      "name": "Elder Tempest",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Gargantuan elemental, neutral",
+      "ac": 19,
+      "hp": 264,
+      "hitDice": "16d20 + 96",
+      "speed": "0 ft., fly 120 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 28
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A serpent of clouds and lightning travels at the center of a miles-wide storm. Its wind and rain reach far beyond its body.",
+      "savingThrows": {
+        "Wis": 12,
+        "Cha": 11
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning, poison and thunder.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained and stunned.",
+        "Traits": "Air Form. The tempest can enter and stop in hostile creatures’ spaces and pass through gaps at least 1 inch wide without squeezing.\nFlyby. Flying out of an enemy’s reach provokes no opportunity attack from that enemy.\nLegendary Resistance (3/day). When the tempest fails a save, it can succeed instead.\nLiving Storm. A storm 1d6 + 4 miles across stays centered on the tempest. Heavy rain or snow lightly obscures the area. Rain extinguishes open flames and imposes disadvantage on Wisdom (Perception) checks that rely on hearing. Strong winds impose disadvantage on ranged attack rolls, extinguish open flames and disperse fog.\nSiege Monster. The tempest deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Thunderous Slam attacks.\nThunderous Slam. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 23 (4d6 + 9) thunder damage.\nLightning Storm (Recharge 6). Each other creature within 120 ft. makes a DC 20 Dexterity save. It takes 27 (6d8) lightning damage on a failure, or half on a success. A creature that fails by 5 or more is also stunned until the end of its next turn.",
+        "Legendary actions": "The tempest has three legendary actions and regains them at the start of its turn. Use one option at a time, only at the end of another creature’s turn.\nMove (1 action). Move up to its speed.\nLightning Strike (2 actions). Strike a point on the ground anywhere under the storm. Each creature within 5 ft. of that point makes a DC 20 Dexterity save and takes 16 (3d10) lightning damage on a failure, or half on a success.\nScreaming Gale (3 actions). The tempest sends wind and thunder down a line 1 mile long and 20 ft. wide. Objects in the line take 22 (4d10) thunder damage. A creature in the line must succeed on a DC 21 Dexterity save or take 22 (4d10) thunder damage and be thrown up to 60 ft. away from the line. If it hits an immovable object, it takes 3 (1d6) bludgeoning damage per 10 ft. traveled before impact. If it would hit another creature instead, that creature must succeed on a DC 19 Dexterity save or take the same impact damage and fall prone.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 200."
+      }
+    }
+  },
+  {
+    "name": "Female Steeder",
+    "statBlock": {
+      "name": "Female Steeder",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 238,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 14,
+      "hp": 30,
+      "hitDice": "4d10 + 8",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Duergar ride these giant hunting spiders into battle. The steeder grips prey with an adhesive from its legs.",
+      "skills": {
+        "Stealth": 7,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Spider Climb. The steeder climbs difficult surfaces and can move upside down along ceilings without an ability check.\nExtraordinary Leap. The steeder’s long-jump distance is tripled. Each foot of walking speed spent on a long jump moves it 3 ft.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage plus 9 (2d8) poison damage.\nSticky Leg. Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the creature sticks to the leg and is grappled (escape DC 12). The steeder can grapple only one creature at a time this way.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 238."
+      }
+    }
+  }
+]

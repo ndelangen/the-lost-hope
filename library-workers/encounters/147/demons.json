@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Quasit",
+    "statBlock": {
+      "name": "Quasit",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny fiend (demon), chaotic evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "3d4",
+      "speed": "40 ft.",
+      "cr": "1",
+      "xp": 200,
+      "description": "A petty Abyssal spy that slips into an animal guise or vanishes before striking.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Stealth": 5
+      },
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common.",
+        "Traits": "Shapechanger. It can use an action to change into a bat (walk 10 ft., fly 40 ft.), centipede (walk and climb 40 ft.), toad (walk and swim 40 ft.), or its true form. Only the listed speeds change. Its gear keeps its original form, and the quasit returns to its true form when it dies.\nMagic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Claws (Bite in beast form). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage. On a failed DC 10 Constitution save, the target also takes 5 (2d4) poison damage and becomes Poisoned for 1 minute. It repeats the save at the end of each turn, ending the condition on a success.\nScare (1/day). Choose one creature within 20 ft. It makes a DC 10 Wisdom save or becomes Frightened for 1 minute. It repeats the save at the end of each turn, with disadvantage if it can see the quasit, ending the effect on a success.\nInvisibility. The quasit and its worn or carried gear become magically Invisible. The effect ends if the quasit attacks, uses Scare, or loses Concentration as if concentrating on a spell.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51 and 63."
+      }
+    }
+  },
+  {
+    "name": "Quasit (familiar variant)",
+    "statBlock": {
+      "name": "Quasit (familiar variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny fiend (demon), chaotic evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "3d4",
+      "speed": "40 ft.",
+      "cr": "1",
+      "xp": 200,
+      "description": "A petty Abyssal spy that slips into an animal guise or vanishes before striking.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "skills": {
+        "Stealth": 5
+      },
+      "savingThrows": {},
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common.",
+        "Traits": "Shapechanger. It can use an action to change into a bat (walk 10 ft., fly 40 ft.), centipede (walk and climb 40 ft.), toad (walk and swim 40 ft.), or its true form. Only the listed speeds change. Its gear keeps its original form, and the quasit returns to its true form when it dies.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nFamiliar. The quasit can agree to serve a willing master and form a telepathic bond. While within 1 mile of one another, the master can perceive through the quasit's senses. Within 10 ft. of the quasit, the master also benefits from the quasit's Magic Resistance. The quasit can end its service and break the bond at any time.",
+        "Actions": "Claws (Bite in beast form). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage. On a failed DC 10 Constitution save, the target also takes 5 (2d4) poison damage and becomes Poisoned for 1 minute. It repeats the save at the end of each turn, ending the condition on a success.\nScare (1/day). Choose one creature within 20 ft. It makes a DC 10 Wisdom save or becomes Frightened for 1 minute. It repeats the save at the end of each turn, with disadvantage if it can see the quasit, ending the effect on a success.\nInvisibility. The quasit and its worn or carried gear become magically Invisible. The effect ends if the quasit attacks, uses Scare, or loses Concentration as if concentrating on a spell.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51 and 63. The familiar variant is on p. 63."
+      }
+    }
+  },
+  {
+    "name": "Vrock",
+    "statBlock": {
+      "name": "Vrock",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 104,
+      "hitDice": "11d10 + 44",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "description": "A vulture-headed demon that scatters toxic spores and can stop prey in its tracks with a screech.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 4,
+        "Cha": 2
+      },
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) piercing damage.\nTalons. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 14 (2d10 + 3) slashing damage.\nSpores (recharge 6). Toxic spores fill the area within 15 ft. of the vrock and spread around corners. Each creature in that area makes a DC 14 Constitution save or becomes Poisoned. An affected creature takes 5 (1d10) poison damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success. Emptying a vial of Holy Water over the creature also ends the effect.\nStunning Screech (1/day). Each non-demon within 20 ft. that can hear the vrock makes a DC 14 Constitution save or becomes Stunned until the end of the vrock's next turn.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51 and 64."
+      }
+    }
+  },
+  {
+    "name": "Vrock (Summoner Variant)",
+    "statBlock": {
+      "name": "Vrock (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 104,
+      "hitDice": "11d10 + 44",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "description": "A vulture-headed demon that scatters toxic spores and can stop prey in its tracks with a screech.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 4,
+        "Cha": 2
+      },
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) piercing damage.\nTalons. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 14 (2d10 + 3) slashing damage.\nSpores (recharge 6). Toxic spores fill the area within 15 ft. of the vrock and spread around corners. Each creature in that area makes a DC 14 Constitution save or becomes Poisoned. An affected creature takes 5 (1d10) poison damage at the start of each of its turns. It repeats the save at the end of each of its turns, ending the effect on a success. Emptying a vial of Holy Water over the creature also ends the effect.\nStunning Screech (1/day). Each non-demon within 20 ft. that can hear the vrock makes a DC 14 Constitution save or becomes Stunned until the end of the vrock's next turn.\nSummon Demon (1/day). Choose 2d4 dretches or one vrock, then attempt a magical summoning with a 30 percent chance of success. On a success, each summoned demon appears in an unoccupied space within 60 ft. of the summoner and acts as its ally. The summoned demons cannot summon other demons. Each remains for 1 minute or until it dies, the summoner dies, or the summoner dismisses it as an action.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51, 54 and 64. The Demon Summoning variant is on p. 54."
+      }
+    }
+  },
+  {
+    "name": "Marilith",
+    "statBlock": {
+      "name": "Marilith",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "40 ft.",
+      "cr": "16",
+      "xp": 15000,
+      "description": "A six-armed Abyssal sword fighter that pins opponents with a serpentine tail.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 9,
+        "Con": 10,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.\nReactive. It can take one reaction on every turn in combat.",
+        "Actions": "Multiattack. Make six Longsword attacks and one Tail attack.\nLongsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) slashing damage.\nTail. Melee weapon attack, +9 to hit, reach 10 ft., one creature. Hit 15 (2d10 + 4) bludgeoning damage. A Medium or smaller target becomes Grappled (escape DC 19) and Restrained until the grapple ends. During the grapple, Tail attacks automatically hit that target and cannot target anyone else.\nTeleport. It teleports magically up to 120 ft. to an unoccupied space it can see, carrying its gear with it.",
+        "Reactions": "Parry. When a melee attack would hit it, the marilith can add 5 to its AC against that attack if it sees the attacker and wields a melee weapon.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51 and 61."
+      }
+    }
+  },
+  {
+    "name": "Marilith (Summoner Variant)",
+    "statBlock": {
+      "name": "Marilith (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "40 ft.",
+      "cr": "16",
+      "xp": 15000,
+      "description": "A six-armed Abyssal sword fighter that pins opponents with a serpentine tail.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 9,
+        "Con": 10,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.\nReactive. It can take one reaction on every turn in combat.",
+        "Actions": "Multiattack. Make six Longsword attacks and one Tail attack.\nLongsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) slashing damage.\nTail. Melee weapon attack, +9 to hit, reach 10 ft., one creature. Hit 15 (2d10 + 4) bludgeoning damage. A Medium or smaller target becomes Grappled (escape DC 19) and Restrained until the grapple ends. During the grapple, Tail attacks automatically hit that target and cannot target anyone else.\nTeleport. It teleports magically up to 120 ft. to an unoccupied space it can see, carrying its gear with it.\nSummon Demon (1/day). Choose 1d6 vrocks, 1d4 hezrous, 1d3 glabrezus, 1d2 nalfeshnees, or one marilith. Then attempt a magical summoning with a 50 percent chance of success. On a success, each summoned demon appears in an unoccupied space within 60 ft. of the summoner and acts as its ally. The summoned demons cannot summon other demons. Each remains for 1 minute or until it dies, the summoner dies, or the summoner dismisses it as an action.",
+        "Reactions": "Parry. When a melee attack would hit it, the marilith can add 5 to its AC against that attack if it sees the attacker and wields a melee weapon.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51, 54 and 61. The Demon Summoning variant is on p. 54."
+      }
+    }
+  },
+  {
+    "name": "Dretch",
+    "statBlock": {
+      "name": "Dretch",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small fiend (demon), chaotic evil",
+      "ac": 11,
+      "hp": 18,
+      "hitDice": "4d6 + 4",
+      "speed": "20 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "description": "A small Abyssal foot soldier that makes close quarters dangerous with a cloud of foul gas.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 9,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal. Telepathy 60 ft. with creatures that understand Abyssal.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 3 (1d6) piercing damage.\nClaws. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 5 (2d4) slashing damage.\nFetid Cloud (1/day). Gas extends 10 ft. from the dretch, spreads around corners, and lightly obscures its area. It lasts 1 minute or until a strong wind disperses it. A creature that starts its turn in the cloud makes a DC 11 Constitution save or becomes Poisoned until the start of its next turn. While Poisoned by the cloud, it may take either an action or a bonus action on its turn and cannot take reactions.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51 and 57."
+      }
+    }
+  },
+  {
+    "name": "Goristro",
+    "statBlock": {
+      "name": "Goristro",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 19,
+      "hp": 310,
+      "hitDice": "23d12 + 161",
+      "speed": "40 ft.",
+      "cr": "17",
+      "xp": 18000,
+      "description": "A hulking, horned demon that smashes fortifications and remembers every route it takes.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "savingThrows": {
+        "Str": 13,
+        "Dex": 6,
+        "Con": 13,
+        "Wis": 7
+      },
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal.",
+        "Traits": "Charge. If it moves at least 15 ft. straight toward a target and hits that target with Gore on the same turn, the hit deals another 38 (7d10) piercing damage. A creature hit this way also makes a DC 21 Strength save. On a failure, the goristro pushes it up to 20 ft. away and knocks it Prone.\nLabyrinthine Recall. It remembers every route it has traveled.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nSiege Monster. It deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Fist attacks and one Hoof attack.\nFist. Melee weapon attack, +13 to hit, reach 10 ft., one target. Hit 20 (3d8 + 7) bludgeoning damage.\nHoof. Melee weapon attack, +13 to hit, reach 5 ft., one target. Hit 23 (3d10 + 7) bludgeoning damage. A creature hit makes a DC 21 Strength save or falls Prone.\nGore. Melee weapon attack, +13 to hit, reach 10 ft., one target. Hit 45 (7d10 + 7) piercing damage.",
+        "Abyssal return": "A demon killed outside the Abyss dissolves and reforms there immediately. Killing it in the Abyss destroys it permanently unless it has protected its essence with a demonic amulet.",
+        "Printed source": "Monster Manual (2014), pp. 50–51 and 59."
+      }
+    }
+  }
+]

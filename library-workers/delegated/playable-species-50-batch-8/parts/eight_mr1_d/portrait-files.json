@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Intellect Devourer",
+    "file": "portraits/intellect-devourer.png",
+    "sha256": "0f20008b645e229ea73c21a3d2d7bb8bcb38abca985edd3a290a52f1968df748",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Invisible Stalker",
+    "file": "portraits/invisible-stalker.png",
+    "sha256": "8206ffeb446b37583b1c9ad050f6214020ead1231983a239129e28209022ce9a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Jackalwere",
+    "file": "portraits/jackalwere.png",
+    "sha256": "2cb6eb0a42db077f1bf73cde39a252ebbd86873020b613c14c4f32d8f1ecfbb1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Kraken",
+    "file": "portraits/kraken.png",
+    "sha256": "587cf929ce348662c83a26c68bc7a7d113049d7e4617da5c037e804e5ee58905",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Manticore",
+    "file": "portraits/manticore.png",
+    "sha256": "ba5f18baba608b86e0992865ae2275d68d2b601e9d4fe20a4c0ea05b9d9bc6b1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

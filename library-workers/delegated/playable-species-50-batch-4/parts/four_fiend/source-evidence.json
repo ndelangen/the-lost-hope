@@ -1,0 +1,240 @@
+[
+  {
+    "name": "Feytouched",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Fey",
+    "url": "",
+    "page": "p. 71",
+    "printedPages": [
+      71
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Use the Fiend Folio ancestry. Separate from the Half-Fey template and other Feytouched rules.",
+      "All Feytouched player rules are on p. 71. Reva uses Common and Sylvan as a table choice because this entry does not designate automatic or bonus languages. The sample uses the expressly printed charm DC 11."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Rogue",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+      },
+      {
+        "name": "3.0 SRD, Charm Person",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Charm_Person"
+      }
+    ]
+  },
+  {
+    "name": "Maeluth",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider",
+    "url": "",
+    "page": "pp. 136–137",
+    "printedPages": [
+      136,
+      137
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Dwarf-descended planetouched. One claim under Maeluth.",
+      "The NPC exchanges the entry’s single racial Hit Die for fighter 1. Fiend Hammer uses the default standard action for activating a supernatural power."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+        "url": ""
+      },
+      {
+        "name": "Dungeon Master’s Guide (2000), Fighter p. 52 and Unholy weapon special ability",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Equipment",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Equipment"
+      }
+    ]
+  },
+  {
+    "name": "Mechanatrix",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider",
+    "url": "",
+    "page": "p. 137, shared planetouched traits p. 136",
+    "printedPages": [
+      136,
+      137,
+      138
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Inorganic-featured planetouched. Separate from Arisen and living constructs.",
+      "The example exchanges the lone racial Hit Die for fighter 1. The entry supplies no spoken languages, so Common is an example choice. Shocking grasp uses 3.0 damage and metal-target rules."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Shocking Grasp",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Shocking_Grasp"
+      },
+      {
+        "name": "Dungeon Master’s Guide (2000), Fighter p. 52",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Equipment",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Equipment"
+      }
+    ]
+  },
+  {
+    "name": "Shyft",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider",
+    "url": "",
+    "page": "p. 138, shared planetouched traits p. 136",
+    "printedPages": [
+      136,
+      138
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Ethereal-descended planetouched. Separate from Shifter, Shade and Shadar-kai.",
+      "The single racial Hit Die is exchanged for rogue 1. The printed LA is +3 and does not increase caster level. This build follows the 3.0 Ethereal Plane rules."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Rogue",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+      },
+      {
+        "name": "3.0 SRD, Ethereal Jaunt",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Ethereal_Jaunt"
+      },
+      {
+        "name": "Manual of the Planes (2001), Ethereal Plane",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Wispling",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider",
+    "url": "",
+    "page": "p. 139, shared planetouched traits p. 136",
+    "printedPages": [
+      136,
+      139
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Halfling-descended planetouched. Separate from base Halfling and Tiefling.",
+      "The build exchanges the sample’s single racial Hit Die for rogue 1. The build uses the original 3.0 Change Self spelling and rules. The entry gives no save DC for interaction with the glamer, so the example uses the standard first-level effect DC 11 with Charisma +0."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species (2003), exchanging a single racial HD, p. 13",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, Rogue",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+      },
+      {
+        "name": "3.0 SRD, Change Self",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Change_Self"
+      }
+    ]
+  },
+  {
+    "name": "Spriggan",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "type": "Fey",
+    "url": "",
+    "page": "pp. 162–163",
+    "printedPages": [
+      162,
+      163
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "Keep both size forms within one claim.",
+      "The printed attack, Dex and AC on p. 162 do not all follow from its weapon and score lines. Orro uses Strength for attack rolls, recomputes both forms using their stated ability shifts and size modifiers, and applies the chain shirt’s Dex cap. The printed two-point size swing is treated as the move from Small +1 to Large −1. The enlarged stat line suppresses all sneak attack conservatively. Base feats were selected for the original player example."
+    ],
+    "supportingSources": [
+      {
+        "name": "3.0 SRD, Rogue",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Rogue"
+      },
+      {
+        "name": "3.0 SRD, Produce Flame",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Produce_Flame"
+      },
+      {
+        "name": "3.0 SRD, Scare",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Scare"
+      },
+      {
+        "name": "3.0 SRD, Shatter",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Shatter"
+      },
+      {
+        "name": "3.0 SRD, Equipment",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Equipment"
+      }
+    ]
+  }
+]

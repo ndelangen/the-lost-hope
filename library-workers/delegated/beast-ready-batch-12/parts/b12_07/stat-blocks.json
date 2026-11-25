@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Snake, Giant Constrictor",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 12,
+    "hp": 63,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Ability modifiers STR +3, DEX +2, CON +1, INT -5, WIS +0, CHA -4. Perception 12. Stealth 12. Senses Keensense 10 ft. Languages None.",
+    "appearance": "A heavy olive-brown snake with pale markings, broad overlapping coils, and a raised head.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 355, Serpiente, constrictora gigante.",
+      "Actions": "Multiattack. Make one Bite and one Constrict, or make two Bite attacks.\nBite. Melee weapon attack, +6 to hit, reach 10 ft., one creature. On a hit, deal 10 (2d6 + 3) piercing damage.\nConstrict. Melee weapon attack, +6 to hit, reach 5 ft., one creature. On a hit, deal 12 (2d8 + 3) bludgeoning damage and grapple the target (escape DC 14). The grappled creature is restrained, and the snake cannot Constrict another target until this grapple ends.",
+      "Bonus actions": "Crush. Choose one creature the snake is grappling. It must make a DC 14 STR save. On a failure, it takes 9 (2d8) bludgeoning damage and begins suffocating. The creature keeps suffocating until the grapple ends."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Snake, Giant Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 14,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +0, DEX +2, CON +1, INT -4, WIS +0, CHA -4. Perception 10. Stealth 14. Senses Keensense 10 ft. Languages None. Damage resistances poison. Resistant to poisoned. Apply advantage to rolls and saves to avoid or end that condition.",
+    "appearance": "A coiled brown snake with dark blotches, a pale raised throat, and a dark stripe through the eye.",
+    "habitats": [
+      "Badlands",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Grassland",
+      "Swamp",
+      "Underground",
+      "Underwater",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 356, Serpiente, Venenosa Gigante.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 10 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage. The target must make a DC 11 CON save and takes 5 (2d4) poison damage on a failure or half on a success.",
+      "Reactions": "Reflexive Nip. When a creature the snake can see hits it with a melee attack from within 5 ft., the snake can nip the attacker. The attacker must succeed on a DC 11 CON save or be poisoned until the end of its next turn."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Snake, Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 9,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Ability modifiers STR -4, DEX +1, CON +0, INT -5, WIS +0, CHA -4. Perception 10. Stealth 13. Senses Keensense 10 ft. Languages None. Damage resistances poison. Resistant to poisoned. Apply advantage to rolls and saves to avoid or end that condition.",
+    "appearance": "A slender snake with alternating rusty red, cream, and dark bands.",
+    "habitats": [
+      "Badlands",
+      "Coastal",
+      "Desert",
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Swamp",
+      "Underwater",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), pp. 355–356, Serpiente, venenosa.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. On a hit, deal 3 (1d4 + 1) piercing damage. The target must succeed on a DC 10 CON save or take 2 (1d4) poison damage.",
+      "Reactions": "Reflexive Nip. When a creature the snake can see hits it with a melee attack from within 5 ft., the snake can nip the attacker. The attacker must succeed on a DC 10 CON save or be poisoned until the end of its next turn."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Snake, Swarm of Poisonous Snakes",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Swarm of Tiny Beasts",
+    "ac": 14,
+    "hp": 48,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Ability modifiers STR -1, DEX +4, CON +0, INT -5, WIS +0, CHA -4. Perception 10. Stealth 14. Senses Keensense 10 ft. Languages None. Damage resistances poison, bludgeoning, piercing, and slashing. Resistant to poisoned. Apply advantage to rolls and saves to avoid or end that condition.",
+    "appearance": "Several olive and brown snakes with raised heads and overlapping coils.",
+    "habitats": [
+      "Badlands",
+      "Coastal",
+      "Desert",
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills",
+      "Swamp",
+      "Underwater",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 355, Serpiente, Enjambre de Serpientes Venenosas.",
+      "Traits": "Poisonous Swarm. A creature that starts its turn in the swarm’s space must make a DC 14 CON save or be poisoned until the start of its next turn.\nSwarm. The swarm and other creatures can share space. The swarm can pass through any opening that admits a Tiny snake. It cannot regain HP or gain temporary HP.\nSwarm Resilience. The swarm is resistant to bludgeoning, piercing, and slashing damage. It is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions.",
+      "Actions": "Bites. Melee weapon attack, +6 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its HP or less. The target then makes a DC 14 CON save and takes 18 (4d8) poison damage on a failure or half on a success."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Spider",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 12,
+    "hp": 8,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Ability modifiers STR -4, DEX +0, CON -1, INT -5, WIS +0, CHA -4. Perception 10. Stealth 14. Senses Darkvision 30 ft. Languages None.",
+    "appearance": "A speckled brown spider with a round abdomen and long, narrow legs.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underground",
+      "Urban"
+    ],
+    "sections": {
+      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), pp. 333–334, Araña.",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. When touching a web, it knows the exact location of any other creature touching that same web.\nWeb Walker. The spider ignores movement restrictions caused by any kind of net or web.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. On a hit, deal 2 (1d4) piercing damage. The target must succeed on a DC 9 CON save or take 2 (1d4) poison damage.",
+      "Bonus actions": "Web Shot (Recharge 4–6). Fire webbing at one creature the spider can see within 15 ft. The target must succeed on a DC 9 DEX save or have its speed reduced by 10 ft. A creature can use an action to remove the webbing from itself and end the effect.",
+      "Source note": "Cubil de Monstruos p. 333 includes nets and webs in Web Walker. The English Black Flag Roleplaying Reference Document v0.4 lists webbing. This profile follows the Spanish Monster Vault printing."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

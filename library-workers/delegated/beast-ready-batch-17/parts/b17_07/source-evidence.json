@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Pandarian Dragon Turtle",
+    "kind": "beast",
+    "publication": "D&D: World of Warcraft",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "copyrightYear": 2026,
+    "section": "Chapter 3, Professions and Gear, Mounts and Vehicles",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wow/chapter-3-professions-and-gear#statblock-wow--pandarian-dragon-turtle",
+    "url": "https://www.dndbeyond.com/sources/dnd/wow/chapter-3-professions-and-gear#statblock-wow--pandarian-dragon-turtle",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/wow",
+    "officialCompendiumListing": "https://www.dndbeyond.com/monsters?filter-search=dragon&filter-type=0&page=5&sort=size",
+    "sourceWitness": "Readable full capture of the Wizards of the Coast digital stat block published in a review of the expansion’s mounts.",
+    "sourceWitnessUrl": "https://www.belloflostsouls.net/wp-content/uploads/2026/11/dnd-wow-dragon-turtle-pandarian.jpg",
+    "sourceWitnessHostArticle": "https://www.belloflostsouls.net/2026/11/dd-world-of-warcrafts-new-mounts-make-riding-into-battle-even-more-epic.html",
+    "sourceSha256": "b9df0c269409a9ac59c351ef705898201f9a96486abe92ff44cd2f9c4a936d7c",
+    "secondaryPageLocator": 104,
+    "secondaryIndexUrl": "https://5e.tools/bestiary.html#pandarian%20dragon%20turtle_wow",
+    "sourceNotes": [
+      "The digital block shows initiative +1 (11), proficiency bonus +2 and six saving-throw modifiers. Each saving throw equals its printed ability modifier.",
+      "The attack applies the Grappled condition to creatures of Large size or smaller. The escape DC is 13.",
+      "The publisher’s contents page links to the exact Chapter 3 block. The public image shows the publisher’s complete digital rules and carries no folio. The 5e.tools data supplies p. 104 as a secondary locator."
+    ],
+    "appearanceEvidence": "The block identifies a Large dragon turtle and the mount article identifies its use. The available rules capture supplies no physical description. The existing portrait illustrates the named form.",
+    "habitatEvidence": "The available stat block supplies no habitat line.",
+    "artworkSource": "indexed:images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+    "artworkSha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Reused the indexed square parchment portrait for this exact creature. I checked the 1254-by-1254 image and confirmed its SHA-256."
+  }
+]

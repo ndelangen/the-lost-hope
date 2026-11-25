@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Ashenforged",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Constitution +2. Medium, 30-ft. walking speed. Darkvision 60 ft. In dim light, see as though it were bright light. In darkness, see as though it were dim light, in shades of gray.",
+      "Advantage on saving throws against poison and disease, and resistance to poison damage.",
+      "Choose proficiency in smith’s tools, mechanics tools, cooking supplies or tailoring supplies. Speak, read and write Common, Dendusi and one language of your choice.",
+      "Cerebral: Wisdom +1. Increase maximum HP by 1 at 1st level and by 1 whenever you gain a level.",
+      "Somatic: Strength +1. The natural AC formula is 12 + Dexterity modifier and you can use it if armor would give you a lower AC. A shield adds its normal bonus. Wearing medium or heavy armor imposes no associated movement or stealth-check penalties."
+    ]
+  },
+  {
+    "name": "Belare",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "The GM decides whether Belare are available as player characters. Intelligence, Constitution and Charisma each increase by 1. Medium, 25-ft. walking speed. Speak, read and write Common and Protean.",
+      "Infravision uses the 60-ft. darkvision lighting rules. In dim light or darkness, it can also discern heat signatures within that range through up to 5 ft. of nonmetallic solid material.",
+      "An unarmored Belare has AC 10 + Dexterity modifier + Constitution modifier and can add a shield normally. Unarmored class AC bonuses do not apply. Medium or heavy armor imposes disadvantage on every Dexterity (Stealth) check.",
+      "The sealed biosignature-bound suit confers advantage on poison saves, resistance to poison damage and immunity to disease. The Belare resists radiant damage in the suit. Exposed, it is immune to radiant damage and vulnerable to necrotic damage.",
+      "Artificial Body allows effects that target automatons or constructs to affect you. Healing works normally. Food, breathing and sleep are unnecessary, and esper effects cannot age you or make you sleep. Four uninterrupted hours of rest provide the benefit a human gains from eight hours of sleep.",
+      "Renew is a prime talent. At level 3, gain one Constitution-based use of Light Beam per long rest. Its rank starts at 2 and increases to 3 at character level 6, 4 at level 11 and 5 at level 16.",
+      "No one can force your suit open without your consent. Stay exposed for up to your Constitution modifier in rounds, minimum 1. Each subsequent round begins with one level of exhaustion. Six levels reduce you to dust. A long rest clears these exposure levels. Closing the suit costs an action. Non-Belare that start a turn within 5 ft. of your exposed form take 1d6 radiant damage."
+    ]
+  },
+  {
+    "name": "Dendus",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Wisdom +2. Medium, 30-ft. walking speed. Darkvision 60 ft. In dim light, see as though it were bright light. In darkness, see as though it were dim light, in shades of gray.",
+      "Insight proficiency. Force of Will grants advantage on Intelligence, Wisdom and Charisma saves against esper powers.",
+      "Larima are the tentacles on the head. They produce the equivalent of Mental Missive at a 10-ft. range. Speak, read and write Common and Dendusi.",
+      "High-kin: Intelligence +1 and one additional language. For Intelligence (Lore) checks on a people’s history, apply proficiency or double it if already proficient.",
+      "Path-kin: Dexterity +1 and 35-ft. walking speed. Choose proficiency with chemistry supplies, digital technician’s tools, mason’s tools or shipwright’s tools."
+    ]
+  },
+  {
+    "name": "Eldori",
+    "kind": "species",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Charisma +2. Medium, 30-ft. walking speed. Darkvision 60 ft. In dim light, see as though it were bright light. In darkness, see as though it were dim light, in shades of gray.",
+      "Speak, read and write Common, Nesieve and one language of your choice.",
+      "Esper Initiate gives Aegis at level 1, Innervate at level 3 and Clean Zone at level 5. Each has its own single use, regained on a long rest.",
+      "Lunar: Intelligence +1 and 90-ft. darkvision. Once per long rest, use a bonus action to choose an attack roll, skill roll or saving throw as your roll type. Gain advantage on one matching roll before the end of your next turn. A translucent, non-illuminating wheel marks the active effect.",
+      "Solar: Wisdom +1, resistance to radiant and necrotic damage, and proficiency with the energy staff and longblade."
+    ]
+  }
+]

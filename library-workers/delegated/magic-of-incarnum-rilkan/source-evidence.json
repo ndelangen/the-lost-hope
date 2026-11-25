@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Rilkan",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "book": "Magic of Incarnum",
+    "authors": [
+      "James Wyatt",
+      "Frank Brunner",
+      "Stephen Schubert"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "September 2005",
+    "productCode": "620-88579720-001-EN",
+    "isbn": "0-7869-3701-7",
+    "printedPages": {
+      "racialTraits": [
+        12,
+        13
+      ],
+      "illustration": [
+        13,
+        14
+      ],
+      "capacity": 19,
+      "incarnate": 21,
+      "independentSubstitutions": 42,
+      "rogueSubstitutions": 47,
+      "investment": 50,
+      "dissolvingSpittle": [
+        64,
+        65
+      ],
+      "silvertongueMask": 86,
+      "incarnumSubtype": 169,
+      "publishedSamples": [
+        189,
+        190,
+        191
+      ]
+    },
+    "pdfPageOffset": 0,
+    "primaryBookScan": "",
+    "primaryBookSha256": "176c0415edfe8216d7d4915d5fcc8459c3c6ee84d89ffe4beaa875739b91a823",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Mark Poole, male and female Rilkan illustration, p. 13, and Tarrenta Willet portrait, p. 14.",
+    "sourceDistinctions": [
+      "Racial Knowledge uses shaped soulmeld count, independent of invested essentia. Rilkans do not receive an innate pool.",
+      "Racial Aid adds +3 to another Rilkan’s roll. Improved Flanking increases the attack bonus only for Rilkans who are actually flanking the same target.",
+      "The first-level Rogue substitution causes the permanent one-die sneak attack reduction. The optional 3rd-level substitution does not impose that reduction on its own.",
+      "The published Rilkan Incarnate lists a +1 racial Knowledge bonus despite four shaped soulmelds. The racial formula instead gives +3. The staged NPCs use the racial formula."
+    ],
+    "entryId": "species-73e1d2a4cc9f59b0ca201e34",
+    "versionKey": "a136d6c1b213a238d16b5938",
+    "slug": "rilkan",
+    "portraitSelection": "generated",
+    "portraitForm": "Kesra Tarn, an original Rilkan Rogue",
+    "npcExamples": [
+      "Kesra Tarn",
+      "Bren Carrow"
+    ]
+  }
+]

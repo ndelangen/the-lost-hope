@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Reef Shark",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 151,
+    "printedPages": [
+      151
+    ],
+    "sourceHeading": "Reef Shark",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "Both printings give an adult length of 6 to 10 ft. The Monster Manual also distinguishes its size from larger sharks. The black-tipped fins, slate back, pale belly, and slimmer blacktip reef shark anatomy are an editorial choice for the portrait.",
+    "habitatEvidence": "The creature’s printed description identifies shallow water and coral reefs.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "",
+    "artGroup": "reef-shark",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Reef Shark",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=337",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=337",
+    "printedPages": [
+      336
+    ],
+    "sourceHeading": "Reef Shark",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 336 corresponds to page 337 in the mobile reader.",
+    "appearanceEvidence": "Both printings give an adult length of 6 to 10 ft. The Monster Manual also distinguishes its size from larger sharks. The black-tipped fins, slate back, pale belly, and slimmer blacktip reef shark anatomy are an editorial choice for the portrait.",
+    "habitatEvidence": "The creature’s printed description identifies shallow water and coral reefs.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "",
+    "artGroup": "reef-shark"
+  },
+  {
+    "name": "Scorpion",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 152,
+    "printedPages": [
+      152
+    ],
+    "sourceHeading": "Scorpion",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "The stat block identifies a Tiny scorpion by name and size. The ochre shell, claws, and segmented tail use editorial specimen anatomy.",
+    "habitatEvidence": "Desert and rocky scrub are editorial search tags for the sandy-colored specimen in the portrait. The entry does not assign habitat.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "Sting is the only attack and names a creature as its target. A successful save halves poison damage."
+    ],
+    "errataUrl": "",
+    "artGroup": "scorpion",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Scorpion",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=338",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=338",
+    "printedPages": [
+      337
+    ],
+    "sourceHeading": "Scorpion",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 337 corresponds to page 338 in the mobile reader.",
+    "appearanceEvidence": "The stat block identifies a Tiny scorpion by name and size. The ochre shell, claws, and segmented tail use editorial specimen anatomy.",
+    "habitatEvidence": "Desert and rocky scrub are editorial search tags for the sandy-colored specimen in the portrait. The entry does not assign habitat.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "Sting is the only attack and names a creature as its target. A successful save halves poison damage."
+    ],
+    "errataUrl": "",
+    "artGroup": "scorpion"
+  },
+  {
+    "name": "Sea Horse",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 152,
+    "printedPages": [
+      152
+    ],
+    "sourceHeading": "Sea Horse",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "The stat block names a Tiny sea horse. The form and coloration are editorial and use a recognizable ordinary seahorse silhouette.",
+    "habitatEvidence": "Seagrass beds and shallow coastal waters are editorial search tags. The Water Breathing trait is the entry’s only habitat clue.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "Both print 0 XP at CR 0 and give no actions section."
+    ],
+    "errataUrl": "",
+    "artGroup": "sea-horse",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Sea Horse",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=338",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=338",
+    "printedPages": [
+      337
+    ],
+    "sourceHeading": "Sea Horse",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 337 corresponds to page 338 in the mobile reader.",
+    "appearanceEvidence": "The stat block names a Tiny sea horse. The form and coloration are editorial and use a recognizable ordinary seahorse silhouette.",
+    "habitatEvidence": "Seagrass beds and shallow coastal waters are editorial search tags. The Water Breathing trait is the entry’s only habitat clue.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature.",
+      "Both print 0 XP at CR 0 and give no actions section."
+    ],
+    "errataUrl": "",
+    "artGroup": "sea-horse"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Ghoul",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Undead",
+    "url": "",
+    "pages": "Appendix 1, p. 173, Table A–22. and printed pages match.",
+    "additionalSources": [],
+    "evidence": "The table grants claws and a one-minute paralysis at class level 2 while Harl still has 1 HD. The longer duration is a 4th-level feature and spawn creation starts at 5th. Savage Species p. 27 sets the secondary-attack penalty.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Green Hag",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Monstrous Humanoid (Aquatic)",
+    "url": "",
+    "pages": "Appendix 1, p. 174, Table A–23. and printed pages match.",
+    "additionalSources": [
+      {
+        "name": "Wizards of the Coast 3.0 System Reference Document, Original Spells by Class section of the compilation",
+        "url": ""
+      }
+    ],
+    "evidence": "A–23 grants at-will lesser powers and once-per-day greater powers at level 3 with 3 HD. Weakness starts at 4 and spell resistance at 7. This build keeps the older 3.0 change self and invisibility durations.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Griffon",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Magical Beast",
+    "url": "",
+    "pages": "Appendix 1, pp. 174–175, Table A–24. and printed pages match.",
+    "additionalSources": [
+      {
+        "name": "Savage Species, general natural attack rules and Multiattack, p. 27",
+        "url": ""
+      }
+    ],
+    "evidence": "The class gains claws and 50-ft. flight at level 3. The Medium 4-HD build gains pounce at level 4 and uses Multiattack for its secondary claws. Rake and Large size are later unlocks.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Hamatula",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Evil, Lawful)",
+    "url": "",
+    "pages": "Appendix 1, pp. 176–177, Table A–26. and printed pages match.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Hamatula, p. 52, and the improved grab glossary",
+        "url": ""
+      },
+      {
+        "name": "Monster Manual (2000), lemure and summon baatezu, pp. 48 and 50",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast 3.0 System Reference Document, Original Spells by Class section of the compilation",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast 3.0 System Reference Document, Produce Flame",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Produce_Flame"
+      }
+    ],
+    "evidence": "The tier-7 build uses 6 HD and has neither the level-9 spell resistance nor the level-9 greater powers. The class gives a fear effect on a hit but its table gives no separate unlock. The 2000 Monster Manual supplies the claw as the trigger for improved grab, and the 3.0 general rule supplies the smaller-target limit. For spell DCs, use the sorcerer spell level when available, otherwise use the original cleric or druid spell level. The barbs deal damage during impale.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  },
+  {
+    "name": "Magmin",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental (Fire)",
+    "url": "",
+    "pages": "Appendix 1, pp. 183–184, Table A–33. and printed pages match.",
+    "additionalSources": [],
+    "evidence": "At tier 3, A–33 still grants only 1 HD with a 5-ft. aura. It improves touch to 1d6 and adds combustion and DR 5/+1. The book gives no aura check cadence, so the NPC specifies a table convention.",
+    "catalogStatus": "Missing playable profile at batch baseline."
+  }
+]

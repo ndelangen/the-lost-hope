@@ -1,0 +1,284 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Black Flag Roleplaying"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Darkvision 60 ft., keensense 10 ft.",
+      "languages": "Common, Draconic",
+      "speed": "30 ft.",
+      "id": "dragonborn-cinderkeel-void-gate-guard-tov",
+      "title": "Void Dragonborn gate guard, Fighter 1",
+      "difficulty": "Level 1 character build, PB +2.",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "1d10+2, plus 2 HP from Combat Conditioning",
+      "initiative": 1,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "History +1",
+        "Medicine +4",
+        "Perception +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "STR and CON saves +5 and +4. Scale mail gives AC 15 and disadvantage on Stealth checks. Void ancestry grants necrotic resistance.",
+        "Diaspora heritage with maul proficiency and History. Timeless Resolve gives Varesh and his allies within 5 ft. of him advantage on saves against becoming frightened. Soldier background grants Medicine and Survival. Combat Conditioning adds 2 HP and raises healing hit die results below 2 to 2.",
+        "Last Stand. Once this build’s single hit die is spent it cannot use this reaction again until it recovers a die. When incoming damage would bring Varesh below half his maximum HP (below 7 HP), he can spend the die and heal 1d10+2 HP, applying Combat Conditioning.",
+        "Martial Action Wind Up. Bonus action with the spear in both hands. Pick a visible target within 10 ft. and add 2 damage on the first melee weapon hit against it this turn. Breath Weapon uses the same bonus action."
+      ],
+      "actions": [
+        "Spear +5, 5-ft. reach or range 20/60 ft. One-handed or thrown hit deals 1d6+3 piercing. Two-handed melee hit deals 1d8+3 piercing.",
+        "Void Breath, 2 uses per long rest. Bonus action, choose a 30-by-5-ft. line or a 15-ft. cone. Each creature makes a DC 12 DEX save, taking 1d10 necrotic damage on a failure or half on a success."
+      ],
+      "tactics": "Varesh cases the short approach with keensense. He holds the gate with his spear and saves the breath for a group that has bunched beyond the threshold."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Black Flag Roleplaying"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Normal vision.",
+      "languages": "Common, Dwarvish, Machine Speech, Thieves’ Cant, Gnomish",
+      "speed": "30 ft.",
+      "id": "gearforged-brasswell-lockwright-tov",
+      "title": "Gearforged lockwright, Rogue 1",
+      "difficulty": "Level 1 character build, PB +2.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +1",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +4",
+        "Stealth +7",
+        "Thieves’ tools +7 for DEX checks"
+      ],
+      "traits": [
+        "DEX and INT saves +5 and +3. Wears leather armor. Human-shaped Medium chassis. Disease immunity, poison damage resistance, and advantage on saves against paralysis, petrification, and poison.",
+        "Six hours dormant replace sleep. Disadvantage on Perception while dormant. No need for air, food, or drink.",
+        "Always Armed. Brasswell’s integrated shortsword retracts into the arm. It counts as held while drawn and is automatically concealed while folded away. Deliberate removal takes an action.",
+        "Stone heritage grants construction tool expertise and longsword proficiency. Eye for Quality adds PB when examining stone or metal objects or structures for origin or purpose, or doubles PB already granted by a relevant proficiency.",
+        "Criminal background with Investigation and Deception. Touch of Luck grants 2 Luck instead of 1 when gaining Luck for a failed attack or save, and resets 5 Luck to 1d4+1 when the next point would be gained. Rogue expertise applies to Stealth and thieves’ tools."
+      ],
+      "actions": [
+        "Integrated shortsword +5, reach 5 ft., 1d6+3 piercing. Sneak Attack adds 1d6 once on Brasswell’s turn with advantage, or if another enemy of the target is within 5 ft., that enemy can act, and Brasswell lacks disadvantage."
+      ],
+      "tactics": "Brasswell closes the service hatch before confronting the intruders. A routine search leaves the retracted blade undiscovered."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Black Flag Roleplaying"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "senses": "Normal vision.",
+      "languages": "Common, Sylvan",
+      "speed": "30 ft.",
+      "id": "satyr-mossdial-ambush-courier-tov",
+      "title": "Satyr ambush courier, Fighter 1",
+      "difficulty": "Level 1 character build, PB +2.",
+      "ac": 13,
+      "hp": 14,
+      "hitDice": "1d10+2, plus 2 HP from Combat Conditioning",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "STR and CON saves +5 and +4. Wears leather armor. Fey Resilience gives advantage on saves against magic and on checks and saves to avoid or end charm and unconsciousness.",
+        "Cottage heritage with Animal Handling. At the end of a long rest, Comforts of Home can give four temporary HP to as many as two participants. Soldier background grants Athletics and Survival, and Combat Conditioning grants 2 maximum HP.",
+        "Last Stand. If incoming damage would bring Tam below half his maximum HP (below 7 HP), he can spend his one hit die as a reaction and heal 1d10+2 HP, with a minimum roll of 2 from Combat Conditioning. This competes with Bounding Leap for the reaction.",
+        "Martial Action Aim. Use a bonus action to pick a creature Tam can see. The first ranged weapon attack against that target this turn adds PB again."
+      ],
+      "actions": [
+        "Horn strike +5, reach 5 ft., 1d8+3 bludgeoning, using STR. Shortsword +5, reach 5 ft., 1d6+3 piercing, using STR. Sling +4, range 30/120 ft., 1d4+2 bludgeoning, or +6 to hit after Aim.",
+        "Bounding Leap, 2 uses per long rest. After a melee weapon or unarmed hit, use the reaction to move up to 15 ft. without provoking opportunity attacks."
+      ],
+      "tactics": "Tam runs his message around the blockade. If boxed in, he catches one opponent with a horn strike and uses Bounding Leap to slip out of reach."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Black Flag Roleplaying"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "senses": "Darkvision 60 ft., magical darkness vision 30 ft.",
+      "languages": "Common, Draconic, Dwarvish, Elvish, Sylvan, Gnomish, Orcish, Primordial, Halfling",
+      "speed": "30 ft.",
+      "id": "syderean-glassbeck-arcane-compartment-guide-tov",
+      "title": "Spellborn Syderean compartment guide, Wizard 1",
+      "difficulty": "Level 1 character build, PB +2.",
+      "ac": 12,
+      "hp": 8,
+      "hitDice": "1d6+2",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 16,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5",
+        "Insight +3",
+        "Investigation +5",
+        "Religion +5"
+      ],
+      "traits": [
+        "INT and WIS saves +5 and +3. AC 15 with Mage Armor, AC 20 with Mage Armor and Shield. Necrotic resistance. Doubled survival time without air, food, water, or sleep.",
+        "Cosmopolitan heritage grants History and Street Smarts. In a city, Mira has advantage on checks to avoid getting lost or to find public destinations and cannot be surprised while conscious and able to act. Scholar background grants Arcana and Religion. Scholar and Polyglot provide extra languages.",
+        "INT spellcasting at +5 to hit, save DC 13. Two 1st-circle slots per long rest. Once daily after a short rest Arcane Recovery restores one spent slot. Prepared spells are Mage Armor, Shield, Magic Missile, and Longstrider. The spellbook also holds Burning Hands and Grease. Cantrips are Fire Bolt, Light, and Mage Hand. Detect Magic is the known ritual."
+      ],
+      "actions": [
+        "Fire Bolt +5 ranged spell attack at 120 ft., 1d10 fire on hit. Quarterstaff +1, reach 5 ft., 1d6−1 bludgeoning one-handed or 1d8−1 two-handed.",
+        "Magic Missile creates three darts, 1d4+1 force each, distributed among visible creatures within 120 ft. Mage Armor gives AC 15 for eight hours. Shield reacts to a hit or Magic Missile, adds 5 AC until next turn, and negates Magic Missile damage.",
+        "Energy Form, once per long rest. Bonus action, last up to one minute. Mira usually picks lightning. Her form resists physical damage from nonmagical attacks, is immune to restrained, and can convert one attack or spell’s damage to lightning on each of her turns."
+      ],
+      "tactics": "Mira reads the corridor from the darkness and enters Energy Form when a crowd tries to pin her down. She converts a Fire Bolt if her opponent expects fire."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Black Flag Roleplaying"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "senses": "Darkvision 60 ft. in full color. Advantage on visual Perception to locate creatures and moving targets.",
+      "languages": "Common, Sylvan, Thieves’ Cant, Halfling",
+      "speed": "30 ft., swim 30 ft.",
+      "id": "sapopova-reedcap-ferry-lookout-tov",
+      "title": "Toadfolk Sapopova ferry lookout, Rogue 1",
+      "difficulty": "Level 1 character build, PB +2.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Animal Handling +4",
+        "Athletics +3",
+        "Deception +1",
+        "Investigation +2",
+        "Perception +6",
+        "Stealth +7"
+      ],
+      "traits": [
+        "DEX and INT saves +5 and +2. Wears leather armor. Tavi can breathe in air and water. Toadfolk cheeks hold up to three Tiny objects while allowing normal speech.",
+        "Wildlands heritage with Animal Handling. Beasts or Animal-tagged creatures of CR 2 or lower must first contest their WIS check against Tavi’s Animal Handling to attack Tavi. On Tavi’s win they choose another target or lose their attack.",
+        "Criminal background grants Investigation and Deception. Touch of Luck grants 2 instead of 1 Luck when gaining Luck for a missed attack or failed save, and replaces the sixth point gained with a reset to 1d4+1. Rogue expertise applies to Perception and Stealth."
+      ],
+      "actions": [
+        "Launch Tiny object +5 at 20/60 ft., 1d6+3 damage. The object determines bludgeoning, piercing, or slashing. Tavi carries three smooth clay pellets for bludgeoning damage.",
+        "Shortbow +5 at 80/320 ft., 1d6+3 piercing. Sneak Attack adds 1d6 once on Tavi’s turn with advantage, or if an active enemy of the target is within 5 ft. of it and Tavi lacks disadvantage."
+      ],
+      "tactics": "Tavi checks both sides of the ferry in darkness and drops under the waterline if threatened. The pellets are a fallback when there is no time to draw a bow."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dragonborn",
+      "size": "Medium",
+      "edition": "Black Flag Roleplaying",
+      "speciesPublication": "Labyrinth Worldbook",
+      "name": "Varesh Cinderkeel",
+      "build": "dragonborn-cinderkeel-void-gate-guard-tov",
+      "role": "Void-ancestry gate guard.",
+      "motive": "Keep the passage open until the lost patrol returns.",
+      "hook": "Varesh points regular traffic to the long approach so he can watch the culvert."
+    },
+    {
+      "species": "Gearforged",
+      "size": "Medium",
+      "edition": "Black Flag Roleplaying",
+      "speciesPublication": "Labyrinth Worldbook",
+      "name": "Brasswell",
+      "build": "gearforged-brasswell-lockwright-tov",
+      "role": "Lockwright with a concealed blade.",
+      "motive": "Recover a set of copied keys before the next public shift.",
+      "hook": "Brasswell knows which door could have been opened from inside."
+    },
+    {
+      "species": "Satyr",
+      "size": "Medium",
+      "edition": "Black Flag Roleplaying",
+      "speciesPublication": "Labyrinth Worldbook",
+      "name": "Tam Mossdial",
+      "build": "satyr-mossdial-ambush-courier-tov",
+      "role": "Courier skilled at disengaging after a hit.",
+      "motive": "Get a message through the blockade without exposing the sender.",
+      "hook": "Tam asks the party to watch the gate while he takes the narrow route."
+    },
+    {
+      "species": "Syderean",
+      "size": "Medium",
+      "edition": "Black Flag Roleplaying",
+      "speciesPublication": "Labyrinth Worldbook · Spellborn",
+      "name": "Mira Glassbeck",
+      "build": "syderean-glassbeck-arcane-compartment-guide-tov",
+      "role": "Spellborn wizard who crosses guarded compartments.",
+      "motive": "Trace an electrical fault back to its source.",
+      "hook": "Mira needs someone to mark the return route in complete darkness."
+    },
+    {
+      "species": "Sapopova",
+      "size": "Small",
+      "edition": "Black Flag Roleplaying",
+      "speciesPublication": "Tales of the Valiant Player's Guide 2 Preview",
+      "name": "Tavi Reedcap",
+      "build": "sapopova-reedcap-ferry-lookout-tov",
+      "role": "Toadfolk ferry lookout.",
+      "motive": "Keep an upstream signal lit when the current rises.",
+      "hook": "Tavi surfaces below the ferry and describes a figure pacing the shaded bank."
+    }
+  ]
+}

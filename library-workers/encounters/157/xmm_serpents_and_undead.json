@@ -1,0 +1,396 @@
+[
+  {
+    "name": "Poltergeist",
+    "statBlock": {
+      "name": "Poltergeist",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 246,
+      "classification": "Small or Medium undead, chaotic neutral",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "5 ft., fly 50 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A spirit that moves objects around its haunts. Some absent-minded ghosts retrace old routines, while others use the things they move to play tricks or menace the living.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common plus one other language.",
+        "Damage resistances": "acid, bludgeoning, cold, fire, lightning, piercing, slashing, thunder.",
+        "Damage immunities": "necrotic, poison.",
+        "Condition immunities": "Charmed, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, Unconscious.",
+        "Traits": "Incorporeal Movement. It treats creatures and objects as Difficult Terrain when passing through them. The poltergeist takes 5 (1d10) force damage if it ends its turn inside an object.",
+        "Actions": "Multiattack. Make one Object Slam attack and use Telekinetic Thrust.\nObject Slam. Melee or ranged attack, +4 to hit, reach 5 ft. or range 30 ft. A hit deals 7 (2d4 + 2) bludgeoning damage.\nTelekinetic Thrust. Choose one creature the poltergeist can see within 30 ft. The target makes a DC 12 Strength save. On a failure, it takes 9 (2d6 + 2) force damage and is pushed straight away from the poltergeist by up to 30 ft.",
+        "Bonus actions": "Vanish. Become Invisible or end that condition on itself.",
+        "Habitats": "Underdark and urban areas.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 246."
+      }
+    }
+  },
+  {
+    "name": "Scarecrow",
+    "statBlock": {
+      "name": "Scarecrow",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 269,
+      "classification": "Medium construct, chaotic evil",
+      "ac": 11,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "A spirit of vengeance bound to a patchwork frame. It might obey its maker or defend a place, household, or community.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common plus one other language.",
+        "Damage vulnerabilities": "fire.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Unconscious.",
+        "Actions": "Fearsome Claw. Melee attack, +3 to hit, reach 5 ft. A hit deals 6 (2d4 + 1) slashing damage and leaves the target Frightened until the end of the scarecrow's next turn.\nTerrifying Glare. One creature the scarecrow can see within 30 ft. makes a DC 11 Wisdom save. On a failure, it is Frightened until the end of the scarecrow's next turn and Paralyzed while Frightened by this glare.",
+        "Habitats": "Grasslands.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 269."
+      }
+    }
+  },
+  {
+    "name": "Skeleton",
+    "statBlock": {
+      "name": "Skeleton",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 282,
+      "classification": "Medium undead, lawful evil",
+      "ac": 14,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "An animated pile of bones that can fight with a blade or bow. It understands commands even though it cannot speak.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common plus one other language but can't speak.",
+        "Damage vulnerabilities": "bludgeoning.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Exhaustion, Poisoned.",
+        "Gear": "Shortbow and Shortsword.",
+        "Actions": "Shortsword. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) piercing damage.\nShortbow. Ranged attack, +5 to hit, range 80/320 ft. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Habitats": "Shadowfell, Underdark, and urban areas.",
+        "Printed source": "Monster Manual (2024), p. 282."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Abomination",
+    "statBlock": {
+      "name": "Yuan-ti Abomination",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 345,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 15,
+      "hp": 127,
+      "hitDice": "15d10 + 45",
+      "speed": "40 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "skills": {
+        "Perception": 7,
+        "Stealth": 6
+      },
+      "passivePerception": 17,
+      "description": "A large serpent-bodied yuan-ti that can tighten its coils around foes or take the shape of a large snake.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.",
+        "Actions": "Multiattack. Make two Bite attacks. The yuan-ti can also cast Suggestion through Spellcasting if it is available.\nBite. Melee attack, +7 to hit, reach 5 ft. A hit deals 11 (2d6 + 4) piercing damage plus 10 (3d6) poison damage.\nConstrict. One Large or smaller creature within 5 ft. makes a DC 15 Strength save. On a failure, it takes 28 (7d6 + 4) bludgeoning damage and becomes Grappled (escape DC 14) and Restrained until that grapple ends. On a success, it takes half damage.\nPoison Spray (recharge 5–6). Each creature in a 30-ft. cone makes a DC 14 Constitution save. On a failure, it takes 21 (6d6) poison damage and is Poisoned until the end of the yuan-ti's next turn. A creature Poisoned this way is also Blinded for the duration of that condition. On a success, it takes half damage.",
+        "Bonus actions": "Shape-Shift. Become a Large snake or return to true form. Use the same statistics in either form except where a rule specifies otherwise. Worn and carried gear keeps its form. Death leaves the yuan-ti in its current form.",
+        "Spellcasting": "As an action in yuan-ti form, cast one of the listed spells using Wisdom (save DC 15). These spells require no material components.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion.",
+        "Habitats": "Deserts, forests, swamps, and urban areas.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 345."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 1)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 1)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 343,
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., climb 30 ft. in snake form only",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "skills": {
+        "Stealth": 4
+      },
+      "passivePerception": 13,
+      "description": "A snake-headed yuan-ti that can spit poison at range in its true form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.\nStealth increases to +6 in snake form.",
+        "Actions": "Multiattack. Make two attacks in any combination using Bite or Poison Ray, subject to their form restrictions. The yuan-ti can also cast Suggestion through Spellcasting if it is available.\nBite. Melee attack, +5 to hit, reach 5 ft. A hit deals 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nPoison Ray (yuan-ti form only). Ranged attack, +5 to hit, range 120 ft. A hit deals 12 (2d8 + 3) poison damage.",
+        "Bonus actions": "Shape-Shift. Become a Medium snake or return to true form. Use the same statistics in either form except where a rule specifies otherwise. Worn and carried gear keeps its form. Death leaves the yuan-ti in its current form.",
+        "Spellcasting": "As an action in yuan-ti form, cast one of the listed spells using Wisdom (save DC 13). These spells require no material components.\nAt will. Animal Friendship (snakes only).\n2/day. Suggestion.",
+        "Habitats": "Deserts, forests, swamps, and urban areas.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 343."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 2)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 2)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 343,
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., climb 30 ft. in snake form only",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "skills": {
+        "Stealth": 4
+      },
+      "passivePerception": 13,
+      "description": "A yuan-ti with snakes for arms. Its reach lets it bite foes across a gap.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.\nStealth increases to +6 in snake form.",
+        "Actions": "Multiattack. Make two Bite attacks. The yuan-ti can also cast Suggestion through Spellcasting if it is available.\nBite. Melee attack, +5 to hit, reach 10 ft. A hit deals 7 (1d8 + 3) piercing damage plus 7 (2d6) poison damage.",
+        "Bonus actions": "Shape-Shift. Become a Medium snake or return to true form. Use the same statistics in either form except where a rule specifies otherwise. Worn and carried gear keeps its form. Death leaves the yuan-ti in its current form.",
+        "Spellcasting": "As an action in yuan-ti form, cast one of the listed spells using Wisdom (save DC 13). These spells require no material components.\nAt will. Animal Friendship (snakes only).\n2/day. Suggestion.",
+        "Habitats": "Deserts, forests, swamps, and urban areas.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 343."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 3)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 3)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 344,
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "skills": {
+        "Stealth": 4
+      },
+      "passivePerception": 13,
+      "description": "A yuan-ti with a long serpentine lower body that can seize prey in its coils or send poison across a room.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. Roll saves against spells and other magical effects with Advantage.\nStealth increases to +6 in snake form.",
+        "Actions": "Multiattack. In yuan-ti form, make two Poison Burst attacks. The yuan-ti can also cast Suggestion through Spellcasting if it is available.\nPoison Burst (yuan-ti form only). Melee or ranged attack, +5 to hit, reach 5 ft. or range 120 ft. A hit deals 12 (2d8 + 3) poison damage.\nConstrict. One Medium or smaller creature within 5 ft. makes a DC 13 Strength save. On a failure, it takes 21 (4d8 + 3) bludgeoning damage and becomes Grappled (escape DC 13) and Restrained until that grapple ends.",
+        "Bonus actions": "Shape-Shift. Become a Medium snake or return to true form. Use the same statistics in either form except where a rule specifies otherwise. Worn and carried gear keeps its form. Death leaves the yuan-ti in its current form.",
+        "Spellcasting": "As an action in yuan-ti form, cast one of the listed spells using Wisdom (save DC 13). These spells require no material components.\nAt will. Animal Friendship (snakes only).\n2/day. Suggestion.",
+        "Habitats": "Deserts, forests, swamps, and urban areas.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 344."
+      }
+    }
+  }
+]

@@ -1,0 +1,2060 @@
+[
+  {
+    "name": "Quaggoth",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-67705e5c527dec2069a3a3d5",
+      "name": "Quaggoth",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid",
+        "Monstrosity"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+        },
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        },
+        {
+          "url": "",
+          "credit": "Daarken · Monster Manual (2024)"
+        }
+      ],
+      "versions": [
+        {
+          "key": "4f8e146390d1c496879ae626",
+          "publication": "DDEX3-03 - The Occupation of Szith Morcane",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "16"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "12"
+            ],
+            [
+              "Cha",
+              "7"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "92a76f80b2219e9bab1e8bb3",
+          "publication": "DDEX3-15 - Szith Morcane Unbound",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "16"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "12"
+            ],
+            [
+              "Cha",
+              "7"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "05c133b76d82e28a7a1a4832",
+          "publication": "DDEX3-16 - Assault on Maerimydra",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "16"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "12"
+            ],
+            [
+              "Cha",
+              "7"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "069c0a86bfcd9e5058cfe8d2",
+          "publication": "Icewind Dale: Rime of the Frostmaiden",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17193-quaggoth",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/862/1000/1000/638063898871916584.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Icewind Dale: Rime of the Frostmaiden"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "11"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "16"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "12"
+            ],
+            [
+              "Cha",
+              "7"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A long-armed, shaggy humanoid with pale fur and heavy claws."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+                "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.",
+                "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#quaggoth_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ],
+            "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.": [
+              {
+                "start": 61,
+                "end": 70,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 173,
+                  "description": "Roll two d20s and use the higher roll.",
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "PHB:173:https://5e.tools/book.html#PHB"
+                  }
+                }
+              }
+            ],
+            "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11.": [
+              {
+                "start": 38,
+                "end": 46,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              },
+              {
+                "start": 62,
+                "end": 69,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              },
+              {
+                "start": 97,
+                "end": 107,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "a6a33a9a34f8b7adf1aa266f",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 2. Listed habitats: underdark. Named abilities include Wounded Fury, Claw.",
+          "source": "https://5e.tools/bestiary.html#quaggoth_mm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/862/1000/1000/638063898871916584.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "11"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Strength",
+              "17"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "16"
+            ],
+            [
+              "Intelligence",
+              "6"
+            ],
+            [
+              "Wisdom",
+              "12"
+            ],
+            [
+              "Charisma",
+              "7"
+            ],
+            [
+              "Creature tags",
+              "quaggoth"
+            ],
+            [
+              "Alignment",
+              "chaotic neutral"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A long-armed, shaggy humanoid with pale fur and heavy claws."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.",
+                "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11."
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +5"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Undercommon"
+              ]
+            },
+            {
+              "title": "Damage immunities",
+              "lines": [
+                "poison"
+              ]
+            },
+            {
+              "title": "Condition immunities",
+              "lines": [
+                "poisoned"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Wounded Fury · 2d6 · 10 hit points"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Claw · Melee attack · +5 to hit · 1d6 + 3 slashing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Quaggoth Origins",
+                "Servants of the Drow",
+                "Thonots",
+                "Poison Immunity"
+              ]
+            }
+          ],
+          "sourceCode": "MM",
+          "page": 256,
+          "references": [
+            {
+              "label": "Monster Manual (2014), p. 256",
+              "url": "https://5e.tools/bestiary.html#quaggoth_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.": [
+              {
+                "start": 61,
+                "end": 70,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 173,
+                  "description": "Roll two d20s and use the higher roll.",
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "PHB:173:https://5e.tools/book.html#PHB"
+                  }
+                }
+              }
+            ],
+            "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11.": [
+              {
+                "start": 38,
+                "end": 46,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              },
+              {
+                "start": 62,
+                "end": 69,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              },
+              {
+                "start": 97,
+                "end": 107,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ],
+            "Athletics +5": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Damage immunities": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Condition immunities": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              }
+            ],
+            "poisoned": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              }
+            ],
+            "Poison Immunity": [
+              {
+                "start": 7,
+                "end": 15,
+                "target": {
+                  "name": "Immunity",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-a239591212d49ede6cae4370",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "79fe4dbb55d9863077013326",
+          "publication": "Monster Manual (2024)",
+          "edition": "2024 fifth edition",
+          "description": "A Medium monstrosity with challenge rating 2. Listed habitats: underdark. Named abilities include Bloodied Fury, Claw.",
+          "source": "https://5e.tools/bestiary.html#quaggoth_xmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47139/186/1000/1000/638741964560049006.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Daarken · Monster Manual (2024)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Monstrosity"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "11"
+            ],
+            [
+              "Strength",
+              "17"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "16"
+            ],
+            [
+              "Intelligence",
+              "6"
+            ],
+            [
+              "Wisdom",
+              "12"
+            ],
+            [
+              "Charisma",
+              "7"
+            ],
+            [
+              "Alignment",
+              "chaotic neutral"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +5"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "Darkvision 120 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Undercommon"
+              ]
+            },
+            {
+              "title": "Damage immunities",
+              "lines": [
+                "poison"
+              ]
+            },
+            {
+              "title": "Condition immunities",
+              "lines": [
+                "poisoned"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Bloodied Fury · Bloodied · Advantage"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Claw · Melee attack · +5 to hit · 1d6 + 3 slashing damage · 3d6 + 3 slashing damage · reach 5 ft. · Bloodied"
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Quaggoths",
+                "Habitat:",
+                "Treasure:"
+              ]
+            }
+          ],
+          "sourceCode": "XMM",
+          "references": [
+            {
+              "label": "Monster Manual (2025), p. 251",
+              "url": "https://5e.tools/bestiary.html#quaggoth_xmm"
+            },
+            {
+              "label": "Bloodied (status)",
+              "url": "https://5e.tools/conditionsdiseases.html#bloodied_xphb",
+              "local": {
+                "entry": "compendium-fe1c64f18a10212e4033588f",
+                "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+              },
+              "preview": {
+                "name": "Bloodied",
+                "group": "Statuses",
+                "publication": "Player's Handbook (2024)",
+                "page": 362,
+                "local": {
+                  "entry": "compendium-fe1c64f18a10212e4033588f",
+                  "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                }
+              }
+            },
+            {
+              "label": "Advantage (rule)",
+              "url": "https://5e.tools/variantrules.html#advantage_xphb",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+              },
+              "preview": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "A Medium monstrosity with challenge rating 2. Listed habitats: underdark. Named abilities include Bloodied Fury, Claw.": [
+              {
+                "start": 98,
+                "end": 106,
+                "target": {
+                  "name": "Bloodied",
+                  "group": "Statuses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 362,
+                  "local": {
+                    "entry": "compendium-fe1c64f18a10212e4033588f",
+                    "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                  }
+                }
+              }
+            ],
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Athletics +5": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "XPHB:14:https://5e.tools/skills.html#athletics_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision 120 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ],
+            "Damage immunities": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Condition immunities": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Condition",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 363,
+                  "local": {
+                    "entry": "compendium-7ec713220a1ab631931f9618",
+                    "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+                  }
+                }
+              }
+            ],
+            "poisoned": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                  }
+                }
+              }
+            ],
+            "Bloodied Fury · Bloodied · Advantage": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Bloodied",
+                  "group": "Statuses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 362,
+                  "local": {
+                    "entry": "compendium-fe1c64f18a10212e4033588f",
+                    "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                  }
+                }
+              },
+              {
+                "start": 16,
+                "end": 24,
+                "target": {
+                  "name": "Bloodied",
+                  "group": "Statuses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 362,
+                  "local": {
+                    "entry": "compendium-fe1c64f18a10212e4033588f",
+                    "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                  }
+                }
+              },
+              {
+                "start": 27,
+                "end": 36,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#advantage_xphb"
+                  }
+                }
+              }
+            ],
+            "Claw · Melee attack · +5 to hit · 1d6 + 3 slashing damage · 3d6 + 3 slashing damage · reach 5 ft. · Bloodied": [
+              {
+                "start": 100,
+                "end": 108,
+                "target": {
+                  "name": "Bloodied",
+                  "group": "Statuses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 362,
+                  "local": {
+                    "entry": "compendium-fe1c64f18a10212e4033588f",
+                    "version": "XPHB:362:https://5e.tools/conditionsdiseases.html#bloodied_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "ba9c27440b3e49d6d4eccd52",
+          "publication": "Spelljammer: Adventures in Space",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17193-quaggoth",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/862/1000/1000/638063898871916584.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Spelljammer: Adventures in Space"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "11"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "16"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "12"
+            ],
+            [
+              "Cha",
+              "7"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A long-armed, shaggy humanoid with pale fur and heavy claws."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+                "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.",
+                "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#quaggoth_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ],
+            "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.": [
+              {
+                "start": 61,
+                "end": 70,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 173,
+                  "description": "Roll two d20s and use the higher roll.",
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "PHB:173:https://5e.tools/book.html#PHB"
+                  }
+                }
+              }
+            ],
+            "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11.": [
+              {
+                "start": 38,
+                "end": 46,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              },
+              {
+                "start": 62,
+                "end": 69,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              },
+              {
+                "start": 97,
+                "end": 107,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "0b5b4b6419a861cd0d73efe1",
+          "publication": "Waterdeep: Dungeon of the Mad Mage",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17193-quaggoth",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/862/1000/1000/638063898871916584.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "13"
+            ],
+            [
+              "Hit points",
+              "45"
+            ],
+            [
+              "Hit dice",
+              "6d8 + 18"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "11"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "17"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "16"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "12"
+            ],
+            [
+              "Cha",
+              "7"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A long-armed, shaggy humanoid with pale fur and heavy claws."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Claw · melee · +5 to hit · reach 5 ft. · 1d6 + 3 slashing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.",
+                "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.",
+                "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#quaggoth_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ],
+            "Multiattack. Make two Claw attacks. At 10 HP or fewer it has Advantage on attacks and its melee hits deal 7 (2d6) extra damage.": [
+              {
+                "start": 61,
+                "end": 70,
+                "target": {
+                  "name": "Advantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 173,
+                  "description": "Roll two d20s and use the higher roll.",
+                  "local": {
+                    "entry": "compendium-694118169b5a4aef2291ff71",
+                    "version": "PHB:173:https://5e.tools/book.html#PHB"
+                  }
+                }
+              }
+            ],
+            "It is immune to poison damage and the Poisoned condition. The Monster Manual errata sets passive Perception at 11.": [
+              {
+                "start": 38,
+                "end": 46,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              },
+              {
+                "start": 62,
+                "end": 69,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              },
+              {
+                "start": 97,
+                "end": 107,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "22ce665d6185c082c8f46d86",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Monstrous Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Monstrous Humanoid. +8 Strength, +4 Constitution, −4 Intelligence, +2 Wisdom, derived from the original stat block using the core monster ability-score rule.",
+            "Land speed 30 ft. Darkvision 60 ft. and +4 natural armor.",
+            "Climb speed 30 ft. gives +8 on Climb checks and lets the quaggoth take 10 even under pressure.",
+            "Immune to fear. Scent normally detects creatures within 30 ft. Spend a move action for direction, and pinpoint the source within 5 ft.",
+            "Two primary claws each deal 1d4 piercing and slashing damage. The secondary bite deals 1d4 bludgeoning, piercing, and slashing damage. Apply Strength modifiers to these base dice.",
+            "Rage (Ex). After taking damage in combat, check the following round for a 50% chance to rage. Magic-followers instead rage on 1 in 6 and drop their weapons. Rage grants +4 Strength and imposes −4 AC. The quaggoth fights with claws and bite until it or its opponent dies and cannot end the rage voluntarily.",
+            "Magic-followers paint or dye their fur and gain a +2 circumstance bonus on Hide checks in shadowy areas. Beast-followers leave their fur white and fight with natural weapons. The original entry describes classed quaggoths as never gaining spellcasting.",
+            "Three racial Hit Dice (3d8) grant BAB +3, base Fortitude +1, Reflex +3, Will +3, and two feats. The updated racial skill list has Climb, Hide, Listen, Spot, and Survival.",
+            "Quaggoths speak a dialect of Undercommon. LA +2, so ECL 5 before class levels. Favored class Barbarian.",
+            "Uses the Monsters of Faerûn entry carried forward by Underdark and revised by the 2004 Monster Update. The 2007 Drow of the Underdark uses a separate four-racial-Hit-Die profile."
+          ]
+        },
+        {
+          "title": "Original NPC · Rusk Chalkback",
+          "lines": [
+            "Shaft guide and climber.",
+            "Motive. Reach the high brace so the party can cross without losing the rope.",
+            "Hook. Rusk points out a rough seam that leads past the broken ladder.",
+            "Quaggoth shaft guide, racial Hit Dice only · Provisional CR 3. ECL 5 (3 racial HD, LA +2). · Medium Monstrous Humanoid",
+            "AC 15 · HP 26 (3d8+9) · Speed 30 ft.; climb 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Borr Sootmane",
+          "lines": [
+            "Switchback guard and Fighter.",
+            "Motive. Keep the switchback clear until his companions reach the lower passage.",
+            "Hook. Borr waits with his club where the shaft light stops at a bend.",
+            "Quaggoth switchback guard, Fighter 1 · Provisional CR 4. ECL 6 (3 racial HD, 1 class HD, LA +2). · Medium Monstrous Humanoid",
+            "AC 17 · HP 35 (3d8+1d10+12) · Speed 30 ft.; climb 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Rusk Chalkback": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Rusk Chalkback",
+              "group": "Quaggoth",
+              "publication": "Quaggoth shaft guide, racial Hit Dice only",
+              "local": {
+                "entry": "npc-198dd0159658bb6e92ed51a3",
+                "version": "36b8ce6d8674595bb3e0dc3a"
+              }
+            }
+          }
+        ],
+        "Original NPC · Borr Sootmane": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Borr Sootmane",
+              "group": "Quaggoth",
+              "publication": "Quaggoth switchback guard, Fighter 1",
+              "local": {
+                "entry": "npc-927ecd9bbc30090e31342aac",
+                "version": "97eaeb62a62c7ec651e59049"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Quaggoth": true,
+      "quaggoth rage": true,
+      "quaggoth scent": true,
+      "quaggoth switchback guard": true,
+      "quaggoth shaft guide": true
+    },
+    "hash": "7ab0ae35635fa675903187303c2e60c659b122b8719cdee79aa4d4633c43173b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "22ce665d6185c082c8f46d86",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

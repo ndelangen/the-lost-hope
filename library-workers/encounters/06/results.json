@@ -1,0 +1,788 @@
+[
+  {
+    "name": "Aarakocra",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17100-aarakocra",
+    "index": "https://5e.tools/bestiary.html#aarakocra_mm",
+    "appearance": "A feathered humanoid with a bird’s beak, talons and broad wings.",
+    "habitats": [
+      "Mountains",
+      "Elemental Plane of Air"
+    ]
+  },
+  {
+    "name": "Aarakocra",
+    "kind": "monster",
+    "publication": "Spelljammer: Adventures in Space",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17100-aarakocra",
+    "index": "https://5e.tools/bestiary.html#aarakocra_mm",
+    "appearance": "A feathered humanoid with a bird’s beak, talons and broad wings.",
+    "habitats": [
+      "Mountains",
+      "Elemental Plane of Air"
+    ]
+  },
+  {
+    "name": "Apprentice Wizard",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17325-apprentice-wizard",
+    "index": "https://5e.tools/bestiary.html#apprentice%20wizard_vgm",
+    "appearance": "A novice spellcaster who studies under an established wizard or in a school.",
+    "habitats": [
+      "urban"
+    ]
+  },
+  {
+    "name": "Bard",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17328-bard",
+    "index": "https://5e.tools/bestiary.html#bard_vgm",
+    "appearance": "A traveling performer in a chain shirt with a shortsword and shortbow.",
+    "habitats": [
+      "urban"
+    ]
+  },
+  {
+    "name": "Barlgura",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17110-barlgura",
+    "index": "https://5e.tools/bestiary.html#barlgura_mm",
+    "appearance": "A hulking, orangutan-like demon with long, muscular arms and large tusks.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Bodak",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17223-bodak",
+    "index": "https://5e.tools/bestiary.html#bodak_vgm",
+    "appearance": "A gaunt undead humanoid with sunken eyes and an elongated, hollow mouth.",
+    "habitats": [
+      "underdark",
+      "swamp",
+      "urban"
+    ]
+  },
+  {
+    "name": "Bristled Moorbounder",
+    "kind": "beast",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/744304-bristled-moorbounder",
+    "index": "https://5e.tools/bestiary.html#bristled%20moorbounder_egw",
+    "appearance": "A bounding feline predator covered in blade-like bristles.",
+    "habitats": [
+      "Muddy foothills of Xhorhas"
+    ]
+  },
+  {
+    "name": "Brontosaurus",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17239-brontosaurus",
+    "index": "https://5e.tools/bestiary.html#brontosaurus_vgm",
+    "appearance": "A huge quadrupedal dinosaur with a long neck, thick legs and a lashing tail.",
+    "habitats": [
+      "grassland",
+      "forest"
+    ]
+  },
+  {
+    "name": "Bugbear Chief",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17119-bugbear-chief",
+    "index": "https://5e.tools/bestiary.html#bugbear%20chief_mm",
+    "appearance": "A broad, shaggy goblinoid with prominent ears and a heavy morningstar.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Bullywug",
+    "kind": "monster",
+    "publication": "Explorer's Guide to Wildemount",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17120-bullywug",
+    "index": "https://5e.tools/bestiary.html#bullywug_mm",
+    "appearance": "An upright frog-like humanoid with bulging eyes and webbed feet.",
+    "habitats": [
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Bullywug",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17120-bullywug",
+    "index": "https://5e.tools/bestiary.html#bullywug_mm",
+    "appearance": "An upright frog-like humanoid with bulging eyes and webbed feet.",
+    "habitats": [
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Bullywug Royal",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/309715-bullywug-royal",
+    "index": "https://5e.tools/bestiary.html#bullywug%20royal_gos",
+    "appearance": "A large, frog-faced bullywug in rough robes trimmed with marsh plants.",
+    "habitats": [
+      "Marshes"
+    ]
+  },
+  {
+    "name": "Chasme",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17140-chasme",
+    "index": "https://5e.tools/bestiary.html#chasme_mm",
+    "appearance": "A fly-like demon with clawed limbs, translucent wings and a stabbing proboscis.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Crawling Claw",
+    "kind": "monster",
+    "publication": "Spelljammer: Adventures in Space",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "0",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17139-crawling-claw",
+    "index": "https://5e.tools/bestiary.html#crawling%20claw_mm",
+    "appearance": "A severed hand animated to move on its fingers.",
+    "habitats": null
+  },
+  {
+    "name": "Drow Elite Warrior",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17134-drow-elite-warrior",
+    "index": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm",
+    "appearance": "A dark elf in studded leather who carries a shortsword and hand crossbow.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Duergar Hammerer",
+    "kind": "monster",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "original": "Mordenkainen’s Tome of Foes",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/96474-duergar-hammerer",
+    "index": "https://5e.tools/bestiary.html#duergar%20hammerer_mtf",
+    "appearance": "A mining construct with a duergar inside and a heavy hammer built into one arm.",
+    "habitats": [
+      "mountain",
+      "underdark"
+    ]
+  },
+  {
+    "name": "Faerie Dragon (Younger)",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17107-faerie-dragon-younger",
+    "index": null,
+    "appearance": "A tiny, expressive dragon with butterfly-like wings. Younger faerie dragons are red, orange or yellow.",
+    "habitats": [
+      "Forests"
+    ]
+  },
+  {
+    "name": "Firenewt Warlock of Imix",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17248-firenewt-warlock-of-imix",
+    "index": "https://5e.tools/bestiary.html#firenewt%20warlock%20of%20imix_vgm",
+    "appearance": "A heat-adapted amphibious humanoid with a newt-like head and mottled skin.",
+    "habitats": [
+      "underdark",
+      "mountain",
+      "hill",
+      "desert",
+      "Hot springs",
+      "Volcanic wetlands"
+    ]
+  },
+  {
+    "name": "Firenewt Warrior",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17246-firenewt-warrior",
+    "index": "https://5e.tools/bestiary.html#firenewt%20warrior_vgm",
+    "appearance": "A newt-like humanoid with mottled skin, a shield and a curved blade.",
+    "habitats": [
+      "underdark",
+      "mountain",
+      "hill",
+      "desert",
+      "Hot springs",
+      "Volcanic wetlands"
+    ]
+  },
+  {
+    "name": "Fomorian",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17146-fomorian",
+    "index": "https://5e.tools/bestiary.html#fomorian_mm",
+    "appearance": "An enormous, misshapen giant with mismatched limbs and a prominent, baleful eye.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Galeb Duhr",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17148-galeb-duhr",
+    "index": "https://5e.tools/bestiary.html#galeb%20duhr_mm",
+    "appearance": "An animate boulder with a face and stone limbs that can tuck in and roll.",
+    "habitats": [
+      "Mountain",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Giant Strider",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17247-giant-strider",
+    "index": "https://5e.tools/bestiary.html#giant%20strider_vgm",
+    "appearance": "A large, beaked reptile that runs on two legs and can carry a firenewt rider.",
+    "habitats": [
+      "underdark",
+      "mountain",
+      "hill"
+    ]
+  },
+  {
+    "name": "Girallon",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17257-girallon",
+    "index": "https://5e.tools/bestiary.html#girallon_vgm",
+    "appearance": "A giant four-armed ape with gray skin, pale fur, claws and prominent fangs.",
+    "habitats": [
+      "forest"
+    ]
+  },
+  {
+    "name": "Githyanki Knight",
+    "kind": "monster",
+    "publication": "Spelljammer: Adventures in Space",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17150-githyanki-knight",
+    "index": "https://5e.tools/bestiary.html#githyanki%20knight_mm",
+    "appearance": "A lean, yellow-skinned humanoid with pointed ears and a silver greatsword.",
+    "habitats": [
+      "Astral Plane"
+    ]
+  },
+  {
+    "name": "Githyanki Warrior",
+    "kind": "monster",
+    "publication": "Spelljammer Academy",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17149-githyanki-warrior",
+    "index": "https://5e.tools/bestiary.html#githyanki%20warrior_mm",
+    "appearance": "A lean, yellow-skinned humanoid in half plate, armed with a greatsword.",
+    "habitats": [
+      "Astral Plane"
+    ]
+  },
+  {
+    "name": "Gloomstalker",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/744314-gloomstalker",
+    "index": "https://5e.tools/bestiary.html#gloomstalker_egw",
+    "appearance": "A wyvern-shaped predator made of shifting shadows with glowing eyes and sharp teeth.",
+    "habitats": [
+      "Shadowfell",
+      "Barbed Fields of Xhorhas"
+    ]
+  },
+  {
+    "name": "Goblin Boss",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17155-goblin-boss",
+    "index": "https://5e.tools/bestiary.html#goblin%20boss_mm",
+    "appearance": "A short, pointed-eared goblin armed with a scimitar and javelins.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gray Slaad",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17114-gray-slaad",
+    "index": "https://5e.tools/bestiary.html#gray%20slaad_mm",
+    "appearance": "A gray, toadlike shapeshifter that can pass as a humanoid.",
+    "habitats": [
+      "Urban",
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Hook Horror",
+    "kind": "monster",
+    "publication": "Spelljammer: Adventures in Space",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17162-hook-horror",
+    "index": "https://5e.tools/bestiary.html#hook%20horror_mm",
+    "appearance": "A hulking creature with a hard shell, a vulture-like head and hooked forelimbs.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Horizonback Tortoise",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/744315-horizonback-tortoise",
+    "index": "https://5e.tools/bestiary.html#horizonback%20tortoise_egw",
+    "appearance": "A massive tortoise with a broad shell that looks like a low hill when still.",
+    "habitats": [
+      "Badlands and marshes of Eastern Wynandir"
+    ]
+  },
+  {
+    "name": "Kenku",
+    "kind": "monster",
+    "publication": "Eberron: Rising from the Last War",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17165-kenku",
+    "index": "https://5e.tools/bestiary.html#kenku_mm",
+    "appearance": "A feathered, crowlike humanoid with a beak and no wings.",
+    "habitats": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Lizardfolk Shaman",
+    "kind": "monster",
+    "publication": "Explorer's Guide to Wildemount",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17171-lizardfolk-shaman",
+    "index": "https://5e.tools/bestiary.html#lizardfolk%20shaman_mm",
+    "appearance": "A reptilian humanoid. Its transformation takes the shape of a crocodile.",
+    "habitats": [
+      "Forest",
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Manes",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17213-manes",
+    "index": "https://5e.tools/bestiary.html#manes_mm",
+    "appearance": "A squat, bloated demon with claws and the remains of a humanoid shape.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Manes",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17213-manes",
+    "index": "https://5e.tools/bestiary.html#manes_mm",
+    "appearance": "A squat, bloated demon with claws and the remains of a humanoid shape.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Martial Arts Adept",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17337-martial-arts-adept",
+    "index": "https://5e.tools/bestiary.html#martial%20arts%20adept_vgm",
+    "appearance": "An unarmored fighter trained to strike and grapple without weapons.",
+    "habitats": [
+      "urban",
+      "Monasteries"
+    ]
+  },
+  {
+    "name": "Moorbounder",
+    "kind": "beast",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/744323-moorbounder",
+    "index": "https://5e.tools/bestiary.html#moorbounder_egw",
+    "appearance": "A muscular feline with long tusks and powerful hind legs for bounding jumps.",
+    "habitats": [
+      "Muddy foothills of Xhorhas"
+    ]
+  },
+  {
+    "name": "Mud Mephit",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17173-mud-mephit",
+    "index": "https://5e.tools/bestiary.html#mud%20mephit_mm",
+    "appearance": "A winged elemental made of mud that can pass for an ordinary mound when still.",
+    "habitats": [
+      "Swamp"
+    ]
+  },
+  {
+    "name": "Peryton",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17190-peryton",
+    "index": "https://5e.tools/bestiary.html#peryton_mm",
+    "appearance": "A predatory bird with a stag’s head and branching antlers. Its shadow can look humanoid.",
+    "habitats": [
+      "Mountain",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Quaggoth",
+    "kind": "monster",
+    "publication": "Spelljammer: Adventures in Space",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17193-quaggoth",
+    "index": "https://5e.tools/bestiary.html#quaggoth_mm",
+    "appearance": "A long-armed, shaggy humanoid with pale fur and heavy claws.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "kind": "beast",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+    "index": "https://5e.tools/bestiary.html#quetzalcoatlus_vgm",
+    "appearance": "A colossal flying reptile with a long beak and a wingspan over 30 ft.",
+    "habitats": [
+      "mountain",
+      "hill",
+      "coastal"
+    ]
+  },
+  {
+    "name": "Shadow Demon",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+    "index": "https://5e.tools/bestiary.html#shadow%20demon_mm",
+    "appearance": "A flying demon with the insubstantial shape of a horned shadow.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Smoke Mephit",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17174-smoke-mephit",
+    "index": "https://5e.tools/bestiary.html#smoke%20mephit_mm",
+    "appearance": "A small, winged elemental with a body made of smoke.",
+    "habitats": [
+      "Urban"
+    ]
+  },
+  {
+    "name": "Swashbuckler",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17340-swashbuckler",
+    "index": "https://5e.tools/bestiary.html#swashbuckler_vgm",
+    "appearance": "A lightly armored, mobile fighter armed with a rapier and dagger.",
+    "habitats": [
+      "coastal",
+      "urban"
+    ]
+  },
+  {
+    "name": "Tree Blight",
+    "kind": "monster",
+    "publication": "The Wild Beyond the Witchlight",
+    "original": "Curse of Strahd",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17363-tree-blight",
+    "index": "https://5e.tools/bestiary.html#tree%20blight_cos",
+    "appearance": "A dead-looking tree about 30 ft. tall, with thorny branches and trailing, rubbery roots.",
+    "habitats": [
+      "Gulthias tree groves such as Yester Hill"
+    ]
+  },
+  {
+    "name": "Umber Hulk",
+    "kind": "monster",
+    "publication": "Spelljammer: Adventures in Space",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17205-umber-hulk",
+    "index": "https://5e.tools/bestiary.html#umber%20hulk_mm",
+    "appearance": "A broad, armored burrower with insectlike eyes, heavy claws and powerful mandibles.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Vegepygmy",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17308-vegepygmy",
+    "index": "https://5e.tools/bestiary.html#vegepygmy_vgm",
+    "appearance": "A small humanoid made of fungus, with rough, fibrous growths instead of skin.",
+    "habitats": [
+      "Dense forests",
+      "Swamps",
+      "Warm, damp underground areas"
+    ]
+  },
+  {
+    "name": "Vine Blight",
+    "kind": "monster",
+    "publication": "Curse of Strahd",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17216-vine-blight",
+    "index": "https://5e.tools/bestiary.html#vine%20blight_mm",
+    "appearance": "A walking knot of tangled vines. When motionless it looks like a tangle of ordinary plants.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Vine Blight",
+    "kind": "monster",
+    "publication": "Explorer's Guide to Wildemount",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17216-vine-blight",
+    "index": "https://5e.tools/bestiary.html#vine%20blight_mm",
+    "appearance": "A walking knot of tangled vines. When motionless it looks like a tangle of ordinary plants.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Yochlol",
+    "kind": "monster",
+    "publication": "Critical Role: Call of the Netherdeep",
+    "original": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "challenge": "10",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17127-yochlol",
+    "index": "https://5e.tools/bestiary.html#yochlol_mm",
+    "appearance": "In its demon form, a pillar of yellow slime with one eye and flailing tentacles. It can resemble a drow or a giant spider.",
+    "habitats": [
+      "Demonweb Pits in the Abyss",
+      "Temples of Lolth on the Material Plane"
+    ]
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "kind": "monster",
+    "publication": "Tomb of Annihilation",
+    "original": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "book-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17318-yuan-ti-nightmare-speaker",
+    "index": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker_vgm",
+    "appearance": "A snake-bodied yuan-ti priestess devoted to Dendar the Night Serpent.",
+    "habitats": [
+      "underdark",
+      "forest",
+      "desert"
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Elk",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules. Elk Traits, pp. 230–231, with Giant Elk cross-reference p. 236.",
+      "Medium Beast, +1 Strength, walk 50 ft. The Giant Elk uses this same player trait block by the printed cross-reference on p. 236.",
+      "Once per turn, move 15 ft. or more toward a creature and hit it with a Strength-based melee weapon attack to add 1d6 damage. Charge damage increases to 2d6 at level 5, 3d6 at 11, and 4d6 at 17.",
+      "Hooves or ram deal 1d8 bludgeoning on an unarmed hit. Knockdown allows a bonus-action shove to make the target prone when at least 15 ft. of straight movement toward the target precede an unarmed hit in the same turn.",
+      "No Hands prevents weapon and shield use and the use of hand-dependent items, including tools and spell focuses. Speaks, reads, and writes Common.",
+      "A typical member of this species is neutral."
+    ]
+  },
+  {
+    "name": "Giant Badger",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules. Giant Badger Traits, p. 232.",
+      "Medium Beast, +2 Strength and +2 Constitution. Walk 30 ft. and burrow 10 ft. Has darkvision with a 30-ft. range.",
+      "Bite deals 1d8 piercing or claws deal 1d8 slashing on an unarmed hit. Wisdom (Perception) checks relying on smell have advantage. Speaks, reads, and writes Common.",
+      "A typical member of this species is neutral."
+    ]
+  },
+  {
+    "name": "Giant Bat",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules. Giant Bat Traits, p. 233.",
+      "Medium Beast, +1 Strength and +1 Dexterity. Walk 10 ft. and fly 40 ft. Wearing medium or heavy armor prevents flying.",
+      "Blindsight 60 ft. depends on echolocation and stops working while deafened. Wisdom (Perception) checks relying on hearing have advantage.",
+      "The bite is a 1d8 piercing unarmed strike that can use Strength or Dexterity to hit and for damage. It qualifies as a finesse weapon for effects such as Sneak Attack.",
+      "No Hands prevents weapon and shield use and the use of hand-dependent items, including tools and spell focuses. Speaks, reads, and writes Common.",
+      "A typical member of this species is neutral."
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules. Giant Crab Traits, pp. 234–235.",
+      "Medium Beast, +1 Dexterity. Walk and swim 30 ft. Blindsight 30 ft. Can breathe in air and water.",
+      "The claw is a 1d6 piercing unarmed strike that can use Strength or Dexterity to hit and for damage. It qualifies as a finesse weapon for effects such as Sneak Attack. Unarmored AC is 13 + Dexterity modifier.",
+      "No Hands prevents weapon and shield use and the use of hand-dependent items, including tools and spell focuses. Speaks, reads, and writes Common.",
+      "A typical member of this species is neutral."
+    ]
+  },
+  {
+    "name": "Giant Goat",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's Monstrous Races v2 player conversion for the 2014 fifth-edition rules. Giant Goat Traits, p. 237, with Goat cross-reference p. 248.",
+      "Medium Beast, +2 Strength and +1 Wisdom. Walk 40 ft. The Goat uses this same player trait block by the printed cross-reference on p. 248.",
+      "Ram deals 1d8 bludgeoning on an unarmed hit. Once per turn, move at least 15 ft. toward a creature and land a Strength-based melee weapon attack to deal an added 1d6 damage. Charge damage increases to 2d6 at level 5, 3d6 at 11, and 4d6 at 17.",
+      "Unarmored AC is 11 + Dexterity modifier. Sure-Footed gives advantage on Strength and Dexterity saves against effects that would knock the goat prone.",
+      "No Hands prevents weapon and shield use and the use of hand-dependent items, including tools and spell focuses. Speaks, reads, and writes Common.",
+      "A typical member of this species is neutral."
+    ]
+  }
+]

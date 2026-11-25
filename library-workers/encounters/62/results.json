@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Maenad",
+    "species": "species-f57cb770bc61ca5ac608f197",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Expanded Psionics Handbook (2004)"
+    ],
+    "portraitSha256": "ab6b3e17a1c3575bb18f1b378de57682fe25b92695dc8fb032b7692396eb2458",
+    "caption": "Vara Flintshore · Original Maenad NPC",
+    "npcReceipts": [
+      {
+        "name": "Vara Flintshore",
+        "id": "npc-1be40ee92bd467d67007db82",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Toren Glasswake",
+        "id": "npc-3aa96c145f929e3305c45ce6",
+        "challenge": "Provisional CR 1/2. ECL 1."
+      }
+    ]
+  }
+]

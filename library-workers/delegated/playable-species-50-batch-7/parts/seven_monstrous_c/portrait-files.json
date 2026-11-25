@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Bulette",
+    "file": "portraits/bulette.png",
+    "sha256": "6a5d6981fad66008fd244a5b17fc8074cf21ccc501dd845ce0cfd28855bf2c4f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Cambion",
+    "file": "portraits/cambion.png",
+    "sha256": "2183edacebd8d41a601efe2ae7dd8ca58428a3cfc9050b2a9402b5ed5cbcebbc",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Carrion Crawler",
+    "file": "portraits/carrion-crawler.png",
+    "sha256": "212cc464800a999e803b21aa540ecb8cae94d2ed96d4b8a73e84d803e6203973",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Chimera",
+    "file": "portraits/chimera.png",
+    "sha256": "0594523461428427f8d293613d335f2776790b93b0925eff0501bc5ec33ac2bb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

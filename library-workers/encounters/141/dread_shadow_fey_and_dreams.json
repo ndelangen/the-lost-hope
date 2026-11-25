@@ -1,0 +1,536 @@
+[
+  {
+    "name": "Powrie",
+    "decision": "separate",
+    "pages": "pp. 22–23",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Powrie",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny fey",
+      "ac": 17,
+      "hp": 17,
+      "hitDice": "5d6",
+      "speed": "20 ft. (4 squares), fly 60 ft. (good)",
+      "cr": "4",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "otherStatistics": "Initiative +5. AC 17 (+2 size, +5 Dex), touch 17, flat-footed 12. Base attack +2, grapple −8. Space 2½ ft., reach 0 ft. Fort +2, Ref +2, Will +5.",
+      "description": "This wasp-winged redcap stalks targets with illusions, needle daggers, and a grin that opens impossibly wide.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Bite +0 melee (1d4−2 plus poison) or powrie dagger +5 ranged (1d3−2).\nEvil Grin (Su). A creature that looks at the grinning powrie makes a DC 16 Will save or suffers the fear spell.\nPoison (Ex). The bite delivers injury poison. On a failed DC 15 Fortitude save, the victim is blinded as with blindness/deafness. There is no secondary damage.\nShriek (Sp). Creatures in a 30-ft. radius make a DC 15 Fortitude save or become deafened.\nAlternate Form (Su). As a standard action at will, become a wasp or another stinging insect. Spend at most 3 hours in that form per 24 hours.",
+        "Traits": "DR 5/magic and platinum. Immune to steel. Electricity resistance 10. Darkvision 120 ft. and low-light vision. Use the rogue rules for Evasion, Uncanny Dodge, Trapfinding, and Sneak Attack. Direct sunlight deals 1d4 damage each round without a save.",
+        "Spellcasting": "Casts Illusion spells as a 5th-level sorcerer. The book does not list spells known. For a quick encounter, select spells such as ghost sound, disguise self, silent image, invisibility, and mirror image. Spell save DC 11 + spell level.",
+        "Skills and feats": "Disable Device +8, Hide +13, Move Silently +13, Open Lock +13, Search +8, Sleight of Hand +13. Dodge, Skill Focus (Hide). −10 racial penalty to Diplomacy. Speaks Sylvan.",
+        "Encounter details": "Any land in the Shadow Rift. A lone powrie prefers surprise. Larger groups may attack directly. Solitary, a unit, or a hive of up to 400. No coins, 50% goods and 50% items. Always chaotic evil.",
+        "Printed source": "pp. 22–23"
+      },
+      "ruleNotes": [
+        "The printed saves include Reflex +2 despite Dexterity 20. The stat block uses the printed save.",
+        "The book gives no Sneak Attack dice or Shriek duration. For play, use +3d6 Sneak Attack as a 5th-level rogue and let Shriek deafen for 1 round. These are table defaults.",
+        "The organization line prints ‘unit (46)’ without a separator. Use 4–6 for a small unit as a table default."
+      ]
+    }
+  },
+  {
+    "name": "Shee",
+    "decision": "separate",
+    "pages": "p. 24",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Shee",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium fey",
+      "ac": 16,
+      "hp": 17,
+      "hitDice": "7d6−7",
+      "speed": "30 ft. (6 squares)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "otherStatistics": "Initiative +7. AC 16 (+3 Dex, +3 luck), touch 16, flat-footed 13. Base attack +3, grapple +3. Space and reach 5 ft. Fort +2, Ref +2, Will +5.",
+      "description": "A soft-spoken patron of the arts who negotiates first and reaches for enchanted ammunition if cornered.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack or full attack. Shortbow +8 ranged (1d6) or light crossbow +8 ranged (1d8).\nCursed Arrows (Su). The shee's arrows and bolts inflict doom as the spell unless the target succeeds on a DC 14 Will save.\nCharming Kiss (Sp). A kiss works as charm person. A DC 15 Will save negates it.\nAlternate Form (Su). As a standard action at will, take a nonpredatory, nonscavenging bird form for up to 8 hours total per 24 hours.",
+        "Traits": "DR 5/lead. Immune to stone. Darkvision 120 ft. and low-light vision. The +3 luck bonus to AC is already included. Reroll one failed save per day. Direct sunlight deals 2d4 damage each round without a save.",
+        "Spellcasting": "A performing shee casts as a 5th-level bard. The book gives no spell list. For a quick encounter, grease, glitterdust, and suggestion are options. Spell save DC 13 + spell level.",
+        "Skills and feats": "Knowledge (Shadow Rift) +14, Knowledge (fey) +14, Perform (wind instruments) +17, Ride +9, Spot +12, Spellcraft +8, Use Magic Device +9. Improved Initiative and Skill Focus in each listed Knowledge skill. Speaks Sylvan and usually at least three local languages.",
+        "Encounter details": "Any land in the Shadow Rift. Solitary or clique of 3–5. Standard treasure. Usually neutral.",
+        "Printed source": "p. 24"
+      },
+      "ruleNotes": [
+        "The combat prose names a longbow, but the attack line supplies shortbow statistics. Use the printed shortbow attack.",
+        "The source does not define the extent of ‘immunity to stone.’ For play, treat that as immunity to attacks made with stone. The printed Reflex save is +2."
+      ]
+    }
+  },
+  {
+    "name": "Sith",
+    "decision": "separate",
+    "pages": "pp. 24–25",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Sith",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium fey",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "7d6−7",
+      "speed": "30 ft. (6 squares)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +2. AC 15 (+2 Dex, +3 luck), touch 15, flat-footed 13. Base attack +3, grapple +3. Space and reach 5 ft. Fort +2, Ref +2, Will +5.",
+      "description": "A gaunt Unseelie spellcaster who prefers to travel as a shadow and reappears with a rapier in hand.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Rapier +6 melee (1d6).\nFull attack. Three rapier strikes +6 melee (1d6 each) with Blinding Speed. A sith cannot use Blinding Speed if wielding a heavy weapon.\nFear Aura (Su). At will, opponents within 30 ft. make a DC 14 Will save or are stunned for 1 round. A successful save grants immunity to this sith's aura for 1 day.\nShadow Form (Su). As a standard action, assume the appearance of a nonmagical shadow. In this form the sith can move and perceive its surroundings, but cannot attack.",
+        "Traits": "DR 5/silver. Immune to fire. Darkvision 120 ft. and low-light vision. The +3 luck bonus to AC is already included. Reroll one failed save per day. Direct sunlight deals 3 damage each round without a save. Shade reduces this to 1 damage per round.",
+        "Spellcasting": "Casts Necromancy spells as a 6th-level wizard. No prepared spell list is given. For a quick encounter, ray of enfeeblement, blindness/deafness, and vampiric touch are options. Spell save DC 13 + spell level.",
+        "Skills and feats": "Craft (alchemy) +10, Decipher Script +10, Gather Information +10, Hide +12, Knowledge (arcana) +10, Listen +15, Move Silently +9, Ride +8, Spellcraft +10, Spot +10, Use Magic Device +10. Scribe Scroll, Silent Spell, Still Spell. Speaks Sylvan and at least four local languages.",
+        "Encounter details": "Any land in the Shadow Rift. Solitary or bevy of 3–5. Standard treasure. Always lawful evil.",
+        "Printed source": "pp. 24–25"
+      },
+      "ruleNotes": [
+        "The source describes Blinding Speed as three full attacks and gives a three-strike full-attack line. Use that line as the total rather than multiplying it again.",
+        "The source says ‘damage resistance 5/silver.’ This profile treats that notation as damage reduction, consistent with the other shadow fey."
+      ]
+    }
+  },
+  {
+    "name": "Teg",
+    "decision": "separate",
+    "pages": "pp. 25–26",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Teg",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium fey",
+      "ac": 15,
+      "hp": 16,
+      "hitDice": "3d6+6",
+      "speed": "30 ft. (6 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "otherStatistics": "Initiative +6. AC 15 (+2 Dex, +3 luck), touch 15, flat-footed 12. Base attack +1, grapple +3. Space and reach 5 ft. Fort +1, Ref +1, Will +3.",
+      "description": "This fox-faced hunter prefers to drive intruders into a snare and resorts to claws and teeth when cornered.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +3 melee (1d4+2) or bite −1 melee (1d4+2).\nFull attack. Two claws +3 melee (1d4+2 each) and bite −1 melee (1d4+2).\nHowl of Confusion (Su). Creatures within 50 ft. make a DC 12 Will save or suffer confusion at caster level 8.\nAlternate Form (Su). As a standard action at will, become a fox for up to 8 hours total per day.",
+        "Traits": "DR 5/gold. Immune to cold. Darkvision 120 ft. and low-light vision. The +3 luck bonus to AC is already included. Reroll one failed save per day. Direct sunlight deals 2 damage each round without a save. Shade reduces this to 1 damage every 2 rounds.",
+        "Spellcasting": "Casts Animal domain spells as a 2nd-level druid. For play, calm animals is the 1st-level option. The print gives no spell allotment.",
+        "Skills and feats": "Handle Animal +9, Hide +8, Move Silently +8, Sense Motive +9, Spot +9, Survival +9. Skill Focus (Survival). Speaks Sylvan and can converse with animals normally found in temperate forests or grasslands.",
+        "Encounter details": "Temperate forests, hills, or plains of the Shadow Rift. Solitary. Standard treasure. Usually neutral evil.",
+        "Printed source": "pp. 25–26"
+      },
+      "ruleNotes": [
+        "T",
+        "h",
+        "e",
+        " ",
+        "A",
+        "C",
+        " ",
+        "l",
+        "i",
+        "n",
+        "e",
+        " ",
+        "l",
+        "i",
+        "s",
+        "t",
+        "s",
+        " ",
+        "f",
+        "l",
+        "a",
+        "t",
+        "-",
+        "f",
+        "o",
+        "o",
+        "t",
+        "e",
+        "d",
+        " ",
+        "1",
+        "2",
+        ",",
+        " ",
+        "a",
+        "n",
+        "d",
+        " ",
+        "t",
+        "h",
+        "e",
+        " ",
+        "s",
+        "a",
+        "v",
+        "e",
+        "s",
+        " ",
+        "l",
+        "i",
+        "s",
+        "t",
+        " ",
+        "R",
+        "e",
+        "f",
+        "l",
+        "e",
+        "x",
+        " ",
+        "+",
+        "1",
+        ".",
+        " ",
+        "U",
+        "s",
+        "e",
+        " ",
+        "t",
+        "h",
+        "e",
+        " ",
+        "p",
+        "r",
+        "i",
+        "n",
+        "t",
+        "e",
+        "d",
+        " ",
+        "v",
+        "a",
+        "l",
+        "u",
+        "e",
+        "s",
+        ".",
+        " ",
+        "I",
+        "n",
+        "i",
+        "t",
+        "i",
+        "a",
+        "t",
+        "i",
+        "v",
+        "e",
+        " ",
+        "+",
+        "6",
+        " ",
+        "i",
+        "s",
+        " ",
+        "p",
+        "r",
+        "i",
+        "n",
+        "t",
+        "e",
+        "d",
+        " ",
+        "e",
+        "v",
+        "e",
+        "n",
+        " ",
+        "t",
+        "h",
+        "o",
+        "u",
+        "g",
+        "h",
+        " ",
+        "t",
+        "h",
+        "e",
+        " ",
+        "f",
+        "e",
+        "a",
+        "t",
+        " ",
+        "l",
+        "i",
+        "s",
+        "t",
+        " ",
+        "d",
+        "o",
+        "e",
+        "s",
+        " ",
+        "n",
+        "o",
+        "t",
+        " ",
+        "i",
+        "n",
+        "c",
+        "l",
+        "u",
+        "d",
+        "e",
+        " ",
+        "I",
+        "m",
+        "p",
+        "r",
+        "o",
+        "v",
+        "e",
+        "d",
+        " ",
+        "I",
+        "n",
+        "i",
+        "t",
+        "i",
+        "a",
+        "t",
+        "i",
+        "v",
+        "e",
+        "."
+      ]
+    }
+  },
+  {
+    "name": "Ennui",
+    "decision": "separate",
+    "pages": "pp. 58–60",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Ennui",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium outsider (evil)",
+      "ac": 15,
+      "hp": 52,
+      "hitDice": "8d8+16",
+      "speed": "30 ft. (6 squares), fly 60 ft. (average)",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "otherStatistics": "Initiative +6. AC 15 (+2 Dex, +3 natural), touch 12, flat-footed 13. Base attack +8, grapple +11. Space and reach 5 ft. Fort +8, Ref +8, Will +9.",
+      "description": "A winged jailer of the Veil of Sleep watches its prey unseen before attacking with four claws.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +11 melee (1d4+3). Full attack. Four claws +11 melee (1d4+3 each).\nLullaby (Su). As a standard action, opponents within 20 ft. must make a DC 14 Will save. Failure fatigues them for 1d4 rounds or as long as the dream spawn keeps speaking within 20 ft. of them. Maintaining the lullaby is a free action. This is a sonic, mind-affecting compulsion.\nMemory Drain (Su, 1/day). A successful touch attack deals 1d4 Intelligence damage. Until the victim recovers all of those points, the dream spawn can use Alternate Form to impersonate any creature from the victim's memory.\nAlternate Form (Su). Use polymorph on itself as a standard action at caster level 8. The form can last indefinitely. Returning to its own shape is a free action.\nInvisibility (Sp). As a standard action, become invisible as the spell at caster level 8. It can stay invisible indefinitely until the effect ends, such as by attacking.",
+        "Traits": "DR 15/magic. Darkvision 60 ft. It does not need to eat, drink, or breathe. Detect Thoughts (Su). In an inhabited dreamscape, it knows a creature's surface thoughts as though it had studied them for three rounds with detect thoughts, caster level 8, Will DC 15. Fear Eater (Ex). Immune to Fear, Horror, and Madness. A spell targeting it that would normally cause one of those effects heals 1 HP per spell level. When one of its actions makes a dreamer fail a Fear, Horror, or Madness save, it heals 2 HP for a minor outcome, 4 HP for a moderate outcome, or 8 HP for a major outcome.",
+        "Dream defeat": "A dreamer killed by this dream spawn takes a DC 17 Ravenloft Madness save on waking (Will). For consequences and recovery, use the Ravenloft Player’s Handbook, chapter 3. A spawn that wins often returns to terrorize that dreamer again.",
+        "Skills and feats": "Bluff +13, Disguise +15, Hide +10, Intimidate +12, Listen +10, Move Silently +10, Sense Motive +12, Spot +10. Alertness (bonus), Flyby Attack, Improved Initiative, Skill Focus (Disguise). Speaks Oneiros and the languages of its current prey.",
+        "Encounter details": "Any land or underground (dreams). Solitary. No treasure by default. Always lawful evil. Advances at 9–16 HD (Medium) or 17–24 HD (Large). An ennui sometimes carries a dreamslayer weapon. While dreaming, add +3 to that weapon's existing enhancement bonus, to a maximum of +5. Outside of dreams, use the weapon's normal enhancement bonus.",
+        "Printed source": "pp. 58–60"
+      }
+    }
+  },
+  {
+    "name": "Gray Morph",
+    "decision": "separate",
+    "pages": "pp. 58–60",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Gray Morph",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small outsider (evil)",
+      "ac": 14,
+      "hp": 16,
+      "hitDice": "3d8+3",
+      "speed": "20 ft. (4 squares)",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "otherStatistics": "Initiative +0. AC 14 (+1 size, +3 natural), touch 11, flat-footed 14. Base attack +3, grapple +0. Space and reach 5 ft. Fort +4, Ref +3, Will +4.",
+      "description": "An ash-colored dream creature impersonates animals and bystanders. It flees if its disguise fails.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +5 melee (1d3+1). Full attack. Two claws +5 melee (1d3+1 each).\nLullaby (Su). As a standard action, opponents within 20 ft. must make a DC 14 Will save. Failure fatigues them for 1d4 rounds or as long as the dream spawn keeps speaking within 20 ft. of them. Maintaining the lullaby is a free action. This is a sonic, mind-affecting compulsion.\nMemory Drain (Su, 1/day). A successful touch attack deals 1d4 Intelligence damage. Until the victim recovers all of those points, the dream spawn can use Alternate Form to impersonate any creature from the victim's memory.\nAlternate Form (Su). Use polymorph on itself as a standard action at caster level 8. The form can last indefinitely. Returning to its own shape is a free action.",
+        "Traits": "DR 5/magic. Darkvision 60 ft. It does not need to eat, drink, or breathe. Detect Thoughts (Su). In an inhabited dreamscape, it knows a creature's surface thoughts as though it had studied them for three rounds with detect thoughts, caster level 3, Will DC 13. Fear Eater (Ex). Immune to Fear, Horror, and Madness. A spell targeting it that would normally cause one of those effects heals 1 HP per spell level. When one of its actions makes a dreamer fail a Fear, Horror, or Madness save, it heals 2 HP for a minor outcome, 4 HP for a moderate outcome, or 8 HP for a major outcome.",
+        "Dream defeat": "A dreamer killed by this dream spawn takes a DC 12 Ravenloft Madness save on waking (Will). For consequences and recovery, use the Ravenloft Player’s Handbook, chapter 3. A spawn that wins often returns to terrorize that dreamer again.",
+        "Skills and feats": "Bluff +2, Disguise +4, Hide +6, Listen +3, Move Silently +2, Sense Motive +3, Spot +3. Skill Focus (Disguise). Speaks Oneiros and the languages of its current prey.",
+        "Encounter details": "Any land or underground (dreams). Solitary, pair, gang of 3–6, or pack of 9–20. No treasure. Always lawful neutral. Advances at 4–6 HD (Medium) or 7–9 HD (Large). If forced to fight, it resumes its natural form and claws its attacker.",
+        "Printed source": "pp. 58–60"
+      }
+    }
+  },
+  {
+    "name": "Shadow Morph",
+    "decision": "separate",
+    "pages": "pp. 58–60",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Shadow Morph",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium outsider (evil)",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d8+10",
+      "speed": "30 ft. (6 squares)",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "otherStatistics": "Initiative +5. AC 16 (+1 Dex, +5 natural), touch 11, flat-footed 15. Base attack +5, grapple +7. Space and reach 5 ft. Fort +6, Ref +5, Will +6.",
+      "description": "This featureless dream creature takes the shape of a dreamer’s old enemy or a lost loved one.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Attack. Claw +7 melee (1d4+2). Full attack. Two claws +7 melee (1d4+2 each).\nLullaby (Su). As a standard action, opponents within 20 ft. must make a DC 14 Will save. Failure fatigues them for 1d4 rounds or as long as the dream spawn keeps speaking within 20 ft. of them. Maintaining the lullaby is a free action. This is a sonic, mind-affecting compulsion.\nMemory Drain (Su, 1/day). A successful touch attack deals 1d4 Intelligence damage. Until the victim recovers all of those points, the dream spawn can use Alternate Form to impersonate any creature from the victim's memory.\nAlternate Form (Su). Use polymorph on itself as a standard action at caster level 8. The form can last indefinitely. Returning to its own shape is a free action.\nNightmare Howl (Su). As a standard action, opponents within 60 ft. make a DC 14 Will save. Failure paralyzes the creature with fear for 1d4 rounds and heals the shadow morph for 1d4 HP per failed save. Anyone exposed is immune to that morph's howl for 1 day. All dream spawn are immune. This is a sonic, mind-affecting fear effect.",
+        "Traits": "DR 10/magic. Darkvision 60 ft. It does not need to eat, drink, or breathe. Detect Thoughts (Su). In an inhabited dreamscape, it knows a creature's surface thoughts as though it had studied them for three rounds with detect thoughts, caster level 5, Will DC 14. Fear Eater (Ex). Immune to Fear, Horror, and Madness. A spell targeting it that would normally cause one of those effects heals 1 HP per spell level. When one of its actions makes a dreamer fail a Fear, Horror, or Madness save, it heals 2 HP for a minor outcome, 4 HP for a moderate outcome, or 8 HP for a major outcome.",
+        "Dream defeat": "A dreamer killed by this dream spawn takes a DC 14 Ravenloft Madness save on waking (Will). For consequences and recovery, use the Ravenloft Player’s Handbook, chapter 3. A spawn that wins often returns to terrorize that dreamer again.",
+        "Skills and feats": "Bluff +10, Disguise +10, Hide +4, Intimidate +5, Listen +5, Move Silently +4, Sense Motive +8, Spot +5. Improved Initiative, Skill Focus (Disguise). Speaks Oneiros and the languages of its current prey.",
+        "Encounter details": "Any land or underground (dreams). Solitary, pair, or pack of 3–6. No treasure. Always lawful evil. Advances at 6–10 HD (Medium) or 11–15 HD (Large). It uses familiar forms to lure dreamers close before it attacks.",
+        "Printed source": "pp. 58–60"
+      }
+    }
+  }
+]

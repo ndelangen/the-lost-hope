@@ -1,0 +1,325 @@
+[
+  {
+    "name": "Beast of the Land",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 1, Beast Master Companions and Primal Companion",
+    "printedPage": 61,
+    "printedPages": [
+      61
+    ],
+    "pdfPage": 62,
+    "pdfPages": [
+      62
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/ranger#BeastMasterCompanions",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "Size, ability scores, senses, passive Perception, languages, movement, AC, hit points, Hit Dice and proficiency formulas, attack to-hit formula and damage.",
+      "notes": [
+        "The Primal Bond row is names-only in the scalable recipe. The companion’s checks and saves use the printed PB rule.",
+        "The combat initiative modifier is the Dexterity modifier. Printed companions act during their ranger’s turn.",
+        "The scaler accepts level inputs from 1 through 20. The feature’s eligibility starts at ranger level 3, and the hit point and Hit Dice formulas use ranger class level.",
+        "The printed command, action, revival, replacement and disappearance rules are recorded here as prose.",
+        "Charge records 1d6 slashing and Prone. Its 20-ft straight approach, same-turn hit, and caster spell-save DC are expressed in the printed procedure rather than the recipe."
+      ]
+    }
+  },
+  {
+    "name": "Beast of the Sea",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 1, Beast Master Companions and Primal Companion",
+    "printedPage": 61,
+    "printedPages": [
+      61
+    ],
+    "pdfPage": 62,
+    "pdfPages": [
+      62
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/ranger#BeastMasterCompanions",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "Size, ability scores, senses, passive Perception, languages, movement, AC, hit points, Hit Dice and proficiency formulas, attack to-hit formula and damage.",
+      "notes": [
+        "The Primal Bond row is names-only in the scalable recipe. The companion’s checks and saves use the printed PB rule.",
+        "The combat initiative modifier is the Dexterity modifier. Printed companions act during their ranger’s turn.",
+        "The scaler accepts level inputs from 1 through 20. The feature’s eligibility starts at ranger level 3, and the hit point and Hit Dice formulas use ranger class level.",
+        "The printed command, action, revival, replacement and disappearance rules are recorded here as prose.",
+        "Binding Strike has two alternative damage rolls and records Grappled. The printed escape DC equals the caster’s spell save DC, and the attack is limited to the current target while the grapple lasts."
+      ]
+    }
+  },
+  {
+    "name": "Beast of the Sky",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 1, Beast Master Companions and Primal Companion",
+    "printedPage": 61,
+    "printedPages": [
+      61
+    ],
+    "pdfPage": 62,
+    "pdfPages": [
+      62
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/ranger#BeastMasterCompanions",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "Size, ability scores, senses, passive Perception, languages, movement, AC, hit points, Hit Dice and proficiency formulas, attack to-hit formula and damage.",
+      "notes": [
+        "The Primal Bond row is names-only in the scalable recipe. The companion’s checks and saves use the printed PB rule.",
+        "The combat initiative modifier is the Dexterity modifier. Printed companions act during their ranger’s turn.",
+        "The scaler accepts level inputs from 1 through 20. The feature’s eligibility starts at ranger level 3, and the hit point and Hit Dice formulas use ranger class level.",
+        "The printed command, action, revival, replacement and disappearance rules are recorded here as prose.",
+        "The printed and stored Hit Dice are d6s."
+      ]
+    }
+  },
+  {
+    "name": "Bestial Spirit",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 3, Summon Beast and Bestial Spirit",
+    "printedPage": 109,
+    "printedPages": [
+      109,
+      110
+    ],
+    "pdfPage": 110,
+    "pdfPages": [
+      110,
+      111
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "One selector with Air, Land and Water forms, common ability scores, senses, passive Perception and languages, conditional movement and form traits, attack count and Maul formulas.",
+      "notes": [
+        "Only Bestial Spirit is a printed stat-block title. The named Air, Land and Water records expose its conditional subprofiles.",
+        "The general recipe hands off to a selected form. Different movement and starting HP depend on that choice.",
+        "The printed block uses caster PB and shared initiative. See each form’s recipe comparison for displayed proficiency and turn behavior."
+      ]
+    },
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+    }
+  },
+  {
+    "name": "Bestial Spirit (Air)",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 3, Summon Beast and Bestial Spirit",
+    "printedPage": 109,
+    "printedPages": [
+      109,
+      110
+    ],
+    "pdfPage": 110,
+    "pdfPages": [
+      110,
+      111
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "Small size, all ability scores, senses, passive Perception and languages, movement and traits for this form, AC, HP and attack formulas including 2nd-level availability.",
+      "notes": [
+        "The form recipe omits a PB field even though the printed block uses the caster’s proficiency bonus.",
+        "The formula for attack count rounds down. The spell uses the selected level for Maul, AC, HP growth and attack count.",
+        "The stored Dexterity initiative modifier is +0. The spell uses the caster’s initiative count and the spirit acts after the caster.",
+        "The printed spell’s command, concentration, appearance and disappearance rules are recorded here as prose."
+      ]
+    },
+    "printedTemplate": "Bestial Spirit",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_06/portraits/giant-eagle.png",
+      "sha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445"
+    }
+  },
+  {
+    "name": "Bestial Spirit (Land)",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 3, Summon Beast and Bestial Spirit",
+    "printedPage": 109,
+    "printedPages": [
+      109,
+      110
+    ],
+    "pdfPage": 110,
+    "pdfPages": [
+      110,
+      111
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "Small size, all ability scores, senses, passive Perception and languages, movement and traits for this form, AC, HP and attack formulas including 2nd-level availability.",
+      "notes": [
+        "The form recipe omits a PB field even though the printed block uses the caster’s proficiency bonus.",
+        "The formula for attack count rounds down. The spell uses the selected level for Maul, AC, HP growth and attack count.",
+        "The stored Dexterity initiative modifier is +0. The spell uses the caster’s initiative count and the spirit acts after the caster.",
+        "The printed spell’s command, concentration, appearance and disappearance rules are recorded here as prose."
+      ]
+    },
+    "printedTemplate": "Bestial Spirit",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+      "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+    }
+  },
+  {
+    "name": "Bestial Spirit (Water)",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2020",
+    "isbn": "978-0-7869-6702-5",
+    "section": "Chapter 3, Summon Beast and Bestial Spirit",
+    "printedPage": 109,
+    "printedPages": [
+      109,
+      110
+    ],
+    "pdfPage": 110,
+    "pdfPages": [
+      110,
+      111
+    ],
+    "pdfSha256": "8e7550f9c5ba60ec0311f6349ac6a7eb2e902c6078654b4927457202e2d65d97",
+    "sourceUrl": "",
+    "url": "",
+    "sourceWitness": "The print-layout supplies the full rules; the page index is one ahead of the printed folio.",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/tcoe",
+    "publisherRulesUrl": "https://www.dndbeyond.com/sources/tcoe/magical-miscellany#SummonBeast",
+    "publisherAccessState": "Anonymous access redirects to the book marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/all-rulebooks/tashas-cauldron-of-everything",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/tashas-cauldron-of-everything",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "471b401d7c44c23c3f880fa2ca5d1e9b26abd87cc673a27ba614c9fea371dbd9",
+    "errataEvidence": "The December 2021 official errata contains no change to Primal Companion, Summon Beast, or the linked stat blocks.",
+    "appearanceEvidence": "The print lets the ranger or caster choose an appropriate animal. The staged portrait is one illustration of that choice.",
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "verifiedFields": "Small size, all ability scores, senses, passive Perception and languages, movement and traits for this form, AC, HP and attack formulas including 2nd-level availability.",
+      "notes": [
+        "The form recipe omits a PB field even though the printed block uses the caster’s proficiency bonus.",
+        "The formula for attack count rounds down. The spell uses the selected level for Maul, AC, HP growth and attack count.",
+        "The stored Dexterity initiative modifier is +0. The spell uses the caster’s initiative count and the spirit acts after the caster.",
+        "The printed spell’s command, concentration, appearance and disappearance rules are recorded here as prose."
+      ]
+    },
+    "printedTemplate": "Bestial Spirit",
+    "reusedPortrait": {
+      "source": "playable-species-50-batch-11/parts/eleven_c/portraits/crocodile.png",
+      "sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6"
+    }
+  }
+]

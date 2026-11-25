@@ -1,0 +1,384 @@
+[
+  {
+    "name": "Neogi Master",
+    "statBlock": {
+      "name": "Neogi Master",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 192,
+      "classification": "Medium aberration (warlock), typically lawful evil",
+      "ac": 15,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A neogi whose magic comes from pacts with aberrant beings that resemble stars.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3
+      },
+      "skills": {
+        "Arcana": 5,
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 3,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Deep Speech, Undercommon, telepathy 30 ft.",
+        "Traits": "Devil's Sight. Magical darkness does not limit the neogi's darkvision.\nMental Fortitude. The neogi has advantage on saves against being charmed or frightened. Magic cannot put it to sleep.\nSpider Climb. The neogi can climb difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Multiattack. Make one Bite and one Claw attack, or make two Tentacle of Hadar attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage. The target makes a DC 12 Constitution save or is poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) piercing damage.\nTentacle of Hadar. Ranged spell attack, +6 to hit, range 120 ft., one target. A hit deals 14 (3d6 + 4) necrotic damage. The target cannot take reactions until the end of the neogi's next turn.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 14).\nAt will. Guidance, Mage Hand, Minor Illusion, Prestidigitation.\n1/day each. Dimension Door, Hold Person, Hunger of Hadar.",
+        "Bonus actions": "Enslave (recharges after a short or long rest). Choose a creature the neogi can see within 30 ft. It makes a DC 14 Wisdom save or becomes magically charmed by the neogi for 1 day. The charm ends early if the neogi dies or the two are more than 1 mile apart. While charmed, the target obeys the neogi, cannot take reactions, and can communicate telepathically with it from up to 1 mile away. Each time the target takes damage, it can repeat the save, ending the charm on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 192."
+      }
+    }
+  },
+  {
+    "name": "Neothelid",
+    "statBlock": {
+      "name": "Neothelid",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Gargantuan aberration, typically chaotic evil",
+      "ac": 16,
+      "hp": 232,
+      "hitDice": "15d20 + 75",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 13,
+      "description": "A giant worm that can grow from the last surviving tadpole in an abandoned mind flayer colony. It hunts by sensing nearby minds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 1,
+        "Wis": 8,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 120 ft. (blind beyond this radius).",
+        "Traits": "Creature Sense. The neothelid senses creatures with Intelligence 4 or higher within 1 mile. It knows their direction, distance, and Intelligence scores. Mind Blank, Nondetection, or similar magic blocks this sense.\nMagic Resistance. The neothelid has advantage on saves against spells and other magical effects.",
+        "Actions": "Tentacles. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 21 (3d8 + 8) bludgeoning damage plus 11 (2d10) psychic damage. A Large or smaller creature must also pass a DC 18 Strength save or be swallowed. The swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the neothelid, and takes 21 (6d6) acid damage at the start of each of the neothelid's turns.\nIf a creature inside the neothelid deals at least 30 damage to it in one turn, the neothelid makes a DC 18 Constitution save at the end of that turn. On a failure it regurgitates every swallowed creature, and each falls prone within 10 ft. of it. If the neothelid dies, its restraint on swallowed creatures ends. Each can spend 20 ft. of movement to leave the corpse and exits prone.\nAcid Breath (recharge 5–6). Each creature in a 60-ft. cone makes a DC 18 Dexterity save, taking 35 (10d6) acid damage on a failure or half as much on a success.",
+        "Spellcasting": "As an action, cast one listed spell without components, using Wisdom (spell save DC 16).\nAt will. Levitate.\n1/day each. Confusion, Feeblemind, Telekinesis.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 193."
+      }
+    }
+  },
+  {
+    "name": "Nightwalker",
+    "statBlock": {
+      "name": "Nightwalker",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 194,
+      "classification": "Huge undead, typically chaotic evil",
+      "ac": 14,
+      "hp": 337,
+      "hitDice": "25d12 + 175",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 9,
+      "description": "A creature from the Negative Plane that destroys living things. On the Material Plane, it seeks out places and people tied to the creature it replaced.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 13
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Damage resistances": "Acid, cold, fire, lightning, thunder. It also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Traits": "Annihilating Aura. Each creature that starts its turn within 30 ft. makes a DC 21 Constitution save or takes 21 (6d6) necrotic damage. Undead are immune.\nLife Eater. A creature that the nightwalker reduces to 0 hit points dies. Only Wish can revive it.\nUnusual Nature. The nightwalker needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Enervating Focus attacks. Replace one with Finger of Doom if available.\nEnervating Focus. Melee weapon attack, +12 to hit, reach 15 ft., one target. A hit deals 28 (5d8 + 6) necrotic damage. The target makes a DC 21 Constitution save. On a failure its hit point maximum drops by the necrotic damage taken until it finishes a long rest. If its maximum reaches 0, it dies.\nFinger of Doom (recharge 6). Choose one creature the nightwalker can see within 300 ft. The target makes a DC 21 Wisdom save. On a failure it takes 39 (6d12) necrotic damage and is frightened until the end of the nightwalker's next turn. It is paralyzed while frightened this way. A successful save makes the target immune to this nightwalker's Finger of Doom for 24 hours.",
+        "Negative Plane crossing mechanics": "A creature that survives entering the Negative Plane is trapped there as a nightwalker emerges in its place. To escape, it needs the nightwalker lured back with living prey. If the nightwalker is destroyed, the trapped creature cannot escape.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 194."
+      }
+    }
+  },
+  {
+    "name": "Nilbog",
+    "statBlock": {
+      "name": "Nilbog",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 195,
+      "classification": "Small fey (goblinoid), typically chaotic neutral",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A fragment of a goblin trickster god that takes goblin hosts. Fey courts sometimes indulge a goblin jester to keep the spirit from appearing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nilbogism. Before trying to damage the nilbog, a creature makes a DC 12 Charisma save. On a failure, it is charmed until the end of its next turn and must use its action to praise the nilbog. The nilbog can regain hit points only by using Reversal of Fortune.",
+        "Actions": "Fool's Scepter. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage.\nMocking Word. Choose a creature the nilbog can see within 60 ft. It makes a DC 12 Wisdom save or takes 5 (2d4) psychic damage and has disadvantage on its next attack roll before the end of its next turn.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 12).\nAt will. Mage Hand, Tasha's Hideous Laughter.",
+        "Bonus actions": "Nimble Escape. Take the Disengage or Hide action.",
+        "Reactions": "Reversal of Fortune. When another creature deals damage to the nilbog, reduce that damage to 0 and regain 3 (1d6) hit points.",
+        "Nilbog possession mechanics": "Without a host, the spirit is invisible, flies 30 ft., cannot be attacked, and is immune to all damage and conditions. On initiative count 20, losing ties, it can only try to possess a goblin within 5 ft. The goblin makes a DC 15 Charisma save. On a failure it is possessed and uses the nilbog stat block. On a success, the spirit cannot possess that goblin for 24 hours. If the host dies or a spell such as Hallow, Magic Circle, or Protection from Evil and Good ends the possession, the spirit seeks another goblin. It can leave voluntarily at any time but does so only if another potential host is nearby. A freed goblin returns to its usual statistics and loses the traits granted by the spirit.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 195."
+      }
+    }
+  },
+  {
+    "name": "Nupperibo",
+    "statBlock": {
+      "name": "Nupperibo",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 196,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 13,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "description": "A low-ranking devil surrounded by hungry vermin. Nupperibos obey telepathic orders from other devils and grow more dangerous in packs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 1
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 20 ft. (blind beyond this radius).",
+        "Languages": "Understands Infernal but cannot speak.",
+        "Damage resistances": "Acid, cold.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Blinded, charmed, frightened, poisoned.",
+        "Traits": "Cloud of Vermin. A creature other than a devil that starts its turn within 20 ft. of one or more nupperibos makes a DC 11 Constitution save or takes 5 (2d4) acid damage. If the creature is in at least two of these areas, it makes the save with disadvantage.\nDriven Tracker. In the Nine Hells, the nupperibo can track without error any creature damaged by any nupperibo's Cloud of Vermin in the past 24 hours.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 196."
+      }
+    }
+  },
+  {
+    "name": "Oblex Spawn",
+    "statBlock": {
+      "name": "Oblex Spawn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Tiny ooze, typically lawful evil",
+      "ac": 13,
+      "hp": 18,
+      "hitDice": "4d4 + 8",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "description": "A young ooze that forms when a mature oblex sheds a stolen personality. It grows by feeding on memories and cannot yet impersonate its victims.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 2
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft. (blind beyond this radius).",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, prone.",
+        "Traits": "Amorphous. The oblex can pass through a gap 1 inch wide without squeezing.\nAversion to Fire. After taking fire damage, the oblex has disadvantage on attack rolls and ability checks until the end of its next turn.\nUnusual Nature. The oblex does not need sleep.",
+        "Actions": "Pseudopod. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 197."
+      }
+    }
+  },
+  {
+    "name": "Ogre Battering Ram",
+    "statBlock": {
+      "name": "Ogre Battering Ram",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 11,
+      "hp": 76,
+      "hitDice": "9d10 + 27",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 8,
+      "description": "A siege ogre drilled to smash fortifications with a heavy club and halt enemies that come within reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Traits": "Siege Monster. The ogre deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make two Bash attacks.\nBash. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 15 (2d10 + 4) bludgeoning damage. The ogre can push a Huge or smaller target 5 ft. away.",
+        "Reactions": "Block the Path. When a creature enters a space within 5 ft. of the ogre, make one Bash attack against it. On a hit, the creature's speed becomes 0 until the start of the ogre's next turn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 200."
+      }
+    }
+  }
+]

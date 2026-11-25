@@ -1,0 +1,355 @@
+[
+  {
+    "name": "Arcanaloth",
+    "pages": "pp. 311, 313",
+    "statBlock": {
+      "name": "Arcanaloth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 17,
+      "hp": 104,
+      "hitDice": "16d8 + 32",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "12",
+      "xp": 8400,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "description": "A jackal-headed scholar and mercenary that trades its services for secrets or powerful magic items.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Arcana +13, Deception +9, Insight +9, Perception +7.",
+        "Senses": "Truesight 120 ft., passive Perception 17.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Defenses": "Resists cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to acid, poison damage, Charmed, and Poisoned.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.\nBack to Gehenna. When killed away from its home plane, it dissolves into ichor and reforms in Gehenna at full strength.",
+        "Innate spellcasting": "Charisma, save DC 15. These spells require no material components.\nAt will. Alter Self, Darkness, Heat Metal, Invisibility (self only), Magic Missile.",
+        "Spellcasting": "16th-level wizard spellcaster. Intelligence, save DC 17, +9 to hit with spell attacks.\nCantrips (at will). Fire Bolt, Mage Hand, Minor Illusion, Prestidigitation.\n1st level (4 slots). Detect Magic, Identify, Shield, Tenser’s Floating Disk.\n2nd level (3 slots). Detect Thoughts, Mirror Image, Phantasmal Force, Suggestion.\n3rd level (3 slots). Counterspell, Fear, Fireball.\n4th level (3 slots). Banishment, Dimension Door.\n5th level (2 slots). Contact Other Plane, Hold Monster.\n6th level (1 slot). Chain Lightning.\n7th level (1 slot). Finger of Death.\n8th level (1 slot). Mind Blank.",
+        "Actions": "Claws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) slashing damage. The target also makes a DC 14 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success.\nTeleport. Magically move with carried and worn gear to an unoccupied space it can see within 60 ft.",
+        "Optional summoning": "Summon Yugoloth (1/day). Attempt to summon one arcanaloth with a 40 percent chance of success. The summoned creature appears in an unoccupied space within 60 ft., acts as it pleases, and cannot summon yugoloths. It remains for 1 minute, until either yugoloth dies, or until the summoner dismisses it as a bonus action.",
+        "Printed source": "Monster Manual (2014), pp. 311, 313."
+      }
+    }
+  },
+  {
+    "name": "Barlgura",
+    "pages": "pp. 54, 56",
+    "statBlock": {
+      "name": "Barlgura",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "40 ft., climb 40 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "description": "An ape-shaped demon that hunts dangerous prey in packs and hangs trophies around its territory.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Perception +5, Stealth +5.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft., passive Perception 15.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Defenses": "Resists cold, fire, and lightning. Immune to poison damage and Poisoned.",
+        "Traits": "Reckless. At the start of its turn it may gain advantage on melee weapon attacks for that turn. Attack rolls against it then have advantage until its next turn starts.\nRunning Leap. With a running start it can long jump up to 40 ft. and high jump up to 20 ft.",
+        "Innate spellcasting": "Wisdom, save DC 13. These spells require no material components.\n2/day each. Disguise Self, Invisibility (self only).\n1/day each. Entangle, Phantasmal Force.",
+        "Actions": "Multiattack. Make one Bite and two Fist attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing damage.\nFist. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (1d10 + 4) bludgeoning damage.",
+        "Optional summoning": "Summon Demon (1/day). Attempt to summon one barlgura with a 30 percent chance of success. It appears in an unoccupied space within 60 ft., serves as an ally, and cannot summon more demons. It remains for 1 minute, until either demon dies, or until the summoner dismisses it as an action.",
+        "Printed source": "Monster Manual (2014), pp. 54, 56."
+      },
+      "ruleNotes": [
+        "The 2015 errata raised its walking and climbing speeds from 30 ft. to 40 ft. each."
+      ]
+    }
+  },
+  {
+    "name": "Chasme",
+    "pages": "pp. 54, 57",
+    "statBlock": {
+      "name": "Chasme",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "13d10 + 13",
+      "speed": "20 ft., fly 60 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A fly-shaped demon that hunts down deserters. Its drone can leave prey unconscious before it lands.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Perception +5.",
+        "Senses": "Blindsight 10 ft., darkvision 120 ft., passive Perception 15.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Defenses": "Resists cold, fire, and lightning. Immune to poison damage and Poisoned.",
+        "Traits": "Drone. Each nondemon starting its turn within 30 ft. makes a DC 12 Constitution save or falls Unconscious for 10 minutes. A creature unable to hear the drone succeeds automatically. Damage ends this effect, as does another creature using an action to splash the target with holy water. A creature that saves or recovers is immune to the drone for 24 hours.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nSpider Climb. It can climb difficult surfaces and ceilings without an ability check.",
+        "Actions": "Proboscis. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 16 (4d6 + 2) piercing and 24 (7d6) necrotic damage. Reduce the target’s maximum HP by the necrotic damage it took. It dies if this reduces its maximum to 0. The reduction lasts until it finishes a long rest or receives a spell such as Greater Restoration.",
+        "Optional summoning": "Summon Demon (1/day). Attempt to summon one chasme with a 30 percent chance of success. It appears in an unoccupied space within 60 ft., serves as an ally, and cannot summon more demons. It remains for 1 minute, until either demon dies, or until the summoner dismisses it as an action.",
+        "Printed source": "Monster Manual (2014), pp. 54, 57."
+      }
+    }
+  },
+  {
+    "name": "Manes",
+    "pages": "pp. 53, 60",
+    "statBlock": {
+      "name": "Manes",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small fiend (demon), chaotic evil",
+      "ac": 9,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "20 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "description": "A soul warped by the Abyss into a shambling demon. Manes swarm intruders and attack other creatures whenever they can.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft., passive Perception 9.",
+        "Languages": "Understands Abyssal. Cannot speak.",
+        "Defenses": "Resists cold, fire, and lightning. Immune to poison damage, Charmed, Frightened, and Poisoned.",
+        "Traits": "Reformation. The encounter lore says a slain manes dissolves into foul vapor and reforms after one day. Demon lords that consume one destroy it.",
+        "Actions": "Claws. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 5 (2d4) slashing damage.",
+        "Printed source": "Monster Manual (2014), pp. 53, 60."
+      }
+    }
+  },
+  {
+    "name": "Shadow Demon",
+    "pages": "pp. 54, 64",
+    "statBlock": {
+      "name": "Shadow Demon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 13,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "description": "A demon whose essence took shape as a shadow after it was denied a new body in the Abyss. It hunts from dark cover.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Stealth +7.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Defenses": "Vulnerable to radiant damage. Resists acid, fire, necrotic, thunder, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to cold, lightning, poison damage, Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, and Restrained.",
+        "Traits": "Incorporeal Movement. It can pass through objects and creatures as difficult terrain. If it ends its turn inside an object, it takes 5 (1d10) force damage.\nLight Sensitivity. While in bright light it has disadvantage on attack rolls and on sight-based Wisdom (Perception) checks.\nShadowy Nature. It needs no air, food, drink, or sleep.",
+        "Bonus actions": "Shadow Stealth. While in dim light or darkness, it can take the Hide action as a bonus action.",
+        "Actions": "Claws. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 10 (2d6 + 3) psychic damage, or 17 (4d6 + 3) psychic damage if the attack roll had advantage.",
+        "Printed source": "Monster Manual (2014), pp. 54, 64."
+      }
+    }
+  },
+  {
+    "name": "Spined Devil",
+    "pages": "p. 78",
+    "statBlock": {
+      "name": "Spined Devil",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Small fiend (devil), lawful evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "20 ft., fly 40 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "description": "A small horned devil that flies ahead of infernal forces to scout and harass their enemies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "Infernal, telepathy 120 ft.",
+        "Defenses": "Resists cold and bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered. Immune to fire, poison damage, and Poisoned.",
+        "Traits": "Devil’s Sight. Its darkvision works in magical darkness.\nFlyby. Flying out of a foe’s reach doesn’t provoke an opportunity attack.\nLimited Spines. It has twelve tail spines. Spines spent on attacks regrow by the end of a long rest.\nMagic Resistance. Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite and one Fork attack, or make two Tail Spine attacks.\nBite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 5 (2d4) slashing damage.\nFork. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 3 (1d6) piercing damage.\nTail Spine. Ranged weapon attack, +4 to hit, range 20/80 ft., one target. Hit 4 (1d4 + 2) piercing plus 3 (1d6) fire damage.",
+        "Printed source": "Monster Manual (2014), p. 78."
+      }
+    }
+  },
+  {
+    "name": "Yochlol",
+    "pages": "pp. 54, 65",
+    "statBlock": {
+      "name": "Yochlol",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (demon, shapechanger), chaotic evil",
+      "ac": 15,
+      "hp": 136,
+      "hitDice": "16d8 + 64",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "10",
+      "xp": 5900,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A handmaiden of Lolth that can approach as a drow or giant spider. Its true form is a column of yellow slime with one eye.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Skills": "Deception +10, Insight +6.",
+        "Senses": "Darkvision 120 ft., passive Perception 12.",
+        "Languages": "Abyssal, Elvish, Undercommon.",
+        "Defenses": "Resists cold, fire, lightning, and bludgeoning, piercing, and slashing from nonmagical attacks. Immune to poison damage and Poisoned.",
+        "Traits": "Shapechanger. As an action it can become a female drow, a giant spider, or return to its demon form. It keeps the same statistics and its gear keeps its shape. It returns to its true form on death.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nSpider Climb. It can climb difficult surfaces and ceilings without an ability check.\nWeb Walker. Webbing doesn’t restrict its movement.",
+        "Innate spellcasting": "Charisma, save DC 14. These spells require no material components.\nAt will. Detect Thoughts, Web.\n1/day. Dominate Person.",
+        "Actions": "Multiattack. Make two melee attacks.\nSlam (Bite in spider form). Melee weapon attack, +6 to hit, reach 5 ft. or 10 ft. in demon form, one target. Hit 5 (1d6 + 2) bludgeoning damage, or piercing in spider form, plus 21 (6d6) poison damage.\nMist Form. It and its gear become toxic mist until it returns to its true form. It reverts on death. In mist form it is Incapacitated and cannot speak. It can hover, fly 30 ft., and pass through any gap that isn’t airtight. It has advantage on Strength, Dexterity, and Constitution saves and is immune to nonmagical damage. It can enter and stop in a creature’s space. Each time that creature starts its turn sharing the space, it makes a DC 14 Constitution save or is Poisoned until its next turn starts. It remains Incapacitated while Poisoned in this way.",
+        "Optional summoning": "Summon Demon (1/day). Attempt to summon one yochlol with a 50 percent chance of success. It appears in an unoccupied space within 60 ft., serves as an ally, and cannot summon more demons. It remains for 1 minute, until either demon dies, or until the summoner dismisses it as an action.",
+        "Printed source": "Monster Manual (2014), pp. 54, 65."
+      }
+    }
+  }
+]

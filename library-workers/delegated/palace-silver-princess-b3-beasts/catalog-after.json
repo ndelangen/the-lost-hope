@@ -1,0 +1,304 @@
+[
+  {
+    "name": "Giant Marble Snake",
+    "version": {
+      "key": "792a11b07fbbbef97faccffb",
+      "publication": "Palace of the Silver Princess (orange cover)",
+      "edition": "Basic D&D",
+      "source": "https://web.archive.org/web/20030823060503/http://www.wizards.com/dnd/article.asp?x=dnd/dx20020121x7",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "8"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "150 ft. (50 ft.)"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–6"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Sunny high ground, rocky ledges, and ruined fortresses"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A giant milk-white snake with a gold mane of facial hair, long fangs, multifaceted eyes, and translucent patches that show veins."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Whistling charm · The snake whistles to draw a target to it. The target makes a save vs. Spell. The snake’s first successful strike against that target ends the charm. The bite is nonvenomous."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Room 29, ballroom · The snake hides in the suspended bell with 16 HP. Every creature that hears its whistle must save vs. Spell or be charmed."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–4 appearing. Saves as Fighter 3. Morale 8. Treasure type C. Neutral.",
+            "Jean Wells, Palace of the Silver Princess (orange cover, TSR, 1981), pp. 25 and 27."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Damage per attack": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Whistling charm · The snake whistles to draw a target to it. The target makes a save vs. Spell. The snake’s first successful strike against that target ends the charm. The bite is nonvenomous.": [
+          {
+            "start": 89,
+            "end": 94,
+            "target": {
+              "name": "Spell",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-6c64a42015e22ae66d568082",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#spell_xphb"
+              }
+            }
+          }
+        ],
+        "Room 29, ballroom · The snake hides in the suspended bell with 16 HP. Every creature that hears its whistle must save vs. Spell or be charmed.": [
+          {
+            "start": 122,
+            "end": 127,
+            "target": {
+              "name": "Spell",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-6c64a42015e22ae66d568082",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#spell_xphb"
+              }
+            }
+          },
+          {
+            "start": 134,
+            "end": 141,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "1–4 appearing. Saves as Fighter 3. Morale 8. Treasure type C. Neutral.": [
+          {
+            "start": 35,
+            "end": 41,
+            "target": {
+              "name": "Morale",
+              "group": "Variant rules",
+              "publication": "Dungeon Master's Guide (2014)",
+              "page": 273,
+              "local": {
+                "entry": "compendium-b0cb9b1376a2b7c81bb8b8f0",
+                "version": "DMG:273:https://5e.tools/variantrules.html#morale_dmg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Marble Snake": true,
+      "giant marble snake whistling": true
+    },
+    "hash": "6ee0099d443b4b3ed88548148999f3064925fe0f9ca9018ba24a80ca277ea58e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Giant Marmoset",
+    "version": {
+      "key": "207972e64eb961c71d9c4a6e",
+      "publication": "Palace of the Silver Princess (orange cover)",
+      "edition": "Basic D&D",
+      "source": "https://web.archive.org/web/20030823060503/http://www.wizards.com/dnd/article.asp?x=dnd/dx20020121x7",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "180 ft. (60 ft.)"
+        ],
+        [
+          "Attacks per round",
+          "4"
+        ],
+        [
+          "Damage per attack",
+          "1–6 / 1–6 / 1–8 / 1–4"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Jungle trees and cliffs"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A giant jungle monkey with a sharp, furry tail spike. The two Cell D guards are 8 feet tall when upright and have 12-foot tails."
+          ]
+        },
+        {
+          "title": "Attacks mechanics",
+          "lines": [
+            "Claws, bite, and tail spike · The printed damage sequence is 1–6, 1–6, 1–8, and 1–4. The marmoset uses the 1–4 tail spike on the ground. In the trees, it hangs by its tail and fights with its claws and bite.",
+            "Thrown stones · From cliffs the marmosets prefer to throw large stones at prey below. The entry gives no damage or range for the stones."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Room 32, Cell D · Two Chaotic guards with 10 HP each attack anyone who enters except Travis. The general profile lists Neutral."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "2–8 appearing. Saves as Fighter 3. Morale 8. Treasure type J. Neutral.",
+            "Jean Wells, Palace of the Silver Princess (orange cover, TSR, 1981), pp. 16 and 28."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Damage per attack": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Thrown stones · From cliffs the marmosets prefer to throw large stones at prey below. The entry gives no damage or range for the stones.": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Thrown",
+              "group": "Item properties",
+              "publication": "Player's Handbook (2014)",
+              "page": 147,
+              "local": {
+                "entry": "compendium-931b010a15f957da7410de75",
+                "version": "PHB:147:https://5e.tools/items.html"
+              }
+            }
+          }
+        ],
+        "2–8 appearing. Saves as Fighter 3. Morale 8. Treasure type J. Neutral.": [
+          {
+            "start": 35,
+            "end": 41,
+            "target": {
+              "name": "Morale",
+              "group": "Variant rules",
+              "publication": "Dungeon Master's Guide (2014)",
+              "page": 273,
+              "local": {
+                "entry": "compendium-b0cb9b1376a2b7c81bb8b8f0",
+                "version": "DMG:273:https://5e.tools/variantrules.html#morale_dmg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Marmoset": true,
+      "giant marmoset tail spike": true
+    },
+    "hash": "3145f02fc0a6fc62eb0c4e2ae6cd2e228d6ada2e92f0e43492191258aef101e9",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Young Amethyst Dragon",
+    "statBlock": {
+      "name": "Young Amethyst Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 161,
+      "classification": "Large dragon (gem), typically neutral",
+      "ac": 18,
+      "hp": 168,
+      "hitDice": "16d10 + 80",
+      "speed": "40 ft., fly 80 ft. (hover), swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This gem dragon moves easily between land and water. Its breath bends gravity and pins creatures in place.",
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 9,
+        "Wis": 6,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 12,
+        "Perception": 10,
+        "Persuasion": 8,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Force, psychic.",
+        "Condition immunities": "Frightened, prone.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft..",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Traits": "Amphibious. The dragon can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) slashing damage.\nSingularity Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 17 Strength save. On a failure, it takes 36 (8d8) force damage and its speed is 0 until the start of the dragon’s next turn. On a success, it takes half damage and keeps its speed.",
+        "Spellcasting (Psionics)": "As an action, cast one listed spell using Intelligence (spell save DC 16). No components are required.\n1/day each. Blink, Dispel Magic, Protection from Evil and Good, Sending.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 161. Customization on p. 34 and optional lair guidance on p. 65."
+      }
+    }
+  },
+  {
+    "name": "Young Crystal Dragon",
+    "statBlock": {
+      "name": "Young Crystal Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 172,
+      "classification": "Large dragon (gem), typically chaotic neutral",
+      "ac": 15,
+      "hp": 95,
+      "hitDice": "10d10 + 40",
+      "speed": "40 ft., burrow 20 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A luminous gem dragon whose radiant breath briefly shields it from further harm.",
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 7,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 8,
+        "Stealth": 7,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, radiant.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft..",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nScintillating Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 15 Constitution save, taking 27 (6d8) radiant damage on a failure or half on a success. The dragon then gains 10 temporary HP.",
+        "Spellcasting (Psionics)": "As an action, cast one listed spell using Intelligence (spell save DC 16). No components are required.\nAt will. Dancing Lights, Guidance.\n1/day each. Hypnotic Pattern, Lesser Restoration.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 172. Customization on p. 34 and optional lair guidance on p. 65."
+      }
+    }
+  },
+  {
+    "name": "Young Deep Dragon",
+    "statBlock": {
+      "name": "Young Deep Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 175,
+      "classification": "Large dragon, typically neutral evil",
+      "ac": 16,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This Underdark dragon breathes psychic spores that make intruders afraid to approach.",
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 6,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 5,
+        "Persuasion": 6,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Poison, psychic.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Blindsight 30 ft., darkvision 150 ft..",
+        "Languages": "Common, Draconic, Undercommon.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) piercing damage plus 3 (1d6) poison damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage.\nNightmare Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 14 Wisdom save. On a failure, it takes 22 (4d10) psychic damage and is frightened of the dragon for 1 minute. On a success, it takes half damage and is unaffected by the fear. An affected creature can repeat the save at the end of each of its turns, ending the fear on a success.",
+        "Optional innate spellcasting": "With the optional innate casting rule on pp. 34 and 107, use Charisma (spell save DC 14, +6 to hit with spell attacks). The young deep dragon’s suggested spells are Command, Dissonant Whispers, and Faerie Fire. Each is usable once per day without material components.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 175. Customization on p. 34 and optional lair guidance on p. 65. Optional spellcasting on p. 107."
+      }
+    }
+  },
+  {
+    "name": "Young Dragon Turtle",
+    "statBlock": {
+      "name": "Young Dragon Turtle",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 192,
+      "classification": "Huge dragon, typically neutral",
+      "ac": 19,
+      "hp": 178,
+      "hitDice": "17d12 + 68",
+      "speed": "20 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An aquatic dragon with a natural shell, an electrically charged bite, and a burst of scalding steam.",
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 8,
+        "Wis": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire.",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Aquan, Draconic.",
+        "Traits": "Amphibious. The dragon can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 11 (1d12 + 5) piercing damage plus 6 (1d12) lightning damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) slashing damage.\nSteam Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 16 Dexterity save, taking 42 (12d6) fire damage on a failure or half on a success. Being underwater grants no resistance to this fire damage.",
+        "Optional innate spellcasting": "With the optional innate casting rule on pp. 34 and 110, use Charisma (spell save DC 13, +5 to hit with spell attacks). The young dragon turtle’s suggested spell is Fog Cloud, usable once per day without material components.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions. The dragon turtle’s specific lair action list on p. 112 applies to adults and ancients.",
+        "Source notes": "Page 192 prints a Dexterity save for Steam Breath. Some digital references list Constitution instead.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 192. Customization on p. 34 and optional lair guidance on p. 65. Optional spellcasting on p. 110."
+      }
+    }
+  },
+  {
+    "name": "Young Emerald Dragon",
+    "statBlock": {
+      "name": "Young Emerald Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Large dragon (gem), typically lawful neutral",
+      "ac": 17,
+      "hp": 142,
+      "hitDice": "15d10 + 60",
+      "speed": "40 ft., burrow 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An emerald dragon can burrow through rock and distract enemies with illusions and psychic dissonance.",
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 7,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 6,
+        "Deception": 6,
+        "Perception": 8,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Fire, psychic.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft..",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Traits": "Tunneler. It can burrow through solid rock at half its burrowing speed, leaving a 10-ft.-diameter tunnel if it chooses.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) slashing damage.\nDisorienting Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 15 Intelligence save. On a failure, it takes 31 (9d6) psychic damage and subtracts 1d6 from each attack roll or ability check it makes through the end of its next turn. On a success, it takes half damage with no penalty to rolls.",
+        "Spellcasting (Psionics)": "As an action, cast one listed spell using Intelligence (spell save DC 14). No components are required.\nAt will. Mage Hand (invisible hand), Minor Illusion.\n1/day each. Detect Thoughts, Invisibility, Silent Image.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 197. Customization on p. 34 and optional lair guidance on p. 65."
+      }
+    }
+  },
+  {
+    "name": "Young Moonstone Dragon",
+    "statBlock": {
+      "name": "Young Moonstone Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Large dragon, typically neutral",
+      "ac": 18,
+      "hp": 144,
+      "hitDice": "17d10 + 51",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A moonstone dragon can put a whole group to sleep or strike with a beam of condensed moonlight.",
+      "savingThrows": {
+        "Con": 6,
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "skills": {
+        "Perception": 6,
+        "Persuasion": 7,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Charmed.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft..",
+        "Languages": "Common, Draconic, Sylvan.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 15 (2d10 + 4) piercing damage plus 5 (1d10) radiant damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage.\nBreath Weapon (Recharge 5–6). Choose either breath.\nDream Breath. Each creature in a 90-ft. cone makes a DC 14 Constitution save. On a failure, it falls unconscious for 10 minutes. Taking damage or being awakened by another creature using an action ends the effect.\nMoonlight Breath. Each creature in a 60-ft. line, 5 ft. wide, makes a DC 14 Dexterity save, taking 38 (7d10) radiant damage on a failure or half on a success.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 15). No material components are required.\n1/day each. Calm Emotions, Faerie Fire.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 213. Customization on p. 34 and optional lair guidance on p. 65."
+      }
+    }
+  },
+  {
+    "name": "Young Sapphire Dragon",
+    "statBlock": {
+      "name": "Young Sapphire Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 216,
+      "classification": "Large dragon (gem), typically lawful neutral",
+      "ac": 17,
+      "hp": 157,
+      "hitDice": "15d10 + 75",
+      "speed": "40 ft., burrow 20 ft., climb 40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This gem dragon can cling to ceilings and bore through rock. Its breath can incapacitate enemies with a pulse of sound.",
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 9,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "skills": {
+        "History": 7,
+        "Perception": 10,
+        "Persuasion": 11,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Lightning, thunder.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft..",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Traits": "Spider Climb. It can cross difficult surfaces and ceilings without an ability check.\nTunneler. It can burrow through solid rock at half its burrowing speed, leaving a 10-ft.-diameter tunnel if it chooses.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 16 (2d10 + 5) piercing damage plus 4 (1d8) thunder damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) slashing damage.\nDebilitating Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 17 Constitution save. On a failure, it takes 33 (6d10) thunder damage and is incapacitated until the end of its next turn. On a success, it takes half damage and can act normally.",
+        "Spellcasting (Psionics)": "As an action, cast one listed spell using Intelligence (spell save DC 15). No components are required.\n1/day each. Dissonant Whispers, Hold Person, Meld into Stone.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 216. Customization on p. 34 and optional lair guidance on p. 65."
+      }
+    }
+  },
+  {
+    "name": "Young Topaz Dragon",
+    "statBlock": {
+      "name": "Young Topaz Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 223,
+      "classification": "Large dragon (gem), typically chaotic neutral",
+      "ac": 17,
+      "hp": 127,
+      "hitDice": "17d10 + 34",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 18,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This amphibious gem dragon breathes necrotic energy that saps the strength of creatures caught in its path.",
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 5,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Intimidation": 9,
+        "Perception": 8,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, necrotic.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft..",
+        "Languages": "Common, Draconic, telepathy 120 ft..",
+        "Traits": "Amphibious. The dragon can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 14 (2d10 + 3) piercing damage plus 3 (1d6) necrotic damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nDesiccating Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 13 Constitution save. On a failure, it takes 28 (8d6) necrotic damage and is weakened through the end of its next turn. While weakened, it has disadvantage on Strength checks and saves, and its weapon attacks that use Strength deal half damage. On a success, it takes half damage and suffers no weakening.",
+        "Spellcasting (Psionics)": "As an action, cast one listed spell using Intelligence (spell save DC 14). No components are required.\n1/day each. Bane, Create or Destroy Water.",
+        "Optional dragon customization": "Page 34 allows the DM to adapt languages, skill or tool proficiencies, senses, and traits for an individual dragon. The stat block uses the listed defaults.",
+        "Optional lair guidance": "Page 65 lets a DM give a young dragon regional effects or lair actions. Consider smaller regions and lower DCs. Regional effects leave CR unchanged. Lair actions can raise it by 1 or more for a dragon without legendary actions.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 223. Customization on p. 34 and optional lair guidance on p. 65."
+      }
+    }
+  }
+]

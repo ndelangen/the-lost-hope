@@ -1,0 +1,794 @@
+[
+  {
+    "name": "Kappu",
+    "version": {
+      "key": "a5d8a5c4bfbf54098523398e",
+      "publication": "Humblewood: The Heart of Dako",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "13"
+        ],
+        [
+          "Hit dice",
+          "2d10 + 2"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 60 ft., swim 30 ft."
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ],
+        [
+          "XP",
+          "50"
+        ],
+        [
+          "Str",
+          "17"
+        ],
+        [
+          "Dex",
+          "12"
+        ],
+        [
+          "Con",
+          "12"
+        ],
+        [
+          "Int",
+          "4"
+        ],
+        [
+          "Wis",
+          "10"
+        ],
+        [
+          "Cha",
+          "6"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Marshy Tanglewilds rainforest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A stout, semiaquatic rodent large enough to ride, with a thick furry tail that helps it swim and balance."
+          ]
+        },
+        {
+          "title": "Skills",
+          "lines": [
+            "Perception +2"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · Melee Weapon Attack · +5 to hit · reach 5 ft. · 2d4 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Keen Hearing · Advantage on Wisdom (Perception) checks based on hearing."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Bite · +5 to hit · reach 5 ft. · One target takes 8 (2d4 + 3) piercing damage on a hit. · 2d4 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The original prints Perception +2 and passive Perception 10.",
+            "In the night travel encounter, a DC 14 Wisdom (Animal Handling) check can tame grazing kappu for riding. See p. 7.",
+            "The kappu refuse to cross the 5-ft.-wide Redroar River rope bridge in the p. 8 encounter. The Companions' mounts are too large to cross safely there.",
+            "Hit Point Press, The Heart of Dako, p. 24, and reference cards, p. 8."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Perception +2": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Bite · Melee Weapon Attack · +5 to hit · reach 5 ft. · 2d4 + 3 piercing": [
+          {
+            "start": 13,
+            "end": 26,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Keen Hearing · Advantage on Wisdom (Perception) checks based on hearing.": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 36,
+            "end": 46,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "The original prints Perception +2 and passive Perception 10.": [
+          {
+            "start": 20,
+            "end": 30,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 56,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "In the night travel encounter, a DC 14 Wisdom (Animal Handling) check can tame grazing kappu for riding. See p. 7.": [
+          {
+            "start": 47,
+            "end": 62,
+            "target": {
+              "name": "Animal Handling",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-a406aabd36e48d23cb9f5dbf",
+                "version": "PHB:178:https://5e.tools/skills.html#animal%20handling_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Kappu": true,
+      "kappu redroar river": true
+    },
+    "hash": "a2adf187767b0549d9e82d7fecce07c1d5de877b09b0123e5db9f22889d4db28",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Swarm of Tanglewasps",
+    "version": {
+      "key": "742fc8f4964f71257e398ee8",
+      "publication": "Humblewood: The Heart of Dako",
+      "edition": "2014 fifth edition compatible",
+      "source": "",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "22"
+        ],
+        [
+          "Hit dice",
+          "5d8"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Passive Perception",
+          "8"
+        ],
+        [
+          "XP",
+          "100"
+        ],
+        [
+          "Str",
+          "3"
+        ],
+        [
+          "Dex",
+          "13"
+        ],
+        [
+          "Con",
+          "10"
+        ],
+        [
+          "Int",
+          "1"
+        ],
+        [
+          "Wis",
+          "7"
+        ],
+        [
+          "Cha",
+          "1"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Tanglewilds rainforest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A swarm of tiny iridescent wasps with blue-green thoraxes and dark reddish abdomens. They cluster around a concealed hardened mud nest."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Blindsight 10 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "Bludgeoning",
+            "Piercing",
+            "Slashing",
+            "Fire"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "Charmed",
+            "Frightened",
+            "Grappled",
+            "Paralyzed",
+            "Petrified",
+            "Prone",
+            "Restrained",
+            "Stunned"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Sting · Melee Weapon Attack · +3 to hit · 4d4 poison"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Swarm · The swarm can share spaces with other creatures and move through a gap large enough for one Tiny insect. It cannot regain HP or gain temporary HP.",
+            "Wrong Step · The swarm surrounds a 1-ft. ball of hardened mud in a 5-ft. space. Spotting the concealed nest takes a DC 17 Wisdom (Perception) check. A creature that steps on the nest is grappled on a failed save (escape DC 14). The nest can grapple only one creature. While grappled, the creature takes 5 (2d4) poison damage at the start of each of its turns. Another creature within reach of the nest can spend an action to free it with a DC 14 Strength (Athletics) check. · DC 14 Strength · 2d4 poison (start of grappled target turn)"
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Sting · +3 to hit · One target in the swarm's space (0-ft. reach) takes 10 (4d4) poison damage on a hit, or 5 (2d4) when the swarm is at half HP or fewer. · 4d4 poison (above half HP) · 2d4 poison (half HP or fewer)"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "The stat block prints a single 30-ft. speed. The reference art depicts winged insects.",
+            "The night travel table on p. 7 calls for a DC 17 group Wisdom (Perception) check to avoid disturbing nests and provoking 2d6 swarms.",
+            "Hit Point Press, The Heart of Dako, p. 25, and reference cards, p. 10."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Blindsight 10 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Blindsight",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-07dd97e41872842acf1183db",
+                "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "Charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "Frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "Petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "Prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "Stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "Sting · Melee Weapon Attack · +3 to hit · 4d4 poison": [
+          {
+            "start": 14,
+            "end": 27,
+            "target": {
+              "name": "Weapon Attack",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 377,
+              "local": {
+                "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+              }
+            }
+          }
+        ],
+        "Wrong Step · The swarm surrounds a 1-ft. ball of hardened mud in a 5-ft. space. Spotting the concealed nest takes a DC 17 Wisdom (Perception) check. A creature that steps on the nest is grappled on a failed save (escape DC 14). The nest can grapple only one creature. While grappled, the creature takes 5 (2d4) poison damage at the start of each of its turns. Another creature within reach of the nest can spend an action to free it with a DC 14 Strength (Athletics) check. · DC 14 Strength · 2d4 poison (start of grappled target turn)": [
+          {
+            "start": 130,
+            "end": 140,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 186,
+            "end": 194,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "start": 274,
+            "end": 282,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          },
+          {
+            "start": 456,
+            "end": 465,
+            "target": {
+              "name": "Athletics",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 175,
+              "local": {
+                "entry": "compendium-4d6b054f7ceab43099a939e1",
+                "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+              }
+            }
+          },
+          {
+            "start": 514,
+            "end": 522,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "The night travel table on p. 7 calls for a DC 17 group Wisdom (Perception) check to avoid disturbing nests and provoking 2d6 swarms.": [
+          {
+            "start": 63,
+            "end": 73,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Swarm of Tanglewasps": true,
+      "wrong step hardened mud": true
+    },
+    "hash": "035c65f2060158b4563c1425eb84d1a0c451ce4fec004ba7eb432b4b3a98710b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

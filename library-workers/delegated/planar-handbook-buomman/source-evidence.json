@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Buomman",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        8,
+        9,
+        10
+      ],
+      "racialTraits": [
+        9,
+        10
+      ],
+      "illustration": 9,
+      "nonverbalSpell": [
+        40,
+        41
+      ]
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Steve Prescott, A buomman monk, p. 9.",
+    "sourceDistinctions": [
+      "The vow forbids speech and allows Buommi song. One violation deals Wisdom damage and applies a 24-hour penalty. Further violations damage Wisdom again and extend the penalty.",
+      "Nonverbal Spell substitutes a sound for verbal spell components and still fails in magical silence. Silent Spell removes the verbal component using a higher slot.",
+      "Both encounters are on the Material Plane, where the Astral-native Buomman has the Extraplanar subtype."
+    ],
+    "entryId": "species-c07c47cc07fc5ad1b1bce1f9",
+    "versionKey": "dcfc4b3ed8b4630f4b367628",
+    "slug": "buomman",
+    "portraitSelection": "generated",
+    "portraitForm": "Morrow, an original Buomman Monk",
+    "npcExamples": [
+      "Morrow",
+      "Lumen"
+    ]
+  }
+]

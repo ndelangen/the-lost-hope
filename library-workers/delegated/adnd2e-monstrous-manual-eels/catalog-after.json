@@ -1,0 +1,421 @@
+[
+  {
+    "name": "Electric Eel",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "32e3922628811e86cd53695d",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "9"
+        ],
+        [
+          "Hit dice",
+          "2"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 12"
+        ],
+        [
+          "THAC0",
+          "16"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–3"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Fresh water (summoning appendix)"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An elongated fish. The portrait uses a rounded body and blunt head based on freshwater electric eels. The printed combat entry gives no color or size."
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Electricity"
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Electrical discharge · The discharge reaches 15 feet. A target under 5 feet away takes 3d8, one 5 to 10 feet away takes 2d8, and one farther out within range takes 1d8. The eel recharges for an hour between discharges.",
+            "Electrical immunity · Electrical effects do not harm this eel."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–3 appearing. Unsteady (7) morale.",
+            "The ordinary Electric Eel appears in Fresh Water Monster Summoning II on p. 378. The Fish paragraph gives no further habitat detail.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Electric Eel": true,
+      "electric eel recharge 3d8 2d8 1d8": true,
+      "electric eel elongated blunt head": true,
+      "electric eel fresh water summoning": true
+    },
+    "hash": "877dcc7a924cb3d6153e1341fdb3387faad8fa1efd9eb9ef7de8f1a040faf96e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "32e3922628811e86cd53695d",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Giant Eel",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "75f1839f7fcaa3a2b7fe1721",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "5"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 9"
+        ],
+        [
+          "THAC0",
+          "15"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "3–18"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Aquatic habitat, salinity unspecified"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large, long-bodied eel with teeth. The portrait gives it a broad head and toothy jaws. The printed entry gives no measured length or coloration."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Fast bite · It attacks with its teeth for 3–18 damage and gets +1 to initiative rolls. The Fish prose explicitly says it has no electrical discharge."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–4 appearing. Average (8) morale.",
+            "The Fresh Water summoning table on p. 378 separately names an eel called “giant electric.” The entry gives no basis to use that name for this non-electric Giant Eel.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Eel": true,
+      "giant eel initiative bite electric": true,
+      "giant eel broad toothy jaws": true,
+      "giant eel aquatic salinity": true
+    },
+    "hash": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "75f1839f7fcaa3a2b7fe1721",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Marine Eel",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "c530347aa0eb0c8ab21b9fb4",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit dice",
+          "6–8"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 9"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2–8 / 3–12 / 4–16"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Salt water (summoning appendix)",
+            "Fresh water (summoning appendix)"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A long-bodied eel. The portrait uses a narrow moray-like head and mottled blue-gray skin. The book gives no measured length or coloration."
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "Electricity"
+          ]
+        },
+        {
+          "title": "Hit Dice variants mechanics",
+          "lines": [
+            "6 HD · THAC0 13, table damage 2–8, 420 XP.",
+            "7 HD · THAC0 13, table damage 3–12, 650 XP.",
+            "8 HD · THAC0 12, table damage 4–16, 975 XP."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Electrical discharge · The discharge reaches 15 feet. A target under 5 feet away takes 6d6, one 5 to 10 feet away takes 4d6, and one farther out within range takes 2d6. A failed save vs. paralyzation stuns the victim for a number of rounds equal to the damage received. The Marine Eel entry gives no recharge interval.",
+            "Electrical immunity · Electrical effects do not harm this eel."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1 appearing. Average (9) morale.",
+            "Both Salt Water and Fresh Water Monster Summoning VI list the Marine Eel. The numeric damage in its table row is separate from the discharge dice in its description.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Marine Eel": true,
+      "marine eel discharge paralyzation rounds damage": true,
+      "marine eel mottled blue gray head": true,
+      "marine eel salt water fresh water summoning": true
+    },
+    "hash": "913085c3e9e4bb47221c576b91d7454b089c75d48cdd81d74407148293d54078",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "c530347aa0eb0c8ab21b9fb4",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Weed Eel",
+    "kind": "beast",
+    "group": "Animal",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "7f6460c52059cfb259f6a699",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "8"
+        ],
+        [
+          "Hit dice",
+          "1−1"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "Sw 15"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1"
+        ],
+        [
+          "XP",
+          "120"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Fresh and salt water, 25 to 40 feet deep",
+            "Colony caves and connected tunnels"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A slender eel with a long tapering body in the portrait. The printed entry describes its narrow lair holes but gives no measured body length or color."
+          ]
+        },
+        {
+          "title": "Combat mechanics",
+          "lines": [
+            "Poison bite · The bite deals 1 damage. A victim who fails a save vs. poison dies in 1d4 rounds under the printed game rule."
+          ]
+        },
+        {
+          "title": "Lair mechanics",
+          "lines": [
+            "Colony tunnels · A central cave about 30 feet long and 20 feet wide and high connects to 6-foot-diameter tunnels and individual homes 6 to 8 inches across. The colony guards its young in the central cave.",
+            "Scavenged objects · The cave floor holds small stones, coins, and gems brought back by the eels."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "10–60 appearing. Unsteady (6) morale.",
+            "The table prints 1−1 Hit Dice.",
+            "Monstrous Manual, TSR 2140, January 1994 third printing, Fish pp. 117–118 and aquatic summoning p. 378."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Weed Eel": true,
+      "weed eel poison 1d4 colony tunnels": true,
+      "weed eel slender long tapering body": true,
+      "weed eel fresh salt water 25 to 40 feet": true
+    },
+    "hash": "7784b3be45fe16310df0eb7b161e478b16518895f65fa61d1df7e92d37e46cf7",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "7f6460c52059cfb259f6a699",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Avoral",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Fourteen-level avoral progression. Begins Medium with +2 Dexterity, +2 Wisdom, +2 Charisma, land speed 40 ft., darkvision 60 ft., and low-light vision. Spot has a +8 racial bonus and saves against poison have a +4 racial bonus. Automatic languages are Celestial, Draconic, and Infernal. Favored class avoral. Proficient with simple and martial weapons.",
+      "Level 1 grants +2 natural armor and resistance 5 each to acid, cold, and electricity. Flight begins at level 2 at 40 ft. with average maneuverability and reaches 90 ft. at level 6 and good maneuverability at level 10. Wing attacks start at level 2 at 1d8, increase to 2d6 at level 6, and reach 2d8 at level 11. Claws start at level 3 at 1d6, increase to 1d8 at level 7, and reach 2d6 at level 12.",
+      "Lesser powers start at level 2 with one use per power each day, rise to three uses at level 6, and become at will at level 9. They comprise aid, blur (self only), command, detect magic, light, magic missile, and see invisibility. Beginning at level 5, dimension door, dispel magic, gust of wind, hold person, lightning bolt, and magic circle against evil (self only) each work once per day. At level 9 these increase to three uses each and at level 14 they become at will, except dimension door stays once per day. Caster level equals avoral class Hit Dice and save DC is 10 + spell level + Charisma modifier.",
+      "Beginning at level 3, concentrate for 1 round to activate true seeing at cleric caster level 14. Maintain concentration for up to 1 minute total per day, 10 minutes at level 8, and without a daily limit at level 12. Round partial minutes up. Level 4 adds healing by touch up to the avoral's normal total HP each day, free-action animal telepathy, and continuous tongues. Animal telepathy uses class HD + 1 as caster level and tongues uses twice class HD.",
+      "Class ability increases are +2 Dexterity at levels 3 and 9, Strength at 4 and 10, Intelligence at 5 and 11, Wisdom at 6 and 12, Charisma at 7 and 13, and Constitution at 8.",
+      "Damage reduction begins at level 6 at 5/+1 and reaches 10/+1 at level 10. At level 7 the avoral can create a 20-ft. fear aura once per day as an 8th-level sorcerer's fear, DC 14 + Charisma modifier. At level 8 it becomes immune to electricity and petrification. At level 9 acid and cold resistance increase to 10. It finishes at 7d8, ECL 14, CR 9, BAB +7/+2, base saves +5 each, and +8 natural armor."
+    ]
+  },
+  {
+    "name": "Azer",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Six-level azer progression. Begins Medium with +2 Constitution, −2 Charisma, land speed 30 ft., darkvision 60 ft., Common and Ignan. Favored class azer. Proficient with simple and martial weapons, light and medium armor, and shields.",
+      "The fire subtype grants fire immunity and makes cold attacks deal double damage except on a successful save. Natural armor rises from +2 at level 1 to +4 at level 3 and +6 at level 5. Heat starts at level 2 and adds fire damage to unarmed attacks and metallic weapons. The original monster's weapon damage supplies the 1-point heat rider used here.",
+      "Level 4 grants spell resistance 13. The scheduled ability increases add +2 Strength at level 2, +2 Dexterity at level 4, +2 Intelligence at level 5, and +2 Wisdom at level 6. The progression ends at 2d8, ECL 6, CR 2, BAB +2, and base saves +3 each."
+    ]
+  },
+  {
+    "name": "Belker",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Twelve-level belker progression. Begins Medium with +2 Dexterity, −4 Intelligence, land speed 30 ft., darkvision 60 ft., and Auran. Favored class belker. Immune to poison, sleep, paralysis, stunning, and critical hits. Has no weapon, armor, or shield proficiencies.",
+      "Two primary wings deal 1d4 plus Strength and reach 1d6 at level 7. A secondary 1d3 bite starts at level 2 and becomes 1d4 at level 9. Two secondary 1d3 claws begin at level 4. Bite and claws add half the Strength bonus. Weapon Finesse for the wings is a level-5 bonus feat.",
+      "Perfect flight starts at level 3 at 30 ft., increases to 40 ft. at level 5 and 50 ft. at level 7. Level 3 also unlocks smoke form with 5 rounds/day, increasing by 5 rounds at levels 6, 9, and 12. Switch forms once per round as a free action. Fly at the tier's normal speed in smoke form. Follow 3.0 gaseous form with this speed and duration.",
+      "Level 8 unlocks smoke claws. While smoky, move over one creature smaller than the belker without provoking. On a failed Fortitude save, it inhales smoke and takes triple claw damage each round with a zero Strength modifier. It can repeat the save on subsequent rounds. Initial and repeat DC are 10 + half belker class HD + Constitution modifier.",
+      "Gain +2 Dexterity at levels 2, 4, 8 and 11, +2 Strength at 3 and 9, and +2 Constitution at 6. Natural armor reaches +1 at 1, +2 at 2, +3 at 4, +4 at 6, +5 at 8 and +8 at 10.",
+      "Level 10 grants Large size and 10-ft. reach. The progression ends at 7d8, ECL 12, CR 6, BAB +5, base saves +2/+5/+2, and +8 natural armor."
+    ]
+  },
+  {
+    "name": "Earth Elemental",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Thirteen-level earth elemental progression begins Small with +4 Strength, −2 Dexterity, −4 Intelligence, land speed 20 ft., darkvision 60 ft., and Terran. Favored class earth elemental. Immune to poison, sleep, paralysis, stunning, and critical hits. No weapon, armor, or shield proficiencies.",
+      "At level 1 gain earth movement, Power Attack as a bonus feat, earth mastery, and a 1d6 slam adding one and a half times the Strength bonus. The slam reaches 1d8 at level 5, 2d6 at 9, and 2d8 at 13. Earth mastery grants +1 on attacks and damage when both combatants touch ground, and imposes −4 against airborne or waterborne foes.",
+      "Level 2 unlocks Push, a bull rush that does not provoke. Earth mastery also modifies its opposed Strength check. Earth movement lets the elemental pass through earth and solid stone as easily as it walks on the surface. It cannot swim, although it can walk along the bed of a body of water.",
+      "Gain +2 Strength at levels 2, 4, 6, 8 and 10 and +2 Constitution at 3, 5, 7 and 11. Natural armor reaches +3 at 1, +5 at 4, +7 at 7, +9 at 10 and +10 at 13.",
+      "At level 4 it grows to Medium and at 12 to Large with 10-ft. reach. Size changes use the ordinary size modifiers and the progression's built-in ability and armor adjustments. Damage reduction begins at 9th level at 5/+1 and increases to 10/+1 at 12th. The class finishes at 8d8, ECL 13, CR 5, BAB +6/+1, base saves +6/+2/+2, and +10 natural armor."
+    ]
+  },
+  {
+    "name": "Ettercap",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Nine-level ettercap progression. Begins Medium with +4 Dexterity, −4 Intelligence, −2 Charisma, land and climb speeds 30 ft., darkvision 60 ft., low-light vision, and Common. Favored class ettercap. Gains +8 on Climb and can take 10 on Climb checks. In shadow, Hide and Spot gain a +4 racial bonus. No weapon, armor, or shield proficiencies.",
+      "Bite starts at 1d6 and advances to 1d8 at level 5 with full Strength bonus. The bite's initial and secondary poison each deal 1d4 Dexterity at level 1 and 1d6 at level 5. At level 8 the secondary damage reaches 2d6. Fortitude DC equals 10 + half class Hit Dice + Constitution modifier. Two 1d3 claws begin at level 2 with half Strength bonus.",
+      "At level 2 an ettercap can throw one web per day as a standard action, using the Monster Manual's netlike effect. Table A–15 puts the second daily use at level 4 and the class prose puts it at level 5. Both give four uses at level 7 and eight at level 9. The original Monster Manual also describes snare sheets, which are useful when preparing an encounter.",
+      "Gain +2 Constitution at level 3, +2 Wisdom at levels 4 and 8 and +2 Dexterity at level 6.",
+      "The progression ends at 5d8, ECL 9, CR 4, BAB +3, base saves +1/+1/+4, and +1 natural armor."
+    ]
+  }
+]

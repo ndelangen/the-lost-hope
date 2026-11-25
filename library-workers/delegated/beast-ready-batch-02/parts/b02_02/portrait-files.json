@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "baboon",
+    "file": "portraits/baboon.png",
+    "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "badger",
+    "file": "portraits/badger.png",
+    "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "crab",
+    "file": "portraits/crab.png",
+    "sha256": "69ff170a4280d382c521c0b2e631ef0563dad74e9046fc30929e8f992d5d5b8f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

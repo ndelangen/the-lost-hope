@@ -1,0 +1,52 @@
+{
+  "commit": "3696506afcc35d0650bae757ecee365ee32a486e",
+  "publication": "Eberron Campaign Setting (2004)",
+  "edition": "3.5 edition",
+  "playableSpeciesVersions": 1,
+  "fullNpcBuilds": 2,
+  "originalShiftingTraits": 6,
+  "approvedPortraitsReused": 1,
+  "defaultPreserved": {
+    "publication": "Eberron: Forge of the Artificer",
+    "version": "9bf9164545dae95a700ecdaa",
+    "thumbnail": {
+      "url": "",
+      "credit": "John Thack · Eberron: Forge of the Artificer"
+    },
+    "existingSpeciesVersions": 3,
+    "existingMonsterVersions": 1
+  },
+  "defaultRegressionReproduced": {
+    "publication": "Eberron Campaign Setting (2004)",
+    "thumbnail": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope",
+      "caption": "Iona Fernridge · Original Shifter NPC"
+    }
+  },
+  "testsPassed": 900,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/shifter-library-printings.jpg",
+  "browser": {
+    "name": "Shifter",
+    "species": "species-eafeb6ad20d21c0b52c44806",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Eberron Campaign Setting (2004)"
+    ],
+    "portraitSha256": "742b99f9636d1bdba9d082e3b83861c8bede901c22bb11a8e18440075507e233",
+    "caption": "Iona Fernridge · Original Shifter NPC",
+    "npcReceipts": [
+      {
+        "name": "Iona Fernridge",
+        "id": "npc-4bdb23ba73dd684774b02b51",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Dane Millward",
+        "id": "npc-918f6b549a50be4ca351fee4",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+}

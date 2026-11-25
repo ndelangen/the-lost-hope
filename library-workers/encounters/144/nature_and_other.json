@@ -1,0 +1,355 @@
+[
+  {
+    "name": "Needle Blight",
+    "pages": "p. 32",
+    "statBlock": {
+      "name": "Needle Blight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium plant, neutral evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "description": "A walking thicket that shoots needles. When it senses danger, it sends pollen on the wind to alert nearby needle blights.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Defenses": "Immune to Blinded and Deafened.",
+        "Senses": "Blindsight 60 ft. The blight is blind beyond that radius. Passive Perception 9.",
+        "Languages": "Understands Common but cannot speak.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) piercing damage.\nNeedles. Ranged weapon attack, +3 to hit, range 30/60 ft., one target. Hit 8 (2d6 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 32."
+      }
+    }
+  },
+  {
+    "name": "Vine Blight",
+    "pages": "p. 32",
+    "statBlock": {
+      "name": "Vine Blight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium plant, neutral evil",
+      "ac": 12,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "10 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "description": "A tangle of creeping vines that hides in the undergrowth and turns the surrounding plants against its prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Stealth +1.",
+        "Defenses": "Immune to Blinded and Deafened.",
+        "Senses": "Blindsight 60 ft. The blight is blind beyond that radius. Passive Perception 10.",
+        "Languages": "Common.",
+        "Traits": "False Appearance. A motionless vine blight looks just like a tangle of vines.",
+        "Actions": "Constrict. Melee weapon attack, +4 to hit, reach 10 ft., one target. Hit 9 (2d6 + 2) bludgeoning damage. A Large or smaller target is also Grappled (escape DC 12) and Restrained for the duration of the grapple. While that grapple lasts, the blight cannot use Constrict on another target.\nEntangling Plants (Recharge 5-6). Roots and vines fill a 15-ft. radius centered on the blight. They wither after 1 minute. Until then, the area is difficult terrain for creatures other than plants. When the plants appear, each creature the blight chooses in the area makes a DC 12 Strength save. On a failure, it is Restrained. As an action, a creature can make a DC 12 Strength check to free itself or an entangled creature within reach.",
+        "Printed source": "Monster Manual (2014), p. 32."
+      }
+    }
+  },
+  {
+    "name": "Sahuagin Baron",
+    "pages": "p. 264",
+    "statBlock": {
+      "name": "Sahuagin Baron",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large humanoid (sahuagin), lawful evil",
+      "ac": 16,
+      "hp": 76,
+      "hitDice": "9d10 + 27",
+      "speed": "30 ft., swim 50 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "description": "A four-armed sahuagin that rules an undersea domain, using sharks to support its raids.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Breastplate.",
+        "Skills": "Perception +7.",
+        "Senses": "Darkvision 120 ft., passive Perception 17.",
+        "Languages": "Sahuagin.",
+        "Traits": "Blood Frenzy. It has advantage on melee attack rolls against creatures below their hit point maximum.\nLimited Amphibiousness. It breathes air and water. Without submerging at least once every 4 hours, it begins to suffocate.\nShark Telepathy. It can give magical telepathic commands to any shark within 120 ft.",
+        "Actions": "Multiattack. Make one Bite and two attacks with Claws or Trident.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (2d4 + 4) piercing damage.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nTrident. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) when wielded in two hands in melee.",
+        "Printed source": "Monster Manual (2014), p. 264."
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 6,
+        "Int": 5,
+        "Wis": 4
+      }
+    }
+  },
+  {
+    "name": "Sahuagin Priestess",
+    "pages": "p. 264",
+    "statBlock": {
+      "name": "Sahuagin Priestess",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (sahuagin), lawful evil",
+      "ac": 12,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft., swim 40 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "A cleric of the shark god Sekolah who can command sharks and call up a spectral trident.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Perception +6, Religion +3.",
+        "Senses": "Darkvision 120 ft., passive Perception 16.",
+        "Languages": "Sahuagin.",
+        "Traits": "Blood Frenzy. It has advantage on melee attack rolls against creatures below their hit point maximum.\nLimited Amphibiousness. It breathes air and water. Without submerging at least once every 4 hours, it begins to suffocate.\nShark Telepathy. It can give magical telepathic commands to any shark within 120 ft.",
+        "Spellcasting": "6th-level cleric spellcasting. Wisdom, spell save DC 12, +4 to hit with spell attacks.\nAt will. Guidance, Thaumaturgy.\n1st level (4 slots). Bless, Detect Magic, Guiding Bolt.\n2nd level (3 slots). Hold Person, Spiritual Weapon (trident).\n3rd level (3 slots). Mass Healing Word, Tongues.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) piercing damage.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 3 (1d4 + 1) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 264."
+      }
+    }
+  },
+  {
+    "name": "Quaggoth",
+    "pages": "p. 256",
+    "statBlock": {
+      "name": "Quaggoth",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (quaggoth), chaotic neutral",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "description": "A pale Underdark climber that fights with its claws and grows more dangerous when wounded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Athletics +5.",
+        "Defenses": "Immune to poison damage and the Poisoned condition.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "Undercommon.",
+        "Traits": "Wounded Fury. At 10 HP or fewer, it has advantage on attack rolls. Each melee attack that hits deals an extra 7 (2d6) damage.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 256. Passive Perception follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Quaggoth Thonot",
+    "pages": "p. 256",
+    "statBlock": {
+      "name": "Quaggoth Thonot",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (quaggoth), chaotic neutral",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "description": "A quaggoth that becomes the keeper of tribal lore after developing psionic powers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Athletics +5.",
+        "Defenses": "Immune to poison damage and the Poisoned condition.",
+        "Senses": "Darkvision 120 ft., passive Perception 11.",
+        "Languages": "Undercommon.",
+        "Traits": "Wounded Fury. At 10 HP or fewer, it has advantage on attack rolls. Each melee attack that hits deals an extra 7 (2d6) damage.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.",
+        "Innate spellcasting": "Psionics. Wisdom, spell save DC 11. These spells require no components.\nAt will. Feather Fall, Mage Hand (invisible hand).\n1/day each. Cure Wounds, Enlarge/Reduce, Heat Metal.",
+        "Printed source": "Monster Manual (2014), p. 256. The printed thonot variant retains quaggoth statistics except for the listed challenge rating, XP, and psionics. Passive Perception follows the base quaggoth errata."
+      }
+    }
+  },
+  {
+    "name": "Troglodyte",
+    "pages": "p. 290",
+    "statBlock": {
+      "name": "Troglodyte",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (troglodyte), chaotic evil",
+      "ac": 11,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "description": "An Underdark hunter that blends into cave walls and leaves a sharp, clinging stench.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Skills": "Stealth +2.",
+        "Senses": "Darkvision 60 ft., passive Perception 10.",
+        "Languages": "Troglodyte.",
+        "Traits": "Chameleon Skin. It has advantage on Dexterity (Stealth) checks to hide.\nStench. When a creature other than a troglodyte starts its turn within 5 ft., it makes a DC 12 Constitution save. On a failure, it is Poisoned until the start of its next turn. On a success, it is immune to the Stench of every troglodyte for 1 hour.\nSunlight Sensitivity. In sunlight, it has disadvantage on attack rolls and on Wisdom (Perception) checks based on sight.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 290."
+      }
+    }
+  }
+]

@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mm4e-doppelganger-rogue-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Natural Humanoid (Shapechanger)",
+      "title": "Doppelganger courier liaison, Rogue 1",
+      "difficulty": "Level 1 skirmisher, 100 XP.",
+      "ac": 16,
+      "hp": 19,
+      "initiative": 3,
+      "speed": "6 squares",
+      "languages": "Common",
+      "senses": "Normal vision. Perception +1.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 11,
+        "INT": 15,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Bluff +10 (+30 when impersonating a seen individual with Change Shape)",
+        "Insight +3",
+        "Thievery +8"
+      ],
+      "traits": [
+        "Unaligned. Leather armor +2 and Dexterity +3. Fortitude 11, Reflex 16, Will 15. Bloodied 9. One healing surge, worth 4 HP.",
+        "First Strike grants combat advantage against creatures that have not acted yet when the encounter starts. Sneak Attack adds 2d6 to one eligible hit per round with the dagger against a target granting combat advantage.",
+        "Rogue Weapon Talent adds +1 to dagger attack rolls. The printed NPC class grants trained Thievery and Bluff is the second trained skill.",
+        "Change Shape is an at-will Polymorph minor action. Assume the appearance of a Medium humanoid, including an individual you have seen. Your statistics and equipment stay the same. The form lasts until you change it or die. Someone challenging your impersonation of an individual rolls Insight against your Bluff with a +20 bonus to your roll."
+      ],
+      "actions": [
+        "Dagger basic attack (at-will, standard). Melee 1 +5 vs. AC for 1d4+1, or ranged 5/10 +8 vs. AC for 1d4+4.",
+        "Sly Flourish (at-will, standard). Dagger melee or ranged 5/10, +8 vs. AC for 1d4+7.",
+        "Dazing Strike (encounter, standard). Dagger melee 1, +8 vs. AC for 1d4+4 and dazed until the end of Vessa’s next turn.",
+        "Easy Target (daily, standard). Dagger melee or ranged 5/10, +8 vs. AC for 2d4+4. The target is slowed and grants Vessa combat advantage, with one save ending both. On a miss, half damage and grants Vessa combat advantage until the end of Vessa’s next turn.",
+        "Second wind (encounter, standard). Spend the one healing surge to regain 4 HP. All defenses gain +2 until the start of Vessa’s next turn."
+      ],
+      "tactics": "Vessa borrows a familiar face to carry a reply through the gallery. If recognized, they use Dazing Strike to open a route to the stairs."
+    },
+    {
+      "id": "mm4e-githyanki-warlord-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Natural Humanoid",
+      "title": "Githyanki crossing scout, Warlord 1",
+      "difficulty": "Level 1 soldier (leader), 100 XP.",
+      "ac": 17,
+      "hp": 23,
+      "initiative": 4,
+      "speed": "5 squares in chainmail, base 6",
+      "languages": "Common, Deep Speech",
+      "senses": "Normal vision. Perception +0.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 10,
+        "CON": 15,
+        "INT": 16,
+        "WIS": 11,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +7",
+        "History +10"
+      ],
+      "traits": [
+        "Unaligned. Chainmail +6 with −1 speed and −1 armor check penalty. Fortitude 15, Reflex 14, Will 14. Bloodied 11. One healing surge, worth 5 HP.",
+        "Gain +2 on saves against charm effects. Danger Sense +2 and Combat Leader +2 are included in initiative. Allies within 10 squares who see and hear Kareth gain +2 power bonus to initiative."
+      ],
+      "actions": [
+        "Longsword basic attack (at-will, standard). Melee 1, +7 vs. AC for 1d8+4. Wielded in one hand.",
+        "Wolf Pack Tactics (at-will, standard). Before attacking, one ally adjacent to Kareth or the target can shift 1 square as a free action. Melee 1, +7 vs. AC for 1d8+4.",
+        "Guarding Attack (encounter, standard). Melee 1, +7 vs. AC for 2d8+4. One ally adjacent to Kareth or the target gains +2 power bonus to AC against the target’s attacks until the end of Kareth’s next turn.",
+        "Bastion of Defense (daily, standard). Melee 1, +7 vs. AC for 3d8+4 on a hit. On a hit, allies within 5 squares gain +1 power bonus to all defenses for the encounter. Hit or miss, allies within 5 squares gain 6 temporary HP.",
+        "Inspiring Word (minor, close burst 5). Self or one ally can spend a healing surge and regain an additional 1d6 HP. Twice per encounter and once per round.",
+        "Telekinetic Leap is an encounter move action at range 10. You or one ally can fly up to 5 squares. If you choose an ally, they must stay in your line of sight throughout the flight.",
+        "Second wind (encounter, standard). Spend the one healing surge to regain 5 HP. All defenses gain +2 until the start of Kareth’s next turn."
+      ],
+      "tactics": "Kareth uses the leap on an ally who can see the far bank, then keeps that ally in sight throughout the crossing."
+    },
+    {
+      "id": "mm4e-gnoll-ranger-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Natural Humanoid",
+      "title": "Gnoll outrider, Ranger 1",
+      "difficulty": "Level 1 skirmisher, 100 XP.",
+      "ac": 17,
+      "hp": 23,
+      "initiative": 4,
+      "speed": "7 squares",
+      "languages": "Abyssal, Common",
+      "senses": "Low-light vision. Perception +6.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 18,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Intimidate +2",
+        "Nature +6",
+        "Perception +6"
+      ],
+      "traits": [
+        "Unaligned. Leather armor +2 and Dexterity +4. Fortitude 14, Reflex 16, Will 12. Bloodied 11. One healing surge, worth 5 HP.",
+        "Archer Fighting Style gives Defensive Mobility, granting +2 AC against opportunity attacks. Hunter’s Quarry designates the nearest visible foe as a minor action. Once per round a hit against that foe can deal 1d6 extra damage.",
+        "Blood Fury adds 2 to damage rolls while you are bloodied, or 4 at level 21."
+      ],
+      "actions": [
+        "Handaxe basic attack (at-will, standard). Melee 1, +5 vs. AC for 1d6+3. Longbow basic attack at range 20/40 is +7 vs. AC for 1d10+5.",
+        "Nimble Strike (at-will, standard). Shift 1 square before or after a longbow attack at range 20/40. +7 vs. AC for 1d10+5.",
+        "Two-Fanged Strike (encounter, standard). Two longbow attacks against one creature at range 20/40. Each is +7 vs. AC for 1d10+5. If both hit, deal 1 additional damage.",
+        "Hunter’s Bear Trap (daily, standard). Range 20/40, +7 vs. AC for 2d10+5, and the target is slowed and takes ongoing 5 damage (one save ends both). On a miss, half damage and slowed until the end of Rasha’s next turn.",
+        "Ferocious Charge (encounter, standard). With the handaxe ready, charge up to speed under the normal charge rules. +6 vs. AC for 1d6+5. If bloodied, damage is 1d6+7 before Hunter’s Quarry.",
+        "Second wind (encounter, standard). Spend the one healing surge to regain 5 HP. All defenses gain +2 until the start of Rasha’s next turn."
+      ],
+      "tactics": "Rasha starts at bow range. When a foe closes and leaves a charge lane, Rasha puts the bow aside and presses through that gap with the handaxe."
+    },
+    {
+      "id": "mm4e-kobold-rogue-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Small",
+      "type": "Natural Humanoid (Reptile)",
+      "title": "Kobold switchback guide, Rogue 1",
+      "difficulty": "Level 1 skirmisher, 100 XP.",
+      "ac": 17,
+      "hp": 24,
+      "initiative": 4,
+      "speed": "6 squares",
+      "languages": "Common, Draconic",
+      "senses": "Normal vision. Perception +1.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 18,
+        "CON": 16,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "skills": [
+        "Stealth +11",
+        "Thievery +11"
+      ],
+      "traits": [
+        "Unaligned. Leather armor +2 and Dexterity +4. Fortitude 14, Reflex 17, Will 12. Bloodied 12. One healing surge, worth 6 HP.",
+        "Trap Sense raises AC to 19, Fortitude to 16, Reflex to 19, and Will to 14 against traps.",
+        "First Strike grants combat advantage against creatures that have not acted yet when the encounter starts. Sneak Attack adds 2d6 to one eligible hit per round with the dagger against a target granting combat advantage.",
+        "Rogue Weapon Talent adds +1 to dagger attack rolls."
+      ],
+      "actions": [
+        "Dagger basic attack (at-will, standard). Melee 1 +5 vs. AC for 1d4+1, or ranged 5/10 +9 vs. AC for 1d4+5.",
+        "Deft Strike (at-will, standard). May move 2 squares before a dagger attack. Melee or ranged 5/10, +9 vs. AC for 1d4+5.",
+        "King’s Castle (encounter, standard). Melee or ranged 5/10, +9 vs. Reflex for 2d4+5 on a hit. Hit or miss, switch places with a willing adjacent ally.",
+        "Trick Strike (daily, standard). Melee or ranged 5/10, +9 vs. AC for 3d4+5 and slide the target 1 square on a hit. The target can also be slid 1 square each time Nik hits it for the rest of the encounter.",
+        "Shifty is an at-will personal minor action that lets you shift 1 square.",
+        "Second wind (encounter, standard). Spend the one healing surge to regain 6 HP. All defenses gain +2 until the start of Nik’s next turn."
+      ],
+      "tactics": "Nik points out the exposed shortcut, then uses Shifty to clear the doorway and make room for the party."
+    },
+    {
+      "id": "mm4e-warforged-fighter-1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Natural Humanoid (Living Construct)",
+      "title": "Warforged doorholder, Fighter 1",
+      "difficulty": "Level 1 soldier, 100 XP.",
+      "ac": 20,
+      "hp": 24,
+      "initiative": 1,
+      "speed": "5 squares in scale, base 6",
+      "languages": "Common",
+      "senses": "Normal vision. Perception +1.",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 13,
+        "CON": 16,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +7",
+        "Endurance +8"
+      ],
+      "traits": [
+        "Unaligned. Scale +7 and heavy shield +2, with −1 speed and combined −2 armor check penalty. Fortitude 17, Reflex 14, Will 12. Bloodied 12. One healing surge, worth 6 HP.",
+        "Combat Challenge marks any creature Brasswake attacks until the end of Brasswake’s next turn. A marked creature takes −2 to attacks that exclude Brasswake. When an adjacent enemy marked by Brasswake shifts or attacks without including them, Brasswake can make a melee basic attack as an immediate interrupt.",
+        "Living Construct gives +2 on saves against ongoing damage. You can rest for 4 hours for an extended rest. You do not need to eat, drink, or breathe. On a death saving throw, you can take 10 if it is better than your roll."
+      ],
+      "actions": [
+        "Longsword basic attack (at-will, standard). Melee 1, +8 vs. AC for 1d8+5. Wielded in one hand.",
+        "Tide of Iron (at-will, standard). Melee 1, +8 vs. AC for 1d8+5. With the shield equipped, on a hit push a target of Large size or smaller 1 square and optionally shift into its old square.",
+        "Passing Attack (encounter, standard). Melee 1, +8 vs. AC for 1d8+5. On a hit, may shift 1 square and make a secondary attack at +10 vs. AC for 1d8+5 against a different target.",
+        "Villain’s Menace (daily, standard). Melee 1, +8 vs. AC for 2d8+5 and gain +2 to attacks and +4 to damage against that target for the encounter. A miss grants +1 to attacks and +2 to damage against that target.",
+        "Warforged Resolve (encounter, minor). While bloodied, gain 3 temporary HP.",
+        "Second wind (encounter, standard). Spend the one healing surge to regain 6 HP. All defenses gain +2 until the start of Brasswake’s next turn."
+      ],
+      "tactics": "Brasswake holds the narrower door. When pressed, they push the nearest foe away with Tide of Iron and use Warforged Resolve while bloodied."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Doppelganger",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Vessa Hallow",
+      "build": "mm4e-doppelganger-rogue-1",
+      "role": "Courier liaison and impersonator.",
+      "motive": "Find out who has been intercepting replies on the gallery route.",
+      "hook": "The courier asks you to return a letter using the upstairs exit. Their face looks familiar, but their coat clasp is the wrong color."
+    },
+    {
+      "species": "Githyanki",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Kareth Venn",
+      "build": "mm4e-githyanki-warlord-1",
+      "role": "Gap-crossing scout and Warlord.",
+      "motive": "Reach the far bank without losing sight of the party.",
+      "hook": "Kareth has a route over the gap if someone trusts her to get them to the other side."
+    },
+    {
+      "species": "Gnoll",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Rasha Longstride",
+      "build": "mm4e-gnoll-ranger-1",
+      "role": "Outrider who switches from archery to a charge.",
+      "motive": "Check the boundary trail before the pack comes through.",
+      "hook": "Rasha finds a broken trail marker and offers to trade what she knows for news of the next ridge."
+    },
+    {
+      "species": "Kobold",
+      "size": "Small",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Nik Coppernotch",
+      "build": "mm4e-kobold-rogue-1",
+      "role": "Switchback guide and trap scout.",
+      "motive": "Get the party around a tunnel trip plate and into the open.",
+      "hook": "Nik fits a wedge to the edge of the plate and asks the party to watch for movement above."
+    },
+    {
+      "species": "Warforged",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Brasswake",
+      "build": "mm4e-warforged-fighter-1",
+      "role": "Doorholder and shield fighter.",
+      "motive": "Keep the gate open until the last travelers are through.",
+      "hook": "Brasswake plants their shield in the doorway and calls for the party to move first."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Tiger",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+      "Medium Beast with +2 Strength, +1 Dexterity, 40-ft. walk, and 60-ft. darkvision. Advantage on Wisdom (Perception) checks relying on smell. Speaks, reads and writes Common.",
+      "Bite and Claw. An unarmed hit has a 1d8 base die and deals piercing or slashing. Strength or Dexterity can govern the attack and damage rolls. Both strikes count as finesse weapons for effects such as Sneak Attack.",
+      "Pounce. Move at least 20 ft. in a straight line toward a target and hit that same turn with an unarmed strike. The tiger can then spend its bonus action to attempt a shove to knock that creature prone.",
+      "No Hands. Cannot wield weapons, use shields, or use tools, foci, or other items requiring manipulation.",
+      "Saber-Toothed Tiger shares this player block by the p. 262 cross-reference."
+    ]
+  },
+  {
+    "name": "Weasel",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+      "Tiny Beast with +2 Dexterity, +1 Wisdom, and a 30-ft. walk. Advantage on Wisdom (Perception) checks relying on hearing or smell. Speaks, reads and writes Common.",
+      "Bite. An unarmed hit uses a 1d4 piercing die. Choose Strength or Dexterity for both rolls. The bite counts as a finesse weapon for any effect requiring one.",
+      "No Hands. Cannot wield weapons, use shields, or manipulate items such as tools and foci. Under the supplement’s Tiny rules, fitted armor weighs a quarter of normal, and lifting and carrying capacity is one quarter of a Medium creature with the same Strength. The racial bite keeps its printed die."
+    ]
+  },
+  {
+    "name": "Winter Wolf",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+      "Medium Monstrosity with +1 Strength, +1 Constitution, and 40-ft. walk. Speaks, reads and writes Common, Giant, and Winter Wolf.",
+      "The bite is a 1d8 piercing unarmed strike. Natural armor gives unarmored AC 12 + Dexterity modifier. Advantage on smell- or hearing-based Wisdom (Perception) and Dexterity (Stealth) checks to hide in snow.",
+      "Cold Breath. Action. Each creature in a 15-ft. cone makes a Dexterity save against 8 + proficiency bonus + Constitution modifier. On a failure take 2d6 cold damage, halved on success. Damage is 3d6 at level 6, 4d6 at 11, and 5d6 at 16. Once per short or long rest.",
+      "Trip. After an unarmed hit, spend a bonus action to attempt a shove to knock the target prone.",
+      "No Hands. Cannot wield weapons, use shields, or use objects requiring manipulation."
+    ]
+  },
+  {
+    "name": "Wolf",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+      "Medium Beast with +1 Dexterity and 40-ft. walk. Unarmored natural AC is 11 + Dexterity modifier. Advantage on Wisdom (Perception) checks using hearing or smell. Speaks, reads and writes Common.",
+      "Pack Tactics. As a bonus action, gain advantage on the next attack roll that turn against a creature with a non-incapacitated ally of the wolf within 5 ft. of it.",
+      "Trip. After hitting with an unarmed strike, spend a bonus action to attempt a shove to knock the target prone. Trip and Pack Tactics each use the bonus action.",
+      "Dire Wolf uses this same player block by the p. 229 cross-reference."
+    ]
+  },
+  {
+    "name": "Worg",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+      "Medium Monstrosity with +2 Strength, +1 Constitution, 40-ft. walk, and 60-ft. darkvision. Speaks, reads and writes Goblin and Worg.",
+      "Natural armor gives unarmored AC 12 + Dexterity modifier. Advantage on Wisdom (Perception) checks relying on hearing or smell.",
+      "Trip. After an unarmed hit, spend a bonus action to attempt a shove to knock the target prone.",
+      "No Hands. Cannot wield weapons, use shields, or use items that require manipulation."
+    ]
+  }
+]

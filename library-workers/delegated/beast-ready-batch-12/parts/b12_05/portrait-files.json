@@ -1,0 +1,10 @@
+[
+  {
+    "artGroup": "seal",
+    "file": "portraits/seal.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

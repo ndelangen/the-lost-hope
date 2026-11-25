@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Addazahr (Backbiter)",
+    "file": "",
+    "selection": "generated",
+    "sha256": "8cbae15fbe6b8cb77922af369b5c1ac2ce0caa49557fa3f1bf04a1ebcc232d5b",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Electric Eel",
+    "file": "",
+    "selection": "generated",
+    "sha256": "ae6e5ab0afba88275802c6e4f1451b272b9ab7e78a0bd0fa2b8e4fbfc52faabf",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Shark",
+    "file": "",
+    "selection": "reuse",
+    "sha256": "802eb1f7d0780cfdae404f354e0dbc36283458b6260c77027b4eb6e167a26179",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Shark",
+    "file": "",
+    "selection": "generated",
+    "sha256": "0530ca2b868e9110ca7b33a850b86b1e8a1b92d92fd62faa4ad1b5ada029a6bb",
+    "width": 1254,
+    "height": 1254
+  }
+]

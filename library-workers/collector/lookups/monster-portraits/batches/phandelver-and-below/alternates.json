@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Aberrant Zealot (Variant)",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/aberrant-zealot/pabtso-1.webp",
+    "artist": "Related Aberrant Zealot illustration",
+    "kind": "illustration",
+    "sha256": "480e4cc376d7ab9b66b6f01835f4efe6b2206f75834c7fe42a6a784771d96da2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/PaBTSO/Aberrant%20Zealot.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Aberrant Zealot (Variant)",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/aberrant-zealot-tentacled/pabtso-1.webp",
+    "artist": "Related tentacled Aberrant Zealot token",
+    "kind": "token",
+    "sha256": "b3f9faf4cadc9cab8f8b9c7986689f4ab01f15856a63b3b00086cc33eebf2789",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/PaBTSO/Aberrant%20Zealot%20%28Tentacled%29.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Iarno \"Glasstaff\" Albrek",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/iarno-glasstaff-albrek/pabtso-1.webp",
+    "artist": "Original Glasstaff illustration",
+    "kind": "illustration",
+    "sha256": "9ad284ed984f5c64da32df79fdbb9159253db740306986e466ce9f6cf95210fd",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/PaBTSO/Iarno%20Glasstaff%20Albrek.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Iarno “Glasstaff” Albrek",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/iarno-glasstaff-albrek/pabtso-1.webp",
+    "artist": "Phandelver and Below: The Shattered Obelisk",
+    "kind": "illustration",
+    "sha256": "9ad284ed984f5c64da32df79fdbb9159253db740306986e466ce9f6cf95210fd",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/PaBTSO/Iarno%20Glasstaff%20Albrek.webp"
+  }
+]

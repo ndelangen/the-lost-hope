@@ -1,0 +1,110 @@
+{
+  "Aurumach Rilmani": {
+    "sha256": "5e1395ba92bfeada6309786de694da34e438980ea8e78e35e6d665708d4d056b",
+    "path": "assets/images/content/dm-library/encounters-09/aurumach-rilmani.png"
+  },
+  "Avoral Guardinal": {
+    "sha256": "1a927a70f29e50c76c5577eb3e3a7f87d34c2d29bb574dd41f9cedad8c1e4be7",
+    "path": "assets/images/content/dm-library/encounters-09/avoral-guardinal.png"
+  },
+  "Baernaloth": {
+    "sha256": "e25b0dde4705afceee81a30b9ea9058b326cf97b81f697c8ac28f14160f370fe",
+    "path": "assets/images/content/dm-library/encounters-09/baernaloth.png"
+  },
+  "Bleak Cabal Void Soother": {
+    "sha256": "8749bbf709761565c5074f4f4e969869da1615b8005bff14c6d18d75ca834b98",
+    "path": "assets/images/content/dm-library/encounters-09/bleak-cabal-void-soother.png"
+  },
+  "Cranium Rat Squeaker Swarm": {
+    "sha256": "e73cdd7e2dd79ecc74646e0143d726baf1088d3b97afbd84088c623d41399ad6",
+    "path": "assets/images/content/dm-library/encounters-09/cranium-rat-squeaker-swarm.png"
+  },
+  "Cuprilach Rilmani": {
+    "sha256": "09a509c0bf4932abe3f46335a0d73da83f2c23e2611e58f877d31c53c3dbac65",
+    "path": "assets/images/content/dm-library/encounters-09/cuprilach-rilmani.png"
+  },
+  "Darkweaver": {
+    "sha256": "e4b0e73fd8293cef26c04acf785d4a6ee4f979fcb18b3d8a87f9d06cbf36d041",
+    "path": "assets/images/content/dm-library/encounters-09/darkweaver.png"
+  },
+  "Decaton Modron": {
+    "sha256": "fcb68c18b434bc36098b4230941ad894138b277b072e7c1f56b36c7e45927dc9",
+    "path": "assets/images/content/dm-library/encounters-09/decaton-modron.png"
+  },
+  "Doomguard Doom Lord": {
+    "sha256": "71705cc679ef1ab8ebc4bef787f2b09e63ac3957674170286bbb5a9d57056e49",
+    "path": "assets/images/content/dm-library/encounters-09/doomguard-doom-lord.png"
+  },
+  "Doomguard Rot Blade": {
+    "sha256": "5da2c9181bbfefb66d8d8807c7b4cfea1716c5ddc0bf0c2dd83cfda1d3f00bb4",
+    "path": "assets/images/content/dm-library/encounters-09/doomguard-rot-blade.png"
+  },
+  "Eater of Knowledge": {
+    "sha256": "5c8ff06a936a9176bb28de109514ac83b891b518dd6701ee790ae75513394709",
+    "path": "assets/images/content/dm-library/encounters-09/eater-of-knowledge.png"
+  },
+  "Equinal Guardinal": {
+    "sha256": "efe2aa9e6c32234c8d099cbccd9256ee8cfccff2a0a2b1a657aca672f9e31873",
+    "path": "assets/images/content/dm-library/encounters-09/equinal-guardinal.png"
+  },
+  "Farastu Demodand": {
+    "sha256": "75ee2fc32f0e4edd64e42ff39ce4adb6eb0bc67a944a9c428667fd23cc93ce1b",
+    "path": "assets/images/content/dm-library/encounters-09/farastu-demodand.png"
+  },
+  "Fated Shaker": {
+    "sha256": "dd34d0161128a7cedf2b7e9b1a9eb01e008d29dd866e9663d993fee9d4a06efb",
+    "path": "assets/images/content/dm-library/encounters-09/fated-shaker.png"
+  },
+  "Ferrumach Rilmani": {
+    "sha256": "f87148dbc22cb91da116ab8b0037e0c6d034fe577333877c77a4650bf5207bfa",
+    "path": "assets/images/content/dm-library/encounters-09/ferrumach-rilmani.png"
+  },
+  "Fraternity of Order Law Bender": {
+    "sha256": "7ca21d10168f73d937e224b72d802294eb577468036a0c11628f9d2f85491d88",
+    "path": "assets/images/content/dm-library/encounters-09/fraternity-of-order-law-bender.png"
+  },
+  "Githzerai Futurist": {
+    "sha256": "8168a3cdeadf5ca8c9d61110a254711719eca4f4c26c50462bfb2fa80dd00306",
+    "path": "assets/images/content/dm-library/encounters-09/githzerai-futurist.png"
+  },
+  "Githzerai Traveler": {
+    "sha256": "7d492cb08705514b06789838cdc277c8885880517ef8346eacef20de47992e34",
+    "path": "assets/images/content/dm-library/encounters-09/githzerai-traveler.png"
+  },
+  "Githzerai Uniter": {
+    "sha256": "c7d194ea76244cdac8d152d77b58cf7cff0f436f20cc615c87b6bdf93a5910e9",
+    "path": "assets/images/content/dm-library/encounters-09/githzerai-uniter.png"
+  },
+  "Hands of Havoc Fire Starter": {
+    "sha256": "22eedbf4cf34bf4436b7b8de9c118c3772a74dfd1a3cd3ae330d4723e642b36c",
+    "path": "assets/images/content/dm-library/encounters-09/hands-of-havoc-fire-starter.png"
+  },
+  "Harmonium Captain": {
+    "sha256": "46409ce7e8fabd0a4b1c0b3413c01bbe4bca477ecfb6e23cd6854acd4541784f",
+    "path": "assets/images/content/dm-library/encounters-09/harmonium-captain.png"
+  },
+  "Harmonium Peacekeeper": {
+    "sha256": "12cce2af58459558dfc5e2825f8df97dee5e67fa630ee4f4074ee1cc4f0d44c2",
+    "path": "assets/images/content/dm-library/encounters-09/harmonium-peacekeeper.png"
+  },
+  "Heralds of Dust Remnant": {
+    "sha256": "931f274a0fcf697dc453846f5d202f90885e5de89f9b4d824f47e22fd910dfcc",
+    "path": "assets/images/content/dm-library/encounters-09/heralds-of-dust-remnant.png"
+  },
+  "Hexton Modron": {
+    "sha256": "01b1ddd6b89c24671109645de3e11f1866f80e7bf0a28dfaa1c6a6d5f3e48125",
+    "path": "assets/images/content/dm-library/encounters-09/hexton-modron.png"
+  },
+  "Hound Archon": {
+    "sha256": "c6dc5fd709673c8e6f98708eb08d6febadc8dc3602d7d78820c13f41057d1588",
+    "path": "assets/images/content/dm-library/encounters-09/hound-archon.png"
+  },
+  "Kelubar Demodand": {
+    "sha256": "f1653af3e7c42499636fa6a22c51c796630a63f720125441ead48b56e7cf90cd",
+    "path": "assets/images/content/dm-library/encounters-09/kelubar-demodand.png"
+  },
+  "Kolyarut": {
+    "sha256": "6357e7b1b0d12eed8f5f7a4c9692811f811b58973ccfad0bf64c9ef853a046fd",
+    "path": "assets/images/content/dm-library/encounters-09/kolyarut.png"
+  }
+}

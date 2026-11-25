@@ -1,0 +1,26 @@
+{
+  "commit": "b6cbe29bdcfacdb72746e7f36ff86cbd0134f9cf",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 623,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-63-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/63/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Brandbearer",
+      "source": "https://www.dndbeyond.com/monsters/4485882-hobgoblin-brandbearer",
+      "challenge": "5"
+    },
+    {
+      "name": "Hobgoblin Incendiarist",
+      "source": "https://www.dndbeyond.com/monsters/4485885-hobgoblin-incendiarist",
+      "challenge": "1"
+    }
+  ],
+  "nextSourceNote": "Both final profiles remain uncovered. Verify Brandbearer group attack and distinguish the Incendiarist’s role from the War Mage and Firerunner."
+}

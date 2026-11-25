@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Bloodroot",
+    "decision": "separate",
+    "pages": "pp. 159–160",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Bloodroot",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Plant",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "cr": "3",
+      "speed": "0 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Red-tipped roots hang from a cavern wall or ceiling. They stay still until prey passes within reach.",
+      "otherStatistics": "Underground. Solitary. Always neutral. Standard treasure. Advancement 5–8 HD (Large), 9–12 HD (Huge).",
+      "sections": {
+        "Combat statistics": "Initiative +0. AC includes +5 natural, touch 10, flat-footed 15. Base attack +3, grapple +4. Space and reach 5 ft. each. Fort +5, Ref +1, Will +1.",
+        "Traits": "Plant traits and vulnerability to fire.\nBlindsight (Ex). Detect creatures within 10 ft. by scent, sound, and vibration.\nCamouflage (Ex). Before it strikes, notice it with a DC 20 Spot check. Dwarves with stonecunning and anyone with Survival or Knowledge (plants or herbs) can use the relevant ability or skill instead.",
+        "Actions": "Attack. Slam +4 melee (1d4 + 1) or gore +4 melee (1d6 + 1 plus poison).\nFull attack. Two slams +4 or one gore +4. It has one attacking root per HD, and at most four roots can attack the same creature at once.\nImproved Grab (Ex). After a slam hits, attempt a grapple. On a successful grab, use a second root to gore the held creature each round until it dies.\nPoison (Ex). A gore hit exposes the target to poison, Fort DC 13. Initial damage 1d4 Con, secondary damage 1d3 Wis. Harvest the sap of a slain but intact bloodroot to obtain one dose of the weaker bloodroot poison from the Dungeon Master’s Guide.",
+        "Printed source": "pp. 159–160"
+      }
+    }
+  },
+  {
+    "name": "Crawling Ivy",
+    "decision": "separate",
+    "pages": "pp. 161–162",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Crawling Ivy",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Huge Plant",
+      "ac": 7,
+      "hp": 36,
+      "hitDice": "8d8",
+      "cr": "2",
+      "speed": "1 ft. (1/5 square), climb 1 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Magenta veins give away this crawling ivy. It clings to walls and waits until prey is close enough to wrap in its vines.",
+      "otherStatistics": "Any temperate or warm land. Solitary. Always neutral. No treasure. Advancement 9–31 HD (Huge), 32+ HD (Gargantuan).",
+      "sections": {
+        "Combat statistics": "Initiative +0. AC −2 size, −2 Dex, +1 natural, touch 6, flat-footed 9. Base attack and grapple +6. Space 10 ft., reach 5 ft. Fort +6, Ref +2, Will +4.",
+        "Traits": "Plant traits and DR 5/bludgeoning or slashing.\nCamouflage (Ex). Notice it before it attacks with DC 16 Spot, Survival, or Knowledge (plants or herbs).\nTremorsense (Ex). Locate anything touching the ground within 60 ft. and distinguish the vibrations of individual creatures.\nDispersed Vines (Ex). Cover one 5-by-5-ft. square per HD, on the ground or on a wall. Track each die’s HP separately. A section at 0 HP or with a comparable loss such as a negative level cannot act. At −10 HP it is destroyed. An area attack deals full damage to every section it reaches.\nBerries (Ex). Autumn berries can establish new colonies. They produce 2d8 flowers per HD. Press one flower to a wound to stabilize a dying creature or stop bleeding. Each flower works once and can also be used to make a curing potion.",
+        "Actions": "Entangle (Ex). As a standard action, entangle all foes within reach as a 5th-level casting of entangle, Reflex DC 16. Creatures climbing the ivy lose their Dex bonus on this save.\nBlood Drain (Ex). Deal 1d3 Con damage each round a victim remains entangled. A victim at Con 0 dies. The ivy loses 1 HD each week it drains less than 1 point of Con per HD.",
+        "Printed source": "pp. 161–162"
+      },
+      "ruleNotes": [
+        "To distribute the printed 36 HP across eight sections without rolling, use four sections at 4 HP and four at 5 HP. The printed +0 initiative and flat-footed AC 9 are retained."
+      ]
+    }
+  },
+  {
+    "name": "Death’s-Head Tree",
+    "decision": "separate",
+    "pages": "pp. 163–164",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Death’s-Head Tree",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Huge Plant",
+      "ac": 21,
+      "hp": 95,
+      "hitDice": "10d8 + 50",
+      "cr": "9",
+      "speed": "0 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Head-shaped fruit moan from the branches of a willow, drawing rescuers into range. When the heads ripen, they break away and drift in search of hosts.",
+      "otherStatistics": "Temperate plains, forests, hills, or marshes. Solitary or grove of 2–12. Always neutral evil. No treasure. Advancement 11–16 HD (Huge, 4d6 heads), 17–22 HD (Gargantuan, 6d8 heads).",
+      "sections": {
+        "Combat statistics": "Initiative −1. Trunk AC 21 (−2 size, +13 natural), touch 8, printed flat-footed 19. Attached heads AC 12 (+2 size), touch and flat-footed 12. Base attack +7, grapple +16. Space 10 ft., reach 15 ft. Fort +12, Will +4. Reflex is unlisted. Plant traits, DR 10/bludgeoning or slashing, fire resistance 20, SR 11.",
+        "Actions": "Attack. Bite +13 melee (1d2 plus implant) or spit seed +4 ranged (1 damage plus implant).\nFull attack. 4d4 bites at +16 melee, or 4d4 spit seeds at +4 ranged. Use the actual head count once established. Each head has 1d6 seeds. Spit seeds have a maximum range of 30 ft. and no range increment.\nImplant Seeds (Ex). A bite or spit hit plants a seed. DC 15 Spot notices the numbed wound. DC 10 Heal removes the seed during the first 24 hours. After that it takes root in a humanoid and deals cumulative damage of 1d4 on day one, 2d4 on day two, and so on to 10d4 per day. A rooted seed requires DC 15 + days since rooting to remove with Heal. Every attempt deals half that day’s damage, even on a failure. If the victim dies with an implanted seed, a new tree grows from the body.",
+        "Detached Death’s Head": "Tiny Undead, CR 1/6, 6 HP (1d12), initiative +0. Fly 10 ft. (perfect) as a free action, with personal feather fall continuously. AC 11 (+2 size, −1 Dex), touch 11, flat-footed 12. Base attack +0, grapple −8. Attack or full attack: spit seed +0 ranged (1 damage plus implant). Space 2½ ft., reach 0 ft. Fort +0, Ref +0, Will +2. Str 2, Dex 9, Wis 10, Cha 1. Listen +3, Spot +3, Weapon Focus (spit). SR 11 and undead traits. Always neutral, no treasure. A head may roam up to 20 miles and dies after using its last seed. Encounters are solitary or a harvest of 2–6.",
+        "Printed source": "pp. 163–164"
+      },
+      "ruleNotes": [
+        "The printing gives a higher bonus to the tree’s full-attack bites than to its single bite and a different flat-footed AC from its listed trunk modifiers. The printed values are retained."
+      ]
+    }
+  },
+  {
+    "name": "Doppelganger Plant",
+    "decision": "separate",
+    "pages": "pp. 164–166",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Doppelganger Plant",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Huge Plant",
+      "ac": 8,
+      "hp": 50,
+      "hitDice": "10d8 + 8",
+      "cr": "6",
+      "speed": "0 ft.",
+      "abilities": {
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A tangle of vines grows pods large enough to hold a person. Victims can return to their companions with familiar memories and an allegiance to the plant.",
+      "otherStatistics": "Warm or temperate land. Solitary. Always chaotic evil. No treasure of its own. Podlings have standard treasure. Advancement 11–14 HD (Gargantuan), 15–20 HD (Colossal).",
+      "sections": {
+        "Combat statistics": "Initiative +0. Vines AC 8 (−2 size), touch 10, flat-footed 8. Pods AC 16 (+6 natural), touch 10, flat-footed 16. Base attack and grapple are both +7. Space one 10-ft. square per HD, reach 0 ft. Fort +4, Will +4. Reflex is unlisted. Bluff +20, Diplomacy +18, Gather Information +18, Sense Motive +18. No feats.",
+        "Traits": "Plant traits, DR 10/bludgeoning or slashing, electricity resistance 20 and fire resistance 20. Has no physical attacks. Each HD supplies one pod. The plant perceives and communicates through its continuous telepathic link to its podlings. The plant and all podlings share their languages and can use the highest available Int-, Wis-, and Cha-based skill bonus among them.",
+        "Actions": "Mind Bondage (Su). Once per round, as a standard action, randomly select a sleeping or unconscious humanoid within 1 mile per plant HD. Will DC 14 + half the plant’s HD (DC 19 for the sample). Failure traps the soul in a vacant pod and gives the victim the podling quality. The attack is mind-affecting. Stop attempts for one day after a success. Each pod holds one soul, and no attempt is possible if all pods are occupied.\nDominate and duplicate. The combat text gives a separate on-site procedure. A humanoid entering the plant’s area must make a DC 25 Will save against its domination. On a failure the plant lures the victim into a pod that traps the soul, consumes the body at 1 HP per round, then releases a duplicate with the victim’s memories. The plant can use this domination through its clones to lure more victims.",
+        "Podlings": "The plant controls a podling completely. The podling is otherwise immune to mind-affecting effects, retains its statistics and abilities except divinely granted powers, and acts as chaotic evil. Animal companions and similar bonds may detect the change. Starting 24 hours after capture, the podling loses 1d4 HP daily and cannot heal naturally. After piercing or slashing damage, it must make a Reflex save at DC 10 + damage or reveal its hollow interior. Witnesses may make a DC 15 Horror save. A podling that dies while enslaved has its life energy consumed, and only true resurrection can restore it.",
+        "Dispersed Vines (Ex)": "Track HP per Hit Die. Put two HP from each HD into a shared vine and root pool and assign the rest of each die to its own pod. Area attacks deal full damage to each section in range. At 0 HP a pod deals nonlethal damage equal to its podling’s total HP + 10. At −10 HP the pod breaks, frees the soul, removes podling status, and costs the plant one HD. At 0 HP the vine pool stops pod communication and knocks out all podlings in the same way. At −10 HP the vines free every soul. The plant can also free all souls to feign destruction. Kill it by destroying the vine pool and every pod.",
+        "Printed source": "pp. 164–166"
+      },
+      "ruleNotes": [
+        "The combat paragraph gives DC 25 for dominating people in the patch. Mind Bondage has a separate range, target requirement, and DC formula. Both procedures are retained as printed.",
+        "For the listed 50 HP, use a 20-HP vine pool and ten 3-HP pods as a quick distribution. Per-HD rolls can vary individual pod HP."
+      ]
+    }
+  },
+  {
+    "name": "Grave Ooze",
+    "decision": "separate",
+    "pages": "p. 104",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Grave Ooze",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Ooze",
+      "ac": 4,
+      "hp": 60,
+      "hitDice": "6d10 + 27",
+      "cr": "6",
+      "speed": "10 ft. (2 squares), burrow 5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 1
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This bone-flecked ooze tunnels into graves for the bodies. Disturbing it can leave a living intruder trapped in the same grave.",
+      "otherStatistics": "Land and underground, especially graves. Solitary. Always neutral. Standard treasure. Advancement 7–9 HD (Large), 10–18 HD (Huge).",
+      "sections": {
+        "Combat statistics": "Initiative −5. AC includes −1 size and −5 Dex, touch and flat-footed 4. Base attack +4, grapple +10. Printed space and reach 5 ft. each. Fort +4, Ref −3, Will −3. No skills or feats.",
+        "Traits": "Ooze traits. Immune to necromantic effects and piercing damage. Blindsight detects heat and motion within 60 ft., and the ooze smells rotting flesh through the earth from miles away. Its acid dissolves only organic material.",
+        "Actions": "Attack or full attack. Slam +5 melee (2d4 + 3 plus 1d4 acid).\nImproved Grab (Ex). After a slam hits, attempt a grapple without provoking an attack of opportunity.\nEngulf (Ex). On a successful grapple check against a Medium or smaller creature, engulf it or drag it into the grave. Each engulfed victim is trapped, takes acid damage automatically each round, and is exposed to contact poison. Halve damage from attacks against the engulfing ooze and apply the other half to the victim.\nPoison (Ex). Fort DC 15, Constitution-based. Both initial and secondary damage are 1d4 Str and 1d4 Con.",
+        "Printed source": "p. 104"
+      },
+      "ruleNotes": [
+        "The book says Engulf deals acid damage but gives no separate amount. Use the slam’s 1d4 acid per round as a table default."
+      ]
+    }
+  },
+  {
+    "name": "Mist Horror",
+    "decision": "separate",
+    "pages": "pp. 152–154",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Mist Horror",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Augmented Humanoid, Incorporeal, Mists)",
+      "ac": 13,
+      "hp": 32,
+      "hitDice": "5d12",
+      "cr": "6",
+      "speed": "Fly 30 ft. (good, 6 squares)",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A ripple stalks travelers in the Mists. It gathers into a shape, sometimes borrowing the thing its victim fears most.",
+      "otherStatistics": "Printed common example based on a 5th-level human rogue. Ravenloft Mists, solitary, neutral evil, no treasure. Advancement 6–9 HD (Medium), 10–14 HD (Large).",
+      "sections": {
+        "Combat statistics": "Initiative +6. AC 13 (+1 Dex, +2 natural). Base attack +2, grapple +5 as printed. Space and reach 5 ft. each. Fort +1, Ref +5, Will +2. Climb +8, Disable Device +7, Hide +14, Listen +10, Move Silently +13, Open Locks +10, Spot +14. Alertness, Balance, Blind-Fight, Improved Initiative, Stealthy.",
+        "Traits": "DR 10/magic, incorporeal and undead traits, and +5 turn resistance in the sample. Immune to holy water, charm, spells that normally affect undead, and spells that need a physical body, such as blindness/deafness. SR 10 applies to spells cast within 20 ft. and leaves spell-like abilities and spell-producing magic items unaffected.",
+        "Actions": "Attack. Slam +5 melee (2d6 + 3). Full attack: two slams at +5, each for 2d6 + 3. The published sample lists sneak attack 3d6 + 3.\nAssemble. It takes 1d4 turns to form a body capable of attacking. Until formed, creatures in the Mists can detect the hint of its presence with DC 20 Spot. The horror can break off combat by dispersing and must then spend another 1d4 turns reassembling.\nTelempathic Projection (Sp). Send emotions or short messages to anyone within 120 ft. who is in the Mists. DC 15 Will lets a recipient resist or ignore it. A common horror stays in one area and may send false reassurance to make travelers pause while it assembles.",
+        "Wandering mist horror": "Uses the common horror’s statistics, can roam the Mists and actively seeks prey. Fear Aura (Su), once daily: everyone within 120 ft. makes a DC 15 Fear check. It uses the aura early, in the first normal combat round if it surprised the targets. Suggestion (Sp), once daily: one creature within 120 ft. makes a DC 15 Will save to resist a telepathic suggestion.",
+        "Creating a Mist Horror": "Apply to a living creature. Keep size, base attack, saves, and skill points, and change type to undead with the original type augmented. All present and future Hit Dice become d12. Give fly 30 ft. or retain a faster base fly speed. Keep base natural armor and add deflection equal to the higher of +1 or its Cha modifier. Replace ordinary attacks with natural attacks and keep the base special attacks and qualities. Add DR 10/magic, the immunities, SR 10, projection, and +4 turn resistance. Remove Con, add +2 Cha, and give +4 racial bonuses to Hide, Move Silently, and Spot. Keep skills usable in incorporeal form and add Improved Initiative and Stealthy. CR is base +1. Any evil, solitary, no treasure, no level adjustment, and the sample’s advancement ranges.",
+        "Printed source": "pp. 152–154"
+      },
+      "ruleNotes": [
+        "The encounter sample retains Con 15, natural armor without a deflection bonus, and +5 turn resistance. The template removes Con, adds deflection, and grants +4 turn resistance. Use the displayed numbers for the printed sample.",
+        "The projection rule specifies a DC 15 Will save. The common horror’s tactics instead mention an opposed Will check when it offers false reassurance. Use the listed DC for a quick ruling. The template prints 'average good' maneuverability. Use good, as in the encounter sample."
+      ]
+    }
+  },
+  {
+    "name": "Rushlight",
+    "decision": "separate",
+    "pages": "p. 179",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Rushlight",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Undead (Fire, Incorporeal)",
+      "ac": 16,
+      "hp": 39,
+      "hitDice": "6d12",
+      "cr": "8",
+      "speed": "Fly 50 ft. (perfect, 10 squares)",
+      "abilities": {
+        "Dex": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A face and hands flicker inside a ball of fire visible only at the edge of sight. By day the rushlight rests where its ashes lie. At night it hunts up to 20 miles away.",
+      "otherStatistics": "Any land or underground. Solitary. Always chaotic evil. No treasure. Advancement 7–12 HD (Medium).",
+      "sections": {
+        "Combat statistics": "Initiative +6. AC +1 size, +2 Dex, +3 deflection, touch 16, flat-footed 14. Base attack +3 and printed grapple +3. Space and reach 5 ft. each. Fort +2, Ref +4, Will +5. Hide +14, Listen +9, Sense Motive +9, Spot +9, Survival +9. Alertness, Flyby Attack, Improved Initiative (bonus).",
+        "Traits": "Fire and incorporeal subtypes, undead traits, SR 15, and +4 turn resistance.\nNatural Invisibility (Ex). Locating it with peripheral vision requires DC 15 Spot. Success lets a creature fight it as visible, with a −2 penalty on attack rolls. See invisibility and invisibility purge also reveal it.",
+        "Actions": "Attack or full attack. Flame touch +6 melee (3d4 plus Burn). It often uses Flyby Attack to pass through or past its target.\nBurn (Ex). A creature hit by the touch must make a DC 17 Reflex save or take 1d4 fire damage each round. Normal methods cannot extinguish these flames. Dispel magic (DC 16 caster check) or dispel evil extinguishes them immediately.",
+        "Printed source": "p. 179"
+      },
+      "ruleNotes": [
+        "The printed grapple bonus is kept for reference. Standard 3.5 incorporeal rules prevent physical grappling of corporeal targets."
+      ]
+    }
+  }
+]

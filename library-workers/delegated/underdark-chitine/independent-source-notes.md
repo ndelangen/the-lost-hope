@@ -1,0 +1,8 @@
+# Chitine rules sources
+
+- The playable Chitine is a Small Monstrous Humanoid with 2d8 racial Hit Dice and LA +2. *Underdark* gives ECL 4 before class levels and ECL 5 with one class level. Darkvision 60 ft. comes from the core Monstrous Humanoid type. [Underdark, pp. 7–8]() · [Monster Manual, p. 311]()
+- The Chitine’s four arms grant +4 on grapple checks, canceling its Small size penalty. Its hooked palms give +4 on opposed checks to keep hold of a weapon. Its hooks also allow wall and ceiling movement as with *spider climb*. Both encounter builds keep hands free on ceiling routes. [Racial traits, p. 8]()
+- The 2004 *Monster Update* points to *Underdark* for the revised Chitine. This profile uses the 3.5 Multiweapon Fighting feat and the standard light off-hand penalties. Qid takes −2 on each attack when using all four light short swords. Sunlight or bright magical light dazzles her, imposing another −1 on attack rolls, Search checks, and Spot checks. [Monster Update]() · [Multiweapon Fighting](https://www.d20srd.org/srd/monsterFeats.htm#multiweaponFighting) · [Dazzled](https://www.d20srd.org/srd/conditionSummary.htm#dazzled)
+- The Chitine region adds Common to the automatic racial Undercommon and defines regional bonus languages. The Wizards errata archive has no *Underdark* file, and the June 2008 FAQ has no Chitine entry. [Chitine region, p. 23]() · [Collected errata](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP)
+
+Qid’s four long arms, hooked toes, mottled gray skin, faceted eyes, mandibles, and loose silk tunic follow the written description. Vance Kovacs illustrated the Chitine in the original book. Both staged CRs are provisional estimates for the original NPCs. [Description and illustration, pp. 7–8]()

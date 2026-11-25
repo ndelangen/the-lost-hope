@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "cat",
+    "file": "portraits/cat.png",
+    "sha256": "839ed684fa8a9c5c401ebc55bb2d03fc167263b9a82fc9bc8acb98981874dfc7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "hyena",
+    "file": "portraits/hyena.png",
+    "sha256": "e24a6fe211e6b15c7caccbc705b80719b31e8f4008842f1d4f1048c7dc1da118",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "jackal",
+    "file": "portraits/jackal.png",
+    "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "lizard",
+    "file": "portraits/lizard.png",
+    "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

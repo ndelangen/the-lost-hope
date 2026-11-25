@@ -1,0 +1,24 @@
+{
+  "baseline": "b6cbe29bdcfacdb72746e7f36ff86cbd0134f9cf",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Killoren"
+  ],
+  "selectableProfiles": 3,
+  "publication": "Races of the Wild (2005)",
+  "aspects": [
+    "Ancient",
+    "Destroyer",
+    "Hunter"
+  ],
+  "sourceTraitsDisplayed": 3,
+  "searchableByAspectTraitAndNpcRole": 3,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByAspect": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 3
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "slug": "squid",
+    "name": "Squid",
+    "entryId": "beast-1d48f84aa257b116c0a7407b",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One slender common squid, softly stippled mauve, russet and sandy pearl colors, elongated pointed mantle with a pair of triangular fins fused near its rear tip, compact head with one large visible eye, eight short flexible arms and exactly two noticeably longer slender feeding tentacles with modest club tips. Every arm emerges from the head end, never the mantle, with clear spaces between the extremities. In a diagonal side view with the mantle pointing upward right, arms drifting lower left. One complete animal well inside the square. No water, bubbles, ink cloud, scene or other objects.",
+    "prompt": "Create one original square bestiary portrait. Match the FIRST reference's muted warm tan shop parchment with subtle buff-beige mottling, matte antique book paper, no orange or bright yellow cast. Ignore its sword. The second reference is animal artwork style only. Use later references for anatomy and natural colors only. Fine colored pencil and ink texture, whole animal with plenty of frame margin, a faint soft shadow on an otherwise plain paper background. No scene, border, text, labels or watermark. One slender common squid, softly stippled mauve, russet and sandy pearl colors, elongated pointed mantle with a pair of triangular fins fused near its rear tip, compact head with one large visible eye, eight short flexible arms and exactly two noticeably longer slender feeding tentacles with modest club tips. Every arm emerges from the head end, never the mantle, with clear spaces between the extremities. In a diagonal side view with the mantle pointing upward right, arms drifting lower left. One complete animal well inside the square. No water, bubbles, ink cloud, scene or other objects.",
+    "appearanceSource": "Common squid photograph by Hans Hillewaert"
+  },
+  {
+    "slug": "tiny-viper-snake",
+    "name": "Tiny Viper Snake",
+    "entryId": "beast-a6767b7ddec1098445fa5e65",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One very small delicate dusty buff and pale gray viper, tiny sharp wedge head looking upward to the right, a minute dark line through the eye and muted warm ochre-brown chevrons. Body barely thicker than a finger. A single visibly uninterrupted diagonal S made of two simple wide curves, starting with a gently lifted head at upper right and ending with one pointed tapering tail at lower left. No crossings, dangling extra tips, branches, loose segments, rattles, props or rocks. Modest proportions, distinct warm pale coloration compared with a gray small viper.",
+    "prompt": "Create one original square bestiary portrait. Match the FIRST reference's muted warm tan shop parchment with subtle buff-beige mottling, matte antique book paper, no orange or bright yellow cast. Ignore its sword. The second reference is animal artwork style only. Use later references for anatomy and natural colors only. Fine colored pencil and ink texture, whole animal with plenty of frame margin, a faint soft shadow on an otherwise plain paper background. No scene, border, text, labels or watermark. One very small delicate dusty buff and pale gray viper, tiny sharp wedge head looking upward to the right, a minute dark line through the eye and muted warm ochre-brown chevrons. Body barely thicker than a finger. A single visibly uninterrupted diagonal S made of two simple wide curves, starting with a gently lifted head at upper right and ending with one pointed tapering tail at lower left. No crossings, dangling extra tips, branches, loose segments, rattles, props or rocks. Modest proportions, distinct warm pale coloration compared with a gray small viper.",
+    "appearanceSource": "Related D&D Poisonous Snake token"
+  },
+  {
+    "slug": "toad",
+    "name": "Toad",
+    "entryId": "beast-1b34942add2c85bbca6a87ba",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One compact, earth-brown common toad, squat rounded mottled back with natural warty skin, lightly grainy buff underside, golden copper eyes with horizontal pupils, broad face and closed mouth. Low seated pose turned diagonally toward the viewer, all four limbs correctly located, front feet grounded and hind limbs folded in natural toad posture. Modest and unadorned, no visible tongue, no water, lily pads, leaves or other scenery.",
+    "prompt": "Create one original square bestiary portrait. Match the FIRST reference's muted warm tan shop parchment with subtle buff-beige mottling, matte antique book paper, no orange or bright yellow cast. Ignore its sword. The second reference is animal artwork style only. Use later references for anatomy and natural colors only. Fine colored pencil and ink texture, whole animal with plenty of frame margin, a faint soft shadow on an otherwise plain paper background. No scene, border, text, labels or watermark. One compact, earth-brown common toad, squat rounded mottled back with natural warty skin, lightly grainy buff underside, golden copper eyes with horizontal pupils, broad face and closed mouth. Low seated pose turned diagonally toward the viewer, all four limbs correctly located, front feet grounded and hind limbs folded in natural toad posture. Modest and unadorned, no visible tongue, no water, lily pads, leaves or other scenery.",
+    "appearanceSource": "Common toad photographs by EcoFriend33 and Philippe Kurlapski"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-571363723e1062b31f38a7f9",
+    "version": "afd40685451ddfa740ebfdc2",
+    "name": "Piranha",
+    "file": "images/adnd2e-monstrous-manual-piranhas/piranha.png",
+    "sha256": "a769cc3d8c6459a038ff39e7e3cc14ba1529ef7f8555c87c8b9ff2f9db62fa13",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-b20046ffc60fcbf82d904959",
+    "version": "696dae1f9e756861310422b4",
+    "name": "Giant Piranha",
+    "file": "images/adnd2e-monstrous-manual-piranhas/giant-piranha.png",
+    "sha256": "4af333304691ae68c78b2f181384d9c43d247d956a8f97157cae73df31e32a97",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-114b452a65da2b33c3b235c0",
+    "version": "f692c342fe047879396b5400",
+    "name": "Quipper",
+    "file": "images/adnd2e-monstrous-manual-piranhas/quipper.png",
+    "sha256": "dbc2008690679f244666c21d438687837e51572d4b68a4984cf780f043b9d42c",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Mephling",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        10,
+        11,
+        12
+      ],
+      "racialTraits": [
+        11,
+        12
+      ],
+      "illustration": 10
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "6861d72b5d6b3f98341bdae513692369532ac46d52f88ca3272f0a329180d9af",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Steve Prescott, Mephlings, p. 10.",
+    "sourceDistinctions": [
+      "The p. 11 sidebar mentions fast healing; pp. 11–12 give no player trait, amount, or conditions. No Mephling correction appears in the official errata or FAQ.",
+      "Four ancestries share the fixed 1d8 and 15-ft. cone. Damage type varies. DC uses Hit Dice and Constitution rather than effective character level.",
+      "The standard action and supernatural classification come from the core breath rules, while the racial entry supplies its own damage, save, uses, and interval.",
+      "Only matching spell descriptors gain caster level. Only Air gains flight, and Water’s swim speed does not confer water breathing."
+    ],
+    "entryId": "species-4f6617a02d6e781a6d8cd791",
+    "versionKey": "668a5b46851a1f114dd2faf2",
+    "slug": "mephling",
+    "portraitSelection": "generated",
+    "portraitForm": "Pip Reedwhistle, an original Air Mephling Bard",
+    "npcExamples": [
+      "Pip Reedwhistle",
+      "Flint Cutwall",
+      "Cinder Kilnwatch",
+      "Ripple Lockreach"
+    ]
+  }
+]

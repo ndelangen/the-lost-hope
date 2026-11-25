@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Giant Frog",
+    "file": "",
+    "selection": "generated",
+    "sha256": "d9a2f148a138eef2ba28eb4518220cc3498cd16245ef0384186d58588ce1aa4e",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Killer Frog",
+    "file": "",
+    "selection": "generated",
+    "sha256": "1c95aa932ce00ab07b3cbc35b4997d424e6e78906ddb348d0e7b5602d603e85c",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Poisonous Frog",
+    "file": "",
+    "selection": "generated",
+    "sha256": "88447342e9e7107e90652b0a4eaebeb70f6536101238da6c9be2545cc2f8e8cb",
+    "width": 1254,
+    "height": 1254
+  }
+]

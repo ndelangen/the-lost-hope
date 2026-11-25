@@ -1,0 +1,14 @@
+[
+  {
+    "id": "beast-12d8235b20c5a67ca243851f",
+    "name": "Dinosaur, Triceratops",
+    "base": "monster-ff2f0b10db1668f2d68d6e40",
+    "slug": "triceratops"
+  },
+  {
+    "id": "beast-fd9ab78e9f295d2de1e5d4a7",
+    "name": "Dinosaur, Tyrannosaurus Rex",
+    "base": "monster-7fad5f6e7b3d703576e966a6",
+    "slug": "tyrannosaurus-rex"
+  }
+]

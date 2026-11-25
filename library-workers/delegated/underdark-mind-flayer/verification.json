@@ -1,0 +1,26 @@
+{
+  "baseline": "74c9c9f499b29dd87d2f3e26f97aa0cec68f3fd7",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Mind Flayer"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Underdark (2003)",
+  "mindBlastGrabExtractTelepathyAndBothCasterLevelsVerified": true,
+  "editionSpecificRulesAndSourcesVerified": true,
+  "existingMonsterVersionsPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Underdark (2003)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

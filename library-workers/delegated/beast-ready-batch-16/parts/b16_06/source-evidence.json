@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Dire Bear",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "kind": "beast",
+    "printing": "First printing, October 2008",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-4928-1",
+    "printedHeading": "Dire Bear (B)",
+    "book": "Adventure Book Two",
+    "section": "Encounter W4, Mound of Skulls",
+    "printedPages": [
+      16,
+      17
+    ],
+    "statBlockPage": 17,
+    "pdfPage": 50,
+    "viewerPages": [
+      49,
+      50
+    ],
+    "matchingPageNumbering": "In the combined , add 33 to Adventure Book Two folios. Add 1 to Book One folios.",
+    "sourceWitness": " - 4th Edition/Adventures/P1 - King of the Trollhaunt ",
+    "sourceSha256": "6b8a6f4ededbccd2ca9ad00b37bb48a8c4fb0ac6a94b179da1b2ef2c02f3310b",
+    "sourceUrl": "",
+    "creditsViewerPage": 3,
+    "officialErrataIndex": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "officialErrataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataEvidence": "The August 2012 collected update for this adventure on p. 116 changes only the Eladrin Ring of Passage rarity.",
+    "level": 11,
+    "role": "Elite Brute",
+    "xp": 1200,
+    "encounterCount": 1,
+    "printedInitiative": 8,
+    "printedBloodied": 138,
+    "defenses": {
+      "AC": 25,
+      "Fortitude": 25,
+      "Reflex": 22,
+      "Will": 23
+    },
+    "powersRecharge": "All three powers are at-will.",
+    "habitatEvidence": "Encounter W4 takes place in the Mound of Skulls cavern at Great Warren Location 4.",
+    "appearanceEvidence": "Book One p. 27 depicts a massive brown bear with pale thornlike projections on its shoulders. Book Two p. 16 describes its size and massive jaws. The portrait uses a new pose.",
+    "appearancePrintedBook": "Adventure Book One",
+    "appearancePrintedPage": 27,
+    "appearanceViewerPage": 28,
+    "artworkSource": "beast-ready-batch-16/parts/b16_06/portraits/dire-bear.png",
+    "artworkSha256": "a2923e488874b6d31babed448320cb03ec551657c25e7620f02dc496698d7707",
+    "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+    "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+    "sourceNotes": [
+      "The elite block grants +2 to saving throws and 1 action point. Maul’s secondary attack targets AC. Ursine Crush requires a grabbed creature."
+    ]
+  },
+  {
+    "name": "Redspawn Firebelcher",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "kind": "beast",
+    "printing": "First printing, October 2008",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-4928-1",
+    "printedHeading": "Redspawn Firebelcher (R)",
+    "book": "Adventure Book Two",
+    "section": "Encounter W7, The Foundry",
+    "printedPages": [
+      24,
+      25
+    ],
+    "statBlockPage": 25,
+    "pdfPage": 58,
+    "viewerPages": [
+      57,
+      58
+    ],
+    "matchingPageNumbering": "In the combined , add 33 to Adventure Book Two folios. Add 1 to Book One folios.",
+    "sourceWitness": " - 4th Edition/Adventures/P1 - King of the Trollhaunt ",
+    "sourceSha256": "6b8a6f4ededbccd2ca9ad00b37bb48a8c4fb0ac6a94b179da1b2ef2c02f3310b",
+    "sourceUrl": "",
+    "creditsViewerPage": 3,
+    "officialErrataIndex": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "officialErrataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataEvidence": "The August 2012 collected update for this adventure on p. 116 changes only the Eladrin Ring of Passage rarity.",
+    "level": 12,
+    "role": "Artillery",
+    "xp": 700,
+    "encounterCount": 1,
+    "printedInitiative": 7,
+    "printedBloodied": 48,
+    "defenses": {
+      "AC": 25,
+      "Fortitude": 25,
+      "Reflex": 22,
+      "Will": 21
+    },
+    "powersRecharge": "Fire Burst recharges on 5–6. Bite and Fire Belch are at-will.",
+    "habitatEvidence": "P. 24 places the firebelcher below the escarpment of the foundry at Great Warren Location 15.",
+    "appearanceEvidence": "The encounter identifies the creature as a dragonspawn and its stat block gives the reptile subtype. The approved portrait supplies the wingless, red-scaled appearance.",
+    "artworkSource": "indexed:images/beasts/redspawn-firebelcher/parchment-portrait.webp",
+    "artworkSha256": "a9ecfc55941a4b3840f7bf2f213123c504c33a542c0a914d8b0cad1585a35f1d",
+    "sourceNotes": [
+      "Fire Within protects allies in aura 5. The firebelcher’s own resistance is 20 fire. Each listed attack has the Fire keyword, and the text explicitly assigns fire to the ongoing damage."
+    ]
+  },
+  {
+    "name": "Wyverns",
+    "publication": "King of the Trollhaunt Warrens",
+    "edition": "4th edition",
+    "kind": "beast",
+    "printing": "First printing, October 2008",
+    "publisher": "Wizards of the Coast",
+    "isbn": "978-0-7869-4928-1",
+    "printedHeading": "3 Wyverns (W)",
+    "book": "Adventure Book Two",
+    "section": "Encounter R3, Airborne Assault",
+    "printedPages": [
+      42,
+      43
+    ],
+    "statBlockPage": 42,
+    "pdfPage": 75,
+    "viewerPages": [
+      75,
+      76
+    ],
+    "matchingPageNumbering": "In the combined , add 33 to Adventure Book Two folios. Add 1 to Book One folios.",
+    "sourceWitness": " - 4th Edition/Adventures/P1 - King of the Trollhaunt ",
+    "sourceSha256": "6b8a6f4ededbccd2ca9ad00b37bb48a8c4fb0ac6a94b179da1b2ef2c02f3310b",
+    "sourceUrl": "",
+    "creditsViewerPage": 3,
+    "officialErrataIndex": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "officialErrataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "errataEvidence": "The August 2012 collected update for this adventure on p. 116 changes only the Eladrin Ring of Passage rarity.",
+    "level": 10,
+    "role": "Skirmisher",
+    "xp": 500,
+    "encounterCount": 3,
+    "printedInitiative": 10,
+    "printedBloodied": 53,
+    "defenses": {
+      "AC": 24,
+      "Fortitude": 24,
+      "Reflex": 20,
+      "Will": 19
+    },
+    "powersRecharge": "The five powers are at-will. Claws requires flight, and Aerial Agility requires flight and a rider of level 10 or higher.",
+    "habitatEvidence": "P. 42 places the aerial assault over Moonstair’s Old Troll Wall.",
+    "appearanceEvidence": "P. 42 describes three dragonlike beasts with tail stingers. The Book One p. 30 illustration depicts the winged, two-legged forms. The reused portrait shows two brown poses on one plate. The printed illustration uses an olive-green body and reddish wing membranes.",
+    "appearancePrintedBook": "Adventure Book One",
+    "appearancePrintedPage": 30,
+    "appearanceViewerPage": 31,
+    "artworkSource": "indexed:images/beasts/wyverns/parchment-portrait.webp",
+    "artworkSha256": "84dea5d07f564fa43767526ba1560c29a76d56171d44f41fc6f5051e58c8e8bf",
+    "sourceNotes": [
+      "The heading counts three creatures and awards 500 XP per wyvern. Each creature uses the same block. Claws and Bite both carry the melee-basic icon."
+    ]
+  }
+]

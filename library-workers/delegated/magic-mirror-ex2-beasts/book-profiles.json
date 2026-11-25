@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Giant Ant",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "ruleset": "adnd-1e",
+    "appearance": "A large worker ant with prominent mandibles.",
+    "combat": {
+      "armorClass": 3,
+      "movement": "18″",
+      "hitDice": "2",
+      "hitPoints": 11,
+      "numberOfAttacks": 1,
+      "damageDice": "1–6",
+      "habitats": [
+        "Garden of Colossal Flowers"
+      ]
+    },
+    "mechanics": {
+      "Encounters": [
+        {
+          "name": "Workers drawn to the flowers",
+          "effectNote": "The flowers cry out when a character enters a bed, about five feet from a flower. The first Giant Bumble Bee arrives the following round. The first three worker ants arrive with the fourth Giant Bumble Bee, three rounds after the first bee. Three more workers arrive each following round until 48 have come. Each ant has 11 HP."
+        },
+        {
+          "name": "Garden boundary",
+          "effectNote": "They pursue and attack the party inside the garden. The workers leave the party alone outside it."
+        }
+      ]
+    },
+    "notes": [
+      "The printed block describes workers and lists no poison or magic resistance.",
+      "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), B. Garden of Colossal Flowers, p. 9."
+    ]
+  },
+  {
+    "name": "Giant Crab",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "ruleset": "adnd-1e",
+    "appearance": "A river crab large enough to clamber into the punt.",
+    "combat": {
+      "armorClass": 3,
+      "movement": "9″",
+      "hitDice": "3",
+      "hitPoints": 24,
+      "numberOfAttacks": 2,
+      "damageDice": "2–8 / 2–8",
+      "habitats": [
+        "The gelid river by the Reedy Bank"
+      ]
+    },
+    "mechanics": {
+      "Special defenses": [
+        {
+          "name": "Magic resistance",
+          "effectNote": "25% magic resistance."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Sticking oars at M",
+          "effectNote": "When rowing upstream, the oars stick after three attempts. While an oar is stuck, there is a 1-in-6 chance each round that a giant crab climbs into the boat and attacks. Free the oar using the procedure for opening a door. The crabs walk on the gelid surface and leave the punt upright here."
+        },
+        {
+          "name": "Reedy Bank at N",
+          "effectNote": "If the party tries to continue downstream from N, a giant crab upsets or holes the boat before they get started. Upstream from N is possible only if they arrived from area O. That route toward M uses the sticking-oar and crab encounter rules."
+        }
+      ]
+    },
+    "notes": [
+      "The punting encounter supplies the 24 HP value.",
+      "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), M. Large Punt and N. Reedy Bank, p. 19."
+    ]
+  },
+  {
+    "name": "Carnivorous Ape",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "ruleset": "adnd-1e",
+    "appearance": "A heavy-bodied ape that appears as a large monkey to guests under the banquet’s delusion.",
+    "combat": {
+      "armorClass": 6,
+      "movement": "12″",
+      "hitDice": "5",
+      "hitPoints": 25,
+      "numberOfAttacks": 3,
+      "damageDice": "1–4 / 1–4 / 1–8",
+      "habitats": [
+        "Manor house banquet"
+      ]
+    },
+    "mechanics": {
+      "Special attacks and defenses": [
+        {
+          "name": "Rend",
+          "effectNote": "When both forelimb attacks hit, the ape deals an additional 1–8 rending damage."
+        },
+        {
+          "name": "Magic resistance",
+          "effectNote": "25% magic resistance."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Banquet ambush",
+          "effectNote": "Three apes with 25 HP each try to rise and attack alongside the giant wolverines when the banquet erupts into combat. The printed attack order places the apes after the wolverines and the next wave of 26 larvae crossing the table. Characters still wearing crowns of delusion misread the attacks as affection."
+        }
+      ]
+    },
+    "notes": [
+      "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), The Mad Feast Hall, CA, pp. 24–25."
+    ]
+  },
+  {
+    "name": "Giant Wolverine",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "ruleset": "adnd-1e",
+    "appearance": "A great shaggy wolverine that seems like a harmless teddy bear to guests under the banquet’s delusion.",
+    "combat": {
+      "armorClass": 4,
+      "movement": "15″",
+      "hitDice": "4+4",
+      "hitPoints": 22,
+      "numberOfAttacks": 3,
+      "damageDice": "2–5 / 2–5 / 2–8",
+      "habitats": [
+        "Manor house banquet"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Ferocity",
+          "effectNote": "The wolverine gains +4 to hit."
+        },
+        {
+          "name": "Musk",
+          "effectNote": "The wolverine can spray one target behind it. The target saves vs. Poison or is blinded for 1–8 hours. A successful save still causes 2–8 turns of nausea and cuts Strength and Dexterity by half for that duration. Worn cloth saves as if attacked by acid. On failure it rots and is destroyed."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Banquet ambush",
+          "effectNote": "Two wolverines with 22 HP each try to rise and attack alongside the carnivorous apes when the banquet erupts into combat. The printed attack order places the wolverines before the next wave of 26 larvae crossing the table, followed by the apes."
+        }
+      ]
+    },
+    "notes": [
+      "The encounter block gives no magic resistance. The Afterword on p. 26 separately discusses 25% magic resistance for creatures native to the land or long accustomed to it.",
+      "Gary Gygax, The Land Beyond the Magic Mirror (TSR, 1983), The Mad Feast Hall, GW, pp. 24–25."
+    ]
+  }
+]

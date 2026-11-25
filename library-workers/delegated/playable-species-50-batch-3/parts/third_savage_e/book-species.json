@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Triton",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Five-level outsider class with the Water subtype. Starts Medium with +2 Strength and +2 Constitution, darkvision 60 ft., and Common and Aquan. Breathes air and water.",
+      "Swims at 40 ft. and can take 10 or use a straight-line run in water. Gets +8 on Swim checks for maneuvers and hazards. On land, a triton drags itself 5 ft. per move and cannot run or charge.",
+      "Proficient with simple and martial weapons. Gains feats at levels 1 and 4. Natural armor starts at +2, rises to +4 at level 3 and +6 at level 5.",
+      "Gains +2 Intelligence at level 2. At level 4 it can use summon nature’s ally III once per day at caster level equal to class level. Level 5 grants +2 Wisdom and ends at 3d8 Hit Dice and CR 4."
+    ]
+  },
+  {
+    "name": "Troll",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Eleven-level Giant class. Starts Medium with +4 Strength, −4 Intelligence, −2 Wisdom, −4 Charisma, 30-ft. land speed, darkvision 90 ft., and Giant.",
+      "Starts with +2 natural armor, scent 10 ft., and two claws and a secondary bite, all 1d4. Each claw adds full Strength, and the bite adds half. Proficient with simple and martial weapons.",
+      "Gains regeneration 1 at level 4, 3 at level 9, and 5 at level 11. Fire and acid deal normal damage. Missing parts grow back in 3d6 minutes, or can be reattached by holding them to the injury.",
+      "Becomes Large with 10-ft. reach at level 5. Claws and bite improve to 1d6 at level 6. Rend at level 8 adds two claw damage dice plus 1½ times Strength when both claws hit one target. Scent rises to 20 ft. at level 7 and 30 ft. at level 10.",
+      "At level 11, the class ends at 6d8 Hit Dice, CR 5, and +7 natural armor. The scrag option gains a swim speed of 20 ft. and can breathe both air and water, but regenerates only when mostly immersed."
+    ]
+  },
+  {
+    "name": "Trumpet Archon",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Twenty-level lawful good outsider class. Starts Medium with +2 Strength and +2 Intelligence, land speed 40 ft., darkvision 60 ft., low-light vision, and +4 on saves against poison. Languages are Celestial, Draconic, and Infernal.",
+      "Starts with electricity resistance 5 and +2 natural armor. Gains flight and cleric spellcasting at level 2. The effective cleric level equals class Hit Dice +2. Treat spells from the Air, Destruction, Good, Law, and War domains as cleric-list spells, with no domain slots or powers.",
+      "At level 3, adds tongues and one daily use each of detect evil, continual flame, and message. The spell-like abilities use class Hit Dice as caster level. Their uses rise to three per day at level 8 and at will at level 13.",
+      "Awarded its personal trumpet at level 4. Except for archons, creatures within 5 ft. of its blast must make a Fortitude save or be paralyzed for 1d4 rounds. Save DC is 10 + half the class Hit Dice + Charisma modifier. It can switch its trumpet into a +1 greatsword or back as a free action. The range and enhancement increase at levels 7, 10, and 13.",
+      "At level 9 gains aura of menace, spell resistance equal to 9 + class level, and teleport without error. Gains immunity to electricity and petrification at level 10 and a continuous magic circle against evil at level 11. Ends at 12d8 Hit Dice and CR 14."
+    ]
+  },
+  {
+    "name": "Vrock",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Sixteen-level outsider class with the Chaotic and Evil subtypes. Starts with +2 Strength, +2 Constitution, and +2 Wisdom, 30-ft. land speed, darkvision 60 ft., poison immunity, and +8 to Listen and Spot. Speaks Abyssal, Celestial, and Draconic.",
+      "Starts with two 1d6 claws, a secondary 1d6 bite, +2 natural armor, and resistance 5 to acid, cold, electricity, and fire. Gains two 1d4 rakes at level 4 and improves the claws to 1d8 at level 6. Bite and rakes add half Strength to damage.",
+      "Gains lesser spell-like powers at level 2, telepathy 100 ft. at level 3, spores at level 6, and fly 50 ft. (average) at level 7. Its spores begin at one use per day, then reach three per day at level 8 and one use per 3 rounds at level 10.",
+      "Level 9 adds higher spell-like powers and demon summoning. At level 10 gains stunning screech, damage reduction 5/+1, electricity immunity, and acid, cold, and fire resistance 10. Level 11 brings Large size, reach 10 ft., and spell resistance equal to 14 + class Hit Dice.",
+      "Dance of ruin comes at level 14 and requires at least five vrocks. At level 16 the class has 8d8 Hit Dice, CR 9, damage reduction 10/+2, hourly screeches, and the option to summon another vrock."
+    ]
+  },
+  {
+    "name": "Water Elemental",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "One class covers Small, Medium, and Large water elementals. Starts Small with +2 Strength, +2 Constitution, and −4 Intelligence, land speed 20 ft., swim speed 40 ft., darkvision 60 ft., the Water subtype, and Aquan.",
+      "Breathes water or air. Can take 10 on Swim, gains +8 on Swim checks for hazards or maneuvers, and can use a straight-line run in water. Immune to poison, sleep, paralysis, and stunning. Critical hits do not apply.",
+      "Starts with +3 natural armor, bonus Power Attack, and a slam with 1½ times Strength to damage. Water Mastery adds +1 to attack and damage when both combatants touch water and applies −4 to both if either is landbound. It can overturn, stop, or slow vessels up to 5, 10, or 20 feet of length per class Hit Die, respectively.",
+      "Gains drench and vortex at level 2. Drench puts out nonmagical fires of Large size or smaller on contact. For vortex, use the original Monster Manual with the slam dice alone for damage and Reflex DC 10 + half class Hit Dice + Constitution modifier.",
+      "Becomes Medium at level 4 with +5 natural armor. Slam rises to 1d8 at level 6, +7 natural armor comes at level 8, and slam increases to 2d6 at level 9. The final printed row, level 12, has 8d8 Hit Dice, CR 5, and Large size with 10-ft. reach."
+    ]
+  }
+]

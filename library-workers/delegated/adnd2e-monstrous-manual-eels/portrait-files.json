@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Electric Eel",
+    "file": "",
+    "selection": "generated",
+    "sha256": "877dcc7a924cb3d6153e1341fdb3387faad8fa1efd9eb9ef7de8f1a040faf96e",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Eel",
+    "file": "",
+    "selection": "generated",
+    "sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Marine Eel",
+    "file": "",
+    "selection": "generated",
+    "sha256": "913085c3e9e4bb47221c576b91d7454b089c75d48cdd81d74407148293d54078",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Weed Eel",
+    "file": "",
+    "selection": "generated",
+    "sha256": "7784b3be45fe16310df0eb7b161e478b16518895f65fa61d1df7e92d37e46cf7",
+    "width": 1254,
+    "height": 1254
+  }
+]

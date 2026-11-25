@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-9950cec246ece55e46c9929e",
+    "version": "8ff581235ab47106673e8203",
+    "name": "Rat",
+    "file": "images/dark-and-stormy-knight-beasts/rat.png",
+    "sha256": "ac4a790e5412fe1b73b7c67116c820e857b4aa40faac66d65f3a0e1fbd2b3822",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c478329389a06bf79ed2e204",
+    "version": "54439f3034c4d9143701708b",
+    "name": "Medium Monstrous Spider",
+    "file": "images/dark-and-stormy-knight-beasts/medium-monstrous-spider.png",
+    "sha256": "d0e18ec68d080c5563d5ff7915f979062d2a1c98a533a220636a002eaf2cca06",
+    "credit": "OpenAI ImageGen"
+  }
+]

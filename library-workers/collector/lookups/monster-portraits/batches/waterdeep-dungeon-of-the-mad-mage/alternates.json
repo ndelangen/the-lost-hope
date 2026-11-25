@@ -1,0 +1,122 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Animated Staff of Frost",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/animated-staff-of-frost/source-adventure-token.webp",
+    "artist": "Adventure token: Animated Staff",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WDMM/Animated%20Staff.webp",
+    "kind": "token",
+    "sha256": "75ca1f73ee11124813c9a4098cbe241f522cf744b33a8fa2c792d202fac487b9",
+    "reference": "images/monsters/flying-staff/wdh-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Astyrranthor",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/astyrranthor/source-adventure-token.webp",
+    "artist": "Adventure token: Ashtyrranthor",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WDMM/Ashtyrranthor.webp",
+    "kind": "token",
+    "sha256": "572a87e1922beb81975b8431e3e8c46afb5daa799091f8a7579146c75b5f0400",
+    "reference": "images/monsters/ashtyrranthor/wdmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Darribeth Meltimer",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/darribeth-meltimer/source-jru247.webp",
+    "artist": "Adventure character artwork: Jru247 · Community portrait",
+    "url": "https://i.imgur.com/iaH6dfG.png",
+    "kind": "illustration",
+    "sha256": "1588f1f5cbb80a59d59c1dee92bbff629f7f6fa65559ebb1d141a4277d5003de",
+    "artworkPage": "https://imgur.com/a/SNO27pN"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Derrion Shadowdusk",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/derrion-shadowdusk/source-jru247.webp",
+    "artist": "Adventure character artwork: Jru247 · Community portrait",
+    "url": "https://i.imgur.com/gTh3xK0.png",
+    "kind": "illustration",
+    "sha256": "16892681080588478a956be91bd106680bbe06245b3e841d27e2fc137aed6d0e",
+    "artworkPage": "https://imgur.com/a/SNO27pN"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Gelatinous Cube (Giant Ooze variant)",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/gelatinous-cube-giant-ooze-variant/source-adventure-token.webp",
+    "artist": "Adventure token: Giant Gelatinous Cube",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WDMM/Giant%20Gelatinous%20Cube.webp",
+    "kind": "token",
+    "sha256": "783740fee6a67d9beb345133bc24e5fb6bdda64bf4254a61ad19c772a62d555a",
+    "reference": "images/monsters/giant-gelatinous-cube/wdmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Harria Valashtar",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/harria-valashtar/source-jru247.webp",
+    "artist": "Adventure character artwork: Jru247 · Community portrait",
+    "url": "https://i.imgur.com/MyDpjgO.png",
+    "kind": "illustration",
+    "sha256": "6bc782972e56c90b9507e8d6a09eac1c2e1dc273746b18a5a935f2a3cc84168e",
+    "artworkPage": "https://imgur.com/a/SNO27pN"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Statue of Lolth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/statue-of-lolth/source-adventure-token.webp",
+    "artist": "Adventure token: Animated Statue of Lolth",
+    "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/WDMM/Animated%20Statue%20of%20Lolth.webp",
+    "kind": "token",
+    "sha256": "31d044f1f7fc8694482afdad528e9fa1abcad3d96c8a1179412d2f23cc668c18",
+    "reference": "images/monsters/animated-statue-of-lolth/wdmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Turbulence",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/turbulence/source-jru247.webp",
+    "artist": "Adventure character artwork: Jru247 · Community portrait · Horned Sisters",
+    "url": "https://i.imgur.com/IBTfldl.png",
+    "kind": "illustration",
+    "sha256": "f369f0ad25a74d9299b15f2d61de73cc2cdd9d5067845e065317cc713aed5573",
+    "artworkPage": "https://imgur.com/a/SNO27pN"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Uktarl Krannoc",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/uktarl-krannoc/source-jru247.webp",
+    "artist": "Adventure character artwork: Jru247 · Community portrait · Captioned Uktrol Krannoc",
+    "url": "https://i.imgur.com/CxSfjU7.png",
+    "kind": "illustration",
+    "sha256": "4368a4839590ecdfc8ee1509680351ebc600c007baebe67a655b270ba2090e0d",
+    "artworkPage": "https://imgur.com/a/SNO27pN"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Violence",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/violence/source-jru247.webp",
+    "artist": "Adventure character artwork: Jru247 · Community portrait · Horned Sisters",
+    "url": "https://i.imgur.com/IBTfldl.png",
+    "kind": "illustration",
+    "sha256": "f369f0ad25a74d9299b15f2d61de73cc2cdd9d5067845e065317cc713aed5573",
+    "artworkPage": "https://imgur.com/a/SNO27pN"
+  }
+]

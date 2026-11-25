@@ -1,0 +1,221 @@
+[
+  {
+    "name": "Hadrosaurus",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast (Dinosaur), unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Passive Perception 12. Languages —.",
+    "appearance": "A gray-green, duck-billed dinosaur with a curved reddish head crest and a long tail.",
+    "habitats": [
+      "Grassland",
+      "Swamp"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Dinosaurs, stat block p. 96. https://www.dndbeyond.com/monsters/2560844-hadrosaurus",
+      "Actions": "Tail. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) bludgeoning damage.",
+      "Encounter ecology": "This herbivore can move on two or four legs. A hadrosaurus raised from a hatchling can be trained to carry a rider."
+    }
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast (Dinosaur), unaligned",
+    "ac": 13,
+    "hp": 30,
+    "hitDice": "4d12 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Passive Perception 12. Languages —.",
+    "appearance": "A long-beaked, crested pterosaur with folded wing membranes and long forelimbs.",
+    "habitats": [
+      "Coastal",
+      "Hill",
+      "Mountain"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Dinosaurs, stat block p. 96. https://www.dndbeyond.com/monsters/2560901-quetzalcoatlus",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one creature. A hit deals 12 (3d6 + 2) piercing damage. If the quetzalcoatlus flew at least 30 ft. toward the target immediately before the hit, the target takes another 10 (3d6) piercing damage.",
+      "Encounter ecology": "Its wingspan exceeds 30 ft. It can walk on all fours and is more comfortable flying."
+    }
+  },
+  {
+    "name": "Stegosaurus",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast (Dinosaur), unaligned",
+    "ac": 13,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 10. Languages —.",
+    "appearance": "A heavy gray-green dinosaur with reddish dorsal plates and a curved, spiked tail.",
+    "habitats": [
+      "Forest",
+      "Grassland"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Dinosaurs, stat block p. 96. https://www.dndbeyond.com/monsters/2560928-stegosaurus",
+      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 26 (6d6 + 5) piercing damage.",
+      "Encounter ecology": "Stegosaurs travel in herds of mixed ages. The flexible, spiked tail can strike predators."
+    }
+  },
+  {
+    "name": "Swarm of Rot Grubs",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "edition": "2014 fifth edition",
+    "classification": "Medium swarm of Tiny Beasts, unaligned",
+    "ac": 8,
+    "hp": 22,
+    "hitDice": "5d8",
+    "speed": "5 ft., climb 5 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "passivePerception": 6,
+    "otherStatistics": "Proficiency bonus +2. Blindsight 10 ft. Passive Perception 6. Languages —.",
+    "appearance": "A close cluster of pale, legless grubs with ringed bodies and darker mouthparts.",
+    "habitats": [
+      "Swamp",
+      "Underdark"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, Chapter 2, Swarm of Rot Grubs, stat block p. 237. https://www.dndbeyond.com/monsters/2560935-swarm-of-rot-grubs",
+      "Damage Vulnerabilities": "Fire.",
+      "Damage Resistances": "Piercing and slashing.",
+      "Condition Immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone and restrained.",
+      "Traits": "Swarm. The swarm can share spaces with other creatures and pass through openings large enough for a Tiny maggot. It cannot regain HP or gain temporary HP.",
+      "Actions": "Bites. Melee weapon attack, +0 to hit, reach 0 ft., one creature in the swarm’s space. A hit deals 7 (2d6) piercing damage. The target must pass a DC 10 Constitution saving throw or become poisoned. A poisoned target takes 3 (1d6) poison damage at the end of each of its turns. Each time the target takes fire damage, it can repeat the save, ending the effect on a success. If the poisoned target ends its turn with 0 HP, it dies.",
+      "Single Rot Grub": "On contact with an individual grub, a creature must pass a DC 10 Constitution saving throw or become poisoned as the grub burrows in. It takes 3 (1d6) poison damage at the end of each of its turns while poisoned. Each time it takes fire damage, it can repeat the save, ending the effect on a success. If the poisoned creature ends its turn with 0 HP, it dies.",
+      "Encounter ecology": "These finger-sized maggots infest corpses and decaying matter. They eat living or dead creatures and can also survive on vegetation. Fire helps dislodge them, and the text also identifies magic that neutralizes poison as a way to stop them."
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Basilisk",
+    "file": "portraits/basilisk.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e7693d3bbd512536c2887835c14d2158de6d745c84494f80dc19a0c555e70407",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Behir",
+    "file": "portraits/behir.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ae0f068c510d7e255f379da99cb37fc648bb6a6278aafa686d748fb0da343deb",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Beholder",
+    "file": "portraits/beholder.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e47d03c146cf026ed05c4417297f225e5a38966cdc20fc47fddc7ebab4fbe8e0",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Blight",
+    "file": "portraits/blight.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "9fd23322bbe6d1d29e839e585464506b39c62b568bb93c59dd698f7389a60b1d",
+    "credit": "OpenAI ImageGen"
+  }
+]

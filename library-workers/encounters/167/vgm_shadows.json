@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Orc Nurtured One of Yurtrus",
+    "statBlock": {
+      "name": "Orc Nurtured One of Yurtrus",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 9,
+      "hp": 30,
+      "hitDice": "4d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This orc carries a deadly infection and can sacrifice itself to spread it to enemies nearby.",
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Orc.",
+        "Traits": "Corrupted Carrier. When the orc drops to 0 HP, it bursts. Every creature within 10 ft. makes a DC 13 Constitution save. On a failure, the creature takes 14 (4d6) poison damage, is poisoned and can't regain HP while poisoned this way. On a success, the creature takes half damage and avoids the condition. A creature poisoned by the burst repeats the save at the end of each of its turns, ending the effect on a success.\nNurtured One of Yurtrus. The orc has advantage on saves against disease and poison.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage plus 2 (1d4) necrotic damage.\nCorrupted Vengeance. The orc drops its own HP to 0, activating Corrupted Carrier.",
+        "Bonus actions": "Aggressive. The orc moves up to its speed toward a hostile creature it can see.",
+        "Printed source": "Volo's Guide to Monsters, p. 184."
+      }
+    }
+  },
+  {
+    "name": "Orc Red Fang of Shargaas",
+    "statBlock": {
+      "name": "Orc Red Fang of Shargaas",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 185,
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 15,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An orc ambusher that can see through its own magical darkness and strikes hardest before its victims get a turn.",
+      "skills": {
+        "Intimidation": 1,
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Orc.",
+        "Traits": "Hand of Shargaas. A weapon hit deals two extra damage dice, already included in the attacks below.\nShargaas's Sight. The orc's darkvision works through magical darkness.\nSlayer. In the first round, the orc has advantage on attacks against creatures that haven't taken a turn. Any hit it lands that round against a creature that was surprised is a critical hit.",
+        "Actions": "Multiattack. The orc makes two attacks with its scimitar or dart.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) slashing damage.\nDart. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. A hit deals 10 (3d4 + 3) piercing damage.\nVeil of Shargaas (recharges on a short or long rest). The orc uses Wisdom to cast Darkness without components.",
+        "Bonus actions": "Cunning Action. On its turn, the orc can Dash, Disengage or Hide.",
+        "Printed source": "Volo's Guide to Monsters, p. 185."
+      }
+    }
+  },
+  {
+    "name": "Quickling",
+    "statBlock": {
+      "name": "Quickling",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 187,
+      "classification": "Tiny fey, chaotic evil",
+      "ac": 16,
+      "hp": 10,
+      "hitDice": "3d4 + 3",
+      "speed": "120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 23
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A tiny fey whose movements blur as it darts between targets with a dagger.",
+      "skills": {
+        "Acrobatics": 8,
+        "Perception": 5,
+        "Sleight of Hand": 8,
+        "Stealth": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Blurred Movement. Attacks against the quickling have disadvantage unless it is incapacitated or restrained.\nEvasion. When a Dexterity save would halve incoming damage, the quickling takes half on a failed save and no damage on a success.",
+        "Actions": "Multiattack. The quickling makes three dagger attacks.\nDagger. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 8 (1d4 + 6) piercing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 187."
+      }
+    }
+  },
+  {
+    "name": "Red Guard Drake",
+    "statBlock": {
+      "name": "Red Guard Drake",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A red-scaled guard drake that can scramble up walls and withstand fire.",
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak.",
+        "Damage resistances": "Fire.",
+        "Actions": "Multiattack. The drake uses Bite once and Tail once.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 158."
+      }
+    }
+  },
+  {
+    "name": "Redcap",
+    "statBlock": {
+      "name": "Redcap",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 188,
+      "classification": "Small fey, chaotic evil",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d6 + 24",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A murderous fey with a sickle and heavy iron boots. The boots give away its approach and make its kick dangerous.",
+      "skills": {
+        "Athletics": 6,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Traits": "Iron Boots. The redcap has disadvantage on Dexterity (Stealth) checks while moving.\nOutsize Strength. The redcap counts as Medium for grappling. Heavy weapons don't impose disadvantage on its attacks.",
+        "Actions": "Multiattack. The redcap makes three Wicked Sickle attacks.\nWicked Sickle. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) slashing damage.\nIronbound Pursuit. The redcap moves up to its speed toward a creature it can see and kicks it. On a failed DC 14 Dexterity save, that creature takes 20 (3d10 + 4) bludgeoning damage and falls prone.",
+        "Printed source": "Volo's Guide to Monsters, p. 188."
+      }
+    }
+  },
+  {
+    "name": "Sea Spawn",
+    "statBlock": {
+      "name": "Sea Spawn",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 189,
+      "classification": "Medium humanoid, neutral evil",
+      "ac": 11,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "20 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A transformed humanoid that returns to the sea each day. Its body may grow fangs, poisonous quills or a tentacle.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Understands Aquan and Common and cannot speak.",
+        "Traits": "Limited Amphibiousness. The sea spawn breathes air and water. It must spend at least 1 minute underwater in the sea each day or begin suffocating.",
+        "Actions": "Multiattack. Two Unarmed Strikes and one attack granted by Piscine Anatomy.\nUnarmed Strike. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Piscine Anatomy": "Choose one or more options to match the sea spawn's body.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nPoison Quills. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 3 (1d6) poison damage. The creature must make a DC 12 Constitution save or become poisoned for 1 minute. It repeats the save at the end of each of its turns, ending the condition on a success.\nTentacle. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage and grapples a Medium or smaller creature (escape DC 12). While this grapple lasts, the sea spawn can use this tentacle only on the creature it has grappled.",
+        "Printed source": "Volo's Guide to Monsters, p. 189."
+      }
+    }
+  },
+  {
+    "name": "Shadow Mastiff",
+    "statBlock": {
+      "name": "Shadow Mastiff",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A hound of the Shadowfell that vanishes in low light and can see into the Ethereal Plane.",
+      "skills": {
+        "Perception": 3,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from nonmagical attacks while the mastiff is in dim light or darkness.",
+        "Traits": "Ethereal Awareness. The mastiff sees creatures and objects on the Ethereal Plane.\nKeen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks using hearing or smell.\nSunlight Weakness. In bright sunlight, the mastiff has disadvantage on attacks, ability checks and saving throws.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must make a DC 13 Strength save or fall prone.",
+        "Bonus actions": "Shadow Blend. In dim light or darkness, the mastiff turns invisible along with anything it wears or carries. Invisibility ends if it attacks, enters bright light, becomes incapacitated or spends another bonus action to end it.",
+        "Printed source": "Volo's Guide to Monsters, p. 190."
+      }
+    }
+  },
+  {
+    "name": "Shadow Mastiff Alpha",
+    "statBlock": {
+      "name": "Shadow Mastiff Alpha",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 12,
+      "hp": 48,
+      "hitDice": "",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A hardier shadow mastiff with a howl that can frighten beasts and humanoids from hundreds of feet away.",
+      "skills": {
+        "Perception": 3,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Damage resistances": "Bludgeoning, piercing and slashing from nonmagical attacks while the mastiff is in dim light or darkness.",
+        "Traits": "Ethereal Awareness. The mastiff sees creatures and objects on the Ethereal Plane.\nKeen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks using hearing or smell.\nSunlight Weakness. In bright sunlight, the mastiff has disadvantage on attacks, ability checks and saving throws.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage. A creature hit must make a DC 13 Strength save or fall prone.\nTerrifying Howl. Each beast or humanoid within 300 ft. that can hear the alpha must make a DC 11 Wisdom save. A failed save leaves the creature frightened for 1 minute. It repeats the save at the end of each of its turns, ending the condition on a success. After a successful save or when the effect ends, the creature is immune to Terrifying Howl from any shadow mastiff for 24 hours.",
+        "Bonus actions": "Shadow Blend. In dim light or darkness, the mastiff turns invisible along with anything it wears or carries. Invisibility ends if it attacks, enters bright light, becomes incapacitated or spends another bonus action to end it.",
+        "Variant hit points": "Volo’s sidebar gives the alpha 42–54 hit points. This profile uses 48, the midpoint of that range.",
+        "Printed source": "Volo's Guide to Monsters, p. 190, Shadow Mastiff variant sidebar."
+      }
+    }
+  }
+]

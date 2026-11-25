@@ -1,0 +1,27 @@
+[
+  {
+    "artGroup": "spider-king",
+    "file": "portraits/spider-king.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "648b76539a7e398f4c5d99cea78d25be03d5ad4fe3668b7675a4a72a05bd0817",
+    "credit": "OpenAI ImageGen",
+    "prompts": [
+      "Create one square fantasy bestiary portrait, the Spider King from Out of the Abyss. Use supplied Big Linda image strictly as a stylistic reference for muted flat tan paper, very subtle paper texture, gentle modeling and natural-history painting. The creature is a single huge spider physically warped to look vaguely humanoid, with exactly two distinct spider heads side by side clearly joined to one creature, each with its own cluster of small spider eyes and a pair of chelicerae, with no human faces or torsos. Eight spider legs total, a single broad abdomen, dark mottled earth-brown and charcoal chitin with sparse subtle hair. The front body is held slightly upright in a humanlike posture and the front pair of spider legs rise subtly like angular arms, while the other legs plant naturally, all obviously spider legs and no human hands. Three-quarter frontal view. The two distinct heads should remain easy to count at small size. No second body or other creature. Keep all feet, heads and abdomen inside a centered inscribed circle with 8 percent paper margin. Match the reference's plain warm matte tan parchment over the whole square, no shaded edges, no scenery, props, web, rock, cave, glowing magic, text, letters, frame or gore. Very faint diffuse contact shadow beneath the feet only.",
+      "Edit the supplied two-headed spider painting. REMOVE the large drawn circular outline entirely. Fill the whole square with continuous plain muted matte tan parchment of the same color and texture, identical edge to edge with no border and no linework of any kind outside the creature. Preserve its two distinct spider heads, the one abdomen, and its raised, vaguely humanoid front. Refine the legs so it has eight total, four emerging on each side, one lifted and three walking legs per side. Keep a compact entire specimen visibly separated from the edges of the canvas, with generous empty paper surrounding it. Keep the naturalist paint treatment and soft contact shadow, no scenery, props, writing, or graphic marks.",
+      "Edit the supplied full-body two-headed Spider King illustration. Remove exactly one extra thin supporting leg visible beneath the center of its belly, with its foot at roughly 46% of the canvas width and 72% of the canvas height. This is the small isolated vertical limb in the open gap under the abdomen between the left-side and right-side rows of planted legs. Remove it completely and restore the empty tan paper in that open gap. Keep every other leg exactly where it is, six planted legs and the two gesturing forelegs, and preserve the two clearly visible heads, the partly upright front, the single abdomen, painting style, empty tan paper with no marks, and full original framing."
+    ]
+  },
+  {
+    "artGroup": "golden-stag",
+    "file": "portraits/golden-stag.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f08a64bca203c144a7011ce9cea5341d00d832ab4d38707fc99bd6808ff0157c",
+    "credit": "OpenAI ImageGen",
+    "prompts": [
+      "Create one square fantasy bestiary portrait of the Golden Stag from Hoard of the Dragon Queen. Use supplied Big Linda only as style, parchment color and lighting reference. Paint one impressive complete adult elk-sized stag, gracefully standing at three-quarters with legs and antler tips set inside generous centered circular thumbnail margins. Realistic ungulate anatomy, tall narrow shoulders, natural broad bifurcated cervid antlers, intact hooves, a dark nose and lively dark eyes. Its natural fine coat shimmers like spun warm gold, with restrained textured champagne and golden ochre highlights. Both branching antlers have the cool platinum color and subtle highlights of pale argent, clearly paler and cooler than its fur. Intrinsic golden fur, no aura, lightning, literal metal clothing or unnatural glow. Carefully distinguish the coat from the neutral, warm tan matte paper by hue and contrast. Flat evenly lit plain matte tan parchment exactly as in the reference, fine subtle texture edge to edge, very soft ground-contact shadow only. One single complete stag in natural-history painted realism. No scenery, vegetation, props, borders, titles, type, text, framing, paper stains or vignette.",
+      "Edit the supplied full-body portrait of a golden stag with platinum-colored antlers. Retain the same beautiful creature, shimmering textured golden fur, pale cool antlers and naturalist painting. Reframe it clearly farther away, resizing the entire animal so the full silhouette from the tallest antler to the hoof bottoms occupies only about 70 percent of the square's height. Center the resized silhouette horizontally and vertically. Leave abundant completely empty plain warm matte tan parchment above every antler tip, below the hooves, and on either side. Keep the same subtle contact shadow below just its hoof placement and extend the continuous quiet parchment tone and texture all the way to every square corner. No graphic marks, guides, borders, scenery, text, or objects."
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Inspired (Hashalaq variant)",
+    "slug": "inspired-hashalaq-variant",
+    "id": "monster-f6127dc6ef3f34914c570766",
+    "entry": "monster-f6127dc6ef3f34914c570766",
+    "version": "1a8d963fef0da057b1ad1335",
+    "suffix": "encounters-24/inspired-hashalaq-variant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-24/inspired-hashalaq-variant.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-24/event-drafts/inspired-hashalaq-variant-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 24 2026-11-23/event-drafts/inspired-hashalaq-variant-event-v1.png",
+    "overrides": [],
+    "sha256": "38557a23517ec3a43594d294e85accaaf4e9e244a98e0aafc13c8c5cd43405d7",
+    "bytes": 2214415
+  },
+  {
+    "name": "Inspired (Kalaraq variant)",
+    "slug": "inspired-kalaraq-variant",
+    "id": "monster-93e98b283311a7448f95a911",
+    "entry": "monster-93e98b283311a7448f95a911",
+    "version": "e405ea4225fdcc97c230c702",
+    "suffix": "encounters-24/inspired-kalaraq-variant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-24/inspired-kalaraq-variant.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-24/event-drafts/inspired-kalaraq-variant-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 24 2026-11-23/event-drafts/inspired-kalaraq-variant-event-v1.png",
+    "overrides": [],
+    "sha256": "ae6664e8446952baab6fbe91ff2fe12f486184c8cc76e5d49e5804f1c0b86269",
+    "bytes": 2243548
+  },
+  {
+    "name": "Inspired (Tsucora variant)",
+    "slug": "inspired-tsucora-variant",
+    "id": "monster-65ab34fd5e76dc4800abd51b",
+    "entry": "monster-65ab34fd5e76dc4800abd51b",
+    "version": "b708d2d558151bfc9dda37bd",
+    "suffix": "encounters-24/inspired-tsucora-variant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-24/inspired-tsucora-variant.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-24/event-drafts/inspired-tsucora-variant-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 24 2026-11-23/event-drafts/inspired-tsucora-variant-event-v1.png",
+    "overrides": [],
+    "sha256": "4ba639c11d555f9009f825f045779822c63f521958b4f4391fe305a520c237a7",
+    "bytes": 2423933
+  }
+]

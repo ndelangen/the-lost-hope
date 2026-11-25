@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Pooka",
+    "kind": "species",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "traits": [
+      "A fairy animal spirit with one chosen starting animal form. A form that can handle weapons may wield them. Determine a form’s natural attacks from the animal’s own rules. Its natural AC is 7 before Dexterity adjustment. Armor and shields are prohibited. Wisdom is the prime requisite.",
+      "Table 14 begins at −4,000 XP with 1d8, gives 2d8 at 0 XP, then 3d8 at 4,000 XP. Use the monster attack table by Hit Dice and save as a thief of the greater of level or Hit Dice.",
+      "Can disappear to mortal eyes and can choose which mortals still see it. At 0 XP, touching a nonsentient object can age it, and a sleeper who fails a save vs. spells can be given a dream with no direct mechanical effect.",
+      "Later tiers unlock Hasten Self at 3rd, Hasten or Slow Other at 5th, healing at 7th, and temporal dodging at 9th. At 10th, changing into another normal animal takes one round and can be done once per three levels per day, rounded down. The book also describes withering, time stop, and temporal stasis.",
+      "Second sight recognizes invisible or disguised fairies. Fairies do not age or catch natural diseases, and ghoul paralysis fails against them. A splash of holy water deals 1d4 damage."
+    ]
+  },
+  {
+    "name": "Sidhe",
+    "kind": "species",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "traits": [
+      "Fairies who breathe water and air and can become invisible to mortals. Prolonged exposure to iron drains vitality. A wound from an iron weapon uses ordinary damage. Sidhe use nonferrous equipment.",
+      "Warrior and rogue share one race-class and XP progression. Both start at 0 XP and 1d4. At 2,500 XP, a warrior adds another d4 of HP for the table’s effective 1d8 total, with Constitution applied to each roll, and a rogue gains no HP. Both learn their first fairy charm at that tier.",
+      "The warrior’s prime requisites are Strength and Intelligence. Warriors use a fighter’s permitted weapons and armor subject to the iron restriction, save as fighters of equal level, and gain fighter multiple attacks at later levels.",
+      "The rogue’s prime requisites are Intelligence and Dexterity. Dexterity 8 is required. Rogues use thief gear, saves, and skills by level. Both paths choose from the fairy charm list and replenish spells by communing with nature. The book recommends allowing Polymorph Self as a 2nd-level spell with an indefinite duration until ended, dispelled, or the sidhe dies.",
+      "Second sight recognizes invisible or disguised fairies. Fairies do not age or catch natural diseases, and ghoul paralysis fails against them. A splash of holy water deals 1d4 damage."
+    ]
+  },
+  {
+    "name": "Sprite",
+    "kind": "species",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "traits": [
+      "A fairy around a foot tall with green, translucent insect wings. It can fly and turn invisible to mortals at will. A creature it attacks sees it. Use any suitably sized one-handed weapon. Armor and shields interfere with flight and spellcasting. Natural AC is 8 before Dexterity adjustment.",
+      "Intelligence and Dexterity are the prime requisites. Tables 12–13 start at 1d4 and 0 XP with no spells and give 2d4 and one first-level fairy charm at 2,000 XP. Save as an elf of level equal to the sprite’s Hit Dice.",
+      "Five sprites together can cast one mischievous curse without dealing damage. The book suggests letting sprites learn Curse as a 2nd-level charm at spellcasting tiers with a 2nd-level slot. The reversal remains 3rd level. Fairy charms replenish through communion with nature.",
+      "At no more than 3 coin weight the Sprite flies at 180 ft. per turn or 60 ft. per encounter round. A load of up to 25 coin weight permits a walking move of 60 ft. per turn or 20 ft. per encounter round. Encumbrance that slows flight requires a turn of rest after every three turns in the air.",
+      "Second sight recognizes invisible or disguised fairies. Fairies do not age or catch natural diseases, and ghoul paralysis fails against them. A splash of holy water deals 1d4 damage."
+    ]
+  },
+  {
+    "name": "Wood Imp",
+    "kind": "species",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "traits": [
+      "Green-skinned forest humanoid with long tangled hair, typically 18–24 inches tall. Wood Imps communicate with arachnids. They surprise on 1–3 on 1d6 in forests. They lack the fairy power of invisibility to mortals.",
+      "Dexterity is the prime requisite. Player-creature Table 7 starts at 0 XP and 1d4, treated as a full attack Hit Die and saving as a normal human. At 800 XP, it reaches 1st level with 2d4 and thereafter saves as a fighter of its level.",
+      "May use suitably sized weapons and armor and fighter magic items. Shaman training requires Wisdom 14, a mentor of the same alignment, extra XP and a ritual. The shaman can also use cleric magic items. The ordinary spellcasting cap is shaman level 4."
+    ]
+  },
+  {
+    "name": "Woodrake",
+    "kind": "species",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "traits": [
+      "A drake of fairy descent can freely assume its drake, elf, or halfling shape. Drake natural Armor Class improves through 8, 6 and 4 to 2 at 0 XP. Elf and halfling forms can use thief gear and use ordinary character movement and encumbrance. Intelligence and Dexterity are the prime requisites.",
+      "Table 17 starts at −16,000 XP and 1d8, reaches 4d8 at 0 XP, and gives 5d8 at 16,000 XP. Save as a magic-user of level equal to twice the Woodrake’s Hit Dice. At 0 XP, drake form attacks with two 1d2 claws and one 1d8 bite, each with applicable Strength modifiers.",
+      "At 0 XP it uses 5th-level thief skills. From 1st through 10th level, use Hit Dice for the thief skill level. At 1st level it can attempt magic items restricted to spellcasting fairies, elves and magic-users. It gains invisibility to mortals at 2nd.",
+      "The book proposes limited immunity for playable Woodrakes. Starting at 0 XP, declare the round before it begins to ignore spells of 4th level or lower. The allowance is two rounds per day per Woodrake level, treating the 0 XP tier as level 1.",
+      "Second sight recognizes invisible or disguised fairies. Fairies do not age or catch natural diseases, and ghoul paralysis fails against them. A splash of holy water deals 1d4 damage."
+    ]
+  }
+]

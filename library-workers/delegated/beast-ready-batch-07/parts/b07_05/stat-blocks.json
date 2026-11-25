@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Baboon",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 13,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "initiative": 2,
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "appearance": "A sturdy, tawny baboon with a long muzzle and an upward-curving tail.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Fort": 3,
+      "Ref": 4,
+      "Will": 1
+    },
+    "otherStatistics": "Initiative +2. AC 13 (+2 Dex, +1 natural), touch 12, flat-footed 11. Base attack +0, grapple +2. Space 5 ft., reach 5 ft. Fort +3, Ref +4, Will +1. Special qualities low-light vision and scent.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BABOON. Readable view: https://www.d20srd.org/srd/monsters/baboon.htm",
+      "Attack": "Bite +2 melee (1d6 + 3).",
+      "Full attack": "Bite +2 melee (1d6 + 3).",
+      "Special attacks": "No listed special attacks.",
+      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint.",
+      "Skills and feats": "Climb +10, Listen +5, Spot +5. Alertness. The listed Climb modifier includes a +8 racial bonus. It can take 10 on Climb even when rushed or threatened.",
+      "Encounter ecology": "Warm plains. Solitary or troop of 10–40. Usually attacks in groups. It prefers open ground and climbs trees for safe overnight resting. Adult males reach 2–4 ft. long and weigh up to 90 lb. Always neutral. No treasure.",
+      "Advancement": "2–3 HD (Medium). Level adjustment —."
+    }
+  },
+  {
+    "name": "Dire Ape",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 15,
+    "hp": 35,
+    "hitDice": "5d8 + 13",
+    "initiative": 2,
+    "speed": "30 ft., climb 15 ft.",
+    "cr": "3",
+    "appearance": "A huge, dark-furred ape with a broad chest, heavy brow and long knuckle-walking arms.",
+    "habitats": [
+      "Warm forests"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fort": 6,
+      "Ref": 6,
+      "Will": 5
+    },
+    "otherStatistics": "Initiative +2. AC 15 (-1 size, +2 Dex, +4 natural), touch 11, flat-footed 13. Base attack +3, grapple +13. Space 10 ft., reach 10 ft. Fort +6, Ref +6, Will +5. Special qualities low-light vision and scent.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE APE. Readable view: https://www.d20srd.org/srd/monsters/direApe.htm",
+      "Attack": "Claw +8 melee (1d6 + 6).",
+      "Full attack": "Two claws +8 melee (1d6 + 6 each) and bite +3 melee (1d8 + 3).",
+      "Special attacks": "Rend (Ex). Hitting the same opponent with both claws automatically deals extra damage. The SRD table gives 2d6 + 9. The combat prose gives 2d6 + 12.",
+      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint.",
+      "Skills and feats": "Climb +14, Listen +5, Move Silently +4, Spot +6. Alertness, Toughness. The listed Climb modifier includes a +8 racial bonus. It can take 10 on Climb even when rushed or threatened.",
+      "Encounter ecology": "Warm forests. Solitary or company of 5–8. About 9 ft. tall and 800–1,200 lb. It attacks intruders and may try to grapple and pin a foe whose armor stops its attacks. Always neutral. No treasure.",
+      "Advancement": "6–15 HD (Large). Level adjustment —.",
+      "Printing note": "Rend damage conflicts within the RTF. Choose which printed value to use before play. Both are preserved in the Special attacks section."
+    }
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 14,
+    "hp": 45,
+    "hitDice": "6d8 + 18",
+    "initiative": 2,
+    "speed": "50 ft.",
+    "cr": "3",
+    "appearance": "An oversized, long-legged wolf with mottled grey fur, a broad muzzle and heavy shoulders.",
+    "habitats": [
+      "Temperate forests"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "savingThrows": {
+      "Fort": 8,
+      "Ref": 7,
+      "Will": 6
+    },
+    "otherStatistics": "Initiative +2. AC 14 (-1 size, +2 Dex, +3 natural), touch 11, flat-footed 12. Base attack +4, grapple +15. Space 10 ft., reach 5 ft. Fort +8, Ref +7, Will +6. Special qualities low-light vision and scent.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE WOLF. Readable view: https://www.d20srd.org/srd/monsters/direWolf.htm",
+      "Attack": "Bite +11 melee (1d8 + 10).",
+      "Full attack": "Bite +11 melee (1d8 + 10).",
+      "Special attacks": "Trip (Ex). After a bite hits, the wolf can use a free action to make a trip attempt at +11. Skip the melee touch attack, and the attempt provokes no attack of opportunity. Success leaves the opponent prone. Standing takes a move action. Oppose the listed modifier with the defender’s better Strength or Dexterity check, applying the normal size and stability modifiers. Normal Trip allows a target up to one size category larger. A failed attempt here gives the defender no counter-trip.",
+      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint. With Track, use Wisdom or Survival to follow scent. A fresh trail typically starts at DC 10, increasing by 2 per hour since it was made. Scent tracking ignores surface and visibility modifiers.",
+      "Skills and feats": "Hide +0, Listen +7, Move Silently +4, Spot +7, Survival +2. Alertness, Run, Track (bonus feat), Weapon Focus (bite). The wolf has a +2 racial bonus on Hide, Listen, Move Silently and Spot. Add its listed +4 racial bonus on Survival when tracking by scent.",
+      "Encounter ecology": "Temperate forests. Solitary or pack of 5–8. About 9 ft. long and 800 lb. Pack members surround and flank prey. Always neutral. No treasure.",
+      "Advancement": "7–18 HD (Large). Level adjustment —."
+    }
+  },
+  {
+    "name": "Hyena",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 14,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "initiative": 2,
+    "speed": "50 ft.",
+    "cr": "1",
+    "appearance": "A narrow-bodied striped hyena with pointed ears, a tall dark mane and charcoal stripes on its grey-tan flanks and legs.",
+    "habitats": [
+      "Warm deserts"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fort": 5,
+      "Ref": 5,
+      "Will": 1
+    },
+    "otherStatistics": "Initiative +2. AC 14 (+2 Dex, +2 natural), touch 12, flat-footed 12. Base attack +1, grapple +3. Space 5 ft., reach 5 ft. Fort +5, Ref +5, Will +1. Special qualities low-light vision and scent.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, HYENA. Readable view: https://www.d20srd.org/srd/monsters/hyena.htm",
+      "Attack": "Bite +3 melee (1d6 + 3).",
+      "Full attack": "Bite +3 melee (1d6 + 3).",
+      "Special attacks": "Trip (Ex). After a bite hits, the hyena can use a free action to make a trip attempt at +2. Skip the melee touch attack, and the attempt provokes no attack of opportunity. Success leaves the opponent prone. Standing takes a move action. Oppose the listed modifier with the defender’s better Strength or Dexterity check, applying the normal size and stability modifiers. Normal Trip allows a target up to one size category larger. A failed attempt here gives the defender no counter-trip.",
+      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint.",
+      "Skills and feats": "Hide +3, Listen +6, Spot +4. Alertness. Add a +4 racial bonus to Hide in tall grass or heavy undergrowth, giving +7 there.",
+      "Encounter ecology": "Warm deserts. Solitary, pair or pack of 7–16. The source describes a striped hyena about 3 ft. long and 120 lb. Hunters often split into a frontal group and a second group that circles to flank or attack from behind. Always neutral. No treasure.",
+      "Advancement": "3 HD (Medium) or 4–5 HD (Large). Level adjustment —."
+    }
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 15,
+    "hp": 68,
+    "hitDice": "8d8 + 32",
+    "initiative": 1,
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "4",
+    "appearance": "A long, pale-furred bear with a narrow head, thick shoulders and wide paws.",
+    "habitats": [
+      "Cold plains"
+    ],
+    "abilities": {
+      "Str": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Fort": 10,
+      "Ref": 7,
+      "Will": 3
+    },
+    "otherStatistics": "Initiative +1. AC 15 (-1 size, +1 Dex, +5 natural), touch 10, flat-footed 14. Base attack +6, grapple +18. Space 10 ft., reach 5 ft. Fort +10, Ref +7, Will +3. Special qualities low-light vision and scent.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BEAR, POLAR. Readable view: https://www.d20srd.org/srd/monsters/bearPolar.htm",
+      "Attack": "Claw +13 melee (1d8 + 8).",
+      "Full attack": "Two claws +13 melee (1d8 + 8 each) and bite +8 melee (2d6 + 4).",
+      "Special attacks": "Improved Grab (Ex). On a claw hit against a Medium or smaller opponent, deal normal damage and attempt a grapple as a free action. No touch attack or attack of opportunity. A successful hold pulls the target into the bear’s space without provoking. Grapple normally at +18, or hold with the claw alone at a -20 penalty to grapple checks. A claw-only hold leaves the bear free to use other attacks, threaten squares and keep its Dexterity bonus to AC. The initial hold adds no damage. In later rounds, each successful grapple check deals the claw damage again. The bear may drag the opponent if its carrying capacity allows. The target can replace an attack with an opposed grapple check to escape, or use a standard action to oppose the bear’s grapple check with Escape Artist.",
+      "Special qualities": "Low-light vision retains color and detail at twice normal human range in dim light. Scent detects creatures within 30 ft., or 60 ft. upwind and 15 ft. downwind. Double those ranges for strong odors, triple for overpowering ones. Use a move action to learn the direction and approach within 5 ft. to pinpoint. With Track, use Wisdom or Survival to follow scent. A fresh trail typically starts at DC 10, increasing by 2 per hour since it was made. Scent tracking ignores surface and visibility modifiers.",
+      "Skills and feats": "Hide -2, Listen +5, Spot +7, Swim +16. Endurance, Run, Track. Add +12 to Hide in snow, for +10 total there. Swim includes the +8 racial bonus for special actions or avoiding hazards. It can take 10 on Swim while distracted or endangered and can run while swimming straight.",
+      "Encounter ecology": "Cold plains. Solitary or pair. The polar bear is long and lean and slightly taller than a brown bear. It relies mainly on its claws when fighting. Always neutral. No treasure.",
+      "Advancement": "9–12 HD (Large). Level adjustment —."
+    }
+  }
+]

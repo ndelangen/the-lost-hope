@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Morkoth",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      54,
+      55
+    ],
+    "page": "pp. 54–55, Morkoth Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+    "sourceDistinctions": "The movement and Hypnosis recharge come from the trait block. The play advice permits tentacles to hold spell ingredients, while the trait itself bars hand-dependent items and foci. This build avoids spell components entirely. Vol. 2 p. 5 determines its Martial Arts damage.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Neogi",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      56,
+      88
+    ],
+    "page": "p. 56, Neogi Traits. p. 88, Neogi Master feat.",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+    "sourceDistinctions": "The shared Languages sentence trails off. The hatchling and adult entries supply their own complete language rules. The design discussion mentions a natural weapon for the basic Neogi, but the player traits only print the special unarmed damage under the Neogi Master feat. Enslave grants charm with concentration, and the trait block gives no rest limit.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Neothelid",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      57,
+      58
+    ],
+    "page": "pp. 57–58, Neothelid Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+    "sourceDistinctions": "Acid Breath is labeled acid and its damage is explicitly acid. The action description says lightning once. Acid is the reading used here. The trait block separately grants a once-daily psionic Mage Hand.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Tlincalli",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      70
+    ],
+    "page": "p. 70, Tlincalli Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+    "sourceDistinctions": "The final lines of Sting and Languages appear before the Tlincalli heading in the text mirror’s column order. They belong to the printed p. 70 trait block. The NPC applies Strength to the piercing portion of the sting once.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Wood Woad",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Plant",
+    "url": "",
+    "rulesReadUrl": "",
+    "printedPages": [
+      75
+    ],
+    "page": "p. 75, Wood Woad Traits",
+    "publicationUrl": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "sourceRevision": "Printed text mirror of Monstrous Races 2",
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for the 2014 fifth edition.",
+    "sourceDistinctions": "The text mirror folds the last lines of Tree Stride and the remaining traits before the heading on printed p. 75. The recharge applies to the level-3 magical enhancement. The NPC starts with its grown club and shield in hand and uses the trait as written instead of official encounter regeneration.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  }
+]

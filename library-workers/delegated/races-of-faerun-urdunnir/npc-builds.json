@@ -1,0 +1,128 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Dwarf)",
+      "senses": "Darkvision 60 ft.",
+      "speed": "20 ft. in armor or under load",
+      "id": "urdunnir-flintvein-gemcutter-35e",
+      "title": "Urdunnir gemcutter, Expert 2",
+      "difficulty": "Provisional CR 2. ECL 6 (2 class HD, LA +4).",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d6+6",
+      "initiative": 1,
+      "languages": "Common, Dwarven, Undercommon, Draconic, Terran",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Appraise +7, +9 stone or metal, +11 when the related Craft synergy also applies",
+        "Craft (gemcutting) +12",
+        "Craft (metalworking) +9",
+        "Knowledge (dungeoneering) +7",
+        "Listen +6",
+        "Profession (miner) +6",
+        "Search +7 (+9 unusual stonework)",
+        "Spot +6"
+      ],
+      "traits": [
+        "Neutral. Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +1, grapple +2. Fortitude +3, Reflex +1, Will +4.",
+        "Dwarf stability gives +4 on ability checks to resist bull rush or trip when firmly grounded. Speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
+        "Stonecunning grants +2 on Search for unusual stonework, including a reactive check within 10 ft. An Urdunnir can sense approximate depth and find stonework traps as a rogue can.",
+        "+4 racial bonus on saves against poison and +2 racial bonus on saves against spells and spell-like abilities.",
+        "+4 dodge AC against giants while eligible for a Dexterity bonus to AC.",
+        "Skill Focus (gemcutting) gives +3 to the listed Craft check. Craft modifiers exclude tools.",
+        "Breka is from the Oldonnar region and weighs 216 lb. His Stone Walk payload limit is 432 lb."
+      ],
+      "actions": [
+        "Light mace +2 melee, 1d6+1 bludgeoning, critical ×2. Apply +1 against orcs and goblinoids.",
+        "Stone Walk (Su) allows passage through stone and earth as though through air. The Urdunnir can bring up to twice their body weight. The Urdunnir and any passengers must hold their breath within the material.",
+        "Stone Shape (Sp), at will, caster level 8. Standard action, touch, up to 18 cu. ft. of stone, instantaneous, no save or spell resistance. Makes rough forms. A shape with moving parts has a 30% failure chance.",
+        "Shape Metal (Sp), at will once per round, caster level 8. Full-round action, touch, up to 5 cu. ft. of metal, instantaneous, Fortitude negates and spell resistance applies. Fortitude DC 14 where applicable, melee touch +2. Shape Metal can reduce a touched armor’s protection by 1d6 (half for mostly nonmetal armor). Against a shield, weapon, or metallic creature it instead deals 4d6, bypassing hardness or damage reduction. Touching an unwilling creature or an item it holds requires a melee touch attack and normally provokes from that defender."
+      ],
+      "tactics": "Breka checks the depth and alignment of the stone before crossing. He takes a light bundle through to the known air pocket and reshapes a stone landing on the far side."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (Dwarf)",
+      "senses": "Darkvision 60 ft.",
+      "speed": "20 ft. in armor or under load",
+      "id": "urdunnir-slatebrace-rescue-guard-35e",
+      "title": "Urdunnir rescue guard, Fighter 2",
+      "difficulty": "Provisional CR 3. ECL 6 (2 class HD, LA +4).",
+      "ac": 18,
+      "hp": 21,
+      "hitDice": "2d10+6",
+      "initiative": 5,
+      "languages": "Common, Dwarven, Undercommon, Giant",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +1",
+        "Craft (armorsmithing) +8 for metal",
+        "Jump −5",
+        "Search +1 (+3 unusual stonework)"
+      ],
+      "traits": [
+        "Neutral good. Chainmail +5, heavy steel shield +2, Dexterity +1. Touch 11, flat-footed 17, armor check penalty −7. BAB +2, grapple +5. Fortitude +6, Reflex +1, Will +1.",
+        "Dwarf stability gives +4 on ability checks to resist bull rush or trip when firmly grounded. Speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
+        "Stonecunning grants +2 on Search for unusual stonework, including a reactive check within 10 ft. An Urdunnir can sense approximate depth and find stonework traps as a rogue can.",
+        "+4 racial bonus on saves against poison and +2 racial bonus on saves against spells and spell-like abilities.",
+        "+4 dodge AC against giants while eligible for a Dexterity bonus to AC.",
+        "Improved Initiative adds +4. Weapon Focus adds +1 to dwarven waraxe attacks. Power Attack can trade up to 2 attack for the same damage bonus with a one-handed waraxe.",
+        "Dorrin is from the Oldonnar region and weighs 230 lb. His Stone Walk payload limit is 460 lb."
+      ],
+      "actions": [
+        "Dwarven waraxe +6 melee, 1d10+3 slashing, critical ×3. Apply +1 against orcs and goblinoids.",
+        "Stone Walk (Su) allows passage through stone and earth as though through air. The Urdunnir can bring up to twice their body weight. The Urdunnir and any passengers must hold their breath within the material.",
+        "Stone Shape (Sp), at will, caster level 8. Standard action, touch, up to 18 cu. ft. of stone, instantaneous, no save or spell resistance. Makes rough forms. A shape with moving parts has a 30% failure chance.",
+        "Shape Metal (Sp), at will once per round, caster level 8. Full-round action, touch, up to 5 cu. ft. of metal, instantaneous, Fortitude negates and spell resistance applies. Fortitude DC 15 where applicable, melee touch +5. Shape Metal can reduce a touched armor’s protection by 1d6 (half for mostly nonmetal armor). Against a shield, weapon, or metallic creature it instead deals 4d6, bypassing hardness or damage reduction. Touching an unwilling creature or an item it holds requires a melee touch attack and normally provokes from that defender."
+      ],
+      "tactics": "Dorrin guards the workers while they clear a collapse. He takes the shorter known route through the stone and uses Shape Metal on a bent fitting with the others holding the approach."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Urdunnir",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Breka Flintvein",
+      "build": "urdunnir-flintvein-gemcutter-35e",
+      "role": "Gemcutter and surveyor.",
+      "motive": "Find a foothold at the mouth of a promising seam.",
+      "hook": "Breka marks the route across the seam before walking into the stone."
+    },
+    {
+      "species": "Urdunnir",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Dorrin Slatebrace",
+      "build": "urdunnir-slatebrace-rescue-guard-35e",
+      "role": "Rescue guard and Fighter.",
+      "motive": "Reach a trapped work crew before its air runs out.",
+      "hook": "Dorrin asks the party to hold the approach while he crosses to the broken fitting."
+    }
+  ]
+}

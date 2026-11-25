@@ -1,0 +1,304 @@
+[
+  {
+    "name": "Badger",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 5,
+    "hitDice": "1d4 + 3",
+    "speed": "20 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 0,
+      "Dex": 0,
+      "Con": 3,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Perception +3. Poison resistance. Darkvision 30 ft. Passive Perception 13. Languages none.",
+    "appearance": "A low, stocky badger with coarse gray fur and black-and-white facial stripes.",
+    "habitats": [
+      "Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 349, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775802-badger",
+      "Actions": "Bite. Make a melee attack roll at +2 with a reach of 5 ft. A hit deals 1 piercing damage."
+    }
+  },
+  {
+    "name": "Bat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 2,
+      "Con": -1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Blindsight 60 ft. Passive Perception 11. Languages none.",
+    "appearance": "A small brown bat with prominent ears and outstretched membranous wings.",
+    "habitats": [
+      "Forest",
+      "Mountain",
+      "Underdark",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 349, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775803-bat",
+      "Actions": "Bite. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 1 piercing damage."
+    }
+  },
+  {
+    "name": "Black Bear",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "30 ft., climb 30 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 1,
+      "Con": 2,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency Bonus +2. Perception +5. Darkvision 60 ft. Passive Perception 15. Languages none.",
+    "appearance": "A dark-coated bear with rounded ears, a lighter muzzle and stocky forelegs.",
+    "habitats": [
+      "Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 349, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775804-black-bear",
+      "Actions": "Multiattack. Make two Rend attacks.\nRend. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 5 (1d6 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": -2,
+      "Dex": 2,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 2,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Perception +6. Passive Perception 16. Languages none.",
+    "appearance": "A rust-red hawk with a hooked bill, banded tail, folded wings and pale underparts.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 350, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+      "Traits": "Pack Tactics. When attacking a creature, roll with advantage if an ally within 5 ft. of that creature is free of the Incapacitated condition.",
+      "Actions": "Beak. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 4 (1d4 + 2) piercing damage. Use 6 (1d8 + 2) piercing damage if the target is Bloodied."
+    }
+  },
+  {
+    "name": "Boar",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 1,
+      "Dex": 0,
+      "Con": 2,
+      "Int": -4,
+      "Wis": -1,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Passive Perception 9. Languages none.",
+    "appearance": "A dark, bristly boar with a low head, raised shoulders and curved tusks.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 350, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775805-boar",
+      "Traits": "Bloodied Fury. Roll attacks with advantage while the boar is Bloodied.",
+      "Actions": "Gore. Make a melee attack roll at +3 with a reach of 5 ft. A hit deals 4 (1d6 + 1) piercing damage. If the target is a Medium or smaller creature and the boar moved at least 20 ft. straight toward it just before the hit, deal another 3 (1d6) piercing damage and apply Prone to the target."
+    }
+  }
+]

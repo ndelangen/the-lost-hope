@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Giant Bombardier Beetle",
+    "file": "",
+    "selection": "generated",
+    "sha256": "35fe5912f0a2078f502f3d466b1c38d25f5f8cabc83176103b40cb53058fac0d",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Boring Beetle",
+    "file": "",
+    "selection": "generated",
+    "sha256": "4d9d8a2188ccef844c5924c8170a1ff91954519e82f6ec63c5370a7806547269",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "file": "",
+    "selection": "generated",
+    "sha256": "6a2e7df77874482eb3d551f80c67824987ad88000f9bd71cdcb07cf34a891d5c",
+    "width": 1254,
+    "height": 1254
+  }
+]

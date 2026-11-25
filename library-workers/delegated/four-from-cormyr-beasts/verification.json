@@ -1,0 +1,20 @@
+{
+  "baseline": "a56b146dda5424458a3bda859dd49ea54f93d997",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 2,
+  "testedConditionalRuleProfiles": 2,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 2,
+  "portraitCoverage": {
+    "Pernicon": "generated",
+    "Rot Grub": "generated"
+  },
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "printedMovementRatesPreserved": true,
+  "hpAndXpPerIndividualPreserved": true,
+  "perniconSwarmAttackKeptInMechanics": true,
+  "existingRotGrubSwarmPreserved": true,
+  "noChallengeImported": true
+}

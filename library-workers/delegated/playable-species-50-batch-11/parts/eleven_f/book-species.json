@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Giant Weasel",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player traits from Tyler Kamstra’s Monstrous Races, v2, for 2014 fifth edition.",
+      "Medium Beast. Dexterity increases by 2. Walk 35 ft. Typical alignment is neutral.",
+      "Bite deals 1d6 slashing as an unarmed strike. Use Strength or Dexterity for the bite, which counts as a finesse weapon for effects such as Sneak Attack.",
+      "Darkvision 60 ft. Wisdom (Perception) checks that depend on hearing or smell have advantage.",
+      "No hands for weapons, shields, or gear that requires manipulation. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player traits from Tyler Kamstra’s Monstrous Races, v2, for 2014 fifth edition.",
+      "Medium Beast. Strength and Dexterity each increase by 1. Walk and climb 40 ft. Typical alignment is neutral.",
+      "Bite deals 1d4 piercing and 1d4 poison as an unarmed strike. Use Strength or Dexterity for the bite, which counts as a finesse weapon for effects such as Sneak Attack.",
+      "While unarmored, base AC is 11 + Dexterity modifier. Darkvision 60 ft.",
+      "Climbs awkward surfaces and ceilings without ability checks. Webbing cannot restrict its movement.",
+      "No hands for weapons, shields, or gear that requires manipulation. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Hawk",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player traits from Tyler Kamstra’s Monstrous Races, v2, for 2014 fifth edition.",
+      "Tiny Beast. Dexterity increases by 2 and Wisdom by 1. Walk 10 ft. and fly 60 ft. when free of medium or heavy armor. Typical alignment is neutral.",
+      "Talons deal 1d4 slashing as an unarmed strike. Use Strength or Dexterity. The attack counts as a finesse weapon for applicable effects.",
+      "Wisdom (Perception) checks that depend on sight have advantage.",
+      "No hands for weapons, shields, or gear that requires manipulation. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Hunter Shark",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player traits from Tyler Kamstra’s Monstrous Races, v2, for 2014 fifth edition.",
+      "Beast. The printed size line is blank. This build uses Medium as specified in the p. 249 design notes. Strength increases by 2 and Constitution by 1. Walk 0 ft. and swim 40 ft. Typical alignment is neutral. Breathes only underwater.",
+      "Blindsight 30 ft. While unarmored, AC is 11 + Dexterity modifier.",
+      "Bite deals 1d8 piercing as an unarmed strike.",
+      "Blood Frenzy. Land an unarmed strike as part of the Attack action to make a bonus-action unarmed strike against that same target.",
+      "No hands for weapons, shields, or gear that requires manipulation. Speaks, reads, and writes Common.",
+      "Giant Shark uses this same playable trait block by the printed cross-reference on p. 244."
+    ]
+  },
+  {
+    "name": "Jackal",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player traits from Tyler Kamstra’s Monstrous Races, v2, for 2014 fifth edition.",
+      "Small Beast. Dexterity increases by 2 and Wisdom by 1. Walk 40 ft. Typical alignment is neutral.",
+      "Bite deals 1d4 slashing as an unarmed strike. Use Strength or Dexterity for the bite, which counts as a finesse weapon for effects such as Sneak Attack.",
+      "Pack Tactics. Use a bonus action to give the next attack roll this turn advantage if a non-incapacitated ally is within 5 ft. of that target.",
+      "No hands for weapons, shields, or gear that requires manipulation. Speaks, reads, and writes Common."
+    ]
+  }
+]

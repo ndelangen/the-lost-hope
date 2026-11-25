@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Ambush Vine",
+    "entryId": "beast-b8980c0717f03886f5e3d4b4",
+    "versionKey": "0a667d06bb95857e538b32ff",
+    "edition": "4th edition",
+    "publication": "Monster Manual 2 (4e) errata",
+    "publisher": "Wizards of the Coast",
+    "sourceUrl": "",
+    "printedPages": [
+      204,
+      205
+    ],
+    "viewerPages": [
+      204,
+      205
+    ],
+    "sourcePdfSha256": "4dd0fcdb93bfcd52b0c7a8d3a98ee2bc97d937720d30a235230a45547674695d",
+    "errataUrl": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "errataPage": 82,
+    "errataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "change": "The original lists 1,400 XP for the adult. The official update gives 2,800 XP.",
+    "habitatTags": [
+      "Feywild",
+      "Forest",
+      "Swamp"
+    ],
+    "searchAppearance": "thorny vines"
+  },
+  {
+    "name": "Pseudodragon",
+    "entryId": "beast-2c463f7ba627474d70985a35",
+    "versionKey": "51786f0f47b97a643a702309",
+    "edition": "4th edition",
+    "publication": "Monster Manual (4e) errata",
+    "publisher": "Wizards of the Coast",
+    "sourceUrl": "",
+    "printedPages": [
+      90,
+      91,
+      92
+    ],
+    "viewerPages": [
+      91,
+      92,
+      93
+    ],
+    "sourcePdfSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+    "errataUrl": "https://media.wizards.com/2014/downloads/dnd/4ECollectedErrataFAQ.zip",
+    "errataPage": 77,
+    "errataPdfSha256": "9f379d02b34d69267fd9763b02b004488cc5dab22aba893d28e087d3326231ab",
+    "change": "The official update changes Tiny to Small. The verified Deluxe printing already shows Small.",
+    "habitatTags": [
+      "Wilderness",
+      "Humanoid dwellings"
+    ],
+    "searchAppearance": "stinging tail"
+  }
+]

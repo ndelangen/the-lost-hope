@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Swarm of Skitterlings",
+    "entryId": "beast-5e95b1f48100231371be657a",
+    "file": "",
+    "repositoryPath": "assets/images/content/dm-library/encounters-08/swarm-of-skitterlings.png",
+    "sha256": "d8c9cad72b37eef47dd13e47ed4c01bcc07e2801dcd7c1e35ad4eea2f51802b6",
+    "width": 1254,
+    "height": 1254,
+    "approvedRevision": "v1",
+    "selected": "existing entry-wide portrait"
+  },
+  {
+    "name": "War Spider",
+    "entryId": "beast-6403554aa0e95adc6d83ebb2",
+    "file": "",
+    "repositoryPath": "assets/images/content/dm-library/encounters-08/war-spider.png",
+    "sha256": "0a19b3faa6c3a0ca0b6169b3fda63ae311cae3de452f509166acc81acb80e32e",
+    "width": 1254,
+    "height": 1254,
+    "approvedRevision": "v1",
+    "selected": "existing entry-wide portrait"
+  }
+]

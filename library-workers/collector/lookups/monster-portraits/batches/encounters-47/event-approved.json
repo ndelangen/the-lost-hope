@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Devil Adjudicator",
+    "slug": "devil-adjudicator",
+    "id": "monster-7bfad120d539b1125de86df6:7937b22e5cb5a8b2b68678e3",
+    "entry": "monster-7bfad120d539b1125de86df6",
+    "version": "7937b22e5cb5a8b2b68678e3",
+    "suffix": "encounters-47/devil-adjudicator.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-47/devil-adjudicator.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-47/event-drafts/devil-adjudicator-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 47 2026-11-23/event-drafts/devil-adjudicator-event-v1.png",
+    "overrides": [],
+    "sha256": "ef5880036a089e13f34e9ee4cccfa0a2a63da1ced26cf002b181719764396c55",
+    "bytes": 2776467
+  },
+  {
+    "name": "Devil Jurist",
+    "slug": "devil-jurist",
+    "id": "monster-0599e17dd1b9ad5bf542fb12:4aacdd664f13105e05dbc1ef",
+    "entry": "monster-0599e17dd1b9ad5bf542fb12",
+    "version": "4aacdd664f13105e05dbc1ef",
+    "suffix": "encounters-47/devil-jurist.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-47/devil-jurist.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-47/event-drafts/devil-jurist-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 47 2026-11-23/event-drafts/devil-jurist-event-v1.png",
+    "overrides": [],
+    "sha256": "8dd7c3ff701d7aea5459dcca2e6d0f466c4744a98752eabac172f1ec1ecab1b9",
+    "bytes": 2554530
+  }
+]

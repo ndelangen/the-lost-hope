@@ -14,7 +14,7 @@ import { join } from 'node:path'
 
 import sharp from 'sharp'
 
-import { RESPONSIVE_IMAGE_SOURCES } from './image-sources.ts'
+import { ORIGINAL_IMAGE_SOURCES } from './image-sources.ts'
 import {
   type Lock,
   LOCK_PATH,
@@ -64,7 +64,7 @@ const pending = registeredPaths().filter((path) => previous[path]?.sha256 !== lo
 
 /* Refuse art the generator would refuse, before it reaches R2 or the lock. */
 const avatars = new Set(
-  RESPONSIVE_IMAGE_SOURCES.filter((source) => source.role === 'avatar').map(
+  ORIGINAL_IMAGE_SOURCES.filter((source) => source.role === 'avatar').map(
     (source) => source.repositoryPath,
   ),
 )

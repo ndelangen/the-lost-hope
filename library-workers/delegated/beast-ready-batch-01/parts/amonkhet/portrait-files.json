@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "ammit",
+    "file": "portraits/ammit.png",
+    "sha256": "bbe5700e86d19e311d27029799ac123fd305abea43b755a092a58e08234cfda0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "cerodon",
+    "file": "portraits/cerodon.png",
+    "sha256": "31cf6434c41e3a28ac4b73c97c2e13a442f76b39f37d108a0f3e4b7c01df6005",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "hippopotamus",
+    "file": "portraits/hippopotamus.png",
+    "sha256": "3fa9d0349cf6e1b26cc5add91546b65abe8860ba0e9b9fb945a0e2dab3d417ca",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "amonkhet-drake",
+    "file": "portraits/amonkhet-drake.png",
+    "sha256": "92c677ba863e254425324c44ca59a2425c051ee223eeb44129128e7de7ad85db",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

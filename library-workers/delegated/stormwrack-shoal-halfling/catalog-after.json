@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Shoal Halfling",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "baseHalflingDigest": "1fe437a5575fdf97e58b008eb54b06993efcd49ddf2d9d02a3dade7fefd9d27f",
+    "global": true,
+    "version": {
+      "key": "6a96d87ccb0136ed880c6b7d",
+      "publication": "Stormwrack (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Aquatic, Halfling)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Humanoid with the Aquatic and Halfling subtypes. +2 Dexterity, −2 Strength. Land speed 20 ft. and swim speed 20 ft. LA +0.",
+            "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of normal carrying capacity. The shoal halfling uses Small weapons.",
+            "Amphibious (Ex). Breathes air and water equally.",
+            "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "+1 racial on all saving throws. A +2 morale bonus on saves against fear stacks with the racial save bonus. The +2 racial bonus on Listen checks is retained.",
+            "The variant loses the halfling racial +1 on attack rolls with thrown weapons and slings and the racial +2 on Climb, Jump, and Move Silently. The Small size attack bonus still applies.",
+            "Common and Halfling are automatic. Bonus languages are Dwarven, Elven, Gnome, Goblin, and Orc. Favored class Rogue."
+          ]
+        },
+        {
+          "title": "Original NPC · Tess Siltstep",
+          "lines": [
+            "Lock runner and Rogue.",
+            "Motive. Open the lower gate without letting the channel flood the storehouse.",
+            "Hook. Tess can reach the back of the lock through the low sluice.",
+            "Shoal Halfling lock runner, Rogue 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Small Humanoid (Aquatic, Halfling)",
+            "AC 17 · HP 8 (1d6+2) · Speed 20 ft., swim 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Nerin Reefbrace",
+          "lines": [
+            "Shoal guard and Fighter.",
+            "Motive. Hold the flooded arch until the crew reaches the sandbar.",
+            "Hook. Nerin needs help opening the route while he guards the approach.",
+            "Shoal Halfling shoal guard, Fighter 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Small Humanoid (Aquatic, Halfling)",
+            "AC 16 · HP 12 (1d10+2) · Speed 20 ft., swim 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Tess Siltstep": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Tess Siltstep",
+              "group": "Shoal Halfling",
+              "publication": "Shoal Halfling lock runner, Rogue 1",
+              "local": {
+                "entry": "npc-0128824ea6a281229c09d16c",
+                "version": "05a6e5640d4408b4815e7515"
+              }
+            }
+          }
+        ],
+        "Original NPC · Nerin Reefbrace": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Nerin Reefbrace",
+              "group": "Shoal Halfling",
+              "publication": "Shoal Halfling shoal guard, Fighter 1",
+              "local": {
+                "entry": "npc-f0a493a68b80d0b9515d22a1",
+                "version": "1ac59470a30f3e6fd55609d4"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Shoal Halfling": true,
+      "shoal halfling saves against fear": true,
+      "shoal halfling amphibious": true,
+      "shoal halfling lock runner": true,
+      "shoal halfling shoal guard": true
+    },
+    "hash": "7088cdb605459cb700cdad2e387b470ca28c6041fd8f17e2f3fad00815ad58cd",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Stormwrack (2005)",
+    "defaultVersionKey": "6a96d87ccb0136ed880c6b7d",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

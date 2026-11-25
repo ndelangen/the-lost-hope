@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Dragonborn of Bahamut",
+    "kind": "species",
+    "publication": "Races of the Dragon (2006)",
+    "edition": "3.5 edition",
+    "book": "Races of the Dragon",
+    "authors": [
+      "Gwendolyn F. M. Kestrel",
+      "Jennifer Clarke Wilkes",
+      "Kolja Raven Liquette"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "January 2006",
+    "productCode": "620-95369720-001-EN",
+    "isbn": "0-7869-3913-3",
+    "printedPages": {
+      "dragonbloodSubtype": 4,
+      "rite": 8,
+      "retainedTraits": 10,
+      "racialTraits": [
+        8,
+        9,
+        10
+      ],
+      "illustration": [
+        8,
+        9
+      ],
+      "aspects": [
+        9,
+        10
+      ],
+      "eberronAdaptation": 20,
+      "publishedSamples": 134
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "fe1d9e2de63e55425dcac3226ce3fff6b526827908b3d386bf22956eef2efe4c",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Emily Fiegenschuh, Rite of Rebirth scene, p. 8. Eric Polak, former forms group, p. 9.",
+    "sourceDistinctions": [
+      "The rite retains original type, racial Hit Dice, base movement, size, racial adjustments and level adjustment. It removes most other original racial traits.",
+      "Heart, Mind, and Wings are mutually exclusive. Wings can glide at first level and gains powered flight at 6 HD.",
+      "The 2006 player species is scoped separately from the same-name Fizban monster and other Dragonborn species printings.",
+      "The published dwarf-origin Fighter retains racial bonuses that the Rite of Rebirth removes. The staged dwarf-origin Fighter follows p. 10."
+    ],
+    "entryId": "species-0098b4737e086c64f298d7f9",
+    "versionKey": "c28871ac424fca3730fc6058",
+    "slug": "dragonborn-of-bahamut",
+    "portraitSelection": "generated",
+    "portraitForm": "Orra Slatefall, an original Wings-aspect Dragonborn Fighter",
+    "npcExamples": [
+      "Joren Cindervein",
+      "Orra Slatefall"
+    ]
+  }
+]

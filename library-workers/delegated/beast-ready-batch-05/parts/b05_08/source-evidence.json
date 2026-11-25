@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Triceratops",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      156
+    ],
+    "viewerPages": [
+      156
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Editorial description of the already indexed original portrait. The anatomy matches the general dinosaur named by the source.",
+    "habitatEvidence": "Editorial habitat suggestions for the large herbivorous dinosaur. The print descriptions supply behavior but no habitat list.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "Trampling Charge uses the printed DC 13 in both books. The charge does not list a separate damage rider.",
+      "The Basic Rules lore at the top of p. 156’s second column describes the triceratops. Nearby tiger and troll rules belong to their own blocks."
+    ],
+    "pdfPage": 156,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Triceratops",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      80
+    ],
+    "viewerPages": [
+      82
+    ],
+    "section": "Dinosaurs",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+    "appearanceEvidence": "Editorial description of the already indexed original portrait. The anatomy matches the general dinosaur named by the source.",
+    "habitatEvidence": "Editorial habitat suggestions for the large herbivorous dinosaur. The print descriptions supply behavior but no habitat list.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "Trampling Charge uses the printed DC 13 in both books. The charge does not list a separate damage rider.",
+      "The Basic Rules lore at the top of p. 156’s second column describes the triceratops. Nearby tiger and troll rules belong to their own blocks."
+    ],
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the Triceratops block."
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      157
+    ],
+    "viewerPages": [
+      157
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Editorial description of the already indexed original portrait. The anatomy matches the general dinosaur named by the source.",
+    "habitatEvidence": "Editorial habitat suggestions for an enormous terrestrial predator. The printed text describes territorial hunting with no named habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The printed Bite auto-grapples a Medium or smaller creature and restrains it until the grapple ends. Multiattack requires two different targets.",
+      "The Basic Rules lore at the top of p. 157’s second column describes the tyrannosaurus. The Warhorse Charge below it is unrelated. Neither dinosaur block in scope lists a Swallow action."
+    ],
+    "monsterGrappleRules": "",
+    "pdfPage": 157,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      80
+    ],
+    "viewerPages": [
+      82
+    ],
+    "section": "Dinosaurs",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+    "appearanceEvidence": "Editorial description of the already indexed original portrait. The anatomy matches the general dinosaur named by the source.",
+    "habitatEvidence": "Editorial habitat suggestions for an enormous terrestrial predator. The printed text describes territorial hunting with no named habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The printed Bite auto-grapples a Medium or smaller creature and restrains it until the grapple ends. Multiattack requires two different targets.",
+      "The Basic Rules lore at the top of p. 157’s second column describes the tyrannosaurus. The Warhorse Charge below it is unrelated. Neither dinosaur block in scope lists a Swallow action."
+    ],
+    "monsterGrappleRules": "",
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/82/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the Tyrannosaurus Rex block."
+  }
+]

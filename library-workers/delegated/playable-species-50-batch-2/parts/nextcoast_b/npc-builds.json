@@ -1,0 +1,272 @@
+{
+  "builds": [
+    {
+      "id": "adnd2e-savage-coast-phanaton-makuri",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid",
+      "title": "Phanaton canopy lookout, Fighter 1",
+      "difficulty": "1st-level character, descending Armor Class.",
+      "ac": 4,
+      "hp": 7,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "9. Glide 50 feet each round, subject to starting height and load.",
+      "senses": "Ordinary vision.",
+      "languages": "Jibar, Common.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Mountaineering and Rope Use as learned proficiencies.",
+        "Club as a weapon proficiency."
+      ],
+      "traits": [
+        "Base THAC0 20. Standard 1d10 initiative, low roll acts first.",
+        "Chaotic good. AC 4 from natural AC 9, the racial 2-point bonus, and Dexterity improving AC by 3. No armor or shield.",
+        "After the racial bonus, saves are 12/14/13/15/15 for paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, and spell.",
+        "Charisma is 11 or 10 with the peoples affected by his racial penalty and 3 with araneas.",
+        "Raised beyond the Red Curse and encountered there, with no initial Legacy."
+      ],
+      "actions": [
+        "Wooden club, THAC0 20. One melee attack for 1d6 bludgeoning against small or medium targets or 1d3 against large targets. Speed factor 4.",
+        "Glide up to three times the starting height at 50 feet per round. Subtract 20 feet of range per 100 coin-weight carried. Makurí cannot attack while gliding."
+      ],
+      "tactics": "Makurí leads from above. He lands to fight and uses his staff as a club if someone reaches the lookout."
+    },
+    {
+      "id": "adnd2e-savage-coast-shazak-zesk-reedmark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Shazak waterline scout, Fighter 1",
+      "difficulty": "1st-level character, descending Armor Class.",
+      "ac": 5,
+      "hp": 8,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "9 on land. Use Swimming proficiency in water.",
+      "senses": "Ordinary vision.",
+      "languages": "Shazak, Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Swimming as a bonus proficiency. Fishing and Direction Sense as learned proficiencies.",
+        "Spear as a weapon proficiency."
+      ],
+      "traits": [
+        "Base THAC0 20. Standard 1d10 initiative, low roll acts first.",
+        "Neutral good. Natural AC 5 from scales. No armor or shield. Strength 16 adds 1 damage and gives no attack bonus.",
+        "Saves, in order for paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, and spell, are 14/16/15/17/17.",
+        "Raised beyond the Red Curse and encountered there, with no initial Legacy."
+      ],
+      "actions": [
+        "Steel-tipped spear, THAC0 20. One melee attack for 1d6+1 piercing against small or medium targets or 1d8+1 against large targets. Speed factor 6."
+      ],
+      "tactics": "Zesk waits in the shallows, then retreats with the ferry crew if the water rises."
+    },
+    {
+      "id": "adnd2e-savage-coast-wallara-werrami",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Wallara outback guide, Fighter 1 with the Wilderness Warrior kit",
+      "difficulty": "1st-level character, descending Armor Class.",
+      "ac": 7,
+      "hp": 8,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "12. Vanish up to 120 feet.",
+      "senses": "Ordinary vision.",
+      "languages": "Risil, plus learned Common.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 14,
+        "CHA": 11
+      },
+      "skills": [
+        "Tracking 11 before terrain adjustments. Ancient History and Local History as racial bonus proficiencies.",
+        "Outback Survival 18 and Endurance from the Wilderness Warrior kit. A roll of 20 still fails Survival.",
+        "Club as a tribal weapon proficiency."
+      ],
+      "traits": [
+        "Base THAC0 20. Standard 1d10 initiative, low roll acts first.",
+        "Neutral good. Natural AC 9 improved by 2 from Dexterity. Unarmored to preserve vanish.",
+        "Saves, in order for paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, and spell, are 14/16/15/17/17.",
+        "Charisma 10 with most other humanoids and 9 with humans and demihumans. Always finds the way back when within 10 miles of home or camp.",
+        "At 1st level, Werrami can vanish. Blending becomes available at 3rd level. His home in Wallara grants no initial Legacy."
+      ],
+      "actions": [
+        "Wooden club, THAC0 20. One melee attack for 1d6 bludgeoning against small or medium targets or 1d3 against large targets. Speed factor 4.",
+        "Vanish as his full action on an Intelligence check of 13 or less on d20. Jump up to 120 feet without materializing in a solid object. He may try each round."
+      ],
+      "tactics": "When cornered, Werrami vanishes behind cover. He returns once he can approach unseen."
+    },
+    {
+      "id": "adnd2e-savage-coast-lupin-celan-merle",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Lupin scent-led courier, Ranger 1",
+      "difficulty": "1st-level character, descending Armor Class.",
+      "ac": 9,
+      "hp": 8,
+      "hitDice": "1d10+1",
+      "initiative": 0,
+      "speed": "12",
+      "senses": "Infravision 60 feet, keen hearing and smell.",
+      "languages": "Renardois, Common.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 15,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Tracking 20 before situational modifiers (Wisdom 14 + 6). Detect Noise 35%. Bonus Blind-fighting.",
+        "Short sword as a weapon proficiency."
+      ],
+      "traits": [
+        "Base THAC0 20. Standard 1d10 initiative, low roll acts first.",
+        "Neutral good. Coat is ordinary clothing. Base AC 10 improved by 1 from Dexterity.",
+        "Saves, in order for paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, and spell, are 14/16/15/17/17.",
+        "Lightly equipped ranger. Hide in Shadows 10% and Move Silently 15% in natural surroundings. Halve these chances in unfamiliar enclosed or urban conditions.",
+        "Against his chosen species enemy, gnolls, attack at +4 and take −4 on reactions. Célan can befriend a calm animal. A wild or attack-trained animal must fail a save against rods at −1 for him to shift its reaction by one category.",
+        "Recognizes werewolves in any form 99% of the time or another lupin in an unusual form 15% of the time. An invisible or ethereal creature within 10 feet triggers a +4 detection save each round.",
+        "Recognizes familiar peoples by scent and makes an Intelligence check to identify a known individual by scent. Strong odors impose −1 to −4. Take −2 on saving throws against sound or odor. Swallowed wolfsbane kills on a failed poison save or costs 20 HP on a success. Injected wolfsbane halves ability scores for 1d3 days on a failed poison save.",
+        "Raised beyond the Red Curse and encountered there, with no initial Legacy."
+      ],
+      "actions": [
+        "Short sword, THAC0 20. One melee attack for 1d6 piercing against small or medium targets or 1d8 against large targets. Speed factor 3."
+      ],
+      "tactics": "Célan tracks from the edge of the road, relays the route quietly, and draws his sword only if the trail leads into a fight."
+    },
+    {
+      "id": "adnd2e-savage-coast-rakasta-sava-flintstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "title": "Rakasta skirmisher, Fighter 1",
+      "difficulty": "1st-level character, descending Armor Class.",
+      "ac": 7,
+      "hp": 7,
+      "hitDice": "1d10",
+      "initiative": 0,
+      "speed": "9",
+      "senses": "Infravision 60 feet and keen hearing.",
+      "languages": "Rakastan, Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Bonus Blind-fighting. Detect Noise 20%.",
+        "Front claws as a natural weapon proficiency, which also covers war claws."
+      ],
+      "traits": [
+        "Base THAC0 20. Standard 1d10 initiative, low roll acts first.",
+        "Chaotic good. Unarmored. Base AC 10 improved by 3 from Dexterity.",
+        "Saves, in order for paralyzation/poison/death, rod/staff/wand, petrification/polymorph, breath, and spell, are 14/16/15/17/17.",
+        "Half falling damage. Saves against sound suffer −1. An invisible or ethereal creature within 10 feet triggers a +4 detection save each round.",
+        "Raised beyond the Red Curse and encountered there, with no initial Legacy."
+      ],
+      "actions": [
+        "Paired war claws, THAC0 20 for each attack, speed factor 1. Roll two separate attacks per round without a two-weapon penalty. Each hit deals 1d4+1 slashing against small or medium targets or 1d3+1 against large targets.",
+        "Without the fittings, roll the two natural front-claw attacks separately using THAC0 20 for 1d2+1 slashing each. Speed factor 1."
+      ],
+      "tactics": "Sava crosses ledges the patrol avoids. She turns to drive back the first pursuer if the cart needs time."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Makurí",
+      "species": "Phanaton",
+      "size": "Small",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-savage-coast-phanaton-makuri",
+      "role": "Canopy lookout.",
+      "motive": "Find a route that bypasses a split rope bridge before the next rain.",
+      "hook": "Makurí can glide across the gap with a line once the party clears the far landing."
+    },
+    {
+      "name": "Zesk Reedmark",
+      "species": "Shazak",
+      "size": "Medium",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-savage-coast-shazak-zesk-reedmark",
+      "role": "Waterline guide and patrol scout.",
+      "motive": "Keep the night ferry open while displaced families come downriver.",
+      "hook": "Zesk found a safe ford and needs one person to carry its marker line back."
+    },
+    {
+      "name": "Werrami",
+      "species": "Wallara",
+      "size": "Medium",
+      "speciesPublication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-savage-coast-wallara-werrami",
+      "role": "Outback guide.",
+      "motive": "Walk a missing survey crew back to water before the afternoon heat.",
+      "hook": "Werrami reads the crew’s tracks and offers to scout the gully ahead."
+    },
+    {
+      "name": "Célan Merle",
+      "species": "Lupin",
+      "size": "Medium",
+      "speciesPublication": "Savage Coast Campaign Book, Part 2: Player Characters",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-savage-coast-lupin-celan-merle",
+      "role": "Scent-led courier.",
+      "motive": "Find the partner who was supposed to meet him at the tollhouse.",
+      "hook": "Célan recognizes her scent halfway down the bridge, where the trail abruptly disappears."
+    },
+    {
+      "name": "Sava Flintstep",
+      "species": "Rakasta",
+      "size": "Medium",
+      "speciesPublication": "Savage Coast Campaign Book, Part 2: Player Characters",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-savage-coast-rakasta-sava-flintstep",
+      "role": "Feline skirmisher.",
+      "motive": "Keep a delivery cart out of the hands of a rival patrol.",
+      "hook": "Sava offers to lure the patrol along a ledge while the party takes the cart below."
+    }
+  ]
+}

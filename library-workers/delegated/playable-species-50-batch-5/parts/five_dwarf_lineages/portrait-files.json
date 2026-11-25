@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Krugel Orc",
+    "file": "",
+    "sha256": "27eef0d41c639dec7054e076ba14e6ada2b353c844ae79d2c09df12cc6be24be",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Malpheggi Lizardman",
+    "file": "",
+    "sha256": "f3a5bcb5367c5778eeee39f68cf59be058dafcdc055e8bf0888c11f9d39fd86c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Kogolor Dwarf",
+    "file": "",
+    "sha256": "673cf0ba0db26308dee154235a85d7f04cc2677c8c5c1ddeee76bd479af923ad",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Gully Dwarf",
+    "file": "",
+    "sha256": "489569aea8b0e73fbf9fcd4d6f34269e0ba843e6ea7e5e96e22749f7c41c0dae",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

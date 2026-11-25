@@ -1,0 +1,277 @@
+{
+  "builds": [
+    {
+      "id": "mr1-mephit-siftglass",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Dust signal runner, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Small",
+      "type": "Elemental",
+      "speed": "30 ft., fly 30 ft.",
+      "ac": 13,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 14.",
+      "languages": "Auran, Terran, Common.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +1",
+        "Perception +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +1, Constitution save +4. Leather AC 11 + 2 Dexterity. Archery adds 2 to ranged weapon attack rolls.",
+        "Outlander grants Athletics, Survival, Common, and Wanderer. Fighter grants Acrobatics and Perception. Holds a shortbow and has 20 arrows. Poison damage and the poisoned condition have no effect."
+      ],
+      "actions": [
+        "Shortbow. Ranged weapon attack +6, range 80/320 ft., 1d6+2 piercing. Drawing and firing require both hands.",
+        "Claw. Strength-based unarmed strike +1, reach 5 ft., 1d4−1 slashing.",
+        "Second Wind. Bonus action to regain 1d10+1 HP. Recharges on a short or long rest.",
+        "Death Burst. On dropping to 0 HP in this encounter, creatures within 5 ft. make a DC 12 Constitution save. On failure, blinded for 1 minute, with a repeat save at the end of each turn."
+      ],
+      "tactics": "Siftglass uses short flights to change firing angles and withdraws toward open ground when cornered."
+    },
+    {
+      "id": "mr1-modron-docket-nine",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Monodrone checkpoint clerk, Monk 1",
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Construct",
+      "speed": "30 ft., fly 30 ft.",
+      "ac": 16,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Passive Perception 12. Otherworldly Perception 30 ft.",
+      "languages": "Modron and Common.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +2",
+        "Insight +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +2, Dexterity save +5. Monodrone natural armor gives AC 16 from 13 + 3 Dexterity. The Monk Unarmored Defense alternative gives AC 15. These formulas do not stack.",
+        "No armor, shield, or weapon. Martial Arts permits Dexterity for this unarmed attack. Constructs can spend Hit Dice while resting under supplement p. 7. Outlander grants Common, Athletics, Survival, and Wanderer. Monk grants Acrobatics and Insight.",
+        "Senses the presence of invisible and Ethereal Plane creatures within 30 ft. and locates them if moving. At death the construct crumbles, leaving its possessions."
+      ],
+      "actions": [
+        "Fist. Dexterity-based unarmed strike +5, reach 5 ft., 1d4+3 bludgeoning.",
+        "Martial Arts. After using the Attack action to make an unarmed strike, can make one more unarmed strike with the bonus action at +5 for 1d4+3 bludgeoning."
+      ],
+      "tactics": "Docket Nine hovers outside reach while counting. It lands to block the nearest route when a traveler ignores the queue."
+    },
+    {
+      "id": "mr1-nightmare-sable-cinder",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Silent ash road runner, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Fiend",
+      "speed": "40 ft., fly 40 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Reads and understands Abyssal, Common, Infernal, and Giant. Cannot speak.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 9
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Unarmored Defense gives AC 14 from 10 + 2 Dexterity + 2 Constitution. Natural armor gives AC 13 as an alternative.",
+        "Outlander grants Athletics, Survival, Giant, and Wanderer. Barbarian grants Intimidation and Perception. Communicates by stance and hoof taps. Carries no equipment."
+      ],
+      "actions": [
+        "Hooves. Strength-based unarmed strike +5, reach 5 ft. Deals 1d4+3 bludgeoning and 1d4 fire. When raging, increase bludgeoning damage to 1d4+5.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Grants advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and adds 2 to Strength-based melee weapon attack damage. It ends early on unconsciousness or if a turn ends without attacking a hostile creature or taking damage since the previous turn."
+      ],
+      "tactics": "Sable Cinder takes off when surrounded, lands for a kick, and uses narrow ground to keep pursuers apart."
+    },
+    {
+      "id": "mr1-oni-rusk-toll",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Watchhouse appraiser, Fiend Warlock 2",
+      "difficulty": "Fiend Warlock 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Giant",
+      "speed": "30 ft., fly 30 ft.",
+      "ac": 15,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 10.",
+      "languages": "Common, Giant, Elvish, Infernal.",
+      "abilityScores": {
+        "STR": 11,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Arcana +1",
+        "Deception +5",
+        "History +1",
+        "Investigation +1"
+      ],
+      "traits": [
+        "Proficiency +2. Wisdom save +2, Charisma save +5. Armor of Shadows gives at-will mage armor without slots or material components. With Dexterity +2, AC is 15. Unarmored clothing permits flight.",
+        "Fiend pact. Dark One’s Blessing grants 5 temporary HP after reducing a hostile creature to 0 HP. Keep the greater temporary HP pool. HP starts at 10 and gains 7 at Warlock 2.",
+        "Pact Magic. Two 1st-level slots per short or long rest. Charisma gives spell attack +5 and save DC 13. Knows eldritch blast, minor illusion, armor of Agathys, hex, and hellish rebuke. Agonizing Blast adds +3 damage to each eldritch blast hit. A focus pendant covers eligible Warlock spell materials.",
+        "Sage grants Arcana, History, Elvish, Infernal, and Researcher. Warlock grants Deception and Investigation."
+      ],
+      "actions": [
+        "Claw. Strength-based unarmed strike +2, reach 5 ft., 1d4 slashing.",
+        "Eldritch Blast. Action. Ranged spell attack +5, range 120 ft. One beam at this level for 1d10+3 force.",
+        "Minor Illusion. Action, range 30 ft. Create a sound or a stationary object image up to a 5-ft. cube for 1 minute. Physical interaction reveals the image. An action and DC 13 Intelligence (Investigation) check can expose the illusion.",
+        "Hex. Bonus action, range 90 ft., concentration up to 1 hour. Choose one ability. The cursed target has disadvantage on checks with that ability and takes another 1d6 necrotic whenever Rusk hits it with an attack. Once it reaches 0 HP, a bonus action on a later turn can move the curse.",
+        "Armor of Agathys. Action, self, 1 hour. Gain 5 temporary HP. A creature that hits Rusk in melee while those HP remain takes 5 cold.",
+        "Hellish Rebuke. Reaction after damage from a visible creature within 60 ft. It makes a DC 13 Dexterity save against 2d10 fire, taking half on success."
+      ],
+      "tactics": "Rusk uses a false sound to draw intruders into the watchhouse arch, then flies to a better line for eldritch blast."
+    },
+    {
+      "id": "mr1-owlbear-briarwatch",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Briar gate warden, Barbarian 2",
+      "difficulty": "Barbarian 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "35 ft.",
+      "ac": 15,
+      "hp": 25,
+      "hitDice": "2d12+6",
+      "initiative": 2,
+      "senses": "Darkvision 120 ft., passive Perception 12 or 17 for sight or smell.",
+      "languages": "Common and Sylvan.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 17,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Perception +2",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Unarmored Defense gives AC 15 from 10 + 2 Dexterity + 3 Constitution. Natural armor gives AC 14 as an alternative. No armor or carried weapons.",
+        "Keen Sight and Smell grants advantage on appropriate Perception checks. Danger Sense grants advantage on Dexterity saves against visible effects while Briarwatch can see and is free of blindness, deafness, and incapacitation.",
+        "Outlander grants Athletics, Survival, Sylvan, and Wanderer. Barbarian grants Animal Handling and Perception. HP 15 at level 1 plus 10 at level 2."
+      ],
+      "actions": [
+        "Bite or claw. Strength-based unarmed strike +5, reach 5 ft. Choose 1d8+3 piercing or slashing by attack form. Add 2 when raging.",
+        "Rage. Bonus action, twice per long rest, up to 1 minute. Grants advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and adds 2 to Strength-based melee weapon attack damage. It ends early on unconsciousness or if a turn ends without attacking a hostile creature or taking damage since the previous turn.",
+        "Reckless Attack. Choose on the first attack of the turn. Strength-based melee weapon attacks that turn have advantage. Attacks against Briarwatch have advantage until its next turn."
+      ],
+      "tactics": "Briarwatch calls across the gate first. If someone rushes it, it meets them in the opening and keeps its back against the posts."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Siftglass",
+      "species": "Mephit",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-mephit-siftglass",
+      "size": "Small",
+      "role": "Signals when a canyon pass is clear.",
+      "motive": "Prove a rival scout is altering the signal flags.",
+      "hook": "A clean path through the pass has the signal for falling rock."
+    },
+    {
+      "name": "Docket Nine",
+      "species": "Modron",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-modron-docket-nine",
+      "size": "Medium",
+      "role": "An independent Monodrone who operates an abandoned checkpoint.",
+      "motive": "Reconcile a tally of crossings that never happened.",
+      "hook": "It refuses to mark the bridge safe while a moving presence keeps slipping past its count."
+    },
+    {
+      "name": "Sable Cinder",
+      "species": "Nightmare",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-nightmare-sable-cinder",
+      "size": "Medium",
+      "role": "A silent courier that remembers old toll roads.",
+      "motive": "Return a stolen mile marker to its proper junction.",
+      "hook": "She repeatedly kicks at one particular gatepost, then waits for someone to follow."
+    },
+    {
+      "name": "Rusk Toll",
+      "species": "Oni",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-oni-rusk-toll",
+      "size": "Medium",
+      "role": "An oni who values seized magical merchandise for a toll office.",
+      "motive": "Recover a payment ledger before the town council reads it.",
+      "hook": "He offers the party first choice of the seized lot if they find the missing ledger."
+    },
+    {
+      "name": "Briarwatch",
+      "species": "Owlbear",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-owlbear-briarwatch",
+      "size": "Medium",
+      "role": "An owlbear warden who keeps a pebbled river crossing open.",
+      "motive": "Find who slashed the ferryman’s signal rope.",
+      "hook": "Briarwatch asks for a hand with a knot it cannot tie."
+    }
+  ]
+}

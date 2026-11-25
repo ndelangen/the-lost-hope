@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Human Brawler",
+    "source": "https://www.dndbeyond.com/monsters/4485892-human-brawler",
+    "challenge": "2",
+    "entry": "monster-e6c2865f9ce96e4e63f4e5b0",
+    "version": "304af7e644d3f752ead79679",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-brawler",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "ae22bc02b71bfa6ce0702929a9509163d8db173dcb74fa3cf5298d47179da799",
+    "status": "Stat block",
+    "appearance": "A bald, broad-shouldered fighter with scarred forearms, studded leather and a fur collar.",
+    "habitats": [
+      "Settlements",
+      "Taverns",
+      "Fighting pits"
+    ]
+  },
+  {
+    "name": "Human Storm Wizard",
+    "source": "https://www.dndbeyond.com/monsters/4485899-human-storm-wizard",
+    "challenge": "6",
+    "entry": "monster-a5544cf0b59339f0ef15df2b",
+    "version": "dcdca09eac8a72f4bad308e6",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-storm-wizard",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "6df0e652aa8ee5345bab1942543c49029a8ac2325a71a8ee55cb8b1fa0a94cf7",
+    "status": "Stat block",
+    "appearance": "A white-haired weather mage in indigo robes, carrying a copper-tipped staff that crackles with blue lightning.",
+    "habitats": [
+      "Settlements",
+      "Coastal towers",
+      "Arcane colleges"
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Hobgoblin Brandbearer",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 76",
+    "notes": "Both printings use AC 13, 12 HP and CR 5. Infernal Ichor, Too Hot to Handle and Searing Grasp match.",
+    "tableNote": "Camp Firefield, area C5. Eight brandbearers and a war mage tend wounded troopers. The party can go around the tent with a successful DC 12 group Dexterity (Stealth) check."
+  },
+  {
+    "name": "Hobgoblin Firerunner",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 77. The White Tower, p. 145.",
+    "notes": "Both adventure blocks match Flee, Mortals! at AC 16, 78 HP and CR 4. Fiery Leap, Infernal Ichor, both Fire Scimitar attacks and Blaze Sprint match.",
+    "tableNote": "In Camp Firefield, a firerunner waits by the barracks gate if Oki raises the alarm. Two firerunners guard the White Tower library with a bugbear channeler and commander."
+  },
+  {
+    "name": "Hobgoblin Incendiarist",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 78",
+    "notes": "Both printings use AC 15, 33 HP and CR 1. Infernal Ichor, Shortsword, Blazing Crossbow and Fire Mote match.",
+    "tableNote": "Camp Firefield, areas C3 and C4. The barracks incendiarists stand by the bonfire if Oki raises the alarm. Narine is the armory smith. Her sword pendant is a key to the field hospital."
+  },
+  {
+    "name": "Hobgoblin Recruit",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 78",
+    "notes": "Both printings use AC 14, 7 HP and CR 1/2, with 20 XP per minion. Infernal Ichor, Minion, Tactical Positioning and the Longsword group attack match.",
+    "tableNote": "Camp Firefield, area C3. Twenty recruits are in the barracks. If Oki raises the alarm, they are ready at the entrance gate with the troopers and firerunner."
+  },
+  {
+    "name": "Hobgoblin Trooper",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 80",
+    "notes": "Both printings use AC 16, 18 HP and CR 1/2. Infernal Ichor, Fire Flail, Brimstone Dagger and Fight Me, Coward match.",
+    "tableNote": "Camp Firefield, area C5. Six wounded troopers each have 9 HP instead of 18. They avoid fighting and surrender if threatened."
+  },
+  {
+    "name": "Hobgoblin War Mage",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 81",
+    "notes": "Both printings use AC 15, 65 HP and CR 3. Infernal Teleport, Rain Hellfire, Unhallowed Ground, Spell Siphon and Infernal Ichor match.",
+    "tableNote": "Camp Firefield, area C7. Three war mages maintain a ritual. It summons a slaughter demon at the start of the fourth round after the party arrives unless all three mages are killed, Incapacitated, or moved outside the ring of pillars."
+  },
+  {
+    "name": "Basilisk (MCDM)",
+    "decision": "share",
+    "pages": "Cloud Fang Keep, p. 100",
+    "notes": "Both printings use AC 15, 65 HP and CR 3. Alchemical Ingredients, Toxic Ichor, all printed actions and Poison Splash match. Both use the same ambiguous Multiattack wording, so the Library’s documented reading applies to both.",
+    "tableNote": "Cloud Fang Keep, area E3. Passive Perception 17 spots Blinkers and Blunders sleeping among the rubble. A DC 12 group Dexterity (Stealth) check gets the party through without waking them. A DC 17 Dexterity (Sleight of Hand) check removes a collar without waking its wearer."
+  },
+  {
+    "name": "Essence of Storms",
+    "decision": "share",
+    "pages": "Ash Queen’s Reliquary, p. 297",
+    "notes": "Both printings use AC 14, 78 HP and CR 5. Wind Talons, Bluster, Lightning Squall and both Convocation of Air choices match.",
+    "tableNote": "Ash Queen’s Reliquary, area A3. An Elemental can activate the three champion statues as an action or bonus action once per 24 hours. They summon an essence of storms, an essence of tides and a force of earth. Each statue has AC 17, 27 HP and immunity to poison and psychic damage. Destroying a statue dismisses its elemental."
+  },
+  {
+    "name": "Griffon (MCDM)",
+    "decision": "share",
+    "pages": "Cloud Fang Keep, p. 102",
+    "notes": "Both printings use AC 12, 57 HP and CR 2. Steady, Swoop, all attack options and Piercing Cry match.",
+    "tableNote": "Cloud Fang Keep, area E2. Two griffons start in the roost. Two more return at the start of round two, or one if the party already defeated a griffon outside. The nest is difficult terrain for creatures other than griffons."
+  },
+  {
+    "name": "Grilp",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 76",
+    "notes": "Both printings use AC 13, 10 HP and CR 1/4. Shifting Camouflage, Bite and Necrotic Mote match.",
+    "tableNote": "Camp Firefield, area C2. A DC 18 Wisdom (Perception) check spots the twelve grilps in the tall grass. Oki’s malachite opens the barracks gate when brought within 5 ft. of the arch. If overlooked, she opens it to warn the barracks and drops the stone on the path."
+  },
+  {
+    "name": "Mohler",
+    "decision": "share",
+    "pages": "The Hanging Tree, p. 38",
+    "notes": "Both printings use AC 12, 9 HP and CR 1/4. Claw, Earth Bump, Ground Grinder and Zip match. The neighboring companion block has separate rules.",
+    "tableNote": "The Hanging Tree, areas O5 and O6. The mohler locked in the storeroom does not attack and may follow a character who feeds it. Three mohlers in the feed room join the orcs in a fight and retreat underground once the orcs are defeated."
+  },
+  {
+    "name": "Owlbear (MCDM)",
+    "decision": "separate",
+    "pages": "Cloud Fang Keep, p. 108",
+    "notes": "The printed combat statistics and actions match Flee, Mortals!. The local Flee, Mortals! profile also has that book’s optional Wild Shape and Polymorph rules, which do not appear in the Cloud Fang Keep creature entry.",
+    "tableNote": "Cloud Fang Keep, p. 95. Two owlbears at the doors look like statues. A DC 15 Wisdom (Perception) check spots their movements. They attack when the party comes within 30 ft. Four patrolling owlbears join at the start of round two. A blood-borne ooze emerges from each of the first two owlbears to die, and a griffon joins at the start of round four.",
+    "statBlock": {
+      "name": "Owlbear (MCDM)",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "ac": 13,
+      "hp": 82,
+      "hitDice": "11d10 + 22",
+      "cr": "3",
+      "xp": 700,
+      "proficiencyBonus": 2,
+      "abilities": {
+        "Str": {
+          "score": 21,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 6,
+          "modifier": -2
+        }
+      },
+      "classification": "Large Monstrosity, unaligned",
+      "speed": "40 ft.",
+      "appearance": "A broad, feathered predator with owl eyes and beak, bear-like haunches and long talons.",
+      "habitats": [
+        "Forests",
+        "Woodlands"
+      ],
+      "otherStatistics": "Natural armor. Perception +3. Immune to Frightened. Darkvision 60 ft. Passive Perception 13. No languages.",
+      "sections": {
+        "Role": "Brute",
+        "Traits": "Deadly Leap. The owlbear can long jump up to 30 ft. or high jump up to 15 ft. with or without a running start. After leaping at least 20 ft. toward a target and hitting it with Bite or Claw, the target makes a DC 15 Strength save or falls Prone.\nKeen Sight and Smell. The owlbear has advantage on Wisdom (Perception) checks that use sight or smell.",
+        "Actions": "Multiattack. Make one Bite and one Claw attack.\nBite. Melee weapon attack +7, reach 10 ft., one target. Hit 11 (1d12 + 5) piercing damage. The owlbear can move the target 5 ft. in any direction.\nClaw. Melee weapon attack +7, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage.\nBear Hug (Recharge 4–6). Choose one creature the owlbear can see within 5 ft. It makes a DC 15 Dexterity save. On a failure, it takes 22 (4d10) bludgeoning damage and is Grappled (escape DC 15). On a success, it takes half damage. While Grappled this way it is Restrained and takes 5 (1d10) bludgeoning damage at the start of each of its turns. Using Bear Hug or Claw against a different target also ends the grapple.",
+        "Reactions": "Hulking Rush. After taking damage, the owlbear can move up to half its speed without provoking opportunity attacks.",
+        "Printed source": "Cloud Fang Keep, p. 108"
+      }
+    }
+  }
+]

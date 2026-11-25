@@ -1,0 +1,159 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -314426,6 +314426,22 @@
+       ]
+     },
+     {
++      "name": "Uldra",
++      "kind": "species",
++      "publication": "Frostburn (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Small Fey with −2 Strength, +2 Constitution, and +2 Wisdom. Land speed 20 ft. Darkvision 120 ft. and low-light vision. LA +1.",
++        "Small size gives +1 AC and attack rolls, +4 Hide, and three-quarters of the ordinary carrying and lifting limits. Uldras use Small weapons.",
++        "Nature Scholar (Ex) grants +2 racial on Knowledge (nature) and makes it a class skill.",
++        "Cold Resistance (Ex). Cold environments do not harm the Uldra or its equipment. Against attacks that deal cold damage, the Uldra has cold resistance 5.",
++        "Frosty Touch (Su). A free action frosts the hands. While frosty, unarmed attacks deal +1 cold damage. A wielded melee weapon deals +1 cold on a hit while held. The extra cold does not stack with a magic weapon’s cold damage.",
++        "Racial spell-like abilities are ray of frost 3/day, speak with animals 1/day, and touch of fatigue 1/day. Caster level equals Hit Dice. Save DCs use Wisdom.",
++        "Fey Blood. Uldras are Fey. Effects limited to Humanoids do not affect them, and effects that target Fey apply. They have no special cold iron weakness.",
++        "Common and Sylvan are automatic. All languages are available as bonus languages, and Speak Language is always a class skill. Favored class Druid."
++      ]
++    },
++    {
+       "edition": "2024 fifth edition",
+       "publication": "D&D: World of Warcraft",
+       "name": "Goblin",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -4039,6 +4039,89 @@
+       "editions": ["3.5 edition"],
+       "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+       "size": "Small",
++      "type": "Fey",
++      "senses": "Darkvision 120 ft. and low-light vision.",
++      "speed": "20 ft.",
++      "id": "uldra-rimewillow-winter-trail-guide-35e",
++      "title": "Uldra winter-trail guide, Druid 1",
++      "ac": 15,
++      "hp": 11,
++      "hitDice": "1d8+3",
++      "initiative": 2,
++      "languages": "Common, Sylvan, Terran, Druidic",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 14,
++        "CON": 16,
++        "INT": 12,
++        "WIS": 16,
++        "CHA": 10
++      },
++      "skills": [
++        "Concentration +7",
++        "Handle Animal +4",
++        "Heal +7",
++        "Knowledge (nature) +12",
++        "Survival +9"
++      ],
++      "traits": [
++        "Neutral good. Leather armor +2, Dexterity +2, size +1. Touch 13, flat-footed 13. BAB +0, grapple −4. Fortitude +5, Reflex +2, Will +5.",
++        "Nature Scholar (Ex) grants +2 racial on Knowledge (nature) and makes it a class skill.",
++        "Cold Resistance (Ex). Cold environments do not harm the Uldra or its equipment. Against attacks that deal cold damage, the Uldra has cold resistance 5.",
++        "Frosty Touch (Su). A free action frosts the hands. While frosty, unarmed attacks deal +1 cold damage. A wielded melee weapon deals +1 cold on a hit while held. The extra cold does not stack with a magic weapon’s cold damage.",
++        "Fey Blood. Uldras are Fey. Effects limited to Humanoids do not affect them, and effects that target Fey apply. They have no special cold iron weakness.",
++        "Nature Sense adds +2 to Knowledge (nature) and Survival. Skill Focus (Knowledge [nature]) adds +3. Wild empathy +1. The encounter begins without an animal companion present."
++      ],
++      "actions": [
++        "Small quarterstaff +1 melee with one end for 1d4 bludgeoning, plus 1 cold with Frosty Touch active while holding it. Critical ×2.",
++        "Racial spell-like abilities, CL 1 from one Hit Die. Ray of frost 3/day, ranged touch +3 for 1d3 cold with no save. Speak with animals 1/day for 1 minute. Touch of fatigue 1/day, melee touch +1, Fortitude DC 13 negates, duration 1 round. The save is Wisdom-based.",
++        "Prepared druid spells, CL 1. Cantrips are create water, guidance, and light. First-level spells are cure light wounds for 1d8+1 healing and entangle (Reflex DC 14, vegetation required)."
++      ],
++      "tactics": "Rimewillow uses speak with animals to ask a fox which trail remains open. She takes the party through a cold hollow and uses the staff only if something blocks the way."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Small",
++      "type": "Fey",
++      "senses": "Darkvision 120 ft. and low-light vision.",
++      "speed": "20 ft.",
++      "id": "uldra-stillrime-pass-shelter-guard-35e",
++      "title": "Uldra pass shelter guard, Monk 1",
++      "ac": 16,
++      "hp": 11,
++      "hitDice": "1d8+3",
++      "initiative": 2,
++      "languages": "Common, Sylvan",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 14,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 16,
++        "CHA": 8
++      },
++      "skills": ["Balance +6", "Knowledge (nature) +6", "Listen +9", "Spot +5", "Tumble +6"],
++      "traits": [
++        "Lawful good. Unarmored, size +1, Dexterity +2, Wisdom +3. Touch 16, flat-footed 14. BAB +0, grapple −4. Fortitude +5, Reflex +4, Will +5. Alertness adds +2 Listen and Spot.",
++        "Nature Scholar (Ex) grants +2 racial on Knowledge (nature) and makes it a class skill.",
++        "Cold Resistance (Ex). Cold environments do not harm the Uldra or its equipment. Against attacks that deal cold damage, the Uldra has cold resistance 5.",
++        "Frosty Touch (Su). A free action frosts the hands. While frosty, unarmed attacks deal +1 cold damage. A wielded melee weapon deals +1 cold on a hit while held. The extra cold does not stack with a magic weapon’s cold damage.",
++        "Fey Blood. Uldras are Fey. Effects limited to Humanoids do not affect them, and effects that target Fey apply. They have no special cold iron weakness.",
++        "Improved Unarmed Strike and Stunning Fist are Monk bonus feats. Stunning Fist is 1/day. Declare before the attack roll. On a damaging hit, Fortitude DC 13 prevents a one-round stun."
++      ],
++      "actions": [
++        "Small Monk unarmed strike +1 melee for 1d4 bludgeoning, plus 1 cold with Frosty Touch. Unarmed flurry as a full attack uses two strikes at −1 each, same damage on each hit.",
++        "Racial spell-like abilities, CL 1 from one Hit Die. Ray of frost 3/day, ranged touch +3 for 1d3 cold with no save. Speak with animals 1/day for 1 minute. Touch of fatigue 1/day, melee touch +1, Fortitude DC 13 negates, duration 1 round. The save is Wisdom-based."
++      ],
++      "tactics": "Stillrime guards the shelter entrance as the party brings travelers through the pass. He activates Frosty Touch before engaging and uses the ray if a target stays out of reach. Apply normal cold resistance to his separate cold damage."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
++      "size": "Small",
+       "type": "Humanoid (Extraplanar)",
+       "senses": "Normal vision.",
+       "id": "mephling-water-sluice-rescuer-35e",
+@@ -5273,6 +5356,28 @@
+       "hook": "Ornek can identify an unusual seam in the new stonework if the party brings the old floor plan."
+     },
+     {
++      "species": "Uldra",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Frostburn (2004)",
++      "name": "Rimewillow",
++      "build": "uldra-rimewillow-winter-trail-guide-35e",
++      "role": "Winter-trail guide and Druid.",
++      "motive": "Find a trail that the stranded travelers can cross.",
++      "hook": "Rimewillow knows where a fox has been using the hollow."
++    },
++    {
++      "species": "Uldra",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Frostburn (2004)",
++      "name": "Stillrime",
++      "build": "uldra-stillrime-pass-shelter-guard-35e",
++      "role": "Pass shelter guard and Monk.",
++      "motive": "Hold the shelter entrance until the travelers are inside.",
++      "hook": "Stillrime can hear movement beyond the snowbank outside the shelter."
++    },
++    {
+       "species": "Raptoran",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -9743,6 +9743,7 @@
+ Ulamog	monster	Celestial	Plane Shift: Zendikar	2014 fifth edition	Wizards of the Coast		23
+ Ulburto (Scout)	monster	Humanoid	DDEX1-03 - Shadows over the Moonsea	2014 fifth edition	Wizards of the Coast		1/2
+ Ulder Ravengard	monster	Humanoid	Baldur's Gate: Descent Into Avernus	2014 fifth edition	Wizards of the Coast		5
++Uldra	species	Fey	Frostburn (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/works/OL35266671W/Frostburn	
+ Ulitharid	monster	Aberration	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560945-ulitharid	9
+ Ulitharid	monster	Aberration	Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17285-ulitharid	9
+ Ulitharid	monster	Aberration	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17285-ulitharid	9

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mephit",
+    "file": "portraits/mephit.png",
+    "sha256": "2d340538e261fce0a0bb21f7be1a21741ec1b85351bcc24c1a2ab6ee0e8a4c9c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Modron",
+    "file": "portraits/modron.png",
+    "sha256": "19f4bece75862c84a5ee337c696a57a52b89fee737df719c3c537cfdbb214889",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Nightmare",
+    "file": "portraits/nightmare.png",
+    "sha256": "e5773e90fa11cb9ceb82ee62e67f5eadea3eaf5e93f4d16dca90fb4b3f805608",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Oni",
+    "file": "portraits/oni.png",
+    "sha256": "cc66a33f72e7d2df9cebc5d8c5e8bfaca60725f5f6805a4daa408145694e048b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Owlbear",
+    "file": "portraits/owlbear.png",
+    "sha256": "d0d2173c2509e4cca0686522a35dfdf29b2115a21d1093334362f312af368509",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-ca5bcec12f716f44d9745d34",
+    "version": "ad5b27eaa2dbdf5434181801",
+    "name": "Bat",
+    "file": "images/adnd2e-monstrous-manual-bats/bat.png",
+    "sha256": "bb1844718125609b36b97f1894b138c38ce00341e5652fa5deb8a454fd4b5e0f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9c56a844ca4260d80807d1f8",
+    "version": "8a84fb1057acf13fa10c1c94",
+    "name": "Giant Bat",
+    "file": "images/adnd2e-monstrous-manual-bats/giant-bat.png",
+    "sha256": "a4bd50033f34294caacf1f44aa6f88d83953d3dad21eb2d0f3e32fed3ccf551b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-32d46d8d6fe6af093ba6a605",
+    "version": "de18e79554f7a0b601ed8324",
+    "name": "Mobat",
+    "file": "images/adnd2e-monstrous-manual-bats/mobat.png",
+    "sha256": "fe68683f6c4709dc060510132fbe4977f411c70d42403ddc2ccca202270f2ff1",
+    "credit": "OpenAI ImageGen"
+  }
+]

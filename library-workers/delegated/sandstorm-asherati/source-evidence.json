@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Asherati",
+    "kind": "species",
+    "publication": "Sandstorm (2005)",
+    "edition": "3.5 edition",
+    "book": "Sandstorm",
+    "authors": [
+      "Bruce R. Cordell",
+      "Jennifer Clarke Wilkes",
+      "JD Wiker"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "March 2005",
+    "productCode": "620-17739-001-EN",
+    "isbn": "0-7869-3655-X",
+    "printedPages": {
+      "playableSpecies": [
+        37,
+        38,
+        39
+      ],
+      "racialTraits": [
+        38,
+        39
+      ],
+      "illustration": 37,
+      "warrior": 139,
+      "heatEndurance": 50,
+      "eaglesClaw": 96
+    },
+    "pdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "daf4e22892d4ad3829dbde9de7b733ffb246547bb8d7dccedc5883544d7a0c4b",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Matt Cavotta, An asherati, p. 37.",
+    "sourceDistinctions": [
+      "The player profile uses +1 natural armor and no ability adjustments. The separate p. 139 Warrior prints different armor, flash DC, and Sandswim details.",
+      "Ordinary Body Lamp glow and the once-daily free-action flash are distinct. The player flash applies to all creatures in range and lasts one minute on a failed Fortitude save.",
+      "The player entry specifies slower movement in heavier armor or with a medium load and no movement under sand with a heavy load.",
+      "Wizards’ collected archive has no Sandstorm errata file. The official FAQ has no Asherati entry."
+    ],
+    "entryId": "species-f67efafcfd9979118858245e",
+    "versionKey": "eba4c0f44099ef9203b6ed4b",
+    "slug": "asherati",
+    "portraitSelection": "generated",
+    "portraitForm": "Rashen Dustline, an original Asherati Rogue",
+    "npcExamples": [
+      "Rashen Dustline",
+      "Neral Glassbank"
+    ]
+  }
+]

@@ -1,0 +1,325 @@
+[
+  {
+    "name": "Allosaurus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 51,
+    "hitDice": "6d10 + 18",
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +5. Passive Perception 15. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-legged bipedal predator with ochre-brown scales, low ridges above its eyes, clawed forelimbs, and a long balancing tail.",
+    "habitats": [
+      "Open ground",
+      "Remote mountain valleys",
+      "Isolated plateaus",
+      "Tropical islands",
+      "Deep fens"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 116. ",
+      "Traits": "Pounce. Move at least 30 ft. straight toward a creature and hit it with Claw that turn. The target must pass a DC 13 Strength save or fall prone. If that target is prone, the allosaurus can make one Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 8 (1d8 + 4) slashing damage."
+    }
+  },
+  {
+    "name": "Allosaurus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 51,
+    "hitDice": "6d10 + 18",
+    "speed": "60 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +5. Passive Perception 15. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A long-legged bipedal predator with ochre-brown scales, low ridges above its eyes, clawed forelimbs, and a long balancing tail.",
+    "habitats": [
+      "Open ground",
+      "Remote mountain valleys",
+      "Isolated plateaus",
+      "Tropical islands",
+      "Deep fens"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Dinosaurs, p. 79. https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+      "Traits": "Pounce. Move at least 30 ft. straight toward a creature and hit it with Claw that turn. The target must pass a DC 13 Strength save or fall prone. If that target is prone, the allosaurus can make one Bite attack against it as a bonus action.",
+      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit for 8 (1d8 + 4) slashing damage."
+    }
+  },
+  {
+    "name": "Ankylosaurus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 15,
+    "hp": 68,
+    "hitDice": "8d12 + 16",
+    "speed": "30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail.",
+    "habitats": [
+      "Remote mountain valleys",
+      "Isolated plateaus",
+      "Tropical islands",
+      "Deep fens"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 117. ",
+      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone."
+    }
+  },
+  {
+    "name": "Ankylosaurus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 15,
+    "hp": 68,
+    "hitDice": "8d12 + 16",
+    "speed": "30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail.",
+    "habitats": [
+      "Remote mountain valleys",
+      "Isolated plateaus",
+      "Tropical islands",
+      "Deep fens"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Dinosaurs, p. 79. https://anyflip.com/kqwdv/eoae/basic/51-100#p=80",
+      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone.",
+      "Spiked-tail variety": "The Monster Manual describes some ankylosaurs with spiked tails that deal piercing damage in place of bludgeoning. The portrait depicts the standard club-tailed form."
+    }
+  },
+  {
+    "name": "Black Bear",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black-furred bear with rounded ears, a cinnamon-brown muzzle, and a gently rounded back.",
+    "habitats": [
+      "Forests",
+      "Woodland edges",
+      "Forested foothills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 119. ",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on scent.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Black Bear",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A black-furred bear with rounded ears, a cinnamon-brown muzzle, and a gently rounded back.",
+    "habitats": [
+      "Forests",
+      "Woodland edges",
+      "Forested foothills"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, Miscellaneous Creatures, p. 318. https://anyflip.com/kqwdv/eoae/basic/301-350#p=319",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on scent.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) slashing damage."
+    }
+  }
+]

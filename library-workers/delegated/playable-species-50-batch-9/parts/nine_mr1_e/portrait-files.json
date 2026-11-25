@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Specter",
+    "file": "portraits/specter.png",
+    "sha256": "97a28972fb2e0634dfb128073b08fbd56aeee165bca8ad3f4c89dc51b1c78bd8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Stirge",
+    "file": "portraits/stirge.png",
+    "sha256": "7521bc9bd607b656819169192187cc0b16619702bbd18239c3daf38e71c87c47",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Tarrasque",
+    "file": "portraits/tarrasque.png",
+    "sha256": "d3bf9d3d548ada3e2e576746a1de7396d8ce3dc5837ce580e82dbb36f84c3758",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Unicorn",
+    "file": "portraits/unicorn.png",
+    "sha256": "5426cc8f074e4318beb2783b90d7916287e1f9d87b92083e512bbe1d7cd5d2f5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Water Weird",
+    "file": "portraits/water-weird.png",
+    "sha256": "9ea9f2f36f7da17178abfa2b28de228ab2259555fc601035a474b1086f38ab9a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

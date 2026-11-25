@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Enkoh",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Loot Tavern Publishing, Ryoko’s Guide to the Yokai Realms v1.00, pp. 118–120.",
+      "Thick-furred simian Humanoids with two arms, two legs, and a tail. The suggested increase is +2 Intelligence. Enkoh mature at 15 and can live to 80. Read, write, and speak Common and one language agreed with the GM.",
+      "All Enkoh have cold resistance and one tool proficiency from carpenter’s, glassblower’s, jeweler’s, mason’s, potter’s, or smith’s tools. Checks to shape ice with that tool have advantage.",
+      "Hulking Enkoh are Medium, with 30-ft. walking and climbing speeds and a suggested +1 Constitution. Count one size larger for carrying, pushing, dragging, and lifting. As a bonus action, gain bludgeoning, piercing, and slashing resistance and advantage on Intimidation checks until the start of your next turn. Uses equal proficiency bonus per long rest.",
+      "A Hulking Enkoh can spend at least 1 sp on ingredients and cook during a short or long rest for up to 2 + proficiency bonus creatures of Medium size or smaller. Each diner who eats at the end of the rest recovers one spent Hit Die and gets 1d6 + proficiency bonus temporary HP.",
+      "Springtail Enkoh are Small, with 35-ft. walking and climbing speeds and a suggested +1 Dexterity. Climbing a creature larger than yourself does not count as difficult terrain. Checks to tame or influence Beasts have advantage. Gain proficiency in two of Acrobatics, Animal Handling, Nature, Performance, and Survival.",
+      "Springtail jumps reach full distance without a run-up. Add your Dexterity score to long-jump distance and your Dexterity modifier to high-jump height. Jumping still spends movement. As a reaction to a check or save against forced movement, anchor your tail on a fixed object within 5 ft. to gain advantage.",
+      "The chapter permits redistributing the suggested increases as +2/+1 or +1/+1/+1 across different abilities."
+    ]
+  },
+  {
+    "name": "Fuyōren",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Loot Tavern Publishing, Ryoko’s Guide to the Yokai Realms v1.00, pp. 121–122.",
+      "Medium Plant with two arms and two legs and a 35-ft. walking speed. The suggested increases are +2 Dexterity and +1 Wisdom. Mature at around 18, with a lifespan up to 150 years.",
+      "Advantage on saves to prevent or end paralysis, petrification, or restraint. Walk or stand on materials such as water, mud, snow, and quicksand without sinking. Hazardous surfaces still inflict their normal effects.",
+      "Water Magic takes 10 minutes per vial. Turn ordinary water into holy water, a drink that ends the poisoned condition, a 24-hour supply of hydration for one Large or smaller creature, or a drink that restores 1d4 HP. A vial loses its magical properties after 24 hours. Uses equal proficiency bonus per long rest.",
+      "Choose proficiency in one of Acrobatics, Animal Handling, Nature, Survival, or Performance. Read, write, and speak Common and one GM-approved language.",
+      "Fuyōhren and Fuyohren are lookup alternatives. The final trait block spells the name Fuyōren."
+    ]
+  },
+  {
+    "name": "Hanamori",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Loot Tavern Publishing, Ryoko’s Guide to the Yokai Realms v1.00, pp. 123–124.",
+      "Choose Small or Medium. Hanamori are Plants with two arms and two legs and a 30-ft. walking speed. The suggested increases are +2 Charisma and +1 Wisdom. They mature like humans and can live to 60.",
+      "Essence Capture uses a reaction when a creature with CR no higher than your level dies within 10 ft. Until your next long rest, take one option from the dead creature. Substitute its Strength, Dexterity, Intelligence, Wisdom, or Charisma score for yours. Copy one of its special senses except truesight to its printed range. Gain resistance to one damage type it resisted or was immune to. Or gain immunity to one condition it ignored, excluding exhaustion. One use per long rest.",
+      "Advantage on saves to prevent or end fear or stun. Choose proficiency in Intimidation, Medicine, Nature, or Survival.",
+      "Rugged base AC is 12 + Constitution modifier and can replace a weaker worn armor calculation. A shield can add its bonus. Speak, read, and write Common and one GM-approved language."
+    ]
+  },
+  {
+    "name": "Haniwa",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Loot Tavern Publishing, Ryoko’s Guide to the Yokai Realms v1.00, pp. 125–126.",
+      "Construct with two arms and two legs. Choose Small or Medium. Walking speed 30 ft. The suggested increases are +2 Constitution and +1 Wisdom. Haniwa are formed as adults and cannot be aged magically.",
+      "Over a long rest, make a clay companion of any shape using the giant weasel, hawk, mastiff, or mule stat block. It is a Construct, gains Soul Shell, and understands you. A bonus action commands an action. In combat it Dodges without a command. It collapses to clay at 0 HP or when you make a replacement.",
+      "Grave Guardian grants one innate casting each of earthen uppercut and sanctuary per long rest. Choose Intelligence, Wisdom, or Charisma for both. If you have eligible spell slots, you may spend them to cast either spell.",
+      "Soul Shell removes the need to eat, drink, or breathe. Gain advantage on saves against disease and to prevent or end the poisoned condition. Spells that normally skip Constructs, such as cure wounds and healing word, can restore your HP.",
+      "Weapon attacks count as magical for overcoming resistance and immunity. Gain Religion and Perception proficiency. Read, write, and speak Common and a GM-approved language."
+    ]
+  },
+  {
+    "name": "Isetsu",
+    "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Loot Tavern Publishing, Ryoko’s Guide to the Yokai Realms v1.00, pp. 127–128.",
+      "Medium Humanoid with two legs, two arms, and four vestigial appendages. Walking speed 30 ft. and darkvision 60 ft. The suggested increases are +2 Strength and +1 Constitution. Isetsu mature before age ten and can live to around 100.",
+      "Your shell grants a base AC of 12 + Constitution modifier when unarmored. You can use that AC if your worn armor gives less, and you can add a shield. Brittle Shell also provides +2 AC when you complete a short or long rest if the bonus is absent. The bonus ends when an attack hits you.",
+      "Gain Athletics and Perception proficiency. Claws deal 1d6 + Strength modifier piercing as unarmed strikes. From 5th level, after you land an unarmed strike on your turn, you can immediately attempt to grapple that creature as a bonus action.",
+      "Fortune Favoured lets you reroll an attack miss or a failed check or save. Uses equal half your proficiency bonus per long rest. Apply the 2014 default of rounding down when it is odd.",
+      "Breathe air and water. Underwater combat does not impose disadvantage on your weapon attack rolls. Speak, read, and write Common and one GM-approved language."
+    ]
+  }
+]

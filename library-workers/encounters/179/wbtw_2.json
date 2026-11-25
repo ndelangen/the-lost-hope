@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Clapperclaw the Scarecrow",
+    "statBlock": {
+      "name": "Clapperclaw the Scarecrow",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 78,
+      "classification": "Small construct, lawful neutral",
+      "ac": 12,
+      "hp": 14,
+      "hitDice": "4d6",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "description": "A three-foot scarecrow with pincers and a gourd head that rattles. It fled Granny Nightshade and wants its stolen stag skull back.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 3,
+        "Survival": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned, unconscious.",
+        "Traits": "Unusual Nature. Clapperclaw needs no air, food, drink, or sleep.",
+        "Actions": "Claws. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) slashing damage.\nStuffing. Clapperclaw packs itself with straw or other dead plants and regains 2d4 + 4 hit points. Then roll a d6. On a 1 or 2, it runs out of filling and must forage for 8 hours before using this action again.",
+        "Bonus actions": "Unsettling Presence (Recharge 6). Choose one visible creature within 15 ft. It must pass a DC 11 Wisdom save or become magically frightened until the end of Clapperclaw’s next turn.",
+        "Guide to Thither": "Clapperclaw will guide the party from Hither to Thither if they help recover its skull. Agdon Longscarf stole it and gave it to Bavlorna Blightstraw, who keeps it in her cottage’s treasure room (B19). Clapperclaw avoids the hags and waits outside the cottage.",
+        "Printing note": "The printed Stuffing action on p. 78 restores 2d4 + 4 hit points. The indexed transcription gives 2d4 + 2.",
+        "Printed source": "The Wild Beyond the Witchlight, p. 78 (D5)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Agdon Longscarf",
+          "terms": [
+            "Agdon Longscarf"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#agdon%20longscarf_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bavlorna Blightstraw",
+          "terms": [
+            "Bavlorna Blightstraw"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Skabatha Nightshade",
+          "terms": [
+            "Skabatha Nightshade"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#skabatha%20nightshade_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Displacer Beast Kitten",
+    "statBlock": {
+      "name": "Displacer Beast Kitten",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 108,
+      "classification": "Small monstrosity, unaligned",
+      "ac": 12,
+      "hp": 9,
+      "hitDice": "2d6 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "description": "A young displacer beast whose illusion makes it seem to be a short distance from its true position. Star, the kitten in Thither, recognizes its mirrored toy ball.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Displacement. A magical illusion offsets the kitten’s apparent position, imposing disadvantage on attack rolls against it. A hit disrupts the illusion until the end of its next turn. The illusion also fails while the kitten is incapacitated or its speed is 0.",
+        "Actions": "Tentacles. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 2 bludgeoning damage plus 2 piercing damage.",
+        "Star and the Getaway Gang": "Will of the Feywild, an Oni in disguise, keeps Star as a pet. He abandons Star if his curse ends. Showing the kitten Dirlagraun’s mirrored ball excites it. If told about Star’s parent, Will agrees to return the kitten if the party helps free the children in Loomlurch.",
+        "Printed source": "The Wild Beyond the Witchlight, pp. 108–109 (Little Oak)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Oni",
+          "terms": [
+            "Oni"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#oni_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Displacer Beast",
+          "terms": [
+            "Displacer Beast"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#displacer%20beast_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Elkhorn",
+    "statBlock": {
+      "name": "Elkhorn",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 224,
+      "classification": "Medium humanoid (dwarf), lawful good",
+      "ac": 18,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An aging dwarven fighter of Valor’s Call. He trained against ogres and trolls and still refuses to retire.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Survival": 2
+      },
+      "savingThrows": {
+        "Str": 1,
+        "Con": 5
+      },
+      "sections": {
+        "Armor": "Chain mail and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Dwarvish.",
+        "Damage resistances": "Poison.",
+        "Traits": "Special Equipment. Elkhorn carries a +1 Longsword.",
+        "Actions": "Multiattack. Make two attacks chosen from Dagger and +1 Longsword.\nDagger. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. On a hit, deal 3 (1d4 + 1) piercing damage. A Large or larger creature takes an extra 5 (1d10) piercing damage.\n+1 Longsword. Melee weapon attack, +2 to hit, reach 5 ft., one target. On a hit, deal 4 (1d8) slashing damage with one hand or 5 (1d10) with two hands. A Large or larger creature takes an extra 5 (1d10) slashing damage.",
+        "Bonus actions": "Feint (Recharge 5–6). Choose one visible creature within 5 ft. Elkhorn has advantage on his next attack against it before this turn ends. A hit adds 7 (2d6) damage of the weapon’s type.\nSecond Wind (Recharges after a Short or Long Rest). Elkhorn regains 12 hit points.",
+        "Valor’s Call": "Elkhorn is Strongheart’s longtime companion. His challenge rating assumes he uses Feint to improve his sword attacks. He is especially dangerous to larger foes.",
+        "Printed source": "The Wild Beyond the Witchlight, p. 224 (Appendix B)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Strongheart",
+          "terms": [
+            "Strongheart"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#strongheart_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ogre",
+          "terms": [
+            "Ogre"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ogre_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Troll",
+          "terms": [
+            "Troll"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#troll_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Endelyn Moongrave",
+    "statBlock": {
+      "name": "Endelyn Moongrave",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Medium fey (hag), neutral evil",
+      "ac": 17,
+      "hp": 114,
+      "hitDice": "12d8 + 60",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 13,
+      "description": "The youngest Hourglass Coven hag rules Yon from her mountaintop theater. She shows visitors terrible futures in exchange for a piece of their free will and believes she will die during a solar eclipse.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 7,
+        "Deception": 6,
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "savingThrows": {
+        "Con": 8,
+        "Int": 4,
+        "Wis": 3,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Boon of Immortality. Endelyn cannot age through any effect or die of old age.\nEclipsed Doom. Endelyn dies at 0 hit points only during a solar eclipse or within 60 ft. of a symbolic solar eclipse. Otherwise, at 0 hit points she vanishes in inky smoke with all worn and carried items, then returns 24 hours later at the same spot or the nearest open space.\nUncanny Awareness. Endelyn cannot be surprised.",
+        "Actions": "Multiattack. Make two Puppeteer’s Lash attacks.\nPuppeteer’s Lash. Melee or ranged spell attack, +6 to hit, reach 5 ft. or range 60 ft., one creature. On a hit, deal 17 (4d6 + 3) psychic damage. If the target is Large or smaller, Endelyn telekinetically moves it up to 10 ft. in any horizontal direction.",
+        "Spellcasting": "As an action, cast one listed spell with Charisma (save DC 14) and no material components.\nAt will. Detect Magic, Mage Hand.\n2/day each. Augury, Polymorph.\n1/day. Plane Shift (self only).",
+        "Hourglass Coven": "While Endelyn, Bavlorna Blightstraw, and Skabatha Nightshade are all within 30 ft. of one another, any of them can spend an action to cast Detect Thoughts, Dispel Magic, Finger of Death, Glibness, Locate Creature, or Mass Suggestion without material components (save DC 14). Each spell has one shared use until the next dawn.",
+        "Motherhorn": "Glister of the Selenelion Twin act can stage a symbolic eclipse by standing behind the theater’s wooden moon prop while wearing her sun mask. The twins can also embody the sun and moon together. When threatened, Endelyn can flee on her Ornithopter of Flying. If the coven has regrouped and risks capture or death, the hags flee for the Palace of Heart’s Desire.",
+        "Orrery of Tragedies (M14)": "Creatures on the balcony and on the floor below have three-quarters cover against attacks from the other level. Touching the central lightning rod, entering the device’s space for the first time on a turn, or starting a turn there triggers a DC 15 Dexterity save. Take 44 (8d10) lightning damage on a failed save or half on a success. Make the save with disadvantage in metal armor.\nAt least eight components must be destroyed to wreck the device. Each is a Large object with AC 19, 27 HP, and immunity to lightning, poison, and psychic damage. The central rod has eight segments, each AC 17 and 25 HP with the same immunities. Destroying a segment drops the ones above it. If at least three are lost, the orrery shuts down after 1 minute until the rod is rebuilt. Antimagic Field suppresses the device while in contact. Dispel Magic (DC 19) shuts it down for 1 minute, but it stays charged.",
+        "Printed source": "The Wild Beyond the Witchlight, pp. 150, 161–165, 215, 217 (Motherhorn and Appendix B)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Bavlorna Blightstraw",
+          "terms": [
+            "Bavlorna Blightstraw"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Skabatha Nightshade",
+          "terms": [
+            "Skabatha Nightshade"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#skabatha%20nightshade_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Selenelion Twin",
+          "terms": [
+            "Selenelion Twin",
+            "Selenelion Twins",
+            "Glister",
+            "Gleam"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#selenelion%20twin_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Detached Shadow",
+          "terms": [
+            "Detached Shadow"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#detached%20shadow_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Envy",
+    "statBlock": {
+      "name": "Envy",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 178,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 19,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "An iron lion created to guard Zybilna’s garden alongside Wrath, the iron hart. Envy demands that intruders kneel before it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Sylvan.",
+        "Condition immunities": "Petrified.",
+        "Traits": "Trampling Charge. If Envy moves at least 20 ft. straight toward a creature and hits it with Bite on the same turn, that creature must pass a DC 16 Strength save or fall prone. If the target is prone, Envy can make one Claws attack against it as a bonus action.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one target. On a hit, deal 18 (2d12 + 5) piercing damage.\nClaws. Melee weapon attack, +8 to hit, reach 5 ft., one target. On a hit, deal 16 (2d10 + 5) slashing damage.\nPetrifying Breath (Recharge 5–6). Each creature in a 30-ft. cone makes a DC 13 Constitution save. On a failure, it begins turning to stone and is restrained. It repeats the save at the end of its next turn. Success ends the effect. Failure leaves it petrified until Greater Restoration or other magic frees it.",
+        "Palace guardian": "Envy uses the 2014 Gorgon as its base, with speech and the Bite and Claws attacks shown here. Zybilna’s magic prevents the two guardians from harming one another. Envy orders disrespectful visitors to leave and attacks those who refuse.",
+        "Crown of needles": "Placing the silver crown on Envy banishes it and the crown to its demiplane until Zybilna recalls them. Wrath turns the silver crown to gold. Gold on Envy unlocks lion-marked palace doors even if Envy is dead. To borrow the gold crown, offer a lei of palace flowers. It takes 1 hour for one person to make, divided among contributors. Each contributor may make a DC 15 Intelligence (Nature) check. A success earns the crown temporarily. A total of 25 or higher earns it whenever requested.",
+        "Printing note": "The adventure changes the Gorgon’s Hooves into Claws and explicitly replaces bludgeoning with slashing damage.",
+        "Printed source": "The Wild Beyond the Witchlight, pp. 178–179 (P9), and Monster Manual (2014), p. 171."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Gorgon",
+          "terms": [
+            "Gorgon"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gorgon_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Iggwilv the Witch Queen",
+          "terms": [
+            "Iggwilv the Witch Queen"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#iggwilv%20the%20witch%20queen_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Flying Rocking Horse",
+    "statBlock": {
+      "name": "Flying Rocking Horse",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 121,
+      "classification": "Medium construct, unaligned",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "0 ft., fly 40 ft. (only while mounted, hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 6,
+      "description": "A wooden rocking horse animated by the Hourglass Coven. It can fly with a rider, and a depression in its forehead marks where its unicorn horn once grew.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft. (blind beyond this radius).",
+        "Damage immunities": "Poison, psychic.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Traits": "False Appearance. If motionless when combat starts, the horse rolls initiative with advantage. A creature that has never seen it move or act needs a DC 18 Intelligence (Investigation) check to recognize it is alive.\nFlying Mount. The horse can carry a Medium or smaller rider and flies only while mounted.\nUnusual Nature. It needs no air, food, drink, or sleep, and recovers neither hit points nor Hit Dice after a long rest.",
+        "Actions": "Head Butt. Melee weapon attack, +2 to hit, reach 5 ft., one target. On a hit, deal 3 (1d6) bludgeoning damage.",
+        "Breaking Elidon’s curse": "A creature within 5 ft. notices the depression in the horse’s forehead. A successful DC 10 Intelligence check identifies it as the former site of a horn. Place Elidon’s lost horn on the brow while the horse has at least 1 HP. It transforms into Elidon, a Unicorn at full health. A DC 17 Charisma (Persuasion) check persuades him to join the party instead of returning directly to Lamorna. Before leaving, he offers Healing Touch, one teleport per day for himself and up to three willing party members to a location in Thither up to 1 mile away, and Pass without Trace at will for himself and the party (concentration, up to 1 hour).",
+        "Printed source": "The Wild Beyond the Witchlight, p. 121 (L6)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Unicorn",
+          "terms": [
+            "Unicorn"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#unicorn_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Skabatha Nightshade",
+          "terms": [
+            "Skabatha Nightshade"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#skabatha%20nightshade_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Glass Pegasus",
+    "statBlock": {
+      "name": "Glass Pegasus",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 181,
+      "classification": "Large construct, chaotic good",
+      "ac": 15,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "60 ft., fly 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 16,
+      "description": "One of two glass pegasi that pull Zybilna’s flying crystal carriage. The carriage key wakes them and gives the driver reins made of starlight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 4,
+        "Cha": 3
+      },
+      "sections": {
+        "Armor": "AC 15 while animated, AC 13 while inanimate.",
+        "Languages": "Understands Celestial, Common, Elvish, and Sylvan but cannot speak.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified.",
+        "Actions": "Hooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 11 (2d6 + 4) bludgeoning damage.",
+        "Carriage harness": "Hold the carriage key within 3 inches of either door to reveal a keyhole. Turning it clockwise unlocks both doors and animates the pegasi. The driver gains starlight reins and can move the carriage 40 ft. on land or 80 ft. in flight. While the carriage is stationary on the ground, turning the key counterclockwise locks the doors and returns the pegasi to statues. The vehicle and both pegasi shatter if the carriage leaves the Feywild.",
+        "Printed source": "The Wild Beyond the Witchlight, p. 181 (P11), and Monster Manual (2014), p. 250."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Pegasus",
+          "terms": [
+            "Pegasus"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#pegasus_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Iggwilv the Witch Queen",
+          "terms": [
+            "Iggwilv the Witch Queen"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#iggwilv%20the%20witch%20queen_wbtw"
+          }
+        }
+      ]
+    }
+  }
+]

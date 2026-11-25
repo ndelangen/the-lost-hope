@@ -1,0 +1,26 @@
+{
+  "baseline": "53a336bdc07f68a573135eab6d27ed3d215dc6f5",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Mephling"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Planar Handbook (2004)",
+  "breathAndAncestryRulesVerified": true,
+  "ancestries": 4,
+  "fireMephitPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Planar Handbook (2004)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 4,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

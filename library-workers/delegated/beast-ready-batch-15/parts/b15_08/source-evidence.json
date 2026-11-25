@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Giant Octopus",
+    "publication": "DDEX3-09 - The Waydown",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "November 1, 2015 release",
+    "author": "Cole Kronewitter",
+    "adventureCodeInPdf": "DDEX3-9",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      30
+    ],
+    "pdfPages": [
+      30
+    ],
+    "contextPrintedPages": [
+      5,
+      22,
+      24
+    ],
+    "sourceSha256": "e4a415cacc3766dd65a4f47ed0bf458fb7852a47d105b1aed45115b1e04df38f",
+    "url": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+    "printWitness": "Local original publisher . Printed and viewer folios agree.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+    "appearanceEvidence": "The p. 22 Octopus Den explicitly houses three albino giant octopuses. Specific skin shading and pose come from the generated portrait.",
+    "habitatEvidence": "Editorial tags based on the submerged Underdark den on p. 22.",
+    "artGroup": "albino-giant-octopus",
+    "sourceDistinctions": [
+      "The separately printed p. 30 block provides the numbers and attack procedures. The encounter on p. 22 supplies the albino coloration."
+    ],
+    "portraitSha256": "365a84d443b2a653f30dae45ffe3205409f5d1ed711a16a3fab96366a1b1543c",
+    "portraitGeneration": {
+      "mode": "Built-in OpenAI ImageGen",
+      "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+      "prompt": "Create a square original natural history bestiary specimen portrait. Big Linda attachment is a style and flat parchment tone reference only. One albino giant octopus from The Waydown. An authentic octopus only, with a soft rounded mantle, eye on each side of the head, and exactly eight muscular tapering arms with clearly rendered underside suckers on several arms. No fins and no long specialized tentacles. Show the full animal obliquely from above, a few arms gracefully curled around rather than across the body, legible at 96 pixels. Skintone primarily ivory cream and soft warm off-white, slight muted blush on suctions and shadowed skin, subtle grayed shadows and natural dark eyes. Match Big Linda's painterly realism, restrained gouache brush detail, soft natural light. Plain matte neutral tan parchment with very fine even grain, neither orange nor golden, edge-to-edge without a horizon, scenery, water or any bubbles, props, vignette, hard cast shadow, text, frame, flare, fog, particles, or additional creatures. Center the octopus with clear ample margin around the complete arm silhouette so all eight tips fit a centered circular crop."
+    }
+  },
+  {
+    "name": "Guard Dog (Wolf)",
+    "publication": "DDEX3-09 - The Waydown",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "November 1, 2015 release",
+    "author": "Cole Kronewitter",
+    "adventureCodeInPdf": "DDEX3-9",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      26
+    ],
+    "pdfPages": [
+      26
+    ],
+    "contextPrintedPages": [
+      14,
+      16,
+      24
+    ],
+    "sourceSha256": "e4a415cacc3766dd65a4f47ed0bf458fb7852a47d105b1aed45115b1e04df38f",
+    "url": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/170504/DDEX309-The-Waydown-5e",
+    "printWitness": "Local original publisher . Printed and viewer folios agree.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+    "appearanceEvidence": "The adventure encounters identify guard dogs. The block calls the animal a wolf in its traits. Coat and type details are from the reused portrait.",
+    "habitatEvidence": "Editorial tag based on the fortress kennels and patrols described on pp. 14 and 16.",
+    "artGroup": "guard-dog-wolf",
+    "sourceDistinctions": [
+      "The p. 26 title is Guard Dog (Wolf), and the printed trait prose calls the creature a wolf. The block is explicitly Medium Beast, unaligned."
+    ],
+    "portraitSha256": "55b5fbe4a9c23452a552735a203dad9341d9bd0de8707ea8184ebb44a5352889"
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "publication": "DDAL04-11 - The Donjon",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "version 1.0, ©2016",
+    "author": "Ash Law",
+    "adventureCodeInPdf": "DDEX4-11",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      33
+    ],
+    "pdfPages": [
+      33
+    ],
+    "contextPrintedPages": [
+      25,
+      27,
+      29
+    ],
+    "sourceSha256": "5c36559b299d00becd806008c1af99c8ce22f92fd205632113a3be3360308594",
+    "url": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+    "printWitness": "Local original publisher . Printed and viewer folios agree.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+    "appearanceEvidence": "The encounter assigns no coloration or distinctive morphology. The description uses the reused portrait.",
+    "habitatEvidence": "Editorial tags based on the Rat-Bone Corridor in the flooded temple level and the nearby swamp encounter table.",
+    "artGroup": "giant-poisonous-snake",
+    "sourceDistinctions": [
+      "The p. 33 block prints Bite at +5 to hit despite Dexterity 18 (+4). The overlay retains +5. Fire Snake is separately printed as an elemental on the same folio."
+    ],
+    "portraitSha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709"
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "DDAL04-11 - The Donjon",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "version 1.0, ©2016",
+    "author": "Ash Law",
+    "adventureCodeInPdf": "DDEX4-11",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      33
+    ],
+    "pdfPages": [
+      33
+    ],
+    "contextPrintedPages": [
+      26,
+      29
+    ],
+    "sourceSha256": "5c36559b299d00becd806008c1af99c8ce22f92fd205632113a3be3360308594",
+    "url": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/184344/DDAL0411-The-Donjon-5e",
+    "printWitness": "Local original publisher . Printed and viewer folios agree.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+    "appearanceEvidence": "The adventure describes desiccated, mold-covered remains in the trap. Color, proportions and markings describe the reused portrait of a live spider.",
+    "habitatEvidence": "Editorial tag based on the underground Trap-Filled Corridor on p. 26.",
+    "artGroup": "giant-spider",
+    "sourceDistinctions": [
+      "The complete living spider profile appears on p. 33 across the two columns. Area H on p. 26 explicitly describes dead spiders in the trap."
+    ],
+    "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570"
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "DDEX3-06 - No Foolish Matter",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "October 1, 2015 release",
+    "author": "Ash Law",
+    "adventureCodeInPdf": "DDEX3-6",
+    "section": "Appendix: Monster/NPC Statistics",
+    "printedPages": [
+      18
+    ],
+    "pdfPages": [
+      18
+    ],
+    "contextPrintedPages": [
+      13,
+      17
+    ],
+    "sourceSha256": "5673e4ff70d9fe0fc1cf2c98179077c4ed2b0c58f122cd56cf588b5106c94fea",
+    "url": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e",
+    "rulesUrl": "https://www.dmsguild.com/product/170499/DDEX306-No-Foolish-Matter-5e",
+    "printWitness": "Local original publisher . Printed and viewer folios agree.",
+    "organizedPlayUrl": "",
+    "errataEvidence": "No standalone publisher errata for the module was located. The local publisher supplies the rules.",
+    "appearanceEvidence": "The appendix identifies a giant rat. Color and body details describe the reused portrait.",
+    "habitatEvidence": "Editorial tag based on the carnival stalls and tents in the p. 13 encounter.",
+    "artGroup": "giant-rat",
+    "sourceDistinctions": [
+      "The Giant Rat block is separate from Swarm of Rats on the same folio. The module prints Keen Smell and ordinary piercing Bite."
+    ],
+    "portraitSha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73"
+  }
+]

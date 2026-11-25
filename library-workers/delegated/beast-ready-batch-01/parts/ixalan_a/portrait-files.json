@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "aegisaur",
+    "file": "portraits/aegisaur.png",
+    "sha256": "54247adaabf3b13f89d6c05c49b7465bb59ae6f98d4a705f65ee7935b35979ba",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "ixalan-aerosaur",
+    "file": "portraits/ixalan-aerosaur-v2.png",
+    "sha256": "9094c2520aae2cc567b577c9c1aec66561774bd3f4b363a0cc432eaa88543559",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "altisaur",
+    "file": "portraits/altisaur.png",
+    "sha256": "125f11553e6a19d2af0f2d0bf02cabf5cf6ee392cc8b07766f1d8eca48462e3e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "armasaur",
+    "file": "portraits/armasaur-v2.png",
+    "sha256": "31554131022aca36342f6a0c9815261aa7e7cb67fadfc51f635c4f5d32d96930",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Chimera Companion",
+    "kind": "monster",
+    "type": "Monstrosity",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-f089cba71c676dcf2ef83b20",
+    "version": "433e28e0b325ba9e512a4bd0",
+    "slug": "chimera-companion",
+    "parent": "Chimera (MCDM)",
+    "mode": "new",
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "294b150e17ee143e80fa299fb2f992564223f0bab46c6aff9598c2f14895128c",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "winged guardian guarded territories companion volcanic blow",
+    "alternate": {
+      "credit": "Related Chimera (MCDM) illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "A winged guardian with three heads, a lion, a ram and a dragon, and a scaled tail.",
+    "habitats": [
+      "Guarded territories",
+      "Sites of magical power"
+    ]
+  },
+  {
+    "name": "Wyvern Companion",
+    "kind": "monster",
+    "type": "Dragon",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "source": "https://www.dndbeyond.com/sources/dnd/fm",
+    "entry": "monster-166780897b5dc2d58ad18d03",
+    "version": "9352d0a9e8d56c501b5c995c",
+    "slug": "wyvern-companion",
+    "parent": "Wyvern (MCDM)",
+    "mode": "new",
+    "generated": true,
+    "status": "Stat block",
+    "primaryPortraitSha256": "853a54cb052f81882cc5939e6201f21f2c7d116dc7eb3751f5d0e9b2d2d524c1",
+    "encounterStatus": "local-stat-block",
+    "role": "Companion",
+    "query": "hooked tail badlands companion liquefied meal",
+    "alternate": {
+      "credit": "Related Wyvern (MCDM) illustration · D&D Beyond publisher art · Flee, Mortals!",
+      "url": ""
+    },
+    "appearance": "A two-legged dragon with leathery wings, rocky indigo scales and a hooked tail stinger.",
+    "habitats": [
+      "Mountains",
+      "Badlands",
+      "Rocky spires"
+    ]
+  }
+]

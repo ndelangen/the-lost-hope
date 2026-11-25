@@ -1,0 +1,172 @@
+{
+  "builds": [
+    {
+      "id": "keeper-orris-fold-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider",
+      "title": "Keeper archive runner, rogue 1",
+      "difficulty": "ECL 8. Four racial Hit Dice, rogue 1, and level adjustment +3. Printed unclassed CR 7.",
+      "senses": "Blindsight 200 ft. via sonar, scent.",
+      "languages": "Common, Celestial, Infernal. Communicates with Keepers through the hive mind.",
+      "speed": "40 ft., climb 20 ft.",
+      "ac": 19,
+      "hp": 32,
+      "hitDice": "4d8+1d6+10",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 19,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 15,
+        "WIS": 9,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +19, Escape Artist +18, Jump +19",
+        "Hide +11, Move Silently +11, Listen +6, Spot +6",
+        "Bluff +0, Disable Device +4, Search +4, Tumble +5, Open Lock +10"
+      ],
+      "traits": [
+        "Neutral. Touch AC 13 and flat-footed AC 16. BAB +4, grapple +8. Fortitude +6, Reflex +9, Will +3. Dark leather coat, Dodge, Mobility and bonus Spring Attack.",
+        "DR 10/+1, SR 13 and resistance 10 to acid, cold, electricity, fire and sonic. Silence shuts off sonar blindsight.",
+        "Immune to mind-affecting effects, poison, sleep, paralysis, stunning, disease, death, necromancy and effects requiring Fortitude that cannot also affect objects. Critical hits, sneak attacks, subdual damage, ability damage or drain, energy drain and death from massive damage also fail.",
+        "Qualifying sneak attacks add 1d6. He can handle complex or magical traps under the 3.0 rogue rules.",
+        "Keepers within 500 ft. share awareness. If one is not flat-footed, none are. They can be flanked only if all are flanked. Death, or 10 uninterrupted rounds in a helpless restraint, leaves a 5-ft.-wide puddle of Keeper poison that evaporates after 4 rounds. Contact when the Keeper dissolves also exposes the creature to that poison."
+      ],
+      "actions": [
+        "Mimic warhammer, +8 melee, 1d8+4 bludgeoning, ×3 critical. A pair of hammers makes one +8 primary attack for 1d8+4 and one +3 secondary attack for 1d8+2. Each is a natural attack for disarming, penalties and iteratives.",
+        "Mimic glaive instead by fusing both arms. +8 melee, 1d10+6 slashing, ×3 critical, reach 10 ft. The glaive cannot strike an adjacent target.",
+        "Poison spit, 20-ft. cone, then wait 1d4 rounds before using it again. Fortitude DC 14 against nausea for 2d6 rounds and a second DC 14 save after one minute against 2d6 Constitution damage.",
+        "Body switch, standard action. Exchange places with one living Keeper within 500 ft. Orris is alone by default. Use this when the scene establishes a second Keeper."
+      ],
+      "tactics": "Orris trades an exact promise for an exact answer. He begins with one arm shaped as a hammer. If someone grabs the ledger, he spits poison and climbs the nearest wall."
+    },
+    {
+      "id": "rilmani-tarsen-iron-accord-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider",
+      "title": "Ferrumach Rilmani ceasefire marshal, fighter 1",
+      "difficulty": "ECL 14. Eight racial Hit Dice, fighter 1, and level adjustment +5. Printed unclassed CR 9.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Rilmani, Common, Undercommon, Sylvan.",
+      "speed": "20 ft. in +1 full plate, base 30 ft.",
+      "ac": 30,
+      "hp": 123,
+      "hitDice": "8d8+1d10+81",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 24,
+        "DEX": 13,
+        "CON": 28,
+        "INT": 15,
+        "WIS": 13,
+        "CHA": 20
+      },
+      "skills": [
+        "Diplomacy +7, Intimidate +20, Sense Motive +17",
+        "Listen +16, Spot +16, Search +17, Ride +16, Handle Animal +9"
+      ],
+      "traits": [
+        "Neutral. Touch AC 11 and flat-footed AC 29. BAB +9, grapple +16. Fortitude +17, Reflex +7, Will +7. +1 full plate and +1 large steel shield.",
+        "DR 10/+1, SR 20, electricity and poison immunity, and resistance 20 to acid and sonic. Change Shape allows Small or Medium humanoid forms.",
+        "Mounted Combat, Ride-By Attack, Spirited Charge, Improved Initiative, and Weapon Focus (battleaxe). The mount options are separate from Tarsen."
+      ],
+      "actions": [
+        "+1 battleaxe, +18 melee (full attack +18/+13), 1d8+8 slashing, ×3 critical. +1 heavy lance, +17 melee (full attack +17/+12), 1d8+8 piercing, ×3 critical. A mounted Spirited Charge with the lance deals triple damage.",
+        "Fear aura, free action, 15-ft. radius, CL 10, Will DC 19. Use the fear spell effect. A successful save prevents this aura from affecting that creature for one day. Rilmani and creatures Tarsen chooses are exempt.",
+        "Shared spell-like abilities at will (CL 9, DC 15 + spell level) cover comprehend languages, the four alignment detections, detect magic, detect thoughts, feather fall, sanctuary and tongues.",
+        "Ferrumach spell-like abilities at will (CL 9, DC 15 + spell level) include blur, command, obscuring mist, see invisibility and silence. Each usable three times daily at the same CL are cure moderate wounds, dispel magic, ice storm and phantom steed.",
+        "Summon Rilmani, once daily. A roll of 66–100 on d% calls 1d2 ferrumachs for one hour."
+      ],
+      "tactics": "Start on foot by the ceasefire markers. Spare bystanders from the fear aura and use it against anyone crossing with a drawn weapon. Use the axe and shield to hold the line, or cast phantom steed before an expected mounted interception."
+    },
+    {
+      "id": "yuan-ti-anathema-sevath-coil-of-ash-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Huge",
+      "type": "Aberration",
+      "title": "Yuan-ti Anathema of Merrshaulk, cleric 1",
+      "difficulty": "Epic ECL 29. Twenty-two racial Hit Dice, cleric 1, and level adjustment +6. Printed unclassed CR 18.",
+      "senses": "Darkvision 60 ft., scent, all-around vision.",
+      "languages": "Yuan-ti, Common, Draconic, Abyssal.",
+      "speed": "40 ft., climb 20 ft., swim 20 ft.",
+      "ac": 29,
+      "hp": 312,
+      "hitDice": "22d8+1d8+207",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 27,
+        "DEX": 13,
+        "CON": 29,
+        "INT": 24,
+        "WIS": 24,
+        "CHA": 22
+      },
+      "skills": [
+        "Climb +33, Swim +16, Hide +18 (+28 with Chameleon Power)",
+        "Listen +32, Search +36, Spot +36",
+        "Concentration +34, Knowledge (religion) +14, Heal +9"
+      ],
+      "traits": [
+        "Chaotic evil. Touch AC 9 and flat-footed AC 28. BAB +16, grapple +32. Fortitude +18, Reflex +10, Will +22. Space and reach 15 ft.",
+        "DR 30/+3, SR 26, acid and poison immunity, electricity and fire resistance 10, and regeneration 5. Force effects and adamantine weapons deal normal damage. It cannot be flanked.",
+        "Cleric 1 (CL 1, spells DC 17 + level). Destruction and Evil domains. An evil spell is at CL 2. Rebuke or command undead nine times daily. Use cleric level 1, Charisma +6 for the turning check, and 2d6+7 turning damage.",
+        "Blind-Fight, Cleave, Dodge, Combat Expertise, Improved Initiative, Lightning Reflexes, Multiattack and Power Attack as printed. Keep the natural-attack routine available in place of a manufactured weapon. Wears an ordinary silver holy token with no magic-item effect."
+      ],
+      "actions": [
+        "Claw +22 melee, 1d8+8 slashing. Full attack two claws +22 each and six bites +20 each. Each bite deals 1d8+4 piercing plus poison. Its Fortitude DC 30 poison deals 1d4 Constitution damage initially and again one minute later.",
+        "Improved grab. A bite on a smaller target can start a free grapple at +32 without provoking. A successful initial hold also constricts for 1d8+8. Hold normally or use one head at +12 and remain free to act. A successful repeat grapple check constricts again.",
+        "Psionics at will. Dissolving Touch is 7d6 acid on contact or 10d6 against a target it is grappling or constricting. Mass Aversion (Will DC 27) makes foes within 30 ft. keep 20 ft. away from snakes, yuan-ti and ti-khana for 10 minutes. A second successful save overcomes the compulsion but applies −4 Dexterity until the effect ends or the target leaves the 20-ft. proximity. The other options are viper/viper swarm form, Chameleon Power and Detect Poison.",
+        "Racial spell-like abilities are CL 20 with save DC 16 + spell level. Three per day each: animal trance, cause fear, deeper darkness, entangle, haste, neutralize poison, suggestion, baleful polymorph and unholy blight. Once per day each: blasphemy and unholy aura.",
+        "One Destruction smite per day, declared before a melee attack, adds +4 to that attack and +1 damage on a hit. Prepared orisons are detect magic, guidance and light. Prepared first-level spells are bless, divine favor, shield of faith, and domain protection from good. Shield of faith gives +2 deflection AC for 1 minute at CL 1. Divine favor gives +1 luck on weapon attack and damage rolls for 1 minute. He can convert his non-domain first-level spells into inflict light wounds (1d8+1, Will DC 18 half)."
+      ],
+      "tactics": "Start by trying to frighten intruders into fleeing past the cult’s guards. When cornered, close with the nearest smaller foe and use a bite to begin a grapple before spending further actions on dissolving touch. Save the daily blasphemy for a group inside its area."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Orris Fold",
+      "species": "Keeper",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "keeper-orris-fold-30e",
+      "size": "Medium",
+      "role": "Runner in a planar archive whose deeds are authenticated by their exact wording.",
+      "motive": "Find who has been replacing the margins in an old record before it is copied again.",
+      "hook": "Orris will open a locked index in exchange for one answer about a traveler he followed through the stacks."
+    },
+    {
+      "name": "Tarsen Iron Accord",
+      "species": "Rilmani",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "rilmani-tarsen-iron-accord-30e",
+      "size": "Medium",
+      "role": "Ferrumach marshal assigned to hold an exchange of prisoners open until sunset.",
+      "motive": "Keep both parties to the agreed hour and leave the river crossing open to civilians.",
+      "hook": "Tarsen wants impartial witnesses to inspect a crate that one party claims was sent under a flag of truce."
+    },
+    {
+      "name": "Sevath Coil-of-Ash",
+      "species": "Yuan-ti Anathema",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "yuan-ti-anathema-sevath-coil-of-ash-30e",
+      "size": "Huge",
+      "role": "Priest of Merrshaulk who keeps offerings in a cistern beneath a failed temple.",
+      "motive": "Bind two feuding cult branches to one rite before their leaders abandon the shrine.",
+      "hook": "One branch wants the party to steal Sevath’s register while the other sends them to interrupt the rite."
+    }
+  ]
+}

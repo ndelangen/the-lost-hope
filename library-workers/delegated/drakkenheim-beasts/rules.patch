@@ -1,0 +1,140 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,136 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Big Linda",
++      "kind": "beast",
++      "publication": "Dungeons of Drakkenheim",
++      "edition": "2014 fifth edition compatible",
++      "ruleset": "dnd-5e-2014",
++      "appearance": "A wingless, dragon-like tyrannosaur with knobbly hide, shimmering scales along its back, vestigial forearms, and a spine-lined tail.",
++      "combat": {
++        "armorClass": 13,
++        "armorClassNote": "Natural armor",
++        "hitPoints": 136,
++        "hitDice": "13d12 + 52",
++        "challenge": "9",
++        "creatureType": "Beast",
++        "size": "Huge",
++        "alignment": "Unaligned",
++        "speed": {
++          "walk": 50
++        },
++        "abilities": {
++          "Str": 25,
++          "Dex": 10,
++          "Con": 19,
++          "Int": 2,
++          "Wis": 12,
++          "Cha": 9
++        },
++        "passivePerception": 14,
++        "skills": {
++          "Perception": 4
++        },
++        "senses": ["Blindsight 30 ft."],
++        "immunities": ["Acid"],
++        "baseCreature": "Tyrannosaurus Rex",
++        "attacks": [
++          {
++            "name": "Bite",
++            "hitBonus": 10,
++            "reach": 10,
++            "mode": "Melee Weapon Attack",
++            "damage": [
++              {
++                "average": 33,
++                "dice": "4d12 + 7",
++                "type": "piercing"
++              }
++            ]
++          },
++          {
++            "name": "Tail",
++            "hitBonus": 10,
++            "reach": 10,
++            "mode": "Melee Weapon Attack",
++            "damage": [
++              {
++                "average": 20,
++                "dice": "3d8 + 7",
++                "type": "bludgeoning"
++              }
++            ]
++          }
++        ]
++      },
++      "mechanics": {
++        "Traits": [
++          {
++            "name": "Queen of Thieves' champion",
++            "effectNote": "The Queen of Thieves has permanently charmed Big Linda. Linda usually follows the Queen's spoken orders and emerges from her Court of Thieves arena den when the Queen whistles."
++          }
++        ],
++        "Actions": [
++          {
++            "name": "Multiattack",
++            "effectNote": "One Bite and one Tail attack, each against a different target.",
++            "attackCount": 2
++          },
++          {
++            "name": "Bite",
++            "effectNote": "One target takes 33 (4d12 + 7) piercing damage on a hit. A Medium or smaller creature is grappled (escape DC 17) and restrained until that grapple ends. During the grapple Linda cannot bite another target.",
++            "toHit": 10,
++            "reachFeet": 10,
++            "damageRolls": [
++              {
++                "diceCount": 4,
++                "die": 12,
++                "bonus": 7,
++                "damageType": "piercing"
++              }
++            ]
++          },
++          {
++            "name": "Tail",
++            "effectNote": "One target takes 20 (3d8 + 7) bludgeoning damage on a hit.",
++            "toHit": 10,
++            "reachFeet": 10,
++            "damageRolls": [
++              {
++                "diceCount": 3,
++                "die": 8,
++                "bonus": 7,
++                "damageType": "bludgeoning"
++              }
++            ]
++          },
++          {
++            "name": "Acid Spew",
++            "effectNote": "Creatures in a 30-ft. cone take the printed 49 (11d8) acid damage on a failed save, or half as much on a success.",
++            "usage": ["Recharge 5–6"],
++            "saves": [
++              {
++                "ability": "Dexterity",
++                "dc": 15
++              }
++            ],
++            "damageRolls": [
++              {
++                "diceCount": 11,
++                "die": 8,
++                "bonus": 0,
++                "damageType": "acid"
++              }
++            ]
++          }
++        ]
++      },
++      "notes": [
++        "Dungeons of Drakkenheim, p. 163, applies these changes to the 2014 Tyrannosaurus Rex. The base block is available in SRD 5.1, p. 279.",
++        "The adventure gives the variant CR 9. It does not print an XP value."
++      ]
+     }
+   ],
+   "species": [

@@ -1,0 +1,40 @@
+[
+  {
+    "publication": "DDAL04-12 - The Raven",
+    "edition": "2014 fifth edition",
+    "name": "Winter Wolf",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast, D&D Adventurers League",
+    "printedTitle": "The Raven",
+    "printing": "2016 English , version 1.0",
+    "author": "Matt Hudson",
+    "section": "Appendix, Monster/NPC Statistics, Winter Wolf",
+    "printedPages": [
+      22
+    ],
+    "pdfPages": [
+      22
+    ],
+    "supportingPrintedPages": [
+      11,
+      12,
+      16,
+      18
+    ],
+    "sourceUrl": "https://www.scribd.com/document/496189802/DDAL04-12-The-Raven-5e-9367545",
+    "url": "https://www.scribd.com/document/496189802/DDAL04-12-The-Raven-5e-9367545",
+    "officialPreviewUrl": "",
+    "publisherCatalogUrl": "",
+    "localPrintWitness": " - 5th Edition (2014)/Adventures/DDAL04-12 - The ",
+    "localPrintSha256": "69354e059d55c7637cdafc83b8e1c97c8fbb2c8db9e03dee76a49a0f5c4db093",
+    "sourceAccess": "Visually verified p. 22 in the local original, including the Cold Breath continuation in the right column. The publisher preview confirms edition and credits. The linked public transcription corroborates the block.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No official correction for this standalone adventure block was located.",
+    "operationalEvidence": "The p. 22 appendix establishes Large Beast, cold immunity, all traits and actions, and 3 (700 XP). Page 12 gives tactics, count, pelt check and party-strength adjustments. Page 18 also lists 700 XP.",
+    "sourceDiscrepancies": "The adventure prints Large Beast, while the Monster Manual’s own Winter Wolf is a Monstrosity. The adventure Bite prints 11 (2d6 + 3), Cold Breath prints 18 4d8) without an opening parenthesis and without its Monster Manual recharge. The adventure’s printed values and action label are retained. The encounter calls the area dire wolf territory and its Very Weak line says to remove two Dire Wolves, but No Escape! lists six Winter Wolves.",
+    "appearanceEvidence": "The staged portrait adapts the indexed shaggy wolf to the burning red eyes named on p. 12.",
+    "habitatEvidence": "Editorial tags based on the p. 11–12 terrain and route.",
+    "artGroup": "winter-wolf",
+    "portraitReferenceSha256": "cee1873dc5e6bafd53c33a97f35f5514a71745daaa58e93b57617f03022d940b"
+  }
+]

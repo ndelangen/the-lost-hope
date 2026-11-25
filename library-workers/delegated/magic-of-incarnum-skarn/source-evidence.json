@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Skarn",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "book": "Magic of Incarnum",
+    "authors": [
+      "James Wyatt",
+      "Frank Brunner",
+      "Stephen Schubert"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "September 2005",
+    "productCode": "620-88579720-001-EN",
+    "isbn": "0-7869-3701-7",
+    "printedPages": {
+      "racialTraits": 15,
+      "illustration": [
+        17,
+        47
+      ],
+      "capacity": 19,
+      "incarnumFeats": 34,
+      "cobaltPower": 37,
+      "independentSubstitutions": 42,
+      "monkSubstitutions": [
+        47,
+        48
+      ],
+      "incarnumSubtype": 169,
+      "publishedSamples": [
+        191,
+        192,
+        193
+      ]
+    },
+    "pdfPageOffset": 0,
+    "primaryBookScan": "",
+    "primaryBookSha256": "176c0415edfe8216d7d4915d5fcc8459c3c6ee84d89ffe4beaa875739b91a823",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "printedArtCredit": "Mark Poole, male and female Skarn, p. 17. Wayne England, Skarn monk, p. 47.",
+    "sourceDistinctions": [
+      "Base racial spines grant one attack per round. The same round cannot include a weapon attack by that arm. A spine attack with the shield arm forfeits the shield bonus until the start of the next turn.",
+      "Spine Strike allows Monk flurry to use arm spines. The published Monk 3 has the 1d8 die that the feature begins granting at Monk 4; the staged Monk 1 uses 1d6.",
+      "Only binding a soulmeld to the arms chakra makes racial spine attacks lawful for damage reduction. The published Incarnate’s hands bind cannot provide that benefit.",
+      "A Skarn has no racial essentia pool. Cobalt Power gives Sera one essentia and the Incarnum subtype while Corven remains Humanoid (Reptilian)."
+    ],
+    "entryId": "species-92536714cfde2c079164312c",
+    "versionKey": "449e8610b621d1e88fb54612",
+    "slug": "skarn",
+    "portraitSelection": "generated",
+    "portraitForm": "Corven Ashstep, an original Skarn Monk",
+    "npcExamples": [
+      "Corven Ashstep",
+      "Sera Flintward"
+    ]
+  }
+]

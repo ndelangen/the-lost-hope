@@ -1,0 +1,26 @@
+{
+  "Apprentice Wizard": {
+    "sha256": "2295b69d6de7b1741178a499b6493a7f344917a7806f65680f5ffab20b878d75",
+    "source": "Apprentice Wizard"
+  },
+  "Archdruid": {
+    "sha256": "aba04bab48b5b628883da2f52501bf14edce39f4dab0574b2318b801910237f9",
+    "source": "Archdruid"
+  },
+  "Bard": {
+    "sha256": "489dfefaff8d3e7df54a9397e1df95ad860e535e3d6c33f9aafceacc014fefcb",
+    "source": "Bard"
+  },
+  "Bodak": {
+    "sha256": "c56e902fcd0ac9507c3dda5d3a0959f5956463d960b3b4700b195585eb2f5b81",
+    "source": "Bodak"
+  },
+  "Champion": {
+    "sha256": "1bc6e3fa18da70069723c632ea1866bed1039a5b3e1c126a62aca91bbf3103cb",
+    "source": "Champion"
+  },
+  "Annis Hag": {
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "source": "Annis Hag (archived generated portrait)"
+  }
+}

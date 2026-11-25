@@ -1,0 +1,1301 @@
+[
+  {
+    "name": "Orog",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-85d5176a617b1bd61c1919bf",
+      "name": "Orog",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+        },
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        }
+      ],
+      "versions": [
+        {
+          "key": "645be5b25415d06ac2ee4faf",
+          "publication": "DDAL04-01 - The Suits of the Mists",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "18"
+            ],
+            [
+              "Int",
+              "12"
+            ],
+            [
+              "Wis",
+              "11"
+            ],
+            [
+              "Cha",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "c2ae062cb536b3fed382ddb4",
+          "publication": "DDAL04-12 - The Raven",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "18"
+            ],
+            [
+              "Int",
+              "12"
+            ],
+            [
+              "Wis",
+              "11"
+            ],
+            [
+              "Cha",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "b4848430e40a3a93c2698854",
+          "publication": "DDEX3-16 - Assault on Maerimydra",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "18"
+            ],
+            [
+              "Int",
+              "12"
+            ],
+            [
+              "Wis",
+              "11"
+            ],
+            [
+              "Cha",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "2355725a1f6068324100fc7b",
+          "publication": "Ghosts of Saltmarsh",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17189-orog",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/168/1000/1000/638063882887755060.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Ghosts of Saltmarsh"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "18"
+            ],
+            [
+              "Int",
+              "12"
+            ],
+            [
+              "Wis",
+              "11"
+            ],
+            [
+              "Cha",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "Mountain",
+                "Grassland",
+                "Forest",
+                "Hill",
+                "Arctic"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A heavily built orc in plate armor, armed with a greataxe and javelins."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#orog_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "bcde98325cdc35857b4147c4",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 2. Listed habitats: underdark, mountain, grassland, forest, hill, arctic. Named abilities include Aggressive, Greataxe, Javelin.",
+          "source": "https://5e.tools/bestiary.html#orog_mm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/168/1000/1000/638063882887755060.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Strength",
+              "18"
+            ],
+            [
+              "Dexterity",
+              "12"
+            ],
+            [
+              "Constitution",
+              "18"
+            ],
+            [
+              "Intelligence",
+              "12"
+            ],
+            [
+              "Wisdom",
+              "11"
+            ],
+            [
+              "Charisma",
+              "12"
+            ],
+            [
+              "Creature tags",
+              "orc"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "Mountain",
+                "Grassland",
+                "Forest",
+                "Hill",
+                "Arctic",
+                "underdark, mountain, grassland, forest, hill, arctic"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A heavily built orc in plate armor, armed with a greataxe and javelins."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Intimidation +5, Survival +2"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Common, Orc"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Aggressive"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Greataxe · Melee attack · +6 to hit · 1d12 + 4 slashing damage · reach 5 ft.",
+                "Javelin · Melee or ranged attack · +6 to hit · 1d6 + 4 piercing damage · reach 5 ft. · range 30/120 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Gruumsh One-Eye",
+                "Tribes like Plagues",
+                "Ranging Scavengers",
+                "Leadership and Might",
+                "Orc Crossbreeds"
+              ]
+            }
+          ],
+          "sourceCode": "MM",
+          "page": 247,
+          "references": [
+            {
+              "label": "Monster Manual (2014), p. 247",
+              "url": "https://5e.tools/bestiary.html#orog_mm"
+            },
+            {
+              "label": "Plate armor (item)",
+              "url": "https://5e.tools/items.html#plate%20armor_phb",
+              "local": {
+                "entry": "item-364d3f6a0e7528dc08fe7e9f",
+                "version": "PHB:145:https://5e.tools/items.html#plate%20armor_phb"
+              },
+              "preview": {
+                "name": "Plate armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 145,
+                "description": "A heavy armor.",
+                "local": {
+                  "entry": "item-364d3f6a0e7528dc08fe7e9f",
+                  "version": "PHB:145:https://5e.tools/items.html#plate%20armor_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "A heavily built orc in plate armor, armed with a greataxe and javelins.": [
+              {
+                "start": 23,
+                "end": 34,
+                "target": {
+                  "name": "Plate armor",
+                  "group": "blacksmith",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 145,
+                  "description": "A heavy armor.",
+                  "local": {
+                    "entry": "item-364d3f6a0e7528dc08fe7e9f",
+                    "version": "PHB:145:https://5e.tools/items.html#plate%20armor_phb"
+                  }
+                }
+              }
+            ],
+            "Intimidation +5, Survival +2": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Intimidation",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 179,
+                  "local": {
+                    "entry": "compendium-a7e769241bd92cb3d60ad83b",
+                    "version": "PHB:179:https://5e.tools/skills.html#intimidation_phb"
+                  }
+                }
+              },
+              {
+                "start": 17,
+                "end": 25,
+                "target": {
+                  "name": "Survival",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-487cfdbc0b0439af434c2d21",
+                    "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "720c4ff70cfa1d688cbbee99",
+          "publication": "Princes of the Apocalypse - Online Supplement",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "18"
+            ],
+            [
+              "Int",
+              "12"
+            ],
+            [
+              "Wis",
+              "11"
+            ],
+            [
+              "Cha",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "Javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "d39a677bdb8624bb1e82e79f",
+          "publication": "Waterdeep: Dungeon of the Mad Mage",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17189-orog",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30834/168/1000/1000/638063882887755060.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "18"
+            ],
+            [
+              "Hit points",
+              "42"
+            ],
+            [
+              "Hit dice",
+              "5d8 + 20"
+            ],
+            [
+              "Challenge",
+              "2"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Initiative",
+              "1"
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "12"
+            ],
+            [
+              "Con",
+              "18"
+            ],
+            [
+              "Int",
+              "12"
+            ],
+            [
+              "Wis",
+              "11"
+            ],
+            [
+              "Cha",
+              "12"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "Mountain",
+                "Grassland",
+                "Forest",
+                "Hill",
+                "Arctic"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A heavily built orc in plate armor, armed with a greataxe and javelins."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Greataxe · melee · +6 to hit · reach 5 ft. · 1d12 + 4 slashing",
+                "javelin · melee or ranged · +6 to hit · reach 5 ft. · range 30/120 ft. · 1d6 + 4 piercing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#orog_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "e302c7d66bdcc7752c7b8131",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Orc)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium deep orc (Humanoid). +6 Strength, −2 Dexterity, −2 Wisdom, +2 Charisma. Land speed 30 ft. Darkvision 120 ft. and +2 natural armor.",
+            "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds an orog for 1 round. Take a −1 circumstance penalty on attack rolls, saves, and checks while in bright light.",
+            "Fire resistance 5 and cold resistance 5.",
+            "+2 racial bonus on Craft (armorsmithing) and Craft (weaponsmithing) checks.",
+            "Racial proficiency with the greatsword and throwing axe.",
+            "Orc Blood. An orog counts as an orc for racial effects, including the use or creation of magic items with orc-specific powers.",
+            "Orc and Undercommon are automatic. Bonus languages are Common, Dwarven, Elven, Goblin, and Giant.",
+            "Class Hit Dice only, LA +2, favored class Fighter. One class level puts a starting orog at ECL 3.",
+            "Underdark supplies the 3.5 advancement entry and refers to Races of Faerûn, pp. 71–73, for the detailed racial traits."
+          ]
+        },
+        {
+          "title": "Original NPC · Gorvak Ironcleft",
+          "lines": [
+            "Forge guard and Fighter.",
+            "Motive. Keep the forge passage clear until the smiths reach shelter.",
+            "Hook. Gorvak is holding the landing below a shuttered light shaft.",
+            "Orog forge guard, Fighter 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Medium Humanoid (Orc)",
+            "AC 19 · HP 12 (1d10+2) · Speed 20 ft. in half-plate; base 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Maig Forgechant",
+          "lines": [
+            "Foundry caller and Bard.",
+            "Motive. Get the workers out before the foundry gates close.",
+            "Hook. Maig uses a drum signal to group workers at the side exit.",
+            "Orog foundry caller, Bard 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Medium Humanoid (Orc)",
+            "AC 15 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Gorvak Ironcleft": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Gorvak Ironcleft",
+              "group": "Orog",
+              "publication": "Orog forge guard, Fighter 1",
+              "local": {
+                "entry": "npc-8de681338a12ff304a11e939",
+                "version": "3564261ce3b5ba5fb731b19e"
+              }
+            }
+          }
+        ],
+        "Original NPC · Maig Forgechant": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Maig Forgechant",
+              "group": "Orog",
+              "publication": "Orog foundry caller, Bard 1",
+              "local": {
+                "entry": "npc-fbc41aa20a82b045077ed986",
+                "version": "37c074478bd3e8626ef7cea8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Orog": true,
+      "orog light blindness": true,
+      "orog cold resistance": true,
+      "orog forge guard": true,
+      "orog foundry caller": true
+    },
+    "hash": "fab44c8081e429b4690e04e32118feeb933baf5aeecee7af07ad8da31645837d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "e302c7d66bdcc7752c7b8131",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

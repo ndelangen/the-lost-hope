@@ -1,0 +1,121 @@
+{
+  "builds": [
+    {
+      "id": "feral-gargun-glacier-wayfinder-35e",
+      "title": "Feral Gargun glacier wayfinder, 2 Monstrous Humanoid HD and Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 3. ECL 5.",
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "ac": 16,
+      "hp": 31,
+      "hitDice": "3d8+12",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 19,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 6
+      },
+      "skills": [
+        "Climb +10",
+        "Jump +10",
+        "Listen +3",
+        "Spot +5",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Gol-Kaa",
+      "traits": [
+        "Leather armor +2, natural armor +2, Dexterity +2. Touch 12, flat-footed 14. BAB +3, grapple +11 with Powerful Build. Fortitude +6, Reflex +7, Will +4.",
+        "Space and natural reach 5 ft. Powerful Build allows the use of a Large battleaxe in one hand.",
+        "Cold resistance 5. Alertness, Weapon Focus (claw), and class bonus Track. Wild Empathy −1.",
+        "Favored enemy Giant grants +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot and Survival against giants.",
+        "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
+        "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
+        "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items."
+      ],
+      "actions": [
+        "Large battleaxe +7 melee, 2d6+4 slashing, critical ×3, 5-ft. reach.",
+        "Primary claws +8 melee, 1d6+4 piercing and slashing each, 5-ft. reach. Use both claws on a full attack when fighting with claws alone.",
+        "With a full attack using the battleaxe in one hand, add the free claw at +3 melee, 1d6+2 piercing and slashing."
+      ],
+      "tactics": "Sava wants the party to help move the waymarks above the crumbling ice. She shows them where a new path crosses the ridge, then checks for giant tracks before leading anyone across."
+    },
+    {
+      "id": "feral-gargun-river-salvage-guide-35e",
+      "title": "Feral Gargun river salvage guide, Feral Gargun monster class 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 2.",
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "ac": 12,
+      "hp": 14,
+      "hitDice": "1d8+3",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +7",
+        "Jump +3",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Gol-Kaa",
+      "traits": [
+        "Unarmored. Natural armor +1, Dexterity +1. Touch 11, flat-footed 11. BAB +1, grapple +4. Fortitude +3, Reflex +3, Will +2.",
+        "Space and natural reach 5 ft. Toughness adds 3 hp. Four ranks each in Climb and Survival. Jump is untrained.",
+        "Monster-class level 2 has one Hit Die, 1d4 claws and cold resistance 5. Powerful Build and 1d6 claws arrive at level 3.",
+        "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
+        "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
+        "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items."
+      ],
+      "actions": [
+        "Shortspear +4 melee, 1d6+3 piercing, critical ×2, 5-ft. reach. Thrown +2 ranged, 20-ft. increment and the same damage.",
+        "Primary claws +4 melee, 1d4+3 piercing and slashing each, 5-ft. reach. Use both claws on a full attack when fighting with claws alone.",
+        "With a full attack using the shortspear in one hand, add the free claw at −1 melee, 1d4+1 piercing and slashing."
+      ],
+      "tactics": "Gorren points out the ledge where a toll chest dropped during the ferry crossing. He offers to climb down on the river side if the party holds the raft against the pier."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Feral Gargun",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Sava of Rethma",
+      "build": "feral-gargun-glacier-wayfinder-35e",
+      "role": "Glacier wayfinder and Ranger.",
+      "motive": "Shift the route away from an ice shelf that has started to break.",
+      "hook": "Sava knows where the ridge takes a safe turn. She needs the party’s help moving the old waymarks before travelers follow them onto the shelf."
+    },
+    {
+      "species": "Feral Gargun",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Stone (2004)",
+      "name": "Gorren of Vekra",
+      "build": "feral-gargun-river-salvage-guide-35e",
+      "role": "River salvage guide and Feral Gargun monster class 2.",
+      "motive": "Retrieve a missing toll chest before the river rises over the ledge.",
+      "hook": "Gorren can climb down to the chest while the party holds the raft at the pier."
+    }
+  ]
+}

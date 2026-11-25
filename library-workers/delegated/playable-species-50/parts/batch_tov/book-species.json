@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Dragonborn",
+    "kind": "species",
+    "publication": "Labyrinth Worldbook",
+    "edition": "Black Flag Roleplaying",
+    "traits": [
+      "Medium Humanoid. Walking speed 30 ft. Mature by 15 and typically live about 80 years.",
+      "Dragon Sight grants 60-ft. darkvision and 10-ft. keensense, which precisely senses nearby surroundings without sight.",
+      "Draconic Ancestry determines breath damage and Dragon Hide resistance. Black or copper gives acid, blue or bronze lightning, brass, gold or red fire, silver or white cold, green poison, void necrotic, and yellow radiant.",
+      "Breath Weapon uses a bonus action. Choose a 30-by-5-ft. line or a 15-ft. cone each time. Creatures in the area make a DEX save against 8 + CON modifier + PB. Failed saves take 1d10 ancestry damage, with half on success.",
+      "Breath damage becomes 2d10 at level 5, 3d10 at 11, and 4d10 at 17. Uses equal PB per long rest.",
+      "The ancestry introduction refers to Natural Adaptation. The playable trait block supplies no additional adaptation effect."
+    ]
+  },
+  {
+    "name": "Gearforged",
+    "kind": "species",
+    "publication": "Labyrinth Worldbook",
+    "edition": "Black Flag Roleplaying",
+    "traits": [
+      "Humanoid in a constructed body. Choose a chassis modeled on another lineage at character creation and use its size and height. Base walking speed 30 ft. A maintained chassis has no known lifespan limit.",
+      "Hybrid Humanoid grants disease immunity, poison damage resistance, and advantage on saves against the paralyzed, petrified, and poisoned conditions.",
+      "Constructed Vitality removes the need to eat, drink, or breathe. Spend six hours semiconscious and dormant in place of sleep, with disadvantage on Perception checks during dormancy. That rest gives the benefit of eight hours of sleep.",
+      "Speak and understand Machine Speech, the mechanical language of gearforged and mechadrons.",
+      "Choose one Upgrade. Always Armed integrates a suitable melee weapon in each arm, up to two total. Two-Handed weapons are excluded. Weapons using ammunition still require ammunition. Integrating or replacing a weapon takes ten minutes.",
+      "With Always Armed, drawing or sheathing the weapon folds it out of or back into the arm. A drawn weapon occupies the hand. A sheathed weapon passes concealment checks automatically. You cannot willingly let it be disarmed. Deliberate removal takes an action.",
+      "Bulk Up uses a bonus action to become Large for PB rounds if you have space. Weapon attacks deal another 1d4, and STR checks and saves have advantage. Once per long rest.",
+      "Quick Fix uses a bonus action while below half your maximum HP to gain temporary HP equal to twice PB. Once per short or long rest."
+    ]
+  },
+  {
+    "name": "Satyr",
+    "kind": "species",
+    "publication": "Labyrinth Worldbook",
+    "edition": "Black Flag Roleplaying",
+    "traits": [
+      "Medium Fey. Walking speed 30 ft. Reach adulthood at about 20 and can live 300 years or more.",
+      "Natural Attack grants a horn strike using your choice of STR or DEX, chosen at creation. A hit deals 1d8 + the chosen modifier in bludgeoning damage.",
+      "Bounding Leap lets you use your reaction after a hit with a melee weapon or unarmed strike to move half speed without drawing opportunity attacks. Uses equal PB per long rest.",
+      "Fey Resilience grants advantage on saves against spells and other magical effects. Resistance to the charmed and unconscious conditions grants advantage on checks and saves to avoid or end those conditions."
+    ]
+  },
+  {
+    "name": "Syderean",
+    "kind": "species",
+    "publication": "Labyrinth Worldbook · Spellborn",
+    "edition": "Black Flag Roleplaying",
+    "traits": [
+      "Spellborn is a Natural Adaptation choice for the Syderean lineage from the Player’s Guide. Medium Humanoid, 30-ft. walking speed, adulthood around 20 and average lifespan about 150 years.",
+      "Far Sight grants darkvision 60 ft. and vision in magical darkness for 30 ft. Otherworldly Form grants necrotic resistance and doubles the time the character can survive without air, food, water, or sleep.",
+      "Energy Form is a bonus action once per long rest, lasting one minute. Choose acid, cold, fire, lightning, or thunder when you take the form.",
+      "In Energy Form you resist bludgeoning, piercing, and slashing from nonmagical attacks and cannot become restrained. Once on each of your turns, you may change the damage type or types dealt by one of your attacks or spells to the chosen damage type."
+    ]
+  },
+  {
+    "name": "Sapopova",
+    "kind": "species",
+    "publication": "Tales of the Valiant Player's Guide 2 Preview",
+    "edition": "Black Flag Roleplaying",
+    "traits": [
+      "Small Humanoid. Walking and swimming speeds 30 ft. Amphibian allows breathing in air and water. Mature around eight years old and rarely live past 50.",
+      "Superior Vision gives 60-ft. darkvision in full color and advantage on WIS (Perception) checks to visually find creatures and moving targets.",
+      "Choose one Natural Adaptation. Frogkin are proficient in Athletics and can make long jumps without a 10-ft. running start.",
+      "Toadfolk can hold up to three Tiny objects in their cheeks while speaking normally. They are proficient at launching Tiny objects as ranged weapon attacks. Treat the object as a weapon with Thrown and a 20/60-ft. range. A hit deals 1d6 + DEX modifier in bludgeoning, piercing, or slashing damage appropriate to the object.",
+      "This profile follows the publisher’s Player’s Guide 2 preview, which presents both adaptations under one lineage."
+    ]
+  }
+]

@@ -1,0 +1,334 @@
+[
+  {
+    "name": "Two-Headed Cerberus",
+    "statBlock": {
+      "name": "Two-Headed Cerberus",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Medium monstrosity, lawful evil",
+      "ac": 12,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 15,
+      "description": "A two-headed hound of the dead patrols the mortal bank of the Tartyx River. It tends to let wandering souls pass and chase down the living.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Fire, necrotic.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, stunned.",
+        "Traits": "Aggressive. As a bonus action, move up to the cerberus’s speed toward a hostile creature it can see.\nMultiheaded. The cerberus is never surprised and rolls with advantage on saves against being knocked unconscious.\nPack Tactics. The cerberus has advantage on attacks against a creature within 5 ft. of one of its allies, provided that ally isn’t incapacitated.",
+        "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage and 2 (1d4) fire damage.\nBreath Weapon (Recharge 5–6). Spray molten rock in a 15-ft. cone. Each creature in the cone makes a DC 12 Dexterity save, taking 10 (3d6) fire damage and becoming restrained by hardened rock on a failure. A success halves the damage and prevents the restraint. As an action, a creature can attempt a DC 12 Strength (Athletics) check to free itself or a creature it can reach. The rock has AC 17 and 10 hit points, with immunity to fire, poison, and psychic damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Typhon",
+    "statBlock": {
+      "name": "Typhon",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 246,
+      "classification": "Huge monstrosity, chaotic evil",
+      "ac": 17,
+      "hp": 195,
+      "hitDice": "17d12 + 85",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 11,
+      "description": "The soul of a tyrant can spend so long stewing in the Underworld that it emerges as a writhing typhon, hungrier for the living than for the dead it feeds on.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage immunities": "Acid, necrotic.",
+        "Traits": "Keen Smell. Roll Wisdom (Perception) checks with advantage when they depend on scent.\nRegeneration. At the start of its turn, the typhon recovers 20 hit points. Radiant damage turns off this recovery at the start of its next turn. It can die only by starting its turn at 0 hit points without regenerating.",
+        "Actions": "Multiattack. Make one Flurry of Bites, one Constrict, and one Maw attack.\nFlurry of Bites. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 35 (8d6 + 7) piercing damage.\nConstrict. Melee weapon attack, +12 to hit, reach 15 ft., one Large or smaller creature. On a hit the target takes 17 (3d6 + 7) bludgeoning damage and is grappled (escape DC 19). While grappled this way, the target is restrained and takes another 17 (3d6 + 7) bludgeoning damage at the start of each of its turns. The typhon can hold two creatures this way at once.\nMaw. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 26 (3d12 + 7) piercing damage and 19 (3d12) acid damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 246."
+      }
+    }
+  },
+  {
+    "name": "Underworld Cerberus",
+    "statBlock": {
+      "name": "Underworld Cerberus",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Large monstrosity, lawful evil",
+      "ac": 16,
+      "hp": 104,
+      "hitDice": "11d10 + 44",
+      "speed": "60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 19,
+      "description": "A three-headed hound guards the Underworld’s gates, prized souls, and treasures of Erebos. Left to roam, it drives souls into winding stretches of the Underworld and hunts them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 7,
+        "Perception": 9,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 30 ft.",
+        "Languages": "Understands every language and cannot speak.",
+        "Damage immunities": "Fire, necrotic.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, stunned.",
+        "Traits": "Aggressive. As a bonus action, move up to the cerberus’s speed toward a hostile creature it can see.\nMultiheaded. The cerberus is never surprised and rolls with advantage on saves against being knocked unconscious.\nPack Tactics. The cerberus has advantage on attacks against a creature within 5 ft. of one of its allies, provided that ally isn’t incapacitated.",
+        "Actions": "Multiattack. Make three Bite attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) piercing damage and 3 (1d6) fire damage.\nBreath Weapon (Recharge 5–6). Spray molten rock in a 30-ft. cone. Each creature in the cone makes a DC 15 Dexterity save, taking 21 (6d6) fire damage and becoming restrained by hardened rock on a failure. A success halves the damage and prevents the restraint. As an action, a creature can attempt a DC 15 Strength (Athletics) check to free itself or a creature it can reach. The rock has AC 17 and 20 hit points, with immunity to fire, poison, and psychic damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Winged Bull",
+    "statBlock": {
+      "name": "Winged Bull",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Large celestial, unaligned",
+      "ac": 12,
+      "hp": 95,
+      "hitDice": "10d10 + 40",
+      "speed": "60 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "description": "A bull with wings carries archons into battle. Some Therans believe these mounts take shape from their riders’ will.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Understands Celestial and cannot speak.",
+        "Traits": "Charge. After moving at least 20 ft. straight toward a creature, the bull deals an extra 19 (3d12) piercing damage if it hits that creature with Gore on the same turn.",
+        "Actions": "Gore. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 18 (2d12 + 5) piercing damage.",
+        "Archon riders": "Archon of Falling Stars and Ashen Rider are two Theran archons that can ride a winged bull.",
+        "Printed source": "Mythic Odysseys of Theros, p. 214."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Archon of Falling Stars"
+        },
+        {
+          "kind": "monster",
+          "name": "Ashen Rider"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Winged Lion",
+    "statBlock": {
+      "name": "Winged Lion",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Large celestial, unaligned",
+      "ac": 13,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "60 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "This flying lion is one of the usual mounts of a Theran archon. Stories tell of the archon and its lion moving as if they share a mind.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Understands Celestial and cannot speak.",
+        "Traits": "Pounce. When the lion moves at least 20 ft. straight toward a creature, then hits it with Claw on the same turn, the target must pass a DC 15 Strength save or fall prone. If the target is prone, the lion can Bite it once as a bonus action.",
+        "Actions": "Bite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) slashing damage.",
+        "Archon riders": "Archon of Falling Stars and Ashen Rider are two Theran archons that can ride a winged lion.",
+        "Printed source": "Mythic Odysseys of Theros, p. 214."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Archon of Falling Stars"
+        },
+        {
+          "kind": "monster",
+          "name": "Ashen Rider"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Woe Strider",
+    "statBlock": {
+      "name": "Woe Strider",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 247,
+      "classification": "Large aberration, chaotic evil",
+      "ac": 17,
+      "hp": 110,
+      "hitDice": "13d10 + 39",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 15,
+      "description": "A long-limbed aberration grows from a soul that severed its ties to destiny. It reads the entrails of its victims in hopes of finding a way back into the weave of fate.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Telepathy 120 ft.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Antimagic Cone. While its mouth is open, the strider projects the effect of Antimagic Field in a 60-ft. cone. At the start of its turn, it chooses the cone’s direction and whether to open or close its mouth.",
+        "Actions": "Multiattack. Make two Claw attacks and one Bite. If both claws hit the same creature, it becomes grappled (escape DC 14).\nClaw. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 7 (1d6 + 4) slashing damage and 3 (1d6) psychic damage.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one creature that is grappled, incapacitated, or restrained. A hit deals 13 (2d8 + 4) piercing damage and 16 (3d10) psychic damage. For 1 minute, every magic item the target carries loses its magic properties unless it is an artifact.",
+        "Printed source": "Mythic Odysseys of Theros, p. 247."
+      }
+    }
+  }
+]

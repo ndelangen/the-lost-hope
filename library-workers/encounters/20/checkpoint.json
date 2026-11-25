@@ -1,0 +1,44 @@
+{
+  "commit": "73f3d8463acfb6213a186eb81080eabd6e05194e",
+  "publication": "Fizban's Treasury of Dragons",
+  "encounterVersions": 5,
+  "fullStatBlocks": 5,
+  "fizbanRecordsWithLocalRules": 93,
+  "generatedPortraitsInstalled": 5,
+  "generatedDraftsBackedUp": 5,
+  "creditedGalleriesVerified": 5,
+  "allRecentVersionsWithGeneratedPortrait": 515,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-20-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-20-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/20/results.json",
+  "nextSourcePublication": "Explorer's Guide to Wildemount",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Abominable Yeti (Allowak variant)",
+      "source": "https://www.dndbeyond.com/monsters/744296-abominable-yeti-allowak-variant",
+      "challenge": "9"
+    },
+    {
+      "name": "Husk Zombie Burster",
+      "source": "https://www.dndbeyond.com/monsters/744317-husk-zombie-burster",
+      "challenge": "1"
+    },
+    {
+      "name": "Lacedon",
+      "source": "https://www.dndbeyond.com/monsters/295024-lacedon",
+      "challenge": "1"
+    },
+    {
+      "name": "Sahuagin Warlock of Uk'otoa (variant)",
+      "source": "https://www.dndbeyond.com/monsters/744331-sahuagin-warlock-of-ukotoa-variant",
+      "challenge": "3"
+    },
+    {
+      "name": "Yeti (Allowak variant)",
+      "source": "https://www.dndbeyond.com/monsters/744342-yeti-allowak-variant",
+      "challenge": "3"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Badger, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 15,
+    "speed": "30 ft., burrow 15 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Str +1, Dex +0, Con +2, Int -4, Wis +1, Cha -3. Perception 11. Stealth 10. Darkvision 30 ft. Resistant to Frightened. Languages none.",
+    "appearance": "A broad striped badger with coarse gray-brown fur and long claws.",
+    "habitats": [
+      "Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 357. Entry heading “Tejón, Gigante”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Grumpy. In combat, the badger attacks whoever last damaged it if that creature is in reach or the badger can move toward it without provoking opportunity attacks. Otherwise it attacks the nearest hostile creature.\nHeightened Smell. Perception rises to 16 when relying on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack at +3, 5-ft. reach, one creature. A hit deals 4 (1d6 + 1) piercing damage.\nClaws. Melee weapon attack at +3, 5-ft. reach, one target. A hit deals 3 (1d4 + 1) slashing damage."
+    }
+  },
+  {
+    "name": "Bat",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Str -4, Dex +1, Con -1, Int -4, Wis +1, Cha -3. Perception 11. Stealth 13. Keensense 60 ft. Vulnerable to Deafened. Resistant to Blinded. Languages none.",
+    "appearance": "A small brown bat with prominent ears and spread membranous wings.",
+    "habitats": [
+      "Farmland",
+      "Underground"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 348. Entry heading “Murciélago”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Echolocation. Deafened prevents the bat from using Keensense.\nHeightened Hearing. Perception rises to 16 when relying on hearing.",
+      "Actions": "Bite. Melee weapon attack at +3, 5-ft. reach, one creature. A hit deals 3 (1d4 + 1) piercing damage."
+    }
+  },
+  {
+    "name": "Bat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 15,
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Str +2, Dex +2, Con +0, Int -4, Wis +1, Cha -2. Perception 11. Stealth 14. Keensense 60 ft. Vulnerable to Deafened. Resistant to Blinded. Languages none.",
+    "appearance": "A large long-eared bat with broad dark wing membranes and visible wing fingers.",
+    "habitats": [
+      "Forest",
+      "Underground"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 348. Entry heading “Murciélago, gigante”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Echolocation. Deafened prevents the bat from using Keensense.\nHeightened Hearing. Perception rises to 16 when relying on hearing.",
+      "Actions": "Bite. Melee weapon attack at +4, 5-ft. reach, one creature. A hit deals 5 (1d6 + 2) piercing damage.",
+      "Bonus Actions": "Dizzying Screech. Choose one creature within 10 ft. If it can hear the screech, it makes a DC 12 Constitution save. On a failure it is disoriented until the end of its next turn. A disoriented creature that moves does so in a random direction."
+    }
+  },
+  {
+    "name": "Bat, Swarm of Bats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Swarm of Tiny Beasts",
+    "ac": 12,
+    "hp": 14,
+    "speed": "0 ft., fly 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Str -3, Dex +2, Con +0, Int -4, Wis +1, Cha -3. Perception 11. Stealth 14. Keensense 60 ft. Vulnerable to Deafened. Resistant to Blinded. See Swarm Resilience for other defenses. Languages none.",
+    "appearance": "A loose cluster of small bats in several flight poses.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Hills",
+      "Mountain",
+      "Underground"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 348. Entry heading “Murciélago, enjambre de murciélagos”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Cacophonous Swarm. A creature casting a spell with a verbal component while in the swarm’s space must pass a DC 12 Constitution save. On a failure the spell fizzles. The caster spends the action required for casting and keeps the spell slot or daily use.\nEcholocation. Deafened prevents the swarm from using Keensense.\nHeightened Hearing. Perception rises to 16 when relying on hearing.\nSwarm. The swarm and other creatures can occupy one another’s spaces. It fits through any opening large enough for a Tiny bat. It cannot regain HP or gain temporary HP.\nSwarm Resilience. The swarm resists bludgeoning, piercing and slashing damage. It is immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned.",
+      "Actions": "Bites. Melee weapon attack at +4, reach 0 ft., one creature in the swarm’s space. A hit deals 7 (2d6) piercing damage. When the swarm has half its HP or fewer, the swarm instead deals 3 (1d6) piercing damage."
+    }
+  },
+  {
+    "name": "Bear, Black",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 11,
+    "hp": 25,
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Str +2, Dex +0, Con +2, Int -4, Wis +1, Cha -2. Perception 13. Stealth 10. Natural armor. No special senses. Languages none.",
+    "appearance": "A dark-coated bear with rounded ears, a lighter muzzle and stocky forelegs.",
+    "habitats": [
+      "Forest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 349. Entry heading “Oso, Negro”. https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Smell. Perception rises to 18 when relying on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack at +4, 5-ft. reach, one creature. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack at +4, 5-ft. reach, one target. A hit deals 4 (1d4 + 2) slashing damage."
+    }
+  }
+]

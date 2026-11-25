@@ -1,0 +1,51 @@
+{
+  "name": "Frilled Deathspitter",
+  "publication": "Plane Shift: Ixalan",
+  "edition": "2014 fifth edition",
+  "classification": "Small Beast, unaligned",
+  "ac": 13,
+  "hp": 18,
+  "hitDice": "4d6 + 4",
+  "speed": "40 ft.",
+  "cr": "1/2",
+  "xp": 100,
+  "abilities": {
+    "Str": {
+      "score": 12,
+      "modifier": 1
+    },
+    "Dex": {
+      "score": 16,
+      "modifier": 3
+    },
+    "Con": {
+      "score": 13,
+      "modifier": 1
+    },
+    "Int": {
+      "score": 4,
+      "modifier": -3
+    },
+    "Wis": {
+      "score": 12,
+      "modifier": 1
+    },
+    "Cha": {
+      "score": 6,
+      "modifier": -2
+    }
+  },
+  "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
+  "rulesOrigin": "printed-rules-summary",
+  "overridesIndexedRules": true,
+  "appearance": "A small bipedal hunting dinosaur with a fan of rust-orange feathers, a green-scaled snout, clawed forearms and a long tail.",
+  "habitats": [
+    "Ixalan jungles",
+    "Jungle ruins"
+  ],
+  "sections": {
+    "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 30. ",
+    "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nClaw. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) slashing damage.\nSpit Poison. Ranged weapon attack, +5 to hit against one target, range 15/30 ft. On a hit, the target makes a DC 13 Constitution save. On a failure, it takes 18 (4d8) poison damage and is blinded until the end of the deathspitter’s next turn. On a success, it takes half damage and avoids blindness.",
+    "At the table": "At 16–30 ft., the spit attack has disadvantage for long range. While blinded, a creature cannot see, automatically fails checks requiring sight, and has disadvantage on its attacks. Attacks against it have advantage."
+  }
+}

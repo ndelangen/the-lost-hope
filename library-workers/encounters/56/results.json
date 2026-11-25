@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Hengeyokai",
+    "species": "species-5b1cc281e9195278b2a41837",
+    "edition": "3.0 edition",
+    "profiles": [
+      "Oriental Adventures (2001) · Badger",
+      "Oriental Adventures (2001) · Carp",
+      "Oriental Adventures (2001) · Cat",
+      "Oriental Adventures (2001) · Crab",
+      "Oriental Adventures (2001) · Crane",
+      "Oriental Adventures (2001) · Dog",
+      "Oriental Adventures (2001) · Fox",
+      "Oriental Adventures (2001) · Hare",
+      "Oriental Adventures (2001) · Monkey",
+      "Oriental Adventures (2001) · Raccoon Dog",
+      "Oriental Adventures (2001) · Rat",
+      "Oriental Adventures (2001) · Sparrow",
+      "Oriental Adventures (2001) · Weasel"
+    ],
+    "portraitSha256": "a953dc9e9679fc1d2b5ef958297fa023e62d74ec18597f9ed173fc8b0d829e38",
+    "npcReceipts": [
+      {
+        "form": "Badger",
+        "name": "Seki",
+        "entry": "npc-da1b4f00a396a56461c72e8c",
+        "challenge": "Provisional CR 1/2. ECL 2."
+      },
+      {
+        "form": "Sparrow",
+        "name": "Aya",
+        "entry": "npc-7e91f0cff4ec76deae8af961",
+        "challenge": "Provisional CR 1. ECL 2."
+      }
+    ]
+  }
+]

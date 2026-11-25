@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Korobokuru",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001)",
+    "edition": "3.0 edition",
+    "traits": [
+      "A short, relatively lean dwarf relative, around 4 feet tall, with comparatively long limbs, pointed ears, and thick hair. The source places their communities in remote areas outside Rokugan.",
+      "Constitution +2, Intelligence −2. Small. Base land speed 20 ft. Apply size bonuses of +1 AC, +1 to attacks, and +4 Hide. Use appropriately sized weapons and three-quarters of Medium carrying capacity.",
+      "Darkvision to 60 ft. in black and white.",
+      "Racial +2 on saves against poison and on saves against spells and spell-like effects.",
+      "Racial +1 on attacks against goblinoids, including goblins, hobgoblins, bugbears, bakemono, and goblin rats.",
+      "Dodge bonus +4 to AC against giants. Lose it when circumstances deny the Dexterity bonus to AC.",
+      "Racial +2 on Wilderness Lore checks. Automatic languages Common and Dwarven. Bonus languages Giant, Goblin, Hengeyokai, and Sylvan. Favored class Barbarian.",
+      "The playable rules give 60-ft. darkvision. The published warrior encounter on pp. 171–172 lists 120 ft."
+    ]
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Bamboo",
+    "edition": "3.0 edition",
+    "traits": [
+      "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+      "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+      "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+      "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+      "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+      "Bamboo lineage. Racial +2 Wilderness Lore and +4 Hide in woods or forests. Trackless Step leaves no trail in natural surroundings.",
+      "Racial +2 on saves against spells or spell-like effects with earth, rock, stone, or wood in the name, earth shugenja spells, and wu jen spells tied to earth or wood.",
+      "Speak with animals once per day for one minute, as a 1st-level caster. This version can speak with any animal."
+    ]
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · River",
+    "edition": "3.0 edition",
+    "traits": [
+      "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+      "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+      "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+      "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+      "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+      "River lineage.",
+      "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+      "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+      "Racial +2 on saves against spells or spell-like effects with water in the name, water shugenja spells, and water-related wu jen spells.",
+      "Speak with animals once per day for one minute, as a 1st-level caster. This version works on fish."
+    ]
+  },
+  {
+    "name": "Spirit Folk",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Sea",
+    "edition": "3.0 edition",
+    "traits": [
+      "Humanlike descendants of nature spirits. Their source setting places them among communities near bamboo groves, rivers, or the sea, outside Rokugan.",
+      "Medium. Base land speed 30 ft. The shared traits give no ability score adjustments.",
+      "Low-light vision gives twice human viewing distance in dim light, with color and detail still visible.",
+      "Humanoid with the spirit subtype. Effects that target either spirits or humanoids can affect Spirit Folk.",
+      "Automatic languages Common and Spirit Tongue. Bonus languages Aquan, Giant, Goblin, Hengeyokai, and Nezumi. Favored class Any.",
+      "Sea lineage.",
+      "Breathe air and water. Swim speed 30 ft. Routine swimming needs no check.",
+      "Racial +8 on Swim checks for special actions or hazards. May take 10 even when rushed or threatened. Can run while swimming in a straight line.",
+      "Racial +2 on saves against spells and spell-like effects with the fire descriptor.",
+      "Predict the next 24 hours of weather with a DC 15 Knowledge (nature) or untrained Intelligence check, with a +2 racial bonus."
+    ]
+  }
+]

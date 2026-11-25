@@ -1,0 +1,1092 @@
+[
+  {
+    "name": "Aasimar",
+    "kind": "species",
+    "group": "2014 fifth edition",
+    "groups": [
+      "2014 fifth edition",
+      "2024 fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "fifth": true,
+    "browseRow": {
+      "id": "species-706d5c6daf1f4f2a406b0119",
+      "name": "Aasimar",
+      "kind": "species",
+      "group": "Playable species",
+      "image": {
+        "url": "",
+        "credit": "Mike Bierek · Mordenkainen Presents: Monsters of the Multiverse"
+      },
+      "caption": "4 versions"
+    },
+    "version": {
+      "key": "7cfe3bd97e9941804ce557b0",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Native)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect an Aasimar.",
+            "+2 Wisdom and +2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Listen and Spot.",
+            "Acid resistance 5, cold resistance 5, and electricity resistance 5.",
+            "Daylight (Sp) once per day. Caster level equals character level, excluding level adjustment. The effect sheds bright light, applies bright-light penalties, and does not damage or destroy creatures that require actual sunlight to be harmed.",
+            "Automatic languages are Common and Celestial. Bonus languages are Draconic, Dwarven, Elven, Gnome, Halfling, and Sylvan. Favored class Paladin. LA +1. No racial Hit Dice are listed."
+          ]
+        },
+        {
+          "title": "Original NPC · Iona Vale",
+          "lines": [
+            "Lantern escort and Paladin.",
+            "Motive. Bring the last ferrymen out of the quay passage.",
+            "Hook. Iona needs help clearing the quay before the next ferry arrives.",
+            "Aasimar lantern escort, Paladin 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Native)",
+            "AC 16 · HP 12 (1d10+2) · Speed 20 ft. in armor (base land speed 30 ft.)"
+          ]
+        },
+        {
+          "title": "Original NPC · Teren Mere",
+          "lines": [
+            "Ysgard stair keeper and Cleric.",
+            "Motive. Guide the stranded travelers to the upper landing.",
+            "Hook. Teren has heard footsteps from below the dark stair.",
+            "Aasimar Ysgard stair keeper, Cleric 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Native, Extraplanar)",
+            "AC 16 · HP 10 (1d8+2) · Speed 20 ft. in armor (base land speed 30 ft.)"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Iona Vale": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Iona Vale",
+              "group": "Aasimar",
+              "publication": "Aasimar lantern escort, Paladin 1",
+              "local": {
+                "entry": "npc-0cc0b463ec8806eb8f2aca7d",
+                "version": "47734c5dcaea29727edb1313"
+              }
+            }
+          }
+        ],
+        "Original NPC · Teren Mere": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Teren Mere",
+              "group": "Aasimar",
+              "publication": "Aasimar Ysgard stair keeper, Cleric 1",
+              "local": {
+                "entry": "npc-4bf86b19f14080a5e1a0f3c2",
+                "version": "2f66f48a88eb45374766d5bd"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "c894b4c550a4359fb268fa74",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#aasimar_mpmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/808/340/340/637880558243464759.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Mike Bierek · Mordenkainen Presents: Monsters of the Multiverse"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Damage resistance includes necrotic, radiant.",
+              "Source traits include Size, Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Size",
+              "Celestial Resistance",
+              "Darkvision",
+              "Healing Hands",
+              "Light Bearer",
+              "Celestial Revelation"
+            ]
+          }
+        ],
+        "sourceCode": "MPMM",
+        "page": 7,
+        "references": [
+          {
+            "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 7",
+            "url": "https://5e.tools/races.html#aasimar_mpmm"
+          },
+          {
+            "label": "Light (spell)",
+            "url": "https://5e.tools/spells.html#light_phb",
+            "local": {
+              "entry": "compendium-a1c8cfd1431147579a662436",
+              "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+            },
+            "preview": {
+              "name": "Light",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 255,
+              "description": "A evocation cantrip. Dexterity saving throw.",
+              "local": {
+                "entry": "compendium-a1c8cfd1431147579a662436",
+                "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+              }
+            }
+          },
+          {
+            "label": "Frightened (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#frightened_phb",
+            "local": {
+              "entry": "compendium-879f347e29c83a95483201f4",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+            },
+            "preview": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes necrotic, radiant.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Size, Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation.": [
+            {
+              "start": 22,
+              "end": 26,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            },
+            {
+              "start": 38,
+              "end": 48,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 272,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                }
+              }
+            },
+            {
+              "start": 50,
+              "end": 60,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 62,
+              "end": 69,
+              "target": {
+                "name": "Healing",
+                "group": "Variant rules",
+                "publication": "Dungeon Master's Guide (2014)",
+                "page": 266,
+                "local": {
+                  "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                  "version": "DMG:266:https://5e.tools/variantrules.html#healing_dmg"
+                }
+              }
+            },
+            {
+              "start": 77,
+              "end": 82,
+              "target": {
+                "name": "Light",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 255,
+                "description": "A evocation cantrip. Dexterity saving throw.",
+                "local": {
+                  "entry": "compendium-a1c8cfd1431147579a662436",
+                  "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+                }
+              }
+            }
+          ],
+          "Celestial Resistance": [
+            {
+              "start": 10,
+              "end": 20,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 272,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Healing Hands": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Healing",
+                "group": "Variant rules",
+                "publication": "Dungeon Master's Guide (2014)",
+                "page": 266,
+                "local": {
+                  "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                  "version": "DMG:266:https://5e.tools/variantrules.html#healing_dmg"
+                }
+              }
+            }
+          ],
+          "Light Bearer": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Light",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 255,
+                "description": "A evocation cantrip. Dexterity saving throw.",
+                "local": {
+                  "entry": "compendium-a1c8cfd1431147579a662436",
+                  "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "1b702710da048084f839fb69",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/races.html#aasimar_xphb",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43940/408/340/340/638607447895916115.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Aldo Domingues · Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Small, Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Small or Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Damage resistance includes necrotic, radiant.",
+              "Source traits include Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Celestial Resistance",
+              "Darkvision",
+              "Healing Hands",
+              "Light Bearer",
+              "Celestial Revelation"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 186",
+            "url": "https://5e.tools/races.html#aasimar_xphb"
+          },
+          {
+            "label": "Darkvision (sense)",
+            "url": "https://5e.tools/senses.html#darkvision_xphb",
+            "local": {
+              "entry": "compendium-7acfde2bf83729872c25017b",
+              "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+            },
+            "preview": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2024)",
+              "page": 365,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+              }
+            }
+          },
+          {
+            "label": "Magic (action)",
+            "url": "https://5e.tools/actions.html#magic_xphb",
+            "local": {
+              "entry": "compendium-07ceb4292d06406c48366301",
+              "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+            },
+            "preview": {
+              "name": "Magic",
+              "group": "Actions",
+              "publication": "Player's Handbook (2024)",
+              "page": 371,
+              "local": {
+                "entry": "compendium-07ceb4292d06406c48366301",
+                "version": "XPHB:371:https://5e.tools/actions.html#magic_xphb"
+              }
+            }
+          },
+          {
+            "label": "Light (spell)",
+            "url": "https://5e.tools/spells.html#light_xphb",
+            "local": {
+              "entry": "compendium-a1c8cfd1431147579a662436",
+              "version": "XPHB:292:https://5e.tools/spells.html#light_xphb"
+            },
+            "preview": {
+              "name": "Light",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 292,
+              "description": "A evocation cantrip.",
+              "local": {
+                "entry": "compendium-a1c8cfd1431147579a662436",
+                "version": "XPHB:292:https://5e.tools/spells.html#light_xphb"
+              }
+            }
+          },
+          {
+            "label": "Frightened (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#frightened_xphb",
+            "local": {
+              "entry": "compendium-879f347e29c83a95483201f4",
+              "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#frightened_xphb"
+            },
+            "preview": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "XPHB:367:https://5e.tools/conditionsdiseases.html#frightened_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Small or Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes necrotic, radiant.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Celestial Resistance, Darkvision, Healing Hands, Light Bearer, Celestial Revelation.": [
+            {
+              "start": 32,
+              "end": 42,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 312,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "XPHB:312:https://5e.tools/spells.html#resistance_xphb"
+                }
+              }
+            },
+            {
+              "start": 44,
+              "end": 54,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 56,
+              "end": 63,
+              "target": {
+                "name": "Healing",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#healing_xphb"
+                }
+              }
+            },
+            {
+              "start": 71,
+              "end": 76,
+              "target": {
+                "name": "Light",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 292,
+                "description": "A evocation cantrip.",
+                "local": {
+                  "entry": "compendium-a1c8cfd1431147579a662436",
+                  "version": "XPHB:292:https://5e.tools/spells.html#light_xphb"
+                }
+              }
+            }
+          ],
+          "Celestial Resistance": [
+            {
+              "start": 10,
+              "end": 20,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 312,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "XPHB:312:https://5e.tools/spells.html#resistance_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Healing Hands": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Healing",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 368,
+                "local": {
+                  "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                  "version": "XPHB:368:https://5e.tools/variantrules.html#healing_xphb"
+                }
+              }
+            }
+          ],
+          "Light Bearer": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Light",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 292,
+                "description": "A evocation cantrip.",
+                "local": {
+                  "entry": "compendium-a1c8cfd1431147579a662436",
+                  "version": "XPHB:292:https://5e.tools/spells.html#light_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "aaa5ac26c00a0fef8af43009",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/races.html#aasimar_vgm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/4808/269/340/340/636771217817659368.png",
+        "status": "Traits summary",
+        "images": [
+          {
+            "url": "",
+            "credit": "Shawn Wood · Volo's Guide to Monsters"
+          }
+        ],
+        "stats": [
+          [
+            "Size",
+            "Medium"
+          ],
+          [
+            "Speed",
+            "30 ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Species traits",
+            "lines": [
+              "Size Medium.",
+              "Walking speed 30 feet.",
+              "Darkvision 60 feet.",
+              "Damage resistance includes necrotic, radiant.",
+              "Source traits include Age, Size, Darkvision, Celestial Resistance, Healing Hands, Light Bearer, Languages."
+            ]
+          },
+          {
+            "title": "Sections",
+            "lines": [
+              "Age",
+              "Size",
+              "Darkvision",
+              "Celestial Resistance",
+              "Healing Hands",
+              "Light Bearer",
+              "Languages"
+            ]
+          }
+        ],
+        "sourceCode": "VGM",
+        "page": 104,
+        "references": [
+          {
+            "label": "Volo's Guide to Monsters, p. 104",
+            "url": "https://5e.tools/races.html#aasimar_vgm"
+          },
+          {
+            "label": "Explorer's Guide to Wildemount, p. 166",
+            "url": "https://5e.tools/races.html#aasimar_egw"
+          },
+          {
+            "label": "Light (spell)",
+            "url": "https://5e.tools/spells.html#light_phb",
+            "local": {
+              "entry": "compendium-a1c8cfd1431147579a662436",
+              "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+            },
+            "preview": {
+              "name": "Light",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 255,
+              "description": "A evocation cantrip. Dexterity saving throw.",
+              "local": {
+                "entry": "compendium-a1c8cfd1431147579a662436",
+                "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Size Medium.": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 feet.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Damage resistance includes necrotic, radiant.": [
+            {
+              "start": 0,
+              "end": 6,
+              "target": {
+                "name": "Damage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 364,
+                "local": {
+                  "entry": "compendium-62837ed0c3d25904bcb2352e",
+                  "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                }
+              }
+            }
+          ],
+          "Source traits include Age, Size, Darkvision, Celestial Resistance, Healing Hands, Light Bearer, Languages.": [
+            {
+              "start": 27,
+              "end": 31,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            },
+            {
+              "start": 33,
+              "end": 43,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 55,
+              "end": 65,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 272,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                }
+              }
+            },
+            {
+              "start": 67,
+              "end": 74,
+              "target": {
+                "name": "Healing",
+                "group": "Variant rules",
+                "publication": "Dungeon Master's Guide (2014)",
+                "page": 266,
+                "local": {
+                  "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                  "version": "DMG:266:https://5e.tools/variantrules.html#healing_dmg"
+                }
+              }
+            },
+            {
+              "start": 82,
+              "end": 87,
+              "target": {
+                "name": "Light",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 255,
+                "description": "A evocation cantrip. Dexterity saving throw.",
+                "local": {
+                  "entry": "compendium-a1c8cfd1431147579a662436",
+                  "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+                }
+              }
+            }
+          ],
+          "Darkvision": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ],
+          "Celestial Resistance": [
+            {
+              "start": 10,
+              "end": 20,
+              "target": {
+                "name": "Resistance",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 272,
+                "description": "A abjuration cantrip.",
+                "local": {
+                  "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                  "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                }
+              }
+            }
+          ],
+          "Healing Hands": [
+            {
+              "start": 0,
+              "end": 7,
+              "target": {
+                "name": "Healing",
+                "group": "Variant rules",
+                "publication": "Dungeon Master's Guide (2014)",
+                "page": 266,
+                "local": {
+                  "entry": "compendium-21f7f168ef07ae3f736c06e6",
+                  "version": "DMG:266:https://5e.tools/variantrules.html#healing_dmg"
+                }
+              }
+            }
+          ],
+          "Light Bearer": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Light",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 255,
+                "description": "A evocation cantrip. Dexterity saving throw.",
+                "local": {
+                  "entry": "compendium-a1c8cfd1431147579a662436",
+                  "version": "PHB:255:https://5e.tools/spells.html#light_phb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Aasimar": true,
+      "aasimar daylight": true,
+      "aasimar electricity resistance": true,
+      "aasimar lantern escort": true,
+      "aasimar ysgard stair keeper": true
+    },
+    "hash": "f0beda1919d6b7976e375aa8aa446ac7465928d97356196d2fc7c4284a23364d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Mike Bierek · Mordenkainen Presents: Monsters of the Multiverse"
+      },
+      {
+        "url": "",
+        "credit": "Shawn Wood · Volo's Guide to Monsters"
+      },
+      {
+        "url": "",
+        "credit": "Aldo Domingues · Player’s Handbook"
+      }
+    ],
+    "defaultPublication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "defaultVersionKey": "c894b4c550a4359fb268fa74",
+    "entryImage": {
+      "url": "",
+      "credit": "Mike Bierek · Mordenkainen Presents: Monsters of the Multiverse"
+    }
+  }
+]

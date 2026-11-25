@@ -1,0 +1,243 @@
+{
+  "builds": [
+    {
+      "id": "mr-aboleth-orzhal-lowwater",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Aberration",
+      "speed": "10 ft., swim 40 ft.",
+      "title": "Aboleth flood-gate scholar, Wizard 3, School of Evocation",
+      "difficulty": "Level 3 player-conversion NPC",
+      "ac": 13,
+      "hp": 20,
+      "hitDice": "3d6+6",
+      "initiative": 1,
+      "senses": "Darkvision 120 ft., passive Perception 11.",
+      "languages": "Deep Speech, Primordial, and Dwarvish. Telepathy 30 ft. with any creature that knows a language.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 16,
+        "WIS": 12,
+        "CHA": 9
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5",
+        "Insight +3",
+        "Investigation +5"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength +0, Dexterity +1, Constitution +2, Intelligence +5, Wisdom +3, Charisma −1. Natural armor sets AC 13. Mage Armor sets AC 14 for eight hours if cast.",
+        "Amphibious. Orzhal breathes air and water. A grasping tentacle can handle the component pouch and provide somatic components for this build.",
+        "Sage grants Arcana, History, Primordial and Dwarvish, and the ability to seek out sources when information is missing. Wizard grants Insight and Investigation.",
+        "Intelligence spellcasting. Spell save DC 13 and spell attack +5. Four 1st-level and two 2nd-level spell slots. Prepared spells are Mage Armor, Magic Missile, Shield, Thunderwave, Misty Step, and Shatter. Detect Magic, Comprehend Languages, Identify, and Unseen Servant are in the book as unprepared rituals. Identify still requires its costly pearl.",
+        "Arcane Recovery. Once per day after a short rest, recover two 1st-level slots or one 2nd-level slot. Evocation Savant halves the cost and time to copy evocation spells into the book.",
+        "Sculpt Spells. An evocation spell that affects other creatures he can see can protect up to its spell level +1 of those creatures. They automatically save and take zero damage if a successful save would normally halve it."
+      ],
+      "actions": [
+        "Tentacle. Unarmed strike +2 to hit, reach 5 ft., for 1d6 bludgeoning.",
+        "Ray of Frost. Ranged spell attack +5, 60 ft. Hit for 1d8 cold and reduce the target's speed by 10 ft. until the start of Orzhal's next turn.",
+        "Mage Hand or Minor Illusion. An action creates either a hand that can carry up to 10 lb. or a sound or static image no larger than a 5-ft. cube. Both have a 30-ft. range and one-minute duration. An action spent examining the illusion calls for Intelligence (Investigation) DC 13. Physical contact gives away the image.",
+        "Charm Person (ancestry, once daily). Action, 30 ft.; one visible humanoid makes a Wisdom save DC 13, with advantage if Orzhal or his allies are fighting it. A failure charms the target for up to one hour or until Orzhal or his companions harm it. It then knows it was charmed.",
+        "Magic Missile (1st-level slot). Action, 120 ft. Three darts automatically hit one or more visible creatures at the same time, 1d4+1 force each.",
+        "Thunderwave (1st-level slot). Action, 15-ft. cube originating at Orzhal. Constitution save DC 13. Failure takes 2d8 thunder and a 10-ft. push. Success halves the damage and prevents the push. It can be heard up to 300 ft. away.",
+        "Shatter (2nd-level slot). Action, 60 ft. Constitution save DC 13 in a 10-ft.-radius sphere. Failure takes 3d8 thunder. Success halves the damage. Inorganic creatures have disadvantage, and unattended nonmagical objects also take damage.",
+        "Misty Step (bonus action, 2nd-level slot). Teleport up to 30 ft. to an unoccupied visible space.",
+        "Shield (reaction, 1st-level slot). When hit or targeted by Magic Missile, gain +5 AC including against the triggering attack until the start of his next turn and ignore Magic Missile."
+      ],
+      "tactics": "Orzhal parleys telepathically from the water. If attacked, he shields himself, spares bystanders with Sculpt Spells, and retreats through the flooded outlet. If he starts with Mage Armor, mark off one 1st-level slot."
+    },
+    {
+      "id": "mr-animated-object-brass-sentry",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Construct",
+      "speed": "25 ft.",
+      "title": "Animated Armor sluice sentry, Fighter 2",
+      "difficulty": "Level 2 player-conversion NPC",
+      "ac": 20,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 1,
+      "senses": "Blindsight 60 ft. No vision beyond that range. Passive Perception 13.",
+      "languages": "Understands and reads Common. Communicates by gesture.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Insight +3",
+        "Intimidation +1",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength +4, Dexterity +1, Constitution +4, Intelligence +0, Wisdom +1, Charisma −1. Fixed natural AC 18 plus a shield gives AC 20. A one-handed sword and shield allow Dueling.",
+        "Immune to poison damage and the blinded, deafened, exhaustion, paralyzed, petrified, and poisoned conditions. Needs no air, food, drink, or sleep. Four hours of semiconscious rest substitute for a human's eight hours of sleep.",
+        "A spell of Dispel Magic aimed at the Sentry forces a Constitution save against the caster's spell DC. Failure makes the Sentry unconscious for one minute. An Antimagic Field incapacitates it while inside.",
+        "False Appearance. After concentrating and holding still for a minute, it passes for a mundane suit while motionless. It can rest and use Second Wind. Cure Wounds, Healing Word, and Heal have no effect on it under 2014 rules.",
+        "Fighter grants Insight and Perception. Soldier adds Athletics, Intimidation, dice set, land vehicles, and Military Rank. It carries a sword and shield as external gear. Its armor is its body."
+      ],
+      "actions": [
+        "Longsword. Melee weapon attack +4 to hit, reach 5 ft., for 1d8+4 slashing with shield equipped. Includes the Dueling bonus.",
+        "Fist. Unarmed strike +4 to hit, reach 5 ft., for 1d6+2 bludgeoning.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+2 HP up to its maximum.",
+        "Action Surge (once per short or long rest). Take one additional action on its turn."
+      ],
+      "tactics": "The Sentry holds the passage while it watches for a sign from its partner. It uses Action Surge to secure the mechanism and still take the Dodge action if assailants are near."
+    },
+    {
+      "id": "mr-ankheg-flintjaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "30 ft., burrow 10 ft.",
+      "title": "Ankheg orchard burrower, Barbarian 1",
+      "difficulty": "Level 1 player-conversion NPC",
+      "ac": 13,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 1,
+      "senses": "Darkvision 60 ft., tremorsense 30 ft., passive Perception 13.",
+      "languages": "Common and Dwarvish.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 13,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +4",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength +4, Dexterity +1, Constitution +4, Intelligence −1, Wisdom +1, Charisma +0. Natural armor and Unarmored Defense each independently yield AC 13.",
+        "Tremorsense works against vibrations in a surface or material Flintjaw is touching. Flying and incorporeal creatures evade that sense.",
+        "Barbarian grants Intimidation and Perception. Outlander grants Athletics, Survival, Dwarvish, proficiency with a flute, and Wanderer. Flintjaw recognizes surrounding terrain and can forage where the land can support it.",
+        "Rage twice per long rest. Start as a bonus action. For up to one minute, gain advantage on Strength checks and saves, +2 damage to Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. It can end early if Flintjaw falls unconscious or ends a turn without attacking a hostile creature or taking damage since its last turn."
+      ],
+      "actions": [
+        "Bite. Unarmed strike +4 to hit, reach 5 ft., for 1d4+2 slashing and 1d4 acid. While raging, increase the slashing to 1d4+4.",
+        "Acid Spray (once per short or long rest). Action, 30-ft. by 5-ft. line. Dexterity save DC 12. Failure takes 2d6 acid. Success halves it. A saving-throw-only spray does not count as an attack for Rage."
+      ],
+      "tactics": "Flintjaw warns off diggers in Common. It burrows under loose soil to reach the wagon path and bites if cornered. It lines up the spray before raging or while a foe is dealing it damage."
+    },
+    {
+      "id": "mr-banshee-maelin-reednote",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "size": "Medium",
+      "type": "Undead",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "title": "Flying banshee at an abandoned ferry, Bard 1",
+      "difficulty": "Level 1 player-conversion NPC",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 13. Can sense general direction to living creatures within five miles.",
+      "languages": "Common and Elvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Deception +5",
+        "Insight +3",
+        "Perception +3",
+        "Performance +5"
+      ],
+      "traits": [
+        "Proficiency +2. Saving throws Strength −1, Dexterity +4, Constitution +1, Intelligence +0, Wisdom +1, Charisma +5. Leather under her wool gives AC 13. It is light armor so it permits her flight.",
+        "Resistance to necrotic damage. She needs no air, food, drink, or sleep. Four hours of semiconscious rest replace a human's eight hours of sleep. Normal resting can restore HP. Cure Wounds, Healing Word, and Heal exclude her.",
+        "Sorrow Bound to a five-mile radius around the old ferry where Maelin died. The racial senses locate life in broad directions. Solid barriers still block her movement.",
+        "Entertainer grants Acrobatics, Performance, a lute, disguise kit proficiency, and By Popular Demand. Bard grants Deception, Insight, Perception, flute, shawm, and drum. Her lute can serve as a spellcasting focus when in hand. She carries a component pouch as an alternative.",
+        "Charisma spellcasting. DC 13, spell attack +5, two 1st-level slots. Cantrips are Vicious Mockery and Minor Illusion. Spells known are Charm Person, Cure Wounds, Disguise Self, and Thunderwave. Her racial Wail spends no slot."
+      ],
+      "actions": [
+        "Corrupting Touch. Action, melee spell attack +5, reach 5 ft. Hit 1d8 necrotic.",
+        "Wail (once daily). Cast Dissonant Whispers as an action against one creature within 60 ft. Wisdom save DC 13. Failure takes 3d6 psychic and must immediately use its reaction, if available, to move as far away from Maelin as its speed allows without entering obviously dangerous ground. A success takes half damage and does not move. A deafened target automatically succeeds.",
+        "Vicious Mockery. Action, one creature Maelin sees within 60 ft. that can hear her. Wisdom save DC 13. Failure takes 1d4 psychic and has disadvantage on its next attack roll before the end of its next turn.",
+        "Minor Illusion. Action, 30 ft. Make a sound or static image up to a 5-ft. cube for one minute. Examination takes an action and a DC 13 Intelligence (Investigation) check. Physical contact reveals the image.",
+        "Bardic Inspiration (bonus action, three per long rest). Give a d6 to a different creature within 60 ft. that can hear her. Within ten minutes it can add the die to one ability check, attack roll, or saving throw after rolling but before the outcome is declared.",
+        "Charm Person (1st-level slot). Action, 30 ft. A visible humanoid makes a Wisdom save DC 13, with advantage if Maelin or her allies are fighting it. On failure it is charmed up to one hour or until she or her allies harm it. It knows it was charmed when the spell ends.",
+        "Cure Wounds (1st-level slot). Action, touch. A living nonconstruct target regains 1d8+3 HP.",
+        "Disguise Self (1st-level slot). Action, self, one hour. Change the appearance of herself and her gear within the normal body-shape limits. Physical contact exposes the illusion. Inspection takes an action and a DC 13 Intelligence (Investigation) check.",
+        "Thunderwave (1st-level slot). Action, 15-ft. cube originating at Maelin, Constitution save DC 13. Failure takes 2d8 thunder and is pushed 10 ft. A success halves the damage with no push."
+      ],
+      "tactics": "She first asks for the recovered ferry song, then flies out of melee if threatened. Wail is for a single pursuer or to make an opening for someone who needs to escape."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Orzhal Lowwater",
+      "species": "Aboleth",
+      "size": "Medium",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-aboleth-orzhal-lowwater",
+      "role": "Reclusive aquatic wizard who surveys old flood gates.",
+      "motive": "Prove that the gate marks were moved after the last flood.",
+      "hook": "Orzhal offers to open a submerged shortcut if someone brings him a tracing from the stone marker above water."
+    },
+    {
+      "name": "Brass Sentry",
+      "species": "Animated Object",
+      "size": "Medium",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-animated-object-brass-sentry",
+      "role": "Silent guard made from a suit of field plate.",
+      "motive": "Find the missing sluice keeper and stop the flood gate opening without warning.",
+      "hook": "A suit of armor lifts its shield to block the chain mechanism, then gestures toward the ladder leading down."
+    },
+    {
+      "name": "Flintjaw",
+      "species": "Ankheg",
+      "size": "Medium",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-ankheg-flintjaw",
+      "role": "Awakened burrower tending an orchard's root tunnels.",
+      "motive": "Reroute the cart road before it collapses through the roots of the old pear stand.",
+      "hook": "Flintjaw surfaces beside a wobbly wheel and asks the party to move the cart before the ground gives."
+    },
+    {
+      "name": "Maelin Reednote",
+      "species": "Banshee",
+      "size": "Medium",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr-banshee-maelin-reednote",
+      "role": "Former elven musician tethered to the site of a lost ferry.",
+      "motive": "Find the last verse of the ferry song she used to sing.",
+      "hook": "Maelin knows one flock of birds that still mimics the tune. It nests on the far side of her tether."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Rilkan",
+    "species": "species-73e1d2a4cc9f59b0ca201e34",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Magic of Incarnum (2005)"
+    ],
+    "portraitSha256": "ef32e921f219679f1220b829308fe02aaca08895c041013c43a865cd3ad41858",
+    "caption": "Kesra Tarn · Original Rilkan NPC",
+    "npcReceipts": [
+      {
+        "name": "Kesra Tarn",
+        "id": "npc-d66f6a979f8b352483eb2970",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Bren Carrow",
+        "id": "npc-6b340249902e99cb832516d0",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

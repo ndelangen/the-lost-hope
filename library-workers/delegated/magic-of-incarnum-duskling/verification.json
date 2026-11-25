@@ -1,0 +1,24 @@
+{
+  "baseline": "e9b4c6ceb00b21920de2f35cc0d5498259eeeb13",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Duskling"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Magic of Incarnum (2005)",
+  "essentiaInvestmentMovementAndSubstitutionVerified": true,
+  "existingFifthEditionProfilesPreserved": 1,
+  "defaultVersionBefore": "D&D Beyond Drops",
+  "defaultVersionAfter": "Magic of Incarnum (2005)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

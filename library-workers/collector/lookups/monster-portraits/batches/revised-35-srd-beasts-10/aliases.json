@@ -1,0 +1,9 @@
+[
+  {
+    "id": "beast-df48cb7118fed4e00bc14686",
+    "name": "Tyrannosaurus",
+    "base": "monster-7fad5f6e7b3d703576e966a6",
+    "secondBase": "beast-fd9ab78e9f295d2de1e5d4a7",
+    "slug": "tyrannosaurus-rex"
+  }
+]

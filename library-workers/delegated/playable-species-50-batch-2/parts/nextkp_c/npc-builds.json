@@ -1,0 +1,185 @@
+{
+  "builds": [
+    {
+      "id": "ebon-tides-unbound-satarre",
+      "title": "Unbound Satarre threshold scout, Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Humanoid",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 15,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +2",
+        "Athletics +3",
+        "Insight +4",
+        "Investigation +2",
+        "Perception +4",
+        "Stealth +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14",
+      "languages": "Umbral, Infernal, Common",
+      "traits": [
+        "Proficiency +2. Strength save +3 and Constitution save +5. Leather armor gives AC 11 + Dexterity modifier. The Archery fighting style adds +2 to sling attack rolls.",
+        "Keeper of Secrets grants advantage on Arcana checks about planes and planar travel. Vesk chose Insight proficiency.",
+        "Portal Sense reveals the direction and distance to the nearest nonmagical entrance or exit while Vesk is in a confined area. Vesk has advantage on Investigation or Perception checks to find hidden or invisible doors and magical portals.",
+        "Action Surge grants an extra action on Vesk’s turn once per short or long rest.",
+        "Vesk’s background grants Investigation, Stealth, Common, and cartographer’s tools."
+      ],
+      "actions": [
+        "Sling. Ranged weapon attack +6, range 30/120 ft. Hit 1d4 + 2 bludgeoning.",
+        "Quarterstaff. Melee weapon attack +3, reach 5 ft. Hit 1d6 + 1 bludgeoning, or 1d8 + 1 with two hands.",
+        "Unraveling Touch. Action, once per long rest. A creature Vesk can see within 30 ft. makes a DC 13 Constitution save. On a failure it must spend its action each turn to repeat the save. A success ends the effect.",
+        "Second Wind. Bonus action once per short or long rest. Regain 1d10 + 2 HP."
+      ],
+      "tactics": "In a closed room, Vesk calls out the nearest ordinary exit. If someone blocks that route, he uses Unraveling Touch to buy time for others to get past."
+    },
+    {
+      "id": "unlikely-heroes-serpentine-lamia",
+      "title": "Serpentine Lamia river scout, Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 2,
+      "speed": "30 ft., climb 20 ft., swim 20 ft.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 8,
+        "CHA": 14
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +4",
+        "Deception +6",
+        "Intimidation +4",
+        "Perception +1",
+        "Sleight of Hand +4",
+        "Stealth +6",
+        "Survival +1"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 11",
+      "languages": "Abyssal, Common, thieves’ cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +4 and Intelligence save +2. Leather armor gives AC 11 + Dexterity modifier.",
+        "Serpent Strike gives Tara advantage on attacks against a creature she has surprised or that she or an ally has charmed.",
+        "Snake Body gives advantage on checks and saves to avoid being knocked prone. Tara gains no benefit from effects or gear that require legs or feet.",
+        "Once per turn, Sneak Attack adds 1d6 to a ranged or finesse weapon hit when Tara has advantage or another enemy of the target is within 5 ft. of it and isn’t incapacitated. Disadvantage blocks the extra damage unless it is canceled.",
+        "Expertise in Deception and Stealth. Proficient with thieves’ tools. Tara’s background grants Sleight of Hand, Survival, navigator’s tools, and water vehicles."
+      ],
+      "actions": [
+        "Shortsword. Melee weapon attack +4, reach 5 ft. Hit 1d6 + 2 piercing.",
+        "Dagger. Melee or ranged weapon attack +4, reach 5 ft. or range 20/60 ft. Hit 1d4 + 2 piercing.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Tara swims to the pilings, climbs onto the quay, and waits out the patrol. If spotted, she Disengages and drops back into the river."
+    },
+    {
+      "id": "underworld-guide-morel-mushroomfolk",
+      "title": "Morel Mushroomfolk tunnel guide, Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "difficulty": "Tier 1 class-built NPC · no assigned CR",
+      "size": "Small",
+      "type": "Humanoid",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "speed": "35 ft.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 12
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Investigation +2",
+        "Medicine +4",
+        "Nature +2",
+        "Perception +4",
+        "Stealth +7",
+        "Survival +6"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14",
+      "languages": "Mushroomfolk, Undercommon, Common, thieves’ cant",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Leather armor gives AC 11 + Dexterity modifier.",
+        "Fungoid Form. Nerin has advantage on saves against poison, resistance to poison damage, and immunity to disease.",
+        "Adaptable Camouflage. At least a minute spent adjusting coloration in an area rich in naturally occurring plants or fungi gives Nerin advantage on Dexterity (Stealth) checks there for 24 hours.",
+        "Once per turn, Sneak Attack adds 1d6 to a ranged or finesse weapon hit when Nerin has advantage or another enemy of the target is within 5 ft. of it and isn’t incapacitated. Disadvantage blocks the extra damage unless it is canceled.",
+        "Expertise in Stealth and Survival. Proficient with thieves’ tools. Nerin’s background grants Medicine, Nature, Common, and an herbalism kit."
+      ],
+      "actions": [
+        "Sling. Ranged weapon attack +5, range 30/120 ft. Hit 1d4 + 3 bludgeoning.",
+        "Quarterstaff. Melee weapon attack +1, reach 5 ft. Hit 1d6 − 1 bludgeoning, or 1d8 − 1 with two hands.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Nerin adjusts their coloring in a fungus bed before scouting the next tunnel. If a creature follows, they use its route to lead it away from the group."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Satarre",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Book of Ebon Tides",
+      "name": "Vesk Nhal",
+      "build": "ebon-tides-unbound-satarre",
+      "role": "Shadow Realm threshold scout",
+      "motive": "Find a route for a missing survey crew to reach its camp before the gates close.",
+      "hook": "Vesk has marked a door that disappeared at dusk. He needs someone to hold the last ordinary passage open while he finds it again."
+    },
+    {
+      "species": "Lamia",
+      "size": "Medium",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Unlikely Heroes (2016)",
+      "name": "Tara Embercoil",
+      "build": "unlikely-heroes-serpentine-lamia",
+      "role": "River scout",
+      "motive": "Rescue a dockhand held on a moored barge.",
+      "hook": "Tara can reach the barge from the water if someone draws the sentry away from the mooring."
+    },
+    {
+      "species": "Mushroomfolk",
+      "size": "Small",
+      "edition": "Fifth edition compatible",
+      "speciesPublication": "Underworld Player’s Guide (2020)",
+      "name": "Nerin Alderfold",
+      "build": "underworld-guide-morel-mushroomfolk",
+      "role": "Fungal tunnel guide",
+      "motive": "Find a route around a flooded section of tunnel before the overnight market lets out.",
+      "hook": "Nerin recognizes fresh morel tracks beyond a blocked side passage. They need help moving a waterlogged beam to follow them."
+    }
+  ]
+}

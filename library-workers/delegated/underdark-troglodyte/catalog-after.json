@@ -1,0 +1,1563 @@
+[
+  {
+    "name": "Troglodyte",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "otherEntry": {
+      "id": "monster-842bd4ed27d41a82770be39e",
+      "name": "Troglodyte",
+      "kind": "monster",
+      "group": "Humanoid",
+      "groups": [
+        "Humanoid",
+        "Monstrosity"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        },
+        {
+          "url": "",
+          "credit": "Monster Manual (2014)"
+        },
+        {
+          "url": "",
+          "credit": "Brian Valeza · Monster Manual (2024)"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+        }
+      ],
+      "versions": [
+        {
+          "key": "35645574c5831e0d821b8b41",
+          "publication": "Hoard of the Dragon Queen - Online Supplement",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "14"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "10"
+            ],
+            [
+              "Cha",
+              "6"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing",
+                "Claw · melee · +4 to hit · reach 5 ft. · 1d4 + 2 slashing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "2e5114e02f554a68cd95eba7",
+          "publication": "Monster Manual (2014)",
+          "edition": "2014 fifth edition",
+          "description": "A Medium humanoid with challenge rating 1/4. Listed habitats: underdark. Named abilities include Chameleon Skin, Stench, Sunlight Sensitivity.",
+          "source": "https://5e.tools/bestiary.html#troglodyte_mm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30836/133/1000/1000/638063929424839167.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            },
+            {
+              "url": "",
+              "credit": "Monster Manual (2014)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Strength",
+              "14"
+            ],
+            [
+              "Dexterity",
+              "10"
+            ],
+            [
+              "Constitution",
+              "14"
+            ],
+            [
+              "Intelligence",
+              "6"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "6"
+            ],
+            [
+              "Creature tags",
+              "troglodyte"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark",
+                "underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A cave-dwelling reptilian humanoid with a crest along its head and a strong stench."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing",
+                "Claw · melee · +4 to hit · reach 5 ft. · 1d4 + 2 slashing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Stealth +2"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Troglodyte"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Chameleon Skin · Stealth",
+                "Stench · DC 12 Constitution save · 1 hour · within 5 feet · Poisoned",
+                "Sunlight Sensitivity · Perception"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Bite · Melee attack · +4 to hit · 1d4 + 2 piercing damage · reach 5 ft.",
+                "Claw · Melee attack · +4 to hit · 1d4 + 2 slashing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Simpleminded Brutes",
+                "Devotees of Laogzed"
+              ]
+            }
+          ],
+          "sourceCode": "MM",
+          "page": 290,
+          "references": [
+            {
+              "label": "Monster Manual (2014), p. 290",
+              "url": "https://5e.tools/bestiary.html#troglodyte_mm"
+            },
+            {
+              "label": "Stealth (skill)",
+              "url": "https://5e.tools/skills.html#stealth_phb",
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              },
+              "preview": {
+                "name": "Stealth",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 177,
+                "local": {
+                  "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                  "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                }
+              }
+            },
+            {
+              "label": "Poisoned (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#poisoned_phb",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              },
+              "preview": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "Creature tags": [
+              {
+                "start": 0,
+                "end": 8,
+                "target": {
+                  "name": "Creature",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-41ace94d9abdf138cb1e633b",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Stealth +2": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Chameleon Skin · Stealth": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              }
+            ],
+            "Stench · DC 12 Constitution save · 1 hour · within 5 feet · Poisoned": [
+              {
+                "start": 60,
+                "end": 68,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Perception": [
+              {
+                "start": 23,
+                "end": 33,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "c24d0e192aa857b659ea3f37",
+          "publication": "Monster Manual (2024)",
+          "edition": "2024 fifth edition",
+          "description": "A Medium monstrosity with challenge rating 1/4. Listed habitats: underdark. Named abilities include Stench, Sunlight Sensitivity, Rend.",
+          "source": "https://5e.tools/bestiary.html#troglodyte_xmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47139/313/1000/1000/638741964740568631.png",
+          "status": "Encounter reference",
+          "images": [
+            {
+              "url": "",
+              "credit": "Brian Valeza · Monster Manual (2024)"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Monstrosity"
+            ],
+            [
+              "Speed",
+              "walk 30 ft., climb 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Strength",
+              "14"
+            ],
+            [
+              "Dexterity",
+              "10"
+            ],
+            [
+              "Constitution",
+              "14"
+            ],
+            [
+              "Intelligence",
+              "6"
+            ],
+            [
+              "Wisdom",
+              "10"
+            ],
+            [
+              "Charisma",
+              "6"
+            ],
+            [
+              "Alignment",
+              "chaotic evil"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "underdark"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Rend · melee · +4 to hit · reach 5 ft. · 1d6 + 2 slashing"
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Stealth +4"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "Darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Troglodyte"
+              ]
+            },
+            {
+              "title": "Treasure",
+              "lines": [
+                "armaments"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Stench · Constitution save · DC 12 · 1 hour · start of its next turn · Emanation [Area of Effect] · Poisoned",
+                "Sunlight Sensitivity · Disadvantage"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Rend · Melee attack · +4 to hit · 1d6 + 2 slashing damage · reach 5 ft."
+              ]
+            },
+            {
+              "title": "Lore topics in the source",
+              "lines": [
+                "Troglodyte",
+                "Habitat:",
+                "Treasure:"
+              ]
+            }
+          ],
+          "sourceCode": "XMM",
+          "references": [
+            {
+              "label": "Monster Manual (2025), p. 309",
+              "url": "https://5e.tools/bestiary.html#troglodyte_xmm"
+            },
+            {
+              "label": "Emanation [Area of Effect] (rule)",
+              "url": "https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
+              "terms": [
+                "Emanation"
+              ],
+              "local": {
+                "entry": "compendium-a24ba32f829b2e4a9062d127",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
+              },
+              "preview": {
+                "name": "Emanation [Area of Effect]",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 366,
+                "local": {
+                  "entry": "compendium-a24ba32f829b2e4a9062d127",
+                  "version": "XPHB:366:https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
+                }
+              }
+            },
+            {
+              "label": "Poisoned (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#poisoned_xphb",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+              },
+              "preview": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                }
+              }
+            },
+            {
+              "label": "Disadvantage (rule)",
+              "url": "https://5e.tools/variantrules.html#disadvantage_xphb",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "XPHB:366:https://5e.tools/variantrules.html#disadvantage_xphb"
+              },
+              "preview": {
+                "name": "Disadvantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 366,
+                "local": {
+                  "entry": "compendium-356940ecb12aa17025238190",
+                  "version": "XPHB:366:https://5e.tools/variantrules.html#disadvantage_xphb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Stealth +4": [
+              {
+                "start": 0,
+                "end": 7,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 14,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "XPHB:14:https://5e.tools/skills.html#stealth_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 365,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                  }
+                }
+              }
+            ],
+            "Stench · Constitution save · DC 12 · 1 hour · start of its next turn · Emanation [Area of Effect] · Poisoned": [
+              {
+                "start": 71,
+                "end": 97,
+                "target": {
+                  "name": "Emanation [Area of Effect]",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 366,
+                  "local": {
+                    "entry": "compendium-a24ba32f829b2e4a9062d127",
+                    "version": "XPHB:366:https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb"
+                  }
+                }
+              },
+              {
+                "start": 100,
+                "end": 108,
+                "target": {
+                  "name": "Poisoned",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "description": "Your attack rolls and ability checks have disadvantage.",
+                  "local": {
+                    "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                    "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                  }
+                }
+              }
+            ],
+            "Sunlight Sensitivity · Disadvantage": [
+              {
+                "start": 23,
+                "end": 35,
+                "target": {
+                  "name": "Disadvantage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 366,
+                  "local": {
+                    "entry": "compendium-356940ecb12aa17025238190",
+                    "version": "XPHB:366:https://5e.tools/variantrules.html#disadvantage_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "194c7ec4c6342fe5e84f14bf",
+          "publication": "Princes of the Apocalypse - Online Supplement",
+          "edition": "2014 fifth edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Str",
+              "14"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "10"
+            ],
+            [
+              "Cha",
+              "6"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing",
+                "Claw · melee · +4 to hit · reach 5 ft. · 1d4 + 2 slashing"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "1f59cc3c34f6da8ee22aa52c",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "status": "Combat summary",
+          "images": [],
+          "stats": [
+            [
+              "Armor class",
+              "15"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8+4"
+            ],
+            [
+              "Challenge",
+              "1"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "0 3 ft., 1 0 ft., 2   ft., 3 f ft., 4 t ft., 5 . ft."
+            ],
+            [
+              "Initiative",
+              "-1"
+            ],
+            [
+              "Touch armor class",
+              "9"
+            ],
+            [
+              "Flat-footed armor class",
+              "15"
+            ],
+            [
+              "Base attack bonus",
+              "1"
+            ],
+            [
+              "Grapple modifier",
+              "1"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Fort +5",
+                "Ref -1",
+                "Will +0"
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Club · melee · +1 to hit"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "9b58495556dcbc4839ed8acd",
+          "publication": "Waterdeep: Dragon Heist",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17204-troglodyte",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30836/133/1000/1000/638063929424839167.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Waterdeep: Dragon Heist"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Str",
+              "14"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "10"
+            ],
+            [
+              "Cha",
+              "6"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A cave-dwelling reptilian humanoid with a crest along its head and a strong stench."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing",
+                "Claw · melee · +4 to hit · reach 5 ft. · 1d4 + 2 slashing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#troglodyte_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "f69d968564904770e5b06ca4",
+          "publication": "Waterdeep: Dungeon of the Mad Mage",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/17204-troglodyte",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/30836/133/1000/1000/638063929424839167.png",
+          "status": "Combat summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "11"
+            ],
+            [
+              "Hit points",
+              "13"
+            ],
+            [
+              "Hit dice",
+              "2d8 + 4"
+            ],
+            [
+              "Challenge",
+              "1/4"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Humanoid"
+            ],
+            [
+              "Speed",
+              "walk 30 ft."
+            ],
+            [
+              "Passive Perception",
+              "10"
+            ],
+            [
+              "Initiative",
+              "0"
+            ],
+            [
+              "Str",
+              "14"
+            ],
+            [
+              "Dex",
+              "10"
+            ],
+            [
+              "Con",
+              "14"
+            ],
+            [
+              "Int",
+              "6"
+            ],
+            [
+              "Wis",
+              "10"
+            ],
+            [
+              "Cha",
+              "6"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Underdark"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A cave-dwelling reptilian humanoid with a crest along its head and a strong stench."
+              ]
+            },
+            {
+              "title": "Attacks",
+              "lines": [
+                "Bite · melee · +4 to hit · reach 5 ft. · 1d4 + 2 piercing",
+                "Claw · melee · +4 to hit · reach 5 ft. · 1d4 + 2 slashing"
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Monster Manual (2014) index",
+              "url": "https://5e.tools/bestiary.html#troglodyte_mm"
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Initiative": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Initiative",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 369,
+                  "local": {
+                    "entry": "compendium-f7647d543d6e04bd0782c504",
+                    "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                  }
+                }
+              }
+            ],
+            "This is the base Monster Manual (2014) creature. See the source entry for complete traits and actions and the adventure for encounter-specific changes.": [
+              {
+                "start": 17,
+                "end": 24,
+                "target": {
+                  "name": "Monster",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 371,
+                  "local": {
+                    "entry": "compendium-b4209f03e638437b4a2ff334",
+                    "version": "XPHB:371:https://5e.tools/variantrules.html#monster_xphb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "monsterSearch": true,
+    "global": true,
+    "version": {
+      "key": "356f856e0cacb4ad5ea4cde7",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Reptilian)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Reptilian). −2 Dexterity, +4 Constitution, −2 Intelligence. Land speed 30 ft. Darkvision 90 ft. and +6 natural armor.",
+            "Stench (Ex). Anger or fear triggers the musk. Living creatures within 30 ft. other than troglodytes make a Fortitude save or become sickened for 10 rounds. The DC is 10 + half the racial Hit Dice + the Constitution modifier. A successful save protects the creature from that individual troglodyte’s stench for 24 hours.",
+            "Poison immunity prevents the effect. Apply normal bonuses against poison to the save. Delay poison or neutralize poison removes the sickness.",
+            "Sickened creatures take −2 on attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.",
+            "Color-changing skin gives +4 on Hide checks, rising to +8 in rocky or underground surroundings.",
+            "Two claw attacks deal 1d4 piercing and slashing damage each and the bite deals 1d4 bludgeoning, piercing, and slashing damage before Strength. Bonus Multiattack reduces the secondary attack penalty from −5 to −2.",
+            "Two racial Hit Dice (2d8) grant BAB +1, base Fortitude +3, Reflex +0, Will +0, and one feat. Racial skill points are five times (2 + Intelligence modifier), with a minimum of 1 point per Hit Die before the first-Hit-Die multiplier. Hide and Listen are racial class skills.",
+            "Draconic is automatic. Bonus languages are Common, Giant, Goblin, and Orc. LA +2, so ECL 4 before class levels. Favored class Cleric.",
+            "Underdark lists the advancement entry and refers to the Monster Manual for the playable racial traits."
+          ]
+        },
+        {
+          "title": "Original NPC · Sethrik Chalkscale",
+          "lines": [
+            "Cistern guide and scout.",
+            "Motive. Get the group past the cistern before the lower passage fills.",
+            "Hook. Sethrik can find the dry route where the stone wall meets the old grate.",
+            "Troglodyte cistern guide, racial Hit Dice only · Provisional CR 1. ECL 4 (2 racial HD, LA +2). · Medium Humanoid (Reptilian)",
+            "AC 17 · HP 19 (2d8+6) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Vess Siltcrest",
+          "lines": [
+            "Grate warden and Fighter.",
+            "Motive. Keep the grate clear until the crew can latch it from the far side.",
+            "Hook. Vess signals the party from the guard ledge above the grate.",
+            "Troglodyte grate warden, Fighter 1 · Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2). · Medium Humanoid (Reptilian)",
+            "AC 20 · HP 31 (2d8+1d10+12) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Sethrik Chalkscale": [
+          {
+            "start": 15,
+            "end": 33,
+            "target": {
+              "name": "Sethrik Chalkscale",
+              "group": "Troglodyte",
+              "publication": "Troglodyte cistern guide, racial Hit Dice only",
+              "local": {
+                "entry": "npc-b50b3c820b9bbc831f538fa4",
+                "version": "be1c2b77bfba248853c774c9"
+              }
+            }
+          }
+        ],
+        "Original NPC · Vess Siltcrest": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Vess Siltcrest",
+              "group": "Troglodyte",
+              "publication": "Troglodyte grate warden, Fighter 1",
+              "local": {
+                "entry": "npc-c7318e592855ac11e20104b5",
+                "version": "7a7a7443d3fcd1fe94bd6445"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Troglodyte": true,
+      "troglodyte stench": true,
+      "troglodyte multiattack": true,
+      "troglodyte cistern guide": true,
+      "troglodyte grate warden": true
+    },
+    "hash": "a801c936603a05cbf2cb7de7e8a73f6f92ba58a34824fcf3365edcb2af4c8b53",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "356f856e0cacb4ad5ea4cde7",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

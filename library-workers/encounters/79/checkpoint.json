@@ -1,0 +1,40 @@
+{
+  "commit": "ddb64b49a11a35c5a58a5e87738ceee48da66699",
+  "publication": "Races of Stone (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "additionalSpellLikeAbilityCharismaThreshold": 10,
+  "gnomeGrouping": {
+    "gnome": "species-7efe6b06e7c7b87884712e76",
+    "default": "D&D: World of Warcraft",
+    "versions": 11,
+    "whisper": "species-e6afa4533fd02005e8e393a7"
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-79-whisper gnome-species.png",
+  "browser": {
+    "name": "Whisper Gnome",
+    "species": "species-e6afa4533fd02005e8e393a7",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "a1d21eff2d78268ef5272d9dc1cc0e064ceab273214687d729d6a173b5de7ce4",
+    "caption": "Nella Sedgefold · Original Whisper Gnome NPC",
+    "npcReceipts": [
+      {
+        "name": "Nella Sedgefold",
+        "id": "npc-00d218872318744aa2aa54aa",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Tovin Larkwell",
+        "id": "npc-a80ca1dfe01aecc2b42bf4ab",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+}

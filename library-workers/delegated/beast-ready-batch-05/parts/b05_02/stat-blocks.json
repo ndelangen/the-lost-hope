@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Giant Scorpion",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 15,
+    "hp": 52,
+    "speed": "40 ft.",
+    "hitDice": "7d10 + 14",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 60 ft. Passive Perception 9. No listed languages.",
+    "appearance": "A large tawny arachnid with broad pincers, jointed legs, and an arched tail ending in one curved stinger.",
+    "habitats": [
+      "Desert"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 135. ",
+      "Actions": "Multiattack. Make two Claw attacks and one Sting attack.\nClaw. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple the target (escape DC 12). Each claw can grapple one target at a time.\nSting. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 7 (1d10 + 2) piercing damage. The creature also makes a DC 12 Constitution save, taking 22 (4d10) poison damage on a failure or half as much on a success."
+    }
+  },
+  {
+    "name": "Giant Scorpion",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 15,
+    "hp": 52,
+    "speed": "40 ft.",
+    "hitDice": "7d10 + 14",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 60 ft. Passive Perception 9. No listed languages.",
+    "appearance": "A large tawny arachnid with broad pincers, jointed legs, and an arched tail ending in one curved stinger.",
+    "habitats": [
+      "Desert"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 327. https://www.dndbeyond.com/monsters/16892-giant-scorpion",
+      "Actions": "Multiattack. Make two Claw attacks and one Sting attack.\nClaw. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple the target (escape DC 12). Each claw can grapple one target at a time.\nSting. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 7 (1d10 + 2) piercing damage. The creature also makes a DC 12 Constitution save, taking 22 (4d10) poison damage on a failure or half as much on a success."
+    }
+  },
+  {
+    "name": "Giant Sea Horse",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 16,
+    "speed": "0 ft., swim 40 ft.",
+    "hitDice": "3d10",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages or special senses.",
+    "appearance": "A large fish with a long tubular snout, bony ridges and a curled tail. The portrait shows muted green and ochre plates.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 135. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to deal another 7 (2d6) bludgeoning damage. A creature hit must also pass a DC 11 Strength save or fall prone.\nWater Breathing. The sea horse breathes only underwater.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Giant Sea Horse",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 16,
+    "speed": "0 ft., swim 40 ft.",
+    "hitDice": "3d10",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages or special senses.",
+    "appearance": "A large fish with a long tubular snout, bony ridges and a curled tail. The portrait shows muted green and ochre plates.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 328. https://www.dndbeyond.com/monsters/16893-giant-sea-horse",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn to deal another 7 (2d6) bludgeoning damage. A creature hit must also pass a DC 11 Strength save or fall prone.\nWater Breathing. The sea horse breathes only underwater.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Giant Shark",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 126,
+    "speed": "0 ft., swim 50 ft.",
+    "hitDice": "11d12 + 55",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Blindsight 60 ft. Passive Perception 13. No listed languages.",
+    "appearance": "A 30-ft. shark with a slate-blue back, a pale belly, visible gill slits and rows of triangular teeth.",
+    "habitats": [
+      "Underwater",
+      "Deep ocean"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 135. ",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attack rolls against creatures below their maximum HP.\nWater Breathing. The shark breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +9 to hit, 5-ft. reach, one target. On a hit, deal 22 (3d10 + 6) piercing damage."
+    }
+  },
+  {
+    "name": "Giant Shark",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 126,
+    "speed": "0 ft., swim 50 ft.",
+    "hitDice": "11d12 + 55",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Blindsight 60 ft. Passive Perception 13. No listed languages.",
+    "appearance": "A 30-ft. shark with a slate-blue back, a pale belly, visible gill slits and rows of triangular teeth.",
+    "habitats": [
+      "Underwater",
+      "Deep ocean"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 328. https://www.dndbeyond.com/monsters/16894-giant-shark",
+      "Traits": "Blood Frenzy. The shark has advantage on melee attack rolls against creatures below their maximum HP.\nWater Breathing. The shark breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +9 to hit, 5-ft. reach, one target. On a hit, deal 22 (3d10 + 6) piercing damage."
+    }
+  }
+]

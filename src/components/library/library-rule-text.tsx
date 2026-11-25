@@ -42,7 +42,16 @@ const glossaryPattern = new RegExp(
   'giu',
 )
 
-const pattern = new RegExp('\\b(' + conditions.map(({ name }) => name).join('|') + ')\\b', 'giu')
+const pattern = new RegExp(
+  '\\b(' +
+    conditions
+      .map(({ name }) => name)
+      .sort((left, right) => right.length - left.length)
+      .map((name) => name.replace(/[.*+?^${}()|[\]\\]/gu, '\\$&'))
+      .join('|') +
+    ')\\b',
+  'giu',
+)
 
 export function LibraryRuleText({
   line,

@@ -1,0 +1,68 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Rothé Zombie",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rothe-zombie/rothe-coa-related.webp",
+    "artist": "Related living Rothé token · Chains of Asmodeus",
+    "kind": "token",
+    "sha256": "d95b111fc714372be97027f379e77c332d9532afdc316cea97c456c6d388f68b",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/CoA/Rothe.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Rothé Zombie",
+    "publication": "DDEX3-01 - Harried in Hillsfar",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/rothe-zombie/deep-rothe-sam-wood-related.webp",
+    "artist": "Related Deep Rothé art by Sam Wood · Mordenkainen Presents: Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "3f80f1ac615516c1a33992146dac7433ea9fb90f95dcd4725ae875b1221c8276",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MPMM/Deep%20Rothe.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Drow Veteran",
+    "publication": "DDEX3-03 - The Occupation of Szith Morcane",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/drow-veteran/drow-guard-related.webp",
+    "artist": "Related Drow Guard token · Out of the Abyss",
+    "kind": "token",
+    "sha256": "c1746d6f214c25930f6f9b1f6ad00a22af867cf0b19a401b127a529d10349b36",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/OotA/Drow%20Guard.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Drow Veteran",
+    "publication": "DDEX3-03 - The Occupation of Szith Morcane",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/drow-veteran/drow-commander-related.webp",
+    "artist": "Related Drow Commander token · Tales from the Yawning Portal",
+    "kind": "token",
+    "sha256": "a2c05ac9d6fb14bbfed21570fcfdfe7e70ee561f703959296f0bca67625cfca8",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/TftYP/Drow%20Commander.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Meira Faerenduil",
+    "publication": "DDEX3-07 - Herald of the Moon",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/meira-faerenduil/ghost-2014-related.webp",
+    "artist": "Related Ghost art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "18fbc9053b72c6c94bdd94a9d08bfeb4b95f2a5a916a06151b875a0d7b835e3d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Ghost.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Meira Faerenduil",
+    "publication": "DDEX3-07 - Herald of the Moon",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/meira-faerenduil/banshee-2024-rules-related.webp",
+    "artist": "Related Banshee art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "1e4d8e73796f9c5e5101e8c2292157e3a7c0ea315fea7492bdd58df6cfe4356a",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Banshee.webp"
+  }
+]

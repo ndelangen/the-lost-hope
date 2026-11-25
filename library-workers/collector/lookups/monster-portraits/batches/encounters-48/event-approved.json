@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Devil Legate",
+    "slug": "devil-legate",
+    "id": "monster-f2ae3fd57b983f0458f2d2aa:3fe659f5b530f841857dbf0d",
+    "entry": "monster-f2ae3fd57b983f0458f2d2aa",
+    "version": "3fe659f5b530f841857dbf0d",
+    "suffix": "encounters-48/devil-legate.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-48/devil-legate.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-48/event-drafts/devil-legate-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 48 2026-11-23/event-drafts/devil-legate-event-v1.png",
+    "overrides": [],
+    "sha256": "7fe32fc8b8c02a0db841b83febf9a21db79aaa258dba2191420204e5fdec4fb6",
+    "bytes": 2533224
+  },
+  {
+    "name": "Devil Magistrate",
+    "slug": "devil-magistrate",
+    "id": "monster-ddd515697a5d3389140abb8d:679ee33608f9f68c4d010f35",
+    "entry": "monster-ddd515697a5d3389140abb8d",
+    "version": "679ee33608f9f68c4d010f35",
+    "suffix": "encounters-48/devil-magistrate.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-48/devil-magistrate.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-48/event-drafts/devil-magistrate-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 48 2026-11-23/event-drafts/devil-magistrate-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-ddd515697a5d3389140abb8d",
+        "name": "Devil Magistrate",
+        "file": "images/monsters/devil-magistrate/parchment-portrait.webp",
+        "sha256": "62c8ba96694865c67d314f36fc4e204472b7b4103977e139bb2c672bbad93c86",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "",
+        "subjectPrompt": "An infernal judge in layers of sober dark red and slate official robes, restrained pointed horns and amber eyes, holding a heavy open docket and short iron pen. Dignified full standing portrait, no writing visible.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "bafa7599cb8f750017dad74bf143567da988a26e1cd5e5dbadc507f8f4612051",
+    "bytes": 2410156
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Elder Brain",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth edition.",
+      "Medium Aberration. Int, Wis and Cha each increase by 1. Walk 5 ft., swim 10 ft., and blindsight 30 ft. No armor, shield or spoken words. Understands, reads and writes Common, Deep Speech and Undercommon.",
+      "Tentacle unarmed strikes deal 1d4 psychic damage. Telepathic Hub lets the brain speak mind-to-mind with creatures within 30 ft. that know a language. It can also enable creatures within that range to communicate with each other telepathically.",
+      "Mind Blast takes an action and recharges after a short or long rest. Use a 15-ft. cone and an Intelligence save against DC 8 + proficiency + Int modifier. Deal 2d6 psychic on failure, half on success. Damage rises to 3d6 at level 5, 4d6 at level 11 and 5d6 at level 17.",
+      "The named innate psionics give Levitate once daily at level 3 and Detect Thoughts once daily at level 5, using Intelligence. The trait supplies a focus substitute. The character cannot supply verbal components for ordinary spells."
+    ]
+  },
+  {
+    "name": "Quickling",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth edition.",
+      "Tiny Fey. Dex increases by 1. Walk 60 ft. Common and Sylvan.",
+      "Blurred Movement allows Dash as a bonus action. After Dashing and spending all movement, including the Dash distance, without returning to a space just left, attacks against the quickling have disadvantage until its next turn begins. Taking damage ends that protection.",
+      "Evasion applies when a successful Dexterity save normally halves damage. The quickling takes no damage on success and half on failure.",
+      "Apply the book’s Tiny gear rules. A weapon built for this size has modified damage and range. Tiny armor weighs one-quarter as much, and the creature lifts and carries one-quarter of the normal amount. Using an oversized light weapon costs two hands, removes finesse and imposes disadvantage."
+    ]
+  },
+  {
+    "name": "Sea Spawn",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth edition.",
+      "Medium Humanoid. Str and Con each increase by 1. Walk 20 ft., swim 30 ft., and darkvision 120 ft. Natural AC is 12 + Dex modifier while unarmored. Understands, reads and writes Aquan and Common, with no speech or verbal spell components.",
+      "Choose two Piscine Anatomy adaptations. Bite deals 1d8 piercing. Poison Quills are a melee weapon attack for 1d4 poison damage and a Constitution save against DC 8 + proficiency + Con modifier. A failure poisons for 1 minute, with a repeat save at each turn end. Quills recharge after a short or long rest.",
+      "A prehensile Tentacle is a melee weapon attack for 1d4 bludgeoning. A hit permits a bonus-action grapple, even with other hands occupied, provided that tentacle is free. The shared Slam unarmed strike deals 1d4 bludgeoning.",
+      "The printed swimming trait leaves the normal rules for breathing and breath-holding in use."
+    ]
+  },
+  {
+    "name": "Shadow Mastiff",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth edition.",
+      "Medium Monstrosity. Str increases by 2 and Dex by 1. Walk 40 ft., darkvision 60 ft. Common. Sees creatures and objects on the Ethereal Plane.",
+      "Bite unarmed strikes deal 1d8 piercing. Keen Hearing and Smell grants advantage on the Wisdom (Perception) checks that use those senses. The mastiff lacks hands for weapons, shields and gear requiring manipulation.",
+      "Shadow Blend takes a bonus action in dim light or darkness and recharges after a short or long rest. It makes the mastiff invisible until its next turn starts, it leaves low light, attacks, rolls damage or forces a save.",
+      "Sunlight gives disadvantage on attack rolls, ability checks and saving throws."
+    ]
+  },
+  {
+    "name": "Slithering Tracker",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra’s DMs Guild player conversion for the 2014 fifth edition.",
+      "Medium Ooze. Str and Dex each increase by 1. Walk, climb and swim each 30 ft. Understands, reads and writes Common and cannot speak or perform verbal spell components.",
+      "Amoeboid body passes through a 1-inch gap without squeezing. It cannot wear armor or use hands, weapons, shields or manipulation-dependent gear. It is immune to being blinded, deafened, exhausted or prone, and vulnerable to fire and cold.",
+      "Advantage on attacks against creatures the tracker surprised. It can climb walls and ceilings without an ability check, uses double proficiency on Wisdom checks to track prey and has advantage on underwater Stealth. One motionless minute with concentration lets it pass for a puddle while it remains still.",
+      "Life Leech unarmed strikes deal 1d8 necrotic. When an unarmed strike hits during the Attack action, the tracker can try to grapple as a bonus action. While grappling a creature, Damage Transfer divides damage dealt to the tracker between the tracker and that creature."
+    ]
+  }
+]

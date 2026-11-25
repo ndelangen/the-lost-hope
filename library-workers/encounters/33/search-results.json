@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Angulotl Blade",
+    "query": "red frogfolk skirmisher freshwater marshes wild hop",
+    "condition": null,
+    "alternates": [
+      "D&D Beyond publisher art · Flee, Mortals!"
+    ]
+  },
+  {
+    "name": "Angulotl Needler",
+    "query": "blue frogfolk jungle rivers sniper blowgun",
+    "condition": "Poisoned",
+    "alternates": [
+      "D&D Beyond publisher art · Flee, Mortals!"
+    ]
+  },
+  {
+    "name": "Angulotl Seer",
+    "query": "purple frogfolk controller swamps psychedelic drone",
+    "condition": "Invisible",
+    "alternates": [
+      "D&D Beyond publisher art · Flee, Mortals!"
+    ]
+  },
+  {
+    "name": "Angulotl Slink",
+    "query": "gold-yellow frogfolk freshwater marshes tongue nab",
+    "condition": null,
+    "alternates": [
+      "D&D Beyond publisher art · Flee, Mortals!"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-b1f860220eb4460ab1488e47",
+    "version": "24b8a399f047e92ce750c079",
+    "name": "Giant Rhinoceros Beetle",
+    "file": "images/adnd2e-monstrous-manual-beetles-02/giant-rhinoceros-beetle.png",
+    "sha256": "beaa4925f29fa7fdcc6be5f5d9a6d9c6a7685d1bdaccc8ec8044599ccdb9fb8c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-0a0d0e5a277c1ef821f3e275",
+    "version": "7f36944f7b5a2c566cd1c0b6",
+    "name": "Giant Stag Beetle",
+    "file": "images/adnd2e-monstrous-manual-beetles-02/giant-stag-beetle.png",
+    "sha256": "f47186a58ab65d0f1c9369b8180f0b93e2fa43233e54e595a93507d99755e4c8",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-1d73cff9912799dd2f02b4b0",
+    "version": "2703b888049b248f1bfac14d",
+    "name": "Giant Water Beetle",
+    "file": "images/adnd2e-monstrous-manual-beetles-02/giant-water-beetle.png",
+    "sha256": "484eed35844edbe085e97f396c7b437c27b0b3ec0ae4498cb86fdca6aa7472db",
+    "credit": "OpenAI ImageGen"
+  }
+]

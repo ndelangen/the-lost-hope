@@ -1,0 +1,2054 @@
+[
+  {
+    "name": "Swarm of Skitterlings",
+    "version": {
+      "key": "0250c8f4d6420756fe09c3bb",
+      "publication": "Flee, Mortals! public preview",
+      "edition": "2014 fifth edition compatible",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "36"
+        ],
+        [
+          "Hit dice",
+          "8d8"
+        ],
+        [
+          "Challenge",
+          "2"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Swarm of Tiny Beasts"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., fly 60 ft."
+        ],
+        [
+          "Passive Perception",
+          "11"
+        ],
+        [
+          "Role",
+          "Soldier"
+        ],
+        [
+          "XP",
+          "450"
+        ],
+        [
+          "Str",
+          "10"
+        ],
+        [
+          "Dex",
+          "16"
+        ],
+        [
+          "Con",
+          "10"
+        ],
+        [
+          "Int",
+          "3"
+        ],
+        [
+          "Wis",
+          "12"
+        ],
+        [
+          "Cha",
+          "5"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Desert",
+            "Forest",
+            "Underground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A whirling flock of housecat-sized flying rodents, each with six clawed legs and a pair of leathery wings."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "charmed",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "prone",
+            "restrained",
+            "stunned"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Claws · melee · +5 to hit · 4d6 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "In Your Face · An enemy sharing the swarm’s space makes attacks against other targets with disadvantage. It takes 3 (1d6) slashing damage if it attacks a creature besides the swarm.",
+            "Swarm · The swarm and other creatures can share spaces. It fits through any opening that admits one Tiny skitterling. It cannot heal or gain temporary hit points."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Claws · Reach 0 ft., one target. At 18 HP or fewer, the hit deals 7 (2d6) slashing damage. Any hit requires a DC 10 Constitution save. Failure blinds the target until the start of its next turn. Immunity to poison damage or the poisoned condition makes that save an automatic success."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "MCDM, Flee, Mortals! public preview, pp. 5 and 9. Unaligned. Proficiency bonus +2. No languages.",
+            "The Goblins chapter places outlaw goblin encounters in deserts, forests, and underground. The preview gives no separate natural habitat for this beast.",
+            "Goblins train skitterlings to attack faces. Put the swarm in an enemy’s space to pressure that enemy into attacking it, then use Claws to hinder the target’s next attacks."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "charmed": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          }
+        ],
+        "frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "grappled": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "paralyzed": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Paralyzed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+              "local": {
+                "entry": "compendium-138ba975047a1242ea1c34b0",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+              }
+            }
+          }
+        ],
+        "petrified": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Petrified",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+              "local": {
+                "entry": "compendium-48610e3ace37764a7f7e9029",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+              }
+            }
+          }
+        ],
+        "prone": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "restrained": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "stunned": [
+          {
+            "start": 0,
+            "end": 7,
+            "target": {
+              "name": "Stunned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-d8bc271631b0ee01401d9eda",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+              }
+            }
+          }
+        ],
+        "In Your Face · An enemy sharing the swarm’s space makes attacks against other targets with disadvantage. It takes 3 (1d6) slashing damage if it attacks a creature besides the swarm.": [
+          {
+            "start": 91,
+            "end": 103,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Claws · Reach 0 ft., one target. At 18 HP or fewer, the hit deals 7 (2d6) slashing damage. Any hit requires a DC 10 Constitution save. Failure blinds the target until the start of its next turn. Immunity to poison damage or the poisoned condition makes that save an automatic success.": [
+          {
+            "start": 8,
+            "end": 13,
+            "target": {
+              "name": "Reach",
+              "group": "Item properties",
+              "publication": "Player's Handbook (2014)",
+              "page": 147,
+              "local": {
+                "entry": "compendium-36edcba836ed3e3a607b3e74",
+                "version": "PHB:147:https://5e.tools/items.html"
+              }
+            }
+          },
+          {
+            "start": 195,
+            "end": 203,
+            "target": {
+              "name": "Immunity",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 369,
+              "local": {
+                "entry": "compendium-a239591212d49ede6cae4370",
+                "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+              }
+            }
+          },
+          {
+            "start": 228,
+            "end": 236,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          }
+        ],
+        "MCDM, Flee, Mortals! public preview, pp. 5 and 9. Unaligned. Proficiency bonus +2. No languages.": [
+          {
+            "start": 61,
+            "end": 72,
+            "target": {
+              "name": "Proficiency",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-7bf778e92e4105e60dc6d079",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Desert": true,
+      "housecat-sized flying rodents": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Where Evil Lives"
+      }
+    ],
+    "portraitHash": "d8c9cad72b37eef47dd13e47ed4c01bcc07e2801dcd7c1e35ad4eea2f51802b6",
+    "siblings": [
+      {
+        "key": "5b163f791ae6a5a1d1399189",
+        "publication": "Flee, Mortals!",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/4486014-swarm-of-skitterlings",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/41759/626/1000/1000/638512254267424439.png",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Flee, Mortals!"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "36"
+          ],
+          [
+            "Hit dice",
+            "8d8"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., fly 60 ft."
+          ],
+          [
+            "XP",
+            "450"
+          ],
+          [
+            "Str",
+            "10"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "10"
+          ],
+          [
+            "Int",
+            "3"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Caves",
+              "Ruins",
+              "Forests",
+              "Jagged Edge Hideaway"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A flying cluster of six-legged, bat-winged rodents."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium swarm of Tiny Beasts, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Resists bludgeoning, piercing and slashing. Immune to charmed, dazed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. Darkvision 60 ft., passive Perception 11. No languages."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. Can share another creature's space and pass through gaps one of its Tiny members could fit through. Cannot regain HP or gain temporary HP.\nIn Your Face. An enemy sharing the swarm's space attacks other targets with disadvantage and takes 3 (1d6) slashing damage when it attacks someone other than the swarm."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claws. Melee weapon attack +5 against one target in the swarm's space. Hit: 14 (4d6) slashing, or 7 (2d6) at half HP or less. The target must pass a DC 10 Constitution save or be blinded until the start of its next turn. Immunity to poison damage or to being poisoned makes this save an automatic success."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.",
+              "Soldier. Publisher's Jagged Edge Hideaway stat block."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Resists bludgeoning, piercing and slashing. Immune to charmed, dazed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. Darkvision 60 ft., passive Perception 11. No languages.": [
+            {
+              "start": 54,
+              "end": 61,
+              "target": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "start": 70,
+              "end": 80,
+              "target": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            },
+            {
+              "start": 82,
+              "end": 90,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 92,
+              "end": 101,
+              "target": {
+                "name": "Paralyzed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                "local": {
+                  "entry": "compendium-138ba975047a1242ea1c34b0",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                }
+              }
+            },
+            {
+              "start": 103,
+              "end": 112,
+              "target": {
+                "name": "Petrified",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+                "local": {
+                  "entry": "compendium-48610e3ace37764a7f7e9029",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+                }
+              }
+            },
+            {
+              "start": 114,
+              "end": 119,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            },
+            {
+              "start": 121,
+              "end": 131,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 136,
+              "end": 143,
+              "target": {
+                "name": "Stunned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-d8bc271631b0ee01401d9eda",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                }
+              }
+            },
+            {
+              "start": 145,
+              "end": 155,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 172,
+              "end": 182,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Swarm. Can share another creature's space and pass through gaps one of its Tiny members could fit through. Cannot regain HP or gain temporary HP.\nIn Your Face. An enemy sharing the swarm's space attacks other targets with disadvantage and takes 3 (1d6) slashing damage when it attacks someone other than the swarm.": [
+            {
+              "start": 222,
+              "end": 234,
+              "target": {
+                "name": "Disadvantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the lower roll.",
+                "local": {
+                  "entry": "compendium-356940ecb12aa17025238190",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            }
+          ],
+          "Claws. Melee weapon attack +5 against one target in the swarm's space. Hit: 14 (4d6) slashing, or 7 (2d6) at half HP or less. The target must pass a DC 10 Constitution save or be blinded until the start of its next turn. Immunity to poison damage or to being poisoned makes this save an automatic success.": [
+            {
+              "start": 179,
+              "end": 186,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            },
+            {
+              "start": 221,
+              "end": 229,
+              "target": {
+                "name": "Immunity",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-a239591212d49ede6cae4370",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+                }
+              }
+            },
+            {
+              "start": 259,
+              "end": 267,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "d29a65e51a8c2288997db836",
+        "publication": "Where Evil Lives",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/4486014-swarm-of-skitterlings",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/41759/626/1000/1000/638512254267424439.png",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Where Evil Lives"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "36"
+          ],
+          [
+            "Hit dice",
+            "8d8"
+          ],
+          [
+            "Challenge",
+            "2"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., fly 60 ft."
+          ],
+          [
+            "XP",
+            "450"
+          ],
+          [
+            "Str",
+            "10"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "10"
+          ],
+          [
+            "Int",
+            "3"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "5"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Caves",
+              "Ruins",
+              "Forests",
+              "Jagged Edge Hideaway"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A flying cluster of six-legged, bat-winged rodents."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": [
+              "Medium swarm of Tiny Beasts, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Resists bludgeoning, piercing and slashing. Immune to charmed, dazed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. Darkvision 60 ft., passive Perception 11. No languages."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. Can share another creature's space and pass through gaps one of its Tiny members could fit through. Cannot regain HP or gain temporary HP.\nIn Your Face. An enemy sharing the swarm's space attacks other targets with disadvantage and takes 3 (1d6) slashing damage when it attacks someone other than the swarm."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claws. Melee weapon attack +5 against one target in the swarm's space. Hit: 14 (4d6) slashing, or 7 (2d6) at half HP or less. The target must pass a DC 10 Constitution save or be blinded until the start of its next turn. Immunity to poison damage or to being poisoned makes this save an automatic success."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Soldier. Publisher's Jagged Edge Hideaway stat block."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Resists bludgeoning, piercing and slashing. Immune to charmed, dazed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. Darkvision 60 ft., passive Perception 11. No languages.": [
+            {
+              "start": 54,
+              "end": 61,
+              "target": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "start": 70,
+              "end": 80,
+              "target": {
+                "name": "Frightened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+                "local": {
+                  "entry": "compendium-879f347e29c83a95483201f4",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+                }
+              }
+            },
+            {
+              "start": 82,
+              "end": 90,
+              "target": {
+                "name": "Grappled",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+                "local": {
+                  "entry": "compendium-e9c29509e4a14efaf316630f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+                }
+              }
+            },
+            {
+              "start": 92,
+              "end": 101,
+              "target": {
+                "name": "Paralyzed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You cannot act, move, or speak, and nearby attacks that hit you are critical hits.",
+                "local": {
+                  "entry": "compendium-138ba975047a1242ea1c34b0",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#paralyzed_phb"
+                }
+              }
+            },
+            {
+              "start": 103,
+              "end": 112,
+              "target": {
+                "name": "Petrified",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 291,
+                "description": "You turn into a solid, inanimate substance and cannot act or move. You have resistance to all damage.",
+                "local": {
+                  "entry": "compendium-48610e3ace37764a7f7e9029",
+                  "version": "PHB:291:https://5e.tools/conditionsdiseases.html#petrified_phb"
+                }
+              }
+            },
+            {
+              "start": 114,
+              "end": 119,
+              "target": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            },
+            {
+              "start": 121,
+              "end": 131,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            },
+            {
+              "start": 136,
+              "end": 143,
+              "target": {
+                "name": "Stunned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You cannot act and automatically fail Strength and Dexterity saves. Attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-d8bc271631b0ee01401d9eda",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#stunned_phb"
+                }
+              }
+            },
+            {
+              "start": 145,
+              "end": 155,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 172,
+              "end": 182,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Swarm. Can share another creature's space and pass through gaps one of its Tiny members could fit through. Cannot regain HP or gain temporary HP.\nIn Your Face. An enemy sharing the swarm's space attacks other targets with disadvantage and takes 3 (1d6) slashing damage when it attacks someone other than the swarm.": [
+            {
+              "start": 222,
+              "end": 234,
+              "target": {
+                "name": "Disadvantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the lower roll.",
+                "local": {
+                  "entry": "compendium-356940ecb12aa17025238190",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            }
+          ],
+          "Claws. Melee weapon attack +5 against one target in the swarm's space. Hit: 14 (4d6) slashing, or 7 (2d6) at half HP or less. The target must pass a DC 10 Constitution save or be blinded until the start of its next turn. Immunity to poison damage or to being poisoned makes this save an automatic success.": [
+            {
+              "start": 179,
+              "end": 186,
+              "target": {
+                "name": "Blinded",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+                }
+              }
+            },
+            {
+              "start": 221,
+              "end": 229,
+              "target": {
+                "name": "Immunity",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-a239591212d49ede6cae4370",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#immunity_xphb"
+                }
+              }
+            },
+            {
+              "start": 259,
+              "end": 267,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "War Spider",
+    "version": {
+      "key": "9ab6a9e696d34ad0057fb524",
+      "publication": "Flee, Mortals! public preview",
+      "edition": "2014 fifth edition compatible",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "15"
+        ],
+        [
+          "Hit points",
+          "73"
+        ],
+        [
+          "Hit dice",
+          "7d12 + 28"
+        ],
+        [
+          "Challenge",
+          "3"
+        ],
+        [
+          "Size",
+          "Huge"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft., climb 40 ft."
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ],
+        [
+          "Role",
+          "Brute"
+        ],
+        [
+          "XP",
+          "700"
+        ],
+        [
+          "Str",
+          "18"
+        ],
+        [
+          "Dex",
+          "14"
+        ],
+        [
+          "Con",
+          "18"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "11"
+        ],
+        [
+          "Cha",
+          "4"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Desert",
+            "Forest",
+            "Underground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An enormous eight-legged spider with blade-edged legs and a broad back that can carry a goblin archery platform."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "blindsight 10 ft.",
+            "darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +6 to hit · reach 5 ft. · 2d6 + 4 piercing plus 2d6 poison",
+            "Bladed Leg · melee · +6 to hit · reach 10 ft. · 2d6 + 4 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Baby Burst · At death, release one Swarm of Insects (spiders). It acts on the War Spider’s initiative count.",
+            "Rider Launcher · An allied rider jumping off the spider can long jump 30 ft. or high jump 15 ft. from a standstill or running start. The rider has advantage on its first melee weapon attack that turn.",
+            "Spider Climb · The spider can climb difficult surfaces and traverse ceilings without a check.",
+            "Web Walker · Webbing does not restrict the spider’s movement.",
+            "Wide Back · Two Small or Tiny riders can share a space on the spider. It carries up to 18 Small or 64 Tiny riders."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Web Spray · Each creature in a 15-ft. cube must make a DC 13 Dexterity save or be restrained. A creature can use an action to attempt a DC 13 Strength or Dexterity check, freeing itself or a creature within its reach on a success.",
+            "Trample (Recharge 6) · Move up to its speed through other creatures’ spaces. Make one Bladed Leg attack against each creature whose space the spider enters. A hit removes that creature’s reactions until the start of its next turn."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "MCDM, Flee, Mortals! public preview, pp. 5 and 9. Unaligned. Proficiency bonus +2. No languages.",
+            "The Goblins chapter places outlaw goblin encounters in deserts, forests, and underground. The preview gives no separate natural habitat for this beast.",
+            "Goblins use the spider as a battle mount, with archers above and riders that jump into melee. Use Web Spray to hold a group in place or Trample to move through an enemy line."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "blindsight 10 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Blindsight",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-07dd97e41872842acf1183db",
+                "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+              }
+            }
+          }
+        ],
+        "darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Baby Burst · At death, release one Swarm of Insects (spiders). It acts on the War Spider’s initiative count.": [
+          {
+            "start": 35,
+            "end": 51,
+            "target": {
+              "name": "Swarm of Insects",
+              "group": "Creatures",
+              "publication": "Monster Manual (2014)",
+              "page": 338,
+              "description": "A Medium beast with challenge rating 1/2. Listed habitats: underdark, grassland, forest, swamp, hill, urban, desert. Named abilities include Swarm, Bites.",
+              "local": {
+                "entry": "compendium-2484e49be5683e09bc112fdd",
+                "version": "MM:338:https://5e.tools/bestiary.html#swarm%20of%20insects_mm"
+              }
+            }
+          }
+        ],
+        "Rider Launcher · An allied rider jumping off the spider can long jump 30 ft. or high jump 15 ft. from a standstill or running start. The rider has advantage on its first melee weapon attack that turn.": [
+          {
+            "start": 147,
+            "end": 156,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Spider Climb · The spider can climb difficult surfaces and traverse ceilings without a check.": [
+          {
+            "start": 0,
+            "end": 12,
+            "target": {
+              "name": "Spider Climb",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 277,
+              "description": "A level 2 transmutation spell.",
+              "local": {
+                "entry": "compendium-8d902b4c716289d9471f0690",
+                "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Web Spray · Each creature in a 15-ft. cube must make a DC 13 Dexterity save or be restrained. A creature can use an action to attempt a DC 13 Strength or Dexterity check, freeing itself or a creature within its reach on a success.": [
+          {
+            "start": 82,
+            "end": 92,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "MCDM, Flee, Mortals! public preview, pp. 5 and 9. Unaligned. Proficiency bonus +2. No languages.": [
+          {
+            "start": 61,
+            "end": 72,
+            "target": {
+              "name": "Proficiency",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-7bf778e92e4105e60dc6d079",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+              }
+            }
+          }
+        ],
+        "Goblins use the spider as a battle mount, with archers above and riders that jump into melee. Use Web Spray to hold a group in place or Trample to move through an enemy line.": [
+          {
+            "start": 98,
+            "end": 101,
+            "target": {
+              "name": "Web",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 287,
+              "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+              "local": {
+                "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                "version": "PHB:287:https://5e.tools/spells.html#web_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Desert": true,
+      "blade-edged legs": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Where Evil Lives"
+      }
+    ],
+    "portraitHash": "0a19b3faa6c3a0ca0b6169b3fda63ae311cae3de452f509166acc81acb80e32e",
+    "siblings": [
+      {
+        "key": "205e6d73b0c527d554b62c2b",
+        "publication": "Flee, Mortals!",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/4486041-war-spider",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/41759/670/1000/1000/638512254340588031.png",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Flee, Mortals!"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "73"
+          ],
+          [
+            "Hit dice",
+            "7d12 + 28"
+          ],
+          [
+            "Challenge",
+            "3"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., climb 40 ft."
+          ],
+          [
+            "XP",
+            "700"
+          ],
+          [
+            "Str",
+            "18"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "18"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Caves",
+              "Ruins",
+              "Forests",
+              "Jagged Edge Hideaway"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "An enormous spider that can carry goblin riders and hide smaller spiders in its body."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": [
+              "Huge Beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Blindsight 10 ft., darkvision 60 ft., passive Perception 10. No languages."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Baby Burst. When the spider dies, a Swarm of Spiders (MCDM) emerges and acts on its initiative count.\nRider Launcher. Allied riders can jump off up to 30 ft. horizontally or 15 ft. vertically without a running start. The jumping rider has advantage on their first melee weapon attack that turn.\nSpider Climb. Can climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webbing doesn't restrict movement.\nWide Back. Two Small or Tiny riders can share a space on its back. Capacity is 18 Small riders or 72 Tiny riders."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack +6, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing plus 7 (2d6) poison.\nBladed Leg. Melee weapon attack +6, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing.\nWeb Spray. Creatures in a 15-ft. cube must pass a DC 14 Dexterity save or be restrained by webs. A creature can spend an action on a DC 14 Strength or Dexterity check to free itself or a creature within reach.\nTrample (recharge 6). Move up to the spider's speed through other creatures' spaces, treating them as difficult terrain. It can make one Bladed Leg attack against each creature whose space it enters. A hit prevents that creature from taking reactions until the start of its next turn."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.",
+              "Brute. Publisher's Jagged Edge Hideaway stat block."
+            ]
+          }
+        ],
+        "references": [
+          {
+            "label": "Swarm of Spiders (MCDM) (beast)",
+            "url": "https://www.dndbeyond.com/monsters/4486015-swarm-of-spiders-mcdm",
+            "local": {
+              "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+              "version": "965b0d6e5170d01475127bd5"
+            },
+            "preview": {
+              "name": "Swarm of Spiders (MCDM)",
+              "group": "Beast",
+              "publication": "Where Evil Lives",
+              "local": {
+                "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+                "version": "965b0d6e5170d01475127bd5"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 10 ft., darkvision 60 ft., passive Perception 10. No languages.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 19,
+              "end": 29,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 56,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Baby Burst. When the spider dies, a Swarm of Spiders (MCDM) emerges and acts on its initiative count.\nRider Launcher. Allied riders can jump off up to 30 ft. horizontally or 15 ft. vertically without a running start. The jumping rider has advantage on their first melee weapon attack that turn.\nSpider Climb. Can climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webbing doesn't restrict movement.\nWide Back. Two Small or Tiny riders can share a space on its back. Capacity is 18 Small riders or 72 Tiny riders.": [
+            {
+              "start": 36,
+              "end": 59,
+              "target": {
+                "name": "Swarm of Spiders (MCDM)",
+                "group": "Beast",
+                "publication": "Where Evil Lives",
+                "local": {
+                  "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+                  "version": "965b0d6e5170d01475127bd5"
+                }
+              }
+            },
+            {
+              "start": 239,
+              "end": 248,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 295,
+              "end": 307,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 277,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee weapon attack +6, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing plus 7 (2d6) poison.\nBladed Leg. Melee weapon attack +6, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing.\nWeb Spray. Creatures in a 15-ft. cube must pass a DC 14 Dexterity save or be restrained by webs. A creature can spend an action on a DC 14 Strength or Dexterity check to free itself or a creature within reach.\nTrample (recharge 6). Move up to the spider's speed through other creatures' spaces, treating them as difficult terrain. It can make one Bladed Leg attack against each creature whose space it enters. A hit prevents that creature from taking reactions until the start of its next turn.": [
+            {
+              "start": 270,
+              "end": 280,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "24d60cb2577246838257736d",
+        "publication": "Where Evil Lives",
+        "edition": "2014 fifth edition compatible",
+        "source": "https://www.dndbeyond.com/monsters/4486041-war-spider",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/41759/670/1000/1000/638512254340588031.png",
+        "status": "Stat block",
+        "images": [
+          {
+            "url": "",
+            "credit": "D&D Beyond publisher art · Where Evil Lives"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "15"
+          ],
+          [
+            "Hit points",
+            "73"
+          ],
+          [
+            "Hit dice",
+            "7d12 + 28"
+          ],
+          [
+            "Challenge",
+            "3"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "40 ft., climb 40 ft."
+          ],
+          [
+            "XP",
+            "700"
+          ],
+          [
+            "Str",
+            "18"
+          ],
+          [
+            "Dex",
+            "14"
+          ],
+          [
+            "Con",
+            "18"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "11"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "Caves",
+              "Ruins",
+              "Forests",
+              "Jagged Edge Hideaway"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "An enormous spider that can carry goblin riders and hide smaller spiders in its body."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": [
+              "Huge Beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Blindsight 10 ft., darkvision 60 ft., passive Perception 10. No languages."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Baby Burst. When the spider dies, a Swarm of Spiders (MCDM) emerges and acts on its initiative count.\nRider Launcher. Allied riders can jump off up to 30 ft. horizontally or 15 ft. vertically without a running start. The jumping rider has advantage on their first melee weapon attack that turn.\nSpider Climb. Can climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webbing doesn't restrict movement.\nWide Back. Two Small or Tiny riders can share a space on its back. Capacity is 18 Small riders or 72 Tiny riders."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack +6, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing plus 7 (2d6) poison.\nBladed Leg. Melee weapon attack +6, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing.\nWeb Spray. Creatures in a 15-ft. cube must pass a DC 14 Dexterity save or be restrained by webs. A creature can spend an action on a DC 14 Strength or Dexterity check to free itself or a creature within reach.\nTrample (recharge 6). Move up to the spider's speed through other creatures' spaces, treating them as difficult terrain. It can make one Bladed Leg attack against each creature whose space it enters. A hit prevents that creature from taking reactions until the start of its next turn."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Brute. Publisher's Jagged Edge Hideaway stat block."
+            ]
+          }
+        ],
+        "references": [
+          {
+            "label": "Swarm of Spiders (MCDM) (beast)",
+            "url": "https://www.dndbeyond.com/monsters/4486015-swarm-of-spiders-mcdm",
+            "local": {
+              "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+              "version": "965b0d6e5170d01475127bd5"
+            },
+            "preview": {
+              "name": "Swarm of Spiders (MCDM)",
+              "group": "Beast",
+              "publication": "Where Evil Lives",
+              "local": {
+                "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+                "version": "965b0d6e5170d01475127bd5"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 10 ft., darkvision 60 ft., passive Perception 10. No languages.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 19,
+              "end": 29,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            },
+            {
+              "start": 46,
+              "end": 56,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Baby Burst. When the spider dies, a Swarm of Spiders (MCDM) emerges and acts on its initiative count.\nRider Launcher. Allied riders can jump off up to 30 ft. horizontally or 15 ft. vertically without a running start. The jumping rider has advantage on their first melee weapon attack that turn.\nSpider Climb. Can climb difficult surfaces, including ceilings, without an ability check.\nWeb Walker. Webbing doesn't restrict movement.\nWide Back. Two Small or Tiny riders can share a space on its back. Capacity is 18 Small riders or 72 Tiny riders.": [
+            {
+              "start": 36,
+              "end": 59,
+              "target": {
+                "name": "Swarm of Spiders (MCDM)",
+                "group": "Beast",
+                "publication": "Where Evil Lives",
+                "local": {
+                  "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+                  "version": "965b0d6e5170d01475127bd5"
+                }
+              }
+            },
+            {
+              "start": 239,
+              "end": 248,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 295,
+              "end": 307,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 277,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "PHB:277:https://5e.tools/spells.html#spider%20climb_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee weapon attack +6, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing plus 7 (2d6) poison.\nBladed Leg. Melee weapon attack +6, reach 10 ft., one target. Hit: 11 (2d6 + 4) slashing.\nWeb Spray. Creatures in a 15-ft. cube must pass a DC 14 Dexterity save or be restrained by webs. A creature can spend an action on a DC 14 Strength or Dexterity check to free itself or a creature within reach.\nTrample (recharge 6). Move up to the spider's speed through other creatures' spaces, treating them as difficult terrain. It can make one Bladed Leg attack against each creature whose space it enters. A hit prevents that creature from taking reactions until the start of its next turn.": [
+            {
+              "start": 270,
+              "end": 280,
+              "target": {
+                "name": "Restrained",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+                "local": {
+                  "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

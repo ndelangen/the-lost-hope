@@ -1,0 +1,285 @@
+[
+  {
+    "name": "Draft Horse",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "40 ft.",
+    "printedPage": 26,
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. No listed languages.",
+    "appearance": "A heavy chestnut draft horse with a dark mane and tail and pale feathering around its hooves.",
+    "habitats": [
+      "Hillsfar countryside",
+      "Trade roads"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX3-05 Bane of the Tradeways, September 1, 2015 release, Draft Horse, p. 26. ",
+      "Actions": "Hooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.",
+      "Caravan encounter": "Each wagon has a four-horse team wearing half-plate barding. The hitch and harness skirting gives the horses half cover. The scenario allows the Large horses to run abreast in a 10-ft.-wide space. Their attacks and Dexterity saves during combat there are at disadvantage."
+    }
+  },
+  {
+    "name": "Riding Horse",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "60 ft.",
+    "printedPage": 26,
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. No listed languages.",
+    "appearance": "A lean bay riding horse with a dark mane, dark tail and dark lower legs.",
+    "habitats": [
+      "Hillsfar countryside",
+      "Trade roads"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX3-05 Bane of the Tradeways, September 1, 2015 release, Riding Horse, p. 26. ",
+      "Actions": "Hooves. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) bludgeoning damage.",
+      "Encounter ecology": "The adventure offers one saddled riding horse per character near the ambush. The horses shy away from the fighting and stay nearby."
+    }
+  },
+  {
+    "name": "Cooshee (Mastiff)",
+    "publication": "DDAL04-06 - The Ghost",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "40 ft.",
+    "printedPage": 24,
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "skills": {
+      "Perception": 3
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages.",
+    "appearance": "A broad-chested elven hound with a moss-green coat mottled with irregular dark brown patches and a strong muzzle.",
+    "habitats": [
+      "Forest",
+      "Greenhall"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-06 The Ghost, Version 1.0, 2016, Cooshee (Mastiff), p. 24. ",
+      "Traits": "Keen Hearing and Smell. The cooshee has advantage on Wisdom (Perception) checks that rely on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must pass a DC 11 Strength saving throw or fall prone.",
+      "Encounter ecology": "Long-lived elven hounds have greenish fur mottled with brown, a loud bark and powerful jaws. Derali’s two cooshees track a scent and guard her party."
+    }
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "DDAL04-06 - The Ghost",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft., climb 40 ft.",
+    "printedPage": 26,
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 13,
+    "skills": {
+      "Perception": 3,
+      "Stealth": 7
+    },
+    "otherStatistics": "Perception +3. Stealth +7. Blindsight 10 ft. Darkvision 60 ft. Passive Perception 13. No listed languages.",
+    "appearance": "A low, hairy spider with stout banded legs and a dark-striped brown abdomen.",
+    "habitats": [
+      "Forest",
+      "Ettercap nest"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-06 The Ghost, Version 1.0, 2016, Giant Wolf Spider, p. 26. ",
+      "Traits": "Spider Climb. It can climb difficult surfaces, including ceilings while upside down, without an ability check.\nWeb Sense. When touching a web, the spider knows the exact position of any other creature touching that web.\nWeb Walker. Webbing does not restrict its movement.",
+      "Actions": "Bites. Melee weapon attack, +3 to hit, reach 5 ft., one creature. A hit deals 4 (1d6 + 1) piercing damage. The target makes a DC 11 Constitution saving throw and takes 7 (2d6) poison damage on a failure or half on a success. If the poison drops the target to 0 hit points, it is stable and poisoned for 1 hour even if it regains hit points. It is paralyzed while poisoned this way.",
+      "Encounter ecology": "The adventure uses this spider in place of ettercaps when adjusting the forest nest encounter for a weak party."
+    }
+  },
+  {
+    "name": "Frederick (Mastiff)",
+    "publication": "DDAL04-08 - The Broken One",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "40 ft.",
+    "printedPage": 22,
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "skills": {
+      "Perception": 3
+    },
+    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages.",
+    "appearance": "A hefty tricolor basset hound with short legs, a long body and low-hanging brown ears.",
+    "habitats": [
+      "Orașnou",
+      "Village"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDAL04-08 The Broken One, Version 1.0, 2016, Frederick (Mastiff), p. 22. ",
+      "Traits": "Keen Smell. Frederick has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) piercing damage. A creature hit must pass a DC 11 Strength saving throw or fall prone.",
+      "Encounter ecology": "Frederick is Scartia Krutz’s very large basset hound. He keeps trying to climb into her lap at dinner."
+    }
+  }
+]

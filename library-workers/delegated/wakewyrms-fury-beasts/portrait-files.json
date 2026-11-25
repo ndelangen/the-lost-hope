@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Young Wakewyrm",
+    "file": "",
+    "selection": "generated",
+    "sha256": "3757dcde638316bdafaf29dc734cf69391b5527abe9661974964376a05d65eed",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Wakewyrm",
+    "file": "",
+    "selection": "reuse",
+    "sha256": "509e63f8dd3a4b805f2bffabbd37e97342820abd33ac36010eef08b267aeb20d",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Hunter Shark",
+    "file": "",
+    "selection": "generated",
+    "sha256": "802eb1f7d0780cfdae404f354e0dbc36283458b6260c77027b4eb6e167a26179",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Boar",
+    "file": "",
+    "selection": "generated",
+    "sha256": "3fdc524f15069857edc3ed41479e8fa06b006eb48977fa472493736d1bd81936",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Weasel",
+    "file": "",
+    "selection": "generated",
+    "sha256": "0c864256a181b95441368ceddf28b50d0fd81d371143031e59a2f85424813b46",
+    "width": 1254,
+    "height": 1254
+  }
+]

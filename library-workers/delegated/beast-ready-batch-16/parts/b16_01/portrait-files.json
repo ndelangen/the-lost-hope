@@ -1,0 +1,29 @@
+[
+  {
+    "artGroup": "primal-beast-land",
+    "file": "portraits/primal-beast-land.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "329a28cbf2547515866c413063347fbc44315724de50ed00171459375fc79912",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Gray wolf with muted ochre markings on its face and shoulder."
+  },
+  {
+    "artGroup": "primal-beast-sea",
+    "file": "portraits/primal-beast-sea.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "549b1e7112dc8d87a83e74eb5f58cb760e591b7e38b5cb7097e9d390209b9ab5",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Crocodilian with muted ochre markings on the cheek and shoulder."
+  },
+  {
+    "artGroup": "primal-beast-sky",
+    "file": "portraits/primal-beast-sky.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a78e800e108aa4c1b1892405dc35414c82005e26784294d1208ee3ae7584a8ad",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Broad-winged hawk with subtle primal markings."
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Moose",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 264",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Moose",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Beast",
+      "ac": 13,
+      "hp": 22,
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "otherStatistics": "Perception 13, Stealth 10. No special senses or languages.",
+      "description": "A short-tempered forest browser with broad antlers. Northlanders call it an elg.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +0, Con +2, Int -4, Wis +1, Cha -3",
+        "Traits": "Forest Walker. Advantage on Dexterity (Stealth) checks in forest terrain.",
+        "Actions": "Hooves. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 8 (1d8 + 4) bludgeoning damage. Against a Large or smaller creature, a straight approach of at least 10 ft. immediately before the hit adds 3 (1d6) bludgeoning damage and knocks the target Prone.",
+        "Reactions": "Fury. After taking at least 5 damage, gain advantage on the next attack roll it makes before the end of its next turn.",
+        "Printed source": "Chapter 8, p. 264"
+      }
+    }
+  },
+  {
+    "name": "Reindeer",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 264",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Reindeer",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Beast",
+      "ac": 12,
+      "hp": 15,
+      "speed": "40 ft.",
+      "cr": "1/4",
+      "otherStatistics": "Perception 13, Stealth 13. No special senses or languages.",
+      "description": "Wild herds cross the coldest reaches of the Northlands. Domestic reindeer pull sleds and provide meat and milk.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +3, Con +2, Int -4, Wis +1, Cha -3",
+        "Traits": "Agile. Moving out of an enemy's reach provokes no opportunity attack.\nSnowstrider. The reindeer ignores difficult terrain from snow and ice.",
+        "Actions": "Hooves. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 7 (1d8 + 2) bludgeoning damage.",
+        "Bonus Actions": "Burst of Speed (3/day). Double its speed until the start of its next turn.",
+        "Printed source": "Chapter 8, p. 264"
+      }
+    }
+  },
+  {
+    "name": "Selkie",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 253",
+    "notes": "Northlands Worldbook encounter profile with the existing credited artwork.",
+    "statBlock": {
+      "name": "Selkie",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Fey",
+      "ac": 12,
+      "hp": 82,
+      "speed": "30 ft., swim 30 ft. (seal form 20 ft., swim 50 ft.)",
+      "cr": "3",
+      "otherStatistics": "AC 14 in seal form. Perception 14, Stealth 14. Resists cold. Darkvision 60 ft. Speaks Aquan, Common, and Sylvan.",
+      "description": "A coastal fey who becomes a seal with the help of a skin bound to them alone. A selkie whose skin is stolen may enlist other selkies to recover it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +2, Con +2, Int +0, Wis +2, Cha +3",
+        "Traits": "Fey Resilience. Advantage on saves to avoid or end Charmed or Unconscious.\nHold Breath. It can hold its breath for 30 minutes.\nSpeak with Pinnipeds. It can talk with seals, sea lions, and walruses as though they spoke the same language.",
+        "Actions": "Multiattack. In seal form, make one Bite and two Tail attacks. In Fey form, make three Spear attacks.\nBite (seal form only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) piercing damage.\nSpear (Fey form only). Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nTail (seal form only). Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) bludgeoning damage.",
+        "Bonus Actions": "Change Shape. Magically switch between a Medium seal and its true Fey form. Statistics other than AC, size, and speed carry over, and equipped or carried gear changes with it. A selkie in Fey form must be wearing or carrying its own bound sealskin to use this action. Death restores its Fey form.\nCharming Escape. Dash or Disengage. If it Disengages this way, each creature within 5 ft. makes a DC 13 Wisdom save or becomes Charmed until the end of the selkie's next turn.",
+        "Printed source": "Chapter 8, p. 253"
+      }
+    }
+  },
+  {
+    "name": "Skeljaskra",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 255",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Skeljaskra",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity",
+      "ac": 18,
+      "hp": 66,
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "3",
+      "otherStatistics": "Perception 11, Stealth 8. Immune to Exhaustion. Darkvision 60 ft. No languages.",
+      "description": "A pale, plated scavenger that can eat a small house. Stones and scraps of metal turn up in its droppings.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex -2, Con +6, Int -3, Wis +1, Cha -2",
+        "Traits": "Siege Monster. Deal double damage to objects and structures.",
+        "Actions": "Multiattack. Make two attacks chosen from Rend, Burning Spit, and Tail in any combination.\nRend. Melee weapon attack, +7 to hit, reach 5 ft. Hit 12 (2d6 + 5) slashing damage.\nBurning Spit. Ranged weapon attack, +7 to hit, range 30 ft. Hit 7 (1d6 + 4) poison damage, and the target is Blinded and Poisoned until the start of the skeljaskra's next turn.\nTail. Melee weapon attack, +7 to hit, reach 5 ft. Hit 9 (1d8 + 5) piercing damage and push the target 5 ft.",
+        "Reactions": "Armored Ball. After taking at least 10 bludgeoning, piercing, or slashing damage from one source, roll up until the start of its next turn. While rolled up, it resists those three damage types and is Incapacitated.",
+        "Printed source": "Chapter 8, p. 255"
+      }
+    }
+  },
+  {
+    "name": "Skeljaskra, Dread",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 255–256",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Skeljaskra, Dread",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Gargantuan Monstrosity",
+      "ac": 18,
+      "hp": 186,
+      "speed": "20 ft., climb 15 ft.",
+      "cr": "10",
+      "otherStatistics": "Perception 11, Stealth 8. Immune to Exhaustion. Darkvision 60 ft. No languages.",
+      "description": "Rare skeljaskras grow for years while sleeping in places steeped in magic. A full-grown one can flatten a settlement.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +6, Dex -2, Con +9, Int -3, Wis +1, Cha -2",
+        "Traits": "Siege Monster. Deal double damage to objects and structures.",
+        "Actions": "Multiattack. Make two attacks chosen from Rend, Burning Spit, and Spiked Tail in any combination.\nRend. Melee weapon attack, +10 to hit, reach 10 ft. Hit 33 (6d8 + 6) slashing damage.\nBurning Spit. Ranged weapon attack, +10 to hit, range 90 ft. Hit 20 (4d6 + 6) poison plus 10 (3d6) fire damage, and the target is Blinded and Poisoned until the start of the skeljaskra's next turn.\nSpiked Tail. Melee weapon attack, +10 to hit, reach 15 ft. Hit 33 (5d10 + 6) piercing damage and push the target 20 ft.\nCrushing Roll (Recharge 5–6). If it begins its turn in Armored Ball form, it can roll along a line 15 ft. wide and up to 60 ft. long. Each creature in that line must pass a DC 16 Dexterity save or take 32 (5d12) bludgeoning damage and fall Prone.",
+        "Reactions": "Armored Ball. After taking at least 30 damage, it can roll up until the start of its next turn. While rolled up, it is immune to bludgeoning, piercing, and slashing damage and is Incapacitated.",
+        "Printed source": "Chapter 8, pp. 255–256"
+      }
+    }
+  },
+  {
+    "name": "Troll, Fjord",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 257",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Troll, Fjord",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Giant",
+      "ac": 15,
+      "hp": 85,
+      "speed": "30 ft., swim 30 ft.",
+      "cr": "5",
+      "otherStatistics": "Perception 15, Stealth 12. Resists cold and poison. Darkvision 60 ft. Speaks Giant.",
+      "description": "Webbed hands let this troll paddle its own fishing canoe. Its hooked claws carry a paralytic toxin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +4, Int -1, Wis -1, Cha -2",
+        "Traits": "Hold Breath. It can hold its breath for 30 minutes.\nRegeneration. Recover 15 HP at the start of each turn. Acid or fire damage suppresses recovery on the next turn. It dies only if it starts a turn with 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make two Gouge attacks.\nGouge. Melee weapon attack, +6 to hit, reach 10 ft. Hit 7 (1d8 + 3) slashing plus 7 (2d6) poison damage. A creature must pass a DC 15 Constitution save or become Paralyzed until the end of its next turn.\nWater Stream. Each creature in a line 30 ft. long and 5 ft. wide makes a DC 14 Dexterity save. Failure deals 22 (4d10) cold damage and pushes a Huge or smaller target up to 10 ft. away. Success halves the damage and prevents the push.",
+        "Bonus Actions": "Aquatic Charge. Swim up to half its swim speed.",
+        "Printed source": "Chapter 8, p. 257"
+      }
+    }
+  },
+  {
+    "name": "Troll, Gilitrutt",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 258",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Troll, Gilitrutt",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Giant",
+      "ac": 15,
+      "hp": 58,
+      "speed": "30 ft. (hound form 40 ft.)",
+      "cr": "3",
+      "otherStatistics": "Perception 13, Stealth 12. Darkvision 60 ft. Speaks Giant.",
+      "description": "A small troll that can take the shape of a giant hound. It hunts beside other trolls and guards them with fierce loyalty.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +3, Dex +2, Con +5, Int -2, Wis +1, Cha -2",
+        "Traits": "Regeneration. Recover 10 HP at the start of each turn. Acid or fire damage suppresses recovery on the next turn. It dies only if it starts a turn with 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make two Bite attacks in hound form or three Claw attacks in troll form.\nBite (hound form only). Melee weapon attack, +5 to hit, reach 5 ft. Hit 10 (2d6 + 3) piercing damage. A Large or smaller creature also falls Prone.\nClaw (troll form only). Melee weapon attack, +5 to hit, reach 5 ft. Hit 7 (1d8 + 3) slashing damage.",
+        "Bonus Actions": "Shape-Shift. Become a Large hound with a speed of 40 ft. or return to troll form. The troll keeps its other statistics except for its form-specific attacks. Its worn and carried gear does not transform.",
+        "Printed source": "Chapter 8, p. 258"
+      }
+    }
+  },
+  {
+    "name": "Troll, Glacial",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 258–259",
+    "notes": "The Hoary Breath average and dice are both retained as printed, although they differ.",
+    "statBlock": {
+      "name": "Troll, Glacial",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Giant",
+      "ac": 18,
+      "hp": 126,
+      "speed": "40 ft.",
+      "cr": "6",
+      "otherStatistics": "Perception 16, Stealth 11. Vulnerable to fire. Immune to cold. Darkvision 60 ft. Speaks Giant.",
+      "description": "Blue ice plates grow over its back and claws. It feeds on prey frozen in glacial ice, and frost giants sometimes hire it as a guard.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +5, Dex +1, Con +5, Int -2, Wis +0, Cha -2",
+        "Traits": "Frigid Aura. Nonmagical fire within 15 ft. goes out. When an ongoing magical flame overlaps the aura, its caster must pass a DC 16 Constitution save or the spell ends. Success protects that casting against further saves from the aura.\nIcy Carapace. A creature within 5 ft. takes 4 (1d8) cold damage when it hits the troll with a melee attack.\nRegeneration. Recover 15 HP at the start of each turn. Acid or fire damage suppresses recovery on the next turn. It dies only if it starts a turn with 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make three Ice Rend attacks. Replace one with Hoary Breath if available.\nIce Rend. Melee weapon attack, +8 to hit, reach 10 ft. Hit 14 (2d8 + 5) slashing plus 4 (1d8) cold damage.\nHoary Breath (Recharge 5–6). Choose one target within 5 ft. On a failed DC 16 Dexterity save, the target takes 14 (3d6) cold damage as printed and is Restrained by ice for 1 minute. At the end of each of its turns, it can attempt a DC 16 Strength save to break free and end the condition.",
+        "Printed source": "Chapter 8, pp. 258–259"
+      }
+    }
+  },
+  {
+    "name": "Troll, Wind",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 259–260",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Troll, Wind",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Small Giant",
+      "ac": 16,
+      "hp": 105,
+      "speed": "30 ft., fly 45 ft. (hover)",
+      "cr": "6",
+      "otherStatistics": "Perception 14, Stealth 14. Resists cold. Immune to lightning, thunder, Deafened, and Exhaustion. Darkvision 60 ft. Speaks Giant and Primordial (Auran).",
+      "description": "A blue-haired trickster that takes to the air to dance in hard storms. Northlanders connect the first wind trolls with Thor and Loki.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +2, Dex +4, Con +7, Int +0, Wis +1, Cha +3",
+        "Traits": "Regeneration. Recover 15 HP at the start of each turn. Acid or fire damage suppresses recovery on the next turn. It dies only if it starts a turn with 0 HP and fails to regenerate.\nStorm Absorption. When subjected to lightning or thunder damage, recover HP equal to that damage.",
+        "Actions": "Multiattack. Make three attacks using Rend, Storm Strike, or any combination.\nRend. Melee weapon attack, +7 to hit, reach 5 ft. Hit 11 (2d6 + 4) slashing damage.\nStorm Strike. Ranged spell attack, +7 to hit, range 60 ft. Hit 8 (1d8 + 4) lightning plus 4 (1d8) thunder damage, and a Medium or smaller creature falls Prone.\nWindstorm (Recharge 5–6). Each creature within the 20-ft. radius makes a DC 15 Strength save. Failure deals 9 (2d8) bludgeoning plus 9 (2d8) thunder damage and pushes the target up to 10 ft. away from the troll. Success halves the damage and prevents the push.\nSpellcasting. Charisma, spell save DC 14. No material components. At will: Fog Cloud. 2/day: Gust of Wind. 1/day: Wind Wall.",
+        "Bonus Actions": "Flying Charge. Fly up to half its fly speed.",
+        "Printed source": "Chapter 8, pp. 259–260"
+      }
+    }
+  },
+  {
+    "name": "Trollkin Raider",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 269–270",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Trollkin Raider",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 14,
+      "hp": 39,
+      "speed": "30 ft.",
+      "cr": "1",
+      "otherStatistics": "Perception 11, Stealth 11. No special senses. Speaks Common.",
+      "description": "A longship raider or hired reaver who trades between bow and spear as the fight closes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +0, Con +3, Int -3, Wis +1, Cha -2",
+        "Traits": "Regeneration. Recover 5 HP at the start of each turn. Acid or fire damage suppresses recovery on the next turn. It dies only if it starts a turn with 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make two attacks with Spear or Longbow in any combination.\nSpear. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft. Hit 6 (1d6 + 3) piercing damage.\nLongbow. Ranged weapon attack, +3 to hit, range 150/600 ft. Hit 5 (1d8 + 1) piercing damage.",
+        "Bonus Actions": "Aim. Gain advantage on its next ranged attack roll this turn.",
+        "Printed source": "Chapter 8, pp. 269–270"
+      }
+    }
+  },
+  {
+    "name": "Trollkin, Berserker",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 269",
+    "notes": "The Northlands Worldbook supplies a standalone Black Flag stat block.",
+    "statBlock": {
+      "name": "Trollkin, Berserker",
+      "publication": "Northlands Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Humanoid",
+      "ac": 16,
+      "hp": 136,
+      "speed": "30 ft.",
+      "cr": "8",
+      "otherStatistics": "Perception 14, Stealth 12. Immune to Charmed and Frightened. Darkvision 60 ft. Speaks Common and Giant.",
+      "description": "Trollkin rites give this front-line fighter a reserve of fury that shows when it is badly wounded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Ability modifiers": "Str +4, Dex +2, Con +7, Int +0, Wis +1, Cha +0",
+        "Traits": "Bloodied Frenzy. At or below half its maximum HP, it has advantage on attack rolls and saves.\nRegeneration. Recover 5 HP at the start of each turn. Acid or fire damage suppresses recovery on the next turn. It dies only if it starts a turn with 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make four attacks with Freezing Bryntroll or Freezing Handaxe in any combination.\nFreezing Bryntroll. Melee weapon attack, +7 to hit, reach 10 ft. Hit 10 (1d12 + 4) slashing plus 4 (1d8) cold damage. Once per round after a hit, make another attack roll with the bryntroll against a second creature within 5 ft. of the first and within reach. That hit deals 13 (2d12) slashing damage.\nFreezing Handaxe. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft. Hit 7 (1d6 + 4) slashing plus 4 (1d8) cold damage.",
+        "Printed source": "Chapter 8, p. 269"
+      }
+    }
+  }
+]

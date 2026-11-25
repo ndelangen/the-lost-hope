@@ -1,0 +1,437 @@
+[
+  {
+    "name": "Abjurer",
+    "statBlock": {
+      "name": "Abjurer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Medium humanoid (any ancestry), any alignment",
+      "ac": 12,
+      "hp": 84,
+      "hitDice": "13d8 + 26",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "A wizard who wards allies and strongholds against magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 8,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 8,
+        "History": 8
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Languages": "Any four languages.",
+        "Traits": "Arcane Ward. A magical ward with 30 hit points absorbs damage in the abjurer’s place. When the ward drops to 0 hit points, the abjurer takes the excess. Casting an abjuration spell of 1st level or higher restores hit points to the ward equal to twice the spell’s level.",
+        "Actions": "Quarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) when the abjurer uses two hands.",
+        "Spellcasting": "The abjurer casts as a 13th-level Intelligence-based wizard (spell save DC 16, +8 to hit with spell attacks).\nCantrips (at will). Blade Ward, Dancing Lights, Mending, Message, Ray of Frost.\nLevel 1 (4 slots). Alarm (abjuration), Mage Armor (abjuration), Magic Missile, Shield (abjuration).\nLevel 2 (3 slots). Arcane Lock (abjuration), Invisibility.\nLevel 3 (3 slots). Counterspell (abjuration), Dispel Magic (abjuration), Fireball.\nLevel 4 (3 slots). Banishment (abjuration), Stoneskin (abjuration).\nLevel 5 (2 slots). Cone of Cold, Wall of Force.\nLevel 6 (1 slot). Flesh to Stone, Globe of Invulnerability (abjuration).\nLevel 7 (1 slot). Symbol (abjuration), Teleport.",
+        "Printed source": "Volo's Guide to Monsters, p. 209."
+      }
+    }
+  },
+  {
+    "name": "Alhoon",
+    "statBlock": {
+      "name": "Alhoon",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 172,
+      "classification": "Medium undead, any evil alignment",
+      "ac": 15,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 17,
+      "description": "Exiled mind flayer arcanists use a periapt of mind trapping to gain a precarious form of undeath.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Int": 8,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 8,
+        "Deception": 7,
+        "History": 8,
+        "Insight": 7,
+        "Perception": 7,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Deep Speech, Undercommon, and telepathy 120 ft.",
+        "Damage resistances": "Cold, lightning, necrotic.",
+        "Damage immunities": "Poison. Immune to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Traits": "Magic Resistance. The alhoon has advantage on saves against spells and other magical effects.\nTurn Resistance. The alhoon has advantage on saves against effects that turn Undead.",
+        "Actions": "Chilling Grasp. Melee spell attack, +8 to hit, reach 5 ft., one target. A hit deals 10 (3d6) cold damage.\nMind Blast (Recharge 5–6). Each creature in a 60-ft. cone makes a DC 16 Intelligence save against a magical blast. On a failure it takes 22 (4d8 + 4) psychic damage and is stunned for 1 minute. It repeats the save at the end of each of its turns, ending the stun on a success.",
+        "Innate Spellcasting (Psionics)": "Intelligence is the spellcasting ability (spell save DC 16). These spells require no components.\nAt will. Detect Thoughts, Levitate.\n1/day each. Dominate Monster, Plane Shift (self only).",
+        "Spellcasting": "The alhoon casts as a 12th-level Intelligence-based wizard (spell save DC 16, +8 to hit with spell attacks).\nCantrips (at will). Chill Touch, Dancing Lights, Mage Hand, Prestidigitation, Shocking Grasp.\nLevel 1 (4 slots). Detect Magic, Disguise Self, Magic Missile, Shield.\nLevel 2 (3 slots). Invisibility, Mirror Image, Scorching Ray.\nLevel 3 (3 slots). Counterspell, Fly, Lightning Bolt.\nLevel 4 (3 slots). Confusion, Evard's Black Tentacles, Phantasmal Killer.\nLevel 5 (2 slots). Modify Memory, Wall of Force.\nLevel 6 (1 slot). Disintegrate, Globe of Invulnerability.",
+        "Periapt of mind trapping mechanics": "At least three mind flayer arcanists spend three days making a fist-sized vessel of silver, emerald, and amethyst. The rite sacrifices one living soul per arcanist. Each arcanist gains undeath for the time its victim would have lived and can renew it with another rite. If an alhoon is destroyed, its mind joins the trapped souls in the periapt. Destroying the periapt destroys every mind and soul inside it. Its holder has advantage on attacks, saves, and checks against associated alhoons. Those alhoons have disadvantage on attacks, saves, and checks against the holder. The holder can speak telepathically with the trapped victims and silence them. Trapped alhoons can speak to the holder telepathically without permission.",
+        "Printed source": "Volo's Guide to Monsters, p. 172."
+      }
+    }
+  },
+  {
+    "name": "Annis Hag",
+    "statBlock": {
+      "name": "Annis Hag",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Large fey, chaotic evil",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "This hulking hag inhabits hills and mountains. She spreads fear among nearby settlements and sometimes takes command of ogres or trolls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, and Sylvan.",
+        "Damage resistances": "Cold. The hag also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) slashing damage.\nCrushing Hug. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 36 (9d6 + 5) bludgeoning damage. A Large or smaller creature is also grappled (escape DC 15) and takes another 36 (9d6 + 5) bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (spell save DC 13).\n3/day each. Disguise Self (can take the form of a Medium humanoid), Fog Cloud.",
+        "Iron token mechanics": "The hag pulls out one of her iron teeth or nails and takes 1 minute to shape it into a coin, ring, or tiny mirror. She and its holder can whisper to each other while on the same plane and within 10 miles. They hear only each other’s voice through the token. She can have up to three active tokens. As an action she can sense the direction and approximate distance of each one. She can deactivate one at any distance without an action, leaving an ordinary object.",
+        "Lair actions": "Optional for a powerful hag. Grandmothers usually have three to five lair actions, and powerful aunties usually have at most one. Use one on initiative count 20, losing ties, and avoid repeating the same effect two rounds in a row. A required save uses the hag’s highest save DC unless the option specifies a different one.\nPass Through Surfaces. The hag can move through solid doors, walls, floors, and ceilings until initiative count 20 of the next round.\nDoors and Windows. The hag opens or closes as many doors and windows as she can see. She can magically lock a closed opening until she unlocks it or opens it with this action. A creature can force it open with a DC 20 Strength check.\nCaustic Smoke. Fill a 20-ft.-radius sphere centered on a visible point within 120 ft. with black smoke until initiative count 20 of the next round. The smoke heavily obscures creatures and objects in or behind it. A creature takes 10 (3d6) acid damage if it enters the smoke for the first time on a turn or starts its turn there.",
+        "Regional effects": "Choose effects to suit the hag’s power. A lair usually has three to five. A grandmother’s, auntie’s, or coven’s lair has more dangerous effects than a lone hag’s. Use the hag’s highest save DC for an effect that calls for a save. When the hag dies or abandons her lair, an effect ends immediately or fades over up to 2d10 days.\nGeneric grandmother effects within 1 mile. Small animals grow unusually abundant. Beasts with Intelligence 2 or lower are charmed and sicced on intruders. Figurines, dolls, and twig charms appear in trees.\nAdditional Annis Hag effects within 1 mile. Gravel can turn into caltrops along 100-ft. stretches. Rockslides can block trails or bury intruders, who are restrained and must hold their breath until freed. Laughter sometimes carries from nowhere. Cairns may hold old bones, lie empty, or draw skeletons, specters, or hostile Fey.",
+        "Coven mechanics": "An annis hag in a three-hag coven is CR 8 (3,900 XP). Use a Coven profile for its shared spellcasting and Hag Eye rules.",
+        "Printed source": "Volo's Guide to Monsters, p. 159."
+      }
+    }
+  },
+  {
+    "name": "Annis Hag (Coven)",
+    "statBlock": {
+      "name": "Annis Hag (Coven)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Large fey, chaotic evil",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "This hulking hag inhabits hills and mountains. She spreads fear among nearby settlements and sometimes takes command of ogres or trolls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, and Sylvan.",
+        "Damage resistances": "Cold. The hag also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) slashing damage.\nCrushing Hug. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 36 (9d6 + 5) bludgeoning damage. A Large or smaller creature is also grappled (escape DC 15) and takes another 36 (9d6 + 5) bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (spell save DC 13).\n3/day each. Disguise Self (can take the form of a Medium humanoid), Fog Cloud.",
+        "Iron token mechanics": "The hag pulls out one of her iron teeth or nails and takes 1 minute to shape it into a coin, ring, or tiny mirror. She and its holder can whisper to each other while on the same plane and within 10 miles. They hear only each other’s voice through the token. She can have up to three active tokens. As an action she can sense the direction and approximate distance of each one. She can deactivate one at any distance without an action, leaving an ordinary object.",
+        "Lair actions": "Optional for a powerful hag. Grandmothers usually have three to five lair actions, and powerful aunties usually have at most one. Use one on initiative count 20, losing ties, and avoid repeating the same effect two rounds in a row. A required save uses the hag’s highest save DC unless the option specifies a different one.\nPass Through Surfaces. The hag can move through solid doors, walls, floors, and ceilings until initiative count 20 of the next round.\nDoors and Windows. The hag opens or closes as many doors and windows as she can see. She can magically lock a closed opening until she unlocks it or opens it with this action. A creature can force it open with a DC 20 Strength check.\nCaustic Smoke. Fill a 20-ft.-radius sphere centered on a visible point within 120 ft. with black smoke until initiative count 20 of the next round. The smoke heavily obscures creatures and objects in or behind it. A creature takes 10 (3d6) acid damage if it enters the smoke for the first time on a turn or starts its turn there.",
+        "Regional effects": "Choose effects to suit the hag’s power. A lair usually has three to five. A grandmother’s, auntie’s, or coven’s lair has more dangerous effects than a lone hag’s. Use the hag’s highest save DC for an effect that calls for a save. When the hag dies or abandons her lair, an effect ends immediately or fades over up to 2d10 days.\nGeneric grandmother effects within 1 mile. Small animals grow unusually abundant. Beasts with Intelligence 2 or lower are charmed and sicced on intruders. Figurines, dolls, and twig charms appear in trees.\nAdditional Annis Hag effects within 1 mile. Gravel can turn into caltrops along 100-ft. stretches. Rockslides can block trails or bury intruders, who are restrained and must hold their breath until freed. Laughter sometimes carries from nowhere. Cairns may hold old bones, lie empty, or draw skeletons, specters, or hostile Fey.",
+        "Shared Spellcasting": "All three hags must be within 30 ft. of one another. Each casts as a 12th-level Intelligence-based spellcaster (spell save DC 13, +5 to hit with spell attacks). The three hags spend slots from one shared pool. Innate Spellcasting uses its own daily limits.\nLevel 1 (4 slots). Identify, Ray of Sickness.\nLevel 2 (3 slots). Hold Person, Locate Object.\nLevel 3 (3 slots). Bestow Curse, Counterspell, Lightning Bolt.\nLevel 4 (3 slots). Phantasmal Killer, Polymorph.\nLevel 5 (2 slots). Contact Other Plane, Scrying.\nLevel 6 (1 slot). Eyebite.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.",
+        "Printed source": "Volo's Guide to Monsters, p. 159."
+      }
+    }
+  },
+  {
+    "name": "Annis Hag (Coven; Death)",
+    "statBlock": {
+      "name": "Annis Hag (Coven; Death)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Large fey, chaotic evil",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "This hulking hag inhabits hills and mountains. She spreads fear among nearby settlements and sometimes takes command of ogres or trolls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, and Sylvan.",
+        "Damage resistances": "Cold. The hag also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) slashing damage.\nCrushing Hug. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 36 (9d6 + 5) bludgeoning damage. A Large or smaller creature is also grappled (escape DC 15) and takes another 36 (9d6 + 5) bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (spell save DC 13).\n3/day each. Disguise Self (can take the form of a Medium humanoid), Fog Cloud.",
+        "Iron token mechanics": "The hag pulls out one of her iron teeth or nails and takes 1 minute to shape it into a coin, ring, or tiny mirror. She and its holder can whisper to each other while on the same plane and within 10 miles. They hear only each other’s voice through the token. She can have up to three active tokens. As an action she can sense the direction and approximate distance of each one. She can deactivate one at any distance without an action, leaving an ordinary object.",
+        "Lair actions": "Optional for a powerful hag. Grandmothers usually have three to five lair actions, and powerful aunties usually have at most one. Use one on initiative count 20, losing ties, and avoid repeating the same effect two rounds in a row. A required save uses the hag’s highest save DC unless the option specifies a different one.\nPass Through Surfaces. The hag can move through solid doors, walls, floors, and ceilings until initiative count 20 of the next round.\nDoors and Windows. The hag opens or closes as many doors and windows as she can see. She can magically lock a closed opening until she unlocks it or opens it with this action. A creature can force it open with a DC 20 Strength check.\nCaustic Smoke. Fill a 20-ft.-radius sphere centered on a visible point within 120 ft. with black smoke until initiative count 20 of the next round. The smoke heavily obscures creatures and objects in or behind it. A creature takes 10 (3d6) acid damage if it enters the smoke for the first time on a turn or starts its turn there.",
+        "Regional effects": "Choose effects to suit the hag’s power. A lair usually has three to five. A grandmother’s, auntie’s, or coven’s lair has more dangerous effects than a lone hag’s. Use the hag’s highest save DC for an effect that calls for a save. When the hag dies or abandons her lair, an effect ends immediately or fades over up to 2d10 days.\nGeneric grandmother effects within 1 mile. Small animals grow unusually abundant. Beasts with Intelligence 2 or lower are charmed and sicced on intruders. Figurines, dolls, and twig charms appear in trees.\nAdditional Annis Hag effects within 1 mile. Gravel can turn into caltrops along 100-ft. stretches. Rockslides can block trails or bury intruders, who are restrained and must hold their breath until freed. Laughter sometimes carries from nowhere. Cairns may hold old bones, lie empty, or draw skeletons, specters, or hostile Fey.",
+        "Shared Spellcasting": "All three hags must be within 30 ft. of one another. Each casts as a 12th-level Intelligence-based spellcaster (spell save DC 13, +5 to hit with spell attacks). The three hags spend slots from one shared pool. Innate Spellcasting uses its own daily limits.\nLevel 1 (4 slots). False Life, Inflict Wounds.\nLevel 2 (3 slots). Gentle Repose, Ray of Enfeeblement.\nLevel 3 (3 slots). Animate Dead, Revivify, Speak with Dead.\nLevel 4 (3 slots). Blight, Death Ward.\nLevel 5 (2 slots). Contagion, Raise Dead.\nLevel 6 (1 slot). Circle of Death.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.",
+        "Printed source": "Volo's Guide to Monsters, p. 159."
+      }
+    }
+  },
+  {
+    "name": "Annis Hag (Coven; Nature)",
+    "statBlock": {
+      "name": "Annis Hag (Coven; Nature)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Large fey, chaotic evil",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "This hulking hag inhabits hills and mountains. She spreads fear among nearby settlements and sometimes takes command of ogres or trolls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, and Sylvan.",
+        "Damage resistances": "Cold. The hag also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) slashing damage.\nCrushing Hug. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 36 (9d6 + 5) bludgeoning damage. A Large or smaller creature is also grappled (escape DC 15) and takes another 36 (9d6 + 5) bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (spell save DC 13).\n3/day each. Disguise Self (can take the form of a Medium humanoid), Fog Cloud.",
+        "Iron token mechanics": "The hag pulls out one of her iron teeth or nails and takes 1 minute to shape it into a coin, ring, or tiny mirror. She and its holder can whisper to each other while on the same plane and within 10 miles. They hear only each other’s voice through the token. She can have up to three active tokens. As an action she can sense the direction and approximate distance of each one. She can deactivate one at any distance without an action, leaving an ordinary object.",
+        "Lair actions": "Optional for a powerful hag. Grandmothers usually have three to five lair actions, and powerful aunties usually have at most one. Use one on initiative count 20, losing ties, and avoid repeating the same effect two rounds in a row. A required save uses the hag’s highest save DC unless the option specifies a different one.\nPass Through Surfaces. The hag can move through solid doors, walls, floors, and ceilings until initiative count 20 of the next round.\nDoors and Windows. The hag opens or closes as many doors and windows as she can see. She can magically lock a closed opening until she unlocks it or opens it with this action. A creature can force it open with a DC 20 Strength check.\nCaustic Smoke. Fill a 20-ft.-radius sphere centered on a visible point within 120 ft. with black smoke until initiative count 20 of the next round. The smoke heavily obscures creatures and objects in or behind it. A creature takes 10 (3d6) acid damage if it enters the smoke for the first time on a turn or starts its turn there.",
+        "Regional effects": "Choose effects to suit the hag’s power. A lair usually has three to five. A grandmother’s, auntie’s, or coven’s lair has more dangerous effects than a lone hag’s. Use the hag’s highest save DC for an effect that calls for a save. When the hag dies or abandons her lair, an effect ends immediately or fades over up to 2d10 days.\nGeneric grandmother effects within 1 mile. Small animals grow unusually abundant. Beasts with Intelligence 2 or lower are charmed and sicced on intruders. Figurines, dolls, and twig charms appear in trees.\nAdditional Annis Hag effects within 1 mile. Gravel can turn into caltrops along 100-ft. stretches. Rockslides can block trails or bury intruders, who are restrained and must hold their breath until freed. Laughter sometimes carries from nowhere. Cairns may hold old bones, lie empty, or draw skeletons, specters, or hostile Fey.",
+        "Shared Spellcasting": "All three hags must be within 30 ft. of one another. Each casts as a 12th-level Intelligence-based spellcaster (spell save DC 13, +5 to hit with spell attacks). The three hags spend slots from one shared pool. Innate Spellcasting uses its own daily limits.\nLevel 1 (4 slots). Entangle, Speak with Animals.\nLevel 2 (3 slots). Flaming Sphere, Moonbeam, Spike Growth.\nLevel 3 (3 slots). Call Lightning, Plant Growth.\nLevel 4 (3 slots). Dominate Beast, Grasping Vine.\nLevel 5 (2 slots). Insect Plague, Tree Stride.\nLevel 6 (1 slot). Wall of Thorns.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.",
+        "Printed source": "Volo's Guide to Monsters, p. 159."
+      }
+    }
+  },
+  {
+    "name": "Annis Hag (Coven; Prophecy)",
+    "statBlock": {
+      "name": "Annis Hag (Coven; Prophecy)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 159,
+      "classification": "Large fey, chaotic evil",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d10 + 20",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "This hulking hag inhabits hills and mountains. She spreads fear among nearby settlements and sometimes takes command of ogres or trolls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, and Sylvan.",
+        "Damage resistances": "Cold. The hag also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) piercing damage.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 15 (3d6 + 5) slashing damage.\nCrushing Hug. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 36 (9d6 + 5) bludgeoning damage. A Large or smaller creature is also grappled (escape DC 15) and takes another 36 (9d6 + 5) bludgeoning damage at the start of each of the hag’s turns until the grapple ends. The hag cannot make attacks while she grapples it this way.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (spell save DC 13).\n3/day each. Disguise Self (can take the form of a Medium humanoid), Fog Cloud.",
+        "Iron token mechanics": "The hag pulls out one of her iron teeth or nails and takes 1 minute to shape it into a coin, ring, or tiny mirror. She and its holder can whisper to each other while on the same plane and within 10 miles. They hear only each other’s voice through the token. She can have up to three active tokens. As an action she can sense the direction and approximate distance of each one. She can deactivate one at any distance without an action, leaving an ordinary object.",
+        "Lair actions": "Optional for a powerful hag. Grandmothers usually have three to five lair actions, and powerful aunties usually have at most one. Use one on initiative count 20, losing ties, and avoid repeating the same effect two rounds in a row. A required save uses the hag’s highest save DC unless the option specifies a different one.\nPass Through Surfaces. The hag can move through solid doors, walls, floors, and ceilings until initiative count 20 of the next round.\nDoors and Windows. The hag opens or closes as many doors and windows as she can see. She can magically lock a closed opening until she unlocks it or opens it with this action. A creature can force it open with a DC 20 Strength check.\nCaustic Smoke. Fill a 20-ft.-radius sphere centered on a visible point within 120 ft. with black smoke until initiative count 20 of the next round. The smoke heavily obscures creatures and objects in or behind it. A creature takes 10 (3d6) acid damage if it enters the smoke for the first time on a turn or starts its turn there.",
+        "Regional effects": "Choose effects to suit the hag’s power. A lair usually has three to five. A grandmother’s, auntie’s, or coven’s lair has more dangerous effects than a lone hag’s. Use the hag’s highest save DC for an effect that calls for a save. When the hag dies or abandons her lair, an effect ends immediately or fades over up to 2d10 days.\nGeneric grandmother effects within 1 mile. Small animals grow unusually abundant. Beasts with Intelligence 2 or lower are charmed and sicced on intruders. Figurines, dolls, and twig charms appear in trees.\nAdditional Annis Hag effects within 1 mile. Gravel can turn into caltrops along 100-ft. stretches. Rockslides can block trails or bury intruders, who are restrained and must hold their breath until freed. Laughter sometimes carries from nowhere. Cairns may hold old bones, lie empty, or draw skeletons, specters, or hostile Fey.",
+        "Shared Spellcasting": "All three hags must be within 30 ft. of one another. Each casts as a 12th-level Intelligence-based spellcaster (spell save DC 13, +5 to hit with spell attacks). The three hags spend slots from one shared pool. Innate Spellcasting uses its own daily limits.\nLevel 1 (4 slots). Bane, Bless.\nLevel 2 (3 slots). Augury, Detect Thoughts.\nLevel 3 (3 slots). Clairvoyance, Dispel Magic, Nondetection.\nLevel 4 (3 slots). Arcane Eye, Locate Creature.\nLevel 5 (2 slots). Geas, Legend Lore.\nLevel 6 (1 slot). True Seeing.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. A hag can spend an action to see through it while on the same plane. The eye has AC 10, 1 HP, and darkvision 60 ft. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours. All three hags must perform the 1-hour crafting ritual together and none of them can be blinded. Taking an unrelated action during it forces them to restart.",
+        "Printed source": "Volo's Guide to Monsters, p. 159."
+      }
+    }
+  }
+]

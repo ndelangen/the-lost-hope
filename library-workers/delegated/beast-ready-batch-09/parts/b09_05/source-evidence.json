@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Elephant",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2025 release of the Monster Manual for the 2024 rules",
+    "printedPages": [
+      353
+    ],
+    "sourceByline": "Monster Manual, pg. 353",
+    "url": "https://www.dndbeyond.com/monsters/4775814-elephant",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdf": "",
+    "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+    "appearanceSource": "Editorial description of the selected reused portrait.",
+    "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+  },
+  {
+    "name": "Elk",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2025 release of the Monster Manual for the 2024 rules",
+    "printedPages": [
+      353
+    ],
+    "sourceByline": "Monster Manual, pg. 353",
+    "url": "https://www.dndbeyond.com/monsters/4775815-elk",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdf": "",
+    "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+    "appearanceSource": "Editorial description of the selected reused portrait.",
+    "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+  },
+  {
+    "name": "Frog",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2025 release of the Monster Manual for the 2024 rules",
+    "printedPages": [
+      354
+    ],
+    "sourceByline": "Monster Manual, pg. 354",
+    "url": "https://www.dndbeyond.com/monsters/4775816-frog",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdf": "",
+    "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+    "appearanceSource": "Editorial description of the selected reused portrait.",
+    "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+  },
+  {
+    "name": "Giant Ape",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2025 release of the Monster Manual for the 2024 rules",
+    "printedPages": [
+      354
+    ],
+    "sourceByline": "Monster Manual, pg. 354",
+    "url": "https://www.dndbeyond.com/monsters/5195010-giant-ape",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdf": "",
+    "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+    "appearanceSource": "Editorial description of the selected reused portrait.",
+    "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing.",
+    "supportingRulesUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster"
+  },
+  {
+    "name": "Giant Badger",
+    "kind": "beast",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2025 release of the Monster Manual for the 2024 rules",
+    "printedPages": [
+      354
+    ],
+    "sourceByline": "Monster Manual, pg. 354",
+    "url": "https://www.dndbeyond.com/monsters/4775817-giant-badger",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdf": "",
+    "verification": "Read the publisher’s modern stat block and its Monster Manual page byline. Both official errata versions were checked. Neither lists a correction for this creature.",
+    "appearanceSource": "Editorial description of the selected reused portrait.",
+    "habitatSource": "Habitat field in the publisher’s modern Monster Manual listing."
+  }
+]

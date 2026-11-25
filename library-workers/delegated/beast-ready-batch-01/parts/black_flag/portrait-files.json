@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Plesiosaurus",
+    "artGroup": "reuse:plesiosaurus",
+    "file": "images/monsters/plesiosaurus/parchment-portrait.webp",
+    "sha256": "c1ccf37963e1f9ea88fa45b872eb1c9d5874a3d184a98ad52f88b86a4df356a5",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "reused": true,
+    "existingEntry": "monster-8cd2c129eb50bc4a0ec508ec"
+  },
+  {
+    "name": "Triceratops",
+    "artGroup": "reuse:triceratops",
+    "file": "images/monsters/triceratops/parchment-portrait.webp",
+    "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "reused": true,
+    "existingEntry": "monster-ff2f0b10db1668f2d68d6e40"
+  },
+  {
+    "name": "Tyrannosaurus Rex",
+    "artGroup": "reuse:tyrannosaurus-rex",
+    "file": "images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+    "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "reused": true,
+    "existingEntry": "monster-7fad5f6e7b3d703576e966a6"
+  },
+  {
+    "name": "Velociraptor",
+    "artGroup": "velociraptor",
+    "file": "portraits/velociraptor.png",
+    "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Stirge",
+    "artGroup": "stirge",
+    "file": "portraits/stirge.png",
+    "sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

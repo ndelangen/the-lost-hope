@@ -1,0 +1,441 @@
+[
+  {
+    "name": "Beast of the Land",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Ranger, Beast Master, Primal Companion",
+    "printedPages": [
+      122,
+      123
+    ],
+    "viewerPages": [
+      123,
+      124
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=124",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 122,
+        "viewerPage": 123,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/6a43a317de23d7824c371f90f2138e2b.webp",
+        "sha256": "31fa4691164c0bfc2cdb39e71ad865e2c12c9c232249572d32e14bf9beaaa1be"
+      },
+      {
+        "printedPage": 123,
+        "viewerPage": 124,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/5521571d28aed37a029060521ab85029.webp",
+        "sha256": "2a0e90819ce42f28066e9c5ef095c4d1cd5f8d042cab5ab02ce492d25328ab2d"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "primal-beast-land",
+    "appearanceEvidence": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a wolf.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "The registry’s numerical inputs and strike match. Command, restoration, Primal Bond and subclass advancement procedures are supplied as source prose.",
+    "mechanicsNotes": [
+      "The extra 1d6 applies regardless of size. The Large-or-smaller limit applies only to Prone."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "The registry’s numerical inputs and strike match. Command, restoration, Primal Bond and subclass advancement procedures are supplied as source prose."
+      ]
+    },
+    "portraitSharedOwner": "b16_01",
+    "portraitSharedPath": "beast-ready-batch-16/parts/b16_01/portraits/primal-beast-land.png",
+    "portraitSharedSha256": "329a28cbf2547515866c413063347fbc44315724de50ed00171459375fc79912"
+  },
+  {
+    "name": "Beast of the Sea",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Ranger, Beast Master, Primal Companion",
+    "printedPages": [
+      122,
+      123,
+      124
+    ],
+    "viewerPages": [
+      123,
+      124,
+      125
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 122,
+        "viewerPage": 123,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/6a43a317de23d7824c371f90f2138e2b.webp",
+        "sha256": "31fa4691164c0bfc2cdb39e71ad865e2c12c9c232249572d32e14bf9beaaa1be"
+      },
+      {
+        "printedPage": 123,
+        "viewerPage": 124,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/5521571d28aed37a029060521ab85029.webp",
+        "sha256": "2a0e90819ce42f28066e9c5ef095c4d1cd5f8d042cab5ab02ce492d25328ab2d"
+      },
+      {
+        "printedPage": 124,
+        "viewerPage": 125,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/722286d8ee070a52ba57877560ed360b.webp",
+        "sha256": "53927231c0f0993c859ff422b4552d3526f0aaf050680f88368a0f1c6286f04c"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "primal-beast-sea",
+    "appearanceEvidence": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a crocodile.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "The read-only registry’s strike lists Piercing only and omits the escape DC. The ability array and scaling inputs match this first printing.",
+    "mechanicsNotes": [
+      "The print gives Bludgeoning or Piercing and an escape DC equal to the ranger’s spell save DC. The Grappled condition is applied on the hit."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "The read-only registry’s strike lists Piercing only and omits the escape DC. The ability array and scaling inputs match this first printing."
+      ]
+    },
+    "portraitSharedOwner": "b16_01",
+    "portraitSharedPath": "beast-ready-batch-16/parts/b16_01/portraits/primal-beast-sea.png",
+    "portraitSharedSha256": "549b1e7112dc8d87a83e74eb5f58cb760e591b7e38b5cb7097e9d390209b9ab5",
+    "digitalWitness": {
+      "archivedCaptureUrl": "",
+      "note": "The September 2024 digital snapshot uses the opposite form’s ability array for Sea and Sky. This entry follows the printed page. A D&D Beyond moderator confirmed that a digital correction shipped on February 18, 2025.",
+      "correctionDiscussionUrl": "https://www.dndbeyond.com/forums/d-d-beyond-general/bugs-support/215922-2024-primal-companion-stat-block-discrepancy"
+    }
+  },
+  {
+    "name": "Beast of the Sky",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Ranger, Beast Master, Primal Companion",
+    "printedPages": [
+      122,
+      123,
+      124
+    ],
+    "viewerPages": [
+      123,
+      124,
+      125
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=125",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 122,
+        "viewerPage": 123,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/6a43a317de23d7824c371f90f2138e2b.webp",
+        "sha256": "31fa4691164c0bfc2cdb39e71ad865e2c12c9c232249572d32e14bf9beaaa1be"
+      },
+      {
+        "printedPage": 123,
+        "viewerPage": 124,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/5521571d28aed37a029060521ab85029.webp",
+        "sha256": "2a0e90819ce42f28066e9c5ef095c4d1cd5f8d042cab5ab02ce492d25328ab2d"
+      },
+      {
+        "printedPage": 124,
+        "viewerPage": 125,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/722286d8ee070a52ba57877560ed360b.webp",
+        "sha256": "53927231c0f0993c859ff422b4552d3526f0aaf050680f88368a0f1c6286f04c"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "primal-beast-sky",
+    "appearanceEvidence": "The ranger chooses an animal suited to this form. It bears visible primal markings. The portrait shows a hawk.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "The registry numerical inputs and strike match the first print. Command, restoration, Flyby, Primal Bond and subclass advancement procedures are supplied as source prose.",
+    "mechanicsNotes": [
+      "The Sky form uses d6 Hit Dice and 4 HP per ranger level."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "The registry numerical inputs and strike match the first print. Command, restoration, Flyby, Primal Bond and subclass advancement procedures are supplied as source prose."
+      ]
+    },
+    "portraitSharedOwner": "b16_01",
+    "portraitSharedPath": "beast-ready-batch-16/parts/b16_01/portraits/primal-beast-sky.png",
+    "portraitSharedSha256": "a78e800e108aa4c1b1892405dc35414c82005e26784294d1208ee3ae7584a8ad",
+    "digitalWitness": {
+      "archivedCaptureUrl": "",
+      "note": "The September 2024 digital snapshot uses the opposite form’s ability array for Sea and Sky. This entry follows the printed page. A D&D Beyond moderator confirmed that a digital correction shipped on February 18, 2025.",
+      "correctionDiscussionUrl": "https://www.dndbeyond.com/forums/d-d-beyond-general/bugs-support/215922-2024-primal-companion-stat-block-discrepancy"
+    }
+  },
+  {
+    "name": "Bestial Spirit",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Summon Beast and Bestial Spirit",
+    "printedPages": [
+      322,
+      323
+    ],
+    "viewerPages": [
+      323,
+      324
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 322,
+        "viewerPage": 323,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+        "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+      },
+      {
+        "printedPage": 323,
+        "viewerPage": 324,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+        "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "bestial-spirit",
+    "appearanceEvidence": "The caster chooses a native animal for the selected environment. The portrait shows a wolf as one Land example.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+    "mechanicsNotes": [
+      "Printed parent stat block.",
+      "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+      ]
+    },
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+    "portraitReuseSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+  },
+  {
+    "name": "Bestial Spirit (Air)",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Summon Beast and Bestial Spirit",
+    "printedPages": [
+      322,
+      323
+    ],
+    "viewerPages": [
+      323,
+      324
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 322,
+        "viewerPage": 323,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+        "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+      },
+      {
+        "printedPage": 323,
+        "viewerPage": 324,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+        "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "bestial-spirit-air",
+    "appearanceEvidence": "The caster chooses a native air animal. The portrait shows an eagle.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+    "mechanicsNotes": [
+      "Catalog form of the single printed Bestial Spirit stat block.",
+      "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+      ]
+    },
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_06/portraits/giant-eagle.png",
+    "portraitReuseSha256": "45aad2129dd6054a5dc59f4da0d0001e9ac2724bfe415cc19d32fd3cb08c5445"
+  },
+  {
+    "name": "Bestial Spirit (Land)",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Summon Beast and Bestial Spirit",
+    "printedPages": [
+      322,
+      323
+    ],
+    "viewerPages": [
+      323,
+      324
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 322,
+        "viewerPage": 323,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+        "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+      },
+      {
+        "printedPage": 323,
+        "viewerPage": 324,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+        "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "bestial-spirit-land",
+    "appearanceEvidence": "The caster chooses a native land animal. The portrait shows a wolf.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+    "mechanicsNotes": [
+      "Catalog form of the single printed Bestial Spirit stat block.",
+      "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+      ]
+    },
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+    "portraitReuseSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+  },
+  {
+    "name": "Bestial Spirit (Water)",
+    "edition": "2024 fifth edition",
+    "publication": "Player’s Handbook",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2024, alternate-cover hardcover ISBN 978-0-7869-6982-1.",
+    "isbn": "978-0-7869-6982-1",
+    "section": "Summon Beast and Bestial Spirit",
+    "printedPages": [
+      322,
+      323
+    ],
+    "viewerPages": [
+      323,
+      324
+    ],
+    "sourceUrl": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "url": "https://online.anyflip.com/acscv/btgw/mobile/index.html#p=324",
+    "pageWitnesses": [
+      {
+        "printedPage": 2,
+        "viewerPage": 3,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/71b7de12aeff356d86ad5e169ea4bf1b.webp",
+        "sha256": "08cd314aa3fa46c76851b6acee7a4edb0d940cdd2c596157ecf78b22b851b4a5"
+      },
+      {
+        "printedPage": 322,
+        "viewerPage": 323,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/4eb6809eadc8f8c98d49d92e1f5a0655.webp",
+        "sha256": "c02fea86114068fa2d132c10294d79dffb700cb226adad9d3faf10eb052266eb"
+      },
+      {
+        "printedPage": 323,
+        "viewerPage": 324,
+        "sourceUrl": "https://online.anyflip.com/acscv/btgw/files/large/d59601f7194d2b018d17f4fbfdc16025.webp",
+        "sha256": "850e6bb9c7186a61a97e943ccf83376b56de771da52fea976c68bb2681886c93"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/phb-2024",
+    "artGroup": "bestial-spirit-water",
+    "appearanceEvidence": "The caster chooses a native water animal. The portrait shows a crocodile.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/players-handbook",
+    "errataEvidence": "The official Player’s Handbook errata lists no change to this feature, spell or stat block.",
+    "ruleComparison": "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster.",
+    "mechanicsNotes": [
+      "Catalog form of the single printed Bestial Spirit stat block.",
+      "The spell gives the spirit the caster’s initiative count and a turn immediately after the caster."
+    ],
+    "scalableRecord": {
+      "file": "dm-library/bestiary/scalable-encounters.json",
+      "sha256": "63c06041778e53c7194820ab4094f4cd868db9a2e96d7c1c4731d9c9d3e6e0b0",
+      "notes": [
+        "AC, HP and Rend scale by slot level as printed. The calculator rounds down for Multiattack. The registry carries a Dexterity-derived initiative value. In play the spell uses the caster’s initiative count and its own turn immediately after the caster."
+      ]
+    },
+    "portraitReuseSource": "playable-species-50-batch-11/parts/eleven_c/portraits/crocodile.png",
+    "portraitReuseSha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6"
+  }
+]

@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Count Rhodar von Glauer",
+    "decision": "share",
+    "pages": "Shadowkeep, p. 216 (stat block), pp. 208–209 (confrontation and lair actions), p. 214 (resting place).",
+    "tableNote": "Start the Shadowkeep confrontation after the party defeats the other vampires and spawn or tries to leave the mountain. Rhodar’s lair actions are available in this fight. If reduced to 0 HP, he teleports to his resting place inside the petrified angel in area V7.",
+    "notes": "CR 19, statistics, attacks, Spear Sacrifice, spells and all three villain actions match the Flee block. Shadowkeep explicitly assigns Rhodar the three same lair actions with DC 18 for Obey My Desire. The setting also gives him awareness of creatures within 1 mile of Shadowkeep and telepathy with them."
+  },
+  {
+    "name": "Vampire (MCDM)",
+    "decision": "separate",
+    "pages": "Shadowkeep, p. 221. Coronal Hollow, p. 249. Boughs of Eternity, p. 316.",
+    "notes": "All three Where Evil Lives versions match the core Flee block. The local Flee summary also includes generic vampire lair actions. Where Evil Lives assigns those specific actions to Count Rhodar in Shadowkeep, and does not print them in any of the three generic vampire encounters. Keep this profile separate without the Flee-only generic lair section.",
+    "statBlock": {
+      "name": "Vampire (MCDM)",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Undead, typically neutral evil",
+      "ac": 18,
+      "hp": 204,
+      "hitDice": "24d8 + 96",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "13",
+      "xp": 10000,
+      "proficiencyBonus": 5,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 20,
+          "modifier": 5
+        }
+      },
+      "otherStatistics": "Natural armor. Saving throws Dex +10, Wis +8, Cha +10. Deception +10, History +9, Insight +8, Intimidation +10, Perception +8, Persuasion +10, Stealth +10. Resists necrotic and bludgeoning, piercing, and slashing from mundane attacks. Immune to Charmed and Frightened. Blindsight 60 ft., darkvision 120 ft., passive Perception 18. Languages known in life.",
+      "description": "A vampire can leave its enemies reeling by turning to mist, then draw them close enough to feed.",
+      "sections": {
+        "Role": "Skirmisher",
+        "Printed source": "Shadowkeep, p. 221. Coronal Hollow, p. 249. Boughs of Eternity, p. 316.",
+        "Traits": "Radiant Aversion. Whenever it takes radiant damage, it takes 10 extra radiant damage.\nResting Place. If it drops to 0 HP outside sunlight, running water, and its resting place, it teleports to its resting place. It is stable while there. After 1 hour there at 0 HP, it regains 1 HP.\nTurn Resistance. Advantage on saves against effects that turn Undead.",
+        "Actions": "Multiattack. Make two Claw attacks and one Bite attack if possible.\nClaw. Melee weapon attack +10, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing plus 10 (3d6) necrotic damage. A Large or smaller target is Grappled (escape DC 18) and Restrained while held. Only one creature can be held this way. Moving while holding a Medium or smaller creature does not halve the vampire's speed.\nBite. Melee weapon attack +10, reach 5 ft., one creature Grappled by the vampire, Incapacitated, or Restrained. Hit 8 (1d6 + 5) piercing plus 10 (3d6) necrotic damage. The target's maximum HP falls by the necrotic damage taken and the vampire heals that amount. Cure Ailment of 4th order or higher, Greater Restoration, or a similar supernatural effect can restore that maximum. A creature dies if this brings its maximum HP to 0. A humanoid killed this way rises at the following midnight as a vampire spawn under the vampire's control.\nExsanguinating Mist (Recharge 6). The vampire and its equipment turn to mist, releasing anything it is grappling and ending any Grappled or Restrained effect on itself. It flies up to twice its speed to an empty space, ignores difficult terrain and opportunity attacks, and can pass through creatures and objects. Each creature passed through makes a DC 18 Constitution save for 35 (10d6) necrotic damage on a failure or half on a success. The vampire then resumes its previous form.",
+        "Bonus Actions": "Beguile. One visible creature within 30 ft. that can see the vampire makes a DC 18 Wisdom save. On a failure it spends its reaction, if available, to move up to its speed to a location the vampire chooses. The vampire then chooses whether the victim falls Prone or makes a melee attack against a target the vampire picks. A creature that cannot be Charmed succeeds automatically. A creature with advantage against Charmed makes this save with advantage.\nInhuman Agility. Move up to speed without provoking opportunity attacks.",
+        "Reactions": "Run, My Child. When an ally the vampire can see takes damage, that ally can move up to speed without provoking opportunity attacks at the vampire's command.",
+        "Utility Spells": "Charisma, save DC 18. At will, 1 action each: Charm Person, Detect Thoughts, Disguise Self, Sending. 1/day each, longer casting times: Clairvoyance, Geas.",
+        "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics.",
+        "Encounter Notes": "In Shadowkeep, Famsa guards the War Room (V3) with Merric and a hidden koptourok. Famsa and Azon use the stone shelves in Glauer Hall (V2) as resting places. In Coronal Hollow, Eritha and two vampire spawn guard the entrance to the hidden hoard (B6). In Boughs of Eternity, a vampire and thornblood attack when a living creature comes within 5 ft. of the bodies in the mortuary (L6)."
+      },
+      "relatedCreatures": [
+        {
+          "name": "Vampire Spawn (MCDM)",
+          "kind": "monster",
+          "terms": [
+            "vampire spawn"
+          ]
+        },
+        {
+          "name": "Count Rhodar von Glauer",
+          "kind": "monster"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Vampire Spawn (MCDM)",
+    "decision": "share",
+    "pages": "Shadowkeep, p. 222. Coronal Hollow, p. 250.",
+    "tableNote": "In Shadowkeep, Merric accompanies Famsa in the war room (V3), and three spawn have a 50 percent chance of interrupting a rest unless Rhodar fell to 0 HP within the past hour. In Coronal Hollow, two spawn guard the Cultist Ritual (B6) with Eritha.",
+    "notes": "Both printed blocks match the Flee profile, including Radiant Aversion, the single grapple limit and escape DC 15, Bite’s reversible maximum-HP reduction, and Inhuman Speed."
+  },
+  {
+    "name": "Night Hag (MCDM)",
+    "decision": "share",
+    "pages": "Eighth City Advocacy Services, p. 206. Shadowkeep, p. 219.",
+    "tableNote": "Sasha Darkdream offers help if the party retrieves her heart from the interrogation clinic (I9) and frees her from the holding cells (I8). In Shadowkeep, Putrid Agnes starts inside Ravlen’s head in Glauer Hall (V2).",
+    "notes": "Both printed blocks match the Flee profile, including both Tiny Time exit options, Dream Claw and Vicious Visions saves and durations, Sleepwalk, Aren’t You Tired?, utility spells and the conditional Phantoms Abound coven action."
+  },
+  {
+    "name": "Shtriga Nonna",
+    "decision": "share",
+    "pages": "Shtriga Nonna’s Hut, p. 53 (stat block), p. 50 (kitchen encounter).",
+    "tableNote": "Nonna is preparing a prisoner for dinner in the kitchen (H8). She may bargain for live prey or something the party values. If attacked or refused, she fights without calling for reinforcements.",
+    "notes": "Statistics, Feline Resilience, the Grow modifiers, Soul Steal recharge and healing, and all three villain actions match. Both printings omit the word saving in the Corrosive Claw Dexterity save line. The existing profile treats it as a saving throw."
+  },
+  {
+    "name": "Mummy (MCDM)",
+    "decision": "share",
+    "pages": "Tomb of the Keeper, p. 175 (stat block), pp. 166, 169 (encounter rules).",
+    "tableNote": "All Undead in the Tomb of the Keeper have advantage on saves against turning. The eight guardians in area M2 ignore a first visit unless touched or harmed. They attack on a second visit.",
+    "notes": "CR, armor, senses, immunities, Flammable, Mummy Dust, Desiccating Slam and Guardian Curse match the Flee printing. Turning protection comes from the tomb and is not inherent to this stat block."
+  },
+  {
+    "name": "Rotting Zombie",
+    "decision": "unverified",
+    "pages": "Introduction, p. 14 (minion example only).",
+    "notes": "The Where Evil Lives v1.0 full text and publisher preview name Rotting Zombie as a CR 1/4 Destroy Undead example. No separate stat block or encounter use was found, including searches for the unique Rise Again trait and plural name. The shared D&D Beyond listing does not establish printed equivalence."
+  },
+  {
+    "name": "Shade",
+    "decision": "share",
+    "pages": "Shifting Library, p. 91. Shadowkeep, p. 220.",
+    "tableNote": "Each floor of the Shifting Library bookstacks (K3) has five shades that work with a specter and a wraith. In Shadowkeep, ten shades witness the occult ritual (V6). If the ritual is still active when the last shade falls, it summons a devil magistrate.",
+    "notes": "Both printed blocks match the CR 1 incorporeal Undead monster in Flee, Mortals!, including Incorporeal Movement, Terrifying and Life Drain. This is the monster indexed as Shade."
+  },
+  {
+    "name": "Shadow (MCDM)",
+    "decision": "share",
+    "pages": "Shifting Library, p. 92.",
+    "notes": "CR 1/2, statistics, resistances, immunities, Chilling Phasing, Dark Stalker, Chilling Grasp, Freezing Dark and Shadow Bind match the printed Flee block. No encounter-only material is inherited."
+  },
+  {
+    "name": "Specter (MCDM)",
+    "decision": "share",
+    "pages": "Shifting Library, p. 92. Eighth City Advocacy Services, p. 207. Shadowkeep, p. 220. Durixaviinox’s Rest, p. 234. Boughs of Eternity, p. 314.",
+    "tableNote": "In the Shifting Library’s bookstacks (K3), the specter on each level fights with a wraith and five shades. If the fight lasts more than two rounds, the other floor’s librarians join at the start of round three.",
+    "notes": "The printed block matches Flee’s CR 1 incorporeal Undead. Corrupting Phasing, Decaying Touch and its Hit Die and resurrection riders, and Hidden Movement match."
+  }
+]

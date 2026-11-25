@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Orog",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "March 2003",
+    "productCode": "620-88578-001-EN",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        71,
+        72,
+        73
+      ],
+      "racialTraits": [
+        72,
+        73
+      ],
+      "illustration": 71,
+      "ruleReference": [
+        19,
+        20
+      ]
+    },
+    "pdfPageOffset": 1,
+    "revisionGuide": "",
+    "editionReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "editionReferenceSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Jim Pavelec, p. 71.",
+    "sourceDistinctions": [
+      "Races of Faerûn supplies the detailed Orog traits. Underdark directs readers there and gives class Hit Dice, LA +2, favored Fighter, and ECL 3.",
+      "Greatsword and throwing axe are the only racial weapon proficiencies specified on the Orog trait list.",
+      "The original trait is Light Blindness. It includes one round of blindness on abrupt bright light and applies to attack rolls, saves, and checks.",
+      "Wizards’ collected archive has no Races of Faerûn or Underdark errata entry."
+    ],
+    "entryId": "species-85d5176a617b1bd61c1919bf",
+    "versionKey": "e302c7d66bdcc7752c7b8131",
+    "slug": "orog",
+    "portraitSelection": "generated",
+    "portraitForm": "Gorvak Ironcleft, an original Orog Fighter in masterwork half-plate",
+    "npcExamples": [
+      "Gorvak Ironcleft",
+      "Maig Forgechant"
+    ]
+  }
+]

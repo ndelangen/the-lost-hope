@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Dust Devil",
+    "slug": "dust-devil",
+    "id": "monster-2a3072ca73ce655e55a81b54",
+    "entry": "monster-2a3072ca73ce655e55a81b54",
+    "version": "7a7ff29fa942d47d0aea74b7",
+    "suffix": "encounters-30/dust-devil.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-30/dust-devil.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-30/event-drafts/dust-devil-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 30 2026-11-23/event-drafts/dust-devil-event-v1.png",
+    "overrides": [
+      {
+        "entry": "monster-2a3072ca73ce655e55a81b54",
+        "name": "Dust Devil",
+        "file": "images/monsters/dust-devil/parchment-portrait.webp",
+        "sha256": "1999fb699dda6a333f1d2b5007feb100fadd92d83741d6719907dc62b296884e",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "subjectPrompt": "A single miniature twisting dust cyclone rendered as an elemental specimen, a slender funnel of umber and ocher grains with soft flecks of grit and a faint ground shadow. No landscape or face.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "d13be42e2abaff95aab4afd007ba4a723edb5567a4987ca041295a35a3f5ef7e",
+    "bytes": 2789734
+  }
+]

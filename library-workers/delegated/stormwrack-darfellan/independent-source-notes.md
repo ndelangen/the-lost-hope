@@ -1,0 +1,7 @@
+# Darfellan source check
+
+The August 2005 first printing gives playable traits on p. 37. The later Darfellan entry gives the Humanoid subtype and LA +0 and includes separate Warrior and Barbarian stat blocks. The p. 143 Warrior’s secondary bite reads −1, while its published BAB and Strength with the player rule’s −5 produce −2. The original builds follow the formula. Page 144’s combat prose adds +4 to Handle Animal with marine mammals. The playable trait lists on pp. 37 and 144 omit that bonus. [Playable traits]() · [Monster section]()
+
+The base breath budget is eight times Constitution score. Track exertion using the drowning rules on p. 11. Echolocation stops at the water’s edge. Core blindsense locates creatures while leaving concealment in place. The independent review checked both builds’ attacks, breath budgets, and skill points. It flagged their languages. Oru now spends two skill points on Common, and Tava takes Common as her one bonus language. [Drowning, p. 11]() · [Core blindsense rules](https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense)
+
+Wizards’ collected archive has no Stormwrack errata file. The June 2008 FAQ has no Darfellan entry. Joel Thomas illustrated the unnamed Darfellan barbarian on p. 38. Oru’s skin markings, clothes, and pose are original. [Wizards errata archive](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP) · [June 2008 FAQ]() · [Book illustration]()

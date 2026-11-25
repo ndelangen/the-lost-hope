@@ -1,0 +1,28 @@
+owner	name	kind	publication	edition	indexed_cr	art_group	art_owner	reuse_source	reuse_sha256	runtime_file	rules_url	credit
+b17_01	Ebonclaw	beast	Turn of Fortune's Wheel	2014 fifth edition	2	ebonclaw	b17_01	beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp	b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434	images/beasts/saber-toothed-tiger/parchment-portrait.webp		OpenAI ImageGen
+b17_01	Ophelia	beast	Turn of Fortune's Wheel	2014 fifth edition	4	ophelia	b17_01	beast-ready-batch-02/parts/b02_03/portraits/elephant.png	dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029	images/beast-ready-batch-02/elephant.png		Original portrait generated with OpenAI ImageGen
+b17_01	Parvaz	beast	Turn of Fortune's Wheel	2014 fifth edition	1	parvaz	b17_01					
+b17_01	Whirlwyrm	beast	Turn of Fortune's Wheel	2014 fifth edition	5	whirlwyrm	b17_01	adnd2e-monstrous-manual-eels/portraits/giant-eel-draft.png	ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74	images/adnd2e-monstrous-manual-eels/giant-eel.png		OpenAI ImageGen
+b17_01	Spotted Lion	beast	Bigby Presents: Glory of the Giants	2014 fifth edition	3	spotted-lion	b17_01				https://www.dndbeyond.com/monsters/3731048-spotted-lion	
+b17_01	Titanothere	beast	Bigby Presents: Glory of the Giants	2014 fifth edition	5	titanothere	b17_01				https://www.dndbeyond.com/monsters/3731056-titanothere	
+b17_02	Bristled Moorbounder	beast	Explorer's Guide to Wildemount	2014 fifth edition	3	bristled-moorbounder	b17_02	beast-ready-batch-14/parts/b14_10/portraits/bristled-moorbounder.png	30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37	images/beast-ready-batch-14/bristled-moorbounder.png	https://www.dndbeyond.com/monsters/744304-bristled-moorbounder	OpenAI ImageGen
+b17_02	Moorbounder	beast	Explorer's Guide to Wildemount	2014 fifth edition	1	moorbounder	b17_02	beast-ready-batch-14/parts/b14_10/portraits/moorbounder.png	6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009	images/beast-ready-batch-14/moorbounder.png	https://www.dndbeyond.com/monsters/744323-moorbounder	OpenAI ImageGen
+b17_02	Old Croaker	beast	Explorer's Guide to Wildemount	2014 fifth edition	1	old-croaker	b17_02	beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png	9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35	images/beast-ready-batch-05/giant-toad.png	https://www.dndbeyond.com/monsters/744327-old-croaker	OpenAI ImageGen
+b17_02	Koi Prawn	beast	Journeys through the Radiant Citadel	2014 fifth edition	1/2	koi-prawn	b17_02					
+b17_02	Rooster	beast	Journeys through the Radiant Citadel	2014 fifth edition	0	rooster	b17_02	indexed:images/monsters/rooster-heraldic-servant/parchment-portrait.webp	087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e	images/monsters/rooster-heraldic-servant/parchment-portrait.webp		OpenAI ImageGen
+b17_03	Hellwasp Grub	beast	Baldur's Gate: Descent Into Avernus	2014 fifth edition	1/4	hellwasp-grub	b17_03					
+b17_03	Peacock	beast	Baldur's Gate: Descent Into Avernus	2014 fifth edition	0	peacock	b17_03					
+b17_03	Traxigor	beast	Baldur's Gate: Descent Into Avernus	2014 fifth edition	12	traxigor	b17_03					
+b17_03	Enormous Tentacle	beast	The Orrery of the Wanderer	2014 fifth edition	2	enormous-tentacle	b17_03					
+b17_03	Onyx	beast	The Orrery of the Wanderer	2014 fifth edition	0	onyx	b17_03					
+b17_04	Bhaal, Ravager	beast	Minsc and Boo's Journal of Villainy	2014 fifth edition	24	bhaal-ravager	b17_04					
+b17_04	Deep Spider	beast	Minsc and Boo's Journal of Villainy	2014 fifth edition	7	sword-spider	b17_04					
+b17_04	Sword Spider	beast	Minsc and Boo's Journal of Villainy	2014 fifth edition	3	sword-spider	b17_04					
+b17_04	Rothé	beast	Chains of Asmodeus	2014 fifth edition	1/4	rothe	b17_04	beast-ready-batch-13/parts/b13_07/portraits/rothe.png	a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480	images/beast-ready-batch-13/rothe.png		OpenAI ImageGen
+b17_04	Giant Canary	beast	Fizban's Treasury of Dragons	2014 fifth edition	1/2	giant-canary	b17_04				https://www.dndbeyond.com/monsters/2059742-giant-canary	
+b17_05	Szikzith	beast	NERDS Restoring Harmony: A Web of Lies	2014 fifth edition	1/4	szikzith	b17_05					
+b17_05	Sled Dog	beast	Rise of Tiamat	2014 fifth edition	1/4	sled-dog	b17_05					
+b17_05	Giant Spider	beast	Stranger Things: Welcome to the Hellfire Club	2024 fifth edition	1	giant-spider	b17_05	beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png	e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570	images/beast-ready-batch-05/giant-spider.png		OpenAI ImageGen
+b17_06	Swarm of Infesting Insects	beast	Ravenloft: The Horrors Within	2024 fifth edition	2	ravenloft-insect-swarms	b17_06					
+b17_06	Swarm of Ravenous Insects	beast	Ravenloft: The Horrors Within	2024 fifth edition	3	ravenloft-insect-swarms	b17_06					
+b17_07	Pandarian Dragon Turtle	beast	D&D: World of Warcraft	2024 fifth edition	1/2	pandarian-dragon-turtle	b17_07	indexed:images/beasts/pandarian-dragon-turtle/parchment-portrait.webp	20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567	images/beasts/pandarian-dragon-turtle/parchment-portrait.webp		OpenAI ImageGen

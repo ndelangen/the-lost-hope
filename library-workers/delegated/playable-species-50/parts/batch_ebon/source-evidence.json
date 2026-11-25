@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Bearfolk",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "authors": [
+      "Wolfgang Baur",
+      "Celeste Conowitch"
+    ],
+    "year": 2022,
+    "isbn": "9781950789337",
+    "source": "https://www.dndbeyond.com/species/1726258-bearfolk",
+    "printedPages": [
+      22,
+      23,
+      24
+    ],
+    "heading": "Bearfolk Traits and Shadowborn Bearfolk",
+    "primaryBookText": "",
+    "transcriptStartLine": 1463,
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "supplementalSources": [],
+    "sourceDistinctions": [
+      "The book presents the base Bearfolk and Shadowborn in the same entry. Cloak of Night belongs to Shadowborn. Halla uses that complete profile."
+    ],
+    "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+    "slug": "bearfolk",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Halla Duskbark"
+    ]
+  },
+  {
+    "name": "Darakhul",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "authors": [
+      "Wolfgang Baur",
+      "Celeste Conowitch"
+    ],
+    "year": 2022,
+    "isbn": "9781950789337",
+    "source": "https://www.dndbeyond.com/species/1726259-darakhul",
+    "printedPages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "heading": "Darakhul Traits, Bearfolk Heritage and Shadow Goblin Heritage",
+    "primaryBookText": "",
+    "transcriptStartLine": 1661,
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "supplementalSources": [],
+    "sourceDistinctions": [
+      "The two heritages printed here are Bearfolk and Shadow Goblin. The book points readers to Tome of Heroes for further choices.",
+      "Keep the player creature type Humanoid and the susceptibility to undead effects. Do not inherit undead NPC stat-block immunities."
+    ],
+    "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+    "slug": "darakhul",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Rell Ashgate"
+    ]
+  },
+  {
+    "name": "Quickstep",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "authors": [
+      "Wolfgang Baur",
+      "Celeste Conowitch"
+    ],
+    "year": 2022,
+    "isbn": "9781950789337",
+    "source": "https://www.dndbeyond.com/species/1726261-quickstep",
+    "printedPages": [
+      32,
+      33
+    ],
+    "heading": "Quickstep Traits",
+    "primaryBookText": "",
+    "transcriptStartLine": 2281,
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "supplementalSources": [
+      "https://www.5esrd.com/database/race/quickstep/",
+      "https://koboldpress.com/errata/#book-of-ebon-tides",
+      "https://online.anyflip.com/myubd/mixj/files/large/46a20bda5719cfd7aa0cea88153b819b.webp"
+    ],
+    "sourceDistinctions": [
+      "Startling Speed imposes attack disadvantage after movement. The effect is limited to attack disadvantage. Character level sets the daily round count. The corrected printing gives Small size.",
+      "The book grants Fey Ancestry and leaves the creature type implicit in the player traits. Humanoid is the table ruling for this example."
+    ],
+    "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+    "slug": "quickstep",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Copperflash"
+    ]
+  },
+  {
+    "name": "Ratatosk",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "authors": [
+      "Wolfgang Baur",
+      "Celeste Conowitch"
+    ],
+    "year": 2022,
+    "isbn": "9781950789337",
+    "source": "https://www.dndbeyond.com/species/1726262-ratatosk",
+    "printedPages": [
+      33,
+      34,
+      35
+    ],
+    "heading": "Ratatosk Racial Traits, Ekorre and Tradvakt",
+    "primaryBookText": "",
+    "transcriptStartLine": 2350,
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "supplementalSources": [],
+    "sourceDistinctions": [
+      "Both Ekorre and Tradvakt share the printed Strength reduction and Dexterity increase. Ekorre differ in size, weapon handling and magic. Tradvakt use Constitution for War Chatter.",
+      "Grounded Celestial is a targeting rule. It does not change the character’s Humanoid type."
+    ],
+    "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+    "slug": "ratatosk",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Minnet Branchbell"
+    ]
+  },
+  {
+    "name": "Shadow Goblin",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "publisher": "Kobold Press",
+    "authors": [
+      "Wolfgang Baur",
+      "Celeste Conowitch"
+    ],
+    "year": 2022,
+    "isbn": "9781950789337",
+    "source": "https://www.dndbeyond.com/species/1726266-shadow-goblin",
+    "printedPages": [
+      29,
+      30
+    ],
+    "heading": "Shadow Goblin Traits",
+    "primaryBookText": "",
+    "transcriptStartLine": 2047,
+    "publisherSample": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "supplementalSources": [
+      "https://5esrd.old.opengamingnetwork.com/database/race/shadow-goblin/"
+    ],
+    "sourceDistinctions": [
+      "The playable Stink Eye is an action and affects only the next qualifying roll. The chieftain stat block later in the book uses a different bonus-action version."
+    ],
+    "catalogStatus": "Fill existing indexed publication. No duplicate species row needed.",
+    "slug": "shadow-goblin",
+    "portraitSelection": "generated",
+    "npcExamples": [
+      "Merrin Netward"
+    ]
+  }
+]

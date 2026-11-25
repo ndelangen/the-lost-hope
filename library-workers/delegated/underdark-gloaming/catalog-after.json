@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Gloaming",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "a9ffb4c3795d77eb18e185e7",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Native)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Small Outsider (Native). −2 Strength, +2 Dexterity, −2 Wisdom, +2 Charisma. LA +2. The entry lists no racial Hit Dice.",
+            "Small size gives +1 on attack rolls and to AC, +4 on Hide checks, −4 on grapple checks, and three-quarters the carrying capacity of a Medium character.",
+            "Land 20 ft. and fly 40 ft. (average). Flight requires a light load or less.",
+            "Darkvision 60 ft. and low-light vision.",
+            "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saving throws, and checks while in bright light.",
+            "Luminescence (Ex). As a standard action, set skin light anywhere from off to torch brightness. The setting persists until changed. The glow fades over 10 minutes after death.",
+            "Portal Sensitive bonus feat. Find active or inactive portals with a DC 20 Search check. Passing within 5 ft. allows the check without actively searching. Add +2 to caster-level checks to discern portal properties with analyze portal.",
+            "+4 racial bonus on Move Silently checks. +2 racial bonus on saves against illusion (shadow) spells and effects and +4 on saves against psionic abilities.",
+            "Shadow Spells. Add +1 caster level when casting illusion (shadow) spells.",
+            "Undercommon is automatic. The Gloaming region also grants Common and lists Aquan, Draconic, Dwarven, Elven (drow dialect), Sylvan, and Terran as bonus languages. Gloamings qualify for Daylight Adaptation. Favored class Sorcerer."
+          ]
+        },
+        {
+          "title": "Original NPC · Iskra Sablewing",
+          "lines": [
+            "Shaft guide and Sorcerer.",
+            "Motive. Light a safe landing for the party below the broken ladder.",
+            "Hook. Iskra knows where the shaft opens wide enough for a clean descent.",
+            "Gloaming shaft guide, Sorcerer 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Small Outsider (Native)",
+            "AC 14 · HP 6 (1d4+2) · Speed 20 ft.; fly 40 ft. (average, light load or less)"
+          ]
+        },
+        {
+          "title": "Original NPC · Kes Hollowstep",
+          "lines": [
+            "Portal scout and Rogue.",
+            "Motive. Find a disused portal before the occupants of the lower hall return.",
+            "Hook. Kes can search for the portal while following the gallery wall in darkness.",
+            "Gloaming portal scout, Rogue 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Small Outsider (Native)",
+            "AC 17 · HP 8 (1d6+2) · Speed 20 ft.; fly 40 ft. (average, light load or less)"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Iskra Sablewing": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Iskra Sablewing",
+              "group": "Gloaming",
+              "publication": "Gloaming shaft guide, Sorcerer 1",
+              "local": {
+                "entry": "npc-4ab2bf942b2a85b8ebc70e28",
+                "version": "4405f7da02922ee27dc003f1"
+              }
+            }
+          }
+        ],
+        "Original NPC · Kes Hollowstep": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Kes Hollowstep",
+              "group": "Gloaming",
+              "publication": "Gloaming portal scout, Rogue 1",
+              "local": {
+                "entry": "npc-57547e09678607b99f73112a",
+                "version": "99243a1eee12bbc45515b1fa"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Gloaming": true,
+      "gloaming portal sensitive": true,
+      "gloaming luminescence": true,
+      "gloaming shaft guide": true,
+      "gloaming portal scout": true
+    },
+    "hash": "8777b0aef7a74229ba9b78a90776793db5ac48f14c99ed00699ddf122a72b8af",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "a9ffb4c3795d77eb18e185e7",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

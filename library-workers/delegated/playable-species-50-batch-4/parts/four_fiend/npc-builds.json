@@ -1,0 +1,344 @@
+{
+  "builds": [
+    {
+      "id": "feytouched-reva-thornstep-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "title": "Feytouched guide, rogue 1",
+      "difficulty": "ECL 2. Rogue 1, 1 class HD, LA +1.",
+      "senses": "Low-light vision",
+      "languages": "Common, Sylvan",
+      "speed": "30 ft.",
+      "ac": 15,
+      "hp": 6,
+      "hitDice": "1d6",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 10,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 17
+      },
+      "skills": [
+        "Bluff +7",
+        "Disable Device +5",
+        "Hide +9",
+        "Listen +4",
+        "Move Silently +9",
+        "Search +5",
+        "Sense Motive +4",
+        "Spot +4",
+        "Tumble +7"
+      ],
+      "traits": [
+        "Chaotic good. Touch AC 13, flat-footed AC 12. BAB +0, grapple +1. Fortitude +0, Reflex +5, Will +0. Leather armor and Point Blank Shot.",
+        "Immune to mind-affecting effects. Rogue sneak attack adds 1d6 against a flanked target or one denied Dexterity to AC. Ranged sneak attack reaches 30 ft. Rogue trapfinding covers Search DCs above 20 and disabling magical traps."
+      ],
+      "actions": [
+        "Dagger +1 melee (1d4+1 piercing, 19–20/×2) or shortbow +3 ranged (1d6 piercing, ×3, 60-ft. range increment). Within 30 ft. the bow is +4 and deals 1d6+1.",
+        "Charm Person (Sp), 1/day, standard action. One humanoid of Medium size or smaller within 25 ft. regards Reva as a trusted friend for 1 hour on a failed Will DC 11 save. A threatened or attacked target adds +5 to the save. Unusual instructions need an opposed Charisma check. Threatening the target ends the effect."
+      ],
+      "tactics": "Talk first. Use charm on a lookout before anyone draws steel. Keep within 30 ft. for the bow bonus and sneak attack when the target is vulnerable."
+    },
+    {
+      "id": "maeluth-brena-coalward-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider",
+      "title": "Maeluth foundry custodian, fighter 1",
+      "difficulty": "ECL 2. Fighter 1, 1 class HD, LA +1.",
+      "senses": "Darkvision 60 ft.; stonecunning",
+      "languages": "Common, Dwarven, Undercommon",
+      "speed": "15 ft. in breastplate (20 ft. unarmored)",
+      "ac": 15,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": -1,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 8,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Climb +1 in armor",
+        "Craft (metalworking) +6",
+        "Search +2 for unusual stonework"
+      ],
+      "traits": [
+        "Lawful neutral. Touch AC 9, flat-footed AC 15. BAB +1, grapple +3. Fortitude +5, Reflex −1, Will +2.",
+        "Breastplate and a small shield. Weapon Focus (battleaxe), Power Attack. When using Power Attack, trade 1 point of melee attack bonus for 1 point of melee damage.",
+        "Apply the dwarf-derived bonuses above to spell saves, poison saves, attacks against orcs or goblinoids, and AC against giants. Raise dead and resurrection cannot restore Brena, but wish or miracle can."
+      ],
+      "actions": [
+        "Battleaxe +4 melee (1d8+2 slashing, ×3), or +5 against orcs and goblinoids. With Power Attack the base line becomes +3 (1d8+3).",
+        "Fiend Hammer (Su), 1/day, standard action. One melee weapon becomes unholy for 10 rounds. It adds 2d6 unholy damage against good creatures. A good creature wielding it has a negative level until it puts the weapon down. The effect supplies the unholy property alone."
+      ],
+      "tactics": "Inspect the stone before committing. Hold the narrow hatch with axe and shield. Save Fiend Hammer for an identified good-aligned foe or a negotiated loan."
+    },
+    {
+      "id": "mechanatrix-darsa-wheelmark-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider",
+      "title": "Mechanatrix armorer, fighter 1",
+      "difficulty": "ECL 2. Fighter 1, 1 class HD, LA +1.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "20 ft.",
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 10,
+        "CON": 14,
+        "INT": 15,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Craft (armorsmithing) +6",
+        "Craft (metalworking) +6",
+        "Knowledge (architecture and engineering) +8",
+        "Ride +4",
+        "Spot +2"
+      ],
+      "traits": [
+        "Lawful neutral. Chain shirt. Touch AC 10, flat-footed AC 15. BAB +1, grapple +3. Fortitude +4, Reflex +0, Will +0. Improved Initiative and Weapon Focus (battleaxe).",
+        "Cold and fire resistance 5. Electricity deals no damage and heals 1 HP per 3 would-be points. Darsa cannot save against the electricity effect. Raise dead and resurrection cannot restore her, but wish or miracle can."
+      ],
+      "actions": [
+        "Battleaxe +4 melee (1d8+2 slashing, ×3).",
+        "Shocking Grasp (Sp), 1/day, standard action, CL 1. Holds the charge until discharged. Melee touch +3 (1d8+1 electricity, no save), or +6 if the target is metal or bears substantial metal."
+      ],
+      "tactics": "Look for signs of an engineered failure before drawing the axe. Save shocking grasp for close quarters with an armored opponent."
+    },
+    {
+      "id": "shyft-pell-greywick-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider",
+      "title": "Shyft passage watcher, rogue 1",
+      "difficulty": "ECL 4. Rogue 1, 1 class HD, LA +3.",
+      "senses": "Darkvision 60 ft., low-light vision",
+      "languages": "Common",
+      "speed": "30 ft.",
+      "ac": 16,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 13,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Bluff +3",
+        "Disable Device +5",
+        "Hide +11",
+        "Listen +6",
+        "Move Silently +11",
+        "Open Lock +7",
+        "Search +5",
+        "Sense Motive +6",
+        "Spot +6"
+      ],
+      "traits": [
+        "Neutral. Studded leather. Touch AC 13, flat-footed AC 13. BAB +0, grapple +0. Fortitude +1, Reflex +5, Will +2. Improved Initiative.",
+        "Cold, fire and sonic resistance 5. Raise dead and resurrection cannot restore Pell, but wish or miracle can. Rogue sneak attack +1d6, ranged within 30 ft. Rogue trapfinding."
+      ],
+      "actions": [
+        "Short sword +0 melee (1d6 piercing, 19–20/×2) or light crossbow +3 ranged (1d8 piercing, 19–20/×2, 80-ft. range increment). Reloading takes a move-equivalent action and provokes.",
+        "Ethereal Jaunt (Sp), 1/day, standard action, CL 9. Pell and carried equipment become ethereal for up to 9 rounds. Move 15 ft. in any direction with a move, including through ordinary material barriers. Sight and hearing into the Material Plane extend to 60 ft. and still stop at solid materials. Pell cannot normally touch or attack material targets while ethereal. Reappearing inside matter shunts Pell to open space and deals 1d6 damage per 5 ft. shunted."
+      ],
+      "tactics": "Save jaunt for the blocked entrance or an escape. Return on open ground and use the crossbow from cover."
+    },
+    {
+      "id": "wispling-fera-copperfin-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Small",
+      "type": "Outsider",
+      "title": "Wispling market lookout, rogue 1",
+      "difficulty": "ECL 2. Rogue 1, 1 class HD, LA +1.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "20 ft.",
+      "ac": 17,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 18,
+        "CON": 12,
+        "INT": 15,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Bluff +4",
+        "Climb +6",
+        "Disable Device +6",
+        "Disguise +4 (+14 with Change Self)",
+        "Hide +12",
+        "Listen +6",
+        "Move Silently +10",
+        "Open Lock +8",
+        "Search +6",
+        "Spot +4"
+      ],
+      "traits": [
+        "Chaotic neutral. Leather armor. Touch AC 15, flat-footed AC 13. BAB +0, grapple −4. Fortitude +2, Reflex +7, Will +1. Add +2 morale on saves against fear. Point Blank Shot.",
+        "Raise dead and resurrection cannot restore Fera, but wish or miracle can. Rogue trapfinding and sneak attack +1d6, ranged within 30 ft."
+      ],
+      "actions": [
+        "Dagger +1 melee (1d4 piercing, 19–20/×2), or thrown +6 (same damage, 10-ft. range increment). Within 30 ft., apply Point Blank Shot for +7 and 1d4+1 before any range penalty.",
+        "Change Self (Su), 1/day, standard action, CL 1. Visual disguise alters Fera and carried gear for up to 10 minutes. Adjust apparent height up to 1 ft. without altering body type. The glamer changes visual appearance only. Touch and voice remain the same. Disguise +14 while active. Witnesses who interact may attempt a Will DC 11 save to recognize the glamer."
+      ],
+      "tactics": "Use the disguise to enter the market unnoticed. Leave by a different stall before the effect runs out. If cornered, throw from cover."
+    },
+    {
+      "id": "spriggan-orro-rootcuff-30e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ],
+      "size": "Small",
+      "type": "Fey",
+      "title": "Spriggan ruin keeper, rogue 1",
+      "difficulty": "ECL 8. 5 racial HD plus rogue 1, LA +2.",
+      "senses": "Low-light vision",
+      "languages": "Common, Gnome; bonus Sylvan",
+      "speed": "20 ft. (Small), 30 ft. (Large)",
+      "ac": 19,
+      "hp": 33,
+      "hitDice": "6d6+12 (Small), 6d6+30 (Large)",
+      "initiative": 10,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 22,
+        "CON": 14,
+        "INT": 13,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +13/+17",
+        "Disable Device +14/+14",
+        "Hide +17/+7",
+        "Listen +11/+11",
+        "Move Silently +17/+15",
+        "Open Lock +19/+17",
+        "Pick Pocket +17/+15",
+        "Spot +4/+4"
+      ],
+      "traits": [
+        "Chaotic neutral. Values are Small/Large. Chain shirt, Improved Initiative, Weapon Focus (short sword), Alertness. Rogue trapfinding.",
+        "Small form. AC 19, touch 15, flat-footed 15. Initiative +10. HP 33. BAB +2, grapple +0. Fortitude +3, Reflex +12, Will +4. Space/reach 5 ft./5 ft.",
+        "Large form. AC 17, touch 13, flat-footed 13. Initiative +8. HP 51. Str 22, Dex 18, Con 20. BAB +2, grapple +12. Fortitude +6, Reflex +10, Will +4. Space/reach 10 ft./10 ft.",
+        "Small form gains +4d6 melee sneak attack when applicable, including rogue +1d6. Ranged sneak attacks use only the rogue die within 30 ft. Large form suppresses sneak attacks and the three listed spell-like powers."
+      ],
+      "actions": [
+        "Short sword +6 melee in Small form (1d6+2 piercing, 19–20/×2), or +8 in Large form (1d8+6 piercing, 19–20/×2).",
+        "Size Change (Su), at will, standard action. Switch between the listed forms and recalculate current and maximum HP from the Constitution change (+18 when enlarging, −18 when shrinking).",
+        "Produce Flame (Sp), Small form only, at will, CL 8. Illuminate to 20 ft. and carry the flame for up to 8 rounds. Deal 1d4+4 fire with melee touch +5 or ranged touch +9 out to 120 ft. without range penalty. Thrown flame returns to the hand. No save.",
+        "Scare (Sp), Small form only, at will, CL 8. Within 180 ft., creatures below 6 HD within the 15-ft. radius flee and take −2 morale on attack rolls, weapon damage rolls and saves for 8 rounds. Will DC 12 negates.",
+        "Shatter (Sp), Small form only, at will, CL 8. Within 45 ft., break fragile nonmagical objects up to 8 lb. each in a 3-ft. spread or one solid nonmagical object up to 80 lb. A crystalline creature instead takes 8d6 sonic damage, Fortitude DC 12 half. An applicable object save is Will DC 12 negates."
+      ],
+      "tactics": "Stay Small while watching through a gap or using scare. Enlarge to hold the doorway after foes close. Leave room for the Large form before changing."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Reva Thornstep",
+      "species": "Feytouched",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "feytouched-reva-thornstep-30e",
+      "size": "Medium",
+      "role": "Waypost guide who spots counterfeit trail markers.",
+      "motive": "Keep walkers away from a bridge decoy.",
+      "hook": "Reva will show the party a dry ford if they help recover her brother’s signal whistle."
+    },
+    {
+      "name": "Brena Coalward",
+      "species": "Maeluth",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "maeluth-brena-coalward-30e",
+      "size": "Medium",
+      "role": "Foundry custodian with a gift for reading stonework.",
+      "motive": "Find the missing shaft lock before the next smelt.",
+      "hook": "Brena needs someone short enough to reach the release chain through the inspection hatch."
+    },
+    {
+      "name": "Darsa Wheelmark",
+      "species": "Mechanatrix",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "mechanatrix-darsa-wheelmark-30e",
+      "size": "Medium",
+      "role": "Armorer who checks a damaged sluice gate for tampering.",
+      "motive": "Prove that the sluice failed after someone swapped a gear.",
+      "hook": "Darsa offers repairs to anyone who brings her the discarded brass tooth."
+    },
+    {
+      "name": "Pell Greywick",
+      "species": "Shyft",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "shyft-pell-greywick-30e",
+      "size": "Medium",
+      "role": "Quiet watcher who can pass an outer wall and scout its far side.",
+      "motive": "Locate a courier who entered a shuttered tollhouse.",
+      "hook": "Pell can cross one barricade and return with directions if the party keeps his planned return point open."
+    },
+    {
+      "name": "Fera Copperfin",
+      "species": "Wispling",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "wispling-fera-copperfin-30e",
+      "size": "Small",
+      "role": "Small traveling trader who watches the bridge market.",
+      "motive": "Recover proof of counterfeit toll tokens without blowing her cover.",
+      "hook": "Fera will pass as a clerk for ten minutes if the party can keep the real clerk occupied."
+    },
+    {
+      "name": "Orro Rootcuff",
+      "species": "Spriggan",
+      "speciesPublication": "Fiend Folio (2003)",
+      "edition": "3.0 edition",
+      "build": "spriggan-orro-rootcuff-30e",
+      "size": "Small",
+      "role": "Gnomekin ruin keeper who can block a doorway by growing.",
+      "motive": "Get his missing key back before a rival opens the old well.",
+      "hook": "Orro will break the jammed stone latch if the party returns the key and leaves his storeroom sealed."
+    }
+  ]
+}

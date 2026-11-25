@@ -1,0 +1,23 @@
+[
+  {
+    "artGroup": "bhaal-ravager",
+    "file": "portraits/bhaal-ravager.png",
+    "sha256": "43b589aa5f43c3e28e1a32c1560157160e849fe49488b0e77ea9234165925945",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "artGroup": "sword-spider",
+    "file": "portraits/sword-spider.png",
+    "sha256": "f699c94cf67afc29e3091f364d831b5df0e8669a7b861ebdb2d2cf8ac106d723",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "artGroup": "giant-canary",
+    "file": "portraits/giant-canary.png",
+    "sha256": "895b42de5408c1d35cb84d2fe23ee9f2465971a2bb184c517dbb1bc205a4302c",
+    "width": 1254,
+    "height": 1254
+  }
+]

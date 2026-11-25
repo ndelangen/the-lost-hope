@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "arena-guard",
+    "name": "Arena Guard",
+    "entryId": "monster-57325fef8d8da7cc4de3124a",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A single adult arena guard from Hillsfar, with dark brown skin, close cropped dark hair, a ring-mail shirt over well used sand-brown cloth and desaturated dark blue trousers, small plain iron-edged round shield, one upright simple wooden spear shorter than the image height, and a folded worn rope net at the belt. Steel and worn cotton, grounded alert stance. No red regimental plumage.",
+    "prompt": "Use the attached image only for rendering style and parchment. Create one original square fantasy bestiary portrait, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure centered with wide blank margins, readable face at thumbnail size, natural little grounding shadow, diffuse light. No scenery, frame, letters, labels, logos or watermark. A single adult arena guard from Hillsfar, with dark brown skin, close cropped dark hair, a ring-mail shirt over well used sand-brown cloth and desaturated dark blue trousers, small plain iron-edged round shield, one upright simple wooden spear shorter than the image height, and a folded worn rope net at the belt. Steel and worn cotton, grounded alert stance. No red regimental plumage.",
+    "appearanceSource": "DDEX3-02 - Shackles of Blood"
+  },
+  {
+    "slug": "breex-vandermast",
+    "name": "Breex Vandermast",
+    "entryId": "monster-04a7eee85a70bca099c2c3f5",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Short, stocky and slightly portly adult half-orc sorcerer, lank thin black hair just past cheekbones, faintly olive skin and subtle lower tusks, recognizable mostly-human features with the understated orc ancestry from the adventure. Shrewd, overconfident glance, practical old steel breastplate over muted plum fine wool; dark gloves and weathered green-brown trousers. One hand slightly curled and a small delicate arc of pale lavender magic around his fingers. No enormous muscles or broad magical effects.",
+    "prompt": "Use the attached image only for rendering style and parchment. Create one original square fantasy bestiary portrait, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure centered with wide blank margins, readable face at thumbnail size, natural little grounding shadow, diffuse light. No scenery, frame, letters, labels, logos or watermark. Short, stocky and slightly portly adult half-orc sorcerer, lank thin black hair just past cheekbones, faintly olive skin and subtle lower tusks, recognizable mostly-human features with the understated orc ancestry from the adventure. Shrewd, overconfident glance, practical old steel breastplate over muted plum fine wool; dark gloves and weathered green-brown trousers. One hand slightly curled and a small delicate arc of pale lavender magic around his fingers. No enormous muscles or broad magical effects.",
+    "appearanceSource": "DDEX3-02 - Shackles of Blood"
+  },
+  {
+    "slug": "captain-erlich",
+    "name": "Captain Erlich",
+    "entryId": "monster-e47577e2a3c04dd85415053b",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A young adult human military captain in bright though worn full steel plate armor and a small muted crimson shoulder cloth. Close shaven face with thin features and a sneering expression that is slightly uneasy, an open steel helmet with a modest dark red horsehair plume, steel shield braced to the side, and an elegant sword sheathed on a belt. Related visually to a Red Plume patrol soldier but clearly a younger fussy officer in superior armor.",
+    "prompt": "Use the attached image only for rendering style and parchment. Create one original square fantasy bestiary portrait, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure centered with wide blank margins, readable face at thumbnail size, natural little grounding shadow, diffuse light. No scenery, frame, letters, labels, logos or watermark. A young adult human military captain in bright though worn full steel plate armor and a small muted crimson shoulder cloth. Close shaven face with thin features and a sneering expression that is slightly uneasy, an open steel helmet with a modest dark red horsehair plume, steel shield braced to the side, and an elegant sword sheathed on a belt. Related visually to a Red Plume patrol soldier but clearly a younger fussy officer in superior armor.",
+    "appearanceSource": "DDEX3-02 - Shackles of Blood"
+  },
+  {
+    "slug": "red-plume-patrol",
+    "name": "Red Plume Patrol",
+    "entryId": "monster-8eb7da9ad1703e5036fc6b95",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One representative adult human patrol soldier from the medieval city of Hillsfar, a disciplined middle-aged guard with a rough weathered face, long chain mail hauberk under a muted oxblood cloth tabard, a plain open steel helmet with one long muted red feather plume, a sheathed longsword, with a heavy wooden crossbow held low. Worn working uniform and no shield. Clear red feather silhouette.",
+    "prompt": "Use the attached image only for rendering style and parchment. Create one original square fantasy bestiary portrait, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure centered with wide blank margins, readable face at thumbnail size, natural little grounding shadow, diffuse light. No scenery, frame, letters, labels, logos or watermark. One representative adult human patrol soldier from the medieval city of Hillsfar, a disciplined middle-aged guard with a rough weathered face, long chain mail hauberk under a muted oxblood cloth tabard, a plain open steel helmet with one long muted red feather plume, a sheathed longsword, with a heavy wooden crossbow held low. Worn working uniform and no shield. Clear red feather silhouette.",
+    "appearanceSource": "DDEX3-02 - Shackles of Blood"
+  }
+]

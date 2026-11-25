@@ -1,0 +1,319 @@
+[
+  {
+    "name": "Knucklehead Trout",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, Unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "0 ft., swim 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 8. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A deep-bodied trout with a bulbous red forehead, small eyes, silver-gray belly, and a ruddy forked tail.",
+    "habitats": [
+      "Arctic",
+      "Freshwater",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 295. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=296",
+      "Traits": "Water Breathing. The trout breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) piercing damage.\nTail. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 4 (1d4 + 2) bludgeoning damage.",
+      "Fishing in Icewind Dale": "Under the lake procedure on p. 11, use fishing tackle from a rowboat or fish through a hole cut in the ice with a saw or similar tool. After each hour, a successful DC 15 Wisdom (Survival) check hooks a trout. Then contest the angler’s Strength (Athletics) against the trout’s Strength check, which the trout makes with advantage. A win pulls the fish out. On a loss, the trout escapes. If the angler loses by 5 or more, they must make a DC 10 Dexterity save to avoid being pulled into frigid water. Once rescued, a soaked character remains subject to the frigid-water effects until their wet clothes are replaced with dry ones."
+    }
+  },
+  {
+    "name": "Mountain Goat",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 11,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A shaggy cream-white goat with a narrow chin beard, dark hooves, and slim backward-curving black horns.",
+    "habitats": [
+      "Arctic",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 304. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=305",
+      "Traits": "Charge. After moving at least 20 ft. straight toward a target and hitting it with Ram on that turn, deal 3 (1d6) extra bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Strength save or fall prone.\nSure-Footed. The goat has advantage on Strength and Dexterity saves against effects that would knock it prone.",
+      "Actions": "Ram. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 5 (1d6 + 2) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Reindeer",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 10,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A thick-coated caribou with broad hooves and branching antlers. About one in six Icewind Dale reindeer has antlers that glow.",
+    "habitats": [
+      "Arctic",
+      "Tundra"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden, p. 307, with pp. 11, 107 and 268. The adventure adapts the 2014 Monster Manual Elk on p. 322. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=308",
+      "Traits": "Charge. After moving at least 20 ft. straight toward a target and hitting it with Ram that turn, deal 7 (2d6) extra damage. If the target is a creature, it must succeed on a DC 13 Strength save or fall prone.\nCold Acclimation. The reindeer automatically succeeds on the adventure’s hourly DC 10 Constitution save against extreme cold.\nGlowing Antlers (roughly one in six). A reindeer with this trait sheds dim light in a 10-ft. radius.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one prone creature. Hit for 8 (2d4 + 3) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Seal",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 11,
+    "hp": 9,
+    "hitDice": "2d8",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A silvery-gray seal with a rounded whiskered head, dark spots, and short foreflippers.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 308. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=309",
+      "Traits": "Hold Breath. The seal can hold its breath for 15 minutes.\nKeen Smell. It has advantage on Wisdom (Perception) checks that use smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit for 1 piercing damage.",
+      "Adventure context": "The seals from the Sea of Moving Ice are acclimated to cold weather, as described on p. 308. That acclimation is distinct from damage resistance."
+    }
+  },
+  {
+    "name": "Sperm Whale",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast, Unaligned",
+    "ac": 13,
+    "hp": 189,
+    "hitDice": "14d20 + 42",
+    "speed": "0 ft., swim 60 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "abilities": {
+      "Str": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Blindsight 120 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An immense slate-gray toothed whale with a block-shaped forehead, a narrow lower jaw, and broad tail flukes.",
+    "habitats": [
+      "Arctic",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 309. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=310",
+      "Traits": "Echolocation. The whale loses access to blindsight while deafened.\nHold Breath. It can hold its breath for 90 minutes.\nKeen Hearing. It has advantage on Wisdom (Perception) checks that use hearing.",
+      "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +11 to hit, reach 5 ft., one target. Hit for 21 (3d8 + 8) piercing damage. A Large or smaller creature hit must succeed on a DC 14 Dexterity save or be swallowed. A swallowed creature has total cover from attacks and other effects outside the whale and takes 3 (1d6) acid damage at the start of each of the whale’s turns. If one creature inside the whale deals it at least 30 damage on a single turn, the whale must succeed on a DC 16 Constitution save at the end of that turn or regurgitate all swallowed creatures. They fall prone in a space within 10 ft. of the whale. If the whale dies, a swallowed creature can use 20 ft. of movement to leave the corpse, exiting prone.\nTail. Melee weapon attack, +11 to hit, reach 15 ft., one target. Hit for 18 (3d6 + 8) bludgeoning damage. Against an object, deal 37 (6d6 + 16) bludgeoning damage instead."
+    }
+  },
+  {
+    "name": "Walrus",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 9,
+    "hp": 22,
+    "hitDice": "3d10 + 6",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A bulky marine mammal with a broad whiskered muzzle, heavy flippers, and two long ivory tusks.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Underwater"
+    ],
+    "sections": {
+      "Printed source": "Icewind Dale: Rime of the Frostmaiden, Appendix C, p. 312. First printing, August 2020. https://online.anyflip.com/jjlbf/giys/mobile/index.html#p=313",
+      "Traits": "Hold Breath. The walrus can hold its breath for 10 minutes.",
+      "Actions": "Tusks. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) piercing damage."
+    }
+  }
+]

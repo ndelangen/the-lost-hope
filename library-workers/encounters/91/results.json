@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Duskling",
+    "species": "species-d936b210189e4755b5aa13b7",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Magic of Incarnum (2005)"
+    ],
+    "portraitSha256": "2db51ee9fd7c0b2038a4a193fbb75eeff82803aa73d7ca093b9960ada4769b6d",
+    "caption": "Iriavel Solthenar · Original Duskling NPC",
+    "npcReceipts": [
+      {
+        "name": "Iriavel Solthenar",
+        "id": "npc-65d10aed45cf000a48824318",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Darevia Thalliar",
+        "id": "npc-68f582b69dc689ea7e4d526d",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

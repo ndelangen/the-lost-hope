@@ -1,0 +1,403 @@
+[
+  {
+    "name": "War Priest",
+    "statBlock": {
+      "name": "War Priest",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 254,
+      "classification": "Medium humanoid (cleric), any alignment",
+      "ac": 18,
+      "hp": 117,
+      "hitDice": "18d8 + 36",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 13,
+      "description": "War priests serve deities of war, protection, and strategy. They lead troops, counter enemy spellcasters, and care for the wounded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 7
+      },
+      "skills": {
+        "Intimidation": 5,
+        "Religion": 4
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Languages": "Any two languages.",
+        "Actions": "Multiattack. Make two Maul attacks and use Holy Fire.\nMaul. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) radiant damage.\nHoly Fire. Choose one creature the priest can see within 60 ft. It makes a DC 15 Wisdom save. On a failure, it takes 12 (2d8 + 3) radiant damage and is blinded until the start of the priest’s next turn. On a success, it takes half the damage and avoids blindness.",
+        "Spellcasting": "As an action, cast one listed spell using Wisdom (spell save DC 15).\nAt will. Light, Spare the Dying, Thaumaturgy.\n1/day each. Banishment, Command, Dispel Magic, Flame Strike, Guardian of Faith, Hold Person, Lesser Restoration, Revivify.",
+        "Bonus actions": "Healing Light (Recharge 4–6). The priest or one creature it chooses within 60 ft. regains 12 (2d8 + 3) hit points.",
+        "Holy symbol ideas": "Choose a symbol or roll a d8. 1, a vial of shimmering fluid. 2, a broken sword’s hilt. 3, a fragment of shrine glass. 4, a clay model of a ki-rin or another Celestial. 5, a torch carved like a hand cradling fire. 6, a reed circlet. 7, carved bone. 8, a vessel such as a cup or urn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 254."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Archfey",
+    "statBlock": {
+      "name": "Warlock of the Archfey",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 255,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 13,
+      "hp": 67,
+      "hitDice": "15d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 2,
+        "Deception": 6,
+        "Nature": 2,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Languages": "Any two languages, usually including Sylvan.",
+        "Condition immunities": "Charmed.",
+        "Actions": "Multiattack. Make two Rapier attacks or use Bewildering Word twice.\nRapier. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage plus 7 (2d6) force damage.\nBewildering Word. The warlock speaks a magical word at one creature it can see within 60 ft. It must pass a DC 14 Wisdom save or take 9 (2d8) psychic damage and have disadvantage on attack rolls until the end of the warlock’s next turn.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 14).\nAt will. Dancing Lights, Disguise Self, Mage Armor (self only), Mage Hand, Minor Illusion, Prestidigitation, Speak with Animals.\n1/day each. Charm Person, Dimension Door, Hold Monster.",
+        "Reactions": "Misty Escape (Recharges after a Short or Long Rest). When the warlock takes damage, it becomes invisible and teleports up to 60 ft. to an unoccupied spot it can see, taking anything it wears or carries. Invisibility ends at the start of its next turn or when it attacks, rolls damage, or casts a spell.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 255."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Fiend",
+    "statBlock": {
+      "name": "Warlock of the Fiend",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 255,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 13,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 4,
+        "Deception": 7,
+        "Persuasion": 7,
+        "Religion": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Any two languages, usually including Abyssal or Infernal.",
+        "Traits": "Dark One’s Own Luck (Recharges after a Short or Long Rest). When making an ability check or saving throw, the warlock can add 1d10 to the result. It can choose to do so after rolling, before the roll takes effect.",
+        "Actions": "Multiattack. Make three Scimitar attacks.\nScimitar. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage plus 14 (4d6) fire damage.\nHellfire. Green flames erupt in a sphere with a 10-ft. radius centered on a point within 120 ft. Each creature inside makes a DC 15 Dexterity save. On a failure, it takes 16 (3d10) fire damage plus 11 (2d10) necrotic damage. On a success, halve both amounts.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 15).\nAt will. Alter Self, Mage Armor (self only), Mage Hand, Minor Illusion, Prestidigitation.\n1/day each. Banishment, Plane Shift, Suggestion.",
+        "Reactions": "Fiendish Rebuke (3/day). When a creature the warlock can see within 60 ft. damages it, that creature makes a DC 15 Constitution save. It takes 22 (4d10) necrotic damage on a failure or half on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 255."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Great Old One",
+    "statBlock": {
+      "name": "Warlock of the Great Old One",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 256,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 13,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Psychic.",
+        "Languages": "Any two languages, telepathy 30 ft.",
+        "Traits": "Whispering Aura. At the start of the warlock’s turn, each creature it chooses within 10 ft. must pass a DC 15 Wisdom save or take 10 (3d6) psychic damage. Incapacitation suppresses the aura.",
+        "Actions": "Multiattack. Make two Dagger attacks.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic damage.\nHowling Void. Open a momentary rift within 60 ft., filling a 20-ft. cube with screams. Each creature in the cube makes a DC 15 Wisdom save. On a failure, it takes 9 (2d8) psychic damage and is frightened of the warlock until the start of the warlock’s next turn. On a success, it takes half the damage and avoids fear.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 15).\nAt will. Detect Magic, Guidance, Levitate, Mage Armor (self only), Mage Hand, Minor Illusion, Prestidigitation.\n1/day each. Arcane Gate, Detect Thoughts, True Seeing.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 256."
+      }
+    }
+  },
+  {
+    "name": "Warlord",
+    "statBlock": {
+      "name": "Warlord",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 257,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 229,
+      "hitDice": "27d8 + 108",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 15,
+      "description": "A warlord whose victories draw followers may become a general or rule in their own right.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Dex": 7,
+        "Con": 8
+      },
+      "skills": {
+        "Athletics": 9,
+        "Intimidation": 8,
+        "Perception": 5,
+        "Persuasion": 8
+      },
+      "sections": {
+        "Armor": "Plate.",
+        "Languages": "Any two languages.",
+        "Traits": "Indomitable (3/day). The warlord can reroll a failed saving throw and must use the new result.\nSurvivor. At the start of its turn, the warlord regains 10 hit points if it has at least 1 hit point and is below half its maximum.",
+        "Actions": "Multiattack. Make two attacks, choosing Greatsword or Shortbow for each.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage.\nShortbow. Ranged weapon attack, +7 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Legendary actions": "The warlord has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at a time at the end of another creature’s turn. It cannot use these actions while incapacitated or otherwise unable to act, or before the end of its first turn if surprised.\nCommand Ally (1 action). Choose an ally the warlord can see within 30 ft. If that ally can see and hear the warlord, it can use its reaction to make one weapon attack with advantage.\nWeapon Attack (1 action). Make one Greatsword or Shortbow attack.\nFrighten Foe (2 actions). Choose one creature the warlord can see within 30 ft. If the creature can see and hear the warlord, it must pass a DC 16 Wisdom save or be frightened until the end of the warlord’s next turn.",
+        "Battle cry ideas": "Choose a cry or roll a d8. 1, remind the troops of their cause. 2, promise victory. 3, rally them to the crown. 4, urge them to show the enemy no mercy. 5, boast that the enemy will learn to fear them. 6, call for weapons and spells at the ready. 7, curse the enemy to the Abyss. 8, tell the troops to do what they trained for.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 257."
+      }
+    }
+  },
+  {
+    "name": "Wastrilith",
+    "statBlock": {
+      "name": "Wastrilith",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 258,
+      "classification": "Large fiend (demon), typically chaotic evil",
+      "ac": 18,
+      "hp": 157,
+      "hitDice": "15d10 + 75",
+      "speed": "30 ft., swim 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 11,
+      "description": "Wastriliths stake out bodies of water tainted by the Abyss. They can foul water on land and in containers as well as underwater.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Amphibious. The wastrilith breathes air and water.\nCorrupt Water. At the start of the wastrilith’s turn, exposed water within 30 ft. becomes corrupted. Underwater, the affected area is lightly obscured until a current flushes it out. Water held in a container stays corrupted until it evaporates.\nA creature that drinks or swims in the water makes a DC 18 Constitution save. On a success, it is immune to the foul water for 24 hours. On a failure, it takes 14 (4d6) poison damage and is poisoned for 1 minute. At the end of the minute, it repeats the save. On a failure, it takes 18 (4d8) poison damage and remains poisoned until it finishes a long rest.\nAnother demon that uses an action to drink the water gains 11 (2d10) temporary hit points.\nMagic Resistance. The wastrilith has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite attack and two Claws attacks, and use Grasping Spout.\nBite. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 30 (4d12 + 4) piercing damage.\nClaws. Melee weapon attack, +9 to hit, reach 10 ft., one target. A hit deals 18 (4d6 + 4) slashing damage.\nGrasping Spout. The wastrilith magically hurls a jet of water at one creature it can see within 60 ft. It makes a DC 17 Strength save, with disadvantage if underwater. On a failure, it takes 22 (4d8 + 4) acid damage and is pulled up to 60 ft. toward the wastrilith. On a success, it takes half the damage and stays in place.",
+        "Bonus actions": "Undertow. If the wastrilith is underwater, water within 60 ft. becomes difficult terrain for all other creatures until the start of its next turn.",
+        "Optional Abyssal corruption mechanics": "Use the 2014 Dungeon Master’s Guide’s optional Abyssal Corruption rule if you want the poisoned creature to risk corruption after drinking the foul water.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 258."
+      }
+    }
+  },
+  {
+    "name": "Water Elemental Myrmidon",
+    "statBlock": {
+      "name": "Water Elemental Myrmidon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 123,
+      "classification": "Medium elemental, typically neutral",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "40 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Plate.",
+        "Damage resistances": "Acid. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Paralyzed, petrified, poisoned, prone.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Aquan and one language chosen by its creator.",
+        "Actions": "Multiattack. Make three Trident attacks.\nTrident. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 7 (1d6 + 4) force damage, or 8 (1d8 + 4) force damage if the myrmidon uses the trident two-handed for a melee attack.\nFreezing Strikes (Recharge 6). Use Multiattack. Each hit deals an extra 5 (1d10) cold damage. A target hit at least once has its speed reduced by 10 ft. until the end of the myrmidon’s next turn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 123."
+      }
+    }
+  }
+]

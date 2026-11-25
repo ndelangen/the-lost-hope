@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Ape",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 14,
+    "hp": 29,
+    "hitDice": "4d8 + 11",
+    "initiative": "+2",
+    "speed": "30 ft. (6 squares), climb 30 ft.",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Initiative +2. AC 14 (−1 size, +2 Dex, +3 natural), touch 11, flat-footed 12. Base attack +3, grapple +12. Space 10 ft., reach 10 ft. Fort +6, Ref +6, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A muscular gorilla-like ape with dark coarse fur, broad shoulders and long arms. Adult males stand roughly 5½ to 6 ft. tall and weigh 300 to 400 lb.",
+    "habitats": [
+      "Warm forests"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, APE, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#ape",
+      "Attack": "Claws +7 melee (1d6 + 5).",
+      "Full attack": "Two claws +7 melee (1d6 + 5 each) and bite +2 melee (1d6 + 2).",
+      "Special attacks": "None.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents within 30 ft., 60 ft. upwind or 15 ft. downwind. Double the range for strong odors and triple it for overpowering ones. It takes a move action to learn the direction. Within 5 ft. the animal pinpoints the source.",
+      "Skills and feats": "Climb +14, Listen +6, Spot +6. Alertness, Toughness. The ape has a +8 racial bonus on Climb and can take 10 even when rushed or threatened.",
+      "Encounter ecology": "Aggressive omnivores. Encounter one ape, a pair or a company of 3–5 in warm forests. Advancement 5–8 HD (Large). No treasure or listed level adjustment."
+    }
+  },
+  {
+    "name": "Crocodile",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 15,
+    "hp": 22,
+    "hitDice": "3d8 + 9",
+    "initiative": "+1",
+    "speed": "20 ft. (4 squares), swim 30 ft.",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Initiative +1. AC 15 (+1 Dex, +4 natural), touch 11, flat-footed 14. Base attack +2, grapple +6. Space 5 ft., reach 5 ft. Fort +6, Ref +4, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "An olive-brown crocodile with raised scutes, a long snout and a muscular tail. The SRD describes an adult 11 to 12 ft. long.",
+    "habitats": [
+      "Warm marshes"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, CROCODILE, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#crocodile",
+      "Attack": "Bite +6 melee (1d8 + 6) or tail slap +6 melee (1d12 + 6).",
+      "Full attack": "Bite +6 melee (1d8 + 6) or tail slap +6 melee (1d12 + 6).",
+      "Special attacks": "Improved Grab (Ex). After a bite hits, the crocodile can attempt a grapple as a free action. It needs no touch attack and provokes no attack of opportunity. The default size limit is at least one category smaller, so Small or smaller. If the crocodile wins, it holds the target in its jaws, drags it into deep water and tries to pin it on the bottom. The crocodile can pull a held target into its space and move with it if it can drag the target, without provoking for the pull. The initial hold adds no damage. Later successful grapple checks deal bite damage. It can hold with its jaws alone at −20 on grapple checks. With that option it can keep its Dexterity bonus to AC, threaten normally and use any remaining attacks on other foes.",
+      "Special qualities": "Hold Breath (Ex). It can hold its breath for 68 rounds (4 × Constitution 17) before risking drowning. Low-light vision doubles normal human sight distance in dim light and retains color and detail.",
+      "Skills and feats": "Hide +7, Listen +4, Spot +4, Swim +12. Alertness, Skill Focus (Hide). It gains a +4 racial Hide bonus in water and a +10 cover bonus while only its eyes and nostrils are exposed. The +8 racial Swim bonus applies to special maneuvers and hazards. The animal can take 10 even under threat and can run while swimming in a straight line.",
+      "Encounter ecology": "Ambushes prey while mostly submerged in a warm river or marsh. Encounter one or a colony of 6–11. Advancement 4–5 HD (Medium). No treasure or listed level adjustment."
+    }
+  },
+  {
+    "name": "Dire Weasel",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 16,
+    "hp": 13,
+    "hitDice": "3d8",
+    "initiative": "+4",
+    "speed": "40 ft. (8 squares)",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 11,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Initiative +4. AC 16 (+4 Dex, +2 natural), touch 14, flat-footed 12. Base attack +2, grapple +4. Space 5 ft., reach 5 ft. Fort +3, Ref +7, Will +4.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A reddish-brown weasel with a long low body and tail and a pale throat. Adults can reach 10 ft. long and 700 lb.",
+    "habitats": [
+      "Temperate hills"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE WEASEL, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-weasel",
+      "Attack": "Bite +6 melee (1d6 + 3).",
+      "Full attack": "Bite +6 melee (1d6 + 3).",
+      "Special attacks": "Attach (Ex). A bite hit latches the weasel onto the target. While attached it loses the Dexterity bonus to AC, leaving AC 12. It can still be hit by weapons or grappled. A creature removing it by grappling must pin it. Blood Drain (Ex). The attached weasel deals 1d4 Constitution damage each round it stays on the target.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents within 30 ft., 60 ft. upwind or 15 ft. downwind. Double the range for strong odors and triple it for overpowering ones. It takes a move action to learn the direction. Within 5 ft. the animal pinpoints the source.",
+      "Skills and feats": "Hide +8, Listen +3, Move Silently +8, Spot +5. Alertness, Stealthy, Weapon Finesse (bonus feat).",
+      "Encounter ecology": "Stalks prey in the dark before pouncing. Encounter one or a pair in temperate hills. Advancement 4–6 HD (Medium) or 7–9 HD (Large). No treasure or listed level adjustment.",
+      "Source notes": "The combat description mentions clawing. Both attack rows give only Bite, which is the attack used here."
+    }
+  },
+  {
+    "name": "Huge Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal (Aquatic), always neutral",
+    "ac": 15,
+    "hp": 65,
+    "hitDice": "10d8 + 20",
+    "initiative": "+6",
+    "speed": "Swim 60 ft. (12 squares)",
+    "cr": "4",
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Initiative +6. AC 15 (−2 size, +2 Dex, +5 natural), touch 10, flat-footed 13. Base attack +7, grapple +20. Space 15 ft., reach 10 ft. Fort +11, Ref +9, Will +4.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A great-white-like shark with a slate-gray back, pale belly, pointed dorsal fin and crescent tail. It can exceed 20 ft. long.",
+    "habitats": [
+      "Cold aquatic"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, SHARK, Shark, Huge column, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#shark",
+      "Attack": "Bite +10 melee (2d6 + 7).",
+      "Full attack": "Bite +10 melee (2d6 + 7).",
+      "Special attacks": "None.",
+      "Special qualities": "Blindsense (Ex). While underwater, the shark can pinpoint underwater creatures within 30 ft. if it has line of effect. An unseen target still has total concealment. Keen Scent (Ex). It detects creatures within 180 ft. by scent and blood in the water up to 1 mile away. Low-light vision doubles normal human sight distance in dim light and retains color and detail. The Animal type supplies that vision. The Aquatic subtype lets it breathe underwater and swim normally without a check. It cannot breathe air.",
+      "Skills and feats": "Listen +10, Spot +10, Swim +13. Alertness, Great Fortitude, Improved Initiative, Iron Will. The +8 racial Swim bonus applies to special maneuvers and hazards. The animal can take 10 even under threat and can run while swimming in a straight line.",
+      "Encounter ecology": "Circles potential prey before darting in to bite. Encounter one, a school of 2–5 or a pack of 6–11 in cold water. Advancement 11–17 HD (Huge). No treasure or listed level adjustment.",
+      "Source notes": "The original Huge column prints Will +4 and lists Iron Will. Applying the feat to that save would give +6, which appears on d20srd.org. This record retains the original +4."
+    }
+  },
+  {
+    "name": "Owl",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Tiny Animal, always neutral",
+    "ac": 17,
+    "hp": 4,
+    "hitDice": "1d8",
+    "initiative": "+3",
+    "speed": "10 ft. (2 squares), fly 40 ft. (average)",
+    "cr": "1/4",
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Initiative +3. AC 17 (+2 size, +3 Dex, +2 natural), touch 15, flat-footed 14. Base attack +0, grapple −11. Space 2½ ft., reach 0 ft. Fort +2, Ref +5, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A pale-faced owl with a heart-shaped facial disc and tawny mottled wing feathers. The SRD describes birds 1 to 2 ft. long with wingspans up to 6 ft.",
+    "habitats": [
+      "Temperate forests"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, OWL, including the combat text following the table. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#owl",
+      "Attack": "Talons +5 melee (1d4 − 3). Both talons count as one attack. Minimum damage on a hit is 1 under the general damage rules.",
+      "Full attack": "Talons +5 melee (1d4 − 3). Both talons count as one attack.",
+      "Special attacks": "None.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail.",
+      "Skills and feats": "Listen +14, Move Silently +17, Spot +6. Weapon Finesse. Racial bonuses of +8 Listen and +14 Move Silently are reflected in the printed modifiers. Add the +8 racial Spot bonus in shadowy illumination.",
+      "Encounter ecology": "A solitary, nocturnal hunter in temperate forests. It swoops quietly onto prey. Advancement 2 HD (Small). No treasure or listed level adjustment."
+    }
+  }
+]

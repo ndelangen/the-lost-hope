@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Catfolk",
+    "kind": "species",
+    "publication": "Races of the Wild (2005)",
+    "edition": "3.5 edition",
+    "book": "Races of the Wild",
+    "author": "Skip Williams",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "February 2005",
+    "productCode": "620-17928-001-EN",
+    "isbn": "0-7869-3438-7",
+    "printedPages": {
+      "playableTraits": 92,
+      "catfolkNames": 93,
+      "ageTable": 106,
+      "publishedScout": 94,
+      "publishedInfiltrator": [
+        94,
+        95
+      ],
+      "pounceFeat": 148
+    },
+    "primaryBookScan": "",
+    "primaryBookSha256": "b9f7210842634a2cf9dc20223203708eb79795657acee820e6f919eb06272ed5",
+    "printedArtCredit": "Emily Fiegenschuh, p. 93 Catfolk",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "sourceDistinctions": [
+      "Cat-like visual descriptions use one playable rules set. Natural claw attacks are absent.",
+      "Pounce is a feat, not an automatic species ability.",
+      "The original p. 94 Catfolk Scout has listed CR 2, distinct from the page’s EL 1 scouting entry.",
+      "The published Catfolk Infiltrator is a Rogue 3, distinct from the new Bard and Fighter."
+    ],
+    "entryId": "species-93839c4d7c9b6b6e016bea36",
+    "versionKey": "2201434d139b4bb86049afdf",
+    "slug": "catfolk",
+    "portraitSelection": "generated",
+    "portraitForm": "Tavira of the Sun Reed, an original leopard-like Catfolk",
+    "npcExamples": [
+      "Tavira of the Sun Reed",
+      "Keshar of the Dry Brook"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "octopus-giant",
+    "name": "Octopus, Giant",
+    "entryId": "beast-c08376bacd11a833a9267c0f",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One giant naturalistic orange-rust octopus. Clearly shaped smooth broad rounded mantle, watchful amber lateral eye, small speckled skin freckles, warm burnt umber at the outer surfaces and mauve shadows under arms. Exactly EIGHT distinct tapering arms visibly attached beneath the head, each single unbranched arm ending in one unambiguous tip, spread around the animal with gently varied curves and a couple of visible underside rows of pale round suckers. Keep complete anatomy internally consistent and separate enough that the eight tips can be counted, with deliberate negative space between arms and breathing room around all tips. Creature is sitting in a three-quarter frontal view, resting on low soft shadow. No water, sand, other animals, round border or landscape. Second reference gives copper-purple coloring and head form only.",
+    "prompt": "Create one original square 1254 × 1254 bestiary portrait. Match the first reference for house rendering: edge-to-edge mottled warm golden amber parchment, fine sepia ink and colored pencil, matte natural gouache, slightly diffuse light and restrained soft contact shadow. Whole animal entirely in frame with generous blank margins, clear at thumbnail sizes. Plain empty parchment, no border, signature, landscape, lettering or decorative graphics. Ignore token frame and backdrop in the second reference. One giant naturalistic orange-rust octopus. Clearly shaped smooth broad rounded mantle, watchful amber lateral eye, small speckled skin freckles, warm burnt umber at the outer surfaces and mauve shadows under arms. Exactly EIGHT distinct tapering arms visibly attached beneath the head, each single unbranched arm ending in one unambiguous tip, spread around the animal with gently varied curves and a couple of visible underside rows of pale round suckers. Keep complete anatomy internally consistent and separate enough that the eight tips can be counted, with deliberate negative space between arms and breathing room around all tips. Creature is sitting in a three-quarter frontal view, resting on low soft shadow. No water, sand, other animals, round border or landscape. Second reference gives copper-purple coloring and head form only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  },
+  {
+    "slug": "owl-giant",
+    "name": "Owl, Giant",
+    "entryId": "beast-5a50d57a77cc4e4902f13513",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One giant horned owl in controlled flight, broadly rounded wings with individually separated feather tips, beautiful dusty warm gray and fawn barred feathers, fluffy body with cream throat, peaked ear tufts and a distinctive large round owl facial disk with orange gold eyes and compact hooked beak. Tail visibly short, two taloned feet tucked to land. Full body of the bird in clear three-quarter front view, wings open and slightly uneven in a quiet diagonal downward glide. Entire wing feathers, tufts and feet fit square with comfortable margins, faint shadow below. No eagle characteristics, no prey or rocks. Use second reference only for owl species and color, design a new composition.",
+    "prompt": "Create one original square 1254 × 1254 bestiary portrait. Match the first reference for house rendering: edge-to-edge mottled warm golden amber parchment, fine sepia ink and colored pencil, matte natural gouache, slightly diffuse light and restrained soft contact shadow. Whole animal entirely in frame with generous blank margins, clear at thumbnail sizes. Plain empty parchment, no border, signature, landscape, lettering or decorative graphics. Ignore token frame and backdrop in the second reference. One giant horned owl in controlled flight, broadly rounded wings with individually separated feather tips, beautiful dusty warm gray and fawn barred feathers, fluffy body with cream throat, peaked ear tufts and a distinctive large round owl facial disk with orange gold eyes and compact hooked beak. Tail visibly short, two taloned feet tucked to land. Full body of the bird in clear three-quarter front view, wings open and slightly uneven in a quiet diagonal downward glide. Entire wing feathers, tufts and feet fit square with comfortable margins, faint shadow below. No eagle characteristics, no prey or rocks. Use second reference only for owl species and color, design a new composition.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  },
+  {
+    "slug": "rat-giant",
+    "name": "Rat, Giant",
+    "entryId": "beast-2317b9045c6e78ef003e27a2",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One oversized grizzled black brown rat, distinct long pointed muzzle with twitching pale whiskers, fully rodent-like broad pink-gray ears, small bright watchful black eyes, shaggy charcoal and warm umber banded fur tufted along the spine. Low crouched three-quarter walking pose, all four distinct rat feet with exquisitely illustrated toes, long bare finely scaled dark pink-brown tail curling fully into the square. Stern predatory look with slight parting of lips and modest rodent incisors, realistic proportions and intact anatomy. Entire specimen and tail with breathing room. No prey, filth, blood or environmental context. Use second reference for the rat's dark coarse coat and feral character only.",
+    "prompt": "Create one original square 1254 × 1254 bestiary portrait. Match the first reference for house rendering: edge-to-edge mottled warm golden amber parchment, fine sepia ink and colored pencil, matte natural gouache, slightly diffuse light and restrained soft contact shadow. Whole animal entirely in frame with generous blank margins, clear at thumbnail sizes. Plain empty parchment, no border, signature, landscape, lettering or decorative graphics. Ignore token frame and backdrop in the second reference. One oversized grizzled black brown rat, distinct long pointed muzzle with twitching pale whiskers, fully rodent-like broad pink-gray ears, small bright watchful black eyes, shaggy charcoal and warm umber banded fur tufted along the spine. Low crouched three-quarter walking pose, all four distinct rat feet with exquisitely illustrated toes, long bare finely scaled dark pink-brown tail curling fully into the square. Stern predatory look with slight parting of lips and modest rodent incisors, realistic proportions and intact anatomy. Entire specimen and tail with breathing room. No prey, filth, blood or environmental context. Use second reference for the rat's dark coarse coat and feral character only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry artwork"
+  }
+]

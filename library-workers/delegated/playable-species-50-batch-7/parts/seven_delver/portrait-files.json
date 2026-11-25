@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Motley",
+    "file": "portraits/motley.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "efc6fe20464d86bd4624256285f8fa86e9f4a168b66fcc6b35c0dbf6c72eac5f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Mycelial",
+    "file": "portraits/mycelial.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "20a4a2cb02a9a84b8860197a2d68ff52442510b2ff0883c4c16ba27038b0d2b7",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Oozefolk",
+    "file": "portraits/oozefolk.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "23e993646b0beaaca69ca2c2dfd3c21f691a976d77ff8ff84f3a62e0bd203189",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ratling",
+    "file": "portraits/ratling.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "539a827953a62debed547df281c1dc1a66423373315102d24183a84787cbc510",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Rockborn",
+    "file": "portraits/rockborn.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "611a1451c7e3a7a6838a41be8eae2b1e114f86d1c87b9b719410e7718c9850d4",
+    "credit": "OpenAI ImageGen"
+  }
+]

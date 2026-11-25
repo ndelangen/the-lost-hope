@@ -1,0 +1,25 @@
+{
+  "baseline": "55c7676d11918e8af64e21616e302bef0b899693",
+  "temporaryCopy": true,
+  "bahamutAndTibbitPatchCompatibilityVerified": true,
+  "catAndCatFormEntriesPreserved": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Diopsid"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Dragon Compendium, Volume I (2005)",
+  "extraArmsArmorAndLevelAdjustmentVerified": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Dragon Compendium, Volume I (2005)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

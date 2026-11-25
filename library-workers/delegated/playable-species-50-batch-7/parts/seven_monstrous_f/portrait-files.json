@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Displacer Beast",
+    "file": "portraits/displacer-beast.png",
+    "sha256": "039e05a2e30ed812c62cec6bfb66b9f1ff62d6fe2aa84a0990a84a0918c11830",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Dragon Turtle",
+    "file": "portraits/dragon-turtle.png",
+    "sha256": "9ef055467a6050c1fa800a807411ab06499642111b227d4953f3486493ae30e4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Mimic",
+    "file": "portraits/mimic.png",
+    "sha256": "bf94d9805b202dc2630ce07e0d85b859ada09ef3477b5dd4fc2f8b9f2b3016ce",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

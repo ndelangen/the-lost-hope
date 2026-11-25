@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Nikt’oo",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR2524",
+    "section": "Nikt’oo",
+    "printedPages": [
+      78,
+      79
+    ],
+    "pdfPages": [
+      79,
+      80
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "operationalEvidence": "Visual p. 78 confirms that the AC 6 exception is location-based and that only the natural 20 against an attacking human-sized or smaller creature severs a limb. The out-of-water penalty applies to males in the continuation on p. 79.",
+    "supportingAppendixPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "legacyRulesUrl": "",
+    "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the new portrait.",
+    "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+    "artGroup": "niktoo"
+  },
+  {
+    "name": "Omm-wa",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR2524",
+    "section": "Omm-wa",
+    "printedPages": [
+      81,
+      82
+    ],
+    "pdfPages": [
+      82,
+      83
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "operationalEvidence": "Table and Combat text on p. 81 establish AC 6 (10), weapon damage, encounter multiples, shallow-water movement limits and Burn. The introductory Armor Class definition on p. 3 supplies the armored versus unarmored convention. Page 82 provides ecology and twin outcomes. Campaign Book Book Two supplies the Burn mechanics and general HD substitution.",
+    "supportingAppendixPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "legacyRulesUrl": "",
+    "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the reused portrait.",
+    "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+    "artGroup": "omm-wa",
+    "reuseSha256": "d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a"
+  },
+  {
+    "name": "Succulus",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR2524",
+    "section": "Succulus",
+    "printedPages": [
+      103,
+      104
+    ],
+    "pdfPages": [
+      104,
+      105
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "operationalEvidence": "Visual p. 103 supplies the table, including one attack at 3d4 and 420 XP. The p. 104 continuation defines touch, detection, resistance, reverse weapon contact and feeding. The appendix gives the monster Spikes rules on p. 8 and refers to the Campaign Book, which names and defines Digging.",
+    "supportingAppendixPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "legacyRulesUrl": "",
+    "sourceDiscrepancies": "The creature entry calls the two Legacies Dig and Spikes, and uses singular Spike in the combat prose. Digging is the Campaign Book name. This profile uses the appendix’s monster form of Spikes.",
+    "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the new portrait.",
+    "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+    "artGroup": "succulus"
+  },
+  {
+    "name": "Swampmare",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "kind": "beast",
+    "publisher": "TSR, Inc.",
+    "printing": "1996 TSR2524",
+    "section": "Swampmare",
+    "printedPages": [
+      104,
+      105
+    ],
+    "pdfPages": [
+      105,
+      106
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "localPrintWitness": " - 2nd Edition/Rules/Savage Coast Monstrous Compendium ",
+    "localPrintSha256": "23842cf99946ca1fe98c367774e290075fab1ac757c15dbe9985a34daf9f17ac",
+    "operationalEvidence": "Visual p. 104 distinguishes the claw/claw/bite baseline and the 1d6 Forefeet special attack from the prose’s four-attack sequence in water. Visual p. 105 continues the one-round change and keeps the weapon damage maximum at 1 per round. The appendix overrides the ordinary Plant Form duration with this creature’s six-hour maximum.",
+    "supportingAppendixPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "legacyRulesUrl": "",
+    "sourceDiscrepancies": "The printed attack table gives three routine attacks and a separate Forefeet special attack. The combat prose gives four attacks in water without spelling out the individual roll sequence. The 1d6 Forefeet line supplies the damage for the extra attack when applying the water exception.",
+    "appearanceEvidence": "Anatomy and color summarized from the entry and checked against the reused portrait.",
+    "habitatEvidence": "Climate and terrain from the entry table, with named encounter settings from the accompanying prose.",
+    "artGroup": "swampmare",
+    "reuseSha256": "e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5"
+  }
+]

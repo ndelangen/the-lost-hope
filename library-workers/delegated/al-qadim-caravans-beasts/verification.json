@@ -1,0 +1,19 @@
+{
+  "baseline": "4139746b131e444aeb131e2572d371ec6ea24d99",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Burrowing Owl": "generated",
+    "Black Sand Adder": "generated",
+    "Dune Viper": "generated",
+    "Giant Cobra": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "printedMovementRatesPreserved": true,
+  "noChallengeImported": true
+}

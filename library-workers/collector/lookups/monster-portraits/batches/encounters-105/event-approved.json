@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Spiker",
+    "slug": "spiker",
+    "caption": "Grip Stonebrace · Original Spiker NPC",
+    "id": "species-04cebed85eb4d89bc2ced91f:a07d1ad271c5759fcc7f7af1",
+    "entry": "species-04cebed85eb4d89bc2ced91f",
+    "version": "a07d1ad271c5759fcc7f7af1",
+    "suffix": "encounters-105/spiker.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-105/spiker.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-105/event-drafts/spiker-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 105 2026-11-24/event-drafts/spiker-event-v1.png",
+    "overrides": [],
+    "sha256": "1002bc2fe4327917b0e451022a3e19f9a312de7c9f15a717e414cf555bc508e0",
+    "bytes": 1991049
+  }
+]

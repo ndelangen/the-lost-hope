@@ -1,0 +1,392 @@
+[
+  {
+    "name": "Drow",
+    "statBlock": {
+      "name": "Drow",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 15,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "description": "A dark elf of the Underdark who can outline enemies in Faerie Fire or slip away in magical darkness.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain shirt.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 11). No material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage. The target makes a DC 13 Constitution save. On failure it is Poisoned for 1 hour. If it fails by at least 5, it is also Unconscious while Poisoned by the bolt. Damage wakes it, and another creature can spend an action shaking it awake.",
+        "Printed source": "Monster Manual (2014), p. 128."
+      }
+    }
+  },
+  {
+    "name": "Drow (Magic Equipment)",
+    "statBlock": {
+      "name": "Drow (Magic Equipment)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 19,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "description": "A dark elf armed with enchanted armor and a shortsword. Sunlight can strip the enchantments.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "+1 chain shirt.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 11). No material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire.",
+        "Actions": "+1 Shortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage. The target makes a DC 13 Constitution save. On failure it is Poisoned for 1 hour. If it fails by at least 5, it is also Unconscious while Poisoned by the bolt. Damage wakes it, and another creature can spend an action shaking it awake.",
+        "Printed source": "Monster Manual (2014), pp. 126, 128.",
+        "Magic equipment": "An hour or more in sunlight strips the +1 bonuses permanently. Afterward, use AC 15 and a shortsword attack at +4 to hit for 5 (1d6 + 2) piercing damage.",
+        "Printing note": "The printed example gives AC 19. The indexed transcription gives AC 16 for the same +1 chain shirt."
+      }
+    }
+  },
+  {
+    "name": "Drow Elite Warrior (Magic Equipment)",
+    "statBlock": {
+      "name": "Drow Elite Warrior (Magic Equipment)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 20,
+      "hp": 71,
+      "hitDice": "11d8 + 22",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "A drow house guard with a poisoned magic blade, enchanted studded leather, and a shield.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 12), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire, Levitate (self only).",
+        "Actions": "Multiattack. Make two +2 shortsword attacks.\n+2 Shortsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 9 (1d6 + 6) piercing plus 10 (3d6) poison damage.\nHand Crossbow. Ranged weapon attack, +7 to hit, range 30/120 ft., one target. Hit 7 (1d6 + 4) piercing damage. The target makes a DC 13 Constitution save or is Poisoned for 1 hour. On a failure by 5 or more, the target is also Unconscious while Poisoned this way. Damage or an action by another creature to shake it wakes it.",
+        "Reactions": "Parry. Add 3 to AC against one melee attack that would hit. The defender must see the attacker and be wielding a melee weapon.",
+        "Printed source": "Monster Manual (2014), pp. 126, 128. The official errata corrects the shortsword reach to 5 ft.",
+        "Armor": "+2 studded leather and shield.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Magic equipment": "An hour or more in sunlight strips the +2 bonuses permanently. Afterward, use AC 18 and a shortsword attack at +7 to hit for 7 (1d6 + 4) piercing plus 10 (3d6) poison damage."
+      },
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 10
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 5,
+        "Wis": 4
+      }
+    }
+  },
+  {
+    "name": "Drow Priestess of Lolth (Magic Equipment)",
+    "statBlock": {
+      "name": "Drow Priestess of Lolth (Magic Equipment)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 19,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "description": "A cleric of Lolth in enchanted scale mail who can call giant spiders or risk summoning a yochlol.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Innate spellcasting": "Charisma (spell save DC 15), with no material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire, Levitate (self only).",
+        "Spellcasting": "10th-level cleric spellcaster. Wisdom (spell save DC 14, +6 to hit with spell attacks). Prepared spells:\nCantrips at will: Guidance, Poison Spray, Resistance, Spare the Dying, Thaumaturgy.\n1st level (4 slots): Animal Friendship, Cure Wounds, Detect Poison and Disease, Ray of Sickness.\n2nd level (3 slots): Lesser Restoration, Protection from Poison, Web.\n3rd level (3 slots): Conjure Animals (2 Giant Spiders), Dispel Magic.\n4th level (3 slots): Divination, Freedom of Movement.\n5th level (2 slots): Insect Plague, Mass Cure Wounds.",
+        "Actions": "Multiattack. Make two scourge attacks.\nScourge. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing plus 17 (5d6) poison damage.\nSummon Demon (1/day). Magically attempt to summon a Yochlol with a 30 percent chance of success. On failure, the priestess takes 5 (1d10) psychic damage. On success, the following rules apply. The demon appears in an unoccupied space within 60 ft. of the summoner and fights on the summoner’s side. It cannot summon demons. It stays for 10 minutes, until either of them dies, or until the summoner dismisses it as an action.",
+        "Printed source": "Monster Manual (2014), pp. 126, 129.",
+        "Armor": "+3 scale mail.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Magic equipment": "An hour or more in sunlight strips the +3 bonus permanently. Afterward, use AC 16."
+      },
+      "passivePerception": 16,
+      "skills": {
+        "Insight": 6,
+        "Perception": 6,
+        "Religion": 4,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 6,
+        "Cha": 7
+      }
+    }
+  },
+  {
+    "name": "Drider",
+    "statBlock": {
+      "name": "Drider",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large monstrosity, chaotic evil",
+      "ac": 19,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "description": "Lolth transforms a drow who fails her test into a spider-bodied outcast. A drider may hunt alone or lead giant spiders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Traits": "Fey Ancestry. The creature has advantage on saving throws against being Charmed. Magic cannot put it to sleep.\nSpider Climb. The drider climbs difficult surfaces and ceilings without an ability check.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.\nWeb Walker. Webbing does not restrict the drider’s movement.",
+        "Innate spellcasting": "Wisdom (spell save DC 13). No material components. At will: Dancing Lights. 1/day each: Darkness, Faerie Fire.",
+        "Actions": "Multiattack. Make three longsword attacks or three longbow attacks. One of them can be replaced with a bite.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. Hit 2 (1d4) piercing plus 9 (2d8) poison damage.\nLongsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) with two hands.\nLongbow. Ranged weapon attack, +6 to hit, range 150/600 ft., one target. Hit 7 (1d8 + 3) piercing plus 4 (1d8) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 120. The official errata gives the longbow a range of 150/600 ft.",
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon."
+      },
+      "passivePerception": 15,
+      "skills": {
+        "Perception": 5,
+        "Stealth": 9
+      }
+    }
+  },
+  {
+    "name": "Ettercap",
+    "statBlock": {
+      "name": "Ettercap",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 13,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 3
+      },
+      "description": "A spiderlike creature that tends spiders and traps prey in dense forest webs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Spider Climb. The ettercap climbs difficult surfaces and ceilings without an ability check.\nWeb Sense. When it touches a web, it knows the location of any other creature touching the same web.\nWeb Walker. Webbing does not impede its movement.",
+        "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 6 (1d8 + 2) piercing plus 4 (1d8) poison damage. The target makes a DC 11 Constitution save. On failure it is Poisoned for 1 minute. It repeats the save at the end of each of its turns, ending the condition on a success.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) slashing damage.\nWeb (Recharge 5–6). Ranged weapon attack, +4 to hit, range 30/60 ft., one Large or smaller creature. On a hit, the target is Restrained. The target can spend an action on a DC 11 Strength check to break free. Destroying the web also frees it. The web has AC 10 and 5 HP. It is vulnerable to fire and immune to bludgeoning, poison, and psychic damage.",
+        "Printed source": "Monster Manual (2014), p. 131. Web damage defenses include the official errata."
+      }
+    }
+  },
+  {
+    "name": "Ettercap (variant)",
+    "statBlock": {
+      "name": "Ettercap (variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium monstrosity, neutral evil",
+      "ac": 13,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 3
+      },
+      "description": "A forest ettercap that hunts with a garrote made from its webbing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Spider Climb. The ettercap climbs difficult surfaces and ceilings without an ability check.\nWeb Sense. When it touches a web, it knows the location of any other creature touching the same web.\nWeb Walker. Webbing does not impede its movement.",
+        "Actions": "Multiattack. Make one Bite attack and one Web Garrote attack when the target qualifies.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 6 (1d8 + 2) piercing plus 4 (1d8) poison damage. The target makes a DC 11 Constitution save. On failure it is Poisoned for 1 minute. It repeats the save at the end of each of its turns, ending the condition on a success.\nWeb Garrote. Melee weapon attack, +4 to hit, reach 5 ft. The target must be a Small or Medium creature against which the ettercap has advantage on the attack. Hit 4 (1d4 + 2) bludgeoning damage and the target is Grappled (escape DC 12). While grappled this way, the target cannot breathe and the ettercap has advantage on attacks against it.\nWeb (Recharge 5–6). Ranged weapon attack, +4 to hit, range 30/60 ft., one Large or smaller creature. On a hit, the target is Restrained. The target can spend an action on a DC 11 Strength check to break free. Destroying the web also frees it. The web has AC 10 and 5 HP. It is vulnerable to fire and immune to bludgeoning, poison, and psychic damage.",
+        "Printed source": "Monster Manual (2014), p. 131, including the Web Garrote sidebar and official Web errata.",
+        "Ettercap Web Garrote": "This variant uses the Web Garrote action in place of Claws."
+      }
+    }
+  }
+]

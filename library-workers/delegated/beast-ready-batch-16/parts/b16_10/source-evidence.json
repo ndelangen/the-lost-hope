@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Clawfoot",
+    "kind": "beast",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "section": "Chapter 6, Friends and Foes, Dinosaurs",
+    "statBlockPage": 289,
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+    "url": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/561380-clawfoot",
+    "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+    "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+    "artworkSource": "beast-ready-batch-07/parts/b07_02/portraits/deinonychus.png",
+    "artworkSha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Reuses the earlier Deinonychus portrait for the bipedal silhouette, sharp teeth, and sickle-shaped toe claws stated in the Eberron entry.",
+    "sourceNotes": [
+      "Charisma is 6 (−2) in the printed block. The indexed summary gives 10."
+    ],
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigners": [
+      "Jeremy Crawford",
+      "James Wyatt",
+      "Keith Baker"
+    ],
+    "copyrightYear": 2019,
+    "printing": "First printing, November 2019",
+    "isbn": "978-0-7869-6692-9",
+    "productCode": "620C7287000001 EN",
+    "creditsPdfPage": 3,
+    "printedPages": [
+      289
+    ],
+    "pdfPage": 290,
+    "viewerPages": [
+      290
+    ],
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/erftlw",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/eberron-rising-from-the-last-war-",
+    "sourcePageKind": "The publisher contents index links to the Dinosaurs section. Unauthenticated access to the rules redirected to the book purchase page.",
+    "sourceWitness": "Original first-printing English book facsimile, rendered pp. 3 and 290.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "77b5eb22ec5a0c2691f57b11ea3050fe0938b2f3969700d70e4a6da7cdd06682",
+    "publicFolioPreview": "https://online.anyflip.com/tqblu/xfac/files/basic-html/page290.html",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/eberron-rising-from-the-last-war",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "94f194059290862f626f883fac83866e665655c7b4987405e17d71a9d4b4026d",
+    "errataEvidence": "No applicable change to these creatures in the publisher’s Eberron errata."
+  },
+  {
+    "name": "Fastieth",
+    "kind": "beast",
+    "publication": "Eberron: Rising from the Last War",
+    "edition": "2014 fifth edition",
+    "section": "Chapter 6, Friends and Foes, Dinosaurs",
+    "statBlockPage": 289,
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+    "url": "https://www.dndbeyond.com/sources/dnd/erftlw/friends-and-foes#Dinosaurs",
+    "officialCreatureUrl": "https://www.dndbeyond.com/monsters/487586-fastieth",
+    "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+    "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+    "artworkSource": "portraits/fastieth.png",
+    "artworkSha256": "a3017c0bafb6606006e3e6079478eeb08f5af725cb66e15b298e532c3157e070",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square OpenAI ImageGen portrait in the plain tan parchment style.",
+    "sourceNotes": [
+      "The p. 289 block prints Quickness under traits. It uses a bonus action and recharges on 5–6."
+    ],
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigners": [
+      "Jeremy Crawford",
+      "James Wyatt",
+      "Keith Baker"
+    ],
+    "copyrightYear": 2019,
+    "printing": "First printing, November 2019",
+    "isbn": "978-0-7869-6692-9",
+    "productCode": "620C7287000001 EN",
+    "creditsPdfPage": 3,
+    "printedPages": [
+      289
+    ],
+    "pdfPage": 290,
+    "viewerPages": [
+      290
+    ],
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/erftlw",
+    "officialPublisherProduct": "https://wpn.wizards.com/en/products/eberron-rising-from-the-last-war-",
+    "sourcePageKind": "The publisher contents index links to the Dinosaurs section. Unauthenticated access to the rules redirected to the book purchase page.",
+    "sourceWitness": "Original first-printing English book facsimile, rendered pp. 3 and 290.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "77b5eb22ec5a0c2691f57b11ea3050fe0938b2f3969700d70e4a6da7cdd06682",
+    "publicFolioPreview": "https://online.anyflip.com/tqblu/xfac/files/basic-html/page290.html",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/eberron-rising-from-the-last-war",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "94f194059290862f626f883fac83866e665655c7b4987405e17d71a9d4b4026d",
+    "errataEvidence": "No applicable change to these creatures in the publisher’s Eberron errata."
+  },
+  {
+    "name": "Two-Headed Crocodile",
+    "kind": "beast",
+    "publication": "Infernal Machine Rebuild",
+    "edition": "2014 fifth edition",
+    "section": "Appendix B, NPCs and Monsters",
+    "statBlockPage": 89,
+    "sourceUrl": "https://www.dndbeyond.com/sources/imr/npcs-and-monsters",
+    "url": "https://www.dndbeyond.com/sources/imr/npcs-and-monsters",
+    "officialCreatureUrl": null,
+    "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+    "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+    "artworkSource": "portraits/two-headed-crocodile.png",
+    "artworkSha256": "feac625a082ac879c0308ec69f5c5f5f90e5a371183502fbd7388924aea820dc",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "New square OpenAI ImageGen portrait in the plain tan parchment style.",
+    "sourceNotes": [
+      "The appendix gives a standalone Large Beast block. The bite restriction applies to the head maintaining the grapple."
+    ],
+    "publisher": "Wizards of the Coast LLC",
+    "leadDesigner": "Bart Carroll",
+    "copyrightYear": 2019,
+    "printing": "Original Extra Life 2019 digital adventure",
+    "printedPages": [
+      29,
+      89
+    ],
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/imr",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters?page=166",
+    "sourcePageKind": "Public D&D Beyond contents and creature indexes confirm the source and Beast scope. The official appendix redirects to purchase.",
+    "sourceWitness": "Complete text extraction of the original Extra Life 2019 module, with original p. 29 and p. 89 folio breaks and credits. The facsimile image payload was unavailable during verification.",
+    "sourceWitnessUrl": "",
+    "textWitnessSha256": "3654a659f9ff7d1fc149738e11e5bc5fed0b74d0e89dec379fbcdeed0c42be9b",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No title entry in the official errata index and no applicable published correction located."
+  },
+  {
+    "name": "Chimeric Fox",
+    "kind": "beast",
+    "publication": "NERDS Restoring Harmony: A Voice in the Wilderness",
+    "edition": "2014 fifth edition",
+    "section": "Adventure 2, Monster/NPC Statistics",
+    "statBlockPage": 8,
+    "sourceUrl": "",
+    "url": "",
+    "officialCreatureUrl": null,
+    "habitatEvidence": "Editorial search terms from the book’s creature account or its adventure encounter.",
+    "appearanceEvidence": "The printed creature description and the portrait selected in the batch roster.",
+    "artworkSource": "beast-ready-batch-13/parts/b13_01/portraits/chimeric-fox.png",
+    "artworkSha256": "2730def9de283410cd05e0859fad60c8bfacca172595d056a48c37da23969eab",
+    "artworkCredit": "OpenAI ImageGen",
+    "artworkNote": "Reuses the color-shifting Chimeric Fox portrait from the Frostmaiden group. The same fur effect and body plan are present in this adventure.",
+    "sourceNotes": [
+      "The supplies a complete Tiny Beast block on unnumbered sheet 8. The NERDS encounter on sheet 5 describes the fox choosing to follow Red after kind treatment."
+    ],
+    "publisher": "Wizards of the Coast LLC",
+    "collaborator": "Ferrara Candy Company",
+    "adventureDesigners": [
+      "Kat Kruger",
+      "Adam Lee"
+    ],
+    "copyrightYear": 2021,
+    "printing": "2021 Dungeons & Dragons and NERDS promotional , Adventure 2",
+    "creditsPdfPage": 12,
+    "printedPages": [],
+    "pdfPage": 8,
+    "viewerPages": [
+      5,
+      8,
+      12
+    ],
+    "officialCampaignUrl": "https://dnd.wizards.com/nerds",
+    "sourcePageKind": "Mirror of the original unnumbered free Wizards of the Coast and NERDS . The original promotion URL now redirects to the D&D Beyond home page.",
+    "sourceWitness": "Original 2021 , rendered sheets 5, 8, and 12.",
+    "sourceWitnessUrl": "",
+    "sourceSha256": "1f5664320019dadbe0975b3979fcad74afefd157fb3150f23d1723eef13685a5",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "No NERDS title entry or applicable published correction found in the official errata index."
+  }
+]

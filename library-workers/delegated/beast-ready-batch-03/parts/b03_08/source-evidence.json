@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Hawk",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      139
+    ],
+    "viewerPages": [
+      139
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "passiveCheckRules": "",
+    "appearanceEvidence": "Editorial description of the ordinary hawk in the already selected portrait. The printed stat block does not give a visual description.",
+    "habitatEvidence": "Editorial encounter tags for an ordinary hawk based on the animal depicted in the shared portrait. Neither printed stat block specifies habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "This is the Tiny Hawk. Neither scope lists the Blood Hawk’s Pack Tactics.",
+      "The printed passive Perception stays in the statistics. At-the-table scent or sight values apply the 2014 rule for a passive check with advantage."
+    ],
+    "pdfPage": 139,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Hawk",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      330
+    ],
+    "viewerPages": [
+      332
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/332/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/332/",
+    "passiveCheckRules": "",
+    "appearanceEvidence": "Editorial description of the ordinary hawk in the already selected portrait. The printed stat block does not give a visual description.",
+    "habitatEvidence": "Editorial encounter tags for an ordinary hawk based on the animal depicted in the shared portrait. Neither printed stat block specifies habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "This is the Tiny Hawk. Neither scope lists the Blood Hawk’s Pack Tactics.",
+      "The printed passive Perception stays in the statistics. At-the-table scent or sight values apply the 2014 rule for a passive check with advantage."
+    ],
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/332/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the ordinary Hawk block."
+  },
+  {
+    "name": "Rat",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, Version 1.0 (2018)",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      150
+    ],
+    "viewerPages": [
+      150
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "passiveCheckRules": "",
+    "appearanceEvidence": "Editorial description of the ordinary rat in the already selected portrait. The printed stat block does not give a visual description.",
+    "habitatEvidence": "Editorial encounter tags for an ordinary rat based on familiar urban and wetland placements. Neither printed stat block specifies habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The Tiny Rat has only a 20-ft. walking speed listed and its Bite has no disease rider. The official errata’s Diseased Giant Rat change on p. 327 applies to a separate entry.",
+      "The printed passive Perception stays in the statistics. At-the-table scent or sight values apply the 2014 rule for a passive check with advantage."
+    ],
+    "pdfPage": 150,
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Rat",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      335
+    ],
+    "viewerPages": [
+      337
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/337/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/337/",
+    "passiveCheckRules": "",
+    "appearanceEvidence": "Editorial description of the ordinary rat in the already selected portrait. The printed stat block does not give a visual description.",
+    "habitatEvidence": "Editorial encounter tags for an ordinary rat based on familiar urban and wetland placements. Neither printed stat block specifies habitat.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The Tiny Rat has only a 20-ft. walking speed listed and its Bite has no disease rider. The official errata’s Diseased Giant Rat change on p. 327 applies to a separate entry.",
+      "The printed passive Perception stays in the statistics. At-the-table scent or sight values apply the 2014 rule for a passive check with advantage."
+    ],
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/337/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "errataEvidence": "Monster Manual errata v2.0 lists no change to the ordinary Rat block."
+  }
+]

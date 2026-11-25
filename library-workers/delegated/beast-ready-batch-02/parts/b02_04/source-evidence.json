@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Camel",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 354,
+    "printedPages": [
+      354
+    ],
+    "viewerPages": [
+      354
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 25,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 0,
+      "CON": 2,
+      "INT": -4,
+      "WIS": -1,
+      "CHA": -3
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description of the dromedary drawn in the shared original portrait. Both books identify the same ordinary animal.",
+    "habitatEvidence": "Editorial encounter placements based on the dromedary and the Black Flag water-use trait.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+    "mechanicsNotes": [
+      "The p. 354 camel heading is near the foot of the first column. Its traits and actions continue at the top of the second.",
+      "Camel Resilience follows native condition resistance on page 232."
+    ]
+  },
+  {
+    "name": "Camel",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "2014 Monster Manual",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      320
+    ],
+    "viewerPages": [
+      322
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+    "printWitness": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/322/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialCrossCheck": "https://www.dndbeyond.com/monsters/16819-camel",
+    "officialErrata": "",
+    "errataEvidence": "Wizards of the Coast Monster Manual errata v2.0 contains no Camel change.",
+    "appearanceEvidence": "Editorial description of the dromedary drawn in the shared original portrait. Both books identify the same ordinary animal.",
+    "habitatEvidence": "Editorial encounter placements based on the dromedary and the Black Flag water-use trait.",
+    "habitatSourceKind": "Editorial encounter suggestions. The 2014 print block has no habitat field. The D&D Beyond Legacy record also tags Desert.",
+    "mechanicsNotes": [
+      "The printed 2014 Bite uses 1d4 without adding a damage modifier. Camel Resilience and Bile Spit come from the separate Black Flag entry."
+    ]
+  },
+  {
+    "name": "Frog",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 357,
+    "printedPages": [
+      357
+    ],
+    "viewerPages": [
+      357
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": -5,
+      "DEX": 0,
+      "CON": -1,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description of the original portrait and ordinary pond-frog anatomy.",
+    "habitatEvidence": "Ponds and marshes are inferred from Amphibious and its printed swim speed.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+    "mechanicsNotes": [
+      "The Black Flag frog has its own Bite. The Giant Frog’s swallow and tongue abilities belong to separate blocks."
+    ]
+  },
+  {
+    "name": "Goat",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 358,
+    "printedPages": [
+      358,
+      359
+    ],
+    "viewerPages": [
+      358,
+      359
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 1,
+      "DEX": 0,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description of the original portrait and domestic goat anatomy.",
+    "habitatEvidence": "Rocky hills and mountain pasture are editorial encounter suggestions for the animal depicted.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+    "mechanicsNotes": [
+      "The goat’s reaction continues at the top of the left column on p. 359. Its repeat protection applies to creatures that were frightened."
+    ]
+  },
+  {
+    "name": "Hawk",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 359,
+    "printedPages": [
+      359
+    ],
+    "viewerPages": [
+      359
+    ],
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 1,
+      "CON": -1,
+      "INT": -4,
+      "WIS": 2,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Editorial description of the original portrait, with the printed flight and Talons confirming the body plan.",
+    "habitatEvidence": "Open country and woodland edges are editorial locations with clear sight lines for a hunting hawk.",
+    "habitatSourceKind": "Editorial encounter suggestions. The v0.2 stat block has no habitat field.",
+    "mechanicsNotes": [
+      "Hawk and Blood Hawk have distinct blocks. The ordinary Hawk uses printed Heightened Sight 19 for vision and fixed Perception 14 otherwise."
+    ]
+  }
+]

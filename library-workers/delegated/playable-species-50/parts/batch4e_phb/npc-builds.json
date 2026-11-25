@@ -1,0 +1,295 @@
+{
+  "builds": [
+    {
+      "id": "deva-dawnledger-4e",
+      "title": "Deva archive negotiator, Invoker 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "Level 1 Invoker NPC. Uses 4e character math.",
+      "size": "Medium",
+      "type": "Immortal humanoid",
+      "abilityScores": {
+        "STR": 10,
+        "CON": 13,
+        "DEX": 11,
+        "INT": 16,
+        "WIS": 18,
+        "CHA": 12
+      },
+      "ac": 16,
+      "hp": 23,
+      "initiative": 4,
+      "speed": "6 squares",
+      "senses": "Normal vision.",
+      "languages": "Common, Dwarven, Elven",
+      "skills": [
+        "Arcana +8",
+        "History +10",
+        "Insight +9",
+        "Religion +10"
+      ],
+      "traits": [
+        "Unaligned, follows Ioun. Hide armor +3 and Intelligence +3. Fortitude 12, Reflex 14, Will 15. Bloodied 11. Seven healing surges at 5 HP. Improved Initiative adds +4. She uses a mundane quarterstaff as an implement.",
+        "Astral Majesty grants +1 to all defenses against a bloodied attacker. Resist 5 radiant and 5 necrotic. Immortal origin.",
+        "Covenant of Preservation. When she uses a divine encounter or daily attack on her turn, Selian can slide one ally within 10 squares 1 square. She uses one Channel Divinity power per encounter."
+      ],
+      "actions": [
+        "Quarterstaff, melee basic. +2 vs. AC for 1d8 damage.",
+        "Sun Strike, at-will standard, ranged 10. +4 vs. Reflex, 1d8+4 radiant and slide the target 1 square. This also works as her ranged basic attack.",
+        "Divine Bolts, at-will standard, ranged 10. Choose one or two creatures. +4 vs. Reflex against each, 1d6+4 lightning on a hit.",
+        "Blades of Astral Fire, encounter standard, area burst 1 within 10. +4 vs. Reflex against enemies in the burst, 1d6+4 radiant. Allies in that burst gain +4 AC until the end of Selian’s next turn through Covenant of Preservation.",
+        "Binding Invocation of Chains, daily standard, close burst 10. +4 vs. Reflex against each enemy. Hit slows (save ends). Miss slows through the end of Selian’s next turn.",
+        "Preserver’s Rebuke, Channel Divinity encounter reaction. After an enemy within 10 squares hits an ally, add +3 to Selian’s next attack against that enemy before her next turn ends.",
+        "Rebuke Undead, Channel Divinity encounter standard, close blast 5 against undead. +4 vs. Will, 1d10+4 radiant, push 2 squares, and daze through the end of Selian’s next turn. Half damage on a miss.",
+        "Memory of a Thousand Lifetimes, encounter, no action. Add 1d6 after seeing an attack roll, saving throw, skill check, or ability check."
+      ],
+      "tactics": "Selian opens with Blades of Astral Fire to shield the archive staff, then uses Sun Strike to pull an attacker away from the reading desk. She saves Memory for a narrow miss."
+    },
+    {
+      "id": "githzerai-quietmere-4e",
+      "title": "Githzerai threshold escort, Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "Level 1 Monk NPC. Uses 4e character math.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "abilityScores": {
+        "STR": 13,
+        "CON": 12,
+        "DEX": 18,
+        "INT": 11,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "ac": 16,
+      "hp": 24,
+      "initiative": 10,
+      "speed": "6 squares",
+      "senses": "Normal vision.",
+      "languages": "Common, Deep Speech",
+      "skills": [
+        "Acrobatics +11",
+        "Athletics +8",
+        "Insight +8",
+        "Perception +8"
+      ],
+      "traits": [
+        "Cloth, Dexterity +4 and Unarmored Defense +2. Fortitude 13, Reflex 15, Will 14. Bloodied 12. Eight healing surges at 6 HP. Initiative includes +2 Danger Sense and +4 Improved Initiative.",
+        "Centered Breath adds +1 Fortitude through Mental Equilibrium. A mundane ki focus provides no enhancement. Choose one Full Discipline per turn unless an action point permits switching. Its movement and attack techniques use their listed actions.",
+        "Defended Mind grants +2 on saving throws against daze, domination, and stun. On second wind, Reth can also shift 3 as a free action."
+      ],
+      "actions": [
+        "Monk unarmed strike, melee basic. +4 vs. AC, 1d8+1 damage while at least one hand is free.",
+        "Five Storms, at-will Full Discipline. Standard attack, close burst 1, +4 vs. Reflex against visible enemies for 1d8+4. Movement technique shifts 2 squares as a move action.",
+        "Dragon’s Tail, at-will Full Discipline. Standard melee touch, +4 vs. Fortitude for 1d6+4 and prone. Its move technique swaps places with an adjacent ally or prone enemy.",
+        "Drunken Monkey, encounter Full Discipline. Standard melee touch, +4 vs. Will against an enemy for 1d8+4 and slide 1. The target then makes a free melee basic attack with +3 to hit against an enemy that Reth chooses. Its move technique moves up to 7 squares ignoring difficult terrain, with +3 to defenses against opportunity attacks.",
+        "Masterful Spiral, daily standard, close burst 1 against enemies. +4 vs. Reflex, 3d8+4 force and half damage on a miss. The stance increases melee touch reach by 1 until it ends.",
+        "Centered Flurry of Blows, free once per round after a hit on Reth’s turn. An adjacent creature takes 5 damage. Slide it to an adjacent square, or 1 square in any direction if the triggering attack did not target it.",
+        "Iron Mind, encounter immediate interrupt when hit. Increase all defenses by 2 until the end of Reth’s next turn and check the triggering attack against the boosted defense."
+      ],
+      "tactics": "Reth uses Iron Mind to hold the doorway, and Dragon’s Tail to trade places with an ally. Second wind and Shifting Fortunes move him back into the next choke point."
+    },
+    {
+      "id": "minotaur-lowvault-4e",
+      "title": "Minotaur tunnel sentinel, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "Level 1 Fighter NPC. Uses 4e character math.",
+      "size": "Medium",
+      "type": "Humanoid",
+      "abilityScores": {
+        "STR": 18,
+        "CON": 16,
+        "DEX": 13,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 19,
+      "hp": 36,
+      "initiative": 1,
+      "speed": "5 squares in scale (base 6)",
+      "senses": "Normal vision.",
+      "languages": "Common, Giant",
+      "skills": [
+        "Athletics +7",
+        "Endurance +6",
+        "Intimidate +5",
+        "Nature +3",
+        "Perception +3"
+      ],
+      "traits": [
+        "Scale +7 and heavy shield +2. Fortitude 16, Reflex 13, Will 11. Bloodied 18. Thirteen healing surges at 9 HP including Vitality. Toughness adds 5 HP. The heavy shield gives −2 on physical skill checks.",
+        "One-handed Fighter Weapon Talent adds +1 to warhammer attacks. Combat Challenge can mark an attacked enemy through the end of Brann’s next turn. The mark gives −2 to attacks that exclude Brann. If a creature he marked is adjacent and shifts or makes an attack excluding him, he can make a melee basic attack as an immediate interrupt.",
+        "Combat Superiority adds +1 to opportunity attack rolls. When one hits a creature whose movement provoked it, that movement stops. Heedless Charge adds 2 AC against opportunity attacks during a charge."
+      ],
+      "actions": [
+        "Warhammer, melee basic, +7 vs. AC for 1d10+4 damage. Opportunity attack is +8 vs. AC.",
+        "Sure Strike, at-will standard. +9 vs. AC, 1d10 damage.",
+        "Tide of Iron, at-will standard with shield. +7 vs. AC for 1d10+4. Push an eligible enemy 1 square, then optionally shift into its vacated square. At Medium size Brann can push targets up to Large.",
+        "Covering Attack, encounter standard. +7 vs. AC, 2d10+4 and an ally adjacent to the target can shift 2 squares.",
+        "Comeback Strike, daily standard, reliable. +7 vs. AC, 2d10+4 and Brann can spend a healing surge.",
+        "Goring Charge, encounter standard. Charge up to speed 5 under the normal charge rules and use the horn attack instead of the basic. +9 vs. AC with the charge bonus included, 1d6+4 and prone on a hit.",
+        "Ferocity, immediate interrupt when reduced to 0 HP or fewer. Make a melee basic attack if an immediate action is available."
+      ],
+      "tactics": "Brann uses Goring Charge to put a blocker on the ground, then positions his shield to keep the route open. He uses Covering Attack when somebody needs to withdraw."
+    },
+    {
+      "id": "shardmind-glasswake-4e",
+      "title": "Shardmind gate surveyor, Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "Level 1 Wizard NPC. Uses 4e character math.",
+      "size": "Medium",
+      "type": "Immortal humanoid (living construct)",
+      "abilityScores": {
+        "STR": 10,
+        "CON": 14,
+        "DEX": 11,
+        "INT": 18,
+        "WIS": 15,
+        "CHA": 12
+      },
+      "ac": 15,
+      "hp": 24,
+      "initiative": 4,
+      "speed": "6 squares",
+      "senses": "Normal vision.",
+      "languages": "Common, Deep Speech, Dwarven",
+      "skills": [
+        "Arcana +11",
+        "Endurance +4",
+        "Insight +7",
+        "Nature +7",
+        "Religion +11"
+      ],
+      "traits": [
+        "Cloth, Intelligence +4 and Staff of Defense +1. Fortitude 12, Reflex 14, Will 14. Bloodied 12. Eight healing surges at 6 HP. Improved Initiative adds +4.",
+        "Immortal living construct. Resist 5 psychic and telepathy 5 squares with creatures that have a language. The extra shardmind skill bonus applies to Religion. Staff of Defense once per encounter adds 2 to the defense targeted by one attack as an immediate interrupt.",
+        "Ritual Caster and four wizard cantrips. Daily prepared spell is Sleep. Flaming Sphere is the alternate spell in Nura’s book."
+      ],
+      "actions": [
+        "Quarterstaff, melee basic. +2 vs. AC for 1d8 damage.",
+        "Ray of Frost, at-will standard, ranged 10. +4 vs. Fortitude, 1d6+4 cold and slowed until the end of Nura’s next turn.",
+        "Thunderwave, at-will standard, close blast 3 against creatures. +4 vs. Fortitude, 1d6+4 thunder and push 2 squares.",
+        "Icy Terrain, encounter standard, area burst 1 within 10 against creatures. +4 vs. Reflex, 1d6+4 cold and prone. The burst creates difficult terrain until the end of Nura’s next turn. Nura can end it as a minor action.",
+        "Sleep, daily standard, area burst 2 within 20 against creatures. +4 vs. Will, slowed (save ends) on hit or miss. A hit target that fails its first save becomes unconscious (save ends).",
+        "Shard Swarm, encounter move, close burst 1. Enemies in the burst grant combat advantage to Nura until the end of Nura’s next turn. Then teleport 3 squares."
+      ],
+      "tactics": "Nura lays Icy Terrain across a lane and uses Shard Swarm to escape enemies that close the distance. If they crowd together, Nura uses the exposed angles to land Thunderwave."
+    },
+    {
+      "id": "wilden-reedfoot-4e",
+      "title": "Wilden crossing guardian, Warden 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "Level 1 Warden NPC. Uses 4e character math.",
+      "size": "Medium",
+      "type": "Fey humanoid",
+      "abilityScores": {
+        "STR": 16,
+        "CON": 16,
+        "DEX": 11,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 12
+      },
+      "ac": 18,
+      "hp": 38,
+      "initiative": 0,
+      "speed": "6 squares",
+      "senses": "Low-light vision.",
+      "languages": "Common, Elven",
+      "skills": [
+        "Athletics +5",
+        "Endurance +5",
+        "Nature +9",
+        "Perception +7",
+        "Stealth −1"
+      ],
+      "traits": [
+        "Hide +3, Earthstrength uses Constitution +3 for AC, and heavy shield +2. Fortitude 14, Reflex 12, Will 14 after Hardy Form adds +1 Will. Bloodied 19. Twelve healing surges at 9 HP. Toughness adds 5 HP. Armor and shield give −3 on physical skill checks.",
+        "Fey origin. Aspect of the Hunter is active, chosen after the last extended rest. Font of Life gives one extra save at the start of Briar’s turn against a save-ends effect.",
+        "Nature’s Wrath once on each of Briar’s turns marks each adjacent enemy as a free action until the end of Briar’s next turn. A marked foe takes −2 on an attack roll if the attack excludes Briar. Earthstrength adds +3 AC to the usual +2 defenses during second wind, until Briar’s next turn ends."
+      ],
+      "actions": [
+        "Longsword, melee basic, +6 vs. AC for 1d8+3 damage.",
+        "Earth Shield Strike, at-will standard, melee. +6 vs. AC, 1d8+3 and Briar gains +1 power AC until the end of their next turn.",
+        "Weight of Earth, at-will standard, melee. +6 vs. AC, 1d8+3 and slowed until the end of Briar’s next turn.",
+        "Hungry Earth, encounter standard, close burst 1 against enemies. +6 vs. Fortitude, 1d8+3. Its area is difficult terrain for enemies through the end of Briar’s next turn.",
+        "Form of the Willow Sentinel, daily minor. Until the encounter ends, Briar can negate a pull, push, or slide against them and adjacent allies gain +2 power Fortitude. Once in this form, when an adjacent enemy attacks an ally, interrupt with +6 vs. AC. Hit deals 1d8+3 and −4 to the triggering roll. Miss deals half damage and −2 to that roll.",
+        "Warden’s Fury, at-will immediate interrupt against a marked enemy in weapon reach that makes an attack excluding Briar. +6 vs. Fortitude, 1d8+3 and the target grants combat advantage to Briar and allies through the end of Briar’s next turn.",
+        "Warden’s Grasp, at-will immediate reaction when a marked enemy within 5 makes an attack excluding Briar. Slide it 1 square, slow it and stop it shifting through the end of its current turn.",
+        "Pursuit of the Hunter, encounter immediate reaction when an enemy within 2 squares moves on its turn. Shift 3. Through the end of Briar’s next turn, hits against that enemy deal +1d6 damage and ignore its normal −2 cover or concealment penalty."
+      ],
+      "tactics": "Briar marks enemies near the footbridge, then uses Weight of Earth to slow the one nearest the trail. When another foe runs, Briar follows with Pursuit of the Hunter."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Deva",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 2 (4e)",
+      "name": "Selian Dawnledger",
+      "build": "deva-dawnledger-4e",
+      "role": "Archive negotiator and Invoker.",
+      "motive": "Settle the dispute before the wardens close the archive.",
+      "hook": "Selian remembers the seal from a former life and asks to see the original charter."
+    },
+    {
+      "species": "Githzerai",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 3 (4e)",
+      "name": "Reth Quietmere",
+      "build": "githzerai-quietmere-4e",
+      "role": "Threshold escort and Monk.",
+      "motive": "Keep both sides of the border from blaming each other for the broken gate.",
+      "hook": "Reth asks visitors to cross the threshold one at a time and offers to carry their guide’s lantern."
+    },
+    {
+      "species": "Minotaur",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 3 (4e)",
+      "name": "Brann Lowvault",
+      "build": "minotaur-lowvault-4e",
+      "role": "Tunnel sentinel and Fighter.",
+      "motive": "Keep the escape stair clear while the last miners get out.",
+      "hook": "Brann holds the short ramp until he can see every member of the returning crew."
+    },
+    {
+      "species": "Shardmind",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 3 (4e)",
+      "name": "Nura Glasswake",
+      "build": "shardmind-glasswake-4e",
+      "role": "Gate surveyor and Wizard.",
+      "motive": "Map the unstable gaps before another traveler goes missing.",
+      "hook": "Nura offers to test an unstable doorway in exchange for a witness describing exactly what they see."
+    },
+    {
+      "species": "Wilden",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 3 (4e)",
+      "name": "Briar Reedfoot",
+      "build": "wilden-reedfoot-4e",
+      "role": "Crossing guardian and Warden.",
+      "motive": "Keep the newly cleared trail open without drawing visitors through a nesting ground.",
+      "hook": "Briar moves a snapped bough aside and asks which footprints the party followed."
+    }
+  ]
+}

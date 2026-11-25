@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Dromite",
+    "slug": "dromite",
+    "caption": "Ice Caste example",
+    "id": "species-314fae50da161c58dbbbe093",
+    "entry": "species-314fae50da161c58dbbbe093",
+    "version": "",
+    "suffix": "encounters-58/dromite.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-58/dromite.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-58/event-drafts/dromite-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 58 2026-11-23/event-drafts/dromite-event-v1.png",
+    "overrides": [],
+    "sha256": "8ca2e99ca31324e719e38a40ce65affb2f5cab51e04e90b65a9013b5cb18bc28",
+    "bytes": 2258240
+  }
+]

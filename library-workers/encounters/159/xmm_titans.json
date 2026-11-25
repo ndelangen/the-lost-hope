@@ -1,0 +1,504 @@
+[
+  {
+    "name": "Animal Lord",
+    "statBlock": {
+      "name": "Animal Lord",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 15,
+      "classification": "Medium celestial, neutral",
+      "ac": 19,
+      "hp": 323,
+      "hitDice": "34d8 + 170",
+      "speed": "60 ft., fly 60 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 25
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 23
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 12
+      },
+      "skills": {
+        "Acrobatics": 13,
+        "Athletics": 13,
+        "Perception": 18,
+        "Stealth": 13
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 28,
+      "description": "An immortal protector of animals from the Beastlands. It shifts between a humanoid guise and a great version of its animal, and calls the spirits of its kind to fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+19 (29).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Cold, Fire, Necrotic, Psychic, Radiant.",
+        "Condition immunities": "Charmed, Frightened, Stunned.",
+        "Traits": "Animal Lordship. The DM chooses Forager, Hunter, or Sage. Use that role for both Lordly Presence and Animal Spirit.\nLegendary Resistance (4/day). When the animal lord fails a saving throw, it can spend one use to succeed instead.\nLordly Presence. An enemy starting its turn in a 30-foot Emanation from the animal lord makes a DC 20 Wisdom save. On a failure, apply the effect for the chosen role. Forager. The enemy is Charmed until the end of its next turn. While Charmed this way, it is also Incapacitated. Hunter. The enemy is Frightened until the end of its next turn. Sage. The enemy takes 10 (3d6) Psychic damage and is magically bewildered until the end of its next turn. While bewildered, it subtracts 1d4 from its saving throws.\nMagic Resistance. The animal lord has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Rend and Radiant Ray, and use Animal Spirit.\nRend. Melee attack, +13 to hit, reach 5 ft. A hit deals 14 (2d6 + 7) Slashing damage and 7 (2d6) Force damage.\nRadiant Ray. Ranged attack, +12 to hit, range 120 ft. A hit deals 20 (4d6 + 6) Radiant damage.\nAnimal Spirit. Summon a spirit to strike one creature the animal lord can see within 120 ft. The target makes a DC 20 Dexterity save, taking 28 (4d10 + 6) Radiant damage on a failure or half on a success. Either way, apply the effect for the chosen role. Forager. The animal lord gains 20 Temporary Hit Points. Hunter. The animal lord has Advantage on attack rolls against the target until the start of the animal lord's next turn. Sage. The target has Disadvantage on attack rolls and ability checks until the end of its next turn. The spirit then disappears.\nSpellcasting. Wisdom is the spellcasting ability (save DC 20). Cast the following spells without Material components. At will, Animal Friendship, Animal Messenger, and Speak with Animals. Twice per day each, Awaken and Greater Restoration. Once per day each, Animal Shapes and Sunburst.",
+        "Bonus actions": "Shape-Shift. Take the form of a Huge or smaller version of the animal the lord represents or a Small or Medium Humanoid, or return to its true form. Only size can change among its game statistics. Equipment it wears or carries stays as it was.",
+        "Legendary actions": "3 uses, regained at the start of the animal lord's turn. Spend one use at the end of another creature's turn to take one option. The creature cannot take legendary actions while Incapacitated or otherwise unable to act.\nFeral Strike. Move up to the animal lord's Speed without provoking Opportunity Attacks and make one Rend attack.\nRadiant Strike. Make one Radiant Ray attack.",
+        "Habitats": "Planar (Beastlands).",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 15."
+      }
+    }
+  },
+  {
+    "name": "Animal Lord (Forager)",
+    "statBlock": {
+      "name": "Animal Lord (Forager)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 15,
+      "classification": "Medium celestial, neutral",
+      "ac": 19,
+      "hp": 323,
+      "hitDice": "34d8 + 170",
+      "speed": "60 ft., fly 60 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 25
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 23
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 12
+      },
+      "skills": {
+        "Acrobatics": 13,
+        "Athletics": 13,
+        "Perception": 18,
+        "Stealth": 13
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 28,
+      "description": "An immortal protector of animals such as bears, stags, or bees. Its presence captivates intruders, and the spirits it calls shield it in battle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+19 (29).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Cold, Fire, Necrotic, Psychic, Radiant.",
+        "Condition immunities": "Charmed, Frightened, Stunned.",
+        "Traits": "Animal Lordship. Use the Forager effects for Lordly Presence and Animal Spirit.\nLegendary Resistance (4/day). When the animal lord fails a saving throw, it can spend one use to succeed instead.\nLordly Presence. An enemy starting its turn in a 30-foot Emanation from the animal lord makes a DC 20 Wisdom save. On a failure, the enemy is Charmed until the end of its next turn. While Charmed this way, it is also Incapacitated.\nMagic Resistance. The animal lord has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Rend and Radiant Ray, and use Animal Spirit.\nRend. Melee attack, +13 to hit, reach 5 ft. A hit deals 14 (2d6 + 7) Slashing damage and 7 (2d6) Force damage.\nRadiant Ray. Ranged attack, +12 to hit, range 120 ft. A hit deals 20 (4d6 + 6) Radiant damage.\nAnimal Spirit. Summon a spirit to strike one creature the animal lord can see within 120 ft. The target makes a DC 20 Dexterity save, taking 28 (4d10 + 6) Radiant damage on a failure or half on a success. Either way, the animal lord gains 20 Temporary Hit Points. The spirit then disappears.\nSpellcasting. Wisdom is the spellcasting ability (save DC 20). Cast the following spells without Material components. At will, Animal Friendship, Animal Messenger, and Speak with Animals. Twice per day each, Awaken and Greater Restoration. Once per day each, Animal Shapes and Sunburst.",
+        "Bonus actions": "Shape-Shift. Take the form of a Huge or smaller version of the animal the lord represents or a Small or Medium Humanoid, or return to its true form. Only size can change among its game statistics. Equipment it wears or carries stays as it was.",
+        "Legendary actions": "3 uses, regained at the start of the animal lord's turn. Spend one use at the end of another creature's turn to take one option. The creature cannot take legendary actions while Incapacitated or otherwise unable to act.\nFeral Strike. Move up to the animal lord's Speed without provoking Opportunity Attacks and make one Rend attack.\nRadiant Strike. Make one Radiant Ray attack.",
+        "Habitats": "Planar (Beastlands).",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 15."
+      }
+    }
+  },
+  {
+    "name": "Animal Lord (Hunter)",
+    "statBlock": {
+      "name": "Animal Lord (Hunter)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 15,
+      "classification": "Medium celestial, neutral",
+      "ac": 19,
+      "hp": 323,
+      "hitDice": "34d8 + 170",
+      "speed": "60 ft., fly 60 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 25
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 23
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 12
+      },
+      "skills": {
+        "Acrobatics": 13,
+        "Athletics": 13,
+        "Perception": 18,
+        "Stealth": 13
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 28,
+      "description": "An immortal protector of animals such as wolves, cats, or hawks. It frightens intruders and calls an animal spirit to mark its prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+19 (29).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Cold, Fire, Necrotic, Psychic, Radiant.",
+        "Condition immunities": "Charmed, Frightened, Stunned.",
+        "Traits": "Animal Lordship. Use the Hunter effects for Lordly Presence and Animal Spirit.\nLegendary Resistance (4/day). When the animal lord fails a saving throw, it can spend one use to succeed instead.\nLordly Presence. An enemy starting its turn in a 30-foot Emanation from the animal lord makes a DC 20 Wisdom save. On a failure, the enemy is Frightened until the end of its next turn.\nMagic Resistance. The animal lord has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Rend and Radiant Ray, and use Animal Spirit.\nRend. Melee attack, +13 to hit, reach 5 ft. A hit deals 14 (2d6 + 7) Slashing damage and 7 (2d6) Force damage.\nRadiant Ray. Ranged attack, +12 to hit, range 120 ft. A hit deals 20 (4d6 + 6) Radiant damage.\nAnimal Spirit. Summon a spirit to strike one creature the animal lord can see within 120 ft. The target makes a DC 20 Dexterity save, taking 28 (4d10 + 6) Radiant damage on a failure or half on a success. Either way, the animal lord has Advantage on attack rolls against the target until the start of the animal lord's next turn. The spirit then disappears.\nSpellcasting. Wisdom is the spellcasting ability (save DC 20). Cast the following spells without Material components. At will, Animal Friendship, Animal Messenger, and Speak with Animals. Twice per day each, Awaken and Greater Restoration. Once per day each, Animal Shapes and Sunburst.",
+        "Bonus actions": "Shape-Shift. Take the form of a Huge or smaller version of the animal the lord represents or a Small or Medium Humanoid, or return to its true form. Only size can change among its game statistics. Equipment it wears or carries stays as it was.",
+        "Legendary actions": "3 uses, regained at the start of the animal lord's turn. Spend one use at the end of another creature's turn to take one option. The creature cannot take legendary actions while Incapacitated or otherwise unable to act.\nFeral Strike. Move up to the animal lord's Speed without provoking Opportunity Attacks and make one Rend attack.\nRadiant Strike. Make one Radiant Ray attack.",
+        "Habitats": "Planar (Beastlands).",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 15."
+      }
+    }
+  },
+  {
+    "name": "Animal Lord (Sage)",
+    "statBlock": {
+      "name": "Animal Lord (Sage)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 15,
+      "classification": "Medium celestial, neutral",
+      "ac": 19,
+      "hp": 323,
+      "hitDice": "34d8 + 170",
+      "speed": "60 ft., fly 60 ft. (hover), swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 25
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 23
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 12
+      },
+      "skills": {
+        "Acrobatics": 13,
+        "Athletics": 13,
+        "Perception": 18,
+        "Stealth": 13
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 28,
+      "description": "An immortal protector of animals such as owls, crows, or turtles. It bewilders intruders and sends animal spirits to distract them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+19 (29).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Cold, Fire, Necrotic, Psychic, Radiant.",
+        "Condition immunities": "Charmed, Frightened, Stunned.",
+        "Traits": "Animal Lordship. Use the Sage effects for Lordly Presence and Animal Spirit.\nLegendary Resistance (4/day). When the animal lord fails a saving throw, it can spend one use to succeed instead.\nLordly Presence. An enemy starting its turn in a 30-foot Emanation from the animal lord makes a DC 20 Wisdom save. On a failure, the enemy takes 10 (3d6) Psychic damage and is magically bewildered until the end of its next turn. While bewildered, it subtracts 1d4 from its saving throws.\nMagic Resistance. The animal lord has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Rend and Radiant Ray, and use Animal Spirit.\nRend. Melee attack, +13 to hit, reach 5 ft. A hit deals 14 (2d6 + 7) Slashing damage and 7 (2d6) Force damage.\nRadiant Ray. Ranged attack, +12 to hit, range 120 ft. A hit deals 20 (4d6 + 6) Radiant damage.\nAnimal Spirit. Summon a spirit to strike one creature the animal lord can see within 120 ft. The target makes a DC 20 Dexterity save, taking 28 (4d10 + 6) Radiant damage on a failure or half on a success. Either way, the target has Disadvantage on attack rolls and ability checks until the end of its next turn. The spirit then disappears.\nSpellcasting. Wisdom is the spellcasting ability (save DC 20). Cast the following spells without Material components. At will, Animal Friendship, Animal Messenger, and Speak with Animals. Twice per day each, Awaken and Greater Restoration. Once per day each, Animal Shapes and Sunburst.",
+        "Bonus actions": "Shape-Shift. Take the form of a Huge or smaller version of the animal the lord represents or a Small or Medium Humanoid, or return to its true form. Only size can change among its game statistics. Equipment it wears or carries stays as it was.",
+        "Legendary actions": "3 uses, regained at the start of the animal lord's turn. Spend one use at the end of another creature's turn to take one option. The creature cannot take legendary actions while Incapacitated or otherwise unable to act.\nFeral Strike. Move up to the animal lord's Speed without provoking Opportunity Attacks and make one Rend attack.\nRadiant Strike. Make one Radiant Ray attack.",
+        "Habitats": "Planar (Beastlands).",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 15."
+      }
+    }
+  },
+  {
+    "name": "Empyrean (Celestial)",
+    "statBlock": {
+      "name": "Empyrean (Celestial)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 113,
+      "classification": "Huge celestial (titan), neutral",
+      "ac": 22,
+      "hp": 346,
+      "hitDice": "21d12 + 210",
+      "speed": "50 ft., fly 50 ft. (hover), swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 27
+        }
+      },
+      "savingThrows": {
+        "Str": 17,
+        "Wis": 13
+      },
+      "skills": {
+        "Insight": 13,
+        "Perception": 13
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 23,
+      "description": "A titan descended from a deity of the Upper Planes. It may champion its patron's cause or set out to earn an honor of its own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+19 (29).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Bludgeoning, Piercing, Slashing.",
+        "Damage immunities": "Necrotic, Radiant.",
+        "Traits": "Legendary Resistance (4/day). When the empyrean fails a saving throw, it can spend one use to succeed instead.\nMagic Resistance. The empyrean has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Sacred Weapon and Divine Ray.\nSacred Weapon. Melee attack, +17 to hit, reach 10 ft. A hit deals 31 (6d6 + 10) Force damage, and the target is Stunned until the start of the empyrean's next turn. The target can choose to take 21 extra Force damage in place of the Stunned condition. The extra damage bypasses Resistance and Immunity.\nDivine Ray. Ranged attack, +15 to hit, range 600 ft. A hit deals 35 (6d8 + 8) damage. The empyrean chooses Necrotic or Radiant.\nSpellcasting. Charisma is the spellcasting ability (save DC 23). Cast the following spells without Material components. At will, Calm Emotions, Greater Restoration, Pass without Trace, and Water Breathing. Once per day each, Commune, Dispel Evil and Good, and Plane Shift.",
+        "Legendary actions": "3 uses, regained at the start of the empyrean's turn. Spend one use at the end of another creature's turn to take one option. The creature cannot take legendary actions while Incapacitated or otherwise unable to act.\nBolster. The empyrean gains 10 Temporary Hit Points. It and each ally within 30 ft. gain Advantage on D20 Tests until the end of the empyrean's next turn. The empyrean cannot use Bolster again until the start of its next turn.\nShockwave of Glory. Every creature in a 30-foot Emanation from the empyrean makes a DC 23 Constitution save. On a failure, it takes 27 (6d8) Force damage and falls Prone. On a success, it takes half the damage. The empyrean cannot use Shockwave of Glory again until the start of its next turn.\nSmite. Make one Divine Ray attack.",
+        "Habitats": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 113."
+      }
+    }
+  },
+  {
+    "name": "Empyrean (Fiend)",
+    "statBlock": {
+      "name": "Empyrean (Fiend)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 113,
+      "classification": "Huge fiend (titan), neutral",
+      "ac": 22,
+      "hp": 346,
+      "hitDice": "21d12 + 210",
+      "speed": "50 ft., fly 50 ft. (hover), swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 27
+        }
+      },
+      "savingThrows": {
+        "Str": 17,
+        "Wis": 13
+      },
+      "skills": {
+        "Insight": 13,
+        "Perception": 13
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 23,
+      "description": "A titan descended from a deity of the Lower Planes. It may try to seize its patron's power, raise an army, or escape its divine family.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+19 (29).",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Bludgeoning, Piercing, Slashing.",
+        "Damage immunities": "Necrotic, Radiant.",
+        "Traits": "Legendary Resistance (4/day). When the empyrean fails a saving throw, it can spend one use to succeed instead.\nMagic Resistance. The empyrean has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Multiattack. Make two attacks in any combination of Sacred Weapon and Divine Ray.\nSacred Weapon. Melee attack, +17 to hit, reach 10 ft. A hit deals 31 (6d6 + 10) Force damage, and the target is Stunned until the start of the empyrean's next turn. The target can choose to take 21 extra Force damage in place of the Stunned condition. The extra damage bypasses Resistance and Immunity.\nDivine Ray. Ranged attack, +15 to hit, range 600 ft. A hit deals 35 (6d8 + 8) damage. The empyrean chooses Necrotic or Radiant.\nSpellcasting. Charisma is the spellcasting ability (save DC 23). Cast the following spells without Material components. At will, Calm Emotions, Greater Restoration, Pass without Trace, and Water Breathing. Once per day each, Commune, Dispel Evil and Good, and Plane Shift.",
+        "Legendary actions": "3 uses, regained at the start of the empyrean's turn. Spend one use at the end of another creature's turn to take one option. The creature cannot take legendary actions while Incapacitated or otherwise unable to act.\nBolster. The empyrean gains 10 Temporary Hit Points. It and each ally within 30 ft. gain Advantage on D20 Tests until the end of the empyrean's next turn. The empyrean cannot use Bolster again until the start of its next turn.\nShockwave of Glory. Every creature in a 30-foot Emanation from the empyrean makes a DC 23 Constitution save. On a failure, it takes 27 (6d8) Force damage and falls Prone. On a success, it takes half the damage. The empyrean cannot use Shockwave of Glory again until the start of its next turn.\nSmite. Make one Divine Ray attack.",
+        "Habitats": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 113."
+      }
+    }
+  },
+  {
+    "name": "Empyrean Iota (Celestial)",
+    "statBlock": {
+      "name": "Empyrean Iota (Celestial)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 112,
+      "classification": "Medium celestial (titan), neutral",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "5 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "History": 4,
+        "Insight": 5,
+        "Perception": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 15,
+      "description": "A thought or memory of a deity from the Upper Planes given a will of its own. It may appear as a floating glyph or a mote of color and carry messages for its creator.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Truesight 30 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Bludgeoning, Piercing, Slashing.",
+        "Condition immunities": "Prone.",
+        "Traits": "Incorporeal Movement. Move through creatures and objects as if they were Difficult Terrain. If the iota ends its turn inside an object, it takes 5 (1d10) Force damage.\nMagic Resistance. The iota has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Otherworldly Strike. Melee or ranged attack, +5 to hit, reach 5 ft. or range 30 ft. A hit deals 7 (1d8 + 3) damage. The iota chooses Necrotic or Radiant.\nSpellcasting. Wisdom is the spellcasting ability. Cast Bless and Lesser Restoration once per day each without Material components. Cast Lesser Restoration as an action.",
+        "Bonus actions": "Healing Word (1/day). Cast Healing Word using Wisdom.",
+        "Habitats": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 112."
+      }
+    }
+  },
+  {
+    "name": "Empyrean Iota (Fiend)",
+    "statBlock": {
+      "name": "Empyrean Iota (Fiend)",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 112,
+      "classification": "Medium fiend (titan), neutral",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "5d8",
+      "speed": "5 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "skills": {
+        "History": 4,
+        "Insight": 5,
+        "Perception": 5
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 15,
+      "description": "A thought or memory of a deity from the Lower Planes given a will of its own. It may appear as a floating glyph or a mote of color and carry messages for its creator.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Truesight 30 ft.",
+        "Languages": "All.",
+        "Damage resistances": "Bludgeoning, Piercing, Slashing.",
+        "Condition immunities": "Prone.",
+        "Traits": "Incorporeal Movement. Move through creatures and objects as if they were Difficult Terrain. If the iota ends its turn inside an object, it takes 5 (1d10) Force damage.\nMagic Resistance. The iota has Advantage on saving throws against spells and other magical effects.",
+        "Actions": "Otherworldly Strike. Melee or ranged attack, +5 to hit, reach 5 ft. or range 30 ft. A hit deals 7 (1d8 + 3) damage. The iota chooses Necrotic or Radiant.\nSpellcasting. Wisdom is the spellcasting ability. Cast Bless and Lesser Restoration once per day each without Material components. Cast Lesser Restoration as an action.",
+        "Bonus actions": "Healing Word (1/day). Cast Healing Word using Wisdom.",
+        "Habitats": "Any.",
+        "Treasure": "Relics.",
+        "Printed source": "Monster Manual (2024), p. 112."
+      }
+    }
+  }
+]

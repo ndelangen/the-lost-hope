@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Dvati",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "A Dvati character has two identical bodies sharing one soul. Each is a Medium Humanoid with 30-ft. land speed and darkvision 60 ft. The species has no racial ability adjustments or racial Hit Dice. LA +1 applies to the one character.",
+      "Both twins use the same level, classes, feats, skill ranks, and XP total. The pair counts as one PC for XP. The two bodies move and act separately, within the restrictions on their shared abilities and spellcasting.",
+      "Roll each Hit Die once. Each twin adds half the die result and the full Constitution modifier to their own hit points. Track damage and healing on each body. Both save and take damage separately when caught in an ordinary area effect.",
+      "Class uses and spell slots are one shared pool. Both twins normally take the casting actions together, with one providing materials. One twin can cast alone if the other takes no actions during the casting. Even a free action by the other twin ruins the attempt and loses the spell.",
+      "Personal spells affect both twins when they share a plane, or only the caster when on different planes. Ordinary touch spells affect the twin touched. Spell Conductor can shift an ongoing harmless touch spell to the other twin on the same plane as a move action. The pair can transfer a spell it casts as part of casting, and the text disallows transferring spells used by others.",
+      "Most effects stay with the body affected. A mind-affecting spell or ability affecting one twin affects both. If a single such effect targets both at once, use one save. Negative levels and levels lost through return to life apply to both. Use one save to remove a negative level.",
+      "Pair telepathy works across any distance and across planes. The twins do not share senses. A full-round action reveals the other twin’s current hit points and mental state, plus their direction and distance when on the same plane.",
+      "If a twin dies, each elapsed day deals 1d4 Constitution and Wisdom damage to the survivor and adds a cumulative −1 to attacks, skill checks, and saves. This damage and penalty cannot be removed while the survivor lives and their twin is dead. Both vanish immediately upon the missing twin’s return to life.",
+      "Pair Link gives both twins +3 to hit when they flank the same foe together. When one twin successfully aids the other’s attack or AC, the bonus is +4.",
+      "Echo Attack requires both twins to spend a move action speaking while flanking the same creature. Make one Perform (sing) check for the Will save DC. On a failed save choose +1 to both twins’ attacks against that creature or +1 to their AC against its attacks for one round. A creature must be able to hear and be flanked.",
+      "Common and Dvati are automatic. Any bonus language is eligible. Speaking Dvati takes two simultaneous speakers. Favored class Bard."
+    ]
+  }
+]

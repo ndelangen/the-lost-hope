@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Tiger",
+    "file": "portraits/tiger.png",
+    "sha256": "ab8882e587099b2576d827b28e6c0a93ab8f94804718499ea17841b619151cc6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Weasel",
+    "file": "portraits/weasel.png",
+    "sha256": "d107afb234331b06ec7711391d9037c3c6fdc4da154468c04a8bc8cffa892f26",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Winter Wolf",
+    "file": "portraits/winter-wolf.png",
+    "sha256": "c86355ad1c0239563cbc644bef410f9ab98dd29c83ecb7364f09d61a8707189b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Wolf",
+    "file": "portraits/wolf.png",
+    "sha256": "7525f86dec53a471cc36f9a6346ab17c2566f8c7664cdb512208dacc50619008",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Worg",
+    "file": "portraits/worg.png",
+    "sha256": "8d90ab7611d0bbb6f8cea870c593a6ada73e2df7a658dfec2282c40488ef0d6c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

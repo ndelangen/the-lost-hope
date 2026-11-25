@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Goat",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 138,
+    "printedPages": [
+      138
+    ],
+    "sourceHeading": "Goat",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "The portrait shows a sure-footed cream-coated goat with split hooves, a short beard, and backward-curving horns. Appearance details are editorial.",
+    "habitatEvidence": "Mountain slopes, rocky hills, and pasture are editorial search tags. The printed block does not name habitats or provide a dedicated climbing speed.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "goat",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Goat",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=331",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=331",
+    "printedPages": [
+      330
+    ],
+    "sourceHeading": "Goat",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 330 corresponds to page 331 in the mobile reader.",
+    "appearanceEvidence": "The portrait shows a sure-footed cream-coated goat with split hooves, a short beard, and backward-curving horns. Appearance details are editorial.",
+    "habitatEvidence": "Mountain slopes, rocky hills, and pasture are editorial search tags. The printed block does not name habitats or provide a dedicated climbing speed.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "goat"
+  },
+  {
+    "name": "Quipper",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0, November 2018",
+    "url": "",
+    "sourceUrl": "",
+    "pdfPage": 150,
+    "printedPages": [
+      150
+    ],
+    "sourceHeading": "Quipper",
+    "section": "Chapter 12: Monsters",
+    "pageNumbering": "Printed folio and page agree.",
+    "appearanceEvidence": "Page 150 describes a sharp-toothed carnivorous fish. The gray-green scales and reddish fins are editorial portrait details.",
+    "habitatEvidence": "Aquatic follows Water Breathing on p. 150. Underground lakes are an editorial search tag for this version, supported by the 2014 Monster Manual p. 335 description.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "quipper",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Quipper",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=336",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=336",
+    "printedPages": [
+      335
+    ],
+    "sourceHeading": "Quipper",
+    "section": "Appendix A: Miscellaneous Creatures",
+    "pageNumbering": "Printed folio 335 corresponds to page 336 in the mobile reader.",
+    "appearanceEvidence": "Page 335 describes a sharp-toothed carnivorous fish. The gray-green scales and reddish fins are editorial portrait details.",
+    "habitatEvidence": "Page 335 describes broad aquatic adaptation and names cold subterranean lakes. The tags summarize that text.",
+    "sourceDistinctions": [
+      "The encounter statistics match the other scoped printing. The official Monster Manual errata lists no change for this creature."
+    ],
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "artGroup": "quipper"
+  }
+]

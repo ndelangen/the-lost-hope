@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Ape",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Simio",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Appendix: Beasts",
+    "printedPage": 356,
+    "printedPages": [
+      356
+    ],
+    "pdfPage": 358,
+    "pdfPages": [
+      358
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.5. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 1/2 awards 100 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Forest is confirmed by the official English index. The Spanish Forest table on p. 377 appears to use Mono for the CR 1/2 Ape, whose stat-block heading is Simio.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_01/portraits/ape.png",
+      "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2"
+    },
+    "mechanicsNotes": [
+      "The block prints Strength +5 and both attacks at +5 to hit. Each attack uses +3 in its damage roll.",
+      "Both Fist attacks must hit the same qualifying target to grapple."
+    ]
+  },
+  {
+    "name": "Ape, Giant",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Simio, Gigante",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Appendix: Beasts",
+    "printedPage": 357,
+    "printedPages": [
+      357
+    ],
+    "pdfPage": 359,
+    "pdfPages": [
+      359
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 7.0. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 7 awards 2,900 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_04/portraits/giant-ape.png",
+      "sha256": "9b0f85a5cfa152fa78795b774ea683000cc0bc57d28f58a6bc94bb301dbb8024"
+    },
+    "mechanicsNotes": [
+      "The Spanish Multiattack explicitly specifies two Fists or two Rocks.",
+      "Throw is a bonus action. The printed Dexterity save is for the second creature. Forest is listed on printed p. 377."
+    ],
+    "portraitStyleNote": "The approved batch 04 portrait shows a silverback on muted tan parchment. The revised roster points to this image."
+  },
+  {
+    "name": "Axe Beak",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Pico de hacha",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Appendix: Beasts",
+    "printedPage": 350,
+    "printedPages": [
+      350
+    ],
+    "pdfPage": 352,
+    "pdfPages": [
+      352
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.3. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 1/4 awards 50 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_01/portraits/axe-beak.png",
+      "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c"
+    },
+    "mechanicsNotes": [
+      "The left column gives the stat line, and the top of the right column gives Beak and Evasive.",
+      "The book prints CR 1/4. The online index displays 0.3. Both terrain entries appear on printed p. 378."
+    ]
+  },
+  {
+    "name": "Baboon",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Babuino",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Appendix: Beasts",
+    "printedPage": 335,
+    "printedPages": [
+      335
+    ],
+    "pdfPage": 337,
+    "pdfPages": [
+      337
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.1. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 1/8 awards 25 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_02/portraits/baboon.png",
+      "sha256": "5bda8b7e87181eca0f2d68c20b3ced39cd6cba032980e635c429c790184d20cd"
+    },
+    "mechanicsNotes": [
+      "The printed p. 32 Beast summary table lists Babuino at CR 0. The actual stat block on p. 335 and terrain tables on pp. 377–378 use CR 1/8, so the staged record uses CR 1/8 and 25 XP. The online index displays 0.1.",
+      "Startling Display is the right-column continuation at the top of p. 335. The Spanish witness describes grunts."
+    ]
+  },
+  {
+    "name": "Badger",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Nosolorol Ediciones, licensed from Open Design LLC (Kobold Press)",
+    "printing": "Cubil de Monstruos, Spanish edition ©2025 of Monster Vault ©2024",
+    "spanishHeading": "Tejón",
+    "language": "Spanish",
+    "translationLanguage": "Spanish",
+    "translationLicense": "Official licensed Nosolorol translation",
+    "isbn": "979-13-87882-04-4",
+    "section": "Appendix: Beasts",
+    "printedPage": 357,
+    "printedPages": [
+      357
+    ],
+    "pdfPage": 359,
+    "pdfPages": [
+      359
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceWitness": "Verified directly in the licensed Spanish print-layout . The staged rules are English summaries of that stat block.",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherProductPage": "https://www.nosolorol.com/talesofthevaliant",
+    "officialEnglishCatalog": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Confirmed indexed English identity, size, Beast type, habitat and displayed CR 0.0. The Spanish stat block supplies the exact CR and mechanics.",
+    "officialErrata": "https://koboldpress.com/errata/",
+    "errataEvidence": "The official Monster Vault errata dated May 29, 2025 lists no entry-specific correction for this stat block.",
+    "xpEvidence": "Printed CR 0 awards 10 XP on Cubil de Monstruos p. 17.",
+    "habitatEvidence": "Habitat checked against the official English index and the Spanish terrain appendix.",
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+      "sha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e"
+    },
+    "mechanicsNotes": [
+      "The Bite action continues at the top of the right column on p. 357. Regular Perception is 11. Both terrain entries appear on printed p. 377."
+    ]
+  }
+]

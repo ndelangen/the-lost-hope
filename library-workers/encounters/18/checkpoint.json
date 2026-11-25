@@ -1,0 +1,59 @@
+{
+  "commit": "50d161a69955976bc72cabe9669ff8ac5adc8aaf",
+  "publication": "Icewind Dale: Rime of the Frostmaiden",
+  "encounterVersions": 6,
+  "fullStatBlocks": 6,
+  "icewindMonsterRecordsWithLocalRules": 108,
+  "generatedPortraitsInstalled": 6,
+  "generatedDraftsBackedUp": 6,
+  "replacedPortraitsBackedUp": 4,
+  "replacedFormatsBackedUp": 8,
+  "creditedGalleriesVerified": 6,
+  "sharedEntryPortraitFallbacks": [
+    "Brain in a Jar",
+    "Crag Cat"
+  ],
+  "allRecentVersionsWithGeneratedPortrait": 509,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-18-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-18-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/18/results.json",
+  "nextSourcePublication": "Icewind Dale: Rime of the Frostmaiden",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Sheep",
+      "source": "https://www.dndbeyond.com/monsters/299616-sheep",
+      "challenge": "0",
+      "kind": "beast"
+    }
+  ],
+  "followingSourcePublication": "Fizban's Treasury of Dragons",
+  "followingCandidates": [
+    {
+      "name": "Animated Breath (Acid Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059699-animated-breath-acid-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Cold Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059700-animated-breath-cold-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Fire Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059701-animated-breath-fire-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Lightning Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059702-animated-breath-lightning-form",
+      "challenge": "6"
+    },
+    {
+      "name": "Animated Breath (Poison Form)",
+      "source": "https://www.dndbeyond.com/monsters/2059703-animated-breath-poison-form",
+      "challenge": "6"
+    }
+  ]
+}

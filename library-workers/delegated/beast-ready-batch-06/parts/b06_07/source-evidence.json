@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Swarm of Insects (Spiders)",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "publisher": "Wizards of the Coast",
+    "printing": "First-print text with official 2018 Monster Manual errata",
+    "printedPages": [
+      338
+    ],
+    "pdfPage": 339,
+    "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+    "sourceHeading": "Swarm of Spiders",
+    "derivedFrom": "Swarm of Insects",
+    "errataUrl": "",
+    "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+    "sourceDistinctions": [
+      "Swarm of Spiders is the printed sidebar label. Swarm of Insects (Spiders) is the other catalog label for this variant.",
+      "Keep 20-ft. walking and climbing speeds and 10-ft. blindsight from the base. Add Spider Climb, Web Sense, and Web Walker.",
+      "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+    ],
+    "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+    "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+    "artGroup": "swarm-of-insects-spiders"
+  },
+  {
+    "name": "Swarm of Insects (Wasps)",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "publisher": "Wizards of the Coast",
+    "printing": "First-print text with official 2018 Monster Manual errata",
+    "printedPages": [
+      338
+    ],
+    "pdfPage": 339,
+    "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+    "sourceHeading": "Swarm of Wasps",
+    "derivedFrom": "Swarm of Insects",
+    "errataUrl": "",
+    "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+    "sourceDistinctions": [
+      "Swarm of Wasps is the printed sidebar label. Swarm of Insects (Wasps) is the other catalog label for this variant.",
+      "Replace the base movement with 5-ft. walking and 30-ft. flying. The variant has no climbing speed. Keep 10-ft. blindsight from the base.",
+      "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+    ],
+    "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+    "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+    "artGroup": "swarm-of-insects-wasps"
+  },
+  {
+    "name": "Swarm of Spiders",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "publisher": "Wizards of the Coast",
+    "printing": "First-print text with official 2018 Monster Manual errata",
+    "printedPages": [
+      338
+    ],
+    "pdfPage": 339,
+    "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+    "sourceHeading": "Swarm of Spiders",
+    "derivedFrom": "Swarm of Insects",
+    "errataUrl": "",
+    "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+    "sourceDistinctions": [
+      "Swarm of Spiders is the printed sidebar label. Swarm of Insects (Spiders) is the other catalog label for this variant.",
+      "Keep 20-ft. walking and climbing speeds and 10-ft. blindsight from the base. Add Spider Climb, Web Sense, and Web Walker.",
+      "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+    ],
+    "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+    "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+    "artGroup": "swarm-of-insects-spiders"
+  },
+  {
+    "name": "Swarm of Wasps",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publication": "Monster Manual (2014)",
+    "publisher": "Wizards of the Coast",
+    "printing": "First-print text with official 2018 Monster Manual errata",
+    "printedPages": [
+      338
+    ],
+    "pdfPage": 339,
+    "pageNumbering": "Printed folio 338 is page 339, counting the cover.",
+    "url": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceUrl": "https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=339",
+    "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+    "section": "Appendix A: Miscellaneous Creatures, Variant: Insect Swarms",
+    "sourceHeading": "Swarm of Wasps",
+    "derivedFrom": "Swarm of Insects",
+    "errataUrl": "",
+    "errataApplied": "Grappled condition immunity from the Swarm of X erratum.",
+    "sourceDistinctions": [
+      "Swarm of Wasps is the printed sidebar label. Swarm of Insects (Wasps) is the other catalog label for this variant.",
+      "Replace the base movement with 5-ft. walking and 30-ft. flying. The variant has no climbing speed. Keep 10-ft. blindsight from the base.",
+      "Bites retains the base profile’s piercing damage at both HP bands. This variant receives no poison rider."
+    ],
+    "appearanceEvidence": "The entry identifies the animals in the swarm. Colors and arrangement come from the reused illustration.",
+    "habitatEvidence": "The book gives no habitat list for this variant. The searchable locations are editorial encounter tags.",
+    "artGroup": "swarm-of-insects-wasps"
+  }
+]

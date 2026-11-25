@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Giant Marble Snake",
+    "kind": "beast",
+    "publication": "Palace of the Silver Princess (orange cover)",
+    "edition": "Basic D&D",
+    "ruleset": "basic-dnd",
+    "appearance": "A giant milk-white snake with a gold mane of facial hair, long fangs, multifaceted eyes, and translucent patches that show veins.",
+    "combat": {
+      "armorClass": 8,
+      "hitDice": "3",
+      "movement": "150 ft. (50 ft.)",
+      "numberOfAttacks": 1,
+      "damageDice": "1–6",
+      "habitats": [
+        "Sunny high ground, rocky ledges, and ruined fortresses"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Whistling charm",
+          "effectNote": "The snake whistles to draw a target to it. The target makes a save vs. Spell. The snake’s first successful strike against that target ends the charm. The bite is nonvenomous."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Room 29, ballroom",
+          "effectNote": "The snake hides in the suspended bell with 16 HP. Every creature that hears its whistle must save vs. Spell or be charmed."
+        }
+      ]
+    },
+    "notes": [
+      "1–4 appearing. Saves as Fighter 3. Morale 8. Treasure type C. Neutral.",
+      "Jean Wells, Palace of the Silver Princess (orange cover, TSR, 1981), pp. 25 and 27."
+    ]
+  },
+  {
+    "name": "Giant Marmoset",
+    "kind": "beast",
+    "publication": "Palace of the Silver Princess (orange cover)",
+    "edition": "Basic D&D",
+    "ruleset": "basic-dnd",
+    "appearance": "A giant jungle monkey with a sharp, furry tail spike. The two Cell D guards are 8 feet tall when upright and have 12-foot tails.",
+    "combat": {
+      "armorClass": 5,
+      "hitDice": "3",
+      "movement": "180 ft. (60 ft.)",
+      "numberOfAttacks": 4,
+      "damageDice": "1–6 / 1–6 / 1–8 / 1–4",
+      "habitats": [
+        "Jungle trees and cliffs"
+      ]
+    },
+    "mechanics": {
+      "Attacks": [
+        {
+          "name": "Claws, bite, and tail spike",
+          "effectNote": "The printed damage sequence is 1–6, 1–6, 1–8, and 1–4. The marmoset uses the 1–4 tail spike on the ground. In the trees, it hangs by its tail and fights with its claws and bite."
+        },
+        {
+          "name": "Thrown stones",
+          "effectNote": "From cliffs the marmosets prefer to throw large stones at prey below. The entry gives no damage or range for the stones."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Room 32, Cell D",
+          "effectNote": "Two Chaotic guards with 10 HP each attack anyone who enters except Travis. The general profile lists Neutral."
+        }
+      ]
+    },
+    "notes": [
+      "2–8 appearing. Saves as Fighter 3. Morale 8. Treasure type J. Neutral.",
+      "Jean Wells, Palace of the Silver Princess (orange cover, TSR, 1981), pp. 16 and 28."
+    ]
+  }
+]

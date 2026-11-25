@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Goliath",
+    "slug": "goliath",
+    "caption": "Kethan Linekeeper Varukutai · Original Goliath NPC",
+    "id": "species-71aaca2df6978aba4c91b4be:7e4cecfcc881bceb834ec37b",
+    "entry": "species-71aaca2df6978aba4c91b4be",
+    "version": "7e4cecfcc881bceb834ec37b",
+    "suffix": "encounters-78/goliath.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-78/goliath.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-78/event-drafts/goliath-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 78 2026-11-24/event-drafts/goliath-event-v1.png",
+    "overrides": [],
+    "sha256": "5075ac5e35b97b28e73c6e81f6f6456652a48cf564b5c801ae0ba0106465bc8a",
+    "bytes": 2005472
+  }
+]

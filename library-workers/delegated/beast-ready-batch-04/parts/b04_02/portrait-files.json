@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "blood-hawk",
+    "file": "portraits/blood-hawk.png",
+    "sha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "brown-bear",
+    "file": "portraits/brown-bear.png",
+    "sha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "constrictor-snake",
+    "file": "portraits/constrictor-snake.png",
+    "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

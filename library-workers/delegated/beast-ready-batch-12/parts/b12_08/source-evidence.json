@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Spider, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Araña, Gigante",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      334
+    ],
+    "pdfPages": [
+      336
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 1.0. The Spanish print supplies exact CR.",
+    "terminologyUrl": "",
+    "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "spider-giant",
+    "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+    "sourceDistinctions": [
+      "This block occupies the lower left column of p. 334. The p. 334 upper-left Web Shot belongs to the preceding ordinary spider. The Giant Spider’s own Web is a recharge bonus action that restrains. Spanish Web Walker explicitly refers to both nets and webs.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Spider, Giant Wolf",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Araña, lobo gigante",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      334
+    ],
+    "pdfPages": [
+      336
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 0.3. The Spanish print supplies exact CR.",
+    "terminologyUrl": "",
+    "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "spider-giant-wolf",
+    "portraitSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+    "sourceDistinctions": [
+      "This block occupies the upper right column of p. 334. The book prints CR 1/4. The catalog rounds it to 0.3. This bite’s poison damage is avoided on a successful save.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Stirge",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Estirge",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      184
+    ],
+    "pdfPages": [
+      186
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 0.1. The Spanish print supplies exact CR.",
+    "terminologyUrl": "",
+    "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "stirge",
+    "portraitSha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+    "sourceDistinctions": [
+      "The Spanish sidebar gives a separate Shadow Stirge option. The standard Blood Drain and Reactive Wiggle are the right-column stat block.",
+      "The book prints CR 1/8. The catalog rounds it to 0.1.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Tiger",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Tigre",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      359
+    ],
+    "pdfPages": [
+      361
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 1.0. The Spanish print supplies exact CR.",
+    "terminologyUrl": "",
+    "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "tiger",
+    "portraitSha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+    "sourceDistinctions": [
+      "Both Multiattack attacks must hit the same creature for the single delayed bleeding save. Ordinary tiger Pounce grants a bonus Bite against that prone target.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  },
+  {
+    "name": "Tiger, Saber-Toothed",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "printing": "Monster Vault ©2024, licensed Spanish edition Cubil de Monstruos ©2025",
+    "spanishHeading": "Tigre, dientes de sable",
+    "witnessTitle": "Cubil de Monstruos",
+    "witnessLanguage": "Spanish",
+    "witnessLicense": "Licensed Spanish edition published by Nosolorol Ediciones.",
+    "translationPublisher": "Nosolorol Ediciones",
+    "translator": "Andrea Iglesias",
+    "isbn": "979-13-87882-04-4",
+    "printedPages": [
+      359
+    ],
+    "pdfPages": [
+      361
+    ],
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "xpTablePrintedPage": 17,
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "rulesUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "catalogEvidence": "Kobold Press English catalog confirms name, size, type, habitat and catalog CR 2.0. The Spanish print supplies exact CR.",
+    "terminologyUrl": "",
+    "terminologyRole": "Companion English reference for Black Flag terminology. This profile uses rules from the Spanish Monster Vault witness.",
+    "appearanceSource": "Editorial description of the reused portrait.",
+    "habitatSource": "Kobold Press English catalog row for the scoped Monster Vault entry.",
+    "artGroup": "tiger-saber-toothed",
+    "portraitSha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+    "sourceDistinctions": [
+      "This Pounce grants a bonus Claws attack against the prone target. Its Bite can cause a persistent puncture wound, which a successful Medicine action or magical healing closes.",
+      "The dated May 29, 2025 Monster Vault errata has no entry for this profile."
+    ]
+  }
+]

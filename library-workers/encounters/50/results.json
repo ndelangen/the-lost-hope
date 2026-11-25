@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Durixaviinox",
+    "source": "https://www.dndbeyond.com/monsters/4485829-durixaviinox",
+    "challenge": "20",
+    "entry": "monster-6254715d0864c64d08454c9e",
+    "version": "a4488a84beeabb7e4b82fbf3",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "durixaviinox",
+    "kind": "monster",
+    "type": "Dragon",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "1b0933526b4e6b9e606a58715248909d13d742cc7feda1e25ac1cd6566cd31ce",
+    "status": "Stat block",
+    "appearance": "The Ruined Providence is a pale ruin dragon with glacial blue wings and jagged horns like icicles.",
+    "habitats": [
+      "Arctic wastes",
+      "Frozen ruins",
+      "Vexinoth"
+    ]
+  },
+  {
+    "name": "Forzaantilirys",
+    "source": "https://www.dndbeyond.com/monsters/4485845-forzaantilirys",
+    "challenge": "24",
+    "entry": "monster-35e9ee37a0b15794daa756bf",
+    "version": "d06b12b3135ee2cdb156fe4e",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "forzaantilirys",
+    "kind": "monster",
+    "type": "Dragon",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "548b40b5991381616b9bee824794ca11421443f89519fe2532db7a515f3a0480",
+    "status": "Stat block",
+    "appearance": "The Ashen Song, printed as Forzaantirilys, is a blood dragon with dark obsidian scales and ember-lit crimson wings.",
+    "habitats": [
+      "Volcanoes",
+      "Lava lakes",
+      "Mount Brazen"
+    ]
+  },
+  {
+    "name": "Frost Giant Wind Sprinter",
+    "source": "https://www.dndbeyond.com/monsters/4485848-frost-giant-wind-sprinter",
+    "challenge": "8",
+    "entry": "monster-f5dd203754661c2032899958",
+    "version": "518e702ddbc9459fbec2291d",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "frost-giant-wind-sprinter",
+    "kind": "monster",
+    "type": "Giant",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "49673b4bbe4ff8f333b0798f36cb22411c6fec05bfcdb5bba72ff4bffcc51b17",
+    "status": "Stat block",
+    "appearance": "A broad frost giant with an ice axe and overlapping blue issenblau armor plates.",
+    "habitats": [
+      "Frozen mountains",
+      "Glaciers",
+      "Arctic wastes"
+    ]
+  }
+]

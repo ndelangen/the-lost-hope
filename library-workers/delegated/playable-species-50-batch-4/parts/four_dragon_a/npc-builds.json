@@ -1,0 +1,296 @@
+{
+  "builds": [
+    {
+      "id": "dnd35-silverbrow-mara-fen",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (human, dragonblood)",
+      "speed": "30 ft.",
+      "title": "Silverbrow courier, Rogue 1",
+      "difficulty": "Rogue 1, ECL 1.",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 3,
+      "senses": "Normal vision.",
+      "languages": "Common, Draconic.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Balance +7",
+        "Bluff +6",
+        "Disguise +8",
+        "Hide +7",
+        "Move Silently +7",
+        "Search +5",
+        "Spot +4",
+        "Tumble +7",
+        "Use Magic Device +6"
+      ],
+      "traits": [
+        "Leather armor +2 and Dex +3 give AC 15, touch 13, flat-footed 12. BAB +0, grapple +0. Fort +1, Ref +5, Will +0.",
+        "Feats are Point Blank Shot and Precise Shot. The human bonus feat is retained. Nine class skills at 4 ranks use all 36 skill points.",
+        "Trapfinding permits Search for traps above DC 20 and Disable Device for magical traps. Sneak Attack +1d6 works against a target denied its Dex bonus to AC, or a target Mara flanks in melee. A ranged sneak attack must be within 30 ft."
+      ],
+      "actions": [
+        "Shortbow +3 ranged, 1d6 piercing, ×3, 60-ft. range increment. Within 30 ft. use +4 and 1d6+1. Precise Shot removes the normal −4 for shooting into melee.",
+        "Rapier +0 melee, 1d6 piercing, 18–20/×2.",
+        "Feather fall 1/day, CL 1. Use the printed spell’s free action timing, even out of turn. Within 25 ft., slow one Medium or smaller falling target to 60 ft. per round for 1 round or until it lands."
+      ],
+      "tactics": "Use cover and angled lines to support the ferry guards. Save feather fall for an accidental drop or a retreat from the net loft."
+    },
+    {
+      "id": "dnd35-deepwyrm-ered-voss",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (elf, dragonblood)",
+      "speed": "30 ft.",
+      "title": "Deepwyrm cavern warden, Fighter 1",
+      "difficulty": "Fighter 1, ECL 3, CR 2 by the drow PC-class rule.",
+      "ac": 17,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 3,
+      "senses": "Darkvision 120 ft.",
+      "languages": "Common, Elven, Undercommon, Draconic, Goblin.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 12,
+        "INT": 14,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Bluff +6",
+        "Climb +3",
+        "Intimidate +6",
+        "Jump +3",
+        "Listen +2",
+        "Search +4",
+        "Spot +2"
+      ],
+      "traits": [
+        "Chain shirt +4 and Dex +3 give AC 17, touch 13, flat-footed 14. BAB +1, grapple +2. Fort +3, Ref +3, Will +0. Add +2 to saves against enchantments. Magical sleep immunity. SR 12.",
+        "Sudden bright light blinds Ered for one round. Continuing exposure dazzles him, imposing −1 on attacks, Search and Spot. He may check for secret or concealed doors within 5 ft. without searching.",
+        "Feats are Point Blank Shot and Weapon Finesse. Climb, Intimidate and Jump each have 4 ranks. Bluff has 2 cross-class ranks, with racial +2, and chain shirt imposes −2 on Climb and Jump."
+      ],
+      "actions": [
+        "Rapier +4 melee from Weapon Finesse, 1d6+1 piercing, 18–20/×2.",
+        "Hand crossbow +4 ranged, 1d4 piercing, 19–20/×2, 30-ft. range increment. Within 30 ft. use +5 and 1d4+1. Reload is a move action that provokes.",
+        "Racial spell-like abilities at CL 1. Detect magic 3/day follows a 60-ft. cone with concentration for up to 1 minute. Disguise self 1/day lasts 10 minutes, with Will DC 13 to disbelieve on interaction.",
+        "Dancing lights 1/day makes up to four moving lights for 1 minute, range 110 ft. Darkness 1/day creates shadowy illumination in a 20-ft. radius from a touched object for 10 minutes. Attacks in that area have 20% miss chance, including attacks by creatures with darkvision."
+      ],
+      "tactics": "Hold a side passage with the crossbow. Drop a darkness-covered object to mask a retreat, then take the chalk-marked side tunnel."
+    },
+    {
+      "id": "dnd35-deepwyrm-nessa-rill",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (elf, dragonblood)",
+      "speed": "30 ft.",
+      "title": "Deepwyrm guild negotiator, Bard 1",
+      "difficulty": "Bard 1, ECL 1.",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Elven, Undercommon, Dwarven.",
+      "abilityScores": {
+        "STR": 9,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Bluff +9",
+        "Diplomacy +9",
+        "Disguise +7",
+        "Gather Information +9",
+        "Listen +5",
+        "Perform (oratory) +7",
+        "Search +2",
+        "Sense Motive +6",
+        "Spot +1"
+      ],
+      "traits": [
+        "Leather armor +2 and Dex +2 give AC 14, touch 12, flat-footed 12. BAB +0, grapple −1. Fort +1, Ref +4, Will +2. Add +2 to saves against enchantments. Magical sleep immunity.",
+        "Negotiator adds +2 to Diplomacy and Sense Motive. Bluff, Diplomacy, Disguise, Gather Information, Listen, Perform and Sense Motive each have 4 ranks. Bardic Knowledge +2.",
+        "Bardic music has one daily use shared across inspire courage, countersong and fascinate. Bard cantrips are level 0 spontaneous spells, CL 1, DC 13, two casts per day. Leather armor gives her no arcane failure chance for bard spells."
+      ],
+      "actions": [
+        "Rapier −1 melee, 1d6−1 piercing, 18–20/×2, minimum 1 damage. Light crossbow +2 ranged, 1d8 piercing, 19–20/×2, 80-ft. range increment. Move action to reload, provoking an attack of opportunity.",
+        "Inspire courage, standard action. Nessa and hearing allies gain +1 morale on attack and weapon damage rolls and saves against charm and fear, while they hear the performance and 5 rounds afterward. Countersong instead lets listeners within 30 ft. use her Perform result in place of a lower save against sonic or language-dependent magical attacks, up to 10 rounds of performance. Fascinate instead affects one attentive creature within 90 ft. that can see and hear Nessa in a quiet situation. Will save DC equals her Perform result. Maintain concentration up to 1 round at this level. An obvious threat ends it.",
+        "Cantrips known are ghost sound, light, message and prestidigitation. Ghost sound mimics up to four humans for 1 round, range 25 ft., Will DC 13 to disbelieve with interaction. Light illuminates a touched object in a 20-ft. bright and 20-ft. dim radius for 10 minutes. Message carries whispers to one creature within 110 ft. for 10 minutes. Prestidigitation makes minor tricks for up to 1 hour.",
+        "Racial spell-like abilities at CL 1. Detect magic 3/day follows a 60-ft. cone with concentration for up to 1 minute. Disguise self 1/day lasts 10 minutes, with Will DC 14 to disbelieve on interaction."
+      ],
+      "tactics": "Try to split the dispute into verifiable facts. If the meeting turns violent, inspire the guards and keep behind them."
+    },
+    {
+      "id": "dnd35-forestlord-tavin-belleaf",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (elf, dragonblood)",
+      "speed": "30 ft.",
+      "title": "Forestlord boundary ranger, Ranger 1",
+      "difficulty": "Ranger 1, ECL 1.",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "senses": "Low-light vision.",
+      "languages": "Common, Elven, Sylvan.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +7",
+        "Knowledge (nature) +5",
+        "Listen +9",
+        "Move Silently +7",
+        "Search +7",
+        "Spot +9",
+        "Survival +5"
+      ],
+      "traits": [
+        "Leather armor +2 and Dex +3 give AC 15, touch 13, flat-footed 12. BAB +1, grapple +3. Fort +3, Ref +5, Will +1. Magical sleep immunity. May check for secret or concealed doors within 5 ft. without searching.",
+        "The ranger grants martial weapons even though this lineage loses the elf’s racial weapon proficiencies. Track is a ranger bonus feat. Alertness adds +2 to Listen and Spot.",
+        "Favored enemy (magical beasts) grants +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot and Survival against them. Seven class skills have 4 ranks each. No ranger spells at this level."
+      ],
+      "actions": [
+        "Spear +3 melee, 1d8+3 piercing, ×3, wielded in two hands. Throw +4 ranged, 1d8+2 piercing, ×3, 20-ft. range increment.",
+        "Treewalk 1/day, move action. Touch and enter a tree, travel to another tree within 60 ft., then emerge adjacent to it at the start of the next turn. This supernatural ability does not provoke. Forestlord Pact suspends Treewalk and imposes −1 to attacks, caster or manifester level, and saves for 24 hours if attempting harm to a green dragon."
+      ],
+      "tactics": "Scout ahead from the edge of the path. Use the two orchard trees to cross the fence or rejoin the group."
+    },
+    {
+      "id": "dnd35-forestlord-iris-commonroot",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Humanoid (elf, dragonblood)",
+      "speed": "30 ft.",
+      "title": "Forestlord orchard sorcerer, Sorcerer 1",
+      "difficulty": "Sorcerer 1, ECL 1.",
+      "ac": 12,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 6,
+      "senses": "Low-light vision.",
+      "languages": "Common, Elven, Draconic.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Concentration +5",
+        "Hide +6",
+        "Listen +1",
+        "Search +2",
+        "Spellcraft +5",
+        "Spot +1"
+      ],
+      "traits": [
+        "Dex +2 gives AC 12, touch 12, flat-footed 10. Mage armor raises AC to 16 and flat-footed to 14. BAB +0, grapple +0. Fort +1, Ref +2, Will +2. Magical sleep immunity.",
+        "Improved Initiative grants +4. Concentration, Hide and Spellcraft each have 4 ranks. Iris has yet to summon a familiar.",
+        "Spontaneous arcane casting, CL 1. Five level-0 spells and four level-1 spells per day. Save DC 13 for cantrips and 14 for 1st-level spells."
+      ],
+      "actions": [
+        "Quarterstaff +0 melee, 1d6 bludgeoning, ×2, wielded in two hands as a single weapon.",
+        "1st-level spells known are mage armor and magic missile. Mage armor grants a touched creature +4 armor AC for 1 hour. Magic missile deals 1d4+1 force to a creature within 110 ft., no save, SR applies.",
+        "Cantrips known are detect magic, light, mage hand and ray of frost. Detect magic uses a 60-ft. cone with concentration up to 1 minute. Light illuminates a touched object for 10 minutes. Mage hand moves a nonmagical unattended object up to 5 lb., range 25 ft. Ray of frost is +2 ranged touch, 1d3 cold, range 25 ft., no save, SR applies.",
+        "Treewalk 1/day, move action. Touch and enter a tree, travel to another tree within 60 ft., then emerge adjacent to it at the start of the next turn. This supernatural ability does not provoke. Forestlord Pact suspends Treewalk and imposes −1 to attacks, caster or manifester level, and saves for 24 hours if attempting harm to a green dragon."
+      ],
+      "tactics": "Cast mage armor if a fight is likely. Stay near a familiar tree pair, and use magic missile only when the road is threatened."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mara Fen",
+      "species": "Silverbrow Human",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-silverbrow-mara-fen",
+      "role": "Rooftop dispatch courier.",
+      "motive": "Get the bridge foreman’s warning to the ferry crews before they cut the mooring lines.",
+      "hook": "Mara can show a route across the net lofts that avoids the crowded stairs."
+    },
+    {
+      "name": "Ered Voss",
+      "species": "Deepwyrm Drow",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-deepwyrm-ered-voss",
+      "role": "Cavern route warden.",
+      "motive": "Keep trespassers away from a disused stair under the old reservoir.",
+      "hook": "The warden keeps a small chalk map showing where the stair branches."
+    },
+    {
+      "name": "Nessa Rill",
+      "species": "Deepwyrm Half-Drow",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-deepwyrm-nessa-rill",
+      "role": "Negotiator for the ferry guild.",
+      "motive": "Get the ferrymen to agree on a neutral place to exchange disputed toll records.",
+      "hook": "She carries sealed evidence, but opens it only in front of both sides."
+    },
+    {
+      "name": "Tavin Belleaf",
+      "species": "Forestlord Elf",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-forestlord-tavin-belleaf",
+      "role": "Orchard boundary ranger.",
+      "motive": "Recover the missing witness before the wardens close off the grove.",
+      "hook": "Tavin can follow the witness’s path through the orchard and knows a tree on each side of the fence."
+    },
+    {
+      "name": "Iris Commonroot",
+      "species": "Forestlord Half-Elf",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-forestlord-iris-commonroot",
+      "role": "Traveling spellcaster who tends the orchard road.",
+      "motive": "Get a missing jug of clear springwater to the orchard keeper before dusk.",
+      "hook": "Iris knows the old boundary marks and can show where the path crosses an old garden wall."
+    }
+  ]
+}

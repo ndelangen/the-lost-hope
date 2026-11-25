@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Greenspawn Zealot",
+    "npc": "Kharven Reedscale",
+    "file": "",
+    "sha256": "461f5e6fd909933ca53b619e2fec2b750f06b3944a1762fb6505e0858d132d2c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Shaedling",
+    "npc": "Irix Sootthread",
+    "file": "",
+    "sha256": "c24db55180f11cdfcb50099ae5cbd5ef16e3b1e0d2628a50144eceb38327ce30",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Bladerager Troll",
+    "npc": "Brakk Rivetjaw",
+    "file": "",
+    "sha256": "8784bf5ac494e6be04693ded656b42b8fee447c0670d16dbd6b70347c3b25643",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ushemoi",
+    "npc": "Vask Burlhide",
+    "file": "",
+    "sha256": "12b3e8f72dbbc73ad1362d2295a6bdf1cf3ca1eecbe7930dd848e6963836d81c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Dire Wolverine",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-wolverine/wolverine-matthias-kabel.jpg",
+    "artist": "Wolverine photograph by Matthias Kabel · CC BY 2.5",
+    "kind": "photograph",
+    "sha256": "502b27628266591aa5d3f65a2de0e1581710a841125303127238beb30b0edb31",
+    "reference": "https://commons.wikimedia.org/wiki/File:Gulo_gulo_01.jpg",
+    "license": "https://creativecommons.org/licenses/by/2.5/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Wolverine",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-wolverine/wolverine-mount-rainier-nps.jpg",
+    "artist": "Wolverine trail camera image · Mount Rainier National Park · CC BY 2.0",
+    "kind": "photograph",
+    "sha256": "2c6b42cea9edf8c42e246e8b7315d34dfae54aa962135dcbf32626fd5f0604ec",
+    "reference": "https://commons.wikimedia.org/wiki/File:Wolverine_(50246188962).jpg",
+    "license": "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dog",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dog/dog-karen-arnold.jpg",
+    "artist": "Beagle photograph by Karen Arnold · CC0",
+    "kind": "photograph",
+    "sha256": "d93ccccdc56a9df6bedbb7d4ce59b2ce1ca436d3543358e6c259c0d25dc668d6",
+    "reference": "https://commons.wikimedia.org/wiki/File:Beagle-dog.jpg",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dog",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dog/dog-slyronit.jpg",
+    "artist": "Beagle photograph by Slyronit · CC BY-SA 4.0",
+    "kind": "photograph",
+    "sha256": "f86e1f0f28c5fd913c847dd0144c93689564a12f625831608a939523cd05af48",
+    "reference": "https://commons.wikimedia.org/wiki/File:Beagle_standing_alone.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Donkey",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/donkey/donkey-public-domain-images.jpg",
+    "artist": "Donkey photograph · Public Domain Images",
+    "kind": "photograph",
+    "sha256": "3c896bedc59914f5a19a4c68a1f6729ae3a6ba73a452266938ffd96e650b41af",
+    "reference": "https://commons.wikimedia.org/wiki/File:Donkey_animal_equus_africanus_asinus.jpg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Donkey",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/donkey/donkey-zak-raha.jpg",
+    "artist": "Donkey photograph by Zak Raha · CC BY-SA 4.0",
+    "kind": "photograph",
+    "sha256": "9e293464efbe00bb25282992f46807820ef54c102fd90333ee9b6d348b361ac1",
+    "reference": "https://commons.wikimedia.org/wiki/File:A_donkey_standing.jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Elasmosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/elasmosaurus/elasmosaurus-dmitry-bogdanov.png",
+    "artist": "Elasmosaurus reconstruction by Dmitry Bogdanov · Transparent edition by Ravenpuff · CC BY-SA 4.0",
+    "kind": "illustration",
+    "sha256": "d41fccfcb05920f30f2519dc76e5bfc15155142029be3803b70092b8559d65ef",
+    "reference": "https://commons.wikimedia.org/wiki/File:Elasmosaurus_platyurus_(transparent).png",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Elasmosaurus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/elasmosaurus/plesiosaurus-2024.webp",
+    "artist": "Related Plesiosaurus illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "74b8286df41ce8d600fd9430e42521ca6c17c97a4374001e4a2146c631ac24b9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Plesiosaurus.webp"
+  }
+]

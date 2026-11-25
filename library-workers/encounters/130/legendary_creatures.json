@@ -1,0 +1,605 @@
+[
+  {
+    "name": "Ashen Hoarder",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Construct, unaligned",
+    "ac": 15,
+    "hp": 184,
+    "hitDice": "16d12 + 80",
+    "speed": "40 ft.",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Immune to necrotic and poison damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 60 ft., passive Perception 10. Understands the languages of its creator but cannot speak.",
+    "description": "Necromancers use this spiked construct to retrieve corpses for their work.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Corpse Carrier. Start with 6 corpses or roll 1d6 + 3. Corpse Bomb and Create Zombies spend these corpses.",
+      "Actions": "Multiattack. Make two Arm attacks. If both hit the same creature, the hoarder can use Impale on that creature.\nArm. Melee weapon attack, +9 to hit, 10-ft. reach, one target. Hit 15 (3d6 + 5) bludgeoning, piercing, or slashing damage, chosen by the hoarder.\nImpale. One Large or smaller creature the hoarder sees within 10 ft. makes a DC 17 Strength save. On a failure, the creature takes 16 (3d10) piercing damage and becomes Restrained. At the start of each of its turns, it takes 16 (3d10) necrotic damage. If this damage reduces it to 0 HP, it dies and joins the corpse supply. A creature can use an action and pass a DC 17 Strength (Athletics) check to free itself or someone it can reach. Destroying the hoarder releases everyone it has impaled.\nCorpse Bomb. Hurl and destroy one corpse up to 60 ft. away. Creatures in a 20-ft.-radius sphere centered on it make a DC 17 Constitution save. On a failure, they take 33 (6d10) necrotic damage and cannot regain HP until the start of the hoarder's next turn. On a success, they take half damage.",
+      "Bonus Actions": "Create Zombies. Drop any number of carried corpses. Each becomes a zombie in an unoccupied space within 10 ft. and acts immediately after the hoarder.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses one of these options: move, take an action, or take a bonus action. If it becomes Dazed during its turn, its turn ends. Extra actions from effects such as Haste and Action Surge still apply. Cure Ailment, Lesser Restoration, Greater Restoration, or a similar supernatural effect can end this condition.",
+      "Printed source": "Graveyard, p. 308"
+    },
+    "ruleNotes": [
+      "Impale prints “Larger or smaller,” which is interpreted here as Large or smaller."
+    ],
+    "relatedCreatures": [
+      {
+        "name": "Zombie (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "zombie",
+          "zombies"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Atæshia",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Elemental (Air, Earth, Fire), neutral",
+    "ac": 20,
+    "hp": 332,
+    "hitDice": "35d8 + 175",
+    "speed": "50 ft., fly 30 ft. (hover)",
+    "cr": "23",
+    "xp": 50000,
+    "proficiencyBonus": 7,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Cha": {
+        "score": 23,
+        "modifier": 6
+      }
+    },
+    "otherStatistics": "Saving throws Con +12, Wis +13. Arcana +13, Deception +13, History +13, Nature +13, Perception +13, Persuasion +13, Religion +13. Resists cold, necrotic, poison, psychic, and radiant damage. Immune to fire damage and to Charmed, Frightened, and Poisoned. Blindsight 120 ft., passive Perception 23. Speaks all languages.",
+    "description": "The Queen of Ash moves as a cloud of ashes and can return through a death near where she fell.",
+    "sections": {
+      "Role": "Leader",
+      "Traits": "Offer to Remembrance (3/day). After Atæshia fails a save, a willing creature within 60 ft. that sees her may die immediately to turn her failure into a success.\nReborn From War. At 0 HP she collapses into ash. For the next 100 years, if a Celestial, Elemental, or Humanoid of CR or level 5 or higher dies within 60 ft. of that spot, she returns there with 25 HP.",
+      "Actions": "Multiattack. Make three Pale Flame attacks. One can be replaced by Moment of Loss if available.\nPale Flame. Melee or ranged spell attack, +13 to hit, 5-ft. reach or 120-ft. range, one target. Hit 20 (4d6 + 6) radiant plus 14 (4d6) fire damage. A creature reduced to 0 HP by this attack dies and leaves no remains.\nMoment of Loss (recharge 6). Turn one creature she sees within 60 ft. into ash. While ash, the target is immune to damage, provides no cover, and cannot take reactions. The target reforms at the start of its next turn and makes a DC 21 Constitution save. On a failure, its HP falls to 1. On a success, it takes 44 (8d10) necrotic damage, which cannot reduce it below 1 HP.\nFrom Death, Life (1/day). Use Kindled Sacrifice with Atæshia as the sacrifice, even if that villain action is unavailable.",
+      "Bonus Actions": "Flickering Flame. Teleport into a visible unoccupied space within 60 ft. Creatures within 5 ft. of the point she left take 5 (1d10) fire damage on a failed DC 21 Dexterity save.",
+      "Reactions": "Convocation of Ash. When an attack hits another Elemental she sees within 60 ft., halve its damage. The Elemental can move up to half its speed without provoking opportunity attacks.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Wave of Sorrow. Each enemy she sees within 120 ft. makes a DC 21 Wisdom save. On a failure, it is Dazed for 1 minute and repeats the save at the end of its turns. On a success, it cannot take reactions until the end of its next turn.\n2. Kindled Sacrifice. A willing creature within 60 ft. dies. Up to two other dead creatures within 60 ft. of that creature return to life. Each regains the HP the sacrificed creature had, capped at its own HP maximum.\n3. Life's Finale. Each enemy within 60 ft. makes a DC 21 Charisma save. On a failure, it takes 55 (10d10) necrotic damage and cannot regain HP until the end of Atæshia's next turn. A success halves the damage. A creature reduced to 0 HP by this effect immediately fails one death save.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses one of these options: move, take an action, or take a bonus action. If it becomes Dazed during its turn, its turn ends. Extra actions from effects such as Haste and Action Surge still apply. Cure Ailment, Lesser Restoration, Greater Restoration, or a similar supernatural effect can end this condition.",
+      "Printed source": "Elementals, pp. 100–101"
+    }
+  },
+  {
+    "name": "Goxomoc",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Monstrosity (Titan), neutral",
+    "ac": 23,
+    "hp": 574,
+    "hitDice": "28d20 + 280",
+    "speed": "50 ft., climb 50 ft., swim 50 ft.",
+    "cr": "30",
+    "xp": 155000,
+    "proficiencyBonus": 9,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Int": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Dex +9, Int +15, Wis +17. Arcana +15, Athletics +19, History +15, Perception +17. Immune to fire, lightning, poison, and thunder, to bludgeoning, piercing, and slashing from mundane attacks, and to Blinded, Charmed, Dazed, Flanked, Frightened, Poisoned, Paralyzed, Petrified, and Stunned. Truesight 300 ft., passive Perception 27. Understands all languages but cannot speak. Telepathy 150 ft.",
+    "description": "The titan sleeps under an active volcano. If its flesh falls, the storm form Xogomoc rises.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Amphibious. Breathes air and water.\nEarthbinder. Enemies within 60 ft. cannot fly. Goxomoc moving within 60 ft. of a flying enemy causes it to fall.\nLightning Lord. At 0 HP, Goxomoc becomes Xogomoc. Conditions and other supernatural effects affecting him carry over.\nPsionic Resistance (3/day). Turn his failed save into a success. He cannot use Energy Eyes or Shockwave until the end of his next turn.\nPsionic Weapons. His weapon attacks are psionic.\nSiege Monster. His damage against objects and structures is doubled.",
+      "Actions": "Multiattack. Use one Bite, two Claws, one Stomp, and Energy Eyes.\nBite. Melee weapon attack, +19 to hit, 10-ft. reach, one target. Hit 36 (4d12 + 10) piercing damage and Grappled (escape DC 20). The grapple also Restrains the target and prevents Goxomoc from biting a different target. A creature reduced to 0 HP by the damage dies, and he consumes its remains.\nClaw. Melee weapon attack, +19 to hit, 15-ft. reach, one target. Hit 21 (2d10 + 10) slashing damage. Goxomoc moves the target up to 10 ft. horizontally.\nStomp. Melee weapon attack, +19 to hit, 15-ft. reach, one target he is not grappling. Hit 23 (2d12 + 10) bludgeoning damage and knocks Huge or smaller targets Prone.\nEnergy Eyes (3rd-order power). One creature he sees within 300 ft. makes a DC 25 Dexterity save. It takes 22 (4d10) fire or lightning damage, his choice, or half on a success.\nCatastrophic Breath (recharge 5–6). Creatures in a 90-ft. cone make DC 27 Dexterity saves. On a failure, each takes 71 (11d12) fire or lightning damage, his choice, and teleports to an unoccupied space he chooses in the cone. A success halves the damage and prevents the teleport.",
+      "Bonus Actions": "Shockwave (2nd-order power). Chosen creatures within 15 ft. make a DC 25 Strength save. On a failure, each takes 22 (4d10) force damage and is pushed up to 20 ft. directly away.",
+      "Reactions": "Volcanic Punishment. When damaged, Goxomoc teleports with creatures he is grappling into an unoccupied space he sees within 30 ft. Each creature within 10 ft. of the point he left makes a DC 27 Dexterity save, taking 22 (4d10) fire damage or half on a success.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Rumble. Unworn and uncarried mundane objects within 90 ft. take 55 (10d10) force damage. Creatures within 90 ft. fall Prone and make DC 27 Dexterity saves. Those who fail become embedded in the ground and Restrained. A creature can use an action to free itself or a creature it can reach with a successful DC 20 Strength (Athletics) or Dexterity (Acrobatics) check.\n2. Thunder. Teleport with creatures he is grappling to an unoccupied space he sees within 120 ft. Each creature within 30 ft. of either endpoint makes a DC 27 Constitution save, taking 22 (4d10) thunder damage or half on a success.\n3. Eruption. Enemies within 120 ft. make DC 25 Wisdom saves. Failure deals 44 (8d10) psychic damage and makes them vulnerable to all damage from Goxomoc until the end of his next turn. A success halves the damage.",
+      "Psionic Powers (MCDM)": "Psionic powers are supernatural effects and require no components. They are unaffected by effects that target only spells or magic, including Antimagic Field, Counterspell, and Dispel Magic.",
+      "Flanked (MCDM)": "If using flanking rules, creatures cannot flank this creature.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics.",
+      "Printed source": "Titans, pp. 236–237"
+    },
+    "relatedCreatures": [
+      {
+        "name": "Xogomoc",
+        "kind": "monster",
+        "terms": [
+          "Xogomoc"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Xogomoc",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Elemental (Titan), neutral",
+    "ac": 20,
+    "hp": 574,
+    "hitDice": "28d20 + 280",
+    "speed": "0 ft., fly 90 ft. (hover)",
+    "cr": "30",
+    "xp": 155000,
+    "proficiencyBonus": 9,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Con": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Int": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Saving throws Int +15, Wis +17. Arcana +15, History +15, Perception +17. Immune to lightning, poison, and thunder, to bludgeoning, piercing, and slashing from mundane attacks, and to Blinded, Charmed, Dazed, Flanked, Frightened, Grappled, Poisoned, Paralyzed, Petrified, Restrained, and Stunned. Truesight 300 ft., passive Perception 27. Understands all languages but cannot speak. Telepathy 150 ft.",
+    "description": "This living storm is the second form of Goxomoc. Defeating it returns the titan to his resting place.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Amorphous. Pass through a 1-inch opening without squeezing.\nDiscorporation. At 0 HP or death, end all conditions and other effects on him. He teleports to his resting place, returns to his Goxomoc form at full HP, and falls Unconscious.\nDisruptive Resistance (3/day). Turn his failed save into a success. Lightning Aura shuts off until the end of his next turn.\nLightning Aura. A creature starting its turn within 60 ft. makes a DC 25 Dexterity save, taking 22 (4d10) lightning damage or half on a success.\nPower of the Storm. His lightning and thunder damage ignores resistance.\nSiege Monster. He deals double damage to objects and structures.\nSupernatural Resistance. He has advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make two Lightning Strike attacks.\nLightning Strike. Melee or ranged weapon attack, +19 to hit, 15-ft. reach or 600-ft. range, one target. Hit 29 (3d12 + 10) lightning damage. A second target within 30 ft. of the first takes the same damage on a failed DC 27 Dexterity save.\nEnergy Flow. Move up to his speed without provoking opportunity attacks. He can pass through creature spaces without treating them as difficult terrain. Each creature takes 22 (4d10) lightning damage the first time he crosses its space during this move.\nLightning Breath (recharge 5–6). Creatures in a 90-ft. cone make DC 27 Dexterity saves. On a failure, take 71 (11d12) lightning damage and lose reactions until the end of their next turn. On a success, take half damage only.",
+      "Bonus Actions": "Gone in a Flash. Teleport up to 30 ft. to an unoccupied space he sees, bringing anyone inside him. Each creature within 10 ft. of the space he left makes a DC 25 Constitution save, taking 22 (4d10) thunder damage or half on a success.",
+      "Reactions": "Shock Cage. When a creature he sees within 30 ft. hits him with an attack, that creature takes 22 (4d10) lightning damage and is Restrained until the end of its next turn.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Thunderstruck. Creatures within 120 ft. that hear him make DC 25 Wisdom saves. Those who fail are Dazed for 1 minute and repeat the save at the end of their turns.\n2. Into the Storm. Enemies he sees within 30 ft. make DC 25 Strength saves. On a success, they take 16 (3d10) lightning damage. On a failure, they are pulled inside him. There, they are Restrained, move with him, and have total cover from outside attacks and other effects. At the start of each of their turns they take 16 (3d10) lightning plus 16 (3d10) thunder damage. Each can escape into an unoccupied space of its choice within 5 ft. by using an action to pass a DC 20 Strength (Athletics) or Dexterity (Acrobatics) check. If he takes at least 60 damage in a single turn or falls to 0 HP, all trapped creatures are expelled to unoccupied spaces of their choice within 5 ft.\n3. Behold True Power. Enemies within 120 ft. make DC 25 Strength saves. Failure deals 44 (8d10) lightning damage and moves them up to 60 ft. in any direction. A success halves the damage and keeps the target in place.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses one of these options: move, take an action, or take a bonus action. If it becomes Dazed during its turn, its turn ends. Extra actions from effects such as Haste and Action Surge still apply. Cure Ailment, Lesser Restoration, Greater Restoration, or a similar supernatural effect can end this condition.",
+      "Flanked (MCDM)": "If using flanking rules, creatures cannot flank this creature.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics.",
+      "Printed source": "Titans, p. 237"
+    },
+    "relatedCreatures": [
+      {
+        "name": "Goxomoc",
+        "kind": "monster",
+        "terms": [
+          "Goxomoc"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "High Mage Vairae",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, neutral evil",
+    "ac": 21,
+    "hp": 315,
+    "hitDice": "42d8 + 126",
+    "speed": "30 ft., fly 50 ft. (hover)",
+    "cr": "25",
+    "xp": 75000,
+    "proficiencyBonus": 8,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +11, Int +14, Wis +13, Cha +13. Arcana +14, Athletics +10, Deception +13, History +14, Perception +13, Persuasion +13. Resists fire and cold and bludgeoning, piercing, and slashing from mundane attacks. Immune to necrotic and poison damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Poisoned, and Stunned. Truesight 120 ft., passive Perception 23. Speaks Abyssal, Common, Draconic, Elvish, Infernal, and Sylvan. Telepathy 120 ft.",
+    "description": "The elven High Mage hides their lichdom. Their soulstone is a sphere of everlasting ice.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Draining Resistance (3/day). Turn a failed save into a success. Vairae then has disadvantage on spell attacks until the end of their next turn.\nRejuvenation (as the Lich). If destroyed with the soulstone intact, Vairae's soul enters it. A creature that can see the stone at the start of its turn makes a DC 20 Charisma save. On a failure, it is Charmed until the end of its next turn and must try to move toward and touch the stone, avoiding clear hazards. Touching the occupied stone forces a DC 20 Constitution save. On a failure, the creature drops to 0 HP and Vairae reforms at full HP. On a success, the creature loses half its HP and Vairae reforms at half HP. In either case Vairae appears in an unoccupied space within 5 ft. of the stone. The stone has AC 19, 50 HP, and immunity to every damage type except force and thunder.\nSupernatural Resistance. Advantage on saves against spells, powers, and other supernatural effects.\nTurn Immunity. Vairae is immune to effects that turn Undead.",
+      "Actions": "Multiattack. Use Glare of Undeath and make four attacks in any combination of Conflagration, Immortal Pain, and Magic Drain.\nConflagration (4th-level spell). Ranged spell attack, +14 to hit, 150-ft. range, one target. Hit 35 (10d6) fire damage. If the target takes both an action and a bonus action on its next turn, it takes 17 (5d6) more fire damage at the end of that turn.\nImmortal Pain (4th-level spell). Melee or ranged spell attack, +14 to hit, 5-ft. reach or 90-ft. range, one creature. Hit 28 (8d6) psychic damage and afflicts the target with pain, halving the damage its attacks deal. After each attack it makes against an enemy, the target can end the effect with a successful DC 22 Constitution save. Cure Ailment, Lesser Restoration, or a similar supernatural effect also ends the pain.\nMagic Drain (4th-level spell). Melee or ranged spell attack, +14 to hit, 5-ft. reach or 60-ft. range, one creature. Hit 26 (4d12) necrotic damage. If the target is under the effects of spells Vairae did not cast, those effects end on a failed DC 22 Wisdom save.\nGlare of Undeath. One creature Vairae sees within 60 ft. makes a DC 22 Wisdom save. On a failure, it clutches itself and is Restrained for 1 minute, repeating the save at the end of each turn. A creature the target can hear and understand can use an action to end the effect with a DC 22 Charisma (Persuasion) check.\nMachinations of Bone (2/day). Choose a visible point within 150 ft. Every enemy within 30 ft. of that point makes a DC 22 Strength save. On a failure, it takes 54 (12d8) piercing damage, falls Prone, and cannot stand until it receives supernatural healing.",
+      "Bonus Actions": "Necrotic Form (3rd-level spell). Assume a shadow form and move up to their speed. Until the end of the turn, Vairae is immune to bludgeoning, piercing, and slashing damage and to Grappled and Restrained, and can pass through a 1-inch opening without squeezing.",
+      "Reactions": "Baleful Teleport (6th-level spell). When a visible creature within 120 ft. targets Vairae with an attack, the attacker makes a DC 22 Charisma save. On a failure, Vairae teleports the attacker up to 60 ft. into a visible unoccupied space. If Vairae is now an invalid target, the attacker must choose a new target or miss.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Cages of Wasting. Enemies within 60 ft. make DC 22 Dexterity saves. Failure deals 27 (5d10) necrotic damage and Restrains the target in a cage for up to 1 minute. A success halves the damage. A trapped target can repeat the save at the end of each turn or teleport out. Destroying Vairae also ends the restraint.\n2. My Magic Alone. Creatures within 60 ft. make DC 22 Wisdom saves. A creature that fails cannot benefit from magic items or cast spells of 4th level or higher until the end of Vairae's next turn.\n3. Necrostorm. Creatures within 60 ft. make DC 22 Dexterity saves, taking 78 (12d12) necrotic damage or half on a success. A Humanoid killed by this damage rises as a wraith at the start of Vairae's next turn, permanently following Vairae's verbal commands.",
+      "Lair Actions": "On initiative 20, losing ties, use one effect. The same lair action cannot be used in consecutive rounds.\nSoul Sip. Choose two visible enemies within 90 ft. Each takes 19 (3d12) necrotic damage on a failed DC 20 Constitution save.\nSpirit Shell. Until the end of initiative count 20 of the next round, a creature hitting Vairae with a melee attack makes a DC 20 Wisdom save or is Dazed until the start of that creature's next turn.\nUnnatural Born Leader. One visible creature within 90 ft. makes a DC 20 Charisma save. On a failure, it uses its reaction, if available, to move up to its speed and make a weapon attack against a creature Vairae chooses.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses one of these options: move, take an action, or take a bonus action. If it becomes Dazed during its turn, its turn ends. Extra actions from effects such as Haste and Action Surge still apply. Cure Ailment, Lesser Restoration, Greater Restoration, or a similar supernatural effect can end this condition.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics.",
+      "Printed source": "Undead. Lair actions, p. 258. Stat block, p. 260."
+    },
+    "ruleNotes": [
+      "Machinations of Bone involves body horror. Spectral blades can describe the same effect at the table."
+    ],
+    "relatedCreatures": [
+      {
+        "name": "Lich (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "Lich"
+        ]
+      },
+      {
+        "name": "Wraith (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "wraith"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kraken (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Monstrosity (Titan), neutral",
+    "ac": 22,
+    "hp": 499,
+    "hitDice": "27d20 + 216",
+    "speed": "30 ft., swim 60 ft.",
+    "cr": "26",
+    "xp": 90000,
+    "proficiencyBonus": 8,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Int": {
+        "score": 30,
+        "modifier": 10
+      },
+      "Wis": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +16, Int +18, Wis +14. Arcana +18, History +18, Perception +14. Immune to cold, lightning, psychic, and thunder, to bludgeoning, piercing, and slashing from mundane attacks, and to Blinded, Charmed, Dazed, Flanked, Frightened, Poisoned, Paralyzed, Petrified, and Stunned. Blindsight 120 ft., truesight 60 ft., passive Perception 24. Understands all languages but cannot speak. Telepathy 150 ft.",
+    "description": "The Titan of the Mindstorm sleeps beneath the ocean east of Higara. It can hold and crush a ship with its mind.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Amphibious. Breathes air and water.\nDiscorporation. At 0 HP or death, all conditions and other effects end. The Kraken teleports to its resting place, returns to life with full HP, and falls Unconscious.\nSiege Monster. Deals double damage to objects and structures.\nSlowed Resistance (3/day). Turn a failed save into a success. Each use reduces the Kraken's speed by a cumulative 10 ft. for 24 hours.\nSupernatural Resistance. Advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make four Tentacle attacks or use Mental Lance three times.\nTentacle. Melee weapon attack, +16 to hit, 30-ft. reach, one target. Hit 19 (2d10 + 8) bludgeoning plus 11 (2d10) psychic damage and Grappled (escape DC 18). Each of its ten tentacles can grapple one target.\nMental Lance (3rd-order power). Ranged power attack, +18 to hit, 120-ft. range, one creature. Hit 22 (4d10) psychic damage and the target is Frightened of the Kraken until the start of the Kraken's next turn.\nPsionic Storm. Restrain one vehicle the Kraken sees within 120 ft. The effect ends if its concentration breaks as for a spell or if it moves more than 120 ft. from the vehicle. If three of the Kraken's turns end while the effect lasts, the vehicle drops to 0 HP and the effect ends.\nSkull-Splitting Howl (1/day). Enemies within 120 ft. make DC 26 Constitution saves. On a failure, each takes 55 (10d10) psychic damage and cannot concentrate on powers or spells until the start of the Kraken's next turn. A success halves the damage.",
+      "Bonus Actions": "Telekinetic Fling. Throw one creature the Kraken is grappling into an unoccupied space it sees within 60 ft. The creature lands Prone and takes 22 (4d10) bludgeoning damage.",
+      "Reactions": "Psychic Reprisal. When an attack damages the Kraken, its enemies within 30 ft. of the attacker, including the attacker, make DC 26 Wisdom saves. Failure deals 22 (4d10) psychic damage, halved on a success.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Psionic Tentacles. Conjure tentacles that make a Tentacle attack against each enemy within 120 ft. The Kraken then uses Telekinetic Fling on each creature it is grappling.\n2. Psionic Ink. Teleport up to 60 ft. to an unoccupied space the Kraken sees. Each creature within 30 ft. of the space it left makes a DC 26 Dexterity save. On a failure, the creature is covered in ink and takes 16 (3d10) psychic damage at the start of each turn until it uses an action to wipe the ink away.\n3. The Ocean's Wrath. Creatures within 120 ft. make DC 26 Wisdom saves. Failure deals 65 (10d12) psychic damage and makes the creature Frightened of the Kraken for 1 minute, with a repeat save at the end of each turn. A success halves the damage and avoids the condition.",
+      "Psionic Powers (MCDM)": "Psionic powers are supernatural effects and require no components. They are unaffected by effects that target only spells or magic, including Antimagic Field, Counterspell, and Dispel Magic.",
+      "Flanked (MCDM)": "If using flanking rules, creatures cannot flank this creature.",
+      "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics.",
+      "Printed source": "Titans, p. 238"
+    }
+  },
+  {
+    "name": "Qazyldrath",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Dragon, chaotic evil",
+    "ac": 20,
+    "hp": 402,
+    "hitDice": "23d20 + 161",
+    "speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "cr": "21",
+    "xp": 33000,
+    "proficiencyBonus": 7,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +14, Wis +10, Cha +11. Arcana +9, History +9, Perception +10, Stealth +8. Immune to acid and necrotic damage and to Charmed, Dazed, Frightened, Paralyzed, Petrified, Poisoned, and Stunned. Blindsight 120 ft., truesight 60 ft., passive Perception 20. Speaks Common and Draconic.",
+    "description": "The Silent Decay uses acid and living shadows and wants to blot out the sun.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Amphibious. Breathes air and water.\nConsume Shadow (3/day). Turn a failed save into a success. Dispel any magical darkness in the lair. Qazyldrath cannot use Enshroud or Thwart Healing until the end of their next turn.\nShadow Strength. Qazyldrath's acid and necrotic damage ignore resistance.",
+      "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +15 to hit, 15-ft. reach, one target. Hit 19 (2d10 + 8) piercing plus 9 (2d8) necrotic damage. Extinguish the target if it is a light source, or extinguish any light source the target holds or wears.\nClaw. Melee weapon attack, +15 to hit, 10-ft. reach, one target. Hit 15 (2d6 + 8) slashing damage. Qazyldrath can move the target up to 15 ft. horizontally.\nVacuous Breath (recharge 5–6). Creatures in a 90-ft.-long, 20-ft.-wide line make DC 22 Dexterity saves, taking 24 (7d6) acid plus 24 (7d6) necrotic damage or half on a success. The area fills with magical darkness for 1 minute. Darkvision cannot see through it. Daylight or a light-producing spell of 5th level or higher can illuminate it.",
+      "Bonus Actions": "Enshroud. A creature Qazyldrath sees within 120 ft. makes a DC 19 Dexterity save. On a failure, it is Blinded and vulnerable to necrotic damage until the start of their next turn.",
+      "Reactions": "Thwart Healing. When a creature within 60 ft. regains HP, it regains half as much on a failed DC 19 Constitution save.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Burning Globs. Enemies they see within 90 ft. make DC 19 Dexterity saves. Each creature that fails takes 14 (4d6) acid damage at the start of each turn until a creature uses an action to remove the globule from itself or another creature it can reach.\n2. Shadow Form. Gain resistance to bludgeoning, piercing, and slashing until the end of their next turn, then teleport up to 120 ft. into an unoccupied space they see.\n3. Sinking Gloom. Create a 5-ft.-deep, 20-ft.-radius pool of acid on visible ground within 120 ft. It is difficult terrain and lasts 1 minute. An enemy starting a turn inside takes 24 (7d6) acid damage and must pass a DC 19 Strength save or become Restrained until the start of its next turn. An enemy starting its turn flying within 30 ft. of the pool makes a DC 19 Dexterity save. On a failure, it lands in the nearest open space of its choice in the pool, takes 24 (7d6) acid damage, and is Restrained until the start of its next turn.",
+      "Printed source": "Dragons, pp. 80–81"
+    }
+  },
+  {
+    "name": "Xaantikorijek",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Dragon, neutral",
+    "ac": 20,
+    "hp": 518,
+    "hitDice": "28d20 + 224",
+    "speed": "40 ft., burrow 40 ft., fly 80 ft.",
+    "cr": "23",
+    "xp": 50000,
+    "proficiencyBonus": 7,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 28,
+        "modifier": 9
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Int": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +15, Wis +10, Cha +12. Arcana +21, History +21, Nature +21, Perception +10, Religion +21. Immune to lightning and thunder damage and to Charmed, Dazed, Frightened, Paralyzed, Petrified, and Stunned. Blindsight 120 ft., truesight 60 ft., passive Perception 20. Speaks all languages.",
+    "description": "The Voice of the Ages is a storm dragon who has forgotten his own name and much of the lore he once knew.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Static Shield (3/day). Turn a failed save into a success. His sight, blindsight, and truesight are limited to 30 ft. until the start of his next turn.\nStorm of the Gods. His lightning and thunder damage ignore resistance.",
+      "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +16 to hit, 15-ft. reach, one target. Hit 20 (2d10 + 9) piercing plus 5 (1d10) lightning damage. He can move the target up to 20 ft. in any direction.\nClaw. Melee weapon attack, +16 to hit, 10-ft. reach, one target. Hit 16 (2d6 + 9) slashing plus 7 (2d6) thunder damage and knocks the target Prone.\nFulminating Breath (recharge 5–6). Creatures in a 120-ft.-long, 30-ft.-wide line make DC 23 Dexterity saves. On a failure, they take 66 (12d10) lightning damage and have disadvantage on saves until the end of Xaantikorijek's next turn. A success halves the damage and avoids the disadvantage.",
+      "Bonus Actions": "Lightning Discharge. Make one Bite attack. On a hit, deal an extra 11 (2d10) lightning damage to that target and to one other enemy within 60 ft. of it.",
+      "Reactions": "Voice of Negation. When a visible creature within 60 ft. uses an action or bonus action to cast a spell, it makes a DC 23 save using its spellcasting ability. Failure deals 16 (3d10) thunder damage and prevents casting until the end of the creature's turn. It keeps its spell slot and action.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Voice of Reverence. Choose creatures within 60 ft. Each falls Prone on a failed DC 20 Wisdom save and takes 22 (4d10) thunder damage if it stands before the end of Xaantikorijek's next turn.\n2. Fulguration. Until the end of his next turn, he turns into lightning. During this time he resists all damage, fits through 1-inch gaps without squeezing, can move through creatures' spaces, and provokes no opportunity attacks. The first time he enters a creature's space each turn, that creature takes 16 (3d10) lightning damage.\n3. Voice of the Ages. Enemies within 60 ft. who hear him make DC 20 Wisdom saves. Failure deals 44 (8d10) psychic damage, knocks the target Prone, and prevents it from standing for 1 minute. It can repeat the save at the end of each turn. A success halves the damage and avoids the other effects.",
+      "Printed source": "Dragons, pp. 82–83"
+    }
+  },
+  {
+    "name": "Yserthrax",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Gargantuan Dragon, neutral evil",
+    "ac": 19,
+    "hp": 420,
+    "hitDice": "24d20 + 168",
+    "speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "cr": "22",
+    "xp": 41000,
+    "proficiencyBonus": 7,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 28,
+        "modifier": 9
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +14, Wis +10, Cha +11. Arcana +13, Deception +11, Insight +17, Perception +17, Persuasion +11, Stealth +7. Immune to poison and psychic damage and to Blinded, Charmed, Dazed, Frightened, Paralyzed, Petrified, Poisoned, and Stunned. Blindsight 120 ft., truesight 60 ft., passive Perception 27. Speaks Common, Deep Speech, and Draconic.",
+    "description": "This dragon carries a corruption that can turn her victims into gibbering mouthers.",
+    "sections": {
+      "Role": "Solo",
+      "Traits": "Amphibious. Breathes air and water.\nCorruption. Her poison damage ignores resistance and treats immunity as resistance. A creature other than a Construct or Undead that takes poison damage from her makes a DC 19 Constitution save. If it fails, it becomes corrupted and takes 14 (4d6) psychic damage at the start of each turn. It can repeat the save at the end of each turn. Cure Ailment, Lesser Restoration, or a comparable supernatural effect also ends the corruption. If the victim dies while corrupted, its body becomes a gibbering mouther under her control.\nWithering Resistance (3/day). Take 16 (3d10) necrotic damage to turn her failed save into a success.",
+      "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +16 to hit, 15-ft. reach, one target. Hit 20 (2d10 + 9) piercing plus 11 (2d10) poison damage.\nClaw. Melee weapon attack, +16 to hit, 10-ft. reach, one target. Hit 16 (2d6 + 9) slashing damage. She can move the target up to 15 ft. horizontally.\nCorrupting Breath (recharge 5–6). Creatures in a 90-ft. cone make DC 22 Constitution saves. A creature that fails takes 56 (16d6) poison damage and is Poisoned until the end of its next turn. A success halves the damage and avoids the condition.",
+      "Bonus Actions": "Ulcerate. One creature she sees within 60 ft. that is corrupted by her trait is Dazed until the end of its next turn on a failed DC 19 Constitution save.",
+      "Reactions": "Eldritch Disruption. When a creature she sees within 60 ft. hits her with an attack or passes a save, it chooses to take 10 (3d6) psychic damage or reroll the attack or save and use the new result.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Summon Monoliths. Create three crystal columns centered on points she sees within 500 ft. Each is a 10-ft.-radius, 60-ft.-high cylinder with AC 19, 100 HP, and immunity to poison and psychic damage. They do not block Yserthrax's vision. Creatures other than Yserthrax are vulnerable to psychic damage within 10 ft. of a column. When one is destroyed, creatures within 30 ft. make DC 19 Wisdom saves, taking 21 (6d6) psychic damage or half on a success.\n2. Spatial Alteration. Creatures within 60 ft. make DC 19 Charisma saves. Those who fail are teleported up to 120 ft. to unoccupied spaces she sees.\n3. Elder Scream. Each enemy she sees within 120 ft. makes a DC 19 Wisdom save, taking 77 (14d10) psychic damage or half on a success.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses one of these options: move, take an action, or take a bonus action. If it becomes Dazed during its turn, its turn ends. Extra actions from effects such as Haste and Action Surge still apply. Cure Ailment, Lesser Restoration, Greater Restoration, or a similar supernatural effect can end this condition.",
+      "Printed source": "Dragons, pp. 84–85"
+    },
+    "relatedCreatures": [
+      {
+        "name": "Gibbering Mouther (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "gibbering mouther",
+          "gibbering mouthers"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zenith Aastrika",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Giant, lawful neutral",
+    "ac": 18,
+    "hp": 225,
+    "hitDice": "18d12 + 108",
+    "speed": "50 ft.",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +11, Dex +7, Con +10, Wis +10. Athletics +11, Perception +10, Persuasion +6. Immune to fire damage and to Charmed and Frightened. Passive Perception 20. Speaks Giant and Primordial.",
+    "description": "Aastrika rose through the Sunlight Legion and leads fire giants into battle.",
+    "sections": {
+      "Role": "Leader",
+      "Traits": "Battle Tranquility (3/day). Turn a failed save into a success. Aastrika cannot use Sweltering Heat until the end of her next turn.\nMolten Flesh. The first time each turn a creature other than a fire giant touches her or hits her with a melee attack, it takes 7 (2d6) fire damage.",
+      "Actions": "Multiattack. Take the Disengage action and make up to three attacks in any combination of Unarmed Strike and Hurl Flame.\nUnarmed Strike. Melee weapon attack, +11 to hit, 10-ft. reach, one target. Hit 21 (4d6 + 7) bludgeoning plus 7 (2d6) fire damage. If the target is a creature, attack rolls against it have advantage until the start of Aastrika's next turn while it glows red.\nHurl Flame. Ranged spell attack, +10 to hit, 180-ft. range, one target. Hit 20 (4d6 + 6) fire damage.\nLava Pillar (recharge 5–6). Pick a point she sees on the ground within 120 ft. Each creature in a 20-ft.-radius, 60-ft.-high cylinder above it makes a DC 18 Dexterity save, taking 38 (11d6) fire damage or half on a success.",
+      "Bonus Actions": "Sweltering Heat. Creatures within 20 ft. that lack resistance and immunity to fire damage gain one level of Exhaustion on a failed DC 18 Constitution save.",
+      "Reactions": "Power of Flame. When another fire giant she sees within 60 ft. misses a weapon attack, the giant rolls the damage as if it hit. The target takes half the result as fire damage.",
+      "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Forward! Aastrika and up to three creatures she sees can each move up to their speed without provoking opportunity attacks and make one melee attack.\n2. The Manifold Self. Teleport to an unoccupied space she sees within 30 ft. Five fire giant troopers appear in open spaces within 30 ft. of her departure point. They act immediately, then use that same initiative count in subsequent rounds.\n3. This. Ends. Now. Aastrika and each willing fire giant within 60 ft. release heat. A creature within 10 ft. of her or one of those giants makes a DC 18 Dexterity save, taking 55 (10d10) fire damage or half on a success.",
+      "Printed source": "Giants, p. 107"
+    },
+    "relatedCreatures": [
+      {
+        "name": "Fire Giant Trooper",
+        "kind": "monster",
+        "terms": [
+          "fire giant trooper",
+          "fire giant troopers"
+        ]
+      }
+    ]
+  }
+]

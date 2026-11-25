@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Darfellan",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Darfellan). +2 Strength, −2 Dexterity. Land speed 20 ft., swim speed 40 ft. LA +0 and advancement by character class.",
+      "Swim speed grants +8 racial on Swim checks to perform special actions or avoid hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+      "Echolocation grants blindsense 20 ft. in water, confined to the water. It locates creatures without removing concealment.",
+      "Hold Breath (Ex) allows 8 × Constitution score rounds before checks to avoid drowning are required. Constitution 12 gives 96 rounds. Darfellans breathe air.",
+      "Natural bite deals 1d6. When the bite is the sole primary natural weapon, add 1½ times the Strength bonus. An armed full attack can add one secondary bite at −5 to the attack roll and half the Strength bonus to damage. Extra attacks from base attack bonus apply only to the primary weapon.",
+      "Racial Hatred adds +2 to attack and damage rolls against sahuagin.",
+      "Darfellan is automatic. Aquan and Common are bonus languages. Favored class Barbarian.",
+      "Page 144 adds a +4 racial bonus on Handle Animal checks with marine mammals in its combat text. The p. 37 and p. 144 player trait lists omit this bonus."
+    ]
+  }
+]

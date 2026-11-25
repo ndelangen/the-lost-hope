@@ -1,0 +1,121 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Kir-Lanan",
+      "speed": "Land 30 ft., fly 90 ft. (good)",
+      "id": "kir-lanan-ashveil-ledge-scout-35e",
+      "title": "Kir-Lanan ledge scout, racial Hit Dice only",
+      "difficulty": "Provisional CR 3. ECL 8 (4 racial HD, LA +4).",
+      "ac": 16,
+      "hp": 29,
+      "hitDice": "4d8+8",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Hide +13",
+        "Listen +2",
+        "Move Silently +7",
+        "Spot +2"
+      ],
+      "traits": [
+        "Neutral. Dexterity +3, natural armor +3. Touch 13, flat-footed 13. BAB +4, grapple +8. Fortitude +3, Reflex +7, Will +4.",
+        "Land 30 ft. and fly 90 ft. with good maneuverability, which allows hovering under 3.5 aerial movement.",
+        "Cure spells, holy water, and blessed weapons affect a Kir-Lanan as they would undead. Inflict spells and other negative energy heal it. A Kir-Lanan is a living creature and cannot be turned.",
+        "Soulless. Cannot use positive energy or divine magic or take levels in Cleric, Druid, or Paladin. Ranger levels grant no spellcasting. A Bard can learn inflict spells in place of cure spells. Return from death requires wish or miracle.",
+        "Weapon Focus adds +1 to claws. Flyby Attack lets Varek use one standard action during a flying move."
+      ],
+      "actions": [
+        "Claw +9 melee, 1d4+4 piercing and slashing, critical ×2. Full attack with two claws at +9 each.",
+        "Touch +8 or claw +9 against normal AC, with Fortitude DC 13. Negative Energy Touch (Su), 3/day. Make a melee touch attack or deliver it with a claw that hits normal AC. Deals 2d6 damage and 1 point of Strength damage. Fortitude DC 12 + Charisma modifier negates the Strength damage only. Heal HP equal to the energy damage dealt, up to maximum HP.",
+        "Ray of Enfeeblement, ranged touch +7. Ray of Enfeeblement (Sp), 3/day at caster level 4. Ranged touch within 35 ft. The target takes a 1d6+2 Strength penalty for 4 minutes, to a minimum score of 1. No save. Spell resistance applies.",
+        "Rebuke or command undead 3/day as Cleric 4. Turning check 1d20+1, turning damage 2d6+5."
+      ],
+      "tactics": "Varek uses the ledge as cover to read the room before showing himself. If cornered, he keeps an open flight path and saves the touch for when he is injured."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Kir-Lanan",
+      "speed": "Land 30 ft., fly 90 ft. (good)",
+      "id": "kir-lanan-duskmere-rookery-guard-35e",
+      "title": "Kir-Lanan rookery guard, Fighter 2",
+      "difficulty": "Provisional CR 4. ECL 10 (4 racial HD, 2 class HD, LA +4).",
+      "ac": 19,
+      "hp": 50,
+      "hitDice": "4d8+2d10+18",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 10
+      },
+      "skills": [
+        "Hide +12",
+        "Jump +7",
+        "Listen +4",
+        "Move Silently +2",
+        "Spot +4"
+      ],
+      "traits": [
+        "Lawful neutral. Chain shirt +4, natural armor +3, Dexterity +2. Touch 12, flat-footed 17, armor check penalty −2. BAB +6, grapple +11. Fortitude +7, Reflex +6, Will +4.",
+        "Land 30 ft. and fly 90 ft. with good maneuverability, which allows hovering under 3.5 aerial movement.",
+        "Cure spells, holy water, and blessed weapons affect a Kir-Lanan as they would undead. Inflict spells and other negative energy heal it. A Kir-Lanan is a living creature and cannot be turned.",
+        "Soulless. Cannot use positive energy or divine magic or take levels in Cleric, Druid, or Paladin. Ranger levels grant no spellcasting. A Bard can learn inflict spells in place of cure spells. Return from death requires wish or miracle.",
+        "Flyby Attack and Stealthy are the racial feats. Weapon Focus (longsword) and Power Attack are Fighter bonus feats. Improved Initiative adds +4."
+      ],
+      "actions": [
+        "Longsword +12 melee, 1d8+5 slashing, critical 19–20/×2. Full attack with sword +12/+7 and one secondary claw +6, 1d4+2 piercing and slashing, critical ×2. Claw alone +11 for 1d4+5 piercing and slashing.",
+        "Touch +11 or claw +11 against normal AC, with Fortitude DC 12. Negative Energy Touch (Su), 3/day. Make a melee touch attack or deliver it with a claw that hits normal AC. Deals 2d6 damage and 1 point of Strength damage. Fortitude DC 12 + Charisma modifier negates the Strength damage only. Heal HP equal to the energy damage dealt, up to maximum HP.",
+        "Ray of Enfeeblement, ranged touch +8. Ray of Enfeeblement (Sp), 3/day at caster level 4. Ranged touch within 35 ft. The target takes a 1d6+2 Strength penalty for 4 minutes, to a minimum score of 1. No save. Spell resistance applies.",
+        "Rebuke or command undead 3/day as Cleric 6. Turning check 1d20, turning damage 2d6+6."
+      ],
+      "tactics": "Sira keeps the mouth of the rookery in sight. When she needs to hold the opening, she lands with her free claw facing the approach."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Kir-Lanan",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Varek Ashveil",
+      "build": "kir-lanan-ashveil-ledge-scout-35e",
+      "role": "Ledge scout and observer.",
+      "motive": "Find out who opened the abandoned watchtower before his wing arrives.",
+      "hook": "Varek calls down from a shuttered ledge and offers a warning about the stairwell."
+    },
+    {
+      "species": "Kir-Lanan",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Sira Duskmere",
+      "build": "kir-lanan-duskmere-rookery-guard-35e",
+      "role": "Rookery guard and Fighter.",
+      "motive": "Keep the lower access clear while the rookery evacuates.",
+      "hook": "Sira asks for a signal when the last evacuee reaches the open ledge."
+    }
+  ]
+}

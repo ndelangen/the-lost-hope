@@ -1,0 +1,33 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Executioner’s Hood",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "file": "images/monsters/executioner-s-hood/executioners-hood-timothy-truman.png",
+    "artist": "Original illustration by Timothy Truman, p. 28",
+    "kind": "illustration",
+    "sha256": "56030b07f080879e259399478562f6258a71415a6c1575ab8cf5a2fc3c29e295"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Hangman Tree",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "file": "images/monsters/hangman-tree/hangman-tree-timothy-truman.jpg",
+    "artist": "Original illustration by Timothy Truman, p. 29",
+    "kind": "illustration",
+    "sha256": "953cf7dd1e323a74a17376d5269ea593395a669eee7e67dc7660e6990764691a"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Hangman Tree",
+    "publication": "Dungeonland",
+    "edition": "AD&D 1st edition",
+    "file": "images/monsters/hangman-tree/magic-mirror-jim-holloway-cover.jpg",
+    "artist": "The Land Beyond the Magic Mirror cover art by Jim Holloway",
+    "kind": "illustration",
+    "sha256": "4a14e346ae86863f7ea062d762b35853acc39b640577bb7fc1e69f48f716998e",
+    "reference": "https://www.tsrarchive.com/add/add-ex.html"
+  }
+]

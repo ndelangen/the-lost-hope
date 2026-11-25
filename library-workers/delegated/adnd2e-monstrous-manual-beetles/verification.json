@@ -1,0 +1,24 @@
+{
+  "baseline": "4aaaaf4e905c16c9767f6ee98574e73e5e7255bf",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 3,
+  "testedConditionalRuleProfiles": 3,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 3,
+  "portraitCoverage": {
+    "Giant Bombardier Beetle": "generated",
+    "Giant Boring Beetle": "generated",
+    "Giant Fire Beetle": "generated"
+  },
+  "versionPortraitsVerified": 3,
+  "newPortraitDrafts": 3,
+  "printedMovementRatesPreserved": true,
+  "bombardierDefenseAmbiguityPreserved": true,
+  "otherKindVerminVersionsPreserved": true,
+  "noChallengeImported": true,
+  "fireBeetleDefaultBefore": "Basic Rules (2018)",
+  "fireBeetleDefaultAfter": "Basic Rules (2018)",
+  "fireBeetleDefaultThumbnailPreserved": true,
+  "fireBeetleSelectedPublication": "Monstrous Manual (1994 third printing)"
+}

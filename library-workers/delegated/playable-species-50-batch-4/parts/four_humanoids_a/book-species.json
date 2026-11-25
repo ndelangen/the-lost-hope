@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Aarakocra",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting adjustments are Dexterity +1, Strength −1 and Constitution −1. Creation ranges are Str 3–16, Dex 8–18, Con 6–16, Int 3–18, Wis 3–17 and Cha 3–18.",
+      "Chapter 2 allows Fighter 11, Shaman 7 and Thief 11. Hit Dice come from class. Natural descending AC is 7. The entry describes studded leather as an option and rules out shields.",
+      "Fly 36 with maneuverability C. It throws missiles without an aerial attack penalty. The wing hands cannot grasp in flight. The taloned lower hands can wield javelins.",
+      "Two talons can strike in one round for 1d3 each. A beak strike deals 1d3. With two javelins and at least a 200-foot dive, the dive attack gains +4 to the attack rolls and deals double damage.",
+      "A seventh-level shaman and four other aarakocra can summon a friendly air elemental after three rounds of chant and aerial dance. It can do favors but will avoid risking its life.",
+      "Combat in an enclosed space imposes −3 on attack rolls. The entry lists Aarakocra, giant eagle and Common as typical languages."
+    ]
+  },
+  {
+    "name": "Alaghi",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting adjustments are Strength +2 and Intelligence −2. Creation ranges are Str 12–19, Dex 3–17, Con 12–18, Int 3–16, Wis 3–16 and Cha 3–16.",
+      "Chapter 2 allows Fighter 12 and Druid 11. A druid must be neutral good with Int 15, Wis 12 and Cha 15 or higher. Hit Dice come from class, with 9 bonus HP at first level.",
+      "Descending natural AC is 4. Weapons use the large target damage column against an alaghi.",
+      "A huge fist deals 2d6 base damage. First-level chances are 40% to move silently and 35% to hide in natural surroundings. Both rise by 5 percentage points for every further experience level.",
+      "Alaghi and Common are typical languages. Starting weapon choices include stone clubs, hand axes, javelins and knives."
+    ]
+  },
+  {
+    "name": "Beastman",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting adjustments are Dexterity +2 and Charisma −2. Creation ranges are Str 6–18/50, Dex 6–18, Con 6–16, Int 3–18, Wis 3–18 and Cha 3–16.",
+      "Chapter 2 gives Fighter 10, Ranger 12 and Thief 10. Hit Dice come from class. Natural descending AC is 8.",
+      "Forest camouflage gives a 90% hide chance. Opponents unaware of a beastman’s presence take −6 on surprise rolls.",
+      "Magic resistance is 80%, including against beneficial effects. Magical weapons are allowed, but the beastman cannot activate their special functions. Other magic items are barred.",
+      "The book offers a special blowgun-dart poison to beastmen with Herbalism who spend a further proficiency slot. In game, the save against poison has a +4 bonus and failure is fatal after 2d4 rounds. The worked NPC has neither the proficiency nor the poison.",
+      "Beastman and Common are listed. Starting weapon choices include bola, blowgun, hand axe and knife."
+    ]
+  },
+  {
+    "name": "Advanced Bullywug",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting adjustments are Dexterity +1, Intelligence −1 and Charisma −1. Creation ranges are Str 6–18/75, Dex 4–18, Con 6–18, Int 3–14, Wis 6–16 and Cha 3–14.",
+      "Chapter 2 gives Fighter 10, Shaman 7 and Thief 9. Hit Dice come from class. Natural descending AC is 6.",
+      "Chameleon skin gives a 75% chance to stay undetected in natural terrain. Its ambush imposes −2 on the opponent’s surprise roll, or −6 if opened with a hop attack.",
+      "A hop can carry the character up to 30 feet forward and 15 feet upward. An attack made by hopping gains +1 to hit and deals double damage when made with an impaling weapon. Swimming is a free proficiency.",
+      "Wet the entire body three times per day, using at least a full waterskin each time. Each missed bath costs 2 Constitution. Reaching Constitution 0 causes death by dehydration.",
+      "Bullywug and Common are typical languages. Starting weapons include club, dagger, short sword, spear and trident."
+    ]
+  },
+  {
+    "name": "Fremlin",
+    "kind": "species",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "traits": [
+      "Starting adjustments are Dexterity +2, Intelligence +1 and Strength −3. Creation ranges are Str 2–11, Dex 8–18, Con 4–13, Int 6–18, Wis 3–16 and Cha 3–18.",
+      "Chapter 2 gives Mage 10, Illusionist 10 and Thief 12. Hit Dice come from class. It is a roughly one-foot-tall winged goblinoid with natural descending AC 6.",
+      "Fly 12 at maneuverability class B. A weapon must be magical at +1 or better to hit. There is no general magic resistance in the player entry.",
+      "A fremlin can use tiny scaled weapons at about a third of ordinary damage. The example carries no weapon and relies on its Mage spell.",
+      "The book lists Gremlin and Common. The Gremlin language also covers fremlins and galltrits."
+    ]
+  }
+]

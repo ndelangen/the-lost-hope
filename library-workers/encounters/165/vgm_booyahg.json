@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Booyahg Booyahg Booyahg",
+    "statBlock": {
+      "name": "Booyahg Booyahg Booyahg",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 43,
+      "classification": "Small humanoid (goblinoid), any alignment",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A wild magic sorcerer whose spells always bring a surge. Goblins call any kind of magic booyahg.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Traits": "Nimble Escape. On each of its turns, the goblin can use a bonus action to Disengage or Hide.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Spellcasting": "The indexed Mage build is a 9th-level spellcaster using Intelligence (spell save DC 14, +6 to hit with spell attacks). The build uses the prepared wizard spells and slots listed below.\nCantrips (at will). Fire Bolt, Light, Mage Hand, Prestidigitation.\n1st level (4 slots). Detect Magic, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots). Misty Step, Suggestion.\n3rd level (3 slots). Counterspell, Fireball, Fly.\n4th level (3 slots). Greater Invisibility, Ice Storm.\n5th level (1 slot). Cone of Cold.",
+        "Wild Magic mechanics": "Every spell the goblin casts, including a cantrip, triggers a roll on the 2014 Wild Magic Surge table.",
+        "Printed source": "Volo's Guide to Monsters, p. 43. The book describes a Wild Magic sorcerer. This runnable version follows the indexed 2014 Mage on Monster Manual p. 347 with the Goblin adjustments on Dungeon Master's Guide p. 282. That adaptation retains the Mage’s HP and Hit Dice. The Wild Magic Surge table is on Player's Handbook (2014) p. 104."
+      }
+    }
+  },
+  {
+    "name": "Booyahg Caster",
+    "statBlock": {
+      "name": "Booyahg Caster",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Small humanoid (goblinoid), neutral evil",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A goblin who picked up one spell by spying on a hobgoblin wizard’s spellbook and rehearsing its magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nimble Escape. On each of its turns, the goblin can use a bonus action to Disengage or Hide.",
+        "Actions": "Scimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.",
+        "Spellcasting": "Randomly determine one 1st-level wizard spell for this goblin. It can cast that spell once per day, using Intelligence (spell save DC 10, +2 to hit with spell attacks).",
+        "Printed source": "Volo's Guide to Monsters, p. 42. Uses the 2014 Monster Manual Goblin on p. 166 with the option on Volo's p. 42."
+      }
+    }
+  },
+  {
+    "name": "Booyahg Whip",
+    "statBlock": {
+      "name": "Booyahg Whip",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Small humanoid (goblinoid), neutral evil",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A goblin empowered by Khurgorbaeyag to command a small retinue.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nimble Escape. On each of its turns, the goblin can use a bonus action to Disengage or Hide.\nKhurgorbaeyag's Gift. The whip has 1d3 goblins who obey its orders. Run each follower with the 2014 Goblin stat block.",
+        "Actions": "Scimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 42. Uses the 2014 Monster Manual Goblin on p. 166 with the option on Volo's p. 42."
+      }
+    }
+  },
+  {
+    "name": "Booyahg Wielder",
+    "statBlock": {
+      "name": "Booyahg Wielder",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 42,
+      "classification": "Small humanoid (goblinoid), neutral evil",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A goblin who found a magic item and figured out how to activate it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Nimble Escape. On each of its turns, the goblin can use a bonus action to Disengage or Hide.",
+        "Actions": "Scimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.",
+        "Magic item mechanics": "Choose one magic item the wielder knows how to operate, such as a Necklace of Fireballs or Circlet of Blasting. Use the selected item’s own activation, range, attack or save, and uses. The source leaves the item and any remaining charges to the DM.",
+        "Printed source": "Volo's Guide to Monsters, p. 42. Uses the 2014 Monster Manual Goblin on p. 166 with the option on Volo's p. 42."
+      }
+    }
+  },
+  {
+    "name": "Catoblepas",
+    "statBlock": {
+      "name": "Catoblepas",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 129,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 14,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "description": "A swamp-dweller that browses, eats carrion, and guards its young. The marsh around its lair grows stagnant and foul.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Keen Smell. The catoblepas has advantage on Wisdom (Perception) checks that rely on smell.\nStench. A creature other than a catoblepas that starts its turn within 10 ft. must make a DC 16 Constitution save. On a failure, it is poisoned until the start of its next turn. On a success, it is immune to the stench of any catoblepas for 1 hour.",
+        "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 21 (5d6 + 4) bludgeoning damage, and the target is stunned until the start of the catoblepas’s next turn unless it succeeds on a DC 16 Constitution save.\nDeath Ray (Recharge 5–6). Choose one creature the catoblepas can see within 30 ft. The target makes a DC 16 Constitution save, taking 36 (8d8) necrotic damage on a failure or half as much on a success. A failure by 5 or more deals 64 necrotic damage instead. A creature reduced to 0 hit points by the ray dies.",
+        "Printed source": "Volo's Guide to Monsters, p. 129."
+      }
+    }
+  },
+  {
+    "name": "Cave Fisher",
+    "statBlock": {
+      "name": "Cave Fisher",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 130,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 16,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "A subterranean ambusher that hangs from rock and reels in bats or lone travelers on a sticky thread. Dwarves use its alcoholic blood in spirits and weave the filament into rope.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft.",
+        "Traits": "Adhesive Filament. The cave fisher can spend an action to extend a sticky filament up to 60 ft. Anything that touches it sticks to it. A creature that sticks is grappled (escape DC 13) and has disadvantage on checks to escape. The filament has AC 15, 5 hit points, and immunity to poison and psychic damage. A weapon that fails to sever the filament becomes stuck. Freeing it takes an action and a successful DC 13 Strength check. Destroying the filament leaves the cave fisher unharmed, and it can extend a replacement on its next turn.\nFlammable Blood. The cave fisher gains vulnerability to fire damage when it drops to half its hit points or fewer.\nSpider Climb. The cave fisher can climb difficult surfaces, including ceilings, without an ability check.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.\nFilament. Choose a creature grappled by the filament that weighs no more than 200 lb. It makes a DC 13 Strength save. On a failure, it is pulled into an unoccupied space within 5 ft. of the cave fisher, which makes a Claw attack against it as a bonus action. Reeling it in releases everyone else attached to the filament. The cave fisher cannot extend another filament until its grapple on the reeled-in creature ends.",
+        "Printed source": "Volo's Guide to Monsters, p. 130."
+      }
+    }
+  }
+]

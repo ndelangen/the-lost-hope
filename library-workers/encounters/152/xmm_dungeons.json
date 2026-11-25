@@ -1,0 +1,400 @@
+[
+  {
+    "name": "Mind Flayer",
+    "statBlock": {
+      "name": "Mind Flayer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium aberration, lawful evil",
+      "ac": 15,
+      "hp": 99,
+      "hitDice": "18d8 + 18",
+      "speed": "30 ft., fly 15 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 16,
+      "savingThrows": {
+        "Dex": 4,
+        "Int": 7,
+        "Wis": 6,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 7,
+        "Insight": 6,
+        "Perception": 6,
+        "Stealth": 4
+      },
+      "description": "A psionic hunter that feeds on brains and draws its victims into schemes of domination.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Deep Speech, Undercommon. Telepathy 120 ft..",
+        "Damage resistances": "Psychic.",
+        "Equipment": "Breastplate.",
+        "Traits": "Magic Resistance. The mind flayer has Advantage on saves against spells and other magical effects.",
+        "Actions": "Tentacles. Melee attack, +7 to hit, reach 5 ft. A hit deals 22 (4d8 + 4) Psychic damage. A Medium or smaller creature hit by the attack is Grappled by all the mind flayer's tentacles (escape DC 14). It is also Stunned until the grapple ends.\nExtract Brain. One creature grappled by the mind flayer's Tentacles makes a DC 15 Constitution save. Failure deals 55 (10d10) Piercing damage. Success halves the damage. If the damage leaves the target at 0 HP, the mind flayer kills it and eats its brain.\nMind Blast (recharge 5–6). Each creature in a 60-ft. cone makes a DC 15 Intelligence save. Failure deals 31 (6d8 + 4) Psychic damage and leaves the target Stunned until the end of the mind flayer's next turn. Success halves the damage and prevents the stun.",
+        "Spellcasting": "Cast one of these spells as an action. Intelligence is the spellcasting ability, with save DC 15. These spells require no components.\nAt will. Detect Thoughts.\n1/day each. Dominate Monster, Plane Shift (self only).",
+        "Habitat": "Underdark.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 214."
+      }
+    }
+  },
+  {
+    "name": "Mind Flayer Arcanist",
+    "statBlock": {
+      "name": "Mind Flayer Arcanist",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium aberration, lawful evil",
+      "ac": 16,
+      "hp": 143,
+      "hitDice": "26d8 + 26",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 17,
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 9,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 13,
+        "Insight": 7,
+        "Perception": 7,
+        "Stealth": 6
+      },
+      "description": "The arcanist combines psionics with spellcraft. Other mind flayers tend to fear or despise these experiments.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+6 (16).",
+        "Senses": "Darkvision 120 ft..",
+        "Languages": "Deep Speech, Undercommon. Telepathy 120 ft..",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, Frightened.",
+        "Equipment": "Breastplate.",
+        "Traits": "Magic Resistance. The arcanist has Advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Arcane Tentacles attacks.\nArcane Tentacles. Melee or ranged attack, +9 to hit, reach 5 ft. or range 120 ft. A hit deals 27 (4d10 + 5) Psychic damage. The arcanist can teleport the target up to 30 ft. to a visible, unoccupied space on a surface or liquid large enough to support the target. If the damage reduces the target to 0 HP, the arcanist kills it and magically consumes its brain.\nMind Burst (recharge 5–6). Each creature in a 40-ft. emanation from the arcanist makes a DC 17 Intelligence save. Failure deals 41 (8d8 + 5) Psychic damage and leaves the target Stunned until the end of the arcanist's next turn. Success halves the damage and prevents the stun.",
+        "Spellcasting": "Cast one of these spells as an action. Intelligence is the spellcasting ability, with save DC 17. These spells require no components.\nAt will. Detect Magic, Detect Thoughts, Disguise Self, Mage Hand (the hand is Invisible).\n1/day each. Clairvoyance, Dimension Door, Fireball (level 5), Lightning Bolt (level 5), Plane Shift (self only), Sending.",
+        "Reactions": "Shield (2/day). Cast Shield when the spell's trigger occurs. Intelligence is the spellcasting ability.",
+        "Habitat": "Underdark.",
+        "Treasure": "Arcana.",
+        "Printed source": "Monster Manual (2024), p. 214."
+      }
+    }
+  },
+  {
+    "name": "Intellect Devourer",
+    "statBlock": {
+      "name": "Intellect Devourer",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 179,
+      "classification": "Tiny aberration, lawful evil",
+      "ac": 12,
+      "hp": 28,
+      "hitDice": "8d4 + 8",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 4
+      },
+      "description": "This walking brain hunts for bodies it can occupy. It uses the host's knowledge to hide the substitution and serve its mind flayer creators.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Blindsight 60 ft..",
+        "Languages": "Understands Deep Speech but can't speak. Telepathy 60 ft..",
+        "Damage resistances": "Psychic.",
+        "Traits": "Detect Intelligence. It magically locates creatures within 300 ft. whose Intelligence is 3 or higher. Barriers can't block this sense.",
+        "Actions": "Multiattack. Make one Claw attack and use Devour Intellect.\nClaw. Melee attack, +4 to hit, reach 5 ft. A hit deals 7 (2d4 + 2) Slashing damage.\nDevour Intellect. One visible creature within 5 ft. makes a DC 12 Intelligence save. Failure deals 11 (2d10) Psychic damage and leaves the target Stunned until the end of the intellect devourer's next turn.\nSteal Body. Target one Small or Medium Humanoid or Beast within 5 ft. that is Incapacitated and has 10 HP or fewer. The target makes a DC 12 Intelligence save. On a failure, the intellect devourer possesses the target, eats its brain, and teleports into its skull.\nInside the host, the intellect devourer has Total Cover against attacks and effects from outside. It uses the host's statistics except for its own Intelligence, Wisdom, and Charisma scores, understanding of Deep Speech, telepathy, and Detect Intelligence. It acquires the host's knowledge, including spells and languages.\nThe intellect devourer must leave if the host body dies or Wish restores the host's brain. It can also spend 5 ft. of movement to leave voluntarily, teleporting to the nearest unoccupied space within 5 ft. of the host. The vacated body dies unless its brain returns before the end of the intellect devourer's next turn.",
+        "Habitat": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 179."
+      }
+    }
+  },
+  {
+    "name": "Gelatinous Cube",
+    "statBlock": {
+      "name": "Gelatinous Cube",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 129,
+      "classification": "Large ooze, unaligned",
+      "ac": 6,
+      "hp": 63,
+      "hitDice": "6d10 + 30",
+      "speed": "15 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 3
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 8,
+      "description": "A nearly invisible block of acid that sweeps dungeon corridors. Anything it can't dissolve may remain suspended inside.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-4 (6).",
+        "Senses": "Blindsight 60 ft..",
+        "Damage immunities": "Acid.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Exhaustion, Frightened, Prone.",
+        "Traits": "Ooze Cube. The transparent cube fills its space. A creature entering that space is subject to Engulf and makes the save with Disadvantage. Occupants have Total Cover. The cube holds one Large creature or up to four Medium or Small creatures.\nA creature within 5 ft. can use an action to extract a creature or object with a DC 12 Strength (Athletics) check. A successful pull deals 10 (3d6) Acid damage to the creature doing the pulling.\nTransparent. A creature that hasn't seen the cube move or act needs a successful DC 15 Wisdom (Perception) check to notice it, even in plain sight.",
+        "Actions": "Pseudopod. Melee attack, +4 to hit, reach 5 ft. A hit deals 12 (3d6 + 2) Acid damage.\nEngulf. Move up to the cube's Speed without provoking Opportunity Attacks. It can pass through the space of a Large or smaller creature if it has room to hold it. Each creature whose space it enters for the first time during this move makes a DC 12 Dexterity save.\nOn a failed save, the creature takes 10 (3d6) Acid damage and is engulfed. An engulfed creature is Restrained, suffocates, and can't cast spells with a Verbal component. It moves with the cube and takes 10 (3d6) Acid damage at the start of each of the cube's turns. It can use an action to make a DC 12 Strength (Athletics) check. On a success, it escapes into the nearest unoccupied space.\nOn a successful save, the creature takes half the damage and moves into an unoccupied space within 5 ft. of the cube. The save fails instead if no such space is available.",
+        "Habitat": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 129."
+      }
+    }
+  },
+  {
+    "name": "Rust Monster",
+    "statBlock": {
+      "name": "Rust Monster",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 263,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 14,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "description": "A beetle-like scavenger that locates iron and steel by scent and corrodes the metal before eating it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft..",
+        "Traits": "Iron Scent. The rust monster pinpoints ferrous metal within 30 ft.",
+        "Actions": "Multiattack. Make one Bite attack and use Antennae twice.\nBite. Melee attack, +3 to hit, reach 5 ft. A hit deals 5 (1d8 + 1) Piercing damage.\nAntennae. Choose one piece of nonmagical metal armor or one nonmagical metal weapon a creature within 5 ft. wears or carries. That creature makes a DC 11 Dexterity save. On a failure, the item takes a cumulative −1 penalty to the AC it provides or to attack rolls made with it. Destroy the armor if the penalty drops its AC to 10, or the weapon if its penalty reaches −5. Mending removes the penalty from the item.\nDestroy Metal. Touch an unworn, uncarried nonmagical metal object within 5 ft. to destroy a 1-ft. cube of its material.",
+        "Reactions": "Reflexive Antennae. When an attack roll hits the rust monster, it uses Antennae.",
+        "Habitat": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 263."
+      }
+    }
+  },
+  {
+    "name": "Mimic",
+    "statBlock": {
+      "name": "Mimic",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 212,
+      "classification": "Medium monstrosity, neutral",
+      "ac": 12,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 11,
+      "skills": {
+        "Stealth": 5
+      },
+      "description": "A shapeshifting ambusher that passes for furniture or another ordinary object until prey reaches for it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Darkvision 60 ft..",
+        "Damage immunities": "Acid.",
+        "Condition immunities": "Prone.",
+        "Traits": "Adhesive (object form only). Anything that touches the mimic sticks to it. A Huge or smaller creature stuck this way is Grappled (escape DC 13) and has Disadvantage on checks to escape.",
+        "Actions": "Bite. Melee attack, +5 to hit, reach 5 ft. The mimic has Advantage if it is grappling the target. A hit deals 7 (1d8 + 3) Piercing damage, or 12 (2d8 + 3) Piercing damage if the mimic is grappling the target. In either case, add 4 (1d8) Acid damage.\nPseudopod. Melee attack, +5 to hit, reach 5 ft. A hit deals 7 (1d8 + 3) Bludgeoning damage plus 4 (1d8) Acid damage. A Large or smaller creature hit by this attack is Grappled (escape DC 13) and has Disadvantage on checks to escape.",
+        "Bonus actions": "Shape-Shift. Take the appearance of a Medium or Small object, or resume the mimic's true blob form. Both forms use the same statistics. Everything the mimic wears or carries keeps its shape.",
+        "Habitat": "Underdark, Urban.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 212."
+      }
+    }
+  },
+  {
+    "name": "Owlbear",
+    "statBlock": {
+      "name": "Owlbear",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 234,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "skills": {
+        "Perception": 5
+      },
+      "description": "A beaked forest predator that can climb after prey and pursue a trail for miles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Darkvision 60 ft..",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee attack, +7 to hit, reach 5 ft. A hit deals 14 (2d8 + 5) Slashing damage.",
+        "Habitat": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 234."
+      }
+    }
+  }
+]

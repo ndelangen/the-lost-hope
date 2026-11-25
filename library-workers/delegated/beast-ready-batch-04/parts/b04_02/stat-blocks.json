@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Blood Hawk",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "speed": "10 ft., fly 60 ft.",
+    "hitDice": "2d6",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. No listed languages or special senses.",
+    "appearance": "A small bird of prey with crimson feathers, dark wing bars, and a sharply hooked beak.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 120. ",
+      "Traits": "Keen Sight. The hawk has advantage on Wisdom (Perception) checks that depend on sight.\nPack Tactics. The hawk has advantage on an attack roll against a creature if a non-incapacitated ally is within 5 ft. of that creature.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d4 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "speed": "10 ft., fly 60 ft.",
+    "hitDice": "2d6",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4. Passive Perception 14. No listed languages or special senses.",
+    "appearance": "A small bird of prey with crimson feathers, dark wing bars, and a sharply hooked beak.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Forest",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 319. https://www.dndbeyond.com/monsters/16810-blood-hawk",
+      "Traits": "Keen Sight. The hawk has advantage on Wisdom (Perception) checks that depend on sight.\nPack Tactics. The hawk has advantage on an attack roll against a creature if a non-incapacitated ally is within 5 ft. of that creature.",
+      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d4 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Brown Bear",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 34,
+    "speed": "40 ft., climb 30 ft.",
+    "hitDice": "4d10 + 12",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "appearance": "A heavy brown bear with a pronounced shoulder hump, grizzled brown fur, and wide clawed paws.",
+    "habitats": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 120. ",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 11 (2d6 + 4) slashing damage."
+    }
+  },
+  {
+    "name": "Brown Bear",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 34,
+    "speed": "40 ft., climb 30 ft.",
+    "hitDice": "4d10 + 12",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed languages or special senses.",
+    "appearance": "A heavy brown bear with a pronounced shoulder hump, grizzled brown fur, and wide clawed paws.",
+    "habitats": [
+      "Arctic",
+      "Forest",
+      "Hill"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 319. https://www.dndbeyond.com/monsters/16816-brown-bear Uses Brown Bear’s corrected attack bonus from Monster Manual errata v2.0. ",
+      "Traits": "Keen Smell. The bear has advantage on Wisdom (Perception) checks that depend on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 11 (2d6 + 4) slashing damage.",
+      "At the table": "The first printing gives +5 to hit for Bite and Claws. Publisher errata v2.0 corrects both to +6."
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "speed": "30 ft., swim 30 ft.",
+    "hitDice": "2d10 + 2",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 10. No listed languages.",
+    "appearance": "A broad-headed snake with heavy, muscular coils and dark brown markings on olive scales.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 122. ",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple it (escape DC 14). The target remains restrained until the grapple ends. While holding it, the snake cannot constrict another target."
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "speed": "30 ft., swim 30 ft.",
+    "hitDice": "2d10 + 2",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Blindsight 10 ft. Passive Perception 10. No listed languages.",
+    "appearance": "A broad-headed snake with heavy, muscular coils and dark brown markings on olive scales.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 320. https://www.dndbeyond.com/monsters/16830-constrictor-snake",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 6 (1d8 + 2) bludgeoning damage and grapple it (escape DC 14). The target remains restrained until the grapple ends. While holding it, the snake cannot constrict another target."
+    }
+  }
+]

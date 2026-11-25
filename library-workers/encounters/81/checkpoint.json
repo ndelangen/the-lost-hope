@@ -1,0 +1,48 @@
+{
+  "commit": "e5c1bd09d3b517919e6b8d3da8db64e535bfcd78",
+  "publication": "Races of Stone (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "casterLevels": {
+    "protectionFromLaw": {
+      "orrin": 2,
+      "pella": 3
+    },
+    "entropicShield": 1
+  },
+  "gnomeGrouping": {
+    "gnome": "species-7efe6b06e7c7b87884712e76",
+    "default": "D&D: World of Warcraft",
+    "versions": 11,
+    "whisper": "species-e6afa4533fd02005e8e393a7",
+    "whisperDefault": "Races of Stone (2004)",
+    "chaos": "species-23ac77eaf86ffaa392422132"
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/encounters-81-chaos gnome-species.png",
+  "browser": {
+    "name": "Chaos Gnome",
+    "species": "species-23ac77eaf86ffaa392422132",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "c25b57959126cec33bcc9ae3dc442927d89efe9e6f8c4cc8c738abc58f1fedf5",
+    "caption": "Orrin Redwick · Original Chaos Gnome NPC",
+    "npcReceipts": [
+      {
+        "name": "Orrin Redwick",
+        "id": "npc-6f4618e322ae46d3beac0f5d",
+        "challenge": "Provisional CR 2. ECL 2."
+      },
+      {
+        "name": "Pella Reedchime",
+        "id": "npc-901519dfd679ec15e7762709",
+        "challenge": "Provisional CR 2. ECL 2."
+      }
+    ]
+  }
+}

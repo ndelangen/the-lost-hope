@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Cayma",
+    "decision": "separate",
+    "pages": "pp. 65–66",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Cayma",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "hp": null,
+      "cr": "",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Small reptilian humanoid",
+      "ac": 7,
+      "hitDice": "2",
+      "speed": "9",
+      "thac0": 19,
+      "xp": 65,
+      "otherStatistics": "Temperate to subtropical swamps or forests. Uncommon. Village of 10d6 adults and half as many noncombatants. Active at any time. Omnivore. Intelligence 8–10. Treasure K. Neutral. No magic resistance. Height about 1 foot. Morale 8–10.",
+      "description": "A foot-tall lizard kin ambusher. Caymas use hidden village entrances and prefer a quick strike followed by retreat.",
+      "sections": {
+        "Actions": "Attack once for 1d3 damage or use a weapon. Bone daggers deal 1d2. A bok deals 1d6. Caymas use it two-handed as a pike and cannot throw it.\nAmbush. A concealed cayma imposes a −2 penalty on the target’s surprise roll.",
+        "Senses and skills": "Infravision 90 feet. Hide in Shadows and Move Silently each succeed 40% of the time. Speaks a Shazak dialect. Knowing one lizard kin dialect gives basic comprehension of the other two. A few individuals speak Common.",
+        "Village shaman": "Each village has a shaman equivalent to a 5th- to 7th-level priest. The shaman has AC 6 and raises a party’s morale by one level. XP by Hit Dice, with Legacy value second. 5 HD 420 or 650 XP. 6 HD 650 or 975 XP. 7 HD 975 or 1,400 XP.",
+        "Red Curse": "A cayma entering the cursed lands can acquire a Legacy and needs cinnabryl to prevent Affliction. A standard cayma with a Legacy is worth 120 XP.",
+        "Cayma grenades": "A Wokan can supply ceramic grenades. On impact against a hard surface, roll 1d20. The grenade breaks and releases its cloud on 1–17.\nSleep. Within 1 foot of the impact, anyone whose head or breathing organ is in the cloud must save vs. breath weapon or sleep for 1d4 turns.\nChoke. Same area and save as sleep. Failure leaves the victim unable to attack or defend for 1d6 rounds.\nFog. A 5-foot radius blocks ordinary vision and infravision for 1d6 rounds. Strong wind halves the duration.\nWeapon details. Savage Coast Campaign Book, Part 2, pp. 136–137.",
+        "Printed source": "pp. 65–66"
+      }
+    }
+  },
+  {
+    "name": "Gurrash",
+    "decision": "separate",
+    "pages": "pp. 65–67",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Gurrash",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "hp": null,
+      "cr": "",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Large reptilian humanoid",
+      "ac": 5,
+      "hitDice": "3",
+      "speed": "12, swim 18",
+      "thac0": 17,
+      "xp": 420,
+      "otherStatistics": "Bayou. Rare. Village. Active at any time. Carnivore. Intelligence 5–7. Treasure M. Chaotic evil. Appearing 1d6. No magic resistance. Height about 8 feet. Morale 13–14.",
+      "description": "A muscular Bayou reptilian with an alligator head. Its claws can drag a foe underwater and its tail keeps foes from closing behind it.",
+      "sections": {
+        "Actions": "Claw and bite. Make two claw attacks for 1d4 each and one bite for 2d4, or replace the claw routine with a weapon. A gurrash can use a weapon and bite in the same round. Add +2 to weapon damage.\nTail slap. Against a foe behind it, add one attack for 1d8 damage to the round’s routine.\nDrown. If both front claws hit one foe, drag it underwater. It drowns in 1d3 + 1 rounds. Resolve the hold as a wrestling maneuver.",
+        "Berserk": "When provoked or wounded, roll a 10% chance per melee round to go berserk. A berserk gurrash gains one attack and +1 to hit and damage. It can keep fighting to −7 HP.",
+        "Village chief": "Bite damage rises to 3d4. Strength 19 gives +3 to attack rolls and +7 to weapon damage.",
+        "Languages and Red Curse": "Speaks a Shazak dialect and can broadly understand the other two lizard kin dialects. Some gurrash mages know written Shazak. Common is rare. A gurrash entering the cursed lands can acquire Legacies and needs cinnabryl to ward off Affliction.",
+        "Printed source": "pp. 65–67"
+      }
+    }
+  },
+  {
+    "name": "Nosferatu",
+    "decision": "separate",
+    "pages": "pp. 79–81",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Nosferatu",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "hp": null,
+      "cr": "",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Medium undead",
+      "ac": 2,
+      "hitDice": "7–9",
+      "speed": "12, fly 18 (C)",
+      "xp": 8000,
+      "otherStatistics": "Any terrain. Very rare, solitary, and active at any time. Drinks blood. Intelligence 8–18. Treasure F. Any alignment, usually evil. Appearing 1. No magic resistance. Height 5–7 feet. Morale 15–16. The XP listed is the minimum.",
+      "description": "This blood-drinking undead keeps the skills and spells of its former life. It can pass for a living person in daylight, though it casts no shadow and has no reflection.",
+      "sections": {
+        "Actions": "Bite or weapon. One bite deals 1d4 damage. It can instead use a weapon or cast a spell from its former class. Use the THAC0 of the equivalent class and level. Strength is at least 16.\nCharm. A creature that meets its gaze saves at −2 or is affected as by charm person. The nosferatu can then use suggestion on that victim.\nChange form. It can become gaseous at will and is immune to physical attacks in that form. At night it can become a large bat. By day it can become a raven. It can also use spider climb.\nSummon animals. Call 1d100 rats or bats underground, or 3d6 wolves in the wilderness. They arrive in 2d6 rounds.",
+        "Defenses and defeat": "Only +1 or better magical weapons can harm it. It regains 1 HP each round. Sleep, charm, hold, poison, and paralysis fail against it. Cold and electricity spells deal half damage. At 0 HP it turns gaseous and flees to its coffin. If it fails to reach the coffin within 12 turns, it dies. After eight hours inside, it regains corporeal form.\nGarlic repels it. Clerical symbols and holy water are harmless to it. A cleric of opposing alignment or a cleric specialized in hunting undead can turn it. Immersion in running water for three consecutive rounds destroys it. A wooden stake through the heart stops it, but it resumes healing if the stake is removed. To destroy a staked nosferatu permanently, behead it and fill its mouth with earth consecrated to a good deity.",
+        "Invitation and spawn": "A resident must invite it into a private home. Charm or deception can secure the invitation. Once invited, it can come and go. If it chooses to create spawn, a drained human or humanoid rises after three days unless the body is burned or destroyed. The spawn obeys its creator until the creator dies.",
+        "Former class": "Keep the original class’s memories, abilities, skills, and restrictions. Set class level to at least 7 and at most 9 when it becomes a nosferatu. It can advance thereafter at triple the usual XP. Keep ability scores except that Strength is at least 16 and Constitution is no longer required. Warriors and clerics can wear armor without improving AC. Clerics retain spells from their original Immortal patron only if their alignment still matches.",
+        "Hunger and Red Curse": "It must drink at least 9 HP worth of mortal blood per week. After a week of fasting, its ability scores fall by 1 each day to a minimum of 9. An extra 1d4 HP worth of fresh blood restores lost scores. Nonhumanoid blood dulls the pain for one day without restoring scores. It never acquires Legacies and needs no cinnabryl.",
+        "Printed source": "pp. 79–81"
+      }
+    }
+  },
+  {
+    "name": "Shazak",
+    "decision": "separate",
+    "pages": "pp. 65, 67–68",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Shazak",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "hp": null,
+      "cr": "",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Medium reptilian humanoid",
+      "ac": 5,
+      "hitDice": "3",
+      "speed": "9",
+      "thac0": 17,
+      "xp": 65,
+      "otherStatistics": "Temperate to subtropical swamps and forests. Rare. Tribe. Active at any time. Omnivore. Intelligence 8–10. Treasure K (A). Neutral. Appearing 3d6. No magic resistance. Height about 6 feet. Morale 13–14.",
+      "description": "A woodland lizard kin who often defends settlements against raiders. Important tribal members and beast-riders ride trained giant bats called mobats.",
+      "sections": {
+        "Actions": "Claw and bite. Make two claw attacks for 1d2 each and one bite for 1d6, or fight with a weapon. Spears and swords are common choices.",
+        "Leader and XP": "The table lists a 6 HD leader worth 270 XP. A standard shazak with a Legacy is worth 120 XP.",
+        "Languages and Red Curse": "Speaks Shazak and can broadly understand the other two lizard kin dialects. Common is rare. A shazak entering the cursed lands can acquire Legacies and needs cinnabryl to prevent Affliction.",
+        "Printed source": "pp. 65, 67–68"
+      }
+    }
+  },
+  {
+    "name": "Skinwing",
+    "decision": "separate",
+    "pages": "pp. 96–97",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Skinwing",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "hp": null,
+      "cr": "",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Huge flying reptile",
+      "ac": 3,
+      "hitDice": "4–7",
+      "speed": "6, fly 15 (C)",
+      "otherStatistics": "Tropical or subtropical land. Rare. Flock. The table lists activity at any time and the ecology notes peak activity by day. Carnivore and scavenger. Intelligence 2–4. No treasure. Neutral with evil tendencies. Appearing 2d4. No magic resistance. Wingspan 12–21 feet. Morale 11–12, +1 if trained.",
+      "description": "A leathery, batlike predator that rakes prey while flying past. Hunters sometimes train it as a short-distance mount.",
+      "sections": {
+        "Actions": "Claw pass. Make two claw attacks for 1d4 each from above or behind, then fly out of reach. A flock normally concentrates these passes on one target. If both claws hit and the victim weighs less than half the skinwing’s carrying capacity, carry it aloft and deal 2d4 damage per round thereafter.\nBite. Deal 2d4 damage while landed or flying very slowly. Its AC is 7 while it uses this attack.\nA skinwing carrying a rider cannot attack.",
+        "Flight and loads": "Carry up to 30 pounds per HD. It needs a drop-off to take off with a rider and must save vs. paralysis every half hour of mounted flight. Failure exhausts it and forces an immediate landing. Its flight ceiling is about 1,000 feet. At 50% or more damage it loses flight until fully healed.",
+        "Hit Dice, THAC0 and XP": "4 HD. THAC0 17. XP 175, or 270 with a Legacy.\n5 HD. THAC0 15. XP 270, or 420 with a Legacy.\n6 HD. THAC0 15. XP 420, or 650 with a Legacy.\n7 HD. THAC0 13. XP 650, or 975 with a Legacy.",
+        "Red Curse": "25% have a Legacy from Region 3. Anti-Missile and Gaseous Form are typical. They do not require cinnabryl.",
+        "Printed source": "pp. 96–97"
+      }
+    }
+  },
+  {
+    "name": "Tortle",
+    "decision": "separate",
+    "pages": "pp. 109–111",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Tortle",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "hp": null,
+      "cr": "",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "classification": "Medium reptilian humanoid",
+      "ac": 3,
+      "hitDice": "2",
+      "speed": "6, swim 3",
+      "thac0": 19,
+      "xp": 120,
+      "otherStatistics": "Forests and beaches. Uncommon. Tribe. Active by day. Omnivore. Intelligence 8–10. Treasure K. Any alignment. Appearing 2d6. No magic resistance. Height 5–7 feet. Morale 17–18.",
+      "description": "A shelled coastal humanoid. In a group, the front line withdraws into its shells while the rear line shoots, then emerges when the volleys stop.",
+      "sections": {
+        "Actions": "Claws or weapon. Make two claw attacks for 1d4 each or use a weapon. Some tortles have learned a bite that deals 1d6. Favored weapons include short bows, staves, long swords, and flails.\nShell withdrawal. Take no other action that round. While withdrawn, use AC 1 and add +4 to all saves, including saves against mental attacks. The tortle cannot move, attack, or see, but it can hear and smell. Gaze attacks and other effects that require the target to see fail against it while withdrawn.",
+        "Senses and swimming": "Infravision and underwater vision extend 60 feet. It has the Swimming nonweapon proficiency. Buoyancy keeps it afloat even in bogs, quicksand, and mud. It holds its breath for 10 turns. It speaks Tortle and usually Common or another local language.",
+        "Red Curse": "Tortles acquire Legacies and need cinnabryl to ward off Affliction.",
+        "Printed source": "pp. 109–111"
+      }
+    }
+  }
+]

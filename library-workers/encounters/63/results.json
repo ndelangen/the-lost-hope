@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Hobgoblin Firerunner",
+    "source": "https://www.dndbeyond.com/monsters/4485884-hobgoblin-firerunner",
+    "challenge": "4",
+    "entry": "monster-6ad9a8ae5ead8adb37822191",
+    "version": "e8db044fec38e94abc167d8a",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-firerunner",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "3a28e57b7f92514cc7331144bf7763981a058cf5e03f20c2db41d5f6c920bf79",
+    "status": "Stat block",
+    "appearance": "A lean red-orange hobgoblin skirmisher with swept horns, light studded leather, and a fire-wreathed scimitar.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Desert settlements"
+    ]
+  },
+  {
+    "name": "Hobgoblin Trooper",
+    "source": "https://www.dndbeyond.com/monsters/4485888-hobgoblin-trooper",
+    "challenge": "1/2",
+    "entry": "monster-d959ae4400e6788c60bc92fe",
+    "version": "0382c0f542574b0f5b0e2c6d",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-trooper",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "53a892295e7bdd12a4f75756550ca4f90b147649a574cc23751491a3e0177102",
+    "status": "Stat block",
+    "appearance": "A tusked hobgoblin in worn ring mail with a large bone-faced shield and a burning military flail.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Fortified settlements"
+    ]
+  }
+]

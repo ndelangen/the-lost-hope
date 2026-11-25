@@ -1,0 +1,125 @@
+{
+  "builds": [
+    {
+      "id": "mongrelfolk-pawnbroker-35e",
+      "title": "Mongrelfolk pawnbroker, Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d6+3",
+      "initiative": 2,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 15,
+        "CON": 17,
+        "INT": 10,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Appraise +5",
+        "Disable Device +4",
+        "Hide +10",
+        "Move Silently +7",
+        "Search +5",
+        "Sleight of Hand +10",
+        "Spot +5",
+        "Use Magic Device +6, or +10 to emulate a nonhumanoid race"
+      ],
+      "senses": "Low-light vision at twice human distance.",
+      "languages": "Common",
+      "traits": [
+        "Leather armor +2 and Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +0. Fortitude +3, Reflex +4, Will +0.",
+        "Trapfinding allows Search checks for traps above DC 20 and Disable Device checks against magic traps. Skill Focus (Use Magic Device) adds +3. The eight listed skills each have four ranks.",
+        "Apply other magic item requirements normally. An elf-restricted item needs no race check. A nonhumanoid race restriction is a DC 25 Use Magic Device check at +10.",
+        "Diffuse Blood gives +2 racial on saves against spells that target or exclude a particular race when the race named by the spell is human, halfling, dwarf, elf, gnome, goblin, or orc.",
+        "Immune to sleep spells and similar magical effects. +1 racial on saves against enchantment spells and effects, illusion spells and effects, and poison."
+      ],
+      "actions": [
+        "Rapier +0 melee, 1d6 piercing, critical 18–20/×2, 5-ft. reach.",
+        "Shortbow +2 ranged, 1d6 piercing, critical ×3, 60-ft. increment.",
+        "Sneak attack adds 1d6 damage when the target is denied its Dexterity bonus to AC or when flanked. Ranged sneak attacks require a target within 30 ft.",
+        "Sound Imitation (Ex) reproduces any voice or sound the Mongrelfolk has heard. A listener detects the imitation with a DC 16 Will save."
+      ],
+      "tactics": "Mara agreed to inspect an elf-restricted magic clasp. She will demonstrate its catch if the party finds the owner named on the pawn ticket. If cornered, she hides behind the counter and takes the back stair."
+    },
+    {
+      "id": "mongrelfolk-ferry-bellkeeper-35e",
+      "title": "Mongrelfolk ferry bellkeeper, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1/2. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Human)",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d6+4",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 13,
+        "CON": 18,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 6
+      },
+      "skills": [
+        "Craft (carpentry) +4",
+        "Listen +8",
+        "Profession (sailor) +5",
+        "Search +5",
+        "Sense Motive +5",
+        "Spot +8"
+      ],
+      "senses": "Low-light vision at twice human distance.",
+      "languages": "Common",
+      "traits": [
+        "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +1. Fortitude +4, Reflex +1, Will +3.",
+        "Each listed skill is a selected Expert class skill with four ranks. Alertness gives +2 Listen and Spot, already included.",
+        "Emulate Race (Ex) automatically satisfies the racial requirement of a magic item for any humanoid race. A Mongrelfolk trained in Use Magic Device gets a +4 racial bonus on checks to emulate a nonhumanoid race.",
+        "Diffuse Blood gives +2 racial on saves against spells that target or exclude a particular race when the race named by the spell is human, halfling, dwarf, elf, gnome, goblin, or orc.",
+        "Immune to sleep spells and similar magical effects. +1 racial on saves against enchantment spells and effects, illusion spells and effects, and poison."
+      ],
+      "actions": [
+        "Club +1 melee, 1d6+1 bludgeoning, critical ×2, 5-ft. reach.",
+        "Sling +1 ranged, 1d4+1 bludgeoning, critical ×2, 50-ft. increment. Loading takes a move action.",
+        "Sound Imitation (Ex) reproduces any voice or sound the Mongrelfolk has heard. A listener detects the imitation with a DC 16 Will save."
+      ],
+      "tactics": "Tavin heard two ferry calls using the same bell. Ask the party to watch the landing, then imitate the damaged bell from shore to see who answers. In a fight, Tavin keeps behind the stone mooring post."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Mongrelfolk",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Mara Fir Vale",
+      "build": "mongrelfolk-pawnbroker-35e",
+      "role": "Pawnbroker and Rogue.",
+      "motive": "Return an elf-restricted magic clasp before someone redeems it with a copied pawn ticket.",
+      "hook": "Mara can demonstrate the clasp for the party once they find the owner listed in her ledger."
+    },
+    {
+      "species": "Mongrelfolk",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Destiny (2004)",
+      "name": "Tavin Nek Reed",
+      "build": "mongrelfolk-ferry-bellkeeper-35e",
+      "role": "Ferry bellkeeper and Expert.",
+      "motive": "Find out who rang the ferry in after it had already docked for the night.",
+      "hook": "Tavin can imitate the cracked ferry bell. The party can watch the landing to see who comes for the crossing."
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+[
+  {
+    "name": "Halorin Yandres",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 17,
+    "hp": 32,
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "classification": "Medium Undead, lawful evil",
+    "speed": "30 ft.",
+    "otherStatistics": "Breastplate and shield. Saving throws Str +5, Con +4. Skills Athletics +5, Intimidation +2, Perception +3. Darkvision 60 ft. Passive Perception 13. Common and Elvish.",
+    "sections": {
+      "Role": "Soldier",
+      "Traits": "Aura of Command. Halorin and any Undead within 30 ft. of him have advantage on saves against effects that turn Undead.\nPendant of Grave Regeneration. Halorin regains 5 HP at the start of his turn if he has at least 1 HP.",
+      "Actions": "Multiattack. Make one Shield Slam attack and one Mace attack. A creature hit by both has disadvantage on attacks against anyone other than Halorin until the end of its next turn.\nMace. Melee weapon attack +5, reach 5 ft., one target. Hit 6 (1d6 + 3) bludgeoning damage.\nShield Slam. Melee weapon attack +5, reach 5 ft., one target. Hit 5 (1d4 + 3) bludgeoning damage. The target falls Prone on a failed DC 13 Strength save.",
+      "Reactions": "Unyielding Protection. When a willing ally within 5 ft. is hit by an attack, Halorin swaps spaces with the ally and takes the hit instead. Neither creature provokes opportunity attacks during the swap. Halorin must see both the ally and the attacker.",
+      "Villain Party Action": "Grave Order. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 2, Forward Assault. Each allied Undead minion within 30 ft. that can hear Halorin can move up to its speed without provoking opportunity attacks."
+    },
+    "hitDice": "5d8 + 10"
+  },
+  {
+    "name": "Lestheris Soldrei",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 12,
+    "hp": 44,
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Humanoid (Half-Elf), neutral evil",
+    "speed": "30 ft.",
+    "otherStatistics": "AC 15 with Mage Armor. Saving throws Int +6, Wis +4. Skills Arcana +6, History +6, Investigation +6, Persuasion +3. Darkvision 60 ft. Passive Perception 12. Common and Elvish.",
+    "sections": {
+      "Role": "Artillery",
+      "Traits": "Charm Resistant. Lestheris has advantage on saves to avoid or end Charmed.\nDark Calling. Other creatures within 30 ft. of Lestheris have disadvantage on death saving throws.\nTome of the Ethereal. Lestheris sees 120 ft. into the Ethereal Plane.",
+      "Actions": "Multiattack. Make two Grave Grasp attacks or two Necrotic Lance attacks.\nGrave Grasp (cantrip). Melee spell attack +6, reach 5 ft., one target. Hit 7 (2d6) necrotic damage. The target cannot regain HP until the start of Lestheris’s next turn.\nNecrotic Lance (1st-level spell). Ranged spell attack +6, range 120 ft., one target. Hit 9 (2d8) necrotic damage. Lestheris can destroy a Shade she controls within 30 ft. to deal an extra 4 (1d8) necrotic damage to the target.\nAnimate Spirits (2/day). Animate two Shades in unoccupied spaces she can see within 30 ft. They act immediately after her on the same initiative count and follow her verbal commands. They are destroyed if she dies.",
+      "Reactions": "Ethereal Step (3/day). When a creature Lestheris can see within 60 ft. targets her with an attack, spell, or power while she is outside the Ethereal Plane, she can teleport up to 60 ft. to an unoccupied space she can see or enter the Ethereal Plane. If she enters that plane, she returns at the start of her next turn to the space she left. If that space is occupied, she chooses a nearest unoccupied space.",
+      "Utility Spells": "Intelligence, save DC 14. At will: Mage Hand, Message, Minor Illusion. 3/day each: Detect Magic, Mage Armor. 1/day each: Knock, Speak with Dead. Each takes 1 action.",
+      "Villain Party Action": "Grave Order. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 5, The Tide of Death. For each enemy Lestheris can see within 30 ft., animate one Shade in an unoccupied space she can see within 30 ft. They follow the turn order, command, and destruction rules under Animate Spirits."
+    },
+    "hitDice": "8d8 + 8",
+    "relatedCreatures": [
+      {
+        "name": "Shade",
+        "kind": "monster",
+        "terms": [
+          "Shades"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jedar Pike",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 15,
+    "hp": 27,
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "classification": "Medium Humanoid (Human), lawful evil",
+    "speed": "30 ft.",
+    "otherStatistics": "Half plate. Saving throws Wis +4, Cha +4. Skills Insight +4, Perception +4, Religion +2. Passive Perception 14. Celestial and Common.",
+    "sections": {
+      "Role": "Support",
+      "Traits": "Exploit Opening (3/day). The creature can gain advantage on an attack roll it makes.",
+      "Actions": "Warhammer. Melee weapon attack +4, reach 5 ft., one target. Hit 6 (1d8 + 2) bludgeoning damage plus 2 (1d4) necrotic damage.\nNameless Reach (2/day, 1st-level spell). Ranged spell attack +4, range 120 ft., one target. Hit 14 (4d6) necrotic damage. The next attack against the target before the end of Jedar’s next turn has advantage.\nAnimate Bones (1/day). Animate three Decrepit Skeletons in unoccupied spaces Jedar can see within 30 ft. They act immediately after Jedar on the same initiative count, follow his verbal commands, and are destroyed if he dies.",
+      "Bonus Actions": "Bone Shield. Destroy a Decrepit Skeleton Jedar controls to grant 7 (2d6) temporary HP to a creature he can see within 60 ft.",
+      "Utility Spells": "Wisdom, save DC 12. At will: Light and Thaumaturgy, each using 1 action. 1/day: Augury, using its normal casting time.",
+      "Villain Party Action": "Grave Order. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 1, Bulwark of Bone. Animate four Decrepit Skeletons using the placement, turn order, command, and destruction rules under Animate Bones."
+    },
+    "hitDice": "5d8 + 5",
+    "relatedCreatures": [
+      {
+        "name": "Decrepit Skeleton",
+        "kind": "monster",
+        "terms": [
+          "Decrepit Skeletons"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Harlo Honeygrin",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 17,
+    "hp": 90,
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 22,
+        "modifier": 6
+      }
+    },
+    "classification": "Small Humanoid (Halfling), neutral evil",
+    "speed": "25 ft., fly 60 ft. in Shadow Form",
+    "otherStatistics": "Studded leather. Saving throws Int +9, Cha +9. Skills Acrobatics +8, Arcana +9, Deception +12, Insight +4, Intimidation +9, Performance +12, Persuasion +9, Stealth +8. Passive Perception 11. Common, Dwarvish, Elvish, Halfling, Thieves’ Cant, and telepathy 120 ft.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Amethyst Die (3/day). Add 1d6 to an ability check, save, or attack roll. Harlo then takes psychic damage equal to twice the die result. Works in Shadow Form.\nFear Resistant. Harlo has advantage on saves to avoid or end Frightened.\nMind Link. Harlo can communicate telepathically with other Amethyst Knife bosses anywhere on his plane.\nTelepathic Shroud. Divination spells and effects that sense emotions or read thoughts cannot affect Harlo.",
+      "Actions": "Multiattack. Make two Mind Splinter attacks.\nMind Splinter (1st-order power). Melee or ranged power attack +9, reach 5 ft. or range 60 ft., one target. Hit 20 (4d6 + 6) psychic damage. Harlo becomes Invisible to the target until the start of his next turn.\nShadow Form (1/day, 4th-order power, concentration). For 10 minutes, Harlo and his equipment become an amorphous shadow. He flies at 60 ft. and resists bludgeoning, piercing, and slashing damage from mundane attacks. He has advantage on Dexterity (Stealth) checks and can hide without cover. He can move through gaps as narrow as 1 inch without squeezing. He cannot pick up or wield anything except his Amethyst Die.",
+      "Bonus Actions": "I’m Over Here. Choose an enemy within 60 ft. Harlo must be able to see the enemy, and the enemy must be unable to see him. On a failed DC 17 Wisdom save, the enemy makes a weapon attack against a creature Harlo chooses.\nSneaky. Take the Hide action.",
+      "Reactions": "Shared Condition. When Harlo becomes Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned, he can transfer the condition for its remaining duration to a willing Amethyst Knife boss within 60 ft. who does not already have the condition or is immune to it. Harlo loses the condition. He can use this reaction even while Incapacitated.",
+      "Villain Party Action": "Amethyst Knife. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 5, Epilogue. Each enemy within 60 ft. makes a DC 17 Intelligence save. On a failure, the enemy takes 28 (8d6) psychic damage and is Dazed until the end of its next turn. On a success, it takes half damage and avoids Dazed.",
+      "Dazed (MCDM)": "On a turn while Dazed, a creature can move, take an action, or take a bonus action. It chooses one. If it becomes Dazed on its turn, its turn ends. It can still take extra actions granted by abilities such as Haste or Action Surge. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "hitDice": "20d6 + 20"
+  },
+  {
+    "name": "Lady Avalla Deseo",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 13,
+    "hp": 58,
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 11,
+        "modifier": 0
+      }
+    },
+    "classification": "Medium Humanoid (Human), lawful evil",
+    "speed": "30 ft.",
+    "otherStatistics": "AC 16 with Mage Armor. Saving throws Con +4, Int +7, Wis +2. Skills Arcana +7, History +7, Investigation +7. Passive Perception 10. Common.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Exploit Opening (3/day). The creature can gain advantage on an attack roll it makes.\nSupernatural Resistance. Avalla has advantage on saves against powers, spells, and other supernatural effects.",
+      "Actions": "Lightning Lash (cantrip). Melee or ranged spell attack +7, reach 5 ft. or range 60 ft., one creature. Hit 15 (3d6 + 5) lightning damage. Avalla can move the target up to 15 ft. horizontally.\nIron Terror (1/day, 4th-level spell). Each enemy in a 30-ft. cone makes a DC 15 Wisdom save. On a failure, the target takes 21 (6d6) psychic damage and is Frightened of every member of the High Command for 1 minute. The target can repeat the save at the end of each turn, ending the condition on a success.\nIron Shackles (1/day, 3rd-level spell, concentration). Center a 15-ft. square of animated chains on a point on the ground Avalla can see within 60 ft. The chains last for 1 minute. A creature entering the area for the first time on a turn or starting its turn there must make a DC 15 Dexterity save or become Restrained. It can repeat the save at the start of each turn to end the condition. While Restrained by the chains, it takes 7 (2d6) bludgeoning damage at the end of each of its turns.\nIron Ring (2/day). Teleport to the Cyst. From inside the Cyst, teleport to a place the creature has visited.",
+      "Reactions": "Escape Ring. While outside the Cyst, when an ally Avalla can see within 60 ft. drops to 0 HP, expend a use of Iron Ring to teleport to the Cyst with each willing ally within 60 ft. who is not Incapacitated.\nSpellcasting Feedback. When a creature Avalla sees within 60 ft. casts a spell, it chooses either to cast the spell and then take 3 (1d6) psychic damage per spell level or let the spell fail, spending the slot and wasting the action.",
+      "Utility Spells": "Intelligence, save DC 15. At will: Light, Mage Hand, Message. 3/day each: Detect Magic, Mage Armor. 1/day each: Detect Thoughts, Disguise Self, Sending. Each takes 1 action.",
+      "Villain Party Action": "Black Iron Pact. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 3, Promised Storm. Target one creature Avalla can see within 90 ft., plus up to two other creatures she chooses within 30 ft. of the first. Each target makes a DC 15 Dexterity save, taking 22 (4d10) lightning damage on a failure or half as much on a success."
+    },
+    "hitDice": "9d8 + 18"
+  },
+  {
+    "name": "Lord Erasmus Deseo",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 18,
+    "hp": 90,
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Humanoid (Human), lawful evil",
+    "speed": "30 ft.",
+    "otherStatistics": "Plate. Saving throws Str +7, Con +5, Wis +2. Skills Athletics +7, History +4, Intimidation +3. Passive Perception 10. Common.",
+    "sections": {
+      "Role": "Support",
+      "Traits": "Exploit Opening (3/day). The creature can gain advantage on an attack roll it makes.\nMaster Tactician. Erasmus chooses his place in initiative after all other combatants roll.",
+      "Actions": "Multiattack. Make two Greatsword attacks. Erasmus can replace one attack with I’m Right Here.\nGreatsword. Melee weapon attack +7, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing damage. A creature hit has disadvantage on attacks against targets other than Erasmus until the end of its next turn.\nI’m Right Here. Choose a creature Erasmus can see within 5 ft. that can hear him. On a failed DC 15 Wisdom save, it must use its reaction to attack Erasmus if the reaction is available. If it attacks, one ally within 30 ft. of Erasmus who is not Incapacitated can make a weapon attack against it without spending an action.\nIron Ring (2/day). Teleport to the Cyst. From inside the Cyst, teleport to a place the creature has visited.",
+      "Bonus Actions": "Mark. Mark a creature Erasmus can see within 60 ft. until the start of his next turn. The first time an ally of Erasmus damages it on each turn, it takes an extra 3 (1d6) damage.\nReposition. Erasmus and each ally within 60 ft. who can hear him can move up to 5 ft. without provoking opportunity attacks.",
+      "Villain Party Action": "Black Iron Pact. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 5, Playtime’s Over. One member of the High Command within 60 ft. who can hear Erasmus can use its villain party action, even if it already used that action in this encounter."
+    },
+    "hitDice": "12d8 + 36"
+  },
+  {
+    "name": "Vivienn Dirroze",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 18,
+    "hp": 152,
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 24,
+        "modifier": 7
+      }
+    },
+    "classification": "Medium Humanoid (Human), neutral evil",
+    "speed": "30 ft.",
+    "otherStatistics": "Plate. Saving throws Str +11, Con +8, Cha +10. Skills Acrobatics +3, Athletics +11, Deception +10, Intimidation +10. Resists acid and necrotic damage. Blindsight 30 ft., darkvision 120 ft. Passive Perception 11. Common and Draconic.",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Exploit Opening (3/day). The creature can gain advantage on an attack roll it makes.\nReckless. At the start of her turn, Vivienn can gain advantage on all melee weapon attacks she makes that turn. If she does, attacks against her have advantage until the start of her next turn.",
+      "Actions": "Multiattack. Make three Godslayer Axe attacks.\nGodslayer Axe. Melee weapon attack +11, reach 5 ft., one target. Hit 14 (1d12 + 8) slashing damage plus 4 (1d8) necrotic damage. A Celestial takes an extra 18 (4d8) necrotic damage.",
+      "Bonus Actions": "Draconic Rage (3/day). For 1 minute or until Incapacitated, Vivienn becomes Large, gains +2 to weapon damage rolls and advantage on Strength checks and saves, and resists bludgeoning, piercing, and slashing damage.\nRavenous Bite (Draconic Rage only). Melee weapon attack +11, reach 5 ft., one target. Hit 14 (1d12 + 8) piercing damage. On a failed DC 19 Constitution save, the target is Frightened of Vivienn for 1 minute. It can repeat the save at the end of each of its turns to end the condition.",
+      "Villain Party Action": "Hallowed Dark. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 5, Wrath of the Godslayer. Each enemy within 30 ft. makes a DC 19 Dexterity save. On a failure, the enemy takes 34 (4d12 + 8) slashing damage and falls Prone."
+    },
+    "hitDice": "16d8 + 80"
+  },
+  {
+    "name": "Canon Athenodorus",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 18,
+    "hp": 65,
+    "cr": "3",
+    "xp": 700,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 13,
+        "modifier": 1
+      }
+    },
+    "classification": "Medium Humanoid (Human), lawful evil",
+    "speed": "30 ft.",
+    "otherStatistics": "Plate. Saving throws Con +4, Wis +7, Cha +3. Skills Athletics +7, Deception +3, Insight +7, Religion +4. Passive Perception 15. Common.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Exploit Opening (3/day). The creature can gain advantage on an attack roll it makes.",
+      "Actions": "Star of Iron. Melee weapon attack +7, reach 10 ft., one target. Hit 12 (2d6 + 5) bludgeoning damage. If the target is a creature, subtract 1d4 from its attack rolls and saves until the end of its next turn.\nIron Ring (2/day). Teleport to the Cyst. From inside the Cyst, teleport to a place the creature has visited.\nUnholy Fire (2/day, 3rd-level spell). Center a 15-ft.-radius, 30-ft.-high cylinder on a point Athenodorus can see within 90 ft. Each enemy in it makes a DC 15 Dexterity save. On a failure, it takes 14 (4d6) fire damage plus 14 (4d6) necrotic damage, and Athenodorus moves it up to 15 ft. horizontally. On a success, it takes half damage and stays in place.",
+      "Bonus Actions": "Blessing of Ajax (2/day). One creature Athenodorus can see within 30 ft. regains 14 (2d8 + 5) HP. He can also end one of these conditions on the target: Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, Poisoned, or Stunned.",
+      "Utility Spells": "Wisdom, save DC 15. At will: Light and Mending, each using 1 action as printed. 1/day each: Divination using 1 action and Glyph of Warding using its normal casting time.",
+      "Villain Party Action": "Black Iron Pact. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 2, Curse of Iron. Each enemy Athenodorus can see within 30 ft. makes a DC 15 Wisdom save. On a failure, the enemy takes 14 (4d6) necrotic damage and is Blinded for 1 minute. It can repeat the save at the end of each turn to end the condition. On a success, it takes half damage and avoids Blinded.",
+      "Dazed (MCDM)": "On a turn while Dazed, a creature can move, take an action, or take a bonus action. It chooses one. If it becomes Dazed on its turn, its turn ends. It can still take extra actions granted by abilities such as Haste or Action Surge. Cure Ailment, Lesser Restoration, and Greater Restoration can remove Dazed."
+    },
+    "hitDice": "10d8 + 20"
+  },
+  {
+    "name": "Vali",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 16,
+    "hp": 71,
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "classification": "Medium Humanoid (Elf), neutral evil",
+    "speed": "35 ft., climb 35 ft.",
+    "otherStatistics": "Leather armor. Saving throws Dex +7, Wis +7, Cha +2. Skills Acrobatics +7, Perception +9, Stealth +9. Darkvision 60 ft. Passive Perception 19. Common, Elvish, and Sylvan.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Cloak and Dagger. Vali remains hidden after missing with a weapon attack.\nDeft-Footed. Vali leaves tracks or other traces only if he chooses to.\nElf Glamour (1/day). When a creature targets Vali with an attack, a spell, or a power, he can force it to make a DC 15 Wisdom save without spending an action. On a failure, it is Charmed by Vali until the end of his next turn.",
+      "Actions": "Multiattack. Make two Shortsword attacks, or make two Waning Moon attacks and use Waning Moon Fade if available.\nShortsword. Melee weapon attack +7, reach 5 ft., one target. Hit 8 (1d6 + 5) piercing damage.\nWaning Moon. Ranged weapon attack +7, range 150/600 ft., one target. Hit 9 (1d8 + 5) piercing damage. A creature that cannot see Vali takes an extra 7 (2d6) force damage.\nWaning Moon Fade (1/day). Become Invisible for 1 minute and take the Hide action. The effect ends when Vali attacks, casts a spell, or manifests a power.",
+      "Bonus Actions": "Nimble Escape. Take the Disengage or Hide action.",
+      "Villain Party Action": "Wilderkith. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 5, Suppressing Volley. Vali makes a ranged attack against each enemy he can see within 150 ft. Each member of the Inner Circle can move up to its speed and take the Hide action without spending an action."
+    },
+    "hitDice": "13d8 + 13"
+  },
+  {
+    "name": "Cloak",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "ac": 17,
+    "hp": 78,
+    "cr": "4",
+    "xp": 1100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 15,
+        "modifier": 2
+      }
+    },
+    "classification": "Medium Humanoid (Human), lawful evil",
+    "speed": "40 ft.",
+    "otherStatistics": "Studded leather. Saving throws Dex +7, Con +4, Cha +4. Skills Acrobatics +7, Deception +4, Insight +3, Perception +3, Stealth +9. Passive Perception 13. Common.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Exploit Opening (3/day). The creature can gain advantage on an attack roll it makes.",
+      "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack +7, reach 5 ft., one target. Hit 8 (1d6 + 5) piercing damage plus 3 (1d6) poison damage. The target is Poisoned until the start of Cloak’s next turn.\nLight Crossbow. Ranged weapon attack +7, range 80/320 ft., one target. Hit 8 (1d8 + 5) piercing damage. The attack deals an extra 7 (2d6) piercing damage to a creature that has not moved since the end of Cloak’s last turn.\nIron Ring (2/day). Teleport to the Cyst. From inside the Cyst, teleport to a place the creature has visited.",
+      "Bonus Actions": "Cunning Action. Take the Dash, Disengage, or Hide action.",
+      "Reactions": "You Should’ve Been Watching Me. When a creature within 5 ft. hits an ally of Cloak with an attack, Cloak can make a Shortsword attack against the creature if she can see both the attacker and the ally.",
+      "Villain Party Action": "Black Iron Pact. The party can use one villain party action per round, after an enemy finishes its turn. It can use each action once per encounter, in any order. The creature performing the action must be present and able to act (not Incapacitated).\nAction 4, Assassin’s Strike. Cloak moves up to her speed and makes a Shortsword attack against a creature in reach. It deals 33 (6d10) piercing damage on a hit or half on a miss. The attack does not inflict Poisoned."
+    },
+    "hitDice": "12d8 + 24"
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Almiraj",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      211
+    ],
+    "viewerPages": [
+      212
+    ],
+    "heading": "Appendix D / Almiraj",
+    "supportingPages": [
+      194,
+      196
+    ],
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "url": "https://www.dndbeyond.com/sources/dnd/toa",
+    "errataUrl": "",
+    "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+    "appearanceSource": "P. 211 text and illustration show a rabbit with a 1-ft. spiral horn. Fur color and the portrait pose are editorial.",
+    "habitatSource": "P. 211 places these animals in Chult and earthen burrows. Appendix B p. 194 lists them in jungle and ruins.",
+    "sourceDistinctions": [
+      "The block is Small even though the prose calls the creature a large rabbit. The familiar form requires DM permission.",
+      "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+    ]
+  },
+  {
+    "name": "Brontosaurus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      215
+    ],
+    "viewerPages": [
+      216
+    ],
+    "heading": "Appendix D / Brontosaurus",
+    "supportingPages": [
+      194,
+      197
+    ],
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "url": "https://www.dndbeyond.com/sources/dnd/toa",
+    "errataUrl": "",
+    "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+    "appearanceSource": "P. 215 describes an immense four-legged dinosaur with a dangerous tail. Neck, coloration and profile details are editorial sauropod anatomy.",
+    "habitatSource": "Appendix B p. 194 places the brontosaurus among the jungle, river and swamp encounters.",
+    "sourceDistinctions": [
+      "Both Stomp and Tail have a printed reach of 20 ft. The printed action list has no Multiattack.",
+      "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+    ]
+  },
+  {
+    "name": "Deinonychus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      217
+    ],
+    "viewerPages": [
+      218
+    ],
+    "heading": "Appendix D / Deinonychus",
+    "supportingPages": [
+      194,
+      197
+    ],
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "url": "https://www.dndbeyond.com/sources/dnd/toa",
+    "errataUrl": "",
+    "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+    "appearanceSource": "P. 217 describes a larger relative of Velociraptor that grips prey with its claws. Color, scales and other visual details are editorial and match the selected portrait.",
+    "habitatSource": "Appendix B p. 194 lists jungle and ruin encounters in Chult.",
+    "sourceDistinctions": [
+      "The September 2017 Pounce needs a straight 20-ft. approach and a Claw hit on the same turn. The target’s DC 12 save is Strength, and the follow-up is one bonus-action Bite if the target is prone.",
+      "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+    ]
+  },
+  {
+    "name": "Dimetrodon",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      217
+    ],
+    "viewerPages": [
+      218
+    ],
+    "heading": "Appendix D / Dimetrodon",
+    "supportingPages": [
+      194,
+      197
+    ],
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "url": "https://www.dndbeyond.com/sources/dnd/toa",
+    "errataUrl": "",
+    "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+    "appearanceSource": "P. 217 supplies the sail-backed reptile silhouette. Color, muzzle, tail and ribbed sail details are editorial.",
+    "habitatSource": "P. 217 specifies shores and shallow water. Appendix B pp. 194 and 197 add the beach, river, swamp and riverbank context.",
+    "sourceDistinctions": [
+      "The stat block gives a swim speed. It does not list Hold Breath. The Constitution score is 15 (+2), visually checked on the page.",
+      "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+    ]
+  },
+  {
+    "name": "Flying Monkey",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2017",
+    "isbn": "978-0-7869-6610-3",
+    "printedPages": [
+      220
+    ],
+    "viewerPages": [
+      221
+    ],
+    "heading": "Appendix D / Flying Monkey",
+    "supportingPages": [
+      194,
+      200,
+      221
+    ],
+    "sourceSha256": "ffa5bd1234e50650aa190420b51ca7c972a5c282c219e22e4a2f5698756a98a8",
+    "url": "https://www.dndbeyond.com/sources/dnd/toa",
+    "errataUrl": "",
+    "pageNumbering": "Printed book folio. The local includes a cover before its numbered contents, so the viewer page is one greater.",
+    "appearanceSource": "The p. 220 illustration shows the wings and monkey body. P. 221 gives a range of colors and about a 5-ft. spread of feathered wings. The selected colors are editorial.",
+    "habitatSource": "Appendix B p. 194 lists beach, jungle, mountain, river, and ruin encounters. Mountain forests is an editorial search label for mountain habitat.",
+    "sourceDistinctions": [
+      "P. 220 holds the stat block, with descriptive text continued on p. 221. The swoop and training rules belong to the p. 200 encounter, outside the printed stat block.",
+      "Official Tomb of Annihilation errata v2.0 gives no change to this creature block."
+    ]
+  }
+]

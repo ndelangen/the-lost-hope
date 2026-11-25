@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Asherati",
+    "slug": "asherati",
+    "caption": "Rashen Dustline · Original Asherati NPC",
+    "id": "species-f67efafcfd9979118858245e:eba4c0f44099ef9203b6ed4b",
+    "entry": "species-f67efafcfd9979118858245e",
+    "version": "eba4c0f44099ef9203b6ed4b",
+    "suffix": "encounters-116/asherati.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-116/asherati.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-116/event-drafts/asherati-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 116 2026-11-24/event-drafts/asherati-event-v1.png",
+    "overrides": [],
+    "sha256": "5ebaf854f813f5aba6e4256d888d1d755895ec5291944700c8900f022a3a1cff",
+    "bytes": 1936967
+  }
+]

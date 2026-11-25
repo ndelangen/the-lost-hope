@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "caterpede",
+    "name": "Caterpede",
+    "entryId": "beast-808d0a43170b4f2ad13f4eb3",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One fantastical oversized forest caterpillar with a soft leaf-green segmented tubular body, small amber eyes, two little antennae and rows of stubby pink-brown prolegs. Naturalistic curious expression. Compact undulating profile, attached limbs.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One fantastical oversized forest caterpillar with a soft leaf-green segmented tubular body, small amber eyes, two little antennae and rows of stubby pink-brown prolegs. Naturalistic curious expression. Compact undulating profile, attached limbs."
+  },
+  {
+    "slug": "deathjump-spider",
+    "name": "Deathjump Spider",
+    "entryId": "beast-a3f6e625ee577258169b854f",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One big low dark brown jumping spider, squat sturdy round abdomen, two large front eyes, small distinct mouth palps and eight correctly attached walking legs. Crouched leaping pose, natural spider anatomy. No independent legs or webs.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One big low dark brown jumping spider, squat sturdy round abdomen, two large front eyes, small distinct mouth palps and eight correctly attached walking legs. Crouched leaping pose, natural spider anatomy. No independent legs or webs."
+  },
+  {
+    "slug": "fire-beetles",
+    "name": "Fire Beetles",
+    "entryId": "beast-61cc86cffe7153fb4ccf269b",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "Five dark amber-and-charcoal fire beetles with rounded segmented hard shells, six legs each, and faint paired dull red luminous glands near their heads. Readable separate outlines in a group without smoke, flames or rubble.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. Five dark amber-and-charcoal fire beetles with rounded segmented hard shells, six legs each, and faint paired dull red luminous glands near their heads. Readable separate outlines in a group without smoke, flames or rubble."
+  },
+  {
+    "slug": "ghamoo-ra",
+    "name": "Ghamoo-Ra",
+    "entryId": "beast-38aafab0fefde84df1623179",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One enormous cavern turtle, blackened khaki reptilian skin, heavy dark gray segmented shell with jutting short thorn-like ridges near rear, thick armored toes. Full body low profile with long blunt snapping face, warm ochre eyes, no water.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One enormous cavern turtle, blackened khaki reptilian skin, heavy dark gray segmented shell with jutting short thorn-like ridges near rear, thick armored toes. Full body low profile with long blunt snapping face, warm ochre eyes, no water.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "giant-bumblebee",
+    "name": "Giant Bumblebee",
+    "entryId": "beast-236ac61cf05f64aea31baeb8",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One oversized rotund fuzzy bumblebee with golden yellow and coal black plush bands, a fuzzy cream tail, translucent wings and six distinct dark legs. Complete body in a low takeoff pose, no flowers.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One oversized rotund fuzzy bumblebee with golden yellow and coal black plush bands, a fuzzy cream tail, translucent wings and six distinct dark legs. Complete body in a low takeoff pose, no flowers."
+  },
+  {
+    "slug": "giant-centipede-insect",
+    "name": "Giant Centipede Insect",
+    "entryId": "beast-cb3d823feb305f2f8c3aaee6",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One giant red-russet centipede with a long coherent segmented body, a pair of thin antennae and one paired set of long articulated legs per side per segment, curving gently in a low open curl. Keep the first reference's muted beige background. Ignore the old subject reference's orange background.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One giant red-russet centipede with a long coherent segmented body, a pair of thin antennae and one paired set of long articulated legs per side per segment, curving gently in a low open curl. Keep the first reference's muted beige background. Ignore the old subject reference's orange background.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "giant-honey-bee-soldier",
+    "name": "Giant Honey Bee (Soldier)",
+    "entryId": "beast-712332630bae27220483c473",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One large battle-ready honeybee in flight, long pointed dark-and-amber abdomen, dark reddish antennae, fine translucent wing pair and six clearly distinct articulated legs in a defensive posture. No armor, weapons or flowers; natural bee anatomy.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One large battle-ready honeybee in flight, long pointed dark-and-amber abdomen, dark reddish antennae, fine translucent wing pair and six clearly distinct articulated legs in a defensive posture. No armor, weapons or flowers; natural bee anatomy."
+  },
+  {
+    "slug": "giant-honey-bee-worker",
+    "name": "Giant Honey Bee (Worker)",
+    "entryId": "beast-91e66def1275e53b1db498f0",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One oversized realistic worker honeybee in a calm standing pose, amber fuzzy thorax, tapered darker striped abdomen, fine translucent flat wings and two muted golden pollen loads on its hind legs. All six legs attach correctly.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One oversized realistic worker honeybee in a calm standing pose, amber fuzzy thorax, tapered darker striped abdomen, fine translucent flat wings and two muted golden pollen loads on its hind legs. All six legs attach correctly."
+  },
+  {
+    "slug": "giant-lizard-variant",
+    "name": "Giant Lizard (variant)",
+    "entryId": "beast-b21b55403159059fe0937264",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One giant sturdy long-tailed climbing lizard with mottled jade green scales, yellowish belly, broad toes with distinct gripping pads and a small pointed head. Four limbs with toes arranged clearly, climbing stretch with no wall or scene.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One giant sturdy long-tailed climbing lizard with mottled jade green scales, yellowish belly, broad toes with distinct gripping pads and a small pointed head. Four limbs with toes arranged clearly, climbing stretch with no wall or scene."
+  },
+  {
+    "slug": "giant-poisonous-frog",
+    "name": "Giant Poisonous Frog",
+    "entryId": "beast-d2cdb20b4267ff42334a4455",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One big glossy yellow-and-black fantasy poison frog, four folded/splayed natural limbs and distinct toes, robust smooth rounded body and wide-set eyes. Keep the creature's markings and the shop reference's muted beige paper.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One big glossy yellow-and-black fantasy poison frog, four folded/splayed natural limbs and distinct toes, robust smooth rounded body and wide-set eyes. Keep the creature's markings and the shop reference's muted beige paper.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "giant-scorpion-insect",
+    "name": "Giant Scorpion Insect",
+    "entryId": "beast-25a22b73eddb24e7a3e2841b",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One massive charcoal dark umber scorpion with two large clearly attached pincers, four pairs of walking legs, a segmented abdomen and one upturned stinger tail. Entire creature, dark brown sheen. Use muted beige shop paper, never the old source's orange.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One massive charcoal dark umber scorpion with two large clearly attached pincers, four pairs of walking legs, a segmented abdomen and one upturned stinger tail. Entire creature, dark brown sheen. Use muted beige shop paper, never the old source's orange.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "glassbeetle",
+    "name": "Glassbeetle",
+    "entryId": "beast-bfb3ab058bc9ee58d6e31bb2",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One graceful fantasy beetle with clear glasslike shell plates over deep blue-green underwings, six spindly insect legs, small head and paired short antennae. The curved translucent shells catch gentle parchment reflections. No scenery or props.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One graceful fantasy beetle with clear glasslike shell plates over deep blue-green underwings, six spindly insect legs, small head and paired short antennae. The curved translucent shells catch gentle parchment reflections. No scenery or props."
+  },
+  {
+    "slug": "gray-wolves",
+    "name": "Gray Wolves",
+    "entryId": "beast-105a7982ed2fd422e319a45b",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "Three natural gray wolves forming a sparse pack, smoky and silver winter fur, each with its own distinct head, four legs and one tail, some perspective overlap only on far edge. Pack stalking and attentive, no landscape.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. Three natural gray wolves forming a sparse pack, smoky and silver winter fur, each with its own distinct head, four legs and one tail, some perspective overlap only on far edge. Pack stalking and attentive, no landscape."
+  },
+  {
+    "slug": "guard-drake",
+    "name": "Guard Drake",
+    "entryId": "beast-bb774307b671c4a54d0d2fd4",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One lean moderately large muscular dragonlike guardian on four reptilian legs, low alert dragon head, rough scales and a long tapering tail, with markings and ridge anatomy drawn from the provided official drake illustration. No wings, handlers, gear or scenery.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One lean moderately large muscular dragonlike guardian on four reptilian legs, low alert dragon head, rough scales and a long tapering tail, with markings and ridge anatomy drawn from the provided official drake illustration. No wings, handlers, gear or scenery."
+  },
+  {
+    "slug": "gutter-ray",
+    "name": "Gutter ray",
+    "entryId": "beast-3a2faec1a84b2069dc6ed0bf",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "A little charcoal slate freshwater ray, broad low diamond wings, fluted face and a thin tapering tail, full body banking low from left to right. A few subtle water beads cling to the skin but no street background.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A little charcoal slate freshwater ray, broad low diamond wings, fluted face and a thin tapering tail, full body banking low from left to right. A few subtle water beads cling to the skin but no street background."
+  },
+  {
+    "slug": "handrail-crawler",
+    "name": "Handrail crawler",
+    "entryId": "beast-cd8ac2f8cdad564304122219",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One small shell-backed fantasy railing grazer, curved plated tortoise-beetle-like shell of weathered brown and mossy blue-gray, squat soft creeping body, broad clinging pads under its limbs, blunt little rasping face. Full creature isolated without the handrail.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One small shell-backed fantasy railing grazer, curved plated tortoise-beetle-like shell of weathered brown and mossy blue-gray, squat soft creeping body, broad clinging pads under its limbs, blunt little rasping face. Full creature isolated without the handrail."
+  },
+  {
+    "slug": "hound-hunting",
+    "name": "Hound, Hunting",
+    "entryId": "beast-fb478e8c798f2eee5ba2e26f",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One realistic lean hunting hound with large drooping ears, medium warm chestnut fur and a white throat, alert head stretched forward, nose sniffing in a poised stance, full four-legged body and one slender tail. No rider, leads, weapons or scenery.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One realistic lean hunting hound with large drooping ears, medium warm chestnut fur and a white throat, alert head stretched forward, nose sniffing in a poised stance, full four-legged body and one slender tail. No rider, leads, weapons or scenery."
+  },
+  {
+    "slug": "jorri",
+    "name": "Jorri",
+    "entryId": "beast-bc484df0617cfec9c5ba7f6d",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "Oily-furred otterlike creature with a long charcoal-gray body, dark scattered spots, stiff white whiskers, stubby arms with long front claws, broad webbed hind feet and a crescent-shaped tail. Natural full body in a low flowing crawl.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. Oily-furred otterlike creature with a long charcoal-gray body, dark scattered spots, stiff white whiskers, stubby arms with long front claws, broad webbed hind feet and a crescent-shaped tail. Natural full body in a low flowing crawl.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "juvenile-forest-prowler",
+    "name": "Juvenile Forest Prowler",
+    "entryId": "beast-219525ba97e3a58845e74b14",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One young compact woodland feline matching the referenced adult fantasy predator. Follow the reference's anatomy, fur pattern and ear shape, with juvenile rounded proportions, slightly larger eyes and paws relative to body, a full visible body and natural coat.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One young compact woodland feline matching the referenced adult fantasy predator. Follow the reference's anatomy, fur pattern and ear shape, with juvenile rounded proportions, slightly larger eyes and paws relative to body, a full visible body and natural coat."
+  },
+  {
+    "slug": "kruthik-adult",
+    "name": "Kruthik Adult",
+    "entryId": "beast-4f4ed3191f69645029d1c8fb",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One large quadrupedal armored reptilian insectile drake with jagged segmented tan shell armor and blades of chitin, long clawed limbs, heavy wedge head, narrow eye and a powerful pointed segmented tail. Whole subject, anatomy closely follows the official illustration. No blood or scenery.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One large quadrupedal armored reptilian insectile drake with jagged segmented tan shell armor and blades of chitin, long clawed limbs, heavy wedge head, narrow eye and a powerful pointed segmented tail. Whole subject, anatomy closely follows the official illustration. No blood or scenery."
+  },
+  {
+    "slug": "kruthik-hatchling",
+    "name": "Kruthik Hatchling",
+    "entryId": "beast-8a0b766d8eb3f47a77d4362f",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One diminutive young hatchling of the referenced armored reptilian beast, broad young head with tiny mandibles, four short claws, narrow tail, soft chestnut armor seams and pale ivory plates. Whole crouching animal, distinct baby proportions. No shell or scenery.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One diminutive young hatchling of the referenced armored reptilian beast, broad young head with tiny mandibles, four short claws, narrow tail, soft chestnut armor seams and pale ivory plates. Whole crouching animal, distinct baby proportions. No shell or scenery."
+  },
+  {
+    "slug": "kruthik-young",
+    "name": "Kruthik Young",
+    "entryId": "beast-947cd3d1279ac1cd158ebe7f",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One juvenile quadrupedal armored reptilian creature with olive-gray jointed chitin plates, small curved elbow spikes, narrow pointed tail and a low pointed wedge head. Thinner and leaner than a heavy adult, larger than a hatchling, clear individual claws and whole body.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One juvenile quadrupedal armored reptilian creature with olive-gray jointed chitin plates, small curved elbow spikes, narrow pointed tail and a low pointed wedge head. Thinner and leaner than a heavy adult, larger than a hatchling, clear individual claws and whole body."
+  },
+  {
+    "slug": "lupasus",
+    "name": "Lupasus",
+    "entryId": "beast-471243221d433507a0f6a170",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "A giant winged wolf, steel-gray fur with black upper markings and white belly, two broad believable feathered wings rising from its shoulders, four strong wolflike legs and a single bushy tail. Open wings, natural alert wolf expression.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A giant winged wolf, steel-gray fur with black upper markings and white belly, two broad believable feathered wings rising from its shoulders, four strong wolflike legs and a single bushy tail. Open wings, natural alert wolf expression."
+  },
+  {
+    "slug": "marine-cat",
+    "name": "Marine Cat",
+    "entryId": "beast-56b4170f788e663bb54f34b1",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "A large elegant domestic ship cat, near-black slate coat with faint tabby bands and bright sea-green eyes, lithe paws and long curling tail. Unadorned and agile, standing on parchment, no sea, gear or fish traits.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A large elegant domestic ship cat, near-black slate coat with faint tabby bands and bright sea-green eyes, lithe paws and long curling tail. Unadorned and agile, standing on parchment, no sea, gear or fish traits."
+  },
+  {
+    "slug": "oliphant",
+    "name": "Oliphant",
+    "entryId": "beast-e4a0440620f632973b6a5388",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One colossal shaggy gray elephant-like fantasy animal with curved ivory tusks, two broad ears, four heavy pillar legs and a muscular long trunk. Full body, side-three-quarter pose, no saddle, ropes, rider or armor.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One colossal shaggy gray elephant-like fantasy animal with curved ivory tusks, two broad ears, four heavy pillar legs and a muscular long trunk. Full body, side-three-quarter pose, no saddle, ropes, rider or armor."
+  },
+  {
+    "slug": "omm-wa",
+    "name": "Omm-wa",
+    "entryId": "beast-bccbf98b93227ebec2225f2d",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One intelligent manatee-like creature with corpulent dark slate grey body, flattened paddle tail, no hind legs, forelimbs set near head ending in small webbed hands, tiny broad blunt head with big expressive eyes, cleft bristly upper lip and two little incisors. Natural full-body swimming pose.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One intelligent manatee-like creature with corpulent dark slate grey body, flattened paddle tail, no hind legs, forelimbs set near head ending in small webbed hands, tiny broad blunt head with big expressive eyes, cleft bristly upper lip and two little incisors. Natural full-body swimming pose."
+  },
+  {
+    "slug": "pandarian-dragon-turtle",
+    "name": "Pandarian Dragon Turtle",
+    "entryId": "beast-269f318b55d7de1bb3c84547",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One green and ochre fantasy turtle with broad armored rocky shell, tough scaly legs and short fins near the jaw, a subtly dragonlike horned head and long-ish tapering reptile tail. Full four-legged animal, no armor, rider or landscape.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One green and ochre fantasy turtle with broad armored rocky shell, tough scaly legs and short fins near the jaw, a subtly dragonlike horned head and long-ish tapering reptile tail. Full four-legged animal, no armor, rider or landscape."
+  },
+  {
+    "slug": "pigeon-homing",
+    "name": "Pigeon, Homing",
+    "entryId": "beast-57e8e7ab6a22e3277dc7defe",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One blue-gray rock pigeon with a violet-green sheen on the neck, two black bars across folded wings, dark orange eye, pink feet, tiny rolled paper message attached with a simple unobtrusive band on one leg. Entire animal in clear side profile.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One blue-gray rock pigeon with a violet-green sheen on the neck, two black bars across folded wings, dark orange eye, pink feet, tiny rolled paper message attached with a simple unobtrusive band on one leg. Entire animal in clear side profile."
+  },
+  {
+    "slug": "porch-sentinel",
+    "name": "Porch sentinel",
+    "entryId": "beast-0ed246baa64f67f479a57a04",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One slender long-legged burrowing fantasy beast with a compact gray-brown mammal body, large tapered hind feet adapted to dig under floorboards, alert ears, short whiskers and a small blunt flattened snout. Stands still with hindlegs high, no scenery.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One slender long-legged burrowing fantasy beast with a compact gray-brown mammal body, large tapered hind feet adapted to dig under floorboards, alert ears, short whiskers and a small blunt flattened snout. Stands still with hindlegs high, no scenery."
+  },
+  {
+    "slug": "rivetback-eel",
+    "name": "Rivetback eel",
+    "entryId": "beast-5b2648f78fdd5869ffa12571",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One long river eel with a blunt, wedge-shaped head protected like overlapping weathered iron plates, mottled muted blue-black eel body and narrow dorsal fin. One coherent open S with a single tapered tail. The plates are organic, no actual rivets or tools.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One long river eel with a blunt, wedge-shaped head protected like overlapping weathered iron plates, mottled muted blue-black eel body and narrow dorsal fin. One coherent open S with a single tapered tail. The plates are organic, no actual rivets or tools."
+  },
+  {
+    "slug": "scorpion-insect",
+    "name": "Scorpion Insect",
+    "entryId": "beast-6352452049bd9c133b571361",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One tawny sand-colored scorpion, small rounded pincers, four pairs of slim bent walking legs, and one raised smoothly articulated tail and stinger. Naturalistic whole scorpion, ignore old orange background, use the reference shop tan.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One tawny sand-colored scorpion, small rounded pincers, four pairs of slim bent walking legs, and one raised smoothly articulated tail and stinger. Naturalistic whole scorpion, ignore old orange background, use the reference shop tan.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "sill-moth-colony",
+    "name": "Sill-moth colony",
+    "entryId": "beast-d88972b974efd7842d460bdc",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "A small colony of gray-cream moths with soft fuzzy bodies, broad pale wings and fine feathery antennae. Several moths rest on one translucent thin silken nest with a few others nearby in slow flight. No sill, scene or words, distinct insect silhouettes.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A small colony of gray-cream moths with soft fuzzy bodies, broad pale wings and fine feathery antennae. Several moths rest on one translucent thin silken nest with a few others nearby in slow flight. No sill, scene or words, distinct insect silhouettes."
+  },
+  {
+    "slug": "spitting-drake",
+    "name": "Spitting Drake",
+    "entryId": "beast-c8fab68a90d484711b69ce27",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One fantasy small dragonlike reptile with green slate scales, a narrow long pointed muzzle, small cheek spikes, four clawed feet and a tapering whiplike lizard tail. Full animal, low aggressive stance, no expelled material, no wings unless prominent small frills at neck.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One fantasy small dragonlike reptile with green slate scales, a narrow long pointed muzzle, small cheek spikes, four clawed feet and a tapering whiplike lizard tail. Full animal, low aggressive stance, no expelled material, no wings unless prominent small frills at neck."
+  },
+  {
+    "slug": "spooltail-tern",
+    "name": "Spooltail tern",
+    "entryId": "beast-22d59fb5e7f690965cbf606e",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One pale gray and ivory river tern with black cap, narrow pointed wings, slate-red bill and long forked tail streamers rather like pale loose yarn. Whole bird in a turning glide, realistic slender body and two tucked feet. No actual spool or framing.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One pale gray and ivory river tern with black cap, narrow pointed wings, slate-red bill and long forked tail streamers rather like pale loose yarn. Whole bird in a turning glide, realistic slender body and two tucked feet. No actual spool or framing."
+  },
+  {
+    "slug": "swampmare",
+    "name": "Swampmare",
+    "entryId": "beast-9ceac126b598d13935b137d2",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One large tapir-like green-grey leathery-skinned aquatic fantasy mount. Four webbed clawed feet, short blunt tapir snout, beady eyes, short ears and compact heavy body. Unburdened, no tack, rider, foliage or water.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One large tapir-like green-grey leathery-skinned aquatic fantasy mount. Four webbed clawed feet, short blunt tapir snout, beady eyes, short ears and compact heavy body. Unburdened, no tack, rider, foliage or water."
+  },
+  {
+    "slug": "swarm-of-gimlet-larvae",
+    "name": "Swarm of Gimlet Larvae",
+    "entryId": "beast-681ea05944c42f0a73edaa53",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "A cluster of several forest gimlet larvae matching the reference creature's colors and basic anatomy at an earlier life stage, small soft segmented grub-like bodies with clearly separate silhouettes. No eggs, no scenery, depict the larval sizes.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A cluster of several forest gimlet larvae matching the reference creature's colors and basic anatomy at an earlier life stage, small soft segmented grub-like bodies with clearly separate silhouettes. No eggs, no scenery, depict the larval sizes."
+  },
+  {
+    "slug": "swarm-of-insects-beetles",
+    "name": "Swarm of Insects (Beetles)",
+    "entryId": "beast-b8ae151cb656b69d26ebcf96",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One disordered crescent of fifteen squat black and chestnut beetles with round shiny elytra, tiny bent antennae and six legs each. Overhead three-quarter, visibly separate beetles, not a solid mass.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One disordered crescent of fifteen squat black and chestnut beetles with round shiny elytra, tiny bent antennae and six legs each. Overhead three-quarter, visibly separate beetles, not a solid mass."
+  },
+  {
+    "slug": "swarm-of-insects-centipedes",
+    "name": "Swarm of Insects (Centipedes)",
+    "entryId": "beast-c5bfc98b169c9473b60f6b45",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "A compact flock of five distinct russet and dark brown centipedes in noncrossing parallel ripples. Each has many low jointed legs, narrow articulated body and two front antennae. Empty paper gaps between individuals, no bites or scenery.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A compact flock of five distinct russet and dark brown centipedes in noncrossing parallel ripples. Each has many low jointed legs, narrow articulated body and two front antennae. Empty paper gaps between individuals, no bites or scenery."
+  },
+  {
+    "slug": "swarm-of-insects-wasps",
+    "name": "Swarm of Insects (Wasps)",
+    "entryId": "beast-777511b8cbcd5aefb247627e",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "A cluster of fifteen black-and-amber wasps with narrow waists, wiry antennae, hanging legs and translucent veined wings, visibly distinct at differing distances. No nest, scenery or human.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. A cluster of fifteen black-and-amber wasps with narrow waists, wiry antennae, hanging legs and translucent veined wings, visibly distinct at differing distances. No nest, scenery or human."
+  },
+  {
+    "slug": "toxic-caterpede",
+    "name": "Toxic Caterpede",
+    "entryId": "beast-441a67273858472cbca85926",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One striking oversized forest caterpillar, streamlined with many small prolegs, dark green and golden orange warning spots, soft stubby tactile spines, two small antennae, whole continuous body. Keep colors restrained. No smoke, poison cloud, scenery or protruding legs off the paper.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One striking oversized forest caterpillar, streamlined with many small prolegs, dark green and golden orange warning spots, soft stubby tactile spines, two small antennae, whole continuous body. Keep colors restrained. No smoke, poison cloud, scenery or protruding legs off the paper."
+  },
+  {
+    "slug": "trosip",
+    "name": "Trosip",
+    "entryId": "beast-6bdcdddb9d18a4c5e04d3847",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One small colony of shadow-gray fluffy dust creatures a little like irregular dry lint balls, subtly alive through tiny crawling tufts at the base, visually identical to dark dust bunnies. Five discrete little puffs, no big eyes, faces, silly expressions or household props.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One small colony of shadow-gray fluffy dust creatures a little like irregular dry lint balls, subtly alive through tiny crawling tufts at the base, visually identical to dark dust bunnies. Five discrete little puffs, no big eyes, faces, silly expressions or household props."
+  },
+  {
+    "slug": "voat",
+    "name": "Voat",
+    "entryId": "beast-9d0d0b796660ed3a3a330d37",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One cat-sized grotesque ratlike creature, oily coarse soot-grey fur, loose puffy features, large bare ears, pointed sharp muzzle and powerful incisors, one long pink scaly tail. Four small natural paws and continuous silhouette, low nocturnal crouch.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One cat-sized grotesque ratlike creature, oily coarse soot-grey fur, loose puffy features, large bare ears, pointed sharp muzzle and powerful incisors, one long pink scaly tail. Four small natural paws and continuous silhouette, low nocturnal crouch."
+  },
+  {
+    "slug": "vulturehound",
+    "name": "Vulturehound",
+    "entryId": "beast-8bdd9c843ccd5be65f961d36",
+    "kind": "beast",
+    "input": "",
+    "reference": [],
+    "paperReference": "",
+    "subjectPrompt": "One low feral canine with shaggy long grey body fur, four doglike limbs ending in curved talons, a bald dusky red vulture head with hooked beak, and two small feathered wings jutting from its upper sides. Whole animal standing in alert profile.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One low feral canine with shaggy long grey body fur, four doglike limbs ending in curved talons, a bald dusky red vulture head with hooked beak, and two small feathered wings jutting from its upper sides. Whole animal standing in alert profile."
+  },
+  {
+    "slug": "war-horse",
+    "name": "War Horse",
+    "entryId": "beast-3f9454125ca694f7cbcd65dd",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One formidable armed-era riding horse, dark gray with black mane, worn layered polished-steel barding on neck and front, simple blue-gray cloth and brown saddle. Whole horse facing right, clear four natural hooves. No rider, no weapons and muted tan shop paper.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One formidable armed-era riding horse, dark gray with black mane, worn layered polished-steel barding on neck and front, simple blue-gray cloth and brown saddle. Whole horse facing right, clear four natural hooves. No rider, no weapons and muted tan shop paper.",
+    "paperRevision": {
+      "target": "",
+      "reference": "",
+      "prompt": "Edit the first square portrait so it looks like the second image's muted, dusty light brown unbleached paper. Keep the subject, pose, colors on the animal, drawing detail, composition, size and gentle grounding shadow of the first image, and replace ONLY the paper and its tint. Corner paper target RGB 217, 197, 164. Gray-tan and low saturation, like natural off-white kraft. No ochre, no gold, no orange, no noticeable radial glow. Keep square. Second image is only the paper texture and target hue; no lizard in the result."
+    }
+  },
+  {
+    "slug": "wynzet",
+    "name": "Wynzet",
+    "entryId": "beast-95beb504b4261d42e4c4c4d6",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "paperReference": "",
+    "subjectPrompt": "One implausibly adorable large gray squirrel-like forest animal with dense silver gray fur, big wide glistening eyes, little rounded ears, four visible paws, and a large fluffy curved tail. Sitting inquisitively; plausible woodland anatomy and no accessories.",
+    "prompt": "Original square fantasy bestiary portrait on the muted matte tan parchment of the first reference. Use its soft low saturation beige mottling, no orange, and omit its sword. Second reference is the animal illustration style, with finely textured naturalistic pencil and ink and a soft faint shadow, no scene, frames, letters or objects. Subsequent images for anatomy and subject identity only. Whole creature or swarm in frame with visible extremities and natural proportions. One implausibly adorable large gray squirrel-like forest animal with dense silver gray fur, big wide glistening eyes, little rounded ears, four visible paws, and a large fluffy curved tail. Sitting inquisitively; plausible woodland anatomy and no accessories."
+  }
+]

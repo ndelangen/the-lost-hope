@@ -1,0 +1,134 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Cloud Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cloud-giant-optional-actions/source-cloud-giant-2014.webp",
+    "artist": "Base creature art: Cloud Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "275cde64a8aad80f0436f39895f1c789ddf88ff6acf7710d4b1fd33ccc7627e1",
+    "reference": "images/monsters/cloud-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Cloud Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/cloud-giant-optional-actions/source-cloud-giant-2024.webp",
+    "artist": "Base creature art: Cloud Giant · Monster Manual (2024) · Taras Susak",
+    "kind": "illustration",
+    "sha256": "58a978526bc900309ccf7a6770600c413ea8507b0aae8ca2da199f78478deba2",
+    "reference": "images/monsters/cloud-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Fire Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fire-giant-optional-actions/source-fire-giant-2014.webp",
+    "artist": "Base creature art: Fire Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "1d8744e490697951e86cd320eda3debc4460269316cdc3b498d9df72307316e7",
+    "reference": "images/monsters/fire-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Fire Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fire-giant-optional-actions/source-fire-giant-2024.webp",
+    "artist": "Base creature art: Fire Giant · Monster Manual (2024) · Robson Michel",
+    "kind": "illustration",
+    "sha256": "2024c1e93f6784679246e572d729624f9e5557737ae6bb158db09ff7a2e45d71",
+    "reference": "images/monsters/fire-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Frost Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/frost-giant-optional-actions/source-frost-giant-2014.webp",
+    "artist": "Base creature art: Frost Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "43e143a6872940b201c892137a24bfa3a00b06f9acd85103e36ecbb00a22d088",
+    "reference": "images/monsters/frost-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Frost Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/frost-giant-optional-actions/source-frost-giant-2024.webp",
+    "artist": "Base creature art: Frost Giant · Monster Manual (2024) · Robson Michel",
+    "kind": "illustration",
+    "sha256": "2b7dab741d04d147a9cb21326d9311a46efd4ecff43e69e12d890f32fb914649",
+    "reference": "images/monsters/frost-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Hill Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/hill-giant-optional-actions/source-hill-giant-2014.webp",
+    "artist": "Base creature art: Hill Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "37551de799b200d4a6c2c01f6862eac0cb13a6b45da55a774c34cafba4446ad5",
+    "reference": "images/monsters/hill-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Hill Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/hill-giant-optional-actions/source-hill-giant-2024.webp",
+    "artist": "Base creature art: Hill Giant · Monster Manual (2024) · Johan Grenier",
+    "kind": "illustration",
+    "sha256": "7f4decae77c0ae83f2d5c45e3ad5c3c1ad897dd0fddf5f1c3cf6fa768c72bcb4",
+    "reference": "images/monsters/hill-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Stone Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/stone-giant-optional-actions/source-stone-giant-2014.webp",
+    "artist": "Base creature art: Stone Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "cf1608b018c5fbaf7d6250bc556d6f4a66e2348d4388992b592b3f5ffcb1eba2",
+    "reference": "images/monsters/stone-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Stone Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/stone-giant-optional-actions/source-stone-giant-2024.webp",
+    "artist": "Base creature art: Stone Giant · Monster Manual (2024) · Robson Michel",
+    "kind": "illustration",
+    "sha256": "9f8e59862aa9b7525172bd2ce6a2e5da4ed42784dc858bafe40f17c472d29fca",
+    "reference": "images/monsters/stone-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Storm Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/storm-giant-optional-actions/source-storm-giant-2014.webp",
+    "artist": "Base creature art: Storm Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "6c4da1e7e94e5665b140c413a4abfc3d1126bead610477bbb1dec347db55f3e0",
+    "reference": "images/monsters/storm-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Storm Giant (Optional Actions)",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/storm-giant-optional-actions/source-storm-giant-2024.webp",
+    "artist": "Base creature art: Storm Giant · Monster Manual (2024) · Taras Susak",
+    "kind": "illustration",
+    "sha256": "d6c9941cae9f25c64fe2f920709af278a1f5883869398bf550ed4bfa2350f999",
+    "reference": "images/monsters/storm-giant/xmm-1.webp"
+  }
+]

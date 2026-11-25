@@ -1,0 +1,20 @@
+[
+  {
+    "artGroup": "snow-leopard",
+    "file": "portraits/snow-leopard.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "bc5529680d4428cf6acc8e9b11f302fcd48d8bc3d7f8ee6158f26f18c93afa31",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Original tabletop bestiary portrait of the large snow leopard from an icy cave, portrayed as the natural big cat Panthera uncia. Substantial broad paws, rounded compact ears, short broad forehead with pale green-gray eyes, thick pale ash-gray coat with charcoal rosettes and a soft cream underside. Very long thick tail curling inward naturally so that the entire tail fits. Standing evenly in alert profile, shoulders and paws visible, mouth closed. The reference is Big Linda, for style and uniform parchment only. Match the library's realistic natural-history bestiary illustration in muted natural colors, same flat matte neutral tan parchment with very subtle fine grain edge to edge, and soft contact shadow as the only ground clue. No scenery, snow, rock, forest, horizon, decorative frame, vignette, lettering, labels, equipment, glow or other creature. Square full-body 3/4 side view, centrally framed with generous clean breathing room and entire ears, feet and tail inside the circle crop. Sharp identifiable anatomy and facial features, even diffuse lighting. One animal."
+  },
+  {
+    "artGroup": "young-winter-wolf",
+    "file": "portraits/young-winter-wolf.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0aaa450103737fc435d7be5b53de20fba7a0c5ccbe24a083e4374506a6812012",
+    "credit": "OpenAI ImageGen",
+    "prompt": "Original tabletop bestiary portrait of one half-grown winter wolf, a juvenile of a huge wolf stock. Recognizable adolescent wild wolf proportions, long sturdy forelegs, solid paws, pointed ears, a straight wolf muzzle, a full winter coat of snow-white fur with subdued warm-gray shadows, clearly pale ice-blue natural eyes, dark nose and long bushy tail carried low. Show a capable but young apex predator, no cartoon, dog breed features, frosty breath, collar, or icy effects. Calm alert stance, mouth closed. The reference is Big Linda, for style and uniform parchment only. Match the library's realistic natural-history bestiary illustration in muted natural colors, same flat matte neutral tan parchment with very subtle fine grain edge to edge, and soft contact shadow as the only ground clue. No scenery, snow, rock, forest, horizon, decorative frame, vignette, lettering, labels, equipment, glow or other creature. Square full-body 3/4 side view, centrally framed with generous clean breathing room and entire ears, feet and tail inside the circle crop. Sharp identifiable anatomy and facial features, even diffuse lighting. One animal."
+  }
+]

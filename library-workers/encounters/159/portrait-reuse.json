@@ -1,0 +1,62 @@
+{
+  "Empyrean (Celestial)": {
+    "sha256": "3aa6d3ec4e0a5230671eda310b97e9137a949792d5d683dcc8635fd6546840c8",
+    "source": "Empyrean",
+    "size": 1254
+  },
+  "Azer Sentinel": {
+    "sha256": "19527ad8ae4e41ad973c99e25778805c7becfabaf459f5dc3ce9fbd93576f060",
+    "source": "Azer",
+    "size": 1254
+  },
+  "Bulette Pup": {
+    "sha256": "a382667e5bb733168cd504dcec5771f0679611857bdf45ea63e9a572fc464ce4",
+    "source": "Bulette",
+    "size": 1254
+  },
+  "Dracolich": {
+    "sha256": "2622d879732bfb5c0dd8c9b41719bb7f8639d5a81fda7f3d94495081c7d87406",
+    "source": "Adult Red Dracolich",
+    "size": 1254
+  },
+  "Juvenile Shadow Dragon": {
+    "sha256": "6b18a04a9f1f2acb9570eccd4b52629fcea709b1637e4a066cf6d2cd37d49fe7",
+    "source": "Young Red Shadow Dragon",
+    "size": 1254
+  },
+  "Shadow Dragon (Huge)": {
+    "sha256": "6b18a04a9f1f2acb9570eccd4b52629fcea709b1637e4a066cf6d2cd37d49fe7",
+    "source": "Shadow Dragon (Large)",
+    "size": 1254
+  },
+  "Minotaur of Baphomet": {
+    "sha256": "0c64b9757fa2cff24f9467af313c2c9bbbd2b8f75086adf105e8d6c85108275d",
+    "source": "Minotaur",
+    "size": 1254
+  },
+  "Salamander Fire Snake": {
+    "sha256": "3ed9f12a953f85d937e332e8514a003c6583577f5f3e06316f0a3cf2dda62444",
+    "source": "Fire Snake",
+    "size": 1254
+  },
+  "Satyr Revelmaster": {
+    "sha256": "2e580b65717c6c36b266abe41b14d73704ab8619e2bb7f4e7a5c8b912fab797c",
+    "source": "Satyr",
+    "size": 1254
+  },
+  "Thri-kreen Marauder": {
+    "sha256": "3aa6ee1b3aa5a2079cf958695a3a216c965d3d29711836a5a6d003759b8f2a63",
+    "source": "Thri-kreen (weapons variant)",
+    "size": 1254
+  },
+  "Adult Kruthik": {
+    "sha256": "6cf6301344955689344f39a5de6b72f73c84d2434ffae8e2775a044e487041dd",
+    "source": "Kruthik Adult",
+    "size": 1254
+  },
+  "Animal Lord": {
+    "sha256": "50d89ad238450182933715420577314ec3cbc327111d19edd5ba2929029358e9",
+    "source": "Animal Lord (Hunter)",
+    "size": 1254
+  }
+}

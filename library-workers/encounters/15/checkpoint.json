@@ -1,0 +1,51 @@
+{
+  "commit": "5bd898647ba14c5de2719d7c9c2c78969ec598d0",
+  "publication": "Waterdeep: Dragon Heist",
+  "encounterVersions": 7,
+  "fullStatBlocks": 7,
+  "dragonHeistRecordsWithLocalRules": 124,
+  "generatedPortraitsInstalled": 7,
+  "generatedDraftsBackedUp": 7,
+  "replacedPortraitsBackedUp": 6,
+  "replacedFormatsBackedUp": 12,
+  "allRecentVersionsWithGeneratedPortrait": 496,
+  "creditedGalleriesVerified": 7,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-15-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-15-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/15/results.json",
+  "nextSourcePublication": "Lost Mine of Phandelver",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Brughor Axe-Biter",
+      "source": "https://www.dndbeyond.com/monsters/287878-brughor-axe-biter",
+      "challenge": "1/2"
+    },
+    {
+      "name": "King Grol",
+      "source": "https://www.dndbeyond.com/monsters/287862-king-grol",
+      "challenge": "1"
+    },
+    {
+      "name": "Lhupo",
+      "source": "https://www.dndbeyond.com/monsters/287852-lhupo",
+      "challenge": "1/4"
+    },
+    {
+      "name": "Targor Bloodsword",
+      "source": "https://www.dndbeyond.com/monsters/287885-targor-bloodsword",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Yeemik",
+      "source": "https://www.dndbeyond.com/monsters/266410-yeemik",
+      "challenge": "1/4"
+    },
+    {
+      "name": "Yegg",
+      "source": "https://www.dndbeyond.com/monsters/287856-yegg",
+      "challenge": "1/4"
+    }
+  ]
+}

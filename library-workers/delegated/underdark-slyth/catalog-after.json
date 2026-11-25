@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Slyth",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "df2d031bec5136611a4fdc27",
+      "publication": "Underdark (2003)",
+      "edition": "3.5 edition",
+      "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid. −2 Strength, +2 Dexterity, +2 Wisdom. Land speed 30 ft. LA +2. The entry lists no racial Hit Dice.",
+            "Alternate Form (Su). Enter amorphous form as a standard action. It gives a 30-ft. swim speed and passage through openings as small as 2 inches in diameter. Return to normal form with a full-round action that does not provoke.",
+            "In amorphous form all worn and carried equipment melds and magic items stop functioning. Material and natural armor cease to apply. Dexterity, any effective deflection bonus, and armor from force effects can apply.",
+            "In amorphous form the Slyth cannot attack, be flanked, or be stunned, and is immune to critical hits. Other supernatural abilities stop. Spells with verbal, somatic, material, or focus components cannot be cast.",
+            "The form lasts up to 10 minutes per class level. After returning to normal, wait as long as the actual time spent in amorphous form before changing again.",
+            "Water Breathing (Ex) allows indefinite breathing underwater. Immunities (Ex) cover polymorphing and poison. Sonic resistance 5.",
+            "+4 racial on Disguise, Escape Artist, and Survival. Weapon Familiarity treats flutter blades as martial weapons.",
+            "Common and Undercommon are automatic. Bonus languages are Aquan, Elven, Gnome, and Terran or by region. Favored class Druid."
+          ]
+        },
+        {
+          "title": "Original NPC · Plip Reedstone",
+          "lines": [
+            "Sluice keeper and Druid.",
+            "Motive. Reach the submerged release without trapping the party on the wrong side.",
+            "Hook. Plip knows where the grate leaves an opening into the release chamber.",
+            "Slyth sluice keeper, Druid 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Medium Humanoid",
+            "AC 15 · HP 10 (1d8+2) · Speed 30 ft.; swim 30 ft. in amorphous form"
+          ]
+        },
+        {
+          "title": "Original NPC · Murra Stonewake",
+          "lines": [
+            "Seep-vault scout and Wizard.",
+            "Motive. Check whether the seep route opens into a safe vault.",
+            "Hook. Murra found a narrow break in the submerged masonry.",
+            "Slyth seep-vault scout, Wizard 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Medium Humanoid",
+            "AC 13 · HP 6 (1d4+2) · Speed 30 ft.; swim 30 ft. in amorphous form"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Plip Reedstone": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Plip Reedstone",
+              "group": "Slyth",
+              "publication": "Slyth sluice keeper, Druid 1",
+              "local": {
+                "entry": "npc-f6b8717800020182d870d183",
+                "version": "e2139e16fa4793e0c5777f4a"
+              }
+            }
+          }
+        ],
+        "Original NPC · Murra Stonewake": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Murra Stonewake",
+              "group": "Slyth",
+              "publication": "Slyth seep-vault scout, Wizard 1",
+              "local": {
+                "entry": "npc-82d6661663ed699373e4c6c6",
+                "version": "080aabbe64d9959d229d2394"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Slyth": true,
+      "slyth alternate form": true,
+      "slyth water breathing": true,
+      "slyth sluice keeper": true,
+      "slyth seep-vault scout": true
+    },
+    "hash": "0970ff3177a3b2f637efe7059e9f39703c6c51530d06633cf7e3870476ac465e",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Underdark (2003)",
+    "defaultVersionKey": "df2d031bec5136611a4fdc27",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "name": "Kobold Scale Sorcerer",
+    "statBlock": {
+      "name": "Kobold Scale Sorcerer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 165,
+      "classification": "Small humanoid, any alignment",
+      "ac": 15,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 9,
+      "description": "A kobold spellcaster who advises its community. Those who speak for a dragon sometimes wear artificial wings as a sign of office.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 2,
+        "Medicine": 1
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Armor": "Natural armor.",
+        "Traits": "Pack Tactics. The kobold has advantage on attacks against a creature when at least one ally is within 5 ft. of that creature and the ally isn't incapacitated.\nSunlight Sensitivity. While in sunlight, the kobold has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Multiattack. Make two attacks, choosing Dagger or Chromatic Bolt for each. The kobold can replace one attack with Spellcasting.\nDagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nChromatic Bolt. Ranged spell attack, +4 to hit, range 60 ft., one target. A hit deals 9 (2d6 + 2) damage. The kobold chooses acid, cold, fire, lightning, poison, or thunder.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 12), without material components.\nAt will. Mage Hand, Prestidigitation.\n2/day each. Charm Person, Fog Cloud, Levitate.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 165."
+      }
+    }
+  },
+  {
+    "name": "Korred",
+    "statBlock": {
+      "name": "Korred",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 166,
+      "classification": "Small fey, typically chaotic neutral",
+      "ac": 17,
+      "hp": 93,
+      "hitDice": "11d6 + 55",
+      "speed": "30 ft., burrow 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 15,
+      "description": "A secretive fey that can tunnel through rock and bind intruders with rope made from its own hair.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 9,
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft., tremorsense 120 ft.",
+        "Languages": "Dwarvish, Gnomish, Sylvan, Terran, Undercommon.",
+        "Damage resistances": "Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Armor": "Natural armor.",
+        "Traits": "Stone Camouflage. The korred has advantage on Dexterity (Stealth) checks to hide in rocky terrain.",
+        "Actions": "Multiattack. Make two attacks, choosing Greatclub or Rock for each.\nGreatclub. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 10 (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) if the korred is on the ground.\nRock. Ranged weapon attack, +9 to hit, range 60/120 ft., one target. A hit deals 10 (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) if the korred is on the ground.",
+        "Spellcasting": "As an action, cast one listed spell using Wisdom (spell save DC 13), without any components.\nAt will. Commune with Nature, Meld into Stone, Stone Shape. Commune with Nature takes an action for the korred.\n1/day. Otto's Irresistible Dance.",
+        "Bonus actions": "Command Hair. The korred has at least one 50-ft. rope woven from its hair. Choose one such rope within 30 ft. and command it to move up to 20 ft. and entangle a visible Large or smaller creature. Unless the creature succeeds on a DC 13 Dexterity save, the rope grapples it (escape DC 13). It is restrained for as long as the grapple lasts. The korred can release it as a bonus action. The grapple also ends if the korred dies or becomes incapacitated.\nHair rope. The rope has AC 20 and 20 hit points. At the start of each of the korred's turns, the rope regains 1 hit point if it still has at least 1 hit point and the korred is alive. The rope is destroyed at 0 hit points.",
+        "Magical hair": "When cut, hair from a korred's head turns into the material of the cutting tool. A korred uses iron shears to make strands it can weave into iron ropes.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 166."
+      }
+    }
+  },
+  {
+    "name": "Kraken Priest",
+    "statBlock": {
+      "name": "Kraken Priest",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 167,
+      "classification": "Medium monstrosity, typically chaotic evil",
+      "ac": 15,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "A kraken grants this devotee power and changes its appearance. The kraken can speak through the priest.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Languages": "Any two languages.",
+        "Armor": "Natural armor.",
+        "Traits": "Amphibious. The priest can breathe air and water.",
+        "Actions": "Multiattack. Make two attacks, choosing Thunderous Touch or Thunderbolt for each.\nThunderous Touch. Melee spell attack, +5 to hit, reach 5 ft., one target. A hit deals 27 (5d10) thunder damage.\nThunderbolt. Ranged spell attack, +5 to hit, range 60 ft., one target. A hit deals 11 (2d10) lightning damage plus 11 (2d10) thunder damage and knocks the target prone.\nVoice of the Kraken (recharges after a short or long rest). The kraken speaks through the priest in Abyssal, Infernal, or Primordial, and its voice carries 300 ft. Each creature the priest chooses that can hear the words must succeed on a DC 14 Wisdom save or be frightened of the priest for 1 minute. A frightened creature can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Spellcasting": "As an action, cast one listed spell using Wisdom (spell save DC 13), without material components.\nAt will. Command, Create or Destroy Water.\n3/day each. Control Water, Darkness, Water Breathing, Water Walk.\n1/day. Evard's Black Tentacles.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 167."
+      }
+    }
+  },
+  {
+    "name": "Kruthik Hive Lord",
+    "statBlock": {
+      "name": "Kruthik Hive Lord",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 169,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 20,
+      "hp": 102,
+      "hitDice": "12d10 + 36",
+      "speed": "40 ft., burrow 20 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 18,
+      "description": "An armored burrower that hunts alongside its hive. Kruthiks nest near heat sources such as forges and lava.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Languages": "Kruthik.",
+        "Armor": "Natural armor.",
+        "Traits": "Pack Tactics. The kruthik has advantage on attacks against a creature when at least one ally is within 5 ft. of that creature and the ally isn't incapacitated.\nTunneler. The kruthik burrows through solid rock at half its burrowing speed and leaves a tunnel 10 ft. in diameter.",
+        "Actions": "Multiattack. Make two attacks, choosing Stab or Spike for each.\nStab. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) piercing damage.\nSpike. Ranged weapon attack, +6 to hit, range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage.\nAcid Spray (recharge 5–6). Each creature in a 15-ft. cone must make a DC 14 Dexterity save, taking 22 (4d10) acid damage on a failure or half as much on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 169."
+      }
+    }
+  },
+  {
+    "name": "Leucrotta",
+    "statBlock": {
+      "name": "Leucrotta",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 170,
+      "classification": "Large monstrosity, typically chaotic evil",
+      "ac": 14,
+      "hp": 67,
+      "hitDice": "9d10 + 18",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A foul-smelling predator that leaves deerlike tracks and mimics voices to draw prey close. It often hunts alongside gnolls.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 2,
+        "Perception": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Gnoll.",
+        "Armor": "Natural armor.",
+        "Traits": "Mimicry. The leucrotta can imitate Beast sounds and Humanoid voices. A listener can identify the imitation with a successful DC 14 Wisdom (Insight) check.\nStench. Each creature that starts its turn within 5 ft. of the leucrotta must succeed on a DC 12 Constitution save or be poisoned until the start of its next turn. This trait exempts leucrottas and gnolls. A successful save makes the creature immune to the Stench of all leucrottas for 1 hour.",
+        "Actions": "Multiattack. Make one Bite attack and one Hooves attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage. On a critical hit, roll the bite's damage dice three times.\nHooves. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.",
+        "Bonus actions": "Kicking Retreat. Take the Disengage action immediately after making a Hooves attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 170."
+      }
+    }
+  },
+  {
+    "name": "Leviathan",
+    "statBlock": {
+      "name": "Leviathan",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 171,
+      "classification": "Gargantuan elemental, typically neutral",
+      "ac": 17,
+      "hp": 328,
+      "hitDice": "16d20 + 160",
+      "speed": "40 ft., swim 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 24
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 14,
+      "description": "A vast serpent formed from water. It can drag ships under or flood a settlement along the coast.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 10,
+        "Cha": 9
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Damage resistances": "Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+        "Traits": "Legendary Resistance (3/day). After failing a saving throw, the leviathan can choose to succeed.\nPartial Freeze. If the leviathan takes at least 50 cold damage during one turn, both of its speeds drop to 20 ft. and it has disadvantage on attack rolls until the end of its next turn.\nSiege Monster. The leviathan deals double damage to objects and structures.\nWater Form. The leviathan can enter and stop in a hostile creature's space. It can pass through openings at least 1 inch wide without squeezing.",
+        "Actions": "Multiattack. Make one Slam attack and one Tail attack.\nSlam. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 21 (2d12 + 8) bludgeoning damage plus 13 (2d12) acid damage.\nTail. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 19 (2d10 + 8) bludgeoning damage plus 10 (3d6) acid damage.\nTidal Wave (recharge 6). Magically send a wave out from a visible point within 120 ft. The wave can reach up to 250 ft. long, 250 ft. tall, and 50 ft. wide. Each creature in it makes a DC 24 Strength save. It takes 45 (7d12) bludgeoning damage and falls prone on a failure. A success halves the damage and avoids falling prone. Water spreads along the ground in all directions, extinguishes unprotected flames in the wave's area and within 250 ft. of that area, and vanishes.",
+        "Legendary actions": "The leviathan has 3 legendary actions and regains spent actions at the start of its turn. It can use one option at the end of another creature's turn. It needs to be able to act and, if surprised, can spend them only after its first turn ends.\nMove (costs 1 action). Move up to the leviathan's speed.\nSlam (costs 2 actions). Make one Slam attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 171."
+      }
+    }
+  },
+  {
+    "name": "Lonely Sorrowsworn",
+    "statBlock": {
+      "name": "Lonely Sorrowsworn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 223,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 16,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 10,
+      "description": "A Shadowfell creature that draws others close on the ends of its harpoon arms.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Bludgeoning, piercing, slashing while in dim light or darkness.",
+        "Armor": "Natural armor.",
+        "Traits": "Psychic Leech. At the start of each of the sorrowsworn's turns, every creature within 5 ft. must succeed on a DC 15 Wisdom save or take 10 (3d6) psychic damage.\nThrives on Company. The sorrowsworn has advantage on attack rolls when at least two other creatures are within 30 ft. It has disadvantage on attack rolls at all other times.",
+        "Actions": "Multiattack. Make one Harpoon Arm attack and use Sorrowful Embrace.\nHarpoon Arm. Melee weapon attack, +7 to hit, reach 60 ft., one target. A hit deals 21 (4d8 + 3) piercing damage and grapples the target if it is a Large or smaller creature (escape DC 15). The sorrowsworn has two harpoon arms and can grapple up to two creatures at once.\nSorrowful Embrace. Each creature the sorrowsworn is grappling makes a DC 15 Wisdom save, taking 18 (4d8) psychic damage on a failure or half as much on a success. Regardless of the save, pull each of those creatures up to 30 ft. directly toward the sorrowsworn.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 223."
+      }
+    }
+  },
+  {
+    "name": "Lost Sorrowsworn",
+    "statBlock": {
+      "name": "Lost Sorrowsworn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 224,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 15,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 8,
+      "description": "A Shadowfell creature that seizes travelers in its spiked arms and tightens its grip when injured.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Bludgeoning, piercing, slashing while in dim light or darkness.",
+        "Armor": "Natural armor.",
+        "Actions": "Multiattack. Make two Arm Spike attacks.\nArm Spike. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 14 (2d10 + 3) piercing damage.\nEmbrace (recharge 4–6). Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 25 (4d10 + 3) piercing damage and grapples a Medium or smaller creature (escape DC 14). The sorrowsworn can grapple only one creature at a time. Until the grapple ends, the target is frightened and takes 27 (6d8) psychic damage at the end of each of its turns.",
+        "Reactions": "Tightening Embrace. When the sorrowsworn takes damage, the creature it is grappling with Embrace takes 18 (4d8) psychic damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 224."
+      }
+    }
+  }
+]

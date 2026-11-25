@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Large Spider",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A two-foot-wide web-spinner with a bulbous abdomen and slender legs.",
+    "combat": {
+      "habitats": [
+        "Any non-arctic land"
+      ],
+      "numberOfAttacks": 1,
+      "armorClass": 8,
+      "movement": "6, Wb 15",
+      "hitDice": "1+1",
+      "thac0": 19,
+      "size": "S, 2 ft. diameter",
+      "damageDice": "1",
+      "xp": 175
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Sticky web",
+          "effectNote": "Strength 19 or higher leaves a creature unaffected. A creature below Strength 19 needs one round to break free for each point below 19. An entangled creature loses its Dexterity adjustment to Armor Class, and attacks against it gain a +4 bonus. Nearby Large Spiders attack it while it is stuck."
+        },
+        {
+          "name": "Type A poison",
+          "effectNote": "The bite poison takes effect after 15 minutes. It deals 15 damage on a failed save vs. poison. The victim gets +2 on the save, and success negates the poison damage."
+        }
+      ]
+    },
+    "notes": [
+      "2–20 appearing. The table lists swarm organization.",
+      "Common. Carnivore. Nonintelligent (0). Neutral. Unsteady (7) morale. Treasure J–N.",
+      "The entry gives no fixed hit points. Special defenses and magic resistance are listed as Nil.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 326."
+    ]
+  },
+  {
+    "name": "Huge Spider",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A six-foot-wide hunting spider with a proportionally larger head, large fangs, and hairy body and legs.",
+    "combat": {
+      "habitats": [
+        "Any non-arctic land"
+      ],
+      "numberOfAttacks": 1,
+      "armorClass": 6,
+      "movement": 18,
+      "hitDice": "2+2",
+      "thac0": 19,
+      "size": "M, 6 ft. diameter",
+      "damageDice": "1–6",
+      "xp": 270
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Leaping ambush",
+          "effectNote": "From camouflaged tunnels or holes, the spider can leap up to 30 feet at an unsuspecting victim. Opponents take a −6 penalty on surprise rolls when it attacks this way."
+        },
+        {
+          "name": "Type A poison",
+          "effectNote": "The bite poison takes effect after 15 minutes. It deals 15 damage on a failed save vs. poison. The victim gets +1 on the save, and success negates the poison damage."
+        }
+      ]
+    },
+    "notes": [
+      "1–12 appearing. The table lists pack organization.",
+      "Common. Carnivore. Animal intelligence (1). Neutral. Average (8) morale. Treasure J–N, Q.",
+      "The entry gives no fixed hit points. Special defenses and magic resistance are listed as Nil.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 326."
+    ]
+  },
+  {
+    "name": "Giant Spider",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "An eight- to twelve-foot-wide web-spinner with a bulbous abdomen and slender legs.",
+    "combat": {
+      "habitats": [
+        "Any non-arctic land"
+      ],
+      "numberOfAttacks": 1,
+      "armorClass": 4,
+      "movement": "3, Wb 12",
+      "hitDice": "3+3 or 4+4",
+      "size": "L, 8–12 ft. diameter",
+      "damageDice": "1–8"
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Type F poison",
+          "effectNote": "A victim that fails its save vs. poison dies immediately."
+        }
+      ],
+      "Printed variants": [
+        {
+          "name": "3+3 Hit Dice",
+          "effectNote": "THAC0 17 and 420 XP."
+        },
+        {
+          "name": "4+4 Hit Dice",
+          "effectNote": "THAC0 15 and 650 XP."
+        }
+      ]
+    },
+    "notes": [
+      "1–8 appearing. The table lists nest organization.",
+      "Uncommon. Carnivore. Low intelligence (5–7). Chaotic evil. Elite (13) morale. Treasure C.",
+      "The entry gives no fixed hit points. Special defenses and magic resistance are listed as Nil.",
+      "The Giant column gives two base Hit Dice options. The printed THAC0 and XP values are paired with their corresponding Hit Dice.",
+      "Monstrous Manual, TSR 2140, third printing (January 1994), p. 326."
+    ]
+  }
+]

@@ -1,0 +1,343 @@
+[
+  {
+    "name": "Giant Raven",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, neutral evil",
+    "ac": 10,
+    "hp": 22,
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Passive Perception 13. Languages understands Common but cannot speak.",
+    "appearance": "A large raven with a heavy bill and glossy blue-black feathers.",
+    "habitats": [
+      "Arctic",
+      "Hills",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Storm King's Thunder p. 66, Chapter 3, Black Raven Tribe and Raven Rock. Base rules from the 2014 Monster Manual, Giant Vulture, p. 329.",
+      "Traits": "Keen Sight and Smell. The raven has advantage on Wisdom (Perception) checks that rely on sight or smell.\nPack Tactics. The raven has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and is not incapacitated.",
+      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 7 (2d4 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit for 9 (2d6 + 2) slashing damage.",
+      "At the table": "The Black Ravens ride these birds as mounts. At Raven Rock, 2d4 circle about 300 ft. up during the day, perch at dusk, and are absent at night. The birds leave intruders alone, remember them, and report them to the next Black Ravens they meet."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "hitDice": "3d10 + 6",
+    "skills": {
+      "Perception": 3
+    }
+  },
+  {
+    "name": "Hulking Crab",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Huge Beast, unaligned",
+    "ac": 17,
+    "hp": 76,
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Blindsight 30 ft. Passive Perception 10. Languages none. AC 17 from natural armor.",
+    "appearance": "An immense crab with a rough, rock-colored shell and heavy claws.",
+    "habitats": [
+      "Underwater",
+      "Coastal"
+    ],
+    "sections": {
+      "Printed source": "Storm King's Thunder p. 240, Appendix C, Hulking Crab.",
+      "Traits": "Amphibious. The crab can breathe air and water.\nShell Camouflage. While motionless with eyestalks and pincers tucked in, the crab resembles a natural formation or piled debris. A creature within 30 ft. can identify it with a DC 15 Intelligence (Nature) check.",
+      "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 20 (3d10 + 4) bludgeoning damage and grapple the target (escape DC 15). Each of the crab’s two claws can grapple one target at a time."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "hitDice": "8d12 + 24",
+    "skills": {
+      "Stealth": 2
+    }
+  },
+  {
+    "name": "Ice Spider",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 26,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Blindsight 10 ft., darkvision 60 ft. Passive Perception 10. Languages none. AC 14 from natural armor. Damage resistance cold.",
+    "appearance": "A white-furred giant spider with small red eyes.",
+    "habitats": [
+      "Cave",
+      "Arctic",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Storm King's Thunder p. 127, Chapter 4, Eye of the All-Father, area 9. Base rules from the 2014 Monster Manual, Giant Spider, p. 328.",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down across ceilings without an ability check.\nWeb Sense. When touching a web, it knows the location of other creatures in contact with that web.\nWeb Walker. Webbing does not restrict its movement.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 7 (1d8 + 3) piercing damage. The creature must make a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half on a success. If that poison damage reduces it to 0 HP, it becomes stable and remains poisoned for 1 hour even if it regains HP. It is paralyzed while poisoned by this effect.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. On a hit the web restrains the target. While restrained by it, the target takes 1 cold damage at the start of each of its turns. The restrained creature can use its action to burst the web with a DC 12 Strength check. The web has AC 10 and 5 HP, is vulnerable to fire, and is immune to poison and psychic damage. Bludgeoning damage works normally against it.",
+      "At the table": "Four ice spiders attack the first time party members reach a tunnel intersection. The icy tunnel floor is difficult terrain, but creatures with Spider Climb or the spider climb spell move normally through it. After Web is used, roll a d6 at the start of each of the spider’s turns. A 5 or 6 restores the use, as does a short or long rest."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "hitDice": "4d10 + 4",
+    "skills": {
+      "Stealth": 7
+    }
+  },
+  {
+    "name": "Ice Spider Queen",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 44,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Blindsight 10 ft., darkvision 60 ft. Passive Perception 10. Languages none. AC 14 from natural armor. Damage resistance cold.",
+    "appearance": "A white-furred giant ice spider with small red eyes. The queen and ice spider share the species portrait.",
+    "habitats": [
+      "Cave",
+      "Arctic",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Storm King's Thunder p. 128, Chapter 4, Eye of the All-Father, area 9B Nest. Base rules from the 2014 Monster Manual, Giant Spider, p. 328.",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down across ceilings without an ability check.\nWeb Sense. When touching a web, it knows the location of other creatures in contact with that web.\nWeb Walker. Webbing does not restrict its movement.\nCold Aura. A creature starting its turn within 5 ft. of the queen takes 5 (2d4) cold damage.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 7 (1d8 + 3) piercing damage. The creature must make a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half on a success. If that poison damage reduces it to 0 HP, it becomes stable and remains poisoned for 1 hour even if it regains HP. It is paralyzed while poisoned by this effect.\nWeb (Recharge 5–6). Ranged weapon attack, +5 to hit, range 30/60 ft., one creature. On a hit the web restrains the target. While restrained by it, the target takes 2 (1d4) cold damage at the start of each of its turns. The restrained creature can use its action to burst the web with a DC 12 Strength check. The web has AC 10 and 5 HP, is vulnerable to fire, and is immune to poison and psychic damage. Bludgeoning damage works normally against it.",
+      "At the table": "If the queen dies in the nest, her 32 eggs hatch immediately and form a Swarm of Insects (Spiders) with cold resistance. The swarm acts on the queen’s initiative. If there is no foe to attack, it begins to eat the queen’s remains. After Web is used, roll a d6 at the start of each of the spider’s turns. A 5 or 6 restores the use, as does a short or long rest."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "skills": {
+      "Stealth": 7
+    }
+  },
+  {
+    "name": "Pig",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 5,
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 9,
+    "otherStatistics": "Passive Perception 9. Languages none.",
+    "appearance": "A fat domestic pig with pale bristly skin, a rounded snout, and a curled tail.",
+    "habitats": [
+      "Farm",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Storm King's Thunder p. 143, Chapter 5, Grudd Haug, area 12 Pigpen. Base rules from the 2014 Monster Manual, Boar, p. 319.",
+      "At the table": "The pig has no effective attacks. It uses the retained ability scores and passive Perception from Boar."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "hitDice": "1d8 + 1"
+  },
+  {
+    "name": "Yak",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "classification": "Large Beast, unaligned",
+    "ac": 10,
+    "hp": 13,
+    "speed": "50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. Languages none.",
+    "appearance": "A shaggy brown domestic yak with a broad muzzle and curved horns.",
+    "habitats": [
+      "Mountain",
+      "Farm"
+    ],
+    "sections": {
+      "Printed source": "Storm King's Thunder p. 172, Chapter 8, Ironslag, area 4 Barn. Base rules from the 2014 Monster Manual, Elk, p. 322.",
+      "Traits": "Charge. If the yak moves at least 20 ft. straight toward a target and then hits it with Ram on the same turn, the hit deals an extra 7 (2d6) damage. A creature hit this way must pass a DC 13 Strength save or fall prone.",
+      "Actions": "Ram. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) bludgeoning damage.\nHooves. Melee weapon attack, +5 to hit, reach 5 ft., one prone creature. Hit for 8 (2d4 + 3) bludgeoning damage.",
+      "At the table": "The Ironslag barns house yaks for wool and hauling. In this encounter, each barn contains 2d4 yaks."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "hitDice": "2d10 + 2"
+  }
+]

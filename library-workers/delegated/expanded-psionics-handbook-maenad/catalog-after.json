@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Maenad",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "7f9a974316dfd03426ac0668",
+      "publication": "Expanded Psionics Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://www.dndtools.one/expanded-psionics-handbook",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Maenad, Psionic)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Maenad and Psionic subtypes. Base land speed 30 ft. No racial ability-score adjustments.",
+            "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+            "Racial Energy Ray is a sonic-only psi-like ability, usable once per day and accompanied by a scream. Manifester level is half the Maenad’s Hit Dice, rounded down, minimum 1. It costs no power points.",
+            "The ray takes a standard action and hits with a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level and subtract 1 per die. The sonic ray ignores object hardness.",
+            "Outburst (Ex) is usable once per day for up to 4 rounds. Add +2 Strength and apply −2 Intelligence and Wisdom while it lasts. The entry leaves the activation action unstated. The example NPCs use a standard action, following the original 3.5 default for activated extraordinary abilities.",
+            "Automatic languages Common and Maenad. Bonus languages Aquan, Draconic, Dwarven, Elven, Goblin. Favored class Wilder. Level adjustment +0."
+          ]
+        },
+        {
+          "title": "Original NPC · Vara Flintshore",
+          "lines": [
+            "Shoal rescue swimmer and Wilder.",
+            "Motive. Bring a pilot off a tidal shelf before the channel fills.",
+            "Hook. Vara can carry a depth line to the pilot if the party secures it on shore.",
+            "Maenad shoal rescuer, Wilder 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Maenad, Psionic)",
+            "AC 13 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Toren Glasswake",
+          "lines": [
+            "Drydock shipwright and hull repair lead.",
+            "Motive. Lift a grounded vessel enough to inspect the keel without collapsing the bracing.",
+            "Hook. Toren can identify the replacement timber and needs someone to hold the brace while it seats.",
+            "Maenad drydock shipwright, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Maenad, Psionic)",
+            "AC 14 · HP 7 (1d6+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Vara Flintshore": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Vara Flintshore",
+              "group": "Maenad",
+              "publication": "Maenad shoal rescuer, Wilder 1",
+              "local": {
+                "entry": "npc-1be40ee92bd467d67007db82",
+                "version": "94cc92e5e48b1a6cf906deba"
+              }
+            }
+          }
+        ],
+        "Original NPC · Toren Glasswake": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Toren Glasswake",
+              "group": "Maenad",
+              "publication": "Maenad drydock shipwright, Expert 1",
+              "local": {
+                "entry": "npc-3aa96c145f929e3305c45ce6",
+                "version": "a559f8f54889fa4a4cc73fb8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Maenad": true,
+      "maenad sonic energy ray": true,
+      "maenad outburst": true,
+      "maenad shoal rescue": true,
+      "maenad drydock shipwright": true
+    },
+    "hash": "4e6eb9610993aa42b6c5b237f415845a3b594e5ae978d9da0aada8afdfa8bc44",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Expanded Psionics Handbook (2004)",
+    "defaultVersionKey": "7f9a974316dfd03426ac0668",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Sea Kin",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "da91876301d24b9ed4b07d51",
+      "publication": "Races of Destiny (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144441M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Human subtype. Base land speed 30 ft. and swim speed 30 ft. The printed entry gives no racial ability-score adjustments or level adjustment.",
+            "Low-light vision reaches twice human distance in dim light and retains color and detail. A +2 racial bonus applies to Escape Artist.",
+            "Gain 4 extra skill points at 1st level after the class calculation and 1 extra skill point each subsequent level.",
+            "The ordinary swim-speed rules grant +8 racial on Swim checks for special actions or hazards, permit taking 10 even when threatened or distracted, and allow a straight-line run while swimming.",
+            "Hold Breath (Ex): begin with 8 × your Constitution score in rounds before risking drowning. The core Swim rule uses one extra round of breath per standard or full-round action while submerged. Sea Kin breathe air.",
+            "Water Dependency: immerse the entire body in water at least once a week. After a week without immersion, check Constitution daily at DC 10 + 1 per additional day. On a failed check, take 1 Constitution damage. Once fully immersed, restore 1d4 Constitution per hour while remaining in water. The printed requirement specifies water without a salinity qualifier.",
+            "Weapon Familiarity treats tridents and nets as simple weapons. Common is automatic. Bonus languages Aquan, Elven, and Sahuagin. Favored class Druid."
+          ]
+        },
+        {
+          "title": "Original NPC · Neressa",
+          "lines": [
+            "Tidal basin healer and Druid.",
+            "Motive. Find why the boats can no longer draw safe water from the tidal basin.",
+            "Hook. Neressa can test a sample and tend the sick while the party searches the intake.",
+            "Sea Kin tidal basin healer, Druid 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human)",
+            "AC 13 · HP 10 (1d8+2) · Speed Walk 30 ft. Swim 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Emmoran",
+          "lines": [
+            "Tidal lock warden and Fighter.",
+            "Motive. Open the jammed tide gate before the returning boats run out of time.",
+            "Hook. Emmoran can reach the submerged catch if the party keeps the dry platform clear.",
+            "Sea Kin tidal lock warden, Fighter 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human)",
+            "AC 15 · HP 12 (1d10+2) · Speed Walk 30 ft. Swim 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Neressa": [
+          {
+            "start": 15,
+            "end": 22,
+            "target": {
+              "name": "Neressa",
+              "group": "Sea Kin",
+              "publication": "Sea Kin tidal basin healer, Druid 1",
+              "local": {
+                "entry": "npc-14f994b501b848bb73539c99",
+                "version": "246aaa1bb6644b8cef823faf"
+              }
+            }
+          }
+        ],
+        "Hook. Neressa can test a sample and tend the sick while the party searches the intake.": [
+          {
+            "start": 6,
+            "end": 13,
+            "target": {
+              "name": "Neressa",
+              "group": "Sea Kin",
+              "publication": "Sea Kin tidal basin healer, Druid 1",
+              "local": {
+                "entry": "npc-14f994b501b848bb73539c99",
+                "version": "246aaa1bb6644b8cef823faf"
+              }
+            }
+          }
+        ],
+        "Original NPC · Emmoran": [
+          {
+            "start": 15,
+            "end": 22,
+            "target": {
+              "name": "Emmoran",
+              "group": "Sea Kin",
+              "publication": "Sea Kin tidal lock warden, Fighter 1",
+              "local": {
+                "entry": "npc-74257e3e3723c52ba46cd154",
+                "version": "7047181fc7e307fea2e2b3a0"
+              }
+            }
+          }
+        ],
+        "Hook. Emmoran can reach the submerged catch if the party keeps the dry platform clear.": [
+          {
+            "start": 6,
+            "end": 13,
+            "target": {
+              "name": "Emmoran",
+              "group": "Sea Kin",
+              "publication": "Sea Kin tidal lock warden, Fighter 1",
+              "local": {
+                "entry": "npc-74257e3e3723c52ba46cd154",
+                "version": "7047181fc7e307fea2e2b3a0"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Sea Kin": true,
+      "sea kin hold breath": true,
+      "sea kin water dependency": true,
+      "sea kin tidal basin healer": true,
+      "sea kin tidal lock warden": true
+    },
+    "hash": "9dad55e7d83dc6220b1ccb7b983540699d461c94b89335f934c67ebf5eab0da0",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Destiny (2004)",
+    "defaultVersionKey": "da91876301d24b9ed4b07d51",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

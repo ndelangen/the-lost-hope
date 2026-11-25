@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Displacer Beast",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "page": "p. 64, Displacer Beast Traits",
+    "printedPages": [
+      64
+    ],
+    "originalPrintedPages": [
+      64
+    ],
+    "originalEditionUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text with original folio parallel check",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/backgrounds/12-soldier",
+    "sourceDistinctions": [
+      "Both player trait blocks use 30 ft. walking speed and omit darkvision. The Design Notes discuss 35 ft. and darkvision.",
+      "Tentacle attacks use ordinary 5-ft. reach. When rolling mixed damage, the build applies the single Strength bonus to bludgeoning."
+    ]
+  },
+  {
+    "name": "Dragon Turtle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Dragon",
+    "url": "",
+    "page": "p. 71, Dragon Turtle Traits",
+    "printedPages": [
+      71
+    ],
+    "originalPrintedPages": [
+      71
+    ],
+    "originalEditionUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text with original folio parallel check",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules.",
+    "classRules": "",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/backgrounds",
+    "saveAbilityComparison": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-d#DragonTurtle",
+    "sourceDistinctions": [
+      "Both player versions omit the save ability for the creature caught in the steam. Constitution is the explicit table ruling and follows the matching 2014 Steam Breath save type.",
+      "The finished trait block gives neither darkvision nor fire resistance even though the Design Notes mention both. It also omits amphibious breathing. The build follows the trait block."
+    ]
+  },
+  {
+    "name": "Mimic",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Tyler Kamstra via DMs Guild",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "page": "p. 146, Mimic Traits, v2. Original trait folio p. 142.",
+    "printedPages": [
+      146
+    ],
+    "originalPrintedPages": [
+      141,
+      142
+    ],
+    "originalEditionUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceVersion": "v2 text with original folio parallel check",
+    "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Monk",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background#Criminal",
+    "relatedFolio": "Monks and Natural Weapons, v2 p. 7",
+    "sourceDistinctions": [
+      "The player trait block omits darkvision, acid resistance, and prone immunity discussed in Design Notes.",
+      "The supplement requires Martial Arts and Flurry of Blows bonus attacks to be conventional unarmed strikes. Latch uses a blunt body check, with no natural-weapon dice.",
+      "False Appearance is read as concentration during the one-minute setup. It still requires continued motionlessness after setup.",
+      "The build applies the single Strength damage bonus to the bite's piercing damage. It uses the specific Huge limit for Adhesive and ordinary grapple size for the pseudopod bonus action."
+    ]
+  }
+]

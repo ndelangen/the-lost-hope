@@ -1,0 +1,558 @@
+[
+  {
+    "name": "Treant Sapling",
+    "statBlock": {
+      "name": "Treant Sapling",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 36,
+      "classification": "Large plant, typically chaotic good",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 11,
+      "description": "A young, talking treant. Northwind, a Prismeer native, works at the Witchlight Carnival and uses his gift to clear room for the wagons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Proficiency bonus": "+2",
+        "Armor": "Natural armor.",
+        "Damage resistances": "Bludgeoning and piercing.",
+        "Damage vulnerabilities": "Fire.",
+        "Languages": "Common, Druidic, Elvish, and Sylvan.",
+        "Traits": "False Appearance. The motionless sapling rolls initiative with advantage. A creature that has never seen it act or move needs a successful DC 18 Intelligence (Investigation) check to tell that the tree is animate.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (1d10 + 3) bludgeoning damage.\nRock. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. A hit deals 14 (2d10 + 3) bludgeoning damage.\nAnimate Trees (1/day). Choose one or two visible trees within 60 ft. Each becomes an ally using the Awakened Tree stat block and cannot speak. The animation lasts up to one day. It ends for a tree if it dies, the sapling dies, or they move more than 120 ft. apart. The sapling can also end a tree’s animation as a bonus action. The tree takes root again if possible.",
+        "Witchlight Carnival": "Northwind greets visitors at the dragonfly ride. Red, his awakened squirrel companion, uses the Weasel stat block with Intelligence 10 and speaks Common.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 1, p. 36. Use the Monster Manual (2014), p. 317, for the animated tree."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Awakened Tree",
+          "terms": [
+            "Awakened Tree"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#awakened%20tree_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Weasel",
+          "terms": [
+            "Weasel"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#weasel_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Warduke",
+    "statBlock": {
+      "name": "Warduke",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Medium humanoid (human), chaotic evil",
+      "ac": 17,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A scarred mercenary who conceals his face behind his dread helm. He guards Kelek for pay and has little interest in the League of Malevolence’s schemes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Con": 5
+      },
+      "skills": {
+        "Athletics": 6,
+        "Intimidation": 3
+      },
+      "sections": {
+        "Proficiency bonus": "+3",
+        "Armor": "Half plate and shield.",
+        "Languages": "Common.",
+        "Traits": "Special Equipment. Warduke has a Dread Helm and a Flame Tongue Longsword.",
+        "Actions": "Multiattack. Make three attacks in any combination of Flame Tongue and Dagger.\nFlame Tongue. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage one-handed or 8 (1d10 + 3) with both hands. Add 7 (2d6) fire damage while the sword burns.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+        "Bonus actions": "Flaming Blade. Ignite or extinguish the longsword. While it burns, it sheds bright light for 40 ft. and dim light for 40 ft. beyond that.\nSecond Wind (recharges after a short or long rest). Recover 13 HP.",
+        "Palace encounter": "At the throne room in area P31, Warduke stands beside Kelek with his sword already aflame. Treasure worth at least 2,500 gp buys his service for the remainder of the adventure. While he is with the party, Kelek and Zargash leave them alone. He can be persuaded to destroy Iggwilv’s Cauldron with his sword.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix B, p. 221, with the throne-room encounter in ch. 5, area P31."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Kelek",
+          "terms": [
+            "Kelek"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelek_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Zargash",
+          "terms": [
+            "Zargash"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zargash_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Will-o'-Wells",
+    "statBlock": {
+      "name": "Will-o'-Wells",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 61,
+      "classification": "Tiny undead, chaotic good",
+      "ac": 19,
+      "hp": 22,
+      "hitDice": "9d4",
+      "speed": "0 ft., fly 50 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 28
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "The lights above Hither’s wells are drowned spirits. They will help travelers who promise to oppose Bavlorna, whose flood killed them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Proficiency bonus": "+2",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Acid, cold, fire, necrotic, and thunder. Also bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning and poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, poisoned, prone, restrained, and unconscious.",
+        "Traits": "Ephemeral. It cannot carry or wear anything.\nIncorporeal Movement. It moves through creatures and objects as difficult terrain. Ending its turn in an object deals it 5 (1d10) force damage.\nVariable Illumination. Choose a radius from 5 to 20 ft. It sheds bright light within that radius and dim light for the same distance beyond it. It can change the radius as a bonus action.",
+        "Actions": "Shock. Melee spell attack, +4 to hit, reach 5 ft., one creature. A hit deals 9 (2d8) lightning damage.\nInvisibility. The spirit and its light become invisible until it attacks, uses Consume Life, or stops concentrating as if on a spell.\nMagic Boon (recharges after a long rest). Grant a boon to one visible creature within 5 ft. that is not undead. Once within the next 24 hours, the recipient can roll a d4 and add it to one ability check, attack roll, or saving throw. A creature can hold only one such boon at a time.",
+        "Bonus actions": "Consume Life. Choose one visible, living creature within 5 ft. that has 0 HP. It dies on a failed DC 10 Constitution save against this magic. If it dies, the spirit recovers 10 (3d6) HP.",
+        "Hither wells": "Each well is home to 1d4 spirits. They cannot travel more than a few hundred yards from their well. They ask visitors their intentions and offer a boon to those who promise to oppose Bavlorna Blightstraw.",
+        "Base stat block": "The adventure uses the 2014 Will-o’-Wisp rules, changes its alignment to chaotic good, and adds Magic Boon and the well’s travel limit.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 2, pp. 61–62, using Monster Manual (2014), p. 301."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Will-o'-Wisp",
+          "terms": [
+            "Will-o'-Wisp",
+            "Will-o’-Wisp"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#will-o'-wisp_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Bavlorna Blightstraw",
+          "terms": [
+            "Bavlorna Blightstraw"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Witchlight Hand (Medium)",
+    "statBlock": {
+      "name": "Witchlight Hand (Medium)",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 27,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 11,
+      "description": "Medium carnival worker with its own specialized trade. Mister Witch and Mister Light train the hands in small spells and issue pixie dust for the work.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Sleight Of Hand": 6
+      },
+      "sections": {
+        "Proficiency bonus": "+2",
+        "Languages": "Common plus one other language.",
+        "Traits": "Secret Expertise. Choose one additional skill bonus for the hand: Acrobatics +6, Animal Handling +5, Arcana +5, Athletics +4, Medicine +5, or Performance +5.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nPixie Dust (1/day). Give the hand or another visible creature within 5 ft. a 30-ft. flying speed for 1 minute. If it is still in the air when the effect expires, it descends safely, takes no falling damage, and lands on its feet.",
+        "Spellcasting": "As an action, cast Dancing Lights, Message, or Prestidigitation at will using Charisma.",
+        "Size option": "The published block supports both sizes. Medium has 9 HP (2d8) and Small has 7 HP (2d6). See Witchlight Hand (Small) for the other size option.",
+        "Carnival staff": "On duty, the hands wear fake butterfly wings. They agree to never harm other staff and to spend no longer than one day at a time away from the carnival.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 1, p. 27."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Witchlight Hand (Small)",
+          "terms": [
+            "Witchlight Hand (Small)"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#witchlight%20hand%20(small)_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Witchlight Hand (Small)",
+    "statBlock": {
+      "name": "Witchlight Hand (Small)",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 27,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 11,
+      "description": "Small carnival worker with a specialized trade. Uses the same spells, skills, and Pixie Dust action as the Medium Witchlight Hand.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Sleight Of Hand": 6
+      },
+      "sections": {
+        "Proficiency bonus": "+2",
+        "Languages": "Common plus one other language.",
+        "Traits": "Secret Expertise. Choose one additional skill bonus for the hand: Acrobatics +6, Animal Handling +5, Arcana +5, Athletics +4, Medicine +5, or Performance +5.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nPixie Dust (1/day). Give the hand or another visible creature within 5 ft. a 30-ft. flying speed for 1 minute. If it is still in the air when the effect expires, it descends safely, takes no falling damage, and lands on its feet.",
+        "Spellcasting": "As an action, cast Dancing Lights, Message, or Prestidigitation at will using Charisma.",
+        "Size option": "The published block supports both sizes. Medium has 9 HP (2d8) and Small has 7 HP (2d6). See Witchlight Hand (Medium) for the other size option.",
+        "Carnival staff": "On duty, the hands wear fake butterfly wings. They agree to never harm other staff and to spend no longer than one day at a time away from the carnival.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 1, p. 27."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Witchlight Hand (Medium)",
+          "terms": [
+            "Witchlight Hand (Medium)"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#witchlight%20hand%20(medium)_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Zarak",
+    "statBlock": {
+      "name": "Zarak",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 222,
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 14,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 16,
+      "description": "A short, avaricious assassin working for the League of Malevolence. He prefers thrown daggers against a group and his garrote when he can isolate the target.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 2
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Insight": 6,
+        "Perception": 6,
+        "Stealth": 7
+      },
+      "sections": {
+        "Proficiency bonus": "+2",
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and Orc.",
+        "Traits": "Special Equipment. Zarak has a Potion of Invisibility. He drinks it and flees if defeat looks likely.",
+        "Actions": "Multiattack. Make two Dagger attacks.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. Add 5 (2d4) piercing damage when the target is a creature and Zarak has at least 18 HP.\nGarrote. Melee weapon attack, +5 to hit, reach 5 ft., one humanoid. A hit deals 8 (2d4 + 3) slashing damage and leaves the target grappled (escape DC 11). Until the grapple ends, the target takes 8 (2d4 + 3) slashing damage at the start of each of its turns. During that time, Zarak cannot grapple another creature or use Assassin’s Whim.",
+        "Bonus actions": "Assassin’s Whim. Take the Dash, Disengage, or Hide action.",
+        "Reactions": "Uncanny Dodge. Halve the damage from an attack if Zarak can see the attacker.",
+        "Wayward Pool encounter": "Kelek sent Zarak after the horn of Lamorna, the unicorn. At the shore he uses a fake unicorn horn to follow the party in. He attacks at the end of their conversation. Creatures with passive Perception of at least 17 avoid surprise. Lamorna teleports away on her first turn after the ambush. Zarak may withdraw or accept gold to abandon the hunt.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix B, p. 222, with the Wayward Pool encounter in ch. 3."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Kelek",
+          "terms": [
+            "Kelek"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelek_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Zargash",
+    "statBlock": {
+      "name": "Zargash",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 223,
+      "classification": "Medium humanoid (cleric, human), chaotic evil",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "A human priest of Orcus who wants to take Kelek’s place. He waits while Warduke protects Kelek. In combat he uses Silence to hinder spellcasters and Gaseous Form to escape.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Deception": 6,
+        "Insight": 5
+      },
+      "sections": {
+        "Proficiency bonus": "+2",
+        "Armor": "Chain shirt.",
+        "Languages": "Common.",
+        "Traits": "Cling to Life (recharges after a long rest). The first time damage would reduce Zargash to 0 HP, he drops to 1 HP instead.\nSpecial Equipment. His bat-shaped amulet has the properties of a Ring of Feather Falling.",
+        "Actions": "Warhammer. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) bludgeoning damage one-handed or 7 (1d10 + 2) with both hands.\nDeathly Ray. Ranged spell attack, +5 to hit, range 60 ft., one creature. A hit deals 25 (4d10 + 3) necrotic damage.",
+        "Spellcasting": "As an action, cast one listed spell with Wisdom (spell save DC 13).\nAt will. Light, Thaumaturgy.\n1/day each. Command, Gaseous Form, Hold Person, Silence, Speak with Dead.",
+        "Bonus actions": "Animate Corpse (1/day). Choose a visible dead humanoid within 30 ft. It rises as a Zombie under Zargash’s control and takes its turn immediately after his. He must maintain concentration as if on a spell. The zombie becomes a corpse again after 10 minutes, when it reaches 0 HP, or when his concentration ends.",
+        "Palace encounter": "At the sludge pool in area P30, Zargash pretends to be frozen in time. A DC 16 Wisdom (Perception) check reveals the trick. The first attack against him has advantage while he keeps up the act. If unmasked or attacked, he uses his next action to cast Gaseous Form on himself and flies through area P39 to warn Kelek and Warduke in P31.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix B, p. 223, with the sludge pool encounter in ch. 5, area P30."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Zombie",
+          "terms": [
+            "Zombie"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zombie_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Kelek",
+          "terms": [
+            "Kelek"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelek_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Warduke",
+          "terms": [
+            "Warduke"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#warduke_wbtw"
+          }
+        }
+      ]
+    }
+  }
+]

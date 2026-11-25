@@ -1,0 +1,416 @@
+[
+  {
+    "name": "Githyanki Gish",
+    "statBlock": {
+      "name": "Githyanki Gish",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Medium humanoid (gith), lawful evil",
+      "ac": 17,
+      "hp": 123,
+      "hitDice": "19d8 + 38",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 16,
+      "description": "Gish train for raids, espionage, and assassination by combining swordplay with psionics and wizard spells.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 6,
+        "Perception": 6,
+        "Stealth": 6
+      },
+      "savingThrows": {
+        "Con": 6,
+        "Int": 7,
+        "Wis": 6
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Armor": "Half plate.",
+        "Innate Spellcasting (Psionics)": "Intelligence (spell save DC 15, +7 to hit with spell attacks). No components.\nAt will. Mage Hand (invisible hand).\n3/day each. Jump, Misty Step, Nondetection (self only).\n1/day each. Plane Shift, Telekinesis.",
+        "Spellcasting": "8th-level wizard spellcasting. Intelligence (spell save DC 15, +7 to hit with spell attacks).\nCantrips (at will). Blade Ward, Light, Message, True Strike.\n1st level (4 slots). Expeditious Retreat, Magic Missile, Sleep, Thunderwave.\n2nd level (3 slots). Blur, Invisibility, Levitate.\n3rd level (3 slots). Counterspell, Fireball, Haste.\n4th level (2 slots). Dimension Door.",
+        "Traits": "War Magic. After using its action to cast a spell, the gish can make one weapon attack as a bonus action.",
+        "Actions": "Multiattack. Make two Longsword attacks.\nLongsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage with two hands. Either hit also deals 18 (4d8) psychic damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 205."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Kith’rak",
+    "statBlock": {
+      "name": "Githyanki Kith’rak",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Medium humanoid (gith), lawful evil",
+      "ac": 18,
+      "hp": 180,
+      "hitDice": "24d8 + 72",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "description": "Kith'raks are githyanki officers who earn their rank through grueling training and psionic tests. Each commands ten sarths, who lead squads of ten warriors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 7,
+        "Perception": 6
+      },
+      "savingThrows": {
+        "Con": 7,
+        "Int": 7,
+        "Wis": 6
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Armor": "Plate.",
+        "Innate Spellcasting (Psionics)": "Intelligence (spell save DC 15, +7 to hit with spell attacks). No components.\nAt will. Mage Hand (invisible hand).\n3/day each. Blur, Jump, Misty Step, Nondetection (self only).\n1/day each. Plane Shift, Telekinesis.",
+        "Bonus actions": "Rally the Troops. The kith'rak uses magic to end the charmed and frightened conditions on itself and on any creatures it chooses and can see within 30 ft.",
+        "Actions": "Multiattack. Make three Greatsword attacks.\nGreatsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage plus 17 (5d6) psychic damage.",
+        "Reactions": "Parry. Add 4 to AC against one melee attack that would hit the kith'rak. It must see the attacker and wield a melee weapon.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 205."
+      }
+    }
+  },
+  {
+    "name": "Githyanki Supreme Commander",
+    "statBlock": {
+      "name": "Githyanki Supreme Commander",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 206,
+      "classification": "Medium humanoid (gith), lawful evil",
+      "ac": 18,
+      "hp": 187,
+      "hitDice": "22d8 + 88",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 18,
+      "description": "A supreme commander leads ten kith'raks and the soldiers under them. Most ride red dragons into battle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 8,
+        "Intimidation": 9,
+        "Perception": 8
+      },
+      "savingThrows": {
+        "Con": 9,
+        "Int": 8,
+        "Wis": 8
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Armor": "Plate.",
+        "Innate Spellcasting (Psionics)": "Intelligence (spell save DC 16, +8 to hit with spell attacks). No components.\nAt will. Mage Hand (invisible hand).\n3/day each. Jump, Levitate (self only), Misty Step, Nondetection (self only).\n1/day each. Bigby's Hand, Mass Suggestion, Plane Shift, Telekinesis.",
+        "Actions": "Multiattack. Make two Silver Greatsword attacks.\nSilver Greatsword. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 14 (2d6 + 7) slashing damage plus 17 (5d6) psychic damage. On a critical hit against a creature in an astral body, such as one using Astral Projection, the commander can sever the silver cord linking it to its material body in place of damage.",
+        "Reactions": "Parry. Add 5 to AC against one melee attack that would hit the commander. It must see the attacker and wield a melee weapon.",
+        "Legendary actions": "The commander has 3 legendary actions. It spends the listed cost on one option at the end of another creature's turn and recovers all spent actions at the start of its own turn.\nAttack (2 actions). Make one Silver Greatsword attack.\nCommand Ally (1 action). Pick one visible ally within 30 ft. If the ally can see or hear the commander, it can spend its reaction to make one melee weapon attack with advantage.\nTeleport (1 action). Magically teleport with worn and carried gear to a visible, unoccupied space within 30 ft. The commander becomes insubstantial until the start of its next turn, treating creatures and objects as difficult terrain for movement. If it ends its turn inside an object, it takes 16 (3d10) force damage and moves to the nearest unoccupied space.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 206."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Anarch",
+    "statBlock": {
+      "name": "Githzerai Anarch",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 207,
+      "classification": "Medium humanoid (gith), lawful neutral",
+      "ac": 20,
+      "hp": 144,
+      "hitDice": "17d8 + 68",
+      "speed": "30 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 20,
+      "description": "Githzerai anarchs lead their communities and use psionics to shape raw Limbo into settlements and citadels.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 9,
+        "Insight": 10,
+        "Perception": 10
+      },
+      "savingThrows": {
+        "Str": 8,
+        "Dex": 10,
+        "Int": 9,
+        "Wis": 10
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Innate Spellcasting (Psionics)": "Wisdom (spell save DC 18, +10 to hit with spell attacks). No components.\nAt will. Mage Hand (invisible hand).\n3/day each. Feather Fall, Jump, See Invisibility, Shield, Telekinesis.\n1/day each. Globe of Invulnerability, Plane Shift, Teleportation Circle, Wall of Force.",
+        "Traits": "Psychic Defense. The anarch adds its Wisdom modifier to AC while wearing no armor and wielding no shield.",
+        "Actions": "Multiattack. Make three Unarmed Strikes.\nUnarmed Strike. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) bludgeoning damage plus 18 (4d8) psychic damage.",
+        "Legendary actions": "The anarch has 3 legendary actions. It spends the listed cost on one option at the end of another creature's turn and recovers all spent actions at the start of its own turn.\nStrike (1 action). Make one Unarmed Strike.\nTeleport (1 action). Magically teleport with worn and carried gear to a visible, unoccupied space within 30 ft.\nChange Gravity (3 actions). Cast Reverse Gravity. The anarch can orient the spell area in any direction, and objects and creatures fall toward its far end.",
+        "Lair actions": "On initiative count 20, losing ties, choose one option. The anarch cannot choose the same option in consecutive rounds.\nLightning Bolt. Cast Lightning Bolt at 5th level. The anarch can change the damage type to cold, fire, psychic, radiant, or thunder. Only lightning and fire versions ignite flammable objects.\nCreation. Cast Creation at 9th level using raw Limbo rather than shadow material. In Limbo, the object lasts as long as the anarch maintains concentration, whatever the material. Concentration breaks if the anarch goes more than 120 ft. from the object.\nMove Object. Pick a visible object within 150 ft. and make a Wisdom check with advantage to move it magically. The DC is 5 for Tiny, 10 for Small, 15 for Medium, 20 for Large, and 25 for Huge or larger.",
+        "Regional effects": "Shape Limbo. The anarch can spend 10 minutes stabilizing a 5-mile area centered on it in Limbo. It chooses the shapes and materials of the inanimate forms that take shape there.\nKeep Limbo Objects Intact. A Limbo-made object brought to the Material Plane stays stable while the anarch is within 1 mile of it. This requires no action.\nWhen the anarch dies, both effects end after 1d6 rounds. The shaped matter unravels, and the resulting chaotic energy and matter dissipate another 1d6 rounds later.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 207."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Enlightened",
+    "statBlock": {
+      "name": "Githzerai Enlightened",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 208,
+      "classification": "Medium humanoid (gith), lawful neutral",
+      "ac": 18,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 18,
+      "description": "A githzerai zerth who reaches the next stage of training can use psionics to displace an enemy in time.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 7,
+        "Insight": 8,
+        "Perception": 8
+      },
+      "savingThrows": {
+        "Str": 6,
+        "Dex": 8,
+        "Int": 7,
+        "Wis": 8
+      },
+      "sections": {
+        "Languages": "Gith.",
+        "Innate Spellcasting (Psionics)": "Wisdom (spell save DC 16, +8 to hit with spell attacks). No components.\nAt will. Mage Hand (invisible hand).\n3/day each. Blur, Expeditious Retreat, Feather Fall, Jump, See Invisibility, Shield.\n1/day each. Haste, Plane Shift, Teleport.",
+        "Traits": "Psychic Defense. The githzerai adds its Wisdom modifier to AC while wearing no armor and wielding no shield.",
+        "Actions": "Multiattack. Make three Unarmed Strikes.\nUnarmed Strike. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage plus 13 (3d8) psychic damage.\nTemporal Strike (Recharge 6). Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 13 (2d8 + 4) bludgeoning damage plus 52 (8d12) psychic damage. The creature makes a DC 16 Wisdom save. On a failure it vanishes for 1 round, then returns to its former space or the nearest unoccupied space if that space is occupied.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 208."
+      }
+    }
+  },
+  {
+    "name": "Gloom Weaver",
+    "statBlock": {
+      "name": "Gloom Weaver",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 224,
+      "classification": "Medium humanoid (elf), neutral",
+      "ac": 14,
+      "hp": 104,
+      "hitDice": "16d8 + 32",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "A shadar-kai in the Raven Queen's service that stalks from cover and weakens nearby creatures before it attacks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 6
+      },
+      "sections": {
+        "Languages": "Common, Elvish.",
+        "Damage immunities": "Necrotic.",
+        "Condition immunities": "Charmed, exhaustion.",
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Burden of Time. Beasts and humanoids within 10 ft. of the gloom weaver have disadvantage on saving throws. Shadar-kai are exempt.\nFey Ancestry. The gloom weaver has advantage on saves against being charmed, and magic cannot put it to sleep.",
+        "Innate Spellcasting": "Charisma (spell save DC 16, +8 to hit with spell attacks). No material components.\nAt will. Arcane Eye, Mage Armor, Speak with Dead.\n1/day each. Arcane Gate, Bane, Compulsion, Confusion, True Seeing.",
+        "Spellcasting": "12th-level warlock spellcasting. Charisma (spell save DC 16, +8 to hit with spell attacks). All spent slots return after a short or long rest.\nCantrips (at will). Chill Touch (3d8 damage), Eldritch Blast (3 beams, +4 to each beam's damage roll), Minor Illusion, Prestidigitation.\n1st–5th level (three 5th-level slots). Armor of Agathys, Blight, Darkness, Dream, Invisibility, Fear, Hypnotic Pattern, Major Image, Contact Other Plane, Vampiric Touch, Witch Bolt.",
+        "Actions": "Multiattack. Make two Shadow Spear attacks and cast one spell with a casting time of 1 action.\nShadow Spear. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage with two hands. Either hit also deals 26 (4d12) necrotic damage.",
+        "Reactions": "Misty Escape (Recharges after a Short or Long Rest). When the gloom weaver takes damage, it turns invisible and teleports up to 60 ft. to a visible, unoccupied space. It stays invisible until the start of its next turn, or until it attacks or casts a spell.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 224."
+      }
+    }
+  },
+  {
+    "name": "Gray Render",
+    "statBlock": {
+      "name": "Gray Render",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Large monstrosity, chaotic neutral",
+      "ac": 19,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A gray render seeks an intelligent creature to bond with. It fiercely protects its master, but its impulses can wreak havoc among its allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "savingThrows": {
+        "Str": 8,
+        "Con": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Actions": "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 17 (2d12 + 4) piercing damage. A Medium or smaller target also makes a DC 16 Strength save, falling prone on a failure.\nClaws. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) slashing damage. If the target is prone, it also takes 7 (2d6) bludgeoning damage.",
+        "Reactions": "Bloody Rampage. When the render takes damage, it makes one Claws attack against a random creature in reach, excluding its master.",
+        "Gray Render quirks": "Choose a quirk or roll a d12.\n1. Detests horses and other mounts.\n2. Roars if anyone touches its master.\n3. Wants to cuddle.\n4. Pulls up trees to chew on them.\n5. Passes gas strong enough to make eyes water.\n6. Gives its master gifts of meat.\n7. Digs whenever it can.\n8. Attacks carts and wagons as though they were monsters.\n9. Howls in rain.\n10. Whimpers in darkness.\n11. Buries any treasure it finds.\n12. Leaps at birds without regard for what it breaks.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 209."
+      }
+    }
+  }
+]

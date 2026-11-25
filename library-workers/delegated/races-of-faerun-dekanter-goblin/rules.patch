@@ -1,0 +1,145 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315932,6 +315932,22 @@
+       ]
+     },
+     {
++      "name": "Dekanter Goblin",
++      "kind": "species",
++      "publication": "Races of Faerûn (2003)",
++      "edition": "3.0 edition",
++      "traits": [
++        "Medium Monstrous Humanoid. +6 Strength, +2 Dexterity, +4 Constitution, +2 Intelligence, +2 Wisdom, −2 Charisma. Land speed 20 ft. Darkvision 60 ft. and +4 natural armor.",
++        "Cold resistance 5 and fast healing 3. Recover 3 HP per round from damage the ability can heal.",
++        "Proficient with all simple weapons.",
++        "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Maximize the first racial die and roll later dice, including the first class die.",
++        "Racial skill points are five times (2 + Intelligence modifier, minimum 1). Racial class skills are Climb, Intimidate, Jump, Listen, Sense Motive, and Spot.",
++        "Primary horn deals 1d6 plus Strength and has a ×3 critical. Two secondary claws deal 1d4 plus half the Strength bonus each and take −5 to hit. A weapon full attack can add one secondary horn or one secondary claw.",
++        "Goblin, Undercommon, and Common are automatic. Bonus languages are by region. Favored class Barbarian. Level adjustment +4 gives ECL 6 before class levels.",
++        "This is the March 2003 player profile. The later 3.5 conversion of the encounter monster lists Humanoid (Goblinoid), LA +3, and an alternate attack routine."
++      ]
++    },
++    {
+       "edition": "Black Flag Roleplaying",
+       "publication": "Black Flag Roleplaying Reference Document v0.2",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5546,6 +5546,75 @@
+     },
+     {
+       "origin": "Original DM Library NPC",
++      "editions": ["3.0 edition"],
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Goblin, Undercommon",
++      "id": "dekanter-goblin-flintnose-gallery-lookout-30e",
++      "title": "Dekanter Goblin gallery lookout, racial Hit Dice only",
++      "difficulty": "Provisional CR 2. ECL 6 (2 racial HD, LA +4).",
++      "ac": 16,
++      "hp": 22,
++      "hitDice": "2d8+8",
++      "initiative": 2,
++      "speed": "20 ft.",
++      "abilityScores": {
++        "STR": 20,
++        "DEX": 14,
++        "CON": 18,
++        "INT": 10,
++        "WIS": 14,
++        "CHA": 8
++      },
++      "skills": ["Climb +9", "Listen +5", "Spot +5"],
++      "traits": [
++        "Neutral. Dexterity +2, natural armor +4. Touch 12, flat-footed 14. BAB +2, grapple +7. Fortitude +4, Reflex +5, Will +5.",
++        "Cold resistance 5 and fast healing 3. Recover 3 HP per round from damage the ability can heal.",
++        "Power Attack can trade up to 2 points of melee attack bonus for the same damage bonus."
++      ],
++      "actions": [
++        "Horn +7 melee, 1d6+5 piercing, critical ×3. Full attack with the horn and two secondary claws at +2 each for 1d4+2 each, critical ×2."
++      ],
++      "tactics": "Orrik watches the higher gallery. He prefers to stay by the narrow bend if a fight breaks out, where he has room to use his claws."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.0 edition"],
++      "size": "Medium",
++      "type": "Monstrous Humanoid",
++      "senses": "Darkvision 60 ft.",
++      "languages": "Common, Goblin, Undercommon",
++      "id": "dekanter-goblin-slatecall-cold-passage-guard-30e",
++      "title": "Dekanter Goblin cold passage guard, Barbarian 1",
++      "difficulty": "Provisional CR 3. ECL 7 (2 racial HD, 1 class HD, LA +4).",
++      "ac": 19,
++      "hp": 32,
++      "hitDice": "2d8+1d12+12",
++      "initiative": 6,
++      "speed": "30 ft. with fast movement, base 20 ft.",
++      "abilityScores": {
++        "STR": 22,
++        "DEX": 14,
++        "CON": 18,
++        "INT": 10,
++        "WIS": 14,
++        "CHA": 8
++      },
++      "skills": ["Climb +9", "Listen +5", "Spot +5", "Wilderness Lore +6"],
++      "traits": [
++        "Neutral good. Studded leather +3, Dexterity +2, natural armor +4. Touch 12, flat-footed 17, armor check penalty −1. BAB +3, grapple +9. Fortitude +6, Reflex +5, Will +5.",
++        "Cold resistance 5 and fast healing 3. Recover 3 HP per round from damage the ability can heal.",
++        "Improved Initiative adds +4. Power Attack can trade up to 3 points of melee attack bonus for the same damage bonus. Fast movement and illiteracy."
++      ],
++      "actions": [
++        "One-handed battleaxe +9 melee, 1d8+6 slashing, critical ×3. Add one secondary horn at +4 for 1d6+3, critical ×3, or one secondary claw at +4 for 1d4+3, critical ×2, on a full attack.",
++        "Rage 1/day for up to 9 rounds. AC 17, full HP 38, grapple +11. Fortitude +8, Reflex +5, Will +7. Battleaxe +11 for 1d8+8. The secondary horn or claw is +6, with 1d6+4 or 1d4+4 damage respectively. Lose the 6 rage HP and become fatigued for the rest of the encounter when rage ends."
++      ],
++      "tactics": "Tavra listens for the first returning crew before she opens the cold passage. She stays between the crew and the older branch of the mine."
++    },
++    {
++      "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
+       "size": "Medium",
+       "type": "Humanoid (Reptilian)",
+@@ -7947,6 +8016,28 @@
+       "hook": "Tarenkhad can link with the passenger if the party holds the berth and asks for their consent."
+     },
+     {
++      "species": "Dekanter Goblin",
++      "size": "Medium",
++      "edition": "3.0 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Orrik Flintnose",
++      "build": "dekanter-goblin-flintnose-gallery-lookout-30e",
++      "role": "Gallery lookout and climber.",
++      "motive": "Find out why the lift has stopped before sending anyone down.",
++      "hook": "Orrik signals from the high gallery that a rope is missing from the shaft."
++    },
++    {
++      "species": "Dekanter Goblin",
++      "size": "Medium",
++      "edition": "3.0 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Tavra Slatecall",
++      "build": "dekanter-goblin-slatecall-cold-passage-guard-30e",
++      "role": "Cold passage guard and Barbarian.",
++      "motive": "Keep the lower passage open for the returning crew.",
++      "hook": "Tavra waits by the shutter and asks for news from the older branch."
++    },
++    {
+       "species": "Elan",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -2260,6 +2260,7 @@
+ Deinonychus	beast	Animal	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		3
+ Deinonychus	beast	Beast	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17240-deinonychus	1
+ Deinonychus	beast	Beast	Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17240-deinonychus	1
++Dekanter Goblin	species	Monstrous Humanoid	Races of Faerûn (2003)	3.0 edition	Wizards of the Coast	https://books.google.com/books?id=yjoCAAAACAAJ	
+ Delerium Dragon Wyrmling	monster	Dragon	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5524978-delerium-dragon-wyrmling	5
+ Delerium Dreg	monster	Aberration	Dungeons of Drakkenheim	2014 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/4086103-delerium-dreg	1/2
+ Delerium Dreg	monster	Aberration	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5524979-delerium-dreg	1/2

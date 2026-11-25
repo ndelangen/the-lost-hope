@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Seahorse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      369
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195199-seahorse",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195199-seahorse",
+    "byline": "Monster Manual, pg. 369",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195199-seahorse",
+    "sourceDistinctions": [
+      "The 5-ft. walk and 20-ft. swim are printed. Bubble Dash is an action that works underwater, and the stat block gives no attack.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ]
+  },
+  {
+    "name": "Spider",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      369
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/4775844-spider",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/4775844-spider",
+    "byline": "Monster Manual, pg. 369",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/4775844-spider",
+    "sourceDistinctions": [
+      "The Monster Manual byline is p. 369. The publisher also reproduces the same Spider stat block in the 2024 Basic Rules. The indexed cross-check also points to the 2024 Player’s Handbook p. 357.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ],
+    "supportingRules": [
+      {
+        "heading": "Spider, 2024 Basic Rules matching block",
+        "url": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks#Spider"
+      }
+    ]
+  },
+  {
+    "name": "Swarm of Bats",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      370
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195222-swarm-of-bats",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195222-swarm-of-bats",
+    "byline": "Monster Manual, pg. 370",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195222-swarm-of-bats",
+    "sourceDistinctions": [
+      "The revised swarm occupies a Large space and has a 5-ft. bite reach. The block lists Blindsight and the Swarm trait without an Echolocation rider.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ],
+    "supportingRules": [
+      {
+        "heading": "Bloodied",
+        "url": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Bloodied"
+      }
+    ]
+  },
+  {
+    "name": "Swarm of Insects",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      370
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195224-swarm-of-insects",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195224-swarm-of-insects",
+    "byline": "Monster Manual, pg. 370",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195224-swarm-of-insects",
+    "sourceDistinctions": [
+      "The DM chooses one 20-ft. alternate speed, climb or fly, alongside the base walk. Spider Climb applies if climb is selected. The portrait depicts the winged option.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ],
+    "supportingRules": [
+      {
+        "heading": "Bloodied",
+        "url": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Bloodied"
+      }
+    ]
+  },
+  {
+    "name": "Swarm of Piranhas",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised Monster Manual, 2025 release, 2024 fifth-edition rules",
+    "printedPages": [
+      370
+    ],
+    "pageNumbering": "Publisher’s Monster Manual byline on the D&D Beyond creature page.",
+    "url": "https://www.dndbeyond.com/monsters/5195227-swarm-of-piranhas",
+    "rulesUrl": "https://www.dndbeyond.com/monsters/5195227-swarm-of-piranhas",
+    "byline": "Monster Manual, pg. 370",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "appearanceSource": "Editorial description of the selected reused portrait. Size and creature type come from the publisher’s stat block.",
+    "habitatSource": "Publisher Habitat line on the scoped D&D Beyond monster page. https://www.dndbeyond.com/monsters/5195227-swarm-of-piranhas",
+    "sourceDistinctions": [
+      "The enhanced attack roll depends on the target’s current HP. The reduced damage depends on the swarm’s own Bloodied status. The artwork reuse depicts the matching school of toothed fish.",
+      "The current official Monster Manual errata and its v1.0 list no change for this creature."
+    ],
+    "supportingRules": [
+      {
+        "heading": "Bloodied",
+        "url": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Bloodied"
+      }
+    ]
+  }
+]

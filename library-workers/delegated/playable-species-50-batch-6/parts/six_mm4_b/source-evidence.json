@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Joystealer",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "kind": "species",
+    "creatureType": "Fey",
+    "url": "",
+    "page": "pp. 78–79",
+    "printedPages": [
+      78,
+      79
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "sourceDistinctions": [
+      "The entry provides positive LA +4 in the advancement section. The NPC uses average published ability scores and racial Hit Dice, with Iron Will in place of Track for a different trained feat.",
+      "The score for Strength is absent. The original creature has no Strength score, and no substitute score is assumed."
+    ],
+    "supportingSources": [
+      {
+        "name": "3.5 SRD · Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "3.5 SRD · Special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "3.5 SRD · Types and subtypes, incorporeal",
+        "url": "https://www.d20srd.org/srd/typesSubtypes.htm#incorporealSubtype"
+      }
+    ]
+  },
+  {
+    "name": "Verdant Prince",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "kind": "species",
+    "creatureType": "Fey",
+    "url": "",
+    "page": "pp. 172–173",
+    "printedPages": [
+      172,
+      173
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "sourceDistinctions": [
+      "The worked example keeps the printed racial ability scores and 16 fey Hit Dice. It exchanges Combat Casting for Skill Focus (Diplomacy) and replaces the printed treasure loadout with a masterwork quarterstaff suitable for changestaff.",
+      "The NPC uses the printed spell-like ability DCs and durations from the corresponding 3.5 spell rules. The quarterstaff has no charges or separate magic item powers."
+    ],
+    "supportingSources": [
+      {
+        "name": "3.5 SRD · Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "3.5 SRD · Special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "3.5 SRD · Weapons, quarterstaff",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      },
+      {
+        "name": "3.5 SRD · Dimension Door",
+        "url": "https://www.d20srd.org/srd/spells/dimensionDoor.htm"
+      },
+      {
+        "name": "3.5 SRD · Disguise Self",
+        "url": "https://www.d20srd.org/srd/spells/disguiseSelf.htm"
+      },
+      {
+        "name": "3.5 SRD · Wall of Thorns",
+        "url": "https://www.d20srd.org/srd/spells/wallOfThorns.htm"
+      },
+      {
+        "name": "3.5 SRD · Repel Metal or Stone",
+        "url": "https://www.d20srd.org/srd/spells/repelMetalOrStone.htm"
+      },
+      {
+        "name": "3.5 SRD · Baleful Polymorph",
+        "url": "https://www.d20srd.org/srd/spells/balefulPolymorph.htm"
+      },
+      {
+        "name": "3.5 SRD · Cure Critical Wounds",
+        "url": "https://www.d20srd.org/srd/spells/cureCriticalWounds.htm"
+      },
+      {
+        "name": "3.5 SRD · Call Lightning Storm",
+        "url": "https://www.d20srd.org/srd/spells/callLightningStorm.htm"
+      },
+      {
+        "name": "3.5 SRD · Fire Seeds",
+        "url": "https://www.d20srd.org/srd/spells/fireSeeds.htm"
+      },
+      {
+        "name": "3.5 SRD · Changestaff",
+        "url": "https://www.d20srd.org/srd/spells/changestaff.htm"
+      },
+      {
+        "name": "3.5 SRD · Treant",
+        "url": "https://www.d20srd.org/srd/monsters/treant.htm"
+      }
+    ]
+  },
+  {
+    "name": "Wizened Elder",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "kind": "species",
+    "creatureType": "Plant",
+    "url": "",
+    "page": "pp. 180–181",
+    "printedPages": [
+      180,
+      181
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "sourceDistinctions": [
+      "One fighter level adds +1 BAB, +2 Fortitude and one bonus feat. It does not increase the racial abilities’ caster level. Burrel spends the one fighter skill point on Climb.",
+      "The stated hit points use the printed 30 HP plus an 8 on the fighter Hit Die and +3 Constitution. The racial Entangle DC is 10 + half of 4 racial HD + 3 Constitution."
+    ],
+    "supportingSources": [
+      {
+        "name": "3.5 SRD · Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "3.5 SRD · Fighter, level 1",
+        "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+      },
+      {
+        "name": "3.5 SRD · Special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "3.5 SRD · Entangle",
+        "url": "https://www.d20srd.org/srd/spells/entangle.htm"
+      },
+      {
+        "name": "3.5 SRD · Speak with Plants",
+        "url": "https://www.d20srd.org/srd/spells/speakWithPlants.htm"
+      }
+    ]
+  },
+  {
+    "name": "Zern",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "kind": "species",
+    "creatureType": "Monstrous humanoid",
+    "url": "",
+    "page": "pp. 195–196",
+    "printedPages": [
+      195,
+      196
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "95710cc35f6d7d9d2c590da13e35a6a6a21b3206ce56b948276b78b13d2374de",
+    "sourceDistinctions": [
+      "The fighter level adds +1 BAB, +2 Fortitude and Weapon Focus (longspear). Total 9 HD also adds Improved Initiative. The four fighter skill points add two ranks each to Climb and Intimidate.",
+      "The stated hit points use the printed 68 HP plus a 6 on the fighter Hit Die and +4 Constitution. Warping Energy rounds down from 9 total Hit Dice for 4d6, then adds +2 Intelligence.",
+      "The creature entry treats warping energy as a normal attack and gives no touch designation. The printed ranged +12 matches the base attack, Dexterity and Weapon Focus outside Point Blank Shot range. SR stays at 18 because the entry gives a fixed value."
+    ],
+    "supportingSources": [
+      {
+        "name": "3.5 SRD · Monsters as Races",
+        "url": "https://www.d20srd.org/srd/monstersAsRaces.htm"
+      },
+      {
+        "name": "3.5 SRD · Fighter, level 1",
+        "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+      },
+      {
+        "name": "3.5 SRD · Special abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm"
+      },
+      {
+        "name": "3.5 SRD · Weapons, longspear",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      },
+      {
+        "name": "3.5 SRD · Alter Self",
+        "url": "https://www.d20srd.org/srd/spells/alterSelf.htm"
+      },
+      {
+        "name": "3.5 SRD · Reduce Person",
+        "url": "https://www.d20srd.org/srd/spells/reducePerson.htm"
+      },
+      {
+        "name": "3.5 SRD · Baleful Polymorph",
+        "url": "https://www.d20srd.org/srd/spells/balefulPolymorph.htm"
+      },
+      {
+        "name": "3.5 SRD · Gaseous Form",
+        "url": "https://www.d20srd.org/srd/spells/gaseousForm.htm"
+      }
+    ]
+  }
+]

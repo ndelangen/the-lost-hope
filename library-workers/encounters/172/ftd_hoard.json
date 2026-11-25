@@ -1,0 +1,461 @@
+[
+  {
+    "name": "Gold Greatwyrm",
+    "statBlock": {
+      "name": "Gold Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 209,
+      "classification": "Gargantuan dragon (metallic), typically lawful good",
+      "ac": 22,
+      "hp": 565,
+      "hitDice": "29d20 + 261",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 22
+        },
+        "Cha": {
+          "score": 30
+        }
+      },
+      "cr": "28",
+      "xp": 120000,
+      "passivePerception": 32,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A gold dragon can become a greatwyrm by merging with its counterparts from other worlds. Its breath can burn an army or sap its strength.",
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 17,
+        "Int": 13,
+        "Cha": 18
+      },
+      "skills": {
+        "Insight": 14,
+        "Perception": 22,
+        "Persuasion": 18
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (4/day). Turn a failed saving throw into a success.\nMetallic Awakening (recharges after a short or long rest). When the greatwyrm would drop to 0 HP, set its current HP to 450, recharge Breath Weapon, and restore all spent uses of Legendary Resistance. It can use mythic actions for the next hour. If defeated after this trait activates, award 120,000 extra XP (240,000 total).\nUnusual Nature. It needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +18 to hit, reach 15 ft., one target. A hit deals 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage.\nClaw. Melee weapon attack, +18 to hit, reach 10 ft., one target. A hit deals 19 (2d8 + 10) slashing damage. A Huge or smaller creature is grappled (escape DC 20) and restrained until the grapple ends. The greatwyrm can hold one creature with this attack at a time.\nTail. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 21 (2d10 + 10) bludgeoning damage. A creature hit must pass a DC 26 Strength save or fall prone.\nBreath Weapon (recharge 5–6). Use Elemental Breath or Sapping Breath.\nElemental Breath. Each creature in a 300-ft. cone makes a DC 25 Dexterity save, taking 84 (13d12) fire damage on a failure or half on a success.\nSapping Breath. Each creature in a 300-ft. cone makes a DC 25 Constitution save. On a failure it falls unconscious for 1 minute and can repeat the save at the end of each of its turns to end the effect on a success. On an initial success, it has disadvantage on attacks and saving throws until the end of the greatwyrm's next turn.\nChange Shape. Magically become any Medium or Small creature. The greatwyrm retains its statistics except for size. The change ends if it reaches 0 HP or uses an action to end it.",
+        "Legendary actions": "The greatwyrm can spend up to 3 legendary actions, using one option at the end of another creature's turn. It regains spent actions at the start of its turn.\nAttack (1 action). Make one Claw or Tail attack.\nWing Attack (2 actions). Each creature within 30 ft. must pass a DC 26 Dexterity save or take 17 (2d6 + 10) bludgeoning damage and fall prone. The greatwyrm can then fly up to half its fly speed.",
+        "Mythic actions": "For 1 hour after Metallic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nShattering Roar (2 actions). Each creature within 120 ft. must pass a DC 26 Constitution save or take 19 (3d12) thunder damage and be incapacitated until the end of its next turn.",
+        "Dragon customization": "Page 34 offers language and proficiency changes, alternate senses, and traits such as Flyby, Mimicry, Rejuvenation, and Tunneler. For an innate spellcasting variant, the general rule permits up to ten spells of 9th level or lower, once per day each, without material components. Charisma gives a spell save DC of 26 and a spell attack bonus of +18. This profile uses the printed actions unless you choose a variant.",
+        "Source notes": "The printed saving throw row omits Wisdom. Use the dragon's Wisdom modifier (+6) as printed. The indexed +14 includes proficiency.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 208–209, Metallic Greatwyrm with the gold damage type. Dragon customization appears on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Green Greatwyrm",
+    "statBlock": {
+      "name": "Green Greatwyrm",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 168,
+      "classification": "Gargantuan dragon (chromatic), typically chaotic evil",
+      "ac": 22,
+      "hp": 533,
+      "hitDice": "26d20 + 260",
+      "speed": "60 ft., burrow 60 ft., fly 120 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 26
+        }
+      },
+      "cr": "27",
+      "xp": 105000,
+      "passivePerception": 31,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An ancient green dragon can become a greatwyrm by fusing with its counterparts from other worlds. Poison suffuses its breath and gathers under its scales.",
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 18,
+        "Wis": 13,
+        "Cha": 16
+      },
+      "skills": {
+        "Intimidation": 16,
+        "Perception": 21,
+        "Stealth": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Chromatic Awakening (recharges after a short or long rest). When the greatwyrm would drop to 0 HP, set its current HP to 425, recharge Breath Weapon, and restore all spent uses of Legendary Resistance. It can use mythic actions for the next hour. If defeated after this trait activates, award 105,000 extra XP (210,000 total).\nLegendary Resistance (4/day). Turn a failed saving throw into a success.\nUnusual Nature. It needs no food or drink.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +18 to hit, reach 15 ft., one target. A hit deals 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage.\nClaw. Melee weapon attack, +18 to hit, reach 10 ft., one target. A hit deals 19 (2d8 + 10) slashing damage. A Huge or smaller creature is grappled (escape DC 20) and restrained until the grapple ends. The greatwyrm can hold one creature with this attack at a time.\nTail. Melee weapon attack, +18 to hit, reach 20 ft., one target. A hit deals 19 (2d8 + 10) bludgeoning damage. A creature hit must pass a DC 26 Strength save or fall prone.\nBreath Weapon (recharge 5–6). Each creature in a 300-ft. cone makes a DC 26 Dexterity save, taking 78 (12d12) poison damage on a failure or half on a success.",
+        "Legendary actions": "The greatwyrm can spend up to 3 legendary actions, using one option at the end of another creature's turn. It regains spent actions at the start of its turn.\nAttack (1 action). Make one Claw or Tail attack.\nWing Attack (2 actions). Each creature within 30 ft. must pass a DC 26 Dexterity save or take 17 (2d6 + 10) bludgeoning damage and fall prone. The greatwyrm can then fly up to half its fly speed.\nArcane Spear (3 actions). Launch four spears. Each automatically hits a creature of the greatwyrm's choice that it can see within 120 ft., deals 12 (1d8 + 8) force damage, then vanishes.",
+        "Mythic actions": "For 1 hour after Chromatic Awakening activates, the greatwyrm can spend legendary actions on these options.\nBite (1 action). Make one Bite attack.\nChromatic Flare (2 actions). Each creature within 60 ft. must pass a DC 26 Dexterity save or take 22 (5d8) poison damage.",
+        "Dragon customization": "Page 34 offers language and proficiency changes, alternate senses, and traits such as Flyby, Mimicry, Rejuvenation, and Tunneler. For an innate spellcasting variant, the general rule permits up to eight spells of 9th level or lower, once per day each, without material components. Charisma gives a spell save DC of 24 and a spell attack bonus of +16. This profile uses the printed actions unless you choose a variant.",
+        "Printed source": "Fizban's Treasury of Dragons, pp. 168–169, Chromatic Greatwyrm with the green damage type. Dragon customization appears on p. 34."
+      }
+    }
+  },
+  {
+    "name": "Hoard Mimic",
+    "statBlock": {
+      "name": "Hoard Mimic",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 204,
+      "classification": "Huge monstrosity, typically neutral",
+      "ac": 14,
+      "hp": 123,
+      "hitDice": "13d12 + 39",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This giant shapechanger poses as a pile of treasure. Some dragons use one as a decoy. A cornered hoard mimic may trade the real hoard's location for its life.",
+      "savingThrows": {
+        "Con": 6,
+        "Wis": 6
+      },
+      "skills": {
+        "Persuasion": 3,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Prone.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic, telepathy 120 ft.",
+        "Traits": "False Appearance (hoard form only). If motionless when combat starts, the mimic has advantage on initiative. A creature that has never seen it move or act must pass a DC 18 Intelligence (Investigation) check to recognize that it is animate.",
+        "Actions": "Multiattack. Make one Bite attack and two Pseudopod attacks.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage.\nPseudopod. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage and the mimic sticks to the target. A creature it sticks to is grappled (escape DC 16) and restrained until the grapple ends. Ability checks to escape have disadvantage.\nCaustic Mist (recharge 5–6). Each creature in a 30-ft. cone makes a DC 14 Dexterity save. On a failure it takes 27 (6d8) acid damage and is blinded until the end of its next turn. A success halves the damage and prevents blindness.\nShapechanger. Change into a treasure hoard or return to the mimic's amorphous form. Its statistics and equipment stay the same. It reverts to its true form on death.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 204."
+      }
+    }
+  },
+  {
+    "name": "Hoard Scarab",
+    "statBlock": {
+      "name": "Hoard Scarab",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Tiny monstrosity, unaligned",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "3d4",
+      "speed": "20 ft., burrow 20 ft., fly 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 9,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This coinlike beetle scavenges mites from a dragon's scales and lair. Its dust marks trespassers so nearby dragons can find them.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Languages": "None.",
+        "Traits": "False Appearance. If motionless when combat starts, the scarab has advantage on initiative. A creature that has never seen it move or act must pass a DC 18 Intelligence (Investigation) check to recognize that it is animate.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. A creature hit has disadvantage on attack rolls until the start of its next turn.",
+        "Bonus actions": "Scale Dust (1/day). Each creature within 5 ft. makes a DC 13 Dexterity save. On a failure it glows blue for 10 minutes, sheds dim light in a 10-ft. radius, and cannot benefit from being invisible. Every dragon within 1 mile of the creature becomes aware of it and can track it unerringly. Dispel Magic cast on the creature ends the effect.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 205."
+      }
+    }
+  },
+  {
+    "name": "Hollow Dragon",
+    "statBlock": {
+      "name": "Hollow Dragon",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 206,
+      "classification": "Huge undead, any alignment",
+      "ac": 19,
+      "hp": 241,
+      "hitDice": "21d12 + 105",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 23,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A metallic dragon can bind radiant energy into its empty hide to keep an oath or guard an artifact after death. Its scattered body can reassemble around its head.",
+      "savingThrows": {
+        "Con": 11,
+        "Int": 9,
+        "Wis": 7,
+        "Cha": 11
+      },
+      "skills": {
+        "Arcana": 9,
+        "History": 15,
+        "Perception": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Necrotic.",
+        "Damage immunities": "Poison, radiant.",
+        "Condition immunities": "Charmed, deafened, exhaustion, frightened, paralyzed, poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nReconstruction. At 0 HP the dragon breaks into nine pieces: two arms, two legs, two wings, a tail, a torso, and a head. Each is a Large object with AC 19, 27 HP, and immunity to psychic and poison damage. After 1d6 days, if all pieces remain within 6 miles of one another, they teleport to the head and merge. The dragon returns to full HP and becomes active again.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks. The dragon can also use Sapping Presence.\nBite. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 17 (2d10 + 6) piercing damage plus 9 (2d8) radiant damage.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 13 (2d6 + 6) slashing damage.\nSapping Presence. Each creature the dragon chooses within 60 ft. makes a DC 19 Wisdom save. On a failure its speed is halved and it has disadvantage on attacks until the end of its next turn. A success grants immunity to this dragon's Sapping Presence for 24 hours.\nRadiant Breath (recharge 5–6). Each creature in a 60-ft. cone makes a DC 19 Dexterity save, taking 54 (12d8) radiant damage on a failure or half on a success.",
+        "Legendary actions": "The dragon can spend up to 3 legendary actions, using one option at the end of another creature's turn. It regains spent actions at the start of its turn.\nClaw (1 action). Make one Claw attack.\nGhostly Binding (2 actions). A creature the dragon can see within 60 ft. must pass a DC 19 Strength save or be restrained until the end of the dragon's next turn.\nBooming Scales (3 actions). Each creature within 10 ft. makes a DC 19 Constitution save, taking 24 (7d6) thunder damage on a failure or half on a success.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 206."
+      }
+    }
+  },
+  {
+    "name": "Liondrake",
+    "statBlock": {
+      "name": "Liondrake",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 207,
+      "classification": "Large monstrosity, typically neutral",
+      "ac": 16,
+      "hp": 119,
+      "hitDice": "14d10 + 42",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The solitary liondrake has a lion's body and a brass dragon's wings and long neck. It hunts within its territory and can paralyze intruders with its roar.",
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Draconic.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 15 (2d10 + 4) piercing damage. A Medium or smaller creature hit must pass a DC 15 Strength save or fall prone.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage.\nBlood-Chilling Roar (recharge 4–6). The roar is audible out to 300 ft. Each creature that hears it within 30 ft. must pass a DC 14 Wisdom save or be frightened of the liondrake for 1 minute. A creature that fails by 5 or more is also paralyzed for that duration. A creature can repeat the save at the end of each of its turns to end the effect on a success. A successful save or the end of the effect grants immunity to this liondrake's roar for 24 hours.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 207."
+      }
+    }
+  },
+  {
+    "name": "Metallic Peacekeeper",
+    "statBlock": {
+      "name": "Metallic Peacekeeper",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Medium construct, typically neutral good",
+      "ac": 17,
+      "hp": 68,
+      "hitDice": "8d8 + 32",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A metallic dragon can forge a peacekeeper to guard a settlement in its place. The construct may watch over the community for centuries.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic, telepathy 30 ft.",
+        "Traits": "Immutable Form. Spells and effects cannot alter the peacekeeper's form.\nTelepathic Bond. While on the same plane as its creator, the peacekeeper can magically relay what it senses to the creator. They can speak to one another telepathically.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 16 (3d8 + 3) bludgeoning damage.\nCalming Mist (recharge 5–6). Each creature within 30 ft. of the peacekeeper must pass a DC 14 Charisma save or be charmed by it for 1 minute. A creature charmed this way is incapacitated with speed 0.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 210."
+      }
+    }
+  },
+  {
+    "name": "Metallic Warbler",
+    "statBlock": {
+      "name": "Metallic Warbler",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 210,
+      "classification": "Tiny construct, typically neutral good",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A dragonforged metal songbird quietly watches a settlement and can alert its creator when danger threatens.",
+      "savingThrows": {
+        "Dex": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common and Draconic but can't speak.",
+        "Traits": "Immutable Form. Spells and effects cannot alter the warbler's form.\nTelepathic Bond. While on the same plane as its creator, the warbler can magically relay what it senses to the creator. They can speak to one another telepathically.",
+        "Actions": "Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.\nCalming Mist (recharge 5–6). Each creature within 5 ft. of the warbler must pass a DC 11 Charisma save or be charmed by it for 1 minute. A creature charmed this way is incapacitated with speed 0.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 210."
+      }
+    }
+  }
+]

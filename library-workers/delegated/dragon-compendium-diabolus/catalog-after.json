@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Diabolus",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "a8cd9b208091cf8ccbb5412c",
+      "publication": "Dragon Compendium, Volume I (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Dragon_Compendium.html?id=zeQhAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Chaotic, Native)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider with the Native and Chaotic subtypes. Land speed 30 ft., darkvision 60 ft., and no racial ability score adjustments. The playable profile adds no racial Hit Dice. LA +1.",
+            "Gain +2 racial on saving throws against spells and spell-like effects. The Chaotic subtype counts for alignment-dependent effects, and attacks overcome damage reduction as chaotic-aligned.",
+            "Gain +2 racial on Intimidate against animals and humanoids. Take −2 on Diplomacy, Handle Animal, Perform, and Sense Motive.",
+            "Weapon Familiarity treats the trident as a simple weapon.",
+            "The tail is a secondary natural attack at −5, with 1d4 base damage. Its injury poison takes a Fortitude save at DC 10 + half total HD, rounded down, + Constitution modifier. The initial effect is sickened for 2d4 rounds. There is no secondary damage. The Compendium gives 3 + Constitution modifier doses per day.",
+            "A sickened creature takes −2 on attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.",
+            "Automatic languages are Diabolan and Diaboli tail code. Bonus languages are Abyssal, Common, Draconic, and Infernal. The visual code takes about twice as long as speech. A viewer can recognize the use of a code with a DC 10 Intelligence check. Anyone can learn it, and only a tailed speaker can produce it.",
+            "Favored class Sorcerer. Bare, common, and hirsute Diaboli share the same rules."
+          ]
+        },
+        {
+          "title": "Original NPC · Zareth Flintmere",
+          "lines": [
+            "Dry causeway keeper and Fighter.",
+            "Motive. Get the cart across before the water covers the loose paving.",
+            "Hook. Zareth waves the party toward the cart while he checks the narrow end of the causeway. Vessa can translate if needed.",
+            "Diabolus dry causeway keeper, Fighter 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Chaotic, Native)",
+            "AC 15 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Vessa Nettle",
+          "lines": [
+            "Echo stair interpreter and Sorcerer.",
+            "Motive. Relay warnings without speaking in the passage.",
+            "Hook. Vessa can interpret a warning from the keeper across the landing and show the party which stair is open.",
+            "Diabolus echo stair interpreter, Sorcerer 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Chaotic, Native)",
+            "AC 12 · HP 5 (1d4+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Zareth Flintmere": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Zareth Flintmere",
+              "group": "Diabolus",
+              "publication": "Diabolus dry causeway keeper, Fighter 1",
+              "local": {
+                "entry": "npc-7cf8cdda29f8deb56831a1c4",
+                "version": "21fa055cdd7dd2a8a0851938"
+              }
+            }
+          }
+        ],
+        "Original NPC · Vessa Nettle": [
+          {
+            "start": 15,
+            "end": 27,
+            "target": {
+              "name": "Vessa Nettle",
+              "group": "Diabolus",
+              "publication": "Diabolus echo stair interpreter, Sorcerer 1",
+              "local": {
+                "entry": "npc-ee184af7793f65d5107abe3a",
+                "version": "87f0216d92480aa593c05a6a"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Diabolus": true,
+      "diabolus tail poison": true,
+      "diabolus weapon familiarity": true,
+      "diabolus dry causeway keeper": true,
+      "diabolus echo stair interpreter": true
+    },
+    "hash": "df876a2c3a383b756d5f0c808dd97897ff34f7ce110776a7208650af60bec09b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Dragon Compendium, Volume I (2005)",
+    "defaultVersionKey": "a8cd9b208091cf8ccbb5412c",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

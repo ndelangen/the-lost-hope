@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Arcanaloth (summoner variant)",
+    "statBlock": {
+      "name": "Arcanaloth (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 17,
+      "hp": 104,
+      "hitDice": "16d8 + 32",
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "12",
+      "xp": 8400,
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "description": "A jackal-headed scholar and mercenary that trades its services for secrets or powerful magic items.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Charmed and Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.\nBack to Gehenna. When killed away from its home plane, it dissolves into ichor and reforms in Gehenna at full strength. It can be killed permanently on Gehenna.",
+        "Innate spellcasting": "Charisma, save DC 15. These spells require no material components.\nAt will. Alter Self, Darkness, Heat Metal, Invisibility (self only), Magic Missile.",
+        "Spellcasting": "16th-level wizard spellcaster. Intelligence, save DC 17, +9 to hit with spell attacks.\nCantrips (at will). Fire Bolt, Mage Hand, Minor Illusion, Prestidigitation.\n1st level (4 slots). Detect Magic, Identify, Shield, Tenser’s Floating Disk.\n2nd level (3 slots). Detect Thoughts, Mirror Image, Phantasmal Force, Suggestion.\n3rd level (3 slots). Counterspell, Fear, Fireball.\n4th level (3 slots). Banishment, Dimension Door.\n5th level (2 slots). Contact Other Plane, Hold Monster.\n6th level (1 slot). Chain Lightning.\n7th level (1 slot). Finger of Death.\n8th level (1 slot). Mind Blank.",
+        "Actions": "Claws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 8 (2d4 + 3) slashing damage. The target also makes a DC 14 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success.\nTeleport. Magically move with carried and worn gear to an unoccupied space it can see within 60 ft.\nSummon Yugoloth (1/day). It has a 40 percent chance to magically call one Arcanaloth. Each creature appears in an unoccupied space within 60 ft. of the summoner. They act on their own. The summoned creatures can't summon other yugoloths. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using a bonus action.",
+        "Printed source": "Monster Manual (2014), pp. 311, 313."
+      },
+      "skills": {
+        "Arcana": 13,
+        "Deception": 9,
+        "Insight": 9,
+        "Perception": 7
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 9,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "passivePerception": 17
+    }
+  },
+  {
+    "name": "Nycaloth (summoner variant)",
+    "statBlock": {
+      "name": "Nycaloth (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 123,
+      "hitDice": "13d10 + 52",
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "9",
+      "xp": 5000,
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A winged mercenary that strikes at close range, then teleports out of reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nBack to Gehenna. If it dies elsewhere, its body dissolves into ichor. It reforms at full strength on Gehenna, where it can be killed permanently.",
+        "Innate spellcasting": "Charisma. It casts without material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only), Mirror Image.",
+        "Actions": "Multiattack. Make two melee attacks, or make one melee attack and Teleport before or after it.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 12 (2d6 + 5) slashing. A creature must succeed on a DC 16 Constitution save or suffer a wound that deals 5 (2d4) slashing damage at the start of each of its turns. Each further hit with Claw on the wounded creature increases the recurring damage by 5 (2d4). Any creature can spend an action to attempt a DC 13 Wisdom (Medicine) check, closing the wound on success. Magical healing also closes it.\nGreataxe. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 18 (2d12 + 5) slashing.\nTeleport. It and its worn or carried equipment magically move up to 60 ft. to a visible unoccupied space.\nSummon Yugoloth (1/day). It has a 50 percent chance to magically call either 1d4 Mezzoloths or one Nycaloth. Choose among the listed groups before rolling. Each creature appears in an unoccupied space within 60 ft. of the summoner. They act on their own. The summoned creatures can't summon other yugoloths. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using a bonus action.",
+        "Printed source": "Monster Manual (2014), pp. 311, 314."
+      },
+      "skills": {
+        "Intimidation": 6,
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "savingThrows": {},
+      "passivePerception": 14
+    }
+  },
+  {
+    "name": "Ultroloth (summoner variant)",
+    "statBlock": {
+      "name": "Ultroloth (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 19,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft., fly 60 ft.",
+      "cr": "13",
+      "xp": 10000,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "description": "A yugoloth commander whose luminous eyes can freeze a foe in place.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Charmed, Frightened, and Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nBack to Gehenna. If it dies elsewhere, its body dissolves into ichor. It reforms at full strength on Gehenna, where it can be killed permanently.",
+        "Innate spellcasting": "Charisma, spell save DC 17. It casts without material components.\nAt will. Alter Self, Clairvoyance, Darkness, Detect Magic, Detect Thoughts, Dispel Magic, Invisibility (self only), Suggestion.\n3/day each. Dimension Door, Fear, Wall of Fire.\n1/day each. Fire Storm and Mass Suggestion.",
+        "Actions": "Multiattack. It can use Hypnotic Gaze and makes three melee attacks.\nLongsword. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing, or 8 (1d10 + 3) slashing with two hands.\nHypnotic Gaze. Choose one visible creature within 30 ft. If it can see the ultroloth, it makes a DC 17 Wisdom save. Failure leaves it Charmed and Stunned until the end of the ultroloth’s next turn. A successful save grants it immunity to this ultroloth’s gaze for 24 hours.\nTeleport. It and its worn or carried equipment magically move up to 60 ft. to a visible unoccupied space.\nSummon Yugoloth (1/day). It has a 50 percent chance to magically call 1d6 Mezzoloths, 1d4 Nycaloths, or one Ultroloth. Choose among the listed groups before rolling. Each creature appears in an unoccupied space within 60 ft. of the summoner. They are allies of the summoner. The summoned creatures can't summon other yugoloths. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using a bonus action.",
+        "Printed source": "Monster Manual (2014), pp. 311, 314."
+      },
+      "skills": {
+        "Intimidation": 9,
+        "Perception": 7,
+        "Stealth": 8
+      },
+      "savingThrows": {},
+      "passivePerception": 17
+    }
+  },
+  {
+    "name": "Barlgura (summoner variant)",
+    "statBlock": {
+      "name": "Barlgura (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 68,
+      "hitDice": "8d10 + 24",
+      "speed": "40 ft., climb 40 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "description": "An ape-shaped demon that hunts dangerous prey in packs and hangs trophies around its territory.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Reckless. At the start of its turn it may gain advantage on melee weapon attacks for that turn. Attack rolls against it then have advantage until its next turn starts.\nRunning Leap. With a running start it can long jump up to 40 ft. and high jump up to 20 ft.",
+        "Innate spellcasting": "Wisdom, save DC 13. These spells require no material components.\n2/day each. Disguise Self, Invisibility (self only).\n1/day each. Entangle, Phantasmal Force.",
+        "Actions": "Multiattack. Make one Bite and two Fist attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) piercing damage.\nFist. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (1d10 + 4) bludgeoning damage.\nSummon Demon (1/day). It has a 30 percent chance to magically call one Barlgura. Each creature appears in an unoccupied space within 60 ft. of the summoner. They are allies of the summoner. The summoned creatures can't summon other demons. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using an action.",
+        "Printed source": "Monster Manual (2014), pp. 54, 56."
+      },
+      "ruleNotes": [
+        "The 2015 errata raised its walking and climbing speeds from 30 ft. to 40 ft. each."
+      ],
+      "skills": {
+        "Perception": 5,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 6
+      },
+      "passivePerception": 15
+    }
+  },
+  {
+    "name": "Chasme (summoner variant)",
+    "statBlock": {
+      "name": "Chasme (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "13d10 + 13",
+      "speed": "20 ft., fly 60 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A fly-shaped demon that hunts down deserters. Its drone can leave prey unconscious before it lands.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 10 ft., darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Drone. Each nondemon starting its turn within 30 ft. makes a DC 12 Constitution save or falls Unconscious for 10 minutes. A creature unable to hear the drone succeeds automatically. Damage ends this effect, as does another creature using an action to splash the target with holy water. A creature that saves or recovers is immune to the drone for 24 hours.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nSpider Climb. It can climb difficult surfaces and ceilings without an ability check.",
+        "Actions": "Proboscis. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 16 (4d6 + 2) piercing and 24 (7d6) necrotic damage. Reduce the target’s maximum HP by the necrotic damage it took. It dies if this reduces its maximum to 0. The reduction lasts until it finishes a long rest or receives a spell such as Greater Restoration.\nSummon Demon (1/day). It has a 30 percent chance to magically call one Chasme. Each creature appears in an unoccupied space within 60 ft. of the summoner. They are allies of the summoner. The summoned creatures can't summon other demons. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using an action.",
+        "Printed source": "Monster Manual (2014), pp. 54, 57."
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 5
+      },
+      "passivePerception": 15
+    }
+  },
+  {
+    "name": "Mezzoloth (summoner variant)",
+    "statBlock": {
+      "name": "Mezzoloth (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 18,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "40 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "The foot soldier of yugoloth armies, armed with a trident and protected by a thick chitinous shell.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Traits": "Magic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nBack to Gehenna. If it dies elsewhere, its body dissolves into ichor. It reforms at full strength on Gehenna, where it can be killed permanently.",
+        "Innate spellcasting": "Charisma, spell save DC 11. It casts without material components.\n2/day each. Darkness and Dispel Magic.\n1/day. Cloudkill.",
+        "Actions": "Multiattack. Make one Claws attack and one Trident attack.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (2d4 + 4) slashing.\nTrident. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 7 (1d6 + 4) piercing, or 8 (1d8 + 4) piercing with two hands in melee.\nTeleport. It and its worn or carried equipment magically move up to 60 ft. to a visible unoccupied space.\nSummon Yugoloth (1/day). It has a 30 percent chance to magically call one Mezzoloth. Each creature appears in an unoccupied space within 60 ft. of the summoner. They act on their own. The summoned creatures can't summon other yugoloths. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using a bonus action.",
+        "Printed source": "Monster Manual (2014), pp. 311, 313."
+      },
+      "skills": {
+        "Perception": 3
+      },
+      "savingThrows": {},
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Yochlol (Summoner Variant)",
+    "statBlock": {
+      "name": "Yochlol (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fiend (demon, shapechanger), chaotic evil",
+      "ac": 15,
+      "hp": 136,
+      "hitDice": "16d8 + 64",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "10",
+      "xp": 5900,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A handmaiden of Lolth that can approach as a drow or giant spider. Its true form is a column of yellow slime with one eye.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Elvish, Undercommon.",
+        "Traits": "Shapechanger. As an action it can become a female drow, a giant spider, or return to its demon form. It keeps the same statistics and its gear keeps its shape. It returns to its true form on death.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nSpider Climb. It can climb difficult surfaces and ceilings without an ability check.\nWeb Walker. Webbing doesn’t restrict its movement.",
+        "Innate spellcasting": "Charisma, save DC 14. These spells require no material components.\nAt will. Detect Thoughts, Web.\n1/day. Dominate Person.",
+        "Actions": "Multiattack. Make two melee attacks.\nSlam (Bite in spider form). Melee weapon attack, +6 to hit, reach 5 ft. or 10 ft. in demon form, one target. Hit 5 (1d6 + 2) bludgeoning damage, or piercing in spider form, plus 21 (6d6) poison damage.\nMist Form. It and its gear become toxic mist until it returns to its true form. It reverts on death. In mist form it is Incapacitated and cannot speak. It can hover, fly 30 ft., and pass through any gap that isn’t airtight. It has advantage on Strength, Dexterity, and Constitution saves and is immune to nonmagical damage. It can enter and stop in a creature’s space. Each time that creature starts its turn sharing the space, it makes a DC 14 Constitution save or is Poisoned until its next turn starts. It remains Incapacitated while Poisoned in this way.\nSummon Demon (1/day). It has a 50 percent chance to magically call one Yochlol. Each creature appears in an unoccupied space within 60 ft. of the summoner. They are allies of the summoner. The summoned creatures can't summon other demons. Each stays for up to 1 minute and disappears sooner if it dies, the summoner dies, or the summoner dismisses it using an action.",
+        "Printed source": "Monster Manual (2014), pp. 54, 65."
+      },
+      "skills": {
+        "Deception": 10,
+        "Insight": 6
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 5,
+        "Wis": 6,
+        "Cha": 6
+      },
+      "passivePerception": 12,
+      "ruleNotes": [
+        "The printed Mist Form action lets it return to its true form, and the mist is Incapacitated. The entry does not specify how it reverts while it cannot take actions."
+      ]
+    }
+  }
+]

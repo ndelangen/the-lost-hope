@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Xeph",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Psionic and Xeph subtypes. Dexterity +2, Strength −2, base land speed 30 ft., and darkvision 60 ft.",
+      "+1 racial bonus on saving throws against powers, spells, and spell-like effects.",
+      "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+      "Racial Burst (Su) is usable three times per day and lasts 3 rounds. It grants a competence bonus to base speed of +10 ft. at character levels 1–4, +20 ft. at 5–8, and +30 ft. at 9 and higher.",
+      "Racial Burst uses the core standard-action default for supernatural abilities. It spends no power points. Apply the new speed to ordinary movement rules. At base speed 40 ft. with Burst, the standard Jump speed adjustment is +4.",
+      "Automatic languages Common and Xeph. Bonus languages Draconic, Elven, Gnoll, Goblin, Halfling, Sylvan. Favored class Soulknife. Level adjustment +0."
+    ]
+  }
+]

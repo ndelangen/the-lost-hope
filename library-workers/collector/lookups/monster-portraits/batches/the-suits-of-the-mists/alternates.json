@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Elf Scout",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/elf-scout/scout-2014-base.webp",
+    "artist": "Related Scout art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "1707e2298b9eb75b2f3ecd54142c2c7f614a0e1066a2d9c7c55ea9ff2ff37c69",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Scout.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Elf Scout",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/elf-scout/scouts-2024-riccardo-moscatello.webp",
+    "artist": "Related Scouts art by Riccardo Moscatello · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "5fec1d7bc4e890647f7d9da8e9518f5088e48334219a9c5670456ed3a484a990",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Scouts.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mist Zombie (Lesser Strahd Zombie)",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/mist-zombie-lesser-strahd-zombie/strahd-zombie-publisher.webp",
+    "artist": "Related Strahd Zombie illustration · Curse of Strahd",
+    "kind": "illustration",
+    "sha256": "eb465bbdf7b5ca1c9a2fb0331558c6364955b1afe62dd2800ad73b8781de7a84",
+    "reference": "https://www.dndbeyond.com/avatars/thumbnails/13263/819/1000/1000/637381852510221354.jpeg"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mist Zombie (Lesser Strahd Zombie)",
+    "publication": "DDAL04-01 - The Suits of the Mists",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/mist-zombie-lesser-strahd-zombie/strahd-zombie-cos-token.webp",
+    "artist": "Related Strahd Zombie token · Curse of Strahd",
+    "kind": "token",
+    "sha256": "686db4bdcdeac79fc5188e02049a00374d943f764429522b7ecf44e69801d2a3",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/CoS/Strahd%20Zombie.webp"
+  }
+]

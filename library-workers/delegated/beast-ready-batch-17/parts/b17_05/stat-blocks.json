@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Szikzith",
+    "publication": "NERDS Restoring Harmony: A Web of Lies",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Neutral",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft., climb 40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "appearance": "An awakened, rust-brown giant wolf spider with a rounded abdomen swollen from eating honey.",
+    "habitats": [
+      "Darkwood Forest",
+      "Temple of Miel"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Restoring Harmony: A Web of Lies, unnumbered sheet 6. The lair is on sheet 5.",
+      "Traits": "Spider Climb. Szikzith can traverse difficult surfaces, including ceilings, without a check.\nWeb Sense. While touching a web she can pinpoint creatures touching that web.\nWeb Walker. Webbing places no limits on her movement.",
+      "Actions": "Bite. Melee weapon attack +3, reach 5 ft., one creature. On a hit, deal 4 (1d6 + 1) piercing damage. The creature makes a DC 11 Constitution save, taking 7 (2d6) poison on failure or half on success. If that poison reduces the creature to 0 HP, it stabilizes and remains poisoned for 1 hour, even if it regains HP. It is paralyzed for as long as that bite keeps it poisoned.",
+      "Encounter ecology": "Szikzith senses disturbances along the approach to the Beehive Room. On a failed DC 13 Dexterity check she either waits in ambush or investigates. A successful check gives Yellow surprise. She bargains for honey and can be outwitted with a successful DC 13 Intelligence (Deception) check.",
+      "Source notes": "The stat block lists no languages. The encounter has Szikzith bargain with Yellow and leaves the language unspecified."
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Proficiency Bonus +2. Skills Perception +3, Stealth +7. Blindsight 10 ft. and darkvision 60 ft. Languages none in the stat block."
+  },
+  {
+    "name": "Sled Dog",
+    "publication": "Rise of Tiamat",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, Unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "appearance": "A sturdy northern sled dog with a black-and-white double coat, pale blue eyes, and a leather pulling harness.",
+    "habitats": [
+      "Oyaviggaton",
+      "Sea of Moving Ice"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, The Rise of Tiamat (October 2014), Episode 2, p. 27. Use Wolf from the October 2014 Online Supplement, p. 26.",
+      "Traits": "Keen Hearing and Smell. The dog has advantage on Perception checks that depend on hearing or smell.\nPack Tactics. The dog has advantage on an attack against a creature within 5 ft. of one of the dog’s allies that is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. A hit deals 7 (2d4 + 2) piercing damage. A creature hit must succeed on a DC 11 Strength save or fall prone.",
+      "Encounter ecology": "Twelve sled dogs detect visitors who walk up the obvious path beside the ice chasm. Their barking and growling alerts the village. The Ice Hunters also rely on dogsleds over snow and ice.",
+      "Source notes": "This printing specifies the Wolf rules for the sled dogs. The encounter gives no adjustments to that block."
+    },
+    "printedPage": 27,
+    "passivePerception": 13,
+    "otherStatistics": "Natural armor. Skills Perception +3, Stealth +4. Languages none."
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Stranger Things: Welcome to the Hellfire Club",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, Unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., Climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "appearance": "A massive spider with long jointed legs, a round abdomen, and prominent fangs.",
+    "habitats": [
+      "Dungeon of Shadows",
+      "Shadow Dungeon"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Stranger Things: Welcome to the Hellfire Club (2025), Appendix B, CR 1 Giant Spider.",
+      "Traits": "Spider Climb. The spider crosses difficult surfaces and ceilings without a check.\nWeb Walker. Webs do not slow the spider, which can find any creature that touches the same web.",
+      "Actions": "Bite. Melee attack roll +5, reach 5 ft. On a hit, deal 7 (1d8 + 3) piercing and 7 (2d6) poison damage.\nWeb (Recharge 5–6). One creature the spider can see within 60 ft. makes a DC 13 Dexterity save. Failure restrains it until the web breaks. The web has AC 10 and 5 HP. It is vulnerable to fire and immune to poison and psychic damage.",
+      "Encounter ecology": "Itsy hides above the den in D5 and attacks when visitors open the secret door or touch the crystal spider. Bitsy attacks upon seeing visitors in the mirror den at S5.",
+      "Source notes": "This scope is the CR 1 Giant Spider used for Itsy and Bitsy. The official index also lists a separate CR 6 version."
+    },
+    "initiative": 3,
+    "passivePerception": 14,
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 3,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Skills Perception +4, Stealth +7. Darkvision 60 ft. Languages none."
+  }
+]

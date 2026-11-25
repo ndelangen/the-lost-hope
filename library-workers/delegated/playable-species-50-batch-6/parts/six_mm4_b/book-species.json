@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Joystealer",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Also called insoril. Medium incorporeal fey with 6d6 racial Hit Dice, level adjustment +4 and favored class rogue. ECL 10 before class levels. It has no Strength score, flies 30 ft. with perfect maneuverability and has low-light vision.",
+      "Sense Emotions detects and locates living creatures within 60 ft. like blindsense. Incorporeal touch uses Dexterity and deals 1d4 Charisma damage. Joystealers gain +4 racial on Hide and have DR 5/cold iron.",
+      "A joystealer can use a standard action to drain the emotions of a living creature it has reduced to 0 Charisma. This suppresses morale modifiers, rage and other effects tied to inspiration or emotion, and grants immunity to fear. Destroy the joystealer or cast remove curse on the victim within a hallow to reverse it.",
+      "Incorporeality brings a Charisma-based deflection bonus and a 50% miss chance against most corporeal sources that can hit at all. It also limits handling ordinary gear and material components."
+    ]
+  },
+  {
+    "name": "Verdant Prince",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium fey with 16d6 racial Hit Dice, level adjustment +4 and favored class druid. ECL 20 before class levels. Land speed 40 ft., low-light vision, +3 natural armor, DR 10/cold iron, SR 20 and evasion. Cold iron deals double damage.",
+      "Unearthly Grace adds Charisma to all saving throws and supplies the same modifier as a deflection bonus to AC.",
+      "Oath Bond is a willing exchange of goods or services with one creature at a time. Breach sickens the party at fault and imposes a –6 penalty on all ability scores until the bargain is fulfilled. The wronged party knows of the breach and can sense distance and direction on the same plane. Death, wish or miracle can end the bond. Antimagic can suppress it temporarily. The other party senses that the bond ended or was suppressed.",
+      "Racial spell-like abilities use caster level 16. At will, disguise self and dimension door. Teleportation starts and ends next to a tree or plant creature. Once per day each, baleful polymorph, call lightning storm, changestaff, cure critical wounds, fire seeds, repel metal or stone, and wall of thorns."
+    ]
+  },
+  {
+    "name": "Wizened Elder",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium plant with 4d8 racial Hit Dice, level adjustment +3 and favored class druid. ECL 7 before class levels. Base speed 20 ft., low-light vision, +4 natural armor, DR 5/slashing, cold resistance 5 and vulnerability to fire.",
+      "Plant immunities apply. The elder has two natural slam attacks and gains +8 racial on Hide checks in forested areas. Improved Woodland Stride lets it move through ordinary and magically manipulated undergrowth without being slowed or injured by it.",
+      "The elder uses speak with plants at will and can entangle plants within 60 ft. of itself at will for 1 minute. Both are supernatural and use base caster level 4. Entangle’s Reflex DC derives from Constitution. Druid levels add to racial Hit Dice for the two racial powers’ caster level. Racial Hit Dice do not grant druid spellcasting."
+    ]
+  },
+  {
+    "name": "Zern",
+    "publication": "Monster Manual IV (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium monstrous humanoid with 8d8 racial Hit Dice, level adjustment +7 and favored class wizard (transmuter). ECL 15 before class levels. Speed 30 ft., darkvision 60 ft., +6 natural armor, fast healing 5 and SR 18.",
+      "Adaptive Defenses defeats effects that require a Fortitude save unless they also affect objects, are harmless or the zern permits them. Zerns are immune to poison, paralysis and stunning.",
+      "Warping Energy is a standard-action normal melee or ranged attack, reaching up to 120 ft. at range without increments. Damage is 1d6 per two Hit Dice plus Intelligence modifier.",
+      "Malleable Form changes one mode at a time as a swift action. The zern can boost attacks and damage, liquefy its bones, plate its skin, change size or double its normal land speed. A mode lasts until replaced.",
+      "Shifting Guise works at will like alter self at CL 8 and allows humanoid and monstrous humanoid forms. Innate spell-like abilities at CL 8 are reduce person at will, and baleful polymorph and gaseous form once each per day. Transmutation Affinity adds +4 to transmutation save DCs."
+    ]
+  }
+]

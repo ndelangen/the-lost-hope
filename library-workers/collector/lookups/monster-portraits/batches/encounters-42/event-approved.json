@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Bigger Mimic",
+    "slug": "bigger-mimic",
+    "id": "monster-40ce0bb7460dc49772bbe1de:2877abdcaacf4867b09b098d",
+    "entry": "monster-40ce0bb7460dc49772bbe1de",
+    "version": "2877abdcaacf4867b09b098d",
+    "suffix": "encounters-42/bigger-mimic.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-42/bigger-mimic.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-42/event-drafts/bigger-mimic-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 42 2026-11-23/event-drafts/bigger-mimic-event-v1.png",
+    "overrides": [],
+    "sha256": "d18e819ac74a5c5570e05d5f8c14edddee0cf6ff634a3281972156b31a743eed",
+    "bytes": 2832238
+  },
+  {
+    "name": "Mimic (MCDM)",
+    "slug": "mimic",
+    "id": "monster-569c2548b9d6d014c3c6211a:89c005f7112c2090d9487276",
+    "entry": "monster-569c2548b9d6d014c3c6211a",
+    "version": "89c005f7112c2090d9487276",
+    "suffix": "encounters-42/mimic.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-42/mimic.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-42/event-drafts/mimic-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 42 2026-11-23/event-drafts/mimic-event-v1.png",
+    "overrides": [],
+    "sha256": "8821101a76a2e71010e1b333e56003c394fad44876120f627b15b703235cb105",
+    "bytes": 2656241
+  }
+]

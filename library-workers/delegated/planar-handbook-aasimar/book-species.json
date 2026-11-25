@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Aasimar",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider (Native) from the Material Plane. The book gives the Extraplanar subtype away from the Material Plane. Under the core rules, creatures lack the Extraplanar subtype on transitive planes. Humanoid-only effects such as charm person do not affect an Aasimar.",
+      "+2 Wisdom and +2 Charisma. Land speed 30 ft., darkvision 60 ft., and +2 racial bonuses on Listen and Spot.",
+      "Acid resistance 5, cold resistance 5, and electricity resistance 5.",
+      "Daylight (Sp) once per day. Caster level equals character level, excluding level adjustment. The effect sheds bright light, applies bright-light penalties, and does not damage or destroy creatures that require actual sunlight to be harmed.",
+      "Automatic languages are Common and Celestial. Bonus languages are Draconic, Dwarven, Elven, Gnome, Halfling, and Sylvan. Favored class Paladin. LA +1. No racial Hit Dice are listed."
+    ]
+  }
+]

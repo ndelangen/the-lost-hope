@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Nezumi",
+    "species": "species-93cc4a353febc8bddb07958d",
+    "version": "fc4d914bdb4b0f8d94940095",
+    "edition": "3.0 edition",
+    "publication": "Oriental Adventures (2001)",
+    "npc": "Tesk Reedmark",
+    "npcEntry": "npc-ffdee38677ed802bd93c9ffc",
+    "sha": "f358c7118c8ec564ee40daf734b0462930799e8e56fdade92c1d3fa7cae4e92d"
+  },
+  {
+    "name": "Vanara",
+    "species": "species-deeb095ab48d0adf7a14d14c",
+    "version": "a341ce15604d2c428c36b37e",
+    "edition": "3.0 edition",
+    "publication": "Oriental Adventures (2001)",
+    "npc": "Nemi",
+    "npcEntry": "npc-4946fe05f3bb7318362b45b2",
+    "sha": "d75428110e3e7f0f2378f4d7692aff5fc5290a0e52de114c423f854fd732837f"
+  }
+]

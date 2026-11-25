@@ -1,0 +1,119 @@
+{
+  "builds": [
+    {
+      "id": "duskling-ropeway-guide-35e",
+      "title": "Duskling ropeway guide, Totemist 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Fey (Extraplanar, Incarnum)",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "1d8+3",
+      "initiative": 2,
+      "speed": "35 ft.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Jump +4 or +6 with 1 essentia in landshark boots",
+        "Knowledge (nature) +4",
+        "Listen +7",
+        "Spot +7",
+        "Survival +5"
+      ],
+      "senses": "Low-light vision.",
+      "languages": "Common, Sylvan",
+      "traits": [
+        "Studded leather +3 and Dexterity +2. Touch 12, flat-footed 13. BAB +0, grapple +1. Fortitude +5, Reflex +4, Will +1. Armor check penalty −1.",
+        "Two essentia, one racial and one from Totemist. Capacity 1 per investment. Meldshaper level 1. Shapes two unbound melds, blink shirt and landshark boots. Wild Empathy +1. Alertness adds +2 to Listen and Spot. Class illiteracy applies.",
+        "Default allocation is 1 essentia in racial speed and 1 in blink shirt, giving 35-ft. movement and a 20-ft. teleport.",
+        "Racial movement gives a +5-ft. enhancement bonus to land speed per invested essentia. It applies with light or no armor and a light load.",
+        "Reallocate essentia among the eligible investments as a swift action on your turn. Pool size and the capacity of each investment are separate."
+      ],
+      "actions": [
+        "Club +1 melee, 1d6+1 bludgeoning, critical ×2, 5-ft. reach.",
+        "Light crossbow +2 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+        "Blink shirt teleports the Totemist alone at will as a standard action. Range is 10 ft. plus 10 ft. per invested essentia. Take no further actions until the next turn.",
+        "Landshark boots give +4 competence on Jump, or +6 with 1 essentia. Moving the point from blink shirt to the boots keeps 35-ft. speed, changes teleport range from 20 to 10 ft., and raises Jump from +4 to +6."
+      ],
+      "tactics": "Iriavel can take a coil of line across the broken end of a ropeway by jumping or teleporting. He tells the party which span he can cross before asking them to brace the worn anchor."
+    },
+    {
+      "id": "duskling-forest-corridor-watch-35e",
+      "title": "Duskling forest corridor watch, Barbarian 1 substitution",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1. ECL 1.",
+      "size": "Medium",
+      "type": "Fey (Extraplanar, Incarnum)",
+      "ac": 14,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 7,
+      "speed": "40 ft.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 13,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +5",
+        "Jump +9 at 40 ft., +5 at 30 or 35 ft.",
+        "Knowledge (the planes) +4",
+        "Survival +5"
+      ],
+      "senses": "Low-light vision.",
+      "languages": "Common, Sylvan",
+      "traits": [
+        "Studded leather +3 and Dexterity +1. Touch 11, flat-footed 13. BAB +1, grapple +3. Fortitude +5, Reflex +1, Will +1. Armor check penalty −1. Class illiteracy applies.",
+        "One essentia, invested in Incarnum Speed by default. In light gear it gives 40-ft. speed and initiative +7. Without that investment, base speed is 30 ft. and initiative +5 with Improved Initiative. Moving the point to the racial feature instead gives 35-ft. speed and initiative +5.",
+        "The optional 1st-level Duskling Barbarian substitution uses a d10 Hit Die. Incarnum Speed replaces Fast Movement. Each invested point gives +10 ft. enhancement to base land speed with up to medium armor and load and +2 insight on initiative checks. The two enhancement bonuses to speed do not stack.",
+        "Reallocate essentia among the eligible investments as a swift action on your turn. Pool size and the capacity of each investment are separate."
+      ],
+      "actions": [
+        "Greatclub +3 melee, 1d10+3 bludgeoning, critical ×2, 5-ft. reach. While raging, +5 melee and 1d10+6 damage.",
+        "Javelin +2 ranged, 1d6+2 piercing, critical ×2, 30-ft. increment. While raging, 1d6+4 damage.",
+        "Ordinary rage once per day, at most once per encounter, up to 8 rounds. While raging, HP 15, AC 12, touch 9, flat-footed 11, grapple +5, Fortitude +7, Reflex +1, Will +3. STR 19, CON 20, Climb +7, and Jump +11 at 40 ft. Remove 2 bonus HP at the end. Fatigue lasts through the encounter with −2 Strength and Dexterity and no running or charging."
+      ],
+      "tactics": "Darevia wants a party to escort a delayed family through the forest corridor before it closes at dusk. She keeps a point in Incarnum Speed as she moves between clearings and rages to hold the narrow opening if a creature follows."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Duskling",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Magic of Incarnum (2005)",
+      "name": "Iriavel Solthenar",
+      "build": "duskling-ropeway-guide-35e",
+      "role": "Ropeway guide and Totemist.",
+      "motive": "Carry a line past the snapped ropeway anchor before the next storm.",
+      "hook": "Iriavel can cross the broken span and set a guide rope if the party braces the anchor."
+    },
+    {
+      "species": "Duskling",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Magic of Incarnum (2005)",
+      "name": "Darevia Thalliar",
+      "build": "duskling-forest-corridor-watch-35e",
+      "role": "Forest corridor watch and Barbarian.",
+      "motive": "Find a delayed family before the forest corridor closes for the night.",
+      "hook": "Darevia can lead the party between clearings and hold the corridor long enough for the family to cross."
+    }
+  ]
+}

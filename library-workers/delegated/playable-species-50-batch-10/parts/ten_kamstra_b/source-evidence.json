@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Giant Eagle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 235 in v2, Giant Eagle Traits.",
+    "printedPages": [
+      235
+    ],
+    "heading": "Giant Eagle Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "The printed flight trait gives 60 ft. The 80 ft. figure in the design notes on p. 236 does not govern this profile."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Giant Frog",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "pp. 236–237 in v2, Giant Frog Traits.",
+    "printedPages": [
+      236,
+      237
+    ],
+    "heading": "Giant Frog Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "The heading starts on p. 236. The trait continuation on p. 237 grants neither Standing Leap nor Darkvision, despite both being named in the design notes.",
+      "Silt uses the bite as the physical grip for the species' bonus-action grapple. The ordinary size limit, reach, and Athletics contest still apply. Dexterity can govern the bite, while the grapple still uses Strength."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Giant Hyena",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 238 in v2, Giant Hyena Traits.",
+    "printedPages": [
+      238
+    ],
+    "heading": "Giant Hyena Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "The printable trait gives 30 ft. walk speed. The design notes discuss 40 ft. and suggest Pack Tactics as an optional change. Neither applies to the printed player profile."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Giant Octopus",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "pp. 239–240 in v2, Giant Octopus Traits.",
+    "printedPages": [
+      239,
+      240
+    ],
+    "heading": "Giant Octopus Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+    "sourceDistinctions": [
+      "The published trait includes no automatic grab or restraint rider on the tentacle attack, although the design notes discuss Grab.",
+      "Ink Cloud omits its activation timing. Dunewick uses an action for the release as a table ruling, consistent with the encounter ability that inspired it.",
+      "For Martial Arts, Kamstra's p. 7 uses the monk damage die for the bonus-action strike rather than the species' larger natural damage die."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  }
+]

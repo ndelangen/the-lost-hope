@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Animated Flying Sword",
+    "statBlock": {
+      "name": "Animated Flying Sword",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 17,
+      "classification": "Small construct, unaligned",
+      "ac": 17,
+      "hp": 14,
+      "hitDice": "4d6",
+      "speed": "5 ft., fly 50 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "passivePerception": 7,
+      "description": "An unseen hand seems to fence with this sword. An intact blade and a swarm of floating sword fragments fight the same way. Use similar statistics for other animated weapons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Blindsight 60 ft.",
+        "Damage immunities": "Poison, psychic.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Actions": "Slash. Melee attack, +4 to hit, reach 5 ft. A hit deals 6 (1d8 + 2) slashing damage.",
+        "Animated object catalysts": "Roll 1d10 or choose what brought the object to life.\n1. A celestial or fiend assigned it to protect or torment a mortal.\n2. An experiment combined magic with alchemy, machinery, or alien science.\n3. A supernatural trickster trapped someone’s essence in it.\n4. A Fey animated it as part of a game or scheme.\n5. The object awoke after a century of use.\n6. A spellcaster wanted a servant or guard.\n7. A magical instrument played a song over it.\n8. A spirit took possession of it.\n9. A spell went awry, wild magic flared, or a chaotic artifact affected it.\n10. A powerful psychic being animated it by force of will.",
+        "Habitats": "Urban.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 17."
+      }
+    }
+  },
+  {
+    "name": "Animated Rug of Smothering",
+    "statBlock": {
+      "name": "Animated Rug of Smothering",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 17,
+      "classification": "Large construct, unaligned",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "5d10",
+      "speed": "10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 6,
+      "description": "This enchanted rug may seize whoever steps on it, or spring a trap when someone tries a false command word for a Carpet of Flying. Use the same statistics for an animated tapestry or fur.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Senses": "Blindsight 60 ft.",
+        "Damage immunities": "Poison, psychic.",
+        "Condition immunities": "Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned.",
+        "Actions": "Smother. Melee attack, +5 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) bludgeoning damage. Against a Medium or smaller creature, the rug can give the target the Grappled condition instead of dealing the initial damage (escape DC 13). Until that grapple ends, the target is Blinded, Restrained, and suffocating, and takes 10 (2d6 + 3) bludgeoning damage at the start of each of its turns. The rug can smother only one creature at a time. While it holds that creature, it cannot use Smother. Halve any damage the rug takes and round down, then deal the same amount to the creature it is grappling.",
+        "Animated object catalysts": "Roll 1d10 or choose what brought the object to life.\n1. A celestial or fiend assigned it to protect or torment a mortal.\n2. An experiment combined magic with alchemy, machinery, or alien science.\n3. A supernatural trickster trapped someone’s essence in it.\n4. A Fey animated it as part of a game or scheme.\n5. The object awoke after a century of use.\n6. A spellcaster wanted a servant or guard.\n7. A magical instrument played a song over it.\n8. A spirit took possession of it.\n9. A spell went awry, wild magic flared, or a chaotic artifact affected it.\n10. A powerful psychic being animated it by force of will.",
+        "Habitats": "Urban.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 17."
+      }
+    }
+  },
+  {
+    "name": "Flaming Skeleton",
+    "statBlock": {
+      "name": "Flaming Skeleton",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 283,
+      "classification": "Medium undead, lawful evil",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "Necromantic fire gives this skeleton the power to strike with flame and the awareness to command lesser undead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common and one other language and cannot speak.",
+        "Damage vulnerabilities": "Bludgeoning.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Exhaustion, Poisoned.",
+        "Traits": "Death Burst. When the skeleton dies, each creature in a 10-ft. Emanation from the skeleton makes a DC 12 Dexterity save. It takes 14 (4d6) fire damage on a failure or half as much on a success.\nIllumination. The skeleton sheds Bright Light out to 15 ft. and Dim Light for another 15 ft.",
+        "Actions": "Multiattack. Make two attacks in any combination of Flame Scepter and Hurl Flame.\nFlame Scepter. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) bludgeoning damage plus 3 (1d6) fire damage.\nHurl Flame. Ranged attack, +4 to hit, range 60 ft. A hit deals 7 (1d10 + 2) fire damage.",
+        "Skeleton pantomimes": "Roll 1d6 or choose what the skeleton does when left alone.\n1. Takes a meal or old letters to its former master’s tomb.\n2. Keeps drilling with other skeletons, even after they hack it to pieces.\n3. Repeats an old pastime such as dancing, acting, or reading.\n4. Returns to familiar work such as cleaning, cooking, mining, or praying.\n5. Reenacts its final moments.\n6. Guards the post it held in life.",
+        "Habitats": "Shadowfell (planar), Underdark, Urban.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 283."
+      }
+    }
+  },
+  {
+    "name": "Gas Spore Fungus",
+    "statBlock": {
+      "name": "Gas Spore Fungus",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 125,
+      "classification": "Large plant, unaligned",
+      "ac": 8,
+      "hp": 13,
+      "hitDice": "9d10 - 36",
+      "speed": "5 ft., fly 10 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 3
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 1
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 5,
+      "description": "A round, floating fungus resembles a beholder. Its spores can kill an infected creature and sprout new fungi from the body.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-5 (5).",
+        "Senses": "Blindsight 30 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned, Prone.",
+        "Traits": "Death Burst. When the fungus dies, each creature in a 20-ft. Emanation from the fungus makes a DC 10 Constitution save. On a failure, it takes 10 (3d6) poison damage and is Poisoned for 1d12 hours. If that condition has not been removed by the end of that time, the creature dies and sprouts 2d4 Tiny Gas Spore Fungi, each with 1 HP. Those fungi reach Large size and 13 HP after 2d6 days.",
+        "Actions": "Tendril. Melee attack, +0 to hit, reach 5 ft. A hit deals 3 (1d6) poison damage and leaves the target Poisoned until the end of the target’s next turn.",
+        "Habitats": "Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 125."
+      }
+    }
+  },
+  {
+    "name": "Shrieker Fungus",
+    "statBlock": {
+      "name": "Shrieker Fungus",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 125,
+      "classification": "Medium plant, unaligned",
+      "ac": 5,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "0",
+      "xp": 0,
+      "passivePerception": 6,
+      "description": "This mushroom gives away intruders with a shrill wail that can bring predators or alert nearby guards.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-5 (5).",
+        "Senses": "Blindsight 30 ft.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Frightened.",
+        "Actions": "The stat block lists no actions.",
+        "Reactions": "Shriek. When a creature or a source of Bright Light moves within 30 ft. of the shrieker, it can emit a wail audible out to 300 ft. The wail continues for 1 minute and ends early if the shrieker dies.",
+        "Habitats": "Underdark.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 125."
+      }
+    }
+  },
+  {
+    "name": "Myconid Spore Servant",
+    "statBlock": {
+      "name": "Myconid Spore Servant",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 223,
+      "classification": "Small or Medium plant, unaligned",
+      "ac": 13,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 8,
+      "description": "Fungal growth animates this corpse and makes it an extension of the Myconid Sovereign that raised it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Blindsight 30 ft.",
+        "Languages": "Telepathy 30 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, Charmed, Frightened, Paralyzed, Poisoned.",
+        "Actions": "Slam. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) bludgeoning damage plus 2 (1d4) poison damage.",
+        "Creation": "A Myconid Sovereign can use Animating Spores three times per day. It chooses a Small or Medium corpse within 5 ft. that was neither a Construct nor Undead. After 24 hours the corpse rises using this stat block. It stays animate for 1d4 + 1 weeks or until destroyed and cannot be raised by Animating Spores again.",
+        "Habitats": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 223."
+      }
+    }
+  },
+  {
+    "name": "Tree Blight",
+    "statBlock": {
+      "name": "Tree Blight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 44,
+      "classification": "Huge plant, neutral evil",
+      "ac": 15,
+      "hp": 115,
+      "hitDice": "10d12 + 50",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "This predator resembles a dead tree with gnarled limbs and broken hollows. Remains may hang caught in its branches. It fights alongside other blights and attacks other tree-shaped creatures, including awakened trees and treants.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+3 (13).",
+        "Senses": "Blindsight 60 ft.",
+        "Languages": "Understands Common and Druidic and cannot speak.",
+        "Condition immunities": "Deafened.",
+        "Actions": "Multiattack. Make two Branch attacks and use Grasping Root.\nBranch. Melee attack, +9 to hit, reach 15 ft. A hit deals 16 (3d6 + 6) bludgeoning damage.\nGrasping Root. Choose one visible creature of Large size or smaller within 15 ft. It makes a DC 17 Strength save. On a failure, one of the blight’s six roots pulls that creature up to 10 ft. straight toward the blight and gives it the Grappled condition (escape DC 16). Until the grapple ends, the target takes 13 (2d6 + 6) bludgeoning damage at the start of each of its turns.",
+        "Bonus actions": "Gnash. Choose one creature Grappled by the blight. It makes a DC 17 Dexterity save, taking 19 (3d8 + 6) piercing damage on a failure or half as much on a success.",
+        "Habitats": "Forest.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 44."
+      }
+    }
+  }
+]

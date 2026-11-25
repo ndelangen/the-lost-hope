@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Badger, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Tejón, Gigante",
+    "spanishHeading": "Tejón, Gigante",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      357
+    ],
+    "viewerPages": [
+      359
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.3. The Spanish print gives exact CR 1/4.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Translated from the Spanish habitat index on pp. 377 and checked against the English publisher catalog.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "giant-badger",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_04/portraits/giant-badger.png",
+    "portraitReuseSha256": "73873c0bfe4ef8d32df68ce52b9e69c928655c48095f3aaf6668ce5e188d2227",
+    "mechanicsNotes": [
+      "The target priority is mandatory in combat and depends on reach or a route that avoids opportunity attacks. Frightened resistance grants advantage on checks and saves to avoid or end that condition under printed p. 23."
+    ]
+  },
+  {
+    "name": "Bat",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Murciélago",
+    "spanishHeading": "Murciélago",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      348
+    ],
+    "viewerPages": [
+      350
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.0. The Spanish print gives exact CR 0.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Translated from the Spanish habitat index on pp. 377 and 379 and checked against the English publisher catalog.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "bat",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_01/portraits/bat.png",
+    "portraitReuseSha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+    "mechanicsNotes": [
+      "The book uses fixed Perception and Stealth thresholds. Blinded resistance and Deafened vulnerability apply to rolls to avoid or end those conditions under printed p. 23."
+    ]
+  },
+  {
+    "name": "Bat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Murciélago, gigante",
+    "spanishHeading": "Murciélago, gigante",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      348
+    ],
+    "viewerPages": [
+      350
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.3. The Spanish print gives exact CR 1/4.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Translated from the Spanish habitat index on pp. 377 and 379 and checked against the English publisher catalog.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "giant-bat",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_04/portraits/giant-bat.png",
+    "portraitReuseSha256": "c50887fca84051934f81adda8f1fc1424fbc769e860eb76a1d4024502f95b045",
+    "mechanicsNotes": [
+      "The Spanish action heading reads Chillido aturdidor, but the printed effect disorients the target and defines random movement. Dizzying Screech follows the established English Black Flag term."
+    ]
+  },
+  {
+    "name": "Bat, Swarm of Bats",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Murciélago, enjambre de murciélagos",
+    "spanishHeading": "Murciélago, enjambre de murciélagos",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      348
+    ],
+    "viewerPages": [
+      350
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.3. The Spanish print gives exact CR 1/4.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Translated from the Spanish habitat index on pp. 377–379 and checked against the English publisher catalog.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "bat-swarm-of-bats",
+    "portraitReuseSource": "indexed:images/monsters/swarm-of-bats/parchment-portrait.webp",
+    "portraitReuseSha256": "959d40966bc013e3db8d83476988542904a59b925f6ea419d69225995d2e9fda",
+    "mechanicsNotes": [
+      "The Cacophonous Swarm save applies to a spell with a verbal component cast within the occupied space. Failure expends the required casting action and preserves the slot or daily use. The threshold for reduced Bites damage is half the swarm’s HP or less."
+    ]
+  },
+  {
+    "name": "Bear, Black",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Oso, Negro",
+    "spanishHeading": "Oso, Negro",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      349
+    ],
+    "viewerPages": [
+      351
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.5. The Spanish print gives exact CR 1/2.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Translated from the Spanish habitat index on pp. 377 and checked against the English publisher catalog.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "black-bear",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+    "portraitReuseSha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+    "mechanicsNotes": [
+      "Claws has the printed average of 4, retaining the listed 1d4 + 2. Multiattack has no grapple rider."
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "entry": "beast-7e564f76bd294776ebfa438c",
+    "version": "1b3a59742fc268118865c73e",
+    "name": "Addazahr (Backbiter)",
+    "file": "images/al-qadim-corsairs-beasts/addazahr-backbiter.png",
+    "sha256": "8cbae15fbe6b8cb77922af369b5c1ac2ce0caa49557fa3f1bf04a1ebcc232d5b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d768847856de1b91c493b1c6",
+    "version": "69b36ffc7805df9386137d46",
+    "name": "Electric Eel",
+    "file": "images/al-qadim-corsairs-beasts/electric-eel.png",
+    "sha256": "ae6e5ab0afba88275802c6e4f1451b272b9ab7e78a0bd0fa2b8e4fbfc52faabf",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-31fc15942b0c47f6c6408dd9",
+    "version": "de5e8db52998edce431e2bbf",
+    "name": "Shark",
+    "file": "images/al-qadim-corsairs-beasts/shark.png",
+    "sha256": "802eb1f7d0780cfdae404f354e0dbc36283458b6260c77027b4eb6e167a26179",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-719fa718ae318f8daf6470f2",
+    "version": "f03700aa5f8085905c8291f6",
+    "name": "Giant Shark",
+    "file": "images/al-qadim-corsairs-beasts/giant-shark.png",
+    "sha256": "0530ca2b868e9110ca7b33a850b86b1e8a1b92d92fd62faa4ad1b5ada029a6bb",
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "artGroup": "szikzith",
+    "file": "portraits/szikzith.png",
+    "sha256": "4e20eea3c7b1c137fb6ce293e6cdbd81b33ceb51d0c7fa6061573c31e749e391",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "styleReference": "Big Linda",
+    "sourceToken": "images/beasts/szikzith/nrh-awol-1.webp"
+  },
+  {
+    "artGroup": "sled-dog",
+    "file": "portraits/sled-dog.png",
+    "sha256": "c32c3de43fc9ff7bb9504413b55684bd576455308cbe0d57e2bc6036ba610adf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "styleReference": "Big Linda",
+    "sourceToken": "images/beasts/sled-dog/rot-1.webp"
+  }
+]

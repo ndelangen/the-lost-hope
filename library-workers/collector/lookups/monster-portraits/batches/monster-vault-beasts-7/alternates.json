@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Hyena, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hyena-giant/kobold-press-hyena.webp",
+    "artist": "Giant Hyena · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "0aa009074f2d613e3cb68ad3d61cce1fc5b56503abeed6b9647731de7b02cda1",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/hyena.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Hyena, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hyena-giant/giant-hyena-2024-rules-related.webp",
+    "artist": "Related Giant Hyena art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "f2bf25b033ccaf0a8d35dd798797f267e02508bb0c7b8b4d9bdc414f7e047817",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Hyena.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Centipede",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-centipede/kobold-press-insect-centipede-giant.webp",
+    "artist": "Giant Centipede · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "128a62576078a53a4492bebddd0ee4cb441f9ee110fe80e4ce250c4d47240cda",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/insect-centipede-giant.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Centipede",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-centipede/giant-centipede-2024-rules-related.webp",
+    "artist": "Related Giant Centipede art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "afc5f2aac99471144644a6da61f7ac112b5ecb680de5eb414a3cf15fe226f9ae",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Centipede.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Fire Beetle",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-fire-beetle/kobold-press-beetle-fire.webp",
+    "artist": "Giant Fire Beetle · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "8c33f432867ffb7acb309f7035cd4095806861b7ebd45ce89c86f48bfb98c085",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/beetle-fire.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Fire Beetle",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-fire-beetle/giant-fire-beetle-2024-rules-related.webp",
+    "artist": "Related Giant Fire Beetle art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "443fa2bcd3ce5562ea10a24dcdd6e4526d10068a4c7674068090d9cb839069c1",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Fire%20Beetle.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Scorpion",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-scorpion/kobold-press-scorpion.webp",
+    "artist": "Giant Scorpion · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "9900f88b40fa7415975ef6dee064200ea4fd94d770411f23b43df3d371bd7736",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/scorpion.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Insect, Giant Scorpion",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/insect-giant-scorpion/giant-scorpion-2024-rules-related.webp",
+    "artist": "Related Giant Scorpion art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "c53f792631047c8d7657b335bb0a21f6f4139854a29ff7a252f8532be22c80c2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Scorpion.webp"
+  }
+]

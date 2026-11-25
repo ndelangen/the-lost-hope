@@ -1,0 +1,628 @@
+[
+  {
+    "name": "Emberbat",
+    "kind": "beast",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "armorClass": 12,
+      "hitPoints": 2,
+      "hitDice": "1d4",
+      "size": "Tiny",
+      "challenge": "0",
+      "xp": 10,
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "speed": {
+        "walk": 5,
+        "fly": 30
+      },
+      "passivePerception": 11,
+      "abilities": {
+        "Str": 2,
+        "Dex": 15,
+        "Con": 10,
+        "Int": 2,
+        "Wis": 12,
+        "Cha": 5
+      },
+      "senses": [
+        "Blindsight 60 ft."
+      ],
+      "habitats": [
+        "Scorched Grove"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 0,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 1,
+              "type": "piercing"
+            },
+            {
+              "average": 1,
+              "type": "fire"
+            }
+          ],
+          "damageCombination": "combined"
+        }
+      ]
+    },
+    "appearance": "A tiny, ashen-furred bat with a candle-sized flame at its nose.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Echolocation",
+          "effectNote": "Deafness prevents the use of blindsight."
+        },
+        {
+          "name": "Keen Hearing",
+          "effectNote": "Advantage on Wisdom (Perception) checks that rely on hearing."
+        },
+        {
+          "name": "Ember Flame",
+          "effectNote": "The bat can kindle or dismiss a flame at its nose at will. It emits bright light for 5 ft. and dim light for another 5 ft. The listed bite includes the lit flame's fire damage."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 1 piercing damage plus 1 fire damage on a hit.",
+          "toHit": 0,
+          "reachFeet": 5
+        }
+      ]
+    },
+    "notes": [
+      "Hit Point Press, Humblewood Campaign Setting v1.04, Appendix A, p. 182."
+    ]
+  },
+  {
+    "name": "Swarm of Emberbats",
+    "kind": "beast",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "armorClass": 12,
+      "hitPoints": 22,
+      "hitDice": "5d8",
+      "size": "Medium",
+      "challenge": "1/2",
+      "xp": 100,
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "passivePerception": 10,
+      "abilities": {
+        "Str": 5,
+        "Dex": 15,
+        "Con": 10,
+        "Int": 3,
+        "Wis": 10,
+        "Cha": 5
+      },
+      "senses": [
+        "Blindsight 60 ft."
+      ],
+      "habitats": [
+        "Scorched Grove"
+      ],
+      "resistances": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing"
+      ],
+      "conditionImmunities": [
+        "Charmed",
+        "Frightened",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Prone",
+        "Restrained",
+        "Stunned"
+      ],
+      "attacks": [
+        {
+          "name": "Bites",
+          "hitBonus": 4,
+          "mode": "Melee Weapon Attack",
+          "reach": 0,
+          "damage": [
+            {
+              "average": 5,
+              "type": "piercing",
+              "dice": "2d4"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A coordinated cloud of tiny flame-nosed bats that radiates heat.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Echolocation",
+          "effectNote": "Deafness prevents the use of blindsight."
+        },
+        {
+          "name": "Keen Hearing",
+          "effectNote": "Advantage on Wisdom (Perception) checks that rely on hearing."
+        },
+        {
+          "name": "Flame Essence",
+          "effectNote": "A creature that begins its turn within 5 ft. of the swarm takes 2 (1d4) fire damage on a failed save.",
+          "saves": [
+            {
+              "ability": "Constitution",
+              "dc": 10
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "fire"
+            }
+          ]
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "The swarm and other creatures can share spaces. It can fit through an opening large enough for one Tiny bat. It cannot regain HP or receive temporary HP."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Bites",
+          "effectNote": "One creature in the swarm's space takes 5 (2d4) piercing damage on a hit, or 2 (1d4) if the swarm is at half its HP or less.",
+          "toHit": 4,
+          "reachFeet": 0,
+          "damageRolls": [
+            {
+              "diceCount": 2,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "piercing",
+              "trigger": "above half HP"
+            },
+            {
+              "diceCount": 1,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "piercing",
+              "trigger": "half HP or fewer"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Medium swarm of Tiny beasts.",
+      "Hit Point Press, Humblewood Campaign Setting v1.04, Appendix A, p. 182."
+    ]
+  },
+  {
+    "name": "Forest Prowler",
+    "kind": "beast",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "armorClass": 16,
+      "hitPoints": 75,
+      "hitDice": "10d10 + 20",
+      "size": "Large",
+      "challenge": "4",
+      "xp": 1100,
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "passivePerception": 14,
+      "abilities": {
+        "Str": 15,
+        "Dex": 18,
+        "Con": 14,
+        "Int": 4,
+        "Wis": 14,
+        "Cha": 9
+      },
+      "armorClassNote": "Natural armor",
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "habitats": [
+        "Forest canopy"
+      ],
+      "attacks": [
+        {
+          "name": "Claw",
+          "hitBonus": 6,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 8,
+              "type": "slashing",
+              "dice": "1d8 + 4"
+            }
+          ]
+        },
+        {
+          "name": "Bite",
+          "hitBonus": 6,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 13,
+              "type": "piercing",
+              "dice": "2d8 + 4"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A large spotted feline with moss and leaves growing through its fur.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Natural Camouflage",
+          "effectNote": "Advantage on Dexterity (Stealth) checks in the forest. An attacker has advantage against a target that cannot see it."
+        },
+        {
+          "name": "Pounce",
+          "effectNote": "After moving at least 10 ft. toward a creature and landing a claw attack on it on the same turn, the target falls prone on a failed save. The prowler can make another claw attack against this target as a bonus action.",
+          "saves": [
+            {
+              "ability": "Strength",
+              "dc": 14
+            }
+          ]
+        },
+        {
+          "name": "Ambuscade",
+          "effectNote": "The prowler can Dash or Hide as a bonus action."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "effectNote": "Two claw attacks and one bite attack.",
+          "attackCount": 3
+        },
+        {
+          "name": "Claw",
+          "effectNote": "One target takes 8 (1d8 + 4) slashing damage on a hit.",
+          "toHit": 6,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 8,
+              "bonus": 4,
+              "damageType": "slashing"
+            }
+          ]
+        },
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 13 (2d8 + 4) piercing damage on a hit. A prone target takes 4 (1d8) extra piercing damage.",
+          "toHit": 6,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 2,
+              "die": 8,
+              "bonus": 4,
+              "damageType": "piercing"
+            },
+            {
+              "diceCount": 1,
+              "die": 8,
+              "bonus": 0,
+              "damageType": "piercing",
+              "trigger": "prone target"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Hit Point Press, Humblewood Campaign Setting v1.04, Appendix A, p. 183."
+    ]
+  },
+  {
+    "name": "Mountain Lion",
+    "kind": "beast",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "armorClass": 15,
+      "hitPoints": 37,
+      "hitDice": "5d10 + 10",
+      "size": "Large",
+      "challenge": "1",
+      "xp": 200,
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "passivePerception": 14,
+      "abilities": {
+        "Str": 17,
+        "Dex": 15,
+        "Con": 14,
+        "Int": 3,
+        "Wis": 14,
+        "Cha": 6
+      },
+      "armorClassNote": "Natural armor",
+      "skills": {
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "habitats": [
+        "Crest Mountains"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 5,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 8,
+              "type": "piercing",
+              "dice": "1d10 + 3"
+            }
+          ]
+        },
+        {
+          "name": "Claw",
+          "hitBonus": 5,
+          "mode": "Melee Weapon Attack",
+          "reach": 5,
+          "damage": [
+            {
+              "average": 7,
+              "type": "slashing",
+              "dice": "1d8 + 3"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "A mountain cat whose rocky protrusions provide protection and camouflage.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Keen Smell",
+          "effectNote": "Advantage on Wisdom (Perception) checks that rely on smell."
+        },
+        {
+          "name": "Pounce",
+          "effectNote": "After moving at least 20 ft. toward a creature and hitting it with a claw attack on the same turn, the creature falls prone on a failed save. The lion can bite a prone target as a bonus action.",
+          "saves": [
+            {
+              "ability": "Strength",
+              "dc": 13
+            }
+          ]
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 8 (1d10 + 3) piercing damage on a hit.",
+          "toHit": 5,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 10,
+              "bonus": 3,
+              "damageType": "piercing"
+            }
+          ]
+        },
+        {
+          "name": "Claw",
+          "effectNote": "One target takes 7 (1d8 + 3) slashing damage on a hit.",
+          "toHit": 5,
+          "reachFeet": 5,
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 8,
+              "bonus": 3,
+              "damageType": "slashing"
+            }
+          ]
+        },
+        {
+          "name": "Call Avalanche",
+          "effectNote": "In mountainous terrain, the lion can cause a rockslide in a 15-ft. radius around a space it can see within range. Creatures in the area take 13 (3d8) bludgeoning damage on a failed save or half on a success.",
+          "rangeFeet": [
+            60
+          ],
+          "usage": [
+            "Recharges after a short or long rest"
+          ],
+          "saves": [
+            {
+              "ability": "Dexterity",
+              "dc": 12
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 8,
+              "bonus": 0,
+              "damageType": "bludgeoning"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "Hit Point Press, Humblewood Campaign Setting v1.04, Appendix A, p. 185."
+    ]
+  },
+  {
+    "name": "Wakewyrm",
+    "kind": "beast",
+    "publication": "Humblewood Campaign Setting",
+    "edition": "2014 fifth edition compatible",
+    "ruleset": "dnd-5e-2014",
+    "combat": {
+      "armorClass": 16,
+      "hitPoints": 136,
+      "hitDice": "13d12 + 52",
+      "size": "Huge",
+      "challenge": "6",
+      "xp": 2300,
+      "creatureType": "Beast",
+      "alignment": "Unaligned",
+      "speed": {
+        "walk": 20,
+        "swim": 50
+      },
+      "passivePerception": 11,
+      "abilities": {
+        "Str": 20,
+        "Dex": 14,
+        "Con": 18,
+        "Int": 3,
+        "Wis": 12,
+        "Cha": 3
+      },
+      "armorClassNote": "Natural armor",
+      "habitats": [
+        "Open ocean",
+        "Talongrip Coast"
+      ],
+      "attacks": [
+        {
+          "name": "Bite",
+          "hitBonus": 8,
+          "mode": "Melee Weapon Attack",
+          "reach": 20,
+          "damage": [
+            {
+              "average": 15,
+              "type": "piercing",
+              "dice": "3d6 + 5"
+            }
+          ]
+        },
+        {
+          "name": "Tail",
+          "hitBonus": 8,
+          "mode": "Melee Weapon Attack",
+          "reach": 25,
+          "damage": [
+            {
+              "average": 18,
+              "type": "bludgeoning",
+              "dice": "3d8 + 5"
+            }
+          ]
+        }
+      ]
+    },
+    "appearance": "An immense reptile with a body that resembles both a snake and an eel.",
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Hold Breath",
+          "effectNote": "Can hold its breath for 1 hour."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "effectNote": "One bite and one tail attack, or two bite attacks.",
+          "attackCount": 2
+        },
+        {
+          "name": "Bite",
+          "effectNote": "One target takes 15 (3d6 + 5) piercing damage on a hit and is grappled on a failed save (escape DC 16). The wakewyrm can grapple only one creature and cannot bite a different creature while that grapple lasts.",
+          "toHit": 8,
+          "reachFeet": 20,
+          "saves": [
+            {
+              "ability": "Strength",
+              "dc": 16
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 6,
+              "bonus": 5,
+              "damageType": "piercing"
+            }
+          ]
+        },
+        {
+          "name": "Tail",
+          "effectNote": "One target takes 18 (3d8 + 5) bludgeoning damage on a hit.",
+          "toHit": 8,
+          "reachFeet": 25,
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 8,
+              "bonus": 5,
+              "damageType": "bludgeoning"
+            }
+          ]
+        },
+        {
+          "name": "Swallow",
+          "effectNote": "The wakewyrm bites a Large or smaller creature it has grappled. On a hit the target is swallowed and the grapple ends. A swallowed creature is blinded, restrained, and has total cover from outside effects. At the start of each wakewyrm turn it takes 11 (3d6) acid damage. If the wakewyrm takes 18 or more damage from a creature inside it, it must make the save at the end of that turn or expel every swallowed creature prone within 10 ft. On death, swallowed creatures are freed from restraint and can leave the corpse by spending 20 ft. of movement.",
+          "saves": [
+            {
+              "ability": "Constitution",
+              "dc": 15
+            }
+          ],
+          "damageRolls": [
+            {
+              "diceCount": 3,
+              "die": 6,
+              "bonus": 0,
+              "damageType": "acid"
+            }
+          ]
+        }
+      ]
+    },
+    "notes": [
+      "After death, the body floats for several hours before sinking.",
+      "Hit Point Press, Humblewood Campaign Setting v1.04, Appendix A, p. 189."
+    ]
+  }
+]

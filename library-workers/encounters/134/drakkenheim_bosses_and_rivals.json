@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Amalgamation",
+    "decision": "separate",
+    "pages": "Appendix A, pp. 206–207",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Amalgamation",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Gargantuan Aberration, chaotic evil",
+      "ac": 18,
+      "hp": 525,
+      "hitDice": "30d20 + 210",
+      "speed": "5 ft.",
+      "cr": "23",
+      "xp": 50000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 30,
+          "modifier": 10
+        },
+        "Dex": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 27,
+          "modifier": 8
+        },
+        "Int": {
+          "score": 22,
+          "modifier": 6
+        },
+        "Wis": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Cha": {
+          "score": 20,
+          "modifier": 5
+        }
+      },
+      "otherStatistics": "Natural armor. Saves Str +17, Dex +7, Con +14, Int +13, Wis +11. Arcana +13, Deception +12, Insight +11, Perception +11. Immune to psychic damage and bludgeoning, piercing, and slashing damage from nonmagical weapons. Immune to Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Prone, and Stunned. Truesight 120 ft., passive Perception 21. All languages and telepathy 1 mile.",
+      "description": "An aberration that forms around a planar rupture and draws other creatures through.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMalignancy. It cannot be teleported or taken to another plane against its will.\nImmutable Form. Effects that would alter its form fail.\nMagic Weapons. Its weapon attacks are magical.",
+        "Innate Spellcasting": "Charisma, save DC 20, no components. At will, Detect Thoughts and Dispel Magic.",
+        "Actions": "Multiattack. Use Contaminating Presence and make three Tentacle attacks. Any of those attacks can be replaced with Fling.\nBite. Melee weapon attack +17, reach 5 ft., one target, 23 (3d8 + 10) piercing. A Large or smaller target already Grappled by the amalgamation is Swallowed, ending that grapple. Inside, it is Blinded and Restrained, has total cover from outside, takes 42 (12d6) acid damage, and gains one level of Contamination at the start of the amalgamation's turns. If the amalgamation takes 50 or more damage in a single turn from a creature inside it, it makes a DC 25 Constitution save at the end of that turn. On a failure all swallowed creatures fall Prone within 10 ft. If it dies, they cease to be Restrained and can spend 15 ft. of movement to exit Prone.\nTentacle. Melee weapon attack +17, reach 50 ft., one target, 20 (3d6 + 10) bludgeoning. Grapple the target (escape DC 18). It is Restrained while grappled. Each of twelve tentacles can hold one target.\nFling. Throw one Large or smaller held object or grappled creature up to 60 ft. A thrown creature lands Prone. Against a solid surface, it takes 3 (1d6) bludgeoning per 10 ft. thrown. A creature the target is thrown at must pass a DC 18 Dexterity save or take the same damage and fall Prone.\nMind-breaking Whispers. One creature within 120 ft. must pass a DC 20 Intelligence save or take 35 (10d6) psychic damage and become insane until it finishes a long rest. It cannot take actions, understand speech, or read, and can only speak gibberish. Greater Restoration ends the effect.\nContaminating Presence. Each humanoid within 120 ft. must pass a DC 20 Constitution save or take 10 (3d6) necrotic damage and gain one level of Contamination.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nTentacle Attack or Fling. Use either option.\nMind-breaking Whispers (2 actions). Use Mind-breaking Whispers.\nPiper at the Gate (3 actions). Summon up to five gibbering mouthers into empty spaces within 30 ft. They obey the amalgamation, act immediately after it on the same initiative count, and remain until destroyed. It can have at most ten mouthers summoned by this action.",
+        "Printed source": "Appendix A, pp. 206–207"
+      }
+    }
+  },
+  {
+    "name": "Crimson Countess",
+    "decision": "separate",
+    "pages": "Appendix A, pp. 208–209",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Crimson Countess",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Monstrosity, chaotic evil",
+      "ac": 17,
+      "hp": 130,
+      "hitDice": "20d8 + 40",
+      "speed": "20 ft., fly 60 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 21,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 19,
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Natural armor. Saves Con +5, Wis +5. Acrobatics +11, Deception +7, Perception +8. Immune to lightning and thunder. Darkvision 120 ft., passive Perception 16. Abyssal.",
+      "description": "A harpy matriarch who fights in flight with an electrified javelin.",
+      "sections": {
+        "Traits": "Keen Sight. Advantage on Wisdom (Perception) checks that use sight.",
+        "Actions": "Multiattack. She can use Frightful Screech, then make two Talons attacks or one Javelin attack.\nTalons. Melee weapon attack +8, reach 5 ft., one target, 11 (1d10 + 5) slashing.\nJavelin. Melee or ranged weapon attack +8, reach 5 ft. or range 20/60 ft., one target, 9 (1d6 + 5) piercing plus 14 (4d6) lightning.\nFrightful Screech. Chosen creatures within 120 ft. that are not Deafened must pass a DC 15 Wisdom save or become Frightened for 1 minute. While affected, a creature must Dash and flee by the safest route on each turn if possible. It repeats the save whenever it ends a turn out of her line of sight. A successful save or the end of the effect grants immunity to her screech for 24 hours.\nThunder Blast (recharge 5–6). Creatures in a 15-ft. cube make a DC 15 Constitution save, taking 14 (4d6) thunder damage, getting pushed 10 ft., and falling Prone on failure. On success they only take half damage.",
+        "Bonus Actions": "Aerial Acrobat. Dash, Disengage, or Dodge.",
+        "Printed source": "Appendix A, pp. 208–209"
+      }
+    }
+  },
+  {
+    "name": "Executioner",
+    "decision": "separate",
+    "pages": "Appendix A, p. 209",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Executioner",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Huge Construct, lawful evil",
+      "ac": 20,
+      "hp": 405,
+      "hitDice": "30d12 + 210",
+      "speed": "40 ft.",
+      "cr": "20",
+      "xp": 25000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 29,
+          "modifier": 9
+        },
+        "Dex": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 25,
+          "modifier": 7
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Natural armor. Saves Str +15, Con +13, Wis +6. Immune to poison and psychic damage and to bludgeoning, piercing, and slashing damage from nonmagical weapons that are not adamantine. Immune to Charmed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 120 ft., passive Perception 10. Understands Common without speaking.",
+      "description": "An execution construct that patrols Slaughterstone Square and hurls a returning blade.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nImmutable Form. Effects that would alter its form fail.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.\nRejuvenation. After destruction, it returns at full HP after 24 hours unless someone casts Disintegrate on the remains.",
+        "Actions": "Guillotine Blade. Melee or ranged weapon attack +15, reach 10 ft. or range 30/120 ft., one target, 30 (6d6 + 9) slashing plus 14 (4d6) necrotic. On a failed DC 21 Constitution save, reduce the target's maximum HP by the necrotic damage taken until it finishes a long rest. A target whose maximum HP becomes 0 dies. The blade returns immediately after a ranged attack.\nNecrotic Vents (recharge 5–6). Each creature within 30 ft. makes a DC 21 Constitution save, taking 45 (10d8) necrotic damage on failure or half on success. A creature that fails by 5 or more gains one level of Contamination.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nLumber Forward (2 actions). Move up to half speed.\nAttack (2 actions). Make a melee or ranged Guillotine Blade attack.\nSummon Shadows (3 actions). Up to six visible humanoid corpses within 60 ft. that died violently each produce a shadow in their space or the nearest empty one. They obey the Executioner and act after it on the same initiative count. They disappear after 1 minute or if the Executioner is destroyed, and can be destroyed earlier.",
+        "Printed source": "Appendix A, p. 209"
+      },
+      "ruleNotes": [
+        "The stat block lists CR 20 without an XP figure. The profile uses the standard 25,000 XP value."
+      ]
+    }
+  },
+  {
+    "name": "Gravekeeper",
+    "decision": "separate",
+    "pages": "Appendix A, pp. 210–211",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Gravekeeper",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Aberration, chaotic evil",
+      "ac": 18,
+      "hp": 210,
+      "hitDice": "20d10 + 100",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "cr": "13",
+      "xp": 10000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Con": {
+          "score": 21,
+          "modifier": 5
+        },
+        "Int": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 21,
+          "modifier": 5
+        }
+      },
+      "otherStatistics": "Natural armor. Saves Con +10, Wis +8, Cha +10. Perception +13. Truesight 120 ft., passive Perception 23. Understands all languages without speaking.",
+      "description": "A floating mass of former cryptkeepers carrying lanterns whose beams have different effects.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nDazzling Illumination. Sheds bright light for 60 ft. and imposes disadvantage on attacks against it. A hit disrupts the trait until the end of its next turn. It is also disrupted while it is Incapacitated or its speed is 0.",
+        "Actions": "Slam. Melee weapon attack +9, reach 10 ft., one target, 14 (4d8 + 4) bludgeoning plus 10 (3d6) necrotic.\nLantern Blast. Every creature within 120 ft. without total cover rolls a d6 for the ray that strikes it. The save DC is 18. Failure deals 35 (10d6) damage of the listed type and applies that ray's effect. Table ruling. Success halves the damage and prevents the other effects for every ray.",
+        "Lantern Blast Rays": "1. Dispelling Blast. Intelligence save, psychic damage. End all spells and magical effects on the target and break its spell concentration.\n2. Forceful Blast. Strength save, force damage. Push 20 ft. away and knock Prone.\n3. Blinding Blast. Constitution save, radiant damage. Blinded for 1 minute. Repeat the save on each of the target's turns to end it.\n4. Contamining Blast. Constitution save, necrotic damage and one level of Contamination.\n5. Igniting Blast. Dexterity save, fire damage. The target also takes 35 (10d6) fire damage at the start of its turns until someone spends an action to douse it.\n6. Freezing Blast. Constitution save, cold damage. No reactions until the end of the target's next turn. On that turn it can only do one of these: move, take an action, or take a bonus action.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nSlam. Make one Slam attack.\nGlide. Move up to speed without provoking opportunity attacks.\nLantern Blast (3 actions). Use Lantern Blast.",
+        "Lair Actions": "At initiative count 20, losing ties, choose one effect. Each must be used before an effect repeats, and the same effect cannot occur in consecutive rounds.\nSludge Spout. A 10-ft.-radius, 30-ft.-high cylinder erupts. Creatures inside make a DC 18 Constitution save. Failure deals 42 (12d6) necrotic damage and one level of Contamination. Success halves the damage.\nGrasping Walls. Walls within 120 ft. grow arms. Chosen creatures starting a turn within 10 ft. of one make a DC 15 Dexterity save or become Grappled. Escape with a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check.\nLantern. A torch or lantern in the room emits a Lantern Blast.",
+        "Printed source": "Appendix A, pp. 210–211"
+      },
+      "ruleNotes": [
+        "Slam preserves the printed average of 14 alongside the printed formula 4d8 + 4. For rolled damage, use the formula.",
+        "The successful save instruction follows ray 6 in the printing. This profile applies it to all six rays."
+      ]
+    }
+  },
+  {
+    "name": "Lord of the Feast",
+    "decision": "separate",
+    "pages": "Appendix A, p. 211",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Lord of the Feast",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Monstrosity, chaotic evil",
+      "ac": 18,
+      "hp": 228,
+      "hitDice": "24d10 + 96",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Cha": {
+          "score": 13,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Natural armor. Saves Con +9, Dex +9, Wis +9, Cha +6. Athletics +9, Perception +14, Stealth +14, Survival +9. Darkvision 120 ft., passive Perception 24. Abyssal.",
+      "description": "A garmyr hunter who uses specialized arrows to snare, drag, or contaminate prey.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nRegeneration. Regain 20 HP at the start of his turn if he has at least 1 HP.\nClose-Quarters Hunter. Hostile creatures within 5 ft. do not give his ranged attacks disadvantage.\nPredatory Senses. Advantage on Wisdom (Perception) checks. He pinpoints Invisible creatures within 120 ft.",
+        "Actions": "Multiattack. Make a Bite and two Claws attacks, or one attack with each of the three arrow types.\nBite. Melee weapon attack +9, reach 5 ft., one target, 15 (2d10 + 4) piercing plus 18 (4d8) necrotic. DC 17 Constitution save or one level of Contamination.\nClaws. Melee weapon attack +9, reach 10 ft., one target, 11 (2d6 + 4) slashing.\nContaminating Arrow. Ranged weapon attack +9, range 150/600 ft., one target, 13 (2d8 + 4) piercing plus 18 (4d8) necrotic. DC 17 Constitution save or one level of Contamination.\nEnsnaring Arrow. Ranged weapon attack +9, range 150/600 ft., one target, 13 (2d8 + 4) piercing. A Large or smaller target must pass a DC 17 Dexterity save or become Restrained for 1 minute. It can spend an action to repeat the save and escape.\nHarpoon Arrow. Ranged weapon attack +9, range 150/600 ft., one target, 13 (2d8 + 4) piercing. A Huge or smaller creature must pass a DC 17 Strength save or be pulled up to 20 ft. directly toward him.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nDash. Move up to speed without provoking opportunity attacks.\nArrow (2 actions). Make an arrow attack of his choice.\nCall of the Hunt (3 actions). His howl can be heard around Drakkenheim. Garmyr within 60 ft. that can see and hear him can use a reaction to move up to half speed and make one melee or ranged attack with advantage.",
+        "Printed source": "Appendix A, p. 211"
+      }
+    }
+  },
+  {
+    "name": "Pale Man",
+    "decision": "separate",
+    "pages": "Appendix A, pp. 212–213. Setting spells, Appendix D, pp. 227–229.",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Pale Man",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Aberration, neutral",
+      "ac": 12,
+      "hp": 120,
+      "hitDice": "16d8 + 48",
+      "speed": "30 ft., climb 30 ft.",
+      "cr": "13",
+      "xp": 10000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Saves Int +10, Con +8, Wis +7. Arcana +10, Perception +7, History +10. Immune to necrotic and poison. Resists bludgeoning, piercing, and slashing from nonmagical weapons. Immune to Charmed, Frightened, Paralyzed, Petrified, Poisoned, and Restrained. Darkvision 60 ft., passive Perception 15. Common and five other languages.",
+      "description": "A wizard held together by swarming insects, able to reform if the swarm escapes.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nInsect Body. It can share spaces with creatures and pass through openings large enough for a Tiny insect.\nCrawling Flesh. At 0 HP, it breaks into a swarm of insects in its space. If that swarm survives, it returns to the cocoon and reforms after 1d6 days.",
+        "Spellcasting": "16th-level wizard. Intelligence, save DC 18, +10 to hit.\nAt will: Chill Touch, Mage Hand, Mending, Prestidigitation, Shocking Grasp.\n1st level (4 slots): Delerium Orb, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots): Hold Person, Invisibility, Warp Bolt.\n3rd level (3 slots): Counterspell, Lightning Bolt, Purge Contamination.\n4th level (3 slots): Delerium Blast, Forced Evolution.\n5th level (3 slots): Conjure the Deep Haze, Siphon Contamination.\n6th level (1 slot): Chain Lightning.\n7th level (1 slot): Octarine Spray.\n8th level (1 slot): Antimagic Field.",
+        "Setting Spells": "Delerium Orb. Action, 120 ft. One visible creature makes a save using an ability chosen by the caster. Choose cold, fire, lightning, necrotic, psychic, or radiant damage. Deal 6d6 on failure or half on success, plus 2d6 per slot level above 1st.\nWarp Bolt. Action, 60 ft., concentrate up to 1 minute. Automatically hit a contaminated target, or make a ranged spell attack against an uncontaminated one. A hit deals 6d6 necrotic and one level of Contamination. On later turns, use an action for a new bolt. Each slot level above 2nd permits one more target.\nDelerium Blast. Action, 150 ft. Creatures in a 20-ft.-radius sphere make an Intelligence save. Failure deals 10d6 psychic damage and Incapacitates until the end of the target's next turn. Success halves damage and prevents Incapacitated. Add 2d6 per slot level above 4th.\nConjure the Deep Haze. Action, 120 ft., concentrate up to 10 minutes. A 20-ft.-radius sphere spreads around corners and is heavily obscured until it ends or strong wind clears it. First entry on a turn or starting a turn there forces a Constitution save. Failure deals 8d6 necrotic and one level of Contamination. Success halves damage without Contamination. Holding breath does not help.\nOctarine Spray. Action, 60-ft. cone. Each creature makes a Constitution save. Roll a d8 for each creature. On rolls of 1–5, deal 20d6 psychic, necrotic, force, radiant, or thunder damage respectively, half on success. On a failed save, 6 compels the target to spend its movement approaching the nearest visible creature and use its action to attack a random creature in reach, with a Wisdom save at each turn's end to stop. A 7 causes a level of Contamination at each turn's start, with a Constitution save at each turn's end to stop. An 8 adds two rolls and can repeat.\nEach spell above consumes a 100 gp delerium fragment and gives its caster one level of Contamination.\nPurge Contamination. One hour, touch. Consume 100 gp of alchemical fluids or holy water to clear a humanoid's Contamination and mutations. It gains one Exhaustion level per level removed.\nForced Evolution. Eight hours, touch. Consume a 250 gp alchemical mixture to replace one mutation with one selected by the GM or rolled randomly.\nSiphon Contamination. One hour, touch. Consume 500 gp of alchemical fluids and a 5,000 gp delerium geode. A second willing humanoid takes all Contamination removed from a first willing humanoid, whose mutations are also removed. A transformed former humanoid can instead return to their original form if the second willing humanoid has at least their transformed CR in levels or CR. The recipient then undergoes Monstrous Transformation. Preventing the transfer makes the spell fail.",
+        "Actions": "Contaminating Touch. Melee spell attack +8, reach 10 ft., one target, 10 (3d6) necrotic. DC 16 Constitution save or one level of Contamination.\nInfest the Flesh (recharge 6). Each creature within 30 ft. makes a DC 16 Dexterity save. Failure deals 22 (5d8) necrotic and Restrains the creature. It takes 22 (5d8) necrotic at the start of each of the Pale Man's turns. It repeats the save at the end of its own turns to end the effect.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nCantrip. Cast a cantrip.\nSlither (2 actions). Move up to speed without provoking opportunity attacks.\nContaminate (3 actions). Each target Restrained by Infest the Flesh makes a DC 16 Constitution save or gains one level of Contamination.",
+        "Printed source": "Appendix A, pp. 212–213. Setting spells, Appendix D, pp. 227–229."
+      },
+      "ruleNotes": [
+        "Contaminating Touch and Infest the Flesh use their printed attack bonus and save DC. These differ from the general Spellcasting numbers.",
+        "The stat block lists Siphon Contamination among the 5th-level slots, but Appendix D defines it as a 6th-level spell. Use the Appendix D level when casting it."
+      ]
+    }
+  },
+  {
+    "name": "Rat Prince",
+    "decision": "separate",
+    "pages": "Appendix A, p. 213",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Rat Prince",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Monstrosity, chaotic evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft., swim 30 ft., climb 30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 9,
+          "modifier": -1
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 9,
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Leather armor. Acrobatics +6, Athletics +3, Perception +6, Stealth +8. Darkvision 60 ft., passive Perception 15. Common.",
+      "description": "An armored ratling raider who carries delerium-laced bolts.",
+      "sections": {
+        "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that use smell.\nPack Tactics. Advantage against a target if a non-Incapacitated ally is within 5 ft. of it.\nContaminated Ammunition. Carries 2d6 contaminated projectiles. A hit with one adds 1d6 damage and forces a DC 10 Constitution save. Failure adds one level of Contamination.",
+        "Actions": "Multiattack. Make two Shortsword attacks and one Contaminated Bite attack.\nShortsword. Melee weapon attack +6, reach 5 ft., one target, 7 (1d6 + 4) piercing.\nContaminated Bite. Melee weapon attack +6, reach 5 ft., one target, 4 (1d4 + 4) piercing plus 10 (3d6) necrotic. DC 11 Constitution save or one level of Contamination.\nHand Crossbow. Ranged weapon attack +6, range 30/120 ft., one target, 7 (1d6 + 4) piercing.",
+        "Bonus Actions": "Cunning Action. Dash, Disengage, or Hide.",
+        "Printed source": "Appendix A, p. 213"
+      },
+      "ruleNotes": [
+        "The printed Contaminated Bite lists 4 piercing damage and a roll of 1d4 + 4. Use the formula when rolling."
+      ]
+    }
+  },
+  {
+    "name": "Eldrick Runeweaver",
+    "decision": "separate",
+    "pages": "Appendix B, p. 215",
+    "notes": "The original Appendix B block prints CR 15 and 13,000 XP. The indexed Dungeons of Drakkenheim row differs at CR 17.",
+    "statBlock": {
+      "name": "Eldrick Runeweaver",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Human), lawful neutral",
+      "ac": 17,
+      "hp": 150,
+      "hitDice": "20d8 + 60",
+      "speed": "30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 22,
+          "modifier": 6
+        },
+        "Wis": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Robe of the Archmage and Staff of Power. Saves Str +1, Dex +2, Con +10, Int +13, Wis +11, Cha +4. Arcana +16, History +16, Perception +16, Persuasion +14. Resists damage from spells. Truesight 120 ft., passive Perception 26. All languages.",
+      "description": "An Amethyst Academy archwizard equipped with a Staff of Power and rare consumables.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMagic Resistance. Advantage on saves against spells and other magical effects.",
+        "Special Equipment": "Robe of the Archmage, Staff of Power, Ring of Spell Storing, and 2d6 very rare spell scrolls and potions. The block gives no fixed contents for the ring or the consumables.",
+        "Spellcasting": "20th-level wizard. Intelligence, save DC 19, +11 to hit.\nAt will: Shield and Invisibility, plus Fire Bolt, Mage Hand, Minor Illusion, Prestidigitation, and Ray of Frost.\n1st level (4 slots): Mage Armor, Magic Missile, Thunderwave.\n2nd level (3 slots): Detect Thoughts, Levitate, Shatter.\n3rd level (3 slots): Counterspell, Dispel Magic, Lightning Bolt.\n4th level (3 slots): Banishment, Dimension Door, Ice Storm.\n5th level (3 slots): Arcane Hand, Scrying, Wall of Force.\n6th level (2 slots): Chain Lightning, Globe of Invulnerability.\n7th level (2 slots): Forcecage, Teleport.\n8th level (1 slot): Maze.\n9th level (1 slot): Prismatic Wall.",
+        "Actions": "Staff of Power. Melee weapon attack +6, reach 5 ft., one creature, 10 (1d6 + 1) bludgeoning.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nCantrip. Cast a cantrip.\nTeleport. Teleport 60 ft. to a visible empty space.\nCast a Spell (3 actions). Cast a spell by spending a slot.",
+        "Printed source": "Appendix B, p. 215"
+      },
+      "ruleNotes": [
+        "The printed Staff of Power attack lists 10 damage and a roll of 1d6 + 1. Use the formula when rolling."
+      ]
+    }
+  },
+  {
+    "name": "Knight-Captain Theodore Marshal",
+    "decision": "separate",
+    "pages": "Appendix B, p. 215",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Knight-Captain Theodore Marshal",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Human), lawful good",
+      "ac": 20,
+      "hp": 255,
+      "hitDice": "30d8 + 120",
+      "speed": "30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 19,
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Plate and shield. Saves Wis +7, Cha +9. Athletics +9, Animal Handling +7, Persuasion +9, Insight +7. Immune to Charmed and Frightened. Passive Perception 12. Common and Celestial.",
+      "description": "A knight of the Silver Order who fights with a Holy Avenger longsword.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nDivine Strikes. His weapon attacks are magical and add 4d8 radiant damage, included below.",
+        "Special Equipment": "Holy Avenger longsword.",
+        "Spellcasting": "20th-level paladin. Charisma, save DC 17, +9 to hit.\n1st level (4 slots): Bless, Command, Cure Wounds, Guiding Bolt.\n2nd level (3 slots): Aid, Branding Smite, Lesser Restoration.\n3rd level (3 slots): Beacon of Hope, Dispel Magic.\n4th level (3 slots): Banishment, Death Ward.\n5th level (2 slots): Flame Strike, Hallow.",
+        "Actions": "Multiattack. Make two melee attacks.\nHoly Avenger. Melee weapon attack +13, reach 5 ft., one target, 10 (1d8 + 8) bludgeoning plus 18 (4d8) radiant.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nAttack. Make one weapon attack.\nHoly Bolt (2 actions). Cast Guiding Bolt without spending a slot.",
+        "Printed source": "Appendix B, p. 215"
+      },
+      "ruleNotes": [
+        "The Holy Avenger entry prints bludgeoning damage and an average of 10 for 1d8 + 8. Use the formula when rolling."
+      ]
+    }
+  },
+  {
+    "name": "Queen of Thieves",
+    "decision": "separate",
+    "pages": "Appendix B, p. 217. Spymaster's Signet, Appendix D, p. 233.",
+    "notes": "The original printing supplies this independent stat block.",
+    "statBlock": {
+      "name": "Queen of Thieves",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid, neutral evil",
+      "ac": 23,
+      "hp": 120,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 19,
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Canny Defense and Mage Armor. Saves Dex +10, Int +10. Acrobatics +10, Arcana +10, Deception +14, Insight +8, Perception +8, Persuasion +9, Sleight of Hand +10, Stealth +15. Immune to Charmed. Darkvision 60 ft., passive Perception 18. Common, Dwarvish, Elvish, and Undercommon.",
+      "description": "The Queen's Men leader combines illusions, precise attacks, and memory magic.",
+      "sections": {
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nCanny Defense. Add Intelligence to AC with light or no armor and no shield.\nSneak Attack (1/turn). Add 18 (5d6) to a weapon hit if she has advantage, or if the target has a non-Incapacitated ally of the Queen within 5 ft. and she has no disadvantage.\nMemory Thief. Creatures do not notice when she reads their thoughts or charms them. When one of her spells that Charms a creature ends, she can force a DC 18 Intelligence save. Failure erases up to 8 hours of the time the creature spent Charmed by her. Heal or similar magic restores these memories.",
+        "Special Equipment": "Amulet of Proof Against Detection and Location, Spymaster's Signet, and +3 rapier. The attuned signet casts Disguise Self at will. As an action, the wearer can turn Invisible for 1 minute along with worn and carried items. A bonus action ends this invisibility early. The invisibility use returns at dawn.",
+        "Innate Spellcasting": "Intelligence, no components. At will: Detect Thoughts, Disguise Self, Suggestion.",
+        "Spellcasting": "20th-level wizard. Intelligence, save DC 18, +10 to hit.\nAt will: Chill Touch, Mage Hand, Message, Minor Illusion, Prestidigitation.\n1st level (4 slots): Feather Fall, Mage Armor, Shield, Sleep.\n2nd level (3 slots): Mirror Image, Misty Step, See Invisibility.\n3rd level (3 slots): Gaseous Form, Hypnotic Pattern, Major Image.\n4th level (3 slots): Dimension Door, Greater Invisibility, Polymorph.\n5th level (3 slots): Dominate Person, Scrying, Seeming.\n6th level (2 slots): Eyebite, Mass Suggestion.\n7th level (2 slots): Forcecage, Project Image.\n8th level (1 slot): Feeblemind.\n9th level (1 slot): Foresight.",
+        "Actions": "+3 Rapier. Melee weapon attack +13, reach 5 ft., one target, 13 (1d8 + 8) piercing.\nDagger. Ranged weapon attack +10, range 20/60 ft., one target, 7 (1d4 + 7) piercing.",
+        "Reactions": "Misdirection. When she would take damage, become Invisible and teleport 60 ft. to a visible empty space, leaving a double in her previous space for 1 minute. Invisibility ends if she attacks, casts a spell, or after 1 minute.",
+        "Legendary Actions": "Three legendary actions per round. Use one option after another creature's turn and recover spent actions at the start of this creature's turn.\nAttack. Make one melee or ranged attack.\nMove. Move up to speed without provoking opportunity attacks.",
+        "Printed source": "Appendix B, p. 217. Spymaster's Signet, Appendix D, p. 233."
+      },
+      "ruleNotes": [
+        "The printed Dagger lists 7 damage and a roll of 1d4 + 7. The +3 Rapier lists 13 damage and a roll of 1d8 + 8. Use the formulas when rolling."
+      ]
+    }
+  }
+]

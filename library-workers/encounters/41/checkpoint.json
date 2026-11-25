@@ -1,0 +1,27 @@
+{
+  "commit": "5cace32965ebbe6a53c7ec4d8800ac863aac6983",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 564,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "galleryComparison": "output/dm-library/review/encounters-41-gallery.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-41-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/41/results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Bigger Mimic",
+      "source": "https://www.dndbeyond.com/monsters/4485786-bigger-mimic",
+      "challenge": "4"
+    },
+    {
+      "name": "Mimic (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4485947-mimic-mcdm",
+      "challenge": "2"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Bulette",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      27
+    ],
+    "page": "p. 27 in v2. Bulette Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceDistinctions": [
+      "The Bulette heading, alias, and player traits are on v2 p. 27. Read the trait block's 30-ft. burrow speed and use normal jumping. The preceding play advice and following design notes mention Standing Leap, but it is absent from the trait list. Common comes from the Outlander background.",
+      "For Deadly Leap the attack roll gates the saving throw. Apply damage once. On a failed save or when there is no room for a successful push, the trait leaves both creatures in the landing square. Use that placement until one moves."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "ancestryRules": null,
+    "npcExamples": [
+      "Marl"
+    ]
+  },
+  {
+    "name": "Cambion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Fiend",
+    "url": "",
+    "printedPages": [
+      29
+    ],
+    "page": "p. 29 in v2. Cambion Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceDistinctions": [
+      "Player traits appear on v2 p. 29. Ilyra combines the conversion's Fiend Magic with 2014 Champion, Charlatan and purchased studded leather."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "ancestryRules": null,
+    "npcExamples": [
+      "Ilyra Vell"
+    ]
+  },
+  {
+    "name": "Carrion Crawler",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      30
+    ],
+    "page": "p. 30 in v2. Carrion Crawler Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceDistinctions": [
+      "The v2 Carrion Crawler player traits are on p. 30. Its tentacles cause restraint through poison, and the book's finesse clause supports Rogue Sneak Attack. The NPC applies qualifying bonus damage to the tentacle strike's poison damage."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "ancestryRules": null,
+    "npcExamples": [
+      "Silt Sifter"
+    ]
+  },
+  {
+    "name": "Chimera",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      32
+    ],
+    "page": "p. 32 in v2. Chimera Traits",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+    "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "sourceDistinctions": [
+      "V2 p. 32 includes the red-head traits and variant sidebar. The worked build chooses the Blue ancestry breath from the 2014 Player's Handbook p. 34, available in the 2014 Basic Rules ancestry table."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "ancestryRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/races",
+    "npcExamples": [
+      "Latch"
+    ]
+  }
+]

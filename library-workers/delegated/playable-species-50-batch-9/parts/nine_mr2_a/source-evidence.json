@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Elder Brain",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Aberration",
+    "url": "",
+    "rulesReadUrl": "",
+    "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "officialPreview": "",
+    "printedPages": [
+      51,
+      52
+    ],
+    "page": "pp. 51–52, Elder Brain Traits in the Mind Flayers section",
+    "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+    "sourceDistinctions": [
+      "Mind Blast first specifies a 15-ft. cone and then describes the target as in a line. Vellum uses the explicit cone.",
+      "Vellum relies on blindsight and has no grasping hands. The build stays below the printed psionic spell unlocks. The profile treats the specifically granted psionics as innate exceptions to the prohibition on ordinary verbal components."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Quickling",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Fey",
+    "url": "",
+    "rulesReadUrl": "",
+    "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "officialPreview": "",
+    "printedPages": [
+      62
+    ],
+    "page": "p. 62, Quickling Traits, and p. 6, Tiny Creatures",
+    "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+    "sourceDistinctions": [
+      "The printed player traits give 60-ft. speed and no darkvision. Design commentary mentions darkvision, which this build omits.",
+      "Bram uses a rapier made for a Tiny creature, applying the p. 6 weapon table (ordinary 1d8 becomes 1d2). It retains finesse."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Sea Spawn",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Humanoid",
+    "url": "",
+    "rulesReadUrl": "",
+    "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "officialPreview": "",
+    "printedPages": [
+      64,
+      65
+    ],
+    "page": "pp. 64–65, Sea Spawn Traits",
+    "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+    "sourceDistinctions": [
+      "Piscine Anatomy selects two of three options. Neris has bite and tentacle. His ordinary arm stays available, but the worked build relies on its natural attacks.",
+      "The introductory description calls the creature amphibious. The player trait block grants swim speed and omits an Amphibious trait. Neris uses the core breath-holding rule."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Shadow Mastiff",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "officialPreview": "",
+    "printedPages": [
+      66
+    ],
+    "page": "p. 66, Shadow Mastiff Traits",
+    "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+    "sourceDistinctions": [
+      "The printed traits grant Shadow Blend and Sunlight Weakness. The design discussion of an AC boost in darkness does not appear in the printed trait block.",
+      "Sable Bell is quadrupedal and handless. It uses no hand-held gear or shield, and its build uses unarmored AC."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Slithering Tracker",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Ooze",
+    "url": "",
+    "rulesReadUrl": "",
+    "publisherListing": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "officialPreview": "",
+    "printedPages": [
+      67
+    ],
+    "page": "p. 67, Slithering Tracker Traits",
+    "provenance": "Authored full-text mirror, checked against the DMs Guild preview for the contents and shared rules.",
+    "sourceDistinctions": [
+      "The player trait permits Life Leech grapples despite lack of hands. Size and contest follow the normal grappling rule.",
+      "Damage Transfer does not specify rounding or order with other modifiers. For Fenline, halve the incoming damage first, round down using the core default, then apply each recipient’s applicable modifiers to its share."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  }
+]

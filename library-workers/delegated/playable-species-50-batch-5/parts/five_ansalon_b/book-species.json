@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Thanoi",
+    "kind": "species",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "traits": [
+      "An adult thanoi is a Medium monstrous humanoid with the cold subtype. It has 20-ft. land speed, 40-ft. swim speed, darkvision 60 ft., cold immunity and fire vulnerability.",
+      "The full racial modifiers are Strength +4, Dexterity +2, Constitution +4, Intelligence −4, Wisdom −4 and Charisma −2. Three monstrous humanoid Hit Dice give 3d8, BAB +3, base saves Fort +1, Ref +3, Will +3 and two feats. Level adjustment +2 makes ECL 5 before adding class levels.",
+      "Natural armor +4. Tusks deal 2d4 plus Strength as a primary attack. As a secondary attack alongside a manufactured weapon in a full attack, they take a −5 attack penalty and add half Strength to damage. Great Breath delays the first underwater Constitution check for 30 minutes.",
+      "Thanoi have a +8 racial bonus to Balance on ice and to Swim. Their racial class skills are Balance, Climb, Survival and Swim. The full racial skill pool is six times 2 + the Intelligence modifier. Thanoi is automatic. Bonus languages are Common, Draconic, Icefolk and Ogre. Barbarian is favored.",
+      "The five-level racial class starts at Medium with Strength +2, Constitution +2, Intelligence −4 and Wisdom −2. It retains the movement, senses, cold subtype, racial skill bonuses and Great Breath. Class proficiency covers simple weapons, light armor and shields. Finish all five levels before multiclassing.",
+      "Level 1 adds Strength +2, natural armor +1, tusks 1d4, one feat and the first d8. Level 2 adds the second d8, Wisdom −2 and raises natural armor to +2. Level 3 adds Constitution +2 and raises tusk damage to 1d6. Level 4 adds the third d8, Charisma −2, a feat and natural armor +3. Level 5 adds Dexterity +2, natural armor +4 and tusks 2d4. Levels 3 and 5 add no Hit Dice."
+    ]
+  },
+  {
+    "name": "Ursoi",
+    "kind": "species",
+    "publication": "Races of Ansalon (2007)",
+    "edition": "3.5 edition",
+    "traits": [
+      "A full-grown ursoi has Large size, 10-ft. space and reach, 30-ft. speed, darkvision 60 ft., cold resistance 10, scent, natural armor +4 and +4 racial bonuses on Survival and Swim.",
+      "Full racial modifiers are Strength +10, Dexterity +2, Constitution +6, Intelligence −2, Wisdom +2 and Charisma −4. Five monstrous humanoid Hit Dice give 5d8, BAB +5, base saves Fort +1, Ref +4 and Will +4 and two feats. With level adjustment +2, an ursoi has ECL 7 before adding class levels. Racial class skills are Climb, Listen, Spot, Survival and Swim, with a skill pool of eight times 2 + the Intelligence modifier (minimum 1).",
+      "Claws are two primary attacks for 1d6 plus Strength each. A bite is secondary at −5, dealing 1d8 plus half Strength. When using a manufactured weapon, available claws can act as secondary attacks. A claw hit can start a grapple without a touch attack against a smaller opponent. An ursoi that keeps one claw free to fight can maintain a one-limb hold at −20.",
+      "An ursoi speaks Ursoi. Bonus languages are Common, Draconic, Icefolk and Thanoi, but the book explains that ursoi understand other languages without being able to speak them. Wisdom 13 or higher permits verbal spell components despite that limit. Ranger is the favored class after finishing the seven-level racial class.",
+      "The racial class begins Medium with Strength +2, Intelligence −2, Wisdom +2 and Charisma −4. It grants proficiency in simple weapons, light and medium armor, and shields. Level 1 gives one d8, natural armor +1, claws 1d3, a secondary bite 1d4 and a feat. Level 2 adds a d8, Strength +2, cold resistance 5, and +2 racial bonuses to Survival and Swim. Level 3 adds Constitution +2, natural armor +2, claws 1d4, bite 1d6 and Improved Grab.",
+      "Level 4 gives the third d8, Strength +2, a feat and scent 10 ft. Level 5 adds Dexterity +2 and Constitution +2, natural armor +3 and raises the skill bonuses to +4. Level 6 adds the fourth d8, Strength +2, scent 20 ft. and Large size with 10-ft. reach. Level 7 adds the fifth d8, Strength +2 and Constitution +2, natural armor +4, cold resistance 10, claws 1d6 and bite 1d8. Levels 3 and 5 add no Hit Dice."
+    ]
+  },
+  {
+    "name": "Draconian",
+    "kind": "species",
+    "publication": "Dragonlance Campaign Setting (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Choose Baaz or Kapak. Both are Medium dragons with 30-ft. land speed, darkvision 60 ft., low-light vision, immunity to sleep, paralysis and disease, and natural armor +2. Two dragon Hit Dice grant 2d12, BAB +2, Fort/Ref/Will bases +3 and one feat. The first racial Hit Die is maximized. Race and class levels grant feats by actual Hit Dice, while level adjustment affects ECL.",
+      "Both use a racial skill pool of five times 6 + the Intelligence modifier (minimum 1), with normal skill points in the first class level. Common is automatic. Bonus languages are Goblin, Nerakese and Ogre. Run is a bonus feat. Glide prevents damage from falling and allows up to 4 ft. horizontal travel per foot descended. A visible dragon commander or entering a battle under a dragon commander grants a +1 morale bonus to attacks and saves. Their food and water requirements are one tenth of a human’s.",
+      "Baaz have Constitution +2, Intelligence −2, Wisdom −2, level adjustment +1, Fighter favored and spell resistance 8 + class level. Racial class skills are Bluff (male) or Diplomacy (female), Disguise, Intimidate, Listen and Spot. Racial feats include proficiency with simple weapons, longswords, light armor and shields.",
+      "Baaz full natural routine is two 1d4 claws with full Strength and a 1d4 secondary bite with half Strength. Alongside a weapon, one available claw or bite can be secondary at −5 to hit and half Strength to damage. At death the Baaz turns to stone. A slashing or piercing weapon used to strike the killing blow is trapped unless its wielder passes a Reflex save against 12 + the Baaz’s Constitution modifier. The body crumbles after 1d4 minutes and leaves equipment intact. Resurrection, true resurrection and wish can restore the Baaz.",
+      "Kapak have Dexterity +2, Constitution +2, Intelligence −2, Wisdom −2, level adjustment +2, Rogue favored and spell resistance 11 + class level. Racial class skills are Hide, Listen, Move Silently, Search and Spot. Racial proficiency covers simple weapons, short swords, shortbows and light armor. The 1d4 bite is primary or can accompany a weapon as a secondary attack. The printed +1d6 sneak attack applies when the target loses its Dexterity bonus to AC and also observes the 30-ft. range, anatomy and concealment restrictions. Its dice stack with other sneak attack dice.",
+      "A female Kapak can heal a living creature for 2d6 with saliva once per recipient every four hours. Her bite does not heal. A male Kapak can deliver Dexterity poison by bite or on a piercing weapon. The coating takes a full-round action that provokes, and lasts three rounds or until the first hit. Use a Fortitude save against 11 + Constitution modifier for 1d6 Dexterity damage initially and again as secondary damage. At death, a Kapak leaves a 5-ft.-radius acid pool for 1d6 rounds. Exposure deals 1d6 acid per round to creatures and unattended objects. True resurrection or wish can restore the Kapak."
+    ]
+  }
+]

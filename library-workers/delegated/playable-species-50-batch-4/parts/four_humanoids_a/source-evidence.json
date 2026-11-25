@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Aarakocra",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      16,
+      17
+    ],
+    "pdfPages": [
+      17,
+      18
+    ],
+    "primaryBook": "PHBR10, TSR 2135, 1993",
+    "supportingSources": {
+      "playerHandbook": {
+        "url": "",
+        "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+      },
+      "movementOnly": {
+        "book": "Monstrous Manual",
+        "entry": "Aarakocra",
+        "url": "",
+        "detail": "Land speed 6 only. The character entry gives Fly 36 (C)."
+      }
+    },
+    "sourceDistinctions": [
+      "PHBR10 player profile. Later fifth-edition rules stay separate.",
+      "Use Chapter 2 creation ranges. Appendix Table 12 gives narrower Wisdom and Charisma maxima, and the NPC meets both sets of limits.",
+      "PHBR10 identifies a heavy fletched javelin but gives no replacement damage for the PC. This NPC uses the Player’s Handbook javelin. The Monstrous Manual’s 2d4 heavy javelin is outside the worked build."
+    ]
+  },
+  {
+    "name": "Alaghi",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      18,
+      19
+    ],
+    "pdfPages": [
+      19,
+      20
+    ],
+    "primaryBook": "PHBR10, TSR 2135, 1993",
+    "supportingSources": {
+      "playerHandbook": {
+        "url": "",
+        "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+      },
+      "movementOnly": {
+        "book": "Monstrous Compendium, Forgotten Realms Appendix II (MC11)",
+        "entry": "Alaghi",
+        "url": "https://anyflip.com/cmjgl/ewfq/basic",
+        "detail": "Land speed 12 only. Use PHBR10 for the player character’s HP, attacks and stealth."
+      }
+    },
+    "sourceDistinctions": [
+      "PHBR10 player profile. Keep creature entries separate.",
+      "Chapter 2 gives Fighter and Druid as single-class choices. Appendix Table 13 separately lists Fighter/Shaman as a multiclass combination. The build uses the undisputed Fighter option.",
+      "PHBR10 gives fist damage without a special PC attack count. The sample uses one fist at the first-level fighter attack rate. The MC11 creature’s multiple attacks stay with that creature stat block."
+    ]
+  },
+  {
+    "name": "Beastman",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      19,
+      20
+    ],
+    "pdfPages": [
+      20,
+      21
+    ],
+    "primaryBook": "PHBR10, TSR 2135, 1993",
+    "supportingSources": {
+      "playerHandbook": {
+        "url": "",
+        "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+      },
+      "movementOnly": {
+        "book": "Monstrous Compendium, Greyhawk Appendix (MC5)",
+        "entry": "Beastman",
+        "url": "",
+        "detail": "Land speed 12 only. Use PHBR10 for the player character’s class, camouflage and magic resistance."
+      }
+    },
+    "sourceDistinctions": [
+      "PHBR10 Beastman, separate from Beastkin and other similarly named player options.",
+      "The worked example uses Fighter 1. Chapter 2 caps Fighter at 10 and Ranger at 12, while the appendix gives only the Warrior group cap of 12.",
+      "Use core hand axe damage for the matching stone variant. Chapter 7’s optional nonmetal breakage rule is not used in this build."
+    ]
+  },
+  {
+    "name": "Advanced Bullywug",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      22,
+      23,
+      24
+    ],
+    "pdfPages": [
+      23,
+      24,
+      25
+    ],
+    "primaryBook": "PHBR10, TSR 2135, 1993",
+    "supportingSources": {
+      "playerHandbook": {
+        "url": "",
+        "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+      },
+      "movementOnly": {
+        "book": "Monstrous Manual",
+        "entry": "Bullywug and Bullywug, Advanced",
+        "url": "",
+        "detail": "The main entry supplies Move 3, Swim 15 in unarmored form. The advanced subsection gives no different rates. The NPC borrows the unarmored rates, and swims with the shield slung."
+      }
+    },
+    "sourceDistinctions": [
+      "Printed heading Bullywug, Advanced. Separate from baseline Bullywug.",
+      "Book heading is Bullywug, Advanced. The staged catalog keeps the reviewed name Advanced Bullywug.",
+      "The basic Bullywug movement rates come from the Monstrous Manual. Its Advanced subsection gives no separate rates. The example wears no body armor. The shield is treated as slung while swimming."
+    ]
+  },
+  {
+    "name": "Fremlin",
+    "publication": "The Complete Book of Humanoids (1993)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "creatureType": "Humanoid",
+    "url": "",
+    "printedPages": [
+      25,
+      26,
+      27
+    ],
+    "pdfPages": [
+      26,
+      27,
+      28
+    ],
+    "primaryBook": "PHBR10, TSR 2135, 1993",
+    "supportingSources": {
+      "playerHandbook": {
+        "url": "",
+        "rules": "Tables 1, 2, 3, 14, 20–21, 44–45, 53, 60 and Appendix 3, plus Chapter 9 combat."
+      },
+      "movementOnly": {
+        "book": "Monstrous Manual",
+        "entry": "Gremlin, Fremlin table column",
+        "url": "",
+        "detail": "Land speed 6 only. PHBR10 gives Fly 12 (B)."
+      }
+    },
+    "sourceDistinctions": [
+      "PHBR10 Fremlin, separate from gremlin creature families.",
+      "Chapter 2 lists Thief 12 and Appendix Table 1 lists Rogue 11. The worked example uses Mage 1, which both sections allow.",
+      "The original roster pointed to page 25, where the entry starts. The player options and flight/weapon immunity continue on pp. 26–27."
+    ]
+  }
+]

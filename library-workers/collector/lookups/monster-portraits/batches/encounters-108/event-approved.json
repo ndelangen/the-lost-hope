@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Mephling",
+    "slug": "mephling",
+    "caption": "Pip Reedwhistle · Original Mephling NPC",
+    "id": "species-4f6617a02d6e781a6d8cd791:668a5b46851a1f114dd2faf2",
+    "entry": "species-4f6617a02d6e781a6d8cd791",
+    "version": "668a5b46851a1f114dd2faf2",
+    "suffix": "encounters-108/mephling.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-108/mephling.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-108/event-drafts/mephling-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 108 2026-11-24/event-drafts/mephling-event-v1.png",
+    "overrides": [],
+    "sha256": "7e94ef2de1b4d3ff232774e5b15fce7eebfc7a0dc01418a779eca242704084b9",
+    "bytes": 2021440
+  }
+]

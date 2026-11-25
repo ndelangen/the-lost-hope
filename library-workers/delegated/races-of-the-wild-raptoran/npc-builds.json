@@ -1,0 +1,115 @@
+{
+  "builds": [
+    {
+      "id": "raptoran-glider-line-rigger-35e",
+      "title": "Raptoran glider and ropeway rigger, Expert 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 1/2. ECL 1.",
+      "size": "Medium",
+      "type": "Humanoid (Raptoran)",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 2,
+      "speed": "Walk 30 ft. Glide 40 ft. (average).",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +6",
+        "Climb +7",
+        "Jump +15",
+        "Listen +4",
+        "Search +5",
+        "Spot +6",
+        "Use Rope +9"
+      ],
+      "senses": "Low-light vision and Unerring Direction on the Material Plane",
+      "languages": "Common, Tuilvilanuue, Elven",
+      "traits": [
+        "Leather armor +2, Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +1. Fortitude +1, Reflex +2, Will +2. Skill Focus (Use Rope) adds +3.",
+        "Glides 40 ft. with average maneuverability and 20 ft. forward for each 5 ft. down. At 1 Hit Die this build can glide from height only. Maintain a light load, up to 43 lb. at Strength 12.",
+        "An unconscious or helpless Raptoran aloft descends in a corkscrew and takes 1d6 falling damage. Jump, Climb and Spot above include the racial bonuses."
+      ],
+      "actions": [
+        "Dagger +1 melee, 1d4+1 piercing or slashing, critical 19–20/×2, reach 5 ft.",
+        "Light crossbow +2 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. range increment. Reload as a move action."
+      ],
+      "tactics": "Check the knots and use the upper landing to glide a light messenger line down. Ask the party to secure the near anchor. Keep anyone needing rescue off the glider’s load."
+    },
+    {
+      "id": "raptoran-flying-beacon-sentry-35e",
+      "title": "Raptoran beacon sentry, Fighter 5",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "difficulty": "Provisional CR 5. ECL 5.",
+      "size": "Medium",
+      "type": "Humanoid (Raptoran)",
+      "ac": 17,
+      "hp": 42,
+      "hitDice": "5d10+10",
+      "initiative": 3,
+      "speed": "Walk 30 ft. Fly or glide 40 ft. (average).",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +10",
+        "Jump +18",
+        "Spot +3"
+      ],
+      "senses": "Low-light vision and Unerring Direction on the Material Plane",
+      "languages": "Common, Tuilvilanuue",
+      "traits": [
+        "Chain shirt +4 and Dexterity +3. Touch 13, flat-footed 14. BAB +5, grapple +7. Fortitude +6, Reflex +4, Will +2. Strength 14 allows a light load up to 58 lb.",
+        "With Constitution 14, fly safely for 2 consecutive rounds. Can fly for up to 4, becoming fatigued at the end. More than 10 minutes actual flight in a day also causes fatigue. Glide between bouts. A medium or heavy load, fatigue, or exhaustion prevents powered flight.",
+        "Feats are Point Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (footbow), and Weapon Specialization (footbow). The footbow is masterwork with a +2 Strength rating."
+      ],
+      "actions": [
+        "Footbow +10 ranged, critical ×3 and 110-ft. range increment. Damage 1d8+4 with one hand drawing, or 1d8+5 with both hands drawing and the feet holding the bow. Within 30 ft., add +1 attack and damage from Point Blank Shot.",
+        "Ground footbow shots require prone posture and take −4 on attack rolls. Rapid Shot is a full attack with an extra shot and −2 to both attacks. Use it from a stable prone firing position on the ground. At more than 30 ft. the ground volley is +4/+4.",
+        "Shortspear wielded two-handed, +7 melee, 1d6+3 piercing, critical ×2, 5-ft. reach. Diving charge +9 melee: move at least 30 ft. and descend at least 10 ft. Double damage on a hit. Apply the ordinary charge requirements and AC penalty."
+      ],
+      "tactics": "Use a brief powered bout to reach a beacon platform, then glide to the lower perch and signal across the ravine. Make single moving shots in the air. Use the ground volley only once there is secure footing and cover."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Raptoran",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of the Wild (2005)",
+      "name": "Avilli",
+      "build": "raptoran-glider-line-rigger-35e",
+      "role": "Glider and ropeway rigger who carries a light messenger line.",
+      "motive": "Reconnect a ropeway before travellers reach the damaged span.",
+      "hook": "Avilli can glide a messenger line down from the upper landing if someone holds the near anchor."
+    },
+    {
+      "species": "Raptoran",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of the Wild (2005)",
+      "name": "Tarinel",
+      "build": "raptoran-flying-beacon-sentry-35e",
+      "role": "Beacon sentry and footbow specialist with limited flight.",
+      "motive": "Get both cliff beacons back in sight of each other before the pass closes.",
+      "hook": "Tarinel can reach the far platform in a short powered bout if the party clears the lower perch."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Angulotl Blade",
+    "slug": "angulotl-blade",
+    "id": "monster-8f6db11c5de432671cee11ba:ab2a64fb27cd5415dbf5f906",
+    "entry": "monster-8f6db11c5de432671cee11ba",
+    "version": "ab2a64fb27cd5415dbf5f906",
+    "suffix": "encounters-33/angulotl-blade.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-33/angulotl-blade.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-33/event-drafts/angulotl-blade-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 33 2026-11-23/event-drafts/angulotl-blade-event-v1.png",
+    "overrides": [],
+    "sha256": "3101d06d3f00a0a40cdd2e7f6bcc4d11a6305aa49d9833db100fd48565e18f75",
+    "bytes": 2731189
+  },
+  {
+    "name": "Angulotl Needler",
+    "slug": "angulotl-needler",
+    "id": "monster-0d2ccee1087a86ee8f83d3a0:9903dfb959a5db8e176930a9",
+    "entry": "monster-0d2ccee1087a86ee8f83d3a0",
+    "version": "9903dfb959a5db8e176930a9",
+    "suffix": "encounters-33/angulotl-needler.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-33/angulotl-needler.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-33/event-drafts/angulotl-needler-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 33 2026-11-23/event-drafts/angulotl-needler-event-v1.png",
+    "overrides": [],
+    "sha256": "9b6a5e0b9aa4bdf4b4562deeeae5235f016cf4ad93935510330102011ae49129",
+    "bytes": 2667357
+  },
+  {
+    "name": "Angulotl Seer",
+    "slug": "angulotl-seer",
+    "id": "monster-df558ce738664fa1e31e8303:bfc2b84b88f09394379fb0fe",
+    "entry": "monster-df558ce738664fa1e31e8303",
+    "version": "bfc2b84b88f09394379fb0fe",
+    "suffix": "encounters-33/angulotl-seer.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-33/angulotl-seer.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-33/event-drafts/angulotl-seer-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 33 2026-11-23/event-drafts/angulotl-seer-event-v1.png",
+    "overrides": [],
+    "sha256": "ba5a89848a7fc5b8208b5c976c70baccb1385f0cfde02bcde8e710bd24673017",
+    "bytes": 2830750
+  },
+  {
+    "name": "Angulotl Slink",
+    "slug": "angulotl-slink",
+    "id": "monster-bc87c60d0b32ac56da9ee072:10aadfdd638afea88adc7520",
+    "entry": "monster-bc87c60d0b32ac56da9ee072",
+    "version": "10aadfdd638afea88adc7520",
+    "suffix": "encounters-33/angulotl-slink.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-33/angulotl-slink.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-33/event-drafts/angulotl-slink-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 33 2026-11-23/event-drafts/angulotl-slink-event-v1.png",
+    "overrides": [],
+    "sha256": "9b779d8de80a477a8f3d5d6930537af121ead1ca43ce840de49f854eb34ec858",
+    "bytes": 2746368
+  }
+]

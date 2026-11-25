@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Alseid",
+    "kind": "species",
+    "publication": "Margreve Player’s Guide (2019)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium Monstrosity. Walk 40 ft. Dexterity +2, Wisdom +1 and darkvision 60 ft.",
+      "Alseid Weapon Training gives proficiency with spears and shortbows. Light Hooves gives Stealth proficiency.",
+      "Quadruped. Squeeze through trapdoors, manholes and similar openings that a Medium Humanoid could traverse normally. Ladders, stairs and similar routes count as difficult terrain.",
+      "Woodfriend. Leave no tracks and automatically know true north while in a forest.",
+      "Speak, read and write Common and Elvish."
+    ]
+  },
+  {
+    "name": "Erina",
+    "kind": "species",
+    "publication": "Margreve Player’s Guide (2019)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Small. Walk 25 ft. Dexterity +2, plus Wisdom or Charisma +1. Darkvision 60 ft.",
+      "Hardy. Resist poison damage and roll saving throws against poison with advantage.",
+      "Spines. At the start of your turn, a creature you are grappling or that is grappling you takes 1d4 piercing damage.",
+      "Keen Senses gives Perception proficiency. Digger gives 20 ft. of burrowing speed through earth and sand. Mud, ice and rock block this movement.",
+      "Speak Erina and either Common or Sylvan."
+    ]
+  },
+  {
+    "name": "Piney",
+    "kind": "species",
+    "publication": "Margreve Player’s Guide (2019)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium Humanoid. Walk 30 ft. Constitution +2, Wisdom +1 and darkvision 60 ft.",
+      "Margreve Within. Meet daily food needs through ordinary food or 30 minutes of direct sunlight. Resist poison damage and roll saving throws against poison with advantage.",
+      "Margreve Without. Choose a plantlike feature, such as cracked bark skin or creaking wooden joints, or agree on another feature with the GM.",
+      "Roots gives Nature and Survival proficiency. Speak, read and write Common and speak unwritten Piney."
+    ]
+  },
+  {
+    "name": "Ravenfolk",
+    "kind": "species",
+    "publication": "Book of Ebon Tides",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Sublime Ravenfolk. Medium. Walk 30 ft. Dexterity +2 and Charisma +1.",
+      "Constant Tune gives advantage on saves against charm and fear. Cosmic Musician gives Performance proficiency and proficiency with one instrument of your choice.",
+      "Sublime Chord. As an action, creatures able to hear you within 30 ft. make a DC 13 Charisma save. On failure they treat you as a casual friend and are charmed by you for 10 minutes. A creature has advantage if you or your companions are fighting it. Recharge on a long rest.",
+      "Speak, read and write Common, Ravenfolk and Umbral."
+    ]
+  },
+  {
+    "name": "Trollkin",
+    "kind": "species",
+    "publication": "Midgard Heroes Handbook (2018)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Medium. Walk 30 ft. Constitution +2. Darkvision 60 ft. Legacy of Fear gives Intimidation proficiency. Speak, read and write Northern Tongue.",
+      "Natural Weapons. Unarmed claws deal 1d4 + Strength modifier slashing. Unarmed fangs deal 1d4 + Strength modifier piercing.",
+      "Inhuman Vigor. As a bonus action, spend one Hit Die to recover HP just as on a short rest. The maximum spend rises to two dice at level 6, three at level 12 and four at level 18. Recharge on a long rest. After taking acid or fire damage, the trait is unavailable until a short or long rest.",
+      "Night Whisper. Wisdom +1. Once per long rest, announce Spirit Whispers before rolling an ability check or saving throw to roll with advantage.",
+      "Stonehide. Strength +1. Thick Hide gives a +1 bonus to AC."
+    ]
+  }
+]

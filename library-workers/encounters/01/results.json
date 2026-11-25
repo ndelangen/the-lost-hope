@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Abominable Yeti",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Adranach",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Adult Blue Dracolich",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Arcanaloth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Barlgura",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Beholder",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Beholder Zombie",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Blue Slaad",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Bullywug",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Carrion Crawler",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Chasme",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Death Slaad",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Death Tyrant",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Drow Elite Warrior",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Drow Mage",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Drow Priestess of Lolth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Empyrean",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Flumph",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Fomorian",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Galeb Duhr",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Gas Spore",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Githyanki Knight",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Githyanki Warrior",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Githzerai Zerth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Goblin Boss",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Gray Slaad",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Grell",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Grick Alpha",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Helmed Horror",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Hobgoblin Captain",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Hook Horror",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Intellect Devourer",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Kuo-toa",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Kuo-toa Archpriest",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Kuo-toa Whip",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Master Adranach",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Mezzoloth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Mind Flayer",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Mud Mephit",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Myconid Adult",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Myconid Sovereign",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Myconid Sprout",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Nycaloth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Orog",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Quadrone",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Quaggoth",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Quaggoth Spore Servant",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "status": "manual-combat-profile"
+  },
+  {
+    "name": "Vos’skyriss Serpentfolk",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Vos’skyriss Serpentfolk Ghost",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  },
+  {
+    "name": "Wraithroot Tree",
+    "publication": "Tal’Dorei Campaign Setting Reborn",
+    "status": "local-stat-block"
+  }
+]

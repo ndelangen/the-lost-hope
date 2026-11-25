@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Cnidaran",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "traits": [
+      "Playable rules by the Loot Tavern design team in Heliana’s Guide to Monster Hunting, chapter 6, printed page 152.",
+      "Medium. Constitution increases by 1. Walk 30 ft. and swim at your walking speed. Breathe air and water. Speak, read, and write Common and one chosen language. Medusozoa mature near age 20 and may live 200 years.",
+      "Choose the Nematocyst or Shimmerskin morph.",
+      "Nematocyst adds 1 Dexterity and 1 Constitution. Its barbed natural finesse weapon can make unarmed strikes for 1d4 piercing plus your choice of Strength or Dexterity modifier. It grants poison damage resistance and advantage on saves against being poisoned.",
+      "Nematocyst Neurotoxin uses a bonus action to coat one weapon or piece of ammunition, effective for 1 hour and triggered the first time it hits a creature. You can use the bonus action to inject the toxin as you land an appendage hit instead. On failure against a Constitution save of 8 + Constitution modifier + proficiency bonus, the target is paralyzed until the start of its next turn. Uses equal proficiency bonus, restored on a long rest.",
+      "Shimmerskin adds 2 Charisma. Once per long rest, use a bonus action to shimmer for 10 minutes and gain advantage on Charisma checks throughout that time.",
+      "Shimmerskin learns minor illusion. Charm person unlocks at level 3 and suggestion at level 5. Each leveled spell is available once per long rest through the trait and can also use appropriate slots. These use Charisma and waive somatic and material components when cast with the trait."
+    ]
+  },
+  {
+    "name": "Cyclopian",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "traits": [
+      "Playable rules by the Loot Tavern design team in Heliana’s Guide to Monster Hunting, chapter 6, printed page 154.",
+      "Medium Humanoid. Also qualifies as an Aberration for prerequisites and effects that require one. Intelligence increases by 2 and choose a 1-point increase to Dexterity or Wisdom. Matures in the early teens and usually lives about as long as a human.",
+      "Walk 30 ft. and climb 20 ft. Darkvision reaches 60 ft. Speak, read, and write Common, Undercommon, and another chosen language.",
+      "Choose proficiency in two of Arcana, History, Insight, Investigation, Medicine, Perception, Religion, and Stealth.",
+      "Savant of Secrets is a 1-minute cyclotrance initiated with an action. During it, Perception, Investigation, and Insight checks have advantage. Use once per long rest.",
+      "Thought for Food halves required food and water and gives advantage on Constitution saves after learning something the GM considers significant. The benefits last until a long rest."
+    ]
+  },
+  {
+    "name": "Gobboc",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "traits": [
+      "Playable rules by the Loot Tavern design team in Heliana’s Guide to Monster Hunting, chapter 6, printed page 156.",
+      "Small. Dexterity increases by 2 and choose a 1-point increase to Charisma or Wisdom. Walk 25 ft. Speak, read, and write Common and a chosen language. Walk soon after hatching, mature at 7 years, and live about 30 years.",
+      "Feathered beasts and monstrosities understand your words, and your checks to influence them have advantage. You gain no special ability to understand their replies.",
+      "After landing a melee attack, you can use a bonus action to Disengage. Falling damage is halved.",
+      "Gallus Domesticus uses Charisma to cast polymorph only on yourself, taking the form of the Tiny Chicken printed on the same page. Once per long rest.",
+      "If reduced to 0 HP without dying outright, you may immediately move up to your speed without provoking opportunity attacks. You then fall unconscious in the space you reach."
+    ]
+  },
+  {
+    "name": "Golynn",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "traits": [
+      "Playable rules by the Loot Tavern design team in Heliana’s Guide to Monster Hunting, chapter 6, printed page 158.",
+      "Medium. Constitution increases by 2 and Strength increases by 1. Walk 30 ft. Speak, read, and write Common and a chosen language. Usually 7–8 ft. tall and 300–400 lb. Matures at 10 and lives about 150 years.",
+      "Natural armor gives AC 13 + Dexterity modifier. Use it when unarmored or when worn armor alone gives less AC. A shield can still add its usual benefit.",
+      "Count as one size larger for carrying capacity and for pushing, dragging, and lifting. Burrow 15 ft. through soft earth or loose stone.",
+      "Burrow directly under a creature that is Large or smaller and standing on the ground. Its Strength save DC is 8 + your Strength modifier + proficiency bonus. A failed save knocks it prone.",
+      "Tremorsense extends 5 ft. As an action, extend it to 20 ft. until your next turn ends."
+    ]
+  },
+  {
+    "name": "Lotol",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+    "traits": [
+      "Playable rules by the Loot Tavern design team in Heliana’s Guide to Monster Hunting, chapter 6, printed page 160.",
+      "Medium. Wisdom increases by 2 and Constitution by 1. Walk 30 ft. Speak, read, and write Common and a chosen language. Gain adult form after one year, mature around age 10, and usually live 40–50 years.",
+      "Oblivious grants advantage on Wisdom saves. Slippery Skin grants advantage on checks and saves to avoid or end a grapple or restraint on yourself.",
+      "Choose two adaptations. On leveling, you may elect to replace one of them after the next long rest.",
+      "Aqueous Adaptation gives underwater breathing and swimming at walking speed. Gecko Cling gives a 20-ft. climbing speed and advantage on checks and saves to maintain grapples or keep your grip on held objects against disarming.",
+      "Darkvision extends 60 ft. Prehensile Tongue uses a bonus action to retrieve a Tiny object within 20 ft. if it weighs less than 10 lb., is unattached, and is neither worn nor carried.",
+      "Shocking Skin teaches shocking grasp using Constitution. When a creature within 5 ft. hits you in melee, you may cast it as a reaction against that attacker. Reaction uses equal proficiency bonus, restored on a long rest."
+    ]
+  }
+]

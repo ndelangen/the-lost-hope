@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hadozee",
+    "species": "species-155f6ee787e625099592f150",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Stormwrack (2005)"
+    ],
+    "portraitSha256": "fb2d5f7769ef65ad21a285c5ee6deeb9d86fc1f7f3bd492953013a751f8572d4",
+    "caption": "Renn Farwake · Original Hadozee NPC",
+    "npcReceipts": [
+      {
+        "name": "Renn Farwake",
+        "id": "npc-191c34267a718dea482ca09c",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      },
+      {
+        "name": "Daro Brightkeel",
+        "id": "npc-17b6fe7f9ec30dd675267d61",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      }
+    ]
+  }
+]

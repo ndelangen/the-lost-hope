@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Arcadian Avenger",
+    "file": "",
+    "sha256": "7aa29c4187210482725e0b9cee6105ac6e46a323a3fd1d23bcab760c7659779d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Tavia Reedmark"
+  },
+  {
+    "name": "Banshrae",
+    "file": "",
+    "sha256": "ac761d30e1e68c7c8ff2f7d36a36090237874ef404e4abd461b5861a5350909e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Sil Merrowglass"
+  },
+  {
+    "name": "Elemental Magi",
+    "file": "",
+    "sha256": "848de5e8a4893834530309933aab27c822b2a8ce86ed65cadb67fe7743b783ad",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Orrun Flint"
+  },
+  {
+    "name": "Ethereal Defiler",
+    "file": "",
+    "sha256": "47647b66a765d70fa8cfba7d3c88b74acba19431138bd1045f61b7b995fa1261",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Veysk Twice-Bound"
+  }
+]

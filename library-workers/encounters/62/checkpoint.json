@@ -1,0 +1,25 @@
+{
+  "commit": "b8250f181d897d542b1a34d1d5095051c04744f5",
+  "publication": "Expanded Psionics Handbook (2004)",
+  "edition": "3.5 edition",
+  "playableSpecies": 1,
+  "profiles": 1,
+  "fullNpcBuilds": 2,
+  "generatedPortraitsInstalled": 1,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-62-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/62/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Hobgoblin Firerunner",
+      "source": "https://www.dndbeyond.com/monsters/4485884-hobgoblin-firerunner",
+      "challenge": "4"
+    },
+    {
+      "name": "Hobgoblin Trooper",
+      "source": "https://www.dndbeyond.com/monsters/4485888-hobgoblin-trooper",
+      "challenge": "1/2"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Duergar Despot",
+    "statBlock": {
+      "name": "Duergar Despot",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 188,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 21,
+      "hp": 119,
+      "hitDice": "14d8 + 56",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 5
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A despot controls its mechanical limbs with psionics and can swap its crushing attacks for long jets of flame.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Magic Resistance. The despot has advantage on saves against spells and other magical effects.\nPsychic Engine. A critical hit against the despot or a drop to 0 hit points triggers a burst. Each creature within 5 ft. takes 14 (4d6) psychic damage.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Innate Spellcasting": "The despot's psionics use Intelligence (spell save DC 12) and require no components.\nAt will. Mage Hand, Minor Illusion.\n1/day each. Counterspell, Misty Step, Stinking Cloud.",
+        "Actions": "Multiattack. Make two Iron Fist attacks and two Stomping Foot attacks. Any or all four attacks can be replaced with Flame Jet.\nIron Fist. Melee weapon attack, +9 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage. A Large or smaller creature hit must also pass a DC 17 Strength save. On a failure, the despot throws it up to 30 ft. away in a straight line. It lands prone and takes another 10 (3d6) bludgeoning damage.\nStomping Foot. Melee weapon attack, +9 to hit, reach 5 ft., one target. On a hit, deal 9 (1d8 + 5) bludgeoning damage, or 18 (3d8 + 5) if the target is prone.\nFlame Jet. Each creature in a 100-ft. line 5 ft. wide makes a DC 16 Dexterity save. It takes 18 (4d8) fire damage on a failure or half on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 188."
+      }
+    }
+  },
+  {
+    "name": "Duergar Hammerer",
+    "statBlock": {
+      "name": "Duergar Hammerer",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 188,
+      "classification": "Medium construct, lawful evil",
+      "ac": 17,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 7,
+      "description": "A captive duergar powers this digging machine through pain. Duergar put hammerers to work tunneling and defending their strongholds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Dwarvish but can't speak.",
+        "Traits": "Engine of Pain. An attacker can aim at the duergar inside the hammerer once per turn, rolling with disadvantage. A hit deals an extra 5 (1d10) damage to the hammerer, which can use its reaction to make its Multiattack.\nSiege Monster. The hammerer doubles its damage to objects and structures.",
+        "Actions": "Multiattack. Make one Claw attack and one Hammer attack.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.\nHammer. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 188."
+      }
+    }
+  },
+  {
+    "name": "Duergar Kavalrachni",
+    "statBlock": {
+      "name": "Duergar Kavalrachni",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 189,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Duergar cavalry ride female steeders into battle. The rider can conceal both of them and create openings for the mount to strike.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Scale mail and shield.",
+        "Damage resistances": "Poison.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Cavalry Training. When the rider hits with a melee attack while mounted on a female steeder, the steeder can use its reaction to make one melee attack against that target.\nDuergar Resilience. The duergar makes saving throws against poison, spells, and illusions with advantage. It also has advantage on saves to resist being charmed or paralyzed.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "Multiattack. Make two War Pick attacks.\nWar Pick. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) piercing damage plus 5 (2d4) poison damage.\nHeavy Crossbow. Ranged weapon attack, +2 to hit, range 100/400 ft., one target. A hit deals 5 (1d10) piercing damage.\nShared Invisibility (Recharges after a Short or Long Rest). The duergar and its gear become magically invisible for up to 1 hour. The effect ends if the duergar attacks, casts a spell, or loses concentration as if concentrating on a spell. A female steeder the invisible duergar is riding is also invisible. The steeder's invisibility ends immediately if it attacks.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 189."
+      }
+    }
+  },
+  {
+    "name": "Duergar Mind Master",
+    "statBlock": {
+      "name": "Duergar Mind Master",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 189,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 14,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A psionic spy who sees through illusions and shrinks to slip into places a full-size intruder could never reach.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "savingThrows": {
+        "Wis": 2
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Damage resistances": "Poison.",
+        "Senses": "Darkvision 120 ft., truesight 30 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Duergar Resilience. The duergar makes saving throws against poison, spells, and illusions with advantage. It also has advantage on saves to resist being charmed or paralyzed.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "Multiattack. Make two melee attacks. Mind Mastery can replace one of them.\nMind-Poison Dagger. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage plus 10 (3d6) psychic damage. While reduced, a hit instead deals 1 piercing damage plus 14 (4d6) psychic damage.\nInvisibility (Recharge 4–6). The duergar and its gear become magically invisible for up to 1 hour. The effect ends if the duergar attacks, casts a spell, uses Reduce, or loses concentration as if concentrating on a spell.\nMind Mastery. Choose a creature the duergar can see within 60 ft. A creature that can't be charmed is immune. On a failed DC 12 Intelligence save, the target must use its reaction to make one weapon attack against another creature the duergar can see, or move up to 10 ft. in a direction the duergar chooses. The duergar picks the option.\nReduce (Recharges after a Short or Long Rest). The duergar and its gear shrink for 1 minute. It becomes Tiny and deals 1 weapon damage, with the dagger's reduced damage listed above. It has disadvantage on attacks, checks, and saves that use Strength. Its AC increases by 5 to 19, and its Dexterity (Stealth) checks gain a +5 bonus. It can take the Hide action as a bonus action on each of its turns.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 189."
+      }
+    }
+  },
+  {
+    "name": "Duergar Screamer",
+    "statBlock": {
+      "name": "Duergar Screamer",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium construct, lawful evil",
+      "ac": 15,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 7,
+      "description": "This rock-grinding construct turns the pain of a captive duergar into a destructive burst of sound.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Dwarvish but can't speak.",
+        "Traits": "Engine of Pain. An attacker can aim at the duergar inside the screamer once per turn, rolling with disadvantage. A hit deals an extra 11 (2d10) damage to the screamer, which can use its reaction to make its Multiattack.",
+        "Actions": "Multiattack. Make one Drill attack and use Sonic Scream.\nDrill. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (1d12 + 4) piercing damage.\nSonic Scream. Each creature in a 15-ft. cube makes a DC 11 Strength save. On a failure, it takes 7 (2d6) thunder damage and falls prone.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 190."
+      }
+    }
+  },
+  {
+    "name": "Duergar Soulblade",
+    "statBlock": {
+      "name": "Duergar Soulblade",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 14,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "This warrior forms a blade of psionic energy in its hand and strikes hardest when it has an opening.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Damage resistances": "Poison.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Duergar Resilience. The duergar makes saving throws against poison, spells, and illusions with advantage. It also has advantage on saves to resist being charmed or paralyzed.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Innate Spellcasting": "The duergar's psionics use Wisdom (spell save DC 12, +4 to hit with spell attacks) and require no components.\nAt will. Blade Ward, True Strike.\n3/day each. Jump, Hunter's Mark.",
+        "Bonus actions": "Create Soulblade. A visible, shortsword-sized psionic blade forms in the duergar's hand. It vanishes if the duergar releases it, dies, or becomes incapacitated.",
+        "Actions": "Soulblade. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) force damage, or 10 (2d6 + 3) while enlarged. Add 3 (1d6) force damage on a hit if the duergar had advantage on the attack roll.\nEnlarge (Recharges after a Short or Long Rest). The duergar and its gear grow for 1 minute. It becomes Large, or as large as the available space permits. While enlarged, it has advantage on Strength checks and saves and doubles the damage dice of Strength-based weapon attacks. The enlarged attack formulas already include the extra dice.\nInvisibility (Recharges after a Short or Long Rest). The duergar and its gear become magically invisible for up to 1 hour. The effect ends if the duergar attacks, casts a spell, uses Enlarge, or loses concentration as if concentrating on a spell.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 190."
+      }
+    }
+  },
+  {
+    "name": "Duergar Stone Guard",
+    "statBlock": {
+      "name": "Duergar Stone Guard",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 191,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 18,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Elite duergar troops fight in shield formations and assemble into small strike teams for specific missions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Chain mail and shield.",
+        "Damage resistances": "Poison.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Duergar Resilience. The duergar makes saving throws against poison, spells, and illusions with advantage. It also has advantage on saves to resist being charmed or paralyzed.\nPhalanx Formation. While standing within 5 ft. of a duergar ally who wields a shield, the stone guard has advantage on attack rolls and Dexterity saves.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "King's Knife (Shortsword). Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) while enlarged.\nJavelin. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) while enlarged.\nEnlarge (Recharges after a Short or Long Rest). The duergar and its gear grow for 1 minute. It becomes Large, or as large as the available space permits. While enlarged, it has advantage on Strength checks and saves and doubles the damage dice of Strength-based weapon attacks. The enlarged attack formulas already include the extra dice.\nInvisibility (Recharges after a Short or Long Rest). The duergar and its gear become magically invisible for up to 1 hour. The effect ends if the duergar attacks, casts a spell, uses Enlarge, or loses concentration as if concentrating on a spell.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 191."
+      }
+    }
+  },
+  {
+    "name": "Duergar Warlord",
+    "statBlock": {
+      "name": "Duergar Warlord",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 192,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 20,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A duergar commander whose orders send allies into action and whose psionic reprimands can turn a poor roll around.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Plate armor and shield.",
+        "Damage resistances": "Poison.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Duergar Resilience. The duergar makes saving throws against poison, spells, and illusions with advantage. It also has advantage on saves to resist being charmed or paralyzed.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "Multiattack. Make three attacks using Psychic-Attuned Hammer or Javelin. Also use Call to Attack, or Enlarge if it is available.\nPsychic-Attuned Hammer. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) bludgeoning damage plus 5 (1d10) psychic damage. While enlarged, the bludgeoning damage becomes 15 (2d10 + 4) and the psychic damage stays the same.\nJavelin. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) while enlarged.\nCall to Attack. Choose up to three allied duergar within 120 ft. who can hear the warlord. Each can use its reaction to make one weapon attack.\nEnlarge (Recharges after a Short or Long Rest). The duergar and its gear grow for 1 minute. It becomes Large, or as large as the available space permits. While enlarged, it has advantage on Strength checks and saves and doubles the damage dice of Strength-based weapon attacks. The enlarged attack formulas already include the extra dice.\nInvisibility (Recharge 4–6). The duergar and its gear become magically invisible for up to 1 hour. The effect ends if the duergar attacks, casts a spell, uses Enlarge, or loses concentration as if concentrating on a spell.",
+        "Reactions": "Scouring Instruction. When a visible ally makes a d20 roll, the warlord can roll a d6. The ally can add the result to its d20 roll by taking 3 (1d6) psychic damage. Immunity to psychic damage prevents this effect.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 192."
+      }
+    }
+  },
+  {
+    "name": "Duergar Xarrorn",
+    "statBlock": {
+      "name": "Duergar Xarrorn",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Medium humanoid (dwarf), lawful evil",
+      "ac": 18,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "The xarrorn uses alchemy and psionics to build weapons. Its fire lance can reach past the front rank and spray fire across a formation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Plate armor.",
+        "Damage resistances": "Poison.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Duergar Resilience. The duergar makes saving throws against poison, spells, and illusions with advantage. It also has advantage on saves to resist being charmed or paralyzed.\nSunlight Sensitivity. In sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that use sight.",
+        "Actions": "Fire Lance. Melee weapon attack, +5 to hit, reach 10 ft., one target. Roll with disadvantage if the target is within 5 ft. A hit deals 9 (1d12 + 3) piercing damage plus 3 (1d6) fire damage. While enlarged, the piercing damage becomes 16 (2d12 + 3) and the fire damage stays the same.\nFire Spray (Recharge 5–6). Choose a 15-ft. cone or a 30-ft. line 5 ft. wide. Each creature in that area makes a DC 12 Dexterity save. It takes 10 (3d6) fire damage on a failure or half on a success.\nEnlarge (Recharges after a Short or Long Rest). The duergar and its gear grow for 1 minute. It becomes Large, or as large as the available space permits. While enlarged, it has advantage on Strength checks and saves and doubles the damage dice of Strength-based weapon attacks. The enlarged attack formulas already include the extra dice.\nInvisibility (Recharges after a Short or Long Rest). The duergar and its gear become magically invisible for up to 1 hour. The effect ends if the duergar attacks, casts a spell, uses Enlarge, or loses concentration as if concentrating on a spell.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 193."
+      }
+    }
+  }
+]

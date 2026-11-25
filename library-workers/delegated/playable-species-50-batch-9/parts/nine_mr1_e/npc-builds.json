@@ -1,0 +1,273 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-specter-sable",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "type": "Undead",
+      "title": "Sable, Specter Rogue 1",
+      "size": "Medium",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "30 ft. walking, 30 ft. flying in light armor",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 15
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +4",
+        "Investigation +1",
+        "Perception +4",
+        "Sleight of Hand +5",
+        "Stealth +7"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 14",
+      "languages": "Understands, reads, and writes Common and Elven. Knows Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +1. Leather AC 11 + 3 Dexterity. Urchin grants Sleight of Hand and Stealth. Rogue grants Acrobatics, Deception, Investigation, and Perception, with expertise in Perception and Stealth.",
+        "Necrotic resistance. Poison damage and poisoned condition immunity. Sable can rest to recover HP under the supplement’s undead healing rules.",
+        "Direct sunlight on Sable or the target imposes disadvantage on attacks. Sunlight on Sable or the thing observed also imposes disadvantage on sight-based Perception."
+      ],
+      "actions": [
+        "Rapier. Melee weapon attack +5, reach 5 ft. Hit 1d8 + 3 piercing. Add 1d6 Sneak Attack once per turn on a hit with advantage or when another enemy of the target is within 5 ft. of it, that enemy isn’t incapacitated, and Sable has no disadvantage.",
+        "Life Drain. Melee spell attack +4, reach 5 ft. Hit 1d8 necrotic. This action uses Charisma and has no Sneak Attack."
+      ],
+      "tactics": "Sable passes messages in writing and fights from cover, taking to the air when a clear route opens. Use Life Drain when a necrotic hit serves better than the rapier."
+    },
+    {
+      "id": "mr2018-stirge-pip",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "type": "Beast",
+      "title": "Pip, Stirge Rogue 1",
+      "size": "Tiny",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8 + 2",
+      "initiative": 3,
+      "speed": "10 ft. walking, 40 ft. flying",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +4",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "senses": "Darkvision 60 ft., passive Perception 16",
+      "languages": "Common, Sylvan from Outlander. Knows Thieves’ Cant.",
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +2. Natural AC 11 + 3 Dexterity. Outlander grants Athletics and Survival. Rogue grants Acrobatics, Insight, Perception, and Stealth, with expertise in Perception and Stealth.",
+        "Pip wears no armor and carries no gear requiring hands. Its Tiny carrying capacity is 30 lb. under the supplement’s quarter-weight rule."
+      ],
+      "actions": [
+        "Blood Drain. Melee unarmed strike +5, reach 5 ft. Hit 1d6 + 3 piercing. The strike qualifies for 1d6 Sneak Attack once per turn on a hit with advantage or with another enemy of the target within 5 ft. who isn’t incapacitated and no disadvantage. Pip can attach on the hit.",
+        "Attached drain. Choosing this bonus action must come at the start of Pip’s turn. Deal 1d6 + 3 piercing without an attack roll. Keep a running total of this ongoing drain. At 14 or more damage from it, Pip detaches. Pip can follow the target’s movement, detach by spending an action or half its movement, or be removed by the target’s action."
+      ],
+      "tactics": "Pip opens with a hit from concealment, attaches when useful, and uses the drain early in its next turn or flies away."
+    },
+    {
+      "id": "mr2018-tarrasque-crag",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "type": "Monstrosity (titan)",
+      "title": "Crag, Tarrasque Barbarian 1",
+      "size": "Medium",
+      "ac": 15,
+      "hp": 15,
+      "hitDice": "1d12 + 3",
+      "initiative": 2,
+      "speed": "30 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Nature +1",
+        "Survival +2"
+      ],
+      "senses": "Darkvision 120 ft., passive Perception 10",
+      "languages": "Common, Dwarvish from Outlander",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Unarmored Defense gives AC 10 + 2 Dexterity + 3 Constitution. Natural AC would be 14. Outlander grants Athletics and Survival. Barbarian grants Intimidation and Nature.",
+        "Resists fire and poison. Advantage on saves against poison. Reflect magic missile on a separate natural 20, a line spell that prompts a save on Crag’s natural 20, or a ranged-attack spell on the caster’s natural 1. Redirect the spell to its caster and ignore the effect on Crag. Double damage to objects and structures."
+      ],
+      "actions": [
+        "Bite or claw. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 piercing or slashing, or 1d8 + 5 while raging. On a hit made with the Attack action, Crag may spend a bonus action to attempt a grapple with Athletics +5. Crag uses its jaws or forelimbs to hold the target for this build.",
+        "Rage, twice per long rest. Enter as a bonus action for up to 1 minute. Advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. It ends if Crag falls unconscious or ends a turn without having attacked a hostile creature since its previous turn or taken damage since then."
+      ],
+      "tactics": "Crag rages and closes with a claw or bite. On a later turn it can grapple to stop a foe from reaching the excavation crew."
+    },
+    {
+      "id": "mr2018-unicorn-lark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "type": "Celestial",
+      "title": "Lark, Unicorn Paladin 1",
+      "size": "Medium",
+      "ac": 11,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 1,
+      "speed": "40 ft. walking",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 10,
+        "CHA": 14
+      },
+      "skills": [
+        "Animal Handling +2",
+        "Athletics +5",
+        "Persuasion +4",
+        "Survival +2"
+      ],
+      "senses": "Passive Perception 10",
+      "languages": "Common, Elven, Sylvan",
+      "traits": [
+        "Proficiency +2. Wisdom save +2 and Charisma save +4. Unarmored AC 10 + 1 Dexterity. Folk Hero grants Animal Handling and Survival. Paladin grants Athletics and Persuasion. Lark wears no armor and wields no gear.",
+        "Charmed and paralyzed immunity. Lark’s Charisma is its innate casting ability. It can use the V and S druidcraft cantrip by voice and a suitable movement of its horn or head."
+      ],
+      "actions": [
+        "Hoof or horn. Melee unarmed strike +5, reach 5 ft. Hit 1d8 + 3 bludgeoning or piercing. Add 1d6 once on a turn when Lark moved at least 15 ft. toward the creature before this Strength-based hit.",
+        "Lay on Hands. As an action, touch a creature with the horn and spend any amount of the 5 HP pool to heal that much. Spend all 5 to cure one disease or neutralize one poison instead. The pool resets after a long rest. It has no effect on constructs or undead.",
+        "Divine Sense, 3 uses per long rest. As an action, until the end of Lark’s next turn, sense the locations and types of celestials, fiends, and undead within 60 ft. outside total cover. Also sense a place or object consecrated or desecrated within that radius."
+      ],
+      "tactics": "Lark charges from an open line and uses its healing when a companion can be reached safely."
+    },
+    {
+      "id": "mr2018-water-weird-undertow",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR not assigned.",
+      "type": "Elemental",
+      "title": "Undertow, Water Weird Barbarian 1",
+      "size": "Medium",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12 + 2",
+      "initiative": 2,
+      "speed": "30 ft. printed walking speed, ordinary swimming movement in its bound water",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +4",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Passive Perception 13",
+      "languages": "Understands, reads, and writes Aquan and Sylvan. Outlander supplies Sylvan. Cannot speak.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4. Unarmored Defense gives AC 10 + 2 Dexterity + 2 Constitution. Outlander grants Athletics and Survival. Barbarian grants Nature and Perception.",
+        "Immune to poison damage and the poisoned, exhaustion, grappled, paralyzed, restrained, prone, and unconscious conditions. It dies at 0 HP under the supplement’s rule.",
+        "It stays within its original cistern water. Crossing out of that water or losing it kills Undertow. It has advantage on Stealth to hide while in the water. A move of 15 ft. consumes its full 30 ft. of movement when it swims without a dedicated swim speed."
+      ],
+      "actions": [
+        "Constrict. Melee unarmed strike +4, reach 5 ft. Hit 1d8 + 2 bludgeoning, or 1d8 + 4 while raging. On a hit made with the Attack action it can use a bonus action for a grapple with Athletics +4. Its trait allows it even without hands.",
+        "Rage, twice per long rest. Enter as a bonus action for up to 1 minute. Advantage on Strength checks and saves, +2 damage on Strength-based melee weapon attacks, and resistance to bludgeoning, piercing, and slashing. It ends early if Undertow ends a turn without having attacked a hostile creature since its previous turn or taken damage since then."
+      ],
+      "tactics": "Undertow waits below the cistern’s edge. It can rage and strike, then attempt a grapple on a later turn, always staying within its water."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Specter",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr2018-specter-sable",
+      "name": "Sable",
+      "role": "Dead courier",
+      "motive": "Deliver the letter that outlasted their employer.",
+      "hook": "A slate-cloaked figure offers a sealed letter to anyone who can say why its addressee stopped collecting mail."
+    },
+    {
+      "species": "Stirge",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Tiny",
+      "build": "mr2018-stirge-pip",
+      "name": "Pip",
+      "role": "Cavern route scout",
+      "motive": "Keep the trail from the old roost usable.",
+      "hook": "A bat-winged scout asks for help reopening the only dry passage to its roost."
+    },
+    {
+      "species": "Tarrasque",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr2018-tarrasque-crag",
+      "name": "Crag",
+      "role": "Quarry breaker",
+      "motive": "Get the workers out before the stone gives way.",
+      "hook": "A scaled breaker offers to open a route through a buried wall if someone can show it where survivors are trapped."
+    },
+    {
+      "species": "Unicorn",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr2018-unicorn-lark",
+      "name": "Lark",
+      "role": "Keeper of a forest crossing",
+      "motive": "Lead lost travelers out without exposing the refuge.",
+      "hook": "A horned guide asks the party to walk a wounded traveler to the edge of the next clearing."
+    },
+    {
+      "species": "Water Weird",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr2018-water-weird-undertow",
+      "name": "Undertow",
+      "role": "Cistern keeper",
+      "motive": "Keep out the debris that chokes the cistern.",
+      "hook": "The cistern keeper gestures toward a blocked grate while holding its waterline as if a step outside would break it."
+    }
+  ]
+}

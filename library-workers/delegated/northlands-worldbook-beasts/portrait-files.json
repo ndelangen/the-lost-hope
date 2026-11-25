@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Moose",
+    "entryId": "beast-182072537ada59e4d6b18034",
+    "versionKey": "32a5a2e406b584959d3f12b8",
+    "file": "",
+    "previewAsset": "images/beasts/moose/parchment-portrait.webp",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cf8867f3684ca8abd7224751ecaff33666624e04387b102427d86b33ea6cd040",
+    "selection": "existing parchment portrait",
+    "versionSpecific": false,
+    "previousSha256": "cf8867f3684ca8abd7224751ecaff33666624e04387b102427d86b33ea6cd040",
+    "styleReview": "Warmer, more mottled parchment than the new drafts. The antlers are intact with tight upper framing.",
+    "futureStyleWork": "Recenter slightly with more headroom and a cooler even paper tone."
+  },
+  {
+    "name": "Reindeer",
+    "entryId": "beast-6e84cef3835a51f334a6d4f6",
+    "versionKey": "ff655e3a11dcf1e96ef5a86b",
+    "file": "",
+    "previewAsset": "images/northlands-worldbook-beast-drafts/reindeer.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "e20ecf6fb5a414890320eecaeed403ac17067559ccd8cfd86f815fe8357e0c96",
+    "selection": "new draft",
+    "versionSpecific": true,
+    "previousSha256": null
+  },
+  {
+    "name": "Sea Serpent",
+    "entryId": "beast-fbc25425387d962b311cbe69",
+    "versionKey": "88fb84ce49a772c818242b9a",
+    "file": "",
+    "previewAsset": "images/northlands-worldbook-beast-drafts/sea-serpent.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "8f79b68fd73e0353e6823e8628bf841b8149873424e6b96f46bc847c42cb6be3",
+    "selection": "revised draft",
+    "versionSpecific": false,
+    "previousSha256": "c1756ee9747831429fc602cf2c7def780c870d25bc3704432e5f3ae7d924f4be"
+  }
+]

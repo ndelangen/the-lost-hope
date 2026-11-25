@@ -1,0 +1,452 @@
+[
+  {
+    "name": "Grung Wildling (Red)",
+    "statBlock": {
+      "name": "Grung Wildling (Red)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Small humanoid (grung), lawful evil",
+      "ac": 13,
+      "hp": 27,
+      "hitDice": "5d6 + 10",
+      "speed": "25 ft., climb 25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5
+      },
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "AC 16 while Barkskin is active.",
+        "Languages": "Grung.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The grung can breathe air and water.\nPoisonous Skin. A creature that grapples the grung or otherwise touches its skin must make a DC 12 Constitution save. On a failure, it is poisoned for 1 minute. If direct contact has ended, it can repeat the save at the end of each of its turns, ending the effect on a success.\nStanding Leap. The grung can long jump up to 25 ft. and high jump up to 15 ft. with or without a running start.\nWater Dependency. If the grung spends less than 1 hour immersed in water during a day, it gains one level of exhaustion at the end of that day. Magic or at least 1 hour of immersion can remove exhaustion gained this way.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage. The target must make a DC 12 Constitution save, taking 5 (2d4) poison damage on a failure.",
+        "Spellcasting": "The grung casts as a 9th-level ranger using Wisdom (spell save DC 12, +4 to hit with spell attacks).\nLevel 1 (4 slots). Cure Wounds, Jump.\nLevel 2 (3 slots). Barkskin, Spike Growth.\nLevel 3 (2 slots). Plant Growth.",
+        "Optional Grung poison mechanics": "Use the weapon’s listed Constitution save for its extra poison damage. The color effect follows the poisoned condition from this grung.\nGrung poison loses its potency 1 minute after extraction. Its poison also loses potency 1 minute after it dies. A creature poisoned by this grung can suffer an additional effect based on the grung’s color. The effect lasts until this grung’s poison ends.\nRed. If food is within reach, the creature must use its action to eat.",
+        "Printed source": "Volo's Guide to Monsters, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Devastator",
+    "statBlock": {
+      "name": "Hobgoblin Devastator",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 161,
+      "classification": "Medium humanoid (goblinoid), lawful evil",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Arcane Advantage. Once per turn, the hobgoblin can add 7 (2d6) damage to a damaging spell attack that hits a target within 5 ft. of one of its allies. That ally must be free of the incapacitated condition.\nArmy Arcana. When the hobgoblin casts a spell that deals damage or calls for a saving throw from another creature, it can choose itself and any number of allies. Chosen creatures are immune to damage from the spell and automatically succeed on the spell's required save.",
+        "Actions": "Quarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) with two hands.",
+        "Spellcasting": "The hobgoblin casts as a 7th-level wizard using Intelligence (spell save DC 13, +5 to hit with spell attacks).\nCantrips (at will). Acid Splash, Fire Bolt, Ray of Frost, Shocking Grasp.\nLevel 1 (4 slots). Fog Cloud, Magic Missile, Thunderwave.\nLevel 2 (3 slots). Gust of Wind, Melf's Acid Arrow, Scorching Ray.\nLevel 3 (3 slots). Fireball, Fly, Lightning Bolt.\nLevel 4 (1 slot). Ice Storm.",
+        "Printed source": "Volo's Guide to Monsters, p. 161."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Iron Shadow",
+    "statBlock": {
+      "name": "Hobgoblin Iron Shadow",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 162,
+      "classification": "Medium humanoid (goblinoid), lawful evil",
+      "ac": 15,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Athletics": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Unarmored Defense. Add the hobgoblin's Wisdom modifier to its AC while it wears no armor and wields no shield.",
+        "Actions": "Multiattack. Make four attacks in any combination of Unarmed Strike and Dart. The hobgoblin can use Shadow Jaunt once before or after any one of those attacks.\nUnarmed Strike. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage.\nDart. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.\nShadow Jaunt. The hobgoblin magically teleports up to 30 ft. to a visible, unoccupied space, taking worn and carried equipment with it. Its starting space and destination must both be in dim light or darkness.",
+        "Spellcasting": "The hobgoblin casts as a 2nd-level wizard using Intelligence (spell save DC 12, +4 to hit with spell attacks).\nCantrips (at will). Minor Illusion, Prestidigitation, True Strike.\nLevel 1 (3 slots). Charm Person, Disguise Self, Expeditious Retreat, Silent Image.",
+        "Printed source": "Volo's Guide to Monsters, p. 162."
+      }
+    }
+  },
+  {
+    "name": "Illithilich",
+    "statBlock": {
+      "name": "Illithilich",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 172,
+      "classification": "Medium undead, any evil alignment",
+      "ac": 17,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "22",
+      "xp": 41000,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10,
+        "Int": 12,
+        "Wis": 9
+      },
+      "skills": {
+        "Arcana": 19,
+        "History": 12,
+        "Insight": 9,
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+        "Damage resistances": "Cold, lightning, necrotic.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Lich variant": "Use the 2014 Monster Manual lich for the base rules. This variant changes its CR, languages, and legendary actions, and adds Magic Resistance, Innate Spellcasting (Psionics), Tentacles, Extract Brain, and Mind Blast. Creating a phylactery and casting Imprisonment are prerequisites to becoming an illithilich. Feeding captured souls to its phylactery maintains its tentacle strength and ability to extract brains.",
+        "Traits": "Legendary Resistance (3/day). The illithilich can turn a failed save into a success.\nRejuvenation. If destroyed while its phylactery survives, the illithilich returns in 1d10 days at full hit points. Its new body appears within 5 ft. of the phylactery.\nTurn Resistance. The illithilich has advantage on saves against effects that turn undead.\nMagic Resistance. The illithilich has advantage on saves against spells and other magical effects.",
+        "Actions": "Paralyzing Touch. Melee spell attack, +12 to hit, reach 5 ft., one creature. A hit deals 10 (3d6) cold damage. The target must make a DC 18 Constitution save or be paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nTentacles. Melee weapon attack, +12 to hit, reach 5 ft., one creature. A hit deals 21 (3d10 + 5) psychic damage. A target of Large size or smaller is grappled (escape DC 15) and must make a DC 20 Intelligence save or be stunned until the grapple ends.\nExtract Brain. Melee weapon attack, +12 to hit, reach 5 ft., one incapacitated humanoid grappled by the illithilich. A hit deals 55 (10d10) piercing damage. If reduced to 0 hit points by this damage, the target dies as the illithilich extracts and eats its brain.\nMind Blast (Recharge 5–6). The illithilich releases a 60 ft. cone of magical psychic energy. Each creature in the cone makes a DC 18 Intelligence save. On a failure, it takes 27 (5d8 + 5) psychic damage and is stunned for 1 minute. It can repeat the save at the end of each of its turns, ending the stun on a success.",
+        "Innate spellcasting (psionics)": "Use Intelligence (spell save DC 20). These spells require no components.\nAt will. Detect Thoughts, Levitate.\n1/day each. Dominate Monster, Plane Shift (self only).",
+        "Spellcasting": "The illithilich casts as an 18th-level wizard using Intelligence (spell save DC 20, +12 to hit with spell attacks).\nCantrips (at will). Mage Hand, Prestidigitation, Ray of Frost.\nLevel 1 (4 slots). Detect Magic, Magic Missile, Shield, Thunderwave.\nLevel 2 (3 slots). Detect Thoughts, Invisibility, Melf's Acid Arrow, Mirror Image.\nLevel 3 (3 slots). Animate Dead, Counterspell, Dispel Magic, Fireball.\nLevel 4 (3 slots). Blight, Dimension Door.\nLevel 5 (3 slots). Cloudkill, Scrying.\nLevel 6 (1 slot). Disintegrate, Globe of Invulnerability.\nLevel 7 (1 slot). Finger of Death, Plane Shift.\nLevel 8 (1 slot). Dominate Monster, Power Word Stun.\nLevel 9 (1 slot). Power Word Kill.",
+        "Legendary actions": "The illithilich has 3 legendary actions. It can use one option at a time at the end of another creature's turn and regains spent actions at the start of its turn. It must be able to act. If surprised, it must finish its first turn before using one.\nTentacles (1 action). Make one Tentacles attack.\nExtract Brain (2 actions). Use Extract Brain.\nMind Blast (3 actions). Recharge and use Mind Blast.\nCast Spell (1–3 actions). Spend a spell slot to cast a prepared 1st-, 2nd-, or 3rd-level spell. The cost is one legendary action per level of the spell.",
+        "Lair actions": "Use one magical option on initiative count 20, losing ties. The illithilich must be able to act and cannot choose the same option on consecutive rounds. If surprised, it must finish its first turn before using one.\nRecover Spell Slot. Roll a d8 and recover one spent slot of the rolled level or lower, if any.\nNegative Energy Tether. Tether a visible creature within 30 ft. to the illithilich. Each time the illithilich takes damage, the target makes a DC 18 Constitution save. On a failure, the illithilich takes half the damage (rounded down) and the target takes the rest. The tether ends on initiative count 20 in the next round or when either creature leaves the lair.\nAttack of the Dead. Spirits of creatures that died in the lair strike one visible creature within 60 ft. and disappear. The target makes a DC 18 Constitution save, taking 52 (15d6) necrotic damage on a failure or half as much on a success.",
+        "Printed source": "Volo's Guide to Monsters, p. 172."
+      }
+    }
+  },
+  {
+    "name": "Illusionist",
+    "statBlock": {
+      "name": "Illusionist",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 2
+      },
+      "skills": {
+        "Arcana": 5,
+        "History": 5
+      },
+      "sections": {
+        "Armor": "AC 15 while Mage Armor is active.",
+        "Languages": "Any four languages.",
+        "Bonus actions": "Displacement (recharges after casting an illusion spell of 1st level or higher). The illusionist projects an image a few inches from its true location. Attack rolls against it have disadvantage until it takes damage, becomes incapacitated, or its speed drops to 0.",
+        "Actions": "Quarterstaff. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) with two hands.",
+        "Spellcasting": "The illusionist casts as a 7th-level wizard using Intelligence (spell save DC 13, +5 to hit with spell attacks).\nCantrips (at will). Dancing Lights, Mage Hand, Minor Illusion, Poison Spray.\nLevel 1 (4 slots). Color Spray (illusion), Disguise Self (illusion), Mage Armor, Magic Missile.\nLevel 2 (3 slots). Invisibility (illusion), Mirror Image (illusion), Phantasmal Force (illusion).\nLevel 3 (3 slots). Major Image (illusion), Phantom Steed (illusion).\nLevel 4 (1 slot). Phantasmal Killer (illusion).",
+        "Printed source": "Volo's Guide to Monsters, p. 214."
+      }
+    }
+  },
+  {
+    "name": "Ki-rin",
+    "statBlock": {
+      "name": "Ki-rin",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 163,
+      "classification": "Huge celestial, lawful good",
+      "ac": 20,
+      "hp": 152,
+      "hitDice": "16d12 + 48",
+      "speed": "60 ft., fly 120 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 9,
+        "Perception": 9,
+        "Religion": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Legendary Resistance (3/day). The ki-rin can turn a failed save into a success.\nMagic Resistance. The ki-rin has advantage on saves against spells and other magical effects.\nMagic Weapons. The ki-rin's weapon attacks are magical.",
+        "Actions": "Multiattack. Make two Hoof attacks and one Horn attack.\nHoof. Melee weapon attack, +9 to hit, reach 15 ft., one target. A hit deals 10 (2d4 + 5) bludgeoning damage.\nHorn. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) piercing damage.",
+        "Innate spellcasting": "Use Charisma (spell save DC 17). These spells require no material components.\nAt will. Gaseous Form, Major Image (6th-level version), Wind Walk.\n1/day. Create Food and Water.",
+        "Spellcasting": "The ki-rin casts as an 18th-level cleric using Wisdom (spell save DC 17, +9 to hit with spell attacks).\nCantrips (at will). Light, Mending, Sacred Flame, Spare the Dying, Thaumaturgy.\nLevel 1 (4 slots). Command, Cure Wounds, Detect Evil and Good, Protection from Evil and Good, Sanctuary.\nLevel 2 (3 slots). Calm Emotions, Lesser Restoration, Silence.\nLevel 3 (3 slots). Dispel Magic, Remove Curse, Sending.\nLevel 4 (3 slots). Banishment, Freedom of Movement, Guardian of Faith.\nLevel 5 (3 slots). Greater Restoration, Mass Cure Wounds, Scrying.\nLevel 6 (1 slot). Heroes' Feast, True Seeing.\nLevel 7 (1 slot). Etherealness, Plane Shift.\nLevel 8 (1 slot). Control Weather.\nLevel 9 (1 slot). True Resurrection.",
+        "Legendary actions": "The ki-rin has 3 legendary actions. It can use one option at a time at the end of another creature's turn and regains spent actions at the start of its turn. It must be able to act. If surprised, it must finish its first turn before using one.\nDetect (1 action). Make a Wisdom (Perception) or Wisdom (Insight) check.\nSmite (1 action). Make one Hoof attack or cast Sacred Flame.\nMove (1 action). Move up to half speed without provoking opportunity attacks.",
+        "Lair conjuration": "While inside its lair, the ki-rin can use each of these options once per day.\nSoft Plant Material. Permanently create enough objects made from soft plant material to fill a 20 ft. cube. This can include manufactured objects such as clothing, rope, and pillows.\nHard Plant Material. Permanently create enough objects made from wood or other hard plant material to fill a 10 ft. cube.\nStone or Metal. Create enough objects made from stone or metal to fill a 2 ft. cube. They vanish after 1 hour.",
+        "Regional effects": "These effects can occur within 3 miles of the lair. The effects end when the ki-rin dies, except that the vigor in plants and animals lasts 3 years.\nPure Water. Water stays pure. Deliberate contamination lasts no more than 3 minutes.\nVigor. Plants, animals, and good creatures grow toward ideal forms. They seldom attack creatures they would not normally hunt. Evil creatures find the holy atmosphere intolerable and usually stay away.\nSuppression. Curses, diseases, and poisons affecting good creatures are suppressed within the area.\nControl Weather. The ki-rin can cast Control Weather from anywhere within the area. The spell originates from the outdoor point nearest the lair's center. It can cast without a clear path to the sky and need not concentrate for the change to persist.\nGentle Winds. Winds support any falling non-evil creature if the ki-rin and its allies did not cause the fall. It descends 60 ft. per round and takes no falling damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 163."
+      }
+    }
+  },
+  {
+    "name": "Kobold Dragonshield",
+    "statBlock": {
+      "name": "Kobold Dragonshield",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 165,
+      "classification": "Small humanoid (kobold), lawful evil",
+      "ac": 15,
+      "hp": 44,
+      "hitDice": "8d6 + 16",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 1
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage resistances": "One damage type from Dragon's Resistance.",
+        "Traits": "Dragon's Resistance. Choose the dragon that granted the kobold its power, or roll d10. On 1–2, black grants acid resistance. On 3–4, white grants cold. On 5–6, red grants fire. On 7–8, blue grants lightning. On 9–10, green grants poison.\nHeart of the Dragon. At the start of its turn, the dragonshield can repeat a saving throw against an effect that has frightened or paralyzed it. A success ends the effect for itself and all kobolds within 30 ft. Each kobold that benefits has advantage on its next attack roll.\nPack Tactics. The kobold has advantage on attacks against a target if at least one ally within 5 ft. of the target is not incapacitated.\nSunlight Sensitivity. While in sunlight, the kobold has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Multiattack. Make two melee attacks.\nSpear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) when wielded with two hands for a melee attack.",
+        "Printed source": "Volo's Guide to Monsters, p. 165."
+      }
+    }
+  },
+  {
+    "name": "Kobold Inventor",
+    "statBlock": {
+      "name": "Kobold Inventor",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 166,
+      "classification": "Small humanoid (kobold), lawful evil",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 0
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Sunlight Sensitivity. While in sunlight, the kobold has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.\nPack Tactics. The kobold has advantage on attacks against a target if at least one ally within 5 ft. of the target is not incapacitated.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.\nWeapon Invention. Roll a d8 or choose one option. The kobold can use each option at most once per day. An inventor typically has one or two improvised weapons in an encounter.\n1. Acid. Ranged weapon attack, +4 to hit, range 5/20 ft., one target. A hit deals 7 (2d6) acid damage.\n2. Alchemist's Fire. Ranged weapon attack, +4 to hit, range 5/20 ft., one target. On a hit, the target takes 2 (1d4) fire damage at the start of each of its turns. A creature can use an action to extinguish the flames with a successful DC 10 Dexterity check.\n3. Basket of Centipedes. Throw a basket into a 5 ft. square within 20 ft. A swarm of centipedes with 11 hit points emerges and rolls initiative. It has a 50% chance of dispersing at the end of each of its turns.\n4. Green Slime Pot. Ranged weapon attack, +4 to hit, range 5/20 ft., one target. A hit covers the target with a patch of Green Slime. A miss puts it on a randomly chosen 5 ft. square of wall or floor within 5 ft. of the target.\n5. Rot Grub Pot. Throw a pot into a 5 ft. square within 20 ft. A swarm of rot grubs emerges from the broken pot and remains a hazard in that square.\n6. Scorpion on a Stick. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 1 piercing damage. The target makes a DC 9 Constitution save, taking 4 (1d8) poison damage on a failure or half as much on a success.\n7. Skunk in a Cage. Release a skunk into an unoccupied space within 5 ft. The skunk rolls initiative and has AC 10, 1 hit point, speed 20 ft., and no effective attacks. It uses its action to spray a random creature within 5 ft. The target must make a DC 9 Constitution save or retch and be unable to take actions for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. A creature that does not breathe or is immune to poison automatically succeeds. The skunk can spray again after a short or long rest.\n8. Wasp Nest in a Bag. Throw a bag into a 5 ft. square within 20 ft. A swarm of wasps with 11 hit points emerges and rolls initiative. It has a 50% chance of dispersing at the end of each of its turns.",
+        "Printed source": "Volo's Guide to Monsters, p. 166."
+      }
+    }
+  }
+]

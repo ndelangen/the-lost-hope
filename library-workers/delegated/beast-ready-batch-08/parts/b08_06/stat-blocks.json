@@ -1,0 +1,277 @@
+[
+  {
+    "name": "Almiraj",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +4, Stealth +5. Darkvision 30 ft. Passive Perception 14. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large honey-brown rabbit with floppy ears, strong haunches and a single ivory spiral horn on its forehead.",
+    "habitats": [
+      "Chult",
+      "Tropical jungle",
+      "Earthen burrows",
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 211. https://www.dndbeyond.com/sources/dnd/toa",
+      "Traits": "Keen Senses. The almiraj has advantage on Wisdom (Perception) checks that rely on sight or hearing.",
+      "Actions": "Horn. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
+      "At the table": "With the DM’s permission, Find Familiar can summon an almiraj.\nAppendix B encounter (p. 196). Passive Perception 12 or higher spots 1d6 almiraj at 60 ft. They flee from creatures they can see within 30 ft. A character who traps one can use an action for a DC 14 Wisdom (Animal Handling) check. On a success it remains calm around that character unless threatened or harmed."
+    }
+  },
+  {
+    "name": "Brontosaurus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast, unaligned",
+    "ac": 15,
+    "hp": 121,
+    "hitDice": "9d20 + 27",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Constitution save +6. Passive Perception 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive gray-olive four-legged sauropod with a small head, a long upraised neck, columnar legs and a tapering tail.",
+    "habitats": [
+      "Chult",
+      "Jungle",
+      "Rivers",
+      "Swamps"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 215. https://www.dndbeyond.com/sources/dnd/toa",
+      "Actions": "Stomp. Melee weapon attack, +8 to hit, reach 20 ft., one target. A hit deals 27 (5d8 + 5) bludgeoning damage. The target must pass a DC 14 Strength save or fall prone.\nTail. Melee weapon attack, +8 to hit, reach 20 ft., one target. A hit deals 32 (6d8 + 5) bludgeoning damage.",
+      "Appendix B encounter": "On p. 197 a lone brontosaurus approaches without noticing the party. It may step on characters in its path and fights in self-defense."
+    }
+  },
+  {
+    "name": "Deinonychus",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d8 + 8",
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sleek olive-scaled raptor with an elongated tail, grasping foreclaws and enlarged sickle claws on its hind feet.",
+    "habitats": [
+      "Chult",
+      "Jungle",
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 217. https://www.dndbeyond.com/sources/dnd/toa",
+      "Traits": "Pounce. The deinonychus moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn. The target must pass a DC 12 Strength save or fall prone. If the target is prone, the deinonychus can make one Bite against it as a bonus action.",
+      "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) slashing damage.",
+      "Appendix B encounter": "On p. 197 a pack of 1d4 + 2 deinonychuses chases a boar, then switches to the characters as prey."
+    }
+  },
+  {
+    "name": "Dimetrodon",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "30 ft., swim 20 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +2. Passive Perception 12. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, four-legged reptile with a tall ribbed rust-colored sail, a long toothy muzzle and a tapering tail.",
+    "habitats": [
+      "Chult",
+      "Shorelines",
+      "Shallow water",
+      "Riverbanks",
+      "Swamps"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 217. https://www.dndbeyond.com/sources/dnd/toa",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) piercing damage.",
+      "Appendix B encounter": "On p. 197, 2d6 dimetrodons are seen on a sunny riverbank or rocks above the water. Roll any die. On an odd result they ignore the group. On an even result they attack at slight provocation or if the group comes within 100 ft."
+    }
+  },
+  {
+    "name": "Flying Monkey",
+    "publication": "Tomb of Annihilation",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "1d6",
+    "speed": "20 ft., climb 20 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small tawny monkey with a long curling tail and a pair of brown feathered wings.",
+    "habitats": [
+      "Chult",
+      "Beaches",
+      "Jungle",
+      "Mountain forests",
+      "Rivers",
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 220. https://www.dndbeyond.com/sources/dnd/toa",
+      "Traits": "Pack Tactics. The monkey has advantage on an attack against a creature when at least one of the monkey’s allies is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 1 (1d4 - 1) piercing damage.",
+      "At the table": "With DM permission, Find Familiar can summon one (p. 221).\nAppendix B encounter (p. 200). In a swoop by 3d6 flying monkeys each character makes a DC 12 Dexterity save or loses a useful piece of gear. A character proficient in Animal Handling can train a captured monkey by spending a few hours with it each day. At the end of a week, a DC 10 Wisdom (Animal Handling) success teaches one simple trick. A monkey can learn one trick per week and up to 1d6 total."
+    }
+  }
+]

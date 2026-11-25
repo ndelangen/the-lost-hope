@@ -1,0 +1,148 @@
+{
+  "baseline": "5bd898647ba14c5de2719d7c9c2c78969ec598d0",
+  "verifiedBeastVersions": 15,
+  "ruleset": "black-flag",
+  "profiles": [
+    {
+      "name": "Alligator",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "3f46322bc6413355ae10164c",
+      "portrait": "new draft",
+      "portraitSha256": "3ba25907c5d511dfb81fa99e3fe9d440016fd3cec1c81364a726acb8cb604156",
+      "galleryImageCount": 2
+    },
+    {
+      "name": "Alligator Turtle",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "3cf68f9d310c5ee81926f107",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "24c4c189d95d6a43964cd47c4fa104b289a7ba88f527d78590e9b1fc76860b7a",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Baboon, Howler",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "bb51cdd12748503615a0c8af",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "b225968ca3114ec3371c1d0574df577017e2e418f068c27878558baa9fe6cd4a",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Bat, Strossen",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "8cd6ceccc4291816977d5ad9",
+      "portrait": "revised draft",
+      "portraitSha256": "4c4f0cc3154ec6f43e52f444032dd1f6a84ae7aadf8fce38b4850808dcea8275",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Beetle, Giant Bombardier",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "6ec5a07bc976f5aa37bb576d",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "008dd728f2c5eb4995a5672384dd53b2f51266e648b3853868e243de08539994",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Bull",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "3290d3b5f8c4141d2be03b20",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "1fde3ddb189607a2349cbc13ea9b1054949a9779c5c6e29577c3baf04a216684",
+      "galleryImageCount": 2
+    },
+    {
+      "name": "Forest Falcon",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "183e538b3976590b9bc65ff5",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "1e53c70fcf1190fe22b6c0e57560ff00f318da25e17d8be8b08eb3b8c3b85e7a",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Grove Bear",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "914d4e3fcc3a917f8e8fbcd9",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "fd888bcd265eb669c682eeb07bd32d671dd5f201d80323e16d9dea3fb7700084",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Leech, Giant",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "bc19a88161879c0739d319e2",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "e5251055902268c8d3a4d9aeb91496a16d3bcab63caa3c64b5792d4976270c27",
+      "galleryImageCount": 2
+    },
+    {
+      "name": "Lizard, Giant Frilled",
+      "challenge": "5",
+      "sourceIndexChallenge": "5.0",
+      "versionKey": "3de9f279db25ba68578323c2",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "94c3df2b6326f550b844e592374fa10765c5988de0628c4d667120e2b6a38022",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Margreve Hound",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "055b2be20627aa568b4cadde",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "d89d419a3c6541bfd0a2df3f23b2d96c3188ff045def3be9130e53d19adefde3",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Margreve Stag",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "76881688bff4b8406c46f8fb",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "d6bfbd388d02bd53e9e7ee5da49f3667986a1c6914612ff01f5d58ea22049c21",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Mongoose, Giant",
+      "challenge": "1/4",
+      "sourceIndexChallenge": "0.3",
+      "versionKey": "e3acc34fdb3ae853581b8d84",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "dbc9d49bb467965f0f35466e18350a5090469c2813e86dd644ec38033ccb3991",
+      "galleryImageCount": 2
+    },
+    {
+      "name": "Owl, Great Gray",
+      "challenge": "1",
+      "sourceIndexChallenge": "1.0",
+      "versionKey": "244a8721ad44377699d4c5cc",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "284e3edce207a7a61db13d51c53f3860a4986a8d567dcf6a08ec25d2629dfea9",
+      "galleryImageCount": 3
+    },
+    {
+      "name": "Tsuchinoko",
+      "challenge": "1/2",
+      "sourceIndexChallenge": "0.5",
+      "versionKey": "0b919e37154b46df72f3f1da",
+      "portrait": "existing parchment portrait",
+      "portraitSha256": "704b44eb2203060a0795c8876ff9da3d9e183fb33bc0555c4b863195b37a18fb",
+      "galleryImageCount": 3
+    }
+  ],
+  "habitatsAndAppearanceSearchable": true,
+  "creditedAlternatesPreserved": true,
+  "reusedPortraits": 13,
+  "newDrafts": 1,
+  "revisedDrafts": 1,
+  "exactQuarterChallengeProfiles": 9
+}

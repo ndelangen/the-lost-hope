@@ -1,0 +1,20 @@
+{
+  "entry": "monster-3f34b1eda2b2be707119ca40",
+  "version": "00b362bb937ce0568c0720f0",
+  "portraitSha256": "0b3b94380f61eb6e946c16b007ce70e3f5ae660de77f77faded5c11bb9c2cc41",
+  "stats": {
+    "Armor class": "15",
+    "Hit points": "138",
+    "Hit dice": "12d12 + 60",
+    "Challenge": "8",
+    "Type": "Fiend",
+    "Speed": "40 ft.",
+    "XP": "3900",
+    "Str": "22",
+    "Dex": "10",
+    "Con": "20",
+    "Int": "8",
+    "Wis": "12",
+    "Cha": "10"
+  }
+}

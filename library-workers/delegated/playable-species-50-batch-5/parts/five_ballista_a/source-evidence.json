@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Faenare",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "publisher": "TSR",
+    "url": "",
+    "printedPages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "page": "Background Booklet pp. 6–10, Table 3 and the Faenare combat and windsinger rules",
+    "pdfPages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "notes": [
+      "Background Booklet p. 6 supplies 120 ft (40 ft) ground and 360 ft (120 ft) flight, natural attacks and the mature racial defenses. Table 3 sets Teren at 0 XP with 2d8, natural AC 6 and two first-level slots.",
+      "P. 5 uses actual Hit Dice for a low-level creature hero’s save bracket. The ordinary p. 6 monster listing uses Elf 3. Both Elf 2 and Elf 3 have the same target numbers in Mentzer Basic.",
+      "PC2 calls the lightning protection permanent but leaves the Companion spell’s level-based damage allowance and refresh unspecified. Use a continuing ward that absorbs two dice per separate lightning attack for this 2 HD NPC. Treat a continuing lightning effect as the same attack.",
+      "The windsinger prepares one windsong and one clerical healing spell in the two first-level slots. The double Singing skill allocation applies when using general skills."
+    ],
+    "supportingSources": [
+      {
+        "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "",
+        "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+      },
+      {
+        "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "https://anyflip.com/cmjgl/slsb/basic",
+        "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+      },
+      {
+        "title": "D&D Rules Cyclopedia (TSR, 1991)",
+        "url": "",
+        "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+      },
+      {
+        "title": "D&D Companion Rules (TSR, 1984)",
+        "url": "https://anyflip.com/myubd/trdu/basic",
+        "locator": "Players Companion, Druid spell access and Protection from Lightning"
+      }
+    ]
+  },
+  {
+    "name": "Skygnome",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "publisher": "TSR",
+    "url": "",
+    "printedPages": [
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "page": "Background Booklet pp. 10–12, Table 4 and skygnome abilities I–VI, IX and XII",
+    "pdfPages": [
+      6,
+      7,
+      8,
+      13,
+      14,
+      15
+    ],
+    "notes": [
+      "Table 4 level 2 at 4,000 XP gives 3d8 and ability IV for skygnomes. The air-based save remains +1 and the first sky-sense increase occurs at level 3.",
+      "Mentzer Basic gives leather AC 7 and Dexterity 16 gives a −2 AC adjustment. With no shield, Nell has AC 5, or AC 4 against a larger-than-human opponent.",
+      "PC2’s Dunbar example also lists the 3 HD attack bracket and gnome movement at 60 ft (20 ft), with the 90 ft infravision, basic aerial sense and accidental fall save.",
+      "The portrait shows Nell’s wrench. She also keeps a mundane war hammer in her toolkit."
+    ],
+    "supportingSources": [
+      {
+        "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "",
+        "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+      },
+      {
+        "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "https://anyflip.com/cmjgl/slsb/basic",
+        "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+      },
+      {
+        "title": "D&D Rules Cyclopedia (TSR, 1991)",
+        "url": "",
+        "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+      }
+    ]
+  },
+  {
+    "name": "Gremlin",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "publisher": "TSR",
+    "url": "",
+    "printedPages": [
+      3,
+      4,
+      5,
+      13,
+      14,
+      15,
+      16
+    ],
+    "page": "Background Booklet pp. 13–16, Table 5 and the chaotic-aura, hiding, fumble and Leg Whip rules",
+    "pdfPages": [
+      6,
+      7,
+      8,
+      16,
+      17,
+      18,
+      19
+    ],
+    "notes": [
+      "Table 5 level 3 at 21,000 XP has 2d8+2, 14 ft aura, +1 enemy saves, −2 foe fumbles, 50% Hide in Crannies, +2 defense against mental/illusion magic and ability VI (Leg Whip). PC2’s Beazley combat notes supply ground move at 120 ft (40 ft per round).",
+      "Expert’s monster chart puts 2d8+2 in the 2+ to 3 bracket. Use two dice for Elf save progression, following PC2 p. 5 and the distinction between dice and flat HP.",
+      "Ability V lists the shorter jump distances as horizontal a second time. The paired horizontal and vertical labels in ability III support reading the second pair as vertical. Big and strong targets receive the ability’s +2 save bonus in addition to the normal tier bonus.",
+      "For the example unattended prop, 75% is the table’s simple-outcome benchmark. Interpret PC2’s natural-01 failure with an upper successful percentile interval."
+    ],
+    "supportingSources": [
+      {
+        "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "",
+        "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+      },
+      {
+        "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "https://anyflip.com/cmjgl/slsb/basic",
+        "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+      },
+      {
+        "title": "D&D Rules Cyclopedia (TSR, 1991)",
+        "url": "",
+        "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+      }
+    ]
+  },
+  {
+    "name": "Nagpa",
+    "edition": "Basic D&D (BECMI)",
+    "publication": "Top Ballista (PC2, 1989)",
+    "publisher": "TSR",
+    "url": "",
+    "printedPages": [
+      3,
+      4,
+      5,
+      20,
+      21,
+      22
+    ],
+    "page": "Background Booklet pp. 20–22, Table 7, kariwa, special abilities and Languages and Knowledge Skills",
+    "pdfPages": [
+      6,
+      7,
+      8,
+      23,
+      24,
+      25
+    ],
+    "notes": [
+      "Level 1 at 300,000 XP has 10d8, AC 4 and +2 on its saves. PC2 Background Booklet p. 5 directly gives THAC0 10 for that creature-hero tier. Match its save bracket to Magic-User 10.",
+      "PC2 Adventure Booklet’s Horrobin combat notes confirm the standard 120 ft (40 ft) move, bite option and 1d8 damage. Unlike that NPC, Avar is Neutral, so corruption does not apply.",
+      "P. 22 refers back to the Mentzer Basic clerical Light reversal and second-level Magic-User Phantasmal Force. Each innate effect has its own three-use daily limit at this tier."
+    ],
+    "supportingSources": [
+      {
+        "title": "D&D Set 1 Basic Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "",
+        "locator": "Players Manual pp. 23–26, 39–50 and 59–61; Dungeon Masters Rulebook, Combat, Saving Throws and Gnome entry"
+      },
+      {
+        "title": "D&D Expert Rules, Frank Mentzer revision (TSR, 1983)",
+        "url": "https://anyflip.com/cmjgl/slsb/basic",
+        "locator": "Monster Hit Rolls and character saving throw tables; reversible spells and missile ranges"
+      },
+      {
+        "title": "D&D Rules Cyclopedia (TSR, 1991)",
+        "url": "",
+        "locator": "Equipment, Weapons Table, for base weapon dice and indoor ranges"
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Goat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, languages, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A cream-colored goat with cloven hooves, a short beard, and narrow horns sweeping backward.",
+    "habitats": [
+      "Mountain slopes",
+      "Rocky hills",
+      "Pasture"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 138, Goat. ",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The hit deals an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength save or fall prone.\nSure-Footed. Roll Strength and Dexterity saves with advantage when the effect would knock the goat prone.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) bludgeoning damage.",
+      "At the table": "Charge adds its damage to the Ram hit even if the creature passes its save. On a charge hit, roll 2d4 + 1 total bludgeoning damage."
+    }
+  },
+  {
+    "name": "Goat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed skills, languages, or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A cream-colored goat with cloven hooves, a short beard, and narrow horns sweeping backward.",
+    "habitats": [
+      "Mountain slopes",
+      "Rocky hills",
+      "Pasture"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 330, Goat. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=331",
+      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The hit deals an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength save or fall prone.\nSure-Footed. Roll Strength and Dexterity saves with advantage when the effect would knock the goat prone.",
+      "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) bludgeoning damage.",
+      "At the table": "Charge adds its damage to the Ram hit even if the creature passes its save. On a charge hit, roll 2d4 + 1 total bludgeoning damage."
+    }
+  },
+  {
+    "name": "Quipper",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft., passive Perception 8. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A compact predatory fish with sharp teeth, gray-green scales, and reddish fins.",
+    "habitats": [
+      "Aquatic",
+      "Underground lakes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 150, Quipper. ",
+      "Traits": "Blood Frenzy. The quipper has advantage on melee attack rolls against a creature below its hit point maximum.\nWater Breathing. The quipper breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.",
+      "At the table": "The quipper has a 40-ft. swim speed and no walking speed. Bite damage is a fixed 1 on a hit."
+    }
+  },
+  {
+    "name": "Quipper",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft., passive Perception 8. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A compact predatory fish with sharp teeth, gray-green scales, and reddish fins.",
+    "habitats": [
+      "Aquatic",
+      "Underground lakes"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 335, Quipper. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=336",
+      "Traits": "Blood Frenzy. The quipper has advantage on melee attack rolls against a creature below its hit point maximum.\nWater Breathing. The quipper breathes only underwater.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.",
+      "At the table": "The quipper has a 40-ft. swim speed and no walking speed. Bite damage is a fixed 1 on a hit."
+    }
+  }
+]

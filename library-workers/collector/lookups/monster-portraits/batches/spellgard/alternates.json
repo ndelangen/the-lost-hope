@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Ettercap Fang Guard",
+    "input": "output/dm-library/monster-portraits/batches/spellgard/refs/ettercap-feast-hall.png",
+    "url": "https://www.adventurelookup.com/adventures/the-scepter-tower-of-spellgard",
+    "filename": "spellgard-source-1.webp",
+    "artist": "Wizards of the Coast · Ettercaps in the feast hall, Scepter Tower of Spellgard"
+  },
+  {
+    "name": "Iron Defenders",
+    "input": "output/dm-library/monster-portraits/batches/spellgard/refs/iron-defender.png",
+    "url": "https://bira.github.io/octopus-carnival/2020/05/22/homunculus.html",
+    "filename": "spellgard-source-1.webp",
+    "artist": "Wizards of the Coast · Iron Defender, 4th edition Monster Manual"
+  },
+  {
+    "name": "Kobold Dragonshields",
+    "input": "output/dm-library/monster-portraits/batches/spellgard/refs/kobold-trio.png",
+    "url": "https://bira.github.io/octopus-carnival/2020/06/13/kobold.html",
+    "filename": "spellgard-source-1.webp",
+    "artist": "Wizards of the Coast · Kobold Dragonshield, center, 4th edition Monster Manual"
+  },
+  {
+    "name": "Kobold Skirmishers",
+    "input": "output/dm-library/monster-portraits/batches/spellgard/refs/kobold-trio.png",
+    "url": "https://bira.github.io/octopus-carnival/2020/06/13/kobold.html",
+    "filename": "spellgard-source-1.webp",
+    "artist": "Wizards of the Coast · Kobold Skirmisher, left, 4th edition Monster Manual"
+  }
+]

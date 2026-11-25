@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Mohrg",
+    "publication": "Libris Mortis: The Book of Undead (2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Choose a base ancestry and retain applicable features. At 1st level the character becomes undead and loses the Constitution score. These levels already include level adjustment. Take Hit Dice, skill points and feats only where the progression assigns them. Natural armor shows the current total from this class, while score increases add together. A character that starts the progression must complete it before taking more levels in another class.",
+      "Darkvision 60 ft., Common, base ancestry land speed, and proficiency with simple weapons. The class grants no armor or shield proficiencies.",
+      "Table 2–4 covers 20 levels and ends at 14d12 Hit Dice. Start with +2 Str and a slam for 1d4 plus one and a half times the Strength bonus. The progression adds Strength and Dexterity and reaches +9 natural armor at 19th level.",
+      "At 9th level improved grab lets a successful slam against a creature no larger than the Mohrg start a grapple without provoking. At 12th level the tongue makes one paralyzing melee touch attempt per day. It rises to three uses at 15th level and at will at 18th. A hit forces a Fortitude save at DC 10 + half the Hit Dice gained in the class + Charisma modifier, with paralysis for 1d4 minutes on a failure.",
+      "At 20th level, creatures it kills rise after 1d4 days as controlled zombies and lose their former abilities. Table 2–2 gives the mature nonprogression option LA +6 and ECL 20. The 20-step player class already includes that adjustment."
+    ]
+  },
+  {
+    "name": "Vampire Spawn",
+    "publication": "Libris Mortis: The Book of Undead (2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Choose a base ancestry and retain applicable features. At 1st level the character becomes undead and loses the Constitution score. These levels already include level adjustment. Take Hit Dice, skill points and feats only where the progression assigns them. Natural armor shows the current total from this class, while score increases add together. A character that starts the progression must complete it before taking more levels in another class.",
+      "Darkvision 60 ft., Common, base ancestry land speed, and proficiency with simple weapons. The class grants no armor or shield proficiencies.",
+      "Table 2–6 covers eight levels and ends at 4d12 Hit Dice. Start with +2 Str, +2 Cha, blood drain, a 1d4 slam, +2 turn resistance and +2 racial on Bluff, Hide, Listen, Move Silently, Search, Sense Motive and Spot. At 4th level these skill bonuses rise to +4. The class also grants Alertness, Lightning Reflexes and Improved Initiative along the progression.",
+      "Maintaining a pin on a living foe drains 1d4 Constitution per round and grants 5 temporary hp for up to an hour per successful use. Gain spider climb at 3rd level, fast healing 1 at 5th, cold and electricity resistance 10 at 6th, and at-will gaseous form and a 1d6 slam at 7th. At 8th level fast healing becomes 2 and the character gains damage reduction 5/silver.",
+      "At 8th level, targeted domination reaches 30 ft., takes a standard action and functions as dominate person at CL 12. A slam also gives a living target one negative level and grants 5 temporary hp for up to an hour. Both save DCs use 10 + half the class Hit Dice + Charisma modifier.",
+      "The class uses the vampire spawn weaknesses in Monster Manual p. 253. The mature spawn has a special coffin escape when it falls to 0 hp in combat. Undead hunger is optional under Libris Mortis pp. 9–10. The progression is for free-willed spawn."
+    ]
+  },
+  {
+    "name": "Wight",
+    "publication": "Libris Mortis: The Book of Undead (2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Choose a base ancestry and retain applicable features. At 1st level the character becomes undead and loses the Constitution score. These levels already include level adjustment. Take Hit Dice, skill points and feats only where the progression assigns them. Natural armor shows the current total from this class, while score increases add together. A character that starts the progression must complete it before taking more levels in another class.",
+      "Darkvision 60 ft., Common, base ancestry land speed, and proficiency with simple weapons. The class grants no armor or shield proficiencies.",
+      "Table 2–7 covers eight levels and ends at 4d12 Hit Dice. Start with +2 Dex, +8 racial to Move Silently, and a 1d4 slam adding one and a half times the Strength bonus. The table raises Strength, Wisdom, Charisma and natural armor. Natural armor reaches +4 at the final level.",
+      "At 8th level the slam bestows one negative level on a living target, granting the Wight 5 temporary hp for up to an hour. After 24 hours the Fortitude DC to recover is 10 + half the class Hit Dice + Charisma modifier.",
+      "At 8th level a slain humanoid rises as an enslaved Wight after 1d4 rounds and remains under its creator’s command until the creator dies. The new Wight loses its abilities from life. The creature can use the optional life-force hunger rules in chapter 1."
+    ]
+  }
+]

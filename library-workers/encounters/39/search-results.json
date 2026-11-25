@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Chimera (MCDM)",
+    "query": "winged ram guarded territories volant skirmisher",
+    "condition": "Frightened",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Wyvern (MCDM)",
+    "query": "rocky-scaled badlands stubborn rage tail sweep",
+    "condition": "Grappled",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

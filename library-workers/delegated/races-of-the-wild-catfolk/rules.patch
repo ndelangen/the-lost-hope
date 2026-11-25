@@ -1,0 +1,157 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -310665,6 +310665,21 @@
+       ]
+     },
+     {
++      "name": "Catfolk",
++      "kind": "species",
++      "publication": "Races of the Wild (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid with the Catfolk subtype. Dexterity +4, Charisma +2, and 40-ft. base land speed.",
++        "Low-light vision extends human distance in dim light to twice the range and retains color and detail. +1 natural armor bonus to AC.",
++        "+2 racial bonus to Listen and Move Silently checks.",
++        "Thick nails use ordinary unarmed attacks. The playable species has no racial claw or bite attack.",
++        "Common and Feline are automatic languages. Bonus languages Draconic, Gnoll, Halfling, Sylvan. Favored class Ranger. Level adjustment +1.",
++        "Optional Catfolk Pounce feat from p. 148 requires Catfolk and Dexterity 13. A Catfolk who takes it can make a full attack at the end of a charge against a flat-footed opponent. A Catfolk Fighter can take it as a bonus feat.",
++        "Lionlike, leopard-, tiger-, and cheetah-like appearances are described. The book gives these appearances the same playable traits."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Explorer's Guide to Wildemount",
+       "name": "Dragonborn (Ravenite; Copper)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -536,6 +536,88 @@
+       "tactics": "Move injured passengers behind cover, use healing on the worst injury, and use the river route when the landing is unsafe. Cast bless if allies need to hold the crossing."
+     },
+     {
++      "id": "catfolk-trade-mediator-35e",
++      "title": "Catfolk market mediator, Bard 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2.",
++      "size": "Medium",
++      "type": "Humanoid (Catfolk)",
++      "ac": 16,
++      "hp": 7,
++      "hitDice": "1d6+1",
++      "initiative": 3,
++      "speed": "40 ft.",
++      "abilityScores": {
++        "STR": 8,
++        "DEX": 17,
++        "CON": 12,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 17
++      },
++      "skills": [
++        "Bluff +7",
++        "Diplomacy +10",
++        "Gather Information +7",
++        "Listen +6",
++        "Move Silently +9",
++        "Perform (oratory) +7",
++        "Sense Motive +4"
++      ],
++      "senses": "Low-light vision",
++      "languages": "Common, Feline, Halfling",
++      "traits": [
++        "Leather armor +2, Dexterity +3, and natural armor +1. Touch 13, flat-footed 13. BAB +0, grapple −1. Fortitude +1, Reflex +5, Will +2.",
++        "Skill Focus (Diplomacy) gives +3. Listen and Move Silently already include racial bonuses. Bardic Knowledge +2.",
++        "Caster level 1. Two 0-level spells and one 1st-level spell per day. The 1st-level slot is a Charisma bonus. Light armor is compatible with her bard spells.",
++        "One Bardic Music use per day shared by Inspire Courage, Countersong and Fascinate. Begin a performance as a standard action."
++      ],
++      "actions": [
++        "Light crossbow +3 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action. Dagger −1 melee, 1d4−1 piercing or slashing, minimum 1, critical 19–20/×2.",
++        "Inspire Courage +1 morale on attack rolls, weapon damage rolls, and saves against charm and fear, for allies who hear her. It lasts while they hear her and for 5 rounds afterward.",
++        "Countersong uses Perform (oratory) +7 within 30 ft. against sonic or language-dependent magic. A creature can use the Perform result if it beats its save. If a creature is already under an eligible ongoing effect, it saves again each round using her Perform result. Maintain up to 10 rounds.",
++        "Fascinate one creature within 90 ft. that can see, hear, and pay attention to her. Its Will save DC is her Perform result. At this level it lasts up to 1 round of concentration. Nearby combat prevents its use and overt threats break it.",
++        "0-level spells known: detect magic, light, mage hand, message. 1st-level spells known: comprehend languages and cure light wounds. Comprehend Languages lasts 10 minutes and requires touching the speaker or text to understand the literal meaning. Cure Light Wounds heals 1d8+1 HP to a living creature touched."
++      ],
++      "tactics": "Compare the two versions of the trade terms before the market closes. Use Comprehend Languages to check the literal wording or keep the slot for an injured traveller. If the crowd panics, use Inspire Courage while it can hear her."
++    },
++    {
++      "id": "catfolk-perimeter-escort-35e",
++      "title": "Catfolk perimeter escort, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 2.",
++      "size": "Medium",
++      "type": "Humanoid (Catfolk)",
++      "ac": 19,
++      "hp": 11,
++      "hitDice": "1d10+1",
++      "initiative": 4,
++      "speed": "40 ft.",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 18,
++        "CON": 13,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 10
++      },
++      "skills": ["Climb +4", "Jump +8", "Listen +3", "Move Silently +4"],
++      "senses": "Low-light vision",
++      "languages": "Common, Feline",
++      "traits": [
++        "Chain shirt +4, Dexterity +4, and natural armor +1. Touch 14, flat-footed 15. BAB +1, grapple +3. Fortitude +3, Reflex +4, Will +1.",
++        "Chain shirt check penalty −2. Jump includes +4 for speed 40 ft. Listen and Move Silently include +2 racial bonuses and have no purchased ranks.",
++        "Two-Weapon Fighting is the Fighter bonus feat. Catfolk Pounce is a separate feat. It applies only when Keshar charges a flat-footed opponent."
++      ],
++      "actions": [
++        "Short sword +3 melee, 1d6+2 piercing, critical 19–20/×2, 5-ft. reach. With both short swords in a normal full attack, +1/+1, for 1d6+2 on the main hand and 1d6+1 on the off hand.",
++        "Charge one attack at +5, 1d6+2 piercing. With Catfolk Pounce on a qualifying charge, make both short sword attacks at +3/+3, with normal damage by hand. Apply the charge’s −2 AC until the start of his next turn."
++      ],
++      "tactics": "Move the healer toward the camp by the clear path and keep a separate exit open. If combat blocks the way, charge only when there is a clear line and a flat-footed foe for the pounce."
++    },
++    {
+       "id": "hengeyokai-badger-cave-surveyor-3e",
+       "title": "Badger Hengeyokai cave surveyor, Expert 1",
+       "origin": "Original DM Library NPC",
+@@ -1093,6 +1175,28 @@
+       "hook": "Sethra holds the witnessed signature on the guarantee but will wait if the players can provide collateral of equal worth."
+     },
+     {
++      "species": "Catfolk",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of the Wild (2005)",
++      "name": "Tavira of the Sun Reed",
++      "build": "catfolk-trade-mediator-35e",
++      "role": "Market mediator and travelling Bard.",
++      "motive": "Settle a dispute over a toll before the two trading parties leave.",
++      "hook": "Tavira can compare the disputed terms if the party brings the original tally tablet and a witness."
++    },
++    {
++      "species": "Catfolk",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of the Wild (2005)",
++      "name": "Keshar of the Dry Brook",
++      "build": "catfolk-perimeter-escort-35e",
++      "role": "Perimeter escort and two-weapon Fighter.",
++      "motive": "Get a village healer safely from the closing market to the overnight camp.",
++      "hook": "Keshar will escort the healer if the party can keep the alternate gate open."
++    },
++    {
+       "species": "Ravenite Dragonborn",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -1568,6 +1568,7 @@
+ Category 2 Krasis	monster	Monstrosity	Guildmasters’ Guide to Ravnica	2014 fifth edition	Wizards of the Coast		6
+ Category 3 Krasis	monster	Monstrosity	Guildmasters’ Guide to Ravnica	2014 fifth edition	Wizards of the Coast		16
+ Caterpede	beast	Beast	Humblewood Tales	2014 fifth edition compatible	Hit Point Press	https://www.dndbeyond.com/monsters/5174347-caterpede	1/8
++Catfolk	species	Humanoid (Catfolk)	Races of the Wild (2005)	3.5 edition	Wizards of the Coast	https://books.google.co.uk/books/about/Races_of_the_Wild.html?id=kjsBAAAACAAJ	
+ Cathus Gright	monster	Humanoid	Humblewood Tales	2014 fifth edition compatible	Hit Point Press	https://www.dndbeyond.com/monsters/5174348-cathus-gright	3
+ Catoblepas	monster	Monstrosity	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560750-catoblepas	5
+ Catoblepas	monster	Monstrosity	Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17225-catoblepas	5

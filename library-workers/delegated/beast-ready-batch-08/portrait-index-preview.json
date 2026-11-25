@@ -1,0 +1,402 @@
+[
+  {
+    "entry": "beast-1d48f84aa257b116c0a7407b",
+    "version": "0620782ff53b900423b72c50",
+    "name": "Squid",
+    "file": "images/beasts/squid/parchment-portrait.webp",
+    "sha256": "8dcb2884bc0e384f0427cf3971550803d7047daeafa0d3008177588af680f6e5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-f15c16b99f82d8201767d3a8",
+    "version": "11a105f92294d5ad3f8b8402",
+    "name": "Tiger",
+    "file": "images/beast-ready-batch-02/tiger.png",
+    "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ff2f0b10db1668f2d68d6e40",
+    "version": "6248fb8ec082ee81e8f26718",
+    "name": "Triceratops",
+    "file": "images/monsters/triceratops/parchment-portrait.webp",
+    "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-df48cb7118fed4e00bc14686",
+    "version": "26c84bed89703efde5e7ef1c",
+    "name": "Tyrannosaurus",
+    "file": "images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+    "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-764abc69937514d20950b4e0",
+    "version": "0701410177fd3d504bd672e6",
+    "name": "War Pony",
+    "file": "images/beasts/war-pony/parchment-portrait.webp",
+    "sha256": "b564a87e30cecf28608a31b4677e40119a2e929b2b55da1f75aac539ce901a35",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-f76b61b962db075bb76ad6f3",
+    "version": "86f88780d32d6b8b722c9e11",
+    "name": "Wolf",
+    "file": "images/beast-ready-batch-02/wolf.png",
+    "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-b00ef262afae566b51f74012",
+    "version": "830725dcbe27b39412b8d8ee",
+    "name": "Wolverine",
+    "file": "images/beasts/wolverine/parchment-portrait.webp",
+    "sha256": "696bfc4e9a3dc67069266eb71d8757fdb5c6072ce2f6e210902fcbfbf483f975",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-f67b19aad0f376db918dafe1",
+    "version": "46ffa920a27956e567a7185c",
+    "name": "Batracine",
+    "file": "images/beast-ready-batch-08/batracine.png",
+    "sha256": "6c1b809f7ee2406280889d75b41d8d589f59b748ba4a1dd8025d90779bf13344",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a14cd4e4d5536999eac02cf3",
+    "version": "fe3ec8eece507b6b2a1893a0",
+    "name": "Caniquine",
+    "file": "images/beast-ready-batch-08/caniquine.png",
+    "sha256": "6c34cb9cd21cd65a03328050d3dcdf8371b79fb3309c08a03a928f47b424f871",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-40f799f9f0d6936fa930901f",
+    "version": "66c969f5e57b341206be81fc",
+    "name": "Cinnavixen",
+    "file": "images/beast-ready-batch-08/cinnavixen.png",
+    "sha256": "6d44d09c42b4f34c9f4eda925cb58914f3db4ac68b75d73b71efe24a9d848f15",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-10661c5f112f120315fce0d5",
+    "version": "dea71987a608909fd01a86c5",
+    "name": "Echyan",
+    "file": "images/beast-ready-batch-08/echyan.png",
+    "sha256": "ab83566d5bc3d712d7c3e555e72e90295c5c370e2923b5da3c617ed2d9a2b2f8",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-0cf7b7407071b05f610cf5f2",
+    "version": "1df3167cd5a29379e8e99e6b",
+    "name": "Feliquine",
+    "file": "images/beast-ready-batch-08/feliquine.png",
+    "sha256": "58aab3d368d394522f56f15e688ac7920f056a34a24a55be71baa01d152b21ec",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-7b7237656b1258f788fb9dd2",
+    "version": "1f3f843ff0b5ff2bdb652871",
+    "name": "Herathian Voat",
+    "file": "images/beasts/herathian-voat/parchment-portrait.webp",
+    "sha256": "3dcbb4ef9a9ad4a0844822421756d34eb34a3c7c5a0039e2c25d411e0159a65c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-bc484df0617cfec9c5ba7f6d",
+    "version": "670f2bcc858e273435739146",
+    "name": "Jorri",
+    "file": "images/beasts/jorri/parchment-portrait.webp",
+    "sha256": "e77650da26cab97e9cd0a47ca65cbf7a93a299fb9a00f79e4985368b1d6a0605",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e675ac6313a4e9b260425f81",
+    "version": "1e3f74e54e987ab8f0a43bd1",
+    "name": "Juhrion",
+    "file": "images/beast-ready-batch-08/juhrion.png",
+    "sha256": "9b8afecceb7ad3063d0d964323cb24ff7d69a5ba443e704994118b02ace56b3f",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-471243221d433507a0f6a170",
+    "version": "044418f4f3dacd1934bf220d",
+    "name": "Lupasus",
+    "file": "images/beasts/lupasus/parchment-portrait.webp",
+    "sha256": "51744344fa8e3a3d9105eba8a4d11d9f868b9df38e1c254d029a8f507a9a1aae",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-56b4170f788e663bb54f34b1",
+    "version": "e8412ccafa4a44a359176327",
+    "name": "Marine Cat",
+    "file": "images/beasts/marine-cat/parchment-portrait.webp",
+    "sha256": "79b713a311443f1ea3dac63c05035bf2a61efb5cfd8a26f5c244c5bd97376f7b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-dbd0e5b181bbcf153135fc22",
+    "version": "fc3b1dca02197e3edd460b58",
+    "name": "Nikt’oo",
+    "file": "images/beast-ready-batch-08/niktoo.png",
+    "sha256": "c41436a38d6ebf71a6b5baeb6122f7e91137f467af21a00f49d09e00ac205566",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-bccbf98b93227ebec2225f2d",
+    "version": "c3e98c0ea717ded76c35a434",
+    "name": "Omm-wa",
+    "file": "images/beasts/omm-wa/parchment-portrait.webp",
+    "sha256": "d43d52b53f64e9c1b0a1815757c683144c0c9b0d5c59ccc99589233c9ab4455a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-5fb30fab4272c9d665b7eab6",
+    "version": "809f76c6c14e6433a6efa595",
+    "name": "Succulus",
+    "file": "images/beast-ready-batch-08/succulus.png",
+    "sha256": "6fa9bf97689e4aaddd307882ad7fd00a8ae5185ce8a095a6676649309d782acf",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9ceac126b598d13935b137d2",
+    "version": "e19321a77ca28dd450566f57",
+    "name": "Swampmare",
+    "file": "images/beasts/swampmare/parchment-portrait.webp",
+    "sha256": "e91fbf1ed393b3fc787d28c23a50aaaa948ef3bf903621774978af3803b4ecb5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6bdcdddb9d18a4c5e04d3847",
+    "version": "7255ddb51cfb7de9842d06c7",
+    "name": "Trosip",
+    "file": "images/beasts/trosip/parchment-portrait.webp",
+    "sha256": "c1e136bef79480466c4d5d094105c55b598a8598ded85cdd5c3650de66fee008",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9d0d0b796660ed3a3a330d37",
+    "version": "810d5efe1bb4007ee519a342",
+    "name": "Voat",
+    "file": "images/beasts/voat/parchment-portrait.webp",
+    "sha256": "7818ff5599db53331a679988dd1b4dc95e611b48dd8d694a7918309615139f8b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-8bdd9c843ccd5be65f961d36",
+    "version": "91b485051da8e6ea92cc6e4f",
+    "name": "Vulturehound",
+    "file": "images/beasts/vulturehound/parchment-portrait.webp",
+    "sha256": "d804139e1e1b3b5cd28fdc9eae5ea6647cc320bbb6a54d00afbd2be613d25b33",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-95beb504b4261d42e4c4c4d6",
+    "version": "9aa3118bbd17512bbd1ac887",
+    "name": "Wynzet",
+    "file": "images/beasts/wynzet/parchment-portrait.webp",
+    "sha256": "46ca43296a4dd52670d1f94e0f539aeaa96971751fbe896dedbd9fc6f7c94298",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e8d3d375821d40202016e880",
+    "version": "971c2506c5c05f6813009985",
+    "name": "Almiraj",
+    "file": "images/beast-ready-batch-08/almiraj.png",
+    "sha256": "b8bc228dad2a7fe595ce9de19a3c1024dbe14a0054b23c19a59d03fa5d238c53",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a2351c917006bec1f8c247fa",
+    "version": "3e79c391c81104d1c68254b8",
+    "name": "Brontosaurus",
+    "file": "images/beast-ready-batch-08/brontosaurus.png",
+    "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-20d3e186f50d38e830fb528a",
+    "version": "6e7ce77f9bae8a82433159bb",
+    "name": "Deinonychus",
+    "file": "images/beast-ready-batch-07/deinonychus.png",
+    "sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-cf58e8eaf8460a18533ca5ef",
+    "version": "d321bdb9a94916d33f714bda",
+    "name": "Dimetrodon",
+    "file": "images/beast-ready-batch-08/dimetrodon.png",
+    "sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d4e2597e3b2b3a847075cf0b",
+    "version": "0b44d41e745505195da21f19",
+    "name": "Flying Monkey",
+    "file": "images/beast-ready-batch-08/flying-monkey.png",
+    "sha256": "3154dcbc49c9d07e425980718ce0d9e694327d349cd697d3e77b6878397ce57c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-53ec858292a9fd2a33c8681e",
+    "version": "c93925c6af64ce9ee5641bb1",
+    "name": "Giant Snapping Turtle",
+    "file": "images/beast-ready-batch-08/giant-snapping-turtle.png",
+    "sha256": "c0052ecb2b70097da1ec1c6a831942a5a3af746b7f339633631eba7bb275a927",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-af4b29a9f5845bf2b78ee661",
+    "version": "5e8ab8f617518dd078687722",
+    "name": "Hadrosaurus",
+    "file": "images/beast-ready-batch-08/hadrosaurus.png",
+    "sha256": "de2622feb0d340b12706d4e458823d9e2f2054b2c6093c04dcfb93148d32650c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ad8e5b7a3e9289428ba0a46b",
+    "version": "7b2de21f8962a05af77784e7",
+    "name": "Jaculi",
+    "file": "images/beast-ready-batch-08/jaculi.png",
+    "sha256": "1b053afe35438d32c9a31c7bb377e4ebff72beafb60812735f4c8f91ee4a9685",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-3ad24d1ac14e0ac52fd07b44",
+    "version": "c76e5aa25abf963c77a503ba",
+    "name": "Quetzalcoatlus",
+    "file": "images/beast-ready-batch-08/quetzalcoatlus.png",
+    "sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ec43f7788b1d87bfb7ff96bc",
+    "version": "f7242105b0a2510b1e77fe23",
+    "name": "Stegosaurus",
+    "file": "images/beast-ready-batch-08/stegosaurus.png",
+    "sha256": "bbce0e2a84d44cbe6d52010a2425de1472bdc928e8d652ed93379dab15ee7b72",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c45142564e203d7265f56c7c",
+    "version": "18d239ca9a3f242bde5ab901",
+    "name": "Velociraptor",
+    "file": "images/beast-ready-batch-01/velociraptor.png",
+    "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-3a53949aeeb1996965a46f82",
+    "version": "c0c3862ca7518ba852082bde",
+    "name": "Wild Dog",
+    "file": "images/beast-ready-batch-08/wild-dog.png",
+    "sha256": "fbb0c2e35a467b8ca4334eb49263454fab778a0f050356683ac57cadb5f2d187",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-676cb75018edccf10fce6f37",
+    "version": "588caeb80a4f649ed4f9ce28",
+    "name": "Zebra",
+    "file": "images/beast-ready-batch-08/zebra.png",
+    "sha256": "0a79e2ff5d6fe681691f9b51a15a7db405954a54d090609b112c64b9ffcef951",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a3f6e625ee577258169b854f",
+    "version": "6b0d872c37289b04faed1fc7",
+    "name": "Deathjump Spider",
+    "file": "images/beasts/deathjump-spider/parchment-portrait.webp",
+    "sha256": "033c73c9e3369952909c5c44a5095dcbcca27255f7ebaa305afb8158bb71c593",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d52fae2d1ea07a53f2c1ee64",
+    "version": "c5bda07ce37d2b5cad9f1ca1",
+    "name": "Giant Rat",
+    "file": "images/beast-ready-batch-05/giant-rat.png",
+    "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-bb774307b671c4a54d0d2fd4",
+    "version": "6e5a07b4fbf28c9120aac01c",
+    "name": "Guard Drake",
+    "file": "images/beasts/guard-drake/parchment-portrait.webp",
+    "sha256": "1c2e141487aad507b22fe28a130661997cce62e84565d5625b843663852e266c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-4f4ed3191f69645029d1c8fb",
+    "version": "92c9699fde22c800ac3d423a",
+    "name": "Kruthik Adult",
+    "file": "images/beasts/kruthik-adult/parchment-portrait.webp",
+    "sha256": "b6c76c4a1c5348a1a1e53cdfcc5e3537b453dd8374e2356b43a020ea1fdb22df",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-8a0b766d8eb3f47a77d4362f",
+    "version": "258953990ad50bd5661f6187",
+    "name": "Kruthik Hatchling",
+    "file": "images/beasts/kruthik-hatchling/parchment-portrait.webp",
+    "sha256": "cd06c7118ae734ffed5a18103dc8c105ce6f85c73f88bebbf4bfec36d99607b4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-947cd3d1279ac1cd158ebe7f",
+    "version": "604542a7bd6762697b06a4c1",
+    "name": "Kruthik Young",
+    "file": "images/beasts/kruthik-young/parchment-portrait.webp",
+    "sha256": "d0c0f1ab6c4adde5beb22052640a2f6bb90bac8293a9a1f734c4e53373176cc5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-2cdd8ccdaea6bcdce24f05d5",
+    "version": "f13404f28c58d160c1f0a302",
+    "name": "Rat Swarm",
+    "file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+    "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-236ac61cf05f64aea31baeb8",
+    "version": "093a89d28378b2711941cc6a",
+    "name": "Giant Bumblebee",
+    "file": "images/beasts/giant-bumblebee/parchment-portrait.webp",
+    "sha256": "65a717519a628b5b71df378ee582abeb66d41140c9bc91354ef555e18772f8f3",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-bab1b413d6982af02645f2ef",
+    "version": "7d5f7b424cdfcb092ece3011",
+    "name": "Giant Dragonfly",
+    "file": "images/beast-ready-batch-08/giant-dragonfly.png",
+    "sha256": "bf7e624f93e2e8b70203ca79976e58e0f12b276dea68deea8795e68095997426",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-712332630bae27220483c473",
+    "version": "8d8ed2ec887c5c96c31766db",
+    "name": "Giant Honey Bee (Soldier)",
+    "file": "images/beasts/giant-honey-bee-soldier/parchment-portrait.webp",
+    "sha256": "a7ee4c181b196dedb320a82cf2c3db15eb977f02025e8a4a581e2d96ec3a26f1",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-91e66def1275e53b1db498f0",
+    "version": "52bd2ed0f8b0dcaf63a80ea0",
+    "name": "Giant Honey Bee (Worker)",
+    "file": "images/beasts/giant-honey-bee-worker/parchment-portrait.webp",
+    "sha256": "bd0d63cdfd57ecc5e151194d8c7743e90720b7ab85abac51723373c6720fe865",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e4a0440620f632973b6a5388",
+    "version": "ab8895b91b1e7d65561c0972",
+    "name": "Oliphant",
+    "file": "images/beasts/oliphant/parchment-portrait.webp",
+    "sha256": "daa6992b4877a413ef9aadb19d07705e94469dd3893f74a25a475559da527b08",
+    "credit": "OpenAI ImageGen"
+  }
+]

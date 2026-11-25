@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Owlbear (MCDM)",
+    "slug": "owlbear",
+    "id": "monster-f96b45d9f50ca2ab7e71c12f:79b7bfc5df55933cab234d8b",
+    "entry": "monster-f96b45d9f50ca2ab7e71c12f",
+    "version": "79b7bfc5df55933cab234d8b",
+    "suffix": "encounters-36/owlbear.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-36/owlbear.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-36/event-drafts/owlbear-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 36 2026-11-23/event-drafts/owlbear-event-v1.png",
+    "overrides": [],
+    "sha256": "4368f8ae3018fbb9aea4ec693ec0ccb98d6ca66470e33164ee62020394093362",
+    "bytes": 2787529
+  },
+  {
+    "name": "Shambling Mound (MCDM)",
+    "slug": "shambling-mound",
+    "id": "monster-cc7dba62147ca1218369889a:81554b793bdf77c91c9ccb8d",
+    "entry": "monster-cc7dba62147ca1218369889a",
+    "version": "81554b793bdf77c91c9ccb8d",
+    "suffix": "encounters-36/shambling-mound.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-36/shambling-mound.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-36/event-drafts/shambling-mound-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 36 2026-11-23/event-drafts/shambling-mound-event-v1.png",
+    "overrides": [],
+    "sha256": "823695caf622b1fe27646f34a6052be67667c0effd82de8fe201a0c2acc78d03",
+    "bytes": 2985293
+  }
+]

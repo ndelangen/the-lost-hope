@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Rilkan",
+    "kind": "species",
+    "publication": "Magic of Incarnum (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Reptilian subtype. +2 Dexterity, −2 Strength. Base land speed 30 ft. The racial traits grant no essentia pool. Gaining an essentia pool from a class or feat adds the Incarnum subtype.",
+      "Racial Knowledge treats all Knowledge checks as trained, even without ranks. Its +1 competence bonus on Knowledge and bardic knowledge checks increases by +1 per two soulmelds currently shaped.",
+      "+2 racial bonus to Bluff and Diplomacy.",
+      "Racial Aid gives +3 to the roll of another Rilkan when you successfully aid them. Use the ordinary bonus when aiding a creature of another species.",
+      "Common is automatic. Bonus languages can be any nonsecret language. Favored class Incarnate. The published examples list LA +0 and use class Hit Dice.",
+      "Rilkans resemble humans with bands of pebbly scales on the neck and forearms. The book describes single-color bands in males and patterned multicolor bands in females.",
+      "Choose the optional Rilkan Rogue substitutions at Rogue 1, 3, and 10 independently. Each uses a d6 Hit Die and adds Speak Language as a class skill at that level.",
+      "Rogue 1 keeps trapfinding and trades 1st-level sneak attack for Improved Flanking. Sneak attack begins at Rogue 3 and stays 1d6 below the standard progression if this substitution is taken.",
+      "Improved Flanking gives the Rilkan Rogue +4 to attacks when flanking in place of the usual +2. Other Rilkans flanking that same foe also get +4. Allies of other species use the usual flanking bonus.",
+      "The Rogue 3 substitution grants bardic knowledge and a bonus feat. It replaces trap sense and prevents gaining it from later rogue levels. Use rogue level plus Intelligence modifier for bardic knowledge, and apply Racial Knowledge. The feat choices are Deceitful, Diligent, Investigator, Negotiator, and Persuasive.",
+      "Rogue 10 can replace that level’s special ability with Fortunate Reflexes. Reroll a failed Reflex save unless the original die was a natural 1, and keep the new result. Taking this option gives up improved evasion from rogue levels."
+    ]
+  }
+]

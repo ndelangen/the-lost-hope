@@ -1,0 +1,74 @@
+[
+  {
+    "entry": "beast-d93a479350c71f3dd6b82cde",
+    "version": "3f9c95569fbe627fe110defd",
+    "name": "Dinosaur Spirit (Ankylosaur)",
+    "file": "images/beast-portrait-coverage-01/dinosaur-spirit-ankylosaur.png",
+    "sha256": "d9a6dc2eed0f1e497a578ca81afdd36c90353ecad2303c35ecff0414d313ed94",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-34e3b90a8444ab3b95719482",
+    "version": "76a992c6dee2721106e89357",
+    "name": "Dinosaur Spirit (Triceratops)",
+    "file": "images/beast-portrait-coverage-01/dinosaur-spirit-triceratops.png",
+    "sha256": "046d92d9efd0e06be7db46c4a31f217bfb8528b6dcf9701e2e361a320f432347",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-3fc9fd4101f963928b74b9f6",
+    "version": "5f07981b7fbb468af647fe12",
+    "name": "Dinosaur Spirit (Tyrannosaur)",
+    "file": "images/beast-portrait-coverage-01/dinosaur-spirit-tyrannosaur.png",
+    "sha256": "b4e218fb42376bbff8c6cac7cecdea704088c543749f12038cbf2f104eae9daa",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-7e50c855da9c9de5c552def1",
+    "version": "f76ec171c7d62a989849d182",
+    "name": "Mohler",
+    "file": "images/beast-portrait-coverage-01/mohler.png",
+    "sha256": "04b635f652487a6d184d635da013aeb059a0906df4b4904fdff99c8edde70b8c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-7e50c855da9c9de5c552def1",
+    "version": "61883d9d6e84a0ac8a29eb12",
+    "name": "Mohler",
+    "file": "images/beast-portrait-coverage-01/mohler.png",
+    "sha256": "04b635f652487a6d184d635da013aeb059a0906df4b4904fdff99c8edde70b8c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ef12cc77d7b32b4abf080327",
+    "version": "bb2f060e6110ef9c03878386",
+    "name": "Rotbeast",
+    "file": "images/beast-portrait-coverage-01/rotbeast.png",
+    "sha256": "e58c6f5a6fb68db3f148b38e62cb7aa3d4e71b7663032f1bf49f52de0a043328",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-8f2d96bf6eddd2459f0ee028",
+    "version": "0e39d1067cad56d22868e26d",
+    "name": "Stoneback Isopod",
+    "file": "images/beast-portrait-coverage-01/stoneback-isopod.png",
+    "sha256": "e55547d92f9d3e8649627e79faa9746c35296a7086f1fa35c308679202dda2bb",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-95c98698cdaa4b44ceab00f5",
+    "version": "c0aae000bdf7124c10e69622",
+    "name": "Trinket",
+    "file": "images/beast-portrait-coverage-01/trinket.png",
+    "sha256": "a915bbe0663be6a88f6399b068fd06d46b2686ecccd59ec19f34ec71bdf5c935",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-2e1390376d75335d16498423",
+    "version": "781f87f10d955ceba1ab0a42",
+    "name": "Yumgrub",
+    "file": "images/beast-portrait-coverage-01/yumgrub.png",
+    "sha256": "dc3914ba595b8b7997e7c68c17dde7d46ceb366a4a1c4280e4ef11771831394a",
+    "credit": "OpenAI ImageGen"
+  }
+]

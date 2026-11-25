@@ -1,0 +1,1876 @@
+{
+  "baseline": "ac1ddddbede141f7daabb481453c6a9cffb7ba92",
+  "species": 50,
+  "profiles": 50,
+  "canonicalGroups": 50,
+  "groupedLineages": 0,
+  "newCatalogRows": 50,
+  "existingMetadataEnriched": 0,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Aboleth",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_a",
+      "parentSpecies": null,
+      "aliases": "Aboleth / Aboleths. Use the player-scale traits and keep any campaign aboleth and encounter stat blocks separate.",
+      "npcs": [
+        "Orzhal Lowwater"
+      ],
+      "portrait": "parts/seven_monstrous_a/portraits/aboleth.png",
+      "source": {
+        "name": "Aboleth",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+        "url": "",
+        "printedPages": [
+          9,
+          10
+        ],
+        "heading": "Aboleths, Aboleth Traits and Playing an Aboleth",
+        "creatureType": "Aberration",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+        "comparisonText": "",
+        "sourceDistinctions": "The preview's 1d6 tentacle strike uses core unarmed strike proficiency. The build treats a grasping tentacle as able to use the pouch and make somatic gestures, since the conversion does not add a no-hands trait.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+        }
+      }
+    },
+    {
+      "name": "Animated Object",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_a",
+      "parentSpecies": null,
+      "aliases": "Animated Object / Animated Objects. Animated Armor, Flying Sword, and Rug of Smothering share one claim.",
+      "npcs": [
+        "Brass Sentry"
+      ],
+      "portrait": "parts/seven_monstrous_a/portraits/animated-object.png",
+      "source": {
+        "name": "Animated Object",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+        "url": "",
+        "printedPages": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "heading": "Animated Objects and the three subrace traits",
+        "creatureType": "Construct",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+        "comparisonText": "",
+        "sourceDistinctions": "The official preview gives Flying Sword natural AC 15 + Dexterity modifier. The separately mirrored v2 text gives 17 + Dexterity modifier. The profile follows the official preview. The worked NPC is Animated Armor.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+        }
+      }
+    },
+    {
+      "name": "Ankheg",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_a",
+      "parentSpecies": null,
+      "aliases": "Ankheg / Ankhegs. Use the printed player burrower and keep other insectoid heritages separate.",
+      "npcs": [
+        "Flintjaw"
+      ],
+      "portrait": "parts/seven_monstrous_a/portraits/ankheg.png",
+      "source": {
+        "name": "Ankheg",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+        "url": "",
+        "printedPages": [
+          14,
+          15
+        ],
+        "heading": "Ankheg Traits and Playing an Ankheg",
+        "creatureType": "Monstrosity",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+        "comparisonText": "",
+        "sourceDistinctions": "The official preview scales Acid Spray at levels 5, 11, and 17. The separately mirrored v2 text lists levels 6, 11, and 16. The profile follows the official preview. The ordinary Strength damage modifier and Rage bonus apply once to the slashing part of the mixed bite damage.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+        }
+      }
+    },
+    {
+      "name": "Axon",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_a",
+      "parentSpecies": null,
+      "aliases": "Axon / Axons. Furred alien heritage. Keep the Axon gifts together.",
+      "npcs": [
+        "Tovin Breakwire"
+      ],
+      "portrait": "parts/seven_void_a/portraits/axon.png",
+      "source": {
+        "name": "Axon",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/axon",
+        "page": "Chapter 1, Origins, Axon traits, gifts, and paragon",
+        "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+        "publisherUrl": "https://enpublishingrpg.com/products/vo",
+        "supportingRules": {
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "class": "https://a5e.tools/rules/scout",
+          "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/drifter",
+          "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/salvager",
+          "destiny": "https://a5e.tools/node/4222",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "decks": "https://a5e.tools/rules/star-captains-manual"
+        }
+      }
+    },
+    {
+      "name": "Banshee",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_a",
+      "parentSpecies": null,
+      "aliases": "Banshee / Banshees. Distinct from Banshrae and other undead player profiles.",
+      "npcs": [
+        "Maelin Reednote"
+      ],
+      "portrait": "parts/seven_monstrous_a/portraits/banshee.png",
+      "source": {
+        "name": "Banshee",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra via Dungeon Masters Guild",
+        "url": "",
+        "printedPages": [
+          17,
+          18
+        ],
+        "heading": "Banshee Traits and Variant Banshee Traits",
+        "creatureType": "Undead",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition. Official product sample served for product 230312, exact digital revision unmarked.",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "authorResources": "https://rpgbot.net/dnd5/dmsguild/",
+        "comparisonText": "",
+        "sourceDistinctions": "The worked NPC uses flying Banshee and retains Sorrow Bound. A 5-ft. reach for Corrupting Touch is the encounter's reading of the unqualified melee spell attack. Wail uses the legacy Dissonant Whispers spell from the 2014 Player's Handbook, p. 234.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "character creation": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/step-by-step-characters",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting"
+        }
+      }
+    },
+    {
+      "name": "Basilisk",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_b",
+      "parentSpecies": null,
+      "aliases": "Basilisk / Basilisks. Use Kamstra's player creature. Keep the Cockatrice separate.",
+      "npcs": [
+        "Dapplecairn"
+      ],
+      "portrait": "parts/seven_monstrous_b/portraits/basilisk.png",
+      "source": {
+        "name": "Basilisk",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "rulesReadUrl": "",
+        "printedPages": [
+          19
+        ],
+        "heading": "Basilisk Traits and Petrifying Gaze",
+        "version": "Official publisher sample",
+        "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+        "sourceDistinctions": "The official preview calls the stages exhaustion and makes averting eyes a reaction for creatures that are not surprised. It specifies one stage of recovery a round after a successful save. Dapplecairn uses that procedure. The v2 text mirror has older wording for averting eyes.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Behir",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_b",
+      "parentSpecies": null,
+      "aliases": "Behir / Behirs. Keep distinct from dragons and the source's unconverted encounter monster.",
+      "npcs": [
+        "Serrask"
+      ],
+      "portrait": "parts/seven_monstrous_b/portraits/behir.png",
+      "source": {
+        "name": "Behir",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "rulesReadUrl": "",
+        "printedPages": [
+          20
+        ],
+        "heading": "Behir Traits, Constrict and Lightning Breath",
+        "version": "Official publisher sample",
+        "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+        "sourceDistinctions": "The official preview scales Lightning Breath at 5th, 11th and 17th levels. Its trait block grants no lightning resistance. The v2 text mirror has a 6th, 11th and 16th level schedule. Serrask uses the official preview and the 2014 unarmed strike rule for its two verbal Ranger spells.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Beholder",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_b",
+      "parentSpecies": null,
+      "aliases": "Beholder / Beholders. Keep Eye Tyrant, Death Tyrant, and Spectator under one profile.",
+      "npcs": [
+        "Tallyglass"
+      ],
+      "portrait": "parts/seven_monstrous_b/portraits/beholder.png",
+      "source": {
+        "name": "Beholder",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Aberration",
+        "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "rulesReadUrl": "",
+        "printedPages": [
+          21,
+          22
+        ],
+        "heading": "Beholder Traits, Eye Tyrant, Death Tyrant and Spectator",
+        "version": "v2 text mirror",
+        "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+        "sourceDistinctions": "Tallyglass uses Spectator. The Eye Rays give focus use but specify no spell ability or somatic method. Use Intelligence and the eyes for those racial cantrips at this table. “60-goot” in the Death Tyrant text means 60 feet. Spell Reflection declares its waiver before the roll and uses the printed target and reroll procedure.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Birdfolk",
+      "publication": "Gate Pass Gazette #5",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_a",
+      "parentSpecies": null,
+      "aliases": "Winged Birdfolk. Use the original gifts. The later Flightless and Mystic supplements and Humblewood birdfolk are separate rules.",
+      "npcs": [
+        "Tern Flintpin"
+      ],
+      "portrait": "parts/seven_gazette_a/portraits/birdfolk.png",
+      "source": {
+        "name": "Birdfolk",
+        "publication": "Gate Pass Gazette #5",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/birdfolk",
+        "page": "Canticle of the Wing, Birdfolk traits, gifts, and paragon",
+        "creatureType": "Humanoid",
+        "supportingSources": {
+          "class": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/wildling",
+          "background": "https://a5e.tools/node/4153",
+          "destiny": "https://a5e.tools/node/4119",
+          "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+        },
+        "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+        "sourceDistinctions": "Uses the original Birdfolk and level-10 gifts from Gazette #5. The online page also carries later Flightless and Mystic rules outside this profile. Plain dagger has no Thrown property in A5E."
+      }
+    },
+    {
+      "name": "Blight",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_b",
+      "parentSpecies": null,
+      "aliases": "Blight / Blights. Keep Needle, Twig, and Vine Blight together. Other plant heritages retain their own scopes.",
+      "npcs": [
+        "Hedgewrit"
+      ],
+      "portrait": "parts/seven_monstrous_b/portraits/blight.png",
+      "source": {
+        "name": "Blight",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Plant",
+        "url": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "rulesReadUrl": "",
+        "printedPages": [
+          23,
+          24
+        ],
+        "heading": "Blight Traits, Needle Blight, Twig Blight and Vine Blight",
+        "version": "v2 text mirror",
+        "provenance": "Community-content player conversion for 2014 fifth edition by Tyler Kamstra, published on DMs Guild in 2018. The official sample covers Basilisk and Behir. Beholder and Blight use the v2 text mirror.",
+        "sourceDistinctions": "Hedgewrit uses Vine Blight. Apply the stated 25-ft. speed in the traits block. The design commentary mentions 20 ft. and deafened immunity, which the rules block does not give. The plant exemption in Entangling Plants covers difficult terrain. The same paragraph requires a save from each creature at onset.",
+        "supportingSources": {
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Bulette",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_c",
+      "parentSpecies": null,
+      "aliases": "Bulette / land shark. Keep the terrestrial burrower separate from aquatic shark-folk.",
+      "npcs": [
+        "Marl"
+      ],
+      "portrait": "parts/seven_monstrous_c/portraits/bulette.png",
+      "source": {
+        "name": "Bulette",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "printedPages": [
+          27
+        ],
+        "page": "p. 27 in v2. Bulette Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceDistinctions": [
+          "The Bulette heading, alias, and player traits are on v2 p. 27. Read the trait block's 30-ft. burrow speed and use normal jumping. The preceding play advice and following design notes mention Standing Leap, but it is absent from the trait list. Common comes from the Outlander background.",
+          "For Deadly Leap the attack roll gates the saving throw. Apply damage once. On a failed save or when there is no room for a successful push, the trait leaves both creatures in the landing square. Use that placement until one moves."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "ancestryRules": null,
+        "npcExamples": [
+          "Marl"
+        ]
+      }
+    },
+    {
+      "name": "Cambion",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_c",
+      "parentSpecies": null,
+      "aliases": "Cambion / Cambions. Keep this option separate from Tiefling and the supplement's other fiends.",
+      "npcs": [
+        "Ilyra Vell"
+      ],
+      "portrait": "parts/seven_monstrous_c/portraits/cambion.png",
+      "source": {
+        "name": "Cambion",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Fiend",
+        "url": "",
+        "printedPages": [
+          29
+        ],
+        "page": "p. 29 in v2. Cambion Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceDistinctions": [
+          "Player traits appear on v2 p. 29. Ilyra combines the conversion's Fiend Magic with 2014 Champion, Charlatan and purchased studded leather."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "ancestryRules": null,
+        "npcExamples": [
+          "Ilyra Vell"
+        ]
+      }
+    },
+    {
+      "name": "Carrion Crawler",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_c",
+      "parentSpecies": null,
+      "aliases": "Carrion Crawler / Carrion Crawlers. Use the printed player version and its manipulation limits.",
+      "npcs": [
+        "Silt Sifter"
+      ],
+      "portrait": "parts/seven_monstrous_c/portraits/carrion-crawler.png",
+      "source": {
+        "name": "Carrion Crawler",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "printedPages": [
+          30
+        ],
+        "page": "p. 30 in v2. Carrion Crawler Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceDistinctions": [
+          "The v2 Carrion Crawler player traits are on p. 30. Its tentacles cause restraint through poison, and the book's finesse clause supports Rogue Sneak Attack. The NPC applies qualifying bonus damage to the tentacle strike's poison damage."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "ancestryRules": null,
+        "npcExamples": [
+          "Silt Sifter"
+        ]
+      }
+    },
+    {
+      "name": "Cervid",
+      "publication": "Gate Pass Gazette #11",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_a",
+      "parentSpecies": null,
+      "aliases": "Cervid / deerfolk. Keep the printed Fleet Feet and Regal Antlers options together.",
+      "npcs": [
+        "Alder Tine"
+      ],
+      "portrait": "parts/seven_gazette_a/portraits/cervid.png",
+      "source": {
+        "name": "Cervid",
+        "publication": "Gate Pass Gazette #11",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/cervid",
+        "page": "Cervid traits, gifts, and paragon",
+        "creatureType": "Humanoid",
+        "supportingSources": {
+          "class": "https://a5e.tools/rules/herald",
+          "culture": "https://a5e.tools/rules/nomad",
+          "background": "https://a5e.tools/node/4105",
+          "destiny": "https://a5e.tools/node/4119",
+          "spells": "https://a5e.tools/spell/heroism",
+          "bless": "https://a5e.tools/spell/bless",
+          "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+        },
+        "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+        "sourceDistinctions": "Regal Antlers plus the forest terrain choice. Herald spell preparation is Charisma plus half level rounded down, so level 1 with Charisma 14 prepares two."
+      }
+    },
+    {
+      "name": "Chimera",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_c",
+      "parentSpecies": null,
+      "aliases": "Chimera / Chimeras. Keep the printed heads and breath choices together.",
+      "npcs": [
+        "Latch"
+      ],
+      "portrait": "parts/seven_monstrous_c/portraits/chimera.png",
+      "source": {
+        "name": "Chimera",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "printedPages": [
+          32
+        ],
+        "page": "p. 32 in v2. Chimera Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth edition, checked against the v2 reproduction of Monstrous Races.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceDistinctions": [
+          "V2 p. 32 includes the red-head traits and variant sidebar. The worked build chooses the Blue ancestry breath from the 2014 Player's Handbook p. 34, available in the 2014 Basic Rules ancestry table."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "adventuringRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/adventuring",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "ancestryRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/races",
+        "npcExamples": [
+          "Latch"
+        ]
+      }
+    },
+    {
+      "name": "Chrysalian",
+      "publication": "Gate Pass Gazette #15",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_a",
+      "parentSpecies": null,
+      "aliases": "Chrysalian / Chrysalians. Insectoid fey of the Dreaming. Distinct from Skathári and Keridani.",
+      "npcs": [
+        "Luma Mothreed"
+      ],
+      "portrait": "parts/seven_gazette_a/portraits/chrysalian.png",
+      "source": {
+        "name": "Chrysalian",
+        "publication": "Gate Pass Gazette #15",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/chrysalian",
+        "page": "Chrysalian base traits, Hovering, gifts, and paragon",
+        "creatureType": "Humanoid and Fey",
+        "supportingSources": {
+          "class": "https://a5e.tools/rules/cleric",
+          "archetype": "https://a5e.tools/node/3708",
+          "culture": "https://a5e.tools/rules/nomad",
+          "background": "https://a5e.tools/node/4108",
+          "destiny": "https://a5e.tools/node/4116",
+          "cureWounds": "https://a5e.tools/spell/cure-wounds",
+          "healingWord": "https://a5e.tools/spell/healing-word",
+          "sacredFlame": "https://a5e.tools/spell/sacred-flame",
+          "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+        },
+        "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+        "sourceDistinctions": "Uses the Healing Touch gift separately from Healer’s Heal Up. Her 20-lb. limit is twice the Strength score, not twice the modifier."
+      }
+    },
+    {
+      "name": "Chuul",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_d",
+      "parentSpecies": null,
+      "aliases": "Chuul / Chuuls. Keep Aboleth and other crustacean-like options separate.",
+      "npcs": [
+        "Keth of the Sill"
+      ],
+      "portrait": "parts/seven_monstrous_d/portraits/chuul.png",
+      "source": {
+        "name": "Chuul",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+        "url": "",
+        "page": "p. 32",
+        "creatureType": "Aberration",
+        "heading": "Chuul Traits",
+        "digitalRevision": "v2",
+        "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+        "sourceDistinctions": "The extracted reading order places the Pincer continuation above the Chuul heading. It belongs to the adjacent Chuul trait column. The traits give AC 14 + Dexterity, even though the design notes propose a smaller natural armor bonus.",
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "author": "https://rpgbot.net/dnd5/dmsguild/",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Cloaker",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_d",
+      "parentSpecies": null,
+      "aliases": "Cloaker / Cloakers. Darkmantle remains a separate profile.",
+      "npcs": [
+        "Hush-in-the-Fold"
+      ],
+      "portrait": "parts/seven_monstrous_d/portraits/cloaker.png",
+      "source": {
+        "name": "Cloaker",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+        "url": "",
+        "page": "p. 33",
+        "creatureType": "Aberration",
+        "heading": "Cloaker Traits",
+        "digitalRevision": "v2",
+        "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+        "sourceDistinctions": "The player traits omit Moan, Phantasms and Sunlight Sensitivity, which the design notes discuss. The build uses the trait list and includes the p. 7 restriction on natural weapons as monk bonus strikes. The odd-point damage split is a table ruling.",
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "author": "https://rpgbot.net/dnd5/dmsguild/",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Cockatrice",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_d",
+      "parentSpecies": null,
+      "aliases": "Cockatrice / Cockatrices. Keep separate from Basilisk and Birdfolk.",
+      "npcs": [
+        "Tack"
+      ],
+      "portrait": "parts/seven_monstrous_d/portraits/cockatrice.png",
+      "source": {
+        "name": "Cockatrice",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+        "url": "",
+        "page": "p. 34",
+        "creatureType": "Monstrosity",
+        "heading": "Cockatrice Traits",
+        "digitalRevision": "v2",
+        "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+        "sourceDistinctions": "The trait mixes fatigue and exhaustion terminology. The build uses effective 2014 exhaustion levels and applies the explicit petrified outcome at six failures.",
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "author": "https://rpgbot.net/dnd5/dmsguild/",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Constructed",
+      "publication": "Gate Pass Gazette #0",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_a",
+      "parentSpecies": null,
+      "aliases": "Constructed is the A5E name. Keep its Military, Service, and Utility frames together and other construct profiles separate.",
+      "npcs": [
+        "Rivet Reedgate"
+      ],
+      "portrait": "parts/seven_gazette_a/portraits/constructed.png",
+      "source": {
+        "name": "Constructed",
+        "publication": "Gate Pass Gazette #0",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/constructed",
+        "page": "Constructed traits, frame gifts, and paragon upgrades",
+        "creatureType": "Humanoid",
+        "supportingSources": {
+          "class": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/cosmopolitan",
+          "background": "https://a5e.tools/node/4083",
+          "destiny": "https://a5e.tools/node/4125",
+          "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+        },
+        "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+        "sourceDistinctions": "The Constructed heritage gives mechanical traits and healing limits but does not explicitly change creature type. The build applies the usual Humanoid default. Social Grace contains a grammar defect. The example uses its two languages and one tool proficiency."
+      }
+    },
+    {
+      "name": "Couatl",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_d",
+      "parentSpecies": null,
+      "aliases": "Couatl / Couatls. Use the player version of the feathered serpent, separate from Flying Snake and Yuan-ti.",
+      "npcs": [
+        "Iriam of the Second Dawn"
+      ],
+      "portrait": "parts/seven_monstrous_d/portraits/couatl.png",
+      "source": {
+        "name": "Couatl",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+        "url": "",
+        "page": "p. 35",
+        "creatureType": "Celestial",
+        "heading": "Couatl Traits",
+        "digitalRevision": "v2",
+        "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+        "sourceDistinctions": "Divine Mandate supplies an ordinary focus. The build applies the 2014 hand rule for somatic components and selects actions that need none.",
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "author": "https://rpgbot.net/dnd5/dmsguild/",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+          "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        }
+      }
+    },
+    {
+      "name": "Crawling Claw",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_e",
+      "parentSpecies": null,
+      "aliases": "Crawling Claw / Crawling Claws. Apply the supplement's Tiny creature rules where appropriate.",
+      "npcs": [
+        "Pell Stitchfinger"
+      ],
+      "portrait": "parts/seven_monstrous_e/portraits/crawling-claw.png",
+      "source": {
+        "name": "Crawling Claw",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "printedPages": [
+          36,
+          37
+        ],
+        "page": "pp. 36–37, Crawling Claw Traits. See pp. 7–8 for undead healing and Tiny equipment.",
+        "sourceRevision": "v2 text mirror",
+        "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+        "sourceDistinctions": "The creature entry begins on p. 36. All player traits are on p. 37. The build uses fitted Tiny studded leather and attacks with the printed claw.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        ]
+      }
+    },
+    {
+      "name": "Cyclops",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_e",
+      "parentSpecies": null,
+      "aliases": "Cyclops / Cyclopes. Keep this distinct from other giant profiles.",
+      "npcs": [
+        "Ora Cairnstep"
+      ],
+      "portrait": "parts/seven_monstrous_e/portraits/cyclops.png",
+      "source": {
+        "name": "Cyclops",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Giant",
+        "url": "",
+        "printedPages": [
+          37,
+          38
+        ],
+        "page": "pp. 37–38, Cyclops Traits.",
+        "sourceRevision": "v2 text mirror",
+        "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+        "sourceDistinctions": "The conversion puts the cyclops at Medium size. Powerful Build changes weight capacity. The build uses the species AC formula, 14 + Dexterity.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        ]
+      }
+    },
+    {
+      "name": "Darkmantle",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_e",
+      "parentSpecies": null,
+      "aliases": "Darkmantle / Darkmantles. Keep Cloaker separate.",
+      "npcs": [
+        "Lint Bellows"
+      ],
+      "portrait": "parts/seven_monstrous_e/portraits/darkmantle.png",
+      "source": {
+        "name": "Darkmantle",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "printedPages": [
+          38,
+          39
+        ],
+        "page": "pp. 38–39, Darkmantle Traits. See p. 8 for somatic components.",
+        "sourceRevision": "v2 text mirror",
+        "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+        "sourceDistinctions": "The active traits give 30 ft. walking speed. The design commentary references 10 ft. in the baseline monster. The profile and the build use the traits. Crush is the printed anatomy-specific permission to grapple with its tentacles.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        ]
+      }
+    },
+    {
+      "name": "Demilich",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_e",
+      "parentSpecies": null,
+      "aliases": "Demilich / Demiliches. Keep the phylactery rules here, and the separate Lich template outside this claim.",
+      "npcs": [
+        "Aster Siltglass"
+      ],
+      "portrait": "parts/seven_monstrous_e/portraits/demilich.png",
+      "source": {
+        "name": "Demilich",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "DMs Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "printedPages": [
+          41,
+          42
+        ],
+        "page": "pp. 41–42, Demilich Traits. See pp. 7–8 for undead healing and somatic components.",
+        "sourceRevision": "v2 text mirror",
+        "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+        "sourceDistinctions": "The player traits list Small. The design notes describe Tiny. Aster’s six known spells use verbal or somatic components or material components covered by the skull focus. Fear comes from the separate daily Howl. The copper tally and silted bell are original NPC details.",
+        "supportingSources": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Sorcerer",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+        ]
+      }
+    },
+    {
+      "name": "Displacer Beast",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_f",
+      "parentSpecies": null,
+      "aliases": "Displacer Beast / Displacer Beasts. Use the printed player conversion and its item limitations.",
+      "npcs": [
+        "Kest Ashpad"
+      ],
+      "portrait": "parts/seven_monstrous_f/portraits/displacer-beast.png",
+      "source": {
+        "name": "Displacer Beast",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Tyler Kamstra via DMs Guild",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "page": "p. 64, Displacer Beast Traits",
+        "printedPages": [
+          64
+        ],
+        "originalPrintedPages": [
+          64
+        ],
+        "originalEditionUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceVersion": "v2 text with original folio parallel check",
+        "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/backgrounds/12-soldier",
+        "sourceDistinctions": [
+          "Both player trait blocks use 30 ft. walking speed and omit darkvision. The Design Notes discuss 35 ft. and darkvision.",
+          "Tentacle attacks use ordinary 5-ft. reach. When rolling mixed damage, the build applies the single Strength bonus to bludgeoning."
+        ]
+      }
+    },
+    {
+      "name": "Dragon Turtle",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_f",
+      "parentSpecies": null,
+      "aliases": "Dragon Turtle / Dragon Turtles. Keep it separate from Dragonborn and true-dragon player packages.",
+      "npcs": [
+        "Brack Slatewake"
+      ],
+      "portrait": "parts/seven_monstrous_f/portraits/dragon-turtle.png",
+      "source": {
+        "name": "Dragon Turtle",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Tyler Kamstra via DMs Guild",
+        "creatureType": "Dragon",
+        "url": "",
+        "page": "p. 71, Dragon Turtle Traits",
+        "printedPages": [
+          71
+        ],
+        "originalPrintedPages": [
+          71
+        ],
+        "originalEditionUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceVersion": "v2 text with original folio parallel check",
+        "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules.",
+        "classRules": "",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/backgrounds",
+        "saveAbilityComparison": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-d#DragonTurtle",
+        "sourceDistinctions": [
+          "Both player versions omit the save ability for the creature caught in the steam. Constitution is the explicit table ruling and follows the matching 2014 Steam Breath save type.",
+          "The finished trait block gives neither darkvision nor fire resistance even though the Design Notes mention both. It also omits amphibious breathing. The build follows the trait block."
+        ]
+      }
+    },
+    {
+      "name": "Dreamborn",
+      "publication": "Gate Pass Gazette #4",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_a",
+      "parentSpecies": null,
+      "aliases": "Dreamborn of the Dreaming. Distinct from Grim Hollow Dreamer, Chrysalian, and similar fey options.",
+      "npcs": [
+        "Vesper Sprig"
+      ],
+      "portrait": "parts/seven_gazette_a/portraits/dreamborn.png",
+      "source": {
+        "name": "Dreamborn",
+        "publication": "Gate Pass Gazette #4",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/dreamborn",
+        "page": "Dreamborn traits, gifts, and paragon",
+        "creatureType": "Fey",
+        "supportingSources": {
+          "class": "https://a5e.tools/rules/druid-class",
+          "culture": "https://a5e.tools/rules/dreaming-wilds",
+          "background": "https://a5e.tools/node/4108",
+          "destiny": "https://a5e.tools/node/4127",
+          "shillelagh": "https://a5e.tools/spell/shillelagh",
+          "entangle": "https://a5e.tools/spell/entangle",
+          "produceFlame": "https://a5e.tools/spell/produce-flame",
+          "characterCreation": "https://a5e.tools/rules/character-walkthrough",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "expertiseDice": "https://a5e.tools/rules/the-core-rule"
+        },
+        "provenance": "Original EN Publishing player heritage, verified in the publisher’s online rules.",
+        "sourceDistinctions": "The heritage allows two gifts. This build uses Fey Whimsy and Nature Skin, and chooses ticking clocks as the aversion. Its actual size is Small, independent of apparent size."
+      }
+    },
+    {
+      "name": "Dryadborn",
+      "publication": "Gate Pass Gazette #26",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_b",
+      "parentSpecies": null,
+      "aliases": "Dryadborn descends from dryads and mortals. Keep the PC1 Dryad and Mage Hand Press Mandrake separate.",
+      "npcs": [
+        "Ila Brightbough"
+      ],
+      "portrait": "parts/seven_gazette_b/portraits/dryadborn.png",
+      "source": {
+        "name": "Dryadborn",
+        "publication": "Gate Pass Gazette #26",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Plant",
+        "url": "https://a5e.tools/rules/dryadborn",
+        "page": "Dryadborn Traits, Dryadborn Gifts, Dryadborn Paragon",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #26 as transcribed by the publisher.",
+        "supportingSources": [
+          "https://a5e.tools/rules/gate-pass-gazette",
+          "https://a5e.tools/rules/character-creation",
+          "https://a5e.tools/rules/materials",
+          "https://a5e.tools/rules/the-core-rule",
+          "https://a5e.tools/rules/villager",
+          "https://a5e.tools/node/4083",
+          "https://a5e.tools/node/4119",
+          "https://a5e.tools/rules/fighter",
+          "https://a5e.tools/rules/armor",
+          "https://a5e.tools/rules/shields",
+          "https://a5e.tools/rules/weapons",
+          "https://a5e.tools/rules/weapon-properties",
+          "https://a5e.tools/rules/conditions",
+          "https://a5e.tools/spell/entangle",
+          "https://a5e.tools/node/721",
+          "https://a5e.tools/node/723",
+          "https://a5e.tools/node/724"
+        ],
+        "sourceDistinctions": "The publisher lists one round and no recharge for Protective Petals. Ila’s table uses expiry at the start of her next turn. The Elderbark repeated reroll instruction describes one reroll."
+      }
+    },
+    {
+      "name": "Galeoni",
+      "publication": "Gate Pass Gazette #9",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_b",
+      "parentSpecies": null,
+      "aliases": "Galeoni / shark-folk as a descriptive term. Keep Mystaran Shark-Kin and Pode separate.",
+      "npcs": [
+        "Nerev Splitfin"
+      ],
+      "portrait": "parts/seven_gazette_b/portraits/galeoni.png",
+      "source": {
+        "name": "Galeoni",
+        "publication": "Gate Pass Gazette #9",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/galeoni",
+        "page": "Galeoni Traits, Galeoni Gifts, Galeoni Paragon",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #9 as transcribed by the publisher.",
+        "supportingSources": [
+          "https://a5e.tools/rules/gate-pass-gazette",
+          "https://a5e.tools/rules/character-creation",
+          "https://a5e.tools/rules/materials",
+          "https://a5e.tools/rules/the-core-rule",
+          "https://a5e.tools/rules/wildling",
+          "https://a5e.tools/node/4150",
+          "https://a5e.tools/node/4133",
+          "https://a5e.tools/rules/rogue",
+          "https://a5e.tools/rules/armor",
+          "https://a5e.tools/rules/weapons",
+          "https://a5e.tools/rules/weapon-properties",
+          "https://a5e.tools/rules/damage-and-recovery",
+          "https://a5e.tools/node/754"
+        ],
+        "sourceDistinctions": "Rending Bite omits the grammatical subject of the Constitution save. The target makes it. Ongoing damage follows Adventurer’s Guide turn-end timing and has no listed damage type. The example applies the damage before the repeat save."
+      }
+    },
+    {
+      "name": "Garoul",
+      "publication": "Gate Pass Gazette #8",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_b",
+      "parentSpecies": null,
+      "aliases": "Garoul / wolf-folk as a descriptive term. Keep Madrai, Lupin, and lycanthropy separate.",
+      "npcs": [
+        "Tavin Ashmuzzle"
+      ],
+      "portrait": "parts/seven_gazette_b/portraits/garoul.png",
+      "source": {
+        "name": "Garoul",
+        "publication": "Gate Pass Gazette #8",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid and Beast",
+        "url": "https://a5e.tools/rules/garoul",
+        "page": "Garoul Traits, Garoul Gifts, Garoul Paragon",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #8 as transcribed by the publisher.",
+        "supportingSources": [
+          "https://a5e.tools/rules/gate-pass-gazette",
+          "https://a5e.tools/rules/character-creation",
+          "https://a5e.tools/rules/materials",
+          "https://a5e.tools/rules/the-core-rule",
+          "https://a5e.tools/rules/nomad",
+          "https://a5e.tools/node/4153",
+          "https://a5e.tools/node/4119",
+          "https://a5e.tools/rules/rogue",
+          "https://a5e.tools/rules/armor",
+          "https://a5e.tools/rules/weapons",
+          "https://a5e.tools/rules/weapon-properties"
+        ],
+        "sourceDistinctions": "The claws entry lists 1d4 slashing without adding an ability modifier. This build preserves that written fixed damage and uses the finesse attack rules."
+      }
+    },
+    {
+      "name": "Grey",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_a",
+      "parentSpecies": null,
+      "aliases": "Grey / Greys. Gray is an alternate English spelling for search. Keep Kesh and other psionic species separate.",
+      "npcs": [
+        "Iri Vale"
+      ],
+      "portrait": "parts/seven_void_a/portraits/grey.png",
+      "source": {
+        "name": "Grey",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/grey",
+        "page": "Chapter 1, Origins, Grey traits, gifts, and paragon",
+        "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+        "publisherUrl": "https://enpublishingrpg.com/products/vo",
+        "supportingRules": {
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "class": "https://a5e.tools/rules/psion",
+          "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/enlightened",
+          "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/diplomat",
+          "destiny": "https://a5e.tools/node/4223",
+          "armor": "https://a5e.tools/rules/voidrunner-armor",
+          "binding": "https://a5e.tools/node/3946",
+          "bolster": "https://a5e.tools/node/3948",
+          "emote": "https://a5e.tools/node/3962",
+          "empathicSense": "https://a5e.tools/node/3963",
+          "farsight": "https://a5e.tools/node/3967"
+        }
+      }
+    },
+    {
+      "name": "Houseki",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_a",
+      "parentSpecies": null,
+      "aliases": "Houseki. Use the Voidrunner crystalline heritage and keep Rockborn separate.",
+      "npcs": [
+        "Sorel Wellglass"
+      ],
+      "portrait": "parts/seven_void_a/portraits/houseki.png",
+      "source": {
+        "name": "Houseki",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/houseki",
+        "page": "Chapter 1, Origins, Houseki traits, gifts, and paragon",
+        "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+        "publisherUrl": "https://enpublishingrpg.com/products/vo",
+        "supportingRules": {
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "class": "https://a5e.tools/rules/scientist",
+          "archetype": "https://a5e.tools/node/3830",
+          "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/belter",
+          "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/miner",
+          "destiny": "https://a5e.tools/node/4223",
+          "armor": "https://a5e.tools/rules/voidrunner-armor",
+          "weapon": "https://a5e.tools/rules/voidrunner-weapons",
+          "toolkits": "https://a5e.tools/rules/voidrunner-toolkits"
+        }
+      }
+    },
+    {
+      "name": "Hurroc",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_a",
+      "parentSpecies": null,
+      "aliases": "Hurroc / Hurrocs. Keep Voidrunner origin and adrenal traits together.",
+      "npcs": [
+        "Dara Hitch"
+      ],
+      "portrait": "parts/seven_void_a/portraits/hurroc.png",
+      "source": {
+        "name": "Hurroc",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/hurroc",
+        "page": "Chapter 1, Origins, Hurroc traits, gifts, and paragon",
+        "provenance": "Original published A5E player heritage, from the publisher’s Voidrunner Codex rules.",
+        "publisherUrl": "https://enpublishingrpg.com/products/vo",
+        "supportingRules": {
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "class": "https://a5e.tools/rules/trooper",
+          "culture": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-cultures/militant",
+          "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/soldier",
+          "destiny": "https://a5e.tools/node/4224",
+          "armor": "https://a5e.tools/rules/voidrunner-armor",
+          "shield": "https://a5e.tools/rules/voidrunner-shields",
+          "weapon": "https://a5e.tools/rules/voidrunner-weapons"
+        }
+      }
+    },
+    {
+      "name": "Keridani",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_b",
+      "parentSpecies": null,
+      "aliases": "Keridani. Use the Voidrunner psionic insectoid heritage. Keep Chrysalian and Skathári separate.",
+      "npcs": [
+        "Osrel Venn"
+      ],
+      "portrait": "parts/seven_void_b/portraits/keridani.png",
+      "source": {
+        "name": "Keridani",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/keridani",
+        "page": "Chapter 1, Origins, Keridani traits, gifts, and paragon",
+        "provenance": "EN Publishing's original A5E Voidrunner heritage, read on the publisher's reference site.",
+        "supportingSources": {
+          "publication": "https://enpublishingrpg.com/products/vo",
+          "contents": "https://a5e.tools/rules/voidrunners-codex",
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/voidrunner-armor",
+          "class": "https://a5e.tools/rules/psion",
+          "culture": "https://a5e.tools/rules/enlightened",
+          "background": "https://a5e.tools/node/4767",
+          "destiny": "https://a5e.tools/node/4223",
+          "binding": "https://a5e.tools/node/3946",
+          "emote": "https://a5e.tools/node/3962",
+          "adrenalize": "https://www.a5e.tools/node/3943"
+        },
+        "sourceDistinctions": "Ancestral Awakening uses the page’s wording “proficiency modifier,” read as proficiency bonus. The opening description mentions physiological cold tolerance, while the trait package lists no cold resistance."
+      }
+    },
+    {
+      "name": "Madrai",
+      "publication": "Gate Pass Gazette #14",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_b",
+      "parentSpecies": null,
+      "aliases": "Madrai / dog-folk as a descriptive term. Keep Garoul and Mystaran Lupin separate.",
+      "npcs": [
+        "Kip Roadbell"
+      ],
+      "portrait": "parts/seven_gazette_b/portraits/madrai.png",
+      "source": {
+        "name": "Madrai",
+        "publication": "Gate Pass Gazette #14",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/madrai",
+        "page": "Madrai Traits, Madrai Gifts, Madrai Paragon",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #14 as transcribed by the publisher.",
+        "supportingSources": [
+          "https://a5e.tools/rules/gate-pass-gazette",
+          "https://a5e.tools/rules/character-creation",
+          "https://a5e.tools/rules/materials",
+          "https://a5e.tools/rules/the-core-rule",
+          "https://a5e.tools/rules/itinerant",
+          "https://a5e.tools/node/4083",
+          "https://a5e.tools/node/4119",
+          "https://a5e.tools/rules/rogue",
+          "https://a5e.tools/rules/armor",
+          "https://a5e.tools/rules/weapons",
+          "https://a5e.tools/rules/weapon-properties"
+        ],
+        "sourceDistinctions": "Mycelial in the introduction to Madrai Traits is treated as a copy error. Read proficiency modifier in Boon Companion as proficiency bonus."
+      }
+    },
+    {
+      "name": "Mimic",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "seven_monstrous_f",
+      "parentSpecies": null,
+      "aliases": "Mimic / Mimics. Keep its object form in the same profile and Animated Object separate.",
+      "npcs": [
+        "Latch"
+      ],
+      "portrait": "parts/seven_monstrous_f/portraits/mimic.png",
+      "source": {
+        "name": "Mimic",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Tyler Kamstra via DMs Guild",
+        "creatureType": "Monstrosity",
+        "url": "",
+        "page": "p. 146, Mimic Traits, v2. Original trait folio p. 142.",
+        "printedPages": [
+          146
+        ],
+        "originalPrintedPages": [
+          141,
+          142
+        ],
+        "originalEditionUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "sourceVersion": "v2 text with original folio parallel check",
+        "provenance": "Player conversion by Tyler Kamstra, published on DMs Guild for the 2014 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Monk",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background#Criminal",
+        "relatedFolio": "Monks and Natural Weapons, v2 p. 7",
+        "sourceDistinctions": [
+          "The player trait block omits darkvision, acid resistance, and prone immunity discussed in Design Notes.",
+          "The supplement requires Martial Arts and Flurry of Blows bonus attacks to be conventional unarmed strikes. Latch uses a blunt body check, with no natural-weapon dice.",
+          "False Appearance is read as concentration during the one-minute setup. It still requires continued motionlessness after setup.",
+          "The build applies the single Strength damage bonus to the bite's piercing damage. It uses the specific Huge limit for Adhesive and ordinary grapple size for the pseudopod bonus action."
+        ]
+      }
+    },
+    {
+      "name": "Motley",
+      "publication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_delver",
+      "parentSpecies": null,
+      "aliases": "Motley / Motleys. Keep the patchwork gift options in the same heritage and named animal ancestries separate.",
+      "npcs": [
+        "Jessa Bentreach"
+      ],
+      "portrait": "parts/seven_delver/portraits/motley.png",
+      "source": {
+        "name": "Motley",
+        "publication": "Dungeon Delver's Guide",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/motley",
+        "page": "Heritages, Motley Traits, Gifts and Paragon",
+        "provenance": "EN Publishing's official online rules for Dungeon Delver's Guide. Build uses its native Level Up rules.",
+        "sourceDistinctions": "Baseline Motley and all three named gifts and paragon choices. The build uses Long Arms only during its own turn and applies Dueling to the melee spear attack.",
+        "supportingSources": {
+          "classRules": "https://a5e.tools/rules/fighter",
+          "culture": "https://a5e.tools/rules/forgotten-folx",
+          "background": "https://a5e.tools/node/4104",
+          "destiny": "https://a5e.tools/node/4121",
+          "armor": "https://a5e.tools/rules/armor",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "materials": "https://a5e.tools/rules/materials",
+          "skillSpecialties": "https://a5e.tools/rules/skills",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "bonusKnowledge": "https://a5e.tools/rules/using-each-ability",
+          "sourceBook": "https://a5e.tools/rules/dungeon-delvers-guide",
+          "combatManeuvers": "https://a5e.tools/rules/combat-maneuvers",
+          "leanIntoIt": "https://a5e.tools/node/679",
+          "catchYourBreath": "https://a5e.tools/node/676",
+          "ironWill": "https://a5e.tools/node/738"
+        }
+      }
+    },
+    {
+      "name": "Mycelial",
+      "publication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_delver",
+      "parentSpecies": null,
+      "aliases": "Mycelial / Mycelials. Keep Myconid and other fungus-folk profiles separate.",
+      "npcs": [
+        "Luma Chalkcap"
+      ],
+      "portrait": "parts/seven_delver/portraits/mycelial.png",
+      "source": {
+        "name": "Mycelial",
+        "publication": "Dungeon Delver's Guide",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Plant and Humanoid",
+        "url": "https://a5e.tools/rules/mycelial",
+        "page": "Heritages, Mycelial Traits, Gifts and Paragon",
+        "provenance": "EN Publishing's official online rules for Dungeon Delver's Guide. Build uses its native Level Up rules.",
+        "sourceDistinctions": "Adaptability picks the current Cold Adapted form. Spore Cloud uses Constitution and stays at its release point for this build. The online text does not specify that it follows the caster.",
+        "supportingSources": {
+          "classRules": "https://a5e.tools/rules/fighter",
+          "culture": "https://a5e.tools/rules/underharvester",
+          "background": "https://a5e.tools/node/4083",
+          "destiny": "https://a5e.tools/node/4125",
+          "armor": "https://a5e.tools/rules/armor",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "materials": "https://a5e.tools/rules/materials",
+          "skillSpecialties": "https://a5e.tools/rules/skills",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "bonusKnowledge": "https://a5e.tools/rules/using-each-ability",
+          "sourceBook": "https://a5e.tools/rules/dungeon-delvers-guide",
+          "combatManeuvers": "https://a5e.tools/rules/combat-maneuvers",
+          "leanIntoIt": "https://a5e.tools/node/679",
+          "catchYourBreath": "https://a5e.tools/node/676",
+          "ironWill": "https://a5e.tools/node/738"
+        }
+      }
+    },
+    {
+      "name": "Naato",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_b",
+      "parentSpecies": null,
+      "aliases": "Naato. Use the Voidrunner reptilian heritage. Keep Matokai and Lizardfolk separate.",
+      "npcs": [
+        "Daro Vesh"
+      ],
+      "portrait": "parts/seven_void_b/portraits/naato.png",
+      "source": {
+        "name": "Naato",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/naato",
+        "page": "Chapter 1, Origins, Naato traits, gifts, and paragon",
+        "provenance": "EN Publishing's original A5E Voidrunner heritage, read on the publisher's reference site.",
+        "supportingSources": {
+          "publication": "https://enpublishingrpg.com/products/vo",
+          "contents": "https://a5e.tools/rules/voidrunners-codex",
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/voidrunner-armor",
+          "class": "https://a5e.tools/rules/scout",
+          "culture": "https://a5e.tools/rules/drifter",
+          "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/salvager",
+          "destiny": "https://a5e.tools/node/4222",
+          "weapons": "https://a5e.tools/rules/voidrunner-weapons",
+          "conditions": "https://a5e.tools/rules/conditions",
+          "decks": "https://a5e.tools/rules/star-captains-manual"
+        },
+        "sourceDistinctions": "Use the book’s slowed condition, and keep the scale AC and Artful Defense AC formulas separate. The picture shows Daro in an ordinary canvas work harness, with no armor."
+      }
+    },
+    {
+      "name": "Oozefolk",
+      "publication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_delver",
+      "parentSpecies": null,
+      "aliases": "Oozefolk / ooze folk. Use the A5E gifts and keep Amoeboid and Plasmoid separate.",
+      "npcs": [
+        "Silt"
+      ],
+      "portrait": "parts/seven_delver/portraits/oozefolk.png",
+      "source": {
+        "name": "Oozefolk",
+        "publication": "Dungeon Delver's Guide",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/oozefolk",
+        "page": "Heritages, Oozefolk Traits, Gifts and Paragon",
+        "provenance": "EN Publishing's official online rules for Dungeon Delver's Guide. Build uses its native Level Up rules.",
+        "sourceDistinctions": "The publisher's Oozefolk Traits introduction mistakenly names Motley. The heading and body define Oozefolk. The paragon uses an existing climb speed and gives no new speed in feet. Silt's climb speed instead comes from Agile Athlete. At level 1 the initial Rogue d8 determines Small size.",
+        "supportingSources": {
+          "classRules": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/underlander",
+          "background": "https://a5e.tools/node/4087",
+          "destiny": "https://a5e.tools/node/4133",
+          "armor": "https://a5e.tools/rules/armor",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "materials": "https://a5e.tools/rules/materials",
+          "skillSpecialties": "https://a5e.tools/rules/skills",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "bonusKnowledge": "https://a5e.tools/rules/using-each-ability",
+          "sourceBook": "https://a5e.tools/rules/dungeon-delvers-guide"
+        }
+      }
+    },
+    {
+      "name": "Oxfolk",
+      "publication": "Gate Pass Gazette #16",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_b",
+      "parentSpecies": null,
+      "aliases": "Oxfolk / ox folk. Keep the bovine heritage separate from the bull-headed Minotaur.",
+      "npcs": [
+        "Mara Wheelhorn"
+      ],
+      "portrait": "parts/seven_gazette_b/portraits/oxfolk.png",
+      "source": {
+        "name": "Oxfolk",
+        "publication": "Gate Pass Gazette #16",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/oxfolk",
+        "page": "Home on the Prairie, Oxfolk Traits, Oxfolk Gifts, Oxfolk Paragon",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #16 as transcribed by the publisher.",
+        "supportingSources": [
+          "https://a5e.tools/rules/gate-pass-gazette",
+          "https://a5e.tools/rules/character-creation",
+          "https://a5e.tools/rules/materials",
+          "https://a5e.tools/rules/the-core-rule",
+          "https://a5e.tools/rules/settler",
+          "https://a5e.tools/node/4153",
+          "https://a5e.tools/node/4121",
+          "https://a5e.tools/rules/fighter",
+          "https://a5e.tools/rules/armor",
+          "https://a5e.tools/rules/shields",
+          "https://a5e.tools/rules/weapons",
+          "https://a5e.tools/rules/basic-maneuvers",
+          "https://a5e.tools/node/721",
+          "https://a5e.tools/node/723",
+          "https://a5e.tools/node/724"
+        ],
+        "sourceDistinctions": "The official article lists height without a size category. Treat Mara as Medium and keep Heavy Lifter’s Large-equivalent limits. The specific paragon entry grants three named benefits in the plural. No paragon affects the level 1 example."
+      }
+    },
+    {
+      "name": "Pantheran",
+      "publication": "Gate Pass Gazette #28",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_c",
+      "parentSpecies": null,
+      "aliases": "Pantheran / Pantherans. Keep Snow-Spotted, Stripefolk, and Wildkin together. Tabaxi and Valna have separate profiles.",
+      "npcs": [
+        "Tavi Screefoot"
+      ],
+      "portrait": "parts/seven_gazette_c/portraits/pantheran.png",
+      "source": {
+        "name": "Pantheran",
+        "publication": "Gate Pass Gazette #28",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/pantheran",
+        "page": "Pantheran Traits, Pantheran Gifts, Pantheran Paragon",
+        "creatureType": "Humanoid",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #28, as published by EN Publishing on its rules site.",
+        "supportingSources": {
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "destiny": "https://a5e.tools/node/4119",
+          "class": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/villager",
+          "background": "https://a5e.tools/node/4142"
+        }
+      }
+    },
+    {
+      "name": "Pode",
+      "publication": "Gate Pass Gazette #9",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_c",
+      "parentSpecies": null,
+      "aliases": "Pode / octopus-folk as a descriptive term. Keep Nautilid and Galeoni separate.",
+      "npcs": [
+        "Sounding-at-First-Light"
+      ],
+      "portrait": "parts/seven_gazette_c/portraits/pode.png",
+      "source": {
+        "name": "Pode",
+        "publication": "Gate Pass Gazette #9",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/pode",
+        "page": "Heritages of the Coral Climes, Pode Traits, Pode Gifts, Pode Paragon",
+        "creatureType": "Humanoid",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #9, as published by EN Publishing on its rules site.",
+        "supportingSources": {
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "destiny": "https://a5e.tools/node/4119",
+          "class": "https://a5e.tools/rules/fighter",
+          "culture": "https://a5e.tools/rules/nomad",
+          "background": "https://a5e.tools/node/4150",
+          "maneuvers": "https://a5e.tools/rules/combat-maneuvers",
+          "charge": "https://a5e.tools/node/781",
+          "leanIntoIt": "https://a5e.tools/node/679",
+          "catchYourBreath": "https://a5e.tools/node/676"
+        }
+      }
+    },
+    {
+      "name": "Ratling",
+      "publication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_delver",
+      "parentSpecies": null,
+      "aliases": "Ratling / Ratlings. Keep Mousefolk and Ratatosk separate.",
+      "npcs": [
+        "Tivin Crumbwick"
+      ],
+      "portrait": "parts/seven_delver/portraits/ratling.png",
+      "source": {
+        "name": "Ratling",
+        "publication": "Dungeon Delver's Guide",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/ratling",
+        "page": "Heritages, Ratling Traits, Gifts and Paragon",
+        "provenance": "EN Publishing's official online rules for Dungeon Delver's Guide. Build uses its native Level Up rules.",
+        "sourceDistinctions": "Ratling poison immunity applies to ingestion. Keen Smell applies only to Perception checks that rely on scent.",
+        "supportingSources": {
+          "classRules": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/cosmopolitan",
+          "background": "https://a5e.tools/node/4087",
+          "destiny": "https://a5e.tools/node/4133",
+          "armor": "https://a5e.tools/rules/armor",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "materials": "https://a5e.tools/rules/materials",
+          "skillSpecialties": "https://a5e.tools/rules/skills",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "bonusKnowledge": "https://a5e.tools/rules/using-each-ability",
+          "sourceBook": "https://a5e.tools/rules/dungeon-delvers-guide"
+        }
+      }
+    },
+    {
+      "name": "Rockborn",
+      "publication": "Dungeon Delver's Guide",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_delver",
+      "parentSpecies": null,
+      "aliases": "Rockborn uses the A5E stone-folk rules. Keep Houseki, Galeb Duhr, and earth elementals separate.",
+      "npcs": [
+        "Orven Veinlock"
+      ],
+      "portrait": "parts/seven_delver/portraits/rockborn.png",
+      "source": {
+        "name": "Rockborn",
+        "publication": "Dungeon Delver's Guide",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/rockborn",
+        "page": "Heritages, Rockborn Traits, Gifts and Paragon",
+        "provenance": "EN Publishing's official online rules for Dungeon Delver's Guide. Build uses its native Level Up rules.",
+        "sourceDistinctions": "Carven adds +1 HP. Roll uses the dedicated Dexterity save and disables shield benefit while curled. Stone Armaments only improves an expertise die when there is already one.",
+        "supportingSources": {
+          "classRules": "https://a5e.tools/rules/fighter",
+          "culture": "https://a5e.tools/rules/carven",
+          "background": "https://a5e.tools/node/4153",
+          "destiny": "https://a5e.tools/node/4125",
+          "armor": "https://a5e.tools/rules/armor",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "materials": "https://a5e.tools/rules/materials",
+          "skillSpecialties": "https://a5e.tools/rules/skills",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "characterCreation": "https://a5e.tools/rules/character-creation",
+          "bonusKnowledge": "https://a5e.tools/rules/using-each-ability",
+          "sourceBook": "https://a5e.tools/rules/dungeon-delvers-guide",
+          "combatManeuvers": "https://a5e.tools/rules/combat-maneuvers",
+          "leanIntoIt": "https://a5e.tools/node/679",
+          "catchYourBreath": "https://a5e.tools/node/676",
+          "ironWill": "https://a5e.tools/node/738"
+        }
+      }
+    },
+    {
+      "name": "Shadowcast",
+      "publication": "Gate Pass Gazette #23",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_c",
+      "parentSpecies": null,
+      "aliases": "Shadowcast / shadow reflections. Use the A5E heritage and keep Shade and Shadow Fey separate.",
+      "npcs": [
+        "Nera Chalkthread"
+      ],
+      "portrait": "parts/seven_gazette_c/portraits/shadowcast.png",
+      "source": {
+        "name": "Shadowcast",
+        "publication": "Gate Pass Gazette #23",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/shadowcast",
+        "page": "Shadowcast Traits, Shadowcast Gifts, Shadowcast Paragon",
+        "creatureType": "Humanoid",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #23, as published by EN Publishing on its rules site.",
+        "supportingSources": {
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "destiny": "https://a5e.tools/node/4119",
+          "class": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/cosmopolitan",
+          "background": "https://a5e.tools/node/4097",
+          "counterpart": "https://a5e.tools/rules/human"
+        }
+      }
+    },
+    {
+      "name": "Sipher",
+      "publication": "Voidrunner's Codex (2025)",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_void_b",
+      "parentSpecies": null,
+      "aliases": "Sipher / Siphers. Keep the colony and planet-linked gift choices under one heritage.",
+      "npcs": [
+        "Lio Crag"
+      ],
+      "portrait": "parts/seven_void_b/portraits/sipher.png",
+      "source": {
+        "name": "Sipher",
+        "publication": "Voidrunner's Codex (2025)",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://a5e.tools/rules/sipher",
+        "page": "Chapter 1, Origins, Sipher traits, gifts, and paragon",
+        "provenance": "EN Publishing's original A5E Voidrunner heritage, read on the publisher's reference site.",
+        "supportingSources": {
+          "publication": "https://enpublishingrpg.com/products/vo",
+          "contents": "https://a5e.tools/rules/voidrunners-codex",
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/voidrunner-armor",
+          "class": "https://a5e.tools/rules/trooper",
+          "culture": "https://a5e.tools/rules/belter",
+          "background": "https://a5e.tools/rules/voidrunners-codex/voidrunners-codex-backgrounds/miner",
+          "destiny": "https://a5e.tools/node/4224",
+          "weapons": "https://a5e.tools/rules/voidrunner-weapons",
+          "naturalWeapons": "https://a5e.tools/rules/weapons"
+        },
+        "sourceDistinctions": "The publisher’s public HTML places Planetary Invocation in the Hivebound paragraph. This profile lists it there pending a printed-layout check. Lio chooses Energy Bolt, so this reading does not affect the example."
+      }
+    },
+    {
+      "name": "Spiderfolk",
+      "publication": "Gate Pass Gazette #3",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_c",
+      "parentSpecies": null,
+      "aliases": "Spiderfolk / spider folk. Keep Drider separate. Include the printed heritage gifts without creating separate profiles.",
+      "npcs": [
+        "Rell Threadwick"
+      ],
+      "portrait": "parts/seven_gazette_c/portraits/spiderfolk.png",
+      "source": {
+        "name": "Spiderfolk",
+        "publication": "Gate Pass Gazette #3",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/spiderfolk",
+        "page": "Those of the Web, Spiderfolk Traits, Spiderfolk Gifts, Spiderfolk Paragon",
+        "creatureType": "Humanoid",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #3, as published by EN Publishing on its rules site.",
+        "supportingSources": {
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "destiny": "https://a5e.tools/node/4119",
+          "class": "https://a5e.tools/rules/fighter",
+          "culture": "https://a5e.tools/rules/villager",
+          "background": "https://a5e.tools/node/4104",
+          "maneuvers": "https://a5e.tools/rules/combat-maneuvers",
+          "charge": "https://a5e.tools/node/781",
+          "leanIntoIt": "https://a5e.tools/node/679",
+          "catchYourBreath": "https://a5e.tools/node/676"
+        }
+      }
+    },
+    {
+      "name": "Zevite",
+      "publication": "Gate Pass Gazette #13",
+      "edition": "Level Up: Advanced 5th Edition",
+      "owner": "seven_gazette_c",
+      "parentSpecies": null,
+      "aliases": "Zevite / Zevites. Use the A5E astral heritage. Keep Gith and other planefaring species separate.",
+      "npcs": [
+        "Selka Amberwake"
+      ],
+      "portrait": "parts/seven_gazette_c/portraits/zevite.png",
+      "source": {
+        "name": "Zevite",
+        "publication": "Gate Pass Gazette #13",
+        "edition": "Level Up: Advanced 5th Edition",
+        "publisher": "EN Publishing",
+        "url": "https://a5e.tools/rules/zevite",
+        "page": "Zevite Traits, Zevite Gifts, Zevite Paragon",
+        "creatureType": "Humanoid",
+        "provenance": "Original A5E player heritage from Gate Pass Gazette #13, as published by EN Publishing on its rules site.",
+        "supportingSources": {
+          "creation": "https://a5e.tools/rules/character-creation",
+          "armor": "https://a5e.tools/rules/armor",
+          "materials": "https://a5e.tools/rules/materials",
+          "shields": "https://a5e.tools/rules/shields",
+          "weapons": "https://a5e.tools/rules/weapons",
+          "weaponProperties": "https://a5e.tools/rules/weapon-properties",
+          "passiveChecks": "https://a5e.tools/rules/ability-checks",
+          "destiny": "https://a5e.tools/node/4119",
+          "class": "https://a5e.tools/rules/rogue",
+          "culture": "https://a5e.tools/rules/cosmopolitan",
+          "background": "https://a5e.tools/node/4155"
+        }
+      }
+    }
+  ]
+}

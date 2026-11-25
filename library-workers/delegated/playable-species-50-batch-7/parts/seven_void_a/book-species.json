@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Axon",
+    "kind": "species",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publication": "Voidrunner's Codex (2025)",
+    "traits": [
+      "Medium despite often standing over 7 feet tall. Matures around 40 and typically lives about 200 years. Walking speed 30 ft. Powerful Build counts as Large for carrying capacity.",
+      "Fur Coat grants cold resistance and an expertise die on Survival checks in arctic conditions. Keen Senses grants an expertise die on skill checks keyed to hearing or smell.",
+      "Choose one heritage gift. Extendable Claws makes the claws natural weapons for Strength-based unarmed strikes dealing 1d8 slashing plus Strength. Mighty Roar uses a bonus action and frightens non-allies in a 15-ft. cone until the end of their next turn if they fail a Wisdom save against 8 + proficiency + Constitution. It recharges on a long rest. Thick Fur gives unarmored AC 12 + Constitution and can be used with a shield.",
+      "Choose one paragon gift at level 10. Bellowing Roar requires Mighty Roar, affects non-allies within 30 ft., and recharges after a short rest. Fierce Claws requires Extendable Claws and gives 1d10 + Strength for slashing claws or piercing fangs. Massive Build gives advantage on Strength checks and Strength saving throws."
+    ]
+  },
+  {
+    "name": "Grey",
+    "kind": "species",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publication": "Voidrunner's Codex (2025)",
+    "traits": [
+      "The book calls the heritage Grey. Gray is the alternate English spelling. Greys are Small and slender despite nearing 5 feet, with a 30-ft. walk. They mature around 30 and reach old age around 150.",
+      "Natural Psionics teaches two reflexes outside the usual limit. Baseline Telekinesis moves one visible object at a time, weighing up to 3 lb., within 30 ft. and up to 30 ft. of movement. The holder can resist with a Strength save against 8 + proficiency + Wisdom. When moving the object ordinarily calls for a Strength check, roll Wisdom against the same task DC instead. Telekinesis cannot attack.",
+      "Choose Improved Telekinesis or Telekinetic Shield. Improved Telekinesis raises the object limit to 10 lb. and the range to 60 ft., with the same resistance and task checks. Telekinetic Shield uses a bonus action without a shield equipped, grants temporary HP equal to 3 × proficiency for 1 minute, and has proficiency bonus uses per long rest.",
+      "Choose one paragon gift at level 10. Greater Shield requires Telekinetic Shield and raises its temporary HP to 6 × proficiency. Greater Telekinesis requires Improved Telekinesis and raises the limits to 30 lb. and 100 ft."
+    ]
+  },
+  {
+    "name": "Houseki",
+    "kind": "species",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publication": "Voidrunner's Codex (2025)",
+    "traits": [
+      "Crystalline humanoids that reach maturity between about 40 and 150 years and do not age to death. Walking speed 25 ft. Small at Tiers 0 and 1, Medium at Tiers 2 and 3, and Large at Tier 4. Approximate weights run from 50–75 lb. at Tier 0 to over 400 lb. at Tier 4.",
+      "Crystalline gives immunity to poisons and poison damage and removes the need to breathe. Vacuum does not affect the houseki. Taking thunder damage calls for a DC 10 Constitution save to avoid being rattled until the end of the next turn. Grinding imposes disadvantage on Stealth checks while moving. Enervore uses energy instead of food. A small handheld device supplies the equivalent of 1 Supply.",
+      "Choose one gift. Color-change swaps the whole body to one color during a long rest, granting resistance to fire for red, cold for blue, acid for green, or radiant for yellow. Crystal Healing spends and rolls one Hit Die as an action, adding Constitution to the HP restored. Implacable gives advantage on saves against charmed, confused, and frightened. Jagged Crystal deals 1d4 piercing to a creature hitting the houseki in melee with a natural weapon.",
+      "Choose one paragon gift at level 10. Hard As Diamond resists piercing and slashing. Ponderous puts a floor of 10 on d20 rolls for Intelligence and Wisdom checks. Shockwave is a bonus action once per long rest, forcing every creature within 10 ft. to make a Strength save against 8 + proficiency + Constitution. Failure deals 6d8 force, pushes 10 ft., and knocks prone. Success deals half damage only."
+    ]
+  },
+  {
+    "name": "Hurroc",
+    "kind": "species",
+    "edition": "Level Up: Advanced 5th Edition",
+    "publication": "Voidrunner's Codex (2025)",
+    "traits": [
+      "Medium, generally 6–7 feet tall, with 30-ft. walking speed and 30-ft. darkvision. Hurrocs mature around 18–20 and can live about 150 years. No Use for Doubt grants an expertise die on saves against fear effects.",
+      "Adrenal Burst grants advantage on one Strength, Dexterity, or Constitution check, one attack roll, or one death saving throw. It recharges on a short or long rest.",
+      "Choose one gift. Adrenal Surge lets a hurroc with Adrenal Burst use it proficiency bonus times between long rests, or grants the base trait if they lack it. Deadly Horns is a proficient melee natural weapon dealing 1d6 + Strength piercing. A creature of the same size or smaller must make a Strength save against the user’s maneuver DC or fall prone. Indomitable gives frightened immunity and allows spending Adrenal Burst as a bonus action to heal 3 × proficiency HP. Resilient grants unarmored AC 13 + Constitution, compatible with a shield, and a once-per-long-rest drop to 1 HP instead of 0.",
+      "Choose one paragon gift at level 10. Iron Core requires Resilient and adds 1 HP per level, poison resistance, a poison-save expertise die, and +1 Constitution to a maximum of 20. Unstoppable adds 1 AC, ignores difficult terrain, and prevents slowed. Relentless Pursuit adds 10 ft. to the base Speed, matching climb and swim speeds, climbing on difficult surfaces including ceilings without a check, and expertise on Perception and Survival checks to track."
+    ]
+  }
+]

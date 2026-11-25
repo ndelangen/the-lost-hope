@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Asherati",
+    "kind": "species",
+    "publication": "Sandstorm (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with no racial ability score adjustments. Land speed 30 ft., natural armor +1, LA +0.",
+      "Natural Dryness (Ex) reduces daily drinking water needs to one-quarter the usual amount for a humanoid of its size.",
+      "Sandswim (Su) works in sand, dust, ash, and softsand. Slipsand, packed dirt, and rock are excluded. Under sand it allows normal breathing. It gives no protection from water or dangerous gases.",
+      "The player entry gives land speed in light armor or with a light load. Heavier armor or a medium load limits it to 5 ft. A heavy load prevents movement.",
+      "Body Lamp (Su) glows at will, with bright light to 60 ft. and shadowy illumination to 120 ft. In loose soil the Asherati can make out solid objects to 60 ft. for navigation and general identification. Other creatures in the sand see an orange glow. The glow confers no finer perception or advantage against invisibility or concealment. The Asherati cannot Hide while glowing.",
+      "Body Lamp flash takes a free action once per day. It can dazzle all creatures within 30 ft. for 1 minute. Fortitude negates at DC 10 + half character level + Charisma modifier.",
+      "Bonus feat Heat Endurance gives +2 on saves against fire effects and heat protection level 1, with no heat saves needed through 120°F.",
+      "Weapon Familiarity treats the eagle’s claw as a martial weapon. Move Silently and Hide each get +2 racial. Sandy terrain adds another +2 racial to Hide.",
+      "Water Vulnerability. Completely wet causes −1 on attack rolls, ability checks, and skill checks. Immersion prevents breath-holding and immediately triggers Constitution checks against drowning.",
+      "Asherati and Common are automatic. Bonus languages are Bhuka, Goblin, and Giant. Favored class Rogue."
+    ]
+  }
+]

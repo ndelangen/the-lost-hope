@@ -1,0 +1,328 @@
+[
+  {
+    "entry": "monster-d93dfc5d9f0fa95b51252714",
+    "slug": "animated-staff-of-frost",
+    "name": "Animated Staff of Frost",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/animated-staff-of-frost-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/animated-staff-of-frost-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-d93dfc5d9f0fa95b51252714",
+        "name": "Animated Staff of Frost",
+        "file": "images/monsters/animated-staff-of-frost/parchment-portrait.webp",
+        "sha256": "4e6934aa3ea373a7cbd823b5ec2eb313b2940a9cb3e6000556b9e7cf98b3fbc4",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/276665-animated-staff-of-frost",
+        "subjectPrompt": "An entire five-foot-long sentient staff hewn out of translucent pale blue chiseled ice. It floats a little above the ground and tilts diagonally across the square. Darker ice veins, sharp faceted crystalline tip, a whisper of frost and a faint shadow. One slender continuous ice shaft; no handle wrap, wood, hands, humanoid features or characters.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/animated-staff-of-frost.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/animated-staff-of-frost.png",
+    "sha256": "ad6b4d0c22d434350bafb21105f519f88461ce1ff9a16855d2c9d93af2823b0e",
+    "bytes": 1745439
+  },
+  {
+    "entry": "monster-425f89c76686668e3ca8fa2e",
+    "slug": "astyrranthor",
+    "name": "Astyrranthor",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/astyrranthor-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/astyrranthor-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-425f89c76686668e3ca8fa2e",
+        "name": "Astyrranthor",
+        "file": "images/monsters/astyrranthor/parchment-portrait.webp",
+        "sha256": "99a7ee5ed71b40d5dc8f6222e642d123f2c26c4d30617e16225a3d649f49797a",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/ashtyrranthor/wdmm-1.webp",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/275717-astyrranthor",
+        "subjectPrompt": "Adult female red dragon with a full heavy brick-crimson scaled body, four powerful legs and two broad batlike rust-red wings, charcoal ridged horns and glowing amber eyes. Fanned wings partly folded to fit, coiled tail follows lower edge, watchful mother dragon in low ready stance. Token reference is for color and anatomy only; show the entire dragon in original three-quarter crouch.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/astyrranthor.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/astyrranthor.png",
+    "sha256": "e1bdb3bdf3324de747bf4f6b8b418d9106a70e69024305e4753b39298299c75b",
+    "bytes": 2504940
+  },
+  {
+    "entry": "monster-a2a5f19991a9092ba45fb293",
+    "slug": "darribeth-meltimer",
+    "name": "Darribeth Meltimer",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/darribeth-meltimer-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/darribeth-meltimer-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-a2a5f19991a9092ba45fb293",
+        "name": "Darribeth Meltimer",
+        "file": "images/monsters/darribeth-meltimer/parchment-portrait.webp",
+        "sha256": "937e16e2cd05995cba759e24bada392aa3666c9d905b1341c111e52e00586a9f",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/267381-darribeth-meltimer",
+        "subjectPrompt": "A Chondathan human woman wizard and former adventurer, crouched with a small brown toad resting on her raised knee. Alert kind face, weathered dark blue-gray traveling clothes, book strap, little brass arcane token, dusty boot soles, and a rope coil. Grounded middle-aged adult with dark brown hair in a rough loose braid. A subtle look of refuge and long travel, without a cave environment.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/darribeth-meltimer.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/darribeth-meltimer.png",
+    "sha256": "0b60bca7a9730fe17891ab68214f6bf77da9d8c562696f6e21cc416e69b347f6",
+    "bytes": 2330361
+  },
+  {
+    "entry": "monster-ccabf6561d9d4fac697c4be3",
+    "slug": "derrion-shadowdusk",
+    "name": "Derrion Shadowdusk",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/derrion-shadowdusk-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/derrion-shadowdusk-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-ccabf6561d9d4fac697c4be3",
+        "name": "Derrion Shadowdusk",
+        "file": "images/monsters/derrion-shadowdusk/parchment-portrait.webp",
+        "sha256": "c2d091b7023251c8f3d16e93c0d96518928136c2efecef28c051b3a859e8b9b7",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/277609-derrion-shadowdusk",
+        "subjectPrompt": "A middle-aged male human warrior of a fallen noble house, a clear healed scar on the left side of his tired angular face, worried expression as he looks over his shoulder. Sturdy muted charcoal armor with old burgundy surcoat, dark greying hair brushed back, dark fitted leather gloves, sword sheathed. Whole standing figure; he paces uneasily with the weight on one foot.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/derrion-shadowdusk.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/derrion-shadowdusk.png",
+    "sha256": "5cafda2a1e9b08e1c52e4c07cd9bf125c9c50f362c6c6f832509085a7f0ad284",
+    "bytes": 1680557
+  },
+  {
+    "entry": "monster-008a5d303d03d3d30e69b2a4",
+    "slug": "drow-assassin",
+    "name": "Drow Assassin",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/drow-assassin-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/drow-assassin-event-v1.png",
+    "previous": [],
+    "path": "encounters-14/drow-assassin.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/drow-assassin.png",
+    "sha256": "2f6b9697e403c3d676e677f0fef86b1eff728ca73b5bec95ec98f368d40725c8",
+    "bytes": 1789436
+  },
+  {
+    "entry": "monster-1533c6e7d6608b1e69c0c2b9",
+    "slug": "gelatinous-cube-giant-ooze-variant",
+    "name": "Gelatinous Cube (Giant Ooze variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/gelatinous-cube-giant-ooze-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/gelatinous-cube-giant-ooze-variant-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-1533c6e7d6608b1e69c0c2b9",
+        "name": "Gelatinous Cube (Giant Ooze variant)",
+        "file": "images/monsters/gelatinous-cube-giant-ooze-variant/parchment-portrait.webp",
+        "sha256": "326304eec74360c9b02d8481a2498ac744873d5cc525609f219f39f5db7f98cf",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/gelatinous-cube/mm-1.webp",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/266150-gelatinous-cube-giant-ooze-variant",
+        "subjectPrompt": "One colossal, perfectly square-edged, thirty-foot-on-a-side transparent gelatinous cube, translucent olive-blue with dark green rim, presented in full isometric three-quarter view. Precisely one small dwarven skull encased in a glass shell suspended at the center. No other bones or people. Tiny skull dramatically emphasizes cube's size, while being identifiable. No rocks, floor grid or room.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/gelatinous-cube-giant-ooze-variant.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/gelatinous-cube-giant-ooze-variant.png",
+    "sha256": "7eb763ed6334f23d6e903684302114752e5197f4ba14d93ddc1b530c8e4b73d6",
+    "bytes": 1927941
+  },
+  {
+    "entry": "monster-85389bfb6bdac9ed12ea68cf",
+    "slug": "giant-mimic",
+    "name": "Giant Mimic",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/giant-mimic-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/giant-mimic-event-v1.png",
+    "previous": [],
+    "path": "encounters-14/giant-mimic.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/giant-mimic.png",
+    "sha256": "132d5bb927dff59804e58f502fbb024d5868b1f4051e13765a1d87bdb1f65e18",
+    "bytes": 2365723
+  },
+  {
+    "entry": "monster-160fc7db8013b63735c1bd23",
+    "slug": "halfling-musician",
+    "name": "Halfling Musician",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/halfling-musician-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/halfling-musician-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-160fc7db8013b63735c1bd23",
+        "name": "Halfling Musician",
+        "file": "images/monsters/halfling-musician/parchment-portrait.webp",
+        "sha256": "9150bad10e48611d2d522a8b00c643d62faa5da05919e6492d50f3611ede02d8",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/273173-halfling-musician",
+        "subjectPrompt": "A cheerful but travel-worn adult strongheart halfling musician from the Sing-Alongs, represented by a compact barefoot man playing a wooden fiddle, soft curls, worn ochre and moss-green tunic with indigo scarf, fringed cuffs. Clearly a short sturdy adult with proportionate mature face and large bare feet. Full body, one figure.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/halfling-musician.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/halfling-musician.png",
+    "sha256": "b8818a763ab14a121d1054ec1a40b218ebd73d2636f0cb59ba2a8dc0683947fa",
+    "bytes": 2121274
+  },
+  {
+    "entry": "monster-10e664060dc29949a2d258cf",
+    "slug": "harria-valashtar",
+    "name": "Harria Valashtar",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/harria-valashtar-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/harria-valashtar-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-10e664060dc29949a2d258cf",
+        "name": "Harria Valashtar",
+        "file": "images/monsters/harria-valashtar/parchment-portrait.webp",
+        "sha256": "4aa3347e653b9c20fabf1f16424036c2bf9f0fe6c46ff1202dabb62e5432a522",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/265945-harria-valashtar",
+        "subjectPrompt": "A human bandit captain who is a stage actress disguised as a vampire, pale theatre powder, clearly removable costume fangs, theatrical wine-red velvet cloak with standing collar and black riding leathers, neatly tied dark brown hair, sardonic confidence. Full length with one hand holding her cloak and a modest sheathed rapier at hip. A mortal made up for a performance.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/harria-valashtar.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/harria-valashtar.png",
+    "sha256": "864376fe3905270dde3c77757fb47d5de28d17da8eb03bb3e3d23abe7ae30e60",
+    "bytes": 1862262
+  },
+  {
+    "entry": "monster-3cf86f5a294dfbb82f08805c",
+    "slug": "shadowy-duplicate",
+    "name": "Shadowy Duplicate",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/shadowy-duplicate-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/shadowy-duplicate-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-3cf86f5a294dfbb82f08805c",
+        "name": "Shadowy Duplicate",
+        "file": "images/monsters/shadowy-duplicate/parchment-portrait.webp",
+        "sha256": "79014a5601c09b62adb9c4f32cb9d30063e4ad5113a97c4db7409118ea520abc",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/265953-shadowy-duplicate",
+        "subjectPrompt": "An unnerving single humanoid mirror copy emerging at an angle from a thin freestanding upright oval mirror with an understated tarnished rim. A clear full dark shadow silhouette with complete legs fading into inky sepia smoke, and a smooth shadowed head with no glowing eyes. The mirror reflects only the blank parchment. One humanoid figure, no extra reflection figure or text.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/shadowy-duplicate.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/shadowy-duplicate.png",
+    "sha256": "abce278dad310b69e4a6004522348f15168730ff21d66b518730464a813d9970",
+    "bytes": 1742231
+  },
+  {
+    "entry": "monster-456d02c2dcad445ccbf13c7f",
+    "slug": "statue-of-lolth",
+    "name": "Statue of Lolth",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/statue-of-lolth-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/statue-of-lolth-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-456d02c2dcad445ccbf13c7f",
+        "name": "Statue of Lolth",
+        "file": "images/monsters/statue-of-lolth/parchment-portrait.webp",
+        "sha256": "f9666dda3af548e7f8b08392cd1a42144694682fdbaf2ca7c45b3637f430129c",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/animated-statue-of-lolth/wdmm-1.webp",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/273136-statue-of-lolth",
+        "subjectPrompt": "A huge living carved stone statue of Lolth as half female drow and half bloated spider. Whole figure made of dark weathered basalt with gray edges and finely chiseled armor and hair. The upright drow torso has two arms; at its waist starts the giant spider body with exactly eight pointed legs. Crawling posture, clearly stone, no gore and no luminous colors. Second reference is the adventure token, for pose-independent shape.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/statue-of-lolth.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/statue-of-lolth.png",
+    "sha256": "b838f283e0509e8df12487f23545c4fa5b2a97a6c4dcbe55ab4716f36f878f3d",
+    "bytes": 2024607
+  },
+  {
+    "entry": "monster-5800768b32a54c54c82b8db4",
+    "slug": "turbulence",
+    "name": "Turbulence",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/turbulence-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/turbulence-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-5800768b32a54c54c82b8db4",
+        "name": "Turbulence",
+        "file": "images/monsters/turbulence/parchment-portrait.webp",
+        "sha256": "9ac1348ed8a40685a9dd3489c8aa9b12defce0e76171456617a3aa8e086c0c2f",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/273036-turbulence",
+        "subjectPrompt": "A female tiefling mage of Dweomercore, one of the Horned Sisters. Distinct paired dark swept horns, warm copper skin, chin-length wavy black hair, slender tail, old mariner's buckle, black wizard robes layered over charcoal inner clothes. Standing straight in a spell duel stance with narrow dusty-blue wind ribbons curling out of an open palm, small leather spellbook in her other hand. Full body.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/turbulence.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/turbulence.png",
+    "sha256": "7fa2dc867503e7f6f3995e1e12480a8e35e5980493a835663b0d4b33b4e7b3c9",
+    "bytes": 1763295
+  },
+  {
+    "entry": "monster-c68ce1609367f220fd7461cb",
+    "slug": "uktarl-krannoc",
+    "name": "Uktarl Krannoc",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/uktarl-krannoc-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/uktarl-krannoc-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-c68ce1609367f220fd7461cb",
+        "name": "Uktarl Krannoc",
+        "file": "images/monsters/uktarl-krannoc/parchment-portrait.webp",
+        "sha256": "8f1728455e23f6233446e27215913680b58a4b14e1ddc4703600a4d23039f0ba",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/265939-uktarl-krannoc",
+        "subjectPrompt": "A mortal human bandit captain, a former actor disguised as a vampire, full-length. Tall, wiry, graying black hair, narrow curled moustache, costume fangs visible with a smug half-smile, cheap smoke-black velvet cloak with dusty dark plum lining and soft riding boots. He displays a small marked deck of cards in one hand. One figure on parchment, dramatic theatrical posture.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/uktarl-krannoc.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/uktarl-krannoc.png",
+    "sha256": "43970930c746a44711d8751629ea56919af1a75c3ab1d5caba06cdb8bafa2ab7",
+    "bytes": 1786860
+  },
+  {
+    "entry": "monster-2a6abca4e3345424c2983227",
+    "slug": "violence",
+    "name": "Violence",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-14/event-drafts/violence-event-v1.png",
+    "saved": " Backups/Encounter Batch 14 2026-11-23/event-drafts/violence-event-v1.png",
+    "previous": [
+      {
+        "entry": "monster-2a6abca4e3345424c2983227",
+        "name": "Violence",
+        "file": "images/monsters/violence/parchment-portrait.webp",
+        "sha256": "374f54d99cf3d88e835a59a63e20ef96ce51c4ba9bee9ed13cedbeb485364cd9",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "https://www.dndbeyond.com/monsters/273037-violence",
+        "subjectPrompt": "A female tiefling mage of Dweomercore, one of the Horned Sisters. Distinct paired dark swept horns, warm copper skin, chin-length wavy black hair, slender tail, old mariner's buckle. Deep red wizard robes with faded burgundy hood folded back. Reading a scorched spellbook held at her waist and lifting amber embers with two fingertips. Full body.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "path": "encounters-14/violence.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-14/violence.png",
+    "sha256": "2f8fddbc02acdaf9754f027ef0850e1f13cef8138aee1cc1b8a15b40c0ab2a37",
+    "bytes": 1867144
+  }
+]

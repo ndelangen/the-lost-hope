@@ -1,0 +1,176 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -2267,6 +2267,145 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Giant Frog",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A much larger version of an ordinary frog, with camouflaging coloration. It ranges from two to six feet long and 50 to 250 pounds. At two feet it weighs 50 pounds, increasing by 50 pounds for each additional foot.",
++      "combat": {
++        "habitats": ["Any fresh water", "Freshwater habitats shared with large aquatic predators"],
++        "creatureType": "Animal",
++        "armorClass": 7,
++        "movement": "3, Sw 9",
++        "hitDice": "1–3",
++        "numberOfAttacks": 1,
++        "damageDice": "1–3 / 1–6 / 2–8",
++        "size": "T–M, 2–6 ft. long"
++      },
++      "mechanics": {
++        "Hit Dice variants": [
++          {
++            "name": "1 HD",
++            "effectNote": "2 feet long. THAC0 19, bite 1–3, 120 XP."
++          },
++          {
++            "name": "2 HD",
++            "effectNote": "The text gives 2 to 4 feet. THAC0 16, bite 1–6, 175 XP. The 2-foot endpoint overlaps the 1 HD description."
++          },
++          {
++            "name": "3 HD",
++            "effectNote": "Over 4 feet long. THAC0 16, bite 2–8, 270 XP."
++          }
++        ],
++        "Movement and ambush": [
++          {
++            "name": "Jump",
++            "effectNote": "A 50-pound frog can leap up to 180 feet. Subtract 20 feet per additional 50 pounds. It can leap 30 feet straight up. It cannot leap backward or directly sideways."
++          },
++          {
++            "name": "Camouflage",
++            "effectNote": "In its natural habitat, opponents take −3 to surprise rolls. It retreats from fire."
++          }
++        ],
++        "Combat": [
++          {
++            "name": "Tongue",
++            "effectNote": "Its sticky tongue reaches three times its body length and gains a +4 bonus to the attack roll. A hit causes no direct damage. The target gets one chance to strike the tongue before being reeled in. A hit frees the target, and the frog leaves that target alone."
++          },
++          {
++            "name": "Reeling in prey",
++            "effectNote": "A lighter victim is drawn in during the round they miss the tongue. A heavier victim takes one extra round and gets another chance to hit the tongue. A victim more than twice the frog’s weight cannot be drawn in and is released on the third round after capture. The text leaves equal weight unspecified."
++          },
++          {
++            "name": "First bite",
++            "effectNote": "A successful bite in the first round the victim is in reach deals the maximum damage for the frog’s Hit Dice."
++          },
++          {
++            "name": "Swallow whole",
++            "effectNote": "An attack roll of 20 can swallow a victim shorter than 3 feet. A victim has three rounds to escape before asphyxiating. An attack roll of 18 or higher with an edged weapon lets the victim cut their way out. A successful escape kills the frog. Damage dealt to the frog has a 33% chance to also affect the swallowed victim."
++          }
++        ]
++      },
++      "notes": [
++        "5–40 appearing. Uncommon. Pack organization. Active at any time. Carnivore. No intelligence (0).",
++        "Average (8) morale. Treasure, alignment, and magic resistance Nil.",
++        "The printed Hit Dice cell reads 1+3. The prose describes 1, 2, and 3 HD versions, which also appear in the THAC0 and XP rows. The profile uses those versions.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 119."
++      ]
++    },
++    {
++      "name": "Killer Frog",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A smaller, three-foot relative of the Giant Frog with sharp teeth and conspicuous front talons.",
++      "combat": {
++        "habitats": ["Any fresh water", "Aquatic habitats in fresh water"],
++        "creatureType": "Animal",
++        "armorClass": 8,
++        "movement": "6, Sw 12",
++        "hitDice": "1+4",
++        "thac0": 18,
++        "numberOfAttacks": 3,
++        "damageDice": "1–2 / 1–2 / 2–5",
++        "size": "S, 3 ft. long",
++        "xp": 35
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Talons and bite",
++            "effectNote": "It attacks with front talons and sharp teeth. The table gives 1–2 for each of the first two attacks and 2–5 for the third."
++          },
++          {
++            "name": "Predation",
++            "effectNote": "It pursues prey with its claws and teeth. The entry explicitly excludes swallowing whole."
++          }
++        ]
++      },
++      "notes": [
++        "3–18 appearing. Very rare. Pack organization. Active at any time. Carnivore. No intelligence (0).",
++        "Unsteady (6) morale. Treasure, alignment, and magic resistance Nil.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 119."
++      ]
++    },
++    {
++      "name": "Poisonous Frog",
++      "kind": "beast",
++      "publication": "Monstrous Manual (1994 third printing)",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A rare form of ordinary small frog. The entry gives no distinct palette or identifying markings.",
++      "combat": {
++        "habitats": ["Any fresh water", "Freshwater waterways"],
++        "creatureType": "Animal",
++        "armorClass": 8,
++        "movement": "3, Sw 9",
++        "hitDice": "1",
++        "thac0": 19,
++        "numberOfAttacks": 1,
++        "damageDice": "1",
++        "size": "T (Tiny)",
++        "xp": 65
++      },
++      "mechanics": {
++        "Combat": [
++          {
++            "name": "Bite and contact poison",
++            "effectNote": "The bite deals 1 damage. The frog’s poison is delivered by skin contact or by a bite. The victim gets +4 on the saving throw. The entry gives no effect or duration for a failed save."
++          }
++        ]
++      },
++      "notes": [
++        "2–12 appearing. Rare. Pack organization. Active at any time. Insectivore. No intelligence (0).",
++        "Unsteady (6) morale. Treasure, alignment, and magic resistance Nil.",
++        "The printed size row gives Tiny and a malformed length, 6′–1′. The profile retains the size category.",
++        "Monstrous Manual, TSR 2140, January 1994 third printing, p. 119."
++      ]
+     },
+     {
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -3988,6 +3988,7 @@
+ Giant Flying Spider	beast	Beast	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast		1
+ Giant Four-Armed Gargoyle	monster	Elemental	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/33028-giant-four-armed-gargoyle	10
+ Giant Frog	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/4
++Giant Frog	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Giant Frog	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16884-giant-frog	1/4
+ Giant Frog	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195020-giant-frog	1/4
+ Giant Frog	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		1/4
+@@ -5718,6 +5719,7 @@
+ Kianna	monster	Humanoid	Journeys through the Radiant Citadel	2014 fifth edition	Wizards of the Coast		0
+ Kiddywidget	monster	Construct	Candlekeep Mysteries	2014 fifth edition	Wizards of the Coast		1/2
+ Kieren	monster	Humanoid	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		0
++Killer Frog	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Killer Whale	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16937-killer-whale	3
+ Killer Whale	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195095-killer-whale	3
+ Killer Whale	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		3
+@@ -7529,6 +7531,7 @@
+ Podge	monster	Humanoid	Humblewood Tales	2014 fifth edition compatible	Hit Point Press	https://www.dndbeyond.com/monsters/5174389-podge	2
+ Podling	monster	Plant	Van Richten’s Guide to Ravenloft	2014 fifth edition	Wizards of the Coast		1/2
+ Poison Weird	monster	Elemental	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/273050-poison-weird	4
++Poisonous Frog	beast	Animal	Monstrous Manual (1994 third printing)	AD&D 2nd edition	TSR		
+ Poisonous Snake	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/8
+ Poisonous Snake	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16982-poisonous-snake	1/8
+ Poisonous Snake	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		1/8

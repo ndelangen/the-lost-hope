@@ -1,0 +1,174 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -311958,6 +311958,25 @@
+       ]
+     },
+     {
++      "name": "Kalashtar",
++      "kind": "species",
++      "publication": "Eberron Campaign Setting (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid with a 30-ft. base land speed and no racial ability adjustments. The Expanded Psionics Handbook gives the Psionic subtype to creatures with racial psi-like abilities.",
++        "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
++        "+2 racial on Bluff, Diplomacy, and Intimidate checks. +2 racial on Disguise when impersonating a human.",
++        "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
++        "Naturally Psionic adds 1 extra power point per character level to the character’s reserve, even without taking a psionic class.",
++        "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
++        "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. The willing target gets no saving throw. Power resistance applies as harmless. Treat it as mind-affecting.",
++        "With psionics rules, initial range is 25 ft. + 5 ft. per two manifester levels, and duration is 10 minutes per manifester level. Resolve psi-like augmentation as if power points equal to its effective manifester level were spent, without deducting from the reserve. Mindlink costs 1 point before augmentation. One extra point adds a target within 15 ft. of another target. Four extra points allow attempting a link with an unwilling target, Will negates.",
++        "Without the Expanded Psionics Handbook, use the setting book’s fallback. Link with one willing creature of Intelligence 3 or higher within 30 ft. for 1 round per character level. There is no saving throw or spell resistance. The ability is mind-affecting.",
++        "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control.",
++        "Common and Quor are automatic. Bonus languages are Draconic and Riedran. Favored class Psion. The setting entry lists no racial Hit Dice or level adjustment. Its original setting rules give Kalashtar no dragonmarks."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Mordenkainen’s Tome of Foes",
+       "name": "Gith (Githyanki)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1472,6 +1472,101 @@
+       "tactics": "Nalin is replacing chipped boundary markers before the quarry crews change shifts. He asks the party to walk the new line with him and find the marker that moved overnight. If threatened, he keeps watch from behind the boundary wall with three enchanted pebbles at hand."
+     },
+     {
++      "id": "kalashtar-witness-mediator-35e",
++      "title": "Kalashtar witness mediator, Psion 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Psionic)",
++      "ac": 11,
++      "hp": 5,
++      "hitDice": "1d4+1",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 8,
++        "DEX": 13,
++        "CON": 12,
++        "INT": 16,
++        "WIS": 12,
++        "CHA": 13
++      },
++      "skills": [
++        "Bluff +7",
++        "Concentration +5",
++        "Diplomacy +7",
++        "Knowledge (psionics) +7",
++        "Listen +3",
++        "Psicraft +7",
++        "Spot +3"
++      ],
++      "languages": "Common, Quor, Draconic, Riedran",
++      "traits": [
++        "Unarmored with Dexterity +1. Touch 11, flat-footed 10. BAB +0, grapple −1. Fortitude +1, Reflex +1, Will +3.",
++        "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
++        "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
++        "Telepathy discipline. Alertness adds +2 to Listen and Spot, already included. Psionic Talent adds 2 power points.",
++        "Six power points per day. Two base, one bonus from Intelligence, one racial, and two from Psionic Talent. Class manifester level 1, with at most 1 power point spent per manifestation. Save DC 13 + power level."
++      ],
++      "actions": [
++        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
++        "Dagger −1 melee, 1d4−1 piercing or slashing, critical 19–20/×2, minimum 1 damage.",
++        "Known 1st-level powers are inertial armor, mind thrust, and mindlink. Each costs 1 power point at this level. Inertial armor gives +4 armor AC for 1 hour. Mind thrust deals 1d10 to one target within 25 ft., Will DC 14 negates, power resistance applies.",
++        "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
++        "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. The willing target gets no saving throw. Power resistance applies as harmless. Treat it as mind-affecting.",
++        "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control."
++      ],
++      "tactics": "Seravakri asks each witness for permission before opening a mindlink. She listens to both accounts of the warehouse dispute and asks the party to check which crates were signed in. If threatened, she uses inertial armor and withdraws to the public room."
++    },
++    {
++      "id": "kalashtar-quay-interpreter-35e",
++      "title": "Kalashtar quay interpreter, Expert 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1/2. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Psionic)",
++      "ac": 13,
++      "hp": 7,
++      "hitDice": "1d6+1",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 13,
++        "CON": 12,
++        "INT": 12,
++        "WIS": 14,
++        "CHA": 14
++      },
++      "skills": [
++        "Appraise +5",
++        "Bluff +8",
++        "Decipher Script +5",
++        "Diplomacy +11",
++        "Disguise +6, or +8 to impersonate a human",
++        "Knowledge (local) +5",
++        "Sense Motive +6"
++      ],
++      "languages": "Common, Quor, Riedran",
++      "traits": [
++        "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +0. Fortitude +1, Reflex +1, Will +4.",
++        "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
++        "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
++        "Skill Focus (Diplomacy) adds +3, already included. Each of the seven listed Expert skills has four ranks.",
++        "Naturally Psionic gives one racial power point. Use racial Mindlink once per day without spending that point. Tarenkhad has no known class powers or general manifester level."
++      ],
++      "actions": [
++        "Club +0 melee, 1d6 bludgeoning, critical ×2, 5-ft. reach.",
++        "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
++        "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
++        "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. The willing target gets no saving throw. Power resistance applies as harmless. Treat it as mind-affecting.",
++        "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control."
++      ],
++      "tactics": "Tarenkhad has one daily mindlink and saves it for a willing passenger with whom the dock crew shares no language. He asks the party to keep the berth open while he establishes the link and locates the passenger’s missing luggage."
++    },
++    {
+       "id": "elan-archive-conservator-35e",
+       "title": "Elan archive conservator, Seer Psion 1",
+       "origin": "Original DM Library NPC",
+@@ -2786,6 +2881,28 @@
+       "hook": "Teva can retry a failed reading after a minute of quiet. The party needs to buy that time while the closing bell draws nearer."
+     },
+     {
++      "species": "Kalashtar",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Eberron Campaign Setting (2004)",
++      "name": "Seravakri",
++      "build": "kalashtar-witness-mediator-35e",
++      "role": "Witness mediator and Telepath Psion.",
++      "motive": "Resolve a dispute about a signed warehouse delivery before the crates get moved again.",
++      "hook": "Seravakri can speak telepathically with a willing witness while the party checks the warehouse ledger."
++    },
++    {
++      "species": "Kalashtar",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Eberron Campaign Setting (2004)",
++      "name": "Tarenkhad",
++      "build": "kalashtar-quay-interpreter-35e",
++      "role": "Quay interpreter and Expert.",
++      "motive": "Find which berth received the luggage a passenger cannot describe to the dock crew.",
++      "hook": "Tarenkhad can link with the passenger if the party holds the berth and asks for their consent."
++    },
++    {
+       "species": "Elan",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -5689,6 +5689,7 @@
+ Kalashtar	species		Eberron: Forge of the Artificer	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/2048552-kalashtar	
+ Kalashtar	monster	Humanoid	Eberron: Rising from the Last War	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/487557-kalashtar	1/4
+ Kalashtar	species		Eberron: Rising from the Last War	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/260720-kalashtar	
++Kalashtar	species	Humanoid (Psionic)	Eberron Campaign Setting (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144376M	
+ Kalka-Kylla	monster	Monstrosity	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		3
+ Kamadan	monster	Monstrosity	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/33044-kamadan	4
+ Kansaldi Fire-Eyes	monster	Humanoid	Dragonlance: Shadow of the Dragon Queen	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3081112-kansaldi-fire-eyes	11

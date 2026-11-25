@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Ghost (Isabella)",
+    "publication": "DDAL04-04 - The Marionette",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/ghost-isabella/ghost-2014-base.webp",
+    "artist": "Base creature art: Ghost · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "18fbc9053b72c6c94bdd94a9d08bfeb4b95f2a5a916a06151b875a0d7b835e3d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Ghost.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Ghost (Isabella)",
+    "publication": "DDAL04-04 - The Marionette",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/ghost-isabella/ghost-2024-steven-belledin.webp",
+    "artist": "Related Ghost art by Steven Belledin · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "bf20568808622c7f11df686b4614cccb85c2fdbf06b7ea729719647c47403f79",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Ghost.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Toy Soldier",
+    "publication": "DDAL04-04 - The Marionette",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/toy-soldier/carrionette-irina-nordsol.webp",
+    "artist": "Related construct: Carrionette by Irina Nordsol · Van Richten’s Guide to Ravenloft",
+    "kind": "illustration",
+    "sha256": "0367197f2c679738ad46c19da3a79f1d9d0b73c3377457237a336f3113ca4773",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/VRGR/Carrionette.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Toy Soldier",
+    "publication": "DDAL04-04 - The Marionette",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/toy-soldier/living-doll-caroline-gariba.webp",
+    "artist": "Related construct: Living Doll by Caroline Gariba · The Wild Beyond the Witchlight",
+    "kind": "illustration",
+    "sha256": "1dd63102388d220e68cbc671463ec651cfea06d6d8b761d8e5619e4ec8b60726",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/WBtW/Living%20Doll.webp"
+  }
+]

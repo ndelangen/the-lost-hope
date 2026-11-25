@@ -1,0 +1,26 @@
+{
+  "baseline": "458b8afef8ddb44cecb1ba541171e0272d5f520c",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Hadozee"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Stormwrack (2005)",
+  "glidingAndClimbingVerified": true,
+  "spelljammerMonstersPreserved": 3,
+  "fifthEditionProfilesPreserved": 1,
+  "defaultVersionBefore": "Spelljammer: Adventures in Space",
+  "defaultVersionAfter": "Spelljammer: Adventures in Space",
+  "listThumbnailChanged": false,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

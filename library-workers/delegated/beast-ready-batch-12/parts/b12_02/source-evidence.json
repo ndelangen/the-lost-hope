@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Mastiff",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Mastín",
+    "spanishHeading": "Mastín",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      347
+    ],
+    "viewerPages": [
+      349
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.1. The Spanish print gives exact CR 1/8.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "mastiff",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/mastiff.png",
+    "portraitReuseSha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+    "mechanicsNotes": [
+      "Bite uses +4 to hit with the printed 1d4 + 2 damage. Protect Friend requires the attacker to be within 5 ft. of the mastiff and the visible friend to be a Humanoid."
+    ]
+  },
+  {
+    "name": "Mule",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Mula",
+    "spanishHeading": "Mula",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      347,
+      348
+    ],
+    "viewerPages": [
+      349,
+      350
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.1. The Spanish print gives exact CR 1/8.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "mule",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/mule.png",
+    "portraitReuseSha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+    "mechanicsNotes": [
+      "The entry lists condition resistance to Exhaustion and Prone, with the advantages on rolls to avoid or end those conditions described on printed p. 23. The modifiers and action continue on the next folio."
+    ]
+  },
+  {
+    "name": "Octopus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Pulpo",
+    "spanishHeading": "Pulpo",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      351
+    ],
+    "viewerPages": [
+      353
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 0.0. The Spanish print gives exact CR 0.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 372, confirm CR-to-XP values.",
+    "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "octopus",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_06/portraits/octopus.png",
+    "portraitReuseSha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+    "mechanicsNotes": [
+      "The licensed Spanish printing gives a swim speed of 60 ft. Black Flag Reference Document v0.2 lists 30 ft. for its own entry. The overlay uses this printing’s 60 ft.",
+      "The target is Grappled on the qualifying hit. Taking the optional swim after Ink Dash triggers the immediate release."
+    ]
+  },
+  {
+    "name": "Octopus, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Pulpo gigante",
+    "spanishHeading": "Pulpo gigante",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      352
+    ],
+    "viewerPages": [
+      354
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 1.0. The Spanish print gives exact CR 1.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 373, confirm CR-to-XP values.",
+    "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "octopus-giant",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+    "portraitReuseSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+    "mechanicsNotes": [
+      "The licensed Spanish printing gives a swim speed of 30 ft. Black Flag Reference Document v0.2 lists 60 ft. for its own entry. The overlay uses this printing’s 30 ft.",
+      "Tentacles can grapple a Huge or smaller creature. Slam works on a grappled Medium or smaller creature and calls for a solid surface."
+    ]
+  },
+  {
+    "name": "Orca",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedHeading": "Orca",
+    "spanishHeading": "Orca",
+    "publisher": "Kobold Press and Nosolorol",
+    "printing": "Monster Vault ©2024 Open Design LLC. Licensed Spanish edition Cubil de Monstruos ©2025 Nosolorol, translated by Andrea Iglesias.",
+    "translationLanguage": "Spanish",
+    "isbn": "979-13-87882-04-4",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "printedPages": [
+      348,
+      349
+    ],
+    "viewerPages": [
+      350,
+      351
+    ],
+    "localPrintWitness": "",
+    "localPrintSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "sourceSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice, Bestias",
+    "englishCatalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "englishCatalogEvidence": "Kobold Press confirms the English entry, Beast type, habitat labels and displayed CR 3.0. The Spanish print gives exact CR 3.",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The Monster Vault errata dated May 29, 2025 lists no correction to this creature.",
+    "xpEvidence": "Printed encounter tables, p. 373, confirm CR-to-XP values.",
+    "habitatEvidence": "Kobold Press English Monster Vault catalog habitat labels.",
+    "appearanceEvidence": "Editorial description of the reused portrait.",
+    "artGroup": "orca",
+    "portraitReuseSource": "beast-ready-batch-05/parts/b05_05/portraits/killer-whale.png",
+    "portraitReuseSha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+    "mechanicsNotes": [
+      "The stat block starts on p. 348 and continues on p. 349. The Spanish Tail Slap wording measures the target’s distance from the tail. Black Flag Reference Document v0.2 measures it from the orca."
+    ]
+  }
+]

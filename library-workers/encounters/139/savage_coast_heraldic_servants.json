@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Eagle Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–48",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Eagle Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "6, fly 48 class C in natural form. Humanoid form 18, fly 40 class B.",
+      "cr": "",
+      "hitDice": "5+2",
+      "thac0": 15,
+      "xp": 2000,
+      "otherStatistics": "Magic resistance 30%. Exceptional intelligence 15–16. Fanatic morale 17–18.",
+      "description": "A six-foot eagle with gold-tipped brown feathers, a white head, and a wingspan of more than 15 feet. Its upright form keeps both wings and taloned feet.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Keen sight. Surprise is possible only at night or in the eagle's lair, with a 1 in 10 chance in those circumstances.\nMajestic aura. Before each attack on the eagle in natural form, the attacker must save vs. spell at −2 or be unable to harm it with that attack. The aura does not protect the eagle from an opponent it is directly attacking.",
+        "Actions": "Natural attacks. Two claws for 1d8 each and one beak strike for 2d6. A dive of more than 50 feet gives +4 to the attack roll and doubles claw damage.\nHumanoid attacks. Use a long sword as a 5th-level fighter or claws for 1d6 each. A diving claw attack still deals double damage.",
+        "Bearer benefits": "The Emperor of Eusdria gains the effect of eyes of the eagle and can invoke majestic aura for one round three times per day. Both benefits require either telepathic contact or carrying the coat of arms with the inactive servant.",
+        "Printed source": "pp. 44–48"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Horse Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–47, 49–50",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Horse Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "16, fly 16 class C. Flight only while ridden and commanded telepathically by its bearer.",
+      "cr": "",
+      "hitDice": "5+2",
+      "thac0": 15,
+      "xp": 2000,
+      "otherStatistics": "Magic resistance 30%. High intelligence 13–14. Fanatic morale 17–18.",
+      "description": "A small black or white horse that can carry a rider about five feet tall or shorter. Its humanoid form keeps a narrow mane running from brow to neck.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Regeneration. Restore 1 HP per round in either form. Damage from acid or fire must be healed by magic. Barding improves Armor Class and reshapes to fit the humanoid form.\nMagical flight. The horse walks or gallops into the air when its mounted bearer commands it through their link.",
+        "Actions": "Warhorse routine. Two forehooves for 1d8 each and a bite for 1d6. These attacks can accompany its rider's attacks. On a round with no frontal attack, it can kick an opponent directly behind it for 2d8.\nHumanoid mace. The servant produces a double-headed mace and fights as a 5th-level warrior.",
+        "Bearer benefits": "The Duke of Cimarron and the Baron of Mohesia share the servant's regeneration during telepathic contact.",
+        "Printed source": "pp. 44–47, 49–50"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Lion Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 49–50",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Lion Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "18",
+      "cr": "",
+      "hitDice": "6+3",
+      "thac0": 13,
+      "xp": 3000,
+      "otherStatistics": "Magic resistance 20%. Exceptional intelligence 15–16. Champion morale 15–16.",
+      "description": "A dusky yellow lion whose humanoid form resembles a rakasta with long claws and a lion's face.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Alert and stealthy. Surprised only on a roll of 1. Can move silently as a thief with a 75% chance. Its humanoid form can wear armor.",
+        "Actions": "Claws and bite. Two front claws for 1d4+2 each and a bite for 1d10. In natural form, if both front claws hit in the same round, roll another attack, dealing 2d12 damage with the rear claws on a hit.\nRoar, once per turn. Replace the bite with a magical roar. Each opponent within 10 yards saves vs. paralyzation or is stunned for 1d4 rounds. Both forms can roar.",
+        "Bearer benefits": "The Queen of Bellayne, Lord Governor of Leãoça, and Margrave of Hojah are known bearers. During telepathic contact, the bearer can gain the effects of a potion of super-heroism three times per day. If the bearer carries the coat of arms in battle and the servant is within one mile, troops and allies gain +2 morale.",
+        "Printed source": "pp. 44–46, 49–50"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Rooster Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 49–51",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Rooster Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 7,
+      "hp": null,
+      "speed": "16, fly 12 class D in natural form. After flying for one round it must stay on the ground for one round. Humanoid form cannot fly, but jumps up to 6 feet high or 12 feet across.",
+      "cr": "",
+      "hitDice": "4+3",
+      "thac0": 15,
+      "xp": 2000,
+      "otherStatistics": "Magic resistance 35%. Genius intelligence 17–18. Champion morale 15–16.",
+      "description": "A five-foot rooster whose humanoid form has red hair, dark eyes, and taloned feet.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Magical defenses. Both forms are immune to illusions and save against other magic as a 12th-level wizard. The humanoid cannot wear armor.",
+        "Actions": "Beak, natural form. One strike for 2d6. The humanoid can instead wield a dagger at THAC0 15.\nCrow. In either form, reproduce each of these wizard spells once per day without casting it: feather fall, deafness, dispel magic, shout, chaos, conjure animals, and power word stun. Use 12th level for effects that vary by caster level.",
+        "Bearer benefits": "The Count of Suerba gains immunity to illusions and the servant's special saves when they are better than the count's own.",
+        "Printed source": "pp. 44–46, 49–51"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Sea Horse Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 51–52",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Sea Horse Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 2,
+      "hp": null,
+      "speed": "11, swim 21 in natural form. Humanoid form 16, swim 16.",
+      "cr": "",
+      "hitDice": "4+3",
+      "thac0": 15,
+      "xp": 2000,
+      "otherStatistics": "Magic resistance 30%. High intelligence 13–14. Champion morale 15–16. Infravision 120 ft.",
+      "description": "A six-foot seahorse plated in brown or green scales. Its humanoid form keeps the armor, gills, and webbed hands and feet.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Magical hover. Out of water, the natural form swims through the air a few feet above the ground.",
+        "Actions": "Natural attacks. Head-butt for 1d4+1 and tail slap for 2d4. The humanoid form uses two fists for 1d4 each.\nFire shield (cold). In either form, generate the 4th-level wizard spell.\nPolymorph self, three times per day. For up to one hour, become a man-sized nonmagical creature known to the servant or bearer, and use that creature's natural weapons.",
+        "Bearer benefits": "The Lord Governor of Tartaruga gains 120-foot infravision and can use fire shield (cold) at will while in contact with the servant.",
+        "Printed source": "pp. 44–46, 51–52"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Stag Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 51–52",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Stag Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "21",
+      "cr": "",
+      "hitDice": "6+3",
+      "thac0": 13,
+      "xp": 3000,
+      "otherStatistics": "Magic resistance 35%. High intelligence 13–14. Champion morale 15–16.",
+      "description": "A six-foot stag with antlers edged in sharpened glassteel. The muscular humanoid form has brown fur and a bony ridge where the antlers would sit.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Missile protection. Both active forms always have protection from normal missiles. Physical armor costs the humanoid two sword attacks per round. Magical protection does not impose that cost.",
+        "Actions": "Antlers, natural form. One strike for 4d6, doubled on a charge.\nGlassteel swords, humanoid form. Two attacks with each of two +1 short swords at 1d6+2 each, including the servant's Strength bonus. The swords are part of the servant and cannot be removed.",
+        "Bearer benefits": "The Countess of Morguen gains protection from normal missiles and +1 damage while in contact with the servant or carrying the coat of arms with the servant inactive inside.",
+        "Printed source": "pp. 44–46, 51–52"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  },
+  {
+    "name": "Talbot Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 53–54",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Talbot Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "24",
+      "cr": "",
+      "hitDice": "6+2",
+      "thac0": 15,
+      "xp": 1400,
+      "otherStatistics": "Magic resistance 25%. High intelligence 13–14. Fanatic morale 17–18.",
+      "description": "A white hound with a broad muzzle and long, floppy ears. Its humanoid form looks much like a white-haired lupin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Tracking. Its sharp hearing and sense of smell detect and track enemies in either form. The humanoid can use the skills and weapons of a 6th-level ranger. The bearer supplies the gear, which the servant absorbs when changing back.",
+        "Actions": "Bite, natural form. One bite for 2d4. In humanoid form, attack with a ranger weapon provided by its bearer.\nInvisibility. Turn invisible at will in either form. Ambushes made this way gain +3 to surprise.",
+        "Bearer benefits": "The King of Renardy, Duke of Ysembragne, Baron of Brégoigne, and Countess of Marmandy are known bearers. While in contact, the bearer gains the keen senses and can turn invisible three times per day. Telepathic contact or carrying the coat of arms with the inactive servant also grants the ranger bonuses against giant-class creatures.",
+        "Printed source": "pp. 44–46, 53–54"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ],
+      "ruleNotes": [
+        "The entry names the ranger bonus against giant-class creatures without supplying its numeric value."
+      ]
+    }
+  },
+  {
+    "name": "Tyger Heraldic Servant",
+    "decision": "separate",
+    "pages": "pp. 44–46, 53–54",
+    "notes": "The appendix gives this servant its own stat line and encounter rules.",
+    "statBlock": {
+      "name": "Tyger Heraldic Servant",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Large heraldic servant",
+      "ac": 6,
+      "hp": null,
+      "speed": "12",
+      "cr": "",
+      "hitDice": "8+1",
+      "thac0": 13,
+      "xp": 3000,
+      "otherStatistics": "No magic resistance. High intelligence 13–14. Elite morale 13–14.",
+      "description": "A nine-foot cat with unstriped orange fur and jade-green eyes. Its humanoid form keeps the fur and feline face.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Traits": "Evade. If the servant waits for its opponents to attack, it has a 20% chance to evade a non-area attack, including a spell. On success it takes no damage and can still attack that round. On failure it takes the damage and loses all its attacks that round. Both forms can evade.",
+        "Actions": "Natural attacks. Two front claws for 1d4 each and a bite for 1d10. If both front claws hit, the servant can attempt rear claw attacks for 2d6 per claw.\nHumanoid attacks. Make two strikes with each hand for 1d6 per hit. To disarm, the servant must have initiative, succeed on an attack roll, and pass the same 20% chance used for evasion.",
+        "Bearer benefits": "No bearer is known. A bearer could use the servant's evasion only while in telepathic contact with it.",
+        "Printed source": "pp. 44–46, 53–54"
+      },
+      "sharedRules": [
+        "Heraldic servant rules"
+      ]
+    }
+  }
+]

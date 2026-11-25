@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Azurin",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "5f07c75f1964951bf35432b2",
+      "publication": "Magic of Incarnum (2005)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144462M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human, Incarnum)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Human and Incarnum subtypes. No racial ability score adjustments. Base land speed 30 ft. The Human subtype makes Azurins count as human for applicable effects. The Incarnum subtype supplies no shared abilities or defenses.",
+            "Gain one bonus feat at 1st level. Azurin traits do not grant the human bonus skill points.",
+            "The racial essentia pool increases permanently by 1. This creates a pool of 1 if the character has no other source. An essentia pool supplies points to invest in eligible feats, soulmelds, and abilities.",
+            "Normal capacity per investment is 1 at levels 1–5, 2 at 6–11, 3 at 12–17, and 4 at 18–20. Soulmeld investments can be reallocated as a swift action. Incarnum feat investments are normally set once per day and locked for 24 hours.",
+            "Common is automatic. Bonus languages can be any nonsecret language. Favored class Soulborn. The published examples list LA +0 and use class Hit Dice.",
+            "Azurins resemble their human families. A sky-blue sheen in the whites of the eyes is their distinguishing physical trait."
+          ]
+        },
+        {
+          "title": "Original NPC · Lysa Vale",
+          "lines": [
+            "Ferry warden and Soulborn.",
+            "Motive. Keep the ferry at the landing until a missing child comes back.",
+            "Hook. Lysa can keep the ramp open while the party checks the path home.",
+            "Azurin ferry warden, Soulborn 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human, Incarnum)",
+            "AC 16 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Rena Marr",
+          "lines": [
+            "Mill causeway watch and Fighter.",
+            "Motive. Keep the crossing open long enough for the night shift to get away.",
+            "Hook. Rena knows when the sluice gate closes and can hold the causeway while the party leads people off it.",
+            "Azurin mill causeway watch, Fighter 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human, Incarnum)",
+            "AC 15 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Lysa Vale": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Lysa Vale",
+              "group": "Azurin",
+              "publication": "Azurin ferry warden, Soulborn 1",
+              "local": {
+                "entry": "npc-2feab764b6d2dae9d617f747",
+                "version": "c8d9c79f6af0bbb1c50a31d8"
+              }
+            }
+          }
+        ],
+        "Original NPC · Rena Marr": [
+          {
+            "start": 15,
+            "end": 24,
+            "target": {
+              "name": "Rena Marr",
+              "group": "Azurin",
+              "publication": "Azurin mill causeway watch, Fighter 1",
+              "local": {
+                "entry": "npc-43be826d9ae98dbf8219d190",
+                "version": "1957ad93097e8754648db199"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Azurin": true,
+      "azurin essentia pool": true,
+      "azurin sky-blue": true,
+      "azurin ferry warden": true,
+      "azurin mill causeway watch": true
+    },
+    "hash": "6cc7f4205f6be4ed16488051e81c9b42906d2340a4b037ca181517646fa5ba41",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Magic of Incarnum (2005)",
+    "defaultVersionKey": "5f07c75f1964951bf35432b2",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

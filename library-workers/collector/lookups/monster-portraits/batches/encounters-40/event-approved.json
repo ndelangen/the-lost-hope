@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Chimera Companion",
+    "slug": "chimera-companion",
+    "id": "monster-f089cba71c676dcf2ef83b20:433e28e0b325ba9e512a4bd0",
+    "entry": "monster-f089cba71c676dcf2ef83b20",
+    "version": "433e28e0b325ba9e512a4bd0",
+    "suffix": "encounters-40/chimera-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-40/chimera-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-40/event-drafts/chimera-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 40 2026-11-23/event-drafts/chimera-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "294b150e17ee143e80fa299fb2f992564223f0bab46c6aff9598c2f14895128c",
+    "bytes": 2774375
+  },
+  {
+    "name": "Wyvern Companion",
+    "slug": "wyvern-companion",
+    "id": "monster-166780897b5dc2d58ad18d03:9352d0a9e8d56c501b5c995c",
+    "entry": "monster-166780897b5dc2d58ad18d03",
+    "version": "9352d0a9e8d56c501b5c995c",
+    "suffix": "encounters-40/wyvern-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-40/wyvern-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-40/event-drafts/wyvern-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 40 2026-11-23/event-drafts/wyvern-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "853a54cb052f81882cc5939e6201f21f2c7d116dc7eb3751f5d0e9b2d2d524c1",
+    "bytes": 2650629
+  }
+]

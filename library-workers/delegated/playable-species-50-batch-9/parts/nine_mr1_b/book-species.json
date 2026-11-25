@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Mephit",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+      "Small elemental. Mephits can go without food, drink, air, and sleep. Four hours of semiconscious rest confer the usual sleep benefit. They have darkvision 60 ft., immunity to poison damage and the poisoned condition, and claws that deal 1d4 slashing on an unarmed hit.",
+      "Choose one form. All forms walk and fly 30 ft. except Mud, which walks, flies, and swims 20 ft. Medium or heavy armor prevents mephit flight. These forms grant no racial ability score increases.",
+      "Dust. A fall triggers a 5-ft. burst. Creatures in range save against DC 8 + proficiency + Constitution or go blind for up to 1 minute, repeating the Constitution save on their turns. Speaks, reads, and writes Auran and Terran. The trigger wording is underspecified.",
+      "Ice. Takes extra damage from bludgeoning and fire, resists cold, and can cast fog cloud once per day with Charisma. An ice shard disguise needs 1 minute of stillness and concentration during setup. Aquan and Auran.",
+      "Magma. Takes extra cold damage and resists fire. A magma mound disguise needs 1 minute without moving and concentration during setup. Ignan and Terran.",
+      "Mud. A mud mound disguise takes 1 minute of stillness with concentration during setup. With an action, target one creature within 5 ft. A Medium or smaller target that fails a Dexterity save against DC 8 + proficiency + Constitution is restrained for up to 1 minute, repeating the save at the end of each turn. Mud Breath recharges on a short or long rest. Aquan and Terran.",
+      "Smoke. Resists fire. Aquan and Ignan.",
+      "Steam. Resists fire and knows dancing lights with Charisma. At 0 HP, its fire burst affects creatures within 10 ft., dealing 1d8 fire, halved by a Dexterity save against DC 8 + proficiency + Constitution. Unworn and uncarried flammable objects ignite. The damage rises to 2d8 at level 5, 3d8 at 11, and 4d8 at 17. Auran and Ignan."
+    ]
+  },
+  {
+    "name": "Modron",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+      "The characters here are independent modrons. Construct. Does not need food, water, air, or sleep. Four hours of semiconscious rest confer the ordinary sleep benefit. Body crumbles on death, leaving carried and worn items. Speaks, reads, and writes Modron.",
+      "Otherworldly Perception detects invisible or Ethereal Plane creatures within 30 ft. It pinpoints them if moving. The supplement permits constructs to heal by resting.",
+      "Monodrone and Quadrone share one rules package. Medium, +1 Dexterity, walk and fly 30 ft., unarmored AC 13 + Dexterity, 1d4 bludgeoning fists. Medium or heavy armor blocks flight.",
+      "Duodrone. Medium, +2 Dexterity and +1 Constitution, walk 30 ft., unarmored AC 13 + Dexterity, and 1d4 bludgeoning fists.",
+      "Tridrone. Medium, +2 Dexterity and +1 Constitution, walk 30 ft., unarmored AC 13 + Dexterity, and 1d6 bludgeoning fists. Three hands can hold and use items. Extra Attack can use any held weapon. Two-weapon fighting still requires qualifying weapons and follows the usual bonus-action damage rule. The bonus attack, a Heavy weapon, or two-handed use of a Versatile weapon forfeits shield benefit until the next turn begins.",
+      "Pentadrone. Medium, +2 Strength, walk 35 ft., unarmored AC 14 + Dexterity, and 1d8 bludgeoning arms. Has no hands and cannot wield weapons or shields or manipulate hand-dependent items. Paralyzing Gas is a 15-ft. cone. Creatures that fail a Constitution save against DC 8 + proficiency + Constitution are restrained for up to 1 minute, repeating the save at each turn end. Recharges on a long rest."
+    ]
+  },
+  {
+    "name": "Nightmare",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+      "Medium fiend, +1 Strength and +1 Charisma. Walk and fly 40 ft. Medium or heavy armor prevents flight.",
+      "Hooves deal both 1d4 bludgeoning and 1d4 fire on an unarmed hit. Unarmored AC is 11 + Dexterity.",
+      "No hands. Cannot wield weapons, use a shield, or manipulate hand-dependent items. Cannot speak or supply verbal spell components. Reads and understands Abyssal, Common, and Infernal."
+    ]
+  },
+  {
+    "name": "Oni",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+      "Oni are also called Ogre Mage. This player profile is a Medium giant with +1 Strength and +1 Charisma. Walk 30 ft. and fly 30 ft. Medium or heavy armor prevents flight.",
+      "Claws deal 1d4 slashing damage on an unarmed hit. Darkvision reaches 60 ft. Powerful Build treats the oni as one size larger for carry, push, drag, and lift limits. Speaks, reads, and writes Common and Giant.",
+      "The authored player package leaves shapechanging and spellcasting to abilities gained through other character choices."
+    ]
+  },
+  {
+    "name": "Owlbear",
+    "kind": "species",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for the 2014 fifth-edition rules. This summary uses the v2 printed player traits.",
+      "Medium monstrosity, +2 Strength and +2 Constitution. Walk 35 ft. An unarmed bite or claw hit deals 1d8 piercing or slashing, respectively.",
+      "Darkvision 120 ft. Wisdom (Perception) checks that depend on sight or smell have advantage. Unarmored AC is 12 + Dexterity.",
+      "No hands. Cannot wield weapons or shields or manipulate hand-dependent items. Speaks, reads, and writes Common."
+    ]
+  }
+]

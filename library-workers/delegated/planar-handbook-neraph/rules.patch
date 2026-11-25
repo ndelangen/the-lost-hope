@@ -1,0 +1,165 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -312901,6 +312901,20 @@
+       ]
+     },
+     {
++      "name": "Neraph",
++      "kind": "species",
++      "publication": "Planar Handbook (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Outsider from Limbo. The species entry gives the Extraplanar subtype when away from Limbo. Land speed 30 ft., darkvision 60 ft., no racial ability adjustments. Humanoid-only effects such as charm person and dominate person cannot target a Neraph.",
++        "Neraph Camouflage is an extraordinary ability. Declare it on one charge attack or thrown-weapon attack per enemy per encounter. Those options share the one use against that enemy. The target loses its Dexterity bonus to AC against that attack, with ordinary consequences such as eligibility for sneak attack.",
++        "Leap gives +5 racial on Jump. Chitinous skin gives +2 natural armor. Gain +2 racial on Spot and Search.",
++        "Weapon Familiarity treats the annulat as a martial weapon. A proficient thrower reduces a target’s existing cover bonus to AC by 2. The annulat has a 30-ft. range increment, 1d6 slashing at Medium or 1d4 at Small, and critical 19–20/×2. A Medium annulat costs 30 gp and weighs ½ lb.",
++        "Automatic languages are Neraph and Slaad. Bonus languages are Common, Celestial, and Abyssal. Favored class Ranger. LA +0. The playable profile adds no racial Hit Dice.",
++        "Neraphim are distinct from slaadi. They have coarse red skin, a broad toadlike head, and chitinlike patches. The optional Neraph Charge and Neraph Throw feats are separate from the racial ability."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Player's Handbook (2014)",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1980,6 +1980,97 @@
+       "tactics": "Eshara will survey the lock chamber if the party keeps the winch still. She douses her sigils before hiding and relights them to work at the lock. In a fight she flanks an opponent with an ally to trigger Aeshuur."
+     },
+     {
++      "id": "neraph-lamp-ramp-outrider-35e",
++      "title": "Neraph lamp ramp outrider, Ranger 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Outsider (Extraplanar)",
++      "ac": 17,
++      "hp": 10,
++      "hitDice": "1d8+2",
++      "initiative": 2,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 14,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": [
++        "Climb +5",
++        "Hide +5",
++        "Jump +10",
++        "Listen +5",
++        "Search +7",
++        "Spot +7",
++        "Survival +5"
++      ],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Neraph, Slaad, Common",
++      "traits": [
++        "Chaotic good. The encounter takes place on the Material Plane. Studded leather +3, natural armor +2, Dexterity +2. Touch 12, flat-footed 15. BAB +1, grapple +3. Fortitude +4, Reflex +4, Will +1. Armor check penalty −1.",
++        "Ranger martial proficiency covers the annulat through Weapon Familiarity. Point Blank Shot adds +1 on ranged attack rolls and damage within 30 ft. Wild empathy +0, Track as a bonus feat, and no spells at Ranger 1.",
++        "Favored Enemy is outsiders with the Chaotic subtype. Against them add +2 weapon damage and +2 to Bluff, Listen, Sense Motive, Spot, and Survival checks. Chaotic alignment alone does not qualify.",
++        "Neraph Camouflage is an extraordinary ability. Declare it on one charge attack or thrown-weapon attack per enemy per encounter. Those options share the one use against that enemy. The target loses its Dexterity bonus to AC against that attack, with ordinary consequences such as eligibility for sneak attack."
++      ],
++      "actions": [
++        "Longsword +3 melee, 1d8+2 slashing, critical 19–20/×2, 5-ft. reach. On a charge +5 melee, with AC 15 until the next turn. Camouflage on that charge denies Dexterity AC for the attack.",
++        "Annulat +3 ranged, 1d6+2 slashing, critical 19–20/×2, 30-ft. increment. Point Blank Shot brings this to +4 and 1d6+3 within 30 ft. before range modifiers. Reduce a target’s cover bonus by 2.",
++        "Camouflaged annulat example at 20 ft.: against a target with AC 16 from base 10, Dexterity +2, and ordinary cover +4, roll at +4 against AC 12. The camouflage removes +2 Dexterity and annulat proficiency reduces cover to +2. This uses the same per-target option as a camouflaged charge."
++      ],
++      "tactics": "Teo wants to bring a replacement lamp across the ramp. He asks the party to check the rail and keeps his one camouflage use against each opponent for whichever opening exists first: a clear charge or a clear throw."
++    },
++    {
++      "id": "neraph-split-ledge-courier-35e",
++      "title": "Neraph split ledge courier, Rogue 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Outsider (Extraplanar)",
++      "ac": 18,
++      "hp": 7,
++      "hitDice": "1d6+1",
++      "initiative": 3,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 16,
++        "CON": 12,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 10
++      },
++      "skills": [
++        "Disable Device +5",
++        "Hide +6",
++        "Jump +9",
++        "Listen +5",
++        "Move Silently +6",
++        "Open Lock +7",
++        "Search +7",
++        "Spot +7",
++        "Tumble +6"
++      ],
++      "senses": "Darkvision 60 ft.",
++      "languages": "Neraph, Slaad, Common",
++      "traits": [
++        "Chaotic neutral. The encounter takes place on the Material Plane. Studded leather +3, natural armor +2, Dexterity +3. Touch 13, flat-footed 15. BAB +0, grapple +1. Fortitude +1, Reflex +5, Will +1. Armor check penalty −1.",
++        "Trapfinding, sneak attack +1d6, and Point Blank Shot. Search can locate traps above DC 20 and Disable Device can handle magical traps. Use ordinary thieves’ tools.",
++        "Neraph Camouflage is an extraordinary ability. Declare it on one charge attack or thrown-weapon attack per enemy per encounter. Those options share the one use against that enemy. The target loses its Dexterity bonus to AC against that attack, with ordinary consequences such as eligibility for sneak attack."
++      ],
++      "actions": [
++        "Short sword +1 melee, 1d6+1 piercing, critical 19–20/×2, 5-ft. reach. Charge at +3, with AC 16 until the next turn.",
++        "Javelin +3 ranged, 1d6+1 piercing, critical ×2, 30-ft. increment. Within 30 ft., Point Blank Shot gives +4 and 1d6+2 before range modifiers.",
++        "A camouflaged javelin within 30 ft. can deal 1d6+2 plus 1d6 sneak attack against a qualifying creature. Camouflage denies Dexterity AC on that throw. Once used, Mai cannot camouflage a charge or another throw against that creature this encounter."
++      ],
++      "tactics": "Mai needs to get a message across the split ledge before the watch moves. She uses Jump to cross when the gap is safe and watches for a trapped foothold. If a guard corners her, she can use a camouflaged javelin once against that guard and then retreats."
++    },
++    {
+       "id": "illumian-inscription-reader-35e",
+       "title": "Illumian inscription reader, Wizard 1",
+       "origin": "Original DM Library NPC",
+@@ -3232,6 +3323,28 @@
+       "hook": "Bring the repair crew to higher ground and Bram will lend the key to the old inspection stair."
+     },
+     {
++      "species": "Neraph",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Teo Spent River",
++      "build": "neraph-lamp-ramp-outrider-35e",
++      "role": "Lamp ramp outrider and Ranger.",
++      "motive": "Get a replacement lamp across the ramp before the night crew arrives.",
++      "hook": "Teo can cover the exposed ramp while the party checks the loose rail."
++    },
++    {
++      "species": "Neraph",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Planar Handbook (2004)",
++      "name": "Mai the Houseless",
++      "build": "neraph-split-ledge-courier-35e",
++      "role": "Split ledge courier and Rogue.",
++      "motive": "Get the watch a message before the shift changes.",
++      "hook": "Mai can cross the ledge with the message while the party checks the marked footholds."
++    },
++    {
+       "species": "Half-Ogre",
+       "size": "Large",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -6967,6 +6967,7 @@
+ Neothelid	monster	Aberration	Volo's Guide to Monsters	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17291-neothelid	13
+ Neothelid	monster	Aberration	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17291-neothelid	13
+ Nepartak	monster	Undead	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast		4
++Neraph	species	Outsider (Extraplanar)	Planar Handbook (2004)	3.5 edition	Wizards of the Coast	https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes	
+ Nereid	monster	Fey	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		2
+ Nergaliid	monster	Fiend	Explorer's Guide to Wildemount	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/744325-nergaliid	3
+ Neronvain	monster	Humanoid	Rise of Tiamat	2014 fifth edition	Wizards of the Coast		9

@@ -1,0 +1,518 @@
+[
+  {
+    "name": "Bat",
+    "entryId": "beast-ca5bcec12f716f44d9745d34",
+    "versionKey": "a1ef70f8ca4c27f83c30d565",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/beasts/bat/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/bat/xmm-1.webp",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "draft revised for missing generated beast portrait",
+    "path": "portraits/revised/bat.png",
+    "styleReview": "Full-color isolated subject on plain muted gray-tan paper. Draft pending approval.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0aa3730307a7c8fbc70add8269b18cd4b8860837e5179ee2265c5f795a81c912",
+    "previousDraft": {
+      "path": "portraits/bat-draft.png",
+      "sha256": "06220673209ee5e8b067f4df2224d04efa4fe54a0198fd9fa9b00af645ab1483"
+    }
+  },
+  {
+    "name": "Cat",
+    "entryId": "beast-77af778b51abd4a3c51c5ddd",
+    "versionKey": "8febf4bc9b67e49bc9e05a22",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/beasts/cat/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/cat/xmm-1.webp",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "draft revised for missing generated beast portrait",
+    "path": "portraits/revised/cat.png",
+    "styleReview": "Full-color isolated subject on plain muted gray-tan paper. Draft pending approval.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f5d280e94f25891b4ab4d180f4084a7f197478c6d8be7461b2fff8cc0182dd3d",
+    "previousDraft": {
+      "path": "portraits/cat-draft.png",
+      "sha256": "31d02d87487ebcc6683d49057e5bbdef8e6bb6f93e4dc3aa25d2401607a21f85"
+    }
+  },
+  {
+    "name": "Dog",
+    "entryId": "beast-cd6357efdd966de8c0cb2f87",
+    "versionKey": "4eee85e6c682fd71c0a2acb0",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/dog/dog-karen-arnold.jpg",
+        "credit": "Beagle photograph by Karen Arnold · CC0 · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/dog/dog-slyronit.jpg",
+        "credit": "Beagle photograph by Slyronit · CC BY-SA 4.0 · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/dog/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-04/dog.png",
+    "originalSha256": "24f94b5a22eef171cc10a1804f5b0a2bb4a27af2647d12956457d4fd41681ae0",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f59535e5b07e07a6c452ce8661c89617deee614a8c8d3020335334e2f3fd2c53"
+  },
+  {
+    "name": "Giant Constrictor Snake",
+    "entryId": "beast-67c132dc4a89516bcaa8f433",
+    "versionKey": "b09a33493c2020f3f1934e0d",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/beasts/giant-constrictor-snake/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/constrictor-snake/xmm-1.webp",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "draft revised for missing generated beast portrait",
+    "path": "portraits/revised/giant-constrictor-snake.png",
+    "styleReview": "Full-color isolated subject on plain muted gray-tan paper. Draft pending approval. Both the head and the continuous tail through its tip are visible.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "36b6cc660cc571b534c7e43de6bb10653a5035b885ff89b1e8e7166e93db4ef0",
+    "previousDraft": {
+      "path": "portraits/giant-constrictor-snake-draft.png",
+      "sha256": "5dc47cb15f0c928e2b0a78bc98315ff193d05c5cbe64a55fd22c74bb62d5ad3d"
+    }
+  },
+  {
+    "name": "Heavy Horse",
+    "entryId": "beast-fa6d535dc23d9d5c342ebfc0",
+    "versionKey": "d92f4285d6354923a127008e",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/heavy-horse/draft-horse-2024.webp",
+        "credit": "Related Draft Horse illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/heavy-horse/draft-horse-2014.webp",
+        "credit": "Related Maxeene draft horse token · Waterdeep: Dragon Heist · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/heavy-horse/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-05/heavy-horse.png",
+    "originalSha256": "f5358f2615b30b91f29c65e334cafe841ea4bdbdb33211daf1b02d327a4e0127",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "90816d99ac98b188fe2d51a81bd907ade8cf41124a5d1a9393cfce99fc473ecd"
+  },
+  {
+    "name": "Heavy Warhorse",
+    "entryId": "beast-5a842f7d4ff7661ec94c296b",
+    "versionKey": "c287c5d4fa76fcd7729c6740",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/heavy-warhorse/warhorse-2024.webp",
+        "credit": "Related Warhorse illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/heavy-warhorse/warhorse-2014.webp",
+        "credit": "Related Warhorse token · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/heavy-warhorse/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-05/heavy-warhorse.png",
+    "originalSha256": "412e7a162f914bd4dd1f6034b61300394eef1ee396c6341c9e843e0dc3ba051c",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c37e705b752e5cf81703b258ee717043a4c89a22b81cb890595d22340d76c886"
+  },
+  {
+    "name": "Huge Viper Snake",
+    "entryId": "beast-9aabe71da83665816a2ee543",
+    "versionKey": "36f3e65e39c5abb2e3cc3c30",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/huge-viper-snake/giant-venomous-snake-2024.webp",
+        "credit": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/huge-viper-snake/kobold-press-snake-poisonous-giant.webp",
+        "credit": "Related Giant Poisonous Snake · Kobold Press Foundry token · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/huge-viper-snake/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-05/huge-viper-snake.png",
+    "originalSha256": "4998519c56e7f97185369d6412d492bf66f31b0e43baa90b7d3018de70635393",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "7fd3b69635b2c05dcfb79d038728f98b29fcd98741d0cc68120def9bc3a9e285"
+  },
+  {
+    "name": "Large Shark",
+    "entryId": "beast-f0f8f73bd360f14a0983a221",
+    "versionKey": "49f7b531164af4d0848bf203",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/large-shark/reef-shark-2024.webp",
+        "credit": "Related Reef Shark illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/large-shark/kobold-press-shark-hunter.webp",
+        "credit": "Related Hunter Shark · Kobold Press Foundry token · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/large-shark/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-06/large-shark.png",
+    "originalSha256": "e4f385eaf890271ff27add869cee31088de23ecb24d93dc695428872447865a3",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "2d5ce5a314140b052e2ffbb1a32102ec0c3b7c69f05c8c60baafe53f39284608"
+  },
+  {
+    "name": "Large Viper Snake",
+    "entryId": "beast-9ddc58119a3bd0ed2aa38ec5",
+    "versionKey": "5b9a3b9fdba9acbce3baddd4",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/large-viper-snake/poisonous-snake-2014.webp",
+        "credit": "Related Poisonous Snake token · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/large-viper-snake/swarm-of-venomous-snakes-2024.webp",
+        "credit": "Related Swarm of Venomous Snakes illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/large-viper-snake/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-06/large-viper-snake.png",
+    "originalSha256": "ee7bd4ac0cad7f23681dba62dada94468450b78b97dd703de1df595766c5d40c",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a3fa12459a5c3964c8cf1360a7a08aafdec5247e7b947ed44d571e189e2da3cc"
+  },
+  {
+    "name": "Light Horse",
+    "entryId": "beast-dce9f37ba5e83dab912deca0",
+    "versionKey": "0d7cfe1502cf49b37618bcec",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/light-horse/riding-horse-2024.webp",
+        "credit": "Related Riding Horse illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/light-horse/riding-horse-2014.webp",
+        "credit": "Related Riding Horse illustration · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/light-horse/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-06/light-horse.png",
+    "originalSha256": "dd2479f44752091fb38820c6b5f156461b080c9117d43e631914dc055731d93f",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3f3b8ac387de6dcd0e9c94a7feada122ea0228fcb73a141be9319800db51972a"
+  },
+  {
+    "name": "Light Warhorse",
+    "entryId": "beast-aacf48c24841e44a280b22b0",
+    "versionKey": "267506ff82ef4683ede955a1",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/light-warhorse/warhorse-2024.webp",
+        "credit": "Related Warhorse illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/light-warhorse/riding-horse-2024.webp",
+        "credit": "Related Riding Horse illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/light-warhorse/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-07/light-warhorse.png",
+    "originalSha256": "3a5b332d014b112823f1bf472820bc7a788f0a69b6143445bb1f39933961046b",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "bc53071502404068c3e58247be31878dd790d9aaaa5e290e09cc2d70dc809b7a"
+  },
+  {
+    "name": "Lizard",
+    "entryId": "beast-b95cbcfe0cd25ed09eef3612",
+    "versionKey": "184f619379a5c34f0e3d3290",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/beasts/lizard/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/giant-lizard/xmm-1.webp",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "draft revised for missing generated beast portrait",
+    "path": "portraits/revised/lizard.png",
+    "styleReview": "Full-color isolated subject on plain muted gray-tan paper. Draft pending approval.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "33bf94cdf8749b6837ff54952cef7ed95c537f565da30ee36336060b7acaeb3f",
+    "previousDraft": {
+      "path": "portraits/lizard-draft.png",
+      "sha256": "5c28049feebbad335424e9e4e6967de1245210a529cbb311a761b1e5aef02de8"
+    }
+  },
+  {
+    "name": "Medium Shark",
+    "entryId": "beast-44830949d1f7c42f5a6691c6",
+    "versionKey": "f537977004cc92325c2e3b30",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/medium-shark/reef-shark-2024.webp",
+        "credit": "Related Reef Shark illustration · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/medium-shark/reef-shark-2014.webp",
+        "credit": "Related Reef Shark token · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/medium-shark/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-07/medium-shark.png",
+    "originalSha256": "6075af7cdba3cdaf211bac95a45664d750e66f8eaf7e571456ec02ad11ffd1b2",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "5cae2963c6fb2467879dc6225b33fdb79849526ee317d789310e12bfddbabd21"
+  },
+  {
+    "name": "Rat",
+    "entryId": "beast-9950cec246ece55e46c9929e",
+    "versionKey": "88a1eea70609320a8f0477cb",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/beasts/giant-rat/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/giant-rat/xmm-1.webp",
+        "credit": "Katerina Ladon · Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "draft revised for missing generated beast portrait",
+    "path": "portraits/revised/rat.png",
+    "styleReview": "Full-color isolated subject on plain muted gray-tan paper. Draft pending approval.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "d2b3a1d0090aca1dfdaf63bc463745f564bcc6c79c9cabda71a2790a0083986a",
+    "previousDraft": {
+      "path": "portraits/rat-draft.png",
+      "sha256": "5cb6b727a55003bc35000130dcdf88567ac79156b3e492d434f2dc72f8f6de20"
+    }
+  },
+  {
+    "name": "Raven",
+    "entryId": "beast-092cda390b47416151199357",
+    "versionKey": "da4f00a1f5bcaf3f8bc1dc08",
+    "catalogArt": [
+      {
+        "file": "dm-library/bestiary/images/beasts/raven/flight.png",
+        "credit": "The Lost Hope"
+      },
+      {
+        "file": "dm-library/bestiary/images/beasts/raven/portrait.png",
+        "credit": "The Lost Hope"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/raven/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/raven/xmm-1.webp",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "verified existing generated local bestiary original",
+    "path": "dm-library/bestiary/images/beasts/raven/portrait.png",
+    "styleReview": "Painterly outdoor setting. It has a softer, flatter light than the event references.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "600befd6a0e33f2365950d0e229d24f4b5acb5b562b03a6f7b4d820b62a0c68d"
+  },
+  {
+    "name": "Roc",
+    "entryId": "beast-95199d6f9614f0ee7847afae",
+    "versionKey": "bfc4973cc129c4564e30a58e",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/roc/roc-2014.webp",
+        "credit": "Roc illustration · Monster Manual (2014) · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/roc/roc-alejandro-pacheco.webp",
+        "credit": "Roc illustration by Alejandro Pacheco · Monster Manual (2024 rules) · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/roc/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-09/roc.png",
+    "originalSha256": "2c8cc18aaad6df7b48c4ebe29bf1709654d31e02db29c58f5826af2f609f7091",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "86967e05f8faca4967f48667bd2c484b71be6f1a407e70448015321ac80772f6"
+  },
+  {
+    "name": "Toad",
+    "entryId": "beast-1b34942add2c85bbca6a87ba",
+    "versionKey": "9e1996de8570d7c0201ac3cb",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/monsters/toad/toad-ecofriend33.jpg",
+        "credit": "Common toad photograph by EcoFriend33 · CC BY 4.0 · Revised v3.5 SRD (Monsters)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/monsters/toad/toad-philippe-kurlapski.jpg",
+        "credit": "Common toad photograph by Philippe Kurlapski · CC BY 1.0 · Revised v3.5 SRD (Monsters)"
+      }
+    ],
+    "artStatus": "verified existing generated beast portrait",
+    "path": "output/dm-library/5etools/images/beasts/toad/parchment-portrait.webp",
+    "registryOriginal": "assets/images/content/dm-library/revised-35-srd-beasts-10/toad.png",
+    "originalSha256": "bf2f6a8c553ff30be2e0cc59b29af4758c9100a3a7ca78244fe2aa113b05b24a",
+    "styleReview": "Existing yellow parchment and linework. Event-style gap, with usable portrait coverage.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "f7ae83e45509de00ced6b987402516ef1b59caea87f0b1928d8c377580f9ad53"
+  },
+  {
+    "name": "Weasel",
+    "entryId": "beast-1349d5e18426092e5708ce21",
+    "versionKey": "ce68a8e68c32b9fd4bf8f64c",
+    "catalogArt": [
+      {
+        "file": "output/dm-library/5etools/images/beasts/weasel/mm-1.webp",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-3.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-2.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/allosaurus/xmm-4.webp",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "file": "output/dm-library/5etools/images/beasts/giant-weasel/xmm-1.webp",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "artStatus": "draft revised for missing generated beast portrait",
+    "path": "portraits/revised/weasel.png",
+    "styleReview": "Full-color isolated subject on plain muted gray-tan paper. Draft pending approval.",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "31508f0d19452461055485ddfff36f8344d18e8b35921e597ddc40a8451635be",
+    "previousDraft": {
+      "path": "portraits/weasel-draft.png",
+      "sha256": "94505ca955a93a1bb5115731b3e8d9eff42a6f21e16a644d0b27c6097fe8b571"
+    }
+  }
+]

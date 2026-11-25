@@ -1,0 +1,286 @@
+{
+  "builds": [
+    {
+      "id": "4e-shade-marren-sill",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Shadow humanoid",
+      "title": "Shade lantern-room infiltrator, Rogue 1",
+      "difficulty": "Level 1 skirmisher, 100 XP.",
+      "ac": 17,
+      "hp": 19,
+      "initiative": 4,
+      "speed": "6 squares",
+      "languages": "Common, Goblin",
+      "senses": "Darkvision. Perception +1.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 18,
+        "CON": 11,
+        "INT": 13,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Arcana +3",
+        "Bluff +8",
+        "Stealth +11",
+        "Thievery +9"
+      ],
+      "traits": [
+        "Unaligned. Leather armor. Fortitude 11, Reflex 17, Will 14. Bloodied 9. No healing surges after Fragile Mortality.",
+        "First Strike grants combat advantage against enemies that have yet to act at the start of an encounter. Once per round, Sneak Attack adds 2d6 to a qualifying dagger hit against a target granting combat advantage. Rogue Weapon Talent adds +1 to dagger attacks."
+      ],
+      "actions": [
+        "Dagger basic attack (at-will, standard). Melee 1, +5 vs. AC for 1d4+1, or ranged 5/10, +9 vs. AC for 1d4+5.",
+        "Sly Flourish (at-will, standard). Dagger melee 1 or ranged 5/10, +9 vs. AC for 1d4+8.",
+        "Dazing Strike (encounter, standard). Dagger melee 1, +9 vs. AC for 1d4+5. On a hit, daze until the end of Marren’s next turn.",
+        "Easy Target (daily, standard). Dagger melee 1 or ranged 5/10, +9 vs. AC for 2d4+5. On a hit, the target is slowed and grants Marren combat advantage (save ends both). On a miss, half damage and it grants Marren combat advantage through the end of Marren’s next turn.",
+        "One with Shadow (at-will, standard). Through the end of Marren’s next turn, he can attempt to hide with any cover or concealment and can use cover from allies to hide or remain hidden."
+      ],
+      "tactics": "Marren asks an ally to stand between him and the guard while he reaches the shutter. If cornered, he dazes the nearest guard and heads for the stairs."
+    },
+    {
+      "id": "4e-vryloka-orla-kest",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Natural humanoid (undead, living)",
+      "title": "Vryloka gallery escort, Warlord 1",
+      "difficulty": "Level 1 soldier (leader), 100 XP.",
+      "ac": 14,
+      "hp": 21,
+      "initiative": 3,
+      "speed": "7 squares",
+      "languages": "Common, Elven",
+      "senses": "Low-light vision. Perception +2.",
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 13,
+        "INT": 11,
+        "WIS": 10,
+        "CHA": 16
+      },
+      "skills": [
+        "Athletics +9",
+        "Bluff +3 (+8 to pass as human)",
+        "Diplomacy +8",
+        "Perception +2",
+        "Stealth +3"
+      ],
+      "traits": [
+        "Unaligned. Leather armor. Fortitude 16, Reflex 12, Will 15. Bloodied 10. One healing surge worth 5 HP, or 3 while bloodied.",
+        "Orla counts as living and undead and chooses the result if a power treats the two differently. Resist 5 necrotic.",
+        "Combat Leader adds +2 to Orla’s initiative and grants a +2 power bonus to initiative to allies within 10 squares who can see and hear her."
+      ],
+      "actions": [
+        "Longsword basic attack (at-will, standard). Melee 1, +8 vs. AC for 1d8+5.",
+        "Wolf Pack Tactics (at-will, standard). Before attacking, let one ally adjacent to Orla or her target shift 1 square. Melee 1, +8 vs. AC for 1d8+5.",
+        "Guarding Attack (encounter, standard). Melee 1, +8 vs. AC for 2d8+5. On a hit, one ally adjacent to Orla or the target gains +2 power bonus to AC against that target through the end of Orla’s next turn.",
+        "Bastion of Defense (daily, standard). Melee 1, +8 vs. AC for 3d8+5. On a hit, allies within 5 squares gain a +1 power bonus to defenses through the encounter. Hit or miss, allies within 5 squares gain 8 temporary HP.",
+        "Inspiring Word (encounter, minor, twice per encounter and once per round). Orla or one ally in close burst 5 can spend a healing surge to regain its value plus 1d6 HP.",
+        "Lifeblood (encounter, free) triggers when Orla bloodies or kills an enemy. Choose a shift up to 7 squares, 5 temporary HP, or a +2 power bonus to attacks through the end of Orla’s next turn.",
+        "Second wind (encounter, standard). Spend one surge to heal 5 HP, or 3 if bloodied, and gain +2 to all defenses until the start of Orla’s next turn."
+      ],
+      "tactics": "Orla makes space for the witness with Wolf Pack Tactics. If a wound triggers Lifeblood, she shifts to the witness’s side or takes temporary HP if she is already in place."
+    },
+    {
+      "id": "4e-revenant-iser-mott",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Natural humanoid (undead, living)",
+      "title": "Revenant last-stand courier, Fighter 1",
+      "difficulty": "Level 1 soldier, 100 XP.",
+      "ac": 17,
+      "hp": 24,
+      "initiative": 2,
+      "speed": "6 squares",
+      "languages": "Common, Dwarven",
+      "senses": "Low-light vision. Perception +1.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Athletics +7",
+        "Endurance +4",
+        "Intimidate +2",
+        "Streetwise +5"
+      ],
+      "traits": [
+        "Unaligned. Hide armor and a light shield. Fortitude 16, Reflex 14, Will 12. Bloodied 12. One healing surge worth 6 HP.",
+        "Iser counts as living and undead. Past Life is human for prerequisites. Use death saves for Iser. If dying at 0 HP or lower, Iser can stay dazed instead of falling unconscious. A failed death save makes Iser unconscious.",
+        "Combat Challenge marks each target Iser attacks through the end of Iser’s next turn, hit or miss. The marked target takes −2 to attacks that omit Iser. When a target Iser marked shifts or makes an attack that omits Iser while adjacent to Iser, Iser can make a melee basic attack against it as an immediate interrupt."
+      ],
+      "actions": [
+        "Longsword basic attack (at-will, standard). Melee 1, +7 vs. AC for 1d8+4.",
+        "Tide of Iron (at-will, standard). Longsword and shield, melee 1, +7 vs. AC for 1d8+4. On a hit, Iser can push a Large or smaller target 1 square and shift into its former space.",
+        "Steel Serpent Strike (encounter, standard). Melee 1, +7 vs. AC for 2d8+4. On a hit, slow the target and prevent it from shifting through the end of Iser’s next turn.",
+        "Comeback Strike (daily, standard, reliable). Melee 1, +7 vs. AC for 2d8+4. On a hit, Iser can spend a healing surge.",
+        "Dark Reaping (encounter, free) triggers when a creature within 5 squares drops to 0 HP. One creature Iser hits through the end of Iser’s next turn takes an additional 1d8+3 necrotic damage.",
+        "Second wind (encounter, standard). Spend one surge to heal 6 HP and gain +2 to all defenses until the start of Iser’s next turn."
+      ],
+      "tactics": "Iser blocks the doorway long enough for another courier to take the dispatch. Dark Reaping goes on a hit against whoever tries to follow."
+    },
+    {
+      "id": "4e-hamadryad-tavia-burr",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Fey humanoid",
+      "title": "Hamadryad grove negotiator, Wizard 1",
+      "difficulty": "Level 1 artillery, 100 XP.",
+      "ac": 16,
+      "hp": 19,
+      "initiative": 1,
+      "speed": "6 squares",
+      "languages": "Common, Elven",
+      "senses": "Low-light vision. Perception +3.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 12,
+        "CON": 13,
+        "INT": 18,
+        "WIS": 16,
+        "CHA": 11
+      },
+      "skills": [
+        "Arcana +9",
+        "Diplomacy +7",
+        "Endurance +1 (+6 against starvation, thirst, or suffocation)",
+        "Nature +5"
+      ],
+      "traits": [
+        "Unaligned. Cloth armor and a quarterstaff. AC includes +1 for wielding the staff. Fortitude 12, Reflex 15, Will 16. Bloodied 9. One healing surge worth 4 HP.",
+        "Tavia ignores forest-growth difficult terrain. Tree Mind adds +2 on saves against daze, domination, or stun. She can wait twice as long before making Endurance checks against starvation, thirst, or suffocation. Four hours of conscious meditation with water, light, or earth give an extended rest.",
+        "Ritual Caster. Her book contains Comprehend Language, Make Whole and Tenser’s Floating Disk. Sleep is prepared. Freezing Cloud is her other spellbook daily."
+      ],
+      "actions": [
+        "Quarterstaff basic attack (at-will, standard). Melee 1, +3 vs. AC for 1d8+1.",
+        "Ray of Frost (at-will, standard). Range 10, +5 vs. Fortitude for 1d6+5 cold. On a hit, slow the target through the end of Tavia’s next turn.",
+        "Icy Terrain (encounter, standard). Area burst 1 within 10, +5 vs. Reflex against each creature for 1d6+5 cold and prone on a hit. The area is difficult terrain until the end of Tavia’s next turn, or until she ends it with a minor action.",
+        "Sleep (daily, standard). Area burst 2 within 20, +5 vs. Will against each creature. A hit slows the target (save ends). If its first save fails, it becomes unconscious (save ends). A miss slows the target (save ends).",
+        "Staff of Defense (encounter, immediate interrupt). While wielding the staff, gain +1 to the targeted defense against one attack.",
+        "Hamadryad Aspects (encounter, minor). Until the end of Tavia’s next turn either enemies who see her grant her combat advantage or she gains resist 5 to all damage.",
+        "Second wind (encounter, standard). Spend one surge to heal 4 HP and gain +2 to all defenses until the start of Tavia’s next turn."
+      ],
+      "tactics": "Tavia offers a way through on foot. If the parley breaks, she uses Icy Terrain to slow pursuers and takes Wooden Form if they get close."
+    },
+    {
+      "id": "4e-shadar-kai-nesha-flint",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "size": "Medium",
+      "type": "Shadow humanoid",
+      "title": "Shadar-kai passage scout, Rogue 1",
+      "difficulty": "Level 1 skirmisher, 100 XP.",
+      "ac": 17,
+      "hp": 19,
+      "initiative": 4,
+      "speed": "6 squares",
+      "languages": "Common, Deep Speech",
+      "senses": "Low-light vision. Perception +6.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 18,
+        "CON": 11,
+        "INT": 16,
+        "WIS": 12,
+        "CHA": 13
+      },
+      "skills": [
+        "Acrobatics +6",
+        "Perception +6",
+        "Stealth +6",
+        "Thievery +9"
+      ],
+      "traits": [
+        "Unaligned. Leather armor. Fortitude 12, Reflex 17, Will 12. Bloodied 9. One healing surge worth 4 HP. Winterkin adds +2 on death saves and saves against unconsciousness.",
+        "First Strike grants combat advantage against enemies that have yet to act at the start of an encounter. Once per round, Sneak Attack adds 2d6 to a qualifying dagger hit against a target granting combat advantage. Rogue Weapon Talent adds +1 to dagger attacks."
+      ],
+      "actions": [
+        "Dagger basic attack (at-will, standard). Melee 1, +5 vs. AC for 1d4+1, or ranged 5/10, +9 vs. AC for 1d4+5.",
+        "Deft Strike (at-will, standard). Before the attack, Nesha can move 2 squares. Dagger melee 1 or ranged 5/10, +9 vs. AC for 1d4+5.",
+        "Positioning Strike (encounter, standard). Dagger melee 1, +9 vs. Will for 1d4+5. On a hit, slide the target 1 square.",
+        "Easy Target (daily, standard). Dagger melee 1 or ranged 5/10, +9 vs. AC for 2d4+5. On a hit, the target is slowed and grants Nesha combat advantage (save ends both). On a miss, half damage and it grants Nesha combat advantage through the end of Nesha’s next turn.",
+        "Shadow Jaunt (encounter, move). Teleport 3 squares, then remain insubstantial until the start of Nesha’s next turn.",
+        "Second wind (encounter, standard). Spend one surge to heal 4 HP and gain +2 to all defenses until the start of Nesha’s next turn."
+      ],
+      "tactics": "Nesha jaunts past the jammed gate if she can see a clear square. If anyone follows her, she slides the first foe away from the release lever."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Shade",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Heroes of Shadow (2011)",
+      "name": "Marren Sill",
+      "build": "4e-shade-marren-sill",
+      "role": "Lantern-room infiltrator.",
+      "motive": "Recover the forged signal order before the beacon is lit.",
+      "hook": "He can slip past the keeper if someone gives her a reason to leave the lantern door ajar."
+    },
+    {
+      "species": "Vryloka",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Heroes of Shadow (2011)",
+      "name": "Orla Kest",
+      "build": "4e-vryloka-orla-kest",
+      "role": "Gallery escort.",
+      "motive": "Deliver a witness safely to the magistrate.",
+      "hook": "Orla spots a false exit guard and asks the party to walk the witness through as if the guard belongs there."
+    },
+    {
+      "species": "Revenant",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Heroes of Shadow (2011)",
+      "name": "Iser Mott",
+      "build": "4e-revenant-iser-mott",
+      "role": "Last-stand courier.",
+      "motive": "Get a sealed dispatch to the next courier before the stair is cut off.",
+      "hook": "The dispatch pouch contains two seals. Iser asks a character to take the one with their own name scratched into it."
+    },
+    {
+      "species": "Hamadryad",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Heroes of the Feywild (2011)",
+      "name": "Tavia Burr",
+      "build": "4e-hamadryad-tavia-burr",
+      "role": "Grove negotiator.",
+      "motive": "Keep wheel ruts away from the buried roots without closing the route to travelers.",
+      "hook": "She offers to guide the party through the grove if they can persuade the carter to unhitch."
+    },
+    {
+      "species": "Shadar-kai",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Dragon #372 (2009)",
+      "name": "Nesha Flint",
+      "build": "4e-shadar-kai-nesha-flint",
+      "role": "Passage scout.",
+      "motive": "Free a jammed gate before the patrol makes its next circuit.",
+      "hook": "She can see a safe landing beyond the grate but needs the party to tell her which counterweight to release."
+    }
+  ]
+}

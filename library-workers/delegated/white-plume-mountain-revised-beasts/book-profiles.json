@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Advanced Huge Monstrous Crab",
+    "kind": "beast",
+    "publication": "White Plume Mountain (Revised)",
+    "edition": "3.5 edition",
+    "ruleset": "dnd-3.5",
+    "appearance": "An immense aquatic crab that guards Wave. The encounter gives no shell color or armor.",
+    "combat": {
+      "armorClass": 22,
+      "touchArmorClass": 8,
+      "flatFootedArmorClass": 22,
+      "hitPoints": 107,
+      "hitDice": "16",
+      "challenge": "8",
+      "size": "Huge",
+      "creatureType": "Vermin (aquatic)",
+      "initiativeModifier": 0,
+      "speed": {
+        "walk": 30
+      },
+      "baseAttackBonus": 12,
+      "grappleModifier": 32,
+      "fortitude": 12,
+      "reflex": 5,
+      "will": 5,
+      "abilities": {
+        "Str": 26,
+        "Dex": 11,
+        "Con": 14,
+        "Wis": 11,
+        "Cha": 2
+      },
+      "skills": {
+        "Hide": -4,
+        "Listen": 0,
+        "Spot": 4
+      },
+      "senses": [
+        "Darkvision 60 ft.",
+        "Low-light vision",
+        "Scent"
+      ],
+      "immunities": [
+        "Mind-affecting effects"
+      ],
+      "attacks": [
+        {
+          "name": "Claw",
+          "mode": "melee",
+          "hitBonus": 18,
+          "reach": 15,
+          "damage": [
+            {
+              "dice": "2d6+8"
+            }
+          ]
+        },
+        {
+          "name": "Full attack: two claws, each",
+          "mode": "melee",
+          "hitBonus": 18,
+          "reach": 15,
+          "damage": [
+            {
+              "dice": "2d6+8"
+            }
+          ]
+        }
+      ],
+      "habitats": [
+        "Membrane dome by the boiling lake"
+      ]
+    },
+    "mechanics": {
+      "Special attacks and qualities": [
+        {
+          "name": "Improved grab",
+          "effectNote": "After a claw hit, the crab can attempt a grapple as a free action without provoking attacks of opportunity. A successful check establishes a hold and lets it constrict."
+        },
+        {
+          "name": "Constrict",
+          "effectNote": "A successful grapple check deals 4d6+8 constrict damage."
+        },
+        {
+          "name": "Amphibious",
+          "effectNote": "The aquatic crab survives indefinitely on land."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Wave guardian",
+          "effectNote": "The 107 HP crab attacks intruders in the membrane dome. While fighting it stays at least 5 feet from the walls whenever possible."
+        }
+      ]
+    },
+    "notes": [
+      "Neutral. Intelligence shown as a dash. Toughness as a bonus feat. Space and reach are both 15 feet.",
+      "White Plume Mountain (2005 D&D 3.5 revision), Area 17, pp. 20–21. The adventure prints this full advanced stat block on p. 21."
+    ]
+  },
+  {
+    "name": "Large Monstrous Scorpion",
+    "kind": "beast",
+    "publication": "White Plume Mountain (Revised)",
+    "edition": "3.5 edition",
+    "ruleset": "dnd-3.5",
+    "appearance": "A large terrestrial scorpion with crushing claws and a stinging tail.",
+    "combat": {
+      "armorClass": 16,
+      "touchArmorClass": 9,
+      "flatFootedArmorClass": 16,
+      "hitPoints": 32,
+      "hitDice": "5d8+10",
+      "challenge": "3",
+      "size": "Large",
+      "creatureType": "Vermin",
+      "initiativeModifier": 0,
+      "speed": {
+        "walk": 50
+      },
+      "baseAttackBonus": 3,
+      "grappleModifier": 11,
+      "fortitude": 6,
+      "reflex": 1,
+      "will": 1,
+      "abilities": {
+        "Str": 19,
+        "Dex": 10,
+        "Con": 14,
+        "Wis": 10,
+        "Cha": 2
+      },
+      "skills": {
+        "Climb": 8,
+        "Hide": 0,
+        "Spot": 4
+      },
+      "senses": [
+        "Darkvision 60 ft.",
+        "Tremorsense 60 ft."
+      ],
+      "immunities": [
+        "Mind-affecting effects"
+      ],
+      "attacks": [
+        {
+          "name": "Claw",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d6+4"
+            }
+          ]
+        },
+        {
+          "name": "Full attack: two claws, each",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d6+4"
+            }
+          ]
+        },
+        {
+          "name": "Full attack: one sting plus poison",
+          "mode": "melee",
+          "hitBonus": 1,
+          "reach": 5,
+          "damage": [
+            {
+              "dice": "1d6+2"
+            }
+          ]
+        }
+      ],
+      "habitats": [
+        "Desert Terrace"
+      ]
+    },
+    "mechanics": {
+      "Base creature rules": [
+        {
+          "name": "Improved grab",
+          "effectNote": "A claw hit allows a free grapple attempt without provoking attacks of opportunity. The scorpion uses the higher of Strength or Dexterity for the grapple check."
+        },
+        {
+          "name": "Constrict",
+          "effectNote": "A successful grapple check deals 1d6+4 automatic claw damage."
+        },
+        {
+          "name": "Sting poison",
+          "effectNote": "The sting carries poison. Fortitude DC 14. Both initial and secondary damage are 1d4 Constitution."
+        }
+      ],
+      "Encounters": [
+        {
+          "name": "Desert Terrace",
+          "effectNote": "Encounter Level 6. As soon as a character sets foot on this level, three Large Monstrous Scorpions surround the intruders and attack from all directions. Each has 32 HP. Each scorpion is CR 3."
+        },
+        {
+          "name": "Separate a victim",
+          "effectNote": "After establishing a grapple, a scorpion that wins another grapple check can pull the target 25 feet from the party as a standard action. Another scorpion can take its place. They fight to the death."
+        }
+      ]
+    },
+    "notes": [
+      "The Large column leaves alignment unstated and shows Intelligence as a dash. No feats listed. Space 10 feet, reach 5 feet.",
+      "Base combat figures are from the 3.5 Monster Manual p. 287, as referenced by the adventure, and match the revised SRD Large Monstrous Scorpion.",
+      "White Plume Mountain (2005 D&D 3.5 revision), Area 26C, p. 27 supplies the encounter’s numbers and tactics."
+    ]
+  }
+]

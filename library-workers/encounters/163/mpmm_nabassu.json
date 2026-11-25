@@ -1,0 +1,396 @@
+[
+  {
+    "name": "Mouth of Grolantor",
+    "statBlock": {
+      "name": "Mouth of Grolantor",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 187,
+      "classification": "Huge giant (hill giant), typically chaotic evil",
+      "ac": 14,
+      "hp": 105,
+      "hitDice": "10d12 + 40",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "Hill giant worshipers starve a sick giant they take to embody Grolantor’s hunger. They keep it chained until battle or a raid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 1
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Giant.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Mouth of Chaos. The giant is immune to the Confusion spell. Each turn, it uses all its movement to approach the nearest creature or anything else it mistakes for food. Roll a d10 at the start of each of its turns to determine its action.",
+        "Mouth of Chaos mechanics": "Roll 1–3. Make three Fist attacks against one random creature within reach. With no creature in reach, gain advantage on all attack rolls until the end of the giant’s next turn.\nRoll 4–5. Make one Fist attack against every creature within reach. With no creature in reach, make one Fist attack against itself.\nRoll 6–7. Make one Bite attack against a random creature in reach. With no other creature in reach, the giant is stunned until the start of its next turn.\nRoll 8–10. Make one Bite and two Fist attacks against one random creature within reach. With no creature in reach, gain advantage on all attack rolls until the end of the giant’s next turn.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 5 ft., one creature. A hit deals 15 (3d6 + 5) piercing damage. The giant magically regains hit points equal to the damage dealt.\nFist. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 18 (3d8 + 5) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 187."
+      }
+    }
+  },
+  {
+    "name": "Nabassu",
+    "statBlock": {
+      "name": "Nabassu",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 188,
+      "classification": "Medium fiend (demon), typically chaotic evil",
+      "ac": 18,
+      "hp": 190,
+      "hitDice": "20d8 + 100",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 17,
+      "description": "A soul-eating demon that preys on other demons and looks for a chance to turn on its summoner.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 11,
+        "Dex": 7
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Demonic Shadows. The area within 10 ft. of the nabassu is dim light that nonmagical light cannot brighten.\nDevour Soul. The nabassu can consume the soul of a creature it killed in the past hour, excluding Constructs and Undead. It spends at least 10 minutes within 5 ft. of the corpse, then gains d8 Hit Dice equal to half the slain creature’s Hit Dice. Roll the new dice and add their total to the nabassu’s hit points. Each four Hit Dice gained add 3 (1d6) damage to its attacks on a hit. The added dice, hit points, and damage last 6 days. Only Wish can bring the victim back to life.\nMagic Resistance. The nabassu has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite attack and one Claw attack, and use Soul-Stealing Gaze.\nBite. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 38 (5d12 + 6) necrotic damage.\nClaw. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 28 (4d10 + 6) force damage.\nSoul-Stealing Gaze. Choose one visible creature within 30 ft., excluding Constructs and Undead. It makes a DC 16 Charisma save. On a failure, it takes 13 (2d12) necrotic damage. Lower its hit point maximum by the damage it took and restore half that amount to the nabassu. The reduction lasts until a short or long rest. The target dies if its maximum reaches 0. A Humanoid killed this way immediately rises as a ghoul controlled by the nabassu.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 188."
+      }
+    }
+  },
+  {
+    "name": "Nagpa",
+    "statBlock": {
+      "name": "Nagpa",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 189,
+      "classification": "Medium monstrosity (wizard), typically neutral evil",
+      "ac": 19,
+      "hp": 203,
+      "hitDice": "37d8 + 37",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 20,
+      "description": "The Raven Queen cursed thirteen wizards to learn new magic only from ruins and calamities. They now plot disasters and plunder what survives.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 12,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "skills": {
+        "Arcana": 12,
+        "Deception": 11,
+        "History": 12,
+        "Insight": 10,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common plus up to five other languages.",
+        "Actions": "Multiattack. Make three attacks in any combination of Staff and Deathly Ray. Spellcasting can replace one of the three attacks.\nStaff. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) bludgeoning damage plus 24 (7d6) necrotic damage.\nDeathly Ray. Ranged spell attack, +12 to hit, range 120 ft., one target. A hit deals 30 (7d6 + 6) necrotic damage.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 20).\nAt will. Detect Magic, Mage Hand, Message, Minor Illusion.\n2/day each. Fireball, Fly, Hold Person, Suggestion, Wall of Fire.\n1/day each. Dominate Person, Etherealness, Feeblemind.",
+        "Bonus actions": "Corruption. Choose one visible creature within 90 ft. It makes a DC 20 Charisma save, at disadvantage if it is evil. On a failure, the nagpa charms it until the start of the nagpa’s next turn. A success grants immunity to this nagpa’s Corruption for 24 hours.\nParalysis (Recharge 6). All creatures within 30 ft. except Constructs and Undead make a DC 20 Wisdom save. On a failure, a target is paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 189."
+      }
+    }
+  },
+  {
+    "name": "Narzugon",
+    "statBlock": {
+      "name": "Narzugon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Medium fiend (devil), typically lawful evil",
+      "ac": 20,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 22,
+      "description": "Devils recruit fallen paladins as mounted knights. A narzugon serves an archduke of the Nine Hells and rides a nightmare summoned by infernal spurs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Perception": 12
+      },
+      "sections": {
+        "Armor": "Plate armor and shield.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Infernal, telepathy 120 ft.",
+        "Damage resistances": "Acid and cold. Bludgeoning, piercing, and slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Infernal Tack. As an action, the narzugon can use the spurs from its Infernal Tack to summon its nightmare companion.\nMagic Resistance. The narzugon has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make three Hellfire Lance attacks and use either Infernal Command or Terrifying Command.\nHellfire Lance. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 11 (1d12 + 5) piercing damage plus 16 (3d10) fire damage. If it kills a creature with a soul, that soul rises from the River Styx as a lemure in Avernus in 1d4 hours. Once the lemure rises, restoring the victim to life requires Wish, or killing the lemure and casting True Resurrection on the victim’s original body. Constructs and devils are immune to the soul effect.\nInfernal Command. Allies within 60 ft. cannot be charmed or frightened until the end of the narzugon’s next turn.\nTerrifying Command. Every non-Fiend creature within 60 ft. makes a DC 17 Charisma save. On a failure, it is frightened of the narzugon for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. A success grants immunity to this narzugon’s Terrifying Command for 24 hours.\nHealing (1/day). The narzugon or one creature it touches regains 100 hit points.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 190."
+      }
+    }
+  },
+  {
+    "name": "Necromancer Wizard",
+    "statBlock": {
+      "name": "Necromancer Wizard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 264,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "Necromancers study life, death, and undeath. Some raise servants from corpses, while others hunt the undead.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Arcana": 7,
+        "History": 7
+      },
+      "sections": {
+        "Armor": "Mage Armor raises AC to 15.",
+        "Languages": "Any four languages.",
+        "Damage resistances": "Necrotic.",
+        "Actions": "Multiattack. Make three Arcane Burst attacks.\nArcane Burst. Melee or ranged spell attack, +7 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 25 (4d10 + 3) necrotic damage.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 15).\nAt will. Dancing Lights, Mage Hand, Prestidigitation.\n2/day each. Bestow Curse, Dimension Door, Mage Armor, Web.\n1/day. Circle of Death.",
+        "Bonus actions": "Summon Undead (1/day). Magically summon five skeletons or five zombies in unoccupied spaces within 60 ft. They obey the necromancer and take their turns immediately after it. Each remains for up to 1 hour, until it or the necromancer dies, or until the necromancer dismisses it as a bonus action.",
+        "Reactions": "Grim Harvest (1/turn). When the necromancer kills a creature with necrotic damage, it regains 9 (2d8) hit points.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 264."
+      }
+    }
+  },
+  {
+    "name": "Neogi",
+    "statBlock": {
+      "name": "Neogi",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 192,
+      "classification": "Small aberration, typically lawful evil",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "6d6 + 12",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "Neogi judge rank by how much control one creature has over another. They mark themselves and captives to show whom they serve.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Intimidation": 4,
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Deep Speech, Undercommon.",
+        "Traits": "Mental Fortitude. The neogi has advantage on saves against being charmed or frightened and cannot be put to sleep by magic.\nSpider Climb. It can climb difficult surfaces and traverse ceilings upside down without an ability check.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage. The target makes a DC 12 Constitution save or becomes poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) slashing damage.",
+        "Bonus actions": "Enslave (recharges after a short or long rest). Choose one visible creature within 30 ft. It makes a DC 14 Wisdom save. On a failure, the neogi magically charms it for 1 day. The effect ends earlier if the neogi dies or is more than 1 mile from the target. The target obeys the neogi, cannot take reactions, and can communicate telepathically with it within 1 mile. The target can repeat the save whenever it takes damage, ending the effect on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 192."
+      }
+    }
+  },
+  {
+    "name": "Neogi Hatchling",
+    "statBlock": {
+      "name": "Neogi Hatchling",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 191,
+      "classification": "Tiny aberration, typically lawful evil",
+      "ac": 11,
+      "hp": 7,
+      "hitDice": "3d4",
+      "speed": "20 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 10,
+      "description": "Neogi hatchlings compete with their siblings for survival. Adult neogi control the survivors and train them to dominate umber hulks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Traits": "Mental Fortitude. The hatchling has advantage on saves against being charmed or frightened and cannot be put to sleep by magic.\nSpider Climb. It can climb difficult surfaces and traverse ceilings upside down without an ability check.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) piercing damage plus 3 (1d6) poison damage. The target makes a DC 10 Constitution save or becomes poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 191."
+      }
+    }
+  }
+]

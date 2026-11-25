@@ -1,0 +1,921 @@
+{
+  "versions": [
+    {
+      "key": "2b154e9775abc0b082c31db2",
+      "publication": "Black Flag Roleplaying Reference Document v0.2",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "19"
+        ],
+        [
+          "Hit dice",
+          "3d10 + 3"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., fly 60 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A rideable giant horsefly brought to life from the Ebony Fly figurine."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Figurine mechanics",
+          "lines": [
+            "Ebony Fly · This rare wondrous item costs 60,000 gp and becomes a Giant Fly that can carry a rider for up to 12 hours.",
+            "Activation · Use an action to speak the command word and throw the figurine at a spot on the ground within 60 ft. The fly appears if the space is clear and large enough.",
+            "Commands · The fly is friendly to the user and their companions. It understands the user's languages and follows spoken commands. Without orders, it only defends itself.",
+            "Reversion and reuse · The fly reverts when the duration ends, when it drops to 0 HP, or when the user takes an action to say the command word while touching it. Two days must pass after reversion before it can be used again."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Perception 10, Stealth 11. Ability modifiers are Str +2, Dex +1, Con +1, Int −4, Wis +0, Cha −4.",
+            "The creature block lists no languages, challenge rating, XP, or actions.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 97–98."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "A rideable giant horsefly brought to life from the Ebony Fly figurine.": [
+          {
+            "start": 57,
+            "end": 60,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          }
+        ],
+        "Darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Ebony Fly · This rare wondrous item costs 60,000 gp and becomes a Giant Fly that can carry a rider for up to 12 hours.": [
+          {
+            "start": 6,
+            "end": 9,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          },
+          {
+            "start": 72,
+            "end": 75,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          }
+        ],
+        "Perception 10, Stealth 11. Ability modifiers are Str +2, Dex +1, Con +1, Int −4, Wis +0, Cha −4.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "9233a3c0cddb5f92199a3bc1",
+      "publication": "Black Flag Roleplaying Reference Document v1.0",
+      "edition": "Black Flag Roleplaying",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "19"
+        ],
+        [
+          "Hit dice",
+          "3d10 + 3"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., fly 60 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A rideable giant horsefly brought to life from the Ebony Fly figurine."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Figurine mechanics",
+          "lines": [
+            "Ebony Fly · This rare wondrous item costs 60,000 gp and becomes a Giant Fly that can carry a rider for up to 12 hours.",
+            "Activation · Use an action to speak the command word and throw the figurine at a spot on the ground within 60 ft. The fly appears if the space is clear and large enough.",
+            "Commands · The fly is friendly to the user and their companions. It understands the user's languages and follows spoken commands. Without orders, it only defends itself.",
+            "Reversion and reuse · The fly reverts when the duration ends, when it drops to 0 HP, or when the user takes an action to say the command word while touching it. Two days must pass after reversion before it can be used again."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Perception 10, Stealth 11. Ability modifiers are Str +2, Dex +1, Con +1, Int −4, Wis +0, Cha −4.",
+            "The creature block lists no languages, challenge rating, XP, or actions.",
+            "Kobold Press, Black Flag Roleplaying Reference Document v1.0, pp. 105–106."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "A rideable giant horsefly brought to life from the Ebony Fly figurine.": [
+          {
+            "start": 57,
+            "end": 60,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          }
+        ],
+        "Darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Ebony Fly · This rare wondrous item costs 60,000 gp and becomes a Giant Fly that can carry a rider for up to 12 hours.": [
+          {
+            "start": 6,
+            "end": 9,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          },
+          {
+            "start": 72,
+            "end": 75,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          }
+        ],
+        "Perception 10, Stealth 11. Ability modifiers are Str +2, Dex +1, Con +1, Int −4, Wis +0, Cha −4.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "existing": [
+    {
+      "key": "187a365731bcf6f728926979",
+      "publication": "Dungeon Master's Guide (2014)",
+      "edition": "2014 fifth edition",
+      "description": "A Large beast.",
+      "source": "https://5e.tools/bestiary.html#giant%20fly_dmg",
+      "status": "Encounter reference",
+      "images": [
+        {
+          "url": "",
+          "credit": "Dungeon Master's Guide (2014)"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "19"
+        ],
+        [
+          "Hit dice",
+          "3d10 + 3"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., fly 60 ft."
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ],
+        [
+          "Strength",
+          "14"
+        ],
+        [
+          "Dexterity",
+          "13"
+        ],
+        [
+          "Constitution",
+          "13"
+        ],
+        [
+          "Intelligence",
+          "2"
+        ],
+        [
+          "Wisdom",
+          "10"
+        ],
+        [
+          "Charisma",
+          "3"
+        ],
+        [
+          "Alignment",
+          "unaligned"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Senses",
+          "lines": [
+            "darkvision 60 ft."
+          ]
+        }
+      ],
+      "sourceCode": "DMG",
+      "page": 169,
+      "references": [
+        {
+          "label": "Dungeon Master's Guide (2014), p. 169",
+          "url": "https://5e.tools/bestiary.html#giant%20fly_dmg"
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Alignment": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Alignment",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+              }
+            }
+          }
+        ],
+        "darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "cad5eadce5d9a8a8d4ac5f9f",
+      "publication": "Dungeon Master's Guide (2024)",
+      "edition": "2024 fifth edition",
+      "description": "A Large beast with challenge rating 0.",
+      "source": "https://5e.tools/bestiary.html#giant%20fly_xdmg",
+      "status": "Encounter reference",
+      "images": [
+        {
+          "url": "",
+          "credit": "Dungeon Master's Guide (2024)"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "19"
+        ],
+        [
+          "Hit dice",
+          "3d10 + 3"
+        ],
+        [
+          "Challenge",
+          "0"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., fly 60 ft."
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ],
+        [
+          "Strength",
+          "14"
+        ],
+        [
+          "Dexterity",
+          "13"
+        ],
+        [
+          "Constitution",
+          "13"
+        ],
+        [
+          "Intelligence",
+          "2"
+        ],
+        [
+          "Wisdom",
+          "10"
+        ],
+        [
+          "Charisma",
+          "3"
+        ],
+        [
+          "Alignment",
+          "unaligned"
+        ],
+        [
+          "XP",
+          "0"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft."
+          ]
+        }
+      ],
+      "sourceCode": "XDMG",
+      "page": 261,
+      "references": [
+        {
+          "label": "Dungeon Master's Guide (2024), p. 261",
+          "url": "https://5e.tools/bestiary.html#giant%20fly_xdmg"
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "Alignment": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Alignment",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+              }
+            }
+          }
+        ],
+        "Darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2024)",
+              "page": 365,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "key": "5fc3090e807dec85104aadb0",
+      "publication": "SRD 5.1",
+      "edition": "2014 fifth edition",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Beast"
+        ]
+      ],
+      "sections": []
+    },
+    {
+      "key": "b528c210cee41d5d6597c343",
+      "publication": "SRD 5.2.1",
+      "edition": "2024 fifth edition",
+      "status": "Stat block",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "19"
+        ],
+        [
+          "Hit dice",
+          "3d10 + 3"
+        ],
+        [
+          "Challenge",
+          "0"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "30 ft., Fly 60 ft."
+        ],
+        [
+          "XP",
+          "0"
+        ],
+        [
+          "Str",
+          "14"
+        ],
+        [
+          "Dex",
+          "13"
+        ],
+        [
+          "Con",
+          "13"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "10"
+        ],
+        [
+          "Cha",
+          "3"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Classification",
+          "lines": [
+            "Large Beast, Unaligned"
+          ]
+        },
+        {
+          "title": "Other statistics",
+          "lines": [
+            "Senses Darkvision 60 ft., Passive Perception 10 Languages None"
+          ]
+        }
+      ],
+      "inline": {
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "30 ft., Fly 60 ft.": [
+          {
+            "start": 8,
+            "end": 11,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 276,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "XPHB:276:https://5e.tools/spells.html#fly_xphb"
+              }
+            }
+          }
+        ],
+        "Senses Darkvision 60 ft., Passive Perception 10 Languages None": [
+          {
+            "start": 7,
+            "end": 17,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2024)",
+              "page": 365,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+              }
+            }
+          },
+          {
+            "start": 26,
+            "end": 44,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "found": {
+    "giant fly": true,
+    "horsefly": true,
+    "ebony fly": true,
+    "black flag giant fly": true
+  },
+  "hashes": [
+    "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c",
+    "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c"
+  ],
+  "gallery": [
+    {
+      "url": "",
+      "credit": "Dungeon Master's Guide (2014)"
+    },
+    {
+      "url": "",
+      "credit": "Dungeon Master's Guide (2024)"
+    }
+  ]
+}

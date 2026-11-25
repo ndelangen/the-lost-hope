@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Giant Riding Lizard",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Darkvision 30 ft. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sturdy four-legged olive lizard with a long tail, pale throat, and clawed toes.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, chapter 8, Audience in Gauntlgrym, stat cards, p. 131. https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=132",
+      "Traits": "Spider Climb. Cross difficult surfaces, including the underside of ceilings, without an ability check.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 6 (1d8 + 2) piercing damage.",
+      "Encounter ecology": "An Underdark mount. The Emerald Enclave supplies Giant Riding Lizards for its scouts and the adventuring party in chapter 8. Drow riders also use them in the adventure.",
+      "Source notes": "The adventure prints a dedicated Giant Riding Lizard card. This block uses its 30-ft. darkvision and unconditional Spider Climb directly."
+    }
+  },
+  {
+    "name": "Giant Rocktopus",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 52,
+    "hitDice": "8d10 + 8",
+    "speed": "20 ft., climb 10 ft., swim 60 ft. (inherited)",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Perception": 4,
+      "Stealth": 5
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Proficiency bonus +2. Perception +4. Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A mottled russet octopus with a knobbly mantle and eight sucker-lined arms. Its coloration can shift to blend with rock.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, chapter 2, Into Darkness, Creature Encounters, Giant “Rocktopus”, p. 28. https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=29",
+      "Traits": "Camouflage. Advantage on Dexterity (Stealth) checks in any terrain. The variant removes Hold Breath. Water Breathing is inherited from Giant Octopus and permits breathing only underwater. See the table ruling.",
+      "Actions": "Tentacles. Melee weapon attack, +5 to hit, 15-ft. reach, one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and restrained for the duration. The rocktopus cannot use Tentacles on a different target until the grapple ends.\nInk Cloud. Underwater only. Ink heavily obscures the 20-ft. radius around the rocktopus for 1 minute. A significant current can disperse it sooner. After releasing the ink, it can Dash as a bonus action. Recharge after a short or long rest.",
+      "Encounter ecology": "A land-adapted octopus can change color to blend into rock, lie in cracks, and ambush smaller creatures.",
+      "Source notes": "The passage calls it a Giant Octopus variant and supplies walk 20 ft. and climb 10 ft. It removes Hold Breath and replaces Underwater Camouflage with unconditional Camouflage. The passage gives no explicit replacement for swim 60 ft., Water Breathing, or Ink Cloud. Tentacles retains the base attack. The inherited Water Breathing trait conflicts with the published land ecology. Allowing it to breathe air is a table ruling.",
+      "At the table": "For the published land encounter, allow air breathing as a DM ruling. Keep Ink Cloud underwater-only. A Tentacles hit grapples the target immediately. It can spend an action to attempt a DC 16 Strength (Athletics) or Dexterity (Acrobatics) escape check."
+    }
+  },
+  {
+    "name": "Male Steeder",
+    "publication": "Out of the Abyss",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 13,
+    "hitDice": "2d8 + 4",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "skills": {
+      "Stealth": 5
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Stealth +5. Darkvision 120 ft. Passive Perception 10. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A pony-sized tarantula with a chestnut abdomen, sturdy bristled legs, and small dark eyes.",
+    "habitats": [
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, appendix C, Creatures, Miscellaneous Creatures, Steeders, p. 231. https://online.anyflip.com/cmjgl/axwd/mobile/index.html#p=232",
+      "Traits": "Spider Climb. Cross difficult surfaces, including the underside of ceilings, without an ability check.\nLeap. If its speed is 30 ft. or more, the steeder can spend its entire movement on its turn to jump up to 60 ft. either vertically or horizontally.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one creature. On a hit, deal 7 (1d8 + 2) piercing damage. The creature makes a DC 12 Constitution save and takes 4 (1d8) acid damage on a failure or half as much on a success.\nSticky Leg. Melee weapon attack, +4 to hit, 5-ft. reach, one Small or Tiny creature. On a hit, the creature sticks to the leg and is grappled (escape DC 12). This action recharges when the steeder has no creature grappled.",
+      "Encounter ecology": "Duergar train pony-sized male steeders as pack beasts. Steeders rely on adhesive legs for climbing and catching prey. They do not make webs.",
+      "Source notes": "The September 2015 first printing identifies Male Steeder as a Medium Beast. The public legacy creature index displays Monstrosity. The original adventure stat block supplies the classification and mechanics here. The 2015 Bite line prints 7 piercing alongside 1d8 + 2. Both are recorded as printed. Sticky Leg applies only to Small or Tiny creatures, and Leap uses a 60-ft. distance."
+    }
+  }
+]

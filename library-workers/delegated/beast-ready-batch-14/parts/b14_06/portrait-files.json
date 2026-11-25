@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-snail",
+    "file": "portraits/giant-snail.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "1ef5c2e1dd40b167689a96996ebe6b80ef277b7eaf6dff4d7d0912508a9c699d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-swan",
+    "file": "portraits/giant-swan.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0db71079a06d7ad7d94ad7ceb73bb3b749d7a4824bcb277f35577a72da775eda",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "pollenella-the-honeybee",
+    "file": "portraits/pollenella-the-honeybee.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "a0680f2d80584d77976a9d0b58fb74c564a6db5603c846e79eea220735620d32",
+    "credit": "OpenAI ImageGen"
+  }
+]

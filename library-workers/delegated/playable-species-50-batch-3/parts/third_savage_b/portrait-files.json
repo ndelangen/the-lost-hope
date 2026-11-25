@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Fire Elemental",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "41bf92127af566ccaa103e5fcd620de97e6d896e032dc539825e4e0443eaf723",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Fire Giant",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "43cf9dc41f7ce392ac457a919f0fc11d48784f4b1034c9bc75f471ab3d2dcf2b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Flesh Golem",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ba86033df012fb66b551a34e1383ecf5ebd6d901bc8491a0f8689d7f8a7eb306",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Frost Giant",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "559f1ecdd2063b511dcca5a1aa65ea437e5227cc097ef11e0e33305e7729553e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ghaele",
+    "file": "",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "00f3be70bf71c1988ef84ebb83ca6dcaa3d7db1d0b16b8c13601bb1d4de60d5b",
+    "credit": "OpenAI ImageGen"
+  }
+]

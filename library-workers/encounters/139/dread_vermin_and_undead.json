@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Bastellus",
+    "decision": "separate",
+    "pages": "pp. 32–33",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Bastellus",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Incorporeal)",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d12",
+      "cr": "6",
+      "speed": "30 ft. (6 squares)",
+      "abilities": {
+        "Dex": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A dream stalker hides among cast shadows until someone sleeps. It takes on a broad human shape and spreads dark tendrils over the sleeper's face as it feeds.",
+      "otherStatistics": "Any land or underground. Solitary or pack of 2–5. Always chaotic evil. No treasure. Advancement 6–10 HD (Medium). No level adjustment. Understands its languages from life but cannot speak. It can communicate with any creature that has a language through a dream.",
+      "sections": {
+        "Combat statistics": "Initiative +3. AC +3 Dex and +3 deflection. Touch 16 and flat-footed 13, calculated from those bonuses. Base attack +2, grapple +2 as listed. Space and reach 5 ft. each. Fort +1, Ref +4, Will +6.",
+        "Skills and feats": "Bluff +9, Hide +10 or +20 with multiple light sources, Intimidate +11, Listen +9, Sense Motive +8, Spot +12. Alertness (bonus), Blind-Fight, Skill Focus (Hide).",
+        "Traits": "Undead traits, incorporeal subtype, and +4 turn resistance.\nHide in Plain Sight (Ex). It takes on the shape of a shadow cast by a creature or object. An observer can use Spot to notice an extra shadow. The bastellus gains a +10 circumstance bonus to Hide in a room with more than one light source. A dream invasion reveals its actual form, ending this benefit.\nLight Blindness. Sunlight or comparably intense light such as daylight blinds it. It tries to smother the light with darkness.",
+        "Actions": "Attack or full attack. Incorporeal touch +5 melee. In the waking world the touch deals no damage. A creature hit must make a DC 17 Will save against insanity or suffer confusion for 1d4 rounds.\nDarkness (Sp). Twice per day as a 5th-level sorcerer.\nSleep (Sp). Every living creature within 30 ft. must succeed on a DC 14 Will save or fall asleep, regardless of Hit Dice.\nDream Invasion (Su). Take on its actual form and touch a sleeping victim's forehead. Witnesses make a DC 15 Horror save. The sleeper makes a DC 18 Will save. Failure gives the bastellus control of the dream and the sleeper wakes with one negative level. On a success, the sleeper can fight back inside the dream. Both sides retain their normal abilities, and the sleeper also has their current gear, spells, and feats. Supplies and spells used in the dream remain available after waking. The bastellus's dream touch deals 1d6 Wisdom damage instead of causing insanity. At Wisdom 0, the sleeper loses and wakes with one negative level. If the sleeper wins, they wake at once and recover lost Wisdom. The bastellus is stunned for 10 minutes per level of the sleeper.\nCreate Spawn (Su). Someone who dies from a dream invasion returns as an independent bastellus after 1d4 days, without their former abilities.",
+        "Tactics": "It attacks the weakest or least guarded target, puts guards to sleep when needed, and flees when it can if cornered.",
+        "Printed source": "pp. 32–33"
+      },
+      "ruleNotes": [
+        "The attack header lists Constitution drain, but the detailed rules supply no amount or trigger. Use the detailed insanity and dream invasion rules. The printed grapple bonus is retained, though standard incorporeal creatures cannot physically grapple corporeal opponents.",
+        "The book gives no duration or daily limit for Sleep. For a runnable table default, use five minutes, as for the 3.5 spell at 5th caster level, with the printed save, radius, and unlimited HD."
+      ]
+    }
+  },
+  {
+    "name": "Carrion Bat",
+    "decision": "separate",
+    "pages": "pp. 33–34",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Carrion Bat",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Magical Beast",
+      "ac": 19,
+      "hp": 13,
+      "hitDice": "2d10 + 2",
+      "cr": "1",
+      "speed": "5 ft. (1 square), fly 50 ft. (good)",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This cave bat leaves kills to attract the maggots and grave scarabs it eats. It strikes in flight and retreats until scavengers arrive.",
+      "otherStatistics": "Any land or underground. Colony of 10–40. Always neutral. Standard treasure. Advancement 3–4 HD (Medium) or 5–7 HD (Large). No level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative +9. Touch AC 16, flat-footed 14. Base attack +2, grapple −3. Space and reach 5 ft. each. Fort +2, Ref +9, Will +2.",
+        "Skills and feats": "Listen +11 and Spot +11, each including a +4 racial bonus that is lost whenever its blindsight is suppressed. Improved Initiative (bonus), Flyby Attack.",
+        "Traits": "Blindsight. The printing lists the sense without a range.",
+        "Actions": "Attack. Wing claw +2 melee (1d3 − 1) or bite −3 melee (1d4 − 1).\nFull Attack. Two wing claws +2 melee (1d3 − 1 each) and bite −3 melee (1d4 − 1).\nShriek (Ex). One sonic attack each round. The victim must succeed on a DC 16 Fortitude save or be paralyzed for 6 rounds. The book gives no range. The bat uses this on a flyby before closing to slash with its wing claws.",
+        "Printed source": "pp. 33–34"
+      }
+    }
+  },
+  {
+    "name": "Skeletal Bat",
+    "decision": "separate",
+    "pages": "pp. 33–34",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Skeletal Bat",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead",
+      "ac": 15,
+      "hp": 6,
+      "hitDice": "1d12",
+      "cr": "1/3",
+      "speed": "10 ft. (2 squares), fly 50 ft. (average)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A winged skeleton that carries messages for necromancers or guards their lairs. Colonies and swarms attack with their exposed claws.",
+      "otherStatistics": "Any land or underground. Colony of 10–40 or swarm of 20–50. Always neutral. Standard treasure. Printed advancement is 3 HD (Large) or 5–15 HD (Huge). No level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative +3. Touch AC 13, flat-footed 12. Base attack +0, grapple +0. Space and reach 5 ft. each. Fort +0, Ref +3, Will +2.",
+        "Skills and feats": "Listen +10. Flyby Attack.",
+        "Traits": "Damage reduction 5/bludgeoning, cold immunity, and undead traits.",
+        "Actions": "Attack. Claw +0 melee (1d4).\nFull Attack. Two claws +0 melee (1d4 each).",
+        "Printed source": "pp. 33–34"
+      }
+    }
+  },
+  {
+    "name": "Giant Scarab Beetle",
+    "decision": "separate",
+    "pages": "p. 36",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Giant Scarab Beetle",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Vermin",
+      "ac": 18,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "cr": "2",
+      "speed": "30 ft. (6 squares), climb 15 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A five-foot scavenger that digs between burial chambers. Strong light usually sends it retreating, though light itself does it no harm.",
+      "otherStatistics": "Desert and underground. Solitary, cluster of 2–5, or swarm of 6–11. Always neutral. No treasure. Advancement 5–7 HD (Medium) or 8–10 HD (Large). No level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative +0. The printing lists touch AC 18 and flat-footed AC 18. Base attack +3. The grapple value is blank in print. Use +7 from its listed BAB, Strength and Medium size. Space and reach 5 ft. each. Fort +6, Ref +3, Will +1.",
+        "Skills and feats": "Climb +5, Listen +5, Spot +3. Lightning Reflexes, Weapon Finesse.",
+        "Traits": "Vermin traits. This kind of scarab stays active and rarely attacks a living target unless provoked.",
+        "Actions": "Attack or full attack. Bite +7 melee (1d8 + 6) and filth fever.\nDisease (Ex). A bite that infects the target allows a DC 12 Fortitude save. Filth fever incubates for 1d3 days and deals 1d3 Dexterity damage and 1d3 Constitution damage.",
+        "Printed source": "p. 36"
+      },
+      "ruleNotes": [
+        "The printed touch AC 18 includes the effect of its +8 natural armor. Under normal 3.5 touch attack rules, use touch AC 10."
+      ]
+    }
+  },
+  {
+    "name": "Grave Scarab Beetle",
+    "decision": "separate",
+    "pages": "pp. 35–36",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Grave Scarab Beetle",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Fine Vermin",
+      "ac": 24,
+      "hp": 1,
+      "hitDice": "1/8 d8",
+      "cr": "1/2",
+      "speed": "20 ft. (4 squares), climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 2
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An active grave scarab hunts warm flesh. A dormant survivor in a sealed tomb takes on a golden finish and can pass for jewelry until body heat wakes it.",
+      "otherStatistics": "Desert and underground. Solitary or swarm of 10–100. Always neutral. No treasure, advancement, or level adjustment.",
+      "sections": {
+        "Combat statistics": "Initiative +2. Touch AC 20, flat-footed 22. Base attack +0, grapple −15. Space 1/2 ft., reach 0 ft. Fort +2, Ref +2, Will +0.",
+        "Skills and feats": "Climb +2, Hide +10, Listen +2, Spot +1. Weapon Finesse (bonus).",
+        "Traits": "Tremorsense and vermin traits. The sense has no listed range. It attacks the closest food and can be lured away with another food source.",
+        "Actions": "Attack or full attack. Bite +10 melee (1d2 − 5, minimum 1 on a hit) plus flesh burrow.\nFlesh Burrow (Ex). It travels along armor or similar material until it can reach bare skin. A successful attack roll lets it burrow toward the heart, dealing 1d4 hit point damage per round. It reaches the heart in 2 rounds for a Small target, 3 for Medium, or 4 for Large. Once there it inflicts 1d4 permanent Constitution damage each round. Creatures immune to critical hits are immune to this attack.\nRemoval. Cutting off the affected limb removes it. Attacks against a buried beetle target it without its Dexterity bonus and split damage evenly between beetle and host. A host attacking the beetle inside their own body takes −2 to attack and damage rolls.",
+        "Printed source": "pp. 35–36"
+      }
+    }
+  },
+  {
+    "name": "Monstrous Scarab Beetle",
+    "decision": "separate",
+    "pages": "p. 36",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Monstrous Scarab Beetle",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Vermin",
+      "ac": 21,
+      "hp": 46,
+      "hitDice": "8d8 + 10",
+      "cr": "4",
+      "speed": "40 ft. (8 squares), climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The largest scarab digs beneath caverns and tombs for carrion. Intruders that threaten its nest or eggs draw a charge.",
+      "otherStatistics": "Desert or underground. Solitary, cluster of 2–5, or swarm of 6–11. Always neutral. No treasure or level adjustment. Printed advancement 8–10 HD (Medium) or 11–21 HD (Large).",
+      "sections": {
+        "Combat statistics": "Initiative +0. Touch AC 9 and flat-footed AC 21, calculated from the listed −1 size and +12 natural bonuses. Base attack +6, grapple +11 as printed. Space 5 ft., reach 10 ft. as printed. Fort +8, Ref +4, Will +2.",
+        "Skills and feats": "Climb +5, Listen +8, Spot +7. Lightning Reflexes, Power Attack, Weapon Finesse.",
+        "Traits": "Vermin traits. It normally initiates combat only to protect its eggs or nest.",
+        "Actions": "Attack or full attack. Bite +12 melee. The named Keen Pincers ability gives the bite 4d8 + 9 damage with a critical threat on 19–20. The printed table gives 2d6 + 9 for Attack and 1d6 + 9 for Full Attack. Use the named ability for both if you want one damage expression.\nTrample (Ex). 2d8 + 3 damage. Reflex DC 20 half, Strength-based.",
+        "Printed source": "p. 36"
+      },
+      "ruleNotes": [
+        "The listed 5-ft. space, grapple modifier, Hit Dice bonus, and Medium advancement band are kept as printed. The primary size line is Large."
+      ]
+    }
+  },
+  {
+    "name": "Boneless",
+    "decision": "separate",
+    "pages": "pp. 37–38",
+    "notes": "The encounter uses the printed human commoner sample. The acquired template is included separately within the same record.",
+    "statBlock": {
+      "name": "Boneless",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (sample human commoner)",
+      "ac": 14,
+      "hp": null,
+      "hitDice": "3d12",
+      "cr": "3",
+      "speed": "30 ft. (6 squares), 60 ft. on all fours",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A mindless undead servant animated from flesh after its skeleton was removed. It can collapse onto all fours to run or fold into a jar for transport.",
+      "otherStatistics": "Sample human commoner. Any environment or organization. Always evil, usually neutral evil. No treasure, advancement, or level adjustment for this sample.",
+      "sections": {
+        "Sample combat statistics": "Roll 3d12 hit points. Initiative +4. Touch AC 14 and flat-footed AC 10, calculated from its listed +4 Dex bonus. Base attack +1, grapple +3. Space and reach 5 ft. each. Fort +1, Ref +1, Will +2. Agility.",
+        "Actions": "Attack. Slap +2 melee (1d4 + 2).\nFull Attack. Two slaps +2 melee (1d4 + 2 each). If both hit, the target is automatically grappled. Starting the next round, Constrict deals 2d4 + 2 each round. The target can take only one action, an opposed Strength check to escape. In particular it cannot make physical attacks or cast a spell requiring material components.",
+        "Traits": "Undead traits and damage reduction 5, bypassed by slashing or piercing weapons. The sample lists vulnerability to turning without giving a modifier. Holy water or the touch of a holy symbol deals 1d8 damage.\nPliability (Ex). It can squeeze through a gap at least 1 inch wide or fold into a 1-cubic-foot container, including an airtight one. Soak it at least once per week or keep it in a reservoir of water. If it dries out it loses its special maneuvers, including its grapple attack, and moves and fights as a zombie. A dried boneless takes double damage from fire.",
+        "Creating a Boneless": "Acquired template for a corporeal, formerly skeletal creature other than an undead, with fewer than 20 HD. Keep size. Replace type with undead and drop alignment and kind subtypes without adding the augmented subtype. Keep base statistics where the template gives no change. Drop class Hit Dice, to a minimum of 3 HD, and use d12s for current and future Hit Dice. Set speed to 30 ft. or 60 ft. on all fours. It cannot fly, even with wings.\nKeep weapons and weapon proficiencies. Retain natural attacks except claws and bites. Each hand deals 1d4 + Strength bonus, and constriction after a successful grapple deals 2d4 + Strength bonus per round. Replace other special attacks with Constrict. Keep only extraordinary special qualities that enhance melee attacks and add the traits listed above.\nBase saves are Fort and Ref +1 per 3 HD and Will +2 plus half HD. Dexterity increases by 2, Wisdom becomes 10, and Charisma becomes 1. Remove Constitution and Intelligence scores, skills, and prior feats. Gain Agility. CR starts at 3 and rises with HD. Advancement follows the base creature unless it advanced by class, in which case use none. Any environment or organization, no treasure or level adjustment, always evil and usually neutral evil.",
+        "Printed source": "pp. 37–38"
+      },
+      "ruleNotes": [
+        "The sample stat block and template use 2d4 + Strength for constriction. The general combat paragraph says 2d4. This summary uses the sample's explicit 2d4 + 2.",
+        "The sample lists Will +2. Its template's formula gives +3 at 3 HD. Use the listed sample save for this encounter and the template formula when creating another boneless."
+      ]
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "commit": "a56b146dda5424458a3bda859dd49ea54f93d997",
+  "publication": "Journeys through the Radiant Citadel",
+  "encounterVersions": 1,
+  "fullStatBlocks": 1,
+  "radiantCitadelRecordsWithLocalRules": 89,
+  "generatedPortraitsInstalled": 1,
+  "revisedGeneratedPortraits": 1,
+  "creditedGalleriesVerified": 1,
+  "allRecentVersionsWithGeneratedPortrait": 539,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-29-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-29-style-reference.jpg",
+  "styleDirection": "Use actual campaign event and stage illustrations for lighting and rendering. Keep the portraits square on light, subtly textured neutral parchment.",
+  "results": "output/dm-library/encounter-batches/29/results.json",
+  "searchResults": "output/dm-library/encounter-batches/29/search-results.json",
+  "nextSourcePublication": "Monster Manual (2014)",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Dust Devil",
+      "source": "https://www.dndbeyond.com/monsters/804867-dust-devil",
+      "challenge": "5"
+    }
+  ],
+  "nextSourceNote": "The public publisher page lists Dust Devil under Basic Rules (2014); the library indexes it under Monster Manual (2014) because the blue dragon regional effects describe it. Compare the exact standalone stat block and source before deciding the provenance."
+}

@@ -1,0 +1,275 @@
+{
+  "builds": [
+    {
+      "id": "aranea-tess-seam-scout-30e",
+      "title": "Aranea seam scout, monster class 5",
+      "difficulty": "CR 3, ECL 5 (3 class HD).",
+      "size": "Medium",
+      "type": "Magical Beast (Shapechanger)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Sylvan",
+      "speed": "40 ft., climb 25 ft. in spider form",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "3d8+9",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 16,
+        "WIS": 12,
+        "CHA": 18
+      },
+      "skills": [
+        "Climb +14",
+        "Concentration +7",
+        "Escape Artist +6",
+        "Listen +7",
+        "Spot +7"
+      ],
+      "traits": [
+        "Neutral. Natural armor +1 and Dexterity +3. Touch 13, flat-footed 11. BAB +3, grapple +4. Fortitude +6, Reflex +6, Will +2.",
+        "Alertness and Improved Initiative. May take 10 on Climb while threatened."
+      ],
+      "actions": [
+        "Bite +4 melee, 1d6+1 piercing. Fortitude DC 14 negates 1d6 temporary Strength damage on contact and again 1 minute later.",
+        "Web 3/day as a standard action in spider or hybrid form. Ranged touch +6, range increment 10 ft., maximum 50 ft., targets up to Large. A hit anchors the target. It cannot move, takes −2 to attacks and −4 Dexterity, and must make a DC 15 Concentration check to cast. Escape Artist DC 20 or Strength DC 26 escapes. The web has 6 HP and takes double damage from fire.",
+        "Alternate form as a standard action. Switch to the spider-humanoid hybrid at will or to one fixed human form 3/day for 1 hour per use. The human form retains spellcasting and loses the spider's web and poison. Tess carries a dagger (+4 melee, 1d4+1 piercing, 19–20/×2) when traveling in human form.",
+        "Sorcerer casting at CL 2, save DC 14 + spell level, 6 cantrips and 5 first-level spells per day. Knows detect magic, ghost sound, light, mage hand, and resistance, plus mage armor and silent image. Mage armor raises AC to 18 for 2 hours. Silent image fills up to six 10-ft. cubes, lasts while concentrating, and allows DC 15 Will disbelief on interaction."
+      ],
+      "tactics": "Cast mage armor before investigating. Thin out pursuers with a false barricade, web the first to cross, and withdraw along the underside of the bridge.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "annis-hag-marda-chainkeeper-30e",
+      "title": "Annis Hag chainkeeper, monster class 11",
+      "difficulty": "CR 4, ECL 11 (6 class HD).",
+      "size": "Large",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Giant",
+      "speed": "40 ft.",
+      "ac": 21,
+      "hp": 51,
+      "hitDice": "6d8+24",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 28,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Craft (metalworking) +8",
+        "Listen +6",
+        "Spot +6"
+      ],
+      "traits": [
+        "Neutral evil. Large −1, natural armor +10, Dexterity +2. Touch 11, flat-footed 19. BAB +6/+1, grapple +19, reach 10 ft. Fortitude +6, Reflex +7, Will +7.",
+        "Spell resistance 18. Steely Skin subtracts 1 damage from slashing or piercing weapon hits and adds 1 to bludgeoning weapon hits, including morningstars. Alertness, Multiattack, Improved Initiative."
+      ],
+      "actions": [
+        "Claw +14 melee, 1d6+9 slashing. On a full attack use both claws and bite +12 melee, 1d6+4 piercing. Two claws hitting the same target add rend damage of 2d6+18.",
+        "Improved grab after a claw hit against a Large or smaller foe. Start a grapple at +19 as a free action, without an attack of opportunity. Take a −20 penalty to grapple with just the claw while avoiding the grappled condition.",
+        "Change self 3/day for 60 minutes. Gain +10 on Disguise for visual changes, with DC 11 Will disbelief on interaction. Fog cloud 1/day at up to 160 ft., 30-ft. radius and 20-ft. height, lasts 60 minutes, no save or spell resistance. Both at CL 6."
+      ],
+      "tactics": "Break up ranged support with fog cloud. Use reach to intercept the first creature to leave the fog and attack an adjacent foe with both claws when possible.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "barghest-nark-patrol-hunter-30e",
+      "title": "Barghest patrol hunter, monster class 2",
+      "difficulty": "CR 2, ECL 2 (2 class HD).",
+      "size": "Medium",
+      "type": "Outsider (Evil, Lawful, Shapechanger)",
+      "senses": "Darkvision 60 ft., scent 10 ft.",
+      "languages": "Goblin, Infernal, Worg",
+      "speed": "30 ft., 60 ft. in wolf form",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+6",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 12
+      },
+      "skills": [
+        "Bluff +6",
+        "Hide +7 (+11 as wolf)",
+        "Listen +5",
+        "Move Silently +7",
+        "Spot +5"
+      ],
+      "traits": [
+        "Lawful evil. Natural armor +2 and Dexterity +2. Touch 12, flat-footed 12. BAB +2, grapple +5. Fortitude +6, Reflex +5, Will +3.",
+        "Improved Initiative. Scent gives direction as a move action and pinpoints within 5 ft. of the source."
+      ],
+      "actions": [
+        "Bite +5 melee, 1d6+3 piercing. On a full attack add two claws +0 melee, 1d4+1 slashing each. Bite and claws are available in both forms.",
+        "Alternate form as a standard action. Wolf form moves at 60 ft., gains +4 circumstance to Hide and can use pass without trace as a free action so ordinary tracking finds no trail.",
+        "Feed on a slain humanoid after making the kill. As a full-round action, destroys the body for +2 enhancement Constitution for one day (HP 17 and Fortitude +7). Revivals requiring the body fail. Wish, miracle or true resurrection succeeds only 50% of the time."
+      ],
+      "tactics": "Listen from hiding in wolf form. Follow a lone courier and use speed to disengage if their escort returns.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "djinni-safa-wind-guide-30e",
+      "title": "Djinni crosswind guide, monster class 4",
+      "difficulty": "CR 2, ECL 4 (2 class HD).",
+      "size": "Medium",
+      "type": "Outsider (Air, Chaotic, Good)",
+      "senses": "Darkvision 60 ft., telepathy 100 ft.",
+      "languages": "Auran, Celestial, Common, Ignan",
+      "speed": "20 ft., fly 30 ft. (perfect)",
+      "ac": 14,
+      "hp": 13,
+      "hitDice": "2d8+4",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Concentration +7",
+        "Knowledge (nature) +7",
+        "Listen +9",
+        "Sense Motive +7",
+        "Spot +9"
+      ],
+      "traits": [
+        "Chaotic good. Dexterity +3 and natural armor +1. Touch 13, flat-footed 11. BAB +2, grapple +4. Fortitude +5, Reflex +6, Will +5.",
+        "Acid resistance 5. Air Mastery imposes a −1 circumstance penalty on attack and damage rolls by airborne creatures against Safa. Alertness, Dodge, and Improved Initiative. Dodge adds +1 AC against a designated foe."
+      ],
+      "actions": [
+        "Slam +4 melee, 1d4+3 bludgeoning. At-will invisibility affects Safa only and ends if Safa attacks.",
+        "Whirlwind 1/day for up to 7 rounds. Travels at fly speed and is 5 ft. wide at the base, up to 30 ft. wide at the top and 10–50 ft. high. On contact a Medium or smaller creature rolls Reflex DC 20 or takes 3d6 damage. A separate DC 20 Reflex save prevents suspension, which deals 1d8 damage each round. Flyers can save at the same DC to escape after taking that round's damage. Safa can release captured creatures at will.",
+        "If the whirlwind touches the ground, debris clouds an area whose diameter is half its height. At 5 ft. there is one-half concealment. Beyond 5 ft. there is total concealment, even against darkvision. Casting within the debris requires a DC 20 Concentration check."
+      ],
+      "tactics": "Mark the quiet side of the landing by telepathy. Fly overhead unseen and use whirlwind to pull pursuers away once the porters have cleared the ledge.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "drider-orel-gallery-sentry-30e",
+      "title": "Drider gallery sentry, monster class 6 (Sorcerer)",
+      "difficulty": "CR 3, ECL 6 (4 class HD).",
+      "size": "Medium",
+      "type": "Aberration",
+      "senses": "Darkvision 120 ft.",
+      "languages": "Common, Elven, Undercommon",
+      "speed": "30 ft., climb 15 ft.",
+      "ac": 17,
+      "hp": 30,
+      "hitDice": "4d8+12",
+      "initiative": 7,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 16,
+        "WIS": 14,
+        "CHA": 16
+      },
+      "skills": [
+        "Climb +16",
+        "Concentration +9 (+13 when casting defensively)",
+        "Hide +7",
+        "Spot +6"
+      ],
+      "traits": [
+        "Neutral. Natural armor +4 and Dexterity +3. Touch 13, flat-footed 14. BAB +3, grapple +5. Fortitude +4, Reflex +4, Will +6. Spell resistance 10.",
+        "Alertness, Combat Casting and Improved Initiative. May take 10 on Climb while threatened."
+      ],
+      "actions": [
+        "Bite +5 melee, 1d4+1 piercing. Fortitude DC 15 negates 1d4 temporary Strength damage on contact and again 1 minute later.",
+        "Sorcerer casting at CL 4, save DC 13 + spell level. Daily slots 6/7/4. Knows dancing lights, detect magic, light, mage hand, message, ray of frost, mage armor, magic missile, shield, and web. Mage armor raises AC to 21 for 4 hours. Magic missile sends two 1d4+1 force missiles. Shield lasts 4 minutes, prevents magic missile, and grants directional cover (+7 AC and +3 on Reflex against area effects from that half). Ray of frost +6 ranged touch for 1d3 cold.",
+        "Web at up to 140 ft., 20-ft.-radius spread, duration 40 minutes with opposing supports. Reflex DC 15 or stuck. A stuck creature can spend a round to break free (DC 20 Strength or DC 25 Escape Artist). A creature that saves or breaks free can spend a round moving 5 ft. per full 5 points by which a new Strength or Escape Artist check exceeds 10. Spell resistance applies. Fire burns away affected web sections and deals 2d4 fire damage to creatures in the burning webs.",
+        "Each spell-like ability 1/day at CL 4, DC 13 + spell level. Clairaudience/clairvoyance, dancing lights, darkness, detect chaos, detect evil, detect good, detect law, detect magic, discern lies, dispel magic, faerie fire, levitate, and suggestion."
+      ],
+      "tactics": "Check the approach from cover using clairvoyance. Cast web between the gallery supports after workers pass, then remain above reach and use magic missile against a looter who gets through.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Aranea",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "size": "Medium",
+      "name": "Tess Serein",
+      "build": "aranea-tess-seam-scout-30e",
+      "role": "Shapechanging scout who can pin a pursuer at a crossing.",
+      "motive": "Find the missing bridge warden before the night shift closes the span.",
+      "hook": "Tess offers to check the underside of the bridge while the party questions the toll collectors."
+    },
+    {
+      "species": "Annis Hag",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "size": "Large",
+      "name": "Marda Flintknuckle",
+      "build": "annis-hag-marda-chainkeeper-30e",
+      "role": "Grappler who holds a chokepoint.",
+      "motive": "Keep a ferry crew from hauling away the one chain that still secures the landing.",
+      "hook": "Marda has tied the ferry up herself and demands to see the deed before letting the buyer aboard."
+    },
+    {
+      "species": "Barghest",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "size": "Medium",
+      "name": "Nark Bluefur",
+      "build": "barghest-nark-patrol-hunter-30e",
+      "role": "Roadside patrol hunter who changes between wolf and goblin.",
+      "motive": "Find the courier who sold his patrol route to the toll gang.",
+      "hook": "A goblin pays the party for news at the inn. The same voice calls to them from the ditch after dark."
+    },
+    {
+      "species": "Djinni",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "size": "Medium",
+      "name": "Safa Crosswind",
+      "build": "djinni-safa-wind-guide-30e",
+      "role": "Airborne guide who clears a landing.",
+      "motive": "Keep a cliffside rescue route open until the last porter crosses.",
+      "hook": "Safa gives the party a head count by telepathy while watching the cliff from above."
+    },
+    {
+      "species": "Drider",
+      "speciesPublication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "size": "Medium",
+      "name": "Orel Slate",
+      "build": "drider-orel-gallery-sentry-30e",
+      "role": "Sentry who watches a gallery from the wall and casts web across its approaches.",
+      "motive": "Keep looters away from the half-collapsed gallery until two trapped workers get out.",
+      "hook": "A voice above the gallery tells the party where they can safely put their feet."
+    }
+  ]
+}

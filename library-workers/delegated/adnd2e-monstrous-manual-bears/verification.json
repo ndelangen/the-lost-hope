@@ -1,0 +1,29 @@
+{
+  "baseline": "f744e113e5071d614f6ce1f07bdf3e7a20cb1ac0",
+  "temporaryCopy": true,
+  "exactBeastProfiles": 4,
+  "testedConditionalRuleProfiles": 4,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "searchableByNameAndSourceHabitatOrAppearance": 4,
+  "portraitCoverage": {
+    "Black Bear": "generated",
+    "Brown Bear": "generated",
+    "Cave Bear": "generated",
+    "Polar Bear": "generated"
+  },
+  "versionPortraitsVerified": 4,
+  "newPortraitDrafts": 4,
+  "printedMovementRatesPreserved": true,
+  "printedHugAndEnduranceVerified": true,
+  "noChallengeImported": true,
+  "searchableByAppearanceAndHabitat": 4,
+  "defaultsPreserved": {
+    "Black Bear": "Basic Rules (2018)",
+    "Brown Bear": "Basic Rules (2018)",
+    "Cave Bear": "Icewind Dale: Rime of the Frostmaiden",
+    "Polar Bear": "Basic Rules (2018)"
+  },
+  "allDefaultThumbnailsPreserved": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

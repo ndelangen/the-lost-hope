@@ -1,0 +1,409 @@
+[
+  {
+    "name": "Servitor Thrull",
+    "statBlock": {
+      "name": "Servitor Thrull",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Small construct, unaligned",
+      "ac": 11,
+      "hp": 22,
+      "hitDice": "4d6 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 6
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 8,
+      "description": "A small construct that runs errands and carries possessions for the Orzhov. It will step into a blow meant for its master.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common but cannot speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Construct Nature. The thrull needs no air, food, drink, or sleep.",
+        "Actions": "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) slashing damage.",
+        "Reactions": "Self-Sacrifice. After an attack hits a creature within 5 ft. of the thrull, it swaps places with that creature and takes the hit instead.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 221."
+      }
+    }
+  },
+  {
+    "name": "Shadow Horror",
+    "statBlock": {
+      "name": "Shadow Horror",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Large aberration, neutral evil",
+      "ac": 13,
+      "hp": 120,
+      "hitDice": "16d10 + 32",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 17,
+      "description": "A nightmare that moves through solid objects and slips between shadows. The Rakdos sometimes bring one onstage.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7,
+        "Stealth": 11
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Damage vulnerabilities": "Radiant.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Incorporeal Movement. The horror treats creatures and objects as difficult terrain when moving through them. It takes 5 (1d10) force damage if it ends its turn inside an object.\nSunlight Sensitivity. In sunlight, the horror has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Bonus actions": "Shadow Stealth. The horror can Hide while in dim light or darkness.\nShadow Stride. Step into a shadow within 5 ft. and magically appear in an unoccupied space within 5 ft. of a second shadow up to 60 ft. away. Each shadow must come from a Small or larger creature or object.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 21 (4d8 + 3) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) slashing damage, and the target must make a DC 16 Wisdom save or become frightened of the horror until the end of the target’s next turn.\nLashing Shadows (Recharge 5–6). Each creature within 60 ft. except other horrors must make a DC 16 Dexterity save. On a failure, the creature takes 27 (6d8) necrotic damage.",
+        "Optional primary features": "Choose or roll one primary and one secondary feature using the d4 tables on p. 204. Add them to the base stat block.\n1. Avoidance. If an effect allows a save for half damage, a success instead deals no damage and a failure deals half.\n2. Damage Resistances. The horror gains resistance to necrotic and psychic damage.\n3. Innate Spellcasting. With Charisma and spell save DC 16, it can cast Darkness 3/day and Fear 1/day without material components.\n4. Psychic Rebuke. When a melee attack damages the horror, it can use its reaction to deal 7 (2d6) psychic damage to each creature within 5 ft.",
+        "Optional secondary features": "1. Grasping Tendrils. The horror has four tendrils, each with AC 12 and 10 HP. Destroying a tendril does not harm the horror. As a bonus action, it can target a visible creature within 10 ft. The target must make a DC 13 Dexterity save or be grappled (escape DC 13). A tendril can hold only one target at a time.\n2. Indomitable Mind. The horror becomes immune to being charmed.\n3. Keen Senses. It gains advantage on Wisdom (Perception) checks that rely on sight, sound, or smell.\n4. Mind Sight. Magical darkness does not impede its darkvision.",
+        "Optional madness": "If you use the optional madness rule on p. 203, record each time a character fails the save against Claw. See Flying Horror for the shared end-of-encounter save and severity table.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 205. Optional horror rules on pp. 203–204."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Flying Horror",
+          "terms": [
+            "Flying Horror"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Simic Merfolk",
+    "statBlock": {
+      "name": "Simic Merfolk",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 187,
+      "classification": "Medium humanoid (merfolk), neutral",
+      "ac": 11,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "A guild member from Ravnica’s deep oceans. Its legs let it move as comfortably through the city as it swims through a Simic zonot.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Languages": "Common, Merfolk.",
+        "Traits": "Amphibious. The merfolk can breathe air and water.",
+        "Actions": "Spear. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 3 (1d6) piercing damage, or 4 (1d8) piercing damage if the merfolk uses two hands for a melee attack.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 187. The setting variant uses the 2014 Monster Manual Merfolk with walking speed 30 ft. and Common and Merfolk as its languages."
+      }
+    }
+  },
+  {
+    "name": "Sire of Insanity",
+    "statBlock": {
+      "name": "Sire of Insanity",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 197,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 17,
+      "hp": 157,
+      "hitDice": "15d12 + 60",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 14,
+      "description": "A bloated, reptilian demon that hides beneath a Rakdos venue and feeds on the torment above.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 10,
+        "Intimidation": 10
+      },
+      "savingThrows": {
+        "Con": 8,
+        "Int": 6,
+        "Wis": 8,
+        "Cha": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Common, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Aura of Mind Erosion. A creature that starts its turn within 30 ft. makes a DC 18 Wisdom save. Success grants immunity to this aura for 24 hours. Failure gives the creature disadvantage on Wisdom and Charisma checks and saves for 1 minute. The sire can suppress its aura at the start of its turn until the start of its next turn.\nMagic Resistance. The sire has advantage on saving throws against spells and other magical effects.",
+        "Innate Spellcasting": "The sire uses Charisma (spell save DC 18, +10 to hit with spell attacks) and needs no material components.\nAt will. Clairvoyance, Crown of Madness, Major Image, Suggestion.\n1/day each. Confusion, Mass Suggestion.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one creature. A hit deals 25 (3d12 + 6) piercing damage plus 16 (3d10) psychic damage.\nClaws. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 10 (1d8 + 6) slashing damage plus 9 (2d8) psychic damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 197."
+      }
+    }
+  },
+  {
+    "name": "Skittering Horror",
+    "statBlock": {
+      "name": "Skittering Horror",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Huge aberration, neutral evil",
+      "ac": 17,
+      "hp": 228,
+      "hitDice": "24d12 + 72",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 17,
+      "description": "A many-legged nightmare that climbs walls and ceilings. The Golgari put these horrors to work guarding their territory.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7,
+        "Stealth": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Damage vulnerabilities": "Radiant.",
+        "Condition immunities": "Frightened.",
+        "Armor": "Natural armor.",
+        "Traits": "Spider Climb. The horror can climb difficult surfaces, even upside down on ceilings, without an ability check.\nSunlight Sensitivity. In sunlight, the horror has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Multiattack. The horror can use Maddening Presence and makes one Bite and two Claws attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 28 (4d10 + 6) piercing damage.\nClaws. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 24 (4d8 + 6) slashing damage.\nMaddening Presence. Choose a visible creature within 30 ft. If it can see or hear the horror, it makes a DC 17 Wisdom save. On a failure it is paralyzed until the end of its next turn. On a success it is immune to this horror’s Maddening Presence for 24 hours.",
+        "Optional primary features": "Choose or roll one primary and one secondary feature using the d4 tables on p. 204. Add them to the base stat block.\n1. Avoidance. If an effect allows a save for half damage, a success instead deals no damage and a failure deals half.\n2. Damage Resistances. The horror gains resistance to necrotic and psychic damage.\n3. Innate Spellcasting. With Charisma and spell save DC 17, it can cast Darkness 3/day and Fear and Phantasmal Killer 1/day each without material components.\n4. Psychic Rebuke. When a melee attack damages the horror, it can use its reaction to deal 10 (3d6) psychic damage to each creature within 5 ft.",
+        "Optional secondary features": "1. Grasping Tendrils. The horror has four tendrils, each with AC 12 and 10 HP. Destroying a tendril does not harm the horror. As a bonus action, it can target a visible creature within 10 ft. The target must make a DC 19 Dexterity save or be grappled (escape DC 19). A tendril can hold only one target at a time.\n2. Indomitable Mind. The horror becomes immune to being charmed.\n3. Keen Senses. It gains advantage on Wisdom (Perception) checks that rely on sight, sound, or smell.\n4. Mind Sight. Magical darkness does not impede its darkvision.",
+        "Optional madness": "If you use the optional madness rule on p. 203, record each time a character fails the save against Maddening Presence. See Flying Horror for the shared end-of-encounter save and severity table.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 205. Optional horror rules on pp. 203–204."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Flying Horror",
+          "terms": [
+            "Flying Horror"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Skyjek Roc",
+    "statBlock": {
+      "name": "Skyjek Roc",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 219,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 15,
+      "hp": 37,
+      "hitDice": "5d10 + 10",
+      "speed": "20 ft., fly 90 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An armored Boros mount large enough to carry an aerial scout or cavalry rider.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 2
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Languages": "None.",
+        "Traits": "Keen Sight. The roc has advantage on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) piercing damage.\nTalons. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 10 (2d4 + 5) slashing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 219."
+      }
+    }
+  },
+  {
+    "name": "Winged Thrull",
+    "statBlock": {
+      "name": "Winged Thrull",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 221,
+      "classification": "Small construct, unaligned",
+      "ac": 12,
+      "hp": 31,
+      "hitDice": "7d6 + 7",
+      "speed": "30 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 9,
+      "description": "A small flying construct used as an Orzhov messenger and spy. It often imitates the mannerisms of its master.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common but cannot speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Construct Nature. The thrull needs no air, food, drink, or sleep.",
+        "Actions": "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) slashing damage.\nRock. Ranged weapon attack, +4 to hit, range 20/60 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage.",
+        "Reactions": "Self-Sacrifice. After an attack hits a creature within 5 ft. of the thrull, it swaps places with that creature and takes the hit instead.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 221."
+      }
+    }
+  }
+]

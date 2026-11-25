@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Black Bear",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 13,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "initiative": 1,
+    "speed": "40 ft. (8 squares)",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Touch AC 11, flat-footed AC 12. AC modifiers +1 Dex and +2 natural. Base attack +2, grapple +6. Space 5 ft., reach 5 ft. Fort +5, Ref +4, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky dark-furred black bear with rounded ears, a lighter blunt muzzle and powerful forepaws.",
+    "habitats": [
+      "Temperate forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, BEAR, BLACK. https://www.d20srd.org/srd/monsters/bearBlack.htm",
+      "Attack": "Claw +6 melee, 1d4 + 4.",
+      "Full attack": "Two claws +6 melee each, 1d4 + 4 each, and bite +1 melee, 1d6 + 2.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nScent. Detect by smell out to 30 ft., 60 ft. upwind or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action gives the direction. Pinpoint the source within 5 ft.",
+      "Skills and feats": "Climb +4, Listen +4, Spot +4, Swim +8. The Swim total includes a +4 racial bonus. Feats are Endurance and Run.",
+      "Encounter ecology": "Temperate forests. Solitary or pair. The bear usually defends cubs and food rather than seeking a fight. The source notes black, blond, and cinnamon coats and a typical maximum length near 5 ft. Advancement 4–5 HD (Medium). No level adjustment or treasure."
+    }
+  },
+  {
+    "name": "Dire Bear",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 17,
+    "hp": 105,
+    "hitDice": "12d8 + 51",
+    "initiative": 1,
+    "speed": "40 ft. (8 squares)",
+    "cr": "7",
+    "abilities": {
+      "Str": {
+        "score": 31,
+        "modifier": 10
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Touch AC 10, flat-footed AC 16. AC modifiers −1 size, +1 Dex, and +7 natural. Base attack +9, grapple +23. Space 10 ft., reach 5 ft. Fort +12, Ref +9, Will +9.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An enormous thickset brown bear with dark shaggy shoulders, heavy hooked claws and a broad muzzle.",
+    "habitats": [
+      "Cold forests"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE BEAR. https://www.d20srd.org/srd/monsters/direBear.htm",
+      "Attack": "Claw +19 melee, 2d4 + 10.",
+      "Full attack": "Two claws +19 melee each, 2d4 + 10 each, and bite +13 melee, 2d8 + 5.",
+      "Special attacks": "Improved Grab (Ex). After hitting with a claw, the bear deals its normal claw damage and can start a grapple as a free action without a touch attack or an attack of opportunity. By the general Improved Grab rule it works on Medium or smaller opponents. A successful hold pulls the opponent into the bear’s space without provoking. After the initial hold, a successful grapple check in a later round deals the establishing claw’s damage.",
+      "Improved Grab at the table": "Grapple normally at +23, or hold using only the claw at −20 to grapple checks. In the latter case the bear can threaten and use its other attacks, retains its Dexterity bonus to AC, and is free of the grapple condition itself. It can move with the held creature if it can drag the weight. The held creature can try to escape by beating the bear’s opposed grapple check, or substitute Escape Artist as a standard action.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nScent. Detect by smell out to 30 ft., 60 ft. upwind or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action gives the direction. Pinpoint the source within 5 ft.",
+      "Skills and feats": "Listen +10, Spot +10, Swim +13. Feats are Alertness, Endurance, Run, Toughness, and Weapon Focus (claw).",
+      "Encounter ecology": "Cold forests. Solitary or pair. A dire bear can reach 12 ft. long and weigh 8,000 lb. It usually ignores creatures that steer clear and defends a kill or other food. Advancement 13–16 HD (Large) or 17–36 HD (Huge). No level adjustment or treasure."
+    }
+  },
+  {
+    "name": "Eagle",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Small Animal, always neutral",
+    "ac": 14,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "initiative": 2,
+    "speed": "10 ft. (2 squares), fly 80 ft. (average)",
+    "cr": "1/2",
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Touch AC 13, flat-footed AC 12. AC modifiers +1 size, +2 Dex, and +1 natural. Base attack +0, grapple −4. Space 5 ft., reach 5 ft. Fort +3, Ref +4, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A brown eagle with a pale head and tail, a hooked beak, broad folded wings and powerful yellow talons.",
+    "habitats": [
+      "Temperate mountains",
+      "High secluded nesting sites"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, EAGLE. https://www.d20srd.org/srd/monsters/eagle.htm",
+      "Attack": "Talons +3 melee, 1d4.",
+      "Full attack": "Two talons +3 melee each, 1d4 each, and bite −2 melee, 1d4.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.",
+      "Skills and feats": "Listen +2, Spot +14. The Spot total includes the printed +8 racial bonus. Feat is Weapon Finesse.",
+      "Encounter ecology": "Temperate mountains. Solitary or pair. Eagles dive to rake prey and prefer high, secluded nests. A typical eagle is about 3 ft. long, with about a 7-ft. wingspan. Use this block for similar-sized daytime raptors. Advancement 2–3 HD (Medium). No level adjustment or treasure."
+    }
+  },
+  {
+    "name": "Manta Ray",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal (Aquatic), always neutral",
+    "ac": 12,
+    "hp": 18,
+    "hitDice": "4d8",
+    "initiative": 0,
+    "speed": "Swim 30 ft. (6 squares)",
+    "cr": "1",
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Touch AC 9, flat-footed AC 12. AC modifiers −1 size and +3 natural. Base attack +3, grapple +9. Space 10 ft., reach 5 ft. Fort +4, Ref +4, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A wide dark slate ray with swept triangular fins, a pale underside, a broad filter-feeding mouth and a long thin tail.",
+    "habitats": [
+      "Warm aquatic waters"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, MANTA RAY. https://www.d20srd.org/srd/monsters/mantaRay.htm",
+      "Attack": "Ram −1 melee, 1d6 + 1. The printed footnote makes Ram a secondary attack, with the penalty already reflected in −1.",
+      "Full attack": "Ram −1 melee, 1d6 + 1.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nAquatic. Breathes underwater. The swim speed allows ordinary movement in water without a Swim check. No Amphibious quality or air breathing is listed.",
+      "Skills and feats": "Listen +7, Spot +6, Swim +10. The Swim total includes the printed +8 racial bonus for special actions or avoiding hazards. It can take 10 while distracted or threatened, and can use the run action while swimming straight. Feats are Alertness and Endurance.",
+      "Encounter ecology": "Warm aquatic. Solitary or a school of 2–5. The manta filters small organisms and usually avoids contact. It rams if threatened. The Advancement row gives 5–6 HD (Medium). No level adjustment or treasure."
+    }
+  },
+  {
+    "name": "Rat Swarm",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Tiny Animal (Swarm), always neutral",
+    "ac": 14,
+    "hp": 13,
+    "hitDice": "4d8",
+    "initiative": 2,
+    "speed": "15 ft. (3 squares), climb 15 ft.",
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Touch AC 14, flat-footed AC 12. AC modifiers +2 size and +2 Dex. Base attack +3, no grapple modifier. Space 10 ft., reach 0 ft. Fort +4, Ref +6, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A dense mound of many small brown rats, with overlapping backs, rounded ears and intertwined pink tails.",
+    "habitats": [
+      "Any terrain"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersS.rtf, RAT SWARM. https://www.d20srd.org/srd/monsters/swarm.htm#ratSwarm",
+      "Attack": "Swarm, 1d6 plus disease. At the end of its movement, deal damage automatically to each creature whose space it shares. There is no attack roll or miss chance for concealment or cover. The attack is nonmagical.",
+      "Full attack": "Swarm, 1d6 plus disease. The automatic Swarm Attack uses the same rules in both entries.",
+      "Special attacks": "Disease (Ex). Filth fever is delivered by the swarm attack. Make an immediate DC 12 Fortitude save to prevent infection. On a failure, after 1d3 days take 1d3 Dex and 1d3 Con damage. Save at DC 12 daily afterward or repeat the ability damage. Two successes in a row clear the disease.\nDistraction (Ex). A living creature that begins its turn in the swarm’s square makes a DC 12 Fortitude save or is nauseated for 1 round. A nauseated creature can take only one move action per turn and cannot attack, cast spells or concentrate. The shared subtype wording specifies living creatures vulnerable to the swarm’s damage. Both printed triggers are recorded here.",
+      "Special qualities": "Low-light vision. See twice as far as a human in dim light, with color and detail.\nScent. Detect by smell out to 30 ft., 60 ft. upwind or 15 ft. downwind. Double those ranges for strong odors and triple them for overpowering odors. A move action gives the direction. Pinpoint the source within 5 ft.\nTiny swarm. Halve damage from slashing and piercing weapons. It cannot be critically hit or flanked. The swarm cannot grapple or be grappled, tripped, or bull rushed. It breaks up at 0 HP or below and does not become staggered or dying from damage. Losing HP above 0 does not reduce its attack or defenses.",
+      "Swarm movement": "One nonflying Tiny swarm represents about 300 rats and uses one set of stats and saves. It can cover any four contiguous squares and fit through gaps a constituent rat can use. It shares spaces with creatures of any size and can pass through them. Moving into or through an opponent’s space can provoke an attack of opportunity. The swarm does not threaten creatures or make attacks of opportunity.",
+      "Swarm spell and effect rules": "Immune to effects that target a fixed number of creatures. The shared mind-affecting exception requires intelligence and a hive mind, and this block lists no hive mind. Area effects deal 50% extra damage. Casting a spell or maintaining concentration in the swarm’s area requires a Concentration check at DC 20 + spell level. Skills requiring patience or focus require a DC 20 Concentration check. An improvised lit torch deals 1d3 fire on a hit, and a broken thrown lit lantern deals 1d4 fire in adjacent squares. A weapon’s added energy damage applies in full. Sufficient damage reduction and incorporeality can prevent the swarm attack’s ordinary damage.",
+      "Nonlethal dispersal": "If nonlethal damage renders the swarm unconscious it disperses until its HP exceed its nonlethal damage.",
+      "Skills and feats": "Balance +10, Climb +10, Hide +14, Listen +6, Spot +7, Swim +10. Racial bonuses are +4 on Hide and Move Silently, +8 on Balance, Climb and Swim. The swarm uses Dex for Climb and Swim. It can take 10 on Climb and Swim even under pressure and can run while swimming straight. Feats are Alertness and Weapon Finesse.",
+      "Encounter ecology": "Any environment. Solitary, pack of 2–4 swarms, or infestation of 7–12 swarms. It surrounds warm-blooded prey. No advancement, level adjustment, or treasure.",
+      "Printed discrepancies": "The RTF gives 13 HP for 4d8, whose usual mean is 18. Use the listed HP 13. The creature and subtype use different phrasing for the Distraction trigger, as shown above."
+    }
+  }
+]

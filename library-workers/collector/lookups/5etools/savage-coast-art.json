@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Arashaeem",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/arashaeem/savage-coast-13.webp",
+    "artist": "TSR source illustration, p. 13"
+  },
+  {
+    "name": "Batracine",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/batracine/savage-coast-14.webp",
+    "artist": "TSR source illustration, p. 14"
+  },
+  {
+    "name": "Caniquine",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/caniquine/savage-coast-15.webp",
+    "artist": "TSR source illustration, p. 15"
+  },
+  {
+    "name": "Cinnavixen",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/cinnavixen/savage-coast-17.webp",
+    "artist": "TSR source illustration, p. 17"
+  },
+  {
+    "name": "Temple Critter",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/temple-critter/savage-coast-18.webp",
+    "artist": "TSR source illustration, p. 18"
+  },
+  {
+    "name": "Crimson Dragon",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/crimson-dragon/savage-coast-22.webp",
+    "artist": "TSR source illustration, p. 22"
+  },
+  {
+    "name": "Echyan",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/echyan/savage-coast-26.webp",
+    "artist": "TSR source illustration, p. 26"
+  },
+  {
+    "name": "Ee’aar",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/ee-aar/savage-coast-27.webp",
+    "artist": "TSR source illustration, p. 27"
+  },
+  {
+    "name": "Enduk",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/enduk/savage-coast-29.webp",
+    "artist": "TSR source illustration, p. 29"
+  },
+  {
+    "name": "Fachan",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/fachan/savage-coast-31.webp",
+    "artist": "TSR source illustration, p. 31"
+  },
+  {
+    "name": "Feliquine",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/feliquine/savage-coast-32.webp",
+    "artist": "TSR source illustration, p. 32"
+  },
+  {
+    "name": "Narvaezan Fiend",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/narvaezan-fiend/savage-coast-34.webp",
+    "artist": "TSR source illustration, p. 34"
+  },
+  {
+    "name": "Frelôn",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/frelo-n/savage-coast-35.webp",
+    "artist": "TSR source illustration, p. 35"
+  },
+  {
+    "name": "Ghriest",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/ghriest/savage-coast-37.webp",
+    "artist": "TSR source illustration, p. 37"
+  },
+  {
+    "name": "Sea Glutton",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/sea-glutton/savage-coast-38.webp",
+    "artist": "TSR source illustration, p. 38"
+  },
+  {
+    "name": "Golem",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/golem/savage-coast-42.webp",
+    "artist": "TSR source illustration, p. 42"
+  },
+  {
+    "name": "Sea Hermit",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/sea-hermit/savage-coast-56.webp",
+    "artist": "TSR source illustration, p. 56"
+  },
+  {
+    "name": "Juhrion",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/juhrion/savage-coast-58.webp",
+    "artist": "TSR source illustration, p. 58"
+  },
+  {
+    "name": "Inheritor Lich",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/inheritor-lich/savage-coast-62.webp",
+    "artist": "TSR source illustration, p. 62"
+  },
+  {
+    "name": "Lupin",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/lupin/savage-coast-69.webp",
+    "artist": "TSR source illustration, p. 69"
+  },
+  {
+    "name": "Saragón Lyra Bird",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/sarago-n-lyra-bird/savage-coast-71.webp",
+    "artist": "TSR source illustration, p. 71"
+  },
+  {
+    "name": "Malfera",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/malfera/savage-coast-72.webp",
+    "artist": "TSR source illustration, p. 72"
+  },
+  {
+    "name": "Neshezu",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/neshezu/savage-coast-77.webp",
+    "artist": "TSR source illustration, p. 77"
+  },
+  {
+    "name": "Nikt’oo",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/nikt-oo/savage-coast-78.webp",
+    "artist": "TSR source illustration, p. 78"
+  },
+  {
+    "name": "Omshirim",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/omshirim/savage-coast-83.webp",
+    "artist": "TSR source illustration, p. 83"
+  },
+  {
+    "name": "Jibarú Phanaton",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/jibaru-phanaton/savage-coast-86.webp",
+    "artist": "TSR source illustration, p. 86"
+  },
+  {
+    "name": "Vermilion Pudding",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/vermilion-pudding/savage-coast-90.webp",
+    "artist": "TSR source illustration, p. 90"
+  },
+  {
+    "name": "Rakasta",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/rakasta/savage-coast-92.webp",
+    "artist": "TSR source illustration, p. 92"
+  },
+  {
+    "name": "Forest Ray",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/forest-ray/savage-coast-93.webp",
+    "artist": "TSR source illustration, p. 93"
+  },
+  {
+    "name": "Skinwing",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/skinwing/savage-coast-96.webp",
+    "artist": "TSR source illustration, p. 96"
+  },
+  {
+    "name": "Spider-spy",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/spider-spy/savage-coast-99.webp",
+    "artist": "TSR source illustration, p. 99"
+  },
+  {
+    "name": "Heroic Spirit",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/heroic-spirit/savage-coast-100.webp",
+    "artist": "TSR source illustration, p. 100"
+  },
+  {
+    "name": "Succulus",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "beast",
+    "file": "images/beasts/succulus/savage-coast-103.webp",
+    "artist": "TSR source illustration, p. 103"
+  },
+  {
+    "name": "Shadow Symbiont",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/shadow-symbiont/savage-coast-108.webp",
+    "artist": "TSR source illustration, p. 108"
+  },
+  {
+    "name": "Legacy Troll",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/legacy-troll/savage-coast-111.webp",
+    "artist": "TSR source illustration, p. 111"
+  },
+  {
+    "name": "Utukku",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/utukku/savage-coast-114.webp",
+    "artist": "TSR source illustration, p. 114"
+  },
+  {
+    "name": "Wurmling",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/wurmling/savage-coast-121.webp",
+    "artist": "TSR source illustration, p. 121"
+  },
+  {
+    "name": "Yeshom",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/yeshom/savage-coast-123.webp",
+    "artist": "TSR source illustration, p. 123"
+  },
+  {
+    "name": "Red Zombie",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "entityKind": "monster",
+    "file": "images/monsters/red-zombie/savage-coast-124.webp",
+    "artist": "TSR source illustration, p. 124"
+  }
+]

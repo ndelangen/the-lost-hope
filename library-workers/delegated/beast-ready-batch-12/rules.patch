@@ -1,0 +1,1318 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index a3b091f..41bca08 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -5003,6 +5003,1313 @@
+     },
+     "publication": "SRD 5.1"
+   },
++  {
++    "name": "Jackal",
++    "kind": "beast",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Ability modifiers STR -1, DEX +1, CON +0, INT -4, WIS +1, CHA -2. Perception 13. Stealth 11. No special senses. Languages none.",
++    "appearance": "A russet jackal with pointed ears and a dark saddle across its back.",
++    "habitats": ["Desert", "Forest", "Grassland"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 339, 341, Chacal.",
++      "Traits": "Heightened Hearing and Smell. Perception is 18 when the jackal relies on hearing or smell.\nPack Tactics. The jackal has advantage on attack rolls against a creature if one or more of its allies are within 5 ft. of that creature and at least one of those allies is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 3 (1d4 + 1) piercing damage. The target must pass a DC 10 Constitution save or contract shriveling fever.\nShriveling fever. The infected creature is poisoned until cured. At the end of each long rest, it makes a DC 10 Constitution save. Each failure reduces its Strength score by 1d4. The creature dies if the disease reduces Strength to 0. Two successful recovery saves cure the disease. The Strength reduction lasts until the creature finishes a long rest after the cure."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Lion",
++    "kind": "beast",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 42,
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Ability modifiers STR +3, DEX +2, CON +1, INT -4, WIS +1, CHA -1. Perception 13. Stealth 16. No special senses. Languages none.",
++    "appearance": "A muscular tawny lion with a broad face and full mane.",
++    "habitats": ["Desert", "Grassland", "Hills", "Mountain"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 346, 348, León.",
++      "Traits": "Heightened Smell. Perception is 18 when the lion relies on smell.\nPack Tactics. The lion has advantage on attack rolls against a creature if one or more of its allies are within 5 ft. of that creature and at least one of those allies is not incapacitated.\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the lion forces a DC 13 Strength save. Failure knocks the target prone. If the target is prone, the lion can Bite it as a bonus action.\nRunning Leap. With a 10-ft. running start, the lion can long jump up to 25 ft.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) slashing damage.",
++      "Bonus actions": "Rattling Roar (Recharge 4–6). The lion roars in a 15-ft. cone. Each creature in the cone must pass a DC 13 Constitution save or have disadvantage on attack rolls until the end of its next turn.",
++      "At the table": "After using Rattling Roar, roll a d6 at the start of each of the lion’s turns. A roll of 4–6 restores the use. Finishing a short or long rest also restores it."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Lizard",
++    "kind": "beast",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 9,
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Ability modifiers STR -4, DEX +0, CON +0, INT -5, WIS -1, CHA -4. Perception 9. Stealth 12. Darkvision 30 ft. Languages none.",
++    "appearance": "A slender striped lizard with a long tail and splayed toes.",
++    "habitats": ["Badlands", "Coastal", "Desert", "Farmland", "Forest", "Swamp", "Underground"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, pp. 345–346, 347–348, Lagarto.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit for 2 (1d4) piercing damage.",
++      "Reactions": "Detach Tail (5 HP or fewer, recharges after a short or long rest). When the lizard takes damage, it can shed its tail to reduce that damage by 2 (1d4). It then immediately moves up to its speed without provoking opportunity attacks."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Lizard, Giant",
++    "kind": "beast",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 15,
++    "speed": "30 ft., climb 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Ability modifiers STR +2, DEX +1, CON +1, INT -4, WIS +0, CHA -3. Perception 10. Stealth 13. Darkvision 30 ft. Languages none. Armor Class includes natural armor.",
++    "appearance": "A large, low-slung lizard with heavy scales and a thick tail.",
++    "habitats": ["Badlands", "Coastal", "Desert", "Forest", "Swamp", "Underground"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 346, 348, Lagarto, gigante.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) piercing damage.",
++      "Reactions": "Detach Tail (9 HP or fewer, recharges after a short or long rest). When the lizard takes damage, it can shed its tail to reduce that damage by 4 (1d8). It then immediately moves up to its speed without provoking opportunity attacks."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Mammoth",
++    "kind": "beast",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 13,
++    "hp": 133,
++    "speed": "40 ft.",
++    "cr": "6",
++    "xp": 2300,
++    "otherStatistics": "Ability modifiers STR +6, DEX -1, CON +5, INT -4, WIS +0, CHA -2. Perception 13. Stealth 9. Resistant to cold damage and the prone condition. No special senses. Languages none. Armor Class includes natural armor.",
++    "appearance": "A woolly mammoth with shaggy brown hair and long curved tusks.",
++    "habitats": ["Arctic"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 347, 349, Mamut.",
++      "Traits": "Trampling Charge. After moving at least 20 ft. straight toward a creature and hitting it with Gore on the same turn, the mammoth forces a DC 17 Strength save. Failure knocks the target prone. If the target is prone, the mammoth can Stomp it as a bonus action.",
++      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit for 22 (3d10 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, reach 5 ft., one prone creature. Hit for 19 (3d8 + 6) bludgeoning damage.",
++      "Bonus actions": "Trunk Grab. Choose one Large or smaller creature within 10 ft. It must pass a DC 17 Strength save or be grappled, escape DC 17. The target stays restrained until the grapple ends. While the grapple lasts, the mammoth cannot use Trunk Grab on another target.",
++      "At the table": "Cold resistance halves cold damage, rounded down. Resistance to prone grants advantage on checks and saves to avoid or end the condition."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Mastiff",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 9,
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Str +1, Dex +2, Con +1, Int -4, Wis +1, Cha -2. Perception 11. Stealth 12. No special senses. Languages none.",
++    "appearance": "A muscular fawn mastiff with a broad dark muzzle and dropped ears.",
++    "habitats": ["Farmland", "Forest", "Hills", "Urban"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 347. Entry heading “Mastín”. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Heightened Hearing and Smell. Perception rises to 16 when relying on hearing or smell.",
++      "Actions": "Bite. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 4 (1d4 + 2) piercing damage. A creature hit must pass a DC 12 Strength save or fall Prone.",
++      "Reactions": "Protect Friend. When a creature within 5 ft. of the mastiff hits a friendly Humanoid the mastiff can see with an attack, the mastiff may make one Bite attack against the attacker."
++    }
++  },
++  {
++    "name": "Mule",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 10,
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Str +2, Dex +0, Con +1, Int -4, Wis +0, Cha -3. Perception 10. Stealth 10. No special senses. Resistant to Exhaustion and Prone. Languages none.",
++    "appearance": "A brown mule with upright ears, a pale muzzle and short dark mane.",
++    "habitats": ["Grassland", "Hills", "Urban"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, pp. 347–348. Entry heading “Mula”. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Beast of Burden. Treat the mule as Large when determining carrying capacity.",
++      "Actions": "Hooves. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Octopus",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "5 ft., swim 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Str -3, Dex +1, Con +0, Int -4, Wis +0, Cha -3. Perception 12. Stealth 13. Darkvision 30 ft. Languages none.",
++    "appearance": "An octopus with a rounded mantle and curling, sucker-lined arms.",
++    "habitats": ["Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 351. Entry heading “Pulpo”. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Hold Breath. Outside water, the octopus can hold its breath for 30 minutes.\nUnderwater Camouflage. Underwater, its Stealth score is 18.\nWater Breathing. The octopus breathes only underwater.",
++      "Actions": "Tentacles. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 3 (1d4 + 1) bludgeoning damage. A Medium or smaller creature hit is Grappled (escape DC 11). Until that grapple ends, the octopus cannot use Tentacles against another target.",
++      "Reactions": "Ink Dash (Recharge 6). When a creature the octopus can see damages it, the octopus can release a 5-ft.-radius cloud of ink centered on itself if it is underwater. The cloud heavily obscures the area until the end of the octopus’s next turn. A strong current can disperse it. The octopus can then swim up to its swim speed. If it swims, it immediately releases every creature it is grappling."
++    }
++  },
++  {
++    "name": "Octopus, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 11,
++    "hp": 44,
++    "speed": "10 ft., swim 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Str +3, Dex +1, Con +1, Int -3, Wis +0, Cha -3. Perception 14. Stealth 13. Darkvision 60 ft. Languages none.",
++    "appearance": "A giant octopus with a bulbous mantle and long sucker-lined arms.",
++    "habitats": ["Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 352. Entry heading “Pulpo gigante”. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Hold Breath. Outside water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. Underwater, its Stealth score is 18.\nWater Breathing. The octopus breathes only underwater.",
++      "Actions": "Tentacles. Make a melee weapon attack at +5 against one target within 15 ft. A hit deals 10 (2d6 + 3) bludgeoning damage. A Huge or smaller creature hit is Grappled (escape DC 13) and Restrained until the grapple ends. The octopus can grapple up to two creatures at once.",
++      "Bonus Actions": "Tentacle Slam. Slam one Medium or smaller creature the octopus is grappling against a solid surface. The creature makes a DC 13 Strength save, taking 7 (2d6) bludgeoning damage on a failure or half as much on a success.",
++      "Reactions": "Ink Dash (Recharge 4–6). When a creature the octopus can see damages it, the octopus can release a 20-ft.-radius cloud of ink centered on itself if it is underwater. The cloud heavily obscures the area until the end of the octopus’s next turn. A strong current can disperse it. The octopus can then swim up to its swim speed. If it swims, it immediately releases every creature it is grappling."
++    }
++  },
++  {
++    "name": "Orca",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 12,
++    "hp": 80,
++    "speed": "0 ft., swim 60 ft.",
++    "cr": "3",
++    "xp": 700,
++    "otherStatistics": "Str +4, Dex +0, Con +1, Int -4, Wis +1, Cha -2. Perception 13. Stealth 10. Natural armor. Resistant to cold damage. Keensense 120 ft. Languages none.",
++    "appearance": "A black-and-white orca with a tall dorsal fin and broad tail flukes.",
++    "habitats": ["Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, pp. 348–349. Entry heading “Orca”. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Echolocation. Deafened prevents the orca from using Keensense.\nHeightened Hearing. Perception rises to 18 when relying on hearing.\nHold Breath. The orca can hold its breath for 30 minutes.",
++      "Actions": "Multiattack. Make two Bite attacks.\nBite. Make a melee weapon attack at +6 against one creature within 5 ft. A hit deals 14 (3d6 + 4) piercing damage.",
++      "Bonus Actions": "Tail Slap. Choose one creature the orca can see within 15 ft. of its tail. The target makes a DC 14 Strength save. On a failure it is pushed up to 15 ft. away from the orca and knocked Prone. On a failure by 5 or more it is also Stunned until the end of its next turn."
++    }
++  },
++  {
++    "name": "Owl",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "5 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Ability modifiers STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −2. Perception 13. Stealth 13. Darkvision 120 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tawny owl with a pale face, patterned plumage, and folded wings.",
++    "habitats": ["Arctic", "Farmland", "Forest", "Hills"],
++    "sections": {
++      "Printed source": "Búho, Cubil de Monstruos (Nosolorol, 2025), p. 335. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.\nHeightened Hearing and Sight. Use Perception 18 when relying on hearing or sight.\nQuiet Wings. Its Stealth is 18 while it flies.",
++      "Actions": "Talons. Melee weapon attack, +3 to hit, 5 ft. reach, one creature. On a hit, deal 3 (1d4 + 1) slashing damage."
++    }
++  },
++  {
++    "name": "Owl, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 15,
++    "speed": "5 ft., fly 60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Ability modifiers STR +1, DEX +2, CON +1, INT −1, WIS +1, CHA +0. Perception 15. Stealth 14. Darkvision 120 ft. Speaks Giant Owl. Understands Common, Elvish, and Sylvan and cannot speak those three languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large, round-headed owl with barred brown plumage, folded wings, and heavy talons.",
++    "habitats": ["Arctic", "Forest", "Hills"],
++    "sections": {
++      "Printed source": "Búho, gigante, Cubil de Monstruos (Nosolorol, 2025), p. 335. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.\nHeightened Hearing and Sight. Use Perception 20 when relying on hearing or sight.\nQuiet Wings. Its Stealth is 19 while it flies.",
++      "Actions": "Talons. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 6 (1d8 + 2) slashing damage."
++    }
++  },
++  {
++    "name": "Panther",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 15,
++    "speed": "50 ft., climb 40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Ability modifiers STR +2, DEX +2, CON +0, INT −4, WIS +2, CHA −2. Perception 14. Stealth 16. Darkvision 60 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A black cat with rounded ears, muscular forelegs, and a long curved tail.",
++    "habitats": ["Forest", "Grassland", "Hills"],
++    "sections": {
++      "Printed source": "Pantera, Cubil de Monstruos (Nosolorol, 2025), pp. 349–350. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Heightened Smell. Use Perception 19 when relying on smell.\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claw on the same turn, the target must succeed on a DC 12 Strength save or fall prone. If the target is prone, the panther may make one Bite attack against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
++      "Bonus actions": "Stealthy Hunter. Take the Hide action."
++    }
++  },
++  {
++    "name": "Pony",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 10,
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Ability modifiers STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −2. Perception 10. Stealth 10. No listed special senses. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small, stocky horse with a thick mane and sturdy hooves.",
++    "habitats": ["Farmland", "Grassland", "Urban"],
++    "sections": {
++      "Printed source": "Poni, Cubil de Monstruos (Nosolorol, 2025), p. 351. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Draft Animal. The pony can push, drag, or lift weight in pounds equal to three times its carrying capacity.",
++      "Actions": "Hooves. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Quipper",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 8,
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Ability modifiers STR −4, DEX +0, CON +0, INT −5, WIS −2, CHA −4. Perception 8. Stealth 10. Darkvision 60 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "One deep-bodied olive-silver fish with a rusty belly, a blunt toothed jaw, and a forked tail.",
++    "habitats": ["Underwater"],
++    "sections": {
++      "Printed source": "Piraña, Cubil de Monstruos (Nosolorol, 2025), pp. 350–351. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Blood Frenzy. It has advantage on melee attacks against a creature below its hit point maximum.\nHeightened Smell. Use Perception 13 when relying on smell.\nWater Breathing. It can breathe only underwater.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, 5 ft. reach, one creature. On a hit, deal 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Quipper, Swarm of Quippers",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium swarm of Tiny Beasts",
++    "ac": 13,
++    "hp": 34,
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Str +1, Dex +3, Con +0, Int -5, Wis +0, Cha -4. Fixed Perception 10. Fixed Stealth 13. Darkvision 60 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Several sharply toothed fish crowded into a single school.",
++    "habitats": ["Underwater"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 351, Piraña, Enjambre de Pirañas. XP from the CR table on p. 17.",
++      "Traits": "Blood Frenzy. It has advantage on melee attack rolls against creatures below their hit point maximum.\nHeightened Smell. It uses Perception 15 when relying on smell.\nSwarm. It can share space with other creatures, and they can share its space. It fits through openings large enough for a single Tiny quipper. It cannot regain hit points or gain temporary hit points.\nWater Breathing. It can breathe only underwater.",
++      "Damage resistances": "Bludgeoning, piercing and slashing damage.",
++      "Condition immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned.",
++      "Actions": "Bites. Melee weapon attack, +5 to hit one creature in the swarm’s space, reach 0 ft. A hit deals 18 (4d8) piercing damage above half hit points, or 9 (2d8) at half hit points or fewer. The target makes a DC 13 Dexterity save. On a failure it is left with a bleeding wound and loses 4 (1d8) hit points at the start of each of its turns. Any creature can take an action to close the wound by succeeding on a DC 10 Wisdom (Medicine) check. Magical healing received by the target also closes the wound."
++    }
++  },
++  {
++    "name": "Rat",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 10,
++    "hp": 9,
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Str -4, Dex +0, Con -1, Int -4, Wis +0, Cha -3. Fixed Perception 10. Fixed Stealth 12. Darkvision 30 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A brown rat with rounded ears, a pointed whiskered nose and a long bare tail.",
++    "habitats": ["Farmland", "Forest", "Swamp", "Underground", "Urban"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 353, Rata. XP from the CR table on p. 17.",
++      "Traits": "Accustomed to Filth. It has advantage on saving throws against diseases.\nHeightened Smell. It uses Perception 15 when relying on smell.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit one target within 5 ft. A hit deals 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Rat, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Small Beast",
++    "ac": 13,
++    "hp": 14,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Str -2, Dex +3, Con +0, Int -4, Wis +0, Cha -3. Fixed Perception 10. Fixed Stealth 15. Darkvision 60 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An oversized dark brown rat with a bristly back, rounded ears and a long bare tail.",
++    "habitats": ["Farmland", "Forest", "Swamp", "Underground", "Urban"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 354, Rata, Gigante. XP from the CR table on p. 17.",
++      "Traits": "Accustomed to Filth. It has advantage on saving throws against diseases.\nHeightened Smell. It uses Perception 15 when relying on smell.\nPack Tactics. It has advantage on attacks against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit one target within 5 ft. A hit deals 5 (1d4 + 3) piercing damage. A creature hit makes a DC 13 Constitution save. On a failure the GM chooses whether it contracts Rat Plague or is Poisoned until the end of its next turn.",
++      "Rat plague": "Rat Plague. Rats are immune to this disease’s effects. An infected creature is Poisoned and can regain hit points only through magic. After every 24 hours, repeat the Constitution save at the infecting Bite’s DC. Success cures the disease. On a failure, reduce the creature’s hit point maximum by 3 (1d6). This reduction lasts until it finishes a long rest after being cured. The creature dies if the disease reduces its hit point maximum to 0.",
++      "Source notes": "The Beast overview on p. 33 lists 1/8. The actual Giant Rat stat block on p. 354 gives 1/4, consistent with the English Monster Vault catalog display of 0.3. The profile uses the stat block and 50 XP."
++    }
++  },
++  {
++    "name": "Rat, Swarm of Rats",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium swarm of Tiny Beasts",
++    "ac": 10,
++    "hp": 14,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Str -1, Dex +0, Con -1, Int -4, Wis +0, Cha -4. Fixed Perception 10. Fixed Stealth 12. Darkvision 30 ft. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A clustered mass of brown rats with rounded ears and long bare tails.",
++    "habitats": ["Farmland", "Forest", "Swamp", "Underground", "Urban"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, pp. 353–354, Rata, Enjambre de ratas. XP from the CR table on p. 17.",
++      "Traits": "Accustomed to Filth. It has advantage on saving throws against diseases.\nHeightened Smell. It uses Perception 15 when relying on smell.\nSwarm. It can share space with other creatures, and they can share its space. It fits through openings large enough for a single Tiny rat. It cannot regain hit points or gain temporary hit points.",
++      "Damage resistances": "Bludgeoning, piercing and slashing damage.",
++      "Condition immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned.",
++      "Actions": "Bites. Melee weapon attack, +2 to hit one creature in the swarm’s space, reach 0 ft. A hit deals 7 (2d6) piercing damage above half hit points, or 3 (1d6) at half hit points or fewer. The target makes a DC 9 Constitution save. On a failure the GM chooses whether it contracts Rat Plague or is Poisoned until the end of its next turn.",
++      "Rat plague": "Rat Plague. Rats are immune to this disease’s effects. An infected creature is Poisoned and can regain hit points only through magic. After every 24 hours, repeat the Constitution save at the infecting Bite’s DC. Success cures the disease. On a failure, reduce the creature’s hit point maximum by 3 (1d6). This reduction lasts until it finishes a long rest after being cured. The creature dies if the disease reduces its hit point maximum to 0."
++    }
++  },
++  {
++    "name": "Raven",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Str -4, Dex +1, Con -1, Int -3, Wis +1, Cha +0. Fixed Perception 13. Fixed Stealth 11. No special senses. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A black raven with layered blue-black feathers, a heavy curved bill and a shaggy throat.",
++    "habitats": ["Farmland", "Forest", "Hills", "Swamp", "Urban"],
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 341, Cuervo. XP from the CR table on p. 17.",
++      "Traits": "Carrion Sense. By scent, it can pinpoint carrion, dead creatures and Undead without Incorporeal Movement within 60 ft.\nMimicry. It can copy simple sounds it has heard. A listener can recognize the imitation with a successful DC 10 Wisdom (Insight) check.\nRecollection. It knows up to 20 words in any language it has heard. It uses Mimicry to repeat those words in the voices it heard.",
++      "Actions": "Beak. Melee weapon attack, +3 to hit one target within 5 ft. A hit deals 3 (1d4 + 1) piercing damage."
++    }
++  },
++  {
++    "name": "Raven, Swarm of Ravens",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium swarm of Tiny Beasts",
++    "ac": 12,
++    "hp": 13,
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Ability modifiers STR -2, DEX +2, CON -1, INT -4, WIS +1, CHA -1. Perception 13. Stealth 12. Senses —. Languages —.",
++    "appearance": "A flock of dark ravens with spread wings.",
++    "habitats": ["Farmland", "Forest", "Hills", "Swamp", "Urban"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cuervo, Enjambre de Cuervos, Cubil de Monstruos (Nosolorol, 2025), p. 341. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Carrion Sense. By scent, pinpoint carrion, dead creatures and Undead without Incorporeal Movement within 60 ft.\nPilfering Swarm. Ravens peck and pull at the clothing, hair, fur and belongings of creatures sharing the swarm’s space. A creature in that space casting a spell with a material component must pass a DC 12 Dexterity save. On a failure, the ravens steal the component and the spell fails. The casting action is spent, and the spell slot or daily use is retained.\nSwarm. The swarm and other creatures can share spaces. The swarm fits through any opening large enough for a Tiny raven. It cannot regain HP or gain temporary HP.\nSwarm Resilience. The swarm resists bludgeoning, piercing and slashing damage and is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned conditions.",
++      "Actions": "Beaks. Melee weapon attack, +4 to hit, reach 0 ft., one creature in the swarm’s space. A hit deals 9 (2d8) piercing damage, or 4 (1d8) if the swarm has half its HP or less."
++    }
++  },
++  {
++    "name": "Rhinoceros",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 11,
++    "hp": 63,
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Natural armor. Ability modifiers STR +5, DEX -1, CON +2, INT -4, WIS +1, CHA -2. Perception 11. Stealth 9. Senses —. Languages —.",
++    "appearance": "A heavy gray rhinoceros with folded skin and two nose horns.",
++    "habitats": ["Grassland"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Rinoceronte, Cubil de Monstruos (Nosolorol, 2025), p. 354. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Resistances": "Bludgeoning damage and the stunned condition. Halve incoming bludgeoning damage, rounded down. The rhinoceros has advantage on checks and saves to avoid or end the stunned condition.",
++      "Traits": "Charge. If the rhinoceros moves at least 20 ft. straight toward a target and hits it with Gore that turn, the hit deals an extra 7 (2d6) piercing damage. A creature hit in this way must pass a DC 15 Strength save or be pushed up to 10 ft. away from the rhinoceros and fall prone.",
++      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage.",
++      "Bonus Actions": "Quaking Stomp. The rhinoceros strikes the ground with its front feet. Every creature within 10 ft. of the rhinoceros must pass a DC 15 Dexterity save or fall prone."
++    }
++  },
++  {
++    "name": "Seahorse",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 9,
++    "speed": "0 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Natural armor. Ability modifiers STR -5, DEX +0, CON -1, INT -5, WIS +0, CHA -4. Perception 10. Stealth 12. Senses —. Languages —.",
++    "appearance": "A small seahorse with an upright head and a curled tail.",
++    "habitats": ["Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Caballito de mar, Cubil de Monstruos (Nosolorol, 2025), p. 337. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Underwater Camouflage. The seahorse’s Stealth is 17 underwater.\nWater Breathing. It can breathe only underwater.",
++      "Actions": "Ram. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Seahorse, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 13,
++    "hp": 25,
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "otherStatistics": "Natural armor. Ability modifiers STR +1, DEX +2, CON +0, INT -4, WIS +1, CHA -3. Perception 11. Stealth 14. Senses —. Languages —.",
++    "appearance": "A ridged seahorse with a long snout and a curled grasping tail.",
++    "habitats": ["Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Caballito de mar, gigante, Cubil de Monstruos (Nosolorol, 2025), p. 337. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Charge. If the seahorse moves at least 20 ft. straight toward a target and hits it with Ram that turn, the hit deals an extra 5 (2d4) bludgeoning damage. A creature hit in this way must pass a DC 12 Strength save or fall prone.\nUnderwater Camouflage. The seahorse’s Stealth is 19 underwater.\nWater Breathing. It can breathe only underwater.",
++      "Actions": "Ram. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) bludgeoning damage.",
++      "Bonus Actions": "Grasping Tail. One Medium or smaller creature within 10 ft. must pass a DC 12 Strength save or be grappled. The target remains restrained until the grapple ends and can use its action to try to escape (DC 12). While the grapple lasts, the seahorse cannot use Grasping Tail on a different target."
++    }
++  },
++  {
++    "name": "Seal",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 14,
++    "hp": 13,
++    "speed": "20 ft., swim 50 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Natural armor. Ability modifiers STR +0, DEX +2, CON +0, INT -4, WIS +1, CHA +0. Perception 13. Stealth 12. Darkvision 60 ft. Languages —.",
++    "appearance": "A mottled gray-brown seal with a rounded head, fine whiskers and paired hind flippers.",
++    "habitats": ["Underwater"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Foca, Cubil de Monstruos (Nosolorol, 2025), pp. 341–342. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Hold Breath. The seal can hold its breath for 1 hour.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage.",
++      "Bonus Actions": "Charming Escape. The seal takes the Dash or Disengage action, clapping its flippers, barking or spinning as it moves. Every creature within 5 ft. must pass a DC 12 Charisma save or be charmed until the end of its next turn."
++    }
++  },
++  {
++    "name": "Shark, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 13,
++    "hp": 126,
++    "speed": "0 ft., swim 50 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "otherStatistics": "Fixed Perception 13, Stealth 10. Modifiers STR +6, DEX +0, CON +5, INT −5, WIS +0, CHA −3. Natural armor. Keensense 60 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy gray shark with a pale belly, a broad head and an open, tooth-lined jaw.",
++    "habitats": ["Underwater"],
++    "sections": {
++      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 358–359, Tiburón, Gigante. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Blood Frenzy. The shark has advantage on melee attacks against creatures below their hit point maximum.\nBlood Sense. By scent, the shark can pinpoint creatures below their hit point maximum within 120 ft. and discern their general direction up to 1 mile away.\nElectrical Sensitivity. When the shark takes lightning damage, it must succeed on a DC 15 Constitution save or become incapacitated until the end of its next turn.\nWater Breathing. The shark breathes only underwater.",
++      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit for 19 (3d8 + 6) piercing damage.",
++      "Bonus actions": "Swift Hunter. Move up to half the shark’s speed toward a hostile creature it can see. This movement does not provoke opportunity attacks."
++    }
++  },
++  {
++    "name": "Shark, Hunter",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 63,
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Fixed Perception 12, Stealth 11. Modifiers STR +3, DEX +1, CON +2, INT −5, WIS +0, CHA −3. Natural armor. Keensense 30 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stout gray-brown shark with dark stripes along its back and sides and a pale underside.",
++    "habitats": ["Underwater"],
++    "sections": {
++      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 357–358, Tiburón, Cazador. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Blood Frenzy. The shark has advantage on melee attacks against creatures below their hit point maximum.\nBlood Sense. By scent, the shark can pinpoint creatures below their hit point maximum within 60 ft. and discern their general direction up to 1 mile away.\nElectrical Sensitivity. When the shark takes lightning damage, it must succeed on a DC 12 Constitution save or become incapacitated until the end of its next turn.\nWater Breathing. The shark breathes only underwater.",
++      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 12 (2d8 + 3) piercing damage.",
++      "Bonus actions": "Swift Hunter. Move up to half the shark’s speed toward a hostile creature it can see. This movement does not provoke opportunity attacks."
++    }
++  },
++  {
++    "name": "Shark, Reef",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 27,
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "otherStatistics": "Fixed Perception 12, Stealth 11. Modifiers STR +2, DEX +1, CON +1, INT −5, WIS +0, CHA −3. Natural armor. Keensense 30 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slim blue-gray shark with a pale underside and dark fin tips.",
++    "habitats": ["Underwater"],
++    "sections": {
++      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 358, Tiburón, de Arrecife. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Blood Sense. By scent, the shark can pinpoint creatures below their hit point maximum within 60 ft. and discern their general direction up to 1 mile away.\nElectrical Sensitivity. When the shark takes lightning damage, it must succeed on a DC 11 Constitution save or become incapacitated until the end of its next turn.\nPack Tactics. The shark has advantage on attacks against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nWater Breathing. The shark breathes only underwater.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) piercing damage.",
++      "Bonus actions": "Stealthy Hunter. Take the Hide action."
++    }
++  },
++  {
++    "name": "Snake, Constrictor",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 15,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Fixed Perception 10, Stealth 12. Modifiers STR +2, DEX +2, CON +1, INT −5, WIS +0, CHA −4. Keensense 10 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A thick-bodied snake with dark brown blotches across its tan coils and a low, broad head.",
++    "habitats": ["Desert", "Forest", "Swamp"],
++    "sections": {
++      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 355, Serpiente, constrictora. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 5 (1d6 + 2) piercing damage.\nConstrict. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) bludgeoning damage. A Large or smaller target hit this way becomes grappled, escape DC 12. The target is restrained until the grapple ends. The snake cannot use Constrict against another target while it holds this grapple.",
++      "Bonus actions": "Crush. One creature grappled by the snake must pass a DC 12 Strength save or take 4 (1d8) bludgeoning damage and begin suffocating until the grapple ends."
++    }
++  },
++  {
++    "name": "Snake, Flying",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 10,
++    "speed": "30 ft., fly 60 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Fixed Perception 11, Stealth 13. Modifiers STR −3, DEX +1, CON +0, INT −4, WIS +1, CHA −3. Keensense 10 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A coiled olive-green snake with lighter bands, a raised head and outstretched membranous wings.",
++    "habitats": ["Desert", "Forest", "Grassland", "Urban"],
++    "sections": {
++      "Printed source": "Nosolorol, Cubil de Monstruos, licensed 2025 Spanish translation of Kobold Press Monster Vault, printed p. 356, Serpiente, voladora. XP is from the challenge table on p. 17. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 3 (1d4 + 1) piercing damage. The target must also succeed on a DC 11 Constitution save or take 5 (2d4) poison damage.",
++      "Reactions": "Reflexive Escape. When a creature the snake can see attacks it, the snake can move up to 5 ft. The attack misses if this movement takes the snake out of the attack’s reach."
++    }
++  },
++  {
++    "name": "Snake, Giant Constrictor",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Huge Beast",
++    "ac": 12,
++    "hp": 63,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Ability modifiers STR +3, DEX +2, CON +1, INT -5, WIS +0, CHA -4. Perception 12. Stealth 12. Senses Keensense 10 ft. Languages None.",
++    "appearance": "A heavy olive-brown snake with pale markings, broad overlapping coils, and a raised head.",
++    "habitats": ["Desert", "Forest", "Swamp"],
++    "sections": {
++      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 355, Serpiente, constrictora gigante.",
++      "Actions": "Multiattack. Make one Bite and one Constrict, or make two Bite attacks.\nBite. Melee weapon attack, +6 to hit, reach 10 ft., one creature. On a hit, deal 10 (2d6 + 3) piercing damage.\nConstrict. Melee weapon attack, +6 to hit, reach 5 ft., one creature. On a hit, deal 12 (2d8 + 3) bludgeoning damage and grapple the target (escape DC 14). The grappled creature is restrained, and the snake cannot Constrict another target until this grapple ends.",
++      "Bonus actions": "Crush. Choose one creature the snake is grappling. It must make a DC 14 STR save. On a failure, it takes 9 (2d8) bludgeoning damage and begins suffocating. The creature keeps suffocating until the grapple ends."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Snake, Giant Poisonous",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 12,
++    "hp": 14,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Ability modifiers STR +0, DEX +2, CON +1, INT -4, WIS +0, CHA -4. Perception 10. Stealth 14. Senses Keensense 10 ft. Languages None. Damage resistances poison. Resistant to poisoned. Apply advantage to rolls and saves to avoid or end that condition.",
++    "appearance": "A coiled brown snake with dark blotches, a pale raised throat, and a dark stripe through the eye.",
++    "habitats": [
++      "Badlands",
++      "Coastal",
++      "Desert",
++      "Forest",
++      "Grassland",
++      "Swamp",
++      "Underground",
++      "Underwater",
++      "Urban"
++    ],
++    "sections": {
++      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 356, Serpiente, Venenosa Gigante.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 10 ft., one creature. On a hit, deal 5 (1d6 + 2) piercing damage. The target must make a DC 11 CON save and takes 5 (2d4) poison damage on a failure or half on a success.",
++      "Reactions": "Reflexive Nip. When a creature the snake can see hits it with a melee attack from within 5 ft., the snake can nip the attacker. The attacker must succeed on a DC 11 CON save or be poisoned until the end of its next turn."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Snake, Poisonous",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 9,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Ability modifiers STR -4, DEX +1, CON +0, INT -5, WIS +0, CHA -4. Perception 10. Stealth 13. Senses Keensense 10 ft. Languages None. Damage resistances poison. Resistant to poisoned. Apply advantage to rolls and saves to avoid or end that condition.",
++    "appearance": "A slender snake with alternating rusty red, cream, and dark bands.",
++    "habitats": [
++      "Badlands",
++      "Coastal",
++      "Desert",
++      "Farmland",
++      "Forest",
++      "Grassland",
++      "Hills",
++      "Swamp",
++      "Underwater",
++      "Urban"
++    ],
++    "sections": {
++      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), pp. 355–356, Serpiente, venenosa.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. On a hit, deal 3 (1d4 + 1) piercing damage. The target must succeed on a DC 10 CON save or take 2 (1d4) poison damage.",
++      "Reactions": "Reflexive Nip. When a creature the snake can see hits it with a melee attack from within 5 ft., the snake can nip the attacker. The attacker must succeed on a DC 10 CON save or be poisoned until the end of its next turn."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Snake, Swarm of Poisonous Snakes",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Swarm of Tiny Beasts",
++    "ac": 14,
++    "hp": 48,
++    "speed": "30 ft., swim 30 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Ability modifiers STR -1, DEX +4, CON +0, INT -5, WIS +0, CHA -4. Perception 10. Stealth 14. Senses Keensense 10 ft. Languages None. Damage resistances poison, bludgeoning, piercing, and slashing. Resistant to poisoned. Apply advantage to rolls and saves to avoid or end that condition.",
++    "appearance": "Several olive and brown snakes with raised heads and overlapping coils.",
++    "habitats": [
++      "Badlands",
++      "Coastal",
++      "Desert",
++      "Farmland",
++      "Forest",
++      "Grassland",
++      "Hills",
++      "Swamp",
++      "Underwater",
++      "Urban"
++    ],
++    "sections": {
++      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), p. 355, Serpiente, Enjambre de Serpientes Venenosas.",
++      "Traits": "Poisonous Swarm. A creature that starts its turn in the swarm’s space must make a DC 14 CON save or be poisoned until the start of its next turn.\nSwarm. The swarm and other creatures can share space. The swarm can pass through any opening that admits a Tiny snake. It cannot regain HP or gain temporary HP.\nSwarm Resilience. The swarm is resistant to bludgeoning, piercing, and slashing damage. It is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions.",
++      "Actions": "Bites. Melee weapon attack, +6 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its HP or less. The target then makes a DC 14 CON save and takes 18 (4d8) poison damage on a failure or half on a success."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Spider",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 12,
++    "hp": 8,
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "otherStatistics": "Natural armor. Ability modifiers STR -4, DEX +0, CON -1, INT -5, WIS +0, CHA -4. Perception 10. Stealth 14. Senses Darkvision 30 ft. Languages None.",
++    "appearance": "A speckled brown spider with a round abdomen and long, narrow legs.",
++    "habitats": ["Desert", "Forest", "Swamp", "Underground", "Urban"],
++    "sections": {
++      "Printed source": "Nosolorol’s licensed Spanish edition, Cubil de Monstruos (2025), pp. 333–334, Araña.",
++      "Traits": "Spider Climb. The spider can climb difficult surfaces, including ceilings upside down, without an ability check.\nWeb Sense. When touching a web, it knows the exact location of any other creature touching that same web.\nWeb Walker. The spider ignores movement restrictions caused by any kind of net or web.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. On a hit, deal 2 (1d4) piercing damage. The target must succeed on a DC 9 CON save or take 2 (1d4) poison damage.",
++      "Bonus actions": "Web Shot (Recharge 4–6). Fire webbing at one creature the spider can see within 15 ft. The target must succeed on a DC 9 DEX save or have its speed reduced by 10 ft. A creature can use an action to remove the webbing from itself and end the effect.",
++      "Source note": "Cubil de Monstruos p. 333 includes nets and webs in Web Walker. The English Black Flag Roleplaying Reference Document v0.4 lists webbing. This profile follows the Spanish Monster Vault printing."
++    },
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true
++  },
++  {
++    "name": "Spider, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 15,
++    "hp": 40,
++    "speed": "30 ft., Climb 30 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Ability modifiers STR +2, DEX +3, CON +1, INT -4, WIS +0, CHA -3. Fixed Perception 10. Fixed Stealth 17. AC includes natural armor. Keensense 10 ft. Darkvision 60 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long-legged brown spider with a broad rounded abdomen marked by two pale chevrons.",
++    "habitats": ["Desert", "Forest", "Swamp", "Underground", "Urban"],
++    "sections": {
++      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Araña, Gigante, printed p. 334, p. 336. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down across ceilings without an ability check.\n\nWeb Sense. While touching webbing, the spider knows the exact location of every other creature touching that web.\n\nWeb Walker. Webs and nets do not restrict the spider’s movement.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 7 (1d8 + 3) piercing damage. The target makes a DC 13 Constitution save, taking 10 (3d6) poison damage on a failure or half on a success. If that poison damage reduces the target to 0 HP, the target is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
++      "Bonus actions": "Web (Recharge 4–6). The spider fires webbing at one creature it can see within 30 ft. The target must succeed on a DC 12 Dexterity save or become restrained. Any creature, including the restrained target, can take an action and make a DC 12 Strength check to break the web and free the target. The web can also be attacked and destroyed. It has AC 10, 5 HP, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage."
++    }
++  },
++  {
++    "name": "Spider, Giant Wolf",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 13,
++    "hp": 14,
++    "speed": "40 ft., Climb 40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "otherStatistics": "Ability modifiers STR +2, DEX +2, CON +1, INT -4, WIS +1, CHA -3. Fixed Perception 13. Fixed Stealth 16. AC includes natural armor. Keensense 10 ft. Darkvision 60 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A robust, hairy wolf spider with patterned brown markings, thick legs, and clustered eyes.",
++    "habitats": ["Forest", "Grassland", "Hills"],
++    "sections": {
++      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Araña, lobo gigante, printed p. 334, p. 336. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Spider Climb. The spider can climb difficult surfaces and move upside down across ceilings without an ability check.\n\nStanding Leap. The spider can jump up to 20 ft. horizontally or 10 ft. vertically, with or without a running start.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage. The target must succeed on a DC 12 Constitution save or take 5 (2d4) poison damage. If that poison damage reduces the target to 0 HP, the target is stable and poisoned for 1 hour, even if it regains HP. It is paralyzed while poisoned this way.",
++      "Bonus actions": "Hunter’s Leap. The spider jumps up to 20 ft. horizontally or 10 ft. vertically toward a hostile creature it can see. This movement does not provoke opportunity attacks."
++    }
++  },
++  {
++    "name": "Stirge",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 14,
++    "hp": 7,
++    "speed": "10 ft., Fly 40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "otherStatistics": "Ability modifiers STR -3, DEX +2, CON +0, INT -4, WIS -1, CHA -2. Fixed Perception 9. Fixed Stealth 12. AC includes natural armor. Darkvision 60 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small, brown, bat-winged insectoid with hooked feet and a long pointed proboscis.",
++    "habitats": ["Farmland", "Forest", "Grassland", "Hills", "Swamp", "Urban"],
++    "sections": {
++      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Estirge, printed p. 184, p. 186. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
++      "Actions": "Blood Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 4 (1d4 + 2) piercing damage and attaches the stirge to the target. While attached, the stirge cannot attack and the target loses 4 (1d4 + 2) HP at the start of each of the stirge’s turns. The stirge moves with the target without spending movement. It can detach by spending 5 ft. of movement on its turn and does so after draining 8 HP of blood or if the target dies. Any creature, including the target, can use an action to detach the stirge.",
++      "Reactions": "Reactive Wiggle. If a creature within 5 ft. of the attached stirge targets it with an attack, the stirge can wiggle to expose the host’s flesh. The attacker must succeed on a DC 12 Dexterity save or the attack targets the host instead."
++    }
++  },
++  {
++    "name": "Tiger",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 38,
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "otherStatistics": "Ability modifiers STR +3, DEX +2, CON +2, INT -4, WIS +1, CHA -1. Fixed Perception 13. Fixed Stealth 16. Darkvision 60 ft. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stocky orange tiger with black stripes, a pale belly and muzzle, and a long ringed tail.",
++    "habitats": ["Forest", "Grassland"],
++    "sections": {
++      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Tigre, printed p. 359, p. 361. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Heightened Smell. The tiger’s Perception is 18 when it relies on smell.\n\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the tiger forces a DC 13 Strength save. The target falls prone on a failure. If the target is prone, the tiger can make one Bite attack against it as a bonus action.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack. If both hit the same creature, that creature must succeed on a DC 13 Constitution save at the start of its next turn or lose 5 (2d4) HP to bleeding.\n\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. A hit deals 6 (1d6 + 3) piercing damage.\n\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) slashing damage."
++    }
++  },
++  {
++    "name": "Tiger, Saber-Toothed",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 12,
++    "hp": 63,
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "otherStatistics": "Ability modifiers STR +4, DEX +2, CON +2, INT -4, WIS +1, CHA -1. Fixed Perception 13. Fixed Stealth 16. No special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy tawny feline with broad shoulders, a short tail, and two long curved upper canines.",
++    "habitats": ["Arctic", "Mountain"],
++    "sections": {
++      "Printed source": "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Tigre, dientes de sable, printed p. 359, p. 361. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant",
++      "Traits": "Heightened Smell. The tiger’s Perception is 18 when it relies on smell.\n\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the tiger forces a DC 14 Strength save. The target falls prone on a failure. If the target is prone, the tiger can make one Claws attack against it as a bonus action.",
++      "Actions": "Multiattack. Make one Bite and one Claws attack.\n\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 9 (1d10 + 4) piercing damage. The target must then succeed on a DC 14 Dexterity save or suffer a puncture wound. The wound causes loss of 5 (1d10) HP at the start of each of the target’s turns. Any creature can use an action and succeed on a DC 12 Wisdom (Medicine) check to close the wound. Magical healing received by the target also closes it.\n\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) slashing damage."
++    }
++  },
++  {
++    "name": "Vulture",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 10,
++    "hp": 8,
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "printedPage": 336,
++    "otherStatistics": "Perception 13. Stealth 10. Str -2. Dex +0. Con +1. Int -4. Wis +1. Cha -3. Senses none. Languages none.",
++    "appearance": "A brown vulture with a bare gray head, pale neck ruff and partly spread wings.",
++    "habitats": ["Desert", "Grassland", "Hills"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 336, Buitre.",
++      "Traits": "Carrion Sense. The vulture can pinpoint by scent any carrion, dead creature, or undead without Incorporeal Movement within 60 ft. of it.\nHeightened Sight and Smell. The vulture's Perception is 18 when using sight or smell.\nPack Tactics. The vulture has advantage on attack rolls against a creature if at least one ally of the vulture is within 5 ft. of the creature and that ally is not incapacitated.",
++      "Actions": "Beak. Melee weapon attack +2, reach 5 ft., one target. On a hit, deal 2 (1d4) piercing damage.",
++      "Reactions": "Defensive Bile. When a creature the vulture can see hits it with a melee attack from within 5 ft., the vulture can spit partially digested carrion at the attacker. The attacker is incapacitated until the end of its next turn on a failed DC 11 Constitution save."
++    }
++  },
++  {
++    "name": "Vulture, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 10,
++    "hp": 46,
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "1",
++    "xp": 200,
++    "printedPage": 336,
++    "otherStatistics": "Perception 13. Stealth 10. Str +3. Dex +0. Con +2. Int -4. Wis +1. Cha -2. Senses none. Languages none.",
++    "appearance": "A broad dark-brown vulture with a bare pink neck, a pale ruff and a heavy hooked beak.",
++    "habitats": ["Desert", "Grassland", "Hills"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 336, Buitre, Gigante.",
++      "Traits": "Carrion Sense. The vulture can pinpoint by scent any carrion, dead creature, or undead without Incorporeal Movement within 60 ft. of it.\nHeightened Sight and Smell. The vulture's Perception is 18 when using sight or smell.\nPack Tactics. The vulture has advantage on attack rolls against a creature if at least one ally of the vulture is within 5 ft. of the creature and that ally is not incapacitated.",
++      "Actions": "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.\nTalons. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) slashing damage.",
++      "Reactions": "Defensive Bile. When a creature the vulture can see hits it with a melee attack from within 5 ft., the vulture can spit partially digested carrion at the attacker. On a failed DC 13 Constitution save, the attacker takes 5 (2d4) acid damage and is incapacitated until the end of its next turn."
++    }
++  },
++  {
++    "name": "Weasel",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Tiny Beast",
++    "ac": 11,
++    "hp": 8,
++    "speed": "30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "printedPage": 340,
++    "otherStatistics": "Perception 13. Stealth 13. Str -4. Dex +1. Con -1. Int -4. Wis +1. Cha -4. Senses none. Languages none.",
++    "appearance": "A slim tawny weasel with short legs, a pale underside and a long tail.",
++    "habitats": ["Farmland", "Forest", "Grassland", "Hills"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 340, Comadreja.",
++      "Traits": "Heightened Hearing and Smell. The weasel's Perception is 18 when using hearing or smell.",
++      "Actions": "Bite. Melee weapon attack +3, reach 5 ft., one creature. On a hit, deal 3 (1d4 + 1) piercing damage or steal one item the target wears or carries. The item must weigh 5 lb. or less and fit in one hand. It cannot be a weapon or be wrapped around or firmly attached to the target."
++    }
++  },
++  {
++    "name": "Weasel, Giant",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 13,
++    "hp": 14,
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "printedPage": 340,
++    "otherStatistics": "Perception 13. Stealth 15. Str +0. Dex +3. Con +0. Int -3. Wis +1. Cha -3. Senses darkvision 60 ft. Languages none.",
++    "appearance": "A large chestnut weasel with a cream throat and belly, and a raised, curling tail.",
++    "habitats": ["Forest", "Grassland", "Hills"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, pp. 340–341, Comadreja, Gigante.",
++      "Traits": "Heightened Hearing and Smell. The giant weasel's Perception is 18 when using hearing or smell.",
++      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage or steal one item the target wears or carries. The item must weigh 10 lb. or less. It cannot be a weapon or be wrapped around or firmly attached to the target.",
++      "Reactions": "Repellent Spray. When a creature the weasel can see moves into a space within 15 ft. of it, the weasel can spray the creature. On a failed DC 13 Constitution save, the creature is poisoned until the end of its next turn. While poisoned this way, it cannot move into a space within 5 ft. of the weasel."
++    }
++  },
++  {
++    "name": "Wolf",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Medium Beast",
++    "ac": 13,
++    "hp": 14,
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "printedPage": 346,
++    "otherStatistics": "Perception 11. Stealth 14. Str +1. Dex +2. Con +1. Int -4. Wis +1. Cha -2. AC includes natural armor. Senses none. Languages none.",
++    "appearance": "A gray-brown wolf with upright ears, a lighter muzzle and a thick tail.",
++    "habitats": ["Farmland", "Forest", "Grassland", "Hills"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, pp. 346–347, Lobo.",
++      "Traits": "Heightened Hearing and Smell. The wolf's Perception is 16 when using hearing or smell.\nPack Tactics. The wolf has advantage on attack rolls against a creature if at least one ally of the wolf is within 5 ft. of the creature and that ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage. A creature hit this way falls prone on a failed DC 12 Strength save."
++    }
++  },
++  {
++    "name": "Wolf, Dire",
++    "publication": "Monster Vault",
++    "edition": "Black Flag Roleplaying",
++    "classification": "Large Beast",
++    "ac": 14,
++    "hp": 40,
++    "speed": "50 ft.",
++    "cr": "1",
++    "xp": 200,
++    "printedPage": 347,
++    "otherStatistics": "Perception 13. Stealth 14. Str +3. Dex +2. Con +2. Int -4. Wis +1. Cha -2. AC includes natural armor. Senses none. Languages none.",
++    "appearance": "A heavy dark-gray wolf with a broad head, thick shoulders and coarse fur.",
++    "habitats": ["Farmland", "Forest", "Hills"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Cubil de Monstruos, licensed Spanish edition of Monster Vault, p. 347, Lobo, terrible.",
++      "Resistances": "Resistant to frightened. The wolf has advantage on checks and saves to avoid or end that condition.",
++      "Traits": "Heightened Hearing and Smell. The dire wolf's Perception is 18 when using hearing or smell.\nPack Tactics. The dire wolf has advantage on attack rolls against a creature if at least one ally of the dire wolf is within 5 ft. of the creature and that ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. On a hit, deal 12 (2d8 + 3) piercing damage. A creature hit this way falls prone on a failed DC 13 Strength save.",
++      "Bonus actions": "Hungry Growl. Growl at one creature the wolf can see within 30 ft. On a failed DC 13 Wisdom save, the creature is frightened until the end of its next turn. The wolf has advantage on its next attack roll against the frightened creature."
++    }
++  },
++  {
++    "name": "Brontosaurus",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast (Dinosaur), unaligned",
++    "ac": 15,
++    "hp": 121,
++    "hitDice": "9d20 + 27",
++    "speed": "30 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "savingThrows": {
++      "Con": 6
++    },
++    "passivePerception": 10,
++    "otherStatistics": "Natural armor. Proficiency bonus +3. Constitution saving throw +6. Passive Perception 10. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy gray-green quadruped with an upright neck, columnar legs, and a long curved tail.",
++    "habitats": ["Forest", "Grassland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 95. https://www.dndbeyond.com/monsters/2560746-brontosaurus",
++      "Actions": "Stomp. Melee weapon attack, +8 to hit, 20 ft. reach, one target. On a hit, deal 27 (5d8 + 5) bludgeoning damage. The target falls prone if it fails a DC 14 Strength saving throw.\nTail. Melee weapon attack, +8 to hit, 20 ft. reach, one target. On a hit, deal 32 (6d8 + 5) bludgeoning damage.",
++      "Encounter ecology": "Its size discourages most predators. It uses its tail against smaller threats that come close.",
++      "Source notes": "Both attacks have a printed reach of 20 ft. Only Stomp can knock the target prone."
++    }
++  },
++  {
++    "name": "Deinonychus",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast (Dinosaur), unaligned",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d8 + 8",
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "skills": {
++      "Perception": 3
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An olive-green biped with a long stiff tail, hooked toe claws, and curled foreclaws.",
++    "habitats": ["Forest", "Grassland", "Hill"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 95. https://www.dndbeyond.com/monsters/2560770-deinonychus",
++      "Traits": "Pounce. Move at least 20 ft. directly toward a creature, then hit it with Claw on that turn. It falls prone if it fails a DC 12 Strength saving throw. If it is prone, the deinonychus can use a bonus action to Bite it once.",
++      "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 6 (1d8 + 2) slashing damage.",
++      "Encounter ecology": "A larger relative of the velociraptor that hooks prey with its claws and feeds while gripping it.",
++      "Source notes": "The bonus-action Bite keys off the target being prone after the Claw trigger. The printed text does not require that the Pounce save caused the prone condition."
++    }
++  },
++  {
++    "name": "Dimetrodon",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast (Dinosaur), unaligned",
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "speed": "30 ft., swim 20 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "skills": {
++      "Perception": 2
++    },
++    "passivePerception": 12,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +2. Passive Perception 12. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, wide-jawed reptile with short legs, a tapering tail, and a tall burnt-orange sail.",
++    "habitats": ["Coastal", "Swamp"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 95. https://www.dndbeyond.com/monsters/2560776-dimetrodon",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 9 (2d6 + 2) piercing damage.",
++      "Encounter ecology": "This sail-backed reptile shares territory with dinosaurs and hunts along shores and in shallow water like a crocodile.",
++      "Source notes": "The creature account calls it a reptile. The stat block gives it the Dinosaur tag."
++    }
++  },
++  {
++    "name": "Velociraptor",
++    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast (Dinosaur), unaligned",
++    "ac": 13,
++    "hp": 10,
++    "hitDice": "3d4 + 3",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "skills": {
++      "Perception": 3
++    },
++    "passivePerception": 13,
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Perception +3. Passive Perception 13. No languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A feathered, rust-and-cream biped with a narrow snout and long, nearly level tail.",
++    "habitats": ["Forest", "Grassland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Mordenkainen Presents: Monsters of the Multiverse, first printing, October 2021, Chapter 2, Dinosaurs, stat block p. 96, creature account p. 95. https://www.dndbeyond.com/monsters/2560950-velociraptor",
++      "Traits": "Pack Tactics. The velociraptor rolls with advantage to attack a creature if it has an ally within 5 ft. of that creature and that ally is not incapacitated.",
++      "Actions": "Multiattack. Make one Bite attack and one Claw attack.\nBite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, 5 ft. reach, one target. On a hit, deal 4 (1d4 + 2) slashing damage.",
++      "Encounter ecology": "About the size of a large turkey, this feathered predator often hunts in packs to take larger prey.",
++      "Source notes": "The creature account begins in the right column of p. 95. The full stat block is in the lower right column of p. 96."
++    }
++  },
+   {
+     "name": "Bugbear",
+     "classification": "Medium humanoid (goblinoid), chaotic evil",

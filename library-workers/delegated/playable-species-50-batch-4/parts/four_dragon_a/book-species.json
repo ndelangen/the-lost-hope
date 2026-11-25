@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Silverbrow Human",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Human",
+    "traits": [
+      "Medium humanoid, base land speed 30 ft. No racial ability adjustments or racial Hit Dice. Level adjustment +0. Gains a bonus feat at 1st level.",
+      "Disguise is always a class skill and has a +2 racial bonus. Uses the normal class skill-point budget without extra human skill points.",
+      "Feather fall is available as a spell-like ability once per day, plus one daily use for each 5 HD.",
+      "Starts with Common and may choose nonsecret bonus languages. The highest-level class is favored.",
+      "The dragonblood subtype makes dragon-specific effects apply and opens options gated by that subtype or usable only by dragons. The character remains a humanoid."
+    ]
+  },
+  {
+    "name": "Deepwyrm Drow",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Drow",
+    "traits": [
+      "Medium humanoid, speed 30 ft. Dexterity, Intelligence and Charisma each increase by 2. Constitution decreases by 2. Level adjustment +2, with no racial Hit Dice.",
+      "Darkvision 120 ft. Sudden bright light blinds for one round, then dazzles while the drow stays in that light. Spell resistance is 11 + class levels.",
+      "Immune to magical sleep. Keeps the +2 racial saving throw bonus against enchantment spells and effects, but loses the drow bonus to Will saves against spells and spell-like abilities generally.",
+      "Has racial proficiency with hand crossbow, rapier and short sword. Gains +2 racial bonuses to Bluff, Listen, Search and Spot. May check for secret or concealed doors within 5 ft. without actively searching.",
+      "Racial spell-like abilities are detect magic three times per day and disguise self, dancing lights and darkness each once per day. The added spells use character level as caster level.",
+      "Starts with Common, Elven and Undercommon. Bonus languages are Abyssal, Aquan, Draconic, Drow Sign Language, Gnome and Goblin. The printed base favored classes are wizard for males and cleric for females.",
+      "The dragonblood subtype makes dragon-specific effects apply and opens options gated by that subtype or usable only by dragons. The character remains a humanoid."
+    ]
+  },
+  {
+    "name": "Deepwyrm Half-Drow",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Drow Half-Elf",
+    "traits": [
+      "Medium humanoid, base land speed 30 ft. No racial ability adjustments or racial Hit Dice. Level adjustment +0. Darkvision 60 ft. Drow Blood treats the character as a drow for race-dependent effects.",
+      "Immune to magical sleep and gains +2 to saves against enchantment spells and effects. Gains +1 racial bonuses on Listen, Search and Spot, and +2 on Bluff and Gather Information.",
+      "Detect magic is available three times per day and disguise self once per day as spell-like abilities. Both use character level as caster level.",
+      "Uses Races of Faerûn regional languages. The highest-level class is favored.",
+      "The dragonblood subtype makes dragon-specific effects apply and opens options gated by that subtype or usable only by dragons. The character remains a humanoid."
+    ]
+  },
+  {
+    "name": "Forestlord Elf",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Elf",
+    "traits": [
+      "Medium humanoid, base land speed 30 ft. Dexterity +2 and Constitution −2. No racial Hit Dice or level adjustment. Low-light vision and immunity to magical sleep.",
+      "Gains +2 racial bonuses on Listen, Search and Spot. May check for secret or concealed doors within 5 ft. without actively searching. Hide is a class skill.",
+      "The base elf enchantment saving throw bonus and automatic longsword, rapier, longbow and shortbow proficiency are lost.",
+      "Starts with Common and Elven, with Draconic, Gnoll, Gnome, Goblin, Orc and Sylvan as bonus choices. Favored class Sorcerer.",
+      "Treewalk is supernatural. As a move action, touch and enter a tree to travel to another tree within 60 ft. Emerge adjacent to the other tree at the start of the next turn. Uses per day equal one plus one per 5 HD.",
+      "Attempts to harm a green dragon suspend Treewalk for 24 hours. Attack rolls, caster and manifester levels, and saving throws each take a −1 penalty during that period.",
+      "The dragonblood subtype makes dragon-specific effects apply and opens options gated by that subtype or usable only by dragons. The character remains a humanoid."
+    ]
+  },
+  {
+    "name": "Forestlord Half-Elf",
+    "publication": "Dragon Magic (2006)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "parentSpecies": "Half-Elf",
+    "traits": [
+      "Medium humanoid, base land speed 30 ft. No racial ability adjustments, racial Hit Dice or level adjustment. Low-light vision and immunity to magical sleep.",
+      "Gains +1 racial bonuses on Listen, Search and Spot. Elven Blood treats the character as an elf for race-dependent effects. Hide is a class skill.",
+      "The base half-elf enchantment saving throw bonus and the racial bonuses to Diplomacy and Gather Information are lost.",
+      "Starts with Common and Elven and may choose nonsecret bonus languages. Favored class Sorcerer.",
+      "Treewalk is supernatural. As a move action, touch and enter a tree to travel to another tree within 60 ft. Emerge adjacent to the other tree at the start of the next turn. Uses per day equal one plus one per 5 HD.",
+      "Attempts to harm a green dragon suspend Treewalk for 24 hours. Attack rolls, caster and manifester levels, and saving throws each take a −1 penalty during that period.",
+      "The dragonblood subtype makes dragon-specific effects apply and opens options gated by that subtype or usable only by dragons. The character remains a humanoid."
+    ]
+  }
+]

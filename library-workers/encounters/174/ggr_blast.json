@@ -1,0 +1,230 @@
+[
+  {
+    "name": "Cosmotronic Blastseeker",
+    "statBlock": {
+      "name": "Cosmotronic Blastseeker",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 15,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "An Izzet field tester who uses experimental gear to push spell damage beyond its usual limits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 5
+      },
+      "skills": {
+        "Arcana": 6,
+        "Intimidation": 3,
+        "Perception": 1
+      },
+      "sections": {
+        "Languages": "Any one language, usually Common.",
+        "Armor": "Chain shirt.",
+        "Traits": "Empowered Spell (3/day). When rolling a spell’s damage, reroll as many as four of its damage dice. Use the results of the rerolls.\nTides of Chaos (1/day). Make an attack roll, ability check, or saving throw with advantage.",
+        "Innate Spellcasting": "Intelligence sets the spell save DC at 14 and the spell attack bonus at +6. It uses its own Izzet gear to cast. It needs no other components, and the gear does not work for other creatures.\n3/day each. Scorching Ray, Shield, Thunderwave.\n2/day. Fireball.",
+        "Actions": "Warhammer. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) if wielded with two hands.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Counterflux Blastseeker",
+    "statBlock": {
+      "name": "Counterflux Blastseeker",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 13,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "An Izzet field tester whose overcasting can make an area more or less susceptible to magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2
+      },
+      "skills": {
+        "Arcana": 6,
+        "Perception": 2
+      },
+      "sections": {
+        "Languages": "Common plus one other language.",
+        "Traits": "Counterflux Overcast (Recharge 5–6). Immediately after it casts a spell, the blastseeker can create an invisible 15-ft.-radius sphere centered on itself. The sphere lasts until the end of the blastseeker’s next turn. Roll a d6 when creating it. On 1–3, creatures inside have disadvantage on saving throws against spells and other magical effects. On 4–6, those creatures have advantage on those saves.",
+        "Innate Spellcasting": "Intelligence sets the spell save DC at 14 and the spell attack bonus at +6. It uses its own Izzet gear to cast. It needs no other components, and the gear does not work for other creatures.\n3/day each. Enlarge/Reduce, Mage Armor (self only), Scorching Ray.\n1/day each. Counterspell, Dispel Magic, Protection from Energy.",
+        "Actions": "Rapier. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Flux Blastseeker",
+    "statBlock": {
+      "name": "Flux Blastseeker",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 242,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 12,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "description": "An Izzet field tester whose overcasting can swap two creatures’ positions or release a thunderous pulse.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 8
+      },
+      "skills": {
+        "Arcana": 8,
+        "Perception": 2
+      },
+      "sections": {
+        "Languages": "Common plus one other language.",
+        "Traits": "Fluxbending Overcast (Recharge 5–6). Immediately after it casts a spell, the blastseeker can roll a d6 for an additional effect. On 1–3, it teleports and switches places with a creature it can see within 30 ft. On 4–6, the blastseeker and each creature within 10 ft. of it must pass a DC 16 Constitution save or take 11 (2d10) thunder damage.",
+        "Innate Spellcasting": "Intelligence sets the spell save DC at 16 and the spell attack bonus at +8. It uses its own Izzet gear to cast. It needs no other components, and the gear does not work for other creatures.\n3/day each. Mage Armor (self only), Scorching Ray.\n1/day each. Banishment, Cone of Cold, Dimension Door, Fireball, Ice Storm.",
+        "Actions": "Quarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage, or 4 (1d8) if wielded with two hands.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 242."
+      }
+    }
+  },
+  {
+    "name": "Galvanic Blastseeker",
+    "statBlock": {
+      "name": "Galvanic Blastseeker",
+      "publication": "Guildmasters’ Guide to Ravnica",
+      "edition": "2014 fifth edition",
+      "printedPage": 243,
+      "classification": "Medium humanoid (any race), chaotic neutral",
+      "ac": 13,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 13,
+      "description": "An Izzet field tester who channels lightning through experimental gear and moves on brief gusts of air.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6
+      },
+      "skills": {
+        "Acrobatics": 6,
+        "Arcana": 7,
+        "Perception": 3
+      },
+      "sections": {
+        "Languages": "Common, Primordial, and one other language.",
+        "Damage resistances": "Lightning and thunder.",
+        "Traits": "Galvanic Overcast (Recharge 5–6). When casting Lightning Bolt or Thunderwave, the blastseeker can roll a die. On an odd result, the blastseeker takes 9 (2d8) force damage. On an even result, each target that fails its save against the spell also takes 9 (2d8) lightning damage.\nHeart of the Storm. Whenever the blastseeker casts Lightning Bolt or Thunderwave, it deals 3 lightning damage to every other creature within 10 ft.",
+        "Innate Spellcasting": "Intelligence sets the spell save DC at 15 and the spell attack bonus at +7. It uses its own Izzet gear to cast. It needs no other components, and the gear does not work for other creatures.\n3/day each. Levitate, Lightning Bolt, Thunderwave.\n1/day. Stoneskin.",
+        "Actions": "Spear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 3 (1d6) piercing damage, or 4 (1d8) when wielded with two hands for a melee attack.",
+        "Bonus actions": "Gust-Propelled Leap. Fly up to 10 ft. This movement does not provoke opportunity attacks.",
+        "Printed source": "Guildmasters’ Guide to Ravnica, p. 243."
+      }
+    }
+  }
+]

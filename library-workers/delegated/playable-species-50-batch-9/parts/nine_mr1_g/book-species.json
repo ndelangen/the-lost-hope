@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Awakened Shrub",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+      "Small Plant, walking speed 25 ft. This player profile grants no ability increase. The shrub speaks, reads, and writes Common.",
+      "False Appearance requires one motionless minute and concentration as though on a spell during that minute. Afterward, while motionless, the awakened shrub looks like an ordinary shrub.",
+      "The shrub takes double fire damage. Its Rake is an unarmed strike that deals 1d6 slashing damage before modifiers."
+    ]
+  },
+  {
+    "name": "Axe Beak",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+      "Axe Beak is also spelled Axebeak. This awakened player Beast is Medium and has walking speed 50 ft. Increase Strength by 1. It speaks, reads, and writes Common.",
+      "Its Bite is an unarmed strike that deals 1d8 slashing damage before modifiers. The beak is its weapon.",
+      "The species lacks hands. Weapons, shields, foci, wands, tools, and other items that need manual manipulation are unavailable to it."
+    ]
+  },
+  {
+    "name": "Blink Dog",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+      "Medium Fey, walking speed 40 ft. Increase Dexterity by 2. Wisdom (Perception) checks based on hearing or smell have advantage.",
+      "Bite is an unarmed strike that deals 1d6 piercing damage before modifiers. It has no printed finesse property. The canine has no hands and cannot wield weapons or shields or use items that need manual manipulation.",
+      "As a bonus action it can teleport itself and its equipped or carried items to an unoccupied space it can see within 40 ft. It regains this use on a short or long rest.",
+      "A blink dog understands, reads, and writes Sylvan and speaks, reads, and writes Blink Dog. Blink Dog is its sole spoken language."
+    ]
+  },
+  {
+    "name": "Death Dog",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+      "Medium Monstrosity, walking speed 40 ft., darkvision 120 ft. Increase Strength and Constitution by 1 each. It speaks, reads, and writes Common.",
+      "Its Bite is an unarmed strike that deals 1d6 piercing damage before modifiers. The hound has no hands for weapons, shields, spellcasting foci, wands, tools, or other items that require manipulation.",
+      "While both heads are awake it has advantage on Wisdom (Perception) checks and saves against becoming blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
+    ]
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+      "Small Beast, walking speed 30 ft., blindsight 30 ft. Increase Constitution by 1. It speaks, reads, and writes Common.",
+      "Its Bite is an unarmed strike that deals 1d6 slashing damage before modifiers. Unarmored AC is 13 + Dexterity modifier.",
+      "Its glands shed bright light for 10 ft. and dim light for another 10 ft. The printed Illumination trait gives no switch.",
+      "It has no hands for weapons, shields, spellcasting foci, wands, tools, or other items that require manual manipulation."
+    ]
+  }
+]

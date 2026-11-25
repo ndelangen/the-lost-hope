@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Drow",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, darkvision. Dexterity +2 and Charisma +2. Speak Common and Elven. Gain +2 to Intimidate and Stealth.",
+      "Trance takes four hours and gives the benefits of a six-hour extended rest. The drow stays aware of nearby activity.",
+      "Lolthtouched allows either Cloud of Darkness or Darkfire once per encounter. Cloud of Darkness is a minor close burst 1 that stays in place through the end of your next turn. It blocks line of sight for everyone except you and blinds other creatures entirely inside it.",
+      "Darkfire is a minor ranged 10 attack against one creature’s Reflex. Choose Intelligence, Wisdom, or Charisma permanently at creation. Add a +2 bonus to the ability-based attack at heroic tier, +4 at paragon tier, and +6 at epic tier. A hit grants combat advantage to attackers and suppresses the target’s invisibility and concealment through the end of your next turn."
+    ]
+  },
+  {
+    "name": "Bugbear",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, low-light vision. Strength +2 and Dexterity +2. Speak Common and Goblin. Gain +2 to Intimidate and Stealth.",
+      "Oversized lets a bugbear wield a weapon one size larger as though it were a weapon of the bugbear’s own size.",
+      "Predatory Eye is a once-per-encounter minor action. When you have combat advantage against a target, use it to add 1d6 damage on your next attack against that target by the end of your next turn. The extra damage is 2d6 at level 11 and 3d6 at level 21."
+    ]
+  },
+  {
+    "name": "Hobgoblin",
+    "kind": "species",
+    "publication": "Monster Manual (4e, 2008)",
+    "edition": "4th edition",
+    "traits": [
+      "Medium, speed 6 squares, low-light vision. Constitution +2 and Charisma +2. Speak Common and Goblin. Gain +2 to Athletics and History.",
+      "Battle Ready adds +2 to initiative.",
+      "Hobgoblin Resilience allows a saving throw as an immediate reaction once per encounter when you suffer an effect that a save can end."
+    ]
+  },
+  {
+    "name": "Gnome",
+    "kind": "species",
+    "publication": "Player's Handbook 2 (4e)",
+    "edition": "4th edition",
+    "traits": [
+      "Small, speed 5 squares, low-light vision. Intelligence +2 and Charisma +2. Speak Common and Elven. Gain +2 to Arcana and Stealth.",
+      "Fey Origin makes you fey for rules that check origin. Trickster’s Cunning grants a +5 racial bonus to saving throws against illusions.",
+      "Master Trickster lets you use Ghost Sound as a minor action once per encounter. Reactive Stealth lets you check Stealth when you roll initiative if you have cover or concealment.",
+      "Fade Away is an immediate reaction once per encounter when you take damage. Become invisible until you attack or your next turn ends, whichever comes first."
+    ]
+  }
+]

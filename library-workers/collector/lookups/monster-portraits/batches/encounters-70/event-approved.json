@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Sharakim",
+    "slug": "sharakim",
+    "caption": "Maren Eldermere · Original Sharakim NPC",
+    "id": "species-5f1a01e8275c1c24ebe4eed5:147a198619387751d088ede1",
+    "entry": "species-5f1a01e8275c1c24ebe4eed5",
+    "version": "147a198619387751d088ede1",
+    "suffix": "encounters-70/sharakim.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-70/sharakim.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-70/event-drafts/sharakim-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 70 2026-11-24/event-drafts/sharakim-event-v1.png",
+    "overrides": [],
+    "sha256": "d148d4468225bdc5152441bb26ed2044acfccbf8dc8129675931e6be7dd19210",
+    "bytes": 1999686
+  }
+]

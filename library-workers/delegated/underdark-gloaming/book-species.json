@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Gloaming",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Outsider (Native). −2 Strength, +2 Dexterity, −2 Wisdom, +2 Charisma. LA +2. The entry lists no racial Hit Dice.",
+      "Small size gives +1 on attack rolls and to AC, +4 on Hide checks, −4 on grapple checks, and three-quarters the carrying capacity of a Medium character.",
+      "Land 20 ft. and fly 40 ft. (average). Flight requires a light load or less.",
+      "Darkvision 60 ft. and low-light vision.",
+      "Light Blindness (Ex). Abrupt bright light, such as sunlight or a daylight spell, blinds for 1 round. Take a −1 circumstance penalty on attack rolls, saving throws, and checks while in bright light.",
+      "Luminescence (Ex). As a standard action, set skin light anywhere from off to torch brightness. The setting persists until changed. The glow fades over 10 minutes after death.",
+      "Portal Sensitive bonus feat. Find active or inactive portals with a DC 20 Search check. Passing within 5 ft. allows the check without actively searching. Add +2 to caster-level checks to discern portal properties with analyze portal.",
+      "+4 racial bonus on Move Silently checks. +2 racial bonus on saves against illusion (shadow) spells and effects and +4 on saves against psionic abilities.",
+      "Shadow Spells. Add +1 caster level when casting illusion (shadow) spells.",
+      "Undercommon is automatic. The Gloaming region also grants Common and lists Aquan, Draconic, Dwarven, Elven (drow dialect), Sylvan, and Terran as bonus languages. Gloamings qualify for Daylight Adaptation. Favored class Sorcerer."
+    ]
+  }
+]

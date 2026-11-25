@@ -1,0 +1,160 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -310798,6 +310798,21 @@
+       ]
+     },
+     {
++      "name": "Sea Kin",
++      "kind": "species",
++      "publication": "Races of Destiny (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid with the Human subtype. Base land speed 30 ft. and swim speed 30 ft. The printed entry gives no racial ability-score adjustments or level adjustment.",
++        "Low-light vision reaches twice human distance in dim light and retains color and detail. A +2 racial bonus applies to Escape Artist.",
++        "Gain 4 extra skill points at 1st level after the class calculation and 1 extra skill point each subsequent level.",
++        "The ordinary swim-speed rules grant +8 racial on Swim checks for special actions or hazards, permit taking 10 even when threatened or distracted, and allow a straight-line run while swimming.",
++        "Hold Breath (Ex): begin with 8 × your Constitution score in rounds before risking drowning. The core Swim rule uses one extra round of breath per standard or full-round action while submerged. Sea Kin breathe air.",
++        "Water Dependency: immerse the entire body in water at least once a week. After a week without immersion, check Constitution daily at DC 10 + 1 per additional day. On a failed check, take 1 Constitution damage. Once fully immersed, restore 1d4 Constitution per hour while remaining in water. The printed requirement specifies water without a salinity qualifier.",
++        "Weapon Familiarity treats tridents and nets as simple weapons. Common is automatic. Bonus languages Aquan, Elven, and Sahuagin. Favored class Druid."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Explorer's Guide to Wildemount",
+       "name": "Pallid Elf",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -625,6 +625,91 @@
+       "tactics": "Read the overwritten entry from the gallery where the original ledger still catches the light. Reserve enough points for one defense. If threatened, use cover and the crossbow while the party gets the ledgers clear."
+     },
+     {
++      "id": "sea-kin-harbor-healer-35e",
++      "title": "Sea Kin tidal basin healer, Druid 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Human)",
++      "ac": 13,
++      "hp": 10,
++      "hitDice": "1d8+2",
++      "initiative": 1,
++      "speed": "Walk 30 ft. Swim 30 ft.",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 13,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 16,
++        "CHA": 8
++      },
++      "skills": [
++        "Concentration +6",
++        "Escape Artist +3",
++        "Heal +10",
++        "Knowledge (nature) +7",
++        "Spellcraft +5",
++        "Survival +9",
++        "Swim +12 on hazards and special actions"
++      ],
++      "senses": "Low-light vision",
++      "languages": "Common, Aquan. Also knows Druidic.",
++      "traits": [
++        "Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +0. Fortitude +4, Reflex +1, Will +5.",
++        "Constitution 14 gives 112 rounds of held breath before drowning risk. Mark an extra round spent for each standard or full-round action while holding breath. With swim speed, take 10 even when threatened on Swim checks needed for hazards or special actions.",
++        "Nature Sense adds +2 to Knowledge (nature) and Survival. Skill Focus (Heal) adds +3. Wild Empathy +0. No companion accompanies her on this inspection.",
++        "Caster level 1, save DC 13 + spell level, three prepared cantrips and two prepared 1st-level spells, including one Wisdom bonus slot. She carries a druidic focus and spell component pouch."
++      ],
++      "actions": [
++        "Spear +0 melee wielded two-handed, 1d8 piercing, critical ×3, reach 5 ft.",
++        "Prepared cantrips: guidance, know direction, purify food and drink. Purify Food and Drink makes up to 1 cubic foot of ordinary spoiled or fouled food and water fit for consumption at caster level 1.",
++        "Prepared 1st-level spells: cure light wounds and speak with animals. Cure Light Wounds heals 1d8+1 HP to a living creature touched. Speak with Animals lasts 1 minute at caster level 1. She can convert a 1st-level slot to Summon Nature’s Ally I, such as a porpoise in suitable water."
++      ],
++      "tactics": "Examine the water at the surface before diving to inspect the intake. Use Heal on the crew and cast at the surface. A small supply can be purified for drinking while the party looks for the source of the fouling."
++    },
++    {
++      "id": "sea-kin-lock-warden-35e",
++      "title": "Sea Kin tidal lock warden, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Human)",
++      "ac": 15,
++      "hp": 12,
++      "hitDice": "1d10+2",
++      "initiative": 5,
++      "speed": "Walk 30 ft. Swim 30 ft.",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 13,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": [
++        "Climb +4",
++        "Escape Artist +1",
++        "Jump +4",
++        "Swim +10 on hazards and special actions"
++      ],
++      "senses": "Low-light vision",
++      "languages": "Common",
++      "traits": [
++        "Studded leather +3, light wooden shield +1, Dexterity +1. Touch 11, flat-footed 14. BAB +1, grapple +3. Fortitude +4, Reflex +1, Will +1.",
++        "Constitution 14 gives 112 rounds of held breath before drowning risk. Mark an extra round spent for each standard or full-round action while holding breath. With swim speed, take 10 even when threatened on Swim checks needed for hazards or special actions.",
++        "Improved Initiative and Fighter bonus Weapon Focus (trident). Weapon Familiarity makes the net and trident simple weapons. Fighter grants proficiency with them. The two armor penalties total −2, doubled to −4 for Swim."
++      ],
++      "actions": [
++        "Trident +4 melee wielded one-handed, 1d8+2 piercing, critical ×2, 5-ft. reach. The swim speed permits normal piercing melee attacks underwater.",
++        "Net +2 ranged touch, maximum 10 ft., used from the dry platform against a target from Small to Large. A hit entangles the target, giving −2 on attacks and −4 Dexterity, half speed, and no running or charging. Escape Artist DC 20 or Strength DC 25 as a full-round action. Thrown weapons are ineffective underwater."
++      ],
++      "tactics": "Have the party hold the dry platform while checking the lock’s catch below. Keep the trident for underwater defence. Use the net only from the platform against a target above water."
++    },
++    {
+       "id": "elan-seal-escort-35e",
+       "title": "Elan night courier escort, Fighter 1",
+       "origin": "Original DM Library NPC",
+@@ -1234,6 +1319,28 @@
+       "hook": "Dovar will backtrack as far as an avalanche scar. He needs another lookout to watch the slope while he follows the tracks."
+     },
+     {
++      "species": "Sea Kin",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Destiny (2004)",
++      "name": "Neressa",
++      "build": "sea-kin-harbor-healer-35e",
++      "role": "Tidal basin healer and Druid.",
++      "motive": "Find why the boats can no longer draw safe water from the tidal basin.",
++      "hook": "Neressa can test a sample and tend the sick while the party searches the intake."
++    },
++    {
++      "species": "Sea Kin",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Destiny (2004)",
++      "name": "Emmoran",
++      "build": "sea-kin-lock-warden-35e",
++      "role": "Tidal lock warden and Fighter.",
++      "motive": "Open the jammed tide gate before the returning boats run out of time.",
++      "hook": "Emmoran can reach the submerged catch if the party keeps the dry platform clear."
++    },
++    {
+       "species": "Elan",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -8349,6 +8349,7 @@
+ Sea Horse	beast	Beast	SRD 5.1	2014 fifth edition	Wizards of the Coast		0
+ Sea Horse	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		0
+ Sea Horse Heraldic Servant	monster		Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition	TSR		
++Sea Kin	species	Humanoid (Human)	Races of Destiny (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144441M	
+ Sea Lion	monster	Monstrosity	Ghosts of Saltmarsh	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/22655-sea-lion	5
+ Sea Lion	monster	Monstrosity	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		5
+ Sea Lion Heraldic Servant	monster		Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition	TSR		

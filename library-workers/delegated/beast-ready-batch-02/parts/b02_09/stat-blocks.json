@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Mammoth",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 13,
+    "hp": 133,
+    "speed": "40 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "otherStatistics": "Natural armor. Fixed Perception 13 and Stealth 9. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive woolly elephant with a high domed head, shaggy russet fur, an agile trunk and two sweeping ivory tusks.",
+    "habitats": [
+      "Cold steppe",
+      "Tundra"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 363. The XP value comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR +6, DEX −1, CON +5, INT −4, WIS +0, CHA −2. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
+      "Defenses": "Resistant to cold damage and to the prone condition. Halve cold damage, rounding down. Roll with advantage on checks and saves to avoid becoming prone or to end the condition.",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore that turn. The creature must pass a DC 17 Strength save or fall prone. If it is prone, the mammoth can make one Stomp against it as a bonus action.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit with 10-ft. reach against one target. A hit deals 22 (3d10 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit with 5-ft. reach against one prone creature. A hit deals 19 (3d8 + 6) bludgeoning damage.",
+      "Bonus actions": "Trunk Grab. Choose one Large or smaller creature within 10 ft. It makes a DC 17 Strength save. A failure leaves it grappled, escape DC 17, and restrained until the grapple ends. The mammoth cannot use Trunk Grab on another creature while this grapple remains.",
+      "At the table": "A charge Stomp has 5-ft. reach. Trunk Grab and the charge’s bonus-action Stomp compete for the mammoth’s bonus action."
+    }
+  },
+  {
+    "name": "Mammoth",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 126,
+    "hitDice": "11d12 + 55",
+    "speed": "40 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Passive Perception 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive woolly elephant with a high domed head, shaggy russet fur, an agile trunk and two sweeping ivory tusks.",
+    "habitats": [
+      "Cold steppe",
+      "Tundra",
+      "Subtropical regions"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, first printing (September 2014), printed p. 332. https://www.dndbeyond.com/monsters/16950-mammoth",
+      "Traits": "Trampling Charge. Move at least 20 ft. straight toward a creature and hit it with Gore that turn. The creature must pass a DC 18 Strength save or fall prone. If it is prone, the mammoth can make one Stomp against it as a bonus action.",
+      "Actions": "Gore. Melee weapon attack, +10 to hit with 10-ft. reach against one target. A hit deals 25 (4d8 + 7) piercing damage.\nStomp. Melee weapon attack, +10 to hit with 5-ft. reach against one prone creature. A hit deals 29 (4d10 + 7) bludgeoning damage.",
+      "At the table": "Check the distance before using the bonus-action Stomp. Its 5-ft. reach is shorter than Gore’s 10-ft. reach."
+    }
+  },
+  {
+    "name": "Seahorse",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 9,
+    "speed": "0 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Fixed Perception 10 and Stealth 12. No listed special senses. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small, upright fish with a horse-like head, tubular snout, ringed body and curled grasping tail.",
+    "habitats": [
+      "Coastal shallows",
+      "Seagrass beds",
+      "Reefs"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 368. The XP value comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR −5, DEX +0, CON −1, INT −5, WIS +0, CHA −4. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
+      "Traits": "Underwater Camouflage. Use Stealth 17 while underwater.\nWater Breathing. The seahorse breathes only underwater.",
+      "Actions": "Ram. Melee weapon attack, +2 to hit with 5-ft. reach against one target. A hit deals 2 (1d4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Spider",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 12,
+    "hp": 8,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Fixed Perception 10 and Stealth 14. Darkvision 30 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small orb-weaver with a rounded olive-brown abdomen, a compact head and eight slender legs.",
+    "habitats": [
+      "Woodland",
+      "Gardens",
+      "Sheltered corners"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 371. The XP value comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR −4, DEX +0, CON −1, INT −5, WIS +0, CHA −4. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
+      "Traits": "Spider Climb. Climb difficult surfaces, including ceilings, without a check.\nWeb Sense. While touching a web, pinpoint any other creature touching the same web.\nWeb Walker. Webs impose no movement restrictions on the spider.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit with 5-ft. reach against one creature. A hit deals 2 (1d4) piercing damage. The target makes a DC 9 Constitution save and takes 2 (1d4) poison damage on a failure.",
+      "Bonus actions": "Web Shot, Recharge 4–6. Pick one creature the spider can see within 15 ft. It makes a DC 9 Dexterity save. On a failure its speed drops by 10 ft. A creature can remove the webbing as an action to end the effect.",
+      "At the table": "After using Web Shot, roll a d6 at the start of each of the spider’s turns. It regains the shot on 4–6 or after a short or long rest."
+    }
+  },
+  {
+    "name": "Tiger",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 38,
+    "speed": "40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Fixed Perception 13 and Stealth 16. Darkvision 60 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular striped cat with an ochre coat, ivory cheeks, rounded ears, thick forepaws and a long tail.",
+    "habitats": [
+      "Forest",
+      "Jungle",
+      "Tall grass"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 372. The XP value comes from the CR table on p. 229. ",
+      "Ability modifiers": "STR +3, DEX +2, CON +2, INT −4, WIS +1, CHA −1. The source lists modifiers and fixed Perception and Stealth values. It lists HP without a Hit Dice formula.",
+      "Traits": "Heightened Smell. Use Perception 18 for smell.\nPounce. Move at least 20 ft. straight toward a creature and hit it with Claws that turn. The creature must pass a DC 13 Strength save or fall prone. If the creature is prone, the tiger can make one Bite against it as a bonus action.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack. If both hit the same creature, it makes a DC 13 Constitution save at the start of its next turn. A failed save costs 5 (2d4) HP from bleeding.\nBite. Melee weapon attack, +5 to hit with 5-ft. reach against one creature. A hit deals 6 (1d6 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 5 (1d4 + 3) slashing damage."
+    }
+  }
+]

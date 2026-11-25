@@ -1,0 +1,16 @@
+{
+  "baseline": "ab0b364d0d0a0e2a461ba6ca2b692e17062cda23",
+  "temporaryCopy": true,
+  "playableSpecies": 2,
+  "edition": "3.0 edition",
+  "names": [
+    "Nezumi",
+    "Vanara"
+  ],
+  "searchableBySpeciesTraitsAndNpcRole": 2,
+  "sourceTraitsDisplayed": 2,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "versionPortraitsVerified": 2,
+  "selectedPublication": "Oriental Adventures (2001)"
+}

@@ -1,0 +1,541 @@
+[
+  {
+    "name": "Thri-kreen",
+    "statBlock": {
+      "name": "Thri-kreen",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (thri-kreen), chaotic neutral",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 3
+      },
+      "description": "An insectoid hunter that changes its shell to blend into desert and savanna terrain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. and passive Perception 13.",
+        "Languages": "Thri-kreen.",
+        "Traits": "Chameleon Carapace. The thri-kreen adapts its shell to its surroundings, giving it advantage on Dexterity (Stealth) checks to hide.\nStanding Leap. It can long jump up to 30 ft. or high jump up to 15 ft. without a running start.\nSleepless. The thri-kreen needs no sleep and can do light tasks while resting and staying alert.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 4 (1d6 + 1) piercing damage. The target makes a DC 11 Constitution save or is Poisoned for 1 minute. If it fails by 5 or more, it is also Paralyzed while this poison lasts. A poisoned target repeats the save at the end of each of its turns and ends the effect on a success.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 288. Bite save timing follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Thri-kreen (psionics variant)",
+    "statBlock": {
+      "name": "Thri-kreen (psionics variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (thri-kreen), chaotic neutral",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 3
+      },
+      "description": "An insectoid hunter that changes its shell to blend into desert and savanna terrain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. and passive Perception 13.",
+        "Languages": "Thri-kreen. Telepathy 60 ft.",
+        "Traits": "Chameleon Carapace. The thri-kreen adapts its shell to its surroundings, giving it advantage on Dexterity (Stealth) checks to hide.\nStanding Leap. It can long jump up to 30 ft. or high jump up to 15 ft. without a running start.\nSleepless. The thri-kreen needs no sleep and can do light tasks while resting and staying alert.",
+        "Innate spellcasting": "Wisdom is the spellcasting ability. These spells require no components.\nAt will: Mage Hand (the hand is invisible).\n2/day each: Blur, Magic Weapon.\n1/day: Invisibility (self only).",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 4 (1d6 + 1) piercing damage. The target makes a DC 11 Constitution save or is Poisoned for 1 minute. If it fails by 5 or more, it is also Paralyzed while this poison lasts. A poisoned target repeats the save at the end of each of its turns and ends the effect on a success.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) slashing damage.",
+        "Variant": "This profile uses the optional psionics package. The sidebar gives no separate challenge rating. This profile keeps CR 1.",
+        "Printed source": "Monster Manual (2014), p. 288. Bite save timing follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Thri-kreen (Weapons and Psionics)",
+    "statBlock": {
+      "name": "Thri-kreen (Weapons and Psionics)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (thri-kreen), chaotic neutral",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 3
+      },
+      "description": "An insectoid hunter that changes its shell to blend into desert and savanna terrain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. and passive Perception 13.",
+        "Languages": "Thri-kreen. Telepathy 60 ft.",
+        "Traits": "Chameleon Carapace. The thri-kreen adapts its shell to its surroundings, giving it advantage on Dexterity (Stealth) checks to hide.\nStanding Leap. It can long jump up to 30 ft. or high jump up to 15 ft. without a running start.\nSleepless. The thri-kreen needs no sleep and can do light tasks while resting and staying alert.",
+        "Innate spellcasting": "Wisdom is the spellcasting ability. These spells require no components.\nAt will: Mage Hand (the hand is invisible).\n2/day each: Blur, Magic Weapon.\n1/day: Invisibility (self only).",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 4 (1d6 + 1) piercing damage. The target makes a DC 11 Constitution save or is Poisoned for 1 minute. If it fails by 5 or more, it is also Paralyzed while this poison lasts. A poisoned target repeats the save at the end of each of its turns and ends the effect on a success.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) slashing damage.\nWeapon Multiattack. Make two Gythka attacks or two Chatkcha attacks.\nGythka. Melee weapon attack with a double-ended polearm, +3 to hit, reach 5 ft., one target. Hit 5 (1d8 + 1) slashing damage.\nChatkcha. Ranged weapon attack with a thrown blade, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) slashing damage.",
+        "Variant": "This profile uses both optional packages. The sidebar gives no separate challenge rating. This profile keeps CR 1.",
+        "Printed source": "Monster Manual (2014), p. 288. Bite save timing follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Thri-kreen (weapons variant)",
+    "statBlock": {
+      "name": "Thri-kreen (weapons variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (thri-kreen), chaotic neutral",
+      "ac": 15,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "40 ft.",
+      "cr": "1",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 13,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4,
+        "Survival": 3
+      },
+      "description": "An insectoid hunter that changes its shell to blend into desert and savanna terrain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. and passive Perception 13.",
+        "Languages": "Thri-kreen.",
+        "Traits": "Chameleon Carapace. The thri-kreen adapts its shell to its surroundings, giving it advantage on Dexterity (Stealth) checks to hide.\nStanding Leap. It can long jump up to 30 ft. or high jump up to 15 ft. without a running start.\nSleepless. The thri-kreen needs no sleep and can do light tasks while resting and staying alert.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit 4 (1d6 + 1) piercing damage. The target makes a DC 11 Constitution save or is Poisoned for 1 minute. If it fails by 5 or more, it is also Paralyzed while this poison lasts. A poisoned target repeats the save at the end of each of its turns and ends the effect on a success.\nClaws. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) slashing damage.\nWeapon Multiattack. Make two Gythka attacks or two Chatkcha attacks.\nGythka. Melee weapon attack with a double-ended polearm, +3 to hit, reach 5 ft., one target. Hit 5 (1d8 + 1) slashing damage.\nChatkcha. Ranged weapon attack with a thrown blade, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) slashing damage.",
+        "Variant": "This profile uses the optional weapons package. The sidebar gives no separate challenge rating. This profile keeps CR 1.",
+        "Printed source": "Monster Manual (2014), p. 288. Bite save timing follows the official errata."
+      }
+    }
+  },
+  {
+    "name": "Orc Eye of Gruumsh",
+    "statBlock": {
+      "name": "Orc Eye of Gruumsh",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (orc), chaotic evil",
+      "ac": 16,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "passivePerception": 11,
+      "skills": {
+        "Intimidation": 3,
+        "Religion": 1
+      },
+      "description": "A priest of Gruumsh who calls up the god's spear to fight alongside their own.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Ring mail and shield.",
+        "Senses": "Darkvision 60 ft. and passive Perception 11.",
+        "Languages": "Common and Orc.",
+        "Traits": "Gruumsh’s Fury. A weapon hit deals an extra 4 (1d8) damage, already included below.",
+        "Spellcasting": "3rd-level cleric. Wisdom (spell save DC 11, +3 to hit with spell attacks).\nCantrips at will: Guidance, Resistance, Thaumaturgy.\n1st level (4 slots): Bless, Command.\n2nd level (2 slots): Augury, Spiritual Weapon (spear).",
+        "Actions": "Spear. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 11 (1d6 + 3 plus 1d8) piercing damage, or 12 (2d8 + 3) piercing damage with two hands in melee.",
+        "Bonus actions": "Aggressive. Move up to the orc’s speed toward a visible hostile creature.",
+        "Printed source": "Monster Manual (2014), p. 247."
+      }
+    }
+  },
+  {
+    "name": "Troll (variant)",
+    "statBlock": {
+      "name": "Troll (variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large giant, chaotic evil",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2
+      },
+      "description": "A troll whose severed limbs fend for themselves until it regrows them.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. and passive Perception 12.",
+        "Languages": "Giant.",
+        "Traits": "Keen Smell. The troll has advantage on Wisdom (Perception) checks that rely on smell.\nRegeneration. The troll regains 10 HP at the start of its turn. If it takes acid or fire damage, it cannot regenerate at the start of its next turn. It dies only if it starts its turn at 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 291, including the Loathsome Limbs sidebar and Perception errata.",
+        "Loathsome Limbs": "If the troll takes 15 or more slashing damage at once, roll a d20. On 1–10, no part comes off. On 11–14, sever one remaining leg. On 15–18, sever one remaining arm. On 19–20, decapitate it. A decapitated troll dies only if it cannot regenerate. When it dies, its detached head dies too.\nDetached parts. Each has AC 13, 10 HP and the troll’s Regeneration. Each acts on the troll’s initiative with its own movement and action. If the troll completes a short or long rest without reattaching the part, it grows a replacement and the detached part dies.\nLeg. A detached leg has speed 5 ft. and cannot attack. The troll’s speed halves after losing one leg. With both legs gone, it falls Prone and can crawl if it has arms. With just one arm it crawls at half speed. With no arms or legs its speed is 0 and speed bonuses do not apply.\nArm. A detached arm has speed 5 ft. and makes one Claw attack on its turn. It has disadvantage unless the troll can see both the arm and the target. Each lost arm removes one Claw from the troll’s Multiattack.\nHead. The detached head cannot move, retains Keen Smell, and can Bite only a target in its space. The body loses Bite and is Blinded unless its head can see the body."
+      }
+    }
+  },
+  {
+    "name": "Troll",
+    "statBlock": {
+      "name": "Troll",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large giant, chaotic evil",
+      "ac": 15,
+      "hp": 84,
+      "hitDice": "8d10 + 40",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2
+      },
+      "description": "A ravenous giant that heals its wounds unless struck by fire or acid.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft. and passive Perception 12.",
+        "Languages": "Giant.",
+        "Traits": "Keen Smell. The troll has advantage on Wisdom (Perception) checks that rely on smell.\nRegeneration. The troll regains 10 HP at the start of its turn. If it takes acid or fire damage, it cannot regenerate at the start of its next turn. It dies only if it starts its turn at 0 HP and fails to regenerate.",
+        "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 291. Perception and passive Perception follow the official errata."
+      }
+    }
+  },
+  {
+    "name": "Monodrone (Rogue)",
+    "statBlock": {
+      "name": "Monodrone (Rogue)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, any alignment except lawful neutral",
+      "ac": 15,
+      "hp": 5,
+      "hitDice": "1d8 + 1",
+      "speed": "30 ft., fly 30 ft.",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/8",
+      "description": "A monodrone that has stopped obeying Primus. Other modrons hunt it down.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 10.",
+        "Languages": "Modron.",
+        "Traits": "Disintegration. When the rogue dies, its body turns to dust and its equipment remains.",
+        "Actions": "Dagger. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) piercing damage.\nJavelin. Melee or ranged weapon attack, +2 to hit, 5-ft. reach or 30/120-ft. range, one target. Hit 3 (1d6) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 224, including the Rogue Modron sidebar.",
+        "Variant": "Use the statistics and actions for this rank. A rogue loses Axiomatic Mind and may have any alignment except lawful neutral."
+      },
+      "ruleNotes": [
+        "The 2014 errata corrects the monodrone's Javelin to +2 to hit and 3 (1d6) damage. The first printing has +3 to hit and 4 (1d6 + 1)."
+      ],
+      "passivePerception": 10
+    }
+  },
+  {
+    "name": "Quadrone (Rogue)",
+    "statBlock": {
+      "name": "Quadrone (Rogue)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, any alignment except lawful neutral",
+      "ac": 16,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft., fly 30 ft.",
+      "xp": 200,
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1",
+      "description": "A quadrone that has stopped obeying Primus. Other modrons hunt it down.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 12.",
+        "Languages": "Modron.",
+        "Traits": "Disintegration. When the rogue dies, its body turns to dust and its equipment remains.",
+        "Actions": "Multiattack. Make two Fist attacks or four Shortbow attacks.\nFist. Melee weapon attack, +3 to hit, 5-ft. reach, one target. Hit 3 (1d4 + 1) bludgeoning damage.\nShortbow. Ranged weapon attack, +4 to hit, 80/320-ft. range, one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 224, 226, including the Rogue Modron sidebar.",
+        "Variant": "Use the statistics and actions for this rank. A rogue loses Axiomatic Mind and may have any alignment except lawful neutral."
+      },
+      "passivePerception": 12,
+      "skills": {
+        "Perception": 2
+      }
+    }
+  },
+  {
+    "name": "Pentadrone (Rogue)",
+    "statBlock": {
+      "name": "Pentadrone (Rogue)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large construct, any alignment except lawful neutral",
+      "ac": 16,
+      "hp": 32,
+      "hitDice": "5d10 + 5",
+      "speed": "40 ft.",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "description": "A pentadrone that has stopped obeying Primus. Other modrons hunt it down.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "habitats": [
+        "Mechanus"
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 14.",
+        "Languages": "Modron.",
+        "Traits": "Disintegration. When the rogue dies, its body turns to dust and its equipment remains.",
+        "Actions": "Multiattack. Make five Arm attacks.\nArm. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit 5 (1d6 + 2) bludgeoning damage.\nParalysis Gas (recharge 5–6). Each creature in a 30-ft. cone makes a DC 11 Constitution save. On a failure it is Paralyzed for 1 minute. It repeats the save at the end of each of its turns and ends the effect on a success.",
+        "Printed source": "Monster Manual (2014), pp. 224, 226, including the Rogue Modron sidebar.",
+        "Variant": "Use the statistics and actions for this rank. A rogue loses Axiomatic Mind and may have any alignment except lawful neutral."
+      },
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4
+      }
+    }
+  }
+]

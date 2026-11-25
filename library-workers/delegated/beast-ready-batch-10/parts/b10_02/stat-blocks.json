@@ -1,0 +1,307 @@
+[
+  {
+    "name": "Lion",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "4d10",
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 2,
+      "Con": 0,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -1
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Perception +3. Stealth +4. Darkvision 60 ft. Passive Perception 13. Languages none.",
+    "appearance": "A tawny lion with a full dark mane, broad paws and a tufted tail.",
+    "habitats": [
+      "Desert",
+      "Grassland",
+      "Hill",
+      "Mountain"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 364, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775826-lion",
+      "Traits": "Pack Tactics. The lion rolls with advantage when it attacks a creature if an ally within 5 ft. of that creature is free of the Incapacitated condition.\nRunning Leap. After a 10-ft. running start, the lion can long jump up to 25 ft.",
+      "Actions": "Multiattack. Make two Rend attacks. The lion can substitute one use of Roar for one Rend.\nRend. Make a melee attack roll at +5 with a reach of 5 ft. A hit deals 7 (1d8 + 3) slashing damage.\nRoar. One creature within 15 ft. makes a DC 11 Wisdom saving throw. On a failure, it is Frightened until the start of the lion’s next turn."
+    }
+  },
+  {
+    "name": "Lizard",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 0,
+      "Con": 0,
+      "Int": -5,
+      "Wis": -1,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Darkvision 30 ft. Passive Perception 9. Languages none.",
+    "appearance": "A low, mottled lizard with splayed toes, speckled scales and a long tapering tail.",
+    "habitats": [
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underdark"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 364, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775827-lizard",
+      "Traits": "Spider Climb. The lizard moves on difficult climbing surfaces, including along ceilings, without an ability check.",
+      "Actions": "Bite. Make a melee attack roll at +2 with a reach of 5 ft. A hit deals 1 piercing damage."
+    }
+  },
+  {
+    "name": "Mammoth",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 126,
+    "hitDice": "11d12 + 55",
+    "speed": "50 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 10,
+      "Dex": -1,
+      "Con": 8,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +3. Passive Perception 10. Languages none.",
+    "appearance": "A shaggy brown mammoth with a domed head, a hanging trunk and long curved ivory tusks.",
+    "habitats": [
+      "Arctic"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 365, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5195112-mammoth",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Make a melee attack roll at +10 with a reach of 10 ft. A hit deals 18 (2d10 + 7) piercing damage. A Huge or smaller creature hit is also Prone if the mammoth moved at least 20 ft. straight toward it immediately before the hit.",
+      "Bonus Actions": "Trample. Choose one Prone creature within 5 ft. It makes a DC 18 Dexterity saving throw, taking 29 (4d10 + 7) bludgeoning damage on a failure or half as much on a success."
+    }
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 1,
+      "Dex": 2,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Perception +5. Darkvision 60 ft. Passive Perception 15. Languages none.",
+    "appearance": "A muscular fawn dog with a broad dark muzzle, dropped ears and loose skin around its neck.",
+    "habitats": [
+      "Forest",
+      "Hill",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 365, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775828-mastiff",
+      "Actions": "Bite. Make a melee attack roll at +3 with a reach of 5 ft. A hit deals 4 (1d6 + 1) piercing damage and makes a Medium or smaller creature Prone."
+    }
+  },
+  {
+    "name": "Mule",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 10,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 4,
+      "Dex": 0,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Passive Perception 10. Languages none.",
+    "appearance": "A brown mule with long upright ears, a pale muzzle and a short dark mane.",
+    "habitats": [
+      "Desert",
+      "Hill",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 365, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775829-mule",
+      "Traits": "Beast of Burden. Use the carrying capacity of a creature one size category larger.",
+      "Actions": "Hooves. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage."
+    }
+  }
+]

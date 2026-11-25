@@ -1,0 +1,120 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft. and scent.",
+      "speed": "30 ft.; climb 30 ft.",
+      "languages": "Undercommon",
+      "id": "quaggoth-chalkback-shaft-guide-35e",
+      "title": "Quaggoth shaft guide, racial Hit Dice only",
+      "difficulty": "Provisional CR 3. ECL 5 (3 racial HD, LA +2).",
+      "ac": 15,
+      "hp": 26,
+      "hitDice": "3d8+9",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +13",
+        "Listen +5",
+        "Spot +5",
+        "Survival +3"
+      ],
+      "traits": [
+        "Neutral beast-follower. Unarmored, Dexterity +1 and natural armor +4. Touch 11, flat-footed 14. BAB +3, grapple +8. Fortitude +4, Reflex +4, Will +4.",
+        "Climb speed 30 ft. gives +8 on Climb checks and lets the quaggoth take 10 even under pressure.",
+        "Immune to fear. Scent normally detects creatures within 30 ft. Spend a move action for direction, and pinpoint the source within 5 ft.",
+        "Rage (Ex). After taking damage in combat, check the following round for a 50% chance to rage. Magic-followers instead rage on 1 in 6 and drop their weapons. Rage grants +4 Strength and imposes −4 AC. The quaggoth fights with claws and bite until it or its opponent dies and cannot end the rage voluntarily.",
+        "Two primary claws each deal 1d4 piercing and slashing damage. The secondary bite deals 1d4 bludgeoning, piercing, and slashing damage. Apply Strength modifiers to these base dice.",
+        "Alertness adds +2 to Listen and Spot. Improved Initiative adds +4."
+      ],
+      "actions": [
+        "One claw +8 for 1d4+5. Full attack with two claws at +8 each for 1d4+5 and a secondary bite at +3 for 1d4+2. All threaten on 20 and deal ×2 on a critical hit.",
+        "If rage triggers, AC drops to 11 and grapple rises to +10. Full attack becomes two claws at +10 for 1d4+7 each and a bite at +5 for 1d4+3. Hit points and saves stay the same.",
+        "Take 10 with Climb +13 for a result of 23 while using the shaft wall."
+      ],
+      "tactics": "Rusk climbs the shaft first to reach a brace for the party’s rope. Check for rage the round after he takes damage. If he rages, he fights the attacker with claws and bite."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Monstrous Humanoid",
+      "senses": "Darkvision 60 ft. and scent.",
+      "speed": "30 ft.; climb 30 ft.",
+      "languages": "Undercommon",
+      "id": "quaggoth-sootmane-switchback-guard-35e",
+      "title": "Quaggoth switchback guard, Fighter 1",
+      "difficulty": "Provisional CR 4. ECL 6 (3 racial HD, 1 class HD, LA +2).",
+      "ac": 17,
+      "hp": 35,
+      "hitDice": "3d8+1d10+12",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Climb +15",
+        "Hide +6 (+8 in shadow)",
+        "Listen +6",
+        "Spot +5",
+        "Survival +3"
+      ],
+      "traits": [
+        "Neutral magic-follower. Leather armor +2, Dexterity +1 and natural armor +4. Touch 11, flat-footed 16. BAB +4, grapple +9. Fortitude +6, Reflex +4, Will +4.",
+        "Climb speed 30 ft. gives +8 on Climb checks and lets the quaggoth take 10 even under pressure.",
+        "Immune to fear. Scent normally detects creatures within 30 ft. Spend a move action for direction, and pinpoint the source within 5 ft.",
+        "Rage (Ex). After taking damage in combat, check the following round for a 50% chance to rage. Magic-followers instead rage on 1 in 6 and drop their weapons. Rage grants +4 Strength and imposes −4 AC. The quaggoth fights with claws and bite until it or its opponent dies and cannot end the rage voluntarily.",
+        "Two primary claws each deal 1d4 piercing and slashing damage. The secondary bite deals 1d4 bludgeoning, piercing, and slashing damage. Apply Strength modifiers to these base dice.",
+        "Dyed fur grants +2 circumstance on Hide in shadow. Alertness adds +2 to Listen and Spot. Improved Initiative adds +4. Fighter bonus feat is Weapon Focus (club). The 4th-Hit-Die ability increase went to Strength."
+      ],
+      "actions": [
+        "Club +10 melee in two hands for 1d6+7 bludgeoning, critical ×2. Without the club, the natural full attack is two claws at +9 for 1d4+5 each and a secondary bite at +4 for 1d4+2.",
+        "After taking damage, check next round. On 1 on a d6, Borr drops his club, rages, and uses two claws at +11 for 1d4+7 each and a bite at +6 for 1d4+3. AC drops to 13 and grapple rises to +11. Hit points and saves stay the same."
+      ],
+      "tactics": "Borr waits beside the switchback where shadows break up his dyed fur. He holds the turn with his club until driven back or forced into rage."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Quaggoth",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Underdark (2003)",
+      "name": "Rusk Chalkback",
+      "build": "quaggoth-chalkback-shaft-guide-35e",
+      "role": "Shaft guide and climber.",
+      "motive": "Reach the high brace so the party can cross without losing the rope.",
+      "hook": "Rusk points out a rough seam that leads past the broken ladder."
+    },
+    {
+      "species": "Quaggoth",
+      "size": "Medium",
+      "edition": "3.5 edition",
+      "speciesPublication": "Underdark (2003)",
+      "name": "Borr Sootmane",
+      "build": "quaggoth-sootmane-switchback-guard-35e",
+      "role": "Switchback guard and Fighter.",
+      "motive": "Keep the switchback clear until his companions reach the lower passage.",
+      "hook": "Borr waits with his club where the shaft light stops at a bend."
+    }
+  ]
+}

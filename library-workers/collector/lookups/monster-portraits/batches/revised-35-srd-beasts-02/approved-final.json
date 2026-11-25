@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "dire-bat",
+    "name": "Dire Bat",
+    "entryId": "beast-a04279ff47f6fe0aeda0d62c",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "One oversized cave bat with only two membranous wings clearly unfolding upward and outward, each wing supported by four long finger-like struts and a small thumb claw at the wrist. Broad leathery dark plum-brown membranes with sparse veins, thick gray-brown fur, large upright ears, small muzzle with a modest leaf-shaped nose, two visible hind feet and a little membrane joining the legs. Render it naturally as one cohesive flying mammal in a frontal three-quarter sweep, nose at the lower center, left wing higher than the right. Keep both wings and tips wholly in the frame. No horns, extra wings, skeletal mutations or rock.",
+    "prompt": "Create one original square fantasy bestiary portrait. Use the first image only for style and parchment; later images inform the creature's appearance. Match the series' edge-to-edge warm amber-gold aged paper, naturalistic colored pencil and ink rendering, accurately drawn animal anatomy, and a faint soft shadow. Center the entire creature with breathing room. No frame, lettering, labels, scenery, objects, logo or watermark. One oversized cave bat with only two membranous wings clearly unfolding upward and outward, each wing supported by four long finger-like struts and a small thumb claw at the wrist. Broad leathery dark plum-brown membranes with sparse veins, thick gray-brown fur, large upright ears, small muzzle with a modest leaf-shaped nose, two visible hind feet and a little membrane joining the legs. Render it naturally as one cohesive flying mammal in a frontal three-quarter sweep, nose at the lower center, left wing higher than the right. Keep both wings and tips wholly in the frame. No horns, extra wings, skeletal mutations or rock.",
+    "appearanceSource": "Related Giant Bat and Bat art from the 2014 and 2024 rules Monster Manuals"
+  },
+  {
+    "slug": "dire-bear",
+    "name": "Dire Bear",
+    "entryId": "beast-f1d297bf8aa7771f236fcc14",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "An imposing oversized brown bear with Sam Wood's dire-bear traits: tall powerful shaggy shoulders, dark chest and throat, flecked russet and tan coat, dark broad muzzle, small rounded ears, and heavily curved prominent claws. Full body at a frontal three-quarter angle on four legs, head lifted and roaring, shoulders well forward, four paws clearly placed, with raw-boned natural bear anatomy. Render it alone without the person in the source, no scene, no weapons and no red blood.",
+    "prompt": "Create one original square fantasy bestiary portrait. Use the first image only for style and parchment; later images inform the creature's appearance. Match the series' edge-to-edge warm amber-gold aged paper, naturalistic colored pencil and ink rendering, accurately drawn animal anatomy, and a faint soft shadow. Center the entire creature with breathing room. No frame, lettering, labels, scenery, objects, logo or watermark. An imposing oversized brown bear with Sam Wood's dire-bear traits: tall powerful shaggy shoulders, dark chest and throat, flecked russet and tan coat, dark broad muzzle, small rounded ears, and heavily curved prominent claws. Full body at a frontal three-quarter angle on four legs, head lifted and roaring, shoulders well forward, four paws clearly placed, with raw-boned natural bear anatomy. Render it alone without the person in the source, no scene, no weapons and no red blood.",
+    "appearanceSource": "Sam Wood's Dire Bear illustration from the 2003 Wizards Monster Manual v.3.5 gallery and related D&D Brown Bear art"
+  },
+  {
+    "slug": "dire-boar",
+    "name": "Dire Boar",
+    "entryId": "beast-3020dceec9266dc58e7a6641",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "One oversized heavily built wild boar with four proportionate short muscular legs and cloven hooves. Deep charcoal and warm chestnut coarse bristles, high triangular bristled mane along its upper back, powerful shoulder, long broad snout and naturally curved ivory lower tusks, one on either side. Full body at low three-quarter angle, head at left and stance braced as if about to charge. Small dark eyes, rounded alert ears and a short bristled tail. Keep front and hind legs visually distinct. No armor, ropes, rocks or dirt spray.",
+    "prompt": "Create one original square fantasy bestiary portrait. Use the first image only for style and parchment; later images inform the creature's appearance. Match the series' edge-to-edge warm amber-gold aged paper, naturalistic colored pencil and ink rendering, accurately drawn animal anatomy, and a faint soft shadow. Center the entire creature with breathing room. No frame, lettering, labels, scenery, objects, logo or watermark. One oversized heavily built wild boar with four proportionate short muscular legs and cloven hooves. Deep charcoal and warm chestnut coarse bristles, high triangular bristled mane along its upper back, powerful shoulder, long broad snout and naturally curved ivory lower tusks, one on either side. Full body at low three-quarter angle, head at left and stance braced as if about to charge. Small dark eyes, rounded alert ears and a short bristled tail. Keep front and hind legs visually distinct. No armor, ropes, rocks or dirt spray.",
+    "appearanceSource": "Related D&D Giant Boar token and artwork by Polar Engine"
+  },
+  {
+    "slug": "dire-lion",
+    "name": "Dire Lion",
+    "entryId": "beast-173c75d4ad8f9f6c5dcddb6b",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "One oversized male lion, a deep golden ochre cat with broad muscular lion proportions, a full layered chestnut-black mane and tan face, heavy wide forepaws, and a single long thin tail with a dark tuft. Full body, three-quarter side view advancing to the right, alert head turned toward us, open mouth showing short natural lion fangs, no saber canines or extra tusks. Strong naturalistic lion structure, four gracefully placed paws, broad shoulder, sleek golden back. Keep the legs, mane and tail fully in view. No scenery or props.",
+    "prompt": "Create one original square fantasy bestiary portrait. Use the first image only for style and parchment; later images inform the creature's appearance. Match the series' edge-to-edge warm amber-gold aged paper, naturalistic colored pencil and ink rendering, accurately drawn animal anatomy, and a faint soft shadow. Center the entire creature with breathing room. No frame, lettering, labels, scenery, objects, logo or watermark. One oversized male lion, a deep golden ochre cat with broad muscular lion proportions, a full layered chestnut-black mane and tan face, heavy wide forepaws, and a single long thin tail with a dark tuft. Full body, three-quarter side view advancing to the right, alert head turned toward us, open mouth showing short natural lion fangs, no saber canines or extra tusks. Strong naturalistic lion structure, four gracefully placed paws, broad shoulder, sleek golden back. Keep the legs, mane and tail fully in view. No scenery or props.",
+    "appearanceSource": "Related D&D Lion art by Jonathan Kuo and the 2014 Lion token"
+  }
+]

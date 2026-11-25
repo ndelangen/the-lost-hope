@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Bat",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Blindsight 60 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings.",
+    "habitats": [
+      "Caves",
+      "Woodland roosts",
+      "Attics"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 119. ",
+      "Traits": "Echolocation. While deafened, the bat loses access to its blindsight.\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage.",
+      "At the table": "A deafened bat automatically fails ability checks that require hearing."
+    }
+  },
+  {
+    "name": "Bat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "5 ft., fly 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Blindsight 60 ft. Passive Perception 11. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings.",
+    "habitats": [
+      "Caves",
+      "Woodland roosts",
+      "Attics"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 318. https://anyflip.com/kqwdv/eoae/basic/301-350",
+      "Traits": "Echolocation. While deafened, the bat loses access to its blindsight.\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that depend on hearing.",
+      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage.",
+      "At the table": "A deafened bat automatically fails ability checks that require hearing."
+    }
+  },
+  {
+    "name": "Lizard",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 9. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny olive-brown lizard with pebbled scales, four splayed legs, and a long curved tail.",
+    "habitats": [
+      "Rocky ground",
+      "Dry scrub",
+      "Stone walls"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 142. ",
+      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. The hit deals 1 piercing damage."
+    }
+  },
+  {
+    "name": "Lizard",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 9. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny olive-brown lizard with pebbled scales, four splayed legs, and a long curved tail.",
+    "habitats": [
+      "Rocky ground",
+      "Dry scrub",
+      "Stone walls"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 332. https://anyflip.com/kqwdv/eoae/basic/301-350",
+      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. The hit deals 1 piercing damage."
+    }
+  },
+  {
+    "name": "Spider",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny mottled brown spider with long bristled legs and an ochre leaf-shaped mark on its rounded abdomen.",
+    "habitats": [
+      "Woodland undergrowth",
+      "Cellars",
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 153. ",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and traverse ceilings upside down without an ability check.\nWeb Sense. While touching a web, it knows where every other creature touching that same web is located.\nWeb Walker. Webbing does not restrict its movement.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage. The target makes a DC 9 Constitution save. On a failure, it also takes 2 (1d4) poison damage."
+    }
+  },
+  {
+    "name": "Spider",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 − 1",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A tiny mottled brown spider with long bristled legs and an ochre leaf-shaped mark on its rounded abdomen.",
+    "habitats": [
+      "Woodland undergrowth",
+      "Cellars",
+      "Ruins"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 337. https://anyflip.com/kqwdv/eoae/basic/301-350",
+      "Traits": "Spider Climb. The spider can climb difficult surfaces and traverse ceilings upside down without an ability check.\nWeb Sense. While touching a web, it knows where every other creature touching that same web is located.\nWeb Walker. Webbing does not restrict its movement.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage. The target makes a DC 9 Constitution save. On a failure, it also takes 2 (1d4) poison damage."
+    }
+  }
+]

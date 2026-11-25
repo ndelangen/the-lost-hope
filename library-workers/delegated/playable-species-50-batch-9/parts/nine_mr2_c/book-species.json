@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Yeth Hound",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium Fey with no species ability score increase. Walk 40 ft. and fly 40 ft. with hover while free of medium or heavy armor. Immune to prone. Darkvision 60 ft. and advantage on Perception checks relying on hearing or smell. Its bite is a 1d8 piercing unarmed strike.",
+      "Baleful Baying is an action audible out to 300 ft. Creatures within 30 ft. make a Wisdom save with DC 8 + proficiency bonus + Constitution modifier. Failures are frightened through the end of the hound’s next turn. One use per long rest.",
+      "The first summoning designates a specific non-good master. The hound has disadvantage on opposed checks against that master and on saving throws against the master’s spells and effects. Resisting a direct order requires winning an opposed Charisma check with disadvantage. It may refuse any order to enter sunlight without a check. If the master dies, it must immediately seek another or risk vanishing.",
+      "Starting its turn in natural sunlight sends the hound to the Deep Ethereal. Covering that spot afterward does not shorten its exile. After sunset, it moves to the Border Ethereal at the same spot, seeks its master, and can return as an action when next to that master on the Material Plane. The planes remain mutually visible from the border, without interaction across the boundary.",
+      "On the same plane, the hound and master can use telepathy and the hound can share its senses as an action. It understands, reads, and writes Common, Elvish, and Sylvan. The listed languages do not grant speech."
+    ]
+  },
+  {
+    "name": "Aurochs",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium awakened Beast. Strength and Constitution each rise by 2. Walk 50 ft. and speak, read, and write Common.",
+      "Gore is a 1d8 piercing unarmed strike. Natural armor while unarmored is 11 + Dexterity modifier.",
+      "Once per turn, after moving at least 25 ft. toward a target, a Strength-based melee weapon attack that hits it deals +1d6 damage. This bonus becomes 2d6 at 5th level, 3d6 at 11th, and 4d6 at 17th.",
+      "Cannot wield weapons or shields or manipulate hand-dependent items such as tools, wands, or spellcasting foci."
+    ]
+  },
+  {
+    "name": "Cattle",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium awakened Beast. Strength and Constitution each rise by 1 before the form bonus. Walk 30 ft. and speak, read, and write Common. Gore is a 1d6 piercing unarmed strike.",
+      "Once per turn, after moving at least 25 ft. toward a target, a Strength-based melee weapon attack that hits it deals +1d6 damage. This bonus becomes 2d6 at 5th level, 3d6 at 11th, and 4d6 at 17th.",
+      "Cannot wield weapons or shields or manipulate hand-dependent items such as tools, wands, or spellcasting foci.",
+      "Cow. Gain another +1 Strength and +1 Constitution. Natural armor while unarmored equals 11 + Dexterity modifier.",
+      "Deep Rothe. Darkvision 60 ft. and the dancing lights cantrip using Wisdom. The supplement permits somatic gestures suited to a handless body. It does not explicitly waive this cantrip’s material component.",
+      "Ox. Gain another +1 Strength and +1 Constitution. Count as one size larger for carrying, pushing, dragging, and lifting.",
+      "Rothe. Gain another +1 Constitution and darkvision 30 ft.",
+      "Stench Kow. Darkvision 30 ft., resistance to cold, fire, and poison damage, and advantage on saving throws against poison."
+    ]
+  },
+  {
+    "name": "Dolphin",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Medium awakened Beast with +1 Dexterity and +1 Intelligence, no walking speed, and 60-ft. swimming speed. Speaks, reads, and writes Common.",
+      "Blindsight 50 ft. uses echolocation and is unavailable while deafened.",
+      "Slam is a 1d6 bludgeoning unarmed strike. It can use Dexterity or Strength and counts as a finesse weapon for effects such as Sneak Attack.",
+      "Once per turn, after moving at least 25 ft. toward a target, a Strength-based melee weapon attack that hits it deals +1d6 damage. This bonus becomes 2d6 at 5th level, 3d6 at 11th, and 4d6 at 17th.",
+      "Cannot wield weapons or shields or manipulate hand-dependent items such as tools, wands, or spellcasting foci.",
+      "The player trait block gives neither a special breath timer nor a natural AC formula. Use normal breathing rules and ordinary unarmored AC."
+    ]
+  },
+  {
+    "name": "Rot Grub",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild in Monstrous Races 2.",
+      "Tiny awakened Beast with +1 Constitution. Walk and climb 10 ft. Speaks, reads, and writes Common. A bite is a 1d6 piercing unarmed strike.",
+      "Grappler grants advantage on attacks against a creature it has grappled. Infest lets it attempt a bonus-action grapple when its unarmed strike hits as part of the Attack action. The bite provides the hold. The conversion states no exception to the ordinary grapple size limit.",
+      "Infest ends if fire is applied to the wound, dealing 1 fire damage to the target, or if disease is cured on the target. A target still grappled by it at the end of that target’s own turn dies if it has 0 hit points.",
+      "It cannot use weapons, shields, armor, or hand-dependent items. Vulnerable to bludgeoning. Tiny carrying capacity is one quarter of the usual amount. Printed bite damage uses its own die."
+    ]
+  }
+]

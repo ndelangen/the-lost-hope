@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Giant Scorpion",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      135
+    ],
+    "viewerPages": [
+      135
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The claws and sting are named in both printed stat blocks. Shell color, shape and pose are editorial details from the shared portrait.",
+    "habitatEvidence": "Desert is the publisher’s legacy D&D Beyond habitat tag. The printed blocks have no dedicated habitat field.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16892-giant-scorpion",
+    "mechanicsNotes": [
+      "A Claw hit applies grappled without a separate save. The Sting saving throw halves only the poison damage. The printed actions apply no restrained or poisoned condition."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": ""
+  },
+  {
+    "name": "Giant Scorpion",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      327
+    ],
+    "viewerPages": [
+      328
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16892-giant-scorpion",
+    "url": "https://www.dndbeyond.com/monsters/16892-giant-scorpion",
+    "appearanceEvidence": "The claws and sting are named in both printed stat blocks. Shell color, shape and pose are editorial details from the shared portrait.",
+    "habitatEvidence": "Desert is the publisher’s legacy D&D Beyond habitat tag. The printed blocks have no dedicated habitat field.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16892-giant-scorpion",
+    "mechanicsNotes": [
+      "A Claw hit applies grappled without a separate save. The Sting saving throw halves only the poison damage. The printed actions apply no restrained or poisoned condition."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Giant Scorpion.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions"
+  },
+  {
+    "name": "Giant Sea Horse",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      135
+    ],
+    "viewerPages": [
+      135
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The Monster Manual describes an elongated fish with a curled tail. The Basic Rules mention its use as a mount. Color and plates are editorial portrait details.",
+    "habitatEvidence": "The publisher’s legacy D&D Beyond lists Underwater. Both printings support this with Water Breathing and a swim speed.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16893-giant-sea-horse",
+    "mechanicsNotes": [
+      "The mechanical text matches. The 2014 description names aquatic elves who train these mounts. The 2018 text refers to aquatic humanoids generally."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": ""
+  },
+  {
+    "name": "Giant Sea Horse",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      328
+    ],
+    "viewerPages": [
+      329
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16893-giant-sea-horse",
+    "url": "https://www.dndbeyond.com/monsters/16893-giant-sea-horse",
+    "appearanceEvidence": "The Monster Manual describes an elongated fish with a curled tail. The Basic Rules mention its use as a mount. Color and plates are editorial portrait details.",
+    "habitatEvidence": "The publisher’s legacy D&D Beyond lists Underwater. Both printings support this with Water Breathing and a swim speed.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16893-giant-sea-horse",
+    "mechanicsNotes": [
+      "The mechanical text matches. The 2014 description names aquatic elves who train these mounts. The 2018 text refers to aquatic humanoids generally."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Giant Sea Horse.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions"
+  },
+  {
+    "name": "Giant Shark",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      135
+    ],
+    "viewerPages": [
+      135
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The printed lore specifies the 30-ft. length. Color, outline and tooth shape are editorial portrait details.",
+    "habitatEvidence": "Both printings identify deep oceans as normal habitat. Underwater is the publisher’s legacy D&D Beyond tag.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16894-giant-shark",
+    "mechanicsNotes": [
+      "Blood Frenzy changes attack rolls against wounded creatures. The bite deals its printed piercing damage without a grapple rider."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Giant Shark",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      328
+    ],
+    "viewerPages": [
+      329
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16894-giant-shark",
+    "url": "https://www.dndbeyond.com/monsters/16894-giant-shark",
+    "appearanceEvidence": "The printed lore specifies the 30-ft. length. Color, outline and tooth shape are editorial portrait details.",
+    "habitatEvidence": "Both printings identify deep oceans as normal habitat. Underwater is the publisher’s legacy D&D Beyond tag.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16894-giant-shark",
+    "mechanicsNotes": [
+      "Blood Frenzy changes attack rolls against wounded creatures. The bite deals its printed piercing damage without a grapple rider."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Giant Shark."
+  }
+]

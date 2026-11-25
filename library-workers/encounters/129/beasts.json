@@ -1,0 +1,548 @@
+[
+  {
+    "name": "Little Bear (Medium)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 30,
+    "hitDice": "4d8 + 12",
+    "speed": "40 ft., swim 20 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3, Survival +3. Passive Perception 13. No languages.",
+    "description": "A bear that picks up scents through snow, water, or soil and knocks foes down with a heavy swat.",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Exceptional Smell. Add +10 to Wisdom (Perception) checks that use smell. Soil, snow, and water do not block the bear's sense of smell.\nNatural Camouflage. The beast has advantage on Dexterity (Stealth) checks in its native terrain.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage. Use the maximum damage against a Plant instead of rolling.\nSwat. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing or bludgeoning damage, chosen by the bear. The target falls Prone if it fails a DC 13 Strength save.",
+      "Optional Bear Features": "Adept Climber (black or spectacled bear). Gain a climb speed of 25 ft.\nArctic Traveler (polar bear). Gain advantage on saves against Exhaustion, tolerate temperatures as low as −50°F, and ignore difficult terrain from ice or snow.\nFearsome Growl (any bear, bonus action, 1/day). Each creature within 15 ft. that hears the bear makes a DC 13 Wisdom save. On a failure, it is Frightened of the bear until the end of the bear's next turn. On a success, it is immune to all bears' Fearsome Growl for 24 hours.\nClever Claws (sloth bear). Use claws in place of thieves' tools to open locks and add +3 to the Dexterity check.\nPowerful Jaws (giant panda or sun bear). Bite deals an extra 4 (1d8) damage. Use maximum damage against Plants. This option prevents the bear from using Multiattack.\nSprint (black, brown, polar, spectacled, or sun bear, recharges after a short or long rest). When the bear moves on its turn in combat, it can triple its speed until the turn ends."
+    },
+    "variantGroup": "Little Bear"
+  },
+  {
+    "name": "Little Bear (Small)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 30,
+    "hitDice": "4d8 + 12",
+    "speed": "40 ft., swim 20 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3, Survival +3. Passive Perception 13. No languages.",
+    "description": "A bear that picks up scents through snow, water, or soil and knocks foes down with a heavy swat.",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Exceptional Smell. Add +10 to Wisdom (Perception) checks that use smell. Soil, snow, and water do not block the bear's sense of smell.\nNatural Camouflage. The beast has advantage on Dexterity (Stealth) checks in its native terrain.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage. Use the maximum damage against a Plant instead of rolling.\nSwat. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing or bludgeoning damage, chosen by the bear. The target falls Prone if it fails a DC 13 Strength save.",
+      "Optional Bear Features": "Adept Climber (black or spectacled bear). Gain a climb speed of 25 ft.\nArctic Traveler (polar bear). Gain advantage on saves against Exhaustion, tolerate temperatures as low as −50°F, and ignore difficult terrain from ice or snow.\nFearsome Growl (any bear, bonus action, 1/day). Each creature within 15 ft. that hears the bear makes a DC 13 Wisdom save. On a failure, it is Frightened of the bear until the end of the bear's next turn. On a success, it is immune to all bears' Fearsome Growl for 24 hours.\nClever Claws (sloth bear). Use claws in place of thieves' tools to open locks and add +3 to the Dexterity check.\nPowerful Jaws (giant panda or sun bear). Bite deals an extra 4 (1d8) damage. Use maximum damage against Plants. This option prevents the bear from using Multiattack.\nSprint (black, brown, polar, spectacled, or sun bear, recharges after a short or long rest). When the bear moves on its turn in combat, it can triple its speed until the turn ends."
+    },
+    "variantGroup": "Little Bear"
+  },
+  {
+    "name": "Little Wildcat (Small)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Small Beast, unaligned",
+    "ac": 13,
+    "hp": 18,
+    "hitDice": "4d6 + 4",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Acrobatics +4, Perception +6, Stealth +6. Darkvision 60 ft., passive Perception 16. No languages.",
+    "description": "A small feline ambusher that can drop from a tree without injury and pounce from cover.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Agile Landing. The cat takes no damage from falling 40 ft. or less unless it is Incapacitated.\nHunter's Pounce. A hit with advantage grapples a Small or smaller target (escape DC 12). The cat cannot attack another creature while holding the target this way.\nNatural Camouflage. The beast has advantage on Dexterity (Stealth) checks in its native terrain.\nSprint (recharges after a short or long rest). When the cat moves on its turn in combat, it can triple its speed until the turn ends.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage plus 2 (1d4) piercing damage against a Grappled or Restrained target.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage plus 2 (1d4) slashing damage if the attack had advantage.",
+      "Bonus Actions": "Sneak. Take the Hide action.",
+      "Optional Wildcat Features": "Adept Climber (clouded leopard, jaguar, leopard, lynx, or snow leopard). Gain a climb speed of 25 ft.\nAgile Landing (any Medium wildcat). Ignore falls of 40 ft. or less unless Incapacitated.\nDeadly Bite (lion, tiger, or jaguar). A Bite hit against a Prone target is a critical hit.\nDesert Dweller (sand cat). Ignore difficult terrain from dirt or sand and tolerate temperatures up to 120°F. Fresh food meets the cat's need for water.\nMountain Dweller (lynx or snow leopard). Ignore difficult terrain from snow, ice, or steep slopes.\nSuperior Sprint (cheetah or sand cat, 2 uses per short or long rest). When the cat moves on its turn in combat, it can quadruple its speed until the turn ends. Replaces Sprint.\nPack Tactics (lion). The cat has advantage on attacks against a target within 5 ft. of at least one ally of the cat, as long as the ally is not Incapacitated.\nPowerful Leap (caracal, cougar, lion, margay, serval, or snow leopard). Double all jump distances, with or without a running start. Use either Strength or Dexterity to determine the distance.\nSwimmer (tiger, leopard, ocelot, or jaguar). Gain a swim speed of 30 ft."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Little Wildcat (Tiny)"
+      }
+    ]
+  },
+  {
+    "name": "Little Wildcat (Tiny)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 18,
+    "hitDice": "4d6 + 4",
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Acrobatics +4, Perception +6, Stealth +6. Darkvision 60 ft., passive Perception 16. No languages.",
+    "description": "A small feline ambusher that can drop from a tree without injury and pounce from cover.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Agile Landing. The cat takes no damage from falling 40 ft. or less unless it is Incapacitated.\nHunter's Pounce. A hit with advantage grapples a Small or smaller target (escape DC 12). The cat cannot attack another creature while holding the target this way.\nNatural Camouflage. The beast has advantage on Dexterity (Stealth) checks in its native terrain.\nSprint (recharges after a short or long rest). When the cat moves on its turn in combat, it can triple its speed until the turn ends.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage plus 2 (1d4) piercing damage against a Grappled or Restrained target.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) slashing damage plus 2 (1d4) slashing damage if the attack had advantage.",
+      "Bonus Actions": "Sneak. Take the Hide action.",
+      "Optional Wildcat Features": "Adept Climber (clouded leopard, jaguar, leopard, lynx, or snow leopard). Gain a climb speed of 25 ft.\nAgile Landing (any Medium wildcat). Ignore falls of 40 ft. or less unless Incapacitated.\nDeadly Bite (lion, tiger, or jaguar). A Bite hit against a Prone target is a critical hit.\nDesert Dweller (sand cat). Ignore difficult terrain from dirt or sand and tolerate temperatures up to 120°F. Fresh food meets the cat's need for water.\nMountain Dweller (lynx or snow leopard). Ignore difficult terrain from snow, ice, or steep slopes.\nSuperior Sprint (cheetah or sand cat, 2 uses per short or long rest). When the cat moves on its turn in combat, it can quadruple its speed until the turn ends. Replaces Sprint.\nPack Tactics (lion). The cat has advantage on attacks against a target within 5 ft. of at least one ally of the cat, as long as the ally is not Incapacitated.\nPowerful Leap (caracal, cougar, lion, margay, serval, or snow leopard). Double all jump distances, with or without a running start. Use either Strength or Dexterity to determine the distance.\nSwimmer (tiger, leopard, ocelot, or jaguar). Gain a swim speed of 30 ft."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Little Wildcat (Small)"
+      }
+    ]
+  },
+  {
+    "name": "Snowfox",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d4 + 6",
+    "speed": "30 ft., burrow 10 ft., fly 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +5, Stealth +5, Survival +3. Resists cold damage. Darkvision 120 ft., tremorsense 15 ft., passive Perception 15. No languages.",
+    "description": "A winged fox from polar regions and high plateaus. Its white winter coat darkens as the weather warms.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Natural Camouflage. The snowfox has advantage on Dexterity (Stealth) checks in snowy terrain or cloudy skies.\nNimble Escape. The snowfox provokes no opportunity attacks when it leaves an enemy's reach.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 4 piercing damage, and the snowfox attaches to the target. While attached, it has advantage on Claw attacks against the target and cannot attack another creature. The target or a creature that can reach it can spend an action to detach the snowfox with a successful DC 13 Strength (Athletics) check. The snowfox can detach by spending 5 ft. of movement.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 4 slashing damage.",
+      "Bonus Actions": "Burrow. Burrow up to 5 ft. through snow.\nListen. Make a Wisdom (Perception) check."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Snowfox (Familiar Variant)"
+      }
+    ]
+  },
+  {
+    "name": "Snowfox (Familiar Variant)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d4 + 6",
+    "speed": "30 ft., burrow 10 ft., fly 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Perception +5, Stealth +5, Survival +3. Resists cold damage. Darkvision 120 ft., tremorsense 15 ft., passive Perception 15. No languages.",
+    "description": "A winged arctic fox that can share what it sees and hears with the creature it serves.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Natural Camouflage. The snowfox has advantage on Dexterity (Stealth) checks in snowy terrain or cloudy skies.\nNimble Escape. The snowfox provokes no opportunity attacks when it leaves an enemy's reach.\nFamiliar. The snowfox can form a telepathic bond with a willing creature it serves. Within 1 mile, the companion can share the snowfox's senses. While bonded, the fox may use the companion's proficiency bonus for ability checks. It gains temporary HP equal to that bonus at the end of a long rest. Either creature can end the bond at any time.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 4 piercing damage, and the snowfox attaches to the target. While attached, it has advantage on Claw attacks against the target and cannot attack another creature. The target or a creature that can reach it can spend an action to detach the snowfox with a successful DC 13 Strength (Athletics) check. The snowfox can detach by spending 5 ft. of movement.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 4 slashing damage.",
+      "Bonus Actions": "Burrow. Burrow up to 5 ft. through snow.\nListen. Make a Wisdom (Perception) check."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Snowfox"
+      }
+    ]
+  },
+  {
+    "name": "Wildcat (Large)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +6, Stealth +4. Darkvision 60 ft., passive Perception 16. No languages.",
+    "description": "A stalking cat that sprints from cover and sinks its teeth into prey it has pinned.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Hunter's Pounce. A hit with advantage grapples a Large or smaller target (escape DC 13). The cat cannot attack another creature while holding the target this way.\nNatural Camouflage. The beast has advantage on Dexterity (Stealth) checks in its native terrain.\nSprint (recharges after a short or long rest). When the cat moves on its turn in combat, it can triple its speed until the turn ends.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 3 (1d6) piercing damage against a Grappled or Restrained target.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage plus 3 (1d6) slashing damage if the attack had advantage.",
+      "Bonus Actions": "Sneak. Take the Hide action.",
+      "Optional Wildcat Features": "Adept Climber (clouded leopard, jaguar, leopard, lynx, or snow leopard). Gain a climb speed of 25 ft.\nAgile Landing (any Medium wildcat). Ignore falls of 40 ft. or less unless Incapacitated.\nDeadly Bite (lion, tiger, or jaguar). A Bite hit against a Prone target is a critical hit.\nDesert Dweller (sand cat). Ignore difficult terrain from dirt or sand and tolerate temperatures up to 120°F. Fresh food meets the cat's need for water.\nMountain Dweller (lynx or snow leopard). Ignore difficult terrain from snow, ice, or steep slopes.\nSuperior Sprint (cheetah or sand cat, 2 uses per short or long rest). When the cat moves on its turn in combat, it can quadruple its speed until the turn ends. Replaces Sprint.\nPack Tactics (lion). The cat has advantage on attacks against a target within 5 ft. of at least one ally of the cat, as long as the ally is not Incapacitated.\nPowerful Leap (caracal, cougar, lion, margay, serval, or snow leopard). Double all jump distances, with or without a running start. Use either Strength or Dexterity to determine the distance.\nSwimmer (tiger, leopard, ocelot, or jaguar). Gain a swim speed of 30 ft."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Wildcat (Medium)"
+      }
+    ]
+  },
+  {
+    "name": "Wildcat (Medium)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 37,
+    "hitDice": "5d10 + 10",
+    "speed": "60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +6, Stealth +4. Darkvision 60 ft., passive Perception 16. No languages.",
+    "description": "A stalking cat that sprints from cover and sinks its teeth into prey it has pinned.",
+    "sections": {
+      "Role": "Ambusher",
+      "Traits": "Hunter's Pounce. A hit with advantage grapples a Large or smaller target (escape DC 13). The cat cannot attack another creature while holding the target this way.\nNatural Camouflage. The beast has advantage on Dexterity (Stealth) checks in its native terrain.\nSprint (recharges after a short or long rest). When the cat moves on its turn in combat, it can triple its speed until the turn ends.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage plus 3 (1d6) piercing damage against a Grappled or Restrained target.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage plus 3 (1d6) slashing damage if the attack had advantage.",
+      "Bonus Actions": "Sneak. Take the Hide action.",
+      "Optional Wildcat Features": "Adept Climber (clouded leopard, jaguar, leopard, lynx, or snow leopard). Gain a climb speed of 25 ft.\nAgile Landing (any Medium wildcat). Ignore falls of 40 ft. or less unless Incapacitated.\nDeadly Bite (lion, tiger, or jaguar). A Bite hit against a Prone target is a critical hit.\nDesert Dweller (sand cat). Ignore difficult terrain from dirt or sand and tolerate temperatures up to 120°F. Fresh food meets the cat's need for water.\nMountain Dweller (lynx or snow leopard). Ignore difficult terrain from snow, ice, or steep slopes.\nSuperior Sprint (cheetah or sand cat, 2 uses per short or long rest). When the cat moves on its turn in combat, it can quadruple its speed until the turn ends. Replaces Sprint.\nPack Tactics (lion). The cat has advantage on attacks against a target within 5 ft. of at least one ally of the cat, as long as the ally is not Incapacitated.\nPowerful Leap (caracal, cougar, lion, margay, serval, or snow leopard). Double all jump distances, with or without a running start. Use either Strength or Dexterity to determine the distance.\nSwimmer (tiger, leopard, ocelot, or jaguar). Gain a swim speed of 30 ft."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Wildcat (Large)"
+      }
+    ]
+  },
+  {
+    "name": "Swarm of Insects (Bullet Ants)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "20 ft., climb 20 ft., burrow 5 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Resists bludgeoning, piercing, and slashing damage. Immune to Charmed, Dazed, Flanked, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, and Stunned. Blindsight 10 ft., passive Perception 9. No languages.",
+    "description": "A mass of ants that burrows underfoot and stings as it closes in.",
+    "sections": {
+      "Role": "Soldier",
+      "Traits": "Multitudinous. The swarm has advantage on opportunity attacks and can make them when a creature leaves its reach even after taking Disengage.\nSwarm. The swarm and other creatures can share occupied spaces. An opening that fits one Tiny insect fits the swarm. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Sting. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 2 (1d4) piercing plus 7 (2d6) poison damage. At half HP or less, the hit deals 1 piercing plus 3 (1d6) poison damage.\nDistracting Buzz. The swarm can use this action while it has at least half its HP. Until the start of the swarm's next turn, creatures within 15 ft. that hear it have disadvantage on attacks against any other target."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Swarm of Insects (MCDM)"
+      }
+    ],
+    "ruleNotes": [
+      "Uses the printed base swarm with the Burrower and Sting options listed for ants."
+    ]
+  },
+  {
+    "name": "Swarm of Insects (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Swarm of Tiny Beasts, unaligned",
+    "ac": 12,
+    "hp": 18,
+    "hitDice": "4d8",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Resists bludgeoning, piercing, and slashing damage. Immune to Charmed, Dazed, Flanked, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, and Stunned. Blindsight 10 ft., passive Perception 9. No languages.",
+    "description": "A mass of insects that crowds the battlefield and distracts anyone close enough to hear it.",
+    "sections": {
+      "Role": "Soldier",
+      "Traits": "Multitudinous. The swarm has advantage on opportunity attacks and can make them when a creature leaves its reach even after taking Disengage.\nSwarm. The swarm and other creatures can share occupied spaces. An opening that fits one Tiny insect fits the swarm. The swarm cannot regain HP or gain temporary HP.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 0 ft., one target in the swarm's space. Hit 10 (4d4) piercing damage, or 5 (2d4) piercing damage at half HP or less.\nDistracting Buzz. The swarm can use this action while it has at least half its HP. Until the start of the swarm's next turn, creatures within 15 ft. that hear it have disadvantage on attacks against any other target.",
+      "Optional Insect Swarm Features": "Deafening Song (cicadas, action, recharge 6). Each creature within 15 ft. makes a DC 12 Constitution save or is Deafened. A creature can repeat the save at each turn's end to end the effect.\nMultiattack (locusts, action, +1 CR). Make two Bite attacks.\nBurrower (ants, beetles, or termites). Gain a 5-ft. burrow speed.\nDarkvision (beetles, mosquitoes, cockroaches, or other nocturnal insects). Gain darkvision 30 ft.\nDisease Carrier (mosquitoes, dung beetles, or fleas). On an attack hit, the target makes a DC 12 Constitution save or is Poisoned. It repeats the save at each turn's end to end the effect.\nDurable (cockroaches, +1 CR). Double the swarm's HP and set AC to 15. Constitution saves gain +5 and advantage.\nFlyer (cicadas, locusts, wasps, or other flying insects). Gain a 30-ft. fly speed.\nSting (fire ants, bullet ants, or wasps). Replace Bite with the following attack. Sting. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 2 (1d4) piercing plus 7 (2d6) poison damage. At half HP or less, the hit deals 1 piercing plus 3 (1d6) poison damage."
+    },
+    "relatedCreatures": [
+      {
+        "kind": "beast",
+        "name": "Swarm of Insects (Bullet Ants)"
+      }
+    ]
+  }
+]

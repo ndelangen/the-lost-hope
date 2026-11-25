@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Crocodile",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 25,
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Natural armor. Perception 10. Stealth 12. Resistant to charmed. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A heavy crocodile with a tapered snout, interlocking teeth, dark olive-brown back scutes, and a long armored tail.",
+    "habitats": [
+      "Rivers",
+      "Marshes",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, p. 355. \nXP from the Experience Points by Challenge Rating table, p. 229.",
+      "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT −4 · WIS +0 · CHA −3",
+      "Traits": "Hold Breath. The crocodile can go 15 minutes without taking a breath.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 6 (1d8 + 2) piercing damage and grapples the creature (escape DC 12). The target stays restrained until that grapple ends, and the crocodile can bite only the held target while the grapple lasts.",
+      "Bonus actions": "Death Roll. The crocodile chooses one creature it is grappling. The creature makes a DC 12 Strength save and takes 5 (2d4) slashing damage on a failure, or half on a success.",
+      "At the table": "Charmed resistance grants advantage on checks and saves to avoid or end that condition. Apply Death Roll with a bonus action against prey already grappled."
+    }
+  },
+  {
+    "name": "Crocodile",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "20 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +2. Passive Perception 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A heavy crocodile with a tapered snout, interlocking teeth, dark olive-brown back scutes, and a long armored tail.",
+    "habitats": [
+      "Rivers",
+      "Marshes",
+      "Wetlands"
+    ],
+    "sections": {
+      "Printed source": "Monster Manual (2014), Appendix A, printed p. 320, Crocodile. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c#Crocodile",
+      "Traits": "Hold Breath. The crocodile can go 15 minutes without taking a breath.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 7 (1d10 + 2) piercing damage and grapples the creature (escape DC 12). The target stays restrained until that grapple ends, and the crocodile can bite only the held target while the grapple lasts.",
+      "At the table": "Resolve the grapple when Bite hits. The grappled creature can use its action to make the escape check."
+    }
+  },
+  {
+    "name": "Mastiff",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 12,
+    "hp": 9,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Perception 11. Stealth 12. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A broad-chested fawn guard dog with a black muzzle, dark folded ears, thick neck, and strong paws.",
+    "habitats": [
+      "Settlements",
+      "Farms",
+      "Roadside camps"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, pp. 363–364. \nXP from the Experience Points by Challenge Rating table, p. 229.",
+      "Ability modifiers": "STR +1 · DEX +2 · CON +1 · INT −4 · WIS +1 · CHA −2",
+      "Traits": "Heightened Hearing and Smell. Use Perception 16 for hearing or scent.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) piercing damage. A creature hit must pass a DC 12 Strength save to stay standing.",
+      "Reactions": "Protect Friend. When a friendly Humanoid the mastiff can see is hit by an attack from a creature within 5 ft. of the mastiff, the mastiff can make one Bite attack against that attacker.",
+      "At the table": "Measure the 5-ft. range from the mastiff to the attacker. The mastiff must see the friendly Humanoid who was hit."
+    }
+  },
+  {
+    "name": "Mule",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 10,
+    "hp": 10,
+    "speed": "40 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Perception 10. Stealth 10. Resistant to exhaustion and prone. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A brown mule with tall donkey-like ears, a short dark mane, a grey muzzle, and narrow hooves.",
+    "habitats": [
+      "Farms",
+      "Trade roads",
+      "Mountain trails"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, p. 364. \nXP from the Experience Points by Challenge Rating table, p. 229.",
+      "Ability modifiers": "STR +2 · DEX +0 · CON +1 · INT −4 · WIS +0 · CHA −3",
+      "Traits": "Beast of Burden. Treat the mule as Large when calculating how much it can carry.",
+      "Actions": "Hooves. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+      "At the table": "Resistance gives advantage on checks and saves to avoid or end exhaustion or the prone condition. The mule occupies a Medium space."
+    }
+  },
+  {
+    "name": "Octopus",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "5 ft., swim 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Perception 12. Stealth 13. Darkvision 30 ft. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A small mottled russet octopus with a rounded mantle, horizontal pupils, and eight curling arms lined with pale suckers.",
+    "habitats": [
+      "Underwater",
+      "Coastal waters",
+      "Reefs"
+    ],
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, May 2024, p. 364. \nXP from the Experience Points by Challenge Rating table, p. 229.",
+      "Ability modifiers": "STR −3 · DEX +1 · CON +0 · INT −4 · WIS +0 · CHA −3",
+      "Traits": "Hold Breath. Out of water, the octopus can go 30 minutes without taking a breath.\nUnderwater Camouflage. Use Stealth 18 underwater.\nWater Breathing. Breathes only underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +3 to hit against one target within 5 ft. A hit deals 3 (1d4 + 1) bludgeoning damage and grapples a Medium or smaller creature (escape DC 11). Until that grapple ends, the octopus can use Tentacles only on the held target.",
+      "Reactions": "Ink Dash (Recharge 6). When a creature the octopus can see damages it underwater, the octopus can release an ink cloud in a 5-ft. radius around itself. The area is heavily obscured through the end of the octopus's next turn unless a strong current disperses the ink first. The octopus may then swim up to its swim speed. If it swims, it immediately releases any creature it is holding.",
+      "At the table": "After using Ink Dash, recharge it on a 6 on a d6 rolled at the start of each of the octopus's turns, or after a short or long rest."
+    }
+  }
+]

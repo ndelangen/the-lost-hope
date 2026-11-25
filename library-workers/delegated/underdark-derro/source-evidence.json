@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Derro",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Monster Manual, v.3.5",
+    "publisher": "Wizards of the Coast",
+    "printedPages": {
+      "originalTraits": 49,
+      "underdarkPlayableEntry": [
+        19,
+        20
+      ],
+      "underdarkIllustration": 18
+    },
+    "primaryBookPdfPageOffset": 0,
+    "underdarkPdfPageOffset": 1,
+    "editionReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "f6c17365945be3ac504ea2660932b0f4ee9804db2f3443234ebe7464fd29c621",
+    "editionReferenceSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "ad0182470b2706542bf3faa9ab75bc225dd3abd93b7d6794a473d19629f4aa0f",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, Underdark p. 18.",
+    "sourceDistinctions": [
+      "Underdark gives the playable Derro 3d8 racial Hit Dice, LA +1, and ECL 4, and describes adventurers with Madness. This profile retains that trait.",
+      "The core Monster Manual profile lists LA +2 if sane and no level adjustment for its default monster. These are different advancement entries.",
+      "Use the core monster ability conversion on the printed scores after removing the printed Madness adjustments. Add the trait’s −6 Wisdom and +6 Charisma once for this profile.",
+      "Both builds use Common and buy Undercommon with two racial skill points. The original Derro entry gives no racial language list.",
+      "The Monster Manual errata discuss Diirinka but give no correction to the Derro ability or advancement entries."
+    ],
+    "entryId": "species-869cbe0dc18530fc51d49168",
+    "versionKey": "73184c39b5693235a7606f50",
+    "slug": "derro",
+    "portraitSelection": "generated",
+    "portraitForm": "Dorr Palevein, an original Derro tunnel guide",
+    "npcExamples": [
+      "Dorr Palevein",
+      "Mira Chalkwick"
+    ]
+  }
+]

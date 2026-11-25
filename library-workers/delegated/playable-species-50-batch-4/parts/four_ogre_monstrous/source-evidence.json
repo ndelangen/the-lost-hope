@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Skullcrusher Ogre",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant",
+    "url": "",
+    "pages": "pp. 116–117, Skullcrusher Ogres as Characters",
+    "evidence": "The player sidebar sets the giant Hit Dice, proficiencies, racial feats, level adjustment and rock throwing. The 2006 errata changes the printed sergeant example. Brann uses an independent array and the player sidebar.",
+    "sourceDistinctions": "Separate from Ogre and Ogre Mage.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual III, official errata, 12 July 2006",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast, revised 3.5 SRD",
+        "url": "https://www.d20srd.org/"
+      }
+    ]
+  },
+  {
+    "name": "Naztharune Rakshasa",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider (native)",
+    "url": "",
+    "pages": "pp. 136–137, Naztharune Rakshasas as Characters",
+    "evidence": "Uses the 3.5 player sidebar, its Detect Thoughts DC and the adjacent racial ability descriptions. The July 2006 errata confirms Sneak Attack scales with creature HD. It is +6d6 at this 11-HD tier. The source main stat gives CL 18 for Detect Thoughts.",
+    "sourceDistinctions": "Named player variant. Savage Species Rakshasa stays separate.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual III, official errata, 12 July 2006",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast, revised 3.5 SRD",
+        "url": "https://www.d20srd.org/"
+      }
+    ]
+  },
+  {
+    "name": "Crystalline Troll",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant",
+    "url": "",
+    "pages": "p. 178, Crystalline Trolls as Characters",
+    "evidence": "The racial sidebar and official correction specify 1d6 base dice for claws and bite. Sonic damage bypasses regeneration and is increased by vulnerability. Hrak keeps those rules and his original ability and feat choices.",
+    "sourceDistinctions": "Named player variant. Base Troll and Trollkin stay separate.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual III, official errata, 12 July 2006",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast, revised 3.5 SRD",
+        "url": "https://www.d20srd.org/"
+      }
+    ]
+  },
+  {
+    "name": "Ogre Mage",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant",
+    "url": "",
+    "pages": "pp. 189–190, Appendix 1, Table A–39",
+    "evidence": "The book contents and entry title say Ogre Mage. The table header is misprinted as Ogre Mace. The NPC uses monster class tier 4 (3 racial HD), prior to Large size or regeneration. Uses the 3.0 Monster Manual for the free toggle on its acquired flight and original 3.0 spell effects.",
+    "sourceDistinctions": "Separate playable progression from Ogre A–38. Later Oni printings stay separate.",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Ogre Mage, pp. 144–145",
+        "url": ""
+      },
+      {
+        "name": "Wizards of the Coast, original 3.0 SRD, Invisibility",
+        "url": "https://www.dragon.ee/30srd/spellsi.htm#Invisibility"
+      },
+      {
+        "name": "Original 3.0 SRD, Weapons",
+        "url": "https://www.dragon.ee/30srd/equipment_wpns.htm"
+      },
+      {
+        "name": "Original 3.0 SRD, Sleep",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Sleep"
+      },
+      {
+        "name": "Original 3.0 SRD, Darkness",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Darkness"
+      },
+      {
+        "name": "Original 3.0 SRD, Charm Person",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Charm_Person"
+      }
+    ]
+  },
+  {
+    "name": "Irda",
+    "kind": "species",
+    "publication": "Dragonlance Campaign Setting (2003)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Humanoid (shapechanger)",
+    "url": "",
+    "pages": "pp. 38–39, Chapter 1, Irda Racial Traits",
+    "evidence": "The 2003 Dragonlance Campaign Setting is the authority for the ancestry. Original print spells the subtype shapeshifter. The NPC presents the equivalent 3.5 shapechanger subtype and treats the ability as a standard action under the supernatural ability default. The original portrait shows the true form.",
+    "sourceDistinctions": "Krynn Irda, also called High Ogre. Separate from Ogre and Ogre Mage.",
+    "additionalSources": [
+      {
+        "name": "Wizards of the Coast, revised 3.5 SRD",
+        "url": "https://www.d20srd.org/"
+      }
+    ]
+  }
+]

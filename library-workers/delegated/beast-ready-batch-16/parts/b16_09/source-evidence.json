@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Birdsquirrel",
+    "publication": "Adventure with Muk",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Facsimile of the original Wizards activity book, ©2019.",
+    "printedPages": [],
+    "pdfPages": [
+      30
+    ],
+    "section": "Monsters",
+    "sourceFile": "",
+    "sourceSha256": "f00358fdc296094a1b3a79c68738e330bab55ce85a3ed9ee66521bb7cd2837e2",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original Wizards activity book, ©2019.",
+    "errataResult": "No official correction to this scoped entry was located.",
+    "appearanceEvidence": "The body shape follows the book’s illustrated bird with a squirrel-like tail. The portrait’s color is editorial.",
+    "habitatEvidence": "The source description or encounter placement.",
+    "portraitSource": "portraits/birdsquirrel.png",
+    "portraitSha256": "15d056f509371ea34333f5402ef01d423934993b2cdcaf40d06a1b93c83a0d18",
+    "sourceDistinctions": [
+      "The printed Initiative badge is -3. The Dexterity modifier in the same panel is +2.",
+      "The simplified block gives fixed HP, CR 1/4 and attack entries. It omits Hit Dice, XP and attack reach."
+    ],
+    "encounterPdfPages": [
+      26,
+      28
+    ]
+  },
+  {
+    "name": "Boontu Monkey",
+    "publication": "Adventure with Muk",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Facsimile of the original Wizards activity book, ©2019.",
+    "printedPages": [],
+    "pdfPages": [
+      30
+    ],
+    "section": "Monsters",
+    "sourceFile": "",
+    "sourceSha256": "f00358fdc296094a1b3a79c68738e330bab55ce85a3ed9ee66521bb7cd2837e2",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original Wizards activity book, ©2019.",
+    "errataResult": "No official correction to this scoped entry was located.",
+    "appearanceEvidence": "The book describes a tiny monkey that lives in the sacred Boontu tree. The face, coat and tail are editorial.",
+    "habitatEvidence": "The source description or encounter placement.",
+    "portraitSource": "portraits/boontu-monkey.png",
+    "portraitSha256": "ecf4f857363ddc93c741f02ce3dc80868fc0c3d1029e5b1c464b9a3ebed68823",
+    "sourceDistinctions": [
+      "The simplified block gives fixed HP and CR 0. It omits Hit Dice, XP and Bite reach."
+    ],
+    "encounterPdfPages": [
+      28
+    ]
+  },
+  {
+    "name": "Two-Headed Plesiosaurus",
+    "publication": "The Tortle Package",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Facsimile of the original Wizards 2017 supplement.",
+    "printedPages": [
+      18,
+      19
+    ],
+    "pdfPages": [
+      18,
+      19
+    ],
+    "section": "High Horn",
+    "sourceFile": "",
+    "sourceSha256": "6784815399fa584421050e1f6b1138bc1b3cf71e6246530d565b18efa322fc51",
+    "sourceUrl": "",
+    "sourceUrlRole": "Facsimile of the original Wizards 2017 supplement.",
+    "errataResult": "No official correction to this scoped entry was located.",
+    "appearanceEvidence": "The supplement gives two heads. The base Monster Manual describes a compact body, flippers and long flexible neck.",
+    "habitatEvidence": "The source description or encounter placement.",
+    "portraitSource": "portraits/two-headed-plesiosaurus.png",
+    "portraitSha256": "78a611a91b6f63bfb1e6376e9128f3a00325841ec4193560b3c4aaf5c72fa5d7",
+    "sourceDistinctions": [
+      "The supplement gives fixed 100 HP and CR 4 (1,100 XP). It supplies no revised Hit Dice formula."
+    ],
+    "baseRules": {
+      "publication": "Monster Manual (2014)",
+      "entry": "Plesiosaurus",
+      "printedPage": 80,
+      "sourceFile": " - 5th Edition (2014)/Rules/Monster ",
+      "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "errataUrl": "",
+      "errataResult": "The 2018 Monster Manual errata lists no correction to the base Plesiosaurus."
+    }
+  },
+  {
+    "name": "Wolf",
+    "publication": "DDEX1-01 - Defiance in Phlan",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "The official Wizards matches the local byte for byte.",
+    "printedPages": [
+      15,
+      31
+    ],
+    "pdfPages": [
+      15,
+      31
+    ],
+    "section": "Missions 2 and 5, Monster/NPC Statistics",
+    "sourceFile": " - 5th Edition (2014)/Adventures/DDEX1-01 - Defiance in ",
+    "sourceSha256": "07994a6c82735a2b692b09743fbbe641e10953eb507dcaf66f9257e3ab2823cc",
+    "sourceUrl": "",
+    "sourceUrlRole": "The official Wizards matches the local byte for byte.",
+    "errataResult": "No official correction to this scoped entry was located.",
+    "appearanceEvidence": "Editorial description of the selected portrait.",
+    "habitatEvidence": "The source description or encounter placement.",
+    "portraitSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+    "portraitSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+    "sourceDistinctions": [
+      "Both adventure appendices print Bite damage 7 (2d4 + 2) and DC 11 to avoid falling prone."
+    ],
+    "encounterPdfPages": [
+      13,
+      28
+    ]
+  }
+]

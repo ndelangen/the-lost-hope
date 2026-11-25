@@ -1,0 +1,2108 @@
+{
+  "baseline": "62ea1fb189868cec116181b568846d6bfdf020b0",
+  "species": 50,
+  "profiles": 50,
+  "newCatalogRows": 46,
+  "existingMetadataEnriched": 4,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Air Elemental",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_d",
+      "aliases": "Air Elemental, Large is the class endpoint; one progression",
+      "npcs": [
+        "Skirl"
+      ],
+      "portrait": "parts/nextsavage_d/portraits/air-elemental.png",
+      "source": {
+        "name": "Air Elemental",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Elemental (Air)",
+        "url": "",
+        "pages": "152–153, Table A–1 on p. 152",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), Air Elemental and Whirlwind",
+            "url": ""
+          }
+        ],
+        "evidence": "Air Elemental, Large labels the endpoint of one class. At level 5 the creature is Medium, with 4d8 Hit Dice, CR 2, Whirlwind, and a 1d6 slam. Whirlwind uses the core 3.0 rules with the damage and saving throw adjustments on p. 153.",
+        "catalogStatus": "Existing monster or beast record only at the batch baseline."
+      }
+    },
+    {
+      "name": "Alseid",
+      "publication": "Margreve Player’s Guide (2019)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_a",
+      "aliases": "Alseid deer-centaur; keep separate from Centaur",
+      "npcs": [
+        "Vaethilalora (Vael)"
+      ],
+      "portrait": "parts/nextkp_a/portraits/alseid.png",
+      "source": {
+        "name": "Alseid",
+        "kind": "species",
+        "publication": "Margreve Player’s Guide (2019)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "year": 2019,
+        "url": "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp",
+        "source": "https://koboldpress.com/kpstore/product/margreve-players-guide-for-5th-edition/",
+        "primaryBookText": "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp",
+        "rulePages": [
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp",
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/10.webp"
+        ],
+        "printedPages": [
+          8,
+          9
+        ],
+        "heading": "Alseid Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinctions": [
+          "The playable Alseid is a Monstrosity. Its Quadruped trait gives specific movement constraints. Woodfriend applies within forests."
+        ]
+      }
+    },
+    {
+      "name": "Annis Hag",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_a",
+      "aliases": "Annis; keep separate from Green Hag and Sea Hag",
+      "npcs": [
+        "Marda Flintknuckle"
+      ],
+      "portrait": "parts/nextsavage_a/portraits/annis-hag.png",
+      "source": {
+        "name": "Annis Hag",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Monstrous Humanoid",
+        "url": "",
+        "pages": "Appendix 1, p. 153, Table A–2",
+        "additionalSources": [],
+        "evidence": "Table A–2 is the Annis Hag player progression. Green Hag and Sea Hag each have separate classes. The worked build stops at level 11 after Rend and before Tear.",
+        "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+      }
+    },
+    {
+      "name": "Aranea",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_a",
+      "aliases": "Aranea monster class; Herath and Savage Coast PC rules remain separate",
+      "npcs": [
+        "Tess Serein"
+      ],
+      "portrait": "parts/nextsavage_a/portraits/aranea.png",
+      "source": {
+        "name": "Aranea",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Magical Beast (Shapechanger)",
+        "url": "",
+        "pages": "Appendix 1, p. 154, Table A–3",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Aranea, p. 19 (web and form details)",
+            "url": ""
+          }
+        ],
+        "evidence": "The printed progression supplies player uses, casting and poison damage. Applied the 2000 Monster Manual web detail as the class directs. The Herath and Savage Coast options have separate publication keys.",
+        "catalogStatus": "Missing Savage Species profile at batch baseline. Other playable publications are indexed."
+      }
+    },
+    {
+      "name": "Athach",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_b",
+      "aliases": "Athach monster class",
+      "npcs": [
+        "Tov Flintarm"
+      ],
+      "portrait": "parts/nextsavage_b/portraits/athach.png",
+      "source": {
+        "name": "Athach",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Aberration",
+        "url": "",
+        "pages": "156–157, Table A–5",
+        "additionalSources": [
+          {
+            "name": "Player’s Handbook (2000), p. 125, Table 8–2",
+            "url": "https://anyflip.com/wftsx/ztet/basic/101-150"
+          }
+        ],
+        "evidence": "The third arm is available from level 1. Bite begins at 2 and Strength poison at 3. Level 3 uses its own printed base saves +1/+1/+3, avoiding the apparent level-2 Fortitude typo. Large size and bonus Multiattack both arrive at level 9.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Barghest",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_a",
+      "aliases": "Barghest; greater barghest is a progression outcome, not another claim",
+      "npcs": [
+        "Nark Bluefur"
+      ],
+      "portrait": "parts/nextsavage_a/portraits/barghest.png",
+      "source": {
+        "name": "Barghest",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Evil, Lawful, Shapechanger)",
+        "url": "",
+        "pages": "Appendix 1, pp. 159–160, Table A–8",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Barghest, pp. 22–23 (natural attacks)",
+            "url": ""
+          }
+        ],
+        "evidence": "Barghest is a single approved claim. Greater barghest belongs to the creature's advancement history. The worked example uses the player Feed bonus and advances Hit Dice by level rather than by feeding.",
+        "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+      }
+    },
+    {
+      "name": "Bugbear",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "next4e_core",
+      "aliases": "Bugbear player profile; exclude monster and 5e records",
+      "npcs": [
+        "Rusk Sedge"
+      ],
+      "portrait": "parts/next4e_core/portraits/bugbear.png",
+      "source": {
+        "name": "Bugbear",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 276,
+        "printedPages": [
+          276
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "This is the DM-permission player and NPC profile from the racial appendix. It has player-scale ability adjustments and the racial encounter version of Predatory Eye.",
+          "The encounter build uses a Medium mace. Oversized permits a Large mace, and a larger weapon is optional."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Fighter",
+            "url": "",
+            "printedPages": [
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              194,
+              198,
+              200,
+              201,
+              214,
+              218,
+              219
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cayma",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_a",
+      "aliases": "Cayma; keep separate from Gurrash and Shazak",
+      "npcs": [
+        "Tess Reedknot"
+      ],
+      "portrait": "parts/nextcoast_a/portraits/cayma.png",
+      "source": {
+        "name": "Cayma",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "page": 59,
+        "reflowPages": [
+          5,
+          6,
+          59,
+          60
+        ],
+        "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalArchiveMember": "TSR2522A.RTF",
+        "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+        "sourceHeadings": [
+          "Character Creation",
+          "Lizard Kin",
+          "Caymas as PCs"
+        ],
+        "isbn": "0-7564-0387-2",
+        "sourceDistinctions": [
+          "Use the sourcebook’s Cayma PC rules and thief modifiers. Detect magic belongs to the Savage Warrior kit. The example uses the Scout thief kit.",
+          "Ground movement 9 comes from Lizard Kin in the 1996 Monstrous Compendium Appendix, reflow p. 65. The build uses class hit dice, THAC0 and saves."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook, revised AD&D 2e",
+            "url": "",
+            "sections": [
+              "Fighter and Thief",
+              "Tables 1–3, 26–29, 44–46, 53, 60",
+              "Emotion"
+            ]
+          },
+          {
+            "title": "Savage Coast Campaign Book (1996), Player Characters",
+            "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+            "originalArchiveMember": "tsr2521b.rtf",
+            "sections": [
+              "Character Kits"
+            ]
+          },
+          {
+            "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+            "url": "",
+            "reflowPages": [
+              65
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Djinni",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_a",
+      "aliases": "Djinn; Djinni genie, distinct from Jinnborn",
+      "npcs": [
+        "Safa Crosswind"
+      ],
+      "portrait": "parts/nextsavage_a/portraits/djinni.png",
+      "source": {
+        "name": "Djinni",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Air, Chaotic, Good)",
+        "url": "",
+        "pages": "Appendix 1, pp. 161–162, Table A–11",
+        "additionalSources": [
+          {
+            "name": "Monster Manual (2000), Djinni, pp. 95–96 (Air Mastery and Whirlwind)",
+            "url": ""
+          }
+        ],
+        "evidence": "The heading names Air and Good; the first row explicitly grants Air, Chaotic, and Good. The class sets the whirlwind's daily uses and refers to the contemporary Monster Manual for dimensions, damage, saves, and duration. The worked example uses those printed values.",
+        "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+      }
+    },
+    {
+      "name": "Drider",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_a",
+      "aliases": "Drider monster class",
+      "npcs": [
+        "Orel Slate"
+      ],
+      "portrait": "parts/nextsavage_a/portraits/drider.png",
+      "source": {
+        "name": "Drider",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Aberration",
+        "url": "",
+        "pages": "Appendix 1, p. 163, Table A–12",
+        "additionalSources": [],
+        "evidence": "The class does not grant web spinning. The worked example selects web as a 2nd-level sorcerer spell when the class reaches four Hit Dice. The class feature text explicitly grants two feats at first level, while the first table row records a single feat.",
+        "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+      }
+    },
+    {
+      "name": "Drow",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "next4e_core",
+      "aliases": "Dark elf; exclude Drow Half-Elf and other edition scopes",
+      "npcs": [
+        "Sera Veld"
+      ],
+      "portrait": "parts/next4e_core/portraits/drow.png",
+      "source": {
+        "name": "Drow",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Fey humanoid",
+        "url": "",
+        "page": 276,
+        "printedPages": [
+          276
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "This racial appendix recommends DM permission for player characters. The Forgotten Realms Player’s Guide prints a separate player profile.",
+          "The printed Monster Manual rule gives Drow Darkvision and lets Lolthtouched fuel either racial power once in each encounter."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Rogue",
+            "url": "",
+            "printedPages": [
+              116,
+              117,
+              118,
+              119
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              194,
+              198,
+              200,
+              201,
+              214,
+              218,
+              219
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ee’aar",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_a",
+      "aliases": "Ee'aar; winged elf is descriptive; keep separate from Avariel",
+      "npcs": [
+        "Ilyra Serein"
+      ],
+      "portrait": "parts/nextcoast_a/portraits/eeraar.png",
+      "source": {
+        "name": "Ee’aar",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "page": 48,
+        "reflowPages": [
+          5,
+          6,
+          48,
+          49,
+          50
+        ],
+        "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalArchiveMember": "TSR2522A.RTF",
+        "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+        "sourceHeadings": [
+          "Character Creation",
+          "Ee’aar and Enduks",
+          "Ee’aar as PCs"
+        ],
+        "isbn": "0-7564-0387-2",
+        "sourceDistinctions": [
+          "The example uses the player flight rate of 18 (B), the Aeryla language and the book’s specific weapon bonuses and spell resistance. The Monstrous Compendium Appendix uses faster flight and different language names.",
+          "Ground movement 16 alone comes from the Appendix’s Ee’aar entry, reflow p. 27. The GM can replace it with the table’s standard humanoid ground rate."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook, revised AD&D 2e",
+            "url": "",
+            "sections": [
+              "Fighter and Thief",
+              "Tables 1–3, 26–29, 44–46, 53, 60",
+              "Emotion"
+            ]
+          },
+          {
+            "title": "Savage Coast Campaign Book (1996), Player Characters",
+            "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+            "originalArchiveMember": "tsr2521b.rtf",
+            "sections": [
+              "Character Kits"
+            ]
+          },
+          {
+            "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+            "url": "",
+            "reflowPages": [
+              27
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Efreeti",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_b",
+      "aliases": "Efreet; Efreeti genie, distinct from Jinnborn",
+      "npcs": [
+        "Kesh Brassmark"
+      ],
+      "portrait": "parts/nextsavage_b/portraits/efreeti.png",
+      "source": {
+        "name": "Efreeti",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Evil, Fire, Lawful)",
+        "url": "",
+        "pages": "164–165, Table A–14",
+        "additionalSources": [
+          {
+            "name": "Savage Species, 3.0 fire subtype example on p. 169",
+            "url": ""
+          },
+          {
+            "name": "Wizards of the Coast, original SRD spells in the complete 2004 compilation",
+            "url": ""
+          }
+        ],
+        "evidence": "Heat first appears at level 2. Level 3 grants produce flame and pyrotechnics at will. Flight arrives at level 4, Large size at level 10, and wish at level 18. The class grants no command spell. Its telepathy supports the quartermaster’s orders.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Enduk",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_a",
+      "aliases": "Enduks; winged minotaur is descriptive; keep separate from Minotaur",
+      "npcs": [
+        "Sarruk Reedhorn"
+      ],
+      "portrait": "parts/nextcoast_a/portraits/enduk.png",
+      "source": {
+        "name": "Enduk",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "page": 53,
+        "reflowPages": [
+          5,
+          6,
+          53,
+          54,
+          55
+        ],
+        "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalArchiveMember": "TSR2522A.RTF",
+        "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+        "sourceHeadings": [
+          "Character Creation",
+          "Ee’aar and Enduks",
+          "Enduks as PCs",
+          "The Enduk Pantheon"
+        ],
+        "isbn": "0-7564-0387-2",
+        "sourceDistinctions": [
+          "The playable profile sets the flight rate and uses a height threshold for Large size. The Monstrous Compendium Appendix lists other flight and size values.",
+          "Ground movement 15 alone comes from the Appendix’s Enduk entry, reflow p. 29. The sourcebook supplies Idu’s faith and the natural gore damage."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook, revised AD&D 2e",
+            "url": "",
+            "sections": [
+              "Fighter and Thief",
+              "Tables 1–3, 26–29, 44–46, 53, 60",
+              "Emotion"
+            ]
+          },
+          {
+            "title": "Savage Coast Campaign Book (1996), Player Characters",
+            "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+            "originalArchiveMember": "tsr2521b.rtf",
+            "sections": [
+              "Character Kits"
+            ]
+          },
+          {
+            "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+            "url": "",
+            "reflowPages": [
+              29
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Erina",
+      "publication": "Margreve Player’s Guide (2019)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_a",
+      "aliases": "Erina; keep separate from Humblewood Hedge",
+      "npcs": [
+        "Oolay"
+      ],
+      "portrait": "parts/nextkp_a/portraits/erina.png",
+      "source": {
+        "name": "Erina",
+        "kind": "species",
+        "publication": "Margreve Player’s Guide (2019)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "year": 2019,
+        "url": "https://online.anyflip.com/fgoih/hmom/files/mobile/12.webp",
+        "source": "https://koboldpress.com/kpstore/product/margreve-players-guide-for-5th-edition/",
+        "primaryBookText": "https://online.anyflip.com/fgoih/hmom/files/mobile/12.webp",
+        "rulePages": [
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/12.webp",
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/13.webp",
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/11.webp"
+        ],
+        "printedPages": [
+          9,
+          10,
+          11
+        ],
+        "heading": "Erina Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinctions": [
+          "The printed player rules give 25 ft. walking and 20 ft. burrowing in earth and sand. They grant spoken languages. The NPC uses Humanoid for the Erina because the trait list leaves type implicit.",
+          "Spines damage a creature in a grapple with the Erina at the start of the Erina’s turn."
+        ]
+      }
+    },
+    {
+      "name": "Flamebrother Salamander",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_b",
+      "aliases": "Flamebrother (Salamander); Salamander, Flamebrother",
+      "npcs": [
+        "Sava Coil"
+      ],
+      "portrait": "parts/nextsavage_b/portraits/flamebrother-salamander.png",
+      "source": {
+        "name": "Flamebrother Salamander",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Fire)",
+        "url": "",
+        "pages": "168–169, Table A–18",
+        "additionalSources": [
+          {
+            "name": "Savage Species, weapon table on p. 45",
+            "url": ""
+          }
+        ],
+        "evidence": "Level 4 is the first tier with Constrict. It retains level 2 heat 1d4 and level 3 natural armor +5. The entry gives a cold-save penalty and double damage from cold attacks that offer no save.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Gnome",
+      "publication": "Player's Handbook 2 (4e)",
+      "edition": "4th edition",
+      "owner": "next4e_core",
+      "aliases": "4e PHB2 Gnome; retain the distinct Gnome lineages",
+      "npcs": [
+        "Tovin Reedwhistle"
+      ],
+      "portrait": "parts/next4e_core/portraits/gnome.png",
+      "source": {
+        "name": "Gnome",
+        "publication": "Player's Handbook 2 (4e)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Fey humanoid",
+        "url": "",
+        "page": 10,
+        "printedPages": [
+          10,
+          11
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "eeef56430c1f7d3672cf675ebb1868039033d60269bf35503ff5e32156974dd0",
+        "isbn": "978-0-7869-5016-4",
+        "firstPrinting": "March 2009",
+        "sourceDistinctions": [
+          "This is the Gnome player entry from Player’s Handbook 2. It has its own trait package, distinct from the Monster Manual’s monster stat blocks and other edition-specific gnome lineages.",
+          "Master Trickster is a minor use of Ghost Sound once per encounter. Fade Away is a separate encounter reaction. Page 11 gives the Small character weapon rules."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Wizard",
+            "url": "",
+            "printedPages": [
+              156,
+              157,
+              158,
+              159,
+              160
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              194,
+              198,
+              200,
+              201,
+              214,
+              218,
+              219
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grig",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_b",
+      "aliases": "Sprite (Grig); keep separate from Sprite (Nixie) and Pixie",
+      "npcs": [
+        "Fenn Burr"
+      ],
+      "portrait": "parts/nextsavage_b/portraits/grig.png",
+      "source": {
+        "name": "Grig",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Fey",
+        "url": "",
+        "pages": "175–176, Table A–25",
+        "additionalSources": [
+          {
+            "name": "Wizards of the Coast, original SRD irresistible dance in the complete 2004 compilation",
+            "url": ""
+          }
+        ],
+        "evidence": "The Grig remains at half a d6 for all four levels. Class level 4 has SR 17 and first grants attune fiddle. The spell-like abilities continue to use 9th-level sorcerer caster level.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Gurrash",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_a",
+      "aliases": "Gurrash; keep separate from Shazak and generic Lizardfolk",
+      "npcs": [
+        "Vorr Deepwake"
+      ],
+      "portrait": "parts/nextcoast_a/portraits/gurrash.png",
+      "source": {
+        "name": "Gurrash",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "page": 57,
+        "reflowPages": [
+          5,
+          6,
+          57,
+          58,
+          59
+        ],
+        "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalArchiveMember": "TSR2522A.RTF",
+        "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+        "sourceHeadings": [
+          "Character Creation",
+          "Savage Warrior",
+          "Lizard Kin",
+          "Gurrash as PCs"
+        ],
+        "isbn": "0-7564-0387-2",
+        "sourceDistinctions": [
+          "The Orc’s Head racial adjustments table gives +1 Constitution. The Savage Coast Campaign Book’s older table and the bestiary entry describe different numbers.",
+          "Movement 12 and swim 18 come from the Appendix’s Lizard Kin entry, reflow p. 65. The build follows the PC rage trigger and uses a class attack with a spear."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook, revised AD&D 2e",
+            "url": "",
+            "sections": [
+              "Fighter and Thief",
+              "Tables 1–3, 26–29, 44–46, 53, 60",
+              "Emotion"
+            ]
+          },
+          {
+            "title": "Savage Coast Campaign Book (1996), Player Characters",
+            "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+            "originalArchiveMember": "tsr2521b.rtf",
+            "sections": [
+              "Character Kits",
+              "Equipment, Table 15.2"
+            ]
+          },
+          {
+            "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+            "url": "",
+            "reflowPages": [
+              65
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hamadryad",
+      "publication": "Heroes of the Feywild (2011)",
+      "edition": "4th edition",
+      "owner": "next4e_shadow",
+      "aliases": "Hamadryad; not a general Dryad claim",
+      "npcs": [
+        "Tavia Burr"
+      ],
+      "portrait": "parts/next4e_shadow/portraits/hamadryad.png",
+      "source": {
+        "name": "Hamadryad",
+        "publication": "Heroes of the Feywild (2011)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Fey humanoid",
+        "url": "",
+        "page": 22,
+        "printedPages": [
+          22,
+          23
+        ],
+        "sourceDistinctions": [
+          "The book presents Hamadryads as oak spirits with nymph and dryad aspects. The defensive branch of Hamadryad Aspects grants resistance instead of combat advantage."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class powers and equipment",
+            "url": "",
+            "printedPages": [
+              156,
+              157,
+              158,
+              159,
+              160,
+              161,
+              219
+            ]
+          },
+          {
+            "title": "Heroes of the Feywild, facsimile",
+            "url": "https://anyflip.com/myubd/avli/basic",
+            "printedPages": [
+              22,
+              23
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Harpy",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_b",
+      "aliases": "Harpy monster class",
+      "npcs": [
+        "Ryn Reedcall"
+      ],
+      "portrait": "parts/nextsavage_b/portraits/harpy.png",
+      "source": {
+        "name": "Harpy",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Monstrous humanoid",
+        "url": "",
+        "pages": "177–178, Table A–27",
+        "additionalSources": [
+          {
+            "name": "Savage Species, Harpy Siren example on pp. 86–87",
+            "url": ""
+          }
+        ],
+        "evidence": "Player flight begins at level 3. Level 4 grants only a 10-ft. song. The Harpy Siren example on pp. 86–87 establishes approach, hazards, and defenses for the same ability, with the class table overriding the example’s radius and DC.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Hobgoblin",
+      "publication": "Monster Manual (4e, 2008)",
+      "edition": "4th edition",
+      "owner": "next4e_core",
+      "aliases": "Hobgoblin player profile; exclude monster and 5e records",
+      "npcs": [
+        "Varek Fordwatch"
+      ],
+      "portrait": "parts/next4e_core/portraits/hobgoblin.png",
+      "source": {
+        "name": "Hobgoblin",
+        "publication": "Monster Manual (4e, 2008)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid",
+        "url": "",
+        "page": 278,
+        "printedPages": [
+          278
+        ],
+        "primaryBookScan": "",
+        "primaryBookPdfPageOffset": 1,
+        "primaryBookSha256": "5929f7657d9007caaec0cfd0fd6c2f047ee3154569bae4559e6384d3b643dc1f",
+        "isbn": "978-0-7869-5045-4",
+        "firstPrinting": "June 2008",
+        "sourceDistinctions": [
+          "The player and NPC racial traits appear two printed pages after Drow and Bugbear in the same appendix.",
+          "Hobgoblin Resilience is a saving throw as an immediate reaction. It gives no bonus and requires an effect a save can end."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook (4e), Fighter",
+            "url": "",
+            "printedPages": [
+              75,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), feats and equipment",
+            "url": "",
+            "printedPages": [
+              194,
+              198,
+              200,
+              201,
+              214,
+              218,
+              219
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Imp",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_d",
+      "aliases": "Imp devil; no familiar or standalone encounter claim",
+      "npcs": [
+        "Tack"
+      ],
+      "portrait": "parts/nextsavage_d/portraits/imp.png",
+      "source": {
+        "name": "Imp",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Evil, Lawful)",
+        "url": "",
+        "pages": "179–180, Table A–29 on p. 180",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), Raven, p. 200",
+            "url": ""
+          },
+          {
+            "name": "Tome and Blood (2001), polymorph self, p. 95",
+            "url": ""
+          }
+        ],
+        "evidence": "Table A–29 grants one polymorph form that persists at later tiers, and at-will self-only invisibility at class level 4. The selected class level has 3d8 Hit Dice, perfect 30-ft. fly speed, DR 5/silver or holy, and no access to regeneration or later powers.",
+        "catalogStatus": "Existing monster or beast record only at the batch baseline."
+      }
+    },
+    {
+      "name": "Jinnborn",
+      "publication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_b",
+      "aliases": "Jinnborn; consolidate elemental options, distinct from Djinni and Efreeti",
+      "npcs": [
+        "Narel Claywind"
+      ],
+      "portrait": "parts/nextkp_b/portraits/jinnborn.png",
+      "source": {
+        "name": "Jinnborn",
+        "kind": "species",
+        "publication": "Unlikely Heroes (2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "authors": [
+          "Dan Dillon",
+          "Wolfgang Baur"
+        ],
+        "year": 2016,
+        "url": "https://anyflip.com/lphgc/hojw/basic",
+        "source": "https://anyflip.com/lphgc/hojw/basic",
+        "primaryBookText": "",
+        "publisherPage": "",
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "pages": [
+          10,
+          11,
+          12
+        ],
+        "printedPages": [
+          10,
+          11,
+          12
+        ],
+        "heading": "Jinnborn Traits, Speaker Jinnborn and Shaper Jinnborn",
+        "distinctions": [
+          "All four siraati are options within this playable species. Narel combines Earth siraati with the Shaper subrace for acid resistance and Elemental Strike.",
+          "Jinnborn are descendants of jinn, distinct from playable monster progressions for Djinni and Efreeti."
+        ],
+        "sourceDistinctions": [
+          "All four siraati are options within this playable species. Narel combines Earth siraati with the Shaper subrace for acid resistance and Elemental Strike.",
+          "Jinnborn are descendants of jinn, distinct from playable monster progressions for Djinni and Efreeti."
+        ],
+        "catalogStatus": "No exact-name catalog row in the approved comparison.",
+        "slug": "jinnborn",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Narel Claywind"
+        ]
+      }
+    },
+    {
+      "name": "Kijani",
+      "publication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_b",
+      "aliases": "Kijani plantfolk; distinct from Piney and Wilden",
+      "npcs": [
+        "Kesh Reedroot"
+      ],
+      "portrait": "parts/nextkp_b/portraits/kijani.png",
+      "source": {
+        "name": "Kijani",
+        "kind": "species",
+        "publication": "Unlikely Heroes (2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "authors": [
+          "Dan Dillon",
+          "Wolfgang Baur"
+        ],
+        "year": 2016,
+        "url": "https://anyflip.com/lphgc/hojw/basic",
+        "source": "https://anyflip.com/lphgc/hojw/basic",
+        "primaryBookText": "",
+        "publisherPage": "",
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "pages": [
+          12,
+          13,
+          14
+        ],
+        "printedPages": [
+          12,
+          13,
+          14
+        ],
+        "heading": "Kijani Traits",
+        "distinctions": [
+          "The playable Kijani is a Plant. Contained Fury requires fewer than half maximum HP.",
+          "Speak with plants starts at character level 7. The level 2 example has access to Kijani’s other printed traits.",
+          "Kijani is the 2016 plantfolk profile, distinct from Piney and Wilden."
+        ],
+        "sourceDistinctions": [
+          "The playable Kijani is a Plant. Contained Fury requires fewer than half maximum HP.",
+          "Speak with plants starts at character level 7. The level 2 example has access to Kijani’s other printed traits.",
+          "Kijani is the 2016 plantfolk profile, distinct from Piney and Wilden."
+        ],
+        "catalogStatus": "No exact-name catalog row in the approved comparison.",
+        "slug": "kijani",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Kesh Reedroot"
+        ]
+      }
+    },
+    {
+      "name": "Kyton",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_c",
+      "aliases": "Chain Devil; Kyton devil",
+      "npcs": [
+        "Veyl Handlink"
+      ],
+      "portrait": "parts/nextsavage_c/portraits/kyton.png",
+      "source": {
+        "name": "Kyton",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Evil, Lawful)",
+        "url": "",
+        "pages": "Appendix 1, pp. 181–182. Table A–31.",
+        "additionalSources": [],
+        "evidence": "The player class separates chain reach at 1st level, the 5-ft. gaze at 3rd, and control of one chain at 4th. The 4th-level row has 3 HD and CR 1. Regeneration, damage reduction, and spell resistance arrive later.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Lamia",
+      "publication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_c",
+      "aliases": "Serpentine playable Lamia; exclude the standalone leonine monster",
+      "npcs": [
+        "Tara Embercoil"
+      ],
+      "portrait": "parts/nextkp_c/portraits/lamia.png",
+      "source": {
+        "name": "Lamia",
+        "kind": "species",
+        "publication": "Unlikely Heroes (2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "url": "",
+        "secondarySources": [
+          "https://koboldpress.com/kpstore/product/unlikely-heroes-for-5th-edition/",
+          ""
+        ],
+        "printedPages": [
+          14,
+          15,
+          16
+        ],
+        "heading": "Lamia",
+        "sourceDistinctions": [
+          "The book’s player option has a human upper body and serpentine lower body. Its Medium Monstrosity profile stays separate from the leonine monster record.",
+          "The last four traits are at the top of p. 16, before the Ramag entry."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "slug": "lamia",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Tara Embercoil"
+        ]
+      }
+    },
+    {
+      "name": "Lillend",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_c",
+      "aliases": "Lilend in the contents; Lillend in the class heading",
+      "npcs": [
+        "Sereva Lowstring"
+      ],
+      "portrait": "parts/nextsavage_c/portraits/lillend.png",
+      "source": {
+        "name": "Lillend",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Chaotic, Good)",
+        "url": "",
+        "pages": "Appendix 1, pp. 182–183. Table A–32.",
+        "additionalSources": [
+          "",
+          "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Feather_Fall",
+          "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Grease"
+        ],
+        "evidence": "The contents label differs from the class heading. The class table grants the tail slap at level 3, constrict and talk powers at 5, and flight at 6. Large size and 10-ft. reach are level 8 features. For the NPC’s fourth Hit Die, the Table 2–5 ability increase goes to Charisma. Bard abilities use the original 3.0 rules.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Lupin",
+      "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_b",
+      "aliases": "Renardy is a region, not another species; exclude the Ravenloft printing",
+      "npcs": [
+        "Célan Merle"
+      ],
+      "portrait": "parts/nextcoast_b/portraits/lupin.png",
+      "source": {
+        "name": "Lupin",
+        "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "url": "https://pandius.com/sc_pcs.html",
+        "originalArchive": "https://web.archive.org/web/20080314112948/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalMember": "tsr2521b.rtf",
+        "heading": "Player Characters: Character Races, New Character Races, Lupins",
+        "originalSections": [
+          "Player Characters: Character Races, New Character Races, Lupins",
+          "Player Characters: Creating a Character, Tables 11.1–11.6 and 11.11"
+        ],
+        "reflowedPdfUrl": "",
+        "reflowedPdfPages": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "supportingSources": {
+          "baseMovementOnly": "https://pandius.com/lupin_mc.html",
+          "classRules": ""
+        },
+        "distinction": "The rules here belong to the Savage Coast publication. Renardy is a homeland. The Ravenloft printing and the werewolf records are separate entries."
+      }
+    },
+    {
+      "name": "Manscorpion",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_a",
+      "aliases": "Nimmurian manscorpion; Nimmurian is setting context",
+      "npcs": [
+        "Tamar of Um-Shedu"
+      ],
+      "portrait": "parts/nextcoast_a/portraits/manscorpion.png",
+      "source": {
+        "name": "Manscorpion",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR",
+        "url": "",
+        "page": 28,
+        "reflowPages": [
+          5,
+          6,
+          28,
+          31,
+          32,
+          33
+        ],
+        "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalArchiveMember": "TSR2522A.RTF",
+        "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+        "sourceHeadings": [
+          "Character Creation",
+          "Nimmur and the Manscorpions",
+          "Manscorpions as PCs"
+        ],
+        "isbn": "0-7564-0387-2",
+        "sourceDistinctions": [
+          "The catalog name follows the roster. The default PC profile is Um-Shedu, a distinct case from the cursed Nimmurian monster and its lethal venom.",
+          "Ground movement 12, 60-foot infravision and 1d4 base sting damage are explicit build rulings using the bundled Appendix’s Manscorpion, Nimmurian entry, reflow pp. 73–74. The sourcebook’s PC section supplies the venom and does not give sting damage or an attack routine. Use a single class attack and the PC sleep venom."
+        ],
+        "supportingSources": [
+          {
+            "title": "Player’s Handbook, revised AD&D 2e",
+            "url": "",
+            "sections": [
+              "Fighter and Thief",
+              "Tables 1–3, 26–29, 44–46, 53, 60",
+              "Emotion"
+            ]
+          },
+          {
+            "title": "Savage Coast Campaign Book (1996), Player Characters",
+            "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+            "originalArchiveMember": "tsr2521b.rtf",
+            "sections": [
+              "Character Kits"
+            ]
+          },
+          {
+            "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+            "url": "",
+            "reflowPages": [
+              73,
+              74
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Medusa",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_c",
+      "aliases": "Medusa monster class",
+      "npcs": [
+        "Mereth Flintmark"
+      ],
+      "portrait": "parts/nextsavage_c/portraits/medusa.png",
+      "source": {
+        "name": "Medusa",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Monstrous Humanoid",
+        "url": "",
+        "pages": "Appendix 1, pp. 184–185. Table A–34.",
+        "additionalSources": [],
+        "evidence": "At class level 6, the gaze is one active use per day against one target within 10 ft. The mature constant gaze arrives at 10. The prose specifies two feats at 1st level, while the table lists a feat generically. This NPC uses the explicit count from the prose and assigns the Table 2–5 fourth-Hit-Die ability increase to Charisma.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Mushroomfolk",
+      "publication": "Underworld Player’s Guide (2020)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_c",
+      "aliases": "Mushroom Folk; consolidate printed subraces, keep separate from Myconid",
+      "npcs": [
+        "Nerin Alderfold"
+      ],
+      "portrait": "parts/nextkp_c/portraits/mushroomfolk.png",
+      "source": {
+        "name": "Mushroomfolk",
+        "kind": "species",
+        "publication": "Underworld Player’s Guide (2020)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "url": "",
+        "secondarySources": [
+          ""
+        ],
+        "printedPages": [
+          25,
+          26,
+          27
+        ],
+        "heading": "Mushroomfolk",
+        "sourceDistinctions": [
+          "The book presents Acid Cap, Favored, and Morel as Mushroomfolk subraces. The example uses Morel. Mushroomfolk has its own player profile and creature type."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "slug": "mushroomfolk",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Nerin Alderfold"
+        ]
+      }
+    },
+    {
+      "name": "Nixie",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_c",
+      "aliases": "Sprite (Nixie); keep separate from Sprite (Grig) and Pixie",
+      "npcs": [
+        "Tivin Reed"
+      ],
+      "portrait": "parts/nextsavage_c/portraits/nixie.png",
+      "source": {
+        "name": "Nixie",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Fey (Aquatic)",
+        "url": "",
+        "pages": "Appendix 1, p. 188. Table A–37.",
+        "additionalSources": [
+          "",
+          "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Charm_Person",
+          "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_SRD:Water_Breathing"
+        ],
+        "evidence": "Separate class from Grig and Pixie. The 2nd-level player row has one Hit Die and one daily charm person use. Dodge arrives at level 3 and spell resistance at level 4. The explicit one-half carrying limit follows the nixie’s racial entry.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Phanaton",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_b",
+      "aliases": "Phanatons; forest glider",
+      "npcs": [
+        "Makurí"
+      ],
+      "portrait": "parts/nextcoast_b/portraits/phanaton.png",
+      "source": {
+        "name": "Phanaton",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "url": "",
+        "originalArchive": "https://web.archive.org/web/20080314112948/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalMember": "TSR2522A.RTF",
+        "heading": "The Phanatons of Jibarú: Phanatons as PCs",
+        "originalSections": [
+          "The Phanatons of Jibarú: Phanatons as PCs",
+          "Character Creation, Tables 1.1–1.3 and 1.7–1.8"
+        ],
+        "reflowedPdfUrl": "",
+        "reflowedPdfPages": [
+          5,
+          6,
+          21,
+          22,
+          23
+        ],
+        "supportingSources": {
+          "baseMovementOnly": "https://pandius.com/phanatn2.html",
+          "classRules": ""
+        },
+        "distinction": "The specific PC paragraph lists Dexterity 16 and the general table gives a minimum of 6. The NPC qualifies under both and uses the PC version of gliding and save bonuses. Table 1.7 lists bard 8, which the PC prose omits."
+      }
+    },
+    {
+      "name": "Piney",
+      "publication": "Margreve Player’s Guide (2019)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_a",
+      "aliases": "Piney; distinct from Kijani and fourth-edition Wilden",
+      "npcs": [
+        "Hushush"
+      ],
+      "portrait": "parts/nextkp_a/portraits/piney.png",
+      "source": {
+        "name": "Piney",
+        "kind": "species",
+        "publication": "Margreve Player’s Guide (2019)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "year": 2019,
+        "url": "https://online.anyflip.com/fgoih/hmom/files/mobile/15.webp",
+        "source": "https://koboldpress.com/kpstore/product/margreve-players-guide-for-5th-edition/",
+        "primaryBookText": "https://online.anyflip.com/fgoih/hmom/files/mobile/15.webp",
+        "rulePages": [
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/15.webp",
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/13.webp",
+          "https://online.anyflip.com/fgoih/hmom/files/mobile/14.webp"
+        ],
+        "printedPages": [
+          11,
+          12,
+          13
+        ],
+        "heading": "Piney Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinctions": [
+          "These are the rules for a Piney adventuring outside the Margreve. Margreve Without identifies the playable creature as a Humanoid and gives plantlike features."
+        ]
+      }
+    },
+    {
+      "name": "Rakasta",
+      "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_b",
+      "aliases": "Rakasta; keep separate from Catfolk, Tabaxi, and Leonin",
+      "npcs": [
+        "Sava Flintstep"
+      ],
+      "portrait": "parts/nextcoast_b/portraits/rakasta.png",
+      "source": {
+        "name": "Rakasta",
+        "publication": "Savage Coast Campaign Book, Part 2: Player Characters",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "url": "https://pandius.com/sc_pcs.html",
+        "originalArchive": "https://web.archive.org/web/20080314112948/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalMember": "tsr2521b.rtf",
+        "heading": "Player Characters: Character Races, New Character Races, Rakastas",
+        "originalSections": [
+          "Player Characters: Character Races, New Character Races, Rakastas",
+          "Player Characters: Creating a Character and Table 11.11",
+          "Proficiencies: Natural Attack Forms",
+          "Equipment and Economics: Weapons, War Claws"
+        ],
+        "reflowedPdfUrl": "",
+        "reflowedPdfPages": [
+          6,
+          8,
+          9,
+          10,
+          12,
+          13,
+          94,
+          115,
+          119
+        ],
+        "supportingSources": {
+          "baseMovementOnly": "https://pandius.com/rakasta2.html",
+          "classRules": "",
+          "warClaws": "https://pandius.com/sc_equip.html"
+        },
+        "distinction": "The Bellayne rakasta is a separate Savage Coast player option from Catfolk, Tabaxi, and Leonin. The proficiency and weapon sections explain how the war-claw attacks replace the ordinary claw damage."
+      }
+    },
+    {
+      "name": "Rakshasa",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_d",
+      "aliases": "Rakshasa monster class",
+      "npcs": [
+        "Varek Silt"
+      ],
+      "portrait": "parts/nextsavage_d/portraits/rakshasa.png",
+      "source": {
+        "name": "Rakshasa",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Outsider (Evil, Lawful)",
+        "url": "",
+        "pages": "191–192, Table A–41 on p. 191",
+        "additionalSources": [],
+        "evidence": "Table A–41 separates class level from sorcerer casting. At level 8, it has 4d8 Hit Dice, CR 6, casting as Sorcerer 4, 3/day detect thoughts, alternate form at will, DR 10/+2, and immunity through 3rd-level spells. The blessed-crossbow-bolt weakness is explicit in the 3.0 player rules.",
+        "catalogStatus": "Existing monster or beast record only at the batch baseline."
+      }
+    },
+    {
+      "name": "Ramag",
+      "publication": "Unlikely Heroes (2016)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_b",
+      "aliases": "Ramag; use the printed player name",
+      "npcs": [
+        "Vey Tern"
+      ],
+      "portrait": "parts/nextkp_b/portraits/ramag.png",
+      "source": {
+        "name": "Ramag",
+        "kind": "species",
+        "publication": "Unlikely Heroes (2016)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "authors": [
+          "Dan Dillon",
+          "Wolfgang Baur"
+        ],
+        "year": 2016,
+        "url": "https://anyflip.com/lphgc/hojw/basic",
+        "source": "https://anyflip.com/lphgc/hojw/basic",
+        "primaryBookText": "",
+        "publisherPage": "",
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "pages": [
+          16,
+          17
+        ],
+        "printedPages": [
+          16,
+          17
+        ],
+        "heading": "Ramag Traits",
+        "distinctions": [
+          "Spell Damping covers Strength and Dexterity saving throws against spells.",
+          "Arcane Heritage waives class restrictions at attunement. Vey’s route-changing spells come from her Wizard levels."
+        ],
+        "sourceDistinctions": [
+          "Spell Damping covers Strength and Dexterity saving throws against spells.",
+          "Arcane Heritage waives class restrictions at attunement. Vey’s route-changing spells come from her Wizard levels."
+        ],
+        "catalogStatus": "No exact-name catalog row in the approved comparison.",
+        "slug": "ramag",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Vey Tern"
+        ]
+      }
+    },
+    {
+      "name": "Ravenfolk",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_a",
+      "aliases": "Huginn is a Midgard alias; exact Book of Ebon Tides profile",
+      "npcs": [
+        "Lampnote"
+      ],
+      "portrait": "parts/nextkp_a/portraits/ravenfolk.png",
+      "source": {
+        "name": "Ravenfolk",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "year": 2022,
+        "url": "",
+        "source": "https://www.dndbeyond.com/sources/dnd/boet",
+        "primaryBookText": "",
+        "rulePages": [
+          "",
+          "https://anyflip.com/qkxdf/sqvy/basic"
+        ],
+        "printedPages": [
+          37,
+          38
+        ],
+        "heading": "Sublime Ravenfolk Traits",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinctions": [
+          "The printed player option is Sublime Ravenfolk. It includes the shared Medium size and 30 ft. speed and replaces base Ravenfolk Ability Score Increase, Sudden Attack, Trickster and Mimicry.",
+          "The fixed Sublime Chord DC is 13. Humanoid is the ruling used in the NPC example because the printed Sublime trait list does not specify type."
+        ]
+      }
+    },
+    {
+      "name": "Revenant",
+      "publication": "Heroes of Shadow (2011)",
+      "edition": "4th edition",
+      "owner": "next4e_shadow",
+      "aliases": "4e Revenant; keep separate from the 5e Reborn lineage",
+      "npcs": [
+        "Iser Mott"
+      ],
+      "portrait": "parts/next4e_shadow/portraits/revenant.png",
+      "source": {
+        "name": "Revenant",
+        "publication": "Heroes of Shadow (2011)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid (undead, living)",
+        "url": "",
+        "page": 116,
+        "printedPages": [
+          116,
+          117
+        ],
+        "sourceDistinctions": [
+          "This is the 2011 player race. Past Life grants prerequisite eligibility only. The NPC uses human for that choice.",
+          "This build uses the printed dying and unconsciousness text and enables death saving throws for this NPC."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class powers and equipment",
+            "url": "",
+            "printedPages": [
+              76,
+              77,
+              78,
+              214,
+              216
+            ]
+          },
+          {
+            "title": "Heroes of Shadow, alternate scan",
+            "url": "https://www.scribd.com/document/369420850/player-s-option-heroes-of-shadow",
+            "printedPages": [
+              116,
+              121,
+              126
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Satarre",
+      "publication": "Book of Ebon Tides",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_c",
+      "aliases": "Unbound Satarre and Satarre variants stay with this claim",
+      "npcs": [
+        "Vesk Nhal"
+      ],
+      "portrait": "parts/nextkp_c/portraits/satarre.png",
+      "source": {
+        "name": "Satarre",
+        "kind": "species",
+        "publication": "Book of Ebon Tides",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "url": "https://anyflip.com/qkxdf/sqvy/basic/",
+        "secondarySources": [
+          "https://www.dndbeyond.com/sources/dnd/boet",
+          ""
+        ],
+        "printedPages": [
+          38,
+          39
+        ],
+        "heading": "Unbound Satarre",
+        "sourceDistinctions": [
+          "Book of Ebon Tides prints Unbound Satarre as a subrace. This profile uses the printed Unbound rules under the existing Satarre catalog name. The base profile is cross-referenced to Tome of Heroes."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "slug": "satarre",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Vesk Nhal"
+        ]
+      }
+    },
+    {
+      "name": "Sea Hag",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_c",
+      "aliases": "Sea Hag; keep separate from Annis Hag",
+      "npcs": [
+        "Alda Slackwater"
+      ],
+      "portrait": "parts/nextsavage_c/portraits/sea-hag.png",
+      "source": {
+        "name": "Sea Hag",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Monstrous Humanoid (Aquatic)",
+        "url": "",
+        "pages": "Appendix 1, p. 193. Table A–43.",
+        "additionalSources": [],
+        "evidence": "The 2nd-level class has one Hit Die and deals exactly 1 point of Strength damage with Horrific Appearance. The NPC uses that tier. The later Evil Eye grant disagrees between the table and the prose, so the profile omits its unlock level and the NPC does not use it.",
+        "catalogStatus": "Missing playable profile at batch baseline."
+      }
+    },
+    {
+      "name": "Shadar-kai",
+      "publication": "Dragon #372 (2009)",
+      "edition": "4th edition",
+      "owner": "next4e_shadow",
+      "aliases": "Shadar-kai; distinct from eladrin in this source",
+      "npcs": [
+        "Nesha Flint"
+      ],
+      "portrait": "parts/next4e_shadow/portraits/shadar-kai.png",
+      "source": {
+        "name": "Shadar-kai",
+        "publication": "Dragon #372 (2009)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Shadow humanoid",
+        "url": "",
+        "page": 5,
+        "printedPages": [
+          5,
+          6
+        ],
+        "sourceDistinctions": [
+          "The February 2009 Playing Shadar-Kai article gives Dexterity and Intelligence bonuses and the encounter teleport. Its origin keyword is shadow."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class powers and equipment",
+            "url": "",
+            "printedPages": [
+              116,
+              117,
+              118,
+              119,
+              218
+            ]
+          },
+          {
+            "title": "Playing Shadar-Kai, alternate article scan",
+            "url": "https://www.yumpu.com/en/document/view/23931931/playing-shadar-kai-korinth",
+            "printedPages": [
+              5,
+              6
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shade",
+      "publication": "Heroes of Shadow (2011)",
+      "edition": "4th edition",
+      "owner": "next4e_shadow",
+      "aliases": "Essentials Shade; keep separate from Kobold Press Shade",
+      "npcs": [
+        "Marren Sill"
+      ],
+      "portrait": "parts/next4e_shadow/portraits/shade.png",
+      "source": {
+        "name": "Shade",
+        "publication": "Heroes of Shadow (2011)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Shadow humanoid",
+        "url": "",
+        "page": 121,
+        "printedPages": [
+          121,
+          122,
+          124,
+          125
+        ],
+        "sourceDistinctions": [
+          "The Essentials-era Shade was human before a rite surrendered part of its soul to the Shadowfell. This book supplies its own rules for darkvision, reduced healing surges and hiding.",
+          "Its optional replacement utility powers begin above level 1."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class powers and equipment",
+            "url": "",
+            "printedPages": [
+              116,
+              117,
+              118,
+              119,
+              218
+            ]
+          },
+          {
+            "title": "Heroes of Shadow, alternate scan",
+            "url": "https://www.scribd.com/document/369420850/player-s-option-heroes-of-shadow",
+            "printedPages": [
+              116,
+              121,
+              126
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shazak",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_b",
+      "aliases": "Shazak; keep separate from Gurrash and generic Lizardfolk",
+      "npcs": [
+        "Zesk Reedmark"
+      ],
+      "portrait": "parts/nextcoast_b/portraits/shazak.png",
+      "source": {
+        "name": "Shazak",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "url": "",
+        "originalArchive": "https://web.archive.org/web/20080314112948/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalMember": "TSR2522A.RTF",
+        "heading": "Other People, Other Places: The Lizard Kin, Shazaks as PCs",
+        "originalSections": [
+          "Other People, Other Places: The Lizard Kin, Shazaks as PCs",
+          "Character Creation, Tables 1.1–1.3 and 1.7–1.8"
+        ],
+        "reflowedPdfUrl": "",
+        "reflowedPdfPages": [
+          5,
+          6,
+          56,
+          57
+        ],
+        "supportingSources": {
+          "baseMovementOnly": "https://pandius.ix.iq.pl/lizadkin.html",
+          "classRules": ""
+        },
+        "distinction": "This is the Orc’s Head Peninsula profile for Shazak. It adds Shazak as a player option from this publication as its own publication-specific row. The swimming proficiency confers no separate movement stat."
+      }
+    },
+    {
+      "name": "Tosculi",
+      "publication": "Southlands Heroes (2015)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_b",
+      "aliases": "Tosculi waspfolk; verify the hiveless option",
+      "npcs": [
+        "Sivi Amberwing"
+      ],
+      "portrait": "parts/nextkp_b/portraits/tosculi.png",
+      "source": {
+        "name": "Tosculi",
+        "kind": "species",
+        "publication": "Southlands Heroes (2015)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press / Open Design",
+        "authors": [
+          "Rich Howard",
+          "Rodrigo García Carmona"
+        ],
+        "year": 2015,
+        "url": "https://anyflip.com/fgoih/xnbq/basic",
+        "source": "https://anyflip.com/fgoih/xnbq/basic",
+        "primaryBookText": "https://anyflip.com/fgoih/xnbq/basic",
+        "publisherPage": "",
+        "publisherSample": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "pages": [
+          7,
+          8,
+          9
+        ],
+        "printedPages": [
+          7,
+          8,
+          9
+        ],
+        "heading": "Tosculi (Hiveless) Traits and Alternate Racial Traits",
+        "distinctions": [
+          "Sivi uses the standard Hiveless traits and retains gliding and Stalker.",
+          "The 2015 5e player rules give a minimum AC and a 1d4 slashing claw. They are distinct from the Pathfinder Advanced Races profile, the later Southlands Player’s Guide and the Tome of Beasts NPC stat blocks.",
+          "The claw entry lists a damage die; the NPC applies the standard melee Strength modifier to the roll."
+        ],
+        "sourceDistinctions": [
+          "Sivi uses the standard Hiveless traits and retains gliding and Stalker.",
+          "The 2015 5e player rules give a minimum AC and a 1d4 slashing claw. They are distinct from the Pathfinder Advanced Races profile, the later Southlands Player’s Guide and the Tome of Beasts NPC stat blocks.",
+          "The claw entry lists a damage die; the NPC applies the standard melee Strength modifier to the roll."
+        ],
+        "catalogStatus": "No exact-name catalog row in the approved comparison.",
+        "slug": "tosculi",
+        "portraitSelection": "generated",
+        "npcExamples": [
+          "Sivi Amberwing"
+        ]
+      }
+    },
+    {
+      "name": "Trollkin",
+      "publication": "Midgard Heroes Handbook (2018)",
+      "edition": "Fifth edition compatible",
+      "owner": "nextkp_a",
+      "aliases": "Trollkin; keep the Northlands Worldbook and Midgard options separate",
+      "npcs": [
+        "Split-Tusk"
+      ],
+      "portrait": "parts/nextkp_a/portraits/trollkin.png",
+      "source": {
+        "name": "Trollkin",
+        "kind": "species",
+        "publication": "Midgard Heroes Handbook (2018)",
+        "edition": "Fifth edition compatible",
+        "publisher": "Kobold Press",
+        "year": 2018,
+        "url": "https://online.anyflip.com/fgoih/spnw/files/mobile/30.webp",
+        "source": "https://koboldpress.com/kpstore/product/midgard-heroes-handbook-for-5th-edition-dnd-5e/",
+        "primaryBookText": "https://online.anyflip.com/fgoih/spnw/files/mobile/30.webp",
+        "rulePages": [
+          "https://online.anyflip.com/fgoih/spnw/files/mobile/30.webp",
+          "https://online.anyflip.com/fgoih/spnw/files/mobile/29.webp"
+        ],
+        "printedPages": [
+          29,
+          30
+        ],
+        "heading": "Trollkin Traits, Night Whisper Trollkin and Stonehide Trollkin",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "sourceDistinctions": [
+          "The printed profile gives two subraces. The portrait and watch guard use Stonehide. Inhuman Vigor spends actual Hit Dice and can be blocked by acid or fire.",
+          "This row describes the 2018 Midgard Heroes Handbook rules. The NPC uses Humanoid because the printed trait list leaves the type implicit."
+        ]
+      }
+    },
+    {
+      "name": "Umber Hulk",
+      "publication": "Savage Species (2003)",
+      "edition": "3.0 edition",
+      "owner": "nextsavage_d",
+      "aliases": "Umber Hulk monster class",
+      "npcs": [
+        "Rusk"
+      ],
+      "portrait": "parts/nextsavage_d/portraits/umber-hulk.png",
+      "source": {
+        "name": "Umber Hulk",
+        "kind": "species",
+        "publication": "Savage Species (2003)",
+        "edition": "3.0 edition",
+        "publisher": "Wizards of the Coast",
+        "type": "Aberration",
+        "url": "",
+        "pages": "201–202, Table A–51 on p. 202",
+        "additionalSources": [
+          {
+            "name": "D&D Monster Manual (2000), gaze attacks",
+            "url": ""
+          },
+          {
+            "name": "D&D Dungeon Master’s Guide (2000), Confused condition",
+            "url": ""
+          }
+        ],
+        "evidence": "Table A–51 grants burrow at class level 5, gaze at 7, and Large size and 10-ft. reach at 9. At 9 the class has 6d8 Hit Dice and CR 4. The table caps tremorsense at 60 ft. at 14th level, resolving the prose’s reference to a nonexistent 17th level.",
+        "catalogStatus": "Existing monster or beast record only at the batch baseline."
+      }
+    },
+    {
+      "name": "Vryloka",
+      "publication": "Heroes of Shadow (2011)",
+      "edition": "4th edition",
+      "owner": "next4e_shadow",
+      "aliases": "Vryloka; keep separate from Vampire and Dhampir claims",
+      "npcs": [
+        "Orla Kest"
+      ],
+      "portrait": "parts/next4e_shadow/portraits/vryloka.png",
+      "source": {
+        "name": "Vryloka",
+        "publication": "Heroes of Shadow (2011)",
+        "edition": "4th edition",
+        "publisher": "Wizards of the Coast",
+        "creatureType": "Natural humanoid (undead, living)",
+        "url": "",
+        "page": 126,
+        "printedPages": [
+          126,
+          127,
+          129,
+          130
+        ],
+        "sourceDistinctions": [
+          "Vryloka is a playable lineage with a blood-bond origin. Vampire has a separate class chapter in the same book.",
+          "The level 1 entry gains Lifeblood when it bloodies or kills an enemy. Its later heritage utility choices are separate."
+        ],
+        "supportingSources": [
+          {
+            "title": "Dungeon Master’s Guide (4e), NPC design steps and NPC classes",
+            "url": "",
+            "printedPages": [
+              187,
+              188
+            ]
+          },
+          {
+            "title": "Player’s Handbook (4e), class powers and equipment",
+            "url": "",
+            "printedPages": [
+              144,
+              145,
+              146,
+              214
+            ]
+          },
+          {
+            "title": "Heroes of Shadow, alternate scan",
+            "url": "https://www.scribd.com/document/369420850/player-s-option-heroes-of-shadow",
+            "printedPages": [
+              116,
+              121,
+              126
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wallara",
+      "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+      "edition": "AD&D 2nd edition",
+      "owner": "nextcoast_b",
+      "aliases": "Chameleon man; chameleonman",
+      "npcs": [
+        "Werrami"
+      ],
+      "portrait": "parts/nextcoast_b/portraits/wallara.png",
+      "source": {
+        "name": "Wallara",
+        "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+        "edition": "AD&D 2nd edition",
+        "publisher": "TSR, Inc.",
+        "url": "",
+        "originalArchive": "https://web.archive.org/web/20080314112948/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+        "originalMember": "TSR2522A.RTF",
+        "heading": "Wallara and the Chameleonmen: Wallaras as PCs",
+        "originalSections": [
+          "Wallara and the Chameleonmen: Wallaras as PCs",
+          "Character Creation, Tables 1.1–1.3 and 1.7–1.8",
+          "New Character Kits: Wilderness Warrior"
+        ],
+        "reflowedPdfUrl": "",
+        "reflowedPdfPages": [
+          5,
+          6,
+          10,
+          11,
+          14,
+          15,
+          16,
+          17
+        ],
+        "supportingSources": {
+          "baseMovementOnly": "https://pandius.com/wallara2.html",
+          "classRules": ""
+        },
+        "distinction": "The original setting profile for this playable row is separate from the setting’s monster entry. Blending starts at 3rd level. The 1st-level Wilderness Warrior can vanish. Table 1.7 lists bard 10, which the PC prose omits."
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Elk, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/elk-giant/kobold-press-elk.webp",
+    "artist": "Giant Elk · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "07c6718df64ed13339ac36d308712ac5d00e0bdb40454d099325f70b66979ec0",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/elk.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Elk, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/elk-giant/elk-2024-rules-related.webp",
+    "artist": "Related Elk art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "5bcccbbff9bc23c9b5ad9052ba2728c04818e88ec92488d3f02e9b1bf55277e5",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Elk.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Frog, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/frog-giant/kobold-press-frog-gaint.webp",
+    "artist": "Giant Frog · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "b11ea82d1825e33d3b9cbebbd2ce6ecb1c411cb055b21cf13fa48eca5b98b1f5",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/frog-gaint.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Frog, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/frog-giant/frog-2024-rules-related.webp",
+    "artist": "Related Frog art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0e5f4883b70f3aa0ee9a9a02905e0b15dbeb7576efd27814acb38a536db786e7",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Frog.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Goat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/goat-giant/kobold-press-goat.webp",
+    "artist": "Giant Goat · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "7ade2b4fa35c73d74bb24122dbe24b01d6dbbad113c789015cac6598c8e4288a",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/goat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Goat, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/goat-giant/giant-goat-pindurski-related.webp",
+    "artist": "Related Giant Goat art by Pindurski · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "7e316ee013959933f1137000a6d1b209b2a6f8e709a577fa933ed23594e8b941",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Giant%20Goat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Frog, Giant Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/frog-giant-poisonous/kobold-press-frog-gaint.webp",
+    "artist": "Shared Giant Frog token · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "b11ea82d1825e33d3b9cbebbd2ce6ecb1c411cb055b21cf13fa48eca5b98b1f5",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/frog-gaint.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Frog, Giant Poisonous",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/frog-giant-poisonous/poison-frog-hans-hillewaert.jpg",
+    "artist": "Green and black poison dart frog © Hans Hillewaert · CC BY-SA 4.0",
+    "kind": "photograph",
+    "sha256": "fe8853974f9b4f49ff3a5d1fddc90dddd9ab8b83510b6c85ceec9376713fe202",
+    "reference": "https://commons.wikimedia.org/wiki/File:Dendrobates_auratus_(Antwerp_Zoo).jpg",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
+]

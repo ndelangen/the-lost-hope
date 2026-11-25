@@ -1,0 +1,167 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315826,6 +315826,24 @@
+       ]
+     },
+     {
++      "name": "Arctic Dwarf",
++      "kind": "species",
++      "publication": "Races of Faerûn (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "The Inugaakalikurit are Small Humanoids (Dwarf). +4 Strength, −2 Dexterity, +2 Constitution, −2 Charisma. Darkvision 60 ft.",
++        "Small gives +1 on attacks and AC, +4 Hide, and −4 grapple. Use Small weapons and three-quarters of the Medium carrying limits.",
++        "Dwarf stability gives +4 on ability checks to resist bull rush or trip while firmly grounded. Land speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
++        "Stonecunning grants +2 on Search for unusual stonework and a reactive check within 10 ft. An Arctic Dwarf can sense approximate depth and find stonework traps as a rogue can.",
++        "+2 racial bonus on saves against poison, spells, and spell-like abilities.",
++        "Treat dwarven waraxes and urgroshes as martial weapons. +1 racial attack bonus against orcs and goblinoids. +4 dodge AC against giants. +2 racial Appraise and Craft bonuses for stone or metal.",
++        "Immune to cold. The player entry grants immunity as a racial trait and lists no Cold subtype or fire vulnerability.",
++        "Common, Dwarven, and the home-region language are automatic. The revised Great Glacier region adds Uluik and offers Aquan, Auran, Damaran, Draconic, and Giant as bonus languages.",
++        "Favored class Ranger. No racial Hit Dice. Level adjustment +2 gives ECL 3 at one class level.",
++        "This profile uses the 2003 playable traits with the 3.5 core Dwarf rules and the revised Great Glacier region."
++      ]
++    },
++    {
+       "edition": "Black Flag Roleplaying",
+       "publication": "Black Flag Roleplaying Reference Document v0.2",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -6060,6 +6060,95 @@
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
+       "size": "Small",
++      "type": "Humanoid (Dwarf)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "20 ft. even in medium or heavy armor",
++      "id": "arctic-dwarf-whitecurl-glacier-guide-35e",
++      "title": "Arctic Dwarf glacier guide, Ranger 1",
++      "difficulty": "Provisional CR 2. ECL 3 (1 class HD, LA +2).",
++      "ac": 14,
++      "hp": 11,
++      "hitDice": "1d8+3",
++      "initiative": 1,
++      "languages": "Common, Dwarven, Uluik, Giant",
++      "abilityScores": {
++        "STR": 18,
++        "DEX": 12,
++        "CON": 16,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": [
++        "Hide +9",
++        "Listen +7",
++        "Move Silently +5",
++        "Search +5 (+7 unusual stonework)",
++        "Spot +7",
++        "Survival +5",
++        "Use Rope +5"
++      ],
++      "traits": [
++        "Neutral good. Leather armor +2, Dexterity +1, size +1. Touch 12, flat-footed 13, armor check penalty 0. BAB +1, grapple +1. Fortitude +5, Reflex +3, Will +1.",
++        "Dwarf stability gives +4 on ability checks to resist bull rush or trip while firmly grounded. Land speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
++        "Stonecunning grants +2 on Search for unusual stonework and a reactive check within 10 ft. An Arctic Dwarf can sense approximate depth and find stonework traps as a rogue can.",
++        "+2 racial bonus on saves against poison, spells, and spell-like abilities.",
++        "Immune to cold. AC 18 against giants while eligible for a Dexterity bonus to AC.",
++        "Favored enemy giants gives +2 weapon damage and +2 on Bluff, Listen, Sense Motive, Spot, and Survival checks used against giants. Alertness gives +2 to Listen and Spot, already included in the listed skills.",
++        "Track is a bonus feat. Wild empathy +0 on a 1d20 check. May use it on magical beasts with Intelligence 1 or 2 at −4."
++      ],
++      "actions": [
++        "Small quarterstaff +6 melee, 1d4+6 bludgeoning when striking with one end in two hands, critical ×2. Small sling +3 ranged, 1d3+4 bludgeoning, critical ×2, 50-ft. range increment. Add +1 to either attack against orcs and goblinoids. Add +2 to damage against giants.",
++        "Track using Survival +5, or +7 against giants. Listen +9 and Spot +9 against giants."
++      ],
++      "tactics": "Irsa stops at the far end of the ice shelf to identify the tracks before the party follows. She keeps the rope ready when the route crosses cracked ice."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Small",
++      "type": "Humanoid (Dwarf)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "20 ft. even in medium or heavy armor",
++      "id": "arctic-dwarf-iceknot-pass-guard-35e",
++      "title": "Arctic Dwarf pass guard, Fighter 2",
++      "difficulty": "Provisional CR 2. ECL 4 (2 class HD, LA +2).",
++      "ac": 18,
++      "hp": 21,
++      "hitDice": "2d10+6",
++      "initiative": 4,
++      "languages": "Common, Dwarven, Uluik",
++      "abilityScores": {
++        "STR": 20,
++        "DEX": 10,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": [
++        "Climb +3",
++        "Craft (armorsmithing) +7 for metal",
++        "Search +0 (+2 unusual stonework)"
++      ],
++      "traits": [
++        "Neutral. Chainmail +5, heavy wooden shield +2, size +1. Touch 11, flat-footed 18, armor check penalty −7. BAB +2, grapple +3. Fortitude +6, Reflex +0, Will +1.",
++        "Dwarf stability gives +4 on ability checks to resist bull rush or trip while firmly grounded. Land speed stays 20 ft. in medium or heavy armor or under a medium or heavy load.",
++        "Stonecunning grants +2 on Search for unusual stonework and a reactive check within 10 ft. An Arctic Dwarf can sense approximate depth and find stonework traps as a rogue can.",
++        "+2 racial bonus on saves against poison, spells, and spell-like abilities.",
++        "Immune to cold. AC 22 against giants while eligible for a Dexterity bonus to AC. Improved Initiative adds +4 and Weapon Focus adds +1 to heavy pick attacks.",
++        "Power Attack trades up to 2 points of melee attack bonus for an equal damage bonus with the one-handed heavy pick."
++      ],
++      "actions": [
++        "Small heavy pick +9 melee, 1d4+5 piercing, critical ×4. With full Power Attack, +7 melee, 1d4+7 piercing.",
++        "Small shortspear +3 ranged, 1d4+5 piercing, critical ×2, 20-ft. range increment. Add +1 to either weapon’s attack against orcs and goblinoids."
++      ],
++      "tactics": "Merec blocks the narrow approach while others secure the guide rope. He keeps his distance from any creature large enough to reach across the ridge."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Small",
+       "type": "Humanoid (Goblinoid)",
+       "senses": "Darkvision 60 ft.",
+       "speed": "30 ft.",
+@@ -7509,6 +7598,28 @@
+       "hook": "Vessa can interpret a warning from the keeper across the landing and show the party which stair is open."
+     },
+     {
++      "species": "Arctic Dwarf",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Irsa Whitecurl",
++      "build": "arctic-dwarf-whitecurl-glacier-guide-35e",
++      "role": "Glacier guide and Ranger.",
++      "motive": "Find a path that keeps the rescue party away from the unstable shelf.",
++      "hook": "Irsa points to the tracks across the ice and asks the party to wait while she checks the crossing."
++    },
++    {
++      "species": "Arctic Dwarf",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Merec Iceknot",
++      "build": "arctic-dwarf-iceknot-pass-guard-35e",
++      "role": "High pass guard and Fighter.",
++      "motive": "Keep the pass open while the last sled reaches camp.",
++      "hook": "Merec asks for a second lookout after a rockfall exposes the flank of his post."
++    },
++    {
+       "species": "Dragonborn (Ravenite; White)",
+       "size": "Medium",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -584,6 +584,7 @@
+ Archon of the Triumvirate	monster	Celestial	Guildmasters’ Guide to Ravnica	2014 fifth edition	Wizards of the Coast		14
+ Archpriest	monster	Humanoid	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5194903-archpriest	12
+ Arclight Phoenix	monster	Elemental	Guildmasters’ Guide to Ravnica	2014 fifth edition	Wizards of the Coast		12
++Arctic Dwarf	species	Humanoid (Dwarf)	Races of Faerûn (2003)	3.5 edition	Wizards of the Coast	https://books.google.com/books?id=yjoCAAAACAAJ	
+ Arcturia	monster	Undead	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/278045-arcturia	21
+ Arena Guard	monster	Humanoid	DDEX3-02 - Shackles of Blood	2014 fifth edition	Wizards of the Coast		1/8
+ Argan Rael	monster	Humanoid	Flee, Mortals!	2014 fifth edition compatible	MCDM	https://www.dndbeyond.com/monsters/4485775-argan-rael	7

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Badger",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775802-badger",
+    "url": "https://www.dndbeyond.com/monsters/4775802-badger",
+    "printedPages": [
+      349
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 349",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "badger",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_02/portraits/badger.png",
+    "portraitReuseSha256": "75809f0e89a216a04e58bc0c66ba4df421319cad328164c66ca2a75f0fe0d20e",
+    "mechanicsNotes": [
+      "Poison is a damage resistance. The entry gives no condition immunity."
+    ]
+  },
+  {
+    "name": "Bat",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775803-bat",
+    "url": "https://www.dndbeyond.com/monsters/4775803-bat",
+    "printedPages": [
+      349
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 349",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "bat",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_01/portraits/bat.png",
+    "portraitReuseSha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+    "mechanicsNotes": [
+      "The dedicated entry gives Bite +4 and Blindsight 60 ft. It gives no standalone Echolocation trait."
+    ]
+  },
+  {
+    "name": "Black Bear",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775804-black-bear",
+    "url": "https://www.dndbeyond.com/monsters/4775804-black-bear",
+    "printedPages": [
+      349
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 349",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "black-bear",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_01/portraits/black-bear.png",
+    "portraitReuseSha256": "039517fda89aa08d2ed52fbeec232e36894a09a8a67735495dc1936b0655273e",
+    "mechanicsNotes": [
+      "The walk, climb and swim speeds are each 30 ft. Multiattack uses Rend twice. Perception is +5 as published."
+    ]
+  },
+  {
+    "name": "Blood Hawk",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+    "url": "https://www.dndbeyond.com/monsters/5194927-blood-hawk",
+    "printedPages": [
+      350
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 350",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "blood-hawk",
+    "portraitReuseSource": "beast-ready-batch-04/parts/b04_02/portraits/blood-hawk.png",
+    "portraitReuseSha256": "c77a0ce92dc5da93b70bca9b33d98d051395898ab90f48b9e6039183738b3d0f",
+    "mechanicsNotes": [
+      "Bloodied changes the Beak damage total. Pack Tactics checks the ally’s distance from the target. Perception is +6 as published."
+    ]
+  },
+  {
+    "name": "Boar",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 rules revision. Hardcover released in 2025, which is the year used by the publisher’s errata.",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775805-boar",
+    "url": "https://www.dndbeyond.com/monsters/4775805-boar",
+    "printedPages": [
+      350
+    ],
+    "section": "Appendix A, Animals",
+    "publisherByline": "Monster Manual, pg. 350",
+    "relatedRules": [
+      {
+        "section": "D&D Beyond Basic Rules, Creature Stat Blocks",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/creature-stat-blocks"
+      }
+    ],
+    "attributionEvidence": "The dedicated entry credits Monster Manual. The same mechanics also appear in D&D Beyond Basic Rules.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official 2025 Monster Manual errata v1.0 lists no change to this entry.",
+    "habitatEvidence": "Habitat labels come from the dedicated publisher entry.",
+    "appearanceEvidence": "Editorial description of the reused square portrait.",
+    "artGroup": "boar",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_03/portraits/boar.png",
+    "portraitReuseSha256": "b4688f0bf40d1e05ae32f0d82c0cc0d4508e20d4cca842c2544f8e191d0fb22f",
+    "mechanicsNotes": [
+      "Gore’s extra damage and Prone apply on the qualifying hit without a separate save. Bloodied Fury affects attack rolls while the boar is Bloodied."
+    ]
+  }
+]

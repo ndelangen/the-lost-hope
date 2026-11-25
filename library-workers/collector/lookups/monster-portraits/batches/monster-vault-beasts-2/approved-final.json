@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "bear-black",
+    "name": "Bear, Black",
+    "entryId": "beast-138c94b9297d755af3e97c8c",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A naturalistic adult American black bear with glossy charcoal-black fur, a faint cinnamon-tan muzzle, small upright rounded ears prominent above the head, smooth shoulders without a prominent hump, and straight higher face profile. Show the whole animal on four paws, a quiet diagonal walking stride with one lifted front paw and watchful eyes turned toward viewer. Muscular but leaner and less blocky than a grizzly, practical short curved dark claws, correct bear anatomy. Use the second image as a face and coat reference only.",
+    "prompt": "One original square 1254 by 1254 tabletop bestiary portrait. Use the first image as house style reference: warm golden amber mottled parchment all the way to the edges, fine sepia ink and colored pencil, richly detailed muted matte gouache, soft ground contact shadow and diffuse light. One full-body creature with clean readable silhouette and ample breathing room around all edges. Simple empty parchment backdrop. No scene, framing, text, signature or embellishments. Ignore the blue circular frame in the second reference. A naturalistic adult American black bear with glossy charcoal-black fur, a faint cinnamon-tan muzzle, small upright rounded ears prominent above the head, smooth shoulders without a prominent hump, and straight higher face profile. Show the whole animal on four paws, a quiet diagonal walking stride with one lifted front paw and watchful eyes turned toward viewer. Muscular but leaner and less blocky than a grizzly, practical short curved dark claws, correct bear anatomy. Use the second image as a face and coat reference only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  },
+  {
+    "slug": "bear-brown",
+    "name": "Bear, Brown",
+    "entryId": "beast-69da0c5ef3c11f3e2cd7b61b",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A big mature naturalistic brown grizzly bear with a strong raised shoulder hump, thick russet and umber woolly coat with tan grizzled tips, smaller rounded ears, a dished facial profile, very broad paws, and long gently curved ivory foreclaws. Low steady side-on four-legged posture, face turned slightly toward viewer with a calm formidable expression. Paws clearly separated and fully visible, no roaring or hand gestures, strong animal proportions. Use the second image for head and fur context only.",
+    "prompt": "One original square 1254 by 1254 tabletop bestiary portrait. Use the first image as house style reference: warm golden amber mottled parchment all the way to the edges, fine sepia ink and colored pencil, richly detailed muted matte gouache, soft ground contact shadow and diffuse light. One full-body creature with clean readable silhouette and ample breathing room around all edges. Simple empty parchment backdrop. No scene, framing, text, signature or embellishments. Ignore the blue circular frame in the second reference. A big mature naturalistic brown grizzly bear with a strong raised shoulder hump, thick russet and umber woolly coat with tan grizzled tips, smaller rounded ears, a dished facial profile, very broad paws, and long gently curved ivory foreclaws. Low steady side-on four-legged posture, face turned slightly toward viewer with a calm formidable expression. Paws clearly separated and fully visible, no roaring or hand gestures, strong animal proportions. Use the second image for head and fur context only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  },
+  {
+    "slug": "bear-polar",
+    "name": "Bear, Polar",
+    "entryId": "beast-b71aeece0365e17c9c5672cc",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A large naturalistic adult polar bear with thick cream-white fur, a long streamlined neck and narrow tapering head, small low-biased rounded ears, glossy black nose and small dark eyes. Walking toward and slightly across the viewer in a strong calm three-quarter pose. Broad insulated paws all visible, weighted and correct, one forepaw just lifting, realistic gray sepia shading within white fur for contrast and clear body outline on amber paper. No ice or ground scene. Use second image solely for species and features, with a new pose.",
+    "prompt": "One original square 1254 by 1254 tabletop bestiary portrait. Use the first image as house style reference: warm golden amber mottled parchment all the way to the edges, fine sepia ink and colored pencil, richly detailed muted matte gouache, soft ground contact shadow and diffuse light. One full-body creature with clean readable silhouette and ample breathing room around all edges. Simple empty parchment backdrop. No scene, framing, text, signature or embellishments. Ignore the blue circular frame in the second reference. A large naturalistic adult polar bear with thick cream-white fur, a long streamlined neck and narrow tapering head, small low-biased rounded ears, glossy black nose and small dark eyes. Walking toward and slightly across the viewer in a strong calm three-quarter pose. Broad insulated paws all visible, weighted and correct, one forepaw just lifting, realistic gray sepia shading within white fur for contrast and clear body outline on amber paper. No ice or ground scene. Use second image solely for species and features, with a new pose.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  },
+  {
+    "slug": "boar-giant",
+    "name": "Boar, Giant",
+    "entryId": "beast-045517a888508501eff22ab5",
+    "kind": "beast",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A giant wild boar, thickset lifted shoulders, iron-gray and dark brown coarse bristles with a rough raised mane down its neck, slim tapering hindquarters and a long dirt-brown snout. Two convincingly curved ivory tusks emerging from the lower jaw near the mouth, small angry amber eye, small upright natural ears. Entire four-legged animal angled toward the viewer with lowered head as if bracing to charge, distinct cloven hooves and short fine tail, anatomically coherent wild boar with no extra horns, weapons, or gear. Use second reference for head, tusks and type only.",
+    "prompt": "One original square 1254 by 1254 tabletop bestiary portrait. Use the first image as house style reference: warm golden amber mottled parchment all the way to the edges, fine sepia ink and colored pencil, richly detailed muted matte gouache, soft ground contact shadow and diffuse light. One full-body creature with clean readable silhouette and ample breathing room around all edges. Simple empty parchment backdrop. No scene, framing, text, signature or embellishments. Ignore the blue circular frame in the second reference. A giant wild boar, thickset lifted shoulders, iron-gray and dark brown coarse bristles with a rough raised mane down its neck, slim tapering hindquarters and a long dirt-brown snout. Two convincingly curved ivory tusks emerging from the lower jaw near the mouth, small angry amber eye, small upright natural ears. Entire four-legged animal angled toward the viewer with lowered head as if bracing to charge, distinct cloven hooves and short fine tail, anatomically coherent wild boar with no extra horns, weapons, or gear. Use second reference for head, tusks and type only.",
+    "appearanceSource": "Kobold Press Monster Vault and official Black Flag Foundry tokens"
+  }
+]

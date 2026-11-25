@@ -1,0 +1,340 @@
+[
+  {
+    "name": "Dragonborn of Bahamut",
+    "statBlock": {
+      "name": "Dragonborn of Bahamut",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Medium humanoid, typically lawful good",
+      "ac": 18,
+      "hp": 93,
+      "hitDice": "11d8 + 44",
+      "speed": "30 ft., fly 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "These platinum-winged knights champion Bahamut. Some serve orders that protect people from evil dragons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 7,
+        "Perception": 5,
+        "Persuasion": 6
+      },
+      "savingThrows": {
+        "Con": 7,
+        "Int": 4,
+        "Wis": 5,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Half plate and shield.",
+        "Condition immunities": "Frightened.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (1/day). After failing a saving throw, the dragonborn can succeed instead.",
+        "Actions": "Multiattack. Make three Longsword attacks.\nLongsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage with two hands, plus 13 (3d8) radiant damage. Once per turn, the dragonborn can make the sword flare on a hit. The target then makes a DC 14 Constitution save or is blinded until the start of the dragonborn’s next turn.\nHealing Touch (1/day). Touch another creature within 5 ft. It magically regains 40 hit points, and the touch removes every disease and poison affecting it.\nRadiant Breath (Recharge 6). Creatures in a 30-ft. cone make a DC 15 Dexterity save. On a failure, a creature takes 44 (8d10) radiant damage. On a success, it takes half. The dragonborn can exempt up to three creatures in the cone. Each regains 22 (4d10) hit points and takes no damage from the breath.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 184."
+      }
+    }
+  },
+  {
+    "name": "Dragonborn of Sardior",
+    "statBlock": {
+      "name": "Dragonborn of Sardior",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 185,
+      "classification": "Medium humanoid, typically neutral",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "These psionic champions believe that Sardior’s essence survives in gem dragons. Many belong to the Inheritors of the First World and can lift themselves through the air by telekinesis.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 7,
+        "History": 7,
+        "Perception": 5
+      },
+      "savingThrows": {
+        "Con": 6,
+        "Int": 7,
+        "Wis": 5,
+        "Cha": 4
+      },
+      "sections": {
+        "Armor": "Mental Defense.",
+        "Damage resistances": "Psychic.",
+        "Condition immunities": "Frightened.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (1/day). After failing a saving throw, the dragonborn can succeed instead.\nMental Defense. While unarmored, the dragonborn adds its Intelligence modifier to its Armor Class.",
+        "Actions": "Multiattack. Make three Mind Blade attacks.\nMind Blade. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic damage.\nHeat Breath (Recharge 6). Creatures in a 30-ft. cone make a DC 14 Constitution save, taking 27 (6d8) fire damage on a failure or half on a success. Metal objects in the cone stay red-hot until the end of the dragonborn’s next turn. A creature that starts its turn in physical contact with one of these objects makes a DC 14 Constitution save. On a failure, it takes 9 (2d8) fire damage and has disadvantage on attack rolls until the start of its next turn.\nSpellcasting (Psionics). Use an action to cast Bigby’s Hand, Hypnotic Pattern or Telekinesis, each once per day. Intelligence is the spellcasting ability (save DC 15, +7 to hit with spell attacks). The spells require no components.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 185."
+      }
+    }
+  },
+  {
+    "name": "Dragonborn of Tiamat",
+    "statBlock": {
+      "name": "Dragonborn of Tiamat",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 185,
+      "classification": "Medium humanoid, typically chaotic evil",
+      "ac": 18,
+      "hp": 85,
+      "hitDice": "10d8 + 40",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 14,
+      "description": "Often called Talons of Tiamat, these champions seek to free the Dragon Queen from Avernus. Some work with the Cult of the Dragon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 8,
+        "Intimidation": 6,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Str": 8,
+        "Con": 7,
+        "Wis": 4,
+        "Cha": 6
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Condition immunities": "Frightened.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (1/day). After failing a saving throw, the dragonborn can succeed instead.",
+        "Actions": "Multiattack. Make two Greataxe attacks.\nGreataxe. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (1d12 + 5) slashing damage plus 13 (3d8) necrotic damage.\nNecrotic Breath (Recharge 6). Creatures in a 30-ft. cone make a DC 15 Wisdom save. On a failure, a creature takes 36 (8d8) necrotic damage and is frightened of the dragonborn for 1 minute. On a success, it takes half damage and avoids the fear. A frightened creature can repeat the save at the end of each of its turns, ending the fear on a success.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 185."
+      }
+    }
+  },
+  {
+    "name": "Dragonflesh Abomination",
+    "statBlock": {
+      "name": "Dragonflesh Abomination",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 187,
+      "classification": "Huge monstrosity, typically neutral evil",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "7d12 + 21",
+      "speed": "30 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "A grafter in the final stage of transformation grows wings and a tail and loses its former identity. It hoards treasure around abandoned dragon lairs and other sites tied to dragons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Languages": "Understands Common and Draconic but cannot speak.",
+        "Traits": "Cloying Miasma. At the start of the abomination’s turn, each creature within 5 ft. makes a DC 14 Constitution save. On a failure, it is poisoned until the start of the abomination’s next turn.\nRegeneration. At the start of its turn, the abomination regains 10 hit points if it has at least 1 hit point.",
+        "Actions": "Multiattack. Make three attacks, choosing Claw or Acidic Spit for each. The abomination can replace one of those attacks with Tail.\nClaw. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 8 (1d8 + 4) slashing damage plus 5 (1d10) poison damage.\nTail. Melee weapon attack, +7 to hit, reach 15 ft., one target. A hit deals 10 (1d12 + 4) bludgeoning damage. A creature hit must make a DC 15 Strength save or fall prone.\nAcidic Spit. Ranged weapon attack, +5 to hit, range 60 ft., one target. A hit deals 10 (3d6) acid damage.\nAcid Belch (Recharge 5–6). Creatures in a 30-ft. cone make a DC 14 Constitution save, taking 28 (8d6) acid damage on a failure or half on a success.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 187."
+      }
+    }
+  },
+  {
+    "name": "Dragonflesh Grafter",
+    "statBlock": {
+      "name": "Dragonflesh Grafter",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 186,
+      "classification": "Large monstrosity, typically neutral evil",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d10 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "description": "Grafters use dragon remains in rituals to take on draconic features. Growing scales and an acidic breath weapon accompany their fixation on hoarding treasure.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 5,
+        "Con": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Draconic.",
+        "Actions": "Multiattack. Make one Claw attack and one Greatclub attack.\nClaw. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 7 (1d8 + 3) slashing damage plus 5 (1d10) poison damage.\nGreatclub. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 12 (2d8 + 3) bludgeoning damage.\nAcid Retch (Recharge 5–6). Creatures in a 30-ft. cone make a DC 12 Dexterity save, taking 14 (4d6) acid damage on a failure or half on a success.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 186."
+      }
+    }
+  },
+  {
+    "name": "Dragonnel",
+    "statBlock": {
+      "name": "Dragonnel",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "printedPage": 190,
+      "classification": "Large dragon, typically neutral",
+      "ac": 13,
+      "hp": 58,
+      "hitDice": "9d10 + 9",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "A distant relative of true dragons, the dragonnel swoops at prey from the air. Dragonnels raised from eggs can become protective mounts, while wild ones may throw riders from the saddle.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Understands Draconic and Common but cannot speak.",
+        "Traits": "Flyby. Flying out of an enemy’s reach does not provoke an opportunity attack from that enemy.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) slashing damage.",
+        "Dragonnel Steeds": "With the DM’s permission, a paladin can use Find Greater Steed to summon a spirit in dragonnel form.",
+        "Printed source": "Fizban's Treasury of Dragons, p. 190."
+      }
+    }
+  }
+]

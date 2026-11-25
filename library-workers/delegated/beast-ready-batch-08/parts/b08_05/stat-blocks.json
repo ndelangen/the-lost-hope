@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Trosip",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Tiny, neutral",
+    "ac": 10,
+    "hp": 1,
+    "hitDice": "1 hp (fixed)",
+    "hpRule": "Each trosip has 1 HP as printed.",
+    "speed": "Movement 3",
+    "thac0": 20,
+    "xp": 35,
+    "appearance": "A dark grey dust bunny that blends into ordinary floor dust. Colonies look like several loose clumps of lint.",
+    "habitats": [
+      "Any interior",
+      "Subterranean"
+    ],
+    "otherStatistics": "4d6 appearing. Very rare. Colony. Any activity cycle. Animal intelligence (1). Unreliable morale (2–4). No treasure or magic resistance.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 112–113. ",
+      "Combat": "One attack, 0 direct damage. A trosip attacks only sleepers and stays still whenever someone is awake within the range of its senses. It senses motion and vibration out to 60 ft., including invisible creatures. It moves silently 95% of the time.",
+      "Suffocation": "At least four trosips are needed to attack one man-sized sleeper effectively. The victim saves vs. paralyzation using only magical protection bonuses. A failed save means death from suffocation in 1d4 + 1 rounds. A success wakes the victim in time to wave them away. If more than twelve trosips attack one victim, both of two saving throws must succeed for the victim to survive.",
+      "Detection and retreat": "A stationary trosip looks like ordinary dust. Magic or devices that detect invisible creatures can reveal it, and some animals such as cats can see it. The colony withdraws once the victim wakes or the body begins cooling. The book describes fast short spurts and poor sustained movement.",
+      "Ecology": "Colonies feed on refuse and draw heat from sleepers. One trosip can multiply into 24 or more within a few days. Infants, young children and the infirm are especially vulnerable.",
+      "Red Curse": "Immune to all effects of the Red Curse.",
+      "Printing note": "The table gives Tiny size and prints a 6′–9′ diameter. Both figures are kept because the book gives no corrected measurement."
+    }
+  },
+  {
+    "name": "Voat",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Tiny (1–2 ft. long), neutral (evil)",
+    "ac": 7,
+    "hp": null,
+    "hitDice": "1d4 hp",
+    "hpRule": "Roll 1d4 hit points for each voat, as printed.",
+    "speed": "Movement 12, swim 6",
+    "thac0": 20,
+    "xp": 65,
+    "appearance": "A cat-sized ratlike scavenger with coarse grey fur, large ears, a pointed snout and a pink scaly tail.",
+    "habitats": [
+      "Any terrain",
+      "Food stores",
+      "Warehouses",
+      "Ships",
+      "Caves"
+    ],
+    "otherStatistics": "5d10 appearing. Common. Pack. Nocturnal scavenger. Semi-intelligent (2–4). Treasure (C). Unsteady morale (5–7). No magic resistance.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 115–116. \nAdditional rule references: Appendix pp. 6–8 and Savage Coast Campaign Book Part 2 pp. 85 and 99 for uses, minimum effective level and Phase. ",
+      "Combat": "One bite for 1d3 damage. Voats can bite on land or in water. They attack small domestic animals and may attack humanoids.",
+      "Disease": "A bite has a 5% chance to transmit a serious disease unless the victim saves vs. poison. The entry gives examples of disease but no onset, duration or further damage.",
+      "Red Curse": "All voats have a Legacy. Most suffer its Affliction and many have Phase. The Phase Affliction gives them soft, distorted flesh and makes them tend to sink into solid matter if they stay in place. They seldom wear cinnabryl and may get trace amounts from scarlet pimpernel.",
+      "Phase Legacy": "If the voat has Phase, it can pass through solid matter for 1 round, up to three times daily once the Legacy is fully active. It can walk without sinking during deliberate phasing. The full effect is immune to solid weapons while phased, but magic missile, the Missile Legacy and magical fire, cold and electricity can still affect it. The Affliction and active Legacy are separate effects.",
+      "Ecology": "Packs raid granaries and ship cargo, gnaw through planks, and foul what they leave. They also nest in caves containing scarlet pimpernels. Nests may hold bright objects and gear from victims. Voats live 2–4 years and typically have 3–5 litters a year of 8–12. Cardinal ticks often infest them, and packs sometimes associate with Saragón lyra birds."
+    }
+  },
+  {
+    "name": "Vulturehound",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Small (4 ft. long), neutral",
+    "ac": 5,
+    "hp": null,
+    "hitDice": "2",
+    "hpRule": "Roll 2d8 HP per adult under the Appendix Hit Dice rule. Pups use 1d4 HP.",
+    "speed": "Movement 10, fly 18 (maneuverability C)",
+    "thac0": 19,
+    "xp": 65,
+    "appearance": "A long-haired grey hound with a bare reddish vulture head, hooked beak, small feathered wings and curved talons.",
+    "habitats": [
+      "Temperate steppes",
+      "Subtropical steppes",
+      "Tropical steppes",
+      "Renardy",
+      "Yazak Steppes"
+    ],
+    "otherStatistics": "4d6 appearing. Rare. Day-active carnivore. Pack. Animal intelligence (1). Treasure J (×10), K (×10), L (×5), M, N. Average morale (8–10). No magic resistance or listed special defenses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 117–118. \nAdditional rule references: Appendix pp. 4, 6–8 and Savage Coast Campaign Book Part 2 pp. 85, 96 and 104 for Class C flight and Legacy procedures. ",
+      "Combat": "When it can rear up, the vulturehound makes three attacks: two front talons for 1d3 each and one beak for 1d4. If it cannot rear, use the beak alone. In flight, it attacks with its front talons. It loses flight after losing more than 75% of starting HP. At exactly 75% loss, it can still fly. Class C movement requires at least half speed, allows a 90-degree turn per round and permits an aerial attack pass every two rounds.",
+      "Red Curse": "Renardy packs acquire Legacies but never suffer Affliction. Yazak Steppes populations lie outside the Red Curse’s direct influence. The text lists Gas Breath, Acid Touch, Gaseous Form and Sleep as common choices. Assign the individual’s Legacy before play.",
+      "Common Legacies": "A fully active Legacy has up to three uses per day. Use the adult’s 2 HD as caster level. Gas Breath lasts up to 2 rounds before expiring and delivers one 1d4 poison hit to a target within 5 ft. Magical poison protection can grant a save vs. poison for half. Acid Touch is instantaneous and deals 1d4 + 2 on a successful hit against plant matter or flesh. Gaseous Form lasts 2 rounds with flight 3 (B), can pass through gaps that are not airtight, and can be driven by normal or magical winds. Most attacks cannot affect it. Magical fire, electricity, magic missile and the Missile Legacy can. Sleep lasts 4 rounds, targets one living creature closest to a location within 10 yards, and allows a save vs. spell.",
+      "Pack and pups": "Packs hunt out of a den and drag back food. Their lair has a 50% chance to hold 3d4 pups. A pup has 1d4 HP, cannot fly, and bites for 1d2 damage. Pups taken young can be trained for war or hunting. A trained adult tracks as a 5th-level ranger or adds +3 to a ranger companion’s tracking skill. Each vulturehound has a 50% chance of cardinal ticks.",
+      "Ecology": "Vulturehounds take carrion and hunt isolated or sick prey. They watch and scent for carrion and bay like dogs. They are immune to vermilia. One animal yields enough blood for 1d6 doses of antivermilia medicine, made by a mage of at least 9th level with an alchemical laboratory. A dose cures a man-sized or smaller creature. The book says doses often cost over 150 gp."
+    }
+  },
+  {
+    "name": "Wynzet",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Tiny (1–2 ft. tall), neutral",
+    "ac": 7,
+    "hp": null,
+    "hitDice": "1",
+    "hpRule": "Roll 1d8 HP under the Appendix Hit Dice rule.",
+    "speed": "Movement 12",
+    "thac0": 19,
+    "xp": 120,
+    "appearance": "A fluffy grey squirrel-like creature with large dark eyes and a full tail. Other wynzets may resemble rabbits.",
+    "habitats": [
+      "Any forest",
+      "Forests of Robrenn"
+    ],
+    "otherStatistics": "1 appearing. Very rare, common in Robrenn. Solitary carnivore. Any activity cycle. Animal intelligence (1). Treasure J, K, L, M, N. Steady morale (11–12). No magic resistance or special defenses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 122–123. \nAdditional rule references: Appendix pp. 6–7 and Savage Coast Campaign Book Part 2 pp. 85 and 88 for uses, effective level and general Bite duration. ",
+      "Combat": "One ordinary bite for 1d3 damage. The wynzet usually allows petting and feeding. It wins a forest despoiler’s trust before launching its special throat bite.",
+      "Bite Legacy": "Once it has befriended a despoiler, it can leap up to 15 ft. for the throat attack at +4 to hit. On the first successful attack, the target saves vs. paralyzation with Dexterity bonuses. Failure kills the target. Success still deals 2d8 damage. Later attacks deal 1d8 with the active Legacy or 1d3 with the ordinary bite.",
+      "Red Curse": "All wynzets have the Bite Legacy and require no cinnabryl. The general Bite Legacy lasts 1 round per level. At 1 HD the duration is 1 round, up to three activations daily when fully active. The entry specifies the special first hit and does not give a separate reset trigger.",
+      "Ecology": "Robrenn’s druids empower these woodland guardians. They breed as the creature they resemble, and about 5% of their offspring are wynzets. A despoiler’s remains replenish the forest. In Renardy the beast is sometimes called le lapin mortel."
+    }
+  }
+]

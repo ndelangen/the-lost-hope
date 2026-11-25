@@ -1,0 +1,243 @@
+{
+  "builds": [
+    {
+      "id": "mmv-arcadian-avenger-tavia-reedmark-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Outsider (Extraplanar, Good, Lawful)",
+      "title": "Arcadian avenger paladin 1",
+      "difficulty": "ECL 11 from 8 racial HD, 1 paladin level and LA +2. Encounter CR 7. Base species CR 6.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Celestial, Common.",
+      "speed": "30 ft., fly 30 ft. (good).",
+      "ac": 19,
+      "hp": 68,
+      "hitDice": "8d8+1d10+27",
+      "initiative": 6,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 15,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 12
+      },
+      "skills": [
+        "Balance +13",
+        "Diplomacy +15",
+        "Heal +13",
+        "Intimidate +12",
+        "Knowledge (the planes) +11",
+        "Listen +12",
+        "Sense Motive +12",
+        "Spot +12"
+      ],
+      "traits": [
+        "Lawful good. BAB +9, grapple +12. Fort +11, Ref +8, Will +7. Touch AC 12, flat-footed AC 17. +6 natural armor and +2 Dex. Two-Weapon Defense adds +1 shield AC while she wields both swords, or +2 if she fights defensively or takes total defense.",
+        "Improved Initiative, Two-Weapon Fighting, Two-Weapon Defense. The swords count as lawful and good against damage reduction. Magic Strike applies to natural weapons.",
+        "Wrath. Seeing an ally fall grants +2 morale on her melee damage rolls for 10 rounds.",
+        "Paladin aura of good as a 1st-level cleric. Detect evil at will. Study a 60-ft. cone for up to three rounds to learn whether evil auras are present, how many and how strong, then their locations. Concentration lasts up to 10 minutes."
+      ],
+      "actions": [
+        "Two masterwork longswords. Single-sword attack +13, or full attack +13/+8 for 1d8+3 each. Two-weapon full attack uses main-hand +9/+4 for 1d8+3 and off-hand +9 for 1d8+1. All threaten 19–20/×2. Blade Rend adds 2d6 once when both swords hit the same target during that full attack.",
+        "Elude Chance, 3/day, immediate. Before resolving the next melee attack or save, use 10 as the d20 result.",
+        "Smite Evil, 1/day. Declare for one normal melee attack. Add +1 to the attack and +1 to damage against an evil target. A non-evil target negates the benefit and still expends the use."
+      ],
+      "tactics": "Offer an escorted hearing first. Use flight to reach endangered witnesses. When there is enough time to settle into a full attack, save Elude Chance for a second sword hit or a dangerous saving throw."
+    },
+    {
+      "id": "mmv-banshrae-sil-merrowglass-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "type": "Fey",
+      "title": "Banshrae courier, fighter 1",
+      "difficulty": "ECL 20 from 15 racial HD, 1 fighter level and LA +4. Encounter CR 9. Base species CR 8.",
+      "senses": "Low-light vision.",
+      "languages": "Understands Common, Elven and Sylvan. Telepathy 100 ft.",
+      "speed": "60 ft.",
+      "ac": 22,
+      "hp": 106,
+      "hitDice": "15d6+1d10+48",
+      "initiative": 11,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 25,
+        "CON": 17,
+        "INT": 14,
+        "WIS": 15,
+        "CHA": 20
+      },
+      "skills": [
+        "Balance +17",
+        "Bluff +15",
+        "Climb +10",
+        "Diplomacy +7",
+        "Disguise +13 (+15 acting)",
+        "Escape Artist +24",
+        "Hide +19",
+        "Intimidate +7",
+        "Jump +27",
+        "Knowledge (nature) +8",
+        "Listen +16",
+        "Move Silently +19",
+        "Perform (wind instruments) +23 (+25 with flute)",
+        "Spot +16",
+        "Tumble +21"
+      ],
+      "traits": [
+        "Chaotic evil. BAB +8, grapple +11. Fort +10, Ref +16, Will +11. Touch and flat-footed AC 22. Sylvan Warrior retains +7 Dex and +5 deflection when flat-footed. DR 10/cold iron. Sil wears fine clothing and carries darts.",
+        "Improved Initiative, Combat Expertise, Dodge, Mobility, Spring Attack, Weapon Finesse and Weapon Focus (unarmed strike), plus racial Deflect Arrows, Improved Unarmed Strike and Stunning Fist. Dodge adds +1 AC against a designated opponent. Mobility adds +4 AC against attacks of opportunity provoked by movement.",
+        "Deflect Arrows once per round against a normal ranged weapon when aware, with one hand free and while not flat-footed. Spring Attack allows movement before and after a melee strike without an attack of opportunity from that defender."
+      ],
+      "actions": [
+        "Unarmed strike +16/+11 for 2d6+3 each. Greater blowgun +16/+11 for 1d3 per dart, range increment 10 ft. Both threaten 20/×2.",
+        "Stunning Fist, 4/day, once per round. Declare before the unarmed attack. A damaged eligible foe makes Fort DC 20 or is stunned for 1 round.",
+        "Blowgun Flute. Conjure it at will as an immediate action. Play as a swift action. Hearing foes within a 60-ft. spread make Will DC 22. Dread Dirge shakes them. Gibbering Sing-Along exposes their positions, defeats Move Silently and prevents speech and verbal spellcasting. Traveler’s Tune forces at least 20 ft. of movement per turn. The effect ends for a foe that can no longer hear the sonic, mind-affecting tune.",
+        "Dart Cone, 5/day, full-round. A 15-ft. cone deals 4d6 damage, Ref DC 24 half.",
+        "Locust Dart, 1/day. Make the greater blowgun attack. On a hit, Fort DC 20 avoids the added 2d6 damage, 1 round of sickness and a locust swarm that would serve Sil for 2d6 rounds. The swarm has AC 18, 21 hp, speed 10 ft., fly 30 ft. (poor), and weapon immunity. It deals 2d6 to creatures in its space at the end of its move. A living creature starting its turn there makes Fort DC 12 or is nauseated for 1 round.",
+        "Bestow Curse, 1/day, standard action, CL 10. Melee touch +15. Will DC 19 negates. The specific curse persists and applies −6 Bluff and Diplomacy and −2 AC."
+      ],
+      "tactics": "Use Gibbering Sing-Along to find hidden listeners or stop a verbal spell. When surrounded, use Dart Cone or slip away under Spring Attack. Reserve Locust Dart for the lead pursuer."
+    },
+    {
+      "id": "mmv-elemental-magi-orrun-flint-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "type": "Giant (Earth)",
+      "title": "Ken-kuni quarry foreman, fighter 1",
+      "difficulty": "ECL 14 from 8 racial HD, 1 fighter level and LA +5. Encounter CR 9. Base Ken-kuni CR 8.",
+      "senses": "Low-light vision.",
+      "languages": "Common, Giant.",
+      "speed": "30 ft. in banded mail (base 40 ft.), burrow 10 ft.",
+      "ac": 23,
+      "hp": 95,
+      "hitDice": "8d8+1d10+54",
+      "initiative": 4,
+      "abilityScores": {
+        "STR": 27,
+        "DEX": 11,
+        "CON": 23,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 11
+      },
+      "skills": [
+        "Climb +5 in armor",
+        "Intimidate +4",
+        "Knowledge (nature) +2",
+        "Listen +7",
+        "Search +2",
+        "Spot +7"
+      ],
+      "traits": [
+        "Neutral evil. 10-ft. space and reach. BAB +7, grapple +19. Fort +14, Ref +2, Will +3. Touch AC 9, flat-footed AC 23. Masterwork banded mail grants +6 armor with −5 armor check penalty. Natural armor +8, size −1.",
+        "Fast healing 5. DR 10/magic. The slams and gore count as magic for damage reduction. Power Attack, Cleave, Great Cleave, Weapon Focus (greatclub) and Improved Initiative.",
+        "Shared Strength. For each saving throw, use the highest applicable bonus among Orrun and any elemental magi within 60 ft."
+      ],
+      "actions": [
+        "Large +1 greatclub +16 melee, or +16/+11 on a full attack, for 2d8+13 each, 20/×2. Alternatively two slams +14 each for 1d4+8, or gore +14 for 1d8+8.",
+        "Earthshock, standard action, recharge 1d4 rounds. Affect every square adjacent to Orrun or a 30-ft. line. Ref DC 20 avoids falling prone and 1d4 nonlethal damage. Elemental magi are immune. Can use every round with a Ken-li and a Ken-sun both within 60 ft."
+      ],
+      "tactics": "Hold the entrance to the drift with the greatclub. Use Earthshock in a line to topple opponents coming through the narrow tunnel, then make use of reach. Burrow through loose fill to get ahead of intruders."
+    },
+    {
+      "id": "mmv-ethereal-defiler-veysk-twice-bound-35e",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Large",
+      "type": "Aberration (Extraplanar)",
+      "title": "Ethereal defiler threshold stalker",
+      "difficulty": "Epic ECL 26 from 22 racial HD and LA +4, with zero class levels. Encounter CR 16.",
+      "senses": "Blindsense 60 ft., darkvision 60 ft.",
+      "languages": "Common, Undercommon, telepathy 100 ft.",
+      "speed": "40 ft.",
+      "ac": 33,
+      "hp": 251,
+      "hitDice": "22d8+154",
+      "initiative": 10,
+      "abilityScores": {
+        "STR": 27,
+        "DEX": 22,
+        "CON": 24,
+        "INT": 6,
+        "WIS": 14,
+        "CHA": 16
+      },
+      "skills": [
+        "Climb +9",
+        "Hide +4",
+        "Jump +12",
+        "Listen +14",
+        "Spot +14"
+      ],
+      "traits": [
+        "Chaotic evil. 10-ft. space and reach. BAB +16, grapple +28. Fort +14, Ref +13, Will +15. Touch AC 17, flat-footed AC 27. AC uses +16 natural, +6 Dex, +2 deflection and −1 size.",
+        "DR 10/cold iron, cold and fire resistance 20 each, and SR 29. Feats Alertness, Empower Spell-Like Ability (Tainted Energy), Improved Initiative, Multiattack, Point Blank Shot, Power Attack, Precise Shot and Weapon Focus (claws).",
+        "Anchoring Aura. Teleportation-descriptor effects fail within 20 ft. An opponent trying to move more than 20 ft. away makes Will DC 24. A success prevents further movement saves from Veysk’s aura for 24 hours. Other ethereal defilers are immune."
+      ],
+      "actions": [
+        "Full attack two claws +24 for 1d8+8 each and tail +21 for 1d8+4. A single claw attack is +24 for 1d8+8.",
+        "Tainted Energy, swift, CL 22. Make a ranged touch attack +21 out to 120 ft. for 6d6 damage, or add 6d6 to one claw hit this turn. Point Blank Shot brings the ray to +22 and 6d6+1 within 30 ft. Those damaged by the energy make Fort DC 24 or are sickened for 1d4 rounds. Empower the 6d6 energy damage 3/day, multiplying it by 1.5.",
+        "Ethereal Bore, full-round, once every 10 rounds. Shift between Material and Ethereal without provoking. Material arrival deals 10d6 in a 20-ft. burst centered on Veysk, Ref DC 24 half. The burst exempts Veysk. While ethereal, move in any direction at half speed and pass through ordinary solid objects. Otherwise use ethereal jaunt at CL 22, for at most 22 rounds."
+      ],
+      "tactics": "Listen from the Ethereal side and arrive near one adversary. Take a swift ray when a target stays out of reach. When a claw can land, spend Empower on the energy added to the claw. Withdraw when Ethereal Bore recharges."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tavia Reedmark",
+      "species": "Arcadian Avenger",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-arcadian-avenger-tavia-reedmark-35e",
+      "size": "Medium",
+      "role": "Arcadian paladin checking whether families displaced by a siege can lawfully reclaim their old homes.",
+      "motive": "Keep an evacuation covenant in force while a magistrate tries to strip it of its effect.",
+      "hook": "Tavia has two copies of the covenant with conflicting seals. She wants people who were present at the evacuation to testify."
+    },
+    {
+      "name": "Sil Merrowglass",
+      "species": "Banshrae",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-banshrae-sil-merrowglass-35e",
+      "size": "Medium",
+      "role": "Fey courier paid to carry one sealed message across a stretch of disputed road.",
+      "motive": "Claim payment without revealing whose orders are folded inside the message.",
+      "hook": "Sil offers safe passage past a barricade in exchange for a rival courier’s route."
+    },
+    {
+      "name": "Orrun Flint",
+      "species": "Elemental Magi",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-elemental-magi-orrun-flint-35e",
+      "size": "Large",
+      "role": "Ken-kuni quarry foreman who stopped an excavation when the crew uncovered a sealed stair.",
+      "motive": "Keep the shaft safe until he knows whether someone is opening the stair from below.",
+      "hook": "A missing worker’s lamp still burns on the first landing. Orrun will shore up the drift if the party investigates."
+    },
+    {
+      "name": "Veysk Twice-Bound",
+      "species": "Ethereal Defiler",
+      "speciesPublication": "Monster Manual V (2007)",
+      "edition": "3.5 edition",
+      "build": "mmv-ethereal-defiler-veysk-twice-bound-35e",
+      "size": "Large",
+      "role": "Ethereal stalker that has begun to follow the echo of its own movements around a broken seal.",
+      "motive": "Find the crossing that produced the duplicate echo and chase every other predator away from it.",
+      "hook": "The same claw prints lead toward a threshold on two different sides of the ruin. Veysk offers a single safe crossing in exchange for a witness."
+    }
+  ]
+}

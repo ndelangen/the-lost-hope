@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Skarn",
+    "slug": "skarn",
+    "caption": "Corven Ashstep · Original Skarn NPC",
+    "id": "species-92536714cfde2c079164312c:449e8610b621d1e88fb54612",
+    "entry": "species-92536714cfde2c079164312c",
+    "version": "449e8610b621d1e88fb54612",
+    "suffix": "encounters-94/skarn.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-94/skarn.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-94/event-drafts/skarn-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 94 2026-11-24/event-drafts/skarn-event-v1.png",
+    "overrides": [],
+    "sha256": "9a677be37ab0d0595628e2eb38be946ed27aa69fd8a7ea522b8fd3979c343fff",
+    "bytes": 2004678
+  }
+]

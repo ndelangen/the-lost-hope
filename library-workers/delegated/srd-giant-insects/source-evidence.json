@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "giant-fly",
+    "name": "Giant Fly",
+    "kind": "beast",
+    "publication": "SRD 5.1",
+    "edition": "2014 fifth edition",
+    "entryId": "beast-89cd1b062cb2aba1a35fca42",
+    "versionKey": "5fc3090e807dec85104aadb0",
+    "sourceUrl": "",
+    "pages": [
+      221,
+      222
+    ],
+    "query": "Horsefly",
+    "portraitKind": "draft",
+    "visualReference": "",
+    "habitat": null,
+    "habitatBasis": "The item or spell specifies a magical appearance location. The SRD gives no natural range."
+  },
+  {
+    "slug": "giant-insect",
+    "name": "Giant Insect",
+    "kind": "beast",
+    "publication": "SRD 5.2.1",
+    "edition": "2024 fifth edition",
+    "entryId": "beast-26bce7b50d7f5e067749713b",
+    "versionKey": "c6dcfaf0cc27ba83189c2c38",
+    "sourceUrl": "",
+    "pages": [
+      135,
+      136
+    ],
+    "query": "Giant Insect Centipede Spider Wasp",
+    "portraitKind": "draft",
+    "visualReference": "",
+    "habitat": null,
+    "habitatBasis": "The item or spell specifies a magical appearance location. The SRD gives no natural range."
+  },
+  {
+    "slug": "centipede",
+    "name": "Giant Insect (Centipede)",
+    "kind": "beast",
+    "publication": "SRD 5.2.1",
+    "edition": "2024 fifth edition",
+    "entryId": "beast-41e52c86d79da164108bea69",
+    "versionKey": "1ee4530d3f9ab3aa75348241",
+    "sourceUrl": "",
+    "pages": [
+      136
+    ],
+    "query": "Giant Insect Centipede",
+    "portraitKind": "reuse",
+    "visualReference": "",
+    "habitat": null,
+    "habitatBasis": "The item or spell specifies a magical appearance location. The SRD gives no natural range."
+  },
+  {
+    "slug": "spider",
+    "name": "Giant Insect (Spider)",
+    "kind": "beast",
+    "publication": "SRD 5.2.1",
+    "edition": "2024 fifth edition",
+    "entryId": "beast-d30beaad56215afdbb60cc47",
+    "versionKey": "d1d3402ef33ed0a956cf809f",
+    "sourceUrl": "",
+    "pages": [
+      136
+    ],
+    "query": "Giant Insect Spider",
+    "portraitKind": "draft",
+    "visualReference": "",
+    "habitat": null,
+    "habitatBasis": "The item or spell specifies a magical appearance location. The SRD gives no natural range."
+  },
+  {
+    "slug": "wasp",
+    "name": "Giant Insect (Wasp)",
+    "kind": "beast",
+    "publication": "SRD 5.2.1",
+    "edition": "2024 fifth edition",
+    "entryId": "beast-2689c7b553f2b55cac19c532",
+    "versionKey": "3f2d71575e62e1060de5e5a9",
+    "sourceUrl": "",
+    "pages": [
+      136
+    ],
+    "query": "Giant Insect Wasp",
+    "portraitKind": "draft",
+    "visualReference": "",
+    "habitat": null,
+    "habitatBasis": "The item or spell specifies a magical appearance location. The SRD gives no natural range."
+  }
+]

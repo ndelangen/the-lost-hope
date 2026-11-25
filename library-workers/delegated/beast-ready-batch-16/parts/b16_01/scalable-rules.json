@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Beast of the Land",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 61,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion.",
+      "sections": {
+        "Primal Companion": "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies.",
+        "Scaling": "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Medium Beast. HP equals 5 + 5 × ranger level, with one d8 Hit Die per ranger level. Walk and climb 40 ft. each. STR 14, DEX 14, CON 15, INT 8, WIS 14, CHA 11.",
+        "Traits": "Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws. Charge adds 1d6 slashing damage if the beast moves at least 20 ft. straight toward a target and hits it with Maul that turn. A creature hit this way makes a Strength save against the ranger’s spell save DC or falls prone.",
+        "Action": "Maul is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d8 + 2 + PB slashing damage.",
+        "Appearance": "The ranger selects an appropriate land animal with primal markings. This portrait depicts a marked wolf."
+      }
+    }
+  },
+  {
+    "name": "Beast of the Sea",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 61,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion.",
+      "sections": {
+        "Primal Companion": "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies.",
+        "Scaling": "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Medium Beast. HP equals 5 + 5 × ranger level, with one d8 Hit Die per ranger level. Walk 5 ft., swim 60 ft. STR 14, DEX 14, CON 15, INT 8, WIS 14, CHA 11.",
+        "Traits": "Amphibious lets it breathe air and water. Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws.",
+        "Action": "Binding Strike is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d6 + 2 + PB as piercing or bludgeoning damage, chosen by the ranger, and grapple the target. The escape DC equals the ranger’s spell save DC. Until the grapple ends, the beast can use Binding Strike only on the current target.",
+        "Appearance": "The ranger selects an appropriate aquatic animal with primal markings. This portrait depicts a marked crocodilian."
+      }
+    }
+  },
+  {
+    "name": "Beast of the Sky",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 61,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, p. 61, Chapter 1, Beast Master Companions and Primal Companion.",
+      "sections": {
+        "Primal Companion": "This optional Beast Master feature is available at ranger level 3 and replaces Ranger’s Companion. The beast is friendly and uses the Land, Sea, or Sky stat block. Choose an animal appropriate for that profile. Whatever its shape, it has primal markings. It acts during the ranger’s turn and may move or react on its own. Unless the ranger commands it using a bonus action, its default action is Dodge. The ranger may instead give up one attack when taking the Attack action to command the beast to Attack. If the ranger is incapacitated, the beast can choose its action freely. Within an hour after the beast dies, the ranger may touch it as an action and spend a spell slot of level 1 or higher. After one minute it returns to life at full HP. After a long rest the ranger may instead summon another beast into an unoccupied space within 5 feet, choosing the profile and animal shape anew. An existing companion vanishes when the replacement appears. The beast also vanishes if the ranger dies.",
+        "Scaling": "Natural armor gives AC 13 + the ranger’s proficiency bonus. The beast uses that proficiency bonus, understands the languages its ranger speaks, and has darkvision 60 ft. and passive Perception 12. The printed challenge line has no rating. Small Beast. HP equals 4 + 4 × ranger level, with one d6 Hit Die per ranger level. Walk 10 ft., fly 60 ft. STR 6, DEX 16, CON 13, INT 8, WIS 14, CHA 11.",
+        "Traits": "Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks. Primal Bond lets the ranger add their proficiency bonus to the beast’s ability checks and saving throws.",
+        "Action": "Shred is a melee weapon attack against one target within 5 ft. Use the ranger’s spell attack modifier to hit. On a hit, deal 1d4 + 3 + PB slashing damage.",
+        "Appearance": "The ranger selects an appropriate flying animal with primal markings. This portrait depicts a marked hawk."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 109,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
+      "sections": {
+        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
+        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. The three modes share a 30-ft. walking speed. See the forms for additional speeds and starting HP. A higher slot counts as the spell level throughout the profile.",
+        "Air": "At 2nd level it has 20 HP, increasing by 5 for every slot level above 2nd. It walks 30 ft. and flies 60 ft. Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks.",
+        "Land": "At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and climbs 30 ft. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
+        "Water": "At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and swims 30 ft. Water Breathing limits it to breathing underwater. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
+        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
+        "Appearance": "The caster chooses the shape of one native animal when casting. The wolf portrait gives one example. The Air, Land, and Water profiles are choices within the same printed block."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit (Air)",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 109,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
+      "sections": {
+        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
+        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 20 HP, increasing by 5 for every slot level above 2nd. It walks 30 ft. and flies 60 ft.",
+        "Traits": "Flyby lets it leave an enemy’s reach while flying without provoking opportunity attacks.",
+        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
+        "Appearance": "The caster selects a flying animal native to the chosen air environment. This portrait depicts an eagle."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit (Land)",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 109,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
+      "sections": {
+        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
+        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and climbs 30 ft.",
+        "Traits": "Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
+        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
+        "Appearance": "The caster selects an animal native to the chosen land environment. This portrait depicts a wolf."
+      }
+    }
+  },
+  {
+    "name": "Bestial Spirit (Water)",
+    "kind": "beast",
+    "publication": "Tasha's Cauldron of Everything",
+    "edition": "2014 fifth edition",
+    "printedRules": {
+      "page": 109,
+      "citation": "Tasha's Cauldron of Everything, November 2020 first printing, pp. 109–110, Chapter 3, Summon Beast and Bestial Spirit.",
+      "sections": {
+        "Summon Beast": "Summon Beast is a 2nd-level conjuration. It takes an action, has range 90 ft., and requires concentration for up to an hour. It uses verbal and somatic components plus a gilded acorn worth at least 200 gp containing a feather, a tuft of fur, and a fish tail. Choose Air, Land, or Water when casting, and choose a native animal shape for that environment. One corporeal spirit appears in an unoccupied space the caster can see within range, is friendly to the caster and their companions, and vanishes when reduced to 0 HP or when the spell ends. The spirit takes its turn immediately after the caster on the same initiative count. Verbal commands cost the caster no action. With no command, it Dodges and moves away from danger.",
+        "Scaling": "Small Beast. AC equals 11 + spell slot level using natural armor. The spirit uses the caster’s proficiency bonus, has darkvision 60 ft. and passive Perception 12, and understands the languages the caster speaks. STR 18, DEX 11, CON 16, INT 4, WIS 14, CHA 5. The printed block provides no challenge rating or Hit Dice. At 2nd level it has 30 HP, increasing by 5 for every slot level above 2nd. It walks and swims 30 ft.",
+        "Traits": "Water Breathing limits it to breathing underwater. Pack Tactics gives advantage on an attack roll against a creature if a non-incapacitated ally of the spirit is within 5 ft. of that creature.",
+        "Actions": "Multiattack makes a number of attacks equal to half the slot level, rounded down. Maul is a melee weapon attack against one target within 5 ft. Use the caster’s spell attack modifier to hit. On a hit, deal 1d8 + 4 + the slot level piercing damage.",
+        "Appearance": "The caster selects an animal native to the chosen water environment. This portrait depicts a crocodile. The spell’s Water Breathing trait governs how the spirit breathes."
+      }
+    }
+  }
+]

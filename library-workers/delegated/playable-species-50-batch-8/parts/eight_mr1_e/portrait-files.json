@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Nothic",
+    "file": "portraits/nothic.png",
+    "sha256": "78ec7a2b182a867fce2b78d274cc497ee3f39570721d1abeca181ffd9ba902cb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Otyugh",
+    "file": "portraits/otyugh.png",
+    "sha256": "df43329ae4e20229397e55febb8a35cba8089842acf784abf9f6b71cf7d2a964",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Peryton",
+    "file": "portraits/peryton.png",
+    "sha256": "6f04d10bc9db86e239864597e3b70cf8946808a6a06c5a824594804eee56de39",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Rust Monster",
+    "file": "portraits/rust-monster.png",
+    "sha256": "0679af90e08562efd645506feb8331eda7e63e1ad0c375da0a382f3c372c4f8c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "name": "Shambling Mound",
+    "file": "portraits/shambling-mound.png",
+    "sha256": "df0b2f510df33fe8e3f2be2777220822cc376692227928475ce201cf9c95873c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

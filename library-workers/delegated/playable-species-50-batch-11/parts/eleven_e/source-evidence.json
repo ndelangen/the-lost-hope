@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Giant Lizard",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "pp. 238–239 in v2, Giant Lizard Traits.",
+    "printedPages": [
+      238,
+      239
+    ],
+    "heading": "Giant Lizard Traits",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "All three forms share this profile. Bramblepad is an awakened Gecko."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 242 in v2, Giant Rat Traits.",
+    "printedPages": [
+      242
+    ],
+    "heading": "Giant Rat Traits",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The printed player block omits darkvision and a disease attack despite references to those in surrounding text. The portrait uses ordinary rat anatomy and the NPC’s actions require no tools."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Giant Scorpion",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "pp. 242–243 in v2, Giant Scorpion Traits.",
+    "printedPages": [
+      242,
+      243
+    ],
+    "heading": "Giant Scorpion Traits",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The claw’s damage type is missing from the player text. Keelpin uses bludgeoning as a table ruling. Its grapple is a contest after a hit and uses the claw allowed by the trait. The build requires no hand-dependent equipment."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Giant Sea Horse",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 243 in v2, Giant Sea Horse Traits.",
+    "printedPages": [
+      243
+    ],
+    "heading": "Giant Sea Horse Traits",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "Siltcrest uses Strength for the ram so it can trigger Charge under the 2014 rule for unarmed melee weapon attacks. The portrait uses ordinary seahorse anatomy and the build does not rely on object manipulation."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  },
+  {
+    "name": "Giant Vulture",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "p. 245 in v2, Giant Vulture Traits.",
+    "printedPages": [
+      245
+    ],
+    "heading": "Giant Vulture Traits",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion from the printed v2 traits for the 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The specific language line grants reading and understanding Common. Shearshade communicates through wing and head signals and uses neither speech nor writing."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+  }
+]

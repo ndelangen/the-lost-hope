@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Crab",
+    "file": "portraits/crab.png",
+    "sha256": "8a0ac19c88da9e6a031be03bacaf79f5f49755463dc9cad73ad5d7ef35dc1e52",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Crocodile",
+    "file": "portraits/crocodile.png",
+    "sha256": "59d89f960b0d454186062c1e6ac82c844f886020dc2f3839973390e9b9287be6",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Deer",
+    "file": "portraits/deer.png",
+    "sha256": "f1e4d00f8f8bc4b8485f6a07dbd137263ada12261b8f5fc53524237ad75b1111",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Eagle",
+    "file": "portraits/eagle.png",
+    "sha256": "a91326b7f1508680bdf7df1639810ef1d904751d141b602b89f5a06fbb5f997c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Elephant",
+    "file": "portraits/elephant.png",
+    "sha256": "4f3b49048933404df9f3bb0083ca3f25500714e1e3616c163489a0b2b632dc30",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Aventi",
+    "slug": "aventi",
+    "caption": "Selka of Tideglass · Original Aventi NPC",
+    "id": "species-fe99e5bffeab077779035b95:68a5e613ca1d9c94e65c3595",
+    "entry": "species-fe99e5bffeab077779035b95",
+    "version": "68a5e613ca1d9c94e65c3595",
+    "suffix": "encounters-112/aventi.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-112/aventi.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-112/event-drafts/aventi-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 112 2026-11-24/event-drafts/aventi-event-v1.png",
+    "overrides": [],
+    "sha256": "3f8f8cc393a02455166193e44d49cc1e04d79ad64782276a1c2f9602a12213ce",
+    "bytes": 1984196
+  }
+]

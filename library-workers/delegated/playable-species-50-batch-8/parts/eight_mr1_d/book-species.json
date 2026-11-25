@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Intellect Devourer",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Tiny Aberration with Dexterity +1 and a 35-ft. walking speed. It has no eyes, perceives with blindsight out to 30 ft., and is immune to the blinded condition.",
+      "Claws deal 1d8 slashing as unarmed strikes. Strength or Dexterity can drive the attack and damage. The claws count as a finesse weapon for features that require one.",
+      "Devour Intellect takes an action and targets a creature it can see within 10 ft. that has a brain. Failed Intelligence save takes 1d6 psychic. Use DC 8 + proficiency bonus + Intelligence modifier. Increase damage to 2d6 at 5th, 3d6 at 11th, and 4d6 at 17th level.",
+      "When Devour Intellect would reduce a humanoid to 0 HP, Body Thief allows a bonus action to contest Intelligence. Winning replaces the damage with consumption of the brain, teleportation into the skull, and control of the body. The host gives total cover from outside effects. The devourer keeps its mental ability scores, traits, telepathy, and the stated retained language, and otherwise takes the host statistics.",
+      "Possession can last up to the host Intelligence score in rounds. On each round choose one of three ways to use the host mind. Cast one of its spells at the usual casting time, speak one of its languages without spending an action, or spend a bonus action to recall one specific thing it knows. Body Thief refreshes on a short or long rest.",
+      "It reads and understands Undercommon. Telepathy reaches any creature that knows a language within 30 ft. No hands means no weapons, shields, or equipment requiring manipulation. As a Tiny creature it carries one quarter of the usual weight and uses Tiny armor."
+    ]
+  },
+  {
+    "name": "Invisible Stalker",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Elemental with Dexterity +1, a 30-ft. walking speed, and a 30-ft. flying speed with hover. It needs no air, food, drink, or sleep. A four-hour semiconscious rest grants the corresponding benefit of ordinary sleep.",
+      "Air Body grants immunity to exhaustion, grappled, petrified, prone, restrained, and unconscious. Under the book’s general rule on unconsciousness immunity, dropping to 0 HP kills it outright.",
+      "Darkvision reaches 60 ft. It has advantage on saves against poison and resists poison damage. Faultless Tracker doubles the proficiency bonus on Survival checks to track a creature or find an object on the same plane.",
+      "Hidden Step is a bonus action that turns it invisible until the start of its next turn, or until it attacks, rolls damage, or forces another creature to save. Refreshes on a short or long rest.",
+      "Slam is a 1d8 bludgeoning unarmed strike. Unstable Form and No Hands rule out armor, weapons, shields, and gear requiring manipulation. It speaks, reads, and writes Auran and understands Common."
+    ]
+  },
+  {
+    "name": "Jackalwere",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Humanoid with the shapechanger tag, Dexterity +1, and a 35-ft. walking speed. Hearing- and smell-based Perception checks have advantage.",
+      "Pack Tactics is a bonus action. Gain advantage on the next attack roll this turn against a creature with at least one non-incapacitated ally of the jackalwere within 5 ft. of that creature.",
+      "Shapechanger takes an action. Choose the true Small jackal, a specific Medium human, or the Medium hybrid. Statistics carry across except for size and the listed form changes. Gear stays as it is. Death restores the jackal form.",
+      "The Small jackal cannot speak or use hand-dependent gear, weapons, or shields. The jackal and hybrid forms both have a 1d4 piercing unarmed strike. The player block grants Common and gives no Sleep Gaze."
+    ]
+  },
+  {
+    "name": "Kraken",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Monstrosity with Strength +1 and Constitution +1. It walks 15 ft., swims 40 ft., has darkvision out to 60 ft., and resists lightning damage.",
+      "Unarmored AC is 12 + Dexterity modifier. Bite and Tentacles deal 1d8 bludgeoning or piercing as unarmed strikes. No Hands rules out weapons, shields and gear requiring manipulation.",
+      "Lightning Storm takes an action. Target one visible creature within 30 ft. It makes a Dexterity save against DC 8 + proficiency bonus + Charisma modifier. On failure it takes 1d8 lightning. Increase to 2d8 at level 5, 3d8 at 11 and 4d8 at 17.",
+      "Speaks, reads, and writes Abyssal, Celestial, Infernal, and Primordial. The player trait block does not grant underwater breathing, Ink Cloud, or legendary actions."
+    ]
+  },
+  {
+    "name": "Manticore",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for the 2014 fifth-edition rules, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Monstrosity with Strength +1 and Constitution +1. It walks 30 ft., flies 30 ft. in light armor or none, and has 60-ft. darkvision.",
+      "Unarmored AC is 11 + Dexterity modifier. Bite and Claws deal 1d8 piercing or slashing as unarmed strikes. Its lack of hands rules out using hand-dependent gear, handheld weapons, and shields.",
+      "Tail Spikes are a ranged weapon attack dealing 1d8 piercing, at a range of 30/60 ft. The trait gives no daily spike count. The worked NPC treats the attack as proficient and Dexterity-based.",
+      "It speaks, reads, and writes Common. Use the 30-ft. flight speed from the player block."
+    ]
+  }
+]

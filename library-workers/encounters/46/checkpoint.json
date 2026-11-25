@@ -1,0 +1,29 @@
+{
+  "commit": "8b2d5dadc71648647a81cec865435c10958a7bd4",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 574,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-46-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-46-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/46/results.json",
+  "searchResults": "output/dm-library/encounter-batches/46/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Devil Adjudicator",
+      "source": "https://www.dndbeyond.com/monsters/4485817-devil-adjudicator",
+      "challenge": "14"
+    },
+    {
+      "name": "Devil Jurist",
+      "source": "https://www.dndbeyond.com/monsters/4485818-devil-jurist",
+      "challenge": "10"
+    }
+  ],
+  "nextSourceNote": "Compare the devils’ exact final stat blocks and model their bargains without adding demon Soul Devourer or Lethe."
+}

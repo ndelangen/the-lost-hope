@@ -1,0 +1,756 @@
+[
+  {
+    "name": "Saber-Toothed Tiger",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A muscular, heavy-shouldered cat with long curved saber teeth and a thick tan coat.",
+    "combat": {
+      "armorClass": 12,
+      "hitPoints": 63,
+      "challenge": "2",
+      "size": "Large",
+      "creatureType": "Beast",
+      "speed": {
+        "walk": 40
+      },
+      "attacks": [
+        {
+          "name": "Bite",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 9,
+              "dice": "1d10 + 4",
+              "type": "piercing"
+            }
+          ]
+        },
+        {
+          "name": "Claws",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 9,
+              "dice": "2d4 + 4",
+              "type": "slashing"
+            }
+          ]
+        }
+      ],
+      "habitats": [
+        "arctic",
+        "hill",
+        "mountain"
+      ]
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Heightened Smell",
+          "effectNote": "Use Perception 18 when relying on smell."
+        },
+        {
+          "name": "Pounce",
+          "effectNote": "Move at least 20 ft. straight toward a creature and hit it with Claws on the same turn. It makes a DC 14 STR save or falls prone. The tiger can then use a bonus action to make one Claws attack against the prone creature."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Multiattack",
+          "effectNote": "Make one Bite and one Claws attack."
+        },
+        {
+          "name": "Bite",
+          "effectNote": "A hit forces a DC 14 DEX save. On failure the target suffers a puncture wound and loses 5 (1d10) HP at the start of each of its turns. A creature can spend an action and pass a DC 12 WIS (Medicine) check to stop the bleeding. Magical healing also closes it."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 13 and Stealth 16. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR +4, DEX +2, CON +2, INT -4, WIS +1, CHA -1.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 372–373."
+    ]
+  },
+  {
+    "name": "Scorpion Insect",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A small segmented scorpion with paired pincers and a curved tail tipped with a sting.",
+    "combat": {
+      "armorClass": 11,
+      "hitPoints": 8,
+      "challenge": "0",
+      "size": "Tiny",
+      "creatureType": "Beast",
+      "speed": {
+        "walk": 10
+      },
+      "attacks": [
+        {
+          "name": "Sting",
+          "mode": "melee",
+          "hitBonus": 2,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 2,
+              "dice": "1d4",
+              "type": "piercing"
+            }
+          ]
+        }
+      ],
+      "armorClassNote": "natural armor",
+      "habitats": [
+        "desert"
+      ],
+      "senses": [
+        "keensense 10 ft."
+      ],
+      "resistances": [
+        "poison"
+      ]
+    },
+    "mechanics": {
+      "Action": [
+        {
+          "name": "Sting",
+          "effectNote": "After the piercing hit, the target makes a DC 10 CON save or takes an extra 2 (1d4) poison damage."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 9 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR -4, DEX +0, CON -1, INT -5, WIS -1, CHA -4.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
+      "Keensense perceives the surroundings within its listed radius without relying on sight.",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 361."
+    ]
+  },
+  {
+    "name": "Swarm of Bats",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A dense flight of small bats with membranous wings and pointed ears.",
+    "combat": {
+      "armorClass": 12,
+      "hitPoints": 14,
+      "challenge": "1/4",
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "speed": {
+        "walk": 0,
+        "fly": 30
+      },
+      "attacks": [
+        {
+          "name": "Bites",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 7,
+              "dice": "2d6",
+              "type": "piercing"
+            },
+            {
+              "average": 3,
+              "dice": "1d6",
+              "type": "piercing"
+            }
+          ],
+          "damageCombination": "choose-one"
+        }
+      ],
+      "habitats": [
+        "forest",
+        "mountain",
+        "underdark",
+        "urban"
+      ],
+      "senses": [
+        "keensense 60 ft."
+      ],
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attackOptions": "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 7 HP or fewer."
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Cacophonous Swarm",
+          "effectNote": "A creature casting a spell with a verbal component in the swarm’s space makes a DC 12 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available."
+        },
+        {
+          "name": "Echolocation",
+          "effectNote": "Keensense does not work while deafened."
+        },
+        {
+          "name": "Heightened Hearing",
+          "effectNote": "Use Perception 16 when relying on hearing."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny bat. Cannot regain HP or gain temporary HP."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 11 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR -3, DEX +2, CON +0, INT -4, WIS +1, CHA -3.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Vulnerable to deafened. The beast has disadvantage on checks and saves to avoid or end that condition.",
+      "Resistant to blinded. The beast has advantage on checks and saves to avoid or end that condition.",
+      "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+      "Keensense perceives the surroundings within its listed radius without relying on sight.",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 352–353."
+    ]
+  },
+  {
+    "name": "Swarm of Insects",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A mass of tiny crawling insects with glossy shells, jointed legs and antennae.",
+    "combat": {
+      "armorClass": 12,
+      "hitPoints": 24,
+      "challenge": "1/2",
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "attacks": [
+        {
+          "name": "Bites",
+          "mode": "melee",
+          "hitBonus": 3,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 10,
+              "dice": "4d4",
+              "type": "piercing"
+            },
+            {
+              "average": 5,
+              "dice": "2d4",
+              "type": "piercing"
+            }
+          ],
+          "damageCombination": "choose-one"
+        }
+      ],
+      "armorClassNote": "natural armor",
+      "habitats": [
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "swamp",
+        "underdark",
+        "urban"
+      ],
+      "senses": [
+        "keensense 10 ft."
+      ],
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attackOptions": "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 12 HP or fewer."
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Crawling Swarm",
+          "effectNote": "A creature casting a spell with a somatic component in the swarm’s space makes a DC 11 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny insect. Cannot regain HP or gain temporary HP."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 8 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR -4, DEX +1, CON +0, INT -5, WIS -2, CHA -5.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+      "Keensense perceives the surroundings within its listed radius without relying on sight.",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 362."
+    ]
+  },
+  {
+    "name": "Swarm of Poisonous Snakes",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A tangled mass of thin venomous snakes with overlapping coils and raised heads.",
+    "combat": {
+      "armorClass": 14,
+      "hitPoints": 48,
+      "challenge": "2",
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "attacks": [
+        {
+          "name": "Bites",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 10,
+              "dice": "4d4",
+              "type": "piercing"
+            },
+            {
+              "average": 5,
+              "dice": "2d4",
+              "type": "piercing"
+            }
+          ],
+          "damageCombination": "choose-one"
+        }
+      ],
+      "habitats": [
+        "coastal",
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "swamp"
+      ],
+      "senses": [
+        "keensense 10 ft."
+      ],
+      "resistances": [
+        "poison",
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attackOptions": "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 24 HP or fewer."
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Poisonous Swarm",
+          "effectNote": "A creature starting its turn in the swarm’s space must make a DC 14 CON save or be poisoned until the start of its next turn."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny snake. Cannot regain HP or gain temporary HP."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Bites",
+          "effectNote": "After the piercing hit, the target makes a separate DC 14 CON save for 18 (4d8) poison damage on failure or half on success. The swarm’s HP threshold changes only the piercing damage."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 10 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR -1, DEX +4, CON +0, INT -5, WIS +0, CHA -4.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
+      "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+      "Keensense perceives the surroundings within its listed radius without relying on sight.",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 371."
+    ]
+  },
+  {
+    "name": "Swarm of Quippers",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A tight school of small fish with blunt heads and rows of sharp teeth.",
+    "combat": {
+      "armorClass": 13,
+      "hitPoints": 34,
+      "challenge": "1",
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "speed": {
+        "walk": 0,
+        "swim": 40
+      },
+      "attacks": [
+        {
+          "name": "Bites",
+          "mode": "melee",
+          "hitBonus": 5,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 18,
+              "dice": "4d8",
+              "type": "piercing"
+            },
+            {
+              "average": 9,
+              "dice": "2d8",
+              "type": "piercing"
+            }
+          ],
+          "damageCombination": "choose-one"
+        }
+      ],
+      "habitats": [
+        "underwater"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attackOptions": "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 17 HP or fewer."
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Blood Frenzy",
+          "effectNote": "Melee attack rolls have advantage against creatures below maximum HP."
+        },
+        {
+          "name": "Heightened Smell",
+          "effectNote": "Use Perception 15 when relying on smell."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny quipper. Cannot regain HP or gain temporary HP."
+        },
+        {
+          "name": "Water Breathing",
+          "effectNote": "Breathes only underwater."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Bites",
+          "effectNote": "After the piercing hit, the target makes a DC 13 DEX save. On failure it loses 4 (1d8) HP at the start of each of its turns. A creature can spend an action and pass a DC 10 WIS (Medicine) check to stop the bleeding. Magical healing also closes the wound."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 10 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR +1, DEX +3, CON +0, INT -5, WIS +0, CHA -4.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+      "The underwater tag is supported by the v0.2 Water Breathing trait and the Swarm of Piranhas habitat in Monster Manual (2024).",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 366."
+    ]
+  },
+  {
+    "name": "Swarm of Rats",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A tumbling mass of small rats with matted fur, round ears and nearly hairless tails.",
+    "combat": {
+      "armorClass": 10,
+      "hitPoints": 14,
+      "challenge": "1/4",
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "speed": {
+        "walk": 30,
+        "swim": 30
+      },
+      "attacks": [
+        {
+          "name": "Bites",
+          "mode": "melee",
+          "hitBonus": 2,
+          "reach": 0,
+          "damage": [
+            {
+              "average": 7,
+              "dice": "2d6",
+              "type": "piercing"
+            },
+            {
+              "average": 3,
+              "dice": "1d6",
+              "type": "piercing"
+            }
+          ],
+          "damageCombination": "choose-one"
+        }
+      ],
+      "habitats": [
+        "forest",
+        "swamp",
+        "underdark",
+        "urban"
+      ],
+      "senses": [
+        "darkvision 30 ft."
+      ],
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attackOptions": "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 7 HP or fewer."
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Accustomed to Filth",
+          "effectNote": "Has advantage on saves against contracting diseases."
+        },
+        {
+          "name": "Heightened Smell",
+          "effectNote": "Use Perception 15 when relying on smell."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny rat. Cannot regain HP or gain temporary HP."
+        }
+      ],
+      "Action": [
+        {
+          "name": "Bites",
+          "effectNote": "A creature hit must make a DC 9 CON save. On failure, the GM chooses Rat Plague or poisoning until the end of the target’s next turn. The short poisoning option is complete in v0.2."
+        },
+        {
+          "name": "Rat Plague (v0.1 supplement)",
+          "effectNote": "If using the earlier publisher sidebar, the victim is poisoned and regains HP only by magic until cured. Repeat this bite’s CON save every 24 hours. Success cures the disease. Failure lowers maximum HP by 3 (1d6). The loss ends after a long rest once cured, and reaching 0 maximum HP kills the victim. Rats are immune to the disease’s effects."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 10 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR -1, DEX +0, CON -1, INT -4, WIS +0, CHA -4.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+      "The v0.2 Rat Plague option points to a Diseased Rats sidebar absent from this . The separately labeled supplement summarizes the publisher’s v0.1 sidebar. The v0.2 fallback is the listed short poisoning option.",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367."
+    ]
+  },
+  {
+    "name": "Swarm of Ravens",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A flock of black ravens with heavy bills and widely spread, fingered wings.",
+    "combat": {
+      "armorClass": 12,
+      "hitPoints": 13,
+      "challenge": "1/4",
+      "size": "Medium",
+      "creatureType": "Swarm of Tiny Beasts",
+      "speed": {
+        "walk": 10,
+        "fly": 50
+      },
+      "attacks": [
+        {
+          "name": "Beaks",
+          "mode": "melee",
+          "hitBonus": 4,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 9,
+              "dice": "2d8",
+              "type": "piercing"
+            },
+            {
+              "average": 4,
+              "dice": "1d8",
+              "type": "piercing"
+            }
+          ],
+          "damageCombination": "choose-one"
+        }
+      ],
+      "habitats": [
+        "hill",
+        "swamp",
+        "urban"
+      ],
+      "resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "conditionImmunities": [
+        "charmed",
+        "frightened",
+        "grappled",
+        "paralyzed",
+        "petrified",
+        "prone",
+        "restrained",
+        "stunned"
+      ],
+      "attackOptions": "Beaks has 5 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 6 HP or fewer."
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Carrion Sense",
+          "effectNote": "Pinpoints carrion, dead creatures and Undead without Incorporeal Movement by scent within 60 ft."
+        },
+        {
+          "name": "Pilfering Swarm",
+          "effectNote": "A creature casting a spell with a material component in the swarm’s space makes a DC 12 DEX save. On failure the spell fails and consumes the casting action. The slot or daily use remains available. The ravens steal the component."
+        },
+        {
+          "name": "Swarm",
+          "effectNote": "Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny raven. Cannot regain HP or gain temporary HP."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 13 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR -2, DEX +2, CON -1, INT -4, WIS +1, CHA -1.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+      "Use the printed 5 ft. Beaks reach and apply the printed restriction that the target must be in the swarm’s space.",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367–368."
+    ]
+  },
+  {
+    "name": "War Horse",
+    "kind": "beast",
+    "edition": "Black Flag Roleplaying",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "ruleset": "black-flag",
+    "appearance": "A strong riding horse with a broad chest, muscular legs and fitted metal barding.",
+    "combat": {
+      "armorClass": 15,
+      "hitPoints": 22,
+      "challenge": "1/2",
+      "size": "Large",
+      "creatureType": "Beast",
+      "speed": {
+        "walk": 60
+      },
+      "attacks": [
+        {
+          "name": "Hooves",
+          "mode": "melee",
+          "hitBonus": 6,
+          "reach": 5,
+          "damage": [
+            {
+              "average": 8,
+              "dice": "1d8 + 4",
+              "type": "bludgeoning"
+            }
+          ]
+        }
+      ],
+      "armorClassNote": "scale mail barding",
+      "habitats": [
+        "urban"
+      ]
+    },
+    "mechanics": {
+      "Trait": [
+        {
+          "name": "Trampling Charge",
+          "effectNote": "Move at least 20 ft. straight toward a creature and hit it with Hooves on the same turn. It makes a DC 14 STR save or falls prone. The horse can then use a bonus action to make one Hooves attack against the prone creature."
+        }
+      ],
+      "Reaction": [
+        {
+          "name": "Trained Shift",
+          "effectNote": "When an effect would knock the rider prone or dismount the rider, grant the rider advantage on the check or save to avoid it."
+        }
+      ]
+    },
+    "notes": [
+      "Black Flag fixed values are Perception 11 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
+      "Printed ability modifiers are STR +4, DEX +1, CON +1, INT -4, WIS +1, CHA -2.",
+      "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+      "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 359–360."
+    ]
+  }
+]

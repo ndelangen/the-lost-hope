@@ -1,0 +1,28 @@
+{
+  "commit": "3983aa1a20aa918e72be0a2b50aa073ad09403f3",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 576,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-47-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-47-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/47/results.json",
+  "searchResults": "output/dm-library/encounter-batches/47/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Devil Legate",
+      "source": "https://www.dndbeyond.com/monsters/4485819-devil-legate",
+      "challenge": "8"
+    },
+    {
+      "name": "Devil Magistrate",
+      "source": "https://www.dndbeyond.com/monsters/4485820-devil-magistrate",
+      "challenge": "12"
+    }
+  ]
+}

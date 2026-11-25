@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Centaur",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "url": "https://www.d20srd.org/srd/monsters/centaur.htm#centaursAsCharacters",
+    "heading": "Centaurs As Characters",
+    "printedMonsterManualPages": [
+      32
+    ],
+    "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+    "distinction": "The SRD player bullet gives double Medium carrying capacity even though general Large quadruped rules give a different multiplier. This version uses the specific player bullet."
+  },
+  {
+    "name": "Hound Archon",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "url": "https://www.d20srd.org/srd/monsters/archon.htm#houndArchonsAsCharacters",
+    "heading": "Hound Archons As Characters",
+    "printedMonsterManualPages": [
+      16,
+      17,
+      18
+    ],
+    "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+    "distinction": "SR and the aura save DC follow the player section. The ordinary archon combat entry has a fixed DC for its example. Teleport has a self and object limit."
+  },
+  {
+    "name": "Janni",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "url": "https://www.d20srd.org/srd/monsters/genie.htm#jannAsCharacters",
+    "heading": "Jann As Characters",
+    "printedMonsterManualPages": [
+      114,
+      116
+    ],
+    "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+    "distinction": "The unarmored player speeds are 30 ft. and fly 20 ft. The monster example shows 20 ft. and fly 15 ft. because it wears chainmail."
+  },
+  {
+    "name": "Lizardfolk",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "url": "https://www.d20srd.org/srd/monsters/lizardfolk.htm#lizardfolkAsCharacters",
+    "heading": "Lizardfolk As Characters",
+    "printedMonsterManualPages": [
+      169
+    ],
+    "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+    "distinction": "The original PC entry uses checks to swim and gives no separate swim speed. The stat block includes a shield's Swim penalty and uses Multiattack on its sample bite."
+  },
+  {
+    "name": "Pixie",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "url": "https://www.d20srd.org/srd/monsters/sprite.htm#pixiesAsCharacters",
+    "heading": "Pixies As Characters",
+    "printedMonsterManualPages": [
+      236
+    ],
+    "previousCatalogCoverage": "Matching SRD monster row. This addition supplies the playable profile.",
+    "distinction": "The character list grants the spell-like abilities and does not list the monster's optional special arrows. The original NPC uses ordinary arrows and the LA +4 profile."
+  }
+]

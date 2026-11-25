@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "dire-wolverine",
+    "name": "Dire Wolverine",
+    "entryId": "beast-27dffd4944fc48dba0600032",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "A single massive dire wolverine with a real wolverine's heavy squat body, broad short face, small ears, thick umber shaggy coat, distinct lighter amber stripes starting behind the neck and sweeping along the flanks to the rump, and a short shaggy tail. A low frontal three-quarter stance with head thrust forward, the near forepaw large with sturdy claws. Show its unmistakably bear-like wolverine build, four short muscular limbs, no bear's long legs, no badger face stripes, no accessories. A determined snarl with no gore or props.",
+    "prompt": "Create one original square bestiary portrait. First reference sets the series style and parchment only. Other reference images establish anatomy and visual details. Match the edge-to-edge golden amber aged parchment, realistic colored pencil and ink detail, and a soft faint shadow. Entire subject with margin around the silhouette. No frame, text, labels, scenery, or watermark. A single massive dire wolverine with a real wolverine's heavy squat body, broad short face, small ears, thick umber shaggy coat, distinct lighter amber stripes starting behind the neck and sweeping along the flanks to the rump, and a short shaggy tail. A low frontal three-quarter stance with head thrust forward, the near forepaw large with sturdy claws. Show its unmistakably bear-like wolverine build, four short muscular limbs, no bear's long legs, no badger face stripes, no accessories. A determined snarl with no gore or props.",
+    "appearanceSource": "Wolverine photograph by Matthias Kabel, CC BY 2.5",
+    "revision": {
+      "prompt": "Edit the FIRST image, a square animal illustration. Keep its exact animal, subject colors, anatomy, pose, scale, framing and rendering. Change the background paper only. Use the SECOND image solely as the paper reference and closely match its subdued buff-beige antique parchment, soft mottled handmade texture and low contrast. The new background should be a muted tan parchment paper with soft beige highlights and subtle brown marbling, about #E8C796 in its average unpainted midtone. Remove the saturated orange cast and orange edge vignette entirely. Use muted earth tones, warm biscuit and softly shaded antique ivory, with no yellow, orange or golden filter. Keep the entire background evenly continuous, with only the existing fine contact shadow. The final square should show the same animal on a pale muted page that looks like the shop item illustrations. Keep the animal itself in full color and unchanged, with all of its original details, pose, paws, tail and anatomy. Do not copy the sword or introduce any prop, border, text or other change.",
+      "source": "originals/dire-wolverine.png",
+      "paperReference": ""
+    }
+  },
+  {
+    "slug": "dog",
+    "name": "Dog",
+    "entryId": "beast-cd6357efdd966de8c0cb2f87",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "One ordinary small village scent hound with a beagle-like build, short tri-color coat, tawny floppy ears, tan gentle face and brow, white socks and bib, black saddle, and a white-tipped relaxed tail. Full body angled toward the viewer from the left, hindquarters visible, standing at ease on four compact paws, head slightly cocked as if it heard something. Aim for sturdy small dog rather than a huge hunting mastiff. No collar, harness, person or props.",
+    "prompt": "Create one original square bestiary portrait. First reference sets the series style and parchment only. Other reference images establish anatomy and visual details. Match the edge-to-edge golden amber aged parchment, realistic colored pencil and ink detail, and a soft faint shadow. Entire subject with margin around the silhouette. No frame, text, labels, scenery, or watermark. One ordinary small village scent hound with a beagle-like build, short tri-color coat, tawny floppy ears, tan gentle face and brow, white socks and bib, black saddle, and a white-tipped relaxed tail. Full body angled toward the viewer from the left, hindquarters visible, standing at ease on four compact paws, head slightly cocked as if it heard something. Aim for sturdy small dog rather than a huge hunting mastiff. No collar, harness, person or props.",
+    "appearanceSource": "Beagle photograph by Karen Arnold, CC0",
+    "revision": {
+      "prompt": "Edit the FIRST image, a square animal illustration. Keep its exact animal, subject colors, anatomy, pose, scale, framing and rendering. Change the background paper only. Use the SECOND image solely as the paper reference and closely match its subdued buff-beige antique parchment, soft mottled handmade texture and low contrast. The new background should be a muted tan parchment paper with soft beige highlights and subtle brown marbling, about #E8C796 in its average unpainted midtone. Remove the saturated orange cast and orange edge vignette entirely. Use muted earth tones, warm biscuit and softly shaded antique ivory, with no yellow, orange or golden filter. Keep the entire background evenly continuous, with only the existing fine contact shadow. The final square should show the same animal on a pale muted page that looks like the shop item illustrations. Keep the animal itself in full color and unchanged, with all of its original details, pose, paws, tail and anatomy. Do not copy the sword or introduce any prop, border, text or other change.",
+      "source": "originals/dog.png",
+      "paperReference": ""
+    }
+  },
+  {
+    "slug": "donkey",
+    "name": "Donkey",
+    "entryId": "beast-d22f115abd6b44f9985037cf",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      ""
+    ],
+    "subjectPrompt": "One unburdened domestic gray donkey, unmistakable very long upright ears, dark short upright mane, pale creamy muzzle and eye rings, dove gray back with a subtle dark shoulder stripe, light belly, a slender dark-tufted tail, and four narrow black hooves. Small sturdy stature, full body standing quietly in a right-facing three-quarter view, with all four legs correctly joined, a patient expression and slightly turned head. Keep the entire animal including ears, hooves and tail in the square. No rope, rider, halter, pack or landscape.",
+    "prompt": "Create one original square bestiary portrait. First reference sets the series style and parchment only. Other reference images establish anatomy and visual details. Match the edge-to-edge golden amber aged parchment, realistic colored pencil and ink detail, and a soft faint shadow. Entire subject with margin around the silhouette. No frame, text, labels, scenery, or watermark. One unburdened domestic gray donkey, unmistakable very long upright ears, dark short upright mane, pale creamy muzzle and eye rings, dove gray back with a subtle dark shoulder stripe, light belly, a slender dark-tufted tail, and four narrow black hooves. Small sturdy stature, full body standing quietly in a right-facing three-quarter view, with all four legs correctly joined, a patient expression and slightly turned head. Keep the entire animal including ears, hooves and tail in the square. No rope, rider, halter, pack or landscape.",
+    "appearanceSource": "Public Domain Images domestic donkey photograph",
+    "revision": {
+      "prompt": "Edit the FIRST image, a square animal illustration. Keep its exact animal, subject colors, anatomy, pose, scale, framing and rendering. Change the background paper only. Use the SECOND image solely as the paper reference and closely match its subdued buff-beige antique parchment, soft mottled handmade texture and low contrast. The new background should be a muted tan parchment paper with soft beige highlights and subtle brown marbling, about #E8C796 in its average unpainted midtone. Remove the saturated orange cast and orange edge vignette entirely. Use muted earth tones, warm biscuit and softly shaded antique ivory, with no yellow, orange or golden filter. Keep the entire background evenly continuous, with only the existing fine contact shadow. The final square should show the same animal on a pale muted page that looks like the shop item illustrations. Keep the animal itself in full color and unchanged, with all of its original details, pose, paws, tail and anatomy. Do not copy the sword or introduce any prop, border, text or other change.",
+      "source": "originals/donkey.png",
+      "paperReference": ""
+    }
+  },
+  {
+    "slug": "elasmosaurus",
+    "name": "Elasmosaurus",
+    "entryId": "beast-d90cd81ab2a1143a579951a1",
+    "kind": "beast",
+    "input": "",
+    "reference": [
+      "",
+      ""
+    ],
+    "subjectPrompt": "One prehistoric Elasmosaurus marine reptile in a diagonal three-quarter swimming pose. Small wedge-shaped toothed head on an extraordinarily long tapering neck, neck longer than the whole torso and short trailing tail together. Maintain a modest gently flowing neck bend, unlike the tight swan-neck pose. Smooth slate-teal and olive-gray upper skin with pale cream underside and near-subtle mottling, a short robust barrel torso, one continuous tapering short tail, exactly four distinct broad paddle flippers attached at the front and rear of the body. No extra fins on its back or tail and no sea scene. Keep the entire silhouette inside the square, neck reaching to the upper left, torso and flippers diagonally lower right. Anatomically accurate, whole animal.",
+    "prompt": "Create one original square bestiary portrait. First reference sets the series style and parchment only. Other reference images establish anatomy and visual details. Match the edge-to-edge golden amber aged parchment, realistic colored pencil and ink detail, and a soft faint shadow. Entire subject with margin around the silhouette. No frame, text, labels, scenery, or watermark. One prehistoric Elasmosaurus marine reptile in a diagonal three-quarter swimming pose. Small wedge-shaped toothed head on an extraordinarily long tapering neck, neck longer than the whole torso and short trailing tail together. Maintain a modest gently flowing neck bend, unlike the tight swan-neck pose. Smooth slate-teal and olive-gray upper skin with pale cream underside and near-subtle mottling, a short robust barrel torso, one continuous tapering short tail, exactly four distinct broad paddle flippers attached at the front and rear of the body. No extra fins on its back or tail and no sea scene. Keep the entire silhouette inside the square, neck reaching to the upper left, torso and flippers diagonally lower right. Anatomically accurate, whole animal.",
+    "appearanceSource": "Elasmosaurus reconstruction by Dmitry Bogdanov and related D&D Plesiosaurus illustration",
+    "revision": {
+      "prompt": "Edit the FIRST image, a square animal illustration. Keep its exact animal, subject colors, anatomy, pose, scale, framing and rendering. Change the background paper only. Use the SECOND image solely as the paper reference and closely match its subdued buff-beige antique parchment, soft mottled handmade texture and low contrast. The new background should be a muted tan parchment paper with soft beige highlights and subtle brown marbling, about #E8C796 in its average unpainted midtone. Remove the saturated orange cast and orange edge vignette entirely. Use muted earth tones, warm biscuit and softly shaded antique ivory, with no yellow, orange or golden filter. Keep the entire background evenly continuous, with only the existing fine contact shadow. The final square should show the same animal on a pale muted page that looks like the shop item illustrations. Keep the animal itself in full color and unchanged, with all of its original details, pose, paws, tail and anatomy. Do not copy the sword or introduce any prop, border, text or other change.",
+      "source": "originals/elasmosaurus.png",
+      "paperReference": ""
+    }
+  }
+]

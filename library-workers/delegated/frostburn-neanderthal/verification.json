@@ -1,0 +1,25 @@
+{
+  "baseline": "c2035f64eb74f9beefe904c8f375f4d5632443c8",
+  "temporaryCopy": true,
+  "priorStagedPatchesCompatibilityVerified": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Neanderthal"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Frostburn (2004)",
+  "weaponMasteryClimateAndLiteracyVerified": true,
+  "humanEntryPreserved": true,
+  "defaultVersionBefore": null,
+  "defaultVersionAfter": "Frostburn (2004)",
+  "listThumbnailChanged": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Ashenforged",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "url": "",
+    "printedPages": "20–23",
+    "editionVerified": "Digital v1.4, October 2019 revision of the 2018 Core Manual",
+    "publisherUrl": "https://espergenesis.alligatoralleyentertainment.com/rulebooks/core-manual/",
+    "supportingRules": [
+      "Character creation and Burst Save, pp. 12–15",
+      "Warrior, pp. 103–105",
+      "Soldier, p. 126",
+      "Armor, shields and longblade, pp. 131–135"
+    ]
+  },
+  {
+    "name": "Belare",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "url": "",
+    "printedPages": "24–27",
+    "editionVerified": "Digital v1.4, October 2019 revision of the 2018 Core Manual",
+    "publisherUrl": "https://espergenesis.alligatoralleyentertainment.com/rulebooks/core-manual/",
+    "supportingRules": [
+      "Character creation and Burst Save, pp. 12–15",
+      "Specialist and Infiltrator, pp. 98–100",
+      "Scholar, p. 124",
+      "Shortblade and light pistol, pp. 134–136",
+      "Light Beam, p. 242",
+      "Renew, p. 255",
+      ""
+    ]
+  },
+  {
+    "name": "Dendus",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "url": "",
+    "printedPages": "28–31",
+    "editionVerified": "Digital v1.4, October 2019 revision of the 2018 Core Manual",
+    "publisherUrl": "https://espergenesis.alligatoralleyentertainment.com/rulebooks/core-manual/",
+    "supportingRules": [
+      "Character creation and Burst Save, pp. 12–15",
+      "Specialist, pp. 98–99",
+      "Techie, p. 127",
+      "Armor jacket, shortblade and light pistol, pp. 132–136",
+      "Mental Missive, p. 245",
+      ""
+    ]
+  },
+  {
+    "name": "Eldori",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "url": "",
+    "printedPages": "32–35",
+    "editionVerified": "Digital v1.4, October 2019 revision of the 2018 Core Manual",
+    "publisherUrl": "https://espergenesis.alligatoralleyentertainment.com/rulebooks/core-manual/",
+    "supportingRules": [
+      "Character creation and Burst Save, pp. 12–15",
+      "Warrior, pp. 103–105",
+      "Drifter, p. 118",
+      "Armor jacket, energy staff and Energy Burst, pp. 132–136",
+      "Aegis, p. 214",
+      ""
+    ]
+  }
+]

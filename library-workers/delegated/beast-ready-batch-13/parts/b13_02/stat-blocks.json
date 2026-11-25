@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Chimeric Rat",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. Languages none.",
+    "appearance": "A small rat with gills and iridescent scales over its back, rounded ears and a thin bare tail.",
+    "habitats": [
+      "Ythryn Menagerie"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 246. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247 Base creature from the 2014 Monster Manual, p. 335.",
+      "Traits": "Keen Smell. The rat has advantage on Wisdom (Perception) checks that depend on smell.\nChimeric Creation. Its gills allow breathing both air and water. It has iridescent scales.",
+      "Actions": "Bite. Make a melee weapon attack at +0 against one target within 5 ft. A hit deals 1 piercing damage.",
+      "Encounter rules": "A creature made by the Chimeric Creator is loyal to whoever pulled its lever. Roll a d6 on the Chimeric Creations table. The machine requires 80 hit points of blood, split evenly across eight containers. Pulling the lever starts the wheel and the creature emerges 1 minute later. The machine recharges after 8 hours. Examining it for at least 1 minute allows a DC 15 Intelligence (Arcana) check to learn its operation. A roll of 5 produces this rat."
+    }
+  },
+  {
+    "name": "Chimeric Weasel",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +5. Passive Perception 13. Languages none.",
+    "appearance": "A slim brown weasel with a pale belly and softly glowing eyes.",
+    "habitats": [
+      "Ythryn Menagerie"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 246. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=247 Base creature from the 2014 Monster Manual, p. 340.",
+      "Traits": "Keen Hearing and Smell. The weasel has advantage on Wisdom (Perception) checks that depend on hearing or smell.\nChimeric Creation. Its eyes give off bright light in a 20-ft. radius and dim light for 20 ft. beyond that.",
+      "Actions": "Bite. Make a melee weapon attack at +5 against one target within 5 ft. A hit deals 1 piercing damage.",
+      "Encounter rules": "A creature made by the Chimeric Creator is loyal to whoever pulled its lever. Roll a d6 on the Chimeric Creations table. The machine requires 80 hit points of blood, split evenly across eight containers. Pulling the lever starts the wheel and the creature emerges 1 minute later. The machine recharges after 8 hours. Examining it for at least 1 minute allows a DC 15 Intelligence (Arcana) check to learn its operation. A roll of 1 produces this weasel."
+    }
+  },
+  {
+    "name": "Fox",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 2,
+    "hitDice": "1d4",
+    "speed": "30 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Perception +3. Stealth +5. Darkvision 60 ft. Passive Perception 13. Languages none.",
+    "appearance": "A white arctic fox with thick winter fur and a bushy tail.",
+    "habitats": [
+      "Arctic",
+      "Forest",
+      "Ten-Towns outskirts"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 288. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=289",
+      "Traits": "Keen Hearing. The fox has advantage on Wisdom (Perception) checks that depend on hearing.",
+      "Actions": "Bite. Make a melee weapon attack at +5 against one creature within 5 ft. A hit deals 1 piercing damage."
+    }
+  },
+  {
+    "name": "Giant Walrus",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 9,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. Languages none.",
+    "appearance": "An elephant-sized walrus with thick folds of skin, bristly whiskers and two long tusks.",
+    "habitats": [
+      "Arctic",
+      "Coastal",
+      "Sea of Moving Ice"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 312. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=313",
+      "Traits": "Hold Breath. The walrus can hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make one Body Flop and one Tusks attack.\nBody Flop. Make a melee weapon attack at +8 against one target within 5 ft. A hit deals 15 (2d8 + 6) bludgeoning damage.\nTusks. Make a melee weapon attack at +8 against one target within 5 ft. A hit deals 16 (3d6 + 6) piercing damage."
+    }
+  },
+  {
+    "name": "Hare",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +2. Stealth +5. Passive Perception 12. Languages none.",
+    "appearance": "A winter snowshoe hare with relatively short ears and broad furry hind feet.",
+    "habitats": [
+      "Arctic",
+      "Burrows"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 294. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=295",
+      "Bonus Actions": "Escape. On each of its turns, the hare can use a bonus action to Dash, Disengage, or Hide."
+    }
+  },
+  {
+    "name": "Kingsport",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 11,
+    "hp": 5,
+    "hitDice": "1d8 + 1",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Blindsight 30 ft. Blind beyond that radius. Passive Perception 10. Speaks Common.",
+    "appearance": "An eyeless albino penguin, about five feet tall, in a plain leather harness.",
+    "habitats": [
+      "Ythryn Library"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 243. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244",
+      "Traits": "Hold Breath. Kingsport can hold his breath for 20 minutes.",
+      "Actions": "Beak. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 3 (1d4 + 1) piercing damage."
+    }
+  }
+]

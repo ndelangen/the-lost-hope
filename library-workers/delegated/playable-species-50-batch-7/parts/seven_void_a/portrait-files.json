@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Axon",
+    "file": "portraits/axon.png",
+    "sha256": "41f3d02fb0c9bbe625412d8577b0e2e6e042c42dcf21617787c1d6560730f84c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Grey",
+    "file": "portraits/grey.png",
+    "sha256": "57dc2cc4f679cf02a85bfe67f0c2c8c6b55d20cafff0dc99b4d14f7253ceca43",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Houseki",
+    "file": "portraits/houseki.png",
+    "sha256": "13c12cf12e3b619dc25d4cc2a09436cdb665ff04990fcf7a2296ac6853a70a2b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hurroc",
+    "file": "portraits/hurroc.png",
+    "sha256": "5d13088674db888229a445c323c27ee3e8ea60656375df374487703f948e59fa",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,343 @@
+[
+  {
+    "name": "Juiblex",
+    "statBlock": {
+      "name": "Juiblex",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 151,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 350,
+      "hitDice": "28d12 + 168",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 22,
+      "description": "Eyes flicker in a heap of black and green ooze. Juiblex rules the Slime Pits of Shedaklah, where victims it consumes can become sentient oozes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 12
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 13,
+        "Wis": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, and slashing from nonmagical sources.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Traits": "Foul. Any creature other than an ooze that starts its turn within 10 ft. of Juiblex must pass a DC 21 Constitution save or be poisoned until the start of that creature's next turn.\nLegendary Resistance (3/day). Juiblex can turn a failed saving throw into a success.\nMagic Resistance. Juiblex has advantage on saves against spells and other magical effects.\nMagic Weapons. Juiblex's weapon attacks are magical.\nRegeneration. Juiblex regains 20 hit points at the start of its turn. If Juiblex takes fire or radiant damage, it does not regenerate at the start of its next turn. It dies only if it starts its turn at 0 hit points and cannot regenerate.\nSpider Climb. Juiblex can climb difficult surfaces and hang from ceilings without an ability check.",
+        "Innate Spellcasting": "Juiblex uses Charisma (spell save DC 18, +10 to hit with spell attacks) and needs no material components.\nAt will. Acid Splash (17th level), Detect Magic.\n3/day each. Blight, Contagion, Gaseous Form.",
+        "Actions": "Multiattack. Make three Acid Lash attacks.\nAcid Lash. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 21 (4d6 + 7) acid damage. Juiblex draws in a creature this attack kills and destroys the corpse after 1 minute.\nEject Slime (Recharge 5–6). Pick one creature Juiblex can see within 60 ft. A failed DC 21 Dexterity save deals 55 (10d10) acid damage. If the target takes any of this damage, each metal armor piece it wears grants 1 less AC and each metal weapon it wears or carries takes a −1 penalty to damage rolls. These penalties are permanent and cumulative. An item is destroyed once its penalty reaches −5.",
+        "Legendary actions": "Juiblex has 3 legendary actions and regains them at the start of its turn. Use only one option at a time, at the end of another creature's turn.\nAcid Splash (1 action). Cast Acid Splash.\nAttack (1 action). Make one Acid Lash attack.\nCorrupting Touch (2 actions). Melee weapon attack, +14 to hit, reach 10 ft., one creature. A hit deals 21 (4d6 + 7) poison damage and coats the target in slime. The target is poisoned. Other creatures besides oozes are poisoned while within 10 ft. of the target. Scraping off the slime takes an action and ends both effects.",
+        "Lair actions": "On initiative count 20, after creatures tied on that count have acted, Juiblex may choose one option. It cannot use the same option in consecutive rounds.\nRestraining slime. Coat a visible square of ground up to 10 ft. on each side. A creature there when the slime appears, entering it for the first time on a turn, or ending its turn there must pass a DC 21 Strength save or be restrained while in the area. The restrained creature or another creature within reach can spend an action to free it with a DC 21 Strength check.\nSlippery slime. Coat a visible square of ground up to 10 ft. on each side. A creature there when the slime appears, entering it for the first time on a turn, or ending its turn there must pass a DC 21 Dexterity save or fall prone and slide 10 ft. in a random direction determined by a d8.\nEither ground slime lasts 1 hour. Fire burns it away after 1 round. A creature starting its turn in burning slime takes 22 (4d10) fire damage.\nGreen Slime. A patch of Green Slime appears on a spot Juiblex chooses on the lair ceiling. It disintegrates after 1 hour.",
+        "Regional effects": "The region around Juiblex’s lair gains one or more of these effects.\nWithin 1 mile, small bodies of water become acidic and corrode objects that touch them. Within 6 miles, slick, sticky slime often coats surfaces.\nA humanoid that spends at least 1 hour within 1 mile makes a DC 18 Wisdom save. On a failure, roll on Madness of Juiblex. A success gives 24 hours of immunity to that regional effect.\nThe regional effects fade over 1d10 days after Juiblex dies.",
+        "Madness of Juiblex": "If a creature goes mad in the lair or in Juiblex's line of sight, roll d100. The flaw lasts until cured.\n01–20. The creature compulsively consumes everything it can.\n21–40. It refuses to give up anything it owns.\n41–60. It urges others to eat and drink past their usual limits.\n61–80. It tries to acquire as many possessions as possible.\n81–100. It judges its own worth entirely by what it consumes.",
+        "Printed source": "Mordenkainen’s Tome of Foes, pp. 150–151."
+      }
+    }
+  },
+  {
+    "name": "Kruthik Hive Lord",
+    "statBlock": {
+      "name": "Kruthik Hive Lord",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 212,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 20,
+      "hp": 102,
+      "hitDice": "12d10 + 36",
+      "speed": "40 ft., burrow 20 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 12,
+      "description": "A kruthik hive lord keeps adult guards near its chamber. If it dies, the hive abandons the nest and its largest survivor eventually molts into a replacement.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft., tremorsense 60 ft.",
+        "Languages": "Kruthik.",
+        "Traits": "Keen Smell. The kruthik has advantage on Wisdom (Perception) checks that rely on smell.\nPack Tactics. The kruthik has advantage on an attack roll if an ally is within 5 ft. of the target and that ally is not incapacitated.\nTunneler. The kruthik can burrow through solid rock at half its burrow speed and leaves a tunnel 10 ft. across.",
+        "Actions": "Multiattack. Make either two Stab attacks or two Spike attacks.\nStab. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) piercing damage.\nSpike. Ranged weapon attack, +6 to hit, range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage.\nAcid Spray (Recharge 5–6). Each creature in a 15-foot cone makes a DC 14 Dexterity save, taking 22 (4d10) acid damage on a failure or half as much on a success.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 212."
+      }
+    }
+  },
+  {
+    "name": "Leviathan",
+    "statBlock": {
+      "name": "Leviathan",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 198,
+      "classification": "Gargantuan elemental, neutral",
+      "ac": 17,
+      "hp": 328,
+      "hitDice": "16d20 + 160",
+      "speed": "40 ft., swim 120 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 24
+        },
+        "Con": {
+          "score": 30
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 14,
+      "description": "A leviathan rises out of deep water on the scale of a moving flood. It needs no air, food, drink, or sleep.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 10,
+        "Cha": 9
+      },
+      "sections": {
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Legendary Resistance (3/day). The leviathan can turn a failed saving throw into a success.\nPartial Freeze. If the leviathan takes at least 50 cold damage in one turn, all its speeds become 20 ft. and it has disadvantage on attacks until the end of its next turn.\nSiege Monster. The leviathan deals double damage to objects and structures. The Tidal Wave rules already account for this trait.\nWater Form. The leviathan can enter and stop in a hostile creature's space. It can pass through gaps at least 1 inch wide without squeezing.\nElemental Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make one Slam and one Tail attack.\nSlam. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 15 (1d10 + 10) bludgeoning damage plus 5 (1d10) acid damage.\nTail. Melee weapon attack, +16 to hit, reach 20 ft., one target. A hit deals 16 (1d12 + 10) bludgeoning damage plus 6 (1d12) acid damage.\nTidal Wave (Recharge 6). While submerged, the leviathan creates a wall of water centered on itself. The maximum dimensions are 250 ft. long, 250 ft. high, and 50 ft. thick. When the wall appears, each other creature in it makes a DC 24 Strength save and takes 33 (6d10) bludgeoning damage on a failure or half as much on a success. At the start of each of the leviathan's following turns, the wall and the creatures in it move 50 ft. away from the leviathan. Each Huge or smaller creature already in the wall or whose space it enters must pass a DC 24 Strength save or take 27 (5d10) bludgeoning damage. This moving-wall damage applies at most once per creature per turn. After each turn when the wall moves, the wall loses 50 ft. of height and the damage it deals in later rounds drops by 1d10. The wall vanishes at 0 ft. A creature caught in the wave must pass a DC 24 Strength (Athletics) check to swim during its turn.",
+        "Legendary actions": "The leviathan has 3 legendary actions and regains them at the start of its turn. Use only one option at a time, at the end of another creature's turn.\nSlam (2 actions). Make one Slam attack.\nMove (1 action). Move up to the leviathan's speed.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 198."
+      }
+    }
+  },
+  {
+    "name": "Male Steeder",
+    "statBlock": {
+      "name": "Male Steeder",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 238,
+      "classification": "Medium monstrosity, unaligned",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 14,
+      "description": "Duergar train steeders from hatching. A steeder climbs with sticky legs and hunts without a web.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 5,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Spider Climb. The steeder climbs difficult surfaces and ceilings without an ability check.\nExtraordinary Leap. The steeder triples its long-jump distance and covers 3 ft. of a long jump for every foot of walking speed it spends.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage.\nSticky Leg. Melee weapon attack, +4 to hit, reach 5 ft., one Small or Tiny creature. A hit leaves the target grappled on the steeder's leg (escape DC 12). The steeder can hold only one creature this way.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 238."
+      }
+    }
+  },
+  {
+    "name": "Marut",
+    "statBlock": {
+      "name": "Marut",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 213,
+      "classification": "Large construct (inevitable), lawful neutral",
+      "ac": 22,
+      "hp": 432,
+      "hitDice": "32d10 + 256",
+      "speed": "40 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "25",
+      "xp": 75000,
+      "passivePerception": 20,
+      "description": "A marut carries a formal contract written on a gold plate and enforces its exact terms. It needs no air, food, drink, or sleep.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 10,
+        "Intimidation": 12,
+        "Perception": 10
+      },
+      "savingThrows": {
+        "Int": 12,
+        "Wis": 10,
+        "Cha": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Thunder. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, frightened, paralyzed, poisoned, unconscious.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "All, but rarely speaks.",
+        "Traits": "Immutable Form. The marut is immune to spells and effects that would change its form.\nLegendary Resistance (3/day). The marut can turn a failed saving throw into a success.\nMagic Resistance. The marut has advantage on saves against spells and other magical effects.\nConstructed Nature. It needs no air, food, drink, or sleep.",
+        "Innate Spellcasting": "The marut uses Intelligence (spell save DC 20) and needs no material components.\nAt will. Plane Shift (self only).",
+        "Actions": "Multiattack. Make two Unerring Slam attacks.\nUnerring Slam. Melee weapon attack, automatic hit, reach 5 ft., one target. The hit deals 60 force damage. A target of Huge size or smaller is pushed up to 5 ft. away.\nBlazing Edict (Recharge 5–6). Each creature in a 60-foot cube emanating from the marut's chest takes 45 radiant damage. A creature that takes any of this damage must pass a DC 20 Wisdom save or be stunned until the end of the marut's next turn.\nJustify. Pick up to two creatures the marut can see within 60 ft. Each makes a DC 20 Charisma save and automatically fails if incapacitated. A creature that fails teleports to the Hall of Concordance's teleportation circle in Sigil. The marut travels with any target it teleports. Once the marut has teleported this way, it can use Justify again only after a short or long rest.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 213."
+      }
+    }
+  },
+  {
+    "name": "Maurezhi",
+    "statBlock": {
+      "name": "Maurezhi",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 133,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 15,
+      "hp": 88,
+      "hitDice": "16d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 11,
+      "description": "Doresain created these demons to lead ghouls and ghasts. A maurezhi can take a victim’s appearance after consuming the body, but the disguise decays.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning, necrotic. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Elvish, telepathy 120 ft.",
+        "Traits": "Assume Form. The maurezhi can look like any Medium humanoid it has eaten. The appearance decays over 1d6 days, then falls away. Consuming the corpse of a humanoid it slew takes about 10 minutes and grants the disguise immediately.\nMagic Resistance. The maurezhi has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 14 (2d10 + 3) piercing damage. A humanoid target also loses 1d4 Charisma until it finishes a short or long rest. At Charisma 0 the target dies and rises as a ghoul 24 hours later unless it has been revived or its corpse destroyed.\nClaws. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) slashing damage. A creature other than an undead must also pass a DC 12 Constitution save or be paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending the paralysis on a success.\nRaise Ghoul (Recharge 5–6). Revive one dead ghoul or ghast that the maurezhi can see within 30 ft. The creature returns with all its hit points.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 133."
+      }
+    }
+  }
+]

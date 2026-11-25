@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Brown Bear",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document, original OGL RTF",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceHeading": "BEAR, BROWN",
+    "sourceLocator": "MonstersAnimals.rtf, BEAR, BROWN table and combat prose",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/bearBrown.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/bearBrown.htm",
+    "additionalRules": [
+      "TypesSubtypesAbilities.rtf, Improved Grab, Low-Light Vision and Scent",
+      "CombatII.rtf, Grapple",
+      "TypesSubtypesAbilities.rtf, Natural Weapons"
+    ],
+    "habitatEvidence": "Environment field in MonstersAnimals.rtf.",
+    "habitatSourceKind": "Printed Environment",
+    "appearanceEvidence": "Editorial description of the staged portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-04/parts/b04_02/portraits/brown-bear.png",
+    "artworkSha256": "4520d535cfed0d405c01c6c3c8e7b067f0ef1b157f66dd148b6398f59190d953",
+    "printedInitiative": 1,
+    "printedTouchAC": 10,
+    "printedFlatFootedAC": 14,
+    "printedBaseAttack": 4,
+    "printedGrapple": 16,
+    "savingThrows": {
+      "Fortitude": 9,
+      "Reflex": 6,
+      "Will": 3
+    },
+    "sourceNotes": []
+  },
+  {
+    "name": "Dire Lion",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document, original OGL RTF",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersDi-Do.rtf",
+    "sourceShardSha256": "533b046406006882de5414a4a1067df80fdde4695c6314993d3afbf4eb765141",
+    "sourceHeading": "DIRE LION",
+    "sourceLocator": "MonstersDi-Do.rtf, DIRE LION table and combat prose",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/direLion.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/direLion.htm",
+    "additionalRules": [
+      "TypesSubtypesAbilities.rtf, Improved Grab, Pounce, Rake, Low-Light Vision and Scent",
+      "CombatII.rtf, Charge and Grapple",
+      "TypesSubtypesAbilities.rtf, Natural Weapons"
+    ],
+    "habitatEvidence": "Environment field in MonstersDi-Do.rtf.",
+    "habitatSourceKind": "Printed Environment",
+    "appearanceEvidence": "Editorial description of the staged portrait selected in the roster.",
+    "artworkSource": "indexed:images/beasts/dire-lion/parchment-portrait.webp",
+    "artworkSha256": "721cca6d4953ce7f76df6b9d2486a4e07123eaa9bfc1bc1458e2420d45d85fc3",
+    "printedInitiative": 2,
+    "printedTouchAC": 11,
+    "printedFlatFootedAC": 13,
+    "printedBaseAttack": 6,
+    "printedGrapple": 17,
+    "savingThrows": {
+      "Fortitude": 9,
+      "Reflex": 8,
+      "Will": 7
+    },
+    "sourceNotes": [
+      "The entry says a successful bite grab establishes a hold and allows Rake. The shared Rake text requires an existing grapple at the start of the turn. Pounce expressly allows two immediate rakes. For a bite grab outside a pounce, the summary uses the shared start-of-turn rule.",
+      "The description mentions leaping at larger prey. The Improved Grab rule still uses the normal size limit because the entry gives no explicit size exception."
+    ]
+  },
+  {
+    "name": "Elephant",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document, original OGL RTF",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceHeading": "ELEPHANT",
+    "sourceLocator": "MonstersAnimals.rtf, ELEPHANT table and combat prose",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/elephant.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/elephant.htm",
+    "additionalRules": [
+      "TypesSubtypesAbilities.rtf, Trample, Low-Light Vision and Scent",
+      "TypesSubtypesAbilities.rtf, Natural Weapons"
+    ],
+    "habitatEvidence": "Environment field in MonstersAnimals.rtf.",
+    "habitatSourceKind": "Printed Environment",
+    "appearanceEvidence": "Editorial description of the staged portrait selected in the roster.",
+    "artworkSource": "beast-ready-batch-02/parts/b02_03/portraits/elephant.png",
+    "artworkSha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+    "printedInitiative": 0,
+    "printedTouchAC": 8,
+    "printedFlatFootedAC": 15,
+    "printedBaseAttack": 8,
+    "printedGrapple": 26,
+    "savingThrows": {
+      "Fortitude": 12,
+      "Reflex": 7,
+      "Will": 6
+    },
+    "sourceNotes": [
+      "Use the elephant’s explicit Trample dice, 2d8 + 15. The shared Trample formula refers to slam damage, whose printed base dice here differ."
+    ]
+  },
+  {
+    "name": "Monitor Lizard",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document, original OGL RTF",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceHeading": "LIZARD, MONITOR",
+    "sourceLocator": "MonstersAnimals.rtf, LIZARD, MONITOR table and combat prose",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/lizardMonitor.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/lizardMonitor.htm",
+    "additionalRules": [
+      "TypesSubtypesAbilities.rtf, Low-Light Vision",
+      "MonstersAnimals.rtf, LIZARD, MONITOR, Swim rules",
+      "TypesSubtypesAbilities.rtf, Natural Weapons"
+    ],
+    "habitatEvidence": "Environment field in MonstersAnimals.rtf.",
+    "habitatSourceKind": "Printed Environment",
+    "appearanceEvidence": "Editorial description of the staged portrait selected in the roster.",
+    "artworkSource": "indexed:images/beasts/monitor-lizard/parchment-portrait.webp",
+    "artworkSha256": "d3ae5a0f3e60edfc22a6176ffc724abdc3053378cf27e2d25025f44fb1aa7d75",
+    "printedInitiative": 2,
+    "printedTouchAC": 12,
+    "printedFlatFootedAC": 13,
+    "printedBaseAttack": 2,
+    "printedGrapple": 5,
+    "savingThrows": {
+      "Fortitude": 8,
+      "Reflex": 5,
+      "Will": 2
+    },
+    "sourceNotes": []
+  },
+  {
+    "name": "Riding Dog",
+    "kind": "beast",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "Revised v3.5 System Reference Document, original OGL RTF",
+    "sourceArchive": "SRD-3.5-RTF.zip",
+    "sourceArchiveSha256": "a8ccb96c8acbe0c9f70aaa04157433bb8f71f31cfcf6c74fc32043d88bab95ea",
+    "sourceShard": "MonstersAnimals.rtf",
+    "sourceShardSha256": "1093f05fe6208f90475386518d27cfd67c69baddad594acb06385bb372a871e2",
+    "sourceHeading": "DOG, RIDING",
+    "sourceLocator": "MonstersAnimals.rtf, DOG, RIDING table and combat prose",
+    "sourceUrl": "https://www.d20srd.org/srd/monsters/dogRiding.htm",
+    "readableMirror": "https://www.d20srd.org/srd/monsters/dogRiding.htm",
+    "additionalRules": [
+      "MonstersAnimals.rtf, WOLF, Trip",
+      "SkillsII.rtf, Jump and Ride",
+      "CombatII.rtf, Trip",
+      "TypesSubtypesAbilities.rtf, Low-Light Vision and Scent",
+      "TypesSubtypesAbilities.rtf, Natural Weapons"
+    ],
+    "habitatEvidence": "Environment field in MonstersAnimals.rtf.",
+    "habitatSourceKind": "Printed Environment",
+    "appearanceEvidence": "Editorial description of the staged portrait selected in the roster.",
+    "artworkSource": "indexed:images/beasts/riding-dog/parchment-portrait.webp",
+    "artworkSha256": "8881f86a90d7acfc143a24eaca968490000fc5dd9b950be452be417b8cdc8ce2",
+    "printedInitiative": 2,
+    "printedTouchAC": 12,
+    "printedFlatFootedAC": 14,
+    "printedBaseAttack": 1,
+    "printedGrapple": 3,
+    "savingThrows": {
+      "Fortitude": 5,
+      "Reflex": 5,
+      "Will": 1
+    },
+    "sourceNotes": [
+      "The skills table prints Jump +8. At 40 ft. speed, the shared Jump rule would add +4 to the dog’s +2 Strength and +4 racial bonus even before ranks. The summary retains the printed +8.",
+      "The dog entry references Wolf for the procedure. The +2 trip check uses the dog’s own Strength and Medium size. The wolf’s printed +1 is wolf-specific."
+    ]
+  }
+]

@@ -1,0 +1,1090 @@
+[
+  {
+    "name": "Kamrat",
+    "version": {
+      "key": "33dacd4853fa567b2d9fb31a",
+      "publication": "Dungeons & Doggos: Dig in the Dirt with a Dwarf's Best Friends",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/dungeons-doggos-dig-in-the-dirt-with-a-dwarfs-best-friends-may-6-2026/#h-kamrat-tunnel-companions",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "23"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Tiny"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Dwarven tunnels and mines"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A small smooth-coated tunnel dog with a long body, triangular ears, strong short legs, and oversized front paws."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Blindsense 40 ft."
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Heightened Hearing · Perception is 17 for hearing."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Bite · +5 to hit · reach 5 ft. · One target takes 5 (1d4 + 3) piercing damage on a hit. · 1d4 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Reactions mechanics",
+          "lines": [
+            "Reflexive Escape · When attacked by a creature it can see, the kamrat can move up to 5 ft. The attack misses if that puts it out of reach."
+          ]
+        },
+        {
+          "title": "Variant options mechanics",
+          "lines": [
+            "Variant selection · Choose at most one option. It replaces Reflexive Escape.",
+            "Dedicated Target (bonus action) · Choose one creature the kamrat can see. It has advantage on attacks against that creature and on ability checks to track or follow it while it can see the target and for 3 hours after losing sight of it.",
+            "Frenetic (bonus action) · The kamrat takes the Disengage or Hide action.",
+            "Digger (trait) · This variant has a 5-ft. burrowing speed."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Printed Perception 12, Stealth 15. Ability modifiers are Str −1, Dex +5, Con +2, Int −4, Wis +2, Cha −1.",
+            "The ordinary kamrat has only the printed 30-ft. walking speed. The source classifies its echo sensing as blindsense."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing · Perception is 17 for hearing.": [
+          {
+            "start": 21,
+            "end": 31,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Dedicated Target (bonus action) · Choose one creature the kamrat can see. It has advantage on attacks against that creature and on ability checks to track or follow it while it can see the target and for 3 hours after losing sight of it.": [
+          {
+            "start": 10,
+            "end": 16,
+            "target": {
+              "name": "Target",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 376,
+              "local": {
+                "entry": "compendium-a96eae8d4b2562d9be6ab0f0",
+                "version": "XPHB:376:https://5e.tools/variantrules.html#target_xphb"
+              }
+            }
+          },
+          {
+            "start": 81,
+            "end": 90,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Frenetic (bonus action) · The kamrat takes the Disengage or Hide action.": [
+          {
+            "start": 47,
+            "end": 56,
+            "target": {
+              "name": "Disengage",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-a7046818d19c25e6d0811f89",
+                "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+              }
+            }
+          },
+          {
+            "start": 60,
+            "end": 64,
+            "target": {
+              "name": "Hide",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-18c4e45695f957ea23aae147",
+                "version": "PHB:192:https://5e.tools/actions.html#hide_phb"
+              }
+            }
+          }
+        ],
+        "Printed Perception 12, Stealth 15. Ability modifiers are Str −1, Dex +5, Con +2, Int −4, Wis +2, Cha −1.": [
+          {
+            "start": 8,
+            "end": 18,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Kamrat": true,
+      "kamrat reflexive escape": true
+    },
+    "hash": "024209f671238f4ada731cef24fd288569734b35c40582817921f786616c9cc8",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Olhund",
+    "version": {
+      "key": "83af466deea1d6241374c27a",
+      "publication": "Dungeons & Doggos: Dig in the Dirt with a Dwarf's Best Friends",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/dungeons-doggos-dig-in-the-dirt-with-a-dwarfs-best-friends-may-6-2026/#h-olhund-guardian-ale-hound",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "14"
+        ],
+        [
+          "Hit points",
+          "40"
+        ],
+        [
+          "Challenge",
+          "1"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 60 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Dwarven taverns and clanholds"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A heavy, muscular hound with brindled fur, floppy ears, and loose skin around its jowls."
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "Frightened"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Heightened Hearing and Smell · Perception is 16 for hearing or smell."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Multiattack · 2 attacks · The olhund makes one Smashing Paw attack and one Bite attack.",
+            "Bite · +5 to hit · reach 5 ft. · One target takes 7 (1d8 + 3) piercing damage on a hit. · 1d8 + 3 piercing",
+            "Smashing Paw · +5 to hit · reach 5 ft. · One target takes 5 (1d4 + 3) bludgeoning damage on a hit. A creature no more than one size larger falls prone on a failed save. The olhund can choose to knock a creature unconscious instead of killing it. · DC 14 Strength · 1d4 + 3 bludgeoning"
+          ]
+        },
+        {
+          "title": "Bonus Actions mechanics",
+          "lines": [
+            "Intimidating Rumble · range 30 ft. · Recharge 6 · One creature the olhund can see within 30 ft. is frightened of it for 1 minute on a failed save. The target can repeat the save at the end of each of its turns, ending the effect on a success. · DC 13 Charisma"
+          ]
+        },
+        {
+          "title": "Variant options mechanics",
+          "lines": [
+            "Variant selection · Choose at most one option. The GM removes either Smashing Paw or Intimidating Rumble.",
+            "Den Tactics (trait) · The olhund has advantage on attacks and ability checks in its den. It can choose or be trained to accept a new den with the Creature Training downtime activity from Player’s Guide 2.",
+            "Grappling Charge (trait) · If the olhund moves at least 20 ft. straight toward a target and then hits with Bite or Smashing Paw on the same turn, the target falls prone and is grappled on a failed save (escape DC 14). It can grapple one target at a time. · DC 14 Strength",
+            "Protective Strike (reaction) · When a target the olhund can see is hit by an attack from a creature within 5 ft. of it, the olhund can make one Bite attack against the attacker."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Printed Perception 11, Stealth 16. Ability modifiers are Str +4, Dex +2, Con +4, Int −3, Wis +1, Cha −2.",
+            "The article describes the hounds as moving slowly in everyday life. The printed combat speed is 60 ft.",
+            "The source gives no replacement Multiattack when the GM removes Smashing Paw.",
+            "Protective Strike leaves the reference point for its 5-ft. distance implicit."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "Frightened": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing and Smell · Perception is 16 for hearing or smell.": [
+          {
+            "start": 31,
+            "end": 41,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Smashing Paw · +5 to hit · reach 5 ft. · One target takes 5 (1d4 + 3) bludgeoning damage on a hit. A creature no more than one size larger falls prone on a failed save. The olhund can choose to knock a creature unconscious instead of killing it. · DC 14 Strength · 1d4 + 3 bludgeoning": [
+          {
+            "start": 145,
+            "end": 150,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          },
+          {
+            "start": 211,
+            "end": 222,
+            "target": {
+              "name": "Unconscious",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You cannot act, move, or speak. You drop what you are holding and fall prone.",
+              "local": {
+                "entry": "compendium-f8c99497573ef8dfe75b50cd",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#unconscious_phb"
+              }
+            }
+          }
+        ],
+        "Intimidating Rumble · range 30 ft. · Recharge 6 · One creature the olhund can see within 30 ft. is frightened of it for 1 minute on a failed save. The target can repeat the save at the end of each of its turns, ending the effect on a success. · DC 13 Charisma": [
+          {
+            "start": 99,
+            "end": 109,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Den Tactics (trait) · The olhund has advantage on attacks and ability checks in its den. It can choose or be trained to accept a new den with the Creature Training downtime activity from Player’s Guide 2.": [
+          {
+            "start": 37,
+            "end": 46,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 146,
+            "end": 154,
+            "target": {
+              "name": "Creature",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-41ace94d9abdf138cb1e633b",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#creature_xphb"
+              }
+            }
+          }
+        ],
+        "Grappling Charge (trait) · If the olhund moves at least 20 ft. straight toward a target and then hits with Bite or Smashing Paw on the same turn, the target falls prone and is grappled on a failed save (escape DC 14). It can grapple one target at a time. · DC 14 Strength": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Grappling",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "local": {
+                "entry": "compendium-8396c7a4a1c8d9d174ef14f1",
+                "version": "XPHB:367:https://5e.tools/variantrules.html#grappling_xphb"
+              }
+            }
+          },
+          {
+            "start": 163,
+            "end": 168,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          },
+          {
+            "start": 176,
+            "end": 184,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Printed Perception 11, Stealth 16. Ability modifiers are Str +4, Dex +2, Con +4, Int −3, Wis +1, Cha −2.": [
+          {
+            "start": 8,
+            "end": 18,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Olhund": true,
+      "olhund intimidating rumble": true
+    },
+    "hash": "7e07570b91e35991bb8237bd24503923749726bde110dfbf3762bf0b14776385",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Storgin",
+    "version": {
+      "key": "4fb8e9bec4eef12831689ec6",
+      "publication": "Dungeons & Doggos: Loyal Dogs of the Halflings and Gnomes",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/dungeons-doggos-loyal-dogs-of-the-halflings-and-gnomes-july-10-2026/#h-storgin-stone-eaters",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "15"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft., climb 15 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Gnomish tunnels and mines"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A short-legged, wiry-coated hound with a deep chest, thick neck, and short, powerful muzzle."
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Beast of Burden · Treat the storgin as Large when calculating carrying capacity.",
+            "Heightened Hearing and Smell · Perception is 18 for hearing or smell.",
+            "Sunlight Sensitivity · While in sunlight, the storgin has disadvantage on attack rolls and its Perception is 8 for sight."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Bite · +4 to hit · reach 5 ft. · One target takes 4 (1d4 + 2) piercing damage on a hit. A Medium or smaller creature is grappled on a hit (escape DC 12). The storgin cannot bite another target until this grapple ends. · 1d4 + 2 piercing"
+          ]
+        },
+        {
+          "title": "Reactions mechanics",
+          "lines": [
+            "Crushing Jaws · When a creature it is grappling hits it, the storgin can squeeze its jaws to deal 4 (1d4 + 2) piercing damage to that creature. · 1d4 + 2 piercing"
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Printed Perception 13, Stealth 12. Ability modifiers are Str +2, Dex +2, Con +2, Int −4, Wis +1, Cha −2.",
+            "Gnomish handlers train storgins to carry packs and haul wagons. The stone-eating story is a legend."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing and Smell · Perception is 18 for hearing or smell.": [
+          {
+            "start": 31,
+            "end": 41,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Sunlight Sensitivity · While in sunlight, the storgin has disadvantage on attack rolls and its Perception is 8 for sight.": [
+          {
+            "start": 58,
+            "end": 70,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 95,
+            "end": 105,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Bite · +4 to hit · reach 5 ft. · One target takes 4 (1d4 + 2) piercing damage on a hit. A Medium or smaller creature is grappled on a hit (escape DC 12). The storgin cannot bite another target until this grapple ends. · 1d4 + 2 piercing": [
+          {
+            "start": 120,
+            "end": 128,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Printed Perception 13, Stealth 12. Ability modifiers are Str +2, Dex +2, Con +2, Int −4, Wis +1, Cha −2.": [
+          {
+            "start": 8,
+            "end": 18,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Storgin": true,
+      "storgin crushing jaws": true
+    },
+    "hash": "80d858f0538b8698e41e50f12acc159146931e36326cc0a94342a6acda16985a",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Pennig",
+    "version": {
+      "key": "95f8f7a91f38b87627594bb6",
+      "publication": "Dungeons & Doggos: Loyal Dogs of the Halflings and Gnomes",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/dungeons-doggos-loyal-dogs-of-the-halflings-and-gnomes-july-10-2026/#h-pennig-riding-hound",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "22"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 50 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Halfling farming communities"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tall, long-legged riding dog with a dense double coat, a rough muzzle, and a curled or plumed tail."
+          ]
+        },
+        {
+          "title": "Alternate armor classes",
+          "lines": [
+            "15 · With scale mail barding"
+          ]
+        },
+        {
+          "title": "Traits mechanics",
+          "lines": [
+            "Heightened Hearing and Smell · Perception is 16 for hearing or smell.",
+            "Pack Tactics · The pennig has advantage on an attack against a creature if an ally is within 5 ft. of that creature and the ally is not incapacitated."
+          ]
+        },
+        {
+          "title": "Actions mechanics",
+          "lines": [
+            "Bite · +5 to hit · reach 5 ft. · One target takes 6 (1d6 + 3) piercing damage on a hit. A creature falls prone on a failed save. · DC 13 Strength · 1d6 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Reactions mechanics",
+          "lines": [
+            "Trained Shift · When an effect would knock the rider prone or dismount the rider, the pennig can give the rider advantage on the check or save to avoid it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Printed Perception 11, Stealth 12. Ability modifiers are Str +3, Dex +2, Con +2, Int −3, Wis +1, Cha −2.",
+            "Pennigs are trained to carry and protect riders. Scale mail barding changes the printed AC from 12 to 15."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing and Smell · Perception is 16 for hearing or smell.": [
+          {
+            "start": 31,
+            "end": 41,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Pack Tactics · The pennig has advantage on an attack against a creature if an ally is within 5 ft. of that creature and the ally is not incapacitated.": [
+          {
+            "start": 30,
+            "end": 39,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 136,
+            "end": 149,
+            "target": {
+              "name": "Incapacitated",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot take actions or reactions.",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+              }
+            }
+          }
+        ],
+        "Bite · +5 to hit · reach 5 ft. · One target takes 6 (1d6 + 3) piercing damage on a hit. A creature falls prone on a failed save. · DC 13 Strength · 1d6 + 3 piercing": [
+          {
+            "start": 105,
+            "end": 110,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Trained Shift · When an effect would knock the rider prone or dismount the rider, the pennig can give the rider advantage on the check or save to avoid it.": [
+          {
+            "start": 53,
+            "end": 58,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          },
+          {
+            "start": 112,
+            "end": 121,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Printed Perception 11, Stealth 12. Ability modifiers are Str +3, Dex +2, Con +2, Int −3, Wis +1, Cha −2.": [
+          {
+            "start": 8,
+            "end": 18,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Pennig": true,
+      "pennig trained shift": true
+    },
+    "hash": "059669c29d917d326f3010c775defcb2256dd74f2c4fe71b81b4acde19186666",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

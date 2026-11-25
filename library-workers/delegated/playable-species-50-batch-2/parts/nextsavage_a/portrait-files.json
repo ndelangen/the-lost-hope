@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Aranea",
+    "file": "",
+    "sha256": "2f97c0ccff259bfe14dfb764c3494d15a4531f216361d3d08b8c5eeb9a08a12a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Tess Serein"
+  },
+  {
+    "name": "Annis Hag",
+    "file": "",
+    "sha256": "8ab5b8f252bd08167e11c863fbb1b30cb8834547a33c692dc70c6db550083b3c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Marda Flintknuckle"
+  },
+  {
+    "name": "Barghest",
+    "file": "",
+    "sha256": "f98e91327871fd7cf8824abffae8636f6f3d6e725d5b2a862473e99faa20982e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Nark Bluefur"
+  },
+  {
+    "name": "Djinni",
+    "file": "",
+    "sha256": "78ffad4f9b11e542feb8e24fc38a16e6081818c85becb8d92054ebc42b6803b8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Safa Crosswind"
+  },
+  {
+    "name": "Drider",
+    "file": "",
+    "sha256": "130a677f3b76e74cec1dff559f4af40b7104a7621e0376fe8418dd2a8822a340",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "npc": "Orel Slate"
+  }
+]

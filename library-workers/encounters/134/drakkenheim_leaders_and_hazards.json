@@ -1,0 +1,552 @@
+[
+  {
+    "name": "Lucretia Mathias",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 216–217. Sacrament, Appendix D, p. 229.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Lucretia Mathias",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (human), neutral good",
+      "ac": 17,
+      "hp": 90,
+      "hitDice": "20d8",
+      "speed": "30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 24,
+          "modifier": 7
+        },
+        "Cha": {
+          "score": 19,
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Unarmored defense. Saving throws Wis +11 and Cha +9. Insight +16, Perception +16, Persuasion +14, Religion +14. Immune to Charmed and Frightened. Truesight 120 ft., passive Perception 26. Speaks all languages.",
+      "description": "The leader of the Followers of the Falling Fire teaches that a sanctified delerium shard can offer salvation.",
+      "sections": {
+        "Traits": "Prescient. While conscious, Lucretia cannot be surprised.\nUnarmored Defense. Without armor or a shield, add her Wisdom modifier to AC.\nUndeniable Faith. Lucretia automatically passes Constitution saves to maintain Concentration. Resolve each spell she casts as though she used a 9th-level slot.\nLegendary Resistance (3/day). Lucretia can turn a failed saving throw into a success.\nDivine Grace. A creature targeting Lucretia with an attack or harmful spell must first make a DC 20 Wisdom save. On a failure, it chooses another target or loses the attack or spell. Area effects bypass this protection. If Lucretia attacks, casts a spell affecting an enemy, or damages another creature, Divine Grace stops until the start of her next turn.",
+        "Spellcasting": "20th-level cleric spellcasting. Wisdom, DC 20, +12 to hit.\nCantrips at will. Chill Touch, Guidance, Light, Sacred Flame, Thaumaturgy.\n1st level, 4 slots. Bless, Command, Guiding Bolt, Healing Word.\n2nd level, 3 slots. Aid, Hold Person, Lesser Restoration, Spiritual Weapon.\n3rd level, 3 slots. Dispel Magic, Sending, Speak with Dead, Spirit Guardians.\n4th level, 3 slots. Banishment, Death Ward, Divination.\n5th level, 3 slots. Commune, Flame Strike, Greater Restoration, Scrying.\n6th level, 2 slots. Heal, Word of Recall.\n7th level, 2 slots. Divine Word, Resurrection.\n8th level, 1 slot. Holy Aura.\n9th level, 1 slot. Gate, Sacrament of the Falling Fire.",
+        "Actions": "Pacifying Touch. Melee spell attack, +12 to hit, 5-ft. reach, one creature. Hit 10 (3d6) psychic damage. If this damage drops the target to 0 HP, it is stable. The target makes a DC 20 Wisdom save or is Incapacitated for 1 minute. Any damage ends this condition early.\nDivine Intervention (1/week). Ask the Sacred Flame for aid. The GM chooses the result. A cleric or domain spell is an appropriate model.",
+        "Legendary Actions": "Lucretia has three legendary actions and regains them at the start of her turn. Use one option at a time at the end of another creature’s turn.\nCantrip (1 action). Cast a cantrip.\nPacifying Touch (2 actions). Use Pacifying Touch.\nCast a Spell (3 actions). Cast a spell using a slot.",
+        "Sacrament of the Falling Fire": "A one-hour ritual in the Deep Haze with a 30-ft. range. Each of up to 12 willing, faithful Humanoids drives a 100 gp delerium fragment into their chest, becoming sanctified. Each participant is then attacked by a hostile Shadow, or a Wraith if the GM judges the participant’s anger, fear, or hatred warrants one. While keeping the faith, a sanctified creature has advantage on saves against Charmed and Frightened, resistance to necrotic and radiant damage, and immunity to contamination. On death its soul enters the fragment and it cannot be raised while the soul remains there.",
+        "Printed source": "Appendix B, pp. 216–217. Sacrament, Appendix D, p. 229."
+      },
+      "ruleNotes": [
+        "Use the printed Wisdom saving throw of +11. The printed spell attack bonus is +12."
+      ]
+    }
+  },
+  {
+    "name": "Lord Commander Elias Drexel",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 214–215. Lord Commander’s Badge, Appendix D, p. 233.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Lord Commander Elias Drexel",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (human), lawful neutral",
+      "ac": 19,
+      "hp": 255,
+      "hitDice": "30d8 + 150",
+      "speed": "30 ft.",
+      "cr": "15",
+      "xp": 13000,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Wears a +3 breastplate. Saving throws Str +9, Dex +7, Wis +8. Athletics +8, Perception +13, Stealth +12, Survival +8. Blindsight 10 ft., passive Perception 23. Speaks Common.",
+      "description": "The Hooded Lanterns’ commander leads from the front and uses his badge to keep nearby allies fighting.",
+      "sections": {
+        "Traits": "Survivor. At the start of his turn, Drexel regains 10 HP if he has at least 1 HP and no more than half his maximum.\nBrute. His melee weapon hits deal one extra weapon die, already included below.\nLegendary Resistance (3/day). Drexel can turn a failed saving throw into a success.",
+        "Spellcasting": "20th-level ranger spellcasting. Wisdom, DC 16, +8 to hit.\n1st level, 4 slots. Cure Wounds, Fog Cloud, Hunter’s Mark.\n2nd level, 3 slots. Pass without Trace, Protection from Poison, Spike Growth.\n3rd level, 3 slots. Conjure Animals, Nondetection.\n4th level, 3 slots. Freedom of Movement, Stoneskin.\n5th level, 2 slots. Tree Stride, using buildings instead of trees.",
+        "Actions": "Multiattack. Use Leadership, then make four Longsword attacks or four Longbow attacks.\nLongsword. Melee weapon attack, +12 to hit, 5-ft. reach, one target. Hit 16 (2d8 + 7) slashing damage.\nLongbow. Ranged weapon attack, +7 to hit, 150/600-ft. range, one target. Hit 7 (1d8 + 2) piercing damage.\nLeadership (short or long rest). For 1 minute, when a nonhostile creature Drexel sees within 120 ft. makes an attack roll or saving throw, he can issue a command or warning. If it hears and understands him, it adds 1d4 to the roll. One Leadership die can benefit a roll. The effect ends if Drexel is Incapacitated.\nLord Commander’s Badge (recharges at dawn). Give a command audible within 300 ft. Choose up to 12 visible allies who hear it. They each gain 20 temporary HP and have advantage on attack rolls and saves while those temporary HP remain.",
+        "Reactions": "Parry. Add 5 to Drexel’s AC against one melee attack that would hit. He must see the attacker and wield a melee weapon.",
+        "Legendary Actions": "Drexel has three legendary actions and regains them at the start of his turn. Use one option at a time at the end of another creature’s turn.\nAttack (1 action). Make one weapon attack.\nCommand (1 action). Choose one visible ally who sees and hears Drexel. The ally can use its reaction to make one weapon attack with advantage, dealing an extra 10 (3d6) damage on a hit.",
+        "Equipment": "+3 longsword, +3 breastplate, and Lord Commander’s Badge.",
+        "Printed source": "Appendix B, pp. 214–215. Lord Commander’s Badge, Appendix D, p. 233."
+      },
+      "ruleNotes": [
+        "Use the printed fixed total of 255 HP. The printed dice expression of 30d8 + 150 averages 285 HP. The printed Longbow entry lists 7 damage with a roll of 1d8 + 2."
+      ]
+    }
+  },
+  {
+    "name": "Protean Abomination",
+    "decision": "separate",
+    "pages": "Appendix A, p. 201.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Protean Abomination",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Huge Aberration, unaligned",
+      "ac": 14,
+      "hp": 168,
+      "hitDice": "16d12 + 64",
+      "speed": "30 ft., climb 10 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 21,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Natural armor. Immune to Charmed, Frightened, and Prone. Blindsight 60 ft., passive Perception 10. No languages.",
+      "description": "This shapeless mutant drags prey into its body and can climb across a ceiling.",
+      "sections": {
+        "Traits": "Absorption. When the abomination kills a creature other than a Construct or Undead, it absorbs the corpse and regains 20 HP.\nAmorphous. Move through openings as narrow as 1 inch without squeezing.\nSpider Climb. Climb difficult surfaces and ceilings without a check.",
+        "Actions": "Multiattack. Make two Slam attacks. If both hit the same Large or smaller target, it is Grappled (escape DC 15) and the abomination uses Engulf on it.\nSlam. Melee weapon attack, +8 to hit, 5-ft. reach, one target. Hit 19 (3d8 + 5) bludgeoning damage.\nEngulf. Engulf one Large or smaller creature the abomination is grappling. Until the grapple ends, the target is Blinded, Restrained, and unable to breathe, and moves with the abomination. At the start of each of the abomination’s turns, the target makes a DC 15 Constitution save or takes 19 (3d8 + 5) bludgeoning damage. Only one creature can be engulfed at a time.",
+        "Printed source": "Appendix A, p. 201."
+      },
+      "ruleNotes": [
+        "The printed fixed damage for Slam and Engulf is 19. The same entries list a roll of 3d8 + 5."
+      ]
+    }
+  },
+  {
+    "name": "Animated Delerium Sludge",
+    "decision": "separate",
+    "pages": "Appendix A, p. 203.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Animated Delerium Sludge",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Elemental, unaligned",
+      "ac": 14,
+      "hp": 114,
+      "hitDice": "12d10 + 48",
+      "speed": "30 ft., swim 90 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 8,
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Natural armor. Resists acid and bludgeoning, piercing, and slashing from nonmagical weapons. Immune to necrotic and poison damage and to Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, and Unconscious. Darkvision 60 ft., passive Perception 10. Speaks Deep Speech.",
+      "description": "A pool of corrupted sludge can rush across water and swallow creatures that enter its space.",
+      "sections": {
+        "Traits": "Sludge Form. Enter and stop in a hostile creature’s space. Pass through an opening as narrow as 1 inch without squeezing.",
+        "Actions": "Contaminated Touch. Melee weapon attack, +7 to hit, 5-ft. reach, one target. Hit 10 (3d6) necrotic damage. The target makes a DC 15 Constitution save or gains 1 contamination level.\nEngulf. Each creature in the sludge’s space makes a DC 15 Strength save. On a failure, a Large or smaller target is Grappled (escape DC 14) and Restrained until the grapple ends. On a success, push the target out of the sludge’s space. The sludge can hold either one Large target or up to two targets of Medium size or smaller. At the start of each of the sludge’s turns, each grappled target takes 28 (8d6) necrotic damage and makes a DC 15 Constitution save or gains 1 contamination level. A creature within 5 ft. can use an action to pull out a creature or object with a successful DC 14 Strength check.",
+        "Printed source": "Appendix A, p. 203."
+      }
+    }
+  },
+  {
+    "name": "Living Deep Haze",
+    "decision": "separate",
+    "pages": "Appendix A, p. 204.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Living Deep Haze",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Elemental, unaligned",
+      "ac": 15,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "0 ft., fly 90 ft. (hover)",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Resists bludgeoning, piercing, and slashing from nonmagical weapons. Immune to necrotic and poison damage and to Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, and Unconscious. Darkvision 60 ft., passive Perception 10. Speaks Deep Speech.",
+      "description": "A mobile bank of Haze tracks creatures through the ruins and contaminates anyone it envelops.",
+      "sections": {
+        "Traits": "Fog Form. Enter and stop in a hostile creature’s space. Pass through an opening as narrow as 1 inch without squeezing.\nDeep Haze. A creature entering the Haze’s space or starting its turn there makes a DC 15 Constitution save. On a failure it takes 10 (3d6) necrotic damage and gains 1 contamination level.",
+        "Actions": "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack, +8 to hit, 5-ft. reach, one target. Hit 14 (2d8 + 5) bludgeoning damage.",
+        "Printed source": "Appendix A, p. 204."
+      }
+    }
+  },
+  {
+    "name": "Entropic Flame",
+    "decision": "separate",
+    "pages": "Appendix A, pp. 204–205.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Entropic Flame",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Elemental, unaligned",
+      "ac": 13,
+      "hp": 78,
+      "hitDice": "12d10 + 12",
+      "speed": "30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Resists bludgeoning, piercing, and slashing from nonmagical weapons. Immune to fire and poison damage and to Exhaustion, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, and Unconscious. Darkvision 60 ft., passive Perception 10. Speaks Deep Speech.",
+      "description": "This fire elemental hurls flame between short teleports and sets creatures alight by passing through them.",
+      "sections": {
+        "Traits": "Fire Form. Pass through an opening as narrow as 1 inch without squeezing. A creature that touches the flame or hits it in melee from within 5 ft. takes 5 (1d10) fire damage. The flame can enter and stop in a hostile creature’s space. The first time it enters a creature’s space on a turn, the creature takes 5 (1d10) fire damage and ignites. The burning creature takes 5 (1d10) fire damage at the start of each of its turns until someone uses an action to extinguish it.\nIllumination. Shed bright light out to 30 ft. and dim light for 30 ft. more.",
+        "Actions": "Multiattack. Make three Hurl Flame attacks. Before or after each attack, the flame can teleport up to 10 ft. to a space it sees, even if occupied.\nHurl Flame. Ranged weapon attack, +6 to hit, 120-ft. range, one target. Hit 10 (3d6) fire damage.\nTouch. Melee weapon attack, +6 to hit, 5-ft. reach, one target. Hit 10 (2d6 + 3) fire damage. A creature or flammable object ignites and takes 5 (1d10) fire damage at the start of each of its turns until a creature uses an action to extinguish it.",
+        "Printed source": "Appendix A, pp. 204–205."
+      }
+    }
+  },
+  {
+    "name": "Walking Delerium Geode",
+    "decision": "separate",
+    "pages": "Appendix A, p. 205. Arcane Anomalies, Appendix D, p. 225.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Walking Delerium Geode",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Large Elemental, unaligned",
+      "ac": 17,
+      "hp": 126,
+      "hitDice": "12d10 + 60",
+      "speed": "30 ft., burrow 30 ft.",
+      "cr": "5",
+      "xp": 1800,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Dex": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Con": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Int": {
+          "score": 5,
+          "modifier": -3
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Natural armor. Vulnerable to radiant and thunder. Resists bludgeoning, piercing, and slashing from nonmagical weapons. Immune to necrotic and poison damage and to Exhaustion, Paralyzed, Petrified, Poisoned, and Unconscious. Darkvision and tremorsense 60 ft., passive Perception 10. Speaks Deep Speech.",
+      "description": "A walking mass of delerium crystals can travel through earth. It bursts when destroyed by most damage types.",
+      "sections": {
+        "Traits": "Death Burst. If damage drops the geode to 0 HP, its crystals explode unless the damage was force, radiant, or thunder. Each creature within 30 ft. makes a DC 15 Constitution save. On a failure it takes 42 (12d6) necrotic damage and gains 1 contamination level. The explosion also triggers a random effect from the Arcane Anomalies d20 table in Appendix D, p. 225.\nEarth Glide. The geode burrows through unworked, nonmagical earth and stone without disturbing it.",
+        "Actions": "Shard Slam. Melee weapon attack, +8 to hit, 10-ft. reach, one target. Hit 14 (2d8 + 5) bludgeoning damage. The target then makes a DC 15 Constitution save or takes 10 (3d6) necrotic damage and gains 1 contamination level.",
+        "Printed source": "Appendix A, p. 205. Arcane Anomalies, Appendix D, p. 225."
+      }
+    }
+  },
+  {
+    "name": "Hypnotic Eldritch Blossom",
+    "decision": "separate",
+    "pages": "Appendix A, p. 205.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Hypnotic Eldritch Blossom",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Plant, chaotic evil",
+      "ac": 5,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "5 ft.",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Dex": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 1,
+          "modifier": -5
+        },
+        "Wis": {
+          "score": 3,
+          "modifier": -4
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Immune to Blinded, Deafened, and Frightened. Blindsight 30 ft., blind beyond this range. Passive Perception 6. No languages.",
+      "description": "A flower that passes for harmless until its pollen draws nearby creatures in.",
+      "sections": {
+        "Traits": "False Appearance. While motionless the blossom looks like an ordinary flower.",
+        "Actions": "Contaminated Nectar. One visible creature within 10 ft. makes a DC 10 Constitution save or gains 1 contamination level.\nHypnotic Pollen (short or long rest). Each creature within 30 ft. makes a DC 10 Wisdom save or is Charmed for 1 minute. While Charmed this way, it is Incapacitated and must spend all its movement getting as close as possible to the blossom on its turns. The effect ends if the target takes damage or another creature uses an action to shake it awake.",
+        "Reactions": "Spell Reflection. If the blossom saves against a non-area spell targeting only it, or a spell attack misses it, choose another visible creature within 30 ft., including the caster. Redirect the spell to that creature. The new target makes its own save if required, or the attack is rerolled against it.",
+        "Printed source": "Appendix A, p. 205."
+      }
+    }
+  },
+  {
+    "name": "Warlock of the Rat God",
+    "decision": "separate",
+    "pages": "Appendix A, p. 202.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Warlock of the Rat God",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Monstrosity, chaotic evil",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "6d6 + 6",
+      "speed": "30 ft., swim 30 ft., climb 30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 15,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "AC 15 with Mage Armor. Deception +4, Stealth +4. Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A ratling pact caster that hides between spells and calls giant rats to its aid.",
+      "sections": {
+        "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that rely on smell.",
+        "Bonus Actions": "Skulker. Take the Hide action.",
+        "Innate Spellcasting": "Charisma, DC 12, +4 to hit. No material components.\nAt will. Eldritch Blast (two beams), Mage Armor (self only), Minor Illusion, Thaumaturgy.\n1/day each. Augury, Burning Hands, Conjure Animals (giant rats only), Faerie Fire, Invisibility, Misty Step.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Appendix A, p. 202."
+      }
+    }
+  },
+  {
+    "name": "Ratling",
+    "decision": "separate",
+    "pages": "Appendix A, p. 202.",
+    "notes": "Summarizes the original 2014-compatible printing.",
+    "statBlock": {
+      "name": "Ratling",
+      "publication": "Dungeons of Drakkenheim",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Monstrosity, chaotic evil",
+      "ac": 12,
+      "hp": 5,
+      "hitDice": "2d6 − 2",
+      "speed": "30 ft., swim 30 ft., climb 30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 7,
+          "modifier": -2
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Int": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Wis": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Cha": {
+          "score": 5,
+          "modifier": -3
+        }
+      },
+      "otherStatistics": "Stealth +6. Darkvision 60 ft., passive Perception 10. Speaks Common.",
+      "description": "A scavenging tunnel-dweller that attacks in packs and slips away into cover.",
+      "sections": {
+        "Traits": "Keen Smell. Advantage on Wisdom (Perception) checks that rely on smell.\nPack Tactics. Gain advantage on an attack against a creature if an ally is within 5 ft. of it and the ally is not Incapacitated.",
+        "Bonus Actions": "Skulker. Take the Hide action.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, 5-ft. reach, one target. Hit 4 (1d4 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, 30/120-ft. range, one target. Hit 4 (1d4 + 2) bludgeoning damage.",
+        "Printed source": "Appendix A, p. 202."
+      }
+    }
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Grimlock",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Underdark",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel",
+      "Jeff Quick"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "October 2003",
+    "productCode": "620-88581-001-EN",
+    "isbn": "0-7869-3053-5",
+    "printedPages": {
+      "playableSpecies": [
+        13,
+        14,
+        15
+      ],
+      "racialTraits": [
+        14,
+        15
+      ],
+      "illustration": 15,
+      "region": 23
+    },
+    "pdfPageOffset": 1,
+    "coreMonsterReference": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, p. 15.",
+    "sourceDistinctions": [
+      "The Underdark player traits include −2 Wisdom and automatic Common and Undercommon. The core Grimlock player list has a different ability and language list.",
+      "Loss of either hearing or smell suppresses blindsight but leaves the benefit of Blind-Fight. Loss of both leaves the Grimlock effectively blinded.",
+      "The source description specifies that Grimlocks have neither eyes nor eye sockets. There is no usable darkvision for an eyeless Grimlock.",
+      "Wizards’ collected archive has no Underdark errata file. The official FAQ mentions Grimlocks in a polymorph equipment example and gives no Grimlock rules correction."
+    ],
+    "entryId": "species-4ba8ea9de054114e0db40470",
+    "versionKey": "af01152ddcebf8bc675fb27a",
+    "slug": "grimlock",
+    "portraitSelection": "generated",
+    "portraitForm": "Diamond Hand, an original Grimlock Barbarian",
+    "npcExamples": [
+      "Diamond Hand",
+      "Cold Water"
+    ]
+  }
+]

@@ -1,0 +1,400 @@
+[
+  {
+    "name": "Cranium Rat",
+    "statBlock": {
+      "name": "Cranium Rat",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 83,
+      "classification": "Tiny aberration, unaligned",
+      "ac": 12,
+      "hp": 2,
+      "hitDice": "1d4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 2
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "description": "A telepathic rat with an exposed brain that glows on command.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Telepathy 30 ft.",
+        "Traits": "Telepathic Shroud. Divination spells and effects that read the rat's thoughts or sense its emotions have no effect on it.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.",
+        "Bonus actions": "Illumination. The rat can make its exposed brain shed dim light in a 5-ft. radius or turn the light off.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 83."
+      }
+    }
+  },
+  {
+    "name": "Darkling",
+    "statBlock": {
+      "name": "Darkling",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 84,
+      "classification": "Small fey, typically chaotic neutral",
+      "ac": 14,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "description": "A fey ambusher whose body erupts in blinding light when it dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Deception": 2,
+        "Perception": 5,
+        "Stealth": 7
+      },
+      "sections": {
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Elvish, Sylvan.",
+        "Armor": "Leather armor.",
+        "Traits": "Death Flash. When the darkling dies, its body and belongings burn to ash, except for metal and magic objects. A flash of nonmagical light fills a 10-ft. radius. Every creature in the area must pass a DC 10 Constitution save or be blinded until the end of its next turn.\nLight Sensitivity. Bright light gives the darkling disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage plus 7 (2d6) necrotic damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 84."
+      }
+    }
+  },
+  {
+    "name": "Darkling Elder",
+    "statBlock": {
+      "name": "Darkling Elder",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 84,
+      "classification": "Medium fey, typically chaotic neutral",
+      "ac": 15,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 16,
+      "description": "A blade-wielding elder who can conjure darkness and releases searing light at death.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Deception": 3,
+        "Perception": 6,
+        "Stealth": 7
+      },
+      "sections": {
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Elvish, Sylvan.",
+        "Armor": "Studded leather armor.",
+        "Traits": "Death Burn. When the elder dies, its body and belongings burn to ash, except for metal and magic objects. Every creature within 10 ft. must make a DC 11 Constitution save against the flash of magical light. On a failure, it takes 7 (2d6) radiant damage and is blinded until the end of its next turn. A successful save halves the damage and prevents the blindness.",
+        "Actions": "Multiattack. Make two Scimitar attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage.",
+        "Spellcasting": "Darkness (Recharges after a Short or Long Rest). As an action, cast Darkness using Wisdom and without spell components.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 84."
+      }
+    }
+  },
+  {
+    "name": "Death Kiss",
+    "statBlock": {
+      "name": "Death Kiss",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 85,
+      "classification": "Large aberration (beholder), typically neutral evil",
+      "ac": 15,
+      "hp": 142,
+      "hitDice": "15d10 + 60",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 15,
+      "description": "A hovering beholderkin that seizes prey with long tentacles and feeds on the creatures it holds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon.",
+        "Damage immunities": "Lightning.",
+        "Condition immunities": "Prone.",
+        "Armor": "Natural armor.",
+        "Traits": "Lightning Blood. When a creature within 5 ft. hits the death kiss with a melee attack that deals piercing or slashing damage, the attacker takes 5 (1d10) lightning damage.",
+        "Actions": "Multiattack. Make three Tentacle attacks. Substitute Blood Drain for any of those attacks, up to one substitution per tentacle grappling a creature.\nTentacle. Melee weapon attack, +8 to hit, reach 20 ft., one target. A hit deals 11 (2d6 + 4) piercing damage. A Huge or smaller creature hit is also grappled (escape DC 14) and restrained while held. The death kiss has ten tentacles and cannot attack a different target with a tentacle that is already grappling.\nBlood Drain. One creature grappled by a tentacle makes a DC 16 Constitution save. On a failure, it takes 22 (4d10) lightning damage and the death kiss regains hit points equal to half the damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 85."
+      }
+    }
+  },
+  {
+    "name": "Deathlock",
+    "statBlock": {
+      "name": "Deathlock",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 86,
+      "classification": "Medium undead (warlock), typically neutral evil",
+      "ac": 12,
+      "hp": 36,
+      "hitDice": "8d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "An undead warlock that hurls bolts of necrotic magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 5
+      },
+      "skills": {
+        "Arcana": 4,
+        "History": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Turn Resistance. The deathlock has advantage on saving throws against effects that turn Undead.\nUnusual Nature. The deathlock can go without air, food, drink, and sleep.",
+        "Actions": "Multiattack. Make two attacks. Choose Deathly Claw or Grave Bolt for each.\nDeathly Claw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) necrotic damage.\nGrave Bolt. Ranged spell attack, +5 to hit, range 120 ft., one target. A hit deals 14 (2d10 + 3) necrotic damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Charisma (spell save DC 13).\nAt will. Detect Magic, Disguise Self, Mage Armor, Mage Hand.\n1/day each. Dispel Magic, Hunger of Hadar, Invisibility, Spider Climb.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 86."
+      }
+    }
+  },
+  {
+    "name": "Deathlock Mastermind",
+    "statBlock": {
+      "name": "Deathlock Mastermind",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 87,
+      "classification": "Medium undead (warlock), typically neutral evil",
+      "ac": 13,
+      "hp": 110,
+      "hitDice": "20d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "An undead warlock that sees through magical darkness and pins enemies with shadowy tendrils.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 5,
+        "History": 5,
+        "Perception": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Devil's Sight. The deathlock sees through magical darkness within its darkvision range.\nTurn Resistance. The deathlock has advantage on saving throws against effects that turn Undead.\nUnusual Nature. The deathlock can go without air, food, drink, and sleep.",
+        "Actions": "Multiattack. Make two attacks. Choose Deathly Claw or Grave Bolt for each.\nDeathly Claw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (3d6 + 3) necrotic damage.\nGrave Bolt. Ranged spell attack, +6 to hit, range 120 ft., one target. A hit deals 13 (3d8) necrotic damage. A Large or smaller target hit must pass a DC 16 Strength save or be restrained by shadowy tendrils for 1 minute. While restrained this way, the target can spend its action to repeat the save, freeing itself on a success.",
+        "Spellcasting": "As an action, cast one of the following spells using Charisma (spell save DC 14).\nAt will. Detect Magic, Disguise Self, Mage Armor, Minor Illusion.\n1/day each. Darkness, Dimension Door, Dispel Magic, Fly, Invisibility.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 87."
+      }
+    }
+  },
+  {
+    "name": "Deathlock Wight",
+    "statBlock": {
+      "name": "Deathlock Wight",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 87,
+      "classification": "Medium undead (warlock), typically neutral evil",
+      "ac": 12,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "An undead warlock whose life-draining touch can raise slain Humanoids as zombies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Arcana": 3,
+        "Perception": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Necrotic. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Sunlight Sensitivity. In sunlight the deathlock has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.\nUnusual Nature. The deathlock can go without air, food, drink, and sleep.",
+        "Actions": "Multiattack. Make two attacks. Choose Life Drain or Grave Bolt for each.\nLife Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 6 (1d8 + 2) necrotic damage. The target must pass a DC 13 Constitution save or lose maximum hit points equal to the damage taken. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum reaches 0. A Humanoid slain by Life Drain rises as a zombie under the deathlock's control after 24 hours unless it is restored to life or its body is destroyed. The deathlock can control up to twelve zombies at a time.\nGrave Bolt. Ranged spell attack, +5 to hit, range 60 ft., one target. A hit deals 12 (2d8 + 3) necrotic damage.",
+        "Spellcasting": "As an action, cast one of the following spells using Charisma (spell save DC 13).\nAt will. Detect Magic, Disguise Self, Mage Armor.\n1/day each. Fear, Hold Person.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 87."
+      }
+    }
+  }
+]

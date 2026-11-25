@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "beast-d98da62440c1cdd8f69b73a0",
+    "version": "7e0e0b47296b489aed7257df",
+    "name": "Large Spider",
+    "file": "images/adnd2e-monstrous-manual-spiders/large-spider.png",
+    "sha256": "6cf5d82b058652637b9d9432852edcf9bd24978dde9efc1c9dd810d9290ff070",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-1b0b8878392274c89cc63926",
+    "version": "9f661d4f4bc297dc2014fda4",
+    "name": "Huge Spider",
+    "file": "images/adnd2e-monstrous-manual-spiders/huge-spider.png",
+    "sha256": "ec75d44ed6ed99b4266241aa0ef665f3cce6428deeb101b711b328d28457886d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-4faf39ec43fe20a78415c96d",
+    "version": "f4c24ae77841229eaa5f0610",
+    "name": "Giant Spider",
+    "file": "images/adnd2e-monstrous-manual-spiders/giant-spider.png",
+    "sha256": "4e46c5e7fa2b4ca7318f53bbc8e67f0c7db9d6fd2dd63a942439165a19babb51",
+    "credit": "OpenAI ImageGen"
+  }
+]

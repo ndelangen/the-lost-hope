@@ -1,0 +1,22 @@
+{
+  "Volothamp “Volo” Geddarm": {
+    "path": "output/dm-library/5etools/images/monsters/volothamp-volo-geddarm/parchment-portrait.webp",
+    "sha256": "1904039b1a57e38b772077767adf0d830e4b98ec44d7a10b07f1c2973b431926"
+  },
+  "Bodak": {
+    "path": "assets/images/content/dm-library/encounters-backfill-02/bodak.png",
+    "sha256": "c56e902fcd0ac9507c3dda5d3a0959f5956463d960b3b4700b195585eb2f5b81"
+  },
+  "Firenewt Warlock of Imix": {
+    "path": "assets/images/content/dm-library/encounters-backfill-03/firenewt-warlock-of-imix.png",
+    "sha256": "9bc1d42aeefa2eb3fdf2ede56b91f73d27d04152ce869e9ac0637ccf13fdec11"
+  },
+  "Firenewt Warrior": {
+    "path": "assets/images/content/dm-library/encounters-backfill-03/firenewt-warrior.png",
+    "sha256": "f58a84c7f9b7f5afcc838f9155b30e93ce0763b1c948c1920b464e76adf750a9"
+  },
+  "Giant Strider": {
+    "path": "assets/images/content/dm-library/encounters-backfill-03/giant-strider.png",
+    "sha256": "8bf0e36f7326695b2c786aa4427f19e7b672beb111e96495b0b3fe19dbea77ee"
+  }
+}

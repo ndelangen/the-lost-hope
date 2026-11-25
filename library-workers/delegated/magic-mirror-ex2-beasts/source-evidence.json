@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Giant Ant",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "printedName": "3 Giant Ants",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "author": "E. Gary Gygax",
+    "section": "B. Garden of Colossal Flowers",
+    "printedPages": [
+      9
+    ],
+    "pdfPages": [
+      9
+    ],
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/MagicMirror.zip",
+    "publisherPreview": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "archiveAndLocalBytesMatch": true,
+    "hitPointsPerCreature": 11,
+    "printedGroupSize": 3,
+    "sourcePageArt": {
+      "printedPage": 9,
+      "subject": "Garden scene featuring giant ants",
+      "artistCreditInModule": null
+    },
+    "entryId": "beast-ea0124a33859cce125d7279b",
+    "versionKey": "ed606c09975a3c7c20dd5ef9",
+    "slug": "giant-ant",
+    "query": "giant ant garden flowers worker",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Crab",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "printedName": "Giant Crab",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "author": "E. Gary Gygax",
+    "section": "M. Large Punt and N. Reedy Bank",
+    "printedPages": [
+      19
+    ],
+    "pdfPages": [
+      19
+    ],
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/MagicMirror.zip",
+    "publisherPreview": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "archiveAndLocalBytesMatch": true,
+    "hitPointsPerCreature": 24,
+    "printedGroupSize": null,
+    "sourcePageArt": null,
+    "entryId": "beast-c39025a93a39653b0147bfe8",
+    "versionKey": "bd7811d12bd8352c9c0d7aad",
+    "slug": "giant-crab",
+    "query": "giant crab oars stuck punt",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Carnivorous Ape",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "printedName": "CA. 3 Carnivorous Apes",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "author": "E. Gary Gygax",
+    "section": "The Mad Feast Hall, CA",
+    "printedPages": [
+      24,
+      25
+    ],
+    "pdfPages": [
+      24,
+      25
+    ],
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/MagicMirror.zip",
+    "publisherPreview": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "archiveAndLocalBytesMatch": true,
+    "hitPointsPerCreature": 25,
+    "printedGroupSize": 3,
+    "sourcePageArt": {
+      "printedPage": 24,
+      "subject": "Unlabeled banquet group scene",
+      "artistCreditInModule": null
+    },
+    "entryId": "beast-ac145f0ad951a9b08cd7e6a3",
+    "versionKey": "9cc06d1fe1eff81d626385d5",
+    "slug": "carnivorous-ape",
+    "query": "carnivorous ape forelimb banquet",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Wolverine",
+    "kind": "beast",
+    "publication": "The Land Beyond the Magic Mirror",
+    "edition": "AD&D 1st edition",
+    "printedName": "GW. 2 Giant Wolverines",
+    "publisher": "TSR Hobbies, Inc.",
+    "year": 1983,
+    "productNumber": 9073,
+    "author": "E. Gary Gygax",
+    "section": "The Mad Feast Hall, GW",
+    "printedPages": [
+      24,
+      25
+    ],
+    "pdfPages": [
+      24,
+      25
+    ],
+    "archivedPublisherDownload": "https://web.archive.org/web/20030608000000id_/http://www.wizards.com/dnd/files/2/MagicMirror.zip",
+    "publisherPreview": "",
+    "inspectedPdfSha256": "810baad749b0ce33a2a9ff8df0ad1a316cd1a1c70fe8a18be4412b0cecc886d3",
+    "archiveAndLocalBytesMatch": true,
+    "hitPointsPerCreature": 22,
+    "printedGroupSize": 2,
+    "sourcePageArt": {
+      "printedPage": 24,
+      "subject": "Unlabeled banquet group scene",
+      "artistCreditInModule": null
+    },
+    "entryId": "beast-0199d65a4c4152791a603dab",
+    "versionKey": "6b768bd0f525218d0186ad19",
+    "slug": "giant-wolverine",
+    "query": "giant wolverine banquet musk",
+    "portraitSelection": "generated"
+  }
+]

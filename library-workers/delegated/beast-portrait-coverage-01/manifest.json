@@ -1,0 +1,265 @@
+{
+  "baseline": "8579f7590d36e71443e887778d7eed38e90bafd8",
+  "forms": 8,
+  "publicationVersions": 9,
+  "entries": [
+    {
+      "name": "Dinosaur Spirit (Ankylosaur)",
+      "kind": "beast",
+      "publication": "Arcana Unleashed",
+      "edition": "2024 fifth edition",
+      "rules_evidence": "recipe",
+      "entry": "beast-d93a479350c71f3dd6b82cde",
+      "version": "3f9c95569fbe627fe110defd",
+      "art_group": "dinosaur-spirit-ankylosaur",
+      "owner": "spirits",
+      "portrait": {
+        "path": "parts/spirits/portraits/dinosaur-spirit-ankylosaur.png",
+        "sha256": "d9a6dc2eed0f1e497a578ca81afdd36c90353ecad2303c35ecff0414d313ed94",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Dinosaur Spirit (Ankylosaur)",
+        "publication": "Arcana Unleashed",
+        "edition": "2024 fifth edition",
+        "entityKind": "beast",
+        "file": "images/beasts/dinosaur-spirit/au-1.webp",
+        "sha256": "969b6c0f4f6c71851dc363bfd53b3cf71da5db3f9f3360cb42be1f82b5c85276",
+        "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/AU/Dinosaur%20Spirit.webp",
+        "kind": "token"
+      }
+    },
+    {
+      "name": "Dinosaur Spirit (Triceratops)",
+      "kind": "beast",
+      "publication": "Arcana Unleashed",
+      "edition": "2024 fifth edition",
+      "rules_evidence": "recipe",
+      "entry": "beast-34e3b90a8444ab3b95719482",
+      "version": "76a992c6dee2721106e89357",
+      "art_group": "dinosaur-spirit-triceratops",
+      "owner": "spirits",
+      "portrait": {
+        "path": "parts/spirits/portraits/dinosaur-spirit-triceratops.png",
+        "sha256": "046d92d9efd0e06be7db46c4a31f217bfb8528b6dcf9701e2e361a320f432347",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Dinosaur Spirit (Triceratops)",
+        "publication": "Arcana Unleashed",
+        "edition": "2024 fifth edition",
+        "entityKind": "beast",
+        "file": "images/beasts/dinosaur-spirit/au-1.webp",
+        "sha256": "969b6c0f4f6c71851dc363bfd53b3cf71da5db3f9f3360cb42be1f82b5c85276",
+        "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/AU/Dinosaur%20Spirit.webp",
+        "kind": "token"
+      }
+    },
+    {
+      "name": "Dinosaur Spirit (Tyrannosaur)",
+      "kind": "beast",
+      "publication": "Arcana Unleashed",
+      "edition": "2024 fifth edition",
+      "rules_evidence": "recipe",
+      "entry": "beast-3fc9fd4101f963928b74b9f6",
+      "version": "5f07981b7fbb468af647fe12",
+      "art_group": "dinosaur-spirit-tyrannosaur",
+      "owner": "spirits",
+      "portrait": {
+        "path": "parts/spirits/portraits/dinosaur-spirit-tyrannosaur.png",
+        "sha256": "b4e218fb42376bbff8c6cac7cecdea704088c543749f12038cbf2f104eae9daa",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Dinosaur Spirit (Tyrannosaur)",
+        "publication": "Arcana Unleashed",
+        "edition": "2024 fifth edition",
+        "entityKind": "beast",
+        "file": "images/beasts/dinosaur-spirit/au-1.webp",
+        "sha256": "969b6c0f4f6c71851dc363bfd53b3cf71da5db3f9f3360cb42be1f82b5c85276",
+        "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/AU/Dinosaur%20Spirit.webp",
+        "kind": "token"
+      }
+    },
+    {
+      "name": "Mohler",
+      "kind": "beast",
+      "publication": "Flee, Mortals!",
+      "edition": "2014 fifth edition compatible",
+      "rules_evidence": "fixed",
+      "entry": "beast-7e50c855da9c9de5c552def1",
+      "version": "f76ec171c7d62a989849d182",
+      "art_group": "mohler",
+      "owner": "special",
+      "portrait": {
+        "path": "parts/special/portraits/mohler.png",
+        "sha256": "04b635f652487a6d184d635da013aeb059a0906df4b4904fdff99c8edde70b8c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Mohler",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Flee, Mortals!",
+        "entityKind": "beast",
+        "file": "images/beasts/mohler/publisher-62dc6deb21163897.webp",
+        "url": "https://www.dndbeyond.com/avatars/thumbnails/41759/541/1000/1000/638512254112049689.png",
+        "artist": "D&D Beyond publisher art",
+        "sha256": "c6c8d413b61f746d2fe01f0d7439e5975c2ce96ab9647e6d4ab17429cf8ff795",
+        "kind": "illustration"
+      }
+    },
+    {
+      "name": "Mohler",
+      "kind": "beast",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "rules_evidence": "fixed",
+      "entry": "beast-7e50c855da9c9de5c552def1",
+      "version": "61883d9d6e84a0ac8a29eb12",
+      "art_group": "mohler",
+      "owner": "special",
+      "portrait": {
+        "path": "parts/special/portraits/mohler.png",
+        "sha256": "04b635f652487a6d184d635da013aeb059a0906df4b4904fdff99c8edde70b8c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Mohler",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Where Evil Lives",
+        "entityKind": "beast",
+        "file": "images/beasts/mohler/publisher-62dc6deb21163897.webp",
+        "url": "https://www.dndbeyond.com/avatars/thumbnails/41759/541/1000/1000/638512254112049689.png",
+        "artist": "D&D Beyond publisher art",
+        "sha256": "c6c8d413b61f746d2fe01f0d7439e5975c2ce96ab9647e6d4ab17429cf8ff795",
+        "kind": "illustration"
+      }
+    },
+    {
+      "name": "Rotbeast",
+      "kind": "beast",
+      "publication": "Flee, Mortals!",
+      "edition": "2014 fifth edition compatible",
+      "rules_evidence": "fixed",
+      "entry": "beast-ef12cc77d7b32b4abf080327",
+      "version": "bb2f060e6110ef9c03878386",
+      "art_group": "rotbeast",
+      "owner": "special",
+      "portrait": {
+        "path": "parts/special/portraits/rotbeast.png",
+        "sha256": "e58c6f5a6fb68db3f148b38e62cb7aa3d4e71b7663032f1bf49f52de0a043328",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Rotbeast",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Flee, Mortals!",
+        "entityKind": "beast",
+        "file": "images/beasts/rotbeast/publisher-f4b2e31c3000a1fd.webp",
+        "url": "https://www.dndbeyond.com/avatars/thumbnails/41759/587/1000/1000/638512254197069023.png",
+        "artist": "D&D Beyond publisher art",
+        "sha256": "aaee4abd8f0e663ea8b4fe7be92eff1952200880d3f2a1cd9265b0b08200faff",
+        "kind": "illustration"
+      }
+    },
+    {
+      "name": "Stoneback Isopod",
+      "kind": "beast",
+      "publication": "Flee, Mortals!",
+      "edition": "2014 fifth edition compatible",
+      "rules_evidence": "fixed",
+      "entry": "beast-8f2d96bf6eddd2459f0ee028",
+      "version": "0e39d1067cad56d22868e26d",
+      "art_group": "stoneback-isopod",
+      "owner": "special",
+      "portrait": {
+        "path": "parts/special/portraits/stoneback-isopod.png",
+        "sha256": "e55547d92f9d3e8649627e79faa9746c35296a7086f1fa35c308679202dda2bb",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Stoneback Isopod",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Flee, Mortals!",
+        "entityKind": "beast",
+        "file": "images/beasts/stoneback-isopod/publisher-dd085266bdd09b51.webp",
+        "url": "https://www.dndbeyond.com/avatars/thumbnails/41759/622/1000/1000/638512254260248488.png",
+        "artist": "D&D Beyond publisher art",
+        "sha256": "18c419843e14ae0882d6c6f0042166767c6d44fc9c5b95e1d49f1ca75e69d292",
+        "kind": "illustration"
+      }
+    },
+    {
+      "name": "Trinket",
+      "kind": "beast",
+      "publication": "Tal’Dorei Campaign Setting Reborn",
+      "edition": "2014 fifth edition compatible",
+      "rules_evidence": "fixed",
+      "entry": "beast-95c98698cdaa4b44ceab00f5",
+      "version": "c0aae000bdf7124c10e69622",
+      "art_group": "trinket",
+      "owner": "trinket",
+      "portrait": {
+        "path": "parts/trinket/portraits/trinket.png",
+        "sha256": "a915bbe0663be6a88f6399b068fd06d46b2686ecccd59ec19f34ec71bdf5c935",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Trinket",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Tal’Dorei Campaign Setting Reborn",
+        "entityKind": "beast",
+        "file": "images/beasts/trinket/publisher-9ebceb25f9f76315.webp",
+        "url": "https://www.dndbeyond.com/avatars/thumbnails/36257/8/1000/1000/638278123837589797.jpeg",
+        "artist": "D&D Beyond publisher art",
+        "sha256": "17e6e0738caca4498764895f3c1f52f23f8d454839c8ab22dd4e149d8465fd58",
+        "kind": "illustration"
+      }
+    },
+    {
+      "name": "Yumgrub",
+      "kind": "beast",
+      "publication": "Flee, Mortals!",
+      "edition": "2014 fifth edition compatible",
+      "rules_evidence": "fixed",
+      "entry": "beast-2e1390376d75335d16498423",
+      "version": "781f87f10d955ceba1ab0a42",
+      "art_group": "yumgrub",
+      "owner": "special",
+      "portrait": {
+        "path": "parts/special/portraits/yumgrub.png",
+        "sha256": "dc3914ba595b8b7997e7c68c17dde7d46ceb366a4a1c4280e4ef11771831394a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "publisherArtwork": {
+        "name": "Yumgrub",
+        "edition": "2014 fifth edition compatible",
+        "publication": "Flee, Mortals!",
+        "entityKind": "beast",
+        "file": "images/beasts/yumgrub/publisher-63cb21f239196528.webp",
+        "url": "https://www.dndbeyond.com/avatars/thumbnails/41759/688/1000/1000/638512254372567626.png",
+        "artist": "D&D Beyond publisher art",
+        "sha256": "66aa500a38ba0c8971e0307381e0ac8546792e2c5688feffe366447416e7dfbc",
+        "kind": "illustration"
+      }
+    }
+  ]
+}

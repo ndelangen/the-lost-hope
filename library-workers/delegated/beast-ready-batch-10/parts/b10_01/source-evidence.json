@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Giant Squid",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 360,
+    "printedPages": [
+      360
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://anyflip.com/acscv/ypya/mobile/index.html#p=363",
+    "url": "https://anyflip.com/acscv/ypya/mobile/index.html#p=363",
+    "publisherByline": "Printed Appendix A, Animals, folio 360.",
+    "sourceWitness": "I read the full printed stat block on facsimile sheet 363. The D&D Beyond creature link redirected to the Monster Manual marketplace page during anonymous access.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "The printed page places Ink Cloud in Reactions and gives a 1/Day limit.",
+      "Tentacle gives the Grappled condition and sets the escape DC. Pulling the target is optional."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Underwater is inferred from the printed Water Breathing trait and swim speed. It agrees with the secondary index.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-07/parts/b07_03/portraits/giant-squid.png",
+      "sha256": "9adef0cbd548d35a0ece1d137c4d5b42ce16e85c2662edbc0763ad8ec1f7ec86"
+    },
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/5195028-giant-squid",
+    "publisherAccessState": "Anonymous access redirects to the Monster Manual marketplace.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/category/3711000",
+    "facsimileSheet": 363,
+    "facsimileImageUrl": "https://online.anyflip.com/acscv/ypya/files/large/ccc2b773782916803aa3a65f6131e621.webp",
+    "facsimileImageSha256": "a6c72a0c2af416c53e76058b07bd4be3b216b2c605deedc879e1619b847886d5",
+    "limitedUsageRules": "https://www.dndbeyond.com/sources/dnd/br-2024/how-to-use-a-monster#LimitedUsage"
+  },
+  {
+    "name": "Hippopotamus",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 362,
+    "printedPages": [
+      362
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195076-hippopotamus",
+    "url": "https://www.dndbeyond.com/monsters/5195076-hippopotamus",
+    "publisherByline": "Monster Manual, pg. 362",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "The native Initiative modifier and score are −2 and 8. The printed Strength save is +7."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-01/parts/amonkhet/portraits/hippopotamus.png",
+      "sha256": "3fa9d0349cf6e1b26cc5add91546b65abe8860ba0e9b9fb945a0e2dab3d417ca"
+    }
+  },
+  {
+    "name": "Hyena",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 363,
+    "printedPages": [
+      363
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195085-hyena",
+    "url": "https://www.dndbeyond.com/monsters/5195085-hyena",
+    "publisherByline": "Monster Manual, pg. 363",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_05/portraits/hyena.png",
+      "sha256": "e24a6fe211e6b15c7caccbc705b80719b31e8f4008842f1d4f1048c7dc1da118"
+    }
+  },
+  {
+    "name": "Jackal",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 364,
+    "printedPages": [
+      364
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195091-jackal",
+    "url": "https://www.dndbeyond.com/monsters/5195091-jackal",
+    "publisherByline": "Monster Manual, pg. 364",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "The revised stat block gives Darkvision 90 ft., Stealth +4 and Passive Perception 15. Its only printed action is Bite."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_05/portraits/jackal.png",
+      "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d"
+    }
+  },
+  {
+    "name": "Killer Whale",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Monster Manual (2025 release, 2024 fifth-edition rules)",
+    "printedPage": 364,
+    "printedPages": [
+      364
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5195095-killer-whale",
+    "url": "https://www.dndbeyond.com/monsters/5195095-killer-whale",
+    "publisherByline": "Monster Manual, pg. 364",
+    "sourceWitness": "Public D&D Beyond creature page with the updated stat-block layout, including Initiative, six saving throws and Proficiency Bonus.",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "officialErrataPdf": "",
+    "errataEvidence": "The D&D Beyond errata page and its v1.0 name no correction for this entry.",
+    "mechanicsNotes": [
+      "The revised print lists a 5-ft. land speed and a 60-ft. Swim Speed. Blindsight has no printed Echolocation condition."
+    ],
+    "appearanceEvidence": "Editorial description of the inspected reused portrait.",
+    "habitatEvidence": "Habitat terms come from the publisher creature page.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-05/parts/b05_05/portraits/killer-whale.png",
+      "sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3"
+    }
+  }
+]

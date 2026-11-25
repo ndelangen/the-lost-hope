@@ -1,0 +1,411 @@
+[
+  {
+    "name": "Shadowswyft",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "shadarKai": {
+      "id": "species-a1332e0890cc9d98f36ff58c",
+      "name": "Shadar-kai",
+      "kind": "species",
+      "group": "2014 fifth edition",
+      "groups": [
+        "2014 fifth edition"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "Eric Belisle, Mark Molnar · Mordenkainen Presents: Monsters of the Multiverse"
+        }
+      ],
+      "versions": [
+        {
+          "key": "7b6933dacb43ffa66a4811b6",
+          "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+          "edition": "2014 fifth edition",
+          "source": "https://5e.tools/races.html#shadar-kai_mpmm",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/878/340/340/637880558355344888.png",
+          "status": "Traits summary",
+          "images": [
+            {
+              "url": "",
+              "credit": "Eric Belisle, Mark Molnar · Mordenkainen Presents: Monsters of the Multiverse"
+            }
+          ],
+          "stats": [
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Speed",
+              "30 ft."
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Species traits",
+              "lines": [
+                "Size Medium.",
+                "Walking speed 30 feet.",
+                "Darkvision 60 feet.",
+                "Damage resistance includes necrotic.",
+                "Source traits include Creature Type, Blessing of the Raven Queen, Darkvision, Fey Ancestry, Keen Senses, Necrotic Resistance, Trance."
+              ]
+            },
+            {
+              "title": "Sections",
+              "lines": [
+                "Creature Type",
+                "Blessing of the Raven Queen",
+                "Darkvision",
+                "Fey Ancestry",
+                "Keen Senses",
+                "Necrotic Resistance",
+                "Trance"
+              ]
+            }
+          ],
+          "sourceCode": "MPMM",
+          "page": 31,
+          "references": [
+            {
+              "label": "Mordenkainen Presents: Monsters of the Multiverse, p. 31",
+              "url": "https://5e.tools/races.html#shadar-kai_mpmm"
+            },
+            {
+              "label": "Charmed (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#charmed_phb",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              },
+              "preview": {
+                "name": "Charmed",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+                "local": {
+                  "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+                }
+              }
+            },
+            {
+              "label": "Perception (skill)",
+              "url": "https://5e.tools/skills.html#perception_phb",
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              },
+              "preview": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            },
+            {
+              "label": "Weapon (book)",
+              "url": "https://5e.tools/book.html#phb",
+              "terms": [
+                "5"
+              ]
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Size Medium.": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision 60 feet.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Damage resistance includes necrotic.": [
+              {
+                "start": 0,
+                "end": 6,
+                "target": {
+                  "name": "Damage",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-62837ed0c3d25904bcb2352e",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+                  }
+                }
+              }
+            ],
+            "Source traits include Creature Type, Blessing of the Raven Queen, Darkvision, Fey Ancestry, Keen Senses, Necrotic Resistance, Trance.": [
+              {
+                "start": 22,
+                "end": 35,
+                "target": {
+                  "name": "Creature Type",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-d1d9b442b6bb631028aa4466",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature%20type_xphb"
+                  }
+                }
+              },
+              {
+                "start": 66,
+                "end": 76,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              },
+              {
+                "start": 114,
+                "end": 124,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ],
+            "Creature Type": [
+              {
+                "start": 0,
+                "end": 13,
+                "target": {
+                  "name": "Creature Type",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 364,
+                  "local": {
+                    "entry": "compendium-d1d9b442b6bb631028aa4466",
+                    "version": "XPHB:364:https://5e.tools/variantrules.html#creature%20type_xphb"
+                  }
+                }
+              }
+            ],
+            "Darkvision": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Necrotic Resistance": [
+              {
+                "start": 9,
+                "end": 19,
+                "target": {
+                  "name": "Resistance",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 272,
+                  "description": "A abjuration cantrip.",
+                  "local": {
+                    "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                    "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "image": {
+        "url": "",
+        "credit": "Eric Belisle, Mark Molnar · Mordenkainen Presents: Monsters of the Multiverse"
+      }
+    },
+    "global": true,
+    "version": {
+      "key": "a19f3b2be94a466045ee44e7",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Extraplanar)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider from the Plane of Shadow. The species entry gives the Extraplanar subtype away from that plane. Humanoid-only effects such as charm person cannot target a Shadowswyft.",
+            "+2 Dexterity, −2 Constitution. Land speed 40 ft. Darkvision 120 ft. and low-light vision.",
+            "Light Blindness is extraordinary. Abrupt exposure to bright light, such as sunlight or a daylight spell, blinds the Shadowswyft for 1 round. Afterward, it remains dazzled while in the affected area.",
+            "Dazzled imposes −1 on attack rolls, Search checks, and Spot checks. Use the normal Blinded condition for the first round.",
+            "+2 bonus on initiative checks. +4 racial bonuses on Hide and Move Silently.",
+            "Automatic languages are Shadowswyft and Common. Bonus languages are Abyssal, Celestial, and Elven. Favored class Rogue. LA +1. The player profile adds no racial Hit Dice."
+          ]
+        },
+        {
+          "title": "Original NPC · Mheer Wink",
+          "lines": [
+            "Covered stair runner and Rogue.",
+            "Motive. Get the spare key to the watch before the covered passage closes.",
+            "Hook. Mheer can check the dark landing while the party works the shutter from below.",
+            "Shadowswyft covered stair runner, Rogue 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Extraplanar)",
+            "AC 16 · HP 7 (1d6+1) · Speed 40 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Pohl Nod",
+          "lines": [
+            "Gloam road lookout and Ranger.",
+            "Motive. Get the late travellers off the road before undead reach the arches.",
+            "Hook. Pohl can watch the approaches while the party moves the travellers from arch to arch.",
+            "Shadowswyft gloam road lookout, Ranger 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Extraplanar)",
+            "AC 16 · HP 9 (1d8+1) · Speed 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Mheer Wink": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Mheer Wink",
+              "group": "Shadowswyft",
+              "publication": "Shadowswyft covered stair runner, Rogue 1",
+              "local": {
+                "entry": "npc-111123a456875e628b108b96",
+                "version": "605697f7af1eecf0319607a8"
+              }
+            }
+          }
+        ],
+        "Original NPC · Pohl Nod": [
+          {
+            "start": 15,
+            "end": 23,
+            "target": {
+              "name": "Pohl Nod",
+              "group": "Shadowswyft",
+              "publication": "Shadowswyft gloam road lookout, Ranger 1",
+              "local": {
+                "entry": "npc-921dbc4b620814a9850593b4",
+                "version": "8a55181626dca91a9b2d39ed"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Shadowswyft": true,
+      "shadowswyft light blindness": true,
+      "shadowswyft darkvision 120": true,
+      "shadowswyft covered stair runner": true,
+      "shadowswyft gloam road lookout": true
+    },
+    "hash": "f8369d6fc298ddfd235b425e38b2ec9cb2f6e0d54bc9686e7e6e0f78cc5ec6be",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Planar Handbook (2004)",
+    "defaultVersionKey": "a19f3b2be94a466045ee44e7",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

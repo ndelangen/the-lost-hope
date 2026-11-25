@@ -1,0 +1,20 @@
+{
+  "baseline": "97b801416433265491b463264b164c00f3c27e33",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Elan"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Expanded Psionics Handbook (2004)",
+  "errataVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

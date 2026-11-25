@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Shade",
+    "slug": "shade",
+    "file": "portraits/shade.png",
+    "sha256": "44900eaab71fab41028bb54645c2c8d05635a7eb95baf9150a4d13b678963301",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Vryloka",
+    "slug": "vryloka",
+    "file": "portraits/vryloka.png",
+    "sha256": "2288a9986bd2dc97bd063ec5713f65aa207979cfba867d35a18c1d92f91161f7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Revenant",
+    "slug": "revenant",
+    "file": "portraits/revenant.png",
+    "sha256": "880e2d39683b198e5dd91dfd8376672df2c0e14d247b3a58f37d7b2ee67328c2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hamadryad",
+    "slug": "hamadryad",
+    "file": "portraits/hamadryad.png",
+    "sha256": "63a5e3b1127f812d0d0cf4af79d8b1060552096fd0285d3380c85521ae80b878",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Shadar-kai",
+    "slug": "shadar-kai",
+    "file": "portraits/shadar-kai.png",
+    "sha256": "dd2ec3178a003527aa1df209081f0e809d2ba0da214a1b6c35f8bf3a4ee2ee6b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

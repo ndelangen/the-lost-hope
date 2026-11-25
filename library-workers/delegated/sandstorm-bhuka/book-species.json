@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Bhuka",
+    "kind": "species",
+    "publication": "Sandstorm (2005)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid (Goblinoid). −2 Strength, +2 Dexterity. Land speed 30 ft. LA +0.",
+      "Sure Feet (Ex) treats shallow sand as normal terrain, costing 1 square per square entered, and deep sand as shallow sand, costing 2 squares for a Medium Bhuka.",
+      "Glare Resistance (Ex) prevents the dazzled condition from bright sunlight.",
+      "Water Sense (Ex) uses Survival to detect drinkable water within 100 ft. The DC depends on depth. Surface DC 10, up to 10 ft. deep DC 12, 11–20 ft. DC 15, 21–40 ft. DC 20, 41–70 ft. DC 25, and 71–100 ft. DC 30.",
+      "+2 racial on Constitution checks or Fortitude saves against harmful heat and dehydration. Bonus feat Heat Endurance gives +2 on saves against fire effects, heat protection level 1, and comfort through 120°F.",
+      "+2 racial on Knowledge (nature), which is always a class skill.",
+      "Bhuka and Common are automatic. Bonus languages are Draconic and Goblin. Favored class Druid."
+    ]
+  }
+]

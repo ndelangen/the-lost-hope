@@ -1,0 +1,483 @@
+{
+  "Goliath": {
+    "profiles": [
+      {
+        "name": "Goliath",
+        "imageKey": "species:goliath",
+        "kind": "species",
+        "type": "",
+        "publication": "Elemental Evil Player's Companion",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/22-goliath",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/4808/265/340/340/636771217418040075.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/22-goliath",
+        "speciesRulesStatus": "source-lookup",
+        "npcStatus": "missing",
+        "npcBuilds": []
+      },
+      {
+        "name": "Goliath",
+        "imageKey": "species:goliath",
+        "kind": "species",
+        "type": "",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/1026392-goliath",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/851/340/340/637880558312671113.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/1026392-goliath",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium, 30-foot walk. Athletics proficiency, larger effective carrying size, cold resistance, and acclimation to high altitude.",
+          "As a reaction to taking damage, reduce it by 1d12 plus Constitution modifier. Uses equal proficiency bonus per long rest."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#goliath_mpmm",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Goliath.webp",
+              "artist": "Eric Belisle, Jon Hodgson",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Goliath",
+        "imageKey": "species:goliath",
+        "kind": "species",
+        "type": "",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/1751439-goliath",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/43940/490/340/340/638607450043098406.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/1751439-goliath",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Medium.",
+          "Walking speed 35 feet.",
+          "Source traits include Giant Ancestry, Large Form, Powerful Build."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Goliath",
+            "size": "Medium",
+            "edition": "2024 fifth edition",
+            "name": "Skel Downwind",
+            "build": {
+              "id": "quay-champion",
+              "title": "Quay champion",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "2014 fifth edition",
+                "2024 fifth edition"
+              ],
+              "difficulty": "Provisional CR 1 (200 XP)",
+              "size": "Medium",
+              "type": "Humanoid",
+              "ac": 15,
+              "hp": 33,
+              "hitDice": "6d8 + 6",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 16,
+                "DEX": 12,
+                "CON": 12,
+                "INT": 10,
+                "WIS": 11,
+                "CHA": 12
+              },
+              "skills": [
+                "Athletics +5",
+                "Intimidation +3"
+              ],
+              "senses": "Passive Perception 10",
+              "languages": "Common and one local language",
+              "traits": [],
+              "actions": [
+                "Multiattack. Make two Boat hook attacks.",
+                "Boat hook. Melee attack +5, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage. Once per turn on a hit, a Medium or smaller target must succeed on a DC 13 Strength save or move 5 ft. toward the champion.",
+                "Thrown belaying pin. Ranged attack +5, range 20/60 ft., one target. Hit 5 (1d4 + 3) bludgeoning damage."
+              ],
+              "tactics": "Pulls opponents away from the object or person under guard. Stops fighting once the opponent leaves the guarded area."
+            },
+            "role": "Mountain escort and rival",
+            "motive": "Recover a lost climbing crew before bad weather strands a second crew.",
+            "hook": "Skel trades the best lead for help convincing the rival expedition to lend its rope ladders."
+          }
+        ],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#goliath_xphb",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/XPHB/Goliath.webp",
+              "artist": "Hinchel Or",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Goliath",
+        "imageKey": "species:goliath",
+        "kind": "species",
+        "type": "Humanoid",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium, walking speed 35 ft.",
+          "Choose one of six giant ancestries for an active benefit. Temporary Large size becomes available at level 5.",
+          "Powerful Build improves carrying capacity and checks to end the Grappled condition."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Goliath",
+            "size": "Medium",
+            "edition": "2024 fifth edition",
+            "name": "Skel Downwind",
+            "build": {
+              "id": "quay-champion",
+              "title": "Quay champion",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "2014 fifth edition",
+                "2024 fifth edition"
+              ],
+              "difficulty": "Provisional CR 1 (200 XP)",
+              "size": "Medium",
+              "type": "Humanoid",
+              "ac": 15,
+              "hp": 33,
+              "hitDice": "6d8 + 6",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 16,
+                "DEX": 12,
+                "CON": 12,
+                "INT": 10,
+                "WIS": 11,
+                "CHA": 12
+              },
+              "skills": [
+                "Athletics +5",
+                "Intimidation +3"
+              ],
+              "senses": "Passive Perception 10",
+              "languages": "Common and one local language",
+              "traits": [],
+              "actions": [
+                "Multiattack. Make two Boat hook attacks.",
+                "Boat hook. Melee attack +5, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage. Once per turn on a hit, a Medium or smaller target must succeed on a DC 13 Strength save or move 5 ft. toward the champion.",
+                "Thrown belaying pin. Ranged attack +5, range 20/60 ft., one target. Hit 5 (1d4 + 3) bludgeoning damage."
+              ],
+              "tactics": "Pulls opponents away from the object or person under guard. Stops fighting once the opponent leaves the guarded area."
+            },
+            "role": "Mountain escort and rival",
+            "motive": "Recover a lost climbing crew before bad weather strands a second crew.",
+            "hook": "Skel trades the best lead for help convincing the rival expedition to lend its rope ladders."
+          }
+        ]
+      },
+      {
+        "name": "Goliath",
+        "imageKey": "species:goliath",
+        "kind": "species",
+        "type": "",
+        "publication": "Volo's Guide to Monsters",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Medium.",
+          "Walking speed 30 feet.",
+          "Damage resistance includes cold.",
+          "Source traits include Age, Size, Natural Athlete, Stone's Endurance, Powerful Build, Mountain Born, Languages."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#goliath_vgm",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/VGM/Goliath.webp",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Goliath",
+        "imageKey": "species:goliath",
+        "kind": "species",
+        "type": "Monstrous Humanoid",
+        "publication": "Races of Stone (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144379M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Monstrous Humanoid with a 30-ft. base land speed. +4 Strength, −2 Dexterity, +2 Constitution. Proficient with simple weapons through the species. Armor and shield proficiency come from other sources, such as class.",
+          "Darkvision 60 ft. comes from the Monstrous Humanoid type, as confirmed by the official 3.5 FAQ.",
+          "Powerful Build treats a Goliath as one size larger when that helps an opposed check with a size modifier, such as grapple, bull rush, or trip. Treat it as one size larger against size-dependent special attacks such as improved grab or swallow whole.",
+          "Powerful Build also allows weapons designed for creatures one size larger without an inappropriate-size penalty. Space, reach, and natural or unarmed damage use actual size. It stacks with size changes that preserve the trait.",
+          "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+          "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation.",
+          "+2 bonus on Sense Motive checks. Common and Gol-Kaa are automatic. Bonus languages are Dwarven, Giant, Gnoll, and Terran.",
+          "Favored class Barbarian. Level adjustment +1. The playable entry grants no racial Hit Dice.",
+          "Optional Barbarian substitution at class level 1 replaces ordinary rage with Mountain Rage. It makes the Goliath Large, adds +2 Strength beyond ordinary rage, and gives 10-ft. space and reach and an extra −1 to AC and attacks. The substitution keeps equipment fitting and explicitly gives no additional weapon-size or grapple benefit from Powerful Build."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Goliath",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of Stone (2004)",
+            "name": "Kethan Linekeeper Varukutai",
+            "build": {
+              "id": "goliath-route-rigger-35e",
+              "title": "Goliath route rigger, Expert 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 2.",
+              "size": "Medium",
+              "type": "Monstrous Humanoid",
+              "ac": 13,
+              "hp": 8,
+              "hitDice": "1d6+2",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 18,
+                "DEX": 12,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +8",
+                "Craft (ropemaking) +5",
+                "Jump +8",
+                "Listen +4",
+                "Sense Motive +9",
+                "Spot +4",
+                "Use Rope +5"
+              ],
+              "senses": "Darkvision 60 ft.",
+              "languages": "Common, Gol-Kaa, Dwarven",
+              "traits": [
+                "Space 5 ft. Natural reach 5 ft. Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +8 with Powerful Build. Fortitude +2, Reflex +1, Will +2.",
+                "Powerful Build lets Kethan wield Large weapons. Determine weapon reach from his actual Medium size and the weapon’s reach property.",
+                "Skill Focus (Sense Motive) adds +3. Sense Motive already includes the species’ +2 bonus. Each listed skill has four Expert class ranks.",
+                "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+                "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation."
+              ],
+              "actions": [
+                "Large longspear +4 melee, 2d6+6 piercing, critical ×3. Hits at 10 ft. but cannot hit adjacent targets.",
+                "Large club +4 melee, 1d8+4 bludgeoning, critical ×2, 5-ft. reach. May instead throw it at +1 with a 10-ft. range increment."
+              ],
+              "tactics": "Kethan asks the party to check the downhill anchors before he crosses to rig a line. He takes a standing jump across the break and can climb at half speed while attaching the line. If cornered on the path, he uses the longspear at 10 ft. and the club up close."
+            },
+            "role": "Route rigger and Expert.",
+            "motive": "Reopen the pass before sleet reaches the exposed shoulder.",
+            "hook": "Kethan can rig a crossing if the party checks which downhill anchors survived the rockfall."
+          },
+          {
+            "species": "Goliath",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Races of Stone (2004)",
+            "name": "Rova Stonecaller Athamavi",
+            "build": {
+              "id": "goliath-rockfall-lookout-35e",
+              "title": "Goliath rockfall lookout, Barbarian 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 2. ECL 2.",
+              "size": "Medium",
+              "type": "Monstrous Humanoid",
+              "ac": 14,
+              "hp": 14,
+              "hitDice": "1d12+2",
+              "initiative": 5,
+              "speed": "40 ft.",
+              "abilityScores": {
+                "STR": 19,
+                "DEX": 12,
+                "CON": 15,
+                "INT": 10,
+                "WIS": 12,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +7",
+                "Jump +11",
+                "Knowledge (nature) +4",
+                "Listen +5",
+                "Sense Motive +3"
+              ],
+              "senses": "Darkvision 60 ft.",
+              "languages": "Common, Gol-Kaa",
+              "traits": [
+                "Space and natural reach 5 ft. Studded leather +3, Dexterity +1. Touch 11, flat-footed 13. BAB +1, grapple +9 with Powerful Build. Fortitude +4, Reflex +1, Will +1.",
+                "Improved Initiative adds +4. Fast Movement adds 10 ft. before armor and load modifiers. With the listed gear and a light load, speed is 40 ft. and Jump includes the +4 speed bonus. Barbarian illiteracy applies.",
+                "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+                "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation."
+              ],
+              "actions": [
+                "Large greatsword +5 melee, 3d6+6 slashing, critical 19–20/×2, reach 5 ft. In Mountain Rage, +7 melee, 3d6+10 slashing, 10-ft. reach.",
+                "Large javelin +2 ranged, 1d8+4 piercing, critical ×2, 30-ft. increment. In Mountain Rage, +1 ranged and 1d8+7 piercing.",
+                "Mountain Rage once per day, at most once per encounter, up to 7 rounds. Become Large with 10-ft. space and reach, Strength 25, Constitution 19, HP 16, AC 11, touch 8, flat-footed 10, grapple +12, Fortitude +6, Reflex +1, Will +3, Climb +10, and Jump +14. Weapons stay Large and the grapple size modifier stays +4. Remove 2 bonus HP when rage ends. Fatigue lasts through the encounter, with −2 Str and Dex and no running or charging."
+              ],
+              "tactics": "Rova calls the watch when stones start moving above the quarry path. She holds anyone at the marked turn until the path is clear, and uses Mountain Rage to defend the shelter if a creature follows the crew down."
+            },
+            "role": "Rockfall lookout and Barbarian.",
+            "motive": "Get the quarry crew into shelter before the next fall.",
+            "hook": "Rova can lead the party to the shelter if they help account for the crew at the path marker."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Goliath",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of Stone (2004)",
+        "name": "Kethan Linekeeper Varukutai",
+        "build": {
+          "id": "goliath-route-rigger-35e",
+          "title": "Goliath route rigger, Expert 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 2.",
+          "size": "Medium",
+          "type": "Monstrous Humanoid",
+          "ac": 13,
+          "hp": 8,
+          "hitDice": "1d6+2",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 18,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +8",
+            "Craft (ropemaking) +5",
+            "Jump +8",
+            "Listen +4",
+            "Sense Motive +9",
+            "Spot +4",
+            "Use Rope +5"
+          ],
+          "senses": "Darkvision 60 ft.",
+          "languages": "Common, Gol-Kaa, Dwarven",
+          "traits": [
+            "Space 5 ft. Natural reach 5 ft. Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple +8 with Powerful Build. Fortitude +2, Reflex +1, Will +2.",
+            "Powerful Build lets Kethan wield Large weapons. Determine weapon reach from his actual Medium size and the weapon’s reach property.",
+            "Skill Focus (Sense Motive) adds +3. Sense Motive already includes the species’ +2 bonus. Each listed skill has four Expert class ranks.",
+            "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+            "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation."
+          ],
+          "actions": [
+            "Large longspear +4 melee, 2d6+6 piercing, critical ×3. Hits at 10 ft. but cannot hit adjacent targets.",
+            "Large club +4 melee, 1d8+4 bludgeoning, critical ×2, 5-ft. reach. May instead throw it at +1 with a 10-ft. range increment."
+          ],
+          "tactics": "Kethan asks the party to check the downhill anchors before he crosses to rig a line. He takes a standing jump across the break and can climb at half speed while attaching the line. If cornered on the path, he uses the longspear at 10 ft. and the club up close."
+        },
+        "role": "Route rigger and Expert.",
+        "motive": "Reopen the pass before sleet reaches the exposed shoulder.",
+        "hook": "Kethan can rig a crossing if the party checks which downhill anchors survived the rockfall."
+      },
+      {
+        "species": "Goliath",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Races of Stone (2004)",
+        "name": "Rova Stonecaller Athamavi",
+        "build": {
+          "id": "goliath-rockfall-lookout-35e",
+          "title": "Goliath rockfall lookout, Barbarian 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 2. ECL 2.",
+          "size": "Medium",
+          "type": "Monstrous Humanoid",
+          "ac": 14,
+          "hp": 14,
+          "hitDice": "1d12+2",
+          "initiative": 5,
+          "speed": "40 ft.",
+          "abilityScores": {
+            "STR": 19,
+            "DEX": 12,
+            "CON": 15,
+            "INT": 10,
+            "WIS": 12,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +7",
+            "Jump +11",
+            "Knowledge (nature) +4",
+            "Listen +5",
+            "Sense Motive +3"
+          ],
+          "senses": "Darkvision 60 ft.",
+          "languages": "Common, Gol-Kaa",
+          "traits": [
+            "Space and natural reach 5 ft. Studded leather +3, Dexterity +1. Touch 11, flat-footed 13. BAB +1, grapple +9 with Powerful Build. Fortitude +4, Reflex +1, Will +1.",
+            "Improved Initiative adds +4. Fast Movement adds 10 ft. before armor and load modifiers. With the listed gear and a light load, speed is 40 ft. and Jump includes the +4 speed bonus. Barbarian illiteracy applies.",
+            "Mountain Movement allows standing long jumps and high jumps using the running Jump rules. Accelerated climbing moves half speed as a move action without the usual −5 Climb penalty. Climb checks still apply.",
+            "Acclimated removes the altitude penalties under Mountain Travel in the Dungeon Master’s Guide, p. 90. Acclimation persists after time at low elevation."
+          ],
+          "actions": [
+            "Large greatsword +5 melee, 3d6+6 slashing, critical 19–20/×2, reach 5 ft. In Mountain Rage, +7 melee, 3d6+10 slashing, 10-ft. reach.",
+            "Large javelin +2 ranged, 1d8+4 piercing, critical ×2, 30-ft. increment. In Mountain Rage, +1 ranged and 1d8+7 piercing.",
+            "Mountain Rage once per day, at most once per encounter, up to 7 rounds. Become Large with 10-ft. space and reach, Strength 25, Constitution 19, HP 16, AC 11, touch 8, flat-footed 10, grapple +12, Fortitude +6, Reflex +1, Will +3, Climb +10, and Jump +14. Weapons stay Large and the grapple size modifier stays +4. Remove 2 bonus HP when rage ends. Fatigue lasts through the encounter, with −2 Str and Dex and no running or charging."
+          ],
+          "tactics": "Rova calls the watch when stones start moving above the quarry path. She holds anyone at the marked turn until the path is clear, and uses Mountain Rage to defend the shelter if a creature follows the crew down."
+        },
+        "role": "Rockfall lookout and Barbarian.",
+        "motive": "Get the quarry crew into shelter before the next fall.",
+        "hook": "Rova can lead the party to the shelter if they help account for the crew at the path marker."
+      }
+    ]
+  }
+}

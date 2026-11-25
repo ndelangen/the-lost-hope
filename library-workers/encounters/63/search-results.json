@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hobgoblin Firerunner",
+    "query": "red-orange skirmisher desert settlements fiery leap blaze sprint",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Trooper",
+    "query": "bone-faced fortified settlements fire flail fight me coward",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Flee, Mortals!",
+        "url": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,2613 @@
+[
+  {
+    "name": "Bat",
+    "version": {
+      "key": "ad5b27eaa2dbdf5434181801",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "8"
+        ],
+        [
+          "Hit dice",
+          "1–2 hp"
+        ],
+        [
+          "Size",
+          "T, 1 ft."
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "1, Fl 24 (B)"
+        ],
+        [
+          "THAC0",
+          "20"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1"
+        ],
+        [
+          "XP",
+          "15"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Warm humid areas, caves, dark buildings, and damp crevices"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A tiny bat with a mouse-like body and thin skin stretched between its wing bones."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Echolocation"
+          ]
+        },
+        {
+          "title": "Alternate armor classes",
+          "lines": [
+            "4 · In ideal flying conditions"
+          ]
+        },
+        {
+          "title": "Group behavior mechanics",
+          "lines": [
+            "Startled swarm · A cornered bat may bite. Startled bats fly around in confusion. Each bat has a 1% chance per round to extinguish torches. In the swarm, spellcasters need a Wisdom check to cast and combatants take a −2 THAC0 penalty."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–100 appearing. The table lists swarm organization. Nocturnal and omnivorous.",
+            "Common. Animal intelligence (1). Neutral. Unreliable (2–4) morale. Treasure and magic resistance Nil.",
+            "The Hit Dice line gives 1–2 HP. The electronic edition instead reads Unreliable (2–5) for morale. This profile uses the printed table.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "933a05fb3f526fbce68ddd84",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 5 ft., fly 30 ft."
+          ],
+          [
+            "Str",
+            "2"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "8"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +0 to hit · reach 5 ft. · 1 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "2a6501fa0720f064dcabd37c",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "8"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "0 5 ft., 1   ft., 2 f ft., 3 t ft., 4 . ft., 5 , ft., 6   ft., 7 f ft., 8 l ft., 9 y ft., 10   ft., 11 3 ft., 12 0 ft., 13   ft., 14 f ft., 15 t ft., 16 . ft."
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee",
+              "Bite · melee"
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "cb3d2e032f0f75d047b76eb5",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Tiny beast with challenge rating 0. Named abilities include Echolocation, Keen Hearing, Bite.",
+        "source": "https://5e.tools/bestiary.html#bat_mm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/18/305/1000/1000/636379812593010967.jpeg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 5 ft., fly 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "11"
+          ],
+          [
+            "Initiative",
+            "2"
+          ],
+          [
+            "Strength",
+            "2"
+          ],
+          [
+            "Dexterity",
+            "15"
+          ],
+          [
+            "Constitution",
+            "8"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +0 to hit · reach 5 ft. · 1 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Echolocation · Deafened",
+              "Keen Hearing · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +0 to hit · 1 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 318,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 318",
+            "url": "https://5e.tools/bestiary.html#bat_mm"
+          },
+          {
+            "label": "Deafened (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#deafened_phb",
+            "local": {
+              "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+            },
+            "preview": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Echolocation · Deafened": [
+            {
+              "start": 15,
+              "end": 23,
+              "target": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            }
+          ],
+          "Keen Hearing · Perception": [
+            {
+              "start": 15,
+              "end": 25,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "13f3e5e4f0761fe7f1422e8b",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Tiny beast with challenge rating 0. Listed habitats: forest, mountain, underdark, urban. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#bat_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/43938/918/1000/1000/638607409599142805.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 - 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Tiny"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 5 ft., fly 30 ft."
+          ],
+          [
+            "Passive Perception",
+            "11"
+          ],
+          [
+            "Strength",
+            "2"
+          ],
+          [
+            "Dexterity",
+            "15"
+          ],
+          [
+            "Constitution",
+            "8"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "4"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "mountain",
+              "underdark",
+              "urban",
+              "forest, mountain, underdark, urban"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1 Piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 349",
+            "url": "https://5e.tools/bestiary.html#bat_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "a2b703c74ec7ec0a0a781dd1",
+        "publication": "Monster Vault",
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "0.0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "a1ef70f8ca4c27f83c30d565",
+        "publication": "Revised v3.5 SRD (Monsters)",
+        "edition": "3.5 edition",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/10"
+          ],
+          [
+            "Type",
+            "Animal"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "0956f822ad2af9ef30eafb38",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 − 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "5 ft., fly 30 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "2"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "8"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Tiny beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses blindsight 60 ft., passive Perception 11 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses blindsight 60 ft., passive Perception 11 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing.": [
+            {
+              "start": 36,
+              "end": 46,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 61,
+              "target": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            },
+            {
+              "start": 89,
+              "end": 98,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 110,
+              "end": 120,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b21d725db603eb11f62761c4",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "12"
+          ],
+          [
+            "Hit points",
+            "1"
+          ],
+          [
+            "Hit dice",
+            "1d4 − 1"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "5 ft., Fly 30 ft."
+          ],
+          [
+            "XP",
+            "10"
+          ],
+          [
+            "Str",
+            "2"
+          ],
+          [
+            "Dex",
+            "15"
+          ],
+          [
+            "Con",
+            "8"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "4"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Tiny Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Blindsight 60 ft.; Passive Perception 11 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "5 ft., Fly 30 ft.": [
+            {
+              "start": 7,
+              "end": 10,
+              "target": {
+                "name": "Fly",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 276,
+                "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+                "local": {
+                  "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                  "version": "XPHB:276:https://5e.tools/spells.html#fly_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Blindsight 60 ft.; Passive Perception 11 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 26,
+              "end": 44,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Bat": true,
+      "bat swarm torches wisdom": true,
+      "bat mouse-like wing bones": true,
+      "bat humid crevices": true
+    },
+    "hash": "bb1844718125609b36b97f1894b138c38ce00341e5652fa5deb8a454fd4b5e0f",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "933a05fb3f526fbce68ddd84",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  },
+  {
+    "name": "Giant Bat",
+    "version": {
+      "key": "8a84fb1057acf13fa10c1c94",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "8"
+        ],
+        [
+          "Hit dice",
+          "1d4 hp or 1 HD"
+        ],
+        [
+          "Size",
+          "M, 5–6 ft. wingspan"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "3, Fl 18 (C)"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1d2 or 1d4"
+        ],
+        [
+          "XP",
+          "35"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land",
+            "Dark caverns, usually underground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large carnivorous bat with a 3-foot body and a wingspan of 5–6 feet."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Echolocation while flying"
+          ]
+        },
+        {
+          "title": "Attacks and defenses mechanics",
+          "lines": [
+            "Grounded bite · The bat must land, often on the victim, to bite. The usual bite deals 1d2 damage. The more powerful 1 HD variety makes up 10% of Giant Bats and bites for 1d4.",
+            "Missile defense · While flying, the bat gains a +3 Armor Class bonus against missile attacks from opponents with Dexterity 13 or less."
+          ]
+        },
+        {
+          "title": "Bite disease rules mechanics",
+          "lines": [
+            "Rabies in AD&D · A bite has a 1% chance per point of damage to cause disease. The printed game rule uses a 1d4+6 day onset and a ten-day survival window after onset. An afflicted character cannot eat or drink. If provoked, a failed Wisdom check makes them attack until killed or knocked unconscious. The entry allows cure disease, wish, limited wish, alter reality, or similar magic to cure it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "3–18 appearing. The table lists flock organization. Nocturnal and omnivorous.",
+            "Uncommon. Animal intelligence (1). Neutral. Unsteady (5–7) morale. Treasure and magic resistance Nil.",
+            "The table lists THAC0 19 or 20 without explicitly assigning either value to one of the two HP or HD options.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [
+      {
+        "key": "5296560c47766dd0c94dccc4",
+        "publication": "Basic Rules (2018)",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "c755671cb11e0d21919ee67c",
+        "publication": "Black Flag Roleplaying Reference Document v0.2",
+        "edition": "Black Flag Roleplaying",
+        "images": [],
+        "stats": [
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ]
+        ],
+        "sections": []
+      },
+      {
+        "key": "bc36efba3faa50b8fd00aa1e",
+        "publication": "DDAL04-01 - The Suits of the Mists",
+        "edition": "2014 fifth edition",
+        "status": "Combat summary",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "374d08112becbf5d8dae7c70",
+        "publication": "Monster Manual (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast with challenge rating 1/4. Listed habitats: underdark, forest. Named abilities include Echolocation, Keen Hearing, Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20bat_mm",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "11"
+          ],
+          [
+            "Initiative",
+            "3"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "6"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "blindsight 60 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "underdark, forest"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Echolocation · Deafened",
+              "Keen Hearing · Perception"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +4 to hit · 1d6 + 2 piercing damage · reach 5 ft."
+            ]
+          }
+        ],
+        "sourceCode": "MM",
+        "page": 323,
+        "references": [
+          {
+            "label": "Monster Manual (2014), p. 323",
+            "url": "https://5e.tools/bestiary.html#giant%20bat_mm"
+          },
+          {
+            "label": "Deafened (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#deafened_phb",
+            "local": {
+              "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+              "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+            },
+            "preview": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          },
+          {
+            "label": "Perception (skill)",
+            "url": "https://5e.tools/skills.html#perception_phb",
+            "local": {
+              "entry": "compendium-f21bfeaccf140efabf3793fe",
+              "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+            },
+            "preview": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Initiative": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Initiative",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 369,
+                "local": {
+                  "entry": "compendium-f7647d543d6e04bd0782c504",
+                  "version": "XPHB:369:https://5e.tools/variantrules.html#initiative_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "blindsight 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            }
+          ],
+          "Echolocation · Deafened": [
+            {
+              "start": 15,
+              "end": 23,
+              "target": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            }
+          ],
+          "Keen Hearing · Perception": [
+            {
+              "start": 15,
+              "end": 25,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "6f7379027c68c45baabc9cab",
+        "publication": "Monster Manual (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 1/4. Listed habitats: forest, mountain, underdark. Named abilities include Bite.",
+        "source": "https://5e.tools/bestiary.html#giant%20bat_xmm",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/47138/848/1000/1000/638741964095504539.png",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          },
+          {
+            "url": "",
+            "credit": "Monster Manual (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 10 ft., fly 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "11"
+          ],
+          [
+            "Strength",
+            "15"
+          ],
+          [
+            "Dexterity",
+            "16"
+          ],
+          [
+            "Constitution",
+            "11"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "12"
+          ],
+          [
+            "Charisma",
+            "6"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Habitats",
+            "lines": [
+              "forest",
+              "mountain",
+              "underdark",
+              "forest, mountain, underdark"
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Blindsight 120 ft."
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Bite · Melee attack · +5 to hit · 1d6 + 3 piercing damage · reach 5 ft."
+            ]
+          },
+          {
+            "title": "Lore topics in the source",
+            "lines": [
+              "Animals"
+            ]
+          }
+        ],
+        "sourceCode": "XMM",
+        "references": [
+          {
+            "label": "Monster Manual (2025), p. 355",
+            "url": "https://5e.tools/bestiary.html#giant%20bat_xmm"
+          },
+          {
+            "label": "Panther (creature)",
+            "url": "https://5e.tools/bestiary.html#panther_xmm",
+            "local": {
+              "entry": "beast-346793476af7c0a55cfa62ab",
+              "version": "b2bb83792ec748263d8b7b46"
+            },
+            "preview": {
+              "name": "Panther",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Medium beast with challenge rating 1/4. Listed habitats: forest, grassland, hill. Named abilities include Rend, Nimble Escape.",
+              "local": {
+                "entry": "beast-346793476af7c0a55cfa62ab",
+                "version": "b2bb83792ec748263d8b7b46"
+              }
+            }
+          },
+          {
+            "label": "Giant Goat (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20goat_xmm",
+            "local": {
+              "entry": "beast-6f3ba88f8055270588c02a34",
+              "version": "426fa41934a075969d8d0faf"
+            },
+            "preview": {
+              "name": "Giant Goat",
+              "group": "Beast",
+              "publication": "Monster Manual (2024)",
+              "description": "A Large beast with challenge rating 1/2. Listed habitats: grassland, hill, mountain. Named abilities include Ram.",
+              "local": {
+                "entry": "beast-6f3ba88f8055270588c02a34",
+                "version": "426fa41934a075969d8d0faf"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Blindsight 120 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b3e24cacec4e39843e125744",
+        "publication": "SRD 5.1",
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "10 ft., fly 60 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large beast, unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses blindsight 60 ft., passive Perception 11 Languages —"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Senses blindsight 60 ft., passive Perception 11 Languages —": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 34,
+              "end": 44,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Echolocation. The bat can’t use its blindsight while deafened. Keen Hearing. The bat has advantage on Wisdom (Perception) checks that rely on hearing.": [
+            {
+              "start": 36,
+              "end": 46,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "PHB:183:https://5e.tools/senses.html#blindsight_phb"
+                }
+              }
+            },
+            {
+              "start": 53,
+              "end": 61,
+              "target": {
+                "name": "Deafened",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 290,
+                "description": "You cannot hear and automatically fail checks that require hearing.",
+                "local": {
+                  "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                  "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+                }
+              }
+            },
+            {
+              "start": 89,
+              "end": 98,
+              "target": {
+                "name": "Advantage",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2014)",
+                "page": 173,
+                "description": "Roll two d20s and use the higher roll.",
+                "local": {
+                  "entry": "compendium-694118169b5a4aef2291ff71",
+                  "version": "PHB:173:https://5e.tools/book.html#PHB"
+                }
+              }
+            },
+            {
+              "start": 110,
+              "end": 120,
+              "target": {
+                "name": "Perception",
+                "group": "Skills",
+                "publication": "Player's Handbook (2014)",
+                "page": 178,
+                "local": {
+                  "entry": "compendium-f21bfeaccf140efabf3793fe",
+                  "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.": [
+            {
+              "start": 12,
+              "end": 25,
+              "target": {
+                "name": "Weapon Attack",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 377,
+                "local": {
+                  "entry": "compendium-f8978a5da2977fc5a556ab9c",
+                  "version": "XPHB:377:https://5e.tools/variantrules.html#weapon%20attack_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "62891d5bb6f073ad5aa05f5b",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "13"
+          ],
+          [
+            "Hit points",
+            "22"
+          ],
+          [
+            "Hit dice",
+            "4d10"
+          ],
+          [
+            "Challenge",
+            "1/4"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "10 ft., Fly 60 ft."
+          ],
+          [
+            "XP",
+            "50"
+          ],
+          [
+            "Str",
+            "15"
+          ],
+          [
+            "Dex",
+            "16"
+          ],
+          [
+            "Con",
+            "11"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "12"
+          ],
+          [
+            "Cha",
+            "6"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Blindsight 120 ft.; Passive Perception 11 Languages None"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage."
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "10 ft., Fly 60 ft.": [
+            {
+              "start": 8,
+              "end": 11,
+              "target": {
+                "name": "Fly",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 276,
+                "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+                "local": {
+                  "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                  "version": "XPHB:276:https://5e.tools/spells.html#fly_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Blindsight 120 ft.; Passive Perception 11 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Blindsight",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-07dd97e41872842acf1183db",
+                  "version": "XPHB:361:https://5e.tools/senses.html#blindsight_xphb"
+                }
+              }
+            },
+            {
+              "start": 27,
+              "end": 45,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) Piercing damage.": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Attack Roll",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 361,
+                "local": {
+                  "entry": "compendium-2570a567c24ef3f4b5e35b50",
+                  "version": "XPHB:361:https://5e.tools/variantrules.html#attack%20roll_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "queries": {
+      "Giant Bat": true,
+      "giant bat land bite dexterity": true,
+      "giant bat carnivorous wingspan": true,
+      "giant bat dark caverns underground": true
+    },
+    "hash": "a4bd50033f34294caacf1f44aa6f88d83953d3dad21eb2d0f3e32fed3ccf551b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [
+      {
+        "url": "",
+        "credit": "Monster Manual (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      },
+      {
+        "url": "",
+        "credit": "Monster Manual (2024)"
+      }
+    ],
+    "defaultPublication": "Basic Rules (2018)",
+    "defaultVersionKey": "5296560c47766dd0c94dccc4",
+    "entryImage": {
+      "url": "",
+      "credit": "Monster Manual (2014)"
+    }
+  },
+  {
+    "name": "Mobat",
+    "version": {
+      "key": "de18e79554f7a0b601ed8324",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "4–6"
+        ],
+        [
+          "Size",
+          "H, 12–16 ft. wingspan"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "3, Fl 15 (C)"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "2d4"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Warm caves",
+            "Large flight runways"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A huge fanged bat with a twelve- to sixteen-foot wingspan."
+          ]
+        },
+        {
+          "title": "Alternate armor classes",
+          "lines": [
+            "2 · Mobile in flight",
+            "7 · Crowded in flight",
+            "10 · Grounded"
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Silent flight · Rapid, silent flight gives its victims a −3 penalty on surprise rolls.",
+            "Screech · If prey resists, the Mobat screeches in a 20-foot radius. Affected victims must save vs. paralyzation or cover their ears instead of fighting."
+          ]
+        },
+        {
+          "title": "Printed variants mechanics",
+          "lines": [
+            "4 Hit Dice · THAC0 17 and 420 XP.",
+            "5 Hit Dice · THAC0 15 and 650 XP.",
+            "6 Hit Dice · THAC0 15 and 975 XP."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Flight space · It needs room to take off and land. The prose describes a preference for warm-blooded prey and an interest in shiny objects."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–8 appearing. The table lists flock organization. Nocturnal and omnivorous.",
+            "Rare. Low intelligence (5–7). Neutral evil. Steady (11–12) morale. Treasure type C. Magic resistance Nil.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Mobat": true,
+      "mobat screech paralyzation surprise": true,
+      "mobat fanged wingspan": true,
+      "mobat warm caves flight runways": true
+    },
+    "hash": "fe68683f6c4709dc060510132fbe4977f411c70d42403ddc2ccca202270f2ff1",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "defaultVersionKey": "de18e79554f7a0b601ed8324",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

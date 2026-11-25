@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Relicborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "kind": "species",
+    "traits": [
+      "Avantris Entertainment, 2024 Player v1.1, p. 12.",
+      "Medium Undead with a walking speed of 30 ft. A relicborn has decorated bones and a translucent body around them.",
+      "Dance of Death. Spend a bonus action to roll Charisma with Performance or a musical instrument against DC 15. A success grants advantage on your next attack roll this turn. At DC 20 or higher, also roll a Hit Point Die for temporary HP equal to the result while keeping the die unspent.",
+      "Eternal Party. You can go without sleep. You can complete a long rest by spending four hours in revelry.",
+      "Moment of Remembrance. As a reaction, add 1d4 to a failed D20 Test by another creature you can see within 30 ft. Turning a failure into a success expends the trait until a short or long rest.",
+      "Soul of Revelry. Take proficiency with a musical instrument or in Performance."
+    ]
+  },
+  {
+    "name": "Silkborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "kind": "species",
+    "traits": [
+      "Avantris Entertainment, 2024 Player v1.1, p. 13.",
+      "Medium Humanoid with 30 ft. walking and a climb speed equal to your walking speed. A silkborn has a carapace, extra eyes, mandibles and segmented limbs on the back.",
+      "Bejeweled Carapace. After an attack roll hits, use your reaction to add your proficiency bonus to AC against that roll. This can turn it into a miss. Recovers after a short or long rest.",
+      "Darkvision out to 60 ft.",
+      "Silken Legacy. Learn Thaumaturgy. Always prepare Find Familiar at level 3 and Web at level 5. The familiar looks like a jeweled insect or arachnid. Each gained spell can be cast once per long rest without a slot or material components, and with suitable slots as normal. Choose Intelligence, Wisdom, or Charisma for these spells.",
+      "Spider Climb. Climb difficult surfaces with free hands and without an ability check, including ceilings."
+    ]
+  },
+  {
+    "name": "Stoneborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "kind": "species",
+    "traits": [
+      "Avantris Entertainment, 2024 Player v1.1, p. 14.",
+      "Small or Medium Construct. Walk 30 ft. and fly at half your walking speed. These winged folk are shaped from stone.",
+      "Argent Gleam. Once per long rest, spend a bonus action to choose Path’s Grace or Zealous Charge. Path’s Grace casts Bless without materials. Zealous Charge takes the Dash action and adds 2d6 radiant damage to the target of the first attack roll this turn, hit or miss.",
+      "Silver Bulwark. On taking bludgeoning, piercing, or slashing damage, use a reaction for resistance to all three through the start of your next turn. Recharge after a short or long rest.",
+      "Watchful Senses. Choose proficiency in Insight, Perception, or Survival."
+    ]
+  },
+  {
+    "name": "Threadborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "kind": "species",
+    "traits": [
+      "Avantris Entertainment, 2024 Player v1.1, p. 15.",
+      "Small or Medium Construct with a 30-ft. walking speed. A threadborn is a living doll made from any number of toy-making materials.",
+      "Ball-Jointed. Move through paths only 1 ft. wide by treating them as difficult terrain.",
+      "Innocent Mind grants psychic resistance. Sewn Nature removes the need to breathe, eat, or drink.",
+      "Soothing Heart. Learn Guidance. Always prepare Sanctuary at level 3 and Calm Emotions at level 5. Cast each granted leveled spell without a slot once per long rest, or use appropriate slots. The free Calm Emotions can affect creatures of any type. Choose Intelligence, Wisdom, or Charisma as the casting ability.",
+      "You’ve Got a Friend. On a failed skill check by a creature you see within 30 ft., use a reaction for Guidance at that range. Add the spell’s d4 to the failed check, then end the spell. Uses equal proficiency bonus and refresh on a long rest."
+    ]
+  }
+]

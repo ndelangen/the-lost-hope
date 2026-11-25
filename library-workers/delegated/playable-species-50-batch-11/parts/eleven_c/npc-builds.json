@@ -1,0 +1,278 @@
+{
+  "builds": [
+    {
+      "id": "mr1-crab-clatterclaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Dockside listener, Monk 1",
+      "difficulty": "Monk 1",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "25 ft., swim 20 ft.",
+      "ac": 14,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 2,
+      "senses": "Blindsight 60 ft. Passive Perception 14.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 15,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 15,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +2",
+        "Perception +4",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +2, Dexterity save +4. Unarmored Defense gives AC 14 from 10 + Dexterity 2 + Wisdom 2. Natural armor alone gives AC 13. HP 10 is 8 + Constitution 2.",
+        "Sailor supplies Athletics, Perception, and Ship’s Passage. Monk supplies Acrobatics and Stealth. Clatterclaw carries no equipment and follows the normal rules for holding breath."
+      ],
+      "actions": [
+        "Claw. Dexterity-based unarmed strike using Martial Arts, +4 to hit, reach 5 ft., 1d4+2 slashing.",
+        "Martial Arts. After taking the Attack action with Claw, make one shell bump as a bonus action. +4 to hit, 5 ft. reach, 1d4+2 bludgeoning."
+      ],
+      "tactics": "Clatterclaw waits under the landing, calls out when someone approaches the loose planks, and skitters sideways into another gap if they try to catch it."
+    },
+    {
+      "id": "mr1-crocodile-mirejaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Ferry barrier guard, Barbarian 1",
+      "difficulty": "Barbarian 1",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "20 ft., swim 30 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Goblin.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Natural AC 14 comes from 12 + Dexterity 2. Unarmored Defense also gives 14. HP 14 is 12 + Constitution 2.",
+        "Outlander supplies Athletics, Survival, Goblin, and Wanderer. Barbarian supplies Animal Handling and Perception. Mirejaw fights without equipment and uses ordinary breath-holding rules."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike, +5 to hit, reach 5 ft., 1d8+3 piercing, or 1d8+5 while raging.",
+        "Bite Grapple. After an Attack-action Bite hits, use a bonus action to try to grapple the target with the jaws. It must be Large or smaller and in reach. Mirejaw rolls Athletics +5 against the target’s Athletics or Acrobatics, chosen by the target. The grapple succeeds automatically against an incapacitated target. The target can use an action to contest the same check and escape.",
+        "Rage. Bonus action twice per long rest. For up to 1 minute, gain advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 damage on Strength-based melee attacks including Bite. Rage ends early on unconsciousness or if Mirejaw finishes a turn without attacking a hostile creature or taking damage since its last turn. Mirejaw can also end it as a bonus action."
+      ],
+      "tactics": "Mirejaw bites and holds a creature that threatens the ferry crew. If it spends its bonus action on Rage, it waits to try the Bite Grapple until it lands a hit on a later turn."
+    },
+    {
+      "id": "mr1-deer-tawnbell",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Meadow warden, Druid 1",
+      "difficulty": "Druid 1",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "50 ft.",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Passive Perception 15.",
+      "languages": "Common, Sylvan, and Druidic.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Medicine +5",
+        "Nature +2",
+        "Perception +5",
+        "Religion +2"
+      ],
+      "traits": [
+        "Proficiency +2. Intelligence save +2, Wisdom save +5. Unarmored AC 13 is 10 + Dexterity 3. HP 10 is 8 + Constitution 2.",
+        "Hermit supplies Medicine, Religion, Sylvan, and Discovery. Druid supplies Nature, Perception, and Druidic. Tawnbell wears no armor and carries no focus.",
+        "Spellcasting uses Wisdom. Save DC 13, spell attack +5, and two 1st-level slots per long rest. Tawnbell prepares four spells and uses two cantrips. Kamstra’s p. 8 clarification allows body gestures for somatic components. Every selected spell uses only verbal or somatic components."
+      ],
+      "actions": [
+        "Gore. Strength-based unarmed strike, +1 to hit, reach 5 ft., 1d4−1 piercing, minimum 0.",
+        "Druidcraft. Action, range 30 ft., V/S. Produce a minor natural sign, such as a weather omen lasting 1 round.",
+        "Guidance. Action, touch, V/S. Concentrate up to 1 minute. The willing target can roll 1d4 before or after one ability check and add it to the result. This ends the spell.",
+        "Entangle. Action, range 90 ft., V/S. Concentrate up to 1 minute. The plants create difficult terrain in a 20-ft. square. Creatures inside when cast must make a DC 13 Strength save or be restrained. A restrained creature can use its action to escape with a DC 13 Strength check.",
+        "Thunderwave. Action, 15-ft. cube from Tawnbell, V/S. A DC 13 Constitution save halves 2d8 thunder damage and avoids a 10-ft. push. Unsecured objects entirely in the cube are also pushed 10 ft. The boom is audible 300 ft. away.",
+        "Healing Word. Bonus action, range 60 ft., V. Restore 1d4+3 HP to a visible creature. Cure Wounds. Action, touch, V/S. Restore 1d8+3 HP. Neither affects Constructs or Undead."
+      ],
+      "tactics": "Tawnbell uses Entangle to give others a head start, then helps the injured. If it casts Healing Word, it may also use an action cantrip or Gore that turn."
+    },
+    {
+      "id": "mr1-eagle-brackenpin",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Ridge surveyor, Rogue 2",
+      "difficulty": "Rogue 2",
+      "size": "Small",
+      "type": "Beast",
+      "speed": "10 ft., fly 60 ft.",
+      "ac": 13,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "senses": "Passive Perception 17, or 22 when sight gives advantage.",
+      "languages": "Common and Elvish. Knows Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Investigation +2",
+        "Perception +7",
+        "Stealth +7",
+        "Survival +5"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +2. Unarmored AC 13 is 10 + Dexterity 3. HP 17 is 10 at 1st level plus 7 at 2nd.",
+        "Outlander supplies Athletics, Survival, Elvish, and Wanderer. Rogue supplies Acrobatics, Investigation, Perception, and Stealth. Expertise doubles proficiency in Perception and Stealth. Brackenpin uses no equipment.",
+        "Keen Sight gives advantage on sight-based Wisdom (Perception) checks."
+      ],
+      "actions": [
+        "Talons. Dexterity-based unarmed strike, +5 to hit, reach 5 ft., 1d4+3 piercing.",
+        "Sneak Attack. Add 1d6 piercing to a Talons hit once per turn if the attack has advantage. An enemy of the target within 5 ft. of it also qualifies if that enemy is not incapacitated and Brackenpin has no disadvantage.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Brackenpin spots trouble from a distance. If it has to fight, it chooses a distracted target and uses Disengage to gain height again."
+    },
+    {
+      "id": "mr1-elephant-kettlebrow",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Caravan outrider, Fighter 2",
+      "difficulty": "Fighter 2",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "35 ft.",
+      "ac": 15,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5. Natural AC 15 is 13 + Dexterity 2. HP 22 is 13 at 1st level plus 9 at 2nd.",
+        "Soldier supplies Athletics, Intimidation, and Military Rank. Fighter supplies Perception and Survival. Kettlebrow chooses Defense as its fighting style and wears no armor, so the style gives no bonus here."
+      ],
+      "actions": [
+        "Gore or Stomp. Strength-based unarmed strike, +5 to hit, reach 5 ft., 1d8+3 piercing or bludgeoning.",
+        "Trampling Charge. Move at least 15 ft. straight toward a creature and hit it with Gore or Stomp that turn. As a bonus action, contest Athletics +5 against the target’s Athletics or Acrobatics, chosen by the target. On success the target falls prone. A target must be in reach and Large or smaller. A valid incapacitated target loses automatically.",
+        "Second Wind. Bonus action to regain 1d10+2 HP. One use per short or long rest.",
+        "Action Surge. Take one additional action on your turn. One use per short or long rest."
+      ],
+      "tactics": "Kettlebrow charges attackers before they reach the wagons. It uses Action Surge for another strike if there is room to stand firm after the charge."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Clatterclaw",
+      "species": "Crab",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-crab-clatterclaw",
+      "size": "Small",
+      "role": "A harbor crab that listens to the pilings at night.",
+      "motive": "Find the person prying pins out of the storm gate.",
+      "hook": "The crab describes the rhythm of a chisel tapping under the landing at low tide."
+    },
+    {
+      "name": "Mirejaw",
+      "species": "Crocodile",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-crocodile-mirejaw",
+      "size": "Medium",
+      "role": "A crocodile the ferrymen pay to keep watch at the barrier.",
+      "motive": "Get a stranded deckhand across before the current rises.",
+      "hook": "Mirejaw surfaces to ask which of the party can carry a tow line to the sandbar."
+    },
+    {
+      "name": "Tawnbell",
+      "species": "Deer",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-deer-tawnbell",
+      "size": "Medium",
+      "role": "A deer that tends a wildflower meadow on a border path.",
+      "motive": "Find the old ditch that used to drain the meadow.",
+      "hook": "Tawnbell shows where the flowers drowned first and asks the party to follow the buried culvert uphill."
+    },
+    {
+      "name": "Brackenpin",
+      "species": "Eagle",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-eagle-brackenpin",
+      "size": "Small",
+      "role": "An eagle hired to survey a pass above the treeline.",
+      "motive": "Warn the workers who are cutting a trail into a shifting slope.",
+      "hook": "The eagle circles below an unstable ridge and calls out the last place it saw a survey flag."
+    },
+    {
+      "name": "Kettlebrow",
+      "species": "Elephant",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-elephant-kettlebrow",
+      "size": "Medium",
+      "role": "An elephant that watches the outside of a caravan line.",
+      "motive": "Recover the last wagon before the old road closes.",
+      "hook": "Kettlebrow points its trunk toward a wheel jutting out of the silt and asks whether the tracks around it are fresh."
+    }
+  ]
+}

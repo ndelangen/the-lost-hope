@@ -1,0 +1,278 @@
+{
+  "builds": [
+    {
+      "id": "dnd35-flind-kavra-flintjaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Flind road warden, Fighter 1",
+      "difficulty": "2 humanoid HD plus Fighter 1, LA +2, ECL 5.",
+      "type": "Humanoid (Gnoll)",
+      "ac": 19,
+      "hp": 31,
+      "hitDice": "2d8+1d10+12",
+      "initiative": 6,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Gnoll, Goblin.",
+      "abilityScores": {
+        "STR": 20,
+        "DEX": 14,
+        "CON": 18,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Listen +6",
+        "Spot +6",
+        "Climb +7",
+        "Diplomacy +1 untrained when influencing gnolls"
+      ],
+      "traits": [
+        "Dex +2, natural armor +2, studded leather +3 and heavy steel shield +2. Touch 12, flat-footed 17. BAB +2, grapple +7. Fort +9, Ref +2, Will +1. HP uses die results 8, 5 and 6 before Constitution.",
+        "Weapon Focus (flindbar) is Kavra’s racial-HD feat. The third-HD feat is Power Attack. Fighter bonus feat Improved Initiative raises initiative by 4.",
+        "Kavra treats the flindbar as martial and has proficiency as a fighter. Its +2 disarm modifier is in addition to the weapon attack bonus. An ordinary manual disarm still uses the normal opportunity-attack and counter-disarm rules."
+      ],
+      "actions": [
+        "Flindbar +8 melee, 2d4+5 bludgeoning, 19–20/×2. On a threat, roll the optional free disarm at +10 before confirming the critical, and apply situational disarm modifiers.",
+        "Power Attack may trade up to 2 attack bonus for the same bonus to one-handed flindbar damage until Kavra’s next turn.",
+        "Javelin +4 ranged, 1d6+5 piercing, ×2, 30-ft. range increment."
+      ],
+      "tactics": "Hold the narrow roadside approach. Use the flindbar to disarm a troublesome weapon wielder and let others pass."
+    },
+    {
+      "id": "dnd35-forestkith-goblin-vek-branchfall",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "title": "Forestkith Goblin boundary netter, Fighter 1",
+      "difficulty": "Fighter 1, LA +1, ECL 2.",
+      "type": "Humanoid (Goblinoid)",
+      "ac": 18,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 7,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Goblin.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 12
+      },
+      "skills": [
+        "Climb +10 (may take 10)",
+        "Jump +4",
+        "Hide +7 (+11 in forests)",
+        "Move Silently +3 (+7 in forests)",
+        "Craft (weaving) +4 for nets"
+      ],
+      "traits": [
+        "Dex +3, Small +1, natural armor +1 and studded leather +3. Touch 14, flat-footed 15. BAB +1, grapple −2. Fort +4, Ref +3, Will +1. Improved Initiative raises initiative by 4. Weapon Focus (net) adds +1 to net attacks.",
+        "Bright sunlight or the daylight spell dazzles Vek, imposing −1 on attacks, Search and Spot.",
+        "Discordant Frenzy applies when at least three attacking forestkith goblins join the melee. Creatures within 30 ft. with 2 HD or fewer must pass Will DC 11 to avoid being shaken for 1d4 rounds. A successful save prevents activation against that creature for 24 hours. This is a mind-affecting fear effect."
+      ],
+      "actions": [
+        "Small net +6 ranged touch at up to 10 ft. On a hit, a Tiny, Small or Medium target takes −2 to attacks and −4 Dex, moves at half speed, cannot run or charge, and needs Concentration DC 15 to cast. Vek can hold it within the line’s reach by winning an opposed Strength check. Escape Artist DC 20 as a full-round action, or burst with Strength DC 25 as a full-round action. The net has 5 HP. Unfolded, it takes −4 to hit. Refolding takes 2 rounds.",
+        "Small short sword +3 melee, 1d4+1 piercing, 19–20/×2.",
+        "Tree Shape as a standard action, using the 12th-level druid version. Transform into a small tree, shrub or limb. Acts as a still observer with speed 0, Dex 0, immunity to critical hits, AC 16 and touch 6. Saves and HP stay the same. Treat the form as Small and gear as melded. It lasts up to 12 hours and ends early at sunset or damage."
+      ],
+      "tactics": "Throw the net from shade, then retreat to whichever bank is better for climbing. Use Tree Shape before a long watch."
+    },
+    {
+      "id": "dnd35-poison-dusk-lizardfolk-tress-siltstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "title": "Poison Dusk trail warden, Ranger 1",
+      "difficulty": "Ranger 1, LA +1, ECL 2.",
+      "type": "Humanoid (Reptilian)",
+      "ac": 17,
+      "hp": 11,
+      "hitDice": "1d8+3",
+      "initiative": 3,
+      "speed": "30 ft.",
+      "senses": "Low-light vision.",
+      "languages": "Common, Draconic, Sylvan.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 17,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Hide +16 with unobstructed scales (+11 when covered)",
+        "Move Silently +7",
+        "Listen +5",
+        "Spot +5",
+        "Swim +9",
+        "Jump +9",
+        "Balance +7 untrained",
+        "Survival +5"
+      ],
+      "traits": [
+        "Unarmored, with Dex +3, Small +1 and natural armor +3. Touch 14, flat-footed 14. BAB +1, grapple −2. Fort +5, Ref +5, Will +1.",
+        "Track and wild empathy from Ranger 1. Wild empathy +0. Favored enemy animals adds +2 weapon damage and +2 on Bluff, Listen, Sense Motive, Spot and Survival checks against animals.",
+        "Point Blank Shot adds +1 to ranged accuracy and damage within 30 ft. Hold Breath lasts 64 rounds. The ranger carries a small bow, arrows and ordinary supplies."
+      ],
+      "actions": [
+        "Small shortbow +5 ranged, 1d4 piercing, ×3, 60-ft. range increment. At 30 ft. or less, +6 to hit and 1d4+1 damage. Add favored-enemy damage against animals.",
+        "With both hands free, make either one claw +3 melee for 1d3+1, or a full attack of two claws at that bonus and a secondary bite −2 melee for 1d3. Add favored-enemy damage against animals."
+      ],
+      "tactics": "Watch from cover with exposed scales. Fall back with the shortbow and close with claws only if boxed in."
+    },
+    {
+      "id": "dnd35-viletooth-lizardfolk-reth-blackreed",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Viletooth floodgate diver, Fighter 1",
+      "difficulty": "2 humanoid HD plus Fighter 1, LA +1, ECL 4.",
+      "type": "Humanoid (Reptilian, Dragonblood)",
+      "ac": 19,
+      "hp": 28,
+      "hitDice": "2d8+1d10+9",
+      "initiative": 6,
+      "speed": "30 ft.",
+      "senses": "Ordinary sight.",
+      "languages": "Common, Draconic, Aquan.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +11",
+        "Jump +10",
+        "Swim +12",
+        "Move Silently +7"
+      ],
+      "traits": [
+        "Dex +2, +5 natural armor and leather armor +2. Touch 12, flat-footed 17. BAB +2, grapple +5. Fort +5, Ref +5, Will +1. HP uses die results 8, 5 and 6 before Constitution.",
+        "Multiattack reduces the normal secondary natural attack penalty to −2. Weapon Focus (spear) is the Fighter bonus feat. Improved Initiative is the third-HD feat.",
+        "Reth breathes freely underwater. The creature uses Swim checks and has ordinary land speed. Apply the underwater combat modifiers in the DMG when exchanging attacks below the surface."
+      ],
+      "actions": [
+        "Spear +6 melee, 1d8+4 piercing, ×3. In a full attack add the secondary bite +3 for 1d4+1 plus 1d6 acid.",
+        "Thrown spear +5 ranged, 1d8+3 piercing, ×3, 20-ft. range increment.",
+        "Without the spear, full attack with two claws at +5 melee for 1d4+3 each and a secondary bite at +3 melee for 1d4+1 plus 1d6 acid."
+      ],
+      "tactics": "Swim to the stuck gate to remove its wedge. Surface before fighting when possible, then use the spear before the bite."
+    },
+    {
+      "id": "dnd35-sunscorch-hobgoblin-rava-cinderwatch",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Sunscorch Hobgoblin kiln guard, Fighter 1",
+      "difficulty": "Fighter 1, LA +1, ECL 2.",
+      "type": "Humanoid (Goblinoid, Dragonblood)",
+      "ac": 17,
+      "hp": 13,
+      "hitDice": "1d10+3",
+      "initiative": 1,
+      "speed": "30 ft.",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Goblin, Draconic.",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 12,
+        "WIS": 14,
+        "CHA": 10
+      },
+      "skills": [
+        "Bluff +4",
+        "Intimidate +4",
+        "Jump +2",
+        "Move Silently +1"
+      ],
+      "traits": [
+        "Dex +1, chain shirt +4 and heavy steel shield +2. Touch 11, flat-footed 16. BAB +1, grapple +3. Fort +5, Ref +1, Will +2. Environmental heat saves against nonlethal damage use Fort +7.",
+        "Power Attack is the first-HD feat. Weapon Focus (scimitar) is the fighter bonus feat. Chain shirt and shield give a combined −4 armor check penalty."
+      ],
+      "actions": [
+        "Scimitar +4 melee, 1d6+2 slashing, 18–20/×2. Power Attack option +3 melee, 1d6+3 slashing.",
+        "Javelin +2 ranged, 1d6+2 piercing, ×2, 30-ft. range increment."
+      ],
+      "tactics": "Seal the public kiln walkway after an alarm. Stay between the intruder and the workers. Back away if the roof begins to fail."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Kavra Flintjaw",
+      "species": "Flind",
+      "size": "Medium",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-flind-kavra-flintjaw",
+      "role": "Road warden who disarms troublemakers.",
+      "motive": "Keep the night shift at the toll bridge free of needless bloodshed.",
+      "hook": "Kavra has a sealed bridge tally that proves who crossed before the washout."
+    },
+    {
+      "name": "Vek Branchfall",
+      "species": "Forestkith Goblin",
+      "size": "Small",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-forestkith-goblin-vek-branchfall",
+      "role": "Boundary lookout who traps trespassers for questioning.",
+      "motive": "Find the person who moved a boundary cord and recover it before dark.",
+      "hook": "Vek spots a new cord above the ravine and can approach it quietly from the sheltered bank."
+    },
+    {
+      "name": "Tress Siltstep",
+      "species": "Poison Dusk Lizardfolk",
+      "size": "Small",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-poison-dusk-lizardfolk-tress-siltstep",
+      "role": "Guide who follows animal trails through flood country.",
+      "motive": "Find a snared pack animal before the incoming flood reaches the trail.",
+      "hook": "Tress shows the party tracks left by a stolen draft animal and offers to find the ford."
+    },
+    {
+      "name": "Reth Blackreed",
+      "species": "Viletooth Lizardfolk",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-viletooth-lizardfolk-reth-blackreed",
+      "role": "Floodgate diver who clears jammed sluices.",
+      "motive": "Restore the gate before the overnight tide reaches the lower mill.",
+      "hook": "Reth heard knocking from the drowned side of the gate and needs someone to watch the dry approach."
+    },
+    {
+      "name": "Rava Cinderwatch",
+      "species": "Sunscorch Hobgoblin",
+      "size": "Medium",
+      "speciesPublication": "Dragon Magic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-sunscorch-hobgoblin-rava-cinderwatch",
+      "role": "Kiln guard who can hold a hot passage long enough for others to get out.",
+      "motive": "Find the missing journeyman before the finishing kiln is shut.",
+      "hook": "Rava lends a kiln key if the party can search the ash stairs before shift change."
+    }
+  ]
+}

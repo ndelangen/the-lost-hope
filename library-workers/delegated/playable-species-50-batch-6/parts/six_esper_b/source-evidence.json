@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Kesh",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "creatureType": "Humanoid",
+    "url": "https://dokumen.pub/esper-genesis.html",
+    "printedPages": [
+      40,
+      41,
+      42
+    ],
+    "heading": "Kesh, Minor Alteration, Memory Meld, Noble Kesh and Star Kesh",
+    "sourceLocator": "pp. 40–42, Kesh",
+    "sourceDistinctions": "Specialist pp. 97–99, standard language options p. 114, Pilot p. 122, armor p. 132, weapons p. 135, tools p. 142, alter appearance pp. 214–215, shared vision pp. 258–259. Minor Alteration does not give a channeling ability. The sample NPC uses Charisma as a table ruling, following the same species’ explicit Memory Meld ability."
+  },
+  {
+    "name": "Matokai",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "creatureType": "Humanoid",
+    "url": "https://dokumen.pub/esper-genesis.html",
+    "printedPages": [
+      45,
+      46,
+      47
+    ],
+    "heading": "Matokai, Firetail, Skytalon, Stonefang and Waveclaw",
+    "sourceLocator": "pp. 45–47, Matokai",
+    "sourceDistinctions": "Warrior pp. 103–105, Soldier p. 126, armor p. 132, greataxe p. 135. The introductory fiction depicts a Stonefang’s power axe. This NPC uses the printed greataxe mechanics for its illustrated axe."
+  },
+  {
+    "name": "Promethean",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "creatureType": "Humanoid",
+    "url": "https://dokumen.pub/esper-genesis.html",
+    "printedPages": [
+      48,
+      49
+    ],
+    "heading": "Promethean, Crescent and Fire-Blooded",
+    "sourceLocator": "pp. 48–49, Promethean",
+    "sourceDistinctions": "Specialist pp. 97–99, standard languages p. 114, Techie p. 127, armor p. 132, weapons p. 135, default skill abilities in the character sheet. The Aberrant sidebar describes an exceptional outcome without giving it a playable trait package."
+  },
+  {
+    "name": "Valna",
+    "publication": "Esper Genesis Core Manual (2018)",
+    "edition": "Fifth edition compatible",
+    "publisher": "Alligator Alley Entertainment",
+    "creatureType": "Humanoid",
+    "url": "https://dokumen.pub/esper-genesis.html",
+    "printedPages": [
+      50,
+      51,
+      52
+    ],
+    "heading": "Valna, claws, Catlike Agility, Empathic Sense and Survival Training",
+    "sourceLocator": "pp. 50–52, Valna",
+    "sourceDistinctions": "Hunter pp. 77–78, Soldier p. 126, armor p. 132, weapons pp. 135–136, Disengage pp. 176–177. Empathic Sense is limited to reading general attitude or mood."
+  }
+]

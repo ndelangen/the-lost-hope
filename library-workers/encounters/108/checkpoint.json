@@ -1,0 +1,45 @@
+{
+  "commit": "a04c4c9",
+  "batch": 108,
+  "verification": {
+    "testsPassed": 905,
+    "productionBuild": true,
+    "browser": [
+      {
+        "name": "Mephling",
+        "species": "species-4f6617a02d6e781a6d8cd791",
+        "edition": "3.5 edition",
+        "profiles": [
+          "Planar Handbook (2004)"
+        ],
+        "portraitSha256": "7e94ef2de1b4d3ff232774e5b15fce7eebfc7a0dc01418a779eca242704084b9",
+        "caption": "Pip Reedwhistle · Original Mephling NPC",
+        "npcReceipts": [
+          {
+            "name": "Pip Reedwhistle",
+            "id": "npc-62e658b5bf7c626dff5f769f",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          },
+          {
+            "name": "Flint Cutwall",
+            "id": "npc-4bb2ddc372dd006ec41a98a3",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          },
+          {
+            "name": "Cinder Kilnwatch",
+            "id": "npc-743be588be0d44c75dafe8df",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          },
+          {
+            "name": "Ripple Lockreach",
+            "id": "npc-b55368b7f087f0ea02fa1861",
+            "challenge": "Provisional CR 2. ECL 2 (1 class HD, LA +1)."
+          }
+        ]
+      }
+    ],
+    "aasimarAndTieflingDefaultsAndThumbnailsPreserved": true,
+    "fireMephitAndMinaMatchBaseline": true,
+    "r2AndBothLocalBackups": true
+  }
+}

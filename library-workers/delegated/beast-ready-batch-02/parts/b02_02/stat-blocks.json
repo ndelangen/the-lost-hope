@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Baboon",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 10,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Perception 11, Stealth 11. Darkvision 30 ft. No languages.",
+    "appearance": "An olive-brown monkey with a long doglike muzzle, strong forearms and an arched tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP uses the printed CR table on p. 229. ",
+      "Ability modifiers": "STR -1, DEX +1, CON +0, INT -3, WIS +1, CHA -2.",
+      "Traits": "Pack Tactics. Gain advantage on attacks against a creature if a non-incapacitated ally of the baboon is within 5 ft. of the target.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one creature. A hit deals 3 (1d4 + 1) piercing damage.",
+      "Reactions": "Startling Display. When a visible creature within 5 ft. attacks the baboon, the baboon can use its reaction to bare its teeth, puff up or bark. The attacker makes a DC 11 Wisdom save. On a failure, that attack roll has disadvantage."
+    }
+  },
+  {
+    "name": "Baboon",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
+    "appearance": "An olive-brown monkey with a long doglike muzzle, strong forearms and an arched tail.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hill"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 318. Also printed in SRD 5.1, p. 367. ",
+      "Traits": "Pack Tactics. Gain advantage on an attack if a non-incapacitated ally of the baboon is within 5 ft. of that attack’s target.",
+      "Actions": "Bite. Melee weapon attack, +1 to hit, 5-ft. reach, one target. A hit deals 1 (1d4 − 1) piercing damage."
+    },
+    "hitDice": "1d6",
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    }
+  },
+  {
+    "name": "Badger",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., burrow 10 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Perception 11, Stealth 10. Darkvision 30 ft. No languages.",
+    "appearance": "A low, stocky gray mammal with black face stripes, a broad nose and long digging claws.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Burrow"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP uses the printed CR table on p. 229. ",
+      "Ability modifiers": "STR -3, DEX +0, CON +1, INT -4, WIS +1, CHA -3.",
+      "Traits": "Grumpy. In combat, attack the creature that last damaged the badger if it is within attack range or the badger can reach it without provoking opportunity attacks. Otherwise, attack the closest hostile creature.\nHeightened Smell. Use Perception 16 for sensing by smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one creature. A hit deals 2 (1d4) piercing damage."
+    }
+  },
+  {
+    "name": "Badger",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 3,
+    "speed": "20 ft., burrow 5 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 11. No listed skills or languages.",
+    "appearance": "A low, stocky gray mammal with black face stripes, a broad nose and long digging claws.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Burrow"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 318. Also printed in SRD 5.1, p. 367. ",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks when using smell.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one target. A hit deals 1 piercing damage."
+    },
+    "hitDice": "1d4 + 1",
+    "abilities": {
+      "Str": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    }
+  },
+  {
+    "name": "Crab",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 9,
+    "speed": "20 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Perception 9, Stealth 12. Keensense 30 ft. No languages. Vulnerable to bludgeoning. Resistant to slashing.",
+    "appearance": "A small shore crab with a broad mottled olive shell, two sturdy pincers and eight pointed walking legs.",
+    "habitats": [
+      "Coastal",
+      "Rocky shore",
+      "Estuary",
+      "Shallow water"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Kobold Press, Black Flag Roleplaying Reference Document v0.2, pp. 354–355. XP uses the printed CR table on p. 229. ",
+      "Ability modifiers": "STR -4, DEX +0, CON +0, INT -5, WIS -1, CHA -4.",
+      "Traits": "Amphibious. The crab can breathe in water and in air.",
+      "Actions": "Claw. Melee weapon attack, +2 to hit, 5-ft. reach, one creature. On a hit, deal 2 (1d4) bludgeoning damage and attach to the target. While attached the crab cannot attack. The target takes 2 (1d4) bludgeoning damage at the start of each of the crab’s turns. The crab travels with the target without spending its movement.",
+      "At the table": "The crab can detach by using 5 ft. of its movement on its turn. Any creature, including the target, can use an action to detach it. The rule provides no contest, save or attack roll for detachment."
+    }
+  }
+]

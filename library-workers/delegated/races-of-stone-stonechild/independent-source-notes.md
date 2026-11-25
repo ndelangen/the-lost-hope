@@ -1,0 +1,9 @@
+# Independent Stonechild reviews
+
+The source reviewer checked the August 2004 first printing. Brad Williams drew the Stonechild on p. 93. The prose describes an almost seven-foot, hairless, muscular figure with rough gray skin and occasional gemlike eyes. The full racial traits span pp. 93–94. The profile is an Outsider with the Earth subtype. Extraplanar applies away from the home plane. The reviewer found no dedicated title errata in Wizards’ archive. [Artwork and original traits]() · [Wizards FAQ and errata](https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP)
+
+The six-level monster class incorporates the +4 level adjustment and the two Hit Dice. Its natural armor increases to successive totals of +1, +2, +3, and +4. The second Hit Die and Blind-Fight arrive at level 4. The published CR progression is 1, 1, 1, 2, 3, and 3. The full profile has three daily uses of *magic stone*. The monster class gains one use at level 3, a second at level 5, and a third at level 6, all at caster level 3. [Monster-class rules, p. 86]() · [Progression, p. 94]()
+
+The prior *Miniatures Handbook* gives a separate CR 3 encounter block on pp. 71–72. Its bundled *Mayhem & Madness* pregenerated Stonechild applies +6 Strength once to the printed throw damage for both ordinary and undead targets. These encounter cards use the core spell’s printed figures and give the pregenerated convention separately. [Earlier encounter]() · [Pregenerated sheet]() · [3.5 SRD spell](https://www.d20srd.org/srd/spells/magicStone.htm)
+
+The second reviewer checked Miren’s 45 racial skill points plus 3 from Fighter, her three chosen feats plus Blind-Fight, and both sets of defenses and attack bonuses. Nalin has 40 skill points, one feat, and one Hit Die. Both encounters resolve under the same publication-specific playable profile. [Rules patch](rules.patch) · [Verification](verification.json)

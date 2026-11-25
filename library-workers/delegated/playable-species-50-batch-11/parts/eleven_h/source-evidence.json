@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Owl",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "author": "Tyler Kamstra",
+    "publisher": "Dungeon Masters Guild",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 p. 255, Owl Traits.",
+    "printedPages": [
+      255
+    ],
+    "heading": "Owl Traits",
+    "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, p. 255. Uses 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The printed player Flyby uses a bonus action to Disengage. The encounter Owl’s trait uses a separate rule.",
+      "Giant Owl has its own player trait block. Native Talons retain the printed 1d4 die. The supplement’s Tiny weapon damage table applies to resized equipment."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Panther",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "author": "Tyler Kamstra",
+    "publisher": "Dungeon Masters Guild",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 pp. 255–256, Panther Traits.",
+    "printedPages": [
+      255,
+      256
+    ],
+    "heading": "Panther Traits",
+    "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, pp. 255–256. Uses 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The player Pounce uses a shove contest after an unarmed hit. The encounter version has a fixed DC and can grant a bonus-action bite."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Phase Spider",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "author": "Tyler Kamstra",
+    "publisher": "Dungeon Masters Guild",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 pp. 256–257, Phase Spider Traits.",
+    "printedPages": [
+      256,
+      257
+    ],
+    "heading": "Phase Spider Traits",
+    "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, pp. 256–257. Uses 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The printed alignment sentence refers to giant spiders. The adjacent Playing and Design Notes paragraphs describe the phase spider as intelligent and without language comprehension. The Creature Type field is Monstrosity.",
+      "The player trait block has Web Walker and Spider Climb, with no web production or web sense feature. Seamstep uses gestures and movement as immediate cues."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Poisonous Snake",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "author": "Tyler Kamstra",
+    "publisher": "Dungeon Masters Guild",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 p. 257, Poisonous Snake Traits.",
+    "printedPages": [
+      257
+    ],
+    "heading": "Poisonous Snake Traits",
+    "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, p. 257. Uses 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The p. 257 player block says Medium, while design commentary on p. 258 mentions Tiny as part of its derivation. The build follows the player block.",
+      "There is no racial finesse trait. Rushcoil can use Dexterity through the 2014 monk’s Martial Arts, and the supplement’s p. 7 limits the bonus strike to a conventional bludgeoning strike."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "author": "Tyler Kamstra",
+    "publisher": "Dungeon Masters Guild",
+    "creatureType": "Beast",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "page": "v2 p. 258, Polar Bear Traits.",
+    "printedPages": [
+      258
+    ],
+    "heading": "Polar Bear Traits",
+    "provenance": "Tyler Kamstra’s Monstrous Races v2 player rules, p. 258. Uses 2014 fifth-edition rules.",
+    "sourceDistinctions": [
+      "The printed player block has swim speed and no cold resistance trait. The build selects the better of its natural armor or Barbarian Unarmored Defense without stacking them."
+    ],
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+  }
+]

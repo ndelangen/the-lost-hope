@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "testain",
+    "name": "Testain",
+    "entryId": "monster-4888a0cc46305712dfd69de2",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Captain Reeve Sar Testain, formidable adult human pirate captain returned from infernal imprisonment, still clearly human. Stern gray-bearded angular face, graying sides to his dark hair, slight old mark at the left cheek. Weathered splint armor over dark ocean-green cloth with a muted brick red sash and fitted seafarer's boots. Longsword held low, spare shortsword sheathed, seasoned seafarer stance. No hat, horn, magic glow, or wounds.",
+    "prompt": "Use the attached image only for painterly technique and parchment texture. One original square fantasy bestiary illustration, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure or figures centered with wide blank margins, readable faces at 160 px, gentle grounding shadow, soft diffuse light. No scene behind the subject, no frame, lettering, labels, logos or watermark. Captain Reeve Sar Testain, formidable adult human pirate captain returned from infernal imprisonment, still clearly human. Stern gray-bearded angular face, graying sides to his dark hair, slight old mark at the left cheek. Weathered splint armor over dark ocean-green cloth with a muted brick red sash and fitted seafarer's boots. Longsword held low, spare shortsword sheathed, seasoned seafarer stance. No hat, horn, magic glow, or wounds.",
+    "appearanceSource": "DDEX1-03 - Shadows over the Moonsea"
+  },
+  {
+    "slug": "three-crones",
+    "name": "Three Crones",
+    "entryId": "monster-be2d07de2c429132949f88f5",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One group portrait containing exactly three distinct elderly human women of a remote fishing village, all with naturally long stringy gray hair and wind-worn hands. Their faded linen and wool are muted dusty mauve, dull blue and olive respectively. The trio is arranged closely, one holding a small wooden ladle, one in a fish-cleaning apron, and one clutching a frayed net. A small plain cast-iron pot near the foreground is the only larger prop. All three faces visible, avoid identical faces and fantasy witch hats. No flames.",
+    "prompt": "Use the attached image only for painterly technique and parchment texture. One original square fantasy bestiary illustration, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure or figures centered with wide blank margins, readable faces at 160 px, gentle grounding shadow, soft diffuse light. No scene behind the subject, no frame, lettering, labels, logos or watermark. One group portrait containing exactly three distinct elderly human women of a remote fishing village, all with naturally long stringy gray hair and wind-worn hands. Their faded linen and wool are muted dusty mauve, dull blue and olive respectively. The trio is arranged closely, one holding a small wooden ladle, one in a fish-cleaning apron, and one clutching a frayed net. A small plain cast-iron pot near the foreground is the only larger prop. All three faces visible, avoid identical faces and fantasy witch hats. No flames.",
+    "appearanceSource": "DDEX1-03 - Shadows over the Moonsea"
+  },
+  {
+    "slug": "ulburto-scout",
+    "name": "Ulburto (Scout)",
+    "entryId": "monster-e8a30e7f79958c1b5181c538",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Large, dark-bearded adult human scout from an isolated fishing island, coarse black hair, solemn brows, rugged salt-stained leather and smokehouse apron, with a short bow resting against his side. His noticeably longer and stronger anatomical RIGHT arm hangs naturally to just above the knee while his shorter and thinner LEFT arm gently holds the bow upright near his hip. Shown at three-quarter front with his longer right arm on the viewer's left. Depict the asymmetry accurately and with dignity, with no wounds or magical transformation.",
+    "prompt": "Use the attached image only for painterly technique and parchment texture. One original square fantasy bestiary illustration, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure or figures centered with wide blank margins, readable faces at 160 px, gentle grounding shadow, soft diffuse light. No scene behind the subject, no frame, lettering, labels, logos or watermark. Large, dark-bearded adult human scout from an isolated fishing island, coarse black hair, solemn brows, rugged salt-stained leather and smokehouse apron, with a short bow resting against his side. His noticeably longer and stronger anatomical RIGHT arm hangs naturally to just above the knee while his shorter and thinner LEFT arm gently holds the bow upright near his hip. Shown at three-quarter front with his longer right arm on the viewer's left. Depict the asymmetry accurately and with dignity, with no wounds or magical transformation.",
+    "appearanceSource": "DDEX1-03 - Shadows over the Moonsea"
+  },
+  {
+    "slug": "warsh",
+    "name": "Warsh",
+    "entryId": "monster-9447397be8134f7c210524f2",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Ill-tempered elderly island boatman with a wind-weathered face and deep creases, one eye narrowing in a suspicious squint and the other prominent and wide. A small battered wood pipe firmly clenched at the corner of his teeth. Wool cap, faded long rust-brown oilskin, faded blue fisherman's clothes, practical boots, carrying a wooden oar that stays within the square composition. No water or boat scene.",
+    "prompt": "Use the attached image only for painterly technique and parchment texture. One original square fantasy bestiary illustration, detailed muted gouache, fine sepia ink and colored pencil on warm golden mottled parchment. Entire figure or figures centered with wide blank margins, readable faces at 160 px, gentle grounding shadow, soft diffuse light. No scene behind the subject, no frame, lettering, labels, logos or watermark. Ill-tempered elderly island boatman with a wind-weathered face and deep creases, one eye narrowing in a suspicious squint and the other prominent and wide. A small battered wood pipe firmly clenched at the corner of his teeth. Wool cap, faded long rust-brown oilskin, faded blue fisherman's clothes, practical boots, carrying a wooden oar that stays within the square composition. No water or boat scene.",
+    "appearanceSource": "DDEX1-03 - Shadows over the Moonsea"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "commit": "171499ecdb18bf9f3bd894380b2a3336ef453152",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "preservedGalleries": 2,
+  "recentProfilesWithGeneratedPortrait": 632,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-68-before-after.jpg",
+  "results": "output/dm-library/encounter-batches/68/results.json",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Grilp",
+      "source": "https://www.dndbeyond.com/monsters/4485872-grilp",
+      "challenge": "1/4"
+    },
+    {
+      "name": "Slaughter Demon",
+      "source": "https://www.dndbeyond.com/monsters/4486002-slaughter-demon",
+      "challenge": "8"
+    }
+  ],
+  "nextSourceNote": "Distinct hobgoblin-associated fiends. Verify grilp camouflage and vulnerabilities, then the slaughter demon’s multi-limb and lethe rules."
+}

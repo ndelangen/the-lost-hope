@@ -1,0 +1,528 @@
+[
+  {
+    "name": "Ferrumach Rilmani",
+    "statBlock": {
+      "name": "Ferrumach Rilmani",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 44,
+      "classification": "Medium celestial, typically neutral",
+      "ac": 18,
+      "hp": 136,
+      "hitDice": "16d8 + 64",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "description": "An iron-bodied rilmani that fights to maintain the balance between the planes. Ferrumachs guard the Spire and take orders from aurumachs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 8,
+        "Con": 8
+      },
+      "skills": {
+        "Athletics": 8,
+        "Perception": 6
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Telepathy 120 ft., any two languages.",
+        "Damage resistances": "Psychic.",
+        "Armor": "Natural armor.",
+        "Traits": "Bladed Edges. At the start of a creature's turn, it takes 10 (3d6) slashing damage if it is grappling the ferrumach or is grappled by it.\nSkewering Charge. The ferrumach must move at least 20 ft. in a straight line toward a Large or smaller creature and finish within 5 ft. of it. The creature makes a DC 16 Strength save. On a failure, it takes 10 (3d6) piercing damage and is grappled (escape DC 18).",
+        "Actions": "Multiattack. Make three attacks in any combination of Sharpened Limb and Bolt.\nSharpened Limb. Melee weapon attack, +8 to hit, reach 10 ft., one target. On a hit, deal 9 (1d10 + 4) slashing plus 11 (2d10) psychic damage.\nBolt. Ranged weapon attack, +8 to hit, range 20/60 ft., one target. On a hit, deal 7 (1d6 + 4) piercing plus 11 (2d10) psychic damage.",
+        "Spellcasting": "As an action, cast one spell using Intelligence (save DC 14). No material components are required.\nAt will. Detect Magic.\n1/day each. Dispel Magic, Ice Storm.",
+        "Rilmani": "The Aurumach Rilmani directs ferrumach foot soldiers. The Cuprilach Rilmani works as a spy or assassin on the same mission to keep the planes in balance.",
+        "Printed source": "Morte's Planar Parade, p. 44."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Aurumach Rilmani",
+          "terms": [
+            "Aurumach Rilmani"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#aurumach%20rilmani_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Cuprilach Rilmani",
+          "terms": [
+            "Cuprilach Rilmani"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#cuprilach%20rilmani_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fraternity of Order Law Bender",
+    "statBlock": {
+      "name": "Fraternity of Order Law Bender",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 57,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 137,
+      "hitDice": "25d8 + 25",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 17,
+      "description": "A Fraternity of Order magistrate who exploits loopholes in planar law to manipulate distance and probability.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 7
+      },
+      "skills": {
+        "Insight": 7,
+        "Perception": 7
+      },
+      "sections": {
+        "Languages": "Common plus three more languages.",
+        "Actions": "Multiattack. Make three Arcane Burst attacks and use Power of Authority or Spellcasting.\nArcane Burst. Melee or ranged spell attack, +8 to hit, reach 5 ft. or range 90 ft., one target. A hit deals 17 (2d12 + 4) force damage.\nPower of Authority. Choose one creature within 60 ft. that the law bender can see. It makes a DC 16 Intelligence save. On a failure, it takes 10 (3d6) psychic damage and is incapacitated for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. Any creature that succeeds on the save is immune to this law bender's Power of Authority for 24 hours.",
+        "Spellcasting": "As an action, use Intelligence to cast Dispel Magic, Fly, Mage Armor, Mage Hand, or Prestidigitation. Each is available at will and needs no material components.",
+        "Bonus actions": "Spatial Loophole. Teleport up to 30 ft. to an unoccupied space the law bender can see. Worn and carried equipment travels with it.",
+        "Reactions": "Probability Loophole (3/Day). When the law bender or a creature it can see makes an attack roll, saving throw, or ability check, impose advantage or disadvantage on the roll.",
+        "Printed source": "Morte's Planar Parade, p. 57."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Futurist",
+    "statBlock": {
+      "name": "Githzerai Futurist",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 30,
+      "classification": "Medium aberration (gith), any alignment",
+      "ac": 16,
+      "hp": 149,
+      "hitDice": "23d8 + 46",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 17,
+      "description": "A githzerai meditator who glimpses possible futures and uses those visions to change the outcome of a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6,
+        "Dex": 7,
+        "Int": 7,
+        "Wis": 7
+      },
+      "skills": {
+        "Arcana": 7,
+        "Insight": 7,
+        "Perception": 7
+      },
+      "sections": {
+        "Senses": "Truesight 30 ft.",
+        "Languages": "Common, Gith.",
+        "Traits": "Psychic Defense. Add the githzerai's Wisdom modifier to its AC while it wears no armor and wields no shield.",
+        "Actions": "Multiattack. Make three attacks in any combination of Unarmed Strike and Psychic Bolt.\nUnarmed Strike. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) bludgeoning plus 11 (2d10) psychic damage.\nPsychic Bolt. Ranged spell attack, +7 to hit, range 60 ft., one creature. A hit deals 21 (4d8 + 3) psychic damage.",
+        "Spellcasting (Psionics)": "As an action, cast one spell using Wisdom (save DC 15). No spell components are required.\nAt will. Dispel Magic, Levitate (self only), Mage Hand (invisible hand), See Invisibility.\n1/day each. Plane Shift (self only), Scrying (cast as an action), Slow, Telekinesis.",
+        "Reactions": "Future Insight (3/Day). When the githzerai or a creature it can see makes an attack roll, saving throw, or ability check, impose advantage or disadvantage on the roll.",
+        "Other githzerai": "A Githzerai Traveler shapes energy from the plane it visits. A Githzerai Uniter uses its psionics to prevent violence.",
+        "Printed source": "Morte's Planar Parade, p. 30."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Githzerai Traveler",
+          "terms": [
+            "Githzerai Traveler"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#githzerai%20traveler_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Githzerai Uniter",
+          "terms": [
+            "Githzerai Uniter"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#githzerai%20uniter_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Githzerai Traveler",
+    "statBlock": {
+      "name": "Githzerai Traveler",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 31,
+      "classification": "Medium aberration (gith), any alignment",
+      "ac": 15,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 15,
+      "description": "A githzerai pilgrim who seeks enlightenment across the multiverse and draws on the energy of each plane it visits.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 4,
+        "Int": 4,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5,
+        "Survival": 5
+      },
+      "sections": {
+        "Languages": "Common, Gith.",
+        "Traits": "Psychic Defense. Add the githzerai's Wisdom modifier to its AC while it wears no armor and wields no shield.",
+        "Actions": "Multiattack. Make three Unarmed Strike attacks.\nUnarmed Strike. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) bludgeoning plus 4 (1d8) psychic damage.",
+        "Spellcasting (Psionics)": "As an action, cast one spell using Wisdom (save DC 13). No spell components are required.\nAt will. Mage Hand (invisible hand).\n1/day each. Jump, Plane Shift (self only), See Invisibility.",
+        "Bonus actions": "Matter Manipulation (Recharge 4–6). Choose one result below, or roll 1d6.\n1–2, Astral Step. The githzerai and its worn or carried equipment teleport up to 40 ft. to an unoccupied space it can see. Its walking speed becomes 40 ft. until the start of its next turn.\n3–4, Growth. Flowers and vines make the ground within 15 ft. of the githzerai difficult terrain for other creatures until the start of its next turn, when the plants vanish.\n5–6, Retaliating Light. Until the start of the githzerai's next turn, a creature within 5 ft. that hits it with a melee attack roll takes 3 (1d6) force damage.",
+        "Other githzerai": "A Githzerai Futurist catches glimpses of possible futures. A Githzerai Uniter uses its psionics to prevent violence.",
+        "Printed source": "Morte's Planar Parade, p. 31."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Githzerai Futurist",
+          "terms": [
+            "Githzerai Futurist"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#githzerai%20futurist_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Githzerai Uniter",
+          "terms": [
+            "Githzerai Uniter"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#githzerai%20uniter_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Githzerai Uniter",
+    "statBlock": {
+      "name": "Githzerai Uniter",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 31,
+      "classification": "Medium aberration (gith), any alignment",
+      "ac": 16,
+      "hp": 123,
+      "hitDice": "19d8 + 38",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 16,
+      "description": "A githzerai martial artist who aims to subdue opponents alive. Many uniters join the Sha'sal Khou to work toward unification with the githyanki.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 4,
+        "Dex": 6,
+        "Int": 5,
+        "Wis": 6
+      },
+      "skills": {
+        "Insight": 6,
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "Common, Gith.",
+        "Traits": "Psychic Defense. Add the githzerai's Wisdom modifier to its AC while it wears no armor and wields no shield.",
+        "Actions": "Multiattack. Make three attacks in any combination of Unarmed Strike and Psychic Bolt. Pacifying Touch can stand in for any of those attacks.\nUnarmed Strike. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) bludgeoning plus 10 (3d6) psychic damage.\nPsychic Bolt. Ranged spell attack, +6 to hit, range 60 ft., one creature. A hit deals 17 (5d6) psychic damage.\nPacifying Touch. Touch one creature the githzerai can see within 5 ft. The target makes a DC 14 Intelligence save. On a failure, the githzerai chooses Attack, Cast a Spell, or Dash, and the target cannot take that action for 1 minute. The target repeats the save at the end of each of its turns and ends the effect on a success. Any creature that succeeds on the save is immune to this githzerai's Pacifying Touch for 24 hours.",
+        "Spellcasting (Psionics)": "As an action, cast one spell using Wisdom (save DC 14). No spell components are required.\nAt will. Mage Hand (invisible hand), See Invisibility.\n1/day each. Plane Shift (self only), Telekinesis.",
+        "Other githzerai": "A Githzerai Futurist catches glimpses of possible futures. A Githzerai Traveler shapes energy from the plane it visits.",
+        "Printed source": "Morte's Planar Parade, p. 31."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Githzerai Futurist",
+          "terms": [
+            "Githzerai Futurist"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#githzerai%20futurist_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Githzerai Traveler",
+          "terms": [
+            "Githzerai Traveler"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#githzerai%20traveler_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hands of Havoc Fire Starter",
+    "statBlock": {
+      "name": "Hands of Havoc Fire Starter",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 58,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A Hands of Havoc agitator who attacks oppressive institutions with a flame-wreathed hammer and a supply of volatile flasks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 5,
+        "Con": 4
+      },
+      "sections": {
+        "Languages": "Common plus one more language.",
+        "Damage resistances": "Fire.",
+        "Armor": "Breastplate.",
+        "Actions": "Multiattack. Make two attacks in any combination of Havoc Hammer and Havoc Flask.\nHavoc Hammer. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) bludgeoning plus 9 (2d8) fire damage. A creature hit also suffers the lingering flames described below.\nHavoc Flask. Ranged weapon attack, +4 to hit, range 30/90 ft., one target. A hit deals 13 (2d12) fire damage. A creature hit also suffers lingering flames. After throwing a flask, roll 1d6. On a result of 3 or lower, the fire starter has no flasks left.\nLingering flames. At the start of each of its turns, the creature takes 3 (1d6) fire damage. Immediately after taking this damage on its turn, it can make a DC 13 Dexterity save to end the effect on a success.",
+        "Printed source": "Morte's Planar Parade, p. 58."
+      }
+    }
+  },
+  {
+    "name": "Harmonium Captain",
+    "statBlock": {
+      "name": "Harmonium Captain",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 58,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 20,
+      "hp": 110,
+      "hitDice": "17d8 + 34",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 16,
+      "description": "A Harmonium officer who leads peacekeeper patrols in Sigil and issues magically binding orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "Common plus one more language.",
+        "Condition immunities": "Charmed, frightened.",
+        "Armor": "Plate armor and Shield.",
+        "Traits": "Aura of Command. The captain's allies within 30 ft. are immune to being charmed and frightened. The aura is suppressed while the captain is incapacitated.",
+        "Actions": "Multiattack. Make three Harmonium Blade attacks. The captain can also use Dictate if it is available.\nHarmonium Blade. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) piercing plus 10 (3d6) lightning damage.\nDictate (Recharge 5–6). Give a verbal, magical command to up to three creatures the captain can see within 60 ft. The command must direct the creatures to take an action or refrain from acting. Each target makes a DC 14 Wisdom save and automatically succeeds if obeying would directly harm it. On a failure, the target is charmed for 1 minute and follows the command. Damage or completion of the command ends the effect early for that target. An affected creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.",
+        "Harmonium patrol": "The captain commands a patrol of Harmonium Peacekeepers.",
+        "Printed source": "Morte's Planar Parade, p. 58."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Harmonium Peacekeeper",
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#harmonium%20peacekeeper_mpp"
+          },
+          "terms": [
+            "Harmonium Peacekeeper",
+            "Harmonium Peacekeepers"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Dire Weasel",
+    "kind": "beast",
+    "publication": "The Burning Plague",
+    "edition": "3.0 edition",
+    "printedName": "Dire weasel",
+    "publisher": "Wizards of the Coast",
+    "year": 2000,
+    "author": "Miguel Duran",
+    "section": "Area 4: The Larder",
+    "sourcePdf": "",
+    "inspectedPdfSha256": "735fb0e2bf3a2725c98c7faf4285b6b7e5197c9be88fa23a36f195d62e1e34fa",
+    "archiveAndLocalBytesMatch": true,
+    "printedPages": [
+      7,
+      8
+    ],
+    "pdfPages": [
+      6,
+      7
+    ],
+    "diseasePrintedPages": [
+      3,
+      4
+    ],
+    "diseasePdfPages": [
+      2,
+      3
+    ],
+    "entryId": "beast-829c3e06ec6372ec4546e391",
+    "versionKey": "aaac2c2ba5d74e43353fd29f",
+    "slug": "dire-weasel",
+    "query": "dire weasel southwestern sacks",
+    "portraitSelection": "generated",
+    "printedChallenge": "2",
+    "challengeScope": "one dire weasel"
+  },
+  {
+    "name": "Rat",
+    "kind": "beast",
+    "publication": "The Burning Plague",
+    "edition": "3.0 edition",
+    "printedName": "Rats (8)",
+    "publisher": "Wizards of the Coast",
+    "year": 2000,
+    "author": "Miguel Duran",
+    "section": "Area 4: The Larder",
+    "sourcePdf": "",
+    "inspectedPdfSha256": "735fb0e2bf3a2725c98c7faf4285b6b7e5197c9be88fa23a36f195d62e1e34fa",
+    "archiveAndLocalBytesMatch": true,
+    "printedPages": [
+      7,
+      8
+    ],
+    "pdfPages": [
+      6,
+      7
+    ],
+    "diseasePrintedPages": [
+      3,
+      4
+    ],
+    "diseasePdfPages": [
+      2,
+      3
+    ],
+    "entryId": "beast-9950cec246ece55e46c9929e",
+    "versionKey": "206a942e610691e71f664853",
+    "slug": "rat",
+    "query": "rat barrels 2 and 5",
+    "portraitSelection": "generated",
+    "printedStatsPage": 8,
+    "pdfStatsPage": 7,
+    "printedChallenge": "1",
+    "challengeScope": "the eight-rat group line",
+    "individualChallenge": null
+  }
+]

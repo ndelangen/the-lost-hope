@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Dark Stalker",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium humanoid. Three racial d8 Hit Dice, land speed 30 ft., +2 natural armor, blindsight 60 ft. and favored class rogue. Racial adjustments from p. 9 are Strength +4, Dexterity +6, Constitution +2, Intelligence +2, Wisdom +4 and Charisma +6.",
+      "The Dark Stalker adds 3d6 on a qualifying melee sneak attack. It applies poison safely. Fog cloud works twice per day at caster level 5.",
+      "Three times per day, Shadow Cloak provides 40% miss chance in shadow or darkness and 20% in bright light. It defeats ordinary darkvision. Sight that penetrates magical darkness defeats the cloak.",
+      "In shadows, add +8 racial to Hide and +4 racial to Move Silently. Sunlight or daylight-equivalent illumination imposes a –2 morale penalty on attacks, saves, checks and damage.",
+      "The dedicated character paragraph puts ECL at class levels +5. The stat block separately prints a level adjustment of 5, which would put ECL at class levels +8 under the introduction’s formula."
+    ]
+  },
+  {
+    "name": "Kaorti",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium outsider with 2 racial d8 Hit Dice, +2 natural armor, darkvision 60 ft., speed 30 ft., poison immunity and bite 1d6. Racial adjustments are Strength –4, Dexterity +4, Intelligence +4 and Charisma +6. Level adjustment +2. Favored class sorcerer. The character section excludes animal familiars.",
+      "Kaorti know the ribbon dagger as a bonus proficiency and can use simple ranged weapons and shuriken. Heal gains +8 racial. As outsiders, they need wish or miracle to return to life.",
+      "Each of color spray, the appearance disguise, feather fall, ray of enfeeblement, reduce and spider climb is usable once per day at caster level 2. The source gives save DC 14 + spell level.",
+      "A resin suit or cyst wards off Material Plane exposure. Unprotected kaorti make an hourly Fortitude save starting at DC 15 and increasing by 1 per previous check. Failure deals 1d6 subdual damage and causes fatigue until that exposure damage heals. Exposure after unconsciousness deals normal damage instead.",
+      "Vile Transformation requires eight hours of continuous jaw contact with a willing or helpless victim and a Fortitude DC 11 save at the end. Each repeat attempt adds 1 to the DC. Failure changes a humanoid into a kaorti or another living creature into a kaorti thrall."
+    ]
+  },
+  {
+    "name": "Khaasta",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium monstrous humanoid with 3 racial d8 Hit Dice, land speed 30 ft., +6 natural armor and darkvision 60 ft. Racial adjustments from p. 9 are Strength +8, Dexterity +2, Constitution +4 and Intelligence +2.",
+      "Primary bite deals 1d4 plus Strength. A full attack with a manufactured melee weapon can include the bite at –5 with half the Strength bonus.",
+      "Common and Draconic. Favored class fighter. The character paragraph gives ECL equal to class levels +3. That accounts for the three racial Hit Dice in the example. Khaasta clerics choose two among Chaos, Strength, Trickery and War."
+    ]
+  },
+  {
+    "name": "Ophidian",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium monstrous humanoid with 3 racial d8 Hit Dice, +3 natural armor and darkvision 60 ft. Speed 20 ft., climb 15 ft. and swim 50 ft. Racial adjustments are Strength +2, Dexterity +4 and Intelligence –2.",
+      "Primary bite deals 1d4 plus Strength and can deliver Serpentine Curse. The bite can be secondary to a manufactured melee weapon on a full attack.",
+      "A bitten humanoid must succeed on Fortitude DC 11 or contract the curse. Its changes begin in 1d4+1 days and finish after two weeks. Remove disease or remove curse stops the process before completion. Heal, regeneration, limited wish, wish or miracle reverses changes already underway. Only wish or miracle reverses a completed transformation.",
+      "Climb and Swim gain +8 racial, with take 10 allowed under pressure. Hide gains +10 in forested or subterranean terrain. Common and Yuan-Ti, sometimes Draconic. Favored class fighter. The printed entry gives no numeric level adjustment."
+    ]
+  },
+  {
+    "name": "Selkie",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium aquatic shapechanger with 3 racial d8 Hit Dice and level adjustment +1. The printed racial adjustments are Strength –2, Dexterity +2, Intelligence +2 and Charisma +2. Favored class bard. Common and Aquan.",
+      "Land form is humanoid with 30-ft. land movement. Ocean form is a seal with 90-ft. swim movement, +5 natural armor and a 1d6 bite. At shallow coast or on a narrow strip of beach, the selkie can choose either form and change as a free action.",
+      "Items worn or carried in land form merge into the seal. Magic items stop functioning while merged.",
+      "Swim gains +8 racial, with take 10 allowed even when threatened or distracted. Clerics without a patron can choose among Healing, Protection and Water."
+    ]
+  },
+  {
+    "name": "Yurian",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "traits": [
+      "Medium aquatic monstrous humanoid with 3 racial d8 Hit Dice, +6 natural armor, land speed 30 ft., swim speed 20 ft. and darkvision 60 ft. Breathes air and water. Racial adjustments are Strength +4, Constitution +4, Intelligence –2 and Charisma –2.",
+      "Two primary upper claws deal 1d6 plus Strength each. The smaller middle pincers are used for handling objects. Some individuals have one larger claw that deals 1d8, treated as a separate physical variation.",
+      "Limited Regeneration restores missing body parts once the associated damage is healed by any means. This feature grants no extra hit-point recovery. Hide gains +4 racial. Swim gains +8 racial and can take 10 under pressure.",
+      "Aquan. Favored class barbarian. The dedicated character paragraph gives ECL equal to class levels +4. The stat block gives level adjustment +4, which would yield class levels +7 under the introduction’s arithmetic. Yurian clerics have Healing, Luck, Protection and Water available."
+    ]
+  }
+]

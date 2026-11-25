@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Giant Crocodile",
+    "file": "",
+    "selection": "generated",
+    "sha256": "f3c2523105e6555bef3b18e5fb8959256a49753a635ca5644b91a1d65e440ebd",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "file": "",
+    "selection": "generated",
+    "sha256": "a2fdc852584974c6df9d84b54c25b9596bd92b157b1019c98015d5775a1af13e",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Dog",
+    "file": "",
+    "selection": "generated",
+    "sha256": "35748cf3d0e8b8eb251da1e258691a4096239f3962b644efc196b2e45bb46b8f",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Tick",
+    "file": "",
+    "selection": "generated",
+    "sha256": "38c662d7cc206a73443800b3d32ba16e87db69aa0d4077d1236affe72ade4390",
+    "width": 1254,
+    "height": 1254
+  }
+]

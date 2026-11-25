@@ -1,0 +1,37 @@
+{
+  "commit": "f745de76b970859ae90d6461bbb790c7a8128934",
+  "publication": "Volo's Guide to Monsters",
+  "encounterVersions": 3,
+  "fullStatBlocks": 3,
+  "voloRecordsWithLocalRules": 173,
+  "generatedPortraitsInstalled": 3,
+  "firstGeneratedPortraits": 2,
+  "revisedGeneratedPortraits": 1,
+  "creditedGalleriesVerified": 3,
+  "otherGuardDrakePrintingsVerified": 6,
+  "allRecentVersionsWithGeneratedPortrait": 523,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-22-before-after.jpg",
+  "portraitSheet": "output/dm-library/review/encounters-22-portraits.jpg",
+  "results": "output/dm-library/encounter-batches/22/results.json",
+  "searchResults": "output/dm-library/encounter-batches/22/search-results.json",
+  "nextSourcePublication": "The Wild Beyond the Witchlight",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Shadow (Variant)",
+      "source": "https://www.dndbeyond.com/monsters/1979804-shadow-variant",
+      "challenge": "1/2"
+    },
+    {
+      "name": "Will-o’-Wisp (Variant)",
+      "source": "https://www.dndbeyond.com/monsters/1979814-will-o-wisp-variant",
+      "challenge": "2"
+    },
+    {
+      "name": "Witchlight Hand",
+      "source": "https://www.dndbeyond.com/monsters/1979816-witchlight-hand",
+      "challenge": "1/8"
+    }
+  ]
+}

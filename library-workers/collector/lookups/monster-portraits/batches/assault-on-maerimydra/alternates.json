@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Fiendborne Fire Giant",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fiendborne-fire-giant/source-fire-giant-mm.webp",
+    "artist": "Base creature art: Fire Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "1d8744e490697951e86cd320eda3debc4460269316cdc3b498d9df72307316e7",
+    "reference": "images/monsters/fire-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Fiendborne Fire Giant",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/fiendborne-fire-giant/source-fire-giant-xmm.webp",
+    "artist": "Base creature art: Fire Giant by Robson Michel · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "2024c1e93f6784679246e572d729624f9e5557737ae6bb158db09ff7a2e45d71",
+    "reference": "images/monsters/fire-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Hledh Hellspawn",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/hledh-hellspawn/source-fire-giant-mm.webp",
+    "artist": "Base creature art: Fire Giant · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "1d8744e490697951e86cd320eda3debc4460269316cdc3b498d9df72307316e7",
+    "reference": "images/monsters/fire-giant/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Hledh Hellspawn",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/hledh-hellspawn/source-fire-giant-xmm.webp",
+    "artist": "Base creature art: Fire Giant by Robson Michel · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "2024c1e93f6784679246e572d729624f9e5557737ae6bb158db09ff7a2e45d71",
+    "reference": "images/monsters/fire-giant/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lord",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/lord/source-mummy-lord-mm.webp",
+    "artist": "Base creature art: Mummy Lord · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "ade1f1536ae4be05c77649bb32a2dbc6df18d105bd6e439ae19efe5c24ca631f",
+    "reference": "images/monsters/mummy/mm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Lord",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/lord/source-mummy-lord-xmm.webp",
+    "artist": "Base creature art: Mummy Lord by Helge C. Balzer · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "47569b1e8b461407de5a72415b69423e9e1ef450bd2237504a861bb9a3bae446",
+    "reference": "images/monsters/mummy-lord/xmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mother",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/mother/source-grazzt-mpmm.webp",
+    "artist": "Parent character art: Graz'zt by Richard Whitters · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "8b145a42c058b24d91c250c95d78457c346e2666177f2272b13fe1197d352e4b",
+    "reference": "images/monsters/grazzt/mpmm-1.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Mutated Derro Savant",
+    "publication": "DDEX3-16 - Assault on Maerimydra",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/mutated-derro-savant/source-derro-savant-mtf.webp",
+    "artist": "Base creature art: Derro Savant by Bryan Syme · Mordenkainen's Tome of Foes",
+    "kind": "illustration",
+    "sha256": "93b5bec69477048ff12f1fab4982dd52de39665054da3777c665fd777561c136",
+    "reference": "images/monsters/derro-savant/mtf-1.webp"
+  }
+]

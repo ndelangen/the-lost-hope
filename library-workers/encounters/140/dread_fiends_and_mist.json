@@ -1,0 +1,358 @@
+[
+  {
+    "name": "Assassin Imp",
+    "decision": "separate",
+    "pages": "pp. 118–119",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Assassin Imp",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Tiny Outsider (Evil, Lawful)",
+      "ac": 18,
+      "hp": 13,
+      "hitDice": "3d8",
+      "cr": "4",
+      "speed": "20 ft. (4 squares), fly 50 ft. (perfect)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A spiny-winged familiar treats anyone close to its master as a potential threat. It prefers an apparent accident to an open fight.",
+      "otherStatistics": "Any land or underground. Solitary. Always lawful evil. No treasure. Advancement 4–6 HD (Tiny). No level adjustment listed.",
+      "sections": {
+        "Combat statistics": "Initiative +3. AC +2 size, +3 Dex, +3 natural. Touch AC 15 and flat-footed AC 15, derived from those bonuses. Base attack +3, grapple −5. Space 2½ ft., reach 0 ft. Fort +3, Ref +6, Will +4.",
+        "Skills and feats": "Hide +18, Listen +11, Move Silently +8, Search +9, Spellcraft +7, Spot +7. Flyby Attack, Weapon Finesse.",
+        "Traits": "Damage reduction 5/magic, darkvision 60 ft., immunity to poison, fire resistance 20, spell resistance 10. Regeneration 1 (Ex). Acid and hits from holy or blessed weapons deal normal damage.",
+        "Actions": "Attack or full attack. Sting +8 melee (1d8 plus poison).\nPoison (Ex). DC 13 Fortitude. Initial damage 1d4 Str, secondary damage 2d4 Str. A victim reduced to Strength 0 appears dead to nonmagical examination.\nSpell-like abilities. Caster level 6th, save DC 10 + spell level. At will detect magic, find traps, and self-only invisibility. Three times per day each, knock and inflict light wounds. Once per day, command.",
+        "Tactics": "When pressed, use invisibility and flyby attacks to deliver the sting.",
+        "Printed source": "pp. 118–119"
+      }
+    }
+  },
+  {
+    "name": "Fenhound",
+    "decision": "separate",
+    "pages": "pp. 71–72",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Fenhound",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Chaos, Good)",
+      "ac": 18,
+      "hp": 26,
+      "hitDice": "4d8 + 10",
+      "cr": "4",
+      "speed": "40 ft. (8 squares)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "At the full moon, these golden marsh hounds track someone who has committed a deed that calls for a powers check.",
+      "otherStatistics": "Temperate marsh. Pair or pack of 5–8. Always chaotic good. No treasure. Advancement 6–10 HD (Large). No level adjustment listed.",
+      "sections": {
+        "Combat statistics": "Initiative +2. AC +2 Dex and +6 natural, touch 12, flat-footed 16. Base attack +4, grapple +8. Space and reach 5 ft. Fort +6, Ref +6, Will +4.",
+        "Skills and feats": "Listen +7, Move Silently +9, Spot +7, Survival +7. Endurance, Track.",
+        "Traits": "Damage reduction 5/—, scent, spell resistance 14. Magic Immunity (Ex). Immune to Sun domain spells. Spells cast by priests of deities of the moon, moors, or revenge cannot harm it.",
+        "Actions": "Attack or full attack. Bite +8 melee (1d8 + 4).\nTrip (Ex). After a bite hits, make a trip check at +4 as a free action. No touch attack or attack of opportunity, and the target cannot counter-trip on a failure.\nBay (Su). At the start of the hunt its howl carries one mile. The quarry must immediately attempt a DC 13 Fear save if it hears the bay.",
+        "The hunt": "A deed requiring a powers check in a swamp or moor draws at least two hounds on the next full moon. They track the quarry unerringly, fight anyone who interferes, and vanish at dawn. They return on the three nights of a full moon while the quarry survives and the curse remains. A slain hound dissolves into luminous vapor. Recurrence (Su). Killing a fenhound makes the killer the target of a pack at each full moon. Atonement ends the pursuit.",
+        "Ravenloft Fear": "When using the Ravenloft Fear rules, roll a Will save. Apply modifiers to saves against fear. Failure by 1–5 makes the target shaken, 6–10 frightened, and 11–15 panicked. Failure by 16 or more makes it panicked and calls for an immediate Horror save at the Fear DC minus 5. Fear lasts 5d6 rounds. A second failure escalates shaken to frightened or frightened to panicked. Creatures without Intelligence scores are immune. See Ravenloft Player’s Handbook, pp. 77–79.",
+        "Printed source": "pp. 71–72"
+      }
+    }
+  },
+  {
+    "name": "Hearth Fiend",
+    "decision": "separate",
+    "pages": "p. 113",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Hearth Fiend",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Small Elemental (Fire, Mists)",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "cr": "2",
+      "speed": "50 ft. (10 squares)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A hearth fiend lives inside a stubborn flame. It whispers bargains from the fire and tries to get a servant to build it a bigger one.",
+      "otherStatistics": "Any land or underground, inside an open fire. Solitary. Always chaotic evil. No treasure. Advancement 3–5 HD (Medium), 6–9 HD (Large), or 10–18 HD (Huge). No level adjustment listed. Speaks Ignan and can communicate with any creature that has a language.",
+      "sections": {
+        "Combat statistics": "Initiative +5 as printed. AC 15 (+1 size, +1 Dex as printed, +3 natural). Touch AC 12 and flat-footed AC 14 use those listed bonuses. Base attack +1, grapple −3. Space and reach 5 ft. Fort +0, Ref +4, Will +0.",
+        "Skills and feats": "Listen +6, Spot +6. Blind-Fight (bonus), Improved Initiative.",
+        "Traits": "Damage reduction 10/magic, elemental traits, Fire and Mists subtypes, and immunity to electricity. Normally invisible, visible at will, and detectable with see invisibility. The fire it occupies stays lit until it is slain or driven out. Water Vulnerability (Ex). Magically created water deals 1d4 damage per gallon.",
+        "Actions": "Attack or full attack. Fire bolt +3 ranged (1d6 damage, ignites flammables) or slam (1d4 plus 1d4 fire). Use +2 melee for the slam as a table default.\nBurn (Su). A fire bolt reaches 10 ft. per HD (20 ft. for this fiend). A creature hit must make a DC 14 Reflex save or catch fire for 1d4 rounds. Use the 3.5 catching-on-fire procedure.\nTransfer Flame. As a standard action, transfer to another open flame within 5 ft.\nFire Charm (Su). Someone near the flame must succeed on a DC 15 Listen check to make out its whispers, then make a DC 14 Will save or be affected as by charm person (caster level 8th). The fiend can charm only one creature at a time. It may keep trying until the target gives in or leaves.",
+        "Arrival": "Casting a fire-based spell in Ravenloft has a 1% chance per spell level to draw a hearth fiend into the nearest open flame.",
+        "Printed source": "p. 113"
+      },
+      "ruleNotes": [
+        "The printed initiative and Dex contribution to AC do not follow the listed Dex 16 and Improved Initiative. Use the printed totals. The slam has no printed attack bonus. The table default uses +1 base attack, +1 size, and +0 Str."
+      ]
+    }
+  },
+  {
+    "name": "Hebi-no-onna",
+    "decision": "separate",
+    "pages": "pp. 114–115",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Hebi-no-onna",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Monstrous Humanoid",
+      "ac": 12,
+      "hp": 105,
+      "hitDice": "14d8 + 42",
+      "cr": "16",
+      "speed": "30 ft. (6 squares)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A serpent enchanter hides its snake arms inside wide sleeves. In its lair, cultists and vipers guard it while it casts spells.",
+      "otherStatistics": "Any land (Rokushima Táiyoo and Sri Raji). Solitary or pair (mother and daughter). Always lawful evil. Standard items and double art objects. No advancement or level adjustment listed. Speaks several domain languages, commonly Rajian or Rokuma, and reptilian languages including Draconic.",
+      "sections": {
+        "Combat statistics": "Initiative +6. AC +2 Dex, touch AC 12 and flat-footed AC 10 derived from the listed bonus. Base attack +14, grapple +14. Space and reach 5 ft. Fort +7, Ref +11, Will +10.",
+        "Skills and feats": "Appraise +12, Bluff +11, Concentration +13, Craft (alchemy) +10, Diplomacy +11, Disguise +10, Knowledge (arcana) +10, Sense Motive +10, Spellcraft +11. Combat Casting, Dodge (bonus), Improved Initiative (bonus), Mobility, Scribe Scroll (bonus), Spell Focus (Enchantment), Spell Penetration, Two-Weapon Fighting (bonus).",
+        "Traits": "Immunities (Su). Immune to poisons and to the gaze attacks of reptilian creatures, including other hebi-no-onna. Snake Control (Su). Any snake that can hear its commands obeys, even at the cost of its life. This does not summon snakes. A lair often holds 20–40, many of them vipers.",
+        "Actions": "Attack. One snake-arm bite +14 melee (1d3 plus poison) or one human-mouth bite +9 melee (1d2 plus poison). Full attack. Two snake-arm bites +14 each, or one human-mouth bite +9.\nSnake-arm poison (Ex). DC 15 Fortitude. Initial and secondary damage 1d6 Constitution each.\nDaigatu (Ex, 3/day). On a human-mouth bite, DC 20 Fortitude. Initial and secondary effects each cause hallucinations and stun for 1d10 + 2 rounds. Before reaching maturity at about 12, a daughter’s bite instead deals 1d2 − 1. Her venom nauseates the target for 2d4 rounds on a failed DC 13 Fortitude save.\nHypnotic Gaze (Su). Choose a target as a standard action. DC 20 Will or hypnotism at caster level 14th. Merely looking at the hebi-no-onna does not trigger the effect.",
+        "Spells": "Casts as a 14th-level wizard specializing in Enchantment. Save DC 14 + spell level. Only material components with a listed gp cost are required. Preferred spells include charm monster, charm person, confusion, dominate monster, dominate person, feeblemind, geas, globe of invulnerability, hold monster, hold person, lesser globe of invulnerability, ray of enfeeblement, suggestion, and greater teleport.",
+        "Tactics": "Use servants to hold foes back while casting or using the gaze from behind a lesser globe of invulnerability. Use greater teleport to flee if gravely threatened.",
+        "Printed source": "pp. 114–115"
+      },
+      "ruleNotes": [
+        "The summary lists gaze immunity broadly. The detailed rule limits it to reptilian sources. The preferred spell list contains dominate monster but the creature casts as a 14th-level wizard. Use the native wizard slot limits and leave that 9th-level spell unprepared in this encounter. The spell list is a set of preferences rather than a prepared loadout."
+      ]
+    }
+  },
+  {
+    "name": "Mist Ferryman",
+    "decision": "separate",
+    "pages": "pp. 151–152",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Mist Ferryman",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Undead (Mists)",
+      "ac": 17,
+      "hp": 26,
+      "hitDice": "4d12",
+      "cr": "4",
+      "speed": "50 ft. (10 squares)",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "This skeletal ferryman herds travelers deeper into the Mists. If subdued, it may trade passage for its freedom.",
+      "otherStatistics": "Misty border and fogbanks on any land. Solitary. Always neutral evil. No treasure. Advancement 6–9 HD (Large). No level adjustment listed. Can communicate with any creature that has a language.",
+      "sections": {
+        "Combat statistics": "Initiative +7. AC +3 Dex and +4 natural, touch 13, flat-footed 14. Base attack +2, grapple +4. Space and reach 5 ft. Fort +1, Ref +4, Will +6.",
+        "Skills and feats": "Listen +8, Spot +8, Survival +11. Improved Initiative.",
+        "Traits": "Undead traits, +2 turn resistance, damage reduction 5/magic. Obscuring Mist (Su). When summoned within a domain, obscuring mist at caster level 12th remains centered on it. It vanishes if that mist is dispelled. Mist does not obscure the ferryman’s own vision.",
+        "Actions": "Attack. Claw +4 melee (1d6 + 2 plus ferryman’s rot). Full attack. Two claws +4 each and bite −1 melee (1d8 + 1); each hit can transmit rot.\nFerryman’s Rot (Su). Injury disease. DC 15 Fortitude, incubation 1 week, initial damage 1d4 Con. It persists until remove disease or similar magic cures it, or the victim reaches Constitution 0 and dies. An afflicted victim who dies rises as a mist ferryman after 6 rounds and retreats into the Mists.\nSummoning Howl (Ex). When outmatched, call 1d8 + 1 other ferrymen. They arrive in 2d6 rounds and help until combat ends.",
+        "Summoned ferryman": "Someone can conjure it with summon monster VII, but it attacks the summoner. If incapacitated, it can bargain for release by taking itself and all adjacent creatures to a requested spot in Ravenloft, as with greater teleport.",
+        "Printed source": "pp. 151–152"
+      },
+      "ruleNotes": [
+        "The special-attack summary says mist poison, while the attacks and detailed rules use ferryman’s rot. Ongoing damage is not listed separately. Use the 3.5 disease timing and the printed 1d4 Constitution damage on a failed daily save as a table default, while preserving the exception to natural recovery."
+      ]
+    }
+  },
+  {
+    "name": "Shadow Fiend",
+    "decision": "separate",
+    "pages": "p. 185",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Shadow Fiend",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium Outsider (Chaotic, Evil)",
+      "ac": 13,
+      "hp": 39,
+      "hitDice": "7d8 + 7",
+      "cr": "8",
+      "speed": "30 ft. (6 squares), fly 20 ft. (clumsy)",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A winged demon fights from darkness. It tries to disarm anyone carrying a lantern or torch, then charges from cover.",
+      "otherStatistics": "Any land or underground. Solitary. Always chaotic evil. No treasure. Advancement 8–12 HD (Medium) or 13–20 HD (Large). Level adjustment +7. Requires no sustenance.",
+      "sections": {
+        "Combat statistics": "Initiative +6. AC 13 (+2 Dex, +1 natural), touch 13 as printed, flat-footed 11. Base attack +7, grapple +8. Space and reach 5 ft. Fort +6, Ref +7, Will +7.",
+        "Skills and feats": "Bluff +8, Concentration +8, Hide +8 (add +10 racial in low light or darkness), Intimidate +10, Jump +10, Listen +13, Move Silently +10, Sense Motive +7, Spot +9. Alertness, Improved Initiative.",
+        "Traits": "Blindsight, damage reduction 5/silver, immunity to poison and electricity, resistance 10 to acid, cold, and fire, and tanar’ri traits. Telepathy (Su). 100 ft. with any creature that has a language.\nShadow Armor (Su). Add +4 deflection AC in dim light such as torchlight or moonlight. Add +8 instead in total darkness.\nSensitivity to Light (Ex). In bright sunlight or daylight, it takes −2 on attacks. A hit against it that threatens a critical hit automatically confirms.",
+        "Actions": "Attack. Claw +8 melee (1d6 + 1). Full attack. Two claws +8 melee each (1d6 + 1), plus bite +3 melee (1d8).\nPounce (Ex). On a charge, make a full attack with four rake attacks. Each rake is +8 melee (1d6 + 1).\nSpell-like abilities. Caster level 10th, save DC 12 + spell level. Darkness and cause fear at will. Magic jar once per week.",
+        "Printed source": "p. 185"
+      },
+      "ruleNotes": [
+        "The printed touch AC is 13 despite the listed +1 natural armor. Blindsight has no printed range. Set the range at the table if needed."
+      ]
+    }
+  },
+  {
+    "name": "Shadow Unicorn",
+    "decision": "separate",
+    "pages": "p. 195",
+    "notes": "Uses the 3.5 printing of Denizens of Dread.",
+    "statBlock": {
+      "name": "Shadow Unicorn",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large Magical Beast",
+      "ac": 21,
+      "hp": 45,
+      "hitDice": "5d10 + 20",
+      "cr": "4",
+      "speed": "60 ft. (12 squares)",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A dark-coated unicorn slips through shadowed woodland, then breaks cover with a flaming horn and a scream.",
+      "otherStatistics": "Temperate forests of Darkon, Falkovnia, and the Phantasmal Forest. Solitary or pair. Always neutral evil. No treasure. Advancement 6–10 HD (Large). No level adjustment listed. Speaks Sylvan, Infernal, and Abyssal.",
+      "sections": {
+        "Combat statistics": "Initiative +8 as printed. AC −1 size, +4 Dex, +8 natural, touch 13, flat-footed 17. Base attack +5, grapple +17. Space 10 ft., reach 5 ft. or 10 ft. with the horn. Fort +8, Ref +8, Will +3.",
+        "Skills and feats": "Hide +6, Jump +6, Listen +5, Move Silently +10, Spot +6, Survival +7. Alertness, Multiattack.",
+        "Traits": "Damage reduction 5/magic. Immune to charm-related spells, poisons, and the fire from its own horn. Shadow Merge (Su). In shadowy areas, gain total concealment and move without sound. It can suppress the effect.",
+        "Actions": "Attack or full attack. Horn +13 melee (1d8 + 12, plus 1d4 fire when aflame). As an alternative full attack, make two hoof attacks +13 melee each (1d4 + 4), and one bite +11 melee (1d8 + 4).\nFlaming Horn (Su). Ignite the horn as a free action. A hit with it adds 1d4 fire damage and ignites combustibles.\nBlink (Sp, 3/day). Caster level 8th. Use only in shadowy areas.\nTerror Scream (Su). Functions as fear at caster level 8th, DC 20. A failed Ravenloft Fear save that produces a major effect also permanently turns the victim’s hair white.",
+        "Ravenloft Fear": "When using the Ravenloft Fear rules, roll a Will save. Apply modifiers to saves against fear. Failure by 1–5 makes the target shaken, 6–10 frightened, and 11–15 panicked. Failure by 16 or more makes it panicked and calls for an immediate Horror save at the Fear DC minus 5. Fear lasts 5d6 rounds. A second failure escalates shaken to frightened or frightened to panicked. Creatures without Intelligence scores are immune. See Ravenloft Player’s Handbook, pp. 77–79.",
+        "Printed source": "p. 195"
+      },
+      "ruleNotes": [
+        "Initiative +8 and 45 hp are printed values. The initiative includes an unexplained +4 above the Dex modifier."
+      ]
+    }
+  }
+]

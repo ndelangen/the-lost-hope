@@ -1,0 +1,9 @@
+# Beast batch 17, part b17_04
+
+All five entries use their printed Beast type. The original *Minsc and Boo's Journal of Villainy* puts Bhaal's Ravager at p. 95 and both spider blocks at p. 151. The Ravager's Multiattack refers to a Fear aura that the 2021 block leaves undefined. Spiky Carapace gives no end time. The two spider blocks also leave the Leap and sprayed webs from their ecology prose without defined actions. The staged rules preserve those gaps. [Original Journal text](https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy) · [Publisher listing](https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e)
+
+*Chains of Asmodeus* has the Rothé on p. 48. I kept the Cattle tag and the 20-ft. requirement for the extra Gore damage. The encounter uses the same block for its herd. *Fizban's Treasury of Dragons* puts Giant Canary on pp. 23–24, where the figurine's canary option allows up to eight hours as a riding mount and recharges at the next dawn. The stat block lists no languages, and the item rules let the summoned bird understand the user's languages. [Rothé source](https://www.scribd.com/document/683889128/Chains-of-Asmodeus) · [Fizban first-printing source](https://fliphtml5.com/fqkpd/pxye/Fizban%26%2339%3Bs_Treasury_of_Dragons/25/)
+
+The matching Volo's Rothé portrait passed the reuse hash check. Deep Spider shares the new Sword Spider portrait because the source describes it as a larger, drow-bred variant with the same blade-legged anatomy. The new Ravager and living canary portraits use the same plain parchment. I checked all four distinct portraits beside Big Linda in square and round crops. The outer spider legs and the Ravager's hind feet sit close to the round crop edge. [Portrait comparison](portrait-review.jpg)
+
+[Rules](stat-blocks.json) · [Source evidence](source-evidence.json) · [Portrait hashes](portrait-files.json)

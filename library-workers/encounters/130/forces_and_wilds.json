@@ -1,0 +1,574 @@
+[
+  {
+    "name": "Force of Blood",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Elemental (Earth, Fire, Water), any alignment",
+    "ac": 21,
+    "hp": 230,
+    "speed": "50 ft.",
+    "cr": "19",
+    "xp": 22000,
+    "proficiencyBonus": 6,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Con": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Int": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Con +12, Wis +10, Cha +11. Intimidation +11, Medicine +10, Persuasion +11. Resists fire and necrotic damage. Immune to Charmed, Exhaustion, and Frightened. Darkvision 120 ft., passive Perception 14. Speaks Common, Dwarvish, Elvish, Giant, and Primordial.",
+    "description": "A blood sovereign can find living creatures through obscured sight and replenish its strength with each spear hit.",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Visceral Sight. See any creature within 120 ft. other than a Construct or an Undead. Effects that obscure sight do not block this sense.",
+      "Actions": "Multiattack. Make three Scarlet Longspear attacks. One can be replaced with Rend from Within.\nScarlet Longspear. Melee or ranged weapon attack, +13 to hit, reach 15 ft. or range 30/60 ft., one target. Hit 18 (2d10 + 7) piercing damage. The force of blood regains 5 HP if it hits a creature.\nRend from Within. Melee spell attack, +12 to hit, reach 5 ft., one creature. Hit 13 (2d6 + 6) slashing damage plus 26 (4d12) necrotic damage. The target spends one Hit Die without effect and cannot take reactions until the start of its next turn. Miss 13 (2d12) necrotic damage.",
+      "Bonus Actions": "Convocation of Blood. Choose the force of blood or another visible Elemental within 30 ft. That Elemental chooses Boiling Blood or Essence Thief.\nBoiling Blood. A creature within 5 ft. of the Elemental, other than a Construct or an Undead, makes a DC 19 Constitution save. On a failure it chooses between taking 27 (5d10) fire damage or attacking a creature the Elemental picks with a weapon whose damage die is at least 1d4. The attack deals an extra 11 (2d10) fire damage on a hit.\nEssence Thief. Two creatures the Elemental sees within 30 ft. make DC 19 Constitution saves, taking 19 (3d12) necrotic damage on a failure or half as much on a success. The Elemental can then teleport to a visible unoccupied space within 5 ft. of either target.",
+      "Printed source": "Flee, Mortals!, p. 94"
+    },
+    "hitDice": "20d10 + 120"
+  },
+  {
+    "name": "Force of Earth",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Elemental (Earth), any alignment",
+    "ac": 18,
+    "hp": 95,
+    "speed": "30 ft., burrow 20 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Natural armor. Athletics +7, History +6. Immune to poison damage and to Petrified and Poisoned. Darkvision 60 ft., tremorsense 30 ft., passive Perception 12. Speaks Common and Terran.",
+    "description": "A guardian shaped like a stone ape. It can move through solid rock without leaving a tunnel.",
+    "sections": {
+      "Role": "Soldier",
+      "Traits": "Earth Glide. Burrow through nonmagical, unworked earth or stone without disturbing it.",
+      "Actions": "Multiattack. Make two Earthbind Strike attacks.\nEarthbind Strike. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) bludgeoning damage. The target's speed becomes 0 until the start of the force of earth's next turn.\nShatter Rock. Ranged weapon attack, +7 to hit, range 60/120 ft., one target. Hit 23 (3d12 + 4) bludgeoning damage. Against an object or structure, deal 47 (6d12 + 8) bludgeoning damage instead.",
+      "Bonus Actions": "Convocation of Earth (1/day). Choose the force of earth or another visible Elemental within 30 ft. That Elemental chooses Earthen Aura or Stone Armor.\nEarthen Aura. Stones orbit in a 10-ft.-radius sphere around the Elemental for 1 minute or until it dies or becomes Incapacitated. A non-Elemental takes 5 slashing damage for every 5 ft. it moves into or within the area.\nStone Armor. Gain 20 temporary HP. While any of these temporary HP remain, the Elemental is immune to Dazed, Paralyzed, Petrified, and Stunned.",
+      "Printed source": "Flee, Mortals!, p. 95"
+    },
+    "hitDice": "10d10 + 40"
+  },
+  {
+    "name": "Force of Iron",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Elemental (Earth, Fire), any alignment",
+    "ac": 19,
+    "hp": 150,
+    "speed": "60 ft.",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "otherStatistics": "Natural armor, AC 22 in Shield Form. Save Str +9. Athletics +9, Perception +5. Resists fire damage. Immune to poison damage and to Exhaustion, Frightened, Petrified, and Poisoned. Darkvision 60 ft., tremorsense 30 ft., passive Perception 15. Speaks Common, Ignan, and Terran.",
+    "description": "A four-armed metal centaur that reshapes its body for reach, defense, or fire.",
+    "sections": {
+      "Role": "Brute",
+      "Actions": "Multiattack. Use Form Stance, then make either three Ferrous Greatblade attacks or three Iron Spike attacks.\nFerrous Greatblade. Melee weapon attack, +9 to hit, reach 5 ft. (20 ft. in Polearm Form), one target. Hit 19 (4d6 + 5) slashing damage.\nIron Spike. Ranged weapon attack, +9 to hit, range 30/60 ft., one target. Hit 14 (2d8 + 5) piercing damage.\nForm Stance. Choose one form. Its benefit lasts until the start of the force of iron's next turn.\nPolearm Form. Its melee reach changes from 5 ft. to 20 ft.\nReckless Form. The force of iron has advantage on its melee attack rolls. All attack rolls against it also have advantage.\nShield Form. Increase AC by 3.\nFire Form (1/day). Its attacks deal an extra 13 (2d12) fire damage on a hit.",
+      "Bonus Actions": "Convocation of Iron (1/day). Choose the force of iron or another visible Elemental within 30 ft. That Elemental chooses Earth Reinforcements or Iron Skin.\nEarth Reinforcements. Five earth sparks appear in free spaces within 20 ft. of the Elemental. They understand it, obey its spoken commands, and act immediately after it in initiative.\nIron Skin. The Elemental resists bludgeoning, piercing, and slashing damage for 1 minute, with concentration as if on a spell.",
+      "Printed source": "Flee, Mortals!, pp. 96–97"
+    },
+    "hitDice": "12d10 + 84",
+    "relatedCreatures": [
+      {
+        "name": "Earth Spark",
+        "kind": "monster",
+        "terms": [
+          "earth spark",
+          "earth sparks"
+        ]
+      }
+    ],
+    "ruleNotes": [
+      "The printed Multiattack says Ferrous Blade. Use the Ferrous Greatblade attack listed in the same block."
+    ]
+  },
+  {
+    "name": "Logger",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Plant, neutral",
+    "ac": 13,
+    "hp": 102,
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +9, Con +6, Wis +3. Athletics +9, Stealth +5. Resists cold and fire damage. Immune to lightning damage and to Blinded, Deafened, and Exhaustion. Blindsight 60 ft., blind beyond that radius. Passive Perception 10. Understands Sylvan and cannot speak.",
+    "description": "A walking tangle of wood and vines that Anthracia, Princess of Venom, made from her own tree.",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Lightning Absorption. When Logger would take lightning damage, it instead regains HP equal to the damage.",
+      "Actions": "Multiattack. Make two Slam attacks, or three while Nature's Fury lasts.\nSlam. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 13 (2d6 + 6) bludgeoning damage.\nEntangling Vines. Each enemy within 30 ft. makes a DC 17 Strength save. On a failure, it takes 9 (1d6 + 6) bludgeoning damage, is Grappled (escape DC 17), and is pulled up to 30 ft. straight toward Logger.",
+      "Bonus Actions": "Nature's Fury (1/day). For 1 minute Logger has advantage on Strength checks and saves and makes an extra Slam attack when using Multiattack. If it ends a turn without dealing damage to another creature during that turn, the fury ends.",
+      "Villain Party Action": "Wilderkith timing. The party can use each villain party action once per encounter, in any order, after an enemy finishes its turn. The party can take only one per round. Logger must be present and able to act.\nAction 2, Distracting Tendrils. Each enemy within 30 ft. of Logger makes a DC 17 Dexterity save. On a failure it takes 22 (4d10) slashing damage and has disadvantage on attack rolls until the end of its next turn. On a success it takes half damage and keeps its normal attacks.",
+      "Printed source": "Flee, Mortals!, pp. 369–370"
+    },
+    "hitDice": "12d10 + 36",
+    "relatedCreatures": [
+      {
+        "name": "Anthracia, Princess of Venom",
+        "kind": "monster",
+        "terms": [
+          "Anthracia"
+        ]
+      },
+      {
+        "name": "Sylphise",
+        "kind": "monster"
+      },
+      {
+        "name": "Tuval-Uthriar",
+        "kind": "monster"
+      },
+      {
+        "name": "Vali",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Multivok Bodyguard",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Construct, unaligned",
+    "ac": 18,
+    "hp": 104,
+    "speed": "30 ft.",
+    "cr": "8",
+    "xp": 3900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +8, Dex +3, Con +7. Athletics +8, Perception +7. Resists psychic damage and bludgeoning, piercing, and slashing damage from mundane attacks. Immune to poison damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 120 ft., passive Perception 17. Speaks Dwarvish.",
+    "description": "A construct the steel dwarves built with axe blades for arms and a crossbow mounted on its shoulders. It may still protect the grave or possessions of its original charge.",
+    "sections": {
+      "Role": "Soldier",
+      "Traits": "Immutable Form. Spells, powers, and other effects cannot change its form.\nSupernatural Resistance. It has advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make three attacks in any combination of Axe Arm and Repeating Crossbow.\nAxe Arm. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 18 (2d12 + 5) slashing damage. A target wielding a weapon must make a DC 16 Strength save. On a failure, it drops a weapon it is wielding, chosen by the bodyguard, which kicks it up to 15 ft. away.\nRepeating Crossbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 16 (3d10) piercing damage.",
+      "Bonus Actions": "Magnetic Pull. Each enemy within 30 ft. wearing metal armor or made of metal makes a DC 15 Strength save. On a failure the bodyguard pulls it up to 15 ft. closer.",
+      "Reactions": "Valiar Cloak. When an attack hits a visible Medium or smaller ally within 5 ft. of the bodyguard, it makes the attacker roll again with the bodyguard as the target.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics.",
+      "Printed source": "Flee, Mortals!, p. 276"
+    },
+    "hitDice": "11d10 + 44",
+    "relatedCreatures": [
+      {
+        "name": "Multivok Chief",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Multivok Chief",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Construct, unaligned",
+    "ac": 18,
+    "hp": 190,
+    "speed": "30 ft.",
+    "cr": "14",
+    "xp": 11500,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +10, Dex +5, Con +10. Athletics +10. Resists psychic damage and bludgeoning, piercing, and slashing damage from mundane attacks. Immune to poison damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 120 ft., passive Perception 11. Speaks Dwarvish.",
+    "description": "A steel-dwarf foreman that trains its red targeting beam on obstacles and enemies, then sends other constructs in.",
+    "sections": {
+      "Role": "Support",
+      "Traits": "Immutable Form. Spells, powers, and other effects cannot change its form.\nSupernatural Resistance. It has advantage on saves against spells, powers, and other supernatural effects.",
+      "Actions": "Multiattack. Make three attacks in any combination of Pneumatic Fist and Targeting Beam.\nPneumatic Fist. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 21 (3d10 + 5) bludgeoning damage. The chief can push a Medium or smaller target up to 10 ft. away.\nTargeting Beam. Ranged spell attack, +10 to hit, range 150 ft., one target. Hit 26 (4d12) force damage. A red beam marks the target until the end of the chief's next turn. Attack rolls against the marked target have advantage.",
+      "Bonus Actions": "Chief's Command. Choose an ally within 60 ft. that can hear the chief. Without spending an action, the ally can move up to its speed without provoking opportunity attacks or make one melee attack.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics.",
+      "Printed source": "Flee, Mortals!, p. 277"
+    },
+    "hitDice": "20d8 + 100",
+    "relatedCreatures": [
+      {
+        "name": "Multivok Bodyguard",
+        "kind": "monster"
+      },
+      {
+        "name": "Servok Builder",
+        "kind": "monster"
+      },
+      {
+        "name": "Servok Miner",
+        "kind": "monster"
+      },
+      {
+        "name": "Servok War Engine",
+        "kind": "monster"
+      }
+    ]
+  },
+  {
+    "name": "Sunlight Nexus",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Elemental (Air, Fire), any alignment",
+    "ac": 18,
+    "hp": 152,
+    "speed": "40 ft., fly 90 ft.",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 20,
+        "modifier": 5
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Wis +7, Cha +9. Insight +7, Intimidation +9, Perception +7, Religion +6. Resists fire and radiant damage. Immune to poison damage and to Charmed, Exhaustion, Frightened, and Poisoned. Darkvision 60 ft., passive Perception 17. Speaks Common and Primordial.",
+    "description": "A winged silhouette of fractured light that heals its allies while exposing an enemy to their attacks.",
+    "sections": {
+      "Role": "Support",
+      "Traits": "Corona. The nexus sheds bright sunlight within 120 ft. and dim light for another 120 ft.",
+      "Actions": "Multiattack. Make three Solar Arc attacks. An available Heavenly Collapse or Rejuvenating Flare can replace one of them.\nSolar Arc. Melee or ranged spell attack, +9 to hit, reach 5 ft. or range 30 ft., one target. Hit 18 (2d12 + 5) radiant damage.\nHeavenly Collapse (2/day). Choose one visible enemy within 60 ft. Every ally of the nexus within 5 ft. of the enemy regains 20 HP. The enemy makes a DC 17 Constitution save. On a failure it loses all damage resistances and is Blinded for 1 minute, with another save to end both effects at the end of each turn.\nRejuvenating Flare (1/day). One visible ally within 30 ft. regains 27 (5d10) HP and ends any of the Charmed, Dazed, Frightened, and Poisoned conditions affecting it.",
+      "Bonus Actions": "Convocation of Sunlight (2/day). Choose the nexus or another visible Elemental within 30 ft. That Elemental chooses Healing Radiance or Protective Light.\nHealing Radiance. The Elemental regains 30 HP. Until the end of the nexus's next turn, non-Elementals within 10 ft. of it are Blinded.\nProtective Light. Four motes orbit the Elemental for 1 minute. When its attack damages a creature, the Elemental can extinguish a mote to deal 14 (4d6) extra radiant damage to that creature (no action).",
+      "Printed source": "Flee, Mortals!, p. 99"
+    },
+    "hitDice": "16d10 + 64"
+  },
+  {
+    "name": "Valochera",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Plant (Fungus), unaligned",
+    "ac": 17,
+    "hp": 180,
+    "speed": "30 ft., swim 20 ft.",
+    "cr": "9",
+    "xp": 5000,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Saves Str +9, Dex +4. Stealth +4, Perception +4. Resists cold and fire damage. Immune to acid, lightning, and poison damage and to Blinded, Deafened, and Poisoned. Blindsight 60 ft., blind beyond that radius. Passive Perception 14. No languages.",
+    "description": "A giant sewer mushroom grabs prey with its roots and softens it with acid before taking a bite.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Acid Absorption. When the valochera would take acid damage, it instead regains HP equal to the damage.\nUnbearable Stench. A creature that starts its turn within 5 ft. of the valochera must make a DC 16 Constitution save. On a failure it is Poisoned for 1 minute and can repeat the save at the end of each turn to end it.",
+      "Actions": "Multiattack. Make two Mycelium attacks.\nMycelium. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 18 (3d8 + 5) bludgeoning damage. A Large or smaller target is Grappled (escape DC 15) and stays Restrained until the grapple ends.\nChow Time. One creature grappled by the valochera makes a DC 16 Dexterity save. It takes 22 (4d10) acid damage plus 14 (2d8 + 5) piercing damage on a failure or half of each on a success.\nPoison Glob (recharge 5–6). Choose a visible point within 30 ft. Each creature in a 5-ft.-radius sphere centered there makes a DC 16 Constitution save, taking 33 (6d10) poison damage on a failure or half as much on a success.",
+      "Printed source": "Flee, Mortals!, p. 329"
+    },
+    "hitDice": "19d10 + 76"
+  },
+  {
+    "name": "Yumgrub",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 9,
+    "hp": 2,
+    "speed": "10 ft., climb 10 ft.",
+    "cr": "0",
+    "xp": 2,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Darkvision 30 ft., passive Perception 8. No languages.",
+    "description": "Cave traders prize these sweet tunnel moth larvae for the burst of strength they give anyone who eats one alive.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "Death Wail. When the yumgrub dies, creatures within 15 ft. that hear it take 1 psychic damage. Other yumgrubs and anyone who ate one within the past minute are immune.\nSpider Climb. Climb difficult surfaces, including ceilings, without an ability check.\nYum. A Small or larger creature can spend an action to eat a living yumgrub within 5 ft. The yumgrub dies. For 1 minute the eater doubles its speed and gains +4 to Strength and +2 to AC. When the minute ends, the eater gains two levels of Exhaustion.",
+      "Actions": "Bite (group attack). Melee weapon attack, −1 to hit, reach 5 ft., one target. Hit 1 piercing damage per participant.",
+      "Printed source": "Flee, Mortals!, p. 297"
+    },
+    "sharedRules": [
+      "MCDM minion rules"
+    ]
+  },
+  {
+    "name": "Koptourok",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Undead, typically chaotic evil",
+    "ac": 13,
+    "hp": 90,
+    "speed": "30 ft. (see Wings of Breath)",
+    "cr": "5",
+    "xp": 1800,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Saves Dex +6, Con +6. Perception +4. Resists necrotic and poison damage and bludgeoning, piercing, and slashing damage from mundane attacks. Immune to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Blindsight 120 ft., passive Perception 14. Understands its languages from life and cannot speak.",
+    "description": "An undead cave hunter that steals breath. Ghouls sometimes follow it to feed on the bodies it leaves behind.",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Breathless Aura. Enemies within 30 ft. cannot speak. Enemies in this area that need to breathe also have disadvantage on Constitution saves.\nWings of Breath. With at least one enemy within 30 ft., the koptourok has a flying speed equal to its walking speed. It falls if it starts its turn in the air without a flying speed.",
+      "Actions": "Multiattack. Make two Choking Grasp attacks.\nChoking Grasp. Melee spell attack, +6 to hit, reach 30 ft., one creature. Hit 14 (4d6) bludgeoning damage. Pull the target to an unoccupied space within 5 ft. of the koptourok and Grapple it (escape DC 14). It stays Restrained while grappled, and this grapple does not halve the koptourok's speed.\nLast Gasp. Each creature the koptourok is grappling must make a DC 14 Constitution save, taking 14 (4d6) bludgeoning damage on a failure or half as much on a success. The koptourok gains 5 temporary HP for each creature that failed.",
+      "Reactions": "Thunderous Deflation. When the koptourok drops to 30 HP or fewer, every creature within 30 ft. makes a DC 14 Constitution save. On a failure it takes 16 (3d10) thunder damage and is Deafened until the end of its next turn. On a success it takes half damage and avoids the condition. The koptourok then releases every creature it is grappling and flies up to its speed.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics.",
+      "Printed source": "Flee, Mortals!, p. 295"
+    },
+    "hitDice": "12d8 + 36",
+    "relatedCreatures": [
+      {
+        "name": "Ghoul (MCDM)",
+        "kind": "monster",
+        "terms": [
+          "ghoul",
+          "ghouls"
+        ]
+      }
+    ]
+  }
+]

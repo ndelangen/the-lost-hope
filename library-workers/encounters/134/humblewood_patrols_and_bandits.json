@@ -1,0 +1,561 @@
+[
+  {
+    "name": "Mapach Bandit",
+    "decision": "separate",
+    "pages": "Appendix B, p. 202.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry. See the table notes for wording that needs care.",
+    "statBlock": {
+      "name": "Mapach Bandit",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Mapach), neutral evil",
+      "ac": 12,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Leather armor. Resists poison damage. Darkvision 60 ft., passive Perception 11. Speaks Birdfolk and Mapach.",
+      "description": "A bandit who uses darkness and climbable terrain to set up an ambush.",
+      "sections": {
+        "Traits": "Resilience. The bandit rolls saves against being poisoned with advantage.\nSkulker. In dim light or darkness, the bandit has advantage on Stealth checks.",
+        "Actions": "Short Sword. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Printed source": "Appendix B, p. 202."
+      },
+      "ruleNotes": [
+        "This printing gives the Short Sword slashing damage."
+      ]
+    }
+  },
+  {
+    "name": "Mapach Brute",
+    "decision": "separate",
+    "pages": "Appendix B, p. 202.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry.",
+    "statBlock": {
+      "name": "Mapach Brute",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Mapach), chaotic evil",
+      "ac": 15,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 17,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 14,
+          "modifier": 2
+        }
+      },
+      "otherStatistics": "Studded leather. Dex save +5, Cha save +4. Deception +4, Persuasion +4. Resists poison damage. Darkvision 60 ft., passive Perception 12. Speaks Birdfolk and Mapach.",
+      "description": "A bandit enforcer who fights with a rapier and parrying dagger. Krall uses this profile.",
+      "sections": {
+        "Traits": "Resilience. The brute rolls saves against being poisoned with advantage.\nSkulker. In dim light or darkness, the brute has advantage on Stealth checks.",
+        "Actions": "Multiattack. Make two Rapier attacks and one Parrying Dagger attack.\nRapier. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage.\nParrying Dagger. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Reactions": "Parry. Add 2 AC against a melee attack that would hit the brute. They must see the attacker and hold a melee weapon.",
+        "Printed source": "Appendix B, p. 202."
+      }
+    }
+  },
+  {
+    "name": "Mapach Tinkerer",
+    "decision": "separate",
+    "pages": "Appendix B, p. 203.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry. See the table notes for wording that needs care.",
+    "statBlock": {
+      "name": "Mapach Tinkerer",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Mapach), any alignment",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "3d8",
+      "speed": "30 ft., climb 20 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Resists poison damage. Darkvision 60 ft., passive Perception 11. Speaks Birdfolk and Mapach.",
+      "description": "A practical inventor with a kit of gadgets that can disrupt a fight.",
+      "sections": {
+        "Traits": "Resilience. The tinkerer rolls saves against being poisoned with advantage.\nSkulker. In dim light or darkness, the tinkerer has advantage on Stealth checks.",
+        "Actions": "Dagger. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nTinker's Toys. Choose a gadget or roll 1d4. Each gadget can be used once per day.\n1. Cogwork Bird. Distract a creature within 30 ft. The next attack against it has advantage.\n2. Flash-bangs. Choose a point within 10 ft. Each creature within 10 ft. of that point makes a DC 11 Con save. On a failure it is blinded until the start of the tinkerer's next turn.\n3. Nettle Gun. Ranged weapon attack, +4 to hit, range 10/20 ft., one target. Hit 4 (1d4 + 2) piercing damage. Each creature within 5 ft. of the target makes a DC 11 Dex save or takes 5 (1d10) piercing damage.\n4. Grease Balloon. Coat a 10-ft. square within 15 ft. in grease, making the area difficult terrain. Creatures in the square when it is coated, those that enter it, and those that end their turn there must pass a DC 11 Dex save or fall prone.",
+        "Printed source": "Appendix B, p. 203."
+      },
+      "ruleNotes": [
+        "The printed Grease Balloon entry leaves the duration of the grease unspecified."
+      ]
+    }
+  },
+  {
+    "name": "Raptor Explorer",
+    "decision": "separate",
+    "pages": "Appendix B, p. 204. Explorer background, p. 203.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry.",
+    "statBlock": {
+      "name": "Raptor Explorer",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (Raptor), any neutral alignment",
+      "ac": 13,
+      "hp": 18,
+      "hitDice": "4d6 + 4",
+      "speed": "25 ft., swim 25 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 11,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Leather armor. History +2, Perception +6, Stealth +4, Survival +6. Passive Perception 16. Understands Auran and speaks Birdfolk.",
+      "description": "A guide who ignores difficult natural ground and can use readied actions to turn a tight spot to their advantage.",
+      "sections": {
+        "Traits": "Talons. The explorer has advantage on Strength (Athletics) checks to climb surfaces their talons can grip.\nPatient. During a readied action taken as a reaction, the explorer has advantage on their first attack roll, skill check, or ability check.\nKeen Hearing and Sight. The explorer has advantage on Wisdom (Perception) checks that use hearing or sight.\nSure Footing. The explorer ignores nonmagical difficult terrain.",
+        "Actions": "Multiattack. Make two melee attacks or two Hand Crossbow attacks.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nSaber. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Reactions": "Glide. After falling at least 10 ft., the explorer can spend a reaction to glide up to their speed in one direction while descending. They land in a free space at the end and take no fall damage. They need to be free of heavy objects, heavy weapons, and shields to glide. They can drop anything held as part of the same reaction.",
+        "Printed source": "Appendix B, p. 204. Explorer background, p. 203."
+      }
+    }
+  },
+  {
+    "name": "Raptor Ranger",
+    "decision": "separate",
+    "pages": "Appendix B, p. 205. Ranger background, p. 203. Red-Feather Bow, Appendix D, p. 214.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry. See the table notes for wording that needs care.",
+    "statBlock": {
+      "name": "Raptor Ranger",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Small Humanoid (Raptor), any neutral alignment",
+      "ac": 15,
+      "hp": 66,
+      "hitDice": "12d6 + 24",
+      "speed": "25 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 8,
+          "modifier": -1
+        }
+      },
+      "otherStatistics": "Studded leather. Athletics +3, Stealth +7, Survival +5. Passive Perception 13. Speaks Birdfolk and Mapach. Understands Auran.",
+      "description": "A wilderness archer who can scout through an arrow fired from a Red-Feather Bow.",
+      "sections": {
+        "Traits": "Talons. The ranger has advantage on Strength (Athletics) checks to climb surfaces their talons can grip.\nAerial Defense. Attack rolls against the ranger have disadvantage while the ranger falls, glides, or jumps.",
+        "Actions": "Multiattack. Make two Red-Feather Bow attacks.\nRed-Feather Bow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. Hit 6 (1d6 + 4) piercing damage.\nDagger. Weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d4 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage.",
+        "Bonus Actions": "Arrow Sight (3/day). When the ranger fires their Red-Feather Bow, see for 1 minute from the spot where that arrow lands. If it hits a creature, see through that creature's eyes instead.\nHunter (3/day). The ranger's next shortbow or longbow attack deals an extra 1d10 damage.",
+        "Reactions": "Glide. After falling at least 10 ft., the ranger can spend a reaction to glide up to their speed in one direction while descending. They land in a free space at the end and take no fall damage. They need to be free of heavy objects, heavy weapons, and shields to glide. They can drop anything held as part of the same reaction.",
+        "Spellcasting": "The ranger casts as a 3rd-level Wisdom spellcaster (save DC 13, +5 to spell attacks). 1st level (3 slots) Cure Wounds, Fog Cloud, Hunter's Mark, Protection from Evil and Good.",
+        "Printed source": "Appendix B, p. 205. Ranger background, p. 203. Red-Feather Bow, Appendix D, p. 214."
+      },
+      "ruleNotes": [
+        "The printed Red-Feather Bow lists 6 average damage and a roll of 1d6 + 4. Those values differ. The Dagger lists a 20/60 ft. range alongside its melee label. Use the listed range when it is thrown."
+      ]
+    }
+  },
+  {
+    "name": "Strig Knight",
+    "decision": "separate",
+    "pages": "Appendix B, p. 205. Knight background, p. 204. Wing Crest Shield, Appendix D, p. 214.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry. See the table notes for wording that needs care.",
+    "statBlock": {
+      "name": "Strig Knight",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Strig), any lawful alignment",
+      "ac": 18,
+      "hp": 60,
+      "hitDice": "8d8 + 24",
+      "speed": "30 ft.",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 8,
+          "modifier": -1
+        },
+        "Wis": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Half plate and shield. Con save +5, Wis save +4. Darkvision 60 ft., passive Perception 12. Understands Auran and speaks Birdfolk.",
+      "description": "A Perch Guard knight who can open a retreat route for an ally. Riffin the Ash-Knight uses this profile with lawful good alignment.",
+      "sections": {
+        "Traits": "Talons. The knight has advantage on Strength (Athletics) checks to climb surfaces their talons can grip.\nManeuver (2/day). After the knight hits, an ally within 5 ft. of the target can use their reaction to move away from it at half speed without provoking an opportunity attack.",
+        "Actions": "Multiattack. Make two Short Sword attacks.\nShort Sword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage.\nWing Crest Shield (1/day). Use the shield to cast Gust of Wind (save DC 15).",
+        "Bonus Actions": "After hitting with Talons, the knight can grapple the target as a bonus action.",
+        "Reactions": "Glide. After falling at least 10 ft., the knight can spend a reaction to glide up to their speed in one direction while descending. They land in a free space at the end and take no fall damage. They need to be free of heavy objects, heavy weapons, and shields to glide. They can drop anything held as part of the same reaction.",
+        "Printed source": "Appendix B, p. 205. Knight background, p. 204. Wing Crest Shield, Appendix D, p. 214."
+      },
+      "ruleNotes": [
+        "The printed Wisdom save is +4. The Talons entry allows a grapple but supplies no special escape DC, so use the normal grapple rules."
+      ]
+    }
+  },
+  {
+    "name": "Strig Tracker",
+    "decision": "separate",
+    "pages": "Appendix B, p. 206. Elevated Sight, p. 49.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry. See the table notes for wording that needs care.",
+    "statBlock": {
+      "name": "Strig Tracker",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Strig), any neutral alignment",
+      "ac": 14,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "35 ft.",
+      "cr": "3",
+      "xp": 700,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Int": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Wis": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 10,
+          "modifier": 0
+        }
+      },
+      "otherStatistics": "Hide armor. Acrobatics +6, Perception +4, Survival +4. Darkvision 60 ft., passive Perception 15. Speaks Birdfolk and two other languages. Understands Auran.",
+      "description": "A woodland tracker who can search for a hidden creature while keeping pressure on a fight.",
+      "sections": {
+        "Traits": "Talons. The tracker has advantage on Strength (Athletics) checks to climb surfaces their talons can grip.\nPatterned Feathers. The tracker has advantage on Dexterity (Stealth) checks to hide in a forest.",
+        "Actions": "Multiattack. Make one melee Longsword and one melee Handaxe attack, or two ranged Handaxe attacks.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) when held in two hands.\nHandaxe. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) piercing damage.",
+        "Bonus Actions": "Reya's Keen Eye. Make a Wisdom (Perception) check to find hidden creatures.",
+        "Reactions": "Glide. After falling at least 10 ft., the tracker can spend a reaction to glide up to their speed in one direction while descending. They land in a free space at the end and take no fall damage. They need to be free of heavy objects, heavy weapons, and shields to glide. They can drop anything held as part of the same reaction.",
+        "Spellcasting": "The tracker casts as a 3rd-level Wisdom spellcaster (save DC 12, +4 to spell attacks). 1st level (3 slots) Elevated Sight, Hunter's Mark, Longstrider, Speak with Animals.\nElevated Sight takes one action and lasts up to 1 minute with concentration. A moving, invisible sensor gives the caster a 360-degree view from up to 120 ft. above them. They can change its height as a bonus action and switch to their own sight during their turn. Their own eyes are blind while they view through the sensor.",
+        "Printed source": "Appendix B, p. 206. Elevated Sight, p. 49."
+      },
+      "ruleNotes": [
+        "The printed passive Perception is 15 even though its Perception skill is listed as +4."
+      ]
+    }
+  },
+  {
+    "name": "Vulpin Captain",
+    "decision": "separate",
+    "pages": "Appendix B, pp. 208–209. Captain background, p. 207.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry.",
+    "statBlock": {
+      "name": "Vulpin Captain",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Vulpin), neutral evil",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "cr": "1",
+      "xp": 200,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 13,
+          "modifier": 1
+        },
+        "Dex": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 12,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Studded leather. Acrobatics +4, Perception +4. Darkvision 60 ft., passive Perception 14. Speaks Birdfolk and Vulpin.",
+      "description": "A bandit officer who coordinates raids and is capable of running a camp. Fray Merridan uses this profile.",
+      "sections": {
+        "Traits": "Evasive. Add the captain's Intelligence modifier to Dexterity saves.",
+        "Actions": "Multiattack. Make two attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nShort Sword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Reactions": "Parry (1/round). Add 2 AC against a melee attack that would hit the captain. They must see the attacker and hold a melee weapon.",
+        "Printed source": "Appendix B, pp. 208–209. Captain background, p. 207."
+      }
+    }
+  },
+  {
+    "name": "Vulpin Noble",
+    "decision": "separate",
+    "pages": "Appendix B, p. 209. Noble background, p. 208.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry.",
+    "statBlock": {
+      "name": "Vulpin Noble",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Vulpin), any alignment",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Con": {
+          "score": 11,
+          "modifier": 0
+        },
+        "Int": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Cha": {
+          "score": 16,
+          "modifier": 3
+        }
+      },
+      "otherStatistics": "Breastplate. Deception +5, History +4, Insight +3, Persuasion +5. Darkvision 60 ft., passive Perception 11. Speaks Birdfolk and Vulpin.",
+      "description": "A courtier who can throw an opponent off balance with a timely insult.",
+      "sections": {
+        "Traits": "Evasive. Add the noble's Intelligence modifier to Dexterity saves.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.\nRapier. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 5 (1d8 + 1) piercing damage.",
+        "Reactions": "Disparaging Remark. When someone the noble sees attacks an ally, impose disadvantage on that attack roll if the attacker can hear and understand the noble.",
+        "Printed source": "Appendix B, p. 209. Noble background, p. 208."
+      }
+    }
+  },
+  {
+    "name": "Vulpin Priest of Kren",
+    "decision": "separate",
+    "pages": "Appendix B, p. 209. Shyla Denn, p. 208.",
+    "notes": "Standalone stat block in the v1.04 printing. The printed CR matches the indexed Campaign Setting entry.",
+    "statBlock": {
+      "name": "Vulpin Priest of Kren",
+      "publication": "Humblewood Campaign Setting",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Humanoid (Vulpin), neutral evil",
+      "ac": 15,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Con": {
+          "score": 12,
+          "modifier": 1
+        },
+        "Int": {
+          "score": 15,
+          "modifier": 2
+        },
+        "Wis": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Cha": {
+          "score": 13,
+          "modifier": 1
+        }
+      },
+      "otherStatistics": "Chain shirt. Medicine +7, Persuasion +3, Religion +5. Darkvision 60 ft., passive Perception 13. Speaks Birdfolk, Celestial, and Vulpin.",
+      "description": "A priest of the fox Amaranthine who can turn a spell slot into venomous melee strikes. Shyla Denn uses this profile.",
+      "sections": {
+        "Traits": "Evasive. Add the priest's Intelligence modifier to Dexterity saves.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nMace. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 3 (1d6) bludgeoning damage.",
+        "Bonus Actions": "Divine Eminence. Spend a spell slot. Until the end of the turn, the priest's melee weapon hits deal an extra 10 (3d6) poison damage. Add 1d6 more damage for each slot level above 1st.",
+        "Spellcasting": "The priest casts as a 5th-level Wisdom spellcaster (save DC 13, +5 to spell attacks).\nCantrips at will. Light, Sacred Flame, Thaumaturgy.\n1st level (4 slots). Cure Wounds, Disguise Self, Guiding Bolt.\n2nd level (3 slots). Lesser Restoration, Mirror Image, Spiritual Weapon.\n3rd level (2 slots). Blink, Spirit Guardians.",
+        "Printed source": "Appendix B, p. 209. Shyla Denn, p. 208."
+      }
+    }
+  }
+]

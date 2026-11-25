@@ -1,0 +1,236 @@
+{
+  "builds": [
+    {
+      "id": "crooked-moon-gnarlborn-larchwall",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Footbridge keeper, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Plant",
+      "speed": "30 ft.",
+      "ac": 18,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 4,
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Elvish, and Sylvan.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +3. Chain shirt 13 + Dexterity 2 + shield 2 + Defense 1 gives AC 18.",
+        "Guard background adds +2 Strength and +1 Wisdom, Athletics, Perception, a dice set, and Alert. Fighter adds Insight and Survival. Elderwood Whispers supplies Nature until the next Long Rest.",
+        "Alert adds Proficiency Bonus to Initiative and allows swapping Initiative with a willing ally in the same combat immediately after rolling, provided neither is Incapacitated.",
+        "Deep Roots gives Advantage on checks and saves against forced movement and to avoid Prone. Towering Size gives Advantage on checks to escape Grappled and makes carrying capacity 510 lb. (Large equivalent).",
+        "Weapon Mastery picks Handaxe (carried), Longsword, and Javelin."
+      ],
+      "actions": [
+        "Handaxe. Melee or ranged attack +5, reach 5 ft. or range 20/60 ft., 1d6+3 Slashing. Vex gives Advantage on the next attack roll against the same creature before the end of the next turn when this attack hits and deals damage.",
+        "Grasping Branches. Bonus Action against one Large or smaller creature within 30 ft. DC 11 Strength save. Failure Restrains for 1 minute, with a save at each turn end to escape. Initial success halves Speed until its next turn ends. Recharges on a Short or Long Rest.",
+        "Root Sense. Bonus Action for Tremorsense 60 ft. for 10 minutes. While touching the same surface, Larchwall locates nearby creatures and moving objects through vibration. This is not sight. Recharges on a Short or Long Rest.",
+        "Second Wind. Bonus Action to regain 1d10+1 HP. Two uses. Recover one on a Short Rest and both on a Long Rest."
+      ],
+      "tactics": "Larchwall binds the first attacker who steps onto the bridge, then holds the narrowest part behind a shield."
+    },
+    {
+      "id": "crooked-moon-graveborn-mera-flintjaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Outrider, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Undead",
+      "speed": "30 ft.",
+      "ac": 17,
+      "hp": 12,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Dwarvish, and Goblin.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Chain shirt 13 + Dexterity 1 + shield 2 + Defense 1 gives AC 17. Resists Cold damage.",
+        "Soldier background adds +2 Strength and +1 Constitution, Athletics, Intimidation, a dice set, and Savage Attacker. Fighter adds Perception and Survival.",
+        "Savage Attacker. Once per turn on a weapon hit, roll the weapon’s damage dice twice and use either roll.",
+        "Weapon Mastery picks Longsword (carried), Handaxe, and Javelin. Can eat spoiled food."
+      ],
+      "actions": [
+        "Longsword. Melee attack +5, reach 5 ft., 1d8+3 Slashing while wielding a shield. Sap gives the target Disadvantage on its next attack roll before the start of the attacker’s next turn on a hit.",
+        "Infused Drakkonite. When Mera damages a creature, she may bypass its Resistances and deal 2 additional Necrotic damage. Recharges on a Short or Long Rest.",
+        "Devour Corpse. Take 1 minute to eat flesh from the corpse of a Small or larger creature other than a Construct to regain 1d10+2 HP, with no Hit Point Die spent. Recharges on a Short or Long Rest.",
+        "Second Wind. Bonus Action to regain 1d10+1 HP. Two uses. Recover one on a Short Rest and both on a Long Rest."
+      ],
+      "tactics": "Mera fights with her shield up and saves Infused Drakkonite for the first foe whose wounds close around the blade."
+    },
+    {
+      "id": "crooked-moon-harvestborn-wick-furrow",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Turnip-cart escort, Fighter 1",
+      "difficulty": "Fighter 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Construct",
+      "speed": "30 ft.",
+      "ac": 17,
+      "hp": 14,
+      "hitDice": "1d10+2",
+      "initiative": 1,
+      "senses": "Passive Perception 13.",
+      "languages": "Common, Halfling, and Gnomish.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Nature +2",
+        "Perception +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Chain shirt 13 + Dexterity 1 + shield 2 + Defense 1 gives AC 17.",
+        "Farmer background adds +2 Strength and +1 Constitution, Animal Handling, Nature, Carpenter’s Tools, and Tough. Fighter adds Athletics and Perception. Tough adds 2 HP at this level.",
+        "Weapon Mastery picks Sickle (carried), Club, and Handaxe. Nick requires two different Light weapons, so it adds no attack to the equipped sickle-and-shield setup.",
+        "Needs no air, food, drink, or sleep. Cannot be put to sleep by magic. Can stay conscious and motionless for a four-hour Long Rest."
+      ],
+      "actions": [
+        "Sickle. Melee attack +5, reach 5 ft., 1d4+3 Slashing.",
+        "Culling. When Wick damages a Bloodied creature, deal an extra 1d12 Necrotic damage. Two uses per Long Rest.",
+        "Gift of the Green. Bonus Action while touching the ground. One creature also touching the ground within 30 ft. can spend and roll a Hit Point Die to heal for the roll +2. Two uses. Recover one on a Short Rest and both on a Long Rest.",
+        "Dancing Lights. Wisdom-based cantrip. Action, 120 ft., concentration up to 1 minute. Up to four floating lights each shed Dim Light out to 10 ft. Wick can move them up to 60 ft. as a Bonus Action. A light must stay within 20 ft. of another and within spell range, or combine all four into one Medium shape. Wick sheathes the sickle to handle the phosphorus in a belt pouch and make the spell’s gestures with the same free hand.",
+        "Second Wind. Bonus Action to regain 1d10+1 HP. Two uses. Recover one on a Short Rest and both on a Long Rest."
+      ],
+      "tactics": "Wick lights the route for late walkers and tends their wounds once both feet are back on solid ground."
+    },
+    {
+      "id": "crooked-moon-plagueborn-nix-wattle",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2024 rules)"
+      ],
+      "title": "Roof courier, Rogue 2",
+      "difficulty": "Rogue 2. No assigned CR.",
+      "size": "Small",
+      "type": "Humanoid",
+      "speed": "30 ft., climb 30 ft.",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 5,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Goblin, Halfling, Dwarvish, and Thieves’ Cant.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 15,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Deception +2",
+        "Insight +3",
+        "Investigation +3",
+        "Perception +3",
+        "Sleight of Hand +7",
+        "Stealth +7"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Leather armor 11 + Dexterity 3 gives AC 14. HP uses 8 + Constitution 2 at level 1, then 5 + Constitution 2 at level 2.",
+        "Criminal background adds +2 Dexterity and +1 Constitution, Sleight of Hand, Stealth, Thieves’ Tools, and Alert. Rogue adds Acrobatics, Insight, Investigation, Perception, and the extra Dwarvish language. Expertise doubles proficiency in Sleight of Hand and Stealth. Infected Cunning adds Deception.",
+        "Alert adds Proficiency Bonus to Initiative and allows swapping Initiative with a willing ally in the same combat immediately after rolling, provided neither is Incapacitated.",
+        "Saving throws to prevent or end the Poisoned condition or a magical contagion have Advantage. Weapon Mastery picks Shortsword (carried) and Dagger."
+      ],
+      "actions": [
+        "Shortsword. Melee attack +5, reach 5 ft., 1d6+3 Piercing. Vex gives Advantage on the next attack roll against the same creature before the end of the next turn when this attack hits and deals damage.",
+        "Sneak Attack. Once per turn, deal 1d6 extra Piercing on a shortsword hit with Advantage. A non-Incapacitated ally within 5 ft. of the target also qualifies if Nix has no Disadvantage.",
+        "Plague Bearer. Once per Long Rest after an attack roll hits, the target must pass a DC 12 Constitution save or suffer Disadvantage on attack rolls and ability checks and take 1d4 Poison damage at the start of its turns. Repeats the save at each turn end. Ends after 1 minute or on a successful save.",
+        "Cunning Action. Dash, Disengage, or Hide as a Bonus Action."
+      ],
+      "tactics": "Nix tries to escape up a wall, then draws a blade only if someone can keep pace across the roof."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Larchwall",
+      "species": "Gnarlborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-gnarlborn-larchwall",
+      "size": "Medium",
+      "role": "Keeps a timber footbridge open through spring floods.",
+      "motive": "Find whoever keeps loosening wedges from the bridge deck.",
+      "hook": "He makes travelers count the bridge planks aloud. Last night there was one fewer."
+    },
+    {
+      "name": "Mera Flintjaw",
+      "species": "Graveborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-graveborn-mera-flintjaw",
+      "size": "Medium",
+      "role": "Guides supply sleds between winter checkpoints.",
+      "motive": "Recover the names of three sled hands buried without markers.",
+      "hook": "A fresh marker names someone Mera escorted into town that same morning."
+    },
+    {
+      "name": "Wick Furrow",
+      "species": "Harvestborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-harvestborn-wick-furrow",
+      "size": "Medium",
+      "role": "Walks alongside the last vegetable cart leaving market.",
+      "motive": "Keep a tiny roadside allotment from being seized to pay a toll debt.",
+      "hook": "The widow who owns the allotment has paid her toll three times and still gets billed."
+    },
+    {
+      "name": "Nix Wattle",
+      "species": "Plagueborn",
+      "speciesPublication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "build": "crooked-moon-plagueborn-nix-wattle",
+      "size": "Small",
+      "role": "Carries sealed notes over rooftops during curfew.",
+      "motive": "Find a way to buy back an apprenticed sibling’s contract.",
+      "hook": "A customer offers the exact sum for a sealed message addressed to Nix."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -312251,6 +312251,25 @@
+       ]
+     },
+     {
++      "name": "Rilkan",
++      "kind": "species",
++      "publication": "Magic of Incarnum (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid with the Reptilian subtype. +2 Dexterity, −2 Strength. Base land speed 30 ft. The racial traits grant no essentia pool. Gaining an essentia pool from a class or feat adds the Incarnum subtype.",
++        "Racial Knowledge treats all Knowledge checks as trained, even without ranks. Its +1 competence bonus on Knowledge and bardic knowledge checks increases by +1 per two soulmelds currently shaped.",
++        "+2 racial bonus to Bluff and Diplomacy.",
++        "Racial Aid gives +3 to the roll of another Rilkan when you successfully aid them. Use the ordinary bonus when aiding a creature of another species.",
++        "Common is automatic. Bonus languages can be any nonsecret language. Favored class Incarnate. The published examples list LA +0 and use class Hit Dice.",
++        "Rilkans resemble humans with bands of pebbly scales on the neck and forearms. The book describes single-color bands in males and patterned multicolor bands in females.",
++        "Choose the optional Rilkan Rogue substitutions at Rogue 1, 3, and 10 independently. Each uses a d6 Hit Die and adds Speak Language as a class skill at that level.",
++        "Rogue 1 keeps trapfinding and trades 1st-level sneak attack for Improved Flanking. Sneak attack begins at Rogue 3 and stays 1d6 below the standard progression if this substitution is taken.",
++        "Improved Flanking gives the Rilkan Rogue +4 to attacks when flanking in place of the usual +2. Other Rilkans flanking that same foe also get +4. Allies of other species use the usual flanking bonus.",
++        "The Rogue 3 substitution grants bardic knowledge and a bonus feat. It replaces trap sense and prevents gaining it from later rogue levels. Use rogue level plus Intelligence modifier for bardic knowledge, and apply Racial Knowledge. The feat choices are Deceitful, Diligent, Investigator, Negotiator, and Persuasive.",
++        "Rogue 10 can replace that level’s special ability with Fortunate Reflexes. Reroll a failed Reflex save unless the original die was a natural 1, and keep the new result. Taking this option gives up improved evasion from rogue levels."
++      ]
++    },
++    {
+       "name": "Azurin",
+       "kind": "species",
+       "publication": "Magic of Incarnum (2005)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1000,6 +1000,99 @@
+       "tactics": "Keel stands at the drain gate while the crew clears the waterlogged passage. Keel can stay submerged without breathing while holding the gate open. If threatened, Keel uses the shield to hold the landing."
+     },
+     {
++      "id": "rilkan-warehouse-roof-scout-35e",
++      "title": "Rilkan warehouse roof scout, Rogue 1 substitution",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Reptilian)",
++      "ac": 16,
++      "hp": 8,
++      "hitDice": "1d6+2",
++      "initiative": 7,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 16,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 12
++      },
++      "skills": [
++        "Bluff +7",
++        "Diplomacy +7",
++        "Disable Device +5",
++        "Hide +6",
++        "Move Silently +6",
++        "Open Lock +7",
++        "Search +5",
++        "Spot +4",
++        "Tumble +6",
++        "Knowledge (all) +2"
++      ],
++      "senses": "Ordinary vision.",
++      "languages": "Common, Elven",
++      "traits": [
++        "Chaotic good. Studded leather +3 and Dexterity +3. Touch 13, flat-footed 13. BAB +0, grapple +1. Fortitude +2, Reflex +5, Will +0. Improved Initiative adds +4. Armor check penalty −1. Uses ordinary thieves’ tools.",
++        "Trapfinding can locate traps with a Search DC above 20 and disarm magical traps. Kesra took the first Rilkan Rogue substitution and has no sneak attack at this level.",
++        "Improved Flanking gives the Rilkan Rogue +4 to attacks when flanking in place of the usual +2. Other Rilkans flanking that same foe also get +4. Allies of other species use the usual flanking bonus.",
++        "Racial Knowledge treats all Knowledge checks as trained, even without ranks. Its +1 competence bonus on Knowledge and bardic knowledge checks increases by +1 per two soulmelds currently shaped.",
++        "Racial Aid gives +3 to the roll of another Rilkan when you successfully aid them. Use the ordinary bonus when aiding a creature of another species."
++      ],
++      "actions": [
++        "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2, 5-ft. reach. +5 to hit while flanking via Improved Flanking.",
++        "Light crossbow +3 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action."
++      ],
++      "tactics": "Kesra agreed to get two apprentices out before the warehouse is sealed. She checks the roof hatch for a trap, then looks for a way to flank a guard with the cargo inspector if he is nearby."
++    },
++    {
++      "id": "rilkan-quay-cargo-inspector-35e",
++      "title": "Rilkan quay cargo inspector, Incarnate 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1.",
++      "size": "Medium",
++      "type": "Humanoid (Incarnum, Reptilian)",
++      "ac": 17,
++      "hp": 8,
++      "hitDice": "1d6+2",
++      "initiative": 2,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 14,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 14,
++        "CHA": 12
++      },
++      "skills": [
++        "Bluff +7 with mask investment, +5 without",
++        "Diplomacy +7 with mask investment, +5 without",
++        "Concentration +6",
++        "Knowledge (arcana) +7",
++        "Knowledge (the planes) +7",
++        "Other Knowledge +3"
++      ],
++      "senses": "Ordinary vision.",
++      "languages": "Common, Dwarven",
++      "traits": [
++        "Lawful neutral. Aura strength corresponds to Incarnate level 1. Studded leather +3, heavy wooden shield +2, Dexterity +2. Touch 12, flat-footed 15. BAB +0, grapple +0. Fortitude +4, Reflex +2, Will +4. Armor check penalty −3.",
++        "Incarnate 1 grants one essentia and the Incarnum subtype. Meldshaper level 1. Shapes Dissolving Spittle (throat) and Silvertongue Mask (brow), both unbound. Each can hold one point. Reallocate the point as a swift action.",
++        "Both soulmelds stay shaped when the point moves. Racial Knowledge is +2 competence while both are shaped. Silvertongue Mask gives +2 insight to Bluff and Diplomacy or +4 when invested. The default is invested in the mask.",
++        "Racial Aid gives +3 to the roll of another Rilkan when you successfully aid them. Use the ordinary bonus when aiding a creature of another species."
++      ],
++      "actions": [
++        "Morningstar +0 melee, 1d8 bludgeoning and piercing, critical ×2, 5-ft. reach. +4 to hit if he and Kesra are flanking the same foe.",
++        "Javelin +2 ranged, 1d6 piercing, critical ×2, 30-ft. increment.",
++        "Detect Opposition at will as the detect chaos spell.",
++        "Dissolving Spittle: standard action, +2 ranged touch within 30 ft., 1d6 acid or 2d6 with the point invested. No save. This action provokes attacks of opportunity."
++      ],
++      "tactics": "Bren keeps his mask invested while he checks the manifests. If fighting starts, he can shift the point to Dissolving Spittle. If Kesra has a flank, he draws his morningstar and takes the opposite side."
++    },
++    {
+       "id": "azurin-ferry-warden-35e",
+       "title": "Azurin ferry warden, Soulborn 1",
+       "origin": "Original DM Library NPC",
+@@ -3285,6 +3378,28 @@
+       "hook": "Swage can get the lift working if the party retrieves the old hinge from the inspection cage."
+     },
+     {
++      "species": "Rilkan",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Magic of Incarnum (2005)",
++      "name": "Kesra Tarn",
++      "build": "rilkan-warehouse-roof-scout-35e",
++      "role": "Warehouse roof scout and Rogue.",
++      "motive": "Get two apprentices out before the warehouse is sealed.",
++      "hook": "Kesra can check the roof hatch and get the party inside while the loading doors are watched."
++    },
++    {
++      "species": "Rilkan",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Magic of Incarnum (2005)",
++      "name": "Bren Carrow",
++      "build": "rilkan-quay-cargo-inspector-35e",
++      "role": "Quay cargo inspector and Incarnate.",
++      "motive": "Find the shipment loaded under another family’s seal.",
++      "hook": "Bren can walk the party through the manifest, then help Kesra check the warehouse."
++    },
++    {
+       "species": "Azurin",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -8043,6 +8043,7 @@
+ Riftspawn	monster	Aberration	Monster Vault 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	8.0
+ Rihuud	monster	Giant	Out of the Abyss	2014 fifth edition	Wizards of the Coast		7
+ Rilago	monster	Undead	Keys from the Golden Vault	2014 fifth edition	Wizards of the Coast		4
++Rilkan	species	Humanoid (Reptilian)	Magic of Incarnum (2005)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144462M	
+ Rilly June	monster	Humanoid	Stranger Things: Welcome to the Hellfire Club	2024 fifth edition	Wizards of the Coast		1/2
+ Rilsa Rael	monster	Humanoid	Baldur's Gate: Descent Into Avernus	2014 fifth edition	Wizards of the Coast		3
+ Rime Hulk	monster	Elemental	Bigby Presents: Glory of the Giants	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3731039-rime-hulk	5

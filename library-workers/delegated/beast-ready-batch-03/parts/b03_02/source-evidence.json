@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Crab",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      122
+    ],
+    "viewerPages": [
+      122
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Shell color and limb detail are editorial observations from the approved shared portrait. Claws and natural armor are in both stat blocks.",
+    "habitatEvidence": "Coastal is the publisher’s legacy Crab tag. Rocky shores and tide pools are editorial encounter examples for an amphibious crab.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16833-crab",
+    "mechanicsNotes": [
+      "Claw deals fixed damage and has no grapple rider. Both printed blocks give Stealth +2."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Crab",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      320
+    ],
+    "viewerPages": [
+      321
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16833-crab",
+    "url": "https://www.dndbeyond.com/monsters/16833-crab",
+    "appearanceEvidence": "Shell color and limb detail are editorial observations from the approved shared portrait. Claws and natural armor are in both stat blocks.",
+    "habitatEvidence": "Coastal is the publisher’s legacy Crab tag. Rocky shores and tide pools are editorial encounter examples for an amphibious crab.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16833-crab",
+    "mechanicsNotes": [
+      "Claw deals fixed damage and has no grapple rider. Both printed blocks give Stealth +2."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Crab."
+  },
+  {
+    "name": "Mastiff",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      144
+    ],
+    "viewerPages": [
+      144
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "Both printings describe a hound with keen senses. The coat, build and ear shape come from the approved shared portrait.",
+    "habitatEvidence": "The publisher’s legacy Mastiff tags are Forest, Hill and Urban. The Monster Manual also describes training mastiffs for guarding and hunting.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16953-mastiff",
+    "mechanicsNotes": [
+      "The Bite applies its Strength save to any creature hit. It has no printed size cap or extra duration. Standard prone rules apply."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "conditionRules": ""
+  },
+  {
+    "name": "Mastiff",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      332
+    ],
+    "viewerPages": [
+      333
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/16953-mastiff",
+    "url": "https://www.dndbeyond.com/monsters/16953-mastiff",
+    "appearanceEvidence": "Both printings describe a hound with keen senses. The coat, build and ear shape come from the approved shared portrait.",
+    "habitatEvidence": "The publisher’s legacy Mastiff tags are Forest, Hill and Urban. The Monster Manual also describes training mastiffs for guarding and hunting.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/16953-mastiff",
+    "mechanicsNotes": [
+      "The Bite applies its Strength save to any creature hit. It has no printed size cap or extra duration. Standard prone rules apply."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Mastiff.",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions#Prone"
+  },
+  {
+    "name": "Stirge",
+    "kind": "beast",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "printing": "D&D Basic Rules, version 1.0, November 2018 ",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      153
+    ],
+    "viewerPages": [
+      153
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "appearanceEvidence": "The pincer legs, proboscis and batlike profile are described in both books. Wing texture follows the approved shared portrait.",
+    "habitatEvidence": "The listed environments are the publisher’s legacy D&D Beyond Stirge habitat tags. Neither printed entry has a formal habitat field.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17023-stirge",
+    "mechanicsNotes": [
+      "The first hit deals piercing damage. The ongoing loss of HP is a separate effect with no listed damage type or saving throw. Attachment does not specify grappled or restrained. The 10 HP threshold tracks drained blood."
+    ],
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3"
+  },
+  {
+    "name": "Stirge",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "printing": "Monster Manual, first printing, September 2014",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      284
+    ],
+    "viewerPages": [
+      285
+    ],
+    "section": "Stirge",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/17023-stirge",
+    "url": "https://www.dndbeyond.com/monsters/17023-stirge",
+    "appearanceEvidence": "The pincer legs, proboscis and batlike profile are described in both books. Wing texture follows the approved shared portrait.",
+    "habitatEvidence": "The listed environments are the publisher’s legacy D&D Beyond Stirge habitat tags. Neither printed entry has a formal habitat field.",
+    "habitatSourceKind": "Search tags based on the publisher’s legacy D&D Beyond habitat labels and any marked editorial examples.",
+    "dndBeyondCrossCheck": "https://www.dndbeyond.com/monsters/17023-stirge",
+    "mechanicsNotes": [
+      "The first hit deals piercing damage. The ongoing loss of HP is a separate effect with no listed damage type or saving throw. Attachment does not specify grappled or restrained. The 10 HP threshold tracks drained blood."
+    ],
+    "printedSource": "Monster Manual, ISBN 978-0-7869-6561-8, local copy",
+    "errataUrl": "",
+    "errataEvidence": "The publisher’s 2018 Monster Manual errata v2.0 has no correction for Stirge."
+  }
+]

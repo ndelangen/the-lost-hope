@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "giant-owl",
+    "file": "portraits/giant-owl.png",
+    "sha256": "ad9e304223c25c1ab07c12fe55ea9f0e4fc3e3f7337dd73eb24fe1b0751b4f67",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-poisonous-snake",
+    "file": "portraits/giant-poisonous-snake.png",
+    "sha256": "1056900420183955b7040961b48ed31322c98f25d7ab292af64c802a1c80c709",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-rat",
+    "file": "portraits/giant-rat.png",
+    "sha256": "5b455816adf4ba786df1b5c86dc4f0e11857271c6551819ae01f0d69f72d3d73",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

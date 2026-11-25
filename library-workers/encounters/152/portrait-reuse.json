@@ -1,0 +1,252 @@
+{
+  "Aboleth": {
+    "sha256": "dfb23555b576cc26ab52910ae8841281a77b14ffd7683ccdeef4537b640a016b",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Beholder": {
+    "sha256": "083ac2ed1808591b5f1c4918f13d3f190ef60e5dd861b708b4af986406faec80",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Death Tyrant": {
+    "sha256": "813a546cc7e36c89e65e8e8ac8c7718e57a62e985ef4f42b3b14081c2153db65",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Lich": {
+    "sha256": "18c69ac39167359dc24a1a50a2d5894939a0bb33a4bc2a5ab2e0c1bb56bb24b8",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Demilich": {
+    "sha256": "a638c220178a1dd0e81c059ee4d11d56c7452a0af276e60434ea0fd836941c15",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Tarrasque": {
+    "sha256": "199acf270f6264ae6e7a40ec60f1c22b881d83554f734f670fa1f8e15c52cf09",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Kraken": {
+    "sha256": "b54b282fb46b146cf8dba2ab67dfbd482837bc3b36a8ddb9b30858cd47cc7f4b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Mind Flayer": {
+    "sha256": "9c3b8c90a58024795991d9c29315249047f7e82e46eadcf0d44be541a4cdf69e",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Mind Flayer Arcanist": {
+    "sha256": "608046cfc554b8fab3d608d52f01233039a069cc364f78064ded2421eb63ed53",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Intellect Devourer": {
+    "sha256": "7cafed91c432bfdffd582b796bd21cd7a382d5c79de44198b32e2715f6054c08",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Gelatinous Cube": {
+    "sha256": "68b39e8f9f4c69e357bafa11393c6f6a268be3746743c30327489118ff22c47c",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Rust Monster": {
+    "sha256": "7de1cfe78b1b2b648a5b54ea7b2b09607755841c662894d4c99331fb2550b459",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Mimic": {
+    "sha256": "86c1813f7ec743c3ec888f7e7ecb5d122d8cad2ada6b527c34afc1d01d979e29",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Owlbear": {
+    "sha256": "2f4965397e3d4344600f0bb765e428a7459e011c9b7b4433479bef1095b707cc",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Banshee": {
+    "sha256": "6bae6ffbaadea63d8992885ebfb1bcd18c520b8a5cc4a42ccf263eb99878268d",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Ghost": {
+    "sha256": "4c2f7846a17771b33cc82b58ce5f1962b049563632f94ff901f168aff50ca016",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Vampire": {
+    "sha256": "edfb9f5a11a0a1c031ee43cc8ad60c0ec2b9a487f86c601c1fa0a469d1f87463",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Vampire Spawn": {
+    "sha256": "4e36b7264020359f5ca8a31c185f99a1787590cc2a46747ab1f1e1a2b26f243f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Death Knight": {
+    "sha256": "3ebe9e8fdbdadad34e9fa60abfd11a8793834965461cd07480d5154e64998fe4",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Wight": {
+    "sha256": "a143709418896cfa8ced3141e97c4606573b72e8beaef5059c93ae505e76c2b3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Wraith": {
+    "sha256": "7dfa777dd0a553f428d6f4c13107d35c0ab712133f5e5a517bd90d7f1d7dff2f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Balor": {
+    "sha256": "c0daec99d2c5e1089962613cf352c04d894c80eb13f1f759422b3d1549fa70f4",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Pit Fiend": {
+    "sha256": "22f013e2e2a3cc8488b4e53c9717f29ec05174d772f51e9e0c1b4b60e8ec876d",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Erinyes": {
+    "sha256": "041265193c8e2f3f1278cbdf531acb8aa3408fd058a02535beba12ecfee2fce1",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Glabrezu": {
+    "sha256": "eb76594eca5e5e2259d1e4b158d4b61376fbe9abfd41696e49c206a7a6fa0bf9",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Cambion": {
+    "sha256": "0900be2b9700a5cf6ac4bd4f6ae9088e5566d710c723fe7e5dac937e14f679af",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Quasit": {
+    "sha256": "64e943cd05cf8aaab20a978515dd46980b81950b9e01209733f3d3c2ffea848c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Imp": {
+    "sha256": "022ec81f8963b9d7095c4cc1d6d16e833368cb2727c4449c612fbd255ab1337e",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Adult Black Dragon": {
+    "sha256": "d154947fdce4f4497601e24738494627fa7f8ce120a6c2c940bcb3e60d8902f2",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Adult Blue Dragon": {
+    "sha256": "4fcfcaa3afb777d887b9afadb45da30e5e9d68f77db8241dffffb02fa42a639a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Adult Green Dragon": {
+    "sha256": "7192442bcadf2e75e59fb98fba0029b245912134c44cd16e18725bbfef7dce3f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Adult Red Dragon": {
+    "sha256": "30206188e42c870862bbe7900c5e8e9e1ad08eb76d4dcfb716dc00467bf4ca58",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Adult White Dragon": {
+    "sha256": "e39491428280f9619953ca45540d14c744832c4813d69e3f5bcdd80910d73969",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Adult Gold Dragon": {
+    "sha256": "d8acc026f4cea2e467e98b4bf424735187107118381db0f43668ccc5b45ad36a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Adult Silver Dragon": {
+    "sha256": "029853120c328c04d9d5ae9be1cfaa937838b9a262112547c63143a388fd60ee",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Air Elemental": {
+    "sha256": "ba8990604dbed06fc7ca44040b2b0241c4883524fa3748e6eb6fda4638324885",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Earth Elemental": {
+    "sha256": "6e5cdd5c82488fa42f8a24b6d9dd55fc6d59dfebfe7265ced4743de7f1c0d544",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Fire Elemental": {
+    "sha256": "968917e676099f9b662734706bba20251bd3e8f695f44ba161c5b6170b700fd9",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Water Elemental": {
+    "sha256": "f1f451e5cca2465eb15d8b89ed0eccaed1fe1bf22755a5f38dcbdddb3ce7f076",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Invisible Stalker": {
+    "sha256": "1124ff85ca6f0109d4b6e1b00657eb8f60484d1103942e7efe44e46481039ff5",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Shambling Mound": {
+    "sha256": "823695caf622b1fe27646f34a6052be67667c0effd82de8fe201a0c2acc78d03",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Treant": {
+    "sha256": "7cee8b82ce960216717dc17f24a3e1dd1f9ce08d7fc3d784c79d28f25aa055de",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Archmage": {
+    "sha256": "d8a781d6645d661a15fb8c686995124ea812e0c7028eb7d886b5970dc158f761",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Assassin": {
+    "sha256": "00ab4300a6961f50111001980e4f797fcd536103cfb803891f0db5c22830b457",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Mage": {
+    "sha256": "82f71229529226fcec62337e97456d5e415aabee0095a9d2c28a1d3073e47f1e",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Dryad": {
+    "sha256": "775a2e05466f03ab4e5f84fe67db57c76b506ef9d8c73fa3448a1a3f98e77e0b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Green Hag": {
+    "sha256": "636ab00c6a2d6bbe3767a8e83c546028140f58c94581b887816d61abda8cbec2",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Night Hag": {
+    "sha256": "5b02ae7ac1fc3762b97bc459f0889a596c32eb1685ecfbb0b843ab0d37efbbed",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Sea Hag": {
+    "sha256": "b0e445398c00cf2aff31404bd53106f25ccdebbd89322f4066067067668f81cf",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Medusa": {
+    "sha256": "6c507e006f7340ad6c115d781e0e9b47cad12b0a2a09eab3ba9cfb8e64447813",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  }
+}

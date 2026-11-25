@@ -1,0 +1,4232 @@
+[
+  {
+    "name": "Alligator",
+    "version": {
+      "key": "3f46322bc6413355ae10164c",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "The Lost Hope"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 20 ft., swim 30 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Coastal",
+            "Swamp",
+            "Underwater"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An aquatic reptile with a broad snout, gaping jaws, and a heavy tail."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Hold Breath · It can hold its breath for 15 minutes.",
+            "Condition resistance · The block lists resistance to grappled."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bite · A hit grapples the target (escape DC 12). The target is restrained during the grapple, and the alligator cannot use Bite on another target."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "High Walk · It can Dash as a bonus action while it is out of the water or otherwise not swimming."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −5.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 215."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to grappled.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Bite · A hit grapples the target (escape DC 12). The target is restrained during the grapple, and the alligator cannot use Bite on another target.": [
+          {
+            "start": 63,
+            "end": 73,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "High Walk · It can Dash as a bonus action while it is out of the water or otherwise not swimming.": [
+          {
+            "start": 19,
+            "end": 23,
+            "target": {
+              "name": "Dash",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-24cf7abe039ab627ff434d64",
+                "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −5.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Coastal": true,
+      "Swamp": true,
+      "Underwater": true,
+      "broad snout": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "The Lost Hope"
+      }
+    ],
+    "portraitHash": "3ba25907c5d511dfb81fa99e3fe9d440016fd3cec1c81364a726acb8cb604156",
+    "siblings": []
+  },
+  {
+    "name": "Alligator Turtle",
+    "version": {
+      "key": "3cf68f9d310c5ee81926f107",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Alligator snapping turtle photograph by Peter Paplanus from St. Louis, Missouri · CC BY 4.0 · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Giant Snapping Turtle token · Tomb of Annihilation · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "15"
+        ],
+        [
+          "Hit points",
+          "12"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 20 ft., swim 30 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Coastal",
+            "Swamp",
+            "Underwater"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A sturdy shelled reptile with a long flexible neck, a hooked beak and a wormlike tongue lure."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +4 to hit · reach 10 ft. · 1d6 + 2 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "False Appearance · While motionless underwater with its mouth open, it looks like a rock with a worm sticking out of it. The lure is its tongue.",
+            "Hold Breath · It can hold its breath for 1 hour.",
+            "Condition resistance · The block lists resistance to prone."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bite · A hit grapples the target (escape DC 12). The turtle cannot bite another target during that grapple."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Spiky Shell · When a visible attacker within 5 ft. hits the turtle, reduce the attack damage by 5 (2d4). The attacker takes 2 (1d4) piercing damage."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 11 and Stealth 13. Ability modifiers are STR +2, DEX +1, CON +1, INT −4, WIS +1, CHA −2.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 215."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to prone.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 58,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 11 and Stealth 13. Ability modifiers are STR +2, DEX +1, CON +1, INT −4, WIS +1, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Coastal": true,
+      "Swamp": true,
+      "Underwater": true,
+      "hooked beak": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Alligator snapping turtle photograph by Peter Paplanus from St. Louis, Missouri · CC BY 4.0 · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Snapping Turtle token · Tomb of Annihilation · The Old Margreve"
+      }
+    ],
+    "portraitHash": "24c4c189d95d6a43964cd47c4fa104b289a7ba88f527d78590e9b1fc76860b7a",
+    "siblings": []
+  },
+  {
+    "name": "Baboon, Howler",
+    "version": {
+      "key": "bb51cdd12748503615a0c8af",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Baboon illustration · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Baboon token · Monster Manual (2014) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "15"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., climb 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest",
+            "Hills"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A stocky baboon that warns its troop with loud whooping calls."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Fist · melee · +4 to hit · reach 5 ft. · 1d6 + 2 bludgeoning",
+            "Rock · ranged · +4 to hit · range 20/60 ft. · 1d6 + 2 bludgeoning"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Pack Tactics · The baboon has advantage against a target within 5 ft. of one of the baboon’s allies who is not incapacitated.",
+            "Condition resistance · The block lists resistance to deafened."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Challenging Howl · One creature it sees within 30 ft. makes a DC 12 CHA save. On a failure, the baboon chooses whether the target’s next attack before the baboon’s next turn has disadvantage or has to target the baboon."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 12. Ability modifiers are STR +2, DEX +2, CON +2, INT −2, WIS +1, CHA −2.",
+            "No languages.",
+            "The Rock attack prints 20/60 ft. as “reach,” which the profile displays as a ranged attack’s normal and long range.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 232."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Pack Tactics · The baboon has advantage against a target within 5 ft. of one of the baboon’s allies who is not incapacitated.": [
+          {
+            "start": 30,
+            "end": 39,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          },
+          {
+            "start": 111,
+            "end": 124,
+            "target": {
+              "name": "Incapacitated",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot take actions or reactions.",
+              "local": {
+                "entry": "compendium-b982916d13c7b1a5bf750c36",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#incapacitated_phb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to deafened.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "target": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          }
+        ],
+        "Challenging Howl · One creature it sees within 30 ft. makes a DC 12 CHA save. On a failure, the baboon chooses whether the target’s next attack before the baboon’s next turn has disadvantage or has to target the baboon.": [
+          {
+            "start": 178,
+            "end": 190,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 12. Ability modifiers are STR +2, DEX +2, CON +2, INT −2, WIS +1, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "Hills": true,
+      "stocky baboon": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Baboon illustration · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Baboon token · Monster Manual (2014) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "b225968ca3114ec3371c1d0574df577017e2e418f068c27878558baa9fe6cd4a",
+    "siblings": []
+  },
+  {
+    "name": "Bat, Strossen",
+    "version": {
+      "key": "8cd6ceccc4291816977d5ad9",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Bat illustration · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Giant Bat token · Monster Manual (2014) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Small"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 5 ft., fly 40 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest",
+            "Underground"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A black vampire bat with a white streak across its eyes."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keensense 60 ft."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Echolocation · It loses keensense while deafened.",
+            "Heightened Hearing · Use Perception 17 when it relies on hearing.",
+            "Condition resistance · The block lists resistance to blinded.",
+            "Condition vulnerability · The block lists vulnerability to deafened."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bite · On a hit it attaches, moves with the target for free and cannot attack while attached. The target loses 5 (1d4 + 3) HP to blood loss at the start of each bat turn. The bat can spend 5 ft. of movement to detach, and does so after draining 15 HP or if the target dies. Any creature, including the target, can use an action to remove it."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Haunting Screech · Choose one creature within 10 ft. If it can hear the bat, it must pass a DC 13 WIS save or be frightened until the end of its next turn."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 12 and Stealth 15. Ability modifiers are STR −2, DEX +3, CON +0, INT −5, WIS +0, CHA −4.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 239."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Echolocation · It loses keensense while deafened.": [
+          {
+            "start": 40,
+            "end": 48,
+            "target": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing · Use Perception 17 when it relies on hearing.": [
+          {
+            "start": 25,
+            "end": 35,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to blinded.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 60,
+            "target": {
+              "name": "Blinded",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              }
+            }
+          }
+        ],
+        "Condition vulnerability · The block lists vulnerability to deafened.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 59,
+            "end": 67,
+            "target": {
+              "name": "Deafened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot hear and automatically fail checks that require hearing.",
+              "local": {
+                "entry": "compendium-dd0a68f141cbd4b5707f1be2",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#deafened_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Haunting Screech · Choose one creature within 10 ft. If it can hear the bat, it must pass a DC 13 WIS save or be frightened until the end of its next turn.": [
+          {
+            "start": 113,
+            "end": 123,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 12 and Stealth 15. Ability modifiers are STR −2, DEX +3, CON +0, INT −5, WIS +0, CHA −4.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "Underground": true,
+      "white streak": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Bat illustration · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Bat token · Monster Manual (2014) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "4c4f0cc3154ec6f43e52f444032dd1f6a84ae7aadf8fce38b4850808dcea8275",
+    "siblings": []
+  },
+  {
+    "name": "Beetle, Giant Bombardier",
+    "version": {
+      "key": "6ec5a07bc976f5aa37bb576d",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Giant Fire Beetle illustration · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Giant Fire Beetle illustration · Monster Manual (2014) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "14"
+        ],
+        [
+          "Hit points",
+          "12"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A dome-backed beetle that can spray a scalding liquid to fend off predators."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keensense 30 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "fire"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Forest Camouflage · Use Stealth 17 in forest terrain.",
+            "Condition vulnerability · The block lists vulnerability to frightened."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Spray (Recharge 5–6) · One creature it can see within 15 ft. makes a DC 12 DEX save. Failure deals 5 (2d4) fire damage. Success halves that damage."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Defensive Spray (7 HP or fewer) · When the beetle takes damage while at 7 HP or fewer, Spray recharges and the beetle can use it immediately."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +0, DEX +2, CON +2, INT −4, WIS +0, CHA −4.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 226."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Forest Camouflage · Use Stealth 17 in forest terrain.": [
+          {
+            "start": 24,
+            "end": 31,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Condition vulnerability · The block lists vulnerability to frightened.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 59,
+            "end": 69,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +0, DEX +2, CON +2, INT −4, WIS +0, CHA −4.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "scalding liquid": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Fire Beetle illustration · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Giant Fire Beetle illustration · Monster Manual (2014) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "008dd728f2c5eb4995a5672384dd53b2f51266e648b3853868e243de08539994",
+    "siblings": []
+  },
+  {
+    "name": "Bull",
+    "version": {
+      "key": "3290d3b5f8c4141d2be03b20",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Cow token · Volo's Guide to Monsters · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "25"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Farmland",
+            "Grassland"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A bulky, four-legged bovine with a heavy head and sharp horns."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Gore · melee · +5 to hit · reach 5 ft. · 2d6 + 3 piercing",
+            "Hooves · melee · +5 to hit · reach 5 ft. · 2d4 + 3 bludgeoning"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Charge · Move at least 20 ft. in a straight line toward the target and hit it with Gore on the same turn. Add 3 (1d6) piercing damage. A creature hit this way must pass a DC 13 STR save or fall prone."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 9 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +3, INT −4, WIS −1, CHA −2.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 219."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Charge · Move at least 20 ft. in a straight line toward the target and hit it with Gore on the same turn. Add 3 (1d6) piercing damage. A creature hit this way must pass a DC 13 STR save or fall prone.": [
+          {
+            "start": 194,
+            "end": 199,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 9 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +3, INT −4, WIS −1, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 45,
+            "end": 52,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Farmland": true,
+      "Grassland": true,
+      "sharp horns": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Cow token · Volo's Guide to Monsters · The Old Margreve"
+      }
+    ],
+    "portraitHash": "1fde3ddb189607a2349cbc13ea9b1054949a9779c5c6e29577c3baf04a216684",
+    "siblings": []
+  },
+  {
+    "name": "Forest Falcon",
+    "version": {
+      "key": "183e538b3976590b9bc65ff5",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Hawk illustration by Suzanne Helmigh · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Hawk illustration · Monster Manual (2014) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "25"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 20 ft., fly 60 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A broad-winged raptor adapted to agile flight through dense canopy."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Beak · melee · +5 to hit · reach 5 ft. · 2d4 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Falcon Dive · Dive straight toward the target for at least 20 ft. while flying. Gain advantage on the next Beak attack against it this turn. A hit adds 2 (1d4) piercing damage.",
+            "Heightened Sight · Use Perception 19 when relying on sight.",
+            "Condition vulnerability · The block lists vulnerability to blinded."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 14 and Stealth 13. Ability modifiers are STR −2, DEX +3, CON +1, INT −4, WIS +2, CHA −3.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 226."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Falcon Dive · Dive straight toward the target for at least 20 ft. while flying. Gain advantage on the next Beak attack against it this turn. A hit adds 2 (1d4) piercing damage.": [
+          {
+            "start": 85,
+            "end": 94,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Heightened Sight · Use Perception 19 when relying on sight.": [
+          {
+            "start": 23,
+            "end": 33,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Condition vulnerability · The block lists vulnerability to blinded.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 59,
+            "end": 66,
+            "target": {
+              "name": "Blinded",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot see. Your attacks have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-f2fb8e3ec2661265562faf3f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#blinded_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 14 and Stealth 13. Ability modifiers are STR −2, DEX +3, CON +1, INT −4, WIS +2, CHA −3.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "dense canopy": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Hawk illustration by Suzanne Helmigh · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Hawk illustration · Monster Manual (2014) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "1e53c70fcf1190fe22b6c0e57560ff00f318da25e17d8be8b08eb3b8c3b85e7a",
+    "siblings": []
+  },
+  {
+    "name": "Grove Bear",
+    "version": {
+      "key": "914d4e3fcc3a917f8e8fbcd9",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Brown Bear illustration · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Brown Bear token · Monster Manual (2014) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft., climb 30 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A nimble, compact black-bear relative with a blond snout."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Claws · melee · +5 to hit · reach 5 ft. · 1d4 + 3 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Grappler · It has advantage on attacks against creatures it is grappling.",
+            "Heightened Smell · Use Perception 18 when relying on smell.",
+            "Condition resistance · The block lists resistance to grappled."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Claws · A hit grapples the target (escape DC 13). It cannot use Claws on another target while the grapple persists."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Pin · One creature the bear is grappling must pass a DC 13 STR save or be restrained until the grapple ends."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +2, INT −4, WIS +1, CHA −2.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 229."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Grappler · It has advantage on attacks against creatures it is grappling.": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Grappler",
+              "group": "Feats",
+              "publication": "Player's Handbook (2014)",
+              "page": 167,
+              "local": {
+                "entry": "compendium-9288fc6aee33fdc3d849c8d9",
+                "version": "PHB:167:https://5e.tools/feats.html#grappler_phb"
+              }
+            }
+          },
+          {
+            "start": 18,
+            "end": 27,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Heightened Smell · Use Perception 18 when relying on smell.": [
+          {
+            "start": 23,
+            "end": 33,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to grappled.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "target": {
+              "name": "Grappled",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "Your speed becomes 0. The grapple ends if you are moved out of the grappler’s reach.",
+              "local": {
+                "entry": "compendium-e9c29509e4a14efaf316630f",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#grappled_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Pin · One creature the bear is grappling must pass a DC 13 STR save or be restrained until the grapple ends.": [
+          {
+            "start": 74,
+            "end": 84,
+            "target": {
+              "name": "Restrained",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your speed is 0. Your attacks and Dexterity saves have disadvantage, and attacks against you have advantage.",
+              "local": {
+                "entry": "compendium-96f95ee89735ef4b35c1ea5b",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#restrained_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +2, INT −4, WIS +1, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "blond snout": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Brown Bear illustration · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Brown Bear token · Monster Manual (2014) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "fd888bcd265eb669c682eeb07bd32d671dd5f201d80323e16d9dea3fb7700084",
+    "siblings": []
+  },
+  {
+    "name": "Leech, Giant",
+    "version": {
+      "key": "bc19a88161879c0739d319e2",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Jammer Leech illustration by Shawn Wood · Spelljammer: Adventures in Space · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Small"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 15 ft., swim 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Coastal",
+            "Forest",
+            "Swamp"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "An elongated, legless leech that swims with a vertical undulation."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Tremorsense 30 ft."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +5 to hit · reach 5 ft. · 1d4 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Amphibious · It breathes air and water."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bite · On a hit it attaches, moves with the target for free and cannot attack while attached. The target loses 5 (1d4 + 3) HP to blood loss at the start of each leech turn. The leech can spend 5 ft. of movement to detach, and does so after draining 10 HP or if the target dies. Any creature, including the target, can use an action to remove it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 15. Ability modifiers are STR −2, DEX +3, CON +0, INT −5, WIS +0, CHA −4.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 227."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Tremorsense 30 ft.": [
+          {
+            "start": 0,
+            "end": 11,
+            "target": {
+              "name": "Tremorsense",
+              "group": "Senses",
+              "publication": "Monster Manual (2014)",
+              "page": 9,
+              "local": {
+                "entry": "compendium-658e82192e71645fa45184ae",
+                "version": "MM:9:https://5e.tools/senses.html#tremorsense_mm"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 15. Ability modifiers are STR −2, DEX +3, CON +0, INT −5, WIS +0, CHA −4.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Coastal": true,
+      "Forest": true,
+      "Swamp": true,
+      "vertical undulation": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Jammer Leech illustration by Shawn Wood · Spelljammer: Adventures in Space · The Old Margreve"
+      }
+    ],
+    "portraitHash": "e5251055902268c8d3a4d9aeb91496a16d3bcab63caa3c64b5792d4976270c27",
+    "siblings": []
+  },
+  {
+    "name": "Lizard, Giant Frilled",
+    "version": {
+      "key": "3de9f279db25ba68578323c2",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Frilled lizard photograph by Richard N Horne · CC BY 4.0 · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Lizard illustration by Jonathan Kuo · Monster Manual (2024) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "16"
+        ],
+        [
+          "Hit points",
+          "114"
+        ],
+        [
+          "Challenge",
+          "5"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., climb 30 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Coastal",
+            "Forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large, warm-climate lizard with a jagged neck frill that it spreads to intimidate intruders."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "poison"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +7 to hit · reach 5 ft. · 2d8 + 4 piercing plus 4d4 poison",
+            "Tail · melee · +7 to hit · reach 10 ft. · 2d10 + 4 bludgeoning"
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Multiattack · It makes one Bite and one Tail attack.",
+            "Tail · A Large or smaller creature hit by the tail must pass a DC 15 STR save or fall prone."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Intimidating Dash · Move up to 20 ft. toward one creature it sees within 60 ft. without provoking opportunity attacks. If it comes within 30 ft. of the target, the target makes a DC 15 CHA save or becomes frightened until the start of the lizard’s next turn. The save has disadvantage if the lizard comes within 5 ft."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Detach Tail (63 HP or fewer) · When it takes damage at 63 HP or fewer, reduce the damage by 9 (2d8) and immediately move up to its speed without provoking opportunity attacks. It cannot make Tail attacks again until this reaction recharges after a short or long rest."
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Condition resistance · The block lists resistance to poisoned."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 14 and Stealth 14. Ability modifiers are STR +2, DEX +4, CON +2, INT −4, WIS +1, CHA +0.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 227."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Tail · A Large or smaller creature hit by the tail must pass a DC 15 STR save or fall prone.": [
+          {
+            "start": 86,
+            "end": 91,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Intimidating Dash · Move up to 20 ft. toward one creature it sees within 60 ft. without provoking opportunity attacks. If it comes within 30 ft. of the target, the target makes a DC 15 CHA save or becomes frightened until the start of the lizard’s next turn. The save has disadvantage if the lizard comes within 5 ft.": [
+          {
+            "start": 13,
+            "end": 17,
+            "target": {
+              "name": "Dash",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-24cf7abe039ab627ff434d64",
+                "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+              }
+            }
+          },
+          {
+            "start": 205,
+            "end": 215,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          },
+          {
+            "start": 272,
+            "end": 284,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to poisoned.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 14 and Stealth 14. Ability modifiers are STR +2, DEX +4, CON +2, INT −4, WIS +1, CHA +0.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Coastal": true,
+      "Forest": true,
+      "jagged neck frill": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Frilled lizard photograph by Richard N Horne · CC BY 4.0 · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Lizard illustration by Jonathan Kuo · Monster Manual (2024) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "94c3df2b6326f550b844e592374fa10765c5988de0628c4d667120e2b6a38022",
+    "siblings": []
+  },
+  {
+    "name": "Margreve Hound",
+    "version": {
+      "key": "055b2be20627aa568b4cadde",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Mastiff illustration · Monster Manual (2014) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Wolf illustration · Monster Manual (2024) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "14"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 40 ft."
+        ],
+        [
+          "Armor class notes",
+          "Natural armor"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Farmland",
+            "Forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A muscular hunting hound bred in the Margreve and touched by the forest’s magic."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +4 to hit · reach 5 ft. · 1d6 + 2 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Fearsome Mien · A Fey attacking the hound must pass a DC 12 WIS save or make that attack with disadvantage.",
+            "Heightened Hearing and Smell · Use Perception 18 when relying on smell. The rules text names smell only.",
+            "Magic Resistance · It has advantage on saves against spells and other magical effects.",
+            "Condition resistance · The block lists resistance to charmed, frightened."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Bite · A hit grapples the target (escape DC 12). It cannot bite another target while the grapple persists."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Warning Bark · Choose one visible creature within 30 ft. It makes a DC 12 WIS save or cannot move closer to the hound until the start of the hound’s next turn. Fey have disadvantage on this save."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 13. Ability modifiers are STR +2, DEX +1, CON +1, INT −4, WIS +1, CHA −2.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 235."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Fearsome Mien · A Fey attacking the hound must pass a DC 12 WIS save or make that attack with disadvantage.": [
+          {
+            "start": 94,
+            "end": 106,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing and Smell · Use Perception 18 when relying on smell. The rules text names smell only.": [
+          {
+            "start": 35,
+            "end": 45,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Magic Resistance · It has advantage on saves against spells and other magical effects.": [
+          {
+            "start": 6,
+            "end": 16,
+            "target": {
+              "name": "Resistance",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 272,
+              "description": "A abjuration cantrip.",
+              "local": {
+                "entry": "compendium-c5cb057b458ebd0d2d062e0f",
+                "version": "PHB:272:https://5e.tools/spells.html#resistance_phb"
+              }
+            }
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to charmed, frightened.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 60,
+            "target": {
+              "name": "Charmed",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "You cannot attack or use harmful effects against the charmer, who has advantage on social checks involving you.",
+              "local": {
+                "entry": "compendium-5282cfc37c8b31ab197b8d22",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#charmed_phb"
+              }
+            }
+          },
+          {
+            "start": 62,
+            "end": 72,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Warning Bark · Choose one visible creature within 30 ft. It makes a DC 12 WIS save or cannot move closer to the hound until the start of the hound’s next turn. Fey have disadvantage on this save.": [
+          {
+            "start": 169,
+            "end": 181,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 13. Ability modifiers are STR +2, DEX +1, CON +1, INT −4, WIS +1, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Farmland": true,
+      "Forest": true,
+      "muscular hunting hound": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Mastiff illustration · Monster Manual (2014) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Wolf illustration · Monster Manual (2024) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "d89d419a3c6541bfd0a2df3f23b2d96c3188ff045def3be9130e53d19adefde3",
+    "siblings": []
+  },
+  {
+    "name": "Margreve Stag",
+    "version": {
+      "key": "76881688bff4b8406c46f8fb",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Golden Stag token · Hoard of the Dragon Queen · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Elk illustration · Monster Manual (2024) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "12"
+        ],
+        [
+          "Hit points",
+          "25"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 50 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large antlered deer native to the Margreve Forest."
+          ]
+        },
+        {
+          "title": "Languages",
+          "lines": [
+            "Understands Sylvan without speaking it"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Ram · melee · +4 to hit · reach 5 ft. · 2d4 + 2 piercing",
+            "Kick · melee · +4 to hit · reach 5 ft. · 2d6 + 2 bludgeoning"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Charge · Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. Add 2 (1d4) damage. A creature hit this way must pass a DC 12 STR save or fall prone.",
+            "Heightened Hearing · Use Perception 15 when relying on hearing.",
+            "Standing Leap · It can jump up to 20 ft. horizontally or 10 ft. vertically, with or without a run-up.",
+            "Condition resistance · The block lists resistance to exhaustion.",
+            "Condition vulnerability · The block lists vulnerability to frightened."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Skittish · It takes the Dash or Disengage action."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Will of the Margreve · When it fails a saving throw, it can reroll and must accept the new result."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +2, DEX +2, CON +1, INT −3, WIS +0, CHA −1.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), pp. 235–236."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Charge · Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. Add 2 (1d4) damage. A creature hit this way must pass a DC 12 STR save or fall prone.": [
+          {
+            "start": 172,
+            "end": 177,
+            "target": {
+              "name": "Prone",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing · Use Perception 15 when relying on hearing.": [
+          {
+            "start": 25,
+            "end": 35,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to exhaustion.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 63,
+            "target": {
+              "name": "Exhaustion",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 291,
+              "description": "Accumulated fatigue imposes penalties that worsen as you gain levels of exhaustion.",
+              "local": {
+                "entry": "compendium-90b17ab4e431f588d2571743",
+                "version": "PHB:291:https://5e.tools/conditionsdiseases.html#exhaustion_phb"
+              }
+            }
+          }
+        ],
+        "Condition vulnerability · The block lists vulnerability to frightened.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 59,
+            "end": 69,
+            "target": {
+              "name": "Frightened",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 290,
+              "description": "While you can see the source of your fear, your attacks and ability checks have disadvantage. You cannot willingly move closer to it.",
+              "local": {
+                "entry": "compendium-879f347e29c83a95483201f4",
+                "version": "PHB:290:https://5e.tools/conditionsdiseases.html#frightened_phb"
+              }
+            }
+          }
+        ],
+        "Skittish · It takes the Dash or Disengage action.": [
+          {
+            "start": 24,
+            "end": 28,
+            "target": {
+              "name": "Dash",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-24cf7abe039ab627ff434d64",
+                "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+              }
+            }
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "target": {
+              "name": "Disengage",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-a7046818d19c25e6d0811f89",
+                "version": "PHB:192:https://5e.tools/actions.html#disengage_phb"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Will of the Margreve · When it fails a saving throw, it can reroll and must accept the new result.": [
+          {
+            "start": 39,
+            "end": 51,
+            "target": {
+              "name": "Saving Throw",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 179,
+              "description": "Roll a d20 and add the relevant ability modifier, plus proficiency if it applies. The effect sets the DC.",
+              "local": {
+                "entry": "compendium-c71a1b1cfda70c19953fcff6",
+                "version": "PHB:179:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +2, DEX +2, CON +1, INT −3, WIS +0, CHA −1.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "large antlered deer": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Golden Stag token · Hoard of the Dragon Queen · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Elk illustration · Monster Manual (2024) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "d6bfbd388d02bd53e9e7ee5da49f3667986a1c6914612ff01f5d58ea22049c21",
+    "siblings": []
+  },
+  {
+    "name": "Mongoose, Giant",
+    "version": {
+      "key": "e3acc34fdb3ae853581b8d84",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Weasel illustration by Rowan Holloway · Monster Manual (2024) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "13"
+        ],
+        [
+          "Hit points",
+          "12"
+        ],
+        [
+          "Challenge",
+          "1/4"
+        ],
+        [
+          "Size",
+          "Medium"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest",
+            "Grassland"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A long-bodied mongoose that dodges strikes with quick, dance-like movements."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Damage resistances",
+          "lines": [
+            "poison"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Bite · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Heightened Hearing and Smell · Use Perception 17 when relying on hearing or smell.",
+            "Condition resistance · The block lists resistance to poisoned."
+          ]
+        },
+        {
+          "title": "Reaction mechanics",
+          "lines": [
+            "Evasive Roll · If it sees the attacker, add 2 AC against one attack that would hit it."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 12 and Stealth 15. Ability modifiers are STR +0, DEX +3, CON +2, INT −4, WIS +2, CHA −2.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), pp. 227–228."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Damage resistances": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing and Smell · Use Perception 17 when relying on hearing or smell.": [
+          {
+            "start": 35,
+            "end": 45,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Condition resistance · The block lists resistance to poisoned.": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          },
+          {
+            "start": 53,
+            "end": 61,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          }
+        ],
+        "Reaction mechanics": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Reaction",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-a735155b57d286690d62c026",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#reaction_xphb"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 12 and Stealth 15. Ability modifiers are STR +0, DEX +3, CON +2, INT −4, WIS +2, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "Grassland": true,
+      "long-bodied mongoose": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Weasel illustration by Rowan Holloway · Monster Manual (2024) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "dbc9d49bb467965f0f35466e18350a5090469c2813e86dd644ec38033ccb3991",
+    "siblings": []
+  },
+  {
+    "name": "Owl, Great Gray",
+    "version": {
+      "key": "244a8721ad44377699d4c5cc",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Owl illustration by Jonathan Kuo · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Great gray owl photograph by USFWSAlaska · Public domain · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "14"
+        ],
+        [
+          "Hit points",
+          "36"
+        ],
+        [
+          "Challenge",
+          "1"
+        ],
+        [
+          "Size",
+          "Small"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 5 ft., fly 60 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Forest",
+            "Hills"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A gray owl with a broad round facial disk and a quiet wingbeat."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 120 ft."
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Talon · melee · +6 to hit · reach 5 ft. · 1d6 + 4 slashing"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Flyby · Flying out of an enemy’s reach does not provoke its opportunity attacks.",
+            "Heightened Hearing and Sight · Use Perception 19 when relying on hearing or sight.",
+            "Quiet Wings · Use Stealth 21 while flying."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Multiattack · It makes two Talon attacks."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Intense Gaze · Choose one visible creature within 30 ft. On a failed DC 14 WIS save, the owl has advantage on its next attack against that creature before the start of the owl’s next turn."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 14 and Stealth 16. Ability modifiers are STR −3, DEX +4, CON +0, INT −4, WIS +2, CHA −2.",
+            "No languages.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 229."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Darkvision 120 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ],
+        "Flyby · Flying out of an enemy’s reach does not provoke its opportunity attacks.": [
+          {
+            "start": 8,
+            "end": 14,
+            "target": {
+              "name": "Flying",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 367,
+              "local": {
+                "entry": "compendium-cdc54b3e1ffb9cc1b8c2e6b2",
+                "version": "XPHB:367:https://5e.tools/variantrules.html#flying_xphb"
+              }
+            }
+          }
+        ],
+        "Heightened Hearing and Sight · Use Perception 19 when relying on hearing or sight.": [
+          {
+            "start": 35,
+            "end": 45,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Quiet Wings · Use Stealth 21 while flying.": [
+          {
+            "start": 18,
+            "end": 25,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Intense Gaze · Choose one visible creature within 30 ft. On a failed DC 14 WIS save, the owl has advantage on its next attack against that creature before the start of the owl’s next turn.": [
+          {
+            "start": 97,
+            "end": 106,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 14 and Stealth 16. Ability modifiers are STR −3, DEX +4, CON +0, INT −4, WIS +2, CHA −2.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Forest": true,
+      "Hills": true,
+      "round facial disk": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Owl illustration by Jonathan Kuo · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Great gray owl photograph by USFWSAlaska · Public domain · The Old Margreve"
+      }
+    ],
+    "portraitHash": "284e3edce207a7a61db13d51c53f3860a4986a8d567dcf6a08ec25d2629dfea9",
+    "siblings": []
+  },
+  {
+    "name": "Tsuchinoko",
+    "version": {
+      "key": "0b919e37154b46df72f3f1da",
+      "publication": "The Old Margreve",
+      "edition": "Black Flag Roleplaying",
+      "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+      "status": "Combat summary",
+      "images": [
+        {
+          "url": "",
+          "credit": "Related Constrictor Snake illustration by Alejandro Pacheco · Monster Manual (2024) · The Old Margreve"
+        },
+        {
+          "url": "",
+          "credit": "Related Poisonous Snake token · Monster Manual (2014) · The Old Margreve"
+        }
+      ],
+      "stats": [
+        [
+          "Armor class",
+          "14"
+        ],
+        [
+          "Hit points",
+          "22"
+        ],
+        [
+          "Challenge",
+          "1/2"
+        ],
+        [
+          "Size",
+          "Tiny"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft."
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Farmland",
+            "Forest",
+            "Grassland"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A compact venomous snake that can bite its tail and roll like a hoop."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Keensense 10 ft."
+          ]
+        },
+        {
+          "title": "Damage immunities",
+          "lines": [
+            "poison"
+          ]
+        },
+        {
+          "title": "Condition immunities",
+          "lines": [
+            "poisoned"
+          ]
+        },
+        {
+          "title": "Attacks",
+          "lines": [
+            "Leaping Bite · melee · +6 to hit · reach 10 ft. · 1d4 + 4 piercing plus 1d4 poison"
+          ]
+        },
+        {
+          "title": "Trait mechanics",
+          "lines": [
+            "Heightened Smell · Use Perception 18 when relying on smell.",
+            "Plant Camouflage · Use Stealth 21 amid enough plant growth to hide.",
+            "Standing Leap · It can jump up to 15 ft. horizontally or 5 ft. vertically, with or without a run-up."
+          ]
+        },
+        {
+          "title": "Action mechanics",
+          "lines": [
+            "Leaping Bite · It has advantage on this attack if it moves at least 10 ft. before attacking."
+          ]
+        },
+        {
+          "title": "Bonus action mechanics",
+          "lines": [
+            "Hoop Dash · It takes the Dash action after biting its own tail to form a hoop. Its next attack before its next turn has disadvantage."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Black Flag fixed values are Perception 13 and Stealth 16. Ability modifiers are STR −3, DEX +4, CON +1, INT −4, WIS +1, CHA −3.",
+            "No languages.",
+            "It hunts small prey and seeks out alcohol, which sometimes brings it to roadside inns.",
+            "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 241."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Damage immunities": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Damage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 364,
+              "local": {
+                "entry": "compendium-62837ed0c3d25904bcb2352e",
+                "version": "XPHB:364:https://5e.tools/variantrules.html#damage_xphb"
+              }
+            }
+          }
+        ],
+        "Condition immunities": [
+          {
+            "start": 0,
+            "end": 9,
+            "target": {
+              "name": "Condition",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 363,
+              "local": {
+                "entry": "compendium-7ec713220a1ab631931f9618",
+                "version": "XPHB:363:https://5e.tools/variantrules.html#condition_xphb"
+              }
+            }
+          }
+        ],
+        "poisoned": [
+          {
+            "start": 0,
+            "end": 8,
+            "target": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2014)",
+              "page": 292,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              }
+            }
+          }
+        ],
+        "Heightened Smell · Use Perception 18 when relying on smell.": [
+          {
+            "start": 23,
+            "end": 33,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          }
+        ],
+        "Plant Camouflage · Use Stealth 21 amid enough plant growth to hide.": [
+          {
+            "start": 23,
+            "end": 30,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 58,
+            "target": {
+              "name": "Plant Growth",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 266,
+              "description": "A level 3 transmutation spell.",
+              "local": {
+                "entry": "compendium-e9919f0db83eb7e334b155d1",
+                "version": "PHB:266:https://5e.tools/spells.html#plant%20growth_phb"
+              }
+            }
+          }
+        ],
+        "Action mechanics": [
+          {
+            "start": 0,
+            "end": 6,
+            "target": {
+              "name": "Action",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 360,
+              "local": {
+                "entry": "compendium-a840ebb1735c18a9cb2c9c6e",
+                "version": "XPHB:360:https://5e.tools/variantrules.html#action_xphb"
+              }
+            }
+          }
+        ],
+        "Leaping Bite · It has advantage on this attack if it moves at least 10 ft. before attacking.": [
+          {
+            "start": 22,
+            "end": 31,
+            "target": {
+              "name": "Advantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the higher roll.",
+              "local": {
+                "entry": "compendium-694118169b5a4aef2291ff71",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Hoop Dash · It takes the Dash action after biting its own tail to form a hoop. Its next attack before its next turn has disadvantage.": [
+          {
+            "start": 5,
+            "end": 9,
+            "target": {
+              "name": "Dash",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-24cf7abe039ab627ff434d64",
+                "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+              }
+            }
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "target": {
+              "name": "Dash",
+              "group": "Actions",
+              "publication": "Player's Handbook (2014)",
+              "page": 192,
+              "local": {
+                "entry": "compendium-24cf7abe039ab627ff434d64",
+                "version": "PHB:192:https://5e.tools/actions.html#dash_phb"
+              }
+            }
+          },
+          {
+            "start": 120,
+            "end": 132,
+            "target": {
+              "name": "Disadvantage",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2014)",
+              "page": 173,
+              "description": "Roll two d20s and use the lower roll.",
+              "local": {
+                "entry": "compendium-356940ecb12aa17025238190",
+                "version": "PHB:173:https://5e.tools/book.html#PHB"
+              }
+            }
+          }
+        ],
+        "Black Flag fixed values are Perception 13 and Stealth 16. Ability modifiers are STR −3, DEX +4, CON +1, INT −4, WIS +1, CHA −3.": [
+          {
+            "start": 28,
+            "end": 38,
+            "target": {
+              "name": "Perception",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 178,
+              "local": {
+                "entry": "compendium-f21bfeaccf140efabf3793fe",
+                "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+              }
+            }
+          },
+          {
+            "start": 46,
+            "end": 53,
+            "target": {
+              "name": "Stealth",
+              "group": "Skills",
+              "publication": "Player's Handbook (2014)",
+              "page": 177,
+              "local": {
+                "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queries": {
+      "Farmland": true,
+      "Forest": true,
+      "Grassland": true,
+      "compact venomous snake": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Related Constrictor Snake illustration by Alejandro Pacheco · Monster Manual (2024) · The Old Margreve"
+      },
+      {
+        "url": "",
+        "credit": "Related Poisonous Snake token · Monster Manual (2014) · The Old Margreve"
+      }
+    ],
+    "portraitHash": "704b44eb2203060a0795c8876ff9da3d9e183fb33bc0555c4b863195b37a18fb",
+    "siblings": []
+  }
+]

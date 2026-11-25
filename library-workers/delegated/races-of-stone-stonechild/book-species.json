@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Stonechild",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider with the Earth subtype. The printed profile lists Extraplanar. Apply that subtype when away from the native plane. Base land speed 30 ft. Darkvision sees in black and white out to 60 ft.",
+      "Full ancestry gives +8 Strength, +8 Constitution, +2 Intelligence, −2 Charisma, and +4 natural armor.",
+      "Immune to acid and poison.",
+      "Full ancestry has 2d8 racial Hit Dice, BAB +2, and base Fortitude, Reflex, and Will +3 each. It grants one feat plus Blind-Fight as a bonus feat. Level adjustment +4 gives ECL 6 before any class levels.",
+      "Racial skill points are 5 × (8 + Intelligence modifier). Racial class skills are Appraise, Climb, Craft (stoneworking), Intimidate, Knowledge (history), Knowledge (the planes), Listen, Search, Spot, and Survival.",
+      "Proficient with simple and martial weapons, light and medium armor, and shields other than tower shields.",
+      "Full ancestry can use Magic Stone (Sp) three times per day at caster level 3.",
+      "Each use of Magic Stone (Sp) enchants up to three touched pebbles for 30 minutes or until discharged. The printed spell lists 1d6+1 damage on a hit, or 2d6+2 against undead. Use a normal ranged attack with a +1 enhancement bonus, at a 20-ft. increment if thrown or 50 ft. if slung.",
+      "Common and Terran are automatic. Bonus languages are Celestial, Dwarven, and Ignan. Favored class Fighter.",
+      "The optional six-level Stonechild monster class starts before the full ancestry is available. Its starting adjustments are +2 Constitution, +2 Intelligence, and −2 Charisma. It starts Medium with 30-ft. speed, darkvision 60 ft., acid and poison immunity, and the listed proficiencies.",
+      "At monster-class level 1, gain 1d8 racial Hit Die, BAB +1, base saves +2, one feat, and (8 + Intelligence modifier) × 4 skill points. At level 2 add +2 Strength and +2 Constitution and reach +1 natural armor.",
+      "At level 3 add another +2 Strength and +2 Constitution. Natural armor rises to +2 and Magic Stone becomes available 1/day at caster level 3. At level 4 gain the second 1d8 racial Hit Die, BAB +2 total, base saves +3, (8 + Intelligence modifier) skill points and bonus Blind-Fight.",
+      "At level 5 add +2 Strength and +2 Constitution, reach +3 natural armor, and use Magic Stone 2/day. At level 6 add +2 Strength, reach +4 natural armor, and use Magic Stone 3/day. Its caster level stays 3.",
+      "The monster class incorporates the four points of level adjustment and ends with the same two racial Hit Dice and full traits. Complete it before multiclassing. Table 4–5 lists CR 1, 1, 1, 2, 3, and 3 for its six levels."
+    ]
+  }
+]

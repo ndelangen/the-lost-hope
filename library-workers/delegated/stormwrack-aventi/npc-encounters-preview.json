@@ -1,0 +1,250 @@
+{
+  "Aventi": {
+    "profiles": [
+      {
+        "name": "Aventi",
+        "imageKey": "species:aventi",
+        "kind": "species",
+        "type": "Humanoid (Human, Aquatic)",
+        "publication": "Stormwrack (2005)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid with Human and Aquatic subtypes. No ability score adjustments. Land speed 30 ft. and swim speed 30 ft. LA +0 and advancement by character class.",
+          "Amphibious (Ex). Breathes air and water without a time limit.",
+          "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+          "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+          "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points.",
+          "Common is automatic. Aquan, Elven, and Sahuagin are bonus languages. Favored class Any."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Aventi",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Stormwrack (2005)",
+            "name": "Selka of Tideglass",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Medium",
+              "type": "Humanoid (Human, Aquatic)",
+              "senses": "Normal vision.",
+              "languages": "Common, Aquan",
+              "speed": "30 ft., swim 30 ft.",
+              "id": "aventi-tideglass-cistern-keeper-35e",
+              "title": "Aventi cistern keeper, Cleric 1",
+              "ac": 13,
+              "hp": 10,
+              "hitDice": "1d8+2",
+              "initiative": 1,
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 12,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 16,
+                "CHA": 14
+              },
+              "skills": [
+                "Concentration +6",
+                "Heal +7",
+                "Knowledge (religion) +5",
+                "Swim +9"
+              ],
+              "traits": [
+                "Lawful good, cleric of Aventernus. Leather armor +2, Dexterity +1, touch 11, flat-footed 12. BAB +0, grapple +1. Fortitude +4, Reflex +1, Will +5. Combat Casting adds +4 on Concentration checks to cast defensively or while grappled or pinned.",
+                "Amphibious (Ex). Breathes air and water without a time limit.",
+                "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+                "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+                "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points.",
+                "Ocean and Good domains. Ocean grants up to 10 rounds per level of water breathing, redundant with Amphibious. Good adds +1 caster level to Good spells. The spells on this card have no Good descriptor."
+              ],
+              "actions": [
+                "Spear +1 melee, 1d8+1 piercing, critical ×3. Turn undead 5/day, check 1d20+2 and turning damage 2d6+3 HD.",
+                "Prepared cantrips are create water, guidance, and light. Create water [Water] is CL 2 and creates up to 4 gallons of drinkable water at up to 30 ft. Guidance and light stay at CL 1.",
+                "Prepared first-level spells are bless and cure light wounds (1d8+1 healing). The Ocean domain slot is endure elements. All three are CL 1."
+              ],
+              "tactics": "Selka swims under the collapsed stairs to reach the cistern’s dry upper chamber. She uses create water to fill the survivors’ jug and marks an exit so the party can bring them out."
+            },
+            "role": "Cistern keeper and Cleric.",
+            "motive": "Get clean water and an open route to the trapped survivors.",
+            "hook": "Selka can reach the cistern’s upper chamber through the flooded stairs."
+          },
+          {
+            "species": "Aventi",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Stormwrack (2005)",
+            "name": "Kerrin of Shalebank",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+              "size": "Medium",
+              "type": "Humanoid (Human, Aquatic)",
+              "senses": "Normal vision.",
+              "languages": "Common, Aquan",
+              "speed": "30 ft., swim 30 ft.",
+              "id": "aventi-shalebank-sluice-guide-35e",
+              "title": "Aventi sluice guide, Fighter 1",
+              "ac": 14,
+              "hp": 12,
+              "hitDice": "1d10+2",
+              "initiative": 6,
+              "abilityScores": {
+                "STR": 16,
+                "DEX": 14,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Climb +7",
+                "Craft (weaving) +5",
+                "Swim +15"
+              ],
+              "traits": [
+                "Neutral good. Leather armor +2, Dexterity +2, touch 12, flat-footed 12. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0. Improved Initiative adds +4. Weapon Focus (shortspear) is the Fighter bonus feat.",
+                "Amphibious (Ex). Breathes air and water without a time limit.",
+                "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+                "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+                "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points."
+              ],
+              "actions": [
+                "Shortspear +5 melee, 1d6+3 piercing, critical ×2. Thrown shortspear above water +4 for 1d6+3 piercing, range increment 20 ft.",
+                "Use the piercing melee attack underwater. The normal underwater penalties for slashing and bludgeoning weapons do not apply to the shortspear thrust."
+              ],
+              "tactics": "Kerrin swims a rope through the flooded sluice and secures it at the exit. He holds position in the current while the party uses the line. If a foe follows, he fights with the shortspear in melee."
+            },
+            "role": "Sluice guide and Fighter.",
+            "motive": "Get a line to the far gate and bring the crew through.",
+            "hook": "Kerrin knows which passage has a strong current and where the rope can be secured."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Aventi",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Stormwrack (2005)",
+        "name": "Selka of Tideglass",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Medium",
+          "type": "Humanoid (Human, Aquatic)",
+          "senses": "Normal vision.",
+          "languages": "Common, Aquan",
+          "speed": "30 ft., swim 30 ft.",
+          "id": "aventi-tideglass-cistern-keeper-35e",
+          "title": "Aventi cistern keeper, Cleric 1",
+          "ac": 13,
+          "hp": 10,
+          "hitDice": "1d8+2",
+          "initiative": 1,
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 12,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 16,
+            "CHA": 14
+          },
+          "skills": [
+            "Concentration +6",
+            "Heal +7",
+            "Knowledge (religion) +5",
+            "Swim +9"
+          ],
+          "traits": [
+            "Lawful good, cleric of Aventernus. Leather armor +2, Dexterity +1, touch 11, flat-footed 12. BAB +0, grapple +1. Fortitude +4, Reflex +1, Will +5. Combat Casting adds +4 on Concentration checks to cast defensively or while grappled or pinned.",
+            "Amphibious (Ex). Breathes air and water without a time limit.",
+            "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+            "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points.",
+            "Ocean and Good domains. Ocean grants up to 10 rounds per level of water breathing, redundant with Amphibious. Good adds +1 caster level to Good spells. The spells on this card have no Good descriptor."
+          ],
+          "actions": [
+            "Spear +1 melee, 1d8+1 piercing, critical ×3. Turn undead 5/day, check 1d20+2 and turning damage 2d6+3 HD.",
+            "Prepared cantrips are create water, guidance, and light. Create water [Water] is CL 2 and creates up to 4 gallons of drinkable water at up to 30 ft. Guidance and light stay at CL 1.",
+            "Prepared first-level spells are bless and cure light wounds (1d8+1 healing). The Ocean domain slot is endure elements. All three are CL 1."
+          ],
+          "tactics": "Selka swims under the collapsed stairs to reach the cistern’s dry upper chamber. She uses create water to fill the survivors’ jug and marks an exit so the party can bring them out."
+        },
+        "role": "Cistern keeper and Cleric.",
+        "motive": "Get clean water and an open route to the trapped survivors.",
+        "hook": "Selka can reach the cistern’s upper chamber through the flooded stairs."
+      },
+      {
+        "species": "Aventi",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Stormwrack (2005)",
+        "name": "Kerrin of Shalebank",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
+          "size": "Medium",
+          "type": "Humanoid (Human, Aquatic)",
+          "senses": "Normal vision.",
+          "languages": "Common, Aquan",
+          "speed": "30 ft., swim 30 ft.",
+          "id": "aventi-shalebank-sluice-guide-35e",
+          "title": "Aventi sluice guide, Fighter 1",
+          "ac": 14,
+          "hp": 12,
+          "hitDice": "1d10+2",
+          "initiative": 6,
+          "abilityScores": {
+            "STR": 16,
+            "DEX": 14,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Climb +7",
+            "Craft (weaving) +5",
+            "Swim +15"
+          ],
+          "traits": [
+            "Neutral good. Leather armor +2, Dexterity +2, touch 12, flat-footed 12. BAB +1, grapple +4. Fortitude +4, Reflex +2, Will +0. Improved Initiative adds +4. Weapon Focus (shortspear) is the Fighter bonus feat.",
+            "Amphibious (Ex). Breathes air and water without a time limit.",
+            "Swim speed grants +8 racial on Swim checks for special actions or hazards. Take 10 even when distracted or endangered. A swimming run follows a straight line.",
+            "Water Spell Power (Ex) grants +1 effective caster level for spells with the [Water] descriptor. The trait provides no spells or spell slots. A spell’s name or presence in a domain list does not supply the descriptor.",
+            "Human Blood means an Aventi counts as human for race-related effects, including human-only magic items. The Aventi traits do not grant the standard human bonus feat or extra skill points."
+          ],
+          "actions": [
+            "Shortspear +5 melee, 1d6+3 piercing, critical ×2. Thrown shortspear above water +4 for 1d6+3 piercing, range increment 20 ft.",
+            "Use the piercing melee attack underwater. The normal underwater penalties for slashing and bludgeoning weapons do not apply to the shortspear thrust."
+          ],
+          "tactics": "Kerrin swims a rope through the flooded sluice and secures it at the exit. He holds position in the current while the party uses the line. If a foe follows, he fights with the shortspear in melee."
+        },
+        "role": "Sluice guide and Fighter.",
+        "motive": "Get a line to the far gate and bring the crew through.",
+        "hook": "Kerrin knows which passage has a strong current and where the rope can be secured."
+      }
+    ]
+  }
+}

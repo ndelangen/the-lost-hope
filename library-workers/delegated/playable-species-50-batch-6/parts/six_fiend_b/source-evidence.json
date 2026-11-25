@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Keeper",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider",
+    "url": "",
+    "page": "pp. 111–112",
+    "printedPages": [
+      111,
+      112
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The PC example and the stat block agree. Four racial HD plus LA +3 and one class level give ECL 8.",
+      "The April printing lists generic outsider darkvision and also specifically describes the species as blind and reliant on sonar. The NPC uses the more specific sensory description.",
+      "One mimic weapon attacks once despite BAB or class progression. With two weapons, keep the printed secondary attack penalty and off-hand damage."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species, monster characters",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, rogue and equipment",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_System_Reference_Document"
+      }
+    ]
+  },
+  {
+    "name": "Rilmani",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider",
+    "url": "",
+    "page": "pp. 140–143",
+    "printedPages": [
+      140,
+      141,
+      142,
+      143
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The player paragraph begins on p. 140 and ends on p. 141. The Ferrumach, Cuprilach and Aurumach printed Hit Dice and level adjustments agree with the three player ECL offsets.",
+      "Tarsen retains the printed equipment and adds Weapon Focus (battleaxe) from fighter 1 and Improved Initiative at total HD 9.",
+      "The Ferrumach action list uses its CL 9 spell-like abilities and preserves CL 10 for the fear aura."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species, monster characters",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, fighter and equipment",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_System_Reference_Document"
+      },
+      {
+        "name": "3.0 Dungeon Master’s Guide, NPC fighter tables",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "publication": "Fiend Folio (2003)",
+    "edition": "3.0 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Aberration",
+    "url": "",
+    "page": "pp. 193–195",
+    "printedPages": [
+      193,
+      194,
+      195
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 0,
+    "primaryBookSha256": "c5af323e0838d882b85f67afadff54ac07fcef409ce042422b4610c8b728d4f7",
+    "isbn": "0-7869-2780-1",
+    "firstPrinting": "April 2003",
+    "sourceDistinctions": [
+      "The printed Cleric 1 example is expressly ECL 29. The three values are 22 racial HD, one class level and LA +6.",
+      "The class has one level. The racial +16 BAB and racial saves remain. Cleric 1 provides +0 BAB, +2 Fortitude and Will, one d8 and the usual class spell resources.",
+      "The April book’s racial spell list prints baleful polymorph. The build leaves the transitional list intact and uses the listed natural attacks, which are independent of the stat block’s printed weapon iteratives.",
+      "The divine focus is ordinary. The optional p. 195 serpent symbol magic item grants an extra ability this build does not carry."
+    ],
+    "supportingSources": [
+      {
+        "name": "Savage Species, monster characters",
+        "url": ""
+      },
+      {
+        "name": "3.0 SRD, cleric and spells",
+        "url": "https://a.osmarks.net/content/dandwiki_en_all_maxi_2021-03/A/3e_System_Reference_Document"
+      },
+      {
+        "name": "Epic Level Handbook, monsters as epic characters, p. 25",
+        "url": "https://djvu.online/file/SBJQTP6pfNkia"
+      }
+    ]
+  }
+]

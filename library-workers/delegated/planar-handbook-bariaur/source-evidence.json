@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Bariaur",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        7,
+        8
+      ],
+      "racialTraits": 8,
+      "illustration": 7
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "6861d72b5d6b3f98341bdae513692369532ac46d52f88ca3272f0a329180d9af",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "David Martin, A bariaur, p. 7.",
+    "sourceDistinctions": [
+      "The Medium playable profile on p. 8 differs from the Exalted Bariaur in Book of Exalted Deeds. No Bariaur correction appears in the November 2004 errata.",
+      "Powerful Charge grants one ram during a charge for 2d6 plus 1½ times Strength modifier. The profile grants no standalone ram, rider, or extra attack.",
+      "Spell resistance uses class level, and the racial +2 Will bonus is limited to spells and spell-like abilities.",
+      "The 2004 profile coexists with the D&D Beyond Drops playable profile and separate Bariaur Wanderer monster."
+    ],
+    "entryId": "species-cd36ac407a9591da511001b3",
+    "versionKey": "3734479b7aa984f1a6c42609",
+    "slug": "bariaur",
+    "portraitSelection": "generated",
+    "portraitForm": "Mara Sedgehill, an original Bariaur Ranger",
+    "npcExamples": [
+      "Mara Sedgehill",
+      "Kel Stoneford"
+    ]
+  }
+]

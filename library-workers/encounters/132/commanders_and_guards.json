@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Baron Uthrak",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 61",
+    "notes": "Both printings use AC 16, 144 HP and CR 7. Bloodstones, weapon attacks, Kneel, Peasant!, Riposte and all three villain actions match.",
+    "tableNote": "Burnock Mill, p. 59, area U7. While the machinery is running, Uthrak uses his whip to pull intruders into the millstone. At 25 HP or fewer, he uses the whip and crane to escape into the channel 30 ft. below."
+  },
+  {
+    "name": "Bloodlord Varrox",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 74",
+    "notes": "Both printings use AC 18, 119 HP and CR 8. Infernal Sacrifice, Soulsword's healing lockout, Death Skulls' teleport, the recruit summons and the three villain actions match. The sidebar's stronger returning villain is optional.",
+    "tableNote": "Camp Firefield, p. 72, area C8. Varrox fights alongside four hobgoblin troopers, a firerunner, and a war mage. At 20 HP he tries to retreat through the camp. Page 74 gives an optional returning version with 168 HP and Strength 24, or a return as a devil adjudicator or a vampire."
+  },
+  {
+    "name": "Bugbear Channeler",
+    "decision": "share",
+    "pages": "The White Tower, p. 144",
+    "notes": "Both printings use AC 14, 102 HP and CR 7. Inspiration, staff movement, both spell actions, Shared Shield and the utility spells match.",
+    "tableNote": "The White Tower, p. 141, area X5. A channeler, a commander, and two hobgoblin firerunners guard the suspended library. A creature that climbs or flies can use the shelves as cover and sneak past with a DC 17 Dexterity (Stealth) check."
+  },
+  {
+    "name": "Bugbear Commander",
+    "decision": "share",
+    "pages": "The White Tower, p. 144",
+    "notes": "Both printings use AC 18, 97 HP and CR 5. The Inspiration bonuses, Greatsword follow-up, Longbow, Bark Orders and Bolstering Pride match.",
+    "tableNote": "The White Tower, p. 141, area X5. The commander and channeler guard the suspended library with two hobgoblin firerunners."
+  },
+  {
+    "name": "Dohma Raskovar",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 35",
+    "notes": "Both printings use AC 14, 93 HP and CR 5. Adrenaline Rush, Relentless, the weapon attacks, Reinforcements, Dohma Rally, On the House and all three villain actions match.",
+    "tableNote": "Hanging Tree, pp. 33–34, area O8. The red-light signal brings Raskovar after one round. His Reinforcements enter by the staircase from area O7. At 20 HP or fewer with no uses of Dohma Rally left, he offers to bargain for his life."
+  },
+  {
+    "name": "Scyza",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 44",
+    "notes": "Both printings use AC 14, 108 HP and CR 4. Siege Monster, War Harness, Claw, Tail Whip, Head Crest and Claw Twister match.",
+    "tableNote": "Hanging Tree, pp. 33–34, areas O6 and O9. The feed-room trap opens a portal the scyza can reach through with his head. In the vault, characters who have not harmed Horanus or attacked the mercenaries in his presence have one round after he spots them to calm him with a DC 14 Wisdom (Animal Handling) check. Offering meat gives advantage."
+  },
+  {
+    "name": "Time Raider Nemesis",
+    "decision": "share",
+    "pages": "The White Tower, p. 149",
+    "notes": "Both printings use AC 17, 130 HP and CR 8. Precog Reflexes, Psychic Scar, Golden Scythe's astral effect, Kinetic Crush, Phase and Jaunt match.",
+    "tableNote": "The White Tower, p. 140, area X3. If Vor'pat trusts the party or sees it attack Xorannox, xe can join it using the time raider freebooter profile. If the party fails both the trust check and the bluff at the entrance, xe attacks using the nemesis profile."
+  },
+  {
+    "name": "Hobgoblin Death Captain",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 77",
+    "notes": "Both printings use AC 20, 90 HP and CR 6. Battle Ready, Infernal Ichor, attack options, On My Mark, Lead the Charge and Hidden Gift match.",
+    "tableNote": "Camp Firefield, p. 72, area C6. A death captain feasts with three incendiarists and thirty recruits. The recruits are Poisoned from drink, so characters have advantage on Charisma checks to influence them."
+  },
+  {
+    "name": "Hobgoblin Smokebinder",
+    "decision": "share",
+    "pages": "Camp Firefield, p. 79",
+    "notes": "Both printings use AC 17, 44 HP and CR 2. Both attacks, conditional effects, Infernal Ichor, Smoke Form and Sneak match.",
+    "tableNote": "Camp Firefield, p. 72, area C7. The smokebinder hides behind the obsidian arch while three war mages conduct their ritual. Passive Perception 17 spots the guard. If the ritual continues, a slaughter demon appears at the start of round four after the characters arrive."
+  },
+  {
+    "name": "Human Death Cultist",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 63. Ruins of Wrathrock, p. 130.",
+    "notes": "Both Where Evil Lives instances and the Flee, Mortals! block use AC 16, 60 HP and CR 4. Their attack, healing, weapon buff and temporary revival rules match.",
+    "tableNote": "Ruins of Wrathrock, p. 123. A Havoc Host patrol consists of a death cultist and two human knaves. Its lanterns give characters advantage on the DC 15 Wisdom (Perception) check to see the patrol first."
+  }
+]

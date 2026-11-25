@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Kalashtar",
+    "kind": "species",
+    "publication": "Eberron Campaign Setting (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with a 30-ft. base land speed and no racial ability adjustments. The Expanded Psionics Handbook gives the Psionic subtype to creatures with racial psi-like abilities.",
+      "+2 racial on saving throws against mind-affecting spells and abilities and against possession.",
+      "+2 racial on Bluff, Diplomacy, and Intimidate checks. +2 racial on Disguise when impersonating a human.",
+      "Kalashtar sleep. They are immune to dream, nightmare, and other effects that rely on their ability to dream.",
+      "Naturally Psionic adds 1 extra power point per character level to the character’s reserve, even without taking a psionic class.",
+      "Racial Mindlink (Ps) 1/day is separate from the power point reserve. Resolve it as a Wilder of half the Kalashtar’s Hit Dice, rounded down, minimum manifester level 1. It grants no general manifester levels.",
+      "With the Expanded Psionics Handbook, use its Mindlink rules. At manifester level 1, use a standard action to link with one willing creature of Intelligence 3 or higher within 25 ft. for 10 minutes. The willing target gets no saving throw. Power resistance applies as harmless. Treat it as mind-affecting.",
+      "With psionics rules, initial range is 25 ft. + 5 ft. per two manifester levels, and duration is 10 minutes per manifester level. Resolve psi-like augmentation as if power points equal to its effective manifester level were spent, without deducting from the reserve. Mindlink costs 1 point before augmentation. One extra point adds a target within 15 ft. of another target. Four extra points allow attempting a link with an unwilling target, Will negates.",
+      "Without the Expanded Psionics Handbook, use the setting book’s fallback. Link with one willing creature of Intelligence 3 or higher within 30 ft. for 1 round per character level. There is no saving throw or spell resistance. The ability is mind-affecting.",
+      "Once formed, either link carries telepathic communication across any distance on the same plane without requiring a shared language. The bond conveys no influence or control.",
+      "Common and Quor are automatic. Bonus languages are Draconic and Riedran. Favored class Psion. The setting entry lists no racial Hit Dice or level adjustment. Its original setting rules give Kalashtar no dragonmarks."
+    ]
+  }
+]

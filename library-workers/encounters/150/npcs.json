@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Berserker",
+    "statBlock": {
+      "name": "Berserker",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any chaotic alignment",
+      "ac": 13,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A ferocious warrior who leaves an opening to land a decisive blow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Hide armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Reckless. At the start of its turn, the berserker can choose to gain advantage on all melee weapon attack rolls it makes that turn. If it does, attacks against it have advantage until its next turn starts.",
+        "Actions": "Greataxe. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 9 (1d12 + 3) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 344."
+      }
+    }
+  },
+  {
+    "name": "Druid",
+    "statBlock": {
+      "name": "Druid",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 11,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "skills": {
+        "Medicine": 4,
+        "Nature": 3,
+        "Perception": 4
+      },
+      "description": "A keeper of wild places who can speak with animals and harden their skin before a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "AC 16 while Barkskin is active.",
+        "Languages": "Druidic and two other languages.",
+        "Spellcasting": "4th-level druid spellcaster using Wisdom. Spell save DC 12. Spell attacks +4.\nCantrips (at will): Druidcraft, Produce Flame, Shillelagh.\n1st level (4 slots): Entangle, Longstrider, Speak with Animals, Thunderwave.\n2nd level (3 slots): Animal Messenger, Barkskin.\nTreat this NPC as a druid with access to the druid spell list for any class or spell-list requirements on magic item use and attunement.",
+        "Actions": "Quarterstaff. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 3 (1d6) bludgeoning damage in one hand or 4 (1d8) in two hands. With Shillelagh, use +4 to hit and deal 6 (1d8 + 2) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 346. Includes official corrections to Shillelagh damage and the Spellcasting trait."
+      }
+    }
+  },
+  {
+    "name": "Knight",
+    "statBlock": {
+      "name": "Knight",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 18,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2
+      },
+      "description": "A warrior in plate who rallies nearby allies during a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Plate armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Brave. The knight has advantage on saves against becoming Frightened.",
+        "Actions": "Multiattack. Make two melee attacks.\nGreatsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage.\nHeavy Crossbow. Ranged weapon attack, +2 to hit, range 100/400 ft., one target. Hit 5 (1d10) piercing damage.\nLeadership (recharges after a short or long rest). For 1 minute, the knight can call out whenever a nonhostile creature it can see within 30 ft. rolls an attack or saving throw. The creature can add 1d4 if it hears and understands the knight. It can benefit from one Leadership die at a time. Leadership ends if the knight becomes Incapacitated.",
+        "Reactions": "Parry. When a melee attack would hit the knight, it can add 2 to its AC against that attack if it sees the attacker and holds a melee weapon.",
+        "Printed source": "Monster Manual (2014), p. 347."
+      }
+    }
+  },
+  {
+    "name": "Scout",
+    "statBlock": {
+      "name": "Scout",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 13,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "skills": {
+        "Nature": 4,
+        "Perception": 5,
+        "Stealth": 6,
+        "Survival": 5
+      },
+      "description": "A hunter or guide who tracks prey and fights at long range.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Keen Hearing and Sight. The scout rolls Wisdom (Perception) checks with advantage when they rely on hearing or sight.",
+        "Actions": "Multiattack. Make two melee attacks or two ranged attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 349."
+      }
+    }
+  },
+  {
+    "name": "Spy",
+    "statBlock": {
+      "name": "Spy",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 16,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Investigation": 5,
+        "Perception": 6,
+        "Persuasion": 5,
+        "Sleight of Hand": 4,
+        "Stealth": 4
+      },
+      "description": "An informant trained to gather secrets and escape if discovered.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Any two languages.",
+        "Traits": "Sneak Attack (once per turn). A weapon hit deals an extra 7 (2d6) damage if the spy had advantage on the roll. The spy can also deal that damage with a hit if it had no disadvantage and an ally within 5 ft. of the target is not Incapacitated.",
+        "Actions": "Multiattack. Make two melee attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage.",
+        "Bonus actions": "Cunning Action. On each of its turns, the spy can Dash, Disengage, or Hide as a bonus action.",
+        "Printed source": "Monster Manual (2014), p. 349."
+      }
+    }
+  },
+  {
+    "name": "Thug",
+    "statBlock": {
+      "name": "Thug",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any non-good alignment",
+      "ac": 11,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "skills": {
+        "Intimidation": 2
+      },
+      "description": "A hired enforcer who fights best alongside an accomplice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "Any one language, usually Common.",
+        "Traits": "Pack Tactics. The thug has advantage on attacks against a creature if an ally within 5 ft. of that target is not Incapacitated.",
+        "Actions": "Multiattack. Make two melee attacks.\nMace. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 5 (1d6 + 2) bludgeoning damage.\nHeavy Crossbow. Ranged weapon attack, +2 to hit, range 100/400 ft., one target. Hit 5 (1d10) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 350."
+      }
+    }
+  },
+  {
+    "name": "Lizard King/Queen",
+    "statBlock": {
+      "name": "Lizard King/Queen",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (lizardfolk), chaotic evil",
+      "ac": 15,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 4
+      },
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2
+      },
+      "description": "Lizardfolk kings and queens share this stat block. Their link to the demon lord Sess'inek drives them to seize power from their tribe's shamans.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Condition immunities": "Frightened.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal and Draconic.",
+        "Traits": "Hold Breath. The lizardfolk can hold its breath for 15 minutes.\nSkewer (once per turn). A melee trident hit deals an extra 10 (3d6) damage and grants the lizardfolk temporary HP equal to the extra damage dealt.",
+        "Actions": "Multiattack. Make one Bite attack and one attack with Claws or Trident, or make two melee Trident attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 5 (1d4 + 3) slashing damage.\nTrident. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 6 (1d6 + 3) piercing damage. A two-handed melee hit deals 7 (1d8 + 3) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 204–205. The king and queen use one printed stat block on p. 205."
+      }
+    }
+  },
+  {
+    "name": "Githzerai Monk",
+    "statBlock": {
+      "name": "Githzerai Monk",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (gith), lawful neutral",
+      "ac": 14,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "skills": {
+        "Insight": 4,
+        "Perception": 4
+      },
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 4,
+        "Int": 3,
+        "Wis": 4
+      },
+      "description": "A githzerai trained to defend themself with psionics and strike at close range.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "Gith.",
+        "Traits": "Psychic Defense. The monk adds its Wisdom modifier to AC while unarmored and without a shield. Its listed AC includes this bonus.",
+        "Innate spellcasting (psionics)": "The monk casts these spells using Wisdom and needs no components.\nAt will: Mage Hand (the hand is invisible).\n3/day each: Feather Fall, Jump, See Invisibility, Shield.",
+        "Actions": "Multiattack. Make two Unarmed Strike attacks.\nUnarmed Strike. Magical melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 6 (1d8 + 2) bludgeoning damage plus 9 (2d8) psychic damage.",
+        "Printed source": "Monster Manual (2014), p. 161."
+      }
+    }
+  }
+]

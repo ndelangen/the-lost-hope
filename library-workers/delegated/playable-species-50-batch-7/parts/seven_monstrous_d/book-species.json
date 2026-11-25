@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Chuul",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races player conversion for DMs Guild, using the 2014 fifth-edition rules. Rules checked against the v2 text.",
+      "Medium aberration with +1 Strength and +1 Constitution. Walk and swim 30 ft. Amphibious. Darkvision reaches 60 ft. While unarmored, AC is 14 + Dexterity modifier.",
+      "Its pincer is an unarmed strike for 1d8 bludgeoning. After a successful unarmed strike made as part of the Attack action, the Chuul can try to grapple the same target as a bonus action. The pincer makes this grapple possible despite No Hands.",
+      "Immune to poison damage and the poisoned condition. Understands, reads and writes Deep Speech. It cannot speak or provide verbal spell components.",
+      "No Hands prevents using handheld weapons, shields and objects that require manipulation, including spellcasting foci. The player trait list gives no paralyzing tentacles."
+    ]
+  },
+  {
+    "name": "Cloaker",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races player conversion for DMs Guild, using the 2014 fifth-edition rules. Rules checked against the v2 text.",
+      "Medium aberration with +1 Dexterity, walking speed 10 ft., and flying speed 30 ft. Darkvision reaches 60 ft. Natural AC is 13 + Dexterity modifier.",
+      "Cloak Body gives it no arms or hands. It cannot wear armor, use shields, or manipulate objects. It speaks, reads and writes Deep Speech and Undercommon.",
+      "Bite is an unarmed strike for 1d8 slashing. After a successful unarmed strike made as part of the Attack action, the Cloaker may make a bonus-action grapple attempt against the same target. While it grapples a creature, the victim takes half of the damage dealt to the Cloaker, and the Cloaker takes the other half.",
+      "Once it spends a minute motionless and concentrating as on a spell, False Appearance lets it pass for a dark leather cloak while still. The printed player trait list controls the build."
+    ]
+  },
+  {
+    "name": "Cockatrice",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races player conversion for DMs Guild, using the 2014 fifth-edition rules. Rules checked against the v2 text.",
+      "Small monstrosity with +2 Dexterity, walking speed 20 ft., and flying speed 40 ft. Flight requires no medium or heavy armor. Darkvision reaches 60 ft. Common is available in speech and writing.",
+      "Its bite is an unarmed strike for 1d4 slashing. It may use Dexterity for attack and damage and counts as finesse for effects such as Sneak Attack. No Hands prevents wielding weapons, using a shield or manipulating gear.",
+      "After its unarmed strike hits, it may use a bonus action for Petrifying Bite. A flesh-bodied target capable of being paralyzed makes a Constitution save with DC 8 + Constitution modifier + proficiency bonus. Failure gives one effective level of exhaustion. Each further failed save at the end of its turn adds a level, and the sixth failure petrifies it until greater restoration or similar magic.",
+      "On a successful save, one effective level comes off immediately and one more per round until the effect clears. Actual exhaustion does not stack with these levels, and exhaustion immunity does not prevent the bite. Concentration lasts up to 1 minute. Ending concentration clears the temporary levels, while completed petrification persists. Recharge on a short or long rest."
+    ]
+  },
+  {
+    "name": "Couatl",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Tyler Kamstra’s Monstrous Races player conversion for DMs Guild, using the 2014 fifth-edition rules. Rules checked against the v2 text.",
+      "Medium celestial with +1 Wisdom, walking and flying speeds 30 ft., and resistance to radiant damage. Darkvision reaches 60 ft. Natural AC is 13 + Dexterity modifier.",
+      "A limbless body prevents armor, shields and item manipulation. The bite is an unarmed strike for 1d6 slashing. After a successful unarmed strike made as part of the Attack action, it may try to grapple the same creature as a bonus action.",
+      "Can read, write and speak Common and Celestial. It can communicate telepathically with a creature that knows a language within 30 ft.",
+      "Divine Mandate counts as a focus for cleric and paladin spells and abilities. Choose a relevant cleric domain at 1st level and use that domain if taking cleric levels. The divine source may be the ancient being responsible for couatls."
+    ]
+  }
+]

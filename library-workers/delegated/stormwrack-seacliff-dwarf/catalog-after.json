@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Seacliff Dwarf",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "baseDwarfDigest": "38bc95aa5d3a7b67dd4d6ab6962df3909a2a40ea952695ee7eeab1da9efa9b4c",
+    "global": true,
+    "version": {
+      "key": "100b7e81253a823ebb124200",
+      "publication": "Stormwrack (2005)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Dwarf)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid (Dwarf). +2 Constitution, −2 Charisma. Land speed 20 ft. retains its value in medium or heavy armor and with medium or heavy loads. Darkvision 60 ft. LA +0.",
+            "Strong Swimmers gives +2 racial on Swim checks and doubles the Constitution score used to calculate breath-holding time. Seacliff dwarves use normal Swim checks and breathe air.",
+            "Use the doubled score with the table’s drowning procedure. Stormwrack p. 44 cites DMG p. 304, which starts at 2 rounds per point of Constitution (4 × actual Constitution for this variant). Stormwrack p. 11 and the printed Player’s Handbook Swim rule start at 1 round per point (2 × actual Constitution for this variant).",
+            "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground. +2 racial on saves against poison and +2 racial on saves against spells and spell-like effects.",
+            "Stonecunning gives +2 Search for unusual stonework, a check within 10 ft., access to stonework trap searches, and a sense of depth underground.",
+            "Weapon Familiarity treats the dwarven waraxe and dwarven urgrosh as martial. The dwarf keeps +4 dodge AC against giants but loses the usual +1 racial attack bonus against orcs and goblinoids.",
+            "+2 Appraise and Craft for work related to stone or metal. Common and Dwarven are automatic. Bonus languages are Giant, Gnome, Goblin, Orc, Terran, and Undercommon. Favored class Fighter."
+          ]
+        },
+        {
+          "title": "Original NPC · Brott Saltbrace",
+          "lines": [
+            "Harbor guard and Fighter.",
+            "Motive. Free the harbor gate while the lower line is submerged.",
+            "Hook. Brott can reach the jammed line through the flooded passage.",
+            "Seacliff Dwarf harbor guard, Fighter 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Dwarf)",
+            "AC 13 · HP 13 (1d10+3) · Speed 20 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Vessa Mere",
+          "lines": [
+            "Stone-passage scout and Rogue.",
+            "Motive. Find the dry exit before the water reaches the next landing.",
+            "Hook. Vessa spotted a recent seam in the wall beside the passage door.",
+            "Seacliff Dwarf stone-passage scout, Rogue 1 · Provisional CR 1. ECL 1 (1 class HD, LA +0). · Medium Humanoid (Dwarf)",
+            "AC 15 · HP 8 (1d6+2) · Speed 20 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Brott Saltbrace": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Brott Saltbrace",
+              "group": "Seacliff Dwarf",
+              "publication": "Seacliff Dwarf harbor guard, Fighter 1",
+              "local": {
+                "entry": "npc-f0d4f9673fe3f79d758c578c",
+                "version": "875bb78d685e183394be5284"
+              }
+            }
+          }
+        ],
+        "Original NPC · Vessa Mere": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Vessa Mere",
+              "group": "Seacliff Dwarf",
+              "publication": "Seacliff Dwarf stone-passage scout, Rogue 1",
+              "local": {
+                "entry": "npc-1ca0e071943f1f7104b8c909",
+                "version": "098b0c2e351f23e2ddfef551"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Seacliff Dwarf": true,
+      "seacliff dwarf strong swimmers": true,
+      "seacliff dwarf stonecunning": true,
+      "seacliff dwarf harbor guard": true,
+      "seacliff dwarf stone-passage scout": true
+    },
+    "hash": "1054bf5fc79c610a7b3bfe272d6a3bb615be4442774bbc11bff38935ab9b2a07",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Stormwrack (2005)",
+    "defaultVersionKey": "100b7e81253a823ebb124200",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

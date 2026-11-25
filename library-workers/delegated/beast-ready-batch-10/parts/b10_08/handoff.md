@@ -1,0 +1,8 @@
+# Batch 10, part 08
+
+Verified the five stat blocks against the revised Monster Manual print and the publisher's D&D Beyond pages. The book was released in 2025 and uses the 2024 rules. The official errata lists no changes for these five. [Publisher errata](https://www.dndbeyond.com/sources/dnd/sae/monster-manual)
+
+- Tyrannosaurus Rex, Venomous Snake, and Vulture are on printed p. 372. The tyrannosaurus makes one Bite and one Tail. Multiattack specifies no order. Tail cannot target a creature still grappled by Bite. On a hit, Tail knocks a Huge or smaller creature prone. [Printed p. 372](https://online.anyflip.com/acscv/ypya/files/large/03309d0261b31545e0f0fc188bf99445.webp) · [Tyrannosaurus Rex](https://www.dndbeyond.com/monsters/5195243-tyrannosaurus-rex)
+- Warhorse and Weasel share printed p. 373. D&D Beyond gives Weasel a p. 372 byline. Its rules match the p. 373 print. Warhorse's extra Hooves damage and prone rider require 20 feet of straight movement toward a Large or smaller creature immediately before the hit. [Printed p. 373](https://online.anyflip.com/acscv/ypya/files/large/ba0d264c78c8db4d0337e9d3e89a24a4.webp) · [Weasel](https://www.dndbeyond.com/monsters/4775849-weasel) · [Warhorse](https://www.dndbeyond.com/monsters/4775848-warhorse)
+
+All five reused portraits match their roster hashes and remain recognizable in circular crops. Venomous Snake uses the existing Poisonous Snake portrait. Warhorse shares Riding Horse's portrait and has its own stat block. The tyrannosaurus parchment is warmer than the other four, and the snout and tail sit close to the circular crop edge.

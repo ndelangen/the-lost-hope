@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "green-giant-octopus",
+    "file": "portraits/green-giant-octopus.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "42ca7fdcd1f3cd93c50825f09d6c7b278f5c9abed232c2dc73be13a21272e3aa",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "barded-mastiff",
+    "file": "portraits/barded-mastiff.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "0f57b73c2f6ff540a45d16d74c503e8e4625fac755248b8dd449d4dc500a951f",
+    "credit": "OpenAI ImageGen"
+  }
+]

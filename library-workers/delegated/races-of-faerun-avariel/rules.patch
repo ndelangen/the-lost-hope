@@ -1,0 +1,164 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315845,6 +315845,24 @@
+       ]
+     },
+     {
++      "name": "Avariel",
++      "kind": "species",
++      "publication": "Races of Faerûn (2003)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Winged elf. Medium Humanoid (Elf). +4 Dexterity, −2 Constitution, +2 Intelligence, +2 Wisdom. Land speed 30 ft.",
++        "Immune to magical sleep. +2 racial bonus on saves against enchantment spells and effects. Low-light vision. +2 racial Listen and Search. Passing within 5 ft. of a secret or concealed door grants a Search check as if actively looking.",
++        "Keen Sight grants +4 racial Spot in place of the standard Elf +2. Avariels also get +4 racial Jump.",
++        "Choose proficiency with rapier or longsword. Also proficient with lasso and bolas. These replace standard Elf weapon proficiencies, including bows.",
++        "Fly 50 ft. (average) when carrying a Medium load or less, wearing no heavy armor, and neither fatigued nor exhausted. The wings must have room to extend fully. A Run in flight must follow a straight line.",
++        "An Avariel dive works as a charge. Descend at least 30 ft. and use a piercing weapon. A hit deals double damage.",
++        "Average maneuverability requires at least 25 ft. of forward movement each round to stay aloft and provides no hover. Upward flight is at half speed, with a maximum ascent angle of 60 degrees.",
++        "Common, Elven, and the home region language are automatic. The Avariel region grants Auran and offers Damaran, Draconic, Giant, Rashemi, Sylvan, and Tuigan as bonus languages.",
++        "Favored class Cleric. No racial Hit Dice. LA +3 gives ECL 4 at one class level.",
++        "This 3.5 profile applies the book’s Avariel traits over the 3.5 core Elf and aerial movement rules. The book’s species-specific dive keeps its 30-ft. descent and piercing weapon."
++      ]
++    },
++    {
+       "edition": "Black Flag Roleplaying",
+       "publication": "Black Flag Roleplaying Reference Document v0.2",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5752,6 +5752,92 @@
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
+       "size": "Medium",
++      "type": "Humanoid (Elf)",
++      "senses": "Low-light vision.",
++      "speed": "Land 30 ft., fly 50 ft. (average)",
++      "id": "avariel-frostpinion-ridge-sentry-35e",
++      "title": "Avariel ridge sentry, Fighter 1",
++      "difficulty": "Provisional CR 1. ECL 4 (1 class HD, LA +3).",
++      "ac": 17,
++      "hp": 11,
++      "hitDice": "1d10+1",
++      "initiative": 4,
++      "languages": "Common, Elven, Auran, Draconic, Giant",
++      "abilityScores": {
++        "STR": 14,
++        "DEX": 18,
++        "CON": 12,
++        "INT": 14,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +5", "Jump +9", "Listen +3", "Ride +8", "Search +4", "Spot +7"],
++      "traits": [
++        "Neutral good. Studded leather +3, Dexterity +4. Touch 14, flat-footed 13, armor check penalty −1. BAB +1, grapple +3. Fortitude +3, Reflex +4, Will +1.",
++        "Immune to magical sleep. +2 racial bonus on saves against enchantment spells and effects. Low-light vision. +2 racial Listen and Search. Passing within 5 ft. of a secret or concealed door grants a Search check as if actively looking.",
++        "Fly 50 ft. (average) when carrying a Medium load or less, wearing no heavy armor, and neither fatigued nor exhausted. The wings must have room to extend fully. A Run in flight must follow a straight line.",
++        "Average maneuverability requires at least 25 ft. of forward movement each round to stay aloft and provides no hover. Upward flight is at half speed, with a maximum ascent angle of 60 degrees.",
++        "Weapon Finesse applies Dexterity to the rapier attack roll. Flyby Attack lets Sael take one standard action during a flying move."
++      ],
++      "actions": [
++        "Rapier +5 melee, 1d6+2 piercing, critical 18–20/×2.",
++        "On a clear dive-charge line that descends at least 30 ft., rapier +7 melee, 2d6+4 piercing on a hit or 3d6+6 on a confirmed critical. AC 15 until Sael’s next turn.",
++        "Flyby Attack. Split one flying move around a standard rapier attack at +5. Use the ordinary attack damage."
++      ],
++      "tactics": "Sael patrols the exposed ridge. He makes a flyby pass when he has room to keep moving. He saves the dive for an open line with enough height."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Humanoid (Elf)",
++      "senses": "Low-light vision.",
++      "speed": "Land 30 ft., fly 50 ft. (average)",
++      "id": "avariel-windward-pass-medic-35e",
++      "title": "Avariel pass medic, Cleric 2",
++      "difficulty": "Provisional CR 2. ECL 5 (2 class HD, LA +3).",
++      "ac": 18,
++      "hp": 14,
++      "hitDice": "2d8+2",
++      "initiative": 3,
++      "languages": "Common, Elven, Auran, Sylvan",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 16,
++        "CON": 12,
++        "INT": 12,
++        "WIS": 16,
++        "CHA": 12
++      },
++      "skills": [
++        "Concentration +6",
++        "Heal +8",
++        "Jump +2",
++        "Knowledge (religion) +6",
++        "Listen +5",
++        "Search +3",
++        "Spot +7"
++      ],
++      "traits": [
++        "Chaotic good. Chain shirt +4, light wooden shield +1, Dexterity +3. Touch 13, flat-footed 15, armor check penalty −3. BAB +1, grapple +2. Fortitude +4, Reflex +3, Will +6.",
++        "Immune to magical sleep. +2 racial bonus on saves against enchantment spells and effects. Low-light vision. +2 racial Listen and Search. Passing within 5 ft. of a secret or concealed door grants a Search check as if actively looking.",
++        "Fly 50 ft. (average) when carrying a Medium load or less, wearing no heavy armor, and neither fatigued nor exhausted. The wings must have room to extend fully. A Run in flight must follow a straight line.",
++        "Average maneuverability requires at least 25 ft. of forward movement each round to stay aloft and provides no hover. Upward flight is at half speed, with a maximum ascent angle of 60 degrees.",
++        "Cleric of Shaundakul. Travel grants freedom of movement against magical impediments for up to 2 rounds/day. Air grants 4 shared uses/day to turn or destroy earth creatures or rebuke or command air creatures.",
++        "Combat Casting gives +4 to Concentration when casting defensively or while grappled or pinned."
++      ],
++      "actions": [
++        "Light mace +2 melee, 1d6+1 bludgeoning, critical ×2.",
++        "Cleric caster level 2. Prepared orisons, 4 slots, DC 13. Detect magic, guidance, light, and cure minor wounds (heals 1 HP).",
++        "Prepared 1st level, 3 slots plus 1 domain slot, DC 14 when relevant. Bless (+1 morale on attacks and saves against fear for 2 minutes), cure light wounds (1d8+2 healing), shield of faith (+2 deflection AC for 2 minutes), and domain longstrider (+10 ft. to own land speed for 2 hours). Can swap prepared non-domain spells for cure spells.",
++        "Turn undead 4/day, Charisma check 1d20+1, turning damage 2d6+3. Air domain uses its own pool and the same check and damage."
++      ],
++      "tactics": "Iri starts with bless when there is time. She flies to a clear landing near the injured and treats them on the ground."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
+       "type": "Aberration",
+       "senses": "Darkvision 60 ft. and telepathy 100 ft.",
+       "speed": "30 ft.",
+@@ -7219,6 +7305,28 @@
+       "hook": "Rellan is holding the manifest until a neutral party can compare it with the shipowner's advances book."
+     },
+     {
++      "species": "Avariel",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Sael Frostpinion",
++      "build": "avariel-frostpinion-ridge-sentry-35e",
++      "role": "Ridge sentry and Fighter.",
++      "motive": "Warn the lower outpost before a rockslide cuts off the pass.",
++      "hook": "Sael asks the party to watch the narrow trail while he checks the ridge from above."
++    },
++    {
++      "species": "Avariel",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Faerûn (2003)",
++      "name": "Iri Windward",
++      "build": "avariel-windward-pass-medic-35e",
++      "role": "Pass medic and Cleric of Shaundakul.",
++      "motive": "Reach stranded porters before nightfall.",
++      "hook": "Iri can see a place to land beside the porters if someone opens the shuttered terrace."
++    },
++    {
+       "species": "Stonechild",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -716,6 +716,7 @@
+ Autumn Eladrin	monster	Fey	Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/96541-autumn-eladrin	10
+ Avacyn	monster	Celestial	Plane Shift: Innistrad	2014 fifth edition	Wizards of the Coast		21
+ Avarice	monster	Humanoid	Icewind Dale: Rime of the Frostmaiden	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/1123065-avarice	7
++Avariel	species	Humanoid (Elf)	Races of Faerûn (2003)	3.5 edition	Wizards of the Coast	https://books.google.com/books?id=yjoCAAAACAAJ	
+ Avatar of Baalzebul	monster	Fiend	Chains of Asmodeus	2014 fifth edition	Wizards of the Coast		18
+ Avatar of Death	monster	Undead	SRD 5.1	2014 fifth edition	Wizards of the Coast		
+ Avatar of Death	monster	Undead	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		None

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Mandrake",
+    "publication": "Valda’s Spire of Secrets",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/zmngq/pcdc/basic/",
+    "printedPages": [
+      10,
+      11
+    ],
+    "heading": "Mandrake Traits, Entangling Vines and Creating Your Character",
+    "digitalRevision": "1.4, 30 December 2022",
+    "supportingSources": {
+      "publisherListing": "",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "Autumn is a 3rd-level vine effect in v1.4. Alder treats the second creature as otherwise eligible under the printed targeting rules. Shillelagh targets a limb and its other material ingredients stay in use. Armor is purchased gear."
+  },
+  {
+    "name": "Geppettin",
+    "publication": "Valda’s Spire of Secrets",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/zmngq/pcdc/basic/",
+    "printedPages": [
+      8,
+      9
+    ],
+    "heading": "Bisque Traits, Marionette Traits and Plushie Traits",
+    "digitalRevision": "1.4, 30 December 2022",
+    "supportingSources": {
+      "publisherListing": "",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "The v1.4 Marionette chooses Small or Medium and has 30-ft. walking speed. Use the non-Two-Handed restriction and the on-turn attack timing for Clipped Strings. Brass Pin uses Small and a shield. Chapter 1 p. 11 gives general language choices."
+  },
+  {
+    "name": "Spirithost",
+    "publication": "Valda’s Spire of Secrets",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Mage Hand Press",
+    "creatureType": "Humanoid",
+    "url": "https://anyflip.com/zmngq/pcdc/basic/",
+    "printedPages": [
+      13
+    ],
+    "heading": "Spirithost Traits",
+    "digitalRevision": "1.4, 30 December 2022",
+    "supportingSources": {
+      "publisherListing": "",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    },
+    "sourceDistinctions": "v1.4 gives 120-ft. Ethereal Vision on the Material Plane, baseline Spirit Speech with proficiency-bonus questions, and the listed exceptions and movement thresholds. Chapter 1 p. 11 gives general language choices. Mira knows no spell slots."
+  }
+]

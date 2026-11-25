@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Armand",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Small monstrous humanoid with Dexterity +6 and Constitution +6. Size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, and three-quarters of Medium carrying capacity.",
+      "Land speed 20 ft., burrow 10 ft., and darkvision 60 ft. Two claw attacks deal 1d4 each. Natural armor +4.",
+      "Defensive Stance is a move action. Until the armand moves, it adds +2 to attacks, +2 resistance to saves, and +4 dodge to AC. It adds +4 to checks resisting bull rush or trip while grounded or burrowing.",
+      "Starts with 5d8 monstrous humanoid HD, BAB +5, base saves Fort +1, Ref +4, Will +4, and two feats. Racial skill points are 8 × (2 + Int modifier, minimum 1). Racial class skills are Jump, Listen, Spot, and Survival. Survival also gains a +4 racial bonus.",
+      "Starts with Common and Armandish. Bonus languages are Elven, Giant, Gnome, Goblin, and Sylvan. Favored class Monk, level adjustment +3."
+    ]
+  },
+  {
+    "name": "Harssaf",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium monstrous humanoid with the fire subtype. Strength +4, Dexterity +6, Constitution +6, and Charisma +2. Land speed 30 ft., burrow 10 ft., blindsense 30 ft.",
+      "Starts with 6d8 monstrous humanoid HD, BAB +6, base saves Fort +2, Ref +5, Will +5, and three feats. Alertness and Lightning Reflexes are bonus feats. Racial skill points are 9 × (2 + Int modifier, minimum 1). Class skills are Climb, Hide, Jump, Knowledge (nature), Listen, Move Silently, and Spot.",
+      "Natural armor +3, DR 5/bludgeoning, fast healing 3, fire and blindness immunity, cold vulnerability, and spell resistance 17 plus class levels.",
+      "It can activate its heat aura as a free action at will. The aura deals 1d6 fire per round to creatures within 5 ft. and adds 1d6 fire to melee hits made with metallic weapons. Wooden weapons deteriorate after exposure.",
+      "Sand Pulse is a standard action once per day, a 30-ft. radius spread centered on the harssaf. Creatures take 3d6 damage and become blind for 5 rounds. A successful Constitution-based Reflex save halves the damage and prevents blindness. Eyeless targets and other creatures that do not rely on eyes take damage only. Harssafs are immune to one another’s pulses.",
+      "Sand Form is an at-will standard action. It follows gaseous form with earthbound movement and can slip through narrow gaps as described on p. 82.",
+      "Starts with Common and Ignan. Bonus languages are Draconic, Dwarven, Elven, Giant, Halfling, Orc, and Terran. Favored class Monk, level adjustment +4."
+    ]
+  },
+  {
+    "name": "Ibixian",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Goatfolk also call themselves ibixians. Medium monstrous humanoid. Strength +4 and Constitution +2. Intelligence and Wisdom each −2. Land speed 30 ft., darkvision 60 ft.",
+      "Starts with 3d8 monstrous humanoid HD, BAB +3, base saves Fort +1, Ref +3, Will +3, and two feats. Racial skill points are 6 × (2 + Int modifier, minimum 1). Racial class skills are Intimidate, Listen, Spot, and Survival. Intimidate gets +4 racial.",
+      "Natural armor +2. Proficiency with greataxe and all simple weapons. Natural head butt deals 1d6.",
+      "Pack Fervor gives +2 morale on attacks and damage and +4 morale on saves against fear if another ibixian is within 30 ft.",
+      "Starts with Ibixian and Common. Bonus languages are Elven, Giant, Gnome, Goblin, and Sylvan. Favored class Barbarian, level adjustment +1."
+    ]
+  },
+  {
+    "name": "Quaraphon",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Large aberration. Strength +10, Constitution +12, Wisdom +4 and Intelligence −4. Size applies −1 to AC and attacks, −4 to Hide, +4 to grapple, and double Medium carrying capacity. Space 10 ft. with 5-ft. reach. Land speed 40 ft. and darkvision 60 ft.",
+      "Starts with 9d8 aberration racial HD, BAB +6, base saves Fort +3, Ref +3, Will +6, and four feats. Racial skill points are 12 × (2 + Int modifier, minimum 1). Racial class skills are Intimidate, Listen, Spot, and Survival.",
+      "Natural armor +7. Natural bite and two hoof attacks deal 1d6 each after the official errata.",
+      "Deafening Bellow is a supernatural ability usable once per day. Creatures within 60 ft. take 2d6 sonic damage and must make a Constitution-based Fortitude save to avoid deafness for 1d6 rounds.",
+      "Starts with Giant. Favored class Barbarian, level adjustment +5."
+    ]
+  },
+  {
+    "name": "Witchknife",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Witchknives call themselves athames. Medium monstrous humanoid. Dexterity +6, Intelligence +2, Wisdom +4, Charisma +6, Constitution −2. Speed 30 ft., low-light vision, natural armor +1, fire resistance 5, and sonic vulnerability.",
+      "Starts with 9d8 monstrous humanoid HD, BAB +9, base saves Fort +3, Ref +6, Will +6, and four feats. Racial skill points are 12 × (2 + Int modifier, minimum 1). Racial class skills are Concentration, Hide, Sense Motive, Speak Language, and Spot.",
+      "Racial sneak attack +2d6 when the target is denied its Dexterity bonus or flanked. Ordinary sneak attack restrictions apply.",
+      "Spell-like psionics at caster level 9. Command, message, and self-only silence at will, greater command once a day. Silence can be dismissed as a free action. The command effects require a language the target understands and use Charisma for their saving throw DCs.",
+      "The July 2006 errata specifies proficiency with simple weapons, light armor, and shields except tower shields. Starts with Common and Undercommon and can select any nonsecret bonus language. Favored class Rogue, level adjustment +3."
+    ]
+  },
+  {
+    "name": "Jaebrin",
+    "publication": "Monster Manual V (3.5, 2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "traits": [
+      "Medium fey. Strength −2, Charisma +2, land speed 30 ft., low-light vision, and +1 luck AC. A jaebrin gains HD from class levels.",
+      "Immune to enchantments. Feign Enchantment identifies the intended effect of a received enchantment and displays its aura until the duration ends or the jaebrin ends the pretense. Ordinary aura-reading magic sees the apparent effect. A suspicious observer can contest the jaebrin’s Bluff with Sense Motive.",
+      "Natural bite 1d3. A creature damaged by the bite makes a Constitution-based Will save with half the jaebrin’s class level added to the DC. Failure imposes −4 on Will saves for 1 minute. Repeated bites do not stack the penalty.",
+      "Add +1 racial to the save DC of enchantment spells the jaebrin casts. Appraise, Bluff, Perform, and Diplomacy gain +2 racial. Spellcraft counts as trained even with zero ranks, is a class skill, and gains +4 racial on enchantment checks.",
+      "Starts with Common and Sylvan. Bonus languages are Draconic, Elven, Goblin, Gnome, and Halfling. Favored class Beguiler, level adjustment +1."
+    ]
+  }
+]

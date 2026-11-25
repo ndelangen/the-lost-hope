@@ -1,0 +1,62 @@
+{
+  "Maelephant": {
+    "sha256": "e097f0fd4dcbadcc66efc6af5785c1dcec203c83d355b18b2277325bc633c344",
+    "path": "assets/images/content/dm-library/encounters-09/maelephant.png"
+  },
+  "Mercykiller Bloodhound": {
+    "sha256": "59d95934d2ec9a4464c83af5fc8e17b06b17ed0dcec22b774dd22b7baa06bf85",
+    "path": "assets/images/content/dm-library/encounters-09/mercykiller-bloodhound.png"
+  },
+  "Musteval Guardinal": {
+    "sha256": "b309e5d52d236cc2352789392ad5c187d9e556b34852917e616a4be42e830f06",
+    "path": "assets/images/content/dm-library/encounters-09/musteval-guardinal.png"
+  },
+  "Nonaton Modron": {
+    "sha256": "3d6d2728cee5a90e20c82fa3037acec0674a5a2dba23df2097eda77325a7b471",
+    "path": "assets/images/content/dm-library/encounters-09/nonaton-modron.png"
+  },
+  "Octon Modron": {
+    "sha256": "27288bd182b1be7d5ac385ef65e5848d6e9decad92c376682ed5c36542fd2fdf",
+    "path": "assets/images/content/dm-library/encounters-09/octon-modron.png"
+  },
+  "Septon Modron": {
+    "sha256": "e48bbe9e72f80ad9a34575e0eff4c138040bcc78ed5fa9b7b1f11080b0c307f2",
+    "path": "assets/images/content/dm-library/encounters-09/septon-modron.png"
+  },
+  "Shator Demodand": {
+    "sha256": "4812e70f0e98101ab3399c3ddf5a0fccd06da8bd9dabed63871a80abed18eef6",
+    "path": "assets/images/content/dm-library/encounters-09/shator-demodand.png"
+  },
+  "Shemeshka": {
+    "sha256": "819996a2639102d9afe27f4e525b4ca8705254cdeb064c113e9e0c6b24099f77",
+    "path": "assets/images/content/dm-library/encounters-09/shemeshka.png"
+  },
+  "Society of Sensation Muse": {
+    "sha256": "6e8861042ee4666c258a8bb60c79fe3501d3aa7ac5ba8a1911485e7d945cafba",
+    "path": "assets/images/content/dm-library/encounters-09/society-of-sensation-muse.png"
+  },
+  "Time Dragon Wyrmling": {
+    "sha256": "536abec3d5b60ed7a70f6f5e4c7d09856e790831531762eb9aac23549579cd3d",
+    "path": "assets/images/content/dm-library/encounters-09/time-dragon-wyrmling.png"
+  },
+  "Transcendent Order Conduit": {
+    "sha256": "bdfd0e61eabe91587b93df82b1620dc8bdb764907dca495834664e8621a53d8b",
+    "path": "assets/images/content/dm-library/encounters-09/transcendent-order-conduit.png"
+  },
+  "Transcendent Order Instinct": {
+    "sha256": "2907f7b93f10b2e6e9c6c5f1bb9a986eda44acd702d1769c5935c6cf9cb4d46b",
+    "path": "assets/images/content/dm-library/encounters-09/transcendent-order-instinct.png"
+  },
+  "Vargouille Reflection": {
+    "sha256": "18e51cffc7a605bac907eb389aa27efbd6a0fcee35f9fb75e43b7e66e9583484",
+    "path": "assets/images/content/dm-library/encounters-09/vargouille-reflection.png"
+  },
+  "Warden Archon": {
+    "sha256": "01fa233f96c107045146a5e430c00c873bfccee9edb154f631556e649b281929",
+    "path": "assets/images/content/dm-library/encounters-09/warden-archon.png"
+  },
+  "Young Time Dragon": {
+    "sha256": "f89e8011f00130ffcabdec6e8e158406e80449c9ba26d33e68a70898cd867811",
+    "path": "assets/images/content/dm-library/encounters-09/young-time-dragon.png"
+  }
+}

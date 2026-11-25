@@ -1,0 +1,26 @@
+[
+  {
+    "entry": "monster-96372ade67860d2b084e07f6",
+    "version": "9b9fe53d5ce3c72baee6e9c1",
+    "name": "Azmyth",
+    "file": "images/adnd2e-monstrous-manual-magical-bats/azmyth.png",
+    "sha256": "c9b7dbbb424205970bbc9fc82328ecc775ffde0116e83d275758710d35ead5cf",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c566478ed13b3c7d626a5b09",
+    "version": "933982f41c461da9436dc846",
+    "name": "Night Hunter",
+    "file": "images/adnd2e-monstrous-manual-magical-bats/night-hunter.png",
+    "sha256": "45543e76f8cdf9be8f8bedc5ca5ba1462fae908c2f48ac5a8353e41d6496d3a7",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "monster-5bd6502ccf37fa3f7db88b21",
+    "version": "deb371272c89b3dbe3e2b8f4",
+    "name": "Sinister",
+    "file": "images/adnd2e-monstrous-manual-magical-bats/sinister.png",
+    "sha256": "42782e059e358febce7ea95055ff0304dd7d5a40ce37354ab2900ec18988ef14",
+    "credit": "OpenAI ImageGen"
+  }
+]

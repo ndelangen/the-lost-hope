@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Dracolich (Gargantuan)",
+    "query": "skeletal dracolich soul gem necrotic breath",
+    "term": "Ray of Sickness",
+    "parent": "Dracolich",
+    "publication": "Monster Manual (2024)",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Monster Manual (2024)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Shadow Dragon (Large)",
+    "query": "smoky shadow dragon underdark shadow breath",
+    "term": "Hide",
+    "parent": "Shadow Dragon (Huge)",
+    "publication": "Monster Manual (2024)",
+    "alternates": [
+      {
+        "credit": "D&D Beyond publisher art · Monster Manual (2024)",
+        "url": ""
+      }
+    ]
+  }
+]

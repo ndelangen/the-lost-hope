@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Drow Arachnomancer",
+    "statBlock": {
+      "name": "Drow Arachnomancer",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 182,
+      "classification": "Medium humanoid (elf), chaotic evil",
+      "ac": 15,
+      "hp": 162,
+      "hitDice": "25d8 + 50",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 17,
+      "description": "A devotee of Lolth who draws on the spiders of the Demonweb Pits and can take the shape of a giant spider.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Int": 9,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 9,
+        "Nature": 9,
+        "Perception": 7,
+        "Stealth": 8
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Blindsight 10 ft., darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon, can speak with spiders",
+        "Damage resistances": "Poison.",
+        "Traits": "Fey Ancestry. The drow has advantage on saves against being charmed and is immune to magical sleep.\nSpider Climb. The drow crosses difficult surfaces, including ceilings, without an ability check.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.\nWeb Walker. Webbing does not impede the drow’s movement.",
+        "Bonus actions": "Change Shape (recharges after a short or long rest). The drow magically becomes a Giant Spider for up to 1 hour. Its size changes, but the rest of its statistics stay the same. The spider can speak and cast spells. Worn and carried equipment melds into the spider, which cannot use it or gain its benefits. Another bonus action returns the drow to humanoid form early. It also returns to humanoid form when it dies.",
+        "Actions": "Multiattack. Make either two Poisonous Touch attacks or two Bite attacks. The first of those attacks to hit each round deals an additional 26 (4d12) poison damage.\nPoisonous Touch (humanoid form only). Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 28 (8d6) poison damage.\nBite (Giant Spider form only). Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) piercing damage. The target must make a DC 15 Constitution save, taking 26 (4d12) poison damage on a failure or half on a success. If that poison damage drops the target to 0 hit points, it is stable and poisoned for 1 hour, even if it regains hit points. It is paralyzed while poisoned by this bite.\nWeb (Giant Spider form only, recharge 5–6). Ranged weapon attack, +8 to hit, range 30/60 ft., one target. A hit restrains the target in webbing. It can use an action to break free with a DC 15 Strength check. The webbing has AC 10 and 5 hit points, is vulnerable to fire, and is immune to bludgeoning, poison, and psychic damage.",
+        "Innate spellcasting": "Charisma sets the innate spell save DC at 16. The spells require no material components.\nAt will. Dancing Lights.\n1/day each. Darkness, Faerie Fire, Levitate (self only).",
+        "Spellcasting": "The drow casts as a 16th-level warlock using Charisma (spell save DC 16, +8 to hit with spell attacks). It regains spent spell slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast, Mage Hand, Poison Spray.\n1st–5th level (three 5th-level slots). Conjure Animals (spiders only), Crown of Madness, Dimension Door, Dispel Magic, Fear, Fly, Giant Insect, Hold Monster, Insect Plague, Invisibility, Vampiric Touch, Web, Witch Bolt.\n1/day each. Dominate Monster, Etherealness, Eyebite.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 182."
+      }
+    }
+  },
+  {
+    "name": "Drow Favored Consort",
+    "statBlock": {
+      "name": "Drow Favored Consort",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 183,
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 15,
+      "hp": 225,
+      "hitDice": "30d8 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 18,
+      "description": "A battle mage who pairs poisonous swordplay with wizard spells and advises a priestess of Lolth.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 9,
+        "Cha": 10
+      },
+      "skills": {
+        "Acrobatics": 11,
+        "Athletics": 8,
+        "Perception": 8,
+        "Stealth": 11
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon",
+        "Traits": "Fey Ancestry. The drow has advantage on saves against being charmed and is immune to magical sleep.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Bonus actions": "War Magic. After the drow uses its action to cast a spell, it can make one weapon attack as a bonus action.",
+        "Actions": "Multiattack. Make three Scimitar attacks.\nScimitar. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) slashing damage and 18 (4d8) poison damage. The target has disadvantage on its next save against a spell the drow casts before the end of the drow’s next turn.\nHand Crossbow. Ranged weapon attack, +11 to hit, range 30/120 ft., one target. A hit deals 8 (1d6 + 5) piercing damage. The target must make a DC 13 Constitution save or be poisoned for 1 hour. Failure by 5 or more also leaves the target unconscious while this poison lasts. Damage wakes it, as does another creature using an action to shake it awake.",
+        "Innate spellcasting": "Charisma sets the innate spell save DC at 18. The spells require no material components.\nAt will. Dancing Lights.\n1/day each. Darkness, Faerie Fire, Levitate (self only).",
+        "Spellcasting": "The drow casts as an 11th-level wizard using Intelligence (spell save DC 18, +10 to hit with spell attacks).\nCantrips (at will). Mage Hand, Message, Poison Spray, Shocking Grasp, Ray of Frost.\n1st level (4 slots). Burning Hands, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots). Gust of Wind, Invisibility, Misty Step, Shatter.\n3rd level (3 slots). Counterspell, Fireball, Haste.\n4th level (3 slots). Dimension Door, Otiluke’s Resilient Sphere.\n5th level (2 slots). Cone of Cold.\n6th level (1 slot). Chain Lightning.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 183."
+      }
+    }
+  },
+  {
+    "name": "Drow House Captain",
+    "statBlock": {
+      "name": "Drow House Captain",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 16,
+      "hp": 162,
+      "hitDice": "25d8 + 50",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "description": "A noble house’s battlefield commander who directs nearby allies while fighting with scimitar, whip, and hand crossbow.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 6,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 8
+      },
+      "sections": {
+        "Armor": "Chain mail.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon",
+        "Traits": "Fey Ancestry. The drow has advantage on saves against being charmed and is immune to magical sleep.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Bonus actions": "Battle Command. Choose one ally the captain can see within 30 ft. If the ally sees or hears the captain, the ally can spend its reaction to make one melee attack or take the Dodge or Hide action.",
+        "Actions": "Multiattack. Make two Scimitar attacks and either one Whip or one Hand Crossbow attack.\nScimitar. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage and 14 (4d6) poison damage.\nWhip. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 6 (1d4 + 4) slashing damage. If it hits an ally, that ally has advantage on attack rolls until the end of its next turn.\nHand Crossbow. Ranged weapon attack, +8 to hit, range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage. The target must make a DC 13 Constitution save or be poisoned for 1 hour. Failure by 5 or more also leaves the target unconscious while this poison lasts. Damage wakes it, as does another creature using an action to shake it awake.",
+        "Reactions": "Parry. When a melee attack would hit the captain, add 3 to the captain’s AC against that attack. The captain must see the attacker and be wielding a melee weapon.",
+        "Innate spellcasting": "Charisma sets the innate spell save DC at 13. The spells require no material components.\nAt will. Dancing Lights.\n1/day each. Darkness, Faerie Fire, Levitate (self only).",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 184."
+      }
+    }
+  },
+  {
+    "name": "Drow Inquisitor",
+    "statBlock": {
+      "name": "Drow Inquisitor",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 16,
+      "hp": 143,
+      "hitDice": "22d8 + 44",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 20,
+      "description": "A priestess empowered to investigate threats to the drow hierarchy. Her death lance withers those it wounds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 10,
+        "Cha": 10
+      },
+      "skills": {
+        "Insight": 10,
+        "Perception": 10,
+        "Religion": 8,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon",
+        "Condition immunities": "Frightened.",
+        "Traits": "Discern Lie. When the drow hears someone lie in a language it understands, it recognizes the lie.\nFey Ancestry. The drow has advantage on saves against being charmed and is immune to magical sleep.\nMagic Resistance. The drow makes saving throws against spells and other magical effects with advantage.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Actions": "Multiattack. Make three Death Lance attacks.\nDeath Lance. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) piercing damage and 18 (4d8) necrotic damage. Reduce the target’s hit point maximum by the necrotic damage it takes. The reduction lasts until the target finishes a long rest. A target whose maximum reaches 0 dies.",
+        "Variant rules": "Summon Demon (1/day). Some drow of this kind can attempt to summon a Yochlol as an action. The magical summon has a 50% chance to work. Failure deals 5 (1d10) psychic damage to the drow. On success, the demon appears in an unoccupied space within 60 ft. of the drow. It acts as the drow’s ally and cannot summon other demons. It departs after 10 minutes, if it or the drow dies, or if the drow uses an action to dismiss it.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 184. Yochlol Summoning variant, p. 185.",
+        "Innate spellcasting": "Charisma sets the innate spell save DC at 18. The spells require no material components.\nAt will. Dancing Lights, Detect Magic.\n1/day each. Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Levitate (self only), Suggestion.",
+        "Spellcasting": "The drow casts as a 12th-level cleric using Wisdom (spell save DC 18, +10 to hit with spell attacks).\nCantrips (at will). Guidance, Message, Poison Spray, Resistance, Thaumaturgy.\n1st level (4 slots). Bane, Cure Wounds, Inflict Wounds.\n2nd level (3 slots). Blindness/Deafness, Silence, Spiritual Weapon.\n3rd level (3 slots). Bestow Curse, Dispel Magic, Magic Circle.\n4th level (3 slots). Banishment, Divination, Freedom of Movement.\n5th level (2 slots). Contagion, Dispel Evil and Good, Insect Plague.\n6th level (1 slot). Harm, True Seeing."
+      },
+      "ruleNotes": [
+        "The stat block prints Strength 11 with a +1 modifier. The standard modifier for Strength 11 is +0, which the ability display uses."
+      ]
+    }
+  },
+  {
+    "name": "Drow Matron Mother",
+    "statBlock": {
+      "name": "Drow Matron Mother",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 186,
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 17,
+      "hp": 262,
+      "hitDice": "35d8 + 105",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 21,
+      "description": "The ruling priestess of a drow noble house, backed by high cleric magic, summoned servants, and Lolth’s uncertain favor.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 11,
+        "Cha": 12
+      },
+      "skills": {
+        "Insight": 11,
+        "Perception": 11,
+        "Religion": 9,
+        "Stealth": 10
+      },
+      "sections": {
+        "Armor": "Half plate.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Fey Ancestry. The drow has advantage on saves against being charmed and is immune to magical sleep.\nMagic Resistance. The drow makes saving throws against spells and other magical effects with advantage.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Bonus actions": "Lolth’s Fickle Favor. Choose one ally the matron can see within 30 ft. The ally takes 7 (2d6) psychic damage and gains advantage on the next attack roll it makes by the end of its next turn.",
+        "Actions": "Multiattack. Make either two Demon Staff attacks or three Tentacle Rod attacks.\nDemon Staff. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) with two hands, and 14 (4d6) psychic damage. The target must pass a DC 19 Wisdom save or be frightened of the matron for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success.\nTentacle Rod. Melee weapon attack, +9 to hit, reach 15 ft., one target. A hit deals 3 (1d6) bludgeoning damage. If the rod hits a target three times during one turn, that target must pass a DC 15 Constitution save. On a failure, its speed is halved, it has disadvantage on Dexterity saving throws, and it cannot take reactions for 1 minute. On each of its turns during that time, it can take only one action or one bonus action. It can repeat the save at the end of each of its turns, ending the effect on a success.\nSummon Servant (1/day). Magically summon a Retriever or a Yochlol in an unoccupied space within 60 ft. The servant acts as the matron’s ally and cannot summon other demons. It departs after 10 minutes, if it or the matron dies, or if the matron dismisses it as an action.",
+        "Legendary actions": "The matron has 3 legendary actions and regains all spent actions at the start of her turn. She can choose one option at the end of another creature’s turn. She cannot use these actions if incapacitated or otherwise unable to act. If surprised, she can use them after completing her first turn.\nDemon Staff (1 action). Make one Demon Staff attack.\nCompel Demon (2 actions). One allied demon within 30 ft. spends its reaction to make one attack against a target the matron chooses and can see.\nCast a Spell (1–3 actions). Expend a spell slot to cast a prepared 1st-, 2nd-, or 3rd-level spell. The cost is one legendary action per level of the spell.",
+        "Innate spellcasting": "Charisma sets the innate spell save DC at 20. The spells require no material components.\nAt will. Dancing Lights, Detect Magic.\n1/day each. Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Levitate (self only), Suggestion.",
+        "Spellcasting": "The drow casts as a 20th-level cleric using Wisdom (spell save DC 19, +11 to hit with spell attacks).\nCantrips (at will). Guidance, Mending, Resistance, Sacred Flame, Thaumaturgy.\n1st level (4 slots). Bane, Command, Cure Wounds, Guiding Bolt.\n2nd level (3 slots). Hold Person, Silence, Spiritual Weapon.\n3rd level (3 slots). Bestow Curse, Clairvoyance, Dispel Magic, Spirit Guardians.\n4th level (3 slots). Banishment, Death Ward, Freedom of Movement, Guardian of Faith.\n5th level (3 slots). Contagion, Flame Strike, Geas, Mass Cure Wounds.\n6th level (2 slots). Blade Barrier, Harm.\n7th level (2 slots). Divine Word, Plane Shift.\n8th level (1 slot). Holy Aura.\n9th level (1 slot). Gate.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 186."
+      }
+    }
+  },
+  {
+    "name": "Drow Shadowblade",
+    "statBlock": {
+      "name": "Drow Shadowblade",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 187,
+      "classification": "Medium humanoid (elf), neutral evil",
+      "ac": 17,
+      "hp": 150,
+      "hitDice": "20d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "description": "An assassin who teleports between shadows and stores magical darkness in the spaces around a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 9
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon",
+        "Traits": "Fey Ancestry. The drow has advantage on saves against being charmed and is immune to magical sleep.\nSunlight Sensitivity. In sunlight, the drow has disadvantage on attack rolls and sight-based Wisdom (Perception) checks.",
+        "Bonus actions": "Shadow Step. While in dim light or darkness, teleport up to 60 ft. to an unoccupied space the drow can see in dim light or darkness. The drow has advantage on the first melee attack it makes before the turn ends.",
+        "Actions": "Multiattack. Make two Shadow Sword attacks. Once per turn, if either hits a target within 10 ft. of a cube of darkness the sword created on an earlier turn, the drow can dismiss the cube to deal an additional 21 (6d6) necrotic damage to the target.\nShadow Sword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) piercing damage, 10 (3d6) necrotic damage, and 10 (3d6) poison damage. The drow can then fill an unoccupied 5-foot cube within 5 ft. of the target with magical darkness for 1 minute.\nHand Crossbow. Ranged weapon attack, +9 to hit, range 30/120 ft., one target. A hit deals 8 (1d6 + 5) piercing damage. The target must make a DC 13 Constitution save or be poisoned for 1 hour. Failure by 5 or more also leaves the target unconscious while this poison lasts. Damage wakes it, as does another creature using an action to shake it awake.",
+        "Variant rules": "Summon Shadow Demon (1/day). Some drow of this kind can attempt to summon a Shadow Demon as an action. The magical summon has a 50% chance to work. Failure deals 5 (1d10) psychic damage to the drow. On success, the demon appears in an unoccupied space within 60 ft. of the drow. It acts as the drow’s ally and cannot summon other demons. It departs after 10 minutes, if it or the drow dies, or if the drow uses an action to dismiss it.",
+        "Innate spellcasting": "Charisma sets the innate spell save DC at 13. The spells require no material components.\nAt will. Dancing Lights.\n1/day each. Darkness, Faerie Fire, Levitate (self only).",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 187. Shadow Demon Summoning variant is on the same page."
+      }
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Giant Frog",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "August 8, 2014 release, version 1",
+    "section": "Monsters",
+    "printedPages": [
+      10
+    ],
+    "pdfPage": 10,
+    "pdfPageNumbering": "The one-based page number matches the printed folio.",
+    "sourceUrl": "",
+    "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "alternateOfficialWitness": "",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+    "printingDistinction": "p. 10 left column. The printed Bite grapples and restrains on a hit. Swallow requires a second Bite against a grappled target no larger than Small and has its own effects and exit rule."
+  },
+  {
+    "name": "Giant Lizard",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "August 8, 2014 release, version 1",
+    "section": "Monsters",
+    "printedPages": [
+      10
+    ],
+    "pdfPage": 10,
+    "pdfPageNumbering": "The one-based page number matches the printed folio.",
+    "sourceUrl": "",
+    "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "alternateOfficialWitness": "",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+    "printingDistinction": "p. 10 lower left. This supplement lists the base Giant Lizard block. The Monster Manual Hold Breath and Spider Climb variants are outside this printing."
+  },
+  {
+    "name": "Giant Spider",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "August 8, 2014 release, version 1",
+    "section": "Monsters",
+    "printedPages": [
+      10
+    ],
+    "pdfPage": 10,
+    "pdfPageNumbering": "The one-based page number matches the printed folio.",
+    "sourceUrl": "",
+    "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "alternateOfficialWitness": "",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+    "printingDistinction": "p. 10 right column. Only reduction to 0 HP from the poison invokes stability and one-hour poison and paralysis. Escaping Web calls for a Strength check. The web is vulnerable to fire and immune to bludgeoning, poison and psychic damage."
+  },
+  {
+    "name": "Stirge",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "August 8, 2014 release, version 1",
+    "section": "Monsters",
+    "printedPages": [
+      17
+    ],
+    "pdfPage": 17,
+    "pdfPageNumbering": "The one-based page number matches the printed folio.",
+    "sourceUrl": "",
+    "sourceSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "alternateOfficialWitness": "",
+    "appearanceEvidence": "Editorial description of the existing portrait selected in the batch roster.",
+    "habitatEvidence": "Editorial suggestions for encounter placement based on the creature’s form and behavior. The printed supplement block has no habitat field.",
+    "printingDistinction": "p. 17 lower right. The Blood Drain hit deals piercing damage. Subsequent feeding is printed as hit point loss. The target’s hit point maximum is unaffected by the printed rule."
+  }
+]

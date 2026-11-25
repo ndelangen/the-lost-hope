@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Raptoran",
+    "slug": "raptoran",
+    "caption": "Avilli · Original Raptoran glider",
+    "id": "species-2563316f22db2578288a6b94:fd4e2742e570dfc1a5a77b7d",
+    "entry": "species-2563316f22db2578288a6b94",
+    "version": "fd4e2742e570dfc1a5a77b7d",
+    "suffix": "encounters-67/raptoran.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-67/raptoran.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-67/event-drafts/raptoran-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 67 2026-11-24/event-drafts/raptoran-event-v1.png",
+    "overrides": [],
+    "sha256": "6e74c9795f0145dd63c1d50ac2db6eac3e7bea5ff50903c4d78b3b91338c78cb",
+    "bytes": 2587099
+  }
+]

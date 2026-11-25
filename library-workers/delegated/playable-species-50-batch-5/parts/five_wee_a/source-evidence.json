@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Brownie",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "publisher": "TSR, Inc.",
+    "type": "Fairy",
+    "url": "",
+    "page": "DM’s booklet pp. 4, 5, 6, 25, 27, 28, 29, 47, 48, 49",
+    "printedPages": [
+      4,
+      5,
+      6,
+      25,
+      27,
+      28,
+      29,
+      47,
+      48,
+      49
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 2,
+    "foldoutPdfPages": [
+      101
+    ],
+    "sourceDistinctions": [
+      "The Redcap section belongs to Brownie. The sample is an ordinary brownie and carries no restricted magic item.",
+      "Use Table 9 in the foldout to confirm the level-1 XP, Hit Dice and item odds."
+    ],
+    "supportingSources": [
+      {
+        "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+        "url": ""
+      },
+      {
+        "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Dryad",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "publisher": "TSR, Inc.",
+    "type": "Woodland spirit",
+    "url": "",
+    "page": "DM’s booklet pp. 4, 5, 6, 9, 10, 47, 48",
+    "printedPages": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      47,
+      48
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 2,
+    "foldoutPdfPages": [
+      101
+    ],
+    "sourceDistinctions": [
+      "Use the player dryad. The hamadryad and an attached or retired dryad use the soul-tree provisions.",
+      "A dash for the level-1 Hit Dice retains the 2d8 from the mature tier."
+    ],
+    "supportingSources": [
+      {
+        "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+        "url": ""
+      },
+      {
+        "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Faun",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "publisher": "TSR, Inc.",
+    "type": "Woodland being",
+    "url": "",
+    "page": "DM’s booklet pp. 4, 5, 6, 11, 12, 13, 47, 48",
+    "printedPages": [
+      4,
+      5,
+      6,
+      11,
+      12,
+      13,
+      47,
+      48
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 2,
+    "foldoutPdfPages": [
+      2
+    ],
+    "sourceDistinctions": [
+      "The printed Faun creature class and Table 4 stay linked by their exact name. PC1 p. 11 also calls fauns satyrs and the oldest ones sileni. This edition-specific profile is grouped under the catalog’s Satyr species.",
+      "PC1 gives no numeric range or lingering duration for impulse music. The sample adjudicates audibility at the table and uses the Rod/Staff/Spell saving throw for both participants."
+    ],
+    "supportingSources": [
+      {
+        "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+        "url": ""
+      },
+      {
+        "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Hsiao",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "publisher": "TSR, Inc.",
+    "type": "Intelligent avian",
+    "url": "",
+    "page": "DM’s booklet pp. 4, 5, 6, 14, 15, 47, 48, 49, 59",
+    "printedPages": [
+      4,
+      5,
+      6,
+      14,
+      15,
+      47,
+      48,
+      49,
+      59
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 2,
+    "foldoutPdfPages": [
+      2
+    ],
+    "sourceDistinctions": [
+      "The PC1 page 15 table is the spell allotment. The level-1 sample keeps level-1 cleric saves regardless of its higher spellcasting progression."
+    ],
+    "supportingSources": [
+      {
+        "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+        "url": ""
+      },
+      {
+        "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Leprechaun",
+    "publication": "Tall Tales of the Wee Folk (PC1, 1989)",
+    "edition": "Basic D&D (BECMI)",
+    "kind": "species",
+    "publisher": "TSR, Inc.",
+    "type": "Fairy",
+    "url": "",
+    "page": "DM’s booklet pp. 4, 5, 6, 25, 29, 30, 47, 48",
+    "printedPages": [
+      4,
+      5,
+      6,
+      25,
+      29,
+      30,
+      47,
+      48
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 2,
+    "foldoutPdfPages": [
+      101
+    ],
+    "sourceDistinctions": [
+      "The clurachaun is a variety within Leprechaun. Table 10 separates the 0 XP HP roll from numbered levels.",
+      "The normal tier has a 1–2 HP roll, no spell slots and the express THAC0 19 example."
+    ],
+    "supportingSources": [
+      {
+        "name": "D&D Rules Cyclopedia, pp. 10, 102–109 (ability modifiers, initiative, monster attacks and saves)",
+        "url": ""
+      },
+      {
+        "name": "D&D Rules Cyclopedia, pp. 34–35, 44–45 (spell effects) and 62–63 (weapon damage)",
+        "url": ""
+      }
+    ]
+  }
+]

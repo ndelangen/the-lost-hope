@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Aberrant Zealot (Variant)",
+    "query": "violet facial tentacles briny maze mind blast",
+    "term": "Stunned",
+    "parent": "Aberrant Zealot",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "alternates": [
+      {
+        "credit": "Related Aberrant Zealot illustration · Phandelver and Below: The Shattered Obelisk",
+        "url": ""
+      },
+      {
+        "credit": "Related tentacled Aberrant Zealot token · Phandelver and Below: The Shattered Obelisk",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Goblin Boss (Variant)",
+    "query": "shortbow cragmaw castle redirect attack",
+    "term": "Disengage",
+    "parent": "Goblin Boss",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Phandelver and Below: The Shattered Obelisk",
+        "url": ""
+      },
+      {
+        "credit": "D&D Beyond publisher art · Phandelver and Below: The Shattered Obelisk",
+        "url": ""
+      }
+    ]
+  }
+]

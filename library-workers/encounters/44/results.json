@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Chimeron",
+    "source": "https://www.dndbeyond.com/monsters/4485806-chimeron",
+    "challenge": "12",
+    "entry": "monster-4e4348d2d608e3d5201325a1",
+    "version": "52c4b77e2fe1074555568f23",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "chimeron",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "077aac0ad052b7c3a2bb5a0350dc1cc72fed19698c48fc74e5ad9bf22a5d0807",
+    "status": "Stat block",
+    "appearance": "A towering demon made from mismatched limbs, a violet crest, angular support legs, and several toothed maws.",
+    "habitats": [
+      "Abyssal Wasteland"
+    ]
+  },
+  {
+    "name": "Wobalas",
+    "source": "https://www.dndbeyond.com/monsters/4486048-wobalas",
+    "challenge": "10",
+    "entry": "monster-0cabc21ca8d94addee4d6231",
+    "version": "4472a781dbea54db459d6c4c",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "wobalas",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "15e4d4cb7dd055c6ce0a18e2390b69d4cd3d04feacd0db27740872eb9f9daec9",
+    "status": "Stat block",
+    "appearance": "An Abyssal archer with dark segmented skin and an organic recurve bow fused to one limb.",
+    "habitats": [
+      "Abyssal Wasteland"
+    ]
+  }
+]

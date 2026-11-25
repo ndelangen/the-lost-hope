@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Devil Notary",
+    "source": "https://www.dndbeyond.com/monsters/4485821-devil-notary",
+    "challenge": "6",
+    "entry": "monster-02e1f50b09a78442ab85bb8c",
+    "version": "2903c25ccb37faa9c1cb3733",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "devil-notary",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "defd96c9b7d33cf50c3877da6d44cc0598e64179423f0c36c8edc34936a12241",
+    "status": "Stat block",
+    "appearance": "A wiry horned devil clerk in a blue-gray coat carrying an open ledger and quill.",
+    "habitats": [
+      "Hell",
+      "Seven Cities of Hell"
+    ]
+  },
+  {
+    "name": "Infernal Chancellor Lazivos",
+    "source": "https://www.dndbeyond.com/monsters/4485901-infernal-chancellor-lazivos",
+    "challenge": "16",
+    "entry": "monster-3f78ba4718116227eca6d2bf",
+    "version": "80f8b6d40ccc16c8e52654aa",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "infernal-chancellor-lazivos",
+    "kind": "monster",
+    "type": "Fiend",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "93888d1c743c8d8ddb7f8e99d9f2a6af5415bb4b315f79c81b5ae14f1a7554ec",
+    "status": "Stat block",
+    "appearance": "A tall horned devil chancellor with dark feathered wings, gold-trimmed court clothing and a contract in hand.",
+    "habitats": [
+      "Hell",
+      "Seven Cities of Hell"
+    ]
+  }
+]

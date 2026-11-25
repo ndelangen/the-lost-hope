@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Crow",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 12,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "skills": {
+      "Perception": 3
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Passive Perception 13. Languages none.",
+    "appearance": "A small black corvid with a stout bill and layered dark flight feathers.",
+    "habitats": [
+      "Undermountain",
+      "Halaster’s Tower",
+      "Gate to Triboar"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Waterdeep: Dungeon of the Mad Mage, Level 23, Mad Wizard’s Lair, p. 302, 36. Gate to Triboar. Uses the Raven from the 2014 Monster Manual, p. 335.",
+      "Traits": "Mimicry. It can copy simple sounds it has heard. A creature hearing an imitation can identify it with a successful DC 10 Wisdom (Insight) check.",
+      "Actions": "Beak. Make a +4 melee weapon attack against one target within 5 ft. A hit deals 1 piercing damage.",
+      "Encounter": "The crow perches on the northern standing stone. It caws at people entering the room and bonds with a randomly chosen character."
+    }
+  },
+  {
+    "name": "Giant Flying Spider",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "30 ft., climb 30 ft., fly 40 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "skills": {
+      "Stealth": 7
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Blindsight 10 ft. Darkvision 60 ft. Passive Perception 10. Languages none.",
+    "appearance": "A large dark-bodied spider with eight jointed legs and a pair of smoky wings.",
+    "habitats": [
+      "Undermountain",
+      "Underdark",
+      "Fungal cavern",
+      "Zurkhwood canopy"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Waterdeep: Dungeon of the Mad Mage, Level 10, Muiral’s Gauntlet, p. 150, 30a. Main Cavern. Uses the Giant Spider from the 2014 Monster Manual, p. 328.",
+      "Traits": "Spider Climb. The creature can traverse difficult surfaces, including ceilings, without an ability check.\nWeb Sense. While touching a web, it pinpoints any other creature touching that same web.\nWeb Walker. It ignores the movement restrictions of webbing.",
+      "Actions": "Bite. Make a +5 melee weapon attack against one creature within 5 ft. A hit deals 7 (1d8 + 3) piercing damage. The target makes a DC 11 Constitution save, taking 9 (2d8) poison damage on a failure or half as much on a success. If the poison drops it to 0 HP, it is stable and Poisoned for 1 hour even if it regains HP. It is Paralyzed while Poisoned this way.\nWeb (recharge 5–6). Make a +5 ranged weapon attack against one creature, range 30/60 ft. A hit Restrains it in webbing. It can take an action to burst free with a successful DC 12 Strength check. The web can also be destroyed. It has AC 10, 5 HP, vulnerability to fire and immunity to bludgeoning, poison and psychic damage.",
+      "Encounter": "Five flying spiders join the cavern patrol. They fly around the cavern and build web nests in the caps of zurkhwood mushrooms."
+    }
+  },
+  {
+    "name": "Giant Lizard (variant)",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Natural armor. Darkvision 30 ft. Passive Perception 10. Languages none.",
+    "appearance": "A large mottled green climbing lizard with a long tapering tail and broad gripping toes.",
+    "habitats": [
+      "Undermountain",
+      "Underdark",
+      "Cavern",
+      "Drow stronghold"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Waterdeep: Dungeon of the Mad Mage, Level 10, Muiral’s Gauntlet, p. 147, 25a. Hall of the Dark Seldarine and 30a. Main Cavern. Uses the Giant Lizard and Variant: Giant Lizard Traits from the 2014 Monster Manual, p. 326.",
+      "Traits": "Spider Climb. The creature can traverse difficult surfaces, including ceilings, without an ability check.",
+      "Actions": "Bite. Make a +4 melee weapon attack against one target within 5 ft. A hit deals 6 (1d8 + 2) piercing damage.",
+      "Encounter": "The docile lizards are drow mounts. Two wear riding gear in the hall. More are ridden by the cavern patrol."
+    }
+  },
+  {
+    "name": "Haungharassk",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 6,
+    "hp": 52,
+    "hitDice": "7d12 + 7",
+    "speed": "10 ft., climb 10 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Passive Perception 10. Cannot speak. The adventure does not specify any languages it understands.",
+    "appearance": "An elephant-sized snail with long eyestalks, a broad creeping foot and a gleaming coiled golden shell threaded with brighter gold.",
+    "habitats": [
+      "Undermountain",
+      "Runestone Caverns",
+      "Fungal cavern"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Waterdeep: Dungeon of the Mad Mage, Level 20, Runestone Caverns, p. 258, 8d. Golden Haungharassk and Aftermath.",
+      "Traits": "Spider Climb. The creature can traverse difficult surfaces, including ceilings, without an ability check.\nSalt Sensitivity. Throwing 1 pound of salt onto its skin deals 1d6 acid damage to the snail.\nMagical Properties. Detect magic shows a strong abjuration aura. A creature can take an action to touch the live snail and gain 6 temporary HP for 24 hours. A creature or object that touches it also gains the effect of remove curse. Once the snail dies, its touch stops granting these benefits.",
+      "Actions": "No attacks.",
+      "Encounter": "Characters can lead it by offering plants, fungi or algae. A successful DC 10 Intelligence (Nature) check identifies acceptable food. The glowing fungus in its cavern regrows when picked and dies if taken away. Halaster checks on the snail by scrying each day. If he detects that it was taken or killed, his shouts echo through the caverns.",
+      "Treasure": "If the snail is killed, characters can strip 100 lb. of gold worth 20,000 gp from the shell in a few hours. Killing the snail grants 0 XP.",
+      "Source notes": "The encounter gives 0 XP and no CR number. This display retains the indexed CR 0. Passive Perception 10 derives from Wisdom 10."
+    }
+  },
+  {
+    "name": "Space Hamster",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 10,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "20 ft.",
+    "cr": "0",
+    "xp": 0,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. Languages none.",
+    "appearance": "A small, rounded hamster with a blunt whiskered muzzle, rounded ears and short paws.",
+    "habitats": [
+      "Undermountain",
+      "Caverns of Ooze",
+      "The Scavenger",
+      "Ship walls"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Waterdeep: Dungeon of the Mad Mage, Level 19, Caverns of Ooze, p. 251, 13c. Galley and Mess Hall, Treasure. Uses the Rat from the 2014 Monster Manual, p. 335.",
+      "Traits": "Keen Smell. It has advantage on Wisdom (Perception) checks that rely on smell.",
+      "Actions": "No attacks.",
+      "Encounter": "Removing the sending stone from the wall brings the hamster out of its lair in the ship’s wall. It poses no danger. A character can befriend it by offering food."
+    }
+  }
+]

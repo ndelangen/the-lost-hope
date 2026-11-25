@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Nezumi",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Ratlike humanoid with a long muzzle, prominent incisors, rough fur, and a mostly bare tail. The printed setting describes Nezumi in Rokugan and the Shadowlands.",
+      "Medium. Base land speed 40 ft. Constitution +2, Charisma −2.",
+      "Low-light vision extends useful vision to twice the human distance in dim conditions while retaining color and detail.",
+      "Racial +2 to Hide and Move Silently. Racial +2 on saves against poison and disease.",
+      "Immune to acquiring a Shadowlands Taint score and to ill effects of direct Shadowlands exposure. Taint spells and Shadowlands creature attacks can still harm a Nezumi.",
+      "Claw or bite deals 1d4 normal damage as an unarmed strike. Choose one of these unarmed attacks per round.",
+      "Keen Scent permits the optional Scent feat at Wisdom 11 or higher. It does not grant that feat automatically.",
+      "With Scent, detect a presence as a free action within 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. Finding direction costs a move-equivalent action. Pinpoint within 5 ft.",
+      "With Scent, follow a trail using Wisdom. A fresh trail is usually DC 10 and the DC rises by 2 per hour. Scent and group size can modify it. Surface and visibility penalties do not apply. Water can erase a trail, and masking odors raise the base tracking DC to 20. The track otherwise follows the Track feat.",
+      "Automatic languages Rokugani and Nezumi. Bonus languages Bakemono and Shadowlands. Favored class Rogue."
+    ]
+  },
+  {
+    "name": "Vanara",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Monkeylike humanoid with rounded ears, furred cheeks, long fingers and toes, and a semi-prehensile tail. The printed setting places Vanaras in deep forests and high mountains outside Rokugan.",
+      "Medium. Base land speed 30 ft. Climb speed 20 ft. Strength −2, Intelligence +2, Wisdom +2.",
+      "Racial +8 to Climb. Use the better of Strength or Dexterity for Climb checks, and take 10 even when rushed or threatened.",
+      "An accelerated climb covers 30 ft. with one Climb check at −5 each round.",
+      "Low-light vision extends useful vision to twice the human distance in dim conditions while retaining color and detail.",
+      "Racial +4 to Balance and Jump. Racial +2 to Hide and Move Silently.",
+      "Automatic languages Common and Vanara, called Vanaran in the prose. Bonus languages Giant, Goblin, Spirit Tongue, and Sylvan. Favored class Shaman."
+    ]
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Deep Scion",
+    "statBlock": {
+      "name": "Deep Scion",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 88,
+      "classification": "Medium monstrosity, typically chaotic evil",
+      "ac": 11,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "30 ft. in true form. In hybrid form, walk 20 ft. and swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "An undersea power transforms someone facing drowning into a deep scion. The scion can return to shore in a humanlike form and spy for its new master.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 4
+      },
+      "skills": {
+        "Deception": 6,
+        "Insight": 3,
+        "Sleight Of Hand": 3,
+        "Stealth": 3
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Aquan, Common, Thieves' Cant.",
+        "Traits": "Amphibious (hybrid form only). The scion can breathe air and water.",
+        "Actions": "Multiattack. Make two Battleaxe attacks. In hybrid form, the scion can instead make one Bite and two Claw attacks.\nBattleaxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) slashing damage with one hand or 9 (1d10 + 4) slashing damage with two hands.\nBite (hybrid form only). Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 6 (1d4 + 4) piercing damage.\nClaw (hybrid form only). Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) slashing damage.\nPsychic Screech (hybrid form only, recharges after a short or long rest). The scream is audible within 300 ft. Each creature within 30 ft. makes a DC 13 Wisdom save or becomes stunned until the end of the scion's next turn. If the scion and its master are in the same body of water, the scream also sends the master the scion's past 24 hours of memories telepathically at any distance.",
+        "Bonus actions": "Change Shape. Shift between a humanlike true form and a humanoid-fish hybrid. Speed changes according to form. Equipment keeps its form, and the scion returns to its true form on death.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 88."
+      }
+    }
+  },
+  {
+    "name": "Demogorgon",
+    "statBlock": {
+      "name": "Demogorgon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 90,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 22,
+      "hp": 464,
+      "hitDice": "32d12 + 256",
+      "speed": "50 ft., swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 26
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 29,
+      "description": "Demogorgon's two heads, Aameul and Hathradiah, scheme from Abysm in the Gaping Maw. The palace has twin towers above water and caverns below.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 10,
+        "Con": 16,
+        "Wis": 11,
+        "Cha": 15
+      },
+      "skills": {
+        "Insight": 11,
+        "Perception": 19
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). When Demogorgon fails a save, he can spend one use to succeed instead.\nMagic Resistance. Demogorgon has advantage on saves against spells and other magical effects.\nTwo Heads. Demogorgon has advantage on saves against being blinded, deafened, stunned, or knocked unconscious.",
+        "Actions": "Multiattack. Make two Tentacle attacks. Demogorgon can replace one attack with Gaze.\nTentacle. Melee weapon attack, +17 to hit, reach 10 ft., one target. A hit deals 28 (3d12 + 9) force damage. A creature hit must make a DC 23 Constitution save. On a failure, reduce its hit point maximum by the damage it took until it finishes a long rest. The creature dies if its maximum reaches 0.\nGaze. Choose one creature Demogorgon can see within 120 ft. Demogorgon's magical gaze forces a DC 23 Wisdom save. On a failure, choose one result or roll 1d6.\n1–2, Beguiling Gaze. The target is stunned until the start of Demogorgon's next turn or until he leaves its line of sight.\n3–4, Confusing Gaze. The target is affected by Confusion until the start of Demogorgon's next turn. It makes no saving throw against the spell, and Demogorgon doesn't concentrate on it.\n5–6, Hypnotic Gaze. The target is charmed by Demogorgon until the start of his next turn. He chooses how it uses its action, reaction, and movement.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 23). No material components are required.\nAt will. Detect Magic, Major Image.\n3/day each. Dispel Magic, Fear, Telekinesis.\n1/day each. Feeblemind, Project Image.",
+        "Legendary actions": "Demogorgon has 2 legendary actions. Immediately after another creature's turn, spend the stated cost to use one option. He regains spent uses at the start of his turn. He cannot spend any while incapacitated or otherwise unable to act. If surprised, he must finish his first turn before using one.\nGaze (1 action). Use Gaze and choose Beguiling Gaze or Confusing Gaze.\nTail (1 action). Melee weapon attack, +17 to hit, reach 15 ft., one target. A hit deals 20 (2d10 + 9) bludgeoning damage plus 11 (2d10) necrotic damage.\nCast a Spell (2 actions). Use Spellcasting.",
+        "Lair actions": "In his lair, Demogorgon can use one option on initiative count 20, losing ties. He cannot select the same option on consecutive rounds. He must be able to act. If surprised, he must finish his first turn before using one.\nDarkness. Cast Darkness four times in different areas, with no concentration needed. Each ends on initiative count 20 of the next round.\nIllusory Duplicate. A double appears in Demogorgon's space and lasts until initiative count 20 of the next round. On his turn, Demogorgon can move it a distance equal to his walking speed without spending an action. On the first physical interaction with Demogorgon by a creature or object, roll a 50 percent chance that the double takes the effect instead. If it does, it disappears.",
+        "Regional effects": "Choose one or more effects for the area around Abysm.\nBeguiling Realm. Within 6 miles, Charisma (Persuasion) and Charisma (Performance) checks have disadvantage. Charisma (Deception) and Charisma (Intimidation) checks have advantage.\nFrenzied Animals. Beasts within 1 mile become violent, including usually docile animals. Checks involving Animal Handling in that area have disadvantage.\nVenomous Beasts. Poisonous snakes and other venomous Beasts proliferate within 6 miles.\nThese effects fade over 1d10 days after Demogorgon dies.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 90."
+      }
+    }
+  },
+  {
+    "name": "Derro",
+    "statBlock": {
+      "name": "Derro",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 91,
+      "classification": "Small aberration, typically chaotic evil",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 7,
+      "description": "Derro are dwarf-kin of the Underdark. One account traces their origin to mind flayer experiments on an isolated dwarf community.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Magic Resistance. The derro has advantage on saves against spells and other magical effects.\nSunlight Sensitivity. In sunlight, the derro has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Hooked Spear. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 3 (1d6) piercing damage. Against a Medium or smaller target, the derro can knock it prone instead of dealing damage.\nLight Crossbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 91."
+      }
+    }
+  },
+  {
+    "name": "Derro Savant",
+    "statBlock": {
+      "name": "Derro Savant",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 92,
+      "classification": "Small aberration (sorcerer), typically chaotic evil",
+      "ac": 13,
+      "hp": 36,
+      "hitDice": "8d6 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 7,
+      "description": "A derro with sorcerous talent often leads others as a savant.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Traits": "Magic Resistance. The savant has advantage on saves against spells and other magical effects.\nSunlight Sensitivity. In sunlight, the derro has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight.",
+        "Actions": "Quarterstaff. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 2 (1d6 - 1) bludgeoning damage.\nChromatic Beam. The savant sends magical energy down a line 60 ft. long and 5 ft. wide. Each creature in the line makes a DC 12 Dexterity save, taking 21 (6d6) radiant damage on a failure or half as much on a success.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 12).\nAt will. Mage Hand, Message, Prestidigitation.\n1/day each. Invisibility, Sleep, Spider Climb.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 92."
+      }
+    }
+  },
+  {
+    "name": "Devourer",
+    "statBlock": {
+      "name": "Devourer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 93,
+      "classification": "Large undead, typically chaotic evil",
+      "ac": 16,
+      "hp": 189,
+      "hitDice": "18d10 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 10,
+      "description": "Orcus sends devourers to trap souls and raise undead servants. Their hollow ribcages hold the dying.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Unusual Nature. The devourer needs no air, drink, or sleep.",
+        "Actions": "Multiattack. Make two Claw attacks. The devourer can also use one available option, Imprison Soul or Soul Rend.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage.\nImprison Soul. Choose a living Humanoid the devourer can see within 30 ft. that has 0 hit points. The target teleports into the devourer's ribcage and stays imprisoned there. It is restrained and has disadvantage on death saving throws while imprisoned. If it dies there, the devourer regains 25 hit points and immediately recharges Soul Rend. At the start of its next turn, the devourer uses a bonus action to spit out the dead victim as an Undead. A victim with up to 2 Hit Dice becomes a Zombie. A victim with 3–5 Hit Dice becomes a Ghoul. A victim with 6 or more Hit Dice becomes a Wight. Only one creature can be imprisoned at a time.\nSoul Rend (recharge 6). Each creature in a 20-ft. radius centered on the devourer makes a DC 18 Constitution save, taking 44 (8d10) necrotic damage on a failure or half as much on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 93."
+      }
+    }
+  },
+  {
+    "name": "Dhergoloth",
+    "statBlock": {
+      "name": "Dhergoloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 94,
+      "classification": "Medium fiend (yugoloth), typically neutral evil",
+      "ac": 15,
+      "hp": 119,
+      "hitDice": "14d8 + 56",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "This yugoloth has five sets of claws. It takes mercenary work that calls for force and simple orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The dhergoloth has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 12 (2d8 + 3) force damage.\nFlailing Claws (recharge 5–6). Move up to the dhergoloth's speed in a straight line. Each creature within 5 ft. of it at any point in that move makes a DC 14 Dexterity save. Failure deals 22 (3d12 + 3) force damage.\nTeleport. The dhergoloth and its worn or carried equipment teleport up to 60 ft. to an unoccupied space it can see.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 10). No material components are required.\nAt will. Darkness, Fear.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 94."
+      }
+    }
+  },
+  {
+    "name": "Dire Troll",
+    "statBlock": {
+      "name": "Dire Troll",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 246,
+      "classification": "Huge giant, typically chaotic evil",
+      "ac": 15,
+      "hp": 172,
+      "hitDice": "15d12 + 75",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 15,
+      "description": "A dire troll lashes out with several arms. Even at 0 hit points it can regenerate unless an attack delivers enough acid or fire to kill it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 2
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Giant.",
+        "Damage resistances": "Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Frightened, poisoned.",
+        "Traits": "Regeneration. At the start of its turn, the troll regains 10 hit points. After taking acid or fire damage, the troll regains 5 hit points at the start of its next turn. The troll dies only when an attack hits it while it has 0 hit points and deals at least 10 acid or fire damage.",
+        "Actions": "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 10 (1d8 + 6) piercing damage plus 5 (1d10) poison damage.\nClaws. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 16 (3d6 + 6) slashing damage.\nWhirlwind of Claws (recharge 5–6). Each creature within 10 ft. of the troll makes a DC 19 Dexterity save, taking 44 (8d10) slashing damage on a failure or half as much on a success.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 246."
+      }
+    }
+  }
+]

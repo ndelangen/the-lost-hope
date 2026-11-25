@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Neogi Void Hunter",
+    "statBlock": {
+      "name": "Neogi Void Hunter",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 41,
+      "classification": "Medium aberration (warlock), typically lawful evil",
+      "ac": 14,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "description": "A neogi warlock in service to a malevolent entity that resembles a star. Void hunters are larger than other adult neogi and often command a Nightspider.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 5,
+        "Deception": 6,
+        "Intimidation": 6,
+        "Perception": 3,
+        "Persuasion": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Deep Speech, Undercommon, telepathy 30 ft.",
+        "Traits": "Devil's Sight. The void hunter's darkvision works in magical darkness.\nMental Fortitude. The void hunter has advantage on saves against the charmed and frightened conditions. It cannot be put to sleep by magic.\nSpider Climb. Climb difficult surfaces and cross ceilings upside down without an ability check.",
+        "Actions": "Multiattack. Use Bite once and Claw twice, or use Eldritch Bolt twice.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) piercing plus 14 (4d6) poison damage on a hit. The target must pass a DC 12 Constitution save or become poisoned for 1 minute. It can end the condition with a successful repeat save at the end of any of its turns.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) piercing damage on a hit.\nEldritch Bolt. Ranged spell attack, +6 to hit, range 120 ft., one creature. Deal 20 (3d10 + 4) force damage on a hit.\nSpellcasting. Cast Dimension Door or Invisibility using Charisma. Each spell is available once per day.",
+        "Bonus actions": "Enslave (recharges after a short or long rest). Choose a creature the void hunter can see within 30 ft. If the target fails a DC 14 Wisdom save, the void hunter magically charms it for 1 day. The effect also ends if the hunter dies or the two are more than 1 mile apart. While charmed, the target follows the hunter's commands and cannot take reactions. The two can communicate telepathically up to 1 mile apart. Each time the target takes damage, it can repeat the save to end the effect on a success.",
+        "Encounter context": "The ship encounters table has Yeshk, a void hunter, captain a Nightspider crewed by 24 Neogi Pirates and 5 Umber Hulks.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 41."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Neogi Pirate",
+          "terms": [
+            "Neogi Pirate",
+            "Neogi Pirates"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#neogi%20pirate_bam"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Umber Hulk",
+          "terms": [
+            "Umber Hulk",
+            "Umber Hulks"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#umber%20hulk_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Night Scavver",
+    "statBlock": {
+      "name": "Night Scavver",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 49,
+      "classification": "Huge monstrosity, unaligned",
+      "ac": 14,
+      "hp": 114,
+      "hitDice": "12d12 + 36",
+      "speed": "0 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 16,
+      "description": "A fifteen-foot Wildspace predator with one glowing eye and a star-speckled hide. It flies straight into a ship's air envelope to hunt on deck.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 6,
+        "Stealth": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Unusual Nature. The scavver can survive without air.",
+        "Actions": "Bite. Melee weapon attack, +8 to hit, reach 10 ft., one target. Roll with advantage when the target is a creature below its hit point maximum. A hit deals 27 (4d10 + 5) piercing damage.",
+        "Encounter context": "In the Wildspace encounter table, a night scavver hunts with 2d6 Gray Scavvers.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 49."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Gray Scavver",
+          "terms": [
+            "Gray Scavver",
+            "Gray Scavvers"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gray%20scavver_bam"
+          }
+        }
+      ]
+    }
+  }
+]

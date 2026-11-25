@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Hobgoblin Death Captain",
+    "source": "https://www.dndbeyond.com/monsters/4485883-hobgoblin-death-captain",
+    "challenge": "6",
+    "entry": "monster-f342a71430f91e7cd8aa0352",
+    "version": "fdd3efd67678cf28ec7c3f73",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-death-captain",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "2456723e5dc9ad6b9a8094266905b0074064209c88279f82547fdbc38eb6a751",
+    "status": "Stat block",
+    "appearance": "A tusked and horned field commander in dark plate with a purple cloak, a worn shield and a violet-edged sword.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Desert and tropical settlements"
+    ]
+  },
+  {
+    "name": "Hobgoblin War Mage",
+    "source": "https://www.dndbeyond.com/monsters/4485889-hobgoblin-war-mage",
+    "challenge": "3",
+    "entry": "monster-5731582be9a9e6f4ab73f87e",
+    "version": "ca468e76fe4e667e57239dff",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "hobgoblin-war-mage",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "5b06b3497e2ae048c6ef5e4c497105417ed42612b5073b2b53a4fb7d4349e414",
+    "status": "Stat block",
+    "appearance": "A lean, horned hobgoblin in dark jade robes over a chain shirt, carrying a crooked bone-inlaid staff.",
+    "habitats": [
+      "Camp Firefield",
+      "War camps",
+      "Desert and tropical settlements"
+    ]
+  }
+]

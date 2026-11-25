@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Desert Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A single-humped camel with wide padded feet and a rolling gait.",
+    "combat": {
+      "armorClass": 7,
+      "hitDice": "3",
+      "movement": 21,
+      "thac0": 17,
+      "size": "L, 8 ft. tall",
+      "numberOfAttacks": 1,
+      "damageDice": "1–4",
+      "xp": 65,
+      "habitats": [
+        "Desert and caravan routes"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Spitting",
+          "effectNote": "An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds."
+        },
+        {
+          "name": "Herd stampede",
+          "effectNote": "A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+        }
+      ],
+      "Handling": [
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Load by weight in gold pieces: 250 normal, 400 encumbered, 520 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load."
+        },
+        {
+          "name": "Desert camel use",
+          "effectNote": "A steady mount and pack animal that carries heavy loads across difficult terrain."
+        }
+      ]
+    },
+    "notes": [
+      "1–12 appearing. Steady (12) morale. Animal to semi-intelligent (1–4).",
+      "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+      "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+    ]
+  },
+  {
+    "name": "Mountain Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A shaggy camel with two humps.",
+    "combat": {
+      "armorClass": 7,
+      "hitDice": "3",
+      "movement": 21,
+      "thac0": 17,
+      "size": "L, 8 ft. tall",
+      "numberOfAttacks": 1,
+      "damageDice": "1–4",
+      "xp": 65,
+      "habitats": [
+        "Hills and mountains"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Spitting",
+          "effectNote": "An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds."
+        },
+        {
+          "name": "Herd stampede",
+          "effectNote": "A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+        }
+      ],
+      "Handling": [
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Load by weight in gold pieces: 240 normal, 380 encumbered, 500 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load."
+        },
+        {
+          "name": "Mountain camel use",
+          "effectNote": "A pack animal used in hills and mountains. The entry describes it as ill suited to desert travel."
+        }
+      ]
+    },
+    "notes": [
+      "1–12 appearing. Steady (12) morale. Animal to semi-intelligent (1–4).",
+      "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+      "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+    ]
+  },
+  {
+    "name": "Racing Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A single-humped camel with long slender legs and small hooves.",
+    "combat": {
+      "armorClass": 7,
+      "hitDice": "2+2",
+      "movement": 24,
+      "thac0": 19,
+      "size": "L, 8 ft. tall",
+      "numberOfAttacks": 1,
+      "damageDice": "1–4",
+      "xp": 75,
+      "habitats": [
+        "Any land"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Spitting",
+          "effectNote": "An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds."
+        },
+        {
+          "name": "Herd stampede",
+          "effectNote": "A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+        }
+      ],
+      "Handling": [
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Load by weight in gold pieces: 150 normal, 280 encumbered, 340 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load."
+        },
+        {
+          "name": "Racing camel use",
+          "effectNote": "Bred for speed. It often spits even at its trainers and accepts few riders. A good racing camel costs at least twice as much as a war camel."
+        }
+      ]
+    },
+    "notes": [
+      "1–6 appearing. Unreliable (3) morale. Animal to semi-intelligent (1–4).",
+      "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+      "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+    ]
+  },
+  {
+    "name": "War Camel",
+    "kind": "beast",
+    "publication": "Monstrous Compendium Al-Qadim Appendix",
+    "edition": "AD&D 2nd edition",
+    "ruleset": "adnd-2e",
+    "appearance": "A stout single-humped camel with a strong neck and heavy shoulders.",
+    "combat": {
+      "armorClass": 7,
+      "hitDice": "3+3",
+      "movement": 21,
+      "thac0": 16,
+      "size": "L, 8 ft. tall",
+      "numberOfAttacks": 3,
+      "damageDice": "1–4 / 1–6 / 1–6",
+      "xp": 95,
+      "habitats": [
+        "Any land"
+      ]
+    },
+    "mechanics": {
+      "Special attacks": [
+        {
+          "name": "Spitting",
+          "effectNote": "An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds."
+        },
+        {
+          "name": "Herd stampede",
+          "effectNote": "A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+        },
+        {
+          "name": "Bite and hooves",
+          "effectNote": "The war camel bites for 1d4 and attacks twice with its hooves for 1d6 each. A successful hoof attack keeps the opponent prone."
+        }
+      ],
+      "Handling": [
+        {
+          "name": "Carrying capacity",
+          "effectNote": "Load by weight in gold pieces: 200 normal, 300 encumbered, 400 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load."
+        },
+        {
+          "name": "War camel use",
+          "effectNote": "Often trained for years from the strongest desert camels, or selectively bred from retired war camels."
+        }
+      ]
+    },
+    "notes": [
+      "1–12 appearing. Elite (13) morale. Animal to semi-intelligent (1–4).",
+      "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+      "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+    ]
+  }
+]

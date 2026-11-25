@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Whisper Gnome",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Humanoid (Gnome) with 30-ft. base land speed. +2 Dexterity, +2 Constitution, −2 Strength, −2 Charisma.",
+      "Small size gives +1 to AC and attacks, +4 size on Hide, and uses Small weapons. Lifting and carrying capacity is three-quarters of Medium.",
+      "Low-light vision doubles normal human range and preserves color and detail. Darkvision sees in black and white out to 60 ft.",
+      "Weapon Familiarity treats the gnome hooked hammer as a martial weapon.",
+      "+1 racial on attack rolls against kobolds and goblinoids. +4 dodge AC against Giant-type creatures while retaining the Dexterity bonus to AC.",
+      "+4 racial bonus on Hide and Move Silently, and +2 racial on Listen and Spot. The size and racial Hide bonuses total +8 before ranks and other modifiers.",
+      "Racial silence 1/day at caster level 1, regardless of Charisma. Center it on the Whisper Gnome’s body. The 20-ft.-radius emanation moves with the gnome and lasts 1 minute, dismissible. It blocks sound and verbal spell components.",
+      "Charisma 10 or higher also grants ghost sound, mage hand, and message once per day each. Caster level 1. Save DC where applicable is 10 + Charisma modifier + spell level.",
+      "The language description lists Gnome and says most also speak Terran. The printed traits give no separate bonus language list or level adjustment. Favored class Rogue.",
+      "The optional Extra Silence feat sets daily silence uses to 3 + Charisma bonus. Each further selection adds three uses. Silencing Strike requires sneak attack and spends a daily silence use on a declared melee sneak attack. On a hit that deals sneak attack damage, silence centers on the target for 1 round per character level with no save. Dismiss the field as a standard action."
+    ]
+  }
+]

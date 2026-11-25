@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Giant Rhinoceros Beetle",
+    "version": {
+      "key": "24b8a399f047e92ce750c079",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "2"
+        ],
+        [
+          "Hit dice",
+          "12"
+        ],
+        [
+          "Size",
+          "L, 12 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6"
+        ],
+        [
+          "THAC0",
+          "9"
+        ],
+        [
+          "Attacks per round",
+          "2"
+        ],
+        [
+          "Damage per attack",
+          "3–18 / 2–16"
+        ],
+        [
+          "XP",
+          "4000"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any jungle",
+            "Tropical and subtropical rain forests"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A twelve-foot beetle with a horn about six feet long and a frequently bright or iridescent shell."
+          ]
+        },
+        {
+          "title": "Attacks mechanics",
+          "lines": [
+            "Mandibles and horn · The mandibles deal 3d6 damage, and the single horn deals 2d8 damage."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Jungle forager · It looks for fruit and vegetation in the rain forest and may crush obstacles in its path."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–6 appearing. Uncommon. The table lists solitary organization and any activity cycle.",
+            "Herbivore. Elite (14) morale.",
+            "Nonintelligent (0). Neutral. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Rhinoceros Beetle": true,
+      "giant rhinoceros beetle iridescent horn": true
+    },
+    "hash": "beaa4925f29fa7fdcc6be5f5d9a6d9c6a7685d1bdaccc8ec8044599ccdb9fb8c",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  },
+  {
+    "name": "Giant Stag Beetle",
+    "version": {
+      "key": "7f36944f7b5a2c566cd1c0b6",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit dice",
+          "7"
+        ],
+        [
+          "Size",
+          "L, 10 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "6"
+        ],
+        [
+          "THAC0",
+          "13"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "4–16 / 1–10 / 1–10"
+        ],
+        [
+          "XP",
+          "975"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any forest",
+            "Cultivated fields adjoining woodland"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A ten-foot beetle with two long horns, usually each at least eight feet long."
+          ]
+        },
+        {
+          "title": "Attacks mechanics",
+          "lines": [
+            "Paired horns · The table gives a first attack for 4–16 damage and one attack with each horn for 1–10. The text identifies the horns and leaves the first attack unnamed."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Crop raids · It feeds chiefly on grain and other crops. A raid can strip a farm and stampede livestock. A hungry Stag Beetle may also eat livestock."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "2–12 appearing. Common. The table lists solitary organization and any activity cycle.",
+            "The table lists Herbivore. Elite (13) morale.",
+            "Nonintelligent (0). Neutral. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Stag Beetle": true,
+      "giant stag beetle crop raid horns": true
+    },
+    "hash": "f47186a58ab65d0f1c9369b8180f0b93e2fa43233e54e595a93507d99755e4c8",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "otherKind": {
+      "id": "monster-0a0d0e5a277c1ef821f3e275",
+      "name": "Giant Stag Beetle",
+      "kind": "monster",
+      "group": "Vermin",
+      "groups": [
+        "Vermin"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        }
+      ],
+      "versions": [
+        {
+          "key": "6bf171a82f3c0cde51afc0cc",
+          "publication": "Revised v3.5 SRD (Monsters)",
+          "edition": "3.5 edition",
+          "images": [],
+          "stats": [
+            [
+              "Type",
+              "Vermin"
+            ]
+          ],
+          "sections": []
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    }
+  },
+  {
+    "name": "Giant Water Beetle",
+    "version": {
+      "key": "2703b888049b248f1bfac14d",
+      "publication": "Monstrous Manual (1994 third printing)",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "3"
+        ],
+        [
+          "Hit dice",
+          "4"
+        ],
+        [
+          "Size",
+          "M, 6 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "3, Sw 9"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "3–18"
+        ],
+        [
+          "XP",
+          "120"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Fresh water at least 30 feet deep"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A six-foot air-breathing beetle that carries a bubble under its wings."
+          ]
+        },
+        {
+          "title": "Habitat and behavior mechanics",
+          "lines": [
+            "Freshwater hunter · It hunts by scent and by feeling vibrations. Water beetles sometimes attack and sink vessels on rivers and lakes. The source gives no separate vessel attack or damage values.",
+            "Air bubble · It carries air under its wings to stay underwater for extended periods and can release a bubble into a cave or other cavity that will hold it. The description gives no duration."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–12 appearing. Common. The table lists solitary organization and any activity cycle.",
+            "Omnivore. Elite (14) morale.",
+            "Nonintelligent (0). Neutral. Treasure, special attacks, special defenses and magic resistance Nil. No fixed HP.",
+            "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 18–19."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Water Beetle": true,
+      "giant water beetle freshwater air bubble": true
+    },
+    "hash": "484eed35844edbe085e97f396c7b437c27b0b3ec0ae4498cb86fdca6aa7472db",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Monstrous Manual (1994 third printing)",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

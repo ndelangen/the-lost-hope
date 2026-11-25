@@ -1,0 +1,185 @@
+[
+  {
+    "name": "Lamprey",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Lamprey",
+    "printedPages": [
+      117,
+      118
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 377,
+        "viewerPage": 380,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/c14d8df650b73d3c9f0c60e1388333a5.webp",
+        "sha256": "cd570898c9b8dd78e42fc1efab96c70fafe8b3b63ef7f15f19e013d8f78c160d"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–2",
+    "printedLampreyArtIdentified": false,
+    "entryId": "beast-cc87cd82b5e4d052289ed46a",
+    "versionKey": "6a31ae7e69717d77148b2d95",
+    "slug": "lamprey",
+    "query": "lamprey bite drain next round",
+    "appearanceQuery": "lamprey elongated circular suction",
+    "habitatQuery": "lamprey fresh water salt water summoning",
+    "portraitSelection": "generated",
+    "habitatSupportPage": 378,
+    "drainBasisCrossReference": {
+      "publication": "Monster Manual (1977)",
+      "printedPage": 59,
+      "url": ""
+    },
+    "portraitEvidence": "Round attaching mouth follows the entry. Olive-gray body and visible gill openings are natural lamprey illustration choices."
+  },
+  {
+    "name": "Giant Lamprey",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Lamprey, Giant",
+    "printedPages": [
+      117,
+      118
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 377,
+        "viewerPage": 380,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/c14d8df650b73d3c9f0c60e1388333a5.webp",
+        "sha256": "cd570898c9b8dd78e42fc1efab96c70fafe8b3b63ef7f15f19e013d8f78c160d"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "1–4",
+    "printedLampreyArtIdentified": false,
+    "entryId": "beast-79b0d15217e303364b84cb9a",
+    "versionKey": "540fd9d938ee542746236096",
+    "slug": "giant-lamprey",
+    "query": "giant lamprey drain 10 hp per round",
+    "appearanceQuery": "giant lamprey thick circular mouth",
+    "habitatQuery": "giant lamprey aquatic swimming habitat",
+    "portraitSelection": "generated",
+    "habitatSupportPage": 378,
+    "drainBasisCrossReference": {
+      "publication": "Monster Manual (1977)",
+      "printedPage": 59,
+      "url": ""
+    },
+    "portraitEvidence": "The round mouth follows the aquatic Lamprey description. Thick body and slate-brown colors are illustration choices."
+  },
+  {
+    "name": "Land Lamprey",
+    "kind": "beast",
+    "publication": "Monstrous Manual (1994 third printing)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "copyrightYear": 1993,
+    "printing": "Third printing, January 1994",
+    "productNumber": 2140,
+    "isbn": "1-56076-619-0",
+    "section": "Fish",
+    "printedRow": "Lamprey, Land",
+    "printedPages": [
+      117,
+      118
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/qkrw/",
+    "pageImages": [
+      {
+        "printedPage": 117,
+        "viewerPage": 120,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/bf2949b86e3fe804af0c021045ab0d44.webp",
+        "sha256": "607509f093f2e17b5f95a9704e43e5879420476cedb9f7709fe84165430fb34a"
+      },
+      {
+        "printedPage": 118,
+        "viewerPage": 121,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/981f6c8811613d3c1f2b6bf18210924c.webp",
+        "sha256": "8df4e8a1a3b2ff1cafe4a651c68b91bf8f58ae2949b3fd4fa2b040a8f456f7d9"
+      },
+      {
+        "printedPage": 377,
+        "viewerPage": 380,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/c14d8df650b73d3c9f0c60e1388333a5.webp",
+        "sha256": "cd570898c9b8dd78e42fc1efab96c70fafe8b3b63ef7f15f19e013d8f78c160d"
+      },
+      {
+        "printedPage": 378,
+        "viewerPage": 381,
+        "imageUrl": "https://online.anyflip.com/vjcbu/qkrw/files/large/86d43ae12f3d55ecb443ba0531c3dea8.webp",
+        "sha256": "2dacc408cdd24c459c00f8a01507825ff5445ab1111531f356085995fd3c3ffe"
+      }
+    ],
+    "creditsPrintScan": "https://online.anyflip.com/vjcbu/qkrw/files/large/efaf128f9ea2ed636f64e32847d3e254.webp",
+    "digitalTextCrossCheck": "",
+    "numberAppearing": "2–12",
+    "printedLampreyArtIdentified": false,
+    "entryId": "beast-be617794ba7c0d1f684b9742",
+    "versionKey": "36d2c5303a507f2a0f9b1542",
+    "slug": "land-lamprey",
+    "query": "land lamprey attached dexterity three rounds",
+    "appearanceQuery": "land lamprey slender circular mouth",
+    "habitatQuery": "land lamprey terrestrial summoning",
+    "portraitSelection": "generated",
+    "habitatSupportPage": 377,
+    "printedAttacks": 2,
+    "secondAttackDescribed": false,
+    "portraitEvidence": "The mouth follows the lamprey description. The earth-brown color, raised pose, and reduced fin profile are illustration choices."
+  }
+]

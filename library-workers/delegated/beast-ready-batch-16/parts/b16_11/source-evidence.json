@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Panther",
+    "publication": "DDEX1-08 - Tales Trees Tell",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC",
+    "printing": "November 1, 2014 release",
+    "language": "English",
+    "printedPages": [
+      26
+    ],
+    "statBlockPage": 26,
+    "section": "Appendix, Monster/NPC Statistics",
+    "sourceUrl": "",
+    "url": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+    "sourceNotes": [
+      "The appendix contains the complete Panther stat block. The printed adventure code is DDEX1-8. Its catalog name retains the roster’s DDEX1-08 spelling.",
+      "The pounce attack requires the same-turn approach and Claw hit. The bonus-action Bite checks whether the target is prone."
+    ],
+    "designer": "Thomas Reid",
+    "releaseDate": "2014-11-01",
+    "copyrightYear": 2014,
+    "productCode": "DDEX1-8",
+    "pdfPage": 26,
+    "creditsPdfPage": 1,
+    "sourceSha256": "a8ef66a09285d990147d4c546f809b4af63b59132d8672f3806af51a37e00e68",
+    "sourceWitness": "Original Wizards of the Coast . The existing local Books copy matches the publisher file byte for byte.",
+    "officialSourceIndex": "",
+    "supportingPrintedPages": [
+      18,
+      23
+    ],
+    "habitatEvidence": "The adventure encounter adjustment is set in the Quivering Forest.",
+    "appearanceEvidence": "Editorial observation of the existing black panther portrait.",
+    "artworkSource": "beast-ready-batch-02/parts/b02_10/portraits/panther.png",
+    "artworkSha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+    "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+    "artworkNote": "Previously staged square parchment portrait reused."
+  },
+  {
+    "name": "Relic Sloth",
+    "publication": "Strixhaven: A Curriculum of Chaos",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC",
+    "printing": "first printing, November 2021",
+    "language": "English",
+    "printedPages": [
+      210
+    ],
+    "statBlockPage": 210,
+    "section": "chapter 7, Friends and Foes",
+    "sourceUrl": "https://online.anyflip.com/usqxr/xjis/files/large/4b4ebc7af65997f4196bafa5ebd13056.webp",
+    "url": "https://online.anyflip.com/usqxr/xjis/files/large/4b4ebc7af65997f4196bafa5ebd13056.webp",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+    "sourceNotes": [
+      "Slow but Sturdy is a reaction. Claws is one attack against one target, with a maximum of two simultaneous grapples."
+    ],
+    "leadDesigner": "Amanda Hamon",
+    "copyrightYear": 2021,
+    "isbn": "978-0-7869-6744-5",
+    "productCode": "620D0147000001 EN",
+    "viewerPages": [
+      212
+    ],
+    "creditsViewerPage": 4,
+    "creditsPageUrl": "https://online.anyflip.com/usqxr/xjis/files/large/eff759b169c826e5a0a9fc1feb263abb.webp",
+    "creditsPageSha256": "faf90deea480c3c9fccfbf42e713b2f77af5ceb1a4cc9b45a7ecf0dfb0db5234",
+    "sourcePageSha256": "a9ff9aa3698ae79a5eeab928a3ca2a8306e17a37dc22f42a6c55dfc495ae5823",
+    "sourceWitness": "Page image of the English first printing and its credits page.",
+    "publisherListing": "https://wpn.wizards.com/en/products/strixhaven-a-curriculum-of-chaos",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/sacoc",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters/2160326-relic-sloth",
+    "sourcePageKind": "D&D Beyond public index confirms name, publication and Beast classification. Creature and book details require access.",
+    "habitatEvidence": "Crumbling ruins are explicitly mentioned in the creature account.",
+    "appearanceEvidence": "Printed text identifies sickle-shaped foreclaws. The long neck and draft-animal proportions are visible in the printed illustration. The staged portrait is an original interpretation.",
+    "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+    "artworkSource": "portraits/relic-sloth.png",
+    "artworkSha256": "87cb1fa8a4008a51e758589e83b0c81319fd51b6b95ed65c03bd6e107fc28761",
+    "artworkNote": "Original square plain-parchment portrait."
+  },
+  {
+    "name": "Swarm of Maggots",
+    "publication": "Van Richten’s Guide to Ravenloft",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC",
+    "printing": "first printing, May 2021",
+    "language": "English",
+    "printedPages": [
+      247
+    ],
+    "statBlockPage": 247,
+    "section": "chapter 5, Monsters of Ravenloft, Swarms",
+    "sourceUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+    "url": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+    "sourceNotes": [
+      "The original stat block omits an alignment. It uses blindsight 10 ft. and grants swim speed 20 ft.",
+      "Disease onset is a Constitution save after the swarm deals damage. Its symptom roll is made at the end of a long rest."
+    ],
+    "projectLead": "F. Wesley Schneider",
+    "copyrightYear": 2021,
+    "isbn": "978-0-7869-6725-4",
+    "productCode": "620C9280000001 EN",
+    "viewerPages": [
+      248
+    ],
+    "creditsViewerPage": 3,
+    "creditsPageUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/3.webp",
+    "creditsPageSha256": "6367233c1141c9d944f0201582590c8c55cc814a774e271ac7fd003f0bb83bbc",
+    "sourcePageSha256": "47eb16636276d13bac1a099fec1f33597fdc58d04d21e4fe03113ae1502a5282",
+    "sourceWitness": "Page image of the English first printing and its credits page.",
+    "publisherListing": "https://wpn.wizards.com/en/products/van-richtens-guide-to-ravenloft",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/vrgor",
+    "sourcePageKind": "The public D&D Beyond catalog lists the swarms as Medium Beasts. The creature links redirect to the purchase page.",
+    "habitatEvidence": "The account describes surges of scavenging swarms in lands under malign influence. Domains of Dread is setting context.",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters/1680947-swarm-of-maggots",
+    "appearanceEvidence": "Soft, pale fly larvae provide a natural maggot silhouette. The artwork depicts an original swarm.",
+    "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+    "artworkSource": "portraits/swarm-of-maggots.png",
+    "artworkSha256": "d19fb3c7ea9f4ef60addea7ab5c0ec45d64c04f2bd48075ef3412bffec5500a0",
+    "artworkNote": "Original square plain-parchment portrait."
+  },
+  {
+    "name": "Swarm of Scarabs",
+    "publication": "Van Richten’s Guide to Ravenloft",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast LLC",
+    "printing": "first printing, May 2021",
+    "language": "English",
+    "printedPages": [
+      247
+    ],
+    "statBlockPage": 247,
+    "section": "chapter 5, Monsters of Ravenloft, Swarms",
+    "sourceUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+    "url": "https://online.anyflip.com/npkza/fwfi/files/mobile/248.webp",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "officialChangelog": "https://www.dndbeyond.com/changelog/",
+    "conditionRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/appendix-a-conditions",
+    "errataEvidence": "No official correction for this creature located in the publisher’s errata index or changelog.",
+    "sourceNotes": [
+      "The original stat block omits an alignment. It uses tremorsense 60 ft. and has separate walking, burrowing and climbing speeds.",
+      "The printed attack gives no saving throw against its continuing damage. Any creature can spend an action to remove the scarabs."
+    ],
+    "projectLead": "F. Wesley Schneider",
+    "copyrightYear": 2021,
+    "isbn": "978-0-7869-6725-4",
+    "productCode": "620C9280000001 EN",
+    "viewerPages": [
+      248
+    ],
+    "creditsViewerPage": 3,
+    "creditsPageUrl": "https://online.anyflip.com/npkza/fwfi/files/mobile/3.webp",
+    "creditsPageSha256": "6367233c1141c9d944f0201582590c8c55cc814a774e271ac7fd003f0bb83bbc",
+    "sourcePageSha256": "47eb16636276d13bac1a099fec1f33597fdc58d04d21e4fe03113ae1502a5282",
+    "sourceWitness": "Page image of the English first printing and its credits page.",
+    "publisherListing": "https://wpn.wizards.com/en/products/van-richtens-guide-to-ravenloft",
+    "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/vrgor",
+    "sourcePageKind": "The public D&D Beyond catalog lists the swarms as Medium Beasts. The creature links redirect to the purchase page.",
+    "habitatEvidence": "The account describes surges of scavenging swarms in lands under malign influence. Domains of Dread is setting context.",
+    "officialCreatureIndex": "https://www.dndbeyond.com/monsters/1680948-swarm-of-scarabs",
+    "appearanceEvidence": "The beetles use natural oval scarab anatomy in an original portrayal.",
+    "artworkCredit": "Original portrait generated with built-in OpenAI ImageGen",
+    "artworkSource": "portraits/swarm-of-scarabs.png",
+    "artworkSha256": "04b51cb17df12b1349fdadf1e0bd2c63ff92ed8130db37a853bd9635f6e9ffa6",
+    "artworkNote": "Original square plain-parchment portrait."
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Nikt’oo",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large amphibious animal, neutral",
+    "ac": 5,
+    "hp": null,
+    "hitDice": "3 HD",
+    "hpRule": "Roll 3d8 for hit points using the appendix’s d8 Hit Dice rule.",
+    "speed": "6, swim 18",
+    "thac0": 17,
+    "xp": 270,
+    "otherStatistics": "AC 5, or 6 against attacks near the legs. Morale average (8–10). Animal intelligence (1). No treasure or magic resistance. The entry gives no special saving throw.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A low, long, turtlelike animal with olive leathery skin, flush bony plates beneath the back, brown and yellow spots, broad feet and large black eyes. Adults reach 10 to 12 ft. long.",
+    "habitats": [
+      "Forest",
+      "Shorelines",
+      "Warm beaches",
+      "Open ocean"
+    ],
+    "sections": {
+      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 78–79. ",
+      "Attacks": "One bite per round, 3d4 damage. On an unmodified roll of 20, the bite severs a hand or foot from an attacking human-sized or smaller creature. The entry gives no separate save against severing. It rarely bites without severe provocation unless trained to attack on command.",
+      "Armor and movement": "Head and back are AC 5. Opponents near the extremities are treated as targeting the legs at AC 6. It has no shell to retract into. A male out of water takes a −2 penalty on attack rolls and 2 damage per round from dryness. They can run for days without rest and keep swimming indefinitely at half movement. Maximum load is 600 lb. at full speed, 900 lb. at half speed or 1,200 lb. at one-third speed.",
+      "Red Curse": "Nikt’oos gain Legacies and need cinnabryl to avert Affliction. Most have little access to it, so Affliction is common. The entry gives no fixed Legacy.",
+      "Encounters and ecology": "Uncommon, solitary, one appearing. Active by day. Tortles and snappers often domesticate them as amphibious mounts or beasts of burden. Wild ones usually flee humanoids but become aggressive in mating season. A female buries 5d6 eggs yearly above the high tide line on a warm beach. Males normally stay in water and may come ashore to defend an egg-laying female. They eat jellyfish, mollusks and seaweed. Adults live about 90 years in the wild or up to 150 in captivity. Fewer than 5% of wild offspring reach adulthood."
+    }
+  },
+  {
+    "name": "Omm-wa",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large manatee-like people, neutral (good)",
+    "ac": 6,
+    "hp": null,
+    "hitDice": "3 HD",
+    "hpRule": "Roll 3d8 for hit points using the appendix’s d8 Hit Dice rule.",
+    "speed": "3, swim 18",
+    "thac0": 17,
+    "xp": 175,
+    "otherStatistics": "AC 6 (10 unarmored). Morale steady (11–12). Low to very intelligent (5–12). Treasure K (F). No special defenses or magic resistance. The entry gives no individual saving throw values.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A large gray or black manatee relative with a flattened horizontal tail, short foreflippers ending in small webbed hands, and no external hind legs. Its small head has a straight snout and a bristly split upper lip. Males have two small tusklike incisors. Adults reach 9 to 11 ft. and up to 1,300 lb.",
+    "habitats": [
+      "Tropical water",
+      "Subtropical water",
+      "Shallow freshwater",
+      "Shallow saltwater",
+      "Aquafarms"
+    ],
+    "sections": {
+      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 81–82. ",
+      "Attacks": "One weapon attack per round for 1d8 damage. Omm-was favor nets underwater and use spears and tridents for defense. Some traded with Herathians for underwater crossbows.",
+      "Burn Legacy": "Most omm-was have Burn. It activates as an instantaneous Legacy up to three times per day. A successful attack roll deals 1d4 plus 1 per level or HD. At the typical 3 HD that is 1d4 + 3 with a 2-ft. range. The range starts at touch and increases 1 ft. per level beyond first to 10 ft. maximum. The flame comes from a fixed hand or mouth and may ignite a flammable object even when the attack misses the target. Omm-was need cinnabryl to ward off Affliction. An omm-wa Afflicted with Burn overheats after a few seconds out of the water.",
+      "Movement and senses": "Air-breathing and at home in salt or fresh water. It can leave the water for at most 30 minutes at a time. It sees more than 300 ft. in clear water and roughly as far as a human in air, though bright light bothers its eyes. It rarely dives below 100 ft.",
+      "Encounter groups": "Rare, any activity cycle. Roll 1d4 + 2 or 1d6 + 14 appearing. A family includes one female shaman of levels 1–3. For every 30 omm-was add a fighter of levels 3–5. For every 60 add a warleader of effective fighter levels 5–8. For every 100 add a wise woman of priest levels 4–6. Shamans normally advance as priests to level 8. About one male in five can gain fighter levels. The rare twin pair is one female shaman, maximum level 8, and one male fighter protector, maximum level 10. Males have a 5% chance of a character kit, typically Defender.",
+      "Society and ecology": "Females hold all authority and inherit their rank through the maternal line. Females reach maturity at 12. The family herbivores tend underwater farms and feed mainly at night. They gather mineral nodules, including a little cinnabryl, and record messages with pebble arrangements or knotted strings and beads."
+    }
+  },
+  {
+    "name": "Succulus",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Small boarlike animal, neutral",
+    "ac": 2,
+    "hp": null,
+    "hitDice": "5 HD",
+    "hpRule": "Roll 5d8 for hit points using the appendix’s d8 Hit Dice rule.",
+    "speed": "15",
+    "thac0": 15,
+    "xp": 420,
+    "otherStatistics": "Morale average (8–10). Semi-intelligent (2–4). No treasure, special defenses or magic resistance. The entry gives no special creature saving throw.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A gray-black wild-boar lookalike with short woolly hair, a bristled mane along its spine, rust-red eyes, and curved lower tusks up to 12 in. long. It stands about 3 ft. at the shoulder.",
+    "habitats": [
+      "Any land",
+      "Caves",
+      "Robrenn forests",
+      "Cursed Savage Coast"
+    ],
+    "sections": {
+      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 103–104. ",
+      "Attacks": "One attack per round for 3d4 damage. It charges a bearer of red steel or cinnabryl, often with Spikes active, and ignores the trick of distracting it with a few dropped red steel spikes.",
+      "Eating metal": "Detects cinnabryl, red steel and steel seed by scent from up to 90 ft. Make a successful attack roll to touch an item made of these metals. On contact it immediately crumbles into edible powder. A weapon of one of those metals that hits the succulus makes contact and is subject to the same disintegration procedure. A magical item with a listed weapon or armor bonus has a 10% chance per +1 to resist. Other magical items made from the listed metals count as +2 (20%). Feeding takes one round regardless of the meal size.",
+      "Dig and Spikes Legacies": "Both are always present. Each is usable three times a day. Digging removes a 5-ft. cube of earth, sand or mud within 10 ft. in one round. A creature within 1 ft. of the pit must pass a Dexterity check or fall inside. A pit in loose earth or mud soon collapses. The appendix’s monster Spikes rules last one round per HD (five rounds). A creature touching the caster takes 2d4 damage. Add 1d6 to a natural physical attack other than a bite. A cinnabryl-rich diet usually protects the succulus from Affliction.",
+      "Encounters and ecology": "Rare family group of 1d12, active by day. Most are encountered with wild swine. Each encounter has a 5% chance of one half-strength offspring, with no separate juvenile stat block in the book. Two succuli produce a succulus. Offspring of a succulus and wild swine have a 5% chance to be a succulus. Eats ore but prefers refined metal. The metal-laden flesh is inedible. Cured hide can make armor equivalent to studded leather (AC 7). A trained young succulus can locate cinnabryl deposits.",
+      "Source notes": "The creature entry calls the two Legacies Dig and Spikes, and uses singular Spike in the combat prose. Digging is the Campaign Book name. This profile uses the appendix’s monster form of Spikes."
+    }
+  },
+  {
+    "name": "Swampmare",
+    "publication": "Savage Coast Monstrous Compendium Appendix",
+    "edition": "AD&D 2nd edition",
+    "classification": "Large tapir-like animal, neutral",
+    "ac": 5,
+    "hp": null,
+    "hitDice": "3+1 HD",
+    "hpRule": "Roll 3d8 + 1 for hit points using the appendix’s d8 Hit Dice rule.",
+    "speed": "6, swim 12",
+    "thac0": 17,
+    "xp": 175,
+    "otherStatistics": "AC 5 in animal form or 0 in tree form. Morale average (8–10). Animal intelligence (1). No treasure or magic resistance. The entry gives no separate saving throw against its attacks.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A large tapir-like animal with green leathery skin, short snout, beady eyes, short ears and clawed webbed feet. It is 6 to 8 ft. long.",
+    "habitats": [
+      "Swamp",
+      "Rain forest",
+      "Bayou",
+      "Dense vegetation"
+    ],
+    "sections": {
+      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 104–105. ",
+      "Attacks": "Three standard attacks, claw/claw/bite for 1d4, 1d4 and 1d8. The table separately lists Forefeet for 1d6 as a special attack. The Combat text says it lashes out with its forefeet in water and uses all four attacks.",
+      "Plant Form Legacy": "After failing a morale check in combat with no apparent way to flee, it takes one round to become a tree. Usually a bald cypress, or a tree suited to its rain forest. The tree is indistinguishable from an ordinary tree, has AC 0, and does not bleed when harmed. Weapon attacks to tree form do at most 1 damage total per round. It stays in tree form up to six hours a day. Plant Form prevents movement, speech and spellcasting under the Campaign Book Legacy rules. It does not need cinnabryl.",
+      "Cover and retreat": "A swampmare has a 30% chance to hide in shadows in thick vegetation. If threatened, it may squeal and flee into water.",
+      "Encounters and ecology": "Uncommon, solitary organization, 3d4 appearing, daytime activity. Gurrash breed domestic strains as mounts and pack animals, each large enough for one gurrash rider. It eats leaves, fruit and other vegetation and needs at least two hours of sunlight daily. Three or more hours in tree form in strong sunlight feed it for a day. Older swampmares spend more time as trees and typically take permanent tree form when they die of old age.",
+      "Source notes": "The printed attack table gives three routine attacks and a separate Forefeet special attack. The combat prose gives four attacks in water without spelling out the individual roll sequence. The 1d6 Forefeet line supplies the damage for the extra attack when applying the water exception."
+    }
+  }
+]

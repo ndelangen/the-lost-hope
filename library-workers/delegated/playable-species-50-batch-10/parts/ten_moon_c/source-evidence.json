@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Relicborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "2024 Player v1.1, folio printed on the page",
+    "printedPages": [
+      12
+    ],
+    "heading": "Relicborn Traits",
+    "publisherListing": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+    "sourceDistinctions": [
+      "The 2024 version uses Undead. The character keeps that creature type.",
+      "A roll of 20 or higher on the Dance of Death check qualifies for temporary HP. The die roll for temporary HP does not include Constitution or consume the Hit Point Die."
+    ]
+  },
+  {
+    "name": "Silkborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Humanoid",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "2024 Player v1.1, folio printed on the page",
+    "printedPages": [
+      13
+    ],
+    "heading": "Silkborn Traits",
+    "publisherListing": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+    "sourceDistinctions": [
+      "Bejeweled Carapace applies to the triggering attack alone. The book grants no constant armor formula.",
+      "The jeweled familiar description applies at level 3. The level-1 rogue has only the Thaumaturgy cantrip."
+    ]
+  },
+  {
+    "name": "Stoneborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Construct",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "2024 Player v1.1, folio printed on the page",
+    "printedPages": [
+      14
+    ],
+    "heading": "Stoneborn Traits",
+    "publisherListing": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+    "sourceDistinctions": [
+      "The fly speed is half the walking speed, 15 ft. for Penn.",
+      "Silver Bulwark states when the reaction is available but does not say whether resistance applies to the triggering damage. This build uses the default reaction timing, beginning resistance after the triggering damage. A table can rule otherwise.",
+      "The two Argent Gleam options use one common charge per long rest."
+    ]
+  },
+  {
+    "name": "Threadborn",
+    "publication": "The Crooked Moon (2024 Player v1.1)",
+    "edition": "Fifth edition compatible (2024 rules)",
+    "publisher": "Avantris Entertainment",
+    "creatureType": "Construct",
+    "url": "",
+    "rulesReadUrl": "",
+    "version": "2024 Player v1.1, folio printed on the page",
+    "printedPages": [
+      15
+    ],
+    "heading": "Threadborn Traits",
+    "publisherListing": "",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+    "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+    "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+    "sourceDistinctions": [
+      "The no-slot Calm Emotions expands legal targets to all creature types. Casting from a slot uses the standard target restriction.",
+      "Sewn Nature affects breathing, food and drink. It gives no exception to sleep requirements.",
+      "You’ve Got a Friend is a separate reaction use of Guidance. The character can still cast the cantrip with its normal action without expending a reaction use."
+    ]
+  }
+]

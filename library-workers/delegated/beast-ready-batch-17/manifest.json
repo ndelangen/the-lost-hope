@@ -1,0 +1,1547 @@
+{
+  "baseline": "cc052c5e606c7879f3673d9fa0ef0b197c07bcc4",
+  "requestedProfiles": 50,
+  "profiles": 27,
+  "generatedPortraits": 15,
+  "reusedExistingPortraits": 10,
+  "entries": [
+    {
+      "owner": "b17_01",
+      "name": "Ebonclaw",
+      "kind": "beast",
+      "publication": "Turn of Fortune's Wheel",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "ebonclaw",
+      "art_owner": "b17_01",
+      "reuse_source": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+      "reuse_sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+      "runtime_file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "reused-portraits/ebonclaw.webp",
+        "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Ebonclaw",
+        "kind": "beast",
+        "publication": "Turn of Fortune's Wheel",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2023,
+        "printing": "First printing, October 2023",
+        "isbn": "978-0-7869-6904-3",
+        "printedPage": 50,
+        "printedPages": [
+          50
+        ],
+        "heading": "Ch. 8, Faunel, Razortooth Rock",
+        "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+        "sourceWitness": "Physical first-print layout and foliation",
+        "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+        "pageWitnesses": [
+          {
+            "viewerSheet": 51,
+            "url": "https://online.anyflip.com/kqwdv/igfp/files/large/4e9fb116b3861fcba9f1127fa7488acb.webp",
+            "sha256": "1376594c8d497a16eac07e4727a3063723f207b2a09233d92a797150f4b3bd09"
+          }
+        ],
+        "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "statBlockOrigin": "Adventure modification or explicit proxy",
+        "nativeType": "Beast",
+        "artGroup": "ebonclaw",
+        "appearanceEvidence": "The adventure calls for a saber-toothed tiger and gives no distinct coat, body, or accessories. The reused portrait shows that animal, including the heavy build, shortened tail and long upper teeth.",
+        "ruleComparison": [
+          "The adventure changes alignment, Intelligence and Charisma to 12, and speech to Common. The indexed summary instead carries the base tiger’s Intelligence 3 and Charisma 8. The 2014 Monster Manual supplies the other combat numbers."
+        ],
+        "baseCreature": {
+          "name": "Saber-Toothed Tiger",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 336,
+          "edition": "2014 fifth edition",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+          "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+        },
+        "portraitReuse": {
+          "source": "beast-ready-batch-06/reused-portraits/saber-toothed-tiger.webp",
+          "file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+          "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_01",
+      "name": "Ophelia",
+      "kind": "beast",
+      "publication": "Turn of Fortune's Wheel",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "4",
+      "art_group": "ophelia",
+      "art_owner": "b17_01",
+      "reuse_source": "beast-ready-batch-02/parts/b02_03/portraits/elephant.png",
+      "reuse_sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+      "runtime_file": "images/beast-ready-batch-02/elephant.png",
+      "rules_url": "",
+      "credit": "Original portrait generated with OpenAI ImageGen",
+      "printed_cr": "4",
+      "portrait": {
+        "file": "reused-portraits/ophelia.png",
+        "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Ophelia",
+        "kind": "beast",
+        "publication": "Turn of Fortune's Wheel",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2023,
+        "printing": "First printing, October 2023",
+        "isbn": "978-0-7869-6904-3",
+        "printedPage": 50,
+        "printedPages": [
+          50
+        ],
+        "heading": "Ch. 8, Faunel, Heart Delta",
+        "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+        "sourceWitness": "Physical first-print layout and foliation",
+        "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+        "pageWitnesses": [
+          {
+            "viewerSheet": 50,
+            "url": "https://online.anyflip.com/kqwdv/igfp/files/large/b59b6a1eff813f0a7e925f2aaa6d51bc.webp",
+            "sha256": "b1c6963ea6d5f69c8d84b1fde5d250512f19a31a4409b33c9a748bab3f9d14fa"
+          }
+        ],
+        "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "statBlockOrigin": "Adventure modification or explicit proxy",
+        "nativeType": "Beast",
+        "artGroup": "ophelia",
+        "appearanceEvidence": "The text calls Ophelia an elephant and gives no differing visible traits. The reused gray elephant portrait suits this encounter.",
+        "ruleComparison": [
+          "The adventure changes alignment, Intelligence to 10, Wisdom and Charisma to 14, and speech to Common. Its prose does not restate passive Perception. The displayed 12 follows the new Wisdom modifier with no Perception proficiency. The base elephant has passive Perception 10.",
+          "The 2023 adventure inherits the 2014-rules Elephant. The November 2018 Monster Manual errata supplies the +6 damage bonus already in force when the adventure appeared. The first 2014 printing used +5 for both."
+        ],
+        "baseCreature": {
+          "name": "Elephant",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 322,
+          "edition": "2014 fifth edition",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+          "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+        },
+        "portraitReuse": {
+          "source": "beast-ready-batch-02/parts/b02_03/portraits/elephant.png",
+          "file": "images/beast-ready-batch-02/elephant.png",
+          "sha256": "dba093158ae121c1425fbe1f1791b15d208abb9f3c606b5b628e39a9e8372029",
+          "credit": "Original portrait generated with OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_01",
+      "name": "Parvaz",
+      "kind": "beast",
+      "publication": "Turn of Fortune's Wheel",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "parvaz",
+      "art_owner": "b17_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "parts/b17_01/portraits/parvaz.png",
+        "sha256": "bbd6d899124580c806b2aa07ee7304aa784fc59d51790606c644d73ebe30093f",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Parvaz",
+        "kind": "beast",
+        "publication": "Turn of Fortune's Wheel",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2023,
+        "printing": "First printing, October 2023",
+        "isbn": "978-0-7869-6904-3",
+        "printedPage": 51,
+        "printedPages": [
+          51
+        ],
+        "heading": "Ch. 8, Faunel, Eagles’ Aerie",
+        "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+        "sourceWitness": "Physical first-print layout and foliation",
+        "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+        "pageWitnesses": [
+          {
+            "viewerSheet": 51,
+            "url": "https://online.anyflip.com/kqwdv/igfp/files/large/4e9fb116b3861fcba9f1127fa7488acb.webp",
+            "sha256": "1376594c8d497a16eac07e4727a3063723f207b2a09233d92a797150f4b3bd09"
+          }
+        ],
+        "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "statBlockOrigin": "Adventure modification or explicit proxy",
+        "nativeType": "Beast",
+        "artGroup": "parvaz",
+        "appearanceEvidence": "The adventure calls Parvaz a giant albatross. A giant eagle portrait would show the wrong bill, wings and feet. The new albatross is one representative of the seabird type.",
+        "ruleComparison": [
+          "The adventure specifies neutral alignment, Intelligence 16, Charisma 14, and spoken Common. The displayed language follows the adventure’s named entry. The base Giant Eagle has its own language listing.",
+          "The attack names follow the borrowed Giant Eagle rules. Parvaz’s appearance follows the adventure’s albatross description."
+        ],
+        "baseCreature": {
+          "name": "Giant Eagle",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 324,
+          "edition": "2014 fifth edition",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+          "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+        },
+        "portraitSha256": "bbd6d899124580c806b2aa07ee7304aa784fc59d51790606c644d73ebe30093f"
+      }
+    },
+    {
+      "owner": "b17_01",
+      "name": "Whirlwyrm",
+      "kind": "beast",
+      "publication": "Turn of Fortune's Wheel",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "whirlwyrm",
+      "art_owner": "b17_01",
+      "reuse_source": "adnd2e-monstrous-manual-eels/portraits/giant-eel-draft.png",
+      "reuse_sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+      "runtime_file": "images/adnd2e-monstrous-manual-eels/giant-eel.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "reused-portraits/whirlwyrm.png",
+        "sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Whirlwyrm",
+        "kind": "beast",
+        "publication": "Turn of Fortune's Wheel",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2023,
+        "printing": "First printing, October 2023",
+        "isbn": "978-0-7869-6904-3",
+        "printedPage": 52,
+        "printedPages": [
+          52,
+          54
+        ],
+        "heading": "Ch. 9, Glorium, Whirlwyrm Attack",
+        "sourceUrl": "https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#WhirlwyrmAttack",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/paitm/tofw",
+        "sourceWitness": "Physical first-print layout and foliation",
+        "sourceWitnessUrl": "https://www.scribd.com/document/734156838/Turn-of-Fortune-s-Wheel",
+        "pageWitnesses": [
+          {
+            "viewerSheet": 54,
+            "url": "https://online.anyflip.com/kqwdv/igfp/files/large/b19c2226bd07fb8e24c2bc5886acbddb.webp",
+            "sha256": "99331b28b259d7ec2fbcc8fbe57cda361c6c44ca76de9042f94ab8d94b17f2be"
+          },
+          {
+            "viewerSheet": 55,
+            "url": "https://online.anyflip.com/kqwdv/igfp/files/large/30b776d97b010c6feb8d693127063947.webp",
+            "sha256": "ac0bfda2545745aae06574c74d831b6b1b73e2624dae8a424c48fe74fa54f005"
+          }
+        ],
+        "pageWitnessNote": "The page images are a digital-layout cross-check. Printed foliation and printing were verified in the first-print layout.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "statBlockOrigin": "Adventure modification or explicit proxy",
+        "nativeType": "Beast",
+        "artGroup": "whirlwyrm",
+        "appearanceEvidence": "The adventure says giant eel despite using crocodile mechanics. The existing single dark-brown Giant Eel shows the intended serpentine form.",
+        "ruleComparison": [
+          "The ordinary Whirlwyrm uses the Giant Crocodile block. The adventure’s separate elder Whirlwyrm uses Behir and belongs to the Monstrosity category."
+        ],
+        "baseCreature": {
+          "name": "Giant Crocodile",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 324,
+          "edition": "2014 fifth edition",
+          "url": "https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+          "officialErrataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014"
+        },
+        "portraitReuse": {
+          "source": "adnd2e-monstrous-manual-eels/portraits/giant-eel-draft.png",
+          "file": "images/adnd2e-monstrous-manual-eels/giant-eel.png",
+          "sha256": "ff5ee12f7648c6ad8d6ec5c4b6ad4ca05a6aae62008110ff489ca4af93de3d74",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_01",
+      "name": "Spotted Lion",
+      "kind": "beast",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "spotted-lion",
+      "art_owner": "b17_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/3731048-spotted-lion",
+      "credit": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b17_01/portraits/spotted-lion.png",
+        "sha256": "74a7b744511d2bcb17e5f586be2960052f7f492525d98b66cd2c318b0efe1d5d",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Spotted Lion",
+        "kind": "beast",
+        "publication": "Bigby Presents: Glory of the Giants",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2023,
+        "printing": "First printing, August 2023",
+        "isbn": "978-0-7869-6899-2",
+        "printedPage": 177,
+        "printedPages": [
+          177
+        ],
+        "heading": "Ch. 6, Bestiary",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/3731048-spotted-lion",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/bgg",
+        "sourceWitness": "First-print physical folios and colophon, rendered from the original book scan",
+        "sourceWitnessUrl": "https://online.anyflip.com/fmtsi/jmxv/mobile/index.html#p=176",
+        "pageWitnesses": [
+          {
+            "viewerSheet": 176,
+            "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/a7f407155f8410f4eb89a7e3c8057a1c.webp",
+            "sha256": "e4c06e2af79b7853cda434af8ba1fc0e459ef11f0908c7910ff3391b09ce5b17"
+          },
+          {
+            "viewerSheet": 3,
+            "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/77cb9d7a88bf2f6ee85f2072042a709d.webp",
+            "sha256": "8feb56ed0f6b1f44f1a8f9a0f2fcd8c6ae40c3d4df27c9f03da1875d57df683d"
+          }
+        ],
+        "pageWitnessNote": "Image sheet index is one below the printed page number for these Beast entries. Viewer sheet 3 contains the colophon.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "statBlockOrigin": "Native published block",
+        "nativeType": "Beast",
+        "artGroup": "spotted-lion",
+        "appearanceEvidence": "The source specifies charcoal spots across both the dusky coat and mane. The staged gray-tawny male lion includes both visible markings.",
+        "ruleComparison": [
+          "The prone target qualifies the bonus attack even when it was already prone. The movement clause gates the save."
+        ],
+        "portraitSha256": "74a7b744511d2bcb17e5f586be2960052f7f492525d98b66cd2c318b0efe1d5d"
+      }
+    },
+    {
+      "owner": "b17_01",
+      "name": "Titanothere",
+      "kind": "beast",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "5",
+      "art_group": "titanothere",
+      "art_owner": "b17_01",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/3731056-titanothere",
+      "credit": "",
+      "printed_cr": "5",
+      "portrait": {
+        "file": "parts/b17_01/portraits/titanothere.png",
+        "sha256": "7c1ebd4ac96666e11ab9c317d8787514980696d7a800ea8b86508a381a44d0ac",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Titanothere",
+        "kind": "beast",
+        "publication": "Bigby Presents: Glory of the Giants",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast LLC",
+        "copyrightYear": 2023,
+        "printing": "First printing, August 2023",
+        "isbn": "978-0-7869-6899-2",
+        "printedPage": 185,
+        "printedPages": [
+          185
+        ],
+        "heading": "Ch. 6, Bestiary",
+        "sourceUrl": "https://www.dndbeyond.com/monsters/3731056-titanothere",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/bgg",
+        "sourceWitness": "First-print physical folios and colophon, rendered from the original book scan",
+        "sourceWitnessUrl": "https://online.anyflip.com/fmtsi/jmxv/mobile/index.html#p=184",
+        "pageWitnesses": [
+          {
+            "viewerSheet": 184,
+            "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/150b75242dcc607742c76016f6218101.webp",
+            "sha256": "0af74be8994bdd84b62712ae1ebf170bec51b182c596e6fd7dcdbd1274194ab8"
+          },
+          {
+            "viewerSheet": 3,
+            "url": "https://online.anyflip.com/fmtsi/jmxv/files/large/77cb9d7a88bf2f6ee85f2072042a709d.webp",
+            "sha256": "8feb56ed0f6b1f44f1a8f9a0f2fcd8c6ae40c3d4df27c9f03da1875d57df683d"
+          }
+        ],
+        "pageWitnessNote": "Image sheet index is one below the printed page number for these Beast entries. Viewer sheet 3 contains the colophon.",
+        "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+        "statBlockOrigin": "Native published block",
+        "nativeType": "Beast",
+        "artGroup": "titanothere",
+        "appearanceEvidence": "The first printing shows a rhinoceros relative with branched bony face ornament and rugged folded hide. Its horns are one printed example of a varied group. The staged mammal follows those traits instead of the ordinary rhinoceros or dinosaur silhouettes.",
+        "ruleComparison": [
+          "The charge rider adds damage to any target. Only a creature makes the Strength save."
+        ],
+        "portraitSha256": "7c1ebd4ac96666e11ab9c317d8787514980696d7a800ea8b86508a381a44d0ac"
+      }
+    },
+    {
+      "owner": "b17_02",
+      "name": "Bristled Moorbounder",
+      "kind": "beast",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "bristled-moorbounder",
+      "art_owner": "b17_02",
+      "reuse_source": "beast-ready-batch-14/parts/b14_10/portraits/bristled-moorbounder.png",
+      "reuse_sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+      "runtime_file": "images/beast-ready-batch-14/bristled-moorbounder.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/744304-bristled-moorbounder",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "reused-portraits/bristled-moorbounder.png",
+        "sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Bristled Moorbounder",
+        "publication": "Explorer's Guide to Wildemount",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, March 2020.",
+        "isbn": "978-0-7869-6691-2",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/egtw",
+        "artGroup": "bristled-moorbounder",
+        "section": "Wildemount Bestiary, Moorbounders",
+        "printedPages": [
+          295
+        ],
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/",
+        "pageWitnesses": [
+          {
+            "printedPage": 295,
+            "viewerPage": 296,
+            "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/"
+          },
+          {
+            "viewerPage": 3,
+            "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/3/"
+          }
+        ],
+        "appearanceEvidence": "Sleek, muscular hunting-cat body, long tusks, retractable claws, and long blade-shaped bristles.",
+        "ruleComparison": "Wildemount uses the action label Claws. Call of the Netherdeep p. 203 presents the same damage as Claw.",
+        "portrait": {
+          "reuseSource": "beast-ready-batch-14/parts/b14_10/portraits/bristled-moorbounder.png",
+          "sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+          "runtimeFile": "images/beast-ready-batch-14/bristled-moorbounder.png",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_02",
+      "name": "Moorbounder",
+      "kind": "beast",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "moorbounder",
+      "art_owner": "b17_02",
+      "reuse_source": "beast-ready-batch-14/parts/b14_10/portraits/moorbounder.png",
+      "reuse_sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+      "runtime_file": "images/beast-ready-batch-14/moorbounder.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/744323-moorbounder",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/moorbounder.png",
+        "sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Moorbounder",
+        "publication": "Explorer's Guide to Wildemount",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, March 2020.",
+        "isbn": "978-0-7869-6691-2",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/egtw",
+        "artGroup": "moorbounder",
+        "section": "Wildemount Bestiary, Moorbounders",
+        "printedPages": [
+          295
+        ],
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/",
+        "pageWitnesses": [
+          {
+            "printedPage": 295,
+            "viewerPage": 296,
+            "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/"
+          },
+          {
+            "viewerPage": 3,
+            "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/3/"
+          }
+        ],
+        "appearanceEvidence": "Muscular, leaping hunting cat with elongated tusks and retractable claws.",
+        "ruleComparison": "Wildemount uses the action label Claws. Call of the Netherdeep p. 203 presents the same damage as Claw.",
+        "portrait": {
+          "reuseSource": "beast-ready-batch-14/parts/b14_10/portraits/moorbounder.png",
+          "sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+          "runtimeFile": "images/beast-ready-batch-14/moorbounder.png",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_02",
+      "name": "Old Croaker",
+      "kind": "beast",
+      "publication": "Explorer's Guide to Wildemount",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "old-croaker",
+      "art_owner": "b17_02",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png",
+      "reuse_sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+      "runtime_file": "images/beast-ready-batch-05/giant-toad.png",
+      "rules_url": "https://www.dndbeyond.com/monsters/744327-old-croaker",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/old-croaker.png",
+        "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Old Croaker",
+        "publication": "Explorer's Guide to Wildemount",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, March 2020.",
+        "isbn": "978-0-7869-6691-2",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/egtw",
+        "artGroup": "old-croaker",
+        "section": "Frozen Sick, C5 Old Croaker's Pool",
+        "printedPages": [
+          240
+        ],
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/241/",
+        "pageWitnesses": [
+          {
+            "printedPage": 240,
+            "viewerPage": 241,
+            "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/241/"
+          },
+          {
+            "viewerPage": 3,
+            "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/3/"
+          }
+        ],
+        "appearanceEvidence": "Area C5 describes a giant toad and gives no individual skin color.",
+        "baseBlock": {
+          "name": "Giant Toad",
+          "printedPage": 329,
+          "sourceUrl": ""
+        },
+        "publisherStatBlockUrl": "https://www.dndbeyond.com/monsters/744327-old-croaker",
+        "publisherEncounterUrl": "https://www.dndbeyond.com/sources/dnd/wa/frozen-sick#C5OldCroakersPool",
+        "ruleComparison": "Preserves the Giant Toad block and adds cold immunity per area C5.",
+        "portrait": {
+          "reuseSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png",
+          "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+          "runtimeFile": "images/beast-ready-batch-05/giant-toad.png",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_02",
+      "name": "Koi Prawn",
+      "kind": "beast",
+      "publication": "Journeys through the Radiant Citadel",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "koi-prawn",
+      "art_owner": "b17_02",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b17_02/portraits/koi-prawn.png",
+        "sha256": "bb33da9e443f4ac1a4db1ea665c715174e837fe5f067abe3ea307250e5393f05",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Koi Prawn",
+        "publication": "Journeys through the Radiant Citadel",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, June 2022.",
+        "isbn": "978-0-7869-6805-3",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/jttrc",
+        "artGroup": "koi-prawn",
+        "section": "Salted Legacy, Prawn Preparation",
+        "printedPages": [
+          25,
+          26
+        ],
+        "sourceUrl": "https://www.scribd.com/document/617503780/qpbh",
+        "publisherEncounterUrl": "https://www.dndbeyond.com/sources/dnd/jttrc/salted-legacy",
+        "publisherArtworkUrl": "https://www.thefandomentals.com/wp-content/uploads/2022/07/Journeys-Through-the-Radiant-Citadel-ART8.jpeg",
+        "pageWitnesses": [
+          {
+            "printedPage": 25,
+            "sourceUrl": "https://www.scribd.com/document/617503780/qpbh"
+          },
+          {
+            "printedPage": 26,
+            "sourceUrl": "https://www.scribd.com/document/617503780/qpbh"
+          }
+        ],
+        "appearanceEvidence": "Printed illustration shows a jagged violet prawn with a spined rostrum, cyan markings, long antennae, and long segmented legs.",
+        "baseBlock": {
+          "name": "Giant Sea Horse",
+          "printedPage": 328,
+          "sourceUrl": "",
+          "publisherStatBlockUrl": "https://www.dndbeyond.com/monsters/16893-giant-sea-horse"
+        },
+        "ruleComparison": "Uses Giant Sea Horse as printed, with the tank encounter’s four specimens, defensive behavior, half cover, immediate stop at 0 HP, and sous-chef rescue recorded separately.",
+        "portrait": {
+          "stagedFile": "portraits/koi-prawn.png",
+          "sha256": "bb33da9e443f4ac1a4db1ea665c715174e837fe5f067abe3ea307250e5393f05",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_02",
+      "name": "Rooster",
+      "kind": "beast",
+      "publication": "Journeys through the Radiant Citadel",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "rooster",
+      "art_owner": "b17_02",
+      "reuse_source": "indexed:images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+      "reuse_sha256": "087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e",
+      "runtime_file": "images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "reused-portraits/rooster.webp",
+        "sha256": "087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rooster",
+        "publication": "Journeys through the Radiant Citadel",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "First printing, June 2022.",
+        "isbn": "978-0-7869-6805-3",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/jttrc",
+        "artGroup": "rooster",
+        "section": "Orchids of the Invisible Mountain, The Grassroads, Lean-To Items",
+        "printedPages": [
+          206
+        ],
+        "sourceUrl": "https://www.scribd.com/document/617503780/qpbh",
+        "publisherEncounterUrl": "https://www.dndbeyond.com/sources/dnd/jttrc/orchids-of-the-invisible-mountain",
+        "pageWitnesses": [
+          {
+            "printedPage": 206,
+            "sourceUrl": "https://www.scribd.com/document/617503780/qpbh"
+          }
+        ],
+        "appearanceEvidence": "The table names an ordinary sleeping rooster. Existing artwork depicts an ordinary standing rooster.",
+        "baseBlock": {
+          "name": "Hawk",
+          "printedPage": 330,
+          "sourceUrl": "",
+          "publisherStatBlockUrl": "https://www.dndbeyond.com/monsters/16920-hawk"
+        },
+        "ruleComparison": "The only numerical change to the Hawk is removal of the fly speed. Keeps the 10 ft. walking speed and CR 0.",
+        "portrait": {
+          "reuseSource": "indexed:images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+          "sha256": "087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e",
+          "runtimeFile": "images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+          "credit": "OpenAI ImageGen"
+        }
+      }
+    },
+    {
+      "owner": "b17_03",
+      "name": "Hellwasp Grub",
+      "kind": "beast",
+      "publication": "Baldur's Gate: Descent Into Avernus",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "hellwasp-grub",
+      "art_owner": "b17_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b17_03/portraits/hellwasp-grub.png",
+        "sha256": "b14e0af8ce6f486bd9a3fa8d3dd2f7372f8ffaa4638f1b46130d7256a069a1f6",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Hellwasp Grub",
+        "publication": "Baldur's Gate: Descent Into Avernus",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          95
+        ],
+        "section": "N3. Hellwasp Larvae",
+        "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=96",
+        "url": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=96",
+        "inheritedStatBlock": {
+          "name": "Giant Centipede",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 323,
+          "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+        },
+        "appearanceEvidence": "The adventure identifies the creature as a grub growing inside an angel carcass. The existing scoped digital token shows a reddish armored immature insect. The centipede portrait has the anatomy of the rules proxy.",
+        "verification": "The adventure explicitly points to Giant Centipede without changes to its statistics. The adult Hellwasp is a different creature.",
+        "visualWitnesses": [
+          {
+            "printedPage": 95,
+            "viewerPage": 96,
+            "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=96",
+            "sha256": "2ead793d79dec321e51b0f2149c477c124aab57e2ab310792bbfff0a9d9366ee"
+          }
+        ],
+        "printing": "First printing, September 2019",
+        "isbn": "978-0-7869-6687-5",
+        "title": "Baldur's Gate: Descent into Avernus",
+        "publisherUrl": "https://www.dndbeyond.com/sources/dnd/bgdia",
+        "colophonUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=3"
+      }
+    },
+    {
+      "owner": "b17_03",
+      "name": "Peacock",
+      "kind": "beast",
+      "publication": "Baldur's Gate: Descent Into Avernus",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "peacock",
+      "art_owner": "b17_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b17_03/portraits/peacock.png",
+        "sha256": "5e62e359197c21e0d557160df2b5b0aef3e3ec130cb9f9c4192b9dd903f6ccd2",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Peacock",
+        "publication": "Baldur's Gate: Descent Into Avernus",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          195
+        ],
+        "section": "Baldur’s Gate Gazetteer, Table H result 7",
+        "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=196",
+        "url": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=196",
+        "inheritedStatBlock": {
+          "name": "Vulture",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 339,
+          "sourceUrl": ""
+        },
+        "appearanceEvidence": "The encounter calls the animal a peacock. The scoped token confirms the blue male with a patterned train. A vulture is only the rules proxy.",
+        "verification": "The gazetteer specifically calls for the regular Vulture block. Its larger peacock in a different encounter is separate set dressing.",
+        "visualWitnesses": [
+          {
+            "printedPage": 195,
+            "viewerPage": 196,
+            "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=196",
+            "sha256": "828e1008c07e141a9d5091fc4fabac41c01d50fc7dc252815c34db06c843ccd0"
+          }
+        ],
+        "printing": "First printing, September 2019",
+        "isbn": "978-0-7869-6687-5",
+        "title": "Baldur's Gate: Descent into Avernus",
+        "publisherUrl": "https://www.dndbeyond.com/sources/dnd/bgdia",
+        "colophonUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=3"
+      }
+    },
+    {
+      "owner": "b17_03",
+      "name": "Traxigor",
+      "kind": "beast",
+      "publication": "Baldur's Gate: Descent Into Avernus",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "12",
+      "art_group": "traxigor",
+      "art_owner": "b17_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "12",
+      "portrait": {
+        "file": "parts/b17_03/portraits/traxigor.png",
+        "sha256": "b8fecd819074b2c0027cad495f0d9e0e64e9568dc5274b741e4df0d9337150fa",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Traxigor",
+        "publication": "Baldur's Gate: Descent Into Avernus",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          50
+        ],
+        "section": "Getting to Avernus, Traxigor’s Tower",
+        "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=51",
+        "url": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=51",
+        "inheritedStatBlock": {
+          "name": "Archmage",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 342,
+          "sourceUrl": "https://www.dndbeyond.com/monsters/16789-archmage"
+        },
+        "appearanceEvidence": "The boxed description identifies an otter in a tiny red cassock. The staging uses an original naturalistic river-otter pose.",
+        "verification": "The original adventure specifies Tiny Beast, Strength 3, chaotic good, six fixed languages, and Plane Shift prepared in place of Teleport. Other Archmage statistics carry forward, even the printed d8 Hit Dice.",
+        "visualWitnesses": [
+          {
+            "printedPage": 50,
+            "viewerPage": 51,
+            "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=51",
+            "sha256": "95957049810dab6d65aca345d8b5171428b9e5bbd7f484f3a37ad8b035873d11"
+          }
+        ],
+        "printing": "First printing, September 2019",
+        "isbn": "978-0-7869-6687-5",
+        "title": "Baldur's Gate: Descent into Avernus",
+        "publisherUrl": "https://www.dndbeyond.com/sources/dnd/bgdia",
+        "colophonUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=3"
+      }
+    },
+    {
+      "owner": "b17_03",
+      "name": "Enormous Tentacle",
+      "kind": "beast",
+      "publication": "The Orrery of the Wanderer",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "enormous-tentacle",
+      "art_owner": "b17_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b17_03/portraits/enormous-tentacle.png",
+        "sha256": "5b76fb826348852978163ce64ec82f84522fab00a530b12fb601f84d82f930ca",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Enormous Tentacle",
+        "publication": "The Orrery of the Wanderer",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          93,
+          94
+        ],
+        "section": "The Orrery of the Wanderer, area 8 Tentacle",
+        "sourceUrl": "",
+        "url": "",
+        "inheritedStatBlock": {
+          "name": "Giant Constrictor Snake",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 324,
+          "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+        },
+        "appearanceEvidence": "The text describes a single long appendage emerging from a weak planar barrier. The printed scene illustration shows it green. The isolated portrait leaves the connected creature off the page.",
+        "verification": "The encounter text gives two modifications to the Giant Constrictor Snake and then specifies the stages of its grapple. No tremorsense radius is printed for the owner creature.",
+        "visualWitnesses": [],
+        "printing": "First printing, June 2019",
+        "isbn": "978-0-7869-6690-5",
+        "title": "Acquisitions Incorporated",
+        "publisherUrl": "https://www.dndbeyond.com/sources/dnd/ai",
+        "documentSha256": "8066053a30443f5e4cd7e819e2aeff63d280af1ad0cbebc776d743cb3ee8b94d"
+      }
+    },
+    {
+      "owner": "b17_03",
+      "name": "Onyx",
+      "kind": "beast",
+      "publication": "The Orrery of the Wanderer",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "0",
+      "art_group": "onyx",
+      "art_owner": "b17_03",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "0",
+      "portrait": {
+        "file": "parts/b17_03/portraits/onyx.png",
+        "sha256": "32946c10ee166fb7d0e8b77f5c3aa476b974941b10b38185cc6676f23b4a6ed9",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Onyx",
+        "publication": "The Orrery of the Wanderer",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printedPages": [
+          185,
+          186,
+          187
+        ],
+        "section": "The Orrery of the Wanderer, Onyx Ascendant",
+        "sourceUrl": "",
+        "url": "",
+        "inheritedStatBlock": {
+          "name": "Cat",
+          "publication": "Monster Manual (2014)",
+          "printedPage": 320,
+          "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c"
+        },
+        "appearanceEvidence": "The book illustration depicts the cat as brown with vivid blue eyes. The staging recolors the previously staged ordinary cat and preserves the parchment, silhouette and pose.",
+        "verification": "The original gives an explicit Cat override, printed speed, protection from damage, shortened durations, Huge relative size, and replacement claws.",
+        "visualWitnesses": [],
+        "printing": "First printing, June 2019",
+        "isbn": "978-0-7869-6690-5",
+        "title": "Acquisitions Incorporated",
+        "publisherUrl": "https://www.dndbeyond.com/sources/dnd/ai",
+        "documentSha256": "8066053a30443f5e4cd7e819e2aeff63d280af1ad0cbebc776d743cb3ee8b94d"
+      }
+    },
+    {
+      "owner": "b17_04",
+      "name": "Bhaal, Ravager",
+      "kind": "beast",
+      "publication": "Minsc and Boo's Journal of Villainy",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "24",
+      "art_group": "bhaal-ravager",
+      "art_owner": "b17_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "24",
+      "portrait": {
+        "file": "parts/b17_04/portraits/bhaal-ravager.png",
+        "sha256": "43b589aa5f43c3e28e1a32c1560157160e849fe49488b0e77ea9234165925945",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Bhaal, Ravager",
+        "publication": "Minsc and Boo's Journal of Villainy",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "artGroup": "bhaal-ravager",
+        "printedPages": [
+          95
+        ],
+        "scope": "Huge Beast, lawful evil",
+        "appearanceEvidence": "Bhaal's huge, spined Beast avatar has a biting maw, claws, and a spiked carapace.",
+        "mechanicsNotes": [
+          "The 2021 Multiattack refers to a Fear aura with no rules in the block. Spiky Carapace has no stated end time. The separate Slayer avatar on p. 93 is Humanoid."
+        ],
+        "publisher": "Wizards of the Coast and Arcanum Worlds",
+        "printing": "2021 original release as witnessed by a facsimile uploaded in 2021. Later revisions are outside this profile.",
+        "section": "Chapter 3, Campaign Villains, Bhaal",
+        "sourceUrl": "https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy",
+        "publisherSourceUrl": "https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e",
+        "sourceWitness": "The accessible original-layout text shows the heading, native rules, and numbered folio. A separate page image was unavailable."
+      }
+    },
+    {
+      "owner": "b17_04",
+      "name": "Deep Spider",
+      "kind": "beast",
+      "publication": "Minsc and Boo's Journal of Villainy",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "7",
+      "art_group": "sword-spider",
+      "art_owner": "b17_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "7",
+      "portrait": {
+        "file": "parts/b17_04/portraits/sword-spider.png",
+        "sha256": "f699c94cf67afc29e3091f364d831b5df0e8669a7b861ebdb2d2cf8ac106d723",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Deep Spider",
+        "publication": "Minsc and Boo's Journal of Villainy",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "artGroup": "sword-spider",
+        "printedPages": [
+          151
+        ],
+        "scope": "Huge Beast, unaligned",
+        "appearanceEvidence": "A giant spider with fine black hairs, a sleek dark exoskeleton, and eight serrated legs. The front pair ends in large curved blades.",
+        "mechanicsNotes": [
+          "The ecology prose describes leaps and restraint by sprayed webs, while the stat block defines no separate Leap or Web action."
+        ],
+        "publisher": "Wizards of the Coast and Arcanum Worlds",
+        "printing": "2021 original release as witnessed by a facsimile uploaded in 2021. Later revisions are outside this profile.",
+        "section": "Chapter 5, Monsters, Sword Spider",
+        "sourceUrl": "https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy",
+        "publisherSourceUrl": "https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e",
+        "sourceWitness": "The accessible original-layout text shows the heading, native rules, and numbered folio. A separate page image was unavailable."
+      }
+    },
+    {
+      "owner": "b17_04",
+      "name": "Sword Spider",
+      "kind": "beast",
+      "publication": "Minsc and Boo's Journal of Villainy",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "sword-spider",
+      "art_owner": "b17_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b17_04/portraits/sword-spider.png",
+        "sha256": "f699c94cf67afc29e3091f364d831b5df0e8669a7b861ebdb2d2cf8ac106d723",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sword Spider",
+        "publication": "Minsc and Boo's Journal of Villainy",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "artGroup": "sword-spider",
+        "printedPages": [
+          151
+        ],
+        "scope": "Large Beast, unaligned",
+        "appearanceEvidence": "A giant spider with fine black hairs, a sleek dark exoskeleton, and eight serrated legs. The front pair ends in large curved blades.",
+        "mechanicsNotes": [
+          "The ecology prose describes leaps and restraint by sprayed webs, while the stat block defines no separate Leap or Web action."
+        ],
+        "publisher": "Wizards of the Coast and Arcanum Worlds",
+        "printing": "2021 original release as witnessed by a facsimile uploaded in 2021. Later revisions are outside this profile.",
+        "section": "Chapter 5, Monsters, Sword Spider",
+        "sourceUrl": "https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy",
+        "publisherSourceUrl": "https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e",
+        "sourceWitness": "The accessible original-layout text shows the heading, native rules, and numbered folio. A separate page image was unavailable."
+      }
+    },
+    {
+      "owner": "b17_04",
+      "name": "Rothé",
+      "kind": "beast",
+      "publication": "Chains of Asmodeus",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "rothe",
+      "art_owner": "b17_04",
+      "reuse_source": "beast-ready-batch-13/parts/b13_07/portraits/rothe.png",
+      "reuse_sha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480",
+      "runtime_file": "images/beast-ready-batch-13/rothe.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "reused-portraits/rothe.png",
+        "sha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Rothé",
+        "publication": "Chains of Asmodeus",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "artGroup": "rothe",
+        "printedPages": [
+          48
+        ],
+        "scope": "Large Beast (cattle), unaligned",
+        "appearanceEvidence": "A stocky horned rothé with a shaggy cattle build.",
+        "mechanicsNotes": [
+          "Rothé in this printing has the Cattle tag and an explicit proficiency bonus. The encounter supplies no change to the herd’s anatomy."
+        ],
+        "publisher": "Arcanum Worlds and Wizards of the Coast",
+        "printing": "2023 original adventure ",
+        "section": "Chapter 2, Shadow of a Tyrant",
+        "sourceUrl": "https://www.scribd.com/document/683889128/Chains-of-Asmodeus",
+        "publisherSourceUrl": "https://www.dmsguild.com/en/product/457996/chains-of-asmodeus",
+        "sourceWitness": "The accessible original-layout text preserves the box, native values, and printed folio. A separate page image was unavailable.",
+        "reusedPortrait": "beast-ready-batch-13/parts/b13_07/portraits/rothe.png",
+        "reusedPortraitSha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480"
+      }
+    },
+    {
+      "owner": "b17_04",
+      "name": "Giant Canary",
+      "kind": "beast",
+      "publication": "Fizban's Treasury of Dragons",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "giant-canary",
+      "art_owner": "b17_04",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "https://www.dndbeyond.com/monsters/2059742-giant-canary",
+      "credit": "",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "parts/b17_04/portraits/giant-canary.png",
+        "sha256": "895b42de5408c1d35cb84d2fe23ee9f2465971a2bb184c517dbb1bc205a4302c",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Giant Canary",
+        "publication": "Fizban's Treasury of Dragons",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "artGroup": "giant-canary",
+        "printedPages": [
+          23,
+          24
+        ],
+        "scope": "Large Beast, unaligned",
+        "appearanceEvidence": "A living canary large enough to ride, with a stout songbird beak and yellow feathers in this portrait.",
+        "mechanicsNotes": [
+          "The Beast block belongs to the figurine’s canary option. Its adult gold dragon option uses a separate Monster Manual profile."
+        ],
+        "publisher": "Wizards of the Coast",
+        "printing": "October 2021 first printing, ISBN 978-0-7869-6729-2",
+        "section": "Chapter 2, Dragon Magic, Gold Canary Figurine of Wondrous Power",
+        "viewerPages": [
+          25,
+          26
+        ],
+        "sourceUrl": "https://fliphtml5.com/fqkpd/pxye/Fizban%26%2339%3Bs_Treasury_of_Dragons/25/",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/ftod/dragon-magic",
+        "additionalSourceUrl": "",
+        "sourceWitness": "First-print colophon and printed folio verified in facsimile. The source ’s visual-text extract confirms all six abilities.",
+        "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae"
+      }
+    },
+    {
+      "owner": "b17_05",
+      "name": "Szikzith",
+      "kind": "beast",
+      "publication": "NERDS Restoring Harmony: A Web of Lies",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "szikzith",
+      "art_owner": "b17_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b17_05/portraits/szikzith.png",
+        "sha256": "4e20eea3c7b1c137fb6ce293e6cdbd81b33ceb51d0c7fa6061573c31e749e391",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Szikzith",
+        "publication": "NERDS Restoring Harmony: A Web of Lies",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "Original August 2021 English promotional ",
+        "sourceUrl": "",
+        "sourceFile": "",
+        "sourceSha256": "35a67490969fcb0a50be0115a9da1df9318f67f534661482e1791c3dcbe5ebe6",
+        "printedPages": [],
+        "pdfPages": [
+          5,
+          6,
+          9
+        ],
+        "section": "T2. Beehive Room and Monster/NPC Statistics",
+        "sourceDistinctions": [
+          "The encounter calls Szikzith an awakened giant wolf spider, but her named stat block prints its own ability array and bite.",
+          "The language field prints a dash while the encounter describes bargaining and conversation.",
+          "The laid-out states the +3 attack bonus, without changing it to match a derived bonus."
+        ],
+        "appearanceEvidence": "Unnumbered sheet 5 describes a spider with a honey-distended body. The portrait uses the rust-brown color seen on the catalog token.",
+        "portraitSource": "portraits/szikzith.png",
+        "portraitSha256": "4e20eea3c7b1c137fb6ce293e6cdbd81b33ceb51d0c7fa6061573c31e749e391"
+      }
+    },
+    {
+      "owner": "b17_05",
+      "name": "Sled Dog",
+      "kind": "beast",
+      "publication": "Rise of Tiamat",
+      "edition": "2014 fifth edition",
+      "indexed_cr": "1/4",
+      "art_group": "sled-dog",
+      "art_owner": "b17_05",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "1/4",
+      "portrait": {
+        "file": "parts/b17_05/portraits/sled-dog.png",
+        "sha256": "c32c3de43fc9ff7bb9504413b55684bd576455308cbe0d57e2bc6036ba610adf",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Sled Dog",
+        "publication": "Rise of Tiamat",
+        "edition": "2014 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "October 2014 first-print English hardcover with the October 2014 version 1 online supplement",
+        "sourceUrl": "",
+        "alternateSourceUrl": "https://anyflip.com/kpthp/zqtr/basic",
+        "printedPages": [
+          27
+        ],
+        "section": "Episode 2, Oyaviggaton, Villagers",
+        "baseProfile": "Wolf",
+        "baseSourceUrl": "",
+        "baseSourceFile": "",
+        "baseSourceSha256": "d0a2214144644ef6d32bba86ac14b35325993904de6cb89092e1d00c5b3fe161",
+        "basePrintedPage": 26,
+        "sourceDistinctions": [
+          "The adventure identifies twelve sled dogs and explicitly uses Wolf stats. The supplement supplies the Medium Beast block.",
+          "The generic WotC Wolf is the mechanics base and the depicted subject is a harnessed domesticated dog."
+        ],
+        "appearanceEvidence": "The local publication token shows a black-and-white harnessed northern dog. The adventure describes sled travel and the dogs’ presence at the icy chasm.",
+        "portraitSource": "portraits/sled-dog.png",
+        "portraitSha256": "c32c3de43fc9ff7bb9504413b55684bd576455308cbe0d57e2bc6036ba610adf"
+      }
+    },
+    {
+      "owner": "b17_05",
+      "name": "Giant Spider",
+      "kind": "beast",
+      "publication": "Stranger Things: Welcome to the Hellfire Club",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1",
+      "art_group": "giant-spider",
+      "art_owner": "b17_05",
+      "reuse_source": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+      "reuse_sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+      "runtime_file": "images/beast-ready-batch-05/giant-spider.png",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1",
+      "portrait": {
+        "file": "reused-portraits/giant-spider.png",
+        "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Giant Spider",
+        "publication": "Stranger Things: Welcome to the Hellfire Club",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "printing": "October 2025 English digital adventure pack, original-content export",
+        "sourceUrl": "https://www.scribd.com/document/981259652/Stranger-Things-Welcome-to-the-Hellfire-Club",
+        "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/wthc",
+        "section": "Appendix B, Monsters & NPCs, Giant Spider, CR 1. Also Adventurers vs Demogorgon, D5 and S5.",
+        "printedPages": [],
+        "sourceDistinctions": [
+          "The export provides a complete CR 1 stat block. The paper folio has not been checked.",
+          "The contemporary publisher index gives a separate same-name CR 6 Beast, which is outside this catalog scope.",
+          "This 2024 rules block uses a Dexterity save for Web and prints its destructive parameters."
+        ],
+        "appearanceEvidence": "The publisher illustration and the adventure’s two nest encounters show a conventional giant spider. The reuse portrait preserves the fangs and eight long legs.",
+        "publisherAppearanceFile": "images/beasts/giant-spider/wtthc-1.webp",
+        "publisherAppearanceSha256": "12b4a63f18e4e48c86c9ca48c4d0fa2a1dcba563473cef123ea74c08c1ab458d",
+        "portraitSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-spider.png",
+        "portraitSha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570"
+      }
+    },
+    {
+      "owner": "b17_06",
+      "name": "Swarm of Infesting Insects",
+      "kind": "beast",
+      "publication": "Ravenloft: The Horrors Within",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "2",
+      "art_group": "ravenloft-insect-swarms",
+      "art_owner": "b17_06",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "2",
+      "portrait": {
+        "file": "parts/b17_06/portraits/ravenloft-insect-swarms.png",
+        "sha256": "03ed76717ac5fccc47412e9aa957a28865b2e91957ee49d1204663cdde5b580a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Infesting Insects",
+        "publication": "Ravenloft: The Horrors Within",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 5, Denizens of the Mists, Swarms of Insects",
+        "sourceUrl": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+        "url": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/rthw",
+        "sourceWitness": "Published D&D Beyond content in a paginated 444-sheet digital export. The digital sheet count is distinct from the hardcover folio.",
+        "verifiedDigitalExportPages": [
+          400,
+          401
+        ],
+        "supportingDigitalExportPages": [
+          59
+        ],
+        "secondaryPrintedPage": 271,
+        "secondaryPrintedPageSource": "https://dnd.huijiwiki.com/wiki/%E6%80%AA%E7%89%A9/RHW/%E4%BE%B5%E6%89%B0%E6%98%86%E8%99%AB%E9%9B%86%E7%BE%A4",
+        "artGroup": "ravenloft-insect-swarms",
+        "appearanceEvidence": "Olive-green, segmented insect larvae with rust-red heads mingle with darker adults with translucent wings.",
+        "artworkCredit": "Alexandre Honoré",
+        "artworkSource": "Local read-only copy of the publisher artwork, images/beasts/swarm-of-infesting-insects/rhw-1.webp",
+        "artworkSha256": "ff52492d472a4cfcfe8e47d220ab9cc55fec2ab1ed5a5c9cbc8bbc6ffb6678c0",
+        "artworkNote": "The published chapter illustration has larvae and winged adults in a tall room scene. Both variants share a new square specimen study with the creature features on plain parchment.",
+        "habitatEvidence": "The shared Swarms of Insects chapter heading lists Coastal, Forest, Grassland, Swamp, and Urban. Treasure is None.",
+        "conditionRules": "The attack imposes Poisoned immediately. A DC 11 Constitution save occurs after one hour if the same condition remains. On failure, the 1d6 result determines the effect."
+      }
+    },
+    {
+      "owner": "b17_06",
+      "name": "Swarm of Ravenous Insects",
+      "kind": "beast",
+      "publication": "Ravenloft: The Horrors Within",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "3",
+      "art_group": "ravenloft-insect-swarms",
+      "art_owner": "b17_06",
+      "reuse_source": "",
+      "reuse_sha256": "",
+      "runtime_file": "",
+      "rules_url": "",
+      "credit": "",
+      "printed_cr": "3",
+      "portrait": {
+        "file": "parts/b17_06/portraits/ravenloft-insect-swarms.png",
+        "sha256": "03ed76717ac5fccc47412e9aa957a28865b2e91957ee49d1204663cdde5b580a",
+        "width": 1254,
+        "height": 1254,
+        "credit": "OpenAI ImageGen"
+      },
+      "source": {
+        "name": "Swarm of Ravenous Insects",
+        "publication": "Ravenloft: The Horrors Within",
+        "edition": "2024 fifth edition",
+        "kind": "beast",
+        "publisher": "Wizards of the Coast",
+        "section": "Chapter 5, Denizens of the Mists, Swarms of Insects",
+        "sourceUrl": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+        "url": "https://www.scribd.com/document/1054815014/Ravenloft-The-Horrors-Within-Neat-and-Tidy-Edition-1",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/rthw",
+        "sourceWitness": "Published D&D Beyond content in a paginated 444-sheet digital export. The digital sheet count is distinct from the hardcover folio.",
+        "verifiedDigitalExportPages": [
+          401
+        ],
+        "supportingDigitalExportPages": [
+          400,
+          266
+        ],
+        "secondaryPrintedPage": 271,
+        "secondaryPrintedPageSource": "https://dnd.huijiwiki.com/wiki/%E6%80%AA%E7%89%A9/RHW/%E4%BE%B5%E6%89%B0%E6%98%86%E8%99%AB%E9%9B%86%E7%BE%A4",
+        "artGroup": "ravenloft-insect-swarms",
+        "appearanceEvidence": "Olive-green, segmented insect larvae with rust-red heads mingle with darker adults with translucent wings.",
+        "artworkCredit": "Alexandre Honoré",
+        "artworkSource": "Local read-only copy of the publisher artwork, images/beasts/swarm-of-infesting-insects/rhw-1.webp",
+        "artworkSha256": "ff52492d472a4cfcfe8e47d220ab9cc55fec2ab1ed5a5c9cbc8bbc6ffb6678c0",
+        "artworkNote": "The published chapter illustration has larvae and winged adults in a tall room scene. Both variants share a new square specimen study with the creature features on plain parchment.",
+        "habitatEvidence": "The shared Swarms of Insects chapter heading lists Coastal, Forest, Grassland, Swamp, and Urban. Treasure is None.",
+        "conditionRules": "The attack applies one minute of Poisoned with no save. Restoring HP ends it early. Ongoing piercing damage can kill at 0 HP. Skeletonize affects Large or smaller corpses at the beginning of the swarm’s own turn."
+      }
+    },
+    {
+      "owner": "b17_07",
+      "name": "Pandarian Dragon Turtle",
+      "kind": "beast",
+      "publication": "D&D: World of Warcraft",
+      "edition": "2024 fifth edition",
+      "indexed_cr": "1/2",
+      "art_group": "pandarian-dragon-turtle",
+      "art_owner": "b17_07",
+      "reuse_source": "indexed:images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+      "reuse_sha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+      "runtime_file": "images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+      "rules_url": "",
+      "credit": "OpenAI ImageGen",
+      "printed_cr": "1/2",
+      "portrait": {
+        "file": "reused-portraits/pandarian-dragon-turtle.webp",
+        "sha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+        "credit": "OpenAI ImageGen",
+        "reused": true,
+        "width": 1254,
+        "height": 1254
+      },
+      "source": {
+        "name": "Pandarian Dragon Turtle",
+        "kind": "beast",
+        "publication": "D&D: World of Warcraft",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "copyrightYear": 2026,
+        "section": "Chapter 3, Professions and Gear, Mounts and Vehicles",
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/wow/chapter-3-professions-and-gear#statblock-wow--pandarian-dragon-turtle",
+        "url": "https://www.dndbeyond.com/sources/dnd/wow/chapter-3-professions-and-gear#statblock-wow--pandarian-dragon-turtle",
+        "officialSourceIndex": "https://www.dndbeyond.com/sources/dnd/wow",
+        "officialCompendiumListing": "https://www.dndbeyond.com/monsters?filter-search=dragon&filter-type=0&page=5&sort=size",
+        "sourceWitness": "Readable full capture of the Wizards of the Coast digital stat block published in a review of the expansion’s mounts.",
+        "sourceWitnessUrl": "https://www.belloflostsouls.net/wp-content/uploads/2026/11/dnd-wow-dragon-turtle-pandarian.jpg",
+        "sourceWitnessHostArticle": "https://www.belloflostsouls.net/2026/11/dd-world-of-warcrafts-new-mounts-make-riding-into-battle-even-more-epic.html",
+        "sourceSha256": "b9df0c269409a9ac59c351ef705898201f9a96486abe92ff44cd2f9c4a936d7c",
+        "secondaryPageLocator": 104,
+        "secondaryIndexUrl": "https://5e.tools/bestiary.html#pandarian%20dragon%20turtle_wow",
+        "sourceNotes": [
+          "The digital block shows initiative +1 (11), proficiency bonus +2 and six saving-throw modifiers. Each saving throw equals its printed ability modifier.",
+          "The attack applies the Grappled condition to creatures of Large size or smaller. The escape DC is 13.",
+          "The publisher’s contents page links to the exact Chapter 3 block. The public image shows the publisher’s complete digital rules and carries no folio. The 5e.tools data supplies p. 104 as a secondary locator."
+        ],
+        "appearanceEvidence": "The block identifies a Large dragon turtle and the mount article identifies its use. The available rules capture supplies no physical description. The existing portrait illustrates the named form.",
+        "habitatEvidence": "The available stat block supplies no habitat line.",
+        "artworkSource": "indexed:images/beasts/pandarian-dragon-turtle/parchment-portrait.webp",
+        "artworkSha256": "20affe480c6e61cdff25b306d617d3cbbfe12461d68e70de904dbeabb9186567",
+        "artworkCredit": "OpenAI ImageGen",
+        "artworkNote": "Reused the indexed square parchment portrait for this exact creature. I checked the 1254-by-1254 image and confirmed its SHA-256."
+      }
+    }
+  ]
+}

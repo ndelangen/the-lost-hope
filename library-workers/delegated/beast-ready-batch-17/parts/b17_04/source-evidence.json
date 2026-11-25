@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Bhaal, Ravager",
+    "publication": "Minsc and Boo's Journal of Villainy",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "artGroup": "bhaal-ravager",
+    "printedPages": [
+      95
+    ],
+    "scope": "Huge Beast, lawful evil",
+    "appearanceEvidence": "Bhaal's huge, spined Beast avatar has a biting maw, claws, and a spiked carapace.",
+    "mechanicsNotes": [
+      "The 2021 Multiattack refers to a Fear aura with no rules in the block. Spiky Carapace has no stated end time. The separate Slayer avatar on p. 93 is Humanoid."
+    ],
+    "publisher": "Wizards of the Coast and Arcanum Worlds",
+    "printing": "2021 original release as witnessed by a facsimile uploaded in 2021. Later revisions are outside this profile.",
+    "section": "Chapter 3, Campaign Villains, Bhaal",
+    "sourceUrl": "https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy",
+    "publisherSourceUrl": "https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e",
+    "sourceWitness": "The accessible original-layout text shows the heading, native rules, and numbered folio. A separate page image was unavailable."
+  },
+  {
+    "name": "Deep Spider",
+    "publication": "Minsc and Boo's Journal of Villainy",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "artGroup": "sword-spider",
+    "printedPages": [
+      151
+    ],
+    "scope": "Huge Beast, unaligned",
+    "appearanceEvidence": "A giant spider with fine black hairs, a sleek dark exoskeleton, and eight serrated legs. The front pair ends in large curved blades.",
+    "mechanicsNotes": [
+      "The ecology prose describes leaps and restraint by sprayed webs, while the stat block defines no separate Leap or Web action."
+    ],
+    "publisher": "Wizards of the Coast and Arcanum Worlds",
+    "printing": "2021 original release as witnessed by a facsimile uploaded in 2021. Later revisions are outside this profile.",
+    "section": "Chapter 5, Monsters, Sword Spider",
+    "sourceUrl": "https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy",
+    "publisherSourceUrl": "https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e",
+    "sourceWitness": "The accessible original-layout text shows the heading, native rules, and numbered folio. A separate page image was unavailable."
+  },
+  {
+    "name": "Sword Spider",
+    "publication": "Minsc and Boo's Journal of Villainy",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "artGroup": "sword-spider",
+    "printedPages": [
+      151
+    ],
+    "scope": "Large Beast, unaligned",
+    "appearanceEvidence": "A giant spider with fine black hairs, a sleek dark exoskeleton, and eight serrated legs. The front pair ends in large curved blades.",
+    "mechanicsNotes": [
+      "The ecology prose describes leaps and restraint by sprayed webs, while the stat block defines no separate Leap or Web action."
+    ],
+    "publisher": "Wizards of the Coast and Arcanum Worlds",
+    "printing": "2021 original release as witnessed by a facsimile uploaded in 2021. Later revisions are outside this profile.",
+    "section": "Chapter 5, Monsters, Sword Spider",
+    "sourceUrl": "https://www.scribd.com/document/536195827/Minsc-and-Boo-s-Journal-of-Villainy",
+    "publisherSourceUrl": "https://www.dmsguild.com/en/product/365114/minsc-and-boo-s-journal-of-villainy-5e",
+    "sourceWitness": "The accessible original-layout text shows the heading, native rules, and numbered folio. A separate page image was unavailable."
+  },
+  {
+    "name": "Rothé",
+    "publication": "Chains of Asmodeus",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "artGroup": "rothe",
+    "printedPages": [
+      48
+    ],
+    "scope": "Large Beast (cattle), unaligned",
+    "appearanceEvidence": "A stocky horned rothé with a shaggy cattle build.",
+    "mechanicsNotes": [
+      "Rothé in this printing has the Cattle tag and an explicit proficiency bonus. The encounter supplies no change to the herd’s anatomy."
+    ],
+    "publisher": "Arcanum Worlds and Wizards of the Coast",
+    "printing": "2023 original adventure ",
+    "section": "Chapter 2, Shadow of a Tyrant",
+    "sourceUrl": "https://www.scribd.com/document/683889128/Chains-of-Asmodeus",
+    "publisherSourceUrl": "https://www.dmsguild.com/en/product/457996/chains-of-asmodeus",
+    "sourceWitness": "The accessible original-layout text preserves the box, native values, and printed folio. A separate page image was unavailable.",
+    "reusedPortrait": "beast-ready-batch-13/parts/b13_07/portraits/rothe.png",
+    "reusedPortraitSha256": "a7fc5db80e0fb8b7126d12c478a9714b9c2ffe0a43483284a4ee9ea2cc945480"
+  },
+  {
+    "name": "Giant Canary",
+    "publication": "Fizban's Treasury of Dragons",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "artGroup": "giant-canary",
+    "printedPages": [
+      23,
+      24
+    ],
+    "scope": "Large Beast, unaligned",
+    "appearanceEvidence": "A living canary large enough to ride, with a stout songbird beak and yellow feathers in this portrait.",
+    "mechanicsNotes": [
+      "The Beast block belongs to the figurine’s canary option. Its adult gold dragon option uses a separate Monster Manual profile."
+    ],
+    "publisher": "Wizards of the Coast",
+    "printing": "October 2021 first printing, ISBN 978-0-7869-6729-2",
+    "section": "Chapter 2, Dragon Magic, Gold Canary Figurine of Wondrous Power",
+    "viewerPages": [
+      25,
+      26
+    ],
+    "sourceUrl": "https://fliphtml5.com/fqkpd/pxye/Fizban%26%2339%3Bs_Treasury_of_Dragons/25/",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/ftod/dragon-magic",
+    "additionalSourceUrl": "",
+    "sourceWitness": "First-print colophon and printed folio verified in facsimile. The source ’s visual-text extract confirms all six abilities.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae"
+  }
+]

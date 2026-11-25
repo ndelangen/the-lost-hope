@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hengeyokai",
+    "slug": "hengeyokai",
+    "id": "species-5b1cc281e9195278b2a41837",
+    "entry": "species-5b1cc281e9195278b2a41837",
+    "version": "",
+    "suffix": "encounters-56/hengeyokai.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-56/hengeyokai.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-56/event-drafts/hengeyokai-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 56 2026-11-23/event-drafts/hengeyokai-event-v1.png",
+    "overrides": [],
+    "sha256": "a953dc9e9679fc1d2b5ef958297fa023e62d74ec18597f9ed173fc8b0d829e38",
+    "bytes": 2427157
+  }
+]

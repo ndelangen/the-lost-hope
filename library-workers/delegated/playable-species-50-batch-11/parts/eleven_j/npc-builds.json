@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr1-saffron-step",
+      "title": "Saffron Step, Tiger Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Rogue 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft. walk.",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "senses": "Darkvision 60 ft. Passive Perception 12, or 17 for scent.",
+      "languages": "Common, thieves’ cant.",
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +7",
+        "Insight +2",
+        "Perception +2",
+        "Stealth +7",
+        "Survival +2"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Unarmored AC 10 + Dexterity 3. Expertise in Athletics and Stealth. No hands.",
+        "Keen Smell. Advantage on scent-based Perception checks.",
+        "Sneak Attack. Once per turn, add 1d6 to a Bite or Claw hit with advantage, or if an enemy of the target that is not incapacitated stands within 5 ft. of it and Saffron has no disadvantage."
+      ],
+      "actions": [
+        "Bite or Claw. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing with the bite or slashing with the claw. Counts as finesse for Sneak Attack.",
+        "Pounce. After moving at least 20 ft. straight toward a creature and hitting it with an unarmed strike that turn, use a bonus action to try to knock it prone. Within reach, against a target no more than one size larger, contest Athletics +7 against Athletics or Acrobatics."
+      ],
+      "tactics": "Saffron approaches with the other scouts. In a fight, a straight approach allows Pounce, and an ally beside the target can qualify the first hit for Sneak Attack."
+    },
+    {
+      "id": "mr1-hush-thread",
+      "title": "Hush Thread, Weasel Rogue 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Rogue 2. No assigned CR.",
+      "size": "Tiny",
+      "type": "Beast",
+      "speed": "30 ft. walk.",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "senses": "Passive Perception 16, or 21 for hearing or scent.",
+      "languages": "Common, thieves’ cant.",
+      "skills": [
+        "Acrobatics +5",
+        "Insight +4",
+        "Investigation +3",
+        "Perception +6",
+        "Stealth +7",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +3. Unarmored AC 10 + Dexterity 3. Expertise in Perception and Stealth. No hands. Tiny carrying capacity 30 lb.",
+        "Advantage on Perception checks using hearing or smell.",
+        "Sneak Attack. Once per turn, add 1d6 to a bite hit with advantage, or if an enemy of the target that is not incapacitated stands within 5 ft. of it and Hush has no disadvantage."
+      ],
+      "actions": [
+        "Bite. Dexterity-based unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d4 + 3 piercing. Counts as finesse for Sneak Attack.",
+        "Cunning Action. Dash, Disengage, or Hide as a bonus action."
+      ],
+      "tactics": "Hush scouts by sound and scent. If surprised, Hush backs away with Disengage or breaks line of sight before using Hide."
+    },
+    {
+      "id": "mr1-rime-knell",
+      "title": "Rime Knell, Winter Wolf Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Barbarian 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "40 ft. walk.",
+      "ac": 14,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "senses": "Passive Perception 13, or 18 for hearing or scent.",
+      "languages": "Common, Giant, Winter Wolf.",
+      "skills": [
+        "Athletics +5",
+        "Perception +3",
+        "Stealth +4",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Constitution save +4. Natural AC is 12 + Dexterity 2. Barbarian Unarmored Defense also gives 14. No hands.",
+        "Advantage on hearing- and scent-based Perception and on Stealth used to hide in snow.",
+        "Danger Sense. Advantage on Dexterity saves against effects Rime can see while not blinded, deafened, or incapacitated.",
+        "Reckless Attack. On the first attack of the turn, choose advantage on Strength-based melee attack rolls for the turn. Attack rolls against Rime then have advantage until Rime’s next turn."
+      ],
+      "actions": [
+        "Bite. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d8 + 3 piercing, or 1d8 + 5 while raging.",
+        "Trip. After an unarmed hit, use a bonus action to knock the target prone if within reach and no more than one size larger. Contest Athletics +5 against Athletics or Acrobatics.",
+        "Cold Breath. Action, once per short or long rest. Each creature in a 15-ft. cone makes a DC 12 Dexterity save. Failure takes 2d6 cold damage. Success halves it.",
+        "Rage. Bonus action, two per long rest, up to 1 minute. Advantage on Strength checks and saves, +2 Strength melee damage, and resistance to bludgeoning, piercing, and slashing. Ends on unconsciousness or if a turn ends without having attacked a hostile creature or taken damage since the previous turn. The breath has no attack roll and does not maintain Rage on its own. Rime can end Rage as a bonus action and cannot cast or concentrate while raging."
+      ],
+      "tactics": "Rime opens with breath if the cone is clear of companions. Once someone closes in, Rime bites and uses Trip on a later turn after starting Rage."
+    },
+    {
+      "id": "mr1-alder-pace",
+      "title": "Alder Pace, Wolf Monk 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "40 ft. walk.",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 13,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "senses": "Passive Perception 14, or 19 for hearing or scent.",
+      "languages": "Common.",
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +3",
+        "Perception +4",
+        "Survival +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +3, Dexterity save +5. Monk Unarmored Defense gives AC 10 + Dexterity 3 + Wisdom 2, instead of the separate natural armor calculation of 14.",
+        "Advantage on Wisdom (Perception) checks using hearing or smell. Alder uses body strikes and no handheld gear."
+      ],
+      "actions": [
+        "Paw strike. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d4 + 3 bludgeoning using Martial Arts. After an Attack action with this strike, Alder can make one more as a bonus action.",
+        "Pack Tactics. Bonus action. Gain advantage on the next attack roll this turn against a creature within 5 ft. of Alder’s non-incapacitated ally.",
+        "Trip. After an unarmed hit, use a bonus action to knock a target within reach and no more than one size larger prone. Contest Athletics +3 against Athletics or Acrobatics. This uses the same bonus action as Pack Tactics or the extra Martial Arts strike."
+      ],
+      "tactics": "Alder keeps pace with slower companions. In combat, choose Pack Tactics before attacking, or save the bonus action to Trip after a hit if someone needs time to get clear."
+    },
+    {
+      "id": "mr1-gravel-jaw",
+      "title": "Gravel Jaw, Worg Monk 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Monk 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "50 ft. walk.",
+      "ac": 14,
+      "hp": 17,
+      "hitDice": "2d8+4",
+      "initiative": 2,
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "senses": "Darkvision 60 ft. Passive Perception 13, or 18 for hearing or scent.",
+      "languages": "Goblin, Worg.",
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5, Dexterity save +4. Natural AC is 12 + Dexterity 2. Monk Unarmored Defense would give 13. Unarmored Movement adds 10 ft. to the 40-ft. walk. No hands.",
+        "Advantage on hearing- and scent-based Perception. Ki 2, recovered on a short or long rest that includes at least 30 minutes of meditation."
+      ],
+      "actions": [
+        "Shoulder strike. Melee unarmed strike +5 to hit, reach 5 ft., one target. Hit for 1d4 + 3 bludgeoning with Strength and Martial Arts. After using the Attack action for this strike, Gravel can make one more as a bonus action.",
+        "Trip. After an unarmed hit, use a bonus action to knock a target within reach and no more than one size larger prone. Contest Athletics +5 against Athletics or Acrobatics.",
+        "Flurry of Blows. Immediately after the Attack action, spend 1 ki for two bonus-action unarmed strikes at +5 to hit, 1d4 + 3 bludgeoning each.",
+        "Patient Defense. Spend 1 ki to Dodge as a bonus action. Step of the Wind. Spend 1 ki to Dash or Disengage as a bonus action, and double jump distance for the turn."
+      ],
+      "tactics": "Gravel offers one warning in Goblin. If the warning fails, Gravel uses Trip to hold a chokepoint or spends ki to Disengage and block the next exit."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Saffron Step",
+      "species": "Tiger",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr1-saffron-step",
+      "role": "Canal embankment scout",
+      "motive": "Find the lost surveyors before the sluice opens.",
+      "hook": "Saffron circles a fresh boot print in the mud and tells the party exactly how long the scent has been there."
+    },
+    {
+      "name": "Hush Thread",
+      "species": "Weasel",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Tiny",
+      "build": "mr1-hush-thread",
+      "role": "Culvert inspector",
+      "motive": "Find which house is dumping warm ash into the drain.",
+      "hook": "A trail of ash ends at a grate Hush can slip past. The party can help trace the supply cart above ground."
+    },
+    {
+      "name": "Rime Knell",
+      "species": "Winter Wolf",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr1-rime-knell",
+      "role": "Pass bell keeper",
+      "motive": "Learn why a second bell answers from an abandoned mountain path.",
+      "hook": "Rime will guide the party to shelter in exchange for an extra pair of ears on the night watch."
+    },
+    {
+      "name": "Alder Pace",
+      "species": "Wolf",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr1-alder-pace",
+      "role": "Trail marshal",
+      "motive": "Find a safe place to shift the marked trail away from a fresh rockslide.",
+      "hook": "Alder leads travelers to a split in the cairns and asks the party to inspect the higher switchback."
+    },
+    {
+      "name": "Gravel Jaw",
+      "species": "Worg",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "size": "Medium",
+      "build": "mr1-gravel-jaw",
+      "role": "Caravan outrider",
+      "motive": "Collect the overdue fee for escorting a mule train through the quarry.",
+      "hook": "Gravel knows the drivers took a different road and offers to split the fee with anyone who can find their trail."
+    }
+  ]
+}

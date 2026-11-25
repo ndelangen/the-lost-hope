@@ -1,0 +1,856 @@
+{
+  "new": {
+    "Draconian Foot Soldier": {
+      "path": "output/dm-library/encounter-batches/172/art/draconian-foot-soldier.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6617b66b87658355eca67706519e0e174089fc52a14aa9f334b5bbe267fd7020",
+      "bytes": 2750196
+    },
+    "Draconian Infiltrator": {
+      "path": "output/dm-library/encounter-batches/172/art/draconian-infiltrator.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5d520570ac0b3ca1b256996be777fc6829d381bc61696ff2a30056a5c8c19b87",
+      "bytes": 2633384
+    },
+    "Draconian Mage": {
+      "path": "output/dm-library/encounter-batches/172/art/draconian-mage.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a35cedf82ce452375cbbb502baae2f946e21a46c43a57c063bb3a5f92e636650",
+      "bytes": 2778485
+    },
+    "Draconian Mastermind": {
+      "path": "output/dm-library/encounter-batches/172/art/draconian-mastermind.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "932ea23e30bc369ce34a13f6cbb3fd4362f9f482487c3b5ae0f44d30ea763009",
+      "bytes": 2562106
+    },
+    "Draconic Shard": {
+      "path": "output/dm-library/encounter-batches/172/art/draconic-shard.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e9f999ce331d9f5b888784611f93038d984674a3c43605e0a3be0e4db0c02e02",
+      "bytes": 2538488
+    },
+    "Dragon Blessed": {
+      "path": "output/dm-library/encounter-batches/172/art/dragon-blessed.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6039755cc10dfad9b6136d329de77f42e8597f187579014e01272ba53a893618",
+      "bytes": 2552932
+    },
+    "Dragon Chosen": {
+      "path": "output/dm-library/encounter-batches/172/art/dragon-chosen.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b148c975b4568f11683429a21bcd4e214f55976dafe1108a43205a47892e9aff",
+      "bytes": 2797853
+    },
+    "Dragon Speaker": {
+      "path": "output/dm-library/encounter-batches/172/art/dragon-speaker.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ae7b7f60dc17ad31ad181cf8fd3fdfbac3591aea35e3e6072934d42d02eb41bf",
+      "bytes": 2535100
+    },
+    "Dragon Turtle Wyrmling": {
+      "path": "output/dm-library/encounter-batches/172/art/dragon-turtle-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cc664588fc607710f6ddd48be6483df1a48878f2d8357695f385bb90523f32bc",
+      "bytes": 2659889
+    },
+    "Dragonblood Ooze": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonblood-ooze.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d6cd3b2ace1e1668febfeb0ceb9e4062a25e7759f9bea5a63c6bcac047f756ca",
+      "bytes": 2445844
+    },
+    "Dragonbone Golem": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonbone-golem.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "017fd9cdf9bf99b96221e0b1c49308fd83742f318534dab66eb884efb59d9a3d",
+      "bytes": 2990867
+    },
+    "Dragonborn of Bahamut": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonborn-of-bahamut.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4e0dcb579e673dab44b2ac023fad51ba5fe8b0488c02de05fea02c6143b04355",
+      "bytes": 2795437
+    },
+    "Dragonborn of Sardior": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonborn-of-sardior.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fa4e68b930e65001cc8385029706f6d7d61b20d5568649a8dfb04c09038b1125",
+      "bytes": 2417195
+    },
+    "Dragonborn of Tiamat": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonborn-of-tiamat.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ec68155d3d00634459009408589d501cd3a362e699d6a1d621a9acb0d9ac0d90",
+      "bytes": 2768508
+    },
+    "Dragonflesh Abomination": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonflesh-abomination.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1a2960571fe1c82951bd8955725fcd7b69589924bebf94b1cd95234cfd65adec",
+      "bytes": 2808343
+    },
+    "Dragonflesh Grafter": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonflesh-grafter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "26be2c9016bee92005b53d22819b505e622333088508d27c703bdd67694c2251",
+      "bytes": 2688011
+    },
+    "Dragonnel": {
+      "path": "output/dm-library/encounter-batches/172/art/dragonnel.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c8d0cd973377dd3bc5d45340da2b1d0f77b92e19d58c0f8f2282792c5b7efbbb",
+      "bytes": 2679861
+    },
+    "Egg Hunter Adult": {
+      "path": "output/dm-library/encounter-batches/172/art/egg-hunter-adult.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "265d3768a1240288df4589a06584b2fed880b504515ddb57ce9c6f0a22e35e2d",
+      "bytes": 2665114
+    },
+    "Egg Hunter Hatchling": {
+      "path": "output/dm-library/encounter-batches/172/art/egg-hunter-hatchling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8604553af412bccf6e773449deeef224b4ab8875b602f6fd2ba3acc34816058e",
+      "bytes": 2568630
+    },
+    "Elder Brain Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/elder-brain-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "2532b82d9bebe76fa5fbf526377dbec73fcac1ffa257166beaae17a21574598f",
+      "bytes": 2831862
+    },
+    "Emerald Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/172/art/emerald-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7ae2985b645d6dad4e3630ecdc3ae5cba0a246b246690602a93b12f5e190d821",
+      "bytes": 2494086
+    },
+    "Emerald Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/emerald-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "840c397226ba45640f8b173e806087f44836680726aa8a484a9dd9efa68dc1b2",
+      "bytes": 2930004
+    },
+    "Eyedrake": {
+      "path": "output/dm-library/encounter-batches/172/art/eyedrake.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ba773bdb891c7864114d0d81b5c99567267d3f29abd1e50938d79392278210ad",
+      "bytes": 2759026
+    },
+    "Gem Stalker": {
+      "path": "output/dm-library/encounter-batches/172/art/gem-stalker.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "25dbe962efb30d41685d7398e5414d2dcf6b5df12864a36ef7c0e1b9123004d0",
+      "bytes": 2763918
+    },
+    "Ghost Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/ghost-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a9bdc45e69096456900023c4856128e1cfdec8fea806b239475532b16297c6be",
+      "bytes": 2622214
+    },
+    "Gold Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/gold-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8110ec8e339075e8d76e3c6e0a28cdfb1fec1b553dd9d8ab39de78e076899177",
+      "bytes": 2831182
+    },
+    "Green Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/green-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c38ec3f857fd43379ae51bdd749c44018ca3025e1531b486398f61060807566c",
+      "bytes": 2910808
+    },
+    "Hoard Mimic": {
+      "path": "output/dm-library/encounter-batches/172/art/hoard-mimic.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "368c13dcb7e3c82521002f6ea7048fa85f9c4d3c4ea3448e88f8a3efc25624f1",
+      "bytes": 2898834
+    },
+    "Hoard Scarab": {
+      "path": "output/dm-library/encounter-batches/172/art/hoard-scarab.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d2e1798684c4027947fb350a835ee9da187bd9e5c2e9e9b67f2513cd2ccdc826",
+      "bytes": 2785103
+    },
+    "Hollow Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/hollow-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0e1b253f17cf315829b8eb49e31aee38f91081cf969c7c085236f5ac74dd2bf2",
+      "bytes": 3010104
+    },
+    "Liondrake": {
+      "path": "output/dm-library/encounter-batches/172/art/liondrake.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "08857f16edffb04540c81c48c3669ad7e104fd4f8c1d6fc4d48365a8a5b4046f",
+      "bytes": 2949674
+    },
+    "Metallic Peacekeeper": {
+      "path": "output/dm-library/encounter-batches/172/art/metallic-peacekeeper.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6f37ca94add659dffd5ec4cc5d37c46837f0eb757ec1a4a03947d7655d2d14e6",
+      "bytes": 2654226
+    },
+    "Metallic Warbler": {
+      "path": "output/dm-library/encounter-batches/172/art/metallic-warbler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7d627d27927f1fc0787fd450789dba810b6aa8dd99aeba084951f0d82347e36f",
+      "bytes": 2590969
+    },
+    "Moonstone Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/172/art/moonstone-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "53272154a434310ceb07fc50cea73bcd5e6b1f1bdb767e0458ffed90d353adad",
+      "bytes": 2772361
+    },
+    "Red Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/red-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "efa6a7f43a6dbb09acdc7c75795898ba9ce0545e2ee2dc3ac2107caf2099c95b",
+      "bytes": 2909642
+    },
+    "Sapphire Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/172/art/sapphire-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "86c33c120d0e3ddd08666489087f4372782fdaf42f2a6efd7ce77dc8cdcec517",
+      "bytes": 2819408
+    },
+    "Sapphire Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/sapphire-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "277b69e63ed77801a0c087483b0669092042d0ad7f66684222e811b96923c38f",
+      "bytes": 2861014
+    },
+    "Silver Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/silver-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0e3544e2c99520ed2410bd5bca8675767300d0af32b71d3bd9e8c3f80239c157",
+      "bytes": 3052376
+    },
+    "Swarm of Hoard Scarabs": {
+      "path": "output/dm-library/encounter-batches/172/art/swarm-of-hoard-scarabs.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "fcaae04c4a67328964b4847ac07e160948f5c87b6db3fcd8669183b670d5ea1e",
+      "bytes": 2939513
+    },
+    "Topaz Dragon Wyrmling": {
+      "path": "output/dm-library/encounter-batches/172/art/topaz-dragon-wyrmling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3b5db3525273950866c36f16e0806dc36dd59fb38c7e9771bafdca9c0979fbfa",
+      "bytes": 2649404
+    },
+    "Topaz Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/topaz-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b8d7aa39855f92a69a32a40f823011f7022d3eadacb7777c76251e57b5f1d4e5",
+      "bytes": 3056033
+    },
+    "White Greatwyrm": {
+      "path": "output/dm-library/encounter-batches/172/art/white-greatwyrm.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "019b0952a3797d4513f693330624529da3ac55ed5cbfd7da27abde61e6193e11",
+      "bytes": 3028161
+    },
+    "Young Amethyst Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-amethyst-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "09b7fc493b2e1f03633234c26daf1928c08e9df04f461baedb547ce9ef466d70",
+      "bytes": 2639261
+    },
+    "Young Crystal Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-crystal-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7838002ef5721894c4b863da1242d196d8b166b88910ac61fb042ce9ca99fb61",
+      "bytes": 2582045
+    },
+    "Young Deep Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-deep-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5edbcf4bd675b263711a8eaeb50701116fb57a82d6629f64c486c06f131257a9",
+      "bytes": 2576615
+    },
+    "Young Dragon Turtle": {
+      "path": "output/dm-library/encounter-batches/172/art/young-dragon-turtle.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ea657713b865c2229c9fed111f6b7a12e115982037b5888d45f97489a3acf267",
+      "bytes": 2812581
+    },
+    "Young Emerald Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-emerald-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6b9336efa57ee7f46c77046cef056cf5ad66119d44f4ec6f7297eef10090404d",
+      "bytes": 2737146
+    },
+    "Young Moonstone Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-moonstone-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab71d4a8ba3bbbeecbd384c072d27ed586cd356d1b83057626daf7e06666f9ee",
+      "bytes": 2865584
+    },
+    "Young Sapphire Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-sapphire-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d2bf68c5305e959a8a354c7ed7868e3d041831ddff6a73973c8b5d68ecba4005",
+      "bytes": 2900877
+    },
+    "Young Topaz Dragon": {
+      "path": "output/dm-library/encounter-batches/172/art/young-topaz-dragon.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c7b35ffae1964032bd7271fd1c86d835b20949844866d4bf3522eb9386a33cd1",
+      "bytes": 2971334
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-b6b4b7618d8d720c85d4f5f9",
+      "version": "6833d30dbd2dbbe719d3550e",
+      "name": "Draconian Foot Soldier",
+      "file": "images/monsters/draconian-foot-soldier/batch-172-portrait.png",
+      "sha256": "6617b66b87658355eca67706519e0e174089fc52a14aa9f334b5bbe267fd7020",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1105b19c6f48eb4ebbcc505f",
+      "version": "ac1c71c87e8ec23d6eb6ff09",
+      "name": "Draconian Infiltrator",
+      "file": "images/monsters/draconian-infiltrator/batch-172-portrait.png",
+      "sha256": "5d520570ac0b3ca1b256996be777fc6829d381bc61696ff2a30056a5c8c19b87",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b98572534e66f4de4d90128c",
+      "version": "7d9f509ab81d7d80d33d08f1",
+      "name": "Draconian Mage",
+      "file": "images/monsters/draconian-mage/batch-172-portrait.png",
+      "sha256": "a35cedf82ce452375cbbb502baae2f946e21a46c43a57c063bb3a5f92e636650",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-756e43cb3003dcf2b7d09025",
+      "version": "cddadd9733768a2201479d63",
+      "name": "Draconian Mastermind",
+      "file": "images/monsters/draconian-mastermind/batch-172-portrait.png",
+      "sha256": "932ea23e30bc369ce34a13f6cbb3fd4362f9f482487c3b5ae0f44d30ea763009",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4e21d9215c8d2d19aea5a7eb",
+      "version": "be3cf9298d5ffc8d1f9e56b5",
+      "name": "Draconic Shard",
+      "file": "images/monsters/draconic-shard/batch-172-portrait.png",
+      "sha256": "e9f999ce331d9f5b888784611f93038d984674a3c43605e0a3be0e4db0c02e02",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e672448713547d2a95ef673b",
+      "version": "5f157e3225a55de9ce82fe89",
+      "name": "Dragon Blessed",
+      "file": "images/monsters/dragon-blessed/batch-172-portrait.png",
+      "sha256": "6039755cc10dfad9b6136d329de77f42e8597f187579014e01272ba53a893618",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a527810a7386848c42a6964d",
+      "version": "541c6d43bb2bc3190f73633e",
+      "name": "Dragon Chosen",
+      "file": "images/monsters/dragon-chosen/batch-172-portrait.png",
+      "sha256": "b148c975b4568f11683429a21bcd4e214f55976dafe1108a43205a47892e9aff",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-51735fdb5e733c82f511abe6",
+      "version": "951ec5eab3bcba9fdfd3d586",
+      "name": "Dragon Speaker",
+      "file": "images/monsters/dragon-speaker/batch-172-portrait.png",
+      "sha256": "ae7b7f60dc17ad31ad181cf8fd3fdfbac3591aea35e3e6072934d42d02eb41bf",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b2244aba5478b91bf5cfbecf",
+      "version": "6a0f8782456f0866fb6f9ebd",
+      "name": "Dragon Turtle Wyrmling",
+      "file": "images/monsters/dragon-turtle-wyrmling/batch-172-portrait.png",
+      "sha256": "cc664588fc607710f6ddd48be6483df1a48878f2d8357695f385bb90523f32bc",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b3454530999b8df6d8340656",
+      "version": "2b3c860610d8e47319e94f30",
+      "name": "Dragonblood Ooze",
+      "file": "images/monsters/dragonblood-ooze/batch-172-portrait.png",
+      "sha256": "d6cd3b2ace1e1668febfeb0ceb9e4062a25e7759f9bea5a63c6bcac047f756ca",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fad412d5de349fa38247a6aa",
+      "version": "3ad5f8ff907be9f59e6a24b3",
+      "name": "Dragonbone Golem",
+      "file": "images/monsters/dragonbone-golem/batch-172-portrait.png",
+      "sha256": "017fd9cdf9bf99b96221e0b1c49308fd83742f318534dab66eb884efb59d9a3d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0098b4737e086c64f298d7f9",
+      "version": "f278c4f16d11e33b5252314d",
+      "name": "Dragonborn of Bahamut",
+      "file": "images/monsters/dragonborn-of-bahamut/batch-172-portrait.png",
+      "sha256": "4e0dcb579e673dab44b2ac023fad51ba5fe8b0488c02de05fea02c6143b04355",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0acb6811af0a1e5969676ab1",
+      "version": "fa3f0bb42fde4be7c7e95275",
+      "name": "Dragonborn of Sardior",
+      "file": "images/monsters/dragonborn-of-sardior/batch-172-portrait.png",
+      "sha256": "fa4e68b930e65001cc8385029706f6d7d61b20d5568649a8dfb04c09038b1125",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-14db1ba1841a17888f7e8a9b",
+      "version": "30fd74113691a9bdad3c77ad",
+      "name": "Dragonborn of Tiamat",
+      "file": "images/monsters/dragonborn-of-tiamat/batch-172-portrait.png",
+      "sha256": "ec68155d3d00634459009408589d501cd3a362e699d6a1d621a9acb0d9ac0d90",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0a93781a5fb556ebcaca71be",
+      "version": "b6a92923083fde37fe2400d0",
+      "name": "Dragonflesh Abomination",
+      "file": "images/monsters/dragonflesh-abomination/batch-172-portrait.png",
+      "sha256": "1a2960571fe1c82951bd8955725fcd7b69589924bebf94b1cd95234cfd65adec",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6b0fb87d8d35d14ba9436076",
+      "version": "36c593271fb6399c6c9bdbbd",
+      "name": "Dragonflesh Grafter",
+      "file": "images/monsters/dragonflesh-grafter/batch-172-portrait.png",
+      "sha256": "26be2c9016bee92005b53d22819b505e622333088508d27c703bdd67694c2251",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6c3c255e41fb2e7491159567",
+      "version": "9e64a042ddbf9ac65f63105c",
+      "name": "Dragonnel",
+      "file": "images/monsters/dragonnel/batch-172-portrait.png",
+      "sha256": "c8d0cd973377dd3bc5d45340da2b1d0f77b92e19d58c0f8f2282792c5b7efbbb",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c9010364d3a63d66ac17e509",
+      "version": "86647111ab12b990600e8a50",
+      "name": "Egg Hunter Adult",
+      "file": "images/monsters/egg-hunter-adult/batch-172-portrait.png",
+      "sha256": "265d3768a1240288df4589a06584b2fed880b504515ddb57ce9c6f0a22e35e2d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-69f4abfd0e9efaf547eb4395",
+      "version": "f06b8b5da87c41096010bc1f",
+      "name": "Egg Hunter Hatchling",
+      "file": "images/monsters/egg-hunter-hatchling/batch-172-portrait.png",
+      "sha256": "8604553af412bccf6e773449deeef224b4ab8875b602f6fd2ba3acc34816058e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-246715ad7d1d0f6110920816",
+      "version": "5bd15e5e6dd2723f90c32fd8",
+      "name": "Elder Brain Dragon",
+      "file": "images/monsters/elder-brain-dragon/batch-172-portrait.png",
+      "sha256": "2532b82d9bebe76fa5fbf526377dbec73fcac1ffa257166beaae17a21574598f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-31abb3883a300d8afa1e53a2",
+      "version": "c59950784e89399c260eaa63",
+      "name": "Emerald Dragon Wyrmling",
+      "file": "images/monsters/emerald-dragon-wyrmling/batch-172-portrait.png",
+      "sha256": "7ae2985b645d6dad4e3630ecdc3ae5cba0a246b246690602a93b12f5e190d821",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e09eed24c708d23e724344b6",
+      "version": "616ce936cb148cbb545db383",
+      "name": "Emerald Greatwyrm",
+      "file": "images/monsters/emerald-greatwyrm/batch-172-portrait.png",
+      "sha256": "840c397226ba45640f8b173e806087f44836680726aa8a484a9dd9efa68dc1b2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7fba6f2d6a9cfc2ae1eef908",
+      "version": "bb5401c2d883c520d92035b0",
+      "name": "Eyedrake",
+      "file": "images/monsters/eyedrake/batch-172-portrait.png",
+      "sha256": "ba773bdb891c7864114d0d81b5c99567267d3f29abd1e50938d79392278210ad",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-488640fac65428e2167fc659",
+      "version": "9a6ad5b3428208022ad3a166",
+      "name": "Gem Stalker",
+      "file": "images/monsters/gem-stalker/batch-172-portrait.png",
+      "sha256": "25dbe962efb30d41685d7398e5414d2dcf6b5df12864a36ef7c0e1b9123004d0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ae65b46d64e2974a1346c4fe",
+      "version": "1d109020ec364472852b5a77",
+      "name": "Ghost Dragon",
+      "file": "images/monsters/ghost-dragon/batch-172-portrait.png",
+      "sha256": "a9bdc45e69096456900023c4856128e1cfdec8fea806b239475532b16297c6be",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-331e39041cc6347cf884e204",
+      "version": "7a3556035ca724bed987fb53",
+      "name": "Gold Greatwyrm",
+      "file": "images/monsters/gold-greatwyrm/batch-172-portrait.png",
+      "sha256": "8110ec8e339075e8d76e3c6e0a28cdfb1fec1b553dd9d8ab39de78e076899177",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-511568ed62dda3871eff95f5",
+      "version": "082dbb0a791afbb2846ba357",
+      "name": "Green Greatwyrm",
+      "file": "images/monsters/green-greatwyrm/batch-172-portrait.png",
+      "sha256": "c38ec3f857fd43379ae51bdd749c44018ca3025e1531b486398f61060807566c",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fa836a54bc6751ca8629b60b",
+      "version": "3169f6905c5a18d7b1ca48d2",
+      "name": "Hoard Mimic",
+      "file": "images/monsters/hoard-mimic/batch-172-portrait.png",
+      "sha256": "368c13dcb7e3c82521002f6ea7048fa85f9c4d3c4ea3448e88f8a3efc25624f1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-633409466e9aa64c9cf20493",
+      "version": "06cfd1a28408b2d99b621528",
+      "name": "Hoard Scarab",
+      "file": "images/monsters/hoard-scarab/batch-172-portrait.png",
+      "sha256": "d2e1798684c4027947fb350a835ee9da187bd9e5c2e9e9b67f2513cd2ccdc826",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c753f370833fa00986f5690b",
+      "version": "808b7cab745619244a1de3ea",
+      "name": "Hollow Dragon",
+      "file": "images/monsters/hollow-dragon/batch-172-portrait.png",
+      "sha256": "0e1b253f17cf315829b8eb49e31aee38f91081cf969c7c085236f5ac74dd2bf2",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d0a62680d76941c0f86e9484",
+      "version": "58ac8ac876a089a23886baf5",
+      "name": "Liondrake",
+      "file": "images/monsters/liondrake/batch-172-portrait.png",
+      "sha256": "08857f16edffb04540c81c48c3669ad7e104fd4f8c1d6fc4d48365a8a5b4046f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a4621d6098219ebc97b9fd1c",
+      "version": "d01986ddaaa4b100d4ac5a4d",
+      "name": "Metallic Peacekeeper",
+      "file": "images/monsters/metallic-peacekeeper/batch-172-portrait.png",
+      "sha256": "6f37ca94add659dffd5ec4cc5d37c46837f0eb757ec1a4a03947d7655d2d14e6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-0e8e309d5abf24c21056812b",
+      "version": "f1e77b3dc90eb6503b752f93",
+      "name": "Metallic Warbler",
+      "file": "images/monsters/metallic-warbler/batch-172-portrait.png",
+      "sha256": "7d627d27927f1fc0787fd450789dba810b6aa8dd99aeba084951f0d82347e36f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3af0a6f92eba40b40b97b837",
+      "version": "d130cd015575e7c9f3dd1720",
+      "name": "Moonstone Dragon Wyrmling",
+      "file": "images/monsters/moonstone-dragon-wyrmling/batch-172-portrait.png",
+      "sha256": "53272154a434310ceb07fc50cea73bcd5e6b1f1bdb767e0458ffed90d353adad",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e9bcdc6c05b9da49c8d86d16",
+      "version": "68dc323f3faa9e8848624709",
+      "name": "Red Greatwyrm",
+      "file": "images/monsters/red-greatwyrm/batch-172-portrait.png",
+      "sha256": "efa6a7f43a6dbb09acdc7c75795898ba9ce0545e2ee2dc3ac2107caf2099c95b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fdee8696ef6e11b63896a09f",
+      "version": "09ca3693c44800450b1b46d3",
+      "name": "Sapphire Dragon Wyrmling",
+      "file": "images/monsters/sapphire-dragon-wyrmling/batch-172-portrait.png",
+      "sha256": "86c33c120d0e3ddd08666489087f4372782fdaf42f2a6efd7ce77dc8cdcec517",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2adf70e386458fec3dfe3e54",
+      "version": "6787a3eefb1ac51b8d39bf55",
+      "name": "Sapphire Greatwyrm",
+      "file": "images/monsters/sapphire-greatwyrm/batch-172-portrait.png",
+      "sha256": "277b69e63ed77801a0c087483b0669092042d0ad7f66684222e811b96923c38f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8c73887add77b60bc3f107d4",
+      "version": "21d4b4e1979434631badac47",
+      "name": "Silver Greatwyrm",
+      "file": "images/monsters/silver-greatwyrm/batch-172-portrait.png",
+      "sha256": "0e3544e2c99520ed2410bd5bca8675767300d0af32b71d3bd9e8c3f80239c157",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a841dfe1e198e86cc8f9508f",
+      "version": "ede27f9482b31ae74968dda3",
+      "name": "Swarm of Hoard Scarabs",
+      "file": "images/monsters/swarm-of-hoard-scarabs/batch-172-portrait.png",
+      "sha256": "fcaae04c4a67328964b4847ac07e160948f5c87b6db3fcd8669183b670d5ea1e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c1a29cd73688dca209cfd00a",
+      "version": "7346954d63e6d862bc72edb4",
+      "name": "Topaz Dragon Wyrmling",
+      "file": "images/monsters/topaz-dragon-wyrmling/batch-172-portrait.png",
+      "sha256": "3b5db3525273950866c36f16e0806dc36dd59fb38c7e9771bafdca9c0979fbfa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e8430a2c54ca56c2ecfa312d",
+      "version": "9797a8659229aca6749f46a7",
+      "name": "Topaz Greatwyrm",
+      "file": "images/monsters/topaz-greatwyrm/batch-172-portrait.png",
+      "sha256": "b8d7aa39855f92a69a32a40f823011f7022d3eadacb7777c76251e57b5f1d4e5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6e32aea90ab8411489ddf1f8",
+      "version": "8dea25927d032f6f1661d7b3",
+      "name": "White Greatwyrm",
+      "file": "images/monsters/white-greatwyrm/batch-172-portrait.png",
+      "sha256": "019b0952a3797d4513f693330624529da3ac55ed5cbfd7da27abde61e6193e11",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6bfc507977827b8db82168ed",
+      "version": "eb311ef7e914bd3ef4d13010",
+      "name": "Young Amethyst Dragon",
+      "file": "images/monsters/young-amethyst-dragon/batch-172-portrait.png",
+      "sha256": "09b7fc493b2e1f03633234c26daf1928c08e9df04f461baedb547ce9ef466d70",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-59c027298de43e0f52d9efde",
+      "version": "3e3f1ee6c412007fb0dc0087",
+      "name": "Young Crystal Dragon",
+      "file": "images/monsters/young-crystal-dragon/batch-172-portrait.png",
+      "sha256": "7838002ef5721894c4b863da1242d196d8b166b88910ac61fb042ce9ca99fb61",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-92592e44c234d6c45214466c",
+      "version": "585341c22e19eca290893944",
+      "name": "Young Deep Dragon",
+      "file": "images/monsters/young-deep-dragon/batch-172-portrait.png",
+      "sha256": "5edbcf4bd675b263711a8eaeb50701116fb57a82d6629f64c486c06f131257a9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6f6c427fc565e6be03130d01",
+      "version": "c845a393b2d5564c0d220a27",
+      "name": "Young Dragon Turtle",
+      "file": "images/monsters/young-dragon-turtle/batch-172-portrait.png",
+      "sha256": "ea657713b865c2229c9fed111f6b7a12e115982037b5888d45f97489a3acf267",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8bad98ab0cbef46322be80d4",
+      "version": "b8f56fc2b24db0af0c40b543",
+      "name": "Young Emerald Dragon",
+      "file": "images/monsters/young-emerald-dragon/batch-172-portrait.png",
+      "sha256": "6b9336efa57ee7f46c77046cef056cf5ad66119d44f4ec6f7297eef10090404d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4eac544740380c61ee662bf3",
+      "version": "c50ed03dadb4b65f4873d1d4",
+      "name": "Young Moonstone Dragon",
+      "file": "images/monsters/young-moonstone-dragon/batch-172-portrait.png",
+      "sha256": "ab71d4a8ba3bbbeecbd384c072d27ed586cd356d1b83057626daf7e06666f9ee",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-eb171d5f2c1af2a776463811",
+      "version": "2627f12753c9550ab5d2cbe8",
+      "name": "Young Sapphire Dragon",
+      "file": "images/monsters/young-sapphire-dragon/batch-172-portrait.png",
+      "sha256": "d2bf68c5305e959a8a354c7ed7868e3d041831ddff6a73973c8b5d68ecba4005",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b6443732849907f69b3ed582",
+      "version": "750d5bf1e7aa7f6d7259be62",
+      "name": "Young Topaz Dragon",
+      "file": "images/monsters/young-topaz-dragon/batch-172-portrait.png",
+      "sha256": "c7b35ffae1964032bd7271fd1c86d835b20949844866d4bf3522eb9386a33cd1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

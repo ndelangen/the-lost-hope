@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Deer",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol Ediciones",
+    "printing": "Monster Vault ©2024. Licensed Spanish Cubil de Monstruos ©2025.",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourceLanguage": "Spanish",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition published by Nosolorol Ediciones under agreement with Kobold Press.",
+    "isbn": "979-13-87882-04-4",
+    "translatedHeading": "Ciervo",
+    "spanishHeading": "Ciervo",
+    "printedPages": [
+      339
+    ],
+    "pdfPages": [
+      341
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Apéndice: Animales",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "catalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "catalogEvidence": "Kobold Press’s English catalog confirms the indexed name, book, CR, size, type and habitats. Rules are summarized from the licensed Spanish witness.",
+    "xpEvidence": "XP follows the challenge-rating table on printed p. 17 (p. 19).",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The 2025 Kobold Press Monster Vault errata lists no change specific to this creature.",
+    "habitatEvidence": "The English catalog lists Farmland, Forest and Grassland. The Cubil de Monstruos habitat tables on pp. 377–378 also list Forest and Grassland.",
+    "appearanceEvidence": "Editorial description of the reused parchment portrait.",
+    "artGroup": "deer",
+    "portraitReuseSource": "beast-ready-batch-02/parts/b02_03/portraits/deer.png",
+    "portraitReuseSha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242",
+    "mechanicsNotes": [
+      "The Spanish Monster Vault prints Perception 16. The English BFRD v1 has Perception 12 for its own Deer, so the Spanish Monster Vault value is retained for this scope.",
+      "The Spanish book describes how vulnerability to a condition works on p. 23."
+    ]
+  },
+  {
+    "name": "Dinosaur, Ankylosaurus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol Ediciones",
+    "printing": "Monster Vault ©2024. Licensed Spanish Cubil de Monstruos ©2025.",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourceLanguage": "Spanish",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition published by Nosolorol Ediciones under agreement with Kobold Press.",
+    "isbn": "979-13-87882-04-4",
+    "translatedHeading": "Anquilosaurio",
+    "spanishHeading": "Anquilosaurio",
+    "printedPages": [
+      108,
+      109
+    ],
+    "pdfPages": [
+      110,
+      111
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Dinosaurios",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "catalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "catalogEvidence": "Kobold Press’s English catalog confirms the indexed name, book, CR, size, type and habitats. Rules are summarized from the licensed Spanish witness.",
+    "xpEvidence": "XP follows the challenge-rating table on printed p. 17 (p. 19).",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The 2025 Kobold Press Monster Vault errata lists no change specific to this creature.",
+    "habitatEvidence": "The English catalog lists Grassland and Hills. Cubil de Monstruos describes seasonal grassland migration on p. 108 and lists both habitats on p. 378.",
+    "appearanceEvidence": "Editorial description of the reused parchment portrait.",
+    "artGroup": "dinosaur-ankylosaurus",
+    "portraitReuseSource": "indexed:images/monsters/ankylosaurus/parchment-portrait.webp",
+    "portraitReuseSha256": "44b936cdb1d2066bf9b17dc59e39476be97574879de899dc59e6ccc652900eaa",
+    "mechanicsNotes": [
+      "The reaction text refers to the target reducing damage, which in this trigger is the ankylosaurus. The recharge procedure is on p. 26."
+    ]
+  },
+  {
+    "name": "Dinosaur, Plesiosaurus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol Ediciones",
+    "printing": "Monster Vault ©2024. Licensed Spanish Cubil de Monstruos ©2025.",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourceLanguage": "Spanish",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition published by Nosolorol Ediciones under agreement with Kobold Press.",
+    "isbn": "979-13-87882-04-4",
+    "translatedHeading": "Plesiosaurio",
+    "spanishHeading": "Plesiosaurio",
+    "printedPages": [
+      109
+    ],
+    "pdfPages": [
+      111
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Dinosaurios",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "catalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "catalogEvidence": "Kobold Press’s English catalog confirms the indexed name, book, CR, size, type and habitats. Rules are summarized from the licensed Spanish witness.",
+    "xpEvidence": "XP follows the challenge-rating table on printed p. 17 (p. 19).",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The 2025 Kobold Press Monster Vault errata lists no change specific to this creature.",
+    "habitatEvidence": "Both the English catalog and the Spanish habitat tables on pp. 376 and 380 list Coastal and Underwater. The Spanish book also describes hunting in the ocean and in brackish estuaries on p. 108.",
+    "appearanceEvidence": "Editorial description of the reused parchment portrait.",
+    "artGroup": "dinosaur-plesiosaurus",
+    "portraitReuseSource": "indexed:images/monsters/plesiosaurus/parchment-portrait.webp",
+    "portraitReuseSha256": "c1ccf37963e1f9ea88fa45b872eb1c9d5874a3d184a98ad52f88b86a4df356a5",
+    "mechanicsNotes": [
+      "The printed off-balance effect specifies its own duration, speed penalty and first-attack disadvantage."
+    ]
+  },
+  {
+    "name": "Dinosaur, Triceratops",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol Ediciones",
+    "printing": "Monster Vault ©2024. Licensed Spanish Cubil de Monstruos ©2025.",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourceLanguage": "Spanish",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition published by Nosolorol Ediciones under agreement with Kobold Press.",
+    "isbn": "979-13-87882-04-4",
+    "translatedHeading": "Triceratops",
+    "spanishHeading": "Triceratops",
+    "printedPages": [
+      109,
+      110
+    ],
+    "pdfPages": [
+      111,
+      112
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Dinosaurios",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "catalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "catalogEvidence": "Kobold Press’s English catalog confirms the indexed name, book, CR, size, type and habitats. Rules are summarized from the licensed Spanish witness.",
+    "xpEvidence": "XP follows the challenge-rating table on printed p. 17 (p. 19).",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The 2025 Kobold Press Monster Vault errata lists no change specific to this creature.",
+    "habitatEvidence": "Both the English catalog and the Spanish habitat table on p. 378 list Grassland.",
+    "appearanceEvidence": "Editorial description of the reused parchment portrait.",
+    "artGroup": "dinosaur-triceratops",
+    "portraitReuseSource": "indexed:images/monsters/triceratops/parchment-portrait.webp",
+    "portraitReuseSha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+    "mechanicsNotes": [
+      "Warning Bugle modifies the Wisdom save and the action cost of Stomp. The free Stomp depends on failing the charge’s Strength save."
+    ]
+  },
+  {
+    "name": "Dinosaur, Tyrannosaurus Rex",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "publisher": "Kobold Press / Open Design LLC",
+    "translationPublisher": "Nosolorol Ediciones",
+    "printing": "Monster Vault ©2024. Licensed Spanish Cubil de Monstruos ©2025.",
+    "sourceTitle": "Cubil de Monstruos",
+    "sourceLanguage": "Spanish",
+    "translationLanguage": "Spanish",
+    "translator": "Andrea Iglesias",
+    "translationLicense": "Licensed Spanish edition published by Nosolorol Ediciones under agreement with Kobold Press.",
+    "isbn": "979-13-87882-04-4",
+    "translatedHeading": "Tyrannosaurus Rex",
+    "spanishHeading": "Tyrannosaurus Rex",
+    "printedPages": [
+      110,
+      111
+    ],
+    "pdfPages": [
+      112,
+      113
+    ],
+    "pdfSha256": "0a856832a5953d825829f75b5cec222f80aa401ce4d147c9d285368f62f71c75",
+    "section": "Dinosaurios",
+    "sourceUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "url": "https://www.nosolorol.com/talesofthevaliant",
+    "publisherUrl": "https://www.nosolorol.com/talesofthevaliant",
+    "catalogUrl": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+    "catalogEvidence": "Kobold Press’s English catalog confirms the indexed name, book, CR, size, type and habitats. Rules are summarized from the licensed Spanish witness.",
+    "xpEvidence": "XP follows the challenge-rating table on printed p. 17 (p. 19).",
+    "errataUrl": "https://koboldpress.com/errata/",
+    "errataEvidence": "The May 2025 errata adds the general grapple escape sidebar on English p. 25, already present in the Spanish witness on p. 26. It lists no Tyrannosaurus Rex stat block change.",
+    "habitatEvidence": "Both the English catalog and the Spanish habitat table on p. 378 list Grassland.",
+    "appearanceEvidence": "Editorial description of the reused parchment portrait.",
+    "artGroup": "dinosaur-tyrannosaurus-rex",
+    "portraitReuseSource": "indexed:images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+    "portraitReuseSha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+    "mechanicsNotes": [
+      "The printed modifier is +8 Strength and both attacks are printed at +8 to hit. Their damage expressions retain the printed +5. The escape action is explained on p. 26 and in the May 2025 English errata sidebar. Rending Shake continues onto p. 111."
+    ]
+  }
+]

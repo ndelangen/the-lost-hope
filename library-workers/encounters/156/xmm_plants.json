@@ -1,0 +1,472 @@
+[
+  {
+    "name": "Awakened Shrub",
+    "statBlock": {
+      "name": "Awakened Shrub",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 23,
+      "classification": "Small plant, neutral",
+      "ac": 9,
+      "hp": 10,
+      "hitDice": "3d6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "description": "A small plant made sentient by magic. It can look like a flowering bush or a walking piece of topiary.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Damage resistances": "Piercing.",
+        "Damage vulnerabilities": "Fire.",
+        "Languages": "Common plus one other language.",
+        "Actions": "Rake. Melee attack, +1 to hit, reach 5 ft. On a hit, deal 1 Slashing damage.",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 23."
+      }
+    }
+  },
+  {
+    "name": "Awakened Tree",
+    "statBlock": {
+      "name": "Awakened Tree",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 23,
+      "classification": "Huge plant, neutral",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d12 + 14",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "description": "A living tree that can walk and speak. Some stand motionless for long stretches, while others patrol places steeped in natural magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-2 (8).",
+        "Damage resistances": "Bludgeoning, Piercing.",
+        "Damage vulnerabilities": "Fire.",
+        "Languages": "Common plus one other language.",
+        "Actions": "Slam. Melee attack, +6 to hit, reach 10 ft. On a hit, deal 13 (2d8 + 4) Bludgeoning damage.",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 23."
+      }
+    }
+  },
+  {
+    "name": "Myconid Adult",
+    "statBlock": {
+      "name": "Myconid Adult",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 223,
+      "classification": "Medium plant, lawful neutral",
+      "ac": 12,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "savingThrows": {},
+      "description": "An Underdark fungus folk defender that keeps intruders away from its colony.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Telepathy 240 ft.",
+        "Traits": "Sun Sickness. In sunlight, the myconid has Disadvantage on D20 Tests. It dies if it spends more than 1 hour in sunlight.",
+        "Actions": "Slam. Melee attack, +2 to hit, reach 5 ft. On a hit, deal 4 (1d8) Bludgeoning damage plus 3 (1d6) Poison damage.\nPacifying Spores (1/day). One visible creature within 10 ft. makes a DC 11 Constitution save. On failure, it is Stunned. It can end the effect by succeeding on a repeat save at the end of any of its turns. After 1 minute, the save succeeds automatically.\nRapport Spores. Release spores in a 30-ft. Emanation from the myconid. Creatures in the area with Intelligence 2 or higher gain telepathy out to 30 ft. for 1 hour. Constructs, Elementals, and Undead gain nothing from the spores.",
+        "Habitats": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 223."
+      }
+    }
+  },
+  {
+    "name": "Myconid Sovereign",
+    "statBlock": {
+      "name": "Myconid Sovereign",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 223,
+      "classification": "Large plant, lawful neutral",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "6d10 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "savingThrows": {},
+      "description": "A tall myconid whose layered growths set it apart from the adults it leads. It tends the colony and its fungal blooms.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Telepathy 240 ft.",
+        "Traits": "Sun Sickness. In sunlight, the myconid has Disadvantage on D20 Tests. It dies if it spends more than 1 hour in sunlight.",
+        "Actions": "Multiattack. Make one Slam attack and use Pacifying Spores.\nSlam. Melee attack, +3 to hit, reach 5 ft. On a hit, deal 6 (2d4 + 1) Bludgeoning damage plus 5 (2d4) Poison damage.\nAnimating Spores (3/day). Release spores on a Small or Medium corpse within 5 ft. It must have belonged to a creature other than a Construct or Undead. After 24 hours, it rises as a Myconid Spore Servant. The animation lasts 1d4 + 1 weeks or ends when the servant is destroyed. These spores can animate that corpse only once.\nPacifying Spores. One visible creature within 10 ft. makes a DC 12 Constitution save. On failure, it is Stunned. It can end the effect by succeeding on a repeat save at the end of any of its turns. After 1 minute, the save succeeds automatically.\nRapport Spores. Release spores in a 30-ft. Emanation from the myconid. Creatures in the area with Intelligence 2 or higher gain telepathy out to 30 ft. for 1 hour. Constructs, Elementals, and Undead gain nothing from the spores.",
+        "Habitats": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 223."
+      }
+    }
+  },
+  {
+    "name": "Myconid Sprout",
+    "statBlock": {
+      "name": "Myconid Sprout",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 222,
+      "classification": "Small plant, lawful neutral",
+      "ac": 10,
+      "hp": 3,
+      "hitDice": "1d6",
+      "speed": "10 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "description": "A small myconid that tends the colony and watches for trespassers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Telepathy 240 ft.",
+        "Traits": "Sun Sickness. In sunlight, the myconid has Disadvantage on D20 Tests. It dies if it spends more than 1 hour in sunlight.",
+        "Actions": "Slam. Melee attack, +1 to hit, reach 5 ft. On a hit, deal 1 (1d4 - 1) Bludgeoning damage plus 2 (1d4) Poison damage.\nRapport Spores. Release spores in a 30-ft. Emanation from the myconid. Creatures in the area with Intelligence 2 or higher gain telepathy out to 30 ft. for 1 hour. Constructs, Elementals, and Undead gain nothing from the spores.",
+        "Habitats": "Underdark.",
+        "Treasure": "Any.",
+        "Printed source": "Monster Manual (2024), p. 222."
+      }
+    }
+  },
+  {
+    "name": "Twig Blight",
+    "statBlock": {
+      "name": "Twig Blight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 43,
+      "classification": "Small plant, neutral evil",
+      "ac": 14,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 9,
+      "savingThrows": {},
+      "skills": {
+        "Stealth": 4
+      },
+      "description": "A tangle of moving twigs that hides near deadwood and ambushes travelers in groups.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Senses": "Blindsight 60 ft.",
+        "Damage vulnerabilities": "Fire.",
+        "Condition immunities": "Deafened.",
+        "Languages": "Understands Common and cannot speak.",
+        "Traits": "Pack Tactics. It has Advantage on attacks against a creature while at least one of its allies is within 5 ft. of the creature and the ally is not Incapacitated.",
+        "Actions": "Claw. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 4 (1d4 + 2) Slashing damage.",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 43."
+      }
+    }
+  },
+  {
+    "name": "Vine Blight",
+    "statBlock": {
+      "name": "Vine Blight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 44,
+      "classification": "Medium plant, neutral evil",
+      "ac": 12,
+      "hp": 19,
+      "hitDice": "3d8 + 6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 10,
+      "savingThrows": {},
+      "skills": {
+        "Stealth": 1
+      },
+      "description": "A humanoid silhouette wrapped in vines. It can tangle foes in sudden plant growth and may repeat the words of its victims.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-1 (9).",
+        "Senses": "Blindsight 60 ft.",
+        "Condition immunities": "Deafened.",
+        "Languages": "Common.",
+        "Actions": "Constricting Vine. Melee attack, +4 to hit, reach 10 ft. On a hit, deal 6 (1d8 + 2) Bludgeoning damage. A Large or smaller creature hit is Grappled (escape DC 12). While the grapple lasts, the target takes 4 (1d8) Bludgeoning damage at the start of each of its turns and the blight cannot use Constricting Vine.\nEntangling Plants (recharge 5–6). Cast Entangle using Constitution (spell save DC 12).",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 44."
+      }
+    }
+  },
+  {
+    "name": "Needle Blight",
+    "statBlock": {
+      "name": "Needle Blight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 43,
+      "classification": "Medium plant, neutral evil",
+      "ac": 12,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 3
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "savingThrows": {},
+      "description": "A gaunt walking plant that lashes out with thorn-covered claws or flings volleys of needles.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Senses": "Blindsight 60 ft.",
+        "Condition immunities": "Deafened.",
+        "Languages": "Understands Common and cannot speak.",
+        "Actions": "Claw. Melee attack, +3 to hit, reach 5 ft. On a hit, deal 6 (2d4 + 1) Slashing damage.\nNeedles. Ranged attack, +3 to hit, range 30/60 ft. On a hit, deal 6 (2d4 + 1) Piercing damage.",
+        "Habitats": "Forest.",
+        "Printed source": "Monster Manual (2024), p. 43."
+      }
+    }
+  },
+  {
+    "name": "Violet Fungus",
+    "statBlock": {
+      "name": "Violet Fungus",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 126,
+      "classification": "Medium plant, unaligned",
+      "ac": 5,
+      "hp": 18,
+      "hitDice": "4d8",
+      "speed": "5 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 1
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 3
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 6,
+      "savingThrows": {},
+      "description": "A slow-moving fungus whose lashing tendrils rot flesh on contact.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "-5 (5).",
+        "Senses": "Blindsight 30 ft.",
+        "Condition immunities": "Blinded, Charmed, Deafened, Frightened.",
+        "Languages": "None.",
+        "Actions": "Multiattack. Make two Rotting Touch attacks.\nRotting Touch. Melee attack, +2 to hit, reach 10 ft. On a hit, deal 4 (1d8) Necrotic damage.",
+        "Habitats": "Underdark.",
+        "Printed source": "Monster Manual (2024), p. 126."
+      }
+    }
+  }
+]

@@ -1,0 +1,686 @@
+[
+  {
+    "name": "Amphisbaena (Monstrosity)",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/309672-amphisbaena-monstrosity",
+    "index": null,
+    "appearance": "A snake-shaped creature with a venomous head at each end. It can grasp its other neck to roll like a hoop.",
+    "habitats": "Coastal wetlands around Dunwater, where the adventure places it."
+  },
+  {
+    "name": "Arcanaloth",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "12",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17109-arcanaloth",
+    "index": "https://5e.tools/bestiary.html#arcanaloth_mm",
+    "appearance": "A jackal-headed fiend with hands capable of wielding magic and a taste for fine robes.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Assassin Vine",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/33010-assassin-vine",
+    "index": "https://5e.tools/bestiary.html#assassin%20vine_toa",
+    "appearance": "A thick, creeping vine with many shorter branches. Late in summer it bears bunches of bitter, grape-like fruit.",
+    "habitats": "Chult's jungle. A subterranean form grows near hot springs or volcanic vents."
+  },
+  {
+    "name": "Bard",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17328-bard",
+    "index": "https://5e.tools/bestiary.html#bard_vgm",
+    "appearance": "A traveling performer in a chain shirt who carries a shortsword and a shortbow.",
+    "habitats": "Settlements, especially taverns. Bards also travel with adventurers or serve patrons."
+  },
+  {
+    "name": "Barlgura",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17110-barlgura",
+    "index": "https://5e.tools/bestiary.html#barlgura_mm",
+    "appearance": "A hulking, orangutan-like demon with long, muscular arms and large tusks.",
+    "habitats": [
+      "Abyss"
+    ]
+  },
+  {
+    "name": "Beholder",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "13",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17099-beholder",
+    "index": "https://5e.tools/bestiary.html#beholder_mm",
+    "appearance": "A floating sphere with a great central eye, a toothy mouth and a crown of smaller eyes on stalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Beholder",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "13",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17099-beholder",
+    "index": "https://5e.tools/bestiary.html#beholder_mm",
+    "appearance": "A floating sphere with a great central eye, a toothy mouth and a crown of smaller eyes on stalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Beholder Zombie",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17111-beholder-zombie",
+    "index": "https://5e.tools/bestiary.html#beholder%20zombie_mm",
+    "appearance": "A decaying beholder with a torn hide, a cloudy central eye and smaller eyestalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Blue Slaad",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17112-blue-slaad",
+    "index": "https://5e.tools/bestiary.html#blue%20slaad_mm",
+    "appearance": "A tall, blue, toadlike humanoid with long claws and a powerful frame.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Carrion Crawler",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17138-carrion-crawler",
+    "index": "https://5e.tools/bestiary.html#carrion%20crawler_mm",
+    "appearance": "A long segmented scavenger with numerous legs and a fringe of paralytic tentacles around its mouth.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Crawling Claw",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "0",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17139-crawling-claw",
+    "index": "https://5e.tools/bestiary.html#crawling%20claw_mm",
+    "appearance": "A severed hand animated to move on its fingers.",
+    "habitats": null
+  },
+  {
+    "name": "Demilich",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "18",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17129-demilich",
+    "index": "https://5e.tools/bestiary.html#demilich_mm",
+    "appearance": "A lich’s disembodied skull that rises from the dust when disturbed.",
+    "habitats": "Ancient tombs and guarded crypts."
+  },
+  {
+    "name": "Displacer Beast",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17130-displacer-beast",
+    "index": "https://5e.tools/bestiary.html#displacer%20beast_mm",
+    "appearance": "A six-legged, panther-like predator with two barbed tentacles rising from its shoulders.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Drow Elite Warrior",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17134-drow-elite-warrior",
+    "index": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm",
+    "appearance": "A dark elf in studded leather who carries a shortsword and hand crossbow.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Drow Elite Warrior",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17134-drow-elite-warrior",
+    "index": "https://5e.tools/bestiary.html#drow%20elite%20warrior_mm",
+    "appearance": "A dark elf in studded leather who carries a shortsword and hand crossbow.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Drow Mage",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17135-drow-mage",
+    "index": "https://5e.tools/bestiary.html#drow%20mage_mm",
+    "appearance": "A dark elf spellcaster with pointed ears and pale hair.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Fathomer",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17448-fathomer",
+    "index": "https://5e.tools/bestiary.html#fathomer_pota",
+    "appearance": "A human cultist who can turn into a serpent made of water and slip through bars or under a door.",
+    "habitats": "Water cult strongholds such as Rivergard Keep."
+  },
+  {
+    "name": "Flumph",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17145-flumph",
+    "index": "https://5e.tools/bestiary.html#flumph_mm",
+    "appearance": "A floating, jellyfish-like creature with eyestalks, trailing tendrils and a body that changes color with its emotions.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Galeb Duhr",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "6",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17148-galeb-duhr",
+    "index": "https://5e.tools/bestiary.html#galeb%20duhr_mm",
+    "appearance": "An animate boulder with a face and stone limbs that can tuck in and roll.",
+    "habitats": [
+      "Mountain",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gas Spore",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17147-gas-spore",
+    "index": "https://5e.tools/bestiary.html#gas%20spore_mm",
+    "appearance": "A floating fungus that resembles a beholder, down to its eyes and eyestalks.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Githyanki Knight",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17150-githyanki-knight",
+    "index": "https://5e.tools/bestiary.html#githyanki%20knight_mm",
+    "appearance": "A lean, yellow-skinned humanoid with pointed ears and a silver greatsword.",
+    "habitats": [
+      "Astral Plane"
+    ]
+  },
+  {
+    "name": "Githyanki Warrior",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17149-githyanki-warrior",
+    "index": "https://5e.tools/bestiary.html#githyanki%20warrior_mm",
+    "appearance": "A lean, yellow-skinned humanoid in half plate, armed with a greatsword.",
+    "habitats": [
+      "Astral Plane"
+    ]
+  },
+  {
+    "name": "Goblin Boss",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17155-goblin-boss",
+    "index": "https://5e.tools/bestiary.html#goblin%20boss_mm",
+    "appearance": "A short, pointed-eared goblin armed with a scimitar and javelins.",
+    "habitats": [
+      "Underdark",
+      "Grassland",
+      "Forest",
+      "Hill"
+    ]
+  },
+  {
+    "name": "Gray Slaad",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17114-gray-slaad",
+    "index": "https://5e.tools/bestiary.html#gray%20slaad_mm",
+    "appearance": "A gray, toadlike shapeshifter that can pass as a humanoid.",
+    "habitats": [
+      "Urban",
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Grell",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17157-grell",
+    "index": "https://5e.tools/bestiary.html#grell_mm",
+    "appearance": "A floating, brain-shaped body with a sharp beak and ten trailing, barbed tentacles.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Grell",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17157-grell",
+    "index": "https://5e.tools/bestiary.html#grell_mm",
+    "appearance": "A floating, brain-shaped body with a sharp beak and ten trailing, barbed tentacles.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Grick Alpha",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17158-grick-alpha",
+    "index": "https://5e.tools/bestiary.html#grick%20alpha_mm",
+    "appearance": "A large, rock-colored worm with a hooked beak surrounded by four barbed tentacles.",
+    "habitats": [
+      "Underdark",
+      "Forest"
+    ]
+  },
+  {
+    "name": "Helmed Horror",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17159-helmed-horror",
+    "index": "https://5e.tools/bestiary.html#helmed%20horror_mm",
+    "appearance": "A hollow suit of plate armor that moves and fights on its own.",
+    "habitats": null
+  },
+  {
+    "name": "Helmed Horror",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17159-helmed-horror",
+    "index": "https://5e.tools/bestiary.html#helmed%20horror_mm",
+    "appearance": "A hollow suit of plate armor that moves and fights on its own.",
+    "habitats": null
+  },
+  {
+    "name": "Intellect Devourer",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17163-intellect-devourer",
+    "index": "https://5e.tools/bestiary.html#intellect%20devourer_mm",
+    "appearance": "An exposed brain that scuttles on four clawed legs.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Iron Cobra",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/93842-iron-cobra",
+    "index": "https://5e.tools/bestiary.html#iron%20cobra_mtf",
+    "appearance": "A metal serpent shaped like a hooded cobra.",
+    "habitats": "Forests, grasslands, hills and mountains."
+  },
+  {
+    "name": "Kenku",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17165-kenku",
+    "index": "https://5e.tools/bestiary.html#kenku_mm",
+    "appearance": "A feathered, crowlike humanoid with a beak and no wings.",
+    "habitats": [
+      "Forest",
+      "Urban"
+    ]
+  },
+  {
+    "name": "Kuo-toa",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17166-kuo-toa",
+    "index": "https://5e.tools/bestiary.html#kuo-toa_mm",
+    "appearance": "A fishlike humanoid with bulging eyes and rubbery skin.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Kuo-toa Monitor",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "3",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/17170-kuo-toa-monitor",
+    "index": "https://5e.tools/bestiary.html#kuo-toa%20monitor_mm",
+    "appearance": "A bulging-eyed, fishlike humanoid trained to fight with its bare hands.",
+    "habitats": "Underdark."
+  },
+  {
+    "name": "Kuo-toa Whip",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17169-kuo-toa-whip",
+    "index": "https://5e.tools/bestiary.html#kuo-toa%20whip_mm",
+    "appearance": "A fishlike kuo-toa devotee that wields a long pincer staff.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Mezzoloth",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17124-mezzoloth",
+    "index": "https://5e.tools/bestiary.html#mezzoloth_mm",
+    "appearance": "A stocky insectlike fiend armed with claws and a trident.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Mind Flayer",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17104-mind-flayer",
+    "index": "https://5e.tools/bestiary.html#mind%20flayer_mm",
+    "appearance": "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Mind Flayer",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "7",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17104-mind-flayer",
+    "index": "https://5e.tools/bestiary.html#mind%20flayer_mm",
+    "appearance": "A humanoid with a bulbous, octopus-like head and four tentacles around its mouth.",
+    "habitats": [
+      "Underdark"
+    ]
+  },
+  {
+    "name": "Needle Blight",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17215-needle-blight",
+    "index": "https://5e.tools/bestiary.html#needle%20blight_mm",
+    "appearance": "A shambling plant creature covered with sharp conifer-like needles.",
+    "habitats": [
+      "Forest"
+    ]
+  },
+  {
+    "name": "Nycaloth",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "9",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17125-nycaloth",
+    "index": "https://5e.tools/bestiary.html#nycaloth_mm",
+    "appearance": "A muscular, bat-winged fiend with clawed hands and a greataxe.",
+    "habitats": [
+      "Gehenna"
+    ]
+  },
+  {
+    "name": "Red Slaad",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17116-red-slaad",
+    "index": "https://5e.tools/bestiary.html#red%20slaad_mm",
+    "appearance": "A muscular red, toadlike creature with long claws.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Red Slaad",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17116-red-slaad",
+    "index": "https://5e.tools/bestiary.html#red%20slaad_mm",
+    "appearance": "A muscular red, toadlike creature with long claws.",
+    "habitats": [
+      "Limbo"
+    ]
+  },
+  {
+    "name": "Refrum",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/320193-refrum",
+    "index": null,
+    "appearance": "A slight, stooped inventor-priest in plain gray clothes who gestures animatedly.",
+    "habitats": "The Alchemists’ Quarter in the Styes, a waterfront district."
+  },
+  {
+    "name": "Revenant",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "5",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17196-revenant",
+    "index": "https://5e.tools/bestiary.html#revenant_mm",
+    "appearance": "An animated humanoid corpse whose eyes betray the spirit’s burning determination.",
+    "habitats": [
+      "Forest",
+      "Swamp",
+      "Hill",
+      "Urban",
+      "Desert",
+      "Arctic"
+    ]
+  },
+  {
+    "name": "Scarecrow",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "1",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17200-scarecrow",
+    "index": "https://5e.tools/bestiary.html#scarecrow_mm",
+    "appearance": "A straw-stuffed figure animated to stand guard or pursue intruders.",
+    "habitats": [
+      "Grassland"
+    ]
+  },
+  {
+    "name": "Sea Hag (Coven Variant)",
+    "kind": "monster",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "4",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/301760-sea-hag-coven-variant",
+    "index": null,
+    "appearance": "A gaunt sea hag with a hideous true face who can mask herself with an illusory disguise.",
+    "habitats": "Coasts and underwater, especially polluted lairs."
+  },
+  {
+    "name": "Slaad Tadpole",
+    "kind": "monster",
+    "publication": "Phandelver and Below: The Shattered Obelisk",
+    "edition": "2014 fifth edition",
+    "challenge": "1/8",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17117-slaad-tadpole",
+    "index": "https://5e.tools/bestiary.html#slaad%20tadpole_mm",
+    "appearance": "A tiny, clawed, toadlike larva that hatches after a red slaad’s egg gestates in its host.",
+    "habitats": null
+  },
+  {
+    "name": "Spined Devil",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "2",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17214-spined-devil",
+    "index": "https://5e.tools/bestiary.html#spined%20devil_mm",
+    "appearance": "A small winged devil with sharp spines along its tail.",
+    "habitats": [
+      "Nine Hells"
+    ]
+  },
+  {
+    "name": "Swarm of Insects (Spiders)",
+    "kind": "beast",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "status": "local-stat-block",
+    "source": "https://www.dndbeyond.com/monsters/301414-swarm-of-insects-spiders",
+    "index": null,
+    "appearance": "A moving mass of tiny spiders that can spread over walls and ceilings.",
+    "habitats": "The general swarm is found in forests, swamps, hills, grasslands, deserts, settlements and the Underdark."
+  },
+  {
+    "name": "Troglodyte",
+    "kind": "monster",
+    "publication": "Waterdeep: Dragon Heist",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "status": "manual-combat-profile",
+    "source": "https://www.dndbeyond.com/monsters/17204-troglodyte",
+    "index": "https://5e.tools/bestiary.html#troglodyte_mm",
+    "appearance": "A cave-dwelling reptilian humanoid with a crest along its head and a strong stench.",
+    "habitats": [
+      "Underdark"
+    ]
+  }
+]

@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Duodrone",
+    "statBlock": {
+      "name": "Duodrone",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, lawful neutral",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A blocky modron that supervises monodrones and can work on two tasks at once.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 10.",
+        "Languages": "Modron.",
+        "Traits": "Axiomatic Mind. Compulsion can't make the duodrone disobey its instructions or act against its nature.\nDisintegration. When it dies, its body turns to dust. Anything it carried remains.",
+        "Actions": "Multiattack. Make two Fist attacks or two Javelin attacks.\nFist. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d4) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 225."
+      },
+      "habitats": [
+        "Mechanus"
+      ]
+    }
+  },
+  {
+    "name": "Duodrone (Rogue)",
+    "statBlock": {
+      "name": "Duodrone (Rogue)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium construct, any alignment except lawful neutral",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A duodrone that breaks with Primus. Other modrons hunt it down.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft., passive Perception 10.",
+        "Languages": "Modron.",
+        "Traits": "Disintegration. When it dies, its body turns to dust. Anything it carried remains.",
+        "Actions": "Multiattack. Make two Fist attacks or two Javelin attacks.\nFist. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d4) bludgeoning damage.\nJavelin. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 4 (1d6 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 224 for the Rogue Modron sidebar and p. 225 for the duodrone.",
+        "Variant": "The Rogue Modron option removes Axiomatic Mind and allows any alignment except lawful neutral. All other duodrone statistics still apply."
+      },
+      "habitats": [
+        "Mechanus"
+      ]
+    }
+  },
+  {
+    "name": "Pseudodragon",
+    "statBlock": {
+      "name": "Pseudodragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, neutral good",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d4 + 2",
+      "speed": "15 ft., fly 60 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "A small red-brown dragon that nests in hollow trees and caves. It avoids strangers and defends itself with a venomous tail.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft., passive Perception 13.",
+        "Languages": "Understands Common and Draconic. It can't speak.",
+        "Traits": "Keen Senses. It has advantage on Wisdom (Perception) checks that use sight, hearing, or smell.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nLimited Telepathy. It can magically send simple thoughts, feelings, or images to a creature within 100 ft. that understands a language.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nSting. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save or is Poisoned for 1 hour. On a failure by 5 or more, it also falls Unconscious for the same duration. Damage or another creature using an action to shake it awake ends the Unconscious condition early.",
+        "Printed source": "Monster Manual (2014), p. 254."
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      }
+    }
+  },
+  {
+    "name": "Pseudodragon (familiar variant)",
+    "statBlock": {
+      "name": "Pseudodragon (familiar variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Tiny dragon, neutral good",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d4 + 2",
+      "speed": "15 ft., fly 60 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 13,
+      "description": "A pseudodragon willing to form a familiar bond with a companion.",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 10 ft., darkvision 60 ft., passive Perception 13.",
+        "Languages": "Understands Common and Draconic. It can't speak.",
+        "Traits": "Keen Senses. It has advantage on Wisdom (Perception) checks that use sight, hearing, or smell.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nLimited Telepathy. It can magically send simple thoughts, feelings, or images to a creature within 100 ft. that understands a language.\nFamiliar. The pseudodragon forms a magical telepathic bond with a willing creature. The companion can share the pseudodragon's senses while they are within 1 mile of each other and gains the benefit of Magic Resistance while within 10 ft. The pseudodragon may end its service and the bond at any time.",
+        "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nSting. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 4 (1d4 + 2) piercing damage. The target makes a DC 11 Constitution save or is Poisoned for 1 hour. On a failure by 5 or more, it also falls Unconscious for the same duration. Damage or another creature using an action to shake it awake ends the Unconscious condition early.",
+        "Printed source": "Monster Manual (2014), p. 254, including the Pseudodragon Familiar sidebar."
+      },
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      }
+    }
+  },
+  {
+    "name": "Satyr",
+    "statBlock": {
+      "name": "Satyr",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 14,
+      "hp": 31,
+      "hitDice": "7d8",
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "description": "A horned woodland fey with goat hooves that seeks out music and festivals.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Passive Perception 12.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) bludgeoning damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. Hit 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Monster Manual (2014), p. 267."
+      },
+      "skills": {
+        "Perception": 2,
+        "Performance": 6,
+        "Stealth": 5
+      }
+    }
+  },
+  {
+    "name": "Satyr (Variant)",
+    "statBlock": {
+      "name": "Satyr (Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium fey, chaotic neutral",
+      "ac": 14,
+      "hp": 31,
+      "hitDice": "7d8",
+      "speed": "40 ft.",
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 12,
+      "description": "A satyr carrying magical panpipes. In a group, usually only one satyr has a set.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Passive Perception 12.",
+        "Languages": "Common, Elvish, Sylvan.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 6 (2d4 + 1) bludgeoning damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nPanpipes. Choose one melody. Each creature that can hear the pipes within 60 ft. must make a DC 13 Wisdom save. Other satyrs and creatures immune to the Charmed condition are exempt. Affected creatures can retry the save at the end of each of their turns, ending the effect on a success. After a successful save or the effect ending, that creature is immune to this set of panpipes for 24 hours.\nCharming Melody. On a failed save, the creature is Charmed by the satyr for 1 minute. The effect ends immediately if the satyr or one of its companions harms the creature.\nFrightening Strain. On a failed save, the creature is Frightened for 1 minute.\nGentle Lullaby. On a failed save, the creature falls asleep and becomes Unconscious for 1 minute. Taking damage or someone using an action to shake it awake ends the effect.",
+        "Printed source": "Monster Manual (2014), p. 267, including the Satyr Pipes sidebar."
+      },
+      "skills": {
+        "Perception": 2,
+        "Performance": 6,
+        "Stealth": 5
+      }
+    }
+  },
+  {
+    "name": "Bone Naga (Guardian)",
+    "statBlock": {
+      "name": "Bone Naga (Guardian)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large undead, lawful evil",
+      "ac": 15,
+      "hp": 58,
+      "hitDice": "9d10 + 9",
+      "speed": "30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "A yuan-ti ritual raised this former guardian naga as a skeletal servant and ended its ability to return to life. It retains some of its old spells.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Paralyzed, Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Common plus one other language.",
+        "Traits": "Immortal Nature. The naga needs no air, food, drink, or sleep.",
+        "Spellcasting": "5th-level cleric spellcaster using Wisdom. Spell save DC 12, +4 to hit with spell attacks. Its spells need only verbal components.\nCantrips at will. Mending, Sacred Flame, Thaumaturgy.\n1st level (4 slots). Command, Shield of Faith.\n2nd level (3 slots). Calm Emotions, Hold Person.\n3rd level (2 slots). Bestow Curse.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 10 ft., one creature. Hit 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 233, using the guardian naga spell list."
+      }
+    }
+  },
+  {
+    "name": "Bone Naga (Spirit)",
+    "statBlock": {
+      "name": "Bone Naga (Spirit)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large undead, lawful evil",
+      "ac": 15,
+      "hp": 58,
+      "hitDice": "9d10 + 9",
+      "speed": "30 ft.",
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "A yuan-ti ritual raised this former spirit naga as a skeletal servant and ended its ability to return to life. It retains some of its old spells.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Exhaustion, Paralyzed, Poisoned.",
+        "Senses": "Darkvision 60 ft., passive Perception 12.",
+        "Languages": "Common plus one other language.",
+        "Traits": "Immortal Nature. The naga needs no air, food, drink, or sleep.",
+        "Spellcasting": "5th-level wizard spellcaster using Intelligence. Spell save DC 12, +4 to hit with spell attacks. Its spells need only verbal components.\nCantrips at will. Mage Hand, Minor Illusion, Ray of Frost.\n1st level (4 slots). Charm Person, Sleep.\n2nd level (3 slots). Detect Thoughts, Hold Person.\n3rd level (2 slots). Lightning Bolt.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 10 ft., one creature. Hit 10 (2d6 + 3) piercing damage plus 10 (3d6) poison damage.",
+        "Printed source": "Monster Manual (2014), p. 233, using the spirit naga spell list."
+      }
+    }
+  }
+]

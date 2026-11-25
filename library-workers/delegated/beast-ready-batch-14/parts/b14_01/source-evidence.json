@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Giant Raven",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2016",
+    "isbn": "978-0-7869-6600-4",
+    "section": "Chapter 3, Black Raven Tribe and Raven Rock",
+    "printedPage": 66,
+    "printedPages": [
+      66,
+      105
+    ],
+    "pdfPage": 67,
+    "pdfPages": [
+      67,
+      106
+    ],
+    "pdfSha256": "e6c8f2fb36dc9b683d4cdcf2e04a665a187012848a649d745237fd0b25e94ebe",
+    "sourceUrl": "https://www.dndbeyond.com/sources/skt/the-savage-frontier#RavenRock",
+    "url": "https://www.dndbeyond.com/sources/skt/the-savage-frontier#RavenRock",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/skt",
+    "sourceWitness": "Local first-print . The public D&D Beyond table of contents identifies the section.",
+    "publisherAccessState": "The anonymous chapter link redirects to the adventure marketplace. The local printed pages supplied the rules.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/adventures/storm-kings-thunder",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/storm-kings-thunder",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "7be9a8709571785f9db1bec87a921afcac11712e9f8a85009f3c1229c983c61d",
+    "errataEvidence": "No rule correction for this creature in the official errata or its version 2.0 .",
+    "habitatEvidence": "Tags follow the adventure location and its stated encounter environment.",
+    "appearanceEvidence": "Editorial description based on the inspected portrait and printed setting.",
+    "mechanicsNotes": [
+      "Both p. 66 and p. 105 instruct the DM to use Giant Vulture statistics.",
+      "The p. 105 encounter says the ravens describe intruders. The stat block keeps the source template’s language line. The encounter gives no replacement language rule."
+    ],
+    "baseRules": {
+      "name": "Giant Vulture",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printing": "First printing, September 2014",
+      "isbn": "978-0-7869-6561-8",
+      "printedPage": 329,
+      "pdfPage": 330,
+      "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The official 2014 Monster Manual errata gives no entry-specific correction for these statistics."
+    },
+    "variant": "Adventure encounter reference with inherited Giant Vulture statistics.",
+    "reusedPortrait": {
+      "source": "beast-ready-batch-02/parts/b02_08/portraits/raven.png",
+      "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8"
+    }
+  },
+  {
+    "name": "Hulking Crab",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2016",
+    "isbn": "978-0-7869-6600-4",
+    "section": "Appendix C, Hulking Crab",
+    "printedPage": 240,
+    "printedPages": [
+      240
+    ],
+    "pdfPage": 241,
+    "pdfPages": [
+      241
+    ],
+    "pdfSha256": "e6c8f2fb36dc9b683d4cdcf2e04a665a187012848a649d745237fd0b25e94ebe",
+    "sourceUrl": "https://www.dndbeyond.com/sources/skt/creatures#HulkingCrab",
+    "url": "https://www.dndbeyond.com/sources/skt/creatures#HulkingCrab",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/skt",
+    "sourceWitness": "Local first-print . The public D&D Beyond table of contents identifies the section.",
+    "publisherAccessState": "The anonymous chapter link redirects to the adventure marketplace. The local printed pages supplied the rules.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/adventures/storm-kings-thunder",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/storm-kings-thunder",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "7be9a8709571785f9db1bec87a921afcac11712e9f8a85009f3c1229c983c61d",
+    "errataEvidence": "No rule correction for this creature in the official errata or its version 2.0 .",
+    "habitatEvidence": "Tags follow the adventure location and its stated encounter environment.",
+    "appearanceEvidence": "The reused portrait depicts a rocky crab. The printed hulking crab spans 15–20 feet across its body and often collects coral, anemones, or other seabed debris on its shell.",
+    "mechanicsNotes": [
+      "Shell Camouflage requires the stationary crab to tuck both eyestalks and pincers close to its body.",
+      "The Claw attack imposes grappled on a hit. The action supplies no additional restrained condition."
+    ],
+    "reusedPortrait": {
+      "source": "beast-ready-batch-04/parts/b04_06/portraits/giant-crab.png",
+      "sha256": "95e07738ab5dfb1de4a6131bf6631c68eddcc9a420c9d2666469ff5760d56e4f"
+    }
+  },
+  {
+    "name": "Ice Spider",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2016",
+    "isbn": "978-0-7869-6600-4",
+    "section": "Chapter 4, Eye of the All-Father, area 9",
+    "printedPage": 127,
+    "printedPages": [
+      127
+    ],
+    "pdfPage": 128,
+    "pdfPages": [
+      128
+    ],
+    "pdfSha256": "e6c8f2fb36dc9b683d4cdcf2e04a665a187012848a649d745237fd0b25e94ebe",
+    "sourceUrl": "https://www.dndbeyond.com/sources/skt/the-chosen-path#EyeoftheAllFather",
+    "url": "https://www.dndbeyond.com/sources/skt/the-chosen-path#EyeoftheAllFather",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/skt",
+    "sourceWitness": "Local first-print . The public D&D Beyond table of contents identifies the section.",
+    "publisherAccessState": "The anonymous chapter link redirects to the adventure marketplace. The local printed pages supplied the rules.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/adventures/storm-kings-thunder",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/storm-kings-thunder",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "7be9a8709571785f9db1bec87a921afcac11712e9f8a85009f3c1229c983c61d",
+    "errataEvidence": "No rule correction for this creature in the official errata or its version 2.0 .",
+    "habitatEvidence": "Tags follow the adventure location and its stated encounter environment.",
+    "appearanceEvidence": "Printed p. 127 describes red eyes, white fur, and rapidly crystallizing liquid webs. The selected portrait depicts the first two features.",
+    "mechanicsNotes": [
+      "The ongoing cold damage applies to a creature restrained by the spider’s attack.",
+      "The Larder webs separately use the Dungeon Master’s Guide environmental hazard rules with their immunity to bludgeoning removed."
+    ],
+    "baseRules": {
+      "name": "Giant Spider",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printing": "First printing, September 2014",
+      "isbn": "978-0-7869-6561-8",
+      "printedPage": 328,
+      "pdfPage": 329,
+      "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The official 2014 Monster Manual errata gives no entry-specific correction for these statistics."
+    },
+    "variant": "Adventure variant. Adds cold resistance and changes Web damage and durability."
+  },
+  {
+    "name": "Ice Spider Queen",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2016",
+    "isbn": "978-0-7869-6600-4",
+    "section": "Chapter 4, Eye of the All-Father, area 9B Nest",
+    "printedPage": 128,
+    "printedPages": [
+      128,
+      127
+    ],
+    "pdfPage": 129,
+    "pdfPages": [
+      129,
+      128
+    ],
+    "pdfSha256": "e6c8f2fb36dc9b683d4cdcf2e04a665a187012848a649d745237fd0b25e94ebe",
+    "sourceUrl": "https://www.dndbeyond.com/sources/skt/the-chosen-path#EyeoftheAllFather",
+    "url": "https://www.dndbeyond.com/sources/skt/the-chosen-path#EyeoftheAllFather",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/skt",
+    "sourceWitness": "Local first-print . The public D&D Beyond table of contents identifies the section.",
+    "publisherAccessState": "The anonymous chapter link redirects to the adventure marketplace. The local printed pages supplied the rules.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/adventures/storm-kings-thunder",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/storm-kings-thunder",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "7be9a8709571785f9db1bec87a921afcac11712e9f8a85009f3c1229c983c61d",
+    "errataEvidence": "No rule correction for this creature in the official errata or its version 2.0 .",
+    "habitatEvidence": "Tags follow the adventure location and its stated encounter environment.",
+    "appearanceEvidence": "Printed p. 127 supplies the species appearance. Printed p. 128 gives no different physical phenotype for the queen.",
+    "mechanicsNotes": [
+      "The encounter specifies fixed 44 HP without replacement hit dice. The parent block’s 4d10 + 4 averages 26 HP and is omitted from this variant’s HP line.",
+      "The 5-ft. aura and the web’s ongoing cold damage have separate start-of-turn triggers.",
+      "The hatchling swarm inherits the spider swarm rules on Monster Manual p. 338 and adds cold resistance."
+    ],
+    "baseRules": {
+      "name": "Giant Spider",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printing": "First printing, September 2014",
+      "isbn": "978-0-7869-6561-8",
+      "printedPage": 328,
+      "pdfPage": 329,
+      "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The official 2014 Monster Manual errata gives no entry-specific correction for these statistics."
+    },
+    "supplementalRules": {
+      "name": "Swarm of Insects, Swarm of Spiders variant",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printing": "First printing, September 2014",
+      "isbn": "978-0-7869-6561-8",
+      "printedPage": 338,
+      "pdfPage": 339,
+      "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The official 2014 Monster Manual errata gives no entry-specific correction for these statistics."
+    },
+    "variant": "Adventure encounter variant with 44 HP, CR 2, cold resistance, a cold aura, and modified Web."
+  },
+  {
+    "name": "Pig",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2016",
+    "isbn": "978-0-7869-6600-4",
+    "section": "Chapter 5, Grudd Haug, area 12 Pigpen",
+    "printedPage": 143,
+    "printedPages": [
+      143
+    ],
+    "pdfPage": 144,
+    "pdfPages": [
+      144
+    ],
+    "pdfSha256": "e6c8f2fb36dc9b683d4cdcf2e04a665a187012848a649d745237fd0b25e94ebe",
+    "sourceUrl": "https://www.dndbeyond.com/sources/skt/den-of-the-hill-giants#GruddHaug",
+    "url": "https://www.dndbeyond.com/sources/skt/den-of-the-hill-giants#GruddHaug",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/skt",
+    "sourceWitness": "Local first-print . The public D&D Beyond table of contents identifies the section.",
+    "publisherAccessState": "The anonymous chapter link redirects to the adventure marketplace. The local printed pages supplied the rules.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/adventures/storm-kings-thunder",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/storm-kings-thunder",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "7be9a8709571785f9db1bec87a921afcac11712e9f8a85009f3c1229c983c61d",
+    "errataEvidence": "No rule correction for this creature in the official errata or its version 2.0 .",
+    "habitatEvidence": "Tags follow the adventure location and its stated encounter environment.",
+    "appearanceEvidence": "Editorial description based on the inspected portrait and printed setting.",
+    "mechanicsNotes": [
+      "The printed variant is CR 0 for 0 XP, as stated on p. 143.",
+      "There is no inherited Tusk attack."
+    ],
+    "baseRules": {
+      "name": "Boar",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printing": "First printing, September 2014",
+      "isbn": "978-0-7869-6561-8",
+      "printedPage": 319,
+      "pdfPage": 320,
+      "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The official 2014 Monster Manual errata gives no entry-specific correction for these statistics."
+    },
+    "variant": "Adventure variant. Changes armor class, hit points, speed, and CR. Removes Charge, Relentless, and effective attacks."
+  },
+  {
+    "name": "Yak",
+    "publication": "Storm King's Thunder",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, September 2016",
+    "isbn": "978-0-7869-6600-4",
+    "section": "Chapter 8, Ironslag, area 4 Barn",
+    "printedPage": 172,
+    "printedPages": [
+      172
+    ],
+    "pdfPage": 173,
+    "pdfPages": [
+      173
+    ],
+    "pdfSha256": "e6c8f2fb36dc9b683d4cdcf2e04a665a187012848a649d745237fd0b25e94ebe",
+    "sourceUrl": "https://www.dndbeyond.com/sources/skt/forge-of-the-fire-giants#Ironslag",
+    "url": "https://www.dndbeyond.com/sources/skt/forge-of-the-fire-giants#Ironslag",
+    "officialProductPage": "https://www.dndbeyond.com/sources/dnd/skt",
+    "sourceWitness": "Local first-print . The public D&D Beyond table of contents identifies the section.",
+    "publisherAccessState": "The anonymous chapter link redirects to the adventure marketplace. The local printed pages supplied the rules.",
+    "publisherRedirectTarget": "https://marketplace.dndbeyond.com/adventures/storm-kings-thunder",
+    "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/storm-kings-thunder",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "7be9a8709571785f9db1bec87a921afcac11712e9f8a85009f3c1229c983c61d",
+    "errataEvidence": "No rule correction for this creature in the official errata or its version 2.0 .",
+    "habitatEvidence": "Tags follow the adventure location and its stated encounter environment.",
+    "appearanceEvidence": "Editorial description based on the inspected portrait and printed setting.",
+    "mechanicsNotes": [
+      "Area 4 explicitly uses the Elk stat block with no new mechanics.",
+      "The 2014 Elk block does not specify a damage type for the Charge bonus. Ram’s own damage is bludgeoning."
+    ],
+    "baseRules": {
+      "name": "Elk",
+      "publication": "Monster Manual",
+      "edition": "2014 fifth edition",
+      "printing": "First printing, September 2014",
+      "isbn": "978-0-7869-6561-8",
+      "printedPage": 322,
+      "pdfPage": 323,
+      "pdfSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+      "officialErrata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+      "errataEvidence": "The official 2014 Monster Manual errata gives no entry-specific correction for these statistics."
+    },
+    "variant": "Adventure encounter reference with inherited Elk statistics."
+  }
+]

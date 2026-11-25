@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Cayma",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "page": 59,
+    "reflowPages": [
+      5,
+      6,
+      59,
+      60
+    ],
+    "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+    "originalArchiveMember": "TSR2522A.RTF",
+    "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+    "sourceHeadings": [
+      "Character Creation",
+      "Lizard Kin",
+      "Caymas as PCs"
+    ],
+    "isbn": "0-7564-0387-2",
+    "sourceDistinctions": [
+      "Use the sourcebook’s Cayma PC rules and thief modifiers. Detect magic belongs to the Savage Warrior kit. The example uses the Scout thief kit.",
+      "Ground movement 9 comes from Lizard Kin in the 1996 Monstrous Compendium Appendix, reflow p. 65. The build uses class hit dice, THAC0 and saves."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook, revised AD&D 2e",
+        "url": "",
+        "sections": [
+          "Fighter and Thief",
+          "Tables 1–3, 26–29, 44–46, 53, 60",
+          "Emotion"
+        ]
+      },
+      {
+        "title": "Savage Coast Campaign Book (1996), Player Characters",
+        "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalArchiveMember": "tsr2521b.rtf",
+        "sections": [
+          "Character Kits"
+        ]
+      },
+      {
+        "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+        "url": "",
+        "reflowPages": [
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ee’aar",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "page": 48,
+    "reflowPages": [
+      5,
+      6,
+      48,
+      49,
+      50
+    ],
+    "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+    "originalArchiveMember": "TSR2522A.RTF",
+    "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+    "sourceHeadings": [
+      "Character Creation",
+      "Ee’aar and Enduks",
+      "Ee’aar as PCs"
+    ],
+    "isbn": "0-7564-0387-2",
+    "sourceDistinctions": [
+      "The example uses the player flight rate of 18 (B), the Aeryla language and the book’s specific weapon bonuses and spell resistance. The Monstrous Compendium Appendix uses faster flight and different language names.",
+      "Ground movement 16 alone comes from the Appendix’s Ee’aar entry, reflow p. 27. The GM can replace it with the table’s standard humanoid ground rate."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook, revised AD&D 2e",
+        "url": "",
+        "sections": [
+          "Fighter and Thief",
+          "Tables 1–3, 26–29, 44–46, 53, 60",
+          "Emotion"
+        ]
+      },
+      {
+        "title": "Savage Coast Campaign Book (1996), Player Characters",
+        "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalArchiveMember": "tsr2521b.rtf",
+        "sections": [
+          "Character Kits"
+        ]
+      },
+      {
+        "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+        "url": "",
+        "reflowPages": [
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Enduk",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "page": 53,
+    "reflowPages": [
+      5,
+      6,
+      53,
+      54,
+      55
+    ],
+    "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+    "originalArchiveMember": "TSR2522A.RTF",
+    "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+    "sourceHeadings": [
+      "Character Creation",
+      "Ee’aar and Enduks",
+      "Enduks as PCs",
+      "The Enduk Pantheon"
+    ],
+    "isbn": "0-7564-0387-2",
+    "sourceDistinctions": [
+      "The playable profile sets the flight rate and uses a height threshold for Large size. The Monstrous Compendium Appendix lists other flight and size values.",
+      "Ground movement 15 alone comes from the Appendix’s Enduk entry, reflow p. 29. The sourcebook supplies Idu’s faith and the natural gore damage."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook, revised AD&D 2e",
+        "url": "",
+        "sections": [
+          "Fighter and Thief",
+          "Tables 1–3, 26–29, 44–46, 53, 60",
+          "Emotion"
+        ]
+      },
+      {
+        "title": "Savage Coast Campaign Book (1996), Player Characters",
+        "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalArchiveMember": "tsr2521b.rtf",
+        "sections": [
+          "Character Kits"
+        ]
+      },
+      {
+        "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+        "url": "",
+        "reflowPages": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gurrash",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "page": 57,
+    "reflowPages": [
+      5,
+      6,
+      57,
+      58,
+      59
+    ],
+    "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+    "originalArchiveMember": "TSR2522A.RTF",
+    "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+    "sourceHeadings": [
+      "Character Creation",
+      "Savage Warrior",
+      "Lizard Kin",
+      "Gurrash as PCs"
+    ],
+    "isbn": "0-7564-0387-2",
+    "sourceDistinctions": [
+      "The Orc’s Head racial adjustments table gives +1 Constitution. The Savage Coast Campaign Book’s older table and the bestiary entry describe different numbers.",
+      "Movement 12 and swim 18 come from the Appendix’s Lizard Kin entry, reflow p. 65. The build follows the PC rage trigger and uses a class attack with a spear."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook, revised AD&D 2e",
+        "url": "",
+        "sections": [
+          "Fighter and Thief",
+          "Tables 1–3, 26–29, 44–46, 53, 60",
+          "Emotion"
+        ]
+      },
+      {
+        "title": "Savage Coast Campaign Book (1996), Player Characters",
+        "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalArchiveMember": "tsr2521b.rtf",
+        "sections": [
+          "Character Kits",
+          "Equipment, Table 15.2"
+        ]
+      },
+      {
+        "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+        "url": "",
+        "reflowPages": [
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Manscorpion",
+    "publication": "Orc’s Head Peninsula Sourcebook (1996)",
+    "edition": "AD&D 2nd edition",
+    "publisher": "TSR",
+    "url": "",
+    "page": 28,
+    "reflowPages": [
+      5,
+      6,
+      28,
+      31,
+      32,
+      33
+    ],
+    "originalPublicationUrl": "https://web.archive.org/web/20090603211613/http://www.wizards.com/dnd/files/orcshead-rtf.ZIP",
+    "originalArchiveMember": "TSR2522A.RTF",
+    "originalArchiveSha256": "4c55234446ff551e4493fb803d96ee5e098b3cdd9fde64ac772340b88fe847d2",
+    "sourceHeadings": [
+      "Character Creation",
+      "Nimmur and the Manscorpions",
+      "Manscorpions as PCs"
+    ],
+    "isbn": "0-7564-0387-2",
+    "sourceDistinctions": [
+      "The catalog name follows the roster. The default PC profile is Um-Shedu, a distinct case from the cursed Nimmurian monster and its lethal venom.",
+      "Ground movement 12, 60-foot infravision and 1d4 base sting damage are explicit build rulings using the bundled Appendix’s Manscorpion, Nimmurian entry, reflow pp. 73–74. The sourcebook’s PC section supplies the venom and does not give sting damage or an attack routine. Use a single class attack and the PC sleep venom."
+    ],
+    "supportingSources": [
+      {
+        "title": "Player’s Handbook, revised AD&D 2e",
+        "url": "",
+        "sections": [
+          "Fighter and Thief",
+          "Tables 1–3, 26–29, 44–46, 53, 60",
+          "Emotion"
+        ]
+      },
+      {
+        "title": "Savage Coast Campaign Book (1996), Player Characters",
+        "url": "https://web.archive.org/web/20090603211221/http://www.wizards.com/dnd/files/campaignbook-rtf.zip",
+        "originalArchiveMember": "tsr2521b.rtf",
+        "sections": [
+          "Character Kits"
+        ]
+      },
+      {
+        "title": "Savage Coast Monstrous Compendium Appendix (1996)",
+        "url": "",
+        "reflowPages": [
+          73,
+          74
+        ]
+      }
+    ]
+  }
+]

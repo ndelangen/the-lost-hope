@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Burn-Puncher",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A muscular Eternal Flame brawler with one iron-encased fist and forearm engraved with glowing red fire motifs.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 22
+  },
+  {
+    "name": "Crannak Smolderburn",
+    "input": "",
+    "reference": "images/monsters/derro-savant/mtf-1.webp",
+    "subjectPrompt": "A bald gray derro with a blind left eye, an iron left fist, a torch and an ember orbiting his head.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 22
+  },
+  {
+    "name": "Crushing Wave Deceiver",
+    "input": "",
+    "reference": "images/monsters/crushing-wave-reaver/pota-1.webp",
+    "subjectPrompt": "A human water cult infiltrator in sailor's clothes, with water curling around an outstretched hand.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 115
+  },
+  {
+    "name": "Evil Sorcerer",
+    "input": "",
+    "subjectPrompt": "One human fire spellcaster from the Cult of the Eternal Flame. Slender and intent, in soot-black plum cloth and wine-red scarf with a small fire-themed copper clasp, worn boots, antique narrow dagger quietly sheathed. A small orange flame gathers between spread fingers, one arm extended. A standing wizard with recognizable silhouette and a different posture from the other cultists.",
+    "prompt": "Original single square 1254 by 1254 The Lost Hope bestiary portrait of Evil Sorcerer. The first image sets the style, fine sepia ink and detailed muted matte gouache on warm golden parchment.  One human fire spellcaster from the Cult of the Eternal Flame. Slender and intent, in soot-black plum cloth and wine-red scarf with a small fire-themed copper clasp, worn boots, antique narrow dagger quietly sheathed. A small orange flame gathers between spread fingers, one arm extended. A standing wizard with recognizable silhouette and a different posture from the other cultists. Center the entire creature with room all around and a faint floor shadow. Readable at thumbnail size. No background scenery, frame, text, interface or other subjects.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 36,
+    "reference": ""
+  },
+  {
+    "name": "Font Simulacrum (Cultist)",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "A vague humanoid figure made of mud and bits of stone, rising from a puddle.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 68
+  },
+  {
+    "name": "Qabara",
+    "input": "",
+    "subjectPrompt": "One towering proud marid genie, an amphibious fish-faced humanoid with ridged fins, cool sea-green and storm-blue skin, broad shoulders, arranged in gracious but sinister upright pose. Antiqued gold armlets and a wrapped sash, body settling into a plume of dark water with loose curling ribbons around one hand. Full distinct specimen, no grotto, ships or companions. The second attached image is generic marid anatomy, not Qabara specifically.",
+    "prompt": "Original single square 1254 by 1254 The Lost Hope bestiary portrait of Qabara. The first image sets the style, fine sepia ink and detailed muted matte gouache on warm golden parchment. The second image is an anatomy or related faction reference only; follow the named subject's description and compose a new pose. One towering proud marid genie, an amphibious fish-faced humanoid with ridged fins, cool sea-green and storm-blue skin, broad shoulders, arranged in gracious but sinister upright pose. Antiqued gold armlets and a wrapped sash, body settling into a plume of dark water with loose curling ribbons around one hand. Full distinct specimen, no grotto, ships or companions. The second attached image is generic marid anatomy, not Qabara specifically. Center the entire creature with room all around and a faint floor shadow. Readable at thumbnail size. No background scenery, frame, text, interface or other subjects.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 111,
+    "reference": "images/monsters/marid/mm-1.webp"
+  },
+  {
+    "name": "Razerblast Initiate",
+    "input": "",
+    "subjectPrompt": "A human cult warrior sealed into soot-dark fused iron plate, walking upright with long spear and dull muted red fabric; tightly overlapping armor with small seams where smoke and tongues of flame emerge. A small round red-orange flame glows softly from behind the center breastplate. Face concealed in dark close helmet or visor, no visible wounds. Use a less elaborate suit than the senior Razerblast shown in reference.",
+    "prompt": "Original single square 1254 by 1254 The Lost Hope bestiary portrait of Razerblast Initiate. The first image sets the style, fine sepia ink and detailed muted matte gouache on warm golden parchment. The second image is an anatomy or related faction reference only; follow the named subject's description and compose a new pose. A human cult warrior sealed into soot-dark fused iron plate, walking upright with long spear and dull muted red fabric; tightly overlapping armor with small seams where smoke and tongues of flame emerge. A small round red-orange flame glows softly from behind the center breastplate. Face concealed in dark close helmet or visor, no visible wounds. Use a less elaborate suit than the senior Razerblast shown in reference. Center the entire creature with room all around and a faint floor shadow. Readable at thumbnail size. No background scenery, frame, text, interface or other subjects.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 19,
+    "reference": "images/monsters/razerblast/pota-1.webp"
+  },
+  {
+    "name": "Stonemelder Edo",
+    "input": "",
+    "reference": "images/monsters/black-earth-priest/pota-1.webp",
+    "subjectPrompt": "A slate-skinned earth genasi with gold fissures, basalt scale armor, and an obsidian-headed mace.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 69
+  },
+  {
+    "name": "Whitevane",
+    "input": "",
+    "subjectPrompt": "A white-feathered kenku wizard, sleek albino crow-like head with pale bill and rose-colored eyes, two humanlike arms, two birdlike legs, no wings. Charcoal and pale storm-blue layered seafarer's wizard robes with worn bronze buckle, heavy enchanted boots visible suspended just above ground, tightly bounded blue-white lightning curling around one raised claw, other hand holds traveling spellbook. Match general kenku body plan of the second reference, replacing dark feathers with ivory.",
+    "prompt": "Original square 1254 × 1254 The Lost Hope bestiary illustration. Use the first reference for fine ink and matte gouache on warm golden parchment and the second reference for kenku anatomy only. A white-feathered kenku wizard, sleek albino crow-like head with pale bill and rose-colored eyes, two humanlike arms, two birdlike legs, no wings. Charcoal and pale storm-blue layered seafarer's wizard robes with worn bronze buckle, heavy enchanted boots visible suspended just above ground, tightly bounded blue-white lightning curling around one raised claw, other hand holds traveling spellbook. Match general kenku body plan of the second reference, replacing dark feathers with ivory. Show the whole character with generous margins and a subtle shadow. No other subjects, lettering, title, border, or environment.",
+    "appearanceSource": "https://boardgamegeek.com/boardgame/197966/ddep2-mulmaster-undone",
+    "page": 85,
+    "reference": "images/monsters/kenku/mm-1.webp"
+  }
+]

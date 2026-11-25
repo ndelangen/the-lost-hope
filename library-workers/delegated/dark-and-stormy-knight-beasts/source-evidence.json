@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Rat",
+    "kind": "beast",
+    "publication": "A Dark and Stormy Knight",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "year": 2005,
+    "designer": "Owen K. C. Stephens",
+    "creditedCartographer": "Nick Isaac",
+    "creditedCreatureArtist": null,
+    "printedName": "Rats (8)",
+    "section": "3. Rat Race, Hightower map area 2",
+    "printedPages": [
+      5
+    ],
+    "pdfPages": [
+      5
+    ],
+    "publisherRelease": "https://web.archive.org/web/20060304014750id_/http://www.wizards.com/default.asp?x=dnd/oa/20050329a",
+    "archivedPublisherDownload": "https://web.archive.org/web/20060304014750id_/http://www.wizards.com/dnd/files/A_Dark_and_Stormy_Knight.zip",
+    "originalPublisherPdfSha256": "8ec9334636a86c808a06e9fbd9ab6d5f59ea2b5bdae6d92f74a075431f4f6687",
+    "comparedMirrorPdf": "",
+    "localAndMirrorPdfSha256": "fdc6c9bbdbd915798312f0029d3ad012c31852ced91e670ac743d9bb9b1b5c9c",
+    "mirrorAndLocalBytesMatch": true,
+    "originalAndLocalTextMatch": true,
+    "originalAndLocalBytesMatch": false,
+    "printedEncounterLevel": 2,
+    "individualChallenge": "1/8",
+    "printedEncounterHitPoints": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "baseRulebook": "Monster Manual (D&D 3.5)",
+    "baseRulebookPages": [
+      278
+    ],
+    "baseRulebookScan": "",
+    "srdCrossCheckPdfPages": [
+      262
+    ],
+    "srdCrossCheckPdfSha256": "dd964e5d4efb42e073284b8cf78e5d3d001017988ac67e6dc1357f6f1066ab8b",
+    "entryId": "beast-9950cec246ece55e46c9929e",
+    "versionKey": "8ff581235ab47106673e8203",
+    "slug": "rat",
+    "query": "rat rat race flooded nest",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Medium Monstrous Spider",
+    "kind": "beast",
+    "publication": "A Dark and Stormy Knight",
+    "edition": "3.5 edition",
+    "publisher": "Wizards of the Coast",
+    "year": 2005,
+    "designer": "Owen K. C. Stephens",
+    "creditedCartographer": "Nick Isaac",
+    "creditedCreatureArtist": null,
+    "printedName": "Medium Monstrous Spider",
+    "section": "5. What a Tangled Web",
+    "printedPages": [
+      5,
+      6
+    ],
+    "pdfPages": [
+      5,
+      6
+    ],
+    "publisherRelease": "https://web.archive.org/web/20060304014750id_/http://www.wizards.com/default.asp?x=dnd/oa/20050329a",
+    "archivedPublisherDownload": "https://web.archive.org/web/20060304014750id_/http://www.wizards.com/dnd/files/A_Dark_and_Stormy_Knight.zip",
+    "originalPublisherPdfSha256": "8ec9334636a86c808a06e9fbd9ab6d5f59ea2b5bdae6d92f74a075431f4f6687",
+    "comparedMirrorPdf": "",
+    "localAndMirrorPdfSha256": "fdc6c9bbdbd915798312f0029d3ad012c31852ced91e670ac743d9bb9b1b5c9c",
+    "mirrorAndLocalBytesMatch": true,
+    "originalAndLocalTextMatch": true,
+    "originalAndLocalBytesMatch": false,
+    "printedEncounterLevel": 1,
+    "individualChallenge": "1",
+    "printedEncounterHitPoints": [
+      11
+    ],
+    "baseRulebook": "Monster Manual (D&D 3.5)",
+    "baseRulebookPages": [
+      288,
+      289
+    ],
+    "baseRulebookScan": "",
+    "srdCrossCheckPdfPages": [
+      277,
+      278
+    ],
+    "srdCrossCheckPdfSha256": "dd964e5d4efb42e073284b8cf78e5d3d001017988ac67e6dc1357f6f1066ab8b",
+    "entryId": "beast-c478329389a06bf79ed2e204",
+    "versionKey": "54439f3034c4d9143701708b",
+    "slug": "medium-monstrous-spider",
+    "query": "medium monstrous spider doorway ceiling web",
+    "portraitSelection": "generated"
+  }
+]

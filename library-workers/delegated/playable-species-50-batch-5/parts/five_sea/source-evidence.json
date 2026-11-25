@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Kna",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "heading": "Kna, Creature Heroes",
+    "printedPages": [
+      4,
+      5,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      36
+    ],
+    "pdfViewerPages": [
+      35,
+      36,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53,
+      67
+    ],
+    "distinction": "PC3 overrides standard heavy-crossbow damage and explicitly adds Strength to its damage. The ordinary Rules Cyclopedia attack modifier and reload cadence supply the rest.",
+    "supportingRules": [
+      {
+        "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          9,
+          32,
+          62,
+          63,
+          64,
+          65,
+          102,
+          107,
+          108,
+          109
+        ],
+        "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+      }
+    ]
+  },
+  {
+    "name": "Kopru",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "heading": "Kopru, Creature Heroes",
+    "printedPages": [
+      4,
+      5,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      36
+    ],
+    "pdfViewerPages": [
+      35,
+      36,
+      47,
+      48,
+      49,
+      50,
+      51,
+      53,
+      54,
+      67
+    ],
+    "distinction": "Treat the three tails as one damage entry because the printed table lists one tail-damage expression per tier. Resist Fire and the adult general magical save bonus apply together when both apply. Read the final sentences of the domination rule as distinguishing a successful save against a new attempt from breaking existing control. The immunity applies to Kopru domination generally.",
+    "supportingRules": [
+      {
+        "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          9,
+          32,
+          62,
+          63,
+          64,
+          65,
+          102,
+          107,
+          108,
+          109
+        ],
+        "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+      }
+    ]
+  },
+  {
+    "name": "Merrow",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "heading": "Merrow, Creature Heroes",
+    "printedPages": [
+      4,
+      5,
+      8,
+      16,
+      17,
+      18,
+      19,
+      20,
+      24,
+      36
+    ],
+    "pdfViewerPages": [
+      35,
+      36,
+      39,
+      47,
+      48,
+      49,
+      50,
+      51,
+      55,
+      67
+    ],
+    "distinction": "Use the PC3 playable mermaid/merman. Water and air breathing are explained by the merrow speaker on printed p.8. The level 1 NPC demonstrates the 1,000 XP step.",
+    "supportingRules": [
+      {
+        "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          9,
+          32,
+          62,
+          63,
+          64,
+          65,
+          102,
+          107,
+          108,
+          109
+        ],
+        "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+      }
+    ]
+  },
+  {
+    "name": "Sea Giant",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "heading": "Sea Giant, Creature Heroes",
+    "printedPages": [
+      4,
+      5,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      26,
+      36
+    ],
+    "pdfViewerPages": [
+      35,
+      36,
+      47,
+      48,
+      49,
+      50,
+      51,
+      56,
+      57,
+      67
+    ],
+    "distinction": "Use the species’ actual XP tables on printed pp.25–26. The teaching example on p.18 uses different sample XP thresholds. Apply both Strength and mature damage to bare hands as its species text specifies.",
+    "supportingRules": [
+      {
+        "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          9,
+          32,
+          62,
+          63,
+          64,
+          65,
+          102,
+          107,
+          108,
+          109
+        ],
+        "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+      }
+    ]
+  },
+  {
+    "name": "Shark-Kin",
+    "publication": "The Sea People (PC3, 1990)",
+    "edition": "Basic D&D (BECMI)",
+    "publisher": "TSR",
+    "url": "",
+    "heading": "Shark-Kin, Creature Heroes",
+    "printedPages": [
+      4,
+      5,
+      16,
+      17,
+      18,
+      19,
+      20,
+      26,
+      27,
+      36
+    ],
+    "pdfViewerPages": [
+      35,
+      36,
+      47,
+      48,
+      49,
+      50,
+      51,
+      57,
+      58,
+      67
+    ],
+    "distinction": "Use the printed outcast form. Bloodlust and shark empathy stay shared with legless shark-kin. The check at +4 is applied as a four-point increase to the Wisdom-check target.",
+    "supportingRules": [
+      {
+        "publication": "Dungeons & Dragons Rules Cyclopedia (1991)",
+        "publisher": "TSR",
+        "url": "",
+        "printedPages": [
+          9,
+          32,
+          62,
+          63,
+          64,
+          65,
+          102,
+          107,
+          108,
+          109
+        ],
+        "use": "Ability modifiers, clerical Resist Fire, weapons and missiles, group initiative, monster attack rolls and fighter saves."
+      }
+    ]
+  }
+]

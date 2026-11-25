@@ -1,0 +1,616 @@
+[
+  {
+    "name": "Hobgoblin Devastator",
+    "statBlock": {
+      "name": "Hobgoblin Devastator",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 153,
+      "classification": "Medium fey (goblinoid), typically lawful neutral",
+      "ac": 13,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A Fey battlefield mage whose training lets it exempt allies from the effects of its spells.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 5
+      },
+      "sections": {
+        "Armor": "Studded leather.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Army Arcana. When the devastator casts a spell that deals damage or forces a saving throw, it can select itself and any number of allies. Those creatures take no damage from that spell and succeed on its saving throw.",
+        "Actions": "Multiattack. Make two attacks using Quarterstaff or Devastating Bolt.\nQuarterstaff. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) if wielded in two hands, plus 13 (3d8) force damage either way.\nDevastating Bolt. Ranged spell attack, +5 to hit, range 60 ft., one target. A hit deals 21 (4d8 + 3) force damage and knocks the target prone.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 13).\nAt will. Mage Hand, Prestidigitation.\n2/day each. Fireball, Fly, Fog Cloud, Gust of Wind, Lightning Bolt.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 153."
+      }
+    }
+  },
+  {
+    "name": "Hobgoblin Iron Shadow",
+    "statBlock": {
+      "name": "Hobgoblin Iron Shadow",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 154,
+      "classification": "Medium fey (goblinoid), typically lawful neutral",
+      "ac": 15,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A masked Fey martial artist who uses illusion and short-range shadow magic to serve a court as a scout, spy, or assassin.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 5,
+        "Athletics": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Goblin.",
+        "Traits": "Unarmored Defense. Add the iron shadow’s Wisdom modifier to its AC when it has no armor and no shield.",
+        "Actions": "Multiattack. Make four attacks in any combination of Unarmed Strike and Dart. Use Shadow Jaunt once before or after any one of the attacks, if desired.\nUnarmed Strike. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage.\nDart. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.\nShadow Jaunt. Teleport up to 30 ft. with worn and carried gear to an unoccupied space the iron shadow can see. Both departure and destination must be in dim light or darkness.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 12).\nAt will. Minor Illusion, Prestidigitation.\n1/day each. Charm Person, Disguise Self, Silent Image.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 154."
+      }
+    }
+  },
+  {
+    "name": "Howler",
+    "statBlock": {
+      "name": "Howler",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 155,
+      "classification": "Large fiend, typically chaotic evil",
+      "ac": 16,
+      "hp": 90,
+      "hitDice": "12d10 + 24",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 15,
+      "description": "A pack hunter from Pandemonium whose cry leaves its quarry too frightened to act. Lower Planes armies train howlers as war hounds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Abyssal but can't speak.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Pack Tactics. The howler has advantage on attacks against a creature when a non-incapacitated ally is within 5 ft. of that creature.",
+        "Actions": "Multiattack. Make two Rending Bite attacks.\nRending Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) piercing damage plus 22 (4d10) psychic damage if the target is frightened. The attack ignores damage resistance.\nMind-Breaking Howl (Recharge 4–6). Each creature in a 60-ft. cone must make a DC 13 Wisdom save. On a failure, it takes 16 (3d10) psychic damage and is frightened until the end of the howler’s next turn. While frightened this way, it is incapacitated and its speed is halved. On a success, the creature is immune to the Mind-Breaking Howl of every howler for 24 hours.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 155."
+      }
+    }
+  },
+  {
+    "name": "Hungry Sorrowsworn",
+    "statBlock": {
+      "name": "Hungry Sorrowsworn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 223,
+      "classification": "Medium monstrosity, typically neutral evil",
+      "ac": 17,
+      "hp": 225,
+      "hitDice": "30d8 + 90",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common.",
+        "Damage resistances": "Bludgeoning, piercing, slashing while in dim light or darkness.",
+        "Traits": "Life Hunger. When a creature within 60 ft. regains hit points, the sorrowsworn gains advantage on attack rolls and adds 22 (4d10) necrotic damage to each Bite hit until the end of its next turn.",
+        "Actions": "Multiattack. Make one Bite and one Claw attack.\nBite. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage plus 13 (3d8) necrotic damage.\nClaw. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 18 (4d6 + 4) slashing damage. A Medium or smaller target is also grappled (escape DC 16) and restrained for the length of the grapple. The sorrowsworn cannot use Claw while it has a creature grappled.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 223."
+      }
+    }
+  },
+  {
+    "name": "Hutijin",
+    "statBlock": {
+      "name": "Hutijin",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 157,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 19,
+      "hp": 200,
+      "hitDice": "16d10 + 112",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 21,
+      "description": "A duke of Cania and loyal servant of Mephistopheles. Hutijin commands two companies of pit fiends and resents mortal conjurers who call him away from his post.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 14,
+        "Wis": 11
+      },
+      "skills": {
+        "Intimidation": 14,
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Infernal Despair. Every creature other than a devil has disadvantage on saving throws while within 30 ft. of Hutijin.\nLegendary Resistance (3/day). When Hutijin fails a saving throw, he can spend a use to succeed instead.\nMagic Resistance. Hutijin has advantage on saves against spells and other magical effects.\nRegeneration. Hutijin regains 20 hit points at the start of his turn. Radiant damage suppresses this recovery at the start of his next turn. He dies only if he starts a turn at 0 hit points and fails to regenerate.",
+        "Actions": "Multiattack. Make one attack each with Bite, Claw, Mace, and Tail.\nBite. Melee weapon attack, +15 to hit, reach 5 ft., one target. A hit deals 15 (2d6 + 8) fire damage. The target must pass a DC 22 Constitution save or become poisoned. While poisoned by this bite, the target cannot regain hit points and takes 10 (3d6) poison damage at the start of each of its turns. It can repeat the save at each turn’s end, ending the effect on a success.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) cold damage.\nMace. Melee weapon attack, +15 to hit, reach 5 ft., one target. A hit deals 15 (2d6 + 8) force damage.\nTail. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 19 (2d10 + 8) thunder damage.\nTeleport. Hutijin teleports up to 120 ft. to an unoccupied space he can see, taking worn and carried gear.",
+        "Spellcasting": "As an action, cast one listed spell using Charisma (spell save DC 22) with no material components.\nAt will. Alter Self (may become Medium when changing appearance), Detect Magic, Hold Monster, Invisibility (self only), Lightning Bolt, Suggestion, Wall of Fire.\n3/day. Dispel Magic.",
+        "Reactions": "Fearful Voice (Recharge 5–6). When Hutijin takes damage, each non-devil within 30 ft. makes a DC 22 Wisdom save. On a failure, it is frightened of him for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. A successful save against Fearful Voice grants 24 hours of immunity to it.",
+        "Legendary actions": "Hutijin has 3 legendary actions and regains spent uses when his turn starts. He can use one option immediately after another creature’s turn, paying the listed cost. He must be able to take actions and cannot do so before the end of his own first turn if surprised.\nAttack (1 action). Make one Claw, Mace, or Tail attack.\nTeleport (1 action). Use Teleport.\nLightning Storm (2 actions). Every other creature within 30 ft. without total cover from him makes a DC 22 Dexterity save. Deal 18 (4d8) lightning damage on a failure or half on a success. Only total cover blocks the lightning.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 157."
+      }
+    }
+  },
+  {
+    "name": "Hydroloth",
+    "statBlock": {
+      "name": "Hydroloth",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium fiend (yugoloth), typically neutral evil",
+      "ac": 15,
+      "hp": 135,
+      "hitDice": "18d8 + 54",
+      "speed": "20 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "description": "An amphibious yugoloth that steals memories and recovers things lost beneath the water. Hydroloths sometimes take contracts to sink ships or raid settlements.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Insight": 4,
+        "Perception": 4
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal, telepathy 60 ft.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Cold, lightning. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Amphibious. The hydroloth breathes air and water.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nSecure Memory. The hydroloth is immune to the River Styx’s waters and to effects that read or detect its thoughts or steal or change its memories.\nWatery Advantage. It has advantage on attack rolls while submerged in liquid.",
+        "Actions": "Multiattack. Make two attacks using Bite or Claw. Spellcasting can replace one attack.\nBite. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) force damage plus 9 (2d10) psychic damage.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) force damage plus 9 (2d10) psychic damage.\nSteal Memory (1/day). Choose a creature the hydroloth can see within 60 ft. It takes 14 (4d6) psychic damage and makes a DC 16 Intelligence save. Success grants 24-hour immunity to this hydroloth’s Steal Memory. On a failure the target loses all proficiencies, cannot cast spells or understand language, and has its Intelligence and Charisma scores reduced to 5 if they are higher. The target can repeat the save after each long rest and ends the effect on a success. Greater Restoration or Remove Curse ends it early.\nTeleport. The hydroloth teleports up to 60 ft. to an unoccupied space it can see, taking worn and carried gear.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 16) with no material components.\nAt will. Darkness, Detect Magic, Dispel Magic, Invisibility (self only).\n3/day each. Control Water, Crown of Madness, Fear, Suggestion.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 158.",
+        "Printed damage note": "The Bite and Claw each list 9 fixed psychic damage, or 2d10 when rolled. The dice average 11."
+      }
+    }
+  },
+  {
+    "name": "Illusionist Wizard",
+    "statBlock": {
+      "name": "Illusionist Wizard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 263,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 12,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 2
+      },
+      "skills": {
+        "Arcana": 5,
+        "History": 5
+      },
+      "sections": {
+        "Armor": "AC 15 with Mage Armor.",
+        "Languages": "Any four languages.",
+        "Actions": "Multiattack. Make two Arcane Burst attacks.\nArcane Burst. Melee or ranged spell attack, +5 to hit, reach 5 ft. or range 120 ft., one target. A hit deals 14 (2d10 + 3) psychic damage.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 13).\nAt will. Dancing Lights, Mage Hand, Minor Illusion.\n2/day each. Disguise Self, Invisibility, Mage Armor, Major Image, Phantasmal Force, Phantom Steed.",
+        "Bonus actions": "Displacement (Recharge 5–6). For 1 minute, an illusion offsets the wizard’s apparent position, imposing disadvantage on attacks against the wizard. The illusion ends if the wizard takes damage, becomes incapacitated, or has a speed of 0.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 263."
+      }
+    }
+  },
+  {
+    "name": "Juiblex",
+    "statBlock": {
+      "name": "Juiblex",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 350,
+      "hitDice": "28d12 + 168",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 22,
+      "description": "The demon lord of oozes consumes living matter and turns it into more slime. Its many red eyes shift through a roiling body that can rise 20 feet above the ground.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 13,
+        "Wis": 12
+      },
+      "skills": {
+        "Perception": 12
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Damage immunities": "Acid, poison. Nonmagical bludgeoning, piercing, and slashing damage.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious.",
+        "Traits": "Foul. Any creature other than an Ooze that starts its turn within 10 ft. of Juiblex must pass a DC 21 Constitution save or be poisoned until the start of its next turn.\nLegendary Resistance (3/day). When Juiblex fails a saving throw, it can spend a use to succeed instead.\nMagic Resistance. Juiblex has advantage on saves against spells and other magical effects.\nRegeneration. Juiblex regains 20 hit points at the start of its turn. Fire or radiant damage suppresses that recovery at the start of its next turn. It dies only if it starts a turn at 0 hit points and fails to regenerate.\nSpider Climb. Juiblex climbs difficult surfaces and can move upside down on ceilings without an ability check.",
+        "Actions": "Multiattack. Make three Acid Lash attacks.\nAcid Lash. Melee or ranged weapon attack, +14 to hit, reach 10 ft. or range 60/120 ft., one target. A hit deals 21 (4d6 + 7) acid damage. A creature killed by this attack is pulled inside Juiblex and its corpse dissolves after 1 minute.\nEject Slime (Recharge 5–6). One visible creature within 60 ft. must succeed on a DC 21 Dexterity save or take 55 (10d10) acid damage. If the target takes any of this damage, any metal armor it wears suffers a permanent cumulative −1 penalty to the AC it grants. Any metal weapon the target carries or wears suffers a permanent cumulative −1 penalty to its damage rolls. An item is destroyed when its penalty reaches −5. Mending can remove the penalty on an object.",
+        "Spellcasting": "As an action, cast one listed spell using Wisdom (spell save DC 20) with no material components.\nAt will. Detect Magic.\n3/day each. Contagion, Gaseous Form.",
+        "Legendary actions": "Juiblex has 3 legendary actions and regains spent uses when its turn starts. It can use one option immediately after another creature’s turn, paying the listed cost. It must be able to take actions and cannot do so before the end of its own first turn if surprised.\nAttack (1 action). Make one Acid Lash attack.\nCorrupting Touch (2 actions). Melee weapon attack, +14 to hit, reach 10 ft., one creature. A hit deals 21 (4d6 + 7) poison damage and coats the target in slime. The target is poisoned until the slime is removed by spending an action to scrape it off. While the slime remains, any non-Ooze creature within 10 ft. of the target is poisoned.",
+        "Lair": "Juiblex shares the Slime Pits of Shedaklah, a layer of the Abyss, with Zuggtmoy. In its lair, Juiblex is CR 24 (62,000 XP).",
+        "Lair actions": "At initiative count 20, losing ties, use one option while in the lair and able to take actions. If surprised, Juiblex must finish its first turn first. It cannot use the same option in consecutive rounds.\nGreen Slime. A patch of the Green Slime hazard appears on a ceiling spot Juiblex chooses in the lair and disintegrates after 1 hour.\nSlippery Slime. Coat a visible square on the lair floor, up to 10 ft. on each side. A creature on the square when the slime appears, entering it for the first time on a turn, or ending its turn there must succeed on a DC 21 Dexterity save or fall prone and slide 10 ft. in a random direction (roll 1d8).\nSticky Slime. Coat a visible square on the lair floor, up to 10 ft. on each side. At the same three triggers, a creature must succeed on a DC 21 Strength save or be restrained while it remains in the area. It or another creature that can reach it can spend an action on a DC 21 Strength check, freeing it on a success.\nSlippery and Sticky Slime last for 1 hour or until burned away. Burning slime disappears after 1 round and deals 22 (4d10) fire damage to creatures starting their turns in it.",
+        "Regional effects": "Acidic Water. Small bodies of water within 1 mile turn acidic and corrode objects that touch them.\nCorrupted Nature. Within 6 miles, Wisdom (Medicine) and Wisdom (Survival) checks have disadvantage.\nSlime. Within 6 miles, surfaces are frequently coated with a slick film that sticks to whatever touches it.\nThe region can show one or more effects. They fade over 1d10 days after Juiblex dies.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 160."
+      }
+    }
+  },
+  {
+    "name": "Ki-rin",
+    "statBlock": {
+      "name": "Ki-rin",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 162,
+      "classification": "Large celestial, typically lawful good",
+      "ac": 20,
+      "hp": 153,
+      "hitDice": "18d10 + 54",
+      "speed": "60 ft., fly 120 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 19,
+      "description": "A golden-scaled Celestial that guards sacred places and watches over broad territories. Its lair is usually difficult to reach, such as a high pinnacle or a magically solid cloud.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 9,
+        "Insight": 9,
+        "Religion": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., truesight 30 ft.",
+        "Languages": "All, telepathy 120 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Legendary Resistance (3/day). When the ki-rin fails a saving throw, it can spend a use to succeed instead.\nMagic Resistance. The ki-rin has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Hoof attacks and one Horn attack, or make two Sacred Fire attacks.\nHoof. Melee weapon attack, +9 to hit, reach 15 ft., one target. A hit deals 10 (2d4 + 5) force damage.\nHorn. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 14 (2d8 + 5) radiant damage.\nSacred Fire. Ranged spell attack, +9 to hit, range 120 ft., one target. A hit deals 18 (3d8 + 5) radiant damage.",
+        "Spellcasting": "As an action, cast one listed spell using Wisdom (spell save DC 17) with no material components.\nAt will. Light, Major Image (6th level), Thaumaturgy.\n3/day each. Cure Wounds, Dispel Magic, Lesser Restoration, Sending.\n1/day each. Banishment, Calm Emotions, Create Food and Water, Greater Restoration, Plane Shift, Protection from Evil and Good, Revivify, Wind Walk.",
+        "Legendary actions": "The ki-rin has 3 legendary actions and regains spent uses when its turn starts. It can use one option immediately after another creature’s turn, paying the listed cost. It must be able to take actions and cannot do so before the end of its own first turn if surprised.\nMove (1 action). Move up to half speed without provoking opportunity attacks.\nSmite (1 action). Make one Hoof, Horn, or Sacred Fire attack.",
+        "Lair actions": "At initiative count 20, losing ties, the ki-rin can use one option while in the lair and able to take actions. If surprised, it must finish its first turn first. Each option becomes available again after a long rest. The conjured objects appear 1 minute later at unoccupied spots the ki-rin chooses on the lair floor.\nCreate Comforts. Conjure permanent objects made of soft plant material, including manufactured goods, that collectively fit in a 20-ft. cube.\nCreate Stone and Metal. Conjure stone or metal objects that collectively fit in a 2-ft. cube. They vanish after 1 hour.\nCreate Wood. Conjure permanent wooden objects or objects made of comparably hard plant material that collectively fit in a 10-ft. cube.",
+        "Regional effects": "Each effect can occur up to 3 miles from the lair.\nBlessed Nature. Beasts, Plants, and Celestials become more vigorous and approach idealized forms. They rarely attack creatures they would not normally hunt.\nControlled Weather. The ki-rin can cast Control Weather in this area. The spell originates outdoors at the point nearest the lair’s center. It requires neither a clear path to the sky nor concentration to persist.\nPure Waters. The water runs pure. Deliberate contamination clears within 3 minutes.\nRealm of Respite. Curses, diseases, and poisons are suppressed while affected creatures remain in the area, except for Aberrations, Fiends, and Undead.\nSafe Descents. Creatures whose falls were not caused by the ki-rin or its allies descend at 60 ft. per round and take no falling damage. Aberrations, Fiends, and Undead fall normally.\nOn the ki-rin’s death, these effects end immediately, except the extra vigor of local flora and fauna lasts 3 years.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 162."
+      }
+    }
+  },
+  {
+    "name": "Kobold Dragonshield",
+    "statBlock": {
+      "name": "Kobold Dragonshield",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 163,
+      "classification": "Small dragon, any alignment",
+      "ac": 15,
+      "hp": 44,
+      "hitDice": "8d6 + 16",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "description": "A kobold champion empowered by a dragon, often to protect its eggs. Its shield is made from dragon scales.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 1
+      },
+      "sections": {
+        "Armor": "Leather armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Damage resistances": "See Dragon's Resistance below.",
+        "Traits": "Dragon’s Resistance. Choose the dragon that empowered the kobold or roll 1d10 for its damage resistance. On 1–2, acid (black or copper). On 3–4, cold (silver or white). On 5–6, fire (brass, gold, or red). On 7–8, lightning (blue or bronze). On 9–10, poison (green).\nHeart of the Dragon. At the start of its turn, the dragonshield can repeat the save against any effect that allows a save and leaves it frightened or paralyzed. A success ends that effect for the dragonshield and every kobold within 30 ft. Each beneficiary gains advantage on its next attack roll.\nPack Tactics. The dragonshield has advantage on an attack against a creature if a non-incapacitated ally is within 5 ft. of the target.\nSunlight Sensitivity. In sunlight, the dragonshield has disadvantage on attack rolls and on Wisdom (Perception) checks relying on sight.",
+        "Actions": "Multiattack. Make two Spear attacks.\nSpear. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) if wielded with two hands for a melee attack.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 163."
+      }
+    }
+  },
+  {
+    "name": "Kobold Inventor",
+    "statBlock": {
+      "name": "Kobold Inventor",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 164,
+      "classification": "Small humanoid, any alignment",
+      "ac": 12,
+      "hp": 13,
+      "hitDice": "3d6 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 10,
+      "description": "A kobold that brings fragile improvised weapons into battle to injure, distract, or frighten opponents.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Pack Tactics. The inventor has advantage on an attack against a creature if a non-incapacitated ally is within 5 ft. of the target.\nSunlight Sensitivity. In sunlight, the inventor has disadvantage on attack rolls and on Wisdom (Perception) checks relying on sight.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.\nWeapon Invention. Choose an option or roll 1d8. Each option can be used at most once per day.\n1. Acid. Ranged weapon attack, +4 to hit, range 5/20 ft., one target. A hit deals 7 (2d6) acid damage.\n2. Alchemist’s Fire. Ranged weapon attack, +4 to hit, range 5/20 ft., one target. On a hit, the target takes 2 (1d4) fire damage at the start of each of its turns until it spends an action and succeeds on a DC 10 Dexterity check to extinguish the flames.\n3. Basket of Centipedes. Throw the basket into a 5-ft. square within 20 ft. A Swarm of Centipedes emerges with 11 hit points and rolls initiative. It has a 50 percent chance to disperse at the end of each of its turns.\n4. Green Slime Pot. Ranged weapon attack, +4 to hit, range 5/20 ft., one target. A hit deals 5 (1d10) acid damage and coats the target in slime, which deals 5 (1d10) acid damage at the start of each of its turns. A creature can use an action to scrape or wash the slime away.\n5. Rot Grub Pot. Break the pot in a 5-ft. square within 20 ft. A Swarm of Rot Grubs emerges and remains a hazard in that space.\n6. Scorpion on a Stick. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 1 piercing damage. The target then makes a DC 9 Constitution save and takes 4 (1d8) poison damage on a failure or half on a success.\n7. Skunk in a Cage. Release a skunk in an unoccupied space within 5 ft. It has AC 10, 1 hit point, a walking speed of 20 ft., and no effective attacks. It rolls initiative and on its turn uses its action to spray a random creature within 5 ft. The creature must pass a DC 9 Constitution save or be incapacitated by retching for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. A creature that does not need to breathe or is immune to poison succeeds automatically. The skunk must finish a short or long rest before spraying again.\n8. Wasp Nest in a Bag. Throw the bag into a 5-ft. square within 20 ft. A Swarm of Wasps emerges with 11 hit points and rolls initiative. It has a 50 percent chance to disperse at the end of each of its turns.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 164."
+      }
+    }
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Crab, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/crab-giant/kobold-press-crab.webp",
+    "artist": "Giant Crab · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "c45b68d0fd0f0a619f56580582b15ad1004b88ff10dae33ee4043270bf10c40f",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/crab.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Crab, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/crab-giant/giant-crab-warren-mahy-related.webp",
+    "artist": "Related Giant Crab art by Warren Mahy · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "977eb50e38ddfc302418033037acc3d61b603a5ca5b61ff11a5e262533cfa181",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Crab.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Crocodile, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/crocodile-giant/kobold-press-crocodile.webp",
+    "artist": "Giant Crocodile · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "e9e56172a6b70df32f62c1b5be066fe3738a2528e6be7b3798230b386be4f23d",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/crocodile.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Crocodile, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/crocodile-giant/giant-crocodile-2014-related.webp",
+    "artist": "Related Giant Crocodile token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "4c8ceda0ba3a077e58cf9eb970deb998c883df11300b6a87c2e87585f4b86028",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Crocodile.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Plesiosaurus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-plesiosaurus/kobold-press-dinosaur-plesiosarus.webp",
+    "artist": "Plesiosaurus · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "8c2be5da22138a3b8e805d484a24baa014ee2fee51515735a34d11d8f4644f82",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/dinosaur-plesiosarus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Plesiosaurus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-plesiosaurus/plesiosaurus-2024-rules-related.webp",
+    "artist": "Related Plesiosaurus art · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "74b8286df41ce8d600fd9430e42521ca6c17c97a4374001e4a2146c631ac24b9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Plesiosaurus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Ankylosaurus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-ankylosaurus/ankylosaurus-alejandro-pacheco-related.webp",
+    "artist": "Related Ankylosaurus art by Alejandro Pacheco · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "749f7ac9ec4904ba3fad2ec3c8cd6576205d3edca68b6cdb569260d4a5df55d2",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Ankylosaurus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dinosaur, Ankylosaurus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/dinosaur-ankylosaurus/ankylosaurus-emily-willoughby.png",
+    "artist": "Ankylosaurus life reconstruction by Emily Willoughby · CC BY-SA 3.0",
+    "kind": "illustration",
+    "sha256": "c6bcf6a91f517b068314cf83316345857885edbfff24053da7f7f2942e6bf3ec",
+    "reference": "https://commons.wikimedia.org/wiki/File:Ankylosaurus_magniventris_reconstruction.png",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/"
+  }
+]

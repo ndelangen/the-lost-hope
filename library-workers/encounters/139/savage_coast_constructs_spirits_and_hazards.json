@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Amber Lotus",
+    "decision": "separate",
+    "pages": "p. 88",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Amber Lotus",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Small stationary aquatic plant",
+      "ac": 10,
+      "hp": 1,
+      "thac0": 20,
+      "otherStatistics": "AC, HP and THAC0 apply to one plant. Common, neutral, active at any time. Average morale 8–10. No treasure or magic resistance. No Legacies.",
+      "cr": "",
+      "description": "A bed of water lilies near the Dream River can blanket the banks in sleep-inducing pollen. Batracines hide under the pads.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The plants have no direct attack. Each person who contacts the pollen saves vs. poison at −2 or sleeps for at least 1d4+1 days. The victim stays asleep if the wind keeps carrying pollen over them. Batracines are immune.",
+        "Running the encounter": "A bed has 3d100+100 plants. Anyone approaching within 1 yard per plant is exposed. Wind can carry the pollen for miles and it clings to surfaces and creatures.",
+        "Experience": "Award 35 XP for surviving the encounter and 1,400 additional XP for destroying the bed.",
+        "Printed source": "p. 88"
+      }
+    }
+  },
+  {
+    "name": "Gargoñan Rose",
+    "decision": "separate",
+    "pages": "pp. 88–89, with Legacies on pp. 7–9",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Gargoñan Rose",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Tiny stationary plant",
+      "ac": 10,
+      "hitDice": "2",
+      "thac0": 19,
+      "otherStatistics": "Rare, solitary, active by day in forest. Chaotic good. Intelligence 5–7. Steady morale 11–12. No treasure or magic resistance.",
+      "cr": "",
+      "description": "A sentient white rose bush senses visitors through scent and empathy. It gives up one flower a week to protect someone from the Red Curse.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The bush has no normal attack. It uses its Legacies if someone uproots it or takes a second rose within a week. Its song can charm monsters within 1 mile and turn them against its foes.",
+        "Defensive Legacies": "Acid Touch deals 1d4 plus 1 per HD on a hit. Entangle creates tentacles 5 feet long per 3 HD, to a maximum of 25 feet, for 1 round per level. An entangled target needs a successful bend bars roll to escape. Poison adds 1d6 damage to a natural physical attack other than a bite and can also cause sleep, paralysis, damage or death depending on HD. A save vs. poison halves the effect. Weaken reaches 10 yards. On a failed save vs. spell, the target counts as Strength 5 and takes −2 to attacks and −1 per damage die for 1 round per level.",
+        "Plucked rose": "The flower protects as one ounce of cinnabryl. Its last petal drops at the end of day seven. The bearer cannot use Legacies while protected by the rose.",
+        "Experience": "Award 35 XP once for encountering the bush or using a rose. Destroying the bush earns no XP.",
+        "Printed source": "pp. 88–89, with Legacies on pp. 7–9"
+      },
+      "ruleNotes": [
+        "The appendix gives the song a 1-mile radius without specifying a save, duration or use limit. Its generic Poison rule lists possible effects by HD without giving a full tier table."
+      ]
+    }
+  },
+  {
+    "name": "Golem",
+    "decision": "separate",
+    "pages": "pp. 41–43",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Golem",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Lesser or greater golem",
+      "cr": "",
+      "description": "Savage Coast builders use glassteel, red steel and cut stone to make guards and siege engines.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Choose one printed form below. Use its listed attack routine and relevant defenses. These constructs have no Legacies or cinnabryl requirement.",
+        "Aelder": "Lesser golem. AC 3, 9 HD, 60 HP, THAC0 11, movement 18, 2,000 XP. Two piercing front-leg strikes for 2d6 each reach 10 feet. In icy burial grounds, ranged attacks beyond 20 feet are impossible and nonmelee attacks within 20 feet take −2. Immune to light or gaze effects. Can cast color spray, dancing lights and hypnotic pattern three times each per day. A spider aelder spins thick glassteel webs for cover or nearly invisible brittle strands that shatter to alert it. Ee’aar priests create and command them in pairs. Large, neutral, fearless 19–20. No magic resistance or treasure.",
+        "Glassine Horror": "Lesser golem. AC 2, 8 HD, 60 HP, THAC0 13, movement 9, fly 36, 4,000 XP. As an inactive sheet, it occupies 50–100 square feet across a window or doorway and is 1–6 inches thick. As a roughly 15-foot humanoid, it punches once for 2d10. Opponents within 10 feet save vs. spell or take −2 to attacks. It can use crystalbrittle, sunburst as a wand of illumination, and continual light in this form. It is immune to light and electricity spells while humanoid. In sand form it moves at 36, at most 5 feet above a surface. The 100-cubic-foot cloud deals 2d8 to a creature on a successful attack roll and blinds it for 2d4 turns on a failed save vs. spell. The cloud is immune to wind spells. It flees below 10% of starting HP and heals by resting or absorbing 50 gp in gems per HP. Usually alone or 1d6 under its creator’s command. Lawful neutral, average morale 8–10, treasure Q ×4. No magic resistance.",
+        "Red Golem": "Greater golem. AC 1, 18 HD, 90 HP, THAC0 3, movement 6, 14,000 XP. Two punches for 2d12 each. Both must target the same foe while that foe is still standing. It attacks the greatest threat first. Cinnabryl within 10 feet loses 1 ounce each round without triggering the Time of Loss and Change. It requires a +2 weapon to hit and takes half weapon damage from enchantments below +4. Magical electricity slows it for 1d3 rounds. Magical fire heals 1 HP per damage die. Other spells fail against it. It uses taunt after a strike with a nonmagical weapon or a spell it is immune to. It can alter its size and appearance with shapechange only on its master’s command. Large, neutral, fearless 19–20. No magic resistance or treasure.",
+        "Hulean Juggernaut": "Greater golem. AC 0, 30 HD, 150 HP, movement 9, 21,000 XP. Creatures in its path save vs. breath weapon to escape sideways or take 10d10 damage. Its wheelbase can crush multiple targets at once. A ram may break larger obstacles, and soldiers aboard can attack creatures that evade the wheels. It can stop, turn or reverse within one round. Immune to fire, sleep, charm, hold and nonmagical weapons. All its saves succeed on 4 or higher. It obeys only its creator’s simple verbal commands and may keep following the last order after the creator dies. Only the creator can authorize entry. Gargantuan, neutral, elite morale 13–14, treasure A and possible extras. No magic resistance.",
+        "Printed source": "pp. 41–43"
+      }
+    }
+  },
+  {
+    "name": "Heroic Spirit",
+    "decision": "separate",
+    "pages": "pp. 100–101, with Luck Legacy on p. 8",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Heroic Spirit",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Medium undead possessing spirit",
+      "otherStatistics": "Very rare, solitary. Retains its alignment from life. Fearless morale 20. No magic resistance, treasure, Legacies or cinnabryl requirement.",
+      "cr": "",
+      "description": "A dead hero takes a living host to finish a deed or disgrace the villain who stopped it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The spirit has no direct attack. When the host faces deadly peril, it awakens and automatically influences the host with suggestion to rush into battle. Use the effects of a potion of super-heroism regardless of the host’s class. The host must fight with conspicuous daring for one round per foe, with a minimum of 4 and a maximum of 15 rounds. Afterward the host chooses whether to keep fighting or withdraw with flair.",
+        "Running the encounter": "Outside combat the spirit mostly lies dormant and communicates through empathy alone. Its host keeps free will under ordinary conditions. A host who adopts the spirit’s flamboyant habits may gain Luck and reroll a failed saving throw or ability check. That benefit can persist while the spirit is dormant. It leaves after fulfilling its goal or moves on if the host gains a level first or dies.",
+        "Exorcism and rivalry": "The spirit cannot be attacked or turned directly, but exorcism can drive it out. A good spirit leaves if a host sincerely asks. It never chooses a host already carrying a Legacy Leech. Both spirits recognize one another when their hosts meet. If the spirit’s host refuses to attack the leech’s host, it attempts to seize control with magic jar, potentially forcing a fight to the death.",
+        "Experience": "Award the host 450 XP once, upon the spirit’s first activation. Helping it finish its deed earns a further 1,000 XP.",
+        "Printed source": "pp. 100–101, with Luck Legacy on p. 8",
+        "Super-heroism": "Use the host’s current level. Level 0: +6 effective combat levels and 5d10 bonus HP. Levels 1–3: +5 and 4d10 + 1. Levels 4–6: +4 and 3d10 + 2. Levels 7–9: +3 and 2d10 + 3. Levels 10–12: +2 and 1d10 + 4. A host of level 13 or higher gains no bonus. Deduct damage from the bonus HP first. The spirit’s encounter rules determine duration and allow any class. See Encyclopedia Magica, Volume III, p. 890."
+      }
+    }
+  },
+  {
+    "name": "Parasite",
+    "decision": "separate",
+    "pages": "pp. 84–86, with Displace Legacy on p. 7",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Parasite",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Tiny infestation",
+      "otherStatistics": "Rare, one infestation. Mindless, no treasure or magic resistance. Parasites neither gain Legacies nor become Afflicted.",
+      "cr": "",
+      "description": "An infestation creates a problem to diagnose or survive, with a cure that can drive an adventure.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "Use one infestation procedure below. Parasites have no regular attacks. Award 15 XP for surviving a nonfatal infestation or 65 XP for surviving a potentially fatal one.",
+        "Inheritor lice": "Roll d100 for the degree of infestation. Increase the host’s cinnabryl use by the same percentage, doubling it at 100%. Up to three times per day the lice can trigger Displace and move their host 10 feet in a random direction to evade an incoming physical hit. They sometimes do so at random. Cinnabryl ointment removes them. Saragón lyra birds eat them.",
+        "Powder moth": "Use detect invisibility to see the moths. Roll d100 for the percentage of smokepowder spoiled. While the moths remain, anyone moving the keg saves vs. paralysis or sets it off. A full keg deals 10d6+10 damage within 10 feet and half damage out to 20 feet. Scale damage by the unspoiled fraction, then halve it on a successful save vs. breath weapon. Inheritors within 20 feet lose one week of cinnabryl protection per full 8 points of damage suffered.",
+        "Jibarú pest": "Choose a local pest. A moth’s powder makes victims believe they can fly, and the moth can supply medicine for the Fly Affliction. A brown leech drains several HP of blood per week while preventing the Strength Affliction. A green territorial wasp’s sting kills on a failed save vs. poison. Its nest supplies an ointment that cures vermilia.",
+        "Lupin plague": "Infested grapes or wine transmit the plague. The host saves vs. poison at −3 at the end of each day or dies. Medication or magical healing can end it.",
+        "Cardinal tick": "Roll d100 for the starting infestation and use that percentage as the chance a Legacy fails. Participants in melee against an infested carrier acquire a 5% infestation. Each attempted Legacy use increases infestation by 15 percentage points. Nonhumanoids cap at 50%. Other Red Curse effects still apply. Cinnabryl ointment removes the ticks. Scratching them off costs 1 HP per percentage point removed without rare Jibarú medicine. Saragón lyra birds eat them.",
+        "Vermilia": "Physical contact transmits the infection. Living creatures save vs. poison to avoid it. Undead catch it automatically. Damage starts at 1 on day one and doubles each day. Undead can avoid the day’s damage with a save vs. death magic at the end of that day, with a penalty equal to that day’s damage. All victims take an additional −1 on related saves per Legacy. Infection counts as a +2 weapon for damaging undead or magical creatures. Cure disease, heal or a remedy from vulturehound blood or a suitable Jibarú pest ends the infection. Fire cleanses infested remains.",
+        "Printed source": "pp. 84–86, with Displace Legacy on p. 7"
+      },
+      "ruleNotes": [
+        "The book leaves the Jibarú moth’s duration and the leech’s exact HP loss to the DM."
+      ]
+    }
+  },
+  {
+    "name": "Scarlet Pimpernel",
+    "decision": "separate",
+    "pages": "pp. 88–89",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Scarlet Pimpernel",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Tiny stationary plant",
+      "ac": 10,
+      "hitDice": "1",
+      "thac0": 19,
+      "xp": 65,
+      "otherStatistics": "Rare beds, appearing 2d4, active by day. Neutral. Intelligence 2–4. Steady morale 11–12. No treasure or magic resistance.",
+      "cr": "",
+      "description": "These orchids feed on cinnabryl and grow on mineral deposits or the graves of Legacy users. A similar-looking plant makes harvesting them dangerous.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "The plants have no direct attack. Assign a regional Legacy to each bed, offensive or defensive. After the bed uses a Legacy three times in a day, choose a different random Legacy for its next use. The bed can keep using powers while any plant survives. It depletes an ounce of cinnabryl per week. If deprived of cinnabryl, the plants dry up and release spores.",
+        "Eating the orchid": "Fresh pimpernel boosts effects such as the range, duration or damage of Legacies by 10% for 1 turn. Dried pimpernel gives a 30% boost for 3 turns, but requires a save vs. poison at −3. Failure causes hallucinations for 1d6 turns, during which the eater cannot react to real events.",
+        "Crimson delight": "Someone who eats this lookalike fresh must save vs. poison or die. Dried crimson delight instead prevents Legacy use for 24 hours.",
+        "Printed source": "pp. 88–89"
+      }
+    }
+  },
+  {
+    "name": "Shadow Symbiont",
+    "decision": "separate",
+    "pages": "pp. 108–109, with Luck Legacy on p. 8",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Shadow Symbiont",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Tiny item or Medium shadow creature",
+      "otherStatistics": "Very rare, appearing 1d4. Neutral. Intelligence 11–12. No treasure or magic resistance. Immune to the Red Curse.",
+      "cr": "",
+      "description": "A black garment adapts to its wearer and trades powers for experience. If starved or threatened with death, it may take the wearer into the Plane of Shadows.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "On the Prime Material Plane, the worn form has AC 10, 1 HD, THAC0 19, no movement or attacks, steady morale 11–12 and an XP value of 120. No magical aura betrays it. On the Plane of Shadows it becomes a humanoid with AC 2, 8 HD, THAC0 13, movement 15, champion morale 15–16 and an XP value of 5,000. It attacks twice for 2d4 each. Each hit drains 10% of the experience needed for a level and 1 point of Strength or Constitution, chosen at equal odds.",
+        "Mask": "The wearer concentrates to gain immunity to mind-affecting magic, at 20 XP per use per wearer level. In the Plane of Shadows the symbiont has that immunity itself.",
+        "Cloak": "Absorbs all magical HP damage from a hit that would reduce the wearer below 0 HP. Costs 10 XP per point absorbed per wearer level. In the Plane of Shadows, subtract 8 points of damage from each attack against the symbiont.",
+        "Gloves": "Give the wearer the Luck Legacy for hand-related actions only, allowing a reroll of a failed save or ability check when applicable. Costs 20 XP per use per wearer level. In the Plane of Shadows, the symbiont itself has Luck.",
+        "Boots": "Allow the wearer to cast dimension door for 10 XP per use per wearer level. The boots can also guide the wearer toward opportunities to earn XP at no cost, without controlling decisions. In the Plane of Shadows they cast dimension door as an 8th-level mage once per round.",
+        "Feeding and defense": "Only spells and weapons of +1 or better can harm the symbiont. Any damage it suffers also harms the wearer. A lethal attempt makes it flee by plane shift with the wearer. A wearer who gains too little new XP to feed it saves vs. spell. Success makes it drain three times the missing XP before slipping away. On failure it takes the wearer to the Plane of Shadows and tries to devour them.",
+        "Printed source": "pp. 108–109, with Luck Legacy on p. 8"
+      },
+      "ruleNotes": [
+        "The encounter gives each power’s XP cost and describes the consequences of shortfalls, without prescribing a separate feeding schedule."
+      ]
+    }
+  },
+  {
+    "name": "Wallaran Spirit",
+    "decision": "separate",
+    "pages": "pp. 101–103",
+    "notes": "AD&D 2nd edition encounter from the printed appendix.",
+    "statBlock": {
+      "name": "Wallaran Spirit",
+      "publication": "Savage Coast Monstrous Compendium Appendix",
+      "edition": "AD&D 2nd edition",
+      "classification": "Dreamworld spirit guide",
+      "ac": 0,
+      "hitDice": "10",
+      "thac0": 11,
+      "otherStatistics": "All three totems are solitary, very rare, and neutral or good, usually lawful. Intelligence 19–20. Special morale. No treasure, Legacies or cinnabryl requirement.",
+      "cr": "",
+      "description": "A Wallaran totem animal visits the deepest dreams to offer advice. It sometimes leaves a token the dreamer finds upon waking.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Actions": "A spirit can cast at will as an 18th-level mage, with no casting time or components. It prefers to turn attackers into harmless creatures with polymorph other. It can disappear when attacked or replace the dreamer’s weapons with harmless objects. It speaks directly to the dreaming mind.",
+        "Kangaroo": "Medium. Movement 18. Three attacks for 1d3, 1d3 and 2d4. Its followers are known for acting quickly by Wallaran standards.",
+        "Koala": "Small. Movement 6. One attack for 1d2. Its followers often provide food for the community.",
+        "Kookaburra": "Tiny. Movement 6 and fly 18, maneuverability A. One attack for 1 damage. Nocturnal. Its followers often guide interactions with outsiders or care for children.",
+        "Running the encounter": "Clashes occur only in the Dreamworld. Only magical weapons physically brought there can hit the spirit. A weapon that appears merely because its owner is dreaming has no effect. All three totems have 95% magic resistance.",
+        "Experience": "Award 1,000 XP for a peaceful encounter with the spirit. There is no XP for fighting it.",
+        "Printed source": "pp. 101–103"
+      },
+      "ruleNotes": [
+        "The Kookaburra size figure in the table appears as 18 feet. Its description gives 18 inches and the table classifies it as Tiny."
+      ]
+    }
+  }
+]

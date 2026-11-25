@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Raven, Swarm of Ravens",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium swarm of Tiny Beasts",
+    "ac": 12,
+    "hp": 13,
+    "speed": "10 ft., fly 50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR -2, DEX +2, CON -1, INT -4, WIS +1, CHA -1. Perception 13. Stealth 12. Senses —. Languages —.",
+    "appearance": "A flock of dark ravens with spread wings.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Hills",
+      "Swamp",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Cuervo, Enjambre de Cuervos, Cubil de Monstruos (Nosolorol, 2025), p. 341. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Carrion Sense. By scent, pinpoint carrion, dead creatures and Undead without Incorporeal Movement within 60 ft.\nPilfering Swarm. Ravens peck and pull at the clothing, hair, fur and belongings of creatures sharing the swarm’s space. A creature in that space casting a spell with a material component must pass a DC 12 Dexterity save. On a failure, the ravens steal the component and the spell fails. The casting action is spent, and the spell slot or daily use is retained.\nSwarm. The swarm and other creatures can share spaces. The swarm fits through any opening large enough for a Tiny raven. It cannot regain HP or gain temporary HP.\nSwarm Resilience. The swarm resists bludgeoning, piercing and slashing damage and is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned conditions.",
+      "Actions": "Beaks. Melee weapon attack, +4 to hit, reach 0 ft., one creature in the swarm’s space. A hit deals 9 (2d8) piercing damage, or 4 (1d8) if the swarm has half its HP or less."
+    }
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 63,
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Ability modifiers STR +5, DEX -1, CON +2, INT -4, WIS +1, CHA -2. Perception 11. Stealth 9. Senses —. Languages —.",
+    "appearance": "A heavy gray rhinoceros with folded skin and two nose horns.",
+    "habitats": [
+      "Grassland"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Rinoceronte, Cubil de Monstruos (Nosolorol, 2025), p. 354. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Resistances": "Bludgeoning damage and the stunned condition. Halve incoming bludgeoning damage, rounded down. The rhinoceros has advantage on checks and saves to avoid or end the stunned condition.",
+      "Traits": "Charge. If the rhinoceros moves at least 20 ft. straight toward a target and hits it with Gore that turn, the hit deals an extra 7 (2d6) piercing damage. A creature hit in this way must pass a DC 15 Strength save or be pushed up to 10 ft. away from the rhinoceros and fall prone.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage.",
+      "Bonus Actions": "Quaking Stomp. The rhinoceros strikes the ground with its front feet. Every creature within 10 ft. of the rhinoceros must pass a DC 15 Dexterity save or fall prone."
+    }
+  },
+  {
+    "name": "Seahorse",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 11,
+    "hp": 9,
+    "speed": "0 ft., swim 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Natural armor. Ability modifiers STR -5, DEX +0, CON -1, INT -5, WIS +0, CHA -4. Perception 10. Stealth 12. Senses —. Languages —.",
+    "appearance": "A small seahorse with an upright head and a curled tail.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Caballito de mar, Cubil de Monstruos (Nosolorol, 2025), p. 337. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Underwater Camouflage. The seahorse’s Stealth is 17 underwater.\nWater Breathing. It can breathe only underwater.",
+      "Actions": "Ram. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Seahorse, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 13,
+    "hp": 25,
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "otherStatistics": "Natural armor. Ability modifiers STR +1, DEX +2, CON +0, INT -4, WIS +1, CHA -3. Perception 11. Stealth 14. Senses —. Languages —.",
+    "appearance": "A ridged seahorse with a long snout and a curled grasping tail.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Caballito de mar, gigante, Cubil de Monstruos (Nosolorol, 2025), p. 337. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Charge. If the seahorse moves at least 20 ft. straight toward a target and hits it with Ram that turn, the hit deals an extra 5 (2d4) bludgeoning damage. A creature hit in this way must pass a DC 12 Strength save or fall prone.\nUnderwater Camouflage. The seahorse’s Stealth is 19 underwater.\nWater Breathing. It can breathe only underwater.",
+      "Actions": "Ram. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) bludgeoning damage.",
+      "Bonus Actions": "Grasping Tail. One Medium or smaller creature within 10 ft. must pass a DC 12 Strength save or be grappled. The target remains restrained until the grapple ends and can use its action to try to escape (DC 12). While the grapple lasts, the seahorse cannot use Grasping Tail on a different target."
+    }
+  },
+  {
+    "name": "Seal",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 14,
+    "hp": 13,
+    "speed": "20 ft., swim 50 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Natural armor. Ability modifiers STR +0, DEX +2, CON +0, INT -4, WIS +1, CHA +0. Perception 13. Stealth 12. Darkvision 60 ft. Languages —.",
+    "appearance": "A mottled gray-brown seal with a rounded head, fine whiskers and paired hind flippers.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Foca, Cubil de Monstruos (Nosolorol, 2025), pp. 341–342. Licensed Spanish translation of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Hold Breath. The seal can hold its breath for 1 hour.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage.",
+      "Bonus Actions": "Charming Escape. The seal takes the Dash or Disengage action, clapping its flippers, barking or spinning as it moves. Every creature within 5 ft. must pass a DC 12 Charisma save or be charmed until the end of its next turn."
+    }
+  }
+]

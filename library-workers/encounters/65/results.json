@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Killoren",
+    "species": "species-0b916e3b299992d5b315a18c",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of the Wild (2005) · Ancient",
+      "Races of the Wild (2005) · Destroyer",
+      "Races of the Wild (2005) · Hunter"
+    ],
+    "portraitSha256": "3ef94aedb80c737dfb879a76ec302f971df4217524e7149399752208341b8cee",
+    "npcReceipts": [
+      {
+        "form": "Destroyer",
+        "name": "Daranvar",
+        "entry": "npc-3750f51d808fc64b0475463d",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "form": "Hunter",
+        "name": "Irimel",
+        "entry": "npc-a32f540c3b07ac35a670eddf",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

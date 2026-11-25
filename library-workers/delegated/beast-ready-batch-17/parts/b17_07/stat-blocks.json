@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Pandarian Dragon Turtle",
+    "kind": "beast",
+    "publication": "D&D: World of Warcraft",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 17,
+    "hp": 30,
+    "hitDice": "4d10 + 8",
+    "speed": "30 ft., swim 60 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "passivePerception": 11,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 9,
+        "modifier": -1
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 1,
+      "Con": 2,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -1
+    },
+    "appearance": "A large dragon turtle used as a mount. The existing portrait shows a broad armored shell and a horned head on plain parchment.",
+    "habitats": [],
+    "otherStatistics": "Initiative +1 (11). Proficiency bonus +2. Darkvision 60 ft. Passive Perception 11. No languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "D&D: World of Warcraft, Chapter 3, Mounts and Vehicles. Digital stat block.",
+      "Initiative": "Initiative +1 (11). Proficiency bonus +2.",
+      "Senses": "Darkvision 60 ft., passive Perception 11.",
+      "Languages": "None.",
+      "Traits": "Amphibious. The turtle breathes in air and underwater.",
+      "Actions": "Bite. Melee attack roll, +5 to hit, 5-ft. reach. On a hit, deal 7 (1d8 + 3) piercing damage. A Large or smaller creature hit by the bite is Grappled, escape DC 13.",
+      "Source notes": "The publisher’s contents page locates the block in Chapter 3. The public image of the digital block has no folio. The upstream catalog lists p. 104."
+    }
+  }
+]

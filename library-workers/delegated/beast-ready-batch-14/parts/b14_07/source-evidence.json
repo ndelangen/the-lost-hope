@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Giant Octopus",
+    "publication": "Rise of Tiamat - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Online Supplement v0.2, November 5, 2014",
+    "copyrightYear": 2014,
+    "section": "Monsters",
+    "sourceHeading": "Giant Octopus",
+    "printedPages": [
+      16
+    ],
+    "pdfPages": [
+      16
+    ],
+    "sourceFile": " - 5th Edition (2014)/Reference/Rise of Tiamat - Online ",
+    "sourceSha256": "c01ac3075fb047525d6925e164b9ccdbe404a3a2e82d8c4c33fc78779db31dc2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "publisherPdfSha256": "2c62ba3605753f6e0e8c825a4a4ac4c816d4c6e4f38370c9edc5152364083e60",
+    "sourceRole": "Rules were verified against the local v0.2 copy and the Wizards v0.2 download. The scoped pages have identical extracted text.",
+    "sourceDistinctions": [
+      "Tentacles grapples a creature on a hit. The Ink Cloud option is an action, followed by the optional bonus-action Dash after ink release."
+    ],
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Editorial encounter tags based on the water breathing and underwater abilities on p. 16.",
+    "artGroup": "giant-octopus",
+    "artOwner": "b14_07",
+    "artworkSource": "beast-ready-batch-04/parts/b04_09/portraits/giant-octopus.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-04/giant-octopus.png",
+    "reuseSha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa"
+  },
+  {
+    "name": "Polar Bear",
+    "publication": "Rise of Tiamat - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Online Supplement v0.2, November 5, 2014",
+    "copyrightYear": 2014,
+    "section": "Monsters",
+    "sourceHeading": "Polar Bear",
+    "printedPages": [
+      22
+    ],
+    "pdfPages": [
+      22
+    ],
+    "sourceFile": " - 5th Edition (2014)/Reference/Rise of Tiamat - Online ",
+    "sourceSha256": "c01ac3075fb047525d6925e164b9ccdbe404a3a2e82d8c4c33fc78779db31dc2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "publisherPdfSha256": "2c62ba3605753f6e0e8c825a4a4ac4c816d4c6e4f38370c9edc5152364083e60",
+    "sourceRole": "Rules were verified against the local v0.2 copy and the Wizards v0.2 download. The scoped pages have identical extracted text.",
+    "sourceDistinctions": [
+      "Page 22 has two attack types in Multiattack, one of each. Neither lists a rider."
+    ],
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Editorial encounter tags based on the subject and swim speed. The p. 22 block does not list terrain.",
+    "artGroup": "polar-bear",
+    "artOwner": "b14_07",
+    "artworkSource": "beast-ready-batch-05/parts/b05_06/portraits/polar-bear.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-05/polar-bear.png",
+    "reuseSha256": "ea58cc6437d6177f689a0f7f2202fb4a102a0d79b7470b0bf21cba879f4083b4"
+  },
+  {
+    "name": "Warhorse",
+    "publication": "Rise of Tiamat - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Online Supplement v0.2, November 5, 2014",
+    "copyrightYear": 2014,
+    "section": "Monsters",
+    "sourceHeading": "Warhorse",
+    "printedPages": [
+      26
+    ],
+    "pdfPages": [
+      26
+    ],
+    "sourceFile": " - 5th Edition (2014)/Reference/Rise of Tiamat - Online ",
+    "sourceSha256": "c01ac3075fb047525d6925e164b9ccdbe404a3a2e82d8c4c33fc78779db31dc2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "publisherPdfSha256": "2c62ba3605753f6e0e8c825a4a4ac4c816d4c6e4f38370c9edc5152364083e60",
+    "sourceRole": "Rules were verified against the local v0.2 copy and the Wizards v0.2 download. The scoped pages have identical extracted text.",
+    "sourceDistinctions": [
+      "The bonus Hooves attack in Trampling Charge targets the same prone creature. The supplement shows +4 on the Hooves attack.",
+      "This supplement v0.2 prints Hooves at +4 to hit on p. 26. The separate 2014 Monster Manual errata changes its own Warhorse on p. 340 to +6. This entry follows the supplement."
+    ],
+    "relatedErrataUrl": "",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Editorial encounter tags based on the subject. The p. 26 block does not list terrain.",
+    "artGroup": "warhorse",
+    "artOwner": "b14_07",
+    "artworkSource": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-05/riding-warhorse.png",
+    "reuseSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf"
+  },
+  {
+    "name": "Wolf",
+    "publication": "Rise of Tiamat - Online Supplement",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "Online Supplement v0.2, November 5, 2014",
+    "copyrightYear": 2014,
+    "section": "Monsters",
+    "sourceHeading": "Wolf",
+    "printedPages": [
+      27
+    ],
+    "pdfPages": [
+      27
+    ],
+    "sourceFile": " - 5th Edition (2014)/Reference/Rise of Tiamat - Online ",
+    "sourceSha256": "c01ac3075fb047525d6925e164b9ccdbe404a3a2e82d8c4c33fc78779db31dc2",
+    "sourceUrl": "",
+    "url": "",
+    "publisherListing": "",
+    "publisherPdfSha256": "2c62ba3605753f6e0e8c825a4a4ac4c816d4c6e4f38370c9edc5152364083e60",
+    "sourceRole": "Rules were verified against the local v0.2 copy and the Wizards v0.2 download. The scoped pages have identical extracted text.",
+    "sourceDistinctions": [
+      "Pack Tactics measures distance from the target to the ally. The prone save is triggered by Bite hitting a creature."
+    ],
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Editorial encounter tags based on the subject. The p. 27 block does not list terrain.",
+    "artGroup": "wolf",
+    "artOwner": "b14_07",
+    "artworkSource": "beast-ready-batch-02/parts/b02_10/portraits/wolf.png",
+    "artworkRuntimeFile": "images/beast-ready-batch-02/wolf.png",
+    "reuseSha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "entry": "species-e8fcac1e4876234c00fa1911",
+    "version": "fce934e1bc096cf3859f8b7d",
+    "name": "Brownie",
+    "file": "images/playable-species-50-batch-5/brownie.png",
+    "sha256": "dc8957d4ee24f7c799117789d96a6c75e2429315e4197cfbbb19d83f8e43f205",
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "entry": "species-ea2590fa037e34eab983a16f",
+    "version": "b0d74731b7ff7f31ce1d6d62",
+    "name": "Dryad",
+    "file": "images/playable-species-50-batch-5/dryad.png",
+    "sha256": "d21cdcb59b49917f2b232440c3314d342a1296b91743587ac9ee09564b2b3999",
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "entry": "species-bbb113032e6c01840dd55ec0",
+    "version": "86ac88f5beab9e88a2d5c4c0",
+    "name": "Faun",
+    "file": "images/playable-species-50-batch-5/faun.png",
+    "sha256": "f971a16a08838fd9a4ec046cbe66ba765268c86be2e138119e4b9e0979cbdba6",
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "entry": "species-05ad62a22ae8bdfab8980a1e",
+    "version": "a2b3f8ef9274e20d6f5527f2",
+    "name": "Hsiao",
+    "file": "images/playable-species-50-batch-5/hsiao.png",
+    "sha256": "b79eb70961c1621f172e899bbfd067fa0d021c7c7769617f26866ab59d26c981",
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "entry": "species-cebf5299baa09eb00f120994",
+    "version": "926a258b815caca135672106",
+    "name": "Leprechaun",
+    "file": "images/playable-species-50-batch-5/leprechaun.png",
+    "sha256": "3e1db3adbc0f15281435f90b51bb16c03354b588c7116293faec8a55ea12314f",
+    "credit": "Original ImageGen illustration for The Lost Hope"
+  },
+  {
+    "entry": "species-d1d2949eaad15372c62102ed",
+    "version": "b39f8c8fd16313a24a8a5771",
+    "name": "Pooka",
+    "file": "images/playable-species-50-batch-5/pooka.png",
+    "sha256": "8531e44ad015f7150cbf4a692b1ff84d25cc7889215119f7e4c7498a2c1e99b4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-66b8266170ec16420dcffe57",
+    "version": "619f29e72d46869dcf1a450b",
+    "name": "Sidhe",
+    "file": "images/playable-species-50-batch-5/sidhe.png",
+    "sha256": "8f75c3a51944fab6737f4b4681983af9bf2f7d831ef11f74edeb25b6f213d81b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-4a046e33ecf7aced9bfd0007",
+    "version": "085c8aa03159ae5fe5c1c8a7",
+    "name": "Sprite",
+    "file": "images/playable-species-50-batch-5/sprite.png",
+    "sha256": "e99bb2c659354b01f570f8c6ba2dab0b188e0a944c960c3039604d5e3aefa0c8",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-c1897ffe99e5656c77370f77",
+    "version": "0083cd37c07cfdd31a9895af",
+    "name": "Wood Imp",
+    "file": "images/playable-species-50-batch-5/wood-imp.png",
+    "sha256": "a125772f43f1725ae3b61c6b3f5ebbf666fe2ab04edc6cc7e02cc1d8e0e62b48",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-9ee106b60908cfdafbfbd0ea",
+    "version": "dad4209828e88358171be993",
+    "name": "Woodrake",
+    "file": "images/playable-species-50-batch-5/woodrake.png",
+    "sha256": "2e8a1ee9d581577d283268208a10013bfa0abab24f29981503a0df1e646331a8",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-3e14b89d40b60722a9d94f15",
+    "version": "484a137d872a75e9b6ae7215",
+    "name": "Faenare",
+    "file": "images/playable-species-50-batch-5/faenare.png",
+    "sha256": "831e158e784c754e4d22ebb701b66cf965e8713b79580fa95126e7bd3664bff7",
+    "credit": "Original illustration generated with OpenAI ImageGen for The Lost Hope."
+  },
+  {
+    "entry": "species-7efe6b06e7c7b87884712e76",
+    "version": "808cb6e53f326d3402cbad42",
+    "name": "Skygnome",
+    "file": "images/playable-species-50-batch-5/skygnome.png",
+    "sha256": "99739985112561601aab2faba9a412370ac5d275fcef3917f8f8470d080f96bc",
+    "credit": "Original illustration generated with OpenAI ImageGen for The Lost Hope."
+  },
+  {
+    "entry": "species-f468bfcd4cb3a862d9771d1a",
+    "version": "34d17519e6e3f2ccf8f5d0c3",
+    "name": "Gremlin",
+    "file": "images/playable-species-50-batch-5/gremlin.png",
+    "sha256": "75250455812289c5d8f767eadacb1ea7b051c7cada869297f0a1e300f52ce8e9",
+    "credit": "Original illustration generated with OpenAI ImageGen for The Lost Hope."
+  },
+  {
+    "entry": "species-1fe2d38a070162e2af3309e7",
+    "version": "d8c3c6bf15e07e7ed45d565a",
+    "name": "Nagpa",
+    "file": "images/playable-species-50-batch-5/nagpa.png",
+    "sha256": "833ea853dc716be7da81d1ac7a1a5e5337aa0a4294723a94a8ddd7d26e9e0010",
+    "credit": "Original illustration generated with OpenAI ImageGen for The Lost Hope."
+  },
+  {
+    "entry": "species-9ce4ac07495bf749faf46ad3",
+    "version": "cd3a9964586092873f375979",
+    "name": "Pegataur",
+    "file": "images/playable-species-50-batch-5/pegataur.png",
+    "sha256": "aaceeb0431e4a026bfedc9cf82c3792d84b2ee9b03f7e47fcb11ea9820289a52",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-166a73112532054434c5de38",
+    "version": "a10bc2a38180b7e2970c88b5",
+    "name": "Sphinx",
+    "file": "images/playable-species-50-batch-5/sphinx.png",
+    "sha256": "31264b12eca67dfc35607b9b7e7c50b229338db049d619d7b172edfc7e487a0e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-f6eb4792f04d78ce4e170618",
+    "version": "61c284d504528f53f1706567",
+    "name": "Tabi",
+    "file": "images/playable-species-50-batch-5/tabi.png",
+    "sha256": "f4513fbd354258c430b541efd5879d6f3da1477d1971351839f9714977586597",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-15f0097b72f8e729d30a4c86",
+    "version": "7ddfc9b4c8d2e1914d777720",
+    "name": "Pterran",
+    "file": "images/playable-species-50-batch-5/pterran.png",
+    "sha256": "45af981f8227d15465d14065dd4007f5dfe9e3622efa39c4a3223aef31605fbd",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-37b4ed7d127a858d775cf203",
+    "version": "86ac89e0b4da16f81b910e24",
+    "name": "Kna",
+    "file": "images/playable-species-50-batch-5/kna.png",
+    "sha256": "cdf09e6dd1b314af929ca121054dc9649a88f57f1ded46c9985a4cacd6abb064",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-e064f09a1a23c6e0a0178010",
+    "version": "ae75657c05235dd64c86ca66",
+    "name": "Kopru",
+    "file": "images/playable-species-50-batch-5/kopru.png",
+    "sha256": "29ae66a24ead3cd1025931f316284322cb6668265afe548b3d0cbbc4d25eac4d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-552c321aaebc567d5157f13c",
+    "version": "3c8d9bc824fd1f941f536735",
+    "name": "Merrow",
+    "file": "images/playable-species-50-batch-5/merrow.png",
+    "sha256": "feb664a1e7c817b7e65e039f44a81f42eb5a0aa7b99e89f6e90ea7d5fa6bcf60",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-540a1c2225637bf34fa7af99",
+    "version": "43e51a0f6328de56d7be89ee",
+    "name": "Sea Giant",
+    "file": "images/playable-species-50-batch-5/sea-giant.png",
+    "sha256": "fe04a6737fa98899a475acea891683f7638bcc98b745b93a91f36c195c871c98",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-7d35b6ea863d37229d7a423f",
+    "version": "b8f7863356555ef7f642a354",
+    "name": "Shark-Kin",
+    "file": "images/playable-species-50-batch-5/shark-kin.png",
+    "sha256": "da5977ec0632496d890e3a28c2d76e61fa6d4261559713cd582393ee85f7bb27",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-9d4f2ae87c57a6a4fdd06dce",
+    "version": "2801929a7b46a27519b8497f",
+    "name": "Hutaakan",
+    "file": "images/playable-species-50-batch-5/hutaakan.png",
+    "sha256": "f0585b9211033931ff8a385b3fd780b807dde18c2509d8012e1bab5fee83db8d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-bb71901a9c3b266092643e7c",
+    "version": "77ad886bbdf2c9e28e3e9d55",
+    "name": "Brute-Man",
+    "file": "images/playable-species-50-batch-5/brute-man.png",
+    "sha256": "49a03ebe5c02fba591a19c77433ac9a432950509b1a6f5cc33904fbf86fe4c09",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-755db86960d4dd68f9c8e3d5",
+    "version": "72b87859f437e4df6d2faa49",
+    "name": "Kubitt",
+    "file": "images/playable-species-50-batch-5/kubitt.png",
+    "sha256": "51953a38d3831ab58abf27c89f1ab8c163041490fc32661e6bc5d71fae773dee",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-e4c8271500430fe3fca14022",
+    "version": "54a8c9d0a724879f22f659f1",
+    "name": "Schattenalfen",
+    "file": "images/playable-species-50-batch-5/schattenalfen.png",
+    "sha256": "07528a15df46de8b569fe192293e2a86dc3b1e976fec0730492df274d999e62c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-8524582ece256663733d3d77",
+    "version": "cccddb3810d2dc3099623109",
+    "name": "Krugel Orc",
+    "file": "images/playable-species-50-batch-5/krugel-orc.png",
+    "sha256": "27eef0d41c639dec7054e076ba14e6ada2b353c844ae79d2c09df12cc6be24be",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-efca6f1280ad8dbb747f3e34",
+    "version": "a07bcb28e809fe82d74eef43",
+    "name": "Malpheggi Lizardman",
+    "file": "images/playable-species-50-batch-5/malpheggi-lizardman.png",
+    "sha256": "f3a5bcb5367c5778eeee39f68cf59be058dafcdc055e8bf0888c11f9d39fd86c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-9a283fd012b06e2e7d4e8fcd",
+    "version": "f36cba243a0c9f8103380b4b",
+    "name": "Kogolor Dwarf",
+    "file": "images/playable-species-50-batch-5/kogolor-dwarf.png",
+    "sha256": "673cf0ba0db26308dee154235a85d7f04cc2677c8c5c1ddeee76bd479af923ad",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-9a283fd012b06e2e7d4e8fcd",
+    "version": "95289c033f175dd8eb78078a",
+    "name": "Gully Dwarf",
+    "file": "images/playable-species-50-batch-5/gully-dwarf.png",
+    "sha256": "489569aea8b0e73fbf9fcd4d6f34269e0ba843e6ea7e5e96e22749f7c41c0dae",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-1c382bbc0651c8bc6a4f8f9a",
+    "version": "d21a40cf248a506369914fc5",
+    "name": "Kender",
+    "file": "images/playable-species-50-batch-5/kender.png",
+    "sha256": "4e02758ee5db3890ddbb4a05357f0aae12bc06aba124257882d177e286dc70f7",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-768d42c17677884b34decad8",
+    "version": "cf317bf6ecabfb4290d4863f",
+    "name": "Tarmak",
+    "file": "images/playable-species-50-batch-5/tarmak.png",
+    "sha256": "748da6040e5bac3bc5399f0e2c45522b89386ab535078c22c26e809f2e4ba1c2",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-9a62d74e924b5ef5486d59cb",
+    "version": "22d55ce7d8f9a61eab620ce4",
+    "name": "Kyrie",
+    "file": "images/playable-species-50-batch-5/kyrie.png",
+    "sha256": "34c2a4d42baa35ac06e83aed833dc1dccebca00d6d9caba63b281f0d15df934a",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ac0d41bbecea8bb59431b4a4",
+    "version": "2f406c9a894568313131dc01",
+    "name": "Phaethon",
+    "file": "images/playable-species-50-batch-5/phaethon.png",
+    "sha256": "31ea196326d1c95c04ffbcc200f4c46d2d87a0597d8f8378ea56dfd3a7517da0",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-289411b8b626dfa96d4e2677",
+    "version": "00b231e93db39f5c051a321c",
+    "name": "Thanoi",
+    "file": "images/playable-species-50-batch-5/thanoi.png",
+    "sha256": "4192a161f291ab3592ddbfeee0cba93d91aa0deb317acab0897b19f485fc8fcc",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-136c5bce75bfde8d24736d2c",
+    "version": "73975a79ebfcacbb91189b40",
+    "name": "Ursoi",
+    "file": "images/playable-species-50-batch-5/ursoi.png",
+    "sha256": "bb3cc4612e7ab251dff80d47028d4fe41f1245e2043357a027a1ca605a583972",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-400dfb05f0143520dbc668a1",
+    "version": "e252a004988066ff8d88349f",
+    "name": "Draconian",
+    "file": "images/playable-species-50-batch-5/draconian.png",
+    "sha256": "72b943f108dd4297bf81d43e0f76f7db32e45ecf622453c199c0abd6d619cb39",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-be17f016f8235fceb204f429",
+    "version": "6304b2c934e447653caaa0f9",
+    "name": "Dark Stalker",
+    "file": "images/playable-species-50-batch-5/dark-stalker.png",
+    "sha256": "3439c6504e7db32e2d3ff5771ba5e69b8db6d7afa57dcc2255fdb1a1eb6c7914",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-c7dd50b72536b8a9836ec381",
+    "version": "946baeabf87df5c6064a8de2",
+    "name": "Kaorti",
+    "file": "images/playable-species-50-batch-5/kaorti.png",
+    "sha256": "5ebaf48eced7ff5e64cb790bb0ad5874c50a64f737372611d9dc5d58831366bd",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5ffb7c39339881b3a4fb0c58",
+    "version": "eb80708aa77aa1d71d1da572",
+    "name": "Khaasta",
+    "file": "images/playable-species-50-batch-5/khaasta.png",
+    "sha256": "bd7f6f8b45570e0b2b435c83ceadf4060f786e15bc2a79a5410af52fd61c8ce4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-8f867194140059c10b129495",
+    "version": "8d1706553458a96e7b5a20a7",
+    "name": "Ophidian",
+    "file": "images/playable-species-50-batch-5/ophidian.png",
+    "sha256": "a30bcade8d20e04d24dc803b6cd0a68d7dcb84745ad39c2a8e060f582f13d350",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-1d44efb0aa34b0394929ee6a",
+    "version": "78c0959229778e6b90f5fc6c",
+    "name": "Selkie",
+    "file": "images/playable-species-50-batch-5/selkie.png",
+    "sha256": "324c61bfd293c9cd2d98d212f67ff15836c0b6f4de557359a0d192ac75cad376",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-5fed1d7ed0ba275cc252f833",
+    "version": "3c96505a95e53042adbf71e2",
+    "name": "Yurian",
+    "file": "images/playable-species-50-batch-5/yurian.png",
+    "sha256": "b3307329d89d37bdaf3b7404e60062d0d618b0f9234dc604d91ca383e2cb7fe9",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-ddff06b84cba26b224caeec4",
+    "version": "cb3dc3d2a1f484a68bf282b4",
+    "name": "Dragonkin",
+    "file": "images/playable-species-50-batch-5/dragonkin.png",
+    "sha256": "b9ffa65c1e68d1cb8fd3dc81d31cadb0f0e8aedb736a1892d600799d260c81df",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-bf3e12be9d5568dc760ac9a3",
+    "version": "846eb742cd3b7d001f08e805",
+    "name": "Shadow Fey",
+    "file": "images/playable-species-50-batch-5/shadow-fey.png",
+    "sha256": "c20da0d6926feccaea21dd1773928ceb5149a9ba097a054c4ef0e1180c17518b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-f59ddf918f384a1b7e1d1011",
+    "version": "caadb527b5dab76cff473437",
+    "name": "Dust Goblin",
+    "file": "images/playable-species-50-batch-5/dust-goblin.png",
+    "sha256": "23be846694ff9d045564c01d8d1ab787dbecb1fd3c2dd5d3e3f0af2634df31bb",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-3af64828986d341e23ffa46b",
+    "version": "c497e71629ae0ce75cc18ea8",
+    "name": "Sahuagin",
+    "file": "images/playable-species-50-batch-5/sahuagin.png",
+    "sha256": "6ed5b44e5e9ac6054c50346d03e305502bf6af916ae8ddf28ec54ab26e7c7868",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-eb8d4d14683827dc4e81ad4c",
+    "version": "470bc0f0c5212ac4379d178d",
+    "name": "Hagborn",
+    "file": "images/playable-species-50-batch-5/hagborn.png",
+    "sha256": "dca4171a468024e265ae8723f4ef60c3afe5dfa2d24c22f700178004ab1ab981",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "species-bfcbebd4d00d3eb324d84565",
+    "version": "a847a26d763a44c48c69650f",
+    "name": "Samsaran",
+    "file": "images/playable-species-50-batch-5/samsaran.png",
+    "sha256": "e30451876394e0db84de4d57a7de3ef2ebfbbb0cc8004ff0f5871827cd19f805",
+    "credit": "OpenAI ImageGen"
+  }
+]

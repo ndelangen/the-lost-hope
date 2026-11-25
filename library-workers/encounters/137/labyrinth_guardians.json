@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Avatar of Nidhogg",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 249–250",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Avatar of Nidhogg",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Gargantuan Dragon (Void)",
+      "ac": 21,
+      "hp": 280,
+      "speed": "50 ft., burrow 30 ft., climb 30 ft.",
+      "cr": "18",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "Nidhogg sends this wingless dragon of roots and clay in his place when a favored cultist needs his aid.",
+      "otherStatistics": "Natural armor. Perception 23. Stealth 18. Immune to necrotic damage. Darkvision 120 ft. Keensense 60 ft. Speaks Common, Draconic, and Void Speech.",
+      "sections": {
+        "Ability modifiers": "STR +13 · DEX +2 · CON +11 · INT +5 · WIS +13 · CHA +10",
+        "Traits": "Aura of Hopelessness. A hostile creature that begins its turn within 15 ft. makes a DC 19 Wisdom save. On a failure, until its next turn starts, it rolls attacks with disadvantage and gains half as many HP from healing effects. The avatar can exempt any creature without spending an action.\nLegendary Resistance (3/day). The avatar can turn its failed save into a success.",
+        "Actions": "Multiattack. Make three Bite attacks, substituting a Tail attack for any of them.\nBite. Melee weapon attack, +13 to hit, reach 15 ft., one target. Hit 16 (2d8 + 7) piercing and 18 (4d8) necrotic damage.\nTail. Melee weapon attack, +13 to hit, reach 20 ft., one target. Hit 14 (2d6 + 7) bludgeoning and 18 (4d8) necrotic damage. A Large or smaller target is Grappled (escape DC 19) and stays Restrained until the grapple ends. The avatar can hold up to four Medium or smaller creatures or two Large creatures.\nDecaying Breath (Recharge 5–6). Creatures in a 30-ft. cone make a DC 19 Constitution save, taking 54 (12d8) necrotic damage on a failure or half on a success. Plant creatures and magical plants make this save with disadvantage. Use the maximum damage roll against them. Ordinary nonmagical plants in the cone die.",
+        "Legendary Actions": "The avatar has three legendary actions per round. It chooses one option at the end of another creature’s turn and refreshes its pool at the start of its own.\nDetect. Pinpoint every creature and trap within 30 ft. automatically.\nMove. Move up to half speed without provoking opportunity attacks.\nVoid Wave (2 actions). Each creature within 15 ft. makes a DC 19 Constitution save. On a failure it takes 18 (4d8) necrotic damage and falls Prone. Void taint imposes disadvantage on the save. If a tainted creature fails, it takes another 4 (1d8) necrotic damage per level of void taint. The avatar heals HP equal to that extra damage, then the creature loses all levels of void taint.",
+        "Encounter reference": "Void taint measures exposure to the Void. Use the target’s current levels for Void Wave. See Chapter 7 for the optional taint rules.",
+        "Printed source": "Chapter 8, pp. 249–250"
+      }
+    }
+  },
+  {
+    "name": "Bone Knight",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 251",
+    "notes": "The Black Flag undead remains separate from the Eberron Bone Knight.",
+    "statBlock": {
+      "name": "Bone Knight",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 18,
+      "hp": 57,
+      "speed": "30 ft.",
+      "cr": "3",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "The disgraced soldier’s soul is bound into a carved bone head mounted on a suit of plate.",
+      "otherStatistics": "Plate armor. Perception 13. Stealth 8 in plate or 13 without it. Immune to necrotic and poison damage, exhaustion, Frightened, and Poisoned. Darkvision 60 ft. Speaks the languages it knew in life.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +1 · CON +2 · INT +0 · WIS +1 · CHA +2",
+        "Traits": "Disgraced Rejuvenation. If destroyed before it is redeemed, the knight revives at full HP in 1d4 days within 10 ft. of where it fell.\nNecrotic Weapons. Add 2d6 necrotic damage to any weapon hit. The listed attacks already include it.\nUndead Nature. The knight needs no air, food, drink, or sleep.\nUndead Resilience. The knight ignores poison damage, exhaustion, and the Poisoned condition.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Bone Spur.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) with two hands, plus 7 (2d6) necrotic damage either way.\nBone Spur. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. Hit 8 (2d4 + 3) piercing and 7 (2d6) necrotic damage. A Large or smaller target must make a DC 13 Constitution save or move at half speed through the end of its next turn.",
+        "Bonus Actions": "Guard. Friendly creatures within 5 ft. of the knight gain +2 AC while it holds this stance. The stance ends when its next turn starts, it dies, or it becomes Incapacitated.",
+        "Printed source": "Chapter 8, p. 251"
+      }
+    }
+  },
+  {
+    "name": "Dymaxion",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 264",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Dymaxion",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Celestial",
+      "ac": 16,
+      "hp": 138,
+      "speed": "30 ft., fly 50 ft. (hover)",
+      "cr": "8",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A living chariot that scoops allies off the battlefield and breathes holy fire.",
+      "otherStatistics": "Natural armor. Perception 17. Stealth 14. Resistant to poison, psychic, radiant, and nonmagical bludgeoning, piercing, and slashing damage, plus Grappled, Poisoned, Prone, and Restrained. Immune to exhaustion. Keensense 30 ft. Darkvision 120 ft. Speaks Common and Celestial.",
+      "sections": {
+        "Ability modifiers": "STR +6 · DEX +4 · CON +2 · INT +1 · WIS +7 · CHA +6",
+        "Traits": "Celestial Resilience. Resists radiant damage and bludgeoning, piercing, and slashing damage from nonmagical attacks.\nImmortal Nature. The dymaxion needs no food, drink, or sleep.\nImmutable Form. Spells and effects cannot change the dymaxion’s form.\nLiving Chariot. Its 10-ft.-square carriage holds up to four Medium creatures or one Large creature. Riders have half cover from attacks and effects originating outside the dymaxion’s space, and advantage on checks and saves against forced movement. They can see out, act on their own initiative, share its space, and travel with it. A creature within 5 ft. can board an available spot by spending 5 ft. of movement. A rider can spend 5 ft. of movement to step into a free space within 5 ft. of the dymaxion. A rider exits automatically if forced movement takes it out of the dymaxion’s occupied spaces.\nMagic Resistance. The dymaxion rolls saves against spells and other magical effects with advantage.\nMagic Weapons. Its weapon attacks count as magical.",
+        "Actions": "Multiattack. Make three attacks using Spiked Wheel or Spit Holy Fire.\nSpiked Wheel. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 19 (3d8 + 6) piercing damage.\nSpit Holy Fire. Ranged weapon attack, +7 to hit, range 30/120 ft., one target. Hit 11 (2d6 + 4) fire and 7 (2d6) radiant damage.\nHoly Fire Breath (Recharge 5–6). Creatures in a 30-ft. cone make a DC 15 Dexterity save. A failed save deals 17 (5d6) fire and 17 (5d6) radiant damage. A success halves both.",
+        "Bonus Actions": "Rallying Rush. Move up to 30 ft. in a straight line through the spaces of creatures no larger than Large. The first entry into each eligible enemy’s space forces a DC 15 Strength save. A failure pushes it up to 5 ft. away from the dymaxion. The first entry into each eligible ally’s space lets that ally spend its reaction to board if there is room. Opportunity attacks against the dymaxion during this move have disadvantage.",
+        "Printed source": "Chapter 8, p. 264"
+      }
+    }
+  },
+  {
+    "name": "Forge Servitor",
+    "decision": "separate",
+    "pages": "Chapter 8, p. 266",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Forge Servitor",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Construct",
+      "ac": 15,
+      "hp": 34,
+      "speed": "30 ft.",
+      "cr": "1",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A repair automaton from the Cold Forge that wields a saw and a pneumatic nail gun.",
+      "otherStatistics": "Natural armor. Perception 15. Stealth 11. Immune to poison and psychic damage, exhaustion, Charmed, Frightened, Paralyzed, Petrified, Poisoned, and Prone. Darkvision 60 ft. Understands Dwarvish and has no speech.",
+      "sections": {
+        "Ability modifiers": "STR +3 · DEX +1 · CON +1 · INT -2 · WIS +1 · CHA -2",
+        "Traits": "Construct Nature. The servitor needs no air, food, drink, or sleep.\nConstruct Resilience. The servitor ignores poison and psychic damage, exhaustion, and the Charmed, Frightened, Paralyzed, Petrified, and Poisoned conditions.\nMechanic. The servitor and each ally within 5 ft. of it have advantage on ability checks using tools.",
+        "Actions": "Multiattack. Make two attacks using Saw or Pneumatic Nail. Repair can replace one attack.\nSaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage.\nPneumatic Nail. Ranged weapon attack, +5 to hit, range 20/60 ft., one target. Hit 6 (1d6 + 3) piercing damage.\nRepair. Another Construct or an object within 5 ft. regains 5 (2d4) HP, up to half its maximum HP.",
+        "Bonus Actions": "Spark Spray (19 HP or fewer). Creatures within 10 ft. make a DC 13 Dexterity save or take 7 (2d6) lightning damage.",
+        "Printed source": "Chapter 8, p. 266"
+      }
+    }
+  },
+  {
+    "name": "Frost Knight",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 266–267",
+    "notes": "Warhammer uses slashing damage in the printed stat block.",
+    "statBlock": {
+      "name": "Frost Knight",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Medium Undead",
+      "ac": 18,
+      "hp": 98,
+      "speed": "30 ft., fly 30 ft.",
+      "cr": "5",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A warrior who froze before completing its mission. Burning every piece of its remains can put it to rest.",
+      "otherStatistics": "Plate armor. Perception 14. Stealth 7 in plate or 12 without it. Resistant to cold and necrotic damage. Immune to poison damage, exhaustion, and Poisoned. Darkvision 60 ft. Speaks the languages it knew in life.",
+      "sections": {
+        "Ability modifiers": "STR +7 · DEX +2 · CON +4 · INT +0 · WIS +1 · CHA +3",
+        "Traits": "Disgraced Rejuvenation. If destroyed before it is redeemed, the knight revives at full HP in 1d4 days within 10 ft. of where it fell.\nUndead Nature. The knight needs no air, food, drink, or sleep.\nUndead Resilience. The knight ignores poison damage, exhaustion, and the Poisoned condition.",
+        "Actions": "Multiattack. Make three Warhammer attacks or two Ice Splinter attacks.\nWarhammer. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 9 (1d10 + 4) slashing and 10 (3d6) cold damage.\nIce Splinter. Ranged spell attack, +6 to hit, range 60 ft., one target. Hit 8 (1d10 + 3) piercing damage. The target and any creature within 5 ft. of it then make a DC 15 Dexterity save. A failure deals 10 (3d6) cold damage.",
+        "Bonus Actions": "Cold Stare. A visible creature within 30 ft. makes a DC 15 Constitution save. On a failure, ice leaves it Restrained until the knight’s next turn starts or the target takes fire damage.",
+        "Printed source": "Chapter 8, pp. 266–267"
+      }
+    }
+  },
+  {
+    "name": "Giant of the Falling Mountain",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 268–269",
+    "notes": "Distinct Labyrinth Worldbook stat block.",
+    "statBlock": {
+      "name": "Giant of the Falling Mountain",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Huge Giant",
+      "ac": 16,
+      "hp": 126,
+      "speed": "30 ft., fly 40 ft. (hover)",
+      "cr": "6",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A giant scholar of the Ancients who rides a bound skimmer and fights with recovered force weapons.",
+      "otherStatistics": "Scale mail. Perception 13. Stealth 12. Resistant to Stunned. Vulnerable to Prone. No special senses. Speaks Common, Giant, and Qoradan.",
+      "sections": {
+        "Ability modifiers": "STR +7 · DEX +2 · CON +7 · INT +4 · WIS +0 · CHA -1",
+        "Traits": "Air Skimmer. A magic disk bound to the giant provides its fly speed. Treat the disk as part of its body. Individual targeting or separation requires the giant’s permission. The disk becomes ordinary metal on the giant’s death.\nFlyby. Flying out of an enemy’s reach provokes no opportunity attacks.\nGiant Attributes. The giant resists Stunned and is vulnerable to Prone.",
+        "Actions": "Multiattack. Make two Morningstar attacks or three Force Bolt attacks. A creature hit by both Morningstar attacks or by two Force Bolts can be pushed up to 10 ft. away from the giant.\nMorningstar. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit 17 (3d8 + 4) piercing and 5 (1d10) force damage.\nForce Bolt. Ranged spell attack, +7 to hit, range 60 ft., one target. Hit 15 (2d10 + 4) force damage.\nEnergy Lance (Recharge 5–6). Creatures in a 60-ft.-long, 10-ft.-wide line make a DC 15 Dexterity save against 27 (5d10) force damage, taking half on a success.",
+        "Bonus Actions": "Air Skimmer. While separated from the bound disk, the giant can call it back by magic.",
+        "Reactions": "Arcane Fumes. After a creature moves into a space within 5 ft. of the giant or attacks it while within 5 ft., the skimmer can vent gas. Creatures within 5 ft. make a DC 15 Constitution save or are Poisoned through the end of their next turn.",
+        "Printed source": "Chapter 8, pp. 268–269"
+      }
+    }
+  },
+  {
+    "name": "Qoradan Tomb Guardian",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 274–275",
+    "notes": "The printed Overdrive entry and exit thresholds are 46 HP or fewer and above 51 HP.",
+    "statBlock": {
+      "name": "Qoradan Tomb Guardian",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Construct",
+      "ac": 16,
+      "hp": 82,
+      "speed": "50 ft.",
+      "cr": "6",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "An orichalcum wheel with blades that races through the Ancients’ ruins to drive off intruders.",
+      "otherStatistics": "Natural armor. Perception 16. Stealth 13. Resistant to acid, fire, and bludgeoning, piercing, and slashing damage from nonmagical attacks. Immune to poison and psychic damage, exhaustion, Blinded, Charmed, Frightened, Paralyzed, Petrified, and Poisoned. Keensense 120 ft. Understands the languages of the Ancients and Machine Speech and has no speech.",
+      "sections": {
+        "Ability modifiers": "STR +7 · DEX +3 · CON +4 · INT -3 · WIS +6 · CHA -3",
+        "Traits": "Construct Nature. The guardian needs no air, food, drink, or sleep.\nConstruct Resilience. The guardian ignores poison and psychic damage, exhaustion, and the Charmed, Frightened, Paralyzed, Petrified, and Poisoned conditions.\nWheelie Maneuverable. Moving out of an enemy’s reach provokes no opportunity attacks. The guardian can fit through spaces large enough for a Small or Medium creature without squeezing.\nOverdrive (46 HP or fewer). Once it hits this threshold, the guardian gains advantage on melee weapon attacks and its attackers gain advantage against it. This lasts until it has more than 51 HP.",
+        "Actions": "Multiattack. Make four Whirling Blade attacks or two Flame Jet attacks.\nWhirling Blade. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 10 (1d12 + 4) slashing damage.\nFlame Jet. Ranged weapon attack, +6 to hit, range 20/60 ft., one target. Hit 21 (4d8 + 3) fire damage.\nAcid Spray (Recharge 5–6). Creatures in a 30-ft. cone make a DC 15 Dexterity save against 31 (7d8) acid damage, taking half on a success.",
+        "Bonus Actions": "Freewheeler. Take the Dash action.",
+        "Reactions": "Stunning Jolt. When a visible creature within 5 ft. hits the guardian with a melee attack, force it to make a DC 15 Constitution save. On a failure the attacker is Stunned through the end of its next turn. Each time it takes damage while Stunned this way, it can repeat the save and end the effect on a success.",
+        "Printed source": "Chapter 8, pp. 274–275"
+      }
+    }
+  },
+  {
+    "name": "Sphinx, Tunnel",
+    "decision": "separate",
+    "pages": "Chapter 8, pp. 279–280",
+    "notes": "The book lists both Monstrosity Resilience and explicit immunity to Frightened. The immunity applies.",
+    "statBlock": {
+      "name": "Sphinx, Tunnel",
+      "publication": "Labyrinth Worldbook",
+      "edition": "Black Flag Roleplaying",
+      "classification": "Large Monstrosity (Outsider)",
+      "ac": 17,
+      "hp": 172,
+      "speed": "40 ft., fly 60 ft.",
+      "cr": "10",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "description": "A prophetic guardian of Labyrinth ruins and archives. It honors those who answer its riddles.",
+      "otherStatistics": "Natural armor. Perception 18. Stealth 12. Resistant to exhaustion. Immune to psychic damage, Charmed, and Frightened. Truesight 120 ft. Speaks Common, Qoradan, and Sphinx. Telepathy 120 ft.",
+      "sections": {
+        "Ability modifiers": "STR +8 · DEX +2 · CON +3 · INT +8 · WIS +8 · CHA +4",
+        "Traits": "Inscrutable. Effects that sense emotion or read thoughts fail against the sphinx, as do divination spells it chooses to refuse. Wisdom (Insight) checks about its intent or honesty have disadvantage.\nMagical Claws. A Claw attack counts as magical and deals an extra 2d8 force damage on a hit, already included below.\nMonstrosity Resilience. The sphinx resists exhaustion and has Frightened immunity under its listed defenses.\nTruth Speaker. The sphinx must speak truthfully to anyone who solves one of its riddles or passes one of its tests.",
+        "Actions": "Multiattack. Make one Ram and two Claw attacks, or three Arcane Bolt attacks. Spellcasting can replace one of these attacks.\nClaw. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing and 9 (2d8) force damage.\nRam. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 13 (2d8 + 4) bludgeoning and 9 (2d8) force damage.\nArcane Bolt. Ranged spell attack, +8 to hit, range 120 ft., one target. Hit 21 (5d6 + 4) force damage.\nSpellcasting. Wisdom, save DC 16, no components. At will: detect magic, mage hand, minor illusion. 3/day each: dispel magic, divination (as an action), suggestion, tongues. 1/day each: banishment, geas (as an action).",
+        "Bonus Actions": "Dire Warning. One creature within 60 ft. that can hear the sphinx makes a DC 16 Wisdom save. On a failure, the target is Frightened for 1 minute and has speed 0 while Frightened this way. A failure by 5 or more also leaves it Paralyzed for the same duration. It repeats the save at the end of its turns, ending the effect on a success.",
+        "Legendary Actions": "The sphinx has three legendary actions per round. It chooses one option at the end of another creature’s turn and refreshes its pool at the start of its own.\nTeleport. Move magically up to 120 ft. to a visible unoccupied space, taking worn and carried equipment along.\nCast a Spell (2 actions). Use Spellcasting.\nLacerating Swipe (2 actions). Creatures in a 15-ft. cone make a DC 16 Dexterity save. A failure deals 7 (2d6) slashing damage and opens a bleeding wound. The wound costs the target 3 (1d6) HP at the start of each of its turns. Magical healing closes it, as does an action with a successful DC 16 Wisdom (Medicine) check by any creature.",
+        "Printed source": "Chapter 8, pp. 279–280"
+      }
+    }
+  }
+]

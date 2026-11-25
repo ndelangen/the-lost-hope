@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Giant Squid",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Huge Animal (Aquatic), always neutral",
+    "ac": 17,
+    "hp": 72,
+    "hitDice": "12d8 + 18",
+    "speed": "Swim 80 ft. (16 squares)",
+    "cr": "9",
+    "initiative": 3,
+    "abilities": {
+      "Str": {
+        "score": 26,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "AC 17 (−2 size, +3 Dex, +6 natural). Touch AC 11. Flat-footed AC 14. Base attack +9. Grapple +29. Space 15 ft. Reach 15 ft., or 30 ft. with a tentacle. Fort +9, Ref +11, Will +5. Low-light vision.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An immense rust-brown squid with a long pointed mantle, paired fins, eight short arms, and two longer club-tipped feeding tentacles.",
+    "habitats": [
+      "Temperate aquatic"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, SQUID, GIANT. https://www.d20srd.org/srd/monsters/squidGiant.htm",
+      "Attack": "Tentacle +15 melee, 1d6 + 8 damage.",
+      "Full attack": "Ten tentacles +15 melee, each for 1d6 + 8, and bite +10 melee for 2d8 + 4.",
+      "Special attacks": "Improved Grab (Ex). A tentacle hit against an opponent of any size can start a grapple as a free action and without provoking an attack of opportunity. A successful grapple check establishes a hold and allows constriction. The squid’s +4 racial grapple bonus is accounted for in the printed +29.\nConstrict (Ex). Deal 1d6 + 8 damage on a successful grapple check.\nSundering tentacles. A foe can sunder a tentacle as though it were a weapon. Each tentacle has 10 HP. If that limb holds a target, the squid usually makes its attack of opportunity with a different limb. Severing a tentacle deals 5 damage to the squid. It typically retreats after losing five tentacles. A severed limb regrows in 1d10 + 10 days.",
+      "Special qualities": "Low-light vision. Aquatic subtype. Breathes water and has no amphibious quality. Normal swimming needs no Swim check.\nInk Cloud (Ex). Once per minute as a free action, release a 20-ft. cube of ink. The cloud blocks all vision within it and gives total concealment.\nJet (Ex). Once per round, use a full-round action to jet backward 320 ft. in a straight line without provoking attacks of opportunity.",
+      "Skills and feats": "Listen +10, Spot +11, Swim +16. Gain a +8 racial bonus on Swim checks for special actions or hazards. You may take 10 while distracted or endangered and run while swimming in a straight line.\nFeats: Alertness, Diehard, Endurance, Toughness twice.",
+      "Encounter ecology": "Temperate aquatic. Solitary. Advancement is 13–18 HD (Huge) or 19–36 HD (Gargantuan). Level adjustment and treasure are absent. The source describes a predator whose body can exceed 20 ft. in length."
+    }
+  },
+  {
+    "name": "Constrictor Snake",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Medium Animal, always neutral",
+    "ac": 15,
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "speed": "20 ft. (4 squares), climb 20 ft., swim 20 ft.",
+    "cr": "2",
+    "initiative": 3,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "AC 15 (+3 Dex, +2 natural). Touch AC 13. Flat-footed AC 12. Base attack +2. Grapple +5. Space and reach 5 ft. Fort +4, Ref +6, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A muscular olive-brown snake with dark irregular saddle markings, a blunt head, and a thick coiled body.",
+    "habitats": [
+      "Warm forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, SNAKE, Constrictor Snake. https://www.d20srd.org/srd/monsters/snake.htm#constrictorSnake",
+      "Attack": "Bite +5 melee for 1d3 + 4 damage.",
+      "Full attack": "One bite +5 melee for 1d3 + 4 damage.",
+      "Special attacks": "Improved Grab (Ex). After a bite, the snake can try to grapple as a free action without provoking an attack of opportunity. Apply the usual Improved Grab size limit, one category smaller or less. A successful grapple check starts the hold and allows constriction.\nConstrict (Ex). Deal 1d3 + 4 damage on a successful grapple check.",
+      "Special qualities": "Scent is the special quality listed in the creature’s table. The SRD Animal introduction lists low-light vision as a general Animal trait unless an entry says otherwise.",
+      "Skills and feats": "Balance +11, Climb +14, Hide +10, Listen +7, Spot +7, Swim +11. Feats: Alertness, Toughness.\nSnake racial bonuses are +4 on Hide, Listen and Spot and +8 on Balance and Climb. It may take 10 on Climb even if rushed or threatened, and uses the higher of its Str and Dex modifiers for that check. Gain a +8 racial bonus on Swim checks for special actions or hazards. You may take 10 while distracted or endangered and run while swimming in a straight line.",
+      "Encounter ecology": "Warm forests. Solitary. Advancement is 4–5 HD (Medium) or 6–10 HD (Large). No treasure or level adjustment. It often retreats when confronted and hunts prey it can fit within its coils."
+    }
+  },
+  {
+    "name": "Dire Tiger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Large Animal, always neutral",
+    "ac": 17,
+    "hp": 120,
+    "hitDice": "16d8 + 48",
+    "speed": "40 ft. (8 squares)",
+    "cr": "8",
+    "initiative": 2,
+    "abilities": {
+      "Str": {
+        "score": 27,
+        "modifier": 8
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "AC 17 (−1 size, +2 Dex, +6 natural). Touch AC 11. Flat-footed AC 15. Base attack +12. Grapple +24. Space 10 ft. Reach 5 ft. Fort +13, Ref +12, Will +11.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A massive orange-and-black striped cat with a broad head and shoulders, long tail, and heavy forepaws.",
+    "habitats": [
+      "Warm forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersDi-Do.rtf, DIRE ANIMAL, DIRE TIGER. https://www.d20srd.org/srd/monsters/direTiger.htm",
+      "Attack": "Claw +20 melee for 2d4 + 8 damage.",
+      "Full attack": "Two claws +20 melee, each for 2d4 + 8, and bite +14 melee for 2d6 + 4.",
+      "Special attacks": "Improved Grab (Ex). A bite hit can start a grapple as a free action without provoking an attack of opportunity. Apply the usual size limit, one category smaller or less. A successful grapple check establishes the hold.\nPounce (Ex). After charging, the dire tiger can make a full attack including two rake attacks.\nRake (Ex). +18 melee for 2d4 + 4 damage per strike. A grapple rake normally requires starting the turn in the grapple. Pounce explicitly grants its two rakes as part of the charge.",
+      "Special qualities": "Low-light vision and scent.",
+      "Skills and feats": "Hide +7, Jump +14, Listen +6, Move Silently +11, Spot +7, Swim +10. Racial bonus +4 to Hide and Move Silently. The Hide racial bonus rises to +8 in tall grass or heavy undergrowth, for a total of +11. Feats: Alertness, Improved Natural Attack (claw), Improved Natural Attack (bite), Run, Stealthy, Weapon Focus (claw).",
+      "Encounter ecology": "Warm forests. Solitary or pair. No treasure or level adjustment. Advancement is 17–32 HD (Large) or 33–48 HD (Huge). It stalks prey before charging and can exceed 12 ft. in length."
+    }
+  },
+  {
+    "name": "Hawk",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Tiny Animal, always neutral",
+    "ac": 17,
+    "hp": 4,
+    "hitDice": "1d8",
+    "speed": "10 ft. (2 squares), fly 60 ft. (average)",
+    "cr": "1/3",
+    "initiative": 3,
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "AC 17 (+2 size, +3 Dex, +2 natural). Touch AC 15. Flat-footed AC 14. Base attack +0. Grapple −10. Space 2½ ft. Reach 0 ft. Fort +2, Ref +5, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small brown raptor with a hooked beak, streaked cream breast and yellow talons.",
+    "habitats": [
+      "Temperate forest"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, HAWK. https://www.d20srd.org/srd/monsters/hawk.htm",
+      "Attack": "Talons +5 melee for 1d4 − 2 damage. Both talons count as a single attack. A hit deals at least 1 damage under the general minimum damage rule.",
+      "Full attack": "One talons attack +5 melee for 1d4 − 2 damage.",
+      "Special qualities": "Low-light vision.",
+      "Skills and feats": "Listen +2, Spot +14. The hawk has a +8 racial bonus on Spot checks. Feat: Weapon Finesse.",
+      "Encounter ecology": "Temperate forests. Solitary or pair. No advancement, level adjustment, or treasure. Hawks are 1–2 ft. long, with wingspans up to 6 ft."
+    }
+  },
+  {
+    "name": "Octopus",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "classification": "Small Animal (Aquatic), always neutral",
+    "ac": 16,
+    "hp": 9,
+    "hitDice": "2d8",
+    "speed": "20 ft. (4 squares), swim 30 ft.",
+    "cr": "1",
+    "initiative": 3,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "AC 16 (+1 size, +3 Dex, +2 natural). Touch AC 14. Flat-footed AC 13. Base attack +1. Grapple +2 as printed. Space and reach 5 ft. Fort +3, Ref +6, Will +1.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A small russet octopus with a rounded mantle, mottled skin, and eight curling sucker-lined arms.",
+    "habitats": [
+      "Warm aquatic"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Revised v3.5 SRD. MonstersAnimals.rtf, OCTOPUS. https://www.d20srd.org/srd/monsters/octopus.htm",
+      "Attack": "Arms +5 melee, 0 damage.",
+      "Full attack": "Arms +5 melee, 0 damage, and bite +0 melee for 1d3 damage.",
+      "Special attacks": "Improved Grab (Ex). An arms hit against an opponent of any size can start a grapple as a free action without provoking an attack of opportunity. A successful grapple check establishes the hold and immediately deals bite damage.",
+      "Special qualities": "Low-light vision. Aquatic subtype. Breathes water and has no amphibious quality. Normal swimming needs no Swim check.\nInk Cloud (Ex). Once per minute as a free action, release a 10-ft. cube of ink. The cloud blocks all vision within it and gives total concealment.\nJet (Ex). Once per round as a full-round action, jet backward 200 ft. in a straight line without provoking attacks of opportunity.",
+      "Skills and feats": "Escape Artist +13, Hide +11, Listen +2, Spot +5, Swim +9. Feat: Weapon Finesse.\nColor changes give a +4 racial bonus to Hide. Its supple body gives a +10 racial bonus to Escape Artist. Gain a +8 racial bonus on Swim checks for special actions or hazards. You may take 10 while distracted or endangered and run while swimming in a straight line.",
+      "Encounter ecology": "Warm aquatic. Solitary. Advancement is 3–6 HD (Medium). No treasure or level adjustment. It lives on the bottom and usually flees when disturbed."
+    }
+  }
+]

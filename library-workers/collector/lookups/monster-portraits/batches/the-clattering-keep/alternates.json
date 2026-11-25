@@ -1,0 +1,24 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Sarcophagus Slime",
+    "publication": "The Clattering Keep",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/sarcophagus-slime/gray-ooze-mark-behm.webp",
+    "artist": "Related Gray Ooze art by Mark Behm · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "d09ea8d03bc0c57d97f2153b97cc0a72b7e4c90871791265571cd188edcff45d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Gray%20Oozes.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Unhatched",
+    "publication": "The Clattering Keep",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/unhatched/unhatched-karl-waller.jpg",
+    "artist": "Original Unhatched illustration by Karl Waller · Warlock Lair 1",
+    "kind": "illustration",
+    "sha256": "9d10d318b7517a33f6c27252017faab27973b1698b332d78aabd261cf2b6184a",
+    "reference": "https://koboldpress.com/kpstore/product/warlock-lair-1-the-clattering-keep/"
+  }
+]

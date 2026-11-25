@@ -1,0 +1,403 @@
+[
+  {
+    "name": "Victor Mordenheim",
+    "group": "Creatures",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 30,
+    "url": "https://fraternityofshadows.com/wiki/Dr._Victor_Mordenheim",
+    "facts": [
+      [
+        "Armor class",
+        "10"
+      ],
+      [
+        "Movement",
+        "12"
+      ],
+      [
+        "Hit dice",
+        "0"
+      ],
+      [
+        "Hit points",
+        "55"
+      ],
+      [
+        "THAC0",
+        "20"
+      ],
+      [
+        "Attacks per round",
+        "1"
+      ],
+      [
+        "Damage per attack",
+        "By weapon"
+      ],
+      [
+        "Magic resistance",
+        "None"
+      ],
+      [
+        "Alignment",
+        "Lawful evil"
+      ],
+      [
+        "Strength",
+        "10"
+      ],
+      [
+        "Dexterity",
+        "17"
+      ],
+      [
+        "Constitution",
+        "9"
+      ],
+      [
+        "Intelligence",
+        "18"
+      ],
+      [
+        "Wisdom",
+        "7"
+      ],
+      [
+        "Charisma",
+        "12"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Appearance",
+        "lines": [
+          "A lean, pale man who looks to be in his thirties, with prematurely grey hair, tired blue eyes and a faint scar on his forehead. He wears plain brown wool or a surgical gown."
+        ]
+      },
+      {
+        "title": "What brought him here",
+        "lines": [
+          "Victor raised Adam as a son and tried to teach him to live among people. Adam attacked Elise von Brandthofen, vanished with Eva, and left Victor to save what remained of his wife."
+        ]
+      },
+      {
+        "title": "What he wants",
+        "lines": [
+          "Victor wants a new body for Elise von Brandthofen. He will rob graves and comb hospices for suitable remains. Locals blame him for disappearances that Adam causes."
+        ]
+      },
+      {
+        "title": "Running Victor",
+        "lines": [
+          "He rarely starts a fight and has no weapon training. He can make one attack with whatever weapon he has. Its damage depends on the weapon."
+        ]
+      },
+      {
+        "title": "Shared curse",
+        "lines": [
+          "Victor cannot die while Adam lives. He shares Adam’s hit point total and can regrow from a surviving piece of his body.",
+          "Adam feels pain inflicted on Victor. If Victor’s body is completely destroyed, his spirit seeks a recently dead human man. The body takes on Victor’s appearance within a week."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Adam (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Adam"
+      },
+      {
+        "label": "Elise von Brandthofen (person)",
+        "url": "https://fraternityofshadows.com/wiki/Elise_Von_Brandthofen"
+      },
+      {
+        "label": "Eva (person)",
+        "url": "https://fraternityofshadows.com/wiki/Eva"
+      },
+      {
+        "label": "Schloss Mordenheim (location)",
+        "url": "https://fraternityofshadows.com/wiki/Schloss_Mordenheim"
+      },
+      {
+        "label": "Lamordia (location)",
+        "url": "https://fraternityofshadows.com/wiki/Lamordia"
+      },
+      {
+        "label": "Adam’s Wrath (AD&D adventure)",
+        "url": "https://www.drivethrurpg.com/product/17505/Adams-Wrath-2e"
+      }
+    ],
+    "description": "Victor Mordenheim is the Lamordian surgeon who built Adam. He works in Schloss Mordenheim, where his machines keep his injured wife Elise von Brandthofen alive.",
+    "status": "AD&D encounter profile"
+  },
+  {
+    "name": "Adam",
+    "group": "Creatures",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 29,
+    "url": "https://fraternityofshadows.com/wiki/Adam",
+    "facts": [
+      [
+        "Armor class",
+        "10"
+      ],
+      [
+        "Movement",
+        "15"
+      ],
+      [
+        "Hit dice",
+        "12"
+      ],
+      [
+        "Hit points",
+        "55"
+      ],
+      [
+        "THAC0",
+        "9"
+      ],
+      [
+        "Attacks per round",
+        "2"
+      ],
+      [
+        "Damage per attack",
+        "2d8"
+      ],
+      [
+        "Magic resistance",
+        "25%"
+      ],
+      [
+        "Alignment",
+        "Chaotic evil"
+      ],
+      [
+        "Type",
+        "Flesh golem"
+      ],
+      [
+        "Strength",
+        "20"
+      ],
+      [
+        "Dexterity",
+        "17"
+      ],
+      [
+        "Constitution",
+        "20"
+      ],
+      [
+        "Intelligence",
+        "16"
+      ],
+      [
+        "Wisdom",
+        "12"
+      ],
+      [
+        "Charisma",
+        "2"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "Shared curse",
+        "lines": [
+          "Adam feels wounds inflicted on Victor Mordenheim. He hates his creator and cannot bring himself to harm him."
+        ]
+      },
+      {
+        "title": "Combat",
+        "lines": [
+          "Mundane weapons do not hurt him. A weapon needs a +1 or better enchantment to hit.",
+          "Natural cold and electricity cannot harm him. Their magical equivalents deal half damage. Nondamaging spells restore 1 hit point per spell level when absorbed.",
+          "He has an 80% chance to hide in shadows, move silently, detect noise or climb walls. His speed halves while moving silently. He can feign being affected by a spell to escape or set up an ambush."
+        ]
+      },
+      {
+        "title": "Closing the borders",
+        "lines": [
+          "Adam can raise a blizzard to force anyone trying to leave Lamordia back into the domain."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Victor Mordenheim (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Dr._Victor_Mordenheim"
+      },
+      {
+        "label": "Lamordia (location)",
+        "url": "https://fraternityofshadows.com/wiki/Lamordia"
+      },
+      {
+        "label": "Isle of Agony (location)",
+        "url": "https://fraternityofshadows.com/wiki/Isle_of_Agony"
+      }
+    ],
+    "description": "Adam is a flesh golem built by Victor Mordenheim and the darklord of Lamordia. He keeps to the Isle of Agony and longs to be human.",
+    "status": "AD&D encounter profile"
+  },
+  {
+    "name": "Elise von Brandthofen",
+    "group": "People",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 30,
+    "url": "https://fraternityofshadows.com/wiki/Elise_Von_Brandthofen",
+    "facts": [],
+    "sections": [
+      {
+        "title": "At the table",
+        "lines": [
+          "When she briefly regained consciousness, she asked for Eva and begged Victor to end her suffering. Her fate gives the party a reason to investigate the laboratory."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Victor Mordenheim (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Dr._Victor_Mordenheim"
+      },
+      {
+        "label": "Eva (person)",
+        "url": "https://fraternityofshadows.com/wiki/Eva"
+      },
+      {
+        "label": "Schloss Mordenheim (location)",
+        "url": "https://fraternityofshadows.com/wiki/Schloss_Mordenheim"
+      }
+    ],
+    "description": "Victor Mordenheim’s wife and a fellow student of chemistry. Since Adam’s attack, she has survived through Victor’s machinery.",
+    "status": "AD&D setting reference"
+  },
+  {
+    "name": "Eva",
+    "group": "People",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 30,
+    "url": "https://fraternityofshadows.com/wiki/Eva",
+    "facts": [],
+    "sections": [],
+    "references": [
+      {
+        "label": "Adam (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Adam"
+      },
+      {
+        "label": "Victor Mordenheim (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Dr._Victor_Mordenheim"
+      },
+      {
+        "label": "Elise von Brandthofen (person)",
+        "url": "https://fraternityofshadows.com/wiki/Elise_Von_Brandthofen"
+      }
+    ],
+    "description": "An orphan taken in by Victor Mordenheim and Elise von Brandthofen. Adam disappeared with her after the attack in the manor.",
+    "status": "AD&D setting reference"
+  },
+  {
+    "name": "Lamordia",
+    "group": "Locations",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 29,
+    "url": "https://fraternityofshadows.com/wiki/Lamordia",
+    "facts": [],
+    "sections": [
+      {
+        "title": "Encounters",
+        "lines": [
+          "Wolves and bears favor the highlands. Escaped flesh golems are a danger around Schloss Mordenheim."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Adam (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Adam"
+      },
+      {
+        "label": "Victor Mordenheim (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Dr._Victor_Mordenheim"
+      },
+      {
+        "label": "Schloss Mordenheim (location)",
+        "url": "https://fraternityofshadows.com/wiki/Schloss_Mordenheim"
+      },
+      {
+        "label": "Isle of Agony (location)",
+        "url": "https://fraternityofshadows.com/wiki/Isle_of_Agony"
+      }
+    ],
+    "description": "A cold Ravenloft domain where science and craft command more respect than magic. Adam is its darklord, while Baron von Aubrecker governs its towns.",
+    "status": "AD&D setting reference"
+  },
+  {
+    "name": "Schloss Mordenheim",
+    "group": "Locations",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 29,
+    "url": "https://fraternityofshadows.com/wiki/Schloss_Mordenheim",
+    "facts": [],
+    "sections": [
+      {
+        "title": "At the table",
+        "lines": [
+          "The estate is falling into disrepair. Locals give it a wide berth, and small caves puncture the cliffs below it."
+        ]
+      }
+    ],
+    "references": [
+      {
+        "label": "Victor Mordenheim (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Dr._Victor_Mordenheim"
+      },
+      {
+        "label": "Elise von Brandthofen (person)",
+        "url": "https://fraternityofshadows.com/wiki/Elise_Von_Brandthofen"
+      },
+      {
+        "label": "Lamordia (location)",
+        "url": "https://fraternityofshadows.com/wiki/Lamordia"
+      }
+    ],
+    "description": "Victor Mordenheim’s family estate and laboratory. It overlooks the sea from a cliff north of Ludendorf.",
+    "status": "AD&D setting reference"
+  },
+  {
+    "name": "Isle of Agony",
+    "group": "Locations",
+    "source": "DoD",
+    "publication": "Domains of Dread",
+    "edition": "AD&D 2nd edition",
+    "page": 29,
+    "url": "https://fraternityofshadows.com/wiki/Isle_of_Agony",
+    "facts": [],
+    "sections": [],
+    "references": [
+      {
+        "label": "Adam (creature)",
+        "url": "https://fraternityofshadows.com/wiki/Adam"
+      },
+      {
+        "label": "Lamordia (location)",
+        "url": "https://fraternityofshadows.com/wiki/Lamordia"
+      }
+    ],
+    "description": "An island in Lamordia where Adam usually retreats to a cave.",
+    "status": "AD&D setting reference"
+  }
+]

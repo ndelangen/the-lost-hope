@@ -1,0 +1,20 @@
+{
+  "baseline": "d55c730d22080dc5dded47abbeaa248083ce59cf",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Catfolk"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of the Wild (2005)",
+  "racialTraitsAndOptionalPounceVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

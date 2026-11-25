@@ -1,0 +1,1052 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,1048 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Alligator",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "An aquatic reptile with a broad snout, gaping jaws, and a heavy tail.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 20,
++          "swim": 30
++        },
++        "habitats": ["Coastal", "Swamp", "Underwater"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "armorClassNote": "Natural armor"
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Hold Breath",
++            "effectNote": "It can hold its breath for 15 minutes."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to grappled."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "A hit grapples the target (escape DC 12). The target is restrained during the grapple, and the alligator cannot use Bite on another target."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "High Walk",
++            "effectNote": "It can Dash as a bonus action while it is out of the water or otherwise not swimming."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +2, DEX +0, CON +1, INT −4, WIS +0, CHA −5.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 215."
++      ]
++    },
++    {
++      "name": "Alligator Turtle",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A sturdy shelled reptile with a long flexible neck, a hooked beak and a wormlike tongue lure.",
++      "combat": {
++        "armorClass": 15,
++        "hitPoints": 12,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 20,
++          "swim": 30
++        },
++        "habitats": ["Coastal", "Swamp", "Underwater"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "slashing"
++              }
++            ],
++            "reach": 10
++          }
++        ],
++        "armorClassNote": "Natural armor"
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "False Appearance",
++            "effectNote": "While motionless underwater with its mouth open, it looks like a rock with a worm sticking out of it. The lure is its tongue."
++          },
++          {
++            "name": "Hold Breath",
++            "effectNote": "It can hold its breath for 1 hour."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to prone."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "A hit grapples the target (escape DC 12). The turtle cannot bite another target during that grapple."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Spiky Shell",
++            "effectNote": "When a visible attacker within 5 ft. hits the turtle, reduce the attack damage by 5 (2d4). The attacker takes 2 (1d4) piercing damage."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 11 and Stealth 13. Ability modifiers are STR +2, DEX +1, CON +1, INT −4, WIS +1, CHA −2.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 215."
++      ]
++    },
++    {
++      "name": "Baboon, Howler",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A stocky baboon that warns its troop with loud whooping calls.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 30,
++          "climb": 30
++        },
++        "habitats": ["Forest", "Hills"],
++        "attacks": [
++          {
++            "name": "Fist",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "bludgeoning"
++              }
++            ],
++            "reach": 5
++          },
++          {
++            "name": "Rock",
++            "mode": "ranged",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "bludgeoning"
++              }
++            ],
++            "range": [20, 60]
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Pack Tactics",
++            "effectNote": "The baboon has advantage against a target within 5 ft. of one of the baboon’s allies who is not incapacitated."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to deafened."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Challenging Howl",
++            "effectNote": "One creature it sees within 30 ft. makes a DC 12 CHA save. On a failure, the baboon chooses whether the target’s next attack before the baboon’s next turn has disadvantage or has to target the baboon."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 12. Ability modifiers are STR +2, DEX +2, CON +2, INT −2, WIS +1, CHA −2.",
++        "No languages.",
++        "The Rock attack prints 20/60 ft. as “reach,” which the profile displays as a ranged attack’s normal and long range.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 232."
++      ]
++    },
++    {
++      "name": "Bat, Strossen",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A black vampire bat with a white streak across its eyes.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Small",
++        "speed": {
++          "walk": 5,
++          "fly": 40
++        },
++        "habitats": ["Forest", "Underground"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d4 + 3",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "senses": ["Keensense 60 ft."]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Echolocation",
++            "effectNote": "It loses keensense while deafened."
++          },
++          {
++            "name": "Heightened Hearing",
++            "effectNote": "Use Perception 17 when it relies on hearing."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to blinded."
++          },
++          {
++            "name": "Condition vulnerability",
++            "effectNote": "The block lists vulnerability to deafened."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "On a hit it attaches, moves with the target for free and cannot attack while attached. The target loses 5 (1d4 + 3) HP to blood loss at the start of each bat turn. The bat can spend 5 ft. of movement to detach, and does so after draining 15 HP or if the target dies. Any creature, including the target, can use an action to remove it."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Haunting Screech",
++            "effectNote": "Choose one creature within 10 ft. If it can hear the bat, it must pass a DC 13 WIS save or be frightened until the end of its next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 12 and Stealth 15. Ability modifiers are STR −2, DEX +3, CON +0, INT −5, WIS +0, CHA −4.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 239."
++      ]
++    },
++    {
++      "name": "Beetle, Giant Bombardier",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A dome-backed beetle that can spray a scalding liquid to fend off predators.",
++      "combat": {
++        "armorClass": 14,
++        "hitPoints": 12,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 30
++        },
++        "habitats": ["Forest"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "slashing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "armorClassNote": "Natural armor",
++        "senses": ["Keensense 30 ft."],
++        "resistances": ["fire"]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Forest Camouflage",
++            "effectNote": "Use Stealth 17 in forest terrain."
++          },
++          {
++            "name": "Condition vulnerability",
++            "effectNote": "The block lists vulnerability to frightened."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Spray (Recharge 5–6)",
++            "effectNote": "One creature it can see within 15 ft. makes a DC 12 DEX save. Failure deals 5 (2d4) fire damage. Success halves that damage."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Defensive Spray (7 HP or fewer)",
++            "effectNote": "When the beetle takes damage while at 7 HP or fewer, Spray recharges and the beetle can use it immediately."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +0, DEX +2, CON +2, INT −4, WIS +0, CHA −4.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 226."
++      ]
++    },
++    {
++      "name": "Bull",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A bulky, four-legged bovine with a heavy head and sharp horns.",
++      "combat": {
++        "armorClass": 11,
++        "hitPoints": 25,
++        "challenge": "1/2",
++        "creatureType": "Beast",
++        "size": "Large",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Farmland", "Grassland"],
++        "attacks": [
++          {
++            "name": "Gore",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 10,
++                "dice": "2d6 + 3",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          },
++          {
++            "name": "Hooves",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 8,
++                "dice": "2d4 + 3",
++                "type": "bludgeoning"
++              }
++            ],
++            "reach": 5
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Charge",
++            "effectNote": "Move at least 20 ft. in a straight line toward the target and hit it with Gore on the same turn. Add 3 (1d6) piercing damage. A creature hit this way must pass a DC 13 STR save or fall prone."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 9 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +3, INT −4, WIS −1, CHA −2.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 219."
++      ]
++    },
++    {
++      "name": "Forest Falcon",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A broad-winged raptor adapted to agile flight through dense canopy.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 25,
++        "challenge": "1/2",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 20,
++          "fly": 60
++        },
++        "habitats": ["Forest"],
++        "attacks": [
++          {
++            "name": "Beak",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 8,
++                "dice": "2d4 + 3",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          }
++        ]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Falcon Dive",
++            "effectNote": "Dive straight toward the target for at least 20 ft. while flying. Gain advantage on the next Beak attack against it this turn. A hit adds 2 (1d4) piercing damage."
++          },
++          {
++            "name": "Heightened Sight",
++            "effectNote": "Use Perception 19 when relying on sight."
++          },
++          {
++            "name": "Condition vulnerability",
++            "effectNote": "The block lists vulnerability to blinded."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 14 and Stealth 13. Ability modifiers are STR −2, DEX +3, CON +1, INT −4, WIS +2, CHA −3.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 226."
++      ]
++    },
++    {
++      "name": "Grove Bear",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A nimble, compact black-bear relative with a blond snout.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 40,
++          "climb": 30
++        },
++        "habitats": ["Forest"],
++        "attacks": [
++          {
++            "name": "Claws",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d4 + 3",
++                "type": "slashing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "armorClassNote": "Natural armor"
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Grappler",
++            "effectNote": "It has advantage on attacks against creatures it is grappling."
++          },
++          {
++            "name": "Heightened Smell",
++            "effectNote": "Use Perception 18 when relying on smell."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to grappled."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Claws",
++            "effectNote": "A hit grapples the target (escape DC 13). It cannot use Claws on another target while the grapple persists."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Pin",
++            "effectNote": "One creature the bear is grappling must pass a DC 13 STR save or be restrained until the grapple ends."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 11. Ability modifiers are STR +3, DEX +1, CON +2, INT −4, WIS +1, CHA −2.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 229."
++      ]
++    },
++    {
++      "name": "Leech, Giant",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "An elongated, legless leech that swims with a vertical undulation.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Small",
++        "speed": {
++          "walk": 15,
++          "swim": 30
++        },
++        "habitats": ["Coastal", "Forest", "Swamp"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d4 + 3",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "senses": ["Tremorsense 30 ft."]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Amphibious",
++            "effectNote": "It breathes air and water."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "On a hit it attaches, moves with the target for free and cannot attack while attached. The target loses 5 (1d4 + 3) HP to blood loss at the start of each leech turn. The leech can spend 5 ft. of movement to detach, and does so after draining 10 HP or if the target dies. Any creature, including the target, can use an action to remove it."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 15. Ability modifiers are STR −2, DEX +3, CON +0, INT −5, WIS +0, CHA −4.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 227."
++      ]
++    },
++    {
++      "name": "Lizard, Giant Frilled",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A large, warm-climate lizard with a jagged neck frill that it spreads to intimidate intruders.",
++      "combat": {
++        "armorClass": 16,
++        "hitPoints": 114,
++        "challenge": "5",
++        "creatureType": "Beast",
++        "size": "Large",
++        "speed": {
++          "walk": 30,
++          "climb": 30
++        },
++        "habitats": ["Coastal", "Forest"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 7,
++            "damage": [
++              {
++                "average": 13,
++                "dice": "2d8 + 4",
++                "type": "piercing"
++              },
++              {
++                "average": 10,
++                "dice": "4d4",
++                "type": "poison"
++              }
++            ],
++            "reach": 5,
++            "damageCombination": "combined"
++          },
++          {
++            "name": "Tail",
++            "mode": "melee",
++            "hitBonus": 7,
++            "damage": [
++              {
++                "average": 15,
++                "dice": "2d10 + 4",
++                "type": "bludgeoning"
++              }
++            ],
++            "reach": 10
++          }
++        ],
++        "armorClassNote": "Natural armor",
++        "senses": ["Darkvision 60 ft."],
++        "resistances": ["poison"]
++      },
++      "mechanics": {
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "It makes one Bite and one Tail attack."
++          },
++          {
++            "name": "Tail",
++            "effectNote": "A Large or smaller creature hit by the tail must pass a DC 15 STR save or fall prone."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Intimidating Dash",
++            "effectNote": "Move up to 20 ft. toward one creature it sees within 60 ft. without provoking opportunity attacks. If it comes within 30 ft. of the target, the target makes a DC 15 CHA save or becomes frightened until the start of the lizard’s next turn. The save has disadvantage if the lizard comes within 5 ft."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Detach Tail (63 HP or fewer)",
++            "effectNote": "When it takes damage at 63 HP or fewer, reduce the damage by 9 (2d8) and immediately move up to its speed without provoking opportunity attacks. It cannot make Tail attacks again until this reaction recharges after a short or long rest."
++          }
++        ],
++        "Trait": [
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to poisoned."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 14 and Stealth 14. Ability modifiers are STR +2, DEX +4, CON +2, INT −4, WIS +1, CHA +0.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 227."
++      ]
++    },
++    {
++      "name": "Margreve Hound",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A muscular hunting hound bred in the Margreve and touched by the forest’s magic.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 14,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 40
++        },
++        "habitats": ["Farmland", "Forest"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 5,
++                "dice": "1d6 + 2",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "armorClassNote": "Natural armor"
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Fearsome Mien",
++            "effectNote": "A Fey attacking the hound must pass a DC 12 WIS save or make that attack with disadvantage."
++          },
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Use Perception 18 when relying on smell. The rules text names smell only."
++          },
++          {
++            "name": "Magic Resistance",
++            "effectNote": "It has advantage on saves against spells and other magical effects."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to charmed, frightened."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Bite",
++            "effectNote": "A hit grapples the target (escape DC 12). It cannot bite another target while the grapple persists."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Warning Bark",
++            "effectNote": "Choose one visible creature within 30 ft. It makes a DC 12 WIS save or cannot move closer to the hound until the start of the hound’s next turn. Fey have disadvantage on this save."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 13. Ability modifiers are STR +2, DEX +1, CON +1, INT −4, WIS +1, CHA −2.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 235."
++      ]
++    },
++    {
++      "name": "Margreve Stag",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A large antlered deer native to the Margreve Forest.",
++      "combat": {
++        "armorClass": 12,
++        "hitPoints": 25,
++        "challenge": "1/2",
++        "creatureType": "Beast",
++        "size": "Large",
++        "speed": {
++          "walk": 50
++        },
++        "habitats": ["Forest"],
++        "attacks": [
++          {
++            "name": "Ram",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "2d4 + 2",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          },
++          {
++            "name": "Kick",
++            "mode": "melee",
++            "hitBonus": 4,
++            "damage": [
++              {
++                "average": 9,
++                "dice": "2d6 + 2",
++                "type": "bludgeoning"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "languages": ["Understands Sylvan without speaking it"]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Charge",
++            "effectNote": "Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. Add 2 (1d4) damage. A creature hit this way must pass a DC 12 STR save or fall prone."
++          },
++          {
++            "name": "Heightened Hearing",
++            "effectNote": "Use Perception 15 when relying on hearing."
++          },
++          {
++            "name": "Standing Leap",
++            "effectNote": "It can jump up to 20 ft. horizontally or 10 ft. vertically, with or without a run-up."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to exhaustion."
++          },
++          {
++            "name": "Condition vulnerability",
++            "effectNote": "The block lists vulnerability to frightened."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Skittish",
++            "effectNote": "It takes the Dash or Disengage action."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Will of the Margreve",
++            "effectNote": "When it fails a saving throw, it can reroll and must accept the new result."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 10 and Stealth 12. Ability modifiers are STR +2, DEX +2, CON +1, INT −3, WIS +0, CHA −1.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), pp. 235–236."
++      ]
++    },
++    {
++      "name": "Mongoose, Giant",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A long-bodied mongoose that dodges strikes with quick, dance-like movements.",
++      "combat": {
++        "armorClass": 13,
++        "hitPoints": 12,
++        "challenge": "1/4",
++        "creatureType": "Beast",
++        "size": "Medium",
++        "speed": {
++          "walk": 30
++        },
++        "habitats": ["Forest", "Grassland"],
++        "attacks": [
++          {
++            "name": "Bite",
++            "mode": "melee",
++            "hitBonus": 5,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d6 + 3",
++                "type": "piercing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "senses": ["Darkvision 60 ft."],
++        "resistances": ["poison"]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Use Perception 17 when relying on hearing or smell."
++          },
++          {
++            "name": "Condition resistance",
++            "effectNote": "The block lists resistance to poisoned."
++          }
++        ],
++        "Reaction": [
++          {
++            "name": "Evasive Roll",
++            "effectNote": "If it sees the attacker, add 2 AC against one attack that would hit it."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 12 and Stealth 15. Ability modifiers are STR +0, DEX +3, CON +2, INT −4, WIS +2, CHA −2.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), pp. 227–228."
++      ]
++    },
++    {
++      "name": "Owl, Great Gray",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A gray owl with a broad round facial disk and a quiet wingbeat.",
++      "combat": {
++        "armorClass": 14,
++        "hitPoints": 36,
++        "challenge": "1",
++        "creatureType": "Beast",
++        "size": "Small",
++        "speed": {
++          "walk": 5,
++          "fly": 60
++        },
++        "habitats": ["Forest", "Hills"],
++        "attacks": [
++          {
++            "name": "Talon",
++            "mode": "melee",
++            "hitBonus": 6,
++            "damage": [
++              {
++                "average": 7,
++                "dice": "1d6 + 4",
++                "type": "slashing"
++              }
++            ],
++            "reach": 5
++          }
++        ],
++        "senses": ["Darkvision 120 ft."]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Flyby",
++            "effectNote": "Flying out of an enemy’s reach does not provoke its opportunity attacks."
++          },
++          {
++            "name": "Heightened Hearing and Sight",
++            "effectNote": "Use Perception 19 when relying on hearing or sight."
++          },
++          {
++            "name": "Quiet Wings",
++            "effectNote": "Use Stealth 21 while flying."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Multiattack",
++            "effectNote": "It makes two Talon attacks."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Intense Gaze",
++            "effectNote": "Choose one visible creature within 30 ft. On a failed DC 14 WIS save, the owl has advantage on its next attack against that creature before the start of the owl’s next turn."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 14 and Stealth 16. Ability modifiers are STR −3, DEX +4, CON +0, INT −4, WIS +2, CHA −2.",
++        "No languages.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 229."
++      ]
++    },
++    {
++      "name": "Tsuchinoko",
++      "kind": "beast",
++      "publication": "The Old Margreve",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A compact venomous snake that can bite its tail and roll like a hoop.",
++      "combat": {
++        "armorClass": 14,
++        "hitPoints": 22,
++        "challenge": "1/2",
++        "creatureType": "Beast",
++        "size": "Tiny",
++        "speed": {
++          "walk": 30
++        },
++        "habitats": ["Farmland", "Forest", "Grassland"],
++        "attacks": [
++          {
++            "name": "Leaping Bite",
++            "mode": "melee",
++            "hitBonus": 6,
++            "damage": [
++              {
++                "average": 6,
++                "dice": "1d4 + 4",
++                "type": "piercing"
++              },
++              {
++                "average": 2,
++                "dice": "1d4",
++                "type": "poison"
++              }
++            ],
++            "reach": 10,
++            "damageCombination": "combined"
++          }
++        ],
++        "senses": ["Keensense 10 ft."],
++        "immunities": ["poison"],
++        "conditionImmunities": ["poisoned"]
++      },
++      "mechanics": {
++        "Trait": [
++          {
++            "name": "Heightened Smell",
++            "effectNote": "Use Perception 18 when relying on smell."
++          },
++          {
++            "name": "Plant Camouflage",
++            "effectNote": "Use Stealth 21 amid enough plant growth to hide."
++          },
++          {
++            "name": "Standing Leap",
++            "effectNote": "It can jump up to 15 ft. horizontally or 5 ft. vertically, with or without a run-up."
++          }
++        ],
++        "Action": [
++          {
++            "name": "Leaping Bite",
++            "effectNote": "It has advantage on this attack if it moves at least 10 ft. before attacking."
++          }
++        ],
++        "Bonus action": [
++          {
++            "name": "Hoop Dash",
++            "effectNote": "It takes the Dash action after biting its own tail to form a hoop. Its next attack before its next turn has disadvantage."
++          }
++        ]
++      },
++      "notes": [
++        "Black Flag fixed values are Perception 13 and Stealth 16. Ability modifiers are STR −3, DEX +4, CON +1, INT −4, WIS +1, CHA −3.",
++        "No languages.",
++        "It hunts small prey and seeks out alcohol, which sometimes brings it to roadside inns.",
++        "Source: Kobold Press, The Old Margreve (Tales of the Valiant), p. 241."
++      ]
+     }
+   ],
+   "species": [

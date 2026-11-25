@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "amphisbaena",
+    "file": "portraits/amphisbaena.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "66433e363a8622d407759f29537ac955de2a5b5b62931a4d2a7d74c6767d478a",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "artGroup": "giant-crayfish",
+    "file": "portraits/giant-crayfish.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "afb3e7d796c0ad594d681bc237aa1d195b5e6b1f97b7fa02c1126de303bc4e34",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Chuul",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+    "url": "",
+    "page": "p. 32",
+    "creatureType": "Aberration",
+    "heading": "Chuul Traits",
+    "digitalRevision": "v2",
+    "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+    "sourceDistinctions": "The extracted reading order places the Pincer continuation above the Chuul heading. It belongs to the adjacent Chuul trait column. The traits give AC 14 + Dexterity, even though the design notes propose a smaller natural armor bonus.",
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "author": "https://rpgbot.net/dnd5/dmsguild/",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Cloaker",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+    "url": "",
+    "page": "p. 33",
+    "creatureType": "Aberration",
+    "heading": "Cloaker Traits",
+    "digitalRevision": "v2",
+    "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+    "sourceDistinctions": "The player traits omit Moan, Phantasms and Sunlight Sensitivity, which the design notes discuss. The build uses the trait list and includes the p. 7 restriction on natural weapons as monk bonus strikes. The odd-point damage split is a table ruling.",
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "author": "https://rpgbot.net/dnd5/dmsguild/",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Cockatrice",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+    "url": "",
+    "page": "p. 34",
+    "creatureType": "Monstrosity",
+    "heading": "Cockatrice Traits",
+    "digitalRevision": "v2",
+    "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+    "sourceDistinctions": "The trait mixes fatigue and exhaustion terminology. The build uses effective 2014 exhaustion levels and applies the explicit petrified outcome at six failures.",
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "author": "https://rpgbot.net/dnd5/dmsguild/",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Couatl",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Tyler Kamstra · Dungeon Masters Guild",
+    "url": "",
+    "page": "p. 35",
+    "creatureType": "Celestial",
+    "heading": "Couatl Traits",
+    "digitalRevision": "v2",
+    "provenance": "Tyler Kamstra, Monstrous Races, DMs Guild, 2018 publication. This player conversion uses the 2014 fifth-edition rules. Source consulted is the v2 text.",
+    "sourceDistinctions": "Divine Mandate supplies an ordinary focus. The build applies the 2014 hand rule for somatic components and selects actions that need none.",
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "author": "https://rpgbot.net/dnd5/dmsguild/",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "spellcasting": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  }
+]

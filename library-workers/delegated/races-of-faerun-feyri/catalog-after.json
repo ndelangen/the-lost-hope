@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Fey’ri",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "monsterSearch": false,
+    "global": true,
+    "version": {
+      "key": "9c361708c73ec479de395b0a",
+      "publication": "Races of Faerûn (2003)",
+      "edition": "3.5 edition",
+      "source": "https://books.google.com/books?id=yjoCAAAACAAJ",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Native)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider (Native). +2 Dexterity, +2 Intelligence, −2 Constitution. Land speed 30 ft. Darkvision 60 ft. and low-light vision.",
+            "The natural winged form has a 40-ft. fly speed with poor maneuverability. Core flight requires a light load or less.",
+            "Immune to magic sleep. +2 racial bonus on Will saves against enchantment spells and effects.",
+            "Elven Blood makes the fey’ri count as an elf for elf-specific effects and items.",
+            "+2 racial bonus on Bluff, Hide, Listen, Search, and Spot.",
+            "Change Shape (Su). At will as a standard action, assume a humanoid form. The new form supplies its size and movement modes. Retain the original type, ability scores, Hit Dice, hit points, saves, and spellcasting. Gain +10 on Disguise when using the ability for a disguise.",
+            "The 2003 player rules use at-will alter self (Sp) for an indefinite humanoid form. This 3.5 adaptation uses Change Shape from the 2004 conversion of the earlier monster. True seeing reveals the natural form, and Change Shape cannot assume a templated form.",
+            "Choose four Demonic Abilities total. Options are charm person, clairaudience/clairvoyance, darkness, detect thoughts, dimension door, enervation, suggestion, DR 10/magic, fire resistance 10, +2 racial on saves against electricity, or +2 racial on saves against poison.",
+            "Each selected spell-like ability is usable once per day, with caster level equal to character level and Charisma-based save DCs.",
+            "Choose at most one of DR 10/magic, dimension door, and enervation. Taking one raises LA from +2 to +3. The original 2003 DR option was 10/+1. The player entry has no racial Hit Dice.",
+            "Common, Elven, and Abyssal are the languages named in the book. The language section also describes learning Gnoll, Goblin, Sylvan, and Draconic. Favored class Sorcerer."
+          ]
+        },
+        {
+          "title": "Original NPC · Vaelis Ashthread",
+          "lines": [
+            "Canopy scout and Rogue.",
+            "Motive. Find a route across the gap before the checkpoint changes shift.",
+            "Hook. Vaelis waits on the far side of the checkpoint in a human disguise.",
+            "Fey’ri canopy scout, Rogue 1 · Provisional CR 2. ECL 3 (1 class HD, LA +2). · Medium Outsider (Native)",
+            "AC 16 · HP 7 (1d6+1) · Speed 30 ft.; fly 40 ft. (poor) in natural winged form"
+          ]
+        },
+        {
+          "title": "Original NPC · Nyrel Duskmantle",
+          "lines": [
+            "Courtyard courier and Sorcerer.",
+            "Motive. Get the message to the far side of the gate before it seals.",
+            "Hook. Nyrel can cross the gate once the party confirms a clear landing.",
+            "Fey’ri courtyard courier, Sorcerer 1 · Provisional CR 2. ECL 4 (1 class HD, LA +3). · Medium Outsider (Native)",
+            "AC 13 · HP 5 (1d4+1) · Speed 30 ft.; fly 40 ft. (poor) in natural winged form"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Vaelis Ashthread": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Vaelis Ashthread",
+              "group": "Fey’ri",
+              "publication": "Fey’ri canopy scout, Rogue 1",
+              "local": {
+                "entry": "npc-877fbef465a36cae62828aef",
+                "version": "70d493b21efc87bcf3de112d"
+              }
+            }
+          }
+        ],
+        "Original NPC · Nyrel Duskmantle": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Nyrel Duskmantle",
+              "group": "Fey’ri",
+              "publication": "Fey’ri courtyard courier, Sorcerer 1",
+              "local": {
+                "entry": "npc-2d4b0dc2f29cf1f1872a7d92",
+                "version": "983419d3c25c097108dfb3ac"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Fey’ri": true,
+      "Fey'ri": true,
+      "feyri change shape": true,
+      "feyri dimension door": true,
+      "feyri canopy scout": true,
+      "feyri courtyard courier": true
+    },
+    "hash": "4df60351af8720538e8b051365ec1c62fe60a8dd6e867c1dd2fe62f733146688",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Faerûn (2003)",
+    "defaultVersionKey": "9c361708c73ec479de395b0a",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

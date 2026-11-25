@@ -1,0 +1,496 @@
+[
+  {
+    "name": "Arcane Amalgam",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large swarm of Tiny Oozes, unaligned",
+    "ac": 14,
+    "hp": 95,
+    "speed": "20 ft., climb 20 ft., swim 20 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throw Con +7. Resists acid, bludgeoning, piercing, and slashing damage. Immune to poison damage and to Blinded, Charmed, Dazed, Deafened, Exhaustion, Flanked, Frightened, Grappled, Paralyzed, Poisoned, Prone, Restrained, and Stunned. Blindsight 120 ft., blind beyond that range, passive Perception 11. No languages.",
+    "hitDice": "10d10 + 40",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Antimagic Lethargy. In an Antimagic Field its speed is halved and it cannot take reactions. When targeted by Dispel Magic, it must pass a Wisdom save against the caster’s spell save DC or lose its reactions for 1 minute.\nArcane Tracker. Coming within 30 ft. of a creature or object affected by magic lets it track that target unerringly for 24 hours.\nExplosive Enhancement. Hitting the swarm with a mundane melee weapon charges the weapon for 1 minute, giving it a cumulative +1 bonus to damage rolls. At +3 the weapon explodes and is destroyed, dealing 10 (3d6) force damage to its wielder.\nFalse Appearance. While motionless it passes for a puddle of muck.\nSwarm. It can share space with a creature and fit through a 1-inch opening without squeezing. It cannot regain hit points or gain temporary hit points.",
+      "Actions": "Multiattack. Make two Bite attacks.\nBite. Melee weapon attack, +6 to hit, reach 0 ft., one target. Hit 14 (4d6) acid damage, reduced to 7 (2d6) when the swarm is at half its hit points or below.\nWild Surge (recharge 5–6). Every creature within 10 ft. makes a DC 15 Dexterity save for half of 22 (4d10) damage. Roll a d6 separately for each creature to determine the damage type: 1 acid, 2 cold, 3 fire, 4 force, 5 necrotic, 6 poison.",
+      "Reactions": "Spell Reflection. On taking damage from a spell, make every creature within 10 ft. attempt a DC 15 Dexterity save. Failure deals 11 (2d10) damage of one type the triggering spell dealt to the swarm. The swarm picks the type if there were several.",
+      "Flanked (MCDM)": "When using optional flanking rules, this immunity prevents enemies from flanking it from any positions."
+    }
+  },
+  {
+    "name": "Deep Dreamer",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Plant (Fungus), typically neutral",
+    "ac": 17,
+    "hp": 178,
+    "speed": "0 ft., fly 20 ft. (hover)",
+    "cr": "13",
+    "xp": 10000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 16,
+        "modifier": 3
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throw Int +10. Deception +8, Insight +6, Persuasion +8. Immune to psychic damage and to Charmed, Frightened, and Prone. Darkvision 120 ft., passive Perception 11. Speaks Deep Speech and Undercommon. Telepathy 120 ft.",
+    "hitDice": "21d10 + 63",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Psionic Shroud. Divination spells and effects that read its thoughts or sense its emotions cannot affect it.",
+      "Actions": "Multiattack. Make two Tendrils attacks and use Dream Spores if available.\nTendrils. Melee power attack, +10 to hit, reach 10 ft., one target. Hit 12 (2d6 + 5) slashing plus 22 (4d10) psychic damage. If the dreamer has Charmed the target, it heals for half the psychic damage dealt.\nDream Spores (5th-order power, recharge 5–6). Each creature within 60 ft. makes a DC 18 Intelligence save. On failure the dreamer Charms it for 1 minute. On its turn the creature must use its movement to approach within 10 ft. of the dreamer by the safest route. Whenever it takes damage, it can repeat the save and end the effect on itself on a success.",
+      "Reactions": "Rouse Dreamer. When a creature attacks the dreamer, the dreamer can redirect the attack to a creature it has Charmed that is within range of the attack.",
+      "Psionic Powers (MCDM)": "Powers are supernatural and have no components. Antimagic Field, Counterspell, and Dispel Magic affect spells or magic and do not stop powers. A creature with a melee power attack can use it for an opportunity attack."
+    }
+  },
+  {
+    "name": "Fossil Cryptic",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Elemental (Earth), typically neutral",
+    "ac": 16,
+    "hp": 127,
+    "speed": "40 ft., burrow 20 ft.",
+    "cr": "7",
+    "xp": 2900,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +7 and Con +7. Resists bludgeoning, piercing, and slashing damage from mundane attacks. Immune to poison damage and to Charmed, Dazed, Frightened, Paralyzed, Petrified, Poisoned, and Prone. Blindsight 90 ft., passive Perception 11. Speaks Primordial.",
+    "hitDice": "15d8 + 60",
+    "sections": {
+      "Role": "Skirmisher",
+      "Traits": "Churning Trunk. The cryptic can pass through a Prone creature’s space without provoking opportunity attacks from Prone creatures. The first time in a turn it crosses a Prone enemy’s space, that enemy takes 7 (1d6 + 4) bludgeoning damage.",
+      "Actions": "Multiattack. Make two Slam attacks and use Stone Bone Storm.\nSlam. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) bludgeoning damage.\nStone Bone Storm. Each creature in a 30-ft.-long, 5-ft.-wide line from the cryptic makes a DC 15 Strength save. Failure deals 18 (4d8) bludgeoning damage and knocks it Prone. Success halves the damage and prevents the fall. Then the cryptic reforms in an unoccupied space within the line.\nShatterstone (recharge 6). Burrow up to half its speed. If within 5 ft. of the surface at the end of this movement, the cryptic can breach it. Each other creature within 20 ft. then makes a DC 15 Dexterity save for half of 36 (8d8) bludgeoning damage.",
+      "Bonus Actions": "Stoneshift. Choose one creature or object touching the ground within 30 ft. A failed DC 15 Dexterity save lets the cryptic move it horizontally up to 15 ft. Objects automatically fail.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics."
+    }
+  },
+  {
+    "name": "Gibbering Mouther (MCDM)",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Aberration, typically chaotic neutral",
+    "ac": 11,
+    "hp": 60,
+    "speed": "10 ft., fly 10 ft. (hover), swim 10 ft.",
+    "cr": "2",
+    "xp": 450,
+    "proficiencyBonus": 2,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throw Con +5. Immune to Charmed, Frightened, and Prone. Darkvision 60 ft., passive Perception 10. Speaks every language and understands none.",
+    "hitDice": "8d8 + 24",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Immutable Form. Powers, spells, and other effects cannot change its form.\nPrimordial Influence. A Dazed enemy that starts its turn within 20 ft. makes a DC 13 Wisdom save. On failure, the GM chooses a strange physical alteration that leaves the creature’s game statistics intact. The creature repeats the save after each long rest. On further failures, the GM worsens the alteration or adds another. A 4th-order or higher Cure Ailment, Greater Restoration, or a similar supernatural effect reverses the alterations. After failing three saves following the initial alteration, the creature becomes a gibbering mouther under the GM’s control. Only Wish can restore it after that.\nViscous Vicinity. The area within 20 ft. is difficult terrain for other creatures.",
+      "Actions": "Multiattack. Make two Reality Rend attacks. One can be replaced by Pull.\nReality Rend. Melee power attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) psychic damage. The target must pass a DC 13 Wisdom save or become Dazed until the start of the mouther’s next turn.\nPull. Choose up to three visible creatures within 60 ft. Each that fails a DC 13 Strength save is pulled up to 30 ft. directly toward the mouther.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses just one of moving, taking an action, or taking a bonus action. If it becomes Dazed during that turn, the turn ends. It can still use extra actions granted by effects such as Haste or Action Surge. Cure Ailment, Lesser Restoration, or Greater Restoration can clear the condition.",
+      "Psionic Powers (MCDM)": "Powers are supernatural and have no components. Antimagic Field, Counterspell, and Dispel Magic affect spells or magic and do not stop powers. A creature with a melee power attack can use it for an opportunity attack."
+    }
+  },
+  {
+    "name": "Lacuna",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Fiend, typically chaotic evil",
+    "ac": 15,
+    "hp": 195,
+    "speed": "0 ft.",
+    "cr": "15",
+    "xp": 13000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Cha": {
+        "score": 24,
+        "modifier": 7
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Dex +5, Wis +8, and Cha +12. Arcana +9, Deception +12, Insight +8, and Persuasion +12. Immune to Charmed, Dazed, Exhaustion, Frightened, Grappled, Paralyzed, Petrified, Poisoned, Prone, Restrained, and Stunned. Truesight 60 ft., passive Perception 13. Speaks Abyssal, Common, and Infernal.",
+    "hitDice": "26d8 + 78",
+    "sections": {
+      "Role": "Skirmisher",
+      "Traits": "Avoidance. When an effect offers a save for half damage, a successful save prevents all damage and a failed save halves it.\nFalse Appearance. A motionless lacuna passes for an ordinary statue.\nFiend Between. It has no walking speed and gains no benefit from speed bonuses.\nSupernatural Resistance. It has advantage on saving throws against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make three Grief-Eater attacks and use Infuse Sadness if available.\nGrief-Eater. Melee or ranged spell attack, +12 to hit, reach 5 ft. or range 20 ft., one creature. Hit 29 (4d10 + 7) psychic damage and reduce the target’s speed by 10 ft. until the end of its next turn.\nInfuse Sadness (1/day). Every enemy the lacuna can see within 30 ft. makes a DC 20 Wisdom save. Failure makes attacks against that enemy have advantage for up to 1 minute. The enemy can end the effect by passing the save at the end of its turn.",
+      "Bonus Actions": "Slip Between. Teleport up to 60 ft. to a visible, unoccupied space.",
+      "Reactions": "Slip Away. If a creature within 60 ft. targets the lacuna with an attack, teleport up to 60 ft. to a visible, unoccupied space. If the teleport makes the lacuna an invalid target, the attacker must choose a new target or the attack misses."
+    }
+  },
+  {
+    "name": "Olothec",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Aberration, typically chaotic evil",
+    "ac": 18,
+    "hp": 170,
+    "speed": "30 ft., fly 60 ft. (hover), swim 60 ft.",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 18,
+        "modifier": 4
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Con +7, Int +9, Wis +6, and Cha +8. History +9, Insight +10, Intimidation +8, and Perception +10. Immune to Charmed, Flanked, Frightened, and Prone. Blindsight 60 ft., darkvision 120 ft., passive Perception 20. Speaks Common, Deep Speech, and Undercommon. Telepathy 120 ft.",
+    "hitDice": "20d10 + 60",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Amphibious. The olothec breathes air and water.\nImmutable Form. Powers, spells, and other effects cannot change its form.\nSupernatural Resistance. It has advantage on saving throws against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make six Devolving Tentacle attacks and use Piscine Transformation.\nDevolving Tentacle. Melee weapon attack, +9 to hit, reach 20 ft., one target. Hit 12 (2d6 + 5) piercing damage. The first time a creature is hit by this attack on a turn, it must succeed on a DC 17 Constitution save or be slimed. While slimed it subtracts 1d4 from each attack roll and ability check. After each of its turns, the penalty die steps up from d4 to d6, d8, d10, then d12. A successful repeat save at the end of its turn ends the effect, as do Cure Ailment and Lesser Restoration.\nPiscine Transformation (3rd-order power). Choose a visible Humanoid within 60 ft. On a failed DC 17 Wisdom save, change one part of its body. A fish head prevents speech. Fins in place of legs limit walking speed to 10 ft. if it was higher and give a 30-ft. swim speed. A fish torso lets the target breathe only water and hold its breath for 1 hour. If it gains the torso out of water, it starts suffocating. A 4th-order or higher Cure Ailment or Greater Restoration ends a transformation. With all three changes at once, the target permanently becomes a fishlike hybrid. Only Wish or similar magic can restore it then.",
+      "Bonus Actions": "Jaunt (3rd-order power). Teleport 30 ft. to a visible, unoccupied space.",
+      "Lair Actions": "In its lair, take one action from the list on initiative count 20 after any ties. Use a different option from the previous round.\nBaleful Teleport. Choose up to two visible creatures within 60 ft. Each that fails a DC 15 Charisma save teleports up to 60 ft. to a visible, unoccupied space of the olothec’s choice.\nPsychic Shock. Choose up to two creatures within 30 ft. slimed by Devolving Tentacle. Each takes 9 (2d8) psychic damage. The olothec heals for the total damage dealt.\nSlime Eruption. Choose up to three creatures within 120 ft. On a failed DC 15 Constitution save, the target is Poisoned until the end of its next turn.",
+      "Slime Servant Template": "After 1 continuous minute slimed by Devolving Tentacle, the slime ends and the creature loses its memories and becomes an NPC loyal to the olothec. It keeps its statistics and gains amphibious breathing and a swim speed at least equal to its walking speed. It cannot be Charmed or Frightened. The olothec can use its senses and speak through it if it can speak. Only Wish restores its memories and original state.",
+      "Psionic Powers (MCDM)": "Powers are supernatural and have no components. Antimagic Field, Counterspell, and Dispel Magic affect spells or magic and do not stop powers. A creature with a melee power attack can use it for an opportunity attack.",
+      "Flanked (MCDM)": "When using optional flanking rules, this immunity prevents enemies from flanking it from any positions."
+    }
+  },
+  {
+    "name": "Voiceless Talker Graywarper",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Medium Aberration, typically lawful evil",
+    "ac": 15,
+    "hp": 12,
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 225,
+    "proficiencyBonus": 3,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 120 ft., passive Perception 12. Speaks Deep Speech and Undercommon. Telepathy 120 ft.",
+    "sections": {
+      "Role": "Minion",
+      "Traits": "Psionic Nexus. A non-minion voiceless talker within 30 ft. can use telepathy or manifest a power as though in the graywarper’s space.",
+      "Actions": "Phase Chant (group attack). Melee or ranged power attack, +7 to hit, reach 5 ft. or range 60 ft., one target. Hit 4 psychic damage per attacker. If three or more graywarpers took part and the target is a creature, the target makes a Charisma save with DC 11 + the number of attackers. On failure, it becomes translucent and immaterial until the end of its next turn and deals half damage with weapon attacks and unarmed strikes.",
+      "Psionic Powers (MCDM)": "Powers are supernatural and have no components. Antimagic Field, Counterspell, and Dispel Magic affect spells or magic and do not stop powers. A creature with a melee power attack can use it for an opportunity attack."
+    },
+    "sharedRules": [
+      "MCDM minion rules"
+    ]
+  },
+  {
+    "name": "Servok Builder",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Construct, unaligned",
+    "ac": 19,
+    "hp": 216,
+    "speed": "20 ft.",
+    "cr": "12",
+    "xp": 8400,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Con": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +11 and Con +11. Athletics +11. Resists bludgeoning, piercing, and slashing damage from mundane attacks. Immune to poison and psychic damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 120 ft., passive Perception 9. Understands Dwarvish and cannot speak.",
+    "hitDice": "16d12 + 112",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Immutable Form. Powers, spells, and other effects cannot change its form.\nSiege Monster. It deals double damage to structures and objects.\nSupernatural Resistance. It has advantage on saving throws against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make two attacks in any combination of Wrecking Ball and Stone. It can also use Lay the Foundation if available.\nWrecking Ball. Melee weapon attack, +11 to hit, reach 15 ft., one target. Hit 26 (3d12 + 7) bludgeoning damage. Every enemy within 5 ft. of the target must pass a DC 19 Dexterity save or take 13 (2d12) bludgeoning damage.\nStone. Melee or ranged weapon attack, +11 to hit, reach 10 ft. or range 60/240 ft., one target. Hit 23 (3d10 + 7) bludgeoning damage. A Medium or smaller creature hit falls Prone.\nLay the Foundation (recharge 6). Cover a 20-ft. square of ground with wet concrete starting from a point within 5 ft. The area is difficult terrain for 1 hour as the concrete dries. A creature with Strength 20 or less that starts its turn there must pass a DC 19 Strength (Athletics) check or be Restrained until the start of its next turn.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics."
+    }
+  },
+  {
+    "name": "Servok Miner",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Large Construct, unaligned",
+    "ac": 18,
+    "hp": 168,
+    "speed": "20 ft., burrow 20 ft., climb 20 ft.",
+    "cr": "10",
+    "xp": 5900,
+    "proficiencyBonus": 4,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Con": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +10 and Con +9. Athletics +10. Resists bludgeoning, piercing, and slashing damage from mundane attacks. Immune to poison and psychic damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 120 ft., passive Perception 9. Understands Dwarvish and cannot speak.",
+    "hitDice": "16d10 + 80",
+    "sections": {
+      "Role": "Controller",
+      "Traits": "Immutable Form. Powers, spells, and other effects cannot change its form.\nSupernatural Resistance. It has advantage on saving throws against powers, spells, and other supernatural effects.\nTunneler. It can burrow through solid rock at half its burrowing speed, leaving a tunnel 5 ft. in diameter.",
+      "Actions": "Multiattack. Make two attacks in any combination of Drill Press and Pneumatic Pick.\nDrill Press. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 15 (2d8 + 6) piercing damage. If touching the ground, the target falls Prone and the drill Restrains it. The target takes 15 (2d8 + 6) piercing damage at the start of each of its turns while pinned. The miner cannot attack with Drill Press while pinning a target. The restraint ends if the miner moves, makes another Drill Press attack, or is destroyed. The target or a creature that can reach it can use an action to pull it free, dealing 15 (2d8 + 6) piercing damage to the target.\nPneumatic Pick. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 17 (2d10 + 6) piercing damage. Mundane armor worn by the target loses 1 AC permanently with each hit. Armor reduced to AC 10 is destroyed.\nUnload Rocks (recharge 6). Every creature in a 30-ft. cone makes a DC 18 Dexterity save. On failure it takes 44 (8d10) bludgeoning damage and is Blinded until the end of its next turn. Success halves the damage and prevents Blinded.",
+      "Bonus Actions": "Break Ground (recharge 6). Open a fissure in a line from the miner that is 30 ft. long, 5 ft. wide, and 30 ft. deep. Each Medium or smaller creature in the line makes a DC 18 Dexterity save. On failure it falls in, takes 10 (3d6) bludgeoning damage, and lands Prone. On success it is shunted 5 ft. to an unoccupied space. If none is available within 5 ft., it falls in anyway.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics."
+    }
+  },
+  {
+    "name": "Servok War Engine",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "classification": "Huge Construct, unaligned",
+    "ac": 20,
+    "hp": 270,
+    "speed": "20 ft.",
+    "cr": "16",
+    "xp": 15000,
+    "proficiencyBonus": 5,
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "abilities": {
+      "Str": {
+        "score": 29,
+        "modifier": 9
+      },
+      "Dex": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Con": {
+        "score": 24,
+        "modifier": 7
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 1,
+        "modifier": -5
+      }
+    },
+    "otherStatistics": "Natural armor. Saving throws Str +14 and Con +12. Athletics +14. Resists bludgeoning, piercing, and slashing damage from mundane attacks. Immune to poison and psychic damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Petrified, and Poisoned. Darkvision 120 ft., passive Perception 9. Understands Dwarvish and cannot speak.",
+    "hitDice": "20d12 + 140",
+    "sections": {
+      "Role": "Brute",
+      "Traits": "Immutable Form. Powers, spells, and other effects cannot change its form.\nSiege Monster. It deals double damage to structures and objects.\nSupernatural Resistance. It has advantage on saving throws against powers, spells, and other supernatural effects.",
+      "Actions": "Multiattack. Make two attacks in any combination of Blade Rake and Force Cannon.\nBlade Rake. Melee weapon attack, +14 to hit, reach 15 ft., one target. Hit 35 (4d12 + 9) slashing damage and pull the target up to 15 ft. toward the engine if it is Large or smaller.\nForce Cannon. Ranged spell attack, +12 to hit, range 400 ft., one target. Hit 33 (6d10) force damage and Daze the target until the end of its next turn.\nBurning Oil (recharge 6). Every creature in a 60-ft. cone makes a DC 20 Dexterity save. On failure it takes 52 (15d6) fire damage and is coated in burning oil. The oil deals 10 (3d6) fire damage at the start of each of the coated creature’s turns. A creature can use an action to clear the oil from itself or a creature it can reach. Success halves the initial damage and prevents the oil from sticking.",
+      "Bonus Actions": "Destructive Rollout. Move up to the engine’s speed in a straight line. It destroys mundane walls under 10 ft. thick and any unattended Medium or smaller mundane object in its path. It treats spaces occupied by other creatures as difficult terrain during this movement. A creature whose space it enters must pass a DC 20 Dexterity save or take 11 (2d10) bludgeoning damage and fall Prone.",
+      "Dazed (MCDM)": "On its turn, a Dazed creature chooses just one of moving, taking an action, or taking a bonus action. If it becomes Dazed during that turn, the turn ends. It can still use extra actions granted by effects such as Haste or Action Surge. Cure Ailment, Lesser Restoration, or Greater Restoration can clear the condition.",
+      "Mundane Attacks (MCDM)": "For these resistances, a mundane attack uses neither magic nor psionics."
+    }
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "name": "White Guard Drake",
+    "statBlock": {
+      "name": "White Guard Drake",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., burrow 20 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A squat, wingless guard drake created with white dragon scales. It bonds with the first creature that feeds it and can learn simple commands.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic but cannot speak.",
+        "Damage resistances": "Cold.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 158, Guard Drake and Chromatic Guard Drakes sidebar."
+      }
+    }
+  },
+  {
+    "name": "Wood Woad",
+    "statBlock": {
+      "name": "Wood Woad",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 198,
+      "classification": "Medium plant, lawful neutral",
+      "ac": 18,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 14,
+      "description": "A guardian grown from the sacrifice of a mortal life. It carries a club and shield of gnarled wood and takes nourishment by rooting itself in the soil.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 7,
+        "Perception": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor and shield.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Sylvan.",
+        "Damage vulnerabilities": "Fire.",
+        "Damage resistances": "Bludgeoning and piercing.",
+        "Condition immunities": "Charmed and frightened.",
+        "Traits": "Magic Club. The club counts as magical while in the woad's hand and deals an extra 7 (3d4) damage, already included in Club.\nPlant Camouflage. The woad has advantage on Dexterity (Stealth) checks where ample vegetation can conceal it.\nRegeneration. The woad regains 10 hit points at the start of its turn while touching the ground. Taking fire damage prevents this recovery at the start of its next turn. It dies only if it starts its turn with 0 hit points and fails to regenerate.\nTree Stride. Once on each of its turns, the woad can spend 10 ft. of movement to enter a living tree within 5 ft. of it and emerge in an unoccupied space within 5 ft. of another living tree it can see within 60 ft. Both trees must be Large or bigger.",
+        "Actions": "Multiattack. Make two Club attacks.\nClub. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 14 (4d4 + 4) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 198."
+      }
+    }
+  },
+  {
+    "name": "Xvart",
+    "statBlock": {
+      "name": "Xvart",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Small humanoid (xvart), chaotic evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 8,
+      "description": "A small, blue-skinned humanoid that looks to its pack for protection. Xvarts keep bats and rats as scouts, food and allies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Abyssal.",
+        "Traits": "Overbearing Pack. The xvart has advantage on Strength (Athletics) checks to shove a creature when at least one non-incapacitated ally is within 5 ft. of the target.\nRaxivort's Tongue. The xvart can communicate with bats, rats, giant bats and giant rats.",
+        "Bonus actions": "Low Cunning. The xvart can take the Disengage action as a bonus action on each of its turns.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 200."
+      }
+    }
+  },
+  {
+    "name": "Xvart Speaker",
+    "statBlock": {
+      "name": "Xvart Speaker",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Small humanoid (xvart), chaotic evil",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "2d6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 7
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 8,
+      "description": "Each xvart tribe has one speaker who leads it and can bargain in another language.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Abyssal and one other language, usually Common or Goblin.",
+        "Traits": "Overbearing Pack. The xvart has advantage on Strength (Athletics) checks to shove a creature when at least one non-incapacitated ally is within 5 ft. of the target.\nRaxivort's Tongue. The xvart can communicate with bats, rats, giant bats and giant rats.",
+        "Bonus actions": "Low Cunning. The xvart can take the Disengage action as a bonus action on each of its turns.",
+        "Actions": "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 200, Xvart stat block and Xvart Speakers sidebar."
+      }
+    }
+  },
+  {
+    "name": "Xvart Warlock of Raxivort",
+    "statBlock": {
+      "name": "Xvart Warlock of Raxivort",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 200,
+      "classification": "Small humanoid (xvart), chaotic evil",
+      "ac": 12,
+      "hp": 22,
+      "hitDice": "5d6 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "An xvart that struck a pact after stealing a treasure valuable enough to draw Raxivort's attention. It hunts for the next prize with a retinue of xvarts and giant rats.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Stealth": 3
+      },
+      "sections": {
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "Abyssal.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability. No material components.\nAt will. Detect Magic, Mage Armor (self only).",
+        "Spellcasting": "The xvart is a 3rd-level warlock spellcaster. Charisma is the spellcasting ability (spell save DC 11, +3 to hit with spell attacks). It recovers both slots when it finishes a short or long rest.\nCantrips (at will). Eldritch Blast, Mage Hand, Minor Illusion, Poison Spray, Prestidigitation.\n1st- and 2nd-level spells (two 2nd-level slots). Burning Hands, Expeditious Retreat, Invisibility, Scorching Ray.",
+        "Traits": "Raxivort's Blessing. The xvart gains 4 temporary hit points when it reduces an enemy to 0 hit points.\nRaxivort's Tongue. The xvart can communicate with bats, rats, giant bats and giant rats.",
+        "Bonus actions": "Low Cunning. The xvart can take the Disengage action as a bonus action on each of its turns.",
+        "Actions": "Scimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 200."
+      }
+    }
+  },
+  {
+    "name": "Yeth Hound",
+    "statBlock": {
+      "name": "Yeth Hound",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 201,
+      "classification": "Large fey, neutral evil",
+      "ac": 14,
+      "hp": 51,
+      "hitDice": "6d10 + 18",
+      "speed": "40 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A flying fey hound with a humanlike face and a bay that drives prey into the dark. Its pack hunts for a master and retreats to its den before dawn.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Common, Elvish and Sylvan but cannot speak.",
+        "Damage immunities": "Bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Condition immunities": "Charmed, exhaustion and frightened.",
+        "Traits": "Keen Hearing and Smell. The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nSunlight Banishment. Starting its turn in sunlight sends the hound to the Deep Ethereal. It stays there while sunlight reaches the spot it left. After sunset it reappears at that spot in the Border Ethereal. It and creatures on the Material Plane can see one another across the boundary but cannot affect one another.\nTelepathic Bond. When the hound and its master share a plane, the hound can magically relay what it senses and they can communicate telepathically.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) piercing damage and an additional 14 (4d6) psychic damage if the target is frightened.\nBaleful Baying. Each enemy that can hear the magical bay within 300 ft. must pass a DC 13 Wisdom save or be frightened through the end of the hound's next turn. The effect ends early if the hound becomes incapacitated. An affected creature starting its turn within 30 ft. of the hound must spend all its movement getting as far away as possible by the most direct route, even through hazards, before taking an action. A creature that passes the save is immune to all yeth hounds' baying for 24 hours.\nReturn to the Material Plane (Sunlight Banishment). While in the Border Ethereal, the hound can use its action to return when adjacent to its master or a pack mate on the Material Plane.",
+        "Printed source": "Volo's Guide to Monsters, p. 201."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Anathema",
+    "statBlock": {
+      "name": "Yuan-ti Anathema",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 202,
+      "classification": "Huge monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 16,
+      "hp": 189,
+      "hitDice": "18d12 + 72",
+      "speed": "40 ft., climb 30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 17,
+      "description": "A six-headed yuan-ti that gained this form through a ritual in pursuit of godhood. It expects obedience from lesser yuan-ti and can take the shape of an enormous constrictor.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 7,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 30 ft. and darkvision 60 ft.",
+        "Languages": "Abyssal, Common and Draconic.",
+        "Damage resistances": "Acid, fire and lightning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Magic Resistance. The anathema has advantage on saves against spells and other magical effects.\nOphidiophobia Aura. When a creature of the anathema’s choice starts its turn within 30 ft. of it and can see or hear it, the creature must make a DC 17 Wisdom save or become frightened of snakes and yuan-ti. Snakes and yuan-ti are exempt. It can repeat the save at the end of each of its turns, ending the effect on a success. Success on the save or the end of the effect grants immunity to this aura for 24 hours.\nSix Heads. The anathema has advantage on Wisdom (Perception) checks and on saves against being blinded, charmed, deafened, frightened, stunned or knocked unconscious.\nShapechanger. The anathema can use its action to become a Huge giant constrictor snake or return to its true form. Its statistics remain the same. Worn and carried gear stays unchanged.",
+        "Innate Spellcasting": "Anathema form only. Charisma is the spellcasting ability (spell save DC 17). No material components.\nAt will. Animal Friendship (snakes only).\n3/day each. Darkness, Entangle, Fear, Haste, Suggestion, Polymorph.\n1/day. Divine Word.",
+        "Actions": "Multiattack (anathema form only). Make two Claw attacks, one Constrict attack and one Flurry of Bites attack.\nClaw (anathema form only). Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 13 (2d6 + 6) slashing damage.\nConstrict. Melee weapon attack, +10 to hit, reach 15 ft., one Large or smaller creature. A hit deals 16 (3d6 + 6) bludgeoning and 7 (2d6) acid damage and grapples the target (escape DC 16). The grappled target is restrained and takes both damage amounts again at the start of each of its own turns until the grapple ends. The anathema can constrict only one target at a time.\nFlurry of Bites. Melee weapon attack, +10 to hit, reach 10 ft., one creature. A hit deals 27 (6d6 + 6) piercing and 14 (4d6) poison damage.",
+        "Optional variant traits": "Apply one or more of these options if you use the p. 98 variant rules.\nAcid Slime (bonus action). The anathema coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the anathema, hits it with a melee attack from within 5 ft. or is hit by its Constrict.\nChameleon Skin. The anathema has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day, bonus action). The anathema sheds its skin to escape a grapple, shackles or another restraint. Eating the shed skin over 1 minute restores hit points equal to half its maximum.",
+        "Printed source": "Volo's Guide to Monsters, pp. 98 and 202. The p. 98 traits are optional."
+      }
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Maenad",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Expanded Psionics Handbook",
+    "author": "Bruce R. Cordell",
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "April 2004",
+    "productCode": "620-96666-001-EN",
+    "isbn": "0-7869-3301-3",
+    "printedPages": {
+      "abilityAdjustments": 6,
+      "appearance": 13,
+      "playableTraits": 14,
+      "wilder": [
+        30,
+        31
+      ],
+      "sonicEnergyRay": 103,
+      "forceScreen": 108,
+      "psiLikeAugment": 184,
+      "warrior": [
+        203,
+        204
+      ]
+    },
+    "printedArtCredit": "Monte Moore, p. 203 Maenad",
+    "primaryBookScan": "",
+    "primaryBookSha256": "de565bb7b273801a1a4595a157657a96ca52e2f4162d1e7101e609cbdd4b0943",
+    "errata2006": "",
+    "sourceDistinctions": [
+      "The racial ray has a sonic-only subtype. The generic Charisma save note does not supply a save to Energy Ray.",
+      "The racial ray automatically augments at its racial manifester level and spends none of the PP reserve.",
+      "Outburst activation is unstated. The NPCs treat it as an activated extraordinary ability and use the original standard-action default."
+    ],
+    "entryId": "species-f57cb770bc61ca5ac608f197",
+    "versionKey": "7f9a974316dfd03426ac0668",
+    "slug": "maenad",
+    "portraitSelection": "generated",
+    "portraitForm": "Vara Flintshore, an original Maenad example",
+    "npcExamples": [
+      "Vara Flintshore",
+      "Toren Glasswake"
+    ]
+  }
+]

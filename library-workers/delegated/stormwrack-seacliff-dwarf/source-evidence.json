@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Seacliff Dwarf",
+    "kind": "species",
+    "publication": "Stormwrack (2005)",
+    "edition": "3.5 edition",
+    "book": "Stormwrack",
+    "authors": [
+      "Richard Baker",
+      "Joseph D. Carriker Jr.",
+      "Jennifer Clarke Wilkes"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "August 2005",
+    "productCode": "620-17867000-001-EN",
+    "isbn": "0-7869-3689-4",
+    "printedPages": {
+      "playableSpecies": [
+        44,
+        45
+      ],
+      "racialTraits": 44,
+      "illustration": 45,
+      "levelAdjustment": 34,
+      "drowning": 11
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "53d29c7c6ed20da69c3ddd8474c64c88a59b572834e0bfc56900cf422e9d2511",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Drew Baker, Seacliff dwarf and shoal halfling, p. 45.",
+    "baseDwarf": "https://www.d20srd.org/srd/races.htm#dwarves",
+    "coreDrowning": "",
+    "sourceDistinctions": [
+      "Page 44 inherits the standard dwarf traits except for adding Strong Swimmers and removing the +1 racial attacks against orcs and goblinoids.",
+      "Strong Swimmers doubles the Constitution score used for breath duration. The referenced DMG p. 304 baseline and Stormwrack p. 11 print different starting durations.",
+      "Wizards’ collected archive has no Stormwrack errata file. The official FAQ has no Seacliff Dwarf entry."
+    ],
+    "entryId": "species-205b63b87fbbe72395c22fae",
+    "versionKey": "100b7e81253a823ebb124200",
+    "slug": "seacliff-dwarf",
+    "portraitSelection": "generated",
+    "portraitForm": "Brott Saltbrace, an original Seacliff Dwarf Fighter",
+    "npcExamples": [
+      "Brott Saltbrace",
+      "Vessa Mere"
+    ]
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Jackal",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Small Beast",
+    "ac": 11,
+    "hp": 8,
+    "speed": "40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR -1, DEX +1, CON +0, INT -4, WIS +1, CHA -2. Perception 13. Stealth 11. No special senses. Languages none.",
+    "appearance": "A russet jackal with pointed ears and a dark saddle across its back.",
+    "habitats": [
+      "Desert",
+      "Forest",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 339, 341, Chacal.",
+      "Traits": "Heightened Hearing and Smell. Perception is 18 when the jackal relies on hearing or smell.\nPack Tactics. The jackal has advantage on attack rolls against a creature if one or more of its allies are within 5 ft. of that creature and at least one of those allies is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Hit for 3 (1d4 + 1) piercing damage. The target must pass a DC 10 Constitution save or contract shriveling fever.\nShriveling fever. The infected creature is poisoned until cured. At the end of each long rest, it makes a DC 10 Constitution save. Each failure reduces its Strength score by 1d4. The creature dies if the disease reduces Strength to 0. Two successful recovery saves cure the disease. The Strength reduction lasts until the creature finishes a long rest after the cure."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Lion",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 42,
+    "speed": "50 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Ability modifiers STR +3, DEX +2, CON +1, INT -4, WIS +1, CHA -1. Perception 13. Stealth 16. No special senses. Languages none.",
+    "appearance": "A muscular tawny lion with a broad face and full mane.",
+    "habitats": [
+      "Desert",
+      "Grassland",
+      "Hills",
+      "Mountain"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 346, 348, León.",
+      "Traits": "Heightened Smell. Perception is 18 when the lion relies on smell.\nPack Tactics. The lion has advantage on attack rolls against a creature if one or more of its allies are within 5 ft. of that creature and at least one of those allies is not incapacitated.\nPounce. After moving at least 20 ft. straight toward a creature and hitting it with Claws on the same turn, the lion forces a DC 13 Strength save. Failure knocks the target prone. If the target is prone, the lion can Bite it as a bonus action.\nRunning Leap. With a 10-ft. running start, the lion can long jump up to 25 ft.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit for 7 (1d8 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit for 6 (1d6 + 3) slashing damage.",
+      "Bonus actions": "Rattling Roar (Recharge 4–6). The lion roars in a 15-ft. cone. Each creature in the cone must pass a DC 13 Constitution save or have disadvantage on attack rolls until the end of its next turn.",
+      "At the table": "After using Rattling Roar, roll a d6 at the start of each of the lion’s turns. A roll of 4–6 restores the use. Finishing a short or long rest also restores it."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Lizard",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Tiny Beast",
+    "ac": 10,
+    "hp": 9,
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "xp": 10,
+    "otherStatistics": "Ability modifiers STR -4, DEX +0, CON +0, INT -5, WIS -1, CHA -4. Perception 9. Stealth 12. Darkvision 30 ft. Languages none.",
+    "appearance": "A slender striped lizard with a long tail and splayed toes.",
+    "habitats": [
+      "Badlands",
+      "Coastal",
+      "Desert",
+      "Farmland",
+      "Forest",
+      "Swamp",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, pp. 345–346, 347–348, Lagarto.",
+      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit for 2 (1d4) piercing damage.",
+      "Reactions": "Detach Tail (5 HP or fewer, recharges after a short or long rest). When the lizard takes damage, it can shed its tail to reduce that damage by 2 (1d4). It then immediately moves up to its speed without provoking opportunity attacks."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Lizard, Giant",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 15,
+    "speed": "30 ft., climb 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Ability modifiers STR +2, DEX +1, CON +1, INT -4, WIS +0, CHA -3. Perception 10. Stealth 13. Darkvision 30 ft. Languages none. Armor Class includes natural armor.",
+    "appearance": "A large, low-slung lizard with heavy scales and a thick tail.",
+    "habitats": [
+      "Badlands",
+      "Coastal",
+      "Desert",
+      "Forest",
+      "Swamp",
+      "Underground"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 346, 348, Lagarto, gigante.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) piercing damage.",
+      "Reactions": "Detach Tail (9 HP or fewer, recharges after a short or long rest). When the lizard takes damage, it can shed its tail to reduce that damage by 4 (1d8). It then immediately moves up to its speed without provoking opportunity attacks."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  },
+  {
+    "name": "Mammoth",
+    "kind": "beast",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Huge Beast",
+    "ac": 13,
+    "hp": 133,
+    "speed": "40 ft.",
+    "cr": "6",
+    "xp": 2300,
+    "otherStatistics": "Ability modifiers STR +6, DEX -1, CON +5, INT -4, WIS +0, CHA -2. Perception 13. Stealth 9. Resistant to cold damage and the prone condition. No special senses. Languages none. Armor Class includes natural armor.",
+    "appearance": "A woolly mammoth with shaggy brown hair and long curved tusks.",
+    "habitats": [
+      "Arctic"
+    ],
+    "sections": {
+      "Printed source": "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 347, 349, Mamut.",
+      "Traits": "Trampling Charge. After moving at least 20 ft. straight toward a creature and hitting it with Gore on the same turn, the mammoth forces a DC 17 Strength save. Failure knocks the target prone. If the target is prone, the mammoth can Stomp it as a bonus action.",
+      "Actions": "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit for 22 (3d10 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, reach 5 ft., one prone creature. Hit for 19 (3d8 + 6) bludgeoning damage.",
+      "Bonus actions": "Trunk Grab. Choose one Large or smaller creature within 10 ft. It must pass a DC 17 Strength save or be grappled, escape DC 17. The target stays restrained until the grapple ends. While the grapple lasts, the mammoth cannot use Trunk Grab on another target.",
+      "At the table": "Cold resistance halves cold damage, rounded down. Resistance to prone grants advantage on checks and saves to avoid or end the condition."
+    },
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true
+  }
+]

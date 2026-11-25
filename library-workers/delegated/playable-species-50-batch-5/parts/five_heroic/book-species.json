@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Hagborn",
+    "kind": "species",
+    "publication": "Book of Heroic Races: Player Races 1 (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Constitution +2. Medium, with a 30-ft. walking speed. Darkvision 60 ft. Speaks, reads and writes Common.",
+      "Proficient with claws. An unoccupied hand can attack for 1d4 slashing using Strength or Dexterity via finesse. A hand holding a weapon or shield, or occupied with spellcasting, cannot claw.",
+      "Green Hagborn: Intelligence +2. Choose dancing lights, mage hand or minor illusion as an Intelligence-based cantrip. Green hagborn often have a slight green cast to their skin.",
+      "Night Hagborn: Charisma +1. Proficiency in Deception and advantage when impersonating another person. The source describes dark-blue to deep-purple skin.",
+      "Sea Hagborn: Strength +1, Athletics proficiency and a 20-ft. swimming speed. Their fingers and toes are webbed."
+    ]
+  },
+  {
+    "name": "Samsaran",
+    "kind": "species",
+    "publication": "Book of Heroic Races: Player Races 1 (2015)",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Intelligence +2. Medium, with a 30-ft. walking speed. Matures at a human pace and can live up to 500 years. The lineage is understood through repeated incarnations.",
+      "Darkvision 60 ft. Lifebound grants resistance to necrotic damage and advantage on saving throws against necrotic damage.",
+      "Shards of the Past grants one proficiency from Animal Handling, Arcana, History, Medicine, Nature or Religion. Speaks, reads and writes Common and Everborn.",
+      "Companion lineage: Wisdom +2. On one check per day, gain proficiency with a chosen set of artisan’s tools for that check. Can cast comprehend languages as a ritual.",
+      "Dreaming lineage: Dexterity +1, advantage on History checks, and proficiency with one weapon of the player’s choice."
+    ]
+  }
+]

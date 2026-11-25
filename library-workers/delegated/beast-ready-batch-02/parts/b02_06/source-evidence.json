@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "printedPages": [
+      355
+    ],
+    "pdfPages": [
+      355
+    ],
+    "pdfPage": 355,
+    "pageNumbering": "Printed folios match 1-based pages.",
+    "section": "Monsters, Beasts",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpTablePage": 229,
+    "xpSourceUrl": "",
+    "generalRulesPages": [
+      232
+    ],
+    "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+    "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+    "artGroup": "crocodile",
+    "habitatEvidence": "Editorial habitat tags based on a real crocodile's semiaquatic ecology and the printed swim speed and Hold Breath trait.",
+    "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+  },
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 Monster Manual",
+    "printedPages": [
+      320
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "url": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c#Crocodile",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c#Crocodile",
+    "printedPageWitness": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page321.html",
+    "secondaryCrossCheck": "Compared the 2014 Monster Manual entry in the local 5etools extract to the printed page and Wizards' 2014 Basic Rules.",
+    "artGroup": "crocodile",
+    "appearanceEvidence": "Editorial description of the shared original crocodile portrait, based on the real-world animal.",
+    "habitatEvidence": "Editorial habitat tags based on a real crocodile's semiaquatic ecology and the printed swim speed and Hold Breath trait."
+  },
+  {
+    "name": "Mastiff",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "printedPages": [
+      363,
+      364
+    ],
+    "pdfPages": [
+      363,
+      364
+    ],
+    "pdfPage": 363,
+    "pageNumbering": "Printed folios match 1-based pages.",
+    "section": "Monsters, Beasts",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpTablePage": 229,
+    "xpSourceUrl": "",
+    "generalRulesPages": [],
+    "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+    "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+    "artGroup": "mastiff",
+    "habitatEvidence": "Editorial habitat tags based on domestic guard dogs and the printed Protect Friend reaction, which pairs the dog with a friendly Humanoid.",
+    "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+  },
+  {
+    "name": "Mule",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "printedPages": [
+      364
+    ],
+    "pdfPages": [
+      364
+    ],
+    "pdfPage": 364,
+    "pageNumbering": "Printed folios match 1-based pages.",
+    "section": "Monsters, Beasts",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpTablePage": 229,
+    "xpSourceUrl": "",
+    "generalRulesPages": [
+      232
+    ],
+    "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+    "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+    "artGroup": "mule",
+    "habitatEvidence": "Editorial habitat tags based on the use of mules as domestic pack animals and the printed Beast of Burden trait.",
+    "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+  },
+  {
+    "name": "Octopus",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "printedPages": [
+      364
+    ],
+    "pdfPages": [
+      364
+    ],
+    "pdfPage": 364,
+    "pageNumbering": "Printed folios match 1-based pages.",
+    "section": "Monsters, Beasts",
+    "url": "",
+    "sourceUrl": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpTablePage": 229,
+    "xpSourceUrl": "",
+    "generalRulesPages": [
+      235
+    ],
+    "omittedFields": "The stat block prints hit points and ability modifiers. Ability scores, Hit Dice, and alignment are unspecified.",
+    "nativeStatistics": "Perception and Stealth are fixed values printed by Black Flag.",
+    "artGroup": "octopus",
+    "habitatEvidence": "Underwater follows the printed physiology. Coastal waters and reefs are editorial habitat tags based on common octopus ecology.",
+    "appearanceEvidence": "Editorial description of the original portrait using the recognizable real-world animal. The source supplies the creature name and size."
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "commit": "b82b383171435fd3ae411235b7201ca71dd69709",
+  "publication": "Races of Stone (2004)",
+  "edition": "3.5 edition",
+  "playableSpeciesVersions": 1,
+  "fullNpcBuilds": 2,
+  "approvedPortraitsReused": 1,
+  "existingVersionsPreserved": 5,
+  "defaultPreserved": {
+    "version": "66eda1a3dd7cbb3ab4e3ea8f",
+    "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+    "url": ""
+  },
+  "rovaReachFeet": {
+    "normal": 5,
+    "mountainRage": 10
+  },
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualProof": "output/dm-library/review/goliath-library-printings.jpg",
+  "browser": {
+    "name": "Goliath",
+    "species": "species-71aaca2df6978aba4c91b4be",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "5075ac5e35b97b28e73c6e81f6f6456652a48cf564b5c801ae0ba0106465bc8a",
+    "caption": "Kethan Linekeeper Varukutai · Original Goliath NPC",
+    "npcReceipts": [
+      {
+        "name": "Kethan Linekeeper Varukutai",
+        "id": "npc-506b8f50fffce97dd3a14baf",
+        "challenge": "Provisional CR 1. ECL 2."
+      },
+      {
+        "name": "Rova Stonecaller Athamavi",
+        "id": "npc-0e24c72c169a02bbe6f64d20",
+        "challenge": "Provisional CR 2. ECL 2."
+      }
+    ]
+  }
+}

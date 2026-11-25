@@ -1,0 +1,198 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,159 @@
+           }
+         ]
+       }
++    },
++    {
++      "name": "Burrowing Owl",
++      "kind": "beast",
++      "publication": "Caravans",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A small golden-feathered owl with talons twice the size of a normal owl’s.",
++      "combat": {
++        "armorClass": 5,
++        "hitDice": "1",
++        "movement": "1, Fl 27 (D), Br 3",
++        "thac0": 19,
++        "size": "T, 1 ft. tall",
++        "numberOfAttacks": 3,
++        "damageDice": "1–4 / 1–4 / 1–2",
++        "xp": 65,
++        "habitats": ["Sandy plains north of the Range of the Marching Camels"]
++      },
++      "mechanics": {
++        "Encounters": [
++          {
++            "name": "Burrows near ab’i tubers",
++            "effectNote": "Groups of 2–8 owls dig sandy holes 3–5 ft. deep and sleep there during the day. They attack with their claws if digging for tubers wakes them. See Campaign Guide p. 28."
++          }
++        ]
++      },
++      "notes": [
++        "Neutral. Animal intelligence 1. Morale 7. The block gives 1 Hit Die without a fixed hit-point value.",
++        "TSR, Caravans (1994), Campaign Guide, p. 27."
++      ]
++    },
++    {
++      "name": "Black Sand Adder",
++      "kind": "beast",
++      "publication": "Caravans",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A black snake around 6 ft. long.",
++      "combat": {
++        "armorClass": 6,
++        "hitDice": "3",
++        "movement": 12,
++        "thac0": 17,
++        "size": "M, 6 ft. long",
++        "numberOfAttacks": 1,
++        "damageDice": "1–2",
++        "xp": 270,
++        "hitPoints": 21
++      },
++      "mechanics": {
++        "Special attacks": [
++          {
++            "name": "Poison",
++            "effectNote": "Save vs. poison at −1. On failure, the victim is incapacitated for 24 hours after a 2d4-round onset."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Fayiz’s treatment room",
++            "effectNote": "The zin enlarges the jug in area 2c until it topples and breaks. The adder attacks someone nearby, then attempts to escape under the wall unless attacked."
++          }
++        ]
++      },
++      "notes": [
++        "Neutral. Animal intelligence. Morale 9.",
++        "The area 2c block gives 21 HP for this individual. The Campaign Guide’s monster summary on p. 32 lists 15 HP.",
++        "Fayiz describes the adders as faster than the vipers on p. 7. The encounter blocks give MV 12 for the adder and MV 15 for the viper.",
++        "TSR, Caravans (1994), Adventure Book, p. 9."
++      ]
++    },
++    {
++      "name": "Dune Viper",
++      "kind": "beast",
++      "publication": "Caravans",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A brown viper around 4 ft. long.",
++      "combat": {
++        "armorClass": 5,
++        "hitDice": "2+1",
++        "movement": 15,
++        "thac0": 19,
++        "size": "S, 4 ft. long",
++        "numberOfAttacks": 1,
++        "damageDice": "1",
++        "xp": 175
++      },
++      "mechanics": {
++        "Special attacks": [
++          {
++            "name": "Poison",
++            "effectNote": "Save vs. poison with no modifier. On failure, the victim takes 2d4 extra damage and has a −2 penalty on attack rolls for 24 hours. The onset is 1d4 rounds."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Under the bed frame",
++            "effectNote": "The area 2e block gives the two vipers 13 and 15 HP. Once a viper has lost at least half its HP, it tries to escape under the nearest wall."
++          },
++          {
++            "name": "Thrown by the zin",
++            "effectNote": "The vipers in area 4d use the area 2e statistics. In the encounter on p. 12, thrown vipers spend 1–2 rounds getting their bearings, strike nearby targets once or twice, then try to escape."
++          }
++        ]
++      },
++      "notes": [
++        "Neutral. Animal intelligence. Morale 8.",
++        "The Campaign Guide’s p. 32 summary lists a second row as “black sand adder” with the viper’s AC, movement, HD, THAC0, and damage, but 9 HP. The Adventure Book names the viper and gives 13 and 15 HP on p. 10.",
++        "TSR, Caravans (1994), Adventure Book, p. 10."
++      ]
++    },
++    {
++      "name": "Giant Cobra",
++      "kind": "beast",
++      "publication": "Caravans",
++      "edition": "AD&D 2nd edition",
++      "ruleset": "adnd-2e",
++      "appearance": "A large snake around 12 ft. long with a broad hood that spreads when it rises.",
++      "combat": {
++        "armorClass": 5,
++        "hitDice": "4+2",
++        "movement": 15,
++        "thac0": 17,
++        "size": "M, 12 ft. long",
++        "numberOfAttacks": 1,
++        "damageDice": "1d3",
++        "xp": 420,
++        "hitPoints": 27
++      },
++      "mechanics": {
++        "Special attacks": [
++          {
++            "name": "Poison",
++            "effectNote": "Save vs. poison at −2. After a 2d4-round onset, the victim dies on a failed save or takes 10 extra damage on a successful save."
++          },
++          {
++            "name": "Hypnotic stare",
++            "effectNote": "The victim saves vs. paralyzation. On failure, it remains stationary for 1d6 turns."
++          }
++        ],
++        "Encounters": [
++          {
++            "name": "Cabinet in Fayiz’s room",
++            "effectNote": "The zin makes the cobra invisible. Disturbing the cabinet draws a strike at the nearest character and the cobra becomes visible when it attacks. It fights to the death in this scene and uses the stare if an opportunity arises. The zin can calm it if the party bargains with her. See pp. 11–12."
++          }
++        ]
++      },
++      "notes": [
++        "Neutral. Animal intelligence. Morale 10.",
++        "The area 4b block gives 27 HP for this individual. The Campaign Guide’s p. 32 summary gives 23 HP.",
++        "TSR, Caravans (1994), Adventure Book, p. 11."
++      ]
+     }
+   ],
+   "species": [
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -1164,6 +1164,7 @@
+ Black Pudding	monster	Ooze	Princes of the Apocalypse - Online Supplement	2014 fifth edition	Wizards of the Coast		4
+ Black Pudding	monster	Large Ooze	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		4
+ Black Rose Bearer	monster	Undead	Vecna: Eve of Ruin	2014 fifth edition	Wizards of the Coast		6
++Black Sand Adder	beast	Animal	Caravans	AD&D 2nd edition	TSR		
+ Black Swan Heraldic Servant	monster		Savage Coast Monstrous Compendium Appendix	AD&D 2nd edition	TSR		
+ Black Viper	monster	Humanoid	Waterdeep: Dragon Heist	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/149834-black-viper	5
+ Blackguard	monster	Humanoid	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560741-blackguard	8
+@@ -1480,6 +1481,7 @@
+ Burn-Puncher	monster	Humanoid	DDEP2 - Mulmaster Undone V2	2014 fifth edition	Wizards of the Coast		1/2
+ Burney the Barber	monster	Dragon	Baldur's Gate: Descent Into Avernus	2014 fifth edition	Wizards of the Coast		21
+ Burnished Hart	monster	Construct	Mythic Odysseys of Theros	2014 fifth edition	Wizards of the Coast		2
++Burrowing Owl	beast	Animal	Caravans	AD&D 2nd edition	TSR		
+ Burrowshark	monster	Humanoid	Princes of the Apocalypse	2014 fifth edition	Wizards of the Coast		4
+ Bussengeist	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
+ Buster the Bear	monster	Construct	The Lost Dungeon of Rickedness: Big Rick Energy	2014 fifth edition	Wizards of the Coast		1
+@@ -2928,6 +2930,7 @@
+ Dullahan	monster	Undead	Van Richten’s Guide to Ravenloft	2014 fifth edition	Wizards of the Coast		10
+ Dum-Dum Goblin	monster	Humanoid	Adventure with Muk	2014 fifth edition	Wizards of the Coast		1/4
+ Dunbarrow Witch	monster	Humanoid	Monstrous Compendium Vol. 4: Eldraine Creatures	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3852131-dunbarrow-witch	5
++Dune Viper	beast	Animal	Caravans	AD&D 2nd edition	TSR		
+ Dungeoncleaner	monster	Construct	Dungeons and Ruins	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	8.0
+ Dungeonkeeper	monster	Humanoid (Any Lineage)	Castles and Crowns	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	1.0
+ Duodrone	monster	Construct	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17180-duodrone	1/4
+@@ -3933,6 +3936,7 @@
+ Giant Centipede	beast	Beast	Basic Rules (2018)	2014 fifth edition	Wizards of the Coast		1/4
+ Giant Centipede Insect	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		1/4
+ Giant Child	monster	Giant	Bigby Presents: Glory of the Giants	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3731024-giant-child	0
++Giant Cobra	beast	Animal	Caravans	AD&D 2nd edition	TSR		
+ Giant Constrictor Snake	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		2
+ Giant Constrictor Snake	beast	Beast	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake	2
+ Giant Constrictor Snake	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195015-giant-constrictor-snake	2

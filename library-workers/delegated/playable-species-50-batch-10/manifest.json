@@ -1,0 +1,1861 @@
+{
+  "baseline": "22216c45cb3a5ab3bc65564a2733a4765ec062b8",
+  "species": 50,
+  "profiles": 50,
+  "canonicalGroups": 50,
+  "groupedLineages": 0,
+  "newCatalogRows": 50,
+  "existingMetadataEnriched": 0,
+  "npcBuilds": 50,
+  "portraits": 50,
+  "entries": [
+    {
+      "name": "Ashborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_a",
+      "parentSpecies": null,
+      "aliases": "Ashborn of Chernabos. Keep it separate from Esper Genesis Ashenforged and imp monster profiles.",
+      "npcs": [
+        "Nix Coppermark"
+      ],
+      "portrait": "parts/ten_moon_a/portraits/ashborn.png",
+      "source": {
+        "name": "Ashborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Fiend",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "Player v1.1, p. 3, Ashborn Traits.",
+        "printedPages": [
+          3
+        ],
+        "heading": "Ashborn Traits",
+        "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+      }
+    },
+    {
+      "name": "Azureborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_a",
+      "parentSpecies": null,
+      "aliases": "Azureborn. Use the harpy-like Druskenvald species. Harpy encounter and player conversions retain their own scopes.",
+      "npcs": [
+        "Vell Sableflight"
+      ],
+      "portrait": "parts/ten_moon_a/portraits/azureborn.png",
+      "source": {
+        "name": "Azureborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Humanoid",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "Player v1.1, p. 4, Azureborn Traits.",
+        "printedPages": [
+          4
+        ],
+        "heading": "Azureborn Traits",
+        "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+      }
+    },
+    {
+      "name": "Blood Hawk",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_a",
+      "parentSpecies": null,
+      "aliases": "Blood Hawk / Blood Hawks. Use the individual awakened beast profile.",
+      "npcs": [
+        "Bramble-Eye"
+      ],
+      "portrait": "parts/ten_kamstra_a/portraits/blood-hawk.png",
+      "source": {
+        "name": "Blood Hawk",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          224
+        ],
+        "page": "p. 224 in v2. Blood Hawk Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "Kamstra’s awakened Beast has Small size and speaks Common. Pack Tactics requires a bonus action and covers only the next qualifying attack this turn.",
+          "The trait box explicitly grants finesse for Sneak Attack. This build wears no armor and does not rely on carried tools."
+        ],
+        "npcExamples": [
+          "Bramble-Eye"
+        ]
+      }
+    },
+    {
+      "name": "Bogborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_a",
+      "parentSpecies": null,
+      "aliases": "Bogborn of Zulrogg. This troll-like species uses Avantris's own traits. Troll and Trollkin remain separate.",
+      "npcs": [
+        "Orruk Fenpeg"
+      ],
+      "portrait": "parts/ten_moon_a/portraits/bogborn.png",
+      "source": {
+        "name": "Bogborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Giant",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "Player v1.1, p. 5, Bogborn Traits.",
+        "printedPages": [
+          5
+        ],
+        "heading": "Bogborn Traits",
+        "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+      }
+    },
+    {
+      "name": "Cnidaran",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_a",
+      "parentSpecies": null,
+      "aliases": "Cnidaran / cnidarans. Group Nematocyst and Shimmerskin within this jellyfish-like lineage.",
+      "npcs": [
+        "Senn Brinecord"
+      ],
+      "portrait": "parts/ten_heliana_a/portraits/cnidaran.png",
+      "source": {
+        "name": "Cnidaran",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern and Hit Point Press",
+        "author": "Loot Tavern design team",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "version": "First-printing chapter 6, read from the rendered original page",
+        "printedPages": [
+          152
+        ],
+        "heading": "Cnidaran Traits",
+        "publisherListing": "",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "sourceDistinctions": [
+          "The player trait groups two morphs. Senn uses Nematocyst and gets no Shimmerskin magic.",
+          "Use the 2014 fighter and Soldier background. The printed appendage has no special reach."
+        ]
+      }
+    },
+    {
+      "name": "Curseborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_a",
+      "parentSpecies": null,
+      "aliases": "Curseborn of Edwardia. Use the printed lupine lineage. Cursed-Blood and lycanthropy are separate.",
+      "npcs": [
+        "Sella Ragwort"
+      ],
+      "portrait": "parts/ten_moon_a/portraits/curseborn.png",
+      "source": {
+        "name": "Curseborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Humanoid",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "Player v1.1, p. 6, Curseborn Traits.",
+        "printedPages": [
+          6
+        ],
+        "heading": "Curseborn Traits",
+        "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+      }
+    },
+    {
+      "name": "Cyclopian",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_a",
+      "parentSpecies": null,
+      "aliases": "Cyclopian / cyclopians. Use the knowledge-eating humanoid's traits. Keep the independent Cyclops conversion separate.",
+      "npcs": [
+        "Avel Pagehook"
+      ],
+      "portrait": "parts/ten_heliana_a/portraits/cyclopian.png",
+      "source": {
+        "name": "Cyclopian",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern and Hit Point Press",
+        "author": "Loot Tavern design team",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "version": "First-printing chapter 6, read from the rendered original page",
+        "printedPages": [
+          154
+        ],
+        "heading": "Cyclopian Traits",
+        "publisherListing": "",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "sourceDistinctions": [
+          "The written creature type is Humanoid plus the stated Aberration qualification.",
+          "AC 12 assumes no spell slot has been spent. Mage armor gives AC 15 for eight hours."
+        ]
+      }
+    },
+    {
+      "name": "Dara",
+      "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_obojima",
+      "parentSpecies": null,
+      "aliases": "Dara. Keep the core 5.5e printing distinct from the 2014 version and later Yatamon options.",
+      "npcs": [
+        "Selka Dara"
+      ],
+      "portrait": "parts/ten_obojima/portraits/dara.png",
+      "source": {
+        "name": "Dara",
+        "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "1985 Games",
+        "author": "Adam Lee, Ari Levitch, and Jeremiah Crofton",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+        "rulesReadUrl": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+        "publisherListing": "",
+        "version": "5.5e , ISBN 978-1-954777-16-3, second printing July 2025",
+        "printedPages": [
+          163,
+          164,
+          165
+        ],
+        "heading": "Dara Traits and Talisman Forms",
+        "renderedPage": "https://online.anyflip.com/dexhd/qfnf/mobile/index.html#p=83",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary",
+        "sourceDistinctions": [
+          "The printed profile groups Blue and Red Dara. Selka uses Blue. The color text says Blue knows Knowledge and Red knows Might, and says each can produce that form once per day in addition to other forms. The formal trait grants one creation per Long Rest. This build uses a single shared use. The one-hour lifetime comes from the shared creation rule.",
+          "Selka can choose any form open to Blue Dara, including Knowledge. Selka has Sacred Revelation immediately. Impart Knowledge begins at level 10.",
+          "Read the Talisman Forms table on the rendered original spread. The search index omitted that table."
+        ]
+      }
+    },
+    {
+      "name": "Deepborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_a",
+      "parentSpecies": null,
+      "aliases": "Deepborn of Olmarsh. This fish-like lineage is separate from Sea Spawn, Gillfolk, and Deep Scion.",
+      "npcs": [
+        "Maar Siltglass"
+      ],
+      "portrait": "parts/ten_moon_a/portraits/deepborn.png",
+      "source": {
+        "name": "Deepborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Aberration",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "Player v1.1, p. 7, Deepborn Traits.",
+        "printedPages": [
+          7
+        ],
+        "heading": "Deepborn Traits",
+        "provenance": "Avantris Entertainment's 2024 Player v1.1. Playable species traits for the 2024 fifth-edition rules.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins"
+      }
+    },
+    {
+      "name": "Dreamlands Cat",
+      "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_mythos",
+      "parentSpecies": null,
+      "aliases": "Dreamlands Cat / Dreamlands Cats. Keep all player options in the same profile. Saturnian and Uranian encounter cat records have their own scopes.",
+      "npcs": [
+        "Moth Ledger"
+      ],
+      "portrait": "parts/ten_mythos/portraits/dreamlands-cat.png",
+      "source": {
+        "name": "Dreamlands Cat",
+        "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Petersen Games",
+        "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+        "creatureType": "Beast",
+        "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "printedPages": [
+          11,
+          12,
+          13
+        ],
+        "heading": "Dreamlands Cat Traits",
+        "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+        "publisherPreview": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Use the 1d3 days from Nine Lives in the actual trait block. The earlier lore text describes a 4d6-hour return for a mundane cat.",
+          "Terran, Martian, Saturnian, and Uranian are printed subraces. The original NPC uses Terran."
+        ]
+      }
+    },
+    {
+      "name": "Enkoh",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_a",
+      "parentSpecies": null,
+      "aliases": "Enkoh / enkoh. Keep Hulking and Springtail within the same species.",
+      "npcs": [
+        "Toma Snowpin"
+      ],
+      "portrait": "parts/ten_yokai_a/portraits/enkoh.png",
+      "source": {
+        "name": "Enkoh",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=123",
+        "version": "Final v1.00 digital printing, read from its rendered authored folios",
+        "printedPages": [
+          118,
+          119,
+          120
+        ],
+        "heading": "Enkoh Traits",
+        "publisherListing": "https://loottavern.com/ryokos-guide/",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Toma uses the Hulking form. His +2 Strength and +1 Constitution use the flexible adjustments on p. 117."
+        ]
+      }
+    },
+    {
+      "name": "Flying Snake",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_a",
+      "parentSpecies": null,
+      "aliases": "Flying Snake / Flying Snakes. Use the awakened player form. Keep Couatl and Giant Poisonous Snake separate.",
+      "npcs": [
+        "Copper Sedge"
+      ],
+      "portrait": "parts/ten_kamstra_a/portraits/flying-snake.png",
+      "source": {
+        "name": "Flying Snake",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          231
+        ],
+        "page": "p. 231 in v2. Flying Snake Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The printed player trait block grants 30-ft. flight and does not include Flyby. The design commentary mentions Flyby but adds no player trait.",
+          "V2 p. 7 makes bonus-action monk strikes conventional. Copper Sedge uses a short tail slap for the bonus unarmed strike, with the normal monk die and 5-ft. reach. For the split bite damage, this build adds Dexterity to piercing only."
+        ],
+        "npcExamples": [
+          "Copper Sedge"
+        ]
+      }
+    },
+    {
+      "name": "Fuyōren",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_a",
+      "parentSpecies": null,
+      "aliases": "Fuyōren / Fuyoren. Fuyōhren and Fuyohren are alternate spellings in listings. Aquatic plant folk. Keep Hanamori and other plant species separate.",
+      "npcs": [
+        "Reedstep"
+      ],
+      "portrait": "parts/ten_yokai_a/portraits/fuyoren.png",
+      "source": {
+        "name": "Fuyōren",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern Publishing",
+        "creatureType": "Plant",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=126",
+        "version": "Final v1.00 digital printing, read from its rendered authored folios",
+        "printedPages": [
+          121,
+          122
+        ],
+        "heading": "Fuyōren Traits",
+        "publisherListing": "https://loottavern.com/ryokos-guide/",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Fuyōren is the v1.00 trait heading, distinct from the draft and roster spelling Fuyōhren."
+        ],
+        "aliases": [
+          "Fuyōhren",
+          "Fuyohren"
+        ]
+      }
+    },
+    {
+      "name": "Giant Centipede",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_a",
+      "parentSpecies": null,
+      "aliases": "Giant Centipede / Giant Centipedes. Use the individual awakened player traits. Swarms have separate encounter rules.",
+      "npcs": [
+        "Thimbleback"
+      ],
+      "portrait": "parts/ten_kamstra_a/portraits/giant-centipede.png",
+      "source": {
+        "name": "Giant Centipede",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          234
+        ],
+        "page": "p. 234 in v2. Giant Centipede Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The printed player trait block gives blindsight 60 ft. The design commentary mentions 30 ft. This profile follows the trait block.",
+          "Damage uses the player’s two dice and can supply a finesse Sneak Attack. The encounter entry’s paralysis rider does not apply. For the split bite damage, this build assigns Dexterity and Sneak Attack to piercing."
+        ],
+        "npcExamples": [
+          "Thimbleback"
+        ]
+      }
+    },
+    {
+      "name": "Giant Eagle",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_b",
+      "parentSpecies": null,
+      "aliases": "Giant Eagle / Giant Eagles. Use the printed player species and keep Roc and ordinary eagle profiles separate.",
+      "npcs": [
+        "Slatebeak"
+      ],
+      "portrait": "parts/ten_kamstra_b/portraits/giant-eagle.png",
+      "source": {
+        "name": "Giant Eagle",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 235 in v2, Giant Eagle Traits.",
+        "printedPages": [
+          235
+        ],
+        "heading": "Giant Eagle Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "The printed flight trait gives 60 ft. The 80 ft. figure in the design notes on p. 236 does not govern this profile."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Giant Frog",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_b",
+      "parentSpecies": null,
+      "aliases": "Giant Frog / Giant Frogs. Use the awakened beast profile. Froghemoth, Bullywug, and Nakudama remain separate.",
+      "npcs": [
+        "Silt"
+      ],
+      "portrait": "parts/ten_kamstra_b/portraits/giant-frog.png",
+      "source": {
+        "name": "Giant Frog",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "pp. 236–237 in v2, Giant Frog Traits.",
+        "printedPages": [
+          236,
+          237
+        ],
+        "heading": "Giant Frog Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "The heading starts on p. 236. The trait continuation on p. 237 grants neither Standing Leap nor Darkvision, despite both being named in the design notes.",
+          "Silt uses the bite as the physical grip for the species' bonus-action grapple. The ordinary size limit, reach, and Athletics contest still apply. Dexterity can govern the bite, while the grapple still uses Strength."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Giant Hyena",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_b",
+      "parentSpecies": null,
+      "aliases": "Giant Hyena / Giant Hyenas. Use the awakened player profile and keep Gnoll separate.",
+      "npcs": [
+        "Rattlejaw"
+      ],
+      "portrait": "parts/ten_kamstra_b/portraits/giant-hyena.png",
+      "source": {
+        "name": "Giant Hyena",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "p. 238 in v2, Giant Hyena Traits.",
+        "printedPages": [
+          238
+        ],
+        "heading": "Giant Hyena Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "The printable trait gives 30 ft. walk speed. The design notes discuss 40 ft. and suggest Pack Tactics as an optional change. Neither applies to the printed player profile."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Giant Octopus",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_b",
+      "parentSpecies": null,
+      "aliases": "Giant Octopus / Giant Octopuses. Use the awakened beast package. Pode and other octopus folk retain their own rules.",
+      "npcs": [
+        "Dunewick"
+      ],
+      "portrait": "parts/ten_kamstra_b/portraits/giant-octopus.png",
+      "source": {
+        "name": "Giant Octopus",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Beast",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "page": "pp. 239–240 in v2, Giant Octopus Traits.",
+        "printedPages": [
+          239,
+          240
+        ],
+        "heading": "Giant Octopus Traits",
+        "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition, using the v2 printed traits.",
+        "sourceDistinctions": [
+          "The published trait includes no automatic grab or restraint rider on the tentacle attack, although the design notes discuss Grab.",
+          "Ink Cloud omits its activation timing. Dunewick uses an action for the release as a table ruling, consistent with the encounter ability that inspired it.",
+          "For Martial Arts, Kamstra's p. 7 uses the monk damage die for the bonus-action strike rather than the species' larger natural damage die."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment"
+      }
+    },
+    {
+      "name": "Giant Owl",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_c",
+      "parentSpecies": null,
+      "aliases": "Giant Owl / Giant Owls. Use the individual awakened player profile, separate from Hsiao and owl-like humanoids.",
+      "npcs": [
+        "Reedwatch"
+      ],
+      "portrait": "parts/ten_kamstra_c/portraits/giant-owl.png",
+      "source": {
+        "name": "Giant Owl",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 pp. 240–241, Giant Owl Traits",
+        "printedPages": [
+          240,
+          241
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "The player traits start on p. 240; Talons and Languages continue on p. 241. This owl is naturally intelligent per the play advice.",
+          "The No Hands line forbids weapons and shields, then refers to tentacles. Reedwatch uses no manual equipment. Its talons can scratch the mud without assuming tool use.",
+          "Flyby is a bonus-action Disengage in this printing. Talons explicitly count as finesse for Sneak Attack."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Giant Poisonous Snake",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_c",
+      "parentSpecies": null,
+      "aliases": "Giant Poisonous Snake / Giant Venomous Snake as a descriptive name. Preserve the printed player venom and handling limits.",
+      "npcs": [
+        "Siltcoil"
+      ],
+      "portrait": "parts/ten_kamstra_c/portraits/giant-poisonous-snake.png",
+      "source": {
+        "name": "Giant Poisonous Snake",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 241, Giant Poisonous Snake Traits",
+        "printedPages": [
+          241
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "The player Bite adds a poison die on a hit without a separate saving throw. The 1d4 damage dice are not imported from an encounter block.",
+          "Kamstra’s p. 7 Monk exception limits the bonus strike to conventional bludgeoning rather than Bite. The primary Attack action keeps its printed Bite."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Giant Spider",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_c",
+      "parentSpecies": null,
+      "aliases": "Giant Spider / Giant Spiders. Use the awakened player profile. Spiderfolk, Silkborn, and Phase Spider remain separate.",
+      "npcs": [
+        "Loomstep"
+      ],
+      "portrait": "parts/ten_kamstra_c/portraits/giant-spider.png",
+      "source": {
+        "name": "Giant Spider",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 244, Giant Spider Traits",
+        "printedPages": [
+          244
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "The traits give no attack proficiency rule for Web. Loomstep treats it as a proficient natural ranged attack and uses Dexterity for the roll. The printed escape DC uses Constitution.",
+          "Restrained ends when the creature escapes with the stated Strength check or the web is destroyed. The player trait gives no recharge. The table uses one action per use under the normal Attack action rules."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Giant Wasp",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_c",
+      "parentSpecies": null,
+      "aliases": "Giant Wasp / Giant Wasps. Use the awakened player beast and keep wasp-like lineages and swarms separate.",
+      "npcs": [
+        "Cinderwing"
+      ],
+      "portrait": "parts/ten_kamstra_c/portraits/giant-wasp.png",
+      "source": {
+        "name": "Giant Wasp",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "url": "",
+        "rulesReadUrl": "",
+        "page": "v2 p. 246, Giant Wasp Traits",
+        "printedPages": [
+          246
+        ],
+        "creatureType": "Beast",
+        "provenance": "Tyler Kamstra's DMs Guild player rules for 2014 fifth edition, using the v2 printing.",
+        "sourceDistinctions": [
+          "This player Sting has no Constitution save, stabilization, or paralysis rider.",
+          "Cinderwing uses Strength for Rage damage. The optional extra proficiency or feat mentioned in design commentary is not part of the printed trait block."
+        ],
+        "supportingSources": {
+          "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+          "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+          "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+          "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background"
+        }
+      }
+    },
+    {
+      "name": "Gnarlborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_b",
+      "parentSpecies": null,
+      "aliases": "Gnarlborn. The elderwood folk are separate from Wood Woad, Dryadborn, and other plant species.",
+      "npcs": [
+        "Larchwall"
+      ],
+      "portrait": "parts/ten_moon_b/portraits/gnarlborn.png",
+      "source": {
+        "name": "Gnarlborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Plant",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "p. 8 in 2024 Player v1.1, Gnarlborn Traits.",
+        "printedPages": [
+          8
+        ],
+        "heading": "Gnarlborn Traits",
+        "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+      }
+    },
+    {
+      "name": "Gnorri",
+      "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_mythos",
+      "parentSpecies": null,
+      "aliases": "Gnorri. Use its printed player traits and aquatic requirements. Keep other aquatic profiles separate.",
+      "npcs": [
+        "Seln Brineglass"
+      ],
+      "portrait": "parts/ten_mythos/portraits/gnorri.png",
+      "source": {
+        "name": "Gnorri",
+        "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Petersen Games",
+        "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+        "creatureType": "Monstrosity",
+        "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "printedPages": [
+          26,
+          27
+        ],
+        "heading": "Gnorri Traits",
+        "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+        "publisherPreview": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Seln uses the Blue subrace, two arms, and Gnorri Science, with no Builder Magic. The Large creature handles a Medium spear."
+        ]
+      }
+    },
+    {
+      "name": "Gobboc",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_a",
+      "parentSpecies": null,
+      "aliases": "Gobboc / gobbocs. Use the printed chicken-like lineage. Goblin and Kenku remain separate.",
+      "npcs": [
+        "Pip Clattercomb"
+      ],
+      "portrait": "parts/ten_heliana_a/portraits/gobboc.png",
+      "source": {
+        "name": "Gobboc",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern and Hit Point Press",
+        "author": "Loot Tavern design team",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "version": "First-printing chapter 6, read from the rendered original page",
+        "printedPages": [
+          156
+        ],
+        "heading": "Gobboc Traits",
+        "publisherListing": "",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "sourceDistinctions": [
+          "The source art shows a chicken-like feathered humanoid. The chicken is a distinct spell form and its own stat block, not a second ongoing morph.",
+          "The printed Coward’s Creed depends on a melee hit. It does not grant the full rogue Cunning Action feature at level 1."
+        ]
+      }
+    },
+    {
+      "name": "Golynn",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_a",
+      "parentSpecies": null,
+      "aliases": "Golynn. Use the book's burrowing lineage and its own physical traits.",
+      "npcs": [
+        "Daro Flintdrum"
+      ],
+      "portrait": "parts/ten_heliana_a/portraits/golynn.png",
+      "source": {
+        "name": "Golynn",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern and Hit Point Press",
+        "author": "Loot Tavern design team",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "version": "First-printing chapter 6, read from the rendered original page",
+        "printedPages": [
+          158
+        ],
+        "heading": "Golynn Traits",
+        "publisherListing": "",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "sourceDistinctions": [
+          "The printed golynn has a digging feature and no special claw attack.",
+          "Daro’s AC uses natural armor and a shield. Dueling applies with the shield because it is not a weapon."
+        ]
+      }
+    },
+    {
+      "name": "Graveborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_b",
+      "parentSpecies": null,
+      "aliases": "Graveborn of Syndramas. This ghoul-like lineage has its own traits. Mythos Ghoul and other undead keep separate scopes.",
+      "npcs": [
+        "Mera Flintjaw"
+      ],
+      "portrait": "parts/ten_moon_b/portraits/graveborn.png",
+      "source": {
+        "name": "Graveborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Undead",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "p. 9 in 2024 Player v1.1, Graveborn Traits.",
+        "printedPages": [
+          9
+        ],
+        "heading": "Graveborn Traits",
+        "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+      }
+    },
+    {
+      "name": "Hanamori",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_a",
+      "parentSpecies": null,
+      "aliases": "Hanamori. Use this separate flowering plant species and its printed traits.",
+      "npcs": [
+        "Sumi Emberpetal"
+      ],
+      "portrait": "parts/ten_yokai_a/portraits/hanamori.png",
+      "source": {
+        "name": "Hanamori",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern Publishing",
+        "creatureType": "Plant",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=128",
+        "version": "Final v1.00 digital printing, read from its rendered authored folios",
+        "printedPages": [
+          123,
+          124
+        ],
+        "heading": "Hanamori Traits",
+        "publisherListing": "https://loottavern.com/ryokos-guide/",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Sumi’s +1 Dexterity and +2 Constitution use the flexible adjustments on p. 117. Rugged and Unarmored Defense are distinct choices."
+        ]
+      }
+    },
+    {
+      "name": "Haniwa",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_a",
+      "parentSpecies": null,
+      "aliases": "Haniwa. Use the clay construct lineage from the final book. Keep other living constructs separate.",
+      "npcs": [
+        "Kae Kilnmark"
+      ],
+      "portrait": "parts/ten_yokai_a/portraits/haniwa.png",
+      "source": {
+        "name": "Haniwa",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern Publishing",
+        "creatureType": "Construct",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=130",
+        "version": "Final v1.00 digital printing, read from its rendered authored folios",
+        "printedPages": [
+          125,
+          126
+        ],
+        "heading": "Haniwa Traits",
+        "publisherListing": "https://loottavern.com/ryokos-guide/",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "Grave Guardian uses the 2014 sanctuary with the published Player’s Handbook errata. Earthen uppercut appears on p. 281.",
+          "The companion uses the 2014 Mastiff statistics with the printed Clay Companion and Soul Shell changes."
+        ],
+        "relatedRules": [
+          "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=286",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-m",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+          "https://www.dndbeyond.com/sources/dnd/sae/players-handbook-2014"
+        ]
+      }
+    },
+    {
+      "name": "Harvestborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_b",
+      "parentSpecies": null,
+      "aliases": "Harvestborn. Use the living harvest construct lineage. Scarecrow has a separate profile.",
+      "npcs": [
+        "Wick Furrow"
+      ],
+      "portrait": "parts/ten_moon_b/portraits/harvestborn.png",
+      "source": {
+        "name": "Harvestborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Construct",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "p. 10 in 2024 Player v1.1, Harvestborn Traits.",
+        "printedPages": [
+          10
+        ],
+        "heading": "Harvestborn Traits",
+        "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+      }
+    },
+    {
+      "name": "Isetsu",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_a",
+      "parentSpecies": null,
+      "aliases": "Isetsu. Some listings transpose the middle letters as Istesu. Use the printed Isetsu spelling and keep crab folk from other sources separate.",
+      "npcs": [
+        "Mako Tidebrace"
+      ],
+      "portrait": "parts/ten_yokai_a/portraits/isetsu.png",
+      "source": {
+        "name": "Isetsu",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern Publishing",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://online.anyflip.com/qwvsj/izqk/mobile/index.html#p=132",
+        "version": "Final v1.00 digital printing, read from its rendered authored folios",
+        "printedPages": [
+          127,
+          128
+        ],
+        "heading": "Isetsu Traits",
+        "publisherListing": "https://loottavern.com/ryokos-guide/",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The printed Waterborne trait gives no swim speed. Brittle Shell adds a temporary bonus to a chosen AC calculation. Fortune Favoured has no rounding direction in its trait text."
+        ],
+        "aliases": [
+          "Istesu"
+        ],
+        "relatedRules": [
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/introduction",
+          "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat"
+        ]
+      }
+    },
+    {
+      "name": "Kitsune",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_b",
+      "parentSpecies": null,
+      "aliases": "Kitsune / fox folk as a descriptive term. Keep the printed tail progression with Kitsune. Vulpera and Vulpin have separate rules.",
+      "npcs": [
+        "Sumi Wickstep"
+      ],
+      "portrait": "parts/ten_yokai_b/portraits/kitsune.png",
+      "source": {
+        "name": "Kitsune",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern",
+        "creatureType": "Fey",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+        "page": "Chapter 8, pp. 129–131, Kitsune Traits.",
+        "printedPages": [
+          129,
+          130,
+          131
+        ],
+        "heading": "Kitsune Traits",
+        "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+        "sourceDistinctions": [
+          "The final p. 131 gives Fey, a 1-hour form with a reaction rider, 60-ft. motion language, and one chosen skill. The beta differs."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Lotol",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_a",
+      "parentSpecies": null,
+      "aliases": "Lotol / salamander-kin as a descriptive term. Group the printed adaptive choices. Keep other amphibian folk separate.",
+      "npcs": [
+        "Tavi Ripplegill"
+      ],
+      "portrait": "parts/ten_heliana_a/portraits/lotol.png",
+      "source": {
+        "name": "Lotol",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern and Hit Point Press",
+        "author": "Loot Tavern design team",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "rulesReadUrl": "https://anyflip.com/ltplu/rswq/basic/151-200",
+        "version": "First-printing chapter 6, read from the rendered original page",
+        "printedPages": [
+          160
+        ],
+        "heading": "Lotol Traits",
+        "publisherListing": "",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells",
+        "sourceDistinctions": [
+          "Adaptive Polymorphism grants two selections. Tavi has water breathing, swimming, and tongue retrieval from the chosen adaptations, with no Shocking Skin or darkvision.",
+          "The art depicts gills and mail. Scale mail is equipment, consistent with the written Lotol skin lacking natural scales."
+        ]
+      }
+    },
+    {
+      "name": "Mycelian",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_b",
+      "parentSpecies": null,
+      "aliases": "Mycelian / mycelians. Use the fungus-and-host rules. Mycelial, Fungi, and Myconid are separate.",
+      "npcs": [
+        "Fen Stitch"
+      ],
+      "portrait": "parts/ten_heliana_b/portraits/mycelian.png",
+      "source": {
+        "name": "Mycelian",
+        "kind": "species",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Plane Shift Press",
+        "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+        "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=163",
+        "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=163",
+        "publicationPage": "",
+        "printedPages": [
+          162,
+          163
+        ],
+        "page": "Chapter 6, pp. 162, 163, Mycelian Traits.",
+        "heading": "Mycelian Traits",
+        "creatureType": "Humanoid",
+        "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+        "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Fen uses a 2014 dwarf host for size, 25-ft. walk, darkvision and Dwarven Resilience. The host does not confer the rest of the dwarf traits.",
+          "The first printing’s optional GM latitude is not needed for the assigned build."
+        ]
+      }
+    },
+    {
+      "name": "Mythos Ghoul",
+      "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_mythos",
+      "parentSpecies": null,
+      "aliases": "Mythos Ghoul / Ghoul in this source. The living Mythos species is distinct from undead encounter ghouls and Avantris Graveborn.",
+      "npcs": [
+        "Veller Dross"
+      ],
+      "portrait": "parts/ten_mythos/portraits/mythos-ghoul.png",
+      "source": {
+        "name": "Mythos Ghoul",
+        "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Petersen Games",
+        "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+        "creatureType": "Monstrosity",
+        "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "printedPages": [
+          19,
+          20
+        ],
+        "heading": "Ghoul Traits",
+        "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+        "publisherPreview": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The chapter heading reads Ghoul and uses Mythos ghoul to identify this living player option. It has a different creature type and traits from the undead Ghoul encounter record.",
+          "The original NPC uses Raised by Ghouls."
+        ]
+      }
+    },
+    {
+      "name": "Nakudama",
+      "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_obojima",
+      "parentSpecies": null,
+      "aliases": "Nakudama / Obojima frog folk as a descriptive term. Use the core 5.5e species, separate from Bullywug and Grung.",
+      "npcs": [
+        "Wick Tidecup"
+      ],
+      "portrait": "parts/ten_obojima/portraits/nakudama.png",
+      "source": {
+        "name": "Nakudama",
+        "publication": "Obojima: Tales from the Tall Grass (5.5e )",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "1985 Games",
+        "author": "Adam Lee, Ari Levitch, and Jeremiah Crofton",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+        "rulesReadUrl": "https://anyflip.com/dexhd/qfnf/basic/51-100",
+        "publisherListing": "",
+        "version": "5.5e , ISBN 978-1-954777-16-3, second printing July 2025",
+        "printedPages": [
+          168
+        ],
+        "heading": "Naku Naku and Nakudama Traits",
+        "renderedPage": "https://online.anyflip.com/dexhd/qfnf/mobile/index.html#p=85",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary",
+        "sourceDistinctions": [
+          "The 2024 trait block lists a 30-ft. Speed and no separate Swim Speed. Amphibious governs breathing. Latching Tongue does not move its target or supply a saving throw in this printing.",
+          "The target of Grasping Tongue is an object. Only a creature wearing or carrying it makes the save. The example DC is 8 + 2 Strength + 2 proficiency."
+        ]
+      }
+    },
+    {
+      "name": "Ombrask",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_b",
+      "parentSpecies": null,
+      "aliases": "Ombrask / ombrasks. Group the printed former-race choices. Keep Shadowcast and other shadow lineages separate.",
+      "npcs": [
+        "Aster Sill"
+      ],
+      "portrait": "parts/ten_heliana_b/portraits/ombrask.png",
+      "source": {
+        "name": "Ombrask",
+        "kind": "species",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Plane Shift Press",
+        "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+        "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=166",
+        "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=166",
+        "publicationPage": "",
+        "printedPages": [
+          165
+        ],
+        "page": "Chapter 6, pp. 165, Ombrask Traits and Former Race Boons.",
+        "heading": "Ombrask Traits and Former Race Boons",
+        "creatureType": "Humanoid",
+        "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+        "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Aster uses the Medium former elf and its +1 Intelligence option. The printed entry does not replace the usual Humanoid type.",
+          "This build starts with one captured voice and remains below the 5th-level Fade Away threshold."
+        ]
+      }
+    },
+    {
+      "name": "Oniborne",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_b",
+      "parentSpecies": null,
+      "aliases": "Oniborne / oni descendants. Group Red, Blue, and Green. The published Oni player and encounter profiles have separate rules.",
+      "npcs": [
+        "Iori Reedjaw"
+      ],
+      "portrait": "parts/ten_yokai_b/portraits/oniborne.png",
+      "source": {
+        "name": "Oniborne",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+        "page": "Chapter 8, pp. 132–135, Oniborne Traits.",
+        "printedPages": [
+          132,
+          133,
+          134,
+          135
+        ],
+        "heading": "Oniborne Traits",
+        "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+        "sourceDistinctions": [
+          "Reading order puts Weeping Magic with Red. It continues the Red list onto p. 134 before the Blue heading. Blue has no spellcasting from lineage.",
+          "Red Magical Scavenger uses the final 1-minute or Harvesting check procedure."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Oozekin",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_b",
+      "parentSpecies": null,
+      "aliases": "Oozekin / ooze kin. Use the native printed profile. Oozefolk, Amoeboid, and Plasmoid keep their own rules.",
+      "npcs": [
+        "Brine Button"
+      ],
+      "portrait": "parts/ten_heliana_b/portraits/oozekin.png",
+      "source": {
+        "name": "Oozekin",
+        "kind": "species",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Plane Shift Press",
+        "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+        "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=168",
+        "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=168",
+        "publicationPage": "",
+        "printedPages": [
+          167
+        ],
+        "page": "Chapter 6, pp. 167, Oozekin Traits.",
+        "heading": "Oozekin Traits",
+        "creatureType": "Humanoid",
+        "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+        "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Rechecked the printed Cube and Puddle actions and the 2014 acid splash, which targets one creature or a close pair rather than a 5-ft. sphere.",
+          "The NPC uses a Medium starting size. Its held shield and mace matter for managing free hands."
+        ]
+      }
+    },
+    {
+      "name": "Opteran",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_b",
+      "parentSpecies": null,
+      "aliases": "Opteran / opterans. Keep all printed subraces under one claim. Other insectile lineages remain separate.",
+      "npcs": [
+        "Bobbin Rush"
+      ],
+      "portrait": "parts/ten_heliana_b/portraits/opteran.png",
+      "source": {
+        "name": "Opteran",
+        "kind": "species",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Plane Shift Press",
+        "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+        "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=170",
+        "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=170",
+        "publicationPage": "",
+        "printedPages": [
+          169
+        ],
+        "page": "Chapter 6, pp. 169, Opteran Traits.",
+        "heading": "Opteran Traits",
+        "creatureType": "Humanoid",
+        "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+        "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Bard",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Bobbin is a 1st-level larva. The 20-ft. adult flight and loss of String Shot are from the first printing, and neither applies to this build."
+        ]
+      }
+    },
+    {
+      "name": "Plagueborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_b",
+      "parentSpecies": null,
+      "aliases": "Plagueborn. Use this published rat-like species. Ratling, Rakin, and other rodent folk are separate.",
+      "npcs": [
+        "Nix Wattle"
+      ],
+      "portrait": "parts/ten_moon_b/portraits/plagueborn.png",
+      "source": {
+        "name": "Plagueborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Humanoid",
+        "url": "",
+        "rulesReadUrl": "",
+        "publicationPage": "",
+        "page": "p. 11 in 2024 Player v1.1, Plagueborn Traits.",
+        "printedPages": [
+          11
+        ],
+        "heading": "Plagueborn Traits",
+        "provenance": "Avantris Entertainment, The Crooked Moon Player for 2024 rules, v1.1.",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions"
+      }
+    },
+    {
+      "name": "Rakin",
+      "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_heliana_b",
+      "parentSpecies": null,
+      "aliases": "Rakin. Group Posskin, Tanukin, and Urkin. Keep distinct from Ratling and other woodland folk.",
+      "npcs": [
+        "Tansy Bolt"
+      ],
+      "portrait": "parts/ten_heliana_b/portraits/rakin.png",
+      "source": {
+        "name": "Rakin",
+        "kind": "species",
+        "publication": "Heliana’s Guide to Monster Hunting (first printing)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Plane Shift Press",
+        "author": "Max Wartelle, Mohamed Bellafquih, and Jesse Jackdaw Burns",
+        "url": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=172",
+        "rulesReadUrl": "https://online.anyflip.com/ltplu/rswq/mobile/index.html#p=172",
+        "publicationPage": "",
+        "printedPages": [
+          171,
+          172,
+          173
+        ],
+        "page": "Chapter 6, pp. 171, 172, 173, Rakin Traits, Urkin, Posskin, and Tanukin.",
+        "heading": "Rakin Traits, Urkin, Posskin, and Tanukin",
+        "creatureType": "Humanoid",
+        "sourceVersion": "First edition, first printing, April 2023, ISBN 978-1-9990962-8-1",
+        "provenance": "Player traits from chapter 6 of the April 2023 first printing of Heliana’s Guide to Monster Hunting, using the 2014 fifth-edition rules.",
+        "errata": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "sourceDistinctions": [
+          "Posskin Play Dead on p. 172 omits a word. The October 9, 2024 first-printing errata restores the intended casual-glance wording. The 5-ft. Investigation contest is in the first printing.",
+          "Tansy uses Posskin and Deception Expertise, which applies to the Constitution (Deception) contest as a Deception check."
+        ]
+      }
+    },
+    {
+      "name": "Relicborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_c",
+      "parentSpecies": null,
+      "aliases": "Relicborn. Use this skeleton-like reborn species and its printed lineage traits.",
+      "npcs": [
+        "Ione Cordsong"
+      ],
+      "portrait": "parts/ten_moon_c/portraits/relicborn.png",
+      "source": {
+        "name": "Relicborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Undead",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "2024 Player v1.1, folio printed on the page",
+        "printedPages": [
+          12
+        ],
+        "heading": "Relicborn Traits",
+        "publisherListing": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+        "sourceDistinctions": [
+          "The 2024 version uses Undead. The character keeps that creature type.",
+          "A roll of 20 or higher on the Dance of Death check qualifies for temporary HP. The die roll for temporary HP does not include Constitution or consume the Hit Point Die."
+        ]
+      }
+    },
+    {
+      "name": "Ryokido",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_b",
+      "parentSpecies": null,
+      "aliases": "Ryokido / Ryōkido. Use the final turtle lineage, also described as a lion turtle in the final text. Keep Tortle separate.",
+      "npcs": [
+        "Gen Tidemark"
+      ],
+      "portrait": "parts/ten_yokai_b/portraits/ryokido.png",
+      "source": {
+        "name": "Ryokido",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+        "page": "Chapter 8, pp. 136–137, Ryokido Traits.",
+        "printedPages": [
+          136,
+          137
+        ],
+        "heading": "Ryokido Traits",
+        "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+        "sourceDistinctions": [
+          "The chapter opens on p. 136, which also contains the start of the traits. P. 137 continues them. P. 135 closes Oniborne.",
+          "Ryokido is the canonical key from the final chapter. Ryōkido and Lion Turtle are lookup aliases."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Shadow",
+      "publication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_kamstra_a",
+      "parentSpecies": null,
+      "aliases": "Shadow / Shadows. Use the undead player conversion. Keep Shade, Shadowcast, and Shadow Mastiff separate.",
+      "npcs": [
+        "Sill"
+      ],
+      "portrait": "parts/ten_kamstra_a/portraits/shadow.png",
+      "source": {
+        "name": "Shadow",
+        "publication": "Monstrous Races (2018)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "kind": "species",
+        "publisher": "Dungeon Masters Guild",
+        "author": "Tyler Kamstra",
+        "creatureType": "Undead",
+        "url": "",
+        "rulesReadUrl": "",
+        "printedPages": [
+          185
+        ],
+        "page": "p. 185 in v2. Shadow Traits.",
+        "provenance": "Checked against the printed v2 player trait block in the PDFCoffee mirror.",
+        "publisherListing": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "sourceDistinctions": [
+          "The playable trait box omits the encounter monster’s ability score loss and shadow creation. It grants poison immunity. Radiant vulnerability and necrotic resistance appear in the design discussion alone.",
+          "The Shadow can write and retains ordinary 0 HP rules. Rest healing is allowed under v2 p. 7. The supplement discusses optional repair spells, which this build does not require."
+        ],
+        "npcExamples": [
+          "Sill"
+        ]
+      }
+    },
+    {
+      "name": "Silkborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_c",
+      "parentSpecies": null,
+      "aliases": "Silkborn. Use Avantris's arachnid lineage. Spiderfolk, Drider, and other spider-based profiles remain separate.",
+      "npcs": [
+        "Sefra Glintreed"
+      ],
+      "portrait": "parts/ten_moon_c/portraits/silkborn.png",
+      "source": {
+        "name": "Silkborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Humanoid",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "2024 Player v1.1, folio printed on the page",
+        "printedPages": [
+          13
+        ],
+        "heading": "Silkborn Traits",
+        "publisherListing": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+        "sourceDistinctions": [
+          "Bejeweled Carapace applies to the triggering attack alone. The book grants no constant armor formula.",
+          "The jeweled familiar description applies at level 3. The level-1 rogue has only the Thaumaturgy cantrip."
+        ]
+      }
+    },
+    {
+      "name": "Stoneborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_c",
+      "parentSpecies": null,
+      "aliases": "Stoneborn. Use the gargoyle-like reborn species. Gargoyle and Rockborn retain separate rules.",
+      "npcs": [
+        "Penn Talus"
+      ],
+      "portrait": "parts/ten_moon_c/portraits/stoneborn.png",
+      "source": {
+        "name": "Stoneborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Construct",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "2024 Player v1.1, folio printed on the page",
+        "printedPages": [
+          14
+        ],
+        "heading": "Stoneborn Traits",
+        "publisherListing": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+        "sourceDistinctions": [
+          "The fly speed is half the walking speed, 15 ft. for Penn.",
+          "Silver Bulwark states when the reaction is available but does not say whether resistance applies to the triggering damage. This build uses the default reaction timing, beginning resistance after the triggering damage. A table can rule otherwise.",
+          "The two Argent Gleam options use one common charge per long rest."
+        ]
+      }
+    },
+    {
+      "name": "Tatsumi",
+      "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_yokai_b",
+      "parentSpecies": null,
+      "aliases": "Tatsumi. Group Nishikin and Ryūjin / Ryujin and keep the printed transition within this profile.",
+      "npcs": [
+        "Nami Reedscale"
+      ],
+      "portrait": "parts/ten_yokai_b/portraits/tatsumi.png",
+      "source": {
+        "name": "Tatsumi",
+        "publication": "Ryoko’s Guide to the Yokai Realms (v1.00)",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Loot Tavern",
+        "creatureType": "Humanoid",
+        "url": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "rulesReadUrl": "https://anyflip.com/qwvsj/izqk/basic/101-150",
+        "publicationPage": "https://loottavern.com/product/ryokos-guide-to-the-yokai-realms-digital/",
+        "page": "Chapter 8, pp. 138–141, Tatsumi Traits.",
+        "printedPages": [
+          138,
+          139,
+          140,
+          141
+        ],
+        "heading": "Tatsumi Traits",
+        "provenance": "Loot Tavern, Ryoko's Guide to the Yokai Realms v1.00, chapter 8. This profile uses the final 2014-compatible player rules.",
+        "sourceDistinctions": [
+          "Nishikin and Ryūjin share the Tatsumi entry. Moonblessed requires the full number of dice and adds Constitution once. The sample is a white-primary Nishikin with two Hit Dice."
+        ],
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+      }
+    },
+    {
+      "name": "Threadborn",
+      "publication": "The Crooked Moon (2024 Player v1.1)",
+      "edition": "Fifth edition compatible (2024 rules)",
+      "owner": "ten_moon_c",
+      "parentSpecies": null,
+      "aliases": "Threadborn. Use this living doll lineage. Geppettin and other constructs have separate profiles.",
+      "npcs": [
+        "Pella Buttonkeel"
+      ],
+      "portrait": "parts/ten_moon_c/portraits/threadborn.png",
+      "source": {
+        "name": "Threadborn",
+        "publication": "The Crooked Moon (2024 Player v1.1)",
+        "edition": "Fifth edition compatible (2024 rules)",
+        "publisher": "Avantris Entertainment",
+        "creatureType": "Construct",
+        "url": "",
+        "rulesReadUrl": "",
+        "version": "2024 Player v1.1, folio printed on the page",
+        "printedPages": [
+          15
+        ],
+        "heading": "Threadborn Traits",
+        "publisherListing": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/br-2024/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/br-2024/character-origins",
+        "spellRules": "https://www.dndbeyond.com/sources/dnd/br-2024/spell-descriptions",
+        "coreCharacterCreation": "https://www.dndbeyond.com/sources/dnd/br-2024/creating-a-character",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/br-2024/playing-the-game",
+        "sourceDistinctions": [
+          "The no-slot Calm Emotions expands legal targets to all creature types. Casting from a slot uses the standard target restriction.",
+          "Sewn Nature affects breathing, food and drink. It gives no exception to sleep requirements.",
+          "You’ve Got a Friend is a separate reaction use of Guidance. The character can still cast the cantrip with its normal action without expending a reaction use."
+        ]
+      }
+    },
+    {
+      "name": "Zoog",
+      "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "owner": "ten_mythos",
+      "parentSpecies": null,
+      "aliases": "Zoog / zoogs. Use the player version and keep Zoog Trapper encounter rules separate.",
+      "npcs": [
+        "Latch Quickroot"
+      ],
+      "portrait": "parts/ten_mythos/portraits/zoog-v2.png",
+      "source": {
+        "name": "Zoog",
+        "publication": "Sandy Petersen’s Cthulhu Mythos for 5e",
+        "edition": "Fifth edition compatible (2014 rules)",
+        "publisher": "Petersen Games",
+        "author": "Sandy Petersen, James Jacobs, Arthur Petersen, Ian Starcher, and David N. Ross",
+        "creatureType": "Humanoid",
+        "url": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "rulesReadUrl": "https://www.scribd.com/document/521806750/Sandy-Petersen-s-Cthulhu-Mythos-5e",
+        "printedPages": [
+          34
+        ],
+        "heading": "Zoog Traits",
+        "version": "Copyright 2018, ISBN 978-0-9995390-4-0. Author text consulted in a reproduction.",
+        "publisherPreview": "",
+        "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+        "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+        "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+        "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+        "sourceDistinctions": [
+          "The printed player build is a Humanoid even though it moves on handlike paws. Only the printed player traits are used."
+        ]
+      }
+    }
+  ]
+}

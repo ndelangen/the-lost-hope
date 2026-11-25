@@ -1,0 +1,24 @@
+{
+  "baseline": "f53de5a0f3846c59a8840772562ab020b926242d",
+  "temporaryCopy": true,
+  "exactProfiles": 2,
+  "printedCombatProfilesVerified": 2,
+  "searchableByNameRuleAppearanceHabitat": 2,
+  "globalSearchResults": 2,
+  "hitDiceBranchesVerified": 12,
+  "newBaseCatalogEntries": [
+    "Shark"
+  ],
+  "distinctCorsairsVersionKeys": true,
+  "verifiedWithCorsairsAfterCombiningProfilesAndTsvRows": true,
+  "existingGiantSharkDefault": "Basic Rules (2018)",
+  "existingGiantSharkThumbnailPreserved": true,
+  "existingPublicationVersionsPreserved": true,
+  "publisherGalleriesPreserved": true,
+  "compatibleWithPreviouslyStagedMonstrousManualPatches": true,
+  "saltWaterAppendixVerified": true,
+  "versionPortraitsVerified": 2,
+  "newPortraitDrafts": 2,
+  "noChallengeImported": true,
+  "selectedPublication": "Monstrous Manual (1994 third printing)"
+}

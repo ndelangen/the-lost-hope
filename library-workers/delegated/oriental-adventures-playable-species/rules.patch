@@ -1,0 +1,178 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309493,6 +309493,39 @@
+   ],
+   "species": [
+     {
++      "name": "Nezumi",
++      "kind": "species",
++      "publication": "Oriental Adventures (2001)",
++      "edition": "3.0 edition",
++      "traits": [
++        "Ratlike humanoid with a long muzzle, prominent incisors, rough fur, and a mostly bare tail. The printed setting describes Nezumi in Rokugan and the Shadowlands.",
++        "Medium. Base land speed 40 ft. Constitution +2, Charisma −2.",
++        "Low-light vision extends useful vision to twice the human distance in dim conditions while retaining color and detail.",
++        "Racial +2 to Hide and Move Silently. Racial +2 on saves against poison and disease.",
++        "Immune to acquiring a Shadowlands Taint score and to ill effects of direct Shadowlands exposure. Taint spells and Shadowlands creature attacks can still harm a Nezumi.",
++        "Claw or bite deals 1d4 normal damage as an unarmed strike. Choose one of these unarmed attacks per round.",
++        "Keen Scent permits the optional Scent feat at Wisdom 11 or higher. It does not grant that feat automatically.",
++        "With Scent, detect a presence as a free action within 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. Finding direction costs a move-equivalent action. Pinpoint within 5 ft.",
++        "With Scent, follow a trail using Wisdom. A fresh trail is usually DC 10 and the DC rises by 2 per hour. Scent and group size can modify it. Surface and visibility penalties do not apply. Water can erase a trail, and masking odors raise the base tracking DC to 20. The track otherwise follows the Track feat.",
++        "Automatic languages Rokugani and Nezumi. Bonus languages Bakemono and Shadowlands. Favored class Rogue."
++      ]
++    },
++    {
++      "name": "Vanara",
++      "kind": "species",
++      "publication": "Oriental Adventures (2001)",
++      "edition": "3.0 edition",
++      "traits": [
++        "Monkeylike humanoid with rounded ears, furred cheeks, long fingers and toes, and a semi-prehensile tail. The printed setting places Vanaras in deep forests and high mountains outside Rokugan.",
++        "Medium. Base land speed 30 ft. Climb speed 20 ft. Strength −2, Intelligence +2, Wisdom +2.",
++        "Racial +8 to Climb. Use the better of Strength or Dexterity for Climb checks, and take 10 even when rushed or threatened.",
++        "An accelerated climb covers 30 ft. with one Climb check at −5 each round.",
++        "Low-light vision extends useful vision to twice the human distance in dim conditions while retaining color and detail.",
++        "Racial +4 to Balance and Jump. Racial +2 to Hide and Move Silently.",
++        "Automatic languages Common and Vanara, called Vanaran in the prose. Bonus languages Giant, Goblin, Spirit Tongue, and Sylvan. Favored class Shaman."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Acquisitions Incorporated",
+       "name": "Verdan",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -1,5 +1,85 @@
+ {
+   "builds": [
++    {
++      "id": "nezumi-trail-scout-3e",
++      "title": "Nezumi trail scout, Warrior 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.0 edition"],
++      "difficulty": "Provisional CR 1/2",
++      "size": "Medium",
++      "type": "Humanoid (Nezumi)",
++      "ac": 13,
++      "hp": 6,
++      "hitDice": "1d8+1",
++      "initiative": 1,
++      "speed": "40 ft.",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 13,
++        "CON": 13,
++        "INT": 9,
++        "WIS": 10,
++        "CHA": 6
++      },
++      "skills": ["Climb +3", "Hide +4", "Listen +2", "Move Silently +3", "Spot +2"],
++      "senses": "Low-light vision",
++      "languages": "Rokugani, Nezumi",
++      "traits": [
++        "Leather armor. Touch AC 11, flat-footed AC 12. Base attack bonus +1. Face 5 by 5 ft., reach 5 ft. unless using the longspear.",
++        "Fortitude +3, Reflex +1, Will +0. Add +2 on saves against poison and disease.",
++        "Alertness is the chosen feat. Scent is an optional species feat and is not part of this build.",
++        "Cannot gain Shadowlands Taint from exposure. Spells and special attacks associated with the Taint still apply."
++      ],
++      "actions": [
++        "Longspear. Melee +2, 10-ft. reach only. Hit 1d8+1 piercing, critical ×3.",
++        "Claw or bite. Melee +2, 5-ft. reach. Hit 1d4+1 normal damage. One such unarmed attack per round.",
++        "Javelin. Ranged +2, 30-ft. range increment. Hit 1d6+1 piercing, critical ×2."
++      ],
++      "tactics": "Warns from cover first. Uses the spear to hold a narrow passage or the javelin to cover a retreat. Falls back if the party agrees to verify the route together."
++    },
++    {
++      "id": "vanara-canopy-guide-3e",
++      "title": "Vanara canopy guide, Expert 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.0 edition"],
++      "difficulty": "Provisional CR 1/2",
++      "size": "Medium",
++      "type": "Humanoid",
++      "ac": 13,
++      "hp": 5,
++      "hitDice": "1d6+1",
++      "initiative": 1,
++      "speed": "30 ft., climb 20 ft.",
++      "abilityScores": {
++        "STR": 8,
++        "DEX": 13,
++        "CON": 12,
++        "INT": 13,
++        "WIS": 11,
++        "CHA": 8
++      },
++      "skills": [
++        "Balance +9",
++        "Climb +13",
++        "Hide +7",
++        "Listen +6",
++        "Move Silently +7",
++        "Spot +6",
++        "Wilderness Lore +4"
++      ],
++      "senses": "Low-light vision",
++      "languages": "Common, Vanara, Sylvan",
++      "traits": [
++        "Leather armor. Touch AC 11, flat-footed AC 12. Base attack bonus +0. Face 5 by 5 ft., reach 5 ft.",
++        "Fortitude +1, Reflex +1, Will +2. Alertness is the chosen feat.",
++        "Climb uses Dexterity and can take 10 under pressure for a result of 23. Accelerated climb 30 ft. with one Climb check per round at +8 after the −5 penalty."
++      ],
++      "actions": [
++        "Club. Melee −1, 5-ft. reach. Hit 1d6−1 bludgeoning, minimum 1, critical ×2.",
++        "Light crossbow. Ranged +1, 80-ft. range increment. Hit 1d8 piercing, critical 19–20/×2. Reload as a move-equivalent action."
++      ],
++      "tactics": "Stays near a climbable route, points out safe handholds, and keeps people moving. Uses a loaded crossbow from cover only if the group is forced to defend itself."
++    },
+     {
+       "id": "route-warden",
+       "title": "Route warden",
+@@ -97,6 +177,26 @@
+   ],
+   "concepts": [
+     {
++      "species": "Nezumi",
++      "size": "Medium",
++      "edition": "3.0 edition",
++      "name": "Tesk Reedmark",
++      "build": "nezumi-trail-scout-3e",
++      "role": "Trail scout and waystation witness",
++      "motive": "Keep the refuge supplied after travelers stop trusting the road markers.",
++      "hook": "Tesk saw who moved the flood markers and will take the party to the washed-out trail if someone stays to warn incoming travelers."
++    },
++    {
++      "species": "Vanara",
++      "size": "Medium",
++      "edition": "3.0 edition",
++      "name": "Nemi",
++      "build": "vanara-canopy-guide-3e",
++      "role": "Canopy guide and rope-bridge keeper",
++      "motive": "Get a repair crew across the ravine before another support gives way.",
++      "hook": "Nemi can lead the party up an old canopy route if they carry a coil of rope and check the upper anchor."
++    },
++    {
+       "species": "Dragonborn",
+       "size": "Medium",
+       "edition": "2024 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -6941,6 +6941,7 @@
+ Nester	monster	Undead	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/273059-nester	12
+ Nevermind Gnome Inventor	monster	Humanoid	Monstrous Compendium Vol. 2: Dragonlance Creatures	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3086274-nevermind-gnome-inventor	2
+ Nevermind Gnome Mastermind	monster	Humanoid	Monstrous Compendium Vol. 2: Dragonlance Creatures	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3086290-nevermind-gnome-mastermind	5
++Nezumi	species	Humanoid	Oriental Adventures (2001)	3.0 edition	Wizards of the Coast	https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ	
+ Nezznar the Black Spider	monster	Humanoid	Lost Mine of Phandelver	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/22027-nezznar-the-black-spider	2
+ Nezznar the Spider	monster	Humanoid	Phandelver and Below: The Shattered Obelisk	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3805759-nezznar-the-spider	2
+ Night Blade	monster	Undead	Monsters of Drakkenheim	2024 fifth edition compatible	Ghostfire Gaming	https://www.dndbeyond.com/monsters/5525072-night-blade	7
+@@ -9836,6 +9837,7 @@
+ Vampiric Mist	monster	Undead	Mordenkainen’s Tome of Foes	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/23135-vampiric-mist	3
+ Vampyre	monster		Denizens of Darkness	3.0 edition	Sword & Sorcery		
+ Vampyre	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
++Vanara	species	Humanoid	Oriental Adventures (2001)	3.0 edition	Wizards of the Coast	https://books.google.com/books/about/Oriental_Adventures.html?hl=en&id=0Cj3kQEACAAJ	
+ Vanifer	monster	Humanoid	Princes of the Apocalypse	2014 fifth edition	Wizards of the Coast		9
+ Varakkta	monster	Humanoid	Phandelver and Below: The Shattered Obelisk	2014 fifth edition	Wizards of the Coast		8
+ Vargouille	monster	Fiend	Mordenkainen Presents: Monsters of the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2560947-vargouille	1

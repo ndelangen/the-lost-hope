@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Agony the Ghost",
+    "query": "tiefling ghost lower cargo hold possession last breath",
+    "term": "Frightened",
+    "parent": "Ghost",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Spelljammer: Adventures in Space",
+        "url": ""
+      },
+      {
+        "credit": "Related tiefling sailor Fel Ardra by Zuzanna Wužyk · Light of Xaryxis · Spelljammer: Adventures in Space",
+        "url": ""
+      },
+      {
+        "credit": "Related Ghost art · Monster Manual (2014) · Spelljammer: Adventures in Space",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Flapjack the Flumph",
+    "query": "lavender flumph moondancer advanced telepathy",
+    "term": "Magic Missile",
+    "parent": "Flumph",
+    "publication": "Monster Manual (2014)",
+    "alternates": [
+      {
+        "credit": "Suzanne Helmigh · Spelljammer: Adventures in Space",
+        "url": ""
+      },
+      {
+        "credit": "D&D Beyond publisher art · Spelljammer: Adventures in Space",
+        "url": ""
+      }
+    ]
+  }
+]

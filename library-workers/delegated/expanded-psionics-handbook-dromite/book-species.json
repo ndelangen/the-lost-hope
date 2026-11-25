@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Fire Caste",
+    "edition": "3.5 edition",
+    "traits": [
+      "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
+      "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
+      "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
+      "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+      "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
+      "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
+      "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
+      "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
+      "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
+      "Fire Caste has fire resistance 5. Add +1 damage per die. At manifester level 1, the ray deals 1d6+1 fire damage."
+    ]
+  },
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Glimmer Caste",
+    "edition": "3.5 edition",
+    "traits": [
+      "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
+      "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
+      "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
+      "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+      "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
+      "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
+      "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
+      "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
+      "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
+      "Glimmer Caste has electricity resistance 5. Add +3 to the attack roll against a target wearing metal armor and +2 to the manifester-level check against power resistance. At manifester level 1, the ray deals 1d6 electricity damage."
+    ]
+  },
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Ice Caste",
+    "edition": "3.5 edition",
+    "traits": [
+      "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
+      "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
+      "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
+      "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+      "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
+      "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
+      "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
+      "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
+      "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
+      "Ice Caste has cold resistance 5. Add +1 damage per die. At manifester level 1, the ray deals 1d6+1 cold damage."
+    ]
+  },
+  {
+    "name": "Dromite",
+    "kind": "species",
+    "publication": "Expanded Psionics Handbook (2004) · Voice Caste",
+    "edition": "3.5 edition",
+    "traits": [
+      "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
+      "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
+      "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
+      "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+      "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
+      "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
+      "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
+      "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
+      "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
+      "Voice Caste has sonic resistance 5. Subtract 1 damage per die. The ray ignores object hardness. At manifester level 1, the ray deals 1d6−1 sonic damage."
+    ]
+  }
+]

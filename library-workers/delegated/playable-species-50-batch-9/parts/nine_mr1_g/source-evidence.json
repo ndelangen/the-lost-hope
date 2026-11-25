@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Awakened Shrub",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 219, Awakened Shrub Traits",
+    "printedPages": [
+      219
+    ],
+    "creatureType": "Plant",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+    "sourceDistinctions": [
+      "Kamstra prints a usable trait block and describes the option as very weak in the play advice and design notes. Tanglebud uses the printed values.",
+      "The trait block has no No Hands line. Tanglebud fights without weapons, shields, or any item that must be manipulated.",
+      "The supplement’s p. 7 rule limits Martial Arts bonus strikes to the class damage die and bludgeoning damage. Tanglebud’s Attack action can still use the printed Rake die."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+    }
+  },
+  {
+    "name": "Axe Beak",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 220, Axe Beak Traits",
+    "printedPages": [
+      220
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+    "sourceDistinctions": [
+      "The printed Bite deals slashing damage. Cleftbill’s build uses the player conversion as written and carries no hand-dependent gear."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+    }
+  },
+  {
+    "name": "Blink Dog",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 223, Blink Dog Traits",
+    "printedPages": [
+      223
+    ],
+    "creatureType": "Fey",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+    "sourceDistinctions": [
+      "The player trait block refers to “Blind dogs” in its opening sentence. The title and the rest of the page identify Blink Dog.",
+      "Monk Martial Arts allows Dexterity on the Attack action bite. Under p. 7, bonus strikes use the monk die and deal bludgeoning damage. Teleport consumes the same bonus action as Martial Arts, Patient Defense, or Step of the Wind."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+    }
+  },
+  {
+    "name": "Death Dog",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 228, Death Dog Traits",
+    "printedPages": [
+      228
+    ],
+    "creatureType": "Monstrosity",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+    "sourceDistinctions": [
+      "The species traits grant a Bite and the defensive Two Heads trait. The encounter monster’s disease is outside these player traits. A second Bite in this build comes from the Fighter’s Action Surge."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+    }
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "page": "v2 p. 236, Giant Fire Beetle Traits",
+    "printedPages": [
+      236
+    ],
+    "creatureType": "Beast",
+    "provenance": "Tyler Kamstra's DMs Guild player conversion for 2014 fifth edition. The rules below use the v2 text.",
+    "sourceDistinctions": [
+      "The playable beetle is Small. Its intact glands use the player Illumination radius. No harvested-gland effect was imported from encounter rules.",
+      "Wick uses natural armor. Barbarian Unarmored Defense gives the same 15 AC in this build and does not stack with it."
+    ],
+    "supportingSources": {
+      "publication": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "2014BackgroundIndex": "https://www.dndbeyond.com/backgrounds"
+    }
+  }
+]

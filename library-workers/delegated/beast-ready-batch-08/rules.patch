@@ -1,0 +1,2004 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index bc29129..9cccd1b 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -4449,6 +4449,1999 @@
+     "publication": "SRD 5.1",
+     "armor": "natural armor"
+   },
++  {
++    "name": "Squid",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal (Aquatic), always neutral",
++    "ac": 16,
++    "hp": 13,
++    "hitDice": "3d8",
++    "initiative": 3,
++    "speed": "Swim 60 ft. (12 squares)",
++    "cr": "1",
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Initiative +3. AC is 16 (+3 Dex, +3 natural), touch 13, flat-footed 13. Space/reach 5 ft./5 ft.. Base attack +2. Grapple +8. Fortitude +3, Reflex +6, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slender reddish-brown squid with a tapered finned mantle and long curling arms and tentacles.",
++    "habitats": ["Temperate aquatic"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Squid. https://www.d20srd.org/srd/monsters/squid.htm",
++      "Attack": "Arms +4 melee, 0 damage.",
++      "Full attack": "Arms +4 melee for 0 damage and Bite −1 melee for 1d6 + 1 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nAquatic. It breathes water and has no ability to breathe air.\nInk Cloud (Ex). Once per minute as a free action, release a 10-ft. cube of ink. Vision inside is obscured and the cloud gives total concealment. The entry gives no duration for the cloud.\nJet (Ex). Once per round as a full-round action, move backward in a straight line at speed 240 ft. without provoking attacks of opportunity.",
++      "Skills and feats": "Skills. Listen +7, Spot +7, Swim +10. The squid has a +8 racial bonus on Swim checks for a special action or to avoid a hazard. It can take 10 while distracted or endangered, and can run when swimming in a straight line.\nFeats. Alertness, Endurance.",
++      "Encounter ecology": "Environment. Temperate aquatic. Organization. Solitary or school (6–11). Squid are aggressive free-swimming mollusks. Ink helps a squid escape a losing fight. Treasure none. Advancement. 4–6 HD (Medium), 7–11 HD (Large). Level adjustment none listed.",
++      "Special attacks": "Improved Grab (Ex). When Arms hits an opponent of any size, the squid can start a grapple as a free action with no touch attack or attack of opportunity. A successful grapple check establishes the hold and automatically deals Bite damage. The listed grapple +8 includes its +4 racial bonus."
++    }
++  },
++  {
++    "name": "Tiger",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Large Animal, always neutral",
++    "ac": 14,
++    "hp": 45,
++    "hitDice": "6d8 + 18",
++    "initiative": 2,
++    "speed": "40 ft. (8 squares)",
++    "cr": "4",
++    "abilities": {
++      "Str": {
++        "score": 23,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Initiative +2. AC is 14 (−1 size, +2 Dex, +3 natural), touch 11, flat-footed 12. Space/reach 10 ft./5 ft.. Base attack +4. Grapple +14. Fortitude +8, Reflex +7, Will +3.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-shouldered tiger with tawny orange fur, dark stripes, pale cheeks and a long banded tail.",
++    "habitats": ["Warm forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Tiger. https://www.d20srd.org/srd/monsters/tiger.htm",
++      "Attack": "Claw +9 melee, 1d8 + 6 damage.",
++      "Full attack": "Two Claws +9 melee for 1d8 + 6 damage each and Bite +4 melee for 2d6 + 3 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Balance +6, Hide +3, Listen +3, Move Silently +9, Spot +3, Swim +11. The racial bonus to Balance, Hide and Move Silently is +4. The racial bonus to Hide rises to +8 in tall grass or heavy undergrowth.\nFeats. Alertness, Improved Natural Weapon (bite), Improved Natural Weapon (claw).",
++      "Encounter ecology": "Environment. Warm forests. Organization. Solitary. The creature is about 9 ft. long and 400–600 lb. Treasure none. Advancement. 7–12 HD (Large), 13–18 HD (Huge). Level adjustment none listed.",
++      "Special attacks": "Improved Grab (Ex). After hitting a Medium or smaller opponent with Claw or Bite, the tiger can try to grapple as a free action with no touch attack or attack of opportunity. A successful check establishes a hold.\nPounce (Ex). On a charge, the tiger can make its full attack and two Rakes.\nRake (Ex). Each rake is +9 melee for 1d8 + 3 damage. With an ordinary grapple, the tiger must start its turn grappling to use the two extra claw attacks. Rakes ignore the usual −4 penalty for natural attacks made in a grapple."
++    }
++  },
++  {
++    "name": "Triceratops",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal, always neutral",
++    "ac": 18,
++    "hp": 196,
++    "hitDice": "16d8 + 124",
++    "initiative": -1,
++    "speed": "30 ft. (6 squares)",
++    "cr": "9",
++    "abilities": {
++      "Str": {
++        "score": 30,
++        "modifier": 10
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 25,
++        "modifier": 7
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Initiative -1. AC is 18 (−2 size, −1 Dex, +11 natural), touch 7, flat-footed 18. Space/reach 15 ft./10 ft.. Base attack +12. Grapple +30. Fortitude +19, Reflex +9, Will +6.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A massive brown quadruped with a broad bony frill, two long brow horns and a smaller nose horn.",
++    "habitats": ["Temperate plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Triceratops. https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops",
++      "Attack": "Gore +20 melee, 2d8 + 15 damage.",
++      "Full attack": "One Gore +20 melee, 2d8 + 15 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Listen +13, Spot +12.\nFeats. Alertness, Great Fortitude, Toughness (four times).",
++      "Encounter ecology": "Environment. Temperate plains. Organization. Solitary, pair, or herd (5–8). It is about 25 ft. long and can weigh about 20,000 lb. The combat prose favors charging larger intruders and trampling smaller opponents. Treasure none. Advancement. 17–32 HD (Huge), 33–48 HD (Gargantuan). Level adjustment none listed.",
++      "Special attacks": "Powerful Charge (Ex). A Gore made as part of a charge deals 4d8 + 20 damage. Apply the usual charge modifiers.\nTrample (Ex). As a full-round action, move up to twice speed, or 60 ft., and run over opponents at least one size smaller. A creature is trampled when the triceratops covers its whole space. Deal 2d12 + 15 bludgeoning damage once per target per round. A trampled opponent can make an attack of opportunity at −4, or attempt a DC 28 Reflex save for half. A partially covered larger space permits the −4 attack of opportunity without trampling. If it ends in an illegal space, return it to its most recent legal position or the nearest legal position if closer."
++    }
++  },
++  {
++    "name": "Tyrannosaurus",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Huge Animal, always neutral",
++    "ac": 14,
++    "hp": 180,
++    "hitDice": "18d8 + 99",
++    "initiative": 1,
++    "speed": "40 ft. (8 squares)",
++    "cr": "8",
++    "abilities": {
++      "Str": {
++        "score": 28,
++        "modifier": 9
++      },
++      "Dex": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Initiative +1. AC is 14 (−2 size, +1 Dex, +5 natural), touch 9, flat-footed 13. Space/reach 15 ft./10 ft.. Base attack +13. Grapple +30. Fortitude +16, Reflex +12, Will +8.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy-jawed golden-brown biped with prominent teeth, small clawed forelimbs and a long balancing tail.",
++    "habitats": ["Warm plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Tyrannosaurus. https://www.d20srd.org/srd/monsters/dinosaur.htm#tyrannosaurus",
++      "Attack": "Bite +20 melee, 3d6 + 13 damage.",
++      "Full attack": "One Bite +20 melee, 3d6 + 13 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Hide −2, Listen +14, Spot +14. It has a +2 racial bonus on Listen and Spot.\nFeats. Alertness, Improved Natural Attack (bite), Run, Toughness (three times), Track.",
++      "Encounter ecology": "Environment. Warm plains. Organization. Solitary or pair. It pursues prey, closes quickly and bites with its large jaws. Treasure none. Advancement. 19–36 HD (Huge), 37–54 HD (Gargantuan). Level adjustment none listed.",
++      "Special attacks": "Improved Grab (Ex). A Bite hit against a Large or smaller opponent lets it attempt a grapple as a free action without a touch attack or attack of opportunity. A successful grapple check establishes a hold.\nSwallow Whole (Ex). On a turn it begins holding a Medium or smaller opponent in its mouth, it can make a new grapple check as if pinning that opponent. On a win it deals Bite damage and swallows the target. Each round inside the gizzard deals 2d8 + 8 bludgeoning plus 8 acid damage.",
++      "Escape and capacity": "A swallowed creature is grappled. The tyrannosaurus is free to act. A swallowed creature can use a light slashing or piercing weapon to deal 25 damage to the gizzard (AC 12) and cut free. The opening closes afterward. A successful escape from the grapple puts the target back in the mouth. The gizzard holds 2 Medium, 8 Small, 32 Tiny, or 128 Diminutive or smaller opponents."
++    }
++  },
++  {
++    "name": "War Pony",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 13,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "initiative": 1,
++    "speed": "40 ft. (8 squares)",
++    "cr": "1/2",
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Initiative +1. AC is 13 (+1 Dex, +2 natural), touch 11, flat-footed 12. Space/reach 5 ft./5 ft.. Base attack +1. Grapple +3. Fortitude +5, Reflex +4, Will +0.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sturdy dark-and-white pony with a shaggy mane and tail, a saddle and a bridle.",
++    "habitats": ["Temperate plains"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Pony, War. https://www.d20srd.org/srd/monsters/ponyWar.htm",
++      "Attack": "Hoof +3 melee, 1d3 + 2 damage.",
++      "Full attack": "Two Hooves +3 melee for 1d3 + 2 damage each.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.",
++      "Skills and feats": "Skills. Listen +5, Spot +5.\nFeats. Endurance.",
++      "Encounter ecology": "Environment. Temperate plains. Organization. Domesticated. War ponies are bred to fight while mounted and resemble light warhorses. Treasure none. Advancement. None listed. Level adjustment none listed.",
++      "Mounted combat": "The pony can fight while carrying a rider. For the rider to attack as well, use the war-trained mount Ride check, DC 10 as a free action.",
++      "Carrying capacity": "Light load up to 100 lb. Medium load 101–200 lb. Heavy load 201–300 lb. Drag limit 1,500 lb."
++    }
++  },
++  {
++    "name": "Wolf",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 14,
++    "hp": 13,
++    "hitDice": "2d8 + 4",
++    "initiative": 2,
++    "speed": "50 ft. (10 squares)",
++    "cr": "1",
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Initiative +2. AC is 14 (+2 Dex, +2 natural), touch 12, flat-footed 12. Space/reach 5 ft./5 ft.. Base attack +1. Grapple +2. Fortitude +5, Reflex +5, Will +1.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A long-legged gray wolf with upright ears, a narrow muzzle, a mottled coat and a bushy tail.",
++    "habitats": ["Temperate forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Wolf. https://www.d20srd.org/srd/monsters/wolf.htm",
++      "Attack": "Bite +3 melee, 1d6 + 1 damage.",
++      "Full attack": "One Bite +3 melee, 1d6 + 1 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.\nWith Track, a fresh scent trail typically starts at Survival DC 10. The DC rises by 2 per hour of age, subject to odor strength and the number of creatures. Surface and visibility modifiers do not apply to scent tracking.",
++      "Skills and feats": "Skills. Hide +2, Listen +3, Move Silently +3, Spot +3, Survival +1. Add a +4 racial bonus to Survival when tracking by scent.\nFeats. Track (bonus feat), Weapon Focus (bite).",
++      "Encounter ecology": "Environment. Temperate forests. Organization. Solitary, pair, or pack (7–16). A pack may engage from the front while others circle to the flanks or rear. Treasure none. Advancement. 3 HD (Medium), 4–6 HD (Large). Level adjustment none listed.",
++      "Special attacks": "Trip (Ex). When Bite hits, the wolf can try to trip a Large or smaller opponent as a free action. Use its +1 Strength check modifier, opposed by the target’s better Strength or Dexterity modifier, with the normal size and stability adjustments. This needs no touch attack and provokes no attack of opportunity. If it wins, the target falls prone. If it loses, the opponent gets no countertrip."
++    }
++  },
++  {
++    "name": "Wolverine",
++    "publication": "Revised v3.5 SRD (Monsters)",
++    "edition": "3.5 edition",
++    "classification": "Medium Animal, always neutral",
++    "ac": 14,
++    "hp": 28,
++    "hitDice": "3d8 + 15",
++    "initiative": 2,
++    "speed": "30 ft. (6 squares), burrow 10 ft., climb 10 ft.",
++    "cr": "2",
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Initiative +2. AC is 14 (+2 Dex, +2 natural), touch 12, flat-footed 12. Space/reach 5 ft./5 ft.. Base attack +2. Grapple +4. Fortitude +7, Reflex +5, Will +2.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stocky dark-brown wolverine with a tan band along its sides, rounded ears and short powerful legs.",
++    "habitats": ["Cold forests"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Revised v3.5 SRD, MonstersAnimals.rtf, Wolverine. https://www.d20srd.org/srd/monsters/wolverine.htm",
++      "Attack": "Claw +4 melee, 1d4 + 2 damage.",
++      "Full attack": "Two Claws +4 melee for 1d4 + 2 damage each and Bite −1 melee for 1d6 + 1 damage.",
++      "Special qualities": "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source.\nWith Track, a fresh scent trail typically starts at Survival DC 10. The DC rises by 2 per hour of age, subject to odor strength and the number of creatures. Surface and visibility modifiers do not apply to scent tracking.",
++      "Skills and feats": "Skills. Climb +10, Listen +6, Spot +6. The +8 racial bonus on Climb applies, and the wolverine can take 10 even when rushed or threatened.\nFeats. Alertness, Toughness, Track (bonus feat).",
++      "Encounter ecology": "Environment. Cold forests. Organization. Solitary. The creature has powerful claws and can climb or burrow. Treasure none. Advancement. 4–5 HD (Large). Level adjustment none listed.",
++      "Special attacks": "Rage (Ex). After it takes damage in combat, the wolverine rages on its next turn. It gains +4 Strength and +4 Constitution and takes −2 AC. It keeps fighting until it or its opponent dies and cannot end the rage voluntarily.",
++      "At the table": "While raging, the printed adjustments give AC 12, grapple +6, Fortitude +9 and 6 more HP from Constitution across 3 HD. Claws become +6 melee for 1d4 + 4 each. The secondary Bite becomes +1 melee for 1d6 + 2."
++    }
++  },
++  {
++    "name": "Batracine",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Small Beast, neutral",
++    "ac": 8,
++    "hp": null,
++    "hpRule": "Roll 2d8 + 2. Uses the source’s standard d8 Hit Dice.",
++    "hitDice": "2+2",
++    "speed": "6, swim 12",
++    "xp": 175,
++    "appearance": "A squat frog-bodied animal with a bulldog’s head, short tail, and oily brown or gray hair. Its front paws are webbed and its rear feet are frog-like. About 2 ft. tall and 50 lb.",
++    "habitats": ["Dream River", "River banks", "Renardy"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "otherStatistics": "Descending AC 8. THAC0 19. One attack per round. Unsteady morale (5–7). Animal intelligence (1). No magic resistance. Size S, 2 ft. tall. No treasure.",
++    "sections": {
++      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 14–15. ",
++      "Attacks": "Bite. One attack for 1d4 damage. It catches small prey with its sticky tongue and pulls the prey to its mouth. The text gives this no separate attack, range, or restraint rule.",
++      "Defenses and Legacy": "Adult batracines have Leap. The p. 8 monster rules allow an instantaneous jump forward or straight upward 20 ft. plus 1 ft. per Hit Die, capped at 35 ft. A 2-HD batracine can jump 22 ft. It uses this to take birds or reach water when threatened. The creature never becomes Afflicted and needs no cinnabryl. It is immune to the amber lotus’s sleep effect. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
++      "Parasites": "Cardinal ticks can infest this creature. If the specimen is infested, a melee encounter leaves the combatants with 5% infestation. Infestation increases by 15 percentage points each time its host attempts to use a Legacy, up to 50% in nonhumanoids. A cinnabryl ointment clears it. Scratching costs 1 HP per percentage point removed unless the special Jibarú medicine is used. See Parasite, printed p. 85.",
++      "Encounter ecology": "Common river carnivore, active at dusk and dawn. Family organization and 1d4 appearing. Adults usually den alone near the Dream River and pair in mating season, with 2–4 pups. They gather to hunt when food is short. They take forest animals and favor birds. Fish and amphibians are outside their diet. Pups sell for 5 gp and a trained pet for 20 gp. The book describes their blood as an ingredient in a potion to counter magical sleep."
++    }
++  },
++  {
++    "name": "Caniquine",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large Beast, neutral",
++    "ac": 6,
++    "hp": null,
++    "hpRule": "Roll 4d8 + 1. Uses the source’s standard d8 Hit Dice.",
++    "hitDice": "4+1",
++    "speed": "18",
++    "xp": 270,
++    "appearance": "A muscular animal with the head and pawed forelegs of a large dog and the hindquarters of a horse. Its doglike coat can be short or long, from pale yellow and white to black.",
++    "habitats": ["Temperate regions", "Villages"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "otherStatistics": "Descending AC 6. THAC0 17. One basic attack per round. Elite morale (13–14). Low intelligence (5–7). No magic resistance. Size L, 9 ft. long. No treasure.",
++    "sections": {
++      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 15–16. ",
++      "Attacks": "Bite. One attack for 1d8 damage. A ridden caniquine bites to defend its master even at speed.\nKick. A trained combat mount can deal 2d6 to one opponent with a hind-leg kick while stationary. A rider must signal for the mount to both bite and kick in the same round.",
++      "Red Curse": "About 1 in 10 are affected. Those specimens need cinnabryl to avoid Affliction and are worth 420 XP when they have a Legacy. Their entry names Fly, Anti-Missile, Leap, Projectile, and War Cry as desirable choices. It gives no default Legacy for an individual. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
++      "Encounter ecology": "Uncommon temperate omnivore, active by day. Pack organization and 2d4 appearing. Wild packs rush prey and typically avoid humanoids, never attacking lupins. Individuals form family units outside pack hunts. Captives can be trained for work or riding and communicate in simple calls and movements. They will serve as loyal mounts for most riders except rakastas and lupins."
++    }
++  },
++  {
++    "name": "Cinnavixen",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Small Beast, neutral",
++    "ac": 5,
++    "hp": null,
++    "hpRule": "Roll 1d8 + 1. Uses the source’s standard d8 Hit Dice.",
++    "hitDice": "1+1",
++    "speed": "20",
++    "xp": 65,
++    "appearance": "A foxlike animal with a dark red coat, burnt-orange swirls on the chest, paws, and ears, and dark brown eyes. Its bushy tail makes up about a foot of its 3-ft. length.",
++    "habitats": ["Temperate forest", "Mountains"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "otherStatistics": "Descending AC 5. THAC0 19. One attack per round. Unsteady morale (5–7). Semi-intelligence (2–4). No magic resistance. Size S, 3 ft. long. No treasure.",
++    "sections": {
++      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 17–18. ",
++      "Attacks": "Bite. One attack for 1d4 damage. Each bite causes 1 HP of bleeding per round until direct pressure is applied. Keep the pressure in place until the wound has been bandaged for more than 24 hours. The bite also has a printed 20% chance of vermilia infection.",
++      "Vermilia": "The separate Parasite entry says living targets save vs. poison to avoid infection. Undead contract it automatically, then can save vs. death magic each day at day’s end to avoid that day’s damage. That save carries a penalty equal to the day’s vermilia damage. A Legacy user takes an additional −1 per Legacy on vermilia saves. Damage doubles daily from 1 HP on day one until cure disease, heal, or the setting’s special remedy treats it. It counts as a +2 magical weapon for purposes of affecting undead or other magical creatures. The text does not explicitly specify how the bite’s 20% check interacts with the general save. See printed pp. 85–86.",
++      "Parasites": "Cardinal ticks can infest this creature. If the specimen is infested, a melee encounter leaves the combatants with 5% infestation. Infestation increases by 15 percentage points each time its host attempts to use a Legacy, up to 50% in nonhumanoids. A cinnabryl ointment clears it. Scratching costs 1 HP per percentage point removed unless the special Jibarú medicine is used. See Parasite, printed p. 85.",
++      "Red Curse": "Cinnavixens never gain Legacies and do not need cinnabryl. Wild ones can find local cinnabryl by scent. Tamed specimens lose this ability.",
++      "Encounter ecology": "Uncommon temperate forest and mountain carnivore, active at dusk and dawn. Family organization and 1d4 appearing. It usually flees unless feeding or protecting pups, bites, then springs away. Mates stay together for life and typically raise 4–6 pups in a burrow. It hunts rodents, chiefly voats, and often shelters near rock ledges or roots. An undamaged treated pelt is worth up to 5 gp. Inheritors protect the animals because they can find cinnabryl."
++    }
++  },
++  {
++    "name": "Echyan",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large Beast, neutral",
++    "ac": 4,
++    "hp": null,
++    "hpRule": "Roll 5d8. Uses the source’s standard d8 Hit Dice.",
++    "hitDice": "5",
++    "speed": "6, swim 24",
++    "xp": 1400,
++    "appearance": "A translucent eyeless sea worm about 12 ft. long and 2 ft. thick, with a flattened tail and a suction-cup mouth containing three rows of crystalline fangs.",
++    "habitats": [
++      "Western Sea",
++      "Savage Coast rivers",
++      "Dream River",
++      "Jururú River",
++      "Xingá River",
++      "Beaches"
++    ],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "otherStatistics": "Descending AC 4 (10). THAC0 15. One attack per round. Average morale (8–10). Animal intelligence (1). No magic resistance. Size L, 12 ft. long. No treasure.",
++    "sections": {
++      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed p. 26. ",
++      "Attacks": "Suction bite. One attack for 2d4 damage. It detects movement and strikes from behind or below. On a hit, it attaches and deals its damage again automatically each round until the victim succeeds on a bend bars roll to detach it.\nSwallow Whole. On a natural attack roll of 18–20 it swallows a man-sized or smaller target. The book supplies no separate save, swallowed damage, or escape procedure.",
++      "School tactics": "Only one worm attacks at a time. Once the active worm loses half of its HP, it disengages and another takes its turn. The rotation continues until all are injured, then those still able to swim try to escape.",
++      "Defenses and Legacy": "It is almost invisible underwater because of its translucent body and is immune to amber lotus. No detection modifier is given. It rarely gains a Legacy and is immune to Affliction, so it needs no cinnabryl. XP is 2,000 for a specimen with a Legacy. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
++      "Print ambiguity": "The entry prints descending AC 4 (10) and does not give the condition for switching to 10.",
++      "Encounter ecology": "Uncommon aquatic carnivore, active at any time. School organization and 1d6+6 appearing. Echyans breed in coastal rivers, with spring hatchlings heading to sea. Adults follow fish in summer and return to the rivers in winter. They sometimes come ashore for tortle eggs, and worms caught in daylight bury themselves partly in sand."
++    }
++  },
++  {
++    "name": "Feliquine",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large Beast, neutral",
++    "ac": 5,
++    "hp": null,
++    "hpRule": "Roll 4d8 + 4. Uses the source’s standard d8 Hit Dice.",
++    "hitDice": "4+4",
++    "speed": "18",
++    "xp": 270,
++    "appearance": "A large tawny animal with the head, chest, and clawed forelegs of a lion and the hindquarters of a horse. The portrait depicts a maned adult.",
++    "habitats": ["Temperate steppes"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "otherStatistics": "Descending AC 5. THAC0 15. Three basic attacks per round. Steady morale (11–12). Semi-intelligence (2–4). No magic resistance. Size L, 10 ft. long. No treasure.",
++    "sections": {
++      "Printed source": "TSR 2524, Savage Coast Monstrous Compendium Appendix, printed pp. 32–33. ",
++      "Attacks": "Claws and bite. Two front claws for 1d6 each and one bite for 1d10. A bonded mount seldom uses claws while ridden. It fiercely attacks with claw and bite if its rider falls.\nKick. A stationary feliquine can kick for 2d6 with its hind legs. It cannot also use its front claws in that round. Wild ones kick when cornered, while trained mounts can use it in combat.",
++      "Defenses and Legacy": "Add +1 to all surprise rolls. Feliquines sometimes gain a Legacy and need no cinnabryl to avoid Affliction. XP is 420 with a Legacy. The compendium’s general monster Legacy rules allow three uses per day once fully active and immediate use once activated. The initial week permits one use per day. Its powers fade after leaving the Red Curse and Haze. See printed pp. 6–9.",
++      "Encounter ecology": "Uncommon temperate-steppe carnivore, active at any time. Pride organization and 3d4 appearing. Females may herd prey toward males, or attack directly. Herd mammals and horses are usual prey. Only rakastas and occasionally elves form rider bonds. A bonded mount may carry a wounded rider to safety, and must periodically be released to hunt and mate to remain manageable."
++    }
++  },
++  {
++    "name": "Herathian Voat",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large (7 ft. tall), neutral",
++    "ac": 5,
++    "hp": null,
++    "hitDice": "7+3",
++    "hpRule": "Roll 7d8 + 3.",
++    "speed": "10 (18 on all fours for up to 3 rounds)",
++    "thac0": 13,
++    "xp": 2000,
++    "xpRule": "2,000 XP, plus 1,000 per Legacy.",
++    "otherStatistics": "Descending AC. Semi-intelligent (2–4). Fearless morale 20. Magic resistance nil. Treasure nil.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A hairless, tailless, large-eyed rodent with loose pale skin, thin clawed arms, and huge feet.",
++    "habitats": ["Forest", "Plains", "Yazak Steppes", "Herath", "Western Hule"],
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Voat, Herathian, printed pp. 116–117. ",
++      "Attacks": "Three attacks per round at THAC0 13: two claw attacks for 1d6 each and one bite for 2d10.",
++      "Special rules": "Screech. Once per turn, force all opponents within 30 yards to save vs. paralyzation. A failure stuns them for 1d4 rounds and they lose all attacks.\nRegeneration. Recover 1 HP per turn.\nCombat behavior. Its first target is usually the largest opponent. It turns on an opponent who deals repeated heavy damage or deals more than 15 HP of damage in a round. The voat continues fighting until its opponents are dead.",
++      "Red Curse and Legacies": "It gains multiple Region 1 Legacies and does not require cinnabryl. The appendix names Amber Paralysis, War Cry, and Weapon Hand as common, with no fixed selection or number. The general appendix rule allows Legacies three times per day for established powers, with immediate use when activated.\nAmber Paralysis. Choose a target within 10 yards. On a failed save vs. paralyzation, it is immobilized for 2 rounds per level. The save is penalized by 1 per 3 caster HD, per the appendix.\nWar Cry. Instantaneous, 10 yards per caster HD, maximum 150 yards. A failed save vs. paralyzation prevents attacking for 1d4 rounds. Fear immunity offers no protection. This Legacy is separate from the native 30-yard screech.\nWeapon Hand. One hand becomes a melee weapon that deals 1d8 damage, for 1 round per level.",
++      "Encounter ecology": "Rare. Pack, with 1d3 appearing. Active at any time, carnivorous. It feeds on juhrions and neshezu where available. It roosts and mates in Herath in spring before returning to the Yazak Steppes and western Hule."
++    }
++  },
++  {
++    "name": "Jorri",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Small (3–4 ft. long in table), neutral",
++    "ac": 5,
++    "hp": null,
++    "hitDice": "2+1",
++    "hpRule": "Roll 2d8 + 1.",
++    "speed": "10, swim 18",
++    "thac0": 19,
++    "xp": 175,
++    "otherStatistics": "Descending AC. Average intelligence (8–10), average morale 8–10. No special defenses or magic resistance. Treasure (Q). Speaks broken Common.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An otterlike swimmer with gray-black spotted fur, white whiskers, broad webbed hind feet, and a crescent tail.",
++    "habitats": ["Saltwater", "Seashore", "Reefs"],
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Jorri, printed pp. 57–58. ",
++      "Attacks": "Five attacks per round at THAC0 19: each foreclaw strikes twice for 1d2 per hit, and the bite deals 1d3 on a hit.",
++      "Special rules": "Lock jaws. On a successful bite, the jorri hangs on. The target negates the lock with a successful Bend Bars roll if it can get its hands on the jaws. The bite deals no further damage while locked. The target loses its Dexterity adjustment to AC and the jorri continues its foreclaw attacks.",
++      "Red Curse and Legacies": "Only 10% acquire a Legacy. A jorri with a Legacy needs cinnabryl to avoid Affliction, and most go without it. The entry assigns no default Legacy.",
++      "Encounter ecology": "Rare. Family, 1d4 + 1 appearing. Day active. Eats fish and mollusks, cracks shells with stones, and dens close to the sea. It helps stranded swimmers and warns ships away from dangerous waters. The encounter table lists XP 175."
++    }
++  },
++  {
++    "name": "Juhrion",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large (10+ ft. tall), neutral",
++    "ac": 5,
++    "hp": null,
++    "hitDice": "5+5",
++    "hpRule": "Roll 5d8 + 5.",
++    "speed": "12 (18 for short combat bursts)",
++    "thac0": 15,
++    "xp": 650,
++    "otherStatistics": "Descending AC. Animal intelligence 1. Elite morale 13–14. Special defenses nil in table. Magic resistance nil. Treasure W, X, Y. Immune to vermilia per ecology text.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A huge, hairless bear-shaped animal with thick reddish leatherlike skin, large teeth, and short hooked harpoon-shaped claws.",
++    "habitats": ["Any terrain", "Caves", "Thickets"],
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Juhrion, printed pp. 58–59. ",
++      "Attacks": "Three attacks per round at THAC0 15: two claw attacks for 1d8 each and a bite for 2d6.",
++      "Special rules": "Rush. When prey is visible and less than 10 yards away, the juhrion drops stealth and charges. Movement rises from 12 to 18 for short fighting bursts.\nMaul. If both claws hit the same creature in a single round, the juhrion pins it under its weight and keeps clawing and biting. The victim loses any Dexterity bonus to AC, can use no weapon larger than a dagger against the juhrion, and has its casting fouled. Legacies still function if they need no movement. A successful Bend Bars roll frees the victim.\nVermilia. A claw attack carries the printed 50% chance of infection. The referenced Parasite entry allows living creatures a save vs. poison to avoid infection. Undead are infected automatically on exposure and can save vs. death magic each day, with a penalty equal to that day’s vermilia damage, to avoid the damage for that day. Apply −1 per Legacy on saves associated with infection. The infection deals 1 HP on day one, then 2, 4, 8 and so on, doubling each day until cured. Cure disease or heal is printed as treatment. It counts as a +2 magical weapon when damaging undead or magical creatures. The juhrion itself is immune.",
++      "Red Curse and Legacies": "It suffers the physical detriment of Armor Legacy without manifesting the power. Cinnabryl could protect it from Affliction but is seldom available to it.",
++      "Encounter ecology": "Uncommon. Family, 1d4 appearing. Day active, omnivorous, prefers rodents, cinnavixens, and voats. Keeps a den in a cave or thicket, seldom ranges more than a few miles from it, and can range over 10 square miles when prey is scarce. Attacks Inheritors on sight and can smell them from up to 1 mile away."
++    }
++  },
++  {
++    "name": "Lupasus",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large (8 ft. long, 16-ft. wingspan), neutral",
++    "ac": 6,
++    "hp": null,
++    "hitDice": "5+5",
++    "hpRule": "Roll 5d8 + 5.",
++    "speed": "18, fly 36 (C, or D mounted)",
++    "thac0": 15,
++    "xp": 420,
++    "xpRule": "420 XP, or 650 XP with a Legacy.",
++    "otherStatistics": "Descending AC. Low intelligence (5–7). Elite morale 13–14. Treasures, special defenses, and magic resistance nil.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A powerful gray winged wolf with a bushy tail, pale underside, and broad furred wings.",
++    "habitats": ["Yazak Steppes", "Steppes", "Prairies", "Forests", "Mountains"],
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Lupasus, printed pp. 68–69. ",
++      "Attacks": "One attack at THAC0 15 for 2d6 damage.",
++      "Special rules": "Flight. It can carry up to 200 lb. in flight. Unencumbered, save vs. paralyzation after each hour of flight. A failed save forces half an hour of rest per two previous hours of flight. A rider lowers maneuverability from C to D and calls for a save every half hour. After losing 50% or more of its HP, it cannot fly. It can glide until it has lost 75% or more. Wings are covered with fine fur and have the same vulnerability to fire as the rest of the body. Under the appendix’s maneuverability rules, C and D must maintain at least half their speed to stay aloft. C can turn up to 90 degrees per round and attack once every two rounds. D can turn up to 60 degrees and make one pass every three rounds. The lupasus often attacks from the ground.",
++      "Red Curse and Legacies": "Lupasi in cursed areas acquire Legacies and need cinnabryl. Their Affliction is usually mild. The entry assigns no fixed Legacy.",
++      "Encounter ecology": "Uncommon. Pack, 4d4 appearing. Active any time, carnivorous. Native to the Yazak Steppes north of Renardy. Dens in caves, thickets, and holes. An allied lupin knight must live with a pack for one full year to befriend it. Lupasi hunt dangerous prey cooperatively."
++    }
++  },
++  {
++    "name": "Marine Cat",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Small (2 ft. long), neutral",
++    "ac": 6,
++    "hp": null,
++    "hitDice": "2+1",
++    "hpRule": "Roll 2d8 + 1.",
++    "speed": "12",
++    "thac0": 19,
++    "xp": 120,
++    "xpRule": "120 XP, or 175 XP with a Legacy.",
++    "otherStatistics": "Descending AC. Semi-intelligent (2–4). Average morale 8–10. No magic resistance. Treasure nil.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sleek dark shipboard cat with bright green eyes, subtle black-brown stripes, and a long curled tail.",
++    "habitats": ["Shipboard", "Docks", "Sailing vessels"],
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), Cat, Marine, printed pp. 16–17. ",
++      "Attacks": "Three attacks per round at THAC0 19: two foreclaws for 1 HP of damage each and one bite for 1d2.",
++      "Special rules": "Rear claws. If the attacker is holding the cat and both foreclaw attacks hit, the cat may use its two rear claws in that round. Each deals 1d2 damage.\nSurprise. A marine cat is surprised only on a result of 1.",
++      "Red Curse and Legacies": "A rare marine cat is born with a water-oriented Legacy and has no cinnabryl requirement. The appendix names Swim and Breathe Water as examples. Swim, per the Campaign Book, lasts 2 rounds per level and gives swim movement 12 or raises an existing swim rate by 6. It gives neither underwater breathing nor improved underwater vision. Breathe Water lasts 2 rounds per level and allows water breathing. It gives no swim or vision benefit.",
++      "Encounter ecology": "Rare. Solitary, 1d2 appearing. Active any time, carnivorous. Leaves its sailing vessel for short dock trips, and normally avoids boarding a ship with its own marine cat. Feeds on rats, voats, and scraps, and sailors consider it lucky."
++    }
++  },
++  {
++    "name": "Nikt’oo",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large amphibious animal, neutral",
++    "ac": 5,
++    "hp": null,
++    "hitDice": "3 HD",
++    "hpRule": "Roll 3d8 for hit points using the appendix’s d8 Hit Dice rule.",
++    "speed": "6, swim 18",
++    "thac0": 17,
++    "xp": 270,
++    "otherStatistics": "AC 5, or 6 against attacks near the legs. Morale average (8–10). Animal intelligence (1). No treasure or magic resistance. The entry gives no special saving throw.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A low, long, turtlelike animal with olive leathery skin, flush bony plates beneath the back, brown and yellow spots, broad feet and large black eyes. Adults reach 10 to 12 ft. long.",
++    "habitats": ["Forest", "Shorelines", "Warm beaches", "Open ocean"],
++    "sections": {
++      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 78–79. ",
++      "Attacks": "One bite per round, 3d4 damage. On an unmodified roll of 20, the bite severs a hand or foot from an attacking human-sized or smaller creature. The entry gives no separate save against severing. It rarely bites without severe provocation unless trained to attack on command.",
++      "Armor and movement": "Head and back are AC 5. Opponents near the extremities are treated as targeting the legs at AC 6. It has no shell to retract into. A male out of water takes a −2 penalty on attack rolls and 2 damage per round from dryness. They can run for days without rest and keep swimming indefinitely at half movement. Maximum load is 600 lb. at full speed, 900 lb. at half speed or 1,200 lb. at one-third speed.",
++      "Red Curse": "Nikt’oos gain Legacies and need cinnabryl to avert Affliction. Most have little access to it, so Affliction is common. The entry gives no fixed Legacy.",
++      "Encounters and ecology": "Uncommon, solitary, one appearing. Active by day. Tortles and snappers often domesticate them as amphibious mounts or beasts of burden. Wild ones usually flee humanoids but become aggressive in mating season. A female buries 5d6 eggs yearly above the high tide line on a warm beach. Males normally stay in water and may come ashore to defend an egg-laying female. They eat jellyfish, mollusks and seaweed. Adults live about 90 years in the wild or up to 150 in captivity. Fewer than 5% of wild offspring reach adulthood."
++    }
++  },
++  {
++    "name": "Omm-wa",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large manatee-like people, neutral (good)",
++    "ac": 6,
++    "hp": null,
++    "hitDice": "3 HD",
++    "hpRule": "Roll 3d8 for hit points using the appendix’s d8 Hit Dice rule.",
++    "speed": "3, swim 18",
++    "thac0": 17,
++    "xp": 175,
++    "otherStatistics": "AC 6 (10 unarmored). Morale steady (11–12). Low to very intelligent (5–12). Treasure K (F). No special defenses or magic resistance. The entry gives no individual saving throw values.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large gray or black manatee relative with a flattened horizontal tail, short foreflippers ending in small webbed hands, and no external hind legs. Its small head has a straight snout and a bristly split upper lip. Males have two small tusklike incisors. Adults reach 9 to 11 ft. and up to 1,300 lb.",
++    "habitats": [
++      "Tropical water",
++      "Subtropical water",
++      "Shallow freshwater",
++      "Shallow saltwater",
++      "Aquafarms"
++    ],
++    "sections": {
++      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 81–82. ",
++      "Attacks": "One weapon attack per round for 1d8 damage. Omm-was favor nets underwater and use spears and tridents for defense. Some traded with Herathians for underwater crossbows.",
++      "Burn Legacy": "Most omm-was have Burn. It activates as an instantaneous Legacy up to three times per day. A successful attack roll deals 1d4 plus 1 per level or HD. At the typical 3 HD that is 1d4 + 3 with a 2-ft. range. The range starts at touch and increases 1 ft. per level beyond first to 10 ft. maximum. The flame comes from a fixed hand or mouth and may ignite a flammable object even when the attack misses the target. Omm-was need cinnabryl to ward off Affliction. An omm-wa Afflicted with Burn overheats after a few seconds out of the water.",
++      "Movement and senses": "Air-breathing and at home in salt or fresh water. It can leave the water for at most 30 minutes at a time. It sees more than 300 ft. in clear water and roughly as far as a human in air, though bright light bothers its eyes. It rarely dives below 100 ft.",
++      "Encounter groups": "Rare, any activity cycle. Roll 1d4 + 2 or 1d6 + 14 appearing. A family includes one female shaman of levels 1–3. For every 30 omm-was add a fighter of levels 3–5. For every 60 add a warleader of effective fighter levels 5–8. For every 100 add a wise woman of priest levels 4–6. Shamans normally advance as priests to level 8. About one male in five can gain fighter levels. The rare twin pair is one female shaman, maximum level 8, and one male fighter protector, maximum level 10. Males have a 5% chance of a character kit, typically Defender.",
++      "Society and ecology": "Females hold all authority and inherit their rank through the maternal line. Females reach maturity at 12. The family herbivores tend underwater farms and feed mainly at night. They gather mineral nodules, including a little cinnabryl, and record messages with pebble arrangements or knotted strings and beads."
++    }
++  },
++  {
++    "name": "Succulus",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Small boarlike animal, neutral",
++    "ac": 2,
++    "hp": null,
++    "hitDice": "5 HD",
++    "hpRule": "Roll 5d8 for hit points using the appendix’s d8 Hit Dice rule.",
++    "speed": "15",
++    "thac0": 15,
++    "xp": 420,
++    "otherStatistics": "Morale average (8–10). Semi-intelligent (2–4). No treasure, special defenses or magic resistance. The entry gives no special creature saving throw.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A gray-black wild-boar lookalike with short woolly hair, a bristled mane along its spine, rust-red eyes, and curved lower tusks up to 12 in. long. It stands about 3 ft. at the shoulder.",
++    "habitats": ["Any land", "Caves", "Robrenn forests", "Cursed Savage Coast"],
++    "sections": {
++      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 103–104. ",
++      "Attacks": "One attack per round for 3d4 damage. It charges a bearer of red steel or cinnabryl, often with Spikes active, and ignores the trick of distracting it with a few dropped red steel spikes.",
++      "Eating metal": "Detects cinnabryl, red steel and steel seed by scent from up to 90 ft. Make a successful attack roll to touch an item made of these metals. On contact it immediately crumbles into edible powder. A weapon of one of those metals that hits the succulus makes contact and is subject to the same disintegration procedure. A magical item with a listed weapon or armor bonus has a 10% chance per +1 to resist. Other magical items made from the listed metals count as +2 (20%). Feeding takes one round regardless of the meal size.",
++      "Dig and Spikes Legacies": "Both are always present. Each is usable three times a day. Digging removes a 5-ft. cube of earth, sand or mud within 10 ft. in one round. A creature within 1 ft. of the pit must pass a Dexterity check or fall inside. A pit in loose earth or mud soon collapses. The appendix’s monster Spikes rules last one round per HD (five rounds). A creature touching the caster takes 2d4 damage. Add 1d6 to a natural physical attack other than a bite. A cinnabryl-rich diet usually protects the succulus from Affliction.",
++      "Encounters and ecology": "Rare family group of 1d12, active by day. Most are encountered with wild swine. Each encounter has a 5% chance of one half-strength offspring, with no separate juvenile stat block in the book. Two succuli produce a succulus. Offspring of a succulus and wild swine have a 5% chance to be a succulus. Eats ore but prefers refined metal. The metal-laden flesh is inedible. Cured hide can make armor equivalent to studded leather (AC 7). A trained young succulus can locate cinnabryl deposits.",
++      "Source notes": "The creature entry calls the two Legacies Dig and Spikes, and uses singular Spike in the combat prose. Digging is the Campaign Book name. This profile uses the appendix’s monster form of Spikes."
++    }
++  },
++  {
++    "name": "Swampmare",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Large tapir-like animal, neutral",
++    "ac": 5,
++    "hp": null,
++    "hitDice": "3+1 HD",
++    "hpRule": "Roll 3d8 + 1 for hit points using the appendix’s d8 Hit Dice rule.",
++    "speed": "6, swim 12",
++    "thac0": 17,
++    "xp": 175,
++    "otherStatistics": "AC 5 in animal form or 0 in tree form. Morale average (8–10). Animal intelligence (1). No treasure or magic resistance. The entry gives no separate saving throw against its attacks.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A large tapir-like animal with green leathery skin, short snout, beady eyes, short ears and clawed webbed feet. It is 6 to 8 ft. long.",
++    "habitats": ["Swamp", "Rain forest", "Bayou", "Dense vegetation"],
++    "sections": {
++      "Printed source": "Savage Coast Monstrous Compendium Appendix, pp. 104–105. ",
++      "Attacks": "Three standard attacks, claw/claw/bite for 1d4, 1d4 and 1d8. The table separately lists Forefeet for 1d6 as a special attack. The Combat text says it lashes out with its forefeet in water and uses all four attacks.",
++      "Plant Form Legacy": "After failing a morale check in combat with no apparent way to flee, it takes one round to become a tree. Usually a bald cypress, or a tree suited to its rain forest. The tree is indistinguishable from an ordinary tree, has AC 0, and does not bleed when harmed. Weapon attacks to tree form do at most 1 damage total per round. It stays in tree form up to six hours a day. Plant Form prevents movement, speech and spellcasting under the Campaign Book Legacy rules. It does not need cinnabryl.",
++      "Cover and retreat": "A swampmare has a 30% chance to hide in shadows in thick vegetation. If threatened, it may squeal and flee into water.",
++      "Encounters and ecology": "Uncommon, solitary organization, 3d4 appearing, daytime activity. Gurrash breed domestic strains as mounts and pack animals, each large enough for one gurrash rider. It eats leaves, fruit and other vegetation and needs at least two hours of sunlight daily. Three or more hours in tree form in strong sunlight feed it for a day. Older swampmares spend more time as trees and typically take permanent tree form when they die of old age.",
++      "Source notes": "The printed attack table gives three routine attacks and a separate Forefeet special attack. The combat prose gives four attacks in water without spelling out the individual roll sequence. The 1d6 Forefeet line supplies the damage for the extra attack when applying the water exception."
++    }
++  },
++  {
++    "name": "Trosip",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Tiny, neutral",
++    "ac": 10,
++    "hp": 1,
++    "hitDice": "1 hp (fixed)",
++    "hpRule": "Each trosip has 1 HP as printed.",
++    "speed": "Movement 3",
++    "thac0": 20,
++    "xp": 35,
++    "appearance": "A dark grey dust bunny that blends into ordinary floor dust. Colonies look like several loose clumps of lint.",
++    "habitats": ["Any interior", "Subterranean"],
++    "otherStatistics": "4d6 appearing. Very rare. Colony. Any activity cycle. Animal intelligence (1). Unreliable morale (2–4). No treasure or magic resistance.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 112–113. ",
++      "Combat": "One attack, 0 direct damage. A trosip attacks only sleepers and stays still whenever someone is awake within the range of its senses. It senses motion and vibration out to 60 ft., including invisible creatures. It moves silently 95% of the time.",
++      "Suffocation": "At least four trosips are needed to attack one man-sized sleeper effectively. The victim saves vs. paralyzation using only magical protection bonuses. A failed save means death from suffocation in 1d4 + 1 rounds. A success wakes the victim in time to wave them away. If more than twelve trosips attack one victim, both of two saving throws must succeed for the victim to survive.",
++      "Detection and retreat": "A stationary trosip looks like ordinary dust. Magic or devices that detect invisible creatures can reveal it, and some animals such as cats can see it. The colony withdraws once the victim wakes or the body begins cooling. The book describes fast short spurts and poor sustained movement.",
++      "Ecology": "Colonies feed on refuse and draw heat from sleepers. One trosip can multiply into 24 or more within a few days. Infants, young children and the infirm are especially vulnerable.",
++      "Red Curse": "Immune to all effects of the Red Curse.",
++      "Printing note": "The table gives Tiny size and prints a 6′–9′ diameter. Both figures are kept because the book gives no corrected measurement."
++    }
++  },
++  {
++    "name": "Voat",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Tiny (1–2 ft. long), neutral (evil)",
++    "ac": 7,
++    "hp": null,
++    "hitDice": "1d4 hp",
++    "hpRule": "Roll 1d4 hit points for each voat, as printed.",
++    "speed": "Movement 12, swim 6",
++    "thac0": 20,
++    "xp": 65,
++    "appearance": "A cat-sized ratlike scavenger with coarse grey fur, large ears, a pointed snout and a pink scaly tail.",
++    "habitats": ["Any terrain", "Food stores", "Warehouses", "Ships", "Caves"],
++    "otherStatistics": "5d10 appearing. Common. Pack. Nocturnal scavenger. Semi-intelligent (2–4). Treasure (C). Unsteady morale (5–7). No magic resistance.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 115–116.  rule references: Appendix pp. 6–8 and Savage Coast Campaign Book Part 2 pp. 85 and 99 for uses, minimum effective level and Phase. ",
++      "Combat": "One bite for 1d3 damage. Voats can bite on land or in water. They attack small domestic animals and may attack humanoids.",
++      "Disease": "A bite has a 5% chance to transmit a serious disease unless the victim saves vs. poison. The entry gives examples of disease but no onset, duration or further damage.",
++      "Red Curse": "All voats have a Legacy. Most suffer its Affliction and many have Phase. The Phase Affliction gives them soft, distorted flesh and makes them tend to sink into solid matter if they stay in place. They seldom wear cinnabryl and may get trace amounts from scarlet pimpernel.",
++      "Phase Legacy": "If the voat has Phase, it can pass through solid matter for 1 round, up to three times daily once the Legacy is fully active. It can walk without sinking during deliberate phasing. The full effect is immune to solid weapons while phased, but magic missile, the Missile Legacy and magical fire, cold and electricity can still affect it. The Affliction and active Legacy are separate effects.",
++      "Ecology": "Packs raid granaries and ship cargo, gnaw through planks, and foul what they leave. They also nest in caves containing scarlet pimpernels. Nests may hold bright objects and gear from victims. Voats live 2–4 years and typically have 3–5 litters a year of 8–12. Cardinal ticks often infest them, and packs sometimes associate with Saragón lyra birds."
++    }
++  },
++  {
++    "name": "Vulturehound",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Small (4 ft. long), neutral",
++    "ac": 5,
++    "hp": null,
++    "hitDice": "2",
++    "hpRule": "Roll 2d8 HP per adult under the Appendix Hit Dice rule. Pups use 1d4 HP.",
++    "speed": "Movement 10, fly 18 (maneuverability C)",
++    "thac0": 19,
++    "xp": 65,
++    "appearance": "A long-haired grey hound with a bare reddish vulture head, hooked beak, small feathered wings and curved talons.",
++    "habitats": [
++      "Temperate steppes",
++      "Subtropical steppes",
++      "Tropical steppes",
++      "Renardy",
++      "Yazak Steppes"
++    ],
++    "otherStatistics": "4d6 appearing. Rare. Day-active carnivore. Pack. Animal intelligence (1). Treasure J (×10), K (×10), L (×5), M, N. Average morale (8–10). No magic resistance or listed special defenses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 117–118.  rule references: Appendix pp. 4, 6–8 and Savage Coast Campaign Book Part 2 pp. 85, 96 and 104 for Class C flight and Legacy procedures. ",
++      "Combat": "When it can rear up, the vulturehound makes three attacks: two front talons for 1d3 each and one beak for 1d4. If it cannot rear, use the beak alone. In flight, it attacks with its front talons. It loses flight after losing more than 75% of starting HP. At exactly 75% loss, it can still fly. Class C movement requires at least half speed, allows a 90-degree turn per round and permits an aerial attack pass every two rounds.",
++      "Red Curse": "Renardy packs acquire Legacies but never suffer Affliction. Yazak Steppes populations lie outside the Red Curse’s direct influence. The text lists Gas Breath, Acid Touch, Gaseous Form and Sleep as common choices. Assign the individual’s Legacy before play.",
++      "Common Legacies": "A fully active Legacy has up to three uses per day. Use the adult’s 2 HD as caster level. Gas Breath lasts up to 2 rounds before expiring and delivers one 1d4 poison hit to a target within 5 ft. Magical poison protection can grant a save vs. poison for half. Acid Touch is instantaneous and deals 1d4 + 2 on a successful hit against plant matter or flesh. Gaseous Form lasts 2 rounds with flight 3 (B), can pass through gaps that are not airtight, and can be driven by normal or magical winds. Most attacks cannot affect it. Magical fire, electricity, magic missile and the Missile Legacy can. Sleep lasts 4 rounds, targets one living creature closest to a location within 10 yards, and allows a save vs. spell.",
++      "Pack and pups": "Packs hunt out of a den and drag back food. Their lair has a 50% chance to hold 3d4 pups. A pup has 1d4 HP, cannot fly, and bites for 1d2 damage. Pups taken young can be trained for war or hunting. A trained adult tracks as a 5th-level ranger or adds +3 to a ranger companion’s tracking skill. Each vulturehound has a 50% chance of cardinal ticks.",
++      "Ecology": "Vulturehounds take carrion and hunt isolated or sick prey. They watch and scent for carrion and bay like dogs. They are immune to vermilia. One animal yields enough blood for 1d6 doses of antivermilia medicine, made by a mage of at least 9th level with an alchemical laboratory. A dose cures a man-sized or smaller creature. The book says doses often cost over 150 gp."
++    }
++  },
++  {
++    "name": "Wynzet",
++    "publication": "Savage Coast Monstrous Compendium Appendix",
++    "edition": "AD&D 2nd edition",
++    "classification": "Tiny (1–2 ft. tall), neutral",
++    "ac": 7,
++    "hp": null,
++    "hitDice": "1",
++    "hpRule": "Roll 1d8 HP under the Appendix Hit Dice rule.",
++    "speed": "Movement 12",
++    "thac0": 19,
++    "xp": 120,
++    "appearance": "A fluffy grey squirrel-like creature with large dark eyes and a full tail. Other wynzets may resemble rabbits.",
++    "habitats": ["Any forest", "Forests of Robrenn"],
++    "otherStatistics": "1 appearing. Very rare, common in Robrenn. Solitary carnivore. Any activity cycle. Animal intelligence (1). Treasure J, K, L, M, N. Steady morale (11–12). No magic resistance or special defenses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "TSR, Savage Coast Monstrous Compendium Appendix (1996), pp. 122–123.  rule references: Appendix pp. 6–7 and Savage Coast Campaign Book Part 2 pp. 85 and 88 for uses, effective level and general Bite duration. ",
++      "Combat": "One ordinary bite for 1d3 damage. The wynzet usually allows petting and feeding. It wins a forest despoiler’s trust before launching its special throat bite.",
++      "Bite Legacy": "Once it has befriended a despoiler, it can leap up to 15 ft. for the throat attack at +4 to hit. On the first successful attack, the target saves vs. paralyzation with Dexterity bonuses. Failure kills the target. Success still deals 2d8 damage. Later attacks deal 1d8 with the active Legacy or 1d3 with the ordinary bite.",
++      "Red Curse": "All wynzets have the Bite Legacy and require no cinnabryl. The general Bite Legacy lasts 1 round per level. At 1 HD the duration is 1 round, up to three activations daily when fully active. The entry specifies the special first hit and does not give a separate reset trigger.",
++      "Ecology": "Robrenn’s druids empower these woodland guardians. They breed as the creature they resemble, and about 5% of their offspring are wynzets. A despoiler’s remains replenish the forest. In Renardy the beast is sometimes called le lapin mortel."
++    }
++  },
++  {
++    "name": "Almiraj",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 13,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 10,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Perception +4, Stealth +5. Darkvision 30 ft. Passive Perception 14. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A large honey-brown rabbit with floppy ears, strong haunches and a single ivory spiral horn on its forehead.",
++    "habitats": ["Chult", "Tropical jungle", "Earthen burrows", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 211. https://www.dndbeyond.com/sources/dnd/toa",
++      "Traits": "Keen Senses. The almiraj has advantage on Wisdom (Perception) checks that rely on sight or hearing.",
++      "Actions": "Horn. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage.",
++      "At the table": "With the DM’s permission, Find Familiar can summon an almiraj.\nAppendix B encounter (p. 196). Passive Perception 12 or higher spots 1d6 almiraj at 60 ft. They flee from creatures they can see within 30 ft. A character who traps one can use an action for a DC 14 Wisdom (Animal Handling) check. On a success it remains calm around that character unless threatened or harmed."
++    }
++  },
++  {
++    "name": "Brontosaurus",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Gargantuan Beast, unaligned",
++    "ac": 15,
++    "hp": 121,
++    "hitDice": "9d20 + 27",
++    "speed": "30 ft.",
++    "cr": "5",
++    "xp": 1800,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Constitution save +6. Passive Perception 10. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A massive gray-olive four-legged sauropod with a small head, a long upraised neck, columnar legs and a tapering tail.",
++    "habitats": ["Chult", "Jungle", "Rivers", "Swamps"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 215. https://www.dndbeyond.com/sources/dnd/toa",
++      "Actions": "Stomp. Melee weapon attack, +8 to hit, reach 20 ft., one target. A hit deals 27 (5d8 + 5) bludgeoning damage. The target must pass a DC 14 Strength save or fall prone.\nTail. Melee weapon attack, +8 to hit, reach 20 ft., one target. A hit deals 32 (6d8 + 5) bludgeoning damage.",
++      "Appendix B encounter": "On p. 197 a lone brontosaurus approaches without noticing the party. It may step on characters in its path and fights in self-defense."
++    }
++  },
++  {
++    "name": "Deinonychus",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 26,
++    "hitDice": "4d8 + 8",
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A sleek olive-scaled raptor with an elongated tail, grasping foreclaws and enlarged sickle claws on its hind feet.",
++    "habitats": ["Chult", "Jungle", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 217. https://www.dndbeyond.com/sources/dnd/toa",
++      "Traits": "Pounce. The deinonychus moves at least 20 ft. straight toward a creature and hits it with Claw on the same turn. The target must pass a DC 12 Strength save or fall prone. If the target is prone, the deinonychus can make one Bite against it as a bonus action.",
++      "Actions": "Multiattack. Make one Bite and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) slashing damage.",
++      "Appendix B encounter": "On p. 197 a pack of 1d4 + 2 deinonychuses chases a boar, then switches to the characters as prey."
++    }
++  },
++  {
++    "name": "Dimetrodon",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 19,
++    "hitDice": "3d8 + 6",
++    "speed": "30 ft., swim 20 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +2. Passive Perception 12. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A low, four-legged reptile with a tall ribbed rust-colored sail, a long toothy muzzle and a tapering tail.",
++    "habitats": ["Chult", "Shorelines", "Shallow water", "Riverbanks", "Swamps"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 217. https://www.dndbeyond.com/sources/dnd/toa",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) piercing damage.",
++      "Appendix B encounter": "On p. 197, 2d6 dimetrodons are seen on a sunny riverbank or rocks above the water. Roll any die. On an odd result they ignore the group. On an even result they attack at slight provocation or if the group comes within 100 ft."
++    }
++  },
++  {
++    "name": "Flying Monkey",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "20 ft., climb 20 ft., fly 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 5,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 11. No listed skills, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small tawny monkey with a long curling tail and a pair of brown feathered wings.",
++    "habitats": ["Chult", "Beaches", "Jungle", "Mountain forests", "Rivers", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, printed p. 220. https://www.dndbeyond.com/sources/dnd/toa",
++      "Traits": "Pack Tactics. The monkey has advantage on an attack against a creature when at least one of the monkey’s allies is within 5 ft. of that creature and the ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. A hit deals 1 (1d4 - 1) piercing damage.",
++      "At the table": "With DM permission, Find Familiar can summon one (p. 221).\nAppendix B encounter (p. 200). In a swoop by 3d6 flying monkeys each character makes a DC 12 Dexterity save or loses a useful piece of gear. A character proficient in Animal Handling can train a captured monkey by spending a few hours with it each day. At the end of a week, a DC 10 Wisdom (Animal Handling) success teaches one simple trick. A monkey can learn one trick per week and up to 1d6 total."
++    }
++  },
++  {
++    "name": "Giant Snapping Turtle",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 17,
++    "hp": 75,
++    "hitDice": "10d10 + 20",
++    "speed": "30 ft., swim 40 ft.",
++    "cr": "3",
++    "xp": 700,
++    "abilities": {
++      "Str": {
++        "score": 19,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor AC 17, or AC 12 while prone. Darkvision 60 ft., passive Perception 11. No listed skills or languages.",
++    "appearance": "A broad snapping turtle with a ridged olive-brown shell, heavy claws, a hooked beak, and a tapering tail.",
++    "habitats": ["Chult beaches", "Rivers", "Swamps", "Snapping Turtle Bay"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 222. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=223",
++      "Traits": "Amphibious. The turtle can breathe in air and water.\nStable. Whenever an effect knocks the turtle prone, it can try a DC 10 Constitution save to stay upright. When prone, it is upside down. To right itself, it must succeed on a DC 10 Dexterity check on its turn and then spend all its movement for that turn.",
++      "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 18 (4d6 + 4) slashing damage.",
++      "At the table": "Use AC 12 for an overturned turtle. The Constitution save prevents the fall. The Dexterity check and the full movement cost apply to righting it afterward.",
++      "Encounter ecology": "The appendix describes turtles up to 12 ft. across. Although slow-looking, they can lunge at smaller creatures that come close."
++    }
++  },
++  {
++    "name": "Hadrosaurus",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 19,
++    "hitDice": "3d10 + 3",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +2, passive Perception 12. No listed special senses or languages.",
++    "appearance": "A crested duck-billed dinosaur with shorter forelimbs, a long balancing tail, and a muted rust crest.",
++    "habitats": ["Chultan jungles", "Rivers", "Swamps"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 224. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=225",
++      "Actions": "Tail. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (1d10 + 2) bludgeoning damage.",
++      "At the table": "Use the appendix Tail attack. A hadrosaurus raised from a hatchling can learn to carry a Small or Medium rider.",
++      "Encounter ecology": "The Appendix B sighting is a grazing herd of 3d6 hadrosauruses that includes 1d6 noncombatant young. Adults defend themselves and their young if the party threatens them."
++    }
++  },
++  {
++    "name": "Jaculi",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 14,
++    "hp": 16,
++    "hitDice": "3d10",
++    "speed": "30 ft., climb 20 ft.",
++    "cr": "1/2",
++    "xp": 100,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Athletics +4, Perception +1, Stealth +4. Blindsight 30 ft., passive Perception 11. No languages.",
++    "appearance": "A long coiled serpent with a bluish spined head and mottled bark-brown and stone-gray scales.",
++    "habitats": ["Rainforests", "Cool dungeons", "Chultan ruins", "Rivers"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 225. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=226",
++      "Traits": "Camouflage. Dexterity (Stealth) checks to hide have advantage.\nKeen Smell. Wisdom (Perception) checks relying on smell have advantage.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) piercing damage.\nSpring. Move up to 30 ft. in a straight line, then make one Bite attack against a target in reach. The Bite has advantage if the snake springs at least 10 ft. On a hit, add 7 (2d6) piercing damage.",
++      "At the table": "Spring is one action with one Bite. The 10-ft. minimum is for advantage. A Spring hit adds the extra damage even on a shorter leap.",
++      "Encounter ecology": "Jaculis often wait coiled near trunks or pillars and spring toward prey. The adventure’s generic ambush on p. 201 uses 1d6 jaculis and surprises characters below passive Perception 14."
++    }
++  },
++  {
++    "name": "Quetzalcoatlus",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 30,
++    "hitDice": "4d12 + 4",
++    "speed": "10 ft., fly 80 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +2, passive Perception 12. No listed special senses or languages.",
++    "appearance": "A long-necked pterosaur with a narrow toothless beak, a swept crest, and enormous leathery wings.",
++    "habitats": ["Chult beaches", "Mountains", "Rivers"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, first printing (September 2017), Appendix D, p. 230. https://online.anyflip.com/njbp/dfek/mobile/index.html#p=231",
++      "Traits": "Dive Attack. If the creature is flying, dives at least 30 ft. toward a target, and hits it with Bite, the attack deals an extra 10 (3d6) damage.\nFlyby. Flying out of an enemy’s reach does not provoke an opportunity attack.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one creature. On a hit, deal 12 (3d6 + 2) piercing damage.",
++      "At the table": "Use 10-ft. Bite reach. Dive Attack augments a qualifying Bite. Flyby applies to departure by flight.",
++      "Encounter ecology": "The creature can walk on four contact points but prefers to fly. The Appendix B flight is 1d4 + 1 animals and keeps its distance unless threatened."
++    }
++  },
++  {
++    "name": "Stegosaurus",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 13,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 20,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "AC from natural armor. Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A heavy four-legged dinosaur with a small head, two rows of raised plates on its back, and long spikes on its elevated tail.",
++    "habitats": ["Chult jungle", "Chultan wilderness"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 231, p. 232. https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
++      "Actions": "Tail. Melee weapon attack, +7 to hit against one target within 10 ft. A hit deals 26 (6d6 + 5) piercing damage.",
++      "Encounter notes": "Stegosaurs travel in mixed-age herds. The lone animal in Appendix B is curious and approaches. It swipes with its tail if anyone touches it."
++    }
++  },
++  {
++    "name": "Velociraptor",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 10,
++    "hitDice": "3d4 + 3",
++    "speed": "30 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "AC from natural armor. Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A turkey-sized, feathered dinosaur with a narrow toothy head, two long clawed hind legs, feathered forelimbs and a long tail.",
++    "habitats": ["Chult jungle", "Beaches", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 235, p. 236. https://www.dndbeyond.com/sources/toa/monsters-and-npcs",
++      "Traits": "Pack Tactics. When an ally within 5 ft. of the target is not incapacitated, attack rolls against that creature have advantage.",
++      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit against one creature within 5 ft. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) slashing damage.",
++      "Encounter notes": "The Appendix B ambush uses a pack of 3d6 velociraptors. Roll one Dexterity (Stealth) check with advantage for the pack. A character whose passive Perception equals or exceeds the roll is not surprised."
++    }
++  },
++  {
++    "name": "Wild Dog",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A lean wild canid with tall rounded ears, long legs, and irregular charcoal, ochre and cream patches.",
++    "habitats": ["Omu ruins", "Omu walled compound", "Open woodland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 96, p. 97. https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city Uses Jackal, Monster Manual (2014), printed p. 331. https://www.dndbeyond.com/monsters/16936-jackal",
++      "Traits": "Keen Hearing and Smell. Wisdom (Perception) checks that depend on hearing or smell have advantage.\nPack Tactics. When an ally within 5 ft. of the target is not incapacitated, attack rolls against that creature have advantage.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit against one target within 5 ft. A hit deals 1 (1d4 - 1) piercing damage.",
++      "Encounter notes": "Six wild dogs feed on a body in the Walled Compound. The dogs leave characters alone while they keep their distance."
++    }
++  },
++  {
++    "name": "Zebra",
++    "publication": "Tomb of Annihilation",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 10,
++    "hp": 13,
++    "hitDice": "2d10 + 2",
++    "speed": "60 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact equine with black and pale stripes, a short upright mane, rounded ears and a thin tufted tail.",
++    "habitats": ["Savanna", "Open grassland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Tomb of Annihilation, First printing, September 2017, printed p. 106, p. 107. https://www.dndbeyond.com/sources/toa/dwellers-of-the-forbidden-city Uses Riding Horse, Monster Manual (2014), printed p. 336. https://www.dndbeyond.com/monsters/16997-riding-horse",
++      "Actions": "Hooves. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 8 (2d4 + 3) bludgeoning damage.",
++      "Encounter notes": "Wongo’s Shrine gives the Zebra the Riding Horse statistics. When the shrine masks deliver their curse, anyone who looked through one in the last hour makes a DC 15 Constitution save. A failed save transforms the viewer into the animal on the last mask they used, as polymorph. The curse ends after 24 hours.",
++      "Base-stat erratum": "First-print Monster Manual p. 336 gives Hooves +2 to hit for the Riding Horse. The official errata had corrected it to +5 by 2016. The 2017 Zebra reference uses the corrected Riding Horse block."
++    }
++  },
++  {
++    "name": "Deathjump Spider",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Medium natural beast (spider), unaligned",
++    "ac": 20,
++    "hp": 55,
++    "speed": "6 squares, climb 6 (spider climb)",
++    "xp": 175,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 6
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 4
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 4
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": 1
++      }
++    },
++    "otherStatistics": "Level 4 Skirmisher. Initiative +8. Fortitude 17, Reflex 18, Will 16. Bloodied 27. Perception +9, tremorsense 5. Resist 5 poison. No languages.",
++    "appearance": "A human-sized brown spider with a bristled body, a patterned abdomen and eight long jointed legs.",
++    "habitats": ["Shadowfell Keep", "Hobgoblin Guard Room", "Dungeon"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), p. 55. Area 12, Hobgoblin Guard Room.",
++      "Printed ability modifiers": "Str +5, Dex +6, Con +4, Int -3, Wis +4, Cha +1.",
++      "Printed powers": "Bite. Melee basic, standard, at-will, Poison. +6 vs. AC. Hit for 2d6 + 3 damage. The target takes ongoing 5 poison damage and is slowed. One save ends both.\nDeath from Above. Melee, standard, at-will, Poison. Shift 6 squares and make a Bite attack. On a hit, add 1d6 damage and knock the target prone.\nProdigious Leap. Move, encounter. Shift up to 10 squares.",
++      "Traits and skills": "Soft Fall. Ignore the first 30 ft. when calculating fall damage. Athletics +10 (+20 when jumping), Stealth +11.",
++      "Encounter checks": "A DC 15 Perception check spots the cage about 70 ft. beyond the guards, in the north room. The two grunts move to the cage, begin releasing the ties the next round and take 2 rounds to free the spider. The party can interrupt them. The spider attacks if freed.\nArea 12 wells drop 30 ft. into 5-ft.-deep water. The fall deals 3d10 damage. Climb the wall at half speed with a DC 20 Athletics check for each move, or climb the rope with DC 10 Athletics. A forced creature saves immediately at the edge. A result below 10 means it falls in. On 10 or higher, it falls prone in its last square. The encounter’s bull rush uses Strength vs. Fortitude. On a hit, push 1 square and enter the vacated square."
++    }
++  },
++  {
++    "name": "Giant Rat",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Small natural beast, unaligned",
++    "ac": 15,
++    "hp": 1,
++    "speed": "6 squares, climb 3",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Level 1 Minion. Initiative +3. Fortitude 13, Reflex 15, Will 12. Perception +5, low-light vision. No languages.",
++    "appearance": "An oversized brown rat with rounded ears, prominent whiskers and a long bare tail.",
++    "habitats": ["Shadowfell Keep", "Maze of Caves", "Caverns"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), p. 44. Area 9, The Maze of Caves.",
++      "Printed ability modifiers": "Str +1, Dex +3, Con +1, Int -4, Wis +0, Cha -2.",
++      "Printed powers": "Bite. Melee basic, standard, at-will. +6 vs. AC. Hit for 3 damage.",
++      "Minion": "It has 1 HP. A missed attack never damages it.",
++      "Encounter checks": "DC 12 Perception notices the rats chattering and moving among the shadows. Thirteen rats begin above the party and move in groups of three or four. They target isolated PCs, such as someone more than 4 squares from allies or out of their line of sight.\nA rat starting on the ground spends a move action to reach the stalactite ceiling. On the ceiling it uses climb speed and gains superior cover against nonadjacent opponents. The cavern’s dense rocks give rats cover against adjacent foes and can block a PC’s line of sight to a rat while the rat sees the PC. Rats can roll Stealth when they have cover and cross the encounter’s difficult terrain at normal speed.\nThe adventure offers an optional ceiling rule. A rat can share a square with a character while above them, then attack while dropping to an adjacent square. It must leave the ceiling to attack this way. A DC 20 Perception check detects the false wall of the secret chamber."
++    }
++  },
++  {
++    "name": "Guard Drake",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Small natural beast (reptile), unaligned",
++    "ac": 15,
++    "hp": 48,
++    "speed": "6 squares",
++    "xp": 125,
++    "abilities": {
++      "Str": {
++        "score": 16,
++        "modifier": 4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 18,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 12,
++        "modifier": 2
++      }
++    },
++    "otherStatistics": "Level 2 Brute. Initiative +3. Fortitude 15, Reflex 13, Will 12. Bloodied 24. Perception +7. No languages.",
++    "appearance": "A small green-scaled, dragonlike quadruped with a spined back, a broad jaw and a long tail.",
++    "habitats": ["Dragon Burial Site", "Shadowfell Keep", "Excavation Site"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), pp. 20, 32. Encounter A4, Burial Site, and Area 3, Excavation Site.",
++      "Printed ability modifiers": "Str +4, Dex +3, Con +5, Int -3, Wis +2, Cha +2.",
++      "Printed powers": "Bite. Melee basic, standard, at-will. +6 vs. AC. Hit for 1d10 + 3 damage, or 1d10 + 9 while the drake is within 2 squares of an ally.",
++      "Traits": "Immune to fear while within 2 squares of an ally.",
++      "Encounter A4 checks": "Agrid orders the two drakes to charge the most formidable-looking PC. An Insight check opposed by Agrid’s Bluff can expose his deception, which prompts the order to attack. Climbing the steep slope requires DC 15 Athletics and goes at half speed.",
++      "Area 3 checks": "DC 15 Perception finds the secret door that leads to Area 4. DC 10 Perception hears goblin voices, and a Goblin speaker can make DC 15 Perception to understand the argument. The two drakes help keep adventurers down in the excavation. A drop from a plank or ledge is 10 ft., deals 1d10 damage and leaves the creature prone. The earth wall requires DC 15 Athletics. On each attempt it crumbles on 1–10 on a d20, sliding the climber to the floor and leaving them prone in their starting square without damage.\nA Medium creature crossing a plank needs DC 15 Acrobatics. Heavy armor breaks the plank. A PC or goblin can push an unoccupied plank as a minor action. An occupied plank requires a DC 14 Strength check for a Small occupant or DC 17 for a Medium occupant. Rocking a plank takes a standard action and a Strength check against the occupant’s Reflex. Success drops the occupant into the excavation. Ladders take 4 squares of movement to climb 10 ft. A PC or goblin can topple one as a standard action and use a standard action with DC 10 Strength to reposition it. Guard drakes use the ramp and cannot manipulate planks or ladders."
++    }
++  },
++  {
++    "name": "Kruthik Adult",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Medium natural beast (reptile), unaligned",
++    "ac": 17,
++    "hp": 67,
++    "speed": "6 squares, burrow 3 (tunneling), climb 6",
++    "xp": 175,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 18,
++        "modifier": 6
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 5
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -1
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 4
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": 1
++      }
++    },
++    "otherStatistics": "Level 4 Brute. Initiative +6. Fortitude 14, Reflex 15, Will 13. Bloodied 33. Perception +4, low-light vision, tremorsense 10. No languages.",
++    "appearance": "A human-sized reptilian hunter with bony chitin plates, four long scythe-like limbs, two smaller limbs and a segmented tail.",
++    "habitats": ["Shadowfell Keep", "Kruthik Lair", "Hive tunnels", "Caverns"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell (2009 revision), p. 47. Area 10, Kruthik Lair.",
++      "Printed ability modifiers": "Str +5, Dex +6, Con +5, Int -1, Wis +4, Cha +1.",
++      "Printed powers": "Claw. Melee basic, standard, at-will. +8 vs. AC. Hit for 1d10 + 3 damage.\nToxic Spikes. Ranged, standard, Poison, recharge 5–6. Make two ranged 5 attacks against two different targets, each at +7 vs. AC. A hit deals 1d8 + 4 damage, inflicts ongoing 5 poison damage and slows the target. One save ends both effects on that target.",
++      "Aura": "Gnashing Horde, aura 1. An enemy ending its turn in the aura takes 2 damage.",
++      "Encounter checks": "DC 15 Nature identifies a kruthik in the open pit. DC 12 Perception catches its musk. DC 17 Perception notices raised floor sections. A PC actively searching can locate a hidden pit with DC 20 Perception. The kruthiks avoid those trap squares. A triggered trap drops a PC for 1d10 damage and works once. Climbing out takes DC 15 Athletics. Jumping over takes DC 20 Athletics from standing or DC 10 with a running start.\nThe adult opens with Toxic Spikes when the party comes into range and then closes for Claw. Prefer the power’s two different targets as printed. In the 2-ft.-wide lair tunnels Small kruthiks move at full speed and the Medium adult at half speed. Medium or larger PCs cannot fit. A Small PC can squeeze at half speed, grants combat advantage and takes a −5 penalty on attacks until back in open space. Squeezing provokes opportunity attacks from adjacent foes.",
++      "Printing notes": "The stat block prints Wisdom 12 (+4). The usual half-level calculation would give +3. Keep the printed +4. Perception is also printed as +4. The summary on p. 46 broadly says kruthiks move at full speed in their tunnels. The specific tunnel feature on p. 47 distinguishes Small kruthiks at full speed and the Medium adult at half speed."
++    }
++  },
++  {
++    "name": "Kruthik Hatchling",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Small natural beast (reptile), unaligned",
++    "ac": 15,
++    "hp": 1,
++    "xp": 31,
++    "speed": "8 squares, burrow 2 (tunneling), climb 8",
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Level 2 Minion. Initiative +4. Fortitude 13, Reflex 15, Will 12. Perception +1, low-light vision, tremorsense 10 squares. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact, large-eyed reptilian hatchling with pale spined chitin, curved claws, a toothed jaw, and a thin tail.",
++    "habitats": ["Kruthik hive", "Underground tunnels", "Keep on the Shadowfell"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell, 2009 revision, Area 10, Kruthik Lair, stat block p. 46 and encounter features p. 47. ",
++      "Aura": "Gnashing Horde, aura 1. An enemy ending its turn inside the aura takes 2 damage. No attack roll is required.",
++      "Printed powers": "Claw. Melee basic attack, standard action, at-will. +5 vs. AC. Hit for 4 damage.",
++      "Encounter": "Area 10 begins with the kruthiks in the far chamber. They know where the camouflaged pits are and avoid them. The hatchlings and young can move through the lair’s 2-ft.-wide tunnels at full speed. Medium and larger PCs cannot traverse them. Small PCs squeeze at half speed, grant combat advantage, take a −5 attack penalty until out of the tunnel, and provoke opportunity attacks from adjacent foes each time they squeeze. Hatchlings detect the party by tremorsense. If the party continues down the southern passage, the hatchlings use the westward tunnels to flank it and cut off retreat.",
++      "Minion rule": "A missed attack never deals damage to this minion.",
++      "Source notes": "The stat block gives 1 HP and omits a bloodied value. A missed attack never damages the hatchling."
++    }
++  },
++  {
++    "name": "Kruthik Young",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Small natural beast (reptile), unaligned",
++    "ac": 15,
++    "hp": 43,
++    "xp": 125,
++    "speed": "8 squares, burrow 2, climb 8",
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 4,
++        "modifier": -2
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Level 2 Brute. Initiative +4. Fortitude 13, Reflex 14, Will 11. Bloodied 21. Perception +1, low-light vision, tremorsense 10 squares. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "An angular gray reptile with overlapping armored plates, a ridged back, clawed limbs, and a tapering tail.",
++    "habitats": ["Kruthik hive", "Underground tunnels", "Keep on the Shadowfell"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell, 2009 revision, Area 10, Kruthik Lair, stat block p. 46 and encounter features p. 47. ",
++      "Aura": "Gnashing Horde, aura 1. An enemy ending its turn inside the aura takes 2 damage. No attack roll is required.",
++      "Printed powers": "Claw. Melee basic attack, standard action, at-will. +5 vs. AC. Hit for 1d8 + 2 damage.",
++      "Encounter": "Area 10 begins with the kruthiks in the far chamber. They know where the camouflaged pits are and avoid them. The hatchlings and young can move through the lair’s 2-ft.-wide tunnels at full speed. Medium and larger PCs cannot traverse them. Small PCs squeeze at half speed, grant combat advantage, take a −5 attack penalty until out of the tunnel, and provoke opportunity attacks from adjacent foes each time they squeeze. The young hold back until the adult fires its toxic spikes. Then they advance, targeting that victim first.",
++      "Source notes": "The young’s burrow 2 lacks the tunneling annotation printed for the hatchling. The area’s separate tunnel rule still allows the young to move through the existing lair tunnels at full speed.\nThe encounter tactic refers to the adult’s toxic spikes. The young can use its own Claw and aura."
++    }
++  },
++  {
++    "name": "Rat Swarm",
++    "publication": "Keep on the Shadowfell (2009 revision)",
++    "edition": "4th edition",
++    "classification": "Medium natural beast (swarm), unaligned",
++    "ac": 15,
++    "hp": 36,
++    "xp": 125,
++    "speed": "4 squares, climb 2",
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 17,
++        "modifier": 4
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -3
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 9,
++        "modifier": 0
++      }
++    },
++    "otherStatistics": "Level 2 Skirmisher. Initiative +6. Fortitude 12, Reflex 14, Will 11. Bloodied 18. Perception +6, low-light vision. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A writhing mound of brown rats with pointed snouts, rounded ears, and overlapping bare tails.",
++    "habitats": ["Goblin guard room", "Dungeon pit", "Shadowfell Keep"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Keep on the Shadowfell, 2009 revision, Area 1, Goblin Guard Room, stat block p. 28 and encounter features p. 29. ",
++      "Aura": "Swarm Attack, aura 1. When each enemy begins its turn inside the aura, the swarm uses Swarm of Teeth against that enemy as a free action.",
++      "Printed powers": "Swarm of Teeth. Melee basic attack, standard action, at-will. +6 vs. AC. Hit for 1d6 + 3 damage and ongoing 3 damage (save ends). The target takes the ongoing damage at the start of its turns and saves at the end of its turns.",
++      "Encounter": "The swarm waits beneath the canvas covering the goblin guard room’s pit and attacks anything that falls in. The trap deals 1d10 damage, knocks a falling creature prone, and triggers once. A DC 15 Athletics check lets a creature climb out. An active trap search uses DC 20 Perception to spot the cover before it breaks. A creature bull rushed to the edge makes an immediate save. On 10 or higher it falls prone in the last square before the edge. A lower result sends it into the pit.",
++      "Defenses": "Takes half damage from melee and ranged attacks. Vulnerable 5 to close and area attacks."
++    }
++  },
++  {
++    "name": "Giant Bumblebee",
++    "publication": "The Land Beyond the Magic Mirror",
++    "edition": "AD&D 1st edition",
++    "kind": "beast",
++    "classification": "Large insect, neutral, Low+ intelligence",
++    "ac": 5,
++    "hp": null,
++    "hpRule": "Roll 6d8 + 4 for a general specimen. Each of the garden defenders on p. 9 has a fixed 36 HP.",
++    "hitDice": "6+4",
++    "speed": "6″ ground, 24″ fly",
++    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. One appearing outside the lair; 10% in lair. No treasure or psionics. Standard magic resistance, with no special defenses listed. Monster Level V.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Round, shaggy, black-and-yellow bumblebee with transparent veined wings and a prominent sting. The color and fur details follow the selected portrait and ordinary bumblebee appearance.",
++    "habitats": ["Garden of Colossal Flowers", "Burrows and nests"],
++    "sections": {
++      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, pp. 9, 27. B. Garden of Colossal Flowers and New Monsters, Bee, Giant, Bumble-bee column. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
++      "Sting": "One attack, 1–6 damage per hit. On a sting hit, save vs. Poison at −1. The poison procedure gives 2–8 damage on a success and 5–20 on a failure plus 1 for poison intensity. For play, resolve the listed sting’s physical damage separately from the poison result. The appendix does not expressly settle whether its poison result includes the wound damage.",
++      "Nest": "A nest or burrow holds 7–12 bumblebees. The combative queen has 8+6 HD and a sting for 1–8 damage. Her poison save is at −2. On a failed save her poison deals 5–20 + 2, while success gives 2–8. The bees store honey in proportion to the colony’s size. Bee bread can stand in for iron rations. Royal jelly is present on a 20% chance and provides the equivalent of 2–5 potions of extra-healing, each with an added cure disease effect.",
++      "Garden defense": "Intrusion into a bed, about 5 ft. from a flower, starts the cries. One bee arrives the next round and attacks characters who harm or attempt to harm the flowers. Add one bee each round until 16 total have appeared. In addition, the first three Giant Ants arrive with the fourth bee. The bees pursue offenders within the garden only. Here the ground movement is 3″ instead of 6″.",
++      "XP and morale": "The generic XP entry is printed as 400 + /hp and leaves the per-HP coefficient blank. EX2 gives no numeric morale. The garden boundary supplies the encounter’s pursuit limit."
++    },
++    "ruleNotes": [
++      "Printed p. 27 has “String” in the bumblebee special attack row. The surrounding bee prose and the garden poison block establish that the attack is a sting. No garden sting-use limit is printed and the general column does not say “Sting once” as workers and soldiers do.",
++      "The printed garden block has movement 3″/24″ and HP 36; the general bee table has 6″/24″ and no fixed HP.",
++      "The generic bumblebee level/XP field is incomplete. Do not infer a coefficient from the honey bees."
++    ]
++  },
++  {
++    "name": "Giant Dragonfly",
++    "publication": "The Land Beyond the Magic Mirror",
++    "edition": "AD&D 1st edition",
++    "kind": "beast",
++    "classification": "Medium insect, neutral, Low intelligence",
++    "ac": 3,
++    "hp": null,
++    "hpRule": "Roll 7d8 for a regular dragonfly and 8d8 + 8 for the tropical form. EX2 prints no fixed HP.",
++    "hitDice": "7 (tropical 8+8)",
++    "speed": "1″ ground, 36″ fly with hover",
++    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. 1–6 appearing, no lair or treasure. No psionics. Save as a 16th-level magic-user. Monster Level VI, 525 + 8 XP per HP.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Glittering giant dragonfly with large compound eyes, a long segmented abdomen, and four transparent, veined wings. The blue form appears in the first forest-road group.",
++    "habitats": [
++      "Temperate and subtropical regions",
++      "Tropical regions for the larger form",
++      "Forest roadway"
++    ],
++    "sections": {
++      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, pp. 22, 27. Forest-road Giant Dragonfly encounter and New Monsters, Dragonfly, Giant. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
++      "Attack": "One attack for 3–12 damage. The larger tropical specimen has 8+8 HD and deals 4–16 damage with its one attack.",
++      "Initiative and aerial defense": "Apply +2 on initiative checks. When the dragonfly has initiative, hand-held weapons cannot hit it and missile fire takes −4. Without initiative, hand-held attacks work normally and missile fire still takes −2.",
++      "Forest-road encounter": "A group of 2–5 attacks unless a golem escorts the party. These dragonflies have 25% magic resistance in addition to the specified saving throws. A group withdraws if one member dies or all have lost at least a quarter of their total HP. First group colors include silver-white, blue, and yellow. The second group is red, purple, and green. The third is orange, maroon, and black. Attacks stop when adventurers leave the road’s 100-ft.-wide hex band.",
++      "Ecology and salvage": "Hunts insects as well as warm-blooded prey, including people. Ordinary specimens can yield about six square feet of skin. Magical preservation makes the material worth up to 600 gp per square foot."
++    },
++    "ruleNotes": [
++      "The appendix line reads “x2 on initiative.” The explanatory paragraph and encounter block each specify +2 on initiative. Use the explained +2 modifier with the stated one attack.",
++      "The general appendix places “save as 16th level magic-user” in its magic-resistance column. The actual 25% resistance appears in the road encounter and is scoped there.",
++      "The appendix gives no numeric morale. Use the printed casualty and damage thresholds for the road encounter."
++    ]
++  },
++  {
++    "name": "Giant Honey Bee (Soldier)",
++    "publication": "The Land Beyond the Magic Mirror",
++    "edition": "AD&D 1st edition",
++    "kind": "beast",
++    "classification": "Medium insect, neutral, Low intelligence",
++    "ac": 5,
++    "hp": null,
++    "hpRule": "Roll 4d8 + 2. EX2 prints no fixed HP.",
++    "hitDice": "4+2",
++    "speed": "12″ ground, 30″ fly",
++    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Very rare. One appearing outside the lair; 90% in lair. No treasure or psionics. Standard magic resistance, with no special defenses listed. Monster Level IV, 200 + 5 XP per HP.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Giant striped honey bee. The selected soldier portrait shows a pointed abdomen and a prominent sting.",
++    "habitats": ["Honey bee hives"],
++    "sections": {
++      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, p. 27. New Monsters, Bee, Giant, Honey soldier column. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
++      "Attacks": "The table lists one or two attacks and one sting. Use the first damage entry of 2–8 for the ordinary attack and the second entry of 1–4 for the sting. The sting can be used only once. On a sting hit, save vs. Poison at −1. The poison procedure gives 2–8 damage on a success and 5–20 on a failure plus 1 for poison intensity. For play, resolve the listed sting’s physical damage separately from the poison result. The appendix does not expressly settle whether its poison result includes the wound damage.",
++      "Hive": "A hive contains 20 times the worker die roll, plus 3–12 soldiers, a noncombatant queen, and 2–5 drones. The bees store honey in proportion to the colony’s size. Bee bread can stand in for iron rations. Royal jelly is present on a 20% chance and provides the equivalent of 2–5 potions of extra-healing, each with an added cure disease effect.",
++      "Morale": "EX2 gives no numeric morale for soldiers."
++    },
++    "ruleNotes": [
++      "The table does not name the 2–8 damage attack. The second damage entry is assigned to the sting based on the layout and the attack-count note. No later bee rules are imported."
++    ]
++  },
++  {
++    "name": "Giant Honey Bee (Worker)",
++    "publication": "The Land Beyond the Magic Mirror",
++    "edition": "AD&D 1st edition",
++    "kind": "beast",
++    "classification": "Medium insect, neutral, Low intelligence",
++    "ac": 6,
++    "hp": null,
++    "hpRule": "Roll 3d8 + 1. EX2 prints no fixed HP.",
++    "hitDice": "3+1",
++    "speed": "9″ ground, 30″ fly",
++    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. 1–10 appearing outside the lair; 20% in lair. No treasure or psionics. Standard magic resistance, with no special defenses listed. Monster Level III, 150 + 4 XP per HP.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Giant striped honey bee. The selected worker portrait shows enlarged, rounded pollen-carrying areas on the hind legs.",
++    "habitats": ["Honey bee hives"],
++    "sections": {
++      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, p. 27. New Monsters, Bee, Giant, Honey worker column. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
++      "Sting": "One sting, 1–3 damage on a hit. It can be used only once. On a sting hit, save vs. Poison with no numerical penalty. The poison procedure gives 2–8 damage on a success and 5–20 damage on a failure. For play, resolve the listed sting’s physical damage separately from the poison result. The appendix does not expressly settle whether its poison result includes the wound damage.",
++      "Hive": "A hive contains 20 times the worker die roll, plus 3–12 soldiers, a noncombatant queen, and 2–5 drones. The bees store honey in proportion to the colony’s size. Bee bread can stand in for iron rations. Royal jelly is present on a 20% chance and provides the equivalent of 2–5 potions of extra-healing, each with an added cure disease effect.",
++      "Morale": "EX2 gives no numeric morale for workers."
++    },
++    "ruleNotes": [
++      "The table’s attack-count parenthesis says “string”; the following “Sting once” and poison text identify the attack as a sting."
++    ]
++  },
++  {
++    "name": "Oliphant",
++    "publication": "The Land Beyond the Magic Mirror",
++    "edition": "AD&D 1st edition",
++    "kind": "beast",
++    "classification": "Large mammal, neutral, Low intelligence",
++    "ac": 4,
++    "hp": null,
++    "hpRule": "Roll 8d8 + 4 for a typical specimen or 10d8 + 5 for a larger one. The Chessboard Rook has a fixed 65 HP.",
++    "hitDice": "8+4 (larger 10+5)",
++    "speed": "15″ ground",
++    "otherStatistics": "Descending armor class. Use the AD&D 1e monster attack matrix for the applicable Hit Dice. Rare. 1–8 appearing, no lair or treasure. Standard magic resistance and no special defenses in the generic block. No psionics. The Appendix leaves Level/XP blank.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "Shaggy mastodon-like beast with heavy forelegs, downward-curving tusks and a trunk too short to fight with. The reused portrait is an unarmored specimen.",
++    "habitats": ["Cool temperate regions", "Subarctic regions", "Chessboard encounter"],
++    "sections": {
++      "Printed source": "Gary Gygax, The Land Beyond the Magic Mirror (TSR Hobbies, 1983), EX2, pp. 11, 30. Chessboard Rook and New Monsters, Oliphant. https://device.report/m/ea082f82df7b66d6277283b8a1178539dfd94f1cc20e1e7409641c7c12becb29",
++      "Tusks and forelegs": "Four attacks, each for 3–12 damage, using tusks and forelegs. The trunk cannot be used to fight. The oliphant can engage up to four man-sized foes, two ogre-sized foes, or one giant-sized foe simultaneously.",
++      "Chessboard Rook": "Use the p. 11 preset for the Rook. Leather armor gives AC 2. Speed 15″, 10+5 HD, 65 HP and four attacks of 3–12 each. The Rook also has 25% magic resistance.",
++      "Encounter ecology": "Avoids inhabited areas when solitary. A young specimen can be captured and trained, with mature trained males especially effective. War animals can wear reinforced armor and spikes and carry archers or pikemen in howdahs. Regular fire does not scare the animal unless the fire directly threatens it. When threatened an oliphant generally fights instead of fleeing.",
++      "Groups and value": "When three or more appear, check each animal beyond the first two. The module gives a 25% chance of a calf and 75% for a half-grown animal. Young are split evenly between the sexes. A solitary animal is male, and any group has at most one mature male. Tusks are worth 100–400 gp each. Ivory is worth about 4 gp per pound."
++    },
++    "ruleNotes": [
++      "The generic oliphant and Chessboard Rook share the profile. The armor, fixed HP and 25% magic resistance are encounter-specific.",
++      "Generic oliphant level and XP are blank on p. 30. No numeric morale is printed."
++    ]
++  },
+   {
+     "name": "Behir",
+     "classification": "Huge monstrosity, neutral evil",

@@ -1,0 +1,466 @@
+[
+  {
+    "name": "Balor",
+    "statBlock": {
+      "name": "Balor",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 19,
+      "hp": 262,
+      "hitDice": "21d12 + 126",
+      "speed": "40 ft., fly 80 ft.",
+      "cr": "19",
+      "xp": 22000,
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "description": "An Abyssal general that wields a lightning-charged sword and a flaming whip.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Death Throes. When it dies, creatures within 30 ft. make a DC 20 Dexterity save. A creature takes 70 (20d6) fire damage on a failure or half on a success. The blast destroys the balor's weapons and ignites flammable objects in the area that no one is wearing or carrying.\nFire Aura. At the start of each of its turns, creatures within 5 ft. take 10 (3d6) fire damage. Flammable objects in that area ignite unless worn or carried. A creature also takes 10 (3d6) fire damage when it touches the balor or hits it with a melee attack while within 5 ft. of it.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.",
+        "Actions": "Multiattack. Make one Longsword attack and one Whip attack.\nLongsword. Melee weapon attack, +14 to hit, reach 10 ft., one target. Hit 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning. On a critical hit, roll the damage dice three times and add the modifier once.\nWhip. Melee weapon attack, +14 to hit, reach 30 ft., one target. Hit 15 (2d6 + 8) slashing damage plus 10 (3d6) fire. The target makes a DC 20 Strength save. On a failure, the balor can pull it up to 25 ft. closer.\nTeleport. It and everything it wears or carries magically move up to 120 ft. to a visible unoccupied space.",
+        "Printed source": "Monster Manual (2014), p. 55."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 14,
+        "Con": 12,
+        "Wis": 9,
+        "Cha": 12
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Balor (Summoner Variant)",
+    "statBlock": {
+      "name": "Balor (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 19,
+      "hp": 262,
+      "hitDice": "21d12 + 126",
+      "speed": "40 ft., fly 80 ft.",
+      "cr": "19",
+      "xp": 22000,
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "description": "An Abyssal general that wields a lightning-charged sword and a flaming whip.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Fire and poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Death Throes. When it dies, creatures within 30 ft. make a DC 20 Dexterity save. A creature takes 70 (20d6) fire damage on a failure or half on a success. The blast destroys the balor's weapons and ignites flammable objects in the area that no one is wearing or carrying.\nFire Aura. At the start of each of its turns, creatures within 5 ft. take 10 (3d6) fire damage. Flammable objects in that area ignite unless worn or carried. A creature also takes 10 (3d6) fire damage when it touches the balor or hits it with a melee attack while within 5 ft. of it.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks count as magical.",
+        "Actions": "Multiattack. Make one Longsword attack and one Whip attack.\nLongsword. Melee weapon attack, +14 to hit, reach 10 ft., one target. Hit 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning. On a critical hit, roll the damage dice three times and add the modifier once.\nWhip. Melee weapon attack, +14 to hit, reach 30 ft., one target. Hit 15 (2d6 + 8) slashing damage plus 10 (3d6) fire. The target makes a DC 20 Strength save. On a failure, the balor can pull it up to 25 ft. closer.\nTeleport. It and everything it wears or carries magically move up to 120 ft. to a visible unoccupied space.\nSummon Demon (1/day). Choose 1d8 Vrocks, 1d6 Hezrous, 1d4 Glabrezus, 1d3 Nalfeshnees, 1d2 Mariliths, or one Goristro, then attempt a magical summoning with a 50 percent chance of success. Each demon arrives in an unoccupied space within 60 ft. of the summoner and fights as its ally. It can't summon further demons. It stays for up to 1 minute and disappears earlier if it dies, the summoner dies, or the summoner uses an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), pp. 54, 55."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 14,
+        "Con": 12,
+        "Wis": 9,
+        "Cha": 12
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Glabrezu",
+    "statBlock": {
+      "name": "Glabrezu",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 17,
+      "hp": 157,
+      "hitDice": "15d10 + 75",
+      "speed": "40 ft.",
+      "cr": "9",
+      "xp": 5000,
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A demon that offers wealth or power to tempt mortals into bargains. If a deal fails, it closes in with its pincers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Innate spellcasting": "Intelligence is its spellcasting ability (save DC 16). It casts without material components.\nAt will. Darkness, Detect Magic, Dispel Magic.\n1/day each. Confusion, Fly, Power Word Stun.",
+        "Actions": "Multiattack. Make two Pincer attacks and two Fist attacks, or make two Pincer attacks and cast one spell.\nPincer. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 16 (2d10 + 5) bludgeoning damage. A Medium or smaller creature is Grappled (escape DC 15). Each of the two pincers can grapple one target at a time.\nFist. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), p. 58."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 9,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Glabrezu (summoner variant)",
+    "statBlock": {
+      "name": "Glabrezu (summoner variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 17,
+      "hp": 157,
+      "hitDice": "15d10 + 75",
+      "speed": "40 ft.",
+      "cr": "9",
+      "xp": 5000,
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A demon that offers wealth or power to tempt mortals into bargains. If a deal fails, it closes in with its pincers.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Innate spellcasting": "Intelligence is its spellcasting ability (save DC 16). It casts without material components.\nAt will. Darkness, Detect Magic, Dispel Magic.\n1/day each. Confusion, Fly, Power Word Stun.",
+        "Actions": "Multiattack. Make two Pincer attacks and two Fist attacks, or make two Pincer attacks and cast one spell.\nPincer. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 16 (2d10 + 5) bludgeoning damage. A Medium or smaller creature is Grappled (escape DC 15). Each of the two pincers can grapple one target at a time.\nFist. Melee weapon attack, +9 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) bludgeoning damage.\nSummon Demon (1/day). Choose 1d3 Vrocks, 1d2 Hezrous, or one Glabrezu, then attempt a magical summoning with a 30 percent chance of success. Each demon arrives in an unoccupied space within 60 ft. of the summoner and fights as its ally. It can't summon further demons. It stays for up to 1 minute and disappears earlier if it dies, the summoner dies, or the summoner uses an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), pp. 54, 58."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 9,
+        "Con": 9,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Hezrou",
+    "statBlock": {
+      "name": "Hezrou",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "13d10 + 65",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "A foot soldier in Abyssal armies. Its stench sickens enemies at close range.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.\nStench. A creature that starts its turn within 10 ft. makes a DC 14 Constitution save. On a failure, it is Poisoned until the start of its next turn. On a success, it is immune to this hezrou's Stench for 24 hours.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.",
+        "Printed source": "Monster Manual (2014), p. 60."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 7,
+        "Con": 8,
+        "Wis": 4
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Hezrou (Summoner Variant)",
+    "statBlock": {
+      "name": "Hezrou (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 16,
+      "hp": 136,
+      "hitDice": "13d10 + 65",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "description": "A foot soldier in Abyssal armies. Its stench sickens enemies at close range.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.\nStench. A creature that starts its turn within 10 ft. makes a DC 14 Constitution save. On a failure, it is Poisoned until the start of its next turn. On a success, it is immune to this hezrou's Stench for 24 hours.",
+        "Actions": "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 15 (2d10 + 4) piercing damage.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 11 (2d6 + 4) slashing damage.\nSummon Demon (1/day). Choose 2d6 Dretches or one Hezrou, then attempt a magical summoning with a 30 percent chance of success. Each demon arrives in an unoccupied space within 60 ft. of the summoner and fights as its ally. It can't summon further demons. It stays for up to 1 minute and disappears earlier if it dies, the summoner dies, or the summoner uses an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), pp. 54, 60."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Str": 7,
+        "Con": 8,
+        "Wis": 4
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Nalfeshnee",
+    "statBlock": {
+      "name": "Nalfeshnee",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 184,
+      "hitDice": "16d10 + 96",
+      "speed": "20 ft., fly 30 ft.",
+      "cr": "13",
+      "xp": 10000,
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A winged demon with features of an ape and a boar. It flies over the front line to strike vulnerable targets.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Use Horror Nimbus if available, then make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 32 (5d10 + 5) piercing damage.\nClaw. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 15 (3d6 + 5) slashing damage.\nHorror Nimbus (Recharge 5–6). It magically emits multicolored light. Each creature within 15 ft. that can see the light makes a DC 15 Wisdom save. On a failure, it is Frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. Once it saves or the effect ends for it, it is immune to this nalfeshnee's Horror Nimbus for 24 hours.\nTeleport. It and everything it wears or carries magically move up to 120 ft. to a visible unoccupied space.",
+        "Printed source": "Monster Manual (2014), p. 62."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Con": 11,
+        "Int": 9,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Nalfeshnee (Summoner Variant)",
+    "statBlock": {
+      "name": "Nalfeshnee (Summoner Variant)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 184,
+      "hitDice": "16d10 + 96",
+      "speed": "20 ft., fly 30 ft.",
+      "cr": "13",
+      "xp": 10000,
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "description": "A winged demon with features of an ape and a boar. It flies over the front line to strike vulnerable targets.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Magic Resistance. It has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Use Horror Nimbus if available, then make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 32 (5d10 + 5) piercing damage.\nClaw. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 15 (3d6 + 5) slashing damage.\nHorror Nimbus (Recharge 5–6). It magically emits multicolored light. Each creature within 15 ft. that can see the light makes a DC 15 Wisdom save. On a failure, it is Frightened for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. Once it saves or the effect ends for it, it is immune to this nalfeshnee's Horror Nimbus for 24 hours.\nTeleport. It and everything it wears or carries magically move up to 120 ft. to a visible unoccupied space.\nSummon Demon (1/day). Choose 1d4 Vrocks, 1d3 Hezrous, 1d2 Glabrezus, or one Nalfeshnee, then attempt a magical summoning with a 50 percent chance of success. Each demon arrives in an unoccupied space within 60 ft. of the summoner and fights as its ally. It can't summon further demons. It stays for up to 1 minute and disappears earlier if it dies, the summoner dies, or the summoner uses an action to dismiss it.",
+        "Printed source": "Monster Manual (2014), pp. 54, 62."
+      },
+      "skills": {},
+      "savingThrows": {
+        "Con": 11,
+        "Int": 9,
+        "Wis": 6,
+        "Cha": 7
+      },
+      "passivePerception": 11
+    }
+  }
+]

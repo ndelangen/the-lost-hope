@@ -1,0 +1,199 @@
+[
+  {
+    "name": "Durixaviinox",
+    "decision": "share",
+    "pages": "Durixaviinox’s Rest, p. 232 (stat block), p. 228 (lair)",
+    "notes": "AC 18, 370 HP, CR 20, movement, traits, attack profiles and all three villain actions match. The undead wind sprinter summoned by Royal Defense still grants resistance within 60 ft.",
+    "tableNote": "In Durixaviinox’s Rest, use the separate lair actions in the throne area, including Fallen Army. The thin ice around the throne can give way under a Medium or larger creature."
+  },
+  {
+    "name": "Forzaantilirys",
+    "decision": "share",
+    "pages": "Mount Brazen, p. 285 (stat block), p. 278 (lair)",
+    "notes": "AC 20, 585 HP, CR 24, movement, Scorching Breath’s lingering fire, Ignite the Insolent, and all three villain actions match.",
+    "tableNote": "Mount Brazen adds lava hazards and lair actions such as Flaming Step and Hard Light. In the encounter, Forzaantilirys alternates between flight and submerging herself in lava."
+  },
+  {
+    "name": "Qazyldrath",
+    "decision": "share",
+    "pages": "Coronal Hollow, p. 246 (stat block), p. 240 (lair)",
+    "notes": "AC 20, 402 HP, CR 21, movement, Consume Shadow, Vacuous Breath, Enshroud, Thwart Healing, and the three villain actions match.",
+    "tableNote": "Coronal Hollow has three separate lair actions: Acidic Gas, Consume Light, and Hungry Gloom. These can change the lighting and interact with Qazyldrath’s shadow mechanics."
+  },
+  {
+    "name": "Xaantikorijek",
+    "decision": "share",
+    "pages": "Glass Cavern, p. 273 (stat block), p. 267 (lair)",
+    "notes": "AC 20, 518 HP, CR 23, movement, Static Shield, Fulminating Breath, Lightning Discharge, Voice of Negation, and all three villain actions match.",
+    "tableNote": "In the Glass Cavern, Xaantikorijek can use a lair action to read a creature’s memories. The wyrm and fire giants may deal peacefully with visitors they judge harmless."
+  },
+  {
+    "name": "Yserthrax",
+    "decision": "share",
+    "pages": "Eyes of the Mountain, p. 262 (stat block), p. 254 (lair)",
+    "notes": "AC 19, 420 HP, CR 22, movement, the Corruption trait, Ulcerate, Eldritch Disruption, and all three villain actions match.",
+    "tableNote": "Eyes of the Mountain adds lair effects including Eldritch Suppuration and Elder Whispers. Elder Whispers can affect creatures already corrupted by Yserthrax."
+  },
+  {
+    "name": "Lady Emer",
+    "decision": "share",
+    "pages": "Cloud Fang Keep, p. 106 (stat block), p. 98 (lair)",
+    "notes": "AC 17, 190 HP, CR 11, Stone Sacrifice, the three-stage Stone Gaze, and all three villain actions match.",
+    "tableNote": "Cloud Fang Keep adds Shadowstep, Stony Wail, and Venom Shower as lair actions. If warned of intruders, Emer uses the stone garden and its petrified victims to fuel Stone Sacrifice."
+  },
+  {
+    "name": "Ithu’rath",
+    "decision": "share",
+    "pages": "Ruins of Wrathrock, p. 132 (stat block), p. 127 (lair), p. 133 (slime servants)",
+    "notes": "AC 19, 255 HP, CR 16, Devolving Tentacle, Piscine Transformation, Slimy Resistance, Liquefy, and all three villain actions match. Wrathrock reprints the three Olothec lair options using the same DCs.",
+    "tableNote": "At Wrathrock, Ithu’rath uses the three lair actions on p. 127 and fights without summoning slime servants. The altered servants have their own profiles on p. 133."
+  },
+  {
+    "name": "Kiona the Dread Lord",
+    "decision": "share",
+    "pages": "Shifting Library, p. 89 (stat block), p. 86 (encounter)",
+    "notes": "AC 17, 136 HP, CR 9, Corrupting Phasing, Energy Siphon, Rise from Death choices, Death’s Breath, and all three villain actions match.",
+    "tableNote": "In the Shifting Library, surviving ground-floor undead join immediately and survivors upstairs arrive at the start of round three. At 30 HP or fewer, Kiona asks for mercy and opens a portal. She fights to the death if the party takes her books."
+  },
+  {
+    "name": "High Mage Vairae",
+    "decision": "separate",
+    "pages": "Boughs of Eternity, p. 313 (stat block), p. 307 (soulstone and lair)",
+    "notes": "AC 21, 315 HP, CR 25, the four-attack Multiattack, Baleful Teleport, and all three villain actions match. The printed Rejuvenation line points to L8 instead of the generic lich trait. L8 adds a glyph that can turn a creature into a camel, and L9 supplies the retreat threshold and combat hazards. Use this printing with its adventure-specific rule.",
+    "tableNote": "The soulstone in area L8 governs Rejuvenation. If it has been destroyed, Vairae tries to flee when reduced to 100 HP.",
+    "statBlock": {
+      "name": "High Mage Vairae",
+      "publication": "Where Evil Lives",
+      "edition": "2014 fifth edition compatible",
+      "classification": "Medium Undead, neutral evil",
+      "ac": 21,
+      "hp": 315,
+      "hitDice": "42d8 + 126",
+      "speed": "30 ft., fly 50 ft. (hover)",
+      "cr": "25",
+      "xp": 75000,
+      "proficiencyBonus": 8,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "abilities": {
+        "Str": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Dex": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Con": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Int": {
+          "score": 23,
+          "modifier": 6
+        },
+        "Wis": {
+          "score": 20,
+          "modifier": 5
+        },
+        "Cha": {
+          "score": 20,
+          "modifier": 5
+        }
+      },
+      "otherStatistics": "Natural armor. Saving throws Con +11, Int +14, Wis +13, Cha +13. Arcana +14, Athletics +10, Deception +13, History +14, Perception +13, Persuasion +13. Resists fire and cold and bludgeoning, piercing, and slashing from mundane attacks. Immune to necrotic and poison damage and to Charmed, Dazed, Exhaustion, Frightened, Paralyzed, Poisoned, and Stunned. Truesight 120 ft., passive Perception 23. Speaks Abyssal, Common, Draconic, Elvish, Infernal, and Sylvan. Telepathy 120 ft.",
+      "description": "The elven High Mage hides their lichdom. Their soulstone is a sphere of everlasting ice.",
+      "sections": {
+        "Role": "Solo",
+        "Traits": "Draining Resistance (3/day). Turn a failed save into a success. Vairae then has disadvantage on spell attacks until the end of their next turn.\nRejuvenation (Soulstone Sanctum, area L8). If destroyed with the soulstone intact, Vairae's soul enters it. A creature that can see the stone at the start of its turn makes a DC 20 Charisma save. On a failure, it is Charmed until the end of its next turn and must try to move toward and touch the stone, avoiding clear hazards. Touching the occupied stone forces a DC 20 Constitution save. On a failure, the creature drops to 0 HP and Vairae reforms at full HP. On a success, the creature loses half its HP and Vairae reforms at half HP. In either case Vairae appears in an unoccupied space within 5 ft. of the stone. The stone has AC 19, 50 HP, and immunity to every damage type except force and thunder.\nSupernatural Resistance. Advantage on saves against spells, powers, and other supernatural effects.\nTurn Immunity. Vairae is immune to effects that turn Undead.",
+        "Actions": "Multiattack. Use Glare of Undeath and make four attacks in any combination of Conflagration, Immortal Pain, and Magic Drain.\nConflagration (4th-level spell). Ranged spell attack, +14 to hit, 150-ft. range, one target. Hit 35 (10d6) fire damage. If the target takes both an action and a bonus action on its next turn, it takes 17 (5d6) more fire damage at the end of that turn.\nImmortal Pain (4th-level spell). Melee or ranged spell attack, +14 to hit, 5-ft. reach or 90-ft. range, one creature. Hit 28 (8d6) psychic damage and afflicts the target with pain, halving the damage its attacks deal. After each attack it makes against an enemy, the target can end the effect with a successful DC 22 Constitution save. Cure Ailment, Lesser Restoration, or a similar supernatural effect also ends the pain.\nMagic Drain (4th-level spell). Melee or ranged spell attack, +14 to hit, 5-ft. reach or 60-ft. range, one creature. Hit 26 (4d12) necrotic damage. If the target is under the effects of spells Vairae did not cast, those effects end on a failed DC 22 Wisdom save.\nGlare of Undeath. One creature Vairae sees within 60 ft. makes a DC 22 Wisdom save. On a failure, it clutches itself and is Restrained for 1 minute, repeating the save at the end of each turn. A creature the target can hear and understand can use an action to end the effect with a DC 22 Charisma (Persuasion) check.\nMachinations of Bone (2/day). Choose a visible point within 150 ft. Every enemy within 30 ft. of that point makes a DC 22 Strength save. On a failure, it takes 54 (12d8) piercing damage, falls Prone, and cannot stand until it receives supernatural healing.",
+        "Bonus Actions": "Necrotic Form (3rd-level spell). Assume a shadow form and move up to their speed. Until the end of the turn, Vairae is immune to bludgeoning, piercing, and slashing damage and to Grappled and Restrained, and can pass through a 1-inch opening without squeezing.",
+        "Reactions": "Baleful Teleport (6th-level spell). When a visible creature within 120 ft. targets Vairae with an attack, the attacker makes a DC 22 Charisma save. On a failure, Vairae teleports the attacker up to 60 ft. into a visible unoccupied space. If Vairae is now an invalid target, the attacker must choose a new target or miss.",
+        "Villain Actions": "Each action is available once per encounter, after an enemy finishes a turn. Use them in any order, at most one per round.\n1. Cages of Wasting. Enemies within 60 ft. make DC 22 Dexterity saves. Failure deals 27 (5d10) necrotic damage and Restrains the target in a cage for up to 1 minute. A success halves the damage. A trapped target can repeat the save at the end of each turn or teleport out. Destroying Vairae also ends the restraint.\n2. My Magic Alone. Creatures within 60 ft. make DC 22 Wisdom saves. A creature that fails cannot benefit from magic items or cast spells of 4th level or higher until the end of Vairae's next turn.\n3. Necrostorm. Creatures within 60 ft. make DC 22 Dexterity saves, taking 78 (12d12) necrotic damage or half on a success. A Humanoid killed by this damage rises as a wraith at the start of Vairae's next turn, permanently following Vairae's verbal commands.",
+        "Lair Actions": "On initiative 20, losing ties, use one effect. The same lair action cannot be used in consecutive rounds.\nSoul Sip. Choose two visible enemies within 90 ft. Each takes 19 (3d12) necrotic damage on a failed DC 20 Constitution save.\nSpirit Shell. Until the end of initiative count 20 of the next round, a creature hitting Vairae with a melee attack makes a DC 20 Wisdom save or is Dazed until the start of that creature's next turn.\nUnnatural Born Leader. One visible creature within 90 ft. makes a DC 20 Charisma save. On a failure, it uses its reaction, if available, to move up to its speed and make a weapon attack against a creature Vairae chooses.",
+        "Dazed (MCDM)": "On its turn, a Dazed creature chooses one of these options: move, take an action, or take a bonus action. If it becomes Dazed during its turn, its turn ends. Extra actions from effects such as Haste and Action Surge still apply. Cure Ailment, Lesser Restoration, Greater Restoration, or a similar supernatural effect can end this condition.",
+        "Mundane Attacks (MCDM)": "A mundane attack is one that uses neither magic nor psionics.",
+        "Printed source": "Boughs of Eternity, p. 313 (stat block), p. 307 (soulstone and lair)",
+        "Soulstone Ward": "One Last Horror. A 9th-level Glyph of Warding guards the soulstone. It triggers when a creature succeeds on the DC 20 Constitution save after touching the occupied stone, or when a creature other than Vairae touches the empty stone. The glyph casts True Polymorph on that creature. On a failed DC 22 Wisdom save, it turns the target into a camel.",
+        "Winter Throne": "Vairae fights until destroyed while the soulstone remains intact. If it has been destroyed, Vairae tries to flee the tower upon reaching 100 HP.\nFrozen Pool. The pool is difficult terrain. When a creature other than Vairae first touches it on a turn or starts a turn touching it, that creature makes a DC 22 Constitution save. On a failure it takes 19 (3d12) necrotic damage and falls Prone. The ice has AC 21 and 100 HP and is immune to necrotic, poison, and psychic damage. A 9th-level Dispel Magic ends the magic and melts the ice. A lower-level casting requires a DC 19 spellcasting ability check.\nHallow. The chamber permits Fiends and Undead to enter. Other creatures entering can become vulnerable to necrotic damage under the spell’s Energy Vulnerability effect, with a DC 22 Charisma save."
+      },
+      "ruleNotes": [
+        "Machinations of Bone involves body horror. Spectral blades can describe the same effect at the table."
+      ],
+      "relatedCreatures": [
+        {
+          "name": "Wraith (MCDM)",
+          "kind": "monster",
+          "terms": [
+            "wraith"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "Xorannox",
+    "decision": "separate",
+    "pages": "The White Tower, p. 150 (stat block), p. 142 (lair)",
+    "notes": "AC 18, 228 HP, CR 14, the eight Eye Psionics options, The Great Eye, Cower!, and all three villain actions match. The existing Flee profile includes Eyes Always Shielded from its background text. This rule is absent from the WEL stat block and adventure text. The White Tower adds three lair actions and a 60 HP retreat.",
+    "tableNote": "At 60 HP, Xorannox drops the library’s levitating furniture and tries to escape through the egg pit.",
+    "statBlock": {
+      "name": "Xorannox",
+      "classification": "Large Aberration, lawful evil",
+      "ac": 18,
+      "hp": 228,
+      "hitDice": "24d10 + 96",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10,
+          "modifier": 0
+        },
+        "Dex": {
+          "score": 16,
+          "modifier": 3
+        },
+        "Con": {
+          "score": 18,
+          "modifier": 4
+        },
+        "Int": {
+          "score": 19,
+          "modifier": 4
+        },
+        "Wis": {
+          "score": 14,
+          "modifier": 2
+        },
+        "Cha": {
+          "score": 18,
+          "modifier": 4
+        }
+      },
+      "otherStatistics": "Natural armor. Saves Int +9, Wis +7, Cha +9. Arcana +9, Deception +9, Insight +7, Intimidation +9, Perception +7. Immune to Charmed, Flanked, Frightened and Prone. Darkvision 120 ft. Passive Perception 17. Common, Deep Speech and Undercommon.",
+      "cr": "14",
+      "xp": 11500,
+      "proficiencyBonus": 5,
+      "edition": "2014 fifth edition compatible",
+      "publication": "Where Evil Lives",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "appearance": "The Tyract is an armored vaurath with a massive central eye and eight detached psionic eyes.",
+      "habitats": [
+        "World Below",
+        "The Tyract’s alabaster tower"
+      ],
+      "sections": {
+        "Role": "Solo",
+        "Traits": "Painful Resistance (3/day). After failing a save, Xorannox can succeed by destroying one of his eight floating eyes, chosen randomly with a d8. He grows a new eye to replace it 24 hours later.",
+        "Actions": "Bite. Melee weapon attack +5, reach 5 ft., one target. Hit 14 (4d6) piercing damage.\nEye Psionics. Use three different effects from the floating eyes. No effect can be used twice on the same turn. Except where an effect specifies otherwise, each targets one creature Xorannox can see within 120 ft.\nCharm Beam. DC 17 Wisdom save or Charmed by Xorannox for 1 hour. The charm ends if he harms the target or one of the target’s allies.\nCompulsion Beam. DC 17 Intelligence save or the target uses its reaction, if available, to move up to its speed toward its closest visible ally and make a weapon attack against that ally. Creatures immune to Charmed are unaffected.\nMemory Beam. DC 17 Intelligence save. On a failure, the target expends an available spell slot of its highest remaining level with no effect. A target with no slots left loses proficiency with one weapon it holds or carries for 1 minute. It repeats the save at the end of each of its turns to end that loss early.\nToxic Vapors. Choose a visible point within 120 ft. All creatures within 10 ft. of it make a DC 17 Constitution save or become Poisoned for 1 minute. Each affected creature repeats the save at the end of its own turn to end the effect early.\nTelekinetic Field. Choose a visible point within 120 ft. Each enemy within 10 ft. of it makes a DC 17 Strength save. On a failure, Xorannox moves the enemy up to 30 ft. in any direction and deals 7 (2d6) force damage at the end of that movement. He can also move an object in the area up to 30 ft. in any direction if it weighs 300 pounds or less and is neither worn nor carried. He can manipulate the object precisely.\nLightning Bolt. Creatures in a 60-ft. line, 5 ft. wide, make a DC 17 Dexterity save, taking 36 (8d8) lightning damage on a failure or half on a success.\nExplosion. Choose a visible point within 120 ft. Creatures within 10 ft. of it make a DC 17 Dexterity save, taking 36 (8d8) fire damage on a failure or half on a success.\nNecrosis Beam. DC 17 Constitution save or the target takes 55 (10d10) necrotic damage immediately and loses 7 (2d6) HP at the start of each of its turns. A target reduced to 0 HP by this effect dies. The effect ends if Xorannox dies or loses sight of the target. He cannot use the beam again while that effect lasts.",
+        "Bonus Actions": "The Great Eye (Recharge 6). Xorannox projects a 150-ft. cone. For Xorannox and each creature in the cone affected by a spell, that spell’s effects end immediately for that creature.",
+        "Reactions": "Cower! When an attacker hits Xorannox, it makes a DC 17 Wisdom save. On a failure, it takes 21 (6d6) psychic damage and is Frightened of him for 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success.",
+        "Villain Actions": "Each option is available once per encounter after an enemy’s turn. Use them in any order, at most one per round.\nDisruption Beams. Choose three visible creatures within 120 ft. Each makes a DC 17 Wisdom save. On a failure, the target takes 14 (4d6) psychic damage whenever it makes more than one weapon attack on a turn or casts a spell of 1st level or higher. The effect lasts 1 minute, and each affected creature repeats the save at the end of its own turn to end it early.\nDisappearing Act. Xorannox becomes Invisible until the end of his next turn and teleports to a visible unoccupied space within 120 ft.\nMegabeam. In a 120-ft. line, 20 ft. wide, each creature saves against two random Eye Psionics effects from Xorannox’s remaining eyes. Reroll duplicates for each creature. Effects that normally cover an area affect only that individual creature.",
+        "Printed source": "The White Tower, p. 150 (stat block), p. 142 (lair)",
+        "Lair Actions": "On initiative count 20, losing ties, choose one option. The same action cannot be used two rounds in a row.\nGas Belch. Choose a point on a floor, wall, or ceiling within 60 ft. A 20-ft. sphere of gas lasts through the end of initiative count 20 next round. A creature that enters it for the first time or starts its turn there must succeed on a DC 15 Constitution save or be Poisoned until the start of its next turn.\nSlime Shower. One enemy within 120 ft. makes a DC 15 Dexterity save. On a failure, it becomes vulnerable to fire and lightning damage until it takes either type of damage or initiative count 20 ends next round, whichever comes first.\nTelekinetic Hold. Choose three enemies within 60 ft. Each makes a DC 15 Strength save. On a failure, the enemy’s speed becomes 0 and it rises straight up 20 ft. It falls at the end of initiative count 20 next round.",
+        "Retreat": "At 60 HP, Xorannox ends the levitation affecting the library furniture and tries to escape through the egg pit at X9. Other creatures in X5 or X6 make a DC 17 Dexterity save against the falling furniture, taking 35 (10d6) bludgeoning damage on a failure or half on a success."
+      }
+    }
+  }
+]

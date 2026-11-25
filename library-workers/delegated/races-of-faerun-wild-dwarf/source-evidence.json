@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Wild Dwarf",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.5 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "playableSpecies": [
+        23,
+        24,
+        25
+      ],
+      "racialTraits": [
+        24
+      ],
+      "region": [
+        25
+      ],
+      "illustration": [
+        25
+      ],
+      "knockoutPoison": [
+        160
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "coreDwarf": "https://www.d20srd.org/srd/races.htm#dwarves",
+    "coreBlowgun": "",
+    "printedArtCredit": "Wayne England, p. 25.",
+    "regionalRevision": "",
+    "sourceDistinctions": [
+      "The player entry replaces the normal dwarven poison bonus, weapon familiarity, and stoneworking traits.",
+      "The 3.5 Player’s Guide supplies the revised Chult languages. Its regional bonus list omits Yuan-Ti, which was in the original regional entry.",
+      "The 3.5 DMG supplies the Small blowgun stats in Table 5–3."
+    ],
+    "entryId": "species-e7d3399146e69a352648ad1d",
+    "versionKey": "4a78797ba4b45cef17b4bc39",
+    "slug": "wild-dwarf",
+    "portraitSelection": "generated",
+    "portraitForm": "Nima Reedbend, an original Wild Dwarf river guide",
+    "npcExamples": [
+      "Nima Reedbend",
+      "Perrin Mossline"
+    ]
+  }
+]

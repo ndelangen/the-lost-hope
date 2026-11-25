@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Giant Fly",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "entryId": "beast-89cd1b062cb2aba1a35fca42",
+    "versionKey": "2b154e9775abc0b082c31db2",
+    "sourceUrl": "",
+    "blockUrl": "",
+    "printedPages": [
+      97,
+      98
+    ],
+    "viewerPages": [
+      97,
+      98
+    ],
+    "license": "ORC",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "item": "Ebony Fly",
+    "naturalHabitat": null
+  },
+  {
+    "name": "Giant Fly",
+    "kind": "beast",
+    "publication": "Black Flag Roleplaying Reference Document v1.0",
+    "edition": "Black Flag Roleplaying",
+    "entryId": "beast-89cd1b062cb2aba1a35fca42",
+    "versionKey": "9233a3c0cddb5f92199a3bc1",
+    "sourceUrl": "",
+    "blockUrl": "",
+    "printedPages": [
+      105,
+      106
+    ],
+    "viewerPages": [
+      105,
+      106
+    ],
+    "license": "CC BY 4.0",
+    "sourceSha256": "1fd1c852e6bfcddd940423a0aba6ab5defa2c21d31ec51dc708216a8a56fcd5e",
+    "item": "Ebony Fly",
+    "naturalHabitat": null
+  }
+]

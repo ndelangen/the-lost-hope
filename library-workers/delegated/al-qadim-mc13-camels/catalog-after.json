@@ -1,0 +1,399 @@
+[
+  {
+    "name": "Desert Camel",
+    "version": {
+      "key": "84fddb81e21ee223739b340a",
+      "publication": "Monstrous Compendium Al-Qadim Appendix",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Size",
+          "L, 8 ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "21"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–4"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Desert and caravan routes"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A single-humped camel with wide padded feet and a rolling gait."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Spitting · An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds.",
+            "Herd stampede · A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+          ]
+        },
+        {
+          "title": "Handling mechanics",
+          "lines": [
+            "Carrying capacity · Load by weight in gold pieces: 250 normal, 400 encumbered, 520 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load.",
+            "Desert camel use · A steady mount and pack animal that carries heavy loads across difficult terrain."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–12 appearing. Steady (12) morale. Animal to semi-intelligent (1–4).",
+            "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+            "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Desert Camel": true,
+      "desert camel padded feet": true
+    },
+    "hash": "01f932ad5e078f9d38fba6fa5692c7887426b46c56c7cacaf8834a07c2c01b9d",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Mountain Camel",
+    "version": {
+      "key": "fe81f712d41889e545d2a2ec",
+      "publication": "Monstrous Compendium Al-Qadim Appendix",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Size",
+          "L, 8 ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "21"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–4"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Hills and mountains"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A shaggy camel with two humps."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Spitting · An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds.",
+            "Herd stampede · A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+          ]
+        },
+        {
+          "title": "Handling mechanics",
+          "lines": [
+            "Carrying capacity · Load by weight in gold pieces: 240 normal, 380 encumbered, 500 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load.",
+            "Mountain camel use · A pack animal used in hills and mountains. The entry describes it as ill suited to desert travel."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–12 appearing. Steady (12) morale. Animal to semi-intelligent (1–4).",
+            "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+            "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Mountain Camel": true,
+      "mountain camel two humps": true
+    },
+    "hash": "b21f3469f1d7ceabc00aa6bf7fc0b702f572aaf234519709674757fe2534afca",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Racing Camel",
+    "version": {
+      "key": "f5fc71c3fadb233976771118",
+      "publication": "Monstrous Compendium Al-Qadim Appendix",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "2+2"
+        ],
+        [
+          "Size",
+          "L, 8 ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "24"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–4"
+        ],
+        [
+          "XP",
+          "75"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A single-humped camel with long slender legs and small hooves."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Spitting · An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds.",
+            "Herd stampede · A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes."
+          ]
+        },
+        {
+          "title": "Handling mechanics",
+          "lines": [
+            "Carrying capacity · Load by weight in gold pieces: 150 normal, 280 encumbered, 340 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load.",
+            "Racing camel use · Bred for speed. It often spits even at its trainers and accepts few riders. A good racing camel costs at least twice as much as a war camel."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–6 appearing. Unreliable (3) morale. Animal to semi-intelligent (1–4).",
+            "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+            "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Racing Camel": true,
+      "racing camel small hooves": true
+    },
+    "hash": "0eb21e1bdd89e6fe113555198f20f34db7a618992f2e3ffe360610913457d23f",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "War Camel",
+    "version": {
+      "key": "8fa600b0d682a4724465e6b3",
+      "publication": "Monstrous Compendium Al-Qadim Appendix",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "7"
+        ],
+        [
+          "Hit dice",
+          "3+3"
+        ],
+        [
+          "Size",
+          "L, 8 ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "21"
+        ],
+        [
+          "THAC0",
+          "16"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–4 / 1–6 / 1–6"
+        ],
+        [
+          "XP",
+          "95"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Any land"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A stout single-humped camel with a strong neck and heavy shoulders."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Spitting · An ill-tempered camel has a 50% chance to spit at someone who tries to ride it or use it as a pack animal. The victim then has a 25% chance of being blinded for 1–3 rounds.",
+            "Herd stampede · A frightened herd has a 25% chance of stampeding. Roll 2d4 camels for each creature in its path that fails to take cover. Each camel deals 1–4 damage to that creature. Trampled creatures stay down until the herd passes.",
+            "Bite and hooves · The war camel bites for 1d4 and attacks twice with its hooves for 1d6 each. A successful hoof attack keeps the opponent prone."
+          ]
+        },
+        {
+          "title": "Handling mechanics",
+          "lines": [
+            "Carrying capacity · Load by weight in gold pieces: 200 normal, 300 encumbered, 400 fully encumbered. Camels kneel to be loaded and often refuse to rise with more than their encumbered load.",
+            "War camel use · Often trained for years from the strongest desert camels, or selectively bred from retired war camels."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "1–12 appearing. Elite (13) morale. Animal to semi-intelligent (1–4).",
+            "Common, diurnal herd herbivore. The table lists any land for terrain and Nil for alignment, treasure, special defenses, and magic resistance.",
+            "TSR, Monstrous Compendium Al-Qadim Appendix (1992), unnumbered Camel leaf (p. 11)."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "War Camel": true,
+      "war camel prone": true
+    },
+    "hash": "2a1c04b59fa8bd5dfabb14e5f1fc83ae9b7800b23c853e70f197b7991e5366e5",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Gauth",
+    "statBlock": {
+      "name": "Gauth",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 125,
+      "classification": "Medium aberration, lawful evil",
+      "ac": 15,
+      "hp": 67,
+      "hitDice": "9d8 + 27",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A hungry beholderkin that drains magic items and demands tribute. A flawed attempt to summon a spectator can draw a gauth through the connection.",
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5,
+        "Cha": 4
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Deep Speech, Undercommon.",
+        "Condition immunities": "Prone.",
+        "Traits": "Stunning Gaze. When a creature begins its turn within 30 ft. and can see the gauth's central eye, the gauth can force a DC 14 Wisdom save if it can see that creature and isn't incapacitated. On a failure, the creature is stunned until the start of its next turn. A creature that is not surprised can look away at the start of its turn to skip the save. It then cannot see the gauth until its next turn begins and must make the save immediately if it looks at the gauth sooner.\nDeath Throes. When the gauth dies, each creature within 10 ft. makes a DC 14 Dexterity save. It takes 13 (3d8) force damage on a failure or half on a success.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d8) piercing damage.\nEye Rays. Choose one to three targets the gauth can see within 120 ft. Roll three d6s for the rays and reroll duplicates.",
+        "Eye ray outcomes mechanics": "Devour Magic Ray (1). On a failed DC 14 Dexterity save, one randomly chosen magic item the target has loses its magical properties until the start of the gauth's next turn. Exclude single-use items such as potions and scrolls. If the item uses charges, it also loses 1d4 charges.\nEnervation Ray (2). DC 14 Constitution save. The target takes 18 (4d8) necrotic damage on a failure or half on a success.\nPushing Ray (3). On a failed DC 14 Strength save, the target moves up to 15 ft. straight away from the gauth and its speed drops by half until the start of the gauth's next turn.\nFire Ray (4). On a failed DC 14 Dexterity save, the target takes 22 (4d10) fire damage.\nParalyzing Ray (5). On a failed DC 14 Constitution save, the target is paralyzed for 1 minute. It repeats the save at the end of each of its turns, ending the paralysis on a success.\nSleep Ray (6). On a failed DC 14 Wisdom save, the target falls unconscious for 1 minute. Damage or another creature spending an action to wake the target ends the sleep. Constructs and undead are unaffected.",
+        "Magical metabolism": "The gauth can eat meat, but several weeks without magic force it back to its home plane.",
+        "Printed source": "Volo's Guide to Monsters, p. 125."
+      }
+    }
+  },
+  {
+    "name": "Gazer",
+    "statBlock": {
+      "name": "Gazer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 126,
+      "classification": "Tiny aberration, neutral evil",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "3d4 + 6",
+      "speed": "0 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A Tiny beholderkin formed from a beholder's dreams. It follows its creator and harasses lone intruders.",
+      "savingThrows": {
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None. Mimicry lets it reproduce simple speech.",
+        "Condition immunities": "Prone.",
+        "Traits": "Mimicry. The gazer can imitate simple speech sounds it has heard in any language. A listener can spot the imitation with a successful DC 10 Wisdom (Insight) check.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.\nEye Rays. Choose one or two targets the gazer can see within 60 ft. Roll two d4s for the rays and reroll duplicates.",
+        "Eye ray outcomes mechanics": "Dazing Ray (1). On a failed DC 12 Wisdom save, the target is charmed until the start of the gazer's next turn. While charmed this way, its speed is halved and it has disadvantage on attack rolls.\nFear Ray (2). On a failed DC 12 Wisdom save, the target is frightened until the start of the gazer's next turn.\nFrost Ray (3). On a failed DC 12 Dexterity save, the target takes 10 (3d6) cold damage.\nTelekinetic Ray (4). On a failed DC 12 Strength save, a Medium or smaller creature moves up to 30 ft. directly away from the gazer. The ray can instead move an object weighing 10 lb. or less up to 30 ft. in any direction if no one is wearing or carrying it. The gazer can manipulate the object precisely enough to use a simple tool or open a container.",
+        "Bonus actions": "Aggressive. Move up to the gazer's speed toward a hostile creature it can see.",
+        "Gazer familiar mechanics": "Optional. The gazer can form a telepathic bond with a willing master who is at least a 3rd-level spellcaster. The master can use the gazer's senses while they are within 1 mile of each other. If the master physically harms the gazer, it leaves the master's service and breaks the bond.",
+        "Printed source": "Volo's Guide to Monsters, p. 126."
+      }
+    }
+  },
+  {
+    "name": "Giant Strider",
+    "statBlock": {
+      "name": "Giant Strider",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 143,
+      "classification": "Large monstrosity, neutral evil",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "3d10 + 6",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This birdlike reptilian creature serves as a mount for elite firenewts. Their settlements provide it with food, shelter, and breeding grounds.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "None.",
+        "Damage immunities": "Fire.",
+        "Traits": "Fire Absorption. When exposed to fire damage, the strider regains hit points equal to half the damage it would take.",
+        "Actions": "Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nFire Burst (Recharge 5–6). Choose a point the giant strider can see within 60 ft. Each creature in a 10-ft.-radius sphere around that point makes a DC 12 Dexterity save. It takes 14 (4d6) fire damage on a failure or half on a success. The flames spread around corners and ignite flammable objects that no creature is wearing or carrying.",
+        "Printed source": "Volo's Guide to Monsters, p. 143."
+      }
+    }
+  },
+  {
+    "name": "Girallon",
+    "statBlock": {
+      "name": "Girallon",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 152,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 59,
+      "hitDice": "7d10 + 21",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A four-armed, white-furred predator that hunts in forests and climbs the walls and rooftops of ruins.",
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "None.",
+        "Traits": "Keen Smell. The girallon has advantage on Wisdom (Perception) checks that depend on smell.",
+        "Actions": "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 7 (1d6 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 7 (1d6 + 4) slashing damage.",
+        "Bonus actions": "Aggressive. Move up to the girallon's speed toward a hostile creature it can see.",
+        "Printed source": "Volo's Guide to Monsters, p. 152."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Flesh Gnawer",
+    "statBlock": {
+      "name": "Gnoll Flesh Gnawer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 154,
+      "classification": "Medium humanoid (gnoll), chaotic evil",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A gnoll skirmisher that uses short blades to run down stragglers.",
+      "savingThrows": {
+        "Dex": 4
+      },
+      "sections": {
+        "Armor": "Studded leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Gnoll.",
+        "Actions": "Multiattack. Make one Bite and two Shortsword attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nSudden Rush. Increase the gnoll's speed by 60 ft. until the end of this turn. Its movement provokes no opportunity attacks during that time.",
+        "Bonus actions": "Rampage. When the gnoll drops a creature to 0 hit points with a melee attack on its own turn, it can move up to half its speed and make a Bite attack.",
+        "Printed source": "Volo's Guide to Monsters, p. 154."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Hunter",
+    "statBlock": {
+      "name": "Gnoll Hunter",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 154,
+      "classification": "Medium humanoid (gnoll), chaotic evil",
+      "ac": 13,
+      "hp": 22,
+      "hitDice": "4d8 + 4",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 13,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A scout that picks off isolated prey with barbed arrows and uses a bone horn to alert the war band when stealth is unnecessary.",
+      "skills": {
+        "Perception": 3,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Gnoll.",
+        "Actions": "Multiattack. Make two melee Spear attacks or two ranged Longbow attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nSpear. Melee or ranged weapon attack, +4 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) if the gnoll uses both hands for a melee attack.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. A hit deals 6 (1d8 + 2) piercing damage and reduces the target's speed by 10 ft. until the end of its next turn.",
+        "Bonus actions": "Rampage. When the gnoll drops a creature to 0 hit points with a melee attack on its own turn, it can move up to half its speed and make a Bite attack.",
+        "Printed source": "Volo's Guide to Monsters, p. 154."
+      }
+    }
+  },
+  {
+    "name": "Gnoll Witherling",
+    "statBlock": {
+      "name": "Gnoll Witherling",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 155,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 7,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A skeletal gnoll raised through a rite to Yeenoghu. It follows living war bands and fights with a simple club.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Gnoll and cannot speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Traits": "Undead Nature. The witherling needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make one Bite and one Club attack, or make two Club attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.\nClub. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage.",
+        "Bonus actions": "Rampage. When the witherling drops a creature to 0 hit points with a melee attack on its own turn, it can move up to half its speed and make a Bite attack.",
+        "Reactions": "Vengeful Strike. When a gnoll within 30 ft. of the witherling drops to 0 hit points, the witherling can make one melee attack.",
+        "Printed source": "Volo's Guide to Monsters, p. 155."
+      }
+    }
+  },
+  {
+    "name": "Green Guard Drake",
+    "statBlock": {
+      "name": "Green Guard Drake",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A wingless guardian made from green dragon scales. A newly hatched drake bonds with the first creature that feeds it and can learn simple guard commands.",
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak it.",
+        "Damage resistances": "Poison.",
+        "Traits": "Amphibious. The drake can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 158."
+      }
+    }
+  }
+]

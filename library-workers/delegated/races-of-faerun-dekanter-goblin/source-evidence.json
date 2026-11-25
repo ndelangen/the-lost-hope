@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Dekanter Goblin",
+    "kind": "species",
+    "publication": "Races of Faerûn (2003)",
+    "edition": "3.0 edition",
+    "book": "Races of Faerûn",
+    "publisher": "Wizards of the Coast",
+    "authors": [
+      "Eric L. Boyd",
+      "James Jacobs",
+      "Matt Forbeck"
+    ],
+    "firstPrinting": "March 2003",
+    "isbn": "0-7869-2896-4",
+    "printedPages": {
+      "appearance": [
+        134
+      ],
+      "racialTraits": [
+        137
+      ],
+      "illustration": [
+        135
+      ],
+      "earlierMonster": [
+        53
+      ],
+      "monsterRevision": [
+        4
+      ]
+    },
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "80254e0054d127cf9e32e8e8e7b403e2f3e0477bc3695bbe96cf4ea595ba761d",
+    "earlierMonster": "",
+    "monsterRevision": "",
+    "printedArtCredit": "Vince Locke, p. 135.",
+    "sourceDistinctions": [
+      "The March 2003 player entry uses Monstrous Humanoid and LA +4. It is cataloged under 3.0.",
+      "The original 2001 monster entry and its 2004 conversion are separate encounter sources.",
+      "The 3.5 monster conversion supplies Humanoid (Goblinoid), LA +3 and gore or two claws as alternate attacks."
+    ],
+    "entryId": "species-b261f9d13416091a3190c04d",
+    "versionKey": "92e36649669a4a1e9e7c5f45",
+    "slug": "dekanter-goblin",
+    "portraitSelection": "generated",
+    "portraitForm": "Orrik Flintnose, an original Dekanter Goblin gallery lookout",
+    "npcExamples": [
+      "Orrik Flintnose",
+      "Tavra Slatecall"
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+diff --git a/scripts/dm-library-content.ts b/scripts/dm-library-content.ts
+index 86cfda3..ca3494e 100644
+--- a/scripts/dm-library-content.ts
++++ b/scripts/dm-library-content.ts
+@@ -94,6 +94,13 @@ type CreatureArt = {
+   file: string
+   artist?: string
+ }
++type PortraitIndexEntry = {
++  entry: string
++  file: string
++  version?: string
++  credit?: string
++  placement?: 'alternate'
++}
+ type SourceArt = { file: string; credits?: { creator?: string }[] }
+ type Stock = {
+   name: string
+@@ -656,7 +663,7 @@ export async function loadDmLibrary(root: string) {
+     optionalJson<CreatureArt[]>('output/dm-library/5etools/publisher-creature-art.json', []),
+     optionalJson<CreatureArt[]>('output/dm-library/5etools/legacy-creature-art.json', []),
+     optionalJson<CreatureArt[]>('output/dm-library/5etools/savage-coast-art.json', []),
+-    optionalJson<{ entry: string; file: string; version?: string }[]>(monsterPortraitIndex, []),
++    optionalJson<PortraitIndexEntry[]>(monsterPortraitIndex, []),
+     loadCompendium(root),
+   ])
+   const assets = new Map<string, { file: string; base: string }>()
+@@ -707,15 +714,26 @@ export async function loadDmLibrary(root: string) {
+     versions.set(editionKey, current)
+     artByName.set(key, versions)
+   }
+-  const portraitFiles = new Map(
+-    monsterPortraits.map(({ entry, version, file }) => [`${entry}:${version ?? ''}`, file]),
++  const portraits = new Map(
++    monsterPortraits.map((row) => [
++      `${row.entry}:${row.version ?? ''}:${row.placement ?? 'primary'}`,
++      row,
++    ]),
+   )
+-  function portraitFor(entry: string, version = '') {
+-    const file = portraitFiles.get(`${entry}:${version}`)
+-    const local = file && `output/dm-library/5etools/${file}`
+-    if (local && existsSync(resolve(root, local))) {
+-      return image(local, 'sourced', 'OpenAI ImageGen · The Lost Hope')
++  function portraitFor(
++    entry: string,
++    version = '',
++    placement: 'primary' | 'alternate' = 'primary',
++  ) {
++    const indexed = portraits.get(`${entry}:${version}:${placement}`)
++    if (indexed) {
++      const local = `output/dm-library/5etools/${indexed.file}`
++      if (existsSync(resolve(root, local))) {
++        const credit = placement === 'alternate' ? indexed.credit : undefined
++        return image(local, 'sourced', credit ?? 'OpenAI ImageGen · The Lost Hope')
++      }
+     }
++    if (placement === 'alternate') return
+     const registered = registeredPortraits.get(version ? `${entry}:${version}` : entry)
+     if (registered && existsSync(resolve(root, registered.repositoryPath))) {
+       return image(
+@@ -1124,6 +1142,13 @@ export async function loadDmLibrary(root: string) {
+       entry.portrait ??
+       entry.image ??
+       entry.versions?.[0]?.images?.[0]
++    if (entry.kind === 'beast') {
++      for (const version of entry.versions ?? []) {
++        const id = version.variantName ? `beast-${idFor(normalize(version.variantName))}` : entry.id
++        const alternate = portraitFor(id, version.key, 'alternate')
++        if (alternate) version.portraitAlternate = alternate
++      }
++    }
+     return {
+       entry,
+       terms: normalize(
+diff --git a/src/lib/dm-library.ts b/src/lib/dm-library.ts
+index 1b94978..583cb84 100644
+--- a/src/lib/dm-library.ts
++++ b/src/lib/dm-library.ts
+@@ -91,6 +91,7 @@ export type LibraryVersion = {
+   status?: string
+   images?: LibraryImage[]
+   portrait?: LibraryImage
++  portraitAlternate?: LibraryImage
+   stats?: [string, string][]
+   sections: LibrarySection[]
+   inline?: Record<string, LibraryInlineLink[]>
+diff --git a/src/components/dm/dm-library.tsx b/src/components/dm/dm-library.tsx
+index 0515005..4701779 100644
+--- a/src/components/dm/dm-library.tsx
++++ b/src/components/dm/dm-library.tsx
+@@ -278,6 +278,8 @@ function EntryContent({ entry, search }: { entry: LibraryEntry; search: LibraryS
+       ].map((image) => [image.url, image]),
+     ).values(),
+   ]
++  const alternate = version?.portraitAlternate
++  if (alternate && !images.some(({ url }) => url === alternate.url)) images.push(alternate)
+   const description = version?.description ?? entry.description
+   const inline = version?.inline ?? entry.inline
+   const source = version?.source ?? entry.source

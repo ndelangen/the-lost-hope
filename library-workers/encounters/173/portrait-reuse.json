@@ -1,0 +1,14 @@
+{
+  "Brass Greatwyrm": {
+    "sha256": "d8d0b3f2c98098358ef8a621698ed0bae28ef42cfccd37472a3195b8541610d5",
+    "source": "Brass Greatwyrm"
+  },
+  "Bronze Greatwyrm": {
+    "sha256": "090dfd96b59d232b1b0d5e2625927534b8cb3aa83c5ef49f48cb8123893e2f3e",
+    "source": "Bronze Greatwyrm"
+  },
+  "Copper Greatwyrm": {
+    "sha256": "a15846de32bb55a170522485c2d687af34de59a8735bb74dac16822ad43b87e6",
+    "source": "Copper Greatwyrm"
+  }
+}

@@ -1,0 +1,689 @@
+[
+  {
+    "name": "Giant Hyena",
+    "entryId": "beast-0189051e9c344907b1e47af9",
+    "versionKey": "7710523e5d88dfc7841dc729",
+    "printedName": "Hyena, Giant",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      360,
+      360
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 2,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "forest",
+      "grassland",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195021-giant-hyena",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An oversized spotted hyena with"
+  },
+  {
+    "name": "Giant Lizard",
+    "entryId": "beast-06c7d9e76691615246d03075",
+    "versionKey": "1e66df4cb8ac531f8b531bd1",
+    "printedName": "Lizard, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      363,
+      363
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 1,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "coastal",
+      "desert",
+      "forest",
+      "swamp",
+      "underdark"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195022-giant-lizard",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A long-bodied lizard with clawed"
+  },
+  {
+    "name": "Giant Octopus",
+    "entryId": "beast-480ac3aac24a0886e1281a94",
+    "versionKey": "662886b79860ecc522d9651d",
+    "printedName": "Octopus, Giant",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      364,
+      364
+    ],
+    "fixedValues": {
+      "Perception": 14,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 1,
+      "CON": 1,
+      "INT": -3,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195023-giant-octopus",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A broad-headed octopus with eight"
+  },
+  {
+    "name": "Giant Owl",
+    "entryId": "beast-38122971530a3d7e4e9548f0",
+    "versionKey": "8749a92d17b67e09de18c763",
+    "printedName": "Owl, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      365,
+      365
+    ],
+    "fixedValues": {
+      "Perception": 15,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 1,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -1,
+      "WIS": 1,
+      "CHA": 0
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "arctic",
+      "forest",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195024-giant-owl",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A massive owl with round"
+  },
+  {
+    "name": "Giant Poisonous Frog",
+    "entryId": "beast-d2cdb20b4267ff42334a4455",
+    "versionKey": "b714cbe4add90b7aa64b444f",
+    "printedName": "Frog, Giant Poisonous",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      358,
+      358
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 1,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "swamp"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195020-giant-frog",
+    "habitatSourceKind": "ecological analogue, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A large, brightly marked frog"
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "entryId": "beast-3d3e89ddbc50a6648579db8a",
+    "versionKey": "2ed40a80e24930e09f52f049",
+    "printedName": "Snake, Giant Poisonous",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      370,
+      370
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 0,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "poisoned"
+    },
+    "habitatTags": [
+      "coastal",
+      "desert",
+      "forest",
+      "grassland",
+      "hill",
+      "swamp"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195030-giant-venomous-snake",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A long venomous snake with"
+  },
+  {
+    "name": "Giant Rat",
+    "entryId": "beast-d52fae2d1ea07a53f2c1ee64",
+    "versionKey": "1fe4a8afad1cfd7b91fb6c98",
+    "printedName": "Rat, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      367,
+      367
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 15
+    },
+    "supplementUrl": "",
+    "abilityModifiers": {
+      "STR": -2,
+      "DEX": 3,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "swamp",
+      "underdark",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195025-giant-rat",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An oversized rat with coarse"
+  },
+  {
+    "name": "Giant Scorpion Insect",
+    "entryId": "beast-25a22b73eddb24e7a3e2841b",
+    "versionKey": "a3608821b80d7b77e84a100d",
+    "printedName": "Insect, Giant Scorpion",
+    "cr": "3",
+    "sourceUrl": "",
+    "viewerPages": [
+      361,
+      361
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 1,
+      "CON": 2,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "poisoned"
+    },
+    "habitatTags": [
+      "desert"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195026-giant-scorpion",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A heavy segmented scorpion with"
+  },
+  {
+    "name": "Giant Seahorse",
+    "entryId": "beast-e3eaf40b6de775c6fce99915",
+    "versionKey": "53852807b47dbe41163b2e42",
+    "printedName": "Seahorse, Giant",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      368,
+      368
+    ],
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 14
+    },
+    "abilityModifiers": {
+      "STR": 1,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775820-giant-seahorse",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An immense seahorse with a"
+  },
+  {
+    "name": "Giant Shark",
+    "entryId": "beast-719fa718ae318f8daf6470f2",
+    "versionKey": "589c8c4b3507028e7d675486",
+    "printedName": "Shark, Giant",
+    "cr": "5",
+    "sourceUrl": "",
+    "viewerPages": [
+      369,
+      369
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 6,
+      "DEX": 0,
+      "CON": 5,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195027-giant-shark",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A huge shark with a"
+  },
+  {
+    "name": "Giant Spider",
+    "entryId": "beast-4faf39ec43fe20a78415c96d",
+    "versionKey": "2aa7da03bd112a49b623565b",
+    "printedName": "Spider, Giant",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      371,
+      372
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 17
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 3,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "forest",
+      "swamp",
+      "underdark",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775821-giant-spider",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A large spider with eight"
+  },
+  {
+    "name": "Giant Vulture",
+    "entryId": "beast-56c629d135c9204067f328c1",
+    "versionKey": "59d9b8d33512728ac977ceee",
+    "printedName": "Vulture, Giant",
+    "cr": "1",
+    "sourceUrl": "",
+    "viewerPages": [
+      373,
+      373
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 0,
+      "CON": 2,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "desert",
+      "grassland",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195031-giant-vulture",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An oversized scavenging bird with"
+  },
+  {
+    "name": "Giant Wasp Insect",
+    "entryId": "beast-4caed90fefeeaffecc39044f",
+    "versionKey": "6a04347af96dec502f81f658",
+    "printedName": "Insect, Giant Wasp",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      361,
+      361
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": 0,
+      "DEX": 2,
+      "CON": 0,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "grassland",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195032-giant-wasp",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A giant wasp with a"
+  },
+  {
+    "name": "Giant Weasel",
+    "entryId": "beast-2ec74424823cd72a41730106",
+    "versionKey": "03f3ee2a692af1cf963bd9f9",
+    "printedName": "Weasel, Giant",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      374,
+      374
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 15
+    },
+    "abilityModifiers": {
+      "STR": 0,
+      "DEX": 3,
+      "CON": 0,
+      "INT": -3,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "forest",
+      "grassland",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775822-giant-weasel",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A long-bodied weasel with russet"
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "entryId": "beast-b5e267e657124c38d7df68cf",
+    "versionKey": "4d8bd0902869a361b6b6f120",
+    "printedName": "Spider, Giant Wolf",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      372,
+      372
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 16
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 2,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "coastal",
+      "desert",
+      "forest",
+      "grassland",
+      "hill"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A thick-legged hunting spider with"
+  },
+  {
+    "name": "Hunter Shark",
+    "entryId": "beast-e942f96aa397498fac01a0f2",
+    "versionKey": "ac41e8f6fb0c4a81fd91a44b",
+    "printedName": "Shark, Hunter",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      369,
+      369
+    ],
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 1,
+      "CON": 2,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195083-hunter-shark",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A large gray shark with"
+  },
+  {
+    "name": "Poisonous Snake",
+    "entryId": "beast-c49fe6f6e60c679a216740c6",
+    "versionKey": "7b949379da259801d873b8f0",
+    "printedName": "Snake, Poisonous",
+    "cr": "1/8",
+    "sourceUrl": "",
+    "viewerPages": [
+      370,
+      371
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -4
+    },
+    "conditionDefenses": {
+      "Resistant": "poisoned"
+    },
+    "habitatTags": [
+      "coastal",
+      "desert",
+      "forest",
+      "grassland",
+      "hill",
+      "swamp"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775847-venomous-snake",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A small venomous snake with"
+  },
+  {
+    "name": "Polar Bear",
+    "entryId": "beast-d2a82dc14e67c579eed05073",
+    "versionKey": "ef15468ec5e15e69552d13d8",
+    "printedName": "Bear, Polar",
+    "cr": "2",
+    "sourceUrl": "",
+    "viewerPages": [
+      353,
+      353
+    ],
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 5,
+      "DEX": 0,
+      "CON": 3,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "arctic"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/5195167-polar-bear",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "An immense bear with thick"
+  },
+  {
+    "name": "Reef Shark",
+    "entryId": "beast-b7b3eb6d0996ca1aa1e23c9d",
+    "versionKey": "2a223bcade709a5292d56505",
+    "printedName": "Shark, Reef",
+    "cr": "1/2",
+    "sourceUrl": "",
+    "viewerPages": [
+      369,
+      369
+    ],
+    "fixedValues": {
+      "Perception": 12,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": 2,
+      "DEX": 1,
+      "CON": 1,
+      "INT": -5,
+      "WIS": 0,
+      "CHA": -3
+    },
+    "conditionDefenses": {},
+    "habitatTags": [
+      "underwater"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775838-reef-shark",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A slender shark with a"
+  },
+  {
+    "name": "Riding Horse",
+    "entryId": "beast-c2c4fd37578229cbf8fc7dad",
+    "versionKey": "d72c6d12e58c9a977682ac3f",
+    "printedName": "Horse, Riding",
+    "cr": "1/4",
+    "sourceUrl": "",
+    "viewerPages": [
+      359,
+      359
+    ],
+    "fixedValues": {
+      "Perception": 10,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 3,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 0,
+      "CHA": -2
+    },
+    "conditionDefenses": {
+      "Vulnerable": "frightened"
+    },
+    "habitatTags": [
+      "grassland",
+      "urban"
+    ],
+    "habitatSource": "https://www.dndbeyond.com/monsters/4775839-riding-horse",
+    "habitatSourceKind": "same-form D&D printing, habitat suggestions only",
+    "appearanceSource": "existing generated portrait of same Black Flag beast form",
+    "searchAppearance": "A long-legged riding horse with"
+  }
+]

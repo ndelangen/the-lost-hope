@@ -1,0 +1,223 @@
+{
+  "builds": [
+    {
+      "id": "mr1-giant-eagle-slatebeak",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Cliffside lookout, Rogue 1",
+      "difficulty": "Rogue 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "10 ft., fly 60 ft.",
+      "ac": 13,
+      "hp": 10,
+      "hitDice": "1d8+2",
+      "initiative": 3,
+      "senses": "Passive Perception 15, or 20 for checks relying on sight.",
+      "languages": "Giant Eagle. Understands, reads, and writes Common, Auran, and Elvish. Can only speak Giant Eagle. Knows thieves' cant.",
+      "abilityScores": {
+        "STR": 9,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +1",
+        "Insight +3",
+        "Perception +5",
+        "Stealth +7",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5 and Intelligence save +3. Unarmored AC 10 + 3 Dexterity. No equipment on patrol.",
+        "Rogue supplies Acrobatics, Insight, Perception, and Stealth. Expertise doubles proficiency for Perception and Stealth. Outlander supplies Athletics, Survival, Elvish, and Wanderer.",
+        "Keen Sight gives advantage on sight-based Perception checks. Slatebeak recognizes signs used in thieves' cant and can encode spoken messages in Giant Eagle."
+      ],
+      "actions": [
+        "Talons. Dexterity-based unarmed strike +5, reach 5 ft., 1d8+3 piercing. Counts as a finesse weapon for Sneak Attack.",
+        "Sneak Attack. Once per turn on a talon hit, add 1d6 if the attack roll has advantage. It also applies without advantage when a non-incapacitated enemy of the target is within 5 ft. of it and Slatebeak lacks disadvantage."
+      ],
+      "tactics": "Slatebeak circles beyond reach, then dives when someone on the ground draws the target's attention. He gives a warning cry before attacking an intruder."
+    },
+    {
+      "id": "mr1-giant-frog-silt",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Floodgate keeper, Barbarian 1",
+      "difficulty": "Barbarian 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft., swim 30 ft.",
+      "ac": 14,
+      "hp": 14,
+      "hitDice": "1d12+2",
+      "initiative": 2,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Aquan.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Athletics +5",
+        "Nature +1",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Unarmored Defense is 10 + 2 Dexterity + 2 Constitution. Carries no gear and breathes air and water.",
+        "Barbarian supplies Nature and Perception. Outlander supplies Athletics, Survival, Aquan, and Wanderer."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike +5, reach 5 ft., 1d8+3 piercing, or 1d8+5 while raging.",
+        "Bite grip. After landing a bite through the Attack action, spend a bonus action to grapple the creature hit if it is within reach and no larger than Large. Athletics +5 contests its choice of Athletics or Acrobatics. Rage gives Silt advantage on the check. An incapacitated target within those limits is grabbed automatically.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Gain advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 damage with Strength-based melee weapon attacks. Rage ends if knocked unconscious or if a turn ends without attacking a hostile creature or taking damage since the previous turn. Can also end it with a bonus action."
+      ],
+      "tactics": "Silt keeps his chin just above the water and asks what the party wants. In a fight he clamps onto the first creature reaching for the sluice lever."
+    },
+    {
+      "id": "mr1-giant-hyena-rattlejaw",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Caravan night watch, Barbarian 2",
+      "difficulty": "Barbarian 2. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "30 ft.",
+      "ac": 13,
+      "hp": 23,
+      "hitDice": "2d12+4",
+      "initiative": 1,
+      "senses": "Passive Perception 13.",
+      "languages": "Common and Gnoll.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Constitution save +4. Unarmored Defense is 10 + 1 Dexterity + 2 Constitution. HP starts at 14 and adds 9 at 2nd level. No armor or carried gear.",
+        "Barbarian supplies Animal Handling and Perception. Outlander supplies Athletics, Survival, Gnoll, and Wanderer.",
+        "Danger Sense grants advantage on Dexterity saves against visible effects while free of blindness, deafness, and incapacitation."
+      ],
+      "actions": [
+        "Bite. Strength-based unarmed strike +5, reach 5 ft., 1d8+3 piercing, or 1d8+5 while raging.",
+        "Rampage. When Rattlejaw reduces a creature to 0 HP with a melee attack on her turn, she can spend a bonus action to move up to 15 ft. and make one bite attack.",
+        "Reckless Attack. Choose on the first attack of the turn to give Strength-based melee weapon attacks advantage that turn. Attacks against Rattlejaw have advantage until her next turn.",
+        "Rage. Bonus action, twice per long rest, for up to 1 minute. Gain advantage on Strength checks and saves, resistance to bludgeoning, piercing, and slashing, and +2 damage with Strength-based melee weapon attacks. Rage ends if knocked unconscious or if a turn ends without attacking a hostile creature or taking damage since the previous turn. Can also end it with a bonus action."
+      ],
+      "tactics": "Rattlejaw lures intruders away from the tethered animals, then charges the easiest one to knock down. She can Rampage on a turn with a bonus action available."
+    },
+    {
+      "id": "mr1-giant-octopus-dunewick",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "title": "Wreck surveyor, Monk 1",
+      "difficulty": "Monk 1. No assigned CR.",
+      "size": "Medium",
+      "type": "Beast",
+      "speed": "10 ft., swim 60 ft.",
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Athletics +5",
+        "History +2",
+        "Perception +3",
+        "Stealth +4"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +5 and Dexterity save +4. Monk Unarmored Defense is 10 + 2 Dexterity + 1 Wisdom. Carries no gear in this encounter.",
+        "Monk grants History, Stealth, and proficiency with mason's tools. Sailor grants Athletics, Perception, navigator's tools, water vehicles, and Ship's Passage.",
+        "Breathes water only and can hold its breath for an hour. Can move through a 1-inch opening without squeezing. Can manipulate most items and has advantage on underwater Stealth checks."
+      ],
+      "actions": [
+        "Tentacle. Strength-based unarmed strike +5, reach 5 ft., 1d8+3 bludgeoning. Martial Arts also permits Dexterity at +4 for 1d8+2.",
+        "Martial Arts. After using the Attack action for a tentacle strike, may spend a bonus action on a conventional unarmed headbutt at +5 for 1d4+3 bludgeoning. Kamstra's monk rule on p. 7 uses the monk die for this strike.",
+        "Ink Cloud. For this encounter, spend an action while underwater to heavily obscure a 20-ft. radius around Dunewick for up to 1 minute, with a significant current dispersing the ink early. Immediately after release may Dash as a bonus action. Recharges on a short or long rest."
+      ],
+      "tactics": "Dunewick waits in a ceiling recess and tries to parley before approaching. If outnumbered, he inks the corridor and swims through a narrow gap."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Slatebeak",
+      "species": "Giant Eagle",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-eagle-slatebeak",
+      "size": "Medium",
+      "role": "Keeps watch over the ledges between two cliff paths.",
+      "motive": "Find who moved the warning markers while he was hunting.",
+      "hook": "A fresh white marker points to a ledge that fell two winters ago."
+    },
+    {
+      "name": "Silt",
+      "species": "Giant Frog",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-frog-silt",
+      "size": "Medium",
+      "role": "Keeps boats away from a broken floodgate.",
+      "motive": "Learn why the latest gate crew hammered the sluice shut.",
+      "hook": "Silt can hear someone knocking from inside the sealed wheel chamber."
+    },
+    {
+      "name": "Rattlejaw",
+      "species": "Giant Hyena",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-hyena-rattlejaw",
+      "size": "Medium",
+      "role": "Guards the night tether lines at an old caravan stop.",
+      "motive": "Find the person who keeps slipping the best pack animals out of their halters.",
+      "hook": "A bell rang from a pen Rattlejaw had already cleared."
+    },
+    {
+      "name": "Dunewick",
+      "species": "Giant Octopus",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "build": "mr1-giant-octopus-dunewick",
+      "size": "Medium",
+      "role": "Surveys wrecks and marks passages safe for divers.",
+      "motive": "Free a chart case wedged beneath a collapsed deck beam.",
+      "hook": "Dunewick traced the last crew's route, but their ship has no recorded port of origin."
+    }
+  ]
+}

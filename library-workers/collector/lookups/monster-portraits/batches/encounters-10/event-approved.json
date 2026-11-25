@@ -1,0 +1,98 @@
+[
+  {
+    "entry": "monster-b99fd909645d82b91fed5861",
+    "slug": "adult-time-dragon",
+    "name": "Adult Time Dragon",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/adult-time-dragon.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/adult-time-dragon-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/adult-time-dragon-event-v1.png",
+    "sha256": "1e10076ae270e9513373926361bdca2b56677d2f1b582356b4528b86515aea40",
+    "bytes": 3000109,
+    "relative": "encounters-10/adult-time-dragon.png"
+  },
+  {
+    "entry": "monster-59e212db63f36a0060780f75",
+    "slug": "ancient-time-dragon",
+    "name": "Ancient Time Dragon",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/ancient-time-dragon.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/ancient-time-dragon-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/ancient-time-dragon-event-v1.png",
+    "sha256": "24adb9577c9d782e69b8840e4bd1d6c3be807134ce6a77f4fe871e406b2c6947",
+    "bytes": 2969130,
+    "relative": "encounters-10/ancient-time-dragon.png"
+  },
+  {
+    "entry": "monster-95ca2a9097cb44dce3c99441",
+    "slug": "eyestalk-of-gzemnid",
+    "name": "Eyestalk of Gzemnid",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/eyestalk-of-gzemnid.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/eyestalk-of-gzemnid-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/eyestalk-of-gzemnid-event-v1.png",
+    "sha256": "6b530ee3b96f881bad999dce175e7ae064785655a9d00211acbf6d324a00114f",
+    "bytes": 2546027,
+    "relative": "encounters-10/eyestalk-of-gzemnid.png"
+  },
+  {
+    "entry": "monster-9e98bf4fc074a67db8a3c0d5",
+    "slug": "larva",
+    "name": "Larva",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/larva.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/larva-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/larva-event-v1.png",
+    "sha256": "1da5ff125cfe2d125c026ce915d2e6c920d9d80ef4c77b53e4709fadfaccdaa2",
+    "bytes": 2632743,
+    "relative": "encounters-10/larva.png"
+  },
+  {
+    "entry": "monster-8016ca3cfdc3b41c9c51ccf7",
+    "slug": "minds-eye-matter-smith",
+    "name": "Mind's Eye Matter Smith",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/minds-eye-matter-smith.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/minds-eye-matter-smith-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/minds-eye-matter-smith-event-v1.png",
+    "sha256": "39102f1ab49b76176d558561a0d0de90ac24249c1360437dc908b4ad666c2d4c",
+    "bytes": 2624392,
+    "relative": "encounters-10/minds-eye-matter-smith.png"
+  },
+  {
+    "entry": "monster-7766859651a77c5166f5c19d",
+    "slug": "morte",
+    "name": "Morte",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/morte.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/morte-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/morte-event-v1.png",
+    "sha256": "f3ccddfbf4ede79fa9647a808a10e7c81804a54c1dc49b67b1c23c2fef50379c",
+    "bytes": 2692866,
+    "relative": "encounters-10/morte.png"
+  },
+  {
+    "entry": "monster-0b233323bb2ca7caaec40c7c",
+    "slug": "planar-incarnate-celestial-form",
+    "name": "Planar Incarnate (Celestial Form)",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/planar-incarnate-celestial-form.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/planar-incarnate-celestial-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/planar-incarnate-celestial-form-event-v1.png",
+    "sha256": "451e2e936c5d27d1b4d7673b6f5d3193f126d45facd60c7b44127d9bfb1c2fe4",
+    "bytes": 2566334,
+    "relative": "encounters-10/planar-incarnate-celestial-form.png"
+  },
+  {
+    "entry": "monster-85b42b56e62accd58b121207",
+    "slug": "planar-incarnate-fiend-form",
+    "name": "Planar Incarnate (Fiend Form)",
+    "revision": "v1",
+    "registeredPath": "assets/images/content/dm-library/encounters-10/planar-incarnate-fiend-form.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-10/event-drafts/planar-incarnate-fiend-form-event-v1.png",
+    "saved": " Backups/Encounter Batch 10 2026-11-23/event-drafts/planar-incarnate-fiend-form-event-v1.png",
+    "sha256": "acbbfc85233153520780d9ad4218192f47d57b78535f197b5fde20d65ddd0546",
+    "bytes": 2689953,
+    "relative": "encounters-10/planar-incarnate-fiend-form.png"
+  }
+]

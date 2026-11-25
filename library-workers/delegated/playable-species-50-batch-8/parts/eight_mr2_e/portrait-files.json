@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Morkoth",
+    "file": "portraits/morkoth.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "cb24c09371fffce173871f987c2f03e3c2800f10c8348dce457614172c0bc86e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Neogi",
+    "file": "portraits/neogi.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3b55b8b90b32f288fc1bc230e73f157acbb612a22df9d14a38385fd081fcf8e5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Neothelid",
+    "file": "portraits/neothelid.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c07926f14928248ae7e6b5dbf75f225f3664811950fe01893a9ec20fbf4eff82",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Tlincalli",
+    "file": "portraits/tlincalli.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "fa535d45f5b04847faf00df4dff2db4f458e00340491a7e0ce0ac9621656e9e6",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Wood Woad",
+    "file": "portraits/wood-woad.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "238b337c6881f86bc3324e4e99c036cd94c0ce91326c9a5ce9c5245bd36f9ada",
+    "credit": "OpenAI ImageGen"
+  }
+]

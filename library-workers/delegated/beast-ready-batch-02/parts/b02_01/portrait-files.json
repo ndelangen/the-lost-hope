@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "ape",
+    "file": "portraits/ape.png",
+    "sha256": "683ff046deaecf0d5e7c01d3839332dfd0c985c1919f16b56a540bf4aa2de9e2",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "axe-beak",
+    "file": "portraits/axe-beak.png",
+    "sha256": "ea8cf70690b3a785a19ef44161d50544ffc3a91d65dddc8196f9f1df9d53d67c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "bat",
+    "file": "portraits/bat.png",
+    "sha256": "166fc642f25c5e161871ef22d9c1575aa8c20d306d23f3528e0da795e7286ac0",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,162 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -314113,6 +314113,21 @@
+       ]
+     },
+     {
++      "name": "Seacliff Dwarf",
++      "kind": "species",
++      "publication": "Stormwrack (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Humanoid (Dwarf). +2 Constitution, −2 Charisma. Land speed 20 ft. retains its value in medium or heavy armor and with medium or heavy loads. Darkvision 60 ft. LA +0.",
++        "Strong Swimmers gives +2 racial on Swim checks and doubles the Constitution score used to calculate breath-holding time. Seacliff dwarves use normal Swim checks and breathe air.",
++        "Use the doubled score with the table’s drowning procedure. Stormwrack p. 44 cites DMG p. 304, which starts at 2 rounds per point of Constitution (4 × actual Constitution for this variant). Stormwrack p. 11 and the printed Player’s Handbook Swim rule start at 1 round per point (2 × actual Constitution for this variant).",
++        "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground. +2 racial on saves against poison and +2 racial on saves against spells and spell-like effects.",
++        "Stonecunning gives +2 Search for unusual stonework, a check within 10 ft., access to stonework trap searches, and a sense of depth underground.",
++        "Weapon Familiarity treats the dwarven waraxe and dwarven urgrosh as martial. The dwarf keeps +4 dodge AC against giants but loses the usual +1 racial attack bonus against orcs and goblinoids.",
++        "+2 Appraise and Craft for work related to stone or metal. Common and Dwarven are automatic. Bonus languages are Giant, Gnome, Goblin, Orc, Terran, and Undercommon. Favored class Fighter."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Volo's Guide to Monsters",
+       "name": "Orc",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -3650,6 +3650,93 @@
+     {
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
++      "size": "Medium",
++      "type": "Humanoid (Dwarf)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "20 ft.",
++      "id": "seacliff-dwarf-saltbrace-harbor-guard-35e",
++      "title": "Seacliff Dwarf harbor guard, Fighter 1",
++      "ac": 13,
++      "hp": 13,
++      "hitDice": "1d10+3",
++      "initiative": 1,
++      "languages": "Common, Dwarven, Terran",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 16,
++        "INT": 12,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": ["Appraise +3 (stone or metal)", "Climb +7", "Craft (stonemasonry) +7", "Swim +9"],
++      "traits": [
++        "Lawful good. Leather armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +1, grapple +4. Fortitude +5, Reflex +1, Will +2. Iron Will adds +2 to Will.",
++        "+2 racial on saves against poison and +2 racial on saves against spells and spell-like effects.",
++        "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground.",
++        "Stonecunning. +4 dodge AC against giants while dodge bonuses apply. No racial attack bonus against orcs or goblinoids.",
++        "Strong Swimmers gives +2 racial on Swim checks and doubles the Constitution score used to calculate breath-holding time. Seacliff dwarves use normal Swim checks and breathe air. Constitution 16 gives 64 calm rounds with the cited DMG baseline, or 32 with Stormwrack p. 11. Track exertion under the chosen procedure.",
++        "Dwarven waraxe counts as martial. Weapon Focus (dwarven waraxe) is the Fighter bonus feat."
++      ],
++      "actions": [
++        "Dwarven waraxe +5 melee, 1d10+3 slashing one-handed, critical ×3. Shortspear +4 melee for 1d6+3 piercing or +2 thrown above water, range increment 20 ft.",
++        "On a successful Swim check move up to 5 ft. as a move action or 10 ft. as a full-round action. Use the shortspear’s piercing attack if he must fight underwater. Apply the normal Swim or firm-footing requirement for an unpenalized underwater attack."
++      ],
++      "tactics": "Brott dives to cut a jammed line in the lower harbor passage. He returns to the landing before using his waraxe and braces on firm stone when he has to hold the gate."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 1 (1 class HD, LA +0).",
++      "size": "Medium",
++      "type": "Humanoid (Dwarf)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "20 ft.",
++      "id": "seacliff-dwarf-mere-stone-passage-scout-35e",
++      "title": "Seacliff Dwarf stone-passage scout, Rogue 1",
++      "ac": 15,
++      "hp": 8,
++      "hitDice": "1d6+2",
++      "initiative": 3,
++      "languages": "Common, Dwarven, Gnome, Undercommon",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 16,
++        "CON": 14,
++        "INT": 14,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": [
++        "Balance +7",
++        "Climb +5",
++        "Disable Device +6",
++        "Hide +7",
++        "Listen +4",
++        "Move Silently +7",
++        "Search +9 (+11 unusual stonework)",
++        "Spot +4",
++        "Swim +7",
++        "Tumble +7"
++      ],
++      "traits": [
++        "Neutral good. Leather armor +2, Dexterity +3. Touch 13, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +5, Will +0. Skill Focus (Search) adds +3 to Search.",
++        "+2 racial on saves against poison and +2 racial on saves against spells and spell-like effects.",
++        "Stability adds +4 on ability checks to resist bull rush or trip while standing firmly on the ground.",
++        "Stonecunning gives +2 Search to notice unusual stonework and permits a check within 10 ft. Trapfinding also permits her to search for other difficult traps.",
++        "Strong Swimmers gives +2 racial on Swim checks and doubles the Constitution score used to calculate breath-holding time. Seacliff dwarves use normal Swim checks and breathe air. Constitution 14 gives 56 calm rounds with the cited DMG baseline, or 28 with Stormwrack p. 11. Track exertion under the chosen procedure.",
++        "+4 dodge AC against giants while dodge bonuses apply. No racial attack bonus against orcs or goblinoids. Sneak attack +1d6 against a flanked target or one denied Dexterity to AC, if the target has no concealment."
++      ],
++      "actions": [
++        "Short sword +1 melee, 1d6+1 piercing, critical 19–20/×2. The piercing attack avoids the usual slashing and bludgeoning penalties underwater when she has firm footing or succeeds on her Swim check.",
++        "Search +11 for unusual stonework. Check the groove around the flooded passage door before touching the release."
++      ],
++      "tactics": "Vessa inspects the stonework before flooding reaches the next landing. She can slip under the water to check the passage but returns to air before trying the release."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
+       "difficulty": "Provisional CR 2. ECL 2 (1 class HD, LA +1).",
+       "size": "Small",
+       "type": "Humanoid (Extraplanar)",
+@@ -4822,6 +4909,28 @@
+       "hook": "Maera can speak with a badger from the bank while the party checks the spillway for what changed."
+     },
+     {
++      "species": "Seacliff Dwarf",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Stormwrack (2005)",
++      "name": "Brott Saltbrace",
++      "build": "seacliff-dwarf-saltbrace-harbor-guard-35e",
++      "role": "Harbor guard and Fighter.",
++      "motive": "Free the harbor gate while the lower line is submerged.",
++      "hook": "Brott can reach the jammed line through the flooded passage."
++    },
++    {
++      "species": "Seacliff Dwarf",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Stormwrack (2005)",
++      "name": "Vessa Mere",
++      "build": "seacliff-dwarf-mere-stone-passage-scout-35e",
++      "role": "Stone-passage scout and Rogue.",
++      "motive": "Find the dry exit before the water reaches the next landing.",
++      "hook": "Vessa spotted a recent seam in the wall beside the passage door."
++    },
++    {
+       "species": "Dream Dwarf",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -8387,6 +8387,7 @@
+ Sea Spawn Master	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
+ Sea Spawn Minion	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
+ Sea Zombie	monster		Denizens of Dread	3.5 edition	Sword & Sorcery		
++Seacliff Dwarf	species	Humanoid (Dwarf)	Stormwrack (2005)	3.5 edition	Wizards of the Coast	https://books.google.com/books/about/Stormwrack.html?id=ENyiPwAACAAJ	
+ Seahorse	beast	Beast	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		0
+ Seahorse	beast	Beast	Monster Vault	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	0.0
+ Seahorse	beast	Beast	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195199-seahorse	0

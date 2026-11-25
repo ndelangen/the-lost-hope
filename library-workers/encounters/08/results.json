@@ -1,0 +1,791 @@
+[
+  {
+    "name": "Demilich",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17129-demilich",
+    "edition": "2014 fifth edition",
+    "challenge": "18",
+    "original": "Ghosts of Saltmarsh",
+    "from": "shared",
+    "entry": "monster-a653544d770ecbad9cfe6940",
+    "version": "faaf074786014ca8e15b218c",
+    "generated": true,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Icewind Dale: Rime of the Frostmaiden"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A floating skull with gleaming gems set into bare bone.",
+    "habitats": [
+      "Ancient tombs",
+      "Crypts",
+      "Underground"
+    ]
+  },
+  {
+    "name": "Demilich",
+    "publication": "Journeys through the Radiant Citadel",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17129-demilich",
+    "edition": "2014 fifth edition",
+    "challenge": "18",
+    "original": "Ghosts of Saltmarsh",
+    "from": "shared",
+    "entry": "monster-a653544d770ecbad9cfe6940",
+    "version": "64521e7ff8d9b82a28bb67ff",
+    "generated": true,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Journeys through the Radiant Citadel"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A floating skull with gleaming gems set into bare bone.",
+    "habitats": [
+      "Ancient tombs",
+      "Crypts",
+      "Underground"
+    ]
+  },
+  {
+    "name": "Demilich",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17129-demilich",
+    "edition": "2014 fifth edition",
+    "challenge": "18",
+    "original": "Ghosts of Saltmarsh",
+    "from": "shared",
+    "entry": "monster-a653544d770ecbad9cfe6940",
+    "version": "1a04a20e00465bf2ba5f92df",
+    "generated": true,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Planescape: Adventures in the Multiverse"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A floating skull with gleaming gems set into bare bone.",
+    "habitats": [
+      "Ancient tombs",
+      "Crypts",
+      "Underground"
+    ]
+  },
+  {
+    "name": "Demilich",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17129-demilich",
+    "edition": "2014 fifth edition",
+    "challenge": "18",
+    "original": "Ghosts of Saltmarsh",
+    "from": "shared",
+    "entry": "monster-a653544d770ecbad9cfe6940",
+    "version": "c32068a98f573d0a7f7633f7",
+    "generated": true,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A floating skull with gleaming gems set into bare bone.",
+    "habitats": [
+      "Ancient tombs",
+      "Crypts",
+      "Underground"
+    ]
+  },
+  {
+    "name": "Goblin Assassin",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485861-goblin-assassin",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1/2",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-819cce0a9a886cb24e09a9b3",
+    "version": "f0d4ff0452127127bbdee2a3",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A lightly armored goblin ambusher with a scimitar and dagger.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Goblin Cursespitter",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485862-goblin-cursespitter",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-3009d46262bc13342e1d2e8e",
+    "version": "1ba2adf490a22b12ea040d86",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A shield-bearing goblin hex caster with light leather armor.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Goblin Lackey",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485863-goblin-lackey",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-00aa44ab2c9fba4ae5aad13f",
+    "version": "9f8258d11265710f57285e87",
+    "generated": true,
+    "art": [],
+    "status": "Stat block",
+    "appearance": "A small goblin minion carrying a dagger and a light shield.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Goblin Sniper",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485864-goblin-sniper",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1/2",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-21569089711d4c9e36a4d574",
+    "version": "53eb3dd0023817598710a813",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A leather-armored goblin archer carrying a shortbow.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Goblin Spinecleaver",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485865-goblin-spinecleaver",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-919b5afc47a06b35e92dd6fa",
+    "version": "5e5f473a8e2e3cdd2a7b54ce",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A sturdy, hide-armored goblin carrying a greataxe and handaxe.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Goblin Underboss",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485866-goblin-underboss",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "2",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-49320ea1feca474554fe876c",
+    "version": "af82da7041e5802a8c88cf70",
+    "generated": true,
+    "art": [],
+    "status": "Stat block",
+    "appearance": "A well-armored goblin officer carrying a shield and weapons for fighting at close quarters or at range.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Goblin Warrior",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485867-goblin-warrior",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1/4",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-8c079b11d84791b885bd8218",
+    "version": "1d8095d1459cffa2af58b00d",
+    "generated": false,
+    "art": [],
+    "status": "Stat block",
+    "appearance": "A nimble goblin skirmisher with a shield and scimitar.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Hulking Brain",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485890-hulking-brain",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "7",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-eb80711599d46ae18650c4d1",
+    "version": "37ce783a4e19603e57f1030f",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A long-armed psionic brute with an enlarged brain and a lumbering build.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Lightbender",
+    "publication": "Flee, Mortals! public preview",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485926-lightbender",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "5",
+    "original": "Flee, Mortals! public preview",
+    "from": "new-preview",
+    "entry": "monster-772a5e1a804f620fdfb0add2",
+    "version": "b38d349f4d3f14ebd0ce183b",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A lionlike predator with an iridescent mane and a pair of tails tipped with refractive crystals.",
+    "habitats": [
+      "Sunlit wilderness"
+    ]
+  },
+  {
+    "name": "Lord Syuul",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485940-lord-syuul",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "15",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-dd19e8a3c0c931a6287c501b",
+    "version": "7c98e0a61d20173041c017a3",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A regal, tentacled Voiceless Talker who carries a psionic repeater.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Mindkiller",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485950-mindkiller",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "2",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-36f453c5377a2abe7cf74824",
+    "version": "e7b82a74fbf782abb538245e",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A small floating aberration with grasping claws and a body that squeezes through minute gaps.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Mindkiller Whelp",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485949-mindkiller-whelp",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-73591f1c1b7bc033613d131e",
+    "version": "d8f61b786f1c6c193605db54",
+    "generated": true,
+    "art": [],
+    "status": "Stat block",
+    "appearance": "A small flying psionic minion with claws and a flexible body.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Orc Conduit",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485966-orc-conduit",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-292783309c04c01f240f00d0",
+    "version": "43c126165af7acdd6bd4a565",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "An orc spellcaster in studded leather who channels magic at range.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Overmind",
+    "publication": "Flee, Mortals! public preview",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485975-overmind",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "11",
+    "original": "Flee, Mortals! public preview",
+    "from": "new-preview",
+    "entry": "monster-f24de2670f9b246b5b9a8caf",
+    "version": "4a6dc7a06b5cc3e13be5a692",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A floating aberration with six detached eyes circling the huge central eye of its main body.",
+    "habitats": [
+      "Underground",
+      "Overmind lairs"
+    ]
+  },
+  {
+    "name": "Piercer",
+    "publication": "Icewind Dale: Rime of the Frostmaiden",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17191-piercer",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "original": "Monster Manual (2014)",
+    "from": "new-block",
+    "entry": "monster-4b2b7bb4b6c625d7b603c79e",
+    "version": "6ee32e06b7b43caf0319729b",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Icewind Dale: Rime of the Frostmaiden"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A pale cave mollusk encased in a pointed shell that resembles a hanging stalactite.",
+    "habitats": [
+      "Underdark",
+      "Caves"
+    ]
+  },
+  {
+    "name": "Piercer",
+    "publication": "Waterdeep: Dungeon of the Mad Mage",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17191-piercer",
+    "edition": "2014 fifth edition",
+    "challenge": "1/2",
+    "original": "Monster Manual (2014)",
+    "from": "new-block",
+    "entry": "monster-4b2b7bb4b6c625d7b603c79e",
+    "version": "9c38453584b3c7b732a441aa",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Waterdeep: Dungeon of the Mad Mage"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A pale cave mollusk encased in a pointed shell that resembles a hanging stalactite.",
+    "habitats": [
+      "Underdark",
+      "Caves"
+    ]
+  },
+  {
+    "name": "Pixie",
+    "publication": "Planescape: Adventures in the Multiverse",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17192-pixie",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "original": "Monster Manual (2014)",
+    "from": "new-block",
+    "entry": "monster-9f73cd7c814a8bd49a0e65c7",
+    "version": "42c54bf70b291b417f30f89c",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Planescape: Adventures in the Multiverse"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A tiny woodland faerie with bright, translucent wings and pointed ears.",
+    "habitats": [
+      "Forests"
+    ]
+  },
+  {
+    "name": "Pixie",
+    "publication": "The Wild Beyond the Witchlight",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/17192-pixie",
+    "edition": "2014 fifth edition",
+    "challenge": "1/4",
+    "original": "Monster Manual (2014)",
+    "from": "new-block",
+    "entry": "monster-9f73cd7c814a8bd49a0e65c7",
+    "version": "2ba472450c38fe33461cbe4c",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · The Wild Beyond the Witchlight"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A tiny woodland faerie with bright, translucent wings and pointed ears.",
+    "habitats": [
+      "Forests"
+    ]
+  },
+  {
+    "name": "Queen Bargnot",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4485982-queen-bargnot",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "3",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-e01739c5989df7bd50c8f84a",
+    "version": "0063377b8a221add1a10e4c9",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A goblin queen in studded leather who carries a shield and a shortbow.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Troll (MCDM)",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4486028-troll-mcdm",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "5",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-97428d348f910b4a97126d4e",
+    "version": "9559a54350811771b9ca1c6e",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A large, long-limbed troll with claws and a hide that knits back together.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Voiceless Talker",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4486040-voiceless-talker",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "7",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-ba56790f5254946395944768",
+    "version": "3b6dbb6938ebd12ce80e98ee",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A cephalopod-faced aberration who floats and attacks with psionic powers.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Voiceless Talker Artillerist",
+    "publication": "Flee, Mortals!",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4486038-voiceless-talker-artillerist",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "10",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "monster-f458a94f5c4508d1437bb60a",
+    "version": "2b236ce00d58d3960d6c5b25",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A tentacled psionic marksman equipped with a rifle that displaces its targets.",
+    "habitats": [
+      "Underground",
+      "Psionic lairs",
+      "Terminal Excrescence"
+    ]
+  },
+  {
+    "name": "Xorannox",
+    "publication": "Flee, Mortals! public preview",
+    "kind": "monster",
+    "source": "https://www.dndbeyond.com/monsters/4486053-xorannox",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "14",
+    "original": "Flee, Mortals! public preview",
+    "from": "new-preview",
+    "entry": "monster-e8091a5b46b8f1e6daad088e",
+    "version": "34c7b0a420d4a5dd1d973edc",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A Tyract overmind with sweeping facial armor, a massive central eye and eight detached psionic eyes.",
+    "habitats": [
+      "Underground",
+      "Overmind lairs",
+      "White Tower"
+    ]
+  },
+  {
+    "name": "Skitterling",
+    "publication": "Flee, Mortals! public preview",
+    "kind": "beast",
+    "source": "https://www.dndbeyond.com/monsters/4486001-skitterling",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1/8",
+    "original": "Flee, Mortals! public preview",
+    "from": "new-preview",
+    "entry": "beast-1443caa72eb83edfe7ebe585",
+    "version": "ae110171d18e9eda086bb227",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A housecat-sized, six-legged rodent with broad bat wings and grasping claws.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Swarm of Skitterlings",
+    "publication": "Flee, Mortals!",
+    "kind": "beast",
+    "source": "https://www.dndbeyond.com/monsters/4486014-swarm-of-skitterlings",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "2",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "beast-5e95b1f48100231371be657a",
+    "version": "5b163f791ae6a5a1d1399189",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A flying cluster of six-legged, bat-winged rodents.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "Swarm of Spiders (MCDM)",
+    "publication": "Flee, Mortals!",
+    "kind": "beast",
+    "source": "https://www.dndbeyond.com/monsters/4486015-swarm-of-spiders-mcdm",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "1/2",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "beast-f9bc4f45a633f1a8ec6f9d16",
+    "version": "0bf3f450e3b278753d13141e",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "A dense swarm of tiny spiders that can squeeze through narrow gaps.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  },
+  {
+    "name": "War Spider",
+    "publication": "Flee, Mortals!",
+    "kind": "beast",
+    "source": "https://www.dndbeyond.com/monsters/4486041-war-spider",
+    "edition": "2014 fifth edition compatible",
+    "challenge": "3",
+    "original": "Where Evil Lives",
+    "from": "shared",
+    "entry": "beast-6403554aa0e95adc6d83ebb2",
+    "version": "205e6d73b0c527d554b62c2b",
+    "generated": false,
+    "art": [
+      {
+        "url": "",
+        "credit": "D&D Beyond publisher art · Flee, Mortals!"
+      }
+    ],
+    "status": "Stat block",
+    "appearance": "An enormous spider that can carry goblin riders and hide smaller spiders in its body.",
+    "habitats": [
+      "Caves",
+      "Ruins",
+      "Forests",
+      "Jagged Edge Hideaway"
+    ]
+  }
+]

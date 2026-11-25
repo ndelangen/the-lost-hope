@@ -1,0 +1,167 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315761,6 +315761,21 @@
+       ]
+     },
+     {
++      "name": "Daelkyr Half-Blood",
++      "kind": "species",
++      "publication": "Magic of Eberron (2005)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Medium Aberration. Land speed 30 ft., darkvision 60 ft. Proficient with all simple weapons and any weaponlike symbiont used. Armor proficiencies come from class.",
++        "Personal Symbiont (Ex). At first level choose a breed leech, crawling gauntlet, or throwing scarab. At 5th level stormstalk and winter cyst become options, at 10th spellwurm and tentacle whip, and at 15th tongue worm. Earlier choices remain available.",
++        "Growing a new personal symbiont replaces the old one. A lost personal symbiont takes 2d4 days to regrow once the original has died. This ability applies only to the personal symbiont.",
++        "Symbiont Mastery is a racial bonus feat. Gain +4 on Will saves in symbiont personality conflicts and +2 HP per attached symbiont. The extra HP vanish immediately when it detaches.",
++        "Symbiont Dependence (Ex). Take 1 Constitution damage after each 24 hours without contact with any symbiont. That damage cannot be restored until contact resumes.",
++        "Unbalanced Mind (Ex). A creature trying to read or study the half-blood’s mind must make a Will save at DC 10 + half the half-blood’s level + their Charisma modifier or be dazed for 1 round.",
++        "Common is automatic. Daelkyr is the bonus language. Favored class Rogue. No racial Hit Dice, ability score adjustments, or level adjustment."
++      ]
++    },
++    {
+       "name": "Vril",
+       "kind": "species",
+       "publication": "Drow of the Underdark (2007)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -6476,6 +6476,98 @@
+     {
+       "origin": "Original DM Library NPC",
+       "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Aberration",
++      "senses": "Darkvision 60 ft.",
++      "speed": "30 ft.",
++      "id": "daelkyr-half-blood-fenwick-seam-scout-35e",
++      "title": "Daelkyr Half-Blood seam scout, Rogue 2",
++      "difficulty": "Provisional CR 3 with throwing scarab attached. ECL 2 (2 class HD, LA +0).",
++      "ac": 16,
++      "hp": 16,
++      "hitDice": "2d6+4, plus 2 HP while attached",
++      "initiative": 3,
++      "languages": "Common, Daelkyr",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 16,
++        "CON": 14,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 12
++      },
++      "skills": [
++        "Balance +9",
++        "Disable Device +6",
++        "Hide +7",
++        "Listen +6",
++        "Move Silently +7",
++        "Open Lock +8",
++        "Search +6",
++        "Spot +6",
++        "Tumble +7"
++      ],
++      "traits": [
++        "Lawful evil. Studded leather +3, Dexterity +3. Touch 13, flat-footed 13, armor check penalty −1. BAB +1, grapple +2. Fortitude +2, Reflex +6, Will +1.",
++        "Trapfinding and evasion in light armor. Tumble synergy is included in Balance.",
++        "Throwing scarab starts attached. AC 21, touch 21, flat-footed 18, 4 HP when targeted directly. It can be attacked in place of the host if visible, provoking from the host. While attached it makes no attacks of its own.",
++        "Scarab attachment or removal deals 1d3 Wisdom damage. The listed Wisdom assumes recovery from an earlier attachment. Scarlet-blue carapace, telepathy with the host, Ego 2.",
++        "Symbiont Mastery is a racial bonus feat. Gain +4 on Will saves in symbiont personality conflicts and +2 HP per attached symbiont. The extra HP vanish immediately when it detaches.",
++        "Symbiont Dependence (Ex). Take 1 Constitution damage after each 24 hours without contact with any symbiont. That damage cannot be restored until contact resumes.",
++        "Unbalanced Mind (Ex). A creature trying to read or study the half-blood’s mind must make a Will save at DC 10 + half the half-blood’s level + their Charisma modifier or be dazed for 1 round.",
++        "Unbalanced Mind Will DC 12. Will +5 if the scarab enters a personality conflict against its Ego DC 2."
++      ],
++      "actions": [
++        "Rapier +2 melee, 1d6+1 piercing, critical 18–20/×2.",
++        "Throwing scarab shard +4 ranged, 1d6 slashing and 1d6 acid, 20-ft. range increment. Critical 19–20/×2 on the slashing damage. Point Blank Shot adds +1 to attack and damage within 30 ft., before range penalties.",
++        "Grasp one available shard as a free action and throw it as a normal ranged attack. A new shard becomes available at the beginning of Lysa’s next action, one shot per round. The shard counts as magic for damage reduction and dissolves within a round of removal.",
++        "Sneak attack adds 1d6 if the target is denied Dexterity to AC, or when flanking in melee. Ranged sneak attack requires a target within 30 ft."
++      ],
++      "tactics": "Lysa tries to get the map case past the party first. If the route closes, she uses the scarab shard from cover and moves before the next shot."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Medium",
++      "type": "Aberration",
++      "senses": "Darkvision 60 ft.",
++      "speed": "30 ft.",
++      "id": "daelkyr-half-blood-valehart-hatch-guard-35e",
++      "title": "Daelkyr Half-Blood hatch guard, Fighter 2",
++      "difficulty": "Provisional CR 3 with crawling gauntlet attached. ECL 2 (2 class HD, LA +0).",
++      "ac": 17,
++      "hp": 21,
++      "hitDice": "2d10+4, plus 2 HP while attached",
++      "initiative": 5,
++      "languages": "Common",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 12,
++        "CON": 14,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +4", "Jump +4"],
++      "traits": [
++        "Lawful evil. Chain shirt +4, heavy steel shield +2, Dexterity +1. Touch 11, flat-footed 16, armor check penalty −4. BAB +2, grapple +5. Fortitude +5, Reflex +1, Will +1.",
++        "Improved Initiative adds +4. Weapon Focus adds +1 to the claw. Power Attack can trade up to 2 attack for the same damage bonus on the claw.",
++        "Crawling gauntlet starts attached. AC 14, touch 13, flat-footed 13, 4 HP when targeted directly. Attacking the visible gauntlet in place of Deren provokes from Deren.",
++        "Attaching or removing the gauntlet deals 1d3 Constitution damage. The listed Constitution assumes recovery from an earlier attachment. The gauntlet communicates telepathically with its host and has Ego 3.",
++        "Symbiont Mastery is a racial bonus feat. Gain +4 on Will saves in symbiont personality conflicts and +2 HP per attached symbiont. The extra HP vanish immediately when it detaches.",
++        "Symbiont Dependence (Ex). Take 1 Constitution damage after each 24 hours without contact with any symbiont. That damage cannot be restored until contact resumes.",
++        "Unbalanced Mind (Ex). A creature trying to read or study the half-blood’s mind must make a Will save at DC 10 + half the half-blood’s level + their Charisma modifier or be dazed for 1 round.",
++        "Unbalanced Mind Will DC 10. Will +5 if the gauntlet enters a personality conflict against its Ego DC 3."
++      ],
++      "actions": [
++        "Gauntlet claw +6 melee, 1d4+4 piercing and slashing, critical ×2. It is Deren’s sole natural weapon and adds one and a half times his Strength bonus. The shield is on his other arm.",
++        "With full Power Attack, claw +4 melee, 1d4+6. The attached gauntlet grants the claw to Deren, who uses his own attack and damage modifiers."
++      ],
++      "tactics": "Deren checks who has clearance while holding the hatch behind his shield. He offers to let the party pass if they can identify the person who sent them."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
+       "size": "Small",
+       "type": "Humanoid (Goblinoid)",
+       "senses": "Darkvision 60 ft.",
+@@ -8200,6 +8292,28 @@
+       "hook": "Orra can bring a light messenger line down from the high ledge while the party carries the heavier rope."
+     },
+     {
++      "species": "Daelkyr Half-Blood",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Magic of Eberron (2005)",
++      "name": "Lysa Fenwick",
++      "build": "daelkyr-half-blood-fenwick-seam-scout-35e",
++      "role": "Seam scout with a throwing scarab.",
++      "motive": "Get a survey map out before the lower tunnels are locked.",
++      "hook": "Lysa grips the case and asks which way the party came in. A blue scarab shifts on the back of her hand."
++    },
++    {
++      "species": "Daelkyr Half-Blood",
++      "size": "Medium",
++      "edition": "3.5 edition",
++      "speciesPublication": "Magic of Eberron (2005)",
++      "name": "Deren Valehart",
++      "build": "daelkyr-half-blood-valehart-hatch-guard-35e",
++      "role": "Hatch guard with a crawling gauntlet.",
++      "motive": "Keep unscheduled visitors away from the sealed lower gallery.",
++      "hook": "Deren taps his chitinous fingers on the hatch and asks the party who sent them."
++    },
++    {
+       "species": "Spellscale",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -2097,6 +2097,7 @@
+ Daask Raider	monster	Humanoid	Eberron: Forge of the Artificer	2024 fifth edition	Wizards of the Coast		1
+ Dabus	monster	Celestial	Planescape: Adventures in the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3883526-dabus	2
+ Dabus	monster	Celestial	Morte's Planar Parade	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3883526-dabus	2
++Daelkyr Half-Blood	species	Aberration	Magic of Eberron (2005)	3.5 edition	Wizards of the Coast	https://books.google.com/books?vid=ISBN0786936967	
+ Daemogoth	monster	Fiend	Strixhaven: A Curriculum of Chaos	2014 fifth edition	Wizards of the Coast		10
+ Daemogoth Titan	monster	Fiend	Strixhaven: A Curriculum of Chaos	2014 fifth edition	Wizards of the Coast		16
+ Dagdra Deepforge	monster	Humanoid	The Orrery of the Wanderer	2014 fifth edition	Wizards of the Coast		2

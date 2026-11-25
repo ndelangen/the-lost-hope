@@ -1,0 +1,28 @@
+{
+  "commit": "1575b4260e41b2ba0a7bdb2a5e3f15852097acc9",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "linkedPublisherGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 551,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "styleReferenceSheet": "output/dm-library/review/encounters-35-style-reference.jpg",
+  "styleDirection": "Reference event and stage paintings for the lighting and materials, and the adult Angulotl batch for light neutral paper with subtle texture.",
+  "results": "output/dm-library/encounter-batches/35/results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Owlbear (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4485976-owlbear-mcdm",
+      "challenge": "3"
+    },
+    {
+      "name": "Shambling Mound (MCDM)",
+      "source": "https://www.dndbeyond.com/monsters/4485997-shambling-mound-mcdm",
+      "challenge": "5"
+    }
+  ],
+  "nextSourceNote": "Use the final printed MCDM Owlbear and Shambling Mound blocks. Check the base monster variants independently from their companions and from Wizards of the Coast printings."
+}

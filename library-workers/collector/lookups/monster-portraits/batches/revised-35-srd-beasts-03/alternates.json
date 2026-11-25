@@ -1,0 +1,90 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Dire Rat",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-rat/giant-rat-2014.webp",
+    "artist": "Related Giant Rat illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "5099164075a75999c377a470f443bc27f94e8832acfba80b79ac92b7741ca8fc",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Swarm%20of%20Rats.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Rat",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-rat/kobold-press-giant-rat.webp",
+    "artist": "Related Giant Rat · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "48b6664adca563eaa9c6ac2e1e8afdc368536843aa5ca5ece099ee9e7441acff",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/giant-rat.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-shark/giant-shark-2024.webp",
+    "artist": "Related Giant Shark illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "840c77854787393dfb425c58dd521b42ea8b32e159d09858776a362bcf44ffe4",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Hunter%20Shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Shark",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-shark/kobold-press-shark.webp",
+    "artist": "Related Giant Shark · Kobold Press Foundry token",
+    "kind": "token",
+    "sha256": "4b87ddd9a6b906869db40737dfa77c899f852f30a36ecd426b6e4e19ca723f06",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/shark.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Tiger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-tiger/tiger-2024.webp",
+    "artist": "Related Tiger illustration · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "60770e6e1a9ded530d5dd0e74001f431ec855a7e4fb5433830b23084c60f582f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Tiger.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Tiger",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-tiger/tiger-2014.webp",
+    "artist": "Related Tiger token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "7a5589c6c015d44283b8dcfa9723adb47ac243c5a02a0abd7312c2393b86e182",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Tiger.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Weasel",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-weasel/giant-weasel-rowan-holloway.webp",
+    "artist": "Related Giant Weasel illustration by Rowan Holloway · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "dc2518492129b5ceadcf60b86cd300038c7b0344cf05dfb484153dd83e11a091",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Weasel.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Dire Weasel",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "edition": "3.5 edition",
+    "file": "images/monsters/dire-weasel/giant-weasel-2014.webp",
+    "artist": "Related Giant Weasel token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "da2cf6ef310b269acbe5680a544f03c77e72ca87e611dde90c86587541641ac4",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Weasel.webp"
+  }
+]

@@ -1,0 +1,375 @@
+[
+  {
+    "name": "Duergar Soulblade",
+    "statBlock": {
+      "name": "Duergar Soulblade",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 109,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 14,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 10,
+      "description": "Duergar soulblades form weapons from psionic energy.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Armor": "Leather armor.",
+        "Traits": "Duergar Resilience. The duergar has advantage on saving throws against spells and on saves against the charmed, paralyzed, or poisoned conditions.\nSunlight Sensitivity. While in sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Soulblade. Melee spell attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) force damage, or 13 (3d6 + 3) force damage while enlarged.\nInvisibility (recharges after a short or long rest). The duergar and its equipment become magically invisible for up to 1 hour. This effect ends early if the duergar attacks, forces a creature to make a saving throw, or loses concentration as if concentrating on a spell.",
+        "Bonus actions": "Enlarge (recharges after a short or long rest). For 1 minute, the duergar and its equipment grow magically. The duergar becomes Large or grows as much as the available space allows. It makes Strength checks and Strength saves with advantage and doubles the damage dice of its Strength-based weapon attacks. The attack descriptions already include the increased damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 109."
+      }
+    }
+  },
+  {
+    "name": "Duergar Stone Guard",
+    "statBlock": {
+      "name": "Duergar Stone Guard",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 110,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 18,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Stone guards reinforce duergar formations and form strike teams for specific missions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Armor": "Chain mail and shield.",
+        "Traits": "Duergar Resilience. The duergar has advantage on saving throws against spells and on saves against the charmed, paralyzed, or poisoned conditions.\nPhalanx Formation. The duergar has advantage on attack rolls and Dexterity saves while standing within 5 ft. of an ally wielding a shield.\nSunlight Sensitivity. While in sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make two attacks using Shortsword, Javelin, or one of each.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while enlarged.\nJavelin. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while enlarged.\nInvisibility (recharges after a short or long rest). The duergar and its equipment become magically invisible for up to 1 hour. This effect ends early if the duergar attacks, forces a creature to make a saving throw, or loses concentration as if concentrating on a spell.",
+        "Bonus actions": "Enlarge (recharges after a short or long rest). For 1 minute, the duergar and its equipment grow magically. The duergar becomes Large or grows as much as the available space allows. It makes Strength checks and Strength saves with advantage and doubles the damage dice of its Strength-based weapon attacks. The attack descriptions already include the increased damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 110."
+      }
+    }
+  },
+  {
+    "name": "Duergar Warlord",
+    "statBlock": {
+      "name": "Duergar Warlord",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 111,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 20,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 11,
+      "description": "Duergar warlords direct their troops and can use psionic pain to drive an ally to fight harder.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Armor": "Plate armor and shield.",
+        "Traits": "Duergar Resilience. The duergar has advantage on saving throws against spells and on saves against the charmed, paralyzed, or poisoned conditions.\nSunlight Sensitivity. While in sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make three Psychic-Attuned Hammer or Javelin attacks in any combination and use Call to Attack.\nPsychic-Attuned Hammer. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) bludgeoning damage, or 15 (2d10 + 4) while enlarged, plus 5 (1d10) psychic damage in either case.\nJavelin. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage, or 11 (2d6 + 4) piercing damage while enlarged.\nCall to Attack. Up to three allies within 120 ft. who can hear the duergar may each use a reaction to make one weapon attack.\nInvisibility (recharge 4–6). The duergar and its equipment become magically invisible for up to 1 hour. This effect ends early if the duergar attacks, forces a creature to make a saving throw, or loses concentration as if concentrating on a spell.",
+        "Bonus actions": "Enlarge (recharges after a short or long rest). For 1 minute, the duergar and its equipment grow magically. The duergar becomes Large or grows as much as the available space allows. It makes Strength checks and Strength saves with advantage and doubles the damage dice of its Strength-based weapon attacks. The attack descriptions already include the increased damage.",
+        "Reactions": "Scouring Instruction. When an ally the warlord can see rolls a d20, the warlord can roll a d6. The ally can take 3 (1d6) psychic damage to add the result of the warlord's d6 to its d20 roll.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 111."
+      }
+    }
+  },
+  {
+    "name": "Duergar Xarrorn",
+    "statBlock": {
+      "name": "Duergar Xarrorn",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 111,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 18,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Xarrorn combine alchemy and psionics to build weapons such as the fire lance.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Armor": "Plate armor.",
+        "Traits": "Duergar Resilience. The duergar has advantage on saving throws against spells and on saves against the charmed, paralyzed, or poisoned conditions.\nSunlight Sensitivity. While in sunlight, the duergar has disadvantage on attack rolls and on Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Fire Lance. Melee weapon attack, +5 to hit, reach 10 ft., one target. A hit deals 9 (1d12 + 3) piercing damage, or 16 (2d12 + 3) while enlarged, plus 3 (1d6) fire damage in either case.\nFire Spray (recharge 5–6). The fire lance projects a 15-ft. cone or a line 30 ft. long and 5 ft. wide. Each creature in the area makes a DC 12 Dexterity save, taking 10 (3d6) fire damage on a failure or half as much on a success.\nInvisibility (recharges after a short or long rest). The duergar and its equipment become magically invisible for up to 1 hour. This effect ends early if the duergar attacks, forces a creature to make a saving throw, or loses concentration as if concentrating on a spell.",
+        "Bonus actions": "Enlarge (recharges after a short or long rest). For 1 minute, the duergar and its equipment grow magically. The duergar becomes Large or grows as much as the available space allows. It makes Strength checks and Strength saves with advantage and doubles the damage dice of its Strength-based weapon attacks. The attack descriptions already include the increased damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 111."
+      }
+    }
+  },
+  {
+    "name": "Dybbuk",
+    "statBlock": {
+      "name": "Dybbuk",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 113,
+      "classification": "Medium fiend (demon), typically chaotic evil",
+      "ac": 14,
+      "hp": 37,
+      "hitDice": "5d8 + 15",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 6
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 14,
+      "description": "A dybbuk is an airborne demon with a jellyfish-like body. It uses intact corpses to move among the living and frighten witnesses.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 6,
+        "Intimidation": 4,
+        "Perception": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Common, telepathy 120 ft.",
+        "Damage resistances": "Acid, cold, fire, lightning, thunder. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Traits": "Incorporeal Movement. The dybbuk can move through creatures and objects as difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.\nMagic Resistance. The dybbuk has advantage on saving throws against spells and other magical effects.",
+        "Actions": "Tentacle. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 13 (2d8 + 4) necrotic damage. If the target is a creature, reduce its hit point maximum by 3 (1d6) until it finishes a short or long rest. If the maximum falls to 0, the creature dies.\nPossess Corpse (recharge 6). The dybbuk disappears into an intact corpse within 5 ft. that belonged to a Large or smaller Beast or Humanoid. The dybbuk gains 20 temporary hit points. It takes the corpse's size and cannot use Incorporeal Movement while inside, but its other statistics stay the same. The possession ends when it loses those temporary hit points or ends it as a bonus action. It then appears in an unoccupied space within 5 ft. of the corpse.",
+        "Spellcasting": "The dybbuk casts one spell as an action using Charisma, with spell save DC 12. It needs no material components.\nAt will. Dimension Door.\n3/day. Phantasmal Force.",
+        "Bonus actions": "Control Corpse. While possessing a corpse, the dybbuk makes it move or behave in an unnatural way. Each Beast or Humanoid that sees this makes a DC 12 Wisdom save. On a failure, it is frightened of the dybbuk for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success. Any creature that succeeds on the save is immune to Control Corpse for 24 hours.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 113.",
+        "Movement interpretation": "The printed speed gives 0 ft. on land and 40 ft. with hover but leaves the second movement mode unnamed. Use a flying speed for its natural form, which the book describes moving through the air."
+      }
+    }
+  },
+  {
+    "name": "Earth Elemental Myrmidon",
+    "statBlock": {
+      "name": "Earth Elemental Myrmidon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 122,
+      "classification": "Medium elemental, typically neutral",
+      "ac": 18,
+      "hp": 127,
+      "hitDice": "17d8 + 51",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 10,
+      "description": "An earth elemental bound into plate armor that strikes with a maul charged with force.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Terran, one language of its creator's choice.",
+        "Damage resistances": "Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Paralyzed, petrified, poisoned, prone.",
+        "Armor": "Plate armor.",
+        "Actions": "Multiattack. Make two Maul attacks.\nMaul. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) force damage.\nThunderous Strike (recharge 6). Make one Maul attack. On a hit, the target also takes 22 (4d10) thunder damage and makes a DC 14 Strength save. On a failure, it falls prone.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 122."
+      }
+    }
+  },
+  {
+    "name": "Eidolon",
+    "statBlock": {
+      "name": "Eidolon",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 114,
+      "classification": "Medium undead, any alignment",
+      "ac": 9,
+      "hp": 63,
+      "hitDice": "18d8 - 18",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 19
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 18,
+      "description": "An eidolon guards a sacred place and can animate a statue prepared to hold its spirit.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "The languages it knew in life.",
+        "Damage resistances": "Acid, fire, lightning, thunder. Bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Cold, necrotic, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Traits": "Incorporeal Movement. The eidolon can move through creatures and objects as difficult terrain. If it ends its turn inside an object other than a Sacred Statue, it takes 5 (1d10) force damage.\nSacred Animation (recharge 5–6). When the eidolon enters a Sacred Statue's space, it can disappear into the statue. The statue becomes a creature under its control, and the eidolon uses the Sacred Statue stat block while inside.\nTurn Resistance. The eidolon has advantage on saving throws against effects that turn undead.\nUnusual Nature. The eidolon needs no air, food, drink, or sleep.",
+        "Actions": "Divine Dread. Each creature within 60 ft. that can see the eidolon makes a DC 15 Wisdom save or is frightened of it for 1 minute. At the start of each turn while frightened this way, the creature must take the Dash action and move away by the safest available route. If it has nowhere to go, it is also stunned until it can move again. The creature repeats the save at the end of each turn, ending the effect on a success. When it succeeds or the effect ends, it is immune to every eidolon's Divine Dread for 24 hours.",
+        "Sacred Statue encounter": "The Sacred Statue is an object until an eidolon enters it. The animated statue is a Large construct with the eidolon's alignment, AC 19 (natural armor), 95 HP (10d10 + 40), and speed 25 ft. It has Str 19, Dex 8, Con 19, Int 14, Wis 19, Cha 16, and a +8 Wisdom save. It has darkvision 60 ft., passive Perception 14, and the eidolon's languages. It resists acid, fire, and lightning, plus bludgeoning, piercing, and slashing from nonmagical attacks. It is immune to cold, necrotic, and poison damage and to the charmed, exhaustion, frightened, paralyzed, petrified, and poisoned conditions. It needs no air, food, drink, or sleep.\nFalse Appearance. If motionless at the start of combat, the statue has advantage on initiative. A creature that has never seen the statue move or act needs a successful DC 18 Intelligence (Investigation) check to tell it is a creature.\nGhostly Inhabitant. The eidolon leaves the statue if the statue reaches 0 HP, if the eidolon leaves as a bonus action, or if it is turned or forced out, such as by Dispel Evil and Good. It then appears in an unoccupied space within 5 ft. of the statue and uses its own stat block again.\nMultiattack. The statue makes two Slam or Rock attacks in any combination.\nSlam. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 43 (6d12 + 4) bludgeoning damage.\nRock. Ranged weapon attack, +8 to hit, range 60/240 ft., one target. A hit deals 37 (6d10 + 4) bludgeoning damage.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 114."
+      }
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Dvati",
+    "species": "species-e450d945ed3354e860d811fd",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Dragon Compendium, Volume I (2005)"
+    ],
+    "portraitSha256": "a5c29c22cfc2acc2df6f32c791811472e914d034df718ee4d589f3b29fca87a9",
+    "caption": "Aven and Iven Threadwell · Original Dvati NPCs",
+    "npcReceipts": [
+      {
+        "name": "Aven and Iven Threadwell",
+        "id": "npc-2ade8764761c76d061c7bbe0",
+        "challenge": "Provisional CR 3 for the pair. ECL 3 (2 class HD, LA +1)."
+      },
+      {
+        "name": "Mara and Sera Reedbank",
+        "id": "npc-f829285e59445ea201671f70",
+        "challenge": "Provisional CR 2 for the pair. ECL 2 (1 class HD, LA +1)."
+      }
+    ]
+  }
+]

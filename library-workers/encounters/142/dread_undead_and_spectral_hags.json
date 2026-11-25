@@ -1,0 +1,372 @@
+[
+  {
+    "name": "Cannibal Zombie",
+    "decision": "separate",
+    "pages": "pp. 225–227",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Cannibal Zombie",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "3d12 + 3",
+      "speed": "30 ft. (6 squares), cannot run",
+      "cr": "3",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "description": "These hungry dead return to the same isolated house night after night, retreating at sunrise and trying again after dark.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative −1. AC 14 (−1 Dex, +5 natural), touch 9, flat-footed 15. Base attack +1, grapple +5. Space and reach 5 ft. Fort +1, Ref +0, Will +3. Climb +8. Toughness.",
+        "Actions": "Attack or full attack. Slam +5 melee for 1d8 + 4 damage.\nBending the Land (Su). While pursuing a chosen victim, the zombie can stay at a set distance no matter how fast or far the victim flees. If watched, it can fade from sight and appear ahead or to the side. It closes in if the victim stops and can give up the pursuit at any point.\nCreate Spawn (Su). Someone it kills soon rises with the same statistics. The new zombie hunts alongside the pack of its own accord.\nStitching (Ex). The zombie can repair an injury by eating the corresponding body part. Replacing a lost arm, for example, requires eating an arm. The repair takes 4 hours.",
+        "Traits": "Darkvision 60 ft., damage reduction 5/slashing, undead traits. It takes only a single move or attack in a combat round. It can utter short phrases in its former language. Speak with dead lets it converse coherently for the spell’s duration.",
+        "Encounter details": "Any terrain, often in packs of 7–20. Always chaotic evil. No treasure. Its odor can give away its presence from 50 ft. away. When barred from prey, a pack may turn on one of its own.",
+        "Printed source": "pp. 225–227"
+      },
+      "ruleNotes": [
+        "Use the printed flat-footed AC 15. The source gives no distance for Bending the Land or exact timing for Create Spawn. Set these when planning the encounter."
+      ]
+    }
+  },
+  {
+    "name": "Desert Zombie",
+    "decision": "separate",
+    "pages": "pp. 225, 227–228",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Desert Zombie",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 15,
+      "hp": 13,
+      "hitDice": "2d12",
+      "speed": "30 ft. (6 squares), cannot run",
+      "cr": "2",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "description": "Senmet’s undead servants swim beneath the sands of Har’Akir, leaving shallow furrows when they travel near the surface.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative +2. AC 15, touch 10, flat-footed 15. The listed armor component is +3 natural. Base attack +1, grapple +2. Space and reach 5 ft. Fort +0, Ref +1, Will +3. Swim (sand) +5. Improved Natural Armor.",
+        "Actions": "Attack or full attack. Slam +2 melee for 1d8 + 1 damage. The prose gives the same damage for weapons or other attacks.\nGrab from Beneath (Ex). From under the sand, make an attack against AC that includes the victim’s Dexterity bonus but excludes natural armor and worn armor. A hit grabs the victim. The victim can break free with an opposed Strength check. After 3 rounds of being pulled down, the victim is completely buried. They survive the first round underground and die at the end of the second unless freed.\nSpell Use. A zombie that cast spells in life still casts them, using the sorcerer class regardless of its previous casting class.",
+        "Traits": "Darkvision 60 ft., damage reduction 5/slashing, undead traits. Sandswim (Ex) lets it travel beneath the sand to set up a grab. The print supplies no separate sand movement speed. It understands simple commands and rarely speaks.",
+        "Encounter details": "Deserts of Har’Akir, commonly in packs of 6–10. Usually neutral evil. No treasure. The prose says it retains its former skills and abilities. The printed stat block presents an ordinary specimen.",
+        "Printed source": "pp. 225, 227–228"
+      },
+      "ruleNotes": [
+        "Preserve the listed AC and saves where the components and ability scores disagree. The grab gives a custom defense and escape check but prints no separate attack bonus. Use the printed slam bonus for the initial grab as a table default."
+      ]
+    }
+  },
+  {
+    "name": "Mud Zombie",
+    "decision": "separate",
+    "pages": "pp. 225, 228",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Mud Zombie",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead",
+      "ac": 12,
+      "hp": 29,
+      "hitDice": "4d12 + 3",
+      "speed": "30 ft. (6 squares), cannot run",
+      "cr": "5",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": -10
+        }
+      },
+      "description": "Azalin’s muddy undead rise from the marsh with damaged or missing limbs. They drag anyone caught in both claws into the mud coating their chests.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative −1. AC 12 (+2 natural), touch 10, flat-footed 12. Base attack +2, grapple +7. Space and reach 5 ft. Fort +1, Ref +3, Will +4. Listed skills are Combat Reflexes +4, Hide +4, Use Rope +4, Search +4. Toughness.",
+        "Actions": "Attack. Claw +7 melee for 1d6 + 5 damage. Full attack. Two claws at +7, each for 1d6 + 5.\nDisease (Ex). A claw injury calls for a DC 15 Fortitude save. Failure deals 1 Strength damage initially, then 1 Strength damage per day for 1d6 days.\nSuffocate (Ex). Two claw hits against the same victim grab them. Starting next round, the victim may try a Strength check once per round, with DC equal to their own Strength score. On a failure they take 1d4 suffocation damage that round. A success frees them.",
+        "Traits": "Darkvision 60 ft., immunity to thrusting weapons, and undead traits. Immersion or steady exposure to water for 1d4 rounds strips the mud from the skeleton and removes Suffocate. The book gives no substitute skeletal stat block.",
+        "Encounter details": "Wetlands of Darkon. Always neutral evil. No treasure. The combat prose has it attack last in the round.",
+        "Printed source": "pp. 225, 228"
+      },
+      "ruleNotes": [
+        "The stat line prints Charisma −10, puts Combat Reflexes +4 among the skills, and gives initiative −1 despite Dexterity 14. Combat Reflexes is a feat in 3.5. Use the printed attack-last procedure and keep the supplied AC, attack and save figures."
+      ]
+    }
+  },
+  {
+    "name": "Sea Zombie",
+    "decision": "separate",
+    "pages": "pp. 225–226, 228–229",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Sea Zombie",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (augmented humanoid)",
+      "ac": 16,
+      "hp": 37,
+      "hitDice": "5d12 + 5",
+      "speed": "30 ft. (6 squares), cannot run, swim 60 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "Packs of drowned sailors lure ships onto the rocks, climb aboard at night, and overwhelm the survivors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative +7. AC 16 (+2 Dex, +2 leather armor, +2 natural), touch 12, flat-footed 14. Base attack +5, grapple +8. Space and reach 5 ft. Fort +7, Ref +4, Will +1. Climb +4, Jump +4, Ride +2, Swim +4, Survival +2. Alertness, Combat Reflexes, Improved Initiative, Weapon Focus (longsword).",
+        "Actions": "Attack or full attack. Slam +8 melee for 1d10 + 3, longsword +9 melee for 1d8 + 3, or shortbow +8 ranged for 1d6.\nDisease/Poison (Ex). A creature wounded by the zombie makes an immediate DC 14 Fortitude save against its injury poison. Initial damage is 1d4 Constitution and secondary damage is another 1d4 Constitution. Use the normal secondary poison save.\nStench (Ex). A creature within 20 ft. makes a DC 15 Fortitude save. Failure leaves it nauseated and horrified, with a −1 penalty to attack rolls and AC for 2d4 rounds.",
+        "Traits": "Darkvision 60 ft., damage reduction 5/slashing, spell resistance 10, +2 turn resistance, and undead traits. Electricity and cold deal double damage, and fire deals half damage. Its telepathy reaches other sea zombies within 100 ft.",
+        "Encounter details": "Shallow waters of Saragoss, the Sea of Sorrows, or Souragne. Packs of 6–10. Always chaotic evil. Standard treasure. They are active at any hour underwater, reach the surface at night, and rarely travel more than 100 ft. inland unless fog covers them.",
+        "Printed source": "pp. 225–226, 228–229"
+      },
+      "ruleNotes": [
+        "Use the printed AC despite the listed Dexterity component differing from the ability score. The stench calls its consequence horrified and supplies its duration and numeric penalties. No additional Horror save is specified."
+      ]
+    }
+  },
+  {
+    "name": "Spectral Annis",
+    "decision": "separate",
+    "pages": "pp. 108–111",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Spectral Annis",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large undead (incorporeal, formerly monstrous humanoid)",
+      "ac": 12,
+      "hp": 45,
+      "hitDice": "7d12",
+      "speed": "40 ft. (8 squares), fly 40 ft. (perfect)",
+      "cr": "8",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "This ghostly hag reaches through cover to sap her victims’ life and add them to her retinue of spectres.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative +1. AC 12 (−1 size, +1 Dex, +2 deflection), touch 12, flat-footed 12. Base attack +7, grapple +18 as printed. Space and reach 10 ft. Fort +6, Ref +6, Will +6. Bluff +8, Diplomacy +2, Disguise +0 (+2 acting), Hide +13, Intimidate +10, Listen +18, Move Silently +8, Spot +18. Alertness, Blind-Fight, Great Fortitude.",
+        "Actions": "Attack or full attack. Incorporeal touch +14 melee for 1d6 + 7 plus Chilling Touch.\nCreate Hag (Su). On the night of the new moon, a ceremony can turn a captive human woman into a living annis she commands.\nSpell-like abilities. Disguise self and fog cloud, each 3/day at caster level 8.",
+        "Traits": "Incorporeal and undead traits, damage reduction 10/magic, darkvision 60 ft., spell resistance 19, and sunlight powerlessness.",
+        "Encounter details": "Cold marshes. Solitary or in a covey of 3 mixed spectral hags, with any spectres they have created. Usually chaotic evil. No treasure. Speaks Common and one or two other local or racial languages.",
+        "Shared spectral hag rules": "Chilling Touch (Su). A target hit by the spectral hag’s incorporeal touch makes a DC 15 Fortitude save. Failure gives it 2 negative levels. The touch still deals its listed hit point damage on a successful save.\nCreate Spectre (Su). A victim whose levels reach 0 through Chilling Touch and who dies rises as a spectre under the hag’s control. Spectres she creates can travel with her, obey her commands, and be called to aid her in combat.\nDaylight suppresses the hag’s special powers without dealing damage. Her touch reaches creatures on either the Ethereal Plane or the Material Plane and keeps her original Strength bonus.\nWhen former covey members die during the same evil ceremony, they may retain their covey. A former covey member the spectral hag kills rises as a spectral hag under her control.",
+        "Printed source": "pp. 108–111"
+      },
+      "ruleNotes": [
+        "The stat line supplies a grapple modifier, but it does not grant an exception to the usual restriction on incorporeal creatures grappling corporeal opponents."
+      ]
+    }
+  },
+  {
+    "name": "Spectral Green Hag",
+    "decision": "separate",
+    "pages": "pp. 108–111",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Spectral Green Hag",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (incorporeal, formerly monstrous humanoid)",
+      "ac": 13,
+      "hp": 58,
+      "hitDice": "9d12",
+      "speed": "30 ft. (6 squares), fly 40 ft. (perfect), swim 30 ft.",
+      "cr": "7",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "description": "A false animal call draws prey into a marsh, where the hag cloaks her approach with spells before striking.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative +1. AC 13 (+1 Dex, +2 deflection), touch 13, flat-footed 12. Base attack +9, grapple +13 as printed. Space and reach 5 ft. Fort +6, Ref +7, Will +7. Concentration +7, one Craft or Knowledge +7, Hide +17, Intimidate +8, Listen +19, Move Silently +8, Spot +19, Swim +12. Alertness, Blind-Fight, Combat Casting, Great Fortitude.",
+        "Actions": "Attack or full attack. Incorporeal touch +13 melee for 1d6 + 4 plus Chilling Touch.\nCreate Hag (Su). Under a full moon, a ceremony can turn a captive elf woman into a living green hag she commands.\nMimicry (Ex). Imitate nearly any animal sound she has heard.\nSpell-like abilities. At will at caster level 9: dancing lights, disguise self, ghost sound (DC 12), invisibility, pass without trace, tongues, water breathing.",
+        "Traits": "Incorporeal and undead traits, damage reduction 10/magic, darkvision 90 ft., spell resistance 18, and sunlight powerlessness.",
+        "Encounter details": "Temperate marshes. Solitary or in a covey of 3 mixed spectral hags, with any spectres they have created. Usually chaotic evil. No treasure. Speaks Common and one or two other local or racial languages.",
+        "Shared spectral hag rules": "Chilling Touch (Su). A target hit by the spectral hag’s incorporeal touch makes a DC 15 Fortitude save. Failure gives it 2 negative levels. The touch still deals its listed hit point damage on a successful save.\nCreate Spectre (Su). A victim whose levels reach 0 through Chilling Touch and who dies rises as a spectre under the hag’s control. Spectres she creates can travel with her, obey her commands, and be called to aid her in combat.\nDaylight suppresses the hag’s special powers without dealing damage. Her touch reaches creatures on either the Ethereal Plane or the Material Plane and keeps her original Strength bonus.\nWhen former covey members die during the same evil ceremony, they may retain their covey. A former covey member the spectral hag kills rises as a spectral hag under her control.",
+        "Printed source": "pp. 108–111"
+      },
+      "ruleNotes": [
+        "The stat line supplies a grapple modifier, but it does not grant an exception to the usual restriction on incorporeal creatures grappling corporeal opponents."
+      ]
+    }
+  },
+  {
+    "name": "Spectral Sea Hag",
+    "decision": "separate",
+    "pages": "pp. 108–111",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Spectral Sea Hag",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Medium undead (aquatic, incorporeal, formerly monstrous humanoid)",
+      "ac": 13,
+      "hp": 19,
+      "hitDice": "3d12",
+      "speed": "30 ft. (6 squares), fly 40 ft. (perfect), swim 40 ft.",
+      "cr": "6",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "description": "The hag stays below the waterline until travelers come within reach, then rises to confront them directly.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative +1. AC 13 (+1 Dex, +2 deflection), touch 13, flat-footed 12. Base attack +3, grapple +7 as printed. Space and reach 5 ft. Fort +2, Ref +4, Will +4. One Craft or Knowledge +3, Hide +12, Intimidate +8, Listen +14, Move Silently +8, Spot +14, Swim +12. Alertness, Toughness.",
+        "Actions": "Attack or full attack. Incorporeal touch +7 melee for 1d6 + 7. Apply the separately listed Chilling Touch as described in the shared rules.\nCreate Hag (Su). During a lunar eclipse, a ceremony can turn a captive halfling, gnome, or dwarf woman into a living sea hag she commands.\nEvil Eye (Su, 3/day). Target one creature within 10 ft. that is not immune to fear. On a failed DC 13 Will save it is dazed for 3 days, or until remove curse or dispel evil ends the effect. It must also make a DC 13 Fortitude save or die of fright. This death does not create a spectre.\nHorrific Appearance (Su). A creature other than another hag that sees her makes a DC 13 Fortitude save or takes 2d6 Strength damage, to a minimum Strength of 0. At 0 Strength the creature is helpless. Whether it saves or suffers the effect, it is immune to this hag’s appearance for 24 hours.",
+        "Traits": "Incorporeal and undead traits, damage reduction 10/magic, spell resistance 14, and sunlight powerlessness.",
+        "Encounter details": "Temperate aquatic terrain, including swamps and the shores of lakes. Solitary or in a covey of 3 mixed spectral hags, with any spectres they have created. Usually chaotic evil. No treasure. Speaks Common and one or two other local or racial languages.",
+        "Shared spectral hag rules": "Chilling Touch (Su). A target hit by the spectral hag’s incorporeal touch makes a DC 15 Fortitude save. Failure gives it 2 negative levels. The touch still deals its listed hit point damage on a successful save.\nCreate Spectre (Su). A victim whose levels reach 0 through Chilling Touch and who dies rises as a spectre under the hag’s control. Spectres she creates can travel with her, obey her commands, and be called to aid her in combat.\nDaylight suppresses the hag’s special powers without dealing damage. Her touch reaches creatures on either the Ethereal Plane or the Material Plane and keeps her original Strength bonus.\nWhen former covey members die during the same evil ceremony, they may retain their covey. A former covey member the spectral hag kills rises as a spectral hag under her control.",
+        "Printed source": "pp. 108–111"
+      },
+      "ruleNotes": [
+        "The sample calls this creature a monstrous humanoid and prints Constitution 12, but gives undead traits and belongs to a template that changes type to undead and removes Constitution. Run it as undead, preserving the printed hit points, saves, touch damage and ability score for reference. Its attack line omits Chilling Touch, which appears in the special attacks list and shared template. The printed grapple number does not override incorporeal restrictions."
+      ]
+    }
+  },
+  {
+    "name": "Zombie Golem",
+    "decision": "separate",
+    "pages": "pp. 93, 103",
+    "notes": "Encounter summary from the printed 3.5 edition.",
+    "statBlock": {
+      "name": "Zombie Golem",
+      "publication": "Denizens of Dread",
+      "edition": "3.5 edition",
+      "classification": "Large construct",
+      "ac": 17,
+      "hp": 99,
+      "hitDice": "18d10",
+      "speed": "20 ft. (4 squares)",
+      "cr": "12",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "description": "Azalin’s lumbering construct is stitched from several ruined zombies. Its smell reaches intruders well before its fists do.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "sections": {
+        "Combat statistics": "Initiative −1. AC 17 (−1 size, −1 Dex, +9 natural). Derived touch AC 8 and flat-footed AC 17. Base attack +12, grapple +16. Printed space and reach 5 ft. each. Fort +6, Ref +5, Will +6.",
+        "Actions": "Attack. Slam +16 melee for 2d8 + 4 damage.\nStandard Actions Only (Ex). Move or attack on a turn, or combine them as a charge. The chart separately lists a full attack of two slams at +16 for 2d8 + 4 each.\nStench (Ex). Coming within 30 ft. requires a DC 19 Fortitude save. Failure applies a −2 circumstance penalty to attacks, saves and skill checks for 1d6 + 4 minutes. Success grants immunity to this golem’s stench for one day.",
+        "Traits": "Construct traits, damage reduction 10/magic. Magic Immunity (Ex) blocks spells, spell-like abilities and supernatural effects, with the listed exceptions. Targeted dispel magic with a check of at least 16 shuts it down for a number of rounds equal to the check result minus 10. A result of 26 or higher destroys it. Detect magic shows a growing magical aura while it is down. True resurrection destroys it immediately. Animate dead restores it to full HP.",
+        "Encounter details": "Any land or underground. Solitary, always neutral, no treasure. Advancement 19–24 HD (Large) or 25–44 HD (Huge). A creator can command it within 60 ft. if it both sees and hears the creator. Otherwise it follows the last order and responds if attacked.",
+        "Printed source": "pp. 93, 103"
+      },
+      "ruleNotes": [
+        "The source shows a two-slam full attack but separately restricts it to standard actions. Use a single slam unless another effect explicitly allows a full attack. Space and reach remain as printed despite the Large size."
+      ]
+    }
+  }
+]

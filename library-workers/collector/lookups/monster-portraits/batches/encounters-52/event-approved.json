@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Nezumi",
+    "slug": "nezumi",
+    "id": "species-93cc4a353febc8bddb07958d:fc4d914bdb4b0f8d94940095",
+    "entry": "species-93cc4a353febc8bddb07958d",
+    "version": "fc4d914bdb4b0f8d94940095",
+    "suffix": "encounters-52/nezumi.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-52/nezumi.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-52/event-drafts/nezumi-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 52 2026-11-23/event-drafts/nezumi-event-v1.png",
+    "overrides": [],
+    "sha256": "f358c7118c8ec564ee40daf734b0462930799e8e56fdade92c1d3fa7cae4e92d",
+    "bytes": 2290790
+  },
+  {
+    "name": "Vanara",
+    "slug": "vanara",
+    "id": "species-deeb095ab48d0adf7a14d14c:a341ce15604d2c428c36b37e",
+    "entry": "species-deeb095ab48d0adf7a14d14c",
+    "version": "a341ce15604d2c428c36b37e",
+    "suffix": "encounters-52/vanara.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-52/vanara.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-52/event-drafts/vanara-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 52 2026-11-23/event-drafts/vanara-event-v1.png",
+    "overrides": [],
+    "sha256": "d75428110e3e7f0f2378f4d7692aff5fc5290a0e52de114c423f854fd732837f",
+    "bytes": 2293959
+  }
+]

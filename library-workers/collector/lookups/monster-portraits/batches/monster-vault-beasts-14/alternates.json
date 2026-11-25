@@ -1,0 +1,145 @@
+[
+  {
+    "entityKind": "beast",
+    "name": "Weasel, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/weasel-giant/giant-weasel-rowan-holloway.webp",
+    "artist": "Related Giant Weasel illustration by Rowan Holloway · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "dc2518492129b5ceadcf60b86cd300038c7b0344cf05dfb484153dd83e11a091",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Weasel.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Weasel, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/weasel-giant/giant-weasel-2014.webp",
+    "artist": "Related Giant Weasel token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "da2cf6ef310b269acbe5680a544f03c77e72ca87e611dde90c86587541641ac4",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Giant%20Weasel.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Wolf, Dire",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/wolf-dire/kobold-press-wolf-dire.webp",
+    "artist": "Dire Wolf · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "23ec048d7b488b25832e27cbf2185f35b7b3f2ad98dac3c3bfe30fbe6ecbc41d",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/wolf-dire.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Wolf, Dire",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/wolf-dire/dire-wolf-borja-pindado.webp",
+    "artist": "Related Dire Wolf illustration by Borja Pindado · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "a04e73fbbaf982bf85921e5a99adcedfb7c3828df8ee445c105b2f7dbddc1e19",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Dire%20Wolf.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Wolf, Dire",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/wolf-dire/dire-wolf-2014.webp",
+    "artist": "Related Dire Wolf illustration · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "6b6156424d9e008a5cd5d02bad61048c3b8a2065f4a6e4478b97396deae7bd5d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Wolf.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Hippocampus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hippocampus/kobold-press-hippocampus.webp",
+    "artist": "Hippocampus · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "a2fb132af271dcdbe6fec6c5ba26573c8788f2f7515ea162e64b4f071afd2982",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/hippocampus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Hippocampus",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hippocampus/hippocamp-christopher-burdett.webp",
+    "artist": "Related Hippocamp illustration by Christopher Burdett · Mythic Odysseys of Theros",
+    "kind": "illustration",
+    "sha256": "fc570936a0e8d6b8d537d7e1324885eb672c6f526d44a34f1036cbef38d26348",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MOT/Hippocamp.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Hippocampus",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hippocampus/kobold-press-hippocampus.webp",
+    "artist": "Hippocampus · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "a2fb132af271dcdbe6fec6c5ba26573c8788f2f7515ea162e64b4f071afd2982",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/hippocampus.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Hippocampus",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/hippocampus/hippocamp-christopher-burdett.webp",
+    "artist": "Related Hippocamp illustration by Christopher Burdett · Mythic Odysseys of Theros",
+    "kind": "illustration",
+    "sha256": "fc570936a0e8d6b8d537d7e1324885eb672c6f526d44a34f1036cbef38d26348",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MOT/Hippocamp.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Orca",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/orca/kobold-press-orca.webp",
+    "artist": "Orca · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "eab9f7cafb172347b101a46afea4fedc975014f459b15b0c151e1b5ad242692d",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/orca.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Orca",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/orca/killer-whale-2014.webp",
+    "artist": "Related Killer Whale token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "90a895ddda25c260c94be4d410345ef551e21d6c7de5b8c656b0fa38726b9988",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Killer%20Whale.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Orca",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/orca/kobold-press-orca.webp",
+    "artist": "Orca · Kobold Press Foundry artwork",
+    "kind": "token",
+    "sha256": "eab9f7cafb172347b101a46afea4fedc975014f459b15b0c151e1b5ad242692d",
+    "reference": "https://raw.githubusercontent.com/koboldpress/black-flag/0a68ec60bd0acc3da25adb09d72c67ffa5acd089/artwork/tokens/orca.webp"
+  },
+  {
+    "entityKind": "beast",
+    "name": "Orca",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "file": "images/monsters/orca/killer-whale-2014.webp",
+    "artist": "Related Killer Whale token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "90a895ddda25c260c94be4d410345ef551e21d6c7de5b8c656b0fa38726b9988",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Killer%20Whale.webp"
+  }
+]

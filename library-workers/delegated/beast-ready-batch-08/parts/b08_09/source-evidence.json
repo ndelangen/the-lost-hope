@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Deathjump Spider",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2009 digital revision",
+    "sourceFile": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceUrl": "",
+    "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+    "printedPages": [
+      55
+    ],
+    "pdfPages": [
+      55
+    ],
+    "encounterContextPages": [
+      54,
+      55
+    ],
+    "pageNumbering": "One-based pages match the numbered printed folios.",
+    "section": "Area 12, Hobgoblin Guard Room",
+    "level": 4,
+    "role": "Skirmisher",
+    "xp": 175,
+    "initiative": 8,
+    "defenses": {
+      "AC": 20,
+      "Fortitude": 17,
+      "Reflex": 18,
+      "Will": 16
+    },
+    "printedAbilityModifiers": {
+      "Str": 5,
+      "Dex": 6,
+      "Con": 4,
+      "Int": -3,
+      "Wis": 4,
+      "Cha": 1
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+    "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+    "sourceDistinctions": [
+      "Use the 2009 adventure’s +6 Bite and its printed Death from Above and Prodigious Leap timings. Area 12 checks are separate from the creature powers."
+    ],
+    "bloodied": 27
+  },
+  {
+    "name": "Giant Rat",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2009 digital revision",
+    "sourceFile": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceUrl": "",
+    "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+    "printedPages": [
+      44
+    ],
+    "pdfPages": [
+      44
+    ],
+    "encounterContextPages": [
+      44,
+      45
+    ],
+    "pageNumbering": "One-based pages match the numbered printed folios.",
+    "section": "Area 9, The Maze of Caves",
+    "level": 1,
+    "role": "Minion",
+    "xp": 25,
+    "initiative": 3,
+    "defenses": {
+      "AC": 15,
+      "Fortitude": 13,
+      "Reflex": 15,
+      "Will": 12
+    },
+    "printedAbilityModifiers": {
+      "Str": 1,
+      "Dex": 3,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -2
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+    "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+    "sourceDistinctions": [
+      "The adventure rat is a 1-HP Minion with one Bite. Area 9 supplies terrain-specific concealment and Stealth procedures. It supplies no fixed Stealth bonus or bloodied value."
+    ]
+  },
+  {
+    "name": "Guard Drake",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2009 digital revision",
+    "sourceFile": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceUrl": "",
+    "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+    "printedPages": [
+      20,
+      32
+    ],
+    "pdfPages": [
+      20,
+      32
+    ],
+    "encounterContextPages": [
+      20,
+      32,
+      33
+    ],
+    "pageNumbering": "One-based pages match the numbered printed folios.",
+    "section": "Encounter A4, Burial Site, and Area 3, Excavation Site",
+    "level": 2,
+    "role": "Brute",
+    "xp": 125,
+    "initiative": 3,
+    "defenses": {
+      "AC": 15,
+      "Fortitude": 15,
+      "Reflex": 13,
+      "Will": 12
+    },
+    "printedAbilityModifiers": {
+      "Str": 4,
+      "Dex": 3,
+      "Con": 5,
+      "Int": -3,
+      "Wis": 2,
+      "Cha": 2
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+    "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+    "sourceDistinctions": [
+      "The two printed blocks match. Both put the Bite damage increase and fear immunity within 2 squares of an ally. Neither block lists low-light vision. The excavation tactics use “pounce” descriptively."
+    ],
+    "bloodied": 24
+  },
+  {
+    "name": "Kruthik Adult",
+    "publication": "Keep on the Shadowfell (2009 revision)",
+    "edition": "4th edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2009 digital revision",
+    "sourceFile": "",
+    "sourceSha256": "984082983cf843530194158f56ad7e7dba78044d82e2109c61527f141151ae1c",
+    "sourceUrl": "",
+    "sourceUrlRole": "Readable text mirror of the 2009 revision. The verified local is the rules source.",
+    "printedPages": [
+      47
+    ],
+    "pdfPages": [
+      47
+    ],
+    "encounterContextPages": [
+      46,
+      47
+    ],
+    "pageNumbering": "One-based pages match the numbered printed folios.",
+    "section": "Area 10, Kruthik Lair",
+    "level": 4,
+    "role": "Brute",
+    "xp": 175,
+    "initiative": 6,
+    "defenses": {
+      "AC": 17,
+      "Fortitude": 14,
+      "Reflex": 15,
+      "Will": 13
+    },
+    "printedAbilityModifiers": {
+      "Str": 5,
+      "Dex": 6,
+      "Con": 5,
+      "Int": -1,
+      "Wis": 4,
+      "Cha": 1
+    },
+    "appearanceEvidence": "Editorial description of the reused portrait, with shape and scale cross-checked against the adventure prose.",
+    "habitatEvidence": "Encounter locations from the 2009 revision. They describe the beasts’ placement in this adventure.",
+    "sourceDistinctions": [
+      "Printed Wisdom 12 (+4) is retained as it appears on p. 47.",
+      "Tactics describe using Toxic Spikes against the first PC in range, while the power specifies two different targets.",
+      "The detailed p. 47 tunnel feature gives the Medium adult half speed and Small kruthiks full speed."
+    ],
+    "bloodied": 33
+  }
+]

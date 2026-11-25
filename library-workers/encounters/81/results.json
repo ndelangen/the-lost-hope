@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Chaos Gnome",
+    "species": "species-23ac77eaf86ffaa392422132",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of Stone (2004)"
+    ],
+    "portraitSha256": "c25b57959126cec33bcc9ae3dc442927d89efe9e6f8c4cc8c738abc58f1fedf5",
+    "caption": "Orrin Redwick · Original Chaos Gnome NPC",
+    "npcReceipts": [
+      {
+        "name": "Orrin Redwick",
+        "id": "npc-6f4618e322ae46d3beac0f5d",
+        "challenge": "Provisional CR 2. ECL 2."
+      },
+      {
+        "name": "Pella Reedchime",
+        "id": "npc-901519dfd679ec15e7762709",
+        "challenge": "Provisional CR 2. ECL 2."
+      }
+    ]
+  }
+]

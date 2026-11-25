@@ -1,0 +1,21 @@
+{
+  "baseline": "235a61e0cd2bcf66ed057bb1d60e98aeaf3f43aa",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Half-Ogre"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Races of Destiny (2004)",
+  "largeReachLevelAdjustmentAndClassHitDiceVerified": true,
+  "existingFifthEditionMonsterPreserved": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

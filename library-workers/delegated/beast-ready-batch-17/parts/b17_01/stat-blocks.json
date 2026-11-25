@@ -1,0 +1,359 @@
+[
+  {
+    "name": "Ebonclaw",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, lawful neutral",
+    "printedPage": 50,
+    "ac": 12,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 12,
+        "modifier": 1
+      }
+    },
+    "passivePerception": 13,
+    "otherStatistics": "Proficiency bonus +2. Perception +3. Stealth +6. Passive Perception 13. Languages: Common.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A powerful saber-toothed cat with a short tail and long upper canines.",
+    "habitats": [
+      "Razortooth Rock",
+      "Faunel",
+      "Rugged cliffs"
+    ],
+    "sections": {
+      "Printed source": "Turn of Fortune's Wheel, Ch. 8, Faunel, Razortooth Rock, p. 50. https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks\nInherited rules from the 2014 Monster Manual, p. 336, Saber-Toothed Tiger. https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "Traits": "Keen Smell. Ebonclaw has advantage on Wisdom (Perception) checks based on smell.\nPounce. A Claw hit after moving at least 20 ft. straight toward the creature that turn forces a DC 14 Strength save. On a failure the target falls prone. Ebonclaw can use Bite once as a bonus action against the prone target.",
+      "Actions": "Bite. Melee weapon attack, +6, reach 5 ft. A hit on one target deals 10 (1d10 + 5) piercing damage.\nClaw. Melee weapon attack, +6, reach 5 ft. A hit on one target deals 12 (2d6 + 5) slashing damage.",
+      "Encounter ecology": "Ebonclaw leads the sapient predators of Razortooth Rock. He is suspicious of strangers and loathes the Vile Hunt.",
+      "Encounter procedure": "Ebonclaw agrees to speak after a successful DC 16 Charisma (Intimidation or Persuasion) check or a gift of fresh yak meat.",
+      "Source notes": "The adventure changes alignment, Intelligence and Charisma to 12, and speech to Common. The indexed summary instead carries the base tiger’s Intelligence 3 and Charisma 8. The 2014 Monster Manual supplies the other combat numbers."
+    },
+    "skills": {
+      "Perception": 3,
+      "Stealth": 6
+    }
+  },
+  {
+    "name": "Ophelia",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, lawful good",
+    "printedPage": 50,
+    "ac": 12,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "passivePerception": 12,
+    "otherStatistics": "Proficiency bonus +2. Natural armor. Passive Perception 12. Languages: Common.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sapient elephant with thick gray hide, an expressive trunk and long tusks.",
+    "habitats": [
+      "Heart Delta",
+      "Faunel",
+      "Savanna"
+    ],
+    "sections": {
+      "Printed source": "Turn of Fortune's Wheel, Ch. 8, Faunel, Heart Delta, p. 50. https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks\nInherited rules from the 2014 Monster Manual, p. 322, Elephant. https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "Traits": "Trampling Charge. A Gore hit after moving at least 20 ft. straight toward a creature that turn forces a DC 12 Strength save. On a failure the target falls prone. Ophelia can then Stomp that prone target once as a bonus action.",
+      "Actions": "Gore. Melee weapon attack, +8, reach 5 ft. A hit on one target deals 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +8, reach 5 ft. A hit on one prone creature deals 22 (3d10 + 6) bludgeoning damage.",
+      "Encounter ecology": "Ophelia leads the sapient herbivores of Faunel and speaks to gathered animals in the Hollow.",
+      "Source notes": "The adventure changes alignment, Intelligence to 10, Wisdom and Charisma to 14, and speech to Common. Its prose does not restate passive Perception. The displayed 12 follows the new Wisdom modifier with no Perception proficiency. The base elephant has passive Perception 10.\nThe 2023 adventure inherits the 2014-rules Elephant. The November 2018 Monster Manual errata supplies the +6 damage bonus already in force when the adventure appeared. The first 2014 printing used +5 for both."
+    }
+  },
+  {
+    "name": "Parvaz",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, neutral",
+    "printedPage": 51,
+    "ac": 13,
+    "hp": 26,
+    "hitDice": "4d10 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Wis": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Cha": {
+        "score": 14,
+        "modifier": 2
+      }
+    },
+    "passivePerception": 14,
+    "otherStatistics": "Proficiency bonus +2. Perception +4. Passive Perception 14. Languages: Common.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A giant albatross with very long narrow wings, a pale body and an elongated hooked bill.",
+    "habitats": [
+      "Eagles’ Aerie",
+      "Watcher’s Talon",
+      "Faunel"
+    ],
+    "sections": {
+      "Printed source": "Turn of Fortune's Wheel, Ch. 8, Faunel, Eagles’ Aerie, p. 51. https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#TheThreePacks\nInherited rules from the 2014 Monster Manual, p. 324, Giant Eagle. https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "Traits": "Keen Sight. Parvaz has advantage on Wisdom (Perception) checks based on sight.",
+      "Actions": "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5, reach 5 ft. A hit on one target deals 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5, reach 5 ft. A hit on one target deals 10 (2d6 + 3) slashing damage.",
+      "Encounter ecology": "Parvaz holds court among Faunel’s flying animals. He knows where the Vile Hunt camps.",
+      "Encounter procedure": "A successful DC 18 Charisma (Persuasion) check convinces Parvaz to share the camp’s location. The owl figurine or another suitable gift can secure his help if the check fails.",
+      "Source notes": "The adventure specifies neutral alignment, Intelligence 16, Charisma 14, and spoken Common. The displayed language follows the adventure’s named entry. The base Giant Eagle has its own language listing.\nThe attack names follow the borrowed Giant Eagle rules. Parvaz’s appearance follows the adventure’s albatross description."
+    },
+    "skills": {
+      "Perception": 4
+    }
+  },
+  {
+    "name": "Whirlwyrm",
+    "publication": "Turn of Fortune's Wheel",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "printedPage": 52,
+    "ac": 14,
+    "hp": 85,
+    "hitDice": "9d12 + 27",
+    "speed": "30 ft., swim 50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 10,
+    "otherStatistics": "Proficiency bonus +3. Natural armor. Stealth +5. Passive Perception 10. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An enormous serpentine eel that can rise ten feet out of the sea to snap at prey.",
+    "habitats": [
+      "Glorium’s bay",
+      "Ysgard gate",
+      "Waters near Grakenok"
+    ],
+    "sections": {
+      "Printed source": "Turn of Fortune's Wheel, Ch. 9, Glorium, Whirlwyrm Attack, p. 52. https://www.dndbeyond.com/sources/paitm/tofw/the-mosaic-mimir#WhirlwyrmAttack\nInherited rules from the 2014 Monster Manual, p. 324, Giant Crocodile. https://www.dndbeyond.com/sources/dnd/mm-2014/miscellaneous-creatures",
+      "Traits": "Hold Breath. The inherited stat block allows the eel to hold its breath for 30 minutes.",
+      "Actions": "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +8, reach 5 ft. A hit on one target deals 21 (3d10 + 5) piercing damage and grapples it (escape DC 16). That target is restrained during the grapple, and the eel cannot Bite another target until it ends.\nTail. Melee weapon attack, +8, reach 10 ft., against a target the eel is not grappling. On a hit deal 14 (2d8 + 5) bludgeoning damage. A creature hit also makes a DC 16 Strength save and falls prone on a failure.",
+      "Encounter ecology": "These giant eels attack boats near the Ysgard maelstrom. A lone specimen can also appear at sea on the route to Grakenok.",
+      "Encounter procedure": "During the first attack, a DC 20 Wisdom (Perception) check detects the two eels. The eels surprise the travelers and sailors if nobody notices them. An eel dives and flees at 10 HP or fewer. The Courier moves away 40 ft. each round, and an eel uses all but 10 ft. of movement to keep up. The lone encounter on p. 54 instead allows a DC 10 group Dexterity (Stealth) check to pass unnoticed.",
+      "Source notes": "The ordinary Whirlwyrm uses the Giant Crocodile block. The adventure’s separate elder Whirlwyrm uses Behir and belongs to the Monstrosity category."
+    },
+    "skills": {
+      "Stealth": 5
+    }
+  },
+  {
+    "name": "Spotted Lion",
+    "publication": "Bigby Presents: Glory of the Giants",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "printedPage": 177,
+    "ac": 15,
+    "hp": 66,
+    "hitDice": "7d12 + 21",
+    "speed": "60 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "passivePerception": 15,
+    "otherStatistics": "Proficiency bonus +2. Natural armor. Perception +5. Stealth +6. Darkvision 60 ft.. Passive Perception 15. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A lion about twice the size of a common lion, with dusky fur and charcoal speckles on its coat and mane.",
+    "habitats": [
+      "Megafauna country",
+      "Stone and cloud giant holdings"
+    ],
+    "sections": {
+      "Printed source": "Bigby Presents: Glory of the Giants, Ch. 6, Bestiary, p. 177. https://www.dndbeyond.com/monsters/3731048-spotted-lion",
+      "Traits": "Pack Tactics. The lion has advantage on attacks against a creature if a non-incapacitated ally is within 5 ft. of the target.",
+      "Actions": "Rend. Melee weapon attack, +8, reach 10 ft. A hit on one target deals 15 (2d8 + 6) piercing damage. If the lion moved straight toward it at least 20 ft. immediately before the hit, the target makes a DC 16 Strength save and falls prone on a failure. When the target is prone, the lion can Rend that target again as a bonus action.",
+      "Encounter ecology": "Prides hunt giant elk and mammoths. Stone and cloud giants also keep the cats as hunting companions.",
+      "Source notes": "The prone target qualifies the bonus attack even when it was already prone. The movement clause gates the save."
+    },
+    "skills": {
+      "Perception": 5,
+      "Stealth": 6
+    }
+  },
+  {
+    "name": "Titanothere",
+    "publication": "Bigby Presents: Glory of the Giants",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "printedPage": 185,
+    "ac": 16,
+    "hp": 136,
+    "hitDice": "13d12 + 52",
+    "speed": "50 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 25,
+        "modifier": 7
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "passivePerception": 11,
+    "otherStatistics": "Proficiency bonus +3. Natural armor. Passive Perception 11. No languages listed.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "An enormous rhinoceros relative. This individual has rugged folded hide and a broad branching nasal horn structure.",
+    "habitats": [
+      "Megafauna herds",
+      "Giant lands"
+    ],
+    "sections": {
+      "Printed source": "Bigby Presents: Glory of the Giants, Ch. 6, Bestiary, p. 185. https://www.dndbeyond.com/monsters/3731056-titanothere",
+      "Traits": "Beast of Burden. Treat the titanothere as one size larger to determine carrying capacity.",
+      "Actions": "Stomp. Melee weapon attack, +10, reach 10 ft. A hit on one target deals 20 (3d8 + 7) bludgeoning damage. If the titanothere moved straight toward it at least 20 ft. immediately before the hit, add 13 (3d8) bludgeoning damage. A creature hit this way makes a DC 18 Strength save and falls prone on a failure.",
+      "Encounter ecology": "Titanotheres travel in herds and are irritable. They have many horn patterns and hide textures, including hornless, plated, and shaggy forms.",
+      "Source notes": "The charge rider adds damage to any target. Only a creature makes the Strength save."
+    }
+  }
+]

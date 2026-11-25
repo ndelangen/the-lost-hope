@@ -1,0 +1,266 @@
+{
+  "Chitine": {
+    "profiles": [
+      {
+        "name": "Chitine",
+        "imageKey": "species:chitine",
+        "kind": "species",
+        "type": "Monstrous Humanoid",
+        "publication": "Underdark (2003)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://campusstore.miamioh.edu/underdark-cordell-bruce-rkestrel/bk/9780786930531",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Small Monstrous Humanoid. +2 Dexterity, +2 Constitution, +2 Intelligence, −4 Charisma. Land speed 30 ft. Darkvision 60 ft. from the creature type.",
+          "Small size gives +1 on attack rolls and to AC, +4 on Hide checks, and three-quarters the carrying capacity of a Medium creature.",
+          "Climb 20 ft. with a +8 racial bonus on Climb checks. Can take 10 even when rushed or threatened. Hooked palms and feet allow climbing walls and ceilings as with spider climb.",
+          "Grappling Bonus (Ex) gives +4 on grapple checks, offsetting the −4 Small size modifier. Difficult to Disarm (Ex) gives +4 on the opposed check to keep hold of a weapon.",
+          "Sensitive to Sunlight (Ex). Sunlight and bright magical light such as daylight dazzle a chitine, imposing −1 on attack rolls, Search checks, and Spot checks.",
+          "Multiweapon Fighting is a racial bonus feat. Short swords count as simple weapons for weapon familiarity.",
+          "Two racial Hit Dice (2d8) grant BAB +2, base Fortitude +0, Reflex +3, Will +3, and one feat. Racial skill points are 5 × (2 + Intelligence modifier). Racial class skills are Balance, Climb, Craft (trapmaking), Hide, Jump, and Move Silently.",
+          "LA +2. A chitine with only racial Hit Dice is ECL 4. One class level gives ECL 5.",
+          "Undercommon is automatic. The Chitine region also grants Common and lists Drow Sign, Elven (drow dialect), Kuo-Toan, and Orc as bonus languages. Favored class Rogue.",
+          "Chitines spin silk and use hardened webbing for building and equipment. Their racial traits give no combat web attack."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Chitine",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Qid Lowweb",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "size": "Small",
+              "type": "Monstrous Humanoid",
+              "senses": "Darkvision 60 ft.",
+              "speed": "30 ft.; climb 20 ft.",
+              "id": "chitine-lowweb-gallery-scout-35e",
+              "title": "Chitine gallery scout, Rogue 1",
+              "difficulty": "Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2).",
+              "ac": 17,
+              "hp": 23,
+              "hitDice": "2d8+1d6+6",
+              "initiative": 8,
+              "languages": "Common, Undercommon, Elven (drow dialect), Kuo-Toan",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 18,
+                "CON": 14,
+                "INT": 14,
+                "WIS": 10,
+                "CHA": 8
+              },
+              "skills": [
+                "Balance +7",
+                "Climb +14",
+                "Craft (trapmaking) +7",
+                "Disable Device +4",
+                "Hide +14",
+                "Move Silently +10",
+                "Search +4",
+                "Tumble +5"
+              ],
+              "traits": [
+                "Chaotic neutral. Leather armor +2, Dexterity +4 and size +1. Touch 15, flat-footed 13. BAB +2, grapple +3. Fortitude +2, Reflex +9, Will +3.",
+                "Climb 20 ft. with a +8 racial bonus on Climb checks. Can take 10 even when rushed or threatened. Hooked palms and feet allow climbing walls and ceilings as with spider climb.",
+                "Grappling Bonus (Ex) gives +4 on grapple checks, offsetting the −4 Small size modifier. Difficult to Disarm (Ex) gives +4 on the opposed check to keep hold of a weapon.",
+                "Sensitive to Sunlight (Ex). Sunlight and bright magical light such as daylight dazzle a chitine, imposing −1 on attack rolls, Search checks, and Spot checks.",
+                "Multiweapon Fighting is a racial bonus feat. Short swords count as simple weapons for weapon familiarity.",
+                "Improved Initiative adds +4. Weapon Finesse uses Dexterity for the light short swords. Trapfinding. Sneak Attack adds 1d6 to eligible hits."
+              ],
+              "actions": [
+                "One Small short sword +7 melee for 1d4+1 piercing, critical 19–20/×2.",
+                "Four light short swords as a full attack with Multiweapon Fighting. Each attacks at +5. The primary sword deals 1d4+1 piercing and each off-hand sword deals 1d4 piercing. All threaten on 19–20 and deal ×2 on a critical hit.",
+                "While dazzled, the single attack is +6, the full-attack swings are +4 each, and Search is +3."
+              ],
+              "tactics": "Qid circles the party along the ceiling with her hands free, then descends to a ledge. She draws her swords once she has footing and uses the four-sword full attack when she can stay in place."
+            },
+            "role": "Gallery scout and Rogue.",
+            "motive": "Find a way past the blocked gallery without alerting the guards.",
+            "hook": "Qid spots a ledge above the sentries where her four blades can reach them."
+          },
+          {
+            "species": "Chitine",
+            "size": "Small",
+            "edition": "3.5 edition",
+            "speciesPublication": "Underdark (2003)",
+            "name": "Awa Spinner",
+            "build": {
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "size": "Small",
+              "type": "Monstrous Humanoid",
+              "senses": "Darkvision 60 ft.",
+              "speed": "30 ft.; climb 20 ft.",
+              "id": "chitine-spinner-silk-rigger-35e",
+              "title": "Chitine silk rigger, racial Hit Dice only",
+              "difficulty": "Provisional CR 1. ECL 4 (2 racial HD, LA +2).",
+              "ac": 14,
+              "hp": 16,
+              "hitDice": "2d8+4",
+              "initiative": 3,
+              "languages": "Common, Undercommon, Drow Sign",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 16,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 6
+              },
+              "skills": [
+                "Climb +14",
+                "Craft (trapmaking) +6",
+                "Hide +10",
+                "Move Silently +5"
+              ],
+              "traits": [
+                "Chaotic good. Unarmored, Dexterity +3 and size +1. Touch 14, flat-footed 11. BAB +2, grapple +3. Fortitude +2, Reflex +6, Will +3.",
+                "Climb 20 ft. with a +8 racial bonus on Climb checks. Can take 10 even when rushed or threatened. Hooked palms and feet allow climbing walls and ceilings as with spider climb.",
+                "Grappling Bonus (Ex) gives +4 on grapple checks, offsetting the −4 Small size modifier. Difficult to Disarm (Ex) gives +4 on the opposed check to keep hold of a weapon.",
+                "Sensitive to Sunlight (Ex). Sunlight and bright magical light such as daylight dazzle a chitine, imposing −1 on attack rolls, Search checks, and Spot checks.",
+                "Multiweapon Fighting is a racial bonus feat. Short swords count as simple weapons for weapon familiarity.",
+                "Weapon Focus (short sword) adds +1 on attack rolls with that weapon."
+              ],
+              "actions": [
+                "One Small short sword +5 melee for 1d4+1 piercing, critical 19–20/×2. As a single attack it is +4 while dazzled.",
+                "When crossing the rafters, use Climb +14 and take 10 even while threatened for a result of 24. Keep hands free when using the ceiling route."
+              ],
+              "tactics": "Awa checks the silk stays above the broken gangway. He climbs past the damaged section, takes footing on a brace, and draws a short sword if someone threatens the crossing."
+            },
+            "role": "Silk rigger and crossing guide.",
+            "motive": "Keep the damaged gangway open until everyone reaches the near side.",
+            "hook": "Awa can reach the damaged silk stays from the ceiling."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Chitine",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Qid Lowweb",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "size": "Small",
+          "type": "Monstrous Humanoid",
+          "senses": "Darkvision 60 ft.",
+          "speed": "30 ft.; climb 20 ft.",
+          "id": "chitine-lowweb-gallery-scout-35e",
+          "title": "Chitine gallery scout, Rogue 1",
+          "difficulty": "Provisional CR 2. ECL 5 (2 racial HD, 1 class HD, LA +2).",
+          "ac": 17,
+          "hp": 23,
+          "hitDice": "2d8+1d6+6",
+          "initiative": 8,
+          "languages": "Common, Undercommon, Elven (drow dialect), Kuo-Toan",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 18,
+            "CON": 14,
+            "INT": 14,
+            "WIS": 10,
+            "CHA": 8
+          },
+          "skills": [
+            "Balance +7",
+            "Climb +14",
+            "Craft (trapmaking) +7",
+            "Disable Device +4",
+            "Hide +14",
+            "Move Silently +10",
+            "Search +4",
+            "Tumble +5"
+          ],
+          "traits": [
+            "Chaotic neutral. Leather armor +2, Dexterity +4 and size +1. Touch 15, flat-footed 13. BAB +2, grapple +3. Fortitude +2, Reflex +9, Will +3.",
+            "Climb 20 ft. with a +8 racial bonus on Climb checks. Can take 10 even when rushed or threatened. Hooked palms and feet allow climbing walls and ceilings as with spider climb.",
+            "Grappling Bonus (Ex) gives +4 on grapple checks, offsetting the −4 Small size modifier. Difficult to Disarm (Ex) gives +4 on the opposed check to keep hold of a weapon.",
+            "Sensitive to Sunlight (Ex). Sunlight and bright magical light such as daylight dazzle a chitine, imposing −1 on attack rolls, Search checks, and Spot checks.",
+            "Multiweapon Fighting is a racial bonus feat. Short swords count as simple weapons for weapon familiarity.",
+            "Improved Initiative adds +4. Weapon Finesse uses Dexterity for the light short swords. Trapfinding. Sneak Attack adds 1d6 to eligible hits."
+          ],
+          "actions": [
+            "One Small short sword +7 melee for 1d4+1 piercing, critical 19–20/×2.",
+            "Four light short swords as a full attack with Multiweapon Fighting. Each attacks at +5. The primary sword deals 1d4+1 piercing and each off-hand sword deals 1d4 piercing. All threaten on 19–20 and deal ×2 on a critical hit.",
+            "While dazzled, the single attack is +6, the full-attack swings are +4 each, and Search is +3."
+          ],
+          "tactics": "Qid circles the party along the ceiling with her hands free, then descends to a ledge. She draws her swords once she has footing and uses the four-sword full attack when she can stay in place."
+        },
+        "role": "Gallery scout and Rogue.",
+        "motive": "Find a way past the blocked gallery without alerting the guards.",
+        "hook": "Qid spots a ledge above the sentries where her four blades can reach them."
+      },
+      {
+        "species": "Chitine",
+        "size": "Small",
+        "edition": "3.5 edition",
+        "speciesPublication": "Underdark (2003)",
+        "name": "Awa Spinner",
+        "build": {
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "size": "Small",
+          "type": "Monstrous Humanoid",
+          "senses": "Darkvision 60 ft.",
+          "speed": "30 ft.; climb 20 ft.",
+          "id": "chitine-spinner-silk-rigger-35e",
+          "title": "Chitine silk rigger, racial Hit Dice only",
+          "difficulty": "Provisional CR 1. ECL 4 (2 racial HD, LA +2).",
+          "ac": 14,
+          "hp": 16,
+          "hitDice": "2d8+4",
+          "initiative": 3,
+          "languages": "Common, Undercommon, Drow Sign",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 16,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 6
+          },
+          "skills": [
+            "Climb +14",
+            "Craft (trapmaking) +6",
+            "Hide +10",
+            "Move Silently +5"
+          ],
+          "traits": [
+            "Chaotic good. Unarmored, Dexterity +3 and size +1. Touch 14, flat-footed 11. BAB +2, grapple +3. Fortitude +2, Reflex +6, Will +3.",
+            "Climb 20 ft. with a +8 racial bonus on Climb checks. Can take 10 even when rushed or threatened. Hooked palms and feet allow climbing walls and ceilings as with spider climb.",
+            "Grappling Bonus (Ex) gives +4 on grapple checks, offsetting the −4 Small size modifier. Difficult to Disarm (Ex) gives +4 on the opposed check to keep hold of a weapon.",
+            "Sensitive to Sunlight (Ex). Sunlight and bright magical light such as daylight dazzle a chitine, imposing −1 on attack rolls, Search checks, and Spot checks.",
+            "Multiweapon Fighting is a racial bonus feat. Short swords count as simple weapons for weapon familiarity.",
+            "Weapon Focus (short sword) adds +1 on attack rolls with that weapon."
+          ],
+          "actions": [
+            "One Small short sword +5 melee for 1d4+1 piercing, critical 19–20/×2. As a single attack it is +4 while dazzled.",
+            "When crossing the rafters, use Climb +14 and take 10 even while threatened for a result of 24. Keep hands free when using the ceiling route."
+          ],
+          "tactics": "Awa checks the silk stays above the broken gangway. He climbs past the damaged section, takes footing on a brace, and draws a short sword if someone threatens the crossing."
+        },
+        "role": "Silk rigger and crossing guide.",
+        "motive": "Keep the damaged gangway open until everyone reaches the near side.",
+        "hook": "Awa can reach the damaged silk stays from the ceiling."
+      }
+    ]
+  }
+}

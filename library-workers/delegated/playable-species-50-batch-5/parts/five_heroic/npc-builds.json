@@ -1,0 +1,127 @@
+{
+  "builds": [
+    {
+      "id": "heroic-hagborn-tessa-brack",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft., swim 20 ft.",
+      "title": "Sea Hagborn ferry guard, Fighter 2",
+      "difficulty": "Fighter 2",
+      "ac": 16,
+      "hp": 20,
+      "hitDice": "2d10+4",
+      "initiative": 2,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +4",
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Strength save +5 and Constitution save +4. Leather armor (11 + Dex 2), equipped shield (+2) and Defense (+1) give AC 16. Without the shield, AC 14 in the armor.",
+        "Sea Hagborn grants Athletics. Soldier’s duplicate Athletics is replaced with Acrobatics. Soldier also gives Intimidation, dice set proficiency, land vehicles and Military Rank. Fighter skills are Perception and Survival.",
+        "One hand holds a shield. Tessa can attack with her free hand, using either a claw or a drawn weapon. This build uses one attack per Attack action. Action Surge can provide another Attack action on the same turn."
+      ],
+      "actions": [
+        "Claw. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d4+3 slashing. This is proficient and finesse, using Strength in this build.",
+        "Shortsword. Melee weapon attack +5 to hit, reach 5 ft., one target. Hit 1d6+3 piercing.",
+        "Javelin. Melee or ranged weapon attack +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 1d6+3 piercing.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+2 HP, up to her maximum.",
+        "Action Surge (once per short or long rest). Take one extra action on her turn."
+      ],
+      "tactics": "Tessa keeps the ferry chain between herself and anyone she does not trust. She keeps her sword sheathed while handling passengers so she can grab with a free hand. If someone falls overboard, she can use Action Surge to Dash and attempt a rescue on the same turn."
+    },
+    {
+      "id": "heroic-samsaran-nerin-reed",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Dreaming Samsaran inscription reader, Wizard 1",
+      "difficulty": "Wizard 1",
+      "ac": 13,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 11.",
+      "languages": "Common, Everborn, Dwarvish, Elvish.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 17,
+        "WIS": 13,
+        "CHA": 8
+      },
+      "skills": [
+        "Arcana +5",
+        "History +5 (advantage)",
+        "Investigation +5",
+        "Medicine +3",
+        "Religion +5"
+      ],
+      "traits": [
+        "Proficiency bonus +2. Intelligence save +5 and Wisdom save +3. Unarmored AC 13. With mage armor active, AC 16.",
+        "Lifebound gives resistance to necrotic damage and advantage when saving against necrotic damage. Dreaming lineage grants advantage on History and proficiency with a rapier. Nerin carries a quarterstaff on this trip. Shards of the Past grants Religion.",
+        "Sage grants Arcana, History, two additional languages and Researcher. Wizard grants Investigation and Medicine. This NPC uses a 60-ft. darkvision range for play because the attributed traits reprint leaves it unstated.",
+        "Spell save DC 13, spell attack +5, two 1st-level slots. Prepared spells are mage armor, shield, magic missile and sleep. Detect magic and comprehend languages are in the spellbook and can be cast as rituals without preparation.",
+        "Once per day after a short rest, Arcane Recovery can restore one expended 1st-level slot."
+      ],
+      "actions": [
+        "Quarterstaff. Melee weapon attack +1 to hit, reach 5 ft., one target. Hit 1d6−1 bludgeoning, or 1d8−1 if wielded with both hands.",
+        "Fire bolt (cantrip, action). Ranged spell attack +5 to hit at 120 ft., one creature or object. Hit 1d10 fire. Flammable objects ignite if no one is wearing or carrying them.",
+        "Minor illusion (cantrip, action). Create a sound or an image of an object within 30 ft. for up to 1 minute. An image fits within a 5-ft. cube. A creature that uses its action to examine the illusion can identify it with a DC 13 Intelligence (Investigation) check. Physical interaction reveals an image.",
+        "Light (cantrip, action). Touch one object up to 10 ft. in any dimension. It sheds bright light in a 20-ft. radius and dim light for 20 ft. more for up to 1 hour. If a hostile creature holds or wears the object, it can avoid the spell with a DC 13 Dexterity save.",
+        "Mage armor (1st-level, action). Touch a willing unarmored creature. Its base AC becomes 13 + Dex modifier for 8 hours. Equipping armor ends the spell.",
+        "Shield (1st-level, reaction when hit or targeted by magic missile). Add +5 to AC until the start of Nerin’s next turn, including against the triggering attack. Blocks magic missile for that duration.",
+        "Magic missile (1st-level, action). Send three darts among visible creatures within 120 ft. Each dart deals 1d4+1 force damage. The darts hit simultaneously.",
+        "Sleep (1st-level, action). Roll 5d8 to find the HP budget. Among creatures within 20 ft. of a point up to 90 ft. away, spend that budget on current HP in ascending order. Affected creatures fall unconscious for up to 1 minute, until damaged, or until someone wakes them with an action. Undead and creatures immune to charm are unaffected.",
+        "Detect magic (ritual). Cast from the book in 10 minutes plus an action, no slot. Concentrate for up to 10 minutes to sense magic within 30 ft. Use an action while the spell lasts to see the aura of a visible magic-bearing object or creature and identify its school, if any.",
+        "Comprehend languages (ritual). Cast from the book in 10 minutes plus an action, no slot. For 1 hour, understand literal spoken meaning and the literal text of writing Nerin touches. Reading takes about 1 minute per page. Use a component pouch for material components."
+      ],
+      "tactics": "Nerin studies unfamiliar script before touching any mechanisms. If trouble starts, Nerin stows the journal to free a hand, puts the crew between the danger and the inscriptions, and uses sleep to prevent a fight if possible. Nerin prefers to withdraw from a fight that will outlast the two slots."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Tessa Brack",
+      "species": "Hagborn",
+      "size": "Medium",
+      "speciesPublication": "Book of Heroic Races: Player Races 1 (2015)",
+      "edition": "Fifth edition compatible",
+      "build": "heroic-hagborn-tessa-brack",
+      "role": "Sea Hagborn guard at a tidal ferry landing.",
+      "motive": "Get the last passengers across before the current closes the route.",
+      "hook": "Someone has pinned the ferry chain under a submerged beam. Tessa can reach it if another person keeps the landing clear."
+    },
+    {
+      "name": "Nerin Reed",
+      "species": "Samsaran",
+      "size": "Medium",
+      "speciesPublication": "Book of Heroic Races: Player Races 1 (2015)",
+      "edition": "Fifth edition compatible",
+      "build": "heroic-samsaran-nerin-reed",
+      "role": "Dreaming Samsaran wizard and reader of old inscriptions.",
+      "motive": "Find which of two conflicting dates on a boundary stone was carved first.",
+      "hook": "Nerin recognizes the carving from a recurring dream but needs a witness and a clean rubbing to make the finding stick."
+    }
+  ]
+}

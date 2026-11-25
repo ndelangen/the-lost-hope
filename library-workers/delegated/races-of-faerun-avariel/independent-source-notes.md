@@ -1,0 +1,9 @@
+# Avariel sources
+
+*Races of Faerûn*, first printing, March 2003, gives the playable Avariel on printed pp. 31–34. The viewer is one page ahead. The rules on p. 32 give 50-ft. flight with average maneuverability, subject to load, armor, fatigue, and room for the wings. A dive uses a piercing weapon and descends at least 30 ft. The extra damage applies on a hit. The profile uses the species-specific dive rule and the 3.5 aerial movement table for ordinary flight. [Playable traits]() · [3.5 aerial movement](https://www.d20srd.org/srd/combat/movementPositionAndDistance.htm#tacticalAerialMovement)
+
+The Avariel keeps the core Elf's low-light vision, sleep immunity, enchantment saves, Listen and Search bonuses, and reactive Search for secret doors. Its own entry gives +4 Spot and +4 Jump. It grants either rapier or longsword proficiency, plus both lasso and bolas, in place of standard Elf weapon proficiencies. Auran is automatic for the Avariel home region in the book. [Core Elf](https://www.d20srd.org/srd/races.htm#elves) · [Avariel region]()
+
+Sael chooses rapier proficiency. Flyby Attack uses one standard action during the flying move. His dive is a separate charge action. Iri uses the 3.5 Cleric spell table and Shaundakul's Air and Travel domains. Their CRs are provisional encounter estimates. [Flyby Attack](https://www.d20srd.org/srd/monsterFeats.htm#flybyAttack) · [Cleric](https://www.d20srd.org/srd/classes/cleric.htm) · [Forgotten Realms Campaign Setting](https://anyflip.com/ypprq/twpn/basic/251-300)
+
+The portrait uses the book's description of feathered wings, pale skin, black hair, and blue-green eyes. Jeremy Jarvis is credited for the book's Aerie of the Snow Eagles illustration. Sael is an original portrait by OpenAI ImageGen, with Big Linda and Tavaro as rendering references. [Avariel appearance]()

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Human Guard",
+    "slug": "human-guard",
+    "id": "monster-b2289a2a83a0e2fd3432cdd5:ad3ef8065083723eb34f8296",
+    "entry": "monster-b2289a2a83a0e2fd3432cdd5",
+    "version": "ad3ef8065083723eb34f8296",
+    "suffix": "encounters-54/human-guard.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-54/human-guard.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-54/event-drafts/human-guard-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 54 2026-11-23/event-drafts/human-guard-event-v1.png",
+    "overrides": [],
+    "sha256": "1f8446c65a37ef8a4a89dbbc60f33d935ba3f38ffcfed4c482f379dd51bad384",
+    "bytes": 2295878
+  },
+  {
+    "name": "Human Scoundrel",
+    "slug": "human-scoundrel",
+    "id": "monster-0d5727d5678e9ab363ae49e1:714d02567aee5e8723c84a47",
+    "entry": "monster-0d5727d5678e9ab363ae49e1",
+    "version": "714d02567aee5e8723c84a47",
+    "suffix": "encounters-54/human-scoundrel.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-54/human-scoundrel.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-54/event-drafts/human-scoundrel-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 54 2026-11-23/event-drafts/human-scoundrel-event-v1.png",
+    "overrides": [],
+    "sha256": "aa6d666bf66bc6f1574ba88c8dc6634ecb5715e128112c2369435641d53f8732",
+    "bytes": 2263058
+  }
+]

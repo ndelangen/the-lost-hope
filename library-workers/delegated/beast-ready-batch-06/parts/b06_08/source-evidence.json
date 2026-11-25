@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "printing": "August 8, 2014, version 1",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      7
+    ],
+    "pdfPage": 7,
+    "viewerPages": [
+      7
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+    "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+    "relatedAdventureErrata": "",
+    "errataEvidence": "The publisher’s adventure errata lists no change to this Crocodile stat block.",
+    "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+    "habitatEvidence": "Editorial encounters based on ordinary crocodile habitat and the source’s swim speed. The supplement gives no habitat list.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "Bite targets one creature and the scoped block adds no size restriction to its grapple.",
+      "Grapple escape uses ordinary 2014 rules for monster attacks."
+    ],
+    "monsterGrappleRules": ""
+  },
+  {
+    "name": "Deer",
+    "kind": "beast",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "printing": "August 8, 2014, version 1",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      7
+    ],
+    "pdfPage": 7,
+    "viewerPages": [
+      7
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+    "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+    "relatedAdventureErrata": "",
+    "errataEvidence": "The publisher’s adventure errata lists no change to this Deer stat block.",
+    "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+    "habitatEvidence": "Editorial habitat suggestions for the pictured deer. The supplement gives no habitat list.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The printed action is Bite. The stat block has no Charge or antler attack."
+    ]
+  },
+  {
+    "name": "Elk",
+    "kind": "beast",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "printing": "August 8, 2014, version 1",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      8
+    ],
+    "pdfPage": 8,
+    "viewerPages": [
+      8
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+    "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+    "relatedAdventureErrata": "",
+    "errataEvidence": "The publisher’s adventure errata lists no change to this Elk stat block.",
+    "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+    "habitatEvidence": "Editorial encounter suggestions based on ordinary elk habitat. The supplement gives no habitat list.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The scoped Charge lists extra 7 (2d6) damage without specifying its type.",
+      "The prone-only Hooves attack is an action. The supplement gives no bonus-action follow-up."
+    ]
+  },
+  {
+    "name": "Giant Centipede",
+    "kind": "beast",
+    "publication": "Hoard of the Dragon Queen - Online Supplement",
+    "edition": "2014 fifth edition",
+    "printing": "August 8, 2014, version 1",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      9
+    ],
+    "pdfPage": 9,
+    "viewerPages": [
+      9
+    ],
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "cb4261055f5bb2d225fe4ef66e156e2027886f4d081ed91043a9d291adad2b4c",
+    "localWitnessSha256": "894d25529fef979335b2848d77973761ee19d8fc16d1b96f37ce6585f8c3e0b7",
+    "sourceComparison": "The local and official version-1 have different file hashes and matching extracted text on pp. 7–9.",
+    "relatedAdventureErrata": "",
+    "errataEvidence": "The publisher’s adventure errata lists no change to this Giant Centipede stat block.",
+    "appearanceEvidence": "Editorial description of the already selected original portrait. The supplement does not describe the pictured animal’s appearance.",
+    "habitatEvidence": "Editorial placements based on centipede habitat. The printed block gives no habitat list.",
+    "habitatSourceKind": "Editorial encounter suggestions.",
+    "mechanicsNotes": [
+      "The centipede’s poison takes effect on a failed save. The printed block gives no half damage on success.",
+      "Do not carry over the adjacent Ettercap’s repeated saving throws. Its action block is in the other column. The centipede has a listed climb speed."
+    ]
+  }
+]

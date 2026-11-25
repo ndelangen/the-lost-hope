@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Elan",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "5488d99ac99c1d1b1996bf8e",
+      "publication": "Expanded Psionics Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://www.dndtools.one/expanded-psionics-handbook",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Aberration (Psionic)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Aberration with the Psionic subtype. Charisma −2, land speed 30 ft., and no darkvision. Humanoid-only effects such as charm person do not apply.",
+            "Naturally Psionic grants 2 bonus power points at 1st level. Manifesting powers requires a separate source, such as a psionic class. The 2006 errata confirms 2 points for the creature chapter’s Elan as well.",
+            "Resistance (Su). Spend 1 power point as an immediate action for a +4 racial bonus on all saving throws until the beginning of your next action.",
+            "Resilience (Su). Spend power points as an immediate action when about to take damage. Reduce the incoming damage by 2 HP per power point spent.",
+            "Repletion (Su). Spend 1 power point to go without food or water for 24 hours. Use the core standard-action default for supernatural abilities.",
+            "An immediate action uses your swift action on your turn or on the following turn if used outside your turn. You cannot take one while flat-footed.",
+            "A four-hour daily trance provides the benefit of eight hours of human sleep. The 2006 errata removes maximum age. The aging thresholds remain 200 years for middle age, 400 for old, and 1,000 for venerable.",
+            "Elans emerge from a psionic ritual undergone by adult humans. A new Elan retains basic memories and personality and starts again as a 1st-level character with new classes and skills.",
+            "Automatic language Common. Bonus languages may include any nonsecret language. Favored class Psion. Level adjustment +0."
+          ]
+        },
+        {
+          "title": "Original NPC · Teva Alder",
+          "lines": [
+            "Archive conservator and disputed-record witness.",
+            "Motive. Recover the names erased from a public register before its replacement is certified.",
+            "Hook. Teva can retry a failed reading after a minute of quiet. The party needs to buy that time while the closing bell draws nearer.",
+            "Elan archive conservator, Seer Psion 1 · Provisional CR 1. ECL 1. · Medium Aberration (Psionic)",
+            "AC 11 · HP 6 (1d4+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Corren Vale",
+          "lines": [
+            "Night courier escort and signal-lamp keeper.",
+            "Motive. Get the courier and sealed testimony across the causeway before the morning hearing.",
+            "Hook. Corren will walk the full night if someone can carry the lamp signal across a stretch of road where the old markers are gone.",
+            "Elan night courier escort, Fighter 1 · Provisional CR 1. ECL 1. · Medium Aberration (Psionic)",
+            "AC 16 · HP 12 (1d10+2) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Teva Alder": [
+          {
+            "start": 15,
+            "end": 25,
+            "target": {
+              "name": "Teva Alder",
+              "group": "Elan",
+              "publication": "Elan archive conservator, Seer Psion 1",
+              "local": {
+                "entry": "npc-dfb68bb3bca1c70b6c8c6aa2",
+                "version": "d02cc5cc5e9672f30d48cfc4"
+              }
+            }
+          }
+        ],
+        "Original NPC · Corren Vale": [
+          {
+            "start": 15,
+            "end": 26,
+            "target": {
+              "name": "Corren Vale",
+              "group": "Elan",
+              "publication": "Elan night courier escort, Fighter 1",
+              "local": {
+                "entry": "npc-86cf71cfc047338357ef51ea",
+                "version": "52fbca70e866c73d3dbc8fc8"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Elan": true,
+      "elan resilience": true,
+      "elan repletion": true,
+      "elan archive conservator": true,
+      "elan night courier escort": true
+    },
+    "hash": "ef447eddc51415dc635d53ceb4b88883736ee5c68067c0196b078a8d020b9d39",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Expanded Psionics Handbook (2004)",
+    "defaultVersionKey": "5488d99ac99c1d1b1996bf8e",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

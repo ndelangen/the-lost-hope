@@ -1,0 +1,145 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -311062,6 +311062,20 @@
+       ]
+     },
+     {
++      "name": "Half-Ogre",
++      "kind": "species",
++      "publication": "Races of Destiny (2004)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Large Giant with +6 Strength, −2 Dexterity, +2 Constitution, −2 Intelligence, and −2 Charisma.",
++        "Base land speed 30 ft. Darkvision reaches 60 ft. and sees in black and white. +4 natural armor.",
++        "The Giant type supplies low-light vision and simple and martial weapon proficiency.",
++        "Large size gives −1 to AC and attacks. A Half-Ogre occupies a 10-ft. space and has 10-ft. natural reach.",
++        "Common and Giant are automatic. Bonus languages are Abyssal, Draconic, Gnoll, Goblin, and Orc.",
++        "Favored class Barbarian. Level adjustment +2. The playable entry grants no racial Hit Dice. One class level is effective character level 3."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Fizban's Treasury of Dragons",
+       "name": "Dragonborn (Metallic; Bronze)",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -704,6 +704,77 @@
+       "tactics": "Search the marked path for old alarms and keep travellers off the flooded stretch. If a living creature moves nearby in the fog, pinpoint it before asking anyone to approach."
+     },
+     {
++      "id": "half-ogre-levee-gatekeeper-35e",
++      "title": "Half-Ogre levee gatekeeper, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 3.",
++      "size": "Large",
++      "type": "Giant",
++      "ac": 18,
++      "hp": 13,
++      "hitDice": "1d10+3",
++      "initiative": 1,
++      "speed": "30 ft.",
++      "abilityScores": {
++        "STR": 20,
++        "DEX": 12,
++        "CON": 16,
++        "INT": 10,
++        "WIS": 10,
++        "CHA": 8
++      },
++      "skills": ["Climb +7", "Jump +7"],
++      "senses": "Darkvision 60 ft. and low-light vision.",
++      "languages": "Common, Giant",
++      "traits": [
++        "Space 10 ft. Natural reach 10 ft. Chain shirt +4, natural armor +4, Dexterity +1, size −1. Touch 10, flat-footed 17. Armor check penalty −2.",
++        "BAB +1, grapple +10. Fortitude +5, Reflex +1, Will +0.",
++        "Power Attack and Weapon Focus (glaive). The glaive attack already includes Weapon Focus. Power Attack trades −1 on melee attacks for +2 damage with the glaive."
++      ],
++      "actions": [
++        "Large glaive +6 melee, 2d8+7 slashing, critical ×3. Attacks at 15 or 20 ft.",
++        "Large spiked gauntlet +5 melee, 1d6+5 piercing, critical ×2. Covers targets within 10 ft."
++      ],
++      "tactics": "Bram closes the levee gate when the height marks disappear underwater. He lends his gate key if the party finds the missing crew first. If defending the platform, he keeps intruders at glaive distance and uses the gauntlet inside that reach."
++    },
++    {
++      "id": "half-ogre-ridge-drummer-35e",
++      "title": "Half-Ogre ridge drummer, Barbarian 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 2. ECL 3.",
++      "size": "Large",
++      "type": "Giant",
++      "ac": 16,
++      "hp": 15,
++      "hitDice": "1d12+3",
++      "initiative": 4,
++      "speed": "40 ft.",
++      "abilityScores": {
++        "STR": 21,
++        "DEX": 10,
++        "CON": 16,
++        "INT": 8,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": ["Climb +8", "Jump +12", "Listen +5"],
++      "senses": "Darkvision 60 ft. and low-light vision.",
++      "languages": "Common, Giant",
++      "traits": [
++        "Space and natural reach 10 ft. Studded leather +3, natural armor +4, size −1. Touch 9, flat-footed 16. Armor check penalty −1.",
++        "BAB +1, grapple +10. Fortitude +5, Reflex +0, Will +1. Improved Initiative adds +4.",
++        "Fast Movement adds 10 ft. before armor and load modifiers. With studded leather and a light load, speed is 40 ft. and the resulting +4 speed bonus is included in Jump."
++      ],
++      "actions": [
++        "Large greatclub +5 melee, 2d8+7 bludgeoning, critical ×2, 10-ft. reach. While raging, +7 to hit and 2d8+10 damage.",
++        "Large javelin +0 ranged, 1d8+5 piercing, critical ×2, 30-ft. increment. While raging, damage increases to 1d8+7.",
++        "Rage once per day, at most once per encounter, for up to 8 rounds. While raging, HP 17, AC 14, touch 7, flat-footed 14, grapple +12, Fortitude +7, Reflex +0, Will +3. When rage ends, lose the 2 bonus hp and become fatigued for the rest of the encounter (−2 Str and Dex, no running or charging)."
++      ],
++      "tactics": "Dessa drums the ridge routes so walkers can count the turns in a whiteout. Her partner missed the last reply. She asks the party to follow the calls downhill and uses rage if the group is trapped on the ridge."
++    },
++    {
+       "id": "killoren-destroyer-grove-steward-35e",
+       "title": "Destroyer Killoren grove steward, Fighter 1",
+       "origin": "Original DM Library NPC",
+@@ -1667,6 +1738,28 @@
+       "hook": "Jori can get the caravan moving if the party finds a clear lane and keeps sudden noises down."
+     },
+     {
++      "species": "Half-Ogre",
++      "size": "Large",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Destiny (2004)",
++      "name": "Bram Reedbar",
++      "build": "half-ogre-levee-gatekeeper-35e",
++      "role": "Levee gatekeeper and Fighter.",
++      "motive": "Close the levee gate before water reaches the roof of the keeper’s hut, with the repair crew still out in the channel.",
++      "hook": "Bring the repair crew to higher ground and Bram will lend the key to the old inspection stair."
++    },
++    {
++      "species": "Half-Ogre",
++      "size": "Large",
++      "edition": "3.5 edition",
++      "speciesPublication": "Races of Destiny (2004)",
++      "name": "Dessa Tallowbeat",
++      "build": "half-ogre-ridge-drummer-35e",
++      "role": "Ridge drummer and Barbarian.",
++      "motive": "Find the lookout who missed the final drum call in a whiteout.",
++      "hook": "Dessa can call along the route while the party checks the downhill forks for the missing lookout."
++    },
++    {
+       "species": "Raptoran",
+       "size": "Medium",
+       "edition": "3.5 edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -4876,6 +4876,7 @@
+ Half-Ogre	monster	Giant	Icewind Dale: Rime of the Frostmaiden	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17185-half-ogre	1
+ Half-Ogre	monster	Giant	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17185-half-ogre	1
+ Half-Ogre	monster	Giant	Princes of the Apocalypse - Online Supplement	2014 fifth edition	Wizards of the Coast		1
++Half-Ogre	species	Giant	Races of Destiny (2004)	3.5 edition	Wizards of the Coast	https://openlibrary.org/books/OL8144441M	
+ Half-Orc	species		Basic Rules (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/2-half-orc	
+ Half-Orc	species	Humanoid	Revised v3.5 SRD (Complete)	3.5 edition	Wizards of the Coast		
+ Half-Orc	species	Humanoid	Player's Handbook (2014)	2014 fifth edition	Wizards of the Coast		

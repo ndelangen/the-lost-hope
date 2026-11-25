@@ -1,0 +1,423 @@
+[
+  {
+    "name": "Astral Elf Aristocrat",
+    "statBlock": {
+      "name": "Astral Elf Aristocrat",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 11,
+      "classification": "Medium humanoid (wizard), any alignment",
+      "ac": 16,
+      "hp": 103,
+      "hitDice": "23d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 14,
+      "description": "A highborn astral elf who draws on starlight for magic and can call on a solar dragon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 8,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Arcana": 8,
+        "Deception": 7,
+        "Insight": 7,
+        "Persuasion": 7
+      },
+      "sections": {
+        "Armor": "Elven chain.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Celestial, Common, Draconic, Elvish.",
+        "Traits": "Fey Ancestry. The elf has advantage on saves to avoid or end the charmed condition on itself. Magic cannot put it to sleep.\nUnusual Nature. The elf has no need to sleep.\nSpecial Equipment. The aristocrat wears Elven Chain.",
+        "Actions": "Multiattack. Make two Scimitar attacks and use Radiant Beam if a use remains.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) slashing damage plus 10 (3d6) radiant damage.\nRadiant Beam (3/day). Project a 60-ft. line, 5 ft. wide. Each creature in the line makes a DC 16 Constitution save, taking 18 (4d8) radiant damage on a failure or half as much on a success.",
+        "Spellcasting": "As an action, cast one spell using Intelligence. Each is available 1/day. Fly, Mislead, Sending.",
+        "Bonus actions": "Starlight Step (3/day). Teleport up to 30 ft. to a visible, unoccupied space. Anything worn or carried comes along.\nSummon Solar Dragon (1/day). The aristocrat has a 50 percent chance to summon a Young Solar Dragon to a visible, unoccupied space. The dragon rolls its own initiative and acts as the aristocrat's ally. It stays for up to 10 minutes. It vanishes if it or the aristocrat dies, or if the aristocrat dismisses it as an action.",
+        "Astral Elf society": "Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.",
+        "Xaryxian Empire": "Light of Xaryxis features an astral elf empire based in Xaryxispace. Its central star is Xaryxis.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 11."
+      }
+    }
+  },
+  {
+    "name": "Astral Elf Commander",
+    "statBlock": {
+      "name": "Astral Elf Commander",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 12,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 17,
+      "hp": 143,
+      "hitDice": "26d8 + 26",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 14,
+      "description": "A commander leads astral elf warriors and often has one or more spelljamming ships under their authority. Teleport can get their troops out of a fight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 4,
+        "Wis": 7,
+        "Cha": 7
+      },
+      "skills": {
+        "Deception": 7,
+        "History": 7,
+        "Intimidation": 7,
+        "Survival": 7
+      },
+      "sections": {
+        "Armor": "Half plate.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Celestial, Common, Elvish.",
+        "Traits": "Fey Ancestry. The elf has advantage on saves to avoid or end the charmed condition on itself. Magic cannot put it to sleep.\nUnusual Nature. The elf has no need to sleep.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Longbow.\nLongsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) with two hands. Either grip adds 14 (4d6) radiant damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage plus 14 (4d6) radiant damage.",
+        "Spellcasting": "As an action, cast Teleport using Wisdom. Available 2/day.",
+        "Astral Elf society": "Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 12."
+      }
+    }
+  },
+  {
+    "name": "Astral Elf Honor Guard",
+    "statBlock": {
+      "name": "Astral Elf Honor Guard",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 12,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 17,
+      "hp": 93,
+      "hitDice": "17d8 + 17",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 16,
+      "description": "An elite astral elf soldier charged with protecting important people and places.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 6,
+        "Cha": 6
+      },
+      "skills": {
+        "Intimidation": 6,
+        "Perception": 6,
+        "Survival": 6
+      },
+      "sections": {
+        "Armor": "Half plate.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Celestial, Common, Elvish.",
+        "Traits": "Fey Ancestry. The elf has advantage on saves to avoid or end the charmed condition on itself. Magic cannot put it to sleep.\nUnusual Nature. The elf has no need to sleep.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Radiant Ray.\nLongsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 11 (2d8 + 2) slashing damage, or 13 (2d10 + 2) with two hands. Either grip adds 10 (3d6) radiant damage.\nRadiant Ray. Ranged spell attack, +6 to hit, range 120 ft., one target. On a hit, deal 22 (4d10) radiant damage.",
+        "Astral Elf society": "Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 12."
+      }
+    }
+  },
+  {
+    "name": "Astral Elf Star Priest",
+    "statBlock": {
+      "name": "Astral Elf Star Priest",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 13,
+      "classification": "Medium humanoid (cleric), any alignment",
+      "ac": 13,
+      "hp": 90,
+      "hitDice": "20d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 20
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 15,
+      "description": "Star priests oversee worship of the elven gods. They often sail with astral elf crews and can pilot spelljamming ships themselves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 8,
+        "Cha": 6
+      },
+      "skills": {
+        "Medicine": 8,
+        "Religion": 6
+      },
+      "sections": {
+        "Armor": "Chain shirt.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Celestial, Common, Elvish.",
+        "Traits": "Fey Ancestry. The elf has advantage on saves to avoid or end the charmed condition on itself. Magic cannot put it to sleep.\nUnusual Nature. The elf has no need to sleep.",
+        "Actions": "Multiattack. Make two Morningstar attacks. The priest can replace one attack with Rain of Radiance.\nMorningstar. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 4 (1d8) piercing damage plus 17 (5d6) radiant damage.\nRain of Radiance. Choose a visible creature within 60 ft. It takes 22 (5d8) radiant damage on a failed DC 16 Dexterity save or half as much on a success.",
+        "Spellcasting": "As an action, cast one spell using Wisdom (save DC 16).\n2/day each. Cure Wounds (cast at 8th level), Hold Person.\n1/day each. Divination, Sending, Word of Recall.",
+        "Bonus actions": "Starlight Step (2/day). Teleport up to 30 ft. to a visible, unoccupied space. Anything worn or carried comes along.",
+        "Astral Elf society": "Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 13."
+      }
+    }
+  },
+  {
+    "name": "Astral Elf Warrior",
+    "statBlock": {
+      "name": "Astral Elf Warrior",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 13,
+      "classification": "Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 58,
+      "hitDice": "13d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 13,
+      "description": "Astral elf warriors crew their spelljamming ships and hold strongholds in the Astral Plane. Their weapons strike with radiant starlight.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 4,
+        "Wis": 5
+      },
+      "skills": {
+        "Intimidation": 4,
+        "Survival": 5
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Celestial, Common, Elvish.",
+        "Traits": "Fey Ancestry. The elf has advantage on saves to avoid or end the charmed condition on itself. Magic cannot put it to sleep.\nUnusual Nature. The elf has no need to sleep.",
+        "Actions": "Multiattack. Make two attacks using Longsword or Longbow.\nLongsword. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) with two hands. Either grip adds 10 (3d6) radiant damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage plus 10 (3d6) radiant damage.",
+        "Astral Elf society": "Astral elves settled in the Astral Plane to live closer to their gods. They do not age or need sustenance there, and some count their lives in millennia. They often wear ornate visors when meeting outsiders.\nTheir crews shape Wildspace crystal and hardened plant material into ships such as star moths. Some cities and citadels occupy the petrified bodies of dead gods. Elves travel out of the Deep Astral to raise children and orbit stars to gather starlight for crystal growth and repairs or make pacts with solar dragons.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 13."
+      }
+    }
+  },
+  {
+    "name": "Autognome",
+    "statBlock": {
+      "name": "Autognome",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 14,
+      "classification": "Small construct, any alignment",
+      "ac": 16,
+      "hp": 39,
+      "hitDice": "6d6 + 18",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "A rock gnome builds an autognome in its own likeness, with painted features on a metal shell. Magic gives the machine a mind of its own, and a design flaw can leave it wandering Wildspace without orders.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 5,
+        "Wis": 2,
+        "Cha": 0
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Gnomish.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Paralyzed, petrified, poisoned.",
+        "Traits": "Malfunction. If the autognome survives taking at least 15 damage from one source, roll a d20.\n1–10. It keeps working.\n11–12. It is incapacitated for 1 minute.\n13–14. An arm drops off. It can make one fewer Shock attack until a creature uses an action to put that arm back on.\n15–16. Its head falls off and switches off. It is blinded and deafened until a creature spends an action reattaching and reactivating its head.\n17–20. The autognome explodes and is destroyed. Each creature within 20 ft. makes a DC 11 Dexterity save, taking 22 (4d10) slashing damage on a failure or half as much on a success.\nUnusual Nature. It needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Make two Shock attacks, subject to Malfunction.\nShock. Melee or ranged weapon attack, +3 to hit, reach 5 ft. or range 60 ft., one target. On a hit, deal 7 (2d6) lightning damage.",
+        "Orders": "A working autognome follows its maker's orders. Most protect themselves if attacked, defend gnomes against non-gnome attackers, and protect children regardless of species. An autognome might step between a Lunar Dragon Wyrmling and the adults fighting it.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 14."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Lunar Dragon Wyrmling"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Braxat",
+    "statBlock": {
+      "name": "Braxat",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 15,
+      "classification": "Huge giant, typically neutral",
+      "ac": 18,
+      "hp": 162,
+      "hitDice": "13d12 + 78",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 11,
+      "description": "This upright carnivore has a jointed shell over its back, a horned head, and enormous hands. Braxats hunt alone or in pairs in dry wastelands and on remote asteroids. They tend to save their acid breath for emergencies because it ruins the meat they hunt.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor and Intellect Fortress.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant.",
+        "Damage immunities": "Acid, psychic.",
+        "Condition immunities": "Charmed, frightened.",
+        "Traits": "Intellect Fortress. The braxat adds its Intelligence modifier to AC. Its listed AC already includes this bonus.",
+        "Actions": "Multiattack. Make two Greatclub attacks.\nGreatclub. Melee weapon attack, +12 to hit, reach 10 ft., one target. On a hit, deal 21 (3d8 + 8) bludgeoning damage.\nAcid Breath (Recharge 6). Exhale acid in a 15-ft. cone. Each creature in the cone makes a DC 18 Constitution save, taking 26 (4d12) acid damage on a failure or half as much on a success.",
+        "Spellcasting (Psionics)": "As an action, cast one spell using Intelligence (save DC 14). The spells require no components. Each is available 1/day. Compulsion, Fear.",
+        "Reactions": "Psionic Shield (3/day). When an attack roll would hit or a Magic Missile would strike, the braxat can raise a barrier if it sees the source. The invisible barrier lasts until the start of its next turn. It grants +5 AC, including against the triggering attack, and blocks all Magic Missile damage.",
+        "Printed source": "Spelljammer: Adventures in Space, Boo's Astral Menagerie, p. 15."
+      }
+    }
+  }
+]

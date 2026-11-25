@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Cave Bear",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 42,
+    "hitDice": "5d10 + 15",
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +3. Darkvision 60 ft. Passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A hulking cave bear with coarse dark brown fur, a broad domed head, heavy shoulders, and broad paws.",
+    "habitats": [
+      "Underground",
+      "Caves",
+      "Underdark"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 334, Polar Bear and Variant: Cave Bear. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page335.html",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. +7 to hit in melee, reach 5 ft., one target. On a hit, deal 9 (1d8 + 5) piercing damage.\nClaws. +7 to hit in melee, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage.",
+      "Variant rules": "The Cave Bear sidebar adds darkvision 60 ft. to the Polar Bear on the same folio. Carry over its other statistics, including its 30-ft. swim speed."
+    }
+  },
+  {
+    "name": "Diseased Giant Rat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large brown-gray rat with a coarse coat, rounded ears, pink feet, and a long bare tail.",
+    "habitats": [
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Urban",
+      "Sewers"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 327, Giant Rat and Variant: Diseased Giant Rats. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page328.html\nThe Bite attack uses the published errata. ",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.\nPack Tactics. Gain advantage on an attack roll against a creature if an ally of the rat is within 5 ft. of the target and is not incapacitated.",
+      "Actions": "Bite. +4 to hit in melee, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage. A creature hit must succeed on a DC 10 Constitution save or contract the disease. While the disease persists, the creature can recover HP only by magic and loses 3 (1d6) from its HP maximum every 24 hours. It dies if that reduction brings its HP maximum to 0.",
+      "Variant rules": "Keep the Giant Rat’s statistics and traits. Use the sidebar’s replacement Bite with the errata’s attack and damage numbers."
+    }
+  },
+  {
+    "name": "Giant Lizard (Hold Breath and Spider Climb)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft., swim 30 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 30 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low-slung olive and gold lizard with splayed climbing toes, a finely scaled hide, and a long tapering tail.",
+    "habitats": [
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Desert",
+      "Coastal"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 326, Giant Lizard and Variant: Giant Lizard Traits. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+      "Traits": "Hold Breath. A lizard with this trait can hold its breath for 15 minutes and swim 30 ft.\nSpider Climb. A lizard with this trait can climb difficult surfaces, including along ceilings upside down, without making an ability check.",
+      "Actions": "Bite. +4 to hit in melee, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.",
+      "Variant rules": "This existing named scope uses both sidebar traits. Hold Breath adds a 30-ft. swim speed. Spider Climb retains the 30-ft. climb speed and removes the ability check on difficult surfaces."
+    }
+  },
+  {
+    "name": "Giant Lizard (variant)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "30 ft., climb 30 ft. (swim 30 ft. with Hold Breath)",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Natural armor. Darkvision 30 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low-slung olive and gold lizard with splayed climbing toes, a finely scaled hide, and a long tapering tail.",
+    "habitats": [
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Desert",
+      "Coastal"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 326, Giant Lizard and Variant: Giant Lizard Traits. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+      "Traits": "Hold Breath. A lizard with this trait can hold its breath for 15 minutes and swim 30 ft.\nSpider Climb. A lizard with this trait can climb difficult surfaces, including along ceilings upside down, without making an ability check.",
+      "Actions": "Bite. +4 to hit in melee, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.",
+      "Variant rules": "This existing generic scope presents the printed choice. Choose Hold Breath, Spider Climb, or both before use. Add a 30-ft. swim speed only if Hold Breath is selected."
+    }
+  },
+  {
+    "name": "Giant Rat (Diseased)",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Small Beast, unaligned",
+    "ac": 12,
+    "hp": 7,
+    "hitDice": "2d6",
+    "speed": "30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 10. No listed skills or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A large brown-gray rat with a coarse coat, rounded ears, pink feet, and a long bare tail.",
+    "habitats": [
+      "Underdark",
+      "Forest",
+      "Swamp",
+      "Urban",
+      "Sewers"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 327, Giant Rat and Variant: Diseased Giant Rats. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page328.html\nThe Bite attack uses the published errata. ",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.\nPack Tactics. Gain advantage on an attack roll against a creature if an ally of the rat is within 5 ft. of the target and is not incapacitated.",
+      "Actions": "Bite. +4 to hit in melee, reach 5 ft., one target. On a hit, deal 4 (1d4 + 2) piercing damage. A creature hit must succeed on a DC 10 Constitution save or contract the disease. While the disease persists, the creature can recover HP only by magic and loses 3 (1d6) from its HP maximum every 24 hours. It dies if that reduction brings its HP maximum to 0.",
+      "Variant rules": "Keep the Giant Rat’s statistics and traits. Use the sidebar’s replacement Bite with the errata’s attack and damage numbers."
+    }
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 12,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "otherStatistics": "Perception +3 and Stealth +6. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A stocky tawny cat with spotted shoulders, heavy forepaws, a short tail, and long curved upper canines.",
+    "habitats": [
+      "Arctic",
+      "Mountains"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 336, Saber-Toothed Tiger. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page337.html",
+      "Traits": "Keen Smell. Gain advantage on Wisdom (Perception) checks based on smell.\nPounce. After moving at least 20 ft. straight toward a creature, a Claw hit against it that turn forces a DC 14 Strength save. On a failure the target falls prone. If the target is prone, the tiger can make one Bite against it as a bonus action.",
+      "Actions": "Bite. +6 to hit in melee, reach 5 ft., one target. On a hit, deal 10 (1d10 + 5) piercing damage.\nClaw. +6 to hit in melee, reach 5 ft., one target. On a hit, deal 12 (2d6 + 5) slashing damage."
+    }
+  }
+]

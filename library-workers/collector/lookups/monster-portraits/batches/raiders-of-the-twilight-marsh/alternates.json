@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Half-Dragon Troll",
+    "publication": "DDEX1-12 - Raiders of the Twilight Marsh",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/half-dragon-troll/troll-2014-related.webp",
+    "artist": "Related Troll art · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "ed9fd0beda6aacee040f7e7010209b82d6942732d77d2c4b695322324a9ac94d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Troll.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Half-Dragon Troll",
+    "publication": "DDEX1-12 - Raiders of the Twilight Marsh",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/half-dragon-troll/half-dragon-2024-mathias-kollros.webp",
+    "artist": "Related Half-Dragon art by Mathias Kollros · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "0f5e5a684206126c63989ee115a72be5bcc8dae6a9ad95a637434115cbd398f9",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Half-Dragon.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Kobold Berserker",
+    "publication": "DDEX1-12 - Raiders of the Twilight Marsh",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/kobold-berserker/kobold-2014-conceptopolis.webp",
+    "artist": "Related Kobold art by Conceptopolis · Monster Manual (2014)",
+    "kind": "illustration",
+    "sha256": "2750ec6cde1e0a2db1e5dfeed12bb136d5308d4a73214b6ddab854a9fd704d8d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/MM/Kobold.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Kobold Berserker",
+    "publication": "DDEX1-12 - Raiders of the Twilight Marsh",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/kobold-berserker/kobold-mpmm-christopher-burdett.webp",
+    "artist": "Related Kobold art by Christopher Burdett · Monsters of the Multiverse",
+    "kind": "illustration",
+    "sha256": "908ac12e52ccf5fdff1523f9b061e7d129352f472d5837f5bdc37a330875065d",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Kobold.webp"
+  }
+]

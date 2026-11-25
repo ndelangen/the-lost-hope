@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Skullcrusher Ogre",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "+14 Strength, +6 Constitution, −2 Charisma. Large giant with 10-ft. space and reach, 40-ft. land speed, low-light vision, and darkvision to 60 ft.",
+      "Eight giant Hit Dice grant 8d8, BAB +6, base saves Fort +6, Ref +2, Will +2, and three racial-HD feats. Racial skill points equal 11 × (2 + Int modifier, minimum 1). Craft, Handle Animal, Intimidate, Knowledge (architecture), and Ride are racial class skills.",
+      "Improved Grapple and Two-Weapon Fighting are bonus feats. Proficient with simple and martial weapons, all armor, and shields. Natural armor +2.",
+      "Rock Throwing adds +1 to ranged attack rolls with Small rocks of about 40–50 lb. Use 100-ft. range increments, up to five increments. The example rock damage is 2d6 plus Strength.",
+      "Automatic languages Common and Giant. Bonus languages Dwarven, Orc, Goblin, and Terran. Favored class Fighter. Level adjustment +3."
+    ],
+    "parentSpecies": "Ogre"
+  },
+  {
+    "name": "Naztharune Rakshasa",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "+4 Strength, +10 Dexterity, +8 Constitution, +4 Intelligence, +4 Charisma. Medium native outsider, speed 40 ft., darkvision 60 ft., natural armor +5, two primary 1d4 claws.",
+      "Eleven outsider Hit Dice grant 11d8, BAB +11, base saves +7 across the board and four feats. Skill points are 14 × (8 + Int modifier). Racial class skills are Balance, Bluff, Disguise, Escape Artist, Hide, Listen, Move Silently, Search, Spot, and Tumble.",
+      "Bluff and Disguise each gain +4 racial. Change Shape makes a +10 circumstance bonus available to Disguise. Reading the subject’s thoughts gives a further +4 circumstance bonus to Bluff and Disguise.",
+      "Detect Thoughts is continuous with the option to suppress or resume as a free action, Will DC 15 + Cha modifier under the player rule. Change Shape uses a standard action to take a humanoid form, which replaces the claws, or to return to the natural form.",
+      "Within 10 ft. of an external shadow, Hide in Plain Sight permits hiding while observed. Shadow Jump crosses up to 20 ft. per day between shadows, in one 20-ft. or two 10-ft. jumps.",
+      "Has evasion, improved evasion, uncanny dodge and improved uncanny dodge. Sneak Attack acts as a rogue of level equal to creature HD per 2006 errata. DR 15 requires an attack that is both good-aligned and piercing to bypass it. Spell resistance is 21 + class levels.",
+      "Automatic languages Common and Infernal. Bonus languages Sylvan and Undercommon. Favored class Rogue, and the player rules give automatic qualification for Assassin. Level adjustment +5."
+    ],
+    "parentSpecies": "Rakshasa"
+  },
+  {
+    "name": "Crystalline Troll",
+    "kind": "species",
+    "publication": "Monster Manual III (3.5, 2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "+12 Strength, +4 Dexterity, +12 Constitution, −4 Intelligence (minimum 3), −2 Wisdom, −2 Charisma. Large giant with 10-ft. space and reach, 30-ft. speed, darkvision 60 ft., and low-light vision.",
+      "Ten giant Hit Dice grant 10d8, BAB +7, base saves Fort +7, Ref +3, Will +3, and four racial-HD feats. Listen and Spot are racial class skills. Skill points equal 13 × (2 + Int modifier, minimum 1).",
+      "Natural armor +7. Two 1d6 claws and one 1d6 bite per the 2006 correction. Hitting the same foe with both claws triggers rend for 2d6 plus 1½ × Strength modifier.",
+      "Acid immunity, scent, regeneration 5 and sonic vulnerability. Sonic attacks deal lethal damage through regeneration. Regrows lost limbs in 3d6 minutes or reattaches them immediately by holding them in place.",
+      "Automatic language Giant. Bonus languages Common and Orc. Favored class Fighter. Level adjustment +5."
+    ],
+    "parentSpecies": "Troll"
+  },
+  {
+    "name": "Ogre Mage",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "traits": [
+      "Medium giant at entry, +2 Strength and +2 Charisma, speed 40 ft., darkvision 60 ft. Speaks Common and Giant. Favored class Ogre Mage. Proficient with simple and martial weapons, light armor and shields.",
+      "Table A–39 has twelve levels ending at 5d8, BAB +3, base Fort +4, Ref +1, Will +1 and CR 8. An ogre mage gains racial HD at levels 1, 2, 4, 7 and 10, and feats at levels 1 and 4. Class skills are Concentration, Craft, Listen, Profession, Spellcraft and Spot.",
+      "Level 1 gives +1 natural armor, and charm person and sleep once each per day. Level 2 raises armor to +2 and gives +2 Constitution. Level 3 gives +2 Wisdom, and darkness and invisibility once each per day. Level 4 gives fly 40 ft. (good), +2 Strength and +2 Charisma.",
+      "Level 5 gives gaseous form once per day, +2 Intelligence and natural armor +3. Level 6 grants regeneration 1 and expands darkness and invisibility to three uses each per day. Level 7 gives +2 Strength, natural armor +4 and polymorph self once per day.",
+      "Level 8 gives +2 Constitution, +2 Wisdom and spell resistance of 6 + class level. Level 9 unlocks cone of cold once per day and at-will darkness and invisibility.",
+      "Level 10 gives Large size with 10-ft. reach, +2 Strength, +2 Intelligence and natural armor +5. Level 11 gives regeneration 2 and +2 Constitution. Level 12 gives +2 Strength and +2 Charisma.",
+      "Spell-like caster level is four plus racial class HD. Fire and acid bypass regeneration once it is acquired. Reattaching a severed part takes a minute, and removal of a vital organ is fatal unless it is reattached within ten minutes."
+    ]
+  },
+  {
+    "name": "Irda",
+    "kind": "species",
+    "publication": "Dragonlance Campaign Setting (2003)",
+    "edition": "3.5 edition",
+    "traits": [
+      "+2 Intelligence and Charisma, −2 Constitution. Medium shapechanging humanoid. Speed 30 ft. and low-light vision.",
+      "Change Shape (Su), three uses per day. Take the form of a Small, Medium or Large humanoid. Retain original ability scores, HP, saves and spellcasting ability, subject to providing required verbal and somatic components. Gain the new form’s natural weapons, natural armor, movement and extraordinary special attacks. Keep original special abilities except breath weapons and gaze attacks. The new form’s special qualities are not gained.",
+      "Gear does not change. This change grants +10 to Disguise when used as a disguise. Stay changed indefinitely. Returning to the true shape does not spend another use, and death automatically ends the change.",
+      "Once each per day, use dancing lights, detect magic, flare, ghost sound, light and mage hand as spell-like effects at character level. Saving throw DC is 10 + Charisma modifier.",
+      "Automatic languages Common and High Ogre. Bonus languages Dwarven, Elven, Kothian and Sylvan. Favored class Wizard. Level adjustment +2."
+    ]
+  }
+]

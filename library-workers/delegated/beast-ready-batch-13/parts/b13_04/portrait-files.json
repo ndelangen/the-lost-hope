@@ -1,0 +1,18 @@
+[
+  {
+    "artGroup": "deep-rothe",
+    "file": "portraits/deep-rothe.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c295a1c3bb90af78ac2b296b88b941ac84f4fca931142bf284432bc39bd199bb",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "ox",
+    "file": "portraits/ox.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "c3ff960383a3750a5b7cbe757b377b49600121849de47efb9ecce5c190f8f456",
+    "credit": "OpenAI ImageGen"
+  }
+]

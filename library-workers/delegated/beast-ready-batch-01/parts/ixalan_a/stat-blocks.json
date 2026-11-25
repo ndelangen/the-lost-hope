@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Aegisaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 15,
+    "hp": 68,
+    "hitDice": "8d12 + 16",
+    "speed": "30 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 11. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A squat four-legged herbivore with overlapping shell-like armored scales and a massive bony club at the end of its tail.",
+    "habitats": [
+      "Ixalan plains",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28. Reskin of Ankylosaurus, Monster Manual (2014), printed p. 79. ",
+      "Armor": "AC 15 comes from natural armor.",
+      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone.",
+      "At the table": "Resolve damage and the Strength save on the same hit. A prone creature must use half its speed to stand."
+    }
+  },
+  {
+    "name": "Aerosaur (Large)",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 30,
+    "hitDice": "4d12 + 4",
+    "speed": "10 ft., fly 80 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +2. Passive Perception 12. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A long-beaked flying reptile with a light crest and wide leathery wings. The shared portrait uses muted rust-brown membranes and subdued moss-green crest scales.",
+    "habitats": [
+      "Ixalan coast",
+      "Coastal updrafts",
+      "High perches"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 29. Reskin of Quetzalcoatlus, Volo’s Guide to Monsters (2016), printed p. 140. ",
+      "Armor": "AC 13 comes from natural armor.",
+      "Traits": "Dive Attack. While flying, dive at least 30 ft. toward the target and hit it with Bite to deal 10 (3d6) extra damage.\nFlyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 10 ft., one creature. Hit for 12 (3d6 + 2) piercing damage.",
+      "At the table": "The dive is part of movement. Add the extra damage when the Bite hits after the qualifying dive."
+    }
+  },
+  {
+    "name": "Aerosaur (Small)",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 13,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "10 ft., fly 60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +1. Passive Perception 11. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A long-beaked flying reptile with a light crest and wide leathery wings. The shared portrait uses muted rust-brown membranes and subdued moss-green crest scales.",
+    "habitats": [
+      "Ixalan coast",
+      "Coastal updrafts",
+      "High perches"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 29. Reskin of Pteranodon, Monster Manual (2014), printed p. 80. ",
+      "Armor": "AC 13 comes from natural armor.",
+      "Traits": "Flyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.",
+      "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit for 6 (2d4 + 1) piercing damage."
+    }
+  },
+  {
+    "name": "Altisaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Gargantuan Beast, unaligned",
+    "ac": 15,
+    "hp": 121,
+    "hitDice": "9d20 + 27",
+    "speed": "30 ft.",
+    "cr": "5",
+    "xp": 1800,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Constitution save +6. Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A towering four-legged herbivore with a long tree-browsing neck, broad barrel-shaped body, and a long tapering tail.",
+    "habitats": [
+      "Sun Coast plains",
+      "Sun Coast sparse forests",
+      "Ixalan"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 27. Reskin of Brontosaurus, Volo’s Guide to Monsters (2016), printed p. 139. ",
+      "Armor": "AC 15 comes from natural armor.",
+      "Actions": "Stomp. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit for 27 (5d8 + 5) bludgeoning damage. A target hit by the stomp must pass a DC 14 Strength save or fall prone.\nTail. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit for 32 (6d8 + 5) bludgeoning damage.",
+      "At the table": "Either action can reach as far as 20 ft. Stomp adds a Strength save on a hit."
+    }
+  },
+  {
+    "name": "Armasaur",
+    "publication": "Plane Shift: Ixalan",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 13,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Passive Perception 10. No listed languages or special senses.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A four-legged herbivore with spikelike plates rising along its spine and sharp spikes on its flexible tail.",
+    "habitats": [
+      "Ixalan plains",
+      "Grassland"
+    ],
+    "sections": {
+      "Printed source": "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28. Reskin of Stegosaurus, Volo’s Guide to Monsters (2016), printed p. 140. ",
+      "Armor": "AC 13 comes from natural armor.",
+      "Actions": "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 26 (6d6 + 5) piercing damage."
+    }
+  }
+]

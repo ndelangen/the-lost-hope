@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Barnacle Bess",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "classification": "Medium Beast, lawful neutral",
+    "ac": 15,
+    "hp": 13,
+    "hitDice": "3d8",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "abilities": {
+      "Str": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Wis": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Natural armor. Stealth +4. Blindsight 30 ft. Passive Perception 9. Speaks and understands Common.",
+    "appearance": "A large red-brown crab with two broad claws and small barnacles on her shell.",
+    "habitats": [
+      "Submerged shipwreck",
+      "Marshal passenger quarters"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 220. https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=221",
+      "Traits": "Amphibious. Bess breathes air and water.",
+      "Actions": "Claw. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 4 (1d6 + 1) bludgeoning damage and grapples the target (escape DC 11). Each of Bess’s two claws can grapple one target.",
+      "Encounter": "Bess hides in broken furniture. If discovered, she tries to flee unless a character wears a symbol of St. Cuthbert. She follows that character, sings, and obeys orders from them."
+    }
+  },
+  {
+    "name": "Fish",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Darkvision 60 ft. Passive Perception 8. Languages none.",
+    "appearance": "A small silvery fish with a darker back, fine scales and a forked tail.",
+    "habitats": [
+      "Underwater",
+      "Warthalkeel ruins"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 224. https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=225",
+      "Traits": "Water Breathing. The fish breathes only underwater.",
+      "Actions": "The fish cannot make attacks.",
+      "Encounter": "Each ruin is surrounded by 3d10 fish of various species and 2d4 crabs."
+    }
+  },
+  {
+    "name": "Giant Coral Snake",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 90,
+    "hitDice": "12d10 + 24",
+    "speed": "30 ft., swim 30 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2. Blindsight 10 ft. Passive Perception 12. Languages none.",
+    "appearance": "A heavily muscled coral snake with vivid red, pale cream, and dark rings.",
+    "habitats": [
+      "Coastal caves",
+      "Hermitage"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 236. https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=237",
+      "Actions": "Bite. Make a melee weapon attack at +5 against one target within 5 ft. A hit deals 8 (2d4 + 3) piercing damage. The target makes a DC 12 Constitution save. On a failure it is Stunned until the end of its next turn and hallucinates under a short-term madness effect for 10 minutes. Roll on the Dungeon Master’s Guide table or let the DM choose the effect. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/running-the-game#Madness"
+    }
+  },
+  {
+    "name": "Giant Sea Eel",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 14,
+    "hp": 19,
+    "hitDice": "3d10 + 3",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 7,
+        "modifier": -2
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Perception +2. Stealth +4. Darkvision 60 ft. Passive Perception 12. Languages none.",
+    "appearance": "A long kelp-green sea eel with mottled skin and a low continuous fin.",
+    "habitats": [
+      "Underwater",
+      "Ocean depths"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 237. https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=238",
+      "Traits": "Water Breathing. The eel breathes only underwater.",
+      "Actions": "Bite. Make a melee weapon attack at +4 against one target within 5 ft. A hit deals 13 (2d10 + 2) piercing damage."
+    },
+    "savingThrows": {
+      "Dex": 4
+    }
+  },
+  {
+    "name": "Giant White Moray Eel",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 60,
+    "hitDice": "8d12 + 8",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Perception +2. Stealth +4. Blindsight 10 ft. Passive Perception 12. Languages none.",
+    "appearance": "A thick white moray with tubular nostrils, a prominent jaw and a long sinuous body.",
+    "habitats": [
+      "Underwater",
+      "Cove Reef",
+      "Merfolk mass grave"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, pp. 215–216. https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=216",
+      "Traits": "Water Breathing. The eel breathes only underwater.",
+      "Actions": "Bite. Make a melee weapon attack at +6 against one creature within 10 ft. A hit deals 11 (2d6 + 4) piercing damage.",
+      "Encounter": "The eel hides coiled among the merfolk bones. When hungry, it attacks any creature smaller than itself."
+    }
+  },
+  {
+    "name": "Sahuagin Hatchling Swarm",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "classification": "Large Swarm of Tiny Beasts, chaotic evil",
+    "ac": 14,
+    "hp": 52,
+    "hitDice": "8d10 + 8",
+    "speed": "0 ft., swim 40 ft.",
+    "cr": "3",
+    "xp": 700,
+    "abilities": {
+      "Str": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Resistant to bludgeoning, piercing and slashing damage. Immune to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned. Darkvision 120 ft. Passive Perception 10. Languages none.",
+    "appearance": "A mass of small fishlike sahuagin hatchlings with fins, claws and webbed feet.",
+    "habitats": [
+      "Underwater",
+      "Sahuagin fortress"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, first printing, p. 250. https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=251",
+      "Traits": "Blood Frenzy. The swarm has advantage on melee attack rolls against any creature below its maximum hit points.\nSeething. Once it enters combat, the swarm takes 10 slashing damage from itself at the end of its turn if it made no attack that turn. This damage ignores resistance and cannot reduce the swarm to 0 HP.\nSwarm. The swarm and other creatures can occupy one another’s spaces. It fits through any opening large enough for a Tiny creature. The swarm cannot regain HP or gain temporary HP.\nWater Breathing. The swarm breathes only underwater.",
+      "Actions": "Bites. Make a melee weapon attack at +6 against one creature in the swarm’s space (reach 0 ft.). A hit deals 14 (4d6) piercing damage. If the swarm has half of its hit points or fewer, it deals 7 (2d6) piercing damage instead."
+    }
+  }
+]

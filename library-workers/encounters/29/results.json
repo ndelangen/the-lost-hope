@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Sensa Prince",
+    "imageKey": "monster:sensa-prince",
+    "kind": "monster",
+    "type": "Humanoid",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "source": "https://www.dndbeyond.com/monsters/2739102-sensa-prince",
+    "challenge": "3",
+    "images": [],
+    "encounterStatus": "local-stat-block",
+    "statBlockUrl": "https://www.dndbeyond.com/monsters/2739102-sensa-prince",
+    "slug": "sensa-prince",
+    "entry": "monster-c63ce11f00ae3e3502638ae1",
+    "version": "0d4214311090fed4eb49ef9e",
+    "generated": true,
+    "primaryPortraitSha256": "a0d63aec69004a70e1829ca3426d9a07eb76866a408b411f8111cfe523302675",
+    "status": "Stat block",
+    "appearance": "An unarmored Sensa royal with court robes, a draped mantle, and a longsword.",
+    "habitats": [
+      "Anisa",
+      "Sensa Empire",
+      "Goldwarren"
+    ]
+  }
+]

@@ -1,0 +1,240 @@
+{
+  "builds": [
+    {
+      "id": "mm4e-drow-sera-veld",
+      "title": "Drow passage scout, Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Fey humanoid",
+      "abilityScores": {
+        "STR": 13,
+        "CON": 10,
+        "DEX": 18,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "ac": 17,
+      "hp": 22,
+      "initiative": 4,
+      "speed": "6 squares",
+      "senses": "Darkvision. Passive Perception 11.",
+      "languages": "Common, Elven",
+      "skills": [
+        "Acrobatics +9",
+        "Athletics +6",
+        "Bluff +8",
+        "Intimidate +10",
+        "Stealth +11",
+        "Thievery +9"
+      ],
+      "traits": [
+        "Unaligned. Leather, short sword, and light shield. Shield Proficiency (Light) adds the shield’s +1 to AC and Reflex. Fortitude 11, Reflex 17, Will 13. Bloodied 11. Six healing surges at 5 HP.",
+        "Artful Dodger raises AC to 20 against opportunity attacks. First Strike grants combat advantage against enemies that have yet to act in the first round. Sneak Attack adds 2d6 to an eligible short-sword hit when Sera has combat advantage, once per turn.",
+        "Trance grants an extended rest in 4 hours while Sera stays alert. Darkfire uses Charisma. Sera may use either Lolthtouched power once per encounter."
+      ],
+      "actions": [
+        "Short sword basic attack, at-will standard. Melee 1, +4 vs. AC for 1d6+1.",
+        "Deft Strike, at-will standard. May move 2 squares before a melee 1 attack at +7 vs. AC for 1d6+4.",
+        "Piercing Strike, at-will standard. Melee 1, +7 vs. Reflex for 1d6+4.",
+        "Positioning Strike, encounter standard. Melee 1, +7 vs. Will for 1d6+4 and slide the target up to 3 squares.",
+        "Trick Strike, daily standard. Melee 1, +7 vs. AC. On a hit, deal 3d6+4 and slide the target 1 square. For the rest of the encounter, slide that target 1 square whenever Sera hits it.",
+        "Cloud of Darkness, Lolthtouched encounter minor, close burst 1. Stays in place through the end of Sera’s next turn. Blocks line of sight for other creatures and blinds them if they are entirely inside.",
+        "Darkfire, Lolthtouched encounter minor, ranged 10. +5 vs. Reflex. On a hit, the target grants combat advantage to attackers and gains no benefit from invisibility or concealment until the end of Sera’s next turn.",
+        "Second wind, encounter standard. Spend a healing surge and gain +2 to defenses until the start of Sera’s next turn."
+      ],
+      "tactics": "Screens the passage with Cloud of Darkness while people move behind it. Shifts a blocker out of the crossing with Positioning Strike."
+    },
+    {
+      "id": "mm4e-bugbear-rusk-sedge",
+      "title": "Bugbear ferry lookout, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 18,
+        "CON": 13,
+        "DEX": 16,
+        "INT": 11,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 15,
+      "hp": 28,
+      "initiative": 7,
+      "speed": "6 squares",
+      "senses": "Low-light vision. Passive Perception 11.",
+      "languages": "Common, Goblin",
+      "skills": [
+        "Athletics +9",
+        "Endurance +6",
+        "Intimidate +7",
+        "Stealth +5"
+      ],
+      "traits": [
+        "Unaligned. Leather, Medium mace in one hand. One-Handed Fighter Weapon Talent adds +1 to weapon attacks. Improved Initiative adds +4. Fortitude 16, Reflex 13, Will 11. Bloodied 14. Ten healing surges at 7 HP.",
+        "Oversized permits a weapon one size larger. Combat Challenge may mark each enemy Rusk attacks through the end of his next turn. The mark gives −2 to attacks that omit him. If a marked adjacent enemy shifts or makes an attack that omits Rusk, he can make a melee basic attack as an immediate interrupt.",
+        "Combat Superiority adds +1 to opportunity attack rolls. A hit stops movement that provoked it."
+      ],
+      "actions": [
+        "Mace basic attack, at-will standard. Melee 1, +7 vs. AC for 1d8+4. Opportunity attack +8 vs. AC.",
+        "Cleave, at-will standard. Melee 1, +7 vs. AC for 1d8+4. On a hit one other enemy adjacent to Rusk takes 4 damage.",
+        "Reaping Strike, at-will standard. Melee 1, +7 vs. AC for 1d8+4. On a miss, deal 2 damage.",
+        "Spinning Sweep, encounter standard. Melee 1, +7 vs. AC for 1d8+4 and knock the target prone.",
+        "Comeback Strike, daily standard, reliable. Melee 1, +7 vs. AC for 2d8+4 and Rusk can spend a healing surge on a hit.",
+        "Predatory Eye, encounter minor, personal. Adds 1d6 damage to the next attack against a target granting Rusk combat advantage. Use it by the end of Rusk’s next turn.",
+        "Second wind, encounter standard. Spend a healing surge and gain +2 to defenses until the start of Rusk’s next turn."
+      ],
+      "tactics": "Waits out of sight beside the winch until an ally can flank. Uses Predatory Eye before Spinning Sweep when the opening appears."
+    },
+    {
+      "id": "mm4e-hobgoblin-varek-fordwatch",
+      "title": "Hobgoblin shield officer, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 16,
+        "CON": 16,
+        "DEX": 12,
+        "INT": 11,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "ac": 19,
+      "hp": 31,
+      "initiative": 3,
+      "speed": "5 squares in scale, base 6",
+      "senses": "Low-light vision. Passive Perception 11.",
+      "languages": "Common, Goblin",
+      "skills": [
+        "Athletics +8",
+        "Endurance +6",
+        "History +2",
+        "Streetwise +6"
+      ],
+      "traits": [
+        "Unaligned. Scale, heavy shield, and longsword. The shield gives −2 to Strength-, Constitution-, and Dexterity-based skill checks. Fortitude 15, Reflex 13, Will 11. Bloodied 15. Twelve healing surges at 7 HP.",
+        "One-Handed Fighter Weapon Talent adds +1 to weapon attacks. Weapon Focus (heavy blade) adds +1 to damage rolls. Battle Ready adds +2 to initiative.",
+        "Combat Challenge may mark each enemy Varek attacks through the end of his next turn. The mark gives −2 to attacks that omit him. If a marked adjacent enemy shifts or makes an attack that omits Varek, he can make a melee basic attack as an immediate interrupt.",
+        "Combat Superiority adds +1 to opportunity attack rolls. A hit stops movement that provoked it."
+      ],
+      "actions": [
+        "Longsword basic attack, at-will standard. Melee 1, +7 vs. AC for 1d8+4. Opportunity attack +8 vs. AC.",
+        "Cleave, at-will standard. Melee 1, +7 vs. AC for 1d8+4. On a hit one other enemy adjacent to Varek takes 3 damage.",
+        "Tide of Iron, at-will standard using a shield. Melee 1, +7 vs. AC for 1d8+4. Push a target of Large size or smaller 1 square on a hit, then optionally shift into the square it left.",
+        "Covering Attack, encounter standard. Melee 1, +7 vs. AC for 2d8+4. One ally adjacent to the target can shift 2 squares on a hit.",
+        "Villain’s Menace, daily standard. Melee 1, +7 vs. AC for 2d8+4. A hit also grants +2 to attack and +4 to damage rolls against the target for the encounter. A miss grants +1 to attack and +2 to damage rolls against it for the encounter.",
+        "Hobgoblin Resilience, encounter immediate reaction, personal. When Varek suffers an effect that a saving throw can end, he makes that save immediately.",
+        "Second wind, encounter standard. Spend a healing surge and gain +2 to defenses until the start of Varek’s next turn."
+      ],
+      "tactics": "Uses Tide of Iron to take the bridgehead back and Covering Attack to give a worker room to escape. Saves Resilience for an effect threatening his ability to hold the crossing."
+    },
+    {
+      "id": "phb2-4e-gnome-tovin-reedwhistle",
+      "title": "Gnome decoy guide, Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Small",
+      "type": "Fey humanoid",
+      "abilityScores": {
+        "STR": 10,
+        "CON": 14,
+        "DEX": 12,
+        "INT": 18,
+        "WIS": 13,
+        "CHA": 13
+      },
+      "ac": 14,
+      "hp": 24,
+      "initiative": 5,
+      "speed": "5 squares",
+      "senses": "Low-light vision. Passive Perception 11.",
+      "languages": "Common, Elven",
+      "skills": [
+        "Arcana +11",
+        "History +9",
+        "Insight +6",
+        "Nature +6",
+        "Stealth +3"
+      ],
+      "traits": [
+        "Unaligned. Cloth, wand, dagger, and a walking stick. Fortitude 12, Reflex 14, Will 13. Bloodied 12. Eight healing surges at 6 HP. Improved Initiative adds +4.",
+        "Wand of Accuracy, encounter free action. While wielding the wand, add +1 to one attack roll.",
+        "Check Stealth on the initiative roll when in cover or concealment. Gain +5 to saving throws against illusions. Tovin also knows Light, Mage Hand, and Prestidigitation. His spellbook has Comprehend Language, Make Whole, and Tenser’s Floating Disk, plus Flaming Sphere as his alternate daily spell."
+      ],
+      "actions": [
+        "Dagger basic attack, at-will standard. Melee 1 at +3 vs. AC for 1d4 or ranged 5/10 at +4 vs. AC for 1d4+1.",
+        "Ray of Frost, at-will standard. Ranged 10, +4 vs. Fortitude for 1d6+4 cold and slowed through the end of Tovin’s next turn.",
+        "Thunderwave, at-will standard. Close blast 3 against creatures, +4 vs. Fortitude for 1d6+4 thunder and push 1 square.",
+        "Icy Terrain, encounter standard. Area burst 1 within 10 against creatures, +4 vs. Reflex for 1d6+4 cold and knock prone. The ground in the burst is difficult terrain through the end of Tovin’s next turn or until he ends it as a minor action.",
+        "Sleep, prepared daily standard. Area burst 2 within 20 against creatures, +4 vs. Will. Slowed (save ends) on a hit or miss. A creature hit that fails its first save instead becomes unconscious (save ends).",
+        "Ghost Sound, at-will standard or, through Master Trickster, encounter minor. Ranged 10. Make an illusory sound of up to the volume of a shouting creature at an object or unoccupied square.",
+        "Fade Away, encounter immediate reaction after taking damage. Tovin becomes invisible until he attacks or his next turn ends.",
+        "Second wind, encounter standard. Spend a healing surge and gain +2 to defenses until the start of Tovin’s next turn."
+      ],
+      "tactics": "Places Ghost Sound away from the crew to draw attention, then blocks pursuit with Icy Terrain. Uses Fade Away after a hit to take cover without giving away the way out."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Drow",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Sera Veld",
+      "build": "mm4e-drow-sera-veld",
+      "role": "Passage scout who screens an evacuation.",
+      "motive": "Keep the underground ferry path open while the last families cross.",
+      "hook": "Sera offers a hidden route through the toll gate if the party helps the families board."
+    },
+    {
+      "species": "Bugbear",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Rusk Sedge",
+      "build": "mm4e-bugbear-rusk-sedge",
+      "role": "Ambush fighter who guards a ferry winch.",
+      "motive": "Recover a missing ferry bell whose signal keeps the night crossing safe.",
+      "hook": "Rusk has found the bell rope tied to a skiff and asks for help watching who returns for it."
+    },
+    {
+      "species": "Hobgoblin",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Monster Manual (4e, 2008)",
+      "name": "Varek Fordwatch",
+      "build": "mm4e-hobgoblin-varek-fordwatch",
+      "role": "Shield officer at a contested bridge.",
+      "motive": "Get the bridge crew out before a private patrol tears down the span.",
+      "hook": "Varek hands the party a saw marked with the patrol’s seal and asks them to escort the bridge crew."
+    },
+    {
+      "species": "Gnome",
+      "size": "Small",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook 2 (4e)",
+      "name": "Tovin Reedwhistle",
+      "build": "phb2-4e-gnome-tovin-reedwhistle",
+      "role": "Wizard who lays false trails and guides retreats.",
+      "motive": "Lead the last survey crew past the guards without revealing its route.",
+      "hook": "Tovin asks the party to follow the chalk reed signs while he sends the guard toward a false signal."
+    }
+  ]
+}

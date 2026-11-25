@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Illumian",
+    "slug": "illumian",
+    "caption": "Glassweir Eshara · Original Illumian NPC",
+    "id": "species-f0d9c32556a057a0fe2eba66:993088a2fa1e1d57476b6cf8",
+    "entry": "species-f0d9c32556a057a0fe2eba66",
+    "version": "993088a2fa1e1d57476b6cf8",
+    "suffix": "encounters-76/illumian.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-76/illumian.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-76/event-drafts/illumian-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 76 2026-11-24/event-drafts/illumian-event-v1.png",
+    "overrides": [],
+    "sha256": "64c517fa48b467d7ad1b184a895ed90222dd1036daf1f780f17a877e4d26e953",
+    "bytes": 1973508
+  }
+]

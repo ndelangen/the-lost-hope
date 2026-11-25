@@ -1,0 +1,662 @@
+[
+  {
+    "edition": "2024 fifth edition",
+    "publication": "SRD 5.2.1",
+    "name": "Giant Insect",
+    "kind": "beast",
+    "combat": {
+      "creatureType": "Beast",
+      "size": "Large",
+      "abilities": {
+        "Str": 17,
+        "Dex": 13,
+        "Con": 15,
+        "Int": 4,
+        "Wis": 14,
+        "Cha": 3
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "understands the languages you know"
+      ],
+      "passivePerception": 12,
+      "challenge": "None",
+      "xp": 0,
+      "alignment": "Unaligned",
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 1,
+        "Con": 2,
+        "Int": -3,
+        "Wis": 2,
+        "Cha": -4
+      }
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Spider Climb",
+          "effectNote": "Climbs difficult surfaces and ceilings without an ability check."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "attackCount": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellLevel",
+                "factor": 1
+              }
+            ],
+            "divideBy": 2
+          }
+        },
+        {
+          "name": "Poison Jab",
+          "toHit": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellAttack",
+                "factor": 1
+              }
+            ]
+          },
+          "reachFeet": 10,
+          "attackMode": "melee",
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 6,
+              "bonus": {
+                "base": 3,
+                "terms": [
+                  {
+                    "input": "spellLevel",
+                    "factor": 1
+                  }
+                ]
+              },
+              "damageType": "piercing",
+              "trigger": "hit"
+            },
+            {
+              "diceCount": 1,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "hit"
+            }
+          ]
+        },
+        {
+          "name": "Web Bolt (Spider Only)",
+          "toHit": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellAttack",
+                "factor": 1
+              }
+            ]
+          },
+          "rangeFeet": [
+            60
+          ],
+          "attackMode": "ranged",
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 10,
+              "bonus": {
+                "base": 3,
+                "terms": [
+                  {
+                    "input": "spellLevel",
+                    "factor": 1
+                  }
+                ]
+              },
+              "damageType": "bludgeoning",
+              "trigger": "hit"
+            }
+          ],
+          "effectNote": "On a hit, the target’s speed is 0 until the start of the insect’s next turn."
+        }
+      ],
+      "Bonus Actions": [
+        {
+          "name": "Venomous Spew (Centipede Only)",
+          "conditionsMentioned": [
+            "poisoned"
+          ],
+          "rangeFeet": [
+            10
+          ],
+          "saves": [
+            {
+              "ability": "Constitution",
+              "dc": {
+                "base": 0,
+                "terms": [
+                  {
+                    "input": "spellSaveDc",
+                    "factor": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "effectNote": "Choose one creature the insect can see. On a failed save, it is Poisoned until the start of the insect’s next turn."
+        }
+      ],
+      "Spell": [
+        {
+          "name": "Giant Insect",
+          "effectNote": "Level 4 Druid conjuration. An action, verbal and somatic components, range 60 ft., and concentration up to 10 minutes. The chosen beast appears in a visible free space within range."
+        },
+        {
+          "name": "Commands",
+          "effectNote": "The beast is allied and acts just after the caster on the same initiative count. Verbal orders cost the caster no action. Without orders it Dodges and moves to avoid danger. It disappears at 0 HP or when the spell ends."
+        }
+      ]
+    },
+    "forms": [
+      "Giant Insect (Centipede)",
+      "Giant Insect (Spider)",
+      "Giant Insect (Wasp)"
+    ]
+  },
+  {
+    "edition": "2024 fifth edition",
+    "publication": "SRD 5.2.1",
+    "name": "Giant Insect (Centipede)",
+    "kind": "beast",
+    "combat": {
+      "creatureType": "Beast",
+      "size": "Large",
+      "abilities": {
+        "Str": 17,
+        "Dex": 13,
+        "Con": 15,
+        "Int": 4,
+        "Wis": 14,
+        "Cha": 3
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "understands the languages you know"
+      ],
+      "passivePerception": 12,
+      "challenge": "None",
+      "xp": 0,
+      "alignment": "Unaligned",
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 1,
+        "Con": 2,
+        "Int": -3,
+        "Wis": 2,
+        "Cha": -4
+      }
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Spider Climb",
+          "effectNote": "Climbs difficult surfaces and ceilings without an ability check."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "attackCount": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellLevel",
+                "factor": 1
+              }
+            ],
+            "divideBy": 2
+          }
+        },
+        {
+          "name": "Poison Jab",
+          "toHit": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellAttack",
+                "factor": 1
+              }
+            ]
+          },
+          "reachFeet": 10,
+          "attackMode": "melee",
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 6,
+              "bonus": {
+                "base": 3,
+                "terms": [
+                  {
+                    "input": "spellLevel",
+                    "factor": 1
+                  }
+                ]
+              },
+              "damageType": "piercing",
+              "trigger": "hit"
+            },
+            {
+              "diceCount": 1,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "hit"
+            }
+          ]
+        }
+      ],
+      "Bonus Actions": [
+        {
+          "name": "Venomous Spew (Centipede Only)",
+          "conditionsMentioned": [
+            "poisoned"
+          ],
+          "rangeFeet": [
+            10
+          ],
+          "saves": [
+            {
+              "ability": "Constitution",
+              "dc": {
+                "base": 0,
+                "terms": [
+                  {
+                    "input": "spellSaveDc",
+                    "factor": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "effectNote": "Choose one creature the insect can see. On a failed save, it is Poisoned until the start of the insect’s next turn."
+        }
+      ],
+      "Spell": [
+        {
+          "name": "Giant Insect",
+          "effectNote": "Level 4 Druid conjuration. An action, verbal and somatic components, range 60 ft., and concentration up to 10 minutes. The chosen beast appears in a visible free space within range."
+        },
+        {
+          "name": "Commands",
+          "effectNote": "The beast is allied and acts just after the caster on the same initiative count. Verbal orders cost the caster no action. Without orders it Dodges and moves to avoid danger. It disappears at 0 HP or when the spell ends."
+        }
+      ]
+    },
+    "armorClass": {
+      "base": 11,
+      "terms": [
+        {
+          "input": "spellLevel",
+          "factor": 1
+        }
+      ]
+    },
+    "hitPoints": {
+      "base": 30,
+      "terms": [
+        {
+          "input": "spellLevel",
+          "factor": 10,
+          "above": 4
+        }
+      ]
+    },
+    "summonSource": "Giant Insect",
+    "minSpellLevel": 4,
+    "proficiency": {
+      "base": 0,
+      "terms": [
+        {
+          "input": "proficiency",
+          "factor": 1
+        }
+      ]
+    }
+  },
+  {
+    "edition": "2024 fifth edition",
+    "publication": "SRD 5.2.1",
+    "name": "Giant Insect (Spider)",
+    "kind": "beast",
+    "combat": {
+      "creatureType": "Beast",
+      "size": "Large",
+      "abilities": {
+        "Str": 17,
+        "Dex": 13,
+        "Con": 15,
+        "Int": 4,
+        "Wis": 14,
+        "Cha": 3
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 40
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "understands the languages you know"
+      ],
+      "passivePerception": 12,
+      "challenge": "None",
+      "xp": 0,
+      "alignment": "Unaligned",
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 1,
+        "Con": 2,
+        "Int": -3,
+        "Wis": 2,
+        "Cha": -4
+      }
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Spider Climb",
+          "effectNote": "Climbs difficult surfaces and ceilings without an ability check."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "attackCount": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellLevel",
+                "factor": 1
+              }
+            ],
+            "divideBy": 2
+          }
+        },
+        {
+          "name": "Poison Jab",
+          "toHit": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellAttack",
+                "factor": 1
+              }
+            ]
+          },
+          "reachFeet": 10,
+          "attackMode": "melee",
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 6,
+              "bonus": {
+                "base": 3,
+                "terms": [
+                  {
+                    "input": "spellLevel",
+                    "factor": 1
+                  }
+                ]
+              },
+              "damageType": "piercing",
+              "trigger": "hit"
+            },
+            {
+              "diceCount": 1,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "hit"
+            }
+          ]
+        },
+        {
+          "name": "Web Bolt",
+          "toHit": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellAttack",
+                "factor": 1
+              }
+            ]
+          },
+          "rangeFeet": [
+            60
+          ],
+          "attackMode": "ranged",
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 10,
+              "bonus": {
+                "base": 3,
+                "terms": [
+                  {
+                    "input": "spellLevel",
+                    "factor": 1
+                  }
+                ]
+              },
+              "damageType": "bludgeoning",
+              "trigger": "hit"
+            }
+          ],
+          "effectNote": "On a hit, the target’s speed is 0 until the start of the insect’s next turn."
+        }
+      ],
+      "Spell": [
+        {
+          "name": "Giant Insect",
+          "effectNote": "Level 4 Druid conjuration. An action, verbal and somatic components, range 60 ft., and concentration up to 10 minutes. The chosen beast appears in a visible free space within range."
+        },
+        {
+          "name": "Commands",
+          "effectNote": "The beast is allied and acts just after the caster on the same initiative count. Verbal orders cost the caster no action. Without orders it Dodges and moves to avoid danger. It disappears at 0 HP or when the spell ends."
+        }
+      ]
+    },
+    "armorClass": {
+      "base": 11,
+      "terms": [
+        {
+          "input": "spellLevel",
+          "factor": 1
+        }
+      ]
+    },
+    "hitPoints": {
+      "base": 30,
+      "terms": [
+        {
+          "input": "spellLevel",
+          "factor": 10,
+          "above": 4
+        }
+      ]
+    },
+    "summonSource": "Giant Insect",
+    "minSpellLevel": 4,
+    "proficiency": {
+      "base": 0,
+      "terms": [
+        {
+          "input": "proficiency",
+          "factor": 1
+        }
+      ]
+    }
+  },
+  {
+    "edition": "2024 fifth edition",
+    "publication": "SRD 5.2.1",
+    "name": "Giant Insect (Wasp)",
+    "kind": "beast",
+    "combat": {
+      "creatureType": "Beast",
+      "size": "Large",
+      "abilities": {
+        "Str": 17,
+        "Dex": 13,
+        "Con": 15,
+        "Int": 4,
+        "Wis": 14,
+        "Cha": 3
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 40,
+        "fly": 40
+      },
+      "senses": [
+        "Darkvision 60 ft."
+      ],
+      "languages": [
+        "understands the languages you know"
+      ],
+      "passivePerception": 12,
+      "challenge": "None",
+      "xp": 0,
+      "alignment": "Unaligned",
+      "savingThrows": {
+        "Str": 3,
+        "Dex": 1,
+        "Con": 2,
+        "Int": -3,
+        "Wis": 2,
+        "Cha": -4
+      }
+    },
+    "mechanics": {
+      "Traits": [
+        {
+          "name": "Spider Climb",
+          "effectNote": "Climbs difficult surfaces and ceilings without an ability check."
+        }
+      ],
+      "Actions": [
+        {
+          "name": "Multiattack",
+          "attackCount": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellLevel",
+                "factor": 1
+              }
+            ],
+            "divideBy": 2
+          }
+        },
+        {
+          "name": "Poison Jab",
+          "toHit": {
+            "base": 0,
+            "terms": [
+              {
+                "input": "spellAttack",
+                "factor": 1
+              }
+            ]
+          },
+          "reachFeet": 10,
+          "attackMode": "melee",
+          "damageRolls": [
+            {
+              "diceCount": 1,
+              "die": 6,
+              "bonus": {
+                "base": 3,
+                "terms": [
+                  {
+                    "input": "spellLevel",
+                    "factor": 1
+                  }
+                ]
+              },
+              "damageType": "piercing",
+              "trigger": "hit"
+            },
+            {
+              "diceCount": 1,
+              "die": 4,
+              "bonus": 0,
+              "damageType": "poison",
+              "trigger": "hit"
+            }
+          ]
+        }
+      ],
+      "Spell": [
+        {
+          "name": "Giant Insect",
+          "effectNote": "Level 4 Druid conjuration. An action, verbal and somatic components, range 60 ft., and concentration up to 10 minutes. The chosen beast appears in a visible free space within range."
+        },
+        {
+          "name": "Commands",
+          "effectNote": "The beast is allied and acts just after the caster on the same initiative count. Verbal orders cost the caster no action. Without orders it Dodges and moves to avoid danger. It disappears at 0 HP or when the spell ends."
+        }
+      ]
+    },
+    "armorClass": {
+      "base": 11,
+      "terms": [
+        {
+          "input": "spellLevel",
+          "factor": 1
+        }
+      ]
+    },
+    "hitPoints": {
+      "base": 30,
+      "terms": [
+        {
+          "input": "spellLevel",
+          "factor": 10,
+          "above": 4
+        }
+      ]
+    },
+    "summonSource": "Giant Insect",
+    "minSpellLevel": 4,
+    "proficiency": {
+      "base": 0,
+      "terms": [
+        {
+          "input": "proficiency",
+          "factor": 1
+        }
+      ]
+    }
+  }
+]

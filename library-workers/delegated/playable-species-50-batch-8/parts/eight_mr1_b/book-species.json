@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Galeb Duhr",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+      "Galeb Duhr, also written Galeb-Duhr. Medium Elemental, 15-ft. walking speed, +1 Strength and +1 Constitution. Speaks, reads and writes Terran.",
+      "The elemental can go without air, food, drink or sleep and instead rests semiconsciously for 4 hours for the benefit of an ordinary night of sleep.",
+      "False Appearance. After a minute motionless and concentrating as for a spell, the elemental blends in as long as it stays still. Use a boulder as the form.",
+      "Natural armor is 14 + Dexterity modifier while unarmored. The slam is a 1d8 bludgeoning unarmed strike. Stone Body prevents poison damage and the exhaustion, paralysis, petrification and poisoned conditions.",
+      "Start or stop rolling as a bonus action. Rolling doubles the base speed, or quadruples it downhill. While rolling, use the Dash action and a bonus action to slam once or shove once. The follow-up ends the roll."
+    ]
+  },
+  {
+    "name": "Gargoyle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+      "Medium Elemental with 30-ft. walking speed. Choose +1 Strength or +1 Constitution. Speaks, reads and writes Terran.",
+      "The elemental can go without air, food, drink or sleep and instead rests semiconsciously for 4 hours for the benefit of an ordinary night of sleep.",
+      "False Appearance. After a minute motionless and concentrating as for a spell, the elemental blends in as long as it stays still. Use a statue as the form.",
+      "Flies 30 ft. in light armor or while unarmored. Medium or heavy armor prevents this flight. Darkvision 60 ft. cannot distinguish colors in darkness.",
+      "Natural armor is 12 + Dexterity modifier while unarmored. Claws are 1d4 slashing unarmed strikes. Stone Body prevents poison damage and the poisoned and petrified conditions."
+    ]
+  },
+  {
+    "name": "Gibbering Mouther",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+      "Medium Aberration with +2 Constitution, 20-ft. walking speed and 20-ft. swimming speed. Speaks, reads and writes Common.",
+      "The gelatinous body has no arms or hands and cannot wear armor. It cannot wield weapons, wear shields or use gear requiring manipulation. Bites are 1d8 slashing unarmed strikes.",
+      "Blinding Spittle. Use an action against one visible creature within 15 ft. It makes a Dexterity save against 8 + proficiency bonus + Constitution modifier or is blinded through the end of the mouther's next turn. Recharges on a short or long rest.",
+      "Gibber. As an action, each creature within 20 ft. that can hear it rolls a Wisdom save against 8 + proficiency bonus + Charisma modifier. On a failure, it loses reactions until the start of its next turn. For that turn, roll 1d8. On 1–4 it does nothing. On 5–6 it uses its movement in a random direction and takes no action or bonus action. On 7–8 it makes one melee attack against a random creature in reach, or does nothing if unable. Recharges on a short or long rest.",
+      "Trip. After hitting with an unarmed strike, the mouther can use a bonus action to attempt to shove that target prone under the normal shove rules."
+    ]
+  },
+  {
+    "name": "Grell",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+      "Medium Aberration with +1 Strength and +1 Dexterity. Walks 10 ft. and speaks Grell.",
+      "Eyeless and blind, with 30-ft. blindsight and immunity to the blinded condition. There is no sight beyond its blindsight.",
+      "Flies 30 ft. and can hover as long as it wears neither medium nor heavy armor. It is immune to the prone condition.",
+      "The character has no hands and cannot wield manufactured weapons, wear shields or use manipulated items such as tools, wands or spellcasting foci. Its beak is a 1d8 slashing unarmed strike."
+    ]
+  },
+  {
+    "name": "Grick",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "traits": [
+      "Tyler Kamstra's player conversion for 2014 fifth edition, published through Dungeon Masters Guild and verified in the v2 text.",
+      "Medium Monstrosity with +1 Strength, +1 Dexterity and +1 Wisdom. Walking and climbing speeds are both 30 ft. Speaks, reads and writes Common.",
+      "Darkvision 60 ft. distinguishes shades of gray in darkness. Stone Camouflage grants advantage on Dexterity (Stealth) checks to hide in rocky terrain.",
+      "Natural armor is 12 + Dexterity modifier while unarmored. Beak and tentacles are 1d8 unarmed strikes, choosing bludgeoning or slashing.",
+      "The character has no hands and cannot wield manufactured weapons, wear shields or use manipulated items such as tools, wands or spellcasting foci."
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Cat",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 354,
+    "printedPages": [
+      354
+    ],
+    "viewerPages": [
+      354
+    ],
+    "pageNumbering": "Printed and viewer pages match.",
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 13
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "The stat block gives Tiny size and the Claws attack. Tabby coat, proportions and color are editorial choices in the shared portrait.",
+    "habitatEvidence": "Settlements, farms and woodland edges are suggested encounter locations for an ordinary domestic cat.",
+    "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+    "mechanicsNotes": []
+  },
+  {
+    "name": "Cat",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printing": "2014 rules, 11th printing checked",
+    "publisher": "Wizards of the Coast",
+    "printedPage": 320,
+    "printedPages": [
+      320
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "url": "https://anyflip.com/kqwdv/eoae/basic/301-350",
+    "publisherReprint": "https://www.dndbeyond.com/monsters/16820-cat",
+    "errata": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "appearanceEvidence": "The printed block gives Tiny size and a Claws attack. Tabby coat, proportions and color are editorial choices in the shared portrait.",
+    "habitatEvidence": "Settlements, farms and woodland edges are suggested encounter locations for an ordinary domestic cat.",
+    "habitatSourceKind": "Editorial encounter suggestions. The printed block gives no habitat.",
+    "secondaryCrossCheck": "5etools matched the printed Cat numbers.",
+    "mechanicsNotes": [
+      "The printed +0 Claws attack and fixed 1 slashing damage agree with the official legacy Basic Rules reprint."
+    ]
+  },
+  {
+    "name": "Hyena",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 360,
+    "printedPages": [
+      360
+    ],
+    "viewerPages": [
+      360
+    ],
+    "pageNumbering": "Printed and viewer pages match.",
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 10
+    },
+    "abilityModifiers": {
+      "STR": 0,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Spotted-hyena coloring and silhouette are ordinary-animal editorial choices. The v0.2 entry gives Medium size and a Bite.",
+    "habitatEvidence": "The suggested savanna, open grassland and dry scrub encounters follow the spotted hyena represented in the portrait.",
+    "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+    "mechanicsNotes": [
+      "The printed p. 360 trait has incompatible DC expressions. A minimum of three participants gives DC 11 under 8 + number of hyenas, while the preceding sentence gives DC 10. Both expressions are preserved."
+    ]
+  },
+  {
+    "name": "Jackal",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 362,
+    "printedPages": [
+      362
+    ],
+    "viewerPages": [
+      362
+    ],
+    "pageNumbering": "Printed and viewer pages match.",
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 13,
+      "Stealth": 11
+    },
+    "abilityModifiers": {
+      "STR": -1,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Black-backed jackal traits and colors are ordinary-animal editorial choices for this Small Beast.",
+    "habitatEvidence": "Savanna, dry scrub and open grassland are suggested encounter locations for the animal in the portrait.",
+    "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+    "mechanicsNotes": [
+      "The 2014 Jackal has its own rules. The Black Flag v0.2 Jackal’s Bite includes the printed disease."
+    ]
+  },
+  {
+    "name": "Lizard",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printing": "Reference Document v0.2, May 2024 ",
+    "publisher": "Open Design LLC d/b/a Kobold Press",
+    "pdfPage": 363,
+    "printedPages": [
+      363
+    ],
+    "viewerPages": [
+      363
+    ],
+    "pageNumbering": "Printed and viewer pages match.",
+    "section": "Monsters",
+    "sourceUrl": "",
+    "url": "",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xp": 10,
+    "xpSource": "",
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 12
+    },
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 0,
+      "CON": 0,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "hitDiceEvidence": "The v0.2 block gives fixed HP without Hit Dice.",
+    "appearanceEvidence": "Tiny size and the detachable tail come from the v0.2 block. The color, pebbled scales and silhouette are editorial portrait choices.",
+    "habitatEvidence": "Rocky ground, scrub and walls are suggested encounter locations based on the pictured lizard and its climb speed.",
+    "habitatSourceKind": "Editorial encounter suggestions. The native stat block gives no habitat.",
+    "mechanicsNotes": [
+      "The printed reaction gives a 5 HP threshold and a short or long rest recharge. It supplies no additional tail regrowth timing."
+    ]
+  }
+]

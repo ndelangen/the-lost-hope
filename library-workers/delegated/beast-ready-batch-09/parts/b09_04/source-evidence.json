@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Crocodile",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      352
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775811-crocodile",
+    "url": "https://www.dndbeyond.com/monsters/4775811-crocodile",
+    "publisherByline": "Monster Manual, pg. 352",
+    "operationalEvidence": "The publisher entry supplies the 1-hour Hold Breath, Constitution save +3, and size-limited Bite grapple and restraint. The general 2024 Grappling rule supplies jaw occupancy and the ways to end the grapple.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "supportingRulesUrl": "https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Grappling",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "crocodile",
+    "reuseSha256": "e1ce18257a00e51ed62d9595c6d622ba7d0edf9c7cc52076337532c67b9b8b4a"
+  },
+  {
+    "name": "Deer",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      352
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194966-deer",
+    "url": "https://www.dndbeyond.com/monsters/5194966-deer",
+    "publisherByline": "Monster Manual, pg. 352",
+    "operationalEvidence": "The publisher entry gives the Agile movement exception, Constitution 11, and the 1d4 Ram without a damage modifier.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "sourceDiscrepancies": "D&D Beyond renders Deer’s sense as “Darkvision 60”. The matching XMM index transcription for p. 352 includes feet. The profile restores that unit.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "deer",
+    "reuseSha256": "cf63ea699acc175d9d838d957ec0f26cd6cb3cc38b717cdb0561936c11605242"
+  },
+  {
+    "name": "Dire Wolf",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      352
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+    "url": "https://www.dndbeyond.com/monsters/4775812-dire-wolf",
+    "publisherByline": "Monster Manual, pg. 352",
+    "operationalEvidence": "The Bite hit directly applies Prone to a Large or smaller creature. Pack Tactics needs an ally within 5 ft. of the target who lacks Incapacitated.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "dire-wolf",
+    "reuseSha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c"
+  },
+  {
+    "name": "Draft Horse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      352
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/4775813-draft-horse",
+    "url": "https://www.dndbeyond.com/monsters/4775813-draft-horse",
+    "publisherByline": "Monster Manual, pg. 352",
+    "operationalEvidence": "The publisher block gives one Hooves action, +6 to hit and 1d4 + 4 damage. Urban is the listed habitat.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "draft-horse",
+    "reuseSha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c"
+  },
+  {
+    "name": "Eagle",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "2024 fifth edition rules, Monster Manual released in 2025",
+    "printedPages": [
+      353
+    ],
+    "section": "Appendix A, Animals",
+    "sourceUrl": "https://www.dndbeyond.com/monsters/5194979-eagle",
+    "url": "https://www.dndbeyond.com/monsters/5194979-eagle",
+    "publisherByline": "Monster Manual, pg. 353",
+    "operationalEvidence": "The publisher block has Talons +4 to hit, Perception +6 and Passive Perception 16. Its senses line lists only Passive Perception.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual",
+    "errataPdfUrl": "",
+    "errataEvidence": "The April 30, 2025 publisher errata and its version 1.0 list no correction for this creature.",
+    "appearanceEvidence": "Editorial description of the verified reused portrait.",
+    "habitatEvidence": "Habitat tags from the publisher stat block.",
+    "artGroup": "eagle",
+    "reuseSha256": "5afbbb2846bbd876b515e7226034b341d8a78d7f425145451029812c5babc65b"
+  }
+]

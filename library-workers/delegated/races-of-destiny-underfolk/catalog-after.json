@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Underfolk",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "7529faa5212d92d4d752271a",
+      "publication": "Races of Destiny (2004)",
+      "edition": "3.5 edition",
+      "source": "https://openlibrary.org/books/OL8144441M",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Human)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Human subtype. Base land speed 30 ft. The printed entry gives no racial ability-score adjustment, natural armor, or level adjustment.",
+            "Darkvision reaches 60 ft. and sees in black and white. +2 racial bonus on Listen checks.",
+            "Gain 4 extra skill points at 1st level after the class calculation and 1 extra skill point each subsequent level.",
+            "Weapon Familiarity treats light and heavy picks as simple weapons.",
+            "Camouflage (Ex): change skin coloration at will to match terrain. Gain a +4 racial bonus to Hide, which increases to a total of +10 in rocky terrain. Darkvision does not negate the bonus. True seeing negates it. Normal Hide requirements still apply.",
+            "Light Sensitivity (Ex): bright sunlight or the radius of a daylight spell causes the dazzled condition. In 3.5, dazzled gives −1 to attack rolls, Search, and Spot.",
+            "Common is automatic. The printed bonus languages are Drow, Dwarven, Gnome, Goblin, and Orc. Favored class Any. For multiclass experience penalties, exclude the highest-level class."
+          ]
+        },
+        {
+          "title": "Original NPC · Berren Shalebank",
+          "lines": [
+            "Ore assayer and Expert.",
+            "Motive. Identify which shipment carries a counterfeit stamp before the ore lots are mixed.",
+            "Hook. Berren can compare the samples in the covered counting room if the party finds the missing merchant seal.",
+            "Underfolk ore assayer, Expert 1 · Provisional CR 1/2. ECL 1. · Medium Humanoid (Human)",
+            "AC 13 · HP 8 (1d6+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Lysa Chalkmark",
+          "lines": [
+            "Gallery watch and Ranger.",
+            "Motive. Find a quiet gap in an old stone sentry’s route so repairers can reach a counterweight.",
+            "Hook. Lysa can listen for the sentry and guide the party between passes if they leave the narrow ledge clear.",
+            "Underfolk gallery watch, Ranger 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Human)",
+            "AC 15 · HP 9 (1d8+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Berren Shalebank": [
+          {
+            "start": 15,
+            "end": 31,
+            "target": {
+              "name": "Berren Shalebank",
+              "group": "Underfolk",
+              "publication": "Underfolk ore assayer, Expert 1",
+              "local": {
+                "entry": "npc-fcaf382840571d7ad12c1e96",
+                "version": "7f541584a7a984d2fc92dbfb"
+              }
+            }
+          }
+        ],
+        "Original NPC · Lysa Chalkmark": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Lysa Chalkmark",
+              "group": "Underfolk",
+              "publication": "Underfolk gallery watch, Ranger 1",
+              "local": {
+                "entry": "npc-be623557067a6d9196ec2b62",
+                "version": "8b9c6c5ff6463f8944c07889"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Underfolk": true,
+      "underfolk camouflage": true,
+      "underfolk light sensitivity": true,
+      "underfolk ore assayer": true,
+      "underfolk gallery watch": true
+    },
+    "hash": "f4e4b2cd855a948f6044638b7ab09b637dbfa43176590415a5bdb29ab725e0cb",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Races of Destiny (2004)",
+    "defaultVersionKey": "7529faa5212d92d4d752271a",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

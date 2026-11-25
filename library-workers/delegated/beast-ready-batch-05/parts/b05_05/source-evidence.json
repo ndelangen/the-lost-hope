@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Hunter Shark",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      140
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16928-hunter-shark",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "Both printings give adult length. The tiger shark shape and markings are editorial choices for the portrait.",
+    "habitatSource": "Both printings place the hunter shark in deep waters. The official legacy listing also tags Underwater."
+  },
+  {
+    "name": "Hunter Shark",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      330
+    ],
+    "pageNumbering": "Printed Monster Manual folio.",
+    "url": "https://www.dndbeyond.com/monsters/16928-hunter-shark",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16928-hunter-shark",
+    "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+    "appearanceSource": "Both printings give adult length. The tiger shark shape and markings are editorial choices for the portrait.",
+    "habitatSource": "Both printings place the hunter shark in deep waters. The official legacy listing also tags Underwater.",
+    "errataUrl": ""
+  },
+  {
+    "name": "Killer Whale",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      142
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16937-killer-whale",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "The printings identify a Huge killer whale. The portrait uses editorial natural-history details of an orca.",
+    "habitatSource": "Underwater is tagged in the official D&D Beyond legacy listing. Coastal waters and open ocean are editorial habitat tags."
+  },
+  {
+    "name": "Killer Whale",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      331
+    ],
+    "pageNumbering": "Printed Monster Manual folio.",
+    "url": "https://www.dndbeyond.com/monsters/16937-killer-whale",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16937-killer-whale",
+    "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+    "appearanceSource": "The printings identify a Huge killer whale. The portrait uses editorial natural-history details of an orca.",
+    "habitatSource": "Underwater is tagged in the official D&D Beyond legacy listing. Coastal waters and open ocean are editorial habitat tags.",
+    "errataUrl": ""
+  },
+  {
+    "name": "Plesiosaurus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "D&D Basic Rules v1.0 (November 2018)",
+    "printedPages": [
+      149
+    ],
+    "pageNumbering": "Printed page and one-based page match.",
+    "url": "",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+    "verification": "Read the official 2018 .",
+    "appearanceSource": "Monster Manual p. 79 describes a compact body, flippers and a long flexible neck. Basic Rules p. 149 describes the flexible neck. Color comes from the reused editorial portrait.",
+    "habitatSource": "Coastal and underwater are tagged in the official D&D Beyond legacy listing. The source descriptions identify a marine predator."
+  },
+  {
+    "name": "Plesiosaurus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "printing": "September 2014 first printing",
+    "printedPages": [
+      80
+    ],
+    "pageNumbering": "Printed Monster Manual folio.",
+    "url": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+    "officialOnlineReference": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+    "verification": "Read the actual first printing and checked the official 2018 Monster Manual errata for creature-specific changes.",
+    "appearanceSource": "Monster Manual p. 79 describes a compact body, flippers and a long flexible neck. Basic Rules p. 149 describes the flexible neck. Color comes from the reused editorial portrait.",
+    "habitatSource": "Coastal and underwater are tagged in the official D&D Beyond legacy listing. The source descriptions identify a marine predator.",
+    "errataUrl": ""
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Human Death Acolyte",
+    "source": "https://www.dndbeyond.com/monsters/4485893-human-death-acolyte",
+    "challenge": "2",
+    "entry": "monster-78429cda0cc9d5c1fc40405d",
+    "version": "8d61290c9bb2f421a272b9c9",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-death-acolyte",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "5f522f744b0e31b5ff3a5507dc309677d49a171954459d641cc5decacafdc6b1",
+    "status": "Stat block",
+    "appearance": "A funerary attendant in a russet hood and worn leather, carrying a candle and bone pendant.",
+    "habitats": [
+      "Crypts",
+      "Graveyards",
+      "Hidden shrines"
+    ]
+  },
+  {
+    "name": "Human Death Cultist",
+    "source": "https://www.dndbeyond.com/monsters/4485894-human-death-cultist",
+    "challenge": "4",
+    "entry": "monster-c747c63469f294a0c72fba66",
+    "version": "f19e3bfabb189ddf0c0317d8",
+    "publication": "Flee, Mortals!",
+    "edition": "2014 fifth edition compatible",
+    "slug": "human-death-cultist",
+    "kind": "monster",
+    "type": "Humanoid",
+    "encounterStatus": "local-stat-block",
+    "generated": true,
+    "primaryPortraitSha256": "da150862db2893d2de0178cb982f52347c5404ca8fae85b956ddcfd6e2b422cb",
+    "status": "Stat block",
+    "appearance": "A cult leader in an oxblood cowl and black vestments over chain mail, carrying a ceremonial scythe.",
+    "habitats": [
+      "Crypts",
+      "Graveyards",
+      "Desecrated temples"
+    ]
+  }
+]

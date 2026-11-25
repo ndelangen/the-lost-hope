@@ -1,0 +1,488 @@
+[
+  {
+    "name": "Archmage",
+    "statBlock": {
+      "name": "Archmage",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 99,
+      "hitDice": "18d8 + 18",
+      "speed": "30 ft.",
+      "cr": "12",
+      "xp": 8400,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A veteran wizard with apprentices, wards, and guardians. An archmage might advise a ruler, pursue lichdom, or retreat to a tower to study.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "AC 12 unarmored, or 15 with Mage Armor.",
+        "Damage resistances": "Damage from spells. While protected by Stoneskin, also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Languages": "Any six languages.",
+        "Traits": "Magic Resistance. The archmage has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "18th-level wizard, using Intelligence. Spell save DC 17. Spell attacks +9.\nAt will: Disguise Self, Invisibility.\nCantrips (at will): Fire Bolt, Light, Mage Hand, Prestidigitation, Shocking Grasp.\n1st level (4 slots): Detect Magic, Identify, Mage Armor, Magic Missile.\n2nd level (3 slots): Detect Thoughts, Mirror Image, Misty Step.\n3rd level (3 slots): Counterspell, Fly, Lightning Bolt.\n4th level (3 slots): Banishment, Fire Shield, Stoneskin.\n5th level (3 slots): Cone of Cold, Scrying, Wall of Force.\n6th level (1 slot): Globe of Invulnerability.\n7th level (1 slot): Teleport.\n8th level (1 slot): Mind Blank.\n9th level (1 slot): Time Stop.\nBefore combat, the archmage casts Mage Armor, Stoneskin, and Mind Blank on itself.\nFor attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 342. Resistance and spellcasting terminology follow the official errata."
+      },
+      "skills": {
+        "Arcana": 13,
+        "History": 13
+      },
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 6
+      },
+      "passivePerception": 12
+    }
+  },
+  {
+    "name": "Archmage (Familiar)",
+    "statBlock": {
+      "name": "Archmage (Familiar)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 99,
+      "hitDice": "18d8 + 18",
+      "speed": "30 ft.",
+      "cr": "12",
+      "xp": 8400,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 20
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "description": "A veteran wizard with apprentices, wards, and guardians. An archmage might advise a ruler, pursue lichdom, or retreat to a tower to study.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "AC 12 unarmored, or 15 with Mage Armor.",
+        "Damage resistances": "Damage from spells. While protected by Stoneskin, also resists bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Languages": "Any six languages.",
+        "Traits": "Magic Resistance. The archmage has advantage on saving throws against spells and other magical effects.",
+        "Spellcasting": "18th-level wizard, using Intelligence. Spell save DC 17. Spell attacks +9.\nAt will: Disguise Self, Invisibility.\nCantrips (at will): Fire Bolt, Light, Mage Hand, Prestidigitation, Shocking Grasp.\n1st level (4 slots): Detect Magic, Identify, Mage Armor, Magic Missile.\n2nd level (3 slots): Detect Thoughts, Mirror Image, Misty Step.\n3rd level (3 slots): Counterspell, Fly, Lightning Bolt.\n4th level (3 slots): Banishment, Fire Shield, Stoneskin.\n5th level (3 slots): Cone of Cold, Scrying, Wall of Force.\n6th level (1 slot): Globe of Invulnerability.\n7th level (1 slot): Teleport.\n8th level (1 slot): Mind Blank.\n9th level (1 slot): Time Stop.\nBefore combat, the archmage casts Mage Armor, Stoneskin, and Mind Blank on itself.\nFor attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 10, 342, and 347. The familiar option is on p. 347.",
+        "Variant: Familiar": "The sidebar says a spellcaster who can cast Find Familiar is likely to have a familiar. Choose a form listed in the spell or another Tiny monster, such as a Crawling Claw, Imp, Pseudodragon, or Quasit. For this encounter, the DM chooses the form and can place the familiar with the caster at the start. Use the chosen creature's profile for its statistics. The sidebar leaves the bond mechanics open. The DM can use Find Familiar or the creature's own independent familiar trait, if it has one. The sidebar leaves the caster's prepared spells and challenge rating as printed. Decide separately whether it can cast Find Familiar during play."
+      },
+      "skills": {
+        "Arcana": 13,
+        "History": 13
+      },
+      "savingThrows": {
+        "Int": 9,
+        "Wis": 6
+      },
+      "passivePerception": 12
+    }
+  },
+  {
+    "name": "Mage",
+    "statBlock": {
+      "name": "Mage",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A practiced wizard. Some mages advise nobles. Others keep their work secluded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "AC 12 unarmored, or 15 with Mage Armor.",
+        "Languages": "Any four languages.",
+        "Spellcasting": "9th-level wizard, using Intelligence. Spell save DC 14. Spell attacks +6.\nCantrips (at will): Fire Bolt, Light, Mage Hand, Prestidigitation.\n1st level (4 slots): Detect Magic, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots): Misty Step, Suggestion.\n3rd level (3 slots): Counterspell, Fireball, Fly.\n4th level (3 slots): Greater Invisibility, Ice Storm.\n5th level (1 slot): Cone of Cold.\nFor attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 347. Spellcasting incorporates the official errata."
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Mage (Familiar)",
+    "statBlock": {
+      "name": "Mage (Familiar)",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 12,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "cr": "6",
+      "xp": 2300,
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A practiced wizard. Some mages advise nobles. Others keep their work secluded.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "AC 12 unarmored, or 15 with Mage Armor.",
+        "Languages": "Any four languages.",
+        "Spellcasting": "9th-level wizard, using Intelligence. Spell save DC 14. Spell attacks +6.\nCantrips (at will): Fire Bolt, Light, Mage Hand, Prestidigitation.\n1st level (4 slots): Detect Magic, Mage Armor, Magic Missile, Shield.\n2nd level (3 slots): Misty Step, Suggestion.\n3rd level (3 slots): Counterspell, Fireball, Fly.\n4th level (3 slots): Greater Invisibility, Ice Storm.\n5th level (1 slot): Cone of Cold.\nFor attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 4 (1d4 + 2) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 347. The mage and the familiar option are both on p. 347.",
+        "Variant: Familiar": "The sidebar says a spellcaster who can cast Find Familiar is likely to have a familiar. Choose a form listed in the spell or another Tiny monster, such as a Crawling Claw, Imp, Pseudodragon, or Quasit. For this encounter, the DM chooses the form and can place the familiar with the caster at the start. Use the chosen creature's profile for its statistics. The sidebar leaves the bond mechanics open. The DM can use Find Familiar or the creature's own independent familiar trait, if it has one. The sidebar leaves the caster's prepared spells and challenge rating as printed. Decide separately whether it can cast Find Familiar during play."
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "savingThrows": {
+        "Int": 6,
+        "Wis": 4
+      },
+      "passivePerception": 11
+    }
+  },
+  {
+    "name": "Acolyte",
+    "statBlock": {
+      "name": "Acolyte",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 10,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "cr": "1/4",
+      "xp": 50,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "description": "A junior temple cleric who serves under a priest and can cast a few divine spells.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "One language, usually Common.",
+        "Spellcasting": "1st-level cleric, using Wisdom. Spell save DC 12. Spell attacks +4.\nCantrips (at will): Light, Sacred Flame, Thaumaturgy.\n1st level (3 slots): Bless, Cure Wounds, Sanctuary.\nFor attunement and magic item use, treat this NPC as a member of the listed class and as having access to its spell list.",
+        "Actions": "Club. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d4) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), pp. 10 and 342. Passive Perception follows the official errata."
+      },
+      "skills": {
+        "Medicine": 4,
+        "Religion": 2
+      },
+      "savingThrows": {},
+      "passivePerception": 12
+    }
+  },
+  {
+    "name": "Assassin",
+    "statBlock": {
+      "name": "Assassin",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any non-good alignment",
+      "ac": 15,
+      "hp": 78,
+      "hitDice": "12d8 + 24",
+      "speed": "30 ft.",
+      "cr": "8",
+      "xp": 3900,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A hired killer who uses surprise and poison. A ruler or guild might keep one on retainer.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Studded leather.",
+        "Damage resistances": "Poison.",
+        "Languages": "Thieves' Cant and any two languages.",
+        "Traits": "Assassinate. On its first turn, the assassin has advantage on attacks against creatures that haven't acted yet. A hit against a surprised creature is a critical hit.\nEvasion. When a Dexterity save would reduce damage to half, the assassin takes no damage on a success and half on a failure.\nSneak Attack (once per turn). A weapon hit deals an extra 14 (4d6) damage if the roll had advantage. It also qualifies if the target is within 5 ft. of one of the assassin's allies who is not incapacitated and the roll had no disadvantage.",
+        "Actions": "Multiattack. Make two Shortsword attacks.\nShortsword. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage. The target makes a DC 15 Constitution save, taking 24 (7d6) poison damage on a failure or half on a success.\nLight Crossbow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. Hit 7 (1d8 + 3) piercing damage. The target makes a DC 15 Constitution save, taking 24 (7d6) poison damage on a failure or half on a success.",
+        "Printed source": "Monster Manual (2014), p. 343. Saves, skills, passive Perception, Sneak Attack damage, and attack bonuses follow the official errata."
+      },
+      "skills": {
+        "Acrobatics": 6,
+        "Deception": 3,
+        "Perception": 3,
+        "Stealth": 9
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Int": 4
+      },
+      "passivePerception": 13
+    }
+  },
+  {
+    "name": "Bandit",
+    "statBlock": {
+      "name": "Bandit",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any non-lawful alignment",
+      "ac": 12,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "cr": "1/8",
+      "xp": 25,
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "A gang member or pirate. Some crews raid for profit. Others take to the road after famine or persecution.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Leather armor.",
+        "Languages": "One language, usually Common.",
+        "Actions": "Scimitar. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) slashing damage.\nLight Crossbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 5 (1d8 + 1) piercing damage.",
+        "Printed source": "Monster Manual (2014), pp. 343–344."
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10
+    }
+  },
+  {
+    "name": "Bandit Captain",
+    "statBlock": {
+      "name": "Bandit Captain",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any non-lawful alignment",
+      "ac": 15,
+      "hp": 65,
+      "hitDice": "10d8 + 20",
+      "speed": "30 ft.",
+      "cr": "2",
+      "xp": 450,
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "description": "A gang leader or pirate captain who keeps a crew in line through cunning and force. Prisoners might earn better treatment by flattering the captain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Studded leather.",
+        "Languages": "Any two languages.",
+        "Actions": "Multiattack. Make two melee Scimitar attacks and one melee Dagger attack, or two ranged Dagger attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) slashing damage.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit 5 (1d4 + 3) piercing damage.",
+        "Reactions": "Parry. When a melee attack would hit, the captain can gain +2 AC against it if the captain can see the attacker and is wielding a melee weapon.",
+        "Printed source": "Monster Manual (2014), p. 344."
+      },
+      "skills": {
+        "Athletics": 4,
+        "Deception": 4
+      },
+      "savingThrows": {
+        "Str": 4,
+        "Dex": 5,
+        "Wis": 2
+      },
+      "passivePerception": 10
+    }
+  },
+  {
+    "name": "Commoner",
+    "statBlock": {
+      "name": "Commoner",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Medium humanoid (any race), any alignment",
+      "ac": 10,
+      "hp": 4,
+      "hitDice": "1d8",
+      "speed": "30 ft.",
+      "cr": "0",
+      "xp": 10,
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "description": "Use this profile for ordinary townsfolk and travelers, such as artisans, merchants, servants, and pilgrims.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Languages": "One language, usually Common.",
+        "Actions": "Club. Melee weapon attack, +2 to hit, reach 5 ft., one target. Hit 2 (1d4) bludgeoning damage.",
+        "Printed source": "Monster Manual (2014), p. 345."
+      },
+      "skills": {},
+      "savingThrows": {},
+      "passivePerception": 10
+    }
+  }
+]

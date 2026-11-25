@@ -1,0 +1,279 @@
+{
+  "builds": [
+    {
+      "id": "mr2018-will-o-wisp-tallow",
+      "title": "Tallow of Siltford, Will-o’-Wisp Life Cleric 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Small",
+      "type": "Undead",
+      "speed": "0 ft. walking, 40 ft. flying",
+      "abilityScores": {
+        "STR": 1,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 10
+      },
+      "ac": 13,
+      "hp": 9,
+      "hitDice": "1d8 + 1",
+      "initiative": 3,
+      "skills": [
+        "Insight +4",
+        "Medicine +4",
+        "Persuasion +2",
+        "Religion +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 12.",
+      "languages": "Common and Elvish from life. Celestial and Dwarvish from Acolyte.",
+      "traits": [
+        "Proficiency +2. Wisdom and Charisma saves +4/+2. AC 13 is 10 + 3 Dexterity. Ephemeral prevents carrying equipment. At 0 HP, unconsciousness immunity means Tallow dies under the supplement's rule.",
+        "Life Cleric has two 1st-level spell slots per long rest. Spell attack +4 and save DC 12. Cantrips are Sacred Flame, Spare the Dying and Thaumaturgy. Prepared spells are Healing Word, Guiding Bolt and Sanctuary, plus the domain's Bless and Cure Wounds. Tallow can cast the prepared combat spells listed here. Bless and Sanctuary require materials that Tallow cannot carry.",
+        "Resists lightning and necrotic damage. Immune to poison damage, exhaustion, grappled, paralyzed, poisoned, prone, restrained and unconscious. Rest healing applies. Cure Wounds and Healing Word can heal eligible allies.",
+        "Acolyte gives Insight, Religion and two languages. Cleric adds Medicine and Persuasion. Tallow uses movement of their wisps for somatic components under the supplement's handless-casting rule."
+      ],
+      "actions": [
+        "Shock. Action, melee spell attack +4 within 5 ft. for 1d8 lightning.",
+        "Sacred Flame. Action, visible target within 60 ft., Dexterity DC 12 or 1d8 radiant damage. Cover gives the target no benefit on this save.",
+        "Guiding Bolt. Action, spend one slot, ranged spell attack +4 within 120 ft. for 4d6 radiant. The next attack against the target before the end of Tallow's next turn has advantage.",
+        "Healing Word. Bonus action, spend one slot. One visible creature within 60 ft. that can benefit regains 1d4 + 5 HP. Cure Wounds takes an action and touch and restores 1d8 + 5 HP for one slot. Disciple of Life contributes 3 HP to each. Bonus-action spell casting allows only a one-action cantrip as a second spell on that turn.",
+        "Spare the Dying. Action, touch a living creature at 0 HP to stabilize it. Constructs and undead are ineligible.",
+        "Hidden Step. Bonus action, once per short or long rest. Invisible until the start of the next turn or until attacking, rolling damage or forcing a save. Ignited Illumination toggles as a separate bonus action. Lit, bright 10 ft. plus dim 10 ft. Unlit, less than a candle.",
+        "Consume Life. Bonus action against a visible living creature at 0 HP within 5 ft. Constitution DC 11 or it dies. If it dies, Tallow may spend one Hit Die to regain 1d8 + 1 HP and gains a week's nourishment. A failed natural 1 produces a neutral wisp that can go a week without feeding."
+      ],
+      "tactics": "Tallow starts lit, asks for the grave charm, and withdraws across water if someone draws steel. When engaged, Tallow keeps distance with Sacred Flame and saves Hidden Step for a retreat."
+    },
+    {
+      "id": "mr2018-wraith-mara-moorwake",
+      "title": "Mara Moorwake, Wraith Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Undead",
+      "speed": "0 ft. walking, 30 ft. flying with hover",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 16,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 2,
+      "skills": [
+        "Athletics +4",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common and Orc from life.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4/+4. Unarmored Defense AC 16 is 10 + 2 Dexterity + 2 Constitution + 2 shield. HP 23 is 14 + 9. Bereft of Body allows the wooden shield.",
+        "Resists necrotic. Immune to poison damage and exhaustion, grappled, paralyzed, petrified, poisoned, prone and restrained. Undead can heal by resting under the supplement. Sunlight Sensitivity imposes disadvantage on attacks and sight-based Perception if Mara, her target or the sight subject is in direct sunlight.",
+        "Soldier gives Athletics and Intimidation. Barbarian gives Perception and Survival.",
+        "Rage twice per long rest as a bonus action. For up to 1 minute it grants advantage on Strength checks and saves, physical damage resistance and +2 damage on Strength melee weapon attacks. It ends if knocked unconscious or if a turn ends without attacking a hostile creature or taking damage since the previous turn. End it early with a bonus action.",
+        "Reckless Attack gives advantage on Strength melee weapon attacks for the turn when chosen on the first attack. Attacks against the barbarian have advantage until their next turn. Danger Sense gives advantage on Dexterity saves against visible effects while able to see and neither deafened nor incapacitated."
+      ],
+      "actions": [
+        "Life Drain. Strength melee unarmed strike +4, reach 5 ft. Hit 1d6 + 2 necrotic, or 1d6 + 4 during Rage.",
+        "Shove. Replace the Attack action's one attack. Athletics +4, with advantage while raging, against a foe's Athletics or Acrobatics. Push 5 ft. or knock prone if the target is within reach and no more than one size larger."
+      ],
+      "tactics": "Mara stays in shade beneath the bridge and hovers where the boats come close. If pressed, she rages and tries to shove a foe away from the bridge rail."
+    },
+    {
+      "id": "mr2018-wyvern-brackenwake",
+      "title": "Brackenwake, Wyvern Barbarian 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Dragon",
+      "speed": "20 ft. walking, 30 ft. flying",
+      "abilityScores": {
+        "STR": 17,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 15,
+      "hp": 23,
+      "hitDice": "2d12 + 4",
+      "initiative": 2,
+      "skills": [
+        "Animal Handling +3",
+        "Athletics +5",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13.",
+      "languages": "Common and Draconic from Outlander.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5/+4. Natural armor 15 is 13 + 2 Dexterity. Unarmored Defense is 14. HP 23 is 14 + 9.",
+        "Brackenwake's winged forelimbs and hind talons work without gear. Outlander gives Athletics, Survival and Draconic. Barbarian gives Animal Handling and Perception.",
+        "Rage twice per long rest as a bonus action. For up to 1 minute it grants advantage on Strength checks and saves, physical damage resistance and +2 damage on Strength melee weapon attacks. It ends if knocked unconscious or if a turn ends without attacking a hostile creature or taking damage since the previous turn. End it early with a bonus action.",
+        "Reckless Attack gives advantage on Strength melee weapon attacks for the turn when chosen on the first attack. Attacks against the barbarian have advantage until their next turn. Danger Sense gives advantage on Dexterity saves against visible effects while able to see and neither deafened nor incapacitated."
+      ],
+      "actions": [
+        "Stinger. Strength melee unarmed strike +5, reach 5 ft. Hit 1d4 + 3 piercing plus 1d4 poison. During Rage the piercing part is 1d4 + 5."
+      ],
+      "tactics": "Brackenwake uses flight to hold a ledge. If a trespasser reaches the nest he rages and strikes from the side with his tail."
+    },
+    {
+      "id": "mr2018-xorn-pinch-of-tin",
+      "title": "Pinch-of-Tin, Xorn Fighter 2",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Elemental",
+      "speed": "20 ft. walking, 20 ft. burrowing",
+      "abilityScores": {
+        "STR": 15,
+        "DEX": 13,
+        "CON": 15,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 19,
+      "hp": 20,
+      "hitDice": "2d10 + 4",
+      "initiative": 1,
+      "skills": [
+        "Athletics +4",
+        "Insight +3",
+        "Perception +3",
+        "Persuasion +2"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13. Treasure Sense locates precious metals and stones by scent within 60 ft.",
+      "languages": "Terran and Common from Guild Artisan.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +4/+4. Natural AC 17 plus shield 2 gives AC 19 while the shield benefit applies. HP 20 is 12 + 8. Three arms hold two shortswords and a shield. No worn armor.",
+        "Guild Artisan supplies Insight, Persuasion, smith's tools proficiency and Common. Fighter gives Athletics and Perception. Two-Weapon Fighting style adds the Strength modifier to the bonus attack's damage.",
+        "Earth Glide through nonmagical, unworked earth or stone leaves it undisturbed. Second Wind is a bonus action to heal 1d10 + 2 once per short or long rest. Action Surge grants one additional action on the turn once per short or long rest."
+      ],
+      "actions": [
+        "Shortsword. Strength melee attack +4, reach 5 ft. Hit 1d6 + 2 piercing. After a shortsword attack with the Attack action, the second shortsword can attack as a bonus action with the same hit and damage. If used, AC becomes 17 until the start of the next turn.",
+        "Claw. Strength melee unarmed strike +4, reach 5 ft. Hit 1d8 + 2 slashing."
+      ],
+      "tactics": "Pinch-of-Tin leads with a single sword and keeps the shield active. If forced to pursue, they use both blades or duck through unworked stone. Second Wind and the second blade compete for the bonus action."
+    },
+    {
+      "id": "mr2018-yeti-rusk-palecrag",
+      "title": "Rusk Palecrag, Yeti Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible (2014 rules)"
+      ],
+      "difficulty": "Tier 1 class-built NPC. CR unassigned.",
+      "size": "Medium",
+      "type": "Monstrosity",
+      "speed": "30 ft. walking, 30 ft. climbing",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 14,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 10
+      },
+      "ac": 15,
+      "hp": 12,
+      "hitDice": "1d10 + 2",
+      "initiative": 2,
+      "skills": [
+        "Athletics +5",
+        "Intimidation +2",
+        "Perception +3",
+        "Survival +3"
+      ],
+      "senses": "Darkvision 60 ft. Passive Perception 13, or 18 for smell.",
+      "languages": "Yeti.",
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5/+4. AC 15 is 11 natural + 2 Dexterity + 2 shield. HP 12 is 10 + 2 Constitution. Wields a longsword one-handed with Dueling.",
+        "Resists cold. Taking fire damage imposes disadvantage on attack rolls and ability checks until the end of Rusk's next turn. Keen Smell grants advantage on smell-based Perception. Snow Camouflage gives advantage on Stealth to hide in snow.",
+        "Soldier gives Athletics and Intimidation. Fighter gives Perception and Survival. Second Wind is a bonus action to heal 1d10 + 1 once per short or long rest."
+      ],
+      "actions": [
+        "Longsword. Strength melee attack +5, reach 5 ft. Hit 1d8 + 5 slashing, including Dueling. Claw is an unarmed attack +5, 5-ft. reach, for 1d4 + 3 slashing.",
+        "Chilling Gaze. Action, one visible target within 30 ft. that can see Rusk. Constitution DC 12 or 1d8 cold and speed reduced 10 ft. until the start of Rusk's next turn. DC 12 uses Constitution as the table ruling for the missing printed modifier."
+      ],
+      "tactics": "Rusk calls for visitors to leave the cornice before using Chilling Gaze. He uses the sword and shield in close quarters and heads uphill if someone brings fire."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Will-o’-Wisp",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Tallow of Siltford",
+      "size": "Small",
+      "build": "mr2018-will-o-wisp-tallow",
+      "role": "Bog crossing attendant",
+      "motive": "Collect a promised burial token.",
+      "hook": "Tallow knows the only sound stepping stones past midnight. A missing copper grave charm is their price for guiding the next crossing."
+    },
+    {
+      "species": "Wraith",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Mara Moorwake",
+      "size": "Medium",
+      "build": "mr2018-wraith-mara-moorwake",
+      "role": "Watchkeeper of a flooded bridge",
+      "motive": "Fulfill a paid watch by finding the debtor who hired her.",
+      "hook": "Mara rings a drowned bridge bell with her shield. Passing boats find her waiting for her last wage and asking who owns the bridge now."
+    },
+    {
+      "species": "Wyvern",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Brackenwake",
+      "size": "Medium",
+      "build": "mr2018-wyvern-brackenwake",
+      "role": "Slate quarry scout",
+      "motive": "Keep dragons and scavengers away from an unattended nest.",
+      "hook": "Brackenwake asks the party to chase a quarry trustee out of a nesting cleft. He can explain in Common which route avoids the loose slate."
+    },
+    {
+      "species": "Xorn",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Pinch-of-Tin",
+      "size": "Medium",
+      "build": "mr2018-xorn-pinch-of-tin",
+      "role": "Freelance ore assayer",
+      "motive": "Find the source of a shipment of counterfeit silver.",
+      "hook": "Pinch-of-Tin offers to sift mixed coin by scent. One pouch contains a fragment that smells like a missing mint die."
+    },
+    {
+      "species": "Yeti",
+      "speciesPublication": "Monstrous Races (2018)",
+      "edition": "Fifth edition compatible (2014 rules)",
+      "name": "Rusk Palecrag",
+      "size": "Medium",
+      "build": "mr2018-yeti-rusk-palecrag",
+      "role": "Snow pass toll keeper",
+      "motive": "Keep open the only marked trail across a dangerous slope.",
+      "hook": "Rusk keeps the old toll stones clear of snow. The party can pay in lamp oil, but he insists they extinguish their lamps near his post."
+    }
+  ]
+}

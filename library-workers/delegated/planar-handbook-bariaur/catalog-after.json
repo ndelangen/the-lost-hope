@@ -1,0 +1,1387 @@
+[
+  {
+    "name": "Bariaur",
+    "kind": "species",
+    "group": "Fifth edition",
+    "groups": [
+      "Fifth edition",
+      "3.5 edition"
+    ],
+    "global": true,
+    "wanderer": {
+      "id": "monster-8590c2610614d9abdfe6fd28",
+      "name": "Bariaur Wanderer",
+      "kind": "monster",
+      "group": "Celestial",
+      "groups": [
+        "Celestial"
+      ],
+      "images": [
+        {
+          "url": "",
+          "credit": "OpenAI ImageGen · The Lost Hope"
+        },
+        {
+          "url": "",
+          "credit": "D&D Beyond publisher art · Planescape: Adventures in the Multiverse"
+        },
+        {
+          "url": "",
+          "credit": "Morte's Planar Parade"
+        }
+      ],
+      "versions": [
+        {
+          "key": "15312f4e687642e91a58287c",
+          "publication": "Morte's Planar Parade",
+          "edition": "2014 fifth edition",
+          "description": "A Medium celestial with challenge rating 3. Named abilities include Portal Sense, Barbed Javelin, Ram.",
+          "source": "https://5e.tools/bestiary.html#bariaur%20wanderer_mpp",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/37204/400/1000/1000/638318543581581250.png",
+          "status": "Stat block",
+          "images": [
+            {
+              "url": "",
+              "credit": "Morte's Planar Parade"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "11d8 + 22"
+            ],
+            [
+              "Challenge",
+              "3"
+            ],
+            [
+              "Size",
+              "Medium"
+            ],
+            [
+              "Type",
+              "Celestial"
+            ],
+            [
+              "Speed",
+              "40 ft."
+            ],
+            [
+              "Passive Perception",
+              "14"
+            ],
+            [
+              "XP",
+              "700"
+            ],
+            [
+              "Strength",
+              "18"
+            ],
+            [
+              "Dexterity",
+              "14"
+            ],
+            [
+              "Constitution",
+              "15"
+            ],
+            [
+              "Intelligence",
+              "11"
+            ],
+            [
+              "Wisdom",
+              "15"
+            ],
+            [
+              "Charisma",
+              "10"
+            ],
+            [
+              "Alignment",
+              "chaotic good"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Saving throws",
+              "lines": [
+                "Str +6",
+                "Dex +4",
+                "Strength +6, Dexterity +4"
+              ]
+            },
+            {
+              "title": "Habitats",
+              "lines": [
+                "Ysgard",
+                "Outlands",
+                "Gate-towns"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A horned celestial with a humanoid upper body and four goat legs."
+              ]
+            },
+            {
+              "title": "Classification",
+              "lines": [
+                "Medium Celestial, chaotic good"
+              ]
+            },
+            {
+              "title": "Other statistics",
+              "lines": [
+                "Saves Str +6, Dex +4. Skills Athletics +6, Perception +4, Stealth +4, Survival +6. Senses: darkvision 60 ft.. Languages: Celestial, Common. Passive Perception 14."
+              ]
+            },
+            {
+              "title": "Traits",
+              "lines": [
+                "Portal Sense. Detect any portal within 30 ft., even if inactive, and know where it leads. The wanderer also knows the distance and direction of the last portal it used while on the same plane as that portal."
+              ]
+            },
+            {
+              "title": "Actions",
+              "lines": [
+                "Multiattack. Make two Barbed Javelin or Shortbow attacks.\nBarbed Javelin. Melee or ranged attack +6, reach 5 ft. or range 30/120 ft. Hit: 9 (1d10 + 4) piercing. A creature hit loses 10 ft. of speed until the start of the wanderer's next turn.\nRam. Melee attack +6, reach 5 ft. Hit: 8 (1d8 + 4) bludgeoning. Moving straight toward the target for at least 20 ft. immediately before the hit adds 10 (3d6) bludgeoning and forces a DC 14 Strength save to avoid falling Prone.\nShortbow. Ranged attack +4, range 80/320 ft. Hit: 5 (1d6 + 2) piercing, plus 4 (1d8) piercing if the target is below maximum HP."
+              ]
+            },
+            {
+              "title": "Spellcasting",
+              "lines": [
+                "Wisdom, no material components.\nAt will · Dancing Lights and Druidcraft.\n1/day each · Goodberry, Pass without Trace, and Tongues."
+              ]
+            },
+            {
+              "title": "Bonus Actions",
+              "lines": [
+                "Mighty Leap. The wanderer jumps up to its walking speed."
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "Rules source: Morte's Planar Parade, p. 21."
+              ]
+            },
+            {
+              "title": "Skills",
+              "lines": [
+                "Athletics +6, Perception +4, Stealth +4, Survival +6"
+              ]
+            },
+            {
+              "title": "Senses",
+              "lines": [
+                "darkvision 60 ft."
+              ]
+            },
+            {
+              "title": "Languages",
+              "lines": [
+                "Celestial, Common"
+              ]
+            },
+            {
+              "title": "Traits reference",
+              "lines": [
+                "Portal Sense · within 30 feet"
+              ]
+            },
+            {
+              "title": "Actions reference",
+              "lines": [
+                "Multiattack",
+                "Barbed Javelin · Melee or ranged attack · +6 to hit · 1d10 + 4 piercing damage · reach 5 ft. · range 30/120 ft.",
+                "Ram · Melee attack · +6 to hit · 1d8 + 4 bludgeoning damage · 3d6 bludgeoning damage · DC 14 Strength save · reach 5 ft. · Prone",
+                "Shortbow · Ranged attack · +4 to hit · 1d6 + 2 piercing damage · 1d8 piercing damage · range 80/320 ft."
+              ]
+            },
+            {
+              "title": "Bonus actions reference",
+              "lines": [
+                "Mighty Leap"
+              ]
+            },
+            {
+              "title": "Spellcasting reference",
+              "lines": [
+                "Spellcasting · Wisdom · Dancing lights · Druidcraft · Goodberry · Pass without trace · Tongues",
+                "At will · dancing lights, druidcraft",
+                "1/day each · goodberry, pass without trace, tongues"
+              ]
+            }
+          ],
+          "sourceCode": "MPP",
+          "page": 21,
+          "references": [
+            {
+              "label": "Morte's Planar Parade, p. 21",
+              "url": "https://5e.tools/bestiary.html#bariaur%20wanderer_mpp"
+            },
+            {
+              "label": "Studded leather armor (item)",
+              "url": "https://5e.tools/items.html#studded%20leather%20armor_phb",
+              "terms": [
+                "studded leather"
+              ],
+              "local": {
+                "entry": "item-4dd372ed301669b92ff3ad80",
+                "version": "PHB:144:https://5e.tools/items.html#studded%20leather%20armor_phb"
+              },
+              "preview": {
+                "name": "Studded leather armor",
+                "group": "blacksmith",
+                "publication": "Player's Handbook (2014)",
+                "page": 144,
+                "description": "A light armor.",
+                "local": {
+                  "entry": "item-4dd372ed301669b92ff3ad80",
+                  "version": "PHB:144:https://5e.tools/items.html#studded%20leather%20armor_phb"
+                }
+              }
+            },
+            {
+              "label": "Dancing lights (spell)",
+              "url": "https://5e.tools/spells.html#dancing%20lights_phb",
+              "local": {
+                "entry": "compendium-258bcc456ed8b7af2ee360f8",
+                "version": "PHB:230:https://5e.tools/spells.html#dancing%20lights_phb"
+              },
+              "preview": {
+                "name": "Dancing Lights",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 230,
+                "description": "A evocation cantrip.",
+                "local": {
+                  "entry": "compendium-258bcc456ed8b7af2ee360f8",
+                  "version": "PHB:230:https://5e.tools/spells.html#dancing%20lights_phb"
+                }
+              }
+            },
+            {
+              "label": "Druidcraft (spell)",
+              "url": "https://5e.tools/spells.html#druidcraft_phb",
+              "local": {
+                "entry": "compendium-77b2da4b88efe5cc8cf46b66",
+                "version": "PHB:236:https://5e.tools/spells.html#druidcraft_phb"
+              },
+              "preview": {
+                "name": "Druidcraft",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 236,
+                "description": "A transmutation cantrip.",
+                "local": {
+                  "entry": "compendium-77b2da4b88efe5cc8cf46b66",
+                  "version": "PHB:236:https://5e.tools/spells.html#druidcraft_phb"
+                }
+              }
+            },
+            {
+              "label": "Goodberry (spell)",
+              "url": "https://5e.tools/spells.html#goodberry_phb",
+              "local": {
+                "entry": "compendium-acf11ccf7ebbe5c1415261c4",
+                "version": "PHB:246:https://5e.tools/spells.html#goodberry_phb"
+              },
+              "preview": {
+                "name": "Goodberry",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 246,
+                "description": "A level 1 transmutation spell.",
+                "local": {
+                  "entry": "compendium-acf11ccf7ebbe5c1415261c4",
+                  "version": "PHB:246:https://5e.tools/spells.html#goodberry_phb"
+                }
+              }
+            },
+            {
+              "label": "Pass without trace (spell)",
+              "url": "https://5e.tools/spells.html#pass%20without%20trace_phb",
+              "local": {
+                "entry": "compendium-58d8ccfcba5d980f6ddc5be8",
+                "version": "PHB:264:https://5e.tools/spells.html#pass%20without%20trace_phb"
+              },
+              "preview": {
+                "name": "Pass without Trace",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 264,
+                "description": "A level 2 abjuration spell.",
+                "local": {
+                  "entry": "compendium-58d8ccfcba5d980f6ddc5be8",
+                  "version": "PHB:264:https://5e.tools/spells.html#pass%20without%20trace_phb"
+                }
+              }
+            },
+            {
+              "label": "Tongues (spell)",
+              "url": "https://5e.tools/spells.html#tongues_phb",
+              "local": {
+                "entry": "compendium-3372dcf6dc73fbd5f6b44ad8",
+                "version": "PHB:283:https://5e.tools/spells.html#tongues_phb"
+              },
+              "preview": {
+                "name": "Tongues",
+                "group": "Spells",
+                "publication": "Player's Handbook (2014)",
+                "page": 283,
+                "description": "A level 3 divination spell.",
+                "local": {
+                  "entry": "compendium-3372dcf6dc73fbd5f6b44ad8",
+                  "version": "PHB:283:https://5e.tools/spells.html#tongues_phb"
+                }
+              }
+            },
+            {
+              "label": "Prone (condition)",
+              "url": "https://5e.tools/conditionsdiseases.html#prone_phb",
+              "local": {
+                "entry": "compendium-6bb47020835c218b46b7d85a",
+                "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+              },
+              "preview": {
+                "name": "Prone",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2014)",
+                "page": 292,
+                "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                "local": {
+                  "entry": "compendium-6bb47020835c218b46b7d85a",
+                  "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                }
+              }
+            }
+          ],
+          "inline": {
+            "Size": [
+              {
+                "start": 0,
+                "end": 4,
+                "target": {
+                  "name": "Size",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                  }
+                }
+              }
+            ],
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Passive Perception": [
+              {
+                "start": 0,
+                "end": 18,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Alignment": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Alignment",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 360,
+                  "local": {
+                    "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                    "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                  }
+                }
+              }
+            ],
+            "Saves Str +6, Dex +4. Skills Athletics +6, Perception +4, Stealth +4, Survival +6. Senses: darkvision 60 ft.. Languages: Celestial, Common. Passive Perception 14.": [
+              {
+                "start": 29,
+                "end": 38,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 43,
+                "end": 53,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 58,
+                "end": 65,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              },
+              {
+                "start": 70,
+                "end": 78,
+                "target": {
+                  "name": "Survival",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-487cfdbc0b0439af434c2d21",
+                    "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                  }
+                }
+              },
+              {
+                "start": 91,
+                "end": 101,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              },
+              {
+                "start": 140,
+                "end": 158,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Multiattack. Make two Barbed Javelin or Shortbow attacks.\nBarbed Javelin. Melee or ranged attack +6, reach 5 ft. or range 30/120 ft. Hit: 9 (1d10 + 4) piercing. A creature hit loses 10 ft. of speed until the start of the wanderer's next turn.\nRam. Melee attack +6, reach 5 ft. Hit: 8 (1d8 + 4) bludgeoning. Moving straight toward the target for at least 20 ft. immediately before the hit adds 10 (3d6) bludgeoning and forces a DC 14 Strength save to avoid falling Prone.\nShortbow. Ranged attack +4, range 80/320 ft. Hit: 5 (1d6 + 2) piercing, plus 4 (1d8) piercing if the target is below maximum HP.": [
+              {
+                "start": 464,
+                "end": 469,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Spellcasting": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              }
+            ],
+            "Wisdom, no material components.\nAt will · Dancing Lights and Druidcraft.\n1/day each · Goodberry, Pass without Trace, and Tongues.": [
+              {
+                "start": 42,
+                "end": 56,
+                "target": {
+                  "name": "Dancing Lights",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 230,
+                  "description": "A evocation cantrip.",
+                  "local": {
+                    "entry": "compendium-258bcc456ed8b7af2ee360f8",
+                    "version": "PHB:230:https://5e.tools/spells.html#dancing%20lights_phb"
+                  }
+                }
+              },
+              {
+                "start": 61,
+                "end": 71,
+                "target": {
+                  "name": "Druidcraft",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 236,
+                  "description": "A transmutation cantrip.",
+                  "local": {
+                    "entry": "compendium-77b2da4b88efe5cc8cf46b66",
+                    "version": "PHB:236:https://5e.tools/spells.html#druidcraft_phb"
+                  }
+                }
+              },
+              {
+                "start": 86,
+                "end": 95,
+                "target": {
+                  "name": "Goodberry",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 246,
+                  "description": "A level 1 transmutation spell.",
+                  "local": {
+                    "entry": "compendium-acf11ccf7ebbe5c1415261c4",
+                    "version": "PHB:246:https://5e.tools/spells.html#goodberry_phb"
+                  }
+                }
+              },
+              {
+                "start": 97,
+                "end": 115,
+                "target": {
+                  "name": "Pass without Trace",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 264,
+                  "description": "A level 2 abjuration spell.",
+                  "local": {
+                    "entry": "compendium-58d8ccfcba5d980f6ddc5be8",
+                    "version": "PHB:264:https://5e.tools/spells.html#pass%20without%20trace_phb"
+                  }
+                }
+              },
+              {
+                "start": 121,
+                "end": 128,
+                "target": {
+                  "name": "Tongues",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 283,
+                  "description": "A level 3 divination spell.",
+                  "local": {
+                    "entry": "compendium-3372dcf6dc73fbd5f6b44ad8",
+                    "version": "PHB:283:https://5e.tools/spells.html#tongues_phb"
+                  }
+                }
+              }
+            ],
+            "Athletics +6, Perception +4, Stealth +4, Survival +6": [
+              {
+                "start": 0,
+                "end": 9,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 14,
+                "end": 24,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 29,
+                "end": 36,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              },
+              {
+                "start": 41,
+                "end": 49,
+                "target": {
+                  "name": "Survival",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-487cfdbc0b0439af434c2d21",
+                    "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                  }
+                }
+              }
+            ],
+            "darkvision 60 ft.": [
+              {
+                "start": 0,
+                "end": 10,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              }
+            ],
+            "Ram · Melee attack · +6 to hit · 1d8 + 4 bludgeoning damage · 3d6 bludgeoning damage · DC 14 Strength save · reach 5 ft. · Prone": [
+              {
+                "start": 123,
+                "end": 128,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Spellcasting reference": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              }
+            ],
+            "Spellcasting · Wisdom · Dancing lights · Druidcraft · Goodberry · Pass without trace · Tongues": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              },
+              {
+                "start": 24,
+                "end": 38,
+                "target": {
+                  "name": "Dancing Lights",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 230,
+                  "description": "A evocation cantrip.",
+                  "local": {
+                    "entry": "compendium-258bcc456ed8b7af2ee360f8",
+                    "version": "PHB:230:https://5e.tools/spells.html#dancing%20lights_phb"
+                  }
+                }
+              },
+              {
+                "start": 41,
+                "end": 51,
+                "target": {
+                  "name": "Druidcraft",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 236,
+                  "description": "A transmutation cantrip.",
+                  "local": {
+                    "entry": "compendium-77b2da4b88efe5cc8cf46b66",
+                    "version": "PHB:236:https://5e.tools/spells.html#druidcraft_phb"
+                  }
+                }
+              },
+              {
+                "start": 54,
+                "end": 63,
+                "target": {
+                  "name": "Goodberry",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 246,
+                  "description": "A level 1 transmutation spell.",
+                  "local": {
+                    "entry": "compendium-acf11ccf7ebbe5c1415261c4",
+                    "version": "PHB:246:https://5e.tools/spells.html#goodberry_phb"
+                  }
+                }
+              },
+              {
+                "start": 66,
+                "end": 84,
+                "target": {
+                  "name": "Pass without Trace",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 264,
+                  "description": "A level 2 abjuration spell.",
+                  "local": {
+                    "entry": "compendium-58d8ccfcba5d980f6ddc5be8",
+                    "version": "PHB:264:https://5e.tools/spells.html#pass%20without%20trace_phb"
+                  }
+                }
+              },
+              {
+                "start": 87,
+                "end": 94,
+                "target": {
+                  "name": "Tongues",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 283,
+                  "description": "A level 3 divination spell.",
+                  "local": {
+                    "entry": "compendium-3372dcf6dc73fbd5f6b44ad8",
+                    "version": "PHB:283:https://5e.tools/spells.html#tongues_phb"
+                  }
+                }
+              }
+            ],
+            "At will · dancing lights, druidcraft": [
+              {
+                "start": 10,
+                "end": 24,
+                "target": {
+                  "name": "Dancing Lights",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 230,
+                  "description": "A evocation cantrip.",
+                  "local": {
+                    "entry": "compendium-258bcc456ed8b7af2ee360f8",
+                    "version": "PHB:230:https://5e.tools/spells.html#dancing%20lights_phb"
+                  }
+                }
+              },
+              {
+                "start": 26,
+                "end": 36,
+                "target": {
+                  "name": "Druidcraft",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 236,
+                  "description": "A transmutation cantrip.",
+                  "local": {
+                    "entry": "compendium-77b2da4b88efe5cc8cf46b66",
+                    "version": "PHB:236:https://5e.tools/spells.html#druidcraft_phb"
+                  }
+                }
+              }
+            ],
+            "1/day each · goodberry, pass without trace, tongues": [
+              {
+                "start": 13,
+                "end": 22,
+                "target": {
+                  "name": "Goodberry",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 246,
+                  "description": "A level 1 transmutation spell.",
+                  "local": {
+                    "entry": "compendium-acf11ccf7ebbe5c1415261c4",
+                    "version": "PHB:246:https://5e.tools/spells.html#goodberry_phb"
+                  }
+                }
+              },
+              {
+                "start": 24,
+                "end": 42,
+                "target": {
+                  "name": "Pass without Trace",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 264,
+                  "description": "A level 2 abjuration spell.",
+                  "local": {
+                    "entry": "compendium-58d8ccfcba5d980f6ddc5be8",
+                    "version": "PHB:264:https://5e.tools/spells.html#pass%20without%20trace_phb"
+                  }
+                }
+              },
+              {
+                "start": 44,
+                "end": 51,
+                "target": {
+                  "name": "Tongues",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 283,
+                  "description": "A level 3 divination spell.",
+                  "local": {
+                    "entry": "compendium-3372dcf6dc73fbd5f6b44ad8",
+                    "version": "PHB:283:https://5e.tools/spells.html#tongues_phb"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "46e729e8305bdf98dde8d7b5",
+          "publication": "Planescape: Adventures in the Multiverse",
+          "edition": "2014 fifth edition",
+          "source": "https://www.dndbeyond.com/monsters/3883521-bariaur-wanderer",
+          "artwork": "https://www.dndbeyond.com/avatars/thumbnails/37204/400/1000/1000/638318543581581250.png",
+          "status": "Stat block",
+          "images": [
+            {
+              "url": "",
+              "credit": "D&D Beyond publisher art · Planescape: Adventures in the Multiverse"
+            }
+          ],
+          "stats": [
+            [
+              "Armor class",
+              "14"
+            ],
+            [
+              "Hit points",
+              "71"
+            ],
+            [
+              "Hit dice",
+              "11d8 + 22"
+            ],
+            [
+              "Challenge",
+              "3"
+            ],
+            [
+              "Type",
+              "Celestial"
+            ],
+            [
+              "Speed",
+              "40 ft."
+            ],
+            [
+              "XP",
+              "700"
+            ],
+            [
+              "Str",
+              "18"
+            ],
+            [
+              "Dex",
+              "14"
+            ],
+            [
+              "Con",
+              "15"
+            ],
+            [
+              "Int",
+              "11"
+            ],
+            [
+              "Wis",
+              "15"
+            ],
+            [
+              "Cha",
+              "10"
+            ]
+          ],
+          "sections": [
+            {
+              "title": "Habitats",
+              "lines": [
+                "Ysgard",
+                "Outlands",
+                "Gate-towns"
+              ]
+            },
+            {
+              "title": "Appearance",
+              "lines": [
+                "A horned celestial with a humanoid upper body and four goat legs."
+              ]
+            },
+            {
+              "title": "Classification",
+              "lines": [
+                "Medium Celestial, chaotic good"
+              ]
+            },
+            {
+              "title": "Other statistics",
+              "lines": [
+                "Saves Str +6, Dex +4. Skills Athletics +6, Perception +4, Stealth +4, Survival +6. Senses: darkvision 60 ft.. Languages: Celestial, Common. Passive Perception 14."
+              ]
+            },
+            {
+              "title": "Traits",
+              "lines": [
+                "Portal Sense. Detect any portal within 30 ft., even if inactive, and know where it leads. The wanderer also knows the distance and direction of the last portal it used while on the same plane as that portal."
+              ]
+            },
+            {
+              "title": "Actions",
+              "lines": [
+                "Multiattack. Make two Barbed Javelin or Shortbow attacks.\nBarbed Javelin. Melee or ranged attack +6, reach 5 ft. or range 30/120 ft. Hit: 9 (1d10 + 4) piercing. A creature hit loses 10 ft. of speed until the start of the wanderer's next turn.\nRam. Melee attack +6, reach 5 ft. Hit: 8 (1d8 + 4) bludgeoning. Moving straight toward the target for at least 20 ft. immediately before the hit adds 10 (3d6) bludgeoning and forces a DC 14 Strength save to avoid falling Prone.\nShortbow. Ranged attack +4, range 80/320 ft. Hit: 5 (1d6 + 2) piercing, plus 4 (1d8) piercing if the target is below maximum HP."
+              ]
+            },
+            {
+              "title": "Spellcasting",
+              "lines": [
+                "Wisdom, no material components.\nAt will · Dancing Lights and Druidcraft.\n1/day each · Goodberry, Pass without Trace, and Tongues."
+              ]
+            },
+            {
+              "title": "Bonus Actions",
+              "lines": [
+                "Mighty Leap. The wanderer jumps up to its walking speed."
+              ]
+            },
+            {
+              "title": "Table notes",
+              "lines": [
+                "Uses the verified Morte's Planar Parade stat block for this creature. Check this publication for encounter-specific changes.",
+                "Rules source: Morte's Planar Parade, p. 21."
+              ]
+            }
+          ],
+          "references": [
+            {
+              "label": "Morte's Planar Parade index",
+              "url": "https://5e.tools/bestiary.html#bariaur%20wanderer_mpp"
+            }
+          ],
+          "inline": {
+            "Speed": [
+              {
+                "start": 0,
+                "end": 5,
+                "target": {
+                  "name": "Speed",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 374,
+                  "local": {
+                    "entry": "compendium-264de61edc1e2fe941187374",
+                    "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                  }
+                }
+              }
+            ],
+            "Saves Str +6, Dex +4. Skills Athletics +6, Perception +4, Stealth +4, Survival +6. Senses: darkvision 60 ft.. Languages: Celestial, Common. Passive Perception 14.": [
+              {
+                "start": 29,
+                "end": 38,
+                "target": {
+                  "name": "Athletics",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 175,
+                  "local": {
+                    "entry": "compendium-4d6b054f7ceab43099a939e1",
+                    "version": "PHB:175:https://5e.tools/skills.html#athletics_phb"
+                  }
+                }
+              },
+              {
+                "start": 43,
+                "end": 53,
+                "target": {
+                  "name": "Perception",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-f21bfeaccf140efabf3793fe",
+                    "version": "PHB:178:https://5e.tools/skills.html#perception_phb"
+                  }
+                }
+              },
+              {
+                "start": 58,
+                "end": 65,
+                "target": {
+                  "name": "Stealth",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 177,
+                  "local": {
+                    "entry": "compendium-6993aacf7b56dd03b9131e9a",
+                    "version": "PHB:177:https://5e.tools/skills.html#stealth_phb"
+                  }
+                }
+              },
+              {
+                "start": 70,
+                "end": 78,
+                "target": {
+                  "name": "Survival",
+                  "group": "Skills",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 178,
+                  "local": {
+                    "entry": "compendium-487cfdbc0b0439af434c2d21",
+                    "version": "PHB:178:https://5e.tools/skills.html#survival_phb"
+                  }
+                }
+              },
+              {
+                "start": 91,
+                "end": 101,
+                "target": {
+                  "name": "Darkvision",
+                  "group": "Senses",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 183,
+                  "local": {
+                    "entry": "compendium-7acfde2bf83729872c25017b",
+                    "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                  }
+                }
+              },
+              {
+                "start": 140,
+                "end": 158,
+                "target": {
+                  "name": "Passive Perception",
+                  "group": "Variant rules",
+                  "publication": "Player's Handbook (2024)",
+                  "page": 372,
+                  "local": {
+                    "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                    "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                  }
+                }
+              }
+            ],
+            "Multiattack. Make two Barbed Javelin or Shortbow attacks.\nBarbed Javelin. Melee or ranged attack +6, reach 5 ft. or range 30/120 ft. Hit: 9 (1d10 + 4) piercing. A creature hit loses 10 ft. of speed until the start of the wanderer's next turn.\nRam. Melee attack +6, reach 5 ft. Hit: 8 (1d8 + 4) bludgeoning. Moving straight toward the target for at least 20 ft. immediately before the hit adds 10 (3d6) bludgeoning and forces a DC 14 Strength save to avoid falling Prone.\nShortbow. Ranged attack +4, range 80/320 ft. Hit: 5 (1d6 + 2) piercing, plus 4 (1d8) piercing if the target is below maximum HP.": [
+              {
+                "start": 464,
+                "end": 469,
+                "target": {
+                  "name": "Prone",
+                  "group": "Conditions",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 292,
+                  "description": "You can crawl or stand up. Your attacks have disadvantage, and nearby attackers have advantage against you.",
+                  "local": {
+                    "entry": "compendium-6bb47020835c218b46b7d85a",
+                    "version": "PHB:292:https://5e.tools/conditionsdiseases.html#prone_phb"
+                  }
+                }
+              }
+            ],
+            "Spellcasting": [
+              {
+                "start": 0,
+                "end": 12,
+                "target": {
+                  "name": "Spellcasting",
+                  "group": "Variant rules",
+                  "publication": "Xanathar's Guide to Everything",
+                  "page": 85,
+                  "local": {
+                    "entry": "compendium-e713887bf7765ba7221c649e",
+                    "version": "XGE:85:https://5e.tools/variantrules.html#spellcasting_xge"
+                  }
+                }
+              }
+            ],
+            "Wisdom, no material components.\nAt will · Dancing Lights and Druidcraft.\n1/day each · Goodberry, Pass without Trace, and Tongues.": [
+              {
+                "start": 42,
+                "end": 56,
+                "target": {
+                  "name": "Dancing Lights",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 230,
+                  "description": "A evocation cantrip.",
+                  "local": {
+                    "entry": "compendium-258bcc456ed8b7af2ee360f8",
+                    "version": "PHB:230:https://5e.tools/spells.html#dancing%20lights_phb"
+                  }
+                }
+              },
+              {
+                "start": 61,
+                "end": 71,
+                "target": {
+                  "name": "Druidcraft",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 236,
+                  "description": "A transmutation cantrip.",
+                  "local": {
+                    "entry": "compendium-77b2da4b88efe5cc8cf46b66",
+                    "version": "PHB:236:https://5e.tools/spells.html#druidcraft_phb"
+                  }
+                }
+              },
+              {
+                "start": 86,
+                "end": 95,
+                "target": {
+                  "name": "Goodberry",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 246,
+                  "description": "A level 1 transmutation spell.",
+                  "local": {
+                    "entry": "compendium-acf11ccf7ebbe5c1415261c4",
+                    "version": "PHB:246:https://5e.tools/spells.html#goodberry_phb"
+                  }
+                }
+              },
+              {
+                "start": 97,
+                "end": 115,
+                "target": {
+                  "name": "Pass without Trace",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 264,
+                  "description": "A level 2 abjuration spell.",
+                  "local": {
+                    "entry": "compendium-58d8ccfcba5d980f6ddc5be8",
+                    "version": "PHB:264:https://5e.tools/spells.html#pass%20without%20trace_phb"
+                  }
+                }
+              },
+              {
+                "start": 121,
+                "end": 128,
+                "target": {
+                  "name": "Tongues",
+                  "group": "Spells",
+                  "publication": "Player's Handbook (2014)",
+                  "page": 283,
+                  "description": "A level 3 divination spell.",
+                  "local": {
+                    "entry": "compendium-3372dcf6dc73fbd5f6b44ad8",
+                    "version": "PHB:283:https://5e.tools/spells.html#tongues_phb"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "image": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "fifth": true,
+    "browseRow": {
+      "id": "species-cd36ac407a9591da511001b3",
+      "name": "Bariaur",
+      "kind": "species",
+      "group": "Playable species",
+      "caption": "2 versions"
+    },
+    "version": {
+      "key": "3734479b7aa984f1a6c42609",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Extraplanar)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider native to Ysgard. It gains the Extraplanar subtype away from Ysgard. Racial adjustments are +2 Strength and −2 Charisma. Land speed 40 ft. and darkvision 60 ft.",
+            "Quadruped. +4 on checks to resist bull rush and trip, and 1½ times the normal carrying capacity for the Bariaur’s Strength. Bariaurs wear barding and cannot wear humanoid boots.",
+            "Powerful Charge. On a charge a Bariaur can make a single ram attack for 2d6 bludgeoning damage plus 1½ times its Strength modifier. Apply the normal charge rules. The trait only grants the ram during a charge.",
+            "Spell resistance equals 11 + class level. Bariaurs have a +2 racial bonus on Will saves against spells and spell-like abilities and a +2 racial bonus on Listen and Spot checks.",
+            "Celestial and Common are automatic. Abyssal and Infernal are bonus languages. Favored class Ranger. LA +1. The playable profile specifies no racial Hit Dice.",
+            "Page 8 identifies the larger Bariaurs in Book of Exalted Deeds as Exalted Bariaurs."
+          ]
+        },
+        {
+          "title": "Original NPC · Mara Sedgehill",
+          "lines": [
+            "Switchback scout and Ranger.",
+            "Motive. Find the messenger before the ford becomes impassable.",
+            "Hook. Mara traced the rider as far as the bend above the ford.",
+            "Bariaur switchback scout, Ranger 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Extraplanar)",
+            "AC 15 · HP 10 (1d8+2) · Speed 40 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Kel Stoneford",
+          "lines": [
+            "Stoneford guard and Fighter.",
+            "Motive. Get the flock and its handlers over the ford before reopening the road.",
+            "Hook. Kel needs someone to guide the last animals while he guards the crossing.",
+            "Bariaur stoneford guard, Fighter 1 · Provisional CR 2. ECL 2 (1 class HD, LA +1). · Medium Outsider (Extraplanar)",
+            "AC 14 · HP 12 (1d10+2) · Speed 40 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Mara Sedgehill": [
+          {
+            "start": 15,
+            "end": 29,
+            "target": {
+              "name": "Mara Sedgehill",
+              "group": "Bariaur",
+              "publication": "Bariaur switchback scout, Ranger 1",
+              "local": {
+                "entry": "npc-56facb3f6b784e1f6084a325",
+                "version": "245f692ab26721e06743e113"
+              }
+            }
+          }
+        ],
+        "Original NPC · Kel Stoneford": [
+          {
+            "start": 15,
+            "end": 28,
+            "target": {
+              "name": "Kel Stoneford",
+              "group": "Bariaur",
+              "publication": "Bariaur stoneford guard, Fighter 1",
+              "local": {
+                "entry": "npc-9c25e50ee3c0246e50ec5298",
+                "version": "efa6fad77cd43dfac29efe24"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "2b8a868dc6306133db9d6301",
+        "publication": "D&D Beyond Drops",
+        "edition": "Fifth edition",
+        "source": "https://www.dndbeyond.com/species/2237881-bariaur",
+        "artwork": "https://www.dndbeyond.com/avatars/thumbnails/59837/475/340/340/639295056338938679.png",
+        "images": [],
+        "stats": [],
+        "sections": []
+      }
+    ],
+    "queries": {
+      "Bariaur": true,
+      "bariaur powerful charge": true,
+      "bariaur spell resistance": true,
+      "bariaur switchback scout": true,
+      "bariaur stoneford guard": true
+    },
+    "hash": "ca6fcd618c0aa2479ed0c1ef4fa5e9f75997a7954adc0401fd224db6957ac0c6",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "D&D Beyond Drops",
+    "defaultVersionKey": "2b8a868dc6306133db9d6301"
+  }
+]

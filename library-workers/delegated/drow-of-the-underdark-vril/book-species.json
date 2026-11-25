@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Vril",
+    "kind": "species",
+    "publication": "Drow of the Underdark (2007)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Small Humanoid (Goblinoid). +2 Constitution, −2 Intelligence, −2 Charisma. Land speed 30 ft. Darkvision 60 ft. Sonic resistance 5.",
+      "Small size gives +1 AC and attacks, +4 Hide, −4 grapple, and three-quarters the carrying capacity of a Medium creature under the core size rule.",
+      "Light Blindness (Ex). Abrupt bright light, such as sunlight or daylight, blinds for 1 round. Take a −1 circumstance penalty on attacks, saves, and checks while in bright light.",
+      "Vulnerability to Poison (Ex). Take −4 on Fortitude saves against drow sleep poison and spiderkind venom.",
+      "Skinshift (Ex). As a move action, choose bludgeoning, piercing, or slashing and gain damage reduction 5 against that damage type for 3 + Constitution modifier rounds. One use per day, plus one more at 4th level and every four levels thereafter.",
+      "Shriek (Ex). Once per day as a standard action, emit a 15-ft.-radius burst centered on the vril or a 30-ft. cone. Creatures in the area take sonic damage. Reflex halves at DC 10 + half character level (round down) + Constitution modifier. Vril barbarians can use Shriek while raging.",
+      "Shriek scaling used here is 1d6 at levels 1–2, 2d6 at 3–5, 3d6 at 6–8, and 4d6 at 9 or higher. The errata’s written increment and level-3 stat block support that reading. Its later parenthetical examples conflict with them.",
+      "+4 racial on Climb and +2 racial on Balance and Jump.",
+      "Goblin and Undercommon are automatic. Bonus languages are Draconic, Dwarven, Elven, Giant, Gnome, and Orc. Favored class Barbarian. The character entry lists no racial Hit Dice or level adjustment."
+    ]
+  }
+]

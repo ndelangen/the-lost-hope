@@ -1,0 +1,59 @@
+[
+  {
+    "artGroup": "mohler",
+    "file": "portraits/mohler.png",
+    "sha256": "04b635f652487a6d184d635da013aeb059a0906df4b4904fdff99c8edde70b8c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "publications": [
+      "Flee, Mortals!",
+      "Where Evil Lives"
+    ],
+    "sourceIllustration": "images/beasts/mohler/publisher-62dc6deb21163897.webp",
+    "sourceNotes": "Where Evil Lives describes a mole-like burrower in The Hanging Tree, O5. The publisher’s illustration supplies pale curved tusks and bony back growths. Both printings use the same appearance.",
+    "prompt": "Paint one compact, low-built, mole-like burrowing beast in restless three-quarter side view. The shape should feel small and dense, with robust front paws and broad dark digging claws, tightly tucked hind legs, charcoal-brown shaggy fur and a cream-gray chest, short pointed muzzle with a dusky nose and alert muted amber eyes. Add two modest upward curving pale tusks, a few short pale bony spurs over the dark upper back, and a pair of slender golden-ivory branched bony horns sweeping backward close to the shoulder and not too wide. Angle its head slightly down as if sniffing. Natural quadruped anatomy and a fringed root-digging silhouette. No cubs, no human-like hands, no roaring pose, no soil scene. The single supplied reference is only for naturalistic painted field-guide style, muted light, and plain tan matte parchment. Match its restrained colors, subtle uniform paper grain and soft contact shadow. One isolated, fully visible specimen, centered on a square page, within the central 64% of width and height. All extremities should clear the 96px centered round crop. Neutral diffuse lighting, no colored cast. Plain parchment edge to edge, no background scene, no landscape, plants, architecture, rocks, extra specimens, objects, text, labels, borders, glow or dramatic atmosphere. Use an original pose."
+  },
+  {
+    "artGroup": "rotbeast",
+    "file": "portraits/rotbeast.png",
+    "sha256": "e58c6f5a6fb68db3f148b38e62cb7aa3d4e71b7663032f1bf49f52de0a043328",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "publications": [
+      "Flee, Mortals!"
+    ],
+    "sourceIllustration": "images/beasts/rotbeast/publisher-f4b2e31c3000a1fd.webp",
+    "sourceNotes": "Flee, Mortals! describes a faceless, fungus-covered bull with twisting stag horns. The publisher illustration supplies the rust-red fungal palette. The framing revision gives its left antler more room in the round crop.",
+    "prompt": "Paint one eerie faceless bull-bodied fungal beast, a stocky authentic quadruped with four split hooves, a long thin tasseled bovine tail and a muscular neck. Broad dark black-brown bull torso, matted olive-black fur, rich rust-red and muted dark scarlet fungal growths clustered along shoulders and throat, subtle mosslike dry texture, and sparse protruding ivory twigs integrated into the fungus. Head hangs down in a calm four-legged posture. The head is an unbroken mottled fungus-covered surface with absolutely no visible eyes, sockets, nose holes, lips, teeth or other face features, crowned with two complex pale twisting stag antlers that sweep upward and out while remaining compact inside the round crop. Naturalistic and weathered, no gore, no exposed bones, no separate plants, no fungal spores floating in the air. The single supplied reference is only for naturalistic painted field-guide style, muted light, and plain tan matte parchment. Match its restrained colors, subtle uniform paper grain and soft contact shadow. One isolated, fully visible specimen, centered on a square page, within the central 64% of width and height. All extremities should clear the 96px centered round crop. Neutral diffuse lighting, no colored cast. Plain parchment edge to edge, no background scene, no landscape, plants, architecture, rocks, extra specimens, objects, text, labels, borders, glow or dramatic atmosphere. Use an original pose.\n\nEdit only the framing of this square naturalistic beast portrait. Preserve the exact faceless fungus-covered bull, full anatomical silhouette, four hooves, lowered head, fine paper grain, muted tan parchment and soft neutral contact shadow. Zoom out uniformly by 22 percent and recenter around the whole silhouette including its extreme left antler and right tail. The entire animal, every antler branch, all four hooves and tail tip should be fully inside the centered circular crop, with ample blank background everywhere. Keep the antler shape, texture and deep red rust fungus substantially identical. No new objects or scenery. Single square matte tan parchment specimen."
+  },
+  {
+    "artGroup": "stoneback-isopod",
+    "file": "portraits/stoneback-isopod.png",
+    "sha256": "e55547d92f9d3e8649627e79faa9746c35296a7086f1fa35c308679202dda2bb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "publications": [
+      "Flee, Mortals!"
+    ],
+    "sourceIllustration": "images/beasts/stoneback-isopod/publisher-dd085266bdd09b51.webp",
+    "sourceNotes": "Flee, Mortals! identifies an isopod. The publisher illustration shows low segmented slate-blue armor and reddish underside accents.",
+    "prompt": "Paint one formidable isopod in an original low 3/4 crawling pose, rounded pillbug-like segmented oval body, seven clearly overlapping arched dorsal shell plates, layered slate-blue-gray stone-like chitin with subtle gray ochre worn edges, many small jointed legs tucked close underneath, muted chestnut-orange undertone on the edges of its articulated underbody, and two thin antennae extending forward within the crop. Curled-in tail end and authentic isopod anatomy, a little raised at the head so its undershell and dark mouthparts read. Solid squat woodlouse silhouette. Avoid beetle wings or claws, scorpion tail, stone surroundings, sewer grate, water, or a second creature. The single supplied reference is only for naturalistic painted field-guide style, muted light, and plain tan matte parchment. Match its restrained colors, subtle uniform paper grain and soft contact shadow. One isolated, fully visible specimen, centered on a square page, within the central 64% of width and height. All extremities should clear the 96px centered round crop. Neutral diffuse lighting, no colored cast. Plain parchment edge to edge, no background scene, no landscape, plants, architecture, rocks, extra specimens, objects, text, labels, borders, glow or dramatic atmosphere. Use an original pose."
+  },
+  {
+    "artGroup": "yumgrub",
+    "file": "portraits/yumgrub.png",
+    "sha256": "dc3914ba595b8b7997e7c68c17dde7d46ceb366a4a1c4280e4ef11771831394a",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "publications": [
+      "Flee, Mortals!"
+    ],
+    "sourceIllustration": "images/beasts/yumgrub/publisher-63cb21f239196528.webp",
+    "sourceNotes": "Flee, Mortals! describes a dumpling-shaped tunnel-moth larva with many tiny legs. The publisher illustration supplies the translucent amber-orange color.",
+    "prompt": "Paint one apple-sized tunnel-moth larva with a compact domed oval dumpling silhouette: plump, glossy, translucent burnt-amber orange back with subtle ribs and warm honey-gold flecks, a short darker soot-brown gray underside, tiny brown head with bead eyes and very small lamella-like feelers, and dozens of extremely short dark jointed legs along the underside rim, like a fine moving fringe. The body is only a little longer than tall, rounded rather than wormlike. Show it crawling in a low 3/4 biological specimen pose and make it recognizable as an insect. Keep the soft slightly tacky surface, no golden magic, no puddle, no long tail, no human hand, no literal food. The single supplied reference is only for naturalistic painted field-guide style, muted light, and plain tan matte parchment. Match its restrained colors, subtle uniform paper grain and soft contact shadow. One isolated, fully visible specimen, centered on a square page, within the central 64% of width and height. All extremities should clear the 96px centered round crop. Neutral diffuse lighting, no colored cast. Plain parchment edge to edge, no background scene, no landscape, plants, architecture, rocks, extra specimens, objects, text, labels, borders, glow or dramatic atmosphere. Use an original pose."
+  }
+]

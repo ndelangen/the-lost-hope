@@ -1,0 +1,2726 @@
+[
+  {
+    "name": "Giant Fly",
+    "version": {
+      "key": "5fc3090e807dec85104aadb0",
+      "publication": "SRD 5.1",
+      "edition": "2014 fifth edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "11"
+        ],
+        [
+          "Hit points",
+          "19"
+        ],
+        [
+          "Hit dice",
+          "3d10 + 3"
+        ],
+        [
+          "Size",
+          "Large"
+        ],
+        [
+          "Type",
+          "Beast"
+        ],
+        [
+          "Speed",
+          "walk 30 ft., fly 60 ft."
+        ],
+        [
+          "Passive Perception",
+          "10"
+        ],
+        [
+          "Str",
+          "14"
+        ],
+        [
+          "Dex",
+          "13"
+        ],
+        [
+          "Con",
+          "13"
+        ],
+        [
+          "Int",
+          "2"
+        ],
+        [
+          "Wis",
+          "10"
+        ],
+        [
+          "Cha",
+          "3"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A rideable giant horsefly brought to life from the Ebony Fly figurine."
+          ]
+        },
+        {
+          "title": "Senses",
+          "lines": [
+            "Darkvision 60 ft."
+          ]
+        },
+        {
+          "title": "Figurine mechanics",
+          "lines": [
+            "Activation · Use an action to speak the command word and throw the figurine to a point on the ground within 60 ft. The fly appears if the space is free and large enough.",
+            "Mount and commands · The fly is friendly, understands the activator’s languages through the item, and follows spoken commands. Without orders it limits itself to self-defense. It can carry a rider for up to 12 hours.",
+            "Reversion and reuse · The fly becomes a figurine again at the end of 12 hours, at 0 HP, or if the activator uses an action to repeat the command word while touching it. Wait two days before using it again."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Unaligned. The stat block lists no languages. The figurine rules give the fly its understanding of spoken commands.",
+            "The 5.1 block supplies no actions, challenge rating, XP, proficiency bonus, or initiative value. The 5.2.1 version supplies CR 0 and is a separate printing.",
+            "Source: Wizards of the Coast, System Reference Document 5.1, pp. 221–222."
+          ]
+        }
+      ],
+      "inline": {
+        "Size": [
+          {
+            "start": 0,
+            "end": 4,
+            "target": {
+              "name": "Size",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+              }
+            }
+          }
+        ],
+        "Speed": [
+          {
+            "start": 0,
+            "end": 5,
+            "target": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          }
+        ],
+        "Passive Perception": [
+          {
+            "start": 0,
+            "end": 18,
+            "target": {
+              "name": "Passive Perception",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "local": {
+                "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+              }
+            }
+          }
+        ],
+        "A rideable giant horsefly brought to life from the Ebony Fly figurine.": [
+          {
+            "start": 57,
+            "end": 60,
+            "target": {
+              "name": "Fly",
+              "group": "Spells",
+              "publication": "Player's Handbook (2014)",
+              "page": 243,
+              "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+              "local": {
+                "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                "version": "PHB:243:https://5e.tools/spells.html#fly_phb"
+              }
+            }
+          }
+        ],
+        "Darkvision 60 ft.": [
+          {
+            "start": 0,
+            "end": 10,
+            "target": {
+              "name": "Darkvision",
+              "group": "Senses",
+              "publication": "Player's Handbook (2014)",
+              "page": 183,
+              "local": {
+                "entry": "compendium-7acfde2bf83729872c25017b",
+                "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "187a365731bcf6f728926979",
+        "publication": "Dungeon Master's Guide (2014)",
+        "edition": "2014 fifth edition",
+        "description": "A Large beast.",
+        "source": "https://5e.tools/bestiary.html#giant%20fly_dmg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Dungeon Master's Guide (2014)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., fly 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Strength",
+            "14"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Senses",
+            "lines": [
+              "darkvision 60 ft."
+            ]
+          }
+        ],
+        "sourceCode": "DMG",
+        "page": 169,
+        "references": [
+          {
+            "label": "Dungeon Master's Guide (2014), p. 169",
+            "url": "https://5e.tools/bestiary.html#giant%20fly_dmg"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2014)",
+                "page": 183,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "PHB:183:https://5e.tools/senses.html#darkvision_phb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "cad5eadce5d9a8a8d4ac5f9f",
+        "publication": "Dungeon Master's Guide (2024)",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast with challenge rating 0.",
+        "source": "https://5e.tools/bestiary.html#giant%20fly_xdmg",
+        "status": "Encounter reference",
+        "images": [
+          {
+            "url": "",
+            "credit": "Dungeon Master's Guide (2024)"
+          }
+        ],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "walk 30 ft., fly 60 ft."
+          ],
+          [
+            "Passive Perception",
+            "10"
+          ],
+          [
+            "Strength",
+            "14"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "13"
+          ],
+          [
+            "Intelligence",
+            "2"
+          ],
+          [
+            "Wisdom",
+            "10"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ],
+          [
+            "XP",
+            "0"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          }
+        ],
+        "sourceCode": "XDMG",
+        "page": 261,
+        "references": [
+          {
+            "label": "Dungeon Master's Guide (2024), p. 261",
+            "url": "https://5e.tools/bestiary.html#giant%20fly_xdmg"
+          }
+        ],
+        "inline": {
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "b528c210cee41d5d6597c343",
+        "publication": "SRD 5.2.1",
+        "edition": "2024 fifth edition",
+        "status": "Stat block",
+        "images": [],
+        "stats": [
+          [
+            "Armor class",
+            "11"
+          ],
+          [
+            "Hit points",
+            "19"
+          ],
+          [
+            "Hit dice",
+            "3d10 + 3"
+          ],
+          [
+            "Challenge",
+            "0"
+          ],
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Speed",
+            "30 ft., Fly 60 ft."
+          ],
+          [
+            "XP",
+            "0"
+          ],
+          [
+            "Str",
+            "14"
+          ],
+          [
+            "Dex",
+            "13"
+          ],
+          [
+            "Con",
+            "13"
+          ],
+          [
+            "Int",
+            "2"
+          ],
+          [
+            "Wis",
+            "10"
+          ],
+          [
+            "Cha",
+            "3"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Classification",
+            "lines": [
+              "Large Beast, Unaligned"
+            ]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Senses Darkvision 60 ft., Passive Perception 10 Languages None"
+            ]
+          }
+        ],
+        "inline": {
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "30 ft., Fly 60 ft.": [
+            {
+              "start": 8,
+              "end": 11,
+              "target": {
+                "name": "Fly",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 276,
+                "description": "Give a touched creature a flying speed. The creature can fall if the spell ends while it is still airborne.",
+                "local": {
+                  "entry": "compendium-14893abe6a0bf9567ccdd94f",
+                  "version": "XPHB:276:https://5e.tools/spells.html#fly_xphb"
+                }
+              }
+            }
+          ],
+          "Senses Darkvision 60 ft., Passive Perception 10 Languages None": [
+            {
+              "start": 7,
+              "end": 17,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            },
+            {
+              "start": 26,
+              "end": 44,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "query": {
+      "q": "Horsefly",
+      "found": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Dungeon Master's Guide (2014)"
+      },
+      {
+        "url": "",
+        "credit": "Dungeon Master's Guide (2024)"
+      }
+    ],
+    "portraitHash": "e6653abc2af1443c5cc4dda410957bd4e2a5ce8242ee6b5af56084919706255c"
+  },
+  {
+    "name": "Giant Insect",
+    "version": {
+      "key": "c6dcfaf0cc27ba83189c2c38",
+      "publication": "SRD 5.2.1",
+      "edition": "2024 fifth edition",
+      "status": "Scalable profile",
+      "images": [],
+      "stats": [
+        [
+          "Challenge",
+          "None"
+        ],
+        [
+          "Type",
+          "Beast"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Scaling inputs",
+          "lines": [
+            "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --spell-save-dc, --proficiency",
+            "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency",
+            "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+          ]
+        }
+      ],
+      "inline": {
+        "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --spell-save-dc, --proficiency": [
+          {
+            "start": 0,
+            "end": 24,
+            "target": {
+              "name": "Giant Insect (Centipede)",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Venomous Spew (Centipede Only).",
+              "local": {
+                "entry": "compendium-9845d3c7cf4a907cfd8417d5",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect%20(centipede)_xphb"
+              }
+            }
+          }
+        ],
+        "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+          {
+            "start": 0,
+            "end": 21,
+            "target": {
+              "name": "Giant Insect (Spider)",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt.",
+              "local": {
+                "entry": "compendium-68a960a991d8d92387a9a1dc",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect%20(spider)_xphb"
+              }
+            }
+          }
+        ],
+        "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+          {
+            "start": 0,
+            "end": 19,
+            "target": {
+              "name": "Giant Insect (Wasp)",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab.",
+              "local": {
+                "entry": "compendium-e1dcb8ce59b72af63bf1f05a",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect%20(wasp)_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "e1373db26280f10ee5d38b27",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+        "source": "https://5e.tools/bestiary.html#giant%20insect_xphb",
+        "status": "Scalable profile",
+        "images": [
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ],
+          [
+            "Armor class",
+            "11 + the spell's level"
+          ],
+          [
+            "Hit points",
+            "30 + 10 for each spell level above 4"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 40 ft., fly 40 (Wasp only)"
+          ],
+          [
+            "Proficiency bonus",
+            "equals your Proficiency Bonus"
+          ],
+          [
+            "Strength",
+            "17"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "4"
+          ],
+          [
+            "Wisdom",
+            "14"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Scaling inputs",
+            "lines": [
+              "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency",
+              "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency",
+              "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Languages",
+            "lines": [
+              "understands the languages you know"
+            ]
+          },
+          {
+            "title": "Summoned by",
+            "lines": [
+              "Giant Insect"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft.",
+              "Web Bolt (Spider Only) · Ranged attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · range 60 ft. · Speed becomes 0 · Speed"
+            ]
+          },
+          {
+            "title": "Bonus actions reference",
+            "lines": [
+              "Venomous Spew (Centipede Only) · Constitution save · within 10 feet · Poisoned"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 279",
+            "url": "https://5e.tools/bestiary.html#giant%20insect_xphb"
+          },
+          {
+            "label": "Speed (rule)",
+            "url": "https://5e.tools/variantrules.html#speed_xphb",
+            "local": {
+              "entry": "compendium-264de61edc1e2fe941187374",
+              "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+            },
+            "preview": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_xphb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+              }
+            }
+          },
+          {
+            "label": "Giant Insect (spell)",
+            "url": "https://5e.tools/spells.html#giant%20insect_xphb",
+            "local": {
+              "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+              "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A level 4 conjuration spell.",
+              "local": {
+                "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).": [
+            {
+              "start": 39,
+              "end": 51,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "target": {
+                "name": "Web",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                "local": {
+                  "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                  "version": "XPHB:340:https://5e.tools/spells.html#web_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Proficiency bonus": [
+            {
+              "start": 0,
+              "end": 11,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "equals your Proficiency Bonus": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            },
+            {
+              "start": 27,
+              "end": 39,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            },
+            {
+              "start": 24,
+              "end": 36,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 34,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 279,
+                "description": "A level 4 conjuration spell.",
+                "local": {
+                  "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                  "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Web Bolt (Spider Only) · Ranged attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · range 60 ft. · Speed becomes 0 · Speed": [
+            {
+              "start": 105,
+              "end": 110,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            },
+            {
+              "start": 123,
+              "end": 128,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Venomous Spew (Centipede Only) · Constitution save · within 10 feet · Poisoned": [
+            {
+              "start": 70,
+              "end": 78,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "query": {
+      "q": "Giant Insect Centipede Spider Wasp",
+      "found": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      }
+    ],
+    "portraitHash": "e18bf105507255bbc522ad312fc88a62fbbf2241f191902cebe2cd7e7ca98414"
+  },
+  {
+    "name": "Giant Insect (Centipede)",
+    "version": {
+      "key": "1ee4530d3f9ab3aa75348241",
+      "publication": "SRD 5.2.1",
+      "edition": "2024 fifth edition",
+      "status": "Scalable profile",
+      "images": [],
+      "stats": [
+        [
+          "Challenge",
+          "None"
+        ],
+        [
+          "Type",
+          "Beast"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Scaling inputs",
+          "lines": [
+            "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --spell-save-dc, --proficiency"
+          ]
+        }
+      ],
+      "inline": {
+        "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --spell-save-dc, --proficiency": [
+          {
+            "start": 0,
+            "end": 12,
+            "target": {
+              "name": "Giant Insect",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "compendium-e0affc6dc625a3ac9f77eecf",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect_xphb"
+              }
+            }
+          },
+          {
+            "start": 27,
+            "end": 39,
+            "target": {
+              "name": "Giant Insect",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "compendium-e0affc6dc625a3ac9f77eecf",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "6bd43a22348ce8ad35b946c9",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Venomous Spew (Centipede Only).",
+        "source": "https://5e.tools/bestiary.html#giant%20insect%20(centipede)_xphb",
+        "status": "Scalable profile",
+        "images": [
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          },
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ],
+          [
+            "Armor class",
+            "11 + the spell's level"
+          ],
+          [
+            "Hit points",
+            "30 + 10 for each spell level above 4"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 40 ft."
+          ],
+          [
+            "Proficiency bonus",
+            "equals your Proficiency Bonus"
+          ],
+          [
+            "Strength",
+            "17"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "4"
+          ],
+          [
+            "Wisdom",
+            "14"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Scaling inputs",
+            "lines": [
+              "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Languages",
+            "lines": [
+              "understands the languages you know"
+            ]
+          },
+          {
+            "title": "Summoned by",
+            "lines": [
+              "Giant Insect"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft."
+            ]
+          },
+          {
+            "title": "Bonus actions reference",
+            "lines": [
+              "Venomous Spew (Centipede Only) · Constitution save · within 10 feet · Poisoned"
+            ]
+          },
+          {
+            "title": "Base profile",
+            "lines": [
+              "Giant Insect"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 279",
+            "url": "https://5e.tools/bestiary.html#giant%20insect%20(centipede)_xphb"
+          },
+          {
+            "label": "Poisoned (condition)",
+            "url": "https://5e.tools/conditionsdiseases.html#poisoned_xphb",
+            "local": {
+              "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+              "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+            },
+            "preview": {
+              "name": "Poisoned",
+              "group": "Conditions",
+              "publication": "Player's Handbook (2024)",
+              "page": 372,
+              "description": "Your attack rolls and ability checks have disadvantage.",
+              "local": {
+                "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+              }
+            }
+          },
+          {
+            "label": "Giant Insect (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20insect_xphb",
+            "local": {
+              "entry": "beast-26bce7b50d7f5e067749713b",
+              "version": "e1373db26280f10ee5d38b27"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Beast",
+              "publication": "Player’s Handbook",
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "beast-26bce7b50d7f5e067749713b",
+                "version": "e1373db26280f10ee5d38b27"
+              }
+            }
+          },
+          {
+            "label": "Giant Insect (spell)",
+            "url": "https://5e.tools/spells.html#giant%20insect_xphb",
+            "local": {
+              "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+              "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A level 4 conjuration spell.",
+              "local": {
+                "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast. Named abilities include Spider Climb, Poison Jab, Venomous Spew (Centipede Only).": [
+            {
+              "start": 39,
+              "end": 51,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Proficiency bonus": [
+            {
+              "start": 0,
+              "end": 11,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "equals your Proficiency Bonus": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect (Centipede) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            },
+            {
+              "start": 27,
+              "end": 39,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Venomous Spew (Centipede Only) · Constitution save · within 10 feet · Poisoned": [
+            {
+              "start": 70,
+              "end": 78,
+              "target": {
+                "name": "Poisoned",
+                "group": "Conditions",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "description": "Your attack rolls and ability checks have disadvantage.",
+                "local": {
+                  "entry": "compendium-92dd5fb346a0c9fd56bbdde5",
+                  "version": "XPHB:372:https://5e.tools/conditionsdiseases.html#poisoned_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "query": {
+      "q": "Giant Insect Centipede",
+      "found": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      }
+    ],
+    "portraitHash": "206faa150481684f6231c25608f2637e6518e6a4c921a7c9bee262974f3b03c2"
+  },
+  {
+    "name": "Giant Insect (Spider)",
+    "version": {
+      "key": "d1d3402ef33ed0a956cf809f",
+      "publication": "SRD 5.2.1",
+      "edition": "2024 fifth edition",
+      "status": "Scalable profile",
+      "images": [],
+      "stats": [
+        [
+          "Challenge",
+          "None"
+        ],
+        [
+          "Type",
+          "Beast"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Scaling inputs",
+          "lines": [
+            "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+          ]
+        }
+      ],
+      "inline": {
+        "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+          {
+            "start": 0,
+            "end": 12,
+            "target": {
+              "name": "Giant Insect",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "compendium-e0affc6dc625a3ac9f77eecf",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect_xphb"
+              }
+            }
+          },
+          {
+            "start": 24,
+            "end": 36,
+            "target": {
+              "name": "Giant Insect",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "compendium-e0affc6dc625a3ac9f77eecf",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "8549c315357e4822f217c739",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt.",
+        "source": "https://5e.tools/bestiary.html#giant%20insect%20(spider)_xphb",
+        "status": "Scalable profile",
+        "images": [
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          },
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ],
+          [
+            "Armor class",
+            "11 + the spell's level"
+          ],
+          [
+            "Hit points",
+            "30 + 10 for each spell level above 4"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 40 ft."
+          ],
+          [
+            "Proficiency bonus",
+            "equals your Proficiency Bonus"
+          ],
+          [
+            "Strength",
+            "17"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "4"
+          ],
+          [
+            "Wisdom",
+            "14"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Scaling inputs",
+            "lines": [
+              "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Languages",
+            "lines": [
+              "understands the languages you know"
+            ]
+          },
+          {
+            "title": "Summoned by",
+            "lines": [
+              "Giant Insect"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft.",
+              "Web Bolt · Ranged attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · range 60 ft. · Speed becomes 0 · Speed"
+            ]
+          },
+          {
+            "title": "Base profile",
+            "lines": [
+              "Giant Insect"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 279",
+            "url": "https://5e.tools/bestiary.html#giant%20insect%20(spider)_xphb"
+          },
+          {
+            "label": "Speed (rule)",
+            "url": "https://5e.tools/variantrules.html#speed_xphb",
+            "local": {
+              "entry": "compendium-264de61edc1e2fe941187374",
+              "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+            },
+            "preview": {
+              "name": "Speed",
+              "group": "Variant rules",
+              "publication": "Player's Handbook (2024)",
+              "page": 374,
+              "local": {
+                "entry": "compendium-264de61edc1e2fe941187374",
+                "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+              }
+            }
+          },
+          {
+            "label": "Giant Insect (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20insect_xphb",
+            "local": {
+              "entry": "beast-26bce7b50d7f5e067749713b",
+              "version": "e1373db26280f10ee5d38b27"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Beast",
+              "publication": "Player’s Handbook",
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "beast-26bce7b50d7f5e067749713b",
+                "version": "e1373db26280f10ee5d38b27"
+              }
+            }
+          },
+          {
+            "label": "Giant Insect (spell)",
+            "url": "https://5e.tools/spells.html#giant%20insect_xphb",
+            "local": {
+              "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+              "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A level 4 conjuration spell.",
+              "local": {
+                "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt.": [
+            {
+              "start": 39,
+              "end": 51,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            },
+            {
+              "start": 65,
+              "end": 68,
+              "target": {
+                "name": "Web",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 340,
+                "description": "Conjure a cube of webs that hinders movement. A creature caught in it can become Restrained.",
+                "local": {
+                  "entry": "compendium-9f4a7c04d145ddc42c8d867b",
+                  "version": "XPHB:340:https://5e.tools/spells.html#web_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Proficiency bonus": [
+            {
+              "start": 0,
+              "end": 11,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "equals your Proficiency Bonus": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect (Spider) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            },
+            {
+              "start": 24,
+              "end": 36,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Web Bolt · Ranged attack · 1d10 + 3 + summonSpellLevel bludgeoning damage · range 60 ft. · Speed becomes 0 · Speed": [
+            {
+              "start": 91,
+              "end": 96,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            },
+            {
+              "start": 109,
+              "end": 114,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "query": {
+      "q": "Giant Insect Spider",
+      "found": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      }
+    ],
+    "portraitHash": "7fd7182ff9c8441f472cfe981a4304e773c3f950348e81d55d231164700f6efd"
+  },
+  {
+    "name": "Giant Insect (Wasp)",
+    "version": {
+      "key": "3f2d71575e62e1060de5e5a9",
+      "publication": "SRD 5.2.1",
+      "edition": "2024 fifth edition",
+      "status": "Scalable profile",
+      "images": [],
+      "stats": [
+        [
+          "Challenge",
+          "None"
+        ],
+        [
+          "Type",
+          "Beast"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Scaling inputs",
+          "lines": [
+            "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+          ]
+        }
+      ],
+      "inline": {
+        "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+          {
+            "start": 0,
+            "end": 12,
+            "target": {
+              "name": "Giant Insect",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "compendium-e0affc6dc625a3ac9f77eecf",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect_xphb"
+              }
+            }
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "target": {
+              "name": "Giant Insect",
+              "group": "Creatures",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "compendium-e0affc6dc625a3ac9f77eecf",
+                "version": "XPHB:279:https://5e.tools/bestiary.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [
+      {
+        "key": "4213dc4b94aae55d33ddf0e8",
+        "publication": "Player’s Handbook",
+        "edition": "2024 fifth edition",
+        "description": "A Large beast. Named abilities include Spider Climb, Poison Jab.",
+        "source": "https://5e.tools/bestiary.html#giant%20insect%20(wasp)_xphb",
+        "status": "Scalable profile",
+        "images": [
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          },
+          {
+            "url": "",
+            "credit": "Player’s Handbook"
+          }
+        ],
+        "stats": [
+          [
+            "Type",
+            "Beast"
+          ],
+          [
+            "Size",
+            "Large"
+          ],
+          [
+            "Alignment",
+            "unaligned"
+          ],
+          [
+            "Armor class",
+            "11 + the spell's level"
+          ],
+          [
+            "Hit points",
+            "30 + 10 for each spell level above 4"
+          ],
+          [
+            "Speed",
+            "walk 40 ft., climb 40 ft., fly 40 ft."
+          ],
+          [
+            "Proficiency bonus",
+            "equals your Proficiency Bonus"
+          ],
+          [
+            "Strength",
+            "17"
+          ],
+          [
+            "Dexterity",
+            "13"
+          ],
+          [
+            "Constitution",
+            "15"
+          ],
+          [
+            "Intelligence",
+            "4"
+          ],
+          [
+            "Wisdom",
+            "14"
+          ],
+          [
+            "Charisma",
+            "3"
+          ],
+          [
+            "Passive Perception",
+            "12"
+          ]
+        ],
+        "sections": [
+          {
+            "title": "Scaling inputs",
+            "lines": [
+              "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency"
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": [
+              "Darkvision 60 ft."
+            ]
+          },
+          {
+            "title": "Languages",
+            "lines": [
+              "understands the languages you know"
+            ]
+          },
+          {
+            "title": "Summoned by",
+            "lines": [
+              "Giant Insect"
+            ]
+          },
+          {
+            "title": "Traits reference",
+            "lines": [
+              "Spider Climb"
+            ]
+          },
+          {
+            "title": "Actions reference",
+            "lines": [
+              "Multiattack",
+              "Poison Jab · Melee attack · 1d6 + 3 + summonSpellLevel piercing damage · 1d4 poison damage · reach 10 ft."
+            ]
+          },
+          {
+            "title": "Base profile",
+            "lines": [
+              "Giant Insect"
+            ]
+          }
+        ],
+        "sourceCode": "XPHB",
+        "references": [
+          {
+            "label": "Player's Handbook (2024), p. 279",
+            "url": "https://5e.tools/bestiary.html#giant%20insect%20(wasp)_xphb"
+          },
+          {
+            "label": "Giant Insect (creature)",
+            "url": "https://5e.tools/bestiary.html#giant%20insect_xphb",
+            "local": {
+              "entry": "beast-26bce7b50d7f5e067749713b",
+              "version": "e1373db26280f10ee5d38b27"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Beast",
+              "publication": "Player’s Handbook",
+              "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+              "local": {
+                "entry": "beast-26bce7b50d7f5e067749713b",
+                "version": "e1373db26280f10ee5d38b27"
+              }
+            }
+          },
+          {
+            "label": "Giant Insect (spell)",
+            "url": "https://5e.tools/spells.html#giant%20insect_xphb",
+            "local": {
+              "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+              "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+            },
+            "preview": {
+              "name": "Giant Insect",
+              "group": "Spells",
+              "publication": "Player's Handbook (2024)",
+              "page": 279,
+              "description": "A level 4 conjuration spell.",
+              "local": {
+                "entry": "compendium-c5b864ba39d6dabcf6f89e19",
+                "version": "XPHB:279:https://5e.tools/spells.html#giant%20insect_xphb"
+              }
+            }
+          }
+        ],
+        "inline": {
+          "A Large beast. Named abilities include Spider Climb, Poison Jab.": [
+            {
+              "start": 39,
+              "end": 51,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ],
+          "Size": [
+            {
+              "start": 0,
+              "end": 4,
+              "target": {
+                "name": "Size",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-7a8ec816ac6caaf1c7e549ba",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#size_xphb"
+                }
+              }
+            }
+          ],
+          "Alignment": [
+            {
+              "start": 0,
+              "end": 9,
+              "target": {
+                "name": "Alignment",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 360,
+                "local": {
+                  "entry": "compendium-87c2f4b5bab81d12aecf1213",
+                  "version": "XPHB:360:https://5e.tools/variantrules.html#alignment_xphb"
+                }
+              }
+            }
+          ],
+          "Speed": [
+            {
+              "start": 0,
+              "end": 5,
+              "target": {
+                "name": "Speed",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 374,
+                "local": {
+                  "entry": "compendium-264de61edc1e2fe941187374",
+                  "version": "XPHB:374:https://5e.tools/variantrules.html#speed_xphb"
+                }
+              }
+            }
+          ],
+          "Proficiency bonus": [
+            {
+              "start": 0,
+              "end": 11,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "equals your Proficiency Bonus": [
+            {
+              "start": 12,
+              "end": 23,
+              "target": {
+                "name": "Proficiency",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-7bf778e92e4105e60dc6d079",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#proficiency_xphb"
+                }
+              }
+            }
+          ],
+          "Passive Perception": [
+            {
+              "start": 0,
+              "end": 18,
+              "target": {
+                "name": "Passive Perception",
+                "group": "Variant rules",
+                "publication": "Player's Handbook (2024)",
+                "page": 372,
+                "local": {
+                  "entry": "compendium-881ba3f0c03883f5b1d8d448",
+                  "version": "XPHB:372:https://5e.tools/variantrules.html#passive%20perception_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect (Wasp) · Giant Insect · minimum spell level 4 · --spell-level, --spell-attack, --proficiency": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            },
+            {
+              "start": 22,
+              "end": 34,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            }
+          ],
+          "Darkvision 60 ft.": [
+            {
+              "start": 0,
+              "end": 10,
+              "target": {
+                "name": "Darkvision",
+                "group": "Senses",
+                "publication": "Player's Handbook (2024)",
+                "page": 365,
+                "local": {
+                  "entry": "compendium-7acfde2bf83729872c25017b",
+                  "version": "XPHB:365:https://5e.tools/senses.html#darkvision_xphb"
+                }
+              }
+            }
+          ],
+          "Giant Insect": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Giant Insect",
+                "group": "Beast",
+                "publication": "Player’s Handbook",
+                "description": "A Large beast. Named abilities include Spider Climb, Poison Jab, Web Bolt (Spider Only).",
+                "local": {
+                  "entry": "beast-26bce7b50d7f5e067749713b",
+                  "version": "e1373db26280f10ee5d38b27"
+                }
+              }
+            }
+          ],
+          "Spider Climb": [
+            {
+              "start": 0,
+              "end": 12,
+              "target": {
+                "name": "Spider Climb",
+                "group": "Spells",
+                "publication": "Player's Handbook (2024)",
+                "page": 319,
+                "description": "A level 2 transmutation spell.",
+                "local": {
+                  "entry": "compendium-8d902b4c716289d9471f0690",
+                  "version": "XPHB:319:https://5e.tools/spells.html#spider%20climb_xphb"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "query": {
+      "q": "Giant Insect Wasp",
+      "found": true
+    },
+    "gallery": [
+      {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      },
+      {
+        "url": "",
+        "credit": "Player’s Handbook"
+      }
+    ],
+    "portraitHash": "c401c2abb5ee459cb96c6de8515e77b29f4d52bfab4afdfc6b87e8224b9c8320"
+  }
+]

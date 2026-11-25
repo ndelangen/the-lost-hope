@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Aranea",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Magical Beast (Shapechanger)",
+    "url": "",
+    "pages": "Appendix 1, p. 154, Table A–3",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Aranea, p. 19 (web and form details)",
+        "url": ""
+      }
+    ],
+    "evidence": "The printed progression supplies player uses, casting and poison damage. Applied the 2000 Monster Manual web detail as the class directs. The Herath and Savage Coast options have separate publication keys.",
+    "catalogStatus": "Missing Savage Species profile at batch baseline. Other playable publications are indexed."
+  },
+  {
+    "name": "Annis Hag",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Monstrous Humanoid",
+    "url": "",
+    "pages": "Appendix 1, p. 153, Table A–2",
+    "additionalSources": [],
+    "evidence": "Table A–2 is the Annis Hag player progression. Green Hag and Sea Hag each have separate classes. The worked build stops at level 11 after Rend and before Tear.",
+    "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+  },
+  {
+    "name": "Barghest",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Evil, Lawful, Shapechanger)",
+    "url": "",
+    "pages": "Appendix 1, pp. 159–160, Table A–8",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Barghest, pp. 22–23 (natural attacks)",
+        "url": ""
+      }
+    ],
+    "evidence": "Barghest is a single approved claim. Greater barghest belongs to the creature's advancement history. The worked example uses the player Feed bonus and advances Hit Dice by level rather than by feeding.",
+    "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+  },
+  {
+    "name": "Djinni",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Outsider (Air, Chaotic, Good)",
+    "url": "",
+    "pages": "Appendix 1, pp. 161–162, Table A–11",
+    "additionalSources": [
+      {
+        "name": "Monster Manual (2000), Djinni, pp. 95–96 (Air Mastery and Whirlwind)",
+        "url": ""
+      }
+    ],
+    "evidence": "The heading names Air and Good; the first row explicitly grants Air, Chaotic, and Good. The class sets the whirlwind's daily uses and refers to the contemporary Monster Manual for dimensions, damage, saves, and duration. The worked example uses those printed values.",
+    "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+  },
+  {
+    "name": "Drider",
+    "kind": "species",
+    "publication": "Savage Species (2003)",
+    "edition": "3.0 edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Aberration",
+    "url": "",
+    "pages": "Appendix 1, p. 163, Table A–12",
+    "additionalSources": [],
+    "evidence": "The class does not grant web spinning. The worked example selects web as a 2nd-level sorcerer spell when the class reaches four Hit Dice. The class feature text explicitly grants two feats at first level, while the first table row records a single feat.",
+    "catalogStatus": "Missing playable profile at batch baseline. Creature records exist."
+  }
+]

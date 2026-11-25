@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Shoal Halfling",
+    "species": "species-c0df72b01a5a35494a99f050",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Stormwrack (2005)"
+    ],
+    "portraitSha256": "7088cdb605459cb700cdad2e387b470ca28c6041fd8f17e2f3fad00815ad58cd",
+    "caption": "Tess Siltstep · Original Shoal Halfling NPC",
+    "npcReceipts": [
+      {
+        "name": "Tess Siltstep",
+        "id": "npc-0128824ea6a281229c09d16c",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      },
+      {
+        "name": "Nerin Reefbrace",
+        "id": "npc-f0a493a68b80d0b9515d22a1",
+        "challenge": "Provisional CR 1. ECL 1 (1 class HD, LA +0)."
+      }
+    ]
+  }
+]

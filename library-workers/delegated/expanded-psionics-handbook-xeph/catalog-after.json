@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Xeph",
+    "kind": "species",
+    "group": "3.5 edition",
+    "otherKindExists": false,
+    "global": true,
+    "version": {
+      "key": "73cb5cdf28aa7257fe856689",
+      "publication": "Expanded Psionics Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://www.dndtools.one/expanded-psionics-handbook",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Humanoid (Psionic, Xeph)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Humanoid with the Psionic and Xeph subtypes. Dexterity +2, Strength −2, base land speed 30 ft., and darkvision 60 ft.",
+            "+1 racial bonus on saving throws against powers, spells, and spell-like effects.",
+            "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
+            "Racial Burst (Su) is usable three times per day and lasts 3 rounds. It grants a competence bonus to base speed of +10 ft. at character levels 1–4, +20 ft. at 5–8, and +30 ft. at 9 and higher.",
+            "Racial Burst uses the core standard-action default for supernatural abilities. It spends no power points. Apply the new speed to ordinary movement rules. At base speed 40 ft. with Burst, the standard Jump speed adjustment is +4.",
+            "Automatic languages Common and Xeph. Bonus languages Draconic, Elven, Gnoll, Goblin, Halfling, Sylvan. Favored class Soulknife. Level adjustment +0."
+          ]
+        },
+        {
+          "title": "Original NPC · Rovan Threadglass",
+          "lines": [
+            "Festival rigging keeper and apprentice Soulknife.",
+            "Motive. Bring the festival lanterns down before a jammed counterweight tears free.",
+            "Hook. Rovan can reach the far stair if the party clears the square and holds the loose line.",
+            "Xeph lantern rigger, Soulknife 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Psionic, Xeph)",
+            "AC 15 · HP 11 (1d10+1) · Speed 30 ft., 40 ft. with Burst"
+          ]
+        },
+        {
+          "title": "Original NPC · Miren Trackweft",
+          "lines": [
+            "Woodland reserve tracker and wildlife keeper.",
+            "Motive. Find a lost wolf before it blunders into someone else’s snare line.",
+            "Hook. Miren can identify where the wolf doubled back if the party keeps the last reliable tracks clear.",
+            "Xeph woodland reserve tracker, Ranger 1 · Provisional CR 1. ECL 1. · Medium Humanoid (Psionic, Xeph)",
+            "AC 16 · HP 9 (1d8+1) · Speed 30 ft., 40 ft. with Burst"
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Rovan Threadglass": [
+          {
+            "start": 15,
+            "end": 32,
+            "target": {
+              "name": "Rovan Threadglass",
+              "group": "Xeph",
+              "publication": "Xeph lantern rigger, Soulknife 1",
+              "local": {
+                "entry": "npc-a587b5308e5992d8cfed8c3e",
+                "version": "33ab40534a436886d9717f82"
+              }
+            }
+          }
+        ],
+        "Original NPC · Miren Trackweft": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Miren Trackweft",
+              "group": "Xeph",
+              "publication": "Xeph woodland reserve tracker, Ranger 1",
+              "local": {
+                "entry": "npc-4135aec6194138c41a87ce04",
+                "version": "6429ed988e629d5882d23552"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Xeph": true,
+      "xeph burst": true,
+      "xeph soulknife": true,
+      "xeph festival rigging keeper": true,
+      "xeph woodland reserve tracker": true
+    },
+    "hash": "0acdb704ad0720b21afeef196c212dd1b58a2ccd6e08a351293e6e4f3c5575b7",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Expanded Psionics Handbook (2004)",
+    "defaultVersionKey": "73cb5cdf28aa7257fe856689",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

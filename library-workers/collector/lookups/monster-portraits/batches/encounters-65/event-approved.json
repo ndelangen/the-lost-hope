@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Killoren",
+    "slug": "killoren",
+    "caption": "Irimel · Hunter aspect example",
+    "id": "species-0b916e3b299992d5b315a18c",
+    "entry": "species-0b916e3b299992d5b315a18c",
+    "version": "",
+    "suffix": "encounters-65/killoren.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-65/killoren.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-65/event-drafts/killoren-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 65 2026-11-24/event-drafts/killoren-event-v1.png",
+    "overrides": [],
+    "sha256": "3ef94aedb80c737dfb879a76ec302f971df4217524e7149399752208341b8cee",
+    "bytes": 2119127
+  }
+]

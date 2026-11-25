@@ -1,0 +1,397 @@
+[
+  {
+    "name": "Brown Scavver",
+    "statBlock": {
+      "name": "Brown Scavver",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 49,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 13,
+      "hp": 51,
+      "hitDice": "6d10 + 18",
+      "speed": "0 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 10,
+      "description": "A ten-foot, one-eyed hunter with a gold-brown to umber hide. It needs days to digest a meal and fights only in self-defense while it digests.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Traits": "Unusual Nature. The scavver needs no air.",
+        "Actions": "Swallowing Bite. Melee weapon attack, +6 to hit, reach 5 ft., one target. The bite deals 11 (2d6 + 4) piercing damage. A Medium or smaller creature hit by it must pass a DC 13 Dexterity save or be swallowed. The scavver can hold one creature at a time.\nA swallowed creature is blinded and restrained. It has total cover from attacks and other effects outside the scavver. At the start of each of the scavver’s turns, gas in its gullet deals 13 (3d8) poison damage to the creature.\nIf a creature inside the scavver deals it at least 15 damage on a single turn, the scavver makes a DC 20 Constitution save at that turn’s end. On a failure, it regurgitates the creature, which lands prone within 10 ft. If the scavver dies, the swallowed creature is freed from restraint and can spend 10 ft. of movement to exit prone.",
+        "Printed source": "Boo’s Astral Menagerie, p. 49."
+      }
+    }
+  },
+  {
+    "name": "B’rohg",
+    "statBlock": {
+      "name": "B’rohg",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 16,
+      "classification": "Huge giant, any alignment",
+      "ac": 14,
+      "hp": 92,
+      "hitDice": "8d12 + 40",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 10,
+      "description": "A broad, orange-skinned giant with four arms and a preference for solitude. B’rohgs communicate with grunts and gestures. One that learns to trust a stranger may repay that kindness by carrying gear or guiding them through dangerous terrain.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 8,
+        "Survival": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Actions": "Multiattack. Make four Fist attacks or two Rock attacks.\nFist. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 12 (2d6 + 5) bludgeoning damage.\nRock. Ranged weapon attack, +5 to hit, range 60/240 ft., one target. A hit deals 23 (4d8 + 5) bludgeoning damage.\nHideous Rend. The giant reaches with all four hands for one visible Large or smaller creature within 10 ft. On a failed DC 16 Dexterity save, the target is grappled (escape DC 16). The giant cannot use Fist or Rock attacks while this grapple holds. The target takes 49 (8d10 + 5) bludgeoning damage at the start of each of its turns. If this damage drops it to 0 HP, the giant tears it into four pieces.",
+        "Printed source": "Boo’s Astral Menagerie, p. 16."
+      }
+    }
+  },
+  {
+    "name": "Chwinga Astronaut",
+    "statBlock": {
+      "name": "Chwinga Astronaut",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 17,
+      "classification": "Tiny elemental, typically neutral",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "3d4",
+      "speed": "20 ft., climb 20 ft., swim 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 1
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "0",
+      "xp": 0,
+      "passivePerception": 17,
+      "description": "A tiny spirit with a mask-like face. Astronauts make their homes on habitable moons and asteroids. Some stow away aboard ships or ride a Space Guppy.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Acrobatics": 7,
+        "Perception": 7,
+        "Stealth": 7
+      },
+      "sections": {
+        "Senses": "Blindsight 60 ft.",
+        "Traits": "Evasion. If a Dexterity save normally halves damage, the chwinga takes none on a success and half on a failure. This trait has no effect while the chwinga is incapacitated.\nUnusual Nature. The chwinga needs no air, food, or drink. At death, the DM chooses what it becomes: moondust, sparkling spores, a likeness in miniature, a piece of ice, or a twelve-sided sponge.",
+        "Actions": "Magical Gift (1/day). Bestow a supernatural charm of the DM’s choice on a visible Humanoid within 5 ft. See the Spelljammer charms below or the Dungeon Master’s Guide.\nNatural Shelter. Enter a rock, bush, tree, or natural freshwater source located in the chwinga’s space. While sheltered, the chwinga retains its blindsight and cannot be targeted by attacks, spells, or other effects. It can emerge as an action. Destroying the shelter places the chwinga unharmed in the shelter’s space.\nSpellcasting. Cast Druidcraft, Guidance, Pass without Trace, or Resistance at will using Charisma. The spells require no material or verbal components.",
+        "Spelljammer charms": "Charm of Air Bubbles. The recipient can cast Air Bubble as an action. They lose this charm after casting it three times.\nCharm of Instant Tools. The recipient conjures one set of Artisan’s Tools, Navigator’s Tools, or Thieves’ Tools in hand or in their space. The charm ends after one use. The tools stay.",
+        "Printed source": "Boo’s Astral Menagerie, p. 17."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "beast",
+          "name": "Space Guppy",
+          "terms": [
+            "Space Guppy",
+            "Space Guppies"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#space%20guppy_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cosmic Horror",
+    "statBlock": {
+      "name": "Cosmic Horror",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 18,
+      "classification": "Gargantuan aberration, typically neutral evil",
+      "ac": 15,
+      "hp": 280,
+      "hitDice": "16d20 + 112",
+      "speed": "50 ft., fly 100 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 24
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "18",
+      "xp": 20000,
+      "passivePerception": 12,
+      "description": "A Far Realm aberration about a hundred feet long or tall, with a different tangle of eyes, jaws, wings and tentacles on every specimen. It follows starlight to inhabited worlds to feed, then sleeps adrift.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 13,
+        "Wis": 8,
+        "Cha": 13
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 240 ft.",
+        "Languages": "Deep Speech, telepathy 240 ft.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Legendary Resistance (3/day). The horror can turn a failed saving throw into a success.\nUnusual Nature. The horror needs no air.",
+        "Actions": "Multiattack. Make one Bite and two Tentacle attacks.\nBite. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 22 (4d6 + 8) piercing damage.\nTentacle. Melee weapon attack, +14 to hit, reach 30 ft., one target. A hit deals 18 (3d6 + 8) force damage. A creature hit is grappled (escape DC 18). The horror has 1d8 + 1 tentacles. Each can hold one target and cannot attack a different target until it releases the creature.\nPsychic Whispers (recharge 5–6). Each non-Aberration in a 60-ft.-radius sphere centered on the horror makes a DC 21 Wisdom save. The whispers deal 33 (6d10) psychic damage on a failure or half on a success.",
+        "Legendary actions": "The horror has 3 legendary actions. Use one option at the end of another creature’s turn. It recovers all uses at the start of its own turn.\nCrushing Tentacle (1 action). One creature grappled by the horror makes a DC 22 Constitution save. It takes 18 (3d6 + 8) force damage on a failure or half on a success.\nPoison Jet (2 actions). Each creature in a 30-ft. line 5 ft. wide takes 14 (4d6) poison damage unless it passes a DC 21 Constitution save.\nTeleport (2 actions). Move the horror and the creatures it is grappling to a visible unoccupied space within 120 ft.",
+        "Printed source": "Boo’s Astral Menagerie, p. 18."
+      }
+    }
+  },
+  {
+    "name": "Dohwar",
+    "statBlock": {
+      "name": "Dohwar",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 19,
+      "classification": "Small fey, any alignment",
+      "ac": 11,
+      "hp": 10,
+      "hitDice": "3d6",
+      "speed": "20 ft., swim 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 12,
+      "description": "A flightless, penguin-like Feywild traveler that prefers to do business out of sight. A dohwar’s brightly colored feathers can unpredictably change color, often after a strong emotion.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 3,
+        "Insight": 4,
+        "Persuasion": 3
+      },
+      "savingThrows": {
+        "Dex": 3,
+        "Wis": 4
+      },
+      "sections": {
+        "Languages": "Common, Dohwar, telepathy 30 ft. (see also Merging below).",
+        "Traits": "Merging. Two dohwars can speak telepathically together with one willing third creature. Each participant must be within 30 ft. of both others.",
+        "Actions": "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) piercing damage.\nSpellcasting (Psionics, 3/day). Cast Detect Thoughts using Charisma (save DC 11), with no components.",
+        "Printed source": "Boo’s Astral Menagerie, p. 19."
+      }
+    }
+  },
+  {
+    "name": "Esthetic",
+    "statBlock": {
+      "name": "Esthetic",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 20,
+      "classification": "Gargantuan aberration, unaligned",
+      "ac": 14,
+      "hp": 217,
+      "hitDice": "14d20 + 70",
+      "speed": "0 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 8
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 1
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "An organic warship grown by a Reigar, usually resembling a vast jellyfish or cephalopod. Without its creator, its actions are driven by self-preservation.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 300 ft. (blind beyond this radius).",
+        "Damage immunities": "Acid.",
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, frightened, petrified, prone.",
+        "Traits": "Bioluminescence. With at least 1 HP, the esthetic lights the area within 30 ft. brightly and the next 30 ft. dimly. Its compartments have dim light.\nSpelljamming. The esthetic has the properties of a Spelljamming Helm. Its Reigar creator is the only creature that can attune to it.\nUnusual Nature. The esthetic needs no air, food, or drink.",
+        "Actions": "Multiattack. Make two Tentacle attacks.\nTentacle. Melee weapon attack, +11 to hit, reach 30 ft., one target. A hit deals 17 (3d6 + 7) force damage. A creature hit is grappled (escape DC 17) and takes 18 (4d8) acid damage at the start of each of its turns while held. The esthetic has 1d4 × 2 tentacles. Each can grapple one target and cannot attack a different target until it releases the creature.",
+        "Bonus actions": "Jammerscream (recharge 6). Choose one spelljamming ship within 300 ft. If it has several helms, randomly select one. Its helm’s magic shuts down for 2d10 days unless a creature attuned to it opts to make a DC 17 Charisma save. On a failed save, that creature takes 42 (12d6) psychic damage and the shutdown lasts 2d10 hours. On a successful save, the creature takes half damage and the shutdown lasts 2d10 minutes.",
+        "Passengers and creator": "There is room for the Reigar and up to six Medium passengers. The Reigar can open or close the hatch by touching it. The esthetic can live indefinitely on the Astral Plane while its creator lives. If its creator dies, the esthetic sickens and dies after 1d12 days.",
+        "Printed source": "Boo’s Astral Menagerie, p. 20."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Reigar",
+          "terms": [
+            "Reigar"
+          ],
+          "printing": {
+            "publication": "Spelljammer: Adventures in Space",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#reigar_bam"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eye Monger",
+    "statBlock": {
+      "name": "Eye Monger",
+      "publication": "Spelljammer: Adventures in Space",
+      "edition": "2014 fifth edition",
+      "printedPage": 21,
+      "classification": "Large aberration, typically lawful evil",
+      "ac": 17,
+      "hp": 149,
+      "hitDice": "13d10 + 78",
+      "speed": "0 ft., fly 20 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 21
+        },
+        "Dex": {
+          "score": 6
+        },
+        "Con": {
+          "score": 23
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 11,
+      "description": "With mouth and eye shut, this ambusher resembles a twelve-foot asteroid. It opens its eye when it senses vibrations. Coins, metal weapons, gems, and magic items can remain in the gullet after a meal.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft., blindsight 120 ft. while the eye monger's eye is closed.",
+        "Languages": "Deep Speech.",
+        "Traits": "Antimagic Gullet. The gullet suppresses magic, including spells and magic items. Magic from artifacts or deities is exempt. Slots or item charges spent inside on suppressed magic are wasted. Suppression counts against an effect’s duration. Outside magic cannot affect creatures or objects inside unless it comes from an artifact or deity.\nFalse Appearance. If it starts combat motionless with both mouth and eye closed, it has advantage on initiative. A creature that has never seen it move or act needs a successful DC 18 Intelligence (Investigation) check to recognize it as animate.\nUnusual Nature. The eye monger needs no air.",
+        "Actions": "Bite. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) piercing damage. A Medium or smaller creature hit must pass a DC 18 Dexterity save or be swallowed into the antimagic gullet. The eye monger can hold one swallowed creature at a time.\nA swallowed creature is blinded and restrained. It has total cover from attacks and other effects originating outside the eye monger. It takes 35 (10d6) acid damage at the start of each of its own turns.\nIf a creature in the gullet deals at least 25 damage to the eye monger in one turn, the monster regurgitates it. The creature lands prone within 10 ft. If the eye monger dies, the swallowed creature is freed from restraint and can spend 10 ft. of movement to exit prone.",
+        "Printed source": "Boo’s Astral Menagerie, p. 21.",
+        "Printing note": "The updated printing uses blindsight while the eye is closed. The original printing listed tremorsense."
+      }
+    }
+  }
+]

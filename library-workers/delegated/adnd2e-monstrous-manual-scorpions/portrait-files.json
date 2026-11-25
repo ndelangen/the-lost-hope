@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Large Scorpion",
+    "file": "",
+    "selection": "generated",
+    "sha256": "623b824dd4fd95f3929492c5635dba3fd4504718f9545fbc40cf913bed682ee0",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Huge Scorpion",
+    "file": "",
+    "selection": "generated",
+    "sha256": "d7801deafc970e3073e711f06d368cdb0055047e026eff726315291eecf9fba2",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "name": "Giant Scorpion",
+    "file": "",
+    "selection": "generated",
+    "sha256": "fa96827358128df1438765aa4284281bd3b93e77f3abec6b0819d0bacecff84e",
+    "width": 1254,
+    "height": 1254
+  }
+]

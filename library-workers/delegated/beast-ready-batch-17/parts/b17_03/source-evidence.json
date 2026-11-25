@@ -1,0 +1,161 @@
+[
+  {
+    "name": "Hellwasp Grub",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      95
+    ],
+    "section": "N3. Hellwasp Larvae",
+    "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=96",
+    "url": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=96",
+    "inheritedStatBlock": {
+      "name": "Giant Centipede",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 323,
+      "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+    },
+    "appearanceEvidence": "The adventure identifies the creature as a grub growing inside an angel carcass. The existing scoped digital token shows a reddish armored immature insect. The centipede portrait has the anatomy of the rules proxy.",
+    "verification": "The adventure explicitly points to Giant Centipede without changes to its statistics. The adult Hellwasp is a different creature.",
+    "visualWitnesses": [
+      {
+        "printedPage": 95,
+        "viewerPage": 96,
+        "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=96",
+        "sha256": "2ead793d79dec321e51b0f2149c477c124aab57e2ab310792bbfff0a9d9366ee"
+      }
+    ],
+    "printing": "First printing, September 2019",
+    "isbn": "978-0-7869-6687-5",
+    "title": "Baldur's Gate: Descent into Avernus",
+    "publisherUrl": "https://www.dndbeyond.com/sources/dnd/bgdia",
+    "colophonUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=3"
+  },
+  {
+    "name": "Peacock",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      195
+    ],
+    "section": "Baldur’s Gate Gazetteer, Table H result 7",
+    "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=196",
+    "url": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=196",
+    "inheritedStatBlock": {
+      "name": "Vulture",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 339,
+      "sourceUrl": ""
+    },
+    "appearanceEvidence": "The encounter calls the animal a peacock. The scoped token confirms the blue male with a patterned train. A vulture is only the rules proxy.",
+    "verification": "The gazetteer specifically calls for the regular Vulture block. Its larger peacock in a different encounter is separate set dressing.",
+    "visualWitnesses": [
+      {
+        "printedPage": 195,
+        "viewerPage": 196,
+        "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=196",
+        "sha256": "828e1008c07e141a9d5091fc4fabac41c01d50fc7dc252815c34db06c843ccd0"
+      }
+    ],
+    "printing": "First printing, September 2019",
+    "isbn": "978-0-7869-6687-5",
+    "title": "Baldur's Gate: Descent into Avernus",
+    "publisherUrl": "https://www.dndbeyond.com/sources/dnd/bgdia",
+    "colophonUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=3"
+  },
+  {
+    "name": "Traxigor",
+    "publication": "Baldur's Gate: Descent Into Avernus",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      50
+    ],
+    "section": "Getting to Avernus, Traxigor’s Tower",
+    "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=51",
+    "url": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=51",
+    "inheritedStatBlock": {
+      "name": "Archmage",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 342,
+      "sourceUrl": "https://www.dndbeyond.com/monsters/16789-archmage"
+    },
+    "appearanceEvidence": "The boxed description identifies an otter in a tiny red cassock. The staging uses an original naturalistic river-otter pose.",
+    "verification": "The original adventure specifies Tiny Beast, Strength 3, chaotic good, six fixed languages, and Plane Shift prepared in place of Teleport. Other Archmage statistics carry forward, even the printed d8 Hit Dice.",
+    "visualWitnesses": [
+      {
+        "printedPage": 50,
+        "viewerPage": 51,
+        "sourceUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=51",
+        "sha256": "95957049810dab6d65aca345d8b5171428b9e5bbd7f484f3a37ad8b035873d11"
+      }
+    ],
+    "printing": "First printing, September 2019",
+    "isbn": "978-0-7869-6687-5",
+    "title": "Baldur's Gate: Descent into Avernus",
+    "publisherUrl": "https://www.dndbeyond.com/sources/dnd/bgdia",
+    "colophonUrl": "https://online.anyflip.com/uggd/evkp/mobile/index.html#p=3"
+  },
+  {
+    "name": "Enormous Tentacle",
+    "publication": "The Orrery of the Wanderer",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      93,
+      94
+    ],
+    "section": "The Orrery of the Wanderer, area 8 Tentacle",
+    "sourceUrl": "",
+    "url": "",
+    "inheritedStatBlock": {
+      "name": "Giant Constrictor Snake",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 324,
+      "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g"
+    },
+    "appearanceEvidence": "The text describes a single long appendage emerging from a weak planar barrier. The printed scene illustration shows it green. The isolated portrait leaves the connected creature off the page.",
+    "verification": "The encounter text gives two modifications to the Giant Constrictor Snake and then specifies the stages of its grapple. No tremorsense radius is printed for the owner creature.",
+    "visualWitnesses": [],
+    "printing": "First printing, June 2019",
+    "isbn": "978-0-7869-6690-5",
+    "title": "Acquisitions Incorporated",
+    "publisherUrl": "https://www.dndbeyond.com/sources/dnd/ai",
+    "documentSha256": "8066053a30443f5e4cd7e819e2aeff63d280af1ad0cbebc776d743cb3ee8b94d"
+  },
+  {
+    "name": "Onyx",
+    "publication": "The Orrery of the Wanderer",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printedPages": [
+      185,
+      186,
+      187
+    ],
+    "section": "The Orrery of the Wanderer, Onyx Ascendant",
+    "sourceUrl": "",
+    "url": "",
+    "inheritedStatBlock": {
+      "name": "Cat",
+      "publication": "Monster Manual (2014)",
+      "printedPage": 320,
+      "sourceUrl": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-c"
+    },
+    "appearanceEvidence": "The book illustration depicts the cat as brown with vivid blue eyes. The staging recolors the previously staged ordinary cat and preserves the parchment, silhouette and pose.",
+    "verification": "The original gives an explicit Cat override, printed speed, protection from damage, shortened durations, Huge relative size, and replacement claws.",
+    "visualWitnesses": [],
+    "printing": "First printing, June 2019",
+    "isbn": "978-0-7869-6690-5",
+    "title": "Acquisitions Incorporated",
+    "publisherUrl": "https://www.dndbeyond.com/sources/dnd/ai",
+    "documentSha256": "8066053a30443f5e4cd7e819e2aeff63d280af1ad0cbebc776d743cb3ee8b94d"
+  }
+]

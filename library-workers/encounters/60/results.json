@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Elan",
+    "species": "species-dcdf07418875b14942de0d45",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Expanded Psionics Handbook (2004)"
+    ],
+    "portraitSha256": "1832e439c9d24a48a8d6a8f115fc0ef256ef74d440ce5eb8990cef5d43957e79",
+    "caption": "Teva Alder · Original Elan NPC",
+    "npcReceipts": [
+      {
+        "name": "Teva Alder",
+        "id": "npc-dfb68bb3bca1c70b6c8c6aa2",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Corren Vale",
+        "id": "npc-86cf71cfc047338357ef51ea",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  },
+  {
+    "name": "Xeph",
+    "species": "species-a4ee7610c065343d6da4f7d8",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Expanded Psionics Handbook (2004)"
+    ],
+    "portraitSha256": "d64b3416d0d654eb0e09c18b4ec797d89205600458b7fa9bd1920c5059c91f97",
+    "caption": "Rovan Threadglass · Original Xeph NPC",
+    "npcReceipts": [
+      {
+        "name": "Rovan Threadglass",
+        "id": "npc-a587b5308e5992d8cfed8c3e",
+        "challenge": "Provisional CR 1. ECL 1."
+      },
+      {
+        "name": "Miren Trackweft",
+        "id": "npc-4135aec6194138c41a87ce04",
+        "challenge": "Provisional CR 1. ECL 1."
+      }
+    ]
+  }
+]

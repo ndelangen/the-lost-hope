@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Human Apprentice Mage",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 62",
+    "tableNote": "At Truss Bridge (U1), Gray Walter's three apprentice sons fight from the scaffolding 10 ft. above the bridge.",
+    "notes": "AC 14, 13 HP, CR 6, and 285 XP match both printings. Empower Patron grants 2 temporary HP per eligible mage. Lightning Strike's secondary damage, Thunder Crack's opportunity-attack restriction, and the acid, cold, and fire variants also match."
+  },
+  {
+    "name": "Human Brawler",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 36. Burnock Mill, p. 62.",
+    "tableNote": "Flash Maggie has 77 HP at Truss Bridge (U1). She grabs lightly armored foes, shields herself with them, and tries to throw them off the bridge.",
+    "notes": "Both adventure blocks and the Flee, Mortals! block use AC 14, 52 HP, and CR 2. Grab, Haymaker, the size restrictions and damage for Throw, and Meat Shield all match. Flash Maggie's extra HP is an encounter change. Human Brawler Slime Servant has a separate block."
+  },
+  {
+    "name": "Human Death Acolyte",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 63. Ruins of Wrathrock, p. 129.",
+    "tableNote": "At Burnock Mill (U5), six acolytes pray for Brother John during his bout with Barrelhouse Jill. Ten acolytes fight alongside the Havoc Host mercenaries in Ruins of Wrathrock.",
+    "notes": "Both adventure blocks and the Flee, Mortals! block use AC 13, 9 HP, CR 2, and 90 XP. Death Chant overrides successful death saves, including the natural 20 healing, and Transfer Life and Necrotic Bolt use the same attack stats."
+  },
+  {
+    "name": "Human Guard",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 36. Burnock Mill, p. 64. The White Tower, p. 146.",
+    "tableNote": "When Burnock Mill goes on alert, six guards leave the first floor and patrol the outside with Barrelhouse Jill. In the White Tower (X2a), ten guards share the barracks with two trickshots.",
+    "notes": "All three adventure blocks and the Flee, Mortals! block use AC 16, 5 HP, CR 1/8, and 5 XP. Overwhelm has the same three-guard trigger, movement penalty, and restraint at 0 walking speed. Exploit Weakness and Spear also match."
+  },
+  {
+    "name": "Human Knave",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 64. Ruins of Wrathrock, p. 130. The White Tower, p. 146.",
+    "tableNote": "Four knaves guard the White Tower entrance. At Burnock Mill, Beatrice the Cruel fights with Baron Uthrak and helps him knock enemies down.",
+    "notes": "All three adventure blocks and the Flee, Mortals! block use AC 16, 60 HP, and CR 3. Multiattack, the Morningstar's bonus against prone targets, Shield Bash, Javelin, and Stay Down match."
+  },
+  {
+    "name": "Human Raider",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 65",
+    "tableNote": "The raiders on Burnock Mill's third floor try to shove intruders into the millstone or out of the crane bay. Dogface uses this block if attacked. If recruited, he uses the Human Mercenary block instead.",
+    "notes": "Both printings use AC 14 with a shield, 22 HP, and CR 1/2. Charge, Handaxe, Shield Shove, and Splinter Shield match, including the AC loss and unavailable actions after the shield breaks."
+  },
+  {
+    "name": "Human Scoundrel",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 65. The White Tower, p. 146.",
+    "tableNote": "Barrelhouse Jill uses this block at Burnock Mill (U5). A character who exposes Brother John's healing and succeeds on a DC 15 Charisma (Persuasion) check can get Jill to turn on him until he is defeated.",
+    "notes": "Both adventure blocks and the Flee, Mortals! block use AC 15, 55 HP, and CR 3. Ambusher, the extra 2d6 weapon damage with advantage, and the Rapier's follow-up Dagger attack match."
+  },
+  {
+    "name": "Human Storm Wizard",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 66. Ruins of Wrathrock, p. 131. The White Tower, p. 147.",
+    "tableNote": "At Truss Bridge (U1), Gray Walter casts from the scaffolding and uses Gust of Wind to push enemies off the bridge. Basil and Cransta use this block in the White Tower attic (X2b).",
+    "notes": "All three adventure blocks and the Flee, Mortals! block use AC 12, AC 15 with Mage Armor, 75 HP, and CR 6. Arcane Staff, Gust of Wind, Lightning Bolt, Arcane Shield and the utility spells match. Burnock Mill also reprints the cryomancer and pyromancer options."
+  },
+  {
+    "name": "Human Trickshot",
+    "decision": "share",
+    "pages": "Burnock Mill, p. 67. Ruins of Wrathrock, p. 131. The White Tower, p. 147.",
+    "tableNote": "When Burnock Mill goes on alert, two trickshots move to the roof. They have half cover against attacks from the ground.",
+    "notes": "The three adventure blocks use AC 14, 39 HP, and CR 2. Point Blank Shooting, Heavy Crossbow, Bayonet and the two targets of Ricochet Bolt match the Flee, Mortals! block. The Slime Servant on p. 135 is a separate profile."
+  },
+  {
+    "name": "Mimic (MCDM)",
+    "decision": "share",
+    "pages": "Hanging Tree, p. 37",
+    "tableNote": "The green-banded key at the Holding Cell (O4) is a trained mimic. It attacks if touched or if someone attacks the door or bends the bars. It flees at 15 HP or fewer.",
+    "notes": "Both printings use AC 11, 65 HP, and CR 2. The grapple, acid damage, Envelop escape rules, Shapechanger and Panic Shift match. The larger mimic is a separate Flee, Mortals! variant and supplies no rules to this encounter."
+  },
+  {
+    "name": "Camel (MCDM)",
+    "decision": "share",
+    "pages": "Boughs of Eternity, p. 310",
+    "tableNote": "At the Soulstone Sanctum (L8), Vairae's Glyph of Warding can cast True Polymorph with save DC 22 and turn its target into this camel.",
+    "notes": "Both printings use AC 11, 28 HP, and CR 1/2. The limits for food, water, and heat, the Kick's prone save, and the spit's poison and blindness thresholds match."
+  }
+]

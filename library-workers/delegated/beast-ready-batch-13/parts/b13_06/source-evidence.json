@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Aurochs",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "isbn": "978-0-7869-6601-1",
+    "heading": "Aurochs",
+    "section": "Appendix A, Assorted Beasts",
+    "printedPages": [
+      207
+    ],
+    "viewerPages": [
+      208
+    ],
+    "supportingPages": [
+      223
+    ],
+    "supportingViewerPages": [
+      224
+    ],
+    "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/17320-aurochs",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+    "habitatEvidence": "Appendix C places Aurochs in grasslands, hills and mountains on p. 223.",
+    "appearanceEvidence": "Editorial description of the roster portrait.",
+    "artworkSource": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/aurochs.png",
+    "artworkSha256": "ec87d80c9f5b366160f4d7ed396d76d91b718215de5c1a6abbaab8cb38248b61",
+    "sourceNotes": [
+      "Gore can hit a creature or object. Only creatures make the Charge saving throw."
+    ]
+  },
+  {
+    "name": "Cow",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "isbn": "978-0-7869-6601-1",
+    "heading": "Cattle, Cow",
+    "section": "Appendix A, Assorted Beasts",
+    "printedPages": [
+      207
+    ],
+    "viewerPages": [
+      208
+    ],
+    "supportingPages": [],
+    "supportingViewerPages": [],
+    "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/17321-cow",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+    "habitatEvidence": "Grassland and pasture are editorial tags for domestic cattle. Appendix C lists the rothé under grassland and the ox under urban, each identified as a Cow variant.",
+    "appearanceEvidence": "Editorial description of the roster portrait.",
+    "artworkSource": "New original ImageGen portrait",
+    "artworkSha256": "e6b6f184622ea2a6770ae532845441a482af8b38de31877172854966f897f10d",
+    "sourceNotes": [
+      "The Cow base block supplies Charge and Gore. Cattle gives separate instructions for applying the variants on p. 208."
+    ]
+  },
+  {
+    "name": "Deep Rothé",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "isbn": "978-0-7869-6601-1",
+    "heading": "Cattle, Cow and Rothé",
+    "section": "Appendix A, Assorted Beasts",
+    "printedPages": [
+      207,
+      208
+    ],
+    "viewerPages": [
+      208,
+      209
+    ],
+    "supportingPages": [
+      224
+    ],
+    "supportingViewerPages": [
+      225
+    ],
+    "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/24006-deep-rothe",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+    "habitatEvidence": "The p. 208 account names the Underdark. Appendix C lists Cow (deep rothé) under Underdark Creatures and confirms CR 1/4 (50 XP).",
+    "appearanceEvidence": "Editorial description of the roster portrait.",
+    "artworkSource": "beast-ready-batch-13/parts/b13_04/portraits/deep-rothe.png",
+    "artworkSha256": "c295a1c3bb90af78ac2b296b88b941ac84f4fca931142bf284432bc39bd199bb",
+    "sourceNotes": [
+      "Cattle on p. 207 directs the reader to start with the Cow stat block and apply the named variant changes. Rothé on p. 208 gives the Deep Rothé’s size, HP, darkvision and innate spellcasting.",
+      "AC, 30-ft. speed, ability scores, passive Perception, Charge and Gore come from Cow. The published variant communicates by magical flashes and adds no language to the Cow line."
+    ],
+    "relatedRules": {
+      "Dancing Lights (2014)": "https://www.dndbeyond.com/spells/2057-dancing-lights"
+    }
+  },
+  {
+    "name": "Dolphin",
+    "publication": "Volo's Guide to Monsters",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, November 2016",
+    "isbn": "978-0-7869-6601-1",
+    "heading": "Dolphin",
+    "section": "Appendix A, Assorted Beasts",
+    "printedPages": [
+      208
+    ],
+    "viewerPages": [
+      209
+    ],
+    "supportingPages": [
+      222,
+      224
+    ],
+    "supportingViewerPages": [
+      223,
+      225
+    ],
+    "sourceWitness": "Local first-printing facsimile  The edition credit appears on page 3.",
+    "sourceSha256": "dfb296846f6fe2ce8adba02474d7cb434f96950aef208fceae4823283337456f",
+    "url": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "sourceUrl": "https://www.dndbeyond.com/sources/dnd/vgtm",
+    "indexedCreatureUrl": "https://www.dndbeyond.com/monsters/17322-dolphin",
+    "officialErrataPdf": "",
+    "officialErrataPdfSha256": "5772849a279cafec73e30804f140592948e2ac01c0824b8160115285cec8a06a",
+    "errataEvidence": "The Wizards of the Coast v3.0 errata contains no changes to these entries.",
+    "habitatEvidence": "Appendix C lists Dolphin under Coastal Creatures on p. 222 and Underwater Creatures on p. 224.",
+    "appearanceEvidence": "Editorial description of the roster portrait.",
+    "artworkSource": "playable-species-50-batch-9/parts/nine_mr2_c/portraits/dolphin.png",
+    "artworkSha256": "04ad7363d846e0cd251984a105536d7694657f73a3a29b2b6e2852950fc1dd86",
+    "sourceNotes": [
+      "The p. 208 block gives blindsight without a separate Echolocation trait. The printed Charge only calls for straight movement toward the target."
+    ]
+  }
+]

@@ -1,0 +1,304 @@
+[
+  {
+    "name": "Barnacle Bess",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, May 2019, ISBN 978-0-7869-6675-2.",
+    "isbn": "978-0-7869-6675-2",
+    "section": "Appendix A, The Marshal, M6. Passenger Quarters",
+    "printedPages": [
+      220
+    ],
+    "viewerPages": [
+      221
+    ],
+    "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=221",
+    "url": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=221",
+    "pageWitnesses": [
+      {
+        "printedPage": 220,
+        "viewerPage": 221,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/97a95fffb8627ee782e27e0157b08e2d.webp",
+        "sha256": "220b9083cec7b0297c6eb170d5524b8e860ce75881f89e5125db1f1122d7ca29"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/gos",
+    "sourceAccess": "First-print folios inspected from page images of the hardcover.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/ghosts-of-saltmarsh",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official Ghosts of Saltmarsh errata contains no change for this entry.",
+    "habitatEvidence": "Area M6 of the wreck of the Marshal gives the exact location.",
+    "appearanceEvidence": "Species and stated coloration come from the printed encounter or creature description. Pose and other details are editorial portrait choices.",
+    "artGroup": "barnacle-bess",
+    "portraitSha256": "4ada12f899ca3cabe46f7b6dda820313bb4cc32c2583dad9d992a204023505da",
+    "mechanicsNotes": [
+      "The encounter explicitly changes the Giant Crab’s alignment to lawful neutral and Intelligence to 10 and grants spoken and understood Common."
+    ],
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/311755-barnacle-bess",
+    "relatedRules": [
+      {
+        "section": "Monster Manual Appendix A, Giant Crab",
+        "printedPages": [
+          324
+        ],
+        "viewerPages": [
+          325
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "printing": "First printing, September 2014, ISBN 978-0-7869-6561-8.",
+        "errataUrl": "",
+        "errataEvidence": "The official 2014 Monster Manual errata has no change for this baseline."
+      }
+    ]
+  },
+  {
+    "name": "Fish",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, May 2019, ISBN 978-0-7869-6675-2.",
+    "isbn": "978-0-7869-6675-2",
+    "section": "Appendix A, Warthalkeel Ruin, W3. Ruined Buildings",
+    "printedPages": [
+      224
+    ],
+    "viewerPages": [
+      225
+    ],
+    "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=225",
+    "url": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=225",
+    "pageWitnesses": [
+      {
+        "printedPage": 224,
+        "viewerPage": 225,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/344c40469d3768a7b91e99f30507b3ba.webp",
+        "sha256": "caad1f334e0a78530d9cdd2b515445fd109b9bd8b033239545206dc7e01f6a75"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/gos",
+    "sourceAccess": "First-print folios inspected from page images of the hardcover.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/ghosts-of-saltmarsh",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official Ghosts of Saltmarsh errata contains no change for this entry.",
+    "habitatEvidence": "The printed W3 encounter describes various kinds of fish around the underwater ruins.",
+    "appearanceEvidence": "Species and stated coloration come from the printed encounter or creature description. Pose and other details are editorial portrait choices.",
+    "artGroup": "fish",
+    "portraitSha256": "eb61d1765250b9c69e1f18a806f7a5949a5bb3c93d38c6a8d7f2c4cb140bed11",
+    "mechanicsNotes": [
+      "The encounter uses Quipper statistics and explicitly removes Blood Frenzy and the ability to attack."
+    ],
+    "relatedRules": [
+      {
+        "section": "Monster Manual Appendix A, Quipper",
+        "printedPages": [
+          335
+        ],
+        "viewerPages": [
+          336
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "printing": "First printing, September 2014, ISBN 978-0-7869-6561-8.",
+        "errataUrl": "",
+        "errataEvidence": "The official 2014 Monster Manual errata has no change for this baseline."
+      }
+    ]
+  },
+  {
+    "name": "Giant Coral Snake",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, May 2019, ISBN 978-0-7869-6675-2.",
+    "isbn": "978-0-7869-6675-2",
+    "section": "Appendix C, Monsters and NPCs",
+    "printedPages": [
+      236
+    ],
+    "viewerPages": [
+      237
+    ],
+    "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=237",
+    "url": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=237",
+    "pageWitnesses": [
+      {
+        "printedPage": 236,
+        "viewerPage": 237,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/d92f8cab2081b5cab4ccd3984609a56c.webp",
+        "sha256": "74cd6d61655a6ca5d3f1ee4a11d5f5ee0d134a9678418bbe1daac6544767144c"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/gos",
+    "sourceAccess": "First-print folios inspected from page images of the hardcover.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/ghosts-of-saltmarsh",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official Ghosts of Saltmarsh errata contains no change for this entry.",
+    "habitatEvidence": "Appendix C places it in coastal caves and the abandoned hermitage chambers in Tammeraut’s Fate.",
+    "appearanceEvidence": "Species and stated coloration come from the printed encounter or creature description. Pose and other details are editorial portrait choices.",
+    "artGroup": "giant-coral-snake",
+    "portraitSha256": "766274e34d67e209f7e5dae19c127e9013109b018fbd3ca5a1bfb32c36662c9f",
+    "mechanicsNotes": [
+      "The same failed Constitution save imposes Stunned and short-term madness. The creature entry fixes the madness duration at 10 minutes."
+    ],
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/310351-giant-coral-snake",
+    "relatedRules": [
+      {
+        "section": "Dungeon Master’s Guide chapter 8, Short-Term Madness",
+        "printedPages": [
+          259
+        ],
+        "viewerPages": [
+          259
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/dmg-2014",
+        "openRulesMirror": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/running-the-game#Madness"
+      }
+    ]
+  },
+  {
+    "name": "Giant Sea Eel",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, May 2019, ISBN 978-0-7869-6675-2.",
+    "isbn": "978-0-7869-6675-2",
+    "section": "Appendix C, Monsters and NPCs",
+    "printedPages": [
+      237
+    ],
+    "viewerPages": [
+      238
+    ],
+    "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=238",
+    "url": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=238",
+    "pageWitnesses": [
+      {
+        "printedPage": 237,
+        "viewerPage": 238,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/fb0a256cbdeed41a4f1a71f5c7324f80.webp",
+        "sha256": "19bbb96b66c3e0d0a6cabb1b4e8418b65a3a3e226b347bc864fa863a2d11de58"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/gos",
+    "sourceAccess": "First-print folios inspected from page images of the hardcover.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/ghosts-of-saltmarsh",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official Ghosts of Saltmarsh errata contains no change for this entry.",
+    "habitatEvidence": "Appendix C describes dark ocean waters and locathah use as guards and mounts.",
+    "appearanceEvidence": "Species and stated coloration come from the printed encounter or creature description. Pose and other details are editorial portrait choices.",
+    "artGroup": "giant-sea-eel",
+    "portraitSha256": "74741b49df46b52cf487bcbe92d851a035472d297a50a9219df242bb1532ea1f",
+    "mechanicsNotes": [
+      "Dexterity save +4 is printed independently from Dexterity modifier +2."
+    ],
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/310356-giant-sea-eel"
+  },
+  {
+    "name": "Giant White Moray Eel",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, May 2019, ISBN 978-0-7869-6675-2.",
+    "isbn": "978-0-7869-6675-2",
+    "section": "Appendix A, Cove Reef, C6. Mass Grave",
+    "printedPages": [
+      215,
+      216
+    ],
+    "viewerPages": [
+      216,
+      217
+    ],
+    "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=216",
+    "url": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=216",
+    "pageWitnesses": [
+      {
+        "printedPage": 215,
+        "viewerPage": 216,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/83b2c04376d97cdcccb412eb489d5a1a.webp",
+        "sha256": "05147de035c3074aabb042a524ec003b32daaf0f21bd2fdc6d673641382c0553"
+      },
+      {
+        "printedPage": 216,
+        "viewerPage": 217,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/f65566f8af7d47fef42bbad0209761be.webp",
+        "sha256": "ba2cb757d0c73fd17e87c476e23e246647cf37ae10e64d0d5bd957e55d08f290"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/gos",
+    "sourceAccess": "First-print folios inspected from page images of the hardcover.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/ghosts-of-saltmarsh",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official Ghosts of Saltmarsh errata contains no change for this entry.",
+    "habitatEvidence": "The encounter places the eel among the submerged merfolk bones in Cove Reef.",
+    "appearanceEvidence": "Species and stated coloration come from the printed encounter or creature description. Pose and other details are editorial portrait choices.",
+    "artGroup": "giant-white-moray-eel",
+    "portraitSha256": "c66f342177e7cefdbaa84762e4202fdc402a11936a20ccc29d58a0a74e44c3f8",
+    "mechanicsNotes": [
+      "The encounter changes walk to 0 ft., swim to 40 ft., grants Stealth +4 and underwater-only breathing, and removes Constrict. Bite retains the Giant Constrictor Snake’s 10-ft. reach."
+    ],
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/311743-giant-white-moray-eel",
+    "relatedRules": [
+      {
+        "section": "Monster Manual Appendix A, Giant Constrictor Snake",
+        "printedPages": [
+          324
+        ],
+        "viewerPages": [
+          325
+        ],
+        "sourceUrl": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+        "sourceSha256": "6514c87c6c040c86b996acb2e4a5663b5e0065084842280f6b0a94b4c964ac3e",
+        "printing": "First printing, September 2014, ISBN 978-0-7869-6561-8.",
+        "errataUrl": "",
+        "errataEvidence": "The official 2014 Monster Manual errata has no change for this baseline."
+      }
+    ]
+  },
+  {
+    "name": "Sahuagin Hatchling Swarm",
+    "publication": "Ghosts of Saltmarsh",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, May 2019, ISBN 978-0-7869-6675-2.",
+    "isbn": "978-0-7869-6675-2",
+    "section": "Appendix C, Monsters and NPCs",
+    "printedPages": [
+      250
+    ],
+    "viewerPages": [
+      251
+    ],
+    "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=251",
+    "url": "https://online.anyflip.com/cmjgl/kepe/mobile/index.html#p=251",
+    "pageWitnesses": [
+      {
+        "printedPage": 250,
+        "viewerPage": 251,
+        "sourceUrl": "https://online.anyflip.com/cmjgl/kepe/files/large/86a1e8c8775ab1f9d2f50f5ac279f362.webp",
+        "sha256": "d453d5efcb77e213ce0eb1777a0a43e970560a3b937f94e2bf4e0cd4df4f5851"
+      }
+    ],
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/gos",
+    "sourceAccess": "First-print folios inspected from page images of the hardcover.",
+    "errataUrl": "https://www.dndbeyond.com/sources/dnd/sae/ghosts-of-saltmarsh",
+    "errataPdfUrl": "",
+    "errataEvidence": "The official Ghosts of Saltmarsh errata contains no change for this entry.",
+    "habitatEvidence": "Appendix C places these swarms in the waters of The Final Enemy.",
+    "appearanceEvidence": "Species and stated coloration come from the printed encounter or creature description. Pose and other details are editorial portrait choices.",
+    "artGroup": "sahuagin-hatchling-swarm",
+    "portraitSha256": "3ea2e45e53bc79e192ae725d182a7d0f30f6ff3ce3a96b8aa309f380721058eb",
+    "mechanicsNotes": [
+      "The printed creature is a swarm of Tiny Beasts. Seething triggers even if an attack was possible but not taken and cannot reduce the swarm below 1 HP."
+    ],
+    "publisherCreatureUrl": "https://www.dndbeyond.com/monsters/316858-sahuagin-hatchling-swarm"
+  }
+]

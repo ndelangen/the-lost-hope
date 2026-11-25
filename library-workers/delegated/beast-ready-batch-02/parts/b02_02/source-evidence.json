@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Baboon",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedPages": [
+      351
+    ],
+    "sourceUrl": "",
+    "appearanceEvidence": "Editorial description of the original olive-baboon study. The rules printings use the common animal name without specifying a species.",
+    "habitatEvidence": "Editorial tags for forest, savanna grassland and rocky hillsides, using natural baboon habitats.",
+    "habitatSourceUrl": "https://animals.sandiegozoo.org/animals/monkey",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "pdfPages": [
+      351
+    ],
+    "pdfPageNumbering": "One-based numbering matches the printed pages.",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPrintedPage": 229,
+    "xpSourceUrl": "",
+    "abilityModifiers": {
+      "STR": -1,
+      "DEX": 1,
+      "CON": 0,
+      "INT": -3,
+      "WIS": 1,
+      "CHA": -2
+    },
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 11
+    },
+    "omittedInPrint": [
+      "Hit Dice",
+      "raw ability scores",
+      "alignment"
+    ]
+  },
+  {
+    "name": "Baboon",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printedPages": [
+      318
+    ],
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page319.html",
+    "appearanceEvidence": "Editorial description of the original olive-baboon study. The rules printings use the common animal name without specifying a species.",
+    "habitatEvidence": "Editorial tags for forest, savanna grassland and rocky hillsides, using natural baboon habitats.",
+    "habitatSourceUrl": "https://animals.sandiegozoo.org/animals/monkey",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition book",
+    "pageNumbering": "Printed page 318, viewer sheet 319.",
+    "secondaryOfficialWitness": "",
+    "errataUrl": "",
+    "errata": "No listed correction to this creature in the 2018 Monster Manual errata."
+  },
+  {
+    "name": "Badger",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedPages": [
+      351
+    ],
+    "sourceUrl": "",
+    "appearanceEvidence": "Editorial description of the original European-badger study. The rules printings use the common animal name without specifying a species.",
+    "habitatEvidence": "Editorial tags drawn from European badger habitats, including woodland setts and nearby fields and meadows.",
+    "habitatSourceUrl": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/badger/",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "pdfPages": [
+      351
+    ],
+    "pdfPageNumbering": "One-based numbering matches the printed pages.",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPrintedPage": 229,
+    "xpSourceUrl": "",
+    "abilityModifiers": {
+      "STR": -3,
+      "DEX": 0,
+      "CON": 1,
+      "INT": -4,
+      "WIS": 1,
+      "CHA": -3
+    },
+    "fixedValues": {
+      "Perception": 11,
+      "Stealth": 10
+    },
+    "omittedInPrint": [
+      "Hit Dice",
+      "raw ability scores",
+      "alignment"
+    ]
+  },
+  {
+    "name": "Badger",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "printedPages": [
+      318
+    ],
+    "sourceUrl": "https://online.anyflip.com/pqhqn/sezy/files/basic-html/page319.html",
+    "appearanceEvidence": "Editorial description of the original European-badger study. The rules printings use the common animal name without specifying a species.",
+    "habitatEvidence": "Editorial tags drawn from European badger habitats, including woodland setts and nearby fields and meadows.",
+    "habitatSourceUrl": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/badger/",
+    "publisher": "Wizards of the Coast",
+    "printing": "2014 fifth-edition book",
+    "pageNumbering": "Printed page 318, viewer sheet 319.",
+    "secondaryOfficialWitness": "",
+    "errataUrl": "",
+    "errata": "No listed correction to this creature in the 2018 Monster Manual errata."
+  },
+  {
+    "name": "Crab",
+    "publication": "Black Flag Roleplaying Reference Document v0.2",
+    "edition": "Black Flag Roleplaying",
+    "kind": "beast",
+    "printedPages": [
+      354,
+      355
+    ],
+    "sourceUrl": "",
+    "appearanceEvidence": "Editorial description of the original shore-crab study. The Black Flag block uses the common animal name without specifying a species.",
+    "habitatEvidence": "Editorial tags drawn from the common shore crab’s coastal and estuarine range. The ruleblock lists movement and Amphibious but supplies no habitat field.",
+    "habitatSourceUrl": "https://www.marlin.ac.uk/species/detail/1497/1000",
+    "publisher": "Kobold Press",
+    "printing": "Reference Document v0.2, May 2024",
+    "pdfPages": [
+      354,
+      355
+    ],
+    "pdfPageNumbering": "One-based numbering matches the printed pages.",
+    "sourceSha256": "084cdd75de5441c904edb60d6ccdb44d56f4ddb2d056856159c74b1058c8ea9f",
+    "xpPrintedPage": 229,
+    "xpSourceUrl": "",
+    "abilityModifiers": {
+      "STR": -4,
+      "DEX": 0,
+      "CON": 0,
+      "INT": -5,
+      "WIS": -1,
+      "CHA": -4
+    },
+    "fixedValues": {
+      "Perception": 9,
+      "Stealth": 12
+    },
+    "omittedInPrint": [
+      "Hit Dice",
+      "raw ability scores",
+      "alignment"
+    ],
+    "keensenseRules": ""
+  }
+]

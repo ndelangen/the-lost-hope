@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Jackal",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "publication": "Basic Rules (2018)",
+    "printing": "D&D Basic Rules v1.0, 2018 ",
+    "printedPages": [
+      141
+    ],
+    "pdfPage": 141,
+    "viewerPages": [
+      141
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "url": "",
+    "additionalRules": [
+      ""
+    ],
+    "appearanceEvidence": "Editorial description based on the staged portrait and the anatomy of the named animal.",
+    "habitatEvidence": "Dry grassland, scrubland, and desert margins are suggested placements for the jackal shown.",
+    "habitatSourceKind": "Editorial encounter suggestions. Neither stat block prints habitat tags.",
+    "mechanicsNotes": [
+      "The Bite keeps the printed −1 damage modifier. The +5 to passive Perception when advantage applies follows Basic Rules p. 62.",
+      "The 2018 Basic Rules and 2014 Monster Manual stat blocks agree for this creature."
+    ]
+  },
+  {
+    "name": "Jackal",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "publication": "Monster Manual (2014)",
+    "printing": "Monster Manual (2014), ISBN 978-0-7869-6561-8",
+    "printedPages": [
+      331
+    ],
+    "viewerPages": [
+      333
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "officialErrataOnline": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataEvidence": "No Jackal change listed.",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
+    "additionalRules": [
+      ""
+    ],
+    "appearanceEvidence": "Editorial description based on the staged portrait and the anatomy of the named animal.",
+    "habitatEvidence": "Dry grassland, scrubland, and desert margins are suggested placements for the jackal shown.",
+    "habitatSourceKind": "Editorial encounter suggestions. Neither stat block prints habitat tags.",
+    "mechanicsNotes": [
+      "The Bite keeps the printed −1 damage modifier. The +5 to passive Perception when advantage applies follows Basic Rules p. 62.",
+      "The 2018 Basic Rules and 2014 Monster Manual stat blocks agree for this creature."
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "publication": "Basic Rules (2018)",
+    "printing": "D&D Basic Rules v1.0, 2018 ",
+    "printedPages": [
+      151
+    ],
+    "pdfPage": 151,
+    "viewerPages": [
+      151
+    ],
+    "section": "Chapter 12, Monsters",
+    "sourceUrl": "",
+    "sourceSha256": "7a0c5d8bf52d15092f156d78418aa3d43307e271f810d2f06bf2f0258e9288a3",
+    "url": "",
+    "additionalRules": [
+      "",
+      ""
+    ],
+    "appearanceEvidence": "Editorial description based on the staged portrait and the anatomy of the named animal.",
+    "habitatEvidence": "Savanna, open grassland, and scrubland are editorial placements for the animal depicted and give room for its straight charge.",
+    "habitatSourceKind": "Editorial encounter suggestions. Neither stat block prints habitat tags.",
+    "mechanicsNotes": [
+      "Both printed blocks use bludgeoning damage for Gore and Charge.",
+      "The 2018 Basic Rules and 2014 Monster Manual stat blocks agree for this creature."
+    ]
+  },
+  {
+    "name": "Rhinoceros",
+    "kind": "beast",
+    "edition": "2014 fifth edition",
+    "publisher": "Wizards of the Coast",
+    "publication": "Monster Manual (2014)",
+    "printing": "Monster Manual (2014), ISBN 978-0-7869-6561-8",
+    "printedPages": [
+      336
+    ],
+    "viewerPages": [
+      338
+    ],
+    "section": "Appendix A, Miscellaneous Creatures",
+    "sourceUrl": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/338/",
+    "publicationPage": "https://www.dndbeyond.com/sources/dnd/mm-2014",
+    "officialErrata": "",
+    "officialErrataOnline": "https://www.dndbeyond.com/sources/dnd/sae/monster-manual-2014",
+    "errataEvidence": "No Rhinoceros change listed.",
+    "url": "https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/338/",
+    "additionalRules": [
+      "",
+      ""
+    ],
+    "appearanceEvidence": "Editorial description based on the staged portrait and the anatomy of the named animal.",
+    "habitatEvidence": "Savanna, open grassland, and scrubland are editorial placements for the animal depicted and give room for its straight charge.",
+    "habitatSourceKind": "Editorial encounter suggestions. Neither stat block prints habitat tags.",
+    "mechanicsNotes": [
+      "Both printed blocks use bludgeoning damage for Gore and Charge.",
+      "The 2018 Basic Rules and 2014 Monster Manual stat blocks agree for this creature."
+    ]
+  }
+]

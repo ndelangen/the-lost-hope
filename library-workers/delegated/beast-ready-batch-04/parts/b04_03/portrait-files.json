@@ -1,0 +1,26 @@
+[
+  {
+    "artGroup": "dire-wolf",
+    "file": "portraits/dire-wolf.png",
+    "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "draft-horse",
+    "file": "portraits/draft-horse.png",
+    "sha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "artGroup": "flying-snake",
+    "file": "portraits/flying-snake.png",
+    "sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Elephant",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 10. No listed skill proficiencies, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip.",
+    "habitats": [
+      "Grasslands",
+      "Savannas",
+      "Open woodlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 125. ",
+      "Traits": "Trampling Charge. Move at least 20 ft. in a straight line toward a creature and hit it with Gore on the same turn. The target makes a DC 12 Strength save and falls prone on a failure. The elephant may make one Stomp against that target as a bonus action if it is prone.",
+      "Actions": "Gore. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 18 (3d8 + 5) piercing damage.\nStomp. Melee weapon attack, +8 to hit against one prone creature within 5 ft. On a hit, deal 21 (3d10 + 5) bludgeoning damage.",
+      "At the table": "Stomp can be used as an action against a prone creature. Trampling Charge also permits the bonus-action use described in the trait.",
+      "Printing note": "The 2018 uses +5 in both damage formulas. Its current D&D Beyond counterpart displays the corrected Monster Manual damage. This entry follows the scoped ."
+    }
+  },
+  {
+    "name": "Elephant",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Huge Beast, unaligned",
+    "ac": 12,
+    "hp": 76,
+    "hitDice": "8d12 + 24",
+    "speed": "40 ft.",
+    "cr": "4",
+    "xp": 1100,
+    "abilities": {
+      "Str": {
+        "score": 22,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 9,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 10. No listed skill proficiencies, special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip.",
+    "habitats": [
+      "Grasslands",
+      "Savannas",
+      "Open woodlands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 322. Official online reference: https://www.dndbeyond.com/monsters/16855-elephant\nMonster Manual errata v2.0 (2018): ",
+      "Traits": "Trampling Charge. Move at least 20 ft. in a straight line toward a creature and hit it with Gore on the same turn. The target makes a DC 12 Strength save and falls prone on a failure. The elephant may make one Stomp against that target as a bonus action if it is prone.",
+      "Actions": "Gore. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +8 to hit against one prone creature within 5 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.",
+      "At the table": "Stomp can be used as an action against a prone creature. Trampling Charge also permits the bonus-action use described in the trait.",
+      "Printing note": "The first printing has +5 in both damage formulas. Official Monster Manual errata v2.0 specifically applies the +6 values to this block."
+    }
+  },
+  {
+    "name": "Owl",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +3. Darkvision 120 ft., passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A small barn owl with a pale, heart-shaped facial disk, dark eyes, tawny wings and curved talons.",
+    "habitats": [
+      "Forests",
+      "Arctic",
+      "Open fields"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 147. ",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke that enemy’s opportunity attack.\nKeen Hearing and Sight. Roll Wisdom (Perception) checks with advantage when they rely on hearing or sight.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 1 slashing damage.",
+      "At the table": "Apply Keen Hearing and Sight to the relevant checks. When using passive Perception with that advantage, the effective value is 18."
+    }
+  },
+  {
+    "name": "Owl",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "5 ft., fly 60 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +3. Darkvision 120 ft., passive Perception 13. No listed languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A small barn owl with a pale, heart-shaped facial disk, dark eyes, tawny wings and curved talons.",
+    "habitats": [
+      "Forests",
+      "Arctic",
+      "Open fields"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 333. Official online reference: https://www.dndbeyond.com/monsters/16974-owl",
+      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke that enemy’s opportunity attack.\nKeen Hearing and Sight. Roll Wisdom (Perception) checks with advantage when they rely on hearing or sight.",
+      "Actions": "Talons. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 1 slashing damage.",
+      "At the table": "Apply Keen Hearing and Sight to the relevant checks. When using passive Perception with that advantage, the effective value is 18."
+    }
+  },
+  {
+    "name": "Weasel",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 13,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "30 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +5. Passive Perception 13. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "appearance": "A slender, reddish-brown weasel with a long body, short legs and a pale underside.",
+    "habitats": [
+      "Woodland edges",
+      "Hedgerows",
+      "Grasslands"
+    ],
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 340. Official online reference: https://www.dndbeyond.com/monsters/17052-weasel",
+      "Traits": "Keen Hearing and Smell. Roll Wisdom (Perception) checks with advantage when they rely on hearing or smell.",
+      "Actions": "Bite. Melee weapon attack, +5 to hit against one creature within 5 ft. On a hit, deal 1 piercing damage.",
+      "At the table": "Apply Keen Hearing and Smell to the relevant checks. When using passive Perception with that advantage, the effective value is 18.",
+      "Printing note": "The printed Bite targets one creature. The online listing says one target. This entry follows the scoped print page."
+    }
+  }
+]

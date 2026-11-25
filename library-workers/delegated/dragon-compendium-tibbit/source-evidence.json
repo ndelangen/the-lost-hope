@@ -1,0 +1,61 @@
+[
+  {
+    "name": "Tibbit",
+    "kind": "species",
+    "publication": "Dragon Compendium, Volume I (2005)",
+    "edition": "3.5 edition",
+    "book": "Dragon Compendium, Volume I",
+    "authors": [
+      "Scott Bennie (original Tibbit article)"
+    ],
+    "editor": "Mike McArtor",
+    "publisher": "Paizo Publishing",
+    "firstPrinting": "October 2005",
+    "isbn": "0-9770071-4-6",
+    "printedPages": {
+      "ancestryTables": 7,
+      "playableSpecies": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "racialTraits": 25,
+      "illustration": [
+        22,
+        23,
+        24
+      ]
+    },
+    "pdfPageOffset": 4,
+    "primaryBookScan": "",
+    "primaryBookSha256": "58d2b16e59dd48778cdc8367ae6f87fbd42aab66e76870010a7d8f32597d9d15",
+    "originalAppearance": {
+      "publication": "Dragon #135",
+      "author": "Scott Bennie",
+      "release": "July 1988",
+      "printedPage": 14,
+      "pdfPage": 16,
+      "url": ""
+    },
+    "officialErrataArchive": "",
+    "errataSha256": "464458b024d0c68ae2d38bcb328bb67f3a5ef7a93a050cf7822f9770f2c77900",
+    "printedArtCredit": "Tom Fowler credited in the margins accompanying the Tibbit illustrations, pp. 23 and 25.",
+    "sourceDistinctions": [
+      "The first 3.5 playable rules are in the 2005 Compendium. The 1988 version is an AD&D monster with its own mechanics.",
+      "The first printing says shapeshifter. Paizo’s errata specifies the Shapechanger subtype.",
+      "Going into cat form is a standard action. Returning takes a full-round action and starts the one-hour interval before another change to cat form.",
+      "Cat form applies Tiny size, altered Strength and Dexterity and natural attacks. The character remains a Monstrous Humanoid and carries class abilities, while equipment and action restrictions still apply."
+    ],
+    "entryId": "species-ba342ff2ebf19e78a1e800a8",
+    "versionKey": "69de5f0dccf2c5adf75d4791",
+    "slug": "tibbit",
+    "portraitSelection": "generated",
+    "portraitForm": "Pell Fenwick, an original Tibbit Rogue, shown in both forms",
+    "npcExamples": [
+      "Pell Fenwick",
+      "Rusk Brindle"
+    ]
+  }
+]

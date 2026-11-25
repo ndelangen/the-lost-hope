@@ -1,0 +1,31 @@
+[
+  {
+    "entry": "monster-c63ce11f00ae3e3502638ae1",
+    "slug": "sensa-prince",
+    "name": "Sensa Prince",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-29/event-drafts/sensa-prince-event-v1.png",
+    "saved": " Backups/Encounter Batch 29 2026-11-23/event-drafts/sensa-prince-event-v1.png",
+    "path": "encounters-29/sensa-prince.png",
+    "registeredPath": "assets/images/content/dm-library/sensa-horror-volo/sensa-prince.png",
+    "previous": {
+      "sha256": "ae4dbf3d31e0393da92957775b926f272333f3426628acf0a46a133f484c7f8c",
+      "bytes": 2353069
+    },
+    "overrides": [
+      {
+        "entry": "monster-c63ce11f00ae3e3502638ae1",
+        "name": "Sensa Prince",
+        "file": "images/monsters/sensa-prince/parchment-portrait.webp",
+        "sha256": "998dbe6b0b992fe3be89a233f54946367e2032fd71e006471e16929f365dc9f1",
+        "credit": "OpenAI ImageGen",
+        "reference": "",
+        "appearanceSource": "Gold for Fools and Princes, with Prince Kirina as a related costume reference",
+        "subjectPrompt": "A representative royal prince of the fictional Sensa Empire, an adult Black man with deep brown skin, a dignified youthful face, close-cropped hair and thoughtfully determined eyes. West African-inspired fantasy court dress derived loosely from the specific reference: unarmored full-length midnight indigo robe with a draped mantle, restrained copper-blue embroidered geometry and delicate gold edging, fitted belt and simple brown shoes. He holds one long straight practical sword low in his right hand with casual courtly training. Left hand relaxed at his side. Give him a fresh face, new costume and calm three-quarter stance. The second reference depicts another Sensa prince in a scene; use it for clothing palette only. No background, water magic, throne, crown, or additional creature.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "a0d63aec69004a70e1829ca3426d9a07eb76866a408b411f8111cfe523302675",
+    "bytes": 2650462
+  }
+]

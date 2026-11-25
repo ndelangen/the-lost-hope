@@ -1,0 +1,730 @@
+[
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Badger",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Badger",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Constitution +2. Walk 20 ft. and burrow 10 ft.",
+    "animal": {
+      "size": "Tiny",
+      "movement": "walk 30 ft., burrow 10 ft.",
+      "armorClass": 15,
+      "damage": "two claws 1d2−1 and bite 1d3−1",
+      "strength": 8,
+      "dexterity": 17,
+      "constitution": 15
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "082ec2d96f87804dfda779b4",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Carp",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Carp",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. Walk 10 ft. and swim 30 ft.",
+    "animal": {
+      "size": "Diminutive",
+      "movement": "swim 10 ft.",
+      "armorClass": 19,
+      "damage": "no natural damage listed",
+      "strength": 1,
+      "dexterity": 20,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "94f464e30453ed00162bbd67",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Cat",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Cat",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. +4 on Balance checks.",
+    "animal": {
+      "size": "Tiny",
+      "movement": "walk 30 ft.",
+      "armorClass": 14,
+      "damage": "two claws 1d2−4 and bite 1d3−4",
+      "strength": 3,
+      "dexterity": 15,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "a6cbac37c91babe441b1702c",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Crab",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Crab",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "No physical adjustment. +1 natural armor and +4 Swim.",
+    "animal": {
+      "size": "Diminutive",
+      "movement": "walk 15 ft.",
+      "armorClass": 18,
+      "damage": "two claws 1d2−5",
+      "strength": 1,
+      "dexterity": 17,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "aaa0f8a2b39ff4b25f77c1f1",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Crane",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Crane",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. Walk 20 ft. and fly 20 ft. (average).",
+    "animal": {
+      "size": "Small",
+      "movement": "walk 5 ft., fly 60 ft.",
+      "armorClass": 14,
+      "damage": "bite 1d4−2",
+      "strength": 6,
+      "dexterity": 16,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "eccb0b4805d58f6a567ff6ae",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Dog",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Dog",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Constitution +2. +4 Wilderness Lore when tracking by scent.",
+    "animal": {
+      "size": "Small",
+      "movement": "walk 40 ft.",
+      "armorClass": 15,
+      "damage": "bite 1d4+1",
+      "strength": 13,
+      "dexterity": 17,
+      "constitution": 15
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "7945747e6b245afeb533163b",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Fox",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Fox",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. +4 Escape Artist.",
+    "animal": {
+      "size": "Small",
+      "movement": "walk 40 ft.",
+      "armorClass": 15,
+      "damage": "bite 1d4",
+      "strength": 11,
+      "dexterity": 19,
+      "constitution": 11
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "fe128d877919358de4023520",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Hare",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Hare",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. Walk 40 ft.",
+    "animal": {
+      "size": "Tiny",
+      "movement": "walk 40 ft.",
+      "armorClass": 16,
+      "damage": "bite 1d3−5",
+      "strength": 1,
+      "dexterity": 19,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "81dfc2c34aea9d27eef6d6d8",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Monkey",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Monkey",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. +4 Climb.",
+    "animal": {
+      "size": "Tiny",
+      "movement": "walk 30 ft., climb 30 ft.",
+      "armorClass": 14,
+      "damage": "bite 1d3−4",
+      "strength": 3,
+      "dexterity": 15,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "77487d740ffb1624ff61428e",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Raccoon Dog",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Raccoon Dog",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Strength +2. +4 Wilderness Lore when tracking by scent.",
+    "animal": {
+      "size": "Small",
+      "movement": "walk 30 ft.",
+      "armorClass": 13,
+      "damage": "bite 1d4+1",
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 12
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "32e47dd181aaa6f0962b1072",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Rat",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Rat",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. +4 Hide.",
+    "animal": {
+      "size": "Tiny",
+      "movement": "walk 15 ft., climb 15 ft.",
+      "armorClass": 14,
+      "damage": "bite 1d3−4",
+      "strength": 2,
+      "dexterity": 15,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "b2bbe029dfd0b0729593cee1",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Sparrow",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Sparrow",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Dexterity +2. Walk 20 ft. and fly 20 ft. (average).",
+    "animal": {
+      "size": "Fine",
+      "movement": "walk 1 ft., fly 50 ft.",
+      "armorClass": 24,
+      "damage": "no natural damage listed",
+      "strength": 1,
+      "dexterity": 23,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "03f19d857edf3aa7320b1477",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  },
+  {
+    "name": "Hengeyokai",
+    "kind": "species",
+    "publication": "Oriental Adventures (2001) · Weasel",
+    "edition": "3.0 edition",
+    "publishedTitle": "Oriental Adventures",
+    "publisher": "Wizards of the Coast",
+    "author": "James Wyatt",
+    "publicationYear": 2001,
+    "productNumber": 12015,
+    "isbn": "0-7869-2015-7",
+    "form": "Weasel",
+    "printedPages": [
+      8,
+      10,
+      11,
+      12
+    ],
+    "printedCreatureComparisonPage": 168,
+    "primaryBookScan": "",
+    "primaryBookSha256": "d137ef39c1272a9d3e195f492910bd070215a7a85f3b3669144897406bf654f4",
+    "publisherPreview": "",
+    "errata3e": "https://www.scribd.com/document/624226672/OAWeberrata",
+    "faq3e": "",
+    "coreRules3e": "",
+    "hybrid": "Constitution +2. +4 Move Silently.",
+    "animal": {
+      "size": "Tiny",
+      "movement": "walk 20 ft., climb 20 ft.",
+      "armorClass": 14,
+      "damage": "bite 1d3−4",
+      "strength": 3,
+      "dexterity": 15,
+      "constitution": 10
+    },
+    "entryId": "species-5b1cc281e9195278b2a41837",
+    "versionKey": "65d942db40882fb76a723347",
+    "slug": "hengeyokai",
+    "portraitSelection": "generated",
+    "portraitForm": "Representative Badger hybrid",
+    "sharedPortraitAcrossAllForms": true,
+    "printedArtPage": 8,
+    "printedArtistForFigureUnconfirmed": true,
+    "originalNpcExamples": [
+      {
+        "name": "Seki",
+        "build": "hengeyokai-badger-cave-surveyor-3e",
+        "form": "Badger"
+      },
+      {
+        "name": "Aya",
+        "build": "hengeyokai-sparrow-dispatch-runner-3e",
+        "form": "Sparrow"
+      }
+    ]
+  }
+]

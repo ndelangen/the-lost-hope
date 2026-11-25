@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Hobgoblin Firerunner",
+    "slug": "hobgoblin-firerunner",
+    "id": "monster-6ad9a8ae5ead8adb37822191:e8db044fec38e94abc167d8a",
+    "entry": "monster-6ad9a8ae5ead8adb37822191",
+    "version": "e8db044fec38e94abc167d8a",
+    "suffix": "encounters-63/hobgoblin-firerunner.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-63/hobgoblin-firerunner.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-63/event-drafts/hobgoblin-firerunner-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 63 2026-11-24/event-drafts/hobgoblin-firerunner-event-v1.png",
+    "overrides": [],
+    "sha256": "3a28e57b7f92514cc7331144bf7763981a058cf5e03f20c2db41d5f6c920bf79",
+    "bytes": 2557836
+  },
+  {
+    "name": "Hobgoblin Trooper",
+    "slug": "hobgoblin-trooper",
+    "id": "monster-d959ae4400e6788c60bc92fe:0382c0f542574b0f5b0e2c6d",
+    "entry": "monster-d959ae4400e6788c60bc92fe",
+    "version": "0382c0f542574b0f5b0e2c6d",
+    "suffix": "encounters-63/hobgoblin-trooper.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-63/hobgoblin-trooper.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-63/event-drafts/hobgoblin-trooper-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 63 2026-11-24/event-drafts/hobgoblin-trooper-event-v1.png",
+    "overrides": [],
+    "sha256": "53a892295e7bdd12a4f75756550ca4f90b147649a574cc23751491a3e0177102",
+    "bytes": 2704275
+  }
+]

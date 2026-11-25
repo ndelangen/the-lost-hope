@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Theran Chimera",
+    "statBlock": {
+      "name": "Theran Chimera",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 216,
+      "classification": "Large monstrosity, unaligned",
+      "ac": 15,
+      "hp": 95,
+      "hitDice": "10d10 + 40",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "7",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "A wild predator made from several creatures. In Theros, unstable magic and portals to Nyx can spawn new chimeras near one another.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 7,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Understands Draconic but cannot speak.",
+        "Traits": "Spell Turning. The chimera has advantage on saves against spells that target it alone. If it succeeds against a spell of 4th level or lower, the spell affects the caster instead.",
+        "Actions": "Multiattack. Make one Claws attack, one Head attack, and one Tail attack. If the breath weapon has recharged, it can replace Claws or Head.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 13 (2d8 + 4) slashing damage on a hit.\nHead. Melee weapon attack, +7 to hit, reach 5 ft., one target. Deal 10 (1d12 + 4) piercing damage on a hit.\nTail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Deal 11 (2d6 + 4) bludgeoning damage on a hit.\nBreath Weapon (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 15 Dexterity save. Deal 32 (5d12) fire damage on a failure or half on a success.",
+        "Customizing a chimera": "Use the base configuration or roll one d4 on each customization table you want to use. Apply the chosen body adjustments and replace the corresponding breath, head, or tail option. Claws remain available in every configuration. Choose which result to keep if two conflict.",
+        "Body Composition (d4)": "1. Plains Creature. Give it a large lowland body such as a bear or bull. Remove its wings and fly speed. It gains resistance to cold and fire damage.\n2. Coast Creature. Give it a coastal or aquatic body such as a heron or shark. It gains a swim speed equal to its walking speed and can breathe air and water.\n3. Mountain Creature. Give it a mountain creature’s body such as a ram or dragon. It can fly out of an enemy’s reach without provoking an opportunity attack.\n4. Swamp Creature. Give it a swamp or cave creature’s body such as a giant lizard or spider. It gains a climb speed equal to its walking speed and can climb hard surfaces and ceilings without an ability check.",
+        "Head Attacks (d4)": "1. Bull Horns. If it moves at least 20 ft. straight toward a target and hits with Head on that turn, deal an extra 7 (2d6) piercing damage. A creature hit must also pass a DC 15 Strength save or fall prone.\n2. Shark Bite. Make Head attacks with advantage against creatures below their maximum hit points.\n3. Unicorn Horn. Head is magical and deals an extra 4 (1d8) radiant damage.\n4. Cockatrice Beak. A creature hit with Head must pass a DC 15 Constitution save or become restrained. It repeats the save at the end of its next turn. A success ends the restraint. A failure petrifies it for 24 hours.",
+        "Breath Weapons (d4)": "All four alternatives recharge on 5–6.\n1. Lightning Breath. Each creature in a line 60 ft. long and 5 ft. wide makes a DC 15 Dexterity save. Deal 36 (8d8) lightning damage on a failure or half on a success.\n2. Tidal Wave Breath. Each creature in a line 60 ft. long and 5 ft. wide makes a DC 15 Dexterity save. A failure deals 27 (5d10) acid damage and knocks the creature prone. A success halves the damage and leaves it standing.\n3. Venom Spray. Each creature in a 15-ft. cone must pass a DC 15 Constitution save or become poisoned for 1 minute. While poisoned this way, it takes 35 (10d6) poison damage at the start of each of its turns. It can repeat the save at the end of each of its turns to end the effect.\n4. Necrotic Breath. Each creature in a 15-ft. cone must pass a DC 15 Constitution save or take 31 (7d8) necrotic damage and lose the ability to regain hit points through the end of its next turn.",
+        "Tail Attacks (d4)": "1. Venomous Tail. The tail deals piercing damage. A creature hit by Tail must pass a DC 15 Constitution save or become poisoned for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\n2. Perplexing Tail. Replace the tail with a second head. Multiattack uses Claws and two Head attacks. Use the Head Attacks table to determine the added head. The breath substitution remains available.\n3. Shark Tail. When Tail hits a creature, the fin also pushes it up to 10 ft. away.\n4. Constricting Tail. Tail also grapples a Large or smaller creature it hits (escape DC 15). That creature is restrained while grappled and the tail stays occupied until it escapes or is released.",
+        "Printed source": "Mythic Odysseys of Theros, pp. 216–217.",
+        "Senses": "Darkvision 60 ft."
+      }
+    }
+  },
+  {
+    "name": "Triton Master of Waves",
+    "statBlock": {
+      "name": "Triton Master of Waves",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 245,
+      "classification": "Medium humanoid (triton), neutral",
+      "ac": 15,
+      "hp": 105,
+      "hitDice": "14d8 + 42",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 11,
+      "description": "A sea mage who commands living currents and defends Thassa’s waters with wind, ice, and water weirds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 3,
+        "Int": 3,
+        "Cha": 7
+      },
+      "skills": {
+        "Athletics": 6,
+        "Nature": 6,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "Common, Primordial.",
+        "Damage resistances": "Cold, fire.",
+        "Traits": "Amphibious. The triton breathes air and water.",
+        "Innate Spellcasting": "Charisma is the spellcasting ability (save DC 15, +7 to hit with spell attacks). The spells require no material components.\nAt will. Ray of Frost, as described under Actions.\n2/day. Cone of Cold.\n1/day each. Fog Cloud, Gust of Wind, Wind Wall.",
+        "Bonus actions": "Summon Water Weird (recharges after a short or long rest). Magically summon 1d4 water weirds in unoccupied spaces in water within 60 ft. They take their turns immediately after the triton on its initiative count and fight until destroyed. They disappear if the triton dies.",
+        "Actions": "Multiattack. Make two Wave Touch attacks and cast Ray of Frost.\nWave Touch. Melee spell attack, +7 to hit, reach 5 ft., one target. Deal 22 (4d10) cold damage on a hit.\nRay of Frost (cantrip). Ranged spell attack, +7 to hit, range 60 ft., one creature. Deal 13 (3d8) cold damage on a hit and reduce the creature’s speed by 10 ft. until the start of the triton’s next turn.",
+        "Reactions": "Frigid Shield. When a creature the triton can see targets it with an attack, the triton gains 10 temporary hit points. If the attack hits and depletes those temporary hit points, each creature within 5 ft. of the triton takes 9 (2d8) cold damage.",
+        "Printed source": "Mythic Odysseys of Theros, p. 245.",
+        "Senses": "Darkvision 60 ft."
+      }
+    }
+  },
+  {
+    "name": "Triton Shorestalker",
+    "statBlock": {
+      "name": "Triton Shorestalker",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 244,
+      "classification": "Medium humanoid (triton), neutral evil",
+      "ac": 13,
+      "hp": 32,
+      "hitDice": "5d8 + 10",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "A coastal assassin who uses venomous urchin spines to retaliate against threats to triton communities or Thassa’s sacred waters.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Nature": 4,
+        "Perception": 4,
+        "Stealth": 5
+      },
+      "sections": {
+        "Languages": "Common, Primordial.",
+        "Damage resistances": "Cold.",
+        "Traits": "Amphibious. The triton breathes air and water.",
+        "Innate Spellcasting": "Wisdom is the spellcasting ability (save DC 12). The spells require no material components.\n1/day each. Fog Cloud, Gust of Wind.",
+        "Bonus actions": "Nimble Escape. On each of its turns, the triton can Disengage or Hide.",
+        "Actions": "Multiattack. Make two Urchin-Spine Shortsword attacks.\nUrchin-Spine Shortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage on a hit. A creature reduced to 0 hit points by the attack is stable and poisoned for 1 hour, even if healed. It is paralyzed while poisoned this way.\nPoisoned Spine. Ranged weapon attack, +5 to hit, range 30/60 ft., one target. Deal 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage on a hit.",
+        "Printed source": "Mythic Odysseys of Theros, p. 244.",
+        "Senses": "Darkvision 60 ft."
+      }
+    }
+  },
+  {
+    "name": "Tromokratis",
+    "statBlock": {
+      "name": "Tromokratis",
+      "publication": "Mythic Odysseys of Theros",
+      "edition": "2014 fifth edition",
+      "printedPage": 254,
+      "classification": "Gargantuan monstrosity (titan), any alignment",
+      "ac": 22,
+      "hp": 409,
+      "hitDice": "21d20 + 189",
+      "speed": "30 ft., swim 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "26",
+      "xp": 90000,
+      "passivePerception": 10,
+      "description": "A wandering kraken that wrecks fleets and coastal settlements. After Tromokratis toppled the Pyrgnos, Meletis began watching the sea for its return.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 14,
+        "Wis": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Languages": "None.",
+        "Damage resistances": "Cold, lightning, thunder.",
+        "Damage immunities": "Fire. Also bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Condition immunities": "Charmed, frightened, paralyzed, restrained.",
+        "Traits": "Amphibious. Tromokratis breathes air and water.\nHearts of the Kraken (mythic trait, recharges after a short or long rest). Upon dropping to 0 hit points, Tromokratis stays alive and conscious as its carapace cracks open. Track four hearts separately, two on the chest, one on the back, and one at the base of the tail. Each heart has AC 22 and 100 hit points. Each is immune to all conditions and to bludgeoning, piercing, and slashing damage from nonmagical attacks. Use ability scores of 10 (+0) for any saving throw a heart must make. After Tromokratis finishes a short or long rest, the carapace seals over its hearts and any destroyed hearts regenerate. Destroy all four hearts to kill it.\nLegendary Resistance (3/day). Tromokratis can turn a failed save into a success.\nMagic Weapons. Its weapon attacks are magical.\nSiege Monster. It deals double damage to objects and structures.\nSpell-Resistant Carapace. It has advantage on saves against spells. Spell attack rolls against it have disadvantage.",
+        "Actions": "Multiattack. Make one Pincer, one Tail, and one Tentacle Grasp attack.\nPincer. Melee weapon attack, +18 to hit, reach 20 ft., one target. Deal 20 (3d6 + 10) bludgeoning damage on a hit. A creature hit is grappled (escape DC 26) and restrained. Tromokratis can target only that creature with Pincer until the grapple ends.\nTail. Melee weapon attack, +18 to hit, reach 20 ft., one target. Deal 23 (3d8 + 10) bludgeoning damage on a hit. A creature hit falls prone.\nTentacle Grasp. Melee weapon attack, +18 to hit, reach 20 ft., one creature. Deal 20 (3d6 + 10) bludgeoning damage on a hit and grapple it (escape DC 26). If the creature is still grappled at the end of its next turn, Tromokratis throws it up to 60 ft. in a straight line. The creature lands prone and takes 21 (6d6) bludgeoning damage.\nBite. Melee weapon attack, +18 to hit, reach 5 ft., one target. Deal 29 (3d12 + 10) piercing damage on a hit. If the target is a Large or smaller creature that Tromokratis has grappled, the Bite also swallows it and ends the grapple. A swallowed creature is blinded and restrained, has total cover from attacks and effects outside the kraken, and takes 42 (12d6) acid damage at the start of each of Tromokratis’s turns. If any single swallowed creature deals at least 50 damage to Tromokratis on one turn, the kraken makes a DC 20 Constitution save at that turn’s end. On a failure it regurgitates all swallowed creatures, which fall prone in spaces within 10 ft. If Tromokratis dies, its restraint ends. A swallowed creature can then spend 15 ft. of movement to leave the corpse, emerging prone.",
+        "Legendary actions": "Tromokratis has 3 legendary actions and regains spent actions at the start of its turn. Use one option at the end of another creature’s turn.\nMove (1 action). Move up to half its speed.\nTail (1 action). Make one Tail attack.\nBite (3 actions). Make one Bite attack.",
+        "Mythic actions": "For 1 hour after Hearts of the Kraken activates, Tromokratis can spend legendary actions on these options while its mythic trait is active.\nRampage (1 action). Make one Tail attack and one Tentacle Grasp attack.\nCoral Growth (2 actions). Each creature within 10 ft. makes a DC 25 Dexterity save. Deal 13 (3d8) slashing damage on a failure or half on a success. Tromokratis and each of its hearts gain +2 AC until the start of its next turn.",
+        "Mythic encounter": "For the optional second phase, use Hearts of the Kraken when the kraken drops to 0 HP. Treat the full encounter as two CR 26 creatures and award 180,000 XP if the party defeats Tromokratis after the hearts were exposed.",
+        "Printed source": "Mythic Odysseys of Theros, p. 254.",
+        "Senses": "Blindsight 120 ft."
+      }
+    }
+  }
+]

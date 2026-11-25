@@ -1,0 +1,30 @@
+[
+  {
+    "entry": "beast-cbcf9340b7fcb0851a81bd32",
+    "slug": "snarl",
+    "name": "Snarl",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-17/event-drafts/snarl-event-v1.png",
+    "saved": " Backups/Encounter Batch 17 2026-11-23/event-drafts/snarl-event-v1.png",
+    "registeredPath": "assets/images/content/dm-library/beasts-50-03/snarl.png",
+    "previous": {
+      "sha256": "dca438d547a82a5f71322c1cc49c07a620907e58f4b32af26b42320fe8e57d76",
+      "bytes": 2866741
+    },
+    "overrides": [
+      {
+        "entry": "beast-cbcf9340b7fcb0851a81bd32",
+        "name": "Snarl",
+        "file": "images/beasts/snarl/parchment-portrait.webp",
+        "sha256": "cf904f170e03b9ee02b04a07d34c3b2ecf1d31e00c92b6802b55943a0c20d300",
+        "credit": "OpenAI ImageGen",
+        "reference": [],
+        "appearanceSource": "",
+        "subjectPrompt": "A large alert cave wolf, broad neck and shoulders, scruffy dark charcoal brown fur and a faint snarl, ears pricked and all four paws visible. A living wolf with a distinctive silhouette.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "3dd571ca64e4f3df0836c89b356dbc2e16ffa456060b68e2a2c2cde775eb1b55",
+    "bytes": 2268672
+  }
+]

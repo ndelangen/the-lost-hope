@@ -1,0 +1,10 @@
+[
+  {
+    "artGroup": "giant-octopus",
+    "file": "portraits/giant-octopus.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  }
+]

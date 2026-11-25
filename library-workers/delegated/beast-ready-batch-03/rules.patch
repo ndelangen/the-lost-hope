@@ -1,0 +1,2479 @@
+diff --git a/dm-library/bestiary/stat-blocks.json b/dm-library/bestiary/stat-blocks.json
+index e36252d..08abf4f 100644
+--- a/dm-library/bestiary/stat-blocks.json
++++ b/dm-library/bestiary/stat-blocks.json
+@@ -2671,6 +2671,2474 @@
+     "publication": "SRD 5.1",
+     "armor": "natural armor"
+   },
++  {
++    "name": "Bat",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "5 ft., fly 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Blindsight 60 ft. Passive Perception 11. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings.",
++    "habitats": ["Caves", "Woodland roosts", "Attics"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 119. ",
++      "Traits": "Echolocation. While deafened, the bat loses access to its blindsight.\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that depend on hearing.",
++      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage.",
++      "At the table": "A deafened bat automatically fails ability checks that require hearing."
++    }
++  },
++  {
++    "name": "Bat",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "5 ft., fly 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Blindsight 60 ft. Passive Perception 11. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings.",
++    "habitats": ["Caves", "Woodland roosts", "Attics"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 318. https://anyflip.com/kqwdv/eoae/basic/301-350",
++      "Traits": "Echolocation. While deafened, the bat loses access to its blindsight.\nKeen Hearing. The bat has advantage on Wisdom (Perception) checks that depend on hearing.",
++      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage.",
++      "At the table": "A deafened bat automatically fails ability checks that require hearing."
++    }
++  },
++  {
++    "name": "Lizard",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 10,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. Passive Perception 9. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny olive-brown lizard with pebbled scales, four splayed legs, and a long curved tail.",
++    "habitats": ["Rocky ground", "Dry scrub", "Stone walls"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 142. ",
++      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. The hit deals 1 piercing damage."
++    }
++  },
++  {
++    "name": "Lizard",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 10,
++    "hp": 2,
++    "hitDice": "1d4",
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. Passive Perception 9. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny olive-brown lizard with pebbled scales, four splayed legs, and a long curved tail.",
++    "habitats": ["Rocky ground", "Dry scrub", "Stone walls"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 332. https://anyflip.com/kqwdv/eoae/basic/301-350",
++      "Actions": "Bite. Melee weapon attack, +0 to hit, reach 5 ft., one target. The hit deals 1 piercing damage."
++    }
++  },
++  {
++    "name": "Spider",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny mottled brown spider with long bristled legs and an ochre leaf-shaped mark on its rounded abdomen.",
++    "habitats": ["Woodland undergrowth", "Cellars", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 153. ",
++      "Traits": "Spider Climb. The spider can climb difficult surfaces and traverse ceilings upside down without an ability check.\nWeb Sense. While touching a web, it knows where every other creature touching that same web is located.\nWeb Walker. Webbing does not restrict its movement.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage. The target makes a DC 9 Constitution save. On a failure, it also takes 2 (1d4) poison damage."
++    }
++  },
++  {
++    "name": "Spider",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "20 ft., climb 20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Stealth +4. Darkvision 30 ft. Passive Perception 10. Languages none.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A tiny mottled brown spider with long bristled legs and an ochre leaf-shaped mark on its rounded abdomen.",
++    "habitats": ["Woodland undergrowth", "Cellars", "Ruins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, p. 337. https://anyflip.com/kqwdv/eoae/basic/301-350",
++      "Traits": "Spider Climb. The spider can climb difficult surfaces and traverse ceilings upside down without an ability check.\nWeb Sense. While touching a web, it knows where every other creature touching that same web is located.\nWeb Walker. Webbing does not restrict its movement.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. The hit deals 1 piercing damage. The target makes a DC 9 Constitution save. On a failure, it also takes 2 (1d4) poison damage."
++    }
++  },
++  {
++    "name": "Crab",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 2,
++    "speed": "20 ft., swim 20 ft.",
++    "hitDice": "1d4",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +2. Blindsight 30 ft. Passive Perception 9. No listed languages.",
++    "appearance": "A small crab with a mottled olive shell, two front claws, and slender jointed walking legs.",
++    "habitats": ["Coastal", "Rocky shores", "Tide pools"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 122. ",
++      "Traits": "Amphibious. The crab can breathe both air and water.",
++      "Actions": "Claw. Melee weapon attack, +0 to hit, 5-ft. reach, one target. On a hit, deal 1 bludgeoning damage."
++    }
++  },
++  {
++    "name": "Crab",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 2,
++    "speed": "20 ft., swim 20 ft.",
++    "hitDice": "1d4",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Natural armor. Stealth +2. Blindsight 30 ft. Passive Perception 9. No listed languages.",
++    "appearance": "A small crab with a mottled olive shell, two front claws, and slender jointed walking legs.",
++    "habitats": ["Coastal", "Rocky shores", "Tide pools"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 320. https://www.dndbeyond.com/monsters/16833-crab",
++      "Traits": "Amphibious. The crab can breathe both air and water.",
++      "Actions": "Claw. Melee weapon attack, +0 to hit, 5-ft. reach, one target. On a hit, deal 1 bludgeoning damage."
++    }
++  },
++  {
++    "name": "Mastiff",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 5,
++    "speed": "40 ft.",
++    "hitDice": "1d8 + 1",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "appearance": "A heavy, broad-chested hound with folded ears, a fawn coat, and a dark muzzle.",
++    "habitats": ["Forest", "Hills", "Urban"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 144. ",
++      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks based on hearing or smell.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) piercing damage. A creature hit must pass a DC 11 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Mastiff",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 12,
++    "hp": 5,
++    "speed": "40 ft.",
++    "hitDice": "1d8 + 1",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "appearance": "A heavy, broad-chested hound with folded ears, a fawn coat, and a dark muzzle.",
++    "habitats": ["Forest", "Hills", "Urban"],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 332. https://www.dndbeyond.com/monsters/16953-mastiff",
++      "Traits": "Keen Hearing and Smell. The mastiff has advantage on Wisdom (Perception) checks based on hearing or smell.",
++      "Actions": "Bite. Melee weapon attack, +3 to hit, 5-ft. reach, one target. On a hit, deal 4 (1d6 + 1) piercing damage. A creature hit must pass a DC 11 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Stirge",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 14,
++    "hp": 2,
++    "speed": "10 ft., fly 40 ft.",
++    "hitDice": "1d4",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages.",
++    "appearance": "A batlike flying beast with broad leathery wings, pincer-tipped legs, and a long needle-shaped proboscis.",
++    "habitats": [
++      "Coastal",
++      "Desert",
++      "Forest",
++      "Grassland",
++      "Hills",
++      "Mountains",
++      "Swamps",
++      "Underdark",
++      "Urban"
++    ],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 153. ",
++      "Actions": "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the stirge to the target. The stirge makes no attacks while attached. At the start of each of the stirge’s turns, the attached target loses 5 (1d4 + 3) HP to blood loss.\nThe stirge can spend 5 ft. of movement to detach itself. It detaches after draining 10 HP from the target or when the target dies. Any creature, including the target, can spend its action to detach the stirge."
++    }
++  },
++  {
++    "name": "Stirge",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 14,
++    "hp": 2,
++    "speed": "10 ft., fly 40 ft.",
++    "hitDice": "1d4",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages.",
++    "appearance": "A batlike flying beast with broad leathery wings, pincer-tipped legs, and a long needle-shaped proboscis.",
++    "habitats": [
++      "Coastal",
++      "Desert",
++      "Forest",
++      "Grassland",
++      "Hills",
++      "Mountains",
++      "Swamps",
++      "Underdark",
++      "Urban"
++    ],
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 284. https://www.dndbeyond.com/monsters/17023-stirge",
++      "Actions": "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the stirge to the target. The stirge makes no attacks while attached. At the start of each of the stirge’s turns, the attached target loses 5 (1d4 + 3) HP to blood loss.\nThe stirge can spend 5 ft. of movement to detach itself. It detaches after draining 10 HP from the target or when the target dies. Any creature, including the target, can spend its action to detach the stirge."
++    }
++  },
++  {
++    "name": "Deer",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 4,
++    "hitDice": "1d8",
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 12. No listed skills, special senses, or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slender red deer with a russet coat, pale throat, cloven hooves, and branching antlers.",
++    "habitats": ["Forest", "Grassland", "Forest edges", "Meadows"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 123. ",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 2 (1d4) piercing damage on a hit."
++    }
++  },
++  {
++    "name": "Deer",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 4,
++    "hitDice": "1d8",
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 12. No listed skills, special senses, or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slender red deer with a russet coat, pale throat, cloven hooves, and branching antlers.",
++    "habitats": ["Forest", "Grassland", "Forest edges", "Meadows"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 321. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page322.html",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 2 (1d4) piercing damage on a hit."
++    }
++  },
++  {
++    "name": "Mule",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A brown mule with long donkey-like ears, a short dark mane, a gray muzzle, and narrow hooves.",
++    "habitats": ["Hills", "Desert", "Urban", "Farms", "Trade roads", "Mountain trails"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 145. ",
++      "Traits": "Beast of Burden. Treat the mule as Large when calculating its carrying capacity.\nSure-Footed. The mule has advantage on Strength or Dexterity saves against an effect that would knock it prone.",
++      "Actions": "Hooves. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 4 (1d4 + 2) bludgeoning damage on a hit."
++    }
++  },
++  {
++    "name": "Mule",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses, or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A brown mule with long donkey-like ears, a short dark mane, a gray muzzle, and narrow hooves.",
++    "habitats": ["Hills", "Desert", "Urban", "Farms", "Trade roads", "Mountain trails"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 333. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page334.html",
++      "Traits": "Beast of Burden. Treat the mule as Large when calculating its carrying capacity.\nSure-Footed. The mule has advantage on Strength or Dexterity saves against an effect that would knock it prone.",
++      "Actions": "Hooves. Melee weapon attack, +2 to hit, reach 5 ft., one target. Deal 4 (1d4 + 2) bludgeoning damage on a hit."
++    }
++  },
++  {
++    "name": "Tiger",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 37,
++    "hitDice": "5d10 + 10",
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Perception +3 and Stealth +6. Darkvision 60 ft. Passive Perception 13. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A muscular striped cat with an ochre coat, ivory cheeks, rounded ears, heavy forepaws, and a long tail.",
++    "habitats": ["Forest", "Grassland", "Jungle", "Tall grass"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 156. ",
++      "Traits": "Keen Smell. Use advantage on Wisdom (Perception) checks based on smell.\nPounce. After moving straight toward a creature for at least 20 ft., the tiger forces a DC 13 Strength saving throw if it hits that creature with Claw on the same turn. The creature falls prone on a failure. If that target is prone, the tiger can make one Bite against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 8 (1d10 + 3) piercing damage on a hit.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) slashing damage on a hit."
++    }
++  },
++  {
++    "name": "Tiger",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 12,
++    "hp": 37,
++    "hitDice": "5d10 + 10",
++    "speed": "40 ft.",
++    "cr": "1",
++    "xp": 200,
++    "abilities": {
++      "Str": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 8,
++        "modifier": -1
++      }
++    },
++    "otherStatistics": "Perception +3 and Stealth +6. Darkvision 60 ft. Passive Perception 13. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A muscular striped cat with an ochre coat, ivory cheeks, rounded ears, heavy forepaws, and a long tail.",
++    "habitats": ["Forest", "Grassland", "Jungle", "Tall grass"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 339. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page340.html",
++      "Traits": "Keen Smell. Use advantage on Wisdom (Perception) checks based on smell.\nPounce. After moving straight toward a creature for at least 20 ft., the tiger forces a DC 13 Strength saving throw if it hits that creature with Claw on the same turn. The creature falls prone on a failure. If that target is prone, the tiger can make one Bite against it as a bonus action.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 8 (1d10 + 3) piercing damage on a hit.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 7 (1d8 + 3) slashing damage on a hit."
++    }
++  },
++  {
++    "name": "Eagle",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A brown eagle with a pale head and tail, hooked golden beak, layered flight feathers, and curved black talons.",
++    "habitats": ["Mountains", "Coastal cliffs", "Forest edges"],
++    "sections": {
++      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 124. ",
++      "Traits": "Keen Sight. Roll Wisdom (Perception) checks with advantage when they depend on sight.",
++      "Actions": "Talons. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) slashing damage."
++    }
++  },
++  {
++    "name": "Eagle",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 6,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A brown eagle with a pale head and tail, hooked golden beak, layered flight feathers, and curved black talons.",
++    "habitats": ["Mountains", "Coastal cliffs", "Forest edges"],
++    "sections": {
++      "Printed source": "Monster Manual (2014), Appendix A, printed p. 322. https://www.dndbeyond.com/monsters/16852-eagle",
++      "Traits": "Keen Sight. Roll Wisdom (Perception) checks with advantage when they depend on sight.",
++      "Actions": "Talons. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 4 (1d4 + 2) slashing damage."
++    }
++  },
++  {
++    "name": "Octopus",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "5 ft., swim 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +2 and Stealth +4. Darkvision 30 ft., passive Perception 12. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A russet octopus with a rounded mantle, horizontal pupils, and eight tapering arms with pale suckers.",
++    "habitats": ["Underwater", "Coastal waters", "Reefs"],
++    "sections": {
++      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 146. ",
++      "Traits": "Hold Breath. Out of water, the octopus can go 30 minutes without taking a breath.\nUnderwater Camouflage. Roll Dexterity (Stealth) checks with advantage while underwater.\nWater Breathing. Breathes only underwater.",
++      "Actions": "Tentacles. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 1 bludgeoning damage and grapples the target (escape DC 10). Until the grapple ends, the octopus can use Tentacles only on that target.\nInk Cloud (recharges after a short or long rest). As an action while underwater, release ink in a 5-ft. radius around the octopus. That area is heavily obscured for 1 minute unless a strong current disperses the ink sooner. After releasing ink, the octopus can Dash as a bonus action.",
++      "At the table": "Apply the grapple on a hit. The target can spend an action to attempt a DC 10 Strength (Athletics) or Dexterity (Acrobatics) check to escape. A creature trying to see something in the ink is effectively blinded for that purpose."
++    }
++  },
++  {
++    "name": "Octopus",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "5 ft., swim 30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 4,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +2 and Stealth +4. Darkvision 30 ft., passive Perception 12. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A russet octopus with a rounded mantle, horizontal pupils, and eight tapering arms with pale suckers.",
++    "habitats": ["Underwater", "Coastal waters", "Reefs"],
++    "sections": {
++      "Printed source": "Monster Manual (2014), Appendix A, printed p. 333. https://www.dndbeyond.com/monsters/16968-octopus",
++      "Traits": "Hold Breath. Out of water, the octopus can go 30 minutes without taking a breath.\nUnderwater Camouflage. Roll Dexterity (Stealth) checks with advantage while underwater.\nWater Breathing. Breathes only underwater.",
++      "Actions": "Tentacles. Melee weapon attack, +4 to hit against one target within 5 ft. A hit deals 1 bludgeoning damage and grapples the target (escape DC 10). Until the grapple ends, the octopus can use Tentacles only on that target.\nInk Cloud (recharges after a short or long rest). As an action while underwater, release ink in a 5-ft. radius around the octopus. That area is heavily obscured for 1 minute unless a strong current disperses the ink sooner. After releasing ink, the octopus can Dash as a bonus action.",
++      "At the table": "Apply the grapple on a hit. The target can spend an action to attempt a DC 10 Strength (Athletics) or Dexterity (Acrobatics) check to escape. A creature trying to see something in the ink is effectively blinded for that purpose."
++    }
++  },
++  {
++    "name": "Vulture",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A brown scavenging bird with a bare grey head and neck, a hooked beak, a pale feather ruff, and broad wings.",
++    "habitats": ["Deserts", "Grasslands", "Rocky slopes"],
++    "sections": {
++      "Printed source": "D&D Basic Rules, v1.0 (November 2018), Chapter 12, p. 157. ",
++      "Traits": "Keen Sight and Smell. Roll Wisdom (Perception) checks with advantage when using sight or smell.\nPack Tactics. Attack rolls against a creature have advantage if at least one ally of the vulture is within 5 ft. of that creature and is not incapacitated.",
++      "Actions": "Beak. Melee weapon attack, +2 to hit against one target within 5 ft. A hit deals 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Vulture",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A brown scavenging bird with a bare grey head and neck, a hooked beak, a pale feather ruff, and broad wings.",
++    "habitats": ["Deserts", "Grasslands", "Rocky slopes"],
++    "sections": {
++      "Printed source": "Monster Manual (2014), Appendix A, printed p. 339. https://www.dndbeyond.com/monsters/17048-vulture",
++      "Traits": "Keen Sight and Smell. Roll Wisdom (Perception) checks with advantage when using sight or smell.\nPack Tactics. Attack rolls against a creature have advantage if at least one ally of the vulture is within 5 ft. of that creature and is not incapacitated.",
++      "Actions": "Beak. Melee weapon attack, +2 to hit against one target within 5 ft. A hit deals 2 (1d4) piercing damage."
++    }
++  },
++  {
++    "name": "Elephant",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 10. No listed skill proficiencies, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip.",
++    "habitats": ["Grasslands", "Savannas", "Open woodlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 125. ",
++      "Traits": "Trampling Charge. Move at least 20 ft. in a straight line toward a creature and hit it with Gore on the same turn. The target makes a DC 12 Strength save and falls prone on a failure. The elephant may make one Stomp against that target as a bonus action if it is prone.",
++      "Actions": "Gore. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 18 (3d8 + 5) piercing damage.\nStomp. Melee weapon attack, +8 to hit against one prone creature within 5 ft. On a hit, deal 21 (3d10 + 5) bludgeoning damage.",
++      "At the table": "Stomp can be used as an action against a prone creature. Trampling Charge also permits the bonus-action use described in the trait.",
++      "Printing note": "The 2018 uses +5 in both damage formulas. Its current D&D Beyond counterpart displays the corrected Monster Manual damage. This entry follows the scoped ."
++    }
++  },
++  {
++    "name": "Elephant",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Huge Beast, unaligned",
++    "ac": 12,
++    "hp": 76,
++    "hitDice": "8d12 + 24",
++    "speed": "40 ft.",
++    "cr": "4",
++    "xp": 1100,
++    "abilities": {
++      "Str": {
++        "score": 22,
++        "modifier": 6
++      },
++      "Dex": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 17,
++        "modifier": 3
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Proficiency bonus +2. Passive Perception 10. No listed skill proficiencies, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A massive grey elephant with broad ears, long ivory tusks and a trunk that curls at the tip.",
++    "habitats": ["Grasslands", "Savannas", "Open woodlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 322. Official online reference: https://www.dndbeyond.com/monsters/16855-elephant\nMonster Manual errata v2.0 (2018): ",
++      "Traits": "Trampling Charge. Move at least 20 ft. in a straight line toward a creature and hit it with Gore on the same turn. The target makes a DC 12 Strength save and falls prone on a failure. The elephant may make one Stomp against that target as a bonus action if it is prone.",
++      "Actions": "Gore. Melee weapon attack, +8 to hit against one target within 5 ft. On a hit, deal 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +8 to hit against one prone creature within 5 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.",
++      "At the table": "Stomp can be used as an action against a prone creature. Trampling Charge also permits the bonus-action use described in the trait.",
++      "Printing note": "The first printing has +5 in both damage formulas. Official Monster Manual errata v2.0 specifically applies the +6 values to this block."
++    }
++  },
++  {
++    "name": "Owl",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "5 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +3. Darkvision 120 ft., passive Perception 13. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A small barn owl with a pale, heart-shaped facial disk, dark eyes, tawny wings and curved talons.",
++    "habitats": ["Forests", "Arctic", "Open fields"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), Chapter 12, p. 147. ",
++      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke that enemy’s opportunity attack.\nKeen Hearing and Sight. Roll Wisdom (Perception) checks with advantage when they rely on hearing or sight.",
++      "Actions": "Talons. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 1 slashing damage.",
++      "At the table": "Apply Keen Hearing and Sight to the relevant checks. When using passive Perception with that advantage, the effective value is 18."
++    }
++  },
++  {
++    "name": "Owl",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "5 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +3. Darkvision 120 ft., passive Perception 13. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A small barn owl with a pale, heart-shaped facial disk, dark eyes, tawny wings and curved talons.",
++    "habitats": ["Forests", "Arctic", "Open fields"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 333. Official online reference: https://www.dndbeyond.com/monsters/16974-owl",
++      "Traits": "Flyby. Flying out of an enemy’s reach does not provoke that enemy’s opportunity attack.\nKeen Hearing and Sight. Roll Wisdom (Perception) checks with advantage when they rely on hearing or sight.",
++      "Actions": "Talons. Melee weapon attack, +3 to hit against one target within 5 ft. On a hit, deal 1 slashing damage.",
++      "At the table": "Apply Keen Hearing and Sight to the relevant checks. When using passive Perception with that advantage, the effective value is 18."
++    }
++  },
++  {
++    "name": "Weasel",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "30 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Proficiency bonus +2. Perception +3, Stealth +5. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A slender, reddish-brown weasel with a long body, short legs and a pale underside.",
++    "habitats": ["Woodland edges", "Hedgerows", "Grasslands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 340. Official online reference: https://www.dndbeyond.com/monsters/17052-weasel",
++      "Traits": "Keen Hearing and Smell. Roll Wisdom (Perception) checks with advantage when they rely on hearing or smell.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit against one creature within 5 ft. On a hit, deal 1 piercing damage.",
++      "At the table": "Apply Keen Hearing and Smell to the relevant checks. When using passive Perception with that advantage, the effective value is 18.",
++      "Printing note": "The printed Bite targets one creature. The online listing says one target. This entry follows the scoped print page."
++    }
++  },
++  {
++    "name": "Frog",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 0,
++    "abilities": {
++      "Str": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +1 and Stealth +3. Darkvision 30 ft. Passive Perception 11. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact frog with a blunt head, amber eyes, olive-brown skin and powerful folded hind legs.",
++    "habitats": ["Near water", "Trees", "Underground", "Freshwater ponds", "Marshes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 128. ",
++      "Traits": "Amphibious. Breathe in air or water.\nStanding Leap. Jump up to 10 ft. horizontally or 5 ft. vertically from a standstill or after a run-up.",
++      "Actions": "The printed Frog has no effective attacks."
++    }
++  },
++  {
++    "name": "Frog",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 11,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "20 ft., swim 20 ft.",
++    "cr": "0",
++    "xp": 0,
++    "abilities": {
++      "Str": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Cha": {
++        "score": 3,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Perception +1 and Stealth +3. Darkvision 30 ft. Passive Perception 11. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A compact frog with a blunt head, amber eyes, olive-brown skin and powerful folded hind legs.",
++    "habitats": ["Near water", "Trees", "Underground", "Freshwater ponds", "Marshes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 322. https://www.dndbeyond.com/sources/dnd/mm-2014",
++      "Traits": "Amphibious. Breathe in air or water.\nStanding Leap. Jump up to 10 ft. horizontally or 5 ft. vertically from a standstill or after a run-up.",
++      "Actions": "The printed Frog has no effective attacks.",
++      "At the table": "The Monster Manual also uses these statistics for a toad."
++    }
++  },
++  {
++    "name": "Pony",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-backed chestnut horse with short, sturdy legs, a pale mane and a white facial blaze.",
++    "habitats": ["Pastures", "Farms", "Stables"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 149. ",
++      "Actions": "Hooves. Melee weapon attack, +4 to hit with 5-ft. reach against one target. A hit deals 7 (2d4 + 2) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Pony",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/8",
++    "xp": 25,
++    "abilities": {
++      "Str": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 7,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A broad-backed chestnut horse with short, sturdy legs, a pale mane and a white facial blaze.",
++    "habitats": ["Pastures", "Farms", "Stables"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 335. https://www.dndbeyond.com/sources/dnd/mm-2014",
++      "Actions": "Hooves. Melee weapon attack, +4 to hit with 5-ft. reach against one target. A hit deals 7 (2d4 + 2) bludgeoning damage."
++    }
++  },
++  {
++    "name": "Wolf",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 13,
++    "hp": 11,
++    "hitDice": "2d8 + 2",
++    "speed": "40 ft.",
++    "cr": "1/4",
++    "xp": 50,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Perception +3 and Stealth +4. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A gray-brown canine with a deep chest, pointed ears, long legs and a low bushy tail.",
++    "habitats": ["Forest", "Grassland", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), First printing, September 2014, printed p. 341. https://www.dndbeyond.com/sources/dnd/mm-2014",
++      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that use hearing or smell.\nPack Tactics. Gain advantage on an attack against a creature if at least one ally of the wolf is within 5 ft. of the target and that ally is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +4 to hit with 5-ft. reach against one target. A hit deals 7 (2d4 + 2) piercing damage. A creature hit this way must pass a DC 11 Strength save or fall prone."
++    }
++  },
++  {
++    "name": "Goat",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 4,
++    "hitDice": "1d8",
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, languages, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A cream-colored goat with cloven hooves, a short beard, and narrow horns sweeping backward.",
++    "habitats": ["Mountain slopes", "Rocky hills", "Pasture"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 138, Goat. ",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The hit deals an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength save or fall prone.\nSure-Footed. Roll Strength and Dexterity saves with advantage when the effect would knock the goat prone.",
++      "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) bludgeoning damage.",
++      "At the table": "Charge adds its damage to the Ram hit even if the creature passes its save. On a charge hit, roll 2d4 + 1 total bludgeoning damage."
++    }
++  },
++  {
++    "name": "Goat",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 10,
++    "hp": 4,
++    "hitDice": "1d8",
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Dex": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Passive Perception 10. No listed skills, languages, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A cream-colored goat with cloven hooves, a short beard, and narrow horns sweeping backward.",
++    "habitats": ["Mountain slopes", "Rocky hills", "Pasture"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 330, Goat. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=331",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Ram on the same turn. The hit deals an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength save or fall prone.\nSure-Footed. Roll Strength and Dexterity saves with advantage when the effect would knock the goat prone.",
++      "Actions": "Ram. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) bludgeoning damage.",
++      "At the table": "Charge adds its damage to the Ram hit even if the creature passes its save. On a charge hit, roll 2d4 + 1 total bludgeoning damage."
++    }
++  },
++  {
++    "name": "Quipper",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft., passive Perception 8. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A compact predatory fish with sharp teeth, gray-green scales, and reddish fins.",
++    "habitats": ["Aquatic", "Underground lakes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), p. 150, Quipper. ",
++      "Traits": "Blood Frenzy. The quipper has advantage on melee attack rolls against a creature below its hit point maximum.\nWater Breathing. The quipper breathes only underwater.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.",
++      "At the table": "The quipper has a 40-ft. swim speed and no walking speed. Bite damage is a fixed 1 on a hit."
++    }
++  },
++  {
++    "name": "Quipper",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 − 1",
++    "speed": "0 ft., swim 40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 1,
++        "modifier": -5
++      },
++      "Wis": {
++        "score": 7,
++        "modifier": -2
++      },
++      "Cha": {
++        "score": 2,
++        "modifier": -4
++      }
++    },
++    "otherStatistics": "Darkvision 60 ft., passive Perception 8. No listed skills or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A compact predatory fish with sharp teeth, gray-green scales, and reddish fins.",
++    "habitats": ["Aquatic", "Underground lakes"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), p. 335, Quipper. https://online.anyflip.com/sqwmo/hxog/mobile/index.html#p=336",
++      "Traits": "Blood Frenzy. The quipper has advantage on melee attack rolls against a creature below its hit point maximum.\nWater Breathing. The quipper breathes only underwater.",
++      "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 piercing damage.",
++      "At the table": "The quipper has a 40-ft. swim speed and no walking speed. Bite damage is a fixed 1 on a hit."
++    }
++  },
++  {
++    "name": "Hawk",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 5,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small russet-brown bird of prey with a barred pale breast, hooked beak, and yellow feet with curved talons.",
++    "habitats": ["Open country", "Grassland", "Woodland edges", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 139. ",
++      "Traits": "Keen Sight. Wisdom (Perception) checks that depend on sight have advantage.",
++      "Actions": "Talons. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 1 slashing damage.",
++      "At the table": "For a passive Perception check based on sight, advantage raises the printed 14 to 19. The Talons attack deals fixed damage."
++    }
++  },
++  {
++    "name": "Hawk",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 13,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "10 ft., fly 60 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 5,
++        "modifier": -3
++      },
++      "Dex": {
++        "score": 16,
++        "modifier": 3
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +4. Passive Perception 14. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small russet-brown bird of prey with a barred pale breast, hooked beak, and yellow feet with curved talons.",
++    "habitats": ["Open country", "Grassland", "Woodland edges", "Hills"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 330. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/332/",
++      "Traits": "Keen Sight. Wisdom (Perception) checks that depend on sight have advantage.",
++      "Actions": "Talons. Melee weapon attack, +5 to hit against one target within 5 ft. A hit deals 1 slashing damage.",
++      "At the table": "For a passive Perception check based on sight, advantage raises the printed 14 to 19. The Talons attack deals fixed damage."
++    }
++  },
++  {
++    "name": "Rat",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 10,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small brown rodent with rounded ears, a pointed whiskered muzzle, pink feet, and a long ringed tail.",
++    "habitats": ["Settlements", "Cellars", "Sewers", "Wetlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Basic Rules (2018), and printed page 150. ",
++      "Traits": "Keen Smell. Wisdom (Perception) checks that depend on smell have advantage.",
++      "Actions": "Bite. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 piercing damage.",
++      "At the table": "For a passive Perception check based on smell, advantage raises the printed 10 to 15. The Bite deals fixed damage."
++    }
++  },
++  {
++    "name": "Rat",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 10,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "20 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Con": {
++        "score": 9,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 10,
++        "modifier": 0
++      },
++      "Cha": {
++        "score": 4,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Darkvision 30 ft. Passive Perception 10. No listed languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A small brown rodent with rounded ears, a pointed whiskered muzzle, pink feet, and a long ringed tail.",
++    "habitats": ["Settlements", "Cellars", "Sewers", "Wetlands"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), printed p. 335. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/337/",
++      "Traits": "Keen Smell. Wisdom (Perception) checks that depend on smell have advantage.",
++      "Actions": "Bite. Melee weapon attack, +0 to hit against one target within 5 ft. A hit deals 1 piercing damage.",
++      "At the table": "For a passive Perception check based on smell, advantage raises the printed 10 to 15. The Bite deals fixed damage."
++    }
++  },
++  {
++    "name": "Hyena",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A sandy hyena with dark spots, high shoulders, lower hindquarters, round ears and a blunt muzzle.",
++    "habitats": ["Savanna", "Open grassland", "Dry scrub"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), chapter 12, printed and p. 141. ",
++      "Traits": "Pack Tactics. The hyena gains advantage when attacking a creature if a non-incapacitated ally of the hyena is within 5 ft. of the target.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one target. On a hit, deal 3 (1d6) piercing damage."
++    }
++  },
++  {
++    "name": "Hyena",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Medium Beast, unaligned",
++    "ac": 11,
++    "hp": 5,
++    "hitDice": "1d8 + 1",
++    "speed": "50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Dex": {
++        "score": 13,
++        "modifier": 1
++      },
++      "Con": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 5,
++        "modifier": -3
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A sandy hyena with dark spots, high shoulders, lower hindquarters, round ears and a blunt muzzle.",
++    "habitats": ["Savanna", "Open grassland", "Dry scrub"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 331. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page332.html",
++      "Traits": "Pack Tactics. The hyena gains advantage when attacking a creature if a non-incapacitated ally of the hyena is within 5 ft. of the target.",
++      "Actions": "Bite. Melee weapon attack, +2 to hit, 5-ft. reach, one target. On a hit, deal 3 (1d6) piercing damage."
++    }
++  },
++  {
++    "name": "Raven",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings.",
++    "habitats": ["Woodland edges", "Rocky uplands", "Settlements", "Carrion sites"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0 (2018), chapter 12, printed and p. 150. ",
++      "Traits": "Mimicry. The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check.",
++      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
++    }
++  },
++  {
++    "name": "Raven",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Tiny Beast, unaligned",
++    "ac": 12,
++    "hp": 1,
++    "hitDice": "1d4 - 1",
++    "speed": "10 ft., fly 50 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Dex": {
++        "score": 14,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed special senses or languages.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "appearance": "A black corvid with a heavy beak, shaggy throat feathers and a slate sheen across its folded wings.",
++    "habitats": ["Woodland edges", "Rocky uplands", "Settlements", "Carrion sites"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, printed p. 335. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page336.html",
++      "Traits": "Mimicry. The raven can imitate simple sounds it has heard. A creature hearing the imitation identifies it with a successful DC 10 Wisdom (Insight) check.",
++      "Actions": "Beak. Melee weapon attack, +4 to hit, 5-ft. reach, one target. On a hit, deal 1 piercing damage."
++    }
++  },
++  {
++    "name": "Jackal",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slim sandy canid with tall pointed ears, a narrow muzzle, a dark saddle along the back, and a bushy tail.",
++    "habitats": ["Dry grassland", "Scrubland", "Desert margins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, 2018 , Chapter 12, Monsters, p. 141. ",
++      "Traits": "Keen Hearing and Smell. Wisdom (Perception) checks using hearing or smell have advantage.\nPack Tactics. The jackal has advantage on an attack roll against a creature when an ally of the jackal within 5 ft. of that creature is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. On a hit, deal 1 (1d4 − 1) piercing damage.",
++      "At the table": "Use passive Perception 13 normally and 18 for a passive check that relies on hearing or smell. Pack Tactics takes no action."
++    }
++  },
++  {
++    "name": "Jackal",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Small Beast, unaligned",
++    "ac": 12,
++    "hp": 3,
++    "hitDice": "1d6",
++    "speed": "40 ft.",
++    "cr": "0",
++    "xp": 10,
++    "abilities": {
++      "Str": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Dex": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Con": {
++        "score": 11,
++        "modifier": 0
++      },
++      "Int": {
++        "score": 3,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Perception +3. Passive Perception 13. No listed languages or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A slim sandy canid with tall pointed ears, a narrow muzzle, a dark saddle along the back, and a bushy tail.",
++    "habitats": ["Dry grassland", "Scrubland", "Desert margins"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), ISBN 978-0-7869-6561-8, Appendix A, Miscellaneous Creatures, p. 331. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/333/",
++      "Traits": "Keen Hearing and Smell. Wisdom (Perception) checks using hearing or smell have advantage.\nPack Tactics. The jackal has advantage on an attack roll against a creature when an ally of the jackal within 5 ft. of that creature is not incapacitated.",
++      "Actions": "Bite. Melee weapon attack, +1 to hit, reach 5 ft., one target. On a hit, deal 1 (1d4 − 1) piercing damage.",
++      "At the table": "Use passive Perception 13 normally and 18 for a passive check that relies on hearing or smell. Pack Tactics takes no action."
++    }
++  },
++  {
++    "name": "Rhinoceros",
++    "publication": "Basic Rules (2018)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 45,
++    "hitDice": "6d10 + 12",
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages, skill bonuses, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stocky gray rhinoceros with folds of thick skin, two horns above the snout, and short, sturdy legs.",
++    "habitats": ["Savanna", "Open grassland", "Scrubland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, D&D Basic Rules v1.0, 2018 , Chapter 12, Monsters, p. 151. ",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Gore on the same turn. The hit deals an extra 9 (2d8) bludgeoning damage. If the target is a creature, it also makes a DC 15 Strength save or falls prone.",
++      "Actions": "Gore. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
++      "At the table": "The charge damage is added on a hit. The save decides whether the target falls prone. A prone creature has disadvantage on attack rolls and can crawl or spend half its speed to stand. Attacks against it have advantage from within 5 ft. and disadvantage from farther away."
++    }
++  },
++  {
++    "name": "Rhinoceros",
++    "publication": "Monster Manual (2014)",
++    "edition": "2014 fifth edition",
++    "classification": "Large Beast, unaligned",
++    "ac": 11,
++    "hp": 45,
++    "hitDice": "6d10 + 12",
++    "speed": "40 ft.",
++    "cr": "2",
++    "xp": 450,
++    "abilities": {
++      "Str": {
++        "score": 21,
++        "modifier": 5
++      },
++      "Dex": {
++        "score": 8,
++        "modifier": -1
++      },
++      "Con": {
++        "score": 15,
++        "modifier": 2
++      },
++      "Int": {
++        "score": 2,
++        "modifier": -4
++      },
++      "Wis": {
++        "score": 12,
++        "modifier": 1
++      },
++      "Cha": {
++        "score": 6,
++        "modifier": -2
++      }
++    },
++    "otherStatistics": "Natural armor. Passive Perception 11. No listed languages, skill bonuses, or special senses.",
++    "rulesOrigin": "printed-rules-summary",
++    "overridesIndexedRules": true,
++    "preserveIndexedReferences": true,
++    "appearance": "A stocky gray rhinoceros with folds of thick skin, two horns above the snout, and short, sturdy legs.",
++    "habitats": ["Savanna", "Open grassland", "Scrubland"],
++    "sections": {
++      "Printed source": "Wizards of the Coast, Monster Manual (2014), ISBN 978-0-7869-6561-8, Appendix A, Miscellaneous Creatures, p. 336. https://fliphtml5.com/vmzaj/Monster-Manual_AddPage/338/",
++      "Traits": "Charge. Move at least 20 ft. straight toward a target and hit it with Gore on the same turn. The hit deals an extra 9 (2d8) bludgeoning damage. If the target is a creature, it also makes a DC 15 Strength save or falls prone.",
++      "Actions": "Gore. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 14 (2d8 + 5) bludgeoning damage.",
++      "At the table": "The charge damage is added on a hit. The save decides whether the target falls prone. A prone creature has disadvantage on attack rolls and can crawl or spend half its speed to stand. Attacks against it have advantage from within 5 ft. and disadvantage from farther away."
++    }
++  },
+   {
+     "name": "Acolyte",
+     "classification": "Medium humanoid (any race), any alignment",

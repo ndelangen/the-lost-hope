@@ -1,0 +1,46 @@
+{
+  "commit": "d91f30246bd475bbd3790733c39f966574016c62",
+  "encounterVersions": 50,
+  "fullStatBlocks": 8,
+  "combatSummaries": 42,
+  "generatedPortraitsInstalled": 50,
+  "draftsBackedUp": 50,
+  "allRecentVersionsWithGeneratedPortrait": 431,
+  "remainingRecentPortraits": 0,
+  "pendingBoxedSetVersions": [
+    [
+      "Adult Time Dragon",
+      "https://www.dndbeyond.com/monsters/3883515-adult-time-dragon"
+    ],
+    [
+      "Ancient Time Dragon",
+      "https://www.dndbeyond.com/monsters/3883516-ancient-time-dragon"
+    ],
+    [
+      "Eyestalk of Gzemnid",
+      "https://www.dndbeyond.com/monsters/3883533-eyestalk-of-gzemnid"
+    ],
+    [
+      "Larva",
+      "https://www.dndbeyond.com/monsters/27752-larva"
+    ],
+    [
+      "Mind’s Eye Matter Smith",
+      "https://www.dndbeyond.com/monsters/3883552-minds-eye-matter-smith"
+    ],
+    [
+      "Morte",
+      "https://www.dndbeyond.com/monsters/3883553-morte"
+    ],
+    [
+      "Planar Incarnate (Celestial Form)",
+      "https://www.dndbeyond.com/monsters/3883557-planar-incarnate-celestial-form"
+    ],
+    [
+      "Planar Incarnate (Fiend Form)",
+      "https://www.dndbeyond.com/monsters/3883558-planar-incarnate-fiend-form"
+    ]
+  ],
+  "visualComparison": "output/dm-library/review/encounters-09-before-after.jpg",
+  "rulesComparison": "output/dm-library/review/encounters-09-dabus-before-after.jpg"
+}

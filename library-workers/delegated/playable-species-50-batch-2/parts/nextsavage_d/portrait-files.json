@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Umber Hulk",
+    "npc": "Rusk",
+    "file": "",
+    "sha256": "2299790d1922a27f5cae5ea765a07d8ea417765fbf18f80bdd53dfe8d0468e07",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Air Elemental",
+    "npc": "Skirl",
+    "file": "",
+    "sha256": "ba8990604dbed06fc7ca44040b2b0241c4883524fa3748e6eb6fda4638324885",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Imp",
+    "npc": "Tack",
+    "file": "",
+    "sha256": "022ec81f8963b9d7095c4cc1d6d16e833368cb2727c4449c612fbd255ab1337e",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Rakshasa",
+    "npc": "Varek Silt",
+    "file": "",
+    "sha256": "2ad353ad5555a7bcaeca7332846e06aa83dba266b5c46eaa1697b110340773d9",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

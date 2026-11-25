@@ -1,0 +1,11 @@
+# Beast batch 05
+
+Staged 50 encounter records for 25 Beasts against catalog commit `c1f922a`. Each Beast has its own 2014 *Monster Manual* and November 2018 *Basic Rules* overlay. The roster excludes previously staged scopes. [Roster](roster.tsv) · [Source and portrait manifest](manifest.json) · [Rules patch](rules.patch) · [Portrait index](portrait-index-preview.json)
+
+The batch uses 19 new square portraits and five existing generated portraits. Both books share artwork for each creature. Riding Horse and Warhorse share the same unarmored light-bay portrait, and their rules remain distinct. The five reused portraits keep their original warmer paper tone. The 1254 × 1254 PNG originals are local. [Comparison with Big Linda](portrait-comparison.jpg) · [Portrait sheet 1](portraits-1.jpg) · [Portrait sheet 2](portraits-2.jpg)
+
+The *Monster Manual* entry keeps the diseased giant rat sidebar with its official +4 Bite correction and records the first printing's +3. The Riding Horse and Warhorse entries use the official +5 and +6 Hooves corrections. Only the *Monster Manual* Warhorse includes its barding table. [Basic Rules ]() · [Monster Manual errata]() · [Giant Rat evidence](parts/b05_01/source-evidence.json) · [Horse evidence](parts/b05_09/source-evidence.json)
+
+In a temporary copy of the Library, I found Giant Scorpion by name and by “curved stinger.” Both printed versions loaded the same full-size portrait and showed the DC 12 grapple escape and poison save. Riding Horse and Warhorse loaded the shared image, and the correct publications displayed the corrected attacks and barding. Both Plesiosaurus versions loaded the reused portrait. The browser console showed no errors or warnings. The independent catalog review matched all 50 runtime index rows and all 24 portrait hashes. [Giant Scorpion before and after](giant-scorpion-before-after.jpg)
+
+To use the bundle in a compatible local catalog, apply the patch and place each unique portrait from the manifest at the corresponding path in the preview index relative to `output/dm-library/5etools`. Existing portrait paths with matching hashes can be used in place. Append the 50 version lookup rows to the local portrait index.

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Joystealer",
+    "npc": "Iri Quietglass",
+    "file": "",
+    "sha256": "26f121399016e4fa2acfa5063d9d9582107b2a039d6bc28caa36bad76151bf7d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Verdant Prince",
+    "npc": "Tern Boughsure",
+    "file": "",
+    "sha256": "189c7a40c3b15036280391354f3927b19dcb992fe064070ea517c45f0ccf1381",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Wizened Elder",
+    "npc": "Burrel Waxbough",
+    "file": "",
+    "sha256": "1fa5041f25002c739c41350462db0338e794a4f0c0e6062bda378459b58a0ff7",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Zern",
+    "npc": "Vesk Thrum",
+    "file": "",
+    "sha256": "1e7e911ffb9a5e857e248707607097a66ed19f15fc6fb09f0a8392646dd7f15b",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

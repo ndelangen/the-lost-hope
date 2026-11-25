@@ -1,0 +1,396 @@
+[
+  {
+    "name": "Drow Matron Mother",
+    "statBlock": {
+      "name": "Drow Matron Mother",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 104,
+      "classification": "Medium humanoid (drow elf, cleric), typically neutral evil",
+      "ac": 17,
+      "hp": 247,
+      "hitDice": "33d8 + 99",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 21
+        },
+        "Cha": {
+          "score": 22
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 21,
+      "description": "A priestess of Lolth who leads a noble drow house. A Drow Favored Consort and Drow House Captain usually accompany her.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 9,
+        "Wis": 11,
+        "Cha": 12
+      },
+      "skills": {
+        "Insight": 11,
+        "Perception": 11,
+        "Religion": 9,
+        "Stealth": 10
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Armor": "Half plate armor.",
+        "Traits": "Fey Ancestry. The drow has advantage on saves against being charmed. Magic can't put the drow to sleep.\nSpecial Equipment. The matron mother wields a Tentacle Rod.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make two Demon Staff attacks, or one Demon Staff attack and three Tentacle Rod attacks.\nDemon Staff. Melee weapon attack, +10 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) bludgeoning damage with one hand or 8 (1d8 + 4) with two. Add 14 (4d6) psychic damage either way. The target must pass a DC 19 Wisdom save or be frightened of the matron mother for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\nTentacle Rod. Melee weapon attack, +9 to hit, reach 15 ft., one creature. A hit deals 3 (1d6) bludgeoning damage. Three rod hits on the same turn force a DC 15 Constitution save. On a failure, for 1 minute the creature's speed is halved, it has disadvantage on Dexterity saves, and it can't take reactions. On each of its turns it can take an action or a bonus action, but only one. It can repeat the save at the end of each of its turns to end all these effects.\nDivine Flame (2/day). Place a 10-foot-radius, 40-foot-high column of fire within 120 ft. Each creature in it makes a DC 20 Dexterity save, taking 14 (4d6) fire plus 14 (4d6) radiant damage on a failure or half of each on a success.",
+        "Spellcasting": "As an action, cast one of these spells using Charisma (spell save DC 20). Material components are waived.\nAt will. Command, Dancing Lights, Detect Magic, Thaumaturgy.\n2/day each. Banishment, Blade Barrier, Cure Wounds, Hold Person, Plane Shift, Silence.\n1/day each. Clairvoyance, Darkness, Detect Thoughts, Dispel Magic, Faerie Fire, Gate, Levitate (self only), Suggestion.",
+        "Bonus actions": "Lolth's Fickle Favor. Choose one ally she can see within 30 ft. The ally takes 7 (2d6) psychic damage and gains advantage on its next attack roll before the end of its next turn.\nSummon Servant (1/day). Magically summon a Glabrezu or Yochlol to an unoccupied space within 60 ft. It fights as an ally and can't summon other demons. It stays for 10 minutes, until it or the matron mother dies, or until she spends an action to dismiss it.",
+        "Legendary actions": "The matron mother has 3 legendary actions. She can use one option at the end of another creature's turn, paying its listed cost. Spent actions return at the start of her turn. She can't use them while incapacitated or otherwise unable to act. If surprised, she must finish her first turn before using them.\nCompel Demon (1 action). An allied demon within 30 ft. uses its reaction to attack once against a target she chooses and can see.\nDemon Staff (1 action). Make one Demon Staff attack.\nCast a Spell (2 actions). Use Spellcasting.",
+        "Lair actions": "The matron mother's palace is her lair. A temple to Lolth also qualifies while she is inside, provided she still follows Lolth and no other matron mother is present. If two or more matron mothers gather in such a temple, none can use its lair actions.\nOn initiative count 20, losing ties, she can use one option in her lair. She must be able to act. If surprised, she can act on count 20 only after her first turn. She can't choose the same option in consecutive rounds.\nPerceive Interlopers. Until initiative count 20 in the next round, hostile creatures in the lair can't become hidden from her and get no benefit from invisibility against her.\nSpectral Web. Choose a visible point within 120 ft. Each creature within 60 ft. of it must pass a DC 19 Dexterity save or be restrained for 1 minute. It can repeat the save at the end of each of its turns to end the effect.\nTelekinetic Throw. Choose a visible creature within 60 ft. On a failed DC 19 Strength save, it flies 2d6 × 10 ft. through the air. If it strikes a solid object, it takes 1d6 bludgeoning damage per 10 ft. moved. Apply normal falling damage if released in midair.",
+        "Mothers of Rebellion": "A matron mother who renounces Lolth can have any alignment and loses Lolth's Fickle Favor, Summon Servant, and Compel Demon.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, pp. 103–104."
+      }
+    }
+  },
+  {
+    "name": "Drow Shadowblade",
+    "statBlock": {
+      "name": "Drow Shadowblade",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 105,
+      "classification": "Medium humanoid (drow elf), any alignment",
+      "ac": 17,
+      "hp": 150,
+      "hitDice": "20d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "description": "An Underdark spy or assassin whose power over shadows comes from trapping the essence of a Shadow Demon.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 9
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Elvish, Undercommon.",
+        "Armor": "Studded leather armor.",
+        "Traits": "Devil's Sight. Magical darkness doesn't obstruct the drow's darkvision.\nFey Ancestry. The drow has advantage on saves against being charmed. Magic can't put the drow to sleep.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make three Shadow Sword attacks. The shadowblade can replace one of them with a Hand Crossbow attack. It can also use Spellcasting to cast Darkness as part of this action.\nShadow Sword. Melee or ranged weapon attack, +9 to hit, reach 5 ft. or range 30/60 ft., one target. A hit deals 27 (7d6 + 5) necrotic damage.\nHand Crossbow. Ranged weapon attack, +9 to hit, range 30/120 ft., one target. A hit deals 8 (1d6 + 5) piercing damage. The target must pass a DC 13 Constitution save or be poisoned for 1 hour. On a failure by 5 or more it is also unconscious while this poison lasts. Damage or another creature spending an action to shake it awake ends the unconsciousness.",
+        "Spellcasting": "As an action, cast one of these spells using Charisma (spell save DC 13). Material components are waived.\nAt will. Dancing Lights, Darkness.\n1/day each. Faerie Fire, Levitate (self only).",
+        "Bonus actions": "Shadow Step. From dim light or darkness, teleport with worn or carried equipment up to 60 ft. to a visible unoccupied space in dim light or darkness. The shadowblade has advantage on its first melee attack before the turn ends.",
+        "Optional action": "Summon Shadow Demon (1/day). Make a magical summoning attempt with a 50 percent chance of success. On a failure, the drow takes 5 (1d10) psychic damage. On a success, a Shadow Demon appears in an unoccupied space within 60 ft. It acts as an ally and can't summon other demons. It stays for 10 minutes, until it or the shadowblade dies, or until the shadowblade dismisses it as an action.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 105."
+      }
+    }
+  },
+  {
+    "name": "Duergar Despot",
+    "statBlock": {
+      "name": "Duergar Despot",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 107,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 21,
+      "hp": 119,
+      "hitDice": "14d8 + 56",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 5
+        },
+        "Con": {
+          "score": 19
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 13
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 12,
+      "description": "A duergar who controls mechanical replacements for parts of its body with psionic power.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 8,
+        "Wis": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Magic Resistance. The despot has advantage on saving throws against spells and other magical effects.\nPsychic Engine. When a critical hit strikes the despot or it drops to 0 HP, each creature within 5 ft. of it takes 14 (4d6) psychic damage.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make two Iron Fist and two Stomping Foot attacks. Replace up to one attack with Flame Jet. After one attack the despot can move up to its speed without provoking opportunity attacks.\nIron Fist. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 23 (4d8 + 5) bludgeoning damage. A Large or smaller creature hit must pass a DC 17 Strength save or be pushed up to 30 ft. straight away and knocked prone.\nStomping Foot. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 10 (1d10 + 5) bludgeoning damage, or 21 (3d10 + 5) if the target is prone.\nFlame Jet. Each creature in a 100-foot-long, 5-foot-wide line makes a DC 16 Dexterity save, taking 18 (4d8) fire damage on a failure or half on a success.",
+        "Spellcasting": "Spellcasting (Psionics). As an action, cast one of these spells using Intelligence (spell save DC 12). No spell components are required.\nAt will. Mage Hand, Minor Illusion.\n1/day. Stinking Cloud.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 107."
+      }
+    }
+  },
+  {
+    "name": "Duergar Hammerer",
+    "statBlock": {
+      "name": "Duergar Hammerer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 112,
+      "classification": "Medium construct (dwarf), any alignment",
+      "ac": 17,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 17
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 7,
+      "description": "A duergar tunneling machine that doubles as a siege engine.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Dwarvish but can't speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Armor": "Natural armor.",
+        "Traits": "Siege Monster. The hammerer deals double damage to objects and structures.",
+        "Actions": "Multiattack. Make one Claw and one Hammer attack.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.\nHammer. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 10 (2d6 + 3) bludgeoning damage.",
+        "Reactions": "Engine of Pain. Immediately after a creature within 5 ft. hits the hammerer with an attack roll, it makes a Hammer attack against that creature.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 112."
+      }
+    }
+  },
+  {
+    "name": "Duergar Kavalrachni",
+    "statBlock": {
+      "name": "Duergar Kavalrachni",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 107,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d8 + 8",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 14
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Underdark cavalry trained to ride Female Steeders or other suitable mounts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Armor": "Scale mail and shield.",
+        "Traits": "Cavalry Training. When the kavalrachni hits with a melee attack while mounted, the mount can use its reaction to make one melee attack against the same target.\nDuergar Resilience. The duergar has advantage on saves against spells and against being charmed, paralyzed, or poisoned.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make two War Pick attacks.\nWar Pick. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) piercing plus 5 (2d4) poison damage.\nHeavy Crossbow. Ranged weapon attack, +2 to hit, range 100/400 ft., one target. A hit deals 5 (1d10) piercing damage.\nShared Invisibility (recharges after a short or long rest). Magically turn invisible with worn and carried equipment for up to 1 hour. The effect ends if the duergar attacks, forces a saving throw, or stops concentrating as if on a spell. While the invisible duergar is mounted, the mount is invisible too. The mount's invisibility ends immediately after it attacks.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 107."
+      }
+    }
+  },
+  {
+    "name": "Duergar Mind Master",
+    "statBlock": {
+      "name": "Duergar Mind Master",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 108,
+      "classification": "Medium humanoid (dwarf), any alignment",
+      "ac": 14,
+      "hp": 39,
+      "hitDice": "6d8 + 12",
+      "speed": "25 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "A masked duergar spy who uses psionics to see through illusions and shrink small enough to slip into guarded places.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 2,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft., truesight 30 ft.",
+        "Languages": "Dwarvish, Undercommon.",
+        "Damage resistances": "Poison.",
+        "Armor": "Leather armor.",
+        "Traits": "Duergar Resilience. The duergar has advantage on saves against spells and against being charmed, paralyzed, or poisoned.\nSunlight Sensitivity. In sunlight, the creature has disadvantage on attack rolls and Wisdom (Perception) checks that depend on sight.",
+        "Actions": "Multiattack. Make two Mind-Poison Dagger attacks. Mind Mastery can replace one attack.\nMind-Poison Dagger. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing plus 10 (3d6) psychic damage. While reduced, deal 1 piercing plus 10 (3d6) psychic instead.\nInvisibility (Recharge 4–6). Magically turn invisible with worn and carried equipment for up to 1 hour. The effect ends if the duergar attacks, forces a saving throw, or stops concentrating as if on a spell.\nMind Mastery. Choose a creature the duergar can see within 60 ft. A creature immune to being charmed is unaffected. On a failed DC 12 Intelligence save, the target uses its reaction if available. The duergar chooses either a single weapon attack against another creature the duergar can see or movement up to 10 ft. in a direction the duergar chooses.",
+        "Bonus actions": "Reduce (recharges after a short or long rest). Magically become Tiny for 1 minute, shrinking worn and carried gear as well. Weapon damage drops to 1. Strength-based attack rolls, ability checks, and saving throws have disadvantage. Gain +5 AC and +5 to Dexterity (Stealth) checks. On each turn while reduced, the duergar can take the Hide action as a bonus action.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 108."
+      }
+    }
+  },
+  {
+    "name": "Duergar Screamer",
+    "statBlock": {
+      "name": "Duergar Screamer",
+      "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+      "edition": "2014 fifth edition",
+      "printedPage": 111,
+      "classification": "Medium construct (dwarf), any alignment",
+      "ac": 15,
+      "hp": 38,
+      "hitDice": "7d8 + 7",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 7
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 5
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 7,
+      "description": "A duergar excavation machine that shatters rock and bowls over intruders with sound.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Dwarvish but can't speak.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Armor": "Natural armor.",
+        "Actions": "Multiattack. Make one Drill attack and use Sonic Scream.\nDrill. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 10 (1d12 + 4) piercing damage.\nSonic Scream. Each creature in a 15-foot cube must pass a DC 11 Strength save or take 7 (2d6) thunder damage and fall prone.",
+        "Reactions": "Engine of Pain. Immediately after a creature within 5 ft. hits the screamer with an attack roll, it makes a Drill attack against that creature.",
+        "Printed source": "Mordenkainen Presents: Monsters of the Multiverse, p. 111."
+      }
+    }
+  }
+]

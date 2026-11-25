@@ -1,0 +1,1058 @@
+{
+  "archive": "",
+  "baseline": "16409d50b697e222868b27ebb05df023a9d68758",
+  "rules": [
+    {
+      "scope": [
+        "Frilled Deathspitter",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "frilled-deathspitter-beast-pilot",
+      "authoredRulesHash": "ce5d121c191165c8be87fc504bb82324edf3df9c9df31c556379cf3f96b29b88",
+      "installedRulesHash": "ce5d121c191165c8be87fc504bb82324edf3df9c9df31c556379cf3f96b29b88",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-3b653747ea20aff4bca6ed8d",
+        "version": "4b534188424505a8db6cf13f",
+        "name": "Frilled Deathspitter",
+        "file": "images/frilled-deathspitter-beast-pilot/frilled-deathspitter.png",
+        "sha256": "159e14474330fbeec8145ada218c6183b8b60a64a3aed14a469f5ebfcf8f129a",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Aegisaur",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "b74232056b215107f5cbfb59dfa0519b0928a27594c77b12e8fb15f1f79eb7b3",
+      "installedRulesHash": "b74232056b215107f5cbfb59dfa0519b0928a27594c77b12e8fb15f1f79eb7b3",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-81eb5a7e0d21c59d82347079",
+        "version": "5df4ea8c49d96247f9640ed3",
+        "name": "Aegisaur",
+        "file": "images/beast-ready-batch-01/aegisaur.png",
+        "sha256": "54247adaabf3b13f89d6c05c49b7465bb59ae6f98d4a705f65ee7935b35979ba",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Aerosaur (Large)",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "3e334ab9f79baa69ca1089598d930eda7c402b9866a90739e96a34b4a7f8d583",
+      "installedRulesHash": "3e334ab9f79baa69ca1089598d930eda7c402b9866a90739e96a34b4a7f8d583",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-912445bcc9a2fef589b99093",
+        "version": "8b02ff337b27850359255a77",
+        "name": "Aerosaur (Large)",
+        "file": "images/beast-ready-batch-01/ixalan-aerosaur.png",
+        "sha256": "9094c2520aae2cc567b577c9c1aec66561774bd3f4b363a0cc432eaa88543559",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Aerosaur (Small)",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "65e252954a0d146bc81f608a1a3be8293e444ba6d24754268f52f4e106405276",
+      "installedRulesHash": "65e252954a0d146bc81f608a1a3be8293e444ba6d24754268f52f4e106405276",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-733c7eb450aa937ceeae3922",
+        "version": "ca2da1ec6ca465d18b83527a",
+        "name": "Aerosaur (Small)",
+        "file": "images/beast-ready-batch-01/ixalan-aerosaur.png",
+        "sha256": "9094c2520aae2cc567b577c9c1aec66561774bd3f4b363a0cc432eaa88543559",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Altisaur",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "5f4ad154c7fe1ecb0c31a4dd7b5fd102a5904b72c65ff3c0992de8c49a4f305b",
+      "installedRulesHash": "5f4ad154c7fe1ecb0c31a4dd7b5fd102a5904b72c65ff3c0992de8c49a4f305b",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-b0e964dc44bef056415b971e",
+        "version": "faa9bf73106be80216eb87a6",
+        "name": "Altisaur",
+        "file": "images/beast-ready-batch-01/altisaur.png",
+        "sha256": "125f11553e6a19d2af0f2d0bf02cabf5cf6ee392cc8b07766f1d8eca48462e3e",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Armasaur",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "ca2e5c582cf754f736aae4f82033a070dc3b6c5fbb71ab501c6abdf10c4747d8",
+      "installedRulesHash": "ca2e5c582cf754f736aae4f82033a070dc3b6c5fbb71ab501c6abdf10c4747d8",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-40b94985dfaa95f6a6aabfd4",
+        "version": "fe47417d614f71d1497bd77c",
+        "name": "Armasaur",
+        "file": "images/beast-ready-batch-01/armasaur.png",
+        "sha256": "31554131022aca36342f6a0c9815261aa7e7cb67fadfc51f635c4f5d32d96930",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Brontodon",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "18422919a485c71a3b9f1ebaa56080115ec2e71e00f7ac15ac287c5920fbd570",
+      "installedRulesHash": "18422919a485c71a3b9f1ebaa56080115ec2e71e00f7ac15ac287c5920fbd570",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-07d28a1079eede579f919e1f",
+        "version": "4adbce8aa9384fc8f4472ed0",
+        "name": "Brontodon",
+        "file": "images/beast-ready-batch-01/brontodon.png",
+        "sha256": "c8b574189947b866f03bcdeb570873e8887f4d18507be309cf5480505827e0ad",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Ceratops",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "e74997a9dc205e395651ac00e60baed3ce977211d7edb67514a11fbdab46d54d",
+      "installedRulesHash": "e74997a9dc205e395651ac00e60baed3ce977211d7edb67514a11fbdab46d54d",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-82c12fa2df014c6dfb394c7f",
+        "version": "53882c94e6e328edb0a9f304",
+        "name": "Ceratops",
+        "file": "images/beast-ready-batch-01/ceratops.png",
+        "sha256": "6dfc38218f876e1adb5bac54bfe18c3d64d73dbce0d2a3098cd0bf66ecb937e8",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Ferocidon",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "cd8c1b8cfacefd78c03cd9d9c171ca2ab1cfa8e3743be9ff726a197f81be3c8a",
+      "installedRulesHash": "cd8c1b8cfacefd78c03cd9d9c171ca2ab1cfa8e3743be9ff726a197f81be3c8a",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-d8e955d800a265bf13d4d33a",
+        "version": "4b8360d07b9fe7b22a38cecd",
+        "name": "Ferocidon",
+        "file": "images/beast-ready-batch-01/ferocidon.png",
+        "sha256": "f69cff654030d127b4473c18ea66b94f8caa8d91bd0e658600d01d7f75292753",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Gishath, Sun's Avatar",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "e8114cc3f1668af26735c0a290513fdce5fce6133419c068ddd967eaba17042d",
+      "installedRulesHash": "e8114cc3f1668af26735c0a290513fdce5fce6133419c068ddd967eaba17042d",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-f3ae98a243064d79f1754922",
+        "version": "2dd70cdcd5f142bc814df1d6",
+        "name": "Gishath, Sun's Avatar",
+        "file": "images/beast-ready-batch-01/gishath-suns-avatar.png",
+        "sha256": "9165ee1c4111c8e74e6628990ce57d313381c4e4db4b8c79c8e4bea572d362e0",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Hadrosaur",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "dbaba28bd10d3ea1578c09993ae90dc008e8d214ca28acabd90f1a49009c53ae",
+      "installedRulesHash": "dbaba28bd10d3ea1578c09993ae90dc008e8d214ca28acabd90f1a49009c53ae",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-d27bf124a55f89baecf87183",
+        "version": "92783ab877194c96492ce07d",
+        "name": "Hadrosaur",
+        "file": "images/beast-ready-batch-01/hadrosaur.png",
+        "sha256": "355da53aacf6b3acedd5d204b6e430f3876b71572385bd8dd2178f49c0c080e3",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Hammerskull",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "4434f1790431e05f4df71490012a87935288ee64ec26a38b4de0300fddb12971",
+      "installedRulesHash": "4434f1790431e05f4df71490012a87935288ee64ec26a38b4de0300fddb12971",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-7e7f37b0d5169abfae27d6b8",
+        "version": "ea6ef6c039c452ed921b2b50",
+        "name": "Hammerskull",
+        "file": "images/beast-ready-batch-01/hammerskull.png",
+        "sha256": "ed6ff28ed30a36c49c8ff045ed0bc214cfb23688b99104b2e0cd34a33bca759a",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Horned Frog",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "a7369455fa49449ad970e5e13b544d05a6af9b6ab85d936a8ae393679972c82e",
+      "installedRulesHash": "a7369455fa49449ad970e5e13b544d05a6af9b6ab85d936a8ae393679972c82e",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-a0807fbacec920b093b53e2d",
+        "version": "9fed64fc286697f356d285ec",
+        "name": "Horned Frog",
+        "file": "images/beast-ready-batch-01/horned-frog.png",
+        "sha256": "b771e8e84024129c51d2a456466bc544ef8a0d5d7887ce0d97a681f7d613ea1f",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Macaw",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "fe71bd03ba75a1e40bae9915fe2de9afafeede9c6c7562d3b99b974be076f0f0",
+      "installedRulesHash": "fe71bd03ba75a1e40bae9915fe2de9afafeede9c6c7562d3b99b974be076f0f0",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-70fcded3f255d368e868cc80",
+        "version": "8d2aa5e0da5bb778bc62f2ef",
+        "name": "Macaw",
+        "file": "images/beast-ready-batch-01/ixalan-parrot.png",
+        "sha256": "96a65a32c6831e96ba18ce89791885ac23240fae073e6eb8448e00136fd2ef3c",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Parrot",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "4b2f330580414ea33ca20c4aef7e06069ea46fe504c39e88a1d63f9e2f09c41a",
+      "installedRulesHash": "4b2f330580414ea33ca20c4aef7e06069ea46fe504c39e88a1d63f9e2f09c41a",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-4488b8b86b1ac061dbe37242",
+        "version": "72b5d5531b7c05a96ed9282d",
+        "name": "Parrot",
+        "file": "images/beast-ready-batch-01/ixalan-parrot.png",
+        "sha256": "96a65a32c6831e96ba18ce89791885ac23240fae073e6eb8448e00136fd2ef3c",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Piranha",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "4f01d8149d3c86b63d346f477a66009bc02c716862a90bd485c74b3e7dc49336",
+      "installedRulesHash": "4f01d8149d3c86b63d346f477a66009bc02c716862a90bd485c74b3e7dc49336",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-571363723e1062b31f38a7f9",
+        "version": "f01783ed80d43defed6cc5e4",
+        "name": "Piranha",
+        "file": "images/beast-ready-batch-01/piranha.png",
+        "sha256": "45f9c014c3a37d14423a5213437b9879dc5df7c7e4f676dcd364cfc6839be4c5",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Sailback",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "1c207da62008f703dd954132751cfda7f882962e7e8702551de08432041edffb",
+      "installedRulesHash": "1c207da62008f703dd954132751cfda7f882962e7e8702551de08432041edffb",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-9b1646a6334b396f9e7c48ad",
+        "version": "42d2326c5b94536a9ae1940c",
+        "name": "Sailback",
+        "file": "images/beast-ready-batch-01/sailback.png",
+        "sha256": "0c058d344baae7ee05fcb3348f3bf1e79ac2c1a9833e13233adb23cb5a9d2292",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Swarm of Piranhas",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "e4e411578d3dd3f40af88cb4fa3907816a9f8bf698fa91aedc25c9265cfb7432",
+      "installedRulesHash": "e4e411578d3dd3f40af88cb4fa3907816a9f8bf698fa91aedc25c9265cfb7432",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-aa5dedc331a53d35c2978ac8",
+        "version": "9c672f6e8f408f824f292eb4",
+        "name": "Swarm of Piranhas",
+        "file": "images/beast-ready-batch-01/swarm-of-piranhas.png",
+        "sha256": "63f0f1c375ee051724b8343df8fee238c0a96a5f12227887fc74290c81d743ce",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Trilobite",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "794769eb1de78f8ca3a12fa921fa7aa1cfbbf2daf3ef51ff57287a1dd83ceb14",
+      "installedRulesHash": "794769eb1de78f8ca3a12fa921fa7aa1cfbbf2daf3ef51ff57287a1dd83ceb14",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-cce79f7c6fb6b8c0be4a13e8",
+        "version": "d0f01c148f7d37732cf128a1",
+        "name": "Trilobite",
+        "file": "images/beast-ready-batch-01/ixalan-trilobite.png",
+        "sha256": "b9ee7c98a90b38fdc4fa0f6caa51dd3fbe250315528442c335a63f9fd9cafb6f",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Trilobite (Giant)",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "7583ceb75216213cf4b02bc4035eeda096d8abd777ee49ba352524c841853161",
+      "installedRulesHash": "7583ceb75216213cf4b02bc4035eeda096d8abd777ee49ba352524c841853161",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-84077029f06e934d92a0c234",
+        "version": "c0c9f327e54e317a69eba6b9",
+        "name": "Trilobite (Giant)",
+        "file": "images/beast-ready-batch-01/ixalan-trilobite.png",
+        "sha256": "b9ee7c98a90b38fdc4fa0f6caa51dd3fbe250315528442c335a63f9fd9cafb6f",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Tyrant",
+        "Plane Shift: Ixalan",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "2533ceed5f1b6ef7dc6e8e0f2b7c61e2f43193e705cc6b03ab23d786cdc9252c",
+      "installedRulesHash": "2533ceed5f1b6ef7dc6e8e0f2b7c61e2f43193e705cc6b03ab23d786cdc9252c",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-c80844f9479094972192f288",
+        "version": "6a738b7318880de32470b71c",
+        "name": "Tyrant",
+        "file": "images/beast-ready-batch-01/tyrant.png",
+        "sha256": "fd1181a105719dafa1ee47afe5a88fbc85bb009b8aa229c01048bf7936c408ac",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Baloth",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "3744a643ce0aad6a9747c8810761a849b7d9900b3747885a23c48e2ff3c67db6",
+      "installedRulesHash": "3744a643ce0aad6a9747c8810761a849b7d9900b3747885a23c48e2ff3c67db6",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-bfbc924634600e5fb9b2ffe6",
+        "version": "977a05b36e4a20a00d8cd76a",
+        "name": "Baloth",
+        "file": "images/beast-ready-batch-01/baloth.png",
+        "sha256": "c74b6b4a727b99fec6348d86cbf7d088004698c7107d2e8ef91a887f6b6349c9",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Drake (Large)",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "1a1e6cbb332d31e55ec0328ff22dff830842f0551f4cb4d30099a37b560f4586",
+      "installedRulesHash": "1a1e6cbb332d31e55ec0328ff22dff830842f0551f4cb4d30099a37b560f4586",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-d624ea5890956ea83de88f93",
+        "version": "56faf5bf7bb09b8b9c98cf49",
+        "name": "Drake (Large)",
+        "file": "images/beast-ready-batch-01/zendikar-drake.png",
+        "sha256": "5c37ceb0d8ddd13add24a6d61b21da7cb774f4019f1ed18653c011017a916b00",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Drake (Small)",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "4c89d4bf3e56a4fefa23fe410b1745b0e5938a8e2be685cfe512734eed0730b7",
+      "installedRulesHash": "4c89d4bf3e56a4fefa23fe410b1745b0e5938a8e2be685cfe512734eed0730b7",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-2d248bc99e9a4b99f1aa5153",
+        "version": "186d1e34164dd8d58eb6c715",
+        "name": "Drake (Small)",
+        "file": "images/beast-ready-batch-01/zendikar-drake.png",
+        "sha256": "5c37ceb0d8ddd13add24a6d61b21da7cb774f4019f1ed18653c011017a916b00",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Gnarlid",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "da88d746ba39a6efc20b5fdd88bd0821863a6b97f80e0d5be0a8d1140c565e00",
+      "installedRulesHash": "da88d746ba39a6efc20b5fdd88bd0821863a6b97f80e0d5be0a8d1140c565e00",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-624c23576a0dc0b5c3a69fa7",
+        "version": "4dc34c16394d36689580fd42",
+        "name": "Gnarlid",
+        "file": "images/beast-ready-batch-01/gnarlid.png",
+        "sha256": "ceb5c1cdaa7937e00b0c811ff7a37d81bcca2d5d4fccb233eac45bcc36bd06d8",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Great Cat",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "d23855b688c56d74ebf774e6cd1f3d3a7b8b5ade36b971d37aa141bb5fd0017a",
+      "installedRulesHash": "d23855b688c56d74ebf774e6cd1f3d3a7b8b5ade36b971d37aa141bb5fd0017a",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-96ff955467b426c2177df6db",
+        "version": "157b470218353203e783490e",
+        "name": "Great Cat",
+        "file": "images/beast-ready-batch-01/great-cat.png",
+        "sha256": "517b7591ffcf480f2c97e65611e0a28289b672d28d92bf92407abaa03c8a0ec4",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Heartstabber Mosquito",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "63100d3c3be8748eb66d56463c8ea00aca57de429e767e47553d3ab3b8925d99",
+      "installedRulesHash": "63100d3c3be8748eb66d56463c8ea00aca57de429e767e47553d3ab3b8925d99",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-19a9e0cf00c1dbc4a77bbbde",
+        "version": "0bd29e3e25eb86179d6c53b1",
+        "name": "Heartstabber Mosquito",
+        "file": "images/beast-ready-batch-01/heartstabber-mosquito.png",
+        "sha256": "050c8e54c8dd7d7858338f152bd5ae1b52c2b1ed75ff91fd281e7332d9fc04b8",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Oxen",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "225455fca1960345a2ceeb751a4c3a3face01b765d23129022b1180d5da23bcf",
+      "installedRulesHash": "225455fca1960345a2ceeb751a4c3a3face01b765d23129022b1180d5da23bcf",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-471c6eb0ba4cd0c5b900e51d",
+        "version": "cac0c625b4690c52d30415ff",
+        "name": "Oxen",
+        "file": "images/beast-ready-batch-01/oxen.png",
+        "sha256": "c234a6978ab4a541978d6d13f06c6cb0a72c33eb0471fe5e09cd6353cbea7f3e",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Shoal Serpent",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "334aa26682fffa3adf526a07c6147ecb32cd74cd93cadbcb5d6ee34792db9cf4",
+      "installedRulesHash": "334aa26682fffa3adf526a07c6147ecb32cd74cd93cadbcb5d6ee34792db9cf4",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-0615741fcf6db2ad096cf39c",
+        "version": "bead496098957ca77913121f",
+        "name": "Shoal Serpent",
+        "file": "images/beast-ready-batch-01/shoal-serpent.png",
+        "sha256": "9b1e19418963062e768d25db55ee86373e94ac39b3957a4a8e513db7b66f2fd7",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Terastodon",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "005874fa034a2b5b2b55831e7090a1658ccc9048fb79fa62938bdb24f7c32fa4",
+      "installedRulesHash": "005874fa034a2b5b2b55831e7090a1658ccc9048fb79fa62938bdb24f7c32fa4",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-5c01f46e29c77700e842f179",
+        "version": "df75f2cfbdae392cf9dc0c77",
+        "name": "Terastodon",
+        "file": "images/beast-ready-batch-01/terastodon.png",
+        "sha256": "518cd810912cc35cb568f9779e78caa7f410205133fb46fbff6cadca2571bb17",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Terra Stomper",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "931108210595407f12dd4e8624b1a04662007bfc3a3f1b6b9b30e42381fb79b2",
+      "installedRulesHash": "931108210595407f12dd4e8624b1a04662007bfc3a3f1b6b9b30e42381fb79b2",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-3f9e3f711f5a22c4064e4e42",
+        "version": "a1259cdd545f7ca77690a369",
+        "name": "Terra Stomper",
+        "file": "images/beast-ready-batch-01/terra-stomper.png",
+        "sha256": "2255de9f2322af778d0e5d4ebfd9341a33c0554046349d9475ebc95b15ead1b5",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Woodcrasher Baloth",
+        "Plane Shift: Zendikar",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "d7b54c574ea065913aa584b633af493a67f1388106fbcb63cb760b84c2c931d0",
+      "installedRulesHash": "d7b54c574ea065913aa584b633af493a67f1388106fbcb63cb760b84c2c931d0",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-f4570ba822461bfc6874a01b",
+        "version": "9113a52766ad0f788b5ae1f9",
+        "name": "Woodcrasher Baloth",
+        "file": "images/beast-ready-batch-01/woodcrasher-baloth.png",
+        "sha256": "1a04ed8499f67dc0b1036c3dcddedc395f017e7f7cea1127b2e585087cbe1b61",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Ammit",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "40eaf83f8a6c42a6e715eb64a5e3e258ed1a18a1b63d7170786c77f6906bfabb",
+      "installedRulesHash": "40eaf83f8a6c42a6e715eb64a5e3e258ed1a18a1b63d7170786c77f6906bfabb",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-d655b016a15f2e0b8f21f725",
+        "version": "3bc90b36a49a5324c21df7ea",
+        "name": "Ammit",
+        "file": "images/beast-ready-batch-01/ammit.png",
+        "sha256": "bbe5700e86d19e311d27029799ac123fd305abea43b755a092a58e08234cfda0",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Cerodon",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "dc90af038013582b5a9b8520f514bf02fa4fc4db6de92cd272453806164e47c0",
+      "installedRulesHash": "dc90af038013582b5a9b8520f514bf02fa4fc4db6de92cd272453806164e47c0",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-0b2238d77308fdeee1d2f0b2",
+        "version": "1a4d7a0692a7b19b416c9d19",
+        "name": "Cerodon",
+        "file": "images/beast-ready-batch-01/cerodon.png",
+        "sha256": "31cf6434c41e3a28ac4b73c97c2e13a442f76b39f37d108a0f3e4b7c01df6005",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Hippopotamus",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "0466e81f4d84202fa4b3ce274fd3b773bbf3859bc24012b01c07392b6e327a88",
+      "installedRulesHash": "0466e81f4d84202fa4b3ce274fd3b773bbf3859bc24012b01c07392b6e327a88",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-db35fb45d1ebc6015e9b1029",
+        "version": "a9d4c56c1afdbe502ce89696",
+        "name": "Hippopotamus",
+        "file": "images/beast-ready-batch-01/hippopotamus.png",
+        "sha256": "3fa9d0349cf6e1b26cc5add91546b65abe8860ba0e9b9fb945a0e2dab3d417ca",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Large Drake",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "7eed01057b128ab2775f30eaffacd12f40645f7d0bc4520e923e030e4dca0365",
+      "installedRulesHash": "7eed01057b128ab2775f30eaffacd12f40645f7d0bc4520e923e030e4dca0365",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-6730427f5b623a5fd6e6b9df",
+        "version": "652a83ddd5444cbd35f293c3",
+        "name": "Large Drake",
+        "file": "images/beast-ready-batch-01/amonkhet-drake.png",
+        "sha256": "92c677ba863e254425324c44ca59a2425c051ee223eeb44129128e7de7ad85db",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Small Drake",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "e1d76c52390c0ade59d79d42dd186c03a28d8414d4d8da2154d665b7c6264f8d",
+      "installedRulesHash": "e1d76c52390c0ade59d79d42dd186c03a28d8414d4d8da2154d665b7c6264f8d",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-4e81f4e0f1618e4b4e854582",
+        "version": "84edeb10246cbdb5875a539b",
+        "name": "Small Drake",
+        "file": "images/beast-ready-batch-01/amonkhet-drake.png",
+        "sha256": "92c677ba863e254425324c44ca59a2425c051ee223eeb44129128e7de7ad85db",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Drake (Large)",
+        "Plane Shift: Kaladesh",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "161f043bb65918623b72cab6d8c374ecdd1bc51a69487088c50a83ac2b8dfad4",
+      "installedRulesHash": "161f043bb65918623b72cab6d8c374ecdd1bc51a69487088c50a83ac2b8dfad4",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-d624ea5890956ea83de88f93",
+        "version": "29ff741c53cc596d50a9839c",
+        "name": "Drake (Large)",
+        "file": "images/beast-ready-batch-01/kaladesh-drake.png",
+        "sha256": "9525a7ed36c8130cb110deb69aa6dfe4792a169cd6fd2ba74039e2d963b090f8",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Drake (Small)",
+        "Plane Shift: Kaladesh",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "5773d4eb19f8408d1332e59ebb9ec42f1cb70a67412b512181ace229442ac237",
+      "installedRulesHash": "5773d4eb19f8408d1332e59ebb9ec42f1cb70a67412b512181ace229442ac237",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-2d248bc99e9a4b99f1aa5153",
+        "version": "d89af79635b63436289df54b",
+        "name": "Drake (Small)",
+        "file": "images/beast-ready-batch-01/kaladesh-drake.png",
+        "sha256": "9525a7ed36c8130cb110deb69aa6dfe4792a169cd6fd2ba74039e2d963b090f8",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Gremlin",
+        "Plane Shift: Kaladesh",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "10b40abdcfe159c3453ee11cd6c6220f7d50c66fd9a08ed8aa942bce2ad43417",
+      "installedRulesHash": "10b40abdcfe159c3453ee11cd6c6220f7d50c66fd9a08ed8aa942bce2ad43417",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-f468bfcd4cb3a862d9771d1a",
+        "version": "38d7c05dc651f945e4cb0523",
+        "name": "Gremlin",
+        "file": "images/beast-ready-batch-01/gremlin.png",
+        "sha256": "ed51d32dc7fe44e635b83e44d84d2cf76039bc941f6284203d41d3d1e79158a7",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Sky Leviathan",
+        "Plane Shift: Kaladesh",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "a9047a352da6d70e4ee76d916f48a53bacd8e8c8565cca14274ccd914c9591d4",
+      "installedRulesHash": "a9047a352da6d70e4ee76d916f48a53bacd8e8c8565cca14274ccd914c9591d4",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-3b1cf6baf9bee0e68c5c2722",
+        "version": "255d77d6991e616404a4d03d",
+        "name": "Sky Leviathan",
+        "file": "images/beast-ready-batch-01/sky-leviathan.png",
+        "sha256": "25ca7eac068bfdb5d5c15e8fa3d29773ee11a50e511273178858f885d4431c8c",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Sky Whale",
+        "Plane Shift: Kaladesh",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "0440f72f3778e375eca6de33acbff49fdb3b1fda4b0b798d133460adc15e7f32",
+      "installedRulesHash": "0440f72f3778e375eca6de33acbff49fdb3b1fda4b0b798d133460adc15e7f32",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-a869bd850f452d6dc784418c",
+        "version": "8cbf347288c119247eca6fa6",
+        "name": "Sky Whale",
+        "file": "images/beast-ready-batch-01/sky-whale.png",
+        "sha256": "ffee91221c1338b89ed2dcd75e3249d5159d99a30686476ee116a7147401a32d",
+        "credit": "Original portrait generated with OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "River Serpent",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "a905b70825ea8721e3dc743f8628e9647f44a01c1c1324efbb4903997a342e6c",
+      "installedRulesHash": "a905b70825ea8721e3dc743f8628e9647f44a01c1c1324efbb4903997a342e6c",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-f2d9f70003284fb7e967fb4c",
+        "version": "37add69d530bcb6d3f05b36a",
+        "name": "River Serpent",
+        "file": "images/beast-ready-batch-01/river-serpent.png",
+        "sha256": "fa791ce7e078ce4a611172262b4a2f901aeca96bedc771a7ca69adb50126493f",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Serpopard",
+        "Plane Shift: Amonkhet",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "76c915e1542e0d23a4ca6a5040c130e7158bfff2c4145053ac26e28459fff4f3",
+      "installedRulesHash": "76c915e1542e0d23a4ca6a5040c130e7158bfff2c4145053ac26e28459fff4f3",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-fabc8d0c4b910cef052465cf",
+        "version": "eb0707551520a9b9a349d9dd",
+        "name": "Serpopard",
+        "file": "images/beast-ready-batch-01/serpopard.png",
+        "sha256": "08f35683bba08308ce5cc01f22b65a7343c8c4104dacb032c7c0853c20520ad5",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Kavu Predator",
+        "Plane Shift: Dominaria",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "6cc778cb4e6a6e86e4f2d4250ccd0d04575fcad6fea25431a8263595b2a6d4de",
+      "installedRulesHash": "6cc778cb4e6a6e86e4f2d4250ccd0d04575fcad6fea25431a8263595b2a6d4de",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-67ab1acf0f6e62789807c177",
+        "version": "c71b096b614d64d8c58c7888",
+        "name": "Kavu Predator",
+        "file": "images/beast-ready-batch-01/kavu-predator.png",
+        "sha256": "3c4f82dd602ce3475d72322c604ffdb0fda1b66bb4fad9e72b6a5445231b02a2",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Steel Leaf Kavu",
+        "Plane Shift: Dominaria",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "13259f2247929751a4591f9a9aba948b4532f31e9c70a9dd0dc1a458676e064e",
+      "installedRulesHash": "13259f2247929751a4591f9a9aba948b4532f31e9c70a9dd0dc1a458676e064e",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-6bea6a4a254194978640b3c5",
+        "version": "638f326219fd9f14fe562434",
+        "name": "Steel Leaf Kavu",
+        "file": "images/beast-ready-batch-01/steel-leaf-kavu.png",
+        "sha256": "06705c758d6020b762746ade48840047d6b143cc062be7d8c636e8207ec72596",
+        "credit": "Original portrait generated with built-in OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Plesiosaurus",
+        "Black Flag Roleplaying Reference Document v0.2",
+        "Black Flag Roleplaying"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "bd506f5c6f23815ced717d60ed4ca48fa3e7f7b7a2bf68babf49ef0295519e48",
+      "installedRulesHash": "bd506f5c6f23815ced717d60ed4ca48fa3e7f7b7a2bf68babf49ef0295519e48",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-8cd2c129eb50bc4a0ec508ec",
+        "version": "23b6f6b634bcbf820a1827cb",
+        "name": "Plesiosaurus",
+        "file": "images/monsters/plesiosaurus/parchment-portrait.webp",
+        "sha256": "c1ccf37963e1f9ea88fa45b872eb1c9d5874a3d184a98ad52f88b86a4df356a5",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Triceratops",
+        "Black Flag Roleplaying Reference Document v0.2",
+        "Black Flag Roleplaying"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "ed12eba995f4c7419e1c594a7428ca7843647255ba4b38c81099e02caea84a84",
+      "installedRulesHash": "ed12eba995f4c7419e1c594a7428ca7843647255ba4b38c81099e02caea84a84",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-ff2f0b10db1668f2d68d6e40",
+        "version": "c0adb00609755a35b6484410",
+        "name": "Triceratops",
+        "file": "images/monsters/triceratops/parchment-portrait.webp",
+        "sha256": "7ddfb45215f9e925e1bf98d57e9682f3bb0cf33f84e2080a06a4192a28d7e789",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Tyrannosaurus Rex",
+        "Black Flag Roleplaying Reference Document v0.2",
+        "Black Flag Roleplaying"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "c2f9a3c2a34e0c9136e32eeb1180de0b8efa0605d46d355f108d389073623ba1",
+      "installedRulesHash": "c2f9a3c2a34e0c9136e32eeb1180de0b8efa0605d46d355f108d389073623ba1",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-7fad5f6e7b3d703576e966a6",
+        "version": "c9888c5982696f3cc2d72e50",
+        "name": "Tyrannosaurus Rex",
+        "file": "images/monsters/tyrannosaurus-rex/parchment-portrait.webp",
+        "sha256": "379f4ae28393eff544c05d96fc175329edbe06e9f2e099789d926491622ab316",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Velociraptor",
+        "Black Flag Roleplaying Reference Document v0.2",
+        "Black Flag Roleplaying"
+      ],
+      "bundle": "beast-ready-batch-01",
+      "authoredRulesHash": "b51d0d0e39c5a3563c365cad35c499783fe37255df58d3d257745990cc5a887b",
+      "installedRulesHash": "b51d0d0e39c5a3563c365cad35c499783fe37255df58d3d257745990cc5a887b",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-c45142564e203d7265f56c7c",
+        "version": "43cac4a1cca744950e883672",
+        "name": "Velociraptor",
+        "file": "images/beast-ready-batch-01/velociraptor.png",
+        "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    }
+  ],
+  "uniqueRuntimeFiles": 44,
+  "inheritanceResolutions": []
+}

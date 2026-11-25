@@ -1,0 +1,364 @@
+{
+  "Changeling": {
+    "profiles": [
+      {
+        "name": "Changeling",
+        "imageKey": "species:changeling",
+        "kind": "species",
+        "type": "",
+        "publication": "Eberron: Forge of the Artificer",
+        "edition": "2024 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/2048551-changeling",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/52994/765/340/340/638996059003032033.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/2048551-changeling",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Small or Medium.",
+          "Walking speed 30 feet.",
+          "Source traits include Changeling Instincts, Shape-Shifter."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#changeling_efa",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/EFA/Changeling.webp",
+              "artist": "Leroy Steinmann",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Changeling",
+        "imageKey": "species:changeling",
+        "kind": "species",
+        "type": "",
+        "publication": "Eberron: Rising from the Last War",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/260666-changeling",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/7743/443/340/340/637093220265349425.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/260666-changeling",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Size Medium.",
+          "Walking speed 30 feet.",
+          "Source traits include Age, Alignment, Size, Shapechanger, Changeling Instincts, Languages."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#changeling_erlw",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/ERLW/Changeling.webp",
+              "artist": "Olga Drebas",
+              "kind": "illustration"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/ERLW/Changeling%20001.webp",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Changeling",
+        "imageKey": "species:changeling",
+        "kind": "species",
+        "type": "",
+        "publication": "Mordenkainen Presents: Monsters of the Multiverse",
+        "edition": "2014 fifth edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://www.dndbeyond.com/species/1026382-changeling",
+        "challenge": "",
+        "images": [],
+        "publisherArtwork": "https://www.dndbeyond.com/avatars/thumbnails/25746/820/340/340/637880558263246600.png",
+        "illustrationReference": "https://www.dndbeyond.com/species/1026382-changeling",
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium or Small Fey, 30-foot walk. Choose two proficiencies from Deception, Insight, Intimidation, Performance, and Persuasion.",
+          "Spend an action to change appearance and voice, including the option to change between Medium and Small. Clothing, equipment, and other statistics stay the same."
+        ],
+        "npcStatus": "missing",
+        "npcBuilds": [],
+        "bookReference": {
+          "pageUrl": "https://5e.tools/races.html#changeling_mpmm",
+          "artwork": [
+            {
+              "url": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/races/MPMM/Changeling.webp",
+              "artist": "Sarah Stone",
+              "kind": "illustration"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Changeling",
+        "imageKey": "species:changeling",
+        "kind": "species",
+        "type": "Humanoid (Shapechanger)",
+        "publication": "Eberron Campaign Setting (2004)",
+        "edition": "3.5 edition",
+        "publisher": "Wizards of the Coast",
+        "source": "https://openlibrary.org/books/OL8144376M",
+        "challenge": "",
+        "images": [],
+        "speciesRulesStatus": "local-summary",
+        "speciesTraits": [
+          "Medium Humanoid with the Shapechanger subtype. Base land speed 30 ft. The edition gives no racial ability adjustments, racial Hit Dice, or level adjustment.",
+          "+2 racial on saving throws against sleep and charm effects.",
+          "+2 racial on Bluff, Intimidate, and Sense Motive checks.",
+          "Natural Linguist makes Speak Language a class skill in every class the Changeling takes.",
+          "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+          "Within the disguise self limits, height can vary by up to 1 ft. and build can vary while keeping the same basic body plan. The new appearance retains the Changeling’s game traits. Wizards’ 3.5 FAQ gives the appearance of a Warforged as an example.",
+          "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it.",
+          "In this printing, Changelings can copy a dragonmark’s appearance. Their ancestry does not develop dragonmarks or confer their powers.",
+          "Common is automatic. Bonus languages are Auran, Dwarven, Elven, Giant, Gnome, Halfling, and Terran. Favored class Rogue."
+        ],
+        "npcStatus": "original-build",
+        "npcBuilds": [
+          {
+            "species": "Changeling",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Eberron Campaign Setting (2004)",
+            "name": "Rem",
+            "build": {
+              "id": "changeling-docket-clerk-35e",
+              "title": "Changeling docket clerk, Expert 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1/2. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Shapechanger)",
+              "ac": 13,
+              "hp": 7,
+              "hitDice": "1d6+1",
+              "initiative": 1,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 8,
+                "DEX": 13,
+                "CON": 12,
+                "INT": 12,
+                "WIS": 12,
+                "CHA": 14
+              },
+              "skills": [
+                "Bluff +8",
+                "Decipher Script +5",
+                "Diplomacy +7",
+                "Disguise +6, or +16 with Minor Change Shape",
+                "Gather Information +6",
+                "Knowledge (local) +5",
+                "Sense Motive +7"
+              ],
+              "languages": "Common, Elven, Dwarven, Giant",
+              "traits": [
+                "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple −1. Fortitude +1, Reflex +1, Will +3.",
+                "+2 racial on saving throws against sleep and charm effects.",
+                "Skill Focus (Diplomacy) adds +3. Natural Linguist makes Speak Language a class skill. Elven comes from Intelligence, and two skill points buy Dwarven and Giant.",
+                "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+                "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it."
+              ],
+              "actions": [
+                "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+                "Dagger −1 melee, 1d4−1 piercing or slashing, critical 19–20/×2, minimum 1 damage."
+              ],
+              "tactics": "Rem needs someone to compare two copies of the same docket before the hearing begins. As the relief clerk, Rem showed a different face but wore the same office coat. If the party brings the witness upstairs, Rem can repeat the change in front of them."
+            },
+            "role": "Docket clerk and Expert.",
+            "motive": "Reconcile the two docket copies before the afternoon hearing.",
+            "hook": "Rem can show the witness both appearances from the registry counter if the party brings the disputed copy."
+          },
+          {
+            "species": "Changeling",
+            "size": "Medium",
+            "edition": "3.5 edition",
+            "speciesPublication": "Eberron Campaign Setting (2004)",
+            "name": "Serr",
+            "build": {
+              "id": "changeling-stage-understudy-35e",
+              "title": "Changeling stage understudy, Rogue 1",
+              "origin": "Original DM Library NPC",
+              "editions": [
+                "3.5 edition"
+              ],
+              "difficulty": "Provisional CR 1. ECL 1.",
+              "size": "Medium",
+              "type": "Humanoid (Shapechanger)",
+              "ac": 14,
+              "hp": 8,
+              "hitDice": "1d6+2",
+              "initiative": 2,
+              "speed": "30 ft.",
+              "abilityScores": {
+                "STR": 12,
+                "DEX": 15,
+                "CON": 14,
+                "INT": 12,
+                "WIS": 10,
+                "CHA": 12
+              },
+              "skills": [
+                "Bluff +7",
+                "Disable Device +5",
+                "Disguise +5, or +15 with Minor Change Shape",
+                "Hide +6",
+                "Listen +6",
+                "Move Silently +6",
+                "Search +5",
+                "Sense Motive +6",
+                "Spot +6"
+              ],
+              "languages": "Common, Gnome",
+              "traits": [
+                "Leather armor +2 and Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +4, Will +0.",
+                "+2 racial on saving throws against sleep and charm effects.",
+                "Alertness adds +2 to Listen and Spot, already included. Trapfinding allows Search checks above DC 20 for traps and Disable Device checks against magic traps.",
+                "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+                "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it."
+              ],
+              "actions": [
+                "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2, 5-ft. reach.",
+                "Shortbow +2 ranged, 1d6 piercing, critical ×3, 60-ft. increment.",
+                "Sneak attack adds 1d6 against a flanked target or one denied its Dexterity bonus to AC. A ranged sneak attack requires a target within 30 ft."
+              ],
+              "tactics": "Serr can cover for a missing performer while the party searches the wings. Serr makes the physical change backstage, then puts on the performer’s costume separately. If the rigging comes loose, Serr moves the visitors away from it before looking for the source."
+            },
+            "role": "Stage understudy and Rogue.",
+            "motive": "Cover the opening scene while the crew locates a missing performer.",
+            "hook": "Serr can take the missing performer’s place once the party retrieves the costume from the dressing rack."
+          }
+        ]
+      }
+    ],
+    "npcs": [
+      {
+        "species": "Changeling",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Eberron Campaign Setting (2004)",
+        "name": "Rem",
+        "build": {
+          "id": "changeling-docket-clerk-35e",
+          "title": "Changeling docket clerk, Expert 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1/2. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Shapechanger)",
+          "ac": 13,
+          "hp": 7,
+          "hitDice": "1d6+1",
+          "initiative": 1,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 8,
+            "DEX": 13,
+            "CON": 12,
+            "INT": 12,
+            "WIS": 12,
+            "CHA": 14
+          },
+          "skills": [
+            "Bluff +8",
+            "Decipher Script +5",
+            "Diplomacy +7",
+            "Disguise +6, or +16 with Minor Change Shape",
+            "Gather Information +6",
+            "Knowledge (local) +5",
+            "Sense Motive +7"
+          ],
+          "languages": "Common, Elven, Dwarven, Giant",
+          "traits": [
+            "Leather armor +2 and Dexterity +1. Touch 11, flat-footed 12. BAB +0, grapple −1. Fortitude +1, Reflex +1, Will +3.",
+            "+2 racial on saving throws against sleep and charm effects.",
+            "Skill Focus (Diplomacy) adds +3. Natural Linguist makes Speak Language a class skill. Elven comes from Intelligence, and two skill points buy Dwarven and Giant.",
+            "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+            "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it."
+          ],
+          "actions": [
+            "Light crossbow +1 ranged, 1d8 piercing, critical 19–20/×2, 80-ft. increment. Reload as a move action.",
+            "Dagger −1 melee, 1d4−1 piercing or slashing, critical 19–20/×2, minimum 1 damage."
+          ],
+          "tactics": "Rem needs someone to compare two copies of the same docket before the hearing begins. As the relief clerk, Rem showed a different face but wore the same office coat. If the party brings the witness upstairs, Rem can repeat the change in front of them."
+        },
+        "role": "Docket clerk and Expert.",
+        "motive": "Reconcile the two docket copies before the afternoon hearing.",
+        "hook": "Rem can show the witness both appearances from the registry counter if the party brings the disputed copy."
+      },
+      {
+        "species": "Changeling",
+        "size": "Medium",
+        "edition": "3.5 edition",
+        "speciesPublication": "Eberron Campaign Setting (2004)",
+        "name": "Serr",
+        "build": {
+          "id": "changeling-stage-understudy-35e",
+          "title": "Changeling stage understudy, Rogue 1",
+          "origin": "Original DM Library NPC",
+          "editions": [
+            "3.5 edition"
+          ],
+          "difficulty": "Provisional CR 1. ECL 1.",
+          "size": "Medium",
+          "type": "Humanoid (Shapechanger)",
+          "ac": 14,
+          "hp": 8,
+          "hitDice": "1d6+2",
+          "initiative": 2,
+          "speed": "30 ft.",
+          "abilityScores": {
+            "STR": 12,
+            "DEX": 15,
+            "CON": 14,
+            "INT": 12,
+            "WIS": 10,
+            "CHA": 12
+          },
+          "skills": [
+            "Bluff +7",
+            "Disable Device +5",
+            "Disguise +5, or +15 with Minor Change Shape",
+            "Hide +6",
+            "Listen +6",
+            "Move Silently +6",
+            "Search +5",
+            "Sense Motive +6",
+            "Spot +6"
+          ],
+          "languages": "Common, Gnome",
+          "traits": [
+            "Leather armor +2 and Dexterity +2. Touch 12, flat-footed 12. BAB +0, grapple +1. Fortitude +2, Reflex +4, Will +0.",
+            "+2 racial on saving throws against sleep and charm effects.",
+            "Alertness adds +2 to Listen and Spot, already included. Trapfinding allows Search checks above DC 20 for traps and Disable Device checks against magic traps.",
+            "Minor Change Shape (Su) is an at-will full-round action that physically alters the Changeling’s body, including facial features, skin color and texture, and size within the limits of disguise self. Clothing and possessions keep their appearance.",
+            "Minor Change Shape grants +10 circumstance on Disguise checks when used to create a disguise. The form lasts until another change. True seeing reveals the natural form, and death restores it."
+          ],
+          "actions": [
+            "Rapier +1 melee, 1d6+1 piercing, critical 18–20/×2, 5-ft. reach.",
+            "Shortbow +2 ranged, 1d6 piercing, critical ×3, 60-ft. increment.",
+            "Sneak attack adds 1d6 against a flanked target or one denied its Dexterity bonus to AC. A ranged sneak attack requires a target within 30 ft."
+          ],
+          "tactics": "Serr can cover for a missing performer while the party searches the wings. Serr makes the physical change backstage, then puts on the performer’s costume separately. If the rigging comes loose, Serr moves the visitors away from it before looking for the source."
+        },
+        "role": "Stage understudy and Rogue.",
+        "motive": "Cover the opening scene while the crew locates a missing performer.",
+        "hook": "Serr can take the missing performer’s place once the party retrieves the costume from the dressing rack."
+      }
+    ]
+  }
+}

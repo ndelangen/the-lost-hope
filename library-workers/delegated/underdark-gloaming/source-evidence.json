@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Gloaming",
+    "kind": "species",
+    "publication": "Underdark (2003)",
+    "edition": "3.5 edition",
+    "book": "Underdark",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel",
+      "Jeff Quick"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "October 2003",
+    "productCode": "620-88581-001-EN",
+    "isbn": "0-7869-3053-5",
+    "printedPages": {
+      "playableSpecies": [
+        12,
+        13
+      ],
+      "racialTraits": 13,
+      "illustration": 15,
+      "region": 23,
+      "portalSensitive": 27
+    },
+    "pdfPageOffset": 1,
+    "primaryBookScan": "",
+    "primaryBookSha256": "a7651db6f6506ac8abfd1b49f0b8f96e4d4d33ee2d62c9889720d6bbdcf601be",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": null,
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "Vance Kovacs, p. 15.",
+    "sourceDistinctions": [
+      "The player entry explicitly grants low-light vision. The core outsider type supplies 60-ft. darkvision.",
+      "Light Blindness applies to attack rolls, saving throws, and checks while in bright light, in addition to 1 round of blindness from abrupt exposure.",
+      "The core flight rule caps load at light. The racial entry gives no separate armor restriction.",
+      "Wizards’ collected archive has no Underdark errata file. The official FAQ has no Gloaming or Portal Sensitive entry."
+    ],
+    "entryId": "species-da4b0765198c693a0d05b757",
+    "versionKey": "a9ffb4c3795d77eb18e185e7",
+    "slug": "gloaming",
+    "portraitSelection": "generated",
+    "portraitForm": "Iskra Sablewing, an original Gloaming Sorcerer with luminescence off",
+    "npcExamples": [
+      "Iskra Sablewing",
+      "Kes Hollowstep"
+    ]
+  }
+]

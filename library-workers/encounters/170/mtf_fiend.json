@@ -1,0 +1,401 @@
+[
+  {
+    "name": "Nabassu",
+    "statBlock": {
+      "name": "Nabassu",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 135,
+      "classification": "Medium fiend (demon), chaotic evil",
+      "ac": 18,
+      "hp": 190,
+      "hitDice": "20d8 + 100",
+      "speed": "40 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Other demons shun this soul-eater. A conjurer who calls one out of the Abyss may become its first meal.",
+      "savingThrows": {
+        "Str": 11,
+        "Dex": 7
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Also bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, telepathy 120 ft.",
+        "Traits": "Demonic Shadows. The nabassu keeps the area within 10 ft. of itself in dim light. Nonmagical light cannot brighten it.\nDevour Soul. The nabassu can consume the soul of a creature it killed in the past hour, excluding constructs and undead. Spend at least 10 minutes within 5 ft. of the body. Gain half the victim’s number of Hit Dice as d8s, roll them, and add the result to the nabassu’s hit points. Every four d8s gained this way add 3 (1d6) damage to each attack hit. The benefits last six days. Only Wish restores a creature whose soul was eaten.\nMagic Resistance. The nabassu has advantage on saves against spells and other magical effects.\nMagic Weapons. Its weapon attacks are magical.",
+        "Actions": "Multiattack. Use Soul-Stealing Gaze and make one Claws attack and one Bite attack.\nClaws. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 17 (2d10 + 6) slashing damage.\nBite. Melee weapon attack, +11 to hit, reach 5 ft., one target. A hit deals 32 (4d12 + 6) piercing damage.\nSoul-Stealing Gaze. Choose a visible creature within 30 ft. If it can see the nabassu and is neither a construct nor undead, it must make a DC 16 Charisma save. On a failure, reduce its hit point maximum by 13 (2d12) and give the nabassu that many temporary hit points. The reduction ends after the target completes a short or long rest. At a maximum of 0 HP, the target dies. A humanoid killed this way immediately rises as a ghoul controlled by the nabassu.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 135."
+      }
+    }
+  },
+  {
+    "name": "Nagpa",
+    "statBlock": {
+      "name": "Nagpa",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 215,
+      "classification": "Medium humanoid (nagpa), neutral evil",
+      "ac": 19,
+      "hp": 187,
+      "hitDice": "34d8 + 34",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 23
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "The Raven Queen’s curse left thirteen scheming wizards with vulturelike faces. They engineer catastrophes so they can loot magical secrets from the ruins.",
+      "savingThrows": {
+        "Int": 12,
+        "Wis": 10,
+        "Cha": 11
+      },
+      "skills": {
+        "Arcana": 12,
+        "Deception": 11,
+        "History": 12,
+        "Insight": 10,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common plus up to five other languages.",
+        "Spellcasting": "A 15th-level wizard spellcaster using Intelligence (spell save DC 20, +12 to hit with spell attacks).\nCantrips (at will). Chill Touch, Fire Bolt, Mage Hand, Message, Minor Illusion.\n1st level (4 slots). Charm Person, Detect Magic, Protection from Evil and Good, Witch Bolt.\n2nd level (3 slots). Hold Person, Ray of Enfeeblement, Suggestion.\n3rd level (3 slots). Counterspell, Fireball, Fly.\n4th level (3 slots). Confusion, Hallucinatory Terrain, Wall of Fire.\n5th level (2 slots). Dominate Person, Dream, Geas.\n6th level (1 slot). Circle of Death, Disintegrate.\n7th level (1 slot). Etherealness, Prismatic Spray.\n8th level (1 slot). Feeblemind.",
+        "Bonus actions": "Corruption. Choose a creature the nagpa can see within 90 ft. It makes a DC 20 Charisma save, with disadvantage if evil. A failure leaves it charmed by the nagpa until the start of the nagpa’s next turn. A success gives it immunity to that nagpa’s Corruption for 24 hours.\nParalysis (Recharge 6). Every creature within 30 ft. makes a DC 20 Wisdom save or is paralyzed for 1 minute. Constructs and undead are immune. An affected target can repeat the save at the end of each of its turns and end the effect on a success.",
+        "Actions": "Staff. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 9 (2d6 + 2) bludgeoning damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 215."
+      }
+    }
+  },
+  {
+    "name": "Narzugon",
+    "statBlock": {
+      "name": "Narzugon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 167,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 20,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "13",
+      "xp": 10000,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A paladin who bargains with devils can end up leading their troops from the saddle of a nightmare.",
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Plate armor and shield.",
+        "Damage resistances": "Acid, cold. Also bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Infernal, telepathy 120 ft.",
+        "Traits": "Diabolical Sense. The narzugon has advantage on Wisdom (Perception) checks to notice good-aligned creatures.\nInfernal Tack. The narzugon’s spurs let it call its nightmare under the rules in the sidebar.\nMagic Resistance. The narzugon has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Use Infernal Command or Terrifying Command and make three Hellfire Lance attacks.\nHellfire Lance. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 11 (1d12 + 5) piercing and 16 (3d10) fire damage. A creature killed by the lance becomes a lemure in the River Styx in Avernus in 1d4 hours. Once that happens, only Wish or slaying the lemure and casting True Resurrection on the original body can bring the creature back. Constructs and devils are immune to this soul effect.\nInfernal Command. Allies within 60 ft. cannot be charmed or frightened through the end of the narzugon’s next turn.\nTerrifying Command. Non-fiends within 60 ft. that hear the narzugon must make a DC 17 Charisma save or be frightened of it for 1 minute. A target can repeat the save at the end of each of its turns, ending the effect on a success. Passing the save makes it immune to this narzugon’s Terrifying Command for 24 hours.\nHealing (1/day). The narzugon or one creature it touches regains up to 100 hit points.",
+        "Infernal Tack sidebar": "Infernal Tack is a legendary wondrous item that requires attunement by an evil creature. The wearer commands a nightmare already subdued and fitted with the matching tack. Its service lasts until the wearer dies or the tack comes off.\nUse an action to clash the spurs or scrape them through blood to call the nightmare. It arrives within 20 ft. at the start of the wearer’s next turn, acts as an ally on the wearer’s initiative count, and stays up to one day. It also departs if either creature dies or the wearer dismisses it as an action. If slain, the nightmare reforms in the Nine Hells within 24 hours and can then be called again.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 167, including the Infernal Tack sidebar."
+      }
+    }
+  },
+  {
+    "name": "Nightwalker",
+    "statBlock": {
+      "name": "Nightwalker",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 216,
+      "classification": "Huge undead, chaotic evil",
+      "ac": 14,
+      "hp": 297,
+      "hitDice": "22d12 + 154",
+      "speed": "40 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 22
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 24
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 9,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A nightwalker can emerge when a living creature crosses into the Negative Plane. The traveler remains trapped while its counterpart walks free.",
+      "savingThrows": {
+        "Con": 13
+      },
+      "sections": {
+        "Damage resistances": "Acid, cold, fire, lightning, thunder. Also bludgeoning, piercing and slashing from nonmagical attacks.",
+        "Damage immunities": "Necrotic, poison.",
+        "Condition immunities": "Exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "None.",
+        "Traits": "Annihilating Aura. Except for undead, a creature that starts its turn within 30 ft. must make a DC 21 Constitution save. On failure, it takes 14 (4d6) necrotic damage and the nightwalker has advantage on attack rolls against it until the start of that creature’s next turn.\nLife Eater. Any creature the nightwalker reduces to 0 hit points with damage dies. Only Wish can revive it.\nUndead Nature. The nightwalker needs no air, food, drink, or sleep.",
+        "Actions": "Multiattack. Use Enervating Focus twice or use it once together with Finger of Doom if available.\nEnervating Focus. Melee weapon attack, +12 to hit, reach 15 ft., one target. A hit deals 28 (5d8 + 6) necrotic damage. The target must make a DC 21 Constitution save. Failure reduces its hit point maximum by the necrotic damage it took until it completes a long rest.\nFinger of Doom (Recharge 6). Choose a creature the nightwalker can see within 300 ft. It must make a DC 21 Wisdom save. On failure, it takes 26 (4d12) necrotic damage and is frightened until the end of the nightwalker’s next turn. This fear paralyzes it for the same duration. On a success, it is immune to this nightwalker’s Finger of Doom for 24 hours.",
+        "Negative Plane exchange": "When a nightwalker takes the place of a creature drawn into the Negative Plane, the creature can escape only if the nightwalker is lured back with living prey. Destroying the nightwalker closes that way out.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 216."
+      }
+    }
+  },
+  {
+    "name": "Nupperibo",
+    "statBlock": {
+      "name": "Nupperibo",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 168,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 13,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 11,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Nupperibos drift across the Nine Hells in blind, hungry packs. The vermin swarming around them can make even a narrow crossing costly.",
+      "skills": {
+        "Perception": 1
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Acid, cold. Also bludgeoning, piercing and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Blinded, charmed, frightened, poisoned.",
+        "Senses": "Blindsight 10 ft. The nupperibo is blind beyond that distance.",
+        "Languages": "Understands Infernal but cannot speak.",
+        "Traits": "Cloud of Vermin. Non-devils that start their turns within 20 ft. make a DC 11 Constitution save, with disadvantage if in the clouds of at least two nupperibos. Failure deals 2 (1d4) piercing damage.\nHunger-Driven. In the Nine Hells, a nupperibo can track without error anyone damaged by any nupperibo’s Cloud of Vermin within the past 24 hours.",
+        "Actions": "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 168."
+      }
+    }
+  },
+  {
+    "name": "Oaken Bolter",
+    "statBlock": {
+      "name": "Oaken Bolter",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 126,
+      "classification": "Medium construct, unaligned",
+      "ac": 16,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 3
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 1
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This walking ballista can bring down distant targets or reel them into reach of other clockworks.",
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage immunities": "Poison. Also bludgeoning, piercing and slashing from nonmagical attacks made without adamantine weapons.",
+        "Condition immunities": "Charmed, exhaustion, frightened, paralyzed, petrified, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands one language of its creator but cannot speak.",
+        "Traits": "Constructed Nature. The clockwork needs no air, food, drink or sleep.\nMagic Resistance. The oaken bolter has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make two Lancing Bolt attacks or one Lancing Bolt attack and one Harpoon attack.\nLancing Bolt. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 100/400 ft., one target. A hit deals 15 (2d10 + 4) piercing damage.\nHarpoon. Ranged weapon attack, +7 to hit, range 50/200 ft., one target. A hit deals 9 (1d10 + 4) piercing damage and grapples the target (escape DC 12). Its speed is unchanged, but its own movement must take it closer to the oaken bolter. An escape attempt deals 5 (1d10) slashing damage to the creature whether or not it succeeds. The oaken bolter can hold only one target in this grapple at a time.\nExplosive Bolt (Recharge 5–6). Choose a point within 120 ft. Creatures within 20 ft. of it make a DC 15 Dexterity save, taking 17 (5d6) fire damage on a failure or half as much on a success.",
+        "Bonus actions": "Reel In. Pull a creature held by Harpoon 20 ft. closer.",
+        "Clockwork enhancements": "For an individual clockwork, choose or roll one enhancement and one potential malfunction, both on d10.\n1. Camouflaged. Gain Stealth proficiency if needed. While still, the clockwork passes for an inactive machine.\n2. Sensors. Raise darkvision to at least 120 ft. and add Perception proficiency if needed.\n3. Improved Armor. Increase AC by 2.\n4. Increased Speed. Increase speed by 10 ft.\n5. Reinforced Construction. Gain resistance to force, lightning and thunder damage.\n6. Self-Repairing. At the start of its turn, recover 5 HP if it has at least 1 HP. Lightning damage skips the next recovery.\n7. Sturdy Frame. Add its number of Hit Dice to its maximum HP.\n8. Suction. Gain a 30-ft. climbing speed.\n9. Vocal Resonator. It speaks rudimentary Common or Gnomish, as its maker decides.\n10. Water Propulsion. Gain a 30-ft. swimming speed.",
+        "Clockwork malfunctions": "1. Faulty Sensors. Roll a d6 at turn start. On a 1, the clockwork is blinded until turn end.\n2. Flawed Targeting. Roll a d6 at turn start. On a 1, its attack rolls have disadvantage until turn end.\n3. Ground Fault. Gain vulnerability to lightning damage.\n4. Imprinting Loop. Roll a d6 at turn start. On a 1, it mistakes a visible creature within 30 ft. for its maker. It avoids harming that creature for 1 minute or until the creature attacks or damages it.\n5. Leaking Lubricant. Roll a d6 at turn start. On a 1, it gains one level of exhaustion despite immunity.\n6. Limited Steering. It moves in straight lines, turning up to 90 degrees before moving and once at the halfway point. It can rotate freely on a turn when it uses none of its speeds.\n7. Overactive Sense of Self-Preservation. At the start of a combat turn while at half HP or less, roll a d6. On a 1, the clockwork retreats if it can. If it cannot retreat, it keeps fighting.\n8. Overheats. Roll a d6 at turn start. On a 1, it is incapacitated until turn end.\n9. Rusty Gears. It has disadvantage on initiative rolls and its speed drops by 10 ft.\n10. Weak Armor. Remove its immunity to bludgeoning, piercing and slashing damage from nonmagical, non-adamantine attacks.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 126, with Clockwork customization on p. 124."
+      }
+    }
+  },
+  {
+    "name": "Oblex Spawn",
+    "statBlock": {
+      "name": "Oblex Spawn",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 217,
+      "classification": "Tiny ooze, lawful evil",
+      "ac": 13,
+      "hp": 18,
+      "hitDice": "4d4 + 8",
+      "speed": "20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An older oblex sheds a personality it has consumed to create one of these small oozes. The spawn hunts memories until it grows large enough to imitate its victims.",
+      "savingThrows": {
+        "Int": 4,
+        "Cha": 2
+      },
+      "sections": {
+        "Condition immunities": "Blinded, charmed, deafened, exhaustion, prone.",
+        "Senses": "Blindsight 60 ft. The spawn is blind beyond that distance.",
+        "Languages": "None.",
+        "Traits": "Amorphous. The oblex can pass through a 1-inch opening without squeezing.\nAversion to Fire. Taking fire damage gives the oblex disadvantage on attack rolls and ability checks through the end of its next turn.\nOoze Nature. The oblex needs no sleep.",
+        "Actions": "Pseudopod. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning plus 2 (1d4) psychic damage.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 217."
+      }
+    }
+  }
+]

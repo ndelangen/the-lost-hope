@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Pantheran",
+    "publication": "Gate Pass Gazette #28",
+    "edition": "Level Up: Advanced 5th Edition",
+    "kind": "species",
+    "traits": [
+      "Medium, except Small Wildkin. Walk and climb 30 ft. Add an expertise die to initiative. Darkvision 60 ft. Retract or extend the claws freely. Claw unarmed strikes deal 1d6 + Strength modifier slashing.",
+      "Snow-Spotted gift. Reduce falling damage by 10 while conscious and capable, stacking with other mitigation. Resist cold and acclimate to extreme altitude. A minute of observation forecasts 24 hours of ordinary weather in familiar terrain, or requires a terrain-tier Survival check outside familiar terrain. Estimate altitude within 100 ft.",
+      "Stripefolk gift. Swim 30 ft. Add an expertise die when mimicking a call or voice previously heard, increased to d6 against a creature unable to see you. Gain Stealth proficiency or a Stealth expertise die if already proficient. Count as Large for carrying and pushing, dragging, or lifting.",
+      "Wildkin gift. Small. Advantage on Hunt and Gather, with one extra Supply per successful day. Claws have finesse and can be used as a bonus action. Darkvision 120 ft. Add an expertise die to escape a grapple. Squeezing imposes no disadvantage on checks, attacks, or Dexterity saves.",
+      "At level 10 choose one paragon. Land on Your Feet grants advantage on Dexterity checks and saves plus feather fall proficiency-bonus times per long rest. Nine Lives changes a failed save into a success or a successful save or death save into a critical success once per long rest, without an action. Twitching Whiskers grants blindsight 30 ft., prevents surprise by invisible creatures, and removes unseen attackers' advantage within 10 ft."
+    ]
+  },
+  {
+    "name": "Pode",
+    "publication": "Gate Pass Gazette #9",
+    "edition": "Level Up: Advanced 5th Edition",
+    "kind": "species",
+    "traits": [
+      "Also called octopus-folk as a description. Walk and swim 30 ft. Upper body has humanoid arms and the lower body has eight to ten tentacles. The 5-ft. tentacles take an action to manipulate an object, load or unload a projectile weapon, open an unlocked door or container, or stow or draw an item from an unlocked container. They can lift, push, or drag pounds equal to Strength and preclude ordinary footwear. Squeeze through a size category smaller without penalties. Hold breath for 15 minutes.",
+      "Adult Pode gift. Small. Add an expertise die on saves to avoid grappling. The tentacle tips serve as proficient thieves' tools and add an expertise die when used as such. The Narrator can allow other dexterous tasks. At level 5 or a later level-up, optionally replace this entire gift with Mature Pode.",
+      "Mature Pode gift. Medium. As a bonus action, match surroundings for up to one minute and add an expertise die to Stealth while there. End the coloration freely. An action sprays ink in a 20-ft. cone, Constitution-modifier uses per long rest. Underwater it heavily obscures for a minute. In air it creates difficult terrain for Constitution-modifier rounds, with a Dexterity save against 8 + Constitution modifier + proficiency bonus to avoid falling prone when a creature enters or starts its turn there. Add an expertise die to the maneuver DC of Grab On and to saves against Disarm.",
+      "At level 10 a Medium Pode can become Large, or take that growth at a later level-up. They can one-hand Medium two-handed or heavy melee weapons, need custom nonmagical ranged gear and other equipment at four times normal cost where applicable, need 2 Supply daily for a haven long rest, and have double carrying capacity. Magic items resize normally.",
+      "Choose one level 10 paragon gift. Superior Tentacles grants magical 2d6 + Strength or Dexterity modifier bludgeoning natural weapons with +2 to hit. Kraken Strength requires Large size and grants a grapple expertise die and improvised weapon proficiency. A bonus-action tentacle grapple within 5 ft. sets the Pode's speed to 0. A creature at least one size smaller can be swung as a bonus-action improvised weapon, dealing 1, 1d6, or 1d8 plus Strength modifier for Tiny, Small or Medium, or Large respectively. The held creature takes the same damage. Humanoid arms can grapple independently."
+    ]
+  },
+  {
+    "name": "Shadowcast",
+    "publication": "Gate Pass Gazette #23",
+    "edition": "Level Up: Advanced 5th Edition",
+    "kind": "species",
+    "traits": [
+      "A Bleak Gate reflection. Choose the base traits of the counterpart's heritage for appearance, aging, movement, size, and other base traits. Choose a Shadowcast gift and paragon in place of the counterpart's gift and paragon. A reflection's personality may differ. A newly formed Shadowcast is monochrome and gradually assumes the counterpart's pigmentation on the Material Plane.",
+      "Shadow Walker gift. Darkvision 30 ft. or extend existing darkvision by 30 ft. In dim light or darkness, use a bonus action to teleport to a visible empty square up to 15 ft. away. Uses equal proficiency bonus per long rest.",
+      "Umbral Magic gift. Learn chill touch, ray of frost, or spare the dying. At level 3 select a first- or second-level spell in the cold, necrotic, or shadow schools and cast it without a slot or materials once per long rest. At level 5 this becomes twice per long rest. A first-level choice can be cast at second level if the spell allows. Use the highest mental ability modifier.",
+      "At level 10 choose one paragon. Grasping Shadow grants a melee weapon attack for 1d6 + highest mental modifier necrotic, with a Strength save against 8 + proficiency bonus + the same modifier to avoid or escape a grapple if the target is no more than one size larger. The shadow shares your carrying capacity and leaves your hands free. You cannot move a held creature if both you and your shadow have a target grappled.",
+      "Shadowy Aspect paragon. Learn blur and cast it without slots or components with the highest mental ability. After each long rest choose three ordinary casts, two fourth-level casts, or one sixth-level cast. This uses A5E blur and its heightened effects."
+    ]
+  },
+  {
+    "name": "Spiderfolk",
+    "publication": "Gate Pass Gazette #3",
+    "edition": "Level Up: Advanced 5th Edition",
+    "kind": "species",
+    "traits": [
+      "Also called spidren and weaverlings. Medium, walk 30 ft., darkvision 60 ft. Six arms include four secondary limbs. Used with the primary hands, the extra limbs add an expertise die on Strength- and Dexterity-based skill checks. Alternatively use them for one extra task during the same action, such as using tools, lifting an unattended object, or picking a pocket. Spare limbs can perform a spell's seen component. They cannot wield shields or supply extra attacks.",
+      "Spiderling gift. Climb 30 ft., ignore web-imposed movement restrictions, and use unarmored AC 12 + Dexterity modifier. A shield still applies if you are proficient.",
+      "Spinner-Touched gift. Add an expertise die to Intelligence, Wisdom, and Charisma saves against magic. Cast see invisibility once per long rest for rounds equal to proficiency bonus. The source says proficiency modifier.",
+      "At level 10 choose one paragon. Arachnoid Scion climbs difficult surfaces and ceilings and can put the extra limbs to work climbing so the primary hands are free. Child of Two Worlds grants two casts of blink per long rest."
+    ]
+  },
+  {
+    "name": "Zevite",
+    "publication": "Gate Pass Gazette #13",
+    "edition": "Level Up: Advanced 5th Edition",
+    "kind": "species",
+    "traits": [
+      "Medium; walk 30 ft. Resist psychic damage. Speak telepathically to a visible creature within 30 ft. that shares a language, or send one emotion at a time without a shared language.",
+      "Ideomorphic markings. Choose a profile tied to outlook. A bonus action lights the markings for a minute once per short or long rest, and a bonus action can end them early. Sight-based Perception against you has advantage while lit. Cynical crimson gives Insight expertise with Deception disadvantage. Hopeful gold gives Persuasion expertise with Insight disadvantage. Stoic lilac removes environmental disadvantage from Perception. Changing the outlook calls for a deep shift in perspective.",
+      "Foresight gift. Spend an action once per short or long rest to ask the Narrator whether one imminent choice in the next minute is good, bad, or neutral. The answer can be cryptic. A brief vision about that choice instead costs one strife and leaves the ordinary use available.",
+      "Stubborn Streak gift. Insight against you has disadvantage. You may save using Constitution against charm or compulsion. Gain expertise on saves against maneuvers or other forced movement.",
+      "Telepathic Empathy gift. As an action, bond with one willing visible target within telepathy range, gaining a level of strife. Either can end the bond freely. Communicate across any range on the same plane. While you can see a bonded target, react to their damage a proficiency-bonus number of times per long rest to split damage after their resistances and immunities, rounding up. Your own resistances and immunities cannot reduce your share.",
+      "At level 10 choose one paragon. Acute Telepathy reaches any visible creature, links up to seven willing visible creatures of Int 3 or higher across planes and languages, and once per short rest detects the number and directions of sapient minds within 30 ft. Psychic Inference adds an expertise die to three chosen social skills against targets within telepathy range and lets you roll initiative with Insight. Predictive Combat ignores half cover on attacks, light-obscurement disadvantage on checks, and disadvantage from long-range attacks."
+    ]
+  }
+]

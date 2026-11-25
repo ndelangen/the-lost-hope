@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Crawling Claw",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "printedPages": [
+      36,
+      37
+    ],
+    "page": "pp. 36–37, Crawling Claw Traits. See pp. 7–8 for undead healing and Tiny equipment.",
+    "sourceRevision": "v2 text mirror",
+    "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+    "sourceDistinctions": "The creature entry begins on p. 36. All player traits are on p. 37. The build uses fitted Tiny studded leather and attacks with the printed claw.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Giant",
+    "url": "",
+    "printedPages": [
+      37,
+      38
+    ],
+    "page": "pp. 37–38, Cyclops Traits.",
+    "sourceRevision": "v2 text mirror",
+    "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+    "sourceDistinctions": "The conversion puts the cyclops at Medium size. Powerful Build changes weight capacity. The build uses the species AC formula, 14 + Dexterity.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Darkmantle",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "printedPages": [
+      38,
+      39
+    ],
+    "page": "pp. 38–39, Darkmantle Traits. See p. 8 for somatic components.",
+    "sourceRevision": "v2 text mirror",
+    "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+    "sourceDistinctions": "The active traits give 30 ft. walking speed. The design commentary references 10 ft. in the baseline monster. The profile and the build use the traits. Crush is the printed anatomy-specific permission to grapple with its tentacles.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Fighter",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  },
+  {
+    "name": "Demilich",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "DMs Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "printedPages": [
+      41,
+      42
+    ],
+    "page": "pp. 41–42, Demilich Traits. See pp. 7–8 for undead healing and somatic components.",
+    "sourceRevision": "v2 text mirror",
+    "publicationUrl": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion for 2014 fifth edition. Checked against the v2 text.",
+    "sourceDistinctions": "The player traits list Small. The design notes describe Tiny. Aster’s six known spells use verbal or somatic components or material components covered by the skull focus. Fear comes from the separate daily Howl. The copper tally and silted bell are original NPC details.",
+    "supportingSources": [
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Sorcerer",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spellcasting",
+      "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    ]
+  }
+]

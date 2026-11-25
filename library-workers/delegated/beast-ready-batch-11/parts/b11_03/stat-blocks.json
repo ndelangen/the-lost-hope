@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Bear, Brown",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 11,
+    "hp": 44,
+    "speed": "40 ft., climb 30 ft.",
+    "cr": "1",
+    "xp": 200,
+    "otherStatistics": "Natural armor. Ability modifiers STR +4, DEX +0, CON +3, INT −4, WIS +1, CHA −2. Perception 13. Stealth 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A shaggy brown bear with a high shoulder hump, broad paws, and a lighter muzzle.",
+    "habitats": [
+      "Arctic",
+      "Forest"
+    ],
+    "sections": {
+      "Printed source": "Oso, Pardo, Cubil de Monstruos (Nosolorol, 2025), p. 349. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Smell. The bear uses Perception 18 when relying on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack. The Spanish text then requires both Claws attacks to hit one creature to grapple it (escape DC 14). The bear can grapple only one creature at a time.\nBite. Melee weapon attack, +6 to hit, 5 ft. reach, one creature. Hit for 8 (1d8 + 4) piercing damage.\nClaws. Melee weapon attack, +6 to hit, 5 ft. reach, one target. Hit for 9 (2d4 + 4) slashing damage.",
+      "Source note": "The Spanish grapple trigger conflicts with the two attacks listed for Multiattack. For a playable reading, the English Black Flag Reference Document v1.0 applies the grapple when its Bite and Claws both hit the same creature. The English Monster Vault text was unavailable for this check."
+    }
+  },
+  {
+    "name": "Bear, Polar",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 60,
+    "speed": "40 ft., swim 30 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Ability modifiers STR +5, DEX +0, CON +3, INT −4, WIS +1, CHA −2. Perception 13. Stealth 10. No listed special senses or languages. Resistant to cold damage.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A cream-white bear with broad paws, a long neck, and a dark nose.",
+    "habitats": [
+      "Arctic"
+    ],
+    "sections": {
+      "Printed source": "Oso, polar, Cubil de Monstruos (Nosolorol, 2025), p. 349. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Heightened Smell. The bear uses Perception 18 when relying on smell.",
+      "Actions": "Multiattack. Make one Bite and one Claws attack. The Spanish text then requires both Claws attacks to hit one creature to grapple it (escape DC 15). The bear can grapple only one creature at a time.\nBite. Melee weapon attack, +7 to hit, 5 ft. reach, one creature. Hit for 9 (1d8 + 5) piercing damage.\nClaws. Melee weapon attack, +7 to hit, 5 ft. reach, one target. Hit for 12 (2d6 + 5) slashing damage.",
+      "Source note": "The Spanish grapple trigger conflicts with the two attacks listed for Multiattack. For a playable reading, the English Black Flag Reference Document v1.0 applies the grapple when its Bite and Claws both hit the same creature. The English Monster Vault text was unavailable for this check."
+    }
+  },
+  {
+    "name": "Boar",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Medium Beast",
+    "ac": 11,
+    "hp": 15,
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "otherStatistics": "Natural armor. Ability modifiers STR +2, DEX +0, CON +1, INT −4, WIS −1, CHA −3. Perception 9. Stealth 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A low, bristly brown boar with short curved tusks and a ridge of coarse hair.",
+    "habitats": [
+      "Farmland",
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Jabalí, Cubil de Monstruos (Nosolorol, 2025), p. 345. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Charge. If the boar moves at least 20 ft. straight toward a target and hits it with Tusk on the same turn, add 3 (1d6) slashing damage. A creature hit this way must make a DC 12 Strength save or fall prone.\nRelentless (recharges after a short or long rest). When damage of 4 or less would drop the boar to 0 HP, it drops to 1 HP instead.",
+      "Actions": "Tusk. Melee weapon attack, +4 to hit, 5 ft. reach, one target. Hit for 5 (1d6 + 2) slashing damage."
+    }
+  },
+  {
+    "name": "Boar, Giant",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 12,
+    "hp": 63,
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "otherStatistics": "Natural armor. Ability modifiers STR +3, DEX +0, CON +3, INT −4, WIS −2, CHA −3. Perception 8. Stealth 10. No listed special senses or languages.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A thickset boar with a spiked mane, upward-curving tusks, and heavy forequarters.",
+    "habitats": [
+      "Forest",
+      "Grassland",
+      "Hills"
+    ],
+    "sections": {
+      "Printed source": "Jabalí, Gigante, Cubil de Monstruos (Nosolorol, 2025), p. 345. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Charge. If the boar moves at least 20 ft. straight toward a target and hits it with Tusk on the same turn, add 7 (2d6) slashing damage. A creature hit this way must make a DC 13 Strength save or fall prone.\nRelentless (recharges after a short or long rest). When damage of 10 or less would drop the boar to 0 HP, it drops to 1 HP instead.",
+      "Actions": "Multiattack. Make two Tusk attacks. If both hit the same creature, it must make a DC 13 Strength save or fall prone.\nTusk. Melee weapon attack, +5 to hit, 5 ft. reach, one target. Hit for 10 (2d6 + 3) slashing damage.",
+      "Bonus actions": "Challenging Snort. The boar snorts and stamps at one creature it can see within 30 ft. The creature must succeed on a DC 13 Wisdom save or become frightened until the end of its next turn and have disadvantage on its next save against being knocked prone by the boar."
+    }
+  },
+  {
+    "name": "Camel",
+    "publication": "Monster Vault",
+    "edition": "Black Flag Roleplaying",
+    "classification": "Large Beast",
+    "ac": 10,
+    "hp": 10,
+    "speed": "50 ft.",
+    "cr": "1/8",
+    "xp": 25,
+    "otherStatistics": "Ability modifiers STR +2, DEX +0, CON +2, INT −4, WIS −1, CHA −3. Perception 9. Stealth 10. No listed special senses or languages. Resistant through Camel Resilience.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sandy, single-humped camel with a long neck, slender legs, and a shaggy hump.",
+    "habitats": [
+      "Desert"
+    ],
+    "sections": {
+      "Printed source": "Camello, Cubil de Monstruos (Nosolorol, 2025), p. 338. Licensed Spanish edition of Kobold Press’s Monster Vault (2024). https://www.nosolorol.com/talesofthevaliant",
+      "Traits": "Camel Resilience. The camel has resistance to exhaustion and needs half the water of a typical Beast of its size. Resistance to a condition grants advantage on checks and saves made to avoid or end it.",
+      "Actions": "Bite. Melee weapon attack, +4 to hit, 5 ft. reach, one creature. Hit for 4 (1d4 + 2) bludgeoning damage.\nBile Spit. Ranged weapon attack, +2 to hit, range 20/60 ft., one creature. Hit for 2 (1d4) acid damage. The target must make a DC 12 Constitution save or stink for 1 hour, or until a creature spends 1 minute cleaning away the spit. A creature that stinks this way has disadvantage on Charisma checks."
+    }
+  }
+]

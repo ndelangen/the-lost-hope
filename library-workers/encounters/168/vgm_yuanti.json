@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Yuan-ti Broodguard",
+    "statBlock": {
+      "name": "Yuan-ti Broodguard",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 203,
+      "classification": "Medium humanoid (yuan-ti), neutral evil",
+      "ac": 14,
+      "hp": 45,
+      "hitDice": "7d8 + 14",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 4
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "description": "Yuan-ti brew a potion that turns captive humanoids into scaly guards for their eggs and settlements.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 4,
+        "Dex": 4,
+        "Wis": 2
+      },
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Mental Resistance. The broodguard has advantage on saves against being charmed and cannot be paralyzed by magic.\nReckless. At the start of its turn, the broodguard can give itself advantage on all melee weapon attacks that turn. If it does, attacks against it have advantage until the start of its next turn.",
+        "Making a Broodguard": "The magical potion immediately incapacitates a captive humanoid and transforms it into a broodguard in 1d6 + 6 days. A creature forced to drink can attempt a DC 15 Constitution save. On a success, it takes 14 (4d6) poison damage and suffers no other effect. Lesser Restoration or Remove Curse can stop an ongoing transformation. Once it finishes, only Wish can reverse it.",
+        "Actions": "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 5 (1d6 + 2) slashing damage.",
+        "Optional yuan-ti traits (p. 98)": "Chameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 203."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 4)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 4)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 96,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "One or more snakelike tails trail behind this human-shaped malison. Type 4 malisons rank low in their caste and have venom only in snake form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the yuan-ti becomes a Medium snake or returns to its true form. Its statistics stay the same, its gear keeps its shape, and death leaves it in its current form.\nMagic Resistance. The yuan-ti has advantage on saves against spells and other magical effects.\nMalison Type. Type 4 has a human form with one or more snakelike tails.",
+        "Innate Spellcasting": "In yuan-ti form, it can cast these spells without material components. Charisma sets the save DC at 13.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion.",
+        "Actions": "Multiattack (Yuan-ti Form Only). Make two melee attacks or two ranged attacks.\nBite (Snake Form Only). Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nScimitar (Yuan-ti Form Only). Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) slashing damage.\nLongbow (Yuan-ti Form Only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.",
+        "Optional yuan-ti traits (p. 98)": "Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 96. The sidebar replaces the Malison Type trait and actions of the 2014 Monster Manual yuan-ti malison."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Malison (Type 5)",
+    "statBlock": {
+      "name": "Yuan-ti Malison (Type 5)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 96,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 12,
+      "hp": 66,
+      "hitDice": "12d8 + 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 11,
+      "description": "Scales cover this human-shaped malison. Type 5 malisons rank low in their caste and have venom only in snake form.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the yuan-ti becomes a Medium snake or returns to its true form. Its statistics stay the same, its gear keeps its shape, and death leaves it in its current form.\nMagic Resistance. The yuan-ti has advantage on saves against spells and other magical effects.\nMalison Type. Type 5 has a scaled human form.",
+        "Innate Spellcasting": "In yuan-ti form, it can cast these spells without material components. Charisma sets the save DC at 13.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion.",
+        "Actions": "Multiattack (Yuan-ti Form Only). Make two melee attacks or two ranged attacks.\nBite (Snake Form Only). Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nScimitar (Yuan-ti Form Only). Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) slashing damage.\nLongbow (Yuan-ti Form Only). Ranged weapon attack, +4 to hit, range 150/600 ft., one target. On a hit, deal 6 (1d8 + 2) piercing damage.",
+        "Optional yuan-ti traits (p. 98)": "Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 96. The sidebar replaces the Malison Type trait and actions of the 2014 Monster Manual yuan-ti malison."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Mind Whisperer",
+    "statBlock": {
+      "name": "Yuan-ti Mind Whisperer",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 204,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 14,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 12,
+      "description": "A snake-headed malison who uses magic granted by Sseth to recruit followers and manipulate rivals.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 4,
+        "Cha": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft. (penetrates magical darkness).",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the yuan-ti becomes a Medium snake or returns to its true form. Its statistics stay the same, its gear keeps its shape, and death leaves it in its current form.\nMagic Resistance. The yuan-ti has advantage on saves against spells and other magical effects.\nMind Fangs (2/day). On its first melee hit on its turn, the yuan-ti can deal an extra 16 (3d10) psychic damage.\nSseth's Blessing. The yuan-ti gains 9 temporary hit points when it reduces an enemy to 0 HP.",
+        "Innate Spellcasting": "In yuan-ti form, it can cast these spells without material components. Charisma sets the save DC at 13.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion.",
+        "Spellcasting": "In yuan-ti form, the yuan-ti casts as a 6th-level warlock using Charisma (save DC 13, +5 to hit with spell attacks). It has two 3rd-level slots for its 1st- through 3rd-level spells and recovers both slots after a short or long rest.\nCantrips (at will). Eldritch Blast (300 ft. range, +3 to each damage roll), Friends, Message, Minor Illusion, Poison Spray, Prestidigitation.\n1st through 3rd level. Charm Person, Crown of Madness, Detect Thoughts, Expeditious Retreat, Fly, Hypnotic Pattern, Illusory Script.",
+        "Actions": "Multiattack (Yuan-ti Form Only). Make one Bite attack and one Scimitar attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nScimitar (Yuan-ti Form Only). Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) slashing damage.",
+        "Optional yuan-ti traits (p. 98)": "Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 204. Uses Wisdom 14 as corrected in the publisher's errata."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Nightmare Speaker",
+    "statBlock": {
+      "name": "Yuan-ti Nightmare Speaker",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 205,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 14,
+      "hp": 71,
+      "hitDice": "13d8 + 13",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A priestess of Dendar with a humanoid upper body and a snake's tail. She seeks to make her deity's nightmarish visions come true.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft. (penetrates magical darkness).",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the yuan-ti becomes a Medium snake or returns to its true form. Its statistics stay the same, its gear keeps its shape, and death leaves it in its current form.\nMagic Resistance. The yuan-ti has advantage on saves against spells and other magical effects.\nDeath Fangs (2/day). On its first melee hit on its turn, the yuan-ti can deal an extra 16 (3d10) necrotic damage.",
+        "Innate Spellcasting": "In yuan-ti form, it can cast these spells without material components. Charisma sets the save DC at 13.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion.",
+        "Spellcasting": "In yuan-ti form, the yuan-ti casts as a 6th-level warlock using Charisma (save DC 13, +5 to hit with spell attacks). It has two 3rd-level slots for its 1st- through 3rd-level spells and recovers both slots after a short or long rest.\nCantrips (at will). Chill Touch, Eldritch Blast (300 ft. range, +3 to each damage roll), Mage Hand, Message, Poison Spray, Prestidigitation.\n1st through 3rd level. Arms of Hadar, Darkness, Fear, Hex, Hold Person, Hunger of Hadar, Witch Bolt.",
+        "Actions": "Multiattack (Yuan-ti Form Only). Make one Constrict attack and one Scimitar attack.\nConstrict. Melee weapon attack, +5 to hit, reach 10 ft., one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A Large or smaller creature hit by the attack is grappled (escape DC 14) and restrained until the grapple ends. While the grapple lasts, the yuan-ti cannot use Constrict on another target.\nScimitar (Yuan-ti Form Only). Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) slashing damage.\nInvoke Nightmare (Recharges after a Short or Long Rest). Choose one creature the yuan-ti can see within 60 ft. The yuan-ti creates an immobile illusion of that creature's worst fear. Only the target can see it. On a failed DC 13 Intelligence save, the target takes 11 (2d10) psychic damage and becomes frightened of the illusion, believing it to be real. The illusion lasts up to 1 minute with concentration as for a spell and cannot be harmed. The target can repeat the save at the end of each of its turns. A success ends the illusion and a failure deals another 11 (2d10) psychic damage.",
+        "Optional yuan-ti traits (p. 98)": "Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti, hits it with a melee attack from within 5 ft., or is hit by its Constrict.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 205."
+      }
+    }
+  },
+  {
+    "name": "Yuan-ti Pit Master",
+    "statBlock": {
+      "name": "Yuan-ti Pit Master",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 206,
+      "classification": "Medium monstrosity (shapechanger, yuan-ti), neutral evil",
+      "ac": 14,
+      "hp": 88,
+      "hitDice": "16d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "A priest of Merrshaulk with snakes for arms. Pit masters favor long schemes and seek to rouse their god from sleep.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 3,
+        "Cha": 5
+      },
+      "skills": {
+        "Deception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft. (penetrates magical darkness).",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Traits": "Shapechanger. As an action, the yuan-ti becomes a Medium snake or returns to its true form. Its statistics stay the same, its gear keeps its shape, and death leaves it in its current form.\nMagic Resistance. The yuan-ti has advantage on saves against spells and other magical effects.\nPoison's Disciple (2/day). On its first melee hit on its turn, the yuan-ti can deal an extra 16 (3d10) poison damage.",
+        "Innate Spellcasting": "In yuan-ti form, it can cast these spells without material components. Charisma sets the save DC at 13.\nAt will. Animal Friendship (snakes only).\n3/day. Suggestion.",
+        "Spellcasting": "In yuan-ti form, the yuan-ti casts as a 6th-level warlock using Charisma (save DC 13, +5 to hit with spell attacks). It has two 3rd-level slots for its 1st- through 3rd-level spells and recovers both slots after a short or long rest.\nCantrips (at will). Eldritch Blast (300 ft. range, +3 to each damage roll), Friends, Guidance, Mage Hand, Message, Poison Spray.\n1st through 3rd level. Command, Counterspell, Hellish Rebuke, Invisibility, Misty Step, Unseen Servant, Vampiric Touch.",
+        "Actions": "Multiattack (Yuan-ti Form Only). Make two Bite attacks with the snake arms.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage.\nMerrshaulk's Slumber (1/day). Choose up to five creatures the yuan-ti can see within 60 ft. Each must pass a DC 13 Constitution save or fall unconscious in magical sleep for 10 minutes. A sleeping target wakes if damaged or if someone spends an action to shake or slap it awake. Creatures immune to being charmed are unaffected.",
+        "Optional yuan-ti traits (p. 98)": "Acid Slime. As a bonus action, the yuan-ti coats itself in acid for 1 minute. A creature takes 5 (1d10) acid damage if it touches the yuan-ti or hits it with a melee attack from within 5 ft.\nChameleon Skin. The yuan-ti has advantage on Dexterity (Stealth) checks to hide.\nShed Skin (1/day). As a bonus action, it sheds its skin to slip out of a grapple, shackles, or other restraints. Eating its discarded skin for 1 minute restores half its maximum hit points.",
+        "Printed source": "Volo's Guide to Monsters, p. 206. Uses the listed attack bonus, save DCs, saving throws, and skill bonuses."
+      }
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Angulotl Yegg",
+    "slug": "angulotl-yegg",
+    "id": "monster-abaf04e874a3937ffae8b650:ea2b25ed338c0011dae93323",
+    "entry": "monster-abaf04e874a3937ffae8b650",
+    "version": "ea2b25ed338c0011dae93323",
+    "suffix": "encounters-35/angulotl-yegg.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-35/angulotl-yegg.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-35/event-drafts/angulotl-yegg-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 35 2026-11-23/event-drafts/angulotl-yegg-event-v1.png",
+    "overrides": [],
+    "sha256": "efd21e3d9e2d80a3221780ace3d20a9539527c4fccd5264d5d1387bc0100661b",
+    "bytes": 2680321
+  },
+  {
+    "name": "Clawfish Companion",
+    "slug": "clawfish-companion",
+    "id": "beast-80076c1d1057536bb8d1e1c0:45aae38c5efede28184a4ce6",
+    "entry": "beast-80076c1d1057536bb8d1e1c0",
+    "version": "45aae38c5efede28184a4ce6",
+    "suffix": "encounters-35/clawfish-companion.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-35/clawfish-companion.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-35/event-drafts/clawfish-companion-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 35 2026-11-23/event-drafts/clawfish-companion-event-v1.png",
+    "overrides": [],
+    "sha256": "94d0a76be853d34a94b712ebff561a53a8cc7066db4972030d0101f9d0efe339",
+    "bytes": 2637125
+  }
+]

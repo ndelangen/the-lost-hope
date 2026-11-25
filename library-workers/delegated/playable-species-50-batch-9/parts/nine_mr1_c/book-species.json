@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Pegasus",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium celestial. Strength increases by 2 and Wisdom by 1. Walk 40 ft. and fly 50 ft. Flight requires going without medium or heavy armor.",
+      "Hooves are unarmed strikes that deal 1d8 bludgeoning damage. A pegasus cannot wield weapons, wear a shield, or use items that require manipulation.",
+      "Understands and reads Common, Elvish, and Sylvan. A pegasus cannot speak or provide verbal spell components."
+    ]
+  },
+  {
+    "name": "Piercer",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium monstrosity. Constitution increases by 2. Walk and climb 5 ft. each. Blindsight reaches 30 ft. and darkvision reaches 60 ft.",
+      "Drop uses an action and a melee weapon attack against a creature directly below. On a hit, deal 1d6 piercing per 10 ft. fallen, up to 6d6. On a miss, take half the normal falling damage from that fall.",
+      "After one minute spent motionless and concentrating as for a spell, a motionless piercer passes for a stalactite.",
+      "Unarmored AC is 15 + Dexterity modifier. A piercer lacks hands and arms and cannot wield weapons, wear shields, or use objects that require manipulation. It reads and understands Common."
+    ]
+  },
+  {
+    "name": "Pseudodragon",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Pseudodragon also appears as Pseudo-dragon. Tiny dragon. Dexterity increases by 1. Walk 15 ft. and fly 40 ft. Flight requires going without medium or heavy armor.",
+      "Bite or sting deals 1d4 piercing as an unarmed strike. Dexterity may replace Strength for both attack and damage, and the strikes count as finesse weapons for qualifying effects. The player trait gives no poison rider.",
+      "Blindsight 10 ft. and darkvision 60 ft. It can convey simple ideas, emotions, and images telepathically to a creature within 100 ft. that understands a language.",
+      "Reads and understands Common and Draconic. It cannot speak, provide verbal components, wield weapons, use shields, or manipulate tools or foci. Use the supplement’s Tiny carrying and size rules."
+    ]
+  },
+  {
+    "name": "Purple Worm",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium monstrosity. Strength and Constitution each increase by 2. Walk 35 ft. and burrow 20 ft.",
+      "Choose an unarmed strike that deals 1d8 piercing or one that deals 1d4 piercing plus 1d4 poison. It has no eyes, is immune to the blinded condition, and has blindsight 30 ft.",
+      "Natural armor gives 15 + Dexterity modifier while unarmored. The serpentine body rules forbid armor, shields, weapons, and items requiring hands.",
+      "Can burrow through solid rock at half its burrow speed, leaving a 16-inch tunnel. Speaks, reads, and writes Common."
+    ]
+  },
+  {
+    "name": "Remorhaz",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild.",
+      "Medium monstrosity. Walk 30 ft. and burrow 10 ft. The player trait block grants no ability-score increase. Darkvision reaches 120 ft. Resists cold and fire damage.",
+      "The unarmed bite deals 1d4 piercing and 1d4 fire. After a successful melee attack against the remorhaz, it may retaliate as a reaction once per long rest. The attacker makes a Dexterity save against 8 + proficiency bonus + Constitution modifier, taking 2d10 fire on a failure or half on a success.",
+      "Unarmored AC is 13 + Dexterity modifier. It cannot wield a weapon, wear a shield, or use items that require hands. Speaks, reads, and writes Common."
+    ]
+  }
+]

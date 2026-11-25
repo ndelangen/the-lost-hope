@@ -1,0 +1,23 @@
+{
+  "Banshee": {
+    "path": "output/dm-library/encounter-batches/144/art/banshee.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "6bae6ffbaadea63d8992885ebfb1bcd18c520b8a5cc4a42ccf263eb99878268d",
+    "bytes": 2504424
+  },
+  "Vampire": {
+    "path": "output/dm-library/encounter-batches/144/art/vampire.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "edfb9f5a11a0a1c031ee43cc8ad60c0ec2b9a487f86c601c1fa0a469d1f87463",
+    "bytes": 2378555
+  },
+  "Nothic": {
+    "path": "output/dm-library/encounter-batches/144/art/nothic.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "70625905792aed1b6b5e9fe6f5b815db651ca46a6c2512ded1482f71de05e35f",
+    "bytes": 2734246
+  }
+}

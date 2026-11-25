@@ -1,0 +1,402 @@
+[
+  {
+    "entry": "beast-1b99395b2df86d02b01fa00c",
+    "version": "d71ecbb0f0a5b47bdc0e745a",
+    "name": "Jackal",
+    "file": "images/beast-ready-batch-02/jackal.png",
+    "sha256": "66c9481708f015a826f9e056b92959e20bce51d0db7e0665a29f658dbd4ad37d",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-fc59487712bbe89b488847b7",
+    "version": "b27357d154a7bd01d1080073",
+    "name": "Lion",
+    "file": "images/beast-ready-batch-02/lion.png",
+    "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-b95cbcfe0cd25ed09eef3612",
+    "version": "4525b256288341aa5ddb82a9",
+    "name": "Lizard",
+    "file": "images/beast-ready-batch-02/lizard.png",
+    "sha256": "2c5b9354701098d6759da60bca173f75d4d1445a7e595964e4580d34aa01f782",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-bf7d6f48ebaafb889cf87f4a",
+    "version": "b3bc0006aeecf3957004285d",
+    "name": "Lizard, Giant",
+    "file": "images/beast-ready-batch-04/giant-lizard.png",
+    "sha256": "2498ee3dfe40193cbd9d2e4ca272c11cadf2b2b4c54e07ab3aae42b575ac0b09",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-33b98ff5d4f01e2df65dcecf",
+    "version": "f42429aabd4f39a35cad7660",
+    "name": "Mammoth",
+    "file": "images/beast-ready-batch-02/mammoth.png",
+    "sha256": "d198e56e3e1f34d9d8138d8092323ba96166b4a14ceb486a67c1ad6703181f29",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6ee719b6ec8b9ad2d895e4aa",
+    "version": "c5af823326210b60914bd9bf",
+    "name": "Mastiff",
+    "file": "images/beast-ready-batch-02/mastiff.png",
+    "sha256": "9a6c2a70aa39b8d341f35ebb2d881a3904c22c4944e7400f959eca50e1a204eb",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-d7fadf9f3c25ac26cec06404",
+    "version": "b7a1f4092d3ff28638a0153e",
+    "name": "Mule",
+    "file": "images/beast-ready-batch-02/mule.png",
+    "sha256": "91664dfb304860eea5bec0a747378764006c4fb65006b48e91f95a3f2b6f749b",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-5633c9b8af6d089859afcbec",
+    "version": "03d798b9145f0f8f13192438",
+    "name": "Octopus",
+    "file": "images/beast-ready-batch-02/octopus.png",
+    "sha256": "ed66d3c271ec9083c0c12cdd3279faf0e952361b0e774730c3fc85dc86449e93",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c08376bacd11a833a9267c0f",
+    "version": "92c2d7dbd30934d772216a7b",
+    "name": "Octopus, Giant",
+    "file": "images/beast-ready-batch-04/giant-octopus.png",
+    "sha256": "13421ff75d696948927b4b3424f2c0652c1d5041b660fb55b0514ae416ca67aa",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e0c924608fdcda8536bd9cc8",
+    "version": "42f0452d047ae1f92f20f885",
+    "name": "Orca",
+    "file": "images/beast-ready-batch-05/killer-whale.png",
+    "sha256": "3a68624f9ba1ca68b9d20c7cb6173fee959e3d9cdb293daf996eaa5fb9925cd3",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-10f7127b980b0b06ef157749",
+    "version": "25a1d7dd74e264c3b2507dda",
+    "name": "Owl",
+    "file": "images/beast-ready-batch-02/owl.png",
+    "sha256": "5c3783ed45aacc6ae1c16e0c483f7fac413c03249df01bdea10f732b22d36d37",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-5a50d57a77cc4e4902f13513",
+    "version": "8ff06cc0866c72f60abcf582",
+    "name": "Owl, Giant",
+    "file": "images/beast-ready-batch-05/giant-owl.png",
+    "sha256": "ad9e304223c25c1ab07c12fe55ea9f0e4fc3e3f7337dd73eb24fe1b0751b4f67",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-346793476af7c0a55cfa62ab",
+    "version": "d02dfabde92a186360afbb53",
+    "name": "Panther",
+    "file": "images/beast-ready-batch-02/panther.png",
+    "sha256": "1a2466b8f2d3dad4acb20892748afed4a834ac9b835af737f365a3ce3ea68b0c",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-0363f1a98b0c507a23797726",
+    "version": "e969e9497b3518ccf8982c9d",
+    "name": "Pony",
+    "file": "images/beast-ready-batch-02/pony.png",
+    "sha256": "38d3cd71d5950f88ec7488ade5ea1568d33a849fc7fc3be2bc41aea96291e444",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-114b452a65da2b33c3b235c0",
+    "version": "11c99a3f666358e77c423abd",
+    "name": "Quipper",
+    "file": "images/beast-ready-batch-02/quipper.png",
+    "sha256": "b10ee08895edf0ca1fa8a26c25a82fc0cad37aeffb44ca84127dcceea84bbcd4",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-03cf8a6616db46989f5528dc",
+    "version": "f44f76ff19c5b58bc512f258",
+    "name": "Quipper, Swarm of Quippers",
+    "file": "images/monsters/swarm-of-quippers/parchment-portrait.webp",
+    "sha256": "f132cee85b7a4e3daa3a7546dd1acb855312b06d6a6dfb029a76a16e3adf850d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9950cec246ece55e46c9929e",
+    "version": "c91dbae10343088a3335a3e8",
+    "name": "Rat",
+    "file": "images/beast-ready-batch-02/rat.png",
+    "sha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-2317b9045c6e78ef003e27a2",
+    "version": "00f406b8b5717b9d185fab70",
+    "name": "Rat, Giant",
+    "file": "images/night-of-the-walking-dead-beasts/giant-rat.png",
+    "sha256": "73ea67873e363e85f11687d783e26ee1623cee5e3b183822a2828feff3cabb37",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e3d406b1afda39b80412965c",
+    "version": "66af04a08dda8ac61121516a",
+    "name": "Rat, Swarm of Rats",
+    "file": "images/monsters/swarm-of-rats/parchment-portrait.webp",
+    "sha256": "5b6ae220f17f9412aac3df79a093ce52d564070282afe080f924a35d88b8a6b5",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-092cda390b47416151199357",
+    "version": "5d73946cc5c16925c55d9a15",
+    "name": "Raven",
+    "file": "images/beast-ready-batch-02/raven.png",
+    "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-256b2b8f154071f94b1a637f",
+    "version": "714d05b85009d838bfbf23df",
+    "name": "Raven, Swarm of Ravens",
+    "file": "images/monsters/swarm-of-ravens/parchment-portrait.webp",
+    "sha256": "7907e3b0b64b1147e2d20e36276188dd7baa00a9289e3782d5064c0eddd20e9b",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-7d212a337f4f05555052bb6d",
+    "version": "ebfedf039e49151885f2e19f",
+    "name": "Rhinoceros",
+    "file": "images/beast-ready-batch-02/rhinoceros.png",
+    "sha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-8e5f948e5c8158fe617e1f96",
+    "version": "463f17bcc15e9fd16ba94847",
+    "name": "Seahorse",
+    "file": "images/beast-ready-batch-02/seahorse.png",
+    "sha256": "52d51a66b31b0494b4cb70ac5c80b2730a9380f04673a18752ce54c7924c3b33",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-37303a29e8274d8789a5f0b1",
+    "version": "5d1f26eaefa22bb47e08b9b4",
+    "name": "Seahorse, Giant",
+    "file": "images/beast-ready-batch-05/giant-sea-horse.png",
+    "sha256": "4fb04613a36d51326735735ddec2758bea9bc887950df1eb76899b45b6bf3b89",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-f0f668bf610e5cf9f11d2aa5",
+    "version": "338727a8c9f4cd23784fd8e1",
+    "name": "Seal",
+    "file": "images/beast-ready-batch-12/seal.png",
+    "sha256": "011795b07c390048abd0ced9284abf297b77d250db27639ecbade13a4cde3f1d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-72f1f2994f360b572d2fd21e",
+    "version": "81dc6bc111212aa183363cd5",
+    "name": "Shark, Giant",
+    "file": "images/adnd2e-monstrous-manual-sharks/giant-shark.png",
+    "sha256": "233e1df81e455d8c10ebd956abb8c6dfa4f02682058bf5441b00ebe80b7a61e4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-0c128a0fd996b7af579d89a8",
+    "version": "dfb312b7edc4d255abf7a3f0",
+    "name": "Shark, Hunter",
+    "file": "images/beast-ready-batch-05/hunter-shark.png",
+    "sha256": "c3c695c747916a171912f13591b59ccd65ce1ee08214be4d0e5325e9915e98a4",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a718120fa0041ffed9a8146f",
+    "version": "ae85610b8bf3bb4da8c055cb",
+    "name": "Shark, Reef",
+    "file": "images/beast-ready-batch-05/reef-shark.png",
+    "sha256": "6f2fab1af6cf9e06fa2af63260b1c24c042594eec93c1427ea3f181b5b74b812",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-64b29c35043d6a95fdfc9568",
+    "version": "3e71f1e5bb2ee08df88a3086",
+    "name": "Snake, Constrictor",
+    "file": "images/beast-ready-batch-04/constrictor-snake.png",
+    "sha256": "53da6c1ba7909b5a9cfab4682e1dc9cb108ca649065f5f91845bf4452c5eca40",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-5e8b90fb98a1f16a519b3c98",
+    "version": "99cbca2da154bf9b2bf8df96",
+    "name": "Snake, Flying",
+    "file": "images/beast-ready-batch-04/flying-snake.png",
+    "sha256": "c18f8bdfa42fff72a1a91f6d5f796d7c9b58d706fa1efea8afe3466c92736160",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ec48cb4875d34c0b3e7e86d1",
+    "version": "4bcf0a992de601422ac2b5ed",
+    "name": "Snake, Giant Constrictor",
+    "file": "images/beast-ready-batch-04/giant-constrictor-snake.png",
+    "sha256": "0637e43b2a2e849d993203db0f5a9d17657d0b76de508b37dbfd4071fc5585c9",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-edf54420252e4ab22d70b117",
+    "version": "54fb8c58b60233ed979e6f19",
+    "name": "Snake, Giant Poisonous",
+    "file": "images/dungeonland-ex1-beasts/giant-poisonous-snake.png",
+    "sha256": "a2fdc852584974c6df9d84b54c25b9596bd92b157b1019c98015d5775a1af13e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-dafc458fc8c80d0efc2b63fc",
+    "version": "87cf431601ff28e19ded9493",
+    "name": "Snake, Poisonous",
+    "file": "images/beast-ready-batch-05/poisonous-snake.png",
+    "sha256": "0618654cb0d968dc849a9fa9e98e607562be990937f801feb4059362135124e7",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-5723973e6d9f3b40c444590c",
+    "version": "f2913205d7c5110cd9c7c63a",
+    "name": "Snake, Swarm of Poisonous Snakes",
+    "file": "images/monsters/swarm-of-poisonous-snakes/parchment-portrait.webp",
+    "sha256": "18df6dd4f89faf20f147ea6c0293bed5ab449232b36e689ddf3a99735637b7fe",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9bfa0b50a90e669907e78780",
+    "version": "60dcf72315d06cafc2221da1",
+    "name": "Spider",
+    "file": "images/beast-ready-batch-02/spider.png",
+    "sha256": "036b54df3da6210578f4165a36f19e9cd0d054c350745076eb5708b2f86eb341",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-ad81505dc737c9ae3950e9d3",
+    "version": "3f81f91ebe9ee6efbec14719",
+    "name": "Spider, Giant",
+    "file": "images/beast-ready-batch-05/giant-spider.png",
+    "sha256": "e09482c1c431b025fb5a4a1301606d6704bd611152d9de378c82d67b6678d570",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6c9c36fa56775dc76d09df79",
+    "version": "8cf277f7e4a790dd35f9fd05",
+    "name": "Spider, Giant Wolf",
+    "file": "images/beast-ready-batch-05/giant-wolf-spider.png",
+    "sha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-9b70ab1a1a553055c0651a2d",
+    "version": "56dcb9b865cb614192e5ee57",
+    "name": "Stirge",
+    "file": "images/beast-ready-batch-01/stirge.png",
+    "sha256": "44d2222095b8312eee44580c4dfd1ef25ade8416fc3ba660e1ef8a50c960c4d6",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-f15c16b99f82d8201767d3a8",
+    "version": "b39c4fed1163b1183031886b",
+    "name": "Tiger",
+    "file": "images/beast-ready-batch-02/tiger.png",
+    "sha256": "18c27e5dc246321344267e149b854194345c611973ff923201f76938bdc949d5",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-cf809a48af7b19c7daa14a1b",
+    "version": "f70565642eb814c8f8a8f78c",
+    "name": "Tiger, Saber-Toothed",
+    "file": "images/beasts/saber-toothed-tiger/parchment-portrait.webp",
+    "sha256": "b493c15e6f2dbf1de2b14f86655593a8d41fdf84507bcfbe6cb72a3c96014434",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e98841308f569acde044b24d",
+    "version": "a3778d3a1c2c472b527f76b7",
+    "name": "Vulture",
+    "file": "images/beast-ready-batch-02/vulture.png",
+    "sha256": "91e2cc580129d056d862570c6b97055617743aa5a69576757219a4531bc2a1e7",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-347c1860920a1117ebb8d931",
+    "version": "f21461e771759e1936653398",
+    "name": "Vulture, Giant",
+    "file": "images/beast-ready-batch-05/giant-vulture.png",
+    "sha256": "ba12ab680b5c88624cc6b650e904e1a0521238e2b5c0a7bb6647b123386dd968",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-1349d5e18426092e5708ce21",
+    "version": "f7540401414ae18b3499b644",
+    "name": "Weasel",
+    "file": "images/beast-ready-batch-02/weasel.png",
+    "sha256": "60b6e72cf0d592bacfc78131055c534a8784c3feae98885551f44433590c5a7a",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-6cb756f2f238c79d45e927de",
+    "version": "9a6f325de338a84b408e2c04",
+    "name": "Weasel, Giant",
+    "file": "images/beast-ready-batch-05/giant-weasel.png",
+    "sha256": "67bb74e2d5d57fdba15f21c600f399ba946888b1355b8f11bbd29e2a4a808999",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-f76b61b962db075bb76ad6f3",
+    "version": "b52b0b3537a2821b20210d87",
+    "name": "Wolf",
+    "file": "images/beast-ready-batch-02/wolf.png",
+    "sha256": "aabb9d05cfea3f0070408b27bca9705475414773b058e88008ef333d2da9b135",
+    "credit": "Original portrait generated with built-in OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c32125e527cc25dcdb8837a1",
+    "version": "c898e435a315722a522edbe2",
+    "name": "Wolf, Dire",
+    "file": "images/beast-ready-batch-04/dire-wolf.png",
+    "sha256": "1158da2a59e3af0d967ea0daa3f16602fa8f678eefbb51e591e495f955732c5c",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-a2351c917006bec1f8c247fa",
+    "version": "a0b6737b8b421d01455a4476",
+    "name": "Brontosaurus",
+    "file": "images/beast-ready-batch-08/brontosaurus.png",
+    "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-20d3e186f50d38e830fb528a",
+    "version": "428a52834e75ec639d2e50b3",
+    "name": "Deinonychus",
+    "file": "images/beast-ready-batch-07/deinonychus.png",
+    "sha256": "906e39e0317fbb67825e5e946b4ec28002ef373aaee0c4223aa3a7258eaac35d",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-cf58e8eaf8460a18533ca5ef",
+    "version": "7d697b7c469d5b40e4fdb66a",
+    "name": "Dimetrodon",
+    "file": "images/beast-ready-batch-08/dimetrodon.png",
+    "sha256": "bf9f8e99b77e74bef6bf95689c42001b77eef5ae4a6901697aad1ccd128209ce",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-c45142564e203d7265f56c7c",
+    "version": "b6540d749e445b9d86cbdde3",
+    "name": "Velociraptor",
+    "file": "images/beast-ready-batch-01/velociraptor.png",
+    "sha256": "921867b38a33b9c5889c292874fa114233444a2684be9fd8e39e7475cb862747",
+    "credit": "OpenAI ImageGen"
+  }
+]

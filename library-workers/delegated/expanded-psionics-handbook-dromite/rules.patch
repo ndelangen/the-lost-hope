@@ -1,0 +1,216 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309863,6 +309863,78 @@
+       ]
+     },
+     {
++      "name": "Dromite",
++      "kind": "species",
++      "publication": "Expanded Psionics Handbook (2004) · Fire Caste",
++      "edition": "3.5 edition",
++      "traits": [
++        "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
++        "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
++        "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
++        "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
++        "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
++        "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
++        "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
++        "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
++        "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
++        "Fire Caste has fire resistance 5. Add +1 damage per die. At manifester level 1, the ray deals 1d6+1 fire damage."
++      ]
++    },
++    {
++      "name": "Dromite",
++      "kind": "species",
++      "publication": "Expanded Psionics Handbook (2004) · Glimmer Caste",
++      "edition": "3.5 edition",
++      "traits": [
++        "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
++        "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
++        "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
++        "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
++        "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
++        "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
++        "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
++        "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
++        "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
++        "Glimmer Caste has electricity resistance 5. Add +3 to the attack roll against a target wearing metal armor and +2 to the manifester-level check against power resistance. At manifester level 1, the ray deals 1d6 electricity damage."
++      ]
++    },
++    {
++      "name": "Dromite",
++      "kind": "species",
++      "publication": "Expanded Psionics Handbook (2004) · Ice Caste",
++      "edition": "3.5 edition",
++      "traits": [
++        "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
++        "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
++        "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
++        "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
++        "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
++        "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
++        "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
++        "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
++        "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
++        "Ice Caste has cold resistance 5. Add +1 damage per die. At manifester level 1, the ray deals 1d6+1 cold damage."
++      ]
++    },
++    {
++      "name": "Dromite",
++      "kind": "species",
++      "publication": "Expanded Psionics Handbook (2004) · Voice Caste",
++      "edition": "3.5 edition",
++      "traits": [
++        "A Small Monstrous Humanoid with the Psionic subtype. Charisma +2, Strength −2, Wisdom −2. Base land speed 20 ft. and darkvision 60 ft. Humanoid-only effects such as charm person do not apply.",
++        "Small size gives +1 to AC and attack rolls, +4 to Hide, −4 to grapple, smaller weapons, and three-quarters of a Medium creature’s carrying capacity.",
++        "Chitin grants +3 natural armor and energy resistance 5. Choose a caste at character creation. The resistance stacks with energy resistance from other effects.",
++        "Naturally Psionic grants 1 bonus power point at 1st level. Manifesting powers requires a separate source, such as a psionic class.",
++        "Racial Energy Ray is a psi-like ability usable once per day. It matches the caste’s energy resistance. Manifester level equals half the character’s Hit Dice, rounded down, minimum 1. It costs no power points and automatically augments to that manifester level.",
++        "Energy Ray takes a standard action and uses a ranged touch attack. Range is 25 ft. plus 5 ft. per two manifester levels. It allows no saving throw. Power resistance applies. Roll one d6 per manifester level before the caste’s damage adjustment.",
++        "Scent reaches 30 ft., 60 ft. upwind, or 15 ft. downwind. Strong odors double that distance and overpowering odors triple it. A move action identifies direction. Within 5 ft., scent pinpoints the source.",
++        "Blind-Fight is a bonus feat. Compound eyes give +2 racial bonus on Spot checks. Automatic language Common. Bonus languages Dwarven, Gnome, Goblin, Terran.",
++        "Favored class Wilder. Level adjustment +1. A first-level Dromite has ECL 2.",
++        "Voice Caste has sonic resistance 5. Subtract 1 damage per die. The ray ignores object hardness. At manifester level 1, the ray deals 1d6−1 sonic damage."
++      ]
++    },
++    {
+       "edition": "2014 fifth edition",
+       "publication": "Dragonlance: Shadow of the Dragon Queen",
+       "name": "Kender",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -79,6 +79,87 @@
+         "Light crossbow. Ranged +1, 80-ft. range increment. Hit 1d8 piercing, critical 19–20/×2. Reload as a move-equivalent action."
+       ],
+       "tactics": "Stays near a climbable route, points out safe handholds, and keeps people moving. Uses a loaded crossbow from cover only if the group is forced to defend itself."
++    },
++    {
++      "id": "dromite-ice-locksmith-35e",
++      "title": "Ice Caste Dromite locksmith, Expert 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1/2. ECL 2.",
++      "size": "Small",
++      "type": "Monstrous Humanoid (Psionic)",
++      "ac": 18,
++      "hp": 5,
++      "hitDice": "1d6+1",
++      "initiative": 2,
++      "speed": "20 ft.",
++      "abilityScores": {
++        "STR": 8,
++        "DEX": 14,
++        "CON": 12,
++        "INT": 12,
++        "WIS": 8,
++        "CHA": 12
++      },
++      "skills": [
++        "Craft (locksmithing) +5",
++        "Disable Device +8",
++        "Knowledge (architecture and engineering) +5",
++        "Listen +3",
++        "Open Lock +6",
++        "Search +5",
++        "Spot +5"
++      ],
++      "senses": "Darkvision 60 ft., scent",
++      "languages": "Common, Dwarven",
++      "traits": [
++        "AC 18 includes leather armor +2, natural armor +3, Dexterity +2, and size +1. Touch 13, flat-footed 16. BAB +0, grapple −5. Fortitude +1, Reflex +2, Will +1.",
++        "Cold resistance 5 and bonus Blind-Fight. Skill Focus (Disable Device) adds +3. Ordinary thieves’ tools. The Expert can disable ordinary devices and search for tampering.",
++        "Scent 30 ft. normally, 60 ft. upwind or 15 ft. downwind. Move action to find direction and pinpoint within 5 ft. Strong or overpowering scents extend detection.",
++        "Naturally Psionic grants 1 bonus power point. Racial Energy Ray has its own use and consumes none of that point."
++      ],
++      "actions": [
++        "Small dagger +0 melee, reach 5 ft., 1d3−1 piercing or slashing, minimum 1, critical 19–20/×2.",
++        "Small light crossbow +3 ranged, 80-ft. range increment, 1d6 piercing, critical 19–20/×2. Reload as a move action.",
++        "Cold Energy Ray once per day. Standard action, +3 ranged touch at up to 25 ft., 1d6+1 cold, no save, power resistance applies, manifester level 1."
++      ],
++      "tactics": "Inspect the jammed floodgate before turning the lock. Ask the party to hold the upstream walkway. If interrupted, move behind the ratchet housing and use the crossbow from cover."
++    },
++    {
++      "id": "dromite-fire-caravan-outrider-35e",
++      "title": "Fire Caste Dromite caravan outrider, Fighter 1",
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "difficulty": "Provisional CR 1. ECL 2.",
++      "size": "Small",
++      "type": "Monstrous Humanoid (Psionic)",
++      "ac": 19,
++      "hp": 6,
++      "hitDice": "1d10+1",
++      "initiative": 5,
++      "speed": "20 ft.",
++      "abilityScores": {
++        "STR": 12,
++        "DEX": 12,
++        "CON": 13,
++        "INT": 10,
++        "WIS": 8,
++        "CHA": 12
++      },
++      "skills": ["Climb +3", "Handle Animal +5", "Spot +1"],
++      "senses": "Darkvision 60 ft., scent",
++      "languages": "Common",
++      "traits": [
++        "AC 19 includes studded leather +3, light wooden shield +1, natural armor +3, Dexterity +1, and size +1. Touch 12, flat-footed 18. BAB +1, grapple −2. Fortitude +3, Reflex +1, Will −1.",
++        "Fire resistance 5. Racial Blind-Fight. Improved Initiative and Fighter bonus Weapon Focus (shortspear).",
++        "Scent 30 ft. normally, 60 ft. upwind or 15 ft. downwind. Move action to find direction and pinpoint within 5 ft. Strong or overpowering scents extend detection.",
++        "Naturally Psionic grants 1 bonus power point. Racial Energy Ray has its own use and consumes none of that point."
++      ],
++      "actions": [
++        "Small shortspear +4 melee, reach 5 ft., or +4 thrown, 20-ft. range increment. Hit 1d4+1 piercing, critical ×2.",
++        "Fire Energy Ray once per day. Standard action, +3 ranged touch at up to 25 ft., 1d6+1 fire, no save, power resistance applies, manifester level 1."
++      ],
++      "tactics": "Get the loaded beetles behind a stone bend and stand between the animals and the hazard. Keep the shortspear ready and save the ray for a target outside spear reach."
+     },
+     {
+       "id": "route-warden",
+@@ -503,6 +584,28 @@
+       "hook": "Ili asks the party to compare the night's watch fires with the account they were given."
+     },
+     {
++      "species": "Dromite",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Expanded Psionics Handbook (2004) · Ice Caste",
++      "name": "Sura Reedcord",
++      "build": "dromite-ice-locksmith-35e",
++      "role": "Ice Caste locksmith and floodgate witness.",
++      "motive": "Reopen the jammed floodgate before water backs up into an occupied alley.",
++      "hook": "Sura can identify which release pin was replaced if the party keeps the walkway clear."
++    },
++    {
++      "species": "Dromite",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Expanded Psionics Handbook (2004) · Fire Caste",
++      "name": "Jori Hearththread",
++      "build": "dromite-fire-caravan-outrider-35e",
++      "role": "Fire Caste beetle caravan outrider.",
++      "motive": "Bring three spooked pack beetles through a blocked tunnel with their loads intact.",
++      "hook": "Jori can get the caravan moving if the party finds a clear lane and keeps sudden noises down."
++    },
++    {
+       "species": "Lotusden Halfling",
+       "size": "Small",
+       "edition": "2014 fifth edition",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -2785,6 +2785,10 @@
+ Drider Spellcaster	monster	Monstrosity	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast		6
+ Drivvin Freth	monster	Humanoid	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/274927-drivvin-freth	12
+ Droki	monster	Humanoid	Out of the Abyss	2014 fifth edition	Wizards of the Coast		2
++Dromite	species	Monstrous Humanoid (Psionic)	Expanded Psionics Handbook (2004) · Fire Caste	3.5 edition	Wizards of the Coast	https://www.dndtools.one/expanded-psionics-handbook	
++Dromite	species	Monstrous Humanoid (Psionic)	Expanded Psionics Handbook (2004) · Glimmer Caste	3.5 edition	Wizards of the Coast	https://www.dndtools.one/expanded-psionics-handbook	
++Dromite	species	Monstrous Humanoid (Psionic)	Expanded Psionics Handbook (2004) · Ice Caste	3.5 edition	Wizards of the Coast	https://www.dndtools.one/expanded-psionics-handbook	
++Dromite	species	Monstrous Humanoid (Psionic)	Expanded Psionics Handbook (2004) · Voice Caste	3.5 edition	Wizards of the Coast	https://www.dndtools.one/expanded-psionics-handbook	
+ Drow	monster	Humanoid	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17133-drow	1/4
+ Drow	species	Humanoid	SRD 5.2.1	2024 fifth edition	Wizards of the Coast		
+ Drow	monster	Humanoid	DDEX3-03 - The Occupation of Szith Morcane	2014 fifth edition	Wizards of the Coast		1/4

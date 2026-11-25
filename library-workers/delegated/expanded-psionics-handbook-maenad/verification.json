@@ -1,0 +1,20 @@
+{
+  "baseline": "5a616ad8b5485799e17dadc0743d323a22999d13",
+  "temporaryCopy": true,
+  "playableSpecies": 1,
+  "edition": "3.5 edition",
+  "names": [
+    "Maenad"
+  ],
+  "selectableProfiles": 1,
+  "publication": "Expanded Psionics Handbook (2004)",
+  "racialRayAndOutburstVerified": true,
+  "sourceTraitsDisplayed": 1,
+  "searchableByTraitAndNpcRole": 1,
+  "originalRunnableNpcBuilds": 2,
+  "fullBuildsReturnedByEncounterAndNpcsCommands": true,
+  "npcBuildsScopedByPublication": true,
+  "existingPlayableSpeciesAndNpcConceptsPreserved": true,
+  "distinctPortraitFiles": 1,
+  "versionPortraitsVerified": 1
+}

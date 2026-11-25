@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Underfolk",
+    "kind": "species",
+    "publication": "Races of Destiny (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Humanoid with the Human subtype. Base land speed 30 ft. The printed entry gives no racial ability-score adjustment, natural armor, or level adjustment.",
+      "Darkvision reaches 60 ft. and sees in black and white. +2 racial bonus on Listen checks.",
+      "Gain 4 extra skill points at 1st level after the class calculation and 1 extra skill point each subsequent level.",
+      "Weapon Familiarity treats light and heavy picks as simple weapons.",
+      "Camouflage (Ex): change skin coloration at will to match terrain. Gain a +4 racial bonus to Hide, which increases to a total of +10 in rocky terrain. Darkvision does not negate the bonus. True seeing negates it. Normal Hide requirements still apply.",
+      "Light Sensitivity (Ex): bright sunlight or the radius of a daylight spell causes the dazzled condition. In 3.5, dazzled gives −1 to attack rolls, Search, and Spot.",
+      "Common is automatic. The printed bonus languages are Drow, Dwarven, Gnome, Goblin, and Orc. Favored class Any. For multiclass experience penalties, exclude the highest-level class."
+    ]
+  }
+]

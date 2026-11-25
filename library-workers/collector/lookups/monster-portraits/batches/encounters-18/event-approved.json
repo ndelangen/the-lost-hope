@@ -1,0 +1,144 @@
+[
+  {
+    "entry": "monster-bae347c1fcb3552963c09d18",
+    "slug": "brain-in-a-jar",
+    "name": "Brain in a Jar",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-18/event-drafts/brain-in-a-jar-event-v1.png",
+    "saved": " Backups/Encounter Batch 18 2026-11-23/event-drafts/brain-in-a-jar-event-v1.png",
+    "path": "encounters-18/brain-in-a-jar.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-18/brain-in-a-jar.png",
+    "overrides": [],
+    "sha256": "e6a7d651051e042bd9164a488e566f4815235ac5940d03d89a11839a71af5aab",
+    "bytes": 2198412
+  },
+  {
+    "entry": "monster-928e8e7977715c60a6522f7a",
+    "slug": "crag-cat",
+    "name": "Crag Cat",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-18/event-drafts/crag-cat-event-v1.png",
+    "saved": " Backups/Encounter Batch 18 2026-11-23/event-drafts/crag-cat-event-v1.png",
+    "path": "encounters-18/crag-cat.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-18/crag-cat.png",
+    "overrides": [],
+    "sha256": "6335fc9f21567490b909a87e4eaa76fb3ed6c7b619c41ab2c97c8b736340053b",
+    "bytes": 2155156
+  },
+  {
+    "entry": "monster-4df28a525ab6eaaa03117f1e",
+    "slug": "cult-fanatic-knights-of-the-black-sword",
+    "name": "Cult Fanatic (Knights of the Black Sword)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-18/event-drafts/cult-fanatic-knights-of-the-black-sword-event-v1.png",
+    "saved": " Backups/Encounter Batch 18 2026-11-23/event-drafts/cult-fanatic-knights-of-the-black-sword-event-v1.png",
+    "path": "encounters-18/cult-fanatic-knights-of-the-black-sword.png",
+    "registeredPath": "assets/images/content/dm-library/rime-of-the-frostmaiden/cult-fanatic-knights-of-the-black-sword.png",
+    "previous": {
+      "sha256": "ee13a48fd5e546f5f3c58355f74be4b6d4f80c78f005cba56335b9ee9d1b6b90",
+      "bytes": 2880651
+    },
+    "overrides": [
+      {
+        "entry": "monster-4df28a525ab6eaaa03117f1e",
+        "name": "Cult Fanatic (Knights of the Black Sword)",
+        "file": "images/monsters/cult-fanatic-knights-of-the-black-sword/parchment-portrait.webp",
+        "sha256": "27fba6259d2a509e6dbcd989cdaf7ce800c51b85253fe015a147590bb107975a",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/knight-of-the-black-sword/idrotf-1.webp",
+        "appearanceSource": "Icewind Dale: Rime of the Frostmaiden",
+        "subjectPrompt": "A winter cult fanatic of Levistus, an adult human woman with a severe look under swept coarse slate hair and a fur-edged charcoal cloak. Full figure in a ceremonial black wool and weathered leather winter outfit, muted pale gray stitching and a small dark sword-shaped gemstone pendant clearly visible at the neck. Robed left hand raised in a quiet ritual gesture with a very small cold-blue glimmer around a finger; dagger sheathed. Original appearance, not the same figure as the token.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "88b77dc536db561906fbcdc9838dc893dad44b4552349708f3a769d6cbcb6fc0",
+    "bytes": 2017339
+  },
+  {
+    "entry": "monster-8d749c086de2377f4a0e2b4a",
+    "slug": "cultist-knights-of-the-black-sword",
+    "name": "Cultist (Knights of the Black Sword)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-18/event-drafts/cultist-knights-of-the-black-sword-event-v1.png",
+    "saved": " Backups/Encounter Batch 18 2026-11-23/event-drafts/cultist-knights-of-the-black-sword-event-v1.png",
+    "path": "encounters-18/cultist-knights-of-the-black-sword.png",
+    "registeredPath": "assets/images/content/dm-library/rime-of-the-frostmaiden/cultist-knights-of-the-black-sword.png",
+    "previous": {
+      "sha256": "6ba0425a81ded6070431e66f3c2d28a5b4e177af5c80db033e0cccfe06b79c6b",
+      "bytes": 2784488
+    },
+    "overrides": [
+      {
+        "entry": "monster-8d749c086de2377f4a0e2b4a",
+        "name": "Cultist (Knights of the Black Sword)",
+        "file": "images/monsters/cultist-knights-of-the-black-sword/parchment-portrait.webp",
+        "sha256": "f64b438825d454ce131ee0e754c7c07a39a01ccce6f021d1f5f96fc6a74fe6e0",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/knight-of-the-black-sword/idrotf-1.webp",
+        "appearanceSource": "Icewind Dale: Rime of the Frostmaiden",
+        "subjectPrompt": "A rank-and-file winter cultist of Levistus, middle-aged male Ten-Towns native, windworn kind of plain rough face and tucked dark hair inside a low gray hood, worn practical umber and charcoal patched wool coat with fur at the shoulders, mitten tucked in belt, wool leggings and fur boots. A small sword-shaped black stone amulet on a cord fully visible at the chest. One hand holds a narrow sheathed blade at the belt, one grips the cloak collar against cold. Full figure, no heraldic armor.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "e8cc859f7a0b5d8de27970fdee09c8baa4d672d93403e4bb9aa260271e9335d5",
+    "bytes": 2086758
+  },
+  {
+    "entry": "monster-03ca6682f3783539aa728413",
+    "slug": "piercer-ice-variant",
+    "name": "Piercer (Ice variant)",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-18/event-drafts/piercer-ice-variant-event-v1.png",
+    "saved": " Backups/Encounter Batch 18 2026-11-23/event-drafts/piercer-ice-variant-event-v1.png",
+    "path": "encounters-18/piercer-ice-variant.png",
+    "registeredPath": "assets/images/content/dm-library/rime-of-the-frostmaiden/piercer-ice-variant.png",
+    "previous": {
+      "sha256": "5118323ad22bc891d60d1e449bc9d2ed6707eb89b6be5150f98b6a6181569248",
+      "bytes": 2638295
+    },
+    "overrides": [
+      {
+        "entry": "monster-03ca6682f3783539aa728413",
+        "name": "Piercer (Ice variant)",
+        "file": "images/monsters/piercer-ice-variant/parchment-portrait.webp",
+        "sha256": "3d8dd9271a1701de44d1409360f64a15b8615aae1df9f10e59c213e0a918a625",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/piercer/publisher-bcedbbde96043e44.webp",
+        "appearanceSource": "Icewind Dale: Rime of the Frostmaiden",
+        "subjectPrompt": "One icy fantasy piercer resembling a single long tapering pale-blue icicle, translucent long faceted shell with feathery frost seams. Show upside down, point down and thick base at the top, independently suspended in blank parchment. At the thick base, one tiny dark crustacean-like eye and a few small pale curled soft feelers in the shadow. Ice blue highlights and modest soft cast shadow. One whole creature only, no cave and no ceiling.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "af272cd345292962a3d41cc277d1f2890a9c14238287b5edfb37392ca7f3c31b",
+    "bytes": 1797343
+  },
+  {
+    "entry": "monster-33d38b8d7a195ea538ac349b",
+    "slug": "tribal-warrior-spore-servants",
+    "name": "Tribal Warrior Spore Servants",
+    "revision": "v1",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-18/event-drafts/tribal-warrior-spore-servants-event-v1.png",
+    "saved": " Backups/Encounter Batch 18 2026-11-23/event-drafts/tribal-warrior-spore-servants-event-v1.png",
+    "path": "encounters-18/tribal-warrior-spore-servants.png",
+    "registeredPath": "assets/images/content/dm-library/rime-of-the-frostmaiden/tribal-warrior-spore-servants.png",
+    "previous": {
+      "sha256": "cba74ca1d6bc656c361c73299dd120b6d7a756bb3a716c144639db619b6d2bee",
+      "bytes": 2905119
+    },
+    "overrides": [
+      {
+        "entry": "monster-33d38b8d7a195ea538ac349b",
+        "name": "Tribal Warrior Spore Servants",
+        "file": "images/monsters/tribal-warrior-spore-servants/parchment-portrait.webp",
+        "sha256": "7535719b76cd4a527f39caf4722c3a942f745096a16dcb0eef2cff1c5efcaae1",
+        "credit": "OpenAI ImageGen",
+        "reference": "images/monsters/tribal-warrior-spore-servant/idrotf-1.webp",
+        "appearanceSource": "Icewind Dale: Rime of the Frostmaiden",
+        "subjectPrompt": "One shambling former Reghed nomad reanimated by fantasy myconid spores. A human-shaped adult figure in a weathered furry winter coat, leather trousers and boots, with broad subdued shelf mushrooms on one shoulder and a few pale cream and moss-gray capped mushrooms along one arm and brow. Face partly concealed by hanging hat and fungal growth. Carries one simple long wood and bone-tipped spear with the whole tip visible. Complete body in an unsteady stance. Non-graphic, no wounds, other creatures, scenery or floating grains.",
+        "style": "The Lost Hope square gouache and sepia parchment"
+      }
+    ],
+    "sha256": "a268e95ab7e52e618f014f4b3169c76129ec18790264e2a3af9a469409dc0fae",
+    "bytes": 2254376
+  }
+]

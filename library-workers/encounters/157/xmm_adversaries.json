@@ -1,0 +1,390 @@
+[
+  {
+    "name": "Commoner",
+    "statBlock": {
+      "name": "Commoner",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 77,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 10,
+      "hp": 4,
+      "hitDice": "1d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "description": "A person trained in an everyday trade, such as farming, masonry, or smithing.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Languages": "Common.",
+        "Gear": "Club.",
+        "Traits": "Training. The DM chooses one skill. The commoner is proficient in that skill and has Advantage whenever it makes an ability check with it.",
+        "Actions": "Club. Melee attack, +2 to hit, reach 5 ft. A hit deals 2 (1d4) bludgeoning damage.",
+        "Habitats": "Any.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 77."
+      }
+    }
+  },
+  {
+    "name": "Guard",
+    "statBlock": {
+      "name": "Guard",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 162,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 16,
+      "hp": 11,
+      "hitDice": "2d8 + 2",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "A watch member equipped with a shield and spear.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Languages": "Common.",
+        "Gear": "Chain Shirt, Shield, Spear.",
+        "Actions": "Spear. Melee or ranged attack, +3 to hit, reach 5 ft. or range 20/60 ft. A hit deals 4 (1d6 + 1) piercing damage.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 162."
+      }
+    }
+  },
+  {
+    "name": "Knight",
+    "statBlock": {
+      "name": "Knight",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 184,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 18,
+      "hp": 52,
+      "hitDice": "8d8 + 16",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 10,
+      "description": "A warrior in plate armor whose sword strikes and bolts carry radiant power.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 4,
+        "Wis": 2
+      },
+      "sections": {
+        "Initiative": "+0 (10).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Greatsword, Heavy Crossbow, Plate Armor.",
+        "Condition immunities": "Frightened.",
+        "Actions": "Multiattack. Make two attacks, choosing Greatsword or Heavy Crossbow for each.\nGreatsword. Melee attack, +5 to hit, reach 5 ft. A hit deals 10 (2d6 + 3) slashing damage and 4 (1d8) radiant damage.\nHeavy Crossbow. Ranged attack, +2 to hit, range 100/400 ft. A hit deals 11 (2d10) piercing damage and 4 (1d8) radiant damage.",
+        "Reactions": "Parry. While holding a weapon, the knight can react to a melee attack roll that hits it. It gains +2 AC against that attack, which can turn the hit into a miss.",
+        "Habitats": "Any.",
+        "Treasure": "Armaments, Individual.",
+        "Printed source": "Monster Manual (2024), p. 184."
+      }
+    }
+  },
+  {
+    "name": "Noble",
+    "statBlock": {
+      "name": "Noble",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 227,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 15,
+      "hp": 9,
+      "hitDice": "2d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1/8",
+      "xp": 25,
+      "passivePerception": 12,
+      "description": "A person of rank who can defend themself with a rapier.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Persuasion": 5
+      },
+      "sections": {
+        "Initiative": "+1 (11).",
+        "Languages": "Common plus two other languages.",
+        "Gear": "Breastplate, Rapier.",
+        "Actions": "Rapier. Melee attack, +3 to hit, reach 5 ft. A hit deals 5 (1d8 + 1) piercing damage.",
+        "Reactions": "Parry. While holding a weapon, the noble can react to a melee attack roll that hits it. It gains +2 AC against that attack, which can turn the hit into a miss.",
+        "Habitats": "Any.",
+        "Treasure": "Individual.",
+        "Printed source": "Monster Manual (2024), p. 227."
+      }
+    }
+  },
+  {
+    "name": "Scout",
+    "statBlock": {
+      "name": "Scout",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 270,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 13,
+      "hp": 16,
+      "hitDice": "3d8 + 3",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "1/2",
+      "xp": 100,
+      "passivePerception": 15,
+      "description": "A guide or lookout who tracks movement and can strike with a bow or blade.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Nature": 4,
+        "Perception": 5,
+        "Stealth": 6,
+        "Survival": 5
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Leather Armor, Longbow, Shortsword.",
+        "Actions": "Multiattack. Make two attacks, choosing Shortsword or Longbow for each.\nShortsword. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) piercing damage.\nLongbow. Ranged attack, +4 to hit, range 150/600 ft. A hit deals 6 (1d8 + 2) piercing damage.",
+        "Habitats": "Any.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 270."
+      }
+    }
+  },
+  {
+    "name": "Spy",
+    "statBlock": {
+      "name": "Spy",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 295,
+      "classification": "Small or Medium humanoid, neutral",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 16,
+      "description": "An infiltrator who climbs as fast as they walk and fights with poisoned weapons.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Investigation": 5,
+        "Perception": 6,
+        "Sleight Of Hand": 4,
+        "Stealth": 6
+      },
+      "sections": {
+        "Initiative": "+4 (14).",
+        "Languages": "Common plus one other language.",
+        "Gear": "Hand Crossbow, Shortsword, Thieves' Tools.",
+        "Actions": "Shortsword. Melee attack, +4 to hit, reach 5 ft. A hit deals 5 (1d6 + 2) piercing damage and 7 (2d6) poison damage.\nHand Crossbow. Ranged attack, +4 to hit, range 30/120 ft. A hit deals 5 (1d6 + 2) piercing damage and 7 (2d6) poison damage.",
+        "Bonus actions": "Cunning Action. Take the Dash, Disengage, or Hide action.",
+        "Habitats": "Any.",
+        "Treasure": "Implements, Individual.",
+        "Printed source": "Monster Manual (2024), p. 295."
+      }
+    }
+  },
+  {
+    "name": "Homunculus",
+    "statBlock": {
+      "name": "Homunculus",
+      "publication": "Monster Manual (2024)",
+      "edition": "2024 fifth edition",
+      "printedPage": 172,
+      "classification": "Tiny construct, neutral",
+      "ac": 13,
+      "hp": 4,
+      "hitDice": "1d4 + 2",
+      "speed": "20 ft., fly 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 4
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 10,
+      "description": "A mage uses their own blood in a ritual to animate this cat-sized, winged servant. It becomes inert when its creator dies.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 2,
+        "Cha": 0
+      },
+      "sections": {
+        "Initiative": "+2 (12).",
+        "Languages": "Understands Common and one other language but can't speak.",
+        "Senses": "Darkvision 60 ft.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Charmed, Poisoned.",
+        "Traits": "Telepathic Bond. The homunculus and its creator can communicate telepathically while they share a plane of existence.",
+        "Actions": "Bite. Melee attack, +4 to hit, reach 5 ft. A hit deals 1 piercing damage. The target then makes a DC 12 Constitution save. On a failure, the target is Poisoned until the end of the homunculus's next turn. If the save fails by 5 or more, the target is Poisoned for 1 minute and is Unconscious while Poisoned this way. Taking damage ends the Unconscious condition early.",
+        "Habitats": "Any.",
+        "Treasure": "None.",
+        "Printed source": "Monster Manual (2024), p. 172."
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "entry": "beast-3bd12b4a724ec6a3455a1a1c",
+    "version": "792a11b07fbbbef97faccffb",
+    "name": "Giant Marble Snake",
+    "file": "images/palace-silver-princess-b3-beasts/giant-marble-snake.png",
+    "sha256": "6ee0099d443b4b3ed88548148999f3064925fe0f9ca9018ba24a80ca277ea58e",
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "entry": "beast-e1745c77b3fcf53b0fc11e07",
+    "version": "207972e64eb961c71d9c4a6e",
+    "name": "Giant Marmoset",
+    "file": "images/palace-silver-princess-b3-beasts/giant-marmoset.png",
+    "sha256": "3145f02fc0a6fc62eb0c4e2ae6cd2e228d6ada2e92f0e43492191258aef101e9",
+    "credit": "OpenAI ImageGen"
+  }
+]

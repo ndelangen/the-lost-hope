@@ -1,0 +1,236 @@
+{
+  "builds": [
+    {
+      "id": "dnd35-kenku-kett-brassring",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Kenku locksmith lookout, Rogue 1",
+      "difficulty": "Rogue 1, ECL 1.",
+      "type": "Humanoid (Kenku)",
+      "ac": 15,
+      "hp": 7,
+      "hitDice": "1d6+1",
+      "initiative": 7,
+      "speed": "30 ft.",
+      "senses": "Low-light vision.",
+      "languages": "Common, Kenku, Dwarven, Gnome.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 17,
+        "CON": 13,
+        "INT": 14,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Bluff +3",
+        "Disable Device +6",
+        "Hide +9",
+        "Listen +5",
+        "Move Silently +9",
+        "Open Lock +7",
+        "Search +6",
+        "Sense Motive +5",
+        "Spot +5",
+        "Tumble +7"
+      ],
+      "traits": [
+        "Leather armor +2 and Dex +3. Touch AC 13, flat-footed AC 12. BAB +0, grapple +0. Fort +1, Ref +5, Will +1. Improved Initiative adds +4.",
+        "Sneak Attack adds 1d6 while Kett flanks the target in melee or the target loses its Dexterity bonus to AC. For ranged attacks this requires a target within 30 ft.",
+        "Trapfinding lets Kett use Search for traps above DC 20 and Disable Device against magic traps. Carries a set of ordinary thieves’ tools.",
+        "Great Ally grants +4 total to attack a foe flanked with an ally and modifies a successful aid another to +3 when giving or receiving aid."
+      ],
+      "actions": [
+        "Short sword +0 melee (+4 while flanking with an ally), 1d6 piercing, 19–20/×2. Two claws +0 melee each on a full attack, 1d3 piercing and slashing each.",
+        "Shortbow +3 ranged, 1d6 piercing, ×3, 60-ft. range increment.",
+        "Aid another in melee as a standard action. Roll +0 against AC 10 while threatening the foe. On success, give an ally +3 on their next attack against that foe or the normal +2 AC against its next attack, as chosen, before Kett’s next turn. On a skill check, successful legal aid gives +3.",
+        "Mimic a familiar voice in a language Kett knows. A listener who knows the original voice contests Kett’s Bluff +3 with Sense Motive."
+      ],
+      "tactics": "Assist at the lock first. In a fight, hold opposite an ally and use the flank bonus to land a sneak attack."
+    },
+    {
+      "id": "dnd35-nycter-pell-ventmark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "title": "Nycter cavern scout, Fighter 1",
+      "difficulty": "3 racial HD plus Fighter 1, LA +2, ECL 6.",
+      "type": "Monstrous Humanoid",
+      "ac": 17,
+      "hp": 30,
+      "hitDice": "3d8+1d10+8",
+      "initiative": 8,
+      "speed": "20 ft., fly 40 ft. (good).",
+      "senses": "Darkvision 60 ft., blindsense 60 ft.",
+      "languages": "Nycter, Common.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 18,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 15,
+        "CHA": 6
+      },
+      "skills": [
+        "Craft (trapmaking) +3",
+        "Listen +10",
+        "Spot +10",
+        "Survival +7",
+        "Climb +1",
+        "Hide +8 untrained"
+      ],
+      "traits": [
+        "Leather armor +2, Dex +4 and Small +1. Touch AC 15, flat-footed AC 13. BAB +4, grapple +0. Fort +5, Ref +7, Will +5.",
+        "Alertness and Improved Initiative are racial-HD feat selections. Fighter bonus feat Weapon Finesse applies to the dagger.",
+        "With blindsense, Pell pinpoints creatures within 60 ft. without sight if he has line of effect. A creature he cannot see still has total concealment. He carries a light load."
+      ],
+      "actions": [
+        "Small dagger +9 melee, 1d3 piercing or slashing, 19–20/×2.",
+        "Small light crossbow +9 ranged, 1d6 piercing, 19–20/×2, 80-ft. range increment. Reload as a move action that provokes.",
+        "Fly up to 40 ft. on a move action. Pell can hover and change heading with good maneuverability."
+      ],
+      "tactics": "Survey from a hover and call out concealed movement. In a fight, use ledges to break line of sight and return to cover to reload."
+    },
+    {
+      "id": "dnd35-synad-ione-lark",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Medium",
+      "title": "Synad psionic courier, Nomad Psion 1",
+      "difficulty": "Psion 1, ECL 1, manifester level 1.",
+      "type": "Aberration (Psionic)",
+      "ac": 12,
+      "hp": 5,
+      "hitDice": "1d4+1",
+      "initiative": 2,
+      "speed": "30 ft. (45 ft. on level ground with Skate).",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common, Synad, Dwarven, Elven, Terran.",
+      "abilityScores": {
+        "STR": 10,
+        "DEX": 14,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Concentration +5",
+        "Knowledge (geography) +7",
+        "Knowledge (planes) +7",
+        "Knowledge (psionics) +7",
+        "Psicraft +7",
+        "Listen +3 untrained",
+        "Spot +3 untrained"
+      ],
+      "traits": [
+        "Unarmored, Dex +2. Touch AC 12, flat-footed AC 10. BAB +0, grapple +0. Fort +1, Ref +2, Will +5 with Threefold Mind.",
+        "Alertness and Psionic Talent (psion bonus feat). Reserve 8 PP (base 2, Intelligence 1, racial 3, feat 2). Max 1 PP per manifested power. Standard power DC 14 if needed.",
+        "Oracle 1/day. Add +2 insight to one initiative check, attack, or save. The latter two may receive the bonus after the unmodified result is known.",
+        "Collective as a free action costs 1 PP. Use it to raise one of Ione’s listed Knowledge or Psicraft checks from +7 to +9."
+      ],
+      "actions": [
+        "Light crossbow +2 ranged, 1d8 piercing, 19–20/×2, 80-ft. range increment. Loading is a move action that provokes.",
+        "Energy Ray (1 PP, standard action, 25 ft.). Ranged touch +2. Cold or fire 1d6+1, electricity 1d6 (+3 to hit metal armor and +2 on power-resistance checks), or sonic 1d6−1 that ignores object hardness. No save. Power resistance applies.",
+        "Force Screen (1 PP, standard action, personal) gives +4 shield AC for 1 minute, including against incorporeal touch attacks.",
+        "Skate (1 PP, standard action, personal or touch) lasts 1 minute. A willing creature gains +15 ft. enhancement to land speed, normal speed uphill and another +15 ft. downhill. An unattended object up to 100 lb. counts at one-tenth weight for dragging.",
+        "Multitask 1/day costs 1 PP for a swift purely mental action. Ione can manifest as that action only if her ordinary actions in the same round involve no manifesting. Spend the chosen power’s 1 PP separately."
+      ],
+      "tactics": "Spend 2 PP to manifest Skate with Multitask while using an ordinary move or full-round run. Save Oracle for a dangerous save or key attack."
+    },
+    {
+      "id": "adnd2e-savage-coast-tortle-mera-reedpole",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "AD&D 2nd edition"
+      ],
+      "size": "Medium",
+      "title": "Savage Coast tortle creek guide, Fighter 1",
+      "difficulty": "1st-level fighter, descending Armor Class.",
+      "type": "Humanoid",
+      "ac": 3,
+      "hp": 9,
+      "hitDice": "1d10+1",
+      "initiative": 0,
+      "speed": "6, Sw 3 (numeric rates from the companion creature appendix).",
+      "senses": "Infravision 60 ft. including underwater. Hearing and smell only while fully withdrawn.",
+      "languages": "Tortle, Common.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 14,
+        "CON": 15,
+        "INT": 10,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Swimming (free). Direction Sense (Wis +1, target 14), Fishing (Wis −1, target 12), Rope Use (Dex, target 14).",
+        "Proficient in quarterstaff, sling, dagger, and natural claws."
+      ],
+      "traits": [
+        "Dexterity 14 gives no AC modifier. Natural AC 3 while unarmored. Fighter THAC0 20 and ordinary low-roll 1d10 initiative. Mera uses the core fighter class without a kit. She lives beyond the cursed area and has no Legacy.",
+        "Saving throws 14/16/15/17/17 in this order: paralyzation, poison or death; rod, staff or wand; petrification or polymorph; breath; spell. While fully withdrawn, those numbers become 10/12/11/13/13.",
+        "Can hold her breath for 10 turns. Natural buoyancy keeps Mera afloat in water, mud, bogs, and quicksand."
+      ],
+      "actions": [
+        "Quarterstaff, THAC0 20, speed factor 4. One melee attack dealing 1d6 bludgeoning against any target size.",
+        "Natural claws, THAC0 20 per claw, speed factor 2. Two attacks dealing 1d4 slashing each.",
+        "Withdraw into shell and do nothing else that round. While inside, AC becomes 1, saving throws improve by +4, and Mera cannot move, attack, or see. She is immune to gaze attacks and other attacks that require her to see."
+      ],
+      "tactics": "Use the staff to hold the ford edge. If pinned from several sides, withdraw until allies can break the press."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Kett Brassring",
+      "species": "Kenku",
+      "size": "Medium",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-kenku-kett-brassring",
+      "role": "Locksmith lookout and cooperative scout.",
+      "motive": "Find the second cut of a master key before it opens the weir district storehouses.",
+      "hook": "Kett can identify the duplicate by its worn shoulder and will help open the boathouse lock."
+    },
+    {
+      "name": "Pell Ventmark",
+      "species": "Nycter",
+      "size": "Small",
+      "speciesPublication": "Monster Manual III (3.5, 2004)",
+      "edition": "3.5 edition",
+      "build": "dnd35-nycter-pell-ventmark",
+      "role": "Cavern surveyor who maps air shafts.",
+      "motive": "Recover a bronze depth marker before a spring flood washes it down the sink.",
+      "hook": "Pell offers to mark an upper ledge that pedestrians cannot see from the shaft floor."
+    },
+    {
+      "name": "Ione Lark",
+      "species": "Synad",
+      "size": "Medium",
+      "speciesPublication": "Complete Psionic (2006)",
+      "edition": "3.5 edition",
+      "build": "dnd35-synad-ione-lark",
+      "role": "Psionic courier who moves messages before a route is cut off.",
+      "motive": "Deliver a survey correction to the crew before they demolish the sound bridge pier.",
+      "hook": "Ione has a copy of the wrong survey and needs an escort to the isolated site."
+    },
+    {
+      "name": "Mera Reedpole",
+      "species": "Tortle",
+      "size": "Medium",
+      "speciesPublication": "Savage Coast Campaign Book, Part 2: Player Characters",
+      "edition": "AD&D 2nd edition",
+      "build": "adnd2e-savage-coast-tortle-mera-reedpole",
+      "role": "Creek guide and occasional ferry guard.",
+      "motive": "Get the last load of oat sacks over the ford before the creek rises.",
+      "hook": "Mera can show the party a level creek bed if someone helps recover her mooring line."
+    }
+  ]
+}

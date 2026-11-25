@@ -1,0 +1,232 @@
+{
+  "Blink Dog": {
+    "sha256": "974e7277f3e67b973da09b24896f815ce637aadd371cc6f659059b8f35048074",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Death Dog": {
+    "sha256": "675991e97705aa74ba237b2da7e8070dc19e9dbe6c1fe105f6b959f7021a3fb2",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Griffon": {
+    "sha256": "0bf5b3d83a52e168cc54d8b3934ae9c0c9e10e60af6987d87d486d5c05556fc5",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Hippogriff": {
+    "sha256": "533711d3e78a8037279702eef7fad9b596605f711b444e0af7fa07e95c17ad79",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Pegasus": {
+    "sha256": "c4b302cb7ae7b92bab06150973c5fa61f211f0b8e4176ecc2f40537779b1a335",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Roc": {
+    "sha256": "2c8cc18aaad6df7b48c4ebe29bf1709654d31e02db29c58f5826af2f609f7091",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Winter Wolf": {
+    "sha256": "0414db54dd4be9ad84baad7f6dfc2ea08b2904ed3c6adda3f94c7135b6dabfd8",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ettercap": {
+    "sha256": "892cdeb82df5d61c7b14e251239c56ce5805aaead7f26835bcd62a3929002c41",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ettin": {
+    "sha256": "5ebf47184a8cf34d3b32c8c037edac3e1ba8508a4c882dc2a304781327466574",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Gargoyle": {
+    "sha256": "8ea3ebe23d6a5a57acdf2c131cdc2ec0a7be4ad7d058f6dc688783d121d4b8f4",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ogre": {
+    "sha256": "2345ca4f5943d1bfc5c70e7b55d27dc600bd2b4b4b207f1fd755d6bcc39c5fbf",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Ogre Zombie": {
+    "sha256": "6bc972a3104cb80878f298feed680165451daa35e73799a021e96168736d2d36",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Otyugh": {
+    "sha256": "99e2ed7533992069ac79cb207ea7de99b0c746eac8121c98a857d299eb033c21",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Piercer": {
+    "sha256": "1c633916e27365d9a703856126a80c6726f6bb85261e28e075304831253ab7f7",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Hell Hound": {
+    "sha256": "fdff6d0c54a4853f1d3465c67fba528d9af20b48f8e104218ae8b8fb014d30bc",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Nightmare": {
+    "sha256": "9f6afd90281587f0ce4513b11b65bb0a39c74f0a07bab4de084e8556533e7a27",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Oni": {
+    "sha256": "5fa85e41331b5854078c1b5d6f3f4a38fc334f0424f427b5145274858a6cc387",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Salamander": {
+    "sha256": "17785322c8e0a44c1e5b56952e21edf46bde2d3c3c45ca6d72ccc38b1b5f9eb6",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Troglodyte": {
+    "sha256": "7f45375243fa957fbba7ab83a2b2e90b90be18684e96c241849aa725011d002d",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Vrock": {
+    "sha256": "70d03c34f941da78c4eabe0745409531a3a357aa199430bf79f0314ab1dd3d10",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Worg": {
+    "sha256": "3ffa6eabef174bffd128411550d2a629386aa98881ff50ddfab3e1725292472c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Commoner": {
+    "sha256": "1fcc31058a879a7ab53e9c4080cd4e09c54357416d59affc1a97ee189293ac0a",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Guard": {
+    "sha256": "a7d9b4042c3db312fd17c4c4b0bb496d9924e188ad4ff8a2bc7d302f76daff84",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Knight": {
+    "sha256": "b8cc94c34dc986ac7f4296060d1a036fbaa1725ae46305437eb68963d69bf9e8",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Noble": {
+    "sha256": "4e0432b08f7b37bea0d2ce67359a318ff001e286f03b083cd1749f3481d8d1be",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Scout": {
+    "sha256": "809b9705a7429e0acb9025c82bf6d724a91d97db599d4e47b4bc14142485bfa5",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Spy": {
+    "sha256": "ecfd15eaf4755cf04361725e28adeb275868e37a6d07cd08a77c3dc4951396cd",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Homunculus": {
+    "sha256": "f1efe366495d71ad5ac1c7584bda5e70c25c651a8b80f420f39c7d13ada040a4",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Poltergeist": {
+    "sha256": "a7e0fefbcfa42e3ac7aa9232d6bce2836e5fe4c9e56853f35ba89a917d9b9538",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Scarecrow": {
+    "sha256": "7f3929d2aefcd394db66d80f7106e11520004347dad04796e0de341ee4ffc9d6",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Skeleton": {
+    "sha256": "796b72a3c8d7b12fb3d0d6fb763f18904f0bceb0b24381e0fc4fe70ce198edb3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Yuan-ti Abomination": {
+    "sha256": "522844b003e226067047d29f79f4820b3f3476bb0a195f546e9898c2240a769f",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Yuan-ti Malison (Type 1)": {
+    "sha256": "05c7092fef7e4ae6b753161488be1b98dcb4dc8d864c01ca716650d43446b4a1",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Yuan-ti Malison (Type 2)": {
+    "sha256": "4b2407b76b988c9c5de6eb3eb2e0aa46cf0820a50a2845af48fde0d5b603ed54",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Yuan-ti Malison (Type 3)": {
+    "sha256": "95449d28dc3ce0c071b954a420fd664e06a97f4679bbb65f84cb3fb1e9b281dd",
+    "servedBefore": true,
+    "donorPrinting": "Monster Manual (2024)"
+  },
+  "Modron Monodrone": {
+    "sha256": "50b27a7e49c157e132bed9e07a913e3b93785fc23fa496a7447f0d188748b9b3",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Modron Duodrone": {
+    "sha256": "d1f2c07a5d5a0cf5b4eb40acc020fd1f1c96fdc93d76df4a746d323f4afdfd99",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Modron Tridrone": {
+    "sha256": "28d4651d3a04637bbd28aa080104385d98e81a35c3d49125e75e6d87684ab82c",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Modron Quadrone": {
+    "sha256": "e3e18cb67846ecd346df182ad2e3c1c8f141bcbebd1a22bf272846674b7839ed",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Modron Pentadrone": {
+    "sha256": "7a15775d49c0a106ab099ddc32cd7e6613120d88d8498ed5d329d06ca9e7e8ee",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Faerie Dragon Adult": {
+    "sha256": "6d5952b0446fb8103c7c1f83b68fb1c9f69ad373365625c4163c957abc6a7f1f",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Faerie Dragon Youth": {
+    "sha256": "61d81f63ab3d5fbbd3b6d05685a12e0d6a3969b244d7f5fdcbb5ba0d7f806c30",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Sahuagin Priest": {
+    "sha256": "60e069b1ca9971a62b2c0f8c0e6bb728b91883e12cd1a2a9a6cf81441cfb1a79",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Lizardfolk Geomancer": {
+    "sha256": "cbf3ebe62274d954dcd5c2a14db44e9b2ae9bfa8693501cf5a1de497d6524d17",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Lizardfolk Sovereign": {
+    "sha256": "d5c1dbb9ee472c07f33d126ffeb50d38ba5ead93746ca715d07cbfb490b9e87b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  },
+  "Cyclops Sentry": {
+    "sha256": "14e250a9db2d7c4d18cff92d4365841b07f1108e881e8bea79a3f1be3a2c343b",
+    "servedBefore": false,
+    "donorPrinting": "Monster Manual (2014)"
+  }
+}

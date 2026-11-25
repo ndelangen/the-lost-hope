@@ -1,0 +1,29 @@
+[
+  {
+    "artGroup": "obsidian-giant-badger",
+    "file": "portraits/obsidian-giant-badger.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "dfc95d54d9735103e1fa16074abc9d6ef8b42aee1ed3b69d03368003fa9d6e77",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Pony-sized giant badger with opal-like eyes and obsidian-like visible teeth and claws. Shared by two adventure scopes."
+  },
+  {
+    "artGroup": "barded-wolf",
+    "file": "portraits/barded-wolf.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "ab89fbdbf7d834b70454094925c9bedfb708a59937198f1412be413f086dd31f",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Gray wolf wearing studded leather barding."
+  },
+  {
+    "artGroup": "young-bulette",
+    "file": "portraits/young-bulette.png",
+    "width": 1254,
+    "height": 1254,
+    "sha256": "3211a9b3d2b38c82a079f553636dfdb551e0dbf66e0729341948d17f569726b6",
+    "credit": "OpenAI ImageGen",
+    "depiction": "Juvenile bulette with softly opalescent eyes."
+  }
+]

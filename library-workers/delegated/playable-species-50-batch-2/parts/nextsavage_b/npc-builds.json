@@ -1,0 +1,277 @@
+{
+  "builds": [
+    {
+      "id": "efreeti-kesh-brassmark-30e",
+      "title": "Efreeti quartermaster, Efreeti 3",
+      "difficulty": "CR 2, ECL 3 from Table A–14.",
+      "size": "Medium",
+      "type": "Outsider (Evil, Fire, Lawful)",
+      "senses": "Darkvision 60 ft., telepathy 100 ft.",
+      "languages": "Auran, Common, Ignan, Infernal",
+      "speed": "20 ft.",
+      "ac": 13,
+      "hp": 15,
+      "hitDice": "2d8+6",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 18,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 14
+      },
+      "skills": [
+        "Bluff +7",
+        "Concentration +8",
+        "Craft (metalworking) +5",
+        "Intimidate +7",
+        "Listen +6",
+        "Profession (quartermaster) +6",
+        "Sense Motive +6",
+        "Spot +6"
+      ],
+      "traits": [
+        "Lawful evil. Natural armor +2, Dexterity +1. Touch 11, flat-footed 12. BAB +2, grapple +6. Fortitude +6, Reflex +4, Will +4. Improved Initiative.",
+        "Fire immunity. Under the 3.0 fire subtype, −10 on saves against cold attacks. Take double damage when the cold attack offers no save."
+      ],
+      "actions": [
+        "Slam +6 melee, 1d4+6 bludgeoning plus 1 fire. Heat also deals 1 fire on a successful grapple and each round Kesh maintains the hold.",
+        "Spell-like abilities at caster level 10. Detect magic and enlarge 1/day each. Enlarge increases a creature’s dimensions by up to 50% for 10 minutes, granting up to +2 Strength. Fortitude DC 13 negates for an unwilling target.",
+        "Produce flame and pyrotechnics at will. Produce flame is a +6 melee or +3 ranged touch attack, up to 120 ft., dealing 1d4+5 fire. It lasts 10 rounds. Pyrotechnics can blind creatures that see the source within 120 ft. for 1d4+1 rounds, Will DC 14 negates. Its smoke option blocks sight in a 20-ft. spread for 10 rounds. Fortitude DC 14 negates the smoke’s −4 Strength and Dexterity penalties."
+      ],
+      "tactics": "Kesh gives telepathic orders and uses smoke to keep intruders away from the fuel. He uses produce flame if an assailant can see through the smoke.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "flamebrother-salamander-sava-coil-30e",
+      "title": "Flamebrother patrol guard, Flamebrother 4",
+      "difficulty": "CR 2, ECL 4 from Table A–18.",
+      "size": "Small",
+      "type": "Outsider (Fire)",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Ignan, Common, Dwarven",
+      "speed": "20 ft.",
+      "ac": 19,
+      "hp": 13,
+      "hitDice": "2d8+4",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 14,
+        "WIS": 14,
+        "CHA": 12
+      },
+      "skills": [
+        "Craft (armorsmithing) +7",
+        "Craft (metalworking) +11",
+        "Craft (weaponsmithing) +7",
+        "Escape Artist +8",
+        "Hide +12",
+        "Listen +7",
+        "Profession (bridgekeeper) +7",
+        "Profession (foundry worker) +7",
+        "Search +7",
+        "Spot +7"
+      ],
+      "traits": [
+        "Lawful neutral. Small +1, natural armor +5, Dexterity +3. Touch 14, flat-footed 16. BAB +2, grapple +1, Fortitude +5, Reflex +6, Will +5. Weapon Focus (salamander halfspear).",
+        "Fire immunity. −10 on saves against cold attacks. Take double damage from cold attacks that offer no save."
+      ],
+      "actions": [
+        "Salamander halfspear held in two hands +7 melee, 1d8+4 piercing plus 1d4 fire, ×3.",
+        "Tail slap +6 melee, 1d4+1 bludgeoning plus 1d4 fire. In a full attack with the halfspear, add the tail at +1.",
+        "Constrict on a successful grapple check against a creature up to Medium size. Deal 1d4+1 bludgeoning plus 1d4 fire."
+      ],
+      "tactics": "Sava holds the bridge with the halfspear. If the runner closes, he tries to grab and constrict them before they can circle him.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "athach-tov-flintarm-30e",
+      "title": "Athach quarry guard, Athach 3",
+      "difficulty": "CR 2, ECL 3 from Table A–5.",
+      "size": "Medium",
+      "type": "Aberration",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Giant",
+      "speed": "30 ft.",
+      "ac": 14,
+      "hp": 22,
+      "hitDice": "3d8+9",
+      "initiative": 3,
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 16,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +7",
+        "Listen +6",
+        "Spot +6"
+      ],
+      "traits": [
+        "Neutral. Natural armor +1, Dexterity +3. Touch 13, flat-footed 11. BAB +2, grapple +5. Fortitude +4, Reflex +4, Will +5. Multidexterity and Multiweapon Fighting."
+      ],
+      "actions": [
+        "Single club attack +5 melee, 1d6+3 bludgeoning, ×2.",
+        "Three-arm full attack with club +3 melee (1d6+3 bludgeoning) and two daggers +3 melee each (1d4+1 piercing, 19–20/×2). Add a secondary bite +0 melee (1d4+1 plus poison).",
+        "Bite poison, Fortitude DC 14. Initial and secondary damage are each 1d4 Strength, with the second save after 1 minute."
+      ],
+      "tactics": "Tov leads with his club and keeps the daggers tucked away when a warning will do. When surrounded, he draws both daggers and uses all three weapon arms.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "grig-fenn-burr-30e",
+      "title": "Grig fiddler, Grig 4",
+      "difficulty": "CR 1, ECL 4 from Table A–25.",
+      "size": "Tiny",
+      "type": "Fey",
+      "senses": "Low-light vision",
+      "languages": "Common, Sylvan",
+      "speed": "20 ft., fly 40 ft. (poor)",
+      "ac": 20,
+      "hp": 3,
+      "hitDice": "½d6+1",
+      "initiative": 10,
+      "abilityScores": {
+        "STR": 6,
+        "DEX": 22,
+        "CON": 12,
+        "INT": 10,
+        "WIS": 14,
+        "CHA": 16
+      },
+      "skills": [
+        "Hide +18",
+        "Jump +10",
+        "Listen +8",
+        "Move Silently +10 (+15 in forests)",
+        "Perform (fiddle) +7",
+        "Spot +8"
+      ],
+      "traits": [
+        "Neutral good. Tiny +2, Dexterity +6, natural armor +2. Touch 18, flat-footed 14. BAB +0, grapple −10, Fortitude +1, Reflex +8, Will +4. Spell resistance 17. Improved Initiative and bonus Dodge (+1 AC against one designated opponent).",
+        "A 2½-ft. face and 0-ft. reach. Entering an enemy’s square to make a melee attack provokes an attack of opportunity."
+      ],
+      "actions": [
+        "Attuned fiddle. While Fenn plays, a nonsprite within 30 ft. must make a DC 15 Will save or suffer the effects of Otto’s irresistible dance. It can only dance, takes −4 AC, loses the use of its shield, and can succeed on a Reflex save only by rolling a natural 20. The effect ends when Fenn stops playing.",
+        "Change self, entangle, invisibility (self only), pyrotechnics, and ventriloquism each 3/day at caster level 9. Entangle needs plants and hampers movement even if the target succeeds on the DC 14 Reflex save. Pyrotechnics uses DC 15 Will for fireworks or DC 15 Fortitude for the smoke penalties."
+      ],
+      "tactics": "Fenn entangles pursuers where the brush is thick and escapes invisibly. He uses the fiddle only when nearby travelers can afford to stop moving.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    },
+    {
+      "id": "harpy-ryn-reedcall-30e",
+      "title": "Harpy lookout, Harpy 4",
+      "difficulty": "CR 2, ECL 4 from Table A–27.",
+      "size": "Medium",
+      "type": "Monstrous humanoid",
+      "senses": "Darkvision 60 ft.",
+      "languages": "Common",
+      "speed": "20 ft., fly 40 ft. (average)",
+      "ac": 16,
+      "hp": 26,
+      "hitDice": "4d8+8",
+      "initiative": 5,
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 20,
+        "CON": 14,
+        "INT": 8,
+        "WIS": 12,
+        "CHA": 16
+      },
+      "skills": [
+        "Listen +4",
+        "Perform (singing) +7",
+        "Spot +5"
+      ],
+      "traits": [
+        "Neutral. Natural armor +1, Dexterity +5. Touch 15, flat-footed 11. BAB +4, grapple +6. Fortitude +3, Reflex +9, Will +5. Alertness and Weapon Focus (claw)."
+      ],
+      "actions": [
+        "Two claws +7 melee each on a full attack, 1d3+1 slashing each. A single claw is available with a standard attack.",
+        "Captivating Song, 10-ft. radius, DC 15 Will. Nonharpies that fail follow the most direct route toward Ryn and can only defend themselves. They stop within 5 ft. and offer no resistance to her attacks. A dangerous route or a bard’s countersong grants another save. A successful save gives one day of immunity to her song. This is a sonic mind-affecting charm. It lasts while she sings and 4 rounds afterward."
+      ],
+      "tactics": "Ryn descends close enough to catch pursuers with her song, then keeps them away from the scout’s rope by singing from a clear stretch of trail.",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.0 edition"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Efreeti",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Kesh Brassmark",
+      "build": "efreeti-kesh-brassmark-30e",
+      "role": "Quartermaster and fire caster.",
+      "motive": "Find out who has diverted the forge fuel before he signs the next delivery.",
+      "hook": "Kesh asks the party to count the stamped casks while he checks the loading roster."
+    },
+    {
+      "species": "Flamebrother Salamander",
+      "size": "Small",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Sava Coil",
+      "build": "flamebrother-salamander-sava-coil-30e",
+      "role": "Foundry patrol guard.",
+      "motive": "Stop a runner from taking the foundry’s cooling valve across the service bridge.",
+      "hook": "Sava asks the party to check the valve crate while he holds the bridge."
+    },
+    {
+      "species": "Athach",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Tov Flintarm",
+      "build": "athach-tov-flintarm-30e",
+      "role": "Three-armed quarry guard.",
+      "motive": "Recover a stolen wage pouch without getting the quarry workers involved.",
+      "hook": "Tov shows the party three sets of tracks and asks which are freshest."
+    },
+    {
+      "species": "Grig",
+      "size": "Tiny",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Fenn Burr",
+      "build": "grig-fenn-burr-30e",
+      "role": "Fiddler and woodland guide.",
+      "motive": "Clear a narrow path for the animals crossing the trail at dusk.",
+      "hook": "Fenn offers to lead the party around the crossing if they can keep the other travelers quiet."
+    },
+    {
+      "species": "Harpy",
+      "size": "Medium",
+      "edition": "3.0 edition",
+      "speciesPublication": "Savage Species (2003)",
+      "name": "Ryn Reedcall",
+      "build": "harpy-ryn-reedcall-30e",
+      "role": "Flying lookout and alarm singer.",
+      "motive": "Keep scavengers away from the trail until a stranded scout can descend.",
+      "hook": "Ryn circles low and calls for the party to steady the scout’s rope."
+    }
+  ]
+}

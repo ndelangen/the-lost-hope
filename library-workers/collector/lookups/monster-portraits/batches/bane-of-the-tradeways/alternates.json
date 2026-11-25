@@ -1,0 +1,46 @@
+[
+  {
+    "entityKind": "monster",
+    "name": "Guild Mage",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/guild-mage/mage-2014-related-token.webp",
+    "artist": "Related Mage token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "515d0f9f4904770d22bdef9d4be32d7640873f2ac7a06dc5781a814cd6ef56da",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Mage.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Guild Mage",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/guild-mage/mage-2024-viko-menezes.webp",
+    "artist": "Related Mage art by Viko Menezes · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "339a767792c8003153e21cbb525d284b99d5c1e50126db71e60bf1b120759a5f",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Mages.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Red Plume Cavalry Officer",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/red-plume-cavalry-officer/knight-2024-brian-valenzuela.webp",
+    "artist": "Related Knight art by Brian Valenzuela · Monster Manual (2024 rules)",
+    "kind": "illustration",
+    "sha256": "3f8d4df054644cd4c1a7835ab1fe4c7fa498f49bce307d035b0dfb300b5563bd",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/XMM/Knights.webp"
+  },
+  {
+    "entityKind": "monster",
+    "name": "Red Plume Cavalry Officer",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "file": "images/monsters/red-plume-cavalry-officer/warhorse-2014-related-token.webp",
+    "artist": "Related Warhorse token · Monster Manual (2014)",
+    "kind": "token",
+    "sha256": "994760a3f07aaace3f84380f2e564faf992d220ce5ed42fd31fd20d00c286f9c",
+    "reference": "https://raw.githubusercontent.com/5etools-mirror-3/5etools-img/be2a06a8a15a5ced257ebabb182e6e6d3f025eb9/bestiary/tokens/MM/Warhorse.webp"
+  }
+]

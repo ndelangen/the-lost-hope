@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Aasimar",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "book": "Planar Handbook",
+    "authors": [
+      "Bruce R. Cordell",
+      "Gwendolyn F. M. Kestrel"
+    ],
+    "publisher": "Wizards of the Coast",
+    "firstPrinting": "July 2004",
+    "productCode": "620-17920-001-EN",
+    "isbn": "0-7869-3429-8",
+    "printedPages": {
+      "speciesTable": 6,
+      "playableSpecies": [
+        6,
+        7
+      ],
+      "racialTraits": 7,
+      "illustration": 6
+    },
+    "pdfPageOffset": 0,
+    "publisherSample": "",
+    "primaryBookScan": "",
+    "primaryBookSha256": "ea54f6b6945dcebe9819669310abd11f3ac95cbc2e7abc3da8533fe58a2c54a7",
+    "officialErrataArchive": "https://media.wizards.com/2014/downloads/dnd/3ECollectedErrata.ZIP",
+    "errataFilename": "",
+    "errataSha256": "6861d72b5d6b3f98341bdae513692369532ac46d52f88ca3272f0a329180d9af",
+    "faqFilename": "",
+    "faqSha256": "312db30e76d5342b9f9e319d66aa60d86042a25535ba7524cba3193ae0bb08c6",
+    "printedArtCredit": "David Hudnut, An aasimar paladin, p. 6.",
+    "sourceDistinctions": [
+      "The p. 7 player traits give Daylight once daily at caster level equal to character level. Level adjustment increases ECL, not character level.",
+      "Native Outsider is the base type. The profile adds Extraplanar when away from the Material Plane, subject to the core transitive-plane exception.",
+      "Acid, cold, and electricity resistance are each 5. The published fifth-edition Aasimar profiles retain their own rules.",
+      "No Aasimar correction appears in the November 2004 Planar Handbook errata. The separate Monster Manual warrior is not part of this profile."
+    ],
+    "entryId": "species-706d5c6daf1f4f2a406b0119",
+    "versionKey": "7cfe3bd97e9941804ce557b0",
+    "slug": "aasimar",
+    "portraitSelection": "generated",
+    "portraitForm": "Iona Vale, an original Aasimar Paladin",
+    "npcExamples": [
+      "Iona Vale",
+      "Teren Mere"
+    ]
+  }
+]

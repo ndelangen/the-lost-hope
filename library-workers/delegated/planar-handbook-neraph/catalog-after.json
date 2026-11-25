@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Neraph",
+    "kind": "species",
+    "group": "3.5 edition",
+    "groups": [
+      "3.5 edition"
+    ],
+    "global": true,
+    "version": {
+      "key": "80bbcdfc8623dc5d226caac2",
+      "publication": "Planar Handbook (2004)",
+      "edition": "3.5 edition",
+      "source": "https://obnb.uk/p13133209-planar-handbook-a-players-guide-to-the-planes",
+      "status": "Traits summary",
+      "images": [],
+      "stats": [
+        [
+          "Type",
+          "Outsider (Extraplanar)"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Species traits",
+          "lines": [
+            "Medium Outsider from Limbo. The species entry gives the Extraplanar subtype when away from Limbo. Land speed 30 ft., darkvision 60 ft., no racial ability adjustments. Humanoid-only effects such as charm person and dominate person cannot target a Neraph.",
+            "Neraph Camouflage is an extraordinary ability. Declare it on one charge attack or thrown-weapon attack per enemy per encounter. Those options share the one use against that enemy. The target loses its Dexterity bonus to AC against that attack, with ordinary consequences such as eligibility for sneak attack.",
+            "Leap gives +5 racial on Jump. Chitinous skin gives +2 natural armor. Gain +2 racial on Spot and Search.",
+            "Weapon Familiarity treats the annulat as a martial weapon. A proficient thrower reduces a target’s existing cover bonus to AC by 2. The annulat has a 30-ft. range increment, 1d6 slashing at Medium or 1d4 at Small, and critical 19–20/×2. A Medium annulat costs 30 gp and weighs ½ lb.",
+            "Automatic languages are Neraph and Slaad. Bonus languages are Common, Celestial, and Abyssal. Favored class Ranger. LA +0. The playable profile adds no racial Hit Dice.",
+            "Neraphim are distinct from slaadi. They have coarse red skin, a broad toadlike head, and chitinlike patches. The optional Neraph Charge and Neraph Throw feats are separate from the racial ability."
+          ]
+        },
+        {
+          "title": "Original NPC · Teo Spent River",
+          "lines": [
+            "Lamp ramp outrider and Ranger.",
+            "Motive. Get a replacement lamp across the ramp before the night crew arrives.",
+            "Hook. Teo can cover the exposed ramp while the party checks the loose rail.",
+            "Neraph lamp ramp outrider, Ranger 1 · Provisional CR 1. ECL 1. · Medium Outsider (Extraplanar)",
+            "AC 17 · HP 10 (1d8+2) · Speed 30 ft."
+          ]
+        },
+        {
+          "title": "Original NPC · Mai the Houseless",
+          "lines": [
+            "Split ledge courier and Rogue.",
+            "Motive. Get the watch a message before the shift changes.",
+            "Hook. Mai can cross the ledge with the message while the party checks the marked footholds.",
+            "Neraph split ledge courier, Rogue 1 · Provisional CR 1. ECL 1. · Medium Outsider (Extraplanar)",
+            "AC 18 · HP 7 (1d6+1) · Speed 30 ft."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      },
+      "inline": {
+        "Original NPC · Teo Spent River": [
+          {
+            "start": 15,
+            "end": 30,
+            "target": {
+              "name": "Teo Spent River",
+              "group": "Neraph",
+              "publication": "Neraph lamp ramp outrider, Ranger 1",
+              "local": {
+                "entry": "npc-7e4de19a5ac7e2faa0129327",
+                "version": "684dd165d6ea8e45b0933ddd"
+              }
+            }
+          }
+        ],
+        "Original NPC · Mai the Houseless": [
+          {
+            "start": 15,
+            "end": 32,
+            "target": {
+              "name": "Mai the Houseless",
+              "group": "Neraph",
+              "publication": "Neraph split ledge courier, Rogue 1",
+              "local": {
+                "entry": "npc-200be5fc3d772b19b36f60b9",
+                "version": "a439183685350531c12cc851"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Neraph": true,
+      "neraph camouflage": true,
+      "neraph annulat": true,
+      "neraph lamp ramp outrider": true,
+      "neraph split ledge courier": true
+    },
+    "hash": "462bc7365a9fb10fd0e752d14fd0e2708974c8de4bb8af36810a3b9842320db7",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": [],
+    "defaultPublication": "Planar Handbook (2004)",
+    "defaultVersionKey": "80bbcdfc8623dc5d226caac2",
+    "entryImage": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    }
+  }
+]

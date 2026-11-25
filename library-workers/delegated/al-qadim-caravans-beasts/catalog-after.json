@@ -1,0 +1,376 @@
+[
+  {
+    "name": "Burrowing Owl",
+    "version": {
+      "key": "ec09baec6aea2f3d4dbbc1a7",
+      "publication": "Caravans",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "1"
+        ],
+        [
+          "Size",
+          "T, 1 ft. tall"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "1, Fl 27 (D), Br 3"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "3"
+        ],
+        [
+          "Damage per attack",
+          "1–4 / 1–4 / 1–2"
+        ],
+        [
+          "XP",
+          "65"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Habitats",
+          "lines": [
+            "Sandy plains north of the Range of the Marching Camels"
+          ]
+        },
+        {
+          "title": "Appearance",
+          "lines": [
+            "A small golden-feathered owl with talons twice the size of a normal owl’s."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Burrows near ab’i tubers · Groups of 2–8 owls dig sandy holes 3–5 ft. deep and sleep there during the day. They attack with their claws if digging for tubers wakes them. See Campaign Guide p. 28."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Animal intelligence 1. Morale 7. The block gives 1 Hit Die without a fixed hit-point value.",
+            "TSR, Caravans (1994), Campaign Guide, p. 27."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Burrowing Owl": true,
+      "burrowing owl marching camels": true
+    },
+    "hash": "4f8aa55ac8f1148d0dd7dfc3e815d296bcfd37217b7a84cc08f3e4b15720522b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Black Sand Adder",
+    "version": {
+      "key": "e4e54bac714cec9e2d3c9deb",
+      "publication": "Caravans",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "6"
+        ],
+        [
+          "Hit points",
+          "21"
+        ],
+        [
+          "Hit dice",
+          "3"
+        ],
+        [
+          "Size",
+          "M, 6 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "12"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1–2"
+        ],
+        [
+          "XP",
+          "270"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A black snake around 6 ft. long."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Poison · Save vs. poison at −1. On failure, the victim is incapacitated for 24 hours after a 2d4-round onset."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Fayiz’s treatment room · The zin enlarges the jug in area 2c until it topples and breaks. The adder attacks someone nearby, then attempts to escape under the wall unless attacked."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Animal intelligence. Morale 9.",
+            "The area 2c block gives 21 HP for this individual. The Campaign Guide’s monster summary on p. 32 lists 15 HP.",
+            "Fayiz describes the adders as faster than the vipers on p. 7. The encounter blocks give MV 12 for the adder and MV 15 for the viper.",
+            "TSR, Caravans (1994), Adventure Book, p. 9."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Black Sand Adder": true,
+      "black sand adder treatment room": true
+    },
+    "hash": "6a33ec1bdb3791588c6c78c5974adf0fe4e7b62b24232022ebafbe36cbb65c14",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Dune Viper",
+    "version": {
+      "key": "ff7aea0840eb1b3008d37f46",
+      "publication": "Caravans",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit dice",
+          "2+1"
+        ],
+        [
+          "Size",
+          "S, 4 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "15"
+        ],
+        [
+          "THAC0",
+          "19"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1"
+        ],
+        [
+          "XP",
+          "175"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A brown viper around 4 ft. long."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Poison · Save vs. poison with no modifier. On failure, the victim takes 2d4 extra damage and has a −2 penalty on attack rolls for 24 hours. The onset is 1d4 rounds."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Under the bed frame · The area 2e block gives the two vipers 13 and 15 HP. Once a viper has lost at least half its HP, it tries to escape under the nearest wall.",
+            "Thrown by the zin · The vipers in area 4d use the area 2e statistics. In the encounter on p. 12, thrown vipers spend 1–2 rounds getting their bearings, strike nearby targets once or twice, then try to escape."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Animal intelligence. Morale 8.",
+            "The Campaign Guide’s p. 32 summary lists a second row as “black sand adder” with the viper’s AC, movement, HD, THAC0, and damage, but 9 HP. The Adventure Book names the viper and gives 13 and 15 HP on p. 10.",
+            "TSR, Caravans (1994), Adventure Book, p. 10."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Dune Viper": true,
+      "dune viper bed frame": true
+    },
+    "hash": "8276eddaa7889adf1956856a51a0cafec2e76e89d7eb9fc63e23ef6d916853b5",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  },
+  {
+    "name": "Giant Cobra",
+    "version": {
+      "key": "5e377afbd67b94f622d65a13",
+      "publication": "Caravans",
+      "edition": "AD&D 2nd edition",
+      "status": "Combat summary",
+      "images": [],
+      "stats": [
+        [
+          "Armor class",
+          "5"
+        ],
+        [
+          "Hit points",
+          "27"
+        ],
+        [
+          "Hit dice",
+          "4+2"
+        ],
+        [
+          "Size",
+          "M, 12 ft. long"
+        ],
+        [
+          "Type",
+          "Animal"
+        ],
+        [
+          "Movement",
+          "15"
+        ],
+        [
+          "THAC0",
+          "17"
+        ],
+        [
+          "Attacks per round",
+          "1"
+        ],
+        [
+          "Damage per attack",
+          "1d3"
+        ],
+        [
+          "XP",
+          "420"
+        ]
+      ],
+      "sections": [
+        {
+          "title": "Appearance",
+          "lines": [
+            "A large snake around 12 ft. long with a broad hood that spreads when it rises."
+          ]
+        },
+        {
+          "title": "Special attacks mechanics",
+          "lines": [
+            "Poison · Save vs. poison at −2. After a 2d4-round onset, the victim dies on a failed save or takes 10 extra damage on a successful save.",
+            "Hypnotic stare · The victim saves vs. paralyzation. On failure, it remains stationary for 1d6 turns."
+          ]
+        },
+        {
+          "title": "Encounters mechanics",
+          "lines": [
+            "Cabinet in Fayiz’s room · The zin makes the cobra invisible. Disturbing the cabinet draws a strike at the nearest character and the cobra becomes visible when it attacks. It fights to the death in this scene and uses the stare if an opportunity arises. The zin can calm it if the party bargains with her. See pp. 11–12."
+          ]
+        },
+        {
+          "title": "Table notes",
+          "lines": [
+            "Neutral. Animal intelligence. Morale 10.",
+            "The area 4b block gives 27 HP for this individual. The Campaign Guide’s p. 32 summary gives 23 HP.",
+            "TSR, Caravans (1994), Adventure Book, p. 11."
+          ]
+        }
+      ],
+      "portrait": {
+        "url": "",
+        "credit": "OpenAI ImageGen · The Lost Hope"
+      }
+    },
+    "siblings": [],
+    "queries": {
+      "Giant Cobra": true,
+      "giant cobra hypnotic stare": true
+    },
+    "hash": "68348461817ef19738ce0bd26a3c37190009fcd42095a90b734016de9ad6aa2b",
+    "portrait": {
+      "url": "",
+      "credit": "OpenAI ImageGen · The Lost Hope"
+    },
+    "entryGallery": []
+  }
+]

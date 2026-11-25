@@ -1,0 +1,784 @@
+{
+  "new": {
+    "Githyanki Kith’rak": {
+      "path": "output/dm-library/encounter-batches/162/art/githyanki-kith-rak.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cc6c3666adaccd4a977519f0be444ce5164c13f63d3bb85f3b9f4db17c8080c0",
+      "bytes": 2593452
+    },
+    "Githyanki Supreme Commander": {
+      "path": "output/dm-library/encounter-batches/162/art/githyanki-supreme-commander.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "797504ab1ec21a2513fde3447e8935a89830a3a50a74d2036d65160bc6f17205",
+      "bytes": 2828182
+    },
+    "Githzerai Anarch": {
+      "path": "output/dm-library/encounter-batches/162/art/githzerai-anarch.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "5d6ebfb36cd73636a98784b176e3bf9593c9c26a75c5ea68ab73c716a555c1e3",
+      "bytes": 2538263
+    },
+    "Githzerai Enlightened": {
+      "path": "output/dm-library/encounter-batches/162/art/githzerai-enlightened.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "56a080a488845060e22b7673ff8217b28df12db1e04e2000285c052cbc2300c0",
+      "bytes": 2696428
+    },
+    "Gnoll Flesh Gnawer": {
+      "path": "output/dm-library/encounter-batches/162/art/gnoll-flesh-gnawer.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8b75458d02eeffa93e1ab4c6bfb10340164e1eb68ec34586cc1ec3ca15b9f6a0",
+      "bytes": 2906538
+    },
+    "Gnoll Hunter": {
+      "path": "output/dm-library/encounter-batches/162/art/gnoll-hunter.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c9169eb8217f91dff34158c0b2da5f9808486b38ab1512a32b9f9f438424b0ec",
+      "bytes": 2841539
+    },
+    "Gnoll Witherling": {
+      "path": "output/dm-library/encounter-batches/162/art/gnoll-witherling.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a668eb5baf67c855c64fbd0c48204d41a69c999099d460d0b93a2cd82b341fc1",
+      "bytes": 2891905
+    },
+    "Gray Render": {
+      "path": "output/dm-library/encounter-batches/162/art/gray-render.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "12448214d114f9ec1bdebb2b9785d39c75b0b1dc511e2e9ffcb3a7d297c815a1",
+      "bytes": 3072085
+    },
+    "Graz’zt": {
+      "path": "output/dm-library/encounter-batches/162/art/graz-zt.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "42a33330f8de67f032b33e757a334345439b0d854aac98b3fa1d9e5b0db59b20",
+      "bytes": 2572702
+    },
+    "Green Abishai": {
+      "path": "output/dm-library/encounter-batches/162/art/green-abishai.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3f3113f892ac8557d6cb1849382b0eb55588b68ec172d2be2bb4fc51861a9eda",
+      "bytes": 2993536
+    },
+    "Grung (Blue)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-blue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "1857ddd32e696503495c4d9a548a686d6d314d4cced508521b1d1c58c35ae688",
+      "bytes": 2884609
+    },
+    "Grung (Gold)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-gold.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a09c0f2c6e82bd3af757406c4abb4f64569293367612218102f7618c35d7e28b",
+      "bytes": 2975096
+    },
+    "Grung (Green)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-green.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c0fab0b872dbbd008c20eb0cbc5becbfd22edf00cc9f812908381db4c78e9949",
+      "bytes": 2921730
+    },
+    "Grung (Orange)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-orange.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3ad71d2d595a6d898dcb01c1bf81dbe2afcf6e893eb1cf6f7c43f9d86969c4f6",
+      "bytes": 3002374
+    },
+    "Grung (Purple)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-purple.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cb14781a9c88fd18c864fa92239d427e4eff500711d6cb15e2f2437bbb073173",
+      "bytes": 2878605
+    },
+    "Grung (Red)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-red.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b661d78b6919c926ec466f9e2090691b32328845c3aad02fc1a8c43b7297a674",
+      "bytes": 2862818
+    },
+    "Grung Elite Warrior (Blue)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-elite-warrior-blue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "137f69678889805a178dc72ef96f2b6d95b0517ff1ed300367c36cf24aa8cc87",
+      "bytes": 2586606
+    },
+    "Grung Elite Warrior (Gold)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-elite-warrior-gold.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c8d5bbadcd42bfd401feebb0f15ec6176ac29c60ececa59754a578e205bbcd39",
+      "bytes": 2799855
+    },
+    "Grung Elite Warrior (Green)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-elite-warrior-green.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "55e4fac4ca65068b8c8c1ed318f3e5d5b2ee5ddfb967a4963eb745a1bafff0ca",
+      "bytes": 2857809
+    },
+    "Grung Elite Warrior (Orange)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-elite-warrior-orange.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "16fc472496d3171a23625e7128ca0ffe2078b18b0103b313cf207f3e041dd72f",
+      "bytes": 2755713
+    },
+    "Grung Elite Warrior (Purple)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-elite-warrior-purple.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7ea14f6ff71c63849098d21517686c28c57d62a2ede4189825752bf942a8600e",
+      "bytes": 2733434
+    },
+    "Grung Elite Warrior (Red)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-elite-warrior-red.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ab52731747c67f4ec7700e6b785d3eceb249db4a7b2da00db0a79a75f07af1d4",
+      "bytes": 2754437
+    },
+    "Grung Wildling (Blue)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-wildling-blue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4432ffb731900b79aa298852ea0087538da64707a956624a8c7aabb522ad0d95",
+      "bytes": 2869968
+    },
+    "Grung Wildling (Gold)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-wildling-gold.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f0944a61ad74a2431f0c25d06c9eca99467115d1d7129a1b0b191cee90f7b394",
+      "bytes": 2821954
+    },
+    "Grung Wildling (Green)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-wildling-green.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "89a8b9fb0527b35b3911ed5cbdd7c4d65c244b359ec1100008ad18ecdb597f45",
+      "bytes": 2781552
+    },
+    "Grung Wildling (Orange)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-wildling-orange.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "45ea5ee6e15f5298da50312264d936e6b10989b26d4e6f6c6fc527f363bfbfe5",
+      "bytes": 2898249
+    },
+    "Grung Wildling (Purple)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-wildling-purple.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ed7ca6575ea3fd9ea3c741afc556e1d48b713dafc2dd6528918a73038d6633d9",
+      "bytes": 2900829
+    },
+    "Grung Wildling (Red)": {
+      "path": "output/dm-library/encounter-batches/162/art/grung-wildling-red.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "355877f73ecc441b4a7280ed8e87d6cbf5fef33c5295fe3370a2eccfa259a0a8",
+      "bytes": 2850919
+    },
+    "Guard Drake (Black)": {
+      "path": "output/dm-library/encounter-batches/162/art/guard-drake-black.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "53a8ef09c1eb9a8aa4e0624b3a53932761ec7c9761772c8758d8a5d4692b68e3",
+      "bytes": 2711385
+    },
+    "Guard Drake (Blue)": {
+      "path": "output/dm-library/encounter-batches/162/art/guard-drake-blue.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "22a030eec9a7d7f4b41d2cf7a1c7151e6f652cf2fa38a2219d6c1d1516e4c6e4",
+      "bytes": 2946575
+    },
+    "Guard Drake (Green)": {
+      "path": "output/dm-library/encounter-batches/162/art/guard-drake-green.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "55ac239edd212a3b2791ec4b7662e1ae1665c7365bac2dd27a8f02283ead9e6d",
+      "bytes": 2656936
+    },
+    "Guard Drake (Red)": {
+      "path": "output/dm-library/encounter-batches/162/art/guard-drake-red.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "73ef644e9fb870c21dad0b10b6b44bd5e48b94cdd1981e1a0c898a2074ded622",
+      "bytes": 2773611
+    },
+    "Guard Drake (White)": {
+      "path": "output/dm-library/encounter-batches/162/art/guard-drake-white.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "cf1d00abb7bdab81bbc8c88473a53b7bfee3f8f109ce516a8ac76bee12c8c3fa",
+      "bytes": 2887344
+    },
+    "Hellfire Engine": {
+      "path": "output/dm-library/encounter-batches/162/art/hellfire-engine.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4cda6ea67a7d4ed16f5417c37cf1befaff210f97019df98e9563af926992d452",
+      "bytes": 3206017
+    },
+    "Hobgoblin Devastator": {
+      "path": "output/dm-library/encounter-batches/162/art/hobgoblin-devastator.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8927accc64604c94578237cf52e158d405fd5718b894b750b8a8a4c2f00c8553",
+      "bytes": 2913078
+    },
+    "Hobgoblin Iron Shadow": {
+      "path": "output/dm-library/encounter-batches/162/art/hobgoblin-iron-shadow.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "92752dad13e86d624ce44d83458542873b824366d4029c7d68e70107ce49c4c4",
+      "bytes": 2876274
+    },
+    "Howler": {
+      "path": "output/dm-library/encounter-batches/162/art/howler.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a3bd6557380d8a6b0c2b87d95f23c5c98b4b9282b87ef6b13f48ce19b7c0cc78",
+      "bytes": 2849963
+    },
+    "Hungry Sorrowsworn": {
+      "path": "output/dm-library/encounter-batches/162/art/hungry-sorrowsworn.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e8c5ae28cc59e6dd9cdaa58c424ba32abfca081d82842aee88a37eac360b5082",
+      "bytes": 2585272
+    },
+    "Hutijin": {
+      "path": "output/dm-library/encounter-batches/162/art/hutijin.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "71b25ab4d989836babf4ac8c2a97273bd2a226cea103792fe15c6974225c7c94",
+      "bytes": 3043979
+    },
+    "Hydroloth": {
+      "path": "output/dm-library/encounter-batches/162/art/hydroloth.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "4648ef042cb82be900b4406cbd7f5866fffdf54093e5a1508f9e7afd84bd9c5e",
+      "bytes": 2961344
+    },
+    "Illusionist Wizard": {
+      "path": "output/dm-library/encounter-batches/162/art/illusionist-wizard.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "d2f9e67f47b1d6931ae9e8fa1a19c1bd3e9a2171e4968a6185dd30fee903a56f",
+      "bytes": 2611859
+    },
+    "Juiblex": {
+      "path": "output/dm-library/encounter-batches/162/art/juiblex.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "ba3f1a140cc87a9bb796c67cde02a5deb625993b784548372795bef393ba58ec",
+      "bytes": 2986613
+    },
+    "Ki-rin": {
+      "path": "output/dm-library/encounter-batches/162/art/ki-rin.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "52415a56e416e4dd2ac775d993ab249c109b508fef98c0337112fbc5d51f774f",
+      "bytes": 2741584
+    },
+    "Kobold Dragonshield": {
+      "path": "output/dm-library/encounter-batches/162/art/kobold-dragonshield.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "7c11c1d40fb0ad14fd4b96663b267ef34382f314ec2b81ca6e58fa50116d76c7",
+      "bytes": 2647865
+    }
+  },
+  "added": [
+    {
+      "entry": "monster-c1cf4ff281b1f22090680be7",
+      "version": "827687eaf0f85621a9a7a79e",
+      "name": "Githyanki Kith’rak",
+      "file": "images/monsters/githyanki-kith-rak/batch-162-portrait.png",
+      "sha256": "cc6c3666adaccd4a977519f0be444ce5164c13f63d3bb85f3b9f4db17c8080c0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-04697882f06aedb69646dbfd",
+      "version": "1779606dadbc93f542e41fe0",
+      "name": "Githyanki Supreme Commander",
+      "file": "images/monsters/githyanki-supreme-commander/batch-162-portrait.png",
+      "sha256": "797504ab1ec21a2513fde3447e8935a89830a3a50a74d2036d65160bc6f17205",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-e1bd63b8a411ecc06e19abd5",
+      "version": "5ae5c1263353b6b19bd9746a",
+      "name": "Githzerai Anarch",
+      "file": "images/monsters/githzerai-anarch/batch-162-portrait.png",
+      "sha256": "5d6ebfb36cd73636a98784b176e3bf9593c9c26a75c5ea68ab73c716a555c1e3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-69ddcc70eb3acd686b8969d9",
+      "version": "415d7e8acec9c2e0c16427bc",
+      "name": "Githzerai Enlightened",
+      "file": "images/monsters/githzerai-enlightened/batch-162-portrait.png",
+      "sha256": "56a080a488845060e22b7673ff8217b28df12db1e04e2000285c052cbc2300c0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-84a2037d6b3bd17375e63d19",
+      "version": "e1c4ce2f6b6ba5f273052be7",
+      "name": "Gnoll Flesh Gnawer",
+      "file": "images/monsters/gnoll-flesh-gnawer/batch-162-portrait.png",
+      "sha256": "8b75458d02eeffa93e1ab4c6bfb10340164e1eb68ec34586cc1ec3ca15b9f6a0",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-98f88deabae8ed6321921153",
+      "version": "25789b66d969586771e0b215",
+      "name": "Gnoll Hunter",
+      "file": "images/monsters/gnoll-hunter/batch-162-portrait.png",
+      "sha256": "c9169eb8217f91dff34158c0b2da5f9808486b38ab1512a32b9f9f438424b0ec",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-2449010847f2c6ece86f8cd1",
+      "version": "bf24c64625615ec89d840693",
+      "name": "Gnoll Witherling",
+      "file": "images/monsters/gnoll-witherling/batch-162-portrait.png",
+      "sha256": "a668eb5baf67c855c64fbd0c48204d41a69c999099d460d0b93a2cd82b341fc1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-8a5fcd2d6e2edbb25b40af9c",
+      "version": "0b2f994bb7663d17c126788e",
+      "name": "Gray Render",
+      "file": "images/monsters/gray-render/batch-162-portrait.png",
+      "sha256": "12448214d114f9ec1bdebb2b9785d39c75b0b1dc511e2e9ffcb3a7d297c815a1",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-6a46c9f0bb10324743f8d9e1",
+      "version": "79c02ef62bbff1d4d5232070",
+      "name": "Graz’zt",
+      "file": "images/monsters/graz-zt/batch-162-portrait.png",
+      "sha256": "42a33330f8de67f032b33e757a334345439b0d854aac98b3fa1d9e5b0db59b20",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-938f963ce1f8b62b1a251eea",
+      "version": "c2a9c13f7a9a13e5d650fb85",
+      "name": "Green Abishai",
+      "file": "images/monsters/green-abishai/batch-162-portrait.png",
+      "sha256": "3f3113f892ac8557d6cb1849382b0eb55588b68ec172d2be2bb4fc51861a9eda",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-08e777cfa271540a2093e70e",
+      "version": "48ab79224207c6daab667532",
+      "name": "Grung",
+      "file": "images/monsters/grung-green/batch-162-portrait.png",
+      "sha256": "c0fab0b872dbbd008c20eb0cbc5becbfd22edf00cc9f812908381db4c78e9949",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Grung (Green)"
+    },
+    {
+      "entry": "monster-39b39dd77488655c437820ab",
+      "version": "97b7a92f0b09f17bf1d1612f",
+      "name": "Grung (Blue)",
+      "file": "images/monsters/grung-blue/batch-162-portrait.png",
+      "sha256": "1857ddd32e696503495c4d9a548a686d6d314d4cced508521b1d1c58c35ae688",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-889fac62379419def277a374",
+      "version": "e9e1c708effad6d50ac4c77f",
+      "name": "Grung (Gold)",
+      "file": "images/monsters/grung-gold/batch-162-portrait.png",
+      "sha256": "a09c0f2c6e82bd3af757406c4abb4f64569293367612218102f7618c35d7e28b",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-38a14ae9dc4e628eb8a2dc44",
+      "version": "62855de0b0e796fff497ea11",
+      "name": "Grung (Green)",
+      "file": "images/monsters/grung-green/batch-162-portrait.png",
+      "sha256": "c0fab0b872dbbd008c20eb0cbc5becbfd22edf00cc9f812908381db4c78e9949",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-1a48a36a5482fb3b95a6d007",
+      "version": "69e83e9966a6c10d02680aa1",
+      "name": "Grung (Orange)",
+      "file": "images/monsters/grung-orange/batch-162-portrait.png",
+      "sha256": "3ad71d2d595a6d898dcb01c1bf81dbe2afcf6e893eb1cf6f7c43f9d86969c4f6",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bb63c3aa1b26d7f4e0d96e96",
+      "version": "a4818250cf82834620bdfd85",
+      "name": "Grung (Purple)",
+      "file": "images/monsters/grung-purple/batch-162-portrait.png",
+      "sha256": "cb14781a9c88fd18c864fa92239d427e4eff500711d6cb15e2f2437bbb073173",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-7a540c747f591dc46a235255",
+      "version": "6da79f13b93e1235ecf8f713",
+      "name": "Grung (Red)",
+      "file": "images/monsters/grung-red/batch-162-portrait.png",
+      "sha256": "b661d78b6919c926ec466f9e2090691b32328845c3aad02fc1a8c43b7297a674",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3f9d92c55a2c7792f1420e37",
+      "version": "a83155bb52125740c338061b",
+      "name": "Grung Elite Warrior (Blue)",
+      "file": "images/monsters/grung-elite-warrior-blue/batch-162-portrait.png",
+      "sha256": "137f69678889805a178dc72ef96f2b6d95b0517ff1ed300367c36cf24aa8cc87",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-db28f01d6a7769d6688695f3",
+      "version": "17571c55199c66134435aa6e",
+      "name": "Grung Elite Warrior (Gold)",
+      "file": "images/monsters/grung-elite-warrior-gold/batch-162-portrait.png",
+      "sha256": "c8d5bbadcd42bfd401feebb0f15ec6176ac29c60ececa59754a578e205bbcd39",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-5cb45976ae13522ec7a0b999",
+      "version": "e6153603ca2d8bea61af7492",
+      "name": "Grung Elite Warrior (Green)",
+      "file": "images/monsters/grung-elite-warrior-green/batch-162-portrait.png",
+      "sha256": "55e4fac4ca65068b8c8c1ed318f3e5d5b2ee5ddfb967a4963eb745a1bafff0ca",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-219dc415570bf9609b415a4a",
+      "version": "a036b53e91bb71797c124031",
+      "name": "Grung Elite Warrior (Orange)",
+      "file": "images/monsters/grung-elite-warrior-orange/batch-162-portrait.png",
+      "sha256": "16fc472496d3171a23625e7128ca0ffe2078b18b0103b313cf207f3e041dd72f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-3339e866421f9effb741cc22",
+      "version": "7fa486d3cb91df0045fbc4ac",
+      "name": "Grung Elite Warrior (Purple)",
+      "file": "images/monsters/grung-elite-warrior-purple/batch-162-portrait.png",
+      "sha256": "7ea14f6ff71c63849098d21517686c28c57d62a2ede4189825752bf942a8600e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-db2d0dbd0d4d8cd90aaf6964",
+      "version": "7f8bf97f0ce3d1d8366898d9",
+      "name": "Grung Elite Warrior (Red)",
+      "file": "images/monsters/grung-elite-warrior-red/batch-162-portrait.png",
+      "sha256": "ab52731747c67f4ec7700e6b785d3eceb249db4a7b2da00db0a79a75f07af1d4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d3488015e7cbc44d1091d5f9",
+      "version": "acb8e3bc19d5da6bd40d75e4",
+      "name": "Grung Wildling",
+      "file": "images/monsters/grung-wildling-purple/batch-162-portrait.png",
+      "sha256": "ed7ca6575ea3fd9ea3c741afc556e1d48b713dafc2dd6528918a73038d6633d9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Grung Wildling (Purple)"
+    },
+    {
+      "entry": "monster-59c0fcf281379c9dbe575a1e",
+      "version": "82af85689c8ace81dd8b524c",
+      "name": "Grung Wildling (Blue)",
+      "file": "images/monsters/grung-wildling-blue/batch-162-portrait.png",
+      "sha256": "4432ffb731900b79aa298852ea0087538da64707a956624a8c7aabb522ad0d95",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-9a33c84df09b58c15186dc2f",
+      "version": "c81f2892fc0ab812663958dd",
+      "name": "Grung Wildling (Gold)",
+      "file": "images/monsters/grung-wildling-gold/batch-162-portrait.png",
+      "sha256": "f0944a61ad74a2431f0c25d06c9eca99467115d1d7129a1b0b191cee90f7b394",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4f41704eae24439e8962bc06",
+      "version": "ef578aed2a82b51cc4beb938",
+      "name": "Grung Wildling (Green)",
+      "file": "images/monsters/grung-wildling-green/batch-162-portrait.png",
+      "sha256": "89a8b9fb0527b35b3911ed5cbdd7c4d65c244b359ec1100008ad18ecdb597f45",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d3045683575745a6a1d155ca",
+      "version": "c3e788a99c18aa186b703e9c",
+      "name": "Grung Wildling (Orange)",
+      "file": "images/monsters/grung-wildling-orange/batch-162-portrait.png",
+      "sha256": "45ea5ee6e15f5298da50312264d936e6b10989b26d4e6f6c6fc527f363bfbfe5",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-b16aae7a479fa0619b47e9a0",
+      "version": "e5e499c9071b529a46021552",
+      "name": "Grung Wildling (Purple)",
+      "file": "images/monsters/grung-wildling-purple/batch-162-portrait.png",
+      "sha256": "ed7ca6575ea3fd9ea3c741afc556e1d48b713dafc2dd6528918a73038d6633d9",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-10e0d412067811c02add63e2",
+      "version": "dcc2fdc4b7828b44079de369",
+      "name": "Grung Wildling (Red)",
+      "file": "images/monsters/grung-wildling-red/batch-162-portrait.png",
+      "sha256": "355877f73ecc441b4a7280ed8e87d6cbf5fef33c5295fe3370a2eccfa259a0a8",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-bb774307b671c4a54d0d2fd4",
+      "version": "8f38478649dae8f38cbfa2ec",
+      "name": "Guard Drake",
+      "file": "images/monsters/shared-portraits-162/guard-drake-archived-generated-portrait-bafb78f8161a.png",
+      "sha256": "bafb78f8161a9e9a5f6642647c879cb26c43b61cd80fc9bbea117e79f02ff63e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reusedFrom": "Guard Drake (archived generated portrait)"
+    },
+    {
+      "entry": "monster-8daa0ae747111b29586ea23b",
+      "version": "d7af64f6300ae37a6209c26a",
+      "name": "Guard Drake (Black)",
+      "file": "images/monsters/guard-drake-black/batch-162-portrait.png",
+      "sha256": "53a8ef09c1eb9a8aa4e0624b3a53932761ec7c9761772c8758d8a5d4692b68e3",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-d7a8395236f2c2e02f4782b8",
+      "version": "46b8836f05021f4420370c04",
+      "name": "Guard Drake (Blue)",
+      "file": "images/monsters/guard-drake-blue/batch-162-portrait.png",
+      "sha256": "22a030eec9a7d7f4b41d2cf7a1c7151e6f652cf2fa38a2219d6c1d1516e4c6e4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f62d63ad48a5c4a157f42d92",
+      "version": "159648cd17bae6ed3603eb97",
+      "name": "Guard Drake (Green)",
+      "file": "images/monsters/guard-drake-green/batch-162-portrait.png",
+      "sha256": "55ac239edd212a3b2791ec4b7662e1ae1665c7365bac2dd27a8f02283ead9e6d",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-856e0d59bf2c2e496ca1669e",
+      "version": "c03260b77e621fbaf17ba516",
+      "name": "Guard Drake (Red)",
+      "file": "images/monsters/guard-drake-red/batch-162-portrait.png",
+      "sha256": "73ef644e9fb870c21dad0b10b6b44bd5e48b94cdd1981e1a0c898a2074ded622",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-a0892a5321a5c5c6411666ff",
+      "version": "a2ae68ca7000212f32fb247e",
+      "name": "Guard Drake (White)",
+      "file": "images/monsters/guard-drake-white/batch-162-portrait.png",
+      "sha256": "cf1d00abb7bdab81bbc8c88473a53b7bfee3f8f109ce516a8ac76bee12c8c3fa",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c3938ed1ecaa1bce47cceda2",
+      "version": "b30665eb8ad82b8ee5e54103",
+      "name": "Hellfire Engine",
+      "file": "images/monsters/hellfire-engine/batch-162-portrait.png",
+      "sha256": "4cda6ea67a7d4ed16f5417c37cf1befaff210f97019df98e9563af926992d452",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-03886f8df1e291b887dddb77",
+      "version": "dc5a573bb4488118d0d36ce6",
+      "name": "Hobgoblin Devastator",
+      "file": "images/monsters/hobgoblin-devastator/batch-162-portrait.png",
+      "sha256": "8927accc64604c94578237cf52e158d405fd5718b894b750b8a8a4c2f00c8553",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-4452e845bec150c4fe1f40fb",
+      "version": "65753f9983563ccfc117c0a0",
+      "name": "Hobgoblin Iron Shadow",
+      "file": "images/monsters/hobgoblin-iron-shadow/batch-162-portrait.png",
+      "sha256": "92752dad13e86d624ce44d83458542873b824366d4029c7d68e70107ce49c4c4",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-c9ad751045363a578d2928b8",
+      "version": "c197666b20ee7582e90fb278",
+      "name": "Howler",
+      "file": "images/monsters/howler/batch-162-portrait.png",
+      "sha256": "a3bd6557380d8a6b0c2b87d95f23c5c98b4b9282b87ef6b13f48ce19b7c0cc78",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-cf68cf37cb4d5b09f92258a2",
+      "version": "13325b0aa3792cbf495fe5f9",
+      "name": "Hungry Sorrowsworn",
+      "file": "images/monsters/hungry-sorrowsworn/batch-162-portrait.png",
+      "sha256": "e8c5ae28cc59e6dd9cdaa58c424ba32abfca081d82842aee88a37eac360b5082",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-ad6f014b2b54a966811c693d",
+      "version": "c094599e2db6a7de760993c3",
+      "name": "Hutijin",
+      "file": "images/monsters/hutijin/batch-162-portrait.png",
+      "sha256": "71b25ab4d989836babf4ac8c2a97273bd2a226cea103792fe15c6974225c7c94",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-88cb82c75d6b6a77d0fd3f34",
+      "version": "d3e5efa91a3b6a863dc5db7d",
+      "name": "Hydroloth",
+      "file": "images/monsters/hydroloth/batch-162-portrait.png",
+      "sha256": "4648ef042cb82be900b4406cbd7f5866fffdf54093e5a1508f9e7afd84bd9c5e",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-00b31eedf263f4be662e59ea",
+      "version": "8651cd2fe23bd4c9a794fccc",
+      "name": "Illusionist Wizard",
+      "file": "images/monsters/illusionist-wizard/batch-162-portrait.png",
+      "sha256": "d2f9e67f47b1d6931ae9e8fa1a19c1bd3e9a2171e4968a6185dd30fee903a56f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-f6c9623e877d060b1af037b9",
+      "version": "b3dabe70daa01bf7778364a9",
+      "name": "Juiblex",
+      "file": "images/monsters/juiblex/batch-162-portrait.png",
+      "sha256": "ba3f1a140cc87a9bb796c67cde02a5deb625993b784548372795bef393ba58ec",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-638b1a48a8fbd3217ca95072",
+      "version": "7714684d1d3f7bea4b80505b",
+      "name": "Ki-rin",
+      "file": "images/monsters/ki-rin/batch-162-portrait.png",
+      "sha256": "52415a56e416e4dd2ac775d993ab249c109b508fef98c0337112fbc5d51f774f",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    },
+    {
+      "entry": "monster-fc6430052e3e82bd32f7dc62",
+      "version": "89c1d3c450f2209d8d3d1629",
+      "name": "Kobold Dragonshield",
+      "file": "images/monsters/kobold-dragonshield/batch-162-portrait.png",
+      "sha256": "7c11c1d40fb0ad14fd4b96663b267ef34382f314ec2b81ca6e58fa50116d76c7",
+      "credit": "OpenAI ImageGen",
+      "style": "The Lost Hope square parchment",
+      "reference": ""
+    }
+  ]
+}

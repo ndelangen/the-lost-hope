@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Wildren",
+    "kind": "species",
+    "publication": "Planar Handbook (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Outsider native to the Beastlands. It gains the Extraplanar subtype away from the Beastlands. Racial adjustments are +4 Constitution, −2 Dexterity, and −2 Charisma.",
+      "Land speed 20 ft. even in medium or heavy armor or with a medium or heavy load. Burrow speed 10 ft. In soil or loose dirt, a Wildren can dig a warren for one Medium creature in one hour.",
+      "Darkvision 60 ft. and scent. Each of its two primary natural claws deals 1d4 + Strength bonus. A claw-only full attack can use both claws.",
+      "Fury (Ex), 1/day. After taking at least 1 point of damage, the Wildren can activate Fury at the start of its next turn. For one round, it gains +4 Strength and takes −2 AC. It cannot end Fury voluntarily. Fury stacks with barbarian rage.",
+      "Stability (Ex) grants +4 on ability checks to resist bull rush or trip while standing firmly on the ground. It does not apply while climbing, flying, riding, or otherwise off firm footing.",
+      "Common and Dwarven are automatic. Wildren can communicate with badgers as if using speak with animals limited to badgers. Bonus languages are Sylvan, Gnome, Goblin, Orc, and Terran. Favored class Barbarian. LA +1. The profile specifies no racial Hit Dice."
+    ]
+  }
+]

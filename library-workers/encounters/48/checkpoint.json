@@ -1,0 +1,29 @@
+{
+  "commit": "f53de5a0f3846c59a8840772562ab020b926242d",
+  "publication": "Flee, Mortals!",
+  "encounterVersions": 2,
+  "fullStatBlocks": 2,
+  "generatedPortraitsInstalled": 2,
+  "creditedGalleriesVerified": 2,
+  "allRecentVersionsWithGeneratedPortrait": 578,
+  "testsPassed": 897,
+  "productionBuildPassed": true,
+  "visualComparison": "output/dm-library/review/encounters-48-before-after.jpg",
+  "styleReferenceSheet": "output/dm-library/review/encounters-48-style-reference.jpg",
+  "results": "output/dm-library/encounter-batches/48/results.json",
+  "searchResults": "output/dm-library/encounter-batches/48/search-results.json",
+  "nextSourcePublication": "Flee, Mortals!",
+  "unverifiedNextCandidates": [
+    {
+      "name": "Devil Notary",
+      "source": "https://www.dndbeyond.com/monsters/4485821-devil-notary",
+      "challenge": "6"
+    },
+    {
+      "name": "Infernal Chancellor Lazivos",
+      "source": "https://www.dndbeyond.com/monsters/4485901-infernal-chancellor-lazivos",
+      "challenge": "16"
+    }
+  ],
+  "nextSourceNote": "Check the Notary’s printed minion CR and stacking blessing, and Lazivos’s named leader rules and Villain Actions."
+}

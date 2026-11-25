@@ -1,0 +1,556 @@
+[
+  {
+    "name": "Qawasha",
+    "statBlock": {
+      "name": "Qawasha",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Medium humanoid (human), neutral good",
+      "ac": 11,
+      "hp": 27,
+      "hitDice": "5d8 + 5",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 14,
+      "description": "An Emerald Enclave guide based at Fort Beluarian who travels with the vegepygmy Kupalué. He deliberately takes routes through undead territory to help drive the undead out of Chult.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Medicine": 4,
+        "Nature": 3,
+        "Perception": 4
+      },
+      "sections": {
+        "Armor": "AC 11, or 16 while protected by Barkskin.",
+        "Languages": "Druidic and two other languages. Qawasha and Kupalué use a private sign language with each other.",
+        "Spellcasting": "4th-level druid, Wisdom, save DC 12, +4 to hit with spell attacks. Treat him as a druid for magic item use and attunement requirements.\nCantrips (at will). Druidcraft, Produce Flame, Shillelagh.\n1st level (4 slots). Entangle, Longstrider, Speak with Animals, Thunderwave.\n2nd level (3 slots). Animal Messenger, Barkskin.",
+        "Actions": "Quarterstaff. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 3 (1d6) bludgeoning damage, or 4 (1d8) with both hands. While Shillelagh is active, the attack is +4 to hit and deals 6 (1d8 + 2) bludgeoning damage.",
+        "Guide": "Qawasha knows the jungle's plants and animals and can find campsites near Chwingas. When he guides an expedition, he deliberately seeks out undead-infested areas to clear them. He recommends buying an exploration charter before leaving Fort Beluarian because the Flaming Fist mistreats unlicensed explorers.",
+        "Printed source": "Tomb of Annihilation, p. 35, handout 7 on p. 246. Use the Druid from Monster Manual (2014), p. 346, with the published errata."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Druid",
+          "terms": [
+            "Druid"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#druid_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Kupalué",
+          "terms": [
+            "Kupalué",
+            "Weed"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kupalu%C3%A9_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Chwinga",
+          "terms": [
+            "Chwinga",
+            "Chwingas"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#chwinga_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "River Mist",
+    "statBlock": {
+      "name": "River Mist",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Medium humanoid (tabaxi), chaotic good",
+      "ac": 14,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft., climb 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 14,
+      "description": "A quiet tabaxi guide who wears an eyepatch over her right eye. She prefers the jungle to crowds and guides out of Port Nyanzaru alongside her brother Flask of Wine.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Athletics": 2,
+        "Perception": 4,
+        "Stealth": 5,
+        "Survival": 6
+      },
+      "sections": {
+        "Armor": "Leather armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common and one other language.",
+        "Traits": "Feline Agility. When River moves on her turn in combat, she can double her speed for the rest of that turn. She regains this option after spending one of her turns without moving.",
+        "Actions": "Multiattack. Make two attacks using Claws, Shortsword, or Shortbow.\nClaws. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) slashing damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage.",
+        "Guide": "The siblings meet clients discreetly in Malar's Throat or Tiryki Anchorage and can lead a group to Firefinger and Dungrunglung. The Zhentarim ask them to gather information on Artus Cimber. Unless given a reason to keep quiet, they report what they learn on their next visit to Port Nyanzaru.",
+        "Printed source": "Tomb of Annihilation, p. 35, using the Tabaxi Hunter on p. 232. Handout 8 appears on p. 247."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Tabaxi Hunter",
+          "terms": [
+            "Tabaxi Hunter"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#tabaxi%20hunter_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Flask of Wine",
+          "terms": [
+            "Flask of Wine",
+            "Flask"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#flask%20of%20wine_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Artus Cimber",
+          "terms": [
+            "Artus Cimber"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#artus%20cimber_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Salida",
+    "statBlock": {
+      "name": "Salida",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Medium humanoid (yuan-ti), neutral evil",
+      "ac": 11,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 11
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 11
+        },
+        "Int": {
+          "score": 13
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "description": "A yuan-ti operative who passes as a Chultan guide in Port Nyanzaru. She tries to join expeditions headed toward Omu, even if the only available work is as a porter or paddler.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 6,
+        "Perception": 3,
+        "Stealth": 3,
+        "Survival": 5
+      },
+      "sections": {
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Magic Resistance. Salida has advantage on saves against spells and other magical effects.",
+        "Innate spellcasting": "Charisma, save DC 12, no material components.\nAt will. Animal Friendship (snakes only).\n3/day each. Poison Spray, Suggestion.",
+        "Actions": "Multiattack. Make two melee attacks.\nScimitar. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. A hit deals 4 (1d6 + 1) piercing damage plus 7 (2d6) poison damage.",
+        "Equipment and allegiance": "Salida carries one of a pair of Sending Stones in a pouch. She uses it to report expedition activity to Ras Nsi.",
+        "Printed source": "Tomb of Annihilation, p. 35, handout 9 on p. 247. Use the Yuan-ti Pureblood from Monster Manual (2014), p. 310, and add Survival +5."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Yuan-ti Pureblood",
+          "terms": [
+            "Yuan-ti Pureblood"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yuan-ti%20pureblood_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ras Nsi",
+          "terms": [
+            "Ras Nsi"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ras%20nsi_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sekelok",
+    "statBlock": {
+      "name": "Sekelok",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 120,
+      "classification": "Medium humanoid (yuan-ti), neutral evil",
+      "ac": 18,
+      "hp": 143,
+      "hitDice": "22d8 + 44",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 16,
+      "description": "Ras Nsi's bodyguard in the Fane of the Night Serpent. Ras Nsi uses him to punish challengers in duels to first blood or death.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 6
+      },
+      "skills": {
+        "Athletics": 9,
+        "Intimidation": 5,
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor from thick scales.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Abyssal, Common, Draconic.",
+        "Traits": "Indomitable (2/day). Reroll a failed saving throw.\nMagic Resistance. Sekelok has advantage on saves against spells and other magical effects.",
+        "Innate spellcasting": "Charisma, save DC 13, no material components.\nAt will. Animal Friendship (snakes only), Poison Spray.\n3/day. Suggestion.",
+        "Actions": "Multiattack. Make three attacks using Greatsword or Shortbow.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage. If Sekelok has more than half his maximum hit points left, it deals an extra 7 (2d6) slashing damage.\nShortbow. Ranged weapon attack, +6 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage. If Sekelok has more than half his maximum hit points left, it deals an extra 7 (2d6) piercing damage.",
+        "Bonus actions": "Second Wind (recharges after a short or long rest). Regain 20 hit points.",
+        "Throne room": "By day Sekelok guards Ras Nsi in area 11 with three Yuan-ti Broodguards. After Ras Nsi retires to area 12 at night, Sekelok usually stays at his post but sometimes slips away to see Neema in area 10. If the gong in area 9 sounds, he and the other yuan-ti guards investigate while the ghouls stay behind the throne and Ras Nsi withdraws.",
+        "Printed source": "Tomb of Annihilation, ch. 4, p. 120 (area 11), using the Champion printed on p. 216 (originally Volo's Guide to Monsters, p. 212). The variant changes defenses, senses, languages, and spells. It retains the Champion's 30-ft. speed."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Champion",
+          "terms": [
+            "Champion"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#champion_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ras Nsi",
+          "terms": [
+            "Ras Nsi"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ras%20nsi_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Yuan-ti Broodguard",
+          "terms": [
+            "Yuan-ti Broodguard",
+            "Yuan-ti Broodguards"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ghoul",
+          "terms": [
+            "Ghoul",
+            "Ghouls"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ghoul_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shago",
+    "statBlock": {
+      "name": "Shago",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 35,
+      "classification": "Medium humanoid (human), chaotic good",
+      "ac": 16,
+      "hp": 112,
+      "hitDice": "15d8 + 45",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "Zhanthi's son guides expeditions from Fort Beluarian. He wants to impress Liara Portyr and earn an official place in the Flaming Fist.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 7,
+        "Dex": 5,
+        "Con": 6
+      },
+      "skills": {
+        "Athletics": 10,
+        "Intimidation": 5,
+        "Survival": 7
+      },
+      "sections": {
+        "Armor": "Studded leather armor and shield.",
+        "Languages": "One language, usually Common.",
+        "Traits": "Brave. Shago has advantage on saves against being frightened.\nBrute. A melee weapon hit adds one weapon damage die, already included in the attacks below.",
+        "Actions": "Multiattack. Make three melee attacks or two ranged attacks.\nSpear. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) if he uses both hands in melee.\nShield Bash. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 9 (2d4 + 4) bludgeoning damage. A Medium or smaller target must succeed on a DC 15 Strength save or fall prone.",
+        "Reactions": "Parry. Add 3 to AC against one melee attack that would hit, provided Shago sees the attacker and is wielding a melee weapon.",
+        "Guide": "While Shago guides the party, characters have advantage on Charisma checks to influence Flaming Fist members. He works closely with the faction while presenting himself as independent. He shares little useful information with his mother.",
+        "Printed source": "Tomb of Annihilation, p. 35, handout 10 on p. 248. Use the Gladiator from Monster Manual (2014), p. 346, and add Survival +7."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Gladiator",
+          "terms": [
+            "Gladiator"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#gladiator_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Liara Portyr",
+          "terms": [
+            "Liara Portyr"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#liara%20portyr_toa"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Zhanthi",
+          "terms": [
+            "Zhanthi"
+          ],
+          "printing": {
+            "publication": "Tomb of Annihilation",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#zhanthi_toa"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Skeleton Key",
+    "statBlock": {
+      "name": "Skeleton Key",
+      "publication": "Tomb of Annihilation",
+      "edition": "2014 fifth edition",
+      "printedPage": 126,
+      "classification": "Medium undead, unaligned",
+      "ac": 13,
+      "hp": 13,
+      "hitDice": "2d8 + 4",
+      "speed": "30 ft., climb 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 8
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "1/4",
+      "xp": 50,
+      "passivePerception": 9,
+      "description": "A roaming human skeleton whose skull has been carved into a key for the gate in the Sewn Sisters' lair. It usually flees when approached.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Armor scraps.",
+        "Damage vulnerabilities": "Bludgeoning.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Exhaustion, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands the languages it knew in life. It cannot speak.",
+        "Traits": "Spider Climb. The skeleton can traverse difficult surfaces, including ceilings, without an ability check.\nUndead Nature. It needs no air, food, drink, or sleep.\nTomb Traps. The skeleton does not trigger traps in tomb rooms or on tomb doors.\nIntact Remains. At 0 hit points it falls apart, leaving its skull and other bones intact.",
+        "Actions": "Multiattack. Make two melee Dagger attacks.\nDagger. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) piercing damage.",
+        "Finding the keys": "Place one skeleton on each of the first five tomb levels in a location marked by a skull on the level map. A DC 12 Wisdom (Survival) check follows a key's trail to the nearest unexplored location bearing that mark. The skulls are triangle, square, pentagon, hexagon, and octagon in level order. The key flees if it can to avoid capture or destruction. Characters can capture the skeleton or remove its skull.",
+        "Skeleton gate": "In area 71, completing each trial in areas 72 through 76 exposes one corresponding keyhole. Insert the matching skull and turn it clockwise. Once all five tumblers are unlocked, pull the door open to reach the stairs to area 77. Damage and spells cannot open the gate or remove its seals. The Sewn Sisters enter from the Border Ethereal when the party opens all five keyholes with the keys in hand. A hag that takes a key retreats into the Border Ethereal with it.",
+        "Printed source": "Tomb of Annihilation, pp. 126–127 and 180 (area 71), adapting the Skeleton from Monster Manual (2014), p. 272."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Skeleton",
+          "terms": [
+            "Skeleton"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#skeleton_mm"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Grudgel",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Base. Medium Humanoid, 30 ft. walking speed. Grudgels mature around age 16 and may live into their seventies or beyond.",
+      "The revised heritage system starts with eight choices from the shared trait list. A repeated trait uses another choice and unlocks its listed upgrade. Chapter 1 assigns +2 and +1 to two different ability scores. Choose languages with the GM to fit the character’s origin in Etharis.",
+      "Traditional combat. Battlefield Control allows opportunity attacks when creatures enter reach as well as when they leave. Centered uses a bonus action to grant advantage on one attack or check before the start of the next turn, with proficiency-bonus uses per long rest.",
+      "Traditional exploration. Darkvision extends to 60 ft. Powerful Build treats you as one size larger for carrying, pushing, dragging, and lifting. Tireless grants advantage on saves tied to gaining or removing exhaustion.",
+      "Traditional roleplaying. Artisanal Focus grants one artisan's tool proficiency. With proficient tools, materials, and equipment, Impromptu Artisan can make one nonmagical item worth up to 10 gp during a short rest. Magical Savvy grants a chosen cantrip with its list's casting ability."
+    ]
+  },
+  {
+    "name": "Accursed",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Base. Small or Medium Humanoid, chosen to match the character. Walking speed is 30 ft. A Small Accursed can choose 25 ft. for one additional heritage trait. Lifespan varies with origin.",
+      "The revised heritage system starts with eight choices from the shared trait list. A repeated trait uses another choice and unlocks its listed upgrade. Chapter 1 assigns +2 and +1 to two different ability scores. Choose languages with the GM to fit the character’s origin in Etharis.",
+      "Accursed traits are freely selected from the shared heritage list. Accursed may borrow options from a heritage they resemble or choose a wholly original combination.",
+      "The staged relic fence's choices are Centered, Lucky, Burst of Speed, Climber, Darkvision, Eager Deceiver, Magical Savvy, and Masterful Aptitude."
+    ]
+  },
+  {
+    "name": "Arisen",
+    "kind": "species",
+    "publication": "Grim Hollow: Player’s Guide",
+    "edition": "Fifth edition compatible",
+    "traits": [
+      "Base. Small or Medium, with a 30 ft. walking speed. A Small Arisen can choose 25 ft. for one extra traditional trait. Some Arisen live 200 years or more, while others age rapidly.",
+      "The revised heritage system starts with eight choices from the shared trait list. A repeated trait uses another choice and unlocks its listed upgrade. Chapter 1 assigns +2 and +1 to two different ability scores. Choose languages with the GM to fit the character’s origin in Etharis.",
+      "Traditional combat. Magical Fortification grants advantage on saves using one chosen ability against magic. Tenacious grants advantage on death saves. Toughness adds 1 maximum HP at each character level, including first.",
+      "Traditional exploration. Artificial Form makes you a Construct that still benefits from healing spells and Hit Dice. It removes the need to eat, drink, sleep, or breathe, with eight inactive hours still needed for a long rest. Inured to the Elements grants advantage on Constitution saves against extreme heat or cold.",
+      "Traditional roleplaying. Embrace the Past grants History proficiency and Magical Insight grants Arcana proficiency. Unnatural Healer lets you reattach or replace compatible severed parts during a long rest. It also reverses grievous wounds when using the optional wound rules."
+    ]
+  }
+]

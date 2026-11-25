@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Raptoran",
+    "species": "species-2563316f22db2578288a6b94",
+    "edition": "3.5 edition",
+    "profiles": [
+      "Races of the Wild (2005)"
+    ],
+    "portraitSha256": "6e74c9795f0145dd63c1d50ac2db6eac3e7bea5ff50903c4d78b3b91338c78cb",
+    "caption": "Avilli · Original Raptoran glider",
+    "npcReceipts": [
+      {
+        "name": "Avilli",
+        "id": "npc-b59555fb8fc20f0f042ab151",
+        "challenge": "Provisional CR 1/2. ECL 1."
+      },
+      {
+        "name": "Tarinel",
+        "id": "npc-7d261bd23993e6ddca239e1e",
+        "challenge": "Provisional CR 5. ECL 5."
+      }
+    ]
+  }
+]

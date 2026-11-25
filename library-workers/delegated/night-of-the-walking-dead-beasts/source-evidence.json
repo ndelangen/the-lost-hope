@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Crocodile",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "printedName": "Crocodile",
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 9352,
+    "author": "Bill Slavicsek",
+    "sourcePrinting": "1992 TSR print (RQ1)",
+    "section": "Part I, The Swamp: The Crocodile",
+    "printedPages": [
+      7,
+      8
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/vsya/",
+    "pageImages": [
+      {
+        "printPage": 7,
+        "scanPage": 8,
+        "imageUrl": "https://online.anyflip.com/vjcbu/vsya/files/large/6e5a6a706573d43057464b50623c92f0.webp",
+        "inspectedImageSha256": "a19cce60880d6f1bccd1d77485842704d42006b08a7054004091b4106460d473"
+      },
+      {
+        "printPage": 8,
+        "scanPage": 9,
+        "imageUrl": "https://online.anyflip.com/vjcbu/vsya/files/large/65e03aa82382f95fefecf01b1b7fcf2d.webp",
+        "inspectedImageSha256": "4f310668c1809b75816bd1969d3d9f3c49a6c8003e2dbe2deec58a5bd340eead"
+      }
+    ],
+    "comparisonArchivedPublisherPdf": "",
+    "comparisonOnlinePdfPages": [
+      7,
+      8
+    ],
+    "comparisonOnlinePdfSha256": "388126d23e743c8506b22961bbbab599bd7b477a7b5fbe997fa6bf2db0590ff5",
+    "archiveAndLocalOnlinePdfBytesMatch": true,
+    "printedHitDice": "3",
+    "printedEncounterHitPoints": 14,
+    "entryId": "beast-02766f3002eaa501317fc1ac",
+    "versionKey": "ccad7a1393721ff0954c51f2",
+    "slug": "crocodile",
+    "query": "crocodile raft floating logs",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Frog",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "printedName": "Giant Frogs (3)",
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 9352,
+    "author": "Bill Slavicsek",
+    "sourcePrinting": "1992 TSR print (RQ1)",
+    "section": "Part I, The Swamp: The Giant Frogs",
+    "printedPages": [
+      8
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/vsya/",
+    "pageImages": [
+      {
+        "printPage": 8,
+        "scanPage": 9,
+        "imageUrl": "https://online.anyflip.com/vjcbu/vsya/files/large/65e03aa82382f95fefecf01b1b7fcf2d.webp",
+        "inspectedImageSha256": "4f310668c1809b75816bd1969d3d9f3c49a6c8003e2dbe2deec58a5bd340eead"
+      }
+    ],
+    "comparisonArchivedPublisherPdf": "",
+    "comparisonOnlinePdfPages": [
+      8
+    ],
+    "comparisonOnlinePdfSha256": "388126d23e743c8506b22961bbbab599bd7b477a7b5fbe997fa6bf2db0590ff5",
+    "archiveAndLocalOnlinePdfBytesMatch": true,
+    "printedHitDice": "2",
+    "printedEncounterHitPoints": [
+      5,
+      8,
+      10
+    ],
+    "entryId": "beast-9eac7a553c5f1cd52724dc6f",
+    "versionKey": "992bf5ede2cd59208f531ffd",
+    "slug": "giant-frog",
+    "query": "giant frog sticky tongue raft",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Bat",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "printedName": "Giant Bats (1d6 appear)",
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 9352,
+    "author": "Bill Slavicsek",
+    "sourcePrinting": "1992 TSR print (RQ1)",
+    "section": "Part III, Lair of the Zombie Lord: 4. Decrepit Mausoleum",
+    "printedPages": [
+      30
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/vsya/",
+    "pageImages": [
+      {
+        "printPage": 30,
+        "scanPage": 31,
+        "imageUrl": "https://online.anyflip.com/vjcbu/vsya/files/large/afd312e1d5c8dbb69a6b2478cb28f2e7.webp",
+        "inspectedImageSha256": "f8d389f29f71c1d0a24ae516abecbfb2aab9926e56700f13bf81e727eb150bcd"
+      }
+    ],
+    "comparisonArchivedPublisherPdf": "",
+    "comparisonOnlinePdfPages": [
+      22
+    ],
+    "comparisonOnlinePdfSha256": "388126d23e743c8506b22961bbbab599bd7b477a7b5fbe997fa6bf2db0590ff5",
+    "archiveAndLocalOnlinePdfBytesMatch": true,
+    "printedHitDice": null,
+    "printedEncounterHitPoints": "1d4 per bat",
+    "entryId": "beast-9c56a844ca4260d80807d1f8",
+    "versionKey": "2258ecc36119a1c1d623418e",
+    "slug": "giant-bat",
+    "query": "giant bat decrepit mausoleum missile attacks",
+    "portraitSelection": "generated"
+  },
+  {
+    "name": "Giant Rat",
+    "kind": "beast",
+    "publication": "Night of the Walking Dead",
+    "edition": "AD&D 2nd edition",
+    "printedName": "Giant Rats (3d6 appear)",
+    "publisher": "TSR",
+    "year": 1992,
+    "productNumber": 9352,
+    "author": "Bill Slavicsek",
+    "sourcePrinting": "1992 TSR print (RQ1)",
+    "section": "Part III, Lair of the Zombie Lord: 6. Tomb of Rats",
+    "printedPages": [
+      30
+    ],
+    "printScanViewer": "https://online.anyflip.com/vjcbu/vsya/",
+    "pageImages": [
+      {
+        "printPage": 30,
+        "scanPage": 31,
+        "imageUrl": "https://online.anyflip.com/vjcbu/vsya/files/large/afd312e1d5c8dbb69a6b2478cb28f2e7.webp",
+        "inspectedImageSha256": "f8d389f29f71c1d0a24ae516abecbfb2aab9926e56700f13bf81e727eb150bcd"
+      }
+    ],
+    "comparisonArchivedPublisherPdf": "",
+    "comparisonOnlinePdfPages": [
+      23
+    ],
+    "comparisonOnlinePdfSha256": "388126d23e743c8506b22961bbbab599bd7b477a7b5fbe997fa6bf2db0590ff5",
+    "archiveAndLocalOnlinePdfBytesMatch": true,
+    "printedHitDice": null,
+    "printedEncounterHitPoints": "1d4 per rat",
+    "entryId": "beast-d52fae2d1ea07a53f2c1ee64",
+    "versionKey": "36bda090954a356449fb30fd",
+    "slug": "giant-rat",
+    "query": "giant rat tomb of rats open vaults",
+    "portraitSelection": "generated"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Hobgoblin Brandbearer",
+    "query": "brazier-topped camp firefield searing grasp too hot to handle",
+    "condition": null,
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "name": "Hobgoblin Incendiarist",
+    "query": "clay pot siege lines blazing crossbow fire mote",
+    "condition": "Prone",
+    "alternates": [
+      {
+        "credit": "OpenAI ImageGen · The Lost Hope",
+        "url": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Meazel",
+    "statBlock": {
+      "name": "Meazel",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 214,
+      "classification": "Medium humanoid (meazel), neutral evil",
+      "ac": 13,
+      "hp": 35,
+      "hitDice": "10d8 - 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 13,
+      "description": "A recluse twisted by the Shadowfell. It ambushes travelers near crossings and spirits captured prey away through the dark.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 3,
+        "Stealth": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common.",
+        "Bonus actions": "Shadow Stealth. Take the Hide action in dim light or darkness.",
+        "Actions": "Garrote. Melee weapon attack, +5 to hit, reach 5 ft., one target no larger than the meazel. A hit deals 6 (1d6 + 3) bludgeoning damage and grapples the target (escape DC 13, with disadvantage). The grappled target takes 10 (2d6 + 3) bludgeoning damage at the start of each of the meazel’s turns. The meazel cannot make weapon attacks while holding a creature this way.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) piercing damage plus 3 (1d6) necrotic damage.\nShadow Teleport (Recharge 5–6). Teleport up to 500 ft. with worn or carried gear and any grappled creature. Both spaces must be in dim light or darkness. The meazel must have seen the destination before, but does not need to see it now. If the destination is occupied, arrive in the nearest unoccupied space. Any other creature transported is cursed for 1 hour. Undead and creatures native to the Shadowfell within 300 ft. can sense the cursed creature, which cannot hide from them.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 214."
+      }
+    }
+  },
+  {
+    "name": "Merregon",
+    "statBlock": {
+      "name": "Merregon",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 166,
+      "classification": "Medium fiend (devil), lawful evil",
+      "ac": 16,
+      "hp": 45,
+      "hitDice": "6d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 6
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 8
+        }
+      },
+      "cr": "4",
+      "xp": 1100,
+      "passivePerception": 11,
+      "description": "A masked legionnaire of the Nine Hells. Markings on its mask identify whose orders it follows and the layer it serves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Frightened, poisoned.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Infernal but cannot speak. Telepathy 120 ft.",
+        "Traits": "Devil’s Sight. The merregon can use its darkvision through magical darkness.\nMagic Resistance. It makes saving throws against spells and other magical effects with advantage.",
+        "Actions": "Multiattack. Make two Halberd attacks. Make three instead if an allied fiend of CR 6 or higher is within 60 ft.\nHalberd. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) slashing damage.\nHeavy Crossbow. Ranged weapon attack, +4 to hit, range 100/400 ft., one target. A hit deals 7 (1d10 + 2) piercing damage.",
+        "Reactions": "Loyal Bodyguard. When an attack hits another fiend within 5 ft., take that hit in the other fiend’s place.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 166."
+      }
+    }
+  },
+  {
+    "name": "Merrenoloth",
+    "statBlock": {
+      "name": "Merrenoloth",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 250,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 13,
+      "hp": 40,
+      "hitDice": "9d8",
+      "speed": "30 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "A gaunt ferryman of the River Styx. The yugoloth bonds magically with ships it is hired to captain and may stipulate that it will stay out of fights.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Int": 5
+      },
+      "skills": {
+        "History": 5,
+        "Nature": 5,
+        "Perception": 4,
+        "Survival": 4
+      },
+      "sections": {
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Poisoned.",
+        "Senses": "Blindsight 60 ft., darkvision 60 ft.",
+        "Languages": "Abyssal, Infernal. Telepathy 60 ft.",
+        "Traits": "Magic Resistance. The merrenoloth makes saving throws against spells and other magical effects with advantage.\nMagic Weapons. Its weapon attacks are magical.",
+        "Innate Spellcasting": "Intelligence (spell save DC 13). No material components needed.\nAt will. Charm Person, Darkness, Detect Magic, Dispel Magic, Gust of Wind.\n3/day. Control Water.\n1/day. Control Weather.",
+        "Actions": "Multiattack. Use Fear Gaze once and make one Oar attack.\nOar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 8 (2d4 + 3) slashing damage.\nFear Gaze. Choose one visible creature within 60 ft. It must succeed on a DC 13 Wisdom saving throw or be frightened of the merrenoloth for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on a success.",
+        "Bonus actions": "Teleport. Magically move to a visible, unoccupied space within 60 ft., bringing worn or carried equipment.",
+        "Lair actions": "A ship becomes the lair when the merrenoloth takes a contract to captain it. When fighting aboard, it can use one option on initiative count 20, losing ties. It cannot use the same option in consecutive rounds.\nRestore 22 (4d10) hit points to the ship.\nWind adds 30 ft. to the ship’s speed until initiative count 20 of the next round.\nThe air within 60 ft. of the ship becomes difficult terrain until initiative count 20 of the next round. During that time, a Medium or smaller creature that flies into the area or starts its turn flying there must succeed on a DC 13 Strength saving throw or fall prone.",
+        "Regional effects": "The merrenoloth’s ship gains one or more of these effects.\nThe hull can be breached without sinking the ship.\nThe ship stays on course for the destination the merrenoloth names.\nPassengers it chooses to take aboard are comfortable through wind and weather but remain subject to damage.\nIf the merrenoloth dies, these effects fade over 1d6 hours.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 250."
+      }
+    }
+  },
+  {
+    "name": "Moloch",
+    "statBlock": {
+      "name": "Moloch",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 177,
+      "classification": "Large fiend (devil), lawful evil",
+      "ac": 19,
+      "hp": 253,
+      "hitDice": "22d10 + 132",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 26
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 21,
+      "description": "The exiled archdevil schemes to seize his old throne in Malbolge. In the Nine Hells he is reduced to an imp until he leaves.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 11,
+        "Con": 13,
+        "Wis": 11,
+        "Cha": 13
+      },
+      "skills": {
+        "Deception": 13,
+        "Intimidation": 13,
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons.",
+        "Damage immunities": "Fire, poison.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "All languages. Telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMagic Resistance. Moloch makes saving throws against spells and other magical effects with advantage.\nMagic Weapons. His weapon attacks are magical.\nRegeneration. Moloch regains 20 hit points at the start of his turn. Radiant damage prevents this recovery at the start of his next turn. He dies only if he starts his turn at 0 hit points and does not regenerate.",
+        "Innate Spellcasting": "Charisma (spell save DC 21). No material components needed.\nAt will. Alter Self (can become Medium when changing appearance), Animate Dead, Burning Hands (as a 7th-level spell), Confusion, Detect Magic, Fly, Geas, Major Image, Stinking Cloud, Suggestion, Wall of Fire.\n1/day each. Flame Strike, Symbol (stunning only).",
+        "Actions": "Multiattack. Make one Bite, one Claw, and one Many-Tailed Whip attack.\nBite. Melee weapon attack, +15 to hit, reach 5 ft., one target. A hit deals 26 (4d8 + 8) piercing damage.\nClaw. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 17 (2d8 + 8) slashing damage.\nMany-Tailed Whip. Melee weapon attack, +15 to hit, reach 30 ft., one target. A hit deals 13 (2d4 + 8) slashing damage plus 11 (2d10) lightning damage. A creature hit must succeed on a DC 24 Strength saving throw or be pulled up to 30 ft. straight toward Moloch.\nBreath of Despair (Recharge 5–6). Each creature in a 30-ft. cube must succeed on a DC 21 Wisdom saving throw or take 27 (5d10) psychic damage, drop what it is holding, and become frightened for 1 minute. On each of its turns, an affected creature must Dash away from Moloch along the safest available route. If it has nowhere to go, it can skip the Dash. If it ends its turn without line of sight to Moloch, it can repeat the save and end the effect on a success.\nTeleport. Magically move to a visible, unoccupied space within 120 ft., bringing worn or carried equipment.",
+        "Legendary actions": "Moloch has three legendary actions. He can use one of these options at the end of another creature’s turn, spending one action each time. He regains all spent legendary actions at the start of his turn.\nStinking Cloud. Cast Stinking Cloud.\nTeleport. Use the Teleport action.\nWhip. Make one Many-Tailed Whip attack.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 177."
+      }
+    }
+  },
+  {
+    "name": "Molydeus",
+    "statBlock": {
+      "name": "Molydeus",
+      "publication": "Mordenkainen’s Tome of Foes",
+      "edition": "2014 fifth edition",
+      "printedPage": 134,
+      "classification": "Huge fiend (demon), chaotic evil",
+      "ac": 19,
+      "hp": 216,
+      "hitDice": "16d12 + 112",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 28
+        },
+        "Dex": {
+          "score": 22
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 24
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "cr": "21",
+      "xp": 33000,
+      "passivePerception": 31,
+      "description": "A demon lord’s wolf-headed enforcer with a second, serpentine head through which its master watches and speaks.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 16,
+        "Con": 14,
+        "Wis": 14,
+        "Cha": 14
+      },
+      "skills": {
+        "Perception": 21
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Poison.",
+        "Condition immunities": "Blinded, charmed, deafened, frightened, poisoned, stunned.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal. Telepathy 120 ft.",
+        "Traits": "Legendary Resistance (3/day). Turn a failed saving throw into a success.\nMagic Resistance. The molydeus makes saving throws against spells and other magical effects with advantage.\nMagic Weapons. Its weapon attacks are magical.",
+        "Innate Spellcasting": "Charisma (spell save DC 22). No material components needed.\nAt will. Dispel Magic, Polymorph, Telekinesis, Teleport.\n3/day. Lightning Bolt.\n1/day. Imprisonment.",
+        "Actions": "Multiattack. Make one Demonic Weapon attack, one Wolf Bite, and one Snakebite.\nDemonic Weapon. Melee weapon attack, +16 to hit, reach 15 ft., one target. A hit deals 20 (2d10 + 9) slashing damage. On a natural 20 against a target with at least one head, cut off a head, killing the target if it needs that head to survive. A target that takes none of the damage, has legendary actions, or is Huge or larger is immune to decapitation and takes an extra 6d8 slashing damage from the hit instead.\nWolf Bite. Melee weapon attack, +16 to hit, reach 10 ft., one target. A hit deals 16 (2d6 + 9) piercing damage.\nSnakebite. Melee weapon attack, +16 to hit, reach 15 ft., one creature. A hit deals 12 (1d6 + 9) piercing damage. The target must succeed on a DC 22 Constitution saving throw or lose that much from its hit point maximum until it finishes a long rest. At a maximum of 0, it becomes a Manes. Only Wish can reverse the transformation.",
+        "Legendary actions": "The molydeus has three legendary actions. It can use one of these options at the end of another creature’s turn, spending one action each time. It regains all spent legendary actions at the start of its turn.\nAttack. Make one Demonic Weapon attack or Snakebite.\nMove. Move without provoking opportunity attacks.\nCast a Spell. Cast one spell from Innate Spellcasting.",
+        "Variant rules": "Summon Demon (1/day). For a molydeus that has this option, spend an action for a 50 percent chance to summon its choice of 1d6 Babaus, 1d4 Chasmes, or one Marilith. Each appears in an unoccupied space within 60 ft., fights as its ally, and cannot summon other demons. A demon stays for 1 minute, until it or the molydeus dies, or until the molydeus dismisses it with an action.",
+        "Lore": "The demonic weapon reflects its maker. Baphomet grants a glaive, Demogorgon a whip, Fraz-Urb’luu a battleaxe, Graz’zt a greatsword, Orcus a morningstar, and Yeenoghu a flail. All use the same weapon rules. The weapon dissolves when the molydeus dies.",
+        "Printed source": "Mordenkainen’s Tome of Foes, p. 134."
+      }
+    }
+  }
+]

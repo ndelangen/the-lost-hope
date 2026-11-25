@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Giant Octopus",
+    "publication": "Basic Rules (2018)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 52,
+    "hitDice": "8d10 + 8",
+    "speed": "10 ft., swim 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
+    "appearance": "A massive octopus with a mottled burgundy mantle and eight muscular arms lined with pale suction cups.",
+    "habitats": [
+      "Underwater",
+      "Rocky reefs",
+      "Kelp forests"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Basic Rules (2018), Chapter 12, Monsters, printed p. 134. ",
+      "Traits": "Hold Breath. Out of water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. Gain advantage on Dexterity (Stealth) checks while underwater.\nWater Breathing. The octopus only breathes underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +5 to hit with 15-ft. reach against one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and restrained until the grapple ends. While that grapple lasts, the octopus cannot use Tentacles on another target.\nInk Cloud. When underwater, fill a 20-ft. radius around the octopus with ink. The area is heavily obscured for 1 minute, or until a significant current clears it. After releasing the ink, the octopus can Dash as a bonus action. Recharge after a short or long rest.",
+      "At the table": "The Tentacles hit applies the grapple and restraint. The DC is for an escape attempt. The grappled target can use its action to escape with a successful DC 16 Strength (Athletics) or Dexterity (Acrobatics) check. Ink Cloud obscures vision in its area."
+    }
+  },
+  {
+    "name": "Giant Octopus",
+    "publication": "Monster Manual (2014)",
+    "edition": "2014 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 52,
+    "hitDice": "8d10 + 8",
+    "speed": "10 ft., swim 60 ft.",
+    "cr": "1",
+    "xp": 200,
+    "abilities": {
+      "Str": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "otherStatistics": "Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. No languages.",
+    "appearance": "A massive octopus with a mottled burgundy mantle and eight muscular arms lined with pale suction cups.",
+    "habitats": [
+      "Underwater",
+      "Rocky reefs",
+      "Kelp forests"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual (2014), Appendix A, Miscellaneous Creatures, printed p. 326. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page327.html",
+      "Traits": "Hold Breath. Out of water, the octopus can hold its breath for 1 hour.\nUnderwater Camouflage. Gain advantage on Dexterity (Stealth) checks while underwater.\nWater Breathing. The octopus only breathes underwater.",
+      "Actions": "Tentacles. Melee weapon attack, +5 to hit with 15-ft. reach against one target. On a hit, deal 10 (2d6 + 3) bludgeoning damage. A creature hit is grappled (escape DC 16) and restrained until the grapple ends. While that grapple lasts, the octopus cannot use Tentacles on another target.\nInk Cloud. When underwater, fill a 20-ft. radius around the octopus with ink. The area is heavily obscured for 1 minute, or until a significant current clears it. After releasing the ink, the octopus can Dash as a bonus action. Recharge after a short or long rest.",
+      "At the table": "The Tentacles hit applies the grapple and restraint. The DC is for an escape attempt. The grappled target can use its action to escape with a successful DC 16 Strength (Athletics) or Dexterity (Acrobatics) check. Ink Cloud obscures vision in its area."
+    }
+  }
+]

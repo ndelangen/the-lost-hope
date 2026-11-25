@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "dominated-commoner",
+    "name": "Dominated Commoner",
+    "entryId": "monster-9e3b5168269cb2303ed060a5",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Ordinary Barovian villager in simple worn natural linen and slate-blue wool with a dark red wool head kerchief, plain apron and small wooden spindle on belt. A middle-aged woman, upright rigid posture, a rough wooden stool leg held guardedly as an improvised item, no armor. The magical compulsion is apparent in an unnaturally fixed gaze with the barest hint of violet light in the pupils; otherwise this is a living adult human.",
+    "prompt": "Use attachment strictly for rendering and blank parchment texture. Create one original square portrait for The Lost Hope fantasy bestiary, muted detailed gouache with fine sepia ink and colored pencil on warm golden parchment from edge to edge, isolated full figure centered, wide blank margins, portrait readable at small thumbnail size with clear face, soft little grounding shadow, diffuse light. No scenery, border, lettering, labels, UI, other people, or watermark. Ordinary Barovian villager in simple worn natural linen and slate-blue wool with a dark red wool head kerchief, plain apron and small wooden spindle on belt. A middle-aged woman, upright rigid posture, a rough wooden stool leg held guardedly as an improvised item, no armor. The magical compulsion is apparent in an unnaturally fixed gaze with the barest hint of violet light in the pupils; otherwise this is a living adult human.",
+    "appearanceSource": "DDAL04-13 - The Horseman"
+  },
+  {
+    "slug": "dominated-lumberjack",
+    "name": "Dominated Lumberjack",
+    "entryId": "monster-2e30de42d8bd76e521eb3d17",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Brawny Barovian woodcutter with coarse dark chestnut hair, short beard, work-worn green sleeves, patched brown hide armor, sturdy boots, carrying one traditional single-bit woodcutting axe with its blade pointing down. He has the stiff shoulders of someone working past exhaustion. The magical compulsion is apparent in an unnaturally fixed gaze with the barest hint of violet light in the pupils; otherwise this is a living adult human.",
+    "prompt": "Use attachment strictly for rendering and blank parchment texture. Create one original square portrait for The Lost Hope fantasy bestiary, muted detailed gouache with fine sepia ink and colored pencil on warm golden parchment from edge to edge, isolated full figure centered, wide blank margins, portrait readable at small thumbnail size with clear face, soft little grounding shadow, diffuse light. No scenery, border, lettering, labels, UI, other people, or watermark. Brawny Barovian woodcutter with coarse dark chestnut hair, short beard, work-worn green sleeves, patched brown hide armor, sturdy boots, carrying one traditional single-bit woodcutting axe with its blade pointing down. He has the stiff shoulders of someone working past exhaustion. The magical compulsion is apparent in an unnaturally fixed gaze with the barest hint of violet light in the pupils; otherwise this is a living adult human.",
+    "appearanceSource": "DDAL04-13 - The Horseman"
+  },
+  {
+    "slug": "dominated-militia",
+    "name": "Dominated Militia",
+    "entryId": "monster-c3515f229477b171ace64682",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "One Barovian village guard, wiry middle-aged man with clipped dark hair, treated leather armor over a gray burgundy wool tunic and simple wool cloak, well-used light crossbow held lowered, small sheathed curved blade at the belt; anxious rigid stance. Muted restrained palette. The magical compulsion is apparent in an unnaturally fixed gaze with the barest hint of violet light in the pupils; otherwise this is a living adult human.",
+    "prompt": "Use attachment strictly for rendering and blank parchment texture. Create one original square portrait for The Lost Hope fantasy bestiary, muted detailed gouache with fine sepia ink and colored pencil on warm golden parchment from edge to edge, isolated full figure centered, wide blank margins, portrait readable at small thumbnail size with clear face, soft little grounding shadow, diffuse light. No scenery, border, lettering, labels, UI, other people, or watermark. One Barovian village guard, wiry middle-aged man with clipped dark hair, treated leather armor over a gray burgundy wool tunic and simple wool cloak, well-used light crossbow held lowered, small sheathed curved blade at the belt; anxious rigid stance. Muted restrained palette. The magical compulsion is apparent in an unnaturally fixed gaze with the barest hint of violet light in the pupils; otherwise this is a living adult human.",
+    "appearanceSource": "DDAL04-13 - The Horseman"
+  },
+  {
+    "slug": "omou",
+    "name": "Omou",
+    "entryId": "monster-c59c06f8741ba96f9ed731a5",
+    "input": "",
+    "reference": "",
+    "subjectPrompt": "Barovian fantasy psionic humanoid, a compact weathered adult with a crooked hunched silhouette and notably uneven eyes; subtle animal-like brow and texture in one cheek, ear shapes modestly mismatched, and a dark ash wool tunic over a faded brown wrap. Keep expression focused and anguished. He is floating a small distance above his own shadow, accompanied by a very plain tiny wooden flute levitating just beside one palm. Very faint restrained ink lines hint at the psychic lift. No horse or other creatures.",
+    "prompt": "Use attachment strictly for rendering and blank parchment texture. Create one original square portrait for The Lost Hope fantasy bestiary, muted detailed gouache with fine sepia ink and colored pencil on warm golden parchment from edge to edge, isolated full figure centered, wide blank margins, portrait readable at small thumbnail size with clear face, soft little grounding shadow, diffuse light. No scenery, border, lettering, labels, UI, other people, or watermark. Barovian fantasy psionic humanoid, a compact weathered adult with a crooked hunched silhouette and notably uneven eyes; subtle animal-like brow and texture in one cheek, ear shapes modestly mismatched, and a dark ash wool tunic over a faded brown wrap. Keep expression focused and anguished. He is floating a small distance above his own shadow, accompanied by a very plain tiny wooden flute levitating just beside one palm. Very faint restrained ink lines hint at the psychic lift. No horse or other creatures.",
+    "appearanceSource": "DDAL04-13 - The Horseman"
+  }
+]

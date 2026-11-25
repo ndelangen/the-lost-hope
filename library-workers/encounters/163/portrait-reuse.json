@@ -1,0 +1,26 @@
+{
+  "Sacred Statue": {
+    "sha256": "2ba2a333d449778bb908a604e7d67ce29f83958960855d0ddfe9fa7bb5d22325",
+    "source": "Eidolon (Sacred Statue form)"
+  },
+  "Kraken Priest": {
+    "sha256": "68a687228fe0124008d0ab05879c74f534f91daa26ebc88d8afa99d1d67c233c",
+    "source": "Kraken Priest"
+  },
+  "Martial Arts Adept": {
+    "sha256": "3bdddcc9a226fed27d8155832c5c3170d6c23dbd84bd58d6a772c0c2b622b94c",
+    "source": "Martial Arts Adept"
+  },
+  "Maw Demon": {
+    "sha256": "5bc369c6de9f59c0f618a63ebe3253d79ed6e99564c6d5a6b0f6845bc144f8b4",
+    "source": "Maw Demon"
+  },
+  "Neogi Hatchling": {
+    "sha256": "473ed2c1fc3772226375407d29c38eaf1a3af246b4d1bcc9621c3ccb81c1c897",
+    "source": "Neogi Hatchling"
+  },
+  "Neothelid": {
+    "sha256": "1f1c3e8afa2d63d4ab3fac0ce6d009dad467c89c642884b6ab3149e6a664c312",
+    "source": "Neothelid"
+  }
+}

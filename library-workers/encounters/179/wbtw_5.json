@@ -1,0 +1,539 @@
+[
+  {
+    "name": "Paper Bird",
+    "statBlock": {
+      "name": "Paper Bird",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 166,
+      "classification": "Tiny construct, unaligned",
+      "ac": 13,
+      "hp": 1,
+      "hitDice": "1d4 - 1",
+      "speed": "10 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 5
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 8
+        },
+        "Int": {
+          "score": 2
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 6
+        }
+      },
+      "cr": "0",
+      "xp": 10,
+      "passivePerception": 14,
+      "description": "Endelyn folds enchanted writing paper into small winged couriers. Her birds can cut with their paper edges and carry letters to the other hags of the Hourglass Coven.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Perception": 4
+      },
+      "sections": {
+        "Damage vulnerabilities": "Fire.",
+        "Damage immunities": "Poison and psychic.",
+        "Condition immunities": "Charmed, exhaustion, frightened, poisoned.",
+        "Traits": "Keen Sight. The bird makes Wisdom (Perception) checks that depend on sight with advantage.",
+        "Actions": "Sharp Edges. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 1 slashing damage.",
+        "Motherhorn couriers": "In area M20, three birds await release in a latched cage. They are hostile toward creatures outside the Hourglass Coven. An open cage releases them within seconds to carry out their deliveries. If a recipient is unreachable, including on another plane, that bird burns up as it launches. To recover a message, reach into the cage and use an action to grapple a bird. Success breaks the enchantment and leaves a folded letter. Loose enchanted paper can be caught as an action with a DC 10 Dexterity check. Folding that sheet into a flying bird takes 1 minute and a DC 10 Dexterity (Sleight of Hand) check.",
+        "Base stat block": "This encounter uses the 2014 Hawk rules, with the type, defenses and attack changes included above.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 4, p. 166 (area M20)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "beast",
+          "name": "Hawk",
+          "terms": [
+            "Hawk"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#hawk_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Raezil",
+    "statBlock": {
+      "name": "Raezil",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 193,
+      "classification": "Medium humanoid (elf), neutral",
+      "ac": 12,
+      "hp": 27,
+      "hitDice": "6d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "1",
+      "xp": 200,
+      "passivePerception": 16,
+      "description": "Raezil Uthemar is a high elf from a family with ties to the Summer Court. She serves Zybilna as a spy in the courts of other archfey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Deception": 5,
+        "Insight": 4,
+        "Investigation": 5,
+        "Perception": 6,
+        "Persuasion": 5,
+        "Sleight Of Hand": 4,
+        "Stealth": 4
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish.",
+        "Traits": "Fey Ancestry. Raezil rolls saves against being charmed with advantage, and magic cannot put her to sleep.\nSneak Attack (once per turn). A weapon hit deals 7 (2d6) extra damage if she had advantage on the attack roll. It also deals this extra damage if the target is within 5 ft. of one of her allies who is not incapacitated, provided she did not roll with disadvantage.",
+        "Actions": "Multiattack. Make two melee attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.",
+        "Bonus actions": "Cunning Action. On her turn, Raezil can Dash, Disengage, or Hide as a bonus action.",
+        "Palace encounter": "In the throne room (P31), Raezil begins petrified by Kelek’s cockatrices. Once magic ends the condition, the Feywild’s rule of reciprocity binds her to help her rescuers with their outstanding quests. She knows Zybilna as her employer and does not know the name Iggwilv.",
+        "Base stat block": "The adventure uses the 2014 Spy with the elf’s languages, darkvision and Fey Ancestry.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 5, p. 193 (area P31)."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Spy",
+          "terms": [
+            "Spy"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#spy_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Kelek",
+          "terms": [
+            "Kelek"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelek_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Cockatrice",
+          "terms": [
+            "Cockatrice",
+            "cockatrices"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#cockatrice_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Ringlerun",
+    "statBlock": {
+      "name": "Ringlerun",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 227,
+      "classification": "Medium humanoid (human, wizard), lawful good",
+      "ac": 12,
+      "hp": 42,
+      "hitDice": "12d8 - 12",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 9
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 11,
+      "description": "This wizard of Valor’s Call won a Staff of Power from a marid in a sunken tomb. Kelek wants the staff and needs a unicorn horn to release its owner from the palace’s temporal stasis.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 2,
+        "Dex": 3,
+        "Con": 2,
+        "Int": 6,
+        "Wis": 4,
+        "Cha": 3
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6
+      },
+      "sections": {
+        "Armor": "AC includes the Staff of Power’s bonus.",
+        "Languages": "Common, Draconic, Dwarvish, Elvish.",
+        "Traits": "Special Equipment. The Staff of Power holds up to 20 charges and recovers 2d8 + 4 spent charges at dawn. If Ringlerun spends the last charge, roll a d20. On a 1, the staff keeps its +2 bonus to weapon attack and damage rolls but loses its other properties. On a 20, it recovers 1d8 + 2 charges.",
+        "Actions": "Multiattack. Make three attacks in any mix of Staff of Power and Freezing Ray. One can be replaced with a use of Spellcasting.\nStaff of Power. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) if used two-handed. Spend 1 charge on a hit for 3 (1d6) extra force damage.\nFreezing Ray. Ranged spell attack, +8 to hit, range 120 ft., one creature. A hit deals 27 (6d8) cold damage.\nStaff Spell. While holding the staff, cast one spell by spending its listed charges. Spell save DC 14, spell attack +8. 1 charge: Magic Missile or Ray of Enfeeblement. 2: Levitate. 5: Cone of Cold (8d8 cold), Fireball (10d6 fire), Hold Monster, Lightning Bolt (10d6 lightning), or Wall of Force. 6: Globe of Invulnerability.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 14).\nAt will: Light, Mage Hand, Prestidigitation.\n3/day each: Charm Person, Detect Magic, Sleep.\n1/day each: Banishment, Dispel Magic, Fly, Knock.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix B, p. 227. Palace context in ch. 5, area P31."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Kelek",
+          "terms": [
+            "Kelek"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelek_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Selenelion Twin",
+    "statBlock": {
+      "name": "Selenelion Twin",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 241,
+      "classification": "Medium humanoid (elf), chaotic good",
+      "ac": 14,
+      "hp": 33,
+      "hitDice": "6d8 + 6",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 7
+        },
+        "Dex": {
+          "score": 18
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 10,
+      "description": "Gleam and Glister are high elf acrobats from the Witchlight Carnival. Gleam wears a crescent moon mask and Glister wears a sun mask. Use this profile for either twin, with only her own ray attack.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 6,
+        "Cha": 5
+      },
+      "skills": {
+        "Acrobatics": 8,
+        "Sleight Of Hand": 6,
+        "Stealth": 6
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Elvish.",
+        "Traits": "Fey Ancestry. The twin makes saves against being charmed with advantage, and magic cannot put her to sleep.\nRegeneration. At the start of her turn, the twin recovers 5 HP if both sisters are alive and within 60 ft. of each other. She dies only if she starts her turn with 0 HP and fails to regenerate.\nTwin Bond. While both are alive and on the same plane, each can sense how the other feels.",
+        "Actions": "Dagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d4 + 4) piercing damage.\nMoon Ray (Gleam only, 3/day). Ranged spell attack, +5 to hit, range 60 ft., one creature. A hit deals 12 (2d8 + 3) radiant damage. The target makes a DC 13 Wisdom save or becomes a Bat as with Polymorph for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.\nSun Ray (Glister only, 3/day). Ranged spell attack, +5 to hit, range 60 ft., one creature. A hit deals 12 (2d8 + 3) radiant damage. The target makes a DC 13 Wisdom save or is blinded for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.\nTwin Sight (recharges after a short or long rest). The twin sees through her sister’s eyes for up to 1 minute while both are alive and on the same plane. The effect requires concentration as on a spell.",
+        "Motherhorn encounter": "Endelyn Moongrave cut off Gleam’s shadow with magic scissors and keeps Glister as a prisoner. When reunited, the twins plan to leave via the Fey Beacons and return to the Witchlight Carnival.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix C, p. 241. Encounter context in ch. 4, Yon."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "beast",
+          "name": "Bat",
+          "terms": [
+            "Bat"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bat_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Endelyn Moongrave",
+          "terms": [
+            "Endelyn Moongrave"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#endelyn%20moongrave_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Sir Talavar",
+    "statBlock": {
+      "name": "Sir Talavar",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 69,
+      "classification": "Tiny dragon, lawful good",
+      "ac": 15,
+      "hp": 14,
+      "hitDice": "4d4 + 4",
+      "speed": "10 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 3
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 13
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 13,
+      "description": "A violet faerie dragon who serves the Summer Queen. Bavlorna caught him in an enchanted silver cage before he could report the Hourglass Coven’s takeover of Prismeer.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "skills": {
+        "Arcana": 4,
+        "Perception": 3,
+        "Stealth": 7
+      },
+      "sections": {
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Draconic, Elvish, Sylvan.",
+        "Traits": "Limited Telepathy. Talavar can speak telepathically with other faerie dragons within 60 ft.\nMagic Resistance. He makes saves against spells and other magical effects with advantage.",
+        "Actions": "+1 Tiny Sword. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 8 (1d4 + 6) piercing damage.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 1 piercing damage.\nEuphoria Breath (recharge 5–6). Choose one creature within 5 ft. It must pass a DC 11 Wisdom save or lose its reactions for 1 minute. At the start of each of its turns, roll a d6. On 1–4, it takes no action or bonus action and spends all movement going in a random direction. On 5–6, it stays put and can only attempt the DC 11 Wisdom save, which ends the effect on success.",
+        "Bonus actions": "Superior Invisibility. Talavar and anything he wears or carries become magically invisible. This lasts until his concentration ends, as if concentrating on a spell.",
+        "Innate spellcasting": "Talavar uses Charisma (spell save DC 13) and needs no material components. As a violet faerie dragon, he knows the spells of his current color and all earlier colors. Each is available 1/day: Dancing Lights, Mage Hand, Minor Illusion, Color Spray, Mirror Image, Suggestion, Major Image, Hallucinatory Terrain, and Polymorph.",
+        "Silver birdcage": "While locked inside, Talavar cannot cast spells. His Euphoria Breath still works. The cage cannot be destroyed, and its lock cannot be picked. Jingle Jangle has the key. Knock or similar magic can also open it. If released, Talavar gives his rescuers the sword, which works as a +1 Dagger for a Small or Medium wielder. He then leaves to report to his queen.",
+        "Printed source": "The Wild Beyond the Witchlight, ch. 2, p. 69 (Slanty Tower). Base violet faerie dragon rules from Monster Manual (2014), p. 133."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Faerie Dragon (Violet)",
+          "terms": [
+            "Faerie Dragon (Violet)"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#faerie%20dragon%20(violet)_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Jingle Jangle",
+          "terms": [
+            "Jingle Jangle"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#jingle%20jangle_wbtw"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Skabatha Nightshade",
+    "statBlock": {
+      "name": "Skabatha Nightshade",
+      "publication": "The Wild Beyond the Witchlight",
+      "edition": "2014 fifth edition",
+      "printedPage": 218,
+      "classification": "Medium fey (hag), neutral evil",
+      "ac": 16,
+      "hp": 150,
+      "hitDice": "20d8 + 60",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 9
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 16,
+      "description": "Granny Nightshade rules Thither from Loomlurch. Her skin resembles rotten bark beneath her toymaker’s disguise, and the windup key in her back slows as her temper worsens.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 6,
+        "Int": 4,
+        "Wis": 6,
+        "Cha": 5
+      },
+      "skills": {
+        "Arcana": 7,
+        "Deception": 5,
+        "Perception": 6,
+        "Stealth": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 60 ft.",
+        "Languages": "Common, Elvish, Infernal, Sylvan.",
+        "Traits": "Boon of Immortality. Effects cannot age Skabatha, and old age cannot kill her.\nForgetfulness. The first creature Skabatha sees after a long rest becomes invisible to her. She cannot recall seeing it, and even her truesight cannot reveal it to her. This lasts until the end of her next long rest.",
+        "Actions": "Multiattack. Make two Claw attacks.\nClaw. Melee weapon attack, +7 to hit, reach 5 ft., one creature. A hit deals 25 (6d6 + 4) poison damage in her normal form, or 2 (1d4) poison damage when she is Tiny.",
+        "Spellcasting": "As an action, cast one listed spell, using Wisdom (spell save DC 14) without material components.\nAt will: Detect Magic, Druidcraft, Speak with Animals.\n2/day each: Polymorph, Remove Curse, Speak with Plants.\n1/day each: Awaken (cast as an action), Plane Shift (self only).",
+        "Bonus actions": "Alter Size. Skabatha shrinks to Tiny (4–8 inches tall) or returns to normal. If the available space cannot hold her normal form, she grows only as large as will fit. Worn and carried equipment changes with her. While Tiny, she deals the reduced Claw damage above, rolls Dexterity (Stealth) checks with advantage, and rolls Strength checks and Strength saves with disadvantage. All other statistics stay the same.",
+        "Hourglass Coven shared spells": "When Skabatha, Bavlorna Blightstraw and Endelyn Moongrave are all within 30 ft. of one another, any one of them can use an action to cast Detect Thoughts, Dispel Magic, Finger of Death, Glibness, Locate Creature, or Mass Suggestion. Shared spells require no material components and use save DC 14. Each is available once to the coven as a whole, with all uses restored at dawn.",
+        "Loomlurch encounter": "When her clockwork key stops, Skabatha lashes out at anything nearby until a victory or other good turn lifts her mood. Each time she flies into such a rage, 1d3 redcaps sprout in the garden at L15. The key is part of her body and cannot be removed while she lives. Ten Tin Soldiers defend Loomlurch. Six stay in the barracks and four patrol the balconies by L8 and L12. They and Skabatha’s other defenders try to take intruders alive, except the redcaps. If the fight goes badly, Skabatha rides her Flying Rocking Horse to Motherhorn. Bavlorna Blightstraw goes there too if present. If Skabatha dies, a beetle tells her killer that Endelyn Moongrave can be killed permanently during a real or symbolic eclipse.",
+        "Printed source": "The Wild Beyond the Witchlight, appendix B, pp. 215 and 218. Loomlurch procedures in ch. 3, pp. 114–115."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Bavlorna Blightstraw",
+          "terms": [
+            "Bavlorna Blightstraw"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Endelyn Moongrave",
+          "terms": [
+            "Endelyn Moongrave"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#endelyn%20moongrave_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Flying Rocking Horse",
+          "terms": [
+            "Flying Rocking Horse"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#flying%20rocking%20horse_wbtw"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Redcap",
+          "terms": [
+            "Redcap",
+            "redcaps"
+          ],
+          "printing": {
+            "publication": "Volo's Guide to Monsters",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#redcap_vgm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Tin Soldier",
+          "terms": [
+            "Tin Soldier",
+            "Tin Soldiers"
+          ],
+          "printing": {
+            "publication": "The Wild Beyond the Witchlight",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#tin%20soldier_wbtw"
+          }
+        }
+      ]
+    }
+  }
+]

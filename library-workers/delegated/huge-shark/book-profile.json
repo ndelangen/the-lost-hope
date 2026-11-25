@@ -1,0 +1,91 @@
+{
+  "name": "Huge Shark",
+  "kind": "beast",
+  "edition": "3.5 edition",
+  "publication": "Revised v3.5 SRD (Monsters)",
+  "ruleset": "dnd-3.5",
+  "appearance": "A great white-like shark that can exceed 20 feet in length. It has a heavy body, dark gray back, white underside, a tall triangular dorsal fin and a crescent-shaped tail.",
+  "combat": {
+    "armorClass": 15,
+    "armorClassNote": "−2 size, +2 Dexterity, +5 natural armor",
+    "touchArmorClass": 10,
+    "flatFootedArmorClass": 13,
+    "hitPoints": 65,
+    "hitDice": "10d8+20",
+    "challenge": "4",
+    "size": "Huge",
+    "creatureType": "Animal (Aquatic)",
+    "speed": {
+      "swim": 60
+    },
+    "initiativeModifier": 6,
+    "baseAttackBonus": 7,
+    "grappleModifier": 20,
+    "savingThrows": {
+      "Fort": 11,
+      "Ref": 9,
+      "Will": 4
+    },
+    "abilities": {
+      "STR": 21,
+      "DEX": 15,
+      "CON": 15,
+      "INT": 1,
+      "WIS": 12,
+      "CHA": 2
+    },
+    "skills": {
+      "Listen": 10,
+      "Spot": 10,
+      "Swim": 13
+    },
+    "senses": [
+      "Low-light vision",
+      "Blindsense 30 ft. underwater",
+      "Keen scent"
+    ],
+    "habitats": [
+      "Cold aquatic"
+    ],
+    "attackOptions": "Space 15 ft. and reach 10 ft. Both the attack and full attack are a single Bite.",
+    "attacks": [
+      {
+        "name": "Bite",
+        "mode": "melee",
+        "hitBonus": 10,
+        "reach": 10,
+        "damage": [
+          {
+            "dice": "2d6+7"
+          }
+        ]
+      }
+    ]
+  },
+  "mechanics": {
+    "Trait": [
+      {
+        "name": "Blindsense (Ex)",
+        "effectNote": "While underwater, the shark can locate creatures underwater within 30 ft. Blindsense alone does not remove concealment."
+      },
+      {
+        "name": "Keen Scent (Ex)",
+        "effectNote": "The shark detects creatures by scent within 180 ft. and blood in the water up to 1 mile away."
+      },
+      {
+        "name": "Aquatic subtype",
+        "effectNote": "The shark breathes water and cannot breathe air. Ordinary swimming takes no Swim check."
+      },
+      {
+        "name": "Swim",
+        "effectNote": "The listed +13 includes a +8 racial bonus on Swim checks for hazards and special maneuvers. The shark can take 10 even under threat or distraction and can run while swimming in a straight line."
+      }
+    ]
+  },
+  "notes": [
+    "Feats are Alertness, Great Fortitude, Improved Initiative and Iron Will.",
+    "Use Will +4 for this SRD printing. The original RTF, and linked HTML reprint give +4. The d20srd.org reprint lists +6, which matches the result of applying Iron Will's +2 bonus.",
+    "Organization is solitary, a school of 2–5, or a pack of 6–11. Advancement is 11–17 HD (Huge). The source gives no level adjustment.",
+    "The shark circles potential prey before darting in to bite."
+  ]
+}

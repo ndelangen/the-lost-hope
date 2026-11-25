@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Ashyra",
+    "decision": "share",
+    "pages": "Tomb of the Keeper, pp. 172–173",
+    "notes": "The WEL block matches the Flee block for defenses, all six scores, saves and skills, movement, attack dice and riders, Misty Step, Weight of Ages, and the three villain actions. The Flee lair description is background and should not replace the keyed tomb encounter.",
+    "tableNote": "Tomb of the Keeper, p. 170, area M5. A DC 20 Charisma (Deception or Persuasion) check can convince Ashyra to bargain for an empyrean stag's heart. If she decides the party is useless to her, she attacks and fights until destroyed."
+  },
+  {
+    "name": "Rot Angel",
+    "decision": "share",
+    "pages": "Coronal Hollow, p. 248",
+    "notes": "The WEL block matches the Flee block for defenses, all six scores, movement, Decaying Touch and its death mark, Hypnotic Beam, and Radiant Puff. Both sources qualify AC 15 as natural armor. The area rule changes how Hypnotic Beam treats the swamp.",
+    "tableNote": "Coronal Hollow, p. 237, area B2. The acidic swamp does not count as obvious danger for Hypnotic Beam. Four rot angels patrol it. If they fight, six empowered bog bodies surface at the start of round two."
+  },
+  {
+    "name": "Dirt Mournling",
+    "decision": "share",
+    "pages": "Boughs of Eternity, p. 312",
+    "notes": "The standard WEL block is Huge and matches Flee in both statistics and effects, including the DCs for Anguish Unleashed, Slam, Dust Storm and Stuck Fast. WEL separately overrides size for the single creature at L1.",
+    "tableNote": "Boughs of Eternity, p. 303, area L1. The Dirt Mournling in Willow's Welcome is Large. It emerges when combat starts and fights until destroyed or ordered to stop by the dryads. Use the standard stat block's other values."
+  },
+  {
+    "name": "Thornblood",
+    "decision": "share",
+    "pages": "Boughs of Eternity, p. 315",
+    "notes": "The WEL block matches Flee for defenses, scores, Corpse Retreat, Overgrowth, attack dice and saves, the shared-space Throttle restriction, repositioning and Hostile Roots.",
+    "tableNote": "Boughs of Eternity, p. 306, area L6. The thornblood bursts out of the vine-covered corpse and attacks when a living creature comes within 5 ft. of the bodies. A vampire awakens at the same time."
+  },
+  {
+    "name": "Deep Dreamer",
+    "decision": "share",
+    "pages": "Coronal Hollow, p. 242",
+    "notes": "Both blocks give the same defenses, scores, speed, Psionic Shroud, Tendrils, DC 18 Dream Spores action, and Rouse Dreamer trigger. The keyed cove spores have their own save and outcome.",
+    "tableNote": "Coronal Hollow, p. 239, area B3. A creature exposed to the cove's ambient spores must pass a DC 17 Intelligence save or be Dazed while it remains in the cove. The two dreamers attack only if attacked. Killing both ends the ambient spore effects. Use the DC 18 Dream Spores action separately during combat."
+  },
+  {
+    "name": "Haunt",
+    "decision": "share",
+    "pages": "Ruins of Wrathrock, p. 129. Tomb of the Keeper, p. 174. Mount Brazen, p. 286.",
+    "notes": "The printed repeats match Flee in statistics, Incorporeal Cloud, Invisibility, Spectral Wrath, Wave of Despair and Possess Object. Ruins of Wrathrock adds encounter-specific surprise and tactics.",
+    "tableNote": "Ruins of Wrathrock, area J3. When the first character passes halfway into a chamber, each character who fails a DC 20 Wisdom (Perception) check is surprised by two haunts. They open with Wave of Despair."
+  },
+  {
+    "name": "Wraith (MCDM)",
+    "decision": "share",
+    "pages": "Shifting Library, p. 93. Eighth City Advocacy Services, p. 207. Shadowkeep, p. 223. Durixaviinox’s Rest, p. 235. Boughs of Eternity, p. 317.",
+    "notes": "The WEL repeats match the Flee block, including the phasing damage, death burst, cumulative HP maximum reduction and specter creation on Agonizing Touch, Psychic Enervation, and Denied Vitality.",
+    "tableNote": "Shifting Library, p. 83, area K3. The wraith on each bookstack level works with a specter and five shades. If the fight lasts more than two rounds, the librarians from the other level arrive at the start of round three."
+  },
+  {
+    "name": "Koptourok",
+    "decision": "share",
+    "pages": "Tomb of the Keeper, p. 174. Shadowkeep, p. 218.",
+    "notes": "Both WEL copies match Flee, including Breathless Aura, conditional flight, Choking Grasp, temporary HP from Last Gasp, and the Thunderous Deflation trigger and aftermath.",
+    "tableNote": "Tomb of the Keeper, p. 169, area M3. Four koptouroks hide on the pillars if combat hasn't drawn them to the workshop. A character who can see in the dark spots them with a DC 16 Wisdom (Perception) check. They attack when discovered or once at least half the party enters."
+  },
+  {
+    "name": "Giant Zombie",
+    "decision": "share",
+    "pages": "Durixaviinox’s Rest, p. 233",
+    "notes": "WEL and Flee match on the base statistics, defenses, Negative Nerves threshold, Fist grapple, Toxic Exhalation dice and save, and Shove Away trigger and distance. The Guard Room encounter grants a separate advantage.",
+    "tableNote": "Durixaviinox's Rest, p. 225, area W2. The giant zombies have advantage on Strength checks to grapple or shove Medium or smaller creatures. A creature knocked Prone or forced against a wall or the ceiling takes 11 (2d10) piercing plus 11 (2d10) cold damage from the room's spikes."
+  }
+]

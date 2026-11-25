@@ -1,0 +1,301 @@
+{
+  "builds": [
+    {
+      "id": "phb4e-dwarf-bren-stonefast",
+      "title": "Dwarf road shield-bearer, Fighter 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 16,
+        "CON": 16,
+        "DEX": 12,
+        "INT": 10,
+        "WIS": 15,
+        "CHA": 11
+      },
+      "ac": 19,
+      "hp": 31,
+      "initiative": 1,
+      "speed": "5 squares in scale armor",
+      "senses": "Low-light vision. Passive Perception 12.",
+      "languages": "Common, Dwarven",
+      "skills": [
+        "Athletics +6",
+        "Endurance +8",
+        "Heal +7",
+        "Dungeoneering +4 (untrained)"
+      ],
+      "traits": [
+        "Unaligned. Scale armor, heavy shield and warhammer. Fortitude 15, Reflex 13, Will 12. Bloodied 15. Twelve healing surges at 7 HP each.",
+        "One-handed Fighter Weapon Talent adds +1 to attack rolls with the warhammer. Dwarven Weapon Training adds +2 to hammer damage rolls. The shield adds +2 to AC and Reflex and imposes a −2 armor check penalty.",
+        "Combat Challenge. On a hit or miss, Bren may mark the enemy through the end of his next turn. That enemy takes −2 on attacks excluding Bren. An adjacent foe marked by Bren that shifts or attacks without targeting him can provoke his warhammer basic attack as an immediate interrupt.",
+        "Combat Superiority makes the warhammer opportunity attack +8 vs. AC. A hit stops the movement that provoked it. Cast-Iron Stomach gives +5 on poison saves.",
+        "Stand Your Ground. Bren can shorten forced pulls, pushes and slides by 1 square and may immediately save to avoid an attack's knockdown. Encumbered Speed preserves his 5-square speed in scale."
+      ],
+      "actions": [
+        "Warhammer basic attack, at-will standard. Melee 1, +6 vs. AC for 1d10+5.",
+        "Tide of Iron, at-will standard, requires shield. Melee 1, +6 vs. AC for 1d10+5. Push a Large or smaller target 1 square and optionally shift into its old space.",
+        "Cleave, at-will standard. Melee 1, +6 vs. AC for 1d10+5. On a hit, a second enemy adjacent to Bren takes 3 damage.",
+        "Covering Attack, encounter standard. Melee 1, +6 vs. AC for 2d10+5. On a hit, one ally adjacent to the target may shift 2 squares.",
+        "Comeback Strike, daily standard, reliable. Melee 1, +6 vs. AC for 2d10+5 on a hit. Bren may spend a healing surge on the hit. A miss preserves the power.",
+        "Second Wind, encounter minor. Spend a healing surge and gain +2 to all defenses until the start of Bren's next turn."
+      ],
+      "tactics": "Holds the cart lane against forced movement. Uses Covering Attack to clear a path for an endangered ally, then marks the front attacker."
+    },
+    {
+      "id": "phb4e-eladrin-irian-ashletter",
+      "title": "Eladrin dispatch courier, Wizard 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Fey humanoid",
+      "abilityScores": {
+        "STR": 10,
+        "CON": 12,
+        "DEX": 16,
+        "INT": 18,
+        "WIS": 13,
+        "CHA": 11
+      },
+      "ac": 13,
+      "hp": 22,
+      "initiative": 7,
+      "speed": "6 squares",
+      "senses": "Low-light vision. Passive Perception 16.",
+      "languages": "Common, Elven",
+      "skills": [
+        "Arcana +11",
+        "History +11",
+        "Insight +6",
+        "Religion +9",
+        "Perception +6"
+      ],
+      "traits": [
+        "Unaligned. Cloth, a mundane wand and a dagger. Fortitude 11, Reflex 14, Will 14. Bloodied 11. Seven healing surges at 5 HP each. Improved Initiative is included.",
+        "Eladrin Education trains Perception. Eladrin Will is included in Will and gives +5 to charm saves. A four-hour trance grants an extended rest while Irian stays aware.",
+        "Spellbook daily choices are Sleep and Acid Arrow. Sleep is prepared today. Ritual Caster and the book's three mastered 1st-level rituals are Comprehend Language, Make Whole and Tenser's Floating Disk. Cantrips are Ghost Sound, Light, Mage Hand and Prestidigitation."
+      ],
+      "actions": [
+        "Dagger basic attack, at-will standard. Melee 1, +3 vs. AC for 1d4. Ranged 5/10, +6 vs. AC for 1d4+3.",
+        "Ray of Frost, at-will standard, ranged 10, one creature. +4 vs. Fortitude for 1d6+4 cold and slowed through the end of Irian's next turn.",
+        "Scorching Burst, at-will standard, area burst 1 within 10. +4 vs. Reflex against each creature for 1d6+4 fire.",
+        "Chill Strike, encounter standard, ranged 10, one creature. +4 vs. Fortitude for 2d8+4 cold and dazed through the end of Irian's next turn.",
+        "Sleep, prepared daily standard, area burst 2 within 20. +4 vs. Will against each creature. Hit slows the target (save ends), and failing the first save makes it unconscious (save ends). Miss slows the target (save ends).",
+        "Fey Step, encounter move. Teleport up to 5 squares to a visible space Irian can occupy, without provoking an opportunity attack.",
+        "Wand of Accuracy, encounter free. Add +3 to one attack roll while wielding the wand.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Fey Steps across a gap if she can see room to land. Uses Ray of Frost to slow a pursuer and saves Sleep for a group she can catch clear of allies."
+    },
+    {
+      "id": "phb4e-elf-theren-copse",
+      "title": "Elf woodland archer, Ranger 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Fey humanoid",
+      "abilityScores": {
+        "STR": 13,
+        "CON": 11,
+        "DEX": 18,
+        "INT": 10,
+        "WIS": 16,
+        "CHA": 12
+      },
+      "ac": 16,
+      "hp": 23,
+      "initiative": 4,
+      "speed": "7 squares",
+      "senses": "Low-light vision. Passive Perception 20.",
+      "languages": "Common, Elven",
+      "skills": [
+        "Acrobatics +9",
+        "Endurance +5",
+        "Nature +10",
+        "Perception +10",
+        "Stealth +9"
+      ],
+      "traits": [
+        "Unaligned. Leather, longbow, arrows and short sword. Fortitude 12, Reflex 15, Will 13. Bloodied 11. Six healing surges at 5 HP each.",
+        "Defensive Mobility from Archer Fighting Style raises AC to 18 against opportunity attacks. Weapon Focus adds +1 to longbow damage rolls. Prime Shot adds +1 to a ranged attack if no ally is closer to the target. Prime Shot is excluded from the listed attack bonuses.",
+        "Wild Step ignores difficult terrain during a shift. Non-elf allies within 5 squares gain +1 to Perception.",
+        "Hunter's Quarry, minor once per turn. Designate the nearest enemy as the one active quarry. Add 1d6 to one hit against that enemy per round, choosing the hit after rolling all attacks. The quarry lasts until encounter end, defeat or replacement."
+      ],
+      "actions": [
+        "Longbow basic attack, at-will standard, ranged 20/40. +6 vs. AC for 1d10+5.",
+        "Short sword basic attack, at-will standard, melee 1. +4 vs. AC for 1d6+1.",
+        "Twin Strike, at-will standard with longbow, ranged 20/40. Make two +6 attacks vs. AC for 1d10+1 each. The shots can share one target or pick two.",
+        "Careful Attack, at-will standard with longbow, ranged 20/40. +8 vs. AC for 1d10+1.",
+        "Evasive Strike, encounter standard with longbow, ranged 20/40. Shift up to 4 squares before or after one +6 attack vs. AC. Hit for 2d10+5.",
+        "Hunter's Bear Trap, daily standard with longbow, ranged 20/40. +6 vs. AC for 2d10+5, slowed and ongoing 5 damage (save ends both). Miss for half damage and slowed until the end of Theren's next turn.",
+        "Elven Accuracy, encounter free. Reroll one of Theren's attack rolls and use the new result.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Shifts through tangled ground with Wild Step. Saves Elven Accuracy for a missed shot that would have stopped a runner."
+    },
+    {
+      "id": "phb4e-half-elf-cavan-meadowcross",
+      "title": "Half-Elf watch mediator, Warlord 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Medium",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 16,
+        "CON": 15,
+        "DEX": 10,
+        "INT": 12,
+        "WIS": 11,
+        "CHA": 16
+      },
+      "ac": 17,
+      "hp": 27,
+      "initiative": 6,
+      "speed": "5 squares in chainmail",
+      "senses": "Low-light vision. Passive Perception 10.",
+      "languages": "Common, Elven, Dwarven",
+      "skills": [
+        "Athletics +7",
+        "Diplomacy +10",
+        "Heal +5",
+        "History +6",
+        "Insight +2 (untrained)"
+      ],
+      "traits": [
+        "Unaligned. Chainmail, light shield and longsword. Fortitude 14, Reflex 12, Will 14. Bloodied 13. Nine healing surges at 6 HP each.",
+        "Combat Leader grants +2 power bonus to initiative for Cavan and allies within 10 squares that can see and hear him. Cavan's +6 includes this and Improved Initiative. Inspiring Presence heals an ally for 3 HP if that ally sees Cavan and spends an action point for an extra action.",
+        "Group Diplomacy grants allies within 10 squares +1 to Diplomacy. Dilettante provides Eyebite once per encounter, using Charisma with no implement enhancement."
+      ],
+      "actions": [
+        "Longsword basic attack, at-will standard. Melee 1, +6 vs. AC for 1d8+3.",
+        "Wolf Pack Tactics, at-will standard, melee 1. Before attacking, let one ally adjacent to Cavan or the target shift 1 square as a free action. +6 vs. AC for 1d8+3.",
+        "Furious Smash, at-will standard, melee 1. +6 vs. Fortitude for 3 damage. On a hit, one ally adjacent to Cavan or the target gains +3 power bonus to the attack and damage rolls on their next attack against that target, expiring at the end of that ally's next turn.",
+        "Warlord's Favor, encounter standard, melee 1. +6 vs. AC for 2d8+3. On a hit, one ally within 5 squares gains +2 power bonus to attack the target until the end of Cavan's next turn.",
+        "Bastion of Defense, daily standard, melee 1. +6 vs. AC for 3d8+3. On a hit, allies within 5 squares gain +1 power bonus to defenses through encounter end. Hit or miss, allies within 5 squares gain 8 temporary HP.",
+        "Inspiring Word, minor, close burst 5. Cavan or one ally in the burst may spend a healing surge and regain an extra 1d6 HP. Twice per encounter, only once per round.",
+        "Eyebite, Dilettante encounter standard, ranged 10. +3 vs. Will for 1d6+3 psychic. On a hit, Cavan is invisible to that target until the start of his next turn.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Offers a truce before committing troops. Makes space for a guard to cover the crossing with Wolf Pack Tactics and uses Eyebite to break a single watcher's sight of him."
+    },
+    {
+      "id": "phb4e-halfling-lavinia-reedline",
+      "title": "Halfling ferry scout, Rogue 1",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "4th edition"
+      ],
+      "difficulty": "4e level 1, built as a player character.",
+      "size": "Small",
+      "type": "Natural humanoid",
+      "abilityScores": {
+        "STR": 13,
+        "CON": 12,
+        "DEX": 18,
+        "INT": 10,
+        "WIS": 11,
+        "CHA": 16
+      },
+      "ac": 16,
+      "hp": 29,
+      "initiative": 4,
+      "speed": "6 squares",
+      "senses": "Normal vision. Passive Perception 15.",
+      "languages": "Common, Elven",
+      "skills": [
+        "Acrobatics +11",
+        "Bluff +8",
+        "Insight +5",
+        "Perception +5",
+        "Stealth +9",
+        "Thievery +11"
+      ],
+      "traits": [
+        "Unaligned. Leather, short sword and a coil of rope. Fortitude 11, Reflex 16, Will 13. Bloodied 14. Seven healing surges at 7 HP each. HP includes Toughness.",
+        "Artful Dodger and Nimble Reaction bring AC to 21 against opportunity attacks. Bold gives +5 to saves against fear.",
+        "First Strike gives combat advantage against creatures that have not yet acted at encounter start. Sneak Attack adds 2d6 damage to one eligible short-sword hit with combat advantage each round."
+      ],
+      "actions": [
+        "Short sword basic attack, at-will standard. Melee 1, +4 vs. AC for 1d6+1.",
+        "Deft Strike, at-will standard. Move up to 2 squares before the melee 1 attack, +7 vs. AC for 1d6+4.",
+        "Sly Flourish, at-will standard, melee 1. +7 vs. AC for 1d6+7.",
+        "Positioning Strike, encounter standard, melee 1. +7 vs. Will for 1d6+4. On a hit, slide the target up to 3 squares.",
+        "Trick Strike, daily standard, melee 1. +7 vs. AC for 3d6+4 and slide the target 1 square on a hit. For the rest of the encounter, slide the target 1 square whenever Lavinia hits it.",
+        "Second Chance, encounter immediate interrupt. When an enemy hits Lavinia, force a reroll and keep the new result.",
+        "Second Wind, encounter standard. Spend a healing surge and gain +2 to all defenses until the start of your next turn."
+      ],
+      "tactics": "Uses Positioning Strike to get a blocker off the gangplank. Saves Second Chance for a hit that might stop her hauling the ferry line."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Dwarf",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Bren Stonefast",
+      "build": "phb4e-dwarf-bren-stonefast",
+      "role": "Shield-bearer assigned to hold a single cart lane.",
+      "motive": "Get the grain carts through a narrow gate before the next rain.",
+      "hook": "Bren asks the party to work the gate winch while he holds the lane."
+    },
+    {
+      "species": "Eladrin",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Irian Ashletter",
+      "build": "phb4e-eladrin-irian-ashletter",
+      "role": "Fey Step courier entrusted with a sealed dispatch.",
+      "motive": "Find the one watch post still accepting dispatches after the bridge fell.",
+      "hook": "Irian can take the message across the gap if the party lights the far landing."
+    },
+    {
+      "species": "Elf",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Theren Copse",
+      "build": "phb4e-elf-theren-copse",
+      "role": "Woodland archer who watches a concealed road through the trees.",
+      "motive": "Keep the trail open for woodcutters who cannot risk the main road.",
+      "hook": "Theren points out hidden tracks and asks the party to follow them to a damaged boundary sign."
+    },
+    {
+      "species": "Half-Elf",
+      "size": "Medium",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Cavan Meadowcross",
+      "build": "phb4e-half-elf-cavan-meadowcross",
+      "role": "Mediator who trains both crews on a mixed settlement watch.",
+      "motive": "Keep a boundary argument from turning the incoming and outgoing watch against each other.",
+      "hook": "Cavan asks the party to witness the change of watch, where he expects someone to test the truce."
+    },
+    {
+      "species": "Halfling",
+      "size": "Small",
+      "edition": "4th edition",
+      "speciesPublication": "Player's Handbook (4e, 2008)",
+      "name": "Lavinia Reedline",
+      "build": "phb4e-halfling-lavinia-reedline",
+      "role": "Ferry scout who keeps a river crossing open.",
+      "motive": "Keep passengers moving even if the river rises over the regular dock.",
+      "hook": "Lavinia needs help getting the line to a higher dock before the current takes the empty ferry."
+    }
+  ]
+}

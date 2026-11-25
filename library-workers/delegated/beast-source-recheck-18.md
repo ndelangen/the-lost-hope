@@ -1,0 +1,12 @@
+# Beast source recheck
+
+The catalog at `9a4c67f` still has 43 indexed Beast versions on hold after excluding the 828 staged versions and the standalone SRD Giant Insect. The recheck found no complete original source for an additional version. [Existing source-gap list](beast-ready-batch-17/source-gaps.tsv)
+
+| Versions | Publication | What the recheck found |
+| ---: | --- | --- |
+| 21 | *Monster Vault 2* | The local D&D library and project caches yielded no final pages. The publisher preview omits the blocks and its encounter builder lists only metadata for these entries. Seventeen are in the Animals appendix, starting at p. 322. The two Death Butterfly Swarms and two Rattus Eel entries need their individual bestiary pages. [Publisher preview]() · [Licensed adapter discussion](https://www.fantasygrounds.com/forums/archive/index.php/t-83064.html) |
+| 18 | *Humblewood Tales* | The local collection had no copy of the collected book. The publisher’s launch article confirms Glassbeetle’s challenge rating, and the full blocks require access to the collected edition. Existing standalone and Campaign Setting witnesses cover their own publications. [listing](https://hitpointpress.itch.io/humblewood-tales) · [Launch article](https://www.dndbeyond.com/posts/1898-how-humblewood-tales-expands-the-enchanting-world) |
+| 1 | Ghamoo-Ra, *D&D: World of Warcraft* | The original printed page appears briefly in review footage. The visible portion confirms AC 17, 126 HP, and CR 7. The frame cuts off the actions and legendary actions. [Review footage at 23:10](https://www.youtube.com/watch?v=YLLV1EZN71E&t=1390s) · [Publisher listing](https://www.dndbeyond.com/monsters/6888405-ghamoo-ra) |
+| 1 | Swarm of Contaminated Insects, *Monsters of Drakkenheim* | The available original is a beta. The final p. 33 stat block remains unavailable in the local source set. [Final publisher listing](https://www.dndbeyond.com/monsters/5525128-swarm-of-contaminated-insects) |
+| 1 | Spiderfrog, *Muk’s Guide to Everything He Learned From Tasha* | The original preview contains four pages. The local cache contains an illustration, and the indexed stat block is on p. 33. [Publisher listing](https://www.dmsguild.com/product/337964/Muks-Guide-to-Everything-He-Learned-From-Tasha) |
+| 1 | Boar, *Dark Pyramid of Sorcerer’s Isle* | The two local are byte-identical. Both end the p. 33 block after Relentless and refer to Tusk only from Charge. The recheck found no publisher correction. [Original appendix facsimile]() |

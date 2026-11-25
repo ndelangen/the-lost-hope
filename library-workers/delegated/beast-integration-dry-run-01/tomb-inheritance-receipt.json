@@ -1,0 +1,85 @@
+{
+  "archive": "",
+  "baseline": "16409d50b697e222868b27ebb05df023a9d68758",
+  "rules": [
+    {
+      "scope": [
+        "Brontosaurus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-08",
+      "authoredRulesHash": "9e0f64acc3b64e0c7570ad3f90b11f16723bbda928b6d78295ea56332cc2e92c",
+      "installedRulesHash": "bf53814d741aa8c7060f46402ba6580ddfcb80743169925bde9d4f47186f9e8f",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-a2351c917006bec1f8c247fa",
+        "version": "3e79c391c81104d1c68254b8",
+        "name": "Brontosaurus",
+        "file": "images/beast-ready-batch-08/brontosaurus.png",
+        "sha256": "149c7c9f76a91e37a7f6fc25edae86fb66195bb048044e4bce9a00701d11fbd7",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    },
+    {
+      "scope": [
+        "Quetzalcoatlus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "bundle": "beast-ready-batch-08",
+      "authoredRulesHash": "0bba2f34984f3ee4f99461c7f6e8e3234d693ee79eb1950806fd9745c4224960",
+      "installedRulesHash": "92d83c93bf6ca97d1f3f7398f2f339ce3afd15592daa916027a32e49fe64d31c",
+      "manifestPlacement": "primary",
+      "dryRunPlacement": "alternate",
+      "portrait": {
+        "entry": "beast-3ad24d1ac14e0ac52fd07b44",
+        "version": "c76e5aa25abf963c77a503ba",
+        "name": "Quetzalcoatlus",
+        "file": "images/beast-ready-batch-08/quetzalcoatlus.png",
+        "sha256": "0f0aabea20eb1bfb8e37a89b32d9bd5e64e07b0144241abe58a79b172db7e933",
+        "credit": "OpenAI ImageGen",
+        "placement": "alternate"
+      }
+    }
+  ],
+  "uniqueRuntimeFiles": 2,
+  "inheritanceResolutions": [
+    {
+      "target": [
+        "Brontosaurus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "owner": [
+        "Brontosaurus",
+        "Volo's Guide to Monsters",
+        "2014 fifth edition"
+      ],
+      "oldSource": "https://www.dndbeyond.com/monsters/17239-brontosaurus",
+      "newSource": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs#Brontosaurus",
+      "printedPage": 215,
+      "earlierPrintingPage": 139,
+      "encounterPage": 197
+    },
+    {
+      "target": [
+        "Quetzalcoatlus",
+        "Tomb of Annihilation",
+        "2014 fifth edition"
+      ],
+      "owner": [
+        "Quetzalcoatlus",
+        "Volo's Guide to Monsters",
+        "2014 fifth edition"
+      ],
+      "oldSource": "https://www.dndbeyond.com/monsters/17242-quetzalcoatlus",
+      "newSource": "https://www.dndbeyond.com/sources/toa/monsters-and-npcs#Quetzalcoatlus",
+      "printedPage": 230,
+      "earlierPrintingPage": 140,
+      "encounterPage": 198
+    }
+  ]
+}

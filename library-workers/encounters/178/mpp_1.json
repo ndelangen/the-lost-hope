@@ -1,0 +1,598 @@
+[
+  {
+    "name": "Aurumach Rilmani",
+    "statBlock": {
+      "name": "Aurumach Rilmani",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 43,
+      "classification": "Large celestial, typically neutral",
+      "ac": 18,
+      "hp": 285,
+      "hitDice": "30d10 + 120",
+      "speed": "0 ft., fly 40 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 21
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 20,
+      "description": "From a stronghold near the Spire, this gold-skinned strategist watches for forces that could upset the balance of the planes. It leaves the Outlands only when the imbalance threatens the multiverse.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 11,
+        "Int": 11
+      },
+      "skills": {
+        "Arcana": 11,
+        "History": 11,
+        "Perception": 10
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cuprilach Rilmani",
+          "terms": [
+            "Cuprilach Rilmani"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#cuprilach%20rilmani_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ferrumach Rilmani",
+          "terms": [
+            "Ferrumach Rilmani"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ferrumach%20rilmani_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+6",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "all, telepathy 120 ft.",
+        "Damage resistances": "Psychic; bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Actions": "Multiattack. Make three attacks, choosing Manifested Blade or Gleaming Ray for each.\nManifested Blade. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 23 (4d8 + 5) force damage.\nGleaming Ray. Ranged spell attack, +11 to hit, range 120 ft., one target. A hit deals 24 (3d12 + 5) force damage.",
+        "Spellcasting": "As an action, cast one spell from the following list using Intelligence (save DC 19), with no material components.\nAt will. Detect Magic, Detect Thoughts.\n1/day each. Fly, Geas (cast as an action), Slow, Suggestion.",
+        "Bonus actions": "Aura of Blades. Manifest spectral blades around the aurumach. A creature that starts its turn within 10 ft. makes a DC 19 Dexterity save, taking 16 (3d10) force damage on a failure or half as much on a success. The aura ends after 1 minute, when the aurumach is incapacitated or dies, or when it spends a bonus action to dismiss it.\nInvoke Weakness (Recharge 5–6). Choose a creature the aurumach can see within 120 ft. It must pass a DC 19 Wisdom save or be cursed until the end of the aurumach’s next turn. The next Manifested Blade or Gleaming Ray hit against it while cursed adds 27 (6d8) force damage.",
+        "Rilmani": "Aurumachs oversee the work of the Cuprilach Rilmani and Ferrumach Rilmani in maintaining planar balance.",
+        "Printed source": "Morte's Planar Parade, p. 43."
+      }
+    }
+  },
+  {
+    "name": "Avoral Guardinal",
+    "statBlock": {
+      "name": "Avoral Guardinal",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 32,
+      "classification": "Medium celestial, typically neutral good",
+      "ac": 16,
+      "hp": 172,
+      "hitDice": "23d8 + 69",
+      "speed": "30 ft., fly 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 21,
+      "description": "A golden-eyed celestial with an eagle’s features and winged arms. Avorals leave Elysium more often than other guardinals and commonly travel as lone scouts.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 8,
+        "Cha": 8
+      },
+      "skills": {
+        "Perception": 11,
+        "Religion": 7
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Equinal Guardinal",
+          "terms": [
+            "Equinal Guardinal",
+            "Equinal Guardinals"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#equinal%20guardinal_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Musteval Guardinal",
+          "terms": [
+            "Musteval Guardinal",
+            "Musteval Guardinals"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#musteval%20guardinal_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+4",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Celestial, Common.",
+        "Damage resistances": "Radiant.",
+        "Condition immunities": "Frightened.",
+        "Traits": "Dive Attack. While flying, dive at least 30 ft. straight toward a Medium or smaller creature and end within 5 ft. of it. The target makes a DC 15 Strength save. On a failure it takes 14 (4d6) piercing damage and falls prone.\nFlyby. Flying beyond an enemy’s reach does not provoke an opportunity attack from that enemy.",
+        "Actions": "Multiattack. Make two Talon attacks, with the option to replace one with Spellcasting.\nTalon. Melee weapon attack, +8 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) piercing plus 13 (2d12) radiant damage.",
+        "Spellcasting": "As an action, cast one spell from the following list using Charisma (save DC 16), with no material components.\n1/day each. Command, Hold Person.",
+        "Guardinals": "The celestials of Elysium fight cruelty and injustice. Equinal Guardinals and Musteval Guardinals are other members of this family.",
+        "Printed source": "Morte's Planar Parade, p. 32."
+      }
+    }
+  },
+  {
+    "name": "Baernaloth",
+    "statBlock": {
+      "name": "Baernaloth",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 20,
+      "classification": "Large fiend (yugoloth), typically neutral evil",
+      "ac": 17,
+      "hp": 256,
+      "hitDice": "27d10 + 108",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 22
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 19,
+      "description": "A gaunt yugoloth with a horned, horse-like skull and ember eyes. Baernaloths seek secrets in the Gray Wastes of Hades and prolong the suffering of creatures they capture.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 10,
+        "Wis": 9
+      },
+      "skills": {
+        "Arcana": 12,
+        "Insight": 9,
+        "Perception": 9
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Mezzoloth",
+          "terms": [
+            "Mezzoloth",
+            "Mezzoloths"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#mezzoloth_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Arcanaloth",
+          "terms": [
+            "Arcanaloth"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#arcanaloth_mm"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+6",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "all, telepathy 120 ft.",
+        "Damage resistances": "Cold; fire; lightning; necrotic; psychic; bludgeoning, piercing, slashing from nonmagical attacks.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Legendary Resistance (4/day). Turn a failed save into a success.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.",
+        "Actions": "Multiattack. Make one Anguishing Bite and one Claw attack. The baernaloth can also use Teleport.\nAnguishing Bite. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) piercing plus 10 (3d6) psychic damage. A creature hit cannot regain HP until the start of the baernaloth’s next turn.\nClaw. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 11 (2d6 + 4) slashing plus 17 (5d6) necrotic damage.\nMiasma of Discord (Recharge 5–6). Choose a visible point within 120 ft. for a momentary 20-ft.-radius sphere of vapor. Each non-yugoloth inside makes a DC 19 Wisdom save. Failure deals 35 (10d6) psychic damage and leaves the creature charmed until the end of its next turn. During the charm, it treats allies as foes, and its body and gear turn gray. Success halves the damage and prevents the charm.\nSummon Yugoloth (1/day). Roll a 50% chance to summon the baernaloth’s choice of 1d4 Mezzoloths, one Arcanaloth, or one Baernaloth. Each ally appears in an unoccupied spot within 60 ft. and cannot summon other yugoloths. It stays for up to 1 minute, until it or the summoning baernaloth dies, or until the summoner dismisses it as an action.\nTeleport. The baernaloth and its gear teleport up to 120 ft. to a visible, unoccupied space.",
+        "Spellcasting": "As an action, cast one spell from the following list using Intelligence (save DC 20), with no material components.\nAt will. Detect Thoughts, Phantasmal Force, Suggestion.\n1/day each. Cloudkill, Plane Shift (self only), Scrying (cast as an action).",
+        "Reactions": "The baernaloth can take three reactions per round, with a maximum of one per turn.\nAfflict Despair. When a visible creature within 60 ft. hits with an attack roll or succeeds on a save, force it to reroll the d20 and keep the new roll.\nInescapable Pain. When another creature damages the baernaloth, that creature makes a DC 19 Constitution save. Failure deals 14 (4d6) necrotic damage. Success halves it.",
+        "Lair actions": "On initiative count 20, after other combatants tied at 20, choose one action. The same action cannot be used in consecutive rounds. In its lair the baernaloth is CR 18 (20,000 XP).\nConsume Suffering. Until initiative count 20 next round, whenever another creature in the lair takes necrotic or psychic damage or drops to 0 HP, the baernaloth regains 10 (3d6) HP.\nDiscover Secrets. Use Spellcasting to cast Detect Thoughts. A target of the spell cast this way also takes 13 (3d8) psychic damage.\nRecurring Wound. Choose a visible creature in the lair that is below its HP maximum. It makes a DC 19 Constitution save, taking 22 (4d10) necrotic damage on a failure or half on a success.",
+        "Regional effects": "The lair can produce either or both effects within 10 miles. Both end immediately if the baernaloth dies.\nPersistent Anguish. A spell that restores HP or removes the charmed or frightened condition fails and is wasted unless its caster passes a DC 19 save using its spellcasting ability. A caster that succeeds ignores this effect for 24 hours.\nSlow Healing. Other creatures regain HP equal to only half their maximum after a long rest. They regain half the usual HP when spending Hit Dice on a short rest.",
+        "Printed source": "Morte's Planar Parade, pp. 19–20."
+      }
+    }
+  },
+  {
+    "name": "Bleak Cabal Void Soother",
+    "statBlock": {
+      "name": "Bleak Cabal Void Soother",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 54,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 16,
+      "hp": 55,
+      "hitDice": "10d8 + 10",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 12,
+      "description": "A Bleak Cabal healer who travels to dangerous planes and places scarred by war to treat curses and other planar afflictions.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Con": 3,
+        "Wis": 4
+      },
+      "skills": {
+        "Medicine": 4
+      },
+      "sections": {
+        "Armor": "Breastplate.",
+        "Proficiency bonus": "+2",
+        "Languages": "Common plus one more language.",
+        "Actions": "Multiattack. Make two attacks, choosing Mace or Void Bolt for each.\nMace. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning plus 3 (1d6) force damage.\nVoid Bolt. Ranged spell attack, +4 to hit, range 90 ft., one target. A hit deals 9 (2d8) force damage.",
+        "Spellcasting": "As an action, cast one spell from the following list using Wisdom (save DC 12).\nAt will. Guidance, Light.\n1/day each. Calm Emotions, Lesser Restoration, Remove Curse, Protection from Energy.",
+        "Bonus actions": "Soothing Word (3/day). Choose a creature the void soother can see within 60 ft. It magically regains 4 (1d4 + 2) HP.",
+        "Printed source": "Morte's Planar Parade, p. 54."
+      }
+    }
+  },
+  {
+    "name": "Cranium Rat Squeaker Swarm",
+    "statBlock": {
+      "name": "Cranium Rat Squeaker Swarm",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 22,
+      "classification": "Medium swarm of Tiny aberrations, typically neutral",
+      "ac": 12,
+      "hp": 76,
+      "hitDice": "17d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 9
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 10,
+      "description": "A crowd of Sigil’s cranium rat squeakers pools its memories and acts as one mind. In numbers, the rats can send messages and use stronger psionics than any squeaker alone.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Cranium Rat Squeaker",
+          "terms": [
+            "cranium rat squeakers",
+            "Cranium Rat Squeaker"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#cranium%20rat%20squeaker_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Proficiency bonus": "+3",
+        "Senses": "Darkvision 30 ft.",
+        "Languages": "telepathy 30 ft.",
+        "Damage resistances": "Bludgeoning, piercing, slashing.",
+        "Condition immunities": "Charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned.",
+        "Traits": "Psychic Messenger. Sending can reach someone familiar to a creature that is in telepathic contact with the swarm.\nSwarm. The swarm and another creature can share a space. It fits through any opening a Tiny rat can pass through. It cannot regain HP or gain temporary HP.\nTelepathic Shroud. Divination spells and effects that read thoughts or sense emotions cannot affect the swarm.",
+        "Actions": "Bites. Melee weapon attack, +5 to hit, reach 0 ft., one target sharing the swarm’s space. A hit deals 14 (4d6) piercing plus 22 (5d8) psychic damage. At half its maximum HP or less (38 HP by default), the piercing damage drops to 7 (2d6).",
+        "Spellcasting (Psionics)": "With more than half its maximum HP (above 38 HP by default), cast one spell from the following list as an action using Intelligence (save DC 13). No spell components are required.\nAt will. Command, Detect Thoughts, Sending.\n1/day each. Confusion, Dominate Monster.",
+        "Bonus actions": "Illumination. Set the swarm’s light to dim within 5 ft., choose a bright radius from 5 to 20 ft. with an equal band of dim light beyond it, or extinguish the light.",
+        "Printed source": "Morte's Planar Parade, p. 22."
+      }
+    }
+  },
+  {
+    "name": "Cuprilach Rilmani",
+    "statBlock": {
+      "name": "Cuprilach Rilmani",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 44,
+      "classification": "Medium celestial, typically neutral",
+      "ac": 16,
+      "hp": 202,
+      "hitDice": "27d8 + 81",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 12
+        },
+        "Dex": {
+          "score": 20
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "description": "A wiry copper infiltrator whose torso floats above its waist, separated by a polished sphere. Cuprilachs spy and kill on orders from the aurumachs.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 9,
+        "Cha": 6
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 13
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Aurumach Rilmani",
+          "terms": [
+            "Aurumach Rilmani"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#aurumach%20rilmani_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+4",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "telepathy 120 ft., any four languages.",
+        "Damage resistances": "Psychic.",
+        "Actions": "Multiattack. Make three attacks, choosing Burnished Blade or Bolt for each.\nBurnished Blade. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 8 (1d6 + 5) piercing plus 13 (2d12) psychic damage.\nBolt. Ranged weapon attack, +9 to hit, range 20/60 ft., one target. A hit deals 7 (1d4 + 5) piercing plus 13 (2d12) psychic damage.",
+        "Spellcasting": "As an action, cast one spell from the following list using Intelligence (save DC 15), with no material components.\nAt will. Detect Magic, Disguise Self.\n1/day each. Alter Self, Fog Cloud, Silence.",
+        "Bonus actions": "Assassin’s Agility. Dash, Disengage, or make one Burnished Blade attack.",
+        "Reactions": "Uncanny Dodge. When an attacker the cuprilach can see hits it, halve the damage from that attack.",
+        "Rilmani": "The Cuprilach Rilmani takes orders from the Aurumach Rilmani.",
+        "Printed source": "Morte's Planar Parade, p. 44."
+      }
+    }
+  },
+  {
+    "name": "Darkweaver",
+    "statBlock": {
+      "name": "Darkweaver",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 25,
+      "classification": "Medium aberration, typically chaotic evil",
+      "ac": 16,
+      "hp": 149,
+      "hitDice": "23d8 + 46",
+      "speed": "50 ft., climb 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 17
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 16,
+      "description": "An arachnid hunter from the Shadowfell that ambushes its victims with webs made of darkness. A captive might buy time by describing a memorable meal or promising to bring back a rare spice.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 6
+      },
+      "skills": {
+        "Perception": 6,
+        "Stealth": 7
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Flumph",
+          "terms": [
+            "Flumph"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#flumph_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Mule",
+          "terms": [
+            "Mule"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#mule_mm"
+          }
+        },
+        {
+          "kind": "beast",
+          "name": "Swarm of Insects",
+          "terms": [
+            "Swarm of Insects"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#swarm%20of%20insects_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Commoner",
+          "terms": [
+            "Commoner"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#commoner_mm"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Musteval Guardinal",
+          "terms": [
+            "Musteval Guardinal"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#musteval%20guardinal_mpp"
+          }
+        }
+      ],
+      "sections": {
+        "Armor": "Natural armor.",
+        "Proficiency bonus": "+4",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Deep Speech, telepathy 120 ft.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Necrotic.",
+        "Traits": "Shadowy Form. Attacks against the darkweaver have disadvantage while it is in dim light or darkness, unless it is incapacitated.\nSpider Climb. Climb difficult surfaces, including ceilings upside down, without an ability check.\nSunlight Hypersensitivity. Starting its turn in sunlight deals 10 radiant damage to the darkweaver. It makes attack rolls and ability checks with disadvantage while in sunlight.",
+        "Actions": "Multiattack. Make two Shadow Web attacks and one Bite. The darkweaver can use Reel after any of those attacks.\nBite. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 13 (3d6 + 3) piercing plus 17 (5d6) necrotic damage. A creature’s maximum HP decreases by the necrotic damage actually taken until it finishes a long rest. It dies if its maximum HP reaches 0.\nShadow Web. Ranged weapon attack, +7 to hit, up to 120 ft., one creature. A hit deals 16 (3d10) necrotic damage and leaves the target grappled (escape DC 15). The web can be destroyed. It has AC 16, 20 HP, vulnerability to radiant damage, and immunity to bludgeoning, necrotic, poison, and psychic damage. The darkweaver can hold up to six creatures this way.\nReel. Pull each creature the darkweaver has grappled up to 60 ft. toward it.",
+        "Lair actions": "On initiative count 20, after other combatants tied at 20, choose one action. The same action cannot be used in consecutive rounds. In its lair the darkweaver is CR 11 (7,200 XP).\nExtinguish. Put out nonmagical flames within 30 ft. Dispel any spell of 2nd level or lower whose area of light overlaps that space.\nShadow Fears. Creatures grappled by Shadow Web make a DC 15 Wisdom save. Those that fail are frightened until the end of their next turn.\nShadow Step. If the darkweaver is in dim light or darkness, teleport with its gear to a visible, unoccupied spot in dim light or darkness within 60 ft.",
+        "Darkweaver webs": "A web has a 50% chance to contain 1d6 cocoons. Roll a d6 for each.\n1. Roll a die. Even means humanoid bones. Odd means bones of another creature, such as a Flumph or a Mule.\n2. A Swarm of Insects that might be the darkweaver’s young.\n3. A corpse holding a jar of Universal Solvent with a stuck lid.\n4. A collection of menus from Sigil.\n5. 4d12 gp in digested sludge.\n6. A forgotten halfling Commoner or Musteval Guardinal.",
+        "Printed source": "Morte's Planar Parade, pp. 24–25."
+      }
+    }
+  }
+]

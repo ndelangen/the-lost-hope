@@ -1,0 +1,541 @@
+[
+  {
+    "name": "Bheur Hag",
+    "statBlock": {
+      "name": "Bheur Hag",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 17,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A winter hag who rides a flying staff and uses blizzards to turn isolated settlements against one another.",
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Nature": 4,
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Auran, Common, Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Graystaff Magic. The hag can ride her graystaff as a Broom of Flying. Holding it lets her cast the staff spells under Innate Spellcasting. Only a bheur hag can use the staff. Replacing it after loss or destruction takes a year and a day.\nIce Walk. The hag can walk and climb on ice without ability checks. Ice and snow that count as difficult terrain cost her no additional movement.",
+        "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage.\nMaddening Feast. The hag feeds on the corpse of an enemy within 5 ft. that died in the past minute. Any creatures she chooses within 60 ft. that can see her must make a DC 15 Wisdom save. On a failure, a creature is frightened of her for 1 minute. While frightened this way, it is incapacitated. It cannot read or understand speech and speaks only gibberish. The DM controls its erratic movement. The creature can repeat the save at the end of each of its turns, ending the effect on a success. A successful save or the end of the effect makes the creature immune to this hag's Maddening Feast for 24 hours.",
+        "Innate spellcasting": "The hag uses Charisma (spell save DC 14, +6 to hit with spell attacks) and needs no material components.\nAt will. Ray of Frost.\n1/day. Control Weather.\nWhile holding the graystaff. Hold Person at will. Cone of Cold, Ice Storm, and Wall of Ice 3/day each.",
+        "Coven challenge": "A bheur hag in a coven is CR 9 (5,000 XP). Use the Bheur Hag (Coven) profile for standard shared spells, or the Death, Nature, or Prophecy profile for the corresponding spell list.",
+        "Lair actions": "Optional lair actions for powerful hags. Grandmothers usually have three to five options. Aunties usually have at most one. On initiative count 20, after any creature tied with the hag, she can use one available option while in her lair and able to act. She cannot use the same option in consecutive rounds. If surprised, she must finish her first turn before she can use one. If an effect calls for a saving throw without giving a DC, use the DC of the hag's most powerful ability.\nPass Through Surfaces. The hag can pass through solid doors, walls, ceilings, and floors until initiative count 20 of the next round.\nDoors and Windows. Open or close any number of visible doors and windows, choosing separately for each. A door closed this way can be magically locked. Forcing it open requires a DC 20 Strength check. The lock lasts until she unlocks the door or opens it with this lair action.\nBlizzard. Center a cylinder 40 ft. tall and 20 ft. in radius on a point the hag can see within 120 ft. It lasts until initiative count 20 of the next round and lightly obscures creatures and objects in it. A creature that starts its turn there or enters for the first time on a turn is blinded until that same initiative count.",
+        "Regional effects": "Pick regional effects for the hag's lair. A typical hag lair has three to five. Powerful hags and covens usually have more than a lone hag. If an effect calls for a save without giving a DC, use that of the hag's most powerful ability. When the hag dies or abandons the lair, effects can end immediately or fade within 2d10 days.\nA grandmother's lair can produce any of the following within 1 mile. Appropriate small animals become unusually abundant. Beasts with Intelligence 2 or lower are charmed by the hag and act aggressively toward intruders at her direction. Carved figures, twig fetishes, or rag dolls appear in trees.\nA powerful bheur hag can add any of the following within 1 mile. Snow slides can block routes or bury creatures, leaving them restrained and holding their breath until dug out. Human-sized blocks of ice contain bodies that can break out as zombies or release specters. Blizzards strike once every 2d12 hours and last 1d3 hours, halving overland speed and reducing normal visibility to 30 ft. Routes can loop back on themselves, making navigation difficult.",
+        "Printed source": "Volo's Guide to Monsters, p. 160."
+      }
+    }
+  },
+  {
+    "name": "Bheur Hag (Coven)",
+    "statBlock": {
+      "name": "Bheur Hag (Coven)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 17,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A winter hag who rides a flying staff and uses blizzards to turn isolated settlements against one another.",
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Nature": 4,
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Auran, Common, Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Graystaff Magic. The hag can ride her graystaff as a Broom of Flying. Holding it lets her cast the staff spells under Innate Spellcasting. Only a bheur hag can use the staff. Replacing it after loss or destruction takes a year and a day.\nIce Walk. The hag can walk and climb on ice without ability checks. Ice and snow that count as difficult terrain cost her no additional movement.",
+        "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage.\nMaddening Feast. The hag feeds on the corpse of an enemy within 5 ft. that died in the past minute. Any creatures she chooses within 60 ft. that can see her must make a DC 15 Wisdom save. On a failure, a creature is frightened of her for 1 minute. While frightened this way, it is incapacitated. It cannot read or understand speech and speaks only gibberish. The DM controls its erratic movement. The creature can repeat the save at the end of each of its turns, ending the effect on a success. A successful save or the end of the effect makes the creature immune to this hag's Maddening Feast for 24 hours.",
+        "Innate spellcasting": "The hag uses Charisma (spell save DC 14, +6 to hit with spell attacks) and needs no material components.\nAt will. Ray of Frost.\n1/day. Control Weather.\nWhile holding the graystaff. Hold Person at will. Cone of Cold, Ice Storm, and Wall of Ice 3/day each.",
+        "Lair actions": "Optional lair actions for powerful hags. Grandmothers usually have three to five options. Aunties usually have at most one. On initiative count 20, after any creature tied with the hag, she can use one available option while in her lair and able to act. She cannot use the same option in consecutive rounds. If surprised, she must finish her first turn before she can use one. If an effect calls for a saving throw without giving a DC, use the DC of the hag's most powerful ability.\nPass Through Surfaces. The hag can pass through solid doors, walls, ceilings, and floors until initiative count 20 of the next round.\nDoors and Windows. Open or close any number of visible doors and windows, choosing separately for each. A door closed this way can be magically locked. Forcing it open requires a DC 20 Strength check. The lock lasts until she unlocks the door or opens it with this lair action.\nBlizzard. Center a cylinder 40 ft. tall and 20 ft. in radius on a point the hag can see within 120 ft. It lasts until initiative count 20 of the next round and lightly obscures creatures and objects in it. A creature that starts its turn there or enters for the first time on a turn is blinded until that same initiative count.",
+        "Regional effects": "Pick regional effects for the hag's lair. A typical hag lair has three to five. Powerful hags and covens usually have more than a lone hag. If an effect calls for a save without giving a DC, use that of the hag's most powerful ability. When the hag dies or abandons the lair, effects can end immediately or fade within 2d10 days.\nA grandmother's lair can produce any of the following within 1 mile. Appropriate small animals become unusually abundant. Beasts with Intelligence 2 or lower are charmed by the hag and act aggressively toward intruders at her direction. Carved figures, twig fetishes, or rag dolls appear in trees.\nA powerful bheur hag can add any of the following within 1 mile. Snow slides can block routes or bury creatures, leaving them restrained and holding their breath until dug out. Human-sized blocks of ice contain bodies that can break out as zombies or release specters. Blizzards strike once every 2d12 hours and last 1d3 hours, halving overland speed and reducing normal visibility to 30 ft. Routes can loop back on themselves, making navigation difficult.",
+        "Printed source": "Volo's Guide to Monsters, p. 160.",
+        "Shared coven spellcasting": "All three members must be within 30 ft. of one another to cast these spells. They draw from a single pool of slots, so one hag's casting spends a slot for the whole coven. Each counts as a 12th-level spellcaster for these wizard spells and uses Intelligence (save DC 13, +5 to hit).\nLevel 1 (4 shared slots). Identify, Ray Of Sickness.\nLevel 2 (3 shared slots). Hold Person, Locate Object.\nLevel 3 (3 shared slots). Bestow Curse, Counterspell, Lightning Bolt.\nLevel 4 (3 shared slots). Phantasmal Killer, Polymorph.\nLevel 5 (2 shared slots). Contact Other Plane, Scrying.\nLevel 6 (1 shared slot). Eyebite.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. It has AC 10, 1 hit point, and darkvision 60 ft. Any member on the same plane as the eye can use an action to see through it. If the eye is destroyed, each member takes 3d10 psychic damage and is blinded for 24 hours. Making one takes an hour with all three hags present. None can be blinded. If any takes another action during the ritual, they must start over."
+      }
+    }
+  },
+  {
+    "name": "Bheur Hag (Coven; Death)",
+    "statBlock": {
+      "name": "Bheur Hag (Coven; Death)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 17,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A winter hag who rides a flying staff and uses blizzards to turn isolated settlements against one another.",
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Nature": 4,
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Auran, Common, Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Graystaff Magic. The hag can ride her graystaff as a Broom of Flying. Holding it lets her cast the staff spells under Innate Spellcasting. Only a bheur hag can use the staff. Replacing it after loss or destruction takes a year and a day.\nIce Walk. The hag can walk and climb on ice without ability checks. Ice and snow that count as difficult terrain cost her no additional movement.",
+        "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage.\nMaddening Feast. The hag feeds on the corpse of an enemy within 5 ft. that died in the past minute. Any creatures she chooses within 60 ft. that can see her must make a DC 15 Wisdom save. On a failure, a creature is frightened of her for 1 minute. While frightened this way, it is incapacitated. It cannot read or understand speech and speaks only gibberish. The DM controls its erratic movement. The creature can repeat the save at the end of each of its turns, ending the effect on a success. A successful save or the end of the effect makes the creature immune to this hag's Maddening Feast for 24 hours.",
+        "Innate spellcasting": "The hag uses Charisma (spell save DC 14, +6 to hit with spell attacks) and needs no material components.\nAt will. Ray of Frost.\n1/day. Control Weather.\nWhile holding the graystaff. Hold Person at will. Cone of Cold, Ice Storm, and Wall of Ice 3/day each.",
+        "Lair actions": "Optional lair actions for powerful hags. Grandmothers usually have three to five options. Aunties usually have at most one. On initiative count 20, after any creature tied with the hag, she can use one available option while in her lair and able to act. She cannot use the same option in consecutive rounds. If surprised, she must finish her first turn before she can use one. If an effect calls for a saving throw without giving a DC, use the DC of the hag's most powerful ability.\nPass Through Surfaces. The hag can pass through solid doors, walls, ceilings, and floors until initiative count 20 of the next round.\nDoors and Windows. Open or close any number of visible doors and windows, choosing separately for each. A door closed this way can be magically locked. Forcing it open requires a DC 20 Strength check. The lock lasts until she unlocks the door or opens it with this lair action.\nBlizzard. Center a cylinder 40 ft. tall and 20 ft. in radius on a point the hag can see within 120 ft. It lasts until initiative count 20 of the next round and lightly obscures creatures and objects in it. A creature that starts its turn there or enters for the first time on a turn is blinded until that same initiative count.",
+        "Regional effects": "Pick regional effects for the hag's lair. A typical hag lair has three to five. Powerful hags and covens usually have more than a lone hag. If an effect calls for a save without giving a DC, use that of the hag's most powerful ability. When the hag dies or abandons the lair, effects can end immediately or fade within 2d10 days.\nA grandmother's lair can produce any of the following within 1 mile. Appropriate small animals become unusually abundant. Beasts with Intelligence 2 or lower are charmed by the hag and act aggressively toward intruders at her direction. Carved figures, twig fetishes, or rag dolls appear in trees.\nA powerful bheur hag can add any of the following within 1 mile. Snow slides can block routes or bury creatures, leaving them restrained and holding their breath until dug out. Human-sized blocks of ice contain bodies that can break out as zombies or release specters. Blizzards strike once every 2d12 hours and last 1d3 hours, halving overland speed and reducing normal visibility to 30 ft. Routes can loop back on themselves, making navigation difficult.",
+        "Printed source": "Volo's Guide to Monsters, p. 160.",
+        "Shared coven spellcasting": "All three members must be within 30 ft. of one another to cast these spells. They draw from a single pool of slots, so one hag's casting spends a slot for the whole coven. Each counts as a 12th-level spellcaster for these wizard spells and uses Intelligence (save DC 13, +5 to hit).\nLevel 1 (4 shared slots). False Life, Inflict Wounds.\nLevel 2 (3 shared slots). Gentle Repose, Ray Of Enfeeblement.\nLevel 3 (3 shared slots). Animate Dead, Revivify, Speak With Dead.\nLevel 4 (3 shared slots). Blight, Death Ward.\nLevel 5 (2 shared slots). Contagion, Raise Dead.\nLevel 6 (1 shared slot). Circle Of Death.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. It has AC 10, 1 hit point, and darkvision 60 ft. Any member on the same plane as the eye can use an action to see through it. If the eye is destroyed, each member takes 3d10 psychic damage and is blinded for 24 hours. Making one takes an hour with all three hags present. None can be blinded. If any takes another action during the ritual, they must start over."
+      }
+    }
+  },
+  {
+    "name": "Bheur Hag (Coven; Nature)",
+    "statBlock": {
+      "name": "Bheur Hag (Coven; Nature)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 17,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A winter hag who rides a flying staff and uses blizzards to turn isolated settlements against one another.",
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Nature": 4,
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Auran, Common, Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Graystaff Magic. The hag can ride her graystaff as a Broom of Flying. Holding it lets her cast the staff spells under Innate Spellcasting. Only a bheur hag can use the staff. Replacing it after loss or destruction takes a year and a day.\nIce Walk. The hag can walk and climb on ice without ability checks. Ice and snow that count as difficult terrain cost her no additional movement.",
+        "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage.\nMaddening Feast. The hag feeds on the corpse of an enemy within 5 ft. that died in the past minute. Any creatures she chooses within 60 ft. that can see her must make a DC 15 Wisdom save. On a failure, a creature is frightened of her for 1 minute. While frightened this way, it is incapacitated. It cannot read or understand speech and speaks only gibberish. The DM controls its erratic movement. The creature can repeat the save at the end of each of its turns, ending the effect on a success. A successful save or the end of the effect makes the creature immune to this hag's Maddening Feast for 24 hours.",
+        "Innate spellcasting": "The hag uses Charisma (spell save DC 14, +6 to hit with spell attacks) and needs no material components.\nAt will. Ray of Frost.\n1/day. Control Weather.\nWhile holding the graystaff. Hold Person at will. Cone of Cold, Ice Storm, and Wall of Ice 3/day each.",
+        "Lair actions": "Optional lair actions for powerful hags. Grandmothers usually have three to five options. Aunties usually have at most one. On initiative count 20, after any creature tied with the hag, she can use one available option while in her lair and able to act. She cannot use the same option in consecutive rounds. If surprised, she must finish her first turn before she can use one. If an effect calls for a saving throw without giving a DC, use the DC of the hag's most powerful ability.\nPass Through Surfaces. The hag can pass through solid doors, walls, ceilings, and floors until initiative count 20 of the next round.\nDoors and Windows. Open or close any number of visible doors and windows, choosing separately for each. A door closed this way can be magically locked. Forcing it open requires a DC 20 Strength check. The lock lasts until she unlocks the door or opens it with this lair action.\nBlizzard. Center a cylinder 40 ft. tall and 20 ft. in radius on a point the hag can see within 120 ft. It lasts until initiative count 20 of the next round and lightly obscures creatures and objects in it. A creature that starts its turn there or enters for the first time on a turn is blinded until that same initiative count.",
+        "Regional effects": "Pick regional effects for the hag's lair. A typical hag lair has three to five. Powerful hags and covens usually have more than a lone hag. If an effect calls for a save without giving a DC, use that of the hag's most powerful ability. When the hag dies or abandons the lair, effects can end immediately or fade within 2d10 days.\nA grandmother's lair can produce any of the following within 1 mile. Appropriate small animals become unusually abundant. Beasts with Intelligence 2 or lower are charmed by the hag and act aggressively toward intruders at her direction. Carved figures, twig fetishes, or rag dolls appear in trees.\nA powerful bheur hag can add any of the following within 1 mile. Snow slides can block routes or bury creatures, leaving them restrained and holding their breath until dug out. Human-sized blocks of ice contain bodies that can break out as zombies or release specters. Blizzards strike once every 2d12 hours and last 1d3 hours, halving overland speed and reducing normal visibility to 30 ft. Routes can loop back on themselves, making navigation difficult.",
+        "Printed source": "Volo's Guide to Monsters, p. 160.",
+        "Shared coven spellcasting": "All three members must be within 30 ft. of one another to cast these spells. They draw from a single pool of slots, so one hag's casting spends a slot for the whole coven. Each counts as a 12th-level spellcaster for these wizard spells and uses Intelligence (save DC 13, +5 to hit).\nLevel 1 (4 shared slots). Entangle, Speak With Animals.\nLevel 2 (3 shared slots). Flaming Sphere, Moonbeam, Spike Growth.\nLevel 3 (3 shared slots). Call Lightning, Plant Growth.\nLevel 4 (3 shared slots). Dominate Beast, Grasping Vine.\nLevel 5 (2 shared slots). Insect Plague, Tree Stride.\nLevel 6 (1 shared slot). Wall Of Thorns.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. It has AC 10, 1 hit point, and darkvision 60 ft. Any member on the same plane as the eye can use an action to see through it. If the eye is destroyed, each member takes 3d10 psychic damage and is blinded for 24 hours. Making one takes an hour with all three hags present. None can be blinded. If any takes another action during the ritual, they must start over."
+      }
+    }
+  },
+  {
+    "name": "Bheur Hag (Coven; Prophecy)",
+    "statBlock": {
+      "name": "Bheur Hag (Coven; Prophecy)",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 160,
+      "classification": "Medium fey, chaotic evil",
+      "ac": 17,
+      "hp": 91,
+      "hitDice": "14d8 + 28",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 13
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A winter hag who rides a flying staff and uses blizzards to turn isolated settlements against one another.",
+      "savingThrows": {
+        "Wis": 4
+      },
+      "skills": {
+        "Nature": 4,
+        "Perception": 4,
+        "Stealth": 6,
+        "Survival": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Auran, Common, Giant.",
+        "Damage immunities": "Cold.",
+        "Traits": "Graystaff Magic. The hag can ride her graystaff as a Broom of Flying. Holding it lets her cast the staff spells under Innate Spellcasting. Only a bheur hag can use the staff. Replacing it after loss or destruction takes a year and a day.\nIce Walk. The hag can walk and climb on ice without ability checks. Ice and snow that count as difficult terrain cost her no additional movement.",
+        "Actions": "Slam. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage.\nMaddening Feast. The hag feeds on the corpse of an enemy within 5 ft. that died in the past minute. Any creatures she chooses within 60 ft. that can see her must make a DC 15 Wisdom save. On a failure, a creature is frightened of her for 1 minute. While frightened this way, it is incapacitated. It cannot read or understand speech and speaks only gibberish. The DM controls its erratic movement. The creature can repeat the save at the end of each of its turns, ending the effect on a success. A successful save or the end of the effect makes the creature immune to this hag's Maddening Feast for 24 hours.",
+        "Innate spellcasting": "The hag uses Charisma (spell save DC 14, +6 to hit with spell attacks) and needs no material components.\nAt will. Ray of Frost.\n1/day. Control Weather.\nWhile holding the graystaff. Hold Person at will. Cone of Cold, Ice Storm, and Wall of Ice 3/day each.",
+        "Lair actions": "Optional lair actions for powerful hags. Grandmothers usually have three to five options. Aunties usually have at most one. On initiative count 20, after any creature tied with the hag, she can use one available option while in her lair and able to act. She cannot use the same option in consecutive rounds. If surprised, she must finish her first turn before she can use one. If an effect calls for a saving throw without giving a DC, use the DC of the hag's most powerful ability.\nPass Through Surfaces. The hag can pass through solid doors, walls, ceilings, and floors until initiative count 20 of the next round.\nDoors and Windows. Open or close any number of visible doors and windows, choosing separately for each. A door closed this way can be magically locked. Forcing it open requires a DC 20 Strength check. The lock lasts until she unlocks the door or opens it with this lair action.\nBlizzard. Center a cylinder 40 ft. tall and 20 ft. in radius on a point the hag can see within 120 ft. It lasts until initiative count 20 of the next round and lightly obscures creatures and objects in it. A creature that starts its turn there or enters for the first time on a turn is blinded until that same initiative count.",
+        "Regional effects": "Pick regional effects for the hag's lair. A typical hag lair has three to five. Powerful hags and covens usually have more than a lone hag. If an effect calls for a save without giving a DC, use that of the hag's most powerful ability. When the hag dies or abandons the lair, effects can end immediately or fade within 2d10 days.\nA grandmother's lair can produce any of the following within 1 mile. Appropriate small animals become unusually abundant. Beasts with Intelligence 2 or lower are charmed by the hag and act aggressively toward intruders at her direction. Carved figures, twig fetishes, or rag dolls appear in trees.\nA powerful bheur hag can add any of the following within 1 mile. Snow slides can block routes or bury creatures, leaving them restrained and holding their breath until dug out. Human-sized blocks of ice contain bodies that can break out as zombies or release specters. Blizzards strike once every 2d12 hours and last 1d3 hours, halving overland speed and reducing normal visibility to 30 ft. Routes can loop back on themselves, making navigation difficult.",
+        "Printed source": "Volo's Guide to Monsters, p. 160.",
+        "Shared coven spellcasting": "All three members must be within 30 ft. of one another to cast these spells. They draw from a single pool of slots, so one hag's casting spends a slot for the whole coven. Each counts as a 12th-level spellcaster for these wizard spells and uses Intelligence (save DC 13, +5 to hit).\nLevel 1 (4 shared slots). Bane, Bless.\nLevel 2 (3 shared slots). Augury, Detect Thoughts.\nLevel 3 (3 shared slots). Clairvoyance, Dispel Magic, Nondetection.\nLevel 4 (3 shared slots). Arcane Eye, Locate Creature.\nLevel 5 (2 shared slots). Geas, Legend Lore.\nLevel 6 (1 shared slot). True Seeing.",
+        "Hag Eye mechanics": "A coven can keep one Hag Eye at a time. It has AC 10, 1 hit point, and darkvision 60 ft. Any member on the same plane as the eye can use an action to see through it. If the eye is destroyed, each member takes 3d10 psychic damage and is blinded for 24 hours. Making one takes an hour with all three hags present. None can be blinded. If any takes another action during the ritual, they must start over."
+      }
+    }
+  },
+  {
+    "name": "Black Guard Drake",
+    "statBlock": {
+      "name": "Black Guard Drake",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A wingless dragon bred as a guard from the scales of a black dragon.",
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak it.",
+        "Damage resistances": "Acid.",
+        "Traits": "Amphibious. The drake can breathe air and water.",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 158."
+      }
+    }
+  },
+  {
+    "name": "Blackguard",
+    "statBlock": {
+      "name": "Blackguard",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 211,
+      "classification": "Medium humanoid (any race), any evil alignment",
+      "ac": 18,
+      "hp": 153,
+      "hitDice": "18d8 + 72",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 11
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A fallen paladin who pursues personal ambitions and allies with fiends and undead.",
+      "savingThrows": {
+        "Wis": 5,
+        "Cha": 5
+      },
+      "skills": {
+        "Athletics": 7,
+        "Deception": 5,
+        "Intimidation": 5
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Languages": "Any one language, usually Common.",
+        "Actions": "Multiattack. Make three attacks using Glaive or Shortbow.\nGlaive. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nDreadful Aspect (Recharges after a Short or Long Rest). Each enemy within 30 ft. must make a DC 13 Wisdom save. On a failure, it is frightened for 1 minute. A frightened target can repeat the save whenever it ends its turn more than 30 ft. from the blackguard. Success ends the effect.",
+        "Spellcasting": "A 10th-level spellcaster using Charisma (spell save DC 13, +5 to hit with spell attacks). The following paladin spells are prepared.\nLevel 1 (4 slots). Command, Protection from Evil and Good, Thunderous Smite.\nLevel 2 (3 slots). Branding Smite, Find Steed.\nLevel 3 (2 slots). Blinding Smite, Dispel Magic.",
+        "Printed source": "Volo's Guide to Monsters, p. 211."
+      }
+    }
+  },
+  {
+    "name": "Blue Guard Drake",
+    "statBlock": {
+      "name": "Blue Guard Drake",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 158,
+      "classification": "Medium dragon, unaligned",
+      "ac": 14,
+      "hp": 52,
+      "hitDice": "7d8 + 21",
+      "speed": "30 ft., burrow 20 ft.",
+      "abilities": {
+        "Str": {
+          "score": 16
+        },
+        "Dex": {
+          "score": 11
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 4
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 7
+        }
+      },
+      "cr": "2",
+      "xp": 450,
+      "passivePerception": 12,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A wingless dragon bred as a guard from the scales of a blue dragon.",
+      "skills": {
+        "Perception": 2
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Understands Draconic and cannot speak it.",
+        "Damage resistances": "Lightning.",
+        "Actions": "Multiattack. Make one Bite attack and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage.",
+        "Printed source": "Volo's Guide to Monsters, p. 158."
+      }
+    }
+  },
+  {
+    "name": "Bodak",
+    "statBlock": {
+      "name": "Bodak",
+      "publication": "Volo's Guide to Monsters",
+      "edition": "2014 fifth edition",
+      "printedPage": 127,
+      "classification": "Medium undead, chaotic evil",
+      "ac": 15,
+      "hp": 58,
+      "hitDice": "9d8 + 18",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 15
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 15
+        },
+        "Int": {
+          "score": 7
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 14,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "An undead servant of Orcus whose gaze can drop a victim to 0 hit points. Orcus can recall what it sees and hears and can speak through it.",
+      "skills": {
+        "Perception": 4,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal and the languages it knew in life.",
+        "Damage resistances": "Cold, fire, necrotic. Bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+        "Damage immunities": "Lightning, poison.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Traits": "Death Gaze. When a creature starts its turn within 30 ft. and can see the bodak's eyes, the bodak can force it to make a DC 13 Constitution save. The bodak must be able to see it and cannot use the gaze while incapacitated. A failure by 5 or more drops the creature to 0 hit points unless it is immune to being frightened. Any remaining failure deals 16 (3d10) psychic damage. A creature that is not surprised can avert its eyes at the start of its turn to avoid the save. It then has disadvantage on attacks against the bodak until the start of its next turn. If it looks at the bodak before then, it must make the save immediately.\nSunlight Hypersensitivity. The bodak takes 5 radiant damage if it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.\nUndead Nature. The bodak needs no air, food, drink, or sleep.",
+        "Actions": "Fist. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage plus 9 (2d8) necrotic damage.\nWithering Gaze. One creature the bodak can see within 60 ft. makes a DC 13 Constitution save. It takes 22 (4d10) necrotic damage on a failure or half as much on a success.",
+        "Bonus actions": "Aura of Annihilation. Turn the aura on or off. While it is active, any creature that ends its turn within 30 ft. of the bodak takes 5 necrotic damage. Undead and fiends ignore this aura.",
+        "Ravaged soul": "Only Wish or similar magic can restore a bodak to its former life.",
+        "Printed source": "Volo's Guide to Monsters, p. 127."
+      }
+    }
+  }
+]

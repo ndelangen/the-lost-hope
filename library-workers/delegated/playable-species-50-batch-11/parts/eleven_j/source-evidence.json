@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Tiger",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      262,
+      265
+    ],
+    "page": "v2 p. 265, Tiger Traits. Saber-Toothed Tiger cross-reference on p. 262.",
+    "heading": "Tiger Traits",
+    "creatureType": "Beast",
+    "sourceVersion": "Monstrous Races v2 authored text",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Saffron uses the common tiger form. Saber-Toothed Tiger redirects to the same printed traits, including Medium size.",
+      "Pounce is the 2014 shove contest, not an encounter Strength-save ability. The printed Bite and Claw explicitly qualifies for finesse requirements."
+    ]
+  },
+  {
+    "name": "Weasel",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      267
+    ],
+    "page": "v2 p. 267, Weasel Traits.",
+    "heading": "Weasel Traits",
+    "creatureType": "Beast",
+    "sourceVersion": "Monstrous Races v2 authored text",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Rogue",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Giant Weasel uses a separate player block. Hush uses the ordinary weasel in its winter coat.",
+      "The design suggestion to grant an extra skill or feat was not selected. Hush has no printed climb, burrow or darkvision trait."
+    ]
+  },
+  {
+    "name": "Winter Wolf",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      267,
+      268
+    ],
+    "page": "v2 pp. 267–268, Winter Wolf Traits.",
+    "heading": "Winter Wolf Traits",
+    "creatureType": "Monstrosity",
+    "sourceVersion": "Monstrous Races v2 authored text",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Barbarian",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Rime uses the Medium player form with 40-ft. walking speed. The player block gives no darkvision, cold immunity or Pack Tactics.",
+      "Reckless Attack applies to Strength-based melee attack rolls, not the breath saving throw."
+    ]
+  },
+  {
+    "name": "Wolf",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      229,
+      268
+    ],
+    "page": "v2 p. 268, Wolf Traits. Dire Wolf cross-reference on p. 229.",
+    "heading": "Wolf Traits",
+    "creatureType": "Beast",
+    "sourceVersion": "Monstrous Races v2 authored text",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Monk",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "Alder uses the ordinary wolf. The printed player block omits any special bite die and does not include a No Hands paragraph, although the design notes discuss both. The NPC is a handless quadruped and uses Monk damage for ordinary unarmed body strikes.",
+      "The encounter wolf’s passive Pack Tactics and bite are separate from the player rules."
+    ]
+  },
+  {
+    "name": "Worg",
+    "kind": "species",
+    "publication": "Monstrous Races (2018)",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/product/230312/Monstrous-Races",
+    "printedPages": [
+      269
+    ],
+    "page": "v2 p. 269, Worg Traits.",
+    "heading": "Worg Traits",
+    "creatureType": "Monstrosity",
+    "sourceVersion": "Monstrous Races v2 authored text",
+    "provenance": "Tyler Kamstra’s DMs Guild player conversion. This profile uses the v2 trait block for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes#Monk",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "sourceDistinctions": [
+      "The design notes mention a d8 unarmed strike, but the player trait block does not grant one. Gravel uses ordinary Monk unarmed damage. No Pack Tactics or innate Common."
+    ]
+  }
+]

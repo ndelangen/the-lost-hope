@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Giant Strider",
+    "file": "portraits/giant-strider.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "0254f35ab65fe786cdb69112674ad7da8c49156cff62c6acfc26fb2f43659334"
+  },
+  {
+    "name": "Flail Snail",
+    "file": "portraits/flail-snail.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "aad7ce412016ae064b99cb4af1dd947d15ca226de5cdf891a9c06e5aa420a4ee"
+  },
+  {
+    "name": "Froghemoth",
+    "file": "portraits/froghemoth.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "bb7794b8a712883c9cc912f61452d7a76415a4486d09da20d25a544782aac734"
+  },
+  {
+    "name": "Girallon",
+    "file": "portraits/girallon.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "bcfbf82bbcbfb66130c7d9a8a23a8d0b372a29bb75e0d1c595df9e4846432e12"
+  },
+  {
+    "name": "Guard Drake",
+    "file": "portraits/guard-drake.png",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen",
+    "sha256": "d3a10e605453b8d3a93321ff6b99b37e481c59c0bda194f54557c848a6ac88af"
+  }
+]

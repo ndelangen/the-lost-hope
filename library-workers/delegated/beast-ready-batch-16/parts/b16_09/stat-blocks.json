@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Birdsquirrel",
+    "publication": "Adventure with Muk",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny beast, unaligned",
+    "ac": 13,
+    "hp": 10,
+    "hitDice": "",
+    "speed": "20 ft., fly 30 ft., climb 20 ft.",
+    "cr": "1/4",
+    "abilities": {
+      "Str": {
+        "score": 6,
+        "modifier": -2
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 4,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "appearance": "A tiny brown bird with clawed feet and a large, curling squirrel tail.",
+    "habitats": [
+      "Dankwood",
+      "Gob-Town"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Adventure with Muk, Monsters, unnumbered sheet 30.",
+      "Traits": "Pack Tactics. The birdsquirrel has advantage on an attack roll against a creature if an ally of the birdsquirrel is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Multiattack. Make one Bite attack and one Claws attack.\nBite. Attack +4. On a hit, deal 5 (1d6 + 2) piercing damage.\nClaws. Attack +4. On a hit, deal 4 (1d4 + 2) slashing damage.",
+      "Ecology": "Birdsquirrel is devoted to Muk. It may be a one-of-a-kind creation of the wizard Doonwaggle."
+    },
+    "initiative": -3,
+    "otherStatistics": "Initiative -3."
+  },
+  {
+    "name": "Boontu Monkey",
+    "publication": "Adventure with Muk",
+    "edition": "2014 fifth edition",
+    "classification": "Tiny beast, unaligned",
+    "ac": 12,
+    "hp": 3,
+    "hitDice": "",
+    "speed": "20 ft., climb 20 ft.",
+    "cr": "0",
+    "abilities": {
+      "Str": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Dex": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Int": {
+        "score": 5,
+        "modifier": -3
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "appearance": "A tiny chestnut monkey with pale cheeks, gripping fingers and a curling tail.",
+    "habitats": [
+      "Dankwood",
+      "Boontu tree"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Adventure with Muk, Monsters, unnumbered sheet 30.",
+      "Traits": "Pack Tactics. The Boontu monkey has advantage on an attack roll against a creature if an ally of the Boontu monkey is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Attack +1. On a hit, deal 1 (1d4 - 1) piercing damage.",
+      "Ecology": "These wary monkeys search constantly for food and leave the sacred golden nuts on their home tree alone. A local story says a dryad transformed thieves into the monkeys after catching them stealing her nuts."
+    },
+    "initiative": 2,
+    "otherStatistics": "Initiative +2."
+  },
+  {
+    "name": "Two-Headed Plesiosaurus",
+    "publication": "The Tortle Package",
+    "edition": "2014 fifth edition",
+    "classification": "Large beast, unaligned",
+    "ac": 13,
+    "hp": 100,
+    "hitDice": "",
+    "speed": "20 ft., swim 40 ft.",
+    "cr": "4",
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 5,
+        "modifier": -3
+      }
+    },
+    "appearance": "A gray-blue marine reptile with two long necks, four broad flippers and a short tail.",
+    "habitats": [
+      "Snout of Omgar",
+      "High Horn",
+      "Coastal waters"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, The Tortle Package, High Horn, pp. 18, 19.",
+      "Traits": "Hold Breath. It can hold its breath for 1 hour.\nTwo heads. It has advantage on Wisdom (Perception) checks and saves against being blinded, charmed, deafened, frightened, stunned or knocked unconscious.",
+      "Actions": "Multiattack. Use its action to make two Bite attacks, one per head.\nBite. Melee weapon attack +6, reach 10 ft., one target. On a hit, deal 14 (3d6 + 4) piercing damage.",
+      "Encounter": "It hunts around the High Horn shipwrecks at high tide and retreats to the northern strait as the tide falls."
+    },
+    "printedPage": 18,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "xp": 1100,
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    },
+    "passivePerception": 13
+  },
+  {
+    "name": "Wolf",
+    "publication": "DDEX1-01 - Defiance in Phlan",
+    "edition": "2014 fifth edition",
+    "classification": "Medium beast, unaligned",
+    "ac": 13,
+    "hp": 11,
+    "hitDice": "2d8 + 2",
+    "speed": "40 ft.",
+    "cr": "1/4",
+    "abilities": {
+      "Str": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "appearance": "A gray-brown wolf with pointed ears, a pale muzzle and a thick tail.",
+    "habitats": [
+      "Foulwater goblin caves",
+      "Phlan guard room"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, DDEX1-01 - Defiance in Phlan, Missions 2 and 5, Monster/NPC Statistics, pp. 15, 31.",
+      "Traits": "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. The wolf has advantage on an attack roll against a creature if an ally of the wolf is within 5 ft. of that creature and the ally is not incapacitated.",
+      "Actions": "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage. A creature hit this way falls prone on a failed DC 11 Strength save.",
+      "Encounter": "Mission 2, area 2C. Three goblins guard two caged wolves. A goblin can unlock a cage as an action. For a weak party, remove one goblin and one wolf. For a strong party, replace one wolf with a worg. For a very strong party, replace both with uncaged worgs.\nMission 5, area 3B. The guard room has a large dog using these Wolf statistics. Add one wolf for a very strong party."
+    },
+    "printedPage": 15,
+    "otherStatistics": "AC includes natural armor. Languages none.",
+    "xp": 50,
+    "skills": {
+      "Perception": 3,
+      "Stealth": 4
+    },
+    "passivePerception": 13
+  }
+]

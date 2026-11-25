@@ -1,0 +1,165 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -315761,6 +315761,23 @@
+       ]
+     },
+     {
++      "name": "Vril",
++      "kind": "species",
++      "publication": "Drow of the Underdark (2007)",
++      "edition": "3.5 edition",
++      "traits": [
++        "Small Humanoid (Goblinoid). +2 Constitution, −2 Intelligence, −2 Charisma. Land speed 30 ft. Darkvision 60 ft. Sonic resistance 5.",
++        "Small size gives +1 AC and attacks, +4 Hide, −4 grapple, and three-quarters the carrying capacity of a Medium creature under the core size rule.",
++        "Light Blindness (Ex). Abrupt bright light, such as sunlight or daylight, blinds for 1 round. Take a −1 circumstance penalty on attacks, saves, and checks while in bright light.",
++        "Vulnerability to Poison (Ex). Take −4 on Fortitude saves against drow sleep poison and spiderkind venom.",
++        "Skinshift (Ex). As a move action, choose bludgeoning, piercing, or slashing and gain damage reduction 5 against that damage type for 3 + Constitution modifier rounds. One use per day, plus one more at 4th level and every four levels thereafter.",
++        "Shriek (Ex). Once per day as a standard action, emit a 15-ft.-radius burst centered on the vril or a 30-ft. cone. Creatures in the area take sonic damage. Reflex halves at DC 10 + half character level (round down) + Constitution modifier. Vril barbarians can use Shriek while raging.",
++        "Shriek scaling used here is 1d6 at levels 1–2, 2d6 at 3–5, 3d6 at 6–8, and 4d6 at 9 or higher. The errata’s written increment and level-3 stat block support that reading. Its later parenthetical examples conflict with them.",
++        "+4 racial on Climb and +2 racial on Balance and Jump.",
++        "Goblin and Undercommon are automatic. Bonus languages are Draconic, Dwarven, Elven, Giant, Gnome, and Orc. Favored class Barbarian. The character entry lists no racial Hit Dice or level adjustment."
++      ]
++    },
++    {
+       "edition": "AD&D 2nd edition",
+       "publication": "Domains of Dread",
+       "kind": "species",
+diff --git a/dm-library/bestiary/npc-encounters.json b/dm-library/bestiary/npc-encounters.json
+--- a/dm-library/bestiary/npc-encounters.json
++++ b/dm-library/bestiary/npc-encounters.json
+@@ -5753,6 +5753,94 @@
+       "tactics": "Sael casts mage armor before approaching the seal. If interrupted, Sael greases the approach and keeps the other researchers clear of the Mind Blast cone."
+     },
+     {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Small",
++      "type": "Humanoid (Goblinoid)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "30 ft.",
++      "id": "vril-ashstripe-ledge-scout-35e",
++      "title": "Vril ledge scout, Rogue 1",
++      "difficulty": "CR 1. ECL 1 (1 class HD, LA +0).",
++      "ac": 16,
++      "hp": 9,
++      "hitDice": "1d6+3",
++      "initiative": 7,
++      "languages": "Elven, Goblin, Undercommon",
++      "abilityScores": {
++        "STR": 10,
++        "DEX": 16,
++        "CON": 16,
++        "INT": 12,
++        "WIS": 12,
++        "CHA": 8
++      },
++      "skills": [
++        "Balance +9",
++        "Climb +8",
++        "Disable Device +5",
++        "Hide +11",
++        "Jump +6",
++        "Listen +5",
++        "Move Silently +7",
++        "Search +5",
++        "Tumble +7"
++      ],
++      "traits": [
++        "Neutral. Leather armor +2, Dexterity +3, and size +1. Touch 14, flat-footed 13. BAB +0, grapple −4. Fortitude +3, Reflex +5, Will +1. Improved Initiative adds +4. Sonic resistance 5.",
++        "Light Blindness (Ex). Abrupt bright light, such as sunlight or daylight, blinds for 1 round. Take a −1 circumstance penalty on attacks, saves, and checks while in bright light.",
++        "Vulnerability to Poison (Ex). Take −4 on Fortitude saves against drow sleep poison and spiderkind venom.",
++        "Skinshift (Ex). As a move action, choose bludgeoning, piercing, or slashing and gain damage reduction 5 against that damage type for 3 + Constitution modifier rounds. One use per day, plus one more at 4th level and every four levels thereafter.",
++        "Shriek (Ex). Once per day as a standard action, emit a 15-ft.-radius burst centered on the vril or a 30-ft. cone. Creatures in the area take sonic damage. Reflex halves at DC 10 + half character level (round down) + Constitution modifier. Vril barbarians can use Shriek while raging.",
++        "Trapfinding. Sneak Attack adds 1d6 on eligible hits."
++      ],
++      "actions": [
++        "Small short sword +1 melee for 1d4 piercing, critical 19–20/×2. Small shortbow +4 ranged for 1d4 piercing, critical ×3, range increment 60 ft.",
++        "Skinshift once per day lasts 6 rounds. Shriek once per day deals 1d6 sonic damage, Reflex DC 13 half.",
++        "Fortitude becomes −1 against drow sleep poison and spiderkind venom before any bright-light penalty."
++      ],
++      "tactics": "Skriv climbs the ledge before signaling the party. If blocked, Skriv uses Skinshift against the damage type the defenders are dealing and aims the Shriek cone away from allies."
++    },
++    {
++      "origin": "Original DM Library NPC",
++      "editions": ["3.5 edition"],
++      "size": "Small",
++      "type": "Humanoid (Goblinoid)",
++      "senses": "Darkvision 60 ft.",
++      "speed": "30 ft.",
++      "id": "vril-greystripe-bridge-sentinel-35e",
++      "title": "Vril bridge sentinel, Fighter 4",
++      "difficulty": "CR 4. ECL 4 (4 class HD, LA +0).",
++      "ac": 19,
++      "hp": 42,
++      "hitDice": "4d10+16",
++      "initiative": 6,
++      "languages": "Goblin, Undercommon",
++      "abilityScores": {
++        "STR": 16,
++        "DEX": 14,
++        "CON": 18,
++        "INT": 10,
++        "WIS": 12,
++        "CHA": 6
++      },
++      "skills": ["Climb +10", "Jump +8"],
++      "traits": [
++        "Neutral. Chain shirt +4, heavy wooden shield +2, Dexterity +2, and size +1. Touch 13, flat-footed 17. Armor check penalty −4. BAB +4, grapple +3. Fortitude +8, Reflex +3, Will +2. Sonic resistance 5.",
++        "Light Blindness (Ex). Abrupt bright light, such as sunlight or daylight, blinds for 1 round. Take a −1 circumstance penalty on attacks, saves, and checks while in bright light.",
++        "Vulnerability to Poison (Ex). Take −4 on Fortitude saves against drow sleep poison and spiderkind venom.",
++        "Skinshift (Ex). As a move action, choose bludgeoning, piercing, or slashing and gain damage reduction 5 against that damage type for 3 + Constitution modifier rounds. One use per day, plus one more at 4th level and every four levels thereafter.",
++        "Shriek (Ex). Once per day as a standard action, emit a 15-ft.-radius burst centered on the vril or a 30-ft. cone. Creatures in the area take sonic damage. Reflex halves at DC 10 + half character level (round down) + Constitution modifier. Vril barbarians can use Shriek while raging.",
++        "Improved Initiative adds +4. Combat Reflexes permits up to three attacks of opportunity per round, including while flat-footed. Weapon Focus (short sword) adds +1 to attacks. Weapon Specialization (short sword) adds +2 damage. Dazing Shriek."
++      ],
++      "actions": [
++        "Small short sword +9 melee for 1d4+5 piercing, critical 19–20/×2. Small javelin +7 ranged for 1d4+3 piercing, critical ×2, range increment 30 ft.",
++        "Skinshift twice per day lasts 7 rounds per use. Shriek once per day deals 2d6 sonic damage, Reflex DC 16 half. Dazing Shriek makes any creature that takes that damage roll a separate Fortitude DC 16 save or be dazed for 1 round.",
++        "Fortitude becomes +4 against drow sleep poison and spiderkind venom before any bright-light penalty."
++      ],
++      "tactics": "Brak shelters the crew behind the bridge return and uses the cone when attackers cross the open span. Brak chooses Skinshift against the damage type already seen and saves the second use for the retreat."
++    },
++    {
+       "id": "quay-champion",
+       "title": "Quay champion",
+       "origin": "Original DM Library NPC",
+@@ -6936,6 +7024,28 @@
+       "role": "Perimeter escort and two-weapon Fighter.",
+       "motive": "Get a village healer safely from the closing market to the overnight camp.",
+       "hook": "Keshar will escort the healer if the party can keep the alternate gate open."
++    },
++    {
++      "species": "Vril",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Drow of the Underdark (2007)",
++      "name": "Skriv Ashstripe",
++      "build": "vril-ashstripe-ledge-scout-35e",
++      "role": "Ledge scout and Rogue.",
++      "motive": "Get the party to a ledge above the blocked passage.",
++      "hook": "Skriv knows which part of the wall has handholds for the climb."
++    },
++    {
++      "species": "Vril",
++      "size": "Small",
++      "edition": "3.5 edition",
++      "speciesPublication": "Drow of the Underdark (2007)",
++      "name": "Brak Greystripe",
++      "build": "vril-greystripe-bridge-sentinel-35e",
++      "role": "Bridge sentinel and Fighter.",
++      "motive": "Hold the bridge long enough for the last crew to cross.",
++      "hook": "Brak signals from the bridge return when the far end is clear."
+     },
+     {
+       "species": "Illumian",
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -10085,6 +10085,7 @@
+ Vos’skyriss Serpentfolk	monster	Monstrosity	Tal’Dorei Campaign Setting Reborn	2014 fifth edition compatible	Darrington Press	https://www.dndbeyond.com/monsters/3768368-vosskyriss-serpentfolk	3
+ Vos’skyriss Serpentfolk Ghost	monster	Undead	Tal’Dorei Campaign Setting Reborn	2014 fifth edition compatible	Darrington Press	https://www.dndbeyond.com/monsters/3768367-vosskyriss-serpentfolk-ghost	4
+ Vox Seeker	monster	Construct	Explorer's Guide to Wildemount	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/745162-vox-seeker	1/8
++Vril	species	Humanoid (Goblinoid)	Drow of the Underdark (2007)	3.5 edition	Wizards of the Coast	https://books.google.com/books?id=IC3nAAAACAAJ	
+ Vrock	monster	Fiend	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17047-vrock	6
+ Vrock	monster	Fiend	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195255-vrock	6
+ Vrock	monster	Outsider	Revised v3.5 SRD (Monsters)	3.5 edition	Wizards of the Coast		9

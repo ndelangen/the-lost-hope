@@ -1,0 +1,508 @@
+[
+  {
+    "name": "Septon Modron",
+    "statBlock": {
+      "name": "Septon Modron",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 40,
+      "classification": "Large construct, typically lawful neutral",
+      "ac": 17,
+      "hp": 204,
+      "hitDice": "24d10 + 72",
+      "speed": "30 ft., fly 30 ft. (hover), swim 30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 14
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 21,
+      "description": "A seven-limbed modron that audits the work of lower ranks in Mechanus.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 8,
+        "Wis": 7
+      },
+      "skills": {
+        "Perception": 11
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Lightning and psychic.",
+        "Traits": "Axiomatic Mind. No effect can force the septon to violate its nature or instructions.\nCombat Ready. Roll initiative with advantage.\nDisintegration. On death, leave its carried items behind and reduce its body to dust.",
+        "Actions": "Multiattack. Make four Tentacle attacks and use either Lightning Network or Spellcasting.\nTentacle. Melee weapon attack, +8 to hit, reach 10 ft., one target. A hit deals 15 (2d10 + 4) piercing damage. A Medium or smaller creature hit is grappled (escape DC 14). The septon has seven tentacles. Each can hold one target and cannot attack another target while holding a creature.\nLightning Network. Electricity fills a 30-ft. cube originating at the septon and disperses immediately. Each creature in the cube makes a DC 16 Dexterity save. On a failure, it takes 33 (6d10) lightning damage and is stunned for 1 minute. On a success, it takes half damage only. The stunned target can repeat the save at the end of each of its turns, ending the effect on itself on a success.",
+        "Spellcasting": "As an action, or as part of Multiattack, cast one spell below using Intelligence (save DC 16), with no material components.\nAt will. Detect Magic, Dispel Magic, Mending (casting time of one action).\n1/day each. Plane Shift (self only), Protection from Evil and Good, Sending.",
+        "Printed source": "Morte's Planar Parade, p. 40.",
+        "Proficiency bonus": "+4"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Hexton Modron",
+          "terms": [
+            "Hexton Modron"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#hexton%20modron_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Octon Modron",
+          "terms": [
+            "Octon Modron"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#octon%20modron_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shator Demodand",
+    "statBlock": {
+      "name": "Shator Demodand",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 28,
+      "classification": "Large fiend, typically neutral evil",
+      "ac": 19,
+      "hp": 195,
+      "hitDice": "23d10 + 69",
+      "speed": "30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 23,
+      "description": "A hulking, fungus-covered demodand that claims the right to police Carceri and commands those beneath it.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Wis": 8
+      },
+      "skills": {
+        "Perception": 13,
+        "Stealth": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Abyssal, Common, Demodand, Infernal, telepathy 120 ft.",
+        "Damage resistances": "Cold and fire.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Charmed, frightened, paralyzed, poisoned, and restrained.",
+        "Traits": "Boundless Movement. Ignore difficult terrain and magical reductions to speed. Spend 5 ft. of movement to end the grappled condition on the shator automatically.\nJailer (1/day). Cast Imprisonment using Intelligence (save DC 18), without material components. The spell can use only the chaining option.\nLiquefaction Ritual. Spend 1 minute to turn any number of willing Farastu Demodands and Kelubar Demodands within 60 ft. into living liquid. Each fits into a flask. Each is paralyzed despite immunity to that condition, takes no damage, and has any curses on it suspended. A shator can end the effect as an action, and opening a container also restores the demodand inside.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nNumbing Secretions. A creature that touches the shator or hits it with a melee attack from within 5 ft. must make a DC 17 Dexterity save. A failure halves the creature’s speed and gives it disadvantage on attack rolls through the end of its next turn.",
+        "Actions": "Multiattack. Make one Bite and two Enervating Trident attacks.\nBite. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 17 (3d6 + 7) piercing plus 26 (4d12) acid damage. A creature hit must make a DC 16 Constitution save or be paralyzed until the start of the shator’s next turn.\nEnervating Trident. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 18 (2d10 + 7) necrotic damage.\nInhibitory Spray (Recharge 5–6). Each creature in a 100-ft. line, 5 ft. wide, makes a DC 16 Dexterity save. On a failure, the creature takes 40 (9d8) acid damage and is paralyzed for 1 minute. A success halves the damage and avoids paralysis. A paralyzed creature can repeat the save at the end of each of its turns, ending the paralysis on a success.\nSummon Demodand (1/day). Choose one group to summon: 1d4 Farastu Demodands, 1d2 Kelubar Demodands, or one Shator Demodand. The attempt has a 50 percent chance of success. Each appears in a free space within 60 ft., acts as the shator’s ally, and cannot summon another demodand. Each stays for 1 minute unless it or the summoner dies, or the shator dismisses it with an action.",
+        "Spellcasting": "As an action, cast one spell below using Intelligence (save DC 18, +10 to hit with spell attacks), without material components.\nAt will. Invisibility (self only), Suggestion.\n1/day each. Dispel Magic, Plane Shift (Carceri only), Scrying (casting time of one action).",
+        "Carceri": "A demodand killed outside Carceri re-forms there in 2d20 days. Shators also keep records of their prisoners and subordinates.",
+        "Printed source": "Morte's Planar Parade, p. 28.",
+        "Proficiency bonus": "+5"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Farastu Demodand",
+          "terms": [
+            "Farastu Demodand",
+            "Farastu Demodands"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#farastu%20demodand_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Kelubar Demodand",
+          "terms": [
+            "Kelubar Demodand",
+            "Kelubar Demodands"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelubar%20demodand_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Shemeshka",
+    "statBlock": {
+      "name": "Shemeshka",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 46,
+      "classification": "Medium fiend (yugoloth), neutral evil",
+      "ac": 17,
+      "hp": 162,
+      "hitDice": "25d8 + 50",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "14",
+      "xp": 11500,
+      "passivePerception": 18,
+      "description": "A red-furred arcanaloth who runs Fortune’s Wheel. She uses her casino in Sigil to collect secrets, influence rivals, and trade in favors across the planes.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 7,
+        "Int": 10,
+        "Wis": 8,
+        "Cha": 9
+      },
+      "skills": {
+        "Deception": 9,
+        "Insight": 8,
+        "Perception": 8
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "All languages, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire, and lightning. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Acid and poison.",
+        "Condition immunities": "Charmed and poisoned.",
+        "Traits": "Legendary Resistance (4/day). Shemeshka can turn a failed saving throw into a success.\nMagic Resistance. Roll saves against spells and other magical effects with advantage.\nSpecial Equipment. In someone else’s hands, her Razorvine Tiara works as a Tentacle Rod that deals slashing damage in place of bludgeoning damage.",
+        "Actions": "Multiattack. Use Arcane Flux or Spellcasting, then make one Claw or Razorvine Tiara attack.\nArcane Flux. Choose a visible creature within 120 ft. It makes a DC 18 Dexterity save. On a failure, it takes 45 (7d12) force damage and is incapacitated until the end of its next turn. On a success, it takes half damage only.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. A hit deals 10 (2d4 + 5) slashing plus 14 (4d6) poison damage.\nRazorvine Tiara. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 10 (3d6) slashing plus 9 (2d8) necrotic damage. A creature hit makes a DC 15 Constitution save. On a failure, its speed is halved and it has disadvantage on attack rolls and saving throws through the end of its next turn.",
+        "Spellcasting": "As an action, or as part of Multiattack, cast one spell below using Intelligence (save DC 18), with no material components.\nAt will. Alter Self, Darkness, Invisibility (self only), Mage Hand, Prestidigitation.\n2/day each. Detect Thoughts, Dimension Door, Suggestion.\n1/day each. Banishment, Contact Other Plane (casting time of one action), Mind Blank.",
+        "Bonus actions": "Teleport. Move Shemeshka and her worn or carried gear up to 60 ft. to a visible, unoccupied space.",
+        "Reactions": "Fell Counterspell (3/day). React when Shemeshka sees a creature casting a spell. A spell of 5th level or lower fails. For a higher-level spell, Shemeshka makes an Intelligence check with DC 10 + the spell’s level. The spell fails if she succeeds. Regardless of whether the spell fails, its caster is poisoned until the end of the caster’s next turn.",
+        "House of Liars (adventure encounter)": "Turn of Fortune’s Wheel, chapter 14, area P6a. An invisible Eater of Knowledge that has consumed five brains and an invisible Maelephant attack at Shemeshka’s call. She relies on defensive spells, Teleport, Fell Counterspell, and the area defenses. Once both guards fall, she offers a truce and escapes with an Amulet of the Planes after sharing what she knows, or if fighting resumes after that disclosure.\nWith Shemeshka present in a fight in P6, roll 1d4 at initiative count 0 each round. Choose which creatures in the area each result affects.\n1. Wind fills the area for 1 round. Chosen creatures make a DC 18 Wisdom save or gain one level of exhaustion.\n2. Chosen creatures touching the floor make a DC 18 Dexterity save. On a failure, a creature takes 22 (4d10) slashing damage and is restrained through the end of the next round. Success halves the damage and avoids restraint.\n3. Chosen creatures make a DC 18 Wisdom save or suffer the effects of Confusion.\n4. Chosen creatures make a DC 18 Wisdom save. Failure deals 27 (5d10) psychic damage and gives disadvantage on their next attack roll or save before initiative count 0 next round. Success halves the damage only.",
+        "Printed source": "Morte's Planar Parade, p. 46.",
+        "Proficiency bonus": "+5"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Eater of Knowledge",
+          "terms": [
+            "Eater of Knowledge"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#eater%20of%20knowledge_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Maelephant",
+          "terms": [
+            "Maelephant"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#maelephant_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Society of Sensation Muse",
+    "statBlock": {
+      "name": "Society of Sensation Muse",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 61,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 14,
+      "hp": 44,
+      "hitDice": "8d8 + 8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 8
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 12
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "3",
+      "xp": 700,
+      "passivePerception": 14,
+      "description": "A Sensate performer who seeks out new experiences and uses music or other displays to distract hostile crowds.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Cha": 5
+      },
+      "skills": {
+        "Insight": 4,
+        "Perception": 4,
+        "Performance": 7,
+        "Stealth": 5
+      },
+      "sections": {
+        "Armor": "Leather Armor.",
+        "Languages": "Common and two additional languages.",
+        "Actions": "Multiattack. Make two Beguiling Resonance attacks.\nBeguiling Resonance. Melee or ranged spell attack, +5 to hit, reach 5 ft. or range 90 ft., one target. A hit deals 9 (2d8) psychic damage. A creature hit must make a DC 13 Charisma save. If it fails, its next attack roll before the end of its next turn has disadvantage.",
+        "Spellcasting": "As an action, cast one spell below using Charisma (save DC 13).\nAt will. Dancing Lights.\n1/day each. Comprehend Languages, Hypnotic Pattern.",
+        "Bonus actions": "Enchanting Presence. Each creature within 30 ft. makes a DC 13 Wisdom save. On a failure, it is charmed for 1 minute. On a success, it is immune to every muse’s Enchanting Presence for 24 hours. Whenever this muse damages a creature charmed by this effect, that creature can repeat the save to end the charm.",
+        "Encounter context": "The neutral planar encounters table suggests 1d4 muses trying increasingly daring feats to discover new sensations.",
+        "Printed source": "Morte's Planar Parade, p. 61.",
+        "Proficiency bonus": "+2"
+      }
+    }
+  },
+  {
+    "name": "Time Dragon Wyrmling",
+    "statBlock": {
+      "name": "Time Dragon Wyrmling",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 51,
+      "classification": "Medium dragon, typically neutral",
+      "ac": 17,
+      "hp": 75,
+      "hitDice": "10d8 + 30",
+      "speed": "30 ft., climb 30 ft., fly 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 17
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 17,
+      "description": "A sleek, bright-scaled dragon whose tiny horn buds grow into branching horns as it masters time.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 3,
+        "Con": 6,
+        "Wis": 4,
+        "Cha": 6
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 9,
+        "Perception": 7,
+        "Stealth": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 10 ft., darkvision 120 ft.",
+        "Languages": "Draconic and any two additional languages.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 7 (1d6 + 4) slashing plus 3 (1d6) force damage.\nTime Breath (Recharge 5–6). Cover a 15-ft. cone in shimmering light. Nonmagical objects and vegetation there turn to dust if nobody wears or carries them. Each creature in the cone makes a DC 14 Constitution save. On a failure, it takes 27 (6d8) force damage and slips out of sync with time, giving attacks against it advantage. On a success, it takes half damage only. A creature out of sync can repeat the save at the end of each of its turns and ends the effect on itself on a success.",
+        "Encounter context": "Time dragons collect lost records and relics of vanished cultures. A wyrmling may ask travelers to help make an object or structure it knows will matter later.",
+        "Other ages": "Use Young Time Dragon, Adult Time Dragon, or Ancient Time Dragon as the dragon matures. The adult and ancient printings have lair and regional rules.",
+        "Printed source": "Morte's Planar Parade, p. 51.",
+        "Proficiency bonus": "+3"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Young Time Dragon",
+          "terms": [
+            "Young Time Dragon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#young%20time%20dragon_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Adult Time Dragon",
+          "terms": [
+            "Adult Time Dragon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#adult%20time%20dragon_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Ancient Time Dragon",
+          "terms": [
+            "Ancient Time Dragon"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#ancient%20time%20dragon_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Transcendent Order Conduit",
+    "statBlock": {
+      "name": "Transcendent Order Conduit",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 62,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 97,
+      "hitDice": "15d8 + 30",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 19
+        },
+        "Con": {
+          "score": 14
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 17,
+      "description": "A martial artist of the Transcendent Order trained to react before conscious thought.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Wis": 7,
+        "Cha": 4
+      },
+      "skills": {
+        "Acrobatics": 7,
+        "Perception": 7,
+        "Performance": 4
+      },
+      "sections": {
+        "Armor": "Unarmored Defense.",
+        "Languages": "Common and one additional language.",
+        "Traits": "Instinctive Reflexes. Roll initiative with advantage. The conduit cannot have disadvantage on attack rolls.\nUnarmored Defense. Add the conduit’s Wisdom modifier to AC while it has neither armor nor a shield.",
+        "Actions": "Multiattack. Make three Unarmed Strike attacks.\nUnarmed Strike. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage. On hitting a creature, the conduit may choose one of the following effects. Each option can be used once per turn.\nIncapacitate. The creature makes a DC 15 Constitution save or is incapacitated through the end of the conduit’s next turn.\nPush. Move the creature horizontally up to 10 ft. away from the conduit.",
+        "Reactions": "The conduit can take as many as three reactions per round and only one per turn.\nDeflect Attack. When an attack roll hits the conduit, reduce that attack’s damage to the conduit by 1d10.\nDon’t Be There. When the conduit must make a saving throw, it can move up to half its speed without provoking opportunity attacks. If the new position puts it out of range or otherwise makes it an invalid target, it avoids the effect entirely.",
+        "Faction context": "The Transcendent Order also fields a lighter martial artist, the Transcendent Order Instinct.",
+        "Printed source": "Morte's Planar Parade, p. 62.",
+        "Proficiency bonus": "+3"
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Transcendent Order Instinct",
+          "terms": [
+            "Transcendent Order Instinct"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#transcendent%20order%20instinct_mpp"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Elk",
+    "file": "portraits/elk.png",
+    "sha256": "855f6590dd07c0327457e23982c0a6c500929306e310d16a562ddc2e77857f09",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Badger",
+    "file": "portraits/giant-badger.png",
+    "sha256": "f78a9f305f78bb8b435d0bcb8ab45390979eced52f4ec5d41a958dbdd2bf3c6f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Bat",
+    "file": "portraits/giant-bat.png",
+    "sha256": "e7e74dc89cb0420606b0fb688768a7ecc10c0e29a94a04d8d69619bf5ed94ead",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Crab",
+    "file": "portraits/giant-crab.png",
+    "sha256": "1afb11cc1acc607e7097278dfb8bebc130f80f468565cdc53674e85876f7e930",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "name": "Giant Goat",
+    "file": "portraits/giant-goat.png",
+    "sha256": "80d985fdeeec4373c169260a0f079f7f97e6619b4e8117b14187c46f3711819d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

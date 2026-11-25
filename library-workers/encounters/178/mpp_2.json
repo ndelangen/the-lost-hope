@@ -1,0 +1,499 @@
+[
+  {
+    "name": "Decaton Modron",
+    "statBlock": {
+      "name": "Decaton Modron",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 36,
+      "classification": "Large construct, typically lawful neutral",
+      "ac": 16,
+      "hp": 144,
+      "hitDice": "17d10 + 51",
+      "speed": "30 ft., fly 30 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 11
+        }
+      },
+      "cr": "8",
+      "xp": 3900,
+      "passivePerception": 18,
+      "description": "A spherical ten-eyed machine with ten grasping tentacles, tasked with keeping lower-ranking modrons in working order.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 8
+      },
+      "sections": {
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Modron, telepathy 120 ft.",
+        "Condition immunities": "Charmed, frightened.",
+        "Armor": "Natural armor.",
+        "Traits": "Axiomatic Mind. No effect can compel the decaton to disobey its instructions or act against its nature.\nCombat Ready. Roll initiative with advantage.\nDisintegration. When the decaton dies, it crumbles to dust and leaves behind anything it was carrying.",
+        "Actions": "Multiattack. Make three Tentacle attacks.\nTentacle. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 15 (2d10 + 4) piercing damage. A Medium or smaller creature hit is grappled (escape DC 14). The decaton has ten tentacles. Each can hold one creature and cannot attack another target until that grapple ends.\nLightning Rays (Recharge 6). All creatures within 30 ft. of the decaton make DC 13 Dexterity saves against its electrical barrage. It deals 38 (7d10) lightning damage on a failed save or half on a success.",
+        "Spellcasting": "As an action, cast one listed spell.\nIntelligence (spell save DC 13), no material components. At will: Detect Magic, Dispel Magic, and Mending (as an action). 1/day each: Plane Shift (self only) and Protection from Evil and Good.",
+        "Encounter context": "The lawful planar encounter table suggests one decaton and 2d6 Quadrones returning to Mechanus. Modron orders pass from one rank to the next, and decatons form the lowest rank of hierarchs.",
+        "Printed source": "Morte's Planar Parade, p. 36."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Quadrone",
+          "terms": [
+            "Quadrone",
+            "Quadrones"
+          ],
+          "printing": {
+            "publication": "Monster Manual (2014)",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#quadrone_mm"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Doomguard Doom Lord",
+    "statBlock": {
+      "name": "Doomguard Doom Lord",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 54,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 202,
+      "hitDice": "27d8 + 81",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "12",
+      "xp": 8400,
+      "passivePerception": 16,
+      "description": "A senior Doomguard agent whose weapons and presence accelerate decay. Even fortifications decay under a doom lord’s blows.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 7
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "Common plus three more languages.",
+        "Damage immunities": "Necrotic.",
+        "Armor": "Plate armor.",
+        "Traits": "Aura of Doom. Any creature that starts its turn within 10 ft. of the doom lord makes a DC 16 Constitution save. The aura deals 18 (4d8) necrotic damage on a failure or half on a success. At the start of its own turn, the doom lord can turn the aura off or on without spending an action, provided it is not incapacitated.\nSiege Monster. Double the doom lord’s damage to structures and objects.",
+        "Actions": "Multiattack. Make two attacks using Entropic Greatsword or Entropic Javelin.\nEntropic Greatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing plus 10 (3d6) necrotic damage. If this attack kills a creature, turn its body and its worn and carried gear to ash, except for magic items.\nEntropic Javelin. Melee or ranged weapon attack, +9 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 8 (1d6 + 5) piercing plus 14 (4d6) necrotic damage. If this attack kills a creature, turn its body and its worn and carried gear to ash, except for magic items.",
+        "Faction context": "Doomguard Rot Blades carry similar entropic weapons into the field.",
+        "Printed source": "Morte's Planar Parade, p. 54."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Doomguard Rot Blade",
+          "terms": [
+            "Doomguard Rot Blade",
+            "Doomguard Rot Blades"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#doomguard%20rot%20blade_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Doomguard Rot Blade",
+    "statBlock": {
+      "name": "Doomguard Rot Blade",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 56,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 18,
+      "hp": 97,
+      "hitDice": "13d8 + 39",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 12
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 12
+        },
+        "Wis": {
+          "score": 10
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 13,
+      "description": "A Doomguard field agent armed with weapons steeped in necrotic magic.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 7,
+        "Con": 6
+      },
+      "skills": {
+        "Perception": 3
+      },
+      "sections": {
+        "Languages": "Common plus two more languages.",
+        "Damage resistances": "Necrotic.",
+        "Armor": "Plate armor.",
+        "Actions": "Multiattack. Make two attacks using Entropic Blade or Entropic Javelin.\nEntropic Blade. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 9 (1d10 + 4) slashing plus 7 (2d6) necrotic damage. If this attack kills a creature, its body and everything it wore or carried turns to ash except for magic items. Hit or miss, the rot blade can release a magical burst once per turn. Every creature except the rot blade in a 10-ft.-radius sphere centered on the weapon takes 6 (1d12) necrotic damage if it fails a DC 13 Constitution save.\nEntropic Javelin. Melee or ranged weapon attack, +7 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing plus 13 (2d12) necrotic damage. If this attack kills a creature, its body and everything it wore or carried turns to ash except for magic items.",
+        "Faction context": "Doomguard Doom Lords are the faction’s senior agents.",
+        "Printed source": "Morte's Planar Parade, p. 56."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Doomguard Doom Lord",
+          "terms": [
+            "Doomguard Doom Lord",
+            "Doomguard Doom Lords"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#doomguard%20doom%20lord_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Eater of Knowledge",
+    "statBlock": {
+      "name": "Eater of Knowledge",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 29,
+      "classification": "Large aberration, typically neutral evil",
+      "ac": 15,
+      "hp": 102,
+      "hitDice": "12d10 + 36",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 18
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 16,
+      "description": "A hulking biped of exposed brain tissue and muscle. Servants of Ilsensine cultivate these hunters to bring back secrets from their prey.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 7,
+        "Int": 7
+      },
+      "skills": {
+        "Arcana": 7,
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "telepathy 120 ft.",
+        "Damage immunities": "Psychic.",
+        "Condition immunities": "Charmed, frightened.",
+        "Armor": "Natural armor.",
+        "Traits": "Brains Devoured. When the party first encounters this creature, roll 1d10 for the number of brains it has consumed.\nMagic Resistance. The eater makes saving throws against spells and other magical effects with advantage.",
+        "Actions": "Multiattack. Make two Slam attacks. If both hit the same Large or smaller creature, it is grappled (escape DC 14) and must pass a DC 15 Intelligence save or be stunned until that grapple ends.\nSlam. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) bludgeoning damage.\nExtract Brain. Melee weapon attack, +7 to hit, reach 5 ft., one incapacitated humanoid. A hit deals 45 (10d8) piercing damage. If the damage drops the target to 0 hit points, the eater kills it and consumes its brain.",
+        "Spellcasting": "As an action, cast one listed spell.\nSpellcasting (Psionics). Intelligence (spell save DC 15), no components. Once per day per spell, subject to the number of brains already consumed.\n0 brains: Plane Shift (self only). 1: Detect Magic. 2: Silent Image. 3: Invisibility. 4: Hypnotic Pattern. 5: Major Image.\n6 brains: Telekinesis. 7: Arcane Eye. 8: Mislead. 9: Greater Invisibility. 10 or more: Mass Suggestion.",
+        "Printed source": "Morte's Planar Parade, p. 29."
+      }
+    }
+  },
+  {
+    "name": "Equinal Guardinal",
+    "statBlock": {
+      "name": "Equinal Guardinal",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 33,
+      "classification": "Large celestial, typically neutral good",
+      "ac": 15,
+      "hp": 93,
+      "hitDice": "11d10 + 33",
+      "speed": "50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 17
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "6",
+      "xp": 2300,
+      "passivePerception": 15,
+      "description": "A horse-faced guardinal with a crested mane and powerful legs. Equinals can halt foes with a ringing shout or close the distance with a charge.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Str": 9,
+        "Con": 6
+      },
+      "skills": {
+        "Athletics": 9,
+        "Perception": 5,
+        "Religion": 5
+      },
+      "sections": {
+        "Languages": "Celestial, Common.",
+        "Damage resistances": "Radiant.",
+        "Condition immunities": "Charmed, frightened.",
+        "Armor": "Natural armor.",
+        "Traits": "Headfirst Charge. After moving at least 30 ft. straight toward a creature and finishing within 5 ft. of it, the equinal forces that creature to make a DC 17 Strength save. On a failure, it takes 14 (4d6) bludgeoning damage and falls prone.",
+        "Actions": "Multiattack. Make two Fist attacks.\nFist. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 13 (2d6 + 6) bludgeoning plus 3 (1d6) radiant damage.\nRock. Ranged weapon attack, +9 to hit, range 60/180 ft., one target. A hit deals 22 (3d10 + 6) bludgeoning damage. A creature hit falls prone unless it passes a DC 17 Strength save.\nShout (Recharge 6). Each creature within 30 ft. must pass a DC 14 Constitution save or be stunned until the end of the equinal’s next turn.",
+        "Guardinals": "Guardinals hail from Elysium and often visit the Outlands gate-towns of Ecstasy and Faunel. Other guardinals in this book include the Avoral Guardinal and Musteval Guardinal.",
+        "Printed source": "Morte's Planar Parade, p. 33."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Avoral Guardinal",
+          "terms": [
+            "Avoral Guardinal"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#avoral%20guardinal_mpp"
+          }
+        },
+        {
+          "kind": "monster",
+          "name": "Musteval Guardinal",
+          "terms": [
+            "Musteval Guardinal"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#musteval%20guardinal_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Farastu Demodand",
+    "statBlock": {
+      "name": "Farastu Demodand",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 26,
+      "classification": "Medium fiend, typically neutral evil",
+      "ac": 17,
+      "hp": 195,
+      "hitDice": "26d8 + 78",
+      "speed": "40 ft., climb 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 20
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 16
+        },
+        "Int": {
+          "score": 8
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 16
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 19,
+      "description": "A Carceri fiend coated in sticky tar. Farastus are cruel trackers sometimes charged with hunting down escaped prisoners.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Dex": 5,
+        "Wis": 5
+      },
+      "skills": {
+        "Perception": 9,
+        "Stealth": 5,
+        "Survival": 5
+      },
+      "sections": {
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Abyssal, Demodand, telepathy 120 ft.",
+        "Damage resistances": "Cold, fire.",
+        "Damage immunities": "Acid, poison.",
+        "Condition immunities": "Paralyzed, poisoned, restrained.",
+        "Armor": "Natural armor.",
+        "Traits": "Boundless Movement. Ignore difficult terrain and any magical reduction in speed. The farastu can spend 5 ft. of movement to end the grappled condition on itself automatically.\nMagic Resistance. The farastu has advantage on saves against spells and other magical effects.\nSpider Climb. Traverse hard-to-climb surfaces, including ceilings, without an ability check.",
+        "Actions": "Multiattack. Make two Claw attacks and one Bite attack.\nClaw. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 16 (2d10 + 5) slashing damage. A Large or smaller creature hit is grappled (escape DC 15, with disadvantage on the escape check). The farastu can hold one creature in each claw.\nBite. Melee weapon attack, +9 to hit, reach 5 ft., one target. Roll with advantage against a creature the farastu is grappling. A hit deals 12 (2d6 + 5) piercing plus 24 (7d6) acid damage.\nSummon Demodand (1/day). There is a 40 percent chance another farastu appears in an unoccupied space within 60 ft. It fights as an ally and cannot summon other demodands. It stays up to 1 minute and disappears sooner if either farastu dies or the summoner dismisses it as an action.",
+        "Spellcasting": "As an action, cast one listed spell.\nCharisma, no material components. At will: Invisibility (self only). 1/day each: Dispel Magic and Fog Cloud.",
+        "Demodands": "Carceri’s bureaucratic Kelubar Demodands rank above farastus and often send them to do their fighting. A demodand that dies outside Carceri reforms there after 2d20 days.",
+        "Printed source": "Morte's Planar Parade, p. 26."
+      },
+      "relatedCreatures": [
+        {
+          "kind": "monster",
+          "name": "Kelubar Demodand",
+          "terms": [
+            "Kelubar Demodand",
+            "Kelubar Demodands"
+          ],
+          "printing": {
+            "publication": "Morte's Planar Parade",
+            "edition": "2014 fifth edition",
+            "source": "https://5e.tools/bestiary.html#kelubar%20demodand_mpp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Fated Shaker",
+    "statBlock": {
+      "name": "Fated Shaker",
+      "publication": "Morte's Planar Parade",
+      "edition": "2014 fifth edition",
+      "printedPage": 56,
+      "classification": "Small or Medium humanoid, any alignment",
+      "ac": 13,
+      "hp": 76,
+      "hitDice": "17d8",
+      "speed": "30 ft.",
+      "abilities": {
+        "Str": {
+          "score": 10
+        },
+        "Dex": {
+          "score": 16
+        },
+        "Con": {
+          "score": 10
+        },
+        "Int": {
+          "score": 15
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 15
+        }
+      },
+      "cr": "5",
+      "xp": 1800,
+      "passivePerception": 16,
+      "description": "A Fated enforcer who backs the faction’s tax collectors and evictors, using spells to intimidate debtors.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "savingThrows": {
+        "Int": 5,
+        "Wis": 6
+      },
+      "skills": {
+        "Insight": 6,
+        "Investigation": 5,
+        "Perception": 6
+      },
+      "sections": {
+        "Languages": "Common plus two more languages.",
+        "Actions": "Multiattack. Make two attacks using Golden Rod or Radiant Bolt.\nGolden Rod. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning plus 9 (2d8) radiant damage.\nRadiant Bolt. Ranged spell attack, +6 to hit, range 120 ft., one target. A hit deals 14 (2d10 + 3) radiant damage.",
+        "Spellcasting": "As an action, cast one listed spell.\nWisdom (spell save DC 14), no material components. At will: Mage Armor and Mage Hand. 1/day each: Enlarge/Reduce, Fly, and Suggestion.",
+        "Bonus actions": "Commanding Words. Choose a visible creature within 30 ft. The target makes a DC 14 Wisdom save against a magical command. On a failure, choose an effect or roll 1d4.\n1–2, Grovel. The target takes 14 (4d6) psychic damage, drops everything it holds, and falls prone.\n3–4, Cower. The target takes 10 (3d6) psychic damage and is frightened until the end of its next turn.",
+        "Printed source": "Morte's Planar Parade, p. 56."
+      }
+    }
+  }
+]

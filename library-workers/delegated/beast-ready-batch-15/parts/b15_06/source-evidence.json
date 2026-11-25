@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Draft Horse",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast / D&D Adventurers League",
+    "printing": "September 1, 2015 release",
+    "author": "Robert Alaniz",
+    "adventureCode": "DDEX3-05",
+    "heading": "Draft Horse",
+    "printedPages": [
+      26
+    ],
+    "viewerPages": [
+      26
+    ],
+    "supportingPages": [
+      11
+    ],
+    "supportingViewerPages": [
+      11
+    ],
+    "sourceWitness": " - 5th Edition (2014)/Adventures/DDEX3-05 - Bane of the ",
+    "sourceSha256": "b9bbe59af36bcec1d891acdc1cd00dafae3f73f24a2eb34aac80d749572782ad",
+    "url": "",
+    "sourceUrl": "",
+    "officialAdventureIndex": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+    "habitatEvidence": "This adventure places its draft horses at the front of a fortified trade caravan on p. 11.",
+    "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+    "artworkSource": "beast-ready-batch-04/parts/b04_03/portraits/draft-horse.png",
+    "artworkSha256": "34a08aa6cfebeeb61e19354c3043810ee503834b10b41461686f95208b2faa9c",
+    "sourceNotes": [
+      "The p. 26 stat block gives Large size and AC 10. P. 11 uses “huge” descriptively and explicitly calls the horses Large. Barding, cover and the narrow formation are chase details.",
+      "The p. 11 chase uses an end-of-turn Constitution check starting in round five, DC 10 and increasing by 1 each later round. Roll once per wagon team. This is encounter procedure."
+    ]
+  },
+  {
+    "name": "Riding Horse",
+    "publication": "DDEX3-05 - Bane of the Tradeways",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast / D&D Adventurers League",
+    "printing": "September 1, 2015 release",
+    "author": "Robert Alaniz",
+    "adventureCode": "DDEX3-05",
+    "heading": "Riding Horse",
+    "printedPages": [
+      26
+    ],
+    "viewerPages": [
+      26
+    ],
+    "supportingPages": [
+      7
+    ],
+    "supportingViewerPages": [
+      7
+    ],
+    "sourceWitness": " - 5th Edition (2014)/Adventures/DDEX3-05 - Bane of the ",
+    "sourceSha256": "b9bbe59af36bcec1d891acdc1cd00dafae3f73f24a2eb34aac80d749572782ad",
+    "url": "",
+    "sourceUrl": "",
+    "officialAdventureIndex": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+    "habitatEvidence": "Riding horses with tack and saddles are available near the wooded roadside encounter on p. 7.",
+    "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+    "artworkSource": "beast-ready-batch-05/parts/b05_09/portraits/riding-warhorse.png",
+    "artworkSha256": "14f25a324412d031c2036a64ad7a6d3e71e18c81cf5aec291568dcc05d351daf",
+    "sourceNotes": [
+      "The p. 26 block specifies +2 to hit for Hooves. This entry keeps that value."
+    ]
+  },
+  {
+    "name": "Cooshee (Mastiff)",
+    "publication": "DDAL04-06 - The Ghost",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast / D&D Adventurers League",
+    "printing": "Version 1.0, 2016",
+    "author": "Ken Hart",
+    "adventureCode": "DDAL04-06",
+    "heading": "Cooshee (Mastiff)",
+    "printedPages": [
+      24
+    ],
+    "viewerPages": [
+      24
+    ],
+    "supportingPages": [
+      11
+    ],
+    "supportingViewerPages": [
+      11
+    ],
+    "sourceWitness": " - 5th Edition (2014)/Adventures/DDAL04-06 - The ",
+    "sourceSha256": "790138dd92c48be2d140945cb5288feeb71a4514b965c0e164a903af6745fda6",
+    "url": "",
+    "sourceUrl": "",
+    "officialAdventureIndex": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+    "habitatEvidence": "P. 11 places two elven hounds with Derali’s party in the forest near Greenhall.",
+    "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+    "artworkSource": "beast-ready-batch-15/parts/b15_06/portraits/cooshee.png",
+    "artworkSha256": "00e313bb36a771a427b14c8590cc46e165bb5cd30639c977cf1b76670477db40",
+    "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+    "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+    "sourceNotes": [
+      "The p. 11 description calls cooshees big elven hounds. The p. 24 Cooshee (Mastiff) rule block gives Medium size and both keen senses.",
+      "P. 11 depicts Derali giving commands in Elvish. The p. 24 language entry gives no language."
+    ]
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "publication": "DDAL04-06 - The Ghost",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast / D&D Adventurers League",
+    "printing": "Version 1.0, 2016",
+    "author": "Ken Hart",
+    "adventureCode": "DDAL04-06",
+    "heading": "Giant Wolf Spider",
+    "printedPages": [
+      26
+    ],
+    "viewerPages": [
+      26
+    ],
+    "supportingPages": [
+      12,
+      13,
+      27,
+      28
+    ],
+    "supportingViewerPages": [
+      12,
+      13,
+      27,
+      28
+    ],
+    "sourceWitness": " - 5th Edition (2014)/Adventures/DDAL04-06 - The ",
+    "sourceSha256": "790138dd92c48be2d140945cb5288feeb71a4514b965c0e164a903af6745fda6",
+    "url": "",
+    "sourceUrl": "",
+    "officialAdventureIndex": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+    "habitatEvidence": "The A Sticky Situation encounter on pp. 12–13 uses this spider as a weaker alternative to an ettercap.",
+    "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+    "artworkSource": "beast-ready-batch-05/parts/b05_04/portraits/giant-wolf-spider.png",
+    "artworkSha256": "771ba99eb9e46aa977eab1b3a3f19e041afe6531cd20313827445884a0792537",
+    "relatedRules": {
+      "2014 Basic Rules comparison block": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantWolfSpider"
+    },
+    "sourceNotes": [
+      "The Giant Wolf Spider statistics end the left column of p. 26. Its traits and Bites continue at the top of the right column before Needle Blight.",
+      "The continuation calls the subject “the swarm” in its traits and titles the action Bites. The summary uses the named spider as the subject and preserves the printed action title and numbers. The 2014 Giant Wolf Spider is a comparison witness and gives the same trait and attack mechanics.",
+      "The Swarm of Spiders has a separate stat block on pp. 27–28. Its Bites attack has 0-ft. reach and damage that depends on its remaining hit points."
+    ]
+  },
+  {
+    "name": "Frederick (Mastiff)",
+    "publication": "DDAL04-08 - The Broken One",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast / D&D Adventurers League",
+    "printing": "Version 1.0, 2016",
+    "author": "Joshua Kelly",
+    "adventureCode": "DDAL04-08",
+    "heading": "Frederick (Mastiff)",
+    "printedPages": [
+      22
+    ],
+    "viewerPages": [
+      22
+    ],
+    "supportingPages": [
+      9,
+      21
+    ],
+    "supportingViewerPages": [
+      9,
+      21
+    ],
+    "sourceWitness": " - 5th Edition (2014)/Adventures/DDAL04-08 - The Broken ",
+    "sourceSha256": "89260263ea21f5cbba27a48affedbb29db78cfe5e81c1fbcc607f7e1703e4f05",
+    "url": "",
+    "sourceUrl": "",
+    "officialAdventureIndex": "",
+    "officialErrataIndex": "https://www.dndbeyond.com/sources/dnd/sae",
+    "errataEvidence": "The official publisher errata index does not list a correction for this adventure.",
+    "habitatEvidence": "The p. 9 dinner in Orașnou introduces Frederick alongside his owner, tax collector Scartia Krutz.",
+    "appearanceEvidence": "The appearance summarizes the selected image and uses the printed encounter description where supplied.",
+    "artworkSource": "beast-ready-batch-15/parts/b15_06/portraits/frederick.png",
+    "artworkSha256": "1ec9284dbeb4d765349b28a0a956bbe24b40189010e32c832b8e9607e4d4c70b",
+    "styleReference": "drakkenheim-beasts/portraits/big-linda-draft.png",
+    "styleReferenceSha256": "e103c5b32438eaa346d699b0317dcdaa31c3764f5637513bb6909e490aa046da",
+    "sourceNotes": [
+      "The p. 22 Frederick block uses the mastiff statistics with the printed Keen Smell trait. The scene on p. 9 and the NPC appendix on p. 21 identify the dog as a basset hound."
+    ]
+  }
+]

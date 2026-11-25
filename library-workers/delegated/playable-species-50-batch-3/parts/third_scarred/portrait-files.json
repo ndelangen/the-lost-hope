@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Asaatthi",
+    "file": "",
+    "sha256": "3cb6d481772354e62d28f6206b3bd8ee2c4ce2febaae4d989fac51c94cbe6e3d",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Hollow Legionnaire",
+    "file": "",
+    "sha256": "f46e003c9118f219e34d37946979ed3be68f58e1bdbd342089e19c85b434cef1",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Ironbred",
+    "file": "",
+    "sha256": "ae9ff4e19f939ae83cfe58bc8c9d3be321e8f8e08afa61c1ae2f9ea7d62f86bf",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Manticora",
+    "file": "",
+    "sha256": "025d22143c55e3ee710c4023d023044c39e0aa512739b72f61e386712fb5425f",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  },
+  {
+    "name": "Slitherin",
+    "file": "",
+    "sha256": "563800ae21dc794875dbbb2e13dc8c28dec275e6ad77081741c6751963776a84",
+    "width": 1254,
+    "height": 1254,
+    "credit": "OpenAI ImageGen"
+  }
+]

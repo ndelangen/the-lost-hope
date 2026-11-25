@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Feral Gargun",
+    "kind": "species",
+    "publication": "Races of Stone (2004)",
+    "edition": "3.5 edition",
+    "traits": [
+      "Medium Monstrous Humanoid with 30-ft. land speed and 60-ft. black-and-white darkvision. Full ancestry gives +4 Strength, +2 Dexterity, +4 Constitution, −2 Intelligence, and −2 Charisma.",
+      "Full ancestry gives +2 natural armor. Cold resistance 5 applies to both mundane and magical cold damage.",
+      "Two racial Hit Dice give 2d8, BAB +2, base Fortitude +0, Reflex +3, and Will +3. One racial feat and 5 × (2 + Intelligence modifier) skill points. Racial class skills are Climb, Hide, Jump, Listen, Search, Spot, and Survival.",
+      "Racial proficiency covers simple weapons. Armor and shield proficiency come from other sources, such as class.",
+      "The full ancestry has two claws dealing 1d6 piercing and slashing damage each. In a full attack with a manufactured weapon, a free claw can be used as a secondary attack.",
+      "Powerful Build counts size as one category larger when advantageous on opposed checks with size modifiers and against size-dependent special attacks. It enables weapons one size larger and preserves actual space and reach. It stacks with size changes that preserve the trait.",
+      "Mountain Movement treats standing long jumps and high jumps as running jumps. An accelerated Climb check moves half speed as a move action without the usual −5 penalty.",
+      "Acclimated removes the Dungeon Master’s Guide p. 90 altitude penalties and persists after time at lower elevations.",
+      "Goliath Blood counts the Feral Gargun as a Goliath for effects keyed to race, including race-restricted magic items.",
+      "The language entry gives Gol-Kaa. Favored class Barbarian. Level adjustment +2 gives ECL 4 with the two racial Hit Dice before adding class levels.",
+      "The optional four-level Feral Gargun monster class starts with +2 Strength, −2 Intelligence, −2 Charisma, 30-ft. speed, darkvision 60 ft., Cold resistance 5, Goliath Blood, and Mountain Movement.",
+      "Monster-class level 1 gives 1d8, BAB +1, base Fortitude +0, Reflex +2 and Will +2, one feat, and two 1d4 claws. Level 2 adds +2 Strength, +2 Constitution, +1 natural armor, and Acclimated.",
+      "Monster-class level 3 adds the second 1d8, BAB +2 total, base Fortitude +0, Reflex +3 and Will +3, Powerful Build, and 1d6 claws. Level 4 adds +2 Constitution and +2 Dexterity and brings natural armor to +2 total.",
+      "Skill points for the progression are (2 + Intelligence modifier) × 4 at 1st level and (2 + Intelligence modifier) at 3rd. The four levels incorporate level adjustment. Complete the progression before multiclassing. Table 4–4 lists CR 1, 1, 2, and 2."
+    ]
+  }
+]

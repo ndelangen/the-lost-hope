@@ -1,0 +1,122 @@
+{
+  "builds": [
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid (Dwarf)",
+      "senses": "Darkvision 60 ft.",
+      "id": "wild-dwarf-reedbend-river-guide-35e",
+      "title": "Wild Dwarf river guide, Barbarian 2",
+      "difficulty": "Provisional CR 2. ECL 2 (2 class HD, LA +0).",
+      "ac": 14,
+      "hp": 24,
+      "hitDice": "2d12+6",
+      "initiative": 1,
+      "speed": "30 ft. with fast movement, base 20 ft.",
+      "languages": "Chultan, Common, Dwarven",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 12,
+        "CON": 16,
+        "INT": 10,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Climb +8",
+        "Jump +8",
+        "Listen +6",
+        "Survival +6"
+      ],
+      "traits": [
+        "Neutral good. Leather armor +2, Dexterity +1, size +1. Touch 12, flat-footed 14 with uncanny dodge, armor check penalty 0. BAB +2, grapple +1. Fortitude +6, Reflex +1, Will +1.",
+        "Dwarf stability gives +4 on ability checks to resist bull rush or trip when firmly grounded.",
+        "+3 racial on saves against poison, +4 racial against disease, and +2 racial against spells and spell-like abilities.",
+        "Fire resistance 5. Immune to Wild Dwarf knockout poison. Poison Use prevents accidental self-poisoning during application to a weapon.",
+        "AC 18 against giants while eligible for a Dexterity bonus to AC. Uncanny dodge retains Dexterity when flat-footed or against an invisible attacker. Weapon Focus adds +1 to handaxe attacks.",
+        "Fast Movement applies in light or medium armor and under a light or medium load. Nima is illiterate."
+      ],
+      "actions": [
+        "Small handaxe +7 melee, 1d4+3 slashing, critical ×3. Add +1 to the attack against orcs and goblinoids.",
+        "Rage 1/day for up to 8 rounds. AC 12, HP 28 at full health, grapple +3, Fortitude +8, Reflex +1, Will +3. Handaxe +9 melee, 1d4+5. Lose the 4 bonus HP and become fatigued for the rest of the encounter when rage ends."
+      ],
+      "tactics": "Nima goes first along the bank and stops at the washed-out crossing. She holds the approach so the others can get to firm ground."
+    },
+    {
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "3.5 edition"
+      ],
+      "size": "Small",
+      "type": "Humanoid (Dwarf)",
+      "senses": "Darkvision 60 ft.",
+      "id": "wild-dwarf-mossline-trail-scout-35e",
+      "title": "Wild Dwarf trail scout, Rogue 2",
+      "difficulty": "Provisional CR 2. ECL 2 (2 class HD, LA +0).",
+      "ac": 16,
+      "hp": 14,
+      "hitDice": "2d6+4",
+      "initiative": 3,
+      "speed": "20 ft.",
+      "languages": "Chultan, Common, Dwarven, Goblin",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 14,
+        "INT": 12,
+        "WIS": 12,
+        "CHA": 8
+      },
+      "skills": [
+        "Balance +10",
+        "Disable Device +6",
+        "Hide +12",
+        "Listen +6",
+        "Move Silently +8",
+        "Search +6",
+        "Spot +6",
+        "Tumble +8",
+        "Use Rope +8"
+      ],
+      "traits": [
+        "Neutral. Leather armor +2, Dexterity +3, size +1. Touch 14, flat-footed 13, armor check penalty 0. BAB +1, grapple −2. Fortitude +2, Reflex +6, Will +1.",
+        "Dwarf stability gives +4 on ability checks to resist bull rush or trip when firmly grounded.",
+        "+3 racial on saves against poison, +4 racial against disease, and +2 racial against spells and spell-like abilities.",
+        "Fire resistance 5. Immune to Wild Dwarf knockout poison. Poison Use prevents accidental self-poisoning during application to a weapon.",
+        "AC 20 against giants while eligible for a Dexterity bonus to AC. Trapfinding. Evasion in light armor, except while helpless. Tumble synergy is included in Balance."
+      ],
+      "actions": [
+        "Small handaxe +3 melee, 1d4+1 slashing, critical ×3. Small blowgun +5 ranged, 1 piercing, critical ×2, 10-ft. range increment. Point Blank Shot raises the blowgun to +6 and 2 piercing within 30 ft. before range penalties. Add +1 to either attack against orcs and goblinoids.",
+        "Sneak attack +1d6 when the target is denied Dexterity to AC or flanked. For ranged attacks, the target must be within 30 ft."
+      ],
+      "tactics": "Perrin checks the trail markers before the crew moves. If the crossing is contested, he uses cover to watch the far bank."
+    }
+  ],
+  "concepts": [
+    {
+      "species": "Wild Dwarf",
+      "size": "Small",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Nima Reedbend",
+      "build": "wild-dwarf-reedbend-river-guide-35e",
+      "role": "River guide and Barbarian.",
+      "motive": "Get the survey party back across the river before it rises.",
+      "hook": "Nima asks the party to wait on the bank while she finds a crossing."
+    },
+    {
+      "species": "Wild Dwarf",
+      "size": "Small",
+      "edition": "3.5 edition",
+      "speciesPublication": "Races of Faerûn (2003)",
+      "name": "Perrin Mossline",
+      "build": "wild-dwarf-mossline-trail-scout-35e",
+      "role": "Trail scout and Rogue.",
+      "motive": "Find which bridge supports failed before the next supply run.",
+      "hook": "Perrin shows the party a washed-out trail marker and points to the old crossing."
+    }
+  ]
+}

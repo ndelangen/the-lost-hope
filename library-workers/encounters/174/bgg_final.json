@@ -1,0 +1,478 @@
+[
+  {
+    "name": "Stone Giant of Evil Earth",
+    "statBlock": {
+      "name": "Stone Giant of Evil Earth",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 179,
+      "classification": "Huge giant, typically neutral evil",
+      "ac": 20,
+      "hp": 137,
+      "hitDice": "11d12 + 66",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 10
+        },
+        "Wis": {
+          "score": 12
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Armored devotees of Ogrémoch wield thunderous clubs in the service of the Cult of Evil Earth.",
+      "savingThrows": {
+        "Str": 10,
+        "Con": 10
+      },
+      "skills": {
+        "Athletics": 14,
+        "Perception": 5
+      },
+      "sections": {
+        "Armor": "Plate armor.",
+        "Senses": "Darkvision 60 ft.",
+        "Languages": "Common, Giant, Terran.",
+        "Actions": "Multiattack. Make two attacks in any combination of Thundering Stone Club and Boulder.\nThundering Stone Club. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 16 (3d6 + 6) bludgeoning damage. Once per turn, the giant can make the club emit a burst that deals 10 (3d6) thunder damage to every creature other than the giant within 30 ft. of the target.\nBoulder. Ranged weapon attack, +10 to hit, range 60/240 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage and knocks the target prone unless it succeeds on a DC 18 Strength save. After throwing a boulder, roll a d6. On a 1–3, the giant has no boulders left to throw.",
+        "Reactions": "Unyielding. If the giant fails a saving throw to avoid being moved, knocked prone, or both, it succeeds instead.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 179."
+      }
+    }
+  },
+  {
+    "name": "Stone Giant Rockspeaker",
+    "statBlock": {
+      "name": "Stone Giant Rockspeaker",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 180,
+      "classification": "Huge giant (wizard), any alignment",
+      "ac": 19,
+      "hp": 276,
+      "hitDice": "24d12 + 120",
+      "speed": "40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 15
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 19
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 10
+        }
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 17,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A stone giant sculptor and oracle channels rune magic through the crystals it wears.",
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 10,
+        "Int": 9,
+        "Wis": 7
+      },
+      "skills": {
+        "Athletics": 16,
+        "History": 9,
+        "Perception": 7
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Giant, Terran.",
+        "Traits": "Legendary Resistance (3/day). The giant can turn a failed saving throw into a success.\nStone Rune. The giant can use Prismatic Rays while holding or wearing its rune-bearing mineral object. The object has AC 18, 30 HP, and immunity to necrotic, poison, and psychic damage. It regains all HP at the end of every turn and turns to dust if it reaches 0 HP or the giant dies. If the rune is destroyed, the giant can carve a replacement into an object it possesses when it finishes a short or long rest.",
+        "Actions": "Multiattack. Make three Prism Staff attacks.\nPrism Staff. Melee weapon attack, +11 to hit, reach 10 ft., one target. A hit deals 16 (3d6 + 6) bludgeoning damage plus 13 (3d8) radiant damage.\nExploding Geode. Throw a geode at a point within 60 ft. Each creature in a 20-ft.-radius sphere centered there makes a DC 17 Dexterity save. Failure deals 13 (3d8) piercing plus 13 (3d8) radiant damage and leaves the creature blinded until the end of its next turn. Success halves the damage and avoids the blindness. After throwing, roll a d6. On a 1–4, the giant has no geodes left to throw.\nPrismatic Rays (requires Stone Rune). Each creature in a 60-ft. cone makes a DC 17 Dexterity save. Roll a d6 separately for each creature to determine its ray. A success halves the damage and avoids the condition. Any condition imposed ends at the end of the giant's next turn.\n1–2, Blazing Red. On a failure, take 35 (10d6) radiant damage and become blinded.\n3–4, Dreadful Blue. On a failure, take 35 (10d6) necrotic damage and become frightened.\n5–6, Sapping Green. On a failure, take 35 (10d6) force damage and become incapacitated.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 180."
+      }
+    }
+  },
+  {
+    "name": "Storm Crab",
+    "statBlock": {
+      "name": "Storm Crab",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 181,
+      "classification": "Gargantuan monstrosity, unaligned",
+      "ac": 18,
+      "hp": 155,
+      "hitDice": "10d20 + 50",
+      "speed": "40 ft., swim 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 5
+        },
+        "Wis": {
+          "score": 14
+        },
+        "Cha": {
+          "score": 9
+        }
+      },
+      "cr": "11",
+      "xp": 7200,
+      "passivePerception": 16,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "This four-clawed crustacean patrols the drowned strongholds of storm giants.",
+      "savingThrows": {
+        "Str": 10,
+        "Con": 9
+      },
+      "skills": {
+        "Perception": 6
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, fire, lightning.",
+        "Senses": "Blindsight 60 ft.",
+        "Languages": "Understands Giant but cannot speak.",
+        "Traits": "Amphibious. The crab breathes air and water.",
+        "Actions": "Multiattack. Make two Claw attacks and one Stinger attack.\nClaw. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage and grapples a Huge or smaller creature (escape DC 16). Each of the crab's four claws can hold one target.\nStinger. Melee weapon attack, +10 to hit, reach 10 ft., one creature. A hit deals 22 (3d10 + 6) piercing damage. The creature must pass a DC 17 Constitution save or be poisoned and paralyzed for 1 minute. It can repeat the save at the end of each of its turns, ending both conditions on a success.\nWater Jet (Recharge 5–6). Each creature in a 150-ft. line 10 ft. wide makes a DC 17 Dexterity save. Failure deals 27 (6d8) bludgeoning damage, pushes the creature up to 30 ft. from the crab, and knocks it prone. Success halves the damage with no push or knockdown.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 181."
+      }
+    }
+  },
+  {
+    "name": "Storm Giant Tempest Caller",
+    "statBlock": {
+      "name": "Storm Giant Tempest Caller",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 182,
+      "classification": "Huge giant (sorcerer), any alignment",
+      "ac": 17,
+      "hp": 310,
+      "hitDice": "27d12 + 135",
+      "speed": "50 ft., fly 50 ft. (hover), swim 50 ft.",
+      "abilities": {
+        "Str": {
+          "score": 29
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 21
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 25
+        }
+      },
+      "cr": "20",
+      "xp": 25000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "With a runed crystal ball embedded in its body, this storm giant watches for omens and calls elemental vortices.",
+      "savingThrows": {
+        "Str": 15,
+        "Con": 11,
+        "Wis": 10,
+        "Cha": 13
+      },
+      "skills": {
+        "Arcana": 17,
+        "Athletics": 15,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold.",
+        "Damage immunities": "Lightning, thunder.",
+        "Senses": "Truesight 120 ft.",
+        "Languages": "Common, Giant, Primordial.",
+        "Traits": "Alert. The giant cannot be surprised and rolls initiative with advantage.\nAmphibious. The giant breathes air and water.\nLegendary Resistance (3/day). The giant can turn a failed saving throw into a success.\nScrying (requires Storm Rune). The giant can cast Scrying with its crystal ball (save DC 17).\nStorm Rune. The giant can use Tempest Call and its Scrying trait while its rune-bearing crystal ball is embedded in its body. The ball has AC 17, 50 HP, and immunity to necrotic, poison, and psychic damage. It regains all HP at the end of every turn and turns to dust at 0 HP or when the giant dies. If the rune is destroyed, the giant can inscribe another crystal ball it possesses when it finishes a short or long rest.",
+        "Actions": "Multiattack. Make three attacks using Lightning Blade or Lightning Lance.\nLightning Blade. Melee weapon attack, +15 to hit, reach 10 ft., one target. A hit deals 22 (3d8 + 9) slashing damage plus 16 (3d10) lightning damage.\nLightning Lance. Ranged spell attack, +13 to hit, range 500 ft., one target. A hit deals 39 (5d12 + 7) lightning damage.\nTempest Call (requires Storm Rune). An elemental vortex fills a 60-ft.-radius sphere centered on the giant. Every creature in that area except the giant makes a DC 21 Dexterity save. Failure deals 43 (8d8 + 7) cold, lightning, or thunder damage (giant's choice). Success halves the damage.",
+        "Spellcasting": "As an action, cast one listed spell without material components, using Charisma (spell save DC 21, +13 to hit with spell attacks).\nAt will. Detect Magic, Detect Thoughts.\n1/day each. Control Water, Control Weather (as an action), Dispel Magic, Plane Shift, Sending, Time Stop.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 182."
+      }
+    }
+  },
+  {
+    "name": "Storm Herald",
+    "statBlock": {
+      "name": "Storm Herald",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 183,
+      "classification": "Huge aberration, typically lawful evil",
+      "ac": 16,
+      "hp": 287,
+      "hitDice": "23d12 + 138",
+      "speed": "50 ft., swim 100 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 22
+        },
+        "Int": {
+          "score": 24
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 18
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 20,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Deep-sea powers twist storm giants into finned heralds whose psychic gifts serve their masters.",
+      "savingThrows": {
+        "Wis": 10,
+        "Cha": 10
+      },
+      "skills": {
+        "Arcana": 13,
+        "Deception": 10,
+        "Perception": 10
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Cold, psychic.",
+        "Damage immunities": "Lightning, thunder.",
+        "Condition immunities": "Charmed, frightened.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Common, Giant, telepathy 120 ft.",
+        "Traits": "Amphibious. The herald breathes air and water.\nMagic Resistance. The herald has advantage on saves against spells and other magical effects.",
+        "Actions": "Multiattack. Make one Claw attack, one Tentacles attack, and one Trident attack.\nClaw. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 18 (3d6 + 8) slashing damage.\nTentacles. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 21 (3d8 + 8) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 18) and restrained. It takes 16 (3d10) psychic damage at the start of each of its turns until this grapple ends. The herald can grapple only one creature with its tentacles at a time.\nTrident. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 18 (3d6 + 8) piercing damage, or 21 (3d8 + 8) piercing damage with two hands, plus 13 (3d8) lightning damage either way.\nPsychic Wave (Recharge 6). Choose up to three visible creatures within 90 ft. Each makes a DC 21 Intelligence save. Failure deals 23 (3d10 + 7) psychic damage and stuns the creature for 1 minute. Success halves the damage and avoids the stun. A stunned creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature reduced to 0 HP by this damage dies, and its head explodes if it has one.",
+        "Spellcasting": "As an action, cast one listed spell using Intelligence (spell save DC 21). These psionics require no components.\nAt will. Detect Magic, Detect Thoughts, Mage Hand (invisible hand).\n1/day each. Control Water, Control Weather (as an action), Sending.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 183."
+      }
+    }
+  },
+  {
+    "name": "Tempest Spirit",
+    "statBlock": {
+      "name": "Tempest Spirit",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 184,
+      "classification": "Huge undead, typically chaotic evil",
+      "ac": 12,
+      "hp": 195,
+      "hitDice": "17d12 + 85",
+      "speed": "0 ft., fly 60 ft. (hover)",
+      "abilities": {
+        "Str": {
+          "score": 24
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 20
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 18
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "cr": "15",
+      "xp": 13000,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "A storm giant’s ritual near the Shadowfell leaves its soul bound to a cloud that rains hail and necrotic lightning.",
+      "savingThrows": {
+        "Con": 10,
+        "Int": 8,
+        "Wis": 9,
+        "Cha": 9
+      },
+      "skills": {
+        "Arcana": 8,
+        "Perception": 9
+      },
+      "sections": {
+        "Damage resistances": "Cold, necrotic, poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Damage immunities": "Lightning, thunder.",
+        "Condition immunities": "Charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained.",
+        "Languages": "Common, Giant.",
+        "Traits": "Incorporeal Movement. The spirit treats other creatures and objects as difficult terrain when moving through them. It takes 5 (1d10) force damage if it ends its turn inside an object.\nLegendary Resistance (3/day). The spirit can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. Make two attacks in any combination of Lightning Fist and Hailstone.\nLightning Fist. Melee weapon attack, +12 to hit, reach 10 ft., one target. A hit deals 25 (4d8 + 7) lightning damage.\nHailstone. Ranged weapon attack, +12 to hit, range 90/180 ft., one target. A hit deals 17 (3d6 + 7) bludgeoning damage plus 7 (2d6) cold damage.\nDeath Bolt (Recharge 5–6). Hurl magical lightning in a 120-ft. line 10 ft. wide. Each creature in the line makes a DC 18 Dexterity save. Failure deals 27 (6d8) lightning damage plus 16 (3d10) necrotic damage. Success halves both. Either way, reduce the creature's HP maximum by the necrotic damage it takes. The reduction lasts until it finishes a long rest, and it dies if its maximum reaches 0.",
+        "Bonus actions": "Hailstorm (Recharge 4–6). Choose a visible point within 120 ft. Each creature in a cylinder centered there, 20 ft. in radius and 40 ft. high, makes a DC 17 Dexterity save. Failure deals 10 (3d6) bludgeoning damage plus 10 (3d6) cold damage and knocks the creature prone. Success halves both types of damage without knocking it prone.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 184."
+      }
+    }
+  },
+  {
+    "name": "Troll Amalgam",
+    "statBlock": {
+      "name": "Troll Amalgam",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 186,
+      "classification": "Gargantuan giant, typically chaotic evil",
+      "ac": 15,
+      "hp": 217,
+      "hitDice": "14d20 + 70",
+      "speed": "60 ft., climb 60 ft.",
+      "abilities": {
+        "Str": {
+          "score": 25
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 9
+        },
+        "Wis": {
+          "score": 16
+        },
+        "Cha": {
+          "score": 5
+        }
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 19,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Extraordinary regeneration binds troll flesh into a massive form that can attack with severed limbs.",
+      "savingThrows": {
+        "Con": 11,
+        "Wis": 9
+      },
+      "skills": {
+        "Perception": 9
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Damage resistances": "Poison. Bludgeoning, piercing, and slashing from nonmagical attacks.",
+        "Condition immunities": "Charmed, frightened, poisoned.",
+        "Senses": "Darkvision 120 ft.",
+        "Languages": "Giant, Undercommon.",
+        "Traits": "Legendary Resistance (3/day). The amalgam can turn a failed saving throw into a success.\nMagic Resistance. The amalgam has advantage on saves against spells and other magical effects.\nRegeneration. The amalgam recovers 15 HP at the start of its turn. If it takes acid or fire damage, it recovers only 5 HP at the start of its next turn. It dies only if it takes at least 20 acid or fire damage while at 0 HP.",
+        "Actions": "Multiattack. Make three Rend attacks.\nRend. Melee weapon attack, +13 to hit, reach 15 ft., one target. A hit deals 25 (4d8 + 7) slashing damage.",
+        "Bonus actions": "Fling Limb (3/day). Ranged weapon attack, +13 to hit, range 60/240 ft., one target. A hit deals 11 (1d8 + 7) bludgeoning damage and grapples a Medium or smaller creature (escape DC 17). While grappled this way, the creature is restrained and takes 25 (4d8 + 7) slashing damage at the start of each of its turns.\nThe limb uses the amalgam's statistics with these changes: Medium size, 45 HP, speed 30 ft., no challenge rating or Legendary Resistance. Its only action is the Attack action, which it can use only to grapple. If the limb survives 24 hours after being thrown, roll a d12. On a 12 it regenerates into a Troll from the Monster Manual. Otherwise it withers away.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 186."
+      }
+    }
+  },
+  {
+    "name": "Troll Mutate",
+    "statBlock": {
+      "name": "Troll Mutate",
+      "publication": "Bigby Presents: Glory of the Giants",
+      "edition": "2014 fifth edition",
+      "printedPage": 187,
+      "classification": "Large giant, typically chaotic evil",
+      "ac": 16,
+      "hp": 95,
+      "hitDice": "10d10 + 40",
+      "speed": "30 ft., fly 30 ft. (Winged Form only)",
+      "abilities": {
+        "Str": {
+          "score": 19
+        },
+        "Dex": {
+          "score": 13
+        },
+        "Con": {
+          "score": 18
+        },
+        "Int": {
+          "score": 17
+        },
+        "Wis": {
+          "score": 9
+        },
+        "Cha": {
+          "score": 12
+        }
+      },
+      "cr": "7",
+      "xp": 2900,
+      "passivePerception": 15,
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "description": "Unusual wounds and healing leave this troll with body mutations that can accumulate when it regenerates from 0 HP.",
+      "savingThrows": {
+        "Con": 7,
+        "Int": 6
+      },
+      "skills": {
+        "Perception": 5,
+        "Stealth": 4
+      },
+      "sections": {
+        "Armor": "Natural armor.",
+        "Senses": "Blindsight 60 ft.",
+        "Languages": "Giant, telepathy 60 ft.",
+        "Traits": "Mutation. When created, randomly determine the mutate's starting mutation. Roll a d4: 1 Elastic Body, 2 Psionic Mirror, 3 Spell Scarred, 4 Winged Form.\nAmorphous (Elastic Body only). The mutate can pass through a gap as narrow as 1 inch without squeezing.\nMagic Resistance (Spell Scarred only). The mutate has advantage on saves against spells and other magical effects.\nPsychic Rebuke (Psionic Mirror only). When the mutate takes psychic damage, each creature within 20 ft. also takes that damage.\nRegeneration. The mutate recovers 10 HP at the start of its turn. Acid or fire damage prevents this at the start of its next turn. The mutate dies only if it starts its turn at 0 HP and fails to regenerate. Each time it starts at 0 HP and regenerates, randomly give it a mutation it does not already have, up to a total of four.",
+        "Actions": "Multiattack. Make two Rend attacks.\nRend. Melee weapon attack, +7 to hit, reach 5 ft. (15 ft. with Elastic Body), one target. A hit deals 15 (2d10 + 4) slashing damage plus 9 (2d8) force damage.\nPsychic Burst (Recharge 5–6). Each creature within 30 ft. makes a DC 14 Intelligence save. Failure deals 28 (8d6) psychic damage. Success halves the damage.",
+        "Printed source": "Bigby Presents: Glory of the Giants, p. 187."
+      }
+    }
+  }
+]

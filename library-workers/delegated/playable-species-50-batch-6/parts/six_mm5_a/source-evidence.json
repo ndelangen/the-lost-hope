@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Arcadian Avenger",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Outsider (Extraplanar, Good, Lawful)",
+    "url": "",
+    "page": "pp. 8–9, with p. 4 ECL table",
+    "printedPages": [
+      4,
+      8,
+      9
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "sourceDistinctions": [
+      "The companion callout on p. 9 concerns summon monster and planar ally. Player ECL comes from p. 4 and p. 9.",
+      "Tavia retains the printed monster ability array and uses the expressly supported paladin path. The silver protective shell in the portrait represents the printed natural armor."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual 3.5 SRD, monster advancement and effective character level",
+        "url": "https://www.d20srd.org/srd/improvingMonsters.htm"
+      },
+      {
+        "name": "3.5 SRD, Paladin",
+        "url": "https://www.d20srd.org/srd/classes/paladin.htm"
+      },
+      {
+        "name": "3.5 SRD, Detect Evil",
+        "url": "https://www.d20srd.org/srd/spells/detectEvil.htm"
+      },
+      {
+        "name": "3.5 SRD, Two-Weapon Fighting and Two-Weapon Defense",
+        "url": "https://www.d20srd.org/srd/feats.htm#twoWeaponFighting"
+      }
+    ]
+  },
+  {
+    "name": "Banshrae",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Fey",
+    "url": "",
+    "page": "pp. 10–11, with p. 4 ECL table",
+    "printedPages": [
+      4,
+      10,
+      11
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "sourceDistinctions": [
+      "The p. 10 blowgun flute range increment is 10 ft. and takes precedence over generic weapon treatments for this specific flute.",
+      "Sil retains the stock racial array, gains +1 Dexterity at total HD 16, and adds Fighter 1. Stunning Fist follows total HD. The other innate ability DCs retain their printed racial-HD basis."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual 3.5 SRD, monster advancement and effective character level",
+        "url": "https://www.d20srd.org/srd/improvingMonsters.htm"
+      },
+      {
+        "name": "3.5 SRD, Fighter",
+        "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+      },
+      {
+        "name": "3.5 SRD, Stunning Fist",
+        "url": "https://www.d20srd.org/srd/feats.htm#stunningFist"
+      },
+      {
+        "name": "3.5 SRD, Bestow Curse",
+        "url": "https://www.d20srd.org/srd/spells/bestowCurse.htm"
+      },
+      {
+        "name": "3.5 SRD, Locust Swarm",
+        "url": "https://www.d20srd.org/srd/monsters/swarm.htm#locustSwarm"
+      }
+    ]
+  },
+  {
+    "name": "Elemental Magi",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Giant",
+    "url": "",
+    "page": "pp. 48–51, with p. 4 ECL table",
+    "printedPages": [
+      4,
+      48,
+      49,
+      50,
+      51
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "sourceDistinctions": [
+      "The creature heading is singular Elemental Mage, while the ECL table and the descriptive text use the plural Elemental Magi.",
+      "Orrun is the Ken-kuni form. He uses the standard supernatural activation rule for Earthshock since the entry specifies recharge but no activation action."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual 3.5 SRD, monster advancement and effective character level",
+        "url": "https://www.d20srd.org/srd/improvingMonsters.htm"
+      },
+      {
+        "name": "3.5 SRD, Fighter",
+        "url": "https://www.d20srd.org/srd/classes/fighter.htm"
+      },
+      {
+        "name": "3.5 SRD, Weapons and weapon size",
+        "url": "https://www.d20srd.org/srd/equipment/weapons.htm"
+      },
+      {
+        "name": "3.5 SRD, Banded Mail",
+        "url": "https://www.d20srd.org/srd/equipment/armor.htm"
+      },
+      {
+        "name": "3.5 SRD, Supernatural Abilities",
+        "url": "https://www.d20srd.org/srd/specialAbilities.htm#supernaturalAbilities"
+      }
+    ]
+  },
+  {
+    "name": "Ethereal Defiler",
+    "publication": "Monster Manual V (2007)",
+    "edition": "3.5 edition",
+    "kind": "species",
+    "publisher": "Wizards of the Coast",
+    "creatureType": "Aberration (Extraplanar)",
+    "url": "",
+    "page": "pp. 54–55, with p. 4 ECL table",
+    "printedPages": [
+      4,
+      54,
+      55
+    ],
+    "primaryBookScan": "",
+    "primaryBookPdfPageOffset": 1,
+    "primaryBookSha256": "93245965670f442f17c507b5720b811ab41b44846c3fba5ab0da4a6a96e0c72e",
+    "isbn": "978-0-7869-4115-5",
+    "sourceDistinctions": [
+      "The build uses the epic racial chassis with zero class levels, the printed racial base attack and saves, and original feat choices. Its aberration type follows the printed stat block.",
+      "For the 20-ft. aura, the 24-hour immunity from a successful Will save is applied to that foe’s movement save. The teleportation descriptor suppression remains an area effect.",
+      "Ethereal Bore uses the printed shift cadence in both directions. The linked spell supplies ethereal movement and maximum duration."
+    ],
+    "supportingSources": [
+      {
+        "name": "Monster Manual 3.5 SRD, monster advancement and effective character level",
+        "url": "https://www.d20srd.org/srd/improvingMonsters.htm"
+      },
+      {
+        "name": "3.5 SRD, Multiattack",
+        "url": "https://www.d20srd.org/srd/monsterFeats.htm#multiattack"
+      },
+      {
+        "name": "3.5 SRD, Empower Spell-Like Ability",
+        "url": "https://www.d20srd.org/srd/monsterFeats.htm#empowerSpellLikeAbility"
+      },
+      {
+        "name": "3.5 SRD, Ethereal Jaunt",
+        "url": "https://www.d20srd.org/srd/spells/etherealJaunt.htm"
+      }
+    ]
+  }
+]

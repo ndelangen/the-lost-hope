@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Specter",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Spectre is an alternate spelling. Medium Undead with Dexterity +1, a 30-ft. walk, and darkvision 60 ft. It can fly 30 ft. while free of medium and heavy armor. It needs no air, food, drink, or sleep. Four hours of semiconscious rest replace eight hours of sleep.",
+      "Resists necrotic damage and is immune to poison damage and the poisoned condition. Use the supplement’s p. 7 healing rules for nonliving characters.",
+      "Life Drain is a Charisma-based melee spell attack made as an action. It deals 1d8 necrotic damage and gains a die at character levels 5, 11, and 17.",
+      "Direct sunlight on the Specter, its target, or the thing it tries to see imposes disadvantage on its attacks and sight-based Perception checks. It understands, reads, and writes Common and one chosen language."
+    ]
+  },
+  {
+    "name": "Stirge",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Tiny Beast with Dexterity +2, a 10-ft. walk, 40-ft. flight in no armor or light armor, and darkvision 60 ft. Unarmored AC is 11 + Dexterity modifier. It speaks, reads, and writes Common.",
+      "Blood Drain is a 1d6 piercing unarmed strike. It may use Dexterity for attack and damage and counts as finesse where required. On a hit, the Stirge may latch onto the target. It can follow the target’s movement and cannot make another Blood Drain attack while attached.",
+      "While attached, the Stirge may spend a bonus action at the start of its turn to deal its normal unarmed-strike damage without rolling to hit. It detaches once the ongoing drain reaches its Constitution score. The target can use an action to remove it. The Stirge can leave by spending an action or half its movement.",
+      "It has no hands. Weapons, shields, implements, and items needing a grip are unavailable. Apply the Tiny size rules on p. 8."
+    ]
+  },
+  {
+    "name": "Tarrasque",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Monstrosity with the titan tag, Strength +1, Constitution +1, a 30-ft. walk, and darkvision 120 ft. It speaks, reads, and writes Common.",
+      "Bite and claws deal 1d8 piercing or slashing as unarmed strikes. A hit during the Attack action can trigger a bonus-action grapple. Its attacks deal double damage to objects and structures.",
+      "Its unarmored AC can be 12 + Dexterity modifier. It resists fire and poison damage and has advantage on saves against poison. It has no hands for using weapons, shields, or gear requiring a grip.",
+      "The carapace can reflect magic missile on a natural 20 on a separate d20, a saving-throw spell in the stated categories on its own natural 20 save, or an eligible ranged-attack spell on the caster’s natural 1. The listed categories are magic missile, line spells, and spells with a ranged attack roll. Reflection leaves the Tarrasque unaffected and redirects the spell to its caster."
+    ]
+  },
+  {
+    "name": "Unicorn",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Celestial with Strength +1 plus either Wisdom +1 or Charisma +1. Walks 40 ft. and speaks, reads, and writes Common, Elven, and Sylvan. Immune to charmed and paralyzed.",
+      "Hooves and horn deal 1d8 bludgeoning or piercing as unarmed strikes. Once a turn, moving at least 15 ft. toward a creature and hitting it with a Strength-based melee weapon attack adds 1d6 damage. It adds one more die at levels 5, 11, and 17.",
+      "Knows druidcraft. From level 3, it can cast cure wounds and detect evil and good once per day each. Use the Wisdom or Charisma increased by this package. Apply the supplement’s p. 8 somatic rules to its form.",
+      "No hands for weapons, shields, or manipulating items such as foci. The published player block lists its healing through the innate spell."
+    ]
+  },
+  {
+    "name": "Water Weird",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publication": "Monstrous Races (2018)",
+    "kind": "species",
+    "traits": [
+      "Player conversion by Tyler Kamstra for 2014 fifth edition, published through Dungeon Masters Guild. This profile follows the v2 text.",
+      "Medium Elemental. It needs no air, food, drink, or sleep. Four hours of semiconscious rest replace eight hours of sleep. It understands, reads, and writes Aquan and cannot speak or perform verbal components.",
+      "Constrict is a 1d8 bludgeoning unarmed strike. A hit during its Attack action enables a bonus-action grapple, even with no hands. It can wield no weapon or shield, use no implement, and wear no armor.",
+      "Immune to poison damage and the poisoned, exhaustion, grappled, paralyzed, restrained, prone, and unconscious conditions. Under p. 8, immunity to unconsciousness makes dropping to 0 HP fatal.",
+      "Dies if it leaves its bound water or that water is destroyed. It has advantage on Stealth checks to hide in water. The published Speed line gives a 30-ft. walk and supplies no swim speed."
+    ]
+  }
+]

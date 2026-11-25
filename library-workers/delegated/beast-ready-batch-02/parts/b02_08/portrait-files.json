@@ -1,0 +1,34 @@
+[
+  {
+    "artGroup": "lion",
+    "file": "portraits/lion.png",
+    "sha256": "58af8be859b901dd0dfcc9caa7f02ddf4dc0d5a23b09cba2f8d60cf2cb67e9b4",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "rat",
+    "file": "portraits/rat.png",
+    "sha256": "3ecfd8f4bf0d5b6a80a7ee87784606d46b0d414790f550d836a939c56b71be71",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "raven",
+    "file": "portraits/raven.png",
+    "sha256": "81a7246537c76b587f468500b948c8c6df493567126883ec627d6266b3cf15f8",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  },
+  {
+    "artGroup": "rhinoceros",
+    "file": "portraits/rhinoceros.png",
+    "sha256": "52429ef13ba662e36f9383e708925849fe7bdbfc98390dbbd428c41e6e55badb",
+    "width": 1254,
+    "height": 1254,
+    "credit": "Original portrait generated with OpenAI ImageGen"
+  }
+]

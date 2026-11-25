@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Korobokuru",
+    "species": "species-c30d205349fb891cfe798500",
+    "profiles": [
+      "Oriental Adventures (2001)"
+    ],
+    "edition": "3.0 edition",
+    "npc": "Bramble",
+    "npcEntry": "npc-8f564af39fab12a40644275e",
+    "sha": "7bd5f6a8f76c4368160063039c000b112b3d82344a07e3c7329d5a4e78e2d416"
+  },
+  {
+    "name": "Spirit Folk",
+    "species": "species-ba0648bd0ae47c6c914578ac",
+    "profiles": [
+      "Oriental Adventures (2001) · Bamboo",
+      "Oriental Adventures (2001) · River",
+      "Oriental Adventures (2001) · Sea"
+    ],
+    "edition": "3.0 edition",
+    "npc": "Ilen",
+    "npcEntry": "npc-113b30d91ec49098fb522921",
+    "sha": "8770955fdcb01bd01b6eab373c6e7de1454597f48dea07e96fbcf8c17ebd32ea"
+  }
+]

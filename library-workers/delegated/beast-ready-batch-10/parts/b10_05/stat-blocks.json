@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Reef Shark",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Medium Beast, unaligned",
+    "ac": 12,
+    "hp": 22,
+    "hitDice": "4d8 + 4",
+    "speed": "5 ft., swim 30 ft.",
+    "cr": "1/2",
+    "xp": 100,
+    "abilities": {
+      "Str": {
+        "score": 14,
+        "modifier": 2
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 10,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 4,
+        "modifier": -3
+      }
+    },
+    "savingThrows": {
+      "Str": 2,
+      "Dex": 2,
+      "Con": 1,
+      "Int": -5,
+      "Wis": 0,
+      "Cha": -3
+    },
+    "otherStatistics": "Initiative +2 (12). Proficiency Bonus +2. Perception +2. Blindsight 30 ft. Passive Perception 12. Languages none.",
+    "appearance": "A slender blue-gray shark with a pale underside, pointed snout and swept fins.",
+    "habitats": [
+      "Underwater"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 368, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775838-reef-shark",
+      "Traits": "Pack Tactics. The shark has Advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of that creature and the ally is free of the Incapacitated condition.\nWater Breathing. The shark breathes only underwater.",
+      "Actions": "Bite. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 7 (2d4 + 2) piercing damage."
+    }
+  },
+  {
+    "name": "Rhinoceros",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 45,
+    "hitDice": "6d10 + 12",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 21,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 5,
+      "Dex": -1,
+      "Con": 2,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative −1 (9). Proficiency Bonus +2. Passive Perception 11. Languages none.",
+    "appearance": "A heavy gray rhinoceros with deeply folded skin, stout legs and two nose horns.",
+    "habitats": [
+      "Grassland"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 368, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5195183-rhinoceros",
+      "Actions": "Gore. Make a melee attack roll at +7 with a reach of 5 ft. A hit deals 14 (2d8 + 5) piercing damage. If the target is a Large or smaller creature and the rhinoceros moved at least 20 ft. straight toward it immediately before the hit, the target takes an extra 9 (2d8) piercing damage and falls Prone."
+    }
+  },
+  {
+    "name": "Riding Horse",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 11,
+    "hp": 13,
+    "hitDice": "2d10 + 2",
+    "speed": "60 ft.",
+    "cr": "1/4",
+    "xp": 50,
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 7,
+        "modifier": -2
+      }
+    },
+    "savingThrows": {
+      "Str": 3,
+      "Dex": 1,
+      "Con": 1,
+      "Int": -4,
+      "Wis": 0,
+      "Cha": -2
+    },
+    "otherStatistics": "Initiative +1 (11). Proficiency Bonus +2. Passive Perception 10. Languages none.",
+    "appearance": "A bay horse with a dark mane, black lower legs and a small white blaze.",
+    "habitats": [
+      "Grassland",
+      "Urban"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 368, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775839-riding-horse",
+      "Actions": "Hooves. Make a melee attack roll at +5 with a reach of 5 ft. A hit deals 7 (1d8 + 3) bludgeoning damage."
+    }
+  },
+  {
+    "name": "Saber-Toothed Tiger",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Large Beast, unaligned",
+    "ac": 13,
+    "hp": 52,
+    "hitDice": "7d10 + 14",
+    "speed": "40 ft.",
+    "cr": "2",
+    "xp": 450,
+    "abilities": {
+      "Str": {
+        "score": 18,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 3,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 8,
+        "modifier": -1
+      }
+    },
+    "savingThrows": {
+      "Str": 6,
+      "Dex": 5,
+      "Con": 2,
+      "Int": -4,
+      "Wis": 1,
+      "Cha": -1
+    },
+    "otherStatistics": "Initiative +3 (13). Proficiency Bonus +2. Perception +5. Stealth +7. Darkvision 60 ft. Passive Perception 15. Languages none.",
+    "appearance": "A muscular tawny cat with spotted flanks, thick forelegs and long upper canines.",
+    "habitats": [
+      "Arctic",
+      "Hill",
+      "Mountain"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 369, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5195187-saber-toothed-tiger",
+      "Traits": "Running Leap. With a 10-ft. running start, the tiger can Long Jump up to 25 ft.",
+      "Actions": "Multiattack. Make two Rend attacks.\nRend. Make a melee attack roll at +6 with a reach of 5 ft. A hit deals 11 (2d6 + 4) slashing damage.",
+      "Bonus Actions": "Nimble Escape. Take the Disengage or Hide action."
+    }
+  },
+  {
+    "name": "Scorpion",
+    "publication": "Monster Manual (2024)",
+    "edition": "2024 fifth edition",
+    "classification": "Tiny Beast, unaligned",
+    "ac": 11,
+    "hp": 1,
+    "hitDice": "1d4 - 1",
+    "speed": "10 ft.",
+    "cr": "0",
+    "xp": 10,
+    "abilities": {
+      "Str": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Dex": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Con": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 8,
+        "modifier": -1
+      },
+      "Cha": {
+        "score": 2,
+        "modifier": -4
+      }
+    },
+    "savingThrows": {
+      "Str": -4,
+      "Dex": 0,
+      "Con": -1,
+      "Int": -5,
+      "Wis": -1,
+      "Cha": -4
+    },
+    "otherStatistics": "Initiative +0 (10). Proficiency Bonus +2. Blindsight 10 ft. Passive Perception 9. Languages none.",
+    "appearance": "An ochre scorpion with paired pincers and a segmented tail curled over its back.",
+    "habitats": [
+      "Desert"
+    ],
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "sections": {
+      "Printed source": "Wizards of the Coast, Monster Manual, p. 369, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775840-scorpion",
+      "Actions": "Sting. Make a melee attack roll at +2 with a reach of 5 ft. A hit deals 1 piercing damage plus 3 (1d6) poison damage."
+    }
+  }
+]

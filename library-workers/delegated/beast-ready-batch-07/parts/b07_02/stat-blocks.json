@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Deinonychus",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "classification": "Large Animal, always neutral",
+    "hp": 34,
+    "hitDice": "4d8 + 16",
+    "initiative": "+2",
+    "speed": "60 ft. (12 squares)",
+    "ac": 16,
+    "cr": "3",
+    "abilities": {
+      "Str": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Initiative +2. AC 16 (−1 size, +2 Dex, +5 natural), touch 11, flat-footed 14. Base attack +3, grapple +11. Space 10 ft., reach 5 ft. Fort +8, Ref +6, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A lean green pack raptor with a pale green underside, dark mottling, grasping forelimbs, raised hind talons, and a long, stiff tail. It weighs about 600 lb.",
+    "habitats": [
+      "Warm forests"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersDi-Do.rtf, DINOSAUR, DEINONYCHUS and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-di-do.html#deinonychus",
+      "Attack": "Talons +6 melee (2d6 + 4).",
+      "Full attack": "Talons +6 melee (2d6 + 4), two foreclaws +1 melee (1d3 + 2 each), and bite +1 melee (2d4 + 2). The hind talons count as one attack.",
+      "Special attacks": "Pounce (Ex). It can make a full attack when it charges.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents at 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. A move action identifies the direction. Within 5 ft. the animal pinpoints the source.",
+      "Skills and feats": "Hide +8, Jump +26, Listen +10, Spot +10, Survival +10. Run, Track. Racial +8 on each listed skill. With Track, a fresh scent trail normally starts at DC 10, adjusted for odor strength, number of creatures and trail age. Each cold hour adds 2. Poor visibility and the surface do not hinder scent tracking.",
+      "Encounter ecology": "It stalks from cover and uses its speed to pounce. Packs hunt together. Encounter one, a pair, or a pack of 3–6. Advancement 5–8 HD (Large). No treasure or listed level adjustment.",
+      "Print distinction": "This SRD archive uses Large size, 10-ft. space, and 2d6 + 4 talons. Wizards’ February 2006 Monster Manual errata uses Medium size, 5-ft. space, and 1d8 + 4 talons in its replacement table."
+    }
+  },
+  {
+    "name": "Cheetah",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "classification": "Medium Animal, always neutral",
+    "hp": 19,
+    "hitDice": "3d8 + 6",
+    "initiative": "+4",
+    "speed": "50 ft. (10 squares)",
+    "ac": 15,
+    "cr": "2",
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 19,
+        "modifier": 4
+      },
+      "Con": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Initiative +4. AC 15 (+4 Dex, +1 natural), touch 14, flat-footed 11. Base attack +2, grapple +5. Space 5 ft., reach 5 ft. Fort +5, Ref +7, Will +2.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A slim tawny cat with dark spots, long legs and a banded tail. It measures 3–5 ft. long and weighs 110–130 lb.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, CHEETAH and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#cheetah",
+      "Attack": "Bite +6 melee (1d6 + 3, from the matching Bite in Full Attack).",
+      "Full attack": "Bite +6 melee (1d6 + 3) and two claws +1 melee (1d2 + 1 each).",
+      "Special attacks": "Trip (Ex). After a bite or claw hit, make a trip attempt at +3 as a free action. The attempt needs no touch attack and provokes no attack of opportunity. On a failure, the target gets no attempt to trip the cheetah in return.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents at 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. A move action identifies the direction. Within 5 ft. the animal pinpoints the source. Sprint (Ex). Once per hour, the cheetah can move up to 500 ft. as part of a charge.",
+      "Skills and feats": "Hide +6, Listen +4, Move Silently +6, Spot +4. Alertness, Weapon Finesse.",
+      "Encounter ecology": "A swift plains hunter that sprints to take prey. Encounter one, a pair, or a family of 3–5. Advancement 4–5 HD (Medium). Animal defaults supply neutral alignment and no treasure. No listed level adjustment."
+    }
+  },
+  {
+    "name": "Dire Shark",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "classification": "Huge Animal (Aquatic), always neutral",
+    "hp": 147,
+    "hitDice": "18d8 + 66",
+    "initiative": "+2",
+    "speed": "Swim 60 ft. (12 squares)",
+    "ac": 17,
+    "cr": "9",
+    "abilities": {
+      "Str": {
+        "score": 23,
+        "modifier": 6
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 1,
+        "modifier": -5
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 10,
+        "modifier": 0
+      }
+    },
+    "otherStatistics": "Initiative +2. AC 17 (−2 size, +2 Dex, +7 natural), touch 10, flat-footed 15. Base attack +13, grapple +27. Space 15 ft., reach 10 ft. Fort +14, Ref +13, Will +12.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A huge slate-blue shark with a broad toothy jaw and pale belly. It can reach 25 ft. in length and weigh over 20,000 lb.",
+    "habitats": [
+      "Cold aquatic"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersDi-Do.rtf, DIRE SHARK and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-di-do.html#dire-shark",
+      "Attack": "Bite +18 melee (2d8 + 9).",
+      "Full attack": "Bite +18 melee (2d8 + 9).",
+      "Special attacks": "Improved Grab (Ex). A Bite hit lets it attempt a grapple as a free action with no touch attack or attack of opportunity. The general Improved Grab size limit applies because the entry gives no wider limit. Winning the check holds the creature and sets up Swallow Whole on the following round.\nSwallow Whole (Ex). Make a new grapple check to swallow a held Large or smaller foe. If swallowed, it takes 2d6 + 6 bludgeoning plus 1d8 + 4 acid each round. Cutting out requires a light slashing or piercing weapon to deal 25 damage to the digestive tract (AC 13). The wound closes after that creature leaves. The general Swallow Whole rules also deal bite damage on swallowing, count the prey as grappled, and return prey that escape the grapple to the shark’s mouth.\nGullet capacity. Two Large, eight Medium or Small, thirty-two Tiny, one hundred twenty-eight Diminutive, or five hundred twelve Fine or smaller opponents.",
+      "Special qualities": "Keen Scent (Ex). Can detect creatures by scent within 180 ft. and detect blood in water up to 1 mile away. Aquatic subtype. Breathes underwater only and uses its swim speed without routine Swim checks. The stat block lists Keen Scent. The general Animal rules grant low-light vision unless the specific entry overrides it.",
+      "Skills and feats": "Listen +12, Spot +11, Swim +14. Improved Natural Attack (bite), Toughness ×4, Weapon Focus (bite). Racial +8 on Swim checks for special actions or hazards. It may take 10 even when distracted or endangered, and it can run while swimming in a straight line.",
+      "Encounter ecology": "Hunts anything it regards as prey, including creatures larger than itself. Encounter one or a school of 2–5. Advancement 19–32 HD (Huge), 33–54 HD (Gargantuan). No treasure or listed level adjustment."
+    }
+  },
+  {
+    "name": "Giant Octopus",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "classification": "Large Animal (Aquatic), always neutral",
+    "hp": 47,
+    "hitDice": "8d8 + 11",
+    "initiative": "+2",
+    "speed": "20 ft. (4 squares), swim 30 ft.",
+    "ac": 18,
+    "cr": "8",
+    "abilities": {
+      "Str": {
+        "score": 20,
+        "modifier": 5
+      },
+      "Dex": {
+        "score": 15,
+        "modifier": 2
+      },
+      "Con": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 12,
+        "modifier": 1
+      },
+      "Cha": {
+        "score": 3,
+        "modifier": -4
+      }
+    },
+    "otherStatistics": "Initiative +2. AC 18 (−1 size, +2 Dex, +7 natural), touch 11, flat-footed 16. Base attack +6, grapple +15. Space 10 ft., reach 10 ft. or 20 ft. with a tentacle. Fort +7, Ref +8, Will +3.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A reddish-brown octopus with a rounded mantle and eight long, curled arms lined with sharp-edged suckers and small barbs.",
+    "habitats": [
+      "Warm aquatic"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, OCTOPUS, GIANT and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#octopus-giant",
+      "Attack": "Tentacle +10 melee (1d4 + 5).",
+      "Full attack": "Eight tentacles +10 melee (1d4 + 5 each) and bite +5 melee (1d8 + 2).",
+      "Special attacks": "Improved Grab (Ex). A tentacle hit on an opponent of any size allows a grapple as a free action with no touch attack or attack of opportunity. A successful check establishes a hold and allows constriction.\nConstrict (Ex). A successful grapple check deals 2d8 + 6 damage.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Aquatic subtype. Breathes underwater only and uses its swim speed without routine Swim checks.\nInk Cloud (Ex). Once per minute, spend a free action to fill a 20-ft. cube with ink that blocks all vision and gives total concealment. The entry does not give the cloud a duration.\nJet (Ex). Once per round, spend a full-round action to move 200 ft. straight backward without provoking attacks of opportunity.",
+      "Skills and feats": "Escape Artist +12, Hide +12, Listen +4, Spot +6, Swim +13. Alertness, Skill Focus (Hide), Toughness. Changing color adds racial +4 on Hide. Its flexible body gives racial +10 on Escape Artist. Racial +8 on Swim checks for special actions or hazards. It may take 10 even when distracted or endangered, and it can run while swimming in a straight line.",
+      "Tentacles": "A foe can sunder a tentacle as if attacking a weapon. Each tentacle has 10 HP. If a tentacle that is holding someone is targeted, the octopus usually makes the resulting attack of opportunity with a different limb. Each severed tentacle also costs the octopus 5 HP. It usually retreats after losing four and regrows severed arms in 1d10 + 10 days.",
+      "Encounter ecology": "A solitary, territorial hunter. Advancement 9–12 HD (Large), 13–24 HD (Huge). Animal defaults supply neutral alignment and no treasure. No listed level adjustment."
+    }
+  },
+  {
+    "name": "Mule",
+    "edition": "3.5 edition",
+    "publication": "Revised v3.5 SRD (Monsters)",
+    "classification": "Large Animal, always neutral",
+    "hp": 22,
+    "hitDice": "3d8 + 9",
+    "initiative": "+1",
+    "speed": "30 ft. (6 squares)",
+    "ac": 13,
+    "cr": "1",
+    "abilities": {
+      "Str": {
+        "score": 16,
+        "modifier": 3
+      },
+      "Dex": {
+        "score": 13,
+        "modifier": 1
+      },
+      "Con": {
+        "score": 17,
+        "modifier": 3
+      },
+      "Int": {
+        "score": 2,
+        "modifier": -4
+      },
+      "Wis": {
+        "score": 11,
+        "modifier": 0
+      },
+      "Cha": {
+        "score": 6,
+        "modifier": -2
+      }
+    },
+    "otherStatistics": "Initiative +1. AC 13 (−1 size, +1 Dex, +3 natural), touch 10, flat-footed 12. Base attack +2, grapple +9. Space 10 ft., reach 5 ft. Fort +6, Ref +4, Will +1.",
+    "rulesOrigin": "printed-rules-summary",
+    "overridesIndexedRules": true,
+    "preserveIndexedReferences": true,
+    "appearance": "A sturdy brown equine with long donkey-like ears, a short dark mane, light muzzle, and narrow hooves.",
+    "habitats": [
+      "Warm plains"
+    ],
+    "sections": {
+      "Printed source": "Revised v3.5 SRD, MonstersAnimals.rtf, MULE and its following combat text. https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#mule",
+      "Attack": "Hoof +4 melee (1d4 + 3).",
+      "Full attack": "Two hooves +4 melee (1d4 + 3 each).",
+      "Special attacks": "None listed.",
+      "Special qualities": "Low-light vision doubles normal human sight distance in dim light and retains color and detail. Scent (Ex). Detects opponents at 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double these ranges and overpowering odors triple them. A move action identifies the direction. Within 5 ft. the animal pinpoints the source.",
+      "Skills and feats": "Listen +6, Spot +6. Alertness, Endurance. Racial +2 on Dexterity checks to avoid a slip or fall.",
+      "Carrying capacity": "Light load up to 230 lb., medium 231–460 lb., heavy 461–690 lb. Maximum drag load 3,450 lb.",
+      "Encounter ecology": "A domesticated, sterile horse and donkey crossbreed with a powerful kick. No listed advancement or level adjustment. Animal defaults supply neutral alignment and no treasure."
+    }
+  }
+]

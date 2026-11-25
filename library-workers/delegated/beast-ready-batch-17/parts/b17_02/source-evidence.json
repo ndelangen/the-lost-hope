@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Bristled Moorbounder",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, March 2020.",
+    "isbn": "978-0-7869-6691-2",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/egtw",
+    "artGroup": "bristled-moorbounder",
+    "section": "Wildemount Bestiary, Moorbounders",
+    "printedPages": [
+      295
+    ],
+    "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/",
+    "pageWitnesses": [
+      {
+        "printedPage": 295,
+        "viewerPage": 296,
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/"
+      },
+      {
+        "viewerPage": 3,
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/3/"
+      }
+    ],
+    "appearanceEvidence": "Sleek, muscular hunting-cat body, long tusks, retractable claws, and long blade-shaped bristles.",
+    "ruleComparison": "Wildemount uses the action label Claws. Call of the Netherdeep p. 203 presents the same damage as Claw.",
+    "portrait": {
+      "reuseSource": "beast-ready-batch-14/parts/b14_10/portraits/bristled-moorbounder.png",
+      "sha256": "30cf8b745118022f92ba817cd0e8760dda5f6bce7f79d4124bf6ce95a4792f37",
+      "runtimeFile": "images/beast-ready-batch-14/bristled-moorbounder.png",
+      "credit": "OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Moorbounder",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, March 2020.",
+    "isbn": "978-0-7869-6691-2",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/egtw",
+    "artGroup": "moorbounder",
+    "section": "Wildemount Bestiary, Moorbounders",
+    "printedPages": [
+      295
+    ],
+    "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/",
+    "pageWitnesses": [
+      {
+        "printedPage": 295,
+        "viewerPage": 296,
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/296/"
+      },
+      {
+        "viewerPage": 3,
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/3/"
+      }
+    ],
+    "appearanceEvidence": "Muscular, leaping hunting cat with elongated tusks and retractable claws.",
+    "ruleComparison": "Wildemount uses the action label Claws. Call of the Netherdeep p. 203 presents the same damage as Claw.",
+    "portrait": {
+      "reuseSource": "beast-ready-batch-14/parts/b14_10/portraits/moorbounder.png",
+      "sha256": "6d2c92a2846065bda0a714fd65361bbf9c45984020c156cbc03dee2e5d4a2009",
+      "runtimeFile": "images/beast-ready-batch-14/moorbounder.png",
+      "credit": "OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Old Croaker",
+    "publication": "Explorer's Guide to Wildemount",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, March 2020.",
+    "isbn": "978-0-7869-6691-2",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/egtw",
+    "artGroup": "old-croaker",
+    "section": "Frozen Sick, C5 Old Croaker's Pool",
+    "printedPages": [
+      240
+    ],
+    "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/241/",
+    "pageWitnesses": [
+      {
+        "printedPage": 240,
+        "viewerPage": 241,
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/241/"
+      },
+      {
+        "viewerPage": 3,
+        "sourceUrl": "https://fliphtml5.com/DnD5E/Explorers-Guide-To-Wildemount/Explorers_Guide_To_Wildemount/3/"
+      }
+    ],
+    "appearanceEvidence": "Area C5 describes a giant toad and gives no individual skin color.",
+    "baseBlock": {
+      "name": "Giant Toad",
+      "printedPage": 329,
+      "sourceUrl": ""
+    },
+    "publisherStatBlockUrl": "https://www.dndbeyond.com/monsters/744327-old-croaker",
+    "publisherEncounterUrl": "https://www.dndbeyond.com/sources/dnd/wa/frozen-sick#C5OldCroakersPool",
+    "ruleComparison": "Preserves the Giant Toad block and adds cold immunity per area C5.",
+    "portrait": {
+      "reuseSource": "beast-ready-batch-05/parts/b05_03/portraits/giant-toad.png",
+      "sha256": "9a92aaa523efc47ba8ae2da92535372cca0851247620d6c6360e65eea9e15c35",
+      "runtimeFile": "images/beast-ready-batch-05/giant-toad.png",
+      "credit": "OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Koi Prawn",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, June 2022.",
+    "isbn": "978-0-7869-6805-3",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/jttrc",
+    "artGroup": "koi-prawn",
+    "section": "Salted Legacy, Prawn Preparation",
+    "printedPages": [
+      25,
+      26
+    ],
+    "sourceUrl": "https://www.scribd.com/document/617503780/qpbh",
+    "publisherEncounterUrl": "https://www.dndbeyond.com/sources/dnd/jttrc/salted-legacy",
+    "publisherArtworkUrl": "https://www.thefandomentals.com/wp-content/uploads/2022/07/Journeys-Through-the-Radiant-Citadel-ART8.jpeg",
+    "pageWitnesses": [
+      {
+        "printedPage": 25,
+        "sourceUrl": "https://www.scribd.com/document/617503780/qpbh"
+      },
+      {
+        "printedPage": 26,
+        "sourceUrl": "https://www.scribd.com/document/617503780/qpbh"
+      }
+    ],
+    "appearanceEvidence": "Printed illustration shows a jagged violet prawn with a spined rostrum, cyan markings, long antennae, and long segmented legs.",
+    "baseBlock": {
+      "name": "Giant Sea Horse",
+      "printedPage": 328,
+      "sourceUrl": "",
+      "publisherStatBlockUrl": "https://www.dndbeyond.com/monsters/16893-giant-sea-horse"
+    },
+    "ruleComparison": "Uses Giant Sea Horse as printed, with the tank encounter’s four specimens, defensive behavior, half cover, immediate stop at 0 HP, and sous-chef rescue recorded separately.",
+    "portrait": {
+      "stagedFile": "portraits/koi-prawn.png",
+      "sha256": "bb33da9e443f4ac1a4db1ea665c715174e837fe5f067abe3ea307250e5393f05",
+      "credit": "OpenAI ImageGen"
+    }
+  },
+  {
+    "name": "Rooster",
+    "publication": "Journeys through the Radiant Citadel",
+    "edition": "2014 fifth edition",
+    "kind": "beast",
+    "publisher": "Wizards of the Coast",
+    "printing": "First printing, June 2022.",
+    "isbn": "978-0-7869-6805-3",
+    "publisherSourceUrl": "https://www.dndbeyond.com/sources/dnd/jttrc",
+    "artGroup": "rooster",
+    "section": "Orchids of the Invisible Mountain, The Grassroads, Lean-To Items",
+    "printedPages": [
+      206
+    ],
+    "sourceUrl": "https://www.scribd.com/document/617503780/qpbh",
+    "publisherEncounterUrl": "https://www.dndbeyond.com/sources/dnd/jttrc/orchids-of-the-invisible-mountain",
+    "pageWitnesses": [
+      {
+        "printedPage": 206,
+        "sourceUrl": "https://www.scribd.com/document/617503780/qpbh"
+      }
+    ],
+    "appearanceEvidence": "The table names an ordinary sleeping rooster. Existing artwork depicts an ordinary standing rooster.",
+    "baseBlock": {
+      "name": "Hawk",
+      "printedPage": 330,
+      "sourceUrl": "",
+      "publisherStatBlockUrl": "https://www.dndbeyond.com/monsters/16920-hawk"
+    },
+    "ruleComparison": "The only numerical change to the Hawk is removal of the fly speed. Keeps the 10 ft. walking speed and CR 0.",
+    "portrait": {
+      "reuseSource": "indexed:images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+      "sha256": "087b257409671181ede0f79e176aa1f2c7b987f9f25dfb02cd2af2717191bc0e",
+      "runtimeFile": "images/monsters/rooster-heraldic-servant/parchment-portrait.webp",
+      "credit": "OpenAI ImageGen"
+    }
+  }
+]

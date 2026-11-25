@@ -1,0 +1,372 @@
+diff --git a/dm-library/bestiary/book-catalog.json b/dm-library/bestiary/book-catalog.json
+--- a/dm-library/bestiary/book-catalog.json
++++ b/dm-library/bestiary/book-catalog.json
+@@ -309929,6 +309929,333 @@
+           }
+         ]
+       }
++    },
++    {
++      "kind": "beast",
++      "name": "Kamrat",
++      "publication": "Dungeons & Doggos: Dig in the Dirt with a Dwarf's Best Friends",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A small smooth-coated tunnel dog with a long body, triangular ears, strong short legs, and oversized front paws.",
++      "combat": {
++        "size": "Tiny",
++        "creatureType": "Beast",
++        "armorClass": 13,
++        "hitPoints": 23,
++        "challenge": "1/2",
++        "speed": {
++          "walk": 30
++        },
++        "habitats": ["Dwarven tunnels and mines"],
++        "armorClassNote": "Natural armor",
++        "senses": ["Blindsense 40 ft."]
++      },
++      "mechanics": {
++        "Traits": [
++          {
++            "name": "Heightened Hearing",
++            "effectNote": "Perception is 17 for hearing."
++          }
++        ],
++        "Actions": [
++          {
++            "name": "Bite",
++            "effectNote": "One target takes 5 (1d4 + 3) piercing damage on a hit.",
++            "toHit": 5,
++            "reachFeet": 5,
++            "damageRolls": [
++              {
++                "diceCount": 1,
++                "die": 4,
++                "bonus": 3,
++                "damageType": "piercing"
++              }
++            ]
++          }
++        ],
++        "Reactions": [
++          {
++            "name": "Reflexive Escape",
++            "effectNote": "When attacked by a creature it can see, the kamrat can move up to 5 ft. The attack misses if that puts it out of reach."
++          }
++        ],
++        "Variant options": [
++          {
++            "name": "Variant selection",
++            "effectNote": "Choose at most one option. It replaces Reflexive Escape."
++          },
++          {
++            "name": "Dedicated Target (bonus action)",
++            "effectNote": "Choose one creature the kamrat can see. It has advantage on attacks against that creature and on ability checks to track or follow it while it can see the target and for 3 hours after losing sight of it."
++          },
++          {
++            "name": "Frenetic (bonus action)",
++            "effectNote": "The kamrat takes the Disengage or Hide action."
++          },
++          {
++            "name": "Digger (trait)",
++            "effectNote": "This variant has a 5-ft. burrowing speed."
++          }
++        ]
++      },
++      "notes": [
++        "Printed Perception 12, Stealth 15. Ability modifiers are Str −1, Dex +5, Con +2, Int −4, Wis +2, Cha −1.",
++        "The ordinary kamrat has only the printed 30-ft. walking speed. The source classifies its echo sensing as blindsense."
++      ]
++    },
++    {
++      "kind": "beast",
++      "name": "Olhund",
++      "publication": "Dungeons & Doggos: Dig in the Dirt with a Dwarf's Best Friends",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A heavy, muscular hound with brindled fur, floppy ears, and loose skin around its jowls.",
++      "combat": {
++        "size": "Medium",
++        "creatureType": "Beast",
++        "armorClass": 14,
++        "hitPoints": 40,
++        "challenge": "1",
++        "speed": {
++          "walk": 60
++        },
++        "habitats": ["Dwarven taverns and clanholds"],
++        "armorClassNote": "Natural armor",
++        "conditionImmunities": ["Frightened"]
++      },
++      "mechanics": {
++        "Traits": [
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Perception is 16 for hearing or smell."
++          }
++        ],
++        "Actions": [
++          {
++            "name": "Multiattack",
++            "effectNote": "The olhund makes one Smashing Paw attack and one Bite attack.",
++            "attackCount": 2
++          },
++          {
++            "name": "Bite",
++            "effectNote": "One target takes 7 (1d8 + 3) piercing damage on a hit.",
++            "toHit": 5,
++            "reachFeet": 5,
++            "damageRolls": [
++              {
++                "diceCount": 1,
++                "die": 8,
++                "bonus": 3,
++                "damageType": "piercing"
++              }
++            ]
++          },
++          {
++            "name": "Smashing Paw",
++            "effectNote": "One target takes 5 (1d4 + 3) bludgeoning damage on a hit. A creature no more than one size larger falls prone on a failed save. The olhund can choose to knock a creature unconscious instead of killing it.",
++            "toHit": 5,
++            "reachFeet": 5,
++            "damageRolls": [
++              {
++                "diceCount": 1,
++                "die": 4,
++                "bonus": 3,
++                "damageType": "bludgeoning"
++              }
++            ],
++            "saves": [
++              {
++                "ability": "Strength",
++                "dc": 14
++              }
++            ]
++          }
++        ],
++        "Bonus Actions": [
++          {
++            "name": "Intimidating Rumble",
++            "effectNote": "One creature the olhund can see within 30 ft. is frightened of it for 1 minute on a failed save. The target can repeat the save at the end of each of its turns, ending the effect on a success.",
++            "rangeFeet": [30],
++            "usage": ["Recharge 6"],
++            "saves": [
++              {
++                "ability": "Charisma",
++                "dc": 13
++              }
++            ]
++          }
++        ],
++        "Variant options": [
++          {
++            "name": "Variant selection",
++            "effectNote": "Choose at most one option. The GM removes either Smashing Paw or Intimidating Rumble."
++          },
++          {
++            "name": "Den Tactics (trait)",
++            "effectNote": "The olhund has advantage on attacks and ability checks in its den. It can choose or be trained to accept a new den with the Creature Training downtime activity from Player’s Guide 2."
++          },
++          {
++            "name": "Grappling Charge (trait)",
++            "effectNote": "If the olhund moves at least 20 ft. straight toward a target and then hits with Bite or Smashing Paw on the same turn, the target falls prone and is grappled on a failed save (escape DC 14). It can grapple one target at a time.",
++            "saves": [
++              {
++                "ability": "Strength",
++                "dc": 14
++              }
++            ]
++          },
++          {
++            "name": "Protective Strike (reaction)",
++            "effectNote": "When a target the olhund can see is hit by an attack from a creature within 5 ft. of it, the olhund can make one Bite attack against the attacker."
++          }
++        ]
++      },
++      "notes": [
++        "Printed Perception 11, Stealth 16. Ability modifiers are Str +4, Dex +2, Con +4, Int −3, Wis +1, Cha −2.",
++        "The article describes the hounds as moving slowly in everyday life. The printed combat speed is 60 ft.",
++        "The source gives no replacement Multiattack when the GM removes Smashing Paw.",
++        "Protective Strike leaves the reference point for its 5-ft. distance implicit."
++      ]
++    },
++    {
++      "kind": "beast",
++      "name": "Storgin",
++      "publication": "Dungeons & Doggos: Loyal Dogs of the Halflings and Gnomes",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A short-legged, wiry-coated hound with a deep chest, thick neck, and short, powerful muzzle.",
++      "combat": {
++        "size": "Medium",
++        "creatureType": "Beast",
++        "armorClass": 12,
++        "hitPoints": 15,
++        "challenge": "1/4",
++        "speed": {
++          "walk": 40,
++          "climb": 15
++        },
++        "habitats": ["Gnomish tunnels and mines"],
++        "armorClassNote": "Natural armor"
++      },
++      "mechanics": {
++        "Traits": [
++          {
++            "name": "Beast of Burden",
++            "effectNote": "Treat the storgin as Large when calculating carrying capacity."
++          },
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Perception is 18 for hearing or smell."
++          },
++          {
++            "name": "Sunlight Sensitivity",
++            "effectNote": "While in sunlight, the storgin has disadvantage on attack rolls and its Perception is 8 for sight."
++          }
++        ],
++        "Actions": [
++          {
++            "name": "Bite",
++            "effectNote": "One target takes 4 (1d4 + 2) piercing damage on a hit. A Medium or smaller creature is grappled on a hit (escape DC 12). The storgin cannot bite another target until this grapple ends.",
++            "toHit": 4,
++            "reachFeet": 5,
++            "damageRolls": [
++              {
++                "diceCount": 1,
++                "die": 4,
++                "bonus": 2,
++                "damageType": "piercing"
++              }
++            ]
++          }
++        ],
++        "Reactions": [
++          {
++            "name": "Crushing Jaws",
++            "effectNote": "When a creature it is grappling hits it, the storgin can squeeze its jaws to deal 4 (1d4 + 2) piercing damage to that creature.",
++            "damageRolls": [
++              {
++                "diceCount": 1,
++                "die": 4,
++                "bonus": 2,
++                "damageType": "piercing"
++              }
++            ]
++          }
++        ]
++      },
++      "notes": [
++        "Printed Perception 13, Stealth 12. Ability modifiers are Str +2, Dex +2, Con +2, Int −4, Wis +1, Cha −2.",
++        "Gnomish handlers train storgins to carry packs and haul wagons. The stone-eating story is a legend."
++      ]
++    },
++    {
++      "kind": "beast",
++      "name": "Pennig",
++      "publication": "Dungeons & Doggos: Loyal Dogs of the Halflings and Gnomes",
++      "edition": "Black Flag Roleplaying",
++      "ruleset": "black-flag",
++      "appearance": "A tall, long-legged riding dog with a dense double coat, a rough muzzle, and a curled or plumed tail.",
++      "combat": {
++        "size": "Medium",
++        "creatureType": "Beast",
++        "armorClass": 12,
++        "hitPoints": 22,
++        "challenge": "1/2",
++        "speed": {
++          "walk": 50
++        },
++        "habitats": ["Halfling farming communities"],
++        "alternateArmorClasses": [
++          {
++            "armorClass": 15,
++            "condition": "With scale mail barding"
++          }
++        ]
++      },
++      "mechanics": {
++        "Traits": [
++          {
++            "name": "Heightened Hearing and Smell",
++            "effectNote": "Perception is 16 for hearing or smell."
++          },
++          {
++            "name": "Pack Tactics",
++            "effectNote": "The pennig has advantage on an attack against a creature if an ally is within 5 ft. of that creature and the ally is not incapacitated."
++          }
++        ],
++        "Actions": [
++          {
++            "name": "Bite",
++            "effectNote": "One target takes 6 (1d6 + 3) piercing damage on a hit. A creature falls prone on a failed save.",
++            "toHit": 5,
++            "reachFeet": 5,
++            "damageRolls": [
++              {
++                "diceCount": 1,
++                "die": 6,
++                "bonus": 3,
++                "damageType": "piercing"
++              }
++            ],
++            "saves": [
++              {
++                "ability": "Strength",
++                "dc": 13
++              }
++            ]
++          }
++        ],
++        "Reactions": [
++          {
++            "name": "Trained Shift",
++            "effectNote": "When an effect would knock the rider prone or dismount the rider, the pennig can give the rider advantage on the check or save to avoid it."
++          }
++        ]
++      },
++      "notes": [
++        "Printed Perception 11, Stealth 12. Ability modifiers are Str +3, Dex +2, Con +2, Int −3, Wis +1, Cha −2.",
++        "Pennigs are trained to carry and protect riders. Scale mail barding changes the printed AC from 12 to 15."
++      ]
+     }
+   ],
+   "species": [
+diff --git a/dm-library/bestiary/entries.tsv b/dm-library/bestiary/entries.tsv
+--- a/dm-library/bestiary/entries.tsv
++++ b/dm-library/bestiary/entries.tsv
+@@ -5667,6 +5667,7 @@
+ Kalashtar	species		Eberron: Rising from the Last War	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/species/260720-kalashtar	
+ Kalka-Kylla	monster	Monstrosity	Tales from the Yawning Portal	2014 fifth edition	Wizards of the Coast		3
+ Kamadan	monster	Monstrosity	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/33044-kamadan	4
++Kamrat	beast	Beast	Dungeons & Doggos: Dig in the Dirt with a Dwarf's Best Friends	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/dungeons-doggos-dig-in-the-dirt-with-a-dwarfs-best-friends-may-6-2026/#h-kamrat-tunnel-companions	1/2
+ Kansaldi Fire-Eyes	monster	Humanoid	Dragonlance: Shadow of the Dragon Queen	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3081112-kansaldi-fire-eyes	11
+ Kapak Draconian	monster	Monstrosity	Dragonlance: Shadow of the Dragon Queen	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3081113-kapak-draconian	3
+ Karas Chembryl	monster	Humanoid	Forgotten Realms: Adventures in Faerûn	2024 fifth edition	Wizards of the Coast		8
+@@ -7148,6 +7149,7 @@
+ Olara	monster	Humanoid	Critical Role: Call of the Netherdeep	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/2407559-olara	1/2
+ Old Croaker	beast	Beast	Explorer's Guide to Wildemount	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/744327-old-croaker	1
+ Old Troglodyte	monster	Humanoid	Waterdeep: Dungeon of the Mad Mage	2014 fifth edition	Wizards of the Coast		1/8
++Olhund	beast	Beast	Dungeons & Doggos: Dig in the Dirt with a Dwarf's Best Friends	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/dungeons-doggos-dig-in-the-dirt-with-a-dwarfs-best-friends-may-6-2026/#h-olhund-guardian-ale-hound	1
+ Olhydra	monster	Elemental	Princes of the Apocalypse	2014 fifth edition	Wizards of the Coast		18
+ Oliphant	beast		The Land Beyond the Magic Mirror	AD&D 1st edition	TSR		
+ Oliphant Warbeast	beast	Beast	Player's Guide 2	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/tools/search-tov-kobold-press-monsters/	6.0
+@@ -7383,6 +7385,7 @@
+ Pegasus	monster	Large Celestial (Animal)	Black Flag Roleplaying Reference Document v0.2	Black Flag Roleplaying	Kobold Press		2
+ Pelyious Avhoste	monster	Humanoid	Minsc and Boo's Journal of Villainy	2014 fifth edition	Wizards of the Coast		9
+ Pendragon Beestinger	monster	Humanoid	Acquisitions Incorporated	2014 fifth edition	Wizards of the Coast		2
++Pennig	beast	Beast	Dungeons & Doggos: Loyal Dogs of the Halflings and Gnomes	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/dungeons-doggos-loyal-dogs-of-the-halflings-and-gnomes-july-10-2026/#h-pennig-riding-hound	1/2
+ Pentadrone	monster	Construct	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17179-pentadrone	2
+ Pentadrone	monster	Construct	Planescape: Adventures in the Multiverse	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17179-pentadrone	2
+ Pentadrone	monster	Construct	Tomb of Annihilation	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17179-pentadrone	2
+@@ -9044,6 +9047,7 @@
+ Stonemelder	monster	Humanoid	Princes of the Apocalypse	2014 fifth edition	Wizards of the Coast		4
+ Stonemelder Edo	monster	Humanoid	DDEP2 - Mulmaster Undone V2	2014 fifth edition	Wizards of the Coast		4
+ Stool	monster	Plant	Out of the Abyss	2014 fifth edition	Wizards of the Coast		0
++Storgin	beast	Beast	Dungeons & Doggos: Loyal Dogs of the Halflings and Gnomes	Black Flag Roleplaying	Kobold Press	https://koboldpress.com/dungeons-doggos-loyal-dogs-of-the-halflings-and-gnomes-july-10-2026/#h-storgin-stone-eaters	1/4
+ Storm Crab	monster	Monstrosity	Bigby Presents: Glory of the Giants	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/3731052-storm-crab	11
+ Storm Giant	monster	Giant	Monster Manual (2014)	2014 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/17026-storm-giant	13
+ Storm Giant	monster	Giant	Monster Manual (2024)	2024 fifth edition	Wizards of the Coast	https://www.dndbeyond.com/monsters/5195221-storm-giant	13

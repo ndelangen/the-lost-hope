@@ -1,0 +1,385 @@
+[
+  {
+    "name": "Adult Gold Dragon",
+    "statBlock": {
+      "name": "Adult Gold Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge dragon, lawful good",
+      "ac": 19,
+      "hp": 256,
+      "hitDice": "19d12 + 133",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 24
+        }
+      },
+      "savingThrows": {
+        "Dex": 8,
+        "Con": 13,
+        "Wis": 8,
+        "Cha": 13
+      },
+      "skills": {
+        "Insight": 8,
+        "Perception": 14,
+        "Persuasion": 13,
+        "Stealth": 8
+      },
+      "cr": "17",
+      "xp": 18000,
+      "passivePerception": 24,
+      "description": "This dragon's sweeping whiskers and long sail-like wings give it a rippling flight. Gold dragons guard their privacy and sometimes help strangers while disguised.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Amphibious. The dragon can breathe air and water.\nLegendary Resistance (3/day). The dragon can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. The dragon may first use Frightful Presence. It then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +14 to hit, reach 10 ft., one target. Hit 19 (2d10 + 8) piercing damage.\nClaw. Melee weapon attack, +14 to hit, reach 5 ft., one target. Hit 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack, +14 to hit, reach 15 ft., one target. Hit 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the dragon. Each makes a DC 21 Wisdom save or becomes Frightened for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.\nBreath Weapons (recharge 5–6). Use one of the following breaths.\nFire Breath. Each creature in a 60-ft. cone makes a DC 21 Dexterity save. Failure deals 66 (12d10) fire damage. Success halves it.\nWeakening Breath. Each creature in a 60-ft. cone makes a DC 21 Strength save. A creature that fails has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.\nChange Shape. The dragon magically changes into a humanoid or beast of its CR or lower or returns to dragon form. It returns to dragon form on death. The dragon chooses whether its equipment merges into the form or stays with it. In the new form, it keeps its alignment, hit points, Hit Dice, speech, proficiencies, Legendary Resistance, lair actions, Intelligence, Wisdom, Charisma, and this action. Use the form's other statistics and capabilities. The dragon gains none of the form's class features, legendary actions, lair actions, or regional effects.",
+        "Legendary actions": "The dragon has 3 legendary actions. Spend them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 22 Dexterity save. On a failure it takes 15 (2d6 + 8) bludgeoning damage and falls Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "While in its lair, the dragon can choose one option on initiative count 20, after other creatures on that count. It can't take a lair action while Incapacitated or otherwise unable to act. If surprised, it must first finish its first turn. It can't pick the same option in consecutive rounds.\nForesight. The dragon has advantage on attack rolls, ability checks, and saving throws until the next round's initiative count 20.\nDream Banishment. One creature the dragon can see within 120 ft. makes a DC 15 Charisma save. On a failure it is banished to a dream plane the dragon imagines. The creature can use its action to make a Charisma check contested by the dragon's, escaping if it wins. The banishment also ends on the next round's initiative count 20. The creature returns to the space it left or the nearest unoccupied space if that space is occupied.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nDream Visitors. Within 6 miles of its lair, the dragon can speak telepathically in the dreams of a creature that understands a language and sleeps, trances, or enters reverie. The creature recalls the conversation on waking.\nWarning Mist. Within 6 miles of the lair, opalescent mist doesn't obscure vision. If evil creatures approach the dragon or non-evil creatures in the mist, the mist takes eerie shapes as a warning.\nGlowing Valuables. Gems and pearls within 1 mile of the lair cast dim light to 5 ft.\nAll these effects end immediately when the dragon dies.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose 7 spells of 5th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 21 and its spell attack bonus is +13. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 11, 86, 114, and 115."
+      }
+    }
+  },
+  {
+    "name": "Ancient Gold Dragon",
+    "statBlock": {
+      "name": "Ancient Gold Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, lawful good",
+      "ac": 22,
+      "hp": 546,
+      "hitDice": "28d20 + 252",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 17
+        },
+        "Cha": {
+          "score": 28
+        }
+      },
+      "savingThrows": {
+        "Dex": 9,
+        "Con": 16,
+        "Wis": 10,
+        "Cha": 16
+      },
+      "skills": {
+        "Insight": 10,
+        "Perception": 17,
+        "Persuasion": 16,
+        "Stealth": 9
+      },
+      "cr": "24",
+      "xp": 62000,
+      "passivePerception": 27,
+      "description": "This dragon's sweeping whiskers and long sail-like wings give it a rippling flight. Gold dragons guard their privacy and sometimes help strangers while disguised.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Amphibious. The dragon can breathe air and water.\nLegendary Resistance (3/day). The dragon can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. The dragon may first use Frightful Presence. It then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +17 to hit, reach 15 ft., one target. Hit 21 (2d10 + 10) piercing damage.\nClaw. Melee weapon attack, +17 to hit, reach 10 ft., one target. Hit 17 (2d6 + 10) slashing damage.\nTail. Melee weapon attack, +17 to hit, reach 20 ft., one target. Hit 19 (2d8 + 10) bludgeoning damage.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the dragon. Each makes a DC 24 Wisdom save or becomes Frightened for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.\nBreath Weapons (recharge 5–6). Use one of the following breaths.\nFire Breath. Each creature in a 90-ft. cone makes a DC 24 Dexterity save. Failure deals 71 (13d10) fire damage. Success halves it.\nWeakening Breath. Each creature in a 90-ft. cone makes a DC 24 Strength save. A creature that fails has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.\nChange Shape. The dragon magically changes into a humanoid or beast of its CR or lower or returns to dragon form. It returns to dragon form on death. The dragon chooses whether its equipment merges into the form or stays with it. In the new form, it keeps its alignment, hit points, Hit Dice, speech, proficiencies, Legendary Resistance, lair actions, Intelligence, Wisdom, Charisma, and this action. Use the form's other statistics and capabilities. The dragon gains none of the form's class features, legendary actions, lair actions, or regional effects.",
+        "Legendary actions": "The dragon has 3 legendary actions. Spend them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 15 ft. makes a DC 25 Dexterity save. On a failure it takes 17 (2d6 + 10) bludgeoning damage and falls Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "While in its lair, the dragon can choose one option on initiative count 20, after other creatures on that count. It can't take a lair action while Incapacitated or otherwise unable to act. If surprised, it must first finish its first turn. It can't pick the same option in consecutive rounds.\nForesight. The dragon has advantage on attack rolls, ability checks, and saving throws until the next round's initiative count 20.\nDream Banishment. One creature the dragon can see within 120 ft. makes a DC 15 Charisma save. On a failure it is banished to a dream plane the dragon imagines. The creature can use its action to make a Charisma check contested by the dragon's, escaping if it wins. The banishment also ends on the next round's initiative count 20. The creature returns to the space it left or the nearest unoccupied space if that space is occupied.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nDream Visitors. Within 6 miles of its lair, the dragon can speak telepathically in the dreams of a creature that understands a language and sleeps, trances, or enters reverie. The creature recalls the conversation on waking.\nWarning Mist. Within 6 miles of the lair, opalescent mist doesn't obscure vision. If evil creatures approach the dragon or non-evil creatures in the mist, the mist takes eerie shapes as a warning.\nGlowing Valuables. Gems and pearls within 1 mile of the lair cast dim light to 5 ft.\nAll these effects end immediately when the dragon dies.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose 9 spells of 8th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 24 and its spell attack bonus is +16. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 11, 86, 113, and 115. The official errata corrects the XP to 62,000."
+      }
+    }
+  },
+  {
+    "name": "Young Gold Dragon",
+    "statBlock": {
+      "name": "Young Gold Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, lawful good",
+      "ac": 18,
+      "hp": 178,
+      "hitDice": "17d10 + 85",
+      "speed": "40 ft., fly 80 ft., swim 40 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 14
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 20
+        }
+      },
+      "savingThrows": {
+        "Dex": 6,
+        "Con": 9,
+        "Wis": 5,
+        "Cha": 9
+      },
+      "skills": {
+        "Insight": 5,
+        "Perception": 9,
+        "Persuasion": 9,
+        "Stealth": 6
+      },
+      "cr": "10",
+      "xp": 5900,
+      "passivePerception": 19,
+      "description": "This dragon's sweeping whiskers and long sail-like wings give it a rippling flight. Gold dragons guard their privacy and sometimes help strangers while disguised.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Fire.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Amphibious. The dragon can breathe air and water.",
+        "Actions": "Multiattack. The dragon makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 17 (2d10 + 6) piercing damage.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing damage.\nBreath Weapons (recharge 5–6). Use one of the following breaths.\nFire Breath. Each creature in a 30-ft. cone makes a DC 17 Dexterity save. Failure deals 55 (10d10) fire damage. Success halves it.\nWeakening Breath. Each creature in a 30-ft. cone makes a DC 17 Strength save. A creature that fails has disadvantage on Strength-based attack rolls, Strength checks, and Strength saves for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose 5 spells of 3rd level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 17 and its spell attack bonus is +9. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86 and 115."
+      }
+    }
+  },
+  {
+    "name": "Adult Silver Dragon",
+    "statBlock": {
+      "name": "Adult Silver Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Huge dragon, lawful good",
+      "ac": 19,
+      "hp": 243,
+      "hitDice": "18d12 + 126",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 27
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 25
+        },
+        "Int": {
+          "score": 16
+        },
+        "Wis": {
+          "score": 13
+        },
+        "Cha": {
+          "score": 21
+        }
+      },
+      "savingThrows": {
+        "Dex": 5,
+        "Con": 12,
+        "Wis": 6,
+        "Cha": 10
+      },
+      "skills": {
+        "Arcana": 8,
+        "History": 8,
+        "Perception": 11,
+        "Stealth": 5
+      },
+      "cr": "16",
+      "xp": 15000,
+      "passivePerception": 21,
+      "description": "This dragon's high frill and chin spikes frame a gleaming silver face. Silver dragons befriend humanoids and collect relics of their history.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (3/day). The dragon can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. The dragon may first use Frightful Presence. It then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +13 to hit, reach 10 ft., one target. Hit 19 (2d10 + 8) piercing damage.\nClaw. Melee weapon attack, +13 to hit, reach 5 ft., one target. Hit 15 (2d6 + 8) slashing damage.\nTail. Melee weapon attack, +13 to hit, reach 15 ft., one target. Hit 17 (2d8 + 8) bludgeoning damage.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the dragon. Each makes a DC 18 Wisdom save or becomes Frightened for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.\nBreath Weapons (recharge 5–6). Use one of the following breaths.\nCold Breath. Each creature in a 60-ft. cone makes a DC 20 Constitution save. Failure deals 58 (13d8) cold damage. Success halves it.\nParalyzing Breath. Each creature in a 60-ft. cone makes a DC 20 Constitution save or becomes Paralyzed for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.\nChange Shape. The dragon magically changes into a humanoid or beast of its CR or lower or returns to dragon form. It returns to dragon form on death. The dragon chooses whether its equipment merges into the form or stays with it. In the new form, it keeps its alignment, hit points, Hit Dice, speech, proficiencies, Legendary Resistance, lair actions, Intelligence, Wisdom, Charisma, and this action. Use the form's other statistics and capabilities. The dragon gains none of the form's class features, legendary actions, lair actions, or regional effects.",
+        "Legendary actions": "The dragon has 3 legendary actions. Spend them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 10 ft. makes a DC 21 Dexterity save. On a failure it takes 15 (2d6 + 8) bludgeoning damage and falls Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "While in its lair, the dragon can choose one option on initiative count 20, after other creatures on that count. It can't take a lair action while Incapacitated or otherwise unable to act. If surprised, it must first finish its first turn.\nFog. Create fog using the Fog Cloud spell's rules. It lasts until the next round's initiative count 20.\nFreezing Wind. Each creature within 120 ft. of the dragon makes a DC 15 Constitution save. On a failure it takes 5 (1d10) cold damage. The wind disperses gases and vapors and snuffs exposed flames. Each protected flame, such as a lantern, has a 50 percent chance of going out.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nWeather. Once per day the dragon can use the effects of Control Weather within 6 miles of its lair, even indoors.\nBuoyant Winds. Within 1 mile of the lair, non-evil creatures that fall through no act of the dragon or its allies descend 60 ft. per round and take no falling damage.\nSolid Fog. After days or longer of work, the dragon can make clouds and fog in the lair as solid as stone to form objects or structures.\nWhen the dragon dies, weather changes revert as described in Control Weather. The other effects fade in 1d10 days.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose 5 spells of 5th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 18 and its spell attack bonus is +10. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 11, 86, 117, and 118."
+      }
+    }
+  },
+  {
+    "name": "Ancient Silver Dragon",
+    "statBlock": {
+      "name": "Ancient Silver Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Gargantuan dragon, lawful good",
+      "ac": 22,
+      "hp": 487,
+      "hitDice": "25d20 + 225",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 30
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 29
+        },
+        "Int": {
+          "score": 18
+        },
+        "Wis": {
+          "score": 15
+        },
+        "Cha": {
+          "score": 23
+        }
+      },
+      "savingThrows": {
+        "Dex": 7,
+        "Con": 16,
+        "Wis": 9,
+        "Cha": 13
+      },
+      "skills": {
+        "Arcana": 11,
+        "History": 11,
+        "Perception": 16,
+        "Stealth": 7
+      },
+      "cr": "23",
+      "xp": 50000,
+      "passivePerception": 26,
+      "description": "This dragon's high frill and chin spikes frame a gleaming silver face. Silver dragons befriend humanoids and collect relics of their history.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 60 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Traits": "Legendary Resistance (3/day). The dragon can turn a failed saving throw into a success.",
+        "Actions": "Multiattack. The dragon may first use Frightful Presence. It then makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +17 to hit, reach 15 ft., one target. Hit 21 (2d10 + 10) piercing damage.\nClaw. Melee weapon attack, +17 to hit, reach 10 ft., one target. Hit 17 (2d6 + 10) slashing damage.\nTail. Melee weapon attack, +17 to hit, reach 20 ft., one target. Hit 19 (2d8 + 10) bludgeoning damage.\nFrightful Presence. Choose any creatures within 120 ft. that are aware of the dragon. Each makes a DC 21 Wisdom save or becomes Frightened for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success. A creature that saves or whose fear ends gains immunity to this dragon's Frightful Presence for 24 hours.\nBreath Weapons (recharge 5–6). Use one of the following breaths.\nCold Breath. Each creature in a 90-ft. cone makes a DC 24 Constitution save. Failure deals 67 (15d8) cold damage. Success halves it.\nParalyzing Breath. Each creature in a 90-ft. cone makes a DC 24 Constitution save or becomes Paralyzed for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.\nChange Shape. The dragon magically changes into a humanoid or beast of its CR or lower or returns to dragon form. It returns to dragon form on death. The dragon chooses whether its equipment merges into the form or stays with it. In the new form, it keeps its alignment, hit points, Hit Dice, speech, proficiencies, Legendary Resistance, lair actions, Intelligence, Wisdom, Charisma, and this action. Use the form's other statistics and capabilities. The dragon gains none of the form's class features, legendary actions, lair actions, or regional effects.",
+        "Legendary actions": "The dragon has 3 legendary actions. Spend them one option at a time at the end of another creature's turn. It regains them at the start of its turn. It can't use them while Incapacitated or otherwise unable to act, or while surprised until it finishes its first turn.\nDetect (1 action). Make a Wisdom (Perception) check.\nTail Attack (1 action). Make a Tail attack.\nWing Attack (2 actions). Each creature within 15 ft. makes a DC 25 Dexterity save. On a failure it takes 17 (2d6 + 10) bludgeoning damage and falls Prone. The dragon can then fly up to half its flying speed.",
+        "Lair actions": "While in its lair, the dragon can choose one option on initiative count 20, after other creatures on that count. It can't take a lair action while Incapacitated or otherwise unable to act. If surprised, it must first finish its first turn.\nFog. Create fog using the Fog Cloud spell's rules. It lasts until the next round's initiative count 20.\nFreezing Wind. Each creature within 120 ft. of the dragon makes a DC 15 Constitution save. On a failure it takes 5 (1d10) cold damage. The wind disperses gases and vapors and snuffs exposed flames. Each protected flame, such as a lantern, has a 50 percent chance of going out.",
+        "Regional effects": "Choose one or more of these effects around the lair.\nWeather. Once per day the dragon can use the effects of Control Weather within 6 miles of its lair, even indoors.\nBuoyant Winds. Within 1 mile of the lair, non-evil creatures that fall through no act of the dragon or its allies descend 60 ft. per round and take no falling damage.\nSolid Fog. After days or longer of work, the dragon can make clouds and fog in the lair as solid as stone to form objects or structures.\nWhen the dragon dies, weather changes revert as described in Control Weather. The other effects fade in 1d10 days.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose 6 spells of 7th level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 21 and its spell attack bonus is +13. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 11, 86, 116, and 118. The official errata corrects the XP to 50,000."
+      }
+    }
+  },
+  {
+    "name": "Young Silver Dragon",
+    "statBlock": {
+      "name": "Young Silver Dragon",
+      "publication": "Monster Manual (2014)",
+      "edition": "2014 fifth edition",
+      "classification": "Large dragon, lawful good",
+      "ac": 18,
+      "hp": 168,
+      "hitDice": "16d10 + 80",
+      "speed": "40 ft., fly 80 ft.",
+      "abilities": {
+        "Str": {
+          "score": 23
+        },
+        "Dex": {
+          "score": 10
+        },
+        "Con": {
+          "score": 21
+        },
+        "Int": {
+          "score": 14
+        },
+        "Wis": {
+          "score": 11
+        },
+        "Cha": {
+          "score": 19
+        }
+      },
+      "savingThrows": {
+        "Dex": 4,
+        "Con": 9,
+        "Wis": 4,
+        "Cha": 8
+      },
+      "skills": {
+        "Arcana": 6,
+        "History": 6,
+        "Perception": 8,
+        "Stealth": 4
+      },
+      "cr": "9",
+      "xp": 5000,
+      "passivePerception": 18,
+      "description": "This dragon's high frill and chin spikes frame a gleaming silver face. Silver dragons befriend humanoids and collect relics of their history.",
+      "rulesOrigin": "printed-rules-summary",
+      "overridesIndexedRules": true,
+      "preserveIndexedReferences": true,
+      "sections": {
+        "Armor class notes": "Natural armor.",
+        "Damage immunities": "Cold.",
+        "Senses": "Blindsight 30 ft., darkvision 120 ft.",
+        "Languages": "Common, Draconic.",
+        "Actions": "Multiattack. The dragon makes one Bite and two Claw attacks.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 17 (2d10 + 6) piercing damage.\nClaw. Melee weapon attack, +10 to hit, reach 5 ft., one target. Hit 13 (2d6 + 6) slashing damage.\nBreath Weapons (recharge 5–6). Use one of the following breaths.\nCold Breath. Each creature in a 30-ft. cone makes a DC 17 Constitution save. Failure deals 54 (12d8) cold damage. Success halves it.\nParalyzing Breath. Each creature in a 30-ft. cone makes a DC 17 Constitution save or becomes Paralyzed for 1 minute. An affected creature repeats the save at the end of each of its turns, ending the effect on a success.",
+        "Variant spellcasting": "Under the optional dragon spellcasting rule, choose 4 spells of 3rd level or lower. The dragon uses Charisma to cast each once per day without material components. Its spell save DC is 16 and its spell attack bonus is +8. The DM chooses the spells.",
+        "Printed source": "Monster Manual (2014), pp. 86 and 118."
+      }
+    }
+  }
+]

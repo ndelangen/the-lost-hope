@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Ki-rin",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "rulesReadUrl": "",
+    "printedPages": [
+      45
+    ],
+    "heading": "Ki-rin Traits",
+    "version": "Published sequel text, full-text mirror. No revision number shown in the consulted text.",
+    "provenance": "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+    "creatureType": "Celestial",
+    "sourceDistinctions": "The player block omits poison resilience, which appears in design commentary. Tavir uses 2014 Draconic Resilience for armor class and hit points.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Korred",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "rulesReadUrl": "",
+    "printedPages": [
+      46,
+      47
+    ],
+    "heading": "Korred Traits and the Control Hair continuation",
+    "version": "Published sequel text, full-text mirror. No revision number shown in the consulted text.",
+    "provenance": "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+    "creatureType": "Fey",
+    "sourceDistinctions": "The trait block gives Medium size, walking speed and no burrow speed. The description and commentary call the korred small and discuss burrowing. Reva uses the trait block. The printed Rock trait leaves ordinary improvised-weapon proficiency and damage-modifier details to the table.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Leucrotta",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "rulesReadUrl": "",
+    "printedPages": [
+      48
+    ],
+    "heading": "Leucrotta Traits",
+    "version": "Published sequel text, full-text mirror. No revision number shown in the consulted text.",
+    "provenance": "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+    "creatureType": "Monstrosity",
+    "sourceDistinctions": "The printed Languages sentence stops before naming any languages. Neral learns Common and Abyssal through the custom background. Design commentary discusses the lack of hands. This quadrupedal NPC carries no grasp-dependent gear.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Meenlock",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "rulesReadUrl": "",
+    "printedPages": [
+      49
+    ],
+    "heading": "Meenlock Traits",
+    "version": "Published sequel text, full-text mirror. No revision number shown in the consulted text.",
+    "provenance": "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+    "creatureType": "Fey",
+    "sourceDistinctions": "The design discussion mentions natural armor, but the final trait block gives no formula. Orr uses ordinary unarmored AC. The Meenlock lineage explicitly marks the claw as finesse for Sneak Attack. Its printed language restriction still bars voice and verbal spell components.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  },
+  {
+    "name": "Mindwitness",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "url": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "rulesReadUrl": "",
+    "printedPages": [
+      53,
+      54,
+      97
+    ],
+    "heading": "Mindwitness Traits, Mind Spike, and Spook",
+    "version": "Published sequel text, full-text mirror. No revision number shown in the consulted text.",
+    "provenance": "Tyler Kamstra’s player conversion for 2014 fifth edition, published through Dungeon Masters Guild.",
+    "creatureType": "Aberration",
+    "sourceDistinctions": "The lineage names the supplement’s own Mind Spike enchantment cantrip on p. 97. Ixel uses that cantrip with an Intelligence save and 1d6 psychic damage. This scope is separate from other spells and from the Beholder lineage. Ixel cannot cast while raging.",
+    "supportingSources": {
+      "classes": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+      "equipment": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+      "backgrounds": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+      "combat": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+      "spells": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/spells"
+    }
+  }
+]

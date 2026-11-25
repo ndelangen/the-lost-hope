@@ -1,0 +1,239 @@
+{
+  "builds": [
+    {
+      "id": "eg-kesh-neril-fel-tivaran",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Star Kesh survey pilot, Specialist 1",
+      "difficulty": "Specialist 1",
+      "ac": 14,
+      "hp": 9,
+      "hitDice": "1d8+1",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 13.",
+      "languages": "Common, Keshian, Dendusi.",
+      "abilityScores": {
+        "STR": 8,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 16,
+        "WIS": 13,
+        "CHA": 10
+      },
+      "skills": [
+        "Astrophysics +7",
+        "Computers +5",
+        "Insight +3",
+        "Investigation +7",
+        "Perception +3",
+        "Stealth +7",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +5 and Burst Save +5. Armor Jacket gives AC 11 + Dexterity 3.",
+        "Specialist skills are Computers, Investigation, Perception and Stealth. Natural Aptitude doubles proficiency in Investigation and Stealth. Pilot grants Astrophysics, Insight, planetary and space vehicle proficiency and Knowing the Craft.",
+        "Expert Explorer gives Survival. Star Kesh Space Science doubles the Astrophysics proficiency from Pilot. Crewmember Training grants shipwright’s tools. Specialist also grants infiltration tools.",
+        "Deft Strike adds 1d6 damage once per turn to a finesse or ranged hit made with advantage. It also applies without advantage if the target has another active enemy within 5 ft. and the attack has no disadvantage.",
+        "Shadownet ID grants a personal identity and codes for restricted parts of the Silrayne Intergalactic Matrix."
+      ],
+      "actions": [
+        "Light pistol. Ranged weapon attack +5 at 50/150 ft., 1d6+3 piercing. Uses one round per shot, 15 rounds loaded.",
+        "Combat knife. Melee or ranged weapon attack +5, reach 5 ft. or thrown 20/60 ft., 1d4+3 piercing.",
+        "Minor Alteration (action, once per long rest). For 1 hour, visually disguise self and carried gear without changing basic anatomy or black eyes. Apparent height may shift by up to 1 ft. Touch reveals a mismatch. An observer can examine it with an action and a DC 10 Intelligence (Investigation) check. This build uses Charisma to set that DC.",
+        "Memory Meld (action, once per long rest). Use shared vision with concentration for up to 1 minute. Up to four willing creatures within 10 ft. experience a memory up to 30 days old and up to 1 minute long. Relevant sight, sound or smell Perception checks gain advantage while it lasts. Once it ends, the same creatures cannot receive this kesh’s shared vision for 24 hours."
+      ],
+      "tactics": "Neril shares the last view of a jammed airlock with the repair crew. If an armed patrol appears, Neril uses cover and looks for an exit, firing only to buy time for the others."
+    },
+    {
+      "id": "eg-matokai-rubakai-kothira",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Stonefang Matokai gate guard, Warrior 2",
+      "difficulty": "Warrior 2",
+      "ac": 17,
+      "hp": 22,
+      "hitDice": "2d10+6",
+      "initiative": 0,
+      "senses": "Passive Perception 11.",
+      "languages": "Common, Matokai, Bahtera.",
+      "abilityScores": {
+        "STR": 16,
+        "DEX": 10,
+        "CON": 16,
+        "INT": 8,
+        "WIS": 13,
+        "CHA": 12
+      },
+      "skills": [
+        "Athletics +5",
+        "Insight +3",
+        "Intimidation +3",
+        "Survival +3"
+      ],
+      "traits": [
+        "Proficiency +2. Strength and Constitution saves +5 each. Burst Save +0. Heavy Trooper armor gives AC 16 and Strength 16 meets its Strength 13 requirement. Defense adds +1 AC. Armor imposes disadvantage on Stealth.",
+        "Warrior grants Insight and Intimidation. Soldier grants Athletics, Survival, planetary vehicles and Fellow at Arms.",
+        "Rubakai makes one attack per Attack action. The greataxe needs two hands only when used to attack. The axe uses the published greataxe statistics."
+      ],
+      "actions": [
+        "Greataxe. Melee weapon attack +5 to hit, reach 5 ft., 1d12+3 slashing. Heavy and two-handed.",
+        "Claws. Unarmed melee attack +5 to hit, reach 5 ft., 1d4+3 slashing.",
+        "Stone Scale (bonus action, once per short or long rest). Gain resistance to bludgeoning, piercing and slashing until the start of Rubakai’s next turn.",
+        "Second Wind (bonus action, once per short or long rest). Regain 1d10+2 HP, or remove one point of exhaustion.",
+        "Action Surge (once per short or long rest). Take one additional action on this turn, such as an Attack action or a Dash to reach the gate."
+      ],
+      "tactics": "Rubakai calls for the evacuees to duck behind the armored door before closing. Save Stone Scale for the round the gate must stay open under attack."
+    },
+    {
+      "id": "eg-promethean-soreva-vantoris",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft.",
+      "title": "Fire-Blooded Promethean extractor, Specialist 2",
+      "difficulty": "Specialist 2",
+      "ac": 14,
+      "hp": 15,
+      "hitDice": "2d8+2",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 12.",
+      "languages": "Common, Terran, ALOMU, Matokai.",
+      "abilityScores": {
+        "STR": 14,
+        "DEX": 16,
+        "CON": 12,
+        "INT": 15,
+        "WIS": 10,
+        "CHA": 8
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +4",
+        "Computers +4",
+        "Investigation +6",
+        "Mechanics +4",
+        "Perception +2"
+      ],
+      "traits": [
+        "Proficiency +2. Dexterity save +5, Intelligence save +4 and Burst Save +5. Armor Jacket gives AC 11 + Dexterity 3.",
+        "Specialist grants Acrobatics, Athletics, Investigation, Perception and infiltration tools. Natural Aptitude doubles Investigation and Mechanics proficiency. Techie grants Computers, Mechanics, a hacker’s kit and Industry Professional. Mechanics normally uses Wisdom in Esper Genesis.",
+        "Fire-Blooded gives advantage on poison and disease saves and resistance to poison damage. Maximum Effort doubles proficiency for one Athletics or Acrobatics check per long rest, for +6 Athletics or +7 Acrobatics.",
+        "Deft Strike adds 1d6 damage once per turn to a finesse or ranged hit made with advantage. It also applies without advantage if the target has another active enemy within 5 ft. and the attack has no disadvantage.",
+        "Shadownet ID grants a personal identity and codes for restricted parts of the Silrayne Intergalactic Matrix."
+      ],
+      "actions": [
+        "Shortblade. Melee weapon attack +5 to hit, reach 5 ft., 1d6+3 piercing. Finesse and light.",
+        "Light pistol. Ranged weapon attack +5 at 50/150 ft., 1d6+3 piercing. Uses one round per shot, 15 rounds loaded.",
+        "Cunning Action. On each turn in combat, Soreva can use a bonus action to Dash, Disengage or Hide."
+      ],
+      "tactics": "Soreva seals the sample case and frees a hand before moving through danger. Use Maximum Effort on the warped door or unstable gantry. In a fight, Disengage and get the case behind cover."
+    },
+    {
+      "id": "eg-valna-alsha-latchstep",
+      "origin": "Original DM Library NPC",
+      "editions": [
+        "Fifth edition compatible"
+      ],
+      "size": "Medium",
+      "type": "Humanoid",
+      "speed": "30 ft., climb 20 ft.",
+      "title": "Valna defensive tracker, Hunter 1",
+      "difficulty": "Hunter 1",
+      "ac": 15,
+      "hp": 11,
+      "hitDice": "1d10+1",
+      "initiative": 3,
+      "senses": "Darkvision 60 ft., passive Perception 15.",
+      "languages": "Common, Valna.",
+      "abilityScores": {
+        "STR": 12,
+        "DEX": 16,
+        "CON": 13,
+        "INT": 8,
+        "WIS": 16,
+        "CHA": 10
+      },
+      "skills": [
+        "Acrobatics +5",
+        "Athletics +3",
+        "Insight +5 (+7 for mood or attitude)",
+        "Perception +5",
+        "Stealth +5",
+        "Survival +5",
+        "Xenobiology +1"
+      ],
+      "traits": [
+        "Proficiency +2. Strength save +3, Dexterity save +5 and Burst Save +5. Military Jacket gives AC 13 + 2 from Dexterity. It is medium armor, so it permits the valna climb speed.",
+        "Hunter grants Acrobatics, Insight, Xenobiology and planetary vehicle proficiency. Soldier grants Athletics, Survival, space vehicle proficiency and Fellow at Arms. Valna training grants Perception and Stealth.",
+        "Expert Wayfarer ignores difficult terrain, gives advantage on initiative and gives advantage on first-turn attacks against creatures that have not acted. Once traveling in an area for at least an hour, the group ignores difficult terrain and cannot get lost by mundane means. Alsha stays alert while doing other travel tasks, can move stealthily at normal pace alone, knows the level of a multi-floor location and reads the number, sizes and timing of tracks.",
+        "Know Your Target selects beasts. Roll Perception and Survival with advantage to track beasts, Deception and Intimidation with advantage when dealing with them, and Stealth with advantage to hide from them. Use Lore or Xenobiology +3 to recall facts about beasts. Alsha can change the quarry on a long rest."
+      ],
+      "actions": [
+        "Claws. Unarmed melee attack +3 to hit, reach 5 ft., 1d4+1 slashing.",
+        "Shortblade. Melee weapon attack +5 to hit, reach 5 ft., 1d6+3 piercing. Finesse and light.",
+        "Autopistol. Ranged weapon attack +5 at 60/300 ft., 1d6+3 piercing. For a burst, choose a 10-ft. cube within 60 ft. Each creature in it makes a DC 13 Burst Save or takes 1d6 piercing. Only one burst per turn. Bursting within 5 ft. of a hostile creature that can see Alsha and is able to act provokes its opportunity attack, and targets gain advantage on the Burst Save. After two bursts, allow a full round for the clip to replenish or replace the clip with a free hand as an action or bonus action.",
+        "Disengage (action). Add 10 ft. of movement in any direction. Alsha’s movement cannot provoke opportunity attacks for the rest of that turn."
+      ],
+      "tactics": "Alsha looks for a frightened animal’s escape route before drawing a weapon. Climb above the herd or Disengage across rough ground to keep pressure off the civilians. The pistol stays stowed if a knife and distance will do."
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Neril fel Tivaran",
+      "species": "Kesh",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "eg-kesh-neril-fel-tivaran",
+      "role": "Star Kesh survey pilot guiding salvage crews along unlit docking arms.",
+      "motive": "Find the worker who stopped transmitting before the airlock jammed.",
+      "hook": "Neril saw the missing worker enter a maintenance chase and can share the memory. There is no chase on the station plans."
+    },
+    {
+      "name": "Rubakai Kothira",
+      "species": "Matokai",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "eg-matokai-rubakai-kothira",
+      "role": "Stonefang guard holding a freight gate open during an evacuation.",
+      "motive": "Get a former rival and their crew through the gate before it seals.",
+      "hook": "A jam leaves the gate open for one more load. Rubakai asks the group to make sure nobody gets left past the threshold."
+    },
+    {
+      "name": "Soreva Vantoris",
+      "species": "Promethean",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "eg-promethean-soreva-vantoris",
+      "role": "Fire-Blooded extraction specialist carrying a failed filter’s sample case.",
+      "motive": "Prove that the filter that poisoned her shift came from a recycled lot.",
+      "hook": "A recovery crew has orders to seize the sample case. Soreva knows a service route around the checkpoint."
+    },
+    {
+      "name": "Alsha Latchstep",
+      "species": "Valna",
+      "size": "Medium",
+      "speciesPublication": "Esper Genesis Core Manual (2018)",
+      "edition": "Fifth edition compatible",
+      "build": "eg-valna-alsha-latchstep",
+      "role": "Trail scout tracking injured wildlife through a sealed habitat.",
+      "motive": "Move a frightened herd away from a repair crew without losing another animal.",
+      "hook": "The herd crossed a pressure boundary the habitat computer insists was closed. Alsha wants someone to keep the door clear while she follows the tracks."
+    }
+  ]
+}

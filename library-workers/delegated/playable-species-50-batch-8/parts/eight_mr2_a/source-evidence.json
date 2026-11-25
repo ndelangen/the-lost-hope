@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Banderhobb",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "printedPages": [
+      7
+    ],
+    "page": "DMs Guild preview, p. 7, Banderhobb Traits",
+    "sourceDistinctions": [
+      "The DMs Guild preview's viewer page 5 is printed p. 7. The mirror agrees on the player trait block.",
+      "Tongue has a separate action and deals unarmed strike damage as necrotic. The build uses Strength and applies Rage because the trait calls for a melee weapon attack."
+    ],
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "npcExamples": [
+      "Mirehook"
+    ]
+  },
+  {
+    "name": "Bodak",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Undead",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "printedPages": [
+      14
+    ],
+    "page": "Printed text mirror, p. 14, Bodak Traits",
+    "sourceDistinctions": [
+      "The published Death Gaze explicitly calculates the DC using Constitution and also calls Charisma the spellcasting ability. The build follows the explicit DC formula. Death Gaze has no spell attack roll.",
+      "The supplement permits healing from rests and leaves spell healing to each spell's target rules."
+    ],
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "npcExamples": [
+      "Harrow Pell"
+    ]
+  },
+  {
+    "name": "Boggle",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Fey",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "printedPages": [
+      15
+    ],
+    "page": "Printed text mirror, p. 15, Boggle Traits",
+    "sourceDistinctions": [
+      "The Dimensional Rift trait gives no recharge limit. The once-per-day proposal is in Design Notes. Use the printed action, frame and distance limits.",
+      "Both oil choices and their puddle effects use the same profile. The puddle's DC uses Constitution."
+    ],
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "npcExamples": [
+      "Puddlepin"
+    ]
+  },
+  {
+    "name": "Catoblepas",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "printedPages": [
+      16
+    ],
+    "page": "Printed text mirror, p. 16, Catoblepas Traits",
+    "sourceDistinctions": [
+      "The printed player profile assigns independent Intelligence and Constitution DCs for Death Ray and Stench.",
+      "The design notes explain why the tail's monster stun does not appear in the player trait block. The build uses the printed 1d8 tail."
+    ],
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "npcExamples": [
+      "Sedge-Eye"
+    ]
+  },
+  {
+    "name": "Cave Fisher",
+    "publication": "Monstrous Races 2",
+    "edition": "Fifth edition compatible (2014 rules)",
+    "kind": "species",
+    "publisher": "Dungeon Masters Guild",
+    "author": "Tyler Kamstra",
+    "creatureType": "Monstrosity",
+    "url": "",
+    "rulesReadUrl": "",
+    "publicationPage": "https://www.dmsguild.com/en/product/248038/monstrous-races-2",
+    "printedPages": [
+      17,
+      18
+    ],
+    "page": "Printed text mirror, pp. 17–18, Cave Fisher Traits",
+    "sourceDistinctions": [
+      "The ability increase field in the player traits is blank. The build takes the standard array as written. The +2 Strength mentioned in Design Notes is unused.",
+      "The trait block supplies 20 ft. walking and Spider Climb with no numerical climb speed. Ordinary climbing movement costs still apply. Latchline uses natural claws and carries no held gear.",
+      "The trait block gives no filament recharge. This build maintains one line at a time, following the text's singular filament. Athletics checks here use the regular opposed rolls. Record which target is grappled and which only has filament attached."
+    ],
+    "provenance": "Player conversion by Tyler Kamstra, published through Dungeon Masters Guild for 2014 fifth edition.",
+    "classRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/classes",
+    "equipmentRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/equipment",
+    "combatRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/combat",
+    "backgroundRules": "https://www.dndbeyond.com/sources/dnd/basic-rules-2014/personality-and-background",
+    "npcExamples": [
+      "Latchline"
+    ]
+  }
+]

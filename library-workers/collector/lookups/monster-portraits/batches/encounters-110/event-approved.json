@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Tiefling",
+    "slug": "tiefling",
+    "caption": "Sella Cinderlock · Original Tiefling NPC",
+    "id": "species-090aff131cc6474d4575d8c2:f2d50ee1a2e6edc9c4895256",
+    "entry": "species-090aff131cc6474d4575d8c2",
+    "version": "f2d50ee1a2e6edc9c4895256",
+    "suffix": "encounters-110/tiefling.png",
+    "registeredPath": "assets/images/content/dm-library/encounters-110/tiefling.png",
+    "draft": "output/dm-library/monster-portraits/batches/encounters-110/event-drafts/tiefling-event-v1.png",
+    "saved": "../../../../Projects/DND/Artwork Backups/Encounter Batch 110 2026-11-24/event-drafts/tiefling-event-v1.png",
+    "overrides": [],
+    "sha256": "cfc0db2a4f0ad5c2a993e04c5df1687f8577ee218306a069005003c6f0fb447a",
+    "bytes": 1928060
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Genasi",
+    "slug": "genasi",
+    "publication": "Forgotten Realms Player’s Guide (2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Elemental humanoid",
+    "url": "",
+    "printedPages": {
+      "playerTraits": "10–11",
+      "appearance": "11",
+      "swordmageBuild": "24–27, 135"
+    },
+    "sourceDistinctions": [
+      "Early 4e Realms rules use five manifestations and fixed +2 Strength, +2 Intelligence.",
+      "Each manifestation grants its own benefits and power. The Extra Manifestation feat can add another choice.",
+      "Avarra is a firesoul with the printed Firepulse immediate reaction. The published rules update removed the requirement to rest before a recovered swordmage can regain Warding.",
+      "The August 2012 compilation limits Promise of Storm bonus damage to hits by lightning or thunder attacks."
+    ],
+    "npcSources": [
+      {
+        "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+        "title": "Player’s Handbook (2008)",
+        "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+      },
+      {
+        "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "title": "4th edition Collected Updates and Errata (August 2012)",
+        "pages": "58, 90, 95–96"
+      }
+    ]
+  },
+  {
+    "name": "Kalashtar",
+    "slug": "kalashtar",
+    "publication": "Eberron Player’s Guide (2009)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Humanoid",
+    "url": "https://anyflip.com/yhggl/brmq/basic",
+    "printedPages": {
+      "playerTraits": "30",
+      "appearance": "30–31",
+      "clericBuild": "Player’s Handbook 61–66"
+    },
+    "sourceDistinctions": [
+      "Eberron’s 4e Kalashtar uses two-way telepathy with a creature that has a language inside 5 squares and line of sight.",
+      "Dual Soul offers a start-of-turn save against each dazing or dominating effect, with no end-of-turn retry on failure.",
+      "Bastion of Mental Clarity can change a Will attack’s result by interrupting it."
+    ],
+    "npcSources": [
+      {
+        "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+        "title": "Player’s Handbook (2008)",
+        "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+      },
+      {
+        "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "title": "4th edition Collected Updates and Errata (August 2012)",
+        "pages": "58, 90, 95–96"
+      }
+    ]
+  },
+  {
+    "name": "Mul",
+    "slug": "mul",
+    "publication": "Dark Sun Campaign Setting (2010)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Humanoid",
+    "url": "",
+    "printedPages": {
+      "playerTraits": "20",
+      "appearance": "20–21",
+      "fighterBuild": "Player’s Handbook 76–78"
+    },
+    "sourceDistinctions": [
+      "Born of Two Races is a choice for feat prerequisites.",
+      "Incredible Toughness uses no action at the start of the Mul’s turn. It explicitly lists four conditions alongside ongoing damage.",
+      "Daro shows a fighter able to act after ending a stun."
+    ],
+    "npcSources": [
+      {
+        "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+        "title": "Player’s Handbook (2008)",
+        "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+      },
+      {
+        "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "title": "4th edition Collected Updates and Errata (August 2012)",
+        "pages": "58, 90, 95–96"
+      }
+    ]
+  },
+  {
+    "name": "Thri-kreen",
+    "slug": "thri-kreen",
+    "publication": "Dark Sun Campaign Setting (2010)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Humanoid",
+    "url": "",
+    "printedPages": {
+      "playerTraits": "22",
+      "appearance": "22–23",
+      "rangerBuild": "Player’s Handbook 104–108"
+    },
+    "sourceDistinctions": [
+      "Use low-light vision from the original 4e printed rules.",
+      "Multiple Arms changes the action economy once per turn. It grants no extra attack or wielded item slots.",
+      "Thri-Kreen Claws is a single minor action with one to three adjacent enemy targets."
+    ],
+    "npcSources": [
+      {
+        "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+        "title": "Player’s Handbook (2008)",
+        "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+      },
+      {
+        "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "title": "4th edition Collected Updates and Errata (August 2012)",
+        "pages": "58, 90, 95–96"
+      }
+    ]
+  },
+  {
+    "name": "Bladeling",
+    "slug": "bladeling",
+    "publication": "Manual of the Planes (2008)",
+    "edition": "4th edition",
+    "publisher": "Wizards of the Coast",
+    "type": "Natural humanoid",
+    "url": "",
+    "printedPages": {
+      "playerTraits": "117",
+      "appearance": "116–117",
+      "rogueBuild": "Player’s Handbook 116–119"
+    },
+    "sourceDistinctions": [
+      "The playable profile is labeled Bladeling Characters on printed p. 117, distinct from the adjacent monster stat blocks.",
+      "Razor Storm is a minor action and targets each creature in the burst. Use care around allies.",
+      "The Improved Razor Storm feat can replace the base power. Varik uses the original."
+    ],
+    "npcSources": [
+      {
+        "url": "https://dokumen.pub/players-handbook-a-4th-edition-core-rulebook-1-dampd-core-rulebook-dungeons-amp-dragons-4nbsped-0786948671-9780786948673.html",
+        "title": "Player’s Handbook (2008)",
+        "pages": "17–18, 61–66, 76–78, 104–108, 116–119, 214–219, 274–277"
+      },
+      {
+        "url": "https://dnd-support.wizards.com/hc/en-us/articles/360000962623-Dungeons-Dragons-3rd-3-5-and-4th-Edition-Rules-Questions",
+        "title": "4th edition Collected Updates and Errata (August 2012)",
+        "pages": "58, 90, 95–96"
+      }
+    ]
+  }
+]
