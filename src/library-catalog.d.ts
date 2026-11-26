@@ -5,4 +5,6 @@ declare module 'virtual:library-index' {
   export const detailLoaders: Readonly<
     Record<string, () => Promise<{ default: Readonly<Record<string, unknown>> }>>
   >
+  /** `[type/slug, player words, DM words]` for every entry but the rules. */
+  export const loadSearch: () => Promise<{ default: readonly [string, string, string][] }>
 }

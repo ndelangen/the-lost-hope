@@ -1,5 +1,5 @@
 import { monsterPrinting } from './library-monsters'
-import { publishedLibrary, type LibraryType } from './published-library-data'
+import { publishedLibrary, searchWords, type LibraryType } from './published-library-data'
 import { allAbilities } from './stat-block'
 
 export {
@@ -8,7 +8,7 @@ export {
   libraryTypes,
   type LibraryType,
 } from './published-library-routing'
-export { loadLibraryDetail, type SrdVersion } from './published-library-data'
+export { loadLibraryDetail, loadLibrarySearch, type SrdVersion } from './published-library-data'
 
 const entriesByPath = new Map(
   publishedLibrary.map((entry) => [entry.type + '/' + entry.slug, entry]),
@@ -44,13 +44,13 @@ export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, g
     if (group && !groups.includes(group)) return []
     if (words.length) {
       const searchable = [name, summary, ...groups, price ?? '']
-      // The index carries each entry's printed words; rules arrive with their text.
-      if (record.search) searchable.push(record.search.player, dm ? record.search.gm : '')
+      // Printed words come from the search module; rules arrive with their text.
+      const printed = searchWords.get(record.type + '/' + record.slug)
+      if (printed) searchable.push(printed.player, dm ? printed.gm : '')
       for (const printing of record.printings) {
         searchable.push(printing.label, printing.edition ?? '', printing.variantName ?? '')
         const sections = [...(printing.player ?? []), ...(dm ? (printing.gm ?? []) : [])]
-        if (!record.search)
-          searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
+        if (!printed) searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
         const typed =
           dm &&
           printing.typed &&

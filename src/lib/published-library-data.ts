@@ -1,4 +1,4 @@
-import { detailLoaders, records } from 'virtual:library-index'
+import { detailLoaders, loadSearch, records } from 'virtual:library-index'
 
 import type { EntityRef } from '#/definitions/kind'
 
@@ -43,9 +43,9 @@ type LibraryRecord = {
 
 /**
  * A catalog entry as the index serves it: everything but the printings' text sections, which load
- * with the entry (`loadLibraryDetail`), plus the words that search matches. Rules arrive whole.
+ * with the entry (`loadLibraryDetail`). Rules arrive whole.
  */
-export type LibraryIndexRecord = LibraryRecord & { search?: { player: string; gm: string } }
+export type LibraryIndexRecord = LibraryRecord
 
 export const publishedLibrary = records
 
@@ -74,6 +74,16 @@ async function loadBucket(bucket: string) {
 /** Load an entry's printed text before reading it with `getLibraryEntry`. */
 export function loadLibraryDetail(type: string, slug: string) {
   return loadBucket(bucketOf({ type, slug }))
+}
+
+/** The words each entry's printed text holds, by `type/slug`, once `loadLibrarySearch` ran. */
+export const searchWords = new Map<string, { player: string; gm: string }>()
+
+/** Load what search matches in printed text; browsing without a query does not need it. */
+export async function loadLibrarySearch() {
+  if (searchWords.size) return
+  const { default: search } = await loadSearch()
+  for (const [path, player, gm] of search) searchWords.set(path, { player, gm })
 }
 
 /** Load every entry's printed text, for tests and scripts that read the whole catalog. */

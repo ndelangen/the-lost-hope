@@ -7,7 +7,9 @@ export const Route = createFileRoute('/library/$type/')({
   validateSearch: librarySearch,
   search: { middlewares: [stripSearchParams(librarySearch({}))] },
   beforeLoad: async ({ params: { type }, search }) => {
-    const { libraryBrowseTypes } = await import('#/lib/published-library')
+    const { libraryBrowseTypes, loadLibrarySearch } = await import('#/lib/published-library')
+    // Search reads printed text, which loads only once someone searches.
+    if (search.q) await loadLibrarySearch()
     if (!isLibraryType(type) || !libraryBrowseTypes(Boolean(search.dm)).has(type)) throw notFound()
     return { libraryType: type }
   },
