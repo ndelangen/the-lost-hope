@@ -28,9 +28,9 @@ export default createScene({
       'Play it as a short visit, about one session: the welcome, the feast, the stories and the catch. The party leaves with the puzzle of the laws unsolved and a reason to come back.',
     ],
     [
-      'The party stays about two days, just before the full moon. The full moon falls around the time they reach ',
+      'The party may spend one night, then must leave: the next night is the full moon, when the master comes. They fly on that morning and reach ',
       refs.locations.rustmoor,
-      ', so they miss the master’s visit.',
+      ' as the full moon rises, so they miss the master’s visit.',
     ],
   ],
   beats: [
@@ -331,8 +331,18 @@ export default createScene({
       title: 'We hope you’ll be back',
       lines: [
         {
+          do: [
+            ['The next morning, after their one night, the people gather to see the party off.'],
+          ],
+        },
+        {
           speaker: refs.npcs.caves_of_steel_fisher,
-          say: [['We hope you’ll be back!']],
+          say: [
+            [
+              'It will be a full moon tonight. The master will come, and will eat you if you stay. You better not stay.',
+            ],
+            ['Please send more storytellers! We hope you’ll be back!'],
+          ],
         },
         {
           do: [['They wave the party goodbye and disappear beneath the surface.']],
@@ -343,10 +353,10 @@ export default createScene({
   outcomes: [
     {
       icon: 'gi/GiWalk',
-      when: [['The party stays too long, toward the full moon.']],
+      when: [['They want to stay another night.']],
       response: [
         [
-          'The people usher them away and make them leave: “We want more storytellers to come, please send more storytellers! But not during full moons, then the master comes to eat!”',
+          'The people will not have it. They usher the party to the subships and make them leave: “Not during full moons, then the master comes to eat!”',
         ],
       ],
     },
