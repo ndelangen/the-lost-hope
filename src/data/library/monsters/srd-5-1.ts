@@ -6481,6 +6481,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.ddal04_11_the_donjon, refs.publications.plane_shift_ixalan],
       alignment: 'neutral',
       languages: ['Elvish', 'Sylvan'],
+      appearance: [
+        [
+          'A graceful feminine fey glimpsed among trees, with warm laughter hanging on the air that draws travellers deeper into the green shadows.',
+        ],
+      ],
+      lore: [
+        [
+          'Powerful fey sometimes bind lesser fey spirits to trees, sometimes as punishment for forbidden love. A dryad can roam near her tree, but it is her home and anchor. While the tree is healthy she stays young, and if it is destroyed she goes mad. Shy and reclusive, she guards her woodland and watches intruders. She may lure those who catch her interest away to charm them. She can speak with plants and animals and teleport between trees, and unicorns, treants and satyrs live alongside her.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 121'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -6844,6 +6856,14 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],
+      appearance: [['A dark elf at ease in lightless caves who shrinks from sunlight.']],
+      lore: [
+        [
+          'The drow are evil elves banished long ago to the Underdark, where they built an empire under the leadership of the Spider Queen Lolth, whom they obey in everything. They no longer see themselves as exiles but as rulers of the darkness, and plot to destroy their surface kin when Lolth commands. Having lived underground so long, they can see in the dark but cannot stand sunlight.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 125'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -8080,6 +8100,18 @@ export default createPublicationMonsters({
       tags: ['gnome'],
       alignment: 'neutral good',
       languages: ['Gnomish', 'Terran', 'Undercommon'],
+      appearance: [
+        [
+          'A gray-skinned gnome about three feet tall, heavy and strong for its size, that blends into the stonework. Males are bald and females have stringy gray hair.',
+        ],
+      ],
+      lore: [
+        [
+          'Svirfneblin live in fortified, deeply buried enclaves of a few hundred, with secret tunnels for escape. Females generally run the enclaves while males scout the outskirts and hunt for gems, particularly rubies. Their gem hunting puts them in conflict with beholders, drow, kuo-toa, duergar and mind flayers, and they fear and despise drow most. Earth creatures such as xorn guard their settlements, and some can summon earth elementals.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 164'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -9037,6 +9069,18 @@ export default createPublicationMonsters({
       ],
       alignment: 'neutral',
       languages: ['Auran', 'understands Common but doesn’t speak it'],
+      appearance: [
+        [
+          'It cannot be seen at all. When it is defeated or the magic binding it ends, it vanishes in a gust of wind.',
+        ],
+      ],
+      lore: [
+        [
+          "An invisible stalker is an air elemental summoned and bound by magic for one purpose: hunt down creatures or fetch objects for its summoner. It stays by the summoner until given a task, completes it, then returns for more orders, bound until the spell expires. It is unwilling and resents its work, so a vague or long task may drive it to twist the command's meaning unless the wording is careful.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 192'],
+      ],
+      habitats: ['Elemental Plane'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -11505,6 +11549,16 @@ export default createPublicationMonsters({
       name: 'Shrieker',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A human-sized mushroom that stands in the dark and screeches when disturbed.'],
+      ],
+      lore: [
+        [
+          "The shrieker's piercing screech drives off creatures that disturb it. Other creatures use it as an alarm to warn of prey, and intelligent Underdark races cultivate them on the edges of their settlements to discourage trespassers.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 137'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -14729,6 +14783,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2014],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with feral eyes, a sleek spined profile and glistening white scales that begin to darken as it ages.',
+        ],
+      ],
+      lore: [
+        [
+          'White dragons are the smallest, least intelligent and most bestial of the chromatic dragons, living in the arctic and icy mountains. They are cruel and driven by hunger and greed, eat only frozen food, and entomb kills in ice. They remember every slight and may carry out long vendettas, and they will not tolerate rivals near their lairs. They love cold, glittering treasure, especially diamonds, and are served by dragon-worshipping kobolds. Frost giants sometimes challenge and subdue them.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 102'],
+      ],
+      habitats: ['Arctic', 'Mountain'],
       stats: {
         size: 'large',
         type: 'dragon',

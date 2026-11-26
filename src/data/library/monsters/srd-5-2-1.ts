@@ -4402,6 +4402,18 @@ export default createPublicationMonsters({
       name: 'Clay Golem',
       alignment: 'unaligned',
       languages: ['Common plus one other language'],
+      appearance: [
+        [
+          'A bulky clay figure that stands a head and shoulders above a human. It is man-shaped but its proportions are slightly wrong, and it moves with a heavy, unstoppable tread.',
+        ],
+      ],
+      lore: [
+        [
+          "Priests of great faith often make clay golems as guardians, binding an earth elemental spirit into the body. Clay is a poor vessel, so a golem that is badly hurt can lose its leash and run amok, smashing everything nearby until it is destroyed or fully repaired. Like all golems it follows its creator's last orders literally, cannot be reasoned or tricked with words, and needs no food, air or rest.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 168'],
+      ],
+      habitats: ['Temple', 'Ruins'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -4840,6 +4852,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A small dragon with ruddy brown scales that carry a metallic sheen and a pair of brow plates jutting over its eyes. Its scales take on a coppery colour and later a green tint as it grows.',
+        ],
+      ],
+      lore: [
+        [
+          'Copper dragons are pranksters, joke tellers and riddlers, even-tempered but miserly, and dangerous if their hoard is threatened. Even a wyrmling wants its jokes laughed at and gets annoyed at anyone who does not take its tricks in good humour. They live in dry uplands and hills and favour metals and gems, and they will send treasure seekers on a wild goose chase rather than admit to owning an item.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 112'],
+      ],
+      habitats: ['Hills', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -5227,6 +5251,17 @@ export default createPublicationMonsters({
       tags: ['Angel'],
       alignment: 'lawful good',
       languages: ['All', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A beautiful humanoid with silvery skin, hair and eyes that gleam with an unearthly light, and large feathered wings that unfurl from the shoulders. Often it hides as an ordinary person or animal.',
+        ],
+      ],
+      lore: [
+        [
+          'Devas are angels that act as divine messengers and agents on the Material Plane, the Shadowfell and the Feywild. Legends tell of them taking mortal form for years to lend aid, hope and courage to good-hearted people. A deva prefers to look unremarkable and only drops the disguise when it must.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 15'],
+      ],
       stats: {
         size: 'medium',
         type: 'celestial',
@@ -5674,6 +5709,18 @@ export default createPublicationMonsters({
       name: 'Dragon Turtle',
       alignment: 'neutral',
       languages: ['Draconic', 'Primordial (Aquan)'],
+      appearance: [
+        [
+          'A vast sea creature with a rough dark green shell lined with silver that glints like sunlight on the waves, so a surfacing one can be mistaken for a reflection of the sun or moon. Steam boils off the water around it.',
+        ],
+      ],
+      lore: [
+        [
+          'Dragon turtles are among the most feared creatures of the ocean, as big and greedy as ancient land dragons. They sink ships and sift the wreck for treasure, swallowing it to carry it home to a cave in a reef or under the sea floor. They will drive out whatever already lives in a good cave. Clever enough to be bribed, they let ships that pay pass safely, and sahuagin sometimes lure them into raids with treasure. Marids ride the largest ones as mounts.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 119'],
+      ],
+      habitats: ['Ocean', 'Coastal'],
       stats: {
         size: 'gargantuan',
         type: 'dragon',
@@ -8058,6 +8105,18 @@ export default createPublicationMonsters({
       tags: ['Goblinoid'],
       alignment: 'chaotic neutral',
       languages: ['Common', 'Goblin'],
+      appearance: [
+        [
+          'A small, black-hearted humanoid that scuttles in with a crowd of its fellows, keen to join in once the odds look good. It dances and capers if its side wins.',
+        ],
+      ],
+      lore: [
+        [
+          'Goblins are small and individually weak, but they gather in large and sometimes overwhelming numbers, and they abuse any authority they gain. They are lazy and undisciplined, ruled by whoever is strongest or smartest, and hobgoblins and bugbears often bully them into servitude. They shun sunlight, lair underground in caves and mines, and favour hit-and-run attacks, often riding wolves. Their lairs are full of alarms, narrow tunnels and bolt-holes that larger creatures cannot follow.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 165'],
+      ],
+      habitats: ['Underdark', 'Caves'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -8159,6 +8218,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A small dragon with dark yellow scales flecked with metal, a wise-looking face and flexible whisker-like spines. Its horns sweep back from nose and brow.',
+        ],
+      ],
+      lore: [
+        [
+          'Gold dragons are the most powerful and majestic of the metallic dragons and dedicated enemies of evil, though also the most aloof and grim of the good dragons. They value privacy and seldom mix with other dragons beyond their own family. As they age they can take animal and humanoid forms and quietly help folk in disguise. They eat gems and pearls, hoard in well-warded vaults, and make their homes in quiet places near idyllic lakes.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 114'],
+      ],
+      habitats: ['Forest', 'Lakeside'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -9061,6 +9132,18 @@ export default createPublicationMonsters({
       tags: ['Goblinoid'],
       alignment: 'lawful evil',
       languages: ['Common', 'Goblin'],
+      appearance: [
+        [
+          'A disciplined soldier with orange or red-orange skin, yellowed teeth and a heavy brow, wearing a well-kept uniform in tribal colours trimmed in blood-red and black leather.',
+        ],
+      ],
+      lore: [
+        [
+          'Hobgoblins judge virtue by martial skill and strength. They organise into legions under a warlord with captains beneath, and they care for their arms and armour. They are good at battle plans and siegecraft when led by a strategic mind, but they hate elves and attack them first even when that is a tactical mistake. Rival legions compete fiercely and clash when brought together. Legions often add goblins, bugbears, orcs and ogres as expendable troops.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 185'],
+      ],
+      habitats: ['Hills', 'Borderlands'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -9469,6 +9552,17 @@ export default createPublicationMonsters({
       name: 'Iron Golem',
       alignment: 'unaligned',
       languages: ['Understands Common plus two other languages but can’t speak'],
+      appearance: [
+        [
+          'A towering giant of heavy metal, often shaped like a huge suit of armour. Its clanging steps shake the ground, and it swings an enormous blade.',
+        ],
+      ],
+      lore: [
+        [
+          'The mightiest of golems, built to be close to invulnerable. Its iron body holds the bound elemental spirit and only magic or adamantine weapons hurt it. It can belch clouds of poison gas, and a single blow from its fist can kill. Like every golem it obeys its creator or whoever holds its control item, cannot be tricked with words, and may react violently or freeze if it is given conflicting or impossible orders.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 168'],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -9656,6 +9750,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A small, scrawny reptilian humanoid, usually in a mob, scampering out from a low tunnel with a crude weapon.',
+        ],
+      ],
+      lore: [
+        [
+          'Kobolds are cowardly, dragon-worshipping humanoids who serve evil dragons as minions and live in their lairs when they can, otherwise infesting dungeons. They hoard trinkets, are weak individually and rely on numbers, and they are good at trapmaking and tunnelling. Their low tunnels slow larger creatures, and the nastiest traps use clay pots of slime or crates of centipedes. They also worship the lesser god Kurtulmak.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 195'],
+      ],
+      habitats: ['Underdark', 'Dungeon'],
       stats: {
         size: 'small',
         type: 'dragon',
@@ -9709,6 +9815,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'Common'],
+      appearance: [
+        [
+          "A beautiful humanoid upper body on a powerful four-legged lion's body, with vicious black claws. Its lair is lavish and rich, though it sits in a ruin.",
+        ],
+      ],
+      lore: [
+        [
+          "Lamias rule decadent hideouts in ruined desert cities and tombs, surrounded by flatterers and slaves, and use illusion to hide decay. They use jackalweres as agents to raid caravans and villages. A lamia weakens minds with a cursing touch, charms and enslaves its prey, and sets those it controls against each other for sport. It is vain and enjoys corrupting pure-hearted adventurers. It prefers to fight from the edge of combat, striking and springing away, and Graz'zt makes lamias from loyal mortals.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 201'],
+      ],
+      habitats: ['Desert', 'Ruins'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -10030,6 +10148,18 @@ export default createPublicationMonsters({
       name: 'Magmin',
       alignment: 'chaotic neutral',
       languages: ['Primordial (Ignan)'],
+      appearance: [
+        [
+          'A stumpy, grinning humanoid sculpted from black magma. Even unlit, small jets of flame spit from its porous skin and it gives off heat like a bonfire.',
+        ],
+      ],
+      lore: [
+        [
+          "Magmins are fire elemental spirits bound into physical form and only appear when someone summons them. They treat anything flammable as fuel for a big fire, and only their summoner's control stops them burning everything. A mob of them can gut a castle in minutes. They are capricious and do not grasp that fire hurts other creatures, and they love hot places such as forest fires and active volcanoes.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 212'],
+      ],
+      habitats: ['Volcanic', 'Elemental Plane'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -10162,6 +10292,18 @@ export default createPublicationMonsters({
       tags: ['Demon'],
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A serpent from the waist down with the torso of a humanoid woman with six arms, each wielding a blade.',
+        ],
+      ],
+      lore: [
+        [
+          'Mariliths are demon captains with sharp tactical minds, able to lead and unite other demons in a common cause. They usually head demonic hordes, where they take any chance to charge in. Few foes can match them in battle with six blades.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 53'],
+      ],
+      habitats: ['Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -10750,6 +10892,18 @@ export default createPublicationMonsters({
       name: 'Night Hag',
       alignment: 'neutral evil',
       languages: ['Abyssal', 'Common', 'Infernal', 'Primordial'],
+      appearance: [
+        [
+          'A hag, often seen as an ordinary woman. In dreams, a spectral form straddles the sleeper, visible only to creatures with truesight.',
+        ],
+      ],
+      lore: [
+        [
+          "Night hags once lived in the Feywild but were exiled to Hades for their foulness and degenerated into fiends, and they have spread across the Lower Planes. They want virtuous mortals to turn to evil, and take joy in corrupting them. A hag rides a sleeper's dreams to fill them with doubts and fears, hoping to trick them into evil deeds. If the victim dies after doing evil, she traps the soul in a soul bag to carry to Hades. She keeps a heartstone that lets her slip into the Ethereal Plane, and will go to great lengths to recover it or the bag if they are lost.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 178'],
+      ],
+      habitats: ['Lower Planes'],
       stats: {
         size: 'medium',
         type: 'fiend',
@@ -11195,6 +11349,18 @@ export default createPublicationMonsters({
       tags: ['Devil'],
       alignment: 'lawful evil',
       languages: ['Infernal', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A hulking devil with a whip-like tail and huge wings wrapped round itself like a cloak, armoured with scales, and a fanged maw dripping venom.',
+        ],
+      ],
+      lore: [
+        [
+          'Pit fiends are the generals of the Nine Hells, leading its legions and attending the archdukes and archduchesses. They form a grotesque aristocracy with an inflated sense of entitlement, and they manipulate and conspire to remove anything in their way. Arrogant to the point of never admitting defeat, a pit fiend picks out the most powerful foes for single combat.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 77'],
+      ],
+      habitats: ['Nine Hells'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -13067,6 +13233,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Draconic'],
+      appearance: [
+        [
+          'A small dragon with blue-gray scales highlighted in silver, a high noble face and a beard-like row of chin spikes under a spiny frill.',
+        ],
+      ],
+      lore: [
+        [
+          'Silver dragons are the friendliest and most social of the metallic dragons and cheerfully help good creatures in need. They do not hunt evil as gold and bronze dragons do but will oppose those who harm the innocent. They enjoy other creatures, take humanoid forms such as a kindly old sage, and often form friendships with mortals, losing track of time and outliving them. They are fascinated by humans and like to keep relics of human history.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 117'],
+      ],
+      habitats: ['Mountain', 'Cloud'],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -13211,6 +13389,18 @@ export default createPublicationMonsters({
       tags: ['Angel'],
       alignment: 'lawful good',
       languages: ['All', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A godlike angelic figure of overwhelming glory, wielding a living sword that flies into the fray on its own and a bow whose single arrow can kill on contact.',
+        ],
+      ],
+      lore: [
+        [
+          'Solars are the most powerful angels. Demon princes shrink before their commanding voices. It is said that only twenty-four exist: a few serve particular deities as stewards, and the rest rest in contemplation until a cosmic threat to the cause of good calls for them.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 18'],
+      ],
+      habitats: ['Upper Planes'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -13469,6 +13659,18 @@ export default createPublicationMonsters({
       name: 'Sphinx of Lore',
       alignment: 'lawful neutral',
       languages: ['Celestial', 'Common'],
+      appearance: [
+        [
+          "A winged lion with a woman's head, a regal or sometimes leonine face, and eyes that see beyond the present and through invisibility and magic.",
+        ],
+      ],
+      lore: [
+        [
+          "Sphinxes guard the secrets and treasures of the gods in sacred isolation, and creatures that choose to face a test are bound to it until death. A failed test closes the path to what is guarded, and slaying the sphinx does not help the quester. A lore sphinx, the book's gynosphinx, is a library of knowledge that poses riddles and puzzles, and some will bargain for treasure or service. Looking into its eyes can banish a seeker to a far plane for a trial. Sphinxes lair in ancient tombs and temples and can reach extraplanar realms.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 280'],
+      ],
+      habitats: ['Ruins', 'Desert'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -13638,6 +13840,18 @@ export default createPublicationMonsters({
       name: 'Sphinx of Valor',
       alignment: 'lawful neutral',
       languages: ['Celestial', 'Common'],
+      appearance: [
+        [
+          'A winged lion with the head of a humanoid man, outwardly gruff and downcast, who often opens a conversation with an insult.',
+        ],
+      ],
+      lore: [
+        [
+          "Sphinxes guard the secrets and treasures of the gods and test those who seek them to the death. A valor sphinx, the book's androsphinx, tests courage and valour through quests and a roar that echoes for miles, terrifying and deafening those nearby. Beneath its gruff manner it has a noble heart, will not lie, but gives little away. Those who pass may be rewarded with a heroes' feast.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 280'],
+      ],
+      habitats: ['Ruins', 'Desert'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -14065,6 +14279,18 @@ export default createPublicationMonsters({
       name: 'Steam Mephit',
       alignment: 'neutral evil',
       languages: ['Primordial (Aquan, Ignan)'],
+      appearance: [
+        [
+          'A small imp-like creature of fire and water that trails hot water and hisses with tendrils of steam.',
+        ],
+      ],
+      lore: [
+        [
+          'Steam mephits are bossy and hypersensitive and see themselves as the overlords of all mephits. Mephits are capricious elemental tricksters that gather in large numbers on the Elemental Planes and make their homes on the Material Plane where their elements are plentiful. They need no food, drink or sleep.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 217'],
+      ],
+      habitats: ['Elemental Plane', 'Hot springs'],
       stats: {
         size: 'small',
         type: 'elemental',
@@ -14259,6 +14485,18 @@ export default createPublicationMonsters({
       name: 'Stone Golem',
       alignment: 'unaligned',
       languages: ['Understands Common plus two other languages but can’t speak'],
+      appearance: [
+        [
+          'A tall, chiselled statue, usually humanoid but sometimes carved as a giant beast, that walks with slow certainty. Those who fight it feel time slow around them.',
+        ],
+      ],
+      lore: [
+        [
+          'Stone golems are shaped from cut stone and bound with an earth elemental spirit. Ancient ones stand in sealed tombs or beside the gates of lost cities, guarding them long after their makers died. They are nearly impervious to spells and ordinary weapons, cannot be reasoned with, and follow their last orders, or hold still when they cannot. A control item lets a new holder command them.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 168'],
+      ],
+      habitats: ['Ruins', 'Tomb'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -14362,6 +14600,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'chaotic good',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A towering giant with pale purple-gray skin and hair and glittering emerald eyes. Rarely one has violet skin with deep violet or blue-black hair.',
+        ],
+      ],
+      lore: [
+        [
+          "Storm giants are contemplative seers who live far from mortal lands, watching the stars and the ocean's depths for omens of the god Annam's favour. They see events in a wide perspective, foretell the rise and fall of kings, and find patterns in unrelated events. Their prophecy reveals secrets and forgotten lore. Some have coral castles beneath the sea.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 153'],
+      ],
+      habitats: ['Coastal', 'Mountain', 'Ocean'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -15347,6 +15597,18 @@ export default createPublicationMonsters({
       name: 'Troll Limb',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A severed troll arm, leg or head that keeps moving on its own, crawling or snapping in the dirt.',
+        ],
+      ],
+      lore: [
+        [
+          "When a troll is badly hacked, dismembered parts can sometimes act with a life of their own, and a troll can even reattach them. If the troll rests without reattaching a part, the part regrows and the old one dies. Only acid and fire stop a troll's regeneration, and trolls attack those who use them first. Trolls eat anything they can catch and work as mercenaries for orcs, ogres, ettins, hags and giants, who must pay in food and treasure.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 291'],
+      ],
+      habitats: ['Swamp', 'Hills'],
       stats: {
         size: 'small',
         type: 'giant',
@@ -15395,6 +15657,18 @@ export default createPublicationMonsters({
       name: 'Unicorn',
       alignment: 'lawful good',
       languages: ['Celestial', 'Elvish', 'Sylvan', 'telepathy 120 ft'],
+      appearance: [
+        [
+          'A white horse-like celestial that glimmers like starlight, with a single spiralling ivory horn on its brow. It slips in and out of sight in the woods.',
+        ],
+      ],
+      lore: [
+        [
+          'Unicorns are celestial guardians placed by good gods to ward off evil and protect sacred places, usually a bounded enchanted forest. They allow good-hearted creatures to hunt or gather there and hold evil at bay. The animals in its forest are unusually tame, and fey such as pixies, sprites, satyrs and dryads serve it loyally. Its horn can heal the sick and injured, and it knows the tongues of elves and sylvan folk.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 293'],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'large',
         type: 'celestial',
@@ -15539,6 +15813,18 @@ export default createPublicationMonsters({
       name: 'Vampire',
       alignment: 'lawful evil',
       languages: ['Common plus two other languages'],
+      appearance: [
+        [
+          'A figure that casts no shadow and no reflection, keeping to darkness and away from mirrors, and shrinking from sunlight.',
+        ],
+      ],
+      lore: [
+        [
+          'Vampires hunger for the life they lost and feed on blood. Their old feelings twist into obsession, so each fixates on some symbol of what it craves. Most victims become vampire spawn under its control, and a vampire rarely lets a spawn drink from it to become a true vampire. A vampire is bound to its coffin, crypt or grave and must rest there by day. Sunlight burns it. It can keep several resting places by moving its coffin or grave dirt.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 295'],
+      ],
+      habitats: ['Crypt', 'Castle'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -15754,6 +16040,18 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.monster_manual_2024],
       alignment: 'neutral evil',
       languages: ['Common plus one other language'],
+      appearance: [
+        [
+          "A ravenous undead creature with a vampire's hunger for blood that keeps to the dark and avoids sunlight.",
+        ],
+      ],
+      lore: [
+        [
+          "Vampire spawn are made from most of a vampire's victims and stay under its control. They are ravenous for blood. They become free-willed only when their creator dies. They hate sunlight like true vampires and need no air.",
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 295'],
+      ],
+      habitats: ['Crypt', 'Castle'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -17104,6 +17402,18 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with a skull-like face, deep-socketed eyes and curved bone-coloured horns darkening to black. Its scales are dull and thick, and it reeks of rot and swamp water.',
+        ],
+      ],
+      lore: [
+        [
+          'Black dragons are the most evil-tempered and vile of the chromatic dragons, living in fetid swamps and ruins. They love to watch prey beg and will offer false hope before finishing it. They strike the weakest enemy first to terrify the rest. Cornered, it will try anything to survive, but will die rather than let another claim mastery. They hate and fear other dragons.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 89'],
+      ],
+      habitats: ['Swamp', 'Ruins'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17175,6 +17485,18 @@ export default createPublicationMonsters({
       tags: ['Chromatic'],
       alignment: 'lawful evil',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with frilled ears, a ridged horn on a blunt head and spikes along the brow and jaw. Its scales are iridescent azure to deep indigo and crackle with static, and the air smells of ozone.',
+        ],
+      ],
+      lore: [
+        [
+          'Blue dragons are vain and territorial desert dwellers who will not take any hint of inferiority and especially guard against brass dragons. They fight patiently from a distance, hitting with lightning and retreating, sometimes for hours or days. They hunt by burying themselves in sand with only the nose horn showing, and prey on caravans and herds. They dig crystallised caverns beneath the sands.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 92'],
+      ],
+      habitats: ['Desert', 'Badlands'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17239,6 +17561,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with a broad plate on its forehead, chin spikes and a frill down its neck. Its scales are warm, burnished brown to brass, its wing edges mottled green.',
+        ],
+      ],
+      lore: [
+        [
+          'Brass dragons are the most talkative of the true dragons and crave conversation, sunlight and hot dry lands. They will share information for gifts of treasure and follow anyone who tries to leave without talking. If someone tries to escape, it may use sleep gas to hold them, then pin them or bury them in sand until its thirst for talk is slaked. They prize items that talk and bury their hoards in sand.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 106'],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17343,6 +17677,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with a ribbed, fluted crest, curved horns and webbed feet, with smooth bronze scales and glowing green eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Bronze dragons live on coasts and eat aquatic plants and fish. They watch ships, sometimes as dolphins or gulls, and trade for treasure. They oppose tyranny, are fascinated by war and will offer service to a side fighting for good, remaining staunch allies. They loot wrecks and collect coral and pearls, and may settle for old military histories as payment.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 109'],
+      ],
+      habitats: ['Coastal'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17439,6 +17785,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'chaotic good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with brow plates over its eyes and overlapping segmented horns, with ruddy-brown to coppery scales.',
+        ],
+      ],
+      lore: [
+        [
+          'Copper dragons are pranksters, joke tellers and riddlers of hills and rocky uplands, sociable and even-tempered but miserly and dangerous if their hoards are threatened. They like wit and bards, and get annoyed at those who do not laugh. They favour metals and gems, hide treasures in secret chambers in narrow caves, and will not admit to owning something that others seek.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 112'],
+      ],
+      habitats: ['Hills'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17530,6 +17888,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon with a wise face and whisker-like spines, horns swept back from the brow, sail-like wings, and gold scales that gain brighter flecks with age.',
+        ],
+      ],
+      lore: [
+        [
+          'Gold dragons are the most powerful and majestic of the metallic dragons and dedicated enemies of evil, but aloof and grim. They value privacy and shun other dragons apart from kin. Older ones can take animal and humanoid forms. They love pearls and gems, and keep their hoard in a magically warded vault, and live near idyllic lakes.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 114'],
+      ],
+      habitats: ['Forest', 'Lakeside'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -17807,6 +18177,18 @@ export default createPublicationMonsters({
       tags: ['Metallic'],
       alignment: 'lawful good',
       languages: ['Common', 'Draconic'],
+      appearance: [
+        [
+          'A young dragon that shimmers like sculpted metal, with high eyes, beard-like chin spikes and a spiny frill, scales growing brighter with age.',
+        ],
+      ],
+      lore: [
+        [
+          'Silver dragons are the friendliest and most social of the metallic dragons and help good creatures. They oppose evil acts and harm to the innocent. They enjoy humanoid company, often live in a humanoid persona and form friendships across generations. They are fascinated by humans and hoard relics of history.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 117'],
+      ],
+      habitats: ['Mountain', 'Cloud'],
       stats: {
         size: 'large',
         type: 'dragon',
