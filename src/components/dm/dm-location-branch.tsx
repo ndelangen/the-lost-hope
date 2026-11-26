@@ -5,7 +5,7 @@ import type { DashboardLocationNode } from '#/lib/dm-dashboard'
 import { cn } from '#/lib/utils'
 
 import { DmFaces } from './dm-faces'
-import { DmHiddenReference } from './dm-hidden-reference'
+import { DmReference } from './dm-reference'
 import { DmSceneRow } from './dm-scene-row'
 
 /** One place in the location tree: its heading, the party there, its scenes, then the places inside it. */
@@ -49,7 +49,7 @@ export function DmLocationBranch({
               className={depth === 0 ? 'font-semibold' : 'text-sm font-semibold'}
             />
           ) : (
-            <DmHiddenReference reference={node.location} />
+            <DmReference reference={node.location} />
           )}
         </p>
         <DmFaces people={node.party} max={5} />

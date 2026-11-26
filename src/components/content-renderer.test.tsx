@@ -1,9 +1,9 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { describe, expect, it } from 'vitest'
 
-import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
+import { DmReference } from '#/components/dm/dm-reference'
 
-import { ContentRenderer, HiddenReferenceContext } from './content-renderer'
+import { ContentRenderer, DmReferenceContext } from './content-renderer'
 
 describe('ContentRenderer', () => {
   it('renders an external link within an inline content run', () => {
@@ -42,11 +42,11 @@ describe('ContentRenderer', () => {
 
   it('names records players have not met on DM pages', () => {
     const markup = renderToStaticMarkup(
-      <HiddenReferenceContext value={DmHiddenReference}>
+      <DmReferenceContext value={DmReference}>
         <ContentRenderer
           content={[['Rumours of ', { ref: 'location', key: 'night_mothers_church' }, '.']]}
         />
-      </HiddenReferenceContext>,
+      </DmReferenceContext>,
     )
 
     expect(markup).toContain('Night Mother')
@@ -64,9 +64,9 @@ describe('ContentRenderer', () => {
     )
     expect(
       renderToStaticMarkup(
-        <HiddenReferenceContext value={DmStub}>
+        <DmReferenceContext value={DmStub}>
           <ContentRenderer content={content.map((p) => [...p])} />
-        </HiddenReferenceContext>,
+        </DmReferenceContext>,
       ),
     ).toContain('href="#scene:the_clogged_ferry_landing"')
   })

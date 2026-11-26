@@ -4,8 +4,8 @@ import { lazy, Suspense } from 'react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { AbilityQuickList } from '#/components/dm/ability-quick-list'
 import { DmFaces } from '#/components/dm/dm-faces'
-import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { DmReference } from '#/components/dm/dm-reference'
 import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
 import { EntityReference } from '#/components/entity-reference'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
@@ -69,7 +69,7 @@ function DmNpcRoute() {
                   {refLink(npc.location) ? (
                     <EntityReference kind="location" slug={location.slug} />
                   ) : (
-                    <DmHiddenReference reference={npc.location} />
+                    <DmReference reference={npc.location} />
                   )}
                 </>
               ) : null}

@@ -11,15 +11,16 @@ import { refLink } from '#/lib/campaign'
 import { isRuleRef, ruleOf, termLabel } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
-/** A reference to a record players cannot see: one they have not met, or a prepared scene. */
-export type HiddenReference = Reference | EntityRef<'scene'>
+/** A reference a DM page renders itself: any record, or a prepared scene. */
+export type DmReferenceTarget = Reference | EntityRef<'scene'>
 
 /**
- * How content renders a reference to a record players cannot see. The player app leaves it out;
- * DM pages provide a renderer that names and links it.
+ * How DM pages render references: characters and creatures with their numbers at a glance,
+ * records players have not met, and prepared scenes. The player app never provides it, so it
+ * shows only what players have met.
  */
-export const HiddenReferenceContext = createContext<
-  ComponentType<{ reference: HiddenReference }> | undefined
+export const DmReferenceContext = createContext<
+  ComponentType<{ reference: DmReferenceTarget }> | undefined
 >(undefined)
 
 /** Player content, or DM content that may also point at prepared scenes. */
@@ -168,16 +169,19 @@ function ContentExternalLink({ link }: { link: ExternalLink }) {
 }
 
 function ContentReference({ reference }: { reference: Reference }) {
-  const Hidden = useContext(HiddenReferenceContext)
+  const Dm = useContext(DmReferenceContext)
+  // On DM pages, characters and creatures always render the DM's way, met or not.
+  if (Dm && (reference.ref === 'npc' || reference.ref === 'beast'))
+    return <Dm reference={reference} />
   const link = refLink(reference)
-  if (!link) return Hidden ? <Hidden reference={reference} /> : null
+  if (!link) return Dm ? <Dm reference={reference} /> : null
   return <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
 }
 
-/** Scenes are DM-only, so only a DM page's hidden-reference renderer can show them. */
+/** Scenes are DM-only, so only a DM page's reference renderer can show them. */
 function SceneReference({ reference }: { reference: EntityRef<'scene'> }) {
-  const Hidden = useContext(HiddenReferenceContext)
-  return Hidden ? <Hidden reference={reference} /> : null
+  const Dm = useContext(DmReferenceContext)
+  return Dm ? <Dm reference={reference} /> : null
 }
 
 function isReference(value: unknown): value is Reference {

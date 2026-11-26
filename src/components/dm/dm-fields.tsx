@@ -2,9 +2,9 @@ import { Link } from '@tanstack/react-router'
 import { EyeOff } from 'lucide-react'
 import type { ReactNode } from 'react'
 
-import { ContentRenderer, HiddenReferenceContext } from '#/components/content-renderer'
+import { ContentRenderer, DmReferenceContext } from '#/components/content-renderer'
 import { useDmMode } from '#/components/dm-mode'
-import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
+import { DmReference } from '#/components/dm/dm-reference'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { EntityReference } from '#/components/entity-reference'
 import { RuleTerm } from '#/components/rule-term'
@@ -56,7 +56,7 @@ export function DmFields({ kind, slug }: { kind: EntityKind; slug: string }) {
   )
 
   return (
-    <HiddenReferenceContext value={DmHiddenReference}>
+    <DmReferenceContext value={DmReference}>
       <section
         aria-label="DM only"
         className="grid gap-4 rounded-xl border border-dashed border-amber-500/60 bg-amber-500/5 p-5"
@@ -88,7 +88,7 @@ export function DmFields({ kind, slug }: { kind: EntityKind; slug: string }) {
           ))
         )}
       </section>
-    </HiddenReferenceContext>
+    </DmReferenceContext>
   )
 }
 
@@ -162,7 +162,7 @@ function SecretMemberships({ memberships }: { memberships: Membership[] }) {
             {link ? (
               <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
             ) : (
-              <DmHiddenReference reference={membership.organization} />
+              <DmReference reference={membership.organization} />
             )}
             <Pill variant="secondary">{membership.rank}</Pill>
             <Pill variant={membership.status === 'active' ? 'success' : 'outline'}>

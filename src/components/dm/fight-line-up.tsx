@@ -1,4 +1,6 @@
 import { ContentRenderer } from '#/components/content-renderer'
+import type { OwnOrSharedStatBlock } from '#/definitions/stat-block'
+import { resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
 import type { FightGroup, FightLineUp as LineUp } from '#/lib/dm-encounter'
 import { cn } from '#/lib/utils'
 
@@ -44,6 +46,7 @@ function groupKey({ creature }: FightGroup) {
 }
 
 function Group({ group, ally }: { group: FightGroup; ally: boolean }) {
+  const cr = challengeRating(group.creature)
   return (
     <div
       className={cn(
@@ -54,6 +57,9 @@ function Group({ group, ally }: { group: FightGroup; ally: boolean }) {
       <span className="flex items-center gap-1.5 whitespace-nowrap">
         <span className="font-bold tabular-nums">{group.count} ×</span>
         <ContentRenderer content={[[group.creature]]} />
+        {cr === undefined ? null : (
+          <span className="text-muted-foreground text-xs font-semibold tabular-nums">CR {cr}</span>
+        )}
       </span>
       {ally ? (
         <span className="text-xs font-semibold text-emerald-700 uppercase dark:text-emerald-400">
@@ -62,4 +68,10 @@ function Group({ group, ally }: { group: FightGroup; ally: boolean }) {
       ) : null}
     </div>
   )
+}
+
+/** The CR to print beside a group, so how hard it hits shows without hovering. */
+function challengeRating(creature: FightGroup['creature']) {
+  const record = resolveSourceRef(creature) as { stats?: OwnOrSharedStatBlock } | undefined
+  return resolveStatBlock(record?.stats)?.cr
 }

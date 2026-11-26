@@ -1,8 +1,8 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
-import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { DmReference } from '#/components/dm/dm-reference'
 import { EntityReference } from '#/components/entity-reference'
 import type { EntityRef } from '#/definitions/kind'
 import { refLink } from '#/lib/campaign'
@@ -83,7 +83,7 @@ function RecordLink({ reference }: { reference: EntityRef }) {
   return refLink(reference) ? (
     <EntityReference kind={reference.ref} slug={record.slug} />
   ) : (
-    <DmHiddenReference reference={reference} />
+    <DmReference reference={reference} />
   )
 }
 

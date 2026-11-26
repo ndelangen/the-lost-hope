@@ -56,6 +56,11 @@ export type EntityReferenceProps = {
   onNavigate?: () => void
 }
 
+/** The small face beside a character's or creature's name in running text. */
+export function ReferenceAvatar({ src }: { src: string | undefined }) {
+  return <Avatar src={src ?? DEFAULT_AVATAR} sizes="14px" maxWidth={32} className="size-3.5" />
+}
+
 /** The exhaustive canonical inline reference for every campaign entity kind. */
 export function EntityReference({
   kind,
@@ -98,14 +103,7 @@ function referencePresentation(
     case 'pc': {
       const pc = getEntity('pc', slug)?.data
       const name = label ?? pc?.name ?? slug
-      const icon = (
-        <Avatar
-          src={pc?.avatar ?? DEFAULT_AVATAR}
-          sizes="14px"
-          maxWidth={32}
-          className="size-3.5"
-        />
-      )
+      const icon = <ReferenceAvatar src={pc?.avatar} />
       return {
         label: name,
         icon,
@@ -128,14 +126,7 @@ function referencePresentation(
       const npc = getEntity('npc', slug)?.data
       const name = label ?? npc?.name ?? slug
       const home = npc ? npcLocation(npc) : undefined
-      const icon = (
-        <Avatar
-          src={npc?.avatar ?? DEFAULT_AVATAR}
-          sizes="14px"
-          maxWidth={32}
-          className="size-3.5"
-        />
-      )
+      const icon = <ReferenceAvatar src={npc?.avatar} />
       return {
         label: name,
         icon,
@@ -154,14 +145,7 @@ function referencePresentation(
       const name = label ?? beast?.name ?? slug
       const locationEntity = beast?.location ? resolveRef(beast.location) : undefined
       const home = locationEntity?.kind === 'location' ? locationEntity.data : undefined
-      const icon = (
-        <Avatar
-          src={beast?.avatar ?? DEFAULT_AVATAR}
-          sizes="14px"
-          maxWidth={32}
-          className="size-3.5"
-        />
-      )
+      const icon = <ReferenceAvatar src={beast?.avatar} />
       return {
         label: name,
         icon,
