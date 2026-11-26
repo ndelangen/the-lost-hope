@@ -6,6 +6,11 @@ export default createPublications({
     year: 2014,
     ruleset: '5e-2014',
   },
+  basic_rules_2014: {
+    name: 'Basic Rules',
+    year: 2014,
+    ruleset: '5e-2014',
+  },
   basic_rules_2018: {
     name: 'Basic Rules',
     publisher: 'Wizards of the Coast',
@@ -322,6 +327,12 @@ export default createPublications({
     name: 'Dragonlance: Shadow of the Dragon Queen',
     ruleset: '5e-2014',
   },
+  dungeon_master_s_guide_2014: {
+    name: "Dungeon Master's Guide",
+    year: 2014,
+    ruleset: '5e-2014',
+    pdf: "D&D - 5th Edition (2014)/Rules/Dungeon Master's Guide.pdf",
+  },
   dungeons_of_drakkenheim: {
     name: 'Dungeons of Drakkenheim',
     ruleset: '5e-2014',
@@ -378,9 +389,17 @@ export default createPublications({
     name: 'Icewind Dale: Rime of the Frostmaiden',
     ruleset: '5e-2014',
   },
+  infernal_machine_rebuild: {
+    name: 'Infernal Machine Rebuild',
+    ruleset: '5e-2014',
+  },
   journeys_through_the_radiant_citadel: {
     name: 'Journeys through the Radiant Citadel',
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
+  minsc_and_boo_s_journal_of_villainy: {
+    name: "Minsc and Boo's Journal of Villainy",
     ruleset: '5e-2014',
   },
   monster_manual_2014: {
@@ -401,6 +420,11 @@ export default createPublications({
     year: 2025,
     ruleset: '5e-2024',
     pdf: 'D&D - 5th Edition (2014)/Rules/Monster Manual.pdf',
+  },
+  monstrous_compendium_vol_3_minecraft_creatures: {
+    name: 'Monstrous Compendium Vol. 3: Minecraft Creatures',
+    publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
   },
   mordenkainen_presents_monsters_of_the_multiverse: {
     name: 'Mordenkainen Presents: Monsters of the Multiverse',
@@ -425,6 +449,10 @@ export default createPublications({
   },
   mythic_odysseys_of_theros: {
     name: 'Mythic Odysseys of Theros',
+    ruleset: '5e-2014',
+  },
+  nerds_restoring_harmony_a_voice_in_the_wilderness: {
+    name: 'NERDS Restoring Harmony: A Voice in the Wilderness',
     ruleset: '5e-2014',
   },
   nerds_restoring_harmony_a_web_of_lies: {
@@ -578,6 +606,11 @@ export default createPublications({
   },
   the_lost_hope_dm_library: {
     name: 'The Lost Hope DM Library',
+    ruleset: '5e-2014',
+  },
+  the_orrery_of_the_wanderer: {
+    name: 'The Orrery of the Wanderer',
+    year: 2014,
     ruleset: '5e-2014',
   },
   the_wild_beyond_the_witchlight: {

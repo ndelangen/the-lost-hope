@@ -117,5 +117,59 @@ export default createPublicationMonsters({
         ],
       },
     },
+    sensa_prince: {
+      name: 'Sensa Prince',
+      tags: ['human'],
+      alignment: 'alignment varies by prince',
+      languages: ['any one language', 'usually Common'],
+      habitats: ['Anisa', 'Sensa Empire', 'Goldwarren'],
+      appearance: [
+        ['An unarmored Sensa royal with court robes, a draped mantle, and a longsword.'],
+      ],
+      tableNotes: [
+        [
+          'Rules source: Journeys through the Radiant Citadel, Gold for Fools and Princes, pp. 94–95. Base Veteran rules from Monster Manual (2014), p. 350.',
+        ],
+        [
+          'Princes and Scorpions: Prince Kirina and Prince Simbon use this profile when five summoned giant scorpions attack in Anisa. Kirina charges first and Simbon follows. Both fight alongside the characters. A prince at half his hit points or fewer (29 HP with the listed average) takes the Dodge action to avoid further harm.\nA DC 16 Intelligence (Nature) check identifies the attackers as twilight dune scorpions. The scorpions vanish when killed. A DC 12 Intelligence (Arcana or Religion) check identifies that as evidence of magical summoning.',
+        ],
+        [
+          "The rival princes: Kirina, Prince of Niba, is chaotic evil. He works with High Priest Kedjou to stage a crisis that will make him look like Empress Inaya's strongest heir.\nSimbon, Prince of Anisa, is neutral. He takes charge of the Goldwarren rescue at his father's direction and feels obligated to act as a candidate for the throne.",
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '3',
+        ac: 11,
+        hitDice: '9d8',
+        speed: { walk: 30 },
+        scores: { str: 16, dex: 13, con: 14, int: 10, wis: 11, cha: 10 },
+        skills: { athletics: 'proficient', perception: 'proficient' },
+        abilities: [
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make two ', { ability: 'longsword' }, ' attacks.'],
+          },
+          {
+            key: 'longsword',
+            name: 'Longsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              twoHanded: [{ dice: '1d10', type: rules.slashing, addModifier: true }],
+              damage: [{ dice: '1d8', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
   },
 })

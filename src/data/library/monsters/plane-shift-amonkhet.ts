@@ -369,6 +369,69 @@ export default createPublicationMonsters({
         ],
       },
     },
+    river_serpent: {
+      name: 'River Serpent',
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['underwater', 'underdark', 'forest', 'swamp', 'desert'],
+      appearance: [
+        [
+          'A giant river snake with a heavy coiling body. Its slate-blue scales and short neck crest are editorial details adapted from the credited river-serpent illustration.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Reskin: The CR 2 form uses the Giant Constrictor Snake, 2014 Monster Manual p. 324 and Wizards of the Coast System Reference Document 5.1 p. 374. The separate Giant River Serpent uses a different base.',
+        ],
+        [
+          'Constrict imposes the grapple and restraint on a hit. The DC applies to escaping the grapple. The serpent’s swim speed affects movement. The base block gives no separate water-breathing or Hold Breath trait.',
+        ],
+      ],
+      stats: {
+        size: 'huge',
+        type: 'beast',
+        cr: '2',
+        ac: 12,
+        hitDice: '8d12',
+        speed: { walk: 30, swim: 30 },
+        scores: { str: 19, dex: 14, con: 12, int: 1, wis: 10, cha: 3 },
+        skills: { perception: 'proficient' },
+        senses: { blindsight: 10 },
+        abilities: [
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'constrict',
+            name: 'Constrict',
+            timing: 'action',
+            icon: 'gi/GiTentacleStrike',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
+            },
+            text: [
+              'Grapple the target (escape DC 16). The target is ',
+              rules.restrained,
+              ' until the grapple ends. The serpent cannot constrict another target during that grapple.',
+            ],
+          },
+        ],
+      },
+    },
     serpopard: {
       name: 'Serpopard',
       alignment: 'unaligned',

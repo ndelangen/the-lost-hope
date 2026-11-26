@@ -74,5 +74,78 @@ export default createPublicationMonsters({
         ],
       },
     },
+    female_steeder: {
+      name: 'Female Steeder',
+      page: 62,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Underdark', 'Duergar settlements'],
+      appearance: [['A large tarantula-like steeder with a broad body and thick hairy legs.']],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '4d10',
+        speed: { walk: 30, climb: 30 },
+        scores: { str: 15, dex: 16, con: 14, int: 2, wis: 10, cha: 3 },
+        skills: { stealth: 'expert' },
+        senses: { darkvision: 120 },
+        abilities: [
+          {
+            key: 'spider-climb',
+            name: 'Spider Climb',
+            timing: 'trait',
+            icon: 'lucide/MoveUp',
+            text: [
+              'It can climb difficult surfaces, including ceilings upside down, without an ability check.',
+            ],
+          },
+          {
+            key: 'leap',
+            name: 'Leap',
+            timing: 'trait',
+            icon: 'gi/GiFrogFoot',
+            text: [
+              'If its speed is at least 30 ft., the steeder can spend all its movement on its turn to jump up to 90 ft. vertically or horizontally.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { creatures: 1, range: 5, which: 'it hits' },
+              onFail: {
+                damage: [{ dice: '2d8', type: rules.acid }],
+              },
+              onSuccess: 'half',
+            },
+          },
+          {
+            key: 'sticky-leg-recharges-when-no-creatures-are-grappled-by-the-steeder',
+            name: 'Sticky Leg (recharges when no creatures are grappled by the steeder)',
+            timing: 'action',
+            icon: 'gi/GiBull',
+            text: [
+              'Melee weapon attack, attack bonus 5, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is ',
+              rules.grappled,
+              ' until it escapes (escape DC 12).',
+            ],
+          },
+        ],
+      },
+    },
   },
 })

@@ -7,8 +7,70 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_03_the_executioner,
   monsters: {
+    blood_hawk: {
+      name: 'Blood Hawk',
+      page: 23,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Forest', 'Orașnou'],
+      appearance: [['A rust-red hawk with a hooked beak, cream underparts and a banded tail.']],
+      tableNotes: [
+        [
+          'Print note: The printed feature heading reads Keen Hearing and Smell. The rule grants advantage on sight checks.',
+        ],
+        ['Encounter: On 1–3 on the Orașnou encounter table, 1d4 blood hawks swoop in and attack.'],
+      ],
+      stats: {
+        size: 'small',
+        type: 'beast',
+        cr: '1/8',
+        ac: 12,
+        hitDice: '2d6',
+        speed: { walk: 10, fly: 60 },
+        scores: { str: 6, dex: 14, con: 10, int: 3, wis: 14, cha: 5 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-hearing-and-smell',
+            name: 'Keen Hearing and Smell',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: ['The hawk has advantage on Wisdom (Perception) checks that rely on sight.'],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The hawk has advantage on an attack roll against a creature if an ally within 5 ft. of that creature is free of the ',
+              rules.incapacitated,
+              ' condition.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     wererat: {
       name: 'Wererat',
+      reprintedIn: [
+        refs.publications.monster_manual_2014,
+        refs.publications.monster_manual_2024,
+        refs.publications.srd_5_1,
+      ],
       tags: ['human', 'shapechanger'],
       alignment: 'lawful evil',
       languages: ["Common (can't speak in rat form)"],

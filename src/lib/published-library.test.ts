@@ -112,9 +112,14 @@ test('keeps an existing default portrait ahead of its staged alternates', () => 
 })
 
 test('uses the existing fifth-edition glossary for compatible staged printings', () => {
-  const bear = getLibraryEntry('monsters', 'bear-mcdm', true)!
-  expect(bear.selected.edition).toBe('2014 fifth edition compatible')
-  expect(bear.selected.glossary).toBe('srd-5-1')
+  const hyena = getLibraryEntry(
+    'monsters',
+    'abyssal-hyena',
+    true,
+    'printing-719d1bf287a5f509a6fb3ea4',
+  )!
+  expect(hyena.selected.edition).toBe('2014 fifth edition compatible')
+  expect(hyena.selected.glossary).toBe('srd-5-1')
 })
 
 test('retains incomplete printings with their status, hold notes, and existing art', () => {

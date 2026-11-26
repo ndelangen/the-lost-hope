@@ -194,5 +194,141 @@ export default createPublicationMonsters({
         ],
       },
     },
+    sky_leviathan: {
+      name: 'Sky Leviathan',
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Aethersphere', 'Aether currents', 'Airship routes'],
+      appearance: [
+        [
+          'An enormous eel-like beast that swims through the sky. Its long body tapers behind a broad swallowing mouth.',
+        ],
+      ],
+      tableNotes: [
+        ['Movement notes: Can hover'],
+        ['fly · (hover)'],
+        [
+          'Swallowed creatures: A swallowed creature is blinded and restrained and has total cover against attacks and effects outside the leviathan. It takes 21 (6d6) acid damage at the start of each of the leviathan’s turns. If any one creature inside deals at least 30 damage to the leviathan in a single turn, the leviathan makes a DC 21 Constitution save at the end of that turn. On a failure it expels every swallowed creature. Each lands prone within 10 ft. If the leviathan dies, its swallowed creatures are no longer restrained by it and may spend 20 ft. of movement to get out of the corpse, emerging prone.',
+        ],
+        [
+          'Track the damage dealt by each creature inside on its current turn. The swallow follows the self-contained Leviathan rules.',
+        ],
+      ],
+      stats: {
+        size: 'gargantuan',
+        type: 'beast',
+        cr: '10',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '15d20',
+        speed: { fly: 50, walk: 0 },
+        scores: { str: 28, dex: 7, con: 22, int: 1, wis: 8, cha: 4 },
+        saves: { con: 'proficient', wis: 'proficient' },
+        abilities: [
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              printedBonus: 9,
+              damage: [{ dice: '3d8', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'A Large or smaller creature hit by the bite must make a ',
+              { dc: 'con', save: 'dex' },
+              ' Dexterity save or be swallowed.',
+            ],
+          },
+        ],
+      },
+    },
+    sky_whale: {
+      name: 'Sky Whale',
+      page: 324,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['swamp'],
+      appearance: [
+        [
+          'A vast floating whale with a broad filtering mouth, powerful paired flippers and forked tail flukes. Its markings are slate gray and cream.',
+        ],
+      ],
+      tableNotes: [
+        ['Movement notes: Can hover'],
+        ['fly · (hover)'],
+        [
+          'Sky whales mostly avoid confrontations. Read the Giant Crocodile base speeds as continuing to apply because the supplement adds hover flight without removing those modes. Flipper replaces the bite and only has the effects of Tail.',
+        ],
+      ],
+      stats: {
+        size: 'huge',
+        type: 'beast',
+        cr: '5',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '9d12',
+        speed: { walk: 30, fly: 50, swim: 50 },
+        scores: { str: 21, dex: 9, con: 17, int: 2, wis: 10, cha: 7 },
+        skills: { stealth: 'expert' },
+        abilities: [
+          {
+            key: 'hold-breath',
+            name: 'Hold Breath',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['The whale can go without taking a breath for up to 30 minutes.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'flipper' },
+              ' attack and one ',
+              { ability: 'tail' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'flipper',
+            name: 'Flipper',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
+            },
+            text: [
+              'If it is a creature, it must pass a ',
+              { dc: 'str' },
+              ' Strength save or fall ',
+              rules.prone,
+              '.',
+            ],
+          },
+          {
+            key: 'tail',
+            name: 'Tail',
+            timing: 'action',
+            icon: 'gi/GiWhiplash',
+            text: [
+              'Use the same reach, hit modifier, targeting restriction, damage and save as ',
+              { ability: 'flipper' },
+              '.',
+            ],
+          },
+        ],
+      },
+    },
   },
 })

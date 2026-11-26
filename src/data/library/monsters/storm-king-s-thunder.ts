@@ -274,6 +274,46 @@ export default createPublicationMonsters({
         ],
       },
     },
+    sheep: {
+      name: 'Sheep',
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['mountain', 'grassland', 'hill', 'urban'],
+      appearance: [['A small domestic sheep with a woolly coat, narrow hooves, and short ears.']],
+      tableNotes: [
+        [
+          "Rules source: Storm King's Thunder, p. 142. Rime of the Frostmaiden, p. 76, uses the same sheep profile.",
+        ],
+        [
+          'Good Mead encounter: In Rime of the Frostmaiden, six sheep and seven goats are kept in the Firelit Cave. A character in a position to threaten the livestock can use an action to make a DC 10 Charisma (Intimidation) check. On success the verbeeg stops fighting and calls off the ogre and bear. It lets the party leave if the animals are left unharmed in the pen.',
+        ],
+        [
+          'Actions: The published profile has no effective attack. In combat, the sheep can use ordinary actions such as Dash, Disengage or Dodge.',
+        ],
+      ],
+      stats: {
+        size: 'small',
+        type: 'beast',
+        cr: '0',
+        ac: 10,
+        hitDice: '1d6',
+        speed: { walk: 30 },
+        scores: { str: 12, dex: 10, con: 11, int: 2, wis: 10, cha: 5 },
+        abilities: [
+          {
+            key: 'sure-footed',
+            name: 'Sure-Footed',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'Advantage on Strength and Dexterity saves against effects that would knock the sheep ',
+              rules.prone,
+              '.',
+            ],
+          },
+        ],
+      },
+    },
     yak: {
       name: 'Yak',
       page: 172,

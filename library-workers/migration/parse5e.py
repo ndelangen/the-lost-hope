@@ -558,6 +558,16 @@ def convert(r,p):
         tohit=int(am.group(2)); cands=ability_for(tohit,scores,prof,(([CTX['caster']] if CTX['caster'] else [])+['int','wis','cha']) if spell else ('str','dex'))
         dmgb=int(am.group(11) or 0)*(-1 if am.group(10) in ('-','−','–') else 1)
         cands=[a for a in cands if mod(scores[a])==dmgb] or cands
+        magic=0
+        if not cands and not spell:
+          # A weapon attack can use another ability ("Withering Touch", Charisma) when both its
+          # bonus and its damage say so, or be a +1 to +3 weapon on Strength or Dexterity.
+          alt=[x for x in ('int','wis','cha') if mod(scores[x])+prof==tohit and (mod(scores[x])==dmgb or not am.group(11))]
+          if alt: cands=alt
+          else:
+            for bonus in (1,2,3):
+              hit=[x for x in ('str','dex') if mod(scores[x])+prof+bonus==tohit and mod(scores[x])+bonus==dmgb]
+              if hit and re.search(r'\+'+str(bonus)+r'\b',name+' '+text): cands=hit; magic=bonus; break
         printed=None
         if not cands:
           # The book breaks the formula: keep its bonus, on the ability its damage uses.
@@ -569,10 +579,10 @@ def convert(r,p):
         fixed='d' not in am.group(9)
         # Damage adds the attack's modifier, or nothing at all (a fixed amount, most spell attacks).
         plain=fixed or (dmgb==0 and mod(scores[a])!=0)
-        if avg(am.group(9),0 if plain else mod(scores[a]))!=int(am.group(8)): issues.append(f'{name}: damage avg')
-        if not plain and dmgb!=mod(scores[a]): issues.append(f'{name}: damage bonus {dmgb} != {a} mod')
+        if avg(am.group(9),0 if plain else mod(scores[a])+magic)!=int(am.group(8)): issues.append(f'{name}: damage avg')
+        if not plain and dmgb!=mod(scores[a])+magic: issues.append(f'{name}: damage bonus {dmgb} != {a} mod')
         if am.group(12).lower() not in DAMAGE: issues.append(f'{name}: damage type {am.group(12)}')
-        atk={'kind':kind,'ability':a,**({'printedBonus':printed} if printed is not None else {})}
+        atk={'kind':kind,'ability':a,**({'printedBonus':printed} if printed is not None else {}),**({'magic':magic} if magic else {})}
         if kind=='melee':
           atk['reach']=int(am.group(3))
           if am.group(4): atk['thrown']=[int(am.group(4)),int(am.group(5))]

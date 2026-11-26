@@ -1,7 +1,10 @@
 import baldur_s_gate_descent_into_avernus from './baldur-s-gate-descent-into-avernus.ts'
+import basic_rules_2014 from './basic-rules-2014.ts'
 import basic_rules_2018 from './basic-rules-2018.ts'
 import bigby_presents_glory_of_the_giants from './bigby-presents-glory-of-the-giants.ts'
 import creature_codex from './creature-codex.ts'
+import critical_role_call_of_the_netherdeep from './critical-role-call-of-the-netherdeep.ts'
+import curse_of_strahd from './curse-of-strahd.ts'
 import d_d_world_of_warcraft from './d-d-world-of-warcraft.ts'
 import ddal04_01_the_suits_of_the_mists from './ddal04-01-the-suits-of-the-mists.ts'
 import ddal04_02_the_beast from './ddal04-02-the-beast.ts'
@@ -48,7 +51,9 @@ import ddex3_13_writhing_in_the_dark from './ddex3-13-writhing-in-the-dark.ts'
 import ddex3_14_death_on_the_wall from './ddex3-14-death-on-the-wall.ts'
 import ddex3_15_szith_morcane_unbound from './ddex3-15-szith-morcane-unbound.ts'
 import ddex3_16_assault_on_maerimydra from './ddex3-16-assault-on-maerimydra.ts'
+import dungeon_master_s_guide_2014 from './dungeon-master-s-guide-2014.ts'
 import dungeons_of_drakkenheim from './dungeons-of-drakkenheim.ts'
+import eberron_rising_from_the_last_war from './eberron-rising-from-the-last-war.ts'
 import explorer_s_guide_to_wildemount from './explorer-s-guide-to-wildemount.ts'
 import fizban_s_treasury_of_dragons from './fizban-s-treasury-of-dragons.ts'
 import flee_mortals_public_preview from './flee-mortals-public-preview.ts'
@@ -59,17 +64,23 @@ import hoard_of_the_dragon_queen_online_supplement from './hoard-of-the-dragon-q
 import hoard_of_the_dragon_queen from './hoard-of-the-dragon-queen.ts'
 import humblewood_campaign_setting from './humblewood-campaign-setting.ts'
 import icewind_dale_rime_of_the_frostmaiden from './icewind-dale-rime-of-the-frostmaiden.ts'
+import infernal_machine_rebuild from './infernal-machine-rebuild.ts'
 import journeys_through_the_radiant_citadel from './journeys-through-the-radiant-citadel.ts'
+import minsc_and_boo_s_journal_of_villainy from './minsc-and-boo-s-journal-of-villainy.ts'
 import monster_manual_2014 from './monster-manual-2014.ts'
 import monster_manual_2024 from './monster-manual-2024.ts'
+import monstrous_compendium_vol_3_minecraft_creatures from './monstrous-compendium-vol-3-minecraft-creatures.ts'
 import mordenkainen_presents_monsters_of_the_multiverse from './mordenkainen-presents-monsters-of-the-multiverse.ts'
 import mordenkainen_s_fiendish_folio_volume_1 from './mordenkainen-s-fiendish-folio-volume-1.ts'
+import mordenkainen_s_fiendish_folio from './mordenkainen-s-fiendish-folio.ts'
 import mordenkainen_s_tome_of_foes from './mordenkainen-s-tome-of-foes.ts'
 import morte_s_planar_parade from './morte-s-planar-parade.ts'
 import mythic_odysseys_of_theros from './mythic-odysseys-of-theros.ts'
+import nerds_restoring_harmony_a_voice_in_the_wilderness from './nerds-restoring-harmony-a-voice-in-the-wilderness.ts'
 import nerds_restoring_harmony_a_web_of_lies from './nerds-restoring-harmony-a-web-of-lies.ts'
 import out_of_the_abyss_d_d_encounters from './out-of-the-abyss-d-d-encounters.ts'
 import out_of_the_abyss from './out-of-the-abyss.ts'
+import phandelver_and_below_the_shattered_obelisk from './phandelver-and-below-the-shattered-obelisk.ts'
 import plane_shift_amonkhet from './plane-shift-amonkhet.ts'
 import plane_shift_dominaria from './plane-shift-dominaria.ts'
 import plane_shift_ixalan from './plane-shift-ixalan.ts'
@@ -89,6 +100,7 @@ import storm_king_s_thunder from './storm-king-s-thunder.ts'
 import tal_dorei_campaign_setting_reborn from './tal-dorei-campaign-setting-reborn.ts'
 import tales_from_the_yawning_portal from './tales-from-the-yawning-portal.ts'
 import the_lost_hope_dm_library from './the-lost-hope-dm-library.ts'
+import the_orrery_of_the_wanderer from './the-orrery-of-the-wanderer.ts'
 import the_wild_beyond_the_witchlight from './the-wild-beyond-the-witchlight.ts'
 import tomb_of_annihilation from './tomb-of-annihilation.ts'
 import tome_of_beasts_2 from './tome-of-beasts-2.ts'
@@ -105,9 +117,12 @@ import where_evil_lives from './where-evil-lives.ts'
 /** Every publication whose monsters the library holds as typed data. */
 export default [
   baldur_s_gate_descent_into_avernus,
+  basic_rules_2014,
   basic_rules_2018,
   bigby_presents_glory_of_the_giants,
   creature_codex,
+  critical_role_call_of_the_netherdeep,
+  curse_of_strahd,
   d_d_world_of_warcraft,
   ddal04_01_the_suits_of_the_mists,
   ddal04_02_the_beast,
@@ -154,7 +169,9 @@ export default [
   ddex3_14_death_on_the_wall,
   ddex3_15_szith_morcane_unbound,
   ddex3_16_assault_on_maerimydra,
+  dungeon_master_s_guide_2014,
   dungeons_of_drakkenheim,
+  eberron_rising_from_the_last_war,
   explorer_s_guide_to_wildemount,
   fizban_s_treasury_of_dragons,
   flee_mortals,
@@ -165,17 +182,23 @@ export default [
   hoard_of_the_dragon_queen_online_supplement,
   humblewood_campaign_setting,
   icewind_dale_rime_of_the_frostmaiden,
+  infernal_machine_rebuild,
   journeys_through_the_radiant_citadel,
+  minsc_and_boo_s_journal_of_villainy,
   monster_manual_2014,
   monster_manual_2024,
+  monstrous_compendium_vol_3_minecraft_creatures,
   mordenkainen_presents_monsters_of_the_multiverse,
+  mordenkainen_s_fiendish_folio,
   mordenkainen_s_fiendish_folio_volume_1,
   mordenkainen_s_tome_of_foes,
   morte_s_planar_parade,
   mythic_odysseys_of_theros,
+  nerds_restoring_harmony_a_voice_in_the_wilderness,
   nerds_restoring_harmony_a_web_of_lies,
   out_of_the_abyss,
   out_of_the_abyss_d_d_encounters,
+  phandelver_and_below_the_shattered_obelisk,
   plane_shift_amonkhet,
   plane_shift_dominaria,
   plane_shift_ixalan,
@@ -195,6 +218,7 @@ export default [
   tal_dorei_campaign_setting_reborn,
   tales_from_the_yawning_portal,
   the_lost_hope_dm_library,
+  the_orrery_of_the_wanderer,
   the_wild_beyond_the_witchlight,
   tomb_of_annihilation,
   tome_of_beasts,

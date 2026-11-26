@@ -67,5 +67,64 @@ export default createPublicationMonsters({
         ],
       },
     },
+    peacock: {
+      name: 'Peacock',
+      page: 195,
+      alignment: 'unaligned',
+      habitats: ['grassland', 'hill', 'desert'],
+      appearance: [
+        ['A male peafowl with a blue crested head, blue neck, and an eyespotted green train.'],
+      ],
+      tableNotes: [
+        [
+          'Encounter: Outer City Denizens result 7 has 1d4 commoners herding 2d8 goats and one peacock. The encounter uses the Vulture statistics unchanged.',
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'beast',
+        cr: '0',
+        ac: 10,
+        hitDice: '1d8',
+        speed: { walk: 10, fly: 50 },
+        scores: { str: 7, dex: 10, con: 13, int: 2, wis: 12, cha: 4 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-sight-and-smell',
+            name: 'Keen Sight and Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: [
+              'The peacock has advantage on Wisdom (Perception) checks that use sight or smell.',
+            ],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The peacock has advantage on attacks against targets within 5 ft. of a non-',
+              rules.incapacitated,
+              ' ally of the peacock.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
   },
 })

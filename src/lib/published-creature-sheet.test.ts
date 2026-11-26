@@ -11,37 +11,46 @@ import { loadAllLibraryDetails } from './published-library-data'
 
 await loadAllLibraryDetails()
 
-test('keeps reviewed Aboleth action icons with the matching Monster Manual printing', () => {
-  const legacy = getLibraryEntry('monsters', 'aboleth', true, 'printing-d4d72e21bff182fcabfdacb7')!
-  const revised = getLibraryEntry('monsters', 'aboleth', true, 'printing-5ff2dfa174c6eb4a41b25648')!
-  const actions = (entry: typeof legacy) =>
-    entry.sections
-      .find(({ title }) => title === 'Actions')!
-      .lines.flatMap((line) => creatureRuleParagraphs(line, entry.abilityDisplay))
+/**
+ * A printing still held as catalog text, in the shape the catalog stores: the Aboleth as the
+ * catalog held it before it was typed, with the icons a review gave its abilities.
+ */
+const heldAboleth = {
+  sections: [
+    {
+      title: 'Saving throws',
+      lines: ['Con +6', 'Int +8', 'Wis +6'],
+    },
+    { title: 'Skills', lines: ['History +12, Perception +10.'] },
+    { title: 'Senses', lines: ['Darkvision 120 ft., passive Perception 20.'] },
+    { title: 'Languages', lines: ['Deep Speech, telepathy 120 ft.'] },
+    {
+      title: 'Actions',
+      lines: [
+        'Multiattack. Make three Tentacle attacks.\nTentacle. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 12 (2d6 + 5) bludgeoning.\nTail. Melee weapon attack, +9 to hit, reach 10 ft., one target. Hit 15 (3d6 + 5) bludgeoning.\nEnslave (3/day). One creature the aboleth can see within 30 ft. makes a DC 14 Wisdom save.',
+      ],
+    },
+  ],
+  display: {
+    Multiattack: { icon: 'gi/GiCrossedSlashes', kind: 'attack' },
+    Tentacle: { icon: 'gi/GiTentacleStrike', kind: 'melee' },
+    Tail: { icon: 'gi/GiWhiplash', kind: 'melee' },
+    Enslave: { icon: 'gi/GiCharm', kind: 'save' },
+  },
+} as const
 
-  expect(actions(legacy).map(({ title }) => title)).toEqual([
+test('keeps reviewed action icons on a held printing', () => {
+  const actions = heldAboleth.sections
+    .find(({ title }) => title === 'Actions')!
+    .lines.flatMap((line) => creatureRuleParagraphs(line, heldAboleth.display))
+  expect(actions.map(({ title }) => title)).toEqual([
     'Multiattack.',
     'Tentacle.',
     'Tail.',
     'Enslave (3/day).',
   ])
-  expect(actions(legacy)[1]?.presentation).toEqual({
-    icon: 'gi/GiTentacleStrike',
-    kind: 'melee',
-  })
-  expect(actions(revised).map(({ title }) => title)).toEqual([
-    'Multiattack.',
-    'Tentacle.',
-    'Consume Memories.',
-    'Dominate Mind (2/day).',
-  ])
-  const traits = revised.sections.find(({ title }) => title === 'Traits')!
-  const cloud = traits.lines
-    .flatMap((line) => creatureRuleParagraphs(line, revised.abilityDisplay))
-    .find(({ title }) => title === 'Mucus Cloud.')
-  expect(cloud?.presentation).toEqual({ icon: 'gi/GiSmokeBomb', kind: 'save' })
-  expect(cloud?.text).toContain('DC 14 Constitution save')
-  expect(getLibraryEntry('monsters', 'aboleth', false)?.abilityDisplay).toBeUndefined()
+  expect(actions[1]?.presentation).toEqual({ icon: 'gi/GiTentacleStrike', kind: 'melee' })
+  expect(actions[3]?.presentation).toEqual({ icon: 'gi/GiCharm', kind: 'save' })
 })
 
 test('uses the printed attack instruction when no reviewed icon or kind exists', () => {
@@ -60,9 +69,8 @@ test('separates action introductions from named options', () => {
   ).toEqual([undefined, 'Lash.'])
 })
 
-test('splits legacy Aboleth statistics into the original sheet sections', () => {
-  const entry = getLibraryEntry('monsters', 'aboleth', true, 'printing-d4d72e21bff182fcabfdacb7')!
-  const sheet = publishedCreatureSheet(entry.sections)
+test("splits a held printing's statistics into the original sheet sections", () => {
+  const sheet = publishedCreatureSheet(heldAboleth.sections)
   expect(sheet.savingThrows.map(({ name, modifier }) => [name, modifier])).toEqual([
     ['Constitution', 6],
     ['Intelligence', 8],
@@ -83,10 +91,10 @@ test('separates combined-range attacks for printings without reviewed metadata',
 })
 
 test('separates named non-attack actions and traits in compact printings', () => {
-  const eel = getLibraryEntry('monsters', 'rivetback-eel', true)!
-  const actions = eel.sections.find(({ title }) => title === 'Actions')!
   expect(
-    actions.lines.flatMap((line) => creatureRuleParagraphs(line)).map(({ title }) => title),
+    creatureRuleParagraphs(
+      "Bite. Melee attack roll +4, reach 5 ft. Hit: 5 (1d6 + 2) piercing damage.\nWedge. The eel jams itself into a crack and can't be pulled free.",
+    ).map(({ title }) => title),
   ).toEqual(['Bite.', 'Wedge.'])
 
   // A converted printing keeps its statistics in typed data, not in text sections.

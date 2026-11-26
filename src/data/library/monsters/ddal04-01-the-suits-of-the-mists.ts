@@ -7,6 +7,71 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_01_the_suits_of_the_mists,
   monsters: {
+    fire_stirge: {
+      name: 'Fire Stirge',
+      page: 14,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Cave', 'Underground'],
+      appearance: [
+        [
+          'A reddish brown flying creature with leathery wings, jointed legs, and a long pointed proboscis.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Encounter notes: Four fire stirges initially harass Hricu. Four more join the fight in the third round.',
+        ],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '1/8',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '1d4',
+        speed: { walk: 10, fly: 40 },
+        scores: { str: 4, dex: 16, con: 11, int: 2, wis: 8, cha: 6 },
+        senses: { darkvision: 60 },
+        damageResistances: [rules.fire],
+        damageVulnerabilities: [rules.cold],
+        abilities: [
+          {
+            key: 'blood-drain',
+            name: 'Blood Drain',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'The stirge attaches to the target. While attached it does not attack. At the start of each of the stirge’s turns the target loses ',
+              { roll: '1d4', mod: 'dex' },
+              ' HP to blood loss. The stirge can detach by spending 5 ft. of its movement. It does so after draining 10 HP of blood from the target or if the target dies. Any creature, including the target, can take an action to detach it.',
+            ],
+          },
+          {
+            key: 'flare',
+            name: 'Flare',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'The stirge exhales fire into a 5-foot square adjacent to itself. A creature in the square makes a ',
+              { dc: 'con', save: 'dex' },
+              ' Dexterity save, taking ',
+              { roll: '2d4' },
+              ' damage on a failure and no damage on a success.',
+            ],
+            uses: 1,
+            recharge: 'Recharge 6',
+          },
+        ],
+      },
+    },
     guard: {
       name: 'Guard',
       tags: ['any race'],

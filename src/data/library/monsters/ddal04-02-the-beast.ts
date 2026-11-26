@@ -7,6 +7,65 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.ddal04_02_the_beast,
   monsters: {
+    blood_hawk: {
+      name: 'Blood Hawk',
+      page: 27,
+      alignment: 'unaligned',
+      languages: [],
+      habitats: ['Forest', 'Quivering Forest'],
+      appearance: [['A rust-red hawk with a hooked beak, cream underparts and a banded tail.']],
+      tableNotes: [
+        [
+          'Print note: The printed feature heading reads Keen Hearing and Smell. The rule grants advantage on sight checks.',
+        ],
+        [
+          'Encounter: Six blood hawks nest in hardy maples. They do not pursue when the party retreats more than 50 ft. from the tree. Very weak and weak parties face four. Against a strong party the wind imposes disadvantage on ranged weapon attacks. A very strong party also faces two additional hawks.',
+        ],
+      ],
+      stats: {
+        size: 'small',
+        type: 'beast',
+        cr: '1/8',
+        ac: 12,
+        hitDice: '2d6',
+        speed: { walk: 10, fly: 60 },
+        scores: { str: 6, dex: 14, con: 10, int: 3, wis: 14, cha: 5 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-hearing-and-smell',
+            name: 'Keen Hearing and Smell',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: ['The hawk has advantage on Wisdom (Perception) checks that rely on sight.'],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The hawk has advantage on an attack roll against a creature if an ally within 5 ft. of that creature is free of the ',
+              rules.incapacitated,
+              ' condition.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     zombie: {
       name: 'Zombie',
       alignment: 'neutral evil',

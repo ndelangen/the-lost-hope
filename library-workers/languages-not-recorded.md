@@ -2,11 +2,34 @@
 
 The library shows "Not recorded" for these. Fill them from the books when we have them.
 
+- Baldur's Gate: Descent Into Avernus: Peacock
 - Bigby Presents: Glory of the Giants: Giant Ram
 - Bigby Presents: Glory of the Giants: Gigant
 - Bigby Presents: Glory of the Giants: Regisaur
+- Dungeons of Drakkenheim: Gutbuster Haze Hulk
 - Dungeons of Drakkenheim: Haze Hulk
+- Dungeons of Drakkenheim: Hunter Haze Hulk
+- Dungeons of Drakkenheim: Juggernaut Haze Hulk
 - Dungeons of Drakkenheim: Lord of the Feast
+- Dungeons of Drakkenheim: Scoundrel
+- Dungeons of Drakkenheim: Wall Gargoyle
+- Flee, Mortals! public preview: Overmind
+- Flee, Mortals!: Angulotl Blade
+- Flee, Mortals!: Angulotl Needler
+- Flee, Mortals!: Angulotl Seer
+- Flee, Mortals!: Aronar Valkys
+- Flee, Mortals!: Athmia Valkys
+- Flee, Mortals!: Bloodlord Varrox
+- Flee, Mortals!: Bredbeddle
+- Flee, Mortals!: Caithas
+- Flee, Mortals!: Chimeron
+- Flee, Mortals!: Devil Adjudicator
+- Flee, Mortals!: Devil Jurist
+- Flee, Mortals!: Devil Legate
+- Flee, Mortals!: Devil Magistrate
+- Flee, Mortals!: Dohma Raskovar
+- Flee, Mortals!: Excess
+- Flee, Mortals!: Frost Giant Wind Sprinter
 - Flee, Mortals!: Gnoll Abyssal Archer
 - Flee, Mortals!: Gnoll Abyssal Summoner
 - Flee, Mortals!: Gnoll Bonesplitter
@@ -16,20 +39,49 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Flee, Mortals!: Halorin Yandres
 - Flee, Mortals!: Harpy (MCDM)
 - Flee, Mortals!: Hulking Brain
+- Flee, Mortals!: Human Brawler
+- Flee, Mortals!: Human Death Cultist
 - Flee, Mortals!: Human Knave
+- Flee, Mortals!: Human Raider
 - Flee, Mortals!: Human Scoundrel
 - Flee, Mortals!: Human Trickshot
+- Flee, Mortals!: Jedar Pike
+- Flee, Mortals!: Klar
+- Flee, Mortals!: Kobold Veles
+- Flee, Mortals!: Lestheris Soldrei
 - Flee, Mortals!: Lizardfolk Bloodeye
 - Flee, Mortals!: Lizardfolk Scaletooth
 - Flee, Mortals!: Lizardfolk Terrorsaur
+- Flee, Mortals!: Lord Erasmus Deseo
+- Flee, Mortals!: Marvorok
+- Flee, Mortals!: Medusa (MCDM)
+- Flee, Mortals!: Mindkiller
+- Flee, Mortals!: Minotaur (MCDM)
+- Flee, Mortals!: Otyugh (MCDM)
+- Flee, Mortals!: Qar, Master of Jackals
+- Flee, Mortals!: Time Raider Armiger
+- Flee, Mortals!: Time Raider Nemesis
+- Flee, Mortals!: Troll (MCDM)
+- Flee, Mortals!: Vali
+- Flee, Mortals!: Vivienn Dirroze
 - Ghosts of Saltmarsh: Fathomer
+- Ghosts of Saltmarsh: Sea Hag (Coven Variant)
+- Guildmasters’ Guide to Ravnica: Skyswimmer
 - Humblewood Campaign Setting: Cervan Bandit General
 - Monster Manual (2014): Abominable Yeti
+- Monster Manual (2014): Adult Red Dragon
+- Monster Manual (2014): Beholder
 - Monster Manual (2014): Cockatrice
 - Monster Manual (2014): Darkmantle
+- Monster Manual (2014): Death Tyrant
 - Monster Manual (2014): Deep Gnome (Svirfneblin)
+- Monster Manual (2014): Drider (variant)
+- Monster Manual (2014): Drider Spellcaster
+- Monster Manual (2014): Drow Priestess of Lolth
+- Monster Manual (2014): Faerie Dragon (Older)
 - Monster Manual (2014): Faerie Dragon (Younger)
 - Monster Manual (2014): Gibbering Mouther
+- Monster Manual (2014): Githyanki Knight
 - Monster Manual (2014): Githyanki Warrior
 - Monster Manual (2014): Githzerai Zerth
 - Monster Manual (2014): Gnoll Fang of Yeenoghu
@@ -39,6 +91,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2014): Hippogriff
 - Monster Manual (2014): Orog
 - Monster Manual (2014): Phase Spider
+- Monster Manual (2024): Animated Broom
 - Monster Manual (2024): Axe Beak
 - Monster Manual (2024): Basilisk
 - Monster Manual (2024): Bulette Pup
@@ -48,6 +101,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Darkmantle
 - Monster Manual (2024): Ettercap
 - Monster Manual (2024): Flying Snake
+- Monster Manual (2024): Gas Spore Fungus
 - Monster Manual (2024): Gelatinous Cube
 - Monster Manual (2024): Gibbering Mouther
 - Monster Manual (2024): Gorgon
@@ -61,53 +115,103 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Ochre Jelly
 - Monster Manual (2024): Owlbear
 - Monster Manual (2024): Phase Spider
+- Monster Manual (2024): Piercer
 - Monster Manual (2024): Psychic Gray Ooze
 - Monster Manual (2024): Roc
 - Monster Manual (2024): Rust Monster
 - Monster Manual (2024): Shadow
 - Monster Manual (2024): Tarrasque
+- Monster Manual (2024): Violet Fungus Necrohulk
 - Monster Manual (2024): Warhorse Skeleton
 - Monster Manual (2024): Wyvern
 - Mordenkainen Presents: Monsters of the Multiverse: Catoblepas
 - Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher
+- Mordenkainen Presents: Monsters of the Multiverse: Female Steeder
+- Mordenkainen Presents: Monsters of the Multiverse: Flail Snail
 - Mordenkainen Presents: Monsters of the Multiverse: Giant Strider
 - Mordenkainen Presents: Monsters of the Multiverse: Girallon
 - Mordenkainen Presents: Monsters of the Multiverse: Leviathan
 - Mordenkainen Presents: Monsters of the Multiverse: Neogi Hatchling
+- Mordenkainen Presents: Monsters of the Multiverse: Neothelid
+- Mordenkainen Presents: Monsters of the Multiverse: Nightwalker
 - Mordenkainen Presents: Monsters of the Multiverse: Oblex Spawn
 - Mordenkainen Presents: Monsters of the Multiverse: Phoenix
+- Mordenkainen Presents: Monsters of the Multiverse: Wretched Sorrowsworn
+- Mythic Odysseys of Theros: Nyx-Fleece Ram
 - Mythic Odysseys of Theros: Polukranos
+- Mythic Odysseys of Theros: Two-Headed Cerberus
 - Plane Shift: Zendikar: Drake (Large)
 - Planescape: Adventures in the Multiverse: Pixie
 - Spelljammer: Adventures in Space: Brown Scavver
 - Spelljammer: Adventures in Space: Chwinga Astronaut
+- Spelljammer: Adventures in Space: Esthetic
+- Spelljammer: Adventures in Space: Feyr
 - Spelljammer: Adventures in Space: Gray Scavver
+- Spelljammer: Adventures in Space: Jammer Leech
+- Spelljammer: Adventures in Space: Kindori
+- Spelljammer: Adventures in Space: Megapede
+- Spelljammer: Adventures in Space: Neogi Hatchling Swarm
+- Spelljammer: Adventures in Space: Void Scavver
 - Tal’Dorei Campaign Setting Reborn: Ashari Stoneguard
 - Tal’Dorei Campaign Setting Reborn: Ashari Waverider
 - Tal’Dorei Campaign Setting Reborn: Clasp Cutthroat
 - Tal’Dorei Campaign Setting Reborn: Clasp Enforcer
 - Tal’Dorei Campaign Setting Reborn: Jourrael, the Caedogeist
+- Tal’Dorei Campaign Setting Reborn: Kraghammer Goat-Knight
+- Tal’Dorei Campaign Setting Reborn: Ravager Slaughter Lord
+- Tal’Dorei Campaign Setting Reborn: Ravager Stabby-Stabber
+- Tal’Dorei Campaign Setting Reborn: Remnant Cultist
+- Tal’Dorei Campaign Setting Reborn: Rivermaw Brawler
+- Tal’Dorei Campaign Setting Reborn: Rivermaw Stormborn
+- Tal’Dorei Campaign Setting Reborn: Vos’skyriss Serpentfolk
+- Tal’Dorei Campaign Setting Reborn: Vos’skyriss Serpentfolk Ghost
 - Tal’Dorei Campaign Setting Reborn: Wraithroot Tree
+- The Orrery of the Wanderer: Onyx
 - The Wild Beyond the Witchlight: Displacer Beast Kitten
 - The Wild Beyond the Witchlight: Glasswork Golem
 - The Wild Beyond the Witchlight: Gloam
+- The Wild Beyond the Witchlight: Paper Bird
 - The Wild Beyond the Witchlight: Pixie
+- Tomb of Annihilation: Chwinga
 - Tomb of Annihilation: Clay Gladiator
 - Tomb of Annihilation: Mantrap
 - Tomb of Annihilation: Su-monster
+- Tomb of Annihilation: Tri-flower Frond
 - Tomb of Annihilation: Tyrannosaurus Zombie
+- Tomb of Annihilation: Yellow Musk Zombie
+- Tomb of Annihilation: Zorbo
 - Volo's Guide to Monsters: Catoblepas
 - Volo's Guide to Monsters: Cave Fisher
+- Volo's Guide to Monsters: Flail Snail
 - Volo's Guide to Monsters: Froghemoth
 - Volo's Guide to Monsters: Hadrosaurus
 - Volo's Guide to Monsters: Stegosaurus
+- Volo's Guide to Monsters: Swarm of Cranium Rats
 - Volo's Guide to Monsters: Velociraptor
 - Waterdeep: Dragon Heist: Elzerina Cassalanter
 - Waterdeep: Dragon Heist: Jenks
+- Waterdeep: Dragon Heist: Nat
+- Waterdeep: Dragon Heist: Squiddly
+- Waterdeep: Dragon Heist: Terenzio Cassalanter
 - Waterdeep: Dungeon of the Mad Mage: Haungharassk
+- Where Evil Lives: Amalgam
+- Where Evil Lives: Bloodlord Varrox
+- Where Evil Lives: Chimeron
+- Where Evil Lives: Devil Adjudicator
+- Where Evil Lives: Devil Jurist
+- Where Evil Lives: Devil Legate
+- Where Evil Lives: Devil Magistrate
+- Where Evil Lives: Dohma Raskovar
+- Where Evil Lives: Frost Giant Wind Sprinter
 - Where Evil Lives: Gnoll Bonesplitter
 - Where Evil Lives: Grilp
 - Where Evil Lives: Hulking Brain
+- Where Evil Lives: Human Brawler
+- Where Evil Lives: Human Death Cultist
 - Where Evil Lives: Human Knave
+- Where Evil Lives: Human Raider
 - Where Evil Lives: Human Scoundrel
 - Where Evil Lives: Human Trickshot
+- Where Evil Lives: Mindkiller
+- Where Evil Lives: Time Raider Nemesis
+- Where Evil Lives: Troll (MCDM)

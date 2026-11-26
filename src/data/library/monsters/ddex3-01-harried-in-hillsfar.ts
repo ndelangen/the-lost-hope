@@ -463,6 +463,7 @@ export default createPublicationMonsters({
     },
     wild_dog: {
       name: 'Wild Dog',
+      reprintedIn: [refs.publications.tomb_of_annihilation],
       alignment: 'unaligned',
       languages: [],
       habitats: ['Farbough Farm', 'Far pasture'],
