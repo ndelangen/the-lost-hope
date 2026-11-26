@@ -8,6 +8,7 @@ import type { Connect, Plugin } from 'vite'
 import { devIconModulesPlugin } from './scripts/dev-icon-modules.ts'
 import { dmAuthoringPlugin } from './scripts/dm-authoring.ts'
 import { generateRefs, REFERENCE_SOURCE_PATHS } from './scripts/generate-refs.ts'
+import { libraryCatalogPlugin } from './scripts/library-catalog.ts'
 import { readPublicPagePaths } from './scripts/public-page-paths.ts'
 import { HANDOUT_PATHS } from './src/lib/handouts.ts'
 import { SITE_ORIGIN } from './src/lib/site-origin.ts'
@@ -80,8 +81,9 @@ const config = defineConfig(({ mode }) => {
             groups: [
               {
                 name: (id) => {
-                  const catalog = /\/published-library-catalog\/([\w-]+)\.json$/.exec(id)
-                  return catalog ? `published-library-catalog-${catalog[1]}` : null
+                  if (id === '\0virtual:library-index') return 'published-library-index'
+                  const detail = /^\0virtual:library-detail\/([\w-]+)$/.exec(id)
+                  return detail ? `published-library-detail-${detail[1]}` : null
                 },
                 includeDependenciesRecursively: false,
               },
@@ -109,6 +111,7 @@ const config = defineConfig(({ mode }) => {
     },
     plugins: [
       generatedRefsPlugin(),
+      libraryCatalogPlugin(),
       dmAuthoringPlugin(),
       devIconModulesPlugin(),
       tanstackStart({

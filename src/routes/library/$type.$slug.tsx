@@ -14,7 +14,8 @@ export const Route = createFileRoute('/library/$type/$slug')({
   beforeLoad: async ({ params, search }) => {
     const { type, slug } = params
     if (!isLibraryType(type)) throw notFound()
-    const { getLibraryEntry } = await import('#/lib/published-library')
+    const { getLibraryEntry, loadLibraryDetail } = await import('#/lib/published-library')
+    await loadLibraryDetail(type, slug)
     const entry = getLibraryEntry(type, slug, Boolean(search.dm), search.version)
     if (!entry) throw notFound()
     const { typed: ref } = entry.selected

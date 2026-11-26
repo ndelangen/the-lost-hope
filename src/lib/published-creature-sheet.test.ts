@@ -7,6 +7,9 @@ import {
   publishedCreatureSheet,
 } from './published-creature-sheet'
 import { getLibraryEntry } from './published-library'
+import { loadAllLibraryDetails } from './published-library-data'
+
+await loadAllLibraryDetails()
 
 test('keeps reviewed Aboleth action icons with the matching SRD printing', () => {
   const legacy = getLibraryEntry('monsters', 'aboleth', true, 'srd-5-1')!

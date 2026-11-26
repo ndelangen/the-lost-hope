@@ -1,9 +1,7 @@
+import { detailLoaders, records } from 'virtual:library-index'
+
 import type { EntityRef } from '#/definitions/kind'
 
-import entries from './published-library-catalog/entries.json'
-import monstersAtoF from './published-library-catalog/monsters-a-f.json'
-import monstersGtoP from './published-library-catalog/monsters-g-p.json'
-import monstersQtoZ from './published-library-catalog/monsters-q-z.json'
 import type { LibraryType } from './published-library-routing'
 import type { AbilityKind } from './stat-block'
 
@@ -43,9 +41,42 @@ type LibraryRecord = {
   printings: readonly [LibraryPrinting, ...LibraryPrinting[]]
 }
 
-export const publishedLibrary = [
-  ...entries,
-  ...monstersAtoF,
-  ...monstersGtoP,
-  ...monstersQtoZ,
-] as unknown as readonly LibraryRecord[]
+/**
+ * A catalog entry as the index serves it: everything but the printings' text sections, which load
+ * with the entry (`loadLibraryDetail`), plus the words that search matches. Rules arrive whole.
+ */
+export type LibraryIndexRecord = LibraryRecord & { search?: { player: string; gm: string } }
+
+export const publishedLibrary = records
+
+type Detail = Readonly<Record<string, { gm?: LibrarySection[]; player?: LibrarySection[] }>>
+
+const loaded = new Set<string>()
+
+/** Detail modules group entries by type and first letter (see scripts/library-catalog.ts). */
+function bucketOf({ type, slug }: { type: string; slug: string }) {
+  return `${type}-${/^[a-z]/u.test(slug) ? slug[0] : '0'}`
+}
+
+async function loadBucket(bucket: string) {
+  if (loaded.has(bucket)) return
+  const load = detailLoaders[bucket]
+  if (!load) return
+  const { default: detail } = (await load()) as { default: Readonly<Record<string, Detail>> }
+  for (const record of records) {
+    const printings = record.type !== 'rules' && bucketOf(record) === bucket && detail[record.slug]
+    if (!printings) continue
+    for (const printing of record.printings) Object.assign(printing, printings[printing.id])
+  }
+  loaded.add(bucket)
+}
+
+/** Load an entry's printed text before reading it with `getLibraryEntry`. */
+export function loadLibraryDetail(type: string, slug: string) {
+  return loadBucket(bucketOf({ type, slug }))
+}
+
+/** Load every entry's printed text, for tests and scripts that read the whole catalog. */
+export async function loadAllLibraryDetails() {
+  await Promise.all(Object.keys(detailLoaders).map(loadBucket))
+}

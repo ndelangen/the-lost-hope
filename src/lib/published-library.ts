@@ -8,7 +8,7 @@ export {
   libraryTypes,
   type LibraryType,
 } from './published-library-routing'
-export { type SrdVersion } from './published-library-data'
+export { loadLibraryDetail, type SrdVersion } from './published-library-data'
 
 const entriesByPath = new Map(
   publishedLibrary.map((entry) => [entry.type + '/' + entry.slug, entry]),
@@ -44,10 +44,13 @@ export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, g
     if (group && !groups.includes(group)) return []
     if (words.length) {
       const searchable = [name, summary, ...groups, price ?? '']
+      // The index carries each entry's printed words; rules arrive with their text.
+      if (record.search) searchable.push(record.search.player, dm ? record.search.gm : '')
       for (const printing of record.printings) {
         searchable.push(printing.label, printing.edition ?? '', printing.variantName ?? '')
         const sections = [...(printing.player ?? []), ...(dm ? (printing.gm ?? []) : [])]
-        searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
+        if (!record.search)
+          searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
         const typed =
           dm &&
           printing.typed &&

@@ -1,11 +1,13 @@
 import viteReact from '@vitejs/plugin-react'
 import { configDefaults, defineConfig } from 'vitest/config'
 
+import { libraryCatalogPlugin } from './scripts/library-catalog.ts'
+
 export default defineConfig({
   define: {
     CORRECTIONS_ACCESS_CODE_DIGEST: JSON.stringify(''),
   },
-  plugins: [viteReact()],
+  plugins: [viteReact(), libraryCatalogPlugin()],
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
