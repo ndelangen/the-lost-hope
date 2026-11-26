@@ -116,6 +116,7 @@ def ability_ts(ab,keys,ind):
       for d in a['twoHanded']: L.append(f'{i}      {{ dice: {js(d["dice"])}, type: rules.{d["type"]}, addModifier: true }},')
       L.append(f'{i}    ],')
     if 'printedBonus' in a: L.append(f'{i}    printedBonus: {a["printedBonus"]},')
+    if 'magic' in a: L.append(f'{i}    magic: {a["magic"]},')
     L.append(f'{i}    damage: [')
     for d in a['damage']:
       add=', addModifier: true' if d.get('addModifier') else ''
