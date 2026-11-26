@@ -13,6 +13,10 @@ test('player browse, search, and direct entry share the same visibility rules', 
 
 test('DM search finds hidden text and the selected printing controls the mechanics', () => {
   expect(browseLibrary(true, 'Pack Tactics', 'beasts').map(({ slug }) => slug)).toContain('wolf')
+  // A converted printing is found by its typed abilities.
+  expect(browseLibrary(true, 'Web Walker', 'beasts').map(({ slug }) => slug)).toContain(
+    'giant-wolf-spider',
+  )
   expect(
     getLibraryEntry('ideas', 'the-bell-was-muffled-between-strikes', true)?.sections,
   ).toHaveLength(1)

@@ -1,4 +1,6 @@
+import { monsterPrinting } from './library-monsters'
 import { publishedLibrary, type LibraryType } from './published-library-data'
+import { allAbilities } from './stat-block'
 
 export {
   isLibraryType,
@@ -46,6 +48,11 @@ export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, g
         searchable.push(printing.label, printing.edition ?? '', printing.variantName ?? '')
         const sections = [...(printing.player ?? []), ...(dm ? (printing.gm ?? []) : [])]
         searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
+        const typed =
+          dm &&
+          printing.typed &&
+          monsterPrinting(printing.typed.monster, printing.typed.publication)
+        if (typed) searchable.push(...allAbilities(typed.printing.stats).map(({ name }) => name))
       }
       const text = normalize(searchable.join(' '))
       if (!words.every((word) => text.includes(word))) return []
