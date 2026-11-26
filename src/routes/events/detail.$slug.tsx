@@ -14,7 +14,7 @@ import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { eventLocation, eventMarkVisual, getEntity } from '#/lib/campaign'
+import { entityRefForSlug, eventLocation, eventMarkVisual, getEntity } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { eventNarrative } from '#/lib/foretold'
@@ -82,7 +82,11 @@ function EventPage() {
     >
       <Stack as="section" gap="lg">
         <h2 className="text-lg font-semibold">What happened</h2>
-        <EventIllustrations illustrations={event.illustrations} eventName={event.name} />
+        <EventIllustrations
+          event={entityRefForSlug('event', entity.slug)}
+          illustrations={event.illustrations}
+          eventName={event.name}
+        />
         <EventVisualizations eventSlug={entity.slug} visualizations={event.visualizations} />
         <ContentRenderer content={eventNarrative(event)} />
       </Stack>

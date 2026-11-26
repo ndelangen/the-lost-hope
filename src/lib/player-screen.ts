@@ -1,16 +1,22 @@
 import type { AnyKind, EntityRef } from '#/definitions/kind'
-import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
+import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION, type Portrait } from '#/definitions/media'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { sceneMentions, scenes } from '#/lib/dm-campaign'
 import { fleetOwners } from '#/lib/fleet-roster'
 import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
-import { playerScreenImageId, type PlayerScreenImage } from '#/lib/player-screen-state'
+import {
+  eventIllustrationOnPlayerScreen,
+  playerScreenImageId,
+  portraitOnPlayerScreen,
+  type PlayerScreenImage,
+} from '#/lib/player-screen-state'
 import { hasPublicAsset } from '#/lib/public-media'
 
 export type PlayerScreenGroup =
   | 'Handouts'
   | 'Fleets'
   | 'Scenes'
+  | 'Events'
   | 'Maps'
   | 'Places'
   | 'Characters'
@@ -44,8 +50,20 @@ function realImage(src: string | undefined): string | undefined {
   return hasPublicAsset(src) ? src : undefined
 }
 
-function isMet(ref: EntityRef<'pc' | 'npc' | 'beast' | 'location'>): boolean {
+function isMet(ref: EntityRef<'pc' | 'npc' | 'beast' | 'location' | 'event'>): boolean {
   return PLAYER_VISIBLE_KEYS[ref.ref].has(ref.key)
+}
+
+type PortraitList = 'previousPortraits' | 'additionalPortraits'
+
+/** A record's name, with which picture this is when it has several. */
+function numbered(name: string, index: number, count: number): string {
+  return count > 1 ? `${name} · ${index + 1} of ${count}` : name
+}
+
+function portraitGroup(kind: 'pc' | 'npc' | 'beast' | 'location'): PlayerScreenGroup {
+  if (kind === 'beast') return 'Creatures'
+  return kind === 'location' ? 'Places' : 'Characters'
 }
 
 export function resolvePlayerScreenImage(
@@ -66,22 +84,57 @@ export function resolvePlayerScreenImage(
       ? { name: `${owner.name} ${view}`, slug: owner.slug, group: 'Fleets', met: false }
       : undefined
   }
-  if ('index' in selection) {
-    const scene = record<Named & { illustrations: string[] }>(scenes, selection.ref.key)
-    const src = realImage(scene?.illustrations[selection.index])
-    // Scenes are DM prep: their names are never shown to players.
-    return scene && src
-      ? {
-          src,
-          name:
-            scene.illustrations.length > 1
-              ? `${scene.name} · ${selection.index + 1} of ${scene.illustrations.length}`
-              : scene.name,
-          slug: scene.slug,
-          group: 'Scenes',
-          met: false,
-        }
-      : undefined
+  if (selection.image === 'illustration' && 'index' in selection) {
+    const { ref, index } = selection
+    if (ref.ref === 'scene') {
+      const scene = record<Named & { illustrations: string[] }>(scenes, ref.key)
+      const src = realImage(scene?.illustrations[index])
+      // Scenes are DM prep: their names are never shown to players.
+      return scene && src
+        ? {
+            src,
+            name: numbered(scene.name, index, scene.illustrations.length),
+            slug: scene.slug,
+            group: 'Scenes',
+            met: false,
+          }
+        : undefined
+    }
+    const event = record<Named & { illustrations: readonly string[] }>(
+      SOURCE_REGISTRIES.event,
+      ref.key,
+    )
+    const src = realImage(event?.illustrations[index])
+    if (!event || !src) return undefined
+    const met = isMet({ ref: 'event', key: ref.key })
+    return {
+      src,
+      name: numbered(event.name, index, event.illustrations.length),
+      slug: event.slug,
+      playerCaption: met ? event.name : undefined,
+      group: 'Events',
+      met,
+    }
+  }
+  if (selection.image === 'previous-portrait' || selection.image === 'additional-portrait') {
+    const owner = record<Named & Partial<Record<PortraitList, readonly Portrait[]>>>(
+      SOURCE_REGISTRIES[selection.ref.ref],
+      selection.ref.key,
+    )
+    const list =
+      owner?.[selection.image === 'previous-portrait' ? 'previousPortraits' : 'additionalPortraits']
+    const portrait = list?.[selection.index]
+    const src = realImage(portrait?.url)
+    if (!owner || !portrait || !src) return undefined
+    const met = isMet(selection.ref)
+    return {
+      src,
+      name: `${owner.name} · ${portrait.description}`,
+      slug: owner.slug,
+      playerCaption: met ? owner.name : undefined,
+      group: portraitGroup(selection.ref.ref),
+      met,
+    }
   }
 
   const ref = selection.ref as EntityRef<'pc' | 'npc' | 'beast' | 'location'>
@@ -122,6 +175,7 @@ const GROUP_ORDER: readonly PlayerScreenGroup[] = [
   'Handouts',
   'Fleets',
   'Scenes',
+  'Events',
   'Maps',
   'Places',
   'Characters',
@@ -146,6 +200,11 @@ export function playerScreenOptions(): PlayerScreenOption[] {
         index,
       })),
     ),
+    ...Object.entries(SOURCE_REGISTRIES.event).flatMap(([key, event]) =>
+      event.illustrations.map((_, index) =>
+        eventIllustrationOnPlayerScreen({ ref: 'event', key }, index),
+      ),
+    ),
     ...Object.keys(SOURCE_REGISTRIES.location).flatMap((key): PlayerScreenImage[] => [
       { image: 'map', ref: { ref: 'location', key } },
       { image: 'illustration', ref: { ref: 'location', key } },
@@ -155,6 +214,16 @@ export function playerScreenOptions(): PlayerScreenOption[] {
         image: 'avatar',
         ref: { ref: kind, key },
       })),
+    ),
+    ...(['pc', 'npc', 'beast', 'location'] as const).flatMap((kind) =>
+      Object.entries(SOURCE_REGISTRIES[kind]).flatMap(([key, entity]) => {
+        const lists = entity as Partial<Record<PortraitList, readonly Portrait[]>>
+        return (['previous', 'additional'] as const).flatMap((list) =>
+          (lists[`${list}Portraits`] ?? []).map((_, index) =>
+            portraitOnPlayerScreen({ ref: kind, key }, list, index),
+          ),
+        )
+      }),
     ),
   ]
 
@@ -182,13 +251,14 @@ export function filterPlayerScreenOptions(
 }
 
 const PAGE_KINDS: ReadonlyArray<
-  [RegExp, 'pc' | 'npc' | 'beast' | 'location' | 'scene', 'slug' | 'key']
+  [RegExp, 'pc' | 'npc' | 'beast' | 'location' | 'event' | 'scene', 'slug' | 'key']
 > = [
   [/^\/pcs\/detail\/([^/]+)$/u, 'pc', 'slug'],
   [/^\/npcs\/detail\/([^/]+)$/u, 'npc', 'slug'],
   [/^\/dm\/npcs\/([^/]+)$/u, 'npc', 'key'],
   [/^\/beasts\/detail\/([^/]+)$/u, 'beast', 'slug'],
   [/^\/locations\/detail\/([^/]+)$/u, 'location', 'slug'],
+  [/^\/events\/detail\/([^/]+)$/u, 'event', 'slug'],
   [/^\/dm\/scenes\/([^/]+)$/u, 'scene', 'slug'],
 ]
 

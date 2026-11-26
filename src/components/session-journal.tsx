@@ -9,7 +9,7 @@ import { ForetoldList } from '#/components/foretold-list'
 import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
-import type { EventMarkVisual } from '#/lib/campaign'
+import { entityRefForSlug, type EventMarkVisual } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
 import { EventMarkIcon } from '#/lib/event-icons'
 import type {
@@ -155,6 +155,7 @@ function JournalEvent({ event }: { event: SessionJournalEvent }) {
 
           <div className="p-5 sm:p-6">
             <EventIllustrations
+              event={entityRefForSlug('event', event.slug)}
               illustrations={event.illustrations}
               eventName={event.name}
               className="mb-5"

@@ -13,7 +13,14 @@ import { PortraitGallery } from '#/components/portrait-gallery'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { effectsOn, getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
+import {
+  effectsOn,
+  entityRefForSlug,
+  getEntity,
+  itemsCarriedBy,
+  itemsOwnedBy,
+  pcStatusLabel,
+} from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { characterMemberships } from '#/lib/entity-page-data'
 import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
@@ -69,7 +76,12 @@ function PcPage() {
           </Inline>
           <p className="text-muted-foreground text-sm">Played by {pc.player}</p>
           {pc.previousPortraits?.length ? (
-            <PortraitGallery kind="previous" subject={pc.name} portraits={pc.previousPortraits} />
+            <PortraitGallery
+              owner={entityRefForSlug('pc', entity.slug)}
+              kind="previous"
+              subject={pc.name}
+              portraits={pc.previousPortraits}
+            />
           ) : null}
           {pc.languages?.length ? (
             <p className="text-muted-foreground text-sm">

@@ -14,6 +14,7 @@ describe('PortraitGallery', () => {
   it('shows described thumbnails that open in the portrait viewer', () => {
     render(
       <PortraitGallery
+        owner={undefined}
         kind="previous"
         subject="Jim"
         portraits={[

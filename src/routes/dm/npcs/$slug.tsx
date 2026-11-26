@@ -97,7 +97,12 @@ function DmNpcRoute() {
         ) : null}
 
         {npc.previousPortraits ? (
-          <PortraitGallery kind="previous" subject={npc.name} portraits={npc.previousPortraits} />
+          <PortraitGallery
+            owner={{ ref: 'npc', key }}
+            kind="previous"
+            subject={npc.name}
+            portraits={npc.previousPortraits}
+          />
         ) : null}
 
         <Section title="What players can learn">

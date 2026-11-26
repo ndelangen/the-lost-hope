@@ -14,6 +14,7 @@ import { Grid, Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import {
+  entityRefForSlug,
   getEntity,
   locationAncestors,
   locationChildren,
@@ -125,6 +126,7 @@ function LocationDetailPage() {
           />
           {location.additionalPortraits ? (
             <PortraitGallery
+              owner={entityRefForSlug('location', entity.slug)}
               kind="additional"
               subject={location.name}
               portraits={location.additionalPortraits}

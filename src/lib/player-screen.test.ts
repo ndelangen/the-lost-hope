@@ -14,10 +14,12 @@ import {
   PLAYER_SCREEN_HISTORY_LIMIT,
   canStepPlayerScreen,
   clearPlayerScreenHistory,
+  eventIllustrationOnPlayerScreen,
   jumpPlayerScreen,
   parsePlayerScreenState,
   playerScreenShowing,
   playerScreenImageId,
+  portraitOnPlayerScreen,
   showOnPlayerScreen,
   stepPlayerScreen,
   togglePlayerScreen,
@@ -25,7 +27,9 @@ import {
 } from './player-screen-state'
 
 const options = playerScreenOptions()
-const npcOptions = options.filter((option) => option.selection.ref.ref === 'npc')
+const npcOptions = options.filter(
+  (option) => option.selection.ref.ref === 'npc' && option.selection.image === 'avatar',
+)
 
 describe('player screen', () => {
   it('names only records the party has met', () => {
@@ -164,6 +168,80 @@ const scene: PlayerScreenImage = {
   ref: { ref: 'scene', key: 'borris_shutters_the_casino' },
   index: 0,
 }
+
+describe('player screen event pictures and extra portraits', () => {
+  const extras = options.filter(
+    (option) =>
+      option.group === 'Events' ||
+      option.selection.image === 'previous-portrait' ||
+      option.selection.image === 'additional-portrait',
+  )
+
+  it('names an event or a portrait owner only when the party has met the record', () => {
+    expect(extras.some((option) => option.group === 'Events')).toBe(true)
+    for (const option of extras) {
+      const { ref, key } = option.selection.ref as {
+        ref: 'pc' | 'npc' | 'beast' | 'location' | 'event'
+        key: string
+      }
+      expect(option.met).toBe(PLAYER_VISIBLE_KEYS[ref].has(key))
+      const registry: Readonly<Record<string, { name: string }>> = SOURCE_REGISTRIES[ref]
+      expect(option.playerCaption).toBe(option.met ? registry[key]?.name : undefined)
+    }
+  })
+
+  it('resolves each of an event’s illustrations by its place in the list', () => {
+    const [key, event] = Object.entries(SOURCE_REGISTRIES.event).find(
+      ([, candidate]) => candidate.illustrations.length > 1,
+    )!
+    const selections = event.illustrations.map((_, index) =>
+      eventIllustrationOnPlayerScreen({ ref: 'event', key }, index),
+    )
+    expect(selections.map((selection) => resolvePlayerScreenImage(selection)?.src)).toEqual(
+      event.illustrations,
+    )
+    expect(new Set(selections.map(playerScreenImageId)).size).toBe(selections.length)
+    expect(
+      playerScreenOptionsForPage(options, `/events/detail/${event.slug}`).map(
+        (option) => option.selection,
+      ),
+    ).toEqual(selections)
+    expect(
+      resolvePlayerScreenImage(
+        eventIllustrationOnPlayerScreen({ ref: 'event', key }, event.illustrations.length),
+      ),
+    ).toBeUndefined()
+  })
+
+  it('puts the exact earlier portrait on screen, apart from the current one', () => {
+    const jim = SOURCE_REGISTRIES.pc.jim!
+    const previous = jim.previousPortraits!.map((_, index) =>
+      portraitOnPlayerScreen({ ref: 'pc', key: 'jim' }, 'previous', index),
+    )
+    expect(previous.map((selection) => resolvePlayerScreenImage(selection)?.src)).toEqual(
+      jim.previousPortraits!.map((portrait) => portrait.url),
+    )
+    expect(resolvePlayerScreenImage(previous[0]!)).toMatchObject({
+      group: 'Characters',
+      playerCaption: jim.name,
+    })
+    const onPage = playerScreenOptionsForPage(options, `/pcs/detail/${jim.slug}`)
+    expect(onPage.map((option) => option.selection)).toEqual(
+      expect.arrayContaining([{ image: 'avatar', ref: { ref: 'pc', key: 'jim' } }, ...previous]),
+    )
+    expect(new Set(onPage.map((option) => option.src)).size).toBe(onPage.length)
+  })
+
+  it('keeps previous and additional portraits apart', () => {
+    const owner = { ref: 'beast', key: 'any' } as const
+    expect(playerScreenImageId(portraitOnPlayerScreen(owner, 'previous', 0))).not.toBe(
+      playerScreenImageId(portraitOnPlayerScreen(owner, 'additional', 0)),
+    )
+    expect(
+      resolvePlayerScreenImage(portraitOnPlayerScreen({ ref: 'pc', key: 'jim' }, 'additional', 0)),
+    ).toBeUndefined()
+  })
+})
 
 describe('player screen history', () => {
   it('steps back and forward through what was shown', () => {

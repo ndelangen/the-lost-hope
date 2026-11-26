@@ -1,12 +1,17 @@
 import { ImageViewer } from '#/components/image-viewer'
+import type { EntityRef } from '#/definitions/kind'
+import { eventIllustrationOnPlayerScreen } from '#/lib/player-screen-state'
 import { cn } from '#/lib/utils'
 
 /** The pictures the players were shown during an event, each opening full screen. */
 export function EventIllustrations({
+  event,
   illustrations,
   eventName,
   className,
 }: {
+  /** The event the pictures belong to, so each can go on the player screen. */
+  event: EntityRef<'event'> | undefined
   illustrations: readonly string[]
   eventName: string
   className?: string
@@ -28,6 +33,7 @@ export function EventIllustrations({
             single ? '(min-width: 1024px) 760px, 100vw' : '(min-width: 640px) 380px, 100vw'
           }
           previewMaxWidth={single ? 1280 : 768}
+          playerScreen={event ? eventIllustrationOnPlayerScreen(event, index) : undefined}
           className={cn(
             'w-full',
             single ? 'aspect-[16/9]' : 'aspect-[3/2]',

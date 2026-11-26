@@ -1,5 +1,6 @@
 import { z } from 'zod'
 
+import type { EntityRef } from '#/definitions/kind'
 import { entityRefForSlug } from '#/lib/campaign'
 import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
 import { DEFAULT_PLAYER_SCREEN_GRID, PlayerScreenGrid } from '#/lib/player-screen-grid'
@@ -21,7 +22,16 @@ export const PlayerScreenImage = z.union([
   }),
   z.strictObject({
     image: z.literal('illustration'),
-    ref: z.strictObject({ ref: z.literal('scene'), key: z.string().min(1) }),
+    ref: z.strictObject({ ref: z.enum(['scene', 'event']), key: z.string().min(1) }),
+    index: z.number().int().nonnegative(),
+  }),
+  z.strictObject({
+    /** One picture from a record's earlier or additional portraits, by its place in that list. */
+    image: z.enum(['previous-portrait', 'additional-portrait']),
+    ref: z.strictObject({
+      ref: z.enum(['pc', 'npc', 'beast', 'location']),
+      key: z.string().min(1),
+    }),
     index: z.number().int().nonnegative(),
   }),
   z.strictObject({
@@ -159,6 +169,23 @@ export function locationOnPlayerScreen(
 ): PlayerScreenImage | undefined {
   const ref = entityRefForSlug('location', slug)
   return ref ? { image, ref } : undefined
+}
+
+/** One of an event's illustrations, by its place in the list, as a player-screen selection. */
+export function eventIllustrationOnPlayerScreen(
+  event: EntityRef<'event'>,
+  index: number,
+): PlayerScreenImage {
+  return { image: 'illustration', ref: event, index }
+}
+
+/** One picture from a record's previous or additional portraits, as a player-screen selection. */
+export function portraitOnPlayerScreen(
+  owner: EntityRef<'pc' | 'npc' | 'beast' | 'location'>,
+  list: 'previous' | 'additional',
+  index: number,
+): PlayerScreenImage {
+  return { image: `${list}-portrait`, ref: owner, index }
 }
 
 /** Jumps straight to one entry in the player screen's history. */

@@ -12,7 +12,7 @@ import { PortraitGallery } from '#/components/portrait-gallery'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { effectsOn, getEntity, resolveRef } from '#/lib/campaign'
+import { effectsOn, entityRefForSlug, getEntity, resolveRef } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -60,6 +60,7 @@ function BeastPage() {
           </Inline>
           {beast.additionalPortraits ? (
             <PortraitGallery
+              owner={entityRefForSlug('beast', entity.slug)}
               kind="additional"
               subject={beast.name}
               portraits={beast.additionalPortraits}
@@ -67,6 +68,7 @@ function BeastPage() {
           ) : null}
           {beast.previousPortraits ? (
             <PortraitGallery
+              owner={entityRefForSlug('beast', entity.slug)}
               kind="previous"
               subject={beast.name}
               portraits={beast.previousPortraits}

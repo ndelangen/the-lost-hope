@@ -13,7 +13,7 @@ import { PortraitGallery } from '#/components/portrait-gallery'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { effectsOn, getEntity, npcLocation } from '#/lib/campaign'
+import { effectsOn, entityRefForSlug, getEntity, npcLocation } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { characterMemberships } from '#/lib/entity-page-data'
 import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
@@ -66,7 +66,12 @@ function NpcPage() {
             </p>
           ) : null}
           {npc.previousPortraits ? (
-            <PortraitGallery kind="previous" subject={npc.name} portraits={npc.previousPortraits} />
+            <PortraitGallery
+              owner={entityRefForSlug('npc', entity.slug)}
+              kind="previous"
+              subject={npc.name}
+              portraits={npc.previousPortraits}
+            />
           ) : null}
         </Stack>
       }
