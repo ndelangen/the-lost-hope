@@ -2,6 +2,7 @@
 
 The library shows "Not recorded" for these. Fill them from the books when we have them.
 
+- Bigby Presents: Glory of the Giants: Gigant
 - Bigby Presents: Glory of the Giants: Regisaur
 - Ghosts of Saltmarsh: Fathomer
 - Monster Manual (2014): Cockatrice
@@ -38,6 +39,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Roc
 - Monster Manual (2024): Rust Monster
 - Monster Manual (2024): Shadow
+- Monster Manual (2024): Tarrasque
 - Monster Manual (2024): Warhorse Skeleton
 - Monster Manual (2024): Wyvern
 - Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher

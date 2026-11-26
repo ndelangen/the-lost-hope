@@ -9795,42 +9795,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 75",
-              "Hit dice · 10d8 + 30",
-              "Challenge · 4",
-              "Type · Dragon",
-              "Speed · 30 ft., climb 30 ft., fly 60 ft.",
-              "XP · 1100",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +2, Con +5, Wis +2, Cha +4 Skills Perception +4, Stealth +2 Damage Immunities fire Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage plus 3 (1d6) fire damage. Fire Breath (Recharge 5–6). The dragon exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -26405,96 +26379,6 @@
       {
         "id": "printing-b836a7e6c4f3fd8d5f3f707a",
         "label": "Bigby Presents: Glory of the Giants",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 315",
-              "Hit dice · 18d20 + 126",
-              "Challenge · 21",
-              "Size · Gargantuan",
-              "Type · Construct",
-              "Speed · 60 ft.",
-              "Passive Perception · 10",
-              "XP · 33000",
-              "Str · 25",
-              "Dex · 9",
-              "Con · 24",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 1"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A 30-foot guardian of stone and metal built by several kinds of giant working together. Unless ordered otherwise, it attacks non-giants it sees."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan construct, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["understands Giant but can't speak."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Acid, cold, fire, lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": [
-              "Poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks."
-            ]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, exhaustion, frightened, paralyzed, petrified, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Immutable Form. The colossus is immune to spells and effects that would change its form.\nMagic Resistance. It has advantage on saves against spells and other magical effects.\nSiege Monster. The colossus deals double damage to objects and structures."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Slam attacks, then use Stomp.\nSlam. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 26 (3d12 + 7) bludgeoning damage.\nStomp. Melee weapon attack, +14 to hit, reach 20 ft., one target. A hit deals 29 (4d10 + 7) bludgeoning damage. A Huge or smaller creature hit must succeed on a DC 22 Dexterity save to avoid falling prone. The creature is restrained until the colossus uses Stomp again or moves. The restrained creature or another creature within 5 ft. of it can use an action to attempt a DC 22 Strength check. On a success, the restrained creature moves to an unoccupied space of its choice within 5 ft. of the colossus and the restraint ends.\nArcane Beam (Recharge 5–6). The colossus fires magical force from its chest, hands, or head in a 150-ft. line that is 10 ft. wide. Each creature in the line makes a DC 22 Dexterity save, taking 58 (9d12) force damage on a failure or half as much on a success."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Spell Reflection (2/day). Ranged spell attack, +14 to hit, range 120 ft., against a creature casting a spell of 5th level or lower. On a hit, deal 26 (4d12) force damage. The caster then makes a DC 15 Intelligence save. The spell fails with no effect if the caster fails that save."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Bigby Presents: Glory of the Giants, p. 163."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Bigby Presents: Glory of the Giants, p. 163 · https://5e.tools/bestiary.html#runic%20colossus_bgg",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#runic%20colossus_bgg",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/35952/765/1000/1000/638264236563390687.png",
         "art": [
@@ -26502,7 +26386,17 @@
             "file": "/assets/library/worker-art/runic-colossus-2ed841a7eec699fc.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "runic_colossus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "bigby_presents_glory_of_the_giants"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -55576,42 +55470,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 2",
-              "Type · Dragon",
-              "Speed · 30 ft., fly 60 ft.",
-              "XP · 450",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "silver_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +2, Con +5, Wis +2, Cha +4 Skills Perception +4, Stealth +2 Damage Immunities cold Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Cold Breath. The dragon exhales an icy blast in a 15- foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one. Paralyzing Breath. The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -72699,56 +72567,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 170",
-              "Hit dice · 20d10 + 60",
-              "Challenge · 11",
-              "Type · Celestial",
-              "Speed · 40 ft., Fly 60 ft.",
-              "XP · 7200",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 18",
-              "Wis · 18",
-              "Cha · 18",
-              "Initiative · +10 (20)",
-              "Proficiency bonus · +4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sphinx_of_lore"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Celestial, Lawful Neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Arcana +12, History +12, Perception +8, Religion +12 Resistances Necrotic, Radiant Immunities Psychic; Charmed, Frightened Senses Truesight 120 ft.; Passive Perception 18 Languages Celestial, Common"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Inscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage. Legendary Resistance (3/Day, or 4/Day in Lair). If the sphinx fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The sphinx makes three Claw attacks. Claw. Melee Attack Roll: +8, reach 5 ft. Hit: 14 (3d6 + 4) Slashing damage. Mind-Rending Roar (Recharge 5–6). Wisdom Saving Throw: DC 16, each enemy in a 300-foot Emanation originating from the sphinx. Failure: 35 (10d6) Psychic damage, and the target has the Incapacitated condition until the start of the sphinx’s next turn. Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Intelligence as the spellcasting ability (spell save DC 16): At Will: Detect Magic, Identify, Mage Hand, Minor Illusion, Prestidigitation 1/Day Each: Dispel Magic, Legend Lore, Locate Object, Plane Shift, Remove Curse, Tongues"
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns. Arcane Prowl. The sphinx can teleport up to 30 feet to an unoccupied space it can see, and it makes one Claw attack. Weight of Years. Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can’t take this action again until the start of its next turn."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-0f6ce514ac2644a3dedde5b8",
@@ -72943,60 +72771,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 199",
-              "Hit dice · 19d10 + 95",
-              "Challenge · 17",
-              "Type · Celestial",
-              "Speed · 40 ft., Fly 60 ft.",
-              "XP · 18000",
-              "Str · 22",
-              "Dex · 10",
-              "Con · 20",
-              "Int · 16",
-              "Wis · 23",
-              "Cha · 18",
-              "Initiative · +12 (22)",
-              "Proficiency bonus · +6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sphinx_of_valor"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large Celestial, Lawful Neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Arcana +9, Perception +12, Religion +15 Resistances Necrotic, Radiant Immunities Psychic; Charmed, Frightened Senses Truesight 120 ft.; Passive Perception 22 Languages Celestial, Common"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Inscrutable. No magic can observe the sphinx remotely or detect its thoughts without its permission. Wisdom (Insight) checks made to ascertain its intentions or sincerity are made with Disadvantage. Legendary Resistance (3/Day, or 4/Day in Lair). If the sphinx fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The sphinx makes two Claw attacks and uses Roar. Claw. Melee Attack Roll: +12, reach 5 ft. Hit: 20 (4d6 + 6) Slashing damage. Roar (3/Day). The sphinx emits a magical roar. Whenever it roars, the roar has a different effect, as detailed below (the sequence resets when it takes a Long Rest): First Roar. Wisdom Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the Frightened condition for 1 minute. Second Roar. Wisdom Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: The target has the Paralyzed condition, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Third Roar. Constitution Saving Throw: DC 20, each enemy in a 500-foot Emanation originating from the sphinx. Failure: 44 (8d10) Thunder damage, and the target has the Prone condition. Success: Half damage only. Spellcasting. The sphinx casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 20): At Will: Detect Evil and Good, Thaumaturgy 1/Day Each: Detect Magic, Dispel Magic, Greater Restoration, Heroes’ Feast, Zone of Truth"
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "Legendary Action Uses: 3 (4 in Lair). Immediately after another creature’s turn, the sphinx can expend a use to take one of the following actions. The sphinx regains all expended uses at the start of each of its turns. Arcane Prowl. The sphinx can teleport up to 30 feet to an unoccupied space it can see, and it makes one Claw attack. Weight of Years. Constitution Saving Throw: DC 16, one creature the sphinx can see within 120 feet. Failure: The target gains 1 Exhaustion level. While the target has any Exhaustion levels, it appears 3d10 years older. Failure or Success: The sphinx can’t take this action again until the start of its next turn."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6, Con +11, Int +9, Wis +12"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-cb96bbefc78d2a6d074741a7",
@@ -83921,98 +83705,30 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 230",
-              "Hit dice · 20d12 + 100",
-              "Challenge · 13",
-              "Type · Giant",
-              "Speed · 50 ft., swim 50 ft.",
-              "XP · 10000",
-              "Str · 29",
-              "Dex · 14",
-              "Con · 20",
-              "Int · 16",
-              "Wis · 18",
-              "Cha · 18"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "storm_giant"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge giant, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Str +14, Con +10, Wis +9, Cha +9 Skills Arcana +8, Athletics +14, History +8, Perception +9 Damage Resistances cold Damage Immunities lightning, thunder Senses passive Perception 19 Languages Common, Giant"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The giant can breathe air and water. Innate Spellcasting. The giant’s innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components: At will: detect magic, feather fall, levitate, light 3/day each: control weather, water breathing"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The giant makes two greatsword attacks. Greatsword. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 30 (6d6 + 9) slashing damage. Rock. Ranged Weapon Attack: +14 to hit, range 60/240 ft., one target. Hit: 35 (4d12 + 9) bludgeoning damage. Lightning Strike (Recharge 5–6). The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 230",
-              "Hit dice · 20d12 + 100",
-              "Challenge · 13",
-              "Type · Giant",
-              "Speed · 50 ft., Fly 25 ft. (hover), Swim 50 ft.",
-              "XP · 10000",
-              "Str · 29",
-              "Dex · 14",
-              "Con · 20",
-              "Int · 16",
-              "Wis · 20",
-              "Cha · 18",
-              "Initiative · +7 (17)",
-              "Proficiency bonus · +5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "storm_giant"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge Giant, Chaotic Good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Arcana +8, Athletics +14, History +8, Perception +10 Resistances Cold Immunities Lightning, Thunder Senses Darkvision 120 ft., Truesight 30 ft.; Passive Perception 20 Languages Common, Giant"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The giant can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The giant makes two attacks, using Storm Sword or Thunderbolt in any combination. Storm Sword. Melee Attack Roll: +14, reach 10 ft. Hit: 23 (4d6 + 9) Slashing damage plus 13 (3d8) Lightning damage. Thunderbolt. Ranged Attack Roll: +14, range 500 ft. Hit: 22 (2d12 + 9) Lightning damage, and the target has the Blinded and Deafened conditions until the start of the giant’s next turn. Lightning Storm (Recharge 5–6). Dexterity Saving Throw: DC 18, each creature in a 10-foot-radius, 40-foot-high Cylinder originating from a point the giant can see within 500 feet. Failure: 55 (10d10) Lightning damage. Success: Half damage."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +14, Con +10, Wis +10, Cha +9"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-121c60c8518c3b16f059cd6c",
@@ -95866,66 +95582,16 @@
       {
         "id": "srd-5-2-1",
         "label": "SRD 5.2.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 25",
-              "Hit points · 697",
-              "Hit dice · 34d20 + 340",
-              "Challenge · 30",
-              "Type · Monstrosity (Titan)",
-              "Speed · 60 ft., Burrow 40 ft., Climb 60 ft.",
-              "XP · 155000",
-              "Str · 30",
-              "Dex · 11",
-              "Con · 30",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 11",
-              "Initiative · +18 (28)",
-              "Proficiency bonus · +9"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tarrasque"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan Monstrosity (Titan), Unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +9 Resistances Bludgeoning, Piercing, Slashing Immunities Fire, Poison; Charmed, Deafened, Frightened, Paralyzed, Poisoned Senses Blindsight 120 ft.; Passive Perception 19 Languages None"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (6/Day). If the tarrasque fails a saving throw, it can choose to succeed instead. Magic Resistance. The tarrasque has Advantage on saving throws against spells and other magical effects. Reflective Carapace. If the tarrasque is targeted by a Magic Missile spell or a spell that requires a ranged attack roll, roll 1d6. On a 1–5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected and reflects the spell, turning the caster into the target. Siege Monster. The tarrasque deals double damage to objects and structures."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The tarrasque makes one Bite attack and three other attacks, using Claw or Tail in any combination. Bite. Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 + 10) Piercing damage, and the target has the Grappled condition (escape DC 20). Until the grapple ends, the target has the Restrained condition and can’t teleport. Claw. Melee Attack Roll: +19, reach 15 ft. Hit: 28 (4d8 + 10) Slashing damage. Tail. Melee Attack Roll: +19, reach 30 ft. Hit: 23 (3d8 + 10) Bludgeoning damage. If the target is a Huge or smaller creature, it has the Prone condition. Thunderous Bellow (Recharge 5–6). Constitution Saving Throw: DC 27, each creature and each object that isn’t being worn or carried in a 150-foot Cone. Failure: 78 (12d12) Thunder damage, and the target has the Deafened and Frightened conditions until the end of its next turn. Success: Half damage only."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Swallow. Strength Saving Throw: DC 27, one Large or smaller creature Grappled by the tarrasque (it can have up to six creatures swallowed at a time). Failure: The target is swallowed, and the Grappled condition ends. A swallowed creature has the Blinded and Restrained conditions and can’t teleport, it has Total Cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) Acid damage at the start of each of the tarrasque’s turns. If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls in a space within 10 feet of the tarrasque and has the Prone condition. If the tarrasque dies, any swallowed creature no longer has the Restrained condition and can escape from the corpse using 20 feet of movement, exiting Prone."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "Legendary Action Uses: 3. Immediately after another creature’s turn, the tarrasque can expend a use to take one of the following actions. The tarrasque regains all expended uses at the start of each of its turns. Onslaught. The tarrasque moves up to half its Speed, and it makes one Claw or Tail attack. World-Shaking Movement. The tarrasque moves up to its Speed. At the end of this movement, the tarrasque creates an instantaneous shock wave in a 60-foot Emanation originating from itself. Creatures in that area lose Concentration and, if Medium or smaller, have the Prone condition. The tarrasque can’t take this action again until the start of its next turn."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +9, Int +5, Wis +9, Cha +9"]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
           }
-        ]
+        }
       },
       {
         "id": "printing-86461777ef2d6508ea29ff7f",
@@ -95968,121 +95634,18 @@
       {
         "id": "printing-3e3ed814545cf5e32cb77329",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 25",
-              "Hit points · 697",
-              "Hit dice · 34d20 + 340",
-              "Challenge · 30",
-              "Size · Gargantuan",
-              "Type · Monstrosity",
-              "Speed · 60 ft., burrow 40 ft., climb 60 ft.",
-              "Passive Perception · 19",
-              "XP · 155000",
-              "Str · 30",
-              "Dex · 11",
-              "Con · 30",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This immense, spiked titan wakes only rarely. It attacks large creatures and tears apart bridges, ships, and buildings."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +9", "Int +5", "Wis +9", "Cha +9"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +9"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan monstrosity (titan), unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+18 (28)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 120 ft.."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["fire, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, Deafened, Frightened, Paralyzed, Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (6/day). It can turn a failed save into a success.\nMagic Resistance. Advantage on saves against spells and other magical effects.\nReflective Carapace. Roll 1d6 when the tarrasque is targeted by Magic Missile or a spell requiring a ranged attack roll. The tarrasque is unaffected. On a 6, redirect the spell to the caster.\nSiege Monster. Deals double damage to structures and objects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and three more attacks using Claw or Tail in any combination.\nBite. Melee attack, +19 to hit, reach 15 ft. Hit deals 36 (4d12 + 10) piercing damage and Grapples the target (escape DC 20). Until the grapple ends the target is Restrained and cannot teleport.\nClaw. Melee attack, +19 to hit, reach 15 ft. Hit deals 28 (4d8 + 10) slashing damage.\nTail. Melee attack, +19 to hit, reach 30 ft. Hit deals 23 (3d8 + 10) bludgeoning damage. A Huge or smaller creature hit also falls Prone.\nThunderous Bellow (recharge 5–6). Every creature and every object that is neither worn nor carried in a 150-ft. Cone makes a DC 27 Constitution save. Failure deals 78 (12d12) thunder damage and leaves the target Deafened and Frightened until the end of its next turn. Success halves the damage and avoids both conditions."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Swallow. One Large or smaller creature Grappled by the tarrasque makes a DC 27 Strength save. On failure, the grapple ends and the creature is swallowed. The tarrasque can have up to six creatures inside it. A swallowed creature is Blinded and Restrained, cannot teleport, has Total Cover against outside attacks and effects, and takes 56 (16d6) acid damage at the start of each of the tarrasque’s turns.\nWhen a creature inside deals at least 60 damage to the tarrasque in a single turn, it makes a DC 20 Constitution save at the end of that turn. On failure it expels everyone it swallowed, and they fall Prone within 10 ft. If the tarrasque dies, swallowed creatures stop being Restrained. They can spend 20 ft. of movement to escape and exit Prone."
-            ]
-          },
-          {
-            "title": "Legendary actions",
-            "lines": [
-              "3 uses. Spend one use immediately after another creature’s turn. Recover all uses at the start of this creature’s turn. It cannot use these actions while Incapacitated or otherwise unable to act.\nOnslaught. Move up to half the tarrasque’s Speed and make a Claw or Tail attack.\nWorld-Shaking Movement. Move up to its Speed. At the end of that movement, each creature in a 60-ft. Emanation from the tarrasque loses Concentration. Medium and smaller creatures there also fall Prone. Wait until the start of the tarrasque’s next turn before repeating this option."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 305."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 305 · https://5e.tools/bestiary.html#tarrasque_xmm",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Magic Missile (spell) · https://5e.tools/spells.html#magic%20missile_xphb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_xphb",
-              "Cone [Area of Effect] (rule) · https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb",
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_xphb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_xphb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_xphb",
-              "Cover (rule) · https://5e.tools/variantrules.html#cover_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Emanation [Area of Effect] (rule) · https://5e.tools/variantrules.html#emanation%20%5Barea%20of%20effect%5D_xphb",
-              "Concentration (status) · https://5e.tools/conditionsdiseases.html#concentration_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tarrasque_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/299/1000/1000/638741964722123518.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/299/1000/1000/638741964722123518.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tarrasque"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-d09813de9099f08ba590efcb",
@@ -139095,91 +138658,6 @@
       {
         "id": "printing-7e6f16e9528fe89317cff867",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 94",
-              "Hit dice · 9d10 + 45",
-              "Challenge · 7",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "XP · 2900",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 20",
-              "Int · 7",
-              "Wis · 9",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A troll that survives heavy poisoning can regenerate with venom in its blood and tissues. Its wounds spray poison into nearby spaces."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "swamp", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large giant, typically chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Poison Splash. Whenever the troll takes damage other than psychic damage, every creature within 5 ft. of it takes 9 (2d8) poison damage.\nRegeneration. The troll regains 10 HP at the start of its turn. Acid or fire damage suppresses regeneration at the start of its next turn. It dies only if it starts its turn at 0 HP and fails to regenerate."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and two Claws attacks.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 7 (1d6 + 4) piercing damage plus 4 (1d8) poison damage. A creature hit is poisoned until the start of the troll’s next turn.\nClaws. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage plus 4 (1d8) poison damage.\nVenom Spray (Recharge 6). The troll cuts itself to release poison in a 15-ft. cube, taking 7 (2d6) slashing damage that cannot be reduced. Each creature in the area makes a DC 16 Constitution save. On a failure, it takes 18 (4d8) poison damage and is poisoned for 1 minute. On a success, it takes half damage and avoids the condition. A poisoned creature repeats the save at the end of each of its turns, ending the effect on a success."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 248."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 248 · https://5e.tools/bestiary.html#venom%20troll_mpmm",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#venom%20troll_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/739/1000/1000/637880558133914455.jpeg",
         "art": [
@@ -139187,7 +138665,17 @@
             "file": "/assets/library/worker-art/venom-troll-173b736654ebda64.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "venom_troll"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-d3ccb1678dcd786c20173d2b",
@@ -159705,42 +159193,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 32",
-              "Hit dice · 5d8 + 10",
-              "Challenge · 2",
-              "Type · Dragon",
-              "Speed · 30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "white_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +2, Con +4, Wis +2, Cha +2 Skills Perception +4, Stealth +2 Damage Immunities cold Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) cold damage. Cold Breath (Recharge 5–6). The dragon exhales an icy blast of hail in a 15-foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -164117,48 +163579,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 75",
-              "Hit dice · 10d10 + 20",
-              "Challenge · 3",
-              "Type · Monstrosity",
-              "Speed · 50 ft.",
-              "XP · 700",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "winter_wolf"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +5, Stealth +3 Damage Immunities cold Senses passive Perception 15 Languages Common, Giant, Winter Wolf"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Hearing and Smell. The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell. Pack Tactics. The wolf has advantage on an attack roll against a creature if at least one of the wolf’s allies is within 5 feet of the creature and the ally isn’t incapacitated. Snow Camouflage. The wolf has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone. Cold Breath (Recharge 5–6). The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one. The arctic-‑dwelling winter wolf is as large as a dire wolf but has snow-‑white fur and pale blue eyes. Frost giants use these evil creatures as guards and hunting companions, putting the wolves’ deadly breath weapon to use against their foes. Winter wolves communicate with one another using growls and barks, but they speak Common and Giant well enough to follow simple conversations."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -164276,32 +163706,16 @@
       {
         "id": "printing-9a302db29561437a67470d4d",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 75",
-              "Hit dice · 10d10 + 20",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 50 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "winter_wolf"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Bite · melee · +6 to hit · reach 5 ft. · 2d6 + 4 piercing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9879331d4d68d36610bd556b",
@@ -175423,86 +174837,6 @@
       {
         "id": "printing-132238abb6e3eafcee203890",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft., climb 40 ft.",
-              "Passive Perception · 13",
-              "Initiative · 1",
-              "XP · 700",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 8",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A white-furred alpine hunter that tracks prey by scent and blends in with snow. Its gaze can freeze a victim in place."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Cold."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft., passive Perception 13."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Yeti."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Fear of Fire. If the yeti takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.\nKeen Smell. The yeti has advantage on Wisdom (Perception) checks based on smell.\nSnow Camouflage. The yeti has advantage on Dexterity (Stealth) checks to hide in snowy terrain."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The yeti makes two Claw attacks and can also use Chilling Gaze.\nClaw. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) slashing damage plus 3 (1d6) cold damage.\nChilling Gaze. Choose one visible creature within 30 ft. If it can see the yeti, it makes a DC 13 Constitution save against this magic. On a failure, it takes 10 (3d6) cold damage and becomes Paralyzed for 1 minute. Cold immunity prevents both effects. It can repeat the save at the end of each of its turns to end the effect on a success. If it succeeds on a save or the effect on it ends, it is immune to the Chilling Gaze of all normal yetis for 1 hour. The hour of immunity does not apply to abominable yetis."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 305."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 305 · https://5e.tools/bestiary.html#yeti_mm",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#yeti_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30836/587/1000/1000/638063940297377715.png",
         "art": [
@@ -175510,7 +174844,17 @@
             "file": "/assets/library/worker-art/yeti-allowak-variant-7298a3e22449966a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yeti"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-863bfe25256919931a1c247f",
@@ -177839,46 +177183,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 127",
-              "Hit dice · 15d10 + 45",
-              "Challenge · 7",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 2900",
-              "Str · 19",
-              "Dex · 14",
-              "Con · 17",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_black_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +5, Con +6, Wis +3, Cha +5 Skills Perception +6, Stealth +5 Damage Immunities acid Senses blindsight 30 ft., darkvision 120 ft., passive Perception 16 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 4 (1d8) acid damage. Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. Acid Breath (Recharge 5–6). The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) acid damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -178137,42 +177451,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 152",
-              "Hit dice · 16d10 + 64",
-              "Challenge · 9",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 20 ft., fly 80 ft.",
-              "XP · 5000",
-              "Str · 21",
-              "Dex · 10",
-              "Con · 19",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_blue_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +4, Con +8, Wis +5, Cha +7 Skills Perception +9, Stealth +4 Damage Immunities lightning Senses blindsight 30 ft., darkvision 120 ft., passive Perception 19 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) lightning damage. Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. Lightning Breath (Recharge 5–6). The dragon exhales lightning in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -178423,42 +177711,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 110",
-              "Hit dice · 13d10 + 39",
-              "Challenge · 6",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 20 ft., fly 80 ft.",
-              "XP · 2300",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_brass_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +3, Con +6, Wis +3, Cha +5 Skills Perception +6, Persuasion +5, Stealth +3 Damage Immunities fire Senses blindsight 30 ft., darkvision 120 ft., passive Perception 16 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage. Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one. Sleep Breath. The dragon exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -178713,46 +177975,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 142",
-              "Hit dice · 15d10 + 60",
-              "Challenge · 8",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 3900",
-              "Str · 21",
-              "Dex · 10",
-              "Con · 19",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_bronze_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +3, Con +7, Wis +4, Cha +6 Skills Insight +4, Perception +7, Stealth +3 Damage Immunities lightning Senses blindsight 30 ft., darkvision 120 ft., passive Perception 17 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage. Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Lightning Breath. The dragon exhales lightning in a 60- foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one. Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -179096,42 +178328,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 119",
-              "Hit dice · 14d10 + 42",
-              "Challenge · 7",
-              "Type · Dragon",
-              "Speed · 40 ft., climb 40 ft., fly 80 ft.",
-              "XP · 2900",
-              "Str · 19",
-              "Dex · 12",
-              "Con · 17",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_copper_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +4, Con +6, Wis +4, Cha +5 Skills Deception +5, Perception +7, Stealth +4 Damage Immunities acid Senses blindsight 30 ft., darkvision 120 ft., passive Perception 17 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage. Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Acid Breath. The dragon exhales acid in an 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid damage on a failed save, or half as much damage on a successful one. Slowing Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -180211,46 +179417,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 178",
-              "Hit dice · 17d10 + 85",
-              "Challenge · 10",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 5900",
-              "Str · 23",
-              "Dex · 14",
-              "Con · 21",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 20"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_gold_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +9, Wis +5, Cha +9 Skills Insight +5, Perception +9, Persuasion +9, Stealth +6 Damage Immunities fire Senses blindsight 30 ft., darkvision 120 ft., passive Perception 19 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage. Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one. Weakening Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -180507,46 +179683,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 8",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 3900",
-              "Str · 19",
-              "Dex · 12",
-              "Con · 17",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_green_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +4, Con +6, Wis +4, Cha +5 Skills Deception +5, Perception +7, Stealth +4 Damage Immunities poison Condition Immunities poisoned Senses blindsight 30 ft., darkvision 120 ft., passive Perception 17 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) poison damage. Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -180675,32 +179821,16 @@
       {
         "id": "printing-36066ecf4258d9da3781d3de",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 8",
-              "Size · Large",
-              "Type · Dragon",
-              "Speed · walk 40 ft., fly 80 ft., swim 40 ft.",
-              "Str · 19",
-              "Dex · 12",
-              "Con · 17",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_green_dragon"
           },
-          {
-            "title": "Attacks",
-            "lines": ["Claw · melee · +7 to hit · reach 5 ft. · 2d6 + 4 slashing"]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-c48bc3a334e46fa6f4c09e9b",
@@ -181960,42 +181090,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 178",
-              "Hit dice · 17d10 + 85",
-              "Challenge · 10",
-              "Type · Dragon",
-              "Speed · 40 ft., climb 40 ft., fly 80 ft.",
-              "XP · 5900",
-              "Str · 23",
-              "Dex · 10",
-              "Con · 21",
-              "Int · 14",
-              "Wis · 11",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_red_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +4, Con +9, Wis +4, Cha +8 Skills Perception +8, Stealth +4 Damage Immunities fire Senses blindsight 30 ft., darkvision 120 ft., passive Perception 18 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage. Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Fire Breath (Recharge 5–6). The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -182768,42 +181872,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 168",
-              "Hit dice · 16d10 + 80",
-              "Challenge · 9",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft.",
-              "XP · 5000",
-              "Str · 23",
-              "Dex · 10",
-              "Con · 21",
-              "Int · 14",
-              "Wis · 11",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_silver_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +4, Con +9, Wis +4, Cha +8 Skills Arcana +6, History +6, Perception +8, Stealth +4 Damage Immunities cold Senses blindsight 30 ft., darkvision 120 ft., passive Perception 18 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage. Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Cold Breath. The dragon exhales an icy blast in a 30- foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one. Paralyzing Breath. The dragon exhales paralyzing gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -183799,48 +182877,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 133",
-              "Hit dice · 14d10 + 56",
-              "Challenge · 6",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
-              "XP · 2300",
-              "Str · 18",
-              "Dex · 10",
-              "Con · 18",
-              "Int · 6",
-              "Wis · 11",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_white_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +3, Con +7, Wis +3, Cha +4 Skills Perception +6, Stealth +3 Damage Immunities cold Senses blindsight 30 ft., darkvision 120 ft., passive Perception 16 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 4 (1d8) cold damage. Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -201230,6 +200276,742 @@
           "publication": {
             "ref": "publication",
             "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "razorleaf",
+    "name": "Razorleaf",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_razorleaf",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "razorleaf"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ring-servant",
+    "name": "Ring Servant",
+    "summary": "",
+    "group": "Construct",
+    "printings": [
+      {
+        "id": "open5e-ccdx_ring-servant",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ring_servant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "shockwing",
+    "name": "Shockwing",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-ccdx_shockwing",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shockwing"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "skull-lantern",
+    "name": "Skull Lantern",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-ccdx_skull-lantern",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skull_lantern"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "song-angel",
+    "name": "Song Angel",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-ccdx_song-angel",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "song_angel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "storm-lord",
+    "name": "Storm Lord",
+    "summary": "",
+    "group": "Elemental",
+    "printings": [
+      {
+        "id": "open5e-ccdx_storm-lord",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "storm_lord"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "thorned-sulfurlord",
+    "name": "Thorned Sulfurlord",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-ccdx_thorned-sulfurlord",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "thorned_sulfurlord"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "tusked-crimson-ogre",
+    "name": "Tusked Crimson Ogre",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_tusked-crimson-ogre",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tusked_crimson_ogre"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "vanara",
+    "name": "Vanara",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_vanara",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vanara"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "vines-of-nemthyr",
+    "name": "Vines of Nemthyr",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_vines-of-nemthyr",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vines_of_nemthyr"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "wasteland-dragon-wyrmling",
+    "name": "Wasteland Dragon Wyrmling",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_wasteland-dragon-wyrmling",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wasteland_dragon_wyrmling"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "young-light-dragon",
+    "name": "Young Light Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_young-light-dragon",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_light_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "young-wasteland-dragon",
+    "name": "Young Wasteland Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_young-wasteland-dragon",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_wasteland_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "rum-lord",
+    "name": "Rum Lord",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-tob2_rum-lord",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rum_lord"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "sanddrift-drake",
+    "name": "Sanddrift Drake",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob2_sanddrift-drake",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sanddrift_drake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "sarsaok",
+    "name": "Sarsaok",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_sarsaok",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sarsaok"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "sasquatch",
+    "name": "Sasquatch",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_sasquatch",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sasquatch"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "shadow-of-death",
+    "name": "Shadow of Death",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob2_shadow-of-death",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow_of_death"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "snake-with-a-hundred-mage-hands",
+    "name": "Snake with a Hundred Mage Hands",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_snake-with-a-hundred-mage-hands",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "snake_with_a_hundred_mage_hands"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "sporous-crab",
+    "name": "Sporous Crab",
+    "summary": "",
+    "group": "Beast",
+    "printings": [
+      {
+        "id": "open5e-tob2_sporous-crab",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sporous_crab"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "stone-creeper",
+    "name": "Stone Creeper",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob2_stone-creeper",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_creeper"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "swampgas-bubble",
+    "name": "Swampgas Bubble",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-tob2_swampgas-bubble",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swampgas_bubble"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "tembril",
+    "name": "Tembril",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_tembril",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tembril"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "uridimmu",
+    "name": "Uridimmu",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-tob2_uridimmu",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "uridimmu"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "vangsluagh",
+    "name": "Vangsluagh",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-tob2_vangsluagh",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vangsluagh"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "vent-linnorm",
+    "name": "Vent Linnorm",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob2_vent-linnorm",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vent_linnorm"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "vine-drake",
+    "name": "Vine Drake",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob2_vine-drake",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vine_drake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "wanyudo",
+    "name": "Wanyudo",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-tob2_wanyudo",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wanyudo"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "werynax",
+    "name": "Werynax",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_werynax",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "werynax"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "young-blue-dragon-zombie",
+    "name": "Young Blue Dragon Zombie",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob2_young-blue-dragon-zombie",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_blue_dragon_zombie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "young-imperial-dragon",
+    "name": "Young Imperial Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob2_young-imperial-dragon",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_imperial_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "zeitgeist",
+    "name": "Zeitgeist",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob2_zeitgeist",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "zeitgeist"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
           }
         }
       }

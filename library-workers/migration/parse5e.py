@@ -106,8 +106,15 @@ ABW=r'(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)'
 DMG=r'(\d+) \((\d+d\d+)(?: ?([+−–-]) ?(\d+))?\) (\w+) damage'
 AREA=re.compile(r'(?:each creature|creatures?) (?:of its choice )?in (?:a|an|that|its) (\d+)-(?:foot|ft\.?)[- ](?:radius |high |long )?(cone|line|cube|sphere|emanation)(?: that is (\d+) (?:feet|ft\.?) wide)?',re.I)
 LINE=re.compile(r'(\d+)-foot-long, (\d+)-foot-?wide Line',re.I)
+# Older stat blocks name the area in one sentence and its creatures in the next: "The dragon
+# exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line…"
+LINE_WIDE=re.compile(r'\bin an? (\d+)[- ]?(?:foot|ft\.?)[- ]line that is (\d+) (?:feet|ft\.?) wide',re.I)
+SHAPE=re.compile(r'\bin an? (\d+)[- ]?(?:foot|ft\.?)(?:-radius)?[- ](cone|cube|sphere|emanation)\b',re.I)
+RADIUS=re.compile(r'\b(?:in|within) (?:its|a|an|the) (\d+)[- ]?(?:foot|ft\.?)[- ]radius\b',re.I)
+AROUND=re.compile(r'\beach (?:other )?(?:creature|enemy)(?: of its choice)? within (\d+) (?:feet|ft\.?)(?: of (?:it|itself|the [\w’\' -]+?|him|her|them))?(?=[ ,.]|$)',re.I)
 def area_of(text):
-  '''A save's area: "a 15-foot Cone", "a 20-foot-radius Sphere", "a 60-foot-long, 5-foot-wide Line".'''
+  '''A save's area: "a 15-foot Cone", "a 20-foot-radius Sphere", "a 60-foot-long, 5-foot-wide Line",
+  "a 60-foot line that is 5 feet wide", or "each creature within 10 feet of it" (an Emanation).'''
   lm=LINE.search(text)
   if lm: return {'area':{'shape':'line','size':int(lm.group(1)),'width':int(lm.group(2))}}
   am=AREA.search(text)
@@ -115,6 +122,14 @@ def area_of(text):
     t={'area':{'shape':am.group(2).lower(),'size':int(am.group(1))}}
     if am.group(3): t['area']['width']=int(am.group(3))
     return t
+  wm=LINE_WIDE.search(text)
+  if wm: return {'area':{'shape':'line','size':int(wm.group(1)),'width':int(wm.group(2))}}
+  sm=SHAPE.search(text)
+  if sm and sm.group(2).lower()!='line': return {'area':{'shape':sm.group(2).lower(),'size':int(sm.group(1))}}
+  rm=RADIUS.search(text)
+  if rm: return {'area':{'shape':'sphere','size':int(rm.group(1))}}
+  em=AROUND.search(text)
+  if em: return {'area':{'shape':'emanation','size':int(em.group(1))}}
   return None
 def save_damage(m,scores,save_ab,issues,name):
   dice=m.group(2); bonus=int(m.group(4) or 0)*(-1 if m.group(3) in ('-','−','–') else 1)
@@ -206,6 +221,11 @@ def extract_save(ab,text,scores,prof,issues):
     rest=re.sub(r'\s+',' ',(text[:m.start()]+' '+text[m.end():])).strip()
     rest=re.sub(r'^(?:and|,|\.)\s+','',rest,flags=re.I).strip()
     rest=re.sub(r'\s(?:and|,)\s*$','',rest).strip()
+    # What a failure adds after the damage ("…damage and be knocked prone") would be left as a
+    # broken sentence: wait for a closer look instead.
+    if re.search(r'(?<!\bft)\. (?:and|or) ',' '+rest):
+      ab.pop('save',None); ab['intent']=ab.get('intent','support') if 'attack' not in ab else 'damage'
+      issues.append(f'{name}: save rider not structured'); return text
     return rest[:1].upper()+rest[1:]
   # Any other phrasing: a DC save in one sentence and its damage in that sentence or the next.
   m=re.search(r'DC (\d+) '+ABW+r' sav(?:ing throw|e)',text,re.I)
@@ -226,7 +246,7 @@ def extract_save(ab,text,scores,prof,issues):
       else:
         if re.search(r'starts? its turn|enters|ends? its turn',text,re.I):
           issues.append(f'{name}: aura save not structured'); return text
-        cm=re.search(r'(?:one|a) (?:creature|target)[^.]*? within (\d+) (?:feet|ft)',text[:m.end()+10],re.I)
+        cm=re.search(r'(?:one|a) (?:[\w ]+? )?(?:creature|target)[^.]*? within (\d+) (?:feet|ft)',text[:m.end()+10],re.I)
         if not cm: issues.append(f'{name}: save target not understood'); return text
         target={'creatures':1,'range':int(cm.group(1))}
       damage=save_damage(type('M',(),{'group':lambda s,i:[None,*d.groups()][i]})(),scores,a,issues,name)

@@ -10296,35 +10296,16 @@
       {
         "id": "printing-a732f71831c74bc5f027681b",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 256",
-              "Hit dice · 19d12 + 133",
-              "Challenge · 17",
-              "Size · Huge",
-              "Type · Dragon",
-              "Speed · walk 40 ft., climb 40 ft., fly 80 ft.",
-              "Str · 27",
-              "Dex · 10",
-              "Con · 25",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 21"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_red_dragon"
           },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Claw · melee · +14 to hit · reach 5 ft. · 2d6 + 8 slashing",
-              "Tail · melee · +14 to hit · reach 15 ft. · 2d8 + 8 bludgeoning"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-eeb4d74162850b2783baa8fa",
@@ -63659,48 +63640,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 262",
-              "Hit dice · 21d12 + 126",
-              "Challenge · 19",
-              "Type · Fiend",
-              "Speed · 40 ft., fly 80 ft.",
-              "XP · 22000",
-              "Str · 26",
-              "Dex · 15",
-              "Con · 22",
-              "Int · 20",
-              "Wis · 16",
-              "Cha · 22"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "balor"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge fiend (demon), chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Str +14, Con +12, Wis +9, Cha +12 Damage Resistances cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks Damage Immunities fire, poison Condition Immunities poisoned Senses truesight 120 ft., passive Perception 13 Languages Abyssal, telepathy 120 ft."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Death Throes. When the balor dies, it explodes, and each creature within 30 feet of it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren’t being worn or carried, and it destroys the balor’s weapons. Fire Aura. At the start of each of the balor’s turns, each creature within 5 feet of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren’t being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire damage. Magic Resistance. The balor has advantage on saving throws against spells and other magical effects. Magic Weapons. The balor’s weapon attacks are magical."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The balor makes two attacks: one with its longsword and one with its whip. Longsword. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (3d8 + 8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a critical hit, it rolls damage dice three times, instead of twice. Whip. Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit: 15 (2d6 + 8) slashing damage plus 10 (3d6) fire damage, and the target must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor. Teleport. The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -78995,46 +78944,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 33",
-              "Hit dice · 6d8 + 6",
-              "Challenge · 2",
-              "Type · Dragon",
-              "Speed · 30 ft., fly 60 ft., swim 30 ft.",
-              "XP · 450",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "black_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +4, Con +3, Wis +2, Cha +3 Skills Perception +4, Stealth +4 Damage Immunities acid Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage plus 2 (1d4) acid damage. Acid Breath (Recharge 5–6). The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -84402,42 +84321,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 52",
-              "Hit dice · 8d8 + 16",
-              "Challenge · 3",
-              "Type · Dragon",
-              "Speed · 30 ft., burrow 15 ft., fly 60 ft.",
-              "XP · 700",
-              "Str · 17",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "blue_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +2, Con +4, Wis +2, Cha +4 Skills Perception +4, Stealth +2 Damage Immunities lightning Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage plus 3 (1d6) lightning damage. Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -88517,98 +88410,18 @@
       {
         "id": "printing-28adf4936e5530939552449d",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 65",
-              "Hit dice · 10d10 + 10",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Undead",
-              "Speed · 40 ft.",
-              "Passive Perception · 12",
-              "XP · 1100",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 12",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Rituals can raise a dead naga as a skeletal guard. It keeps some of its living magic, but undeath leaves gaps in its memory. A few pursue the goals they had in life."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large undead, neutral evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+3 (13)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common plus one other language."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, Exhaustion, Paralyzed, Poisoned."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Bite attacks. The naga can use Serpentine Gaze in place of either or both attacks.\nBite. Melee attack, +5 to hit, reach 10 ft. A hit inflicts 10 (2d6 + 3) Piercing damage plus 7 (2d6) Necrotic damage.\nSerpentine Gaze. A visible creature within 60 ft. makes a DC 13 Wisdom save. On failure, it takes 13 (3d6 + 3) Psychic damage and is Charmed until the start of the naga's next turn."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one spell below using Intelligence (save DC 13). No Material components are needed.\nAt will. Mage Hand, Thaumaturgy.\n1/day each. Command, Detect Thoughts, Lightning Bolt."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Relics."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 53."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 53 · https://5e.tools/bestiary.html#bone%20naga_xmm",
-              "Mage Hand (spell) · https://5e.tools/spells.html#mage%20hand_xphb",
-              "Thaumaturgy (spell) · https://5e.tools/spells.html#thaumaturgy_xphb",
-              "Command (spell) · https://5e.tools/spells.html#command_xphb",
-              "Detect Thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_xphb",
-              "Lightning Bolt (spell) · https://5e.tools/spells.html#lightning%20bolt_xphb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#bone%20naga_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47159/415/1000/1000/638742858657911692.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47159/415/1000/1000/638742858657911692.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bone_naga"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-a799b950f67ec1312e3ee33f",
@@ -92983,42 +92796,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 16",
-              "Hit dice · 3d8 + 3",
-              "Challenge · 1",
-              "Type · Dragon",
-              "Speed · 30 ft., burrow 15 ft., fly 60 ft.",
-              "XP · 200",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "brass_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +2, Con +3, Wis +2, Cha +3 Skills Perception +4, Stealth +2 Damage Immunities fire Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in an 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. Sleep Breath. The dragon exhales sleep gas in a 15-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -94726,46 +94513,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 32",
-              "Hit dice · 5d8 + 10",
-              "Challenge · 2",
-              "Type · Dragon",
-              "Speed · 30 ft., fly 60 ft., swim 30 ft.",
-              "XP · 450",
-              "Str · 17",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bronze_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +2, Con +4, Wis +2, Cha +4 Skills Perception +4, Stealth +2 Damage Immunities lightning Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Lightning Breath. The dragon exhales lightning in a 40- foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one. Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the dragon."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -98138,6 +97895,20 @@
         "edition": "Black Flag Roleplaying",
         "status": "Stat block",
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
+      },
+      {
+        "id": "open5e-tob2_bulbous-violet",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bulbous_violet"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
       }
     ],
     "groups": ["Plant"],
@@ -100522,83 +100293,6 @@
       {
         "id": "printing-8af68e4eec50a5c4f7e2d63b",
         "label": "Bigby Presents: Glory of the Giants",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 138",
-              "Hit dice · 12d12 + 60",
-              "Challenge · 9",
-              "Size · Huge",
-              "Type · Undead",
-              "Speed · 40 ft.",
-              "Passive Perception · 15",
-              "XP · 5000",
-              "Str · 23",
-              "Dex · 10",
-              "Con · 21",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A stone giant that dies while carving a masterwork may rise to finish and guard it. Its lichen-covered body blends into the cavern."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +9", "Wis +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +10", "Perception +5", "Stealth +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge undead, typically neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, exhaustion, frightened, and petrified."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Slam attacks or two Rock attacks. Also use Petrifying Touch if it is available.\nSlam. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 22 (3d10 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +10 to hit, range 60/240 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage. The target must pass a DC 17 Strength save or fall prone.\nPetrifying Touch (Recharge 5–6). Touch one visible creature within 10 ft. It must make a DC 17 Constitution save. On a failure, it takes 26 (4d12) force damage and becomes restrained as it turns to stone. The affected creature repeats the save at the end of its next turn. Success ends the effect. Failure replaces restrained with petrified."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Bigby Presents: Glory of the Giants, p. 122."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Bigby Presents: Glory of the Giants, p. 122 · https://5e.tools/bestiary.html#cairnwight_bgg",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#cairnwight_bgg",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/35952/634/1000/1000/638264236300783251.png",
         "art": [
@@ -100606,7 +100300,17 @@
             "file": "/assets/library/worker-art/cairnwight-43938b8e994b88ff.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cairnwight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "bigby_presents_glory_of_the_giants"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -106769,100 +106473,6 @@
       {
         "id": "printing-832826da926a115d0fe6a234",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 105",
-              "Hit dice · 14d10 + 28",
-              "Challenge · 7",
-              "Size · Large",
-              "Type · Fey",
-              "Speed · 50 ft.",
-              "Passive Perception · 17",
-              "XP · 2900",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 9",
-              "Wis · 18",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A fey guardian of forests, grasslands, and places of primal power."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +5", "Wis +7"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "grassland", "planar, feywild"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +7", "Nature +5", "Perception +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large fey, neutral good"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+2 (12)."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Druidic, Elvish, Sylvan."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks, choosing Forest Staff or Sun Ray for each.\nForest Staff. Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) bludgeoning damage plus 14 (4d6) poison damage.\nSun Ray. Ranged attack, +7 to hit, range 90 ft. A hit deals 14 (3d6 + 4) radiant damage and leaves the target Blinded until the start of the centaur's next turn."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast Druidcraft or Speak with Animals at will. Wisdom is the spellcasting ability, with save DC 15."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Entangling Trail (recharge 5–6). Move up to the centaur's speed without provoking Opportunity Attacks. Each creature within 5 ft. of the centaur at any point during this move makes one DC 15 Strength save. On a failed save, the creature takes 11 (2d6 + 4) bludgeoning damage and is Restrained until the end of its next turn."
-            ]
-          },
-          {
-            "title": "Habitat",
-            "lines": ["Forests, grasslands, and the Feywild."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Armaments, Individual."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 67."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 67 · https://5e.tools/bestiary.html#centaur%20warden_xmm",
-              "Druidcraft (spell) · https://5e.tools/spells.html#druidcraft_xphb",
-              "Speak with Animals (spell) · https://5e.tools/spells.html#speak%20with%20animals_xphb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_xphb",
-              "Speed (rule) · https://5e.tools/variantrules.html#speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#centaur%20warden_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/700/1000/1000/638741963893283547.jpeg",
         "art": [
@@ -106870,7 +106480,17 @@
             "file": "/assets/library/monsters/centaur.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "centaur_warden"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "groups": ["Fey"]
@@ -107620,110 +107240,6 @@
       {
         "id": "printing-942f9c9548da6ceb7e2b5546",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 85",
-              "Hit dice · 10d8 + 40",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft.",
-              "Passive Perception · 11",
-              "XP · 3900",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 18",
-              "Int · 11",
-              "Wis · 12",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A chain devil holds opponents in its chains and conjures another to drag distant targets closer."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +7", "Wis +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (devil), lawful evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+5 (15)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft. Magical Darkness does not block this vision."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Infernal and telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Bludgeoning, Cold, Piercing, Slashing."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire, Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Diabolical Restoration. If this devil dies outside the Nine Hells, its body vanishes in sulfurous smoke. It returns immediately in a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. The fiend has Advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Chain attacks and use Conjure Infernal Chain.\nChain. Melee attack, +7 to hit, reach 10 ft. On a hit, deal 11 (2d6 + 4) Slashing damage. A Large or smaller creature hit is Grappled by one of the devil's two chains (escape DC 14) and Restrained until the grapple ends.\nConjure Infernal Chain. One visible creature within 60 ft. makes a DC 15 Dexterity save. On a failure, it takes 9 (2d4 + 4) Fire damage and is Restrained until the end of the devil's next turn, when the chain vanishes. If the target is Large or smaller, the devil moves it up to 30 ft. straight toward itself. On a success, the chain vanishes without effects."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Unnerving Gaze. When a creature the devil can see starts its turn within 30 ft. and can see the devil, the devil can force that creature to make a DC 15 Wisdom save. On a failure, the creature is Frightened until the end of its turn. On a success, it is immune to this devil's Unnerving Gaze for 24 hours."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Nine Hells."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Implements."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 68."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 68 · https://5e.tools/bestiary.html#chain%20devil_xmm",
-              "Darkness (rule) · https://5e.tools/variantrules.html#darkness_xphb",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#chain%20devil_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/702/1000/1000/638741963895624163.png",
         "art": [
@@ -107731,7 +107247,17 @@
             "file": "/assets/library/monsters/chain-devil.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chain_devil"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-eb1c89be5d9b130c55aa19ff",
@@ -110614,42 +110140,6 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 114",
-              "Hit dice · 12d10 + 48",
-              "Challenge · 6",
-              "Type · Monstrosity",
-              "Speed · 30 ft., fly 60 ft.",
-              "XP · 2300",
-              "Str · 19",
-              "Dex · 11",
-              "Con · 19",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Skills Perception +8 Senses darkvision 60 ft., passive Perception 18 Languages understands Draconic but can’t speak"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The chimera makes three attacks: one with its bite, one with its horns, and one with its claws. When its fire breath is available, it can use the breath in place of its bite or horns. Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. Horns. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) bludgeoning damage. Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. Fire Breath (Recharge 5–6). The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 31 (7d8) fire damage on a failed save, or half as much damage on a successful one."
-            ]
-          }
-        ],
         "art": [
           {
             "file": "/assets/library/monsters/chimera.png",
@@ -110659,7 +110149,17 @@
             "file": "/assets/library/monsters/chimera-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chimera"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -110773,36 +110273,6 @@
       {
         "id": "printing-dd92aceb8166c6f0b35fe0b7",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 114",
-              "Hit dice · 12d10 + 48",
-              "Challenge · 6",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., fly 60 ft.",
-              "Str · 19",
-              "Dex · 11",
-              "Con · 19",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Attacks",
-            "lines": [
-              "Bite · melee · +7 to hit · reach 5 ft. · 2d6 + 4 piercing",
-              "Horns · melee · +7 to hit · reach 5 ft. · 1d12 + 4 bludgeoning",
-              "Claws · melee · +7 to hit · reach 5 ft. · 2d6 + 4 slashing"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "art": [
           {
             "file": "/assets/library/monsters/chimera.png",
@@ -110812,7 +110282,17 @@
             "file": "/assets/library/monsters/chimera-alternate.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chimera"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-57da7e6bca8f92d04291aab9",
@@ -115487,6 +114967,20 @@
         ],
         "edition": "Black Flag Roleplaying",
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
+      },
+      {
+        "id": "open5e-ccdx_clockwork-assassin",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "clockwork_assassin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
       }
     ],
     "groups": ["Construct"],
@@ -122151,42 +121645,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1",
-              "Type · Dragon",
-              "Speed · 30 ft., climb 30 ft., fly 60 ft.",
-              "XP · 200",
-              "Str · 15",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 11",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "copper_dragon_wyrmling"
           },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +3, Con +3, Wis +2, Cha +3 Skills Perception +4, Stealth +3 Damage Immunities acid Senses blindsight 10 ft., darkvision 60 ft., passive Perception 14 Languages Draconic"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10 + 2) piercing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Acid Breath. The dragon exhales acid in an 20-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Slowing Breath. The dragon exhales gas in a 15-foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -161973,46 +161441,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 341",
-              "Hit dice · 22d20 + 110",
-              "Challenge · 17",
-              "Type · Dragon",
-              "Speed · 20 ft., swim 40 ft.",
-              "XP · 18000",
-              "Str · 25",
-              "Dex · 10",
-              "Con · 20",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragon_turtle"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +11, Wis +7 Damage Resistances fire Senses darkvision 120 ft., passive Perception 11 Languages Aquan, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon turtle can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks. Bite. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) piercing damage. Claw. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16 (2d8 + 7) slashing damage. Tail. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone. Steam Breath (Recharge 5–6). The dragon turtle exhales scalding steam in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (15d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn’t grant resistance against this damage."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -164329,89 +163767,6 @@
       {
         "id": "printing-2b3c860610d8e47319e94f30",
         "label": "Fizban's Treasury of Dragons",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Ooze",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 14",
-              "XP · 1800",
-              "Str · 18",
-              "Dex · 6",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An alchemical accident that gave congealed dragon blood a will of its own. It can briefly shape itself like a dragon before collapsing into a heap."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large ooze, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Acid, cold, fire, lightning, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "Blinded, charmed, deafened, exhaustion, frightened, grappled, prone, restrained."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 120 ft. The ooze is blind beyond that radius."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Draconic and its creator’s languages. It cannot speak."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. The ooze fits through a space as narrow as 1 inch without squeezing.\nSpider Climb. The ooze can climb difficult surfaces and cross ceilings upside down without a check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Pseudopod attacks, or replace one with Slime Breath when available.\nPseudopod. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. A Large or smaller creature hit is grappled (escape DC 15) and takes 7 (2d6) acid damage at the start of each of its turns until the grapple ends.\nSlime Breath (Recharge 6). The ooze ejects part of its body in a 30-ft. cone. Each creature in the cone makes a DC 14 Dexterity save. On a failure, it takes 22 (4d10) acid damage and is pulled up to 30 ft. straight toward the ooze. On a success, it takes half damage and stays where it is."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Fizban's Treasury of Dragons, p. 182."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Fizban's Treasury of Dragons, p. 182 · https://5e.tools/bestiary.html#dragonblood%20ooze_ftd",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#dragonblood%20ooze_ftd",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/21205/223/1000/1000/637707682446769838.jpeg",
         "art": [
@@ -164419,7 +163774,17 @@
             "file": "/assets/library/worker-art/dragonblood-ooze-d6cd3b2ace1e1668.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dragonblood_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "fizban_s_treasury_of_dragons"
+          }
+        }
       }
     ],
     "groups": ["Ooze"]
@@ -188371,114 +187736,6 @@
       {
         "id": "printing-6c37f0ae7834f16515d02912",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 115",
-              "Hit dice · 10d12 + 50",
-              "Challenge · 10",
-              "Size · Huge",
-              "Type · Ooze",
-              "Speed · 20 ft.",
-              "Passive Perception · 15",
-              "XP · 5900",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 21",
-              "Int · 22",
-              "Wis · 13",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An oblex steals memories and uses them to imitate people. Its doubles can pass for their originals, apart from a faint sulfur smell."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +10", "Cha +8"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Arcana +10",
-              "Deception +8",
-              "History +10",
-              "Nature +10",
-              "Perception +5",
-              "Religion +10"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge ooze, typically lawful evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft. (blind beyond this distance)."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common plus six other languages."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Blinded, charmed, deafened, exhaustion, prone."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. The oblex can move through a gap as narrow as 1 inch without squeezing.\nAversion to Fire. After taking fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.\nUnusual Nature. The oblex does not need sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Pseudopod attacks and use Eat Memories.\nPseudopod. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 17 (4d6 + 3) bludgeoning damage plus 14 (4d6) psychic damage.\nEat Memories. Choose one visible creature within 5 ft. It makes a DC 18 Wisdom save. Constructs, Oozes, Plants, and Undead succeed automatically. On a failure, the target takes 44 (8d10) psychic damage and is memory drained. A short or long rest, Greater Restoration, or Heal ends the drain. While drained, the target subtracts a d4 roll from each ability check and attack roll. Each further drain increases the die by one size through d6, d8, d10, d12, then d20. When the die reaches d20, the target falls unconscious for 1 hour, then the effect ends. The oblex learns all the drained creature’s languages and gains all its skill proficiencies."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Spellcasting (Psionics). As an action, cast one listed spell using Intelligence (spell save DC 18). No components are required.\nAt will. Charm Person (cast at 5th level), Detect Thoughts.\n3/day each. Dimension Door, Dominate Person, Hypnotic Pattern, Telekinesis."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Sulfurous Impersonation. Form a double of a Medium or smaller creature whose memories the oblex stole. The double looks, sounds, and feels like the original but smells faintly of sulfur. The oblex can imitate 2d6 + 1 different creatures. Each double is part of the oblex, which occupies both its own space and the double’s space. A strand up to 120 ft. long connects each double to the body. The strand is immune to damage. The strand severs if no opening at least 1 inch wide connects the double and the body. The double then disappears."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 199."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 199 · https://5e.tools/bestiary.html#elder%20oblex_mpmm",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Dimension door (spell) · https://5e.tools/spells.html#dimension%20door_phb",
-              "Dominate person (spell) · https://5e.tools/spells.html#dominate%20person_phb",
-              "Hypnotic pattern (spell) · https://5e.tools/spells.html#hypnotic%20pattern_phb",
-              "Telekinesis (spell) · https://5e.tools/spells.html#telekinesis_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Heal (spell) · https://5e.tools/spells.html#heal_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#elder%20oblex_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/348/1000/1000/637880557491877313.jpeg",
         "art": [
@@ -188486,124 +187743,21 @@
             "file": "/assets/library/worker-art/elder-oblex-d99c0bcdcdbe7ed4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elder_oblex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-795852a12c47b004097cf7e8",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 115",
-              "Hit dice · 10d12 + 50",
-              "Challenge · 10",
-              "Size · Huge",
-              "Type · Ooze",
-              "Speed · 20 ft.",
-              "Passive Perception · 15",
-              "XP · 5900",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 21",
-              "Int · 22",
-              "Wis · 13",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An elder oblex feeds on memories and sends lifelike copies of its victims to lure more prey or infiltrate a settlement."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +10", "Cha +8"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": [
-              "Arcana +10",
-              "Deception +8",
-              "History +10",
-              "Nature +10",
-              "Perception +5",
-              "Religion +10"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge ooze, lawful evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft. (blind beyond this distance)."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common and six other languages."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Blinded, charmed, deafened, exhaustion and prone."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. It can pass through gaps at least 1 inch wide without squeezing.\nAversion to Fire. After taking fire damage, the oblex has disadvantage on attack rolls and ability checks through the end of its next turn."
-            ]
-          },
-          {
-            "title": "Innate Spellcasting",
-            "lines": [
-              "Intelligence sets the save DC at 18. The oblex needs no material components.\nAt will. Charm Person (cast at 5th level), Detect Thoughts, Hold Person.\n3/day each. Confusion, Dimension Door, Dominate Person, Fear, Hallucinatory Terrain, Hold Monster, Hypnotic Pattern, Telekinesis."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Sulfurous Impersonation. Form a copy of one Medium or smaller creature whose memories the oblex stole. The copy looks, feels and sounds like the original but smells faintly of sulfur. The oblex can impersonate 2d6 + 1 different creatures. A strand of slime up to 120 ft. long joins each copy to the main body. The oblex occupies its own space and each copy’s space at the same time. The strand is immune to damage. If the route between the body and copy has no opening at least 1 inch wide, the strand breaks and the copy vanishes."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Pseudopod attacks and use Eat Memories.\nPseudopod. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 17 (4d6 + 3) bludgeoning damage plus 7 (2d6) psychic damage.\nEat Memories. Choose a visible creature within 5 ft. Constructs, oozes, plants and undead automatically succeed on the DC 18 Wisdom save. On a failed save the target takes 44 (8d10) psychic damage and becomes memory drained until it finishes a short or long rest or receives Greater Restoration or Heal. It subtracts a d4 from its ability checks and attack rolls. Each further drain raises the penalty die in order from d4 to d6, d8, d10, d12 and d20. At d20 the target becomes unconscious for 1 hour, after which the effect ends. Whenever the oblex drains a target’s memories, it learns the target’s languages and gains its proficiencies except saving throw proficiencies."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, p. 219."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 219 · https://5e.tools/bestiary.html#elder%20oblex_mtf",
-              "Charm person (spell) · https://5e.tools/spells.html#charm%20person_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Confusion (spell) · https://5e.tools/spells.html#confusion_phb",
-              "Dimension door (spell) · https://5e.tools/spells.html#dimension%20door_phb",
-              "Dominate person (spell) · https://5e.tools/spells.html#dominate%20person_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Hallucinatory terrain (spell) · https://5e.tools/spells.html#hallucinatory%20terrain_phb",
-              "Hold monster (spell) · https://5e.tools/spells.html#hold%20monster_phb",
-              "Hypnotic pattern (spell) · https://5e.tools/spells.html#hypnotic%20pattern_phb",
-              "Telekinesis (spell) · https://5e.tools/spells.html#telekinesis_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Heal (spell) · https://5e.tools/spells.html#heal_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#elder%20oblex_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/277/836/1000/1000/636601916674777706.png",
         "art": [
@@ -188611,7 +187765,17 @@
             "file": "/assets/library/worker-art/elder-oblex-d99c0bcdcdbe7ed4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elder_oblex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Ooze"]
@@ -199048,115 +198212,6 @@
       {
         "id": "printing-75bdf0064886323a3666fec5",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 178",
-              "Hit dice · 21d8 + 84",
-              "Challenge · 12",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft., fly 60 ft.",
-              "Passive Perception · 16",
-              "XP · 8400",
-              "Str · 18",
-              "Dex · 16",
-              "Con · 18",
-              "Int · 14",
-              "Wis · 14",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An armored, winged devil fights with a withering sword and uses a magic rope to bind its enemies from a distance."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +7", "Con +8", "Cha +8"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +6", "Persuasion +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (devil), lawful evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+7 (17)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Infernal; telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Diabolical Restoration. Death outside the Nine Hells makes the devil vanish in sulfurous smoke. It immediately gains a new body at full HP somewhere in the Nine Hells.\nMagic Resistance. Roll saves against spells and other magical effects with Advantage.\nMagic Rope. The erinyes can use Entangling Rope while bearing its magic rope. The rope has AC 20, 90 HP, and immunity to poison and psychic damage. It crumbles to dust at 0 HP, after spending at least 1 hour at least 5 ft. from the erinyes, or when the erinyes dies. The erinyes can restore the rope in full at the end of a Short or Long Rest if it is damaged or destroyed."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Withering Sword attacks. The erinyes can also use Entangling Rope.\nWithering Sword. Melee attack, +8 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) slashing damage plus 11 (2d10) necrotic damage.\nEntangling Rope (requires Magic Rope). Choose one visible creature within 120 ft. It makes a DC 16 Strength save. On a failure, it takes 14 (4d6) force damage and is Restrained until the rope is destroyed, the erinyes releases it as a Bonus Action, or the erinyes uses Entangling Rope again."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Parry. When a melee attack roll hits the erinyes while it is holding a weapon, it can add 4 to its AC against that attack. This can turn the hit into a miss."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Nine Hells."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Armaments."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 114."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 114 · https://5e.tools/bestiary.html#erinyes_xmm",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Advantage (rule) · https://5e.tools/variantrules.html#advantage_xphb",
-              "Immunity (rule) · https://5e.tools/variantrules.html#immunity_xphb",
-              "Short Rest (rule) · https://5e.tools/variantrules.html#short%20rest_xphb",
-              "Long Rest (rule) · https://5e.tools/variantrules.html#long%20rest_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb",
-              "Bonus Action (rule) · https://5e.tools/variantrules.html#bonus%20action_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#erinyes_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/800/1000/1000/638741964028972778.png",
         "art": [
@@ -199164,7 +198219,17 @@
             "file": "/assets/library/monsters/erinyes.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "erinyes"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-9580fca3fadaea6ab13b6a7e",
@@ -234114,6 +233179,489 @@
           "monster": {
             "ref": "monster",
             "key": "frostveil"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "acid-ant",
+    "name": "Acid Ant",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_acid-ant",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "acid_ant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alkonost",
+    "name": "Alkonost",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_alkonost",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alkonost"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cacus-giant",
+    "name": "Cacus Giant",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_cacus-giant",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cacus_giant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "centaur-chieftain",
+    "name": "Centaur Chieftain",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_centaur-chieftain",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "centaur_chieftain"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "elite-kobold",
+    "name": "Elite Kobold",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_elite-kobold",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "elite_kobold"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "exploding-toad",
+    "name": "Exploding Toad",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-ccdx_exploding-toad",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "exploding_toad"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "flame-scourged-scion",
+    "name": "Flame-Scourged Scion",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-ccdx_flame-scourged-scion",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flame_scourged_scion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "flying-polyp",
+    "name": "Flying Polyp",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-ccdx_flying-polyp",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_polyp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "forest-drake",
+    "name": "Forest Drake",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_forest-drake",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "forest_drake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "fragrite",
+    "name": "Fragrite",
+    "summary": "",
+    "group": "Elemental",
+    "printings": [
+      {
+        "id": "open5e-ccdx_fragrite",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fragrite"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "adult-imperial-dragon",
+    "name": "Adult Imperial Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob2_adult-imperial-dragon",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_imperial_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ancient-imperial-dragon",
+    "name": "Ancient Imperial Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob2_ancient-imperial-dragon",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_imperial_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "avalanche-screamer",
+    "name": "Avalanche Screamer",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-tob2_avalanche-screamer",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "avalanche_screamer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "boomer",
+    "name": "Boomer",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob2_boomer",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "boomer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "boreas-chosen",
+    "name": "Boreas' Chosen",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-tob2_boreas-chosen",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "boreas_chosen"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "carnivorous-ship",
+    "name": "Carnivorous Ship",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_carnivorous-ship",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "carnivorous_ship"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "dancing-foliage",
+    "name": "Dancing Foliage",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob2_dancing-foliage",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "dancing_foliage"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "death-vulture",
+    "name": "Death Vulture",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_death-vulture",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "death_vulture"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "falsifier-fog",
+    "name": "Falsifier Fog",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob2_falsifier-fog",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "falsifier_fog"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "fleshdreg",
+    "name": "Fleshdreg",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-tob2_fleshdreg",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "fleshdreg"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "eala",
+    "name": "Eala",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob_eala",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "eala"
           },
           "publication": {
             "ref": "publication",
