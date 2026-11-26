@@ -393,7 +393,15 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The GM chooses the omen from the Omens table. Omens Omen For Results That Will Be … Weal Good Woe Bad Weal and woe Good and bad Indifference Neither good nor bad The spell doesn’t account for circumstances, such as other spells, that might change the results. If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.',
+        'You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The GM chooses the omen from the Omens table.',
+      ],
+      ['Omens'],
+      ['Weal: good results.'],
+      ['Woe: bad results.'],
+      ['Weal and woe: good and bad results.'],
+      ['Indifference: neither good nor bad results.'],
+      [
+        'The spell doesn’t account for circumstances, such as other spells, that might change the results. If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -531,7 +539,17 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice: • Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability. • The target has Disadvantage on attack rolls against you. • In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn. • If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.',
+        'You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice:',
+      ],
+      [
+        '• Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability.',
+      ],
+      ['• The target has Disadvantage on attack rolls against you.'],
+      [
+        '• In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the Dodge action on that turn.',
+      ],
+      [
+        '• If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage.',
       ],
       [
         'Using a Higher-Level Spell Slot. If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn’t require Concentration, and the duration becomes 8 hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.',
@@ -713,9 +731,15 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature): • The creature has Immunity to the Charmed and ',
+        'Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):',
+      ],
+      [
+        '• The creature has Immunity to the Charmed and ',
         rules.frightened,
-        ' conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration. • The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.',
+        ' conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.',
+      ],
+      [
+        '• The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -962,7 +986,16 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in castles and settlements. Choose three of the following facts; you learn those facts as they pertain to the spell’s area: • Locations of settlements • Locations of portals to other planes of existence • Location of one Challenge Rating 10+ creature (GM’s choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead • The most prevalent kind of plant, mineral, or Beast (you choose which to learn) • Locations of bodies of water For example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.',
+        'You commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in castles and settlements. Choose three of the following facts; you learn those facts as they pertain to the spell’s area:',
+      ],
+      ['• Locations of settlements'],
+      ['• Locations of portals to other planes of existence'],
+      [
+        '• Location of one Challenge Rating 10+ creature (GM’s choice) that is a Celestial, an Elemental, a Fey, a Fiend, or an Undead',
+      ],
+      ['• The most prevalent kind of plant, mineral, or Beast (you choose which to learn)'],
+      [
+        '• Locations of bodies of water For example, you could determine the location of a powerful monster in the area, the locations of bodies of water, and the locations of any towns.',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -1031,7 +1064,19 @@ export default createSpells({
     duration: 'Concentration, up to 1 minute',
     text: [
       [
-        'Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can’t take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below. 1d10 Behavior for the Turn 1 The target doesn’t take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west. 2–6 The target doesn’t move or take actions. 7–8 The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action. 9–10 The target chooses its behavior. At the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.',
+        'Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can’t take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.',
+      ],
+      ['1d10 Behavior for the Turn'],
+      [
+        '1: The target doesn’t take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west.',
+      ],
+      ['2–6: The target doesn’t move or take actions.'],
+      [
+        '7–8: The target doesn’t move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.',
+      ],
+      ['9–10: The target chooses its behavior.'],
+      [
+        'At the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.',
       ],
       [
         'Using a Higher-Level Spell Slot. The Sphere’s radius increases by 5 feet for each spell slot level above 4.',
@@ -1274,8 +1319,13 @@ export default createSpells({
     duration: 'Concentration, up to 8 hours',
     text: [
       [
-        '120 You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors. When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal. When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction. Precipitation Stage Condition 1 Clear 2 Light clouds 3 Overcast or ground fog 4 Rain, hail, or snow 5 Torrential rain, driving hail, or blizzard Temperature Wind Stage Condition Stage 1 Heat wave 1 Calm 2 Hot 2 Moderate wind 3 Warm 3 Strong wind 4 Cool 4 Gale 5 Cold 5 Storm 6 Freezing Condition',
+        'You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors. When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal. When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.',
       ],
+      [
+        'Precipitation: 1 Clear; 2 Light clouds; 3 Overcast or ground fog; 4 Rain, hail, or snow; 5 Torrential rain, driving hail, or blizzard.',
+      ],
+      ['Temperature: 1 Heat wave; 2 Hot; 3 Warm; 4 Cool; 5 Cold; 6 Freezing.'],
+      ['Wind: 1 Calm; 2 Moderate wind; 3 Strong wind; 4 Gale; 5 Storm.'],
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -1365,7 +1415,13 @@ export default createSpells({
     duration: 'Special',
     text: [
       [
-        'You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen. The spell’s duration depends on the object’s material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell’s Material component causes the other spell to fail. Materials Material Duration Vegetable matter 24 hours Stone or crystal 12 hours Precious metals 1 hour Gems 10 minutes Adamantine or mithral 1 minute Using a Higher-Level Spell Slot. The Cube increases by 5 feet for each spell slot level above 5.',
+        'You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen. The spell’s duration depends on the object’s material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell’s Material component causes the other spell to fail.',
+      ],
+      [
+        'Materials: vegetable matter, 24 hours; stone or crystal, 12 hours; precious metals, 1 hour; gems, 10 minutes; adamantine or mithral, 1 minute.',
+      ],
+      [
+        'Using a Higher-Level Spell Slot. The Cube increases by 5 feet for each spell slot level above 5.',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -1750,14 +1806,17 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn’t there already) and can’t return to the current plane for 24 hours by any means short of a Wish spell. Divine Word Effects Hit Points Effect 0–20 The target dies. 21–30 The target has the Blinded, Deafened, and ',
-        rules.stunned,
-        ' conditions for 1 hour. 31–40 The target has the Blinded and ',
-        rules.deafened,
-        ' conditions for 10 minutes. 41–50 The target has the ',
-        rules.deafened,
-        ' condition for 1 minute.',
+        'You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn’t there already) and can’t return to the current plane for 24 hours by any means short of a Wish spell.',
       ],
+      ['Divine Word Effects (by current Hit Points)'],
+      ['0–20: The target dies.'],
+      [
+        '21–30: The target has the Blinded, Deafened, and ',
+        rules.stunned,
+        ' conditions for 1 hour.',
+      ],
+      ['31–40: The target has the Blinded and ', rules.deafened, ' conditions for 10 minutes.'],
+      ['41–50: The target has the ', rules.deafened, ' condition for 1 minute.'],
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -2832,11 +2891,12 @@ export default createSpells({
     components: 'V, S, M (diamond dust worth 100+ GP, which the spell consumes)',
     duration: 'Instantaneous',
     text: [
-      [
-        'You touch a creature and magically remove one of the following effects from it: • 1 Exhaustion level • The Charmed or ',
-        rules.petrified,
-        ' condition • A curse, including the target’s Attunement to a cursed magic item • Any reduction to one of the target’s ability scores • Any reduction to the target’s Hit Point maximum',
-      ],
+      ['You touch a creature and magically remove one of the following effects from it:'],
+      ['• 1 Exhaustion level'],
+      ['• The Charmed or ', rules.petrified, ' condition'],
+      ['• A curse, including the target’s Attunement to a cursed magic item'],
+      ['• Any reduction to one of the target’s ability scores'],
+      ['• Any reduction to the target’s Hit Point maximum'],
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -2878,8 +2938,19 @@ export default createSpells({
       [
         'Stairs. Webs fill all stairs in the warded area from top to bottom, as in the Web spell. These strands regrow in 10 minutes if they are destroyed while Guards and Wards lasts.',
       ],
+      ['Other Spell Effect. Place one of the following magical effects within the warded area:'],
       [
-        'Other Spell Effect. Place one of the following magical effects within the warded area: • Dancing Lights in four corridors, with a simple program that the lights repeat as long as Guards and Wards lasts • Magic Mouth in two locations • Stinking Cloud in two locations (the vapors return within 10 minutes if dispersed while Guards and Wards lasts) • Gust of Wind in one corridor or room (the wind blows continuously while the spell lasts) • Suggestion in one 5-foot square; any creature that enters that square receives the suggestion mentally',
+        '• Dancing Lights in four corridors, with a simple program that the lights repeat as long as Guards and Wards lasts',
+      ],
+      ['• Magic Mouth in two locations'],
+      [
+        '• Stinking Cloud in two locations (the vapors return within 10 minutes if dispersed while Guards and Wards lasts)',
+      ],
+      [
+        '• Gust of Wind in one corridor or room (the wind blows continuously while the spell lasts)',
+      ],
+      [
+        '• Suggestion in one 5-foot square; any creature that enters that square receives the suggestion mentally',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -3734,7 +3805,14 @@ export default createSpells({
     duration: '1 hour',
     text: [
       [
-        'You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface. Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways: • The creature can’t willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw. • The creature has Disadvantage on attack rolls against targets within the Cylinder. • Targets within the Cylinder can’t be possessed by or gain the Charmed or ',
+        'You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the Cylinder intersects with the floor or other surface. Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:',
+      ],
+      [
+        '• The creature can’t willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.',
+      ],
+      ['• The creature has Disadvantage on attack rolls against targets within the Cylinder.'],
+      [
+        '• Targets within the Cylinder can’t be possessed by or gain the Charmed or ',
         rules.frightened,
         ' condition from the creature. Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.',
       ],
@@ -4516,14 +4594,27 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table. Prismatic Rays 1d8 Ray 1 Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage. 2 Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage. 3 Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage. 4 Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage. 1d8 Ray 5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage. 6 Indigo. Failed Save: The target has the ',
+        'Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.',
+      ],
+      ['Prismatic Rays (1d8)'],
+      ['1: Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage.'],
+      ['2: Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage.'],
+      ['3: Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage.'],
+      ['4: Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage.'],
+      ['5: Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage.'],
+      [
+        '6: Indigo. Failed Save: The target has the ',
         rules.restrained,
         ' condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the ',
         rules.petrified,
-        ' condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. 7 Violet. Failed Save: The target has the ',
-        rules.blinded,
-        ' condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM’s choice). 8 Special. The target is struck by two rays. Roll twice, rerolling any 8.',
+        ' condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.',
       ],
+      [
+        '7: Violet. Failed Save: The target has the ',
+        rules.blinded,
+        ' condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM’s choice).',
+      ],
+      ['8: Special. The target is struck by two rays. Roll twice, rerolling any 8.'],
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4540,11 +4631,33 @@ export default createSpells({
       [
         'A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect. The wall sheds Bright Light within 100 feet and Dim Light for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the ',
         rules.blinded,
-        ' condition for 1 minute. The wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer’s properties as described in the Prismatic Layers table. The wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. Antimagic Field has no effect on the wall, and Dispel Magic can affect only the violet layer. Prismatic Layers Order Effects 1 Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage. Additional Effects: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage. 2 Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage. Additional Effects: Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by Gust of Wind). 3 Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 60 Force damage. 4 Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage. Additional Effects: A Passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer. 5 Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 25 Fire damage. 6 Indigo. Failed Save: The target has the ',
+        ' condition for 1 minute. The wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer’s properties as described in the Prismatic Layers table. The wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. Antimagic Field has no effect on the wall, and Dispel Magic can affect only the violet layer.',
+      ],
+      ['Prismatic Layers'],
+      [
+        '1: Red. Failed Save: 12d6 Fire damage. Successful Save: Half as much damage. Additional Effects: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.',
+      ],
+      [
+        '2: Orange. Failed Save: 12d6 Acid damage. Successful Save: Half as much damage. Additional Effects: Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by Gust of Wind).',
+      ],
+      [
+        '3: Yellow. Failed Save: 12d6 Lightning damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 60 Force damage.',
+      ],
+      [
+        '4: Green. Failed Save: 12d6 Poison damage. Successful Save: Half as much damage. Additional Effects: A Passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.',
+      ],
+      [
+        '5: Blue. Failed Save: 12d6 Cold damage. Successful Save: Half as much damage. Additional Effects: The layer is destroyed if it takes at least 25 Fire damage.',
+      ],
+      [
+        '6: Indigo. Failed Save: The target has the ',
         rules.restrained,
         ' condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the ',
         rules.petrified,
-        ' condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. Additional Effects: Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the Daylight spell. 7 Violet. Failed Save: The target has the ',
+        ' condition until it is freed by an effect like the Greater Restoration spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. Additional Effects: Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the Daylight spell.',
+      ],
+      [
+        '7: Violet. Failed Save: The target has the ',
         rules.blinded,
         ' condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM’s choice). Additional Effects: This layer is destroyed by Dispel Magic.',
       ],
@@ -4562,7 +4675,19 @@ export default createSpells({
     duration: '24 hours',
     text: [
       [
-        'You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration. When you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties: • Sound can’t pass through the barrier at the edge of the warded area. • The barrier of the warded area appears dark and foggy, preventing vision (including Darkvision) through it. • Sensors created by Divination spells can’t appear inside the protected area or pass through the barrier at its perimeter. • Creatures in the area can’t be targeted by Divination spells. • Nothing can teleport into or out of the warded area. • Planar travel is blocked within the warded area. Casting this spell on the same spot every day for 365 days makes the spell last until dispelled.',
+        'You make an area within range magically secure. The area is a Cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration. When you cast the spell, you decide what sort of security the spell provides, choosing any of the following properties:',
+      ],
+      ['• Sound can’t pass through the barrier at the edge of the warded area.'],
+      [
+        '• The barrier of the warded area appears dark and foggy, preventing vision (including Darkvision) through it.',
+      ],
+      [
+        '• Sensors created by Divination spells can’t appear inside the protected area or pass through the barrier at its perimeter.',
+      ],
+      ['• Creatures in the area can’t be targeted by Divination spells.'],
+      ['• Nothing can teleport into or out of the warded area.'],
+      [
+        '• Planar travel is blocked within the warded area. Casting this spell on the same spot every day for 365 days makes the spell last until dispelled.',
       ],
       [
         'Using a Higher-Level Spell Slot. You can increase the size of the Cube by 100 feet for each spell slot level above 4.',
@@ -4790,7 +4915,21 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body’s species, or the GM chooses another playable species. 1d10 Species 1d10 Species 1 Roll again. 6 Goliath 2 Dragonborn 7 Halfling 3 Dwarf 8 Human 4 Elf 9 Orc 5 Gnome 10 Tiefling The reincarnated creature makes any choices that a species’ description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.',
+        'You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body’s species, or the GM chooses another playable species.',
+      ],
+      ['1d10 Species'],
+      ['1: Roll again.'],
+      ['2: Dragonborn'],
+      ['3: Dwarf'],
+      ['4: Elf'],
+      ['5: Gnome'],
+      ['6: Goliath'],
+      ['7: Halfling'],
+      ['8: Human'],
+      ['9: Orc'],
+      ['10: Tiefling'],
+      [
+        'The reincarnated creature makes any choices that a species’ description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -4973,7 +5112,16 @@ export default createSpells({
     duration: 'Concentration, up to 10 minutes',
     text: [
       [
-        'You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn’t know what it is making the save against, only that it feels uneasy. Your Knowledge of the Target Is … Save Modifier Secondhand (heard of the target) +5 Firsthand (met the target) +0 Extensive (know the target well) −5 You Have the Target’s … Save Modifier Picture or other likeness −2 Garment or other possession −4 Body part, lock of hair, or bit of nail −10 On a successful save, the target isn’t affected, and you can’t use this spell on it again for 24 hours. On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist. Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn’t move.',
+        'You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn’t know what it is making the save against, only that it feels uneasy.',
+      ],
+      [
+        'Knowledge of the target: secondhand (heard of the target) +5; firsthand (met the target) +0; extensive (know the target well) −5.',
+      ],
+      [
+        'Connection to the target: picture or other likeness −2; garment or other possession −4; body part, lock of hair, or bit of nail −10.',
+      ],
+      [
+        'On a successful save, the target isn’t affected, and you can’t use this spell on it again for 24 hours. On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist. Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn’t move.',
       ],
     ],
     publication: refs.publications.srd_5_2_1,
@@ -5742,7 +5890,33 @@ export default createSpells({
     duration: 'Instantaneous',
     text: [
       [
-        'This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can’t be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The GM rolls 1d100 and consults the Teleportation Outcome table and the explanations after it. Teleportation Outcome Mishap Similar Area Off Target On Target Permanent circle — — — 01–00 Linked object — — — 01–00 Very familiar 01–05 06–13 14–24 25–00 Seen casually 01–33 34–43 44–53 54–00 Viewed once or described 01–43 44–53 54–73 74–00 False destination 01–50 51–00 — — Familiarity Familiarity. Here are the meanings of the terms in the table’s Familiarity column: • “Permanent circle” means a permanent teleportation circle whose sigil sequence you know. • “Linked object” means you possess an object taken from the desired destination within the last six months, such as a book from a wizard’s library. • “Very familiar” is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell. • “Seen casually” is a place you have seen more than once but with which you aren’t very familiar. • “Viewed once or described” is a place you have seen once, possibly using magic, or a place you know through someone else’s description, perhaps from a map. • “False destination” is a place that doesn’t exist. Perhaps you tried to scry an enemy’s sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.',
+        'This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can’t be held or carried by an unwilling creature. The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The GM rolls 1d100 and consults the Teleportation Outcome table and the explanations after it.',
+      ],
+      ['Teleportation Outcome (d100: Mishap / Similar Area / Off Target / On Target)'],
+      ['Permanent circle: — / — / — / 01–00'],
+      ['Linked object: — / — / — / 01–00'],
+      ['Very familiar: 01–05 / 06–13 / 14–24 / 25–00'],
+      ['Seen casually: 01–33 / 34–43 / 44–53 / 54–00'],
+      ['Viewed once or described: 01–43 / 44–53 / 54–73 / 74–00'],
+      ['False destination: 01–50 / 51–00 / — / —'],
+      ['Familiarity. Here are the meanings of the terms in the table’s Familiarity column:'],
+      [
+        '• “Permanent circle” means a permanent teleportation circle whose sigil sequence you know.',
+      ],
+      [
+        '• “Linked object” means you possess an object taken from the desired destination within the last six months, such as a book from a wizard’s library.',
+      ],
+      [
+        '• “Very familiar” is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.',
+      ],
+      [
+        '• “Seen casually” is a place you have seen more than once but with which you aren’t very familiar.',
+      ],
+      [
+        '• “Viewed once or described” is a place you have seen once, possibly using magic, or a place you know through someone else’s description, perhaps from a map.',
+      ],
+      [
+        '• “False destination” is a place that doesn’t exist. Perhaps you tried to scry an enemy’s sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.',
       ],
       [
         'Mishap. The spell’s unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 Force damage, and the GM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).',
