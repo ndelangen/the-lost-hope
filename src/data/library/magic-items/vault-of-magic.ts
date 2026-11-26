@@ -1,5 +1,8 @@
 import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
 import { createMagicItems } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
 
 export default createMagicItems({
   aberrant_agreement: {
@@ -29,6 +32,15 @@ export default createMagicItems({
       [
         "• You can use an action to cast the augury spell from the idol. The idol can't be used this way again until the next dusk.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'cha', dc: 13 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -173,6 +185,15 @@ export default createMagicItems({
         "This shaker is carved from purest alabaster in the shape of an owl. It is 7 inches tall and contains enough salt to flavor 25 meals. When the shaker is empty, it can't be refilled, and it becomes nonmagical. When you or another creature eat a meal salted by this shaker, you don't need to eat again for 48 hours, at which point the magic wears off. If you don't eat within 1 hour of the magic wearing off, you gain one level of exhaustion. You continue gaining one level of exhaustion for each additional hour you don't eat.",
       ],
     ],
+    effects: [
+      {
+        key: 'salted-meal',
+        name: 'Salted Meal',
+        lands: { on: 'use' },
+        text: ["you don't need to eat again for 48 hours"],
+        lasts: { kind: 'time', amount: '48', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   alchemical_lantern: {
@@ -254,6 +275,16 @@ export default createMagicItems({
         "This amulet is strung on a brass necklace and holds a piece of djinn magic. The amulet has 9 charges. You can use an action to expend 1 of its charges to create a whirlwind on a point you can see within 60 feet of you. The whirlwind is a 5-foot-radius, 30-foot-tall cylinder of swirling air that lasts as long as you maintain concentration (as if concentrating on a spell). Any creature other than you that enters the whirlwind must succeed on a DC 15 Strength saving throw or be restrained by it. You can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if you lose sight of it. A creature within 5 feet of the whirlwind can pull a creature out of it by taking an action to make a DC 15 Strength check and succeeding. A restrained creature can try to escape by taking an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the whirlwind. When all of the amulet's charges are expended, the amulet becomes a nonmagical piece of jewelry worth 50 gp.",
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by Whirlwind',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until', text: ['the whirlwind ends'] },
+        ends: { escape: { dc: 15 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   anchor_of_striking: {
@@ -323,6 +354,15 @@ export default createMagicItems({
       [
         "This golden ankh is about 12 inches long and has 5 charges. While holding the ankh by the loop, you can expend 1 charge as an action to fire a beam of brilliant sunlight in a 5-foot-wide, 60-foot-line from the end. Each creature caught in the line must make a DC 15 Constitution saving throw. On a failed save, a creature takes a5d8 radiant damage and is blinded until the end of your next turn. On a successful save, it takes half damage and isn't blinded. Undead have disadvantage on this saving throw. The ankh regains 1d4 + 1 expended charges daily at dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -397,6 +437,17 @@ export default createMagicItems({
         "This arrow has a barbed head and is wound with a fine but strong thread that unravels as the arrow soars. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw or take 4d6 damage and have the arrowhead lodged in its flesh. A creature grabbed by this arrow can't move farther away from you. At the end of its turn, the creature can attempt a DC 17 Constitution saving throw, taking 4d6 piercing damage and dislodging the arrow on a success. As an action, you can attempt to pull the grabbed creature up to 10 feet in a straight line toward you, forcing the creature to repeat the saving throw. If the creature fails, it moves up to 10 feet closer to you. If it succeeds, it takes 4d6 piercing damage and the arrow is dislodged.",
       ],
     ],
+    effects: [
+      {
+        key: 'grabbed',
+        name: 'Grabbed',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.grappled],
+        text: ["A creature grabbed by this arrow can't move farther away from you."],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   arrow_of_unpleasant_herbs: {
@@ -407,6 +458,15 @@ export default createMagicItems({
       [
         "This arrow's tip is filled with magically preserved, poisonous herbs. When a creature takes damage from the arrow, the arrowhead breaks, releasing the herbs. The creature must succeed on a DC 15 Constitution saving throw or be incapacitated until the end of its next turn as it retches and reels from the poison.",
       ],
+    ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Incapacitated',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -429,6 +489,18 @@ export default createMagicItems({
       [
         "Found in a small packet, this coarse, foul-smelling black dust is made from the powdered remains of a celestial. Each packet of the substance contains enough ashes for one use. You can use an action to throw the dust in a 15-foot cone. Each spellcaster in the cone must succeed on a DC 15 Wisdom saving throw or become cursed for 1 hour or until the curse is ended with a remove curse spell or similar magic. Creatures that don't cast spells are unaffected. A cursed spellcaster must make a DC 15 Wisdom saving throw each time it casts a spell. On a success, the spell is cast normally. On a failure, the spellcaster casts a different, randomly chosen spell of the same level or lower from among the spellcaster's prepared or known spells. If the spellcaster has no suitable spells available, no spell is cast.",
       ],
+    ],
+    effects: [
+      {
+        key: 'cursed',
+        name: 'Cursed',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'A cursed spellcaster must make a DC 15 Wisdom saving throw each time it casts a spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { cure: ['a remove curse spell or similar magic'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -453,6 +525,15 @@ export default createMagicItems({
       [
         "This haladie features two short, slightly curved blades attached to a single hilt with a short, blue-sheened spike on the hand guard. You gain a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to this sword, you have immunity to poison damage, and, when you take the Dash action, the extra movement you gain is double your speed instead of equal to your speed. When you use the Attack action with this sword, you can make one attack with its hand guard spike (treat as a dagger) as a bonus action. You can use an action to cause indigo poison to coat the blades of this sword. The poison remains for 1 minute or until two attacks using the blade of this weapon hit one or more creatures. The target must succeed on a DC 17 Constitution saving throw or take 2d10 poison damage and its hit point maximum is reduced by an amount equal to the poison damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. The sword can't be used this way again until the next dawn. When you kill a creature with this weapon, it sheds a single, blue tear as it takes its last breath.",
       ],
+    ],
+    effects: [
+      {
+        key: 'hit-point-maximum-reduced',
+        name: 'Reduced Hit Point Maximum',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        text: ['its hit point maximum is reduced by an amount equal to the poison damage taken'],
+        lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -525,6 +606,23 @@ export default createMagicItems({
         "Inspire friends and strike fear in the hearts of your enemies with the drone of valor and the shrill call of martial might! You must be proficient with wind instruments to use these bagpipes. You can use an action to play them and create a fearsome and inspiring tune. Each ally within 60 feet of you that can hear the tune gains a d12 Bardic Inspiration die for 10 minutes. Each creature within 60 feet of you that can hear the tune and that is hostile to you must succeed on a DC 15 Wisdom saving throw or be frightened of you for 1 minute. A hostile creature has disadvantage on this saving throw if it is within 5 feet of you or your ally. A frightened creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, the bagpipes can't be used in this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'bardic-inspiration',
+        name: 'Bardic Inspiration',
+        lands: { on: 'use' },
+        text: ['gains a d12 Bardic Inspiration die for 10 minutes'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   baleful_wardrums: {
@@ -559,6 +657,17 @@ export default createMagicItems({
       [
         "These simple leather straps are nearly unbreakable when used as restraints. If you spend 1 minute tying a Small or Medium creature's limbs with these straps, the creature is restrained (escape DC 17) until it escapes or until you speak a command word to release the straps. While restrained by these straps, the target has disadvantage on Strength checks.",
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by Straps',
+        lands: { on: 'use' },
+        conditions: [rules.restrained],
+        text: ['While restrained by these straps, the target has disadvantage on Strength checks'],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 17 }, cure: ['you speak a command word to release the straps'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -641,6 +750,17 @@ export default createMagicItems({
         "This wide, wooden plank holds hundreds of two-inch long needle-like spikes. When you finish a long rest on the bed, you have resistance to piercing damage and advantage on Constitution saving throws to maintain your concentration on spells you cast for 8 hours or until you finish a short or long rest. Once used, the bed can't be used again until the next dusk.",
       ],
     ],
+    effects: [
+      {
+        key: 'spiked-rest',
+        name: 'Spiked rest',
+        lands: { on: 'use' },
+        text: [
+          'you have resistance to piercing damage and advantage on Constitution saving throws to maintain your concentration on spells you cast',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   belt_of_the_wilds: {
@@ -713,6 +833,19 @@ export default createMagicItems({
         "This lengthy scroll is the testimony of a pious individual's adherence to their faith. The author has emphatically rewritten these claims many times, and its two slim, metal rollers are wrapped in yards of parchment. When you attune to the item, you rewrite certain passages to align with your own religious views. You can use an action to throw the scroll at a Huge or smaller creature you can see within 30 feet of you. Make a ranged attack roll. On a hit, the scroll unfurls and wraps around the creature. The target is restrained until you take a bonus action to command the scroll to release the creature. If you command it to release the creature or if you miss with the attack, the scroll curls back into a rolled-up scroll. If the restrained target's alignment is the opposite of yours along the law/chaos or good/evil axis, you can use a bonus action to cause the writing to blaze with light, dealing 2d6 radiant damage to the target. A creature, including the restrained target, can use an action to make a DC 17 Strength check to tear apart the scroll. On a success, the scroll is destroyed. Such an attempt causes the writing to blaze with light, dealing 2d6 radiant damage to both the creature making the attempt and the restrained target, whether or not the attempt is successful. Alternatively, the restrained creature can use an action to make a DC 17 Dexterity check to slip free of the scroll. This action also triggers the damage effect, but it doesn't destroy the scroll. Once used, the scroll can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by the scroll',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: {
+          kind: 'until',
+          text: ['until you take a bonus action to command the scroll to release the creature'],
+        },
+        ends: { escape: { dc: 17 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   bituminous_orb: {
@@ -724,6 +857,16 @@ export default createMagicItems({
       [
         "A tarlike substance leaks continually from this orb, which radiates a cloying darkness and emanates an unnatural chill. While attuned to the orb, you have darkvision out to a range of 60 feet. In addition, you have immunity to necrotic damage, and you have advantage on saving throws against spells and effects that deal radiant damage. This orb has 6 charges and regains 1d6 daily at dawn. You can expend 1 charge as an action to lob some of the orb's viscous darkness at a creature you can see within 60 feet of you. The target must succeed on a DC 15 Dexterity saving throw or be grappled (escape DC 15). Until this grapple ends, the creature is blinded and takes 2d8 necrotic damage at the start of each of its turns, and you can use a bonus action to move the grappled creature up to 20 feet in any direction. You can't move the creature more than 60 feet away from the orb. Alternatively, you can use an action to expend 2 charges and crush the grappled creature. The creature must make a DC 15 Constitution saving throw, taking 6d8 bludgeoning damage on a failed save, or half as much damage on a successful one. You can end the grapple at any time (no action required). The orb's power can grapple only one creature at a time.",
       ],
+    ],
+    effects: [
+      {
+        key: 'orb-grapple',
+        name: 'Orb grapple',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.grappled, rules.blinded],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 15 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -760,6 +903,17 @@ export default createMagicItems({
         'While wearing this bear head-shaped belt buckle, you can use an action to cast polymorph on yourself, transforming into a type of bear determined by the type of belt buckle you are wearing. While you are in the form of a bear, you retain your Intelligence, Wisdom, and Charisma scores. In addition, you don’t need to maintain concentration on the spell, and the transformation lasts for 1 hour, until you use a bonus action to revert to your normal form, or until you drop to 0 hit points or die. The belt buckle can’t be used this way again until the next dawn. Black Honey Buckle (Uncommon). When you use this belt buckle to cast polymorph on yourself, you transform into a black bear. Brown Honey Buckle (Rare). When you use this belt buckle to cast polymorph on yourself, you transform into a brown bear. White Honey Buckle (Very Rare). When you use this belt buckle to cast polymorph on yourself, you transform into a polar bear.',
       ],
     ],
+    effects: [
+      {
+        key: 'bear-form',
+        name: 'Bear form',
+        lands: { on: 'use' },
+        text: [
+          'transforming into a type of bear determined by the type of belt buckle you are wearing. While you are in the form of a bear, you retain your Intelligence, Wisdom, and Charisma scores.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   black_phial: {
@@ -770,6 +924,15 @@ export default createMagicItems({
       [
         "This black stone phial has a tightly fitting stopper and 3 charges. As an action, you can fill the phial with blood taken from a living, or recently deceased (dead no longer than 1 minute), humanoid and expend 1 charge. When you do so, the black phial transforms the blood into a potion of greater healing. A creature who drinks this potion must succeed on a DC 12 Constitution saving throw or be poisoned for 1 hour. The phial regains 1d3 expended charges daily at midnight. If you expend the phial's last charge, roll a d20: 1d20. On a 1, the phial crumbles into dust and is destroyed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 12 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -827,6 +990,15 @@ export default createMagicItems({
       [
         "You gain a +2 bonus to attack and damage rolls made with this magic weapon. This brightly-colored shortsword is kept in a wooden scabbard with eternally blooming flowers. The blade is made of dull green steel, and its pommel is fashioned from hard rosewood. As a bonus action, you can conjure a flowery mist which fills a 20-foot area around you with pleasant-smelling perfume. The scent dissipates after 1 minute. A creature damaged by the blade must succeed on a DC 15 Charisma saving throw or be charmed by you until the end of its next turn. A creature can't be charmed this way more than once every 24 hours.",
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by the petals',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        conditions: [rules.charmed],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -886,6 +1058,15 @@ export default createMagicItems({
         "This ornate brass lantern comes fitted with heavily inscribed plates shielding the cut crystal lens. With a flick of a lever, as an action, the plates rise and unleash a dazzling array of lights at a single target within 30 feet. You must use two hands to direct the lights precisely into the eyes of a foe. The target must succeed on a DC 11 Wisdom saving throw or be blinded until the end of its next turn. A creature blinded by the lantern is immune to its effects for 1 minute afterward. This property can't be used in a brightly lit area. By opening the shutter on the opposite side, the device functions as a normal bullseye lantern, yet illuminates magically, requiring no fuel and giving off no heat.",
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded by the lantern',
+        lands: { on: 'failed-save', save: 'wis', dc: 11 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   blood_mark: {
@@ -933,6 +1114,15 @@ export default createMagicItems({
         'This longbow is carved of a light, sturdy wood such as hickory or yew, and it is almost always stained a deep maroon hue, lacquered and aged under layers of sundried blood. The bow is sometimes decorated with reptilian teeth, centaur tails, or other battle trophies. The bow is designed to harm the particular type of creature whose blood most recently soaked the weapon. When you make a ranged attack roll with this magic weapon against a creature of that type, you have a +1 bonus to the attack and damage rolls. If the attack hits, the target must succeed on a DC 15 Wisdom saving throw or become enraged until the end of your next turn. While enraged, the target suffers a random short-term madness.',
       ],
     ],
+    effects: [
+      {
+        key: 'enraged',
+        name: 'Enraged',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: ['While enraged, the target suffers a random short-term madness.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   blooddrinker_spear: {
@@ -944,6 +1134,17 @@ export default createMagicItems({
       [
         "Prized by gnolls, the upper haft of this spear is decorated with tiny animal skulls, feathers, and other adornments. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit a creature with this spear, you mark that creature for 1 hour. Until the mark ends, you deal an extra 1d6 damage to the target whenever you hit it with the spear, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find the target. If the target drops to 0 hit points, the mark ends. This property can't be used on a different creature until you spend a short rest cleaning the previous target's blood from the spear.",
       ],
+    ],
+    effects: [
+      {
+        key: 'marked',
+        name: 'Marked',
+        lands: { on: 'hit' },
+        text: [
+          'you deal an extra 1d6 damage to the target whenever you hit it with the spear, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find the target.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -1279,6 +1480,17 @@ export default createMagicItems({
       [
         "When you and another willing creature each drink at least half this potion, your life energies are linked for 1 hour. When you or the creature who drank the potion with you take damage while your life energies are linked, the total damage is divided equally between you. If the damage is an odd number, roll randomly to assign the extra point of damage. The effect is halted while you and the other creature are separated by more than 60 feet. The effect ends if either of you drop to 0 hit points. This potion's red liquid is viscous and has a metallic taste.",
       ],
+    ],
+    effects: [
+      {
+        key: 'linked-life',
+        name: 'Linked life',
+        lands: { on: 'use' },
+        text: [
+          'When you or the creature who drank the potion with you take damage while your life energies are linked, the total damage is divided equally between you.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -1829,6 +2041,15 @@ export default createMagicItems({
         "• If the spell is counterspell or dispel magic, the DC increases by 2 to interrupt your spellcasting or to end a magic effect on you. You can use this reaction a number of times equal to the number of doses you consumed. At the end of each long rest, you must make a DC 13 Constitution saving throw. On a failed save, your Hit Dice maximum is reduced by 25 percent. This reduction affects only the number of Hit Dice you can use to regain hit points during a short rest; it doesn't reduce your hit point maximum. This reduction lasts until you recover from the addiction. If you have no remaining Hit Dice to lose, you suffer one level of exhaustion, and your Hit Dice are returned to 75 percent of your maximum Hit Dice. The process then repeats until you die from exhaustion or you recover from the addiction. On a successful save, your exhaustion level decreases by one level. If a successful saving throw reduces your level of exhaustion below 1, you recover from the addiction. A greater restoration spell or similar magic ends the addiction and its effects. Consuming at least one dose of blue rose again halts the effects of the addiction for 2 days, at which point you can consume another dose of blue rose to halt it again or the effects of the addiction continue as normal.",
       ],
     ],
+    effects: [
+      {
+        key: 'reduced-mind',
+        name: 'Reduced mind',
+        lands: { on: 'use' },
+        text: ['your Intelligence, Wisdom, and Charisma scores are reduced by 1 each'],
+        lasts: { kind: 'until', text: ['until you finish a long rest'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   blue_willow_cloak: {
@@ -1839,6 +2060,15 @@ export default createMagicItems({
       [
         "This light cloak of fey silk is waterproof. While wearing this cloak in the rain, you can use your action to pull up the hood and become invisible for up to 1 hour. The effect ends early if you attack or cast a spell, if you use an action to pull down the hood, or if the rain stops. The cloak can't be used this way again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible under the hood',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -1862,6 +2092,15 @@ export default createMagicItems({
       [
         "This whip is constructed of humanoid vertebrae with their edges magically sharpened and pointed. The bones are joined together into a coiled line by strands of steel wire. The handle is half a femur wrapped in soft leather of tanned humanoid skin. You gain a +1 bonus to attack and damage rolls with this weapon. You can use an action to cause fiendish energy to coat the whip. For 1 minute, you gain 5 temporary hit points the first time you hit a creature on each turn. In addition, when you deal damage to a creature with this weapon, the creature must succeed on a DC 17 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage dealt. This reduction lasts until the creature finishes a long rest. Once used, this property of the whip can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'max-hp-reduced',
+        name: 'Reduced hit point maximum',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        text: ['its hit point maximum is reduced by an amount equal to the damage dealt'],
+        lasts: { kind: 'until', text: ['until the creature finishes a long rest'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -1944,6 +2183,15 @@ export default createMagicItems({
         'These soft leather boots have a collar made of Albino Death Weasel fur (see Creature Codex). While you wear these boots, your walking speed becomes 40 feet, unless your walking speed is higher. Your speed is still reduced if you are encumbered or wearing heavy armor. If you move at least 20 feet straight toward a creature and hit it with a melee weapon attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, you can make one melee weapon attack against it as a bonus action.',
       ],
     ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str', dc: 13 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   boots_of_quaking: {
@@ -1954,6 +2202,15 @@ export default createMagicItems({
       [
         "While wearing these steel-toed boots, the earth itself shakes when you walk, causing harmless, but unsettling, tremors. If you move at least 15 feet in a single turn, all creatures within 10 feet of you at any point during your movement must make a DC 16 Strength saving throw or take 1d6 force damage and fall prone. In addition, while wearing these boots, you can cast earthquake, requiring no concentration, by speaking a command word and jumping on a point on the ground. The spell is centered on that point. Once you cast earthquake in this way, you can't do so again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone by the tremors',
+        lands: { on: 'failed-save', save: 'str', dc: 16 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2056,6 +2313,15 @@ export default createMagicItems({
       [
         'This foul-smelling, murky, purple-gray liquid is created from the liquefied brains of spellcasting creatures, such as aboleths. Anyone consuming this repulsive mixture must make a DC 15 Intelligence saving throw. On a successful save, the drinker is infused with magical power and regains 1d6 + 4 expended spell slots. On a failed save, the drinker is afflicted with short-term madness for 1 day. If a creature consumes multiple doses of brain juice and fails three consecutive Intelligence saving throws, it is afflicted with long-term madness permanently and automatically fails all further saving throws brought about by drinking brain juice.',
       ],
+    ],
+    effects: [
+      {
+        key: 'short-term-madness',
+        name: 'Short-term madness',
+        lands: { on: 'failed-save', save: 'int', dc: 15 },
+        text: ['the drinker is afflicted with short-term madness for 1 day'],
+        lasts: { kind: 'time', amount: '1', unit: 'day' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2239,6 +2505,17 @@ export default createMagicItems({
         'While wearing this bear head-shaped belt buckle, you can use an action to cast polymorph on yourself, transforming into a type of bear determined by the type of belt buckle you are wearing. While you are in the form of a bear, you retain your Intelligence, Wisdom, and Charisma scores. In addition, you don’t need to maintain concentration on the spell, and the transformation lasts for 1 hour, until you use a bonus action to revert to your normal form, or until you drop to 0 hit points or die. The belt buckle can’t be used this way again until the next dawn. Black Honey Buckle (Uncommon). When you use this belt buckle to cast polymorph on yourself, you transform into a black bear. Brown Honey Buckle (Rare). When you use this belt buckle to cast polymorph on yourself, you transform into a brown bear. White Honey Buckle (Very Rare). When you use this belt buckle to cast polymorph on yourself, you transform into a polar bear.',
       ],
     ],
+    effects: [
+      {
+        key: 'bear-form',
+        name: 'Bear form',
+        lands: { on: 'use' },
+        text: [
+          'transforming into a type of bear determined by the type of belt buckle you are wearing. While you are in the form of a bear, you retain your Intelligence, Wisdom, and Charisma scores.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   bubbling_retort: {
@@ -2249,6 +2526,15 @@ export default createMagicItems({
       [
         'This long, thin retort is fashioned from smoky yellow glass and is topped with an intricately carved brass stopper. You can unstopper the retort and fill it with liquid as an action. Once you do so, it spews out multicolored bubbles in a 20-foot radius. The bubbles last for 1d4 + 1 rounds. While they last, creatures within the radius are blinded and the area is heavily obscured to all creatures except those with tremorsense. The liquid in the retort is destroyed in the process with no harmful effect on its surroundings. If any bubbles are popped, they burst with a wet smacking sound but no other effect.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded-in-bubbles',
+        name: 'Blinded in bubbles',
+        lands: { on: 'use' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'until', text: ['The bubbles last for 1d4 + 1 rounds'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2272,6 +2558,18 @@ export default createMagicItems({
       [
         "This arrow has bright red fletching and a blunt, red tip. You gain a +1 bonus to attack rolls made with this magic arrow. On a hit, the arrow deals no damage, but it paints a magical red dot on the target for 1 minute. While the dot lasts, the target takes an extra 1d4 damage of the weapon's type from any ranged attack that hits it. In addition, ranged weapon attacks against the target score a critical hit on a roll of 19 or 20. When this arrow hits a target, the arrow vanishes in a flash of red light and is destroyed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'red-dot',
+        name: 'Red dot',
+        lands: { on: 'hit' },
+        text: [
+          "While the dot lasts, the target takes an extra 1d4 damage of the weapon's type from any ranged attack that hits it. ",
+          'In addition, ranged weapon attacks against the target score a critical hit on a roll of 19 or 20.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2803,6 +3101,17 @@ export default createMagicItems({
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   chillblain_chain_mail: {
@@ -2815,6 +3124,17 @@ export default createMagicItems({
       [
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2829,6 +3149,17 @@ export default createMagicItems({
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   chillblain_half_plate: {
@@ -2841,6 +3172,17 @@ export default createMagicItems({
       [
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2855,6 +3197,17 @@ export default createMagicItems({
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   chillblain_ring_mail: {
@@ -2867,6 +3220,17 @@ export default createMagicItems({
       [
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2881,6 +3245,17 @@ export default createMagicItems({
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   chillblain_splint: {
@@ -2893,6 +3268,17 @@ export default createMagicItems({
       [
         'This armor is forged from overlapping blue steel plates or blue rings and has a frosted appearance. While wearing this armor, you gain a +1 bonus to AC, and you have resistance to cold damage. In addition, when a creature hits you with a melee weapon attack, it must succeed on a DC 15 Constitution saving throw or become numbed by the supernatural cold radiating from the armor. A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'A creature numbed by the cold can use either an action or bonus action on its turn, not both, and its movement speed is reduced by 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -2947,6 +3333,16 @@ export default createMagicItems({
       [
         "Taken from a Fleshspurned (see Tome of Beasts 2), a toothy ghost, this bony jaw holds oversized teeth that sweat ectoplasm. The jaw has 3 charges and regains 1d3 expended charges daily at dusk. While holding the jaw, you can use an action to expend 1 of its charges and choose a target within 30 feet of you. The jaw's teeth clatter together, and the target must succeed on a DC 15 Wisdom saving throw or be confused for 1 minute. While confused, the target acts as if under the effects of the confusion spell. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
       ],
+    ],
+    effects: [
+      {
+        key: 'confused',
+        name: 'Confused',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: ['While confused, the target acts as if under the effects of the confusion spell.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3114,6 +3510,17 @@ export default createMagicItems({
         "From a distance, this long, black cloak appears to be in tatters, but a closer inspection reveals that it is sewn from numerous scraps of cloth and shaped like bat wings. While wearing this cloak, you can use your action to cast polymorph on yourself, transforming into a swarm of bats. While in the form of a swarm of bats, you retain your Intelligence, Wisdom, and Charisma scores. In addition, you don't need to maintain concentration on the spell, and the transformation lasts for 1 hour, until you use a bonus action to revert to your normal form, or until you drop to 0 hit points or die. If you are a druid with the Wild Shape feature, this transformation instead lasts as long as your Wild Shape lasts. The cloak can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'bat-swarm',
+        name: 'Swarm of Bats',
+        lands: { on: 'use' },
+        text: [
+          'you can use your action to cast polymorph on yourself, transforming into a swarm of bats',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   clockwork_gauntlet: {
@@ -3125,6 +3532,15 @@ export default createMagicItems({
       [
         'This metal gauntlet has a steam-powered ram built into the greaves. It has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the gauntlet, you can expend 1 charge as a bonus action to force the ram in the gauntlets to slam a creature within 5 feet of you. The ram thrusts out from the gauntlet and makes its attack with a +5 bonus. On a hit, the target takes 2d8 bludgeoning damage, and it must succeed on a DC 13 Constitution saving throw or be stunned until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3208,6 +3624,17 @@ export default createMagicItems({
         'This hooded cloak is made from black spider silk and has thin brass ribbing stitched on the inside. It has 3 charges. While wearing the cloak, you gain a +2 bonus on Dexterity (Stealth) checks. As an action, you can expend 1 charge to animate the brass ribs into articulated spider legs 1 inch thick and 6 feet long for 1 minute. You can use the charges in succession. The spider legs allow you to climb at your normal walking speed, and you double your proficiency bonus and gain advantage on any Strength (Athletics) checks made for slippery or difficult surfaces. The cloak regains 1d3 charges each day at sunset.',
       ],
     ],
+    effects: [
+      {
+        key: 'spider-legs',
+        name: 'Spider Legs',
+        lands: { on: 'use' },
+        text: [
+          'The spider legs allow you to climb at your normal walking speed, and you double your proficiency bonus and gain advantage on any Strength (Athletics) checks made for slippery or difficult surfaces.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   coffer_of_memory: {
@@ -3267,6 +3694,15 @@ export default createMagicItems({
         "This armor is typically emblazoned or decorated with imagery of lions, bears, griffons, eagles, or other symbols of bravery and courage. While wearing this armor, your voice can be clearly heard by all friendly creatures within 300 feet of you if you so choose. Your voice doesn't carry in areas where sound is prevented, such as in the area of the silence spell. Each friendly creature that can see or hear you has advantage on saving throws against being frightened. You can use a bonus action to rally a friendly creature that can see or hear you. The target gains a +1 bonus to attack or damage rolls on its next turn. Once you have rallied a creature, you can't rally that creature again until it finishes a long rest.",
       ],
     ],
+    effects: [
+      {
+        key: 'rallied',
+        name: 'Rallied',
+        lands: { on: 'use' },
+        text: ['The target gains a +1 bonus to attack or damage rolls on its next turn.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   commanders_visage: {
@@ -3314,6 +3750,17 @@ export default createMagicItems({
         'Developed by wizards with an interest in the culinary arts, this simple broth mends the wounds of companion animals and familiars. When a beast or familiar consumes this broth, it regains 2d4 + 2 hit points. Alternatively, you can mix a flower petal into the broth, and the beast or familiar gains 2d4 temporary hit points for 8 hours instead.',
       ],
     ],
+    effects: [
+      {
+        key: 'temporary-hit-points',
+        name: 'Temporary Hit Points',
+        lands: { on: 'use' },
+        text: [
+          'you can mix a flower petal into the broth, and the beast or familiar gains 2d4 temporary hit points for 8 hours instead',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   constant_dagger: {
@@ -3324,6 +3771,17 @@ export default createMagicItems({
       [
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon, the target loses its resistance to bludgeoning, piercing, and slashing damage until the start of your next turn. If it has immunity to bludgeoning, piercing, and slashing damage, its immunity instead becomes resistance to such damage until the start of your next turn. If the creature doesn't have resistance or immunity to such damage, you roll your damage dice three times, instead of twice.",
       ],
+    ],
+    effects: [
+      {
+        key: 'resistance-lost',
+        name: 'Resistance Lost',
+        lands: { on: 'hit' },
+        text: [
+          'the target loses its resistance to bludgeoning, piercing, and slashing damage until the start of your next turn',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3336,6 +3794,21 @@ export default createMagicItems({
       [
         "This bone mace is crafted from a humanoid femur. One end is carved to resemble a ghoulish face, its mouth open wide and full of sharp fangs. The mace has 8 charges, and it recovers 1d6 + 2 charges daily at dawn. You gain a +1 bonus to attack and damage rolls made with this magic mace. When it hits a creature, the mace's mouth stretches gruesomely wide and bites the target, adding 3 (1d6) piercing damage to the attack. As a reaction, you can expend 1 charge to regain hit points equal to the piercing damage dealt. Alternatively, you can use your reaction to expend 5 charges when you hit a Medium or smaller creature and force the mace to swallow the target. The target must succeed on a DC 15 Dexterity saving throw or be swallowed into an extra-dimensional space within the mace. While swallowed, the target is blinded and restrained, and it has total cover against attacks and other effects outside the mace. The target can still breathe. As an action, you can force the mace to regurgitate the creature, which falls prone in a space within 5 feet of the mace. The mace automatically regurgitates a trapped creature at dawn when it regains charges.",
       ],
+    ],
+    effects: [
+      {
+        key: 'swallowed',
+        name: 'Swallowed',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.blinded, rules.restrained],
+        text: ['it has total cover against attacks and other effects outside the mace'],
+        lasts: {
+          kind: 'until',
+          text: [
+            'As an action, you can force the mace to regurgitate the creature, which falls prone in a space within 5 feet of the mace. The mace automatically regurgitates a trapped creature at dawn when it regains charges.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3371,6 +3844,17 @@ export default createMagicItems({
         "When you drink this tangy, violet liquid, your mind opens to new forms of communication. For 1 hour, if you spend 1 minute listening to creatures speaking a particular language, you gain the ability to communicate in that language for the duration. This potion's magic can also apply to non-verbal languages, such as a hand signal-based or dance-based language, so long as you spend 1 minute watching it being used and have the appropriate anatomy and limbs to communicate in the language.",
       ],
     ],
+    effects: [
+      {
+        key: 'language-communion',
+        name: 'Language Communion',
+        lands: { on: 'use' },
+        text: [
+          'if you spend 1 minute listening to creatures speaking a particular language, you gain the ability to communicate in that language for the duration',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   corpsehunters_medallion: {
@@ -3403,6 +3887,17 @@ export default createMagicItems({
       [
         'This perfume has a sweet, floral scent and captivates those with high social standing. The perfume can cover one Medium or smaller creature, and applying it takes 1 minute. For 1 hour, the affected creature gains a +5 bonus to Charisma checks made to socially interact with or influence nobles, politicians, or other individuals with high social standing.',
       ],
+    ],
+    effects: [
+      {
+        key: 'social-charm',
+        name: 'Social Charm',
+        lands: { on: 'use' },
+        text: [
+          'the affected creature gains a +5 bonus to Charisma checks made to socially interact with or influence nobles, politicians, or other individuals with high social standing',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3437,6 +3932,15 @@ export default createMagicItems({
       [
         "This leathery mass of dried meat was once a humanoid heart, taken from an individual that died while experiencing great terror. You can use an action to whisper a command word and hurl the heart to the ground, where it revitalizes and begins to beat rapidly and loudly for 1 minute. Each creature withing 30 feet of the heart has disadvantage on saving throws against being frightened. At the end of the duration, the heart bursts from the strain and is destroyed. The heart can be attacked and destroyed (AC 11; hp 3; resistance to bludgeoning damage). If the heart is destroyed before the end if its duration, each creature within 30 feet of the heart must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. This bugbear necromancer was once the henchman of an accomplished practitioner of the dark arts named Varrus. She started as a bodyguard and tough, but her keen intellect caught her master's attention. He eventually took her on as an apprentice. Moxug is fascinated with fear, and some say she doesn't eat but instead sustains herself on the terror of her victims. She eventually betrayed Varrus, sabotaging his attempt to become a lich, and luxuriated in his fear as he realized he would die rather than achieve immortality. According to rumor, the first craven's heart she crafted came from the body of her former master.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3634,6 +4138,16 @@ export default createMagicItems({
         "You gain a +1 bonus to attack and damage rolls made with this magic arrow. On a hit, the arrow transforms into a 10-foot-long wooden log centered on the target, destroying the arrow. The target and each creature in the log's area must make a DC 15 Dexterity saving throw. On a failure, a creature takes 3d6 bludgeoning damage and is knocked prone and restrained under the log. On a success, a creature takes half the damage and isn't knocked prone or restrained. A restrained creature can take its action to free itself by succeeding on a DC 15 Strength check. The log lasts for 1 minute then crumbles to dust, freeing those restrained by it.",
       ],
     ],
+    effects: [
+      {
+        key: 'trapped-under-log',
+        name: 'Trapped under the log',
+        conditions: [rules.prone, rules.restrained],
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 15 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   deaths_mirror: {
@@ -3760,6 +4274,15 @@ export default createMagicItems({
         "This weapon is an exquisitely crafted rapier set in a silver and leather scabbard. The blade glows a faint stormy blue and is encircled by swirling wisps of clouds. You gain a +3 bonus to attack and damage rolls made with this magic weapon. This weapon, when unsheathed, sheds dim blue light in a 20-foot radius. When you hit a creature with it, you can expend 1 Bardic Inspiration to impart a sense of overwhelming grief in the target. A creature affected by this grief must succeed on a DC 15 Wisdom saving throw or fall prone and become incapacitated by sadness until the end of its next turn. Once a month under an open sky, you can use a bonus action to speak this magic sword's command word and cause the sword to sing a sad dirge. This dirge conjures heavy rain (or snow in freezing temperatures) in the region for 2d6 hours. The precipitation falls in an X-mile radius around you, where X is equal to your level.",
       ],
     ],
+    effects: [
+      {
+        key: 'overwhelming-grief',
+        name: 'Overwhelming grief',
+        conditions: [rules.prone, rules.incapacitated],
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   dirk_of_daring: {
@@ -3782,6 +4305,18 @@ export default createMagicItems({
       [
         'This gold coin is plain and matches the dominant coin of the region. Typically, 2d6 distracting doubloons are found together. You can use an action to toss the coin up to 20 feet. The coin bursts into a flash of golden light on impact. Each creature within a 15-foot radius of where the coin landed must succeed on a DC 11 Wisdom saving throw or have disadvantage on Wisdom (Perception) checks made to perceive any creature or object other than the coin for 1 minute. If an affected creature takes damage, it can repeat the saving throw, ending the effect on itself on a success. At the end of the duration, the coin crumbles to dust and is destroyed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'distracted',
+        name: 'Distracted',
+        text: [
+          'have disadvantage on Wisdom (Perception) checks made to perceive any creature or object other than the coin',
+        ],
+        lands: { on: 'failed-save', save: 'wis', dc: 11 },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3828,6 +4363,18 @@ export default createMagicItems({
         'The liquid in this tiny vial is golden and has a heady, floral scent. When you drink the draught, it fortifies your body and mind, removing any infirmity caused by old age. You stop aging and are immune to any magical and nonmagical aging effects. The magic of the ambrosia lasts ten years, after which time its power fades, and you are once again subject to the ravages of time and continue aging.',
       ],
     ],
+    effects: [
+      {
+        key: 'ageless',
+        name: 'Ageless',
+        text: ['You stop aging and are immune to any magical and nonmagical aging effects.'],
+        lands: { on: 'use' },
+        lasts: {
+          kind: 'until',
+          text: ['The magic of the ambrosia lasts ten years, after which time its power fades'],
+        },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   draught_of_the_black_owl: {
@@ -3838,6 +4385,17 @@ export default createMagicItems({
       [
         "When you drink this potion, you transform into a black-feathered owl for 1 hour. This effect works like the polymorph spell, except you can take only the form of an owl. While you are in the form of an owl, you retain your Intelligence, Wisdom, and Charisma scores. If you are a druid with the Wild Shape feature, you can transform into a giant owl instead. Drinking this potion doesn't expend a use of Wild Shape.",
       ],
+    ],
+    effects: [
+      {
+        key: 'owl-form',
+        name: 'Owl form',
+        text: [
+          'you transform into a black-feathered owl for 1 hour. This effect works like the polymorph spell, except you can take only the form of an owl.',
+        ],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3866,6 +4424,15 @@ export default createMagicItems({
         "This small packet contains soot-like dust. There is enough of it for one use. When you use an action to blow the choking dust from your palm, each creature in a 30-foot cone must make a DC 15 Dexterity saving throw, taking 3d10 necrotic damage on a failed save, or half as much damage on a successful one. A creature that fails this saving throw can't speak until the end of its next turn as it chokes on the dust. Alternatively, you can use an action to throw the dust into the air, affecting yourself and each creature within 30 feet of you with the dust.",
       ],
     ],
+    effects: [
+      {
+        key: 'choking',
+        name: 'Choking',
+        text: ["can't speak until the end of its next turn as it chokes on the dust"],
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   dust_of_muffling: {
@@ -3888,6 +4455,15 @@ export default createMagicItems({
         'This stoppered vial is filled with dust and ash. There is enough of it for one use. When you use an action to sprinkle the dust on a willing humanoid, the target falls into a death-like slumber for 8 hours. While asleep, the target appears dead to all mundane and magical means, but spells that target the dead, such as the speak with dead spell, fail when used on the target. The cause of death is not evident, though any wounds the target has taken remain visible. If the target takes damage while asleep, it has resistance to the damage. If the target is reduced to below half its hit points while asleep, it must succeed on a DC 15 Constitution saving throw to wake up. If the target is reduced to 5 hit points or fewer while asleep, it wakes up. If the target is unwilling, it must succeed on a DC 11 Constitution saving throw to avoid the effect of the dust. A sleeping creature is considered an unwilling target.',
       ],
     ],
+    effects: [
+      {
+        key: 'death-like-slumber',
+        name: 'Death-like slumber',
+        text: ['the target falls into a death-like slumber for 8 hours'],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   eagle_cape: {
@@ -3899,6 +4475,20 @@ export default createMagicItems({
       [
         "The exterior of this silk cape is lined with giant eagle feathers. When you fall while wearing this cape, you descend 60 feet per round, take no damage from falling, and always land on your feet. In addition, you can use an action to speak the cloak's command word. This turns the cape into a pair of eagle wings which give you a flying speed of 60 feet for 1 hour or until you repeat the command word as an action. When the wings revert back to a cape, you can't use the cape in this way again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'eagle-wings',
+        name: 'Eagle wings',
+        text: [
+          'turns the cape into a pair of eagle wings which give you a flying speed of 60 feet',
+        ],
+        lands: { on: 'use' },
+        lasts: {
+          kind: 'until',
+          text: ['for 1 hour or until you repeat the command word as an action'],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -3978,6 +4568,18 @@ export default createMagicItems({
         "This bone rod is carved into the shape of twisting tendrils or tentacles. You can use this rod as an arcane focus. The rod has 3 charges and regains all expended charges daily at dawn. When you cast a spell that requires an attack roll and that deals damage while holding this rod, you can expend 1 of its charges as part of the casting to enhance that spell. If the attack hits, the spell also releases tendrils that bind the target, grappling it for 1 minute. At the start of each of your turns, the grappled target takes 1d6 damage of the same type dealt by the spell. At the end of each of its turns, the grappled target can make a Dexterity saving throw against your spell save DC, freeing itself from the tendrils on a success. The rod's magic can grapple only one target at a time. If you use the rod to grapple another target, the effect on the previous target ends.",
       ],
     ],
+    effects: [
+      {
+        key: 'tendril-grapple',
+        name: 'Tendril grapple',
+        conditions: [rules.grappled],
+        text: [
+          'At the start of each of your turns, the grappled target takes 1d6 damage of the same type dealt by the spell',
+        ],
+        lands: { on: 'hit' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   elemental_wraps: {
@@ -4001,6 +4603,16 @@ export default createMagicItems({
         "This elixir looks, smells, and tastes like a potion of heroism; however, it is actually a poisonous elixir masked by illusion magic. An identify spell reveals its true nature. If you drink it, you must succeed on a DC 15 Constitution saving throw or be corrupted by the diabolical power within the elixir for 1 week. While corrupted, you lose immunity to diseases, poison damage, and the poisoned condition. If you aren't normally immune to poison damage, you instead have vulnerability to poison damage while corrupted. The corruption can be removed with greater restoration or similar magic.",
       ],
     ],
+    effects: [
+      {
+        key: 'corrupted',
+        name: 'Corrupted',
+        text: ['you lose immunity to diseases, poison damage, and the poisoned condition'],
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: { cure: ['The corruption can be removed with greater restoration or similar magic'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   elixir_of_deep_slumber: {
@@ -4012,6 +4624,16 @@ export default createMagicItems({
         "The milky-white liquid in this vial smells of jasmine and sandalwood. When you drink this potion, you fall into a deep sleep, from which you can't be physically awakened, for 1 hour. A successful dispel magic (DC 13) cast on you awakens you but cancels any beneficial effects of the elixir. When you awaken at the end of the hour, you benefit from the sleep as if you had finished a long rest.",
       ],
     ],
+    effects: [
+      {
+        key: 'deep-slumber',
+        name: 'Deep slumber',
+        text: ["you fall into a deep sleep, from which you can't be physically awakened"],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { cure: ['A successful dispel magic (DC 13) cast on you awakens you'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   elixir_of_focus: {
@@ -4022,6 +4644,15 @@ export default createMagicItems({
       [
         "This deep amber concoction seems to glow with an inner light. When you drink this potion, you have advantage on the next ability check you make within 10 minutes, then the elixir's effect ends.",
       ],
+    ],
+    effects: [
+      {
+        key: 'focused',
+        name: 'Focused',
+        text: ['you have advantage on the next ability check you make'],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4045,6 +4676,15 @@ export default createMagicItems({
         "This pearlescent fluid perpetually swirls inside its container with a slow kaleidoscopic churn. When you drink this potion, you can cast the guidance spell for 1 hour at will. You can end this effect early as an action and gain the effects of the augury spell. If you do, you are afflicted with short-term madness after learning the spell's results.",
       ],
     ],
+    effects: [
+      {
+        key: 'guidance',
+        name: 'Guidance at will',
+        text: ['you can cast the guidance spell for 1 hour at will'],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   elixir_of_spike_skin: {
@@ -4055,6 +4695,17 @@ export default createMagicItems({
       [
         'Slivers of bone float in the viscous, gray liquid inside this vial. When you drink this potion, bone-like spikes protrude from your skin for 1 hour. Each time a creature hits you with a melee weapon attack while within 5 feet of you, it must succeed on a DC 15 Dexterity saving throw or take 1d4 piercing damage from the spikes. In addition, while you are grappling a creature or while a creature is grappling you, it takes 1d4 piercing damage at the start of your turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'spiked-skin',
+        name: 'Spiked skin',
+        text: [
+          'Each time a creature hits you with a melee weapon attack while within 5 feet of you, it must succeed on a DC 15 Dexterity saving throw or take 1d4 piercing damage from the spikes. In addition, while you are grappling a creature or while a creature is grappling you, it takes 1d4 piercing damage at the start of your turn.',
+        ],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4067,6 +4718,17 @@ export default createMagicItems({
         "This cerulean blue liquid sits calmly in its flask even when jostled or shaken. When you drink this potion, you have advantage on Wisdom checks and saving throws for 1 hour. For the duration, if you fail a saving throw against an enchantment or illusion spell or similar magic effect, you can choose to succeed instead. If you do, you draw upon all the potion's remaining power, and its effects end immediately thereafter.",
       ],
     ],
+    effects: [
+      {
+        key: 'clear-mind',
+        name: 'Clear mind',
+        text: [
+          'you have advantage on Wisdom checks and saving throws for 1 hour. For the duration, if you fail a saving throw against an enchantment or illusion spell or similar magic effect, you can choose to succeed instead.',
+        ],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   elixir_of_the_deep: {
@@ -4077,6 +4739,18 @@ export default createMagicItems({
       [
         "This thick, green, swirling liquid tastes like salted mead. For 1 hour after drinking this elixir, you can breathe underwater, and you can see clearly underwater out to a range of 60 feet. The elixir doesn't allow you to see through magical darkness, but you can see through nonmagical clouds of silt and other sedimentary particles as if they didn't exist. For the duration, you also have advantage on saving throws against the spells and other magical effects of fey creatures native to water environments, such as a Lorelei (see Tome of Beasts) or Water Horse (see Creature Codex).",
       ],
+    ],
+    effects: [
+      {
+        key: 'underwater-sight',
+        name: 'Underwater Breathing and Sight',
+        lands: { on: 'use' },
+        text: [
+          'For 1 hour after drinking this elixir, you can breathe underwater, and you can see clearly underwater out to a range of 60 feet. ',
+          'For the duration, you also have advantage on saving throws against the spells and other magical effects of fey creatures native to water environments, such as a Lorelei (see Tome of Beasts) or Water Horse (see Creature Codex).',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4089,6 +4763,18 @@ export default createMagicItems({
         "This effervescent, crimson liquid is commonly held in a thin, glass vial capped in green wax. When you drink this elixir, its effects last for 8 hours. While the elixir is in effect, you can't fall asleep by normal means. You have advantage on saving throws against effects that would put you to sleep. If you are affected by the sleep spell, your current hit points are considered 10 higher when determining the effects of the spell.",
       ],
     ],
+    effects: [
+      {
+        key: 'wakefulness',
+        name: 'Wakefulness',
+        lands: { on: 'use' },
+        text: [
+          "While the elixir is in effect, you can't fall asleep by normal means. ",
+          'You have advantage on saving throws against effects that would put you to sleep.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   elk_horn_rod: {
@@ -4100,6 +4786,18 @@ export default createMagicItems({
       [
         'This rod is fashioned from elk or reindeer horn. As an action, you can grant a +1 bonus on saving throws against spells and magical effects to a target touched by the wand, including yourself. The bonus lasts 1 round. If you are holding the rod while performing the somatic component of a dispel magic spell or comparable magic, you have a +1 bonus on your spellcasting ability check.',
       ],
+    ],
+    effects: [
+      {
+        key: 'warding-bonus',
+        name: 'Warding Bonus',
+        lands: { on: 'use' },
+        text: [
+          'you can grant a +1 bonus on saving throws against spells and magical effects to a target touched by the wand, including yourself. ',
+          'The bonus lasts 1 round.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4268,6 +4966,19 @@ export default createMagicItems({
         "When you hit a creature with a ranged attack using this magical ammunition, the target must succeed on a DC 13 Wisdom saving throw or become enraged for 1 minute. On its turn, an enraged creature moves toward you by the most direct route, trying to get within 5 feet of you. It doesn't avoid opportunity attacks, but it moves around or avoids damaging terrain, such as lava or a pit. If the enraged creature is within 5 feet of you, it attacks you. An enraged creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
       ],
     ],
+    effects: [
+      {
+        key: 'enraged',
+        name: 'Enraged',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'On its turn, an enraged creature moves toward you by the most direct route, trying to get within 5 feet of you. ',
+          'If the enraged creature is within 5 feet of you, it attacks you.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   ensnaring_ammunition: {
@@ -4278,6 +4989,16 @@ export default createMagicItems({
       [
         'When you hit a creature with a ranged attack using this magical ammunition, the target takes only half the damage from the attack, and the target is restrained as the ammunition bursts into entangling strands that wrap around it. As an action, the restrained target can make a DC 13 Strength check, bursting the bonds on a success. The strands can also be attacked and destroyed (AC 10; hp 5; immunity to bludgeoning, poison, and psychic damage).',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by Strands',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4312,6 +5033,22 @@ export default createMagicItems({
         "Originally fashioned in the laboratory of the archmage Lugax for his good natured but often roguish friend, Kennich, these spherical ceramic containers are the size of a large human fist. Arcane sigils decorate each orb, detailing its properties to those capable of reading the sigils. The magic-infused chemicals in each orb must be briefly exposed to air before being thrown to activate them. A metal rod sits in the cork of each orb, allowing you to quickly twist open the container before throwing it. Typically, 1d4 + 1 orbs of obfuscation are found together. You can use an action to activate and throw the orb up to 60 feet. The orb explodes on impact and is destroyed. The orb's effects are determined by its type. Orb of Obfuscation (Uncommon). This orb is a dark olive color with a stripe of bright blue paint encircling it. When activated, the orb releases an opaque grey gas and creates a 30-foot-radius sphere of this gas centered on the point where the orb landed. The sphere spreads around corners, and its area is heavily obscured. The magical gas also dampens sound. Each creature in the gas can hear only sounds originating within 5 feet of it, and creatures outside of the gas can’t hear sounds originating inside the gas. The gas lasts for 5 minutes or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it. Explosive Orb of Obfuscation (Rare). This oblong orb has a putty grey color with a stripe of yellow paint encircling it. When activated, this orb releases the same opaque grey gas as the orb of obfuscation. In addition to the effects of that gas, this orb also releases a burst of caustic chemicals on impact. Each creature within a 15-foot radius of where the orb landed must make a DC 15 Dexterity saving throw, taking 4d4 acid damage on a failed save, or half as much damage on a successful one. If a creature fails this saving throw, the chemicals cling to it for 1 minute. At the end of each of its turns, the creature must succeed on a DC 15 Constitution saving throw or take 2d4 acid damage from the clinging chemicals. Any creature can take an action to remove the clinging chemicals with a successful DC 15 Wisdom (Medicine) check.",
       ],
     ],
+    effects: [
+      {
+        key: 'clinging-chemicals',
+        name: 'Clinging Chemicals',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        text: [
+          'At the end of each of its turns, the creature must succeed on a DC 15 Constitution saving throw or take 2d4 acid damage from the clinging chemicals.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          cure: [
+            'Any creature can take an action to remove the clinging chemicals with a successful DC 15 Wisdom (Medicine) check.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   exsanguinating_blade: {
@@ -4334,6 +5071,17 @@ export default createMagicItems({
       [
         'This potion can be distilled only from a hormone found in the hypothalamus of a two-headed giant of genius intellect. For 1 minute after drinking this potion, you can concentrate on two spells at the same time, and you have advantage on Constitution saving throws made to maintain your concentration on a spell when you take damage.',
       ],
+    ],
+    effects: [
+      {
+        key: 'dual-mindedness',
+        name: 'Dual-Mindedness',
+        lands: { on: 'use' },
+        text: [
+          'For 1 minute after drinking this potion, you can concentrate on two spells at the same time, and you have advantage on Constitution saving throws made to maintain your concentration on a spell when you take damage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4369,6 +5117,15 @@ export default createMagicItems({
       [
         "These lenses are crafted of polished, opaque black stone. When placed over the eyes, however, they allow the wearer not only improved vision but glimpses into the vast emptiness between the stars. While wearing these lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, its range is extended by 60 feet. As an action, you can use the lenses to pierce the veils of time and space and see into the outer darkness. You gain the benefits of the foresight and true seeing spells for 10 minutes. If you activate this property and you aren't suffering from a madness, you take 3d8 psychic damage. Once used, this property of the lenses can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'outer-darkness-sight',
+        name: 'Sight of the Outer Dark',
+        lands: { on: 'use' },
+        text: ['You gain the benefits of the foresight and true seeing spells for 10 minutes.'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4438,6 +5195,27 @@ export default createMagicItems({
       [
         'The following are additional feather token options. Cloud (Uncommon). This white feather is shaped like a cloud. You can use an action to step on the token, which expands into a 10-foot-diameter cloud that immediately begins to rise slowly to a height of up to 20 feet. Any creatures standing on the cloud rise with it. The cloud disappears after 10 minutes, and anything that was on the cloud falls slowly to the ground. Dark of the Moon (Rare). This black feather is shaped like a crescent moon. As an action, you can brush the feather over a willing creature’s eyes to grant it the ability to see in the dark. For 1 hour, that creature has darkvision out to a range of 60 feet, including in magical darkness. Afterwards, the feather disappears. Held Heart (Very Rare). This red feather is shaped like a heart. While carrying this token, you have advantage on initiative rolls. As an action, you can press the feather against a willing, injured creature. The target regains all its missing hit points and the feather disappears. Jackdaw’s Dart (Common). This black feather is shaped like a dart. While holding it, you can use an action to throw it at a creature you can see within 30 feet of you. As it flies, the feather transforms into a blot of black ink. The target must succeed on a DC 11 Dexterity saving throw or the feather leaves a black mark of misfortune on it. The target has disadvantage on its next ability check, attack roll, or saving throw then the mark disappears. A remove curse spell ends the mark early.',
       ],
+    ],
+    effects: [
+      {
+        key: 'darkvision',
+        name: 'Darkvision',
+        lands: { on: 'use' },
+        text: [
+          'that creature has darkvision out to a range of 60 feet, including in magical darkness',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'jackdaws-mark',
+        name: 'Jackdaw’s mark',
+        lands: { on: 'failed-save', save: 'dex', dc: 11 },
+        text: [
+          'The target has disadvantage on its next ability check, attack roll, or saving throw',
+        ],
+        lasts: { kind: 'until', text: ['then the mark disappears'] },
+        ends: { cure: ['A remove curse spell ends the mark early.'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4606,6 +5384,15 @@ export default createMagicItems({
         'This dreaded item is a black flag painted with an unsettlingly realistic skull. A spell or other effect that can sense the presence of magic, such as detect magic, reveals an aura of necromancy around the flag. Beasts with an Intelligence of 3 or lower don’t willingly board a vessel where this flag flies. A successful DC 17 Wisdom (Animal Handling) check convinces an unwilling beast to board the vessel, though it remains uneasy and skittish while aboard. Cursed Crew. When this baleful flag flies atop the mast of a waterborne vehicle, it curses the vessel and all those that board it. When a creature that isn’t a humanoid dies aboard the vessel, it rises 1 minute later as a zombie under the ship captain’s control. When a humanoid dies aboard the vessel, it rises 1 minute later as a ghoul under the ship captain’s control. A ghoul retains any knowledge of sailing or maintaining a waterborne vehicle that it had in life. Cursed Captain. If the ship flying this flag doesn’t have a captain, the undead crew seeks out a powerful humanoid or intelligent undead to bring aboard and coerce into becoming the captain. When an undead with an Intelligence of 10 or higher boards the captainless vehicle, it must succeed on a DC 17 Wisdom saving throw or become magically bound to the ship and the flag. If the creature exits the vessel and boards it again, the creature must repeat the saving throw. The flag fills the captain with the desire to attack other vessels to grow its crew and commandeer larger vessels when possible, bringing the flag with it. If the flag is destroyed or removed from a waterborne vehicle for at least 7 days, the zombie and ghoul crew crumbles to dust, and the captain is freed of the flag’s magic, if the captain was bound to it. Unholy Vessel. While aboard a vessel flying this flag, an undead creature has advantage on saving throws against effects that turn undead, and if it fails the saving throw, it isn’t destroyed, no matter its CR. In addition, the captain and crew can’t be frightened while aboard a vessel flying this flag. When a creature that isn’t a construct or undead and isn’t part of the crew boards the vessel, it must succeed on a DC 17 Constitution saving throw or be poisoned while it remains on board. If the creature exits the vessel and boards it again, the creature must repeat the saving throw.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned-aboard',
+        name: 'Poisoned aboard',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'until', text: ['exits the vessel'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   flash_bullet: {
@@ -4616,6 +5403,15 @@ export default createMagicItems({
       [
         'When you hit a creature with a ranged attack using this shiny, polished stone, it releases a sudden flash of bright light. The target takes damage as normal and must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn. Creatures with the Sunlight Sensitivity trait have disadvantage on this saving throw.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Flash-blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 11 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4628,6 +5424,15 @@ export default createMagicItems({
       [
         "This flask is made of silver and cherry wood, and it holds finely cut garnets on its faces. This ornate flask contains 5 ounces of powerful alcoholic spirits. As an action, you can drink up to 5 ounces of the flask's contents. You can drink 1 ounce without risk of intoxication. When you drink more than 1 ounce of the spirits as part of the same action, you must make a DC 12 Constitution saving throw (this DC increases by 1 for each ounce you imbibe after the second, to a maximum of DC 15). On a failed save, you are incapacitated for 1d4 hours and gain no benefits from consuming the alcohol. On a success, your Intelligence or Wisdom (your choice) increases by 1 for each ounce you consumed. Whether you fail or succeed, your Dexterity is reduced by 1 for each ounce you consumed. The effect lasts for 1 hour. During this time, you have advantage on all Intelligence (Arcana) and Inteligence (Religion) checks. The flask replenishes 1d3 ounces of spirits daily at dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'epiphany',
+        name: 'Epiphany',
+        lands: { on: 'use' },
+        text: ['you have advantage on all Intelligence (Arcana) and Inteligence (Religion) checks'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4674,6 +5479,15 @@ export default createMagicItems({
         "If you use an action to flick this fly whisk, you have advantage on Charisma (Intimidation) and Charisma (Persuasion) checks for 10 minutes. You can't use the fly whisk this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'authority',
+        name: 'Authority',
+        lands: { on: 'use' },
+        text: ['you have advantage on Charisma (Intimidation) and Charisma (Persuasion) checks'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   fog_stone: {
@@ -4696,6 +5510,17 @@ export default createMagicItems({
         "The head of this weapon is shaped like an anvil, and engravings of fire and arcane runes decorate it. You can use a bonus action to speak this magic weapon's command word, causing its head to glow red-hot. While red-hot, the weapon deals an extra 1d6 fire damage to any target it hits. The weapon's anvil-like head remains red-hot until you use a bonus action to speak the command word again or until you drop or sheathe the weapon. When you roll a 20 on an attack roll made with this weapon against a target holding or wearing a metal object, such as a metal weapon or metal armor, the target takes an extra 1d4 fire damage and the metal object becomes red-hot for 1 minute. While the object is red-hot and the creature still wears or carries it, the creature takes 1d4 fire damage at the start of each of its turns.",
       ],
     ],
+    effects: [
+      {
+        key: 'red-hot-metal',
+        name: 'Red-hot metal',
+        lands: { on: 'hit' },
+        text: [
+          'While the object is red-hot and the creature still wears or carries it, the creature takes 1d4 fire damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   forgefire_warhammer: {
@@ -4706,6 +5531,17 @@ export default createMagicItems({
       [
         "The head of this weapon is shaped like an anvil, and engravings of fire and arcane runes decorate it. You can use a bonus action to speak this magic weapon's command word, causing its head to glow red-hot. While red-hot, the weapon deals an extra 1d6 fire damage to any target it hits. The weapon's anvil-like head remains red-hot until you use a bonus action to speak the command word again or until you drop or sheathe the weapon. When you roll a 20 on an attack roll made with this weapon against a target holding or wearing a metal object, such as a metal weapon or metal armor, the target takes an extra 1d4 fire damage and the metal object becomes red-hot for 1 minute. While the object is red-hot and the creature still wears or carries it, the creature takes 1d4 fire damage at the start of each of its turns.",
       ],
+    ],
+    effects: [
+      {
+        key: 'red-hot-metal',
+        name: 'Red-hot metal',
+        lands: { on: 'hit' },
+        text: [
+          'While the object is red-hot and the creature still wears or carries it, the creature takes 1d4 fire damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4743,6 +5579,15 @@ export default createMagicItems({
         "Fashioned from the stomach lining of a Devil Shark (see Creature Codex), this rubbery pellet is cold to the touch. When you consume the pellet, you feel bloated, and you are immune to cold damage for 1 hour. Once before the duration ends, you can expel a 30-foot cone of cold water. Each creature in the cone must make a DC 15 Constitution saving throw. On a failure, the creature takes 6d8 cold damage and is pushed 10 feet away from you. On a success, the creature takes half the damage and isn't pushed away.",
       ],
     ],
+    effects: [
+      {
+        key: 'cold-immunity',
+        name: 'Cold immunity',
+        lands: { on: 'use' },
+        text: ['you are immune to cold damage'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   frostfire_lantern: {
@@ -4754,6 +5599,15 @@ export default createMagicItems({
       [
         "While lit, the flame in this ornate mithril lantern turns blue and sheds a cold, blue dim light in a 30-foot radius. After the lantern's flame has burned for 1 hour, it can't be lit again until the next dawn. You can extinguish the lantern's flame early for use at a later time. Deduct the time it burned in increments of 1 minute from the lantern's total burn time. When a creature enters the lantern's light for the first time on a turn or starts its turn there, the creature must succeed on a DC 17 Constitution saving throw or be vulnerable to cold damage until the start of its next turn. When you light the lantern, choose up to four creatures you can see within 30 feet of you, which can include yourself. The chosen creatures are immune to this effect of the lantern's light.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frostfire-chill',
+        name: 'Frostfire chill',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        text: ['be vulnerable to cold damage until the start of its next turn'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4778,6 +5632,16 @@ export default createMagicItems({
         "Stylized etchings of cat-like lightning elementals known as Fulminars (see Creature Codex) cover the outer surfaces of these solid silver bracers. While wearing these bracers, lightning crackles harmless down your hands, and you have resistance to lightning damage and thunder damage. The bracers have 3 charges. You can use an action to expend 1 charge to create lightning shackles that bind up to two creatures you can see within 60 feet of you. Each target must make a DC 15 Dexterity saving throw. On a failure, a target takes 4d6 lightning damage and is restrained for 1 minute. On a success, the target takes half the damage and isn't restrained. A restrained creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The bracers regain all expended charges daily at dawn. The bracers also regain 1 charge each time you take 10 lightning damage while wearing them.",
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Lightning shackles',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   gale_javelin: {
@@ -4788,6 +5652,16 @@ export default createMagicItems({
       [
         "The metallic head of this javelin is embellished with three small wings. When you speak a command word while making a ranged weapon attack with this magic weapon, a swirling vortex of wind follows its path through the air. Draw a line between you and the target of your attack; each creature within 10 feet of this line must make a DC 13 Strength saving throw. On a failed save, the creature is pushed backward 10 feet and falls prone. In addition, if this ranged weapon attack hits, the target must make a DC 13 Strength saving throw. On a failed save, the target is pushed backward 15 feet and falls prone. The javelin's property can't be used again until the next dawn. In the meantime, it can still be used as a magic weapon.",
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Gale wind',
+        lands: { on: 'hit' },
+        conditions: [rules.prone],
+        text: ['the target is pushed backward 15 feet'],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -4998,6 +5872,16 @@ export default createMagicItems({
         "Scales from dead dragons cover this wooden, curved horn. You can use an action to speak the horn's command word and then blow the horn, which emits a blast in a 30-foot cone, containing shrieking spectral dragon heads. Each creature in the cone must make a DC 17 Wisdom saving throw. On a failure, a creature tales 5d10 psychic damage and is frightened of you for 1 minute. On a success, a creature takes half the damage and isn't frightened. Dragons have disadvantage on the saving throw and take 10d10 psychic damage instead of 5d10. A frightened target can repeat the Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success. If a dragon takes damage from the horn's shriek, the horn has a 20 percent chance of exploding. The explosion deals 10d10 psychic damage to the blower and destroys the horn. Once you use the horn, it can't be used again until the next dawn. If you kill a dragon while holding or carrying the horn, you regain use of the horn.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Ghostly shriek',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   ghost_thread: {
@@ -5052,6 +5936,16 @@ export default createMagicItems({
       [
         'This glass sphere measures 3 inches in diameter and contains a swirling, yellow mist. You can use an action to throw the orb up to 60 feet. The orb shatters on impact and is destroyed. Each creature within a 20-foot-radius of where the orb landed must succeed on a DC 15 Wisdom saving throw or fall prone in fits of laughter, becoming incapacitated and unable to stand for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'laughing-fit',
+        name: 'Fit of laughter',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.prone, rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5240,6 +6134,17 @@ export default createMagicItems({
         "• You can use an action to become a living shadow for 1 minute. For the duration, you can move through a space as narrow as 1 inch wide without squeezing, and you can take the Hide action as a bonus action while you are in dim light or darkness. Once used, this property of the gloves can't be used again until the next nightfall.",
       ],
     ],
+    effects: [
+      {
+        key: 'living-shadow',
+        name: 'Living shadow',
+        lands: { on: 'use' },
+        text: [
+          'you can move through a space as narrow as 1 inch wide without squeezing, and you can take the Hide action as a bonus action while you are in dim light or darkness',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   gnawing_spear: {
@@ -5251,6 +6156,16 @@ export default createMagicItems({
       [
         "You gain a +1 bonus to attack and damage rolls with this magic weapon. When you roll a 20 on an attack roll made with this spear, its head animates, grows serrated teeth, and lodges itself in the target. While the spear is lodged in the target and you are wielding the spear, the target is grappled by you. At the start of each of your turns, the spear twists and grinds, dealing 2d6 piercing damage to the grappled target. If you release the spear, it remains lodged in the target, dealing damage each round as normal, but the target is no longer grappled by you. While the spear is lodged in a target, you can't make attacks with it. A creature, including the restrained target, can take its action to remove the spear by succeeding on a DC 15 Strength check. The target takes 1d6 piercing damage when the spear is removed. You can use an action to speak the spear's command word, causing it to dislodge itself and fall into an unoccupied space within 5 feet of the target.",
       ],
+    ],
+    effects: [
+      {
+        key: 'lodged-grapple',
+        name: 'Lodged spear',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 15 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5310,6 +6225,16 @@ export default createMagicItems({
         "The iron scales of this armor have a green-tinged iridescence. While wearing this armor, you gain a +1 bonus to AC, and you have immunity to the petrified condition. If you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack on the same turn, you can use a bonus action to imbue the hit with some of the armor's petrifying magic. The target must make a DC 15 Constitution saving throw. On a failed save, the target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic. The armor can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'turning-to-stone',
+        name: 'Turning to stone',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.restrained],
+        text: ['The restrained target must repeat the saving throw at the end of its next turn.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   granny_wax: {
@@ -5344,6 +6269,15 @@ export default createMagicItems({
       [
         'Made of strips of black leather, this cloak always shines as if freshly oiled. The strips writhe and grasp at nearby creatures. While wearing this cloak, you can use a bonus action to command the strips to grapple a creature no more than one size larger than you within 5 feet of you. The strips make the grapple attack roll with a +7 bonus. On a hit, the target is grappled by the cloak, leaving your hands free to perform other tasks or actions that require both hands. However, you are still considered to be grappling a creature, limiting your movement as normal. The cloak can grapple only one creature at a time. Alternatively, you can use a bonus action to command the strips to aid you in grappling. If you do so, you have advantage on your next attack roll made to grapple a creature. While grappling a creature in this way, you have advantage on the contested check if a creature attempts to escape your grapple.',
       ],
+    ],
+    effects: [
+      {
+        key: 'grappled-by-cloak',
+        name: 'Grappled by cloak',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5380,6 +6314,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   grave_ward_chain_mail: {
@@ -5392,6 +6337,17 @@ export default createMagicItems({
       [
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5406,6 +6362,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   grave_ward_half_plate: {
@@ -5418,6 +6385,17 @@ export default createMagicItems({
       [
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5432,6 +6410,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   grave_ward_leather: {
@@ -5444,6 +6433,17 @@ export default createMagicItems({
       [
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5458,6 +6458,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   grave_ward_plate: {
@@ -5470,6 +6481,17 @@ export default createMagicItems({
       [
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5484,6 +6506,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   grave_ward_scale_mail: {
@@ -5496,6 +6529,17 @@ export default createMagicItems({
       [
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5510,6 +6554,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   grave_ward_studded_leather: {
@@ -5523,6 +6578,17 @@ export default createMagicItems({
         "This armor bears gold or brass symbols of sunlight and sun deities and never tarnishes or rusts. The armor is immune to necrotic damage and rusting attacks such as those of a rust monster. While wearing this armor, your maximum hit points can't be reduced. As an action, you can speak a command word to gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead. Once you use this property, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protection-from-evil-and-good',
+        name: 'Protection from evil and good',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of a protection from evil and good spell for 1 minute (no concentration required). While the spell is active, if you are reduced to 0 hit points, you drop to 1 hit point instead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   greater_potion_of_troll_blood: {
@@ -5533,6 +6599,18 @@ export default createMagicItems({
       [
         "When drink this potion, you regain 3 hit points at the start of each of your turns. After it has restored 30 hit points, the potion's effects end.",
       ],
+    ],
+    effects: [
+      {
+        key: 'regeneration',
+        name: 'Regeneration',
+        lands: { on: 'use' },
+        text: ['you regain 3 hit points at the start of each of your turns.'],
+        lasts: {
+          kind: 'until',
+          text: ["After it has restored 30 hit points, the potion's effects end."],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5568,6 +6646,15 @@ export default createMagicItems({
       [
         'Legends tell of a dragon whose hide was impenetrable and so robust that only a blow to the heart would kill it. An unnamed hero finally defeated it and tore its heart into two. The dragon’s name was lost, but its legacy remains. This sword is one of two items that were crafted to hold its heart. The black blade is adorned with glittering silver runes, and its guard has a shallow opening at the center with grooves connecting it to the first rune. The sword’s pommel is a large, clear crystal held fast by silver scales. You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with an attack using this sword, that creature takes an extra 1d6 slashing damage. Runes of Courage. You can’t be frightened while holding or carrying this sword. Fragment of Gram Awakened. You can use a bonus action to awaken a fragment of the spirit of the great wyrm that inhabits this blade. For 24 hours, you gain a +3 bonus to attack and damage rolls with this magic sword, and when you hit a dragon with an attack using this sword, that creature takes an extra 3d6 slashing damage. Once used, this property can’t be used again until 3 days have passed. If you have performed the Dragon Heart Ritual, you can use a bonus action to expend 2 of the sword’s charges to activate this property, and you can use this property as often as you want, as long as you have the charges to do so. Dragon Heart Ritual. If you are also attuned to the locket of dragon vitality (see page 152), you can drain 3 charges from the locket into the sword, turning the crystal pommel a deep red and rendering the locket broken and irreparable. Doing this requires a long rest where you also re-attune with the newly charged sword of volsung. Upon completing the Dragon Heart Ritual, the sword contains all remaining charges from the locket, and you gain the locket’s effects while holding or carrying the sword. When you are reduced to 0 hit points and trigger the locket’s temporary hit points, the sword isn’t destroyed, but you can’t trigger that effect again until 24 hours have passed. The sword regains all expended charges after you slay any dragon. For the purpose of this sword, “dragon” refers to any creature with the dragon type, including drakes and wyverns.',
       ],
+    ],
+    effects: [
+      {
+        key: 'fragment-of-gram',
+        name: 'Fragment of Gram',
+        lands: { on: 'use' },
+        text: ['you gain a +3 bonus to attack and damage rolls with this magic sword'],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5633,6 +6720,26 @@ export default createMagicItems({
       [
         "This small, metal jar, 3 inches in diameter, holds 1d4 + 1 doses of a pungent waxy oil. As an action, one dose can be applied to or swallowed by a clockwork creature or device. The clockwork creature or device ignores difficult terrain, and magical effects can't reduce its speed for 8 hours. As an action, the clockwork creature, or a creature holding a clockwork device, can gain the effect of the haste spell until the end of its next turn (no concentration required). The effects of the haste spell melt the grease, ending all its effects at the end of the spell's duration.",
       ],
+    ],
+    effects: [
+      {
+        key: 'oiled',
+        name: 'Oiled',
+        lands: { on: 'use' },
+        text: [
+          "The clockwork creature or device ignores difficult terrain, and magical effects can't reduce its speed for 8 hours.",
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+      {
+        key: 'hasted',
+        name: 'Hasted',
+        lands: { on: 'use' },
+        text: [
+          'gain the effect of the haste spell until the end of its next turn (no concentration required)',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5700,6 +6807,18 @@ export default createMagicItems({
       [
         "This small packet contains black pollen from a Gloomflower (see Creature Codex). Hazy images swirl around the pollen when observed outside the packet. There is enough of it for one use. When you use an action to blow the dust from your palm, each creature in a 30-foot cone must make a DC 15 Wisdom saving throw. On a failure, a creature sees terrible visions, manifesting its fears and anxieties for 1 minute. While affected, it takes 2d6 psychic damage at the start of each of its turns and must spend its action to make one melee attack against a creature within 5 feet of it, other than you or itself. If the creature can't make a melee attack, it takes the Dodge action. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a success, a creature becomes incapacitated until the end of its next turn as the visions fill its mind then quickly fade. A creature reduced to 0 hit points by the dust's psychic damage falls unconscious and is stable. When the creature regains consciousness, it is permanently plagued by hallucinations and has disadvantage on ability checks until cured by a remove curse spell or similar magic.",
       ],
+    ],
+    effects: [
+      {
+        key: 'visions',
+        name: 'Terrible visions',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          "While affected, it takes 2d6 psychic damage at the start of each of its turns and must spend its action to make one melee attack against a creature within 5 feet of it, other than you or itself. If the creature can't make a melee attack, it takes the Dodge action.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -5897,6 +7016,17 @@ export default createMagicItems({
         "When you drink this potion, you have advantage on attack rolls made with weapons that deal piercing or slashing damage for 1 minute. This potion's translucent amber liquid glimmers when agitated.",
       ],
     ],
+    effects: [
+      {
+        key: 'keen-attacks',
+        name: 'Keen attacks',
+        lands: { on: 'use' },
+        text: [
+          'you have advantage on attack rolls made with weapons that deal piercing or slashing damage',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   hexen_blade: {
@@ -6003,6 +7133,17 @@ export default createMagicItems({
         "This spirit honey is made from wildflowers growing in an area warped by magic, such as the flowers growing at the base of a wizard's tower or growing in a magical wasteland. When you consume this honey, you have resistance to psychic damage, and you have advantage on Intelligence saving throws. In addition, you can use an action to warp reality around one creature you can see within 60 feet of you. The target must succeed on a DC 15 Intelligence saving throw or be bewildered for 1 minute. At the start of a bewildered creature's turn, it must roll a die. On an even result, the creature can act normally. On an odd result, the creature is incapacitated until the start of its next turn as it becomes disoriented by its surroundings and unable to fully determine what is real and what isn't. You can't warp the reality around another creature in this way again until you finish a long rest.",
       ],
     ],
+    effects: [
+      {
+        key: 'bewildered',
+        name: 'Bewildered',
+        lands: { on: 'failed-save', save: 'int', dc: 15 },
+        text: [
+          "At the start of a bewildered creature's turn, it must roll a die. On an even result, the creature can act normally. On an odd result, the creature is incapacitated until the start of its next turn as it becomes disoriented by its surroundings and unable to fully determine what is real and what isn't.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   honey_trap: {
@@ -6013,6 +7154,16 @@ export default createMagicItems({
       [
         "This jar is made of beaten metal and engraved with honeybees. It has 7 charges, and it regains 1d6 + 1 expended charges daily at dawn. If you expend the jar's last charge, roll a d20. On a 1, the jar shatters and loses all its magical properties. While holding the jar, you can use an action to expend 1 charge to hurl a glob of honey at a target within 30 feet of you. Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the glob expands, and the creature is restrained. A creature restrained by the honey can use an action to make a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check (target's choice). On a success, the creature is no longer restrained by the honey.",
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Stuck in honey',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 15 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6047,6 +7198,18 @@ export default createMagicItems({
       [
         'This simple, polished club has a studded iron band around one end. When you attack a poisoned creature with this magic weapon, you have advantage on the attack roll. When you roll a 20 on an attack roll made with this weapon, the target becomes poisoned for 1 minute. If the target was already poisoned, it becomes incapacitated instead. The target can make a DC 13 Constitution saving throw at the end of each of its turns, ending the poisoned or incapacitated condition on itself on a success. Formerly a moneylender with a heart of stone and a small army of brutal thugs, Faustin the Drunkard awoke one day with a punishing hangover that seemed never-ending. He took this as a sign of punishment from the gods, not for his violence and thievery, but for his taste for the grape, in abundance. He decided all problems stemmed from the “demon” alcohol, and he became a cleric. No less brutal than before, he and his thugs targeted public houses, ale makers, and more. In his quest to rid the world of alcohol, he had the humble cudgel of temperance made and blessed with terrifying power. Now long since deceased, his simple, humble-appearing club continues to wreck havoc wherever it turns up.',
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'hit' },
+        conditions: [rules.poisoned],
+        text: [
+          'If the target was already poisoned, it becomes incapacitated instead. The target can make a DC 13 Constitution saving throw at the end of each of its turns, ending the poisoned or incapacitated condition on itself on a success.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6168,6 +7331,34 @@ export default createMagicItems({
         "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded. At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers. A creature, including the target, can use its action to make a DC 13 Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon's command word.",
       ],
     ],
+    effects: [
+      {
+        key: 'embedded',
+        name: 'Embedded weapon',
+        lands: { on: 'hit' },
+        text: [
+          "At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          escape: { dc: 13 },
+          cure: [
+            "You can remove the embedded weapon from the target by speaking the weapon's command word.",
+          ],
+        },
+      },
+      {
+        key: 'pinned',
+        name: 'Pinned to a wall',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   impaling_morningstar: {
@@ -6179,6 +7370,34 @@ export default createMagicItems({
       [
         "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded. At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers. A creature, including the target, can use its action to make a DC 13 Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon's command word.",
       ],
+    ],
+    effects: [
+      {
+        key: 'embedded',
+        name: 'Embedded weapon',
+        lands: { on: 'hit' },
+        text: [
+          "At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          escape: { dc: 13 },
+          cure: [
+            "You can remove the embedded weapon from the target by speaking the weapon's command word.",
+          ],
+        },
+      },
+      {
+        key: 'pinned',
+        name: 'Pinned to a wall',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6192,6 +7411,34 @@ export default createMagicItems({
         "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded. At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers. A creature, including the target, can use its action to make a DC 13 Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon's command word.",
       ],
     ],
+    effects: [
+      {
+        key: 'embedded',
+        name: 'Embedded weapon',
+        lands: { on: 'hit' },
+        text: [
+          "At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          escape: { dc: 13 },
+          cure: [
+            "You can remove the embedded weapon from the target by speaking the weapon's command word.",
+          ],
+        },
+      },
+      {
+        key: 'pinned',
+        name: 'Pinned to a wall',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   impaling_rapier: {
@@ -6204,6 +7451,34 @@ export default createMagicItems({
         "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded. At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers. A creature, including the target, can use its action to make a DC 13 Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon's command word.",
       ],
     ],
+    effects: [
+      {
+        key: 'embedded',
+        name: 'Embedded weapon',
+        lands: { on: 'hit' },
+        text: [
+          "At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          escape: { dc: 13 },
+          cure: [
+            "You can remove the embedded weapon from the target by speaking the weapon's command word.",
+          ],
+        },
+      },
+      {
+        key: 'pinned',
+        name: 'Pinned to a wall',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   impaling_warpick: {
@@ -6215,6 +7490,34 @@ export default createMagicItems({
       [
         "When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded. At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers. A creature, including the target, can use its action to make a DC 13 Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon's command word.",
       ],
+    ],
+    effects: [
+      {
+        key: 'embedded',
+        name: 'Embedded weapon',
+        lands: { on: 'hit' },
+        text: [
+          "At the end of the target's turn while the weapon is embedded in it, the target takes damage equal to the weapon's damage, with no additional modifiers.",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          escape: { dc: 13 },
+          cure: [
+            "You can remove the embedded weapon from the target by speaking the weapon's command word.",
+          ],
+        },
+      },
+      {
+        key: 'pinned',
+        name: 'Pinned to a wall',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6248,6 +7551,15 @@ export default createMagicItems({
       [
         "This grayish fluid is cool to the touch and slightly gritty. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature has resistance to piercing and slashing damage for 1 hour.",
       ],
+    ],
+    effects: [
+      {
+        key: 'resistance',
+        name: 'Ironskin',
+        lands: { on: 'use' },
+        text: ['The affected creature has resistance to piercing and slashing damage'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6294,6 +7606,16 @@ export default createMagicItems({
         "This stern-faced mask is crafted of silver. While wearing the mask, your gaze can root enemies to the spot. When a creature that can see the mask starts its turn within 30 feet of you, you can use a reaction to force it to make a DC 15 Wisdom saving throw, if you can see the creature and aren't incapacitated. On a failure, the creature is restrained. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Otherwise, the condition lasts until removed with the dispel magic spell or until you end it (no action required). Justicars are arbiters of law and order, operating independently of any official city guard or watch divisions. They are recognizable by their black, hooded robes, silver masks, and the rods they carry as weapons. These stern sentinels are overseen by The Magister, a powerful wizard of whom little is known other than their title. The Magister has made it their duty to oversee order in the city and executes their plans through the Justicars, giving them the Magister's mark, a signet ring, as a symbol of their authority. While some officers and members of the watch may be resentful of the Justicars' presence, many are grateful for their aid, especially in situations that could require magic. Justicar's are a small, elite group, typically acting as solo agents, though extremely dangerous situations bring them together in pairs or larger groups as needed. The Justicars are outfitted with three symbols of authority that are also imbued with power: their masks, rods, and rings. Each by itself is a useful item, but they are made stronger when worn together. The combined powers of this trinity of items make a Justicar a formidable force in the pursuit of law and order.",
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Rooted by the gaze',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'], cure: ['until removed with the dispel magic spell'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   keffiyeh_of_serendipitous_escape: {
@@ -6326,6 +7648,24 @@ export default createMagicItems({
       [
         'These small pouches and cylinders are filled with magical powders and reagents, and they each have a small fuse protruding from their closures. You can use an action to light a firework then throw it up to 30 feet. The firework activates immediately or on initiative count 20 of the following round, as detailed below. Once a firework’s effects end, it is destroyed. A firework can’t be lit underwater, and submersion in water destroys a firework. A lit firework can be destroyed early by dousing it with at least 1 gallon of water. Blinding Goblin-Cracker (Uncommon). This bright yellow firework releases a blinding flash of light on impact. Each creature within 15 feet of where the firework landed and that can see it must succeed on a DC 13 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Deafening Kobold-Barker (Uncommon). This firework consists of several tiny green cylinders strung together and bursts with a loud sound on impact. Each creature within 15 feet of where the firework landed and that can hear it must succeed on a DC 13 Constitution saving throw or be deafened for 1 minute. A deafened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Enchanting Elf-Fountain (Uncommon). This purple pyramidal firework produces a fascinating and colorful shower of sparks for 1 minute. The shower of sparks starts on the round after you throw it. While the firework showers sparks, each creature that enters or starts its turn within 30 feet of the firework must make a DC 13 Wisdom saving throw. On a failed save, the creature has disadvantage on Wisdom (Perception) checks made to perceive any creature or object other than the firework until the start of its next turn. Fairy Sparkler (Common). This narrow firework is decorated with stars and emits a bright, sparkling light for 1 minute. It starts emitting light on the round after you throw it. The firework sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the firework’s bright light. Priest Light (Rare). This silver cylinder firework produces a tall, argent flame and numerous golden sparks for 10 minutes. The flame appears on the round after you throw it. The firework sheds bright light in a 30-foot radius and dim light for an additional 30 feet. An undead creature can’t willingly enter the firework’s bright light by nonmagical means. If the undead creature tries to use teleportation or similar interplanar travel to do so, it must first succeed on a DC 15 Charisma saving throw. If an undead creature is in the bright light when it appears, the creature must succeed on a DC 15 Wisdom saving throw or be compelled to leave the bright light. It won’t move into any obviously deadly hazard, such as a fire or pit, but it will provoke opportunity attacks to move out of the bright light. In addition, each non-undead creature in the bright light can’t be charmed, frightened, or possessed by an undead creature. Red Dragon’s Breath (Very Rare). This firework is wrapped in gold leaf and inscribed with scarlet runes, and it erupts into a vertical column of fire on impact. Each creature in a 10-foot-radius, 60-foot-high cylinder centered on the point of impact must make a DC 17 Dexterity saving throw, taking 10d6 fire damage on a failed save, or half as much damage on a successful one. Snake Fountain (Rare). This short, wide cylinder is red, yellow, and black with a scale motif, and it produces snakes made of ash for 1 minute. It starts producing snakes on the round after you throw it. The firework creates 1 poisonous snake each round. The snakes are friendly to you and your companions. Roll initiative for the snakes as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. The snakes remain for 10 minutes, until you dismiss them as a bonus action, or until they are doused with at least 1 gallon of water.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6425,6 +7765,15 @@ export default createMagicItems({
         "While wearing this armor, you gain a +1 bonus to AC. The links of this mail have been stained to create the optical illusion that you are wearing a brown-and-russet feathered tunic. While you wear this armor, you have advantage on Charisma (Performance) checks made with an instrument. In addition, while playing an instrument, you can use a bonus action and choose any number of creatures within 30 feet of you that can hear your song. Each target must succeed on a DC 15 Charisma saving throw or be charmed by you for 1 minute. Once used, this property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   last_chance_quiver: {
@@ -6448,6 +7797,15 @@ export default createMagicItems({
         "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon's type. You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration. Once used, this property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'barkskin',
+        name: 'Barkskin',
+        lands: { on: 'use' },
+        text: ['cast the barkskin spell on yourself for 1 hour, requiring no concentration'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   leaf_bladed_longsword: {
@@ -6459,6 +7817,17 @@ export default createMagicItems({
       [
         "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon's type. You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration. Once used, this property can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'barkskin',
+        name: 'Barkskin',
+        lands: { on: 'use' },
+        text: [
+          'You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6472,6 +7841,17 @@ export default createMagicItems({
         "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon's type. You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration. Once used, this property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'barkskin',
+        name: 'Barkskin',
+        lands: { on: 'use' },
+        text: [
+          'You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   leaf_bladed_scimitar: {
@@ -6484,6 +7864,17 @@ export default createMagicItems({
         "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon's type. You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration. Once used, this property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'barkskin',
+        name: 'Barkskin',
+        lands: { on: 'use' },
+        text: [
+          'You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   leaf_bladed_shortsword: {
@@ -6495,6 +7886,17 @@ export default createMagicItems({
       [
         "This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon's type. You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration. Once used, this property can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'barkskin',
+        name: 'Barkskin',
+        lands: { on: 'use' },
+        text: [
+          'You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6622,6 +8024,18 @@ export default createMagicItems({
         'This magical cordial is deep red and smells strongly of fennel. You have advantage on the next saving throw against being frightened. The effect ends after you make such a saving throw or when 1 hour has passed.',
       ],
     ],
+    effects: [
+      {
+        key: 'courage',
+        name: 'Liquid courage',
+        lands: { on: 'use' },
+        text: ['You have advantage on the next saving throw against being frightened.'],
+        lasts: {
+          kind: 'until',
+          text: ['The effect ends after you make such a saving throw or when 1 hour has passed.'],
+        },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   liquid_shadow: {
@@ -6632,6 +8046,15 @@ export default createMagicItems({
       [
         'The contents of this bottle are inky black and seem to absorb the light. The dark liquid can cover a single Small or Medium creature. Applying the liquid takes 1 minute. For 1 hour, the coated creature has advantage on Dexterity (Stealth) checks. Alternately, you can use an action to hurl the bottle up to 20 feet, shattering it on impact. Magical darkness spreads from the point of impact to fill a 15-foot-radius sphere for 1 minute. This darkness works like the darkness spell.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stealthy',
+        name: 'Shadowed',
+        lands: { on: 'use' },
+        text: ['For 1 hour, the coated creature has advantage on Dexterity (Stealth) checks.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6745,6 +8168,17 @@ export default createMagicItems({
         'Legends tell of a dragon whose hide was impenetrable and so robust that only a blow to the heart would kill it. An unnamed hero finally defeated it and tore its heart into two. The dragon’s name was lost, but its legacy remains. This sword is one of two items that were crafted to hold its heart. The black blade is adorned with glittering silver runes, and its guard has a shallow opening at the center with grooves connecting it to the first rune. The sword’s pommel is a large, clear crystal held fast by silver scales. You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with an attack using this sword, that creature takes an extra 1d6 slashing damage. Runes of Courage. You can’t be frightened while holding or carrying this sword. Fragment of Gram Awakened. You can use a bonus action to awaken a fragment of the spirit of the great wyrm that inhabits this blade. For 24 hours, you gain a +3 bonus to attack and damage rolls with this magic sword, and when you hit a dragon with an attack using this sword, that creature takes an extra 3d6 slashing damage. Once used, this property can’t be used again until 3 days have passed. If you have performed the Dragon Heart Ritual, you can use a bonus action to expend 2 of the sword’s charges to activate this property, and you can use this property as often as you want, as long as you have the charges to do so. Dragon Heart Ritual. If you are also attuned to the locket of dragon vitality (see page 152), you can drain 3 charges from the locket into the sword, turning the crystal pommel a deep red and rendering the locket broken and irreparable. Doing this requires a long rest where you also re-attune with the newly charged sword of volsung. Upon completing the Dragon Heart Ritual, the sword contains all remaining charges from the locket, and you gain the locket’s effects while holding or carrying the sword. When you are reduced to 0 hit points and trigger the locket’s temporary hit points, the sword isn’t destroyed, but you can’t trigger that effect again until 24 hours have passed. The sword regains all expended charges after you slay any dragon. For the purpose of this sword, “dragon” refers to any creature with the dragon type, including drakes and wyverns.',
       ],
     ],
+    effects: [
+      {
+        key: 'fragment-of-gram',
+        name: 'Fragment of Gram',
+        lands: { on: 'use' },
+        text: [
+          'For 24 hours, you gain a +3 bonus to attack and damage rolls with this magic sword, and when you hit a dragon with an attack using this sword, that creature takes an extra 3d6 slashing damage.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   loom_of_fate: {
@@ -6837,6 +8271,17 @@ export default createMagicItems({
         'This fruity mead is the color of liquid gold and is rumored to be brewed with a tear from the goddess of bearfolk herself. When you drink this mead, you regenerate lost hit points for 1 minute. At the start of your turn, you regain 10 hit points if you have at least 1 hit point.',
       ],
     ],
+    effects: [
+      {
+        key: 'regeneration',
+        name: 'Regeneration',
+        lands: { on: 'use' },
+        text: [
+          'At the start of your turn, you regain 10 hit points if you have at least 1 hit point.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   mail_of_the_sword_master: {
@@ -6897,6 +8342,15 @@ export default createMagicItems({
       [
         "This splendid lion pelt is designed to be worn across the shoulders with the paws clasped at the base of the neck. While wearing this mantle, your speed increases by 10 feet, and the mantle's lion jaws are a natural melee weapon, which you can use to make unarmed strikes. When you hit with it, the mantle's bite deals piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. In addition, if you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that creature must succeed on a DC 15 Strength saving throw or be knocked prone. If a creature is knocked prone in this way, you can make an attack with the mantle's bite against the prone creature as a bonus action.",
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -6977,6 +8431,15 @@ export default createMagicItems({
         'A favored weapon of hill giants, this greatclub appears to be little more than a thick tree branch. When you hit a giant with this magic weapon, the giant takes an extra 1d8 bludgeoning damage. When you roll a 20 on an attack roll made with this weapon, the target is stunned until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'hit' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   mask_of_the_leaping_gazelle: {
@@ -7034,6 +8497,15 @@ export default createMagicItems({
       [
         "This goat mask with long, curving horns is carved from dark wood and framed in goat's hair. While wearing this mask, you can use its horns to make unarmed strikes. When you hit with it, your horns deal piercing damage equal to 1d6 + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike. If you moved at least 15 feet straight toward the target before you attacked with the horns, the attack deals piercing damage equal to 2d6 + your Strength modifier instead. In addition, you can gaze through the eyes of the mask at one target you can see within 30 feet of you. The target must succeed on a DC 17 Wisdom saving throw or be affected as though it failed a saving throw against the confusion spell. The confusion effect lasts for 1 minute. Once used, this property of the mask can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'confusion',
+        name: 'Confusion',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        text: ['be affected as though it failed a saving throw against the confusion spell'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7093,6 +8565,37 @@ export default createMagicItems({
       [
         'These brass and crystal cylinders are 6 inches long with 1-inch diameters. Each cylinder has a funnel on one end and a wooden plunger on the other end. You can use an action to quickly press the plunger, expelling the cylinder’s contents out through the funnel in a 30-foot line that is 5 feet wide. Once its contents are expelled, a cylinder is destroyed, and there is a 25 percent chance you are also subjected to the bombard’s effects as if you were caught in the line. Mindshatter Bombard (Rare). A vermilion solution sloshes and boils inside this canister. Each creature in the line of this substance must make a DC 15 Wisdom saving throw. On a failure, a creature takes 3d6 psychic damage and is incapacitated for 1 minute. On a success, a creature takes half the damage and isn’t incapacitated. An incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Murderous Bombard (Uncommon). A gruesome crimson slurry sloshes inside this canister with strange bits of ivory floating in it. Each creature in the line of this substance must succeed on a DC 13 Wisdom saving throw or be overcome with rage for 1 minute. While overcome with rage, the creature can’t distinguish friend from foe and must attack the nearest creature. If no other creature is near enough to move to and attack, the creature stalks off in a random direction, seeking a target for its rage. A creature overcome with rage can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Sloughide Bombard (Very Rare). A clear, gelatinous substance fills this canister. Each creature in the line of this substance must make a DC 17 Constitution saving throw. On a failure, a creature takes 6d6 acid damage and is paralyzed for 1 minute. On a success, a creature takes half the damage and isn’t paralyzed. While paralyzed, the creature takes 2d6 acid damage at the start of each of its turns. A paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Mindshatter',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'overcome-with-rage',
+        name: 'Murderous Rage',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'While overcome with rage, the creature can’t distinguish friend from foe and must attack the nearest creature. If no other creature is near enough to move to and attack, the creature stalks off in a random direction, seeking a target for its rage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Sloughide Paralysis',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.paralyzed],
+        text: [
+          'While paralyzed, the creature takes 2d6 acid damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7178,6 +8681,15 @@ export default createMagicItems({
       [
         'While you hold this small, square contraption, you can use an action to target a creature within 60 feet of you that can hear you. The target must succeed on a DC 13 Charisma saving throw or attack rolls against it have advantage until the start of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'advantage-against',
+        name: 'Mocked',
+        lands: { on: 'failed-save', save: 'cha', dc: 13 },
+        text: ['attack rolls against it have advantage until the start of its next turn.'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7319,6 +8831,23 @@ export default createMagicItems({
         "This charm is comprised of six polished river stones bound into the shape of a star with glue made from the connective tissues of animals. The reflective surfaces of the stones shimmer with a magical iridescence. While you are within 20 feet of a living tree, you can use a bonus action to become invisible for 1 minute. While invisible, you can use a bonus action to become visible. If you do, each creature of your choice within 30 feet of you must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this charm's blinding feature for the next 24 hours.",
       ],
     ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'blinded',
+        name: 'Blinding Flash',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   moonfield_lens: {
@@ -7331,6 +8860,17 @@ export default createMagicItems({
         'This lens is rainbow-hued and protected by a sturdy leather case. It has 4 charges, and it regains 1d3 + 1 expended charges daily at dawn. As an action, you can hold the lens to your eye, speak its command word, and expend 2 charges to cause one of the following effects: - Find Loved One. You know the precise location of one creature you love (platonic, familial, or romantic). This knowledge extends into other planes. - True Path. For 1 hour, you automatically succeed on all Wisdom (Survival) checks to navigate in the wild. If you are underground, you automatically know the most direct route to reach the surface.',
       ],
     ],
+    effects: [
+      {
+        key: 'true-path',
+        name: 'True Path',
+        lands: { on: 'use' },
+        text: [
+          'you automatically succeed on all Wisdom (Survival) checks to navigate in the wild. If you are underground, you automatically know the most direct route to reach the surface.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   moonsteel_dagger: {
@@ -7342,6 +8882,18 @@ export default createMagicItems({
         'The blade of this magic weapon seems to shine from within with a pale, white light. The weapon deals an extra 1d6 radiant damage to any creature it hits. If the creature is a shapechanger or any other creature not in its true form, it becomes frightened until the start of your next turn. At the start of its turn, a creature frightened in this way must succeed on a DC 13 Charisma saving throw or immediately return to its true form. For the purpose of this weapon, “shapechanger” refers to any creature with the Shapechanger trait.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'hit' },
+        conditions: [rules.frightened],
+        text: [
+          'At the start of its turn, a creature frightened in this way must succeed on a DC 13 Charisma saving throw or immediately return to its true form.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   moonsteel_rapier: {
@@ -7352,6 +8904,18 @@ export default createMagicItems({
       [
         'The blade of this magic weapon seems to shine from within with a pale, white light. The weapon deals an extra 1d6 radiant damage to any creature it hits. If the creature is a shapechanger or any other creature not in its true form, it becomes frightened until the start of your next turn. At the start of its turn, a creature frightened in this way must succeed on a DC 13 Charisma saving throw or immediately return to its true form. For the purpose of this weapon, “shapechanger” refers to any creature with the Shapechanger trait.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'hit' },
+        conditions: [rules.frightened],
+        text: [
+          'At the start of its turn, a creature frightened in this way must succeed on a DC 13 Charisma saving throw or immediately return to its true form.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7484,6 +9048,16 @@ export default createMagicItems({
       [
         "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The massive head of this axe is made from chiseled stone lashed to its haft by thick rope and leather strands. Small chips of stone fall from its edge intermittently, though it shows no sign of damage or wear. You can use your action to speak the command word to cause small stones to float and swirl around the axe, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. The light remains until you use a bonus action to speak the command word again or until you drop or sheathe the axe. As a bonus action, choose a creature you can see. For 1 minute, that creature must succeed on a DC 15 Wisdom saving throw each time it is damaged by the axe or become frightened until the end of your next turn. Creatures of Large size or greater have disadvantage on this save. Once used, this property of the axe can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        text: ['Creatures of Large size or greater have disadvantage on this save.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7631,6 +9205,37 @@ export default createMagicItems({
         'These brass and crystal cylinders are 6 inches long with 1-inch diameters. Each cylinder has a funnel on one end and a wooden plunger on the other end. You can use an action to quickly press the plunger, expelling the cylinder’s contents out through the funnel in a 30-foot line that is 5 feet wide. Once its contents are expelled, a cylinder is destroyed, and there is a 25 percent chance you are also subjected to the bombard’s effects as if you were caught in the line. Mindshatter Bombard (Rare). A vermilion solution sloshes and boils inside this canister. Each creature in the line of this substance must make a DC 15 Wisdom saving throw. On a failure, a creature takes 3d6 psychic damage and is incapacitated for 1 minute. On a success, a creature takes half the damage and isn’t incapacitated. An incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Murderous Bombard (Uncommon). A gruesome crimson slurry sloshes inside this canister with strange bits of ivory floating in it. Each creature in the line of this substance must succeed on a DC 13 Wisdom saving throw or be overcome with rage for 1 minute. While overcome with rage, the creature can’t distinguish friend from foe and must attack the nearest creature. If no other creature is near enough to move to and attack, the creature stalks off in a random direction, seeking a target for its rage. A creature overcome with rage can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Sloughide Bombard (Very Rare). A clear, gelatinous substance fills this canister. Each creature in the line of this substance must make a DC 17 Constitution saving throw. On a failure, a creature takes 6d6 acid damage and is paralyzed for 1 minute. On a success, a creature takes half the damage and isn’t paralyzed. While paralyzed, the creature takes 2d6 acid damage at the start of each of its turns. A paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Mindshatter',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'overcome-with-rage',
+        name: 'Murderous Rage',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'While overcome with rage, the creature can’t distinguish friend from foe and must attack the nearest creature. If no other creature is near enough to move to and attack, the creature stalks off in a random direction, seeking a target for its rage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Sloughide Paralysis',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.paralyzed],
+        text: [
+          'While paralyzed, the creature takes 2d6 acid damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   mutineers_blade: {
@@ -7688,6 +9293,17 @@ export default createMagicItems({
         "This pole is crafted to exact retribution for an act of cowardice or dishonor. It's a sturdy wooden stave, 6 to 10 feet long, carved with runes that name the dishonored target of the pole's curse. The carved shaft is draped in horsehide, topped with a horse's skull, and placed where its target is expected to pass by. Typically, the pole is driven into the ground or wedged into a rocky cleft in a remote spot where the intended victim won't see it until it's too late. The pole is created to punish a specific person for a specific crime. The exact target must be named on the pole; a generic identity such as “the person who blinded Lars Gustafson” isn't precise enough. The moment the named target approaches within 333 feet, the pole casts bestow curse (with a range of 333 feet instead of touch) on the target. The DC for the target's Wisdom saving throw is 15. If the saving throw is successful, the pole recasts the spell at the end of each round until the saving throw fails, the target retreats out of range, or the pole is destroyed. Anyone other than the pole's creator who tries to destroy or knock down the pole is also targeted by a bestow curse spell, but only once. The effect of the curse is set when the pole is created, and the curse lasts 8 hours without requiring concentration. The pole becomes nonmagical once it has laid its curse on its intended target. An untriggered and forgotten nithing pole remains dangerous for centuries.",
       ],
     ],
+    effects: [
+      {
+        key: 'cursed',
+        name: 'Nithing Curse',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'If the saving throw is successful, the pole recasts the spell at the end of each round until the saving throw fails, the target retreats out of range, or the pole is destroyed.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   nullifiers_lexicon: {
@@ -7724,6 +9340,15 @@ export default createMagicItems({
         "These bronze bracers are etched with depictions of frolicking octopuses. While wearing these bracers, you can use an action to speak their command word and transform your arms into tentacles. You can use a bonus action to repeat the command word and return your arms to normal. The tentacles are natural melee weapons, which you can use to make unarmed strikes. Your reach extends by 5 feet while your arms are tentacles. When you hit with a tentacle, it deals bludgeoning damage equal to 1d8 + your Strength or Dexterity modifier (your choice). If you hit a creature of your size or smaller than you, it is grappled. Each tentacle can grapple only one target. While grappling a target with a tentacle, you can't attack other creatures with that tentacle. While your arms are tentacles, you can't wield weapons that require two hands, and you can't wield shields. In addition, you can't cast a spell that has a somatic component. When the bracers' property has been used for a total of 10 minutes, the magic ceases to function until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'grappled',
+        name: 'Grappled',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   oculi_of_the_ancestor: {
@@ -7758,6 +9383,17 @@ export default createMagicItems({
         "This odorless, colorless oil can cover a Medium or smaller object or creature, along with the equipment the creature is wearing or carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. For 1 hour, the affected target gives off no scent, can't be tracked by scent, and can't be detected with Wisdom (Perception) checks that rely on smell.",
       ],
     ],
+    effects: [
+      {
+        key: 'scentless',
+        name: 'Scentless',
+        lands: { on: 'use' },
+        text: [
+          "gives off no scent, can't be tracked by scent, and can't be detected with Wisdom (Perception) checks that rely on smell.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   ogres_pot: {
@@ -7769,6 +9405,15 @@ export default createMagicItems({
       [
         "This cauldron boils anything placed inside it, whether venison or timber, to a vaguely edible paste. A spoonful of the paste provides enough nourishment to sustain a creature for one day. As a bonus action, you can speak the pot's command word and force it to roll directly to you at a speed of 40 feet per round as long as you and the pot are on the same plane of existence. It follows the shortest possible path, stopping when it moves to within 5 feet of you, and it bowls over or knocks down any objects or creatures in its path. A creature in its path must succeed on a DC 13 Dexterity saving throw or take 2d6 bludgeoning damage and be knocked prone. When this magic pot comes into contact with an object or structure, it deals 4d6 bludgeoning damage. If the damage doesn't destroy or create a path through the object or structure, the pot continues to deal damage at the end of each round, carving a path through the obstacle.",
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked Prone',
+        lands: { on: 'failed-save', save: 'dex', dc: 13 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7813,6 +9458,18 @@ export default createMagicItems({
       [
         "This astringent-smelling oil stings slightly when applied to flesh, but the feeling quickly fades. The oil can cover a Medium or smaller creature (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. For 1 hour, the affected creature has advantage on Constitution saving throws to maintain its concentration on a spell when it takes damage, and it has advantage on ability checks and saving throws made to endure pain. However, the affected creature's flesh is slightly numbed and senseless, and it has disadvantage on ability checks that require fine motor skills or a sense of touch.",
       ],
+    ],
+    effects: [
+      {
+        key: 'numbed',
+        name: 'Numbed',
+        lands: { on: 'use' },
+        text: [
+          'For 1 hour, the affected creature has advantage on Constitution saving throws to maintain its concentration on a spell when it takes damage, and it has advantage on ability checks and saving throws made to endure pain. ',
+          "However, the affected creature's flesh is slightly numbed and senseless, and it has disadvantage on ability checks that require fine motor skills or a sense of touch.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -7860,6 +9517,18 @@ export default createMagicItems({
         "This plain, glass orb shimmers with iridescence. While holding this orb, you can use an action to speak its command word, which causes it to levitate and emit multicolored light. Each creature other than you within 10 feet of the orb must succeed on a DC 13 Wisdom saving throw or look at only the orb for 1 minute. For the duration, a creature looking at the orb has disadvantage on Wisdom (Perception) checks to perceive anything that is not the orb. Creatures that failed the saving throw have no memory of what happened while they were looking at the orb. Once used, the orb can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'enthralled-by-orb',
+        name: 'Fixed on the orb',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'look at only the orb for 1 minute ',
+          'For the duration, a creature looking at the orb has disadvantage on Wisdom (Perception) checks to perceive anything that is not the orb.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   orb_of_obfuscation: {
@@ -7893,6 +9562,19 @@ export default createMagicItems({
       [
         "This smooth paper is like vellum but is prepared from dozens of scales cast off by a Pact Drake (see Creature Codex). A contract can be inked on this paper, and the paper limns all falsehoods on it with a fiery glow. A command word clears the paper, allowing for several drafts. Another command word locks the contract in place and leaves space for signatures. Creatures signing the contract are afterward bound by the contract with all other signatories alerted when one of the signatories breaks the contract. The creature breaking the contract must succeed on a DC 15 Charisma saving throw or become blinded, deafened, and stunned for 1d6 minutes. A creature can repeat the saving throw at the end of each of minute, ending the conditions on itself on a success. After the conditions end, the creature has disadvantage on saving throws until it finishes a long rest. Once a contract has been locked in place and signed, the paper can't be cleared. If the contract has a duration or stipulation for its end, the pact paper is destroyed when the contract ends, releasing all signatories from any further obligations and immediately ending any effects on them.",
       ],
+    ],
+    effects: [
+      {
+        key: 'contract-broken',
+        name: 'Contract broken',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        conditions: [rules.blinded, rules.deafened, rules.stunned],
+        text: [
+          'A creature can repeat the saving throw at the end of each of minute, ending the conditions on itself on a success. ',
+          'After the conditions end, the creature has disadvantage on saving throws until it finishes a long rest.',
+        ],
+        lasts: { kind: 'time', amount: '1d6', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8014,6 +9696,15 @@ export default createMagicItems({
         "A pendant fashioned from the claw or horn of a Pact Drake (see Creature Codex) is affixed to a thin gold chain. While you wear it, you know if you hear a lie, but this doesn't apply to evasive statements that remain within the boundaries of the truth. If you lie while wearing this pendant, you become poisoned for 10 minutes.",
       ],
     ],
+    effects: [
+      {
+        key: 'lied-poisoned',
+        name: 'Poisoned for lying',
+        lands: { on: 'use' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   pestilent_spear: {
@@ -8049,6 +9740,29 @@ export default createMagicItems({
         'This dart was crafted by the monk Phidjetz, a martial recluse obsessed with dragons. The spinner consists of a golden central disk with four metal dragon heads protruding symmetrically from its center point: one red, one white, one blue and one black. As an action, you can spin the disk using the pinch grip in its center. You choose a single target within 30 feet and make a ranged attack roll. The spinner then flies at the chosen target. Once airborne, each dragon head emits a blast of elemental energy appropriate to its type. When you hit a creature, determine which dragon head affects it by rolling a d4 on the following chart. | d4 | Effect | | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | | 1 | Red. The target takes 1d6 fire damage and combustible materials on the target ignite, doing 1d4 fire damage each turn until it is put out. | | 2 | White. The target takes 1d6 cold damage and is restrained until the start of your next turn. | | 3 | Blue. The target takes 1d6 lightning damage and is paralyzed until the start of your next turn. | | 4 | Black. The target takes 1d6 acid damage and is poisoned until the start of your next turn. | After the attack, the spinner flies up to 60 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by cold',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed by lightning',
+        lands: { on: 'hit' },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'poisoned',
+        name: 'Poisoned by acid',
+        lands: { on: 'hit' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   philter_of_luck: {
@@ -8059,6 +9773,18 @@ export default createMagicItems({
       [
         'When you drink this vibrant green, effervescent potion, you gain a finite amount of good fortune. Roll a d3 to determine where your fortune falls: ability checks (1), saving throws (2), or attack rolls (3). When you make a roll associated with your fortune, you can choose to tap into your good fortune and reroll the d20. This effect ends after you tap into your good fortune or when 1 hour has passed. | d3 | Use fortune for | | --- | --------------- | | 1 | ability checks | | 2 | saving throws | | 3 | attack rolls |',
       ],
+    ],
+    effects: [
+      {
+        key: 'good-fortune',
+        name: 'Good fortune',
+        lands: { on: 'use' },
+        text: [
+          'Roll a d3 to determine where your fortune falls: ability checks (1), saving throws (2), or attack rolls (3). ',
+          'When you make a roll associated with your fortune, you can choose to tap into your good fortune and reroll the d20. ',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8094,6 +9820,15 @@ export default createMagicItems({
       [
         'You must be proficient with wind instruments to use these strange, pale ivory pipes. They have 5 charges. You can use an action to play them and expend 1 charge to emit a weird strain of alien music that is audible up to 600 feet away. Choose up to three creatures within 60 feet of you that can hear you play. Each target must succeed on a DC 15 Wisdom saving throw or be affected as if you had cast the confusion spell on it. The pipes regain 1d4 + 1 expended charges daily at dawn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'confused',
+        name: 'Confused',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: ['be affected as if you had cast the confusion spell on it.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8197,6 +9932,19 @@ export default createMagicItems({
         "When you hit with an attack using this magic whip, the target takes an extra 2d4 poison damage. If you hold one end of the whip and use an action to speak its command word, the other end magically extends and darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 17 Dexterity saving throw or become restrained. While restrained, the target takes 2d4 poison damage at the start of each of its turns, and you can use an action to pull the target up to 20 feet toward you. If you would move the target into damaging terrain, such as lava or a pit, it can make a DC 17 Strength saving throw. On a success, the target isn't pulled toward you. You can't use the whip to make attacks while it is restraining a target, and if you release your end of the whip, the target is no longer restrained. The restrained target can use an action to make a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check (target's choice). On a success, the target is no longer restrained by the whip. When the whip has restrained creatures for a total of 1 minute, you can't restrain a creature with the whip again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'whip-restrained',
+        name: 'Whip-restrained',
+        lands: { on: 'failed-save', save: 'dex', dc: 17 },
+        conditions: [rules.restrained],
+        text: [
+          'While restrained, the target takes 2d4 poison damage at the start of each of its turns',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 17 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potent_cure_all: {
@@ -8219,6 +9967,15 @@ export default createMagicItems({
         "This potion's pale blue fluid smells like salty air, and a seagull's feather floats in it. You can breathe air for 1 hour after drinking this potion. If you could already breathe air, this potion has no effect.",
       ],
     ],
+    effects: [
+      {
+        key: 'air-breathing',
+        name: 'Air breathing',
+        lands: { on: 'use' },
+        text: ['You can breathe air for 1 hour after drinking this potion.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_bad_taste: {
@@ -8229,6 +9986,15 @@ export default createMagicItems({
       [
         'This brown, sludgy potion tastes extremely foul. When you drink this potion, the taste of your flesh is altered to be unpalatable for 1 hour. During this time, if a creature hits you with a bite attack, it must succeed on a DC 10 Constitution saving throw or spend its next action gagging and retching. A creature with an Intelligence of 4 or lower avoids biting you again unless compelled or commanded by an outside force or if you attack it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'unpalatable-flesh',
+        name: 'Unpalatable flesh',
+        lands: { on: 'use' },
+        text: ['the taste of your flesh is altered to be unpalatable for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8241,6 +10007,15 @@ export default createMagicItems({
         'A small, red sphere bobs up and down in the clear, effervescent liquid inside this bottle but disappears when the bottle is opened. When you drink this potion, your body becomes rubbery, and you are immune to falling damage for 1 hour. If you fall at least 10 feet, your body bounces back the same distance. As a reaction while falling, you can angle your fall and position your legs to redirect this distance. For example, if you fall 60 feet, you can redirect your bounce to propel you 30 feet up and 30 feet forward from the position where you landed.',
       ],
     ],
+    effects: [
+      {
+        key: 'rubbery',
+        name: 'Rubbery',
+        lands: { on: 'use' },
+        text: ['your body becomes rubbery, and you are immune to falling damage for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_buoyancy: {
@@ -8251,6 +10026,15 @@ export default createMagicItems({
       [
         'When you drink this clear, effervescent liquid, your body becomes unnaturally buoyant for 1 hour. When you are immersed in water or other liquids, you rise to the surface (at a rate of up to 30 feet per round) to float and bob there. You have advantage on Strength (Athletics) checks made to swim or stay afloat in rough water, and you automatically succeed on such checks in calm waters.',
       ],
+    ],
+    effects: [
+      {
+        key: 'buoyant',
+        name: 'Buoyant',
+        lands: { on: 'use' },
+        text: ['your body becomes unnaturally buoyant for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8263,6 +10047,24 @@ export default createMagicItems({
         "For 1 hour after drinking this potion, you have resistance to poison damage, and you have advantage on saving throws against being blinded, deafened, paralyzed, and poisoned. In addition, if you are poisoned, this potion neutralizes the poison. Known for its powerful, somewhat burning smell, this potion is difficult to drink, requiring a successful DC 13 Constitution saving throw to drink it. On a failure, you are poisoned for 10 minutes and don't gain the benefits of the potion.",
       ],
     ],
+    effects: [
+      {
+        key: 'poison-resistance',
+        name: 'Dire Cleansing protection',
+        lands: { on: 'use' },
+        text: [
+          'you have resistance to poison damage, and you have advantage on saving throws against being blinded, deafened, paralyzed, and poisoned.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_ebbing_strength: {
@@ -8273,6 +10075,23 @@ export default createMagicItems({
       [
         "When you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score. The recipe for this potion is flawed and infused with dangerous Void energies. When you drink this potion, you are also poisoned. While poisoned, you take 2d4 poison damage at the end of each minute. If you are reduced to 0 hit points while poisoned, you have disadvantage on death saving throws. This bubbling, pale blue potion is commonly used by the derro and is almost always paired with a Potion of Dire Cleansing or Holy Verdant Bat Droppings (see page 147). Warriors who use this potion without a method of removing the poison don't intend to return home from battle.",
       ],
+    ],
+    effects: [
+      {
+        key: 'strength-25',
+        name: 'Ebbing Strength',
+        lands: { on: 'use' },
+        text: ['When you drink this potion, your Strength score changes to 25 for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'use' },
+        conditions: [rules.poisoned],
+        text: ['While poisoned, you take 2d4 poison damage at the end of each minute.'],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8285,6 +10104,16 @@ export default createMagicItems({
         "When you drink this potion, your skin glows with radiance, and you are filled with joy and bliss for 1 minute. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight. While glowing, you are blinded and have disadvantage on Dexterity (Stealth) checks to hide. If a creature with the Sunlight Sensitivity trait starts its turn in the bright light you shed, it takes 2d4 radiant damage. This potion's golden liquid sparkles with motes of sunlight.",
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded by radiance',
+        lands: { on: 'use' },
+        conditions: [rules.blinded],
+        text: ['have disadvantage on Dexterity (Stealth) checks to hide.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_empowering_truth: {
@@ -8295,6 +10124,15 @@ export default createMagicItems({
       [
         "A withered snake's tongue floats in the shimmering gold liquid within this crystalline vial. When you drink this potion, you regain one expended spell slot or one expended use of a class feature, such as Divine Sense, Rage, Wild Shape, or other feature with limited uses. Until you finish a long rest, you can't speak a deliberate lie. You are aware of this effect after drinking the potion. Your words can be evasive, as long as they remain within the boundaries of the truth.",
       ],
+    ],
+    effects: [
+      {
+        key: 'no-deliberate-lies',
+        name: 'Truthful',
+        lands: { on: 'use' },
+        text: ["you can't speak a deliberate lie."],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8318,6 +10156,17 @@ export default createMagicItems({
         'The glass bottle holding this thick, red liquid is strangely pliable, and compresses in your hand under the slightest pressure while it still holds the magical liquid. When you drink this potion, your body becomes extremely flexible and adaptable to pressure. For 1 hour, you have resistance to bludgeoning damage, can squeeze through a space large enough for a creature two sizes smaller than you, and have advantage on Dexterity (Acrobatics) checks made to escape a grapple.',
       ],
     ],
+    effects: [
+      {
+        key: 'malleable',
+        name: 'Malleable body',
+        lands: { on: 'use' },
+        text: [
+          'you have resistance to bludgeoning damage, can squeeze through a space large enough for a creature two sizes smaller than you, and have advantage on Dexterity (Acrobatics) checks made to escape a grapple.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_sand_form: {
@@ -8328,6 +10177,17 @@ export default createMagicItems({
       [
         "This potion's container holds a gritty liquid that moves and pours like water filled with fine particles of sand. When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action. While in this gaseous form, your appearance is that of a vortex of spiraling sand instead of a misty cloud. In addition, you have advantage on Dexterity (Stealth) checks while in a sandy environment, and, while motionless in a sandy environment, you are indistinguishable from an ordinary swirl of sand.",
       ],
+    ],
+    effects: [
+      {
+        key: 'gaseous-form',
+        name: 'Gaseous form',
+        lands: { on: 'use' },
+        text: [
+          'you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8340,6 +10200,17 @@ export default createMagicItems({
         "For 1 hour after you drink this potion, you can move across icy surfaces without needing to make an ability check, and difficult terrain composed of ice or snow doesn't cost you extra movement. This sparkling blue liquid contains tiny snowflakes that disappear when shaken.",
       ],
     ],
+    effects: [
+      {
+        key: 'skating',
+        name: 'Skating',
+        lands: { on: 'use' },
+        text: [
+          "you can move across icy surfaces without needing to make an ability check, and difficult terrain composed of ice or snow doesn't cost you extra movement.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_transparency: {
@@ -8351,6 +10222,17 @@ export default createMagicItems({
         'The liquid in this vial is clear like water, and it gives off a slight iridescent sheen when shaken or swirled. When you drink this potion, you and everything you are wearing and carrying turn transparent, but not completely invisible, for 10 minutes. During this time, you have advantage on Dexterity (Stealth) checks, and ranged attacks against you have disadvantage.',
       ],
     ],
+    effects: [
+      {
+        key: 'transparent',
+        name: 'Transparent',
+        lands: { on: 'use' },
+        text: [
+          'you and everything you are wearing and carrying turn transparent, but not completely invisible, for 10 minutes. During this time, you have advantage on Dexterity (Stealth) checks, and ranged attacks against you have disadvantage.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   potion_of_worg_form: {
@@ -8361,6 +10243,17 @@ export default createMagicItems({
       [
         "Small flecks of brown hair are suspended in this clear, syrupy liquid. When you drink this potion, you transform into a worg for 1 hour. This works like the polymorph spell, but you retain your Intelligence, Wisdom, and Charisma scores. While in worg form, you can speak normally, and you can cast spells that have only verbal components. This transformation doesn't give you knowledge of the Goblin or Worg languages, and you are able to speak and understand those languages only if you knew them before the transformation.",
       ],
+    ],
+    effects: [
+      {
+        key: 'worg-form',
+        name: 'Worg form',
+        lands: { on: 'use' },
+        text: [
+          'you transform into a worg for 1 hour. This works like the polymorph spell, but you retain your Intelligence, Wisdom, and Charisma scores.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8475,6 +10368,18 @@ export default createMagicItems({
       [
         "This small apple-sized globule is made from a highly reflective silver material and has a single, golden rune etched on it. Typically, 1d4 + 4 radiance bombs are found together. You can use an action to throw the globule up to 60 feet. The globule explodes on impact and is destroyed. Each creature within a 10-foot radius of where the globule landed must make a DC 13 Dexterity saving throw. On a failure, a creature takes 3d6 radiant damage and is blinded for 1 minute. On a success, a creature takes half the damage and isn't blinded. A blinded creature can make a DC 13 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.",
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'dex', dc: 13 },
+        conditions: [rules.blinded],
+        text: [
+          'A blinded creature can make a DC 13 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8778,6 +10683,18 @@ export default createMagicItems({
         "Embossed in gold on this heavy iron ring is the image of a crown. The ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing this ring, you have advantage on Charisma (Intimidation) checks, and you can project your voice up to 300 feet with perfect clarity. In addition, you can use an action and expend 1 of the ring's charges to command a creature you can see within 30 feet of you to kneel before you. The target must make a DC 15 Charisma saving throw. On a failure, the target spends its next turn moving toward you by the shortest and most direct route then falls prone and ends its turn.",
       ],
     ],
+    effects: [
+      {
+        key: 'kneel',
+        name: 'Kneel',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        conditions: [rules.prone],
+        text: [
+          'the target spends its next turn moving toward you by the shortest and most direct route',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   ring_of_lights_comfort: {
@@ -8836,6 +10753,19 @@ export default createMagicItems({
       [
         "This ring appears to be made of golden chain links. It has 3 charges and regains 1d3 expended charges daily at dawn. When you hit a creature with a melee attack while wearing this ring, you can use a bonus action and expend 1 of the ring's charges to cause mystical golden chains to spring from the ground and wrap around the creature. The target must make a DC 17 Wisdom saving throw. On a failure, the magical chains hold the target firmly in place, and it is restrained. The target can't move or be moved by any means. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. However, if the target fails three consecutive saving throws, the chains bind the target permanently. A successful dispel magic (DC 17) cast on the chains destroys them.",
       ],
+    ],
+    effects: [
+      {
+        key: 'chained',
+        name: 'Mystical chains',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          repeatSave: ['end-of-turn'],
+          cure: ['A successful dispel magic (DC 17) cast on the chains destroys them.'],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -8906,6 +10836,17 @@ export default createMagicItems({
       [
         "This white gold ring is covered in a thin sheet of ice and always feels cold to the touch. The ring has 3 charges and regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 charge to surround yourself in a suit of enchanted ice that resembles plate armor. For 1 hour, your AC can't be less than 16, regardless of what kind of armor you are wearing, and you have resistance to cold damage. The icy armor melts, ending the effect early, if you take 20 fire damage or more.",
       ],
+    ],
+    effects: [
+      {
+        key: 'icy-armor',
+        name: 'Icy armor',
+        lands: { on: 'use' },
+        text: [
+          "your AC can't be less than 16, regardless of what kind of armor you are wearing, and you have resistance to cold damage.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9006,6 +10947,15 @@ export default createMagicItems({
         "This rod appears to be made of foamy bubbles, but it is completely solid to the touch. This rod has 3 charges. While holding it, you can use an action to expend 1 of its charges to conjure a bubble around a creature or object within 30 feet. If the target is a creature, it must make a DC 15 Strength saving throw. On a failed save, the target becomes trapped in a 10-foot sphere of water. A Huge or larger creature automatically succeeds on this saving throw. A creature trapped within the bubble is restrained unless it has a swimming speed and can't breathe unless it can breathe water. If the target is an object, it becomes soaked in water, any fire effects are extinguished, and any acid effects are negated. The bubble floats in the exact spot where it was conjured for up to 1 minute, unless blown by a strong wind or moved by water. The bubble has 50 hit points, AC 8, immunity to acid damage and vulnerability to piercing damage. The inside of the bubble also has resistance to all damage except piercing damage. The bubble disappears after 1 minute or when it is reduced to 0 hit points. When not in use, this rod can be commanded to take liquid form and be stored in a small vial. The rod regains 1d3 expended charges daily at dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'trapped',
+        name: 'Trapped in bubble',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   rod_of_conveyance: {
@@ -9040,6 +10990,22 @@ export default createMagicItems({
         "The knobbed head of this tarnished silver rod resembles the top half of a jawless, syphilitic skull, and it functions as a magic mace that grants a +2 bonus to attack and damage rolls made with it. The rod has properties associated with five different buttons that are set erratically along the haft. It has three other properties as well, detailed below. If you press button 1, the rod's head erupts in a fiery nimbus of abyssal energy that sheds dim light in a 5-foot radius. While the rod is ablaze, it deals an extra 1d6 fire damage and 1d6 necrotic damage to any target it hits. If you press button 2, the rod's head becomes enveloped in a black aura of enervating energy. When you hit a target with the rod while it is enveloped in this energy, the target must succeed on a DC 17 Constitution saving throw or deal only half damage with weapon attacks that use Strength until the end of its next turn. If you press button 3, a 2-foot blade springs from the tip of the rod's handle as the handle lengthens into a 5-foot haft, transforming the rod into a magic glaive that grants a +2 bonus to attack and damage rolls made with it. If you press button 4, a 3-pronged, bladed grappling hook affixed to a long chain springs from the tip of the rod's handle. The bladed grappling hook counts as a magic sickle with reach that grants a +2 bonus to attack and damage rolls made with it. When you hit a target with the bladed grappling hook, the target must succeed on an opposed Strength check or fall prone. If you press button 5, the rod assumes or remains in its normal form and you can extinguish all nonmagical flames within 30 feet of you. Turning Defiance. While holding the rod, you and any undead allies within 30 feet of you have advantage on saving throws against effects that turn undead. Contagion. When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target is afflicted with a disease. This works like the contagion spell. Once used, this property can’t be used again until the next dusk. Create Specter. As an action, you can target a humanoid within 10 feet of you that was killed by the rod or one of its effects and has been dead for no longer than 1 minute. The target’s spirit rises as a specter under your control in the space of its corpse or in the nearest unoccupied space. You can have no more than one specter under your control at one time. Once used, this property can’t be used again until the next dusk.",
       ],
     ],
+    effects: [
+      {
+        key: 'enervated',
+        name: 'Enervated',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        text: ['deal only half damage with weapon attacks that use Strength'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'contagion',
+        name: 'Contagion',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        text: ['the target is afflicted with a disease. This works like the contagion spell.'],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   rod_of_hellish_grounding: {
@@ -9063,6 +11029,17 @@ export default createMagicItems({
       [
         'This white crystalline rod is shaped like an icicle. The rod has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While holding the rod, you can use an action to expend 1 of its charges to attack one creature you can see within 60 feet of you. The rod launches an icicle at the target and makes its attack roll with a +7 bonus. On a hit, the target takes 2d6 piercing damage and 2d6 cold damage. On a critical hit, the target is also paralyzed until the end of its next turn as it momentarily freezes. If you take fire damage while holding this rod, you become immune to fire damage for 1 minute, and the rod loses 2 charges. If the rod has only 1 charge remaining when you take fire damage, you become immune to fire damage, as normal, but the rod melts into a puddle of water and is destroyed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frozen',
+        name: 'Frozen',
+        lands: { on: 'hit' },
+        text: [
+          'On a critical hit, the target is also paralyzed until the end of its next turn as it momentarily freezes.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9123,6 +11100,15 @@ export default createMagicItems({
         "An open-mouthed skull caps this thick, onyx rod. The rod has 5 charges and regains 1d4 + 1 expended charges daily at dusk. While holding the rod, you can use an action and expend 1 of the rod's charges to unleash a swarm of miniature spectral blue skulls at a target within 30 feet. The target must make a DC 15 Wisdom saving throw. On a failure, it takes 3d6 psychic damage and becomes paralyzed with fear until the end of its next turn. On a success, it takes half the damage and isn't paralyzed. Creatures that can't be frightened are immune to this effect.",
       ],
     ],
+    effects: [
+      {
+        key: 'skull-swarm',
+        name: 'Skull swarm',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   rod_of_the_disciplinarian: {
@@ -9159,6 +11145,25 @@ export default createMagicItems({
         'This wooden rod is decorated with colorful scarves and topped with a carving of a madly grinning head. Caper. While holding the rod, you can dance and perform general antics that attract attention. Make a DC 10 Charisma (Performance) check. On a success, one creature that can see and hear you must succeed on a DC 15 Wisdom saving throw or have disadvantage on Wisdom (Perception) checks made to perceive any creature other than you for 1 minute. The effect ends if the target can no longer see or hear you or if you are incapacitated. You can affect one additional creature for each 5 points by which you beat the DC (two creatures with a result of 15, three creatures with a result of 20, and so on). Once used, this property can’t be used again until the next dawn. Hideous Laughter. While holding the rod, you can use an action to cast the hideous laughter spell (save DC 15) from it. Once used, this property can’t be used again until the next dawn. Slapstick. You can use an action to swing the rod in the direction of a creature within 5 feet of you. The target must succeed on a DC 15 Dexterity saving throw or be pushed up to 5 feet away from you and knocked prone. If the target fails the saving throw by 5 or more, it is also stunned until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'caper',
+        name: 'Caper',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'have disadvantage on Wisdom (Perception) checks made to perceive any creature other than you',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'hideous-laughter',
+        name: 'Hideous laughter',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.incapacitated, rules.prone],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   rod_of_the_mariner: {
@@ -9170,6 +11175,17 @@ export default createMagicItems({
       [
         "This thin bone rod is topped with the carved figurine of an albatross in flight. The rod has 5 charges. You can use an action to expend 1 or more of its charges and point the rod at one or more creatures you can see within 30 feet of you, expending 1 charge for each creature. Each target must succeed on a DC 15 Wisdom saving throw or be cursed for 1 minute. A cursed creature has disadvantage on attack rolls and saving throws while within 100 feet of a body of water that is at least 20 feet deep. The rod regains 1d4 + 1 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the rod crumbles to dust and is destroyed, and you must succeed on a DC 15 Wisdom saving throw or be cursed for 1 minute as if you had been the target of the rod's power.",
       ],
+    ],
+    effects: [
+      {
+        key: 'cursed',
+        name: 'Cursed',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'A cursed creature has disadvantage on attack rolls and saving throws while within 100 feet of a body of water that is at least 20 feet deep.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9194,6 +11210,22 @@ export default createMagicItems({
       [
         'Several long sharp thorns sprout along the edge of this stout wooden rod, and it functions as a magic mace that grants a +1 bonus to attack and damage rolls made with it. The rod has 5 charges and regains 1d4 + 1 expended charges daily at dawn. While holding the rod, you can use an action to expend 1 of its charges to cast the spike growth spell (save DC 15) from it. Embed Thorn. When you hit a creature with this rod, you can expend 1 of its charges to embed a thorn in the creature. At the start of each of the creature’s turns, it must succeed on a DC 15 Constitution saving throw or take 2d6 piercing damage from the embedded thorn. If the creature succeeds on two saving throws, the thorn falls out and crumbles to dust. The successes don’t need to be consecutive. If the creature dies while the thorn is embedded, its body transforms into a patch of nonmagical brambles, which fill its space with difficult terrain.',
       ],
+    ],
+    effects: [
+      {
+        key: 'embedded-thorn',
+        name: 'Embedded thorn',
+        lands: { on: 'hit' },
+        text: [
+          'At the start of each of the creature’s turns, it must succeed on a DC 15 Constitution saving throw or take 2d6 piercing damage from the embedded thorn.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'If the creature succeeds on two saving throws, the thorn falls out and crumbles to dust.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9295,6 +11327,15 @@ export default createMagicItems({
         "This knobbed stick is marked with nicks, scratches, and notches. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While wielding the club, you can use an action to tap it against your open palm, the side of your leg, a surface within reach, or similar. If you do, you have advantage on your next Charisma (Intimidation) check. If you are also wearing a rowdy's ring (see page 87), you can use an action to frighten a creature you can see within 30 feet of you instead. The target must succeed on a DC 13 Wisdom saving throw or be frightened of you until the end of its next turn. Once this special action has been used three times, it can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   rowdys_ring: {
@@ -9316,6 +11357,15 @@ export default createMagicItems({
       [
         "This oil is distilled from the pheromones of queen bees and smells faintly of bananas. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying. For larger creatures, one additional vial is required for each size category above Medium. Applying the oil takes 10 minutes. The affected creature then has advantage on Charisma (Persuasion) checks for 1 hour.",
       ],
+    ],
+    effects: [
+      {
+        key: 'persuasive',
+        name: 'Persuasive',
+        lands: { on: 'use' },
+        text: ['The affected creature then has advantage on Charisma (Persuasion) checks'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9397,6 +11447,22 @@ export default createMagicItems({
       [
         "The shaft of this arrow is made of tightly packed white sand that discorporates into a blast of grit when it strikes a target. On a hit, the sand catches in the fittings and joints of metal armor, and the target's speed is reduced by 10 feet until it cleans or removes the armor. In addition, the target must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 11 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'speed-reduced',
+        name: 'Speed Reduced',
+        lands: { on: 'hit' },
+        text: ["the target's speed is reduced by 10 feet"],
+        lasts: { kind: 'until', text: ['it cleans or removes the armor'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9501,6 +11567,18 @@ export default createMagicItems({
       [
         "As an action, you can rub this dull green cream over your skin. When you do, you sprout thick, olive-green scales like those of a giant lizard or green dragon that last for 1 hour. These scales give you a natural AC of 15 + your Constitution modifier. This natural AC doesn't combine with any worn armor or with a Dexterity bonus to AC. A jar of scalehide cream contains 1d6 + 1 doses.",
       ],
+    ],
+    effects: [
+      {
+        key: 'scalehide',
+        name: 'Scalehide',
+        lands: { on: 'use' },
+        text: [
+          'These scales give you a natural AC of 15 + your Constitution modifier. ',
+          "This natural AC doesn't combine with any worn armor or with a Dexterity bonus to AC.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9635,6 +11713,18 @@ export default createMagicItems({
         "This cat o' nine tails is used primarily for self-flagellation, and its tails have barbs of silver woven into them. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and the weapon deals slashing damage instead of bludgeoning damage. You can spend 10 minutes using the scourge in a self-flagellating ritual, which can be done during a short rest. If you do so, your hit point maximum is reduced by 2d8. In addition, you have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage while your hit point maximum is reduced. This hit point maximum reduction can't be removed with the greater restoration spell or similar magic and lasts until you finish a long rest.",
       ],
     ],
+    effects: [
+      {
+        key: 'reduced-hit-point-maximum',
+        name: 'Reduced Hit Point Maximum',
+        lands: { on: 'use' },
+        text: [
+          'your hit point maximum is reduced by 2d8. ',
+          'In addition, you have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage while your hit point maximum is reduced',
+        ],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   scouts_coat: {
@@ -9657,6 +11747,15 @@ export default createMagicItems({
         "This skull looks like a normal animal or humanoid skull. You can use an action to place the skull on the ground, a table, or other surface and activate it with a command word. The skull's magic triggers when a creature comes within 5 feet of it without speaking that command word. The skull emits a green glow from its eye sockets, shedding dim light in a 15-foot radius, levitates up to 3 feet in the air, and emits a piercing scream for 1 minute that is audible up to 600 feet away. The skull can't be used this way again until the next dawn. The skull has AC 13 and 5 hit points. If destroyed while active, it releases a burst of necromantic energy. Each creature within 5 feet of the skull must succeed on a DC 11 Wisdom saving throw or be frightened until the end of its next turn.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 11 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   scrimshaw_comb: {
@@ -9668,6 +11767,16 @@ export default createMagicItems({
       [
         'Aside from being carved from bone, this comb is a beautiful example of functional art. It has 3 charges. As an action, you can expend a charge to cast invisibility. Unlike the standard version of this spell, you are invisible only to undead creatures. However, you can attack creatures who are not undead (and thus unaffected by the spell) without ending the effect. Casting a spell breaks the effect as normal. The comb regains 1d3 expended charges daily at dawn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: ['you are invisible only to undead creatures'],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9729,6 +11838,15 @@ export default createMagicItems({
         "This slim, slightly curved blade has a ghostly sheen and a wickedly sharp edge. You can use a bonus action to speak this magic sword's command word (“memory”) and cause the air around the blade to shimmer with a pale, violet glow. This glow sheds bright light in a 20-foot radius and dim light for an additional 20 feet. While the sword is glowing, it deals an extra 2d6 psychic damage to any target it hits. The glow lasts until you use a bonus action to speak the command word again or until you drop or sheathe the sword. When a creature takes psychic damage from the sword, you can choose to have the creature make a DC 15 Wisdom saving throw. On a failure, you take 2d6 psychic damage, and the creature is stunned until the end of its next turn. Once used, this feature of the sword shouldn't be used again until the next dawn. Each time it is used before then, the psychic damage you take increases by 2d6.",
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   searing_whip: {
@@ -9740,6 +11858,15 @@ export default createMagicItems({
       [
         'Inspired by the searing breath weapon of a light drake (see Tome of Beasts 2), this whip seems to have filaments of light interwoven within its strands. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with this weapon, the creature takes an extra 1d4 radiant damage. When you roll a 20 on an attack roll made with this weapon, the target is blinded until the end of its next turn. The whip has 3 charges, and it regains 1d3 expended charges daily at dawn or when exposed to a daylight spell for 1 minute. While wielding the whip, you can use an action to expend 1 of its charges to transform the whip into a searing beam of light. Choose one creature you can see within 30 feet of you and make one attack roll with this whip against that creature. If the attack hits, that creature and each creature in a line that is 5 feet wide between you and the target takes damage as if hit by this whip. All of this damage is radiant. If the target is undead, you have advantage on the attack roll.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'hit' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9763,6 +11890,15 @@ export default createMagicItems({
         'This white ash staff is decorated with gold and tipped with an uncut crystal of blue quartz. This staff can be wielded as a magic quarterstaff. While holding the staff, you have advantage on Charisma checks made to influence or interact socially with fey creatures. The staff has 10 charges for the following properties. The staff regains 1d6 + 4 charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff dissolves into a shower of fragrant flower petals, which blow away in a sudden wind. Rebuke Fey. When you hit a fey creature with a melee attack using the staff, you can expend 1 charge to deal an extra 2d6 radiant damage to the target. If the fey has an evil alignment, the extra damage increases to 4d6, and the target must succeed on a DC 15 Wisdom saving throw or be frightened of you until the start of your next turn. Spells. While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: charm person (1 charge), conjure woodland beings (4 charges), disguise self (1 charge), pass without trace (2 charges), or tree stride (5 charges). You can also use an action to cast the vicious mockery cantrip from the staff without using any charges.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   selkets_bracer: {
@@ -9774,6 +11910,15 @@ export default createMagicItems({
       [
         'This bronze bracer is crafted in the shape of a scorpion, its legs curled around your wrist, tail raised and ready to strike. While wearing this bracer, you are immune to the poisoned condition. The bracer has 4 charges and regains 1d4 charges daily at dawn. You can expend 1 charge as a bonus action to gain tremorsense out to a range of 30 feet for 1 minute. In addition, you can expend 2 charges as a bonus action to coat a weapon you touch with venom. The poison remains for 1 minute or until an attack using the weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or be poisoned until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9808,6 +11953,15 @@ export default createMagicItems({
       [
         "Fashioned from twisted ash wood, this staff 's head is carved in the likeness of a serpent preparing to strike. You have resistance to poison damage while you hold this staff. The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the carved snake head twists and magically consumes the rest of the staff, destroying it. Spells. While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cloudkill (5 charges), detect poison and disease (1 charge), poisoned volley* (2 charges), or protection from poison (2 charges). You can also use an action to cast the poison spray spell from the staff without using any charges. Spells marked with an asterisk (*) can be found in Deep Magic for 5th Edition. Serpent Form. While holding the staff, you can use an action cast polymorph on yourself, transforming into a serpent or snake that has a challenge rating of 2 or lower. While you are in the form of a serpent, you retain your Intelligence, Wisdom, and Charisma scores. You can remain in serpent form for up to 1 minute, and you can revert to your normal form as an action. Once used, this property can’t be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'serpent-form',
+        name: 'Serpent Form',
+        lands: { on: 'use' },
+        text: ['transforming into a serpent or snake that has a challenge rating of 2 or lower'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -9917,6 +12071,18 @@ export default createMagicItems({
         'The handle of this simple flail is made of smooth lotus wood. The three threshers are made of carved and painted wooden beads. You gain a + 1 bonus to attack and damage rolls made with this magic weapon. True Authority (Requires Attunement). You must be attuned to a crook of the flock (see page 72) to attune to this weapon. The attunement ends if you are no longer attuned to the crook. While you are attuned to this weapon and holding it, your Charisma score increases by 4 and can exceed 20, but not 30. When you hit a beast with this weapon, the beast takes an extra 3d6 bludgeoning damage. For the purpose of this weapon, “beast” refers to any creature with the beast type. The flail also has 5 charges. When you reduce a humanoid to 0 hit points with an attack from this weapon, you can expend 1 charge. If you do so, the humanoid stabilizes, regains 1 hit point, and is charmed by you for 24 hours. While charmed in this way, the humanoid regards you as its trusted leader, but it otherwise retains its statistics and regains hit points as normal. If harmed by you or your companions, or commanded to do something contrary to its nature, the target ceases to be charmed in this way. The flail regains 1d4 + 1 expended charges daily at dawn.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by the Flail',
+        lands: { on: 'hit' },
+        conditions: [rules.charmed],
+        text: [
+          'While charmed in this way, the humanoid regards you as its trusted leader, but it otherwise retains its statistics and regains hit points as normal.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   shield_of_gnawing: {
@@ -9972,6 +12138,15 @@ export default createMagicItems({
       [
         'This ring is crafted of silver with an inlay of mother-of-pearl. While wearing the ring, you can use an action to speak a command word and cause the ring to shed white and sparkling bright light in a 20-foot radius and dim light for an additional 20 feet. The light lasts until you use a bonus action to repeat the command word. The ring has 6 charges for the following properties. It regains 1d6 charges daily at dawn. Bestow Shimmer. While wearing the ring, you can use a bonus action to expend 1 of its charges to charge a weapon you wield with silvery energy until the start of your next turn. When you hit with an attack using the charged weapon, the target takes an extra 1d6 radiant damage. Shimmering Aura. While wearing the ring, you can use an action to expend 1 of its charges to surround yourself with a silvery, shimmering aura of light for 1 minute. This bright light extends from you in a 5-foot radius and is sunlight. While you are surrounded in this light, you have resistance to radiant damage. Shimmering Bolt. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a bolt of silvery light and makes its attack roll with a +7 bonus. On a hit, the target takes 2d6 radiant damage for each charge you expend.',
       ],
+    ],
+    effects: [
+      {
+        key: 'shimmering-aura',
+        name: 'Shimmering Aura',
+        lands: { on: 'use' },
+        text: ['While you are surrounded in this light, you have resistance to radiant damage.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10050,6 +12225,17 @@ export default createMagicItems({
         "This magic ammunition creates a trail of light behind it as it flies through the air. If the ammunition flies through the air and doesn't hit a creature, it releases a burst of light that can be seen for up to 1 mile. If the ammunition hits a creature, the creature must succeed on a DC 13 Dexterity saving throw or be outlined in golden light until the end of its next turn. While the creature is outlined in light, it can't benefit from being invisible and any attack against it has advantage if the attacker can see the outlined creature.",
       ],
     ],
+    effects: [
+      {
+        key: 'outlined',
+        name: 'Outlined in Light',
+        lands: { on: 'failed-save', save: 'dex', dc: 13 },
+        text: [
+          "While the creature is outlined in light, it can't benefit from being invisible and any attack against it has advantage if the attacker can see the outlined creature.",
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   signaling_compass: {
@@ -10060,6 +12246,16 @@ export default createMagicItems({
       [
         "The exterior of this clamshell metal case features a polished, mirror-like surface on one side and an ornate filigree on the other. Inside is a magnetic compass. While the case is closed, you can use an action to speak the command word and project a harmless beam of light up to 1 mile. As an action while holding the compass, you can flash a concentrated beam of light at a creature you can see within 60 feet of you. The target must succeed on a DC 13 Constitution saving throw or be blinded for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The compass can't be used this way again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10072,6 +12268,15 @@ export default createMagicItems({
       [
         'This heavy, gold ring is set with a round piece of carnelian, which is engraved with the symbol of an eagle perched upon a crown. While wearing the ring, you have advantage on saving throws against enchantment spells and effects. You can use an action to touch the ring to a creature—requiring a melee attack roll unless the creature is willing or incapacitated—and magically brand it with the ring’s crest. When a branded creature harms you, it takes 2d6 psychic damage and must succeed on a DC 15 Wisdom saving throw or be stunned until the end of its next turn. On a success, a creature is immune to this property of the ring for the next 24 hours, but the brand remains until removed. You can remove the brand as an action. The remove curse spell also removes the brand. Once you brand a creature, you can’t brand another creature until the next dawn. Instruments of Law. If you are also attuned to and wearing a Justicar’s mask (see page 149), you can cast the locate creature to detect a branded creature at will from the ring. If you are also attuned to and carrying a rod of the disciplinarian (see page 83), the psychic damage from the brand increases to 3d6 and the save DC increases to 16.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned by the Brand',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10130,6 +12335,17 @@ export default createMagicItems({
         "This small bark-colored stone measures 3/4 of an inch in diameter and weighs 1 ounce. Typically, 1d4 + 1 skipstones are found together. You can use an action to throw the stone up to 60 feet. The stone crumbles to dust on impact and is destroyed. Each creature within a 5-foot radius of where the stone landed must succeed on a DC 15 Constitution saving throw or be thrown forward in time until the start of your next turn. Each creature disappears, during which time it can't act and is protected from all effects. At the start of your next turn, each creature reappears in the space it previously occupied or the nearest unoccupied space, and it is unaware that any time has passed.",
       ],
     ],
+    effects: [
+      {
+        key: 'thrown-forward-in-time',
+        name: 'Thrown Forward in Time',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          "Each creature disappears, during which time it can't act and is protected from all effects.",
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   skullcap_of_deep_wisdom: {
@@ -10141,6 +12357,15 @@ export default createMagicItems({
       [
         'TThis scholar’s cap is covered in bright stitched runes, and the interior is rough, like bark or sharkskin. This cap has 9 charges. It regains 1d8 + 1 expended charges daily at midnight. While wearing it, you can use an action and expend 1 or more of its charges to cast one of the following spells, using your spell save DC or save DC 15, whichever is higher: destructive resonance (2 charges), nether weapon (4 charges), protection from the void (1 charge), or void strike (3 charges). These spells are Void magic spells, which can be found in Deep Magic for 5th Edition. At the GM’s discretion, these spells can be replaced with other spells of similar levels and similarly related to darkness, destruction, or the Void. Dangers of the Void. The first time you cast a spell from the cap each day, your eyes shine with a sickly green light until you finish a long rest. If you spend at least 3 charges from the cap, a trickle of blood also seeps from beneath the cap until you finish a long rest. In addition, each time you cast a spell from the cap, you must succeed on a DC 12 Intelligence saving throw or your Intelligence is reduced by 2 until you finish a long rest. This DC increases by 1 for each charge you spent to cast the spell. Void Calls to Void. When you cast a spell from the cap while within 1 mile of a creature that understands Void Speech, the creature immediately knows your name, location, and general appearance.',
       ],
+    ],
+    effects: [
+      {
+        key: 'intelligence-drain',
+        name: 'Intelligence Drain',
+        lands: { on: 'failed-save', save: 'int', dc: 12 },
+        text: ['your Intelligence is reduced by 2'],
+        lasts: { kind: 'until', text: ['you finish a long rest'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10164,6 +12389,15 @@ export default createMagicItems({
       [
         'This small brass pellet measures 1/2 of an inch in diameter. Typically, 1d6 + 4 sleep pellets are found together. You can use the pellet as a sling bullet and shoot it at a creature using a sling. On a hit, the pellet is destroyed, and the target must succeed on a DC 13 Constitution saving throw or fall unconscious for 1 minute. Alternatively, you can use an action to swallow the pellet harmlessly. Once before 1 minute has passed, you can use an action to exhale a cloud of sleeping gas in a 15-foot cone. Each creature in the area must succeed on a DC 13 Constitution saving throw or fall unconscious for 1 minute. An unconscious creature awakens if it takes damage or if another creature uses an action to wake it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'unconscious',
+        name: 'Unconscious',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.unconscious],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10190,6 +12424,15 @@ export default createMagicItems({
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The blade of the sword is coated in an endless supply of violet-colored slime. Despite the sword's tendency to drip, the slime does not flow over the pommel, regardless of the angle at which it is held. You are immune to the effect of the slime while attuned to this sword. While holding this sword, you can communicate telepathically with ooze creatures, and you have advantage on Charisma (Deception, Intimidation, and Persuasion) checks against ooze creatures. In addition, you can use an action to fling some of the sword's slime at a creature you can see within 30 feet of you. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d4 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn't poisoned. The sword can't be used this way again until 1 hour has passed.",
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned by Slime',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   slimeblade_longsword: {
@@ -10201,6 +12444,15 @@ export default createMagicItems({
       [
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The blade of the sword is coated in an endless supply of violet-colored slime. Despite the sword's tendency to drip, the slime does not flow over the pommel, regardless of the angle at which it is held. You are immune to the effect of the slime while attuned to this sword. While holding this sword, you can communicate telepathically with ooze creatures, and you have advantage on Charisma (Deception, Intimidation, and Persuasion) checks against ooze creatures. In addition, you can use an action to fling some of the sword's slime at a creature you can see within 30 feet of you. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d4 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn't poisoned. The sword can't be used this way again until 1 hour has passed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned by Slime',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10214,6 +12466,15 @@ export default createMagicItems({
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The blade of the sword is coated in an endless supply of violet-colored slime. Despite the sword's tendency to drip, the slime does not flow over the pommel, regardless of the angle at which it is held. You are immune to the effect of the slime while attuned to this sword. While holding this sword, you can communicate telepathically with ooze creatures, and you have advantage on Charisma (Deception, Intimidation, and Persuasion) checks against ooze creatures. In addition, you can use an action to fling some of the sword's slime at a creature you can see within 30 feet of you. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d4 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn't poisoned. The sword can't be used this way again until 1 hour has passed.",
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned by Slime',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   slimeblade_scimitar: {
@@ -10225,6 +12486,15 @@ export default createMagicItems({
       [
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The blade of the sword is coated in an endless supply of violet-colored slime. Despite the sword's tendency to drip, the slime does not flow over the pommel, regardless of the angle at which it is held. You are immune to the effect of the slime while attuned to this sword. While holding this sword, you can communicate telepathically with ooze creatures, and you have advantage on Charisma (Deception, Intimidation, and Persuasion) checks against ooze creatures. In addition, you can use an action to fling some of the sword's slime at a creature you can see within 30 feet of you. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d4 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn't poisoned. The sword can't be used this way again until 1 hour has passed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned by Slime',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10238,6 +12508,15 @@ export default createMagicItems({
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The blade of the sword is coated in an endless supply of violet-colored slime. Despite the sword's tendency to drip, the slime does not flow over the pommel, regardless of the angle at which it is held. You are immune to the effect of the slime while attuned to this sword. While holding this sword, you can communicate telepathically with ooze creatures, and you have advantage on Charisma (Deception, Intimidation, and Persuasion) checks against ooze creatures. In addition, you can use an action to fling some of the sword's slime at a creature you can see within 30 feet of you. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d4 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn't poisoned. The sword can't be used this way again until 1 hour has passed.",
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned by Slime',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   sling_stone_of_screeching: {
@@ -10248,6 +12527,15 @@ export default createMagicItems({
       [
         "This sling stone is carved with an open mouth that screams in hellish torment when hurled with a sling. Typically, 1d4 + 1 sling stones of screeching are found together. When you fire the stone from a sling, it changes into a screaming bolt, forming a line 5 feet wide that extends out from you to a target within 30 feet. Each creature in the line excluding you and the target must make a DC 13 Constitution saving throw. On a failure, a creature takes 2d8 thunder damage and is knocked prone. On a success, a creature takes half the damage and isn't knocked prone. Make a ranged weapon attack against the target. On a hit, the target takes damage from the sling stone plus 3d8 thunder damage and is knocked prone. Once a sling stone of screeching has dealt its damage to a creature, it becomes a nonmagical sling stone.",
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked Prone',
+        lands: { on: 'hit' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10282,6 +12570,37 @@ export default createMagicItems({
         'These brass and crystal cylinders are 6 inches long with 1-inch diameters. Each cylinder has a funnel on one end and a wooden plunger on the other end. You can use an action to quickly press the plunger, expelling the cylinder’s contents out through the funnel in a 30-foot line that is 5 feet wide. Once its contents are expelled, a cylinder is destroyed, and there is a 25 percent chance you are also subjected to the bombard’s effects as if you were caught in the line. Mindshatter Bombard (Rare). A vermilion solution sloshes and boils inside this canister. Each creature in the line of this substance must make a DC 15 Wisdom saving throw. On a failure, a creature takes 3d6 psychic damage and is incapacitated for 1 minute. On a success, a creature takes half the damage and isn’t incapacitated. An incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Murderous Bombard (Uncommon). A gruesome crimson slurry sloshes inside this canister with strange bits of ivory floating in it. Each creature in the line of this substance must succeed on a DC 13 Wisdom saving throw or be overcome with rage for 1 minute. While overcome with rage, the creature can’t distinguish friend from foe and must attack the nearest creature. If no other creature is near enough to move to and attack, the creature stalks off in a random direction, seeking a target for its rage. A creature overcome with rage can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Sloughide Bombard (Very Rare). A clear, gelatinous substance fills this canister. Each creature in the line of this substance must make a DC 17 Constitution saving throw. On a failure, a creature takes 6d6 acid damage and is paralyzed for 1 minute. On a success, a creature takes half the damage and isn’t paralyzed. While paralyzed, the creature takes 2d6 acid damage at the start of each of its turns. A paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'mindshatter',
+        name: 'Incapacitated',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'murderous-rage',
+        name: 'Overcome with Rage',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'While overcome with rage, the creature can’t distinguish friend from foe and must attack the nearest creature.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'sloughide',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.paralyzed],
+        text: [
+          'While paralyzed, the creature takes 2d6 acid damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   smoking_plate_of_heithmir: {
@@ -10294,6 +12613,15 @@ export default createMagicItems({
       [
         "This armor is soot-colored plate with grim dwarf visages on the pauldrons. The pauldrons emit curling smoke and are warm to the touch. You gain a +3 bonus to AC and are resistant to cold damage while wearing this armor. In addition, when you are struck by an attack while wearing this armor, you can use a reaction to fill a 30-foot cone in front of you with dense smoke. The smoke spreads around corners, and its area is heavily obscured. Each creature in the smoke when it appears and each creature that ends its turn in the smoke must succeed on a DC 17 Constitution saving throw or be poisoned for 1 minute. A wind of at least 20 miles per hour disperses the smoke. Otherwise, the smoke lasts for 5 minutes. Once used, this property of the armor can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned-in-smoke',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10458,6 +12786,15 @@ export default createMagicItems({
         "This horn is carved with images of a Spellhound (see Tome of Beasts 2) and invokes the antimagic properties of the hound's howl. You use an action to blow this horn, which emits a high-pitched, multiphonic sound that disrupts all magical effects within 30 feet of you. Any spell of 3rd level or lower in the area ends. For each spell of 4th-level or higher in the area, the horn makes a check with a +3 bonus. The DC equals 10 + the spell's level. On a success, the spell ends. In addition, each spellcaster within 30 feet of you and that can hear the horn must succeed on a DC 15 Constitution saving throw or be stunned until the end of its next turn. Once used, the horn can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   spice_box_of_zest: {
@@ -10490,6 +12827,16 @@ export default createMagicItems({
       [
         'Silver runes decorate the hairy legs and plump abdomen of this fist-sized preserved spider. You can use an action to throw the spider up to 30 feet. It explodes on impact and is destroyed. Each creature within a 20-foot radius of where the spider landed must succeed on a DC 13 Dexterity saving throw or be restrained by sticky webbing. A creature restrained by the webs can use its action to make a DC 13 Strength check. If it succeeds, it is no longer restrained. In addition, the webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire. The webs also naturally unravel after 1 hour.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'dex', dc: 13 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10546,6 +12893,18 @@ export default createMagicItems({
       [
         "This roughly made staff has cracked and splintered ends and can be wielded as a magic quarterstaff. When you roll a 20 on an attack roll made with this weapon, you embed a splinter in the target's body, and the pain and discomfort of the splinter is distracting. While the splinter remains embedded, the target has disadvantage on Dexterity, Intelligence, and Wisdom checks, and, if it is concentrating on a spell, it must succeed on a DC 10 Constitution saving throw at the start of each of its turns to maintain concentration on the spell. A creature, including the target, can take its action to remove the splinter by succeeding on a DC 13 Wisdom (Medicine) check.",
       ],
+    ],
+    effects: [
+      {
+        key: 'splinter',
+        name: 'Splinter',
+        lands: { on: 'hit' },
+        text: [
+          'While the splinter remains embedded, the target has disadvantage on Dexterity, Intelligence, and Wisdom checks, and, if it is concentrating on a spell, it must succeed on a DC 10 Constitution saving throw at the start of each of its turns to maintain concentration on the spell.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10626,6 +12985,32 @@ export default createMagicItems({
         'One half of this staff is crafted of white ash and capped in gold, while the other is ebony and capped in silver. The staff has 10 charges for the following properties. It regains 1d6 + 4 charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff splits into two halves with a resounding crack and becomes nonmagical. Fortune. While holding the staff, you can use an action to expend 1 of its charges and touch a creature with the gold end of the staff, giving it good fortune. The target can choose to use its good fortune and have advantage on one ability check, attack roll, or saving throw. This effect ends after the target has used the good fortune three times or when 24 hours have passed. Misfortune. While holding the staff, you can use an action to touch a creature with the silver end of the staff. The target must succeed on a DC 15 Wisdom saving throw or have disadvantage on one of the following (your choice): ability checks, attack rolls, or saving throws. If the target fails the saving throw, the staff regains 1 expended charge. This effect lasts until removed by the remove curse spell or until you use an action to expend 1 of its charges and touch the creature with the gold end of the staff. Spells. While holding the staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: augury (2 charges), bane (1 charge), bless (1 charge), remove curse (3 charges), or divination (4 charges). You can also use an action to cast the guidance spell from the staff without using any charges.',
       ],
     ],
+    effects: [
+      {
+        key: 'good-fortune',
+        name: 'Good Fortune',
+        lands: { on: 'use' },
+        text: [
+          'The target can choose to use its good fortune and have advantage on one ability check, attack roll, or saving throw.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+      {
+        key: 'misfortune',
+        name: 'Misfortune',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'have disadvantage on one of the following (your choice): ability checks, attack rolls, or saving throws.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'until you use an action to expend 1 of its charges and touch the creature with the gold end of the staff',
+          ],
+        },
+        ends: { cure: ['removed by the remove curse spell'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   staff_of_feathers: {
@@ -10670,6 +13055,15 @@ export default createMagicItems({
         "This plain-looking, wooden staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls made with it. The staff has 12 charges and regains 1d6 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff retains its +1 bonus to attack and damage rolls, loses all other properties, and the next time you roll a 20 on an attack roll using the staff, it explodes, dealing an extra 6d6 force damage to the target then is destroyed. On a 20, the staff regains 1d10 + 2 charges. Some of the staff ’s properties require the target to make a saving throw to resist or lessen the property’s effects. The saving throw DC is equal to 8 + your proficiency bonus + your Wisdom modifier. Bamboo in the Rainy Season. While holding the staff, you can use a bonus action to expend 1 charge to grant the staff the reach property until the start of your next turn. Gate to the Hell of Being Roasted Alive. While holding the staff, you can use an action to expend 1 charge to cast the scorching ray spell from it. When you make the spell’s attacks, you use your Wisdom modifier as your spellcasting ability. Iron Whirlwind. While holding the staff, you use an action to expend 2 charges, causing weighted chains to extend from the end of the staff and reducing your speed to 0 until the end of your next turn. As part of the same action, you can make one attack with the staff against each creature within your reach. If you roll a 1 on any attack, you must immediately make an attack roll against yourself as well before resolving any other attacks against opponents. Monkey Steals the Peach. While holding the staff, you can use a bonus action to expend 1 charge to extend sharp, grabbing prongs from the end of the staff. Until the start of your next turn, each time you hit a creature with the staff, the target takes piercing damage instead of the bludgeoning damage normal for the staff, and the target must make a DC 15 Constitution saving throw. On a failure, the target is incapacitated until the end of its next turn as it suffers crippling pain. On a success, the target has disadvantage on its next attack roll. Rebuke the Disobedient Child. When you are hit by a creature you can see within your reach while holding this staff, you can use a reaction to expend 1 charge to make an attack with the staff against the attacker. Seven Vengeful Demons Death Strike. While holding the staff, you can use an action to expend 7 charges and make one attack against a target within 5 feet of you with the staff. If the attack hits, the target takes bludgeoning damage as normal, and it must make a Constitution saving throw, taking 7d8 necrotic damage on a failed save, or half as much damage on a successful one. If the target dies from this damage, the staff ceases to function as anything other than a magic quarterstaff until the next dawn, but it regains all expended charges when its powers return. A humanoid killed by this damage rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability. Swamp Hag's Deadly Breath. While holding the staff, you can use an action to expend 2 charges to expel a 15-foot cone of poisonous gas out of the end of the staff. Each creature in the area must make a Constitution saving throw. On a failure, a creature takes 4d6 poison damage and is poisoned for 1 hour. On a success, a creature takes half the damage and isn’t poisoned. Vaulting Leap of the Clouds. If you are holding the staff and it has at least 1 charge, you can cast the jump spell from it as a bonus action at will without using any charges, but you can target only yourself when you do so.",
       ],
     ],
+    effects: [
+      {
+        key: 'monkey-steals-the-peach',
+        name: 'Crippling Pain',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   staff_of_midnight: {
@@ -10691,6 +13085,18 @@ export default createMagicItems({
       [
         "This twisted, wooden staff has 10 charges. While holding it, you can use an action to inflict a minor curse on a creature you can see within 30 feet of you. The target must succeed on a DC 10 Constitution saving throw or be affected by the chosen curse. A minor curse causes a non-debilitating effect or change in the creature, such as an outbreak of boils on one section of the target's skin, intermittent hiccupping, transforming the target's ears into small, donkey-like ears, or similar effects. The curse never interrupts spellcasting and never causes disadvantage on ability checks, attack rolls, or saving throws. The curse lasts for 24 hours or until removed by the remove curse spell or similar magic. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff dissolves into a cloud of noxious gas, and you are targeted with a minor curse of the GM's choice.",
       ],
+    ],
+    effects: [
+      {
+        key: 'minor-curse',
+        name: 'Minor Curse',
+        lands: { on: 'failed-save', save: 'con', dc: 10 },
+        text: [
+          "A minor curse causes a non-debilitating effect or change in the creature, such as an outbreak of boils on one section of the target's skin, intermittent hiccupping, transforming the target's ears into small, donkey-like ears, or similar effects.",
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+        ends: { cure: ['removed by the remove curse spell or similar magic'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10735,6 +13141,15 @@ export default createMagicItems({
       [
         'Mold and mushrooms coat this gnarled wooden staff. The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff rots into tiny clumps of slimy, organic matter and is destroyed. Mushroom Disguise. While holding the staff, you can use an action to expend 2 charges to cover yourself and anything you are wearing or carrying with a magical illusion that makes you look like a mushroom for up to 1 hour. You can appear to be a mushroom of any color or shape as long as it is no more than one size larger or smaller than you. This illusion ends early if you move or speak. The changes wrought by this effect fail to hold up to physical inspection. For example, if you appear to have a spongy cap in place of your head, someone touching the cap would feel your face or hair instead. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that you are disguised. Speak with Plants. While holding the staff, you can use an action to expend 1 of its charges to cast the speak with plants spell from it. Spore Cloud. While holding the staff, you can use an action to expend 3 charges to release a cloud of spores in a 20-foot radius from you. The spores remain for 1 minute, making the area lightly obscured for creatures other than you. The cloud moves with you, remaining centered on you. When a creature, other than you, enters the cloud of spores for the first time on a turn or starts its turn there, that creature must succeed on a DC 15 Constitution saving throw or take 1d6 poison damage and become poisoned until the start of its next turn. A wind of at least 10 miles per hour disperses the spores and ends the effect.',
       ],
+    ],
+    effects: [
+      {
+        key: 'spore-poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -10921,6 +13336,16 @@ export default createMagicItems({
         "You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with an attack using this weapon, you can use a bonus action to inject paralyzing venom in the target. The target must succeed on a DC 15 Constitution saving throw or become paralyzed for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures immune to poison are also immune to this dagger's paralyzing venom. The dagger can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'paralyzing-venom',
+        name: 'Paralyzing venom',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   stolen_thunder: {
@@ -11075,6 +13500,18 @@ export default createMagicItems({
         "When you drink this potion, you regain 5 hit points at the start of each of your turns. After it has restored 50 hit points, the potion's effects end.",
       ],
     ],
+    effects: [
+      {
+        key: 'troll-blood',
+        name: 'Troll blood',
+        lands: { on: 'use' },
+        text: ['you regain 5 hit points at the start of each of your turns.'],
+        lasts: {
+          kind: 'until',
+          text: ["After it has restored 50 hit points, the potion's effects end."],
+        },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   supreme_potion_of_troll_blood: {
@@ -11085,6 +13522,18 @@ export default createMagicItems({
       [
         "When you drink this potion, you regain 8 hit points at the start of each of your turns. After it has restored 80 hit points, the potion's effects end.",
       ],
+    ],
+    effects: [
+      {
+        key: 'troll-blood',
+        name: 'Troll blood',
+        lands: { on: 'use' },
+        text: ['you regain 8 hit points at the start of each of your turns.'],
+        lasts: {
+          kind: 'until',
+          text: ["After it has restored 80 hit points, the potion's effects end."],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11168,6 +13617,17 @@ export default createMagicItems({
         "Cat burglars, gearworkers, locksmiths, and even street performers use this gooey substance to increase the sensitivity of their hands. When found, a container contains 1d4 + 1 doses. As an action, one dose can be applied to a creature's hands. For 1 hour, that creature has advantage on Dexterity (Sleight of Hand) checks and on tactile Wisdom (Perception) checks.",
       ],
     ],
+    effects: [
+      {
+        key: 'sensitive-hands',
+        name: 'Sensitive hands',
+        lands: { on: 'use' },
+        text: [
+          'that creature has advantage on Dexterity (Sleight of Hand) checks and on tactile Wisdom (Perception) checks.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   tailors_clasp: {
@@ -11190,6 +13650,15 @@ export default createMagicItems({
       [
         'The coldly beautiful and deadly Snow Queen (see Tome of Beasts) grants these delicate-looking snowflake-shaped mithril talismans to her most trusted spies and servants. Each talisman is imbued with a measure of her power and is magically tied to the queen. It can be affixed to any piece of clothing or worn as an amulet. While wearing the talisman, you gain the following benefits: • You have resistance to cold damage. • You have advantage on Charisma checks when interacting socially with creatures that live in cold environments, such as frost giants, winter wolves, and fraughashar (see Tome of Beasts). • You can use an action to cast the ray of frost cantrip from it at will, using your level and using Intelligence as your spellcasting ability. Blinding Snow. While wearing the talisman, you can use an action to create a swirl of snow that spreads out from you and into the eyes of nearby creatures. Each creature within 15 feet of you must succeed on a DC 17 Constitution saving throw or be blinded until the end of its next turn. Once used, this property can’t be used again until the next dawn. Eyes of the Queen. While you are wearing the talisman, the Snow Queen can use a bonus action to see through your eyes if both of you are on the same plane of existence. This effect lasts until she ends it as a bonus action or until you die. You can’t make a saving throw to prevent the Snow Queen from seeing through your eyes. However, being more than 5 feet away from the talisman ends the effect, and becoming blinded prevents her from seeing anything further than 10 feet away from you. When the Snow Queen is looking through your eyes, the talisman sheds an almost imperceptible pale blue glow, which you or any creature within 10 feet of you notice with a successful DC 20 Wisdom (Perception) check. An identify spell fails to reveal this property of the talisman, and this property can’t be removed from the talisman except by the Snow Queen herself.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinding-snow',
+        name: 'Blinded by snow',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11225,6 +13694,24 @@ export default createMagicItems({
         'This whip is braided from leather tanned from the hides of a dozen different, dangerous beasts. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you attack a beast using this weapon, you have advantage on the attack roll. When you roll a 20 on the attack roll made with this weapon and the target is a beast, the beast must succeed on a DC 15 Wisdom saving throw or become charmed or frightened (your choice) for 1 minute. If the creature is charmed, it understands and obeys one-word commands, such as “attack,” “approach,” “stay,” or similar. If it is charmed and understands a language, it obeys any command you give it in that language. The charmed or frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by whip',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'frightened',
+        name: 'Frightened by whip',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   tarian_graddfeydd_ddraig: {
@@ -11235,6 +13722,29 @@ export default createMagicItems({
       [
         "This metal shield has an outer coating consisting of hardened resinous insectoid secretions embedded with flakes from ground dragon scales collected from various dragon wyrmlings and one dragon that was killed by shadow magic. While holding this shield, you gain a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. In addition, you have resistance to acid, cold, fire, lightning, necrotic, and poison damage dealt by the breath weapons of dragons. While wielding the shield in an area of dim or bright light, you can use an action to reflect the light off the shield's dragon scale flakes to cause a cone of multicolored light to flash from it (15-foot cone if in dim light; 30-foot cone if in bright light). Each creature in the area must make a DC 17 Dexterity saving throw. For each target, roll a d6 and consult the following table to determine which color is reflected at it. The shield can't be used this way again until the next dawn. | d6 | Effect | | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | 1 | Red. The target takes 6d6 fire damage on a failed save, or half as much damage on a successful one. | | 2 | White. The target takes 4d6 cold damage and is restrained until the start of your next turn on a failed save, or half as much damage and is not restrained on a successful one. | | 3 | Blue. The target takes 4d6 lightning damage and is paralyzed until the start of your next turn on a failed save, or half as much damage and is not paralyzed on a successful one. | | 4 | Black. The target takes 4d6 acid damage on a failed save, or half as much damage on a successful one. If the target failed the save, it also takes an extra 2d6 acid damage on the start of your next turn. | | 5 | Green. The target takes 4d6 poison damage and is poisoned until the start of your next turn on a failed save, or half as much damage and is not poisoned on a successful one. | | 6 | Shadow. The target takes 4d6 necrotic damage and its Strength score is reduced by 1d4 on a failed save, or half as much damage and does not reduce its Strength score on a successful one. The target dies if this Strength reduction reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. |",
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained (white light)',
+        lands: { on: 'failed-save', save: 'dex', dc: 17 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed (blue light)',
+        lands: { on: 'failed-save', save: 'dex', dc: 17 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'poisoned',
+        name: 'Poisoned (green light)',
+        lands: { on: 'failed-save', save: 'dex', dc: 17 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11247,6 +13757,15 @@ export default createMagicItems({
         "This cast iron teapot is adorned with the simple image of fluffy clouds that seem to slowly shift and move across the pot as if on a gentle breeze. Any water placed inside the teapot immediately becomes hot tea at the perfect temperature, and when poured, it becomes the exact flavor the person pouring it prefers. The teapot can serve up to 6 creatures, and any creature that spends 10 minutes drinking a cup of the tea gains 2d6 temporary hit points for 24 hours. The creature pouring the tea has advantage on Charisma (Persuasion) checks for 10 minutes after pouring the first cup. Once used, the teapot can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'temporary-hit-points',
+        name: "Tea's fortitude",
+        lands: { on: 'use' },
+        text: ['gains 2d6 temporary hit points'],
+        lasts: { kind: 'time', amount: '1', unit: 'day' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   tenebrous_flail_of_screams: {
@@ -11258,6 +13777,15 @@ export default createMagicItems({
       [
         "The handle of this flail is made of mammoth bone wrapped in black leather made from bat wings. Its pommel is adorned with raven's claws, and the head of the flail dangles from a flexible, preserved braid of entrails. The head is made of petrified wood inlaid with owlbear and raven beaks. When swung, the flail lets out an otherworldly screech. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with this flail, the target takes an extra 1d6 psychic damage. When you roll a 20 on an attack roll made with this weapon, the target must succeed on a DC 15 Wisdom saving throw or be incapacitated until the end of its next turn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Incapacitated by screech',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11290,6 +13818,20 @@ export default createMagicItems({
         "You gain a +1 bonus to attack and damage rolls with this magic weapon, which deals slashing damage instead of piercing damage. When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 2d6 slashing damage. If the target is a creature other than an undead or construct, it must succeed on a DC 13 Constitution saving throw or lose 2d6 hit points at the start of each of its turns from a bleeding wound. Any creature can take an action to stanch the wound with a successful DC 11 Wisdom (Medicine) check. The wound also closes if the target receives magical healing. In addition, once every 7 days while the scalpel is on your person, you must succeed on a DC 15 Charisma saving throw or become driven to feed blood to the scalpel. You have advantage on attack rolls with the scalpel until it is sated. The dagger is sated when you roll a 20 on an attack roll with it, after you deal 14 slashing damage with it, or after 1 hour elapses. If the hour elapses and you haven't sated its thirst for blood, the dagger deals 14 slashing damage to you. If the dagger deals damage to you as a result of the curse, you can't heal the damage for 24 hours. The remove curse spell removes your attunement to the item and frees you from the curse. Alternatively, casting the banishment spell on the dagger forces the bearded devil's essence to leave it. The scalpel then becomes a +1 dagger with no other properties.",
       ],
     ],
+    effects: [
+      {
+        key: 'bleeding-wound',
+        name: 'Bleeding wound',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        text: ['lose 2d6 hit points at the start of each of its turns from a bleeding wound.'],
+        lasts: {
+          kind: 'until',
+          text: [
+            'Any creature can take an action to stanch the wound with a successful DC 11 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   thirsting_thorn: {
@@ -11301,6 +13843,15 @@ export default createMagicItems({
       [
         'You gain a +1 bonus to attack and damage rolls made with this weapon. In addition, while carrying the sword, you have resistance to necrotic damage. Each time you reduce a creature to 0 hit points with this weapon, you can regain 2d8+2 hit points. Each time you regain hit points this way, you must succeed a DC 12 Wisdom saving throw or be incapacitated by terrible visions until the end of your next turn. If you reach your maximum hit points using this effect, you automatically fail the saving throw. As long as you remain cursed, you are unwilling to part with the sword, keeping it within reach at all times. If you have not damaged a creature with this sword within the past 24 hours, you have disadvantage on attack rolls with weapons other than this one as its hunger for blood drives you to slake its thirst.',
       ],
+    ],
+    effects: [
+      {
+        key: 'terrible-visions',
+        name: 'Terrible visions',
+        lands: { on: 'failed-save', save: 'wis', dc: 12 },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11326,6 +13877,17 @@ export default createMagicItems({
         "These boots are often decorated with eyes, flames, or other bold patterns such as lightning bolts or wheels. When you step onto water, air, or stone, you can use a reaction to speak the boots' command word. For 1 hour, you gain the effects of the meld into stone, water walk, or wind walk spell, depending on the type of surface where you stepped. The boots can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'elemental-travel',
+        name: 'Elemental travel',
+        lands: { on: 'use' },
+        text: [
+          'you gain the effects of the meld into stone, water walk, or wind walk spell, depending on the type of surface where you stepped.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   throttlers_gauntlets: {
@@ -11338,6 +13900,15 @@ export default createMagicItems({
         "These durable leather gloves allow you to choke a creature you are grappling, preventing them from speaking. While you are grappling a creature, you can use a bonus action to throttle it. The creature takes damage equal to your proficiency bonus and can't speak coherently or cast spells with verbal components until the end of its next turn. You can choose to not damage the creature when you throttle it. A creature can still breathe, albeit uncomfortably, while throttled.",
       ],
     ],
+    effects: [
+      {
+        key: 'throttled',
+        name: 'Throttled',
+        lands: { on: 'use' },
+        text: ["can't speak coherently or cast spells with verbal components"],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   thunderous_kazoo: {
@@ -11349,6 +13920,15 @@ export default createMagicItems({
         "You can use an action to speak the kazoo's command word and then hum into it, which emits a thunderous blast, audible out to 1 mile, at one Large or smaller creature you can see within 30 feet of you. The target must make a DC 13 Constitution saving throw. On a failure, a creature is pushed away from you and is deafened and frightened of you until the start of your next turn. A Small creature is pushed up to 30 feet, a Medium creature is pushed up to 20 feet, and a Large creature is pushed up to 10 feet. On a success, a creature is pushed half the distance and isn't deafened or frightened. The kazoo can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'deafened-and-frightened',
+        name: 'Deafened and frightened',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.deafened, rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   tick_stop_watch: {
@@ -11359,6 +13939,15 @@ export default createMagicItems({
       [
         "While holding this silver pocketwatch, you can use an action to magically stop a single clockwork device or construct within 10 feet of you. If the target is an object, it freezes in place, even mid-air, for up to 1 minute or until moved. If the target is a construct, it must succeed on a DC 15 Wisdom saving throw or be paralyzed until the end of its next turn. The pocketwatch can't be used this way again until the next dawn. The pocketwatch must be wound at least once every 24 hours, just like a normal pocketwatch, or its magic ceases to function. If left unwound for 24 hours, the watch loses its magic, but the power returns 24 hours after the next time it is wound.",
       ],
+    ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed by stopped clockwork',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11395,6 +13984,16 @@ export default createMagicItems({
         'To the uninitiated, this short ebony baton resembles a heavy-duty truncheon with a cord-wrapped handle and silver-capped tip. The weapon has 5 charges, and it regains 1d4 + 1 expended charges daily at dawn. When you hit a creature with a melee attack with this magic weapon, you can expend 1 charge to force the target to make a DC 15 Constitution saving throw. If the creature took 20 damage or more from this attack, it has disadvantage on the saving throw. On a failure, the target is paralyzed for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   tome_of_knowledge: {
@@ -11416,6 +14015,15 @@ export default createMagicItems({
       [
         'This potion smells and tastes of lavender and chamomile. When you drink it, it removes any short-term madness afflicting you, and it suppresses any long-term madness afflicting you for 8 hours.',
       ],
+    ],
+    effects: [
+      {
+        key: 'steadied-mind',
+        name: 'Steadied Mind',
+        lands: { on: 'use' },
+        text: ['it suppresses any long-term madness afflicting you for 8 hours'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11463,6 +14071,22 @@ export default createMagicItems({
         "When you hit a Large or smaller creature with an attack using this colorful magic dart, the target is splattered with magical paint, which outlines the target in a dim glow (your choice of color) for 1 minute. Any attack roll against a creature outlined in the glow has advantage if the attacker can see the creature, and the creature can't benefit from being invisible. The creature outlined in the glow can end the effect early by using an action to wipe off the splatter of paint.",
       ],
     ],
+    effects: [
+      {
+        key: 'outlined',
+        name: 'Outlined',
+        lands: { on: 'hit' },
+        text: [
+          "Any attack roll against a creature outlined in the glow has advantage if the attacker can see the creature, and the creature can't benefit from being invisible.",
+        ],
+        ends: {
+          cure: [
+            'The creature outlined in the glow can end the effect early by using an action to wipe off the splatter of paint.',
+          ],
+        },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   treebleed_bucket: {
@@ -11486,6 +14110,17 @@ export default createMagicItems({
         'This bronze trident has a shaft of inlaid blue pearl. You gain a +2 bonus to attack and damage rolls with this magic weapon. Whirlpool. While wielding the trident underwater, you can use an action to speak its command word and cause the water around you to whip into a whirlpool for 1 minute. For the duration, each creature that enters or starts its turn in a space within 10 feet of you must succeed on a DC 15 Strength saving throw or be restrained by the whirlpool. The whirlpool moves with you, and creatures restrained by it move with it. A creature within 5 feet of the whirlpool can pull a creature out of it by taking an action to make a DC 15 Strength check and succeeding. A restrained creature can try to escape by taking an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the whirlpool. Once used, this property can’t be used again until the next dawn.',
       ],
     ],
+    effects: [
+      {
+        key: 'whirlpool-restrained',
+        name: 'Restrained by whirlpool',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.restrained],
+        text: ['The whirlpool moves with you, and creatures restrained by it move with it.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 15 } },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   trident_of_the_yearning_tide: {
@@ -11497,6 +14132,17 @@ export default createMagicItems({
       [
         'The barbs of this trident are forged from mother-of-pearl and its shaft is fashioned from driftwood. You gain a +2 bonus on attack and damage rolls made with this magic weapon. While holding the trident, you can breathe underwater. The trident has 3 charges for the following other properties. It regains 1d3 expended charges daily at dawn. Call Sealife. While holding the trident, you can use an action to expend 3 of its charges to cast the conjure animals spell from it. The creatures you summon must be beasts that can breathe water. Yearn for the Tide. When you hit a creature with a melee attack using the trident, you can use a bonus action to expend 1 charge to force the target to make a DC 17 Wisdom saving throw. On a failure, the target must spend its next turn leaping into the nearest body of water and swimming toward the bottom. A creature that can breathe underwater automatically succeeds on the saving throw. If no water is in the target’s line of sight, the target automatically succeeds on the saving throw.',
       ],
+    ],
+    effects: [
+      {
+        key: 'yearning-swim',
+        name: 'Yearning for the Tide',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        text: [
+          'On a failure, the target must spend its next turn leaping into the nearest body of water and swimming toward the bottom.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11511,6 +14157,15 @@ export default createMagicItems({
         "While wearing troll skin armor, you gain a +1 bonus to AC, and you stabilize whenever you are dying at the start of your turn. In addition, you can use an action to regenerate for 1 minute. While regenerating, you regain 2 hit points at the start of each of your turns. The armor can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'regenerating',
+        name: 'Regenerating',
+        lands: { on: 'use' },
+        text: ['While regenerating, you regain 2 hit points at the start of each of your turns.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   troll_skin_leather: {
@@ -11524,6 +14179,15 @@ export default createMagicItems({
         "While wearing troll skin armor, you gain a +1 bonus to AC, and you stabilize whenever you are dying at the start of your turn. In addition, you can use an action to regenerate for 1 minute. While regenerating, you regain 2 hit points at the start of each of your turns. The armor can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'regenerating',
+        name: 'Regenerating',
+        lands: { on: 'use' },
+        text: ['While regenerating, you regain 2 hit points at the start of each of your turns.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   trollsblood_elixir: {
@@ -11534,6 +14198,17 @@ export default createMagicItems({
       [
         "This thick, pink liquid sloshes and moves even when the bottle is still. When you drink this potion, you regenerate lost hit points for 1 hour. At the start of your turn, you regain 5 hit points. If you take acid or fire damage, the potion doesn't function at the start of your next turn. If you lose a limb, you can reattach it by holding it in place for 1 minute. For the duration, you can die from damage only by being reduced to 0 hit points and not regenerating on your turn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'trollsblood',
+        name: 'Trollsblood',
+        lands: { on: 'use' },
+        text: [
+          'you regenerate lost hit points for 1 hour. At the start of your turn, you regain 5 hit points.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11580,6 +14255,15 @@ export default createMagicItems({
       [
         "This simple axe looks no different from a standard forester's tool. A single-edged head is set into a slot in the haft and bound with strong cord. The axe was found by a timber-hauling crew who disappeared into the shadows of a cave deep in an old forest. Retrieved in the dark of the cave, the axe was found to possess disturbing magical properties. You gain a +1 bonus to attack and damage rolls made with this weapon, which deals necrotic damage instead of slashing damage. When you hit a plant creature with an attack using this weapon, the target must make a DC 15 Constitution saving throw. On a failure, the creature takes 4d6 necrotic damage and its speed is halved until the end of its next turn. On a success, the creature takes half the damage and its speed isn't reduced.",
       ],
+    ],
+    effects: [
+      {
+        key: 'speed-halved',
+        name: 'Speed Halved',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['its speed is halved until the end of its next turn.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11640,6 +14324,16 @@ export default createMagicItems({
         "Forged by creatures with firsthand knowledge of what lies between the stars, this dark gray blade sometimes appears to twitch or ripple like water when not directly observed. You gain a +1 bonus to attack and damage rolls with this magic weapon. In addition, when you hit with an attack using this dagger, the target takes an extra 2d6 psychic damage. You can use an action to cause the blade to ripple for 1 minute. While the blade is rippling, each creature that takes psychic damage from the dagger must succeed on a DC 15 Charisma saving throw or become frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The dagger can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   unseelie_staff: {
@@ -11650,6 +14344,18 @@ export default createMagicItems({
       [
         'This ebony staff is decorated in silver and topped with a jagged piece of obsidian. This staff can be wielded as a magic quarterstaff. While holding the staff, you have advantage on Charisma checks made to influence or interact socially with fey creatures. The staff has 10 charges for the following properties. The staff regains 1d6 + 4 charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff dissolves into a shower of powdery snow, which blows away in a sudden, chill wind. Rebuke Fey. When you hit a fey creature with a melee attack using the staff, you can expend 1 charge to deal an extra 2d6 necrotic damage to the target. If the fey has a good alignment, the extra damage increases to 4d6, and the target must succeed on a DC 15 Wisdom saving throw or be frightened of you until the start of your next turn. Spells. While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: charm person (1 charge), conjure woodland beings (4 charges), confusion (4 charges), invisibility (2 charges), or teleport (7 charges). You can also use an action to cast the vicious mockery cantrip from the staff without using any charges.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        text: [
+          'If the fey has a good alignment, the extra damage increases to 4d6, and the target must succeed on a DC 15 Wisdom saving throw or be frightened of you until the start of your next turn.',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11698,6 +14404,17 @@ export default createMagicItems({
         'Multi-colored streaks of light occasionally flash through the clear liquid in this container, like bottled lightning. As an action, you can pour the contents of the vial onto the ground. All normal plants in a 100-foot radius centered on the point where you poured the vial become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves. Alternatively, you can apply the contents of the vial to a plant creature within 5 feet of you. For 1 hour, the target gains 2d10 temporary hit points, and it gains the “enlarge” effect of the enlarge/reduce spell (no concentration required).',
       ],
     ],
+    effects: [
+      {
+        key: 'bolstered',
+        name: 'Bolstered',
+        lands: { on: 'use' },
+        text: [
+          'the target gains 2d10 temporary hit points, and it gains the “enlarge” effect of the enlarge/reduce spell (no concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   verminous_snipsnaps: {
@@ -11730,6 +14447,15 @@ export default createMagicItems({
       [
         "This small jug weighs 5 pounds and has a ceramic snake coiled around it. You can use an action to speak a command word to cause the vessel to produce poison, which pours from the snake's mouth. A poison created by the vessel must be used within 1 hour or it becomes inert. The word “blade” causes the snake to produce 1 dose of serpent venom, enough to coat a single weapon. The word “consume” causes the snake to produce 1 dose of assassin's blood, an ingested poison. The word “spit” causes the snake to spray a stream of poison at a creature you can see within 30 feet. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d8 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn't poisoned. Once used, the vessel can't be used to create poison again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'spat-poison',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11791,6 +14517,15 @@ export default createMagicItems({
         'This perpetually blood-stained straight razor deals slashing damage instead of piercing damage. You gain a +1 bonus to attack and damage rolls made with this magic weapon. Inhuman Alacrity. While holding the dagger, you can take two bonus actions on your turn, instead of one. Each bonus action must be different; you can’t use the same bonus action twice in a single turn. Once used, this property can’t be used again until the next dusk. Unclean Cut. When you hit a creature with a melee attack using the dagger, you can use a bonus action to deal an extra 2d4 necrotic damage. If you do so, the target and each of its allies that can see this attack must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. Once used, this property can’t be used again until the next dusk.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   void_touched_buckler: {
@@ -11801,6 +14536,15 @@ export default createMagicItems({
       [
         'This simple wood and metal buckler belonged to an adventurer slain by a void dragon wyrmling (see Tome of Beasts). It sat for decades next to a small tear in the fabric of reality, which led to the outer planes. It has since become tainted by the Void. While wielding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC. Invoke the Void. While wielding this shield, you can use an action to invoke the shield’s latent Void energy for 1 minute, causing a dark, swirling aura to envelop the shield. For the duration, when a creature misses you with a weapon attack, it must succeed on a DC 17 Wisdom saving throw or be frightened of you until the end of its next turn. In addition, when a creature hits you with a weapon attack, it has advantage on weapon attack rolls against you until the end of its next turn. You can’t use this property of the shield again until the next dawn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11813,6 +14557,16 @@ export default createMagicItems({
       [
         "This pitch-black cloak absorbs light and whispers as it moves. It feels like thin leather with a knobby, scaly texture, though none of that detail is visible to the eye. While you wear this cloak, you have resistance to necrotic damage. While the hood is up, your face is pooled in shadow, and you can use a bonus action to fix your dark gaze upon a creature you can see within 60 feet. If the creature can see you, it must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once a creature succeeds on its saving throw, it can't be affected by the cloak again for 24 hours. Pulling the hood up or down requires an action.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11861,6 +14615,15 @@ export default createMagicItems({
         'This wand is made from the bristles of a giant boar bound together with magical, silver thread. It weighs 1 pound and is 8 inches long. The wand has a strong boar musk scent to it, which is difficult to mask and is noticed by any creature within 10 feet of you that possesses the Keen Smell trait. The wand is comprised of 10 individual bristles, and as long as the wand has 1 bristle, it regrows 2 bristles daily at dawn. While holding the wand, you can use your action to remove bristles to cause one of the following effects. Ghostly Charge (3 bristles). You toss the bristles toward one creature you can see. A phantom giant boar charges 30 feet toward the creature. If the phantom’s path connects with the creature, the target must succeed on a DC 15 Dexterity saving throw or take 2d8 force damage and be knocked prone. Truffle (2 bristles). You plant the bristles in the ground to conjure up a magical truffle. Consuming the mushroom restores 2d8 hit points.',
       ],
     ],
+    effects: [
+      {
+        key: 'ghostly-charge-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   wand_of_depth_detection: {
@@ -11893,6 +14656,20 @@ export default createMagicItems({
       [
         "This wand appears to be carved from the bones of a large fish, which have been cemented together. The wand has 3 charges and regains 1d3 expended charges daily at dawn. While holding this wand, you can use an action to expend 1 charge to cause a thin stream of seawater to spray toward a creature you can see within 60 feet of you. If the target can breathe only air, it must succeed on a DC 15 Constitution saving throw or its lungs fill with rancid seawater and it begins drowning. A drowning creature chokes for a number of rounds equal to its Constitution modifier (minimum of 1 round). At the start of its turn after its choking ends, the creature drops to 0 hit points and is dying, and it can't regain hit points or be stabilized until it can breathe again. A successful DC 15 Wisdom (Medicine) check removes the seawater from the drowning creature's lungs, ending the effect.",
       ],
+    ],
+    effects: [
+      {
+        key: 'drowning',
+        name: 'Drowning',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['its lungs fill with rancid seawater and it begins drowning'],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            "A successful DC 15 Wisdom (Medicine) check removes the seawater from the drowning creature's lungs, ending the effect.",
+          ],
+        },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -11944,6 +14721,15 @@ export default createMagicItems({
         "This wand is tipped with a feather. The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and point the wand at a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to giggle for 1 minute. Giggling doesn't prevent a target from taking actions or moving. The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a 1d20. On a 1, the wand transforms into a Wand of Tears.",
       ],
     ],
+    effects: [
+      {
+        key: 'giggling',
+        name: 'Giggling',
+        lands: { on: 'failed-save', save: 'cha', dc: 10 },
+        text: ["Giggling doesn't prevent a target from taking actions or moving."],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   wand_of_guidance: {
@@ -11965,6 +14751,24 @@ export default createMagicItems({
       [
         "The tips of this twisted wooden wand are exceptionally withered. The wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand disintegrates into useless white powder. Affliction. While holding the wand, you can use an action to expend 1 charge to cause a creature you can see within 60 feet of you to become afflicted with unsightly, weeping sores. The target must succeed on a DC 15 Constitution saving throw or have disadvantage on all Dexterity and Charisma checks for 1 minute. An afflicted creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Pain. While holding the wand, you can use an action to expend 3 charges to cause a creature you can see within 60 feet of you to become wracked with terrible pain. The target must succeed on a DC 15 Constitution saving throw or take 4d6 necrotic damage, and its movement speed is halved for 1 minute. A pained creature can repeat the saving throw at the end of each of its turns, ending the effect on itself a success. If the target is also suffering from the Affliction property of this wand, it has disadvantage on the saving throw.",
       ],
+    ],
+    effects: [
+      {
+        key: 'affliction',
+        name: 'Afflicted',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['have disadvantage on all Dexterity and Charisma checks'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'pain',
+        name: 'Pained',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['its movement speed is halved for 1 minute'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12033,6 +14837,15 @@ export default createMagicItems({
         "The top half of this wooden wand is covered in thorns. The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and point the wand at a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to cry for 1 minute. Crying doesn't prevent a target from taking actions or moving. The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a 1d20. On a 1, the wand transforms into a Wand of Giggles .",
       ],
     ],
+    effects: [
+      {
+        key: 'crying',
+        name: 'Crying',
+        lands: { on: 'failed-save', save: 'cha', dc: 10 },
+        text: ["Crying doesn't prevent a target from taking actions or moving."],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   wand_of_the_timekeeper: {
@@ -12044,6 +14857,17 @@ export default createMagicItems({
       [
         'This smoothly polished wooden wand is perfectly balanced in the hand. Its grip is wrapped with supple leather strips, and its length is decorated with intricate arcane symbols. When you use it while playing a drum, you have advantage on Charisma (Performance) checks. The wand has 5 charges for the following properties. It regains 1d4 + 1 charges daily at dawn. Erratic. While holding the wand, you can use an action to expend 2 charges to force one creature you can see to re-roll its initiative at the end of each of its turns for 1 minute. An unwilling creature that succeeds on a DC 15 Wisdom saving throw is unaffected. Synchronize. While holding the wand, you can use an action to expend 1 charge to choose one creature you can see who has not taken its turn this round. That creature takes its next turn immediately after yours regardless of its turn in the Initiative order. An unwilling creature that succeeds on a DC 15 Wisdom saving throw is unaffected.',
       ],
+    ],
+    effects: [
+      {
+        key: 'erratic',
+        name: 'Erratic initiative',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'force one creature you can see to re-roll its initiative at the end of each of its turns for 1 minute',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12068,6 +14892,15 @@ export default createMagicItems({
       [
         "Green gas swirls inside this slender, glass wand. The wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand shatters into hundreds of crystalline fragments, and the gas within it dissipates. Fog Cloud. While holding the wand, you can use an action to expend 1 or more of its charges to cast the fog cloud spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend. Gaseous Escape. When you are attacked while holding this wand, you can use your reaction to expend 3 of its charges to transform yourself and everything you are wearing and carrying into a cloud of green mist until the start of your next turn. While you are a cloud of green mist, you have resistance to nonmagical damage, and you can’t be grappled or restrained. While in this form, you also can’t talk or manipulate objects, any objects you were wearing or holding can’t be dropped, used, or otherwise interacted with, and you can’t attack or cast spells.",
       ],
+    ],
+    effects: [
+      {
+        key: 'gaseous-escape',
+        name: 'Cloud of green mist',
+        lands: { on: 'use' },
+        text: ['you have resistance to nonmagical damage'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12141,6 +14974,17 @@ export default createMagicItems({
         "The rows of chain links of this armor seem to ebb and flow like waves while worn. Attacks against you have disadvantage while at least half of your body is submerged in water. In addition, when you are attacked, you can turn all or part of your body into water as a reaction, gaining immunity to bludgeoning, piercing, and slashing damage from nonmagical weapons, until the end of the attacker's turn. Once used, this property of the armor can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'liquid-form',
+        name: 'Liquid form',
+        lands: { on: 'use' },
+        text: [
+          'gaining immunity to bludgeoning, piercing, and slashing damage from nonmagical weapons',
+        ],
+        lasts: { kind: 'until', text: ["the end of the attacker's turn"] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   wayfarers_candle: {
@@ -12162,6 +15006,16 @@ export default createMagicItems({
       [
         'Carvings of spiderwebs decorate the arrowhead and shaft of these arrows, which always come in pairs. When you fire the arrows from a bow, they become the two anchor points for a 20-foot cube of thick, sticky webbing. Once you fire the first arrow, you must fire the second arrow within 1 minute. The arrows must land within 20 feet of each other, or the magic fails. The webs created by the arrows are difficult terrain and lightly obscure the area. Each creature that starts its turn in the webs or enters them during its turn must make a DC 13 Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free. A creature, including the restrained creature, can take its action to break the creature free from the webbing by succeeding on a DC 13 Strength check. The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.',
       ],
+    ],
+    effects: [
+      {
+        key: 'webbed',
+        name: 'Webbed',
+        lands: { on: 'failed-save', save: 'dex', dc: 13 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 13 } },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12186,6 +15040,15 @@ export default createMagicItems({
         "The skin of a large asp is woven into the leather of this whip. The asp's head sits nestled among the leather tassels at its tip. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this magic weapon, the target takes an extra 1d4 poison damage and must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.",
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   whispering_cloak: {
@@ -12197,6 +15060,15 @@ export default createMagicItems({
       [
         "This cloak is made of black, brown, and white bat pelts sewn together. While wearing it, you have blindsight out to a range of 60 feet. While wearing this cloak with its hood up, you transform into a creature of pure shadow. While in shadow form, your Armor Class increases by 2, you have advantage on Dexterity (Stealth) checks, and you can move through a space as narrow as 1 inch wide without squeezing. You can cast spells normally while in shadow form, but you can't make ranged or melee attacks with nonmagical weapons. In addition, you can't pick up objects, and you can't give objects you are wearing or carrying to others. This effect lasts up to 1 hour. Deduct time spent in shadow form in increments of 1 minute from the total time. After it has been used for 1 hour, the cloak can't be used in this way again until the next dusk, when its time limit resets. Pulling the hood up or down requires an action.",
       ],
+    ],
+    effects: [
+      {
+        key: 'shadow-form',
+        name: 'Shadow form',
+        lands: { on: 'use' },
+        text: ['your Armor Class increases by 2, you have advantage on Dexterity (Stealth) checks'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12258,6 +15130,17 @@ export default createMagicItems({
         'While wearing this bear head-shaped belt buckle, you can use an action to cast polymorph on yourself, transforming into a type of bear determined by the type of belt buckle you are wearing. While you are in the form of a bear, you retain your Intelligence, Wisdom, and Charisma scores. In addition, you don’t need to maintain concentration on the spell, and the transformation lasts for 1 hour, until you use a bonus action to revert to your normal form, or until you drop to 0 hit points or die. The belt buckle can’t be used this way again until the next dawn. Black Honey Buckle (Uncommon). When you use this belt buckle to cast polymorph on yourself, you transform into a black bear. Brown Honey Buckle (Rare). When you use this belt buckle to cast polymorph on yourself, you transform into a brown bear. White Honey Buckle (Very Rare). When you use this belt buckle to cast polymorph on yourself, you transform into a polar bear.',
       ],
     ],
+    effects: [
+      {
+        key: 'bear-form',
+        name: 'Bear form',
+        lands: { on: 'use' },
+        text: [
+          'transforming into a type of bear determined by the type of belt buckle you are wearing',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   windwalker_boots: {
@@ -12281,6 +15164,17 @@ export default createMagicItems({
         'The interior of this bottle is pitch black, and it feels empty. When opened, it releases a black vapor. When you inhale this vapor, your eyes go completely black. For 1 minute, you have darkvision out to a range of 60 feet, and you have resistance to necrotic damage. In addition, you gain a +1 bonus to damage rolls made with a weapon.',
       ],
     ],
+    effects: [
+      {
+        key: 'void-vapor',
+        name: 'Void vapor',
+        lands: { on: 'use' },
+        text: [
+          'you have darkvision out to a range of 60 feet, and you have resistance to necrotic damage',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   witch_ward_bottle: {
@@ -12302,6 +15196,15 @@ export default createMagicItems({
       [
         "For 1 minute after drinking this potion, your spell attacks deal an extra 1d4 necrotic damage on a hit. This revolting green potion's opaque liquid bubbles and steams as if boiling.",
       ],
+    ],
+    effects: [
+      {
+        key: 'necrotic-spells',
+        name: "Witch's brew",
+        lands: { on: 'use' },
+        text: ['your spell attacks deal an extra 1d4 necrotic damage on a hit'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12327,6 +15230,15 @@ export default createMagicItems({
         "This heavy iron ring is adorned with the stylized head of a snarling wolf. The ring has 3 charges and regains 1d3 expended charges daily at dawn. When you make a melee weapon attack while wearing this ring, you can use a bonus action to expend 1 of the ring's charges to deal an extra 2d6 piercing damage to the target. Then, the target must succeed on a DC 15 Strength saving throw or be knocked prone.",
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   worg_salve: {
@@ -12337,6 +15249,17 @@ export default createMagicItems({
       [
         "Brewed by hags and lycanthropes, this oil grants you lupine features. Each pot contains enough for three applications. One application grants one of the following benefits (your choice): darkvision out to a range of 60 feet, advantage on Wisdom (Perception) checks that rely on smell, a walking speed of 50 feet, or a new attack option (use the statistics of a wolf 's bite attack) for 5 minutes. If you use all three applications at one time, you can cast polymorph on yourself, transforming into a wolf. While you are in the form of a wolf, you retain your Intelligence, Wisdom, and Charisma scores. In addition, you don't need to maintain concentration on the spell, and the transformation lasts for 1 hour, until you use a bonus action to revert to your normal form, or until you drop to 0 hit points or die.",
       ],
+    ],
+    effects: [
+      {
+        key: 'lupine-features',
+        name: 'Lupine features',
+        lands: { on: 'use' },
+        text: [
+          "One application grants one of the following benefits (your choice): darkvision out to a range of 60 feet, advantage on Wisdom (Perception) checks that rely on smell, a walking speed of 50 feet, or a new attack option (use the statistics of a wolf 's bite attack) for 5 minutes.",
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'minute' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },
@@ -12372,6 +15295,18 @@ export default createMagicItems({
         "Roiling vapors of red, orange, and black swirl in a frenzy of color inside a sealed glass bottle. As an action, you can open the bottle and empty its contents within 5 feet of you or throw the bottle up to 20 feet, shattering it on impact. If you throw it, make a ranged attack against a creature or object, treating the bottle as an improvised weapon. When you open or break the bottle, the smoke releases in a 20-foot-radius sphere that dissipates at the end of your next turn. A creature that isn't an undead or a construct that enters or starts its turn in the area must succeed on a DC 13 Wisdom saving throw or be overcome with rage for 1 minute. On its turn, a creature overcome with rage must attack the creature nearest to it with whatever melee weapon it has on hand, moving up to its speed toward the target, if necessary. The raging creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
       ],
     ],
+    effects: [
+      {
+        key: 'overcome-with-rage',
+        name: 'Overcome with rage',
+        lands: { on: 'failed-save', save: 'wis', dc: 13 },
+        text: [
+          'On its turn, a creature overcome with rage must attack the creature nearest to it with whatever melee weapon it has on hand, moving up to its speed toward the target, if necessary.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.vault_of_magic,
   },
   zephyr_shield: {
@@ -12394,6 +15329,17 @@ export default createMagicItems({
       [
         'This gold amulet holds a preserved eye from a Ziphius (see Creature Codex). It has 3 charges, and it regains all expended charges daily at dawn. While wearing this amulet, you can use a bonus action to speak its command word and expend 1 of its charges to create a brief magical bond with a creature you can see within 60 feet of you. The target must succeed on a DC 15 Wisdom saving throw or be magically bonded with you until the end of your next turn. While bonded in this way, you can choose to have advantage on attack rolls against the target or cause the target to have disadvantage on attack rolls against you.',
       ],
+    ],
+    effects: [
+      {
+        key: 'magical-bond',
+        name: 'Magical bond',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          'While bonded in this way, you can choose to have advantage on attack rolls against the target or cause the target to have disadvantage on attack rolls against you.',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.vault_of_magic,
   },

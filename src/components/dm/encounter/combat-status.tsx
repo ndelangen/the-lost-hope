@@ -1,4 +1,15 @@
-import { Brain, Castle, Check, HeartCrack, HeartPulse, Plus, Skull, Wand2, X } from 'lucide-react'
+import {
+  Brain,
+  Castle,
+  Check,
+  FlaskConical,
+  HeartCrack,
+  HeartPulse,
+  Plus,
+  Skull,
+  Wand2,
+  X,
+} from 'lucide-react'
 import { useState } from 'react'
 
 import type { Effect } from '#/definitions/effect'
@@ -11,7 +22,7 @@ import type {
 import type { Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
-import { SpellEffect, type ApplyEffectActions } from './apply-effect'
+import { ItemEffectPicker, SpellEffect, type ApplyEffectActions } from './apply-effect'
 import { ConditionMarkers, EffectMarkers, WouldDie } from './condition-markers'
 import { ConditionPicker } from './condition-picker'
 import { useDensity } from './density'
@@ -74,7 +85,7 @@ export function CombatStatus({
   }
 }) {
   const focus = useDensity() === 'focus'
-  const [picking, setPicking] = useState<'condition' | 'spell'>()
+  const [picking, setPicking] = useState<'condition' | 'spell' | 'item'>()
   const [concentrationOn, setConcentrationOn] = useState('')
 
   return (
@@ -118,6 +129,15 @@ export function CombatStatus({
             <Wand2 aria-hidden /> Spell effect
           </ActionButton>
         ) : null}
+        {applyEffects ? (
+          <ActionButton
+            aria-expanded={picking === 'item'}
+            onClick={() => setPicking((value) => (value === 'item' ? undefined : 'item'))}
+            className={cn(picking === 'item' && 'bg-muted')}
+          >
+            <FlaskConical aria-hidden /> Item effect
+          </ActionButton>
+        ) : null}
         {state.concentration ? (
           <ActionButton onClick={() => actions.setConcentration(undefined)}>
             <X aria-hidden /> Stop concentrating
@@ -159,6 +179,13 @@ export function CombatStatus({
             actions.addCondition(condition, duration)
             setPicking(undefined)
           }}
+        />
+      ) : null}
+      {picking === 'item' && applyEffects ? (
+        <ItemEffectPicker
+          target={applyEffects.id}
+          actions={applyEffects}
+          onDone={() => setPicking(undefined)}
         />
       ) : null}
       {picking === 'spell' && applyEffects ? (

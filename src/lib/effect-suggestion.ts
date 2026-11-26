@@ -1,5 +1,5 @@
 import type { Content } from '#/definitions/content'
-import type { Spell, SpellEffect } from '#/definitions/library'
+import type { ItemEffect, Spell, SpellEffect } from '#/definitions/library'
 import type { Ability, AbilityEffect } from '#/definitions/stat-block'
 import { EFFECT_SAVE_MOMENTS } from '#/definitions/status-effect'
 
@@ -381,5 +381,34 @@ export function suggestFromSpellEffect(
         .join(' ') || undefined,
     duration: duration ?? { kind: 'until-removed' },
     concentration: /^concentration/i.test(spell.duration),
+  }
+}
+
+/** What an effect a magic item defines does: like a spell's, with the DC the item prints. */
+export function suggestFromItemEffect(
+  effect: ItemEffect,
+  { user }: { user: string | undefined },
+): EffectSuggestion {
+  const { lands, ends, ...rest } = effect
+  const dc = lands.on === 'failed-save' ? lands.dc : (ends?.escape?.dc ?? 0)
+  return {
+    ...suggestFromSpellEffect(
+      {
+        ...rest,
+        lands: lands.on === 'failed-save' ? { on: 'failed-save', save: lands.save } : lands,
+        ...(ends
+          ? {
+              ends: {
+                ...(ends.repeatSave ? { repeatSave: ends.repeatSave } : {}),
+                ...(ends.cure ? { cure: ends.cure } : {}),
+                ...(ends.escape ? { escape: { dc: 'spell' as const } } : {}),
+              },
+            }
+          : {}),
+      },
+      { duration: '' },
+      { caster: user, dc },
+    ),
+    concentration: false,
   }
 }

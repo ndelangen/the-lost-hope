@@ -280,6 +280,16 @@ export default createMagicItems({
       ],
       ['10 · The rear hatch unseals and opens. · The rear hatch closes and seals.'],
     ],
+    effects: [
+      {
+        key: 'grappled',
+        name: 'Grappled',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 15 } },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   armor_of_invulnerability: {
@@ -291,6 +301,15 @@ export default createMagicItems({
       [
         "You have Resistance to Bludgeoning, Piercing, and Slashing damage while you wear this armor. Metal Shell. You can take a Magic action to give yourself Immunity to Bludgeoning, Piercing, and Slashing damage for 10 minutes or until you are no longer wearing the armor. Once this property is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'metal-shell',
+        name: 'Metal Shell',
+        lands: { on: 'use' },
+        text: ['Immunity to Bludgeoning, Piercing, and Slashing damage'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -940,6 +959,15 @@ export default createMagicItems({
         "This small black sphere measures 3/4 of an inch in diameter and weighs an ounce. Typically, 1d4 + 4 Beads of Force are found together. You can take a Magic action to throw the bead up to 60 feet. The bead explodes in a 10-foot-radius Sphere on impact and is destroyed. Each creature in the Sphere must succeed on a DC 15 Dexterity saving throw or take 5d4 Force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save or are partially within the area are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can pass through. An enclosed creature can take a Utilize action to push against the sphere's wall, moving the sphere up to half the creature's Speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.",
       ],
     ],
+    effects: [
+      {
+        key: 'trapped',
+        name: 'Trapped',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        text: ['is trapped inside this sphere'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   belt_of_dwarvenkind: {
@@ -1069,6 +1097,22 @@ export default createMagicItems({
         "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained. Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one. Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear. While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.",
       ],
     ],
+    effects: [
+      {
+        key: 'berserk',
+        name: 'Berserk',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          "While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.",
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   berserker_greataxe: {
@@ -1081,6 +1125,22 @@ export default createMagicItems({
         "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained. Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one. Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear. While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.",
       ],
     ],
+    effects: [
+      {
+        key: 'berserk',
+        name: 'Berserk',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          "While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.",
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   berserker_halberd: {
@@ -1092,6 +1152,22 @@ export default createMagicItems({
       [
         "You gain a +1 bonus to attack rolls and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your Hit Point maximum increases by 1 for each level you have attained. Curse. This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have Disadvantage on attack rolls with weapons other than this one. Whenever another creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear. While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.",
       ],
+    ],
+    effects: [
+      {
+        key: 'berserk',
+        name: 'Berserk',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        text: [
+          "While berserk, you regard the creature nearest to you that you can see or hear as your enemy. If there are multiple possible creatures, choose one at random. On each of your turns, you must move as close to the creature as possible and take the Attack action, targeting the creature. If you're unable to get close enough to the creature to attack it with the weapon, your turn ends after you've used up all your available movement. If the creature dies or can no longer be seen or heard by you, the next nearest creature that you can see or hear becomes your new target.",
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This berserk state ends when you start your turn and there are no creatures within 60 feet of you that you can see or hear.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -1697,6 +1773,15 @@ export default createMagicItems({
         rules.poisoned,
         " condition for 1 minute. The weapon can't be used this way again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -2578,6 +2663,18 @@ export default createMagicItems({
         " condition. The shackles adjust to fit a creature of Small to Large size. The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing through an interdimensional portal. You and any creature you designate when you use the shackles can take a Utilize action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength (Athletics) check. On a successful check, the creature breaks free and destroys the shackles.",
       ],
     ],
+    effects: [
+      {
+        key: 'shackled',
+        name: 'Shackled',
+        lands: { on: 'use' },
+        text: [
+          'The shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 30 } },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   dragon_orb: {
@@ -2612,6 +2709,18 @@ export default createMagicItems({
       [
         'Destroying an Orb. A Dragon Orb has AC 20 and is destroyed if it takes damage from a +3 Weapon or a Disintegrate spell. Nothing else can harm it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed-by-orb',
+        name: 'Charmed by the orb',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        conditions: [rules.charmed],
+        text: [
+          "While you are Charmed by the orb, you can't voluntarily end your Attunement to it, and the orb casts Suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires.",
+        ],
+        lasts: { kind: 'until', text: ['for as long as you remain attuned to it'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -2668,6 +2777,18 @@ export default createMagicItems({
         ' condition ends for that creature.',
       ],
     ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: [
+          'Immediately after an affected creature makes an attack roll, deals damage, or casts a spell, the invisible condition ends for that creature.',
+        ],
+        lasts: { kind: 'time', amount: '2d4', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   dust_of_dryness: {
@@ -2691,6 +2812,20 @@ export default createMagicItems({
         rules.incapacitated,
         ' condition and is suffocating. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success. The effect also ends on any creature targeted by a Lesser Restoration spell.',
       ],
+    ],
+    effects: [
+      {
+        key: 'sneezing',
+        name: 'Sneezing and choking',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.incapacitated],
+        text: ['and is suffocating'],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          repeatSave: ['end-of-turn'],
+          cure: ['The effect also ends on any creature targeted by a Lesser Restoration spell.'],
+        },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3182,6 +3317,16 @@ export default createMagicItems({
       [
         "Goat of Travail. This figurine can become a Giant Goat for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3747,6 +3892,16 @@ export default createMagicItems({
         " condition for 1 minute. The creature repeats the save at the end of each of its turns, ending the effect on itself on a success. Third Command Word. You expend 5 charges and cause the gem to flare with intense light in a 30 foot Cone. Each creature in the Cone makes a saving throw as if struck by the beam created with the second command word. When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 GP.",
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   gem_of_seeing: {
@@ -3774,6 +3929,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_blowgun: {
@@ -3788,6 +3952,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3804,6 +3977,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_dagger: {
@@ -3818,6 +4000,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3834,6 +4025,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_flail: {
@@ -3848,6 +4048,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3864,6 +4073,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_greataxe: {
@@ -3878,6 +4096,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3894,6 +4121,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_greatsword: {
@@ -3908,6 +4144,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3924,6 +4169,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_hand_crossbow: {
@@ -3938,6 +4192,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3954,6 +4217,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_heavy_crossbow: {
@@ -3968,6 +4240,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -3984,6 +4265,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_lance: {
@@ -3998,6 +4288,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4014,6 +4313,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_light_hammer: {
@@ -4028,6 +4336,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4044,6 +4361,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_longsword: {
@@ -4058,6 +4384,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4074,6 +4409,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_maul: {
@@ -4088,6 +4432,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4104,6 +4457,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_musket: {
@@ -4118,6 +4480,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4134,6 +4505,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_pistol: {
@@ -4148,6 +4528,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4164,6 +4553,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_rapier: {
@@ -4178,6 +4576,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4194,6 +4601,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_shortbow: {
@@ -4208,6 +4624,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4224,6 +4649,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_sickle: {
@@ -4239,6 +4673,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_sling: {
@@ -4252,6 +4695,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4268,6 +4720,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_trident: {
@@ -4282,6 +4743,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4298,6 +4768,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_warhammer: {
@@ -4313,6 +4792,15 @@ export default createMagicItems({
         ' condition.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   giant_slayer_whip: {
@@ -4327,6 +4815,15 @@ export default createMagicItems({
         rules.prone,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4405,6 +4902,16 @@ export default createMagicItems({
       [
         'When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'wounding',
+        name: 'Wounding',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['be unable to regain Hit Points for 1 hour'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -4602,6 +5109,16 @@ export default createMagicItems({
         'When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'wounding',
+        name: 'Wounding',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['be unable to regain Hit Points for 1 hour'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   halberd_1: {
@@ -4703,6 +5220,15 @@ export default createMagicItems({
         rules.stunned,
         " condition until the end of your next turn. Immediately after hitting or missing, the weapon flies back to your hand. The weapon regains 1d4 + 1 expended charges daily at dawn. Giant's Bane. While you are attuned to the weapon and wearing either a Belt of Giant Strength or Gauntlets of Ogre Power to which you are also attuned, you gain the following benefits: Giants' Bane. When you roll a 20 on the d20 for an attack roll made with this weapon against a Giant, the creature must succeed on a DC 17 Constitution saving throw or die. Might of Giants. The Strength score bestowed by your Belt of Giant Strength or Gauntlets of Ogre Power increases by 4, to a maximum of 30.",
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -5561,6 +6087,15 @@ export default createMagicItems({
         " condition for 1 minute. On a successful save, a creature takes half as much damage only. Glass or crystal objects in the Cone that aren't being worn or carried take 10d8 Thunder damage. Each use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 Force damage to the user and destroys the horn.",
       ],
     ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   horn_of_valhalla: {
@@ -5642,6 +6177,19 @@ export default createMagicItems({
         rules.restrained,
         " condition until you take a Bonus Action to issue a command that releases it. Doing so or missing with the attack causes the bands to contract and become a sphere once more. A creature that can touch the bands, including the one Restrained, can take an action to make a DC 20 Strength (Athletics) check to break the iron bands. On a successful check, the item is destroyed, and the Restrained creature is freed. On a failed check, any further attempts made by that creature automatically fail until 24 hours have elapsed. Once the bands are used, they can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: {
+          kind: 'until',
+          text: ['until you take a Bonus Action to issue a command that releases it'],
+        },
+        ends: { escape: { dc: 20 } },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -5975,6 +6523,16 @@ export default createMagicItems({
         'When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'wounded',
+        name: 'Cannot regain Hit Points',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['be unable to regain Hit Points'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   luck_blade: {
@@ -6063,6 +6621,16 @@ export default createMagicItems({
         rules.frightened,
         " condition for 1 minute. While Frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't make Opportunity Attacks. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the Dodge action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.",
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7102,6 +7670,15 @@ export default createMagicItems({
         'One vial of this oil can cover one Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Etherealness spell for 1 hour. Beads of this cloudy, gray oil form on the outside of its container and quickly evaporate.',
       ],
     ],
+    effects: [
+      {
+        key: 'etherealness',
+        name: 'Etherealness',
+        lands: { on: 'use' },
+        text: ['The affected creature then gains the effect of the Etherealness spell for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   oil_of_sharpness: {
@@ -7123,6 +7700,17 @@ export default createMagicItems({
       [
         'One vial of this oil can cover one Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the Freedom of Movement spell for 8 hours. Alternatively, the oil can be poured on the ground as a Magic action, where it covers a 10-foot square, duplicating the effect of the Grease spell in that area for 8 hours. This sticky, black unguent is thick and heavy, but it flows quickly when poured.',
       ],
+    ],
+    effects: [
+      {
+        key: 'freedom-of-movement',
+        name: 'Freedom of Movement',
+        lands: { on: 'use' },
+        text: [
+          'The affected creature then gains the effect of the Freedom of Movement spell for 8 hours.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7228,6 +7816,15 @@ export default createMagicItems({
         ' condition for 1 hour. This rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'use' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   pike_1: {
@@ -7276,6 +7873,16 @@ export default createMagicItems({
         rules.frightened,
         ' condition for 1 minute. A creature that fails the save repeats it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its save is immune to the effect of these pipes for 24 hours.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7421,6 +8028,17 @@ export default createMagicItems({
         'When you drink this potion, you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb. This potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.',
       ],
     ],
+    effects: [
+      {
+        key: 'climb-speed',
+        name: 'Climb Speed',
+        lands: { on: 'use' },
+        text: [
+          'you gain a Climb Speed equal to your Speed for 1 hour. During this time, you have Advantage on Strength (Athletics) checks to climb.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_diminution: {
@@ -7431,6 +8049,17 @@ export default createMagicItems({
       [
         'When you drink this potion, you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required). The red in the potion’s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.',
       ],
+    ],
+    effects: [
+      {
+        key: 'reduced',
+        name: 'Reduce',
+        lands: { on: 'use' },
+        text: [
+          'you gain the “reduce” effect of the Enlarge/Reduce spell for 1d4 hours (no Concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7443,6 +8072,15 @@ export default createMagicItems({
         'When you drink this potion, you gain a Fly Speed equal to your Speed for 1 hour and can hover. If you’re in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion’s clear liquid floats at the top of its container and has cloudy white impurities drifting in it.',
       ],
     ],
+    effects: [
+      {
+        key: 'fly-speed',
+        name: 'Fly Speed',
+        lands: { on: 'use' },
+        text: ['you gain a Fly Speed equal to your Speed for 1 hour and can hover.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_gaseous_form: {
@@ -7453,6 +8091,17 @@ export default createMagicItems({
       [
         'When you drink this potion, you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action. This potion’s container seems to hold fog that moves and pours like water.',
       ],
+    ],
+    effects: [
+      {
+        key: 'gaseous-form',
+        name: 'Gaseous Form',
+        lands: { on: 'use' },
+        text: [
+          'you gain the effect of the Gaseous Form spell for 1 hour (no Concentration required) or until you end the effect as a Bonus Action.',
+        ],
+        lasts: { kind: 'until', text: ['until you end the effect as a Bonus Action'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7474,6 +8123,17 @@ export default createMagicItems({
       ['Potion of Giant Strength (cloud) · 27 · Very Rare'],
       ['Potion of Giant Strength (storm) · 29 · Legendary'],
     ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant Strength',
+        lands: { on: 'use' },
+        text: [
+          'your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_growth: {
@@ -7485,6 +8145,17 @@ export default createMagicItems({
         'When you drink this potion, you gain the “enlarge” effect of the Enlarge/Reduce spell for 10 minutes (no Concentration required). The red in the potion’s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.',
       ],
     ],
+    effects: [
+      {
+        key: 'enlarged',
+        name: 'Enlarge',
+        lands: { on: 'use' },
+        text: [
+          'you gain the “enlarge” effect of the Enlarge/Reduce spell for 10 minutes (no Concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_heroism: {
@@ -7495,6 +8166,17 @@ export default createMagicItems({
       [
         'When you drink this potion, you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required). This potion’s blue liquid bubbles and steams as if boiling.',
       ],
+    ],
+    effects: [
+      {
+        key: 'heroism',
+        name: 'Heroism',
+        lands: { on: 'use' },
+        text: [
+          'you gain 10 Temporary Hit Points that last for 1 hour. For the same duration, you are under the effect of the Bless spell (no Concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7509,6 +8191,16 @@ export default createMagicItems({
         ' condition for 1 hour. The effect ends early if you make an attack roll, deal damage, or cast a spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: ['The effect ends early if you make an attack roll, deal damage, or cast a spell.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_invulnerability: {
@@ -7520,6 +8212,15 @@ export default createMagicItems({
         'For 1 minute after you drink this potion, you have Resistance to all damage. This potion’s syrupy liquid looks like liquefied iron.',
       ],
     ],
+    effects: [
+      {
+        key: 'resistance-all',
+        name: 'Invulnerable',
+        lands: { on: 'use' },
+        text: ['For 1 minute after you drink this potion, you have Resistance to all damage.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_mind_reading: {
@@ -7530,6 +8231,17 @@ export default createMagicItems({
       [
         'When you drink this potion, you gain the effect of the Detect Thoughts spell (save DC 13) for 10 minutes (no Concentration required). This potion’s dense, purple liquid has an ovoid cloud of pink floating in it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'detect-thoughts',
+        name: 'Detect Thoughts',
+        lands: { on: 'use' },
+        text: [
+          'you gain the effect of the Detect Thoughts spell (save DC 13) for 10 minutes (no Concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7544,6 +8256,15 @@ export default createMagicItems({
         ' condition for 1 hour.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_resistance: {
@@ -7555,6 +8276,17 @@ export default createMagicItems({
         'When you drink this potion, you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table. 1d10 Damage Type 1d10 Damage Type Acid Necrotic Cold Poison Fire Psychic Force Radiant Lightning Thunder',
       ],
     ],
+    effects: [
+      {
+        key: 'resistance-one',
+        name: 'Resistance',
+        lands: { on: 'use' },
+        text: [
+          'you have Resistance to one type of damage for 1 hour. The GM chooses the type or determines it randomly by rolling on the following table.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_speed: {
@@ -7565,6 +8297,17 @@ export default createMagicItems({
       [
         'When you drink this potion, you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends. This potion’s yellow fluid is streaked with black and swirls on its own.',
       ],
+    ],
+    effects: [
+      {
+        key: 'hasted',
+        name: 'Haste',
+        lands: { on: 'use' },
+        text: [
+          'you gain the effect of the Haste spell for 1 minute (no Concentration required) without suffering the wave of lethargy that typically occurs when the effect ends.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7579,6 +8322,17 @@ export default createMagicItems({
         ' condition on you. For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend. This potion’s crimson liquid regularly pulses with dull light, calling to mind a heartbeat.',
       ],
     ],
+    effects: [
+      {
+        key: 'full-hit-dice',
+        name: 'Vitality',
+        lands: { on: 'use' },
+        text: [
+          'For the next 24 hours, you regain the maximum number of Hit Points for any Hit Point Die you spend.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   potion_of_water_breathing: {
@@ -7589,6 +8343,15 @@ export default createMagicItems({
       [
         'You can breathe underwater for 24 hours after drinking this potion. This potion’s cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'water-breathing',
+        name: 'Water Breathing',
+        lands: { on: 'use' },
+        text: ['You can breathe underwater for 24 hours after drinking this potion.'],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7687,6 +8450,16 @@ export default createMagicItems({
       [
         'When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'wounded',
+        name: 'Wounding',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['be unable to regain Hit Points for 1 hour'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -7798,6 +8571,16 @@ export default createMagicItems({
         'Water · Create or Destroy Water (1 charge), Ice Storm (2 charges), Tsunami (5 charges), Wall of Ice (3 charges), Water Walk (2 charges)',
       ],
     ],
+    effects: [
+      {
+        key: 'elemental-compelled',
+        name: 'Elemental Compulsion',
+        lands: { on: 'failed-save', save: 'wis', dc: 18 },
+        conditions: [rules.charmed],
+        text: ['you determine what it does with its move and action on its next turn'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   ring_of_evasion: {
@@ -7849,6 +8632,20 @@ export default createMagicItems({
         rules.invisible,
         ' condition. You remain Invisible until the ring is removed or until you take a Bonus Action to become visible again.',
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        lasts: {
+          kind: 'until',
+          text: [
+            'until the ring is removed or until you take a Bonus Action to become visible again',
+          ],
+        },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -8066,6 +8863,15 @@ export default createMagicItems({
         ' condition until the effect ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   robe_of_stars: {
@@ -8125,6 +8931,15 @@ export default createMagicItems({
         "This rod has the following properties. Alertness. While holding the rod, you have Advantage on Wisdom (Perception) checks and on Initiative rolls. Spells. While holding the rod, you can cast the following spells from it: - Detect Evil and Good - Detect Magic - Detect Poison and Disease - See Invisibility Protective Aura. As a Magic action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds Bright Light in a 60-foot radius and Dim Light for an additional 60 feet. While in that Bright Light, you and your allies gain a +1 bonus to Armor Class and saving throws and can sense the location of any Invisible creature that is also in the Bright Light. The rod's head stops glowing and the effect ends after 10 minutes or when a creature takes a Magic action to pull the rod from the ground. Once used, this property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'protective-aura',
+        name: 'Protective Aura',
+        lands: { on: 'use' },
+        text: ['you and your allies gain a +1 bonus to Armor Class and saving throws'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   rod_of_lordly_might: {
@@ -8141,6 +8956,24 @@ export default createMagicItems({
         " condition for 1 minute. A Frightened target repeats the save at the end of each of its turns, ending the effect on itself on a success. Once used, this property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   rod_of_rulership: {
@@ -8154,6 +8987,18 @@ export default createMagicItems({
         rules.charmed,
         " condition for 8 hours. While Charmed in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be Charmed in this way. Once used, this property can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.charmed],
+        text: [
+          'While Charmed in this way, the creature regards you as its trusted leader. If harmed by you or your allies or commanded to do something contrary to its nature, a target ceases to be Charmed in this way.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -8189,6 +9034,16 @@ export default createMagicItems({
         rules.restrained,
         " condition. You can release the target by letting go of your end of the rope (causing the rope to coil up in the target's space) or by using a Bonus Action to repeat the command (causing the rope to coil up in your hand). A target Restrained by the rope can take an action to make its choice of a DC 15 Strength (Athletics) or Dexterity (Acrobatics) check. On a successful check, the target is no longer Restrained by the rope. If you're still holding onto the rope when a target escapes from it, you can take a Reaction to command the rope to coil up in your hand; otherwise, the rope coils up in the target's space. The rope has AC 20, HP 20, and Immunity to Poison and Psychic damage. It regains 1 Hit Point every 5 minutes as long as it has at least 1 Hit Point. If the rope drops to 0 Hit Points, it is destroyed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 15 } },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -8330,6 +9185,16 @@ export default createMagicItems({
       [
         'When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'unable-to-regain-hit-points',
+        name: 'Wounded',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['be unable to regain Hit Points for 1 hour'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -8490,6 +9355,16 @@ export default createMagicItems({
       [
         'When you hit a creature with an attack using this magic weapon, the target takes an extra 2d6 Necrotic damage and must succeed on a DC 15 Constitution saving throw or be unable to regain Hit Points for 1 hour. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'unable-to-regain-hit-points',
+        name: 'Wounded',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: ['be unable to regain Hit Points for 1 hour'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -8940,6 +9815,22 @@ export default createMagicItems({
         ' condition for 1 minute. On a successful save, a creature takes half as much damage only.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_2_1,
   },
   staff_of_withering: {
@@ -8951,6 +9842,17 @@ export default createMagicItems({
       [
         'This staff has 3 charges and regains 1d3 expended charges daily at dawn. The staff can be wielded as a magic Quarterstaff. On a hit, it deals damage as a normal Quarterstaff, and you can expend 1 charge to deal an extra 2d10 Necrotic damage to the target and force it to make a DC 15 Constitution saving throw. On a failed save, the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.',
       ],
+    ],
+    effects: [
+      {
+        key: 'withered',
+        name: 'Withered',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'the target has Disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },
@@ -9779,6 +10681,16 @@ export default createMagicItems({
         rules.paralyzed,
         " condition for 1 minute. At the end of each of the target's turns, it repeats the save, ending the effect on itself on a success. Regaining Charges. The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll 1d20. On a 1, the wand crumbles into ashes and is destroyed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_2_1,
   },

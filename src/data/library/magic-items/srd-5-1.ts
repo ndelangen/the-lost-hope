@@ -1,5 +1,8 @@
 import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
 import { createMagicItems } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
 
 export default createMagicItems({
   adamantine_armor_breastplate_srd_5_1: {
@@ -212,6 +215,15 @@ export default createMagicItems({
       [
         "You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'nonmagical-immunity',
+        name: 'Immune to nonmagical damage',
+        lands: { on: 'use' },
+        text: ['make yourself immune to nonmagical damage for 10 minutes'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -721,6 +733,17 @@ export default createMagicItems({
       [
         "An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.",
       ],
+    ],
+    effects: [
+      {
+        key: 'trapped',
+        name: 'Trapped in force sphere',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        text: [
+          'Any creature that failed the save and is completely within the area is trapped inside this sphere.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -1468,6 +1491,16 @@ export default createMagicItems({
         "You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take 2d10 poison damage and become poisoned for 1 minute. The dagger can't be used this way again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.poisoned],
+        text: ['take 2d10 poison damage'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   dancing_sword_greatsword: {
@@ -1594,6 +1627,15 @@ export default createMagicItems({
       [
         '• "Geyser" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn\'t being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.',
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str', dc: 13 },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -1916,6 +1958,15 @@ export default createMagicItems({
         'Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become invisible for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.',
       ],
     ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        lasts: { kind: 'time', amount: '2d4', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   dust_of_dryness_srd_5_1: {
@@ -1946,6 +1997,20 @@ export default createMagicItems({
       [
         'When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The lesser restoration spell can also end the effect on a creature.',
       ],
+    ],
+    effects: [
+      {
+        key: 'sneezing-choking',
+        name: 'Sneezing and choking',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.incapacitated],
+        text: ['become unable to breathe, while sneezing uncontrollably'],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          repeatSave: ['end-of-turn'],
+          cure: ['The lesser restoration spell can also end the effect on a creature.'],
+        },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -2170,6 +2235,16 @@ export default createMagicItems({
       [
         "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.\\n\\nThe creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.\\n\\nThe creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.\\n\\n_Ivory Goats (Rare_.These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:\\n\\n* The goat of traveling can become a Large goat with the same statistics as a riding horse. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all its charges.\\n* The goat of travail becomes a giant goat for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.\\n* The goat of terror becomes a giant goat for up to 3 hours. The goat can't attack, but you can remove its horns and use them as weapons. One horn becomes a +1 lance, and the other becomes a +2 longsword. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be frightened of the goat for 1 minute, or until the goat reverts to figurine form. The frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat's aura for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'goat-of-terror',
+        name: 'Frightened by the goat of terror',
+        conditions: [rules.frightened],
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -2443,6 +2518,16 @@ export default createMagicItems({
         "When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp.",
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded by the gem',
+        conditions: [rules.blinded],
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   gem_of_seeing_srd_5_1: {
@@ -2469,6 +2554,15 @@ export default createMagicItems({
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   giant_slayer_greataxe_srd_5_1: {
@@ -2482,6 +2576,15 @@ export default createMagicItems({
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   giant_slayer_greatsword_srd_5_1: {
@@ -2493,6 +2596,15 @@ export default createMagicItems({
       [
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -2507,6 +2619,15 @@ export default createMagicItems({
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   giant_slayer_longsword_srd_5_1: {
@@ -2519,6 +2640,15 @@ export default createMagicItems({
       [
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -2533,6 +2663,15 @@ export default createMagicItems({
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   giant_slayer_shortsword_srd_5_1: {
@@ -2545,6 +2684,15 @@ export default createMagicItems({
       [
         'When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon\'s type and must succeed on a DC 15 Strength saving throw or fall prone. For the purpose of this weapon, "giant" refers to any creature with the giant type, including ettins and trolls.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        conditions: [rules.prone],
+        lands: { on: 'failed-save', save: 'str', dc: 15 },
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -2775,6 +2923,15 @@ export default createMagicItems({
         'The hammer also has 5 charges. While attuned to it, you can expend 1 charge and make a ranged weapon attack with the hammer, hurling it as if it had the thrown property with a normal range of 20 feet and a long range of 60 feet. If the attack hits, the hammer unleashes a thunderclap audible out to 300 feet. The target and every creature within 30 feet of it must succeed on a DC 17 Constitution saving throw or be stunned until the end of your next turn. The hammer regains 1d4 + 1 expended charges daily at dawn.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned by the thunderclap',
+        conditions: [rules.stunned],
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   handaxe_1_srd_5_1: {
@@ -2992,6 +3149,15 @@ export default createMagicItems({
       [
         "Each use of the horn's magic has a 20 percent chance of causing the horn to explode. The explosion deals 10d6 fire damage to the blower and destroys the horn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened by the blast',
+        conditions: [rules.deafened],
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -3265,6 +3431,16 @@ export default createMagicItems({
       ],
       ["Once the bands are used, they can't be used again until the next dawn."],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by the iron bands',
+        conditions: [rules.restrained],
+        lands: { on: 'hit' },
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 20 } },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   iron_flask_srd_5_1: {
@@ -3302,6 +3478,17 @@ export default createMagicItems({
       ['96 · Solar'],
       ['97-99 · Succubus/incubus'],
       ['100 · Xorn'],
+    ],
+    effects: [
+      {
+        key: 'trapped',
+        name: 'Trapped in the flask',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        text: [
+          "If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask.",
+        ],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -3647,6 +3834,19 @@ export default createMagicItems({
       ],
       ['The mace regains 1d3 expended charges daily at dawn.'],
     ],
+    effects: [
+      {
+        key: 'frightened-by-terror',
+        name: 'Frightened by terror',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        text: [
+          "While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   mantle_of_spell_resistance_srd_5_1: {
@@ -3806,6 +4006,17 @@ export default createMagicItems({
       [
         'In a similar way, you can use an action to speak a second command word and free one creature trapped in the mirror. The freed creature appears, along with its possessions, in the unoccupied space nearest to the mirror and facing away from it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'trapped-in-mirror',
+        name: 'Trapped in mirror',
+        lands: { on: 'failed-save', save: 'cha', dc: 15 },
+        text: [
+          "be trapped, along with anything it is wearing or carrying, in one of the mirror's twelve extradimensional cells",
+        ],
+        lasts: { kind: 'until', text: ['the creature is confined to the cell until freed'] },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4110,6 +4321,15 @@ export default createMagicItems({
         "Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the etherealness spell for 1 hour.",
       ],
     ],
+    effects: [
+      {
+        key: 'etherealness',
+        name: 'Etherealness',
+        lands: { on: 'use' },
+        text: ['The affected creature then gains the effect of the etherealness spell for 1 hour.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   oil_of_sharpness_srd_5_1: {
@@ -4134,6 +4354,17 @@ export default createMagicItems({
       [
         'Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the grease spell in that area for 8 hours.',
       ],
+    ],
+    effects: [
+      {
+        key: 'freedom-of-movement',
+        name: 'Freedom of movement',
+        lands: { on: 'use' },
+        text: [
+          'The affected creature then gains the effect of a freedom of movement spell for 8 hours.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4204,6 +4435,18 @@ export default createMagicItems({
         "The next time you see a creature within 10 minutes after drinking this philter, you become charmed by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart.",
       ],
     ],
+    effects: [
+      {
+        key: 'charmed-by-love',
+        name: 'Charmed by love',
+        lands: { on: 'use' },
+        conditions: [rules.charmed],
+        text: [
+          'If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are charmed.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   pike_1_srd_5_1: {
@@ -4248,6 +4491,16 @@ export default createMagicItems({
         "You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain 1d3 expended charges daily at dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened-by-pipes',
+        name: 'Frightened by pipes',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   pipes_of_the_sewers_srd_5_1: {
@@ -4279,6 +4532,15 @@ export default createMagicItems({
       [
         "While you're wearing this armor, you can speak its command word as an action to gain the effect of the etherealness spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'etherealness',
+        name: 'Etherealness',
+        lands: { on: 'use' },
+        text: ['gain the effect of the etherealness spell'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4314,6 +4576,15 @@ export default createMagicItems({
         'When you drink this potion, you can cast the animal friendship spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair.',
       ],
     ],
+    effects: [
+      {
+        key: 'animal-friendship',
+        name: 'Animal friendship',
+        lands: { on: 'use' },
+        text: ['you can cast the animal friendship spell (save DC 13) for 1 hour at will'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_clairvoyance_srd_5_1: {
@@ -4336,6 +4607,17 @@ export default createMagicItems({
         'When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb. The potion is separated into brown, silver, and gray layers resembling bands of stone. Shaking the bottle fails to mix the colors.',
       ],
     ],
+    effects: [
+      {
+        key: 'climbing-speed',
+        name: 'Climbing speed',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During this time, you have advantage on Strength (Athletics) checks you make to climb.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_cloud_giant_strength: {
@@ -4346,6 +4628,17 @@ export default createMagicItems({
       [
         "When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.\\n\\nThis potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.\\n\\n| Type of Giant | Strength | Rarity |\\n|-------------------|----------|-----------|\\n| Hill giant | 21 | Uncommon |\\n| Frost/stone giant | 23 | Rare |\\n| Fire giant | 25 | Rare |\\n| Cloud giant | 27 | Very rare |\\n| Storm giant | 29 | Legendary |",
       ],
+    ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant strength',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4358,6 +4651,17 @@ export default createMagicItems({
         'When you drink this potion, you gain the "reduce" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion\'s liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.',
       ],
     ],
+    effects: [
+      {
+        key: 'reduce',
+        name: 'Reduce',
+        lands: { on: 'use' },
+        text: [
+          'you gain the "reduce" effect of the enlarge/reduce spell for 1d4 hours (no concentration required)',
+        ],
+        lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_fire_giant_strength: {
@@ -4368,6 +4672,17 @@ export default createMagicItems({
       [
         "When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.\\n\\nThis potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.\\n\\n| Type of Giant | Strength | Rarity |\\n|-------------------|----------|-----------|\\n| Hill giant | 21 | Uncommon |\\n| Frost/stone giant | 23 | Rare |\\n| Fire giant | 25 | Rare |\\n| Cloud giant | 27 | Very rare |\\n| Storm giant | 29 | Legendary |",
       ],
+    ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant strength',
+        lands: { on: 'use' },
+        text: [
+          'When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4380,6 +4695,15 @@ export default createMagicItems({
         "When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it.",
       ],
     ],
+    effects: [
+      {
+        key: 'flying',
+        name: 'Flying',
+        lands: { on: 'use' },
+        text: ['you gain a flying speed equal to your walking speed for 1 hour and can hover.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_frost_giant_strength: {
@@ -4391,6 +4715,19 @@ export default createMagicItems({
         "When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.\\n\\nThis potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.\\n\\n| Type of Giant | Strength | Rarity |\\n|-------------------|----------|-----------|\\n| Hill giant | 21 | Uncommon |\\n| Frost/stone giant | 23 | Rare |\\n| Fire giant | 25 | Rare |\\n| Cloud giant | 27 | Very rare |\\n| Storm giant | 29 | Legendary |",
       ],
     ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant Strength',
+        lands: { on: 'use' },
+        text: [
+          'your Strength score changes for 1 hour.',
+          ' The type of giant determines the score (see the table below).',
+          ' The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_gaseous_form_srd_5_1: {
@@ -4401,6 +4738,17 @@ export default createMagicItems({
       [
         "When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.",
       ],
+    ],
+    effects: [
+      {
+        key: 'gaseous-form',
+        name: 'Gaseous Form',
+        lands: { on: 'use' },
+        text: [
+          'you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4424,6 +4772,17 @@ export default createMagicItems({
         'When you drink this potion, you gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion\'s liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process.',
       ],
     ],
+    effects: [
+      {
+        key: 'enlarged',
+        name: 'Enlarged',
+        lands: { on: 'use' },
+        text: [
+          'you gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '1d4', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_heroism_srd_5_1: {
@@ -4434,6 +4793,17 @@ export default createMagicItems({
       [
         'For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the bless spell (no concentration required). This blue potion bubbles and steams as if boiling.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blessed',
+        name: 'Blessed',
+        lands: { on: 'use' },
+        text: [
+          'For the same duration, you are under the effect of the bless spell (no concentration required).',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4446,6 +4816,19 @@ export default createMagicItems({
         "When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.\\n\\nThis potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.\\n\\n| Type of Giant | Strength | Rarity |\\n|-------------------|----------|-----------|\\n| Hill giant | 21 | Uncommon |\\n| Frost/stone giant | 23 | Rare |\\n| Fire giant | 25 | Rare |\\n| Cloud giant | 27 | Very rare |\\n| Storm giant | 29 | Legendary |",
       ],
     ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant Strength',
+        lands: { on: 'use' },
+        text: [
+          'your Strength score changes for 1 hour.',
+          ' The type of giant determines the score (see the table below).',
+          ' The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_invisibility_srd_5_1: {
@@ -4456,6 +4839,19 @@ export default createMagicItems({
       [
         "This potion's container looks empty but feels as though it holds liquid. When you drink it, you become invisible for 1 hour. Anything you wear or carry is invisible with you. The effect ends early if you attack or cast a spell.",
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: [
+          'Anything you wear or carry is invisible with you.',
+          ' The effect ends early if you attack or cast a spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4482,6 +4878,21 @@ export default createMagicItems({
         'If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con', dc: 13 },
+        conditions: [rules.poisoned],
+        text: [
+          'At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage.',
+          ' On a successful save, the poison damage you take on your subsequent turns decreases by 1d6.',
+          ' The poison ends when the damage decreases to 0.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_resistance_srd_5_1: {
@@ -4504,6 +4915,18 @@ export default createMagicItems({
       ['9 · Radiant'],
       ['10 · Thunder'],
     ],
+    effects: [
+      {
+        key: 'resistance',
+        name: 'Resistance',
+        lands: { on: 'use' },
+        text: [
+          'you gain resistance to one type of damage for 1 hour.',
+          ' The GM chooses the type or determines it randomly from the options below.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_speed_srd_5_1: {
@@ -4514,6 +4937,15 @@ export default createMagicItems({
       [
         "When you drink this potion, you gain the effect of the haste spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own.",
       ],
+    ],
+    effects: [
+      {
+        key: 'hasted',
+        name: 'Hasted',
+        lands: { on: 'use' },
+        text: ['you gain the effect of the haste spell for 1 minute (no concentration required).'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4526,6 +4958,19 @@ export default createMagicItems({
         "When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.\\n\\nThis potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.\\n\\n| Type of Giant | Strength | Rarity |\\n|-------------------|----------|-----------|\\n| Hill giant | 21 | Uncommon |\\n| Frost/stone giant | 23 | Rare |\\n| Fire giant | 25 | Rare |\\n| Cloud giant | 27 | Very rare |\\n| Storm giant | 29 | Legendary |",
       ],
     ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant Strength',
+        lands: { on: 'use' },
+        text: [
+          'your Strength score changes for 1 hour.',
+          ' The type of giant determines the score (see the table below).',
+          ' The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   potion_of_storm_giant_strength: {
@@ -4536,6 +4981,19 @@ export default createMagicItems({
       [
         "When you drink this potion, your Strength score changes for 1 hour. The type of giant determines the score (see the table below). The potion has no effect on you if your Strength is equal to or greater than that score.\\n\\nThis potion's transparent liquid has floating in it a sliver of fingernail from a giant of the appropriate type. The potion of frost giant strength and the potion of stone giant strength have the same effect.\\n\\n| Type of Giant | Strength | Rarity |\\n|-------------------|----------|-----------|\\n| Hill giant | 21 | Uncommon |\\n| Frost/stone giant | 23 | Rare |\\n| Fire giant | 25 | Rare |\\n| Cloud giant | 27 | Very rare |\\n| Storm giant | 29 | Legendary |",
       ],
+    ],
+    effects: [
+      {
+        key: 'giant-strength',
+        name: 'Giant Strength',
+        lands: { on: 'use' },
+        text: [
+          'your Strength score changes for 1 hour.',
+          ' The type of giant determines the score (see the table below).',
+          ' The potion has no effect on you if your Strength is equal to or greater than that score.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4569,6 +5027,15 @@ export default createMagicItems({
       [
         'You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it.',
       ],
+    ],
+    effects: [
+      {
+        key: 'water-breathing',
+        name: 'Water Breathing',
+        lands: { on: 'use' },
+        text: ['You can breathe underwater for 1 hour after drinking this potion.'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -4791,6 +5258,21 @@ export default createMagicItems({
       [
         'While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.',
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: ['Anything you are wearing or carrying is invisible with you.'],
+        lasts: {
+          kind: 'until',
+          text: [
+            'the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again',
+          ],
+        },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -5048,6 +5530,15 @@ export default createMagicItems({
         "This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or become stunned until the effect ends.",
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   robe_of_stars_srd_5_1: {
@@ -5208,6 +5699,24 @@ export default createMagicItems({
         "Terrify. While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is frightened of you for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until the next dawn.",
       ],
     ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'str', dc: 17 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 17 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   rod_of_rulership_srd_5_1: {
@@ -5219,6 +5728,18 @@ export default createMagicItems({
       [
         "You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be charmed by you for 8 hours. While charmed in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be charmed in this way. The rod can't be used again until the next dawn.",
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.charmed],
+        text: [
+          'While charmed in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be charmed in this way.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -5270,6 +5791,21 @@ export default createMagicItems({
       [
         'The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'dex', dc: 15 },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          escape: { dc: 15 },
+          cure: [
+            'You can release the creature by using a bonus action to speak a second command word.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -5920,6 +6456,22 @@ export default createMagicItems({
         "Thunder and Lightning. You can use an action to use the Lightning Strike and Thunderclap properties at the same time. Doing so doesn't expend the daily use of those properties, only the use of this one.",
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con', dc: 17 },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   staff_of_withering_srd_5_1: {
@@ -5932,6 +6484,17 @@ export default createMagicItems({
       [
         'The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra 2d10 necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution.',
       ],
+    ],
+    effects: [
+      {
+        key: 'withered',
+        name: 'Withered',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        text: [
+          'have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -6116,6 +6679,22 @@ export default createMagicItems({
         "Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.",
       ],
     ],
+    effects: [
+      {
+        key: 'wounded',
+        name: 'Wounded',
+        lands: { on: 'hit' },
+        text: [
+          "At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   sword_of_wounding_longsword: {
@@ -6131,6 +6710,22 @@ export default createMagicItems({
       [
         "Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.",
       ],
+    ],
+    effects: [
+      {
+        key: 'wounded',
+        name: 'Wounded',
+        lands: { on: 'hit' },
+        text: [
+          "At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success',
+          ],
+        },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -6148,6 +6743,22 @@ export default createMagicItems({
         "Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.",
       ],
     ],
+    effects: [
+      {
+        key: 'wounded',
+        name: 'Wounded',
+        lands: { on: 'hit' },
+        text: [
+          "At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   sword_of_wounding_shortsword: {
@@ -6163,6 +6774,22 @@ export default createMagicItems({
       [
         "Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success.",
       ],
+    ],
+    effects: [
+      {
+        key: 'wounded',
+        name: 'Wounded',
+        lands: { on: 'hit' },
+        text: [
+          "At the start of each of the wounded creature's turns, it takes 1d4 necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success",
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'can use an action to make a DC 15 Wisdom (Medicine) check, ending the effect of such wounds on it on a success',
+          ],
+        },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },
@@ -6858,6 +7485,16 @@ export default createMagicItems({
         "Cone of Fear. While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.",
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis', dc: 15 },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.srd_5_1,
   },
   wand_of_fireballs_srd_5_1: {
@@ -6927,6 +7564,16 @@ export default createMagicItems({
       [
         "The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",
       ],
+    ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'con', dc: 15 },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.srd_5_1,
   },

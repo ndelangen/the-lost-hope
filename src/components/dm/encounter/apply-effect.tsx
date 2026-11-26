@@ -1,6 +1,7 @@
 import { Sparkles, Wand2 } from 'lucide-react'
 import { useMemo, useState } from 'react'
 
+import { magicItemBooks, magicItemNames } from '#/data/generated/magic-item-names'
 import { spellBooks, spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
 import type { Ability } from '#/definitions/stat-block'
@@ -11,10 +12,12 @@ import {
   suggestFromAbility,
   suggestFromAbilityEffect,
   suggestFromSpell,
+  suggestFromItemEffect,
   suggestFromSpellEffect,
   type EffectSuggestion,
 } from '#/lib/effect-suggestion'
 import type { EffectApplication, EffectOrigin } from '#/lib/encounter-combat'
+import { loadMagicItem } from '#/lib/library-magic-items'
 import { loadSpell } from '#/lib/load-spell'
 import { CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
@@ -481,6 +484,206 @@ export function SpellEffect({
                   className="hover:bg-muted w-full rounded-md px-2 py-1 text-left text-sm italic"
                 >
                   {spell.name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
+    </div>
+  )
+}
+
+/** One entry per magic-item name, preferring the SRD 5.2.1 printing where several books have it. */
+const itemChoices = (() => {
+  const byName = new Map<string, string>()
+  for (const [key, name] of Object.entries(magicItemNames)) {
+    const current = byName.get(name)
+    if (
+      !current ||
+      (magicItemBooks[key] === 'srd-5-2-1' && magicItemBooks[current] !== 'srd-5-2-1')
+    )
+      byName.set(name, key)
+  }
+  return [...byName]
+    .map(([name, key]) => ({ name, key }))
+    .toSorted((a, b) => a.name.localeCompare(b.name))
+})()
+
+/**
+ * A magic item's effect on this combatant: a potion it drinks, a weapon that hit it, a wand used
+ * on it. Find the item and who used it, then check and apply one of the effects it defines.
+ */
+export function ItemEffectPicker({
+  target,
+  actions,
+  onDone,
+}: {
+  target: string
+  actions: ApplyEffectActions
+  onDone: () => void
+}) {
+  const focus = useDensity() === 'focus'
+  const [query, setQuery] = useState('')
+  const [user, setUser] = useState(target)
+  const [picked, setPicked] = useState<
+    | { state: 'loading' | 'missing' | 'none'; name: string }
+    | {
+        state: 'ready'
+        name: string
+        item: EntityRef<'magicItem'>
+        options: { key: string; label: string; suggestion: EffectSuggestion }[]
+        chosen?: string
+      }
+  >()
+
+  const pick = (choice: { key: string; name: string }) => {
+    const item: EntityRef<'magicItem'> = { ref: 'magicItem', key: choice.key }
+    const book = magicItemBooks[choice.key]
+    setPicked({ state: 'loading', name: choice.name })
+    void (
+      book
+        ? loadMagicItem(item, { ref: 'publication', key: book.replaceAll('-', '_') })
+        : Promise.resolve(undefined)
+    ).then((loaded) =>
+      setPicked((current) =>
+        current?.name !== choice.name
+          ? current
+          : !loaded
+            ? { state: 'missing', name: choice.name }
+            : !loaded.effects
+              ? { state: 'none', name: choice.name }
+              : {
+                  state: 'ready',
+                  name: choice.name,
+                  item,
+                  options: loaded.effects.map((effect) => ({
+                    key: effect.key,
+                    label: effect.name,
+                    suggestion: suggestFromItemEffect(effect, { user: user || undefined }),
+                  })),
+                  ...(loaded.effects.length === 1 ? { chosen: loaded.effects[0]!.key } : {}),
+                },
+      ),
+    )
+  }
+
+  const matches = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (!q) return []
+    const starts = itemChoices.filter((item) => item.name.toLowerCase().startsWith(q))
+    const contains = itemChoices.filter(
+      (item) => !item.name.toLowerCase().startsWith(q) && item.name.toLowerCase().includes(q),
+    )
+    return [...starts, ...contains].slice(0, 8)
+  }, [query])
+
+  const control = cn(
+    'border-input bg-background rounded-lg border px-2',
+    focus ? 'h-11 text-base' : 'h-8 text-sm',
+  )
+  const userName = actions.combatants.find(({ id }) => id === user)?.name
+  const option =
+    picked?.state === 'ready'
+      ? picked.options.find((candidate) => candidate.key === picked.chosen)
+      : undefined
+
+  if (picked?.state === 'ready' && !option)
+    return (
+      <div className="grid gap-2">
+        <p className="text-sm">{picked.name} can leave one of these. Which one?</p>
+        <div className="flex flex-wrap gap-2">
+          {picked.options.map((candidate) => (
+            <ActionButton
+              key={candidate.key}
+              onClick={() => setPicked({ ...picked, chosen: candidate.key })}
+            >
+              <Sparkles aria-hidden /> {candidate.label}
+            </ActionButton>
+          ))}
+          <ActionButton type="button" onClick={() => setPicked(undefined)}>
+            Choose another item
+          </ActionButton>
+        </div>
+      </div>
+    )
+  if (picked?.state === 'ready' && option)
+    return (
+      <div className="grid gap-2">
+        <div>
+          <ActionButton type="button" onClick={() => setPicked(undefined)}>
+            Choose another item
+          </ActionButton>
+        </div>
+        <EffectForm
+          key={option.key}
+          title={[
+            option.label !== picked.name ? `${option.label}, from ${picked.name}` : picked.name,
+            userName ? `used by ${userName}` : '',
+          ]
+            .filter(Boolean)
+            .join(', ')}
+          origin={{
+            kind: 'item',
+            item: picked.item,
+            ...(user ? { user } : {}),
+            effect: option.key,
+          }}
+          suggestion={option.suggestion}
+          actions={actions}
+          initialTargets={[target]}
+          onDone={onDone}
+        />
+      </div>
+    )
+
+  return (
+    <div className="border-border bg-muted/30 grid gap-3 rounded-xl border p-3">
+      <label className="flex flex-wrap items-center gap-2 text-sm">
+        <span>Used by</span>
+        <select
+          value={user}
+          onChange={(event) => setUser(event.currentTarget.value)}
+          className={control}
+        >
+          <option value="">Someone outside the fight</option>
+          {actions.combatants.map((combatant) => (
+            <option key={combatant.id} value={combatant.id}>
+              {combatant.name}
+            </option>
+          ))}
+        </select>
+      </label>
+      <div className="grid gap-1">
+        <input
+          aria-label="Find a magic item"
+          aria-describedby="item-effect-results"
+          placeholder="Find an item: Potion of Heroism, Oil of Etherealness…"
+          value={query}
+          onChange={(event) => setQuery(event.currentTarget.value)}
+          className={control}
+        />
+        <p id="item-effect-results" aria-live="polite" className="text-muted-foreground text-xs">
+          {picked?.state === 'loading'
+            ? `Loading ${picked.name}…`
+            : picked?.state === 'missing'
+              ? `${picked.name} could not be loaded from the library.`
+              : picked?.state === 'none'
+                ? `${picked.name} leaves no effect on a creature in the library's data.`
+                : query.trim()
+                  ? `${matches.length === 0 ? 'No' : matches.length} matching items`
+                  : ''}
+        </p>
+        {matches.length ? (
+          <ul aria-label="Matching items" className="grid gap-0.5">
+            {matches.map((item) => (
+              <li key={item.key}>
+                <button
+                  type="button"
+                  onClick={() => pick(item)}
+                  className="hover:bg-muted w-full rounded-md px-2 py-1 text-left text-sm"
+                >
+                  {item.name}
                 </button>
               </li>
             ))}

@@ -1,5 +1,6 @@
 import { z } from 'zod'
 
+import { magicItemNames } from '#/data/generated/magic-item-names'
 import { spellNames } from '#/data/generated/spell-names'
 import type { Effect, EffectText, EffectTrigger } from '#/definitions/effect'
 import { entityRefOf, type EntityRef } from '#/definitions/kind'
@@ -50,6 +51,14 @@ export const EffectOrigin = z.discriminatedUnion('kind', [
     spell: entityRefOf('spell'),
     caster: z.string().optional(),
     /** The spell's effect by key, when the spell defines it. */
+    effect: z.string().optional(),
+  }),
+  z.strictObject({
+    kind: z.literal('item'),
+    item: entityRefOf('magicItem'),
+    /** Who used it: drank the potion, swung the weapon, activated the wand. */
+    user: z.string().optional(),
+    /** The item's effect by key. */
     effect: z.string().optional(),
   }),
 ])
@@ -298,9 +307,9 @@ export type OriginNames = {
 
 /** "Hold Person", "Bite": an origin's own name, short enough for a marker. */
 export function originName(origin: EffectOrigin, { abilityName }: OriginNames) {
-  return origin.kind === 'spell'
-    ? (spellNames[origin.spell.key] ?? origin.spell.key)
-    : (abilityName(origin.combatant, origin.ability) ?? origin.ability)
+  if (origin.kind === 'spell') return spellNames[origin.spell.key] ?? origin.spell.key
+  if (origin.kind === 'item') return magicItemNames[origin.item.key] ?? origin.item.key
+  return abilityName(origin.combatant, origin.ability) ?? origin.ability
 }
 
 /** "Hold Person, cast by Swift", "Wolf 1’s Bite": where an effect came from, for the DM to read. */
@@ -308,6 +317,8 @@ export function describeOrigin(origin: EffectOrigin, names: OriginNames) {
   const name = originName(origin, names)
   if (origin.kind === 'spell')
     return origin.caster ? `${name}, cast by ${names.nameOf(origin.caster)}` : name
+  if (origin.kind === 'item')
+    return origin.user ? `${name}, used by ${names.nameOf(origin.user)}` : name
   return `${names.nameOf(origin.combatant)}’s ${name}`
 }
 
