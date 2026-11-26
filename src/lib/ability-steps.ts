@@ -1,5 +1,6 @@
 import type { Ability, AbilityTextToken, Attack, Save } from '#/definitions/stat-block'
 
+import { SQUARES_WIDE, type AreaSize } from './area-grid'
 import { abilityTextSegments, plainAbilityText, type DerivedStatBlock } from './dm-ability-text'
 import { ruleOf, ruleRef, rules, type RuleKey } from './rules'
 import {
@@ -40,10 +41,11 @@ type AbilitySource = 'action' | 'bonus action' | 'reaction' | 'trait' | 'legenda
 
 const text = (value: string): StepPart => ({ kind: 'text', text: value })
 const value = (shown: string): StepPart => ({ kind: 'value', text: shown })
-const term = (key: RuleKey, label: string): StepPart => ({
+const term = (key: RuleKey, label: string, area?: AreaSize): StepPart => ({
   kind: 'term',
   rule: ruleRef(key),
   label,
+  ...(area ? { area } : {}),
 })
 
 /** A PC's block is read by its own player, so its steps say "you" where a creature's say "it". */
@@ -204,7 +206,7 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
 
 const COUNT = ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
 
-function targetParts(save: Save, you: boolean): DmStep {
+function targetParts(save: Save, you: boolean, creature: number): DmStep {
   const { target } = save
   if ('creatures' in target) {
     const count = COUNT[target.creatures] ?? String(target.creatures)
@@ -230,7 +232,12 @@ function targetParts(save: Save, you: boolean): DmStep {
         ),
       ]
     : []
-  const name = (label: string) => term(shape.key as RuleKey, label)
+  const name = (label: string) =>
+    term(shape.key as RuleKey, label, {
+      size,
+      ...(width ? { width } : {}),
+      ...(shape.key === 'emanation' ? { creature } : {}),
+    })
   switch (shape.key) {
     case 'emanation':
       return {
@@ -283,8 +290,8 @@ function targetParts(save: Save, you: boolean): DmStep {
   }
 }
 
-function targetStep(save: Save, you: boolean): DmStep {
-  return { who: 'dm', ...targetParts(save, you) }
+function targetStep(save: Save, stats: AnyStatBlock): DmStep {
+  return { who: 'dm', ...targetParts(save, isPc(stats), SQUARES_WIDE[stats.size]) }
 }
 
 function saveSteps(save: Save, stats: AnyStatBlock): DmStep[] {
@@ -322,7 +329,7 @@ function saveSteps(save: Save, stats: AnyStatBlock): DmStep[] {
   ]
   const half = damage.map((part) => Math.floor(part.amount / 2))
   return [
-    targetStep(save, isPc(stats)),
+    targetStep(save, stats),
     {
       who: 'target',
       parts: [

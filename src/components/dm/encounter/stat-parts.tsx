@@ -39,7 +39,7 @@ export function StatParts({
             )
           case 'term':
             return interactive ? (
-              <RuleTerm key={key} rule={part.rule}>
+              <RuleTerm key={key} rule={part.rule} area={part.area}>
                 {part.label}
               </RuleTerm>
             ) : (

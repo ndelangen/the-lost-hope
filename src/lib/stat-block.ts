@@ -8,6 +8,7 @@ import {
   type StatBlock,
 } from '#/definitions/stat-block'
 
+import type { AreaSize } from './area-grid'
 import type { DerivedStatBlock } from './dm-ability-text'
 import {
   ABILITY_KEYS,
@@ -142,7 +143,8 @@ function proficiencyMultiplier(level: 'proficient' | 'expert' | undefined) {
  */
 export type StatPart =
   | { kind: 'text'; text: string }
-  | { kind: 'term'; rule: RuleRef; label: string }
+  /** `area` gives an area-of-effect term its size, so its explanation can draw it on the grid. */
+  | { kind: 'term'; rule: RuleRef; label: string; area?: AreaSize }
   /** `note` explains a number the book prints differently from the formula. */
   | { kind: 'value'; text: string; note?: string }
   /** "8 (1d10 + 3) piercing": the average to deal, the dice to roll instead, and the type. */

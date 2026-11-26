@@ -1,8 +1,10 @@
 import { ExternalLink } from 'lucide-react'
 import type { ReactNode } from 'react'
 
+import { AreaDiagram } from '#/components/area-diagram'
 import { HoverPreview } from '#/components/ui/hover-preview'
 import { RULE_CATEGORIES } from '#/definitions/rule'
+import { EXAMPLE_AREAS, type AreaShape, type AreaSize } from '#/lib/area-grid'
 import { DAMAGE_TYPE_COLORS } from '#/lib/damage-type-colors'
 import { RULE_ICONS } from '#/lib/rule-icons'
 import { ruleOf, ruleTextSegments, ruleUrl, type DamageType, type RuleRef } from '#/lib/rules'
@@ -16,17 +18,20 @@ export function RuleTerm({
   rule,
   children,
   className,
+  area,
 }: {
   rule: RuleRef
   children?: ReactNode
   className?: string
+  /** An area-of-effect term's size here, drawn on the grid in its explanation. */
+  area?: AreaSize
 }) {
   const term = ruleOf(rule)
   const Icon = term.icon ? RULE_ICONS[term.icon] : undefined
   const color =
     term.category === 'damageType' ? DAMAGE_TYPE_COLORS[rule.key as DamageType] : undefined
   return (
-    <HoverPreview interactive content={<RuleExplanation rule={rule} />}>
+    <HoverPreview interactive content={<RuleExplanation rule={rule} area={area} />}>
       <button
         type="button"
         className={cn(
@@ -45,7 +50,7 @@ export function RuleTerm({
 }
 
 /** What a rules term means, with the terms it builds on named and a link to the full rule. */
-export function RuleExplanation({ rule }: { rule: RuleRef }) {
+export function RuleExplanation({ rule, area }: { rule: RuleRef; area?: AreaSize }) {
   const term = ruleOf(rule)
   const url = ruleUrl(term)
   return (
@@ -70,6 +75,13 @@ export function RuleExplanation({ rule }: { rule: RuleRef }) {
           ),
         )}
       </span>
+      {term.category === 'area' ? (
+        <AreaDiagram
+          shape={rule.key as AreaShape}
+          area={area ?? EXAMPLE_AREAS[rule.key as AreaShape]}
+          example={!area}
+        />
+      ) : null}
       {url ? (
         <a
           href={url}
