@@ -1,16 +1,15 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { ChevronRight, PanelLeftClose, ScrollText, X } from 'lucide-react'
+import { PanelLeftClose, ScrollText, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 
 import { LiveFight } from '#/components/dm/encounter/live-fight'
 import { useEncounter } from '#/components/dm/encounter/use-encounter-store'
 import { SceneScript } from '#/components/dm/scene-script'
-import { ShipRoomBoard } from '#/components/dm/ship-room-board'
 import { ImageViewer } from '#/components/image-viewer'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { sceneShipAboard, scenes, table } from '#/lib/dm-campaign'
+import { scenes, table } from '#/lib/dm-campaign'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneScript } from '#/lib/scene-script'
@@ -101,7 +100,6 @@ function NowRoute() {
     import.meta.env.DEV && sceneImage && resolvePlayerScreenImage(sceneImage)
       ? sceneImage
       : undefined
-  const ship = scene ? sceneShipAboard(scene) : undefined
 
   const beats =
     sceneKey && script.length > 0 ? (
@@ -109,7 +107,6 @@ function NowRoute() {
     ) : (
       <p className="text-muted-foreground">This scene has no beats.</p>
     )
-  const shipBoard = sceneKey && ship ? <ShipRoomBoard sceneKey={sceneKey} ship={ship} /> : null
   // The scene's battle maps, or the map of where it happens when it has none.
   const maps = scene
     ? (scene.battleMaps.length > 0 ? scene.battleMaps : [scene.location]).flatMap((ref) => {
@@ -138,13 +135,6 @@ function NowRoute() {
         ))}
       </ul>
     ) : null
-  // The map stays open; the ship's room board folds under it.
-  const sidePanels = (
-    <>
-      {mapList}
-      {shipBoard ? <Fold title="Rooms">{shipBoard}</Fold> : null}
-    </>
-  )
 
   const beatsButton = (className?: string) => (
     <button
@@ -175,7 +165,7 @@ function NowRoute() {
           <X className="size-5" aria-hidden /> Close
         </button>
       </header>
-      {sidePanels}
+      {mapList}
       {beats}
     </aside>
   ) : null
@@ -205,24 +195,11 @@ function NowRoute() {
           <PanelLeftClose className="size-5" aria-hidden /> Hide beats
           <kbd className="text-muted-foreground border-border rounded border px-1.5 text-xs">B</kbd>
         </button>
-        {sidePanels}
+        {mapList}
         {beats}
       </aside>
       <LiveFight />
       {beatsDrawer}
     </div>
-  )
-}
-
-/** A section folded down to its title. */
-function Fold({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <details className="group border-border rounded-xl border">
-      <summary className="hover:bg-muted flex h-11 cursor-pointer list-none items-center gap-2 rounded-xl px-3 font-semibold [&::-webkit-details-marker]:hidden">
-        <ChevronRight className="size-5 transition-transform group-open:rotate-90" aria-hidden />
-        {title}
-      </summary>
-      <div className="grid gap-3 p-3 pt-1">{children}</div>
-    </details>
   )
 }
