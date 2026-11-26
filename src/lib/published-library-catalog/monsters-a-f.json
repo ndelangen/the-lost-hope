@@ -5447,54 +5447,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 195",
-              "Hit dice · 17d12 + 85",
-              "Challenge · 14",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 11500",
-              "Str · 23",
-              "Dex · 14",
-              "Con · 21",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_black_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +7, Con +10, Wis +6, Cha +8 Skills Perception +11, Stealth +7 Damage Immunities acid Senses blindsight 60 ft., darkvision 120 ft., passive Perception 21 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 4 (1d8) acid damage. Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Acid Breath (Recharge 5–6). The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -6093,54 +6055,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 225",
-              "Hit dice · 18d12 + 108",
-              "Challenge · 16",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 30 ft., fly 80 ft.",
-              "XP · 15000",
-              "Str · 25",
-              "Dex · 10",
-              "Con · 23",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_blue_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +5, Con +11, Wis +7, Cha +9 Skills Perception +12, Stealth +5 Damage Immunities lightning Senses blindsight 60 ft., darkvision 120 ft., passive Perception 22 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage plus 5 (1d10) lightning damage. Claw. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage. Tail. Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -6536,54 +6460,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 172",
-              "Hit dice · 15d12 + 75",
-              "Challenge · 13",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 30 ft., fly 80 ft.",
-              "XP · 10000",
-              "Str · 23",
-              "Dex · 10",
-              "Con · 21",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_brass_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +5, Con +10, Wis +6, Cha +8 Skills History +7, Perception +11, Persuasion +8, Stealth +5 Damage Immunities fire Senses blindsight 60 ft., darkvision 120 ft., passive Perception 21 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage. Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one. Sleep Breath. The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -6912,54 +6798,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 212",
-              "Hit dice · 17d12 + 102",
-              "Challenge · 15",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 13000",
-              "Str · 25",
-              "Dex · 10",
-              "Con · 23",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_bronze_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +5, Con +11, Wis +7, Cha +9 Skills Insight +7, Perception +12, Stealth +5 Damage Immunities lightning Senses blindsight 60 ft., darkvision 120 ft., passive Perception 22 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) piercing damage. Claw. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) slashing damage. Tail. Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Lightning Breath. The dragon exhales lightning in a 90- foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one. Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -7364,54 +7212,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 184",
-              "Hit dice · 16d12 + 80",
-              "Challenge · 14",
-              "Type · Dragon",
-              "Speed · 40 ft., climb 40 ft., fly 80 ft.",
-              "XP · 11500",
-              "Str · 23",
-              "Dex · 12",
-              "Con · 21",
-              "Int · 18",
-              "Wis · 15",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_copper_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +10, Wis +7, Cha +8 Skills Deception +8, Perception +12, Stealth +6 Damage Immunities acid Senses blindsight 60 ft., darkvision 120 ft., passive Perception 22 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage. Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Acid Breath. The dragon exhales acid in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one. Slowing Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -8357,54 +8167,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 256",
-              "Hit dice · 19d12 + 133",
-              "Challenge · 17",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 18000",
-              "Str · 27",
-              "Dex · 14",
-              "Con · 25",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 24"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_gold_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +8, Con +13, Wis +8, Cha +13 Skills Insight +8, Perception +14, Persuasion +13, Stealth +8 Damage Immunities fire Senses blindsight 60 ft., darkvision 120 ft., passive Perception 24 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage. Claw. Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 66 (12d10) fire damage on a failed save, or half as much damage on a successful one. Weakening Breath. The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 21 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -8775,54 +8547,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 207",
-              "Hit dice · 18d12 + 90",
-              "Challenge · 15",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 13000",
-              "Str · 23",
-              "Dex · 12",
-              "Con · 21",
-              "Int · 18",
-              "Wis · 15",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_green_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +10, Wis +7, Cha +8 Skills Deception +8, Insight +7, Perception +12, Persuasion +8, Stealth +6 Damage Immunities poison Condition Immunities poisoned Senses blindsight 60 ft., darkvision 120 ft., passive Perception 22 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 7 (2d6) poison damage. Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 60-foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -10076,54 +9810,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 256",
-              "Hit dice · 19d12 + 133",
-              "Challenge · 17",
-              "Type · Dragon",
-              "Speed · 40 ft., climb 40 ft., fly 80 ft.",
-              "XP · 18000",
-              "Str · 27",
-              "Dex · 10",
-              "Con · 25",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 21"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_red_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +13, Wis +7, Cha +11 Skills Perception +13, Stealth +6 Damage Immunities fire Senses blindsight 60 ft., darkvision 120 ft., passive Perception 23 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 7 (2d6) fire damage. Claw. Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Fire Breath (Recharge 5–6). The dragon exhales fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -10798,54 +10494,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 243",
-              "Hit dice · 18d12 + 126",
-              "Challenge · 16",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft.",
-              "XP · 15000",
-              "Str · 27",
-              "Dex · 10",
-              "Con · 25",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 21"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_silver_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +5, Con +12, Wis +6, Cha +10 Skills Arcana +8, History +8, Perception +11, Stealth +5 Damage Immunities cold Senses blindsight 60 ft., darkvision 120 ft., passive Perception 21 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 8) piercing damage. Claw. Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Cold Breath. The dragon exhales an icy blast in a 60- foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one. Paralyzing Breath. The dragon exhales paralyzing gas in a 60-foot cone. Each creature in that area must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -11927,54 +11585,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 200",
-              "Hit dice · 16d12 + 96",
-              "Challenge · 13",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
-              "XP · 10000",
-              "Str · 22",
-              "Dex · 10",
-              "Con · 22",
-              "Int · 8",
-              "Wis · 12",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_white_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Huge dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +5, Con +11, Wis +6, Cha +6 Skills Perception +11, Stealth +5 Damage Immunities cold Senses blindsight 60 ft., darkvision 120 ft., passive Perception 21 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 4 (1d8) cold damage. Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8 + 6) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -22630,54 +22250,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 367",
-              "Hit dice · 21d20 + 147",
-              "Challenge · 21",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 33000",
-              "Str · 27",
-              "Dex · 14",
-              "Con · 25",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_black_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +9, Con +14, Wis +9, Cha +11 Skills Perception +16, Stealth +9 Damage Immunities acid Senses blindsight 60 ft., darkvision 120 ft., passive Perception 26 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 9 (2d8) acid damage. Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Acid Breath (Recharge 5–6). The dragon exhales acid in a 90-foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -23052,54 +22634,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 481",
-              "Hit dice · 26d20 + 208",
-              "Challenge · 23",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 40 ft., fly 80 ft.",
-              "XP · 50000",
-              "Str · 29",
-              "Dex · 10",
-              "Con · 27",
-              "Int · 18",
-              "Wis · 17",
-              "Cha · 21"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_blue_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +7, Con +15, Wis +10, Cha +12 Skills Perception +17, Stealth +7 Damage Immunities lightning Senses blindsight 60 ft., darkvision 120 ft., passive Perception 27 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage plus 11 (2d10) lightning damage. Claw. Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage. Tail. Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -23429,54 +22973,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 297",
-              "Hit dice · 17d20 + 119",
-              "Challenge · 20",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 40 ft., fly 80 ft.",
-              "XP · 25000",
-              "Str · 27",
-              "Dex · 10",
-              "Con · 25",
-              "Int · 16",
-              "Wis · 15",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_brass_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +13, Wis +8, Cha +10 Skills History +9, Perception +14, Persuasion +10, Stealth +6 Damage Immunities fire Senses blindsight 60 ft., darkvision 120 ft., passive Perception 24 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage. Claw. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons: Fire Breath. The dragon exhales fire in an 90-foot line that is 10 feet wide. Each creature in that line must make a DC 21 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one. Sleep Breath. The dragon exhales sleep gas in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -23801,54 +23307,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 444",
-              "Hit dice · 24d20 + 192",
-              "Challenge · 22",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 41000",
-              "Str · 29",
-              "Dex · 10",
-              "Con · 27",
-              "Int · 18",
-              "Wis · 17",
-              "Cha · 21"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_bronze_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +7, Con +15, Wis +10, Cha +12 Skills Insight +10, Perception +17, Stealth +7 Damage Immunities lightning Senses blindsight 60 ft., darkvision 120 ft., passive Perception 27 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10 + 9) piercing damage. Claw. Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6 + 9) slashing damage. Tail. Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8 + 9) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Lightning Breath. The dragon exhales lightning in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one. Repulsion Breath. The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 23 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -24223,54 +23691,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 21",
-              "Hit points · 350",
-              "Hit dice · 20d20 + 140",
-              "Challenge · 21",
-              "Type · Dragon",
-              "Speed · 40 ft., climb 40 ft., fly 80 ft.",
-              "XP · 33000",
-              "Str · 27",
-              "Dex · 12",
-              "Con · 25",
-              "Int · 20",
-              "Wis · 17",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_copper_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +8, Con +14, Wis +10, Cha +11 Skills Deception +11, Perception +17, Stealth +8 Damage Immunities acid Senses blindsight 60 ft., darkvision 120 ft., passive Perception 27 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage. Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Acid Breath. The dragon exhales acid in an 90-foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 63 (14d8) acid damage on a failed save, or half as much damage on a successful one. Slowing Breath. The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a DC 22 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn. In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -25461,54 +24891,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 546",
-              "Hit dice · 28d20 + 252",
-              "Challenge · 24",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 62000",
-              "Str · 30",
-              "Dex · 14",
-              "Con · 29",
-              "Int · 18",
-              "Wis · 17",
-              "Cha · 28"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_gold_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +9, Con +16, Wis +10, Cha +16 Skills Insight +10, Perception +17, Persuasion +16, Stealth +9 Damage Immunities fire Senses blindsight 60 ft., darkvision 120 ft., passive Perception 27 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) piercing damage. Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) slashing damage. Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 24 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 71 (13d10) fire damage on a failed save, or half as much damage on a successful one. Weakening Breath. The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a DC 24 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -25880,54 +25272,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 21",
-              "Hit points · 385",
-              "Hit dice · 22d20 + 154",
-              "Challenge · 22",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 41000",
-              "Str · 27",
-              "Dex · 12",
-              "Con · 25",
-              "Int · 20",
-              "Wis · 17",
-              "Cha · 19"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_green_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +8, Con +14, Wis +10, Cha +11 Skills Deception +11, Insight +10, Perception +17, Persuasion +11, Stealth +8 Damage Immunities poison Condition Immunities poisoned Senses blindsight 60 ft., darkvision 120 ft., passive Perception 27 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The dragon can breathe air and water. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) poison damage. Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (4d6 + 8) slashing damage. Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -26657,54 +26011,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 546",
-              "Hit dice · 28d20 + 252",
-              "Challenge · 24",
-              "Type · Dragon",
-              "Speed · 40 ft., climb 40 ft., fly 80 ft.",
-              "XP · 62000",
-              "Str · 30",
-              "Dex · 10",
-              "Con · 29",
-              "Int · 18",
-              "Wis · 15",
-              "Cha · 23"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_red_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +7, Con +16, Wis +9, Cha +13 Skills Perception +16, Stealth +7 Damage Immunities fire Senses blindsight 60 ft., darkvision 120 ft., passive Perception 26 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) piercing damage plus 14 (4d6) fire damage. Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) slashing damage. Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Fire Breath (Recharge 5–6). The dragon exhales fire in a 90-foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -27332,54 +26648,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 487",
-              "Hit dice · 25d20 + 225",
-              "Challenge · 23",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft.",
-              "XP · 50000",
-              "Str · 30",
-              "Dex · 10",
-              "Con · 29",
-              "Int · 18",
-              "Wis · 15",
-              "Cha · 23"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_silver_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +7, Con +16, Wis +9, Cha +13 Skills Arcana +11, History +11, Perception +16, Stealth +7 Damage Immunities cold Senses blindsight 60 ft., darkvision 120 ft., passive Perception 26 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) piercing damage. Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) slashing damage. Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Cold Breath. The dragon exhales an icy blast in a 90- foot cone. Each creature in that area must make a DC 24 Constitution saving throw, taking 67 (15d8) cold damage on a failed save, or half as much damage on a successful one. Paralyzing Breath. The dragon exhales paralyzing gas in a 90-foot cone. Each creature in that area must succeed on a DC 24 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Change Shape. The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon’s choice). In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -28454,54 +27732,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 333",
-              "Hit dice · 18d20 + 144",
-              "Challenge · 20",
-              "Type · Dragon",
-              "Speed · 40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 25000",
-              "Str · 26",
-              "Dex · 10",
-              "Con · 26",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_white_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan dragon, chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +14, Wis +7, Cha +8 Skills Perception +13, Stealth +6 Damage Immunities cold Senses blindsight 60 ft., darkvision 120 ft., passive Perception 23 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment. Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 9 (2d8) cold damage. Claw. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6 + 8) slashing damage. Tail. Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 17 (2d8 + 8) bludgeoning damage. Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours. Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 90-foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one."
-            ]
-          },
-          {
-            "title": "Legendary Actions",
-            "lines": [
-              "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn. Detect. The dragon makes a Wisdom (Perception) check. Tail Attack. The dragon makes a tail attack. Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -233614,6 +232854,144 @@
           "monster": {
             "ref": "monster",
             "key": "eala"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "adult-light-dragon",
+    "name": "Adult Light Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_adult-light-dragon",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_light_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ancient-light-dragon",
+    "name": "Ancient Light Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_ancient-light-dragon",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_light_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ancient-wasteland-dragon",
+    "name": "Ancient Wasteland Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-ccdx_ancient-wasteland-dragon",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ancient_wasteland_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bloated-ghoul",
+    "name": "Bloated Ghoul",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob2_bloated-ghoul",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bloated_ghoul"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "adult-flame-dragon",
+    "name": "Adult Flame Dragon",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob_adult-flame-dragon",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "adult_flame_dragon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "cave-dragon-wyrmling",
+    "name": "Cave Dragon Wyrmling",
+    "summary": "",
+    "group": "Dragon",
+    "printings": [
+      {
+        "id": "open5e-tob_cave-dragon-wyrmling",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cave_dragon_wyrmling"
           },
           "publication": {
             "ref": "publication",

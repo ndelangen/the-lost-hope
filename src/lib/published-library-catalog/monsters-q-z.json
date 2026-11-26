@@ -200829,5 +200829,28 @@
         }
       }
     ]
+  },
+  {
+    "type": "monsters",
+    "slug": "ruby-ooze",
+    "name": "Ruby Ooze",
+    "summary": "",
+    "group": "Ooze",
+    "printings": [
+      {
+        "id": "open5e-ccdx_ruby-ooze",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ruby_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
   }
 ]

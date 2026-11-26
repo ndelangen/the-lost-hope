@@ -224,7 +224,16 @@ def extract_save(ab,text,scores,prof,issues):
       target={'creatures':1,'range':rng,'which':'it hits'}
     else:
       issues.append(f'{name}: save target not understood'); return text
-    ab['save']=build_save(a,dc,target,[damage],'', 'half' if m.group(8) else 'none',scores,prof,issues,name)
+    # What a failure adds right after the damage ("…damage and be knocked prone.") is its rider,
+    # as long as it carries no roll or DC of its own.
+    after=text[m.end():]
+    rm=re.match(r'\s*(?:,\s*)?and (be|is|become|becomes|fall|falls|have|has|it is|the target is) ([^.]*)\.',after,re.I)
+    rider=''
+    if rm and not re.search(r'\d|\bDC\b',rm.group(0)):
+      rider=(rm.group(1)+' '+rm.group(2)).strip()
+      rider=rider[0].upper()+rider[1:]
+      text=text[:m.end()]+after[rm.end():]
+    ab['save']=build_save(a,dc,target,[damage],rider, 'half' if m.group(8) else 'none',scores,prof,issues,name)
     ab['intent']='damage'
     rest=re.sub(r'\s+',' ',(text[:m.start()]+' '+text[m.end():])).strip()
     rest=re.sub(r'^(?:and|,|\.)\s+','',rest,flags=re.I).strip()

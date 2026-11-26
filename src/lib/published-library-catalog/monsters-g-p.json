@@ -231551,5 +231551,51 @@
         }
       }
     ]
+  },
+  {
+    "type": "monsters",
+    "slug": "lamassu",
+    "name": "Lamassu",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-ccdx_lamassu",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lamassu"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "moon-nymph",
+    "name": "Moon Nymph",
+    "summary": "",
+    "group": "Aberration",
+    "printings": [
+      {
+        "id": "open5e-ccdx_moon-nymph",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "moon_nymph"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
   }
 ]
