@@ -4094,6 +4094,25 @@ export default createPublicationMonsters({
       name: 'Dau',
       alignment: 'chaotic neutral',
       languages: ['Deep Speech', 'Primordial', 'Sylvan', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A three-foot, sandy-skinned winged creature wrapped in a shimmer like a desert heat haze. Looking at it makes the eyes water and the mind swim.',
+        ],
+      ],
+      lore: [
+        [
+          'Daus are fey of haze and illusion who magic up most of what they need, which leaves them lazy, hedonistic and bored. They welcome strangers and friends alike to rest, feast and swap stories in their lairs. They are strict about a private code of etiquette, and a guest who breaks it finds the hospitality turning cruel. They are physically weak and win by agility and wit.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dau (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dau/',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -4210,6 +4229,24 @@ export default createPublicationMonsters({
       name: 'Death Butterfly Swarm',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A huge cloud of orange and green butterflies that carries the smell of rot on every wingbeat. The dizzying flutter blinds and staggers anything it passes through.',
+        ],
+      ],
+      lore: [
+        [
+          'A swarm arises when carrion-eating butterflies, drawn by great decay, feed on the corpse of a fiend or demon. The swarm poisons victims quickly so it can feed on the rot at once. Its poison works on undead as well as the living, and given the choice it always goes for undead, with ghouls and vampires a favourite. Some good-aligned groups regard summoning one as a necessary evil.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: death-butterfly-swarm (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/death-butterfly-swarm/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'beast',
@@ -4329,6 +4366,25 @@ export default createPublicationMonsters({
       name: 'Derro Fetal Savant',
       alignment: 'chaotic evil',
       languages: [],
+      appearance: [
+        [
+          'A blue-skinned dwarf infant no more than a year old, limbs flailing and head lolling, screaming without pause.',
+        ],
+      ],
+      lore: [
+        [
+          'Born premature and insane, these infants are among the rarest derro and can swap souls with other creatures. Derro treat them with a maddened reverence. They are carried into battle in small pillowed cages on hooked golden staves, to spread madness and confusion among enemy ranks. They hate and fear bright light.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: derro-fetal-savant (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/derro-fetal-savant/',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'tiny',
         type: 'humanoid',
@@ -4424,6 +4480,25 @@ export default createPublicationMonsters({
       name: 'Desert Giant',
       alignment: 'neutral',
       languages: ['Common', 'Giant'],
+      appearance: [
+        [
+          'A towering figure rises out of the sand in a robe the colour of the dunes, rough walnut-brown skin showing. Brightly coloured head cloths and sashes appear when she is not hiding.',
+        ],
+      ],
+      lore: [
+        [
+          "Desert giants roam from oasis to oasis following herds they keep for milk, meat and hides, and they avoid settled folk. They live in the wastes of a collapsed giant empire, and the reason for their wandering is a sore spot they will kill to keep secret. They paint or tattoo their bodies with designs that record a tribe's discoveries, so they guard their dead with great care and will go to extremes to recover a body. Their knowledge of ruins and relics is their most valuable trade good.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: desert-giant (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/desert-giant/',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'huge',
         type: 'giant',
@@ -4493,6 +4568,25 @@ export default createPublicationMonsters({
       name: 'Dipsa',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A foot-long yellow-green worm that looks like a ropy tangle of slime-covered tubes and puddles of mucus, with only a pair of tiny fangs to show it has a head.',
+        ],
+      ],
+      lore: [
+        [
+          'Jungle clans often take it for an eyeless snake, but it is an ooze with no bones or organs. Its bite carries a numbing venom, so a victim may not notice the dipsa clinging on while it slowly liquefies the insides, until the numbness fades and the burning begins. Dipsas are hermaphroditic and lay about a hundred gelatinous eggs in a puddle of acid; the few that hatch eat the rest.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dipsa (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dipsa/',
+          },
+        ],
+      ],
+      habitats: ['Jungle'],
       stats: {
         size: 'tiny',
         type: 'ooze',
@@ -4588,6 +4682,25 @@ export default createPublicationMonsters({
       name: 'Dissimortuum',
       alignment: 'chaotic evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A twisted grey-fleshed humanoid with black claws that drip blood and a bone mask lashed to its head with strips of rotten flesh. A third arm hangs from its right side, clutching a bloodstained sack.',
+        ],
+      ],
+      lore: [
+        [
+          'Necromancers build these to spread undead plague slowly and steadily, and each obeys its maker. It collects body parts from its kills in the sack and sets it down only when hard pressed, to make full use of the extra arm. Left to itself it hunts graveyards, battlefields and slums for parts to make more of its kind, taking up to a month per mask, and the offspring are independent. The mask survives its destruction, and anyone who puts it on is hurt and may be slowly dominated by it.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dissimortuum (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dissimortuum/',
+          },
+        ],
+      ],
+      habitats: ['Graveyards', 'Urban'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -4661,6 +4774,25 @@ export default createPublicationMonsters({
       name: 'Dogmole',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A mole-like beast the size of a large dog, with a thick barrel body as heavy as a dwarf, a ring of tentacles above spade-like incisors, and tiny cataract-clouded eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Mountain dwarves have domesticated these burrowers. They are energetic and obedient, and pull ore carts, sniff out foul gas and water, and help dig out trapped miners. They can sense a coming cave-in or a burrowing monster, and outside the mines they serve as pack animals, guards and trackers. Derro keep them too, but scar and brutalise them until they are barely controllable.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dogmole (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dogmole/',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Mountain'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -4730,6 +4862,24 @@ export default createPublicationMonsters({
       name: 'Domovoi',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Dwarvish', 'Elvish'],
+      appearance: [
+        [
+          'A large, stony goblin with an oversized head, a leering grin, a mossy beard and massive shoulders and forearms.',
+        ],
+      ],
+      lore: [
+        [
+          'Domovoi were once portal guards and house servants of elf nobility, and some were left behind, perhaps on purpose. They now hire out as tireless sentinels and fey enforcers, collecting debts for criminal syndicates. They enjoy roughing up weaker creatures with their long-reaching stone fists, and delight in thwarting thieves and tomb robbers. They can disguise themselves and turn invisible at will.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: domovoi (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/domovoi/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -4791,6 +4941,23 @@ export default createPublicationMonsters({
       name: 'Dorreq',
       alignment: 'neutral evil',
       languages: ['Void Speech'],
+      appearance: [
+        ['A twitching ball of tentacles around an inhuman face dominated by a squid-like beak.'],
+      ],
+      lore: [
+        [
+          'Dorreqi serve ancient horrors from the void as guards and sentries, and swarm anything that comes too close to the elder aberration they protect. They like to drop on victims from above, pinning them in a tangle of tentacles and biting with their chitinous beaks.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dorreq (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dorreq/',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -4915,6 +5082,25 @@ export default createPublicationMonsters({
       name: 'Dune Mimic',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'The sand surges and shifts, a sinkhole opens and sandy tendrils snatch at anyone nearby. Until it strikes it looks like an ordinary dune.',
+        ],
+      ],
+      lore: [
+        [
+          'It can pass for a dune, a date palm grove, a riverbank, a boulder or other large landscape feature. A forgotten king built the first ones to guard his desert tomb, and dozens may still guard great wealth somewhere. They began producing spores on their own and now spread across the deserts, though each reproduces only about once a century.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dune-mimic (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dune-mimic/',
+          },
+        ],
+      ],
+      habitats: ['Desert'],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -5040,6 +5226,25 @@ export default createPublicationMonsters({
       name: 'Dust Goblin',
       alignment: 'neutral evil',
       languages: ['Common', 'Goblin'],
+      appearance: [
+        [
+          'A scrawny, bony creature in scraps of armour and rusty weapons climbs out of the sand, with a long hooked nose over a wide mouth of sharp teeth. Its skin is dry, cracked and dusky grey to dark green, and its belly bulges after a meal.',
+        ],
+      ],
+      lore: [
+        [
+          'Generations in a blasted wasteland, left by a magical war, have warped dust goblins. They rule the ruins there and ambush travellers who stray near their borders. Their minds are alien and they seem to feel no fear, enjoying skull helmets and ghostly whistles to frighten foes. They get on unnervingly well with aberrations and ally with them when it suits both sides.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dust-goblin (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/dust-goblin/',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Wasteland', 'Ruins'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5108,6 +5313,25 @@ export default createPublicationMonsters({
       name: 'Eala',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A swan-like creature whose feathers are shining metal. When it breathes in, the feathers on its chest glow red hot.',
+        ],
+      ],
+      lore: [
+        [
+          'Eala come from the plane of Shadow, beautiful and deadly, with razor-sharp metal plumage. They melt soft metals such as gold, silver, lead, copper and bronze with their fire breath and eat the molten metal, and what they eat shows in their feather colours. An eala with one pure colour is highly prized.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: eala (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/eala/',
+          },
+        ],
+      ],
+      habitats: ['Plane of Shadow'],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -5197,6 +5421,25 @@ export default createPublicationMonsters({
       name: 'Edimmu',
       alignment: 'chaotic evil',
       languages: ["Common but can't speak"],
+      appearance: [
+        [
+          'An evil wind sweeps out of the desert, drying out everything it touches and whispering wicked plans.',
+        ],
+      ],
+      lore: [
+        [
+          'When a criminal exiled by desert or plains tribes dies of thirst, it sometimes rises as an edimmu that hates every living thing for its fate. It lingers near its body and follows prey it has cursed, returning to its resting place once the victim is dead. It is nearly impossible to destroy unless its body is found and given a proper burial.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: edimmu (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/edimmu/',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Plains'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5298,6 +5541,25 @@ export default createPublicationMonsters({
       name: 'Eel Hound',
       alignment: 'neutral',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A grotesque amphibious predator with the rubbery, slime-covered tail and bulbous head of an eel and the torso and webbed paws of a twisted dog, with needle teeth in menacing jaws.',
+        ],
+      ],
+      lore: [
+        [
+          'Eel hounds serve river fey such as lake and river trolls, lorelei and nixies, and their hunting cries drive their masters to a killing frenzy. They ambush from the muck and algae of riverbanks and burst out as a pack, surrounding prey and holding on with strong jaws. They drag land prey into the water to drown and force aquatic prey onto land to suffocate, and they smear slippery spittle along game trails and drinking spots to unbalance victims. They understand Sylvan.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: eel-hound (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/eel-hound/',
+          },
+        ],
+      ],
+      habitats: ['River', 'Swamp'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -5378,6 +5640,25 @@ export default createPublicationMonsters({
       name: 'Elder Shadow Drake',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Umbral'],
+      appearance: [
+        [
+          'A large dragon-like creature with black scales and shadowy wings appears suddenly out of the darkness, its red eyes glowing like coals, and speaks in a flat, deep voice.',
+        ],
+      ],
+      lore: [
+        [
+          'Mischievous and greedy, it swallows whole goats and sheep and sometimes spells out messages with the bones. It makes a surprisingly good bandit and will ally with humanoid bands, so long as its share of the plunder is clearly the biggest. It lives alone in deep caves, dense forests and shadowy ruins, reaches about 250 years, and abandons its eggs just before they hatch. In dim light or darkness it magically turns invisible, and darkvision does not defeat this.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: elder-shadow-drake (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/elder-shadow-drake/',
+          },
+        ],
+      ],
+      habitats: ['Cave', 'Forest', 'Ruins'],
       stats: {
         size: 'large',
         type: 'dragon',
@@ -5490,6 +5771,24 @@ export default createPublicationMonsters({
       name: 'Elemental Locus',
       alignment: 'neutral',
       languages: ['Primordial'],
+      appearance: [
+        [
+          'The ground ripples and tears, rocks fall, jets of flame burst out and winds howl around it. The land itself seems angry.',
+        ],
+      ],
+      lore: [
+        [
+          'A living spirit that embodies a tract of land or geographical feature, from a small hill to a whole ridge line, with no pattern to where one appears. It is fiercely protective of its site, tolerates no interference in the natural order, and challenges anyone who despoils the land, mortal, monster or god alike.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: elemental-locus (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/elemental-locus/',
+          },
+        ],
+      ],
       stats: {
         size: 'gargantuan',
         type: 'elemental',
@@ -5611,6 +5910,24 @@ export default createPublicationMonsters({
       name: 'Eonic Drifter',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Eonic', 'Giant', 'Sylvan'],
+      appearance: [
+        [
+          'In a whirl of colourful robes a mummified figure steps out of a crackle of light and flickering lamps, scanning the hall in panic. Belts of crystals wrap its body.',
+        ],
+      ],
+      lore: [
+        [
+          "Eonic drifters left a dying civilisation to seek help from other ages, then could not get home, and drifted through time until their bodies withered into mummies. Their crystal belts store the energy for time jumps and run dry after each large one. Centuries of strange eras have left most jittery and paranoid, and they plead or fight to keep their belts. A drifter who trusts the party may ask for help and offer long-lost artefacts in return. They can appear anywhere but often haunt the sites of their people's cities.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: eonic-drifter (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/eonic-drifter/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5731,6 +6048,24 @@ export default createPublicationMonsters({
       name: 'Erina Defender',
       alignment: 'neutral',
       languages: ['Common', 'Erina'],
+      appearance: [
+        [
+          'A small humanoid with a slightly pointed face, bright brown eyes and a black snout, short tan fur, and smooth quills on its head, shoulders and back.',
+        ],
+      ],
+      lore: [
+        [
+          'Erinas are small hedgehog folk who live in shallow tunnel networks they dig themselves, and on home ground they lure invaders into choke points and mazes while noncombatants escape. They are curious, take only what they need, seldom steal from the poor, and some humans think a nearby erina family brings luck. Defenders are the largest and hardiest of them. They distrust outsiders but warm up once someone proves a friend.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: erina-defender (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/erina-defender/',
+          },
+        ],
+      ],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5818,6 +6153,25 @@ export default createPublicationMonsters({
       name: 'Fate Eater',
       alignment: 'neutral',
       languages: ['telepathy 100 ft'],
+      appearance: [
+        [
+          'A human-sized parasite like a ghostly centipede with translucent flesh, crystal jaws and a wavering violet glow.',
+        ],
+      ],
+      lore: [
+        [
+          "Fate eaters infest remote parts of the planes and consume the threads of fate. The Norns see them as vermin and sometimes hire skilled planar travellers to hunt them or repair the damage. A mortal's destiny is their favourite food, so they are deadly to hunt. They trade gossip about dooms and outcomes for anything rich in destiny, or juicy tales of gods and demons. Eating the prepared flesh of one grants insight into another's fate.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fate-eater (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/fate-eater/',
+          },
+        ],
+      ],
+      habitats: ['Planes'],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5909,6 +6263,23 @@ export default createPublicationMonsters({
       name: 'Fire Dancer Swarm',
       alignment: 'neutral evil',
       languages: ['Ignan'],
+      appearance: [
+        ['A swirling mass of tiny blue flames, each with a skull-like shape in the middle.'],
+      ],
+      lore: [
+        [
+          'Fire dancers are Tiny fire elementals, maybe immature or cast off from larger ones. One alone is a spark with big ambitions; together they become a menace, and thousands make an inferno. Unlike their placid larger kin they want to become more, which looks like envy and resentment. In a group they share a hive mind, which makes them vulnerable to mind-affecting magic, and they are surly servants when summoned. The skull shape is an illusion based on how they see mortals after burning them.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fire-dancer-swarm (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/fire-dancer-swarm/',
+          },
+        ],
+      ],
+      habitats: ['Plane of Fire'],
       stats: {
         size: 'medium',
         type: 'elemental',
@@ -5999,6 +6370,24 @@ export default createPublicationMonsters({
       name: 'Flab Giant',
       alignment: 'chaotic evil',
       languages: ['Dwarvish', 'Giant'],
+      appearance: [
+        [
+          'An obese, bell-shaped giant covered in ulcers, swollen veins and fungal rashes, in scraps of knotted skins, stumbling on short calloused legs.',
+        ],
+      ],
+      lore: [
+        [
+          'One of the shortest giant breeds, huge in width rather than height, and nearly as lazy as it looks. It cannot grip weapons well, so it overruns or grabs foes and sits on them, brushes aside missiles and shrugs off blows until the struggling stops. It sleeps most of the day, eats almost anything, and so seldom ventures far from its crude lair.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: flab-giant (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/flab-giant/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'giant',
@@ -6081,6 +6470,24 @@ export default createPublicationMonsters({
       name: 'Flame Dragon Wyrmling',
       alignment: 'chaotic evil',
       languages: ['Common', 'Draconic', 'Ignan'],
+      appearance: [
+        [
+          'A dragon with scorched black scales and dull red glowing cracks between them. When it rears and roars, red embers flare to bright orange flame from tail to jaws.',
+        ],
+      ],
+      lore: [
+        [
+          'Flame dragons are capricious, proud, quick to anger and unforgiving, and fascinated by dark emotions. They destroy whole civilisations for trivial reasons, treating rage, deceit and despair as toys. Wyrmlings are direct and cruel, such as forcing someone to watch their family die, and later turn to elaborate multi-year schemes. Like other dragons they are materialistic and territorial, and each fixes on an obsession to fill its hoard.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: flame-dragon-wyrmling (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/flame-dragon-wyrmling/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'dragon',
@@ -6140,6 +6547,25 @@ export default createPublicationMonsters({
       name: 'Fraughashar',
       alignment: 'neutral evil',
       languages: ['Sylvan'],
+      appearance: [
+        [
+          'A slight, goblin-like creature with light blue skin, short pointed ears, needle teeth, a devilish grin and icicles hanging from its long nose.',
+        ],
+      ],
+      lore: [
+        [
+          'Short, tricky, cruel fey of cold mountains who delight in mayhem. They hold cold rivers and gorges sacred as the home of their wicked god Fraugh, and revere snowy peaks under the Snow Queen. They defend their land fiercely and move easily over ice and rock. Their origin is uncertain, with druids saying a cruel winter froze river spirits and bards saying they are goblins ruined by a botched ice devil summoning. They kill anyone who enters their territory.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fraughashar (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/fraughashar/',
+          },
+        ],
+      ],
+      habitats: ['Mountain', 'Cold'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -6218,6 +6644,25 @@ export default createPublicationMonsters({
       name: 'Frostveil',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A web-like drift of ice-crystal-hung nets and snowflake-shaped nodes glides silently on the wind, trailing gossamer tendrils like a kite of blowing snow.',
+        ],
+      ],
+      lore: [
+        [
+          'A semi-sentient plant adapted to the northern cold, with star-like nodes that sense even a breath of warmth and steer it toward living prey, which it entangles. Northern peoples call it the cloak of death. It has taken sled dogs and guards. Shamans say its dance under the northern lights is an omen, and carefully harvest its frozen spore-shards, which give spirit-world visions when melted on the tongue.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: frostveil (Tome of Beasts)',
+            url: 'https://api.open5e.com/v1/monsters/frostveil/',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'medium',
         type: 'plant',

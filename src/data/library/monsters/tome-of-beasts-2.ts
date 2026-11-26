@@ -4453,6 +4453,25 @@ export default createPublicationMonsters({
       name: 'Culicoid',
       alignment: 'chaotic evil',
       languages: ['Abyssal', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A walking mosquito in filthy rags, its hands ending in needle-like fingers that echo the proboscis on its head. Its wings give off a high drone that blends in with ordinary insect noise.',
+        ],
+      ],
+      lore: [
+        [
+          'A demon from a fetid layer of the Abyss, where it serves demon lords who favour insects. On the Material Plane it settles in insect-ridden marshes. Its wingbeats are hard to pick out from natural buzzing, which helps it close in unseen. Its proboscis causes a rash so maddening that victims forget everything but scratching. It can talk to mosquitoes, stirges and similar creatures, so expect vermin nearby.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: culicoid (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/culicoid/',
+          },
+        ],
+      ],
+      habitats: ['Swamp', 'Abyss'],
       stats: {
         size: 'large',
         type: 'fiend',
@@ -4601,6 +4620,25 @@ export default createPublicationMonsters({
       name: 'Dancing Foliage',
       alignment: 'chaotic good',
       languages: ['Druidic', 'Sylvan'],
+      appearance: [
+        [
+          'A slender plant shaped like a person, with two long legs and four arms hung with bright petals and serrated leaves, and a wide flower for a head. It sways and leaps in a clearing as if to music only it hears.',
+        ],
+      ],
+      lore: [
+        [
+          'Born where the magic of the arts meets the magic of nature, it loves performance and guards the natural world. It settles in a forest grove, or sometimes a city garden, and will not leave once it decides to protect it. It will bargain over pruning and planting, especially if the changes make the garden prettier, but a threatened garden sends it into a battle dance. It never chases foes past the garden boundary.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dancing-foliage (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/dancing-foliage/',
+          },
+        ],
+      ],
+      habitats: ['Forest', 'Gardens'],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -4948,6 +4986,25 @@ export default createPublicationMonsters({
       name: 'Darakhul Spy',
       alignment: 'neutral evil',
       languages: ['Common', 'Darakhul'],
+      appearance: [
+        [
+          'A darakhul that passes for an ordinary traveller, with wigs, face paints and clothes suited to whatever nation or class it is imitating.',
+        ],
+      ],
+      lore: [
+        [
+          'Darakhul spies are the eyes and ears of undead armies and come from every background. Many spend decades hidden in courts, taverns and slums. Each reports to a single superior spy, so only the highest leaders know how the network fits together, and even they cannot name every distant agent. Expect it to talk, bluff and slip away rather than stand and fight.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: darakhul-spy (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/darakhul-spy/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5146,6 +5203,24 @@ export default createPublicationMonsters({
       name: 'De Ogen',
       alignment: 'neutral evil',
       languages: ['Common'],
+      appearance: [
+        [
+          'A man-shaped figure of thick greenish-grey fog with smouldering orange eyes, trailing yellow embers that scorch the air as it moves.',
+        ],
+      ],
+      lore: [
+        [
+          'The vengeful spirits of murderers and other criminals executed by burning or by being thrown into a fire pit. The strength of their evil and rage brings them back soon after death to hunt down those who killed them. They are usually accompanied by undead companions.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: de-ogen (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/de-ogen/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -5253,6 +5328,24 @@ export default createPublicationMonsters({
       name: 'Death Vulture',
       alignment: 'neutral evil',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A grotesquely muscled vulture with glowing green eyes that stinks of death. It shrieks, and rotting meat drips from its beak.',
+        ],
+      ],
+      lore: [
+        [
+          "A giant vulture that has gorged on undead flesh and been warped by the necromantic magic in it. It is far more willing to attack living prey than normal vultures, and it opens a fight by spewing decaying breath over its target before tearing in with talons and beak. Flocks gather near necromancers' lairs to feed on their creations. Some necromancers feed the birds, and a well-fed flock will guard the lair in return.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: death-vulture (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/death-vulture/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -5375,6 +5468,25 @@ export default createPublicationMonsters({
       name: 'Derro Explorer',
       alignment: 'any non-good alignment',
       languages: ['Common', 'Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A small humanoid braces its claw-toothed boots into the rock and fires an arrow, a cruel smile on its lips as shouts of alarm echo through the dark cavern.',
+        ],
+      ],
+      lore: [
+        [
+          'Derro live in clans deep underground and worship beings that dwell between the stars. Long exposure to them has damaged the derro mind, and most lean on the powers of those masters. Outposts also sit in the slums of many surface cities, where derro work as assassins for hire.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: derro-explorer (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/derro-explorer/',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Urban'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5477,6 +5589,25 @@ export default createPublicationMonsters({
       name: 'Derro Guard',
       alignment: 'any non-good alignment',
       languages: ['Common', 'Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A small humanoid in claw-toothed boots wedges itself into the rock, looses an arrow and grins cruelly as alarm spreads in the dark.',
+        ],
+      ],
+      lore: [
+        [
+          'Derro live in clans deep underground and worship beings that dwell between the stars. Long exposure to them has damaged the derro mind, and most lean on the powers of those masters. Derro outposts also sit in the slums of many surface cities, where they work as assassins for hire.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: derro-guard (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/derro-guard/',
+          },
+        ],
+      ],
+      habitats: ['Underdark', 'Urban'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5550,6 +5681,25 @@ export default createPublicationMonsters({
       name: 'Derro Shadowseeker',
       alignment: 'chaotic evil',
       languages: ['Common', 'Dwarvish', 'Undercommon'],
+      appearance: [
+        [
+          'A blue-skinned creature in blood-and-filth-smeared leather armour, carrying a spotless dagger. It has milky eyes and wild white hair, and moves in twitchy, unpredictable jerks.',
+        ],
+      ],
+      lore: [
+        [
+          'Their madness shows in constant spasms, and the apparent randomness distracts foes and lets the shadowseeker slip around the battlefield. It knows it fights better beside allies but hates working with anyone, so it mocks its partners and tries to steer them into bad positions. A squabbling group of shadowseekers throws out a bewildering stream of threats and ridicule that puts opponents off.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: derro-shadowseeker (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/derro-shadowseeker/',
+          },
+        ],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'small',
         type: 'humanoid',
@@ -5679,6 +5829,24 @@ export default createPublicationMonsters({
       name: 'Destroyer',
       alignment: 'neutral evil',
       languages: ['Common', 'Void Speech'],
+      appearance: [
+        [
+          'A muscled reptilian in banded or scaled armour, often with a glossy varnish, swinging a heavy axe, spear or polearm at angels and fiends alike.',
+        ],
+      ],
+      lore: [
+        [
+          'The largest and strongest of the satarre, destroyers hold the shield wall at the front of reptilian armies. In large groups they use void magic to throw up crackling violet shields and stand shoulder to shoulder so enemies cannot reach the mystics behind them. They know necromantic lore but do not cast it, and instead use items looted from victims or command undead through Void Speech.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: destroyer (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/destroyer/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'humanoid',
@@ -5817,6 +5985,25 @@ export default createPublicationMonsters({
       name: 'Dread Walker Excavator',
       alignment: 'neutral',
       languages: [],
+      appearance: [
+        [
+          'A glyph-covered metal spider that crawls slowly over the cracked temples of forgotten beings, its central eye projecting complex diagrams onto the stonework.',
+        ],
+      ],
+      lore: [
+        [
+          'Built to protect and dig out ancient magical ruins, excavators are found deep underwater or in wastelands among monuments centuries old. Their minds and orders are indecipherable. They talk to one another, and perhaps to their masters, by a route no one has traced. Sages covet wrecked ones in the hope of recovering ancient magic and lost history, but none has succeeded and many have gone mad trying.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: dread-walker-excavator (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/dread-walker-excavator/',
+          },
+        ],
+      ],
+      habitats: ['Underwater', 'Wasteland', 'Ruins'],
       stats: {
         size: 'large',
         type: 'construct',
@@ -5968,6 +6155,24 @@ export default createPublicationMonsters({
       name: 'Fabricator',
       alignment: 'neutral',
       languages: ['understands Common', 'Deep Speech', "and Draconic but can't speak"],
+      appearance: [
+        [
+          'A rectangular slab of thick green ooze that flows slowly across the floor, with twisting metal veins and strange lights in its see-through body, dissolving anything it touches into formless sludge.',
+        ],
+      ],
+      lore: [
+        [
+          'Fabricators look like oozes but are constructs, made of millions of tiny constructs linked in one hive-mind. A cabal of ancient mages in a forgotten empire built the first to construct a great weapon, which doomed its makers and left the fabricators without masters. Most were made to help build machines and are not aggressive, but their programming can call for removing organic life, and then they use lethal force. Some mage guilds now employ them to help make magic items, with the mages talking to them by etching words on copper sheets.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fabricator (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/fabricator/',
+          },
+        ],
+      ],
       stats: {
         size: 'large',
         type: 'construct',
@@ -6046,6 +6251,25 @@ export default createPublicationMonsters({
       name: 'Falsifier Fog',
       alignment: 'chaotic evil',
       languages: ["understands Common but can't speak"],
+      appearance: [
+        [
+          'A foul mist that creeps through town streets and tries to bend memory and reality with illusion and enchantment.',
+        ],
+      ],
+      lore: [
+        [
+          'It is the soul of an abuser or cult leader who died aiding dark forces. It feeds on anxiety and depression, which it stirs up across crowded towns and cities, and affects many people at once. It does not aim to kill, wanting to keep victims distressed as long as possible. It will sometimes cooperate with evil spellcasters for mutual benefit.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: falsifier-fog (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/falsifier-fog/',
+          },
+        ],
+      ],
+      habitats: ['Urban'],
       stats: {
         size: 'huge',
         type: 'undead',
@@ -6168,6 +6392,25 @@ export default createPublicationMonsters({
       name: 'Far Dorocha',
       alignment: 'lawful evil',
       languages: ['Common', 'Elvish', 'Sylvan', 'Umbral'],
+      appearance: [
+        [
+          'A composed fey attendant waits in the shadows beside its lady and, at her word, calls up a phantom steed of midnight and shadow.',
+        ],
+      ],
+      lore: [
+        [
+          'Far dorocha manage the servants of fey courts and carry out the darker tasks their masters set. Fey lords and ladies value their attention to detail and calm manner. Folk tales call them the dark man, who rides a black horse by night and carries off badly behaved children to lands of endless darkness.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: far-dorocha (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/far-dorocha/',
+          },
+        ],
+      ],
+      habitats: ['Feywild'],
       stats: {
         size: 'medium',
         type: 'fey',
@@ -6307,6 +6550,25 @@ export default createPublicationMonsters({
       name: 'Fennec Fox',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        [
+          'A tiny fox with huge, half-upright ears and wide eyes that give it a disarmingly friendly look.',
+        ],
+      ],
+      lore: [
+        [
+          'A small canine that lives in the shallow parts of the Underworld and the deserts of the Southlands.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fennec-fox (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/fennec-fox/',
+          },
+        ],
+      ],
+      habitats: ['Desert', 'Underworld'],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -6347,6 +6609,25 @@ export default createPublicationMonsters({
       name: 'Fleshdreg',
       alignment: 'neutral good',
       languages: ['Common', 'Deep Speech', 'Sylvan'],
+      appearance: [
+        [
+          'A fleshy tree with a heap of spewed plant matter at its base, hollowed patches giving it the look of a mouth and a pair of eyes.',
+        ],
+      ],
+      lore: [
+        [
+          'Its body keeps generating plant matter that reacts with its acidic insides, so it is in constant digestive discomfort and spews acidified pulp when it must, though it avoids doing so unless pressed. If it loses too much acid, the pulp bloats it until it bursts. Despite the repulsive look it is an amiable host, calms hostility with soft words, and is a good source of local information. It may offer to travel with new friends through a swamp, especially if it wants to move. Scholars think it came from beyond the stars or deep underground.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fleshdreg (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/fleshdreg/',
+          },
+        ],
+      ],
+      habitats: ['Swamp'],
       stats: {
         size: 'huge',
         type: 'plant',
@@ -6438,6 +6719,24 @@ export default createPublicationMonsters({
       name: 'Fleshspurned',
       alignment: 'chaotic evil',
       languages: ['any languages it knew in life'],
+      appearance: [
+        [
+          'A shroud-like apparition with a set of absurdly large floating teeth, roughly human in shape, clacking its teeth together ferociously.',
+        ],
+      ],
+      lore: [
+        [
+          'It arises when someone is eaten alive or dies while swallowed by something like a purple worm. The horrible death drives them mad, and the spirit craves flesh to replace what it lost. It cannot stomach real flesh, so it feeds on the ectoplasm of other spirits.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fleshspurned (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/fleshspurned/',
+          },
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'undead',
@@ -6552,6 +6851,25 @@ export default createPublicationMonsters({
       name: 'Flithidir',
       alignment: 'chaotic neutral',
       languages: ['Auran', 'Common', 'Sylvan'],
+      appearance: [
+        [
+          'A small gnome-like fey with feathery crests, feathered wings and bright plumage-like clothes flutters from tree to tree.',
+        ],
+      ],
+      lore: [
+        [
+          'Flithidirs are slender avian fey, loud and lively, bold yet easily startled, able to sing beautifully or deafen foes. They can turn into birds or smaller humanoids and often follow strangers as birds first, then approach as humanoids if the strangers seem safe and interesting. They are easily bored and keep seeking new songs, stories and foods, or collect things that catch their eye, shiny or otherwise. They will trade a song or acrobatics for something they want, or just ask for it.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: flithidir (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/flithidir/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -6667,6 +6985,23 @@ export default createPublicationMonsters({
       name: 'Forest Falcon',
       alignment: 'unaligned',
       languages: [],
+      appearance: [
+        ['A large, swift raptor built for flying through dense canopy rather than open sky.'],
+      ],
+      lore: [
+        [
+          'It watches from a high perch for movement on the forest floor, then strikes in a diving ambush. It can also run prey down on foot.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: forest-falcon (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/forest-falcon/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -6716,6 +7051,25 @@ export default createPublicationMonsters({
       name: 'Fragrant One',
       alignment: 'chaotic neutral',
       languages: ['Common', 'Elvish', 'Sylvan', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A pale yellow and green slug-like creature with a round, kindly human face sits on a large mushroom, long antennae waving above its bald head and its blue eyes calm.',
+        ],
+      ],
+      lore: [
+        [
+          'A playful, innocent-seeming fey with a cunning mind. It feeds on companionship and uses pheromones to charm its way into the lives of woodland humanoids and giants, though it understands nothing of real friendship and every bond is built on lies. Alone it is weak, but among several charmed companions it grows thick plates and longer antennae and becomes a real threat.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: fragrant-one (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/fragrant-one/',
+          },
+        ],
+      ],
+      habitats: ['Forest'],
       stats: {
         size: 'small',
         type: 'fey',
@@ -6845,6 +7199,21 @@ export default createPublicationMonsters({
       name: 'Frost Mole',
       alignment: 'unaligned',
       languages: [],
+      appearance: [['A heavy burrowing carnivore of arctic lands.']],
+      lore: [
+        [
+          "It eats mostly meat plus whatever hardy plants grow in the cold. It could win with its claws but prefers to dig pits and trap prey. Its warrens sit near farms so it can take docile livestock, which makes it a pest in the short growing season. Tamers prize them and train them to dig dangerous pits around the master's lair.",
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: frost-mole (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/frost-mole/',
+          },
+        ],
+      ],
+      habitats: ['Arctic'],
       stats: {
         size: 'small',
         type: 'beast',
@@ -6942,6 +7311,25 @@ export default createPublicationMonsters({
       name: 'Galidroo',
       alignment: 'neutral evil',
       languages: ['Deep Speech', 'telepathy 60 ft'],
+      appearance: [
+        [
+          'A hairless, wrinkled brute larger than an ox, covered in warts and pustules, with two rat-like heads and a heavy tentacle-like tail that lashes malevolently.',
+        ],
+      ],
+      lore: [
+        [
+          'It lives mainly in badlands, ruins and magic-scarred land. Despite its power it is seldom the top predator and must watch for other monsters there.',
+        ],
+        [
+          'Sources: ',
+          {
+            type: 'link',
+            label: 'Open5e: galidroo (Tome of Beasts 2)',
+            url: 'https://api.open5e.com/v1/monsters/galidroo/',
+          },
+        ],
+      ],
+      habitats: ['Badlands', 'Ruins'],
       stats: {
         size: 'huge',
         type: 'monstrosity',

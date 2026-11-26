@@ -127,6 +127,18 @@ export default createPublicationMonsters({
       tags: ['elf'],
       alignment: 'neutral evil',
       languages: ['Elvish', 'Undercommon'],
+      appearance: [
+        [
+          'A lean drow in studded leather with a shield, a shortsword in one hand and a hand crossbow ready, its blades and bolts dark with poison.',
+        ],
+      ],
+      lore: [
+        [
+          'Elite warriors defend their house and its superiors against all enemies and specialise in fighting dwarves, gnomes and elves, other drow included. They often raid surface settlements. They coat blades and bolts with a drow poison that can knock a victim out, because they look forward to the interrogation and torture that follows a fight.',
+        ],
+        ['Sources: ', 'Monster Manual (2014), p. 128'],
+      ],
+      habitats: ['Underdark'],
       stats: {
         size: 'medium',
         type: 'humanoid',
