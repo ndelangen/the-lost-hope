@@ -217,11 +217,9 @@ export default createScene({
         {
           note: [
             [
-              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one, including the characters’ own backgrounds. They want to buy books too, any books the party will sell.',
+              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one. They want to buy books too, any books the party will sell.',
             ],
-            [
-              'This is the point of the scene: invite each player to tell where their character comes from, and pay them for it. A character who tells their background gains a level. What the party tells them is all the people will ever have of the outside.',
-            ],
+            ['Let the meal run, then play the stage: that is the point of the scene.'],
           ],
         },
         {
@@ -284,6 +282,44 @@ export default createScene({
             [
               'The third law stops anyone who knowingly tries to leave. A clever plan may get around it: judge by what the person does and what they know.',
             ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'On the stage',
+      onlyIf: [['The party goes down with the fleet.']],
+      lines: [
+        {
+          do: [
+            [
+              'After the meal, the hall goes quiet. On a stage stands one luxurious chair, super comfortable, made of mermaid hair and leather.',
+            ],
+            [
+              'One by one, each party member is asked to come up and sit in it, and tell their story.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.caves_of_steel_fisher,
+          say: [
+            [
+              'Tell us about you! Where did you grow up? What troubled you? Where are you now in life, and what do you want to do with the rest of it?',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'They have been shut in here for centuries. They never get news except from travellers, and travellers are very few, so every story is a treasure to them. They listen to every word, and they pay in valuables.',
+            ],
+            [
+              'Ask for background stories most of all: childhood, troubles, where the character is in life, and what they want from the rest of it. Let each player have the stage to themselves, and give the quiet ones time.',
+            ],
+            [
+              'When a player tells a real, character-defining story, that character gains a level. A short anecdote earns valuables, not the level.',
+            ],
+            ['What the party tells them is all the people will ever have of the outside.'],
           ],
         },
       ],
