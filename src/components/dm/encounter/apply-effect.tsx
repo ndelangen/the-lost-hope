@@ -6,6 +6,7 @@ import { magicItemBooks, magicItemNames } from '#/data/generated/magic-item-name
 import { spellBooks, spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
 import type { Ability } from '#/definitions/stat-block'
+import { withStages } from '#/definitions/status-effect'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 import {
@@ -205,6 +206,10 @@ function EffectForm({
         ? `damage: DC ${suggestion.onDamage.dc} ${rules[suggestion.onDamage.ability].name} save ends it`
         : 'damage ends it'
       : '',
+    suggestion.successes ? `${suggestion.successes} saves to end it` : '',
+    suggestion.becomes
+      ? `${suggestion.becomes.failures === 1 ? 'a failed save' : `${suggestion.becomes.failures} failed saves`}: ${suggestion.becomes.name}`
+      : '',
   ]
     .filter(Boolean)
     .join(' · ')
@@ -228,6 +233,9 @@ function EffectForm({
               : onDamage === 'ends'
                 ? { onDamage: { kind: 'ends' } }
                 : {}),
+            ...(suggestion.successes ? { successes: suggestion.successes } : {}),
+            ...(suggestion.becomes ? { becomes: suggestion.becomes } : {}),
+            ...(suggestion.outlastsConcentration ? { outlastsConcentration: true } : {}),
           },
           concentrate && caster && spell ? { caster, on: spell.name, spell: spell.ref } : undefined,
         )
@@ -451,7 +459,7 @@ export function AbilityEffect({
   const choices = useMemo(
     () =>
       ability.effects?.length
-        ? ability.effects.map((effect) => ({
+        ? withStages(ability.effects).map(({ effect }) => ({
             key: effect.key,
             label: effect.name,
             suggestion: suggestFromAbilityEffect(effect, ability, block, source),
@@ -578,13 +586,16 @@ export function SpellEffect({
                 name: choice.name,
                 spell,
                 options: loaded.effects?.length
-                  ? loaded.effects.map((effect) => ({
+                  ? withStages(loaded.effects).map(({ effect, outlastsConcentration }) => ({
                       key: effect.key,
                       label: effect.name,
-                      suggestion: suggestFromSpellEffect(effect, loaded, {
-                        caster: caster || undefined,
-                        dc,
-                      }),
+                      suggestion: {
+                        ...suggestFromSpellEffect(effect, loaded, {
+                          caster: caster || undefined,
+                          dc,
+                        }),
+                        ...(outlastsConcentration ? { outlastsConcentration } : {}),
+                      },
                     }))
                   : [
                       {
@@ -834,7 +845,7 @@ export function ItemEffectPicker({
                   state: 'ready',
                   name: choice.name,
                   item,
-                  options: loaded.effects.map((effect) => ({
+                  options: withStages(loaded.effects).map(({ effect }) => ({
                     key: effect.key,
                     label: effect.name,
                     suggestion: suggestFromItemEffect(effect, { user: user || undefined }),

@@ -59,6 +59,46 @@ An item with kinds or options that each do something different (Potion of Giant 
 Potion of Resistance by damage type) gets **one effect** whose text says what varies, unless the
 options impose different conditions.
 
+## Effects that get worse: `becomes`
+
+Some effects turn into a worse one when the target keeps failing its repeat save: the Basilisk's
+gaze restrains first and petrifies on a second failure, Flesh to Stone petrifies after three
+failures. Write **one** effect for the first stage, with the repeat save in `ends.repeatSave`, and
+put the worse stage in its `becomes`. Never write the second stage as a sibling effect.
+
+```jsonc
+{
+  "key": "gaze-restrained",
+  "name": "Restrained",
+  "lands": { "on": "failed-save", "save": "con", "dc": 12 },
+  "conditions": [{ "ref": "rule", "key": "restrained" }],
+  "lasts": { "kind": "until-removed" },
+  "ends": { "repeatSave": ["end-of-turn"] },
+  "becomes": {
+    "failures": 1, // "Second Failure", "on a failure": 1; "fails three of these saves": 3
+    "key": "gaze-petrified", // its own key, unique like any effect's
+    "name": "Petrified",
+    "conditions": [{ "ref": "rule", "key": "petrified" }],
+    "lasts": { "kind": "until-removed" },
+  },
+}
+```
+
+- The stage **replaces** the first stage, so "instead of the Restrained condition" needs no
+  words. It has no `lands` (it lands on the same save) and no `becomes` of its own; it may have its
+  own `text`, `lasts` and `ends`.
+- The repeat save must come at the end of the target's turn (`"end-of-turn"` in
+  `ends.repeatSave`): that is when the tracker asks for it.
+- `ends.successes`: when it takes more than one successful repeat save to end ("If it
+  successfully saves against this spell three times, the spell ends"), give the count, e.g. `3`.
+- Text may point at the stage by its key, like any effect: "Second Failure: the target is " +
+  `{ "effect": "gaze-petrified" }`.
+- Only a repeat of the **same** save can bring on a stage. When the later save is a different one
+  (Prismatic Spray's Indigo ray lands on Dexterity, then repeats Constitution) or the effect
+  landed without a save (a disease on a hit), keep the later stage in `text`.
+- "Fails by 5 or more" is not a stage: it happens at once. Leave it in the text or `text` as
+  before.
+
 ## Output
 
 Write a JSON array to the result path you were given, one entry per input item, in input order:

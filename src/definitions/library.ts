@@ -5,7 +5,7 @@ import { ABILITY_KEYS, CONDITION_KEYS } from '#/lib/rules'
 import { Content } from './content'
 import { entityRefOf } from './kind'
 import { PrintedStatBlock } from './stat-block'
-import { statusEffectSchemas } from './status-effect'
+import { stagedEffectProblems, statusEffectSchemas } from './status-effect'
 
 /** The rules a publication is written for; it decides how its stat blocks read. */
 export const RULESETS = ['5e-2014', '5e-2024'] as const
@@ -123,14 +123,8 @@ export const SpellEffect = z
       .describe('How it lands on a target'),
   })
   .superRefine((effect, context) => {
-    if (!effect.conditions && !effect.text)
-      context.addIssue({ code: 'custom', message: `${effect.key}: needs conditions or text` })
-    for (const condition of effect.conditions ?? [])
-      if (!(CONDITION_KEYS as readonly string[]).includes(condition.key))
-        context.addIssue({
-          code: 'custom',
-          message: `${effect.key}: ${condition.key} is not a condition`,
-        })
+    for (const message of stagedEffectProblems(effect, CONDITION_KEYS))
+      context.addIssue({ code: 'custom', message })
     if (effect.ends?.repeatSave && effect.lands.on !== 'failed-save')
       context.addIssue({
         code: 'custom',
@@ -152,10 +146,13 @@ export const Spell = z.strictObject({
   text: Content,
   effects: z
     .array(SpellEffect)
-    .refine(
-      (effects) => new Set(effects.map((effect) => effect.key)).size === effects.length,
-      'Effect keys are unique within the spell',
-    )
+    .refine((effects) => {
+      const keys = effects.flatMap((effect) => [
+        effect.key,
+        ...(effect.becomes ? [effect.becomes.key] : []),
+      ])
+      return new Set(keys).size === keys.length
+    }, 'Effect keys, later stages included, are unique within the spell')
     .optional()
     .describe(
       'What it leaves on its targets, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',
@@ -224,14 +221,8 @@ export const ItemEffect = z
       .describe('How it lands on a creature'),
   })
   .superRefine((effect, context) => {
-    if (!effect.conditions && !effect.text)
-      context.addIssue({ code: 'custom', message: `${effect.key}: needs conditions or text` })
-    for (const condition of effect.conditions ?? [])
-      if (!(CONDITION_KEYS as readonly string[]).includes(condition.key))
-        context.addIssue({
-          code: 'custom',
-          message: `${effect.key}: ${condition.key} is not a condition`,
-        })
+    for (const message of stagedEffectProblems(effect, CONDITION_KEYS))
+      context.addIssue({ code: 'custom', message })
     if (effect.ends?.repeatSave && effect.lands.on !== 'failed-save')
       context.addIssue({
         code: 'custom',
@@ -259,10 +250,13 @@ export const MagicItem = z.strictObject({
   text: Content,
   effects: z
     .array(ItemEffect)
-    .refine(
-      (effects) => new Set(effects.map((effect) => effect.key)).size === effects.length,
-      'Effect keys are unique within the item',
-    )
+    .refine((effects) => {
+      const keys = effects.flatMap((effect) => [
+        effect.key,
+        ...(effect.becomes ? [effect.becomes.key] : []),
+      ])
+      return new Set(keys).size === keys.length
+    }, 'Effect keys are unique within the item')
     .optional()
     .describe(
       'What it leaves on a creature, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',

@@ -1,7 +1,7 @@
 import type { Content } from '#/definitions/content'
 import type { ItemEffect, Spell, SpellEffect } from '#/definitions/library'
 import type { Ability, AbilityEffect } from '#/definitions/stat-block'
-import { EFFECT_SAVE_MOMENTS } from '#/definitions/status-effect'
+import { EFFECT_SAVE_MOMENTS, stageOf } from '#/definitions/status-effect'
 
 import {
   abilityTextSegments,
@@ -9,7 +9,13 @@ import {
   plainAbilityText,
   type DerivedStatBlock,
 } from './dm-ability-text'
-import { EACH_TARGET, type AbilityId, type DurationChoice, type OnDamage } from './encounter-combat'
+import {
+  EACH_TARGET,
+  type AbilityId,
+  type DurationChoice,
+  type EffectStage,
+  type OnDamage,
+} from './encounter-combat'
 import { ABILITY_KEYS, CONDITION_KEYS, rules, type Condition } from './rules'
 
 /**
@@ -31,6 +37,43 @@ export type EffectSuggestion = {
   concentration?: boolean
   /** What taking damage does to it: the save comes again, or it ends. */
   onDamage?: OnDamage
+  /** Successful repeat saves it takes to end, when one is not enough. */
+  successes?: number
+  /** What it becomes after failed repeat saves, with that stage's name for the DM. */
+  becomes?: EffectStage
+  /** It stays when the caster stops concentrating. */
+  outlastsConcentration?: true
+}
+
+/** A later stage, as the tracker holds it until enough repeat saves fail. */
+function stageFrom(
+  becomes: { failures: number; key: string; name: string; outlastsConcentration?: true },
+  suggestion: EffectSuggestion,
+): EffectStage {
+  return {
+    failures: becomes.failures,
+    effect: becomes.key,
+    name: becomes.name,
+    ...(becomes.outlastsConcentration ? { outlastsConcentration: true } : {}),
+    conditions: suggestion.conditions,
+    ...(suggestion.text ? { text: suggestion.text } : {}),
+    duration: suggestion.duration,
+    ...(suggestion.onDamage ? { onDamage: suggestion.onDamage } : {}),
+  }
+}
+
+/** What counting the repeat saves adds to a suggestion: how many end it, and the next stage. */
+function counted(
+  effect: {
+    ends?: { successes?: number }
+    becomes?: { failures: number; key: string; name: string }
+  },
+  stage: () => EffectSuggestion,
+) {
+  return {
+    ...(effect.ends?.successes ? { successes: effect.ends.successes } : {}),
+    ...(effect.becomes ? { becomes: stageFrom(effect.becomes, stage()) } : {}),
+  }
 }
 
 const TAKES_DAMAGE = /\b(takes?|taking|deals?) (any )?damage\b/i
@@ -361,6 +404,7 @@ export function suggestFromAbilityEffect(
     text: text || undefined,
     duration: turnly ?? { kind: 'until-removed' },
     ...(onDamage ? { onDamage } : {}),
+    ...counted(effect, () => suggestFromAbilityEffect(stageOf(effect), ability, block, source)),
   }
 }
 
@@ -444,6 +488,7 @@ export function suggestFromSpellEffect(
     duration: duration ?? { kind: 'until-removed' },
     concentration: /^concentration/i.test(spell.duration),
     ...(onDamage ? { onDamage } : {}),
+    ...counted(effect, () => suggestFromSpellEffect(stageOf(effect), spell, { caster, dc })),
   }
 }
 
@@ -452,22 +497,31 @@ export function suggestFromItemEffect(
   effect: ItemEffect,
   { user }: { user: string | undefined },
 ): EffectSuggestion {
-  const { lands, ends, ...rest } = effect
+  const { lands, ends, becomes, ...rest } = effect
   const dc = lands.on === 'failed-save' ? lands.dc : (ends?.escape?.dc ?? 0)
+  // The item prints its DC, which stands where a spell's would be the caster's.
+  const spellEnds = (itemEnds: ItemEffect['ends']) =>
+    itemEnds
+      ? {
+          ends: {
+            ...(itemEnds.repeatSave ? { repeatSave: itemEnds.repeatSave } : {}),
+            ...(itemEnds.successes ? { successes: itemEnds.successes } : {}),
+            ...(itemEnds.cure ? { cure: itemEnds.cure } : {}),
+            ...(itemEnds.escape ? { escape: { dc: 'spell' as const } } : {}),
+          },
+        }
+      : {}
+  const stageAsSpell = ({ ends: stageEnds, ...own }: NonNullable<ItemEffect['becomes']>) => ({
+    ...own,
+    ...spellEnds(stageEnds),
+  })
   return {
     ...suggestFromSpellEffect(
       {
         ...rest,
         lands: lands.on === 'failed-save' ? { on: 'failed-save', save: lands.save } : lands,
-        ...(ends
-          ? {
-              ends: {
-                ...(ends.repeatSave ? { repeatSave: ends.repeatSave } : {}),
-                ...(ends.cure ? { cure: ends.cure } : {}),
-                ...(ends.escape ? { escape: { dc: 'spell' as const } } : {}),
-              },
-            }
-          : {}),
+        ...spellEnds(ends),
+        ...(becomes ? { becomes: stageAsSpell(becomes) } : {}),
       },
       { duration: '' },
       { caster: user, dc },

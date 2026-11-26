@@ -7,6 +7,7 @@ import {
   type Save,
   type StatBlock,
 } from '#/definitions/stat-block'
+import { stageOf } from '#/definitions/status-effect'
 
 import type { AreaSize } from './area-grid'
 import type { DerivedStatBlock } from './dm-ability-text'
@@ -347,7 +348,13 @@ export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
     ),
     effects: Object.fromEntries(
       allAbilities(stats).flatMap((ability) =>
-        (ability.effects ?? []).map((effect) => [effect.key, { ability, effect }]),
+        (ability.effects ?? []).flatMap((effect) => [
+          [effect.key, { ability, effect }],
+          // A later stage lands the way its first stage did, on the same save.
+          ...(effect.becomes
+            ? [[effect.becomes.key, { ability, effect: stageOf(effect) }] as const]
+            : []),
+        ]),
       ),
     ),
     saveDc: Object.fromEntries(ABILITY_KEYS.map((id) => [id, 8 + pb + modifiers[id]])) as Record<

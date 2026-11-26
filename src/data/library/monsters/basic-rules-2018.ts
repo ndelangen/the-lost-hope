@@ -144,8 +144,8 @@ export default createPublicationMonsters({
               '. On a failed save, the creature magically begins to turn to stone and is ',
               { effect: 'stone-gaze' },
               '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              ' until freed by the greater restoration spell or other magic. A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save. If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.',
+              { effect: 'stone-petrified' },
+              '. A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save. If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.',
             ],
             effects: [
               {
@@ -154,6 +154,15 @@ export default createPublicationMonsters({
                 lands: { on: 'save', save: 'con', dc: 'con' },
                 conditions: [rules.restrained],
                 lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+                ends: { repeatSave: ['end-of-turn'] },
+                becomes: {
+                  failures: 1,
+                  key: 'stone-petrified',
+                  name: 'Petrified',
+                  conditions: [rules.petrified],
+                  lasts: { kind: 'until-removed' },
+                  ends: { cure: ['the greater restoration spell or other magic'] },
+                },
               },
             ],
           },

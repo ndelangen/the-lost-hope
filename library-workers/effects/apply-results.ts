@@ -58,7 +58,7 @@ const STRUCTURAL = new Set(
     'grapple grapples grappled held hold this that with have from takes repeat repeats save saves ' +
     'saving throw throws success succeeds successful failure fails failed itself condition ' +
     'conditions effect effects there they their them when target creature knocked fall falls ' +
-    'early otherwise'
+    'early otherwise first second third instead three times'
   ).split(' '),
 )
 
@@ -93,9 +93,13 @@ function check(
       problems.push(`effect ${effect.key} lands on a hit, but the ability has no attack`)
     if (effect.lands.on === 'failed-save' && !old.save)
       problems.push(`effect ${effect.key} lands on a failed save, but the ability has no save`)
-    if (keys.has(effect.key) || old.effectKeys.has(effect.key))
-      problems.push(`effect key ${effect.key} is used twice in this stat block`)
-    keys.add(effect.key)
+    for (const key of [effect.key, ...(effect.becomes ? [effect.becomes.key] : [])]) {
+      if (keys.has(key) || old.effectKeys.has(key))
+        problems.push(`effect key ${key} is used twice in this stat block`)
+      keys.add(key)
+    }
+    if (effect.becomes && !effect.ends?.repeatSave)
+      problems.push(`effect ${effect.key} has a next stage but no repeat save to fail`)
     if (!text.some((token) => typeof token === 'object' && token.effect === effect.key))
       problems.push(`the text never points at effect ${effect.key}`)
   }
@@ -115,11 +119,13 @@ function check(
   }
   const oldPlain = normalize(old.text.filter((token) => typeof token === 'string').join(' '))
   // The effects' words (rider, "until", cure) come from the book too; only names are new.
-  const effectStrings = effects.flatMap((effect) =>
+  // A next stage says its words like any effect.
+  const stages = effects.flatMap((effect) => (effect ? [effect, ...(effect.becomes ? [effect.becomes] : [])] : []))
+  const effectStrings = stages.flatMap((effect) =>
     [
-      ...(effect?.text ?? []),
-      ...(effect?.lasts.kind === 'until' ? effect.lasts.text : []),
-      ...(effect?.ends?.cure ?? []),
+      ...(effect.text ?? []),
+      ...(effect.lasts.kind === 'until' ? effect.lasts.text : []),
+      ...(effect.ends?.cure ?? []),
     ].filter((token): token is string => typeof token === 'string'),
   )
   const bare = (value: string) => normalize(value).replace(/[.,;:]+$/, '')
@@ -132,7 +138,7 @@ function check(
   // Nothing the book says may vanish: each word of the old text is in the new text or an effect,
   // apart from the wording an effect's structure now says (durations, grapples, repeat saves).
   const kept = normalize(
-    [...text, ...old.kept, ...effects.flatMap((effect) => (effect ? [effect.name, effect] : []))]
+    [...text, ...old.kept, ...stages.flatMap((effect) => [effect.name, effect])]
       .map((token) => (typeof token === 'string' ? token : JSON.stringify(token)))
       .join(' '),
   )
@@ -149,11 +155,11 @@ function check(
   // Pieces of text must join the way the book's do: a space between sentences and words.
   const lists = [
     text,
-    ...effects.flatMap((effect) =>
-      effect
-        ? [effect.text ?? [], effect.lasts.kind === 'until' ? effect.lasts.text : [], effect.ends?.cure ?? []]
-        : [],
-    ),
+    ...stages.flatMap((effect) => [
+      effect.text ?? [],
+      effect.lasts.kind === 'until' ? effect.lasts.text : [],
+      effect.ends?.cure ?? [],
+    ]),
   ]
   for (const list of lists as Token[][])
     for (let index = 1; index < list.length; index++) {
@@ -332,7 +338,9 @@ for (const [file, fileResults] of byFile) {
     const added = addedKeys.get(result.creature) ?? new Set<string>()
     addedKeys.set(result.creature, added)
     const effectKeys = new Set<string>([
-      ...all.flatMap((other: any) => (other.effects ?? []).map((effect: any) => effect.key)),
+      ...all.flatMap((other: any) =>
+        (other.effects ?? []).flatMap((effect: any) => [effect.key, ...(effect.becomes ? [effect.becomes.key] : [])]),
+      ),
       ...added,
     ])
     const problems = check(result, {

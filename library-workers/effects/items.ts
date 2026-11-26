@@ -122,11 +122,13 @@ if (command === 'export') {
       return parsed.success ? parsed.data : undefined
     })
     if (!effects.length && !result.skip) problems.push('no effects: skip it instead')
-    const keys = effects.map((effect) => effect?.key)
+    const keys = effects.flatMap((effect) => [effect?.key, ...(effect?.becomes ? [effect.becomes.key] : [])])
     if (new Set(keys).size !== keys.length) problems.push('effect keys repeat')
     const source = normalize(plain(item))
-    for (const effect of effects) {
-      if (!effect) continue
+    // A next stage says its words like any effect.
+    for (const effect of effects.flatMap((each) =>
+      each ? [each, ...(each.becomes ? [each.becomes] : [])] : [],
+    )) {
       const words = [
         ...(effect.text ?? []),
         ...(effect.lasts.kind === 'until' ? effect.lasts.text : []),

@@ -10,7 +10,7 @@ import {
 } from '#/lib/rules'
 
 import { entityRefOf } from './kind'
-import { EffectKey, statusEffectSchemas } from './status-effect'
+import { EffectKey, stagedEffectProblems, statusEffectSchemas } from './status-effect'
 
 export const ABILITY_TIMINGS = ['action', 'bonus action', 'reaction', 'trait'] as const
 
@@ -375,7 +375,13 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
   const keys = new Set<string>()
   // Effects are keyed across the whole stat block, so a ref names one by creature and key.
   const effectKeys = new Set<string>()
-  for (const effect of all.flatMap((ability) => ability.effects ?? [])) {
+  // A later stage is an effect of its own, so the text and the tracker can point at it.
+  for (const effect of all.flatMap((ability) =>
+    (ability.effects ?? []).flatMap((effect) => [
+      effect,
+      ...(effect.becomes ? [effect.becomes] : []),
+    ]),
+  )) {
     if (effectKeys.has(effect.key))
       context.addIssue({ code: 'custom', message: `Duplicate effect key: ${effect.key}` })
     effectKeys.add(effect.key)
@@ -430,17 +436,8 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
           code: 'custom',
           message: `${ability.name}: effect ${effect.key} repeats a save it never called for`,
         })
-      for (const condition of effect.conditions ?? [])
-        if (!(CONDITION_KEYS as readonly string[]).includes(condition.key))
-          context.addIssue({
-            code: 'custom',
-            message: `${ability.name}: effect ${effect.key} lists ${condition.key}, not a condition`,
-          })
-      if (!effect.conditions && !effect.text)
-        context.addIssue({
-          code: 'custom',
-          message: `${ability.name}: effect ${effect.key} needs conditions or text`,
-        })
+      for (const problem of stagedEffectProblems(effect, CONDITION_KEYS))
+        context.addIssue({ code: 'custom', message: `${ability.name}: effect ${problem}` })
     }
     for (const token of [...ability.text, ...(save?.onFail.also ?? [])]) {
       if (typeof token === 'string') continue

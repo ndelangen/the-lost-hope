@@ -11,6 +11,7 @@ import {
   replaceable,
   makeCondition,
   recordDeathSave,
+  recordEffectSave,
   removeConditionFrom,
   removeEffectFrom,
   type DurationChoice,
@@ -475,6 +476,30 @@ export function applyEffect(
 
 export function removeEffect(encounter: Encounter, id: string, effectId: string): Encounter {
   return updateValues(encounter, id, (values) => removeEffectFrom(values, effectId))
+}
+
+/**
+ * The target's repeat save against an effect: a success ends it or counts towards ending it, and
+ * a failure counts towards its next stage, which `newId` names when it lands.
+ */
+export function recordSave(
+  encounter: Encounter,
+  id: string,
+  effectId: string,
+  result: 'saved' | 'failed',
+  newId: () => string,
+): Encounter {
+  return updateValues(
+    encounter,
+    id,
+    (values) =>
+      recordEffectSave(values, effectId, result, {
+        id: newId(),
+        target: id,
+        round: encounter.round,
+        active: encounter.active,
+      }).held,
+  )
 }
 
 /**

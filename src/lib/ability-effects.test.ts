@@ -57,3 +57,41 @@ describe('ability effects', () => {
     })
   })
 })
+
+describe('staged ability effects', () => {
+  const gaze: AbilityEffect = {
+    key: 'gaze-restrained',
+    name: 'Restrained',
+    lands: { on: 'save', save: 'con', dc: 'con' },
+    conditions: [refs.rules.restrained],
+    lasts: { kind: 'until-removed' },
+    ends: { repeatSave: ['end-of-turn'] },
+    becomes: {
+      failures: 1,
+      key: 'gaze-petrified',
+      name: 'Petrified',
+      conditions: [refs.rules.petrified],
+      lasts: { kind: 'until-removed' },
+    },
+  }
+
+  it('says what a failed save turns it into', () => {
+    expect(describeAbilityEffect(gaze, {}, block).details).toBe(
+      'DC 12 Constitution save at the end of each of its turns ends it; a failed save makes it Petrified instead.',
+    )
+  })
+
+  it('hands the tracker its next stage, landing on the same save', () => {
+    expect(suggestFromAbilityEffect(gaze, {}, block, 'basilisk')).toMatchObject({
+      conditions: ['restrained'],
+      duration: { kind: 'save-ends', dc: 12, ability: 'con' },
+      becomes: {
+        failures: 1,
+        effect: 'gaze-petrified',
+        name: 'Petrified',
+        conditions: ['petrified'],
+        duration: { kind: 'until-removed' },
+      },
+    })
+  })
+})

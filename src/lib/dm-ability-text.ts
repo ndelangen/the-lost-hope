@@ -1,7 +1,7 @@
 import { spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
 import type { Ability, AbilityEffect, AbilityTextToken } from '#/definitions/stat-block'
-import { EFFECT_SAVE_MOMENTS } from '#/definitions/status-effect'
+import { EFFECT_SAVE_MOMENTS, stageOf } from '#/definitions/status-effect'
 
 import type { DmStep } from './ability-steps'
 import { ruleOf, rules, termLabel, type AbilityId, type RuleRef } from './rules'
@@ -184,6 +184,9 @@ const plainTokens = (tokens: readonly AbilityTextToken[], block: DerivedStatBloc
     ),
   ).trim()
 
+const countWord = (count: number) =>
+  (['one', 'two', 'three', 'four', 'five'] as const)[count - 1] ?? String(count)
+
 const joinOr = (parts: readonly string[]) =>
   parts.length < 2 ? (parts[0] ?? '') : `${parts.slice(0, -1).join(', ')} or ${parts.at(-1)}`
 
@@ -219,8 +222,14 @@ export function describeAbilityEffect(
   const ends: string[] = []
   if (effect.ends?.repeatSave && save)
     ends.push(
-      `DC ${save.dc} ${rules[save.ability].name} save ${joinOr(effect.ends.repeatSave.map((moment) => EFFECT_SAVE_MOMENTS[moment]))} ends it`,
+      `${effect.ends.successes ? `${countWord(effect.ends.successes)} successful ` : ''}DC ${save.dc} ${rules[save.ability].name} save${effect.ends.successes ? 's' : ''} ${joinOr(effect.ends.repeatSave.map((moment) => EFFECT_SAVE_MOMENTS[moment]))} end${effect.ends.successes ? '' : 's'} it`,
     )
+  if (effect.becomes) {
+    const next = describeAbilityEffect(stageOf(effect), ability, block)
+    ends.push(
+      `${effect.becomes.failures === 1 ? 'a failed save' : `${countWord(effect.becomes.failures)} failed saves`} make${effect.becomes.failures === 1 ? 's' : ''} it ${next.summary} instead`,
+    )
+  }
   if (effect.ends?.escape)
     ends.push(`escape DC ${effect.ends.escape.printed ?? block.saveDc[effect.ends.escape.dc]}`)
   if (effect.ends?.cure) ends.push(`cured by ${plainTokens(effect.ends.cure, block)}`)

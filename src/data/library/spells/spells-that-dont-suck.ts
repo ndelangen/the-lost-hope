@@ -3343,18 +3343,19 @@ export default createSpells({
         lands: { on: 'failed-save', save: 'con' },
         conditions: [rules.restrained],
         lasts: { kind: 'until-removed' },
-        ends: { repeatSave: ['end-of-turn'] },
-      },
-      {
-        key: 'petrified',
-        name: 'Petrified',
-        lands: { on: 'failed-save', save: 'con' },
-        conditions: [rules.petrified],
-        lasts: {
-          kind: 'until',
-          text: [
-            'The petrification lasts until the creature is freed by the greater restoration spell or other magic.',
-          ],
+        ends: { repeatSave: ['end-of-turn'], successes: 3 },
+        becomes: {
+          failures: 1,
+          key: 'petrified',
+          name: 'Petrified',
+          outlastsConcentration: true,
+          conditions: [rules.petrified],
+          lasts: {
+            kind: 'until',
+            text: [
+              'The petrification lasts until the creature is freed by the greater restoration spell or other magic.',
+            ],
+          },
         },
       },
     ],

@@ -7,6 +7,7 @@ import { CONDITION_ICONS } from '#/lib/condition-icons'
 import {
   describeDuration,
   originName,
+  saveTally,
   type ActiveCondition,
   type AppliedEffect,
   type DamageReminder,
@@ -126,6 +127,7 @@ export function StatusLine({ children, ...props }: ListProps & { children?: Reac
         whoFrom(effect.origin, names),
         describeDuration(effect.duration, names.nameOf),
         effect.onDamage ? onDamageWords(effect.onDamage) : '',
+        saveTally(effect) ?? '',
       ]
         .filter(Boolean)
         .join(' · '),

@@ -82,9 +82,18 @@ export function statusEffectSchemas<Token extends z.ZodType, Escape extends z.Zo
       'An action to escape against this DC, e.g. a grapple (escape DC 14)',
     ),
     cure: Text.optional().describe('Magic or treatment that removes it, e.g. Lesser Restoration'),
+    successes: z
+      .number()
+      .int()
+      .min(2)
+      .max(5)
+      .optional()
+      .describe(
+        'How many successful repeat saves end it, when one is not enough ("succeeds on three of these saves")',
+      ),
   })
 
-  const shape = {
+  const own = {
     key: EffectKey,
     name: z.string().trim().min(1).describe('What the DM calls it, e.g. `Aboleth’s curse`'),
     conditions: z
@@ -97,7 +106,107 @@ export function statusEffectSchemas<Token extends z.ZodType, Escape extends z.Zo
     ends: Ends.optional(),
   }
 
-  return { Duration, Ends, shape }
+  /**
+   * What the effect turns into when the target keeps failing its repeat save: the Basilisk's
+   * gaze restrains first, and a second failure petrifies instead. The stage replaces the effect
+   * whole, with its own conditions and duration, and is keyed like any other effect.
+   */
+  const Then = z
+    .strictObject({
+      failures: z
+        .number()
+        .int()
+        .min(1)
+        .max(5)
+        .describe(
+          'Failed repeat saves that bring it on: 1 for "on a failure" or "Second Failure", 3 for "fails three of these saves"',
+        ),
+      ...own,
+      outlastsConcentration: z
+        .literal(true)
+        .optional()
+        .describe(
+          'It stays when the caster stops concentrating, e.g. Petrify’s petrification lasts until Greater Restoration',
+        ),
+    })
+    .describe('The stage it becomes after failed repeat saves')
+
+  const shape = {
+    ...own,
+    becomes: Then.optional(),
+  }
+
+  return { Duration, Ends, Then, shape }
 }
 
 export { AbilityId as EffectAbilityId, RuleRef as EffectRuleRef }
+
+type Staged = {
+  key: string
+  conditions?: readonly { key: string }[]
+  text?: readonly unknown[]
+  ends?: { repeatSave?: readonly string[]; successes?: number }
+  becomes?: Staged & { failures: number }
+}
+
+/**
+ * What every effect must say, whatever its parent: conditions or text, only real conditions, and
+ * a counted or staged repeat save only where there is a repeat save. Each problem is one message.
+ */
+export function stagedEffectProblems(effect: Staged, conditionKeys: readonly string[]): string[] {
+  const problems: string[] = []
+  for (const stage of [effect, ...(effect.becomes ? [effect.becomes] : [])]) {
+    if (!stage.conditions && !stage.text) problems.push(`${stage.key}: needs conditions or text`)
+    for (const condition of stage.conditions ?? [])
+      if (!conditionKeys.includes(condition.key))
+        problems.push(`${stage.key}: ${condition.key} is not a condition`)
+  }
+  // The tracker asks for counted and staged saves at the end of the target's turn.
+  const endOfTurn = effect.ends?.repeatSave?.includes('end-of-turn')
+  if (effect.ends?.successes && !endOfTurn)
+    problems.push(`${effect.key}: counts successful saves it never repeats at the end of a turn`)
+  if (effect.becomes && !endOfTurn)
+    problems.push(
+      `${effect.key}: turns into ${effect.becomes.key} on failed saves it never repeats at the end of a turn`,
+    )
+  if (effect.becomes?.ends?.successes)
+    problems.push(`${effect.becomes.key}: a later stage ends on one successful save`)
+  if (effect.becomes?.key === effect.key)
+    problems.push(`${effect.key}: its next stage needs its own key`)
+  return problems
+}
+
+/**
+ * An effect's later stage as an effect of its own: it lands the way the first stage did, on the
+ * same save, and has no further stage.
+ */
+export function stageOf<
+  E extends { lands: unknown; becomes?: { failures: number; outlastsConcentration?: true } },
+>(effect: E): Omit<E, 'becomes'> {
+  const { becomes, ...first } = effect
+  if (!becomes) throw new Error('This effect has no later stage')
+  const { failures: _, outlastsConcentration: _kept, ...own } = becomes
+  return { ...own, lands: first.lands } as unknown as Omit<E, 'becomes'>
+}
+
+/**
+ * Each effect followed by its later stage, as the DM can apply either: Petrify petrifies at once
+ * on a bad failure, and a creature may already be past the first stage.
+ */
+export function withStages<
+  E extends { lands: unknown; becomes?: { failures: number; outlastsConcentration?: true } },
+>(effects: readonly E[]): { effect: Omit<E, 'becomes'>; outlastsConcentration?: true }[] {
+  return effects.flatMap((effect) => [
+    { effect },
+    ...(effect.becomes
+      ? [
+          {
+            effect: stageOf(effect),
+            ...(effect.becomes.outlastsConcentration
+              ? { outlastsConcentration: true as const }
+              : {}),
+          },
+        ]
+      : []),
+  ])
+}

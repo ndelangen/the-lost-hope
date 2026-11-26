@@ -9,9 +9,10 @@ import {
   removeEffect,
   setConcentration,
   parseEncounter,
+  recordSave,
   type Encounter,
 } from './encounter'
-import { damageReminders, type EffectApplication } from './encounter-combat'
+import { damageReminders, saveChoices, type EffectApplication } from './encounter-combat'
 
 const wolf = { ref: 'beast', key: 'wolf' } as const
 const [w1, w2] = ['beast:wolf:1', 'beast:wolf:2']
@@ -170,5 +171,119 @@ describe('effects that react to damage', () => {
       },
     ])
     expect(damageReminders(w2, encounter.values[w2])).toEqual([])
+  })
+})
+
+describe('staged effects', () => {
+  const gaze: EffectApplication = {
+    origin: {
+      kind: 'ability',
+      combatant: w2,
+      ability: 'petrifying-gaze',
+      effect: 'gaze-restrained',
+    },
+    conditions: ['restrained'],
+    duration: { kind: 'save-ends', dc: 12, ability: 'con' },
+    becomes: {
+      failures: 1,
+      effect: 'gaze-petrified',
+      name: 'Petrified',
+      conditions: ['petrified'],
+      duration: { kind: 'until-removed' },
+    },
+  }
+
+  it('turns into its next stage on a failed repeat save, traced to the stage', () => {
+    const start = applyEffect(fight(), [w1], gaze, ids())
+    const petrified = recordSave(start, w1, 'e1', 'failed', () => 'e2')
+    const held = petrified.values[w1]!
+    expect(held.appliedEffects).toEqual([
+      expect.objectContaining({
+        id: 'e2',
+        origin: { ...gaze.origin, effect: 'gaze-petrified' },
+        duration: { kind: 'until-removed' },
+      }),
+    ])
+    expect(held.conditions?.map((condition) => condition.condition)).toEqual(['petrified'])
+  })
+
+  it('ends on a successful repeat save', () => {
+    const start = applyEffect(fight(), [w1], gaze, ids())
+    const saved = recordSave(start, w1, 'e1', 'saved', () => 'e2')
+    expect(saved.values[w1]?.appliedEffects).toEqual([])
+    expect(saved.values[w1]?.conditions).toEqual([])
+  })
+
+  it('counts saves when it takes three successes or three failures', () => {
+    const fleshToStone: EffectApplication = {
+      ...gaze,
+      successes: 3,
+      becomes: { ...gaze.becomes!, failures: 3 },
+    }
+    let encounter = applyEffect(fight(), [w1], fleshToStone, ids())
+    const effect = () => encounter.values[w1]!.appliedEffects![0]!
+    expect(saveChoices(effect())).toEqual({ saved: 'Saved: 1 of 3', failed: 'Failed: 1 of 3' })
+    encounter = recordSave(encounter, w1, 'e1', 'failed', () => 'x')
+    encounter = recordSave(encounter, w1, 'e1', 'saved', () => 'x')
+    encounter = recordSave(encounter, w1, 'e1', 'failed', () => 'x')
+    expect(effect().tally).toMatchObject({ made: 1, failed: 2 })
+    expect(saveChoices(effect())).toEqual({ saved: 'Saved: 2 of 3', failed: 'Failed: Petrified' })
+    encounter = recordSave(encounter, w1, 'e1', 'failed', () => 'e9')
+    expect(effect().id).toBe('e9')
+    expect(encounter.values[w1]?.conditions?.map(({ condition }) => condition)).toEqual([
+      'petrified',
+    ])
+  })
+
+  it('offers only Saved when a failure changes nothing', () => {
+    expect(saveChoices({})).toEqual({ saved: 'Saved: end it' })
+  })
+})
+
+describe('staged effects and concentration', () => {
+  const petrify: EffectApplication = {
+    origin: {
+      kind: 'spell',
+      spell: { ref: 'spell', key: 'petrify' },
+      caster: w2,
+      effect: 'turning',
+    },
+    conditions: ['restrained'],
+    duration: { kind: 'save-ends', dc: 14, ability: 'con' },
+    becomes: {
+      failures: 1,
+      effect: 'petrified',
+      name: 'Petrified',
+      outlastsConcentration: true,
+      conditions: ['petrified'],
+      duration: { kind: 'until-removed' },
+    },
+  }
+
+  it('keeps a stage that outlasts concentration when the caster stops', () => {
+    let encounter = setConcentration(applyEffect(fight(), [w1], petrify, ids()), w2, 'Petrify', {
+      ref: 'spell',
+      key: 'petrify',
+    })
+    encounter = recordSave(encounter, w1, 'e1', 'failed', () => 'e2')
+    encounter = setConcentration(encounter, w2, undefined)
+    expect(encounter.values[w1]?.conditions?.map(({ condition }) => condition)).toEqual([
+      'petrified',
+    ])
+  })
+
+  it('records the turn a save was counted in', () => {
+    const counted = recordSave(
+      applyEffect(fight(), [w1], { ...petrify, successes: 3 }, ids()),
+      w1,
+      'e1',
+      'saved',
+      () => 'x',
+    )
+    expect(counted.values[w1]?.appliedEffects?.[0]?.tally).toEqual({
+      made: 1,
+      failed: 0,
+      at: { round: 1, active: w1 },
+    })
   })
 })

@@ -69,6 +69,48 @@ picks from, each named for the option.
 
 Ignore the "Using a Higher-Level Spell Slot" / "At Higher Levels" paragraph.
 
+## Effects that get worse: `becomes`
+
+Some effects turn into a worse one when the target keeps failing its repeat save: the Basilisk's
+gaze restrains first and petrifies on a second failure, Flesh to Stone petrifies after three
+failures. Write **one** effect for the first stage, with the repeat save in `ends.repeatSave`, and
+put the worse stage in its `becomes`. Never write the second stage as a sibling effect.
+
+```jsonc
+{
+  "key": "gaze-restrained",
+  "name": "Restrained",
+  "lands": { "on": "failed-save", "save": "con" },
+  "conditions": [{ "ref": "rule", "key": "restrained" }],
+  "lasts": { "kind": "until-removed" },
+  "ends": { "repeatSave": ["end-of-turn"] },
+  "becomes": {
+    "failures": 1, // "Second Failure", "on a failure": 1; "fails three of these saves": 3
+    "key": "gaze-petrified", // its own key, unique like any effect's
+    "name": "Petrified",
+    "conditions": [{ "ref": "rule", "key": "petrified" }],
+    "lasts": { "kind": "until-removed" },
+  },
+}
+```
+
+- The stage **replaces** the first stage, so "instead of the Restrained condition" needs no
+  words. It has no `lands` (it lands on the same save) and no `becomes` of its own; it may have its
+  own `text`, `lasts` and `ends`.
+- The repeat save must come at the end of the target's turn (`"end-of-turn"` in
+  `ends.repeatSave`): that is when the tracker asks for it.
+- `outlastsConcentration: true` on the stage when it stays after the caster stops
+  concentrating (Petrify: "lasts until the creature is freed by the greater restoration spell").
+- `ends.successes`: when it takes more than one successful repeat save to end ("If it
+  successfully saves against this spell three times, the spell ends"), give the count, e.g. `3`.
+- Text may point at the stage by its key, like any effect: "Second Failure: the target is " +
+  `{ "effect": "gaze-petrified" }`.
+- Only a repeat of the **same** save can bring on a stage. When the later save is a different one
+  (Prismatic Spray's Indigo ray lands on Dexterity, then repeats Constitution) or the effect
+  landed without a save (a disease on a hit), keep the later stage in `text`.
+- "Fails by 5 or more" is not a stage: it happens at once. Leave it in the text or `text` as
+  before.
+
 ## Output
 
 Write a JSON array to the result path you were given, one entry per input spell, in input order:

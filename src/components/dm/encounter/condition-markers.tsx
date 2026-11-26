@@ -8,6 +8,7 @@ import { CONDITION_ICONS } from '#/lib/condition-icons'
 import { EffectIcon } from '#/lib/effect-icons'
 import {
   describeDuration,
+  saveTally,
   describeOrigin,
   originName,
   type ActiveCondition,
@@ -112,6 +113,9 @@ export function ConditionMarkers({
                   </span>
                   {effect.onDamage ? (
                     <span className="text-muted-foreground">{onDamageText(effect.onDamage)}</span>
+                  ) : null}
+                  {saveTally(effect) ? (
+                    <span className="text-muted-foreground">{saveTally(effect)}</span>
                   ) : null}
                 </>
               }

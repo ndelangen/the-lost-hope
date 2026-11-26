@@ -36,6 +36,7 @@ import {
   recharge,
   removeCombatant,
   removeCondition,
+  recordSave,
   removeEffect,
   resetCombatant,
   resetEncounter,
@@ -423,14 +424,17 @@ export function LiveFight({
       name={activeRow.name}
       nameOf={nameOf}
       // A save that already ended its effect has nothing left to ask.
-      notes={turnNotes.filter(
-        (note) =>
-          note.kind !== 'effect-save' ||
-          values[note.combatant]?.appliedEffects?.some(({ id }) => id === note.effect.id),
-      )}
+      notes={turnNotes.flatMap((note): TurnNote[] => {
+        if (note.kind !== 'effect-save') return [note]
+        const live = values[note.combatant]?.appliedEffects?.find(({ id }) => id === note.effect.id)
+        // A save counted this turn was answered: the next one comes at the end of its next turn.
+        const answered =
+          live?.tally?.at.round === encounter.round && live.tally.at.active === encounter.active
+        return live && !answered ? [{ ...note, effect: live }] : []
+      })}
       abilityName={abilityName}
-      onEndEffect={(rowId, effectId) =>
-        updateEncounter((current) => removeEffect(current, rowId, effectId))
+      onEffectSave={(rowId, effectId, result) =>
+        updateEncounter((current) => recordSave(current, rowId, effectId, result, newConditionId))
       }
       reminders={startOfTurnReminders({
         abilities: (activeRow.stats?.abilities ?? []).map((ability) => {

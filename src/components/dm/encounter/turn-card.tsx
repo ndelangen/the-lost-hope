@@ -18,6 +18,7 @@ import { EffectIcon } from '#/lib/effect-icons'
 import {
   describeDuration,
   describeOrigin,
+  saveChoices,
   type DamageReminder,
   type EffectReminder,
   type OriginNames,
@@ -48,7 +49,7 @@ export function TurnCard({
   onLairAction,
   effectReminders = [],
   abilityName = unnamedAbility,
-  onEndEffect,
+  onEffectSave,
 }: {
   name: string
   reminders: readonly TurnReminder[]
@@ -64,7 +65,8 @@ export function TurnCard({
   /** Names the abilities that applied effects came from. */
   abilityName?: (combatant: string, key: string) => string | undefined
   /** End an applied effect, when its save succeeds. */
-  onEndEffect?: (combatant: string, effectId: string) => void
+  /** The target's repeat save against an applied effect: saved or failed. */
+  onEffectSave?: (combatant: string, effectId: string, result: 'saved' | 'failed') => void
 }) {
   const focus = useDensity() === 'focus'
   if (
@@ -130,10 +132,11 @@ export function TurnCard({
           // oxlint-disable-next-line react/no-array-index-key -- notes are positional
           <Item key={`note-${index}`} icon={noteIcon(note)}>
             {noteText(note, { nameOf, abilityName })}
-            {note.kind === 'effect-save' && onEndEffect ? (
-              <ActionButton onClick={() => onEndEffect(note.combatant, note.effect.id)}>
-                <Check aria-hidden /> Saved: end it
-              </ActionButton>
+            {note.kind === 'effect-save' && onEffectSave ? (
+              <SaveButtons
+                choices={saveChoices(note.effect)}
+                onSave={(result) => onEffectSave(note.combatant, note.effect.id, result)}
+              />
             ) : null}
           </Item>
         ))}
@@ -187,6 +190,28 @@ export function TurnCard({
         })}
       </ul>
     </section>
+  )
+}
+
+/** Saved and, where a failure counts, Failed: the target's repeat save against an effect. */
+function SaveButtons({
+  choices,
+  onSave,
+}: {
+  choices: { saved: string; failed?: string }
+  onSave: (result: 'saved' | 'failed') => void
+}) {
+  return (
+    <span className="flex flex-wrap gap-2">
+      <ActionButton tone="heal" onClick={() => onSave('saved')}>
+        <Check aria-hidden /> {choices.saved}
+      </ActionButton>
+      {choices.failed ? (
+        <ActionButton tone="danger" onClick={() => onSave('failed')}>
+          <X aria-hidden /> {choices.failed}
+        </ActionButton>
+      ) : null}
+    </span>
   )
 }
 

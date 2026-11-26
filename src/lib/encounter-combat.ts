@@ -96,12 +96,60 @@ export const OnDamage = z.discriminatedUnion('kind', [
   z.strictObject({ kind: z.literal('ends') }),
 ])
 
+/** A duration as the DM picks it, before it is counted from the round it starts in. */
+const DurationChoiceSchema = z.discriminatedUnion('kind', [
+  z.strictObject({ kind: z.literal('until-removed') }),
+  z.strictObject({ kind: z.literal('end-of-turn'), of: z.string() }),
+  z.strictObject({ kind: z.literal('start-of-turn'), of: z.string() }),
+  z.strictObject({
+    kind: z.literal('rounds'),
+    rounds: z.number().int().positive(),
+    of: z.string(),
+  }),
+  z.strictObject({
+    kind: z.literal('save-ends'),
+    dc: z.number().int().positive(),
+    ability: AbilityId,
+  }),
+])
+
+/**
+ * What an effect turns into after enough failed repeat saves: the Basilisk's Restrained becomes
+ * Petrified. `effect` is the stage's key in its source, so the stage is traced like any effect.
+ */
+export const EffectStage = z.strictObject({
+  failures: z.number().int().positive(),
+  effect: z.string(),
+  /** What the DM calls the stage, e.g. `Petrified`. */
+  name: z.string().trim().min(1),
+  /** It stays when the caster stops concentrating. */
+  outlastsConcentration: z.literal(true).optional(),
+  conditions: z.array(ConditionId),
+  text: z.string().trim().min(1).optional(),
+  duration: DurationChoiceSchema,
+  onDamage: OnDamage.optional(),
+})
+
 export const AppliedEffect = z.strictObject({
   id: z.string(),
   ...applied,
   origin: EffectOrigin,
   text: z.string().trim().min(1).optional(),
   onDamage: OnDamage.optional(),
+  /** Successful repeat saves it takes to end, when one is not enough. */
+  successes: z.number().int().min(2).optional(),
+  becomes: EffectStage.optional(),
+  /** Repeat saves rolled so far, when it counts them. */
+  tally: z
+    .strictObject({
+      made: z.number().int().nonnegative(),
+      failed: z.number().int().nonnegative(),
+      /** The turn the last save was counted in, so one turn's save counts once. */
+      at: z.strictObject({ round: z.number().int().positive(), active: z.string().optional() }),
+    })
+    .optional(),
+  /** A stage that stays when the caster stops concentrating. */
+  outlastsConcentration: z.literal(true).optional(),
 })
 
 export const DeathSaves = z.strictObject({
@@ -163,12 +211,8 @@ type CombatValues = {
 
 // --- Durations ----------------------------------------------------------------------------------
 
-export type DurationChoice =
-  | { kind: 'until-removed' }
-  | { kind: 'end-of-turn'; of: string }
-  | { kind: 'start-of-turn'; of: string }
-  | { kind: 'rounds'; rounds: number; of: string }
-  | { kind: 'save-ends'; dc: number; ability: AbilityId }
+export type DurationChoice = z.infer<typeof DurationChoiceSchema>
+export type EffectStage = z.infer<typeof EffectStage>
 
 /**
  * In a duration applied to several targets, "its next turn" means each target's own turn: this
@@ -207,6 +251,12 @@ export type EffectApplication = {
   text?: string
   duration: DurationChoice
   onDamage?: OnDamage
+  /** Successful repeat saves it takes to end, when one is not enough. */
+  successes?: number
+  /** What it becomes after failed repeat saves. */
+  becomes?: EffectStage
+  /** It stays when the caster stops concentrating. */
+  outlastsConcentration?: true
 }
 
 /**
@@ -233,6 +283,16 @@ export function applyEffectTo<H extends CombatValues>(
     origin: application.origin,
     ...(text ? { text } : {}),
     ...(application.onDamage ? { onDamage: application.onDamage } : {}),
+    ...(application.successes ? { successes: application.successes } : {}),
+    ...(application.outlastsConcentration ? { outlastsConcentration: true as const } : {}),
+    ...(application.becomes
+      ? {
+          becomes: {
+            ...application.becomes,
+            duration: forTarget(application.becomes.duration, target),
+          },
+        }
+      : {}),
   }
   const conditions = application.conditions.map((condition, index): ActiveCondition => ({
     ...makeCondition(condition, duration, {
@@ -271,13 +331,16 @@ export function endConcentrationEffects<V extends Readonly<Record<string, Combat
   caster: string,
   spell: EntityRef<'spell'>,
 ): V {
-  const held = (origin: EffectOrigin) =>
-    origin.kind === 'spell' && origin.caster === caster && origin.spell.key === spell.key
+  const held = (effect: AppliedEffect) =>
+    effect.origin.kind === 'spell' &&
+    effect.origin.caster === caster &&
+    effect.origin.spell.key === spell.key &&
+    !effect.outlastsConcentration
   return Object.fromEntries(
     Object.entries(values).map(([combatant, combatantValues]) => [
       combatant,
       (combatantValues.appliedEffects ?? [])
-        .filter((effect) => held(effect.origin))
+        .filter(held)
         .reduce((current, effect) => removeEffectFrom(current, effect.id), combatantValues),
     ]),
   ) as V
@@ -289,6 +352,112 @@ export function removeEffectFrom<H extends CombatValues>(held: H, effectId: stri
     ...held,
     appliedEffects: (held.appliedEffects ?? []).filter((effect) => effect.id !== effectId),
     conditions: (held.conditions ?? []).filter((condition) => condition.effect !== effectId),
+  }
+}
+
+/**
+ * The buttons a repeat save offers for an effect: a success ends it, or counts ("Saved: 2 of 3");
+ * a failure is worth a button only when it counts towards a next stage or the effect counts
+ * saves, and the last one names the stage it brings on ("Failed: petrified").
+ */
+export function saveChoices(effect: Pick<AppliedEffect, 'successes' | 'becomes' | 'tally'>) {
+  const made = (effect.tally?.made ?? 0) + 1
+  const failed = (effect.tally?.failed ?? 0) + 1
+  const saved =
+    effect.successes && made < effect.successes
+      ? `Saved: ${made} of ${effect.successes}`
+      : 'Saved: end it'
+  if (effect.becomes) {
+    const becomes = effect.becomes.name
+    return {
+      saved,
+      failed:
+        failed >= effect.becomes.failures
+          ? `Failed: ${becomes}`
+          : `Failed: ${failed} of ${effect.becomes.failures}`,
+    }
+  }
+  return effect.successes ? { saved, failed: 'Failed' } : { saved }
+}
+
+/**
+ * Where its counted repeat saves stand, e.g. "Saves: 1 of 3 made, 2 of 3 failed (then Petrified)".
+ * Nothing for an effect that ends on one save and has no next stage.
+ */
+export function saveTally(effect: Pick<AppliedEffect, 'successes' | 'becomes' | 'tally'>) {
+  if (!effect.successes && !effect.becomes) return undefined
+  const made = effect.tally?.made ?? 0
+  const failed = effect.tally?.failed ?? 0
+  const parts = [
+    effect.successes ? `${made} of ${effect.successes} made` : '',
+    effect.becomes
+      ? `${failed} of ${effect.becomes.failures} failed (then ${effect.becomes.name})`
+      : '',
+  ].filter(Boolean)
+  return `Saves: ${parts.join(', ')}`
+}
+
+/** What a repeat save did to an effect. */
+export type SaveOutcome = 'ended' | 'counted' | 'became' | 'held'
+
+/**
+ * Record the target's repeat save against an effect. A success ends it, or counts towards the
+ * successes it needs. A failure counts towards its next stage, and the last one needed turns it
+ * into that stage: the effect and its conditions go, and the stage lands in their place.
+ */
+export function recordEffectSave<H extends CombatValues>(
+  held: H,
+  effectId: string,
+  result: 'saved' | 'failed',
+  {
+    id,
+    target,
+    round,
+    active,
+  }: { id: string; target: string; round: number; active: string | undefined },
+): { held: H; outcome: SaveOutcome } {
+  const effect = held.appliedEffects?.find((candidate) => candidate.id === effectId)
+  if (!effect) return { held, outcome: 'held' }
+  const tally = effect.tally ?? { made: 0, failed: 0 }
+  const at = { round, ...(active ? { active } : {}) }
+  const next =
+    result === 'saved'
+      ? { made: tally.made + 1, failed: tally.failed, at }
+      : { made: tally.made, failed: tally.failed + 1, at }
+  if (result === 'saved' && next.made >= (effect.successes ?? 1))
+    return { held: removeEffectFrom(held, effectId), outcome: 'ended' }
+  if (result === 'failed' && effect.becomes && next.failed >= effect.becomes.failures) {
+    const {
+      failures: _,
+      effect: key,
+      name: _name,
+      outlastsConcentration,
+      ...stage
+    } = effect.becomes
+    const origin = { ...effect.origin, effect: key }
+    return {
+      held: applyEffectTo(
+        removeEffectFrom(held, effectId),
+        { ...stage, origin, ...(outlastsConcentration ? { outlastsConcentration } : {}) },
+        {
+          id,
+          target,
+          round,
+          active,
+        },
+      ),
+      outcome: 'became',
+    }
+  }
+  if (!effect.successes && !effect.becomes) return { held, outcome: 'held' }
+  return {
+    held: {
+      ...held,
+      appliedEffects: (held.appliedEffects ?? []).map((candidate) =>
+        candidate.id === effectId ? { ...candidate, tally: next } : candidate,
+      ),
+    },
+    outcome: 'counted',
   }
 }
 
