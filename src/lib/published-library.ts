@@ -37,7 +37,8 @@ function normalize(text: string) {
 
 export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, group?: string) {
   const term = normalize(query?.trim() ?? '')
-  const words = term.split(/\s+/u).filter(Boolean)
+  // Split like the search index does, so "half-orc" finds printed "half-orc".
+  const words = term.split(/[^\p{L}\p{N}]+/u).filter(Boolean)
   const entries = publishedLibrary.flatMap((record) => {
     if ((!dm && record.gmOnly) || (type && record.type !== type)) return []
     const { name, slug, summary, group: mainGroup, groups = [mainGroup], price, art } = record
