@@ -3,6 +3,8 @@ import {
   arc,
   checkIdea,
   getRecord,
+  ideaLibraryContext,
+  libraryPointersOf,
   links,
   list,
   met,
@@ -13,7 +15,7 @@ import {
   timeline,
 } from '#/lib/campaign-knowledge'
 
-import type { ToolName } from './tools'
+import type { LibraryFollowUp, ToolName } from './tools'
 
 type Args = Record<string, never>
 
@@ -32,12 +34,24 @@ const HANDLERS: Record<ToolName, (args: Args) => string> = {
   open_questions: (a) => openQuestions(a.filter),
 }
 
+/** The library entries `get` and `check_idea` add, which the library worker writes. */
+const FOLLOW_UPS: Partial<Record<ToolName, (args: Args) => LibraryFollowUp | undefined>> = {
+  get: (a) => {
+    const pointers = libraryPointersOf(a.record)
+    return pointers.length ? { name: 'sheets', args: { pointers } } : undefined
+  },
+  check_idea: (a) => ({
+    name: 'check',
+    args: { idea: a.idea, ...ideaLibraryContext(a.idea, a.involves) },
+  }),
+}
+
 self.addEventListener(
   'message',
   (message: MessageEvent<{ id: number; name: ToolName; args: Args }>) => {
     const { id, name, args } = message.data
     try {
-      postMessage({ id, text: HANDLERS[name](args) })
+      postMessage({ id, text: HANDLERS[name](args), library: FOLLOW_UPS[name]?.(args) })
     } catch (error) {
       postMessage({
         id,
