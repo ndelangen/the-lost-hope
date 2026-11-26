@@ -1,4 +1,10 @@
-import { createFileRoute, Link, notFound, stripSearchParams } from '@tanstack/react-router'
+import {
+  createFileRoute,
+  Link,
+  notFound,
+  redirect,
+  stripSearchParams,
+} from '@tanstack/react-router'
 import { ArrowLeft } from 'lucide-react'
 
 import { LibraryAttribution } from '#/components/library/library-attribution'
@@ -6,13 +12,21 @@ import { LibraryCreatureSheet } from '#/components/library/library-creature-shee
 import { LibraryGallery } from '#/components/library/library-gallery'
 import { LibraryRuleText } from '#/components/library/library-rule-text'
 import { LibraryTypedCreature } from '#/components/library/library-typed-creature'
-import { isLibraryType, librarySearch, libraryTypes } from '#/lib/published-library-routing'
+import {
+  isLibraryType,
+  librarySearch,
+  libraryTypes,
+  MERGED_LIBRARY_TYPES,
+} from '#/lib/published-library-routing'
 
 export const Route = createFileRoute('/library/$type/$slug')({
   validateSearch: librarySearch,
   search: { middlewares: [stripSearchParams(librarySearch({}))] },
   beforeLoad: async ({ params, search }) => {
     const { type, slug } = params
+    const merged = MERGED_LIBRARY_TYPES[type]
+    if (merged)
+      throw redirect({ to: '/library/$type/$slug', params: { type: merged, slug }, search })
     if (!isLibraryType(type)) throw notFound()
     const { getLibraryEntry, loadLibraryDetail } = await import('#/lib/published-library')
     await loadLibraryDetail(type, slug)
@@ -76,16 +90,6 @@ function LibraryEntryPage() {
           Publisher artwork reference
         </a>
       )}
-      {entry.relatedType && (
-        <Link
-          to="/library/$type/$slug"
-          params={{ type: entry.relatedType, slug: params.slug }}
-          search={{ dm: search.dm, q: search.q }}
-          className="text-primary w-fit text-sm underline"
-        >
-          See the {entry.relatedType === 'beasts' ? 'beast' : 'monster'} entry
-        </Link>
-      )}
       {entry.selected.id === 'srd-5-1' || entry.selected.id === 'srd-5-2-1' ? (
         <LibraryAttribution versions={[entry.selected.id]} />
       ) : (
@@ -143,7 +147,7 @@ function LibraryEntryPage() {
           dm={Boolean(search.dm)}
           printings={printings}
         />
-      ) : type === 'beasts' || type === 'monsters' ? (
+      ) : type === 'monsters' ? (
         <LibraryCreatureSheet
           entry={entry}
           category={libraryTypes[type]}

@@ -5056,7 +5056,7 @@
         "status": "Combat summary"
       }
     ],
-    "groups": ["Outsider", "Monstrosity"]
+    "groups": ["Monstrosity", "Outsider"]
   },
   {
     "type": "monsters",
@@ -5572,7 +5572,7 @@
         "source": "https://5e.tools/bestiary.html#adam_pl"
       }
     ],
-    "groups": ["Flesh Golem", "Construct"]
+    "groups": ["Construct", "Flesh Golem"]
   },
   {
     "type": "monsters",
@@ -18005,66 +18005,25 @@
         }
       },
       {
-        "id": "printing-8e8965344d913aa54247",
+        "id": "printing-57613cd0736f52c483b71705",
         "label": "Monster Manual (2014)",
-        "gm": [
+        "source": "https://5e.tools/bestiary.html#allosaurus_mm",
+        "art": [
           {
-            "title": "Statistics",
-            "lines": [
-              "Type · beast",
-              "Size · Large",
-              "Alignment · unaligned",
-              "Armor class · 13 · natural armor",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Speed · walk 60 ft.",
-              "Challenge · 2",
-              "Strength · 19",
-              "Dexterity · 13",
-              "Constitution · 17",
-              "Intelligence · 2",
-              "Wisdom · 12",
-              "Charisma · 5",
-              "Passive Perception · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large beast with challenge rating 2. Listed habitats: grassland. Named abilities include Pounce, Bite, Claw."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Pounce · DC 13 Strength save · Prone"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Bite · Melee attack · +6 to hit · 2d10 + 4 piercing damage · reach 5 ft.",
-              "Claw · Melee attack · +6 to hit · 1d8 + 4 slashing damage · reach 5 ft."
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Dinosaurs"]
-          },
-          {
-            "title": "References",
-            "lines": ["Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"]
+            "file": "/assets/library/beasts/staged/allosaurus-bfd45c756e44.png",
+            "credit": "OpenAI ImageGen"
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#allosaurus_mm"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "allosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-45195b5af89b134d3e6f",
@@ -18128,6 +18087,48 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#allosaurus_xmm"
+      },
+      {
+        "id": "printing-7e77de04466cdf54d6ed3a5f",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/allosaurus-bfd45c756e44.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "allosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-a53cfecc35efb6b6eff91be6",
+        "label": "Monster Manual (2024)",
+        "source": "https://5e.tools/bestiary.html#allosaurus_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/576/1000/1000/638741963719005897.png",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/allosaurus-bfd45c756e44.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "allosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [
@@ -18627,7 +18628,7 @@
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
       }
     ],
-    "groups": ["Monstrosity", "Fey"]
+    "groups": ["Fey", "Monstrosity"]
   },
   {
     "type": "monsters",
@@ -18718,65 +18719,85 @@
         ]
       },
       {
-        "id": "printing-e9c40bca24f17a114857",
+        "id": "printing-faa9bf73106be80216eb87a6",
         "label": "Plane Shift: Ixalan",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Gargantuan",
-              "Alignment · unaligned",
-              "Armor class · 15 · natural armor",
+              "Armor class · 15",
               "Hit points · 121",
               "Hit dice · 9d20 + 27",
-              "Speed · walk 30 ft.",
               "Challenge · 5",
-              "Strength · 21",
-              "Dexterity · 9",
-              "Constitution · 17",
-              "Intelligence · 2",
-              "Wisdom · 10",
-              "Charisma · 7",
-              "Passive Perception · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Gargantuan beast with challenge rating 5. Named abilities include Stomp, Tail."
+              "Size · Gargantuan",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 10",
+              "XP · 1800",
+              "Str · 21",
+              "Dex · 9",
+              "Con · 17",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 7"
             ]
           },
           {
             "title": "Saving throws",
-            "lines": ["Constitution +6"]
+            "lines": ["Con +6"]
           },
           {
-            "title": "Actions reference",
+            "title": "Habitats",
+            "lines": ["grassland", "forest"]
+          },
+          {
+            "title": "Appearance",
             "lines": [
-              "Stomp · Melee attack · +8 to hit · 5d8 + 5 bludgeoning damage · DC 14 Strength save · reach 20 ft. · Prone",
-              "Tail · Melee attack · +8 to hit · 6d8 + 5 bludgeoning damage · reach 20 ft."
+              "A towering four-legged herbivore with a long tree-browsing neck, broad barrel-shaped body, and a long tapering tail."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["Dinosaurs"]
+            "title": "Classification",
+            "lines": ["Gargantuan Beast, unaligned"]
           },
           {
-            "title": "Adapted from",
-            "lines": ["Brontosaurus"]
-          },
-          {
-            "title": "References",
+            "title": "Other statistics",
             "lines": [
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Brontosaurus (creature) · https://5e.tools/bestiary.html#brontosaurus_vgm"
+              "Constitution save +6. Passive Perception 10. No listed languages or special senses."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 27. Reskin of Brontosaurus, Volo’s Guide to Monsters (2016), printed p. 139."
+            ]
+          },
+          {
+            "title": "Armor",
+            "lines": ["AC 15 comes from natural armor."]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Stomp. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit for 27 (5d8 + 5) bludgeoning damage. A target hit by the stomp must pass a DC 14 Strength save or fall prone.\nTail. Melee weapon attack, +8 to hit, reach 20 ft., one target. Hit for 32 (6d8 + 5) bludgeoning damage."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "Either action can reach as far as 20 ft. Stomp adds a Strength save on a hit."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#altisaur_psx"
+        "source": "https://5e.tools/bestiary.html#altisaur_psx",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/altisaur-125f11553e6a.png",
+            "credit": "Original portrait generated with built-in OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Monstrosity"]
@@ -21839,7 +21860,7 @@
     "slug": "amnizu-summoner",
     "name": "Amnizu (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-94fbc7e0e2c2ff308fe4",
@@ -22063,7 +22084,7 @@
         "source": "https://5e.tools/bestiary.html#amnizu%20(summoner)_mtf"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/amnizu-summoner-f6fc3489808eba38.webp",
@@ -22814,67 +22835,73 @@
         "source": "https://5e.tools/bestiary.html#amphisbaena_gos"
       },
       {
-        "id": "printing-e59ad39d755ce29a1e9d",
+        "id": "printing-353c56005fe404b3e09fabb4",
         "label": "Tales from the Yawning Portal",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Huge",
-              "Alignment · unaligned",
               "Armor class · 12",
               "Hit points · 60",
               "Hit dice · 8d12 + 8",
-              "Speed · walk 30 ft., swim 30 ft.",
               "Challenge · 3",
-              "Strength · 19",
-              "Dexterity · 14",
-              "Constitution · 12",
-              "Intelligence · 1",
-              "Wisdom · 10",
-              "Charisma · 3",
-              "Passive Perception · 12"
+              "Size · Huge",
+              "Type · Beast",
+              "Speed · 30 ft., Swim 30 ft.",
+              "Passive Perception · 12",
+              "XP · 700",
+              "Str · 19",
+              "Dex · 14",
+              "Con · 12",
+              "Int · 1",
+              "Wis · 10",
+              "Cha · 3"
             ]
           },
           {
-            "title": "Description",
+            "title": "Habitats",
+            "lines": ["underwater", "underdark", "forest", "swamp", "desert"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["An olive-brown snake with a head at each end of a single undulating body."]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Perception +2. Blindsight 10 ft. Passive Perception 12. No languages."]
+          },
+          {
+            "title": "Printed source",
             "lines": [
-              "A Huge beast with challenge rating 3. Named abilities include Bite, Constrict."
+              "Wizards of the Coast, Tales from the Yawning Portal, first printing, April 2017, The Hidden Shrine of Tamoachan, area 39, Chamber of the Second Sun, printed p. 84, p. 85. https://www.dndbeyond.com/sources/dnd/tftyp It adapts Giant Constrictor Snake in Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16878-giant-constrictor-snake"
             ]
           },
           {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 10 ft."]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Actions",
             "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +6 to hit · 2d6 + 4 piercing damage · reach 10 ft.",
-              "Constrict · Melee attack · +6 to hit · 2d8 + 4 bludgeoning damage · Escape DC 16 · reach 5 ft. · Grappled · Restrained"
+              "Two melee attacks. On each of its turns the amphisbaena can make two melee attacks, with at most one Constrict.\n\nBite. Melee weapon attack, +6 to hit, reach 10 ft., one creature. A hit deals 11 (2d6 + 4) piercing damage.\n\nConstrict. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 13 (2d8 + 4) bludgeoning damage and grapples the target (escape DC 16). The creature is restrained while the grapple lasts and the snake cannot constrict another target until the grapple ends."
             ]
           },
           {
-            "title": "Adapted from",
-            "lines": ["Giant Constrictor Snake"]
-          },
-          {
-            "title": "References",
+            "title": "Encounter notes",
             "lines": [
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Giant Constrictor Snake (creature) · https://5e.tools/bestiary.html#giant%20constrictor%20snake_mm"
+              "The snake hides in rubble in the Chamber of the Second Sun. If it dies, four baboons enter from the hole above."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#amphisbaena_tftyp"
+        "source": "https://5e.tools/bestiary.html#amphisbaena_tftyp",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/amphisbaena-66433e363a86.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Monstrosity"]
@@ -34955,7 +34982,7 @@
     "slug": "animal-lord-forager-4650093e",
     "name": "Animal Lord; Forager",
     "summary": "",
-    "group": "celestial",
+    "group": "Celestial",
     "printings": [
       {
         "id": "printing-9027673ca286f11e0fe7",
@@ -35085,7 +35112,7 @@
         "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20forager_xmm"
       }
     ],
-    "groups": ["celestial"],
+    "groups": ["Celestial"],
     "art": [
       {
         "file": "/assets/library/worker-art/animal-lord-forager-413d2060f526f95a.webp",
@@ -35102,7 +35129,7 @@
     "slug": "animal-lord-hunter-9eafe6f2",
     "name": "Animal Lord; Hunter",
     "summary": "",
-    "group": "celestial",
+    "group": "Celestial",
     "printings": [
       {
         "id": "printing-b7bb2ea5f92ff4dd4dd6",
@@ -35230,7 +35257,7 @@
         "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20hunter_xmm"
       }
     ],
-    "groups": ["celestial"],
+    "groups": ["Celestial"],
     "art": [
       {
         "file": "/assets/library/worker-art/animal-lord-hunter-93ed3409ff6d57e2.webp",
@@ -35247,7 +35274,7 @@
     "slug": "animal-lord-sage-f618be16",
     "name": "Animal Lord; Sage",
     "summary": "",
-    "group": "celestial",
+    "group": "Celestial",
     "printings": [
       {
         "id": "printing-d378276947ce7c3a4bcf",
@@ -35375,7 +35402,7 @@
         "source": "https://5e.tools/bestiary.html#animal%20lord%3B%20sage_xmm"
       }
     ],
-    "groups": ["celestial"],
+    "groups": ["Celestial"],
     "art": [
       {
         "file": "/assets/library/worker-art/animal-lord-sage-d79529eaf3b429ac.webp",
@@ -40313,57 +40340,81 @@
         }
       },
       {
-        "id": "printing-d2d2dd325d91b70a7aa3",
+        "id": "printing-20fbc187f543dbd2fa73f4fa",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Huge",
-              "Alignment · unaligned",
-              "Armor class · 15 · natural armor",
+              "Armor class · 15",
               "Hit points · 68",
               "Hit dice · 8d12 + 16",
-              "Speed · walk 30 ft.",
               "Challenge · 3",
-              "Strength · 19",
-              "Dexterity · 11",
-              "Constitution · 15",
-              "Intelligence · 2",
-              "Wisdom · 12",
-              "Charisma · 5",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge beast with challenge rating 3. Listed habitats: grassland. Named abilities include Tail."
+              "Size · Huge",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 11",
+              "Initiative · 0",
+              "XP · 700",
+              "Str · 19",
+              "Dex · 11",
+              "Con · 15",
+              "Int · 2",
+              "Wis · 12",
+              "Cha · 5"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["grassland"]
-          },
-          {
-            "title": "Actions reference",
             "lines": [
-              "Tail · Melee attack · +7 to hit · 4d6 + 4 bludgeoning damage · DC 14 Strength save · reach 10 ft. · Prone"
+              "Remote mountain valleys",
+              "Isolated plateaus",
+              "Tropical islands",
+              "Deep fens"
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["Dinosaurs"]
+            "title": "Appearance",
+            "lines": [
+              "A low four-legged dinosaur with a broad beaked head, rounded armor plates, and a heavy bony club at the tip of its tail."
+            ]
           },
           {
-            "title": "References",
-            "lines": ["Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"]
+            "title": "Classification",
+            "lines": ["Huge Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Natural armor. Passive Perception 11. Languages none."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual (2014), 11th printing, Dinosaurs, p. 79. https://anyflip.com/kqwdv/eoae/basic/51-100#p=80"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. Hit for 18 (4d6 + 4) bludgeoning damage. A creature hit by the tail must pass a DC 14 Strength save or fall prone."
+            ]
+          },
+          {
+            "title": "Spiked-tail variety",
+            "lines": [
+              "The Monster Manual describes some ankylosaurs with spiked tails that deal piercing damage in place of bludgeoning. The portrait depicts the standard club-tailed form."
+            ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ankylosaurus_mm"
+        "source": "https://5e.tools/bestiary.html#ankylosaurus_mm",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/ankylosaurus-12e17f9424f8.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-9ebcf47ef03b97d74ec0",
@@ -40427,6 +40478,48 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#ankylosaurus_xmm"
+      },
+      {
+        "id": "printing-39ab17babf0acca80f36afd5",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/ankylosaurus-12e17f9424f8.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ankylosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-5f8d2c5ee25c21f822d372ae",
+        "label": "Monster Manual (2024)",
+        "source": "https://5e.tools/bestiary.html#ankylosaurus_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47144/533/1000/1000/638742152320179115.png",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/ankylosaurus-12e17f9424f8.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ankylosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [
@@ -41994,7 +42087,7 @@
     "slug": "anvilwrought-raptor-familiar",
     "name": "Anvilwrought Raptor Familiar",
     "summary": "",
-    "group": "construct",
+    "group": "Construct",
     "printings": [
       {
         "id": "printing-e36485c9783345258b9d",
@@ -42079,7 +42172,7 @@
         "source": "https://5e.tools/bestiary.html#anvilwrought%20raptor%20familiar_mot"
       }
     ],
-    "groups": ["construct"],
+    "groups": ["Construct"],
     "art": [
       {
         "file": "/assets/library/worker-art/anvilwrought-raptor-familiar-ea92b64913e4f025.webp",
@@ -43525,7 +43618,7 @@
         "status": "Combat summary"
       }
     ],
-    "groups": ["Magical Beast", "Unclassified", "Monstrosity"]
+    "groups": ["Magical Beast", "Monstrosity", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -44647,7 +44740,7 @@
     "slug": "arcanaloth-summoner",
     "name": "Arcanaloth (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-a3912afe80ffc6530b72",
@@ -44782,7 +44875,7 @@
         "source": "https://5e.tools/bestiary.html#arcanaloth%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/arcanaloth-summoner-7027bf0e44198be3.webp",
@@ -45797,7 +45890,7 @@
         "source": "https://www.dndbeyond.com/monsters/17326-archdruid"
       }
     ],
-    "groups": ["Humanoid (Any Lineage)", "Humanoid", "Medium Humanoid (Any Lineage)"],
+    "groups": ["Humanoid", "Humanoid (Any Lineage)", "Medium Humanoid (Any Lineage)"],
     "art": [
       {
         "file": "/assets/library/worker-art/archdruid-aba04bab48b5b628.png",
@@ -46032,6 +46125,28 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#archelon_xmm"
+      },
+      {
+        "id": "printing-370e82d2400869c17c27b540",
+        "label": "Monster Manual (2024)",
+        "source": "https://5e.tools/bestiary.html#archelon_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47144/569/1000/1000/638742153407065875.png",
+        "art": [
+          {
+            "file": "/assets/library/monsters/archelon.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "archelon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [
@@ -60904,47 +61019,192 @@
         ]
       },
       {
-        "id": "printing-e82988ed4feefd3adb21",
+        "id": "printing-cac8caf24e2595a3236559a7",
         "label": "Monster Manual (2014)",
+        "source": "https://5e.tools/bestiary.html#axe%20beak_mm",
+        "art": [
+          {
+            "file": "/assets/library/beasts/axe-beak.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "axe_beak"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "art": [
+          {
+            "file": "/assets/library/beasts/axe-beak.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "axe_beak"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
+      },
+      {
+        "id": "printing-24e4c41b1ef34fd1bab01a8d",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/axe-beak.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "axe_beak"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-7291cf9e63acfcdcafb7e0ba",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Large",
-              "Alignment · unaligned",
               "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Speed · walk 50 ft.",
+              "Hit points · 13",
               "Challenge · 1/4",
-              "Strength · 14",
-              "Dexterity · 12",
-              "Constitution · 12",
-              "Intelligence · 2",
-              "Wisdom · 10",
-              "Charisma · 5",
-              "Passive Perception · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Large beast with challenge rating 1/4. Listed habitats: grassland, hill. Named abilities include Beak."
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "XP · 50"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["grassland, hill"]
+            "lines": ["Grassland", "Hills"]
           },
           {
-            "title": "Actions reference",
-            "lines": ["Beak · Melee attack · +4 to hit · 1d8 + 2 slashing damage · reach 5 ft."]
+            "title": "Appearance",
+            "lines": [
+              "A tall, flightless bird with blue-gray feathers, powerful running legs, and a deep wedge-shaped beak."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Fixed Perception 12 and Stealth 11. No listed special senses or languages."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 351. XP is from the CR table on p. 229."
+            ]
+          },
+          {
+            "title": "Ability modifiers",
+            "lines": [
+              "STR +2, DEX +1, CON +1, INT −4, WIS +0, CHA −3. Use the printed modifiers and fixed Perception and Stealth."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Deal 6 (1d8 + 2) slashing damage on a hit."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": ["Evasive. Choose to Disengage or Dodge as a bonus action."]
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#axe%20beak_mm"
+        "edition": "Black Flag Roleplaying",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/axe-beak.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-e0842615ab0536f61e4f713c",
+        "label": "Monster Vault",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 13",
+              "Challenge · 1/4",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "XP · 50"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Grassland", "Hills"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A large flightless bird with slate-gray feathers and a deep, hatchet-shaped beak."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Ability modifiers STR +2, DEX +1, CON +1, INT -4, WIS +0, CHA -3. Perception 12. Stealth 11. No special senses. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Cubil de Monstruos, Nosolorol licensed Spanish edition, p. 350, p. 352, Pico de hacha."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Beak. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit for 6 (1d8 + 2) slashing damage."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": ["Evasive. Take the Disengage or Dodge action."]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/axe-beak.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -66427,7 +66687,7 @@
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
       }
     ],
-    "groups": ["Undead", "Large Undead"],
+    "groups": ["Large Undead", "Undead"],
     "art": [
       {
         "file": "/assets/library/worker-art/balara-979ed915e0baa8f9.webp",
@@ -67271,7 +67531,7 @@
     "slug": "balor-summoner",
     "name": "Balor (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-44b927e6e61b888c3002",
@@ -67369,7 +67629,7 @@
         "source": "https://5e.tools/bestiary.html#balor%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/balor-summoner-dcb4fc36c34bb770.webp",
@@ -70697,7 +70957,7 @@
     "slug": "barbed-devil-summoner",
     "name": "Barbed Devil (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-a12d42a6055c79f5e41e",
@@ -70788,7 +71048,7 @@
         "source": "https://5e.tools/bestiary.html#barbed%20devil%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/monsters/barbed-devil.webp",
@@ -71189,7 +71449,7 @@
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/847/1000/1000/636332330771969456.jpeg"
       }
     ],
-    "groups": ["Humanoid (Any Lineage)", "Humanoid", "Medium Humanoid (Any Lineage)"],
+    "groups": ["Humanoid", "Humanoid (Any Lineage)", "Medium Humanoid (Any Lineage)"],
     "art": [
       {
         "file": "/assets/library/worker-art/bard-489dfefaff8d3e7d.png",
@@ -72498,7 +72758,7 @@
     "slug": "barlgura-summoner",
     "name": "Barlgura (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-49b904dcfc3a1975db5c",
@@ -72603,7 +72863,7 @@
         "source": "https://5e.tools/bestiary.html#barlgura%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/barlgura-summoner-4d5b31246c767c60.webp",
@@ -74694,58 +74954,26 @@
     "group": "Unclassified",
     "printings": [
       {
-        "id": "printing-f9dc548533ec2df7e7eb",
+        "id": "printing-cb3d2e032f0f75d047b76eb5",
         "label": "Monster Manual (2014)",
-        "gm": [
+        "source": "https://5e.tools/bestiary.html#bat_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/18/305/1000/1000/636379812593010967.jpeg",
+        "art": [
           {
-            "title": "Statistics",
-            "lines": [
-              "Type · beast",
-              "Size · Tiny",
-              "Alignment · unaligned",
-              "Armor class · 12",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Speed · walk 5 ft., fly 30 ft.",
-              "Challenge · 0",
-              "Strength · 2",
-              "Dexterity · 15",
-              "Constitution · 8",
-              "Intelligence · 2",
-              "Wisdom · 12",
-              "Charisma · 4",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny beast with challenge rating 0. Named abilities include Echolocation, Keen Hearing, Bite."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Echolocation · Deafened", "Keen Hearing · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Bite · Melee attack · +0 to hit · 1 piercing damage · reach 5 ft."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb"
-            ]
+            "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
+            "credit": "OpenAI ImageGen"
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#bat_mm"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-8b9b9d7e1d8d7da3769b",
@@ -74810,6 +75038,393 @@
         "label": "Denizens of Darkness",
         "gm": [],
         "edition": "3.0 edition"
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
+      },
+      {
+        "id": "printing-933a05fb3f526fbce68ddd84",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-13f3e5e4f0761fe7f1422e8b",
+        "label": "Monster Manual (2024)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 1",
+              "Hit dice · 1d4 - 1",
+              "Challenge · 0",
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 5 ft., fly 30 ft.",
+              "Passive Perception · 11",
+              "XP · 10",
+              "Str · 2",
+              "Dex · 15",
+              "Con · 8",
+              "Int · 2",
+              "Wis · 12",
+              "Cha · 4"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Str -4", "Dex +2", "Con -1", "Int -4", "Wis +1", "Cha -3"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["forest", "mountain", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A small brown bat with prominent ears and outstretched membranous wings."]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative +2 (12). Proficiency Bonus +2. Blindsight 60 ft. Passive Perception 11. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual, p. 349, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/4775803-bat"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Make a melee attack roll at +4 with a reach of 5 ft. A hit deals 1 piercing damage."
+            ]
+          }
+        ],
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/bestiary.html#bat_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43938/918/1000/1000/638607409599142805.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-a1ef70f8ca4c27f83c30d565",
+        "label": "Revised v3.5 SRD (Monsters)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 16",
+              "Hit points · 1",
+              "Hit dice · 1/4 d8",
+              "Challenge · 1/10",
+              "Size · Diminutive",
+              "Type · Animal",
+              "Speed · walk 5 ft., fly 40 ft.",
+              "Initiative · 2",
+              "Armor class notes · +4 size, +2 Dex",
+              "Touch armor class · 16",
+              "Flat-footed armor class · 14",
+              "Base attack bonus · 0",
+              "Grapple modifier · -17",
+              "STR · 1",
+              "DEX · 15",
+              "CON · 10",
+              "INT · 2",
+              "WIS · 14",
+              "CHA · 4"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Fort +2", "Ref +4", "Will +2"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Temperate deserts"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A small insect-eating bat with short fur and thin membranes stretched between its elongated wing fingers."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["Blindsense 20 ft.", "low-light vision"]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Hide +14", "Listen +8", "Move Silently +6", "Spot +8"]
+          },
+          {
+            "title": "Movement notes",
+            "lines": ["fly · Good maneuverability."]
+          },
+          {
+            "title": "Attack options",
+            "lines": ["Space 1 ft. and reach 0 ft. No attack or full attack is listed."]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Blindsense (Ex) · Within 20 ft. and with line of effect the bat can locate creatures without relying on sight. A creature it cannot see still has total concealment. The bat loses the +4 racial bonus included in both Listen and Spot when it loses blindsense."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Always neutral. Organization as printed: Colony (10–40) or crowd (10–50).",
+              "Feats: Alertness.",
+              "Small nocturnal insect-eater. The SRD supplies no natural attack."
+            ]
+          }
+        ],
+        "edition": "3.5 edition",
+        "source": "https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#bat",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/bat-0aa3730307a7.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-2a6501fa0720f064dcabd37c",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 8",
+              "Challenge · 0",
+              "Type · Beast",
+              "Speed · 5 ft., fly 30 ft.",
+              "XP · 10"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Caves", "Forest"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tiny brown bat with broad ears, a short muzzle, and thin membranous wings stretched across elongated fingers."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Fixed Perception 11 and Stealth 13. Keensense 60 ft. Vulnerable to deafened and resistant to blinded. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 352. XP is from the CR table on p. 229."
+            ]
+          },
+          {
+            "title": "Ability modifiers",
+            "lines": [
+              "STR −4, DEX +1, CON −1, INT −4, WIS +1, CHA −3. Use the printed modifiers and fixed Perception and Stealth."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Echolocation. The bat loses the use of keensense while deafened. Keensense lets it perceive surroundings using a sense other than sight (p. 127).\nHeightened Hearing. When perceiving by hearing, use Perception 16.\nCondition resistance and vulnerability. Use advantage on checks and saves to avoid or end blinded and disadvantage on checks and saves to avoid or end deafened (p. 232)."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one creature. Deal 3 (1d4 + 1) piercing damage on a hit."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-a2b703c74ec7ec0a0a781dd1",
+        "label": "Monster Vault",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 8",
+              "Challenge · 0",
+              "Type · Beast",
+              "Speed · 5 ft., fly 30 ft.",
+              "XP · 10"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Farmland", "Underground"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A small brown bat with prominent ears and spread membranous wings."]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Str -4, Dex +1, Con -1, Int -4, Wis +1, Cha -3. Perception 11. Stealth 13. Keensense 60 ft. Vulnerable to Deafened. Resistant to Blinded. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Cubil de Monstruos, licensed Nosolorol Spanish edition of Monster Vault, p. 348. Entry heading “Murciélago”. https://www.nosolorol.com/talesofthevaliant"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Echolocation. Deafened prevents the bat from using Keensense.\nHeightened Hearing. Perception rises to 16 when relying on hearing."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack at +3, 5-ft. reach, one creature. A hit deals 3 (1d4 + 1) piercing damage."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/bat-166fc642f25c.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-ad5b27eaa2dbdf5434181801",
+        "label": "Monstrous Manual (1994 third printing)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 8",
+              "Hit dice · 1–2 hp",
+              "Size · T, 1 ft.",
+              "Type · Animal",
+              "Movement · 1, Fl 24 (B)",
+              "THAC0 · 20",
+              "Attacks per round · 1",
+              "Damage per attack · 1",
+              "XP · 15"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Any land", "Warm humid areas, caves, dark buildings, and damp crevices"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tiny bat with a mouse-like body and thin skin stretched between its wing bones."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["Echolocation"]
+          },
+          {
+            "title": "Alternate armor classes",
+            "lines": ["4 · In ideal flying conditions"]
+          },
+          {
+            "title": "Group behavior mechanics",
+            "lines": [
+              "Startled swarm · A cornered bat may bite. Startled bats fly around in confusion. Each bat has a 1% chance per round to extinguish torches. In the swarm, spellcasters need a Wisdom check to cast and combatants take a −2 THAC0 penalty."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "1–100 appearing. The table lists swarm organization. Nocturnal and omnivorous.",
+              "Common. Animal intelligence (1). Neutral. Unreliable (2–4) morale. Treasure and magic resistance Nil.",
+              "The Hit Dice line gives 1–2 HP. The electronic edition instead reads Unreliable (2–5) for morale. This profile uses the printed table.",
+              "Monstrous Manual, TSR 2140, third printing (January 1994), pp. 15–16."
+            ]
+          }
+        ],
+        "edition": "AD&D 2nd edition",
+        "status": "Combat summary"
       }
     ],
     "groups": ["Unclassified"],
@@ -76494,7 +77109,7 @@
     "slug": "bearded-devil-summoner",
     "name": "Bearded Devil (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-e9c87c182baae03d4662",
@@ -76589,7 +77204,7 @@
         "source": "https://5e.tools/bestiary.html#bearded%20devil%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/monsters/bearded-devil.webp",
@@ -76859,7 +77474,7 @@
         "status": "Combat summary"
       }
     ],
-    "groups": ["Outsider", "Fiend"]
+    "groups": ["Fiend", "Outsider"]
   },
   {
     "type": "monsters",
@@ -78109,7 +78724,7 @@
     "slug": "beholder-variant-abilities",
     "name": "Beholder (Variant Abilities)",
     "summary": "",
-    "group": "aberration",
+    "group": "Aberration",
     "printings": [
       {
         "id": "printing-eac6302927b8ac9df9e8",
@@ -78273,7 +78888,7 @@
         "source": "https://5e.tools/bestiary.html#beholder%20(variant%20abilities)_vgm"
       }
     ],
-    "groups": ["aberration"],
+    "groups": ["Aberration"],
     "art": [
       {
         "file": "/assets/library/worker-art/beholder-variant-abilities-0df5d085b106f1d0.webp",
@@ -81883,6 +82498,90 @@
         "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5524949-big-linda",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/397/1000/1000/638844713842001909.png"
+      },
+      {
+        "id": "printing-7f57e9827f61fb1d4b85080d",
+        "label": "Dungeons of Drakkenheim",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 136",
+              "Hit dice · 13d12 + 52",
+              "Challenge · 9",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "XP · 5000",
+              "Str · 25",
+              "Dex · 10",
+              "Con · 19",
+              "Int · 2",
+              "Wis · 12",
+              "Cha · 9"
+            ]
+          },
+          {
+            "title": "Description",
+            "lines": [
+              "The Queen of Thieves brings her arena champion out of its den with a whistle."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Natural armor. Perception +4. Immune to acid. Blindsight 30 ft., passive Perception 14. No languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": ["Buckledown Row, p. 163."]
+          },
+          {
+            "title": "Base stat block",
+            "lines": [
+              "Tyrannosaurus Rex, SRD 5.1 (2014 fifth-edition rules). The arena encounter adds Acid Spew, acid immunity, blindsight, and the Queen’s charm. Use the adventure’s CR 9."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "The Queen’s Charm. Big Linda is permanently Charmed by the Queen of Thieves and generally obeys her spoken commands."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 33 (4d12 + 7) piercing damage. A Medium or smaller target is Grappled (escape DC 17) and Restrained until the grapple ends. Big Linda cannot Bite a different target during that grapple.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. Hit 20 (3d8 + 7) bludgeoning damage.\nAcid Spew (recharge 5–6). Creatures in a 30-ft. cone make a DC 15 Dexterity save against 49 (11d8) acid damage, halved on success."
+            ]
+          },
+          {
+            "title": "Encounter notes",
+            "lines": [
+              "In Buckledown Row, the Queen of Thieves can call Big Linda out of her den by whistling."
+            ]
+          },
+          {
+            "title": "References",
+            "lines": [
+              "Queen of Thieves (monster) · https://www.dndbeyond.com/monsters/4086133-queen-of-thieves"
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition compatible",
+        "status": "Stat block",
+        "source": "https://www.dndbeyond.com/monsters/4086095-big-linda",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/38757/288/1000/1000/638386042590672952.jpeg",
+        "art": [
+          {
+            "file": "/assets/library/worker-art/big-linda-e103c5b32438eaa3.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Monstrosity"]
@@ -91447,7 +92146,7 @@
     "slug": "blue-slaad-control-gem",
     "name": "Blue Slaad (Control Gem)",
     "summary": "",
-    "group": "aberration",
+    "group": "Aberration",
     "printings": [
       {
         "id": "printing-4bfcc608a7e4bc6826e8",
@@ -91535,7 +92234,7 @@
         "source": "https://5e.tools/bestiary.html#blue%20slaad%20(control%20gem)_mm"
       }
     ],
-    "groups": ["aberration"],
+    "groups": ["Aberration"],
     "art": [
       {
         "file": "/assets/library/worker-art/blue-slaad-control-gem-6f5f339dedc024e5.webp",
@@ -93583,7 +94282,7 @@
     "slug": "bone-devil-polearm",
     "name": "Bone Devil (Polearm)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-25ba2925158d8412f4e1",
@@ -93677,7 +94376,7 @@
         "source": "https://5e.tools/bestiary.html#bone%20devil%20(polearm)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/bone-devil-polearm-d59531708e93b469.webp",
@@ -93811,7 +94510,7 @@
     "slug": "bone-devil-summoner",
     "name": "Bone Devil (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-bbacea1b2475a8a45fd4",
@@ -93905,7 +94604,7 @@
         "source": "https://5e.tools/bestiary.html#bone%20devil%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/bone-devil-summoner-e3edd91f106bf174.webp",
@@ -94185,7 +94884,7 @@
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
       }
     ],
-    "groups": ["Undead", "Humanoid"],
+    "groups": ["Humanoid", "Undead"],
     "art": [
       {
         "file": "/assets/library/worker-art/bone-knight-98d9f834b2a104be.webp",
@@ -110959,7 +111658,7 @@
         "edition": "3.0 edition"
       }
     ],
-    "groups": ["Unclassified", "Aberration", "Monstrosity"]
+    "groups": ["Aberration", "Monstrosity", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -111180,7 +111879,7 @@
         "edition": "3.0 edition"
       }
     ],
-    "groups": ["Unclassified", "Construct"]
+    "groups": ["Construct", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -111367,59 +112066,25 @@
     "group": "Unclassified",
     "printings": [
       {
-        "id": "printing-2be0a288119817178136",
+        "id": "printing-490fed338ba33343d1aceb62",
         "label": "Monster Manual (2014)",
-        "gm": [
+        "source": "https://5e.tools/bestiary.html#cat_mm",
+        "art": [
           {
-            "title": "Statistics",
-            "lines": [
-              "Type · beast",
-              "Size · Tiny",
-              "Alignment · unaligned",
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Speed · walk 40 ft., climb 30 ft.",
-              "Challenge · 0",
-              "Strength · 3",
-              "Dexterity · 15",
-              "Constitution · 10",
-              "Intelligence · 3",
-              "Wisdom · 12",
-              "Charisma · 7",
-              "Passive Perception · 13"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny beast with challenge rating 0. Listed habitats: grassland, forest, urban, desert. Named abilities include Keen Smell, Claws."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3, Stealth +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland, forest, urban, desert"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": ["Claws · Melee attack · +0 to hit · 1 slashing damage · reach 5 ft."]
-          },
-          {
-            "title": "References",
-            "lines": ["Perception (skill) · https://5e.tools/skills.html#perception_phb"]
+            "file": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
+            "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#cat_mm"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-62d30b17c12deb0fcf0e",
@@ -111496,6 +112161,382 @@
         "label": "Denizens of Darkness",
         "gm": [],
         "edition": "3.0 edition"
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_2_1"
+          }
+        }
+      },
+      {
+        "id": "printing-51f361d896ef306925946548",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cat-f5931b59d47a.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-4491a4c85f4d8a6758560255",
+        "label": "Player's Handbook (2014)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 2",
+              "Hit dice · 1d4",
+              "Challenge · 0",
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 40 ft., climb 30 ft.",
+              "Passive Perception · 13",
+              "XP · 10",
+              "Str · 3",
+              "Dex · 15",
+              "Con · 10",
+              "Int · 3",
+              "Wis · 12",
+              "Cha · 7"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A slender gray-brown tabby with a ringed tail and pale paws."]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Perception +3", "Stealth +4"]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Languages none."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Player's Handbook, August 2014 first printing, Appendix D, p. 305."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The cat has advantage on Wisdom (Perception) checks that rely on smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claws. Melee weapon attack +0, reach 5 ft., one target. On a hit, deal 1 slashing damage."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
+            "credit": "Original portrait generated with built-in OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-603ea0174b9704ad8d38a068",
+        "label": "Monster Manual (2024)",
+        "source": "https://5e.tools/bestiary.html#cat_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/43939/81/1000/1000/638607414147450285.png",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "cat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
+      },
+      {
+        "id": "printing-8febf4bc9b67e49bc9e05a22",
+        "label": "Revised v3.5 SRD (Monsters)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 2",
+              "Hit dice · 1/2 d8",
+              "Challenge · 1/4",
+              "Size · Tiny",
+              "Type · Animal",
+              "Speed · walk 30 ft.",
+              "Initiative · 2",
+              "Armor class notes · +2 size, +2 Dex",
+              "Touch armor class · 14",
+              "Flat-footed armor class · 12",
+              "Base attack bonus · 0",
+              "Grapple modifier · -12",
+              "STR · 3",
+              "DEX · 15",
+              "CON · 10",
+              "INT · 2",
+              "WIS · 12",
+              "CHA · 7"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Fort +2", "Ref +4", "Will +1"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Temperate plains"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A housecat with striped fur, a flexible body, a long tail and retractile claws."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["Low-light vision", "scent"]
+          },
+          {
+            "title": "Skills",
+            "lines": [
+              "Balance +10",
+              "Climb +6",
+              "Hide +14",
+              "Jump +10",
+              "Listen +3",
+              "Move Silently +6",
+              "Spot +3"
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Space 2-1/2 ft. and reach 0 ft. Attack: Claw +4 melee (1d2–4). Full attack: 2 claws +4 melee (1d2–4) and bite –1 melee (1d3–4)."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Claw · melee · +4 to hit · 1d2-4 piercing and slashing",
+              "Bite · melee · -1 to hit · 1d3-4 piercing, slashing and bludgeoning"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Scent (Ex) · Detect creatures by smell within 30 ft., 60 ft. if upwind or 15 ft. if downwind. Use a move action to find the direction. Pinpoint the creature within 5 ft.",
+              "Cat skills · Includes +4 racial to Climb, Hide and Move Silently, and +8 racial to Balance and Jump. Use Dexterity for Climb and Jump. Hide increases from +14 to +18 in tall grass or heavy undergrowth."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Always neutral. Organization as printed: Domesticated or solitary.",
+              "Feats: Weapon Finesse.",
+              "The common housecat stalks prey. Its 0 ft. reach requires entering the target’s space for melee attacks.",
+              "Monster Manual errata grants Stealthy and makes Weapon Finesse a bonus feat. It raises Hide to +16, or +20 in tall grass or heavy undergrowth, and Move Silently to +8. Use the original SRD values for this printing.",
+              "A hit whose printed damage roll falls below 1 deals a minimum of 1 damage before defenses."
+            ]
+          }
+        ],
+        "edition": "3.5 edition",
+        "source": "https://olimot.github.io/srd-v3.5/monsters/monsters-animals.html#cat",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cat-f5d280e94f25.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-ddd5b3cc02c297606cb19d64",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 8",
+              "Challenge · 0",
+              "Type · Beast",
+              "Speed · 40 ft., climb 30 ft.",
+              "XP · 10"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Settlements", "Farms", "Woodland edges"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A small, slim brown tabby with dark stripes, upright ears, and a long curved tail."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Fixed Perception 13 and Stealth 13. Darkvision 30 ft. No listed languages."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 354. XP comes from the CR table on page 229."
+            ]
+          },
+          {
+            "title": "Ability modifiers",
+            "lines": [
+              "STR −4, DEX +1, CON +0, INT −4, WIS +1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": ["Heightened Smell. Use Perception 18 for scent."]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claws. Melee weapon attack, +3 to hit with 5-ft. reach against one creature. Hit for 3 (1d4 + 1) slashing damage."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": [
+              "Charming Mewl. Choose one visible creature within 10 ft. The cat meows, and the target must pass a DC 11 Charisma save or become charmed through the end of the target’s next turn. A successful save or the effect ending gives the target 24 hours of immunity to this cat’s Charming Mewl."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
+            "credit": "Original portrait generated with built-in OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-aafc7e78898497ac82b3bbad",
+        "label": "Monster Vault",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 8",
+              "Challenge · 0",
+              "Type · Beast",
+              "Speed · 40 ft., climb 30 ft.",
+              "XP · 10"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Desert", "Farmland", "Forest", "Grassland", "Urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A small gray-brown tabby with upright ears, dark flank stripes and a curved tail."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Str -4, Dex +1, Con +0, Int -4, Wis +1, Cha -2. Fixed Perception 13. Fixed Stealth 13. Darkvision 30 ft. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Cubil de Monstruos, licensed Spanish translation of Monster Vault, p. 342, Gato. XP from the CR table on p. 17."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": ["Keen Smell. The cat uses Perception 18 when relying on smell."]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claws. Melee weapon attack, +3 to hit one creature within 5 ft. A hit deals 3 (1d4 + 1) slashing damage."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": [
+              "Charming Meow. The cat meows to one creature it can see within 10 ft. The target makes a DC 11 Charisma save. If it fails, it is Charmed until the end of its next turn. Upon a successful save or when the effect ends for that creature, it is immune to this cat’s Charming Meow for 24 hours."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cat-839ed684fa8a.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Unclassified"],
@@ -114773,65 +115814,77 @@
         ]
       },
       {
-        "id": "printing-11569eeb45ac167a37c2",
+        "id": "printing-53882c94e6e328edb0a9f304",
         "label": "Plane Shift: Ixalan",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Huge",
-              "Alignment · unaligned",
-              "Armor class · 13 · natural armor",
+              "Armor class · 13",
               "Hit points · 95",
               "Hit dice · 10d12 + 30",
-              "Speed · walk 50 ft.",
               "Challenge · 5",
-              "Strength · 22",
-              "Dexterity · 9",
-              "Constitution · 17",
-              "Intelligence · 2",
-              "Wisdom · 11",
-              "Charisma · 5",
-              "Passive Perception · 10"
+              "Size · Huge",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "Passive Perception · 10",
+              "XP · 1800",
+              "Str · 22",
+              "Dex · 9",
+              "Con · 17",
+              "Int · 2",
+              "Wis · 11",
+              "Cha · 5"
             ]
           },
           {
-            "title": "Description",
+            "title": "Habitats",
+            "lines": ["grassland"]
+          },
+          {
+            "title": "Appearance",
             "lines": [
-              "A Huge beast with challenge rating 5. Named abilities include Trampling Charge, Gore, Stomp."
+              "A four-legged herbivore with a low sturdy body, a beak, enormous facial horns and a broad feathered frill protecting its neck."
             ]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Trampling Charge · DC 13 Strength save · Prone"]
+            "title": "Classification",
+            "lines": ["Huge Beast, unaligned"]
           },
           {
-            "title": "Actions reference",
+            "title": "Other statistics",
             "lines": [
-              "Gore · Melee attack · +9 to hit · 4d8 + 6 piercing damage · reach 5 ft.",
-              "Stomp · Melee attack · +9 to hit · 3d10 + 6 bludgeoning damage · reach 5 ft. · Prone"
+              "Natural armor. Passive Perception 10. No listed languages or special senses."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["Dinosaurs"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Triceratops"]
-          },
-          {
-            "title": "References",
+            "title": "Printed source",
             "lines": [
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Triceratops (creature) · https://5e.tools/bestiary.html#triceratops_mm"
+              "James Wyatt, Plane Shift: Ixalan, first printing (January 2018), page 28, Horned Herbivores.  Use the Triceratops stat block in Monster Manual, first printing, september 2014, printed p. 80. https://www.dndbeyond.com/monsters/17039-triceratops"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Trampling Charge. If the ceratops travels at least 20 ft. straight toward a creature and hits it with Gore on the same turn, that creature must pass a DC 13 Strength save or fall prone. If the target is prone, the ceratops can Stomp it once as a bonus action."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Gore. Melee weapon attack, +9 to hit, 5-ft. reach, one target. On a hit, deal 24 (4d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit, 5-ft. reach, one prone creature. On a hit, deal 22 (3d10 + 6) bludgeoning damage."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#ceratops_psx"
+        "source": "https://5e.tools/bestiary.html#ceratops_psx",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/ceratops-6dfc38218f87.png",
+            "credit": "Original portrait generated with OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Monstrosity"]
@@ -117725,7 +118778,7 @@
     "slug": "chasme-summoner",
     "name": "Chasme (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-7447edcabe36eb41298c",
@@ -117820,7 +118873,7 @@
         "source": "https://5e.tools/bestiary.html#chasme%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/chasme-summoner-92a2d615bee2dfce.webp",
@@ -125705,7 +126758,7 @@
     "slug": "cloud-giant-optional-actions",
     "name": "Cloud Giant (Optional Actions)",
     "summary": "",
-    "group": "giant",
+    "group": "Giant",
     "printings": [
       {
         "id": "printing-d532cf98771d2f197fbc",
@@ -125803,7 +126856,7 @@
         "source": "https://5e.tools/bestiary.html#cloud%20giant%20(optional%20actions)_skt"
       }
     ],
-    "groups": ["giant"],
+    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/worker-art/cloud-giant-optional-actions-5560bb47571e16e7.webp",
@@ -135803,63 +136856,86 @@
         ]
       },
       {
-        "id": "printing-a61139f9986eb26cc6da",
+        "id": "printing-939a74c0b7fbb1d303f82435",
         "label": "Volo's Guide to Monsters",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Tiny",
-              "Alignment · lawful evil",
               "Armor class · 12",
               "Hit points · 2",
               "Hit dice · 1d4",
-              "Speed · walk 30 ft.",
               "Challenge · 0",
-              "Strength · 2",
-              "Dexterity · 14",
-              "Constitution · 10",
-              "Intelligence · 4",
-              "Wisdom · 11",
-              "Charisma · 8",
-              "Passive Perception · 10"
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 10",
+              "XP · 10",
+              "Str · 2",
+              "Dex · 14",
+              "Con · 10",
+              "Int · 4",
+              "Wis · 11",
+              "Cha · 8"
             ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny beast with challenge rating 0. Listed habitats: underdark, urban. Named abilities include Illumination, Telepathic Shroud, Bite."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 30 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 30 ft."]
           },
           {
             "title": "Habitats",
-            "lines": ["underdark, urban"]
+            "lines": ["underdark", "urban"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Illumination · 5-foot radius", "Telepathic Shroud"]
+            "title": "Appearance",
+            "lines": ["A single dark-furred rat with a bare pink tail and an exposed pink brain."]
           },
           {
-            "title": "Actions reference",
-            "lines": ["Bite · Melee attack · +4 to hit · 1 piercing damage · reach 5 ft."]
+            "title": "Classification",
+            "lines": ["Tiny beast, lawful evil"]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["Evil Collectives", "Telepathic Vermin", "Spies for an Elder Brain"]
+            "title": "Other statistics",
+            "lines": ["Darkvision 30 ft.. Languages telepathy 30 ft.."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Volo's Guide to Monsters, November 2016 first printing, p. 133."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Telepathic Shroud. The rat is immune to effects that sense its emotions or read its thoughts. It is also immune to all divination spells."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": [
+              "Illumination. Use a bonus action to emit dim light in a 5-ft. radius from the brain or put out the light."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack +4, reach 5 ft., one target. On a hit, deal 1 piercing damage."
+            ]
+          },
+          {
+            "title": "Cranium rat lore",
+            "lines": [
+              "A rat separated from its swarm starts with Intelligence 15 and loses 1 point each day it remains apart, to a minimum of 4. Joining its original swarm or another swarm restores Intelligence to 15. A lone rat of low intelligence uses telepathy to communicate basic emotions and needs."
+            ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#cranium%20rat_vgm"
+        "source": "https://5e.tools/bestiary.html#cranium%20rat_vgm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/603/1000/1000/636329531773797524.jpeg",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/cranium-rat-da0e610eda41.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Aberration"]
@@ -149215,7 +150291,7 @@
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
       }
     ],
-    "groups": ["Undead", "Medium Undead"],
+    "groups": ["Medium Undead", "Undead"],
     "art": [
       {
         "file": "/assets/library/worker-art/death-knight-3ebe9e8fdbdadad3.png",
@@ -149979,7 +151055,7 @@
     "slug": "death-slaad-control-gem",
     "name": "Death Slaad (Control Gem)",
     "summary": "",
-    "group": "aberration",
+    "group": "Aberration",
     "printings": [
       {
         "id": "printing-5b10e100577cdb56fe74",
@@ -150089,7 +151165,7 @@
         "source": "https://5e.tools/bestiary.html#death%20slaad%20(control%20gem)_mm"
       }
     ],
-    "groups": ["aberration"],
+    "groups": ["Aberration"],
     "art": [
       {
         "file": "/assets/library/worker-art/death-slaad-control-gem-c924d70ae3371b54.webp",
@@ -152845,7 +153921,7 @@
         "status": "Combat summary"
       }
     ],
-    "groups": ["Undead", "Medium natural humanoid (undead)"]
+    "groups": ["Medium natural humanoid (undead)", "Undead"]
   },
   {
     "type": "monsters",
@@ -153830,7 +154906,7 @@
         "status": "Combat summary"
       }
     ],
-    "groups": ["Undead", "Medium natural animate (undead)"]
+    "groups": ["Medium natural animate (undead)", "Undead"]
   },
   {
     "type": "monsters",
@@ -159741,7 +160817,7 @@
         "edition": "3.5 edition"
       }
     ],
-    "groups": ["Humanoid", "Aberration", "Monstrous Humanoid"]
+    "groups": ["Aberration", "Humanoid", "Monstrous Humanoid"]
   },
   {
     "type": "monsters",
@@ -163440,7 +164516,7 @@
         ]
       }
     ],
-    "groups": ["Undead", "Fiend"]
+    "groups": ["Fiend", "Undead"]
   },
   {
     "type": "monsters",
@@ -166444,7 +167520,7 @@
         ]
       }
     ],
-    "groups": ["Humanoid (Any Lineage)", "Humanoid"]
+    "groups": ["Humanoid", "Humanoid (Any Lineage)"]
   },
   {
     "type": "monsters",
@@ -178904,7 +179980,7 @@
         "edition": "3.0 edition"
       }
     ],
-    "groups": ["Unclassified", "Monstrosity"]
+    "groups": ["Monstrosity", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -185529,7 +186605,7 @@
     "slug": "drow-inquisitor-summoner",
     "name": "Drow Inquisitor (Summoner)",
     "summary": "",
-    "group": "humanoid",
+    "group": "Humanoid",
     "printings": [
       {
         "id": "printing-3599df6c7ed583fddd41",
@@ -185781,7 +186857,7 @@
         "source": "https://5e.tools/bestiary.html#drow%20inquisitor%20(summoner)_mtf"
       }
     ],
-    "groups": ["humanoid"],
+    "groups": ["Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/drow-inquisitor-summoner-eeab16aeb67a5ea6.webp",
@@ -188071,7 +189147,7 @@
     "slug": "drow-shadowblade-summoner",
     "name": "Drow Shadowblade (Summoner)",
     "summary": "",
-    "group": "humanoid",
+    "group": "Humanoid",
     "printings": [
       {
         "id": "printing-25900b97175228b864cb",
@@ -188280,7 +189356,7 @@
         "source": "https://5e.tools/bestiary.html#drow%20shadowblade%20(summoner)_mtf"
       }
     ],
-    "groups": ["humanoid"],
+    "groups": ["Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/drow-shadowblade-summoner-2cf809391d5bc0eb.webp",
@@ -195729,7 +196805,7 @@
     "slug": "dust-mephit-summoner",
     "name": "Dust Mephit (Summoner)",
     "summary": "",
-    "group": "elemental",
+    "group": "Elemental",
     "printings": [
       {
         "id": "printing-0ea5b590315d6f1bdb76",
@@ -195823,7 +196899,7 @@
         "source": "https://5e.tools/bestiary.html#dust%20mephit%20(summoner)_mm"
       }
     ],
-    "groups": ["elemental"],
+    "groups": ["Elemental"],
     "art": [
       {
         "file": "/assets/library/monsters/dust-mephit.webp",
@@ -210118,7 +211194,7 @@
     "slug": "empyrean-iota",
     "name": "Empyrean Iota",
     "summary": "",
-    "group": "celestial, fiend",
+    "group": "Celestial, fiend",
     "printings": [
       {
         "id": "printing-4027abfd73fe215dbc9d",
@@ -210221,7 +211297,7 @@
         "source": "https://5e.tools/bestiary.html#empyrean%20iota_xmm"
       }
     ],
-    "groups": ["celestial, fiend"],
+    "groups": ["Celestial, fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/empyrean-iota-85f8c84d9f35373d.webp",
@@ -213974,7 +215050,7 @@
     "slug": "erinyes-summoner",
     "name": "Erinyes (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-9493d5f6dee74c62ab46",
@@ -214071,7 +215147,7 @@
         "source": "https://5e.tools/bestiary.html#erinyes%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/erinyes-summoner-cf302d6d4b7c49cb.webp",
@@ -216079,7 +217155,7 @@
     "slug": "ettercap-web-garrote",
     "name": "Ettercap (Web Garrote)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-93f56a68ff7cb4fdeda5",
@@ -216156,7 +217232,7 @@
         "source": "https://5e.tools/bestiary.html#ettercap%20(web%20garrote)_mm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/ettercap-web-garrote-afc46dc741a8260c.webp",
@@ -224685,33 +225761,37 @@
         ]
       },
       {
-        "id": "printing-48a5d849ebfa3fda5012",
+        "id": "printing-e333ae082821ce97aa322aef",
         "label": "Out of the Abyss",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Large",
-              "Alignment · unaligned",
-              "Armor class · 14 · natural armor",
+              "Armor class · 14",
               "Hit points · 30",
               "Hit dice · 4d10 + 8",
-              "Speed · walk 30 ft., climb 30 ft.",
               "Challenge · 1",
-              "Strength · 15",
-              "Dexterity · 16",
-              "Constitution · 14",
-              "Intelligence · 2",
-              "Wisdom · 10",
-              "Charisma · 3",
-              "Passive Perception · 10"
+              "Size · Large",
+              "Type · Beast",
+              "Speed · 30 ft., climb 30 ft.",
+              "Passive Perception · 10",
+              "XP · 200",
+              "Str · 15",
+              "Dex · 16",
+              "Con · 14",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3"
             ]
           },
           {
-            "title": "Description",
+            "title": "Habitats",
+            "lines": ["Underdark"]
+          },
+          {
+            "title": "Appearance",
             "lines": [
-              "A Large beast with challenge rating 1. Named abilities include Spider Climb, Leap, Bite."
+              "A broad-bodied tarantula with bristled legs, clustered eyes, and dark pads at the tips of its feet."
             ]
           },
           {
@@ -224719,30 +225799,217 @@
             "lines": ["Stealth +7"]
           },
           {
-            "title": "Senses",
-            "lines": ["darkvision 120 ft."]
+            "title": "Classification",
+            "lines": ["Large Beast, unaligned"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Spider Climb", "Leap · up to 90 feet"]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Other statistics",
             "lines": [
-              "Bite · Melee attack · +5 to hit · 1d8 + 3 piercing damage · DC 12 Constitution save · 2d8 acid damage · reach 5 ft. · Half damage on a successful save",
-              "Sticky Leg (Recharges when the Steeder Has No Creatures Grappled) · Melee attack · +5 to hit · Escape DC 12 · reach 5 ft. · Grappled"
+              "Natural armor. Stealth +7. Darkvision 120 ft.. Passive Perception 10. No languages."
             ]
           },
           {
-            "title": "References",
+            "title": "Printed source",
             "lines": [
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb"
+              "Wizards of the Coast and Green Ronin Publishing, Out of the Abyss, first printing, September 2015, Appendix C, Creatures, Steeders, p. 231. https://www.dndbeyond.com/monsters/17401-female-steeder"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. The steeder climbs difficult surfaces and crosses ceilings upside down without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement for the turn to jump up to 90 ft. vertically or horizontally."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack, +5 to hit, 5 ft. reach, one creature. A hit deals 7 (1d8 + 3) piercing damage and calls for a DC 12 Constitution saving throw. A creature takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg. Melee weapon attack, +5 to hit, 5 ft. reach, one Medium or smaller creature. A hit sticks the creature to a leg and grapples it until it escapes, DC 12. The action recharges when the steeder has no creatures grappled."
+            ]
+          },
+          {
+            "title": "Encounter ecology",
+            "lines": [
+              "Duergar use the larger female steeders as mounts. The animals grip walls, ceilings, and prey with a sticky secretion from their legs."
+            ]
+          },
+          {
+            "title": "Encounter placement",
+            "lines": [
+              "When a Duergar Kavalrachni hits with a melee attack while riding a female steeder, the steeder can use its reaction to make a melee attack against the same target."
+            ]
+          },
+          {
+            "title": "Source notes",
+            "lines": [
+              "Appendix C p. 231 gives a Large Beast. The encounter-specific Cavalry Training on p. 226 belongs to the Duergar Kavalrachni rider."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#female%20steeder_oota"
+        "source": "https://5e.tools/bestiary.html#female%20steeder_oota",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/female-steeder-b11c39c63ec3.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-f9bfcb735f9e71d20c3f2a41",
+        "label": "DDEX3-16 - Assault on Maerimydra",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 30",
+              "Hit dice · 4d10 + 8",
+              "Challenge · 1",
+              "Size · Large",
+              "Type · Beast",
+              "Speed · 30 ft., climb 30 ft.",
+              "Passive Perception · 10",
+              "XP · 200",
+              "Str · 15",
+              "Dex · 16",
+              "Con · 14",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Maerimydra", "Underdark"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A large tarantula-like steeder with a broad body and thick hairy legs."]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Stealth +7"]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Natural armor. Darkvision 120 ft., passive Perception 10. No languages."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, DDEX3-16 - Assault on Maerimydra, Monster/NPC Statistics appendix, p. 54."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. The steeder can use all its movement to jump up to 120 ft. vertically or horizontally."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save and takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12)."
+            ]
+          },
+          {
+            "title": "Encounter ecology",
+            "lines": [
+              "A quaggoth rider joins the fight on a female steeder, and the adventure also provides two female steeder mounts."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/female-steeder-b11c39c63ec3.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-1a297cb4612df0ba6e97e9ee",
+        "label": "Out of the Abyss - D&D Encounters",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 30",
+              "Hit dice · 4d10 + 8",
+              "Challenge · 1",
+              "Size · Large",
+              "Type · Beast",
+              "Speed · 30 ft., climb 30 ft.",
+              "Passive Perception · 10",
+              "XP · 200",
+              "Str · 15",
+              "Dex · 16",
+              "Con · 14",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Underdark", "Duergar settlements"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A large tarantula-like steeder with a broad body and thick hairy legs."]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Stealth +7"]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Natural armor. Darkvision 120 ft., passive Perception 10. No languages."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Out of the Abyss - D&D Encounters, Appendix C: Creatures, p. 62."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. It can climb difficult surfaces, including ceilings upside down, without an ability check.\nLeap. If its speed is at least 30 ft., the steeder can spend all its movement on its turn to jump up to 90 ft. vertically or horizontally."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. On a hit, deal 7 (1d8 + 3) piercing damage. The target makes a DC 12 Constitution save and takes 9 (2d8) acid damage on a failure or half on a success.\nSticky Leg (recharges when no creatures are grappled by the steeder). Melee weapon attack, +5 to hit, reach 5 ft., one Medium or smaller creature. On a hit, the target sticks to its leg and is grappled until it escapes (escape DC 12)."
+            ]
+          },
+          {
+            "title": "Encounter ecology",
+            "lines": [
+              "Duergar train these larger steeders as mounts. They do not spin webs. Their legs secrete the adhesive used to climb and catch prey."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/female-steeder-b11c39c63ec3.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Monstrosity"]
@@ -230499,7 +231766,7 @@
     "slug": "fire-giant-optional-actions",
     "name": "Fire Giant (Optional Actions)",
     "summary": "",
-    "group": "giant",
+    "group": "Giant",
     "printings": [
       {
         "id": "printing-95bf3bebd08f8438a2e7",
@@ -230579,7 +231846,7 @@
         "source": "https://5e.tools/bestiary.html#fire%20giant%20(optional%20actions)_skt"
       }
     ],
-    "groups": ["giant"],
+    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/worker-art/fire-giant-optional-actions-ae29f7298c1ea7ef.webp",
@@ -238068,57 +239335,129 @@
         ]
       },
       {
-        "id": "printing-d4687047cdfc4e590d7f",
+        "id": "printing-570fcb827e62e3d1bc9d6a47",
         "label": "Monster Manual (2014)",
+        "source": "https://5e.tools/bestiary.html#flying%20snake_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/517/1000/1000/636376319640572721.jpeg",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/flying-snake-c18f8bdfa42f.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
+      },
+      {
+        "id": "printing-6993eac2e7abcac047ffc73b",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/flying-snake-c18f8bdfa42f.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "flying_snake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-3688fea1bc52f1141fcf1c17",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Tiny",
-              "Alignment · unaligned",
-              "Armor class · 14",
-              "Hit points · 5",
-              "Hit dice · 2d4",
-              "Speed · walk 30 ft., fly 60 ft., swim 30 ft.",
+              "Armor class · 11",
+              "Hit points · 10",
               "Challenge · 1/8",
-              "Strength · 4",
-              "Dexterity · 18",
-              "Constitution · 11",
-              "Intelligence · 2",
-              "Wisdom · 12",
-              "Charisma · 5",
-              "Passive Perception · 11"
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · walk 30 ft., fly 60 ft., swim 30 ft."
             ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny beast with challenge rating 1/8. Listed habitats: grassland, forest, urban, desert. Named abilities include Flyby, Bite."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 10 ft."]
           },
           {
             "title": "Habitats",
-            "lines": ["grassland, forest, urban, desert"]
+            "lines": ["desert", "forest", "grassland"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Flyby"]
+            "title": "Appearance",
+            "lines": ["A slender green snake with a pair of broad russet wings and a tapered tail."]
           },
           {
-            "title": "Actions reference",
+            "title": "Senses",
+            "lines": ["keensense 10 ft."]
+          },
+          {
+            "title": "Attacks",
+            "lines": ["Bite · melee · +3 to hit · reach 5 ft. · 1d4 + 1 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
             "lines": [
-              "Bite · Melee attack · +6 to hit · 3d4 poison damage · 1 piercing damage · reach 5 ft."
+              "Flyby · Flying out of an enemy’s reach does not provoke opportunity attacks."
+            ]
+          },
+          {
+            "title": "Action mechanics",
+            "lines": [
+              "Bite · On a hit, the target also makes a DC 11 CON save or takes 5 (2d4) poison damage."
+            ]
+          },
+          {
+            "title": "Reaction mechanics",
+            "lines": [
+              "Reflexive Escape · When a visible creature attacks the snake, it can move up to 5 ft. The attack misses if the movement puts the snake out of reach."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 11 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR -3, DEX +1, CON +0, INT -4, WIS +1, CHA -3.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Keensense perceives the surroundings within its listed radius without relying on sight.",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 370."
             ]
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#flying%20snake_mm"
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/flying-snake-3f3c80de23cb.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -243805,7 +245144,7 @@
     "slug": "frost-giant-optional-actions",
     "name": "Frost Giant (Optional Actions)",
     "summary": "",
-    "group": "giant",
+    "group": "Giant",
     "printings": [
       {
         "id": "printing-cb110f8ef9b76623b4bb",
@@ -243883,7 +245222,7 @@
         "source": "https://5e.tools/bestiary.html#frost%20giant%20(optional%20actions)_skt"
       }
     ],
-    "groups": ["giant"],
+    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/worker-art/frost-giant-optional-actions-b26a9f895b997def.webp",
@@ -245260,7 +246599,7 @@
         "status": "Combat summary"
       }
     ],
-    "groups": ["Monstrosity", "Magical Beast"]
+    "groups": ["Magical Beast", "Monstrosity"]
   },
   {
     "type": "monsters",

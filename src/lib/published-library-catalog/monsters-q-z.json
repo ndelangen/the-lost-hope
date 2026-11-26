@@ -2844,7 +2844,7 @@
     "slug": "quasit-familiar",
     "name": "Quasit Familiar",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-2988977bd26b9a352b51",
@@ -2939,7 +2939,7 @@
         "source": "https://5e.tools/bestiary.html#quasit%20familiar_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/quasit-familiar-9f039d47d876ffec.webp",
@@ -12572,7 +12572,7 @@
     "slug": "red-slaad-control-gem",
     "name": "Red Slaad (Control Gem)",
     "summary": "",
-    "group": "aberration",
+    "group": "Aberration",
     "printings": [
       {
         "id": "printing-00b8b4c6859ce6b80503",
@@ -12659,7 +12659,7 @@
         "source": "https://5e.tools/bestiary.html#red%20slaad%20(control%20gem)_mm"
       }
     ],
-    "groups": ["aberration"],
+    "groups": ["Aberration"],
     "art": [
       {
         "file": "/assets/library/worker-art/red-slaad-control-gem-a2d4bc3a661e195f.webp",
@@ -23183,7 +23183,7 @@
         ]
       }
     ],
-    "groups": ["Construct", "Aberration (Void)"]
+    "groups": ["Aberration (Void)", "Construct"]
   },
   {
     "type": "monsters",
@@ -24317,6 +24317,100 @@
         ],
         "edition": "Black Flag Roleplaying",
         "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/"
+      },
+      {
+        "id": "printing-bfc4973cc129c4564e30a58e",
+        "label": "Revised v3.5 SRD (Monsters)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 17",
+              "Hit points · 207",
+              "Hit dice · 18d8+126",
+              "Challenge · 9",
+              "Size · Gargantuan",
+              "Type · Animal",
+              "Speed · walk 20 ft., fly 80 ft.",
+              "Initiative · 2",
+              "Armor class notes · -4 size, +2 Dex, +9 natural",
+              "Touch armor class · 8",
+              "Flat-footed armor class · 15",
+              "Base attack bonus · 13",
+              "Grapple modifier · 37",
+              "STR · 34",
+              "DEX · 15",
+              "CON · 24",
+              "INT · 2",
+              "WIS · 13",
+              "CHA · 11"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Fort +18", "Ref +13", "Will +9"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Warm mountains"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "An enormous bird of prey with dark-brown or golden plumage. The SRD gives a body length of 30 feet and wingspan up to 80 feet."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["Low-light vision"]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Hide -3", "Listen +10", "Spot +14"]
+          },
+          {
+            "title": "Movement notes",
+            "lines": ["fly · Average maneuverability."]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Space 20 ft. and reach 15 ft. Attack: Talon +21 melee (2d6+12). Full attack: 2 talons +21 melee (2d6+12) and bite +19 melee (2d8+6)."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": [
+              "Talon · melee · +21 to hit · reach 15 ft. · 2d6+12 piercing and slashing",
+              "Bite · melee · +19 to hit · reach 15 ft. · 2d8+6 piercing, slashing and bludgeoning"
+            ]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": ["Spot · The listed Spot bonus includes +4 racial."]
+          },
+          {
+            "title": "Feat mechanics",
+            "lines": [
+              "Flyby Attack · While flying, take a standard action at any point during one move. The roc cannot take a second move action that round.",
+              "Snatch · On a talon or bite hit, the roc can start a grapple as with Improved Grab. Against a target three or more sizes smaller, it deals automatic damage from the grabbing weapon each round. It can drop the target as a free action or fling it 1d6 × 10 ft. as a standard action. Fling damage is 1d6 per 10 ft. traveled, or falling damage if greater while airborne.",
+              "Wingover · Once per round while flying, spend 10 ft. of movement to turn up to 180 degrees as a free action. It may dive during a wingover but cannot gain altitude that round.",
+              "Power Attack · Before attack rolls, trade up to 13 points of melee attack bonus for an equal bonus to melee damage until the roc’s next turn. The secondary Bite’s listed penalty already reflects Multiattack."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Always neutral. Organization as printed: Solitary or pair.",
+              "Feats: Alertness, Flyby Attack, Iron Will, Multiattack, Power Attack, Snatch, Wingover.",
+              "Advancement: 19–32 HD (Gargantuan); 33–54 (Colossal).",
+              "A hunting roc swoops down on prey. Paired rocs defend their nests together."
+            ]
+          }
+        ],
+        "edition": "3.5 edition",
+        "source": "https://olimot.github.io/srd-v3.5/monsters/monsters-o-r.html#roc",
+        "status": "Combat summary"
       }
     ],
     "art": [
@@ -30484,7 +30578,7 @@
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30835/795/1000/1000/638063921671806032.png"
       }
     ],
-    "groups": ["Humanoid", "Fiend"],
+    "groups": ["Fiend", "Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/sahuagin-baron-155dd27a9c069f44.png",
@@ -36097,7 +36191,7 @@
     "slug": "satyr-piper",
     "name": "Satyr Piper",
     "summary": "",
-    "group": "fey",
+    "group": "Fey",
     "printings": [
       {
         "id": "printing-faaef5e87d442a243027",
@@ -36179,7 +36273,7 @@
         "source": "https://5e.tools/bestiary.html#satyr%20piper_mm"
       }
     ],
-    "groups": ["fey"],
+    "groups": ["Fey"],
     "art": [
       {
         "file": "/assets/library/worker-art/satyr-piper-e2685dbfbaea7f26.webp",
@@ -42731,7 +42825,7 @@
         "edition": "3.0 edition"
       }
     ],
-    "groups": ["Monstrosity", "Humanoid", "Unclassified"]
+    "groups": ["Humanoid", "Monstrosity", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -46362,7 +46456,7 @@
         "edition": "AD&D 2nd edition"
       }
     ],
-    "groups": ["Undead", "Unclassified"]
+    "groups": ["Unclassified", "Undead"]
   },
   {
     "type": "monsters",
@@ -58449,7 +58543,7 @@
     "slug": "sibriex-flesh-warping",
     "name": "Sibriex (Flesh Warping)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-f9548eaff2eb499b00c9",
@@ -58700,7 +58794,7 @@
         "source": "https://5e.tools/bestiary.html#sibriex%20(flesh%20warping)_mtf"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/sibriex-flesh-warping-12a0921a0d1ad0d6.webp",
@@ -66265,6 +66359,62 @@
         "edition": "2024 fifth edition compatible",
         "source": "https://www.dndbeyond.com/monsters/5525119-skinwing",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/49561/733/1000/1000/638844714260262647.png"
+      },
+      {
+        "id": "printing-724976590eea5431d0d800eb",
+        "label": "Savage Coast Monstrous Compendium Appendix",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": ["Armor class · 3", "Hit dice · 4–7", "Speed · 6, fly 15 (C)"]
+          },
+          {
+            "title": "Description",
+            "lines": [
+              "A leathery, batlike predator that rakes prey while flying past. Hunters sometimes train it as a short-distance mount."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge flying reptile"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Tropical or subtropical land. Rare. Flock. The table lists activity at any time and the ecology notes peak activity by day. Carnivore and scavenger. Intelligence 2–4. No treasure. Neutral with evil tendencies. Appearing 2d4. No magic resistance. Wingspan 12–21 feet. Morale 11–12, +1 if trained."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Claw pass. Make two claw attacks for 1d4 each from above or behind, then fly out of reach. A flock normally concentrates these passes on one target. If both claws hit and the victim weighs less than half the skinwing’s carrying capacity, carry it aloft and deal 2d4 damage per round thereafter.\nBite. Deal 2d4 damage while landed or flying very slowly. Its AC is 7 while it uses this attack.\nA skinwing carrying a rider cannot attack."
+            ]
+          },
+          {
+            "title": "Flight and loads",
+            "lines": [
+              "Carry up to 30 pounds per HD. It needs a drop-off to take off with a rider and must save vs. paralysis every half hour of mounted flight. Failure exhausts it and forces an immediate landing. Its flight ceiling is about 1,000 feet. At 50% or more damage it loses flight until fully healed."
+            ]
+          },
+          {
+            "title": "Hit Dice, THAC0 and XP",
+            "lines": [
+              "4 HD. THAC0 17. XP 175, or 270 with a Legacy.\n5 HD. THAC0 15. XP 270, or 420 with a Legacy.\n6 HD. THAC0 15. XP 420, or 650 with a Legacy.\n7 HD. THAC0 13. XP 650, or 975 with a Legacy."
+            ]
+          },
+          {
+            "title": "Red Curse",
+            "lines": [
+              "25% have a Legacy from Region 3. Anti-Missile and Gaseous Form are typical. They do not require cinnabryl."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": ["pp. 96–97"]
+          }
+        ],
+        "edition": "AD&D 2nd edition",
+        "status": "Stat block"
       }
     ],
     "groups": ["Monstrosity"]
@@ -67033,7 +67183,7 @@
         ]
       }
     ],
-    "groups": ["Monstrosity", "Humanoid"]
+    "groups": ["Humanoid", "Monstrosity"]
   },
   {
     "type": "monsters",
@@ -70561,7 +70711,7 @@
     "slug": "smoke-mephit-summoner",
     "name": "Smoke Mephit (Summoner)",
     "summary": "",
-    "group": "elemental",
+    "group": "Elemental",
     "printings": [
       {
         "id": "printing-d149c6c9f13d35e281a2",
@@ -70654,7 +70804,7 @@
         "source": "https://5e.tools/bestiary.html#smoke%20mephit%20(summoner)_mm"
       }
     ],
-    "groups": ["elemental"],
+    "groups": ["Elemental"],
     "art": [
       {
         "file": "/assets/library/worker-art/smoke-mephit-summoner-13b7f1f9b44ab05f.webp",
@@ -73738,57 +73888,79 @@
         ]
       },
       {
-        "id": "printing-81d3fe20fdf832dfc366",
+        "id": "printing-97d3ab4ea8319202d79224be",
         "label": "Waterdeep: Dungeon of the Mad Mage",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Tiny",
-              "Alignment · unaligned",
               "Armor class · 10",
               "Hit points · 1",
               "Hit dice · 1d4 - 1",
-              "Speed · walk 20 ft.",
               "Challenge · 0",
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 20 ft.",
+              "Passive Perception · 10",
               "XP · 0",
-              "Strength · 2",
-              "Dexterity · 11",
-              "Constitution · 9",
-              "Intelligence · 2",
-              "Wisdom · 10",
-              "Charisma · 4",
-              "Passive Perception · 10"
+              "Str · 2",
+              "Dex · 11",
+              "Con · 9",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 4"
             ]
           },
           {
-            "title": "Description",
-            "lines": ["A Tiny beast with challenge rating 0. Named abilities include Keen Smell."]
+            "title": "Habitats",
+            "lines": ["swamp", "urban"]
           },
           {
-            "title": "Senses",
-            "lines": ["darkvision 30 ft."]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Rat"]
-          },
-          {
-            "title": "References",
+            "title": "Appearance",
             "lines": [
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Rat (creature) · https://5e.tools/bestiary.html#rat_mm"
+              "A small, rounded hamster with a blunt whiskered muzzle, rounded ears and short paws."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Darkvision 30 ft. Passive Perception 10. Languages none."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Waterdeep: Dungeon of the Mad Mage, Level 19, Caverns of Ooze, p. 251, 13c. Galley and Mess Hall, Treasure. Uses the Rat from the 2014 Monster Manual, p. 335."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. It has advantage on Wisdom (Perception) checks that rely on smell."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": ["No attacks."]
+          },
+          {
+            "title": "Encounter",
+            "lines": [
+              "Removing the sending stone from the wall brings the hamster out of its lair in the ship’s wall. It poses no danger. A character can befriend it by offering food."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#space%20hamster_wdmm"
+        "source": "https://5e.tools/bestiary.html#space%20hamster_wdmm",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/giant-space-hamster-352dd13b0bbe.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Monstrosity"]
@@ -85297,7 +85469,7 @@
     "slug": "steam-mephit-summoner",
     "name": "Steam Mephit (Summoner)",
     "summary": "",
-    "group": "elemental",
+    "group": "Elemental",
     "printings": [
       {
         "id": "printing-0e67a6a3bcc4d0aa9236",
@@ -85382,7 +85554,7 @@
         "source": "https://5e.tools/bestiary.html#steam%20mephit%20(summoner)_mm"
       }
     ],
-    "groups": ["elemental"],
+    "groups": ["Elemental"],
     "art": [
       {
         "file": "/assets/library/monsters/steam-mephit.webp",
@@ -86139,64 +86311,77 @@
         ]
       },
       {
-        "id": "printing-1444c9e7cafa9747650a",
+        "id": "printing-df185be029715dd266a5a333",
         "label": "Volo's Guide to Monsters",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Large",
-              "Alignment · unaligned",
               "Armor class · 10",
               "Hit points · 15",
               "Hit dice · 2d10 + 4",
-              "Speed · walk 30 ft.",
               "Challenge · 1/4",
-              "Strength · 18",
-              "Dexterity · 10",
-              "Constitution · 14",
-              "Intelligence · 2",
-              "Wisdom · 10",
-              "Charisma · 4",
-              "Passive Perception · 10"
+              "Size · Large",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 10",
+              "XP · 50",
+              "Str · 18",
+              "Dex · 10",
+              "Con · 14",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 4"
             ]
           },
           {
-            "title": "Description",
+            "title": "Habitats",
+            "lines": ["Lower Planes"]
+          },
+          {
+            "title": "Appearance",
             "lines": [
-              "A Large beast with challenge rating 1/4. Named abilities include Charge, Stench, Gore."
+              "A misshapen orange and moss-green bison with a shaggy shoulder hump, curved horns, and lean hindquarters."
             ]
           },
           {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
+            "title": "Classification",
+            "lines": ["Large Beast, unaligned"]
           },
           {
-            "title": "Damage resistances",
-            "lines": ["cold, fire, poison"]
-          },
-          {
-            "title": "Traits reference",
+            "title": "Other statistics",
             "lines": [
-              "Charge · 2d6 piercing damage",
-              "Stench · DC 12 Constitution save · 1 hour · within 5 feet · Poisoned"
+              "Resists cold, fire, and poison damage. Darkvision 60 ft., passive Perception 10. No listed skills or languages."
             ]
           },
           {
-            "title": "Actions reference",
-            "lines": ["Gore · Melee attack · +6 to hit · 1d6 + 4 piercing damage · reach 5 ft."]
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Volo's Guide to Monsters, first printing (November 2016), Appendix A, pp. 207–208."
+            ]
           },
           {
-            "title": "References",
+            "title": "Traits",
             "lines": [
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb"
+              "Charge. If the animal moves at least 20 ft. straight toward a target and hits it with Gore during the same turn, add 7 (2d6) piercing damage.\nStench. A creature other than a stench kow that starts its turn within 5 ft. of the kow must make a DC 12 CON save. On a failure it is poisoned until the start of its next turn. On a success it is immune to the Stench of all stench kows for 1 hour."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Gore. Melee weapon attack, +6 to hit, reach 5 ft., one target. On a hit, deal 7 (1d6 + 4) piercing damage."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#stench%20kow_vgm"
+        "source": "https://5e.tools/bestiary.html#stench%20kow_vgm",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/stench-kow-3220893e5100.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Fiend"]
@@ -86404,57 +86589,81 @@
         ]
       },
       {
-        "id": "printing-503281ccb21adbb9797f",
+        "id": "printing-5eb6a5446abf90b9724e758b",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Tiny",
-              "Alignment · unaligned",
-              "Armor class · 14 · natural armor",
+              "Armor class · 14",
               "Hit points · 2",
               "Hit dice · 1d4",
-              "Speed · walk 10 ft., fly 40 ft.",
               "Challenge · 1/8",
-              "Strength · 4",
-              "Dexterity · 16",
-              "Constitution · 11",
-              "Intelligence · 2",
-              "Wisdom · 8",
-              "Charisma · 6",
-              "Passive Perception · 9"
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 10 ft., fly 40 ft.",
+              "Passive Perception · 9",
+              "Initiative · 3",
+              "XP · 25",
+              "Str · 4",
+              "Dex · 16",
+              "Con · 11",
+              "Int · 2",
+              "Wis · 8",
+              "Cha · 6"
             ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Tiny beast with challenge rating 1/8. Listed habitats: grassland, forest, swamp, hill, urban, desert, coastal, mountain, underdark. Named abilities include Blood Drain."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
           },
           {
             "title": "Habitats",
-            "lines": ["grassland, forest, swamp, hill, urban, desert, coastal, mountain, underdark"]
-          },
-          {
-            "title": "Actions reference",
             "lines": [
-              "Blood Drain · Melee attack · +5 to hit · 1d4 + 3 piercing damage · 1d4 + 3 · reach 5 ft. · 10 hit points"
+              "Coastal",
+              "Desert",
+              "Forest",
+              "Grassland",
+              "Hills",
+              "Mountains",
+              "Swamps",
+              "Underdark",
+              "Urban"
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["Blood Drain"]
+            "title": "Appearance",
+            "lines": [
+              "A batlike flying beast with broad leathery wings, pincer-tipped legs, and a long needle-shaped proboscis."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual, first printing, September 2014, printed p. 284. https://www.dndbeyond.com/monsters/17023-stirge"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the stirge to the target. The stirge makes no attacks while attached. At the start of each of the stirge’s turns, the attached target loses 5 (1d4 + 3) HP to blood loss.\nThe stirge can spend 5 ft. of movement to detach itself. It detaches after draining 10 HP from the target or when the target dies. Any creature, including the target, can spend its action to detach the stirge."
+            ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#stirge_mm"
+        "source": "https://5e.tools/bestiary.html#stirge_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30835/940/1000/1000/638063924522595508.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/stirge.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-fb2ca627f6a947becb5e0e44",
@@ -86484,6 +86693,327 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 2",
+              "Hit dice · 1d4",
+              "Challenge · 1/8",
+              "Type · Beast",
+              "Speed · 10 ft., fly 40 ft.",
+              "XP · 25",
+              "Str · 4",
+              "Dex · 16",
+              "Con · 11",
+              "Int · 2",
+              "Wis · 8",
+              "Cha · 6"
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Senses darkvision 60 ft., passive Perception 9 Languages —"]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Blood Drain. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 5 (1d4 + 3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4 + 3) hit points due to blood loss. The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge."
+            ]
+          }
+        ],
+        "art": [
+          {
+            "file": "/assets/library/beasts/stirge.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-fe79b339d4e546709706a731",
+        "label": "Basic Rules (2018)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 2",
+              "Hit dice · 1d4",
+              "Challenge · 1/8",
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 10 ft., fly 40 ft.",
+              "XP · 25",
+              "Str · 4",
+              "Dex · 16",
+              "Con · 11",
+              "Int · 2",
+              "Wis · 8",
+              "Cha · 6"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": [
+              "Coastal",
+              "Desert",
+              "Forest",
+              "Grassland",
+              "Hills",
+              "Mountains",
+              "Swamps",
+              "Underdark",
+              "Urban"
+            ]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A batlike flying beast with broad leathery wings, pincer-tipped legs, and a long needle-shaped proboscis."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": ["Natural armor. Darkvision 60 ft. Passive Perception 9. No listed languages."]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, D&D Basic Rules, version 1.0, November 2018 , printed p. 153."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. A hit deals 5 (1d4 + 3) piercing damage and attaches the stirge to the target. The stirge makes no attacks while attached. At the start of each of the stirge’s turns, the attached target loses 5 (1d4 + 3) HP to blood loss.\nThe stirge can spend 5 ft. of movement to detach itself. It detaches after draining 10 HP from the target or when the target dies. Any creature, including the target, can spend its action to detach the stirge."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/stirge.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-c7c66db2ad4528faf97d732f",
+        "label": "Hoard of the Dragon Queen - Online Supplement",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 2",
+              "Hit dice · 1d4",
+              "Challenge · 1/8",
+              "Size · Tiny",
+              "Type · Beast",
+              "Speed · 10 ft., fly 40 ft.",
+              "XP · 25",
+              "Str · 4",
+              "Dex · 16",
+              "Con · 11",
+              "Int · 2",
+              "Wis · 8",
+              "Cha · 6"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Caves", "Marshes"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tiny batlike blood feeder with dusty brown fur, leathery wings, hooked feet and a long needle-shaped proboscis."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Natural armor. Darkvision 60 ft. Passive Perception 9. No listed skills or languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Hoard of the Dragon Queen Online Supplement, August 8, 2014 release, version 1, Monsters p. 17."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Blood Drain. Melee weapon attack, +5 to hit, 5-ft. reach, one creature. On a hit, deal 5 (1d4 + 3) piercing damage and attach to the target. The attached stirge stops attacking. At the start of each of its turns, the target loses 5 (1d4 + 3) hit points from blood loss. The stirge can detach by spending 5 ft. of its movement. It does so after draining 10 hit points of blood from the target or when the target dies. Any creature, including the target, can detach the stirge as an action."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "Resolve piercing damage on the initial attack, then track the later blood loss at the start of the stirge’s turns."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/stirge.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-592c568aac230aba018631e0",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 7",
+              "Challenge · 1/8",
+              "Type · Beast",
+              "Speed · 10 ft., fly 40 ft.",
+              "XP · 25"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Caves", "Marshes"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tiny batlike blood feeder with dusty brown fur, leathery wings, hooked grasping feet, and a long needle-shaped proboscis."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Natural armor. Fixed Perception 9 and Stealth 12. Darkvision 60 ft. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 340. XP comes from the CR table on page 229."
+            ]
+          },
+          {
+            "title": "Ability modifiers",
+            "lines": [
+              "STR −3, DEX +2, CON +0, INT −4, WIS −1, CHA −2. Black Flag uses the printed modifiers and fixed Perception and Stealth values."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Blood Drain. Melee weapon attack, +4 to hit with 5-ft. reach against one creature. Hit for 4 (1d4 + 2) piercing damage and attach to that creature. While attached, the stirge cannot attack. At the start of each stirge turn, its host loses 4 (1d4 + 2) HP from blood loss. The stirge moves with the host without expending its own movement. On its turn, it can spend 5 ft. of movement to detach. It does so after draining 8 HP of blood or when the host dies. A creature, including the host, can use its action to detach the stirge."
+            ]
+          },
+          {
+            "title": "Reactions",
+            "lines": [
+              "Reactive Wiggle. If a creature within 5 ft. attacks the attached stirge, the stirge can react. The attacker makes a DC 12 Dexterity save. On a failure, the attack targets the host instead."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/stirge.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-56dcb9b865cb614192e5ee57",
+        "label": "Monster Vault",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 7",
+              "Challenge · 1/8",
+              "Type · Beast",
+              "Speed · 10 ft., Fly 40 ft.",
+              "XP · 25"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Farmland", "Forest", "Grassland", "Hills", "Swamp", "Urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A small, brown, bat-winged insectoid with hooked feet and a long pointed proboscis."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Tiny Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Ability modifiers STR -3, DEX +2, CON +0, INT -4, WIS -1, CHA -2. Fixed Perception 9. Fixed Stealth 12. AC includes natural armor. Darkvision 60 ft. No languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Monster Vault (2024), translated by Andrea Iglesias as Cubil de Monstruos (Nosolorol, 2025), Estirge, printed p. 184, p. 186. ISBN 979-13-87882-04-4. https://www.nosolorol.com/talesofthevaliant"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Blood Drain. Melee weapon attack, +4 to hit, reach 5 ft., one creature. A hit deals 4 (1d4 + 2) piercing damage and attaches the stirge to the target. While attached, the stirge cannot attack and the target loses 4 (1d4 + 2) HP at the start of each of the stirge’s turns. The stirge moves with the target without spending movement. It can detach by spending 5 ft. of movement on its turn and does so after draining 8 HP of blood or if the target dies. Any creature, including the target, can use an action to detach the stirge."
+            ]
+          },
+          {
+            "title": "Reactions",
+            "lines": [
+              "Reactive Wiggle. If a creature within 5 ft. of the attached stirge targets it with an attack, the stirge can wiggle to expose the host’s flesh. The attacker must succeed on a DC 12 Dexterity save or the attack targets the host instead."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "source": "https://koboldpress.com/tools/search-tov-kobold-press-monsters/",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/stirge.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -87742,7 +88272,7 @@
     "slug": "stone-giant-optional-actions",
     "name": "Stone Giant (Optional Actions)",
     "summary": "",
-    "group": "giant",
+    "group": "Giant",
     "printings": [
       {
         "id": "printing-79931bba15ffd2f22319",
@@ -87830,7 +88360,7 @@
         "source": "https://5e.tools/bestiary.html#stone%20giant%20(optional%20actions)_skt"
       }
     ],
-    "groups": ["giant"],
+    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/worker-art/stone-giant-optional-actions-1f675f8648cd2eeb.webp",
@@ -90185,7 +90715,7 @@
     "slug": "storm-giant-optional-actions",
     "name": "Storm Giant (Optional Actions)",
     "summary": "",
-    "group": "giant",
+    "group": "Giant",
     "printings": [
       {
         "id": "printing-92b24caec54c33a9b599",
@@ -90287,7 +90817,7 @@
         "source": "https://5e.tools/bestiary.html#storm%20giant%20(optional%20actions)_skt"
       }
     ],
-    "groups": ["giant"],
+    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/worker-art/storm-giant-optional-actions-9cf375dea34f7f2b.webp",
@@ -91777,7 +92307,7 @@
         "status": "Stat block"
       }
     ],
-    "groups": ["Undead", "Unclassified"]
+    "groups": ["Unclassified", "Undead"]
   },
   {
     "type": "monsters",
@@ -95641,80 +96171,85 @@
         ]
       },
       {
-        "id": "printing-9daa9bbf090d82fe6612",
+        "id": "printing-54b6542226c1cfcf77504c44",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · unaligned",
               "Armor class · 12",
               "Hit points · 22",
               "Hit dice · 5d8",
-              "Speed · walk 0 ft., fly 30 ft.",
               "Challenge · 1/4",
-              "Strength · 5",
-              "Dexterity · 15",
-              "Constitution · 10",
-              "Intelligence · 2",
-              "Wisdom · 12",
-              "Charisma · 4",
-              "Passive Perception · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast with challenge rating 1/4. Listed habitats: underdark, mountain, hill, urban. Named abilities include Echolocation, Keen Hearing, Swarm."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 0 ft., fly 30 ft.",
+              "Passive Perception · 11",
+              "Initiative · 2",
+              "XP · 50",
+              "Str · 5",
+              "Dex · 15",
+              "Con · 10",
+              "Int · 2",
+              "Wis · 12",
+              "Cha · 4"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["underdark, mountain, hill, urban"]
+            "lines": ["Underdark", "Mountains", "Hills", "Urban"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Echolocation · Deafened", "Keen Hearing · Perception", "Swarm"]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Appearance",
             "lines": [
-              "Bites · Melee attack · +4 to hit · 2d4 piercing damage · 1d4 piercing damage · reach 0 ft."
+              "A loose cloud of small brown bats with pointed ears and spread, leathery wings."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["The Nature of Swarms"]
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny beasts, unaligned"]
           },
           {
-            "title": "References",
+            "title": "Other statistics",
             "lines": [
-              "Deafened (condition) · https://5e.tools/conditionsdiseases.html#deafened_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Yuan-ti abomination (creature) · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Swarm of poisonous snakes (creature) · https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+              "Proficiency bonus +2. Blindsight 60 ft., passive Perception 11. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 337. Official online reference: https://www.dndbeyond.com/monsters/17028-swarm-of-bats\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Echolocation. The swarm loses the use of blindsight while deafened.\nKeen Hearing. It has advantage on Wisdom (Perception) checks based on hearing.\nSwarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny bat. It cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee weapon attack, +4 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 5 (2d4) piercing damage above half maximum HP or 2 (1d4) piercing damage at half maximum HP or less."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "With the printed 22 HP maximum, use the lower piercing damage at 11 HP or less."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20bats_mm"
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20bats_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/906/1000/1000/636334289313689439.jpeg",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-bats.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-47f293baadfc7e4fec55",
@@ -95792,6 +96327,218 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20bats_xmm"
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 11",
+              "Hit dice · 2d10",
+              "Challenge · 1/4",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · 5 ft., Fly 30 ft.",
+              "XP · 50",
+              "Str · 5",
+              "Dex · 15",
+              "Con · 10",
+              "Int · 2",
+              "Wis · 12",
+              "Cha · 4",
+              "Initiative · +2 (12)",
+              "Proficiency bonus · +2"
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large Swarm of Tiny Beasts, Unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Resistances Bludgeoning, Piercing, Slashing Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned Senses Blindsight 60 ft.; Passive Perception 11 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "printing-3cf4c61634bf17bfa2304591",
+        "label": "Monster Manual (2024)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 11",
+              "Hit dice · 2d10",
+              "Challenge · 1/4",
+              "Size · Large",
+              "Type · Beast",
+              "Speed · 5 ft., fly 30 ft.",
+              "Passive Perception · 11",
+              "XP · 50",
+              "Str · 5",
+              "Dex · 15",
+              "Con · 10",
+              "Int · 2",
+              "Wis · 12",
+              "Cha · 4"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Str -3", "Dex +2", "Con +0", "Int -4", "Wis +1", "Cha -3"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["forest", "mountain", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A loose cluster of small brown bats with spread leathery wings and varied flight postures."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large swarm of Tiny Beasts, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative +2 (12). Proficiency bonus +2. Resistance to bludgeoning, piercing and slashing. Immunity to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned. Blindsight 60 ft. Passive Perception 11. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 370. https://www.dndbeyond.com/monsters/5195222-swarm-of-bats"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. Other creatures can share the swarm’s space and it can share theirs. The swarm can move through an opening that admits a Tiny bat. It cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee attack roll +4, reach 5 ft. On a hit, deal 5 (2d4) piercing damage, or 2 (1d4) while the swarm is Bloodied."
+            ]
+          }
+        ],
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20bats_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/279/1000/1000/638741964691756504.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-bats.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-8a47389ffe6795b14a3f899d",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 14",
+              "Challenge · 1/4",
+              "Size · Medium",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · walk 0 ft., fly 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["forest", "mountain", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A dense flight of small bats with membranous wings and pointed ears."]
+          },
+          {
+            "title": "Senses",
+            "lines": ["keensense 60 ft."]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": ["bludgeoning", "piercing", "slashing"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": [
+              "charmed",
+              "frightened",
+              "grappled",
+              "paralyzed",
+              "petrified",
+              "prone",
+              "restrained",
+              "stunned"
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 7 HP or fewer."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": ["Bites · melee · +4 to hit · 2d6 piercing or 1d6 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Cacophonous Swarm · A creature casting a spell with a verbal component in the swarm’s space makes a DC 12 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available.",
+              "Echolocation · Keensense does not work while deafened.",
+              "Heightened Hearing · Use Perception 16 when relying on hearing.",
+              "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny bat. Cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 11 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR -3, DEX +2, CON +0, INT -4, WIS +1, CHA -3.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Vulnerable to deafened. The beast has disadvantage on checks and saves to avoid or end that condition.",
+              "Resistant to blinded. The beast has advantage on checks and saves to avoid or end that condition.",
+              "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+              "Keensense perceives the surroundings within its listed radius without relying on sight.",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 352–353."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-bats.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -96177,93 +96924,114 @@
         ]
       },
       {
-        "id": "printing-eba1eb305804bc7b51bd",
+        "id": "printing-393c8eb4804641e17ff077ce",
         "label": "Volo's Guide to Monsters",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · lawful evil",
               "Armor class · 12",
               "Hit points · 36",
               "Hit dice · 8d8",
-              "Speed · walk 30 ft.",
               "Challenge · 5",
-              "Strength · 9",
-              "Dexterity · 14",
-              "Constitution · 10",
-              "Intelligence · 15",
-              "Wisdom · 11",
-              "Charisma · 14",
-              "Passive Perception · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast with challenge rating 5. Listed habitats: underdark, urban. Named abilities include Illumination, Swarm, Telepathic Shroud."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 30 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["telepathy 30 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 10",
+              "XP · 1800",
+              "Str · 9",
+              "Dex · 14",
+              "Con · 10",
+              "Int · 15",
+              "Wis · 11",
+              "Cha · 14"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["underdark, urban"]
+            "lines": ["underdark", "urban"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Illumination · 5-foot radius · 20-foot radius", "Swarm", "Telepathic Shroud"]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Appearance",
             "lines": [
-              "Bites · Melee attack · +5 to hit · 4d6 piercing damage · 2d6 piercing damage · reach 0 ft."
+              "A coordinated cluster of gray-brown rats with bare segmented tails and exposed pink brain crowns between the ears."
             ]
           },
           {
-            "title": "Spellcasting reference",
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny Beasts, lawful evil"]
+          },
+          {
+            "title": "Other statistics",
             "lines": [
-              "Innate Spellcasting (Psionics) · Intelligence · DC 13 · Command · Comprehend languages · Detect thoughts · Confusion · Dominate monster",
-              "At will · command, comprehend languages, detect thoughts",
-              "1/day each · confusion, dominate monster"
+              "Senses. Darkvision 30 ft., Passive Perception 10. Languages. Telepathy 30 ft."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["Evil Collectives", "Telepathic Vermin", "Spies for an Elder Brain"]
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Cranium Rats, stat block p. 133. https://www.dndbeyond.com/monsters/17230-swarm-of-cranium-rats"
+            ]
           },
           {
-            "title": "References",
+            "title": "Traits",
             "lines": [
-              "Command (spell) · https://5e.tools/spells.html#command_phb",
-              "Comprehend languages (spell) · https://5e.tools/spells.html#comprehend%20languages_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Confusion (spell) · https://5e.tools/spells.html#confusion_phb",
-              "Dominate monster (spell) · https://5e.tools/spells.html#dominate%20monster_phb"
+              "Innate Spellcasting (Psionics). Intelligence, save DC 13, with no components. The swarm casts only while above half HP. Command, Comprehend Languages, and Detect Thoughts are at will. Confusion and Dominate Monster are each once per day, with expended uses recovered after a long rest.\nSwarm. The swarm and other creatures can occupy the same space. It fits through any opening a Tiny rat could use. It cannot regain HP or gain temporary HP.\nTelepathic Shroud. The swarm is immune to effects that would sense its emotions or read its thoughts and to all divination spells."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee weapon attack +5 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 14 (4d6) piercing damage. At half HP or lower it deals 7 (2d6) piercing instead."
+            ]
+          },
+          {
+            "title": "Damage and condition defenses",
+            "lines": [
+              "Resists bludgeoning, piercing, and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": [
+              "Illumination. Shed dim light within 5 ft. of the swarm, increase it to bright light in a 5- to 20-ft. radius with the same distance of dim light beyond that, or extinguish it."
+            ]
+          },
+          {
+            "title": "2014 spell procedures",
+            "lines": [
+              "Command, at will. Action, 60 ft., one visible creature. On a failed DC 13 Wisdom save it follows a one-word order on its next turn. It must understand the language. Undead and directly harmful commands are ineligible. The spell ends if the target cannot comply. The DM resolves orders outside the listed examples. Approach ends the turn when it reaches within 5 ft. of the swarm by the shortest route. Drop ends the turn after dropping held items. Flee spends the turn moving away as quickly as it can. Grovel drops it prone and ends the turn. Halt prevents movement and actions, with minimum flight allowed if needed to stay aloft.\nComprehend Languages, at will. Action, self, 1 hour. Understand literal spoken language the swarm hears and writing it sees while touching the written surface. Read one page per minute. It cannot decode ciphers or signs outside a written language.\nDetect Thoughts, at will. Action, self, concentration up to 1 minute. Read the surface thoughts of a visible creature within 30 ft. The creature must have Intelligence 4 or higher and speak a language. On a later action, switch targets or probe deeper. A probe alerts the target, which makes a DC 13 Wisdom save. Success ends the spell. Failure reveals reasoning, emotional state, and a major concern. A probed creature can use an action to end the spell by winning an Intelligence contest against the swarm while it remains the focus. On casting or as an action the swarm can also search for eligible unseen minds within 30 ft., then read them while in range. Two feet of rock, 2 inches of non-lead metal, or a thin sheet of lead blocks that search.\nConfusion, 1/day. Action, 90 ft., concentration up to 1 minute. Each creature in a 10-ft.-radius sphere around a point in range makes a DC 13 Wisdom save. A failure prevents reactions and requires a d10 at the start of each turn. On 1, roll a d8 for direction and spend all movement going that way without acting. On 2–6, the creature stays still and does nothing. On 7–8, it spends its action on one melee attack against a random creature in reach. If there is none, it does nothing. On 9–10, it moves and acts as usual. A DC 13 Wisdom save at the end of its turn ends the effect on that creature.\nDominate Monster, 1/day. Action, 60 ft., a visible creature, concentration up to 1 hour. The target makes a DC 13 Wisdom save, with advantage if the swarm or its allies are fighting it. Failure charms it. While conscious and on the same plane, the swarm can issue simple commands by telepathy without an action. If orders run out it protects itself. The swarm can spend an action for precise control through the end of its next turn and can spend its own reaction to direct the target’s reaction. Each time the target takes damage, another DC 13 Wisdom save can end the spell."
+            ]
+          },
+          {
+            "title": "HP threshold",
+            "lines": [
+              "With its printed maximum of 36 HP, the swarm can cast at 19 HP or more. At 18 HP or less, use the smaller Bites damage."
+            ]
+          },
+          {
+            "title": "Encounter ecology",
+            "lines": [
+              "The rats combine their memories and minds when they swarm and communicate as one. A rat separated from the swarm begins with Intelligence 15, loses 1 Intelligence per day to a minimum of 4, and returns to 15 when it rejoins any such swarm. Illithid colonies can receive a swarm’s reports within the elder brain’s telepathic range."
+            ]
+          },
+          {
+            "title": "Source notes",
+            "lines": [
+              "The swarm’s Telepathic Shroud covers all divination spells. The same block lists Detect Thoughts and Comprehend Languages, both self-range divinations, with no explicit self-cast exception. Both printed rules are retained.\nThe 2014 Command language and harmful-order restrictions still apply. Volo grants component-free casting and separately lists telepathy 30 ft."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20cranium%20rats_vgm"
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20cranium%20rats_vgm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/606/1000/1000/636329535490872499.jpeg",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/swarm-of-cranium-rats-d43b7e7cbf4b.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "groups": ["Aberration"]
@@ -96969,78 +97737,82 @@
         ]
       },
       {
-        "id": "printing-26a33bfbf30db4b339ae",
+        "id": "printing-a20c3e6e20d07a9dce76d6bd",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · unaligned",
-              "Armor class · 12 · natural armor",
+              "Armor class · 12",
               "Hit points · 22",
               "Hit dice · 5d8",
-              "Speed · walk 20 ft., climb 20 ft.",
               "Challenge · 1/2",
-              "Strength · 3",
-              "Dexterity · 13",
-              "Constitution · 10",
-              "Intelligence · 1",
-              "Wisdom · 7",
-              "Charisma · 1",
-              "Passive Perception · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast with challenge rating 1/2. Listed habitats: underdark, grassland, forest, swamp, hill, urban, desert. Named abilities include Swarm, Bites."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 10 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 20 ft., climb 20 ft.",
+              "Passive Perception · 8",
+              "Initiative · 1",
+              "XP · 100",
+              "Str · 3",
+              "Dex · 13",
+              "Con · 10",
+              "Int · 1",
+              "Wis · 7",
+              "Cha · 1"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["underdark, grassland, forest, swamp, hill, urban, desert"]
+            "lines": ["Forest floor", "Ruins", "Caves"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Swarm"]
+            "title": "Appearance",
+            "lines": ["A dense mass of Tiny insects with dark bodies and scattered winged forms."]
           },
           {
-            "title": "Actions reference",
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny Beasts, unaligned"]
+          },
+          {
+            "title": "Other statistics",
             "lines": [
-              "Bites · Melee attack · +3 to hit · 4d4 piercing damage · 2d4 piercing damage · reach 0 ft."
+              "Natural armor. Resistant to bludgeoning, piercing, and slashing. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned. Blindsight 10 ft. Passive Perception 8. No listed languages or skills."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["The Nature of Swarms"]
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual, first printing (September 2014), p. 338. https://www.dndbeyond.com/sources/dnd/mm-2014"
+            ]
           },
           {
-            "title": "References",
+            "title": "Errata",
             "lines": [
-              "Yuan-ti abomination (creature) · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Swarm of poisonous snakes (creature) · https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+              "Monster Manual errata v2.0 adds immunity to grappled for swarms on pp. 337–339."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. Other creatures can share the swarm’s space, and it can share theirs. It can pass through any opening that admits a Tiny insect. The swarm cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee weapon attack, +3 to hit, reach 0 ft., one target in the swarm’s space. A hit deals 10 (4d4) piercing damage, or 5 (2d4) when the swarm has half its HP or fewer."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20insects_mm"
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20insects_mm",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-insects.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-485e2914024e399c8063",
@@ -97119,6 +97891,215 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20insects_xmm"
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 19",
+              "Hit dice · 3d8 + 6",
+              "Challenge · 1/2",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · 20 ft., Climb or Fly 20 ft. (GM’s choice)",
+              "XP · 100",
+              "Str · 3",
+              "Dex · 13",
+              "Con · 14",
+              "Int · 1",
+              "Wis · 7",
+              "Cha · 1",
+              "Initiative · +1 (11)",
+              "Proficiency bonus · +2"
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium Swarm of Tiny Beasts, Unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Resistances Bludgeoning, Piercing, Slashing Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned Senses Blindsight 30 ft.; Passive Perception 8 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. If the swarm has a Climb Speed, the swarm can climb difficult surfaces, including along ceilings, without needing to make an ability check. Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the swarm is Bloodied."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "printing-5c0f8dd2fb02e8edc93d03c4",
+        "label": "Monster Manual (2024)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 11",
+              "Hit points · 19",
+              "Hit dice · 3d8 + 6",
+              "Challenge · 1/2",
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 20 ft., climb or fly 20 ft. (DM’s choice)",
+              "Passive Perception · 8",
+              "XP · 100",
+              "Str · 3",
+              "Dex · 13",
+              "Con · 14",
+              "Int · 1",
+              "Wis · 7",
+              "Cha · 1"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Str -4", "Dex +1", "Con +2", "Int -5", "Wis -2", "Cha -5"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["desert", "forest", "grassland", "hill", "swamp", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A spiral cluster of small dark insects with scattered winged forms."]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny Beasts, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative +1 (11). Proficiency bonus +2. Resistance to bludgeoning, piercing and slashing. Immunity to Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained and Stunned. Blindsight 30 ft. Passive Perception 8. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, revised Monster Manual (2025 release, 2024 rules), p. 370. https://www.dndbeyond.com/monsters/5195224-swarm-of-insects"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Spider Climb. If the swarm has a climb speed, it climbs difficult surfaces and ceilings without an ability check.\nSwarm. Other creatures can share the swarm’s space and it can share theirs. The swarm can move through an opening that admits a Tiny insect. It cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee attack roll +3, reach 5 ft. On a hit, deal 6 (2d4 + 1) poison damage, or 3 (1d4 + 1) while the swarm is Bloodied."
+            ]
+          }
+        ],
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20insects_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/283/1000/1000/638741964697080495.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-insects.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-4755087a3a32c55aaccc5905",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 24",
+              "Challenge · 1/2",
+              "Size · Medium",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · walk 20 ft., climb 20 ft.",
+              "Armor class notes · natural armor"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["desert", "forest", "grassland", "hill", "swamp", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A mass of tiny crawling insects with glossy shells, jointed legs and antennae."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["keensense 10 ft."]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": ["bludgeoning", "piercing", "slashing"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": [
+              "charmed",
+              "frightened",
+              "grappled",
+              "paralyzed",
+              "petrified",
+              "prone",
+              "restrained",
+              "stunned"
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 12 HP or fewer."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": ["Bites · melee · +3 to hit · 4d4 piercing or 2d4 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Crawling Swarm · A creature casting a spell with a somatic component in the swarm’s space makes a DC 11 CON save. On failure the spell fails and consumes the casting action. The slot or daily use remains available.",
+              "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny insect. Cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 8 and Stealth 11. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR -4, DEX +1, CON +0, INT -5, WIS -2, CHA -5.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+              "Keensense perceives the surroundings within its listed radius without relying on sight.",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 362."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-insects.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -97490,78 +98471,175 @@
         ]
       },
       {
-        "id": "printing-664f0758f0bc5920c9cd",
+        "id": "printing-2b621eb42f7171157e71194c",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · unaligned",
               "Armor class · 14",
               "Hit points · 36",
               "Hit dice · 8d8",
-              "Speed · walk 30 ft., swim 30 ft.",
               "Challenge · 2",
-              "Strength · 8",
-              "Dexterity · 18",
-              "Constitution · 11",
-              "Intelligence · 1",
-              "Wisdom · 10",
-              "Charisma · 3",
-              "Passive Perception · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast with challenge rating 2. Listed habitats: forest, swamp. Named abilities include Swarm, Bites."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["blindsight 10 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 30 ft., swim 30 ft.",
+              "Passive Perception · 10",
+              "Initiative · 4",
+              "XP · 450",
+              "Str · 8",
+              "Dex · 18",
+              "Con · 11",
+              "Int · 1",
+              "Wis · 10",
+              "Cha · 3"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["forest, swamp"]
+            "lines": ["Forest", "Swamp"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Swarm"]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Appearance",
             "lines": [
-              "Bites · Melee attack · +6 to hit · 2d6 piercing damage · 1d6 piercing damage · DC 10 Constitution save · 4d6 poison damage · reach 0 ft. · Half damage on a successful save"
+              "A close tangle of small olive-brown snakes with patterned scales and raised heads."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["The Nature of Swarms"]
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny beasts, unaligned"]
           },
           {
-            "title": "References",
+            "title": "Other statistics",
             "lines": [
-              "Yuan-ti abomination (creature) · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Swarm of poisonous snakes (creature) · https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+              "Proficiency bonus +2. Blindsight 10 ft., passive Perception 10. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 338. Official online reference: https://www.dndbeyond.com/monsters/17030-swarm-of-poisonous-snakes\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny snake. It cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee weapon attack, +6 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 7 (2d6) piercing damage above half maximum HP or 3 (1d6) piercing damage at half maximum HP or less. The target also rolls a DC 10 Constitution save. It takes 14 (4d6) poison damage on a failure or half on a success. Use these poison dice at either swarm HP tier."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "With the printed 36 HP maximum, use the lower piercing damage at 18 HP or less. The swarm’s HP tier changes the piercing component only."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-poisonous-snakes.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-48049ae9489d65520641f6fe",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 48",
+              "Challenge · 2",
+              "Size · Medium",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · walk 30 ft., swim 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["coastal", "desert", "forest", "grassland", "hill", "swamp"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tangled mass of thin venomous snakes with overlapping coils and raised heads."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["keensense 10 ft."]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": ["poison", "bludgeoning", "piercing", "slashing"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": [
+              "charmed",
+              "frightened",
+              "grappled",
+              "paralyzed",
+              "petrified",
+              "prone",
+              "restrained",
+              "stunned"
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 24 HP or fewer."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": ["Bites · melee · +6 to hit · 4d4 piercing or 2d4 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Poisonous Swarm · A creature starting its turn in the swarm’s space must make a DC 14 CON save or be poisoned until the start of its next turn.",
+              "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny snake. Cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Action mechanics",
+            "lines": [
+              "Bites · After the piercing hit, the target makes a separate DC 14 CON save for 18 (4d8) poison damage on failure or half on success. The swarm’s HP threshold changes only the piercing damage."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 10 and Stealth 14. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR -1, DEX +4, CON +0, INT -5, WIS +0, CHA -4.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Resistant to poisoned. The beast has advantage on checks and saves to avoid or end that condition.",
+              "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+              "Keensense perceives the surroundings within its listed radius without relying on sight.",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 371."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-poisonous-snakes.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -97625,47 +98703,99 @@
         ]
       },
       {
-        "id": "printing-dc81b09d6460fde3fc78",
+        "id": "printing-845178d57a54787a79278606",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · unaligned",
               "Armor class · 13",
               "Hit points · 28",
               "Hit dice · 8d8 - 8",
-              "Speed · walk 0 ft., swim 40 ft.",
               "Challenge · 1",
-              "Strength · 13",
-              "Dexterity · 16",
-              "Constitution · 9",
-              "Intelligence · 1",
-              "Wisdom · 7",
-              "Charisma · 2",
-              "Passive Perception · 8"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 0 ft., swim 40 ft.",
+              "Passive Perception · 8",
+              "Initiative · 3",
+              "XP · 200",
+              "Str · 13",
+              "Dex · 16",
+              "Con · 9",
+              "Int · 1",
+              "Wis · 7",
+              "Cha · 2"
             ]
           },
           {
-            "title": "Description",
+            "title": "Habitats",
+            "lines": ["Underwater"]
+          },
+          {
+            "title": "Appearance",
             "lines": [
-              "A Medium beast with challenge rating 1. Listed habitats: underwater. Named abilities include Blood Frenzy, Swarm, Water Breathing."
+              "A compact school of small, deep-bodied fish with silvery scales, reddish fins and sharp teeth."
             ]
           },
           {
-            "title": "Senses",
-            "lines": ["darkvision 60 ft."]
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny beasts, unaligned"]
           },
           {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
+            "title": "Other statistics",
             "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Proficiency bonus +2. Darkvision 60 ft., passive Perception 8. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 338. Official online reference: https://www.dndbeyond.com/monsters/17031-swarm-of-quippers\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Blood Frenzy. The swarm rolls melee attacks with advantage against creatures below their hit point maximum.\nSwarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny quipper. It cannot regain HP or gain temporary HP.\nWater Breathing. The swarm breathes underwater only."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee weapon attack, +5 to hit, reach 0 ft., one creature in the swarm’s space. On a hit, deal 14 (4d6) piercing damage above half maximum HP or 7 (2d6) piercing damage at half maximum HP or less."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "With the printed 28 HP maximum, use the lower piercing damage at 14 HP or less."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20quippers_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30849/311/1000/1000/638064499389977008.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-quippers.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-552c442a70d5d290ed781804",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 34",
+              "Challenge · 1",
+              "Size · Medium",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · walk 0 ft., swim 40 ft."
             ]
           },
           {
@@ -97673,30 +98803,75 @@
             "lines": ["underwater"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Blood Frenzy", "Swarm", "Water Breathing"]
+            "title": "Appearance",
+            "lines": ["A tight school of small fish with blunt heads and rows of sharp teeth."]
           },
           {
-            "title": "Actions reference",
+            "title": "Senses",
+            "lines": ["darkvision 60 ft."]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": ["bludgeoning", "piercing", "slashing"]
+          },
+          {
+            "title": "Condition immunities",
             "lines": [
-              "Bites · Melee attack · +5 to hit · 4d6 piercing damage · 2d6 piercing damage · reach 0 ft."
+              "charmed",
+              "frightened",
+              "grappled",
+              "paralyzed",
+              "petrified",
+              "prone",
+              "restrained",
+              "stunned"
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["The Nature of Swarms"]
+            "title": "Attack options",
+            "lines": [
+              "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 17 HP or fewer."
+            ]
           },
           {
-            "title": "References",
+            "title": "Attacks",
+            "lines": ["Bites · melee · +5 to hit · 4d8 piercing or 2d8 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
             "lines": [
-              "Yuan-ti abomination (creature) · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Swarm of poisonous snakes (creature) · https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+              "Blood Frenzy · Melee attack rolls have advantage against creatures below maximum HP.",
+              "Heightened Smell · Use Perception 15 when relying on smell.",
+              "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny quipper. Cannot regain HP or gain temporary HP.",
+              "Water Breathing · Breathes only underwater."
+            ]
+          },
+          {
+            "title": "Action mechanics",
+            "lines": [
+              "Bites · After the piercing hit, the target makes a DC 13 DEX save. On failure it loses 4 (1d8) HP at the start of each of its turns. A creature can spend an action and pass a DC 10 WIS (Medicine) check to stop the bleeding. Magical healing also closes the wound."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 10 and Stealth 13. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR +1, DEX +3, CON +0, INT -5, WIS +0, CHA -4.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+              "The underwater tag is supported by the v0.2 Water Breathing trait and the Swarm of Piranhas habitat in Monster Manual (2024).",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 366."
             ]
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20quippers_mm"
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-quippers.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -97783,79 +98958,85 @@
         ]
       },
       {
-        "id": "printing-64fd27aecd4e5d45d8f5",
+        "id": "printing-a44492ef86ea0aaf04972ab1",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · unaligned",
               "Armor class · 10",
               "Hit points · 24",
               "Hit dice · 7d8 - 7",
-              "Speed · walk 30 ft.",
               "Challenge · 1/4",
-              "Strength · 9",
-              "Dexterity · 11",
-              "Constitution · 9",
-              "Intelligence · 2",
-              "Wisdom · 10",
-              "Charisma · 3",
-              "Passive Perception · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast with challenge rating 1/4. Listed habitats: swamp, urban. Named abilities include Keen Smell, Swarm, Bites."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["darkvision 30 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 30 ft.",
+              "Passive Perception · 10",
+              "Initiative · 0",
+              "XP · 50",
+              "Str · 9",
+              "Dex · 11",
+              "Con · 9",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["swamp, urban"]
+            "lines": ["Swamp", "Urban"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Keen Smell · Perception", "Swarm"]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Appearance",
             "lines": [
-              "Bites · Melee attack · +2 to hit · 2d6 piercing damage · 1d6 piercing damage · reach 0 ft."
+              "A crowded knot of brown rats with pointed snouts, rounded ears and bare tails."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["The Nature of Swarms"]
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny beasts, unaligned"]
           },
           {
-            "title": "References",
+            "title": "Other statistics",
             "lines": [
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Yuan-ti abomination (creature) · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Swarm of poisonous snakes (creature) · https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+              "Proficiency bonus +2. Darkvision 30 ft., passive Perception 10. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 339. Official online reference: https://www.dndbeyond.com/monsters/17032-swarm-of-rats\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Smell. The swarm has advantage on Wisdom (Perception) checks based on smell.\nSwarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny rat. It cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee weapon attack, +2 to hit, reach 0 ft., one target in the swarm’s space. On a hit, deal 7 (2d6) piercing damage above half maximum HP or 3 (1d6) piercing damage at half maximum HP or less."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "With the printed 24 HP maximum, use the lower piercing damage at 12 HP or less."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20rats_mm"
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20rats_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/908/1000/1000/636334289541603972.jpeg",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-rats.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-37f3c50ea78ee13b65a3",
@@ -97933,6 +99114,235 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20rats_xmm"
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 10",
+              "Hit points · 14",
+              "Hit dice · 4d8 − 4",
+              "Challenge · 1/4",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · 30 ft., Climb 30 ft.",
+              "XP · 50",
+              "Str · 9",
+              "Dex · 11",
+              "Con · 9",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3",
+              "Initiative · +0 (10)",
+              "Proficiency bonus · +2"
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium Swarm of Tiny Beasts, Unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Resistances Bludgeoning, Piercing, Slashing Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned Senses Darkvision 30 ft.; Passive Perception 10 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Melee Attack Roll: +2, reach 5 ft. Hit: 5 (2d4) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied."
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Dex +2"]
+          }
+        ]
+      },
+      {
+        "id": "printing-6dbaac24f36ba798a2ebb259",
+        "label": "Monster Manual (2024)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 10",
+              "Hit points · 14",
+              "Hit dice · 4d8 − 4",
+              "Challenge · 1/4",
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 30 ft., climb 30 ft.",
+              "Passive Perception · 10",
+              "XP · 50",
+              "Str · 9",
+              "Dex · 11",
+              "Con · 9",
+              "Int · 2",
+              "Wis · 10",
+              "Cha · 3"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Strength -1",
+              "Dexterity +0",
+              "Constitution -1",
+              "Intelligence -4",
+              "Wisdom +0",
+              "Charisma -4"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["forest", "swamp", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tight heap of brown and gray rats with rounded ears, whiskers, and tangled bare tails."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium Swarm of Tiny Beasts, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative +0 (10). Proficiency Bonus +2. Senses Darkvision 30 ft., Passive Perception 10. Languages none. Resistances Bludgeoning, Piercing, Slashing. Condition immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 370. https://www.dndbeyond.com/monsters/5195228-swarm-of-rats"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. The swarm and other creatures can share spaces. It can move through openings that admit a Tiny rat. It cannot regain Hit Points or gain Temporary Hit Points."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bites. Make a +2 melee attack within 5 ft. A hit deals 5 (2d4) piercing damage, or 2 (1d4) piercing damage while the swarm is Bloodied."
+            ]
+          }
+        ],
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20rats_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/291/1000/1000/638741964709600525.jpeg",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-rats.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-3d06d99f60a01405687d2d75",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 10",
+              "Hit points · 14",
+              "Challenge · 1/4",
+              "Size · Medium",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · walk 30 ft., swim 30 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["forest", "swamp", "underdark", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A tumbling mass of small rats with matted fur, round ears and nearly hairless tails."
+            ]
+          },
+          {
+            "title": "Senses",
+            "lines": ["darkvision 30 ft."]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": ["bludgeoning", "piercing", "slashing"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": [
+              "charmed",
+              "frightened",
+              "grappled",
+              "paralyzed",
+              "petrified",
+              "prone",
+              "restrained",
+              "stunned"
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Bites has 0 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 7 HP or fewer."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": ["Bites · melee · +2 to hit · 2d6 piercing or 1d6 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Accustomed to Filth · Has advantage on saves against contracting diseases.",
+              "Heightened Smell · Use Perception 15 when relying on smell.",
+              "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny rat. Cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Action mechanics",
+            "lines": [
+              "Bites · A creature hit must make a DC 9 CON save. On failure, the GM chooses Rat Plague or poisoning until the end of the target’s next turn. The short poisoning option is complete in v0.2.",
+              "Rat Plague (v0.1 supplement) · If using the earlier publisher sidebar, the victim is poisoned and regains HP only by magic until cured. Repeat this bite’s CON save every 24 hours. Success cures the disease. Failure lowers maximum HP by 3 (1d6). The loss ends after a long rest once cured, and reaching 0 maximum HP kills the victim. Rats are immune to the disease’s effects."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 10 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR -1, DEX +0, CON -1, INT -4, WIS +0, CHA -4.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+              "The v0.2 Rat Plague option points to a Diseased Rats sidebar absent from this . The separately labeled supplement summarizes the publisher’s v0.1 sidebar. The v0.2 fallback is the listed short poisoning option.",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-rats.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -97996,78 +99406,85 @@
         ]
       },
       {
-        "id": "printing-35b48eee7068694aae5b",
+        "id": "printing-0c2052b3faaddd247303f299",
         "label": "Monster Manual (2014)",
         "gm": [
           {
             "title": "Statistics",
             "lines": [
-              "Type · beast",
-              "Size · Medium",
-              "Alignment · unaligned",
               "Armor class · 12",
               "Hit points · 24",
               "Hit dice · 7d8 - 7",
-              "Speed · walk 10 ft., fly 50 ft.",
               "Challenge · 1/4",
-              "Strength · 6",
-              "Dexterity · 14",
-              "Constitution · 8",
-              "Intelligence · 3",
-              "Wisdom · 12",
-              "Charisma · 6",
-              "Passive Perception · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Medium beast with challenge rating 1/4. Listed habitats: forest, swamp, hill, urban. Named abilities include Swarm, Beaks."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["bludgeoning, piercing, slashing"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned"
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 10 ft., fly 50 ft.",
+              "Passive Perception · 15",
+              "Initiative · 2",
+              "XP · 50",
+              "Str · 6",
+              "Dex · 14",
+              "Con · 8",
+              "Int · 3",
+              "Wis · 12",
+              "Cha · 6"
             ]
           },
           {
             "title": "Habitats",
-            "lines": ["forest, swamp, hill, urban"]
+            "lines": ["Forest", "Swamp", "Hills", "Urban"]
           },
           {
-            "title": "Traits reference",
-            "lines": ["Swarm"]
-          },
-          {
-            "title": "Actions reference",
+            "title": "Appearance",
             "lines": [
-              "Beaks · Melee attack · +4 to hit · 2d6 piercing damage · 1d6 piercing damage · reach 5 ft."
+              "A dense flock of black ravens with sturdy beaks and dark wings that catch a dull violet sheen."
             ]
           },
           {
-            "title": "Lore topics in the source",
-            "lines": ["The Nature of Swarms"]
+            "title": "Classification",
+            "lines": ["Medium swarm of Tiny beasts, unaligned"]
           },
           {
-            "title": "References",
+            "title": "Other statistics",
             "lines": [
-              "Yuan-ti abomination (creature) · https://5e.tools/bestiary.html#yuan-ti%20abomination_mm",
-              "Swarm of poisonous snakes (creature) · https://5e.tools/bestiary.html#swarm%20of%20poisonous%20snakes_mm"
+              "Proficiency bonus +2. Perception +5. Passive Perception 15. No listed special senses. Resists bludgeoning, piercing and slashing damage. Immune to charmed, frightened, grappled, paralyzed, petrified, prone, restrained and stunned. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual (2014), Appendix A, p. 339. Official online reference: https://www.dndbeyond.com/monsters/17033-swarm-of-ravens\nMonster Manual errata v2.0, p. 2, adds grappled immunity to all swarms on pp. 337–339."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. This swarm and another creature can occupy the same space. It can pass through openings that fit one Tiny raven. It cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Beaks. Melee weapon attack, +4 to hit, reach 5 ft., one target in the swarm’s space. On a hit, deal 7 (2d6) piercing damage above half maximum HP or 3 (1d6) piercing damage at half maximum HP or less."
+            ]
+          },
+          {
+            "title": "At the table",
+            "lines": [
+              "With the printed 24 HP maximum, use the lower piercing damage at 12 HP or less. Beaks lists 5-ft. reach and specifically requires the target to be in the swarm’s space."
             ]
           }
         ],
         "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#swarm%20of%20ravens_mm"
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20ravens_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/555/1000/1000/636376341743427326.jpeg",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-ravens.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       },
       {
         "id": "printing-bc132a9d9bddb9c43bce",
@@ -98148,6 +99565,222 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#swarm%20of%20ravens_xmm"
+      },
+      {
+        "id": "srd-5-2-1",
+        "label": "SRD 5.2.1",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 11",
+              "Hit dice · 2d8 + 2",
+              "Challenge · 1/4",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · 10 ft., Fly 50 ft.",
+              "XP · 50",
+              "Str · 6",
+              "Dex · 14",
+              "Con · 12",
+              "Int · 5",
+              "Wis · 12",
+              "Cha · 6",
+              "Initiative · +2 (12)",
+              "Proficiency bonus · +2"
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium Swarm of Tiny Beasts, Unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Skills Perception +5 Resistances Bludgeoning, Piercing, Slashing Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned Senses Passive Perception 15 Languages None"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can’t regain Hit Points or gain Temporary Hit Points."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Beaks. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) Piercing damage, or 2 (1d4) Piercing damage if the swarm is Bloodied. Cacophony (Recharge 6). Wisdom Saving Throw: DC 10, one creature in the swarm’s space. Failure: The target has the Deafened condition until the start of the swarm’s next turn. While Deafened, the target also has Disadvantage on ability checks and attack rolls."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "printing-fb9dd552d95e7a69269b4376",
+        "label": "Monster Manual (2024)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 11",
+              "Hit dice · 2d8 + 2",
+              "Challenge · 1/4",
+              "Size · Medium",
+              "Type · Beast",
+              "Speed · 10 ft., fly 50 ft.",
+              "Passive Perception · 15",
+              "XP · 50",
+              "Str · 6",
+              "Dex · 14",
+              "Con · 12",
+              "Int · 5",
+              "Wis · 12",
+              "Cha · 6"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Strength -2",
+              "Dexterity +2",
+              "Constitution +1",
+              "Intelligence -3",
+              "Wisdom +1",
+              "Charisma -2"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["hill", "swamp", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A flock of dark ravens with black bills and broad wings spread at different angles."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Perception +5"]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Medium Swarm of Tiny Beasts, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative +2 (12). Proficiency Bonus +2. Senses Passive Perception 15. Languages none. Resistances Bludgeoning, Piercing, Slashing. Condition immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 371. https://www.dndbeyond.com/monsters/5195229-swarm-of-ravens"
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Swarm. The swarm and other creatures can share spaces. It can move through openings that admit a Tiny raven. It cannot regain Hit Points or gain Temporary Hit Points."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Beaks. Make a +4 melee attack within 5 ft. A hit deals 5 (1d6 + 2) piercing damage, or 2 (1d4) piercing damage while the swarm is Bloodied.\nCacophony (Recharge 6). Choose one creature in the swarm’s space. It makes a DC 10 Wisdom saving throw. On a failure it is Deafened until the start of the swarm’s next turn and has Disadvantage on ability checks and attack rolls while Deafened by this action."
+            ]
+          }
+        ],
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/bestiary.html#swarm%20of%20ravens_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/293/1000/1000/638741964713344563.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-ravens.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-f49dff7812f6a7c9c0cf5d5c",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 12",
+              "Hit points · 13",
+              "Challenge · 1/4",
+              "Size · Medium",
+              "Type · Swarm of Tiny Beasts",
+              "Speed · walk 10 ft., fly 50 ft."
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["hill", "swamp", "urban"]
+          },
+          {
+            "title": "Appearance",
+            "lines": ["A flock of black ravens with heavy bills and widely spread, fingered wings."]
+          },
+          {
+            "title": "Damage resistances",
+            "lines": ["bludgeoning", "piercing", "slashing"]
+          },
+          {
+            "title": "Condition immunities",
+            "lines": [
+              "charmed",
+              "frightened",
+              "grappled",
+              "paralyzed",
+              "petrified",
+              "prone",
+              "restrained",
+              "stunned"
+            ]
+          },
+          {
+            "title": "Attack options",
+            "lines": [
+              "Beaks has 5 ft. reach and targets one creature in the swarm’s space. Use the second piercing damage roll at 6 HP or fewer."
+            ]
+          },
+          {
+            "title": "Attacks",
+            "lines": ["Beaks · melee · +4 to hit · reach 5 ft. · 2d8 piercing or 1d8 piercing"]
+          },
+          {
+            "title": "Trait mechanics",
+            "lines": [
+              "Carrion Sense · Pinpoints carrion, dead creatures and Undead without Incorporeal Movement by scent within 60 ft.",
+              "Pilfering Swarm · A creature casting a spell with a material component in the swarm’s space makes a DC 12 DEX save. On failure the spell fails and consumes the casting action. The slot or daily use remains available. The ravens steal the component.",
+              "Swarm · Can share spaces in both directions with other creatures. Passes through gaps large enough for a Tiny raven. Cannot regain HP or gain temporary HP."
+            ]
+          },
+          {
+            "title": "Table notes",
+            "lines": [
+              "Black Flag fixed values are Perception 13 and Stealth 12. Use Stealth instead of rolling when the creature hides.",
+              "Printed ability modifiers are STR -2, DEX +2, CON -1, INT -4, WIS +1, CHA -1.",
+              "Encounter habitat suggestions draw on the equivalent animal in Monster Manual (2024).",
+              "Swarm Resilience supplies the listed damage resistances and condition immunities.",
+              "Use the printed 5 ft. Beaks reach and apply the printed restriction that the target must be in the swarm’s space.",
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, p. 367–368."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Combat summary",
+        "art": [
+          {
+            "file": "/assets/library/monsters/swarm-of-ravens.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -101402,7 +103035,7 @@
     "slug": "talisolvanar-tally-fellbranch",
     "name": "Talisolvanar \"Tally\" Fellbranch",
     "summary": "",
-    "group": "humanoid",
+    "group": "Humanoid",
     "printings": [
       {
         "id": "printing-9e9f058fc1c1abc24d8e",
@@ -101461,7 +103094,7 @@
         "source": "https://5e.tools/bestiary.html#talisolvanar%20%22tally%22%20fellbranch_wdh"
       }
     ],
-    "groups": ["humanoid"],
+    "groups": ["Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/talisolvanar-tally-fellbranch-f65c477ec89c348f.webp",
@@ -124643,62 +126276,25 @@
         ]
       },
       {
-        "id": "printing-4f0937c2327930d4f6d2",
+        "id": "printing-08449a0a6a1e44f919e01796",
         "label": "Monster Manual (2014)",
-        "gm": [
+        "source": "https://5e.tools/bestiary.html#triceratops_mm",
+        "art": [
           {
-            "title": "Statistics",
-            "lines": [
-              "Type · beast",
-              "Size · Huge",
-              "Alignment · unaligned",
-              "Armor class · 13 · natural armor",
-              "Hit points · 95",
-              "Hit dice · 10d12 + 30",
-              "Speed · walk 50 ft.",
-              "Challenge · 5",
-              "Strength · 22",
-              "Dexterity · 9",
-              "Constitution · 17",
-              "Intelligence · 2",
-              "Wisdom · 11",
-              "Charisma · 5",
-              "Passive Perception · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge beast with challenge rating 5. Listed habitats: grassland. Named abilities include Trampling Charge, Gore, Stomp."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland"]
-          },
-          {
-            "title": "Traits reference",
-            "lines": ["Trampling Charge · DC 13 Strength save · Prone"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Gore · Melee attack · +9 to hit · 4d8 + 6 piercing damage · reach 5 ft.",
-              "Stomp · Melee attack · +9 to hit · 3d10 + 6 bludgeoning damage · reach 5 ft. · Prone"
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Dinosaurs"]
-          },
-          {
-            "title": "References",
-            "lines": ["Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"]
+            "file": "/assets/library/beasts/triceratops.webp",
+            "credit": "OpenAI ImageGen"
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#triceratops_mm"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-6ca3d621ed665057ce02",
@@ -124758,6 +126354,299 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#triceratops_xmm"
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "art": [
+          {
+            "file": "/assets/library/beasts/triceratops.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
+      },
+      {
+        "id": "printing-4dc167eff46ebbbad7593c8a",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/triceratops.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triceratops"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-a7594358e6d8ffa4e41ca102",
+        "label": "Monster Manual (2024)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 114",
+              "Hit dice · 12d12 + 36",
+              "Challenge · 5",
+              "Size · Huge",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "Passive Perception · 10",
+              "XP · 1800",
+              "Str · 22",
+              "Dex · 9",
+              "Con · 17",
+              "Int · 2",
+              "Wis · 11",
+              "Cha · 5"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": [
+              "Strength +6",
+              "Dexterity -1",
+              "Constitution +3",
+              "Intelligence -4",
+              "Wisdom +0",
+              "Charisma -3"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["grassland"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A low, heavy dinosaur with a bony neck frill, two long brow horns, and a shorter nose horn."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge Beast (Dinosaur), unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative -1 (9). Proficiency Bonus +3. Senses Passive Perception 10. Languages none."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Monster Manual with the 2024 rules, p. 372. https://www.dndbeyond.com/monsters/5195238-triceratops"
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. Make two Gore attacks.\nGore. Make a +9 melee attack within 5 ft. A hit deals 19 (2d12 + 6) piercing damage. If the target is Huge or smaller and the triceratops moved at least 20 ft. straight toward it immediately before the hit, add 9 (2d8) piercing damage and apply Prone."
+            ]
+          }
+        ],
+        "edition": "2024 fifth edition",
+        "source": "https://5e.tools/bestiary.html#triceratops_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/311/1000/1000/638741964737897619.png",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/triceratops.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-6248fb8ec082ee81e8f26718",
+        "label": "Revised v3.5 SRD (Monsters)",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 18",
+              "Hit points · 196",
+              "Hit dice · 16d8 + 124",
+              "Challenge · 9",
+              "Size · Huge",
+              "Type · Animal",
+              "Speed · 30 ft. (6 squares)",
+              "Initiative · -1",
+              "Touch armor class · 7",
+              "Flat-footed armor class · 18",
+              "Base attack bonus · 12",
+              "Grapple modifier · 30",
+              "Str · 30",
+              "Dex · 9",
+              "Con · 25",
+              "Int · 1",
+              "Wis · 12",
+              "Cha · 7"
+            ]
+          },
+          {
+            "title": "Saving throws",
+            "lines": ["Fort +19", "Ref +9", "Will +6"]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Temperate plains"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A massive brown quadruped with a broad bony frill, two long brow horns and a smaller nose horn."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge Animal, always neutral"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Initiative -1. AC is 18 (−2 size, −1 Dex, +11 natural), touch 7, flat-footed 18. Space/reach 15 ft./10 ft.. Base attack +12. Grapple +30. Fortitude +19, Reflex +9, Will +6."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Wizards of the Coast, Revised v3.5 SRD, MonstersDi-Do.rtf, Dinosaur, Triceratops. https://www.d20srd.org/srd/monsters/dinosaur.htm#triceratops"
+            ]
+          },
+          {
+            "title": "Attack",
+            "lines": ["Gore +20 melee, 2d8 + 15 damage."]
+          },
+          {
+            "title": "Full attack",
+            "lines": ["One Gore +20 melee, 2d8 + 15 damage."]
+          },
+          {
+            "title": "Special qualities",
+            "lines": [
+              "Low-light vision. See twice as far as a human in dim illumination while retaining color and detail.\nScent. Detect opponents by smell within 30 ft., or 60 ft. upwind and 15 ft. downwind. Strong odors double those ranges and overpowering odors triple them. A move action identifies the direction of a scent. At 5 ft. or closer, pinpoint the source."
+            ]
+          },
+          {
+            "title": "Skills and feats",
+            "lines": [
+              "Skills. Listen +13, Spot +12.\nFeats. Alertness, Great Fortitude, Toughness (four times)."
+            ]
+          },
+          {
+            "title": "Encounter ecology",
+            "lines": [
+              "Environment. Temperate plains. Organization. Solitary, pair, or herd (5–8). It is about 25 ft. long and can weigh about 20,000 lb. The combat prose favors charging larger intruders and trampling smaller opponents. Treasure none. Advancement. 17–32 HD (Huge), 33–48 HD (Gargantuan). Level adjustment none listed."
+            ]
+          },
+          {
+            "title": "Special attacks",
+            "lines": [
+              "Powerful Charge (Ex). A Gore made as part of a charge deals 4d8 + 20 damage. Apply the usual charge modifiers.\nTrample (Ex). As a full-round action, move up to twice speed, or 60 ft., and run over opponents at least one size smaller. A creature is trampled when the triceratops covers its whole space. Deal 2d12 + 15 bludgeoning damage once per target per round. A trampled opponent can make an attack of opportunity at −4, or attempt a DC 28 Reflex save for half. A partially covered larger space permits the −4 attack of opportunity without trampling. If it ends in an illegal space, return it to its most recent legal position or the nearest legal position if closer."
+            ]
+          }
+        ],
+        "edition": "3.5 edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/triceratops.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
+      },
+      {
+        "id": "printing-c0adb00609755a35b6484410",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 126",
+              "Challenge · 5",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "XP · 1800"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Open grassland", "Woodland edge"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A stout, four-legged dinosaur with a wide bony frill, two long brow horns, a short nasal horn, and mottled brown-gray skin."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Natural armor. Fixed Perception 10 and Stealth 9. No listed special senses. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229."
+            ]
+          },
+          {
+            "title": "Ability modifiers",
+            "lines": [
+              "STR +6, DEX −1, CON +3, INT −4, WIS +0, CHA −3. Black Flag uses the printed modifiers and fixed Perception and Stealth values."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Hardy. Treat a critical hit against the triceratops as a normal hit.\nTrampling Charge. Move at least 20 ft. straight toward a creature, then hit it with Gore on the same turn. The creature makes a DC 14 Strength save or falls prone. If the target is prone, the triceratops can make one Stomp attack against it as a bonus action."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. Make two Gore attacks.\nGore. Melee weapon attack, +9 to hit with 5-ft. reach against one target. Hit for 19 (3d8 + 6) piercing damage.\nStomp. Melee weapon attack, +9 to hit with 5-ft. reach against one prone creature. Hit for 17 (2d10 + 6) bludgeoning damage."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": [
+              "Warning Bugle. Each creature in a 30-ft. cone makes a DC 14 Wisdom save. A failure frightens it until the end of its next turn. If the triceratops bugles before beginning the 20-ft. charge movement, the charge target has disadvantage on the Wisdom save. If it then fails the charge’s Strength save, the triceratops can Stomp the prone target without spending another bonus action."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/triceratops.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -126337,7 +128226,7 @@
     "slug": "troll-loathsome-limbs",
     "name": "Troll (Loathsome Limbs)",
     "summary": "",
-    "group": "giant",
+    "group": "Giant",
     "printings": [
       {
         "id": "printing-2d3a641f4a99a1c25ead",
@@ -126424,7 +128313,7 @@
         "source": "https://5e.tools/bestiary.html#troll%20(loathsome%20limbs)_mm"
       }
     ],
-    "groups": ["giant"],
+    "groups": ["Giant"],
     "art": [
       {
         "file": "/assets/library/worker-art/troll-loathsome-limbs-3ce8a1904018ea35.webp",
@@ -130270,66 +132159,26 @@
         }
       },
       {
-        "id": "printing-f4e96c9e4043a380cdad",
+        "id": "printing-c281d560b12a4b018febf8e2",
         "label": "Monster Manual (2014)",
-        "gm": [
+        "source": "https://5e.tools/bestiary.html#tyrannosaurus%20rex_mm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/594/1000/1000/636376369004412963.jpeg",
+        "art": [
           {
-            "title": "Statistics",
-            "lines": [
-              "Type · beast",
-              "Size · Huge",
-              "Alignment · unaligned",
-              "Armor class · 13 · natural armor",
-              "Hit points · 136",
-              "Hit dice · 13d12 + 52",
-              "Speed · walk 50 ft.",
-              "Challenge · 8",
-              "Strength · 25",
-              "Dexterity · 10",
-              "Constitution · 19",
-              "Intelligence · 2",
-              "Wisdom · 12",
-              "Charisma · 9",
-              "Passive Perception · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Huge beast with challenge rating 8. Listed habitats: grassland. Named abilities include Bite, Tail."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland"]
-          },
-          {
-            "title": "Actions reference",
-            "lines": [
-              "Multiattack",
-              "Bite · Melee attack · +10 to hit · 4d12 + 7 piercing damage · Escape DC 17 · reach 10 ft. · Grappled · Restrained",
-              "Tail · Melee attack · +10 to hit · 3d8 + 7 bludgeoning damage · reach 10 ft."
-            ]
-          },
-          {
-            "title": "Lore topics in the source",
-            "lines": ["Dinosaurs"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
+            "file": "/assets/library/beasts/tyrannosaurus-rex.webp",
+            "credit": "OpenAI ImageGen"
           }
         ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#tyrannosaurus%20rex_mm"
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tyrannosaurus_rex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-1ee02576fb2ec8a0da47",
@@ -130401,6 +132250,141 @@
         "edition": "2024 fifth edition",
         "status": "Encounter reference",
         "source": "https://5e.tools/bestiary.html#tyrannosaurus%20rex_xmm"
+      },
+      {
+        "id": "srd-5-1",
+        "label": "SRD 5.1",
+        "art": [
+          {
+            "file": "/assets/library/beasts/tyrannosaurus-rex.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tyrannosaurus_rex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
+          }
+        }
+      },
+      {
+        "id": "printing-587fac7e434345a18e1222b8",
+        "label": "Basic Rules (2018)",
+        "art": [
+          {
+            "file": "/assets/library/beasts/tyrannosaurus-rex.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tyrannosaurus_rex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
+      },
+      {
+        "id": "printing-c3c2c47f7480a922974cbbbc",
+        "label": "Monster Manual (2024)",
+        "source": "https://5e.tools/bestiary.html#tyrannosaurus%20rex_xmm",
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/321/1000/1000/638741964751707812.png",
+        "art": [
+          {
+            "file": "/assets/library/beasts/tyrannosaurus-rex.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tyrannosaurus_rex"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
+      },
+      {
+        "id": "printing-c9888c5982696f3cc2d72e50",
+        "label": "Black Flag Roleplaying Reference Document v0.2",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 184",
+              "Challenge · 8",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "XP · 3900"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Open grassland", "Woodland edge"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A heavy bipedal dinosaur with an oversized toothed head, two-fingered forelimbs, thick hind legs, and a long counterbalancing tail."
+            ]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Huge Beast"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Natural armor. Fixed Perception 14 and Stealth 10. No listed special senses. No listed languages."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "Kobold Press, Black Flag Roleplaying Reference Document v0.2, page 259. XP comes from the CR table on page 229."
+            ]
+          },
+          {
+            "title": "Ability modifiers",
+            "lines": [
+              "STR +8, DEX +0, CON +4, INT −4, WIS +1, CHA −1. Black Flag uses the printed modifiers and fixed Perception and Stealth values."
+            ]
+          },
+          {
+            "title": "Traits",
+            "lines": ["Hardy. Treat a critical hit against the tyrannosaurus as a normal hit."]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +8 to hit with 10-ft. reach against one creature. Hit for 31 (4d12 + 5) piercing damage. A Large or smaller creature becomes grappled (escape DC 16) and restrained until the grapple ends. The tyrannosaurus cannot Bite another target while the grapple holds.\nTail. Melee weapon attack, +8 to hit with 10-ft. reach against one creature. Hit for 23 (4d8 + 5) bludgeoning damage."
+            ]
+          },
+          {
+            "title": "Bonus actions",
+            "lines": [
+              "Rending Shake. While grappling a creature, force it to make a DC 16 Strength save. On a failure it takes 6 (1d12) slashing damage, is thrown up to 20 ft. in a random direction, and falls prone. If it strikes a solid surface, it takes 3 (1d6) bludgeoning damage for every 10 ft. thrown. If the throw sends it at another creature, that creature makes a DC 16 Dexterity save or takes the same collision damage and falls prone."
+            ]
+          }
+        ],
+        "edition": "Black Flag Roleplaying",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/tyrannosaurus-rex.webp",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -132080,7 +134064,7 @@
     "slug": "ultroloth-summoner",
     "name": "Ultroloth (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-b2c914875bafa563889e",
@@ -132195,7 +134179,7 @@
         "source": "https://5e.tools/bestiary.html#ultroloth%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/ultroloth-summoner-b1ad3b444e1c580e.webp",
@@ -135949,7 +137933,7 @@
     "slug": "unspeakable-horror-customized",
     "name": "Unspeakable Horror (Customized)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-14146d0b0f2034644a5c",
@@ -136035,7 +138019,7 @@
         "source": "https://5e.tools/bestiary.html#unspeakable%20horror%20(customized)_vrgr"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/unspeakable-horror-customized-40ed1c0fbe16d4ad.webp",
@@ -156024,7 +158008,7 @@
     "slug": "volothamp-volo-geddarm",
     "name": "Volothamp \"Volo\" Geddarm",
     "summary": "",
-    "group": "humanoid",
+    "group": "Humanoid",
     "printings": [
       {
         "id": "printing-9bb7ecd234eba05fcdc0",
@@ -156106,7 +158090,7 @@
         "source": "https://5e.tools/bestiary.html#volothamp%20%22volo%22%20geddarm_toa"
       }
     ],
-    "groups": ["humanoid"],
+    "groups": ["Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/volothamp-volo-geddarm-1904039b1a57e38b.webp",
@@ -157489,7 +159473,7 @@
     "slug": "vrock-summoner",
     "name": "Vrock (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-13fe17769e7b48fc96d0",
@@ -157583,7 +159567,7 @@
         "source": "https://5e.tools/bestiary.html#vrock%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/monsters/vrock.webp",
@@ -161943,7 +163927,7 @@
         ]
       }
     ],
-    "groups": ["Humanoid (Any Lineage)", "Humanoid"]
+    "groups": ["Humanoid", "Humanoid (Any Lineage)"]
   },
   {
     "type": "monsters",
@@ -166551,7 +168535,7 @@
         "source": "https://5e.tools/bestiary.html#werejaguar_tftyp"
       }
     ],
-    "groups": ["Unclassified", "Humanoid"]
+    "groups": ["Humanoid", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -167349,7 +169333,7 @@
         "source": "https://5e.tools/bestiary.html#wereraven_vrgr"
       }
     ],
-    "groups": ["Humanoid", "Unclassified", "Monstrosity"]
+    "groups": ["Humanoid", "Monstrosity", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -173652,7 +175636,7 @@
         "source": "https://www.dndbeyond.com/monsters/17210-winged-kobold"
       }
     ],
-    "groups": ["Humanoid", "Dragon"],
+    "groups": ["Dragon", "Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/winged-kobold-fd047da0c0e39f99.png",
@@ -174664,6 +176648,110 @@
         ],
         "edition": "3.5 edition",
         "status": "Combat summary"
+      },
+      {
+        "id": "printing-ba9f408d2e102609caa9bf94",
+        "label": "DDAL04-12 - The Raven",
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 75",
+              "Hit dice · 10d10 + 20",
+              "Challenge · 3",
+              "Size · Large",
+              "Type · Beast",
+              "Speed · 50 ft.",
+              "Passive Perception · 15",
+              "XP · 700",
+              "Str · 18",
+              "Dex · 13",
+              "Con · 14",
+              "Int · 7",
+              "Wis · 12",
+              "Cha · 8"
+            ]
+          },
+          {
+            "title": "Habitats",
+            "lines": ["Barovia", "Vanishing Hills", "Trank River", "Snowy terrain", "Icy woodland"]
+          },
+          {
+            "title": "Appearance",
+            "lines": [
+              "A great shaggy wolf with a heavy white-gray coat and a broad muzzle. The encounter describes burning red eyes."
+            ]
+          },
+          {
+            "title": "Skills",
+            "lines": ["Perception +5", "Stealth +3"]
+          },
+          {
+            "title": "Classification",
+            "lines": ["Large Beast, unaligned"]
+          },
+          {
+            "title": "Other statistics",
+            "lines": [
+              "Natural armor. Passive Perception 15. Languages Common, Giant and Winter Wolf."
+            ]
+          },
+          {
+            "title": "Printed source",
+            "lines": [
+              "DDAL04-12 The Raven, version 1.0, p. 22. The encounter and party adjustments are on pp. 11–12."
+            ]
+          },
+          {
+            "title": "Damage immunities",
+            "lines": ["Cold."]
+          },
+          {
+            "title": "Traits",
+            "lines": [
+              "Keen Hearing and Smell. Advantage on Wisdom (Perception) checks that rely on hearing or smell.\nPack Tactics. It has advantage on attack rolls against a creature if one of its allies is within 5 ft. of that creature and the ally is not incapacitated.\nSnow Camouflage. It has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+            ]
+          },
+          {
+            "title": "Actions",
+            "lines": [
+              "Bite. Make a +6 melee weapon attack against one target within 5 ft. A hit deals 11 piercing damage. The printed dice expression is 2d6 + 3. A creature hit must succeed on a DC 14 Strength save or fall Prone.\nCold Breath. Each creature in a 15-ft. cone makes a DC 12 Dexterity save. On a failure it takes 18 (4d8) cold damage. On a success it takes half as much."
+            ]
+          },
+          {
+            "title": "Encounter",
+            "lines": [
+              "Six winter wolves attack from the mist. They retreat into cover between attacks and focus on prone characters. The icy ground is difficult terrain and imposes disadvantage on saves to avoid falling prone. The wolves circle a fortified camp, harry sentries and prevent sleep. Characters who cannot sleep gain one level of exhaustion. If any reach two levels of exhaustion, the wolves attack. The pack gives up if the party gets 8 miles from the campsite. To run for it, count the party as having traveled 8 hours. At the end of each additional hour, each character makes a Constitution save at DC 10 plus hours traveled past 8 or gains one exhaustion level. Eluding the wolves awards 250 XP per character."
+            ]
+          },
+          {
+            "title": "Party strength",
+            "lines": [
+              "The encounter adjustments do not stack. Weak removes one Winter Wolf. Strong increases Cold Breath to a DC 13 save and 27 cold damage. Very Strong makes the same breath change and adds one Winter Wolf. The Very Weak line says to remove two Dire Wolves even though the main encounter lists six Winter Wolves."
+            ]
+          },
+          {
+            "title": "Treasure",
+            "lines": [
+              "A successful DC 11 Dexterity (Survival) check skins a killed wolf without ruining its pelt. Each intact pelt is worth 50 gp. If the party skins every killed wolf in the encounter, see p. 16 for Larga’s barter terms for a full set of pelts."
+            ]
+          },
+          {
+            "title": "Source notes",
+            "lines": [
+              "The appendix calls this a Beast. Bite’s printed fixed damage and dice expression disagree, so this profile uses the fixed 11 and records the printed roll. Cold Breath has no printed recharge. The Strong and Very Strong breath adjustments give a fixed damage number without dice."
+            ]
+          }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Stat block",
+        "art": [
+          {
+            "file": "/assets/library/beasts/staged/winter-wolf-d77ef8deffb1.png",
+            "credit": "OpenAI ImageGen"
+          }
+        ]
       }
     ],
     "art": [
@@ -176762,7 +178850,7 @@
         "edition": "3.0 edition"
       }
     ],
-    "groups": ["Unclassified", "Humanoid"]
+    "groups": ["Humanoid", "Unclassified"]
   },
   {
     "type": "monsters",
@@ -183491,7 +185579,7 @@
         ]
       }
     ],
-    "groups": ["Monstrosity", "Humanoid"]
+    "groups": ["Humanoid", "Monstrosity"]
   },
   {
     "type": "monsters",
@@ -183835,7 +185923,7 @@
         ]
       }
     ],
-    "groups": ["Monstrosity", "Humanoid"]
+    "groups": ["Humanoid", "Monstrosity"]
   },
   {
     "type": "monsters",
@@ -188399,7 +190487,7 @@
     "slug": "yochlol-summoner",
     "name": "Yochlol (Summoner)",
     "summary": "",
-    "group": "fiend",
+    "group": "Fiend",
     "printings": [
       {
         "id": "printing-11946ea9871fec890168",
@@ -188504,7 +190592,7 @@
         "source": "https://5e.tools/bestiary.html#yochlol%20(summoner)_mm"
       }
     ],
-    "groups": ["fiend"],
+    "groups": ["Fiend"],
     "art": [
       {
         "file": "/assets/library/worker-art/yochlol-summoner-6045e1656c11a645.webp",
@@ -197017,7 +199105,7 @@
     "slug": "yuan-ti-anathema-acid-slime",
     "name": "Yuan-ti Anathema (Acid Slime)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-8ea68935769eee7740ab",
@@ -197142,7 +199230,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(acid%20slime)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-anathema-acid-slime-d13e4f46be7dea02.webp",
@@ -197155,7 +199243,7 @@
     "slug": "yuan-ti-anathema-chameleon-skin",
     "name": "Yuan-ti Anathema (Chameleon Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-520ab8729c616f597b62",
@@ -197278,7 +199366,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(chameleon%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-anathema-chameleon-skin-95f69b4468a133bb.webp",
@@ -197291,7 +199379,7 @@
     "slug": "yuan-ti-anathema-shed-skin",
     "name": "Yuan-ti Anathema (Shed Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-18659e58fd217dee9c57",
@@ -197416,7 +199504,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20anathema%20(shed%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-anathema-shed-skin-c95eb6079da12726.webp",
@@ -197677,14 +199765,14 @@
         ]
       }
     ],
-    "groups": ["Monstrosity", "Humanoid"]
+    "groups": ["Humanoid", "Monstrosity"]
   },
   {
     "type": "monsters",
     "slug": "yuan-ti-broodguard-chameleon-skin",
     "name": "Yuan-ti Broodguard (Chameleon Skin)",
     "summary": "",
-    "group": "humanoid",
+    "group": "Humanoid",
     "printings": [
       {
         "id": "printing-b288a6f0800c63cb41bd",
@@ -197779,7 +199867,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(chameleon%20skin)_vgm"
       }
     ],
-    "groups": ["humanoid"],
+    "groups": ["Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-broodguard-chameleon-skin-7099a58c3048b040.webp",
@@ -197792,7 +199880,7 @@
     "slug": "yuan-ti-broodguard-shed-skin",
     "name": "Yuan-ti Broodguard (Shed Skin)",
     "summary": "",
-    "group": "humanoid",
+    "group": "Humanoid",
     "printings": [
       {
         "id": "printing-191cfa0bbb1b4e2251a2",
@@ -197886,7 +199974,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard%20(shed%20skin)_vgm"
       }
     ],
-    "groups": ["humanoid"],
+    "groups": ["Humanoid"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-broodguard-shed-skin-937decf0a54af7de.webp",
@@ -199717,7 +201805,7 @@
     "slug": "yuan-ti-mind-whisperer-chameleon-skin",
     "name": "Yuan-ti Mind Whisperer (Chameleon Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-73772d68260ab1fed6d4",
@@ -199839,7 +201927,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(chameleon%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-mind-whisperer-chameleon-skin-017dcc44c3ca0aee.webp",
@@ -199852,7 +201940,7 @@
     "slug": "yuan-ti-mind-whisperer-shed-skin",
     "name": "Yuan-ti Mind Whisperer (Shed Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-e950c0f9dd881dbdc740",
@@ -199976,7 +202064,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20mind%20whisperer%20(shed%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-mind-whisperer-shed-skin-d594aa8c8eb911a9.webp",
@@ -200339,7 +202427,7 @@
     "slug": "yuan-ti-nightmare-speaker-chameleon-skin",
     "name": "Yuan-ti Nightmare Speaker (Chameleon Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-f3ada9fd31d5b158af49",
@@ -200465,7 +202553,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(chameleon%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-nightmare-speaker-chameleon-skin-7c146fc545878fe3.webp",
@@ -200478,7 +202566,7 @@
     "slug": "yuan-ti-nightmare-speaker-shed-skin",
     "name": "Yuan-ti Nightmare Speaker (Shed Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-ae667e365e397fc22d2b",
@@ -200606,7 +202694,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20nightmare%20speaker%20(shed%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-nightmare-speaker-shed-skin-f34f0ddbfe8be8f8.webp",
@@ -200889,7 +202977,7 @@
     "slug": "yuan-ti-pit-master-chameleon-skin",
     "name": "Yuan-ti Pit Master (Chameleon Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-1c1063c865c9d1c7d81d",
@@ -201012,7 +203100,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(chameleon%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-pit-master-chameleon-skin-ab92d80c559caf20.webp",
@@ -201025,7 +203113,7 @@
     "slug": "yuan-ti-pit-master-shed-skin",
     "name": "Yuan-ti Pit Master (Shed Skin)",
     "summary": "",
-    "group": "monstrosity",
+    "group": "Monstrosity",
     "printings": [
       {
         "id": "printing-215449137f4e1c3bab5a",
@@ -201150,7 +203238,7 @@
         "source": "https://5e.tools/bestiary.html#yuan-ti%20pit%20master%20(shed%20skin)_vgm"
       }
     ],
-    "groups": ["monstrosity"],
+    "groups": ["Monstrosity"],
     "art": [
       {
         "file": "/assets/library/worker-art/yuan-ti-pit-master-shed-skin-45bdd19373b0bd97.webp",

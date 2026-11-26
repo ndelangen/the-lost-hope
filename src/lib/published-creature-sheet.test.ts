@@ -83,20 +83,20 @@ test('separates combined-range attacks for printings without reviewed metadata',
 })
 
 test('separates named non-attack actions and traits in compact printings', () => {
-  const eel = getLibraryEntry('beasts', 'rivetback-eel', true)!
+  const eel = getLibraryEntry('monsters', 'rivetback-eel', true)!
   const actions = eel.sections.find(({ title }) => title === 'Actions')!
   expect(
     actions.lines.flatMap((line) => creatureRuleParagraphs(line)).map(({ title }) => title),
   ).toEqual(['Bite.', 'Wedge.'])
 
   // A converted printing keeps its statistics in typed data, not in text sections.
-  const lion = getLibraryEntry('beasts', 'lion', true, 'srd-5-1')!
+  const lion = getLibraryEntry('monsters', 'lion', true, 'srd-5-1')!
   expect(lion.sections).toEqual([])
   expect(lion.selected.typed?.monster.key).toBe('lion')
 })
 
 test('keeps prose before a saving throw beside the structured save', async () => {
-  const ape = getLibraryEntry('beasts', 'giant-ape', true, 'srd-5-2-1')!
+  const ape = getLibraryEntry('monsters', 'giant-ape', true, 'srd-5-2-1')!
   const { monsterPrinting } = await import('./library-monsters')
   const typed = monsterPrinting(ape.selected.typed!.monster, ape.selected.typed!.publication)!
   const toss = typed.printing.stats.abilities.find(({ key }) => key === 'boulder-toss')!
@@ -105,10 +105,10 @@ test('keeps prose before a saving throw beside the structured save', async () =>
 })
 
 test('keeps both the structured and prose statistics of a staged scalable printing', () => {
-  const land = getLibraryEntry('beasts', 'beast-of-the-land', true)!
+  const land = getLibraryEntry('monsters', 'beast-of-the-land', true)!
   const id = land.printings.find(({ label }) => label === 'Player’s Handbook')?.id
   expect(id).toBeDefined()
-  const profile = getLibraryEntry('beasts', 'beast-of-the-land', true, id)!
+  const profile = getLibraryEntry('monsters', 'beast-of-the-land', true, id)!
   const sheet = publishedCreatureSheet(profile.sections)
   expect(sheet.abilities).toContainEqual(['Strength', '14'])
   expect(

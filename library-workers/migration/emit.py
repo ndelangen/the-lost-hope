@@ -196,8 +196,10 @@ def main():
     path=os.path.join(cat,f+'.json'); data=json.load(open(path)); changed=0
     for rec in data:
       for p in rec['printings']:
-        if (rec['type'],rec['slug'],p['id']) in typed:
-          key,pk=typed[(rec['type'],rec['slug'],p['id'])]
+        # Beasts are folded into monsters (merge_beasts.py): match either type.
+        hit=next((typed[k] for k in [(t,rec['slug'],p['id']) for t in ('beasts','monsters')] if k in typed and (rec['type']==k[0] or rec['type'] in ('beasts','monsters'))),None)
+        if hit:
+          key,pk=hit
           for k in ['gm','player','status','edition','abilityDisplay','variantName']: p.pop(k,None)
           p['typed']={'monster':{'ref':'monster','key':key},'publication':{'ref':'publication','key':pk}}
           changed+=1

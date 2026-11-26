@@ -1,7 +1,6 @@
 export const libraryTypes = {
   items: 'Items',
-  monsters: 'Monsters',
-  beasts: 'Beasts',
+  monsters: 'Creatures',
   species: 'Playable species',
   npcs: 'NPCs',
   rules: 'Rules',
@@ -9,6 +8,9 @@ export const libraryTypes = {
 } as const
 
 export type LibraryType = keyof typeof libraryTypes
+
+/** Beasts were a list of their own; they are creatures now, grouped as "Beast". */
+export const MERGED_LIBRARY_TYPES: Readonly<Record<string, LibraryType>> = { beasts: 'monsters' }
 
 export function isLibraryType(value: unknown): value is LibraryType {
   return typeof value === 'string' && Object.hasOwn(libraryTypes, value)

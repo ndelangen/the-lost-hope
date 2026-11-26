@@ -98,8 +98,6 @@ export function getLibraryEntry(type: string, slug: string, dm: boolean, version
   const { name, group, groups = [group], summary, printings, art, price, rating } = record
   const selected = version ? printings.find(({ id }) => id === version) : printings[0]
   if (!selected) return undefined
-  const relatedType = type === 'beasts' ? 'monsters' : type === 'monsters' ? 'beasts' : undefined
-  const related = relatedType ? entriesByPath.get(relatedType + '/' + slug) : undefined
   const defaultArt = art ?? []
   const printingArt = selected.art ?? []
   const [primary, alternates] =
@@ -119,7 +117,6 @@ export function getLibraryEntry(type: string, slug: string, dm: boolean, version
     name,
     group,
     groups,
-    relatedType: related && (dm || !related.gmOnly) ? relatedType : undefined,
     summary,
     art: artwork,
     price,

@@ -10,8 +10,9 @@ current catalog has the statistics of converted printings removed.
 ```bash
 mkdir -p /tmp/library && for f in entries monsters-a-f monsters-g-p monsters-q-z; do git show 1ecdb3a8:src/lib/published-library-catalog/$f.json > /tmp/library/$f.json; done
 export LIBRARY_JSON_DIR=/tmp/library MIGRATION_OUT=/tmp/library
-python3 -I library-workers/migration/parse5e.py beasts
-python3 -I library-workers/migration/emit.py beasts
+python3 -I library-workers/migration/parse5e.py beasts,monsters,npcs
+python3 -I library-workers/migration/emit.py beasts-monsters-npcs
+python3 -I library-workers/migration/merge_beasts.py
 bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generate:refs
 ```
 
@@ -25,3 +26,6 @@ bunx oxfmt src/data/library src/lib/published-library-catalog && bun run generat
   per monster across publications (renamed reprints use the 2024 name), folds identical reprints
   into `reprintedIn`, writes `publications.ts`, and strips the statistics of each converted
   printing from the catalog, leaving a `typed` ref to its typed printing.
+- `merge_beasts.py` folds the catalog's beasts into its monsters, so the library has one creature
+  list filtered by creature type. A beast with a monster record gives it its printings, keeping one
+  printing per publication. Old `/library/beasts/...` links redirect.

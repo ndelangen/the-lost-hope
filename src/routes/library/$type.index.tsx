@@ -1,12 +1,19 @@
-import { createFileRoute, notFound, stripSearchParams } from '@tanstack/react-router'
+import { createFileRoute, notFound, redirect, stripSearchParams } from '@tanstack/react-router'
 
 import { LibraryBrowse } from '#/components/library/library-browse'
-import { isLibraryType, librarySearch, libraryTypes } from '#/lib/published-library-routing'
+import {
+  isLibraryType,
+  librarySearch,
+  libraryTypes,
+  MERGED_LIBRARY_TYPES,
+} from '#/lib/published-library-routing'
 
 export const Route = createFileRoute('/library/$type/')({
   validateSearch: librarySearch,
   search: { middlewares: [stripSearchParams(librarySearch({}))] },
   beforeLoad: async ({ params: { type }, search }) => {
+    const merged = MERGED_LIBRARY_TYPES[type]
+    if (merged) throw redirect({ to: '/library/$type', params: { type: merged }, search })
     const { libraryBrowseTypes, loadLibrarySearch } = await import('#/lib/published-library')
     // Search reads printed text, which loads only once someone searches.
     if (search.q) await loadLibrarySearch()
