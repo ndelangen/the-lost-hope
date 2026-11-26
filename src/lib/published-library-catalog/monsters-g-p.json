@@ -1280,74 +1280,18 @@
       {
         "id": "printing-07f5ed26eb9c8731f96f0551",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 78",
-              "Hit dice · 12d8 + 24",
-              "Challenge · 5",
-              "Type · Humanoid",
-              "Speed · 40 ft.",
-              "XP · 1800",
-              "Str · 11",
-              "Dex · 18",
-              "Con · 14",
-              "Int · 11",
-              "Wis · 16",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This monk can run across water and walls and slip away after a flurry of strikes."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (gallus), any alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Saving throw Dex +7. Acrobatics +7, Insight +6, Perception +6, Stealth +7. Passive Perception 16. Speaks Birdfolk and understands Auran without speaking it."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Wind's Grace. While moving, the monk can cross liquid surfaces or travel along vertical surfaces without falling."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make four attacks, choosing Unarmed Strike or Dart for each. Graceful Step can be used once, before or after one of the attacks.\nUnarmed Strike. Melee weapon attack, +7 to hit, reach 5 ft., one target. Hit 7 (1d6 + 4) bludgeoning damage.\nDart. Ranged weapon attack, +7 to hit, range 20/60 ft., one target. Hit 6 (1d4 + 4) piercing damage.\nGraceful Step. Move 40 ft. without provoking opportunity attacks.\nInspiring. One ally who can see and hear the monk can add a d4 roll to their next ability check, attack roll, or saving throw."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Wing Flap. Rise up to half the monk's movement speed. This can extend a normal jump but cannot be used while gliding."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Glide. If the monk falls at least 10 ft., they can use their reaction to fly in one direction up to their speed as they descend. They land in an empty space and take no falling damage. Heavy objects, heavy weapons, or shields prevent gliding, but the monk can drop held items as part of the reaction."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 197"]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237029-gallus-monk",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/738/1000/1000/638433706461337117.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/738/1000/1000/638433706461337117.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gallus_monk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -8474,54 +8418,30 @@
       {
         "id": "printing-5bd24eb186910de3773d9861",
         "label": "DDAL04-03 - The Executioner",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghast"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_03_the_executioner"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-acb52f57899470df898355d9",
         "label": "DDAL04-04 - The Marionette",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 36",
-              "Hit dice · 8d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ghast"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_04_the_marionette"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-8cc8e2e3f79af9acd33a1603",
@@ -11593,67 +11513,6 @@
       {
         "id": "printing-560e28c06a4d32068d4eca84",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 80 ft.",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 8",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Mountains", "Cliffs", "Open skies"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +4. Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them. No listed special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Basic Rules (2018), D&D Basic Rules v1.0, November 2018, and printed p. 132."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. A hit deals 10 (2d6 + 3) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-eagle-45aad2129dd6.png",
@@ -11663,7 +11522,17 @@
             "file": "/assets/library/beasts/giant-eagle.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_eagle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-3711a4d506ba2972242b2b64",
@@ -13287,77 +13156,24 @@
       {
         "id": "printing-afa31ebd258c67dc7b386e00",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 5 ft., fly 60 ft.",
-              "Passive Perception · 15",
-              "Initiative · 2",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 13",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Woodlands", "Old-growth forests"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A broad-chested tawny owl with barred flight feathers, a round facial disc, and heavy talons."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +5. Stealth +4. Darkvision 120 ft. Passive Perception 15. Speaks Giant Owl. Common, Elvish and Sylvan are understood only."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), 11th printing, Appendix A, Miscellaneous Creatures, p. 327. https://anyflip.com/kqwdv/eoae/basic/301-350#p=328"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.\nKeen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that use hearing or sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Talons. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 8 (2d6 + 1) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20owl_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/16/535/1000/1000/636376331788287090.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-owl-ad9e304223c2.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_owl"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-ee0422b8a8e8f8af013b19db",
@@ -13409,73 +13225,22 @@
       {
         "id": "printing-ef58b3ac98955b1cb465b0ec",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 5 ft., fly 60 ft.",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 13",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Woodlands", "Old-growth forests"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A broad-chested tawny owl with barred flight feathers, a round facial disc, and heavy talons."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +5. Stealth +4. Darkvision 120 ft. Passive Perception 15. Speaks Giant Owl. Common, Elvish and Sylvan are understood only."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, D&D Basic Rules v1.0 (November 2018), Chapter 12, p. 134."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. Leaving an enemy’s reach in flight does not provoke an opportunity attack.\nKeen Hearing and Sight. The owl has advantage on Wisdom (Perception) checks that use hearing or sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Talons. Melee weapon attack, +3 to hit with 5-ft. reach against one target. Hit for 8 (2d6 + 1) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-owl-ad9e304223c2.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_owl"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-1da2555b84e90cc9f434bc6c",
@@ -14816,76 +14581,23 @@
       {
         "id": "printing-f365b5f661e0c3e8f9d79b38",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 22",
-              "Hit dice · 3d10 + 6",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 60 ft.",
-              "Passive Perception · 13",
-              "Initiative · 0",
-              "XP · 200",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A dark brown vulture with a bare clay-pink head and neck, a pale ruff, and a heavy hooked slate beak."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3. Passive Perception 13. No listed special senses. Understands Common but cannot speak."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual (2014), p. 329. https://online.anyflip.com/pqhqn/sezy/files/basic-html/page330.html"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight and Smell. Apply advantage on Wisdom (Perception) checks based on sight or smell.\nPack Tactics. The vulture gains advantage on an attack roll against a creature if one of its allies is within 5 ft. of the target and is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#giant%20vulture_mm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-vulture-ba12ab680b5c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_vulture"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "srd-5-1",
@@ -14904,71 +14616,22 @@
       {
         "id": "printing-f4e07decf04d72568cb4623d",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 22",
-              "Hit dice · 3d10 + 6",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 60 ft.",
-              "XP · 200",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 6",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert", "Grassland"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A dark brown vulture with a bare clay-pink head and neck, a pale ruff, and a heavy hooked slate beak."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +3. Passive Perception 13. No listed special senses. Understands Common but cannot speak."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Wizards of the Coast, D&D Basic Rules, Version 1.0 (November 2018), p. 136."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight and Smell. Apply advantage on Wisdom (Perception) checks based on sight or smell.\nPack Tactics. The vulture gains advantage on an attack roll against a creature if one of its allies is within 5 ft. of the target and is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 7 (2d4 + 2) piercing damage.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. On a hit, deal 9 (2d6 + 2) slashing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-vulture-ba12ab680b5c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_vulture"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
+          }
+        }
       },
       {
         "id": "printing-7f96b62903744b3210f383ff",
@@ -16586,75 +16249,6 @@
       {
         "id": "printing-0fa61c7f06376e14914f1993",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 67",
-              "Hit dice · 9d8 + 27",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · 10 ft., swim 10 ft.",
-              "Passive Perception · 10",
-              "Initiative · -1",
-              "XP · 450",
-              "Str · 10",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 3",
-              "Wis · 10",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A crawling mass of chattering mouths and staring eyes. It softens the ground around it as it closes on prey."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium aberration, neutral"]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Prone."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Aberrant Ground. Ground within 10 ft. of the mouther is difficult terrain. Any creature that starts its turn in that area must pass a DC 10 Strength save or have speed 0 until the start of its next turn.\nGibbering. The mouther babbles while it can see a creature and is not Incapacitated. A creature that starts its turn within 20 ft. and hears the sound must pass a DC 10 Wisdom save. On a failure it loses reactions until the start of its next turn and rolls 1d8 for its behavior this turn.\n1–4. Do nothing.\n5–6. Use all movement in a randomly determined direction and take no action or bonus action.\n7–8. Make one melee attack against a randomly determined creature within reach. If no such attack is possible, do nothing."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bites attack and use Blinding Spittle if available.\nBites. Melee weapon attack, +2 to hit, reach 5 ft., one creature. Hit 17 (5d6) piercing damage. A Medium or smaller target must pass a DC 10 Strength save or fall Prone. If the damage kills it, the mouther absorbs it.\nBlinding Spittle (Recharge 5–6). Choose a point the mouther can see within 15 ft. The spittle bursts in a flash on impact there. Each creature within 5 ft. of the flash must pass a DC 13 Dexterity save or be Blinded until the end of the mouther's next turn."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 157."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 157 · https://5e.tools/bestiary.html#gibbering%20mouther_mm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gibbering%20mouther_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30784/554/1000/1000/638062046140139699.png",
         "art": [
@@ -16662,7 +16256,17 @@
             "file": "/assets/library/monsters/gibbering-mouther.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gibbering_mouther"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-5056f34ba4e2bb8cbb0a6a19",
@@ -18534,74 +18138,18 @@
       {
         "id": "printing-a4f4ad8e286c030f8acba4c0",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft., climb 40 ft.",
-              "Passive Perception · 15",
-              "XP · 1100",
-              "Str · 18",
-              "Dex · 16",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A white-furred, four-armed predator that scales ruins and attacks from high perches."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and four Claw attacks.\nBite. Melee weapon attack, +6 to hit, reach 5 ft., one creature. A hit deals 7 (1d6 + 4) piercing damage.\nClaw. Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 7 (1d6 + 4) slashing damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Aggressive. Move up to its speed toward a hostile creature it can see."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 139."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 139 · https://5e.tools/bestiary.html#girallon_mpmm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#girallon_mpmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/414/1000/1000/637880557617699091.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/414/1000/1000/637880557617699091.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "girallon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-f1d7f8932a132f564cc6993a",
@@ -19706,28 +19254,16 @@
       {
         "id": "printing-930dd918402d8f19267124a5",
         "label": "DDEX3-13 - Writhing in the Dark",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 91",
-              "Hit dice · 14d8 + 28",
-              "Challenge · 8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 15",
-              "Int · 14",
-              "Wis · 14",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "githyanki_knight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_13_writhing_in_the_dark"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-fea1d7cb2a2d4feb64dd39d4",
@@ -20300,85 +19836,18 @@
       {
         "id": "printing-3ebfb1cd0a35a70673cb6b07",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 49",
-              "Hit dice · 9d8 + 9",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 11",
-              "Initiative · 2",
-              "XP · 700",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 13",
-              "Wis · 13",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["An astral raider who combines greatsword strikes with psionic mobility."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +3", "Int +3", "Wis +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Astral Plane"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A lean, yellow-skinned humanoid in half plate, armed with a greatsword."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (gith), lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Half plate armor. Passive Perception 11. Gith."]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Innate Spellcasting (Psionics). Intelligence is the spellcasting ability. No spell components are required.\nAt will. Mage Hand (the hand is invisible).\n3/day each. Jump, Misty Step, Nondetection (self only)."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The warrior makes two Greatsword attacks.\nGreatsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 9 (2d6 + 2) slashing damage plus 7 (2d6) psychic damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 160."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 160 · https://5e.tools/bestiary.html#githyanki%20warrior_mm",
-              "Half plate armor (item) · https://5e.tools/items.html#half%20plate%20armor_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Jump (spell) · https://5e.tools/spells.html#jump_phb",
-              "Misty step (spell) · https://5e.tools/spells.html#misty%20step_phb",
-              "Nondetection (spell) · https://5e.tools/spells.html#nondetection_phb",
-              "Mind flayer (creature) · https://5e.tools/bestiary.html#mind%20flayer_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#githyanki%20warrior_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30784/580/1000/1000/638062047068720070.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30784/580/1000/1000/638062047068720070.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "githyanki_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-42863d3ed46f91507b21d5ef",
@@ -24042,87 +23511,23 @@
       {
         "id": "printing-c85c504fba5257720d7b827c",
         "label": "The Wild Beyond the Witchlight",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Size · Tiny",
-              "Type · Undead",
-              "Speed · 40 ft., climb 30 ft.",
-              "Passive Perception · 13",
-              "XP · 10",
-              "Str · 3",
-              "Dex · 15",
-              "Con · 10",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Bavlorna’s stuffed cat comes to life when someone opens her potion cabinet. It once belonged to Endelyn and is hostile to everyone except Bavlorna."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny undead, unaligned"]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Exhaustion, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. Gloam has advantage on Wisdom (Perception) checks that use smell."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee weapon attack, +0 to hit, 5-ft. reach, one target. A hit deals 1 slashing damage.\nCloud of Dust (encounter trigger). On Gloam’s first turn in combat or when it drops to 0 hit points, it releases a cloud that works like Dust of Sneezing and Choking. Gloam and creatures within 30 ft. that need to breathe make a DC 15 Constitution save. A creature that fails is incapacitated and suffocating. While conscious, it can repeat the save at the end of each of its turns. A success or Lesser Restoration ends the effect. Under the 2014 suffocation rule, a choking creature lasts a number of rounds equal to its Constitution modifier, with a minimum of one round. It then starts its next turn dying at 0 hit points and cannot heal or stabilize while it still cannot breathe."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "The Wild Beyond the Witchlight, chapter 2, p. 93, area B10. Apply the printed changes to the 2014 Cat stat block. Cloud effects follow the 2014 Dust of Sneezing and Choking item."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "The Wild Beyond the Witchlight, p. 93 · https://5e.tools/bestiary.html#gloam_wbtw",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Cat (beast) · https://5e.tools/bestiary.html#cat_mm",
-              "Bavlorna Blightstraw (monster) · https://5e.tools/bestiary.html#bavlorna%20blightstraw_wbtw",
-              "Endelyn Moongrave (monster) · https://5e.tools/bestiary.html#endelyn%20moongrave_wbtw"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gloam_wbtw",
         "art": [
           {
             "file": "/assets/library/worker-art/gloam-2b52f183d631a651.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gloam"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "the_wild_beyond_the_witchlight"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -25756,89 +25161,18 @@
       {
         "id": "printing-49d299ce27d241531828b011",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 65",
-              "Hit dice · 10d8 + 20",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 2",
-              "XP · 1100",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 15",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A gnoll transformed by Yeenoghu. Hyenas that eat the fang’s slain prey can become gnolls."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Con +4", "Wis +2", "Cha +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grassland", "Forest", "Hill", "Desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A demonic, upright hyena with a snapping jaw and long claws."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (gnoll), chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Hide armor. Darkvision 60 ft. Abyssal, Gnoll."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Rampage. If the gnoll reduces a creature to 0 HP with a melee attack on its turn, it can use a bonus action to move up to half its speed and make a bite attack."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one bite and two claw attacks.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 6 (1d6 + 3) piercing damage. The target makes a DC 12 Constitution save or takes 7 (2d6) poison damage.\nClaw. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 163."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Multiattack. Make one Bite and two Claw attacks. When Bite hits a creature, it takes 7 (2d6) poison in addition on a failed DC 12 Constitution save.",
-              "Rampage. If a melee attack on its turn drops a creature to 0 HP, it can spend a bonus action to move up to half its speed and make a Bite attack."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 163 · https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_mm",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/6556/966/1000/1000/636987905874404269.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/6556/966/1000/1000/636987905874404269.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gnoll_fang_of_yeenoghu"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-104260d5b2b54c3a37cee364",
@@ -26379,81 +25713,17 @@
       {
         "id": "printing-42e98cd1a035e162bc6c30e4",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 49",
-              "Hit dice · 9d8 + 9",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 2",
-              "XP · 450",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 8",
-              "Wis · 11",
-              "Cha · 9"
-            ]
+        "source": "https://5e.tools/bestiary.html#gnoll%20pack%20lord_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gnoll_pack_lord"
           },
-          {
-            "title": "Description",
-            "lines": ["A raiding leader who can prompt a nearby pack member to strike."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grassland", "Forest", "Hill", "Desert"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["An upright hyena with a powerful build, a long muzzle and a leader’s gear."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (gnoll), chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Chain shirt. Darkvision 60 ft. Gnoll."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Rampage. If the gnoll reduces a creature to 0 HP with a melee attack on its turn, it can use a bonus action to move up to half its speed and make a bite attack."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two glaive attacks or two longbow attacks, and use Incite Rampage if it is available.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one creature. Hit 5 (1d4 + 3) piercing damage.\nGlaive. Melee weapon attack, +5 to hit, reach 10 ft., one target. Hit 8 (1d10 + 3) slashing damage.\nLongbow. Ranged weapon attack, +4 to hit, range 150/600 ft., one target. Hit 6 (1d8 + 2) piercing damage.\nIncite Rampage (recharge 5–6). Choose one visible creature within 30 ft. If it can hear the pack lord and has Rampage, it can use its reaction to make a melee attack."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 163."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Multiattack. Attack twice with Glaive or Longbow and use Incite Rampage if available. Incite Rampage (Recharge 5–6) lets a creature it sees within 30 ft. make one melee attack as a reaction if it hears the call and has Rampage."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 163 · https://5e.tools/bestiary.html#gnoll%20pack%20lord_mm",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
-        "source": "https://5e.tools/bestiary.html#gnoll%20pack%20lord_mm"
+        }
       },
       {
         "id": "printing-ed60a894610f862df075afd7",
@@ -28261,96 +27531,17 @@
       {
         "id": "printing-3186bdf1ce22034b9ea08b8a",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 9",
-              "Initiative · 2",
-              "XP · 200",
-              "Str · 10",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 10",
-              "Wis · 8",
-              "Cha · 10"
-            ]
+        "source": "https://5e.tools/bestiary.html#goblin%20boss_mm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "goblin_boss"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A goblin commander who uses its allies as cover when an attack comes its way."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark", "Grassland", "Forest", "Hill"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A short, pointed-eared goblin armed with a scimitar and javelins."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small humanoid (goblinoid), neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Chain shirt and shield. Darkvision 60 ft. Common, Goblin."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Nimble Escape. On each of its turns, the boss can Disengage or Hide as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two scimitar attacks. The second roll has disadvantage.\nScimitar. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.\nJavelin. Melee or ranged weapon attack, +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 3 (1d6) piercing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Redirect Attack. When an attacker the boss can see targets it, the boss can choose another goblin within 5 ft. The two switch places and the attack targets the other goblin."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 166, with official errata."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "The 2014 Monster Manual errata gives Javelin +2 to hit and 3 (1d6) piercing damage."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 166 · https://5e.tools/bestiary.html#goblin%20boss_mm",
-              "Chain shirt (item) · https://5e.tools/items.html#chain%20shirt_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb",
-              "Hide (action) · https://5e.tools/actions.html#hide_phb"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
-        "source": "https://5e.tools/bestiary.html#goblin%20boss_mm"
+        }
       },
       {
         "id": "printing-99afb1d111377da8352a1087",
@@ -32961,83 +32152,6 @@
       {
         "id": "printing-eac8c4955724811d748fdeb1",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 114",
-              "Hit dice · 12d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft.",
-              "Passive Perception · 14",
-              "Initiative · 0",
-              "XP · 1800",
-              "Str · 20",
-              "Dex · 11",
-              "Con · 18",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An iron-plated bull that tramples prey and breathes green vapor that turns creatures to stone."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Petrified."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Trampling Charge. If it moves at least 20 ft. straight toward a creature and hits that creature with Gore on the same turn, the target must pass a DC 16 Strength save or fall Prone. If the target is Prone, the gorgon can follow up with one Hooves attack against it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 18 (2d12 + 5) piercing damage.\nHooves. Melee weapon attack, +8 to hit, reach 5 ft., one target. Hit 16 (2d10 + 5) bludgeoning damage.\nPetrifying Breath (Recharge 5–6). Creatures in a 30-ft. cone make a DC 13 Constitution save. On a failure a creature begins turning to stone and becomes Restrained. It repeats the save at the end of its next turn. A success ends the effect. A second failure leaves it Petrified until Greater Restoration or other magic frees it."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 171."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 171 · https://5e.tools/bestiary.html#gorgon_mm",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gorgon_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30784/711/1000/1000/638062051514524448.png",
         "art": [
@@ -33045,7 +32159,17 @@
             "file": "/assets/library/monsters/gorgon.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gorgon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-df74c9a61b846e9213c0ebea",
@@ -35562,165 +34686,48 @@
       {
         "id": "printing-be9f397e1536bbde819ff757",
         "label": "DDEX1-05 - The Courting of Fire",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Str · 12",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 1",
-              "Wis · 6",
-              "Cha · 2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_05_the_courting_of_fire"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-81d162e06c7bd1ae754525ac",
         "label": "DDEX2-07 - Bounty in the Bog",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Str · 12",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 1",
-              "Wis · 6",
-              "Cha · 2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_07_bounty_in_the_bog"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-b7dcca2ded71e40e66f47649",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Str · 12",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 1",
-              "Wis · 6",
-              "Cha · 2"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-7307109d6a0df265931b5e8f",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · 10 ft., climb 10 ft.",
-              "Passive Perception · 8",
-              "XP · 100",
-              "Str · 12",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 1",
-              "Wis · 6",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A slab-gray ooze that creeps along walls and corrodes armor with a touch."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium ooze, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["-2 (8)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Acid, Cold, Fire."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "Blinded, Charmed, Deafened, Exhaustion, Frightened, Grappled, Prone, Restrained."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. It can fit through gaps as narrow as 1 inch without spending extra movement.\nCorrosive Form. Destroy nonmagical ammunition immediately after it hits and deals damage to the ooze. When a nonmagical weapon touches the ooze and deals damage to it, the weapon immediately gains a cumulative −1 penalty to its attack rolls. At −5, the weapon is destroyed. Mending removes the penalty from a surviving weapon. The ooze eats through 2 inches of nonmagical wood or metal in 1 round."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Pseudopod. Melee attack, +3 to hit, reach 5 ft. On a hit, deal 10 (2d8 + 1) Acid damage. Nonmagical armor worn by the target takes a −1 penalty to the AC it provides. If this lowers the armor's AC to 10, the armor is destroyed. Mending removes the penalty from surviving armor."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 151."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 151 · https://5e.tools/bestiary.html#gray%20ooze_xmm",
-              "Mending (spell) · https://5e.tools/spells.html#mending_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gray%20ooze_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47158/490/1000/1000/638742816353241367.png",
         "art": [
@@ -35728,7 +34735,17 @@
             "file": "/assets/library/monsters/gray-ooze.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-6b83d71f4ac938c242db1a70",
@@ -36225,68 +35242,6 @@
       {
         "id": "printing-a804a7419b8ca118bb519e7d",
         "label": "Spelljammer: Adventures in Space",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 19",
-              "Hit dice · 3d8 + 6",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 0 ft., fly 40 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 15",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 1"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A six-foot scavver that hunts in packs. The smell of blood draws it in, though a wounded scavver usually breaks off the attack."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Unusual Nature. The gray scavver survives without air."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +5 to hit, reach 5 ft., one target. Roll with advantage if the target is a creature below its hit point maximum. On a hit, deal 7 (1d8 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Boo’s Astral Menagerie, p. 49."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Boo's Astral Menagerie, p. 49 · https://5e.tools/bestiary.html#gray%20scavver_bam"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gray%20scavver_bam",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/28079/866/1000/1000/637961800825892321.jpeg",
         "art": [
@@ -36294,7 +35249,17 @@
             "file": "/assets/library/worker-art/gray-scavver-30faad86f222080b.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gray_scavver"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "spelljammer_adventures_in_space"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -37167,28 +36132,16 @@
       {
         "id": "printing-67c51504295e2e609471a191",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 378",
-              "Hit dice · 36d10 + 180",
-              "Challenge · 24",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 40 ft.",
-              "Str · 22",
-              "Dex · 15",
-              "Con · 21",
-              "Int · 23",
-              "Wis · 21",
-              "Cha · 26"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grazzt"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-79c02ef62bbff1d4d5232070",
@@ -42375,77 +41328,6 @@
       {
         "id": "printing-63e2ff25e56229cc085eca12",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 54",
-              "Hit dice · 12d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A solitary hunter whose four tentacles seize prey and draw it close to a hard beak."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium aberration, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+2 (12)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak and one Tentacles attack.\nBeak. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 9 (2d6 + 2) piercing damage.\nTentacles. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 7 (1d10 + 2) slashing damage. A Medium or smaller creature hit by the attack is Grappled by all four tentacles, escape DC 12."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest, Underdark."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 158."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 158 · https://5e.tools/bestiary.html#grick_xmm",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#grick_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/948/1000/1000/638741964231690861.png",
         "art": [
@@ -42453,7 +41335,17 @@
             "file": "/assets/library/monsters/grick.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grick"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-0149747332d56a93a4852991",
@@ -42800,78 +41692,6 @@
       {
         "id": "printing-f31d5e8ce33d88e722f13016",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 135",
-              "Hit dice · 18d10 + 36",
-              "Challenge · 7",
-              "Size · Large",
-              "Type · Aberration",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "XP · 2900",
-              "Str · 18",
-              "Dex · 16",
-              "Con · 15",
-              "Int · 4",
-              "Wis · 14",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A grick that has grown to immense size over centuries. It seeks out prey and may eat smaller gricks."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large aberration, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+3 (13)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak attack, one Slam attack, and one Tentacles attack.\nBeak. Melee attack, +7 to hit, reach 10 ft. A hit deals 22 (4d8 + 4) piercing damage.\nSlam. Melee attack, +7 to hit, reach 10 ft. A hit deals 7 (1d6 + 4) bludgeoning damage. A Large or smaller creature hit also falls Prone.\nTentacles. Melee attack, +7 to hit, reach 10 ft. A hit deals 15 (2d10 + 4) slashing damage. If the target is a Large or smaller creature, all four tentacles Grapple it (escape DC 14)."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forest, Underdark."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 158."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 158 · https://5e.tools/bestiary.html#grick%20ancient_xmm",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_xphb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#grick%20ancient_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/946/1000/1000/638741964229036929.png",
         "art": [
@@ -42879,7 +41699,17 @@
             "file": "/assets/library/monsters/grick.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grick_ancient"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -43319,109 +42149,26 @@
       {
         "id": "printing-5e289651deea0ec165d6a0bf",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., fly 80 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 8"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary",
         "art": [
           {
             "file": "/assets/library/monsters/griffon.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "griffon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
+          }
+        }
       },
       {
         "id": "printing-ea12a5c55cc592359e5eaf81",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 30 ft., fly 80 ft.",
-              "Passive Perception · 15",
-              "XP · 450",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A hunter with the body of a big cat and the head and wings of a raptor. The familiar eagle-and-lion form is one of several breeds."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+2 (12)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks.\nRend. Melee attack, +6 to hit, reach 5 ft. A hit deals 8 (1d8 + 4) piercing damage. On a hit, a Medium or smaller creature is also Grappled by both front claws, escape DC 14."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Arctic, Coastal, Grassland, Hill, Mountain."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["None."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 159."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 159 · https://5e.tools/bestiary.html#griffon_xmm",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#griffon_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/950/1000/1000/638741964234402696.png",
         "art": [
@@ -43433,7 +42180,17 @@
             "file": "/assets/library/monsters/griffon-alternate.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "griffon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-87db8aae71960081403520df",
@@ -44530,70 +43287,6 @@
       {
         "id": "printing-b1791175968d0c9a2d504c5b",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 13",
-              "XP · 50",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 9",
-              "Wis · 8",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An eyeless servant of mind flayers that climbs cavern walls and channels psychic power through a bone cudgel."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +5", "Perception +3", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium aberration, neutral evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+1 (11)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 30 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bone Cudgel. Melee attack, +5 to hit, reach 5 ft. A hit deals 6 (1d6 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 160."]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2025), p. 160 · https://5e.tools/bestiary.html#grimlock_xmm"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#grimlock_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/952/1000/1000/638741964237366688.png",
         "art": [
@@ -44601,7 +43294,17 @@
             "file": "/assets/library/monsters/grimlock.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "grimlock"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-95fbdf54fb95322b53390132",
@@ -53951,54 +52654,30 @@
       {
         "id": "printing-20b63f02ed2ac05f45b479b6",
         "label": "DDAL04-04 - The Marionette",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 5",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 0 ft.",
-              "Str · 1",
-              "Dex · 1",
-              "Con · 10",
-              "Int · 14",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guardian_portrait"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_04_the_marionette"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-7adce2b06a93b38e439264d6",
         "label": "DDAL04-13 - The Horseman",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 5",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 0 ft.",
-              "Str · 1",
-              "Dex · 1",
-              "Con · 10",
-              "Int · 14",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "guardian_portrait"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_13_the_horseman"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Construct"]
@@ -63679,28 +62358,16 @@
       {
         "id": "printing-093f8be070139885a23bf518",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 50 ft.",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 13",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hell_hound"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9e2eb78742941d7030f3dfc7",
@@ -63727,106 +62394,58 @@
       {
         "id": "printing-f7d9373c461b4f087017cfa2",
         "label": "DDAL04-09 - The Tempter",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 50 ft.",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 13",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hell_hound"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_09_the_tempter"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-dc46beae95d2dd2a55758fe3",
         "label": "DDEX1-13 - Pool of Radiance Resurgent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 50 ft.",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 13",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hell_hound"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_13_pool_of_radiance_resurgent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-898da86da0c6f40f2c5447a6",
         "label": "DDEX3-04 - It's All in the Blood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 50 ft.",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 13",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hell_hound"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_04_it_s_all_in_the_blood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-bc10874694df04fe5e655c47",
         "label": "DDEX3-15 - Szith Morcane Unbound",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 50 ft.",
-              "Str · 17",
-              "Dex · 12",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 13",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hell_hound"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_15_szith_morcane_unbound"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6a62e71022a222116cc56731",
@@ -65361,80 +63980,44 @@
       {
         "id": "printing-eaa177ab06b71f3f00ba9557",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "helmed_horror"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-1f440820f5c163b78fb0c64e",
         "label": "DDEX3-15 - Szith Morcane Unbound",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "helmed_horror"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_15_szith_morcane_unbound"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-7ec02006e989b333eed913ff",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "helmed_horror"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-ac9a844aaf3de3fa4f178c92",
@@ -65712,54 +64295,30 @@
       {
         "id": "printing-dae65dc58efbdcdc94fe79fe",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "helmed_horror"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6bb831326ed6f7fd56298b98",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 20",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "helmed_horror"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-1872230b2ea63bc55a743c98",
@@ -69949,68 +68508,6 @@
       {
         "id": "printing-4323b77f251a67bbc428cb3d",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft., fly 60 ft.",
-              "Passive Perception · 15",
-              "Initiative · 1",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 13",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A winged, eagle-fronted creature with a horse's hindquarters. A hippogriff raised in captivity can become a loyal mount."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight. It has advantage on Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak and one Claws attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 8 (1d10 + 3) piercing damage.\nClaws. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 10 (2d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 184."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 184 · https://5e.tools/bestiary.html#hippogriff_mm",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#hippogriff_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30788/724/1000/1000/638062180295344327.png",
         "art": [
@@ -70018,7 +68515,17 @@
             "file": "/assets/library/monsters/hippogriff.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hippogriff"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-c46d419866a2e4a07c354793",
@@ -70111,79 +68618,6 @@
       {
         "id": "printing-eb44bea7d0d7975c29a60ffb",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft., fly 60 ft.",
-              "Passive Perception · 15",
-              "XP · 200",
-              "Str · 17",
-              "Dex · 13",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Part horse and part bird of prey, a hippogriff hunts as it migrates. Some carry riders who offer food or aid."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+1 (11)."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. An enemy cannot make an Opportunity Attack when the hippogriff leaves that enemy's reach by flying."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks.\nRend. Melee attack, +5 to hit, reach 5 ft. A hit deals 7 (1d8 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Grassland, Hill, Mountain."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["None."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 169."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 169 · https://5e.tools/bestiary.html#hippogriff_xmm",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#hippogriff_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/977/1000/1000/638741964275433115.png",
         "art": [
@@ -70191,7 +68625,17 @@
             "file": "/assets/library/monsters/hippogriff.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hippogriff"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-e9f7d8d7bc8678ab8d418c01",
@@ -83983,89 +82427,6 @@
       {
         "id": "printing-3958da51e9ae73698a515cde",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 184",
-              "Hit dice · 16d12 + 80",
-              "Challenge · 8",
-              "Size · Huge",
-              "Type · Monstrosity",
-              "Speed · 40 ft., swim 40 ft.",
-              "Passive Perception · 16",
-              "XP · 3900",
-              "Str · 20",
-              "Dex · 12",
-              "Con · 20",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A hydra fights with all of its heads at once. Cutting down a head gives it a chance to grow two, and fire can interrupt that regrowth."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+4 (14)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Blinded, Charmed, Deafened, Frightened, Stunned, Unconscious."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Hold Breath. The hydra can hold its breath for 1 hour.\nMultiple Heads. The hydra starts with five heads. Each time it takes at least 25 damage on a single turn, one head dies. The hydra dies when it loses its last head. At the end of each of its turns, if it has a living head and has taken no fire damage since its last turn, it grows two heads for each head that died since its last turn. Growing new heads restores 20 HP.\nReactive Heads. Each head after the first grants one additional Reaction that the hydra can use only to make an Opportunity Attack."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack per living head.\nBite. Melee attack, +8 to hit, reach 10 ft. A hit deals 10 (1d10 + 5) piercing damage."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coasts and swamps."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 175."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 175 · https://5e.tools/bestiary.html#hydra_xmm",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Reaction (rule) · https://5e.tools/variantrules.html#reaction_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#hydra_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/996/1000/1000/638741964301487263.jpeg",
         "art": [
@@ -84081,7 +82442,17 @@
             "file": "/assets/library/worker-art/marsh-hydra-6592becd429d8561.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hydra"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-79370b004556aad00d91415c",
@@ -86030,28 +84401,16 @@
       {
         "id": "printing-c40100287041de732ac50485",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1/2",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 7",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 9",
-              "Wis · 11",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ice_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-ba0bdd3918314eb298e35131",
@@ -89108,28 +87467,16 @@
       {
         "id": "printing-15ae269e90bf428c55f434db",
         "label": "DDEX1-08 - Tales Trees Tell",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 10",
-              "Hit dice · 3d4 + 3",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · walk 20 ft., fly 40 ft.",
-              "Str · 6",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 11",
-              "Wis · 12",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "imp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_08_tales_trees_tell"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-a57bbaac6c5411b077b7fafc",
@@ -102955,72 +101302,18 @@
       {
         "id": "printing-cdc4bb3426c3799ab10ebd7a",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 14",
-              "Hit dice · 4d6",
-              "Challenge · 1/2",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 100",
-              "Str · 12",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 8",
-              "Wis · 14",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A nimble pickpocket who can steal from someone who leaves an opening in melee."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Humanoid (jerbeen), neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Leather armor. Acrobatics +4, Sleight of Hand +4. Passive Perception 12. Speaks Birdfolk and Jerbeen."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Standing Leap. Long jump up to 30 ft. or high jump up to 15 ft., with or without a running start."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Dagger attacks.\nDagger. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": ["Team Tactics. Take the Help action as a bonus action."]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Opportunist. After a creature misses the thief with a melee attack, the thief can make a Dexterity (Sleight of Hand) check against DC 10 plus that creature’s Dexterity modifier. On a success, the thief takes one item the GM chooses. It must be something the attacker is carrying without holding or wearing it."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 200"]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237035-jerbeen-thief",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/757/1000/1000/638433706494096929.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/757/1000/1000/638433706494096929.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "jerbeen_thief"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       },
       {
         "id": "printing-a781c6a315a6cdfaa344e4aa",
@@ -132381,62 +130674,18 @@
       {
         "id": "printing-c8b5a468c013451bb9f0e67d",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 4d6 + 8",
-              "Challenge · 1",
-              "Type · Fiend",
-              "Speed · 30 ft.",
-              "XP · 200",
-              "Str · 11",
-              "Dex · 15",
-              "Con · 14",
-              "Int · 5",
-              "Wis · 8",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A failed summoning can bring this troublesome fiend in place of whatever the caster meant to call."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Fiend (demon), chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Resists cold, fire and lightning damage. Immune to poison damage and the Poisoned condition. Darkvision 60 ft., passive Perception 9. Speaks Abyssal."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 7 (2d4 + 2) slashing damage.\nFoul Odor (1/day). Fill a 20-ft. sphere with poison gas for 1 minute. The gas reaches around corners and heavily obscures the area. A creature entirely inside at the start of its turn makes a DC 11 Constitution save. On a failure, it spends its action retching. Poison immunity prevents the effect. Wind of at least 10 mph clears the gas after 4 rounds. Wind of at least 20 mph clears it after 1 round."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix A, p. 184"]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "The Foul Odor entry gives a 20-ft. sphere without specifying radius or diameter."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237036-lesser-demon",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/760/1000/1000/638433706501273122.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/760/1000/1000/638433706501273122.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lesser_demon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -139907,28 +138156,16 @@
       {
         "id": "printing-b65f078e24ddde23967d908e",
         "label": "DDAL04-11 - The Donjon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "lizardfolk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_11_the_donjon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9aabec88a516619738e49518",
@@ -151217,28 +149454,16 @@
       {
         "id": "printing-e084e1ee2ac425810196a338",
         "label": "DDEX2-02 - Embers of Elmwood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 22",
-              "Hit dice · 5d6 + 5",
-              "Challenge · 1/2",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 8",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "magma_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_02_embers_of_elmwood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-d7eca3050a312e6dfa9304ac",
@@ -151349,28 +149574,16 @@
       {
         "id": "printing-fdd1a4b5f964a2b40851d01b",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 22",
-              "Hit dice · 5d6 + 5",
-              "Challenge · 1/2",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 8",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "magma_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-72eb6f620e6e2a671eaa467b",
@@ -154997,85 +153210,23 @@
       {
         "id": "printing-54145f346b90f0e0a85d4a32",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 45",
-              "Hit dice · 7d10 + 7",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · 5 ft.",
-              "Passive Perception · 10",
-              "XP · 200",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 1",
-              "Wis · 10",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A giant carnivorous flytrap releases pollen that draws prey within reach of its leafy jaws."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large plant, unaligned"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Tremorsense 30 ft."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Blinded, deafened, exhaustion, prone."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "False Appearance. While still, the mantrap looks like an ordinary tropical plant."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Attractive Pollen (1/Day). When it detects a nearby creature, the mantrap can release pollen in a 30-ft. radius. Each beast or humanoid in the area must make a DC 11 Wisdom save. On a failure, the creature uses all its movement on each of its turns to get as close as it can to the mantrap. It can repeat the save at the end of each of its turns, ending the effect on a success."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Engulf. Melee weapon attack, +4 to hit, reach 5 ft., one Medium or smaller creature. On a hit the target is caught in the jaws, blinded and restrained. It has total cover against attacks and other effects from outside the mantrap and takes 14 (4d6) acid damage at the start of each of its turns. The mantrap can engulf one creature at a time. Its death ends the restraint."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Tomb of Annihilation, appendix D, p. 227."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tomb of Annihilation, p. 227 · https://5e.tools/bestiary.html#mantrap_toa",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#mantrap_toa",
         "art": [
           {
             "file": "/assets/library/worker-art/mantrap-5629dc149976bd88.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mantrap"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Plant"]
@@ -155090,64 +153241,18 @@
       {
         "id": "printing-1fd8fc2138881c9e94563653",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Type · Humanoid",
-              "Speed · 30 ft., climb 20 ft.",
-              "XP · 25",
-              "Str · 12",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 8",
-              "Wis · 12",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A bandit who uses darkness and climbable terrain to set up an ambush."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (Mapach), neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Leather armor. Resists poison damage. Darkvision 60 ft., passive Perception 11. Speaks Birdfolk and Mapach."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Resilience. The bandit rolls saves against being poisoned with advantage.\nSkulker. In dim light or darkness, the bandit has advantage on Stealth checks."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Short Sword. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) slashing damage.\nShortbow. Ranged weapon attack, +3 to hit, range 80/320 ft., one target. Hit 4 (1d6 + 1) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 202."]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["This printing gives the Short Sword slashing damage."]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237039-mapach-bandit",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/768/1000/1000/638433706518588668.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/768/1000/1000/638433706518588668.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mapach_bandit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       },
       {
         "id": "printing-124452ab212af4a5e963ac46",
@@ -155175,68 +153280,18 @@
       {
         "id": "printing-f2cf7388030005a9c8f876df",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 75",
-              "Hit dice · 10d8 + 30",
-              "Challenge · 3",
-              "Type · Humanoid",
-              "Speed · 30 ft., climb 20 ft.",
-              "XP · 700",
-              "Str · 14",
-              "Dex · 17",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 14",
-              "Cha · 14"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A bandit enforcer who fights with a rapier and parrying dagger. Krall uses this profile."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (Mapach), chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Studded leather. Dex save +5, Cha save +4. Deception +4, Persuasion +4. Resists poison damage. Darkvision 60 ft., passive Perception 12. Speaks Birdfolk and Mapach."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Resilience. The brute rolls saves against being poisoned with advantage.\nSkulker. In dim light or darkness, the brute has advantage on Stealth checks."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rapier attacks and one Parrying Dagger attack.\nRapier. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 7 (1d8 + 3) piercing damage.\nParrying Dagger. Melee weapon attack, +5 to hit, reach 5 ft., one target. Hit 6 (1d6 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Parry. Add 2 AC against a melee attack that would hit the brute. They must see the attacker and hold a melee weapon."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 202."]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237040-mapach-brute",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/772/1000/1000/638433706524048615.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/772/1000/1000/638433706524048615.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mapach_brute"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       },
       {
         "id": "printing-00e7b7810cc37afb99852c53",
@@ -182110,28 +180165,16 @@
       {
         "id": "printing-489bbce07beb1df7525ecd75",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 20 ft.",
-              "Str · 16",
-              "Dex · 8",
-              "Con · 15",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mummy"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-57b5d2694a3573efaf0c7f1c",
@@ -182301,28 +180344,16 @@
       {
         "id": "printing-79716f74919de307bf575e00",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 20 ft.",
-              "Str · 16",
-              "Dex · 8",
-              "Con · 15",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mummy"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -182925,28 +180956,16 @@
       {
         "id": "printing-675301982166be5d1528df9e",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 97",
-              "Hit dice · 13d8 + 39",
-              "Challenge · 15",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 20 ft.",
-              "Str · 18",
-              "Dex · 10",
-              "Con · 17",
-              "Int · 11",
-              "Wis · 18",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mummy_lord"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -184350,28 +182369,16 @@
       {
         "id": "printing-315d394486150a8aab53d205",
         "label": "DDEX3-03 - The Occupation of Szith Morcane",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 20 ft.",
-              "Str · 10",
-              "Dex · 10",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "myconid_adult"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_03_the_occupation_of_szith_morcane"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-085c6ac8f05f918c30bb6db3",
@@ -184786,28 +182793,16 @@
       {
         "id": "printing-ecce116ef87135f63119a896",
         "label": "DDEX3-03 - The Occupation of Szith Morcane",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 60",
-              "Hit dice · 8d10 + 16",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Plant",
-              "Speed · walk 30 ft.",
-              "Str · 12",
-              "Dex · 10",
-              "Con · 14",
-              "Int · 13",
-              "Wis · 15",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "myconid_sovereign"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_03_the_occupation_of_szith_morcane"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-dda042e3b39c1aee8c1dab55",
@@ -190139,28 +188134,16 @@
       {
         "id": "printing-aea05a63ec178f3cbfd3e8bb",
         "label": "DDEP1 - Corruption in Kryptgarden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "necromancer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep1_corruption_in_kryptgarden"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-618d7429d33384c2ca9076a9",
@@ -192184,85 +190167,18 @@
       {
         "id": "printing-ec1e2326231370799d0b89dc",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 7",
-              "Hit dice · 3d4",
-              "Challenge · 1/8",
-              "Size · Tiny",
-              "Type · Aberration",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 10",
-              "XP · 25",
-              "Str · 3",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Neogi hatchlings compete with their siblings for survival. Adult neogi control the survivors and train them to dominate umber hulks."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["hill", "underdark"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A tiny spider-like creature with a long, eel-like neck and sharp fangs."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny aberration, typically lawful evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Mental Fortitude. The hatchling has advantage on saves against being charmed or frightened and cannot be put to sleep by magic.\nSpider Climb. It can climb difficult surfaces and traverse ceilings upside down without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 3 (1d4 + 1) piercing damage plus 3 (1d6) poison damage. The target makes a DC 10 Constitution save or becomes poisoned for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 191."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "On a Bite hit, a failed DC 10 Constitution save leaves the target Poisoned for 1 minute. The creature can repeat the save at the end of each turn, ending it on success."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 191 · https://5e.tools/bestiary.html#neogi%20hatchling_mpmm",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#neogi%20hatchling_mpmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/564/1000/1000/637880557875322467.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/564/1000/1000/637880557875322467.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "neogi_hatchling"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-fb80a119ee5269d248a34020",
@@ -196303,54 +194219,30 @@
       {
         "id": "printing-a44792a4c505e963492b81fb",
         "label": "DDEX2-04 - Mayhem in the Earthspur Mines",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 60 ft., fly 90 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "nightmare"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_04_mayhem_in_the_earthspur_mines"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-06ab85eb224cf4811233b7b7",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 68",
-              "Hit dice · 8d10 + 24",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · walk 60 ft., fly 90 ft.",
-              "Str · 18",
-              "Dex · 15",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "nightmare"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-3dfe91a2f3a11d1d20e5da19",
@@ -203509,78 +201401,6 @@
       {
         "id": "printing-b3a313c1bdf7b7bc18a1aba5",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 18",
-              "Hit dice · 4d4 + 8",
-              "Challenge · 1/4",
-              "Size · Tiny",
-              "Type · Ooze",
-              "Speed · 20 ft.",
-              "Passive Perception · 12",
-              "XP · 50",
-              "Str · 8",
-              "Dex · 16",
-              "Con · 15",
-              "Int · 14",
-              "Wis · 11",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A young ooze that forms when a mature oblex sheds a stolen personality. It grows by feeding on memories and cannot yet impersonate its victims."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +4", "Cha +2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny ooze, typically lawful evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft. (blind beyond this radius)."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Blinded, charmed, deafened, exhaustion, prone."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. The oblex can pass through a gap 1 inch wide without squeezing.\nAversion to Fire. After taking fire damage, the oblex has disadvantage on attack rolls and ability checks until the end of its next turn.\nUnusual Nature. The oblex does not need sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Pseudopod. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) psychic damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 197."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 197 · https://5e.tools/bestiary.html#oblex%20spawn_mpmm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#oblex%20spawn_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/584/1000/1000/637880557901244975.jpeg",
         "art": [
@@ -203588,7 +201408,17 @@
             "file": "/assets/library/worker-art/oblex-spawn-d91265a65b9f5548.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "oblex_spawn"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-31360f7e0e414e0a798d09af",
@@ -204501,54 +202331,30 @@
       {
         "id": "printing-5e16d92c1517a0f291f67b30",
         "label": "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 45",
-              "Hit dice · 6d10 + 12",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Str · 15",
-              "Dex · 6",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 6",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ochre_jelly"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_11_dark_pyramid_of_sorcerer_s_isle"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-3aa9a631a3635cf9736d19ee",
         "label": "DDEX3-07 - Herald of the Moon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 45",
-              "Hit dice · 6d10 + 12",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Ooze",
-              "Speed · walk 10 ft., climb 10 ft.",
-              "Str · 15",
-              "Dex · 6",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 6",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ochre_jelly"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_07_herald_of_the_moon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-96d8eae70b945cc63f29d865",
@@ -204583,93 +202389,6 @@
       {
         "id": "printing-e8cc57dff259089e4af59068",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 52",
-              "Hit dice · 7d10 + 14",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Ooze",
-              "Speed · 20 ft., climb 20 ft.",
-              "Passive Perception · 8",
-              "XP · 450",
-              "Str · 15",
-              "Dex · 6",
-              "Con · 14",
-              "Int · 2",
-              "Wis · 6",
-              "Cha · 1"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A yellow-brown jelly that scales cave ceilings and divides when cut."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large ooze, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["-2 (8)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Acid."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Lightning, Slashing."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, Deafened, Exhaustion, Frightened, Grappled, Prone, Restrained."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. It can fit through gaps as narrow as 1 inch without spending extra movement.\nSpider Climb. It climbs difficult surfaces and ceilings without an ability check."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Pseudopod. Melee attack, +4 to hit, reach 5 ft. On a hit, deal 12 (3d6 + 2) Acid damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Split. A Medium or Large jelly with at least 10 HP can react when it becomes Bloodied or is subjected to Lightning or Slashing damage. Replace it with two of the same kind, each one size smaller. They act on the original's initiative and each receives half its current HP, rounded down."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 230."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 230 · https://5e.tools/bestiary.html#ochre%20jelly_xmm",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Bloodied (status) · https://5e.tools/conditionsdiseases.html#bloodied_xphb",
-              "Initiative (rule) · https://5e.tools/variantrules.html#initiative_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#ochre%20jelly_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/130/1000/1000/638741964483720834.png",
         "art": [
@@ -204677,7 +202396,17 @@
             "file": "/assets/library/monsters/ochre-jelly.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ochre_jelly"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-ff9f1b6a1b13eff78f884806",
@@ -208466,28 +206195,16 @@
       {
         "id": "printing-37fe55e07826f58af2a25e3f",
         "label": "DDAL04-13 - The Horseman",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 136",
-              "Hit dice · 21d8 + 42",
-              "Challenge · 10",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 40 ft.",
-              "Str · 13",
-              "Dex · 18",
-              "Con · 15",
-              "Int · 16",
-              "Wis · 17",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "omou"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_13_the_horseman"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -210997,28 +208714,16 @@
       {
         "id": "printing-2295a5f057c1c8e09d72b785",
         "label": "DDAL04-12 - The Raven",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 93",
-              "Hit dice · 11d8 + 44",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 11",
-              "Wis · 13",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc_blood_shaman_orc_war_chief"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_12_the_raven"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -211661,28 +209366,16 @@
       {
         "id": "printing-b22bc726d183d2f574f0a815",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 9",
-              "Wis · 13",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc_eye_of_gruumsh"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-ace82b247d81dd7f5d7826b4",
@@ -211734,28 +209427,16 @@
       {
         "id": "printing-e71803da91fa82118500c853",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 9",
-              "Wis · 13",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc_eye_of_gruumsh"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -213000,28 +210681,16 @@
       {
         "id": "printing-75c9d3a6f2007adfbd134f5c",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 93",
-              "Hit dice · 11d8 + 44",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 11",
-              "Wis · 11",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orc_war_chief"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-0d468030d8a005c50cbc8ce0",
@@ -214669,80 +212338,18 @@
       {
         "id": "printing-bcde98325cdc35857b4147c4",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 42",
-              "Hit dice · 5d8 + 20",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 1",
-              "XP · 450",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 12",
-              "Wis · 11",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A heavily armored orc that closes the distance and swings twice."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark", "Mountain", "Grassland", "Forest", "Hill", "Arctic"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A heavily built orc in plate armor, armed with a greataxe and javelins."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +5", "Survival +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (orc), chaotic evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Plate. Darkvision 60 ft. Common, Orc."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Aggressive. As a bonus action, move up to its speed toward a hostile creature it can see."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two greataxe attacks.\nGreataxe. Melee weapon attack, +6 to hit, reach 5 ft., one target. Hit 10 (1d12 + 4) slashing damage.\nJavelin. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit 7 (1d6 + 4) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 247."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 247 · https://5e.tools/bestiary.html#orog_mm",
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#orog_mm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/168/1000/1000/638063882887755060.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/168/1000/1000/638063882887755060.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "orog"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-645be5b25415d06ac2ee4faf",
@@ -218413,81 +216020,6 @@
       {
         "id": "printing-68eaf28255b455754793244b",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 40 ft., climb 40 ft.",
-              "Passive Perception · 15",
-              "Initiative · 1",
-              "XP · 700",
-              "Str · 20",
-              "Dex · 12",
-              "Con · 17",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A beaked forest predator that can climb after prey and pursue a trail for miles."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+1 (11)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft.."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Rend attacks.\nRend. Melee attack, +7 to hit, reach 5 ft. A hit deals 14 (2d8 + 5) Slashing damage."
-            ]
-          },
-          {
-            "title": "Habitat",
-            "lines": ["Forest."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 234."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Start with a blocked trail and the animal guarding food. Leave space to back away, lure it off the trail, or fight."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2025), p. 234 · https://5e.tools/bestiary.html#owlbear_xmm"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#owlbear_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/138/1000/1000/638741964495949233.jpeg",
         "art": [
@@ -218499,7 +216031,17 @@
             "file": "/assets/library/worker-art/owlbear-70f017067244fc28.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "owlbear"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-05cd343c336ffb2c3e7de5d9",
@@ -224245,54 +221787,30 @@
       {
         "id": "printing-d8f30b19afae02772368e204",
         "label": "DDAL04-09 - The Tempter",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 16",
-              "Int · 8",
-              "Wis · 10",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phantom_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_09_the_tempter"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-448d449c43ca262322d66c0e",
         "label": "DDAL04-14 - The Darklord",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 16",
-              "Int · 8",
-              "Wis · 10",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phantom_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_14_the_darklord"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Undead"]
@@ -224547,83 +222065,6 @@
       {
         "id": "printing-8db5079428845e737a7f21f7",
         "label": "Monster Manual (2014)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 32",
-              "Hit dice · 5d10 + 5",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 10",
-              "Initiative · 2",
-              "XP · 700",
-              "Str · 15",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A spider that hunts from the Ethereal Plane. It can appear beside prey, strike, and slip out of reach."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Spider Climb. The spider climbs difficult surfaces and ceilings without an ability check.\nWeb Walker. Webbing does not impede the spider's movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one creature. Hit 7 (1d10 + 2) piercing damage. The target makes a DC 11 Constitution save. Take 18 (4d8) poison damage on a failure or half on a success. If the poison damage reduces the target to 0 HP, it is Stable but Poisoned for 1 hour even if it regains HP. It is Paralyzed while Poisoned this way."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Ethereal Jaunt. The spider magically shifts from the Material Plane to the Ethereal Plane or back again."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2014), p. 334."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2014), p. 334 · https://5e.tools/bestiary.html#phase%20spider_mm",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#phase%20spider_mm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30849/305/1000/1000/638064499219616973.png",
         "art": [
@@ -224631,33 +222072,31 @@
             "file": "/assets/library/monsters/phase-spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phase_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2014"
+          }
+        }
       },
       {
         "id": "printing-1cafc5bfc3cf277df14a6136",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 32",
-              "Hit dice · 5d10 + 5",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Str · 15",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phase_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6c391d2cb98f983941b239f5",
@@ -224684,144 +222123,34 @@
       {
         "id": "printing-91054b37dfcc367568f1fb8a",
         "label": "DDAL04-11 - The Donjon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 32",
-              "Hit dice · 5d10 + 5",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Str · 15",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phase_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_11_the_donjon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-be0621be18c7cbb7af6ce0fd",
         "label": "DDAL04-12 - The Raven",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 32",
-              "Hit dice · 5d10 + 5",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., climb 30 ft.",
-              "Str · 15",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 6"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phase_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_12_the_raven"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9f8fa5eb2ebb7af6156ed4e5",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 45",
-              "Hit dice · 7d10 + 7",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 10",
-              "XP · 700",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 12",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A horse-sized Ethereal Plane spider that watches the Material Plane for prey and shifts across to attack."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+3 (13)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ethereal Sight. It sees up to 60 ft. into the Ethereal Plane from the Material Plane and up to 60 ft. into the Material Plane from the Ethereal Plane.\nSpider Climb. It can cross difficult climbing surfaces and move along ceilings without an ability check.\nWeb Walker. Webs impose no movement restrictions on the spider. It knows the location of any other creature touching the same web."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Bite attacks.\nBite. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 8 (1d10 + 3) piercing damage plus 9 (2d8) poison damage. If the Bite damage drops the target to 0 HP, the target becomes Stable and is Poisoned for 1 hour. It is also Paralyzed while this Poisoned condition lasts."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Ethereal Jaunt. Teleport to the Ethereal Plane from the Material Plane or to the Material Plane from the Ethereal Plane."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Desert, Forest, Grassland, Hill, Planar (Ethereal Plane), Underdark, Urban."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 239."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 239 · https://5e.tools/bestiary.html#phase%20spider_xmm",
-              "Hit Points (rule) · https://5e.tools/variantrules.html#hit%20points_xphb",
-              "Stable (rule) · https://5e.tools/variantrules.html#stable_xphb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#phase%20spider_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/150/1000/1000/638741964510649838.png",
         "art": [
@@ -224829,7 +222158,17 @@
             "file": "/assets/library/monsters/phase-spider.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "phase_spider"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-efb1ea661fe31caf94e1851f",
@@ -225982,28 +223321,16 @@
       {
         "id": "printing-6fbd4fa40f7b05c7c9597a09",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 5 ft., climb 5 ft.",
-              "Str · 10",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 1",
-              "Wis · 7",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "piercer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9c38453584b3c7b732a441aa",
@@ -228247,28 +225574,16 @@
       {
         "id": "printing-c31712a6aa2e0c6c2f383525",
         "label": "DDEX1-08 - Tales Trees Tell",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 1/4",
-              "Size · Tiny",
-              "Type · Fey",
-              "Speed · walk 10 ft., fly 30 ft.",
-              "Str · 2",
-              "Dex · 20",
-              "Con · 8",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "pixie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_08_tales_trees_tell"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-4af0f723eb3ec29b31ce8e0d",
@@ -228399,75 +225714,18 @@
       {
         "id": "printing-42c54bf70b291b417f30f89c",
         "label": "Planescape: Adventures in the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 1/4",
-              "Type · Fey",
-              "Speed · 10 ft., fly 30 ft.",
-              "XP · 50",
-              "Str · 2",
-              "Dex · 20",
-              "Con · 8",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forests"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A tiny woodland faerie with bright, translucent wings and pointed ears."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Fey, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +4, Stealth +7. Passive Perception 14. Sylvan."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. The pixie has Advantage on saves against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Superior Invisibility. It turns itself and all worn or carried gear Invisible while it maintains Concentration."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Innate spellcasting uses Charisma, save DC 12. Pixie dust is its sole component.\nAt will · Druidcraft.\n1/day each · Confusion, Dancing Lights, Detect Evil and Good, Detect Thoughts, Dispel Magic, Entangle, Fly, Phantasmal Force, Polymorph and Sleep."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Uses the verified Monster Manual (2014) stat block for this creature. Check this publication for encounter-specific changes.",
-              "Rules source: Monster Manual (2014), p. 253."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#pixie_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/17192-pixie",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/690/1000/1000/638063894965168047.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/690/1000/1000/638063894965168047.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "pixie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "planescape_adventures_in_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-8c044e68ee9879e1b6b175e4",
@@ -228501,75 +225759,18 @@
       {
         "id": "printing-2ba472450c38fe33461cbe4c",
         "label": "The Wild Beyond the Witchlight",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 1",
-              "Hit dice · 1d4 - 1",
-              "Challenge · 1/4",
-              "Type · Fey",
-              "Speed · 10 ft., fly 30 ft.",
-              "XP · 50",
-              "Str · 2",
-              "Dex · 20",
-              "Con · 8",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forests"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A tiny woodland faerie with bright, translucent wings and pointed ears."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Fey, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Perception +4, Stealth +7. Passive Perception 14. Sylvan."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. The pixie has Advantage on saves against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Superior Invisibility. It turns itself and all worn or carried gear Invisible while it maintains Concentration."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Innate spellcasting uses Charisma, save DC 12. Pixie dust is its sole component.\nAt will · Druidcraft.\n1/day each · Confusion, Dancing Lights, Detect Evil and Good, Detect Thoughts, Dispel Magic, Entangle, Fly, Phantasmal Force, Polymorph and Sleep."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Uses the verified Monster Manual (2014) stat block for this creature. Check this publication for encounter-specific changes.",
-              "Rules source: Monster Manual (2014), p. 253."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2014) index · https://5e.tools/bestiary.html#pixie_mm"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/17192-pixie",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/690/1000/1000/638063894965168047.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30834/690/1000/1000/638063894965168047.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "pixie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "the_wild_beyond_the_witchlight"
+          }
+        }
       }
     ],
     "groups": ["Fey"],
@@ -233275,28 +230476,16 @@
       {
         "id": "printing-096ac0413a69c4793e948518",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 25 ft.",
-              "Str · 10",
-              "Dex · 10",
-              "Con · 12",
-              "Int · 13",
-              "Wis · 16",
-              "Cha · 13"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "priest"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-2a5d7162ee411470421ab4c5",

@@ -95,6 +95,7 @@ export default createPublicationMonsters({
       name: 'Hulking Crab',
       page: 240,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Coastal'],
       appearance: [['An immense crab with a rough, rock-colored shell and heavy claws.']],
       stats: {
@@ -155,6 +156,7 @@ export default createPublicationMonsters({
       name: 'Ice Spider',
       page: 127,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['underdark', 'forest', 'swamp', 'urban', 'desert'],
       appearance: [['A white-furred giant spider with small red eyes.']],
       tableNotes: [
@@ -258,6 +260,7 @@ export default createPublicationMonsters({
       name: 'Pig',
       page: 143,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'forest', 'hill'],
       appearance: [
         ['A fat domestic pig with pale bristly skin, a rounded snout, and a curled tail.'],

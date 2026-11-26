@@ -145,6 +145,7 @@ export default createPublicationMonsters({
       name: 'Giant Space Hamster',
       page: 56,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Wildspace'],
       appearance: [
         [
@@ -343,6 +344,44 @@ export default createPublicationMonsters({
             ],
             uses: 1,
             recharge: 'Recharge 4–6',
+          },
+        ],
+      },
+    },
+    gray_scavver: {
+      name: 'Gray Scavver',
+      page: 49,
+      alignment: 'unaligned',
+      stats: {
+        size: 'medium',
+        type: 'monstrosity',
+        cr: '1/4',
+        ac: 12,
+        armor: 'natural armor',
+        hitDice: '3d8',
+        speed: { walk: 0, fly: 40 },
+        scores: { str: 16, dex: 13, con: 15, int: 1, wis: 10, cha: 1 },
+        senses: { darkvision: 120 },
+        abilities: [
+          {
+            key: 'unusual-nature',
+            name: 'Unusual Nature',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['The gray scavver survives without air.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
           },
         ],
       },
@@ -569,6 +608,7 @@ export default createPublicationMonsters({
       name: 'Space Guppy',
       page: 55,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Wildspace', 'Astral Sea'],
       appearance: [
         ['A short bronze-gold fish with a rounded face, dark blue eyes and flowing apricot fins.'],
@@ -619,6 +659,7 @@ export default createPublicationMonsters({
       name: 'Space Mollymawk',
       page: 57,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Wildspace'],
       appearance: [
         [

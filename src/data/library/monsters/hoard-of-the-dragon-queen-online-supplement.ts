@@ -1,0 +1,125 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+export default createPublicationMonsters({
+  publication: refs.publications.hoard_of_the_dragon_queen_online_supplement,
+  monsters: {
+    assassin: {
+      name: 'Assassin',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '8',
+        ac: 15,
+        hitDice: '12d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 16, con: 14, int: 13, wis: 11, cha: 10 },
+        abilities: [],
+      },
+    },
+    gray_ooze: {
+      name: 'Gray Ooze',
+      stats: {
+        size: 'medium',
+        type: 'ooze',
+        cr: '1/2',
+        ac: 8,
+        hitDice: '3d8',
+        speed: { walk: 10, climb: 10 },
+        scores: { str: 12, dex: 6, con: 16, int: 1, wis: 6, cha: 2 },
+        abilities: [],
+      },
+    },
+    griffon: {
+      name: 'Griffon',
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '2',
+        ac: 12,
+        hitDice: '7d10',
+        speed: { walk: 30, fly: 80 },
+        scores: { str: 18, dex: 15, con: 16, int: 2, wis: 13, cha: 8 },
+        abilities: [],
+      },
+    },
+    helmed_horror: {
+      name: 'Helmed Horror',
+      stats: {
+        size: 'medium',
+        type: 'construct',
+        cr: '4',
+        ac: 20,
+        hitDice: '8d8',
+        speed: { walk: 30, fly: 30 },
+        scores: { str: 18, dex: 13, con: 16, int: 10, wis: 10, cha: 10 },
+        abilities: [],
+      },
+    },
+    priest: {
+      name: 'Priest',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 13,
+        hitDice: '5d8',
+        speed: { walk: 25 },
+        scores: { str: 10, dex: 10, con: 12, int: 13, wis: 16, cha: 13 },
+        abilities: [],
+      },
+    },
+    rug_of_smothering: {
+      name: 'Rug of Smothering',
+      stats: {
+        size: 'large',
+        type: 'construct',
+        cr: '2',
+        ac: 12,
+        hitDice: '6d10',
+        speed: { walk: 10 },
+        scores: { str: 17, dex: 14, con: 10, int: 1, wis: 3, cha: 1 },
+        abilities: [],
+      },
+    },
+    stone_golem: {
+      name: 'Stone Golem',
+      stats: {
+        size: 'large',
+        type: 'construct',
+        cr: '10',
+        ac: 17,
+        hitDice: '17d10',
+        speed: { walk: 30 },
+        scores: { str: 22, dex: 9, con: 20, int: 3, wis: 11, cha: 1 },
+        abilities: [],
+      },
+    },
+    vampire: {
+      name: 'Vampire',
+      stats: {
+        size: 'medium',
+        type: 'undead',
+        cr: '13',
+        ac: 16,
+        hitDice: '17d8',
+        speed: { walk: 30 },
+        scores: { str: 18, dex: 18, con: 18, int: 17, wis: 15, cha: 18 },
+        abilities: [],
+      },
+    },
+    yuan_ti_malison: {
+      name: 'Yuan-ti Malison',
+      stats: {
+        size: 'medium',
+        type: 'monstrosity',
+        cr: '3',
+        ac: 12,
+        hitDice: '12d8',
+        speed: { walk: 30 },
+        scores: { str: 16, dex: 14, con: 13, int: 14, wis: 12, cha: 16 },
+        abilities: [],
+      },
+    },
+  },
+})

@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Ammit',
       page: 324,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['swamp'],
       appearance: [
         [
@@ -107,6 +108,7 @@ export default createPublicationMonsters({
       name: 'Cerodon',
       page: 332,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['arctic'],
       appearance: [
         [
@@ -187,6 +189,7 @@ export default createPublicationMonsters({
       name: 'Hippopotamus',
       page: 322,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         [
@@ -263,10 +266,83 @@ export default createPublicationMonsters({
         ],
       },
     },
+    large_drake: {
+      name: 'Large Drake',
+      page: 324,
+      alignment: 'neutral good',
+      habitats: ['mountain', 'grassland', 'hill', 'coastal'],
+      appearance: [
+        ['A reptilian flyer with a scaled head, two legs, and enormous leathery wings.'],
+      ],
+      tableNotes: [
+        [
+          'The 2014 Giant Eagle provides the mechanical alignment, languages, and attack names. The drake’s head still looks reptilian. It has no fire breath.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 13,
+        hitDice: '4d10',
+        speed: { walk: 10, fly: 80 },
+        scores: { str: 16, dex: 17, con: 13, int: 8, wis: 14, cha: 10 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-sight',
+            name: 'Keen Sight',
+            timing: 'trait',
+            icon: 'lucide/Eye',
+            text: ['Sight-based Wisdom (Perception) checks have advantage.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'beak' },
+              ' attack and one ',
+              { ability: 'talons' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'talons',
+            name: 'Talons',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     small_drake: {
       name: 'Small Drake',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['mountain', 'grassland', 'coastal'],
       appearance: [
         [

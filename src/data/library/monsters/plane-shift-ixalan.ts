@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Aegisaur',
       page: 79,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         [
@@ -60,6 +61,7 @@ export default createPublicationMonsters({
       name: 'Aerosaur (Small)',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['mountain', 'grassland', 'coastal'],
       appearance: [
         [
@@ -104,6 +106,7 @@ export default createPublicationMonsters({
       name: 'Altisaur',
       page: 139,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'forest'],
       appearance: [
         [
@@ -164,6 +167,7 @@ export default createPublicationMonsters({
       name: 'Armasaur',
       page: 140,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'forest'],
       appearance: [
         [
@@ -200,6 +204,7 @@ export default createPublicationMonsters({
       name: 'Brontodon',
       page: 139,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'forest'],
       appearance: [
         [
@@ -257,6 +262,7 @@ export default createPublicationMonsters({
       name: 'Ceratops',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         [
@@ -325,6 +331,7 @@ export default createPublicationMonsters({
       name: 'Ferocidon',
       page: 79,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         [
@@ -393,6 +400,7 @@ export default createPublicationMonsters({
     frilled_deathspitter: {
       name: 'Frilled Deathspitter',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Ixalan jungles', 'Jungle ruins'],
       appearance: [
         [
@@ -472,6 +480,7 @@ export default createPublicationMonsters({
       name: 'Hadrosaur',
       page: 140,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'swamp'],
       appearance: [
         [
@@ -514,6 +523,7 @@ export default createPublicationMonsters({
       name: 'Macaw',
       page: 39,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['swamp', 'hill', 'urban'],
       appearance: [
         [
@@ -564,6 +574,7 @@ export default createPublicationMonsters({
       name: 'Parrot',
       page: 39,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['swamp', 'hill', 'urban'],
       appearance: [
         [
@@ -614,6 +625,7 @@ export default createPublicationMonsters({
       name: 'Piranha',
       page: 40,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['underwater'],
       appearance: [
         [
@@ -671,6 +683,7 @@ export default createPublicationMonsters({
       name: 'Sailback',
       page: 30,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['swamp'],
       appearance: [
         [
@@ -758,6 +771,7 @@ export default createPublicationMonsters({
       name: 'Trilobite',
       page: 40,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['coastal'],
       appearance: [
         [
@@ -809,6 +823,7 @@ export default createPublicationMonsters({
       name: 'Trilobite (Giant)',
       page: 40,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['coastal'],
       appearance: [
         [
@@ -862,6 +877,7 @@ export default createPublicationMonsters({
       name: 'Tyrant',
       page: 31,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         [

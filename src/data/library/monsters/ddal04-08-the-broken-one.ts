@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Frederick (Mastiff)',
       page: 22,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Orașnou', 'Village'],
       appearance: [
         ['A hefty tricolor basset hound with short legs, a long body and low-hanging brown ears.'],

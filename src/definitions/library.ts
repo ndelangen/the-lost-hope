@@ -42,8 +42,10 @@ export const MonsterPrinting = z.strictObject({
   alignment: z.string().trim().min(1).optional().describe('As printed, e.g. `unaligned`'),
   languages: z
     .array(z.string().trim().min(1))
-    .default([])
-    .describe('Empty when it has none; a rule such as telepathy is written out'),
+    .optional()
+    .describe(
+      'Empty when it has none; left out when the source we read did not record them. A rule such as telepathy is written out',
+    ),
   habitats: z.array(z.string().trim().min(1)).min(1).optional(),
   appearance: Content.optional().describe('What the party sees, for describing it at the table'),
   lore: Content.optional().describe('Background the publication gives, for the DM'),

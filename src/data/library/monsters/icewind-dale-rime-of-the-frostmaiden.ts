@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Chimeric Baboon',
       page: 246,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['forest', 'hill'],
       appearance: [['An olive-brown baboon with a long muzzle and exposed upper canines.']],
       tableNotes: [
@@ -59,6 +60,7 @@ export default createPublicationMonsters({
       name: 'Chimeric Cat',
       page: 246,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'forest', 'urban', 'desert'],
       appearance: [['A tabby cat with a slender pair of sensory antennae.']],
       tableNotes: [
@@ -103,6 +105,7 @@ export default createPublicationMonsters({
       name: 'Chimeric Fox',
       page: 246,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Menagerie', 'Arctic', 'Forest'],
       appearance: [
         [
@@ -159,6 +162,7 @@ export default createPublicationMonsters({
       name: 'Chimeric Hare',
       page: 246,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Menagerie', 'Arctic'],
       appearance: [
         ['A white snowshoe hare with upright black-tipped ears and a pair of feathered wings.'],
@@ -190,6 +194,7 @@ export default createPublicationMonsters({
       name: 'Fox',
       page: 288,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic', 'Forest', 'Ten-Towns outskirts'],
       appearance: [['A white arctic fox with thick winter fur and a bushy tail.']],
       stats: {
@@ -230,6 +235,7 @@ export default createPublicationMonsters({
       name: 'Giant Walrus',
       page: 312,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic', 'Coastal', 'Sea of Moving Ice'],
       appearance: [
         ['An elephant-sized walrus with thick folds of skin, bristly whiskers and two long tusks.'],
@@ -297,6 +303,7 @@ export default createPublicationMonsters({
       name: 'Hare',
       page: 294,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic', 'Burrows'],
       appearance: [
         ['A winter snowshoe hare with relatively short ears and broad furry hind feet.'],
@@ -323,10 +330,52 @@ export default createPublicationMonsters({
         ],
       },
     },
+    kingsport: {
+      name: 'Kingsport',
+      page: 243,
+      alignment: 'unaligned',
+      habitats: ['Ythryn Library'],
+      appearance: [
+        ['An eyeless albino penguin, about five feet tall, in a plain leather harness.'],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'beast',
+        cr: '0',
+        ac: 11,
+        hitDice: '1d8',
+        speed: { walk: 20, swim: 40 },
+        scores: { str: 6, dex: 12, con: 12, int: 10, wis: 10, cha: 4 },
+        senses: { blindsight: 30 },
+        abilities: [
+          {
+            key: 'hold-breath',
+            name: 'Hold Breath',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['Kingsport can hold his breath for 20 minutes.'],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     walrus: {
       name: 'Walrus',
       page: 312,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic', 'Coastal', 'Underwater'],
       appearance: [
         [

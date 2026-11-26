@@ -1525,6 +1525,7 @@ export default createPublicationMonsters({
     animated_armor: {
       name: 'Animated Armor',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1572,6 +1573,7 @@ export default createPublicationMonsters({
     animated_flying_sword: {
       name: 'Animated Flying Sword',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'construct',
@@ -1613,6 +1615,7 @@ export default createPublicationMonsters({
     ankheg: {
       name: 'Ankheg',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1796,6 +1799,7 @@ export default createPublicationMonsters({
     axe_beak: {
       name: 'Axe Beak',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -1824,6 +1828,7 @@ export default createPublicationMonsters({
     badger: {
       name: 'Badger',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -1960,62 +1965,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    basilisk: {
-      name: 'Basilisk',
-      alignment: 'unaligned',
-      stats: {
-        size: 'medium',
-        type: 'monstrosity',
-        cr: '3',
-        ac: 15,
-        hitDice: '8d8',
-        speed: { walk: 20 },
-        scores: { str: 16, dex: 8, con: 15, int: 2, wis: 8, cha: 7 },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [
-                { dice: '2d6', type: rules.piercing, addModifier: true },
-                { dice: '2d6', type: rules.poison },
-              ],
-            },
-          },
-          {
-            key: 'petrifying-gaze',
-            name: 'Petrifying Gaze',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'Constitution Saving Throw: ',
-              { dc: 'con' },
-              ', each creature in a 30-foot Cone. If the basilisk sees its reflection in the Cone, the basilisk must make this save. First Failure: The target has the ',
-              rules.restrained,
-              ' condition and repeats the save at the end of its next turn if it is still ',
-              rules.restrained,
-              ', ending the effect on itself on a success. Second Failure: The target has the ',
-              rules.petrified,
-              ' condition instead of the ',
-              rules.restrained,
-              ' condition.',
-            ],
-            uses: 1,
-            recharge: 'Recharge 4–6',
-          },
-        ],
-      },
-    },
     bat: {
       name: 'Bat',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -2083,6 +2036,7 @@ export default createPublicationMonsters({
     black_bear: {
       name: 'Black Bear',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -3044,49 +2998,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    cockatrice: {
-      name: 'Cockatrice',
-      alignment: 'unaligned',
-      stats: {
-        size: 'small',
-        type: 'monstrosity',
-        cr: '1/2',
-        ac: 11,
-        hitDice: '5d6',
-        speed: { walk: 20, fly: 40 },
-        scores: { str: 6, dex: 12, con: 12, int: 2, wis: 13, cha: 5 },
-        senses: { darkvision: 60 },
-        conditionImmunities: [rules.petrified],
-        abilities: [
-          {
-            key: 'petrifying-bite',
-            name: 'Petrifying Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: ',
-              { dc: 'con' },
-              '. First Failure: The target has the ',
-              rules.restrained,
-              ' condition. The target repeats the save at the end of its next turn if it is still ',
-              rules.restrained,
-              ', ending the effect on itself on a success. Second Failure: The target has the ',
-              rules.petrified,
-              ' condition, instead of the ',
-              rules.restrained,
-              ' condition, for 24 hours.',
-            ],
-          },
-        ],
-      },
-    },
     commoner: {
       name: 'Commoner',
       alignment: 'neutral',
@@ -3128,6 +3039,7 @@ export default createPublicationMonsters({
     constrictor_snake: {
       name: 'Constrictor Snake',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -3362,6 +3274,7 @@ export default createPublicationMonsters({
     crocodile: {
       name: 'Crocodile',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -3440,6 +3353,7 @@ export default createPublicationMonsters({
     darkmantle: {
       name: 'Darkmantle',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'aberration',
@@ -3487,6 +3401,7 @@ export default createPublicationMonsters({
     deer: {
       name: 'Deer',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -3626,6 +3541,7 @@ export default createPublicationMonsters({
     dire_wolf: {
       name: 'Dire Wolf',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -3754,6 +3670,7 @@ export default createPublicationMonsters({
     draft_horse: {
       name: 'Draft Horse',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -3959,6 +3876,7 @@ export default createPublicationMonsters({
     eagle: {
       name: 'Eagle',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'beast',
@@ -4190,6 +4108,7 @@ export default createPublicationMonsters({
     elephant: {
       name: 'Elephant',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -4345,116 +4264,6 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Trigger: The erinyes is hit by a melee attack roll while holding a weapon. Response: The erinyes adds 4 to its AC against that attack, possibly causing it to miss.',
-            ],
-          },
-        ],
-      },
-    },
-    ettercap: {
-      name: 'Ettercap',
-      alignment: 'neutral evil',
-      stats: {
-        size: 'medium',
-        type: 'monstrosity',
-        cr: '2',
-        ac: 13,
-        hitDice: '8d8',
-        speed: { walk: 30, climb: 30 },
-        scores: { str: 14, dex: 15, con: 13, int: 7, wis: 12, cha: 8 },
-        skills: { perception: 'proficient', stealth: 'proficient', survival: 'proficient' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'spider-climb',
-            name: 'Spider Climb',
-            timing: 'trait',
-            icon: 'lucide/MoveUp',
-            text: [
-              'The ettercap can climb difficult surfaces, including along ceilings, without needing to make an ability check.',
-            ],
-          },
-          {
-            key: 'web-walker',
-            name: 'Web Walker',
-            timing: 'trait',
-            icon: 'gi/GiSpiderWeb',
-            text: [
-              'The ettercap ignores movement restrictions caused by webs, and the ettercap knows the location of any other creature in contact with the same web.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'The ettercap makes one ',
-              { ability: 'bite' },
-              ' attack and one ',
-              { ability: 'claw' },
-              ' attack.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [
-                { dice: '1d6', type: rules.piercing, addModifier: true },
-                { dice: '1d4', type: rules.poison },
-              ],
-            },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the start of the ettercap’s next turn.',
-            ],
-          },
-          {
-            key: 'claw',
-            name: 'Claw',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d4', type: rules.slashing, addModifier: true }],
-            },
-          },
-          {
-            key: 'web-strand',
-            name: 'Web Strand',
-            timing: 'action',
-            icon: 'gi/GiSpiderWeb',
-            text: [
-              'Dexterity Saving Throw: ',
-              { dc: 'str' },
-              ', one Large or smaller creature the ettercap can see within 30 feet. Failure: The target has the ',
-              rules.restrained,
-              ' condition until the web is destroyed (AC 10; HP 5; Vulnerability to Fire damage; Immunity to Bludgeoning, Poison, and Psychic damage).',
-            ],
-            uses: 1,
-            recharge: 'Recharge 5–6',
-          },
-          {
-            key: 'reel',
-            name: 'Reel',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'The ettercap pulls one creature within 30 feet of itself that is ',
-              rules.restrained,
-              ' by its ',
-              { ability: 'web-strand' },
-              ' up to 25 feet straight toward itself.',
             ],
           },
         ],
@@ -4693,44 +4502,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    flying_snake: {
-      name: 'Flying Snake',
-      alignment: 'unaligned',
-      stats: {
-        size: 'tiny',
-        type: 'monstrosity',
-        cr: '1/8',
-        ac: 14,
-        hitDice: '2d4',
-        speed: { walk: 30, fly: 60, swim: 30 },
-        scores: { str: 4, dex: 15, con: 11, int: 2, wis: 12, cha: 5 },
-        senses: { blindsight: 10 },
-        abilities: [
-          {
-            key: 'flyby',
-            name: 'Flyby',
-            timing: 'trait',
-            icon: 'gi/GiFeather',
-            text: [
-              'The snake doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '2d4', type: rules.poison }],
-            },
-          },
-        ],
-      },
-    },
     gargoyle: {
       name: 'Gargoyle',
       alignment: 'chaotic evil',
@@ -4784,6 +4555,7 @@ export default createPublicationMonsters({
     giant_ape: {
       name: 'Giant Ape',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -4852,6 +4624,7 @@ export default createPublicationMonsters({
     giant_badger: {
       name: 'Giant Badger',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -4883,6 +4656,7 @@ export default createPublicationMonsters({
     giant_constrictor_snake: {
       name: 'Giant Constrictor Snake',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -4946,6 +4720,7 @@ export default createPublicationMonsters({
     giant_crocodile: {
       name: 'Giant Crocodile',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -5065,6 +4840,7 @@ export default createPublicationMonsters({
     giant_fire_beetle: {
       name: 'Giant Fire Beetle',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'beast',
@@ -5104,6 +4880,7 @@ export default createPublicationMonsters({
     giant_fly: {
       name: 'Giant Fly',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -5119,6 +4896,7 @@ export default createPublicationMonsters({
     giant_hyena: {
       name: 'Giant Hyena',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -5218,6 +4996,7 @@ export default createPublicationMonsters({
     giant_spider: {
       name: 'Giant Spider',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -5284,6 +5063,7 @@ export default createPublicationMonsters({
     giant_venomous_snake: {
       name: 'Giant Venomous Snake',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -5317,6 +5097,7 @@ export default createPublicationMonsters({
     giant_wasp: {
       name: 'Giant Wasp',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -5357,6 +5138,7 @@ export default createPublicationMonsters({
     giant_wolf_spider: {
       name: 'Giant Wolf Spider',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -5399,6 +5181,7 @@ export default createPublicationMonsters({
     gibbering_mouther: {
       name: 'Gibbering Mouther',
       alignment: 'chaotic neutral',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'aberration',
@@ -5735,6 +5518,7 @@ export default createPublicationMonsters({
     gorgon: {
       name: 'Gorgon',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'construct',
@@ -5801,68 +5585,6 @@ export default createPublicationMonsters({
               },
               onSuccess: 'half',
             },
-          },
-        ],
-      },
-    },
-    gray_ooze: {
-      name: 'Gray Ooze',
-      alignment: 'unaligned',
-      stats: {
-        size: 'medium',
-        type: 'ooze',
-        cr: '1/2',
-        ac: 9,
-        hitDice: '3d8',
-        speed: { walk: 10, climb: 10 },
-        scores: { str: 12, dex: 6, con: 16, int: 1, wis: 6, cha: 2 },
-        skills: { stealth: 'expert' },
-        senses: { blindsight: 60 },
-        damageResistances: [rules.acid, rules.cold, rules.fire],
-        conditionImmunities: [
-          rules.blinded,
-          rules.charmed,
-          rules.deafened,
-          rules.exhaustion,
-          rules.frightened,
-          rules.grappled,
-          rules.prone,
-          rules.restrained,
-        ],
-        abilities: [
-          {
-            key: 'amorphous',
-            name: 'Amorphous',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'The ooze can move through a space as narrow as 1 inch without expending extra movement to do so.',
-            ],
-          },
-          {
-            key: 'corrosive-form',
-            name: 'Corrosive Form',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'Nonmagical ammunition is destroyed immediately after hitting the ooze and dealing any damage. Any nonmagical weapon takes a cumulative −1 penalty to attack rolls immediately after dealing damage to the ooze and coming into contact with it. The weapon is destroyed if the penalty reaches −5. The penalty can be removed by casting the Mending spell on the weapon. The ooze can eat through 2-inch-thick, nonmagical metal or wood in 1 round.',
-            ],
-          },
-          {
-            key: 'pseudopod',
-            name: 'Pseudopod',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d8', type: rules.acid, addModifier: true }],
-            },
-            text: [
-              'Nonmagical armor worn by the target takes a −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10. The penalty can be removed by casting the Mending spell on the armor.',
-            ],
           },
         ],
       },
@@ -6017,142 +5739,6 @@ export default createPublicationMonsters({
               damage: [
                 { dice: '1d8', type: rules.slashing, addModifier: true },
                 { dice: '1d6', type: rules.poison },
-              ],
-            },
-          },
-        ],
-      },
-    },
-    grick: {
-      name: 'Grick',
-      alignment: 'unaligned',
-      stats: {
-        size: 'medium',
-        type: 'aberration',
-        cr: '2',
-        ac: 14,
-        hitDice: '12d8',
-        speed: { walk: 30, climb: 30 },
-        scores: { str: 14, dex: 14, con: 11, int: 3, wis: 14, cha: 5 },
-        skills: { stealth: 'proficient' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'The grick makes one ',
-              { ability: 'beak' },
-              ' attack and one ',
-              { ability: 'tentacles' },
-              ' attack.',
-            ],
-          },
-          {
-            key: 'beak',
-            name: 'Beak',
-            timing: 'action',
-            icon: 'gi/GiRaven',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'tentacles',
-            name: 'Tentacles',
-            timing: 'action',
-            icon: 'gi/GiTentacleStrike',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d10', type: rules.slashing, addModifier: true }],
-            },
-            text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 12) from all four tentacles.',
-            ],
-          },
-        ],
-      },
-    },
-    griffon: {
-      name: 'Griffon',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'monstrosity',
-        cr: '2',
-        ac: 12,
-        hitDice: '7d10',
-        speed: { walk: 30, fly: 80 },
-        scores: { str: 18, dex: 15, con: 16, int: 2, wis: 13, cha: 8 },
-        skills: { perception: 'expert' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The griffon makes two ', { ability: 'rend' }, ' attacks.'],
-          },
-          {
-            key: 'rend',
-            name: 'Rend',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'If the target is a Medium or smaller creature, it has the ',
-              rules.grappled,
-              ' condition (escape DC 14) from both of the griffon’s front claws.',
-            ],
-          },
-        ],
-      },
-    },
-    grimlock: {
-      name: 'Grimlock',
-      alignment: 'neutral evil',
-      stats: {
-        size: 'medium',
-        type: 'aberration',
-        cr: '1/4',
-        ac: 11,
-        hitDice: '2d8',
-        speed: { walk: 30, climb: 30 },
-        scores: { str: 16, dex: 12, con: 12, int: 9, wis: 8, cha: 6 },
-        skills: { athletics: 'proficient', perception: 'expert', stealth: 'expert' },
-        senses: { blindsight: 30 },
-        abilities: [
-          {
-            key: 'bone-cudgel',
-            name: 'Bone Cudgel',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [
-                { dice: '1d6', type: rules.bludgeoning, addModifier: true },
-                { dice: '1d4', type: rules.psychic },
               ],
             },
           },
@@ -6578,51 +6164,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    hippogriff: {
-      name: 'Hippogriff',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'monstrosity',
-        cr: '1',
-        ac: 11,
-        hitDice: '4d10',
-        speed: { walk: 40, fly: 60 },
-        scores: { str: 17, dex: 13, con: 13, int: 2, wis: 12, cha: 8 },
-        skills: { perception: 'expert' },
-        abilities: [
-          {
-            key: 'flyby',
-            name: 'Flyby',
-            timing: 'trait',
-            icon: 'gi/GiFeather',
-            text: [
-              'The hippogriff doesn’t provoke an Opportunity Attack when it flies out of an enemy’s reach.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The hippogriff makes two ', { ability: 'rend' }, ' attacks.'],
-          },
-          {
-            key: 'rend',
-            name: 'Rend',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d8', type: rules.slashing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     hobgoblin_captain: {
       name: 'Hobgoblin Captain',
       tags: ['Goblinoid'],
@@ -6760,6 +6301,7 @@ export default createPublicationMonsters({
     hydra: {
       name: 'Hydra',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'huge',
         type: 'monstrosity',
@@ -7420,6 +6962,7 @@ export default createPublicationMonsters({
     lion: {
       name: 'Lion',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -7494,6 +7037,7 @@ export default createPublicationMonsters({
     lizard: {
       name: 'Lizard',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -7664,6 +7208,7 @@ export default createPublicationMonsters({
     mammoth: {
       name: 'Mammoth',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'huge',
         type: 'beast',
@@ -7844,6 +7389,7 @@ export default createPublicationMonsters({
     mastiff: {
       name: 'Mastiff',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -7880,6 +7426,7 @@ export default createPublicationMonsters({
     mule: {
       name: 'Mule',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -8255,73 +7802,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    ochre_jelly: {
-      name: 'Ochre Jelly',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'ooze',
-        cr: '2',
-        ac: 8,
-        hitDice: '7d10',
-        speed: { walk: 20, climb: 20 },
-        scores: { str: 15, dex: 6, con: 14, int: 2, wis: 6, cha: 1 },
-        senses: { blindsight: 60 },
-        damageResistances: [rules.acid],
-        damageImmunities: [rules.lightning, rules.slashing],
-        conditionImmunities: [
-          rules.charmed,
-          rules.deafened,
-          rules.exhaustion,
-          rules.frightened,
-          rules.grappled,
-          rules.prone,
-          rules.restrained,
-        ],
-        abilities: [
-          {
-            key: 'amorphous',
-            name: 'Amorphous',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'The jelly can move through a space as narrow as 1 inch without expending extra movement to do so.',
-            ],
-          },
-          {
-            key: 'spider-climb',
-            name: 'Spider Climb',
-            timing: 'trait',
-            icon: 'lucide/MoveUp',
-            text: [
-              'The jelly can climb difficult surfaces, including along ceilings, without needing to make an ability check.',
-            ],
-          },
-          {
-            key: 'pseudopod',
-            name: 'Pseudopod',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '3d6', type: rules.acid, addModifier: true }],
-            },
-          },
-          {
-            key: 'split',
-            name: 'Split',
-            timing: 'reaction',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'Trigger: While the jelly is Large or Medium and has 10+ Hit Points, it becomes Bloodied or is subjected to Lightning or Slashing damage. Response: The jelly splits into two new Ochre Jellies. Each new jelly is one size smaller than the original jelly and acts on its Initiative. The original jelly’s Hit Points are divided evenly between the new jellies (round down).',
-            ],
-          },
-        ],
-      },
-    },
     ogre: {
       name: 'Ogre',
       alignment: 'chaotic evil',
@@ -8362,128 +7842,6 @@ export default createPublicationMonsters({
               thrown: [30, 120],
               damage: [{ dice: '2d6', type: rules.piercing, addModifier: true }],
             },
-          },
-        ],
-      },
-    },
-    owlbear: {
-      name: 'Owlbear',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'monstrosity',
-        cr: '3',
-        ac: 13,
-        hitDice: '7d10',
-        speed: { walk: 40, climb: 40 },
-        scores: { str: 20, dex: 12, con: 17, int: 3, wis: 12, cha: 7 },
-        skills: { perception: 'expert' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The owlbear makes two ', { ability: 'rend' }, ' attacks.'],
-          },
-          {
-            key: 'rend',
-            name: 'Rend',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d8', type: rules.slashing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
-    phase_spider: {
-      name: 'Phase Spider',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'monstrosity',
-        cr: '3',
-        ac: 14,
-        hitDice: '7d10',
-        speed: { walk: 30, climb: 30 },
-        scores: { str: 15, dex: 16, con: 12, int: 6, wis: 10, cha: 6 },
-        skills: { stealth: 'expert' },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'ethereal-sight',
-            name: 'Ethereal Sight',
-            timing: 'trait',
-            icon: 'lucide/Eye',
-            text: [
-              'The spider can see 60 feet into the Ethereal Plane while on the Material Plane and vice versa.',
-            ],
-          },
-          {
-            key: 'spider-climb',
-            name: 'Spider Climb',
-            timing: 'trait',
-            icon: 'lucide/MoveUp',
-            text: [
-              'The spider can climb difficult surfaces, including along ceilings, without needing to make an ability check.',
-            ],
-          },
-          {
-            key: 'web-walker',
-            name: 'Web Walker',
-            timing: 'trait',
-            icon: 'gi/GiSpiderWeb',
-            text: [
-              'The spider ignores movement restrictions caused by webs, and the spider knows the location of any other creature in contact with the same web.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The spider makes two ', { ability: 'bite' }, ' attacks.'],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [
-                { dice: '1d10', type: rules.piercing, addModifier: true },
-                { dice: '2d8', type: rules.poison },
-              ],
-            },
-            text: [
-              'If this damage reduces the target to 0 Hit Points, the target becomes Stable, and it has the ',
-              rules.poisoned,
-              ' condition for 1 hour. While ',
-              rules.poisoned,
-              ', the target also has the ',
-              rules.paralyzed,
-              ' condition.',
-            ],
-          },
-          {
-            key: 'ethereal-jaunt',
-            name: 'Ethereal Jaunt',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'The spider teleports from the Material Plane to the Ethereal Plane or vice versa.',
-            ],
           },
         ],
       },
@@ -8634,6 +7992,7 @@ export default createPublicationMonsters({
     polar_bear: {
       name: 'Polar Bear',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -8672,6 +8031,7 @@ export default createPublicationMonsters({
     pony: {
       name: 'Pony',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -8948,6 +8308,7 @@ export default createPublicationMonsters({
       name: 'Pteranodon',
       tags: ['Dinosaur'],
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -9070,6 +8431,7 @@ export default createPublicationMonsters({
     rat: {
       name: 'Rat',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -9109,6 +8471,7 @@ export default createPublicationMonsters({
     raven: {
       name: 'Raven',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -9210,6 +8573,7 @@ export default createPublicationMonsters({
     reef_shark: {
       name: 'Reef Shark',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -9258,6 +8622,7 @@ export default createPublicationMonsters({
     riding_horse: {
       name: 'Riding Horse',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -9286,6 +8651,7 @@ export default createPublicationMonsters({
     roc: {
       name: 'Roc',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'gargantuan',
         type: 'monstrosity',
@@ -9360,91 +8726,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    rust_monster: {
-      name: 'Rust Monster',
-      alignment: 'unaligned',
-      stats: {
-        size: 'medium',
-        type: 'monstrosity',
-        cr: '1/2',
-        ac: 14,
-        hitDice: '6d8',
-        speed: { walk: 40 },
-        scores: { str: 13, dex: 12, con: 13, int: 2, wis: 13, cha: 6 },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'iron-scent',
-            name: 'Iron Scent',
-            timing: 'trait',
-            icon: 'gi/GiNoseSide',
-            text: [
-              'The rust monster can pinpoint the location of ferrous metal within 30 feet of itself.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'The rust monster makes one ',
-              { ability: 'bite' },
-              ' attack and uses ',
-              { ability: 'antennae' },
-              ' twice.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'antennae',
-            name: 'Antennae',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'The rust monster targets one nonmagical metal object—armor or a weapon—worn or carried by a creature within 5 feet of itself. Dexterity Saving Throw: ',
-              { dc: 'con' },
-              ', the creature with the object. Failure: The object takes a −1 penalty to the AC it offers (armor) or to its attack rolls (weapon). Armor is destroyed if the penalty reduces its AC to 10, and a weapon is destroyed if its penalty reaches −5. The penalty can be removed by casting the Mending spell on the armor or weapon.',
-            ],
-          },
-          {
-            key: 'destroy-metal',
-            name: 'Destroy Metal',
-            timing: 'action',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'The rust monster touches a nonmagical metal object within 5 feet of itself that isn’t being worn or carried. The touch destroys a 1-foot Cube of the object.',
-            ],
-          },
-          {
-            key: 'reflexive-antennae',
-            name: 'Reflexive Antennae',
-            timing: 'reaction',
-            icon: 'gi/GiMagicSwirl',
-            text: [
-              'Trigger: An attack roll hits the rust monster. Response: The rust monster uses ',
-              { ability: 'antennae' },
-              '.',
-            ],
-          },
-        ],
-      },
-    },
     saber_toothed_tiger: {
       name: 'Saber-Toothed Tiger',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -9554,6 +8839,7 @@ export default createPublicationMonsters({
     scorpion: {
       name: 'Scorpion',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -9636,79 +8922,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    shadow: {
-      name: 'Shadow',
-      alignment: 'chaotic evil',
-      stats: {
-        size: 'medium',
-        type: 'undead',
-        cr: '1/2',
-        ac: 12,
-        hitDice: '5d8',
-        speed: { walk: 40 },
-        scores: { str: 6, dex: 14, con: 13, int: 6, wis: 10, cha: 8 },
-        skills: { stealth: 'expert' },
-        senses: { darkvision: 60 },
-        damageResistances: [rules.acid, rules.cold, rules.fire, rules.lightning, rules.thunder],
-        damageImmunities: [rules.necrotic, rules.poison],
-        damageVulnerabilities: [rules.radiant],
-        conditionImmunities: [
-          rules.exhaustion,
-          rules.frightened,
-          rules.grappled,
-          rules.paralyzed,
-          rules.petrified,
-          rules.poisoned,
-          rules.prone,
-          rules.restrained,
-          rules.unconscious,
-        ],
-        abilities: [
-          {
-            key: 'amorphous',
-            name: 'Amorphous',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'The shadow can move through a space as narrow as 1 inch without expending extra movement to do so.',
-            ],
-          },
-          {
-            key: 'sunlight-weakness',
-            name: 'Sunlight Weakness',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: ['While in sunlight, the shadow has Disadvantage on D20 Tests.'],
-          },
-          {
-            key: 'draining-swipe',
-            name: 'Draining Swipe',
-            timing: 'action',
-            icon: 'lucide/Target',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.necrotic, addModifier: true }],
-            },
-            text: [
-              'The target’s Strength score decreases by 1d4. The target dies if this reduces that score to 0. If a Humanoid is slain by this attack, a Shadow rises from the corpse 1d4 hours later.',
-            ],
-          },
-          {
-            key: 'shadow-stealth',
-            name: 'Shadow Stealth',
-            timing: 'bonus action',
-            icon: 'gi/GiMagicSwirl',
-            text: ['While in Dim Light or Darkness, the shadow takes the Hide action.'],
-          },
-        ],
-      },
-    },
     shrieker_fungus: {
       name: 'Shrieker Fungus',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -10262,6 +9479,7 @@ export default createPublicationMonsters({
     tiger: {
       name: 'Tiger',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -10497,6 +9715,7 @@ export default createPublicationMonsters({
     troll_limb: {
       name: 'Troll Limb',
       alignment: 'chaotic evil',
+      languages: [],
       stats: {
         size: 'small',
         type: 'giant',
@@ -10864,43 +10083,6 @@ export default createPublicationMonsters({
             timing: 'bonus action',
             icon: 'gi/GiMagicSwirl',
             text: ['The vampire takes the Dash or Disengage action.'],
-          },
-        ],
-      },
-    },
-    warhorse_skeleton: {
-      name: 'Warhorse Skeleton',
-      alignment: 'lawful evil',
-      stats: {
-        size: 'large',
-        type: 'undead',
-        cr: '1/2',
-        ac: 13,
-        hitDice: '3d10',
-        speed: { walk: 60 },
-        scores: { str: 18, dex: 12, con: 15, int: 2, wis: 8, cha: 5 },
-        senses: { darkvision: 60 },
-        damageImmunities: [rules.poison],
-        damageVulnerabilities: [rules.bludgeoning],
-        conditionImmunities: [rules.exhaustion, rules.poisoned],
-        abilities: [
-          {
-            key: 'hooves',
-            name: 'Hooves',
-            timing: 'action',
-            icon: 'gi/GiStomp',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
-            },
-            text: [
-              'If the target is a Large or smaller creature and the skeleton moved 20+ feet straight toward it immediately before the hit, the target has the ',
-              rules.prone,
-              ' condition.',
-            ],
           },
         ],
       },
@@ -11595,70 +10777,6 @@ export default createPublicationMonsters({
             },
             uses: 1,
             recharge: 'Recharge 5–6',
-          },
-        ],
-      },
-    },
-    wyvern: {
-      name: 'Wyvern',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'dragon',
-        cr: '6',
-        ac: 14,
-        hitDice: '15d10',
-        speed: { walk: 30, fly: 80 },
-        scores: { str: 19, dex: 10, con: 16, int: 5, wis: 12, cha: 6 },
-        skills: { perception: 'proficient' },
-        senses: { darkvision: 120 },
-        abilities: [
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'The wyvern makes one ',
-              { ability: 'bite' },
-              ' attack and one ',
-              { ability: 'sting' },
-              ' attack.',
-            ],
-          },
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d8', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'sting',
-            name: 'Sting',
-            timing: 'action',
-            icon: 'gi/GiPoisonBottle',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 10,
-              damage: [
-                { dice: '2d6', type: rules.piercing, addModifier: true },
-                { dice: '7d6', type: rules.poison },
-              ],
-            },
-            text: [
-              'The target has the ',
-              rules.poisoned,
-              ' condition until the start of the wyvern’s next turn.',
-            ],
           },
         ],
       },

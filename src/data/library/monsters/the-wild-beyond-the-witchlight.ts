@@ -85,6 +85,7 @@ export default createPublicationMonsters({
       name: 'Giant Dragonfly',
       page: 234,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Witchlight Carnival', 'Ponds'],
       appearance: [
         [
@@ -137,6 +138,7 @@ export default createPublicationMonsters({
       name: 'Giant Snail',
       page: 234,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Witchlight Carnival'],
       appearance: [
         [
@@ -188,10 +190,117 @@ export default createPublicationMonsters({
         ],
       },
     },
+    gloam: {
+      name: 'Gloam',
+      page: 93,
+      alignment: 'unaligned',
+      stats: {
+        size: 'tiny',
+        type: 'undead',
+        cr: '0',
+        ac: 12,
+        hitDice: '1d4',
+        speed: { walk: 40, climb: 30 },
+        scores: { str: 3, dex: 15, con: 10, int: 3, wis: 12, cha: 7 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        damageImmunities: [rules.poison],
+        conditionImmunities: [rules.exhaustion, rules.poisoned],
+        abilities: [
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['Gloam has advantage on Wisdom (Perception) checks that use smell.'],
+          },
+          {
+            key: 'claws',
+            name: 'Claws',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              printedBonus: 0,
+              damage: [{ dice: '1', type: rules.slashing }],
+            },
+          },
+          {
+            key: 'cloud-of-dust-encounter-trigger',
+            name: 'Cloud of Dust (encounter trigger)',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'On Gloam’s first turn in combat or when it drops to 0 hit points, it releases a cloud that works like Dust of Sneezing and Choking. Gloam and creatures within 30 ft. that need to breathe make a ',
+              { dc: 'con', printed: 15 },
+              ' Constitution save. A creature that fails is ',
+              rules.incapacitated,
+              ' and suffocating. While conscious, it can repeat the save at the end of each of its turns. A success or Lesser Restoration ends the effect. Under the 2014 suffocation rule, a choking creature lasts a number of rounds equal to its Constitution modifier, with a minimum of one round. It then starts its next turn dying at 0 hit points and cannot heal or stabilize while it still cannot breathe.',
+            ],
+          },
+        ],
+      },
+    },
+    pixie: {
+      name: 'Pixie',
+      alignment: 'neutral good',
+      habitats: ['Forests'],
+      appearance: [['A tiny woodland faerie with bright, translucent wings and pointed ears.']],
+      tableNotes: [
+        [
+          'Uses the verified Monster Manual (2014) stat block for this creature. Check this publication for encounter-specific changes.',
+        ],
+        ['Rules source: Monster Manual (2014), p. 253.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'fey',
+        cr: '1/4',
+        ac: 15,
+        hitDice: '1d4',
+        speed: { walk: 10, fly: 30 },
+        scores: { str: 2, dex: 20, con: 8, int: 10, wis: 14, cha: 15 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        abilities: [
+          {
+            key: 'spellcasting',
+            name: 'Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'Innate spellcasting uses Charisma, save ',
+              { dc: 'wis' },
+              '. Pixie dust is its sole component. At will · Druidcraft. 1/day each · Confusion, Dancing Lights, Detect Evil and Good, Detect Thoughts, Dispel Magic, Entangle, Fly, Phantasmal Force, Polymorph and Sleep.',
+            ],
+          },
+          {
+            key: 'magic-resistance',
+            name: 'Magic Resistance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['The pixie has Advantage on saves against spells and other magical effects.'],
+          },
+          {
+            key: 'superior-invisibility',
+            name: 'Superior Invisibility',
+            timing: 'action',
+            icon: 'gi/GiInvisible',
+            text: [
+              'It turns itself and all worn or carried gear ',
+              rules.invisible,
+              ' while it maintains Concentration.',
+            ],
+          },
+        ],
+      },
+    },
     pollenella_the_honeybee: {
       name: 'Pollenella the Honeybee',
       page: 135,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Yon', 'Feywild'],
       appearance: [
         [

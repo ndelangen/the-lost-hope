@@ -112,6 +112,59 @@ export default createPublicationMonsters({
         ],
       },
     },
+    pixie: {
+      name: 'Pixie',
+      alignment: 'neutral good',
+      habitats: ['Forests'],
+      appearance: [['A tiny woodland faerie with bright, translucent wings and pointed ears.']],
+      tableNotes: [
+        [
+          'Uses the verified Monster Manual (2014) stat block for this creature. Check this publication for encounter-specific changes.',
+        ],
+        ['Rules source: Monster Manual (2014), p. 253.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'fey',
+        cr: '1/4',
+        ac: 15,
+        hitDice: '1d4',
+        speed: { walk: 10, fly: 30 },
+        scores: { str: 2, dex: 20, con: 8, int: 10, wis: 14, cha: 15 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        abilities: [
+          {
+            key: 'spellcasting',
+            name: 'Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'Innate spellcasting uses Charisma, save ',
+              { dc: 'wis' },
+              '. Pixie dust is its sole component. At will · Druidcraft. 1/day each · Confusion, Dancing Lights, Detect Evil and Good, Detect Thoughts, Dispel Magic, Entangle, Fly, Phantasmal Force, Polymorph and Sleep.',
+            ],
+          },
+          {
+            key: 'magic-resistance',
+            name: 'Magic Resistance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['The pixie has Advantage on saves against spells and other magical effects.'],
+          },
+          {
+            key: 'superior-invisibility',
+            name: 'Superior Invisibility',
+            timing: 'action',
+            icon: 'gi/GiInvisible',
+            text: [
+              'It turns itself and all worn or carried gear ',
+              rules.invisible,
+              ' while it maintains Concentration.',
+            ],
+          },
+        ],
+      },
+    },
     sunfly: {
       name: 'Sunfly',
       alignment: 'chaotic good',

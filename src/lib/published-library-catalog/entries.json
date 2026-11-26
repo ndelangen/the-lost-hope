@@ -18261,156 +18261,44 @@
       {
         "id": "printing-29ff741c53cc596d50a9839c",
         "label": "Plane Shift: Kaladesh",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 80 ft.",
-              "Passive Perception · 14",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 8",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "grassland", "hill", "coastal"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slim, two-legged flying reptile with a long neck and leathery wings. Its hooked claws catch prey and grip cliff faces and the hides of sky beasts."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +4. Passive Perception 14. Speaks Giant Eagle and understands Common and Auran without speaking them, per the Giant Eagle base. No listed special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "James Wyatt, Plane Shift: Kaladesh, first printing (February 2017), page 29.  Uses Giant Eagle, Monster Manual (2014), printed p. 324. https://www.dndbeyond.com/monsters/16881-giant-eagle"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Keen Sight. Advantage on Wisdom (Perception) checks that rely on sight."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit with 5-ft. reach against one target. On a hit, deal 10 (2d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "The larger drake uses the Giant Eagle statistics. Kaladesh drakes may recognize airships that have killed others in their rush."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#drake%20(large)_psk",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/drake-large-9525a7ed36c8.png",
             "credit": "Original portrait generated with OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drake_large"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_kaladesh"
+          }
+        }
       },
       {
         "id": "printing-56faf5bf7bb09b8b9c98cf49",
         "label": "Plane Shift: Zendikar",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 80 ft.",
-              "Passive Perception · 14",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 8",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "grassland", "hill", "coastal"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A slate-blue reptile with two legs, a long tail and two large leathery wings. The same silhouette represents both Zendikar drake sizes."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Proficiency bonus +2. Perception +4. Passive Perception 14. Base languages: speaks Giant Eagle and understands Common and Auran without speaking them. No listed special senses."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "James Wyatt, Plane Shift: Zendikar, first printing (April 2016), page 24. \nReskin uses the Giant Eagle stat block in Monster Manual (2014), p. 324. Official 2014 rules listing: https://www.dndbeyond.com/monsters/16881-giant-eagle"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Keen Sight. Gain advantage on Wisdom (Perception) checks based on sight."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Zendikar gives no alignment or language override. Neutral good and the Giant Eagle language line are inherited from the suggested base."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#drake%20(large)_psz",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/drake-large-5c37ceb0d8dd.png",
             "credit": "Original portrait generated with OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "drake_large"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_zendikar"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -37249,79 +37137,23 @@
       {
         "id": "printing-84c6e3d322fb419fabf338af",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 12",
-              "XP · 50",
-              "Str · 15",
-              "Dex · 10",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 10",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "swamp"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A heavy-bodied, crested herbivore with a broad beak, a long tapering tail, and muted olive skin."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Skills. Perception +2. Senses. Passive Perception 12. Languages. None."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17241-hadrosaurus"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tail. Melee weapon attack +4 to hit, reach 5 ft., one target. A hit deals 7 (1d10 + 2) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "A semi-quadrupedal herbivore with a bony crest. A hadrosaurus raised from hatching can be trained to carry a Small or Medium rider."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#hadrosaurus_vgm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/hadrosaurus-de2622feb0d3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hadrosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -42389,81 +42221,23 @@
       {
         "id": "printing-c71b096b614d64d8c58c7888",
         "label": "Plane Shift: Dominaria",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 75",
-              "Hit dice · 10d10 + 20",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 14",
-              "XP · 450",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 15",
-              "Int · 6",
-              "Wis · 14",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Dominaria", "Llanowar forest", "Forest canopy", "Kelfae woodlands"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A large arboreal reptilian predator with broad grasping claws and sharp jaws. Dark olive scales and angular brows are art-informed details."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Perception +4, Stealth +5. Darkvision 60 ft. Passive Perception 14. Understands Elvish."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "James Wyatt with Ashlie Hope, Plane Shift: Dominaria, first printing, july 2018, page 24."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pounce. If the kavu moves at least 20 ft. directly toward a creature and hits it with Claw during the same turn, the target makes a DC 14 Strength save. A failure knocks it prone. If the target is prone, the kavu may Bite it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Claw attacks.\nBite. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 9 (1d10 + 4) piercing.\nClaw. Melee weapon attack, +6 to hit, 5-ft. reach, one target. On a hit, deal 7 (1d6 + 4) slashing."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "The Claw attack can trigger Pounce as part of Multiattack. The printed climb speed is 30 ft. The accompanying breeding lore describes arboreal kavu on sheer surfaces, and the stat block supplies no separate Spider Climb trait."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#kavu%20predator_psd",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/kavu-predator-3c4f82dd602c.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "kavu_predator"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_dominaria"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -42654,74 +42428,24 @@
       {
         "id": "printing-37bd9f1d0830721fbbc3606a",
         "label": "Icewind Dale: Rime of the Frostmaiden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 5",
-              "Hit dice · 1d8 + 1",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Beast",
-              "Speed · 20 ft., swim 40 ft.",
-              "Passive Perception · 10",
-              "XP · 10",
-              "Str · 6",
-              "Dex · 12",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Ythryn Library"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "An eyeless albino penguin, about five feet tall, in a plain leather harness."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Blindsight 30 ft. Blind beyond that radius. Passive Perception 10. Speaks Common."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, first printing, p. 243. https://online.anyflip.com/wmdpe/anyb/mobile/index.html#p=244"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Hold Breath. Kingsport can hold his breath for 20 minutes."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Beak. Make a melee weapon attack at +3 against one target within 5 ft. A hit deals 3 (1d4 + 1) piercing damage."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#kingsport_idrotf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/12734/914/1000/1000/637357081699037354.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/kingsport-36aa5c00f170.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "kingsport"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "icewind_dale_rime_of_the_frostmaiden"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -43372,79 +43096,23 @@
       {
         "id": "printing-652a83ddd5444cbd35f293c3",
         "label": "Plane Shift: Amonkhet",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 80 ft.",
-              "Passive Perception · 14",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 8",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "grassland", "hill", "coastal"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A reptilian flyer with a scaled head, two legs, and enormous leathery wings."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Perception +4. Passive Perception 14. Speaks Giant Eagle from the base stat block and understands Common and Auran without speaking either."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "James Wyatt with Ashlie Hope, Plane Shift: Amonkhet, first printing (July 2017), page 33. \nBase stat block. Monster Manual (2014), p. 324, Giant Eagle. https://www.dndbeyond.com/sources/dnd/basic-rules-2014/monster-stat-blocks-g#GiantEagle"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Keen Sight. Sight-based Wisdom (Perception) checks have advantage."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "The 2014 Giant Eagle provides the mechanical alignment, languages, and attack names. The drake’s head still looks reptilian. It has no fire breath."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#large%20drake_psa",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/large-drake-92c677ba863e.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "large_drake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_amonkhet"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -64298,81 +63966,23 @@
       {
         "id": "printing-638f326219fd9f14fe562434",
         "label": "Plane Shift: Dominaria",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 142",
-              "Hit dice · 15d10 + 60",
-              "Challenge · 4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 14",
-              "XP · 1100",
-              "Str · 20",
-              "Dex · 12",
-              "Con · 18",
-              "Int · 6",
-              "Wis · 14",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Dominaria", "Llanowar forest", "Forest floor", "Basiphem stables"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A massive ground-dwelling reptilian cavalry mount. Broad jaws, raised brow plates and a thick scaled neck draw on the credited book artwork."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Perception +4. Darkvision 60 ft. Passive Perception 14. Understands Elvish."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "James Wyatt with Ashlie Hope, Plane Shift: Dominaria, first printing, july 2018, page 24."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Raking Charge. If the kavu moves at least 20 ft. directly toward a creature and hits it with Bite on the same turn, the target makes a DC 15 Strength save. A failure knocks it prone. If the target is prone, the kavu may Rend it as a bonus action."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +7 to hit, 5-ft. reach, one target. On a hit, deal 14 (2d8 + 5) piercing.\nRend. Melee weapon attack, +7 to hit, 5-ft. reach, one prone creature. On a hit, deal 23 (4d8 + 5) slashing."
-            ]
-          },
-          {
-            "title": "At the table",
-            "lines": [
-              "Rend is also a named action against a prone target. Raking Charge grants a bonus-action Rend when its setup succeeds and the target is prone. The written Large size is the block’s size even though the lore mentions especially large mounts."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#steel%20leaf%20kavu_psd",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/steel-leaf-kavu-06705c758d60.png",
             "credit": "Original portrait generated with built-in OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steel_leaf_kavu"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "plane_shift_dominaria"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -64482,74 +64092,24 @@
       {
         "id": "printing-9bc6830d523905bb0cf5c4b5",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 76",
-              "Hit dice · 8d12 + 24",
-              "Challenge · 4",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 1100",
-              "Str · 20",
-              "Dex · 9",
-              "Con · 17",
-              "Int · 2",
-              "Wis · 11",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A low, stocky dinosaur with tall russet back plates, thick legs, and a long tail tipped with spikes."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Natural armor. Senses. Passive Perception 10. Languages. None."]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17244-stegosaurus"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tail. Melee weapon attack +7 to hit, reach 10 ft., one target. A hit deals 26 (6d6 + 5) piercing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "The stegosaurus often travels in herds of different ages. It holds its flexible, spiked tail high to strike predators."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#stegosaurus_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/625/1000/1000/636329651427868309.jpeg",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/stegosaurus-bbce0e2a84d4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stegosaurus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Beast"]
@@ -70050,85 +69610,23 @@
       {
         "id": "printing-ecb375a7d14e9b731662eff2",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 10",
-              "Hit dice · 3d4 + 3",
-              "Challenge · 1/4",
-              "Size · Tiny",
-              "Type · Beast",
-              "Speed · 30 ft.",
-              "Passive Perception · 13",
-              "XP · 50",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "forest"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A feathered bipedal raptor with a narrow snout, a long stiff tail, and raised sickle-shaped toe claws."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Skills. Perception +3. Senses. Passive Perception 13. Languages. None."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Volo’s Guide to Monsters, first printing, November 2016, Chapter 3, Dinosaurs, stat block p. 140. https://www.dndbeyond.com/monsters/17243-velociraptor"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. Gain advantage on an attack roll against a creature if one of the velociraptor’s non-incapacitated allies is within 5 ft. of it."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and one Claws attack.\nBite. Melee weapon attack +4 to hit, reach 5 ft., one creature. A hit deals 5 (1d6 + 2) piercing damage.\nClaws. Melee weapon attack +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "This feathered predator is about the size of a large turkey and hunts larger prey in packs."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
         "source": "https://5e.tools/bestiary.html#velociraptor_vgm",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/velociraptor-921867b38a33.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "velociraptor"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       },
       {
         "id": "printing-43cac4a1cca744950e883672",

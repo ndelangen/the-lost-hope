@@ -7,10 +7,37 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.rise_of_tiamat,
   monsters: {
+    dragonwing: {
+      name: 'Dragonwing',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 14,
+        hitDice: '6d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 16, con: 13, int: 11, wis: 11, cha: 13 },
+        abilities: [],
+      },
+    },
+    rath_modar: {
+      name: 'Rath Modar',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '6',
+        ac: 13,
+        hitDice: '11d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 16, con: 14, int: 18, wis: 14, cha: 10 },
+        abilities: [],
+      },
+    },
     sled_dog: {
       name: 'Sled Dog',
       page: 27,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland', 'forest', 'hill'],
       appearance: [
         [

@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Cooshee (Mastiff)',
       page: 24,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Greenhall'],
       appearance: [
         [
@@ -59,10 +60,37 @@ export default createPublicationMonsters({
         ],
       },
     },
+    druid: {
+      name: 'Druid',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 11,
+        hitDice: '5d8',
+        speed: { walk: 30 },
+        scores: { str: 10, dex: 12, con: 13, int: 12, wis: 15, cha: 11 },
+        abilities: [],
+      },
+    },
+    ettercap: {
+      name: 'Ettercap',
+      stats: {
+        size: 'medium',
+        type: 'monstrosity',
+        cr: '2',
+        ac: 13,
+        hitDice: '8d8',
+        speed: { walk: 30, climb: 30 },
+        scores: { str: 14, dex: 15, con: 13, int: 7, wis: 12, cha: 8 },
+        abilities: [],
+      },
+    },
     giant_wolf_spider: {
       name: 'Giant Wolf Spider',
       page: 26,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Ettercap nest'],
       appearance: [
         ['A low, hairy spider with stout banded legs and a dark-striped brown abdomen.'],

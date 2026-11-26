@@ -157,6 +157,7 @@ def main():
       if r['lang_only']: continue
       bypub[pk][key]=r
   outdir=os.path.join(REPO,'src/data/library/monsters'); os.makedirs(outdir,exist_ok=True)
+  unrecorded=[]
   for pk,mons in bypub.items():
     L=["import { refs } from '#/data/generated/library-refs.ts'","import { refs as rules } from '#/data/generated/refs.ts'","import { createPublicationMonsters } from '#/definitions/library.ts'","","const refsRules = rules.rules","",
        "export default createPublicationMonsters({",f"  publication: refs.publications.{pk},","  monsters: {"]
@@ -171,7 +172,9 @@ def main():
       if m.get('page'): L.append(f'      page: {m["page"]},')
       if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
       langs=m['languages']
-      if langs and langs.lower() not in ('none','—','-','—'):
+      if langs is None: unrecorded.append(f"{PUBS[r['label']][1]}: {r['name']}")
+      elif langs.strip().lower() in ('none','—','-','—',''): L.append('      languages: [],')
+      else:
         # Split on commas outside parentheses: "Primordial (Ignan, Terran)" is one language.
         names=[x.strip() for x in re.split(r',(?![^()]*\))',langs)]
         L.append(f'      languages: {js(names)},')
@@ -236,6 +239,10 @@ def main():
   L+=['})','']
   open(os.path.join(REPO,'src/data/library/publications.ts'),'w').write('\n'.join(L))
   print('reprints',sum(len(v) for v in reprints.values()))
+  with open(os.path.join(REPO,'library-workers','languages-not-recorded.md'),'w') as f:
+    f.write('# Creatures whose languages our sources do not record\n\nThe library shows "Not recorded" for these. Fill them from the books when we have them.\n\n')
+    f.write(''.join(f'- {x}\n' for x in sorted(unrecorded)))
+  print('languages not recorded',len(unrecorded))
   # Each converted printing keeps only its place in the old catalog (label, art, link) and points
   # at its typed printing, so its statistics exist once.
   typed={}

@@ -69,6 +69,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018],
       page: 79,
       alignment: 'unaligned',
+      languages: [],
       habitats: [
         'Open ground',
         'Remote mountain valleys',
@@ -222,6 +223,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 317,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Woodland canopy'],
       appearance: [
         [
@@ -360,6 +362,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 317,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grassland', 'Hills'],
       appearance: [
         [
@@ -396,6 +399,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 318,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Grassland', 'Hill'],
       appearance: [
         ['An olive-brown monkey with a long doglike muzzle, strong forearms and an arched tail.'],
@@ -441,6 +445,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 318,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Grassland', 'Burrow'],
       appearance: [
         ['A low, stocky gray mammal with black face stripes, a broad nose and long digging claws.'],
@@ -527,6 +532,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 318,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Caves', 'Woodland roosts', 'Attics'],
       appearance: [
         ['A tiny brown bat with large upright ears, a short muzzle, and wide membranous wings.'],
@@ -623,6 +629,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018],
       page: 318,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forests', 'Woodland edges', 'Forested foothills'],
       appearance: [
         [
@@ -748,6 +755,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 319,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic', 'Coastal', 'Forest', 'Grassland', 'Hill', 'Mountain'],
       appearance: [
         ['A small bird of prey with crimson feathers, dark wing bars, and a sharply hooked beak.'],
@@ -889,6 +897,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018],
       page: 319,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic', 'Forest', 'Hill'],
       appearance: [
         [
@@ -959,6 +968,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 320,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Desert', 'Dry steppe'],
       appearance: [
         [
@@ -1087,6 +1097,7 @@ export default createPublicationMonsters({
         refs.publications.srd_5_1,
       ],
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Settlements', 'Farms', 'Woodland edges'],
       appearance: [
         ['A small, slim brown tabby with dark stripes, upright ears, and a long curved tail.'],
@@ -1412,6 +1423,46 @@ export default createPublicationMonsters({
         ],
       },
     },
+    cockatrice: {
+      name: 'Cockatrice',
+      reprintedIn: [refs.publications.srd_5_1],
+      page: 42,
+      alignment: 'unaligned',
+      stats: {
+        size: 'small',
+        type: 'monstrosity',
+        cr: '1/2',
+        ac: 11,
+        hitDice: '6d6',
+        speed: { walk: 20, fly: 40 },
+        scores: { str: 6, dex: 12, con: 12, int: 2, wis: 13, cha: 5 },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'Requires a ',
+              { dc: 'con' },
+              ' Constitution save against magical petrification. On a failure the target begins to turn to stone and becomes ',
+              rules.restrained,
+              '. It repeats the save at the end of its next turn. A success ends the effect. On a second failure, it is ',
+              rules.petrified,
+              ' for 24 hours.',
+            ],
+          },
+        ],
+      },
+    },
     commoner: {
       name: 'Commoner',
       reprintedIn: [refs.publications.srd_5_1],
@@ -1453,6 +1504,7 @@ export default createPublicationMonsters({
       ],
       page: 320,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Desert', 'Forest', 'Swamp', 'Underwater'],
       appearance: [
         [
@@ -1643,6 +1695,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 320,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Coastal', 'Rocky shores', 'Tide pools'],
       appearance: [
         [
@@ -1762,6 +1815,7 @@ export default createPublicationMonsters({
       ],
       page: 320,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Rivers', 'Marshes', 'Wetlands'],
       appearance: [
         [
@@ -2016,6 +2070,163 @@ export default createPublicationMonsters({
         ],
       },
     },
+    darkmantle: {
+      name: 'Darkmantle',
+      page: 46,
+      alignment: 'unaligned',
+      tableNotes: [
+        [
+          'A hit attaches it. It can attach to a Medium or smaller head, blinding the victim and blocking breathing. The victim or another creature can remove it with a DC 13 Strength check. Its darkness aura is available once per day and requires concentration.',
+        ],
+      ],
+      stats: {
+        size: 'small',
+        type: 'monstrosity',
+        cr: '1/2',
+        ac: 11,
+        hitDice: '5d6',
+        speed: { walk: 10, fly: 30 },
+        scores: { str: 16, dex: 12, con: 13, int: 2, wis: 10, cha: 5 },
+        skills: { stealth: 'proficient' },
+        senses: { blindsight: 60 },
+        abilities: [
+          {
+            key: 'echolocation',
+            name: 'Echolocation',
+            timing: 'trait',
+            icon: 'gi/GiEchoRipples',
+            text: ['The darkmantle loses the use of its blindsight while ', rules.deafened, '.'],
+          },
+          {
+            key: 'false-appearance',
+            name: 'False Appearance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'A motionless darkmantle passes for a cave formation such as a stalactite or stalagmite.',
+            ],
+          },
+          {
+            key: 'crush',
+            name: 'Crush',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.bludgeoning, addModifier: true }],
+            },
+            text: [
+              "The darkmantle attaches. If the target is Medium or smaller and the darkmantle had advantage, it engulfs the target's head. That creature is ",
+              rules.blinded,
+              ' and cannot breathe while its head is engulfed. While attached, the darkmantle moves with the target. Its speed becomes 0, speed bonuses have no effect, and it can attack only the target, with advantage. A creature can take an action and succeed on a DC 13 Strength check to remove it. The darkmantle can detach on its turn by spending 5 ft. of movement.',
+            ],
+          },
+          {
+            key: 'darkness-aura',
+            name: 'Darkness Aura',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'Magical darkness spreads around corners in a 15-ft. radius from the darkmantle and moves with it. The darkness lasts up to 10 minutes while the darkmantle maintains Concentration as if on a spell. Darkvision cannot see through it, and natural light cannot illuminate it. If it overlaps light created by a spell of 2nd level or lower, that spell is dispelled.',
+            ],
+            uses: 1,
+            recharge: 'Long rest',
+          },
+        ],
+      },
+    },
+    deep_gnome_svirfneblin: {
+      name: 'Deep Gnome (Svirfneblin)',
+      tags: ['gnome'],
+      page: 164,
+      alignment: 'neutral good',
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1/2',
+        ac: 15,
+        hitDice: '3d6',
+        speed: { walk: 20 },
+        scores: { str: 15, dex: 14, con: 14, int: 12, wis: 10, cha: 9 },
+        skills: { investigation: 'proficient', perception: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 120 },
+        abilities: [
+          {
+            key: 'innate-spellcasting',
+            name: 'Innate spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'Intelligence (spell save ',
+              { dc: 'int' },
+              '), with no material components. At will: ',
+              refs.spells.nondetection,
+              ' (self only). 1/day each: ',
+              refs.spells.blindness_deafness,
+              ', ',
+              refs.spells.blur,
+              ', ',
+              refs.spells.disguise_self,
+              '.',
+            ],
+          },
+          {
+            key: 'stone-camouflage',
+            name: 'Stone Camouflage',
+            timing: 'trait',
+            icon: 'gi/GiInvisible',
+            text: [
+              'The gnome has advantage on Dexterity (Stealth) checks to hide in rocky terrain.',
+            ],
+          },
+          {
+            key: 'gnome-cunning',
+            name: 'Gnome Cunning',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.',
+            ],
+          },
+          {
+            key: 'war-pick',
+            name: 'War Pick',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'poisoned-dart',
+            name: 'Poisoned Dart',
+            timing: 'action',
+            icon: 'gi/GiPoisonBottle',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'str',
+              range: [30, 120],
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'The creature makes a ',
+              { dc: 'con' },
+              ' Constitution save or is ',
+              rules.poisoned,
+              ' for 1 minute. It repeats the save at the end of each of its turns, ending the effect on a success.',
+            ],
+          },
+        ],
+      },
+    },
     deer: {
       name: 'Deer',
       reprintedIn: [
@@ -2025,6 +2236,7 @@ export default createPublicationMonsters({
       ],
       page: 321,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Grassland', 'Forest edges', 'Meadows'],
       appearance: [
         [
@@ -2061,6 +2273,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 321,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Hills'],
       appearance: [
         [
@@ -2194,6 +2407,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 321,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Urban', 'Farms', 'Trade roads'],
       appearance: [
         [
@@ -2481,6 +2695,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 322,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Mountains', 'Coastal cliffs', 'Forest edges'],
       appearance: [
         [
@@ -2525,6 +2740,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.srd_5_1],
       page: 322,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grasslands', 'Savannas', 'Open woodlands'],
       appearance: [
         [
@@ -3368,6 +3584,118 @@ export default createPublicationMonsters({
         ],
       },
     },
+    faerie_dragon_younger: {
+      name: 'Faerie Dragon (Younger)',
+      page: 133,
+      alignment: 'chaotic good',
+      habitats: ['Forests'],
+      appearance: [
+        [
+          'A tiny, expressive dragon with butterfly-like wings. Younger faerie dragons are red, orange or yellow.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Superior Invisibility. A bonus action makes the dragon Invisible until its Concentration ends. Gear it wears or carries becomes Invisible as well.',
+        ],
+        [
+          'Euphoria Breath (Recharge 5–6). One creature within 5 ft. makes a DC 11 Wisdom save. On failure for 1 minute it cannot take reactions and rolls a d6 at each turn start. On 1–4 it spends all movement in a random direction and takes neither an action nor a bonus action. On 5–6 it stays still, and can only repeat the DC 11 Wisdom save to end the effect.',
+        ],
+        [
+          'Innate spells use Charisma, DC 13, without material components. Red can cast Dancing Lights, Mage Hand and Minor Illusion once per day each. Orange adds Color Spray. Yellow adds Color Spray and Mirror Image.',
+        ],
+        ['It has Advantage on saving throws against spells and other magical effects.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'dragon',
+        cr: '1',
+        ac: 15,
+        hitDice: '4d4',
+        speed: { walk: 10, fly: 60 },
+        scores: { str: 3, dex: 20, con: 13, int: 14, wis: 12, cha: 16 },
+        skills: { arcana: 'proficient', perception: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'spellcasting',
+            name: 'Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'Innate Spellcasting. Charisma is the spellcasting ability (save ',
+              { dc: 'cha' },
+              '). The dragon needs no material components. Each color adds its spells to those of all younger colors. Red (5 years or less), 1/day each. ',
+              refs.spells.dancing_lights,
+              ', ',
+              refs.spells.mage_hand,
+              ', ',
+              refs.spells.minor_illusion,
+              '. Orange (6–10 years), 1/day. ',
+              refs.spells.color_spray,
+              '. Yellow (11–20 years), 1/day. ',
+              refs.spells.mirror_image,
+              '.',
+            ],
+          },
+          {
+            key: 'superior-invisibility',
+            name: 'Superior Invisibility',
+            timing: 'trait',
+            icon: 'gi/GiInvisible',
+            text: [
+              'As a bonus action, the dragon can turn itself and its worn or carried gear ',
+              rules.invisible,
+              '. It maintains Concentration as it would on a spell. The effect ends when its concentration ends.',
+            ],
+          },
+          {
+            key: 'limited-telepathy',
+            name: 'Limited Telepathy',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The dragon can communicate magically with any other faerie dragon within 60 ft.',
+            ],
+          },
+          {
+            key: 'magic-resistance',
+            name: 'Magic Resistance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['The dragon has advantage on saves against spells and other magic.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.piercing }],
+            },
+          },
+          {
+            key: 'euphoria-breath',
+            name: 'Euphoria Breath',
+            timing: 'action',
+            icon: 'gi/GiDragonBreath',
+            text: [
+              'Exhale a puff of gas at one creature within 5 ft. It must succeed on a ',
+              { dc: 'wis' },
+              ' Wisdom save or lose its reactions for 1 minute. At the start of each affected turn, roll 1d6. On 1–4, it takes no action or bonus action and spends all its movement moving in a random direction. On 5–6, it stays put and can only repeat the ',
+              { dc: 'wis' },
+              ' Wisdom save, ending the effect on a success.',
+            ],
+            uses: 1,
+            recharge: 'Recharge 5–6',
+          },
+        ],
+      },
+    },
     fire_giant: {
       name: 'Fire Giant',
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
@@ -3427,6 +3755,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 322,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Remote jungle', 'Forest', 'Grassland', 'Desert', 'Urban'],
       appearance: [
         [
@@ -3730,6 +4059,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 323,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forests', 'Jungles', 'Wooded slopes'],
       appearance: [
         [
@@ -3796,6 +4126,7 @@ export default createPublicationMonsters({
       ],
       page: 323,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forests', 'Woodland edges', 'Burrows'],
       appearance: [
         [
@@ -3860,6 +4191,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 323,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Caves', 'Forests', 'Underdark'],
       appearance: [
         [
@@ -3915,6 +4247,7 @@ export default createPublicationMonsters({
       ],
       page: 323,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underdark', 'Urban'],
       appearance: [
         [
@@ -3975,6 +4308,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 324,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Desert', 'Forest', 'Swamp', 'Underdark', 'Underwater'],
       appearance: [
         [
@@ -4036,6 +4370,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 324,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Coastal shallows', 'Tide pools', 'Underwater'],
       appearance: [
         [
@@ -4090,6 +4425,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 324,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Rivers', 'Marshes', 'Wetlands'],
       appearance: [
         [
@@ -4167,6 +4503,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 325,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underground', 'Dark forests'],
       appearance: [
         ['A large dark beetle with six jointed legs, curved antennae, and two luminous glands.'],
@@ -4217,6 +4554,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 326,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grassland', 'Savanna', 'Dry scrub', 'Open woodland'],
       appearance: [
         [
@@ -4272,6 +4610,7 @@ export default createPublicationMonsters({
       name: 'Giant Octopus',
       page: 326,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
       appearance: [
         [
@@ -4347,11 +4686,70 @@ export default createPublicationMonsters({
         ],
       },
     },
+    giant_owl: {
+      name: 'Giant Owl',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.srd_5_1,
+      ],
+      page: 327,
+      alignment: 'neutral',
+      habitats: ['Woodlands', 'Old-growth forests'],
+      appearance: [
+        [
+          'A broad-chested tawny owl with barred flight feathers, a round facial disc, and heavy talons.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1/4',
+        ac: 12,
+        hitDice: '3d10',
+        speed: { walk: 5, fly: 60 },
+        scores: { str: 13, dex: 15, con: 12, int: 8, wis: 13, cha: 10 },
+        skills: { perception: 'expert', stealth: 'proficient' },
+        senses: { darkvision: 120 },
+        abilities: [
+          {
+            key: 'flyby',
+            name: 'Flyby',
+            timing: 'trait',
+            icon: 'gi/GiFeather',
+            text: ['Leaving an enemy’s reach in flight does not provoke an opportunity attack.'],
+          },
+          {
+            key: 'keen-hearing-and-sight',
+            name: 'Keen Hearing and Sight',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: [
+              'The owl has advantage on Wisdom (Perception) checks that use hearing or sight.',
+            ],
+          },
+          {
+            key: 'talons',
+            name: 'Talons',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     giant_scorpion: {
       name: 'Giant Scorpion',
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 327,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Desert'],
       appearance: [
         [
@@ -4432,6 +4830,7 @@ export default createPublicationMonsters({
       ],
       page: 328,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Deep ocean'],
       appearance: [
         [
@@ -4487,6 +4886,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 327,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Riverbanks', 'Marshes', 'Wet grassland'],
       appearance: [
         ['A thick olive-brown snake with dark markings, a triangular head, and visible fangs.'],
@@ -4528,11 +4928,97 @@ export default createPublicationMonsters({
         ],
       },
     },
+    giant_vulture: {
+      name: 'Giant Vulture',
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.srd_5_1,
+      ],
+      page: 329,
+      alignment: 'neutral evil',
+      habitats: ['Desert', 'Grassland'],
+      appearance: [
+        [
+          'A dark brown vulture with a bare clay-pink head and neck, a pale ruff, and a heavy hooked slate beak.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 10,
+        hitDice: '3d10',
+        speed: { walk: 10, fly: 60 },
+        scores: { str: 15, dex: 10, con: 15, int: 6, wis: 12, cha: 7 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-sight-and-smell',
+            name: 'Keen Sight and Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['Apply advantage on Wisdom (Perception) checks based on sight or smell.'],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The vulture gains advantage on an attack roll against a creature if one of its allies is within 5 ft. of the target and is not ',
+              rules.incapacitated,
+              '.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'beak' },
+              ' attack and one ',
+              { ability: 'talons' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'talons',
+            name: 'Talons',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     giant_wasp: {
       name: 'Giant Wasp',
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 329,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forests', 'Grasslands', 'Settlements'],
       appearance: [
         [
@@ -4594,6 +5080,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 329,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forests', 'Grasslands', 'Wooded hills'],
       appearance: [
         [
@@ -4641,6 +5128,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 330,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Open ground', 'Burrows', 'Crevices', 'Hollows under debris'],
       appearance: [
         [
@@ -4720,6 +5208,335 @@ export default createPublicationMonsters({
         ],
       },
     },
+    gibbering_mouther: {
+      name: 'Gibbering Mouther',
+      reprintedIn: [refs.publications.srd_5_1],
+      page: 157,
+      alignment: 'neutral',
+      stats: {
+        size: 'medium',
+        type: 'aberration',
+        cr: '2',
+        ac: 9,
+        hitDice: '9d8',
+        speed: { walk: 10, swim: 10 },
+        scores: { str: 10, dex: 8, con: 16, int: 3, wis: 10, cha: 6 },
+        senses: { darkvision: 60 },
+        conditionImmunities: [rules.prone],
+        abilities: [
+          {
+            key: 'aberrant-ground',
+            name: 'Aberrant Ground',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'Ground within 10 ft. of the mouther is difficult terrain. Any creature that starts its turn in that area must pass a ',
+              { dc: 'str' },
+              ' Strength save or have speed 0 until the start of its next turn.',
+            ],
+          },
+          {
+            key: 'gibbering',
+            name: 'Gibbering',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The mouther babbles while it can see a creature and is not ',
+              rules.incapacitated,
+              '. A creature that starts its turn within 20 ft. and hears the sound must pass a ',
+              { dc: 'wis' },
+              ' Wisdom save. On a failure it loses reactions until the start of its next turn and rolls 1d8 for its behavior this turn. 1–4. Do nothing. 5–6. Use all movement in a randomly determined direction and take no action or bonus action. 7–8. Make one melee attack against a randomly determined creature within reach. If no such attack is possible, do nothing.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'bites' },
+              ' attack and use ',
+              { ability: 'blinding-spittle' },
+              ' if available.',
+            ],
+          },
+          {
+            key: 'bites',
+            name: 'Bites',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '5d6', type: rules.piercing, addModifier: true }],
+            },
+            text: [
+              'A Medium or smaller target must pass a ',
+              { dc: 'str' },
+              ' Strength save or fall ',
+              rules.prone,
+              '. If the damage kills it, the mouther absorbs it.',
+            ],
+          },
+          {
+            key: 'blinding-spittle',
+            name: 'Blinding Spittle',
+            timing: 'action',
+            icon: 'gi/GiPoisonBottle',
+            text: [
+              'Choose a point the mouther can see within 15 ft. The spittle bursts in a flash on impact there. Each creature within 5 ft. of the flash must pass a ',
+              { dc: 'con', save: 'dex' },
+              ' Dexterity save or be ',
+              rules.blinded,
+              " until the end of the mouther's next turn.",
+            ],
+            uses: 1,
+            recharge: 'Recharge 5–6',
+          },
+        ],
+      },
+    },
+    githyanki_warrior: {
+      name: 'Githyanki Warrior',
+      tags: ['gith'],
+      page: 160,
+      alignment: 'lawful evil',
+      habitats: ['Astral Plane'],
+      appearance: [['A lean, yellow-skinned humanoid in half plate, armed with a greatsword.']],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '3',
+        ac: 17,
+        hitDice: '9d8',
+        speed: { walk: 30 },
+        scores: { str: 15, dex: 14, con: 12, int: 13, wis: 13, cha: 10 },
+        saves: { con: 'proficient', int: 'proficient', wis: 'proficient' },
+        abilities: [
+          {
+            key: 'spellcasting',
+            name: 'Spellcasting',
+            timing: 'trait',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'Innate Spellcasting (Psionics). Intelligence is the spellcasting ability. No spell components are required. At will. ',
+              refs.spells.mage_hand,
+              ' (the hand is ',
+              rules.invisible,
+              '). 3/day each. ',
+              refs.spells.jump,
+              ', ',
+              refs.spells.misty_step,
+              ', ',
+              refs.spells.nondetection,
+              ' (self only).',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['The warrior makes two ', { ability: 'greatsword' }, ' attacks.'],
+          },
+          {
+            key: 'greatsword',
+            name: 'Greatsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [
+                { dice: '2d6', type: rules.slashing, addModifier: true },
+                { dice: '2d6', type: rules.psychic },
+              ],
+            },
+          },
+        ],
+      },
+    },
+    gnoll_fang_of_yeenoghu: {
+      name: 'Gnoll Fang of Yeenoghu',
+      tags: ['gnoll'],
+      page: 163,
+      alignment: 'chaotic evil',
+      habitats: ['Grassland', 'Forest', 'Hill', 'Desert'],
+      appearance: [['A demonic, upright hyena with a snapping jaw and long claws.']],
+      tableNotes: [
+        [
+          'Multiattack. Make one Bite and two Claw attacks. When Bite hits a creature, it takes 7 (2d6) poison in addition on a failed DC 12 Constitution save.',
+        ],
+        [
+          'Rampage. If a melee attack on its turn drops a creature to 0 HP, it can spend a bonus action to move up to half its speed and make a Bite attack.',
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'fiend',
+        cr: '4',
+        ac: 14,
+        hitDice: '10d8',
+        speed: { walk: 30 },
+        scores: { str: 17, dex: 15, con: 15, int: 10, wis: 11, cha: 13 },
+        saves: { con: 'proficient', wis: 'proficient', cha: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'rampage',
+            name: 'Rampage',
+            timing: 'trait',
+            icon: 'gi/GiBull',
+            text: [
+              'If the gnoll reduces a creature to 0 HP with a melee attack on its turn, it can use a bonus action to move up to half its speed and make a bite attack.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make one bite and two claw attacks.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { creatures: 1, range: 5, which: 'it hits' },
+              onFail: {
+                damage: [{ dice: '2d6', type: rules.poison }],
+              },
+            },
+          },
+          {
+            key: 'claw',
+            name: 'Claw',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+    gnoll_pack_lord: {
+      name: 'Gnoll Pack Lord',
+      tags: ['gnoll'],
+      page: 163,
+      alignment: 'chaotic evil',
+      habitats: ['Grassland', 'Forest', 'Hill', 'Desert'],
+      appearance: [['An upright hyena with a powerful build, a long muzzle and a leader’s gear.']],
+      tableNotes: [
+        [
+          'Multiattack. Attack twice with Glaive or Longbow and use Incite Rampage if available. Incite Rampage (Recharge 5–6) lets a creature it sees within 30 ft. make one melee attack as a reaction if it hears the call and has Rampage.',
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 15,
+        hitDice: '9d8',
+        speed: { walk: 30 },
+        scores: { str: 16, dex: 14, con: 13, int: 8, wis: 11, cha: 9 },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'rampage',
+            name: 'Rampage',
+            timing: 'trait',
+            icon: 'gi/GiBull',
+            text: [
+              'If the gnoll reduces a creature to 0 HP with a melee attack on its turn, it can use a bonus action to move up to half its speed and make a bite attack.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make two glaive attacks or two longbow attacks, and use ',
+              { ability: 'incite-rampage' },
+              ' if it is available.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'glaive',
+            name: 'Glaive',
+            timing: 'action',
+            icon: 'gi/GiThrownDaggers',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '1d10', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'longbow',
+            name: 'Longbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [150, 600],
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'incite-rampage',
+            name: 'Incite Rampage',
+            timing: 'action',
+            icon: 'gi/GiBull',
+            text: [
+              'Choose one visible creature within 30 ft. If it can hear the pack lord and has ',
+              { ability: 'rampage' },
+              ', it can use its reaction to make a melee attack.',
+            ],
+            uses: 1,
+            recharge: 'recharge 5–6',
+          },
+        ],
+      },
+    },
     goblin: {
       name: 'Goblin',
       tags: ['goblinoid'],
@@ -4770,6 +5587,163 @@ export default createPublicationMonsters({
               range: [80, 320],
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
             },
+          },
+        ],
+      },
+    },
+    goblin_boss: {
+      name: 'Goblin Boss',
+      tags: ['goblinoid'],
+      page: 166,
+      alignment: 'neutral evil',
+      habitats: ['Underdark', 'Grassland', 'Forest', 'Hill'],
+      appearance: [['A short, pointed-eared goblin armed with a scimitar and javelins.']],
+      tableNotes: [
+        ['The 2014 Monster Manual errata gives Javelin +2 to hit and 3 (1d6) piercing damage.'],
+      ],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1',
+        ac: 17,
+        hitDice: '6d6',
+        speed: { walk: 30 },
+        scores: { str: 10, dex: 14, con: 10, int: 10, wis: 8, cha: 10 },
+        skills: { stealth: 'expert' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'nimble-escape',
+            name: 'Nimble Escape',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['On each of its turns, the boss can Disengage or Hide as a bonus action.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make two scimitar attacks. The second roll has disadvantage.'],
+          },
+          {
+            key: 'scimitar',
+            name: 'Scimitar',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'javelin',
+            name: 'Javelin',
+            timing: 'action',
+            icon: 'gi/GiThrownDaggers',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              thrown: [30, 120],
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'redirect-attack',
+            name: 'Redirect Attack',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'When an attacker the boss can see targets it, the boss can choose another goblin within 5 ft. The two switch places and the attack targets the other goblin.',
+            ],
+          },
+        ],
+      },
+    },
+    gorgon: {
+      name: 'Gorgon',
+      reprintedIn: [refs.publications.srd_5_1],
+      page: 171,
+      alignment: 'unaligned',
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '5',
+        ac: 19,
+        armor: 'natural armor',
+        hitDice: '12d10',
+        speed: { walk: 40 },
+        scores: { str: 20, dex: 11, con: 18, int: 2, wis: 12, cha: 7 },
+        skills: { perception: 'proficient' },
+        senses: { darkvision: 60 },
+        conditionImmunities: [rules.petrified],
+        abilities: [
+          {
+            key: 'trampling-charge',
+            name: 'Trampling Charge',
+            timing: 'trait',
+            icon: 'gi/GiBull',
+            text: [
+              'If it moves at least 20 ft. straight toward a creature and hits that creature with ',
+              { ability: 'gore' },
+              ' on the same turn, the target must pass a ',
+              { dc: 'str' },
+              ' Strength save or fall ',
+              rules.prone,
+              '. If the target is ',
+              rules.prone,
+              ', the gorgon can follow up with one ',
+              { ability: 'hooves' },
+              ' attack against it as a bonus action.',
+            ],
+          },
+          {
+            key: 'gore',
+            name: 'Gore',
+            timing: 'action',
+            icon: 'gi/GiBullHorns',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d12', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'hooves',
+            name: 'Hooves',
+            timing: 'action',
+            icon: 'gi/GiStomp',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d10', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+          {
+            key: 'petrifying-breath',
+            name: 'Petrifying Breath',
+            timing: 'action',
+            icon: 'gi/GiDragonBreath',
+            text: [
+              'Creatures in a 30-ft. cone make a ',
+              { dc: 'con', printed: 13 },
+              ' Constitution save. On a failure a creature begins turning to stone and becomes ',
+              rules.restrained,
+              '. It repeats the save at the end of its next turn. A success ends the effect. A second failure leaves it ',
+              rules.petrified,
+              ' until Greater Restoration or other magic frees it.',
+            ],
+            uses: 1,
+            recharge: 'Recharge 5–6',
           },
         ],
       },
@@ -5518,6 +6492,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 330,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Open country', 'Grassland', 'Woodland edges', 'Hills'],
       appearance: [
         [
@@ -5698,6 +6673,64 @@ export default createPublicationMonsters({
         ],
       },
     },
+    hippogriff: {
+      name: 'Hippogriff',
+      reprintedIn: [refs.publications.srd_5_1],
+      page: 184,
+      alignment: 'unaligned',
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '1',
+        ac: 11,
+        hitDice: '3d10',
+        speed: { walk: 40, fly: 60 },
+        scores: { str: 17, dex: 13, con: 13, int: 2, wis: 12, cha: 8 },
+        skills: { perception: 'expert' },
+        abilities: [
+          {
+            key: 'keen-sight',
+            name: 'Keen Sight',
+            timing: 'trait',
+            icon: 'lucide/Eye',
+            text: ['It has advantage on Wisdom (Perception) checks that rely on sight.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make one ', { ability: 'beak' }, ' and one ', { ability: 'claws' }, ' attack.'],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'claws',
+            name: 'Claws',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     hook_horror: {
       name: 'Hook Horror',
       page: 189,
@@ -5766,6 +6799,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 330,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Deep water', 'Underwater'],
       appearance: [
         [
@@ -5910,6 +6944,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 331,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Savanna', 'Open grassland', 'Dry scrub'],
       appearance: [
         [
@@ -5958,6 +6993,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 331,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Dry grassland', 'Scrubland', 'Desert margins'],
       appearance: [
         [
@@ -6088,6 +7124,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 331,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Coastal waters', 'Open ocean'],
       appearance: [
         [
@@ -6298,6 +7335,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 331,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Savanna', 'Grassland', 'Open scrub'],
       appearance: [
         [
@@ -6392,6 +7430,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 332,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Rocky ground', 'Dry scrub', 'Stone walls'],
       appearance: [
         [
@@ -6603,6 +7642,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 332,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Cold steppe', 'Tundra', 'Subtropical regions'],
       appearance: [
         [
@@ -6806,6 +7846,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 332,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Hills', 'Urban'],
       appearance: [
         ['A heavy, broad-chested hound with folded ears, a fawn coat, and a dark muzzle.'],
@@ -7642,6 +8683,7 @@ export default createPublicationMonsters({
       name: 'Octopus',
       page: 333,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Coastal waters', 'Reefs'],
       appearance: [
         [
@@ -7864,11 +8906,74 @@ export default createPublicationMonsters({
         ],
       },
     },
+    orog: {
+      name: 'Orog',
+      tags: ['orc'],
+      page: 247,
+      alignment: 'chaotic evil',
+      habitats: ['Underdark', 'Mountain', 'Grassland', 'Forest', 'Hill', 'Arctic'],
+      appearance: [['A heavily built orc in plate armor, armed with a greataxe and javelins.']],
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 18,
+        hitDice: '5d8',
+        speed: { walk: 30 },
+        scores: { str: 18, dex: 12, con: 18, int: 12, wis: 11, cha: 12 },
+        skills: { intimidation: 'expert', survival: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'aggressive',
+            name: 'Aggressive',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['As a bonus action, move up to its speed toward a hostile creature it can see.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make two greataxe attacks.'],
+          },
+          {
+            key: 'greataxe',
+            name: 'Greataxe',
+            timing: 'action',
+            icon: 'gi/GiBattleAxe',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d12', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'javelin',
+            name: 'Javelin',
+            timing: 'action',
+            icon: 'gi/GiThrownDaggers',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              thrown: [30, 120],
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     owl: {
       name: 'Owl',
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 333,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forests', 'Arctic', 'Open fields'],
       appearance: [
         [
@@ -8006,6 +9111,7 @@ export default createPublicationMonsters({
       ],
       page: 333,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Jungle', 'Rocky hills'],
       appearance: [
         [
@@ -8188,11 +9294,85 @@ export default createPublicationMonsters({
         ],
       },
     },
+    phase_spider: {
+      name: 'Phase Spider',
+      page: 334,
+      alignment: 'unaligned',
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '3',
+        ac: 13,
+        armor: 'natural armor',
+        hitDice: '5d10',
+        speed: { walk: 30, climb: 30 },
+        scores: { str: 15, dex: 15, con: 12, int: 6, wis: 10, cha: 6 },
+        skills: { stealth: 'expert' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'spider-climb',
+            name: 'Spider Climb',
+            timing: 'trait',
+            icon: 'lucide/MoveUp',
+            text: ['The spider climbs difficult surfaces and ceilings without an ability check.'],
+          },
+          {
+            key: 'web-walker',
+            name: 'Web Walker',
+            timing: 'trait',
+            icon: 'gi/GiSpiderWeb',
+            text: ["Webbing does not impede the spider's movement."],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
+            },
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { creatures: 1, range: 5, which: 'it hits' },
+              onFail: {
+                damage: [{ dice: '4d8', type: rules.poison }],
+              },
+              onSuccess: 'half',
+            },
+            text: [
+              'If the poison damage reduces the target to 0 HP, it is Stable but ',
+              rules.poisoned,
+              ' for 1 hour even if it regains HP. It is ',
+              rules.paralyzed,
+              ' while ',
+              rules.poisoned,
+              ' this way.',
+            ],
+          },
+          {
+            key: 'ethereal-jaunt',
+            name: 'Ethereal Jaunt',
+            timing: 'bonus action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'The spider magically shifts from the Material Plane to the Ethereal Plane or back again.',
+            ],
+          },
+        ],
+      },
+    },
     plesiosaurus: {
       name: 'Plesiosaurus',
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Coastal waters', 'Underwater'],
       appearance: [
         [
@@ -8238,6 +9418,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 335,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Pastures', 'Farms', 'Stables'],
       appearance: [
         [
@@ -8357,6 +9538,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018],
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Coasts', 'Sea cliffs', 'Tropical islands'],
       appearance: [
         [
@@ -8452,6 +9634,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 335,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Aquatic', 'Underground lakes'],
       appearance: [
         ['A compact predatory fish with sharp teeth, gray-green scales, and reddish fins.'],
@@ -8508,6 +9691,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 335,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Settlements', 'Cellars', 'Sewers', 'Wetlands'],
       appearance: [
         [
@@ -8558,6 +9742,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 335,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Woodland edges', 'Rocky uplands', 'Settlements', 'Carrion sites'],
       appearance: [
         [
@@ -8690,6 +9875,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 336,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Shallow water', 'Coral reefs'],
       appearance: [
         [
@@ -8872,6 +10058,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 336,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grassland', 'Pastures', 'Stables', 'Roads', 'Settlements'],
       appearance: [
         [
@@ -9302,6 +10489,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 337,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Desert', 'Rocky scrub'],
       appearance: [
         [
@@ -9480,6 +10668,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 337,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Seagrass beds', 'Shallow coastal water'],
       appearance: [
         [
@@ -9646,6 +10835,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 337,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Woodland undergrowth', 'Cellars', 'Ruins'],
       appearance: [
         [
@@ -10035,6 +11225,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 339,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Grassland', 'Jungle', 'Tall grass'],
       appearance: [
         [
@@ -10237,6 +11428,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grassland', 'Open plains', 'Open woodland'],
       appearance: [
         [
@@ -10586,6 +11778,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grassland', 'Open plains', 'Woodland edges'],
       appearance: [
         [
@@ -10760,6 +11953,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 334,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest floor', 'Scrub', 'Water margins'],
       appearance: [
         [
@@ -10867,6 +12061,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 339,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Deserts', 'Grasslands', 'Rocky slopes'],
       appearance: [
         [
@@ -10963,6 +12158,7 @@ export default createPublicationMonsters({
       reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
       page: 340,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Woodland edges', 'Hedgerows', 'Grasslands'],
       appearance: [
         ['A slender, reddish-brown weasel with a long body, short legs and a pale underside.'],
@@ -11017,6 +12213,7 @@ export default createPublicationMonsters({
       ],
       page: 341,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Forest', 'Grassland', 'Hills'],
       appearance: [
         ['A gray-brown canine with a deep chest, pointed ears, long legs and a low bushy tail.'],

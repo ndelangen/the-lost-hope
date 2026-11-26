@@ -868,6 +868,7 @@ export default createPublicationMonsters({
     animated_armor: {
       name: 'Animated Armor',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'construct',
@@ -1048,6 +1049,7 @@ export default createPublicationMonsters({
     basilisk: {
       name: 'Basilisk',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -1138,6 +1140,7 @@ export default createPublicationMonsters({
     black_bear: {
       name: 'Black Bear',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -1197,6 +1200,7 @@ export default createPublicationMonsters({
     brown_bear: {
       name: 'Brown Bear',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -1464,46 +1468,6 @@ export default createPublicationMonsters({
         ],
       },
     },
-    cockatrice: {
-      name: 'Cockatrice',
-      alignment: 'unaligned',
-      stats: {
-        size: 'small',
-        type: 'monstrosity',
-        cr: '1/2',
-        ac: 11,
-        hitDice: '6d6',
-        speed: { walk: 20, fly: 40 },
-        scores: { str: 6, dex: 12, con: 12, int: 2, wis: 13, cha: 5 },
-        senses: { darkvision: 60 },
-        abilities: [
-          {
-            key: 'bite',
-            name: 'Bite',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'dex',
-              reach: 5,
-              damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'The target must succeed on a ',
-              { dc: 'con' },
-              ' Constitution saving throw against being magically ',
-              rules.petrified,
-              '. On a failed save, the creature begins to turn to stone and is ',
-              rules.restrained,
-              '. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is ',
-              rules.petrified,
-              ' for 24 hours.',
-            ],
-          },
-        ],
-      },
-    },
     cultist: {
       name: 'Cultist',
       tags: ['any race'],
@@ -1552,6 +1516,7 @@ export default createPublicationMonsters({
     darkmantle: {
       name: 'Darkmantle',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'monstrosity',
@@ -1970,6 +1935,7 @@ export default createPublicationMonsters({
     ettercap: {
       name: 'Ettercap',
       alignment: 'neutral evil',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -2043,6 +2009,7 @@ export default createPublicationMonsters({
     flying_sword: {
       name: 'Flying Sword',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'construct',
@@ -2106,6 +2073,7 @@ export default createPublicationMonsters({
     frog: {
       name: 'Frog',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'tiny',
         type: 'beast',
@@ -2251,6 +2219,7 @@ export default createPublicationMonsters({
       name: 'Giant Lizard',
       reprintedIn: [refs.publications.hoard_of_the_dragon_queen_online_supplement],
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -2281,6 +2250,7 @@ export default createPublicationMonsters({
     giant_octopus: {
       name: 'Giant Octopus',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -2332,59 +2302,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    giant_owl: {
-      name: 'Giant Owl',
-      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
-      alignment: 'neutral',
-      languages: ['Giant Owl', 'understands Common', 'Elvish', 'and Sylvan but can’t speak them'],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1/4',
-        ac: 12,
-        hitDice: '3d10',
-        speed: { walk: 5, fly: 60 },
-        scores: { str: 13, dex: 15, con: 12, int: 8, wis: 13, cha: 10 },
-        skills: { perception: 'expert', stealth: 'proficient' },
-        senses: { darkvision: 120 },
-        abilities: [
-          {
-            key: 'flyby',
-            name: 'Flyby',
-            timing: 'trait',
-            icon: 'gi/GiFeather',
-            text: [
-              'The owl doesn’t provoke opportunity attacks when it flies out of an enemy’s reach.',
-            ],
-          },
-          {
-            key: 'keen-hearing-and-sight',
-            name: 'Keen Hearing and Sight',
-            timing: 'trait',
-            icon: 'gi/GiHumanEar',
-            text: [
-              'The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight.',
-            ],
-          },
-          {
-            key: 'talons',
-            name: 'Talons',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
     giant_rat: {
       name: 'Giant Rat',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'beast',
@@ -2425,158 +2346,6 @@ export default createPublicationMonsters({
               reach: 5,
               damage: [{ dice: '1d4', type: rules.piercing, addModifier: true }],
             },
-          },
-        ],
-      },
-    },
-    giant_vulture: {
-      name: 'Giant Vulture',
-      reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
-      alignment: 'neutral evil',
-      languages: ['understands Common but can’t speak'],
-      stats: {
-        size: 'large',
-        type: 'beast',
-        cr: '1',
-        ac: 10,
-        hitDice: '3d10',
-        speed: { walk: 10, fly: 60 },
-        scores: { str: 15, dex: 10, con: 15, int: 6, wis: 12, cha: 7 },
-        skills: { perception: 'proficient' },
-        abilities: [
-          {
-            key: 'keen-sight-and-smell',
-            name: 'Keen Sight and Smell',
-            timing: 'trait',
-            icon: 'gi/GiNoseSide',
-            text: [
-              'The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell.',
-            ],
-          },
-          {
-            key: 'pack-tactics',
-            name: 'Pack Tactics',
-            timing: 'trait',
-            icon: 'lucide/UsersRound',
-            text: [
-              'The vulture has advantage on an attack roll against a creature if at least one of the vulture’s allies is within 5 feet of the creature and the ally isn’t ',
-              rules.incapacitated,
-              '.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The vulture makes two attacks: one with its beak and one with its talons.'],
-          },
-          {
-            key: 'beak',
-            name: 'Beak',
-            timing: 'action',
-            icon: 'gi/GiRaven',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d4', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'talons',
-            name: 'Talons',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
-    gibbering_mouther: {
-      name: 'Gibbering Mouther',
-      alignment: 'neutral',
-      stats: {
-        size: 'medium',
-        type: 'aberration',
-        cr: '2',
-        ac: 9,
-        hitDice: '9d8',
-        speed: { walk: 10, swim: 10 },
-        scores: { str: 10, dex: 8, con: 16, int: 3, wis: 10, cha: 6 },
-        senses: { darkvision: 60 },
-        conditionImmunities: [rules.prone],
-        abilities: [
-          {
-            key: 'aberrant-ground',
-            name: 'Aberrant Ground',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'The ground in a 10-foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a ',
-              { dc: 'str' },
-              ' Strength saving throw or have its speed reduced to 0 until the start of its next turn.',
-            ],
-          },
-          {
-            key: 'gibbering',
-            name: 'Gibbering',
-            timing: 'trait',
-            icon: 'gi/GiPaw',
-            text: [
-              'The mouther babbles incoherently while it can see any creature and isn’t ',
-              rules.incapacitated,
-              '. Each creature that starts its turn within 20 feet of the mouther and can hear the gibbering must succeed on a ',
-              { dc: 'wis' },
-              ' Wisdom saving throw. On a failure, the creature can’t take reactions until the start of its next turn and rolls a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and uses all its movement to move in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can’t make such an attack.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: [
-              'The gibbering mouther makes one bite attack and, if it can, uses its ',
-              { ability: 'blinding-spittle' },
-              '.',
-            ],
-          },
-          {
-            key: 'bites',
-            name: 'Bites',
-            timing: 'action',
-            icon: 'gi/GiFangs',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '5d6', type: rules.piercing, addModifier: true }],
-            },
-            text: [
-              'If the target is Medium or smaller, it must succeed on a ',
-              { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
-              '. If the target is killed by this damage, it is absorbed into the mouther.',
-            ],
-          },
-          {
-            key: 'blinding-spittle',
-            name: 'Blinding Spittle',
-            timing: 'action',
-            icon: 'gi/GiPoisonBottle',
-            text: ['The mouther spits a chemical glob at a point it can see within 15 feet of it.'],
-            uses: 1,
-            recharge: 'Recharge 5–6',
           },
         ],
       },
@@ -2925,88 +2694,10 @@ export default createPublicationMonsters({
         ],
       },
     },
-    gorgon: {
-      name: 'Gorgon',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'monstrosity',
-        cr: '5',
-        ac: 19,
-        armor: 'natural armor',
-        hitDice: '12d10',
-        speed: { walk: 40 },
-        scores: { str: 20, dex: 11, con: 18, int: 2, wis: 12, cha: 7 },
-        skills: { perception: 'proficient' },
-        senses: { darkvision: 60 },
-        conditionImmunities: [rules.petrified],
-        abilities: [
-          {
-            key: 'trampling-charge',
-            name: 'Trampling Charge',
-            timing: 'trait',
-            icon: 'gi/GiBull',
-            text: [
-              'If the gorgon moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a ',
-              { dc: 'str' },
-              ' Strength saving throw or be knocked ',
-              rules.prone,
-              '. If the target is ',
-              rules.prone,
-              ', the gorgon can make one attack with its hooves against it as a bonus action.',
-            ],
-          },
-          {
-            key: 'gore',
-            name: 'Gore',
-            timing: 'action',
-            icon: 'gi/GiBullHorns',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d12', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'hooves',
-            name: 'Hooves',
-            timing: 'action',
-            icon: 'gi/GiStomp',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d10', type: rules.bludgeoning, addModifier: true }],
-            },
-          },
-          {
-            key: 'petrifying-breath',
-            name: 'Petrifying Breath',
-            timing: 'action',
-            icon: 'gi/GiDragonBreath',
-            text: [
-              'The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a ',
-              { dc: 'con', printed: 13 },
-              ' Constitution saving throw. On a failed save, a target begins to turn to stone and is ',
-              rules.restrained,
-              '. The ',
-              rules.restrained,
-              ' target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is ',
-              rules.petrified,
-              ' until freed by the greater restoration spell or other magic.',
-            ],
-            uses: 1,
-            recharge: 'Recharge 5–6',
-          },
-        ],
-      },
-    },
     gray_ooze: {
       name: 'Gray Ooze',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'ooze',
@@ -3181,64 +2872,6 @@ export default createPublicationMonsters({
               thrown: [20, 60],
               twoHanded: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
               damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
-            },
-          },
-        ],
-      },
-    },
-    hippogriff: {
-      name: 'Hippogriff',
-      alignment: 'unaligned',
-      stats: {
-        size: 'large',
-        type: 'monstrosity',
-        cr: '1',
-        ac: 11,
-        hitDice: '3d10',
-        speed: { walk: 40, fly: 60 },
-        scores: { str: 17, dex: 13, con: 13, int: 2, wis: 12, cha: 8 },
-        skills: { perception: 'expert' },
-        abilities: [
-          {
-            key: 'keen-sight',
-            name: 'Keen Sight',
-            timing: 'trait',
-            icon: 'lucide/Eye',
-            text: [
-              'The hippogriff has advantage on Wisdom (Perception) checks that rely on sight.',
-            ],
-          },
-          {
-            key: 'multiattack',
-            name: 'Multiattack',
-            timing: 'action',
-            icon: 'gi/GiPaw',
-            text: ['The hippogriff makes two attacks: one with its beak and one with its claws.'],
-          },
-          {
-            key: 'beak',
-            name: 'Beak',
-            timing: 'action',
-            icon: 'gi/GiRaven',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '1d10', type: rules.piercing, addModifier: true }],
-            },
-          },
-          {
-            key: 'claws',
-            name: 'Claws',
-            timing: 'action',
-            icon: 'gi/GiClaws',
-            intent: 'damage',
-            attack: {
-              kind: 'melee',
-              ability: 'str',
-              reach: 5,
-              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
             },
           },
         ],
@@ -3507,6 +3140,7 @@ export default createPublicationMonsters({
       name: 'Mimic',
       tags: ['shapechanger'],
       alignment: 'neutral',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -3599,6 +3233,7 @@ export default createPublicationMonsters({
     ochre_jelly: {
       name: 'Ochre Jelly',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -3668,6 +3303,7 @@ export default createPublicationMonsters({
     octopus: {
       name: 'Octopus',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'beast',
@@ -3878,6 +3514,7 @@ export default createPublicationMonsters({
     phase_spider: {
       name: 'Phase Spider',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'monstrosity',
@@ -3953,6 +3590,7 @@ export default createPublicationMonsters({
       name: 'Polar Bear',
       reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -4010,6 +3648,7 @@ export default createPublicationMonsters({
     rug_of_smothering: {
       name: 'Rug of Smothering',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'construct',
@@ -4146,6 +3785,7 @@ export default createPublicationMonsters({
     shrieker: {
       name: 'Shrieker',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -4487,6 +4127,7 @@ export default createPublicationMonsters({
     violet_fungus: {
       name: 'Violet Fungus',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'plant',
@@ -4534,6 +4175,7 @@ export default createPublicationMonsters({
     warhorse: {
       name: 'Warhorse',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'beast',
@@ -4577,6 +4219,7 @@ export default createPublicationMonsters({
     warhorse_skeleton: {
       name: 'Warhorse Skeleton',
       alignment: 'lawful evil',
+      languages: [],
       stats: {
         size: 'large',
         type: 'undead',

@@ -560,8 +560,7 @@ def convert(r,p):
   src_line=' '.join(sec(p,'Printed source') or [])
   pg=re.search(r'\bpp?\. (\d+)',src_line)
   page=int(pg.group(1)) if pg else None
-  if langs is None and not sec(p,'Languages'):
-    issues.append('languages not captured')
+  # Languages the source never recorded stay unknown rather than holding the printing back.
   meta={'lore':lore,'alignment':align,'tags':tags,'languages':langs.group(1).strip() if langs else None,'page':page}
   return block,meta,issues
 def main():

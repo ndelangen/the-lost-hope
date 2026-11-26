@@ -7,10 +7,37 @@ const { rules } = campaignRefs
 export default createPublicationMonsters({
   publication: refs.publications.rise_of_tiamat_online_supplement,
   monsters: {
+    assassin: {
+      name: 'Assassin',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '8',
+        ac: 15,
+        hitDice: '12d8',
+        speed: { walk: 30 },
+        scores: { str: 11, dex: 16, con: 14, int: 13, wis: 11, cha: 10 },
+        abilities: [],
+      },
+    },
+    druid: {
+      name: 'Druid',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '2',
+        ac: 11,
+        hitDice: '5d8',
+        speed: { walk: 30 },
+        scores: { str: 10, dex: 12, con: 13, int: 12, wis: 15, cha: 11 },
+        abilities: [],
+      },
+    },
     giant_octopus: {
       name: 'Giant Octopus',
       page: 16,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Coastal waters', 'Submerged caves'],
       appearance: [['A reddish brown octopus with eight curling arms and rows of pale suckers.']],
       stats: {
@@ -77,10 +104,50 @@ export default createPublicationMonsters({
         ],
       },
     },
+    helmed_horror: {
+      name: 'Helmed Horror',
+      stats: {
+        size: 'medium',
+        type: 'construct',
+        cr: '4',
+        ac: 20,
+        hitDice: '8d8',
+        speed: { walk: 30, fly: 30 },
+        scores: { str: 18, dex: 13, con: 16, int: 10, wis: 10, cha: 10 },
+        abilities: [],
+      },
+    },
+    mummy_lord: {
+      name: 'Mummy Lord',
+      stats: {
+        size: 'medium',
+        type: 'undead',
+        cr: '15',
+        ac: 17,
+        hitDice: '13d8',
+        speed: { walk: 20 },
+        scores: { str: 18, dex: 10, con: 17, int: 11, wis: 18, cha: 16 },
+        abilities: [],
+      },
+    },
+    tribal_warrior: {
+      name: 'Tribal Warrior',
+      stats: {
+        size: 'medium',
+        type: 'humanoid',
+        cr: '1/8',
+        ac: 12,
+        hitDice: '2d8',
+        speed: { walk: 30 },
+        scores: { str: 13, dex: 11, con: 12, int: 8, wis: 11, cha: 8 },
+        abilities: [],
+      },
+    },
     warhorse: {
       name: 'Warhorse',
       page: 26,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grassland', 'Cavalry stables'],
       appearance: [['A bay horse with a dark mane, tail, and lower legs.']],
       stats: {

@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Giant Riding Lizard',
       page: 131,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underdark'],
       appearance: [
         ['A sturdy four-legged olive lizard with a long tail, pale throat, and clawed toes.'],
@@ -55,6 +56,7 @@ export default createPublicationMonsters({
       name: 'Giant Rocktopus',
       page: 28,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['underwater'],
       appearance: [
         [

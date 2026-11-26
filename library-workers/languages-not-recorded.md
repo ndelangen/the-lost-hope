@@ -1,0 +1,216 @@
+# Creatures whose languages our sources do not record
+
+The library shows "Not recorded" for these. Fill them from the books when we have them.
+
+- Basic Rules: Giant Eagle
+- Basic Rules: Hell Hound
+- Basic Rules: Mummy
+- Basic Rules: Phase Spider
+- Basic Rules: Yeti
+- Bigby Presents: Glory of the Giants: Regisaur
+- DDAL04-01 - The Suits of the Mists: Vine Blight
+- DDAL04-03 - The Executioner: Ghast
+- DDAL04-03 - The Executioner: Zombie
+- DDAL04-04 - The Marionette: Ghast
+- DDAL04-04 - The Marionette: Guardian Portrait
+- DDAL04-05 - The Seer: Winter Wolf
+- DDAL04-06 - The Ghost: Druid
+- DDAL04-06 - The Ghost: Ettercap
+- DDAL04-07 - The Innocent: Bone Naga
+- DDAL04-07 - The Innocent: Regold (Veteran)
+- DDAL04-07 - The Innocent: Yuan-ti Malison
+- DDAL04-09 - The Tempter: Phantom Warrior
+- DDAL04-09 - The Tempter: Reflection Guardian
+- DDAL04-09 - The Tempter: Wererat
+- DDAL04-10 - The Artifact: Wight
+- DDAL04-10 - The Artifact: Wraith
+- DDAL04-10 - The Artifact: Young Remorhaz
+- DDAL04-11 - The Donjon: Dryad
+- DDAL04-11 - The Donjon: Fire Snake
+- DDAL04-11 - The Donjon: Lizardfolk
+- DDAL04-12 - The Raven: Orc Blood Shaman (Orc War Chief)
+- DDAL04-12 - The Raven: Wereboar
+- DDAL04-13 - The Horseman: Guardian Portrait
+- DDAL04-13 - The Horseman: Omou
+- DDAL04-14 - The Darklord: Assassin
+- DDAL04-14 - The Darklord: Esmae Amarantha
+- DDAL04-14 - The Darklord: Phantom Warrior
+- DDEP1 - Corruption in Kryptgarden: Necromancer
+- DDEP1 - Corruption in Kryptgarden: Red Wizard
+- DDEP1 - Corruption in Kryptgarden: Rug of Smothering
+- DDEP2 - Mulmaster Undone V2: Assassin
+- DDEP2 - Mulmaster Undone V2: Azer
+- DDEP2 - Mulmaster Undone V2: Djinni
+- DDEP2 - Mulmaster Undone V2: Duergar
+- DDEP2 - Mulmaster Undone V2: Qabara
+- DDEP2 - Mulmaster Undone V2: Razerblast Initiate
+- DDEP2 - Mulmaster Undone V2: Water Weird
+- DDEX1-03 - Shadows over the Moonsea: Warsh
+- DDEX1-04 - Dues for the Dead: Rorreth (Red Wizard)
+- DDEX1-05 - The Courting of Fire: Gray Ooze
+- DDEX1-08 - Tales Trees Tell: Imp
+- DDEX1-08 - Tales Trees Tell: Pixie
+- DDEX1-10 - Tyranny in Phlan: Basilisk
+- DDEX1-11 - Dark Pyramid of Sorcerer's Isle: Crawling Claw
+- DDEX1-11 - Dark Pyramid of Sorcerer's Isle: Elf Druid
+- DDEX1-11 - Dark Pyramid of Sorcerer's Isle: Helmed Horror
+- DDEX1-11 - Dark Pyramid of Sorcerer's Isle: Ochre Jelly
+- DDEX1-13 - Pool of Radiance Resurgent: Dragonwing
+- DDEX1-13 - Pool of Radiance Resurgent: Druid
+- DDEX1-14 - Escape from Phlan: Vine Blight
+- DDEX1-14 - Escape from Phlan: Will-o'-Wisp
+- DDEX2-01 - City of Danger: Ankheg
+- DDEX2-01 - City of Danger: Quasit
+- DDEX2-02 - Embers of Elmwood: Azer
+- DDEX2-02 - Embers of Elmwood: Fire Snake
+- DDEX2-02 - Embers of Elmwood: Magma Mephit
+- DDEX2-02 - Embers of Elmwood: Steam Mephit
+- DDEX2-03 - The Drowned Tower: Black Pudding
+- DDEX2-04 - Mayhem in the Earthspur Mines: Black Pudding
+- DDEX2-04 - Mayhem in the Earthspur Mines: Nightmare
+- DDEX2-05 - Flames of Kythorn: Fire Snake
+- DDEX2-07 - Bounty in the Bog: Bandit Mage
+- DDEX2-07 - Bounty in the Bog: Gray Ooze
+- DDEX3-01 - Harried in Hillsfar: Duergar
+- DDEX3-02 - Shackles of Blood: Druid
+- DDEX3-03 - The Occupation of Szith Morcane: Black Pudding
+- DDEX3-03 - The Occupation of Szith Morcane: Chasme
+- DDEX3-03 - The Occupation of Szith Morcane: Myconid Adult
+- DDEX3-03 - The Occupation of Szith Morcane: Myconid Sovereign
+- DDEX3-03 - The Occupation of Szith Morcane: Shadow Demon
+- DDEX3-04 - It's All in the Blood: Chasme
+- DDEX3-05 - Bane of the Tradeways: Duergar
+- DDEX3-05 - Bane of the Tradeways: Quasit
+- DDEX3-07 - Herald of the Moon: Black Pudding
+- DDEX3-07 - Herald of the Moon: Drow Elite Warrior
+- DDEX3-07 - Herald of the Moon: Drow Mage
+- DDEX3-07 - Herald of the Moon: Ochre Jelly
+- DDEX3-07 - Herald of the Moon: Shadow Demon
+- DDEX3-07 - Herald of the Moon: Vine Blight
+- DDEX3-08 - The Malady of Elventree: Drow Elite Warrior
+- DDEX3-08 - The Malady of Elventree: Duergar
+- DDEX3-08 - The Malady of Elventree: Shadow Demon
+- DDEX3-13 - Writhing in the Dark: Githyanki Knight
+- DDEX3-15 - Szith Morcane Unbound: Azer
+- DDEX3-15 - Szith Morcane Unbound: Drow Elite Warrior
+- DDEX3-15 - Szith Morcane Unbound: Drow Mage
+- DDEX3-15 - Szith Morcane Unbound: Duergar
+- DDEX3-15 - Szith Morcane Unbound: Helmed Horror
+- DDEX3-15 - Szith Morcane Unbound: Salamander
+- DDEX3-16 - Assault on Maerimydra: Drider
+- DDEX3-16 - Assault on Maerimydra: Drow Elite Warrior
+- DDEX3-16 - Assault on Maerimydra: Graz’zt
+- DDEX3-16 - Assault on Maerimydra: Nightmare
+- DDEX3-16 - Assault on Maerimydra: Orc Eye of Gruumsh
+- DDEX3-16 - Assault on Maerimydra: Orc War Chief
+- DDEX3-16 - Assault on Maerimydra: Quasit
+- DDEX3-16 - Assault on Maerimydra: Shadow Demon
+- Ghosts of Saltmarsh: Bard
+- Ghosts of Saltmarsh: Fathomer
+- Hoard of the Dragon Queen - Online Supplement: Assassin
+- Hoard of the Dragon Queen - Online Supplement: Gray Ooze
+- Hoard of the Dragon Queen - Online Supplement: Griffon
+- Hoard of the Dragon Queen - Online Supplement: Helmed Horror
+- Hoard of the Dragon Queen - Online Supplement: Priest
+- Hoard of the Dragon Queen - Online Supplement: Rug of Smothering
+- Hoard of the Dragon Queen - Online Supplement: Stone Golem
+- Hoard of the Dragon Queen - Online Supplement: Vampire
+- Hoard of the Dragon Queen - Online Supplement: Yuan-ti Malison
+- Humblewood Campaign Setting: Birdfolk Farmer
+- Humblewood Campaign Setting: Gallus Monk
+- Humblewood Campaign Setting: Jerbeen Thief
+- Humblewood Campaign Setting: Lesser Demon
+- Humblewood Campaign Setting: Mapach Bandit
+- Humblewood Campaign Setting: Mapach Brute
+- Humblewood Campaign Setting: Raptor Explorer
+- Humblewood Campaign Setting: Vulpin Captain
+- Humblewood Campaign Setting: Vulpin Noble
+- Icewind Dale: Rime of the Frostmaiden: Kingsport
+- Monster Manual: Axe Beak
+- Monster Manual: Basilisk
+- Monster Manual: Bulette Pup
+- Monster Manual: Carrion Crawler
+- Monster Manual: Cockatrice
+- Monster Manual: Cockatrice
+- Monster Manual: Darkmantle
+- Monster Manual: Deep Gnome (Svirfneblin)
+- Monster Manual: Ettercap
+- Monster Manual: Faerie Dragon (Younger)
+- Monster Manual: Flying Snake
+- Monster Manual: Giant Owl
+- Monster Manual: Giant Vulture
+- Monster Manual: Gibbering Mouther
+- Monster Manual: Githyanki Warrior
+- Monster Manual: Gnoll Fang of Yeenoghu
+- Monster Manual: Gnoll Pack Lord
+- Monster Manual: Goblin Boss
+- Monster Manual: Gorgon
+- Monster Manual: Gray Ooze
+- Monster Manual: Grick
+- Monster Manual: Grick Ancient
+- Monster Manual: Griffon
+- Monster Manual: Grimlock
+- Monster Manual: Hippogriff
+- Monster Manual: Hippogriff
+- Monster Manual: Hydra
+- Monster Manual: Ochre Jelly
+- Monster Manual: Orog
+- Monster Manual: Owlbear
+- Monster Manual: Phase Spider
+- Monster Manual: Phase Spider
+- Monster Manual: Roc
+- Monster Manual: Rust Monster
+- Monster Manual: Shadow
+- Monster Manual: Warhorse Skeleton
+- Monster Manual: Wyvern
+- Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher
+- Mordenkainen Presents: Monsters of the Multiverse: Girallon
+- Mordenkainen Presents: Monsters of the Multiverse: Neogi Hatchling
+- Mordenkainen Presents: Monsters of the Multiverse: Oblex Spawn
+- Plane Shift: Amonkhet: Large Drake
+- Plane Shift: Dominaria: Kavu Predator
+- Plane Shift: Dominaria: Steel Leaf Kavu
+- Plane Shift: Kaladesh: Drake (Large)
+- Plane Shift: Zendikar: Drake (Large)
+- Planescape: Adventures in the Multiverse: Pixie
+- Princes of the Apocalypse - D&D Encounters: Feathergale Knight
+- Princes of the Apocalypse - D&D Encounters: Shoalar Quanderil
+- Princes of the Apocalypse - D&D Encounters: Skyweaver
+- Princes of the Apocalypse - Online Supplement: Ankheg
+- Princes of the Apocalypse - Online Supplement: Assassin
+- Princes of the Apocalypse - Online Supplement: Azer
+- Princes of the Apocalypse - Online Supplement: Black Pudding
+- Princes of the Apocalypse - Online Supplement: Crawling Claw
+- Princes of the Apocalypse - Online Supplement: Djinni
+- Princes of the Apocalypse - Online Supplement: Drow Mage
+- Princes of the Apocalypse - Online Supplement: Druid
+- Princes of the Apocalypse - Online Supplement: Duergar
+- Princes of the Apocalypse - Online Supplement: Fire Snake
+- Princes of the Apocalypse - Online Supplement: Helmed Horror
+- Princes of the Apocalypse - Online Supplement: Ice Mephit
+- Princes of the Apocalypse - Online Supplement: Magma Mephit
+- Princes of the Apocalypse - Online Supplement: Orc Eye of Gruumsh
+- Princes of the Apocalypse - Online Supplement: Piercer
+- Princes of the Apocalypse - Online Supplement: Salamander
+- Princes of the Apocalypse - Online Supplement: Shadow Demon
+- Princes of the Apocalypse - Online Supplement: Steam Mephit
+- Princes of the Apocalypse - Online Supplement: Tribal Warrior
+- Rise of Tiamat - Online Supplement: Assassin
+- Rise of Tiamat - Online Supplement: Druid
+- Rise of Tiamat - Online Supplement: Helmed Horror
+- Rise of Tiamat - Online Supplement: Mummy Lord
+- Rise of Tiamat - Online Supplement: Tribal Warrior
+- Rise of Tiamat: Dragonwing
+- Rise of Tiamat: Rath Modar
+- Spelljammer: Adventures in Space: Gray Scavver
+- Tal’Dorei Campaign Setting Reborn: Ashari Stoneguard
+- Tal’Dorei Campaign Setting Reborn: Wraithroot Tree
+- The Wild Beyond the Witchlight: Gloam
+- The Wild Beyond the Witchlight: Pixie
+- Tomb of Annihilation: Mantrap
+- Tomb of Annihilation: Tyrannosaurus Zombie
+- Volo's Guide to Monsters: Cave Fisher
+- Volo's Guide to Monsters: Hadrosaurus
+- Volo's Guide to Monsters: Stegosaurus
+- Volo's Guide to Monsters: Velociraptor
+- Waterdeep: Dungeon of the Mad Mage: Rabbithead

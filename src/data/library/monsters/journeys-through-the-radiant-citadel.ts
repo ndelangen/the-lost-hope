@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Rooster',
       page: 206,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Grasslands', 'Shelter'],
       appearance: [
         ['A domestic rooster with a red comb and wattles, curved back feathers, and clawed feet.'],

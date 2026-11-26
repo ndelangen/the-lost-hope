@@ -10,6 +10,7 @@ export default createPublicationMonsters({
     skitterling: {
       name: 'Skitterling',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
       appearance: [
         ['A housecat-sized, six-legged rodent with broad bat wings and grasping claws.'],

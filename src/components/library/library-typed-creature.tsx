@@ -81,7 +81,16 @@ export function LibraryTypedCreature({
           </>
         )}
         <dt className="font-semibold">Languages</dt>
-        <dd>{printing.languages.length ? printing.languages.join(', ') : 'None'}</dd>
+        <dd>
+          {printing.languages === undefined ? (
+            // A gap in our source, not a creature without languages: the DM checks the book.
+            <span className="text-amber-700 dark:text-amber-400">Not recorded</span>
+          ) : printing.languages.length ? (
+            printing.languages.join(', ')
+          ) : (
+            'None'
+          )}
+        </dd>
         {printing.page && (
           <>
             <dt className="font-semibold">Page</dt>

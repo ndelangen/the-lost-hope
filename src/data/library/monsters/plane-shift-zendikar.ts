@@ -11,6 +11,7 @@ export default createPublicationMonsters({
       name: 'Baloth',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         [
@@ -80,10 +81,85 @@ export default createPublicationMonsters({
         ],
       },
     },
+    drake_large: {
+      name: 'Drake (Large)',
+      page: 324,
+      alignment: 'neutral good',
+      habitats: ['mountain', 'grassland', 'hill', 'coastal'],
+      appearance: [
+        [
+          'A slate-blue reptile with two legs, a long tail and two large leathery wings. The same silhouette represents both Zendikar drake sizes.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Zendikar gives no alignment or language override. Neutral good and the Giant Eagle language line are inherited from the suggested base.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 13,
+        hitDice: '4d10',
+        speed: { walk: 10, fly: 80 },
+        scores: { str: 16, dex: 17, con: 13, int: 8, wis: 14, cha: 10 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-sight',
+            name: 'Keen Sight',
+            timing: 'trait',
+            icon: 'lucide/Eye',
+            text: ['Gain advantage on Wisdom (Perception) checks based on sight.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'beak' },
+              ' and one ',
+              { ability: 'talons' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'talons',
+            name: 'Talons',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     drake_small: {
       name: 'Drake (Small)',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['mountain', 'grassland', 'coastal'],
       appearance: [
         [
@@ -135,6 +211,7 @@ export default createPublicationMonsters({
       name: 'Shoal Serpent',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['underwater', 'coastal'],
       appearance: [
         ['A massive marine serpent whose long neck rises above a heavy, reef-like back.'],
@@ -182,6 +259,7 @@ export default createPublicationMonsters({
       name: 'Terastodon',
       page: 332,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['arctic'],
       appearance: [
         [
@@ -255,6 +333,7 @@ export default createPublicationMonsters({
       name: 'Terra Stomper',
       page: 80,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['grassland'],
       appearance: [
         ['A six-legged forest behemoth with massive jaws, a heavy tail and a low, thick-set body.'],

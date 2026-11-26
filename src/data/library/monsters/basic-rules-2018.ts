@@ -48,6 +48,7 @@ export default createPublicationMonsters({
       name: 'Ankylosaurus',
       page: 117,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Remote mountain valleys', 'Isolated plateaus', 'Tropical islands', 'Deep fens'],
       appearance: [
         [
@@ -135,6 +136,7 @@ export default createPublicationMonsters({
     basilisk: {
       name: 'Basilisk',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -270,6 +272,7 @@ export default createPublicationMonsters({
     death_dog: {
       name: 'Death Dog',
       alignment: 'neutral evil',
+      languages: [],
       stats: {
         size: 'medium',
         type: 'monstrosity',
@@ -315,6 +318,7 @@ export default createPublicationMonsters({
     flying_sword: {
       name: 'Flying Sword',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'small',
         type: 'construct',
@@ -378,6 +382,7 @@ export default createPublicationMonsters({
     frog: {
       name: 'Frog',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Near water', 'Trees', 'Underground', 'Freshwater ponds', 'Marshes'],
       appearance: [
         [
@@ -467,9 +472,79 @@ export default createPublicationMonsters({
         ],
       },
     },
+    giant_eagle: {
+      name: 'Giant Eagle',
+      page: 132,
+      alignment: 'neutral good',
+      habitats: ['Mountains', 'Cliffs', 'Open skies'],
+      appearance: [
+        [
+          'A golden-brown raptor with tawny neck feathers, a hooked beak, broad dark wings and powerful talons.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 13,
+        hitDice: '4d10',
+        speed: { walk: 10, fly: 80 },
+        scores: { str: 16, dex: 17, con: 13, int: 8, wis: 14, cha: 10 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-sight',
+            name: 'Keen Sight',
+            timing: 'trait',
+            icon: 'lucide/Eye',
+            text: ['The eagle has advantage on Wisdom (Perception) checks that rely on sight.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'beak' },
+              ' and one ',
+              { ability: 'talons' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'talons',
+            name: 'Talons',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
     giant_lizard: {
       name: 'Giant Lizard',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underdark', 'Caverns', 'Woodland', 'Wetlands'],
       appearance: [
         [
@@ -511,6 +586,7 @@ export default createPublicationMonsters({
     giant_octopus: {
       name: 'Giant Octopus',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
       appearance: [
         [
@@ -592,6 +668,7 @@ export default createPublicationMonsters({
       name: 'Giant Rat',
       page: 135,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Settlements', 'Sewers', 'Cellars'],
       appearance: [
         [
@@ -731,6 +808,25 @@ export default createPublicationMonsters({
         ],
       },
     },
+    hell_hound: {
+      name: 'Hell Hound',
+      reprintedIn: [
+        refs.publications.ddal04_09_the_tempter,
+        refs.publications.ddex1_13_pool_of_radiance_resurgent,
+        refs.publications.ddex3_04_it_s_all_in_the_blood,
+        refs.publications.ddex3_15_szith_morcane_unbound,
+      ],
+      stats: {
+        size: 'medium',
+        type: 'fiend',
+        cr: '3',
+        ac: 15,
+        hitDice: '7d8',
+        speed: { walk: 50 },
+        scores: { str: 17, dex: 12, con: 14, int: 6, wis: 13, cha: 6 },
+        abilities: [],
+      },
+    },
     knight: {
       name: 'Knight',
       tags: ['any race'],
@@ -853,9 +949,24 @@ export default createPublicationMonsters({
         ],
       },
     },
+    mummy: {
+      name: 'Mummy',
+      reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
+      stats: {
+        size: 'medium',
+        type: 'undead',
+        cr: '3',
+        ac: 11,
+        hitDice: '9d8',
+        speed: { walk: 20 },
+        scores: { str: 16, dex: 8, con: 15, int: 6, wis: 10, cha: 12 },
+        abilities: [],
+      },
+    },
     ochre_jelly: {
       name: 'Ochre Jelly',
       alignment: 'unaligned',
+      languages: [],
       stats: {
         size: 'large',
         type: 'ooze',
@@ -916,6 +1027,7 @@ export default createPublicationMonsters({
     octopus: {
       name: 'Octopus',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Underwater', 'Coastal waters', 'Reefs'],
       appearance: [
         [
@@ -1095,10 +1207,25 @@ export default createPublicationMonsters({
         ],
       },
     },
+    phase_spider: {
+      name: 'Phase Spider',
+      reprintedIn: [refs.publications.ddal04_11_the_donjon, refs.publications.ddal04_12_the_raven],
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '3',
+        ac: 13,
+        hitDice: '5d10',
+        speed: { walk: 30, climb: 30 },
+        scores: { str: 15, dex: 15, con: 12, int: 6, wis: 10, cha: 6 },
+        abilities: [],
+      },
+    },
     polar_bear: {
       name: 'Polar Bear',
       page: 149,
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Arctic coasts', 'Sea ice', 'Tundra'],
       appearance: [
         [
@@ -1272,6 +1399,7 @@ export default createPublicationMonsters({
     warhorse: {
       name: 'Warhorse',
       alignment: 'unaligned',
+      languages: [],
       habitats: ['Stables', 'Training grounds', 'Military camps', 'Battlefields'],
       appearance: [
         [
@@ -1321,6 +1449,20 @@ export default createPublicationMonsters({
             },
           },
         ],
+      },
+    },
+    yeti: {
+      name: 'Yeti',
+      reprintedIn: [refs.publications.ddex2_04_mayhem_in_the_earthspur_mines],
+      stats: {
+        size: 'large',
+        type: 'monstrosity',
+        cr: '3',
+        ac: 12,
+        hitDice: '6d10',
+        speed: { walk: 40, climb: 40 },
+        scores: { str: 18, dex: 13, con: 16, int: 8, wis: 12, cha: 7 },
+        abilities: [],
       },
     },
   },

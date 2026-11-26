@@ -16,17 +16,72 @@ export default createPublications({
     name: 'D&D: World of Warcraft',
     ruleset: '5e-2024',
   },
+  ddal04_01_the_suits_of_the_mists: {
+    name: 'DDAL04-01 - The Suits of the Mists',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-01 - The Suits of the Mists.pdf',
+  },
+  ddal04_03_the_executioner: {
+    name: 'DDAL04-03 - The Executioner',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-03 - The Executioner.pdf',
+  },
+  ddal04_04_the_marionette: {
+    name: 'DDAL04-04 - The Marionette',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-04 - The Marionette.pdf',
+  },
+  ddal04_05_the_seer: {
+    name: 'DDAL04-05 - The Seer',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-05 - The Seer.pdf',
+  },
   ddal04_06_the_ghost: {
     name: 'DDAL04-06 - The Ghost',
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-06 - The Ghost.pdf',
   },
+  ddal04_07_the_innocent: {
+    name: 'DDAL04-07 - The Innocent',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-07 - The Innocent.pdf',
+  },
   ddal04_08_the_broken_one: {
     name: 'DDAL04-08 - The Broken One',
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-08 - The Broken One.pdf',
+  },
+  ddal04_09_the_tempter: {
+    name: 'DDAL04-09 - The Tempter',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-09 - The Tempter.pdf',
+  },
+  ddal04_10_the_artifact: {
+    name: 'DDAL04-10 - The Artifact',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-10 - The Artifact.pdf',
+  },
+  ddal04_11_the_donjon: {
+    name: 'DDAL04-11 - The Donjon',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-11 - The Donjon.pdf',
+  },
+  ddal04_12_the_raven: {
+    name: 'DDAL04-12 - The Raven',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-12 - The Raven.pdf',
+  },
+  ddal04_13_the_horseman: {
+    name: 'DDAL04-13 - The Horseman',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-13 - The Horseman.pdf',
+  },
+  ddal04_14_the_darklord: {
+    name: 'DDAL04-14 - The Darklord',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDAL04-14 - The Darklord.pdf',
   },
   ddep1_corruption_in_kryptgarden: {
     name: 'DDEP1 - Corruption in Kryptgarden',
@@ -39,6 +94,21 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEP2 - Mulmaster Undone V2.pdf',
   },
+  ddex1_03_shadows_over_the_moonsea: {
+    name: 'DDEX1-03 - Shadows over the Moonsea',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-03 - Shadows over the Moonsea.pdf',
+  },
+  ddex1_04_dues_for_the_dead: {
+    name: 'DDEX1-04 - Dues for the Dead',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-04 - Dues for the Dead.pdf',
+  },
+  ddex1_05_the_courting_of_fire: {
+    name: 'DDEX1-05 - The Courting of Fire',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-05 - The Courting of Fire.pdf',
+  },
   ddex1_07_drums_in_the_marsh: {
     name: 'DDEX1-07 - Drums in the Marsh',
     publisher: 'Wizards of the Coast',
@@ -50,6 +120,106 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-08 - Tales Trees Tell.pdf',
+  },
+  ddex1_10_tyranny_in_phlan: {
+    name: 'DDEX1-10 - Tyranny in Phlan',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-10 - Tyranny in Phlan.pdf',
+  },
+  ddex1_11_dark_pyramid_of_sorcerer_s_isle: {
+    name: "DDEX1-11 - Dark Pyramid of Sorcerer's Isle",
+    ruleset: '5e-2014',
+    pdf: "D&D - 5th Edition (2014)/Adventures/DDEX1-11 - Dark Pyramid of Sorcerer's Isle.pdf",
+  },
+  ddex1_13_pool_of_radiance_resurgent: {
+    name: 'DDEX1-13 - Pool of Radiance Resurgent',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-13 - Pool of Radiance Resurgent.pdf',
+  },
+  ddex1_14_escape_from_phlan: {
+    name: 'DDEX1-14 - Escape from Phlan',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX1-14 - Escape from Phlan.pdf',
+  },
+  ddex2_01_city_of_danger: {
+    name: 'DDEX2-01 - City of Danger',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX2-01 - City of Danger.pdf',
+  },
+  ddex2_02_embers_of_elmwood: {
+    name: 'DDEX2-02 - Embers of Elmwood',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX2-02 - Embers of Elmwood.pdf',
+  },
+  ddex2_03_the_drowned_tower: {
+    name: 'DDEX2-03 - The Drowned Tower',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX2-03 - The Drowned Tower.pdf',
+  },
+  ddex2_04_mayhem_in_the_earthspur_mines: {
+    name: 'DDEX2-04 - Mayhem in the Earthspur Mines',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX2-04 - Mayhem in the Earthspur Mines.pdf',
+  },
+  ddex2_05_flames_of_kythorn: {
+    name: 'DDEX2-05 - Flames of Kythorn',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX2-05 - Flames of Kythorn.pdf',
+  },
+  ddex2_07_bounty_in_the_bog: {
+    name: 'DDEX2-07 - Bounty in the Bog',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX2-07 - Bounty in the Bog.pdf',
+  },
+  ddex3_01_harried_in_hillsfar: {
+    name: 'DDEX3-01 - Harried in Hillsfar',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-01 - Harried in Hillsfar.pdf',
+  },
+  ddex3_02_shackles_of_blood: {
+    name: 'DDEX3-02 - Shackles of Blood',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-02 - Shackles of Blood.pdf',
+  },
+  ddex3_03_the_occupation_of_szith_morcane: {
+    name: 'DDEX3-03 - The Occupation of Szith Morcane',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-03 - The Occupation of Szith Morcane.pdf',
+  },
+  ddex3_04_it_s_all_in_the_blood: {
+    name: "DDEX3-04 - It's All in the Blood",
+    ruleset: '5e-2014',
+    pdf: "D&D - 5th Edition (2014)/Adventures/DDEX3-04 - It's All in the Blood.pdf",
+  },
+  ddex3_05_bane_of_the_tradeways: {
+    name: 'DDEX3-05 - Bane of the Tradeways',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-05 - Bane of the Tradeways.pdf',
+  },
+  ddex3_07_herald_of_the_moon: {
+    name: 'DDEX3-07 - Herald of the Moon',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-07 - Herald of the Moon.pdf',
+  },
+  ddex3_08_the_malady_of_elventree: {
+    name: 'DDEX3-08 - The Malady of Elventree',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-08 - The Malady of Elventree.pdf',
+  },
+  ddex3_13_writhing_in_the_dark: {
+    name: 'DDEX3-13 - Writhing in the Dark',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-13 - Writhing in the Dark.pdf',
+  },
+  ddex3_15_szith_morcane_unbound: {
+    name: 'DDEX3-15 - Szith Morcane Unbound',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-15 - Szith Morcane Unbound.pdf',
+  },
+  ddex3_16_assault_on_maerimydra: {
+    name: 'DDEX3-16 - Assault on Maerimydra',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-16 - Assault on Maerimydra.pdf',
   },
   fizban_s_treasury_of_dragons: {
     name: "Fizban's Treasury of Dragons",
@@ -77,6 +247,10 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Reference/Hoard of the Dragon Queen - Online Supplement.pdf',
+  },
+  humblewood_campaign_setting: {
+    name: 'Humblewood Campaign Setting',
+    ruleset: '5e-2014',
   },
   icewind_dale_rime_of_the_frostmaiden: {
     name: 'Icewind Dale: Rime of the Frostmaiden',
@@ -136,6 +310,10 @@ export default createPublications({
     year: 2017,
     ruleset: '5e-2014',
   },
+  plane_shift_dominaria: {
+    name: 'Plane Shift: Dominaria',
+    ruleset: '5e-2014',
+  },
   plane_shift_ixalan: {
     name: 'Plane Shift: Ixalan',
     year: 2018,
@@ -161,6 +339,16 @@ export default createPublications({
     year: 2014,
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Rules/Player's Handbook.pdf",
+  },
+  princes_of_the_apocalypse_d_d_encounters: {
+    name: 'Princes of the Apocalypse - D&D Encounters',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Adventures/Princes of the Apocalypse - D&D Encounters.pdf',
+  },
+  princes_of_the_apocalypse_online_supplement: {
+    name: 'Princes of the Apocalypse - Online Supplement',
+    ruleset: '5e-2014',
+    pdf: 'D&D - 5th Edition (2014)/Reference/Princes of the Apocalypse - Online Supplement.pdf',
   },
   rise_of_tiamat: {
     name: 'Rise of Tiamat',
@@ -199,6 +387,10 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: "D&D - 5th Edition (2014)/Adventures/Storm King's Thunder.pdf",
   },
+  tal_dorei_campaign_setting_reborn: {
+    name: 'Tal’Dorei Campaign Setting Reborn',
+    ruleset: '5e-2014',
+  },
   the_wild_beyond_the_witchlight: {
     name: 'The Wild Beyond the Witchlight',
     publisher: 'Wizards of the Coast',
@@ -218,6 +410,10 @@ export default createPublications({
   volo_s_guide_to_monsters: {
     name: "Volo's Guide to Monsters",
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
+  waterdeep_dungeon_of_the_mad_mage: {
+    name: 'Waterdeep: Dungeon of the Mad Mage',
     ruleset: '5e-2014',
   },
   where_evil_lives: {

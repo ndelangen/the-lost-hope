@@ -109,28 +109,16 @@
       {
         "id": "printing-2b417ea192c4ca2c7562f171",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 229",
-              "Hit dice · 17d10 + 136",
-              "Challenge · 11",
-              "Size · Large",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 60 ft., swim 90 ft.",
-              "Str · 22",
-              "Dex · 12",
-              "Con · 26",
-              "Int · 18",
-              "Wis · 17",
-              "Cha · 18"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "qabara"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Elemental"],
@@ -2589,80 +2577,44 @@
       {
         "id": "printing-f311c596277e6b5403e5c3e9",
         "label": "DDEX2-01 - City of Danger",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 3d4",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · walk 40 ft.",
-              "Str · 5",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quasit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_01_city_of_danger"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-7089a33131bba3d961e40b11",
         "label": "DDEX3-05 - Bane of the Tradeways",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 3d4",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · walk 40 ft.",
-              "Str · 5",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quasit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_05_bane_of_the_tradeways"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-517569caf9b45a94ff1c4dbd",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 3d4",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · walk 40 ft.",
-              "Str · 5",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 7",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quasit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-1666589afa1c9b92319296eb",
@@ -4465,51 +4417,17 @@
       {
         "id": "printing-02be585165eafe03e6703199",
         "label": "Waterdeep: Dungeon of the Mad Mage",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 4",
-              "Hit dice · 1d8",
-              "Challenge · 0",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Passive Perception · 10",
-              "Strength · 10",
-              "Dexterity · 10",
-              "Constitution · 10",
-              "Intelligence · 10",
-              "Wisdom · 10",
-              "Charisma · 10",
-              "Creature tags · human",
-              "Alignment · unaligned"
-            ]
+        "source": "https://5e.tools/bestiary.html#rabbithead_wdmm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rabbithead"
           },
-          {
-            "title": "Description",
-            "lines": ["A Medium humanoid with challenge rating 0."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "desert", "coastal", "grassland", "hill", "urban", "forest"]
-          },
-          {
-            "title": "Adapted from",
-            "lines": ["Commoner"]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Waterdeep: Dungeon of the Mad Mage, p. 295 · https://5e.tools/bestiary.html#rabbithead_wdmm",
-              "Commoner (creature) · https://5e.tools/bestiary.html#commoner_mm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "waterdeep_dungeon_of_the_mad_mage"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Encounter reference",
-        "source": "https://5e.tools/bestiary.html#rabbithead_wdmm"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -7586,68 +7504,18 @@
       {
         "id": "printing-2bdcc8a75da77b077d16839b",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 18",
-              "Hit dice · 4d6 + 4",
-              "Challenge · 1/2",
-              "Type · Humanoid",
-              "Speed · 25 ft., swim 25 ft.",
-              "XP · 100",
-              "Str · 11",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 11",
-              "Wis · 15",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A guide who ignores difficult natural ground and can use readied actions to turn a tight spot to their advantage."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Humanoid (Raptor), any neutral alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Leather armor. History +2, Perception +6, Stealth +4, Survival +6. Passive Perception 16. Understands Auran and speaks Birdfolk."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Talons. The explorer has advantage on Strength (Athletics) checks to climb surfaces their talons can grip.\nPatient. During a readied action taken as a reaction, the explorer has advantage on their first attack roll, skill check, or ability check.\nKeen Hearing and Sight. The explorer has advantage on Wisdom (Perception) checks that use hearing or sight.\nSure Footing. The explorer ignores nonmagical difficult terrain."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two melee attacks or two Hand Crossbow attacks.\nTalons. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 4 (1d4 + 2) piercing damage.\nSaber. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) slashing damage.\nHand Crossbow. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. Hit 5 (1d6 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Glide. After falling at least 10 ft., the explorer can spend a reaction to glide up to their speed in one direction while descending. They land in a free space at the end and take no fall damage. They need to be free of heavy objects, heavy weapons, and shields to glide. They can drop anything held as part of the same reaction."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 204. Explorer background, p. 203."]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237044-raptor-explorer",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/785/1000/1000/638433706547292674.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/785/1000/1000/638433706547292674.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "raptor_explorer"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -8393,28 +8261,16 @@
       {
         "id": "printing-fccbc3762f4556f9fa2a8fc2",
         "label": "Rise of Tiamat",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 71",
-              "Hit dice · 11d8 + 22",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 11",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 18",
-              "Wis · 14",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rath_modar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -9227,28 +9083,16 @@
       {
         "id": "printing-7ebb5e8a7260ad5662a447aa",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 32",
-              "Hit dice · 5d8 + 10",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 15",
-              "Dex · 11",
-              "Con · 14",
-              "Int · 10",
-              "Wis · 10",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "razerblast_initiate"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -12280,28 +12124,16 @@
       {
         "id": "printing-77e34a4a48b9a1b27e3f01f0",
         "label": "DDEP1 - Corruption in Kryptgarden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_wizard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep1_corruption_in_kryptgarden"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-954b89cdaa90dfe6e3fba62d",
@@ -16450,28 +16282,16 @@
       {
         "id": "printing-fe7431645647e893c1a0667c",
         "label": "DDAL04-09 - The Tempter",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 5",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Construct",
-              "Speed · walk 0 ft.",
-              "Str · 1",
-              "Dex · 1",
-              "Con · 10",
-              "Int · 14",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "reflection_guardian"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_09_the_tempter"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Construct"],
@@ -17221,76 +17041,6 @@
       {
         "id": "printing-250dd5fc1fc01a7626f898f6",
         "label": "Bigby Presents: Glory of the Giants",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 181",
-              "Hit dice · 11d20 + 66",
-              "Challenge · 14",
-              "Size · Gargantuan",
-              "Type · Monstrosity",
-              "Speed · 40 ft.",
-              "Passive Perception · 11",
-              "XP · 11500",
-              "Str · 27",
-              "Dex · 8",
-              "Con · 23",
-              "Int · 4",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This immense predator can clamp one foe in its jaws while sweeping at another with its tail."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. The regisaur has advantage on saves against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and one Tail attack and do not target the same creature with both.\nBite. Melee weapon attack, +13 to hit, reach 10 ft., one target. On a hit, deal 47 (6d12 + 8) piercing damage and grapple the target (escape DC 18). The target remains restrained while held, and the regisaur cannot Bite a different target until the grapple ends.\nTail. Melee weapon attack, +13 to hit, reach 20 ft., one target. A hit deals 26 (4d8 + 8) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Swallow. Melee weapon attack, +13 to hit, reach 5 ft., against one Huge or smaller creature the regisaur has grappled. A hit swallows the creature and ends the grapple. The creature is blinded and restrained, has total cover from attacks and effects outside the regisaur, and takes 7 (2d6) acid damage at the start of each of its turns. The regisaur can hold two swallowed creatures at once. If a swallowed creature deals 25 or more damage to the regisaur in one turn, the regisaur makes a DC 16 Constitution save at the end of that turn. On a failure, it expels that creature, which lands prone within 5 ft. and is no longer blinded or restrained by Swallow."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Bigby Presents: Glory of the Giants, p. 130."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Bigby Presents: Glory of the Giants, p. 130 · https://5e.tools/bestiary.html#regisaur_bgg",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#regisaur_bgg",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/59317/900/1000/1000/639269007851560747.png",
         "art": [
@@ -17298,7 +17048,17 @@
             "file": "/assets/library/worker-art/regisaur-420191fdad9d3a19.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "regisaur"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "bigby_presents_glory_of_the_giants"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -17313,28 +17073,16 @@
       {
         "id": "printing-d4d91e7ca0a86791cfdd060f",
         "label": "DDAL04-07 - The Innocent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "regold_veteran"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_07_the_innocent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -23693,86 +23441,6 @@
       {
         "id": "printing-f8a0b0942c06d21284c85bbd",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 248",
-              "Hit dice · 16d20 + 80",
-              "Challenge · 11",
-              "Size · Gargantuan",
-              "Type · Monstrosity",
-              "Speed · 20 ft., fly 120 ft.",
-              "Passive Perception · 18",
-              "XP · 7200",
-              "Str · 28",
-              "Dex · 10",
-              "Con · 20",
-              "Int · 3",
-              "Wis · 10",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A giant bird of prey that can lift an elephant or a wagon and carry it back to a distant nest."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4", "Wis +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Gargantuan monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+8 (18)."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Beak attacks. The roc can replace one of them with Talons.\nBeak. Melee attack, +13 to hit, reach 10 ft. A hit deals 28 (3d12 + 9) piercing damage.\nTalons. Melee attack, +13 to hit, reach 5 ft. A hit deals 23 (4d6 + 9) slashing damage. On a hit, a Huge or smaller creature is also Grappled by both talons, escape DC 19. It is Restrained for as long as this grapple lasts."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Swoop (recharge 5–6). If the roc has a creature Grappled, it flies up to half its Fly Speed without provoking Opportunity Attacks, then drops the creature."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Arctic, Coastal, Desert, Hill, Mountain."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 261."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 261 · https://5e.tools/bestiary.html#roc_xmm",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb",
-              "Fly Speed (rule) · https://5e.tools/variantrules.html#fly%20speed_xphb",
-              "Opportunity Attack (action) · https://5e.tools/actions.html#opportunity%20attack_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#roc_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/202/1000/1000/638741964583580100.png",
         "art": [
@@ -23780,7 +23448,17 @@
             "file": "/assets/library/monsters/roc.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "roc"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-da19d3a14bb25e91b4f45bad",
@@ -24950,28 +24628,16 @@
       {
         "id": "printing-bed36fca6b089ce387d5c770",
         "label": "DDEX1-04 - Dues for the Dead",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rorreth_red_wizard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_04_dues_for_the_dead"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -26522,54 +26188,30 @@
       {
         "id": "printing-901272977209d6cd74f931b9",
         "label": "DDEP1 - Corruption in Kryptgarden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 33",
-              "Hit dice · 6d10",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · walk 10 ft.",
-              "Str · 17",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 3",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rug_of_smothering"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep1_corruption_in_kryptgarden"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5aee57de4888ea8e425aab2e",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 33",
-              "Hit dice · 6d10",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · walk 10 ft.",
-              "Str · 17",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 1",
-              "Wis · 3",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rug_of_smothering"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -27697,93 +27339,18 @@
       {
         "id": "printing-8f3c81174e3847ea9a44101b",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 33",
-              "Hit dice · 6d8 + 6",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 40 ft.",
-              "Passive Perception · 11",
-              "Initiative · 1",
-              "XP · 100",
-              "Str · 13",
-              "Dex · 12",
-              "Con · 13",
-              "Int · 2",
-              "Wis · 13",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A beetle-like scavenger that locates iron and steel by scent and corrodes the metal before eating it."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+1 (11)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft.."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Iron Scent. The rust monster pinpoints ferrous metal within 30 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and use Antennae twice.\nBite. Melee attack, +3 to hit, reach 5 ft. A hit deals 5 (1d8 + 1) Piercing damage.\nAntennae. Choose one piece of nonmagical metal armor or one nonmagical metal weapon a creature within 5 ft. wears or carries. That creature makes a DC 11 Dexterity save. On a failure, the item takes a cumulative −1 penalty to the AC it provides or to attack rolls made with it. Destroy the armor if the penalty drops its AC to 10, or the weapon if its penalty reaches −5. Mending removes the penalty from the item.\nDestroy Metal. Touch an unworn, uncarried nonmagical metal object within 5 ft. to destroy a 1-ft. cube of its material."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Reflexive Antennae. When an attack roll hits the rust monster, it uses Antennae."
-            ]
-          },
-          {
-            "title": "Habitat",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 263."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Give it a noisy scrap pile to follow. Players who notice what it is after can spend cheap metal to save better gear."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 263 · https://5e.tools/bestiary.html#rust%20monster_xmm",
-              "Mending (spell) · https://5e.tools/spells.html#mending_xphb",
-              "Cube [Area of Effect] (rule) · https://5e.tools/variantrules.html#cube%20%5Barea%20of%20effect%5D_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#rust%20monster_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/206/1000/1000/638741964589980801.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/206/1000/1000/638741964589980801.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rust_monster"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-8786dc31d15ccaa561b31489",
@@ -31833,28 +31400,16 @@
       {
         "id": "printing-ebe79d78bada9aa84deb8854",
         "label": "DDEX3-15 - Szith Morcane Unbound",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 90",
-              "Hit dice · 12d10 + 24",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Elemental",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 15",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "salamander"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_15_szith_morcane_unbound"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6d20bae55eb3436b8cc515f7",
@@ -31970,28 +31525,16 @@
       {
         "id": "printing-a1dd333c8868afc162823353",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 90",
-              "Hit dice · 12d10 + 24",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Elemental",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 14",
-              "Con · 15",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "salamander"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -45630,113 +45173,6 @@
       {
         "id": "printing-51733df7889106a43c2761fd",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 100",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 6",
-              "Wis · 10",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A shadow haunts a place it knew in life or a site touched by the Shadowfell. It feeds on the living, and its victims can rise as new shadows."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium undead, chaotic evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+2 (12)."]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["Radiant."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Acid, cold, fire, lightning, thunder."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Necrotic, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "Exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious."
-            ]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. It moves through gaps as narrow as 1 inch at its usual movement cost.\nSunlight Weakness. While in sunlight, it has Disadvantage on all D20 Tests."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Draining Swipe. Melee attack, +4 to hit, reach 5 ft. Hit 5 (1d6 + 2) necrotic damage and reduce the target's Strength score by 1d4. If this drops that score to 0, the target dies. A Humanoid slain by the attack rises as a Shadow after 1d4 hours."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Shadow Stealth. Take the Hide action while in Dim Light or Darkness."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Planar (Shadowfell), Underdark, Urban."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["None."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 272."]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Draining Swipe leaves the duration of the Strength reduction unspecified."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 272 · https://5e.tools/bestiary.html#shadow_xmm",
-              "Disadvantage (rule) · https://5e.tools/variantrules.html#disadvantage_xphb",
-              "D20 Test (rule) · https://5e.tools/variantrules.html#d20%20test_xphb",
-              "Dim Light (rule) · https://5e.tools/variantrules.html#dim%20light_xphb",
-              "Darkness (rule) · https://5e.tools/variantrules.html#darkness_xphb",
-              "Hide (action) · https://5e.tools/actions.html#hide_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#shadow_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/46992/21/1000/1000/638736097258490209.png",
         "art": [
@@ -45744,7 +45180,17 @@
             "file": "/assets/library/monsters/shadow.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-e7ba567e160458f4572ce78a",
@@ -46820,106 +46266,58 @@
       {
         "id": "printing-21f49bf0d57c1bb9e65feeb6",
         "label": "DDEX3-03 - The Occupation of Szith Morcane",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 1",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow_demon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_03_the_occupation_of_szith_morcane"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-03e3470e48afdbbeb2bd5520",
         "label": "DDEX3-07 - Herald of the Moon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 1",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow_demon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_07_herald_of_the_moon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5e8171dba7e8dbe39557a128",
         "label": "DDEX3-08 - The Malady of Elventree",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 1",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow_demon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_08_the_malady_of_elventree"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-46c1609a56f7730610cfa459",
         "label": "DDEX3-16 - Assault on Maerimydra",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft.",
-              "Str · 1",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow_demon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_16_assault_on_maerimydra"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-0e446db8f13adb79c9b340fe",
@@ -47159,28 +46557,16 @@
       {
         "id": "printing-e13d479591d93f7425712f98",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 1",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 13",
-              "Cha · 14"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadow_demon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-651760a527ed2f4939dc5796",
@@ -55591,28 +54977,16 @@
       {
         "id": "printing-604955744eff1e7c02ca51a4",
         "label": "Princes of the Apocalypse - D&D Encounters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 60",
-              "Hit dice · 8d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft., swim 30 ft.",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 14",
-              "Wis · 10",
-              "Cha · 17"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shoalar_quanderil"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_d_d_encounters"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -66898,28 +66272,16 @@
       {
         "id": "printing-f1bdc6c06497cdfb11672a82",
         "label": "Princes of the Apocalypse - D&D Encounters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 44",
-              "Hit dice · 8d8 + 8",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 8",
-              "Dex · 14",
-              "Con · 12",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skyweaver"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_d_d_encounters"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -83759,28 +83121,16 @@
       {
         "id": "printing-4c91c26802c224c19b8f4a14",
         "label": "DDEX2-02 - Embers of Elmwood",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 5",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steam_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_02_embers_of_elmwood"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-38662baffd1fba5f703481ff",
@@ -83891,28 +83241,16 @@
       {
         "id": "printing-0b948d00c6567047cb52baa0",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 21",
-              "Hit dice · 6d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Elemental",
-              "Speed · walk 30 ft., fly 30 ft.",
-              "Str · 5",
-              "Dex · 11",
-              "Con · 10",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 12"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "steam_mephit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-995ed64c504a560c6d087f95",
@@ -87546,28 +86884,16 @@
       {
         "id": "printing-94b327bfc14be425eb9898b4",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 178",
-              "Hit dice · 17d10 + 85",
-              "Challenge · 10",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · walk 30 ft.",
-              "Str · 22",
-              "Dex · 9",
-              "Con · 20",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 1"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_golem"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9f3fa7fb6b165994d863c792",
@@ -123798,54 +123124,30 @@
       {
         "id": "printing-3d244d44b990cee1fc891545",
         "label": "Princes of the Apocalypse - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 11",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tribal_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "princes_of_the_apocalypse_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-bdb8db444529e8950a33dfba",
         "label": "Rise of Tiamat - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/8",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 13",
-              "Dex · 11",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 11",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tribal_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "rise_of_tiamat_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "art": [
@@ -130125,89 +129427,23 @@
       {
         "id": "printing-56713173ef927fceeab873b3",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 136",
-              "Hit dice · 13d12 + 52",
-              "Challenge · 8",
-              "Size · Huge",
-              "Type · Undead",
-              "Speed · 40 ft.",
-              "Passive Perception · 6",
-              "XP · 3900",
-              "Str · 25",
-              "Dex · 6",
-              "Con · 19",
-              "Int · 1",
-              "Wis · 3",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This reanimated dinosaur carries independent Zombies in its gullet. They can spill out even after the dinosaur falls."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge undead, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Undead Fortitude. When damage would reduce it to 0 HP, roll a Constitution save with DC 5 plus the damage taken. On a success, it drops to 1 HP instead. Radiant damage and critical hits bypass this trait.\nDisgorge Zombie. As a bonus action, a regular Zombie emerges into a free space within 10 ft. and acts on its own initiative count. After each use, roll a d6. On a 1, the dinosaur runs out of Zombies and loses this trait. If it has this trait when it dies, 1d4 Zombies burst out at the start of what would have been its next turn. They also act on their own initiative."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail attack against different targets.\nBite. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 33 (4d12 + 7) piercing damage. If the target is Medium or smaller, it is grappled (escape DC 17) and restrained until the grapple ends. The dinosaur cannot bite another target or Disgorge Zombie while holding it.\nTail. Melee weapon attack, +10 to hit, reach 10 ft., one target. A hit deals 20 (3d8 + 7) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Tomb of Annihilation, appendix D, p. 241."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tomb of Annihilation, p. 241 · https://5e.tools/bestiary.html#tyrannosaurus%20zombie_toa",
-              "Zombie (creature) · https://5e.tools/bestiary.html#zombie_mm",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Zombie (monster) · https://5e.tools/bestiary.html#zombie_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tyrannosaurus%20zombie_toa",
         "art": [
           {
             "file": "/assets/library/worker-art/tyrannosaurus-zombie-afad674f5c513191.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tyrannosaurus_zombie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Undead"]
@@ -140793,28 +140029,16 @@
       {
         "id": "printing-ce745f1522fbbf47caaabd22",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 144",
-              "Hit dice · 17d8 + 68",
-              "Challenge · 13",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 18",
-              "Dex · 18",
-              "Con · 18",
-              "Int · 17",
-              "Wis · 15",
-              "Cha · 18"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vampire"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-f00a2696f0e4f79f3d61fb2f",
@@ -151177,28 +150401,16 @@
       {
         "id": "printing-aa6c398f4725f185c993a8f8",
         "label": "DDAL04-01 - The Suits of the Mists",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 26",
-              "Hit dice · 4d8 + 8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 10 ft.",
-              "Str · 15",
-              "Dex · 8",
-              "Con · 14",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vine_blight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_01_the_suits_of_the_mists"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9fb1613a7d8d828eb72bd008",
@@ -151223,54 +150435,30 @@
       {
         "id": "printing-150bddbc8ee238e6f0ee1800",
         "label": "DDEX1-14 - Escape from Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 26",
-              "Hit dice · 4d8 + 8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 10 ft.",
-              "Str · 15",
-              "Dex · 8",
-              "Con · 14",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vine_blight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_14_escape_from_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-83336f543d8ad6e42f07ccf8",
         "label": "DDEX3-07 - Herald of the Moon",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 26",
-              "Hit dice · 4d8 + 8",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · walk 10 ft.",
-              "Str · 15",
-              "Dex · 8",
-              "Con · 14",
-              "Int · 5",
-              "Wis · 10",
-              "Cha · 3"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vine_blight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex3_07_herald_of_the_moon"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-e18d1b6b64d8f8193b4ddafa",
@@ -157528,66 +156716,18 @@
       {
         "id": "printing-b254cfee04a5cd6a51a69d02",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 1",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 200",
-              "Str · 13",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 14",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A bandit officer who coordinates raids and is capable of running a camp. Fray Merridan uses this profile."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (Vulpin), neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Studded leather. Acrobatics +4, Perception +4. Darkvision 60 ft., passive Perception 14. Speaks Birdfolk and Vulpin."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Evasive. Add the captain's Intelligence modifier to Dexterity saves."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nShort Sword. Melee weapon attack, +4 to hit, reach 5 ft., one target. Hit 5 (1d6 + 2) piercing damage.\nShortbow. Ranged weapon attack, +4 to hit, range 80/320 ft., one target. Hit 5 (1d6 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Parry (1/round). Add 2 AC against a melee attack that would hit the captain. They must see the attacker and hold a melee weapon."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, pp. 208–209. Captain background, p. 207."]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237052-vulpin-captain",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/807/1000/1000/638433706581300179.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/807/1000/1000/638433706581300179.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vulpin_captain"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       },
       {
         "id": "printing-b573fcdf31ec1949e9358f1d",
@@ -157689,64 +156829,18 @@
       {
         "id": "printing-8f0930321e9f9a129cf7696b",
         "label": "Humblewood Campaign Setting",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 9",
-              "Hit dice · 2d8",
-              "Challenge · 1/8",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "XP · 25",
-              "Str · 11",
-              "Dex · 12",
-              "Con · 11",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A courtier who can throw an opponent off balance with a timely insult."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Humanoid (Vulpin), any alignment"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Breastplate. Deception +5, History +4, Insight +3, Persuasion +5. Darkvision 60 ft., passive Perception 11. Speaks Birdfolk and Vulpin."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Evasive. Add the noble's Intelligence modifier to Dexterity saves."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.\nRapier. Melee weapon attack, +3 to hit, reach 5 ft., one target. Hit 5 (1d8 + 1) piercing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Disparaging Remark. When someone the noble sees attacks an ally, impose disadvantage on that attack roll if the attacker can hear and understand the noble."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Appendix B, p. 209. Noble background, p. 208."]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/4237053-vulpin-noble",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/810/1000/1000/638433706585824271.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/39918/810/1000/1000/638433706585824271.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vulpin_noble"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "humblewood_campaign_setting"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -160311,81 +159405,6 @@
       {
         "id": "printing-0ea47deed68586fa3cdde506",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 3d10 + 6",
-              "Challenge · 1/2",
-              "Size · Large",
-              "Type · Undead",
-              "Speed · 60 ft.",
-              "Passive Perception · 9",
-              "XP · 100",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 15",
-              "Int · 2",
-              "Wis · 8",
-              "Cha · 5"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An undead steed still bears scraps of its old barding. It may carry the remains of its former rider."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large undead, lawful evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+1 (11)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["Bludgeoning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Exhaustion, Poisoned."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Hooves. Melee attack, +6 to hit, reach 5 ft. A hit deals 7 (1d6 + 4) Bludgeoning damage. If the target is a Large or smaller creature and the skeleton moved at least 20 ft. directly toward it immediately before hitting, the target falls Prone."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Shadowfell, Underdark, Urban."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 282."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 282 · https://5e.tools/bestiary.html#warhorse%20skeleton_xmm",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#warhorse%20skeleton_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/352/1000/1000/638741964793008811.jpeg",
         "art": [
@@ -160393,7 +159412,17 @@
             "file": "/assets/library/monsters/warhorse-skeleton.webp",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "warhorse_skeleton"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "art": [
@@ -162479,28 +161508,16 @@
       {
         "id": "printing-5bbf1457339f96b56e3f0a03",
         "label": "DDEX1-03 - Shadows over the Moonsea",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 9",
-              "Dex · 14",
-              "Con · 11",
-              "Int · 17",
-              "Wis · 12",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "warsh"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_03_shadows_over_the_moonsea"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       }
     ],
     "groups": ["Humanoid"],
@@ -164021,28 +163038,16 @@
       {
         "id": "printing-51db6435e5c32287fbb485bc",
         "label": "DDEP2 - Mulmaster Undone V2",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 58",
-              "Hit dice · 9d10 + 9",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Elemental",
-              "Speed · walk 0 ft., swim 60 ft.",
-              "Str · 17",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 10"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "water_weird"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep2_mulmaster_undone_v2"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-4a662d95e4a0ef33eb830331",
@@ -165590,28 +164595,16 @@
       {
         "id": "printing-3f56c418a9a72ec6c04f6205",
         "label": "DDAL04-12 - The Raven",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 10",
-              "Hit points · 78",
-              "Hit dice · 12d8 + 24",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 40 ft.",
-              "Str · 17",
-              "Dex · 10",
-              "Con · 15",
-              "Int · 10",
-              "Wis · 11",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wereboar"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_12_the_raven"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-87abea14cad8aa0418bd92ea",
@@ -166363,28 +165356,16 @@
       {
         "id": "printing-19ffa5aa71c19c08e2a9f243",
         "label": "DDAL04-09 - The Tempter",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 33",
-              "Hit dice · 6d8 + 6",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · walk 30 ft.",
-              "Str · 10",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 11",
-              "Wis · 10",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wererat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_09_the_tempter"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-6067894b8b7bd3725f7b98f9",
@@ -170088,28 +169069,16 @@
       {
         "id": "printing-189a5972a633bacb28a62351",
         "label": "DDAL04-10 - The Artifact",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 30 ft.",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wight"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_10_the_artifact"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-579698cd1a64c6d23baaa880",
@@ -171515,28 +170484,16 @@
       {
         "id": "printing-7a663861f27b93e939242128",
         "label": "DDEX1-14 - Escape from Phlan",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 22",
-              "Hit dice · 9d4",
-              "Challenge · 2",
-              "Size · Tiny",
-              "Type · Undead",
-              "Speed · walk 0 ft., fly 50 ft.",
-              "Str · 1",
-              "Dex · 28",
-              "Con · 10",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 11"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "will_o_wisp"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex1_14_escape_from_phlan"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-7224abe67ef81db9136bc1fd",
@@ -173773,28 +172730,16 @@
       {
         "id": "printing-72cea88e78dc4922be136285",
         "label": "DDAL04-05 - The Seer",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 75",
-              "Hit dice · 10d10 + 20",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 50 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 7",
-              "Wis · 12",
-              "Cha · 8"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "winter_wolf"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_05_the_seer"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-5d5f7d0bd8cd57fd0374bc2c",
@@ -177562,28 +176507,16 @@
       {
         "id": "printing-3199a23cec1fd5a2046b4f9e",
         "label": "DDAL04-10 - The Artifact",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 67",
-              "Hit dice · 9d8 + 27",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 0 ft., fly 60 ft.",
-              "Str · 6",
-              "Dex · 16",
-              "Con · 16",
-              "Int · 12",
-              "Wis · 14",
-              "Cha · 15"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wraith"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_10_the_artifact"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-4855bab5c5fb39b706a607d1",
@@ -178173,60 +177106,18 @@
       {
         "id": "printing-312dc5d7ecea28dbf185b6d5",
         "label": "Tal’Dorei Campaign Setting Reborn",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 270",
-              "Hit dice · 20d12 + 140",
-              "Challenge · 14",
-              "Type · Plant",
-              "Speed · 30 ft.",
-              "XP · 11500",
-              "Str · 23",
-              "Dex · 8",
-              "Con · 24",
-              "Int · 12",
-              "Wis · 16",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A tree animated by necromancy and posted to guard buried secrets."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Plant, neutral evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Perception +8. Resists bludgeoning and piercing. Vulnerable to fire. Immune to Stunned, Frightened, Charmed, Paralyzed and Poisoned. Passive Perception 18. Common, Druidic, Elvish, Sylvan."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "False Appearance. While motionless, it cannot be distinguished from an ordinary tree.\nWraith Shift. On its turn it passes through other creatures and objects as Difficult Terrain without provoking Opportunity Attacks. It must finish moving clear of Large or larger creatures and objects. Any Medium or smaller creatures sharing its space choose a nearest unoccupied space and are pushed there. The tree chooses the nearest unoccupied spaces for Medium or smaller objects it displaces."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Slam attacks.\nSlam. Melee weapon attack +11, reach 10 ft., one target. Hit for 16 (3d6 + 6) bludgeoning.\nRock. Ranged weapon attack +11, range 60/180 ft., one target. Hit for 28 (4d10 + 6) bludgeoning.\nWraithstorm (Recharge 5–6). Each creature within 30 ft. other than a Construct or Undead makes a DC 16 Constitution save. On failure its speed is halved and it becomes vulnerable to bludgeoning until the end of the tree’s next turn."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": ["Tal’Dorei Campaign Setting Reborn, p. 259."]
-          }
-        ],
-        "edition": "2014 fifth edition compatible",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/3768369-wraithroot-tree",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/36257/21/1000/1000/638278123861457616.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/36257/21/1000/1000/638278123861457616.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wraithroot_tree"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tal_dorei_campaign_setting_reborn"
+          }
+        }
       }
     ],
     "groups": ["Plant"],
@@ -179325,75 +178216,6 @@
       {
         "id": "printing-c721da10a71e8166d2d37c56",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 127",
-              "Hit dice · 15d10 + 45",
-              "Challenge · 6",
-              "Size · Large",
-              "Type · Dragon",
-              "Speed · 30 ft., fly 80 ft.",
-              "Passive Perception · 14",
-              "XP · 2300",
-              "Str · 19",
-              "Dex · 10",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A wyvern hunts from the air and strikes with its jaws and venomous tail."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+0 (10)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and one Sting attack.\nBite. Melee attack, +7 to hit, reach 5 ft. A hit deals 13 (2d8 + 4) piercing damage.\nSting. Melee attack, +7 to hit, reach 10 ft. A hit deals 11 (2d6 + 4) piercing damage plus 24 (7d6) poison damage. The target is Poisoned until the start of the wyvern's next turn."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Hills and mountains."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 337."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 337 · https://5e.tools/bestiary.html#wyvern_xmm",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#wyvern_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/384/1000/1000/638741964839190832.png",
         "art": [
@@ -179401,7 +178223,17 @@
             "file": "/assets/library/monsters/wyvern.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wyvern"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-e1455a9ba3e3aa3c74e89b66",
@@ -185801,54 +184633,30 @@
       {
         "id": "printing-863bfe25256919931a1c247f",
         "label": "Basic Rules (2018)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 8",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yeti"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "basic_rules_2018"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-aa894714aa766ecd68f02ae5",
         "label": "DDEX2-04 - Mayhem in the Earthspur Mines",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 51",
-              "Hit dice · 6d10 + 18",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 40 ft., climb 40 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 16",
-              "Int · 8",
-              "Wis · 12",
-              "Cha · 7"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yeti"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddex2_04_mayhem_in_the_earthspur_mines"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-50321d62c23a2c84971c48d3",
@@ -192888,28 +191696,16 @@
       {
         "id": "printing-c4e98574c0563e04b5f1f540",
         "label": "DDAL04-10 - The Artifact",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 93",
-              "Hit dice · 11d10 + 33",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft., burrow 20 ft.",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 17",
-              "Int · 3",
-              "Wis · 10",
-              "Cha · 4"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_remorhaz"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_10_the_artifact"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-247ffd13f0ad21368b4d3c6b",
@@ -196777,54 +195573,30 @@
       {
         "id": "printing-0ef4ba6c4418d5d9248d75d7",
         "label": "DDAL04-07 - The Innocent",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_07_the_innocent"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-a0755ee76e38d8c9e902b75e",
         "label": "Hoard of the Dragon Queen - Online Supplement",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · walk 30 ft.",
-              "Str · 16",
-              "Dex · 14",
-              "Con · 13",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_malison"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "hoard_of_the_dragon_queen_online_supplement"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-77d7f1bee6461c6bb2ffc4d3",
@@ -205193,28 +203965,16 @@
       {
         "id": "printing-8b1061014c1907f236a8c249",
         "label": "DDAL04-03 - The Executioner",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 8",
-              "Hit points · 22",
-              "Hit dice · 3d8 + 9",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Undead",
-              "Speed · walk 20 ft.",
-              "Str · 13",
-              "Dex · 6",
-              "Con · 16",
-              "Int · 3",
-              "Wis · 6",
-              "Cha · 5"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "zombie"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddal04_03_the_executioner"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Combat summary"
+        }
       },
       {
         "id": "printing-9e92c4caeb620357348528ba",
