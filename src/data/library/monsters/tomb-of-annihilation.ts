@@ -201,11 +201,21 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
             },
             text: [
-              'Grapple the target (escape DC 14). Until the grapple ends, the target is ',
-              rules.restrained,
-              ' and takes ',
+              { effect: 'vine-grapple' },
+              '. Until the grapple ends, the target',
+              ' takes ',
               { roll: '6d6' },
               ' poison damage at the start of each of its turns. The vine can constrict one target at a time.',
+            ],
+            effects: [
+              {
+                key: 'vine-grapple',
+                name: 'Vine grapple',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -217,10 +227,19 @@ export default createPublicationMonsters({
               'Animate roots and vines in a 15-ft. square on the ground within 30 ft. The square becomes difficult terrain. Creatures in the square when the effect begins must succeed on a ',
               { dc: 'con', save: 'str' },
               ' Strength save or become ',
-              rules.restrained,
+              { effect: 'entangled' },
               '. A creature ',
               rules.restrained,
               ' this way can take an action to make a DC 13 Strength (Athletics) check to escape. The terrain and restraints last for 1 minute, until the vine dies, or until it uses the action again.',
+            ],
+            effects: [
+              {
+                key: 'entangled',
+                name: 'Entangled',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],
@@ -654,13 +673,20 @@ export default createPublicationMonsters({
               target: { creatures: 1, range: 30 },
               onFail: {
                 damage: [{ dice: '5d6', type: rules.psychic }],
-                also: ['Stuns the target for 1 minute.'],
+
+                also: [{ effect: 'psychic-crush' }],
               },
             },
-            text: [
-              'A ',
-              rules.stunned,
-              ' target can repeat the save at the end of each of its turns and ends the effect on a success.',
+            text: [],
+            effects: [
+              {
+                key: 'psychic-crush',
+                name: 'Stuns the target',
+                lands: { on: 'failed-save' },
+                conditions: [rules.stunned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'recharge 5–6',

@@ -496,10 +496,19 @@ export default createPublicationMonsters({
               'Creatures in a 15-ft. cube must pass a ',
               { dc: 'con', save: 'dex' },
               ' Dexterity save or be ',
-              rules.restrained,
+              { effect: 'webbed' },
               ' by webs. A creature can spend an action on a ',
               { dc: 'str' },
               ' Strength or Dexterity check to free itself or a creature within reach.',
+            ],
+            effects: [
+              {
+                key: 'webbed',
+                name: 'Webbed',
+                lands: { on: 'save', save: 'dex', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

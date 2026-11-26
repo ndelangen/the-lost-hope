@@ -410,12 +410,21 @@ export default createPublicationMonsters({
               'After moving at least 20 ft. straight toward a creature and landing a claw hit on it in the same turn, the creature makes a ',
               { dc: 'str' },
               ' Strength save. On a failure, it falls ',
-              rules.prone,
+              { effect: 'pounce-prone' },
               '. The trait then permits a bonus-action ',
               { ability: 'bite' },
               ' against the ',
               rules.prone,
               ' target.',
+            ],
+            effects: [
+              {
+                key: 'pounce-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

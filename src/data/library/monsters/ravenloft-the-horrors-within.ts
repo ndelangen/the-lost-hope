@@ -64,7 +64,7 @@ export default createPublicationMonsters({
               'Or ',
               { roll: '2d4', mod: 'dex' },
               ' if the swarm is Bloodied. The target becomes ',
-              rules.poisoned,
+              { effect: 'infestation-poison' },
               '. If this poison is still active after 1 hour, the target makes a ',
               { dc: 'con' },
               ' Constitution save. A success ends the condition. On a failure, roll 1d6. On 1–2 the target becomes ',
@@ -74,6 +74,15 @@ export default createPublicationMonsters({
               ', and on 5–6 it gains 1 ',
               rules.exhaustion,
               ' level. The rolled effect ends when this poison ends.',
+            ],
+            effects: [
+              {
+                key: 'infestation-poison',
+                name: 'Infestation poison',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -144,11 +153,27 @@ export default createPublicationMonsters({
             text: [
               'Or ',
               { roll: '2d8', mod: 'dex' },
-              ' if the swarm is Bloodied. The insects burrow into the target and Poison it for 1 minute. A spell or effect that restores the target’s HP ends the condition early. At the start of each turn while ',
+              ' if the swarm is Bloodied. The insects burrow into the target and ',
+              { effect: 'burrowing-poison' },
+              '. At the start of each turn while ',
               rules.poisoned,
               ' this way, the target takes ',
               { roll: '1d8' },
               ' piercing damage. It dies if this ongoing damage reduces it to 0 HP.',
+            ],
+            effects: [
+              {
+                key: 'burrowing-poison',
+                name: 'Burrowing poison',
+                lands: { on: 'hit' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: {
+                  cure: [
+                    'A spell or effect that restores the target’s HP ends the condition early.',
+                  ],
+                },
+              },
             ],
           },
         ],

@@ -294,11 +294,23 @@ export default createPublicationMonsters({
               damage: [{ dice: '2d12', type: rules.fire }],
             },
             text: [
-              'A creature hit also suffers lingering flames. After throwing a flask, roll 1d6. On a result of 3 or lower, the fire starter has no flasks left. Lingering flames. At the start of each of its turns, the creature takes ',
-              { roll: '1d6' },
-              ' fire damage. Immediately after taking this damage on its turn, it can make a ',
-              { dc: 'str', save: 'dex' },
-              ' Dexterity save to end the effect on a success.',
+              'A creature hit also suffers lingering flames. After throwing a flask, roll 1d6. On a result of 3 or lower, the fire starter has no flasks left. ',
+              { effect: 'lingering-flames' },
+            ],
+            effects: [
+              {
+                key: 'lingering-flames',
+                name: 'Lingering flames',
+                lands: { on: 'hit' },
+                text: [
+                  'Lingering flames. At the start of each of its turns, the creature takes ',
+                  { roll: '1d6' },
+                  ' fire damage. Immediately after taking this damage on its turn, it can make a ',
+                  { dc: 'str', save: 'dex' },
+                  ' Dexterity save to end the effect on a success.',
+                ],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -361,10 +373,18 @@ export default createPublicationMonsters({
             text: [
               { roll: '2d12' },
               ' poison damage. A Medium or smaller creature is ',
-              rules.grappled,
-              ' (escape DC 14) and ',
-              rules.restrained,
-              ' until the grapple ends. While holding it, the maelephant cannot use Barbed Trunk against anyone else.',
+              { effect: 'trunk-grapple' },
+              '. While holding it, the maelephant cannot use Barbed Trunk against anyone else.',
+            ],
+            effects: [
+              {
+                key: 'trunk-grapple',
+                name: 'Held by trunk',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -392,13 +412,27 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 60 } },
               onFail: {
                 damage: [{ dice: '6d12', type: rules.poison }],
-                also: ['Leaves the creature ', rules.poisoned, '.'],
+
+                also: ['Leaves the creature ', { effect: 'mind-poisoned' }, '.'],
               },
             },
             text: [
-              'While ',
-              rules.poisoned,
-              ' this way, it loses all weapon and skill proficiencies, cannot cast spells or understand language, and has disadvantage on Intelligence saves. It can repeat the save at the end of each of its turns, ending the effect on a success. A success on the initial save deals half damage, causes no condition, and grants immunity to this maelephant’s Mind Poison for 24 hours.',
+              'A success on the initial save deals half damage, causes no condition, and grants immunity to this maelephant’s Mind Poison for 24 hours. ',
+            ],
+            effects: [
+              {
+                key: 'mind-poisoned',
+                name: 'Mind poison',
+                lands: { on: 'failed-save' },
+                conditions: [rules.poisoned],
+                text: [
+                  'While ',
+                  rules.poisoned,
+                  ' this way, it loses all weapon and skill proficiencies, cannot cast spells or understand language, and has disadvantage on Intelligence saves.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',

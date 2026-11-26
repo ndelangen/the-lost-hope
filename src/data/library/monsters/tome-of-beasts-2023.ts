@@ -694,10 +694,19 @@ export default createPublicationMonsters({
               'Whenever the cobbleswarm moves into a creature’s space or starts its turn in another creature’s space, the creature must succeed on a ',
               { dc: 'dex', printed: 13 },
               ' Dexterity saving throw or fall ',
-              rules.prone,
+              { effect: 'floor-prone' },
               '. A ',
               rules.prone,
               ' creature must succeed on a DC 13 Dexterity (Acrobatics) check to stand up in a space occupied by the swarm.',
+            ],
+            effects: [
+              {
+                key: 'floor-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'dex', dc: 'dex', printed: 13 },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1387,8 +1396,17 @@ export default createPublicationMonsters({
               'The target must succeed on a ',
               { dc: 'con' },
               ' Constitution saving throw or be ',
-              rules.poisoned,
-              ' until the end of its next turn.',
+              { effect: 'spider-poison' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'spider-poison',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+              },
             ],
           },
           {
@@ -1903,7 +1921,19 @@ export default createPublicationMonsters({
               { roll: '4d6' },
               ' cold damage if the swarm has half of its hp or fewer. The target must succeed on a ',
               { dc: 'dex', save: 'con' },
-              ' Constitution saving throw or be unable to regain hp for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.',
+              ' Constitution saving throw or be ',
+              { effect: 'no-healing' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'no-healing',
+                name: 'Unable to regain hp',
+                lands: { on: 'save', save: 'con', dc: 'dex' },
+                text: ['unable to regain hp'],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {

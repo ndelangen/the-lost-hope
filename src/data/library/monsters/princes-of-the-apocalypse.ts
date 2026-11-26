@@ -41,8 +41,17 @@ export default createPublicationMonsters({
               ' extra bludgeoning damage. A creature hit also makes a ',
               { dc: 'str' },
               ' Strength save or falls ',
-              rules.prone,
+              { effect: 'fall-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'fall-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {

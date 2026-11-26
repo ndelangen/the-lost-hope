@@ -337,8 +337,18 @@ export default createPublicationMonsters({
               'The target and up to four chosen creatures within 10 ft. of it make ',
               { dc: 'con', save: 'wis' },
               ' Wisdom saves. On failure, the creature is ',
-              rules.frightened,
-              ' for 1 minute. A repeat save at the end of each affected turn can end it.',
+              { effect: 'eye-fright' },
+              '. A repeat save at the end of each affected turn can end it.',
+            ],
+            effects: [
+              {
+                key: 'eye-fright',
+                name: 'Frightened',
+                lands: { on: 'save', save: 'wis', dc: 'con' },
+                conditions: [rules.frightened],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+                ends: { repeatSave: ['end-of-turn'] },
+              },
             ],
           },
           {

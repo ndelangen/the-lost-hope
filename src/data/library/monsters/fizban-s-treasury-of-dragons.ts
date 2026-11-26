@@ -744,8 +744,17 @@ export default createPublicationMonsters({
               'The target must pass a ',
               { dc: 'con', save: 'str' },
               ' Strength save or be pushed horizontally up to 10 ft. away from the stalker and knocked ',
-              rules.prone,
+              { effect: 'sapphire-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'sapphire-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -757,8 +766,17 @@ export default createPublicationMonsters({
               'The target must pass a ',
               { dc: 'con' },
               ' Constitution save or be ',
-              rules.poisoned,
-              ' until the start of the stalker’s next turn.',
+              { effect: 'topaz-poisoned' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'topaz-poisoned',
+                name: 'Poisoned',
+                lands: { on: 'save', save: 'con', dc: 'con' },
+                conditions: [rules.poisoned],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+              },
             ],
           },
           {
@@ -1201,9 +1219,20 @@ export default createPublicationMonsters({
             text: [
               'Each creature within 10 ft. must succeed on a ',
               { dc: 'dex' },
-              ' Dexterity save or be outlined in blue for 10 minutes. A marked creature sheds dim light in a 10-ft. radius and cannot benefit from being ',
+              ' Dexterity save or be ',
+              { effect: 'scale-dust-outlined' },
+              '. A marked creature sheds dim light in a 10-ft. radius and cannot benefit from being ',
               rules.invisible,
               '. Every Dragon within 1 mile becomes aware of it and can track it unerringly. Dispel Magic cast on the creature ends the effect.',
+            ],
+            effects: [
+              {
+                key: 'scale-dust-outlined',
+                name: 'Outlined in blue',
+                lands: { on: 'save', save: 'dex', dc: 'dex' },
+                text: ['outlined in blue'],
+                lasts: { kind: 'time', amount: '10', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Long rest',

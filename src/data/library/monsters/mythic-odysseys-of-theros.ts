@@ -76,8 +76,17 @@ export default createPublicationMonsters({
               'A Medium or smaller target must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'bash-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bash-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
         ],
@@ -379,8 +388,17 @@ export default createPublicationMonsters({
               ' extra fire damage. If the target is a creature, it must succeed on a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -529,13 +547,23 @@ export default createPublicationMonsters({
               target: { area: { shape: rules.cone, size: 30 } },
               onFail: {
                 damage: [{ dice: '4d12', type: rules.necrotic }],
-                also: ['Is cursed for 1 minute.'],
+
+                also: ['Is ', { effect: 'hopeless-curse' }, '.'],
               },
             },
-            text: [
-              'While cursed, it takes an extra ',
-              { roll: '1d12' },
-              ' necrotic damage each time this eater of hope hits it with an attack. A success halves the breath damage and prevents the curse.',
+            text: ['A success halves the breath damage and prevents the curse. '],
+            effects: [
+              {
+                key: 'hopeless-curse',
+                name: 'Cursed',
+                lands: { on: 'failed-save' },
+                text: [
+                  'While cursed, it takes an extra ',
+                  { roll: '1d12' },
+                  ' necrotic damage each time this eater of hope hits it with an attack.',
+                ],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
             uses: 1,
             recharge: 'Recharge 5–6',
@@ -836,8 +864,17 @@ export default createPublicationMonsters({
               ' extra bludgeoning damage. A creature hit must also make a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'charge-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'charge-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1477,8 +1514,17 @@ export default createPublicationMonsters({
               'A Medium or smaller target must make a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'bash-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'bash-prone',
+                name: 'Prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
@@ -1713,7 +1759,18 @@ export default createPublicationMonsters({
             text: [
               'When a creature starts its turn within 10 ft. of the phylaskia, it makes a ',
               { dc: 'wis' },
-              ' Wisdom save. A success grants immunity to this aura for 24 hours. On a failure, the creature has disadvantage on saves and half its usual speed until the start of its next turn.',
+              ' Wisdom save. A success grants immunity to this aura for 24 hours. On a failure, ',
+              { effect: 'aura-hindered' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'aura-hindered',
+                name: 'Gatekeeper’s aura',
+                lands: { on: 'save', save: 'wis', dc: 'wis' },
+                text: ['the creature has disadvantage on saves and half its usual speed'],
+                lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+              },
             ],
           },
           {
@@ -2433,14 +2490,23 @@ export default createPublicationMonsters({
             },
             text: [
               'Is ',
-              rules.grappled,
-              ' (escape DC 19). While ',
-              rules.grappled,
-              ' this way, the target is ',
-              rules.restrained,
-              ' and takes another ',
-              { roll: '3d6', mod: 'str' },
-              ' bludgeoning damage at the start of each of its turns. The typhon can hold two creatures this way at once.',
+              { effect: 'constricted' },
+              ' The typhon can hold two creatures this way at once.',
+            ],
+            effects: [
+              {
+                key: 'constricted',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'takes another ',
+                  { roll: '3d6', mod: 'str' },
+                  ' bludgeoning damage at the start of each of its turns.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 19 } },
+              },
             ],
           },
           {
@@ -2498,8 +2564,18 @@ export default createPublicationMonsters({
               ' attacks and one ',
               { ability: 'bite' },
               '. If both claws hit the same creature, it becomes ',
-              rules.grappled,
-              ' (escape DC 14).',
+              { effect: 'woe-grapple' },
+              '.',
+            ],
+            effects: [
+              {
+                key: 'woe-grapple',
+                name: 'Grappled',
+                lands: { on: 'use' },
+                conditions: [rules.grappled],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {

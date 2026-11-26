@@ -52,12 +52,23 @@ export default createPublicationMonsters({
             },
             text: [
               'The target is ',
-              rules.grappled,
-              ' (escape DC 14) and ',
-              rules.restrained,
-              ' while the grapple lasts. It takes ',
-              { roll: '6d6' },
-              ' poison at the start of each of its turns during the grapple. The vine can constrict only one creature at a time.',
+              { effect: 'constrict-grappled' },
+              '. The vine can constrict only one creature at a time.',
+            ],
+            effects: [
+              {
+                key: 'constrict-grappled',
+                name: 'Constricted',
+                lands: { on: 'hit' },
+                conditions: [rules.grappled, rules.restrained],
+                text: [
+                  'It takes ',
+                  { roll: '6d6' },
+                  ' poison at the start of each of its turns during the grapple.',
+                ],
+                lasts: { kind: 'until-removed' },
+                ends: { escape: { dc: 'str', printed: 14 } },
+              },
             ],
           },
           {
@@ -69,8 +80,17 @@ export default createPublicationMonsters({
               'Animate existing roots and vines in a 15 ft. square on the ground within 30 ft. The area becomes Difficult Terrain. Creatures there when it begins make ',
               { dc: 'con', save: 'str' },
               ' Strength saves or become ',
-              rules.restrained,
+              { effect: 'vines-restrained' },
               '. A trapped creature can spend an action and succeed on a DC 13 Strength (Athletics) check to free itself. The effect ends after 1 minute or earlier if the vine dies or uses this action again.',
+            ],
+            effects: [
+              {
+                key: 'vines-restrained',
+                name: 'Restrained',
+                lands: { on: 'save', save: 'str', dc: 'con' },
+                conditions: [rules.restrained],
+                lasts: { kind: 'time', amount: '1', unit: 'minute' },
+              },
             ],
           },
         ],

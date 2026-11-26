@@ -306,8 +306,17 @@ export default createPublicationMonsters({
               ' damage. A creature hit this way must pass a ',
               { dc: 'str' },
               ' Strength save or fall ',
-              rules.prone,
+              { effect: 'fall-prone' },
               '.',
+            ],
+            effects: [
+              {
+                key: 'fall-prone',
+                name: 'Knocked prone',
+                lands: { on: 'save', save: 'str', dc: 'str' },
+                conditions: [rules.prone],
+                lasts: { kind: 'until-removed' },
+              },
             ],
           },
           {
