@@ -81857,91 +81857,6 @@
       {
         "id": "printing-528cb4a9290e017820c8fa6e",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 126",
-              "Hit dice · 11d12 + 55",
-              "Challenge · 7",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · 40 ft.",
-              "Passive Perception · 14",
-              "XP · 2900",
-              "Str · 23",
-              "Dex · 15",
-              "Con · 20",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Stone giants blend into the rock of their caverns and canyons. They seldom intervene in their neighbors' affairs, but they defend their homes and places of ancient wonder."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Con +8", "Wis +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +12", "Perception +4", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge giant, neutral"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+5 (15)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Giant."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Stone Club and Boulder in any combination.\nStone Club. Melee attack, +9 to hit, reach 15 ft. On a hit, deal 22 (3d10 + 6) bludgeoning damage.\nBoulder. Ranged attack, +9 to hit, range 60/240 ft. On a hit, deal 15 (2d8 + 6) bludgeoning damage. A Large or smaller creature hit by the boulder falls Prone."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Deflect Missile (recharge 5–6). When a ranged attack roll hits the giant and deals bludgeoning, piercing, or slashing damage, reduce the damage the giant takes from that attack by 11 (1d10 + 6). If this reduces the damage to 0, the giant can choose one creature it sees within 60 ft. That creature makes a DC 17 Dexterity save, taking 11 (1d10 + 6) force damage on a failure."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Mountain, Underdark."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Armaments."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 300."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 300 · https://5e.tools/bestiary.html#stone%20giant_xmm",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#stone%20giant_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/275/1000/1000/638741964686276434.png",
         "art": [
@@ -81949,7 +81864,17 @@
             "file": "/assets/library/monsters/stone-giant.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_giant"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-65bcf7bbc7a96579a4340d82",
@@ -84695,109 +84620,6 @@
       {
         "id": "printing-6aac495474dcc3eaf84577c4",
         "label": "Bigby Presents: Glory of the Giants",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 287",
-              "Hit dice · 23d12 + 138",
-              "Challenge · 17",
-              "Size · Huge",
-              "Type · Aberration",
-              "Speed · 50 ft., swim 100 ft.",
-              "Passive Perception · 20",
-              "XP · 18000",
-              "Str · 27",
-              "Dex · 14",
-              "Con · 22",
-              "Int · 24",
-              "Wis · 18",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Deep-sea powers twist storm giants into finned heralds whose psychic gifts serve their masters."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Wis +10", "Cha +10"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +13", "Deception +10", "Perception +10"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge aberration, typically lawful evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, psychic."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Lightning, thunder."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant, telepathy 120 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. The herald breathes air and water.\nMagic Resistance. The herald has advantage on saves against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Claw attack, one Tentacles attack, and one Trident attack.\nClaw. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 18 (3d6 + 8) slashing damage.\nTentacles. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 21 (3d8 + 8) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 18) and restrained. It takes 16 (3d10) psychic damage at the start of each of its turns until this grapple ends. The herald can grapple only one creature with its tentacles at a time.\nTrident. Melee weapon attack, +14 to hit, reach 10 ft., one target. A hit deals 18 (3d6 + 8) piercing damage, or 21 (3d8 + 8) piercing damage with two hands, plus 13 (3d8) lightning damage either way.\nPsychic Wave (Recharge 6). Choose up to three visible creatures within 90 ft. Each makes a DC 21 Intelligence save. Failure deals 23 (3d10 + 7) psychic damage and stuns the creature for 1 minute. Success halves the damage and avoids the stun. A stunned creature can repeat the save at the end of each of its turns, ending the effect on a success. A creature reduced to 0 HP by this damage dies, and its head explodes if it has one."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast one listed spell using Intelligence (spell save DC 21). These psionics require no components.\nAt will. Detect Magic, Detect Thoughts, Mage Hand (invisible hand).\n1/day each. Control Water, Control Weather (as an action), Sending."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Bigby Presents: Glory of the Giants, p. 183."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Bigby Presents: Glory of the Giants, p. 183 · https://5e.tools/bestiary.html#storm%20herald_bgg",
-              "Detect magic (spell) · https://5e.tools/spells.html#detect%20magic_phb",
-              "Detect thoughts (spell) · https://5e.tools/spells.html#detect%20thoughts_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Control water (spell) · https://5e.tools/spells.html#control%20water_phb",
-              "Control weather (spell) · https://5e.tools/spells.html#control%20weather_phb",
-              "Sending (spell) · https://5e.tools/spells.html#sending_phb",
-              "Grappled (condition) · https://5e.tools/conditionsdiseases.html#grappled_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#storm%20herald_bgg",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/35952/809/1000/1000/638264236657810391.png",
         "art": [
@@ -84805,7 +84627,17 @@
             "file": "/assets/library/worker-art/storm-herald-52837b8cb9e730ab.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "storm_herald"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "bigby_presents_glory_of_the_giants"
+          }
+        }
       }
     ],
     "groups": ["Aberration"]
@@ -200848,6 +200680,75 @@
           "publication": {
             "ref": "publication",
             "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "rattok",
+    "name": "Rattok",
+    "summary": "",
+    "group": "Fiend",
+    "printings": [
+      {
+        "id": "open5e-ccdx_rattok",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rattok"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "xiphus",
+    "name": "Xiphus",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-ccdx_xiphus",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "xiphus"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "qiqirn",
+    "name": "Qiqirn",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob2_qiqirn",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "qiqirn"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
           }
         }
       }

@@ -41358,80 +41358,24 @@
       {
         "id": "printing-6480beda2f98295459a18112",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 126",
-              "Hit dice · 11d12 + 55",
-              "Challenge · 6",
-              "Size · Huge",
-              "Type · Beast",
-              "Speed · 50 ft.",
-              "Passive Perception · 10",
-              "XP · 2300",
-              "Str · 24",
-              "Dex · 9",
-              "Con · 21",
-              "Int · 3",
-              "Wis · 11",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +10", "Dex -1", "Con +8", "Int -4", "Wis +0", "Cha -2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A shaggy brown mammoth with a domed head, a hanging trunk and long curved ivory tusks."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge Beast, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Initiative +2 (12). Proficiency Bonus +3. Passive Perception 10. Languages none."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, Monster Manual, p. 365, as credited on D&D Beyond. https://www.dndbeyond.com/monsters/5195112-mammoth"
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Gore attacks.\nGore. Make a melee attack roll at +10 with a reach of 10 ft. A hit deals 18 (2d10 + 7) piercing damage. A Huge or smaller creature hit is also Prone if the mammoth moved at least 20 ft. straight toward it immediately before the hit."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Trample. Choose one Prone creature within 5 ft. It makes a DC 18 Dexterity saving throw, taking 29 (4d10 + 7) bludgeoning damage on a failure or half as much on a success."
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
         "source": "https://5e.tools/bestiary.html#mammoth_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/53/1000/1000/638741964377705370.png",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/mammoth.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mammoth"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-a4aa3268612d93150cd619b2",

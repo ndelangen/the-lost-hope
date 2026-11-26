@@ -26,6 +26,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Ettercap
 - Monster Manual (2024): Flying Snake
 - Monster Manual (2024): Gibbering Mouther
+- Monster Manual (2024): Gorgon
 - Monster Manual (2024): Gray Ooze
 - Monster Manual (2024): Grick
 - Monster Manual (2024): Grick Ancient
@@ -36,12 +37,14 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Monster Manual (2024): Ochre Jelly
 - Monster Manual (2024): Owlbear
 - Monster Manual (2024): Phase Spider
+- Monster Manual (2024): Psychic Gray Ooze
 - Monster Manual (2024): Roc
 - Monster Manual (2024): Rust Monster
 - Monster Manual (2024): Shadow
 - Monster Manual (2024): Tarrasque
 - Monster Manual (2024): Warhorse Skeleton
 - Monster Manual (2024): Wyvern
+- Mordenkainen Presents: Monsters of the Multiverse: Catoblepas
 - Mordenkainen Presents: Monsters of the Multiverse: Cave Fisher
 - Mordenkainen Presents: Monsters of the Multiverse: Girallon
 - Mordenkainen Presents: Monsters of the Multiverse: Neogi Hatchling
@@ -59,6 +62,7 @@ The library shows "Not recorded" for these. Fill them from the books when we hav
 - Tomb of Annihilation: Mantrap
 - Tomb of Annihilation: Su-monster
 - Tomb of Annihilation: Tyrannosaurus Zombie
+- Volo's Guide to Monsters: Catoblepas
 - Volo's Guide to Monsters: Cave Fisher
 - Volo's Guide to Monsters: Hadrosaurus
 - Volo's Guide to Monsters: Stegosaurus

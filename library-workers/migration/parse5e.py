@@ -116,10 +116,10 @@ AREA=re.compile(r'(?:each creature|creatures?) (?:of its choice )?in (?:a|an|tha
 LINE=re.compile(r'(\d+)-foot-long, (\d+)-foot-?wide Line',re.I)
 # Older stat blocks name the area in one sentence and its creatures in the next: "The dragon
 # exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line…"
-LINE_WIDE=re.compile(r'\bin an? (\d+)[- ]?(?:foot|ft\.?)[- ]line that is (\d+) (?:feet|ft\.?) wide',re.I)
-SHAPE=re.compile(r'\bin an? (\d+)[- ]?(?:foot|ft\.?)(?:-radius)?[- ](cone|cube|sphere|emanation)\b',re.I)
+LINE_WIDE=re.compile(r'\bin an? (\d+)[- ]*(?:foot|ft\.?)[- ]line that is (\d+) (?:feet|ft\.?) wide',re.I)
+SHAPE=re.compile(r'\b(?:in|within) an? (\d+)[- ]*(?:foot|ft\.?)(?:-radius)?[- ](cone|cube|sphere|emanation)\b',re.I)
 RADIUS=re.compile(r'\b(?:in|within) (?:its|a|an|the) (\d+)[- ]?(?:foot|ft\.?)[- ]radius\b',re.I)
-AROUND=re.compile(r'\beach (?:other )?(?:creature|enemy)(?: of its choice)? within (\d+) (?:feet|ft\.?)(?: of (?:it|itself|the [\w’\' -]+?|him|her|them))?(?=[ ,.]|$)',re.I)
+AROUND=re.compile(r'\b(?:(?:each|every) (?:other )?(?:creature|enemy)|(?:all )?(?:other )?(?:creatures|enemies))(?: of its choice)? within (\d+) (?:feet|ft\.?)(?: of (?:it|itself|the [\w’\' -]+?|him|her|them))?(?=[ ,.]|$)',re.I)
 def area_of(text):
   '''A save's area: "a 15-foot Cone", "a 20-foot-radius Sphere", "a 60-foot-long, 5-foot-wide Line",
   "a 60-foot line that is 5 feet wide", or "each creature within 10 feet of it" (an Emanation).'''
@@ -223,7 +223,10 @@ def extract_save(ab,text,scores,prof,issues):
       if not rng: issues.append(f'{name}: save on a creature in its space'); return text
       target={'creatures':1,'range':rng,'which':'it hits'}
     else:
-      issues.append(f'{name}: save target not understood'); return text
+      # "Choose one Prone creature within 5 ft.", "one creature it can see within 60 feet of it"
+      cm=re.search(r'\bone (?:[\w ]+? )?(?:creature|target)[^.]*? within (\d+) (?:feet|ft)',text[:m.start()+10],re.I)
+      if not cm: issues.append(f'{name}: save target not understood'); return text
+      target={'creatures':1,'range':int(cm.group(1))}
     # What a failure adds right after the damage ("…damage and be knocked prone.") is its rider,
     # as long as it carries no roll or DC of its own.
     after=text[m.end():]

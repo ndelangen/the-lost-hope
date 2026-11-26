@@ -103661,78 +103661,6 @@
       {
         "id": "printing-3a05357c640c52d873605a90",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 84",
-              "Hit dice · 8d10 + 40",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 15",
-              "XP · 1800",
-              "Str · 19",
-              "Dex · 12",
-              "Con · 21",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A swamp monstrosity with a stunning tail and a gaze that can kill outright."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["swamp"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Stench. A creature other than a catoblepas that starts its turn within 10 ft. of the catoblepas makes a DC 16 Constitution save. On a failure, it is poisoned until its next turn starts. On a success, it is immune to every catoblepas's Stench for 1 hour."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. On a hit, the target takes 21 (5d6 + 4) bludgeoning damage and makes a DC 16 Constitution save. On a failure, it is stunned until the start of the catoblepas's next turn.\nDeath Ray (Recharge 5–6). Choose one creature the catoblepas can see within 30 ft. It makes a DC 16 Constitution save, taking 36 (8d8) necrotic damage on a failure or half on a success. If it fails by 5 or more, it takes 64 necrotic damage instead. A target reduced to 0 hit points by the ray dies."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 70."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 70 · https://5e.tools/bestiary.html#catoblepas_mpmm",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#catoblepas_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/205/1000/1000/637880557250695125.jpeg",
         "art": [
@@ -103740,82 +103668,21 @@
             "file": "/assets/library/worker-art/catoblepas-ecb64fc7173d96b8.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "catoblepas"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-fc47da6de0c0ab245a3677a4",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 84",
-              "Hit dice · 8d10 + 40",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "XP · 1800",
-              "Str · 19",
-              "Dex · 12",
-              "Con · 21",
-              "Int · 3",
-              "Wis · 14",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A swamp-dweller that browses, eats carrion, and guards its young. The marsh around its lair grows stagnant and foul."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["swamp"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The catoblepas has advantage on Wisdom (Perception) checks that rely on smell.\nStench. A creature other than a catoblepas that starts its turn within 10 ft. must make a DC 16 Constitution save. On a failure, it is poisoned until the start of its next turn. On a success, it is immune to the stench of any catoblepas for 1 hour."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Tail. Melee weapon attack, +7 to hit, reach 10 ft., one target. A hit deals 21 (5d6 + 4) bludgeoning damage, and the target is stunned until the start of the catoblepas’s next turn unless it succeeds on a DC 16 Constitution save.\nDeath Ray (Recharge 5–6). Choose one creature the catoblepas can see within 30 ft. The target makes a DC 16 Constitution save, taking 36 (8d8) necrotic damage on a failure or half as much on a success. A failure by 5 or more deals 64 necrotic damage instead. A creature reduced to 0 hit points by the ray dies."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 129."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 129 · https://5e.tools/bestiary.html#catoblepas_vgm",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#catoblepas_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/596/1000/1000/636329510074607286.jpeg",
         "art": [
@@ -103823,7 +103690,17 @@
             "file": "/assets/library/worker-art/catoblepas-ecb64fc7173d96b8.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "catoblepas"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -134894,91 +134771,6 @@
       {
         "id": "printing-413474dabaadd97c30a18da6",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · 30 ft.",
-              "Passive Perception · 16",
-              "XP · 450",
-              "Str · 13",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 13"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A blade-wielding elder who can conjure darkness and releases searing light at death."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest", "swamp", "underdark", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +5", "Deception +3", "Perception +6", "Stealth +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fey, typically chaotic neutral"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 30 ft., darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Elvish, Sylvan."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Studded leather armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Death Burn. When the elder dies, its body and belongings burn to ash, except for metal and magic objects. Every creature within 10 ft. must make a DC 11 Constitution save against the flash of magical light. On a failure, it takes 7 (2d6) radiant damage and is blinded until the end of its next turn. A successful save halves the damage and prevents the blindness."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Scimitar attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Darkness (Recharges after a Short or Long Rest). As an action, cast Darkness using Wisdom and without spell components."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 84."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 84 · https://5e.tools/bestiary.html#darkling%20elder_mpmm",
-              "Studded leather armor (item) · https://5e.tools/items.html#studded%20leather%20armor_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Blinded (condition) · https://5e.tools/conditionsdiseases.html#blinded_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#darkling%20elder_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/20487/335/1000/1000/637677953105014863.jpeg",
         "art": [
@@ -134986,7 +134778,17 @@
             "file": "/assets/library/worker-art/darkling-elder-0c96528deb769b3c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "darkling_elder"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-6894070f63f79e27f804cab3",
@@ -158435,100 +158237,6 @@
       {
         "id": "printing-cddadd9733768a2201479d63",
         "label": "Fizban's Treasury of Dragons",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 67",
-              "Hit dice · 9d8 + 27",
-              "Challenge · 6",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 35 ft.",
-              "Passive Perception · 13",
-              "XP · 2300",
-              "Str · 13",
-              "Dex · 14",
-              "Con · 16",
-              "Int · 15",
-              "Wis · 11",
-              "Cha · 17"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A cunning draconian that uses illusion and mobility to direct a fight. Its magic arcs between nearby creatures when it falls."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Int +5", "Wis +3", "Cha +6"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, any alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Draconic."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Death Throes. At 0 HP, lightning strikes the nearest creature within 30 ft., then arcs to up to two other creatures within 15 ft. of the first. Each target makes a DC 14 Dexterity saving throw. On a failure, it takes 9 (2d8) lightning damage and is stunned until the end of its next turn. On a success, it takes half the damage and avoids the stun."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three attacks, choosing Rend or Energy Ray for each.\nRend. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage.\nEnergy Ray. Ranged spell attack, +6 to hit, range 60 ft., one target. A hit deals 8 (1d10 + 3) force damage.\nNoxious Breath (Recharge 5–6). Each creature in a 15-ft. cone makes a DC 14 Constitution saving throw. On a failure, it takes 21 (6d6) poison damage and gains one level of exhaustion. On a success, it takes half damage, avoids exhaustion, and is immune to Noxious Breath from all draconians for 24 hours.\nSpellcasting. Cast Invisibility or Mage Hand at will, or Dimension Door, Disguise Self, or Sending twice per day each. Spellcasting uses Charisma (save DC 14) and requires no material components."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Magic Shield (3/day). When an attack roll hits the draconian, it can raise its AC by 5 against that attack, potentially turning the hit into a miss."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Fizban's Treasury of Dragons, p. 180."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Fizban's Treasury of Dragons, p. 180 · https://5e.tools/bestiary.html#draconian%20mastermind_ftd",
-              "Invisibility (spell) · https://5e.tools/spells.html#invisibility_phb",
-              "Mage hand (spell) · https://5e.tools/spells.html#mage%20hand_phb",
-              "Dimension door (spell) · https://5e.tools/spells.html#dimension%20door_phb",
-              "Disguise self (spell) · https://5e.tools/spells.html#disguise%20self_phb",
-              "Sending (spell) · https://5e.tools/spells.html#sending_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb",
-              "Exhaustion (condition) · https://5e.tools/conditionsdiseases.html#exhaustion_phb",
-              "Invisible (condition) · https://5e.tools/conditionsdiseases.html#invisible_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#draconian%20mastermind_ftd",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/21205/207/1000/1000/637707682427270029.jpeg",
         "art": [
@@ -158536,7 +158244,17 @@
             "file": "/assets/library/worker-art/draconian-mastermind-932ea23e30bc369c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "draconian_mastermind"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "fizban_s_treasury_of_dragons"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -215930,79 +215648,18 @@
       {
         "id": "printing-b56cb7568d993d7e68742b99",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 27",
-              "Hit dice · 5d8 + 5",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Elemental",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "XP · 100",
-              "Str · 10",
-              "Dex · 13",
-              "Con · 12",
-              "Int · 7",
-              "Wis · 11",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Firenewt warriors live near sources of moist heat. Many feed and shelter giant striders, which willingly carry them into battle."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "hill", "mountain", "underdark"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium elemental, typically neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Shield."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Draconic, Ignan."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The warrior breathes air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Scimitar attacks.\nScimitar. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 4 (1d6 + 1) slashing damage.\nSpit Fire (Recharges after a short or long rest). Target one creature within 10 ft. It makes a DC 11 Dexterity save, taking 9 (2d8) fire damage on a failure or half as much on a success."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 125."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 125 · https://5e.tools/bestiary.html#firenewt%20warrior_mpmm",
-              "Shield (item) · https://5e.tools/items.html#shield_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#firenewt%20warrior_mpmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/366/1000/1000/637880557519899846.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/366/1000/1000/637880557519899846.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "firenewt_warrior"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-df817af00bc3c9ae5574a339",
@@ -232992,6 +232649,121 @@
           "monster": {
             "ref": "monster",
             "key": "cave_dragon_wyrmling"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "alabaster-tree",
+    "name": "Alabaster Tree",
+    "summary": "",
+    "group": "Celestial",
+    "printings": [
+      {
+        "id": "open5e-ccdx_alabaster-tree",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "alabaster_tree"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "chaos-spawn-goblin",
+    "name": "Chaos-Spawn Goblin",
+    "summary": "",
+    "group": "Humanoid",
+    "printings": [
+      {
+        "id": "open5e-ccdx_chaos-spawn-goblin",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "chaos_spawn_goblin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "beheaded-vengeful-spirit",
+    "name": "Beheaded Vengeful Spirit",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob-2023_beheaded-vengeful-spirit",
+        "label": "Tome of Beasts 1 (2023 Edition)",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "beheaded_vengeful_spirit"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2023"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "darakhul-captain",
+    "name": "Darakhul Captain",
+    "summary": "",
+    "group": "Undead",
+    "printings": [
+      {
+        "id": "open5e-tob2_darakhul-captain",
+        "label": "Tome of Beasts 2",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "darakhul_captain"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts_2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "bukavac",
+    "name": "Bukavac",
+    "summary": "",
+    "group": "Monstrosity",
+    "printings": [
+      {
+        "id": "open5e-tob_bukavac",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "bukavac"
           },
           "publication": {
             "ref": "publication",

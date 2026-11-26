@@ -29936,90 +29936,6 @@
       {
         "id": "printing-a194bce88cf03a888b3258c1",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 19",
-              "Hit points · 114",
-              "Hit dice · 12d10 + 48",
-              "Challenge · 5",
-              "Size · Large",
-              "Type · Construct",
-              "Speed · 40 ft.",
-              "Passive Perception · 17",
-              "XP · 1800",
-              "Str · 20",
-              "Dex · 11",
-              "Con · 18",
-              "Int · 2",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A gorgon resembles a metal-plated bull. Its charge can knock foes down, and its breath can turn them to stone."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +7"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large construct, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+0 (10)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Exhaustion, Petrified."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Gore. Melee attack, +8 to hit, reach 5 ft. A hit deals 18 (2d12 + 5) piercing damage. A Large or smaller creature hit by the attack falls Prone if the gorgon moved at least 20 ft. straight toward it immediately before the hit.\nPetrifying Breath (recharge 5–6). Each creature in a 30-ft. cone makes a DC 15 Constitution save. An initial failure makes the creature Restrained. If it is still Restrained at the end of its next turn, it repeats the save. Success ends the effect. On a second failure, Petrified replaces Restrained."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Trample. Choose one Prone creature within 5 ft. It makes a DC 16 Dexterity save and takes 16 (2d10 + 5) bludgeoning damage on a failure or half as much on a success."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Forests, grasslands, and hills."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Any."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 148."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 148 · https://5e.tools/bestiary.html#gorgon_xmm",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_xphb",
-              "Cone [Area of Effect] (rule) · https://5e.tools/variantrules.html#cone%20%5Barea%20of%20effect%5D_xphb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_xphb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#gorgon_xmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47138/930/1000/1000/638741964208700183.png",
         "art": [
@@ -30027,7 +29943,17 @@
             "file": "/assets/library/monsters/gorgon.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "gorgon"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-f350976ca0038a1a06390db5",
@@ -189817,84 +189743,18 @@
       {
         "id": "printing-570ee8f275bb1e87caef0e03",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 45",
-              "Hit dice · 6d8 + 18",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Aberration",
-              "Speed · 30 ft.",
-              "Passive Perception · 14",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 16",
-              "Con · 16",
-              "Int · 13",
-              "Wis · 10",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A one-eyed stalker that digs into minds and withers flesh with its gaze."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Arcana +3", "Insight +4", "Perception +4", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium aberration, neutral evil"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["+3 (13)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Truesight 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Undercommon."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The nothic makes two Claw attacks.\nClaw. Melee attack, +5 to hit, reach 5 ft. On a hit, deal 8 (1d10 + 3) Slashing damage.\nRotting Gaze. Choose one creature the nothic can see within 120 ft. The target makes a DC 13 Constitution save, taking 17 (5d6) Necrotic damage on a failure or half on a success."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Weird Insight (recharge 6). Choose one creature the nothic can see within 120 ft. On a failed DC 14 Wisdom save, the nothic magically learns one fact or secret about the target."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Treasure",
-            "lines": ["Arcana."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 228."]
-          },
-          {
-            "title": "References",
-            "lines": ["Monster Manual (2025), p. 228 · https://5e.tools/bestiary.html#nothic_xmm"]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#nothic_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/125/1000/1000/638741964477127265.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/125/1000/1000/638741964477127265.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "nothic"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       }
     ],
     "groups": ["Aberration"],
@@ -194388,162 +194248,44 @@
       {
         "id": "printing-68fe009fb06e1b84fc005020",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · 40 ft.",
-              "Passive Perception · 8",
-              "XP · 700",
-              "Str · 19",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 7",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This ogre wields a spiked chain with both hands, swinging it low to knock enemies down or bringing it down overhead."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large giant, typically chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Hide armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Fist. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.\nChain Smash (Recharge 6). Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage. The target must pass a DC 14 Constitution save or be stunned for 1 minute. It can repeat the save whenever it takes damage and at the end of each of its turns, ending the effect on a success.\nChain Sweep. Every creature within 10 ft. of the ogre makes a DC 14 Dexterity save. A creature that fails takes 8 (1d8 + 4) bludgeoning damage and falls prone. A creature that succeeds takes half damage and stays upright."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 201."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 201 · https://5e.tools/bestiary.html#ogre%20chain%20brute_mpmm",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#ogre%20chain%20brute_mpmm",
         "art": [
           {
             "file": "/assets/library/worker-art/ogre-chain-brute-a7ccb50480c14029.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ogre_chain_brute"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-9d12df87ac9f8313615c874d",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 59",
-              "Hit dice · 7d10 + 21",
-              "Challenge · 3",
-              "Size · Large",
-              "Type · Giant",
-              "Speed · 40 ft.",
-              "Passive Perception · 8",
-              "XP · 700",
-              "Str · 19",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 5",
-              "Wis · 7",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "The ogre wields a spiked chain in both hands to sweep enemies off their feet or knock one foe unconscious."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["grassland", "hill", "mountain"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large giant, chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Hide armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Fist. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 9 (2d4 + 4) bludgeoning damage.\nChain Sweep. Every creature within 10 ft. makes a DC 14 Dexterity save. On a failure, it takes 8 (1d8 + 4) bludgeoning damage and falls prone. On a success, it takes half as much damage without falling prone.\nChain Smash (Recharge 6). Melee weapon attack, +6 to hit, reach 10 ft., one target. A hit deals 13 (2d8 + 4) bludgeoning damage. The target makes a DC 14 Constitution save or falls unconscious for 1 minute. It repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on a success."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, p. 221."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 221 · https://5e.tools/bestiary.html#ogre%20chain%20brute_mtf",
-              "Hide armor (item) · https://5e.tools/items.html#hide%20armor_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Unconscious (condition) · https://5e.tools/conditionsdiseases.html#unconscious_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#ogre%20chain%20brute_mtf",
         "art": [
           {
             "file": "/assets/library/worker-art/ogre-chain-brute-a7ccb50480c14029.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "ogre_chain_brute"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Giant"]
@@ -225069,97 +224811,18 @@
       {
         "id": "printing-37aa55c0cf60f1a309f2a30e",
         "label": "Monster Manual (2024)",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 9",
-              "Hit points · 37",
-              "Hit dice · 5d8 + 15",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Ooze",
-              "Speed · 10 ft., climb 10 ft.",
-              "Passive Perception · 8",
-              "XP · 200",
-              "Str · 12",
-              "Dex · 8",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 6",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This gray ooze can assault a creature's thoughts and retaliate when that creature's magic overcomes it."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium ooze, unaligned"]
-          },
-          {
-            "title": "Initiative",
-            "lines": ["-1 (9)."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Blindsight 60 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Acid, Cold, Fire, Psychic."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": [
-              "Blinded, Charmed, Deafened, Exhaustion, Frightened, Grappled, Prone, Restrained."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amorphous. It can fit through gaps as narrow as 1 inch without spending extra movement."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Pseudopod. Melee attack, +3 to hit, reach 5 ft. On a hit, deal 11 (3d6 + 1) Acid damage. The target has Disadvantage on Intelligence saves until the end of the ooze's next turn.\nPsychic Crush. Choose one visible creature within 60 ft. It makes a DC 10 Intelligence save, taking 13 (3d8) Psychic damage on a failure."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Mind Corrosion. When the ooze fails a save against a creature's spell or other magical effect, that creature takes 3 (1d6) Psychic damage."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Underdark."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Monster Manual (2024), p. 151."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Monster Manual (2025), p. 151 · https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm",
-              "Disadvantage (rule) · https://5e.tools/variantrules.html#disadvantage_xphb"
-            ]
-          }
-        ],
-        "edition": "2024 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#psychic%20gray%20ooze_xmm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/178/1000/1000/638741964549888267.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/47139/178/1000/1000/638741964549888267.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "psychic_gray_ooze"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "monster_manual_2024"
+          }
+        }
       },
       {
         "id": "printing-de423542d3ec6b588bf3f788",
@@ -227200,6 +226863,20 @@
           "publication": {
             "ref": "publication",
             "key": "tome_of_beasts_2023"
+          }
+        }
+      },
+      {
+        "id": "open5e-tob_library-automaton",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "library_automaton"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
           }
         }
       }
@@ -231593,6 +231270,75 @@
           "publication": {
             "ref": "publication",
             "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "korrigan",
+    "name": "Korrigan",
+    "summary": "",
+    "group": "Fey",
+    "printings": [
+      {
+        "id": "open5e-ccdx_korrigan",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "korrigan"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "mandrake",
+    "name": "Mandrake",
+    "summary": "",
+    "group": "Plant",
+    "printings": [
+      {
+        "id": "open5e-ccdx_mandrake",
+        "label": "Creature Codex",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "mandrake"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "creature_codex"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "monsters",
+    "slug": "hraesvelgr-the-corpse-swallower",
+    "name": "Hraesvelgr The Corpse Swallower",
+    "summary": "",
+    "group": "Giant",
+    "printings": [
+      {
+        "id": "open5e-tob_hraesvelgr-the-corpse-swallower",
+        "label": "Tome of Beasts",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "hraesvelgr_the_corpse_swallower"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tome_of_beasts"
           }
         }
       }
