@@ -314,15 +314,23 @@ export default createScene({
         {
           note: [
             [
-              'They have been shut in here for centuries. They never get news except from travellers, and travellers are very few, so every story is a treasure to them. They listen to every word, and they pay in valuables.',
+              'They have been shut in here for centuries. They never get news except from travellers, and travellers are very few, so every story is a treasure to them. They listen to every word.',
             ],
             [
               'Ask for background stories most of all: childhood, troubles, where the character is in life, and what they want from the rest of it. Let each player have the stage to themselves, and give the quiet ones time.',
             ],
             [
-              'When a player tells a real, character-defining story, that character gains a level. A short anecdote earns valuables, not the level.',
+              'When a player tells a real, character-defining story, that character gains a level. A short anecdote earns pearls, not the level.',
             ],
             ['What the party tells them is all the people will ever have of the outside.'],
+            ['Keep time, and rate each story as it is told.'],
+          ],
+        },
+        {
+          do: [
+            [
+              'Each party member gets a sack of pearls, as thanks for their wonderful story. The better the story, the more pearls.',
+            ],
           ],
         },
       ],
