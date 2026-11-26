@@ -55,6 +55,18 @@ export default createSpells({
         'This spell causes the speech of affected creatures to sound like nonsense. Each creature in a 30-foot-radius sphere centered on a point you choose within range must succeed on an Intelligence saving throw when you cast this spell or be affected by it. An affected creature cannot communicate in any spoken language that it knows. When it speaks, the words come out as gibberish. Spells with verbal components cannot be cast. The spell does not affect telepathic communication, nonverbal communication, or sounds emitted by any creature that does not have a spoken language. As an action, a creature under the effect of this spell can attempt another Intelligence saving throw against the effect. On a successful save, the spell ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'babbling',
+        name: 'Babbling',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'An affected creature cannot communicate in any spoken language that it knows. When it speaks, the words come out as gibberish. Spells with verbal components cannot be cast.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   battle_mind: {
@@ -149,6 +161,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'blunted-edge',
+        name: 'Blunted Edge',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          "The target must succeed on a Wisdom saving throw or have disadvantage on weapon attack rolls. In addition, when an affected creature rolls damage dice for a successful attack, it must roll the weapon's damage dice twice and use the lower total.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   bolster_fortifications: {
@@ -187,6 +211,18 @@ export default createSpells({
         "At Higher Levels. If you cast this spell using a spell slot of 4th level or higher, the duration is 1 minute, and the spell doesn't require concentration.",
       ],
     ],
+    effects: [
+      {
+        key: 'bound-haze',
+        name: 'Bound Haze',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          'The target must succeed on a Dexterity saving throw or have disadvantage on attack rolls and on Wisdom (Perception) checks.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   burst_stone: {
@@ -209,6 +245,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked Prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -245,6 +290,21 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Butterfly Charm',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.charmed],
+        text: [
+          'While ',
+          rules.charmed,
+          ", the target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn', 'damaged'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   calm_beasts: {
@@ -262,6 +322,28 @@ export default createSpells({
         rules.frightened,
         '. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime. Suppress Hostility. You can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.',
       ],
+    ],
+    effects: [
+      {
+        key: 'suppress-hold',
+        name: 'Suppress Hold',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'You can suppress any effect causing the target to be charmed or ',
+          rules.frightened,
+          '. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'suppress-hostility',
+        name: 'Suppress Hostility',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'You can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its allies being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -321,6 +403,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the damage increases by 1d10 for each slot level above 7th.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened by Spirits',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   convey_inner_peace: {
@@ -352,6 +444,17 @@ export default createSpells({
       [
         "You create a psychic binding on the mind of a creature within range. Until this spell ends, the creature must make a Charisma saving throw each time it casts a spell. On a failed save, it takes 2d6 psychic damage, and it fails to cast the spell. It doesn't expend a spell slot if it fails to cast the spell.",
       ],
+    ],
+    effects: [
+      {
+        key: 'psychic-binding',
+        name: 'Psychic Binding',
+        lands: { on: 'use' },
+        text: [
+          "Until this spell ends, the creature must make a Charisma saving throw each time it casts a spell. On a failed save, it takes 2d6 psychic damage, and it fails to cast the spell. It doesn't expend a spell slot if it fails to cast the spell.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -410,6 +513,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned by Retribution',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   dreamwine: {
@@ -425,6 +538,17 @@ export default createSpells({
       [
         'You imbue a bottle of wine with fey magic. While casting this spell, you and up to seven other creatures can drink the imbued wine. At the completion of the casting, each creature that drank the wine can see invisible creatures and objects as if they were visible, can see into the Ethereal plane, and has advantage on Charisma checks and saving throws for the duration. Ethereal creatures and objects appear ghostly and translucent.',
       ],
+    ],
+    effects: [
+      {
+        key: 'dreamwine',
+        name: 'Dreamwine',
+        lands: { on: 'use' },
+        text: [
+          'At the completion of the casting, each creature that drank the wine can see invisible creatures and objects as if they were visible, can see into the Ethereal plane, and has advantage on Charisma checks and saving throws for the duration.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -444,6 +568,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them.',
       ],
+    ],
+    effects: [
+      {
+        key: 'compelled',
+        name: 'Emerald Rage',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'While affected by this spell, the target must use its action to attack the nearest creature other than itself or you. If the target starts its turn with no other creature near enough to move to and attack, the target can make another Wisdom saving throw.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -484,6 +620,15 @@ export default createSpells({
         '. Each round you maintain concentration on this spell, the cinder cone produces additional effects on your turn. Round 2. Smoke pours from the cinder cone. Each creature within 10 feet of the cinder cone when the smoke appears takes 4d6 poison damage. Afterwards, each creature that enters the smoky area for the first time on a turn or starts its turn there takes 2d6 poison damage. The smoke spreads around corners, and its area is heavily obscured. A wind of moderate or greater speed (at least 10 miles per hour) disperses the smoke until the start of your next turn, when the smoke reforms. Round 3. Lava bubbles out from the cinder cone, spreading out to cover the ground within 20 feet of the cinder cone. Each creature and object in the area when the lava appears takes 10d10 fire damage and is on fire. Afterwards, each creature that enters the lava for the first time on a turn or starts its turn there takes 5d10 fire damage. In addition, the smoke spreads to fill a 20-foot-radius sphere centered on the cinder cone. Round 4. The lava continues spreading and covers the ground within 30 feet of the cinder cone in lava that is 1-foot-deep. The lava-covered ground becomes difficult terrain. In addition, the smoke fills a 30-footradius sphere centered on the cinder cone. Round 5. The lava expands to cover the ground within 40 feet of the cinder cone, and the smoke fills a 40-foot radius sphere centered on the cinder cone. In addition, the cinder cone begins spewing hot rocks. Choose up to three creatures within 90 feet of the cinder cone. Each target must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and 3d6 fire damage. Rounds 6-10. The lava and smoke continue to expand in size by 10 feet each round. In addition, each round you can direct the cinder cone to spew hot rocks at three targets, as described in Round 5. When the spell ends, the volcano ceases erupting, but the smoke and lava remain for 1 minute before cooling and dispersing. The landscape is permanently altered by the spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked Prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   feint: {
@@ -522,6 +667,42 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can enchant an additional pound of food or gallon of drink for each slot level over 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'slumber',
+        name: 'Slumber',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.unconscious],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: {
+          cure: [
+            'This effect ends for a creature if the creature takes damage or someone uses an action to wake it.',
+          ],
+        },
+      },
+      {
+        key: 'friendly-face',
+        name: 'Friendly Face',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.charmed],
+        text: [
+          'If you or your allies do anything harmful to it, the creature can make another Charisma saving throw. On a success, the spell ends on the creature.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'muddled-memory',
+        name: 'Muddled Memory',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: ['The creature remembers only fragments of the events of the past hour.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+        ends: {
+          cure: [
+            "A remove curse or greater restoration spell cast on the creature restores the creature's memory.",
+          ],
+        },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -579,6 +760,15 @@ export default createSpells({
         ' until the end of its next turn. On a success, it takes half as much damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned by Wail',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   fuse_armor: {
@@ -597,6 +787,32 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional object for each slot level above 2nd. The objects must be within 30 feet of each other when you target them.',
       ],
+    ],
+    effects: [
+      {
+        key: 'fused-armor',
+        name: 'Fused Armor',
+        lands: { on: 'use' },
+        text: [
+          'A creature wearing armor affected by this spell has its speed reduced by 10 feet and has disadvantage on weapon attacks and ability checks that use Strength or Dexterity.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          cure: [
+            'At the end of each of its turns, the creature wearing the armor can make a Strength saving throw. On a success, the spell ends on the armor.',
+          ],
+        },
+      },
+      {
+        key: 'fused-construct',
+        name: 'Fused Construct',
+        lands: { on: 'failed-save', save: 'str' },
+        text: [
+          'If you target a construct with this spell, it must succeed on a Strength saving throw or have its speed reduced by 10 feet and have disadvantage on weapon attacks.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -629,6 +845,17 @@ export default createSpells({
       [
         "You cast a disdainful glare at up to two creatures you can see within range. Each target must succeed on a Wisdom saving throw or take no actions on its next turn as it reassesses its life choices. If a creature fails the saving throw by 5 or more, it can't take actions on its next two turns.",
       ],
+    ],
+    effects: [
+      {
+        key: 'reassessing',
+        name: 'Reassessing Life Choices',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          "Each target must succeed on a Wisdom saving throw or take no actions on its next turn as it reassesses its life choices. If a creature fails the saving throw by 5 or more, it can't take actions on its next two turns.",
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -666,6 +893,16 @@ export default createSpells({
         rules.restrained,
         ' there until the spell ends. A restrained creature must make a Constitution saving throw at the start of each of its turns. The creature takes 7d6 fire damage on a failed save, or half as much damage on a successful one. At the end of each of its turns, a restrained creature can make another Dexterity saving throw. On a success, the spell ends on the creature, and the creature falls to the ground, taking falling damage as normal. Alternatively, the restrained creature or someone else who can reach it can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect ends, and the creature falls to the ground, taking falling damage as normal.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained in the air',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'], escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -738,6 +975,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'poison-resistance',
+        name: 'Poison resistance',
+        lands: { on: 'use' },
+        text: ['resistance to poison damage and advantage on saving throws against poison'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   jagged_forcelance: {
@@ -795,6 +1041,15 @@ export default createSpells({
         ' by the lance until the end of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by the lance',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   less_fool_i: {
@@ -815,6 +1070,17 @@ export default createSpells({
       [
         "At Higher Levels. If you cast this spell using a spell slot of 3rd level or higher, the duration is concentration, up to 1 hour. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the duration is 1 year. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.",
       ],
+    ],
+    effects: [
+      {
+        key: 'less-fooled',
+        name: 'Less fooled',
+        lands: { on: 'use' },
+        text: [
+          'other creatures have disadvantage on Charisma checks to influence the protected creature, and the creature has advantage on spells that cause it to become charmed or frightened',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -904,6 +1170,19 @@ export default createSpells({
         ' condition, it has advantage on the roll. Once a creature has received this benefit, the spell ends for that creature.',
       ],
     ],
+    effects: [
+      {
+        key: 'brave',
+        name: 'Mantle of the brave',
+        lands: { on: 'use' },
+        text: [
+          'The next time a creature affected by this spell must make a saving throw against a spell or effect that would cause the ',
+          rules.frightened,
+          ' condition, it has advantage on the roll.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   martyrs_rally: {
@@ -922,6 +1201,15 @@ export default createSpells({
         ', you rouse your allies to action. Each ally within 60 feet of you that can see and hear you has advantage on attack rolls for the duration. If you regain hit points, the spell immediately ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'martyrs-rally',
+        name: "Martyr's rally",
+        lands: { on: 'use' },
+        text: ['has advantage on attack rolls for the duration'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   mass_faerie_fire: {
@@ -939,6 +1227,20 @@ export default createSpells({
         rules.invisible,
         '.',
       ],
+    ],
+    effects: [
+      {
+        key: 'outlined',
+        name: 'Outlined',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          'Any attack roll against an affected object or creature has advantage if the attacker can see it',
+          ", and the affected creature or object can't benefit from being ",
+          rules.invisible,
+          '.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -972,6 +1274,15 @@ export default createSpells({
       [
         'The ground in a 20-foot radius centered on a point within range becomes thick, viscous mud. The area becomes difficult terrain for the duration. When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must make a Strength saving throw. On a failed save, its movement speed is reduced to 0 until the start of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'mud-stuck',
+        name: 'Stuck in mud',
+        lands: { on: 'failed-save', save: 'str' },
+        text: ['its movement speed is reduced to 0'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -1029,6 +1340,18 @@ export default createSpells({
       [
         "You place a magical oath upon a creature you can see within range, compelling it to complete a specific task or service that involves using a weapon as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become bound by the task. When acting to complete the directed task, the target has advantage on the first attack roll it makes on each of its turns using a weapon. If the target attempts to use a weapon for a purpose other than completing the specific task or service, it has disadvantage on attack rolls with a weapon and must roll the weapon's damage dice twice, using the lower total. Completing the task ends the spell early. Should you issue a suicidal task, the spell ends. You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it.",
       ],
+    ],
+    effects: [
+      {
+        key: 'oathbound',
+        name: 'Oathbound',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          "the target has advantage on the first attack roll it makes on each of its turns using a weapon. If the target attempts to use a weapon for a purpose other than completing the specific task or service, it has disadvantage on attack rolls with a weapon and must roll the weapon's damage dice twice, using the lower total",
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'day' },
+        ends: { cure: ['A remove curse, greater restoration, or wish spell'] },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -1103,6 +1426,18 @@ export default createSpells({
         " for 10 minutes. A creature charmed by this spell must take the Dash action and move toward the affected object by the safest available route on each of its turns. Once a charmed creature moves within 5 feet of the object, it is also incapacitated as it stares at the object and sways in place to a mesmerizing tune only it can hear. If the object is moved, the charmed creature attempts to follow it. For every 10 minutes that elapse, the creature can make a new Wisdom saving throw. On a success, the spell ends on that creature. If a charmed creature is attacked, the spell ends immediately on that creature. Once a creature has been charmed by this spell, it can't be charmed by it again for 24 hours.",
       ],
     ],
+    effects: [
+      {
+        key: 'lured',
+        name: 'Lured by the pipes',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        text: [
+          'must take the Dash action and move toward the affected object by the safest available route on each of its turns',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   portal_jaunt: {
@@ -1164,6 +1499,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the distance you can fling the target increases by 5 feet, and the damage from impacting a surface or creature increases by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   power_word_rend: {
@@ -1201,6 +1545,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the healing increases by 1d8 for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'marked',
+        name: 'Marked by necrotic energy',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['the creature is marked with necrotic energy'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -1361,6 +1714,17 @@ export default createSpells({
         "At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, this spell no longer causes creatures to have advantage against the spell's targets.",
       ],
     ],
+    effects: [
+      {
+        key: 'battle-fury',
+        name: 'Battle fury',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'has resistance to bludgeoning, piercing, and slashing damage and has advantage on attack rolls for the duration. However, attack rolls made against an affected creature have advantage',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   shocking_volley: {
@@ -1381,6 +1745,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Incapacitated',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -1435,6 +1808,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d8 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'liquid-metal',
+        name: 'Coated in liquid metal',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'A creature coated in liquid metal takes 1d8 fire damage at the start of each of its turns as the metal scorches while it cools.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },
@@ -1625,6 +2010,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'toothless',
+        name: 'Hindered natural attacks',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          "any time the creature attacks with a bite, claw, slam, or other weapon that isn't manufactured, it must roll the weapon's damage dice twice and use the lower total.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   trollish_charge: {
@@ -1680,6 +2077,16 @@ export default createSpells({
         ' for the duration. At the end of each of its turns, a frightened creature can make another Wisdom saving throw. On a success, the spell ends on that creature. Each friendly target gains a number of temporary hit points equal to 2d4 + your spellcasting ability modifier and has advantage on the next attack roll it makes before the spell ends. The temporary hit points last for 1 hour.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened by war horn',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.tome_of_heroes,
   },
   wild_hunt: {
@@ -1697,6 +2104,20 @@ export default createSpells({
         rules.frightened,
         ", it deals one extra die of damage on the first weapon or spell attack it makes on each of its turns, it has advantage on Strength or Dexterity saving throws (the creature's choice), and its Armor Class increases by 1. When this spell ends, a creature affected by it suffers one level of exhaustion.",
       ],
+    ],
+    effects: [
+      {
+        key: 'fervor',
+        name: 'Wild hunt fervor',
+        lands: { on: 'use' },
+        text: [
+          'The creature is immune to being charmed and ',
+          rules.frightened,
+          ", it deals one extra die of damage on the first weapon or spell attack it makes on each of its turns, it has advantage on Strength or Dexterity saving throws (the creature's choice), and its Armor Class increases by 1.",
+          ' When this spell ends, a creature affected by it suffers one level of exhaustion.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.tome_of_heroes,
   },

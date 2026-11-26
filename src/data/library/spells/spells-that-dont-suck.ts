@@ -113,6 +113,19 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the new form’s maximum challenge rating increases by 1 for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'beast-form',
+        name: 'Beast form',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'The target’s game statistics are replaced by the statistics of the chosen beast. ',
+          'The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, cast spells, or take any other action that requires hands or speech.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   arcane_shelter: {
@@ -263,6 +276,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the aura’s radius increases by 5 feet for each slot level above 2nd. Additionally, the number of compelled questions you can ask increases by 1 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'truthful',
+        name: 'Compelled honesty',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: ['it cannot intentionally lie while in the aura'],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   beast_perception: {
@@ -328,6 +350,15 @@ export default createSpells({
         'At Higher Levels. If you cast this spell using a spell slot of 2nd level, the duration of the spell increases to 24 hours. If you use a spell slot of 3rd level or higher, you can either increase the duration by another 24 hours for each slot level above 2nd or affect one additional beast for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   benediction_spells_that_dont_suck: {
@@ -385,6 +416,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'bewildered',
+        name: 'Bewildered',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'An affected target can’t take reactions. At the start of each of its turns, it must spend half of its movement to move in a random horizontal direction',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn', 'damaged'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -451,6 +494,20 @@ export default createSpells({
         'The imbued weapon and any creature afflicted with holy fire emits bright light in a 30-foot radius and dim light for an additional 30 feet.',
       ],
     ],
+    effects: [
+      {
+        key: 'holy-fire',
+        name: 'Holy fire',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          "Any attack roll against an affected creature has advantage if the attacker can see it, and the affected creature can't benefit from being ",
+          rules.invisible,
+          '.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   brilliance: {
@@ -500,6 +557,15 @@ export default createSpells({
         '• Smoke. You create a 15-foot radius cloud of thick, oily smoke. It spreads around corners, and its area is heavily obscured. If you target an existing flame, the radius is 30 feet. The cloud lasts for 1 minute or until dispersed by a strong breeze.',
       ],
     ],
+    effects: [
+      {
+        key: 'light',
+        name: 'Light',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   call_for_aid: {
@@ -543,6 +609,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 minute and the radius increases by 10 feet for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -637,6 +712,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell with a spell slot of 4th level or higher, there is no challenge rating limit to the target creature.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -848,6 +933,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'acid-residue',
+        name: 'Acid residue',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          'A creature that fails the save takes an additional 4d4 acid damage at the end of each of its turns unless it or another creature within 5 feet spends an action to clear the acid off.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   curse_of_weakness: {
@@ -870,6 +966,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the radius of the sphere increases by 5 feet for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'weakness-curse',
+        name: 'Cursed with weakness',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'While cursed, it has disadvantage on Strength checks and Strength saving throws, it deals half damage with weapon attacks that use Strength, and its speed is reduced by 10 feet.',
+        ],
+        lasts: { kind: 'until', text: ['the end of its turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   dazzle: {
@@ -890,6 +997,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the cone’s size increases by 5 feet for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded-slowed',
+        name: 'Blinded, speed halved',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.blinded],
+        text: ['its speed is halved'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1017,6 +1134,17 @@ export default createSpells({
         'A creature incapacitated by this spell makes another Charisma saving throw at the end of each of its turns. On a successful save, the spell ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'phased-out',
+        name: 'Phased out',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.incapacitated],
+        text: ['gaining resistance to all damage'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   divine_temple: {
@@ -1083,6 +1211,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'speed-halved',
+        name: 'Speed halved',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['has its speed halved'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1152,6 +1289,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the number of targets increases by 1 for each slot level above 2nd, and the maximum damage from falling increases by 1d6 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'grounded',
+        name: 'Grounded',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        text: [
+          'If the creature has a flying speed, it loses its flying speed for the spell’s duration, causing it to fall even if it can hover.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   earth_rumble: {
@@ -1174,6 +1323,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st, and the radius increases by 5 feet for every two slot levels above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1236,6 +1394,29 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the additional damage increases by 1d8 for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'cold',
+        name: 'Chilled',
+        lands: { on: 'hit' },
+        text: ["The target's speed is reduced by 10 feet"],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+      {
+        key: 'lightning',
+        name: 'No reactions',
+        lands: { on: 'hit' },
+        text: ["The target can't take reactions"],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+      {
+        key: 'thunder',
+        name: 'Deafened',
+        lands: { on: 'hit' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1329,6 +1510,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the number of times each round the additional damage can occur increases by 1 for every two slot levels above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'vulnerable',
+        name: 'Vulnerable to damage type',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'lose any resistance to that damage type for the duration. The first two times each round that the target takes damage of the chosen type, it takes 2d6 additional damage of that type.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   expulsion: {
@@ -1353,6 +1545,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'expelled',
+        name: 'Expelled',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.incapacitated],
+        text: ['gains resistance to all damage'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1386,6 +1589,15 @@ export default createSpells({
         ' while under the spell’s effect, the disease and poison have no effect until the spell ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'temporary-hit-points',
+        name: 'Temporary hit points',
+        lands: { on: 'use' },
+        text: ['The target gains 10 temporary hit points for the duration.'],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   false_foes: {
@@ -1403,6 +1615,18 @@ export default createSpells({
         rules.frightened,
         ' condition. On a failure, it treats every other creature as its enemy and fights them with its typical tactics, and must use its reaction to make an opportunity attack against any creature that provokes one. Each time the target takes damage, it repeats the saving throw against the spell. If the saving throw succeeds, the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'enemy-of-all',
+        name: 'Treats all as enemies',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'it treats every other creature as its enemy and fights them with its typical tactics, and must use its reaction to make an opportunity attack against any creature that provokes one',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1441,6 +1665,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1796,6 +2030,22 @@ export default createSpells({
         "This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
       ],
     ],
+    effects: [
+      {
+        key: 'no-healing',
+        name: 'Cannot regain hit points',
+        lands: { on: 'hit' },
+        text: ['it can’t regain hit points until the start of your next turn'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'undead-disadvantage',
+        name: 'Undead: disadvantage on attacks',
+        lands: { on: 'hit' },
+        text: ['it has disadvantage on attack rolls against you'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   glacial_orbs: {
@@ -1817,6 +2067,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, you create an additional ball for each level above 6th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'slowed',
+        name: 'Speed halved',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: ['its speed is halved'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -1862,6 +2121,48 @@ export default createSpells({
       [
         '• Stupor (Emerald). Each target must make a Charisma saving throw, or enter a dazed state, its mind disconnected from its body. A creature takes no actions, and its speed is reduced by half. It recovers after 1 hour or when it takes any damage.',
       ],
+    ],
+    effects: [
+      {
+        key: 'weakness',
+        name: 'Crippling weakness',
+        lands: { on: 'failed-save', save: 'str' },
+        text: [
+          'Its speed drops to 15 feet, and all its weapon attacks deal damage as if it rolled the minimum result.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'bound',
+        name: 'Bound by force',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'baffled',
+        name: 'Baffled',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'It cannot cast spells and has disadvantage on all ability checks and attack rolls.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'rage',
+        name: 'Rage',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['it becomes hostile to all other creatures and attacks the nearest target'],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'stupor',
+        name: 'Stupor',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: ['A creature takes no actions, and its speed is reduced by half.'],
+        lasts: { kind: 'until', text: ['It recovers after 1 hour or when it takes any damage.'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2014,6 +2315,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, you can create two additional spikes for each slot level above 6th.',
       ],
     ],
+    effects: [
+      {
+        key: 'impaled',
+        name: 'Impaled',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until', text: ['all spikes impaling it are destroyed'] },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   incinerate: {
@@ -2072,6 +2383,95 @@ export default createSpells({
         '• Flesh Rot. The creature’s flesh decays. It has disadvantage on Charisma checks and Charisma saving throws and takes 5 additional points of damage when it suffers bludgeoning, piercing, or slashing damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'muscle-weakness',
+        name: 'Muscle Weakness',
+        lands: { on: 'hit' },
+        text: [
+          'The creature’s arms become unbearably weak. It has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength. Its attacks using Strength deal half damage.',
+        ],
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: {
+          cure: [
+            'The disease is magical and can only be cured by the heal spell or equivalent magic.',
+          ],
+        },
+      },
+      {
+        key: 'trembling-spasms',
+        name: 'Trembling Spasms',
+        lands: { on: 'hit' },
+        text: [
+          'The creature is overcome with terrible tremors. It has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity. Its attacks using Dexterity do half damage.',
+        ],
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: {
+          cure: [
+            'The disease is magical and can only be cured by the heal spell or equivalent magic.',
+          ],
+        },
+      },
+      {
+        key: 'skinslough',
+        name: 'Skinslough',
+        lands: { on: 'hit' },
+        text: [
+          'The creature’s skin becomes paper-thin and causes agonizing pain when it tears. It has disadvantage on Constitution checks and Constitution saving throws, except those caused by this spell. In addition, when the creature takes damage, its speed is reduced to 10 feet until the end of its next turn.',
+        ],
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: {
+          cure: [
+            'The disease is magical and can only be cured by the heal spell or equivalent magic.',
+          ],
+        },
+      },
+      {
+        key: 'mindrot',
+        name: 'Mindrot',
+        lands: { on: 'hit' },
+        text: [
+          'The creature becomes disoriented and confused. The creature has disadvantage on Intelligence checks and Intelligence saving throws and cannot tell friend from foe in combat.',
+        ],
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: {
+          cure: [
+            'The disease is magical and can only be cured by the heal spell or equivalent magic.',
+          ],
+        },
+      },
+      {
+        key: 'fire-eyes-fever',
+        name: 'Fire-eyes Fever',
+        lands: { on: 'hit' },
+        conditions: [rules.blinded],
+        text: [
+          'The creature’s eyes turn milky white and are searingly painful. It has disadvantage on Wisdom checks and Wisdom saving throws and is ',
+          rules.blinded,
+          '.',
+        ],
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: {
+          cure: [
+            'The disease is magical and can only be cured by the heal spell or equivalent magic.',
+          ],
+        },
+      },
+      {
+        key: 'flesh-rot',
+        name: 'Flesh Rot',
+        lands: { on: 'hit' },
+        text: [
+          'The creature’s flesh decays. It has disadvantage on Charisma checks and Charisma saving throws and takes 5 additional points of damage when it suffers bludgeoning, piercing, or slashing damage.',
+        ],
+        lasts: { kind: 'time', amount: '7', unit: 'day' },
+        ends: {
+          cure: [
+            'The disease is magical and can only be cured by the heal spell or equivalent magic.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   injunction: {
@@ -2096,6 +2496,19 @@ export default createSpells({
       [
         'At Higher Levels. The spell reduces maximum hit points by an additional 1d10 for each slot level above 5th. When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        text: [
+          "Once per turn while charmed in this way, the target's current and maximum hit points are reduced by 5d10 if its behavior contradicts your instructions. This reduction lasts until the spell ends.",
+        ],
+        lasts: { kind: 'time', amount: '30', unit: 'day' },
+        ends: { cure: ["Remove curse cast at the spell's level also ends the spell."] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2127,6 +2540,20 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the hit point maximum reduction increases by 1d4 for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'irradiated',
+        name: 'Irradiated',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'the creature’s hit point maximum is reduced by 7d4, its speed is reduced by 5 feet, and it receives a -2 penalty to attack rolls, ability checks, saving throws, and save DCs.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['All effects caused by this spell (except death) end when the spell ends.'],
+        },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2207,6 +2634,15 @@ export default createSpells({
       [
         'Both damage rolls increase by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).',
       ],
+    ],
+    effects: [
+      {
+        key: 'speed-halved',
+        name: 'Leash yanked',
+        lands: { on: 'failed-save', save: 'str' },
+        text: ['have its speed halved'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2305,6 +2741,16 @@ export default createSpells({
       [
         'You construct a magical 5-foot radius, 10-foot high cylinder snare trap at a point on the ground within range. The trap is barely visible but can be detected with a successful Intelligence check against your spell save DC. If a creature detects the trap, it is immune to the spell. When a creature moves into the cylinder, it must succeed on a Dexterity saving throw or become restrained and be magically lifted 10 feet up into the air, where it hangs upside down. Huge or larger creatures automatically succeed. As an action, a creature can attempt to free itself by making a Strength (Athletics) or Dexterity (Acrobatics) check against your spell save DC, ending the spell on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'netted',
+        name: 'Netted',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2413,6 +2859,15 @@ export default createSpells({
         '• You manipulate the wind in a minor way, such as pushing a light object up to 10 feet, rustling plants, slamming a door, or similar effects. These aren’t powerful enough to move creatures or deal damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   martial_transformation: {
@@ -2466,6 +2921,17 @@ export default createSpells({
         '. It may reattempt the saving throw at the end of each of its turns, ending the effect on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'frozen',
+        name: 'Frozen',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.restrained],
+        text: ['It takes 1d8 cold damage at the start of each of its turns.'],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   mind_link: {
@@ -2493,6 +2959,17 @@ export default createSpells({
       [
         'If you cast a spell in this manner, the target may repeat its saving throw against this spell at the end of each of its turns.',
       ],
+    ],
+    effects: [
+      {
+        key: 'mind-link',
+        name: 'Mind link',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'On a failure, you and the target can communicate via the link, and the target recognizes you as a creature it is communicating with.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2582,6 +3059,30 @@ export default createSpells({
         ' condition by succeeding on a Strength (Athletics) check against your spell save DC. The rock has AC 15 and 25 hit points and is immune to poison and psychic damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'stuck-in-mud',
+        name: 'Stuck in mud',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'As an action, a restrained target or another creature within 5 feet can end the ',
+            rules.restrained,
+            ' condition.',
+          ],
+        },
+      },
+      {
+        key: 'stuck-in-rock',
+        name: 'Stuck in rock',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   muddy_servant: {
@@ -2605,6 +3106,16 @@ export default createSpells({
         rules.restrained,
         '.',
       ],
+    ],
+    effects: [
+      {
+        key: 'held-by-golem',
+        name: 'Held by mud golem',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2638,6 +3149,30 @@ export default createSpells({
         '.',
       ],
     ],
+    effects: [
+      {
+        key: 'roots',
+        name: 'Roots',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 'spell' } },
+      },
+      {
+        key: 'rocks',
+        name: 'Knocked prone by rock',
+        lands: { on: 'hit' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'wind',
+        name: 'Knocked prone by wind',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   natures_protection: {
@@ -2658,6 +3193,15 @@ export default createSpells({
         rules.prone,
         '.',
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2766,6 +3310,28 @@ export default createSpells({
         ', it suffers from similar damage if it reverts to its original state.',
       ],
     ],
+    effects: [
+      {
+        key: 'turning-to-stone',
+        name: 'Turning to stone',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'petrified',
+        name: 'Petrified',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.petrified],
+        lasts: {
+          kind: 'until',
+          text: [
+            'The petrification lasts until the creature is freed by the greater restoration spell or other magic.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   phantasm: {
@@ -2795,6 +3361,32 @@ export default createSpells({
         'The target can repeat the saving throw at the end of each of its turns, ending the spell on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'phantasm-blinded',
+        name: 'Blinded by phantasm',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'phantasm-restrained',
+        name: 'Restrained by phantasm',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'phantasm-terrified',
+        name: 'Terrified by phantasm',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   phantasmal_horror: {
@@ -2815,6 +3407,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['start-of-turn'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2847,6 +3449,16 @@ export default createSpells({
         'A creature can repeat the saving throw at the end of each of its turns, ending the spell for itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   poison_fang: {
@@ -2868,6 +3480,15 @@ export default createSpells({
         "This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).",
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   power_word_nap: {
@@ -2888,6 +3509,20 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'nap',
+        name: 'Asleep',
+        lands: { on: 'use' },
+        conditions: [rules.unconscious],
+        lasts: {
+          kind: 'until',
+          text: [
+            'The spell ends for a target if it wakes up, such as through damage or being shaken awake as an action',
+          ],
+        },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2936,6 +3571,51 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the initial damage roll increases by 1d8 for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'cold-slow',
+        name: 'Speed halved',
+        lands: { on: 'hit' },
+        text: ['has its speed halved'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'force-prone',
+        name: 'Knocked prone',
+        lands: { on: 'hit' },
+        conditions: [rules.prone],
+        text: ['is knocked ', rules.prone, ' if it is Large or smaller'],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'lightning-no-reactions',
+        name: 'No reactions',
+        lands: { on: 'hit' },
+        text: ["can't take reactions"],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+      {
+        key: 'poison',
+        name: 'Poisoned',
+        lands: { on: 'hit' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'psychic-charm',
+        name: 'Charmed',
+        lands: { on: 'hit' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'thunder-deafen',
+        name: 'Deafened',
+        lands: { on: 'hit' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   psychic_skewer: {
@@ -2959,6 +3639,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'twisted',
+        name: 'Pinned',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'causing the creature to subtract 1d4 from the next saving throw it makes before the end of your next turn',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -2985,6 +3676,15 @@ export default createSpells({
       [
         'On each of your turns after you cast this spell, you can use an action to attempt to continue the effect (with the target repeating the saving throw) or choose a new target. You can only affect one object or creature at a time.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3091,6 +3791,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell with a spell slot of 4th level or higher, the damage increases by 1d8 and the distance moved on a failed save increases by 5 feet for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        text: ['a Huge or smaller creature is knocked ', rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   rot: {
@@ -3176,6 +3886,15 @@ export default createSpells({
         'You can also define a condition for the spell to end early (your GM must approve the condition).',
       ],
     ],
+    effects: [
+      {
+        key: 'stasis',
+        name: 'Stasis',
+        lands: { on: 'use' },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'until', text: ['The spell ends on a target if it takes any damage'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   scintillant_blast: {
@@ -3223,6 +3942,43 @@ export default createSpells({
         "8 · Multiple · The target is struck by multiple blasts. Roll twice more, rerolling any 8's.",
       ],
     ],
+    effects: [
+      {
+        key: 'cold-restrain',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'lightning-no-reactions',
+        name: 'No reactions',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: ['cannot take reactions and has disadvantage on Dexterity saving throws'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'poison',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'psychic-stun',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'thunder-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   seal_away: {
@@ -3242,6 +3998,20 @@ export default createSpells({
       [
         'When you cast the spell, you must specify the condition by which the target can be freed. The condition can be as elaborate or as specific as you desire, but it must be reasonable and possible (your GM must approve the condition). The condition can involve a creature’s name, identity, or characteristics, but not game concepts such as level, class, or hit points. Dispel magic cannot free the target. If the condition comes to pass, the target is instantly freed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'imprisoned',
+        name: 'Imprisoned',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'While imprisoned in this way, the target does not age, does not need to eat, breathe, or drink, and cannot be found by any divination magic',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['If the condition comes to pass, the target is instantly freed'],
+        },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3291,6 +4061,16 @@ export default createSpells({
       [
         '• Thermal Column. You direct the wind to blow upwards. All creatures suffering fall damage within the wind can reduce that damage by five times your spellcasting ability modifier. When a creature within the wind makes a vertical jump, its jump height is tripled.',
       ],
+    ],
+    effects: [
+      {
+        key: 'turbulence',
+        name: 'Turbulence',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        text: ['has its flying speed halved'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3368,6 +4148,32 @@ export default createSpells({
       [
         'At Higher Levels. If you cast this spell using a 7th-level spell slot, the radius is 6 miles and the duration is concentration, up to 8 hours. If you use an 8th-level spell slot, the radius is 12 miles and the duration is concentration, up to 24 hours. If you use a 9th-level spell slot, the radius is 18 miles, the spell no longer requires concentration, and it lasts until dispelled.',
       ],
+    ],
+    effects: [
+      {
+        key: 'terror',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['every-24-hours'] },
+      },
+      {
+        key: 'awe',
+        name: 'Charmed by the omen',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        text: ['will not willingly move anywhere it cannot see the omen'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['every-24-hours'] },
+      },
+      {
+        key: 'courage',
+        name: 'Courage',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['has advantage on saving throws against fear and charm effects'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3487,6 +4293,22 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage dealt by the entity’s attacks increases by 1d8 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'speed-zero',
+        name: 'Speed reduced to 0',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['have its speed reduced to 0'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'no-healing',
+        name: "Can't regain hit points",
+        lands: { on: 'hit' },
+        text: ['can’t regain hit points'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   spell_glyph: {
@@ -3599,6 +4421,15 @@ export default createSpells({
         ' condition or to being moved against your will.',
       ],
     ],
+    effects: [
+      {
+        key: 'stone-meld',
+        name: 'Stone meld',
+        lands: { on: 'use' },
+        text: ['cannot see or hear anything, but has tremorsense within 30 feet'],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   stormcloud: {
@@ -3625,6 +4456,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the thunder damage increases by 1d8 and the lightning damage increases by 1d12 for every two slot levels above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'use' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3727,6 +4567,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, a creature can spend one additional Hit Die for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'resilience',
+        name: 'Resilience',
+        lands: { on: 'use' },
+        text: [
+          'has advantage on Wisdom saving throws, adds your spellcasting ability modifier to its death saving throws',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   synaptic_shockwave: {
@@ -3753,6 +4604,17 @@ export default createSpells({
         'A creature regains 1 point of lost Intelligence after finishing a long rest. The heal, mass heal, regenerate, and wish spells can instantly restore all lost Intelligence. Greater restoration can restore 1d6 points of lost Intelligence.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.stunned],
+        text: ['Its Intelligence score is reduced by an amount equal to the roll'],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   synaptic_spear: {
@@ -3775,6 +4637,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded-deafened',
+        name: 'Blinded and deafened',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.blinded, rules.deafened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3813,6 +4684,29 @@ export default createSpells({
       [
         '• Expansion. You can move the storm 120 feet or increase its radius by 60 feet. You can add this effect any number of times.',
       ],
+    ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+      {
+        key: 'hurricane',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'hailstorm',
+        name: 'Concentration penalty',
+        lands: { on: 'use' },
+        text: ['has disadvantage on saving throws it makes to maintain concentration'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3858,6 +4752,15 @@ export default createSpells({
         "The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
       ],
     ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   touch_of_filth: {
@@ -3878,6 +4781,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'hit' },
+        conditions: [rules.poisoned],
+        text: [
+          'At the end of each of its turns, it can make a Constitution saving throw, ending the poison on a success',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3903,6 +4818,16 @@ export default createSpells({
         'The twister’s area is lightly obscured, and ranged attacks that pass through the twister automatically miss.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   unbridled_fury: {
@@ -3924,6 +4849,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the target makes two melee attacks if it has an ability that would normally allow it to make more than one attack on its turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -3993,6 +4928,15 @@ export default createSpells({
         ' while within the wall. When a creature enters the wall or starts its turn there, it must make a Strength saving throw. On a failure, each foot that the creature moves through the wall costs 6 feet of movement. On a success, each foot that the creature moves through the wall only costs 3 feet of movement.',
       ],
       ['The wall disappears when the spell ends.'],
+    ],
+    effects: [
+      {
+        key: 'blinded-and-deafened',
+        name: 'Blinded and deafened',
+        lands: { on: 'use' },
+        conditions: [rules.blinded, rules.deafened],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },
@@ -4129,6 +5073,16 @@ export default createSpells({
         ', and all fires within 20 feet are extinguished. The water disappears afterward.',
       ],
     ],
+    effects: [
+      {
+        key: 'trapped',
+        name: 'Trapped in the water',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['start-of-turn'] },
+      },
+    ],
     publication: refs.publications.spells_that_dont_suck,
   },
   whirlpool: {
@@ -4166,6 +5120,17 @@ export default createSpells({
       [
         'Constructs and undead automatically succeed on this saving throw, while plants have disadvantage. Anything reduced to 0 hit points while under the spell’s effect crumbles to dust.',
       ],
+    ],
+    effects: [
+      {
+        key: 'withered',
+        name: 'Withered',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'has its speed halved and has disadvantage on all of its attack rolls and ability checks',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.spells_that_dont_suck,
   },

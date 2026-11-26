@@ -23,6 +23,16 @@ export default createSpells({
         'At Higher Levels. If you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   accelerate: {
@@ -41,6 +51,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can affect one additional creature for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'accelerated',
+        name: 'Accelerated',
+        lands: { on: 'use' },
+        text: [
+          'For the duration of the spell, each target’s walking speed is doubled. Each target can also use a bonus action on each of its turns to take the Dash action, and it has advantage on Dexterity saving throws.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -121,6 +142,17 @@ export default createSpells({
         'Ritual Focus. If you expend your ritual focus, the curse becomes hereditary, passing from firstborn to firstborn for the entire length of the family’s lineage until one of them successfully saves against the curse and throws off your dark magic.',
       ],
     ],
+    effects: [
+      {
+        key: 'cursed',
+        name: 'Cursed',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'While cursed, the victim has disadvantage on ability checks and saving throws made with the ability score that you used when you cast the spell.',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   agonizing_mark: {
@@ -136,6 +168,17 @@ export default createSpells({
       [
         'You choose a creature you can see within range to mark as your prey, and a ray of black energy issues forth from you. Until the spell ends, each time you deal damage to the target it must make a Charisma saving throw. On a failed save, it falls prone as its body is filled with torturous agony.',
       ],
+    ],
+    effects: [
+      {
+        key: 'marked',
+        name: 'Marked as prey',
+        lands: { on: 'use' },
+        text: [
+          'Until the spell ends, each time you deal damage to the target it must make a Charisma saving throw. On a failed save, it falls prone as its body is filled with torturous agony.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -192,6 +235,15 @@ export default createSpells({
         'At Higher Levels. The damage increases when you reach higher levels: 2d8 at 5th level, 3d8 at 11th level, and 4d8 at 17th level.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   ally_aegis: {
@@ -212,6 +264,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, you can target one additional ally for each slot level above 6th.',
       ],
     ],
+    effects: [
+      {
+        key: 'aegis',
+        name: 'Ally aegis',
+        lands: { on: 'use' },
+        text: ['your ally has a +5 bonus to AC and is immune to force damage.'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   alone: {
@@ -227,6 +288,22 @@ export default createSpells({
       [
         'You cause a creature within range to believe its allies have been banished to a different realm. The target must succeed on a Wisdom saving throw, or it treats its allies as if they were invisible and silenced. The affected creature cannot target, perceive, or otherwise interact with its allies for the duration of the spell. If one of its allies hits it with a melee attack, the affected creature can make another Wisdom saving throw. On a successful save, the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'alone',
+        name: 'Alone',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'it treats its allies as if they were invisible and silenced. The affected creature cannot target, perceive, or otherwise interact with its allies for the duration of the spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          cure: [
+            'If one of its allies hits it with a melee attack, the affected creature can make another Wisdom saving throw. On a successful save, the spell ends.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -275,6 +352,18 @@ export default createSpells({
       [
         'This spell intensifies gravity in a 50-foot-radius area within range. Inside the area, damage from falling is quadrupled (2d6 per 5 feet fallen) and maximum damage from falling is 40d6. Any creature on the ground in the area when the spell is cast must make a successful Strength saving throw or be knocked prone; the same applies to a creature that enters the area or ends its turn in the area. A prone creature in the area must make a successful Strength saving throw to stand up. A creature on the ground in the area moves at half speed and has disadvantage on Dexterity checks and ranged attack rolls.',
       ],
+    ],
+    effects: [
+      {
+        key: 'gravity-bound',
+        name: 'Crushed by gravity',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        text: [
+          'A creature on the ground in the area moves at half speed and has disadvantage on Dexterity checks and ranged attack rolls.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -383,6 +472,17 @@ export default createSpells({
       [
         'Also, the first time the target gets a failure on a Dexterity saving throw while the spell is active, it can use its reaction to reroll the save. The spell then ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'guarded',
+        name: 'Angelic guardian',
+        lands: { on: 'use' },
+        text: [
+          'The manifestation moves to interpose itself between the target and any incoming attacks, granting the target a +2 bonus to AC. Also, the first time the target gets a failure on a Dexterity saving throw while the spell is active, it can use its reaction to reroll the save. The spell then ends.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -608,6 +708,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, both the ranged attack and bite attack damage increase by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'serpent-senses',
+        name: 'Serpent senses',
+        lands: { on: 'use' },
+        text: [
+          'The target gains darkvision with a range of 60 feet and blindsight with a range of 30 feet.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   aura_of_protection_or_destruction: {
@@ -744,6 +855,19 @@ export default createSpells({
         ", and its blindsight doesn't penetrate areas of magical silence. While using blindsight, the target has disadvantage on Dexterity (Stealth) checks that rely on being silent. Additionally, the target has advantage on Wisdom (Perception) checks that rely on hearing.",
       ],
     ],
+    effects: [
+      {
+        key: 'batsense',
+        name: 'Batsense',
+        lands: { on: 'use' },
+        text: [
+          'For the duration of the spell, a creature you touch can produce and interpret squeaking sounds used for echolocation, giving it blindsight out to a range of 60 feet. The target cannot use its blindsight while ',
+          rules.deafened,
+          ", and its blindsight doesn't penetrate areas of magical silence.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   become_nightwing: {
@@ -787,6 +911,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for every two slot levels above 2nd. Each creature must be within 30 feet of another creature when you cast the spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by the bet',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        text: [
+          'The charmed creature must use its next action (which can be a legendary action) to make the same ability check in a contest against your check.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   benediction: {
@@ -824,6 +960,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'primal-fury',
+        name: 'Primal fury',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'the target must use its action to attack its nearest enemy it can see with unarmed strikes or natural weapons. For the duration, the target’s attacks deal an extra 1d6 damage of the same type dealt by its weapon',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -885,6 +1032,18 @@ export default createSpells({
         'The creature can escape from the chains by using an action and making a successful Strength or Dexterity check against your spell save DC, or if the chains are destroyed. The chains have AC 18 and 20 hit points.',
       ],
     ],
+    effects: [
+      {
+        key: 'bound',
+        name: 'Bound in chains',
+        lands: { on: 'hit' },
+        text: [
+          'While bound, the target can move only at half speed and has disadvantage on attack rolls, saving throws, and Dexterity checks',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   black_goats_blessing: {
@@ -900,6 +1059,15 @@ export default createSpells({
       [
         'You raise your hand with fingers splayed and utter an incantation of the Black Goat with a Thousand Young. Your magic is blessed with the eldritch virility of the All‑Mother. The target has disadvantage on saving throws against spells you cast until the end of your next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blessing-disadvantage',
+        name: 'Black Goat’s blessing',
+        lands: { on: 'use' },
+        text: ['The target has disadvantage on saving throws against spells you cast'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -917,6 +1085,17 @@ export default createSpells({
         'You gather the powers of darkness into your fist and fling dark, paralyzing flame at a target within 30 feet. If you make a successful ranged spell attack, this spell siphons vitality from the target into you. For the duration, the target has disadvantage (and you have advantage) on attack rolls, ability checks, and saving throws made with Strength, Dexterity, or Constitution. An affected target makes a Constitution saving throw (with disadvantage) at the end of its turn, ending the effect on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'black-hand',
+        name: 'Black hand',
+        lands: { on: 'hit' },
+        text: [
+          'For the duration, the target has disadvantage (and you have advantage) on attack rolls, ability checks, and saving throws made with Strength, Dexterity, or Constitution. An affected target makes a Constitution saving throw (with disadvantage) at the end of its turn, ending the effect on a success',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   black_ribbons: {
@@ -932,6 +1111,15 @@ export default createSpells({
       [
         'You pull pieces of the plane of shadow into your own reality, causing a 20-foot cube to fill with inky ribbons that turn the area into difficult terrain and wrap around nearby creatures. Any creature that ends its turn in the area becomes restrained by the ribbons until the end of its next turn, unless it makes a successful Dexterity saving throw. Once a creature succeeds on this saving throw, it can’t be restrained again by the ribbons, but it’s still affected by the difficult terrain.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by ribbons',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -953,6 +1141,23 @@ export default createSpells({
         rules.blinded,
         ' for 1 minute. A creature blinded in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
+    ],
+    effects: [
+      {
+        key: 'invisible-allies',
+        name: 'Invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'orb-blinded',
+        name: 'Blinded by the orb',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1000,6 +1205,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 7th level or higher, the damage dealt by the well increases by 1d8—and the well pulls creatures an additional 5 feet—for each slot level above 6th.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned-in-well',
+        name: 'Stunned in the well',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   blade_of_my_brother: {
@@ -1044,6 +1258,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, either the fire damage or the radiant damage (your choice) increases by 1d8 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   blazing_chariot: {
@@ -1083,6 +1306,17 @@ export default createSpells({
       ],
       ['Creatures that can’t be charmed are immune to this spell.'],
     ],
+    effects: [
+      {
+        key: 'drawn-to-sound',
+        name: 'Drawn to the sound',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the target must take the Dash or Disengage action and move toward the sound by the safest available route on each of its turns',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   bleed: {
@@ -1101,6 +1335,21 @@ export default createSpells({
       [
         'Any creature can take an action to stanch the bleeding wound by succeeding on a Wisdom (Medicine) check against your spell save DC. The wound also closes if the target receives magical healing. This spell has no effect on undead or constructs.',
       ],
+    ],
+    effects: [
+      {
+        key: 'bleeding-wound',
+        name: 'Bleeding wound',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'the creature suffers a bleeding wound. Each time you hit a creature with this weapon while it suffers from a bleeding wound, your weapon deals an extra 1 necrotic damage for each time you have previously hit the creature with this weapon (to a maximum of 10 necrotic damage)',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          escape: { dc: 'spell' },
+          cure: ['The wound also closes if the target receives magical healing'],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1162,6 +1411,17 @@ export default createSpells({
         'A howling storm of thick snow and ice crystals appears in a cylinder 40 feet high and 40 feet in diameter within range. The area is heavily obscured by the swirling snow. When the storm appears, each creature in the area takes 8d8 cold damage, or half as much damage with a successful Constitution saving throw. A creature also makes this saving throw and takes damage when it enters the area for the first time on a turn or ends its turn there. In addition, a creature that takes cold damage from this spell has disadvantage on Constitution saving throws to maintain concentration until the start of its next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'cold-concentration',
+        name: 'Chilled concentration',
+        lands: { on: 'use' },
+        text: [
+          'a creature that takes cold damage from this spell has disadvantage on Constitution saving throws to maintain concentration',
+        ],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   blood_and_steel: {
@@ -1194,6 +1454,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a 5th‑level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 7th level or higher, the duration is concentration, up to 8 hours.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed-construct',
+        name: 'Charmed construct',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1233,6 +1503,15 @@ export default createSpells({
         'Once an affected creature reaches the blood, it tries to consume it, foregoing all other actions while the blood is present. A successful attack against an affected creature ends the effect, as does the consumption of the blood, which requires an action by an affected creature.',
       ],
     ],
+    effects: [
+      {
+        key: 'attracted-to-blood',
+        name: 'Attracted to the blood',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: ['the creature is attracted to the blood and must move toward it unless impeded'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   blood_offering: {
@@ -1264,6 +1543,16 @@ export default createSpells({
       [
         'With a sample of its blood, you are able to magically control a creature’s actions, like a marionette on magical strings. Choose a creature you can see within range whose blood you hold. The target must succeed on a Constitution saving throw, or you gain control over its physical activity (as long as you interact with the blood material component each round). As a bonus action on your turn, you can direct the creature to perform various activities. You can specify a simple and general course of action, such as, “Attack that creature,” “Run over there,” or, “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. The target is aware of being controlled. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'controlled',
+        name: 'Controlled',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['you gain control over its physical activity'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1328,6 +1617,18 @@ export default createSpells({
         'At Higher Levels. The spell’s duration increases to 2 minutes when you reach 5th level, to 10 minutes when you reach 11th level, and to 1 hour when you reach 17th level.',
       ],
     ],
+    effects: [
+      {
+        key: 'bleeding',
+        name: 'Bleeding',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'This bleeding deals no damage but imposes a –2 penalty on the creature’s Intelligence, Charisma, and Wisdom checks',
+        ],
+        lasts: { kind: 'time', amount: '4', unit: 'round' },
+        ends: { cure: ['as does a successful DC 10 Wisdom (Medicine) check'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   blood_to_acid: {
@@ -1350,6 +1651,15 @@ export default createSpells({
       [
         'Creatures without blood, such as constructs and plants, are not affected by this spell. If blood to acid is cast on a creature composed mainly of blood, such as a [blood elemental](https://api.open5e.com/monsters/blood-elemental) or a [blood zombie](https://api.open5e.com/monsters/blood-zombie), the creature is slain by the spell if its saving throw fails.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned-by-pain',
+        name: 'Stunned by the pain',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1d4', unit: 'round' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1408,6 +1718,17 @@ export default createSpells({
         'Casting any spell that has somatic or material components while under the influence of this spell requires a DC 10 Constitution saving throw. On a failed save, the spell is not cast but it is not lost; the casting can be attempted again in the next round.',
       ],
     ],
+    effects: [
+      {
+        key: 'bleeding-hands',
+        name: 'Bleeding hands',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'take 1 necrotic damage each round and suffer disadvantage on all melee and ranged attack rolls that require the use of its hands for the spell’s duration',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   bloody_smite: {
@@ -1423,6 +1744,22 @@ export default createSpells({
       [
         'The next time during the spell’s duration that you hit a creature with a melee weapon attack, your weapon pulses with a dull red light, and the attack deals an extra 1d6 necrotic damage to the target. Until the spell ends, the target must make a Constitution saving throw at the start of each of its turns. On a failed save, it takes 1d6 necrotic damage, it bleeds profusely from the mouth, and it can’t speak intelligibly or cast spells that have a verbal component. On a successful save, the spell ends. If the target or an ally within 5 feet of it uses an action to tend the wound and makes a successful Wisdom (Medicine) check against your spell save DC, or if the target receives magical healing, the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'bleeding-mouth',
+        name: 'Bleeding from the mouth',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'it takes 1d6 necrotic damage, it bleeds profusely from the mouth, and it can’t speak intelligibly or cast spells that have a verbal component',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          repeatSave: ['start-of-turn'],
+          escape: { dc: 'spell' },
+          cure: ['if the target receives magical healing'],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1474,6 +1811,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'blinded-by-boiling',
+        name: 'Blinded by boiling blood',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   boiling_oil: {
@@ -1497,6 +1844,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone-in-oil',
+        name: 'Prone in the oil',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   bolster_undead: {
@@ -1518,6 +1874,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional undead creature for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'bolstered',
+        name: 'Bolstered',
+        lands: { on: 'use' },
+        text: [
+          'When a targeted creature makes a saving throw against being turned or against spells or effects that deal radiant damage, the target has advantage on the saving throw',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1555,6 +1922,22 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, all damage increases by 1d10 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'first-attack-disadvantage',
+        name: 'Disadvantage on first attack',
+        lands: { on: 'hit' },
+        text: ['the target has disadvantage on its first attack roll'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'stunned-by-shot',
+        name: 'Stunned by the shot',
+        lands: { on: 'hit' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   boreass_breath: {
@@ -1586,6 +1969,38 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the size of the cube increases by 10 feet for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'partly-submerged',
+        name: 'Frozen in the ice',
+        lands: { on: 'use' },
+        conditions: [rules.restrained],
+        text: [
+          'While restrained in this way, a creature takes 1d6 cold damage at the end of its turn. It can break free by using an action to make a successful Strength check against your spell save DC.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'can break free by using an action to make a successful Strength check against your spell save DC',
+          ],
+        },
+      },
+      {
+        key: 'fully-submerged',
+        name: 'Trapped under the ice',
+        lands: { on: 'use' },
+        conditions: [rules.incapacitated],
+        text: [
+          'While incapacitated in this way, a creature takes 2d6 cold damage at the end of its turn.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'A trapped creature makes a DC 20 Strength saving throw after taking this damage at the end of its turn, breaking free from the ice on a success.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1652,6 +2067,15 @@ export default createSpells({
       [
         'You target a creature with a blast of wintry air. That creature must make a successful Constitution saving throw or become unable to speak or cast spells with a vocal component for the duration of the spell.',
       ],
+    ],
+    effects: [
+      {
+        key: 'voiceless',
+        name: 'Voiceless',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['become unable to speak or cast spells with a vocal component'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1832,6 +2256,17 @@ export default createSpells({
         'The spell can affect constructs, with two limitations. First, the target creature negates the effect with a successful Dexterity saving throw. Second, unless the construct is Tiny, only one component (an eye, a knee, an elbow, and so forth) can be disabled. The affected construct has disadvantage on attack rolls and ability checks that depend on the disabled component until the spell ends and the jam is removed.',
       ],
     ],
+    effects: [
+      {
+        key: 'jammed-component',
+        name: 'Jammed component',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          'The affected construct has disadvantage on attack rolls and ability checks that depend on the disabled component',
+        ],
+        lasts: { kind: 'until', text: ['the spell ends and the jam is removed'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   catapult: {
@@ -1918,6 +2353,18 @@ export default createSpells({
         '. A poisoned creature can repeat the Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'toxic-fumes',
+        name: 'Toxic fumes',
+        lands: { on: 'use' },
+        conditions: [rules.poisoned],
+        text: [
+          'A poisoned creature can repeat the Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   caustic_touch: {
@@ -1959,6 +2406,22 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 8th level or higher, the spell lasts for an additional hour for each slot level above 7th.\n\nRitual Focus. If you expend your ritual focus, an unaffected intelligent creature must make a new saving throw every time it starts its turn in the area, even if it has previously succeeded on a save against the spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'revelry',
+        name: 'Celebratory revelry',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the creature starts to engage in celebratory revelry: drinking, singing, laughing, and dancing. Affected creatures are reluctant to leave the area until the spell ends, preferring to continue the festivities.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: {
+          cure: [
+            'The effect ends on a creature when it is attacked, takes damage, or is forced to leave the area.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   chains_of_the_goddess: {
@@ -1974,6 +2437,19 @@ export default createSpells({
       [
         'Choose a creature you can see within 90 feet. The target must make a successful Wisdom saving throw or be restrained by chains of psychic force and take 6d8 bludgeoning damage. A restrained creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save. While restrained in this way, the creature also takes 6d8 bludgeoning damage at the start of each of your turns.',
       ],
+    ],
+    effects: [
+      {
+        key: 'psychic-chains',
+        name: 'Psychic chains',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.restrained],
+        text: [
+          'While restrained in this way, the creature also takes 6d8 bludgeoning damage at the start of each of your turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -1998,6 +2474,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the psychic damage increases by 1d6 for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'chained',
+        name: 'Chained',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.grappled, rules.restrained],
+        text: ['A creature that’s restrained at the start of its turn takes 4d6 psychic damage.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2076,6 +2563,18 @@ export default createSpells({
         '. An affected enemy cannot stand up or recover from the blindness or deafness while within the area, but all three conditions end immediately for a creature that leaves the spell’s area.',
       ],
     ],
+    effects: [
+      {
+        key: 'overwhelmed',
+        name: 'Overwhelmed by sensory chaos',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.blinded, rules.deafened, rules.prone],
+        text: [
+          'An affected enemy cannot stand up or recover from the blindness or deafness while within the area, but all three conditions end immediately for a creature that leaves the spell’s area.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   chilling_words: {
@@ -2122,6 +2621,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'aged',
+        name: 'Aged appearance',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'its walking speed is halved (round up to the nearest 5-foot increment) and it has disadvantage on Dexterity checks (but not saving throws)',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2271,6 +2782,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'closing-in',
+        name: 'Closing in',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'The creature has disadvantage on ability checks and attack rolls for the duration, and it takes 2d6 psychic damage at the end of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   cobra_fangs: {
@@ -2295,6 +2818,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the target’s bite counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.',
       ],
+    ],
+    effects: [
+      {
+        key: 'bite',
+        name: 'Cobra fangs',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'If the target doesn’t have a bite attack, it gains one. The target is proficient with the bite, and it adds its Strength modifier to the attack and damage rolls. The damage is piercing and the damage die is a d4.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2321,6 +2855,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the number of creatures you can affect increases by one for every two slot levels above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'compelled',
+        name: 'Compelled movement',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'a creature is compelled to use its movement to move toward the other creature. Its route must be as direct as possible, but it avoids dangerous terrain and enemies.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2385,6 +2930,18 @@ export default createSpells({
       [
         'Affected creatures also find it impossible to keep track of their location. They automatically fail Wisdom (Survival) checks to avoid getting lost. Whenever an affected creature must choose between one or more paths, it chooses at random and immediately forgets which direction it came from.',
       ],
+    ],
+    effects: [
+      {
+        key: 'confused-senses',
+        name: 'Confused senses',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'is reduced to half speed until the spell ends because of confusion over its surroundings, and it makes ranged attack rolls with disadvantage. ',
+          'They automatically fail Wisdom (Survival) checks to avoid getting lost.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2648,6 +3205,17 @@ export default createSpells({
         'If the affected creature is wearing flammable material (or is made of flammable material, such as a plant creature), it catches on fire and continues burning; the creature takes fire damage equal to your spellcasting ability modifier at the end of each of its turns until the creature or one of its allies within 5 feet of it uses an action to extinguish the fire.',
       ],
     ],
+    effects: [
+      {
+        key: 'cursed-flame',
+        name: 'Cursed to burst into flame',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'is cursed to burst into flame if it reduces one of your allies to 0 hit points before this spell’s duration expires',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   create_ring_servant: {
@@ -2709,6 +3277,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th to 6th level, the area increases to a 10-foot square, the ice deals 4d6 cold damage, and 40 damage is needed to melt each 5-foot square. When you cast this spell using a spell slot of 7th level or higher, the area increases to a 20-foot square, the ice deals 6d6 cold damage, and 60 damage is needed to melt each 5-foot square.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained-by-ice',
+        name: 'Restrained by ice',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        text: ['A creature restrained by the ice takes 2d6 cold damage at the start of its turn.'],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 'spell' }, cure: ['dealing at least 20 damage to the ice'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   crushing_curse: {
@@ -2730,6 +3309,16 @@ export default createSpells({
         'At Higher Levels. This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).',
       ],
     ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   crushing_trample: {
@@ -2748,6 +3337,15 @@ export default createSpells({
       [
         'You move through the spaces of foes whether or not they succeed on their Strength saving throws. You do not provoke opportunity attacks while moving under the effect of crushing trample.',
       ],
+    ],
+    effects: [
+      {
+        key: 'knocked-prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2786,6 +3384,21 @@ export default createSpells({
         ', but mental activity does not cease, and signs of life are detectable; the creature still breathes and its heart continues to beat, though both acts are almost imperceptible. If the ice statue is broken or damaged while frozen, the creature will have matching damage or injury when returned to its original state. [Dispel magic](https://api.open5e.com/spells/dispel-magic) can’t end this spell, but it can allow the target to speak (but not move or cast spells) for a number of rounds equal to the spell slot used. [Greater restoration](https://api.open5e.com/spells/greater-restoration) or more potent magic is needed to free a creature from the ice.',
       ],
     ],
+    effects: [
+      {
+        key: 'frozen-in-ice',
+        name: 'Frozen in ice',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'Greater restoration',
+            ' or more potent magic is needed to free a creature from the ice.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   curse_of_dust: {
@@ -2801,6 +3414,19 @@ export default createSpells({
       [
         'You cast a curse on a creature within range that you’re familiar with, causing it to be unsatiated by food no matter how much it eats. This effect isn’t merely an issue of perception; the target physically can’t draw sustenance from food. Within minutes after the spell is cast, the target feels constant hunger no matter how much food it consumes. The target must make a Constitution saving throw 24 hours after the spell is cast and every 24 hours thereafter. On a failed save, the target gains one level of exhaustion. The effect ends when the duration expires or when the target makes two consecutive successful saves.',
       ],
+    ],
+    effects: [
+      {
+        key: 'constant-hunger',
+        name: 'Constant hunger',
+        lands: { on: 'use' },
+        text: [
+          'The target must make a Constitution saving throw 24 hours after the spell is cast and every 24 hours thereafter',
+          ' On a failed save, the target gains one level of exhaustion',
+          ' The effect ends when the duration expires or when the target makes two consecutive successful saves',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'day' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2824,6 +3450,18 @@ export default createSpells({
       ['2 · Target stands transfixed and blinking, takes no action.'],
       ['3 · Target flees or fights (50 percent chance of each).'],
       ['4 · Target charges directly at caster, enraged.'],
+    ],
+    effects: [
+      {
+        key: 'incompetent',
+        name: 'Incompetent',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'roll a d4 and refer to the following table to determine what the target does on its turn',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2851,6 +3489,19 @@ export default createSpells({
         '• The target, as a vampire spawn, seeks you out in an attempt to serve its new master. You can have only one vampire spawn under your control at a time through this spell. If you create another, the existing one turns to dust. If you or your companions do anything harmful to the target, it can make a Wisdom saving throw. On a success, it is no longer under your control.',
       ],
     ],
+    effects: [
+      {
+        key: 'cursed-by-the-grave',
+        name: 'Cursed by the grave',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'The target fails death saving throws on any roll but a 20.',
+          ' If the target dies while cursed, it rises 1 round later as a vampire spawn under your control and is no longer cursed.',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: { cure: ['remove curse', ' spell or similar magic ends this curse.'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   curse_of_yig: {
@@ -2872,6 +3523,19 @@ export default createSpells({
       [
         'When it reverts to its normal form, the creature has the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form.',
       ],
+    ],
+    effects: [
+      {
+        key: 'servant-of-yig',
+        name: 'Servant of Yig',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'The target’s statistics, including mental ability scores, are replaced by the statistics of a servant of Yig.',
+          ' The transformed creature’s alignment becomes neutral evil, and it is both friendly to you and reverent toward the Father of Serpents.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -2927,6 +3591,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a 5th-level spell slot, the duration is 24 hours. When you use a 7th-level spell slot, the duration is 1 month. When you use a spell slot of 8th or 9th level, the spell lasts until it is dispelled.',
       ],
     ],
+    effects: [
+      {
+        key: 'canid-phobia',
+        name: 'Fear of canids',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the first time the target sees a canid, the target must succeed on a Wisdom saving throw or become frightened of that canid until the end of its next turn.',
+          ' In addition, the target has disadvantage on ability checks and attack rolls while a canid is within 10 feet of it.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   daggerhawk: {
@@ -2959,6 +3635,19 @@ export default createSpells({
         'A dark shadow creeps across the target’s mind and leaves a small bit of shadow essence behind, triggering a profound fear of the dark. A creature you designate within range must make a Charisma saving throw. If it fails, the target becomes frightened of you for the duration. A frightened creature can repeat the saving throw each time it takes damage, ending the effect on a success. While frightened in this way, the creature will not willingly enter or attack into a space that isn’t brightly lit. If it’s in dim light or darkness, the creature must either move toward bright light or create its own (by lighting a lantern, casting a [light](https://api.open5e.com/spells/light) spell, or the like).',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened-of-you',
+        name: 'Frightened of you',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.frightened],
+        text: [
+          'While frightened in this way, the creature will not willingly enter or attack into a space that isn’t brightly lit',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   dark_heraldry: {
@@ -2982,6 +3671,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        text: ['The creature makes this saving throw with disadvantage if you can see it'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3061,6 +3761,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a 3rd-level spell slot, it lasts for 1 hour without requiring your concentration. When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 hour for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'invisible-to-undead',
+        name: 'Invisible to undead',
+        lands: { on: 'use' },
+        text: [
+          'This spell makes up to six willing creatures you can see within range invisible to undead for the duration.',
+          ' The spell ends for all targets if one target attacks or casts a spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   deadly_sting: {
@@ -3076,6 +3788,15 @@ export default createSpells({
       [
         'You grow a 10-foot-long tail as supple as a whip, tipped with a horrible stinger. During the spell’s duration, you can use the stinger to make a melee spell attack with a reach of 10 feet. On a hit, the target takes 1d4 piercing damage plus 4d10 poison damage, and a creature must make a successful Constitution saving throw or become vulnerable to poison damage for the duration of the spell.',
       ],
+    ],
+    effects: [
+      {
+        key: 'vulnerable-to-poison',
+        name: 'Vulnerable to poison',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['become vulnerable to poison damage for the duration of the spell'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3135,6 +3856,20 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can affect an additional creature for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'slowed-by-time',
+        name: 'Slowed',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'its walking speed is halved (round up to the nearest 5-foot increment)',
+          ' Until the spell ends, on a failed save the target’s speed is halved again at the start of each of your turns',
+          ' Decelerate can’t reduce a creature’s speed to less than 5 feet',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3326,6 +4061,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can target one additional target for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'winged',
+        name: 'Winged',
+        lands: { on: 'use' },
+        text: [
+          'The target grows feathery wings of pure white that grant it a flying speed of 60 feet and the ability to hover',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   dimensional_shove: {
@@ -3379,6 +4125,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a 9th‐level spell slot, the cube is 20 feet on a side.',
       ],
+    ],
+    effects: [
+      {
+        key: 'outlined',
+        name: 'Outlined',
+        lands: { on: 'use' },
+        text: [
+          'A warping, prismatic aura surrounds and outlines each creature inside a 10-foot cube within range',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3440,6 +4197,28 @@ export default createSpells({
       [
         'Creatures transformed into blue crystal can be restored with dispel magic, greater restoration, or comparable magic.',
       ],
+    ],
+    effects: [
+      {
+        key: 'turning-to-crystal',
+        name: 'Turning to blue crystal',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'A creature whose saving throw fails is ',
+          rules.restrained,
+          '; a restrained creature whose saving throw fails is ',
+          rules.paralyzed,
+          '; and a paralyzed creature whose saving throw fails is ',
+          rules.petrified,
+          ' and transforms into a statue of blue crystal',
+        ],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'Creatures transformed into blue crystal can be restored with dispel magic, greater restoration, or comparable magic',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3529,6 +4308,16 @@ export default createSpells({
         'Multiple castings of this spell have no additional effect on creatures that are already poisoned by it. The effect can be ended by [protection from poison](https://api.open5e.com/spells/protection-from-poison) or comparable magic.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned (serpent coils)',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   doom_of_the_cracked_shield: {
@@ -3568,6 +4357,15 @@ export default createSpells({
         ' for 3 rounds becomes submerged at the end of its third turn. A Large creature becomes submerged after 4 rounds. Submerged creatures begin suffocating if they aren’t holding their breath. A creature that is still submerged when the spell ends is sealed beneath the newly solidified ground. The creature can escape only if someone else digs it out or it has a burrowing speed.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by the mud',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   doom_of_the_slippery_rogue: {
@@ -3585,6 +4383,15 @@ export default createSpells({
         rules.prone,
         '.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone on the grease',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3670,6 +4477,15 @@ export default createSpells({
         'At Higher Levels. This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   drown: {
@@ -3714,6 +4530,17 @@ export default createSpells({
         'At Higher Levels. If this spell is cast using a spell slot of 5th level or higher, the number of targets increases by one for every two slot levels above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'buds',
+        name: 'Buds and blossoms',
+        lands: { on: 'use' },
+        text: [
+          'While the buds remain, whenever the target takes damage from a source other than this spell, one bud blossoms into a purple and yellow flower that deals an extra 1d8 necrotic damage to the target.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   earthskimmer: {
@@ -3755,6 +4582,18 @@ export default createSpells({
         'At Higher Levels. If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'earworm',
+        name: 'Earworm',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'For the spell’s duration, the target takes 2d4 psychic damage at the start of each of its turns as the melody plays over and over in its mind.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   echoes_of_steel: {
@@ -3795,6 +4634,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'dex-disadvantage',
+        name: 'Disadvantage on Dexterity checks',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['the creature also has disadvantage on Dexterity checks'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -3918,6 +4766,18 @@ export default createSpells({
       [
         'The charmed creature regards you as a friend. When the spell ends, it doesn’t know it was charmed by you, but it does realize that its attitude toward you has changed (possibly greatly) in a short time. How the creature reacts to you and regards you in the future is up to the GM.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by the ring',
+        lands: { on: 'use' },
+        conditions: [rules.charmed],
+        lasts: {
+          kind: 'until',
+          text: ['1 week or until it is harmed by you or one of your allies'],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4075,6 +4935,17 @@ export default createSpells({
         'By twisting a length of silver wire around your finger, you tie your fate to those around you. When you take damage, that damage is divided equally between you and all creatures in range who get a failure on a Charisma saving throw. Any leftover damage that can’t be divided equally is taken by you. Creatures that approach to within 60 feet of you after the spell was cast are also affected. A creature is allowed a new saving throw against this spell each time you take damage, and a successful save ends the spell’s effect on that creature.',
       ],
     ],
+    effects: [
+      {
+        key: 'shared-damage',
+        name: 'Shared damage',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'When you take damage, that damage is divided equally between you and all creatures in range who get a failure on a Charisma saving throw.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   essence_instability: {
@@ -4121,6 +4992,17 @@ export default createSpells({
         'The spell can be ended by its caster or by [dispel magic](https://api.open5e.com/spells/dispel-magic) or [remove curse](https://api.open5e.com/spells/remove-curse).',
       ],
     ],
+    effects: [
+      {
+        key: 'evercold-curse',
+        name: 'Evercold curse',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the target must make a successful DC 10 Constitution saving throw at the end of each hour or gain one level of exhaustion',
+        ],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   exsanguinate: {
@@ -4145,6 +5027,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th.',
       ],
     ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Incapacitated and bleeding',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   exsanguinating_cloud: {
@@ -4163,6 +5055,15 @@ export default createSpells({
       [
         'This cloud leaches the blood or similar fluid from creatures in the area. It doesn’t affect undead or constructs. Any creature in the cloud when it’s created or at the start of your turn takes 6d6 necrotic damage and gains one level of exhaustion; a successful Constitution saving throw halves the damage and prevents the exhaustion.',
       ],
+    ],
+    effects: [
+      {
+        key: 'exhaustion',
+        name: 'Exhaustion from the cloud',
+        lands: { on: 'failed-save', save: 'con' },
+        lasts: { kind: 'until-removed' },
+        text: ['gains one level of exhaustion'],
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4197,6 +5098,15 @@ export default createSpells({
         rules.prone,
         '. This spell doesn’t damage permanent structures.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4261,6 +5171,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the crown can have one additional flower for each slot level above 5th. One additional flower is required as a material component for each additional flower in the crown.',
       ],
+    ],
+    effects: [
+      {
+        key: 'chosen-invisible',
+        name: 'Chosen creature invisible',
+        lands: { on: 'use' },
+        conditions: [rules.invisible],
+        text: ['and has advantage on saving throws against spells and other magical effects.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4402,6 +5322,17 @@ export default createSpells({
         'You or a creature that you touch can see a few seconds into the future. When the spell is cast, each other creature within 30 feet of the target must make a Wisdom saving throw. Those that fail must declare, in initiative order, what their next action will be. The target of the spell declares his or her action last, after hearing what all other creatures will do. Each creature that declared an action must follow its declaration as closely as possible when its turn comes. For the duration of the spell, the target has advantage on attack rolls, ability checks, and saving throws, and creatures that declared their actions have disadvantage on attack rolls against the target.',
       ],
     ],
+    effects: [
+      {
+        key: 'flickering-fate',
+        name: 'Flickering fate',
+        lands: { on: 'use' },
+        text: [
+          'the target has advantage on attack rolls, ability checks, and saving throws, and creatures that declared their actions have disadvantage on attack rolls against the target',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   fluctuating_alignment: {
@@ -4421,6 +5352,17 @@ export default createSpells({
       [
         '| D20 | Alignment | |---|---| | 1-2 | Chaotic good | | 3-4 | Chaotic neutral | | 5-7 | Chaotic evil | | 8-9 | Neutral evil | | 10-11 | Lawful evil | | 12-14 | Lawful good | | 15-16 | Lawful neutral | | 17-18 | Neutral good | | 19-20 | Neutral |',
       ],
+    ],
+    effects: [
+      {
+        key: 'fluctuating-alignment',
+        name: 'Fluctuating alignment',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'must roll 1d20 and consult the Alignment Fluctuation table to find its new alignment, and it must roll again after every minute of the spell’s duration',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4453,6 +5395,17 @@ export default createSpells({
       [
         'While in a forest, you touch a willing creature and infuse it with the forest’s energy, creating a bond between the creature and the environment. For the duration of the spell, as long as the creature remains within the forest, its movement is not hindered by difficult terrain composed of natural vegetation. In addition, the creature has advantage on saving throws against environmental effects such as excessive heat or cold or high altitude.',
       ],
+    ],
+    effects: [
+      {
+        key: 'forest-native',
+        name: 'Forest native',
+        lands: { on: 'use' },
+        text: [
+          'For the duration of the spell, as long as the creature remains within the forest, its movement is not hindered by difficult terrain composed of natural vegetation. In addition, the creature has advantage on saving throws against environmental effects such as excessive heat or cold or high altitude.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4530,6 +5483,18 @@ export default createSpells({
         'When you cast freeze blood as a successful melee spell attack against a living creature with a circulatory system, the creature’s blood freezes. For the spell’s duration, the affected creature’s speed is halved and it takes 2d6 cold damage at the start of each of its turns. If the creature takes bludgeoning damage from a critical hit, the attack’s damage dice are rolled three times instead of twice. At the end of each of its turns, the creature can make a Constitution saving throw, ending the effect on a success.',
       ],
       ['NOTE: This was previously a 5th-level spell that did 4d10 cold damage.'],
+    ],
+    effects: [
+      {
+        key: 'frozen-blood',
+        name: 'Frozen blood',
+        lands: { on: 'hit' },
+        text: [
+          'For the spell’s duration, the affected creature’s speed is halved and it takes 2d6 cold damage at the start of each of its turns. ',
+          'At the end of each of its turns, the creature can make a Constitution saving throw, ending the effect on a success.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4612,6 +5577,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, you can target two additional creatures for each slot level above 5th.',
       ],
     ],
+    effects: [
+      {
+        key: 'frostbitten',
+        name: 'Frostbitten',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'In addition, for the duration of the spell, the creature’s speed is halved, it has disadvantage on attack rolls and ability checks, and it takes another 4d8 cold damage at the start of each of its turns.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['start-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   frostbitten_fingers: {
@@ -4630,6 +5607,18 @@ export default createSpells({
       [
         'After every 10 minutes of being affected by frostbitten fingers, the target must make a successful Constitution saving throw, or take 1d6 cold damage and lose one of the fingers on the affected hand, beginning with the pinkie.',
       ],
+    ],
+    effects: [
+      {
+        key: 'numb-hand',
+        name: 'Numb hand',
+        lands: { on: 'hit' },
+        text: [
+          'this spell causes one of the target’s hands to lose sensation. ',
+          'Additionally, the target has disadvantage on Dexterity checks or Strength checks that require the use of both hands.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4816,6 +5805,17 @@ export default createSpells({
         'Muttering Void Speech, you force images of terror and nonexistence upon your foes. Each creature in a 30-foot cube centered on a point within range must make an Intelligence saving throw. On a failed save, the creature goes insane for the duration. While insane, a creature takes no actions other than to shriek, wail, gibber, and babble unintelligibly. The GM controls the creature’s movement, which is erratic.',
       ],
     ],
+    effects: [
+      {
+        key: 'insane',
+        name: 'Insane',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          'While insane, a creature takes no actions other than to shriek, wail, gibber, and babble unintelligibly. The GM controls the creature’s movement, which is erratic.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   gloomwrought_barrier: {
@@ -4833,6 +5833,15 @@ export default createSpells({
         rules.frightened,
         ' until the start of the creature’s next turn, when it can try again to move through. Once a creature makes a successful saving throw against the wall, it is immune to the effect of this barrier.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened-by-barrier',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4854,6 +5863,23 @@ export default createSpells({
       [
         'Alternatively, gluey globule can also be used to glue an object to a solid surface or to another object. In this case, the spell works like a single application of [sovereign glue](https://api.open5e.com/spells/sovereign-glue) and lasts for 1 hour.',
       ],
+    ],
+    effects: [
+      {
+        key: 'glued',
+        name: 'Glued',
+        lands: { on: 'hit' },
+        conditions: [rules.restrained],
+        text: [
+          'A restrained creature can break free by using an action to make a successful Strength saving throw.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          cure: [
+            'The target can also be freed by an application of universal solvent or by taking 20 acid damage.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -4894,6 +5920,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can increase the duration by 1 minute, or you can affect one additional creature, for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'surefooted',
+        name: 'Surefooted',
+        lands: { on: 'use' },
+        text: [
+          'When ascending a slope that would normally be difficult terrain for it, the target can move at its full speed instead. The target also gains a +2 bonus on Dexterity checks and saving throws to prevent falling, to catch a ledge or otherwise stop a fall, or to move along a narrow ledge.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5020,6 +6057,24 @@ export default createSpells({
         'Green Decay. The flesh of a creature that has this disease is slowly consumed by a virulent extraterrestrial fungus. While the disease persists, the creature has disadvantage on Charisma and Wisdom checks and on Wisdom saving throws, and it has vulnerability to acid, fire, and necrotic damage. An affected creature must make a Constitution saving throw at the end of each of its turns. On a failed save, the creature takes 1d6 necrotic damage, and its hit point maximum is reduced by an amount equal to the necrotic damage taken. If the creature gets three successes on these saving throws before it gets three failures, the disease ends immediately (but the damage and the hit point maximum reduction remain in effect). If the creature gets three failures on these saving throws before it gets three successes, the disease lasts for the duration of the spell, and no further saving throws are allowed.',
       ],
     ],
+    effects: [
+      {
+        key: 'green-decay',
+        name: 'Green decay',
+        lands: { on: 'hit' },
+        text: [
+          'While the disease persists, the creature has disadvantage on Charisma and Wisdom checks and on Wisdom saving throws, and it has vulnerability to acid, fire, and necrotic damage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+      {
+        key: 'poisoned-nearby',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   grudge_match: {
@@ -5038,6 +6093,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 round for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'grudge',
+        name: 'Grudge match',
+        lands: { on: 'use' },
+        text: [
+          'For the duration of the spell, each target gains a +2 bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls made involving other targets of the spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5118,6 +6184,21 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd or 4th level, the duration increases to 1 hour. If you use a spell slot of 5th level or higher, the duration is 8 hours.',
       ],
     ],
+    effects: [
+      {
+        key: 'charm-immune',
+        name: 'Hardened',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the target becomes immune to being ',
+          rules.charmed,
+          ' for the duration; if it’s currently ',
+          rules.charmed,
+          ', that effect ends. In addition, Charisma checks against the target are made with disadvantage for the spell’s duration.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   harry: {
@@ -5138,6 +6219,20 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell with a 6th-level spell slot, the duration is concentration, up to 8 hours and the target can repeat the saving throw once each hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 24 hours, and the target can repeat the saving throw every 8 hours.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened-of-caster',
+        name: 'Frightened of the caster',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'until-removed' },
+        ends: {
+          cure: [
+            'The target can repeat the saving throw once every 10 minutes, ending the spell on a success.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5160,6 +6255,20 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the duration increases by 4 hours for each slot level above 5th. If an affected creature travels for more than 8 hours, it risks exhaustion as if on a forced march.',
       ],
     ],
+    effects: [
+      {
+        key: 'driven',
+        name: 'Driven by hounds',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+        ends: {
+          cure: [
+            'An affected creature can make a Wisdom saving throw at the end of each 4-hour period, ending the effect on itself on a success.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   harsh_light_of_summers_glare: {
@@ -5179,6 +6288,22 @@ export default createSpells({
         rules.blinded,
         '. This is not a gaze attack, and it cannot be avoided by averting one’s eyes or wearing a blindfold.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
+      {
+        key: 'stunned-darkvision',
+        name: 'Stunned (darkvision)',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5422,6 +6547,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'hobbled',
+        name: 'Hobbled mount',
+        text: [
+          'that beast is disabled so that it can’t move at its normal speed without incurring injury.',
+          ' An affected creature that moves more than half its base speed in a turn takes 2d6 bludgeoning damage.',
+        ],
+        lands: { on: 'hit' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   holy_ground: {
@@ -5478,6 +6615,18 @@ export default createSpells({
       [
         'If there isn’t a viable creature within range for the target to attack, it deals piercing damage to itself equal to 2d4 + its Strength modifier. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. If the target has two consecutive failures, hunger of Leng lasts its full duration with no further saving throws allowed.',
       ],
+    ],
+    effects: [
+      {
+        key: 'bite-frenzy',
+        name: 'Hungry for flesh',
+        text: [
+          'The target gains a bite attack and moves to and attacks the closest creature that isn’t an undead or a construct.',
+        ],
+        lands: { on: 'failed-save', save: 'wis' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5623,6 +6772,19 @@ export default createSpells({
         ' condition. A restrained creature gains one level of exhaustion at the start of each of its turns. Creatures immune to cold and that do not breathe do not gain exhaustion. A creature restrained in this way can repeat the saving throw at the end of each of its turns, ending the spell on a success.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by the Void',
+        conditions: [rules.restrained],
+        text: [
+          'A restrained creature gains one level of exhaustion at the start of each of its turns.',
+        ],
+        lands: { on: 'failed-save', save: 'con' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   icy_manipulation: {
@@ -5648,6 +6810,19 @@ export default createSpells({
         rules.petrified,
         ', the injury carries over to its normal state.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frozen-solid',
+        name: 'Frozen solid',
+        conditions: [rules.petrified],
+        text: [
+          'The petrification also becomes permanent if you maintain concentration on this spell for a full minute.',
+        ],
+        lands: { on: 'failed-save', save: 'con' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5757,6 +6932,19 @@ export default createSpells({
         " condition. Additionally, each recipient gains temporary hit points equal to your spellcasting ability modifier. If you move farther than 1 mile from your allies or you die, this spell ends. A character can be affected by only one casting of this spell at a time; subsequent, overlapping castings have no additional effect and don't extend the spell's duration.",
       ],
     ],
+    effects: [
+      {
+        key: 'inspired',
+        name: 'Inspired',
+        text: [
+          'gain a +1 bonus on attack rolls and advantage on saving throws for 1 hour against effects that cause the charmed or ',
+          rules.frightened,
+          ' condition.',
+        ],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   instant_fortification: {
@@ -5822,6 +7010,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can create one additional snare for each slot level above 3rd. When you receive the mental ping that a trap was triggered, you know which snare was triggered if you have more than one.',
       ],
+    ],
+    effects: [
+      {
+        key: 'snared',
+        name: 'Snared',
+        conditions: [rules.restrained],
+        lands: { on: 'failed-save', save: 'dex' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -5933,6 +7131,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d10 for each slot level above 5th.',
       ],
     ],
+    effects: [
+      {
+        key: 'max-hp-reduced',
+        name: 'Reduced hit point maximum',
+        text: ['The target’s hit point maximum is reduced by an amount equal to the damage taken.'],
+        lands: { on: 'use' },
+        lasts: { kind: 'until', text: ['the target finishes a long rest'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   kobolds_fury: {
@@ -5994,6 +7201,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d8 for each slot level above 5th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'curled-up',
+        name: 'Curled up',
+        conditions: [rules.prone, rules.stunned],
+        lands: { on: 'failed-save', save: 'wis' },
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6103,6 +7319,16 @@ export default createSpells({
       [
         'You tap into the life force of a creature that is capable of performing legendary actions. When you cast the spell, the target must make a successful Constitution saving throw or lose the ability to take legendary actions for the spell’s duration. A creature can’t use legendary resistance to automatically succeed on the saving throw against this spell. An affected creature can repeat the saving throw at the end of each of its turns, regaining 1 legendary action on a successful save. The target continues repeating the saving throw until the spell ends or it regains all its legendary actions.',
       ],
+    ],
+    effects: [
+      {
+        key: 'legendary-actions-lost',
+        name: 'Legendary actions lost',
+        text: ['lose the ability to take legendary actions for the spell’s duration.'],
+        lands: { on: 'failed-save', save: 'con' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6286,6 +7512,19 @@ export default createSpells({
         'A restrained creature can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.',
       ],
     ],
+    effects: [
+      {
+        key: 'shadow-bound',
+        name: 'Bound by shadows',
+        conditions: [rules.restrained],
+        text: [
+          'A creature that starts its turn restrained by the shadows must make a successful Constitution saving throw or gain one level of exhaustion.',
+        ],
+        lands: { on: 'failed-save', save: 'str' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   lock_armor: {
@@ -6306,6 +7545,19 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'locked-in-metal',
+        name: 'Locked in metal',
+        conditions: [rules.paralyzed],
+        lands: { on: 'failed-save', save: 'wis' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          repeatSave: ['end-of-turn'],
+          cure: ['A grease spell dispels lock armor on everything in its area.'],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6365,6 +7617,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'lovesick',
+        name: 'Lovesick',
+        text: [
+          'An affected target can’t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.',
+        ],
+        lands: { on: 'failed-save', save: 'wis' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   maddening_whispers: {
@@ -6382,6 +7646,18 @@ export default createSpells({
         rules.incapacitated,
         '. While incapacitated by this spell, the target’s speed is 0, and it can’t benefit from increases to its speed. To maintain the effect for the duration, you must use your action on subsequent turns to continue whispering; otherwise, the spell ends. The spell also ends if the target takes damage.',
       ],
+    ],
+    effects: [
+      {
+        key: 'whispered-into-stillness',
+        name: 'Whispered into stillness',
+        conditions: [rules.incapacitated],
+        text: [
+          'While incapacitated by this spell, the target’s speed is 0, and it can’t benefit from increases to its speed.',
+        ],
+        lands: { on: 'failed-save', save: 'cha' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6416,6 +7692,15 @@ export default createSpells({
         rules.poisoned,
         ' while within that radius.',
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned-in-miasma',
+        name: 'Poisoned in the miasma',
+        conditions: [rules.poisoned],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6465,6 +7750,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.',
       ],
     ],
+    effects: [
+      {
+        key: 'outlined',
+        name: 'Outlined in light',
+        text: ['the target is outlined in light that only you can see.'],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   mass_hobble_mount: {
@@ -6485,6 +7779,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'hobbled',
+        name: 'Hobbled mount',
+        text: [
+          'Each beast hit by your spell is disabled so that it can’t move at its normal speed without incurring injury.',
+          ' An affected creature that moves more than half its base speed in a turn takes 4d6 bludgeoning damage.',
+        ],
+        lands: { on: 'hit' },
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   mass_surge_dampener: {
@@ -6500,6 +7806,17 @@ export default createSpells({
       [
         'Using your strength of will, you protect up to three creatures other than yourself from the effect of a chaos magic surge. A protected creature can make a DC 13 Charisma saving throw to negate the effect of a chaos magic surge that does not normally allow a saving throw, or it gains advantage on a saving throw that is normally allowed. Once a protected creature makes a successful saving throw allowed by mass surge dampener, the spell’s effect ends for that creature.',
       ],
+    ],
+    effects: [
+      {
+        key: 'surge-protected',
+        name: 'Protected from surge',
+        text: [
+          'A protected creature can make a DC 13 Charisma saving throw to negate the effect of a chaos magic surge that does not normally allow a saving throw, or it gains advantage on a saving throw that is normally allowed.',
+        ],
+        lands: { on: 'use' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6519,6 +7836,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage of the spiny bite and the spines increases by 1d6 for every two slot levels above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'spines-stuck',
+        name: 'Spines stuck',
+        text: [
+          'Until this spell ends, the target must succeed on a Constitution saving throw at the start of each of its turns or take 1d6 piercing damage from the spines.',
+        ],
+        lands: { on: 'failed-save', save: 'dex' },
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6541,6 +7869,15 @@ export default createSpells({
         'A creature that succeeds on the saving throw is immune to further castings of this spell for 24 hours.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   mephitic_croak: {
@@ -6561,6 +7898,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, both acid and thunder damage increase by 1d6 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned-and-poisoned',
+        name: 'Stunned and poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned, rules.poisoned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6599,6 +7945,16 @@ export default createSpells({
       [
         'When you cast mire, you create a 10-foot-diameter pit of quicksand, sticky mud, or a similar dangerous natural hazard suited to the region. A creature that’s in the area when the spell is cast or that enters the affected area must make a successful Strength saving throw or sink up to its waist and be restrained by the mire. From that point on, the mire acts as quicksand, but the DC for Strength checks to escape from the quicksand is equal to your spell save DC. A creature outside the mire trying to pull another creature free receives a +5 bonus on its Strength check.',
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6656,6 +8012,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can affect one additional monstrosity for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+        ends: { cure: ['If you or one of your companions harms the target, the spell ends.'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6722,6 +8088,23 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration is 8 hours and you can target up to ten willing creatures within 30 feet of you.',
       ],
     ],
+    effects: [
+      {
+        key: 'mud-protection',
+        name: 'Mud pack',
+        lands: { on: 'use' },
+        text: [
+          'For the duration, the spell protects the target from extreme cold and heat, allowing the target to automatically succeed on Constitution saving throws against environmental hazards related to temperature.',
+          ' In addition, the target has advantage on Dexterity (Stealth) checks while traveling at a slow pace in the terrain related to the component for this spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: {
+          cure: [
+            'If the target is subject to heavy precipitation for 1 minute, the precipitation removes the mud, ending the spell.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   negative_image: {
@@ -6777,6 +8160,23 @@ export default createSpells({
         '. A paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures immune to being frightened are not affected by night terrors.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'use' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   nightfall: {
@@ -6811,6 +8211,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'distracted',
+        name: 'Distracted',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'On a failed save, the target has disadvantage on ability checks and attack rolls for the duration as it is distracted by the dogs.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6849,6 +8261,17 @@ export default createSpells({
         'The creature you touch gains protection against either a specific damage type (slashing, poison, fire, radiant, and the like) or a category of creature (giant, beast, elemental, monstrosity, and so forth) that you name when the spell is cast. For the next 24 hours, the target has advantage on saving throws involving that type of damage or kind of creature, including death saving throws if the attack that dropped the target to 0 hit points is affected by this spell. A character can be under the effect of only a single not this day! spell at one time; a second casting on the same target cancels the preexisting protection.',
       ],
     ],
+    effects: [
+      {
+        key: 'protected',
+        name: 'Protected',
+        lands: { on: 'use' },
+        text: [
+          'For the next 24 hours, the target has advantage on saving throws involving that type of damage or kind of creature, including death saving throws if the attack that dropped the target to 0 hit points is affected by this spell.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   orb_of_light: {
@@ -6872,6 +8295,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   outflanking_boon: {
@@ -6890,6 +8322,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the spell targets one additional enemy for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'flanked',
+        name: 'Flanked',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'Your allies gain advantage on melee attacks against the target for the duration because of the distracting effect of the illusion.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -6934,6 +8378,17 @@ export default createSpells({
         'You give the touched creature an aspect of regularity in its motions and fortunes. If the target gets a failure on a Wisdom saving throw, then for the duration of the spell it doesn’t make d20 rolls—to determine the results of attack rolls, ability checks, and saving throws it instead follows the sequence 20, 1, 19, 2, 18, 3, 17, 4, and so on.',
       ],
     ],
+    effects: [
+      {
+        key: 'pendulum',
+        name: 'Pendulum',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'for the duration of the spell it doesn’t make d20 rolls—to determine the results of attack rolls, ability checks, and saving throws it instead follows the sequence 20, 1, 19, 2, 18, 3, 17, 4, and so on.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   phantom_dragon: {
@@ -6959,6 +8414,16 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, increase the number of targets the illusion can affect by one for each slot level above 3rd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { cure: ['until it uses an action to make a successful Wisdom saving throw'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7002,6 +8467,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   potency_of_the_pack: {
@@ -7032,6 +8506,37 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 minute for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'thick-fur',
+        name: 'Thick Fur',
+        lands: { on: 'use' },
+        text: [
+          'Each target sprouts fur over its entire body, giving it a +2 bonus to Armor Class.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'keen-hearing-and-smell',
+        name: 'Keen Hearing and Smell',
+        lands: { on: 'use' },
+        text: [
+          'Each target has advantage on Wisdom (Perception) checks that rely on hearing or smell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'pack-tactics',
+        name: 'Pack Tactics',
+        lands: { on: 'use' },
+        text: [
+          'Each affected creature has advantage on an attack roll against a target if at least one of the attacker’s allies (also under the effect of this spell) is within 5 feet of the target of the attack and the ally isn’t ',
+          rules.incapacitated,
+          '.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   power_word_kneel: {
@@ -7049,6 +8554,21 @@ export default createSpells({
         rules.prone,
         '. Up to 55 hit points of creatures are affected, beginning with those that have the fewest hit points. A kneeling creature makes a Wisdom saving throw at the end of its turn, ending the effect on itself on a successful save. The effect ends immediately on any creature that takes damage while kneeling.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'use' },
+        conditions: [rules.prone],
+        lasts: {
+          kind: 'until',
+          text: [
+            'A kneeling creature makes a Wisdom saving throw at the end of its turn, ending the effect on itself on a successful save.',
+            ' The effect ends immediately on any creature that takes damage while kneeling.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7123,6 +8643,43 @@ export default createSpells({
         'A target takes half as much damage on a successful Dexterity saving throw. A successful Constitution or Wisdom saving throw negates the effect of a ray that inflicts a condition on the target; on a failed save, the target is affected for 5 rounds or until the effect is negated. If the result of your attack roll is a critical hit, you can choose the color of the beam that hits the target, but the attack does not deal additional damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+      },
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+      },
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+      },
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+      },
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   protection_from_the_void: {
@@ -7138,6 +8695,17 @@ export default createSpells({
       [
         'Until the spell ends, one willing creature you touch has resistance to necrotic and psychic damage and has advantage on saving throws against Void spells.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protected',
+        name: 'Protected',
+        lands: { on: 'use' },
+        text: [
+          'has resistance to necrotic and psychic damage and has advantage on saving throws against Void spells.',
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7181,6 +8749,15 @@ export default createSpells({
         rules.blinded,
         ' until the start of your next turn. Puff of smoke has no effect on creatures that have tremorsense or blindsight.',
       ],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7228,6 +8805,27 @@ export default createSpells({
         ' until the stone is broken away.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained-in-stone',
+        name: 'Restrained in hardened stone',
+        lands: { on: 'use' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'until', text: ['the stone is broken away'] },
+      },
+      {
+        key: 'hardened-lava',
+        name: 'Hardened lava layer',
+        lands: { on: 'use' },
+        text: [
+          'its speed is reduced by half and it has disadvantage on Dexterity saving throws, caused by a hardening layer of lava.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: ['the creature uses an action to break the hardened stone away from itself'],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   quick_time: {
@@ -7262,6 +8860,17 @@ export default createSpells({
       [
         'You touch one willing creature. Once before the duration of the spell expires, the target can roll a d4 and add the number rolled to an initiative roll or Dexterity saving throw it has just made. The spell then ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'quickened',
+        name: 'Quickened',
+        lands: { on: 'use' },
+        text: [
+          'the target can roll a d4 and add the number rolled to an initiative roll or Dexterity saving throw it has just made.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7303,6 +8912,16 @@ export default createSpells({
         rules.restrained,
         '. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or if the effect ends for it, the creature is immune to the frightening effect of the spell until you cast quintessence again.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightening-presence',
+        name: 'Frightened by the archangel',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened, rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7348,6 +8967,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, an unbroken blade can be picked up and used as a magical +1 weapon until it disappears.',
       ],
+    ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'cha' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'time', amount: '1d4', unit: 'round' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7407,6 +9035,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the bonus to damage increases by 1 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'berserk-savagery',
+        name: 'Berserk savagery',
+        lands: { on: 'use' },
+        text: [
+          'have advantage on Strength checks and Strength saving throws; resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks; and a +2 bonus to damage with melee weapons.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   reposition: {
@@ -7465,6 +9104,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7533,6 +9181,17 @@ export default createSpells({
         'The iron ring you use to cast the spell becomes a faintly shimmering circlet of energy that spins slowly around you at a radius of 15 feet. For the duration, you and your allies inside the protected area have advantage on saving throws against spells, and all affected creatures gain resistance to one type of damage of your choice.',
       ],
     ],
+    effects: [
+      {
+        key: 'ring-ward',
+        name: 'Ring ward',
+        lands: { on: 'use' },
+        text: [
+          'you and your allies inside the protected area have advantage on saving throws against spells, and all affected creatures gain resistance to one type of damage of your choice.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   riptide: {
@@ -7564,6 +9223,22 @@ export default createSpells({
         ' until the start of your next turn.',
       ],
     ],
+    effects: [
+      {
+        key: 'suspended',
+        name: 'Suspended in the cylinder',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+      {
+        key: 'undertow-stun',
+        name: 'Stunned by undertow',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   rolling_thunder: {
@@ -7589,6 +9264,19 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened and wreathed in thunder',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.deafened],
+        text: [
+          'it is wreathed in thundering energy; it takes 2d8 thunder damage at the start of its turn, and its speed is halved.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7631,6 +9319,22 @@ export default createSpells({
         'A creature adjacent to the rune can use a move action to attempt to disrupt its energies; doing so allows the imprisoned creature to make a Wisdom saving throw. On a success, this disruption negates the imprisonment and ends the effect. Disruption can be attempted only once per round.',
       ],
     ],
+    effects: [
+      {
+        key: 'imprisoned',
+        name: 'Imprisoned in a rune',
+        lands: { on: 'hit' },
+        text: [
+          'the subject can take no actions while imprisoned, nor can the subject be targeted or affected by any means.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          cure: [
+            'A creature adjacent to the rune can use a move action to attempt to disrupt its energies; doing so allows the imprisoned creature to make a Wisdom saving throw. On a success, this disruption negates the imprisonment and ends the effect.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   salt_lash: {
@@ -7649,6 +9353,15 @@ export default createSpells({
       [
         'The spell lasts until you stop concentrating on it, the duration expires, or you let go of the blade for any reason.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned by searing pain',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7707,6 +9420,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the number of affected targets increases by one for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'plagued-armor',
+        name: 'Plagued armor',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'attacks against that creature’s Armor Class are made with advantage, and the creature can’t regain hit points through any means while the spell remains in effect.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   scentless: {
@@ -7724,6 +9448,17 @@ export default createSpells({
         rules.invisible,
         ' to a creature that relies solely on smell to sense its surroundings. This spell has no effect on targets with unusually strong scents, such as ghasts.',
       ],
+    ],
+    effects: [
+      {
+        key: 'scentless',
+        name: 'Scentless',
+        lands: { on: 'use' },
+        text: [
+          'the target gives off no odor. A creature that relies on smell has disadvantage on Wisdom (Perception) checks to detect the target and Wisdom (Survival) checks to track the target.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7747,6 +9482,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you create one additional ray for each slot level above 1st. You can direct the rays at one target or several.',
       ],
+    ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened',
+        lands: { on: 'hit' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7833,6 +9577,17 @@ export default createSpells({
         'The seal has AC 18, 50 hit points, resistance to bludgeoning, piercing, and slashing damage, and immunity to psychic and poison damage. Ranged attacks against the seal are made with disadvantage. If it is scribed on the surface of an object that is later destroyed (such as a wooden door), the seal is not damaged and remains in place, perhaps suspended in midair. The spell ends only if the seal is reduced to 0 hit points.',
       ],
     ],
+    effects: [
+      {
+        key: 'sealed-ground',
+        name: 'Sealed ground',
+        lands: { on: 'use' },
+        text: [
+          'Aberrations, elementals, fey, and undead that are within 50 feet of the seal (inside the boundary) have disadvantage on ability checks, attack rolls, and saving throws, and each such creature takes 2d8 radiant damage at the start of its turn.',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   searing_sun: {
@@ -7897,6 +9652,24 @@ export default createSpells({
         'The hydra disappears at the end of the spell’s duration, or its existence can be cut short with a [wish](https://api.open5e.com/spells/wish) spell or comparable magic, but nothing less. The embryo can be destroyed before it reaches maturity by using a [dispel magic](https://api.open5e.com/spells/dispel-magic) spell under the normal rules for dispelling high-level magic.',
       ],
     ],
+    effects: [
+      {
+        key: 'embryo',
+        name: 'Hydra embryo',
+        lands: { on: 'hit' },
+        text: [
+          'During the rounds when the embryo is gestating, the affected creature takes 5d4 slashing damage at the start of its turn, or half the damage with a successful Constitution saving throw.',
+        ],
+        lasts: { kind: 'until', text: ['a tiny hydra erupts from the target’s abdomen'] },
+        ends: {
+          cure: [
+            'The embryo can be destroyed before it reaches maturity by using a',
+            ' dispel magic',
+            ' spell under the normal rules for dispelling high-level magic.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   seeping_death: {
@@ -7918,6 +9691,22 @@ export default createSpells({
       [
         'Seeping Death. The creature’s flesh is slowly liquefied by a lingering necrotic pestilence. At the end of each long rest, the diseased creature must succeed on a Constitution saving throw or its Dexterity score is reduced by 1d4. The reduction lasts until the target finishes a long rest after the disease is cured. If the disease reduces the creature’s Dexterity to 0, the creature dies.',
       ],
+    ],
+    effects: [
+      {
+        key: 'seeping-death',
+        name: 'Seeping death disease',
+        lands: { on: 'hit' },
+        text: [
+          'At the end of each long rest, the diseased creature must succeed on a Constitution saving throw or its Dexterity score is reduced by 1d4.',
+        ],
+        lasts: { kind: 'time', amount: '3', unit: 'day' },
+        ends: {
+          cure: [
+            'any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it and can end the spell early.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -7955,6 +9744,17 @@ export default createSpells({
         rules.frightened,
         ' condition.',
       ],
+    ],
+    effects: [
+      {
+        key: 'dread-presence',
+        name: 'Dread presence',
+        lands: { on: 'use' },
+        text: [
+          'any creature within 10 feet of you and able to see you can’t willingly move closer to you unless it makes a successful Wisdom saving throw at the start of its turn.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8027,6 +9827,15 @@ export default createSpells({
         'You make a melee spell attack against a creature you touch that has darkvision as an innate ability; on a hit, the target’s darkvision is negated until the spell ends. This spell has no effect against darkvision that derives from a spell or a magic item. The target retains all of its other senses.',
       ],
     ],
+    effects: [
+      {
+        key: 'darkvision-negated',
+        name: 'Darkvision negated',
+        lands: { on: 'hit' },
+        text: ['the target’s darkvision is negated until the spell ends.'],
+        lasts: { kind: 'time', amount: '1', unit: 'round' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   shadow_hands: {
@@ -8050,6 +9859,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage dealt by the attack increases by 2d4 for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened by shadow',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   shadow_monsters: {
@@ -8068,6 +9886,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'shadow-monster',
+        name: 'Perceives allies as shadow monsters',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'On a failed save, the creature perceives its allies as hostile, shadowy monsters, and it must attack its nearest ally.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8089,6 +9919,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.',
       ],
+    ],
+    effects: [
+      {
+        key: 'incapacitated',
+        name: 'Shadow puppet',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8188,6 +10027,22 @@ export default createSpells({
         'A small icy globe shoots from your finger to a point within range and then explodes in a spray of ice. Each creature within 20 feet of that point must make a successful Dexterity saving throw or become coated in ice for 1 minute. Ice-coated creatures move at half speed. An invisible creature becomes outlined by the ice so that it loses the benefits of invisibility while the ice remains. The spell ends for a specific creature if that creature takes 5 or more fire damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'ice-coated',
+        name: 'Ice-coated',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          'Ice-coated creatures move at half speed. An invisible creature becomes outlined by the ice so that it loses the benefits of invisibility while the ice remains.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          cure: [
+            'The spell ends for a specific creature if that creature takes 5 or more fire damage.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   shifting_the_odds: {
@@ -8222,6 +10077,15 @@ export default createSpells({
       [
         'At Higher Levels. The maximum hit points you can affect increases by 4d8 when you reach 5th level (9d8), 11th level (13d8), and 17th level (17d8).',
       ],
+    ],
+    effects: [
+      {
+        key: 'chilled',
+        name: 'Chattering cold',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['it cannot cast a spell or load a missile weapon until the end of your next turn.'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'source' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8344,6 +10208,17 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can affect one additional creature for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'unrested',
+        name: 'Haunted sleep',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'it garners no benefit from the rest, and when it awakens, it gains one level of exhaustion and is afflicted with short‑term madness.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   slippery_fingers: {
@@ -8404,6 +10279,15 @@ export default createSpells({
       ['3 · Large · 4d6 bludgeoning'],
       ['4 · Huge · 6d6 bludgeoning'],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   snow_fort: {
@@ -8441,6 +10325,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.',
       ],
+    ],
+    effects: [
+      {
+        key: 'snowy-coat',
+        name: 'Snowy coat',
+        lands: { on: 'use' },
+        text: [
+          'This spell makes a slight alteration to a target creature’s appearance that gives it advantage on Dexterity (Stealth) checks to hide in snowy terrain. In addition, the target can use a bonus action to make itself invisible in snowy terrain for 1 minute.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8496,6 +10391,19 @@ export default createSpells({
         'You designate a creature you can see within range and tell it to spin. The creature can resist this command with a successful Wisdom saving throw. On a failed save, the creature spins in place for the duration of the spell. A spinning creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that has spun for 1 round or longer becomes dizzy and has disadvantage on attack rolls and ability checks until 1 round after it stops spinning.',
       ],
     ],
+    effects: [
+      {
+        key: 'spinning',
+        name: 'Spinning',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the creature spins in place for the duration of the spell. ',
+          'A creature that has spun for 1 round or longer becomes dizzy and has disadvantage on attack rolls and ability checks until 1 round after it stops spinning.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   spinning_axes: {
@@ -8539,6 +10447,17 @@ export default createSpells({
       [
         'At Higher Levels. The target has disadvantage on its Charisma saving throws if spiteful weapon is cast using a spell slot of 5th level or higher.',
       ],
+    ],
+    effects: [
+      {
+        key: 'spiteful-connection',
+        name: 'Spiteful connection',
+        lands: { on: 'use' },
+        text: [
+          'whenever the attacker takes damage while holding the weapon, the target must make a Charisma saving throw.',
+        ],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8647,6 +10566,22 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, you can create one additional bolt for each slot level above 5th.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+      {
+        key: 'blinded',
+        name: 'Blinded by starlight',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   starry_vision: {
@@ -8692,6 +10627,16 @@ export default createSpells({
         rules.incapacitated,
         '.',
       ],
+    ],
+    effects: [
+      {
+        key: 'crushed',
+        name: 'Crushed by gravity',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone, rules.incapacitated],
+        text: ['and can’t move.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8749,6 +10694,15 @@ export default createSpells({
         ' for 1d8 hours. A successful Constitution saving throw halves the damage and reduces the deafness to 1 round.',
       ],
     ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened by scream',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1d8', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   stench_of_rot: {
@@ -8768,6 +10722,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the duration increases by 1 hour for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'cursed',
+        name: 'Cursed with rot',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'While cursed, the target reeks of death and rot, and nothing short of magic can mask or remove the smell. The target has disadvantage on all Charisma checks and on Constitution saving throws to maintain concentration on spells.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+        ends: { cure: ['spell or similar magic ends the spell early.'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   storm_of_wings: {
@@ -8783,6 +10749,35 @@ export default createSpells({
       [
         "You create a storm of spectral birds, bats, or flying insects in a 15-foot-radius sphere on a point you can see within range. The storm spreads around corners, and its area is lightly obscured. Each creature in the storm when it appears and each a creature that starts its turn in the storm is affected by the storm. As a bonus action on your turn, you can move the storm up to 30 feet. As an action on your turn, you can change the storm from one type to another, such as from a storm of bats to a storm of insects. Bats. The creature takes 4d6 necrotic damage, and its speed is halved while within the storm as the bats cling to it and drain its blood. Birds. The creature takes 4d6 slashing damage, and has disadvantage on attack rolls while within the storm as the birds fly in the way of the creature's attacks. Insects. The creature takes 4d6 poison damage, and it must make a Constitution saving throw each time it casts a spell while within the storm. On a failed save, the creature fails to cast the spell, losing the action but not the spell slot.",
       ],
+    ],
+    effects: [
+      {
+        key: 'bats',
+        name: 'Storm of bats',
+        lands: { on: 'use' },
+        text: [
+          'its speed is halved while within the storm as the bats cling to it and drain its blood.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'birds',
+        name: 'Storm of birds',
+        lands: { on: 'use' },
+        text: [
+          "has disadvantage on attack rolls while within the storm as the birds fly in the way of the creature's attacks.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+      {
+        key: 'insects',
+        name: 'Storm of insects',
+        lands: { on: 'use' },
+        text: [
+          'it must make a Constitution saving throw each time it casts a spell while within the storm.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8851,6 +10846,16 @@ export default createSpells({
         ' for the duration of the spell. A creature charmed in this way can repeat the Wisdom saving throw at the end of each of its turns. On a success, the creature is no longer charmed and is immune to the effect of this casting of the spell. In all other ways, the star is equivalent to a [deva](https://api.open5e.com/monsters/deva). It understands and obeys verbal commands you give it. If you do not give the star a command, it defends itself and attacks the last creature that attacked it. The star disappears when it drops to 0 hit points or when the spell ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by the star',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   surge_dampener: {
@@ -8866,6 +10871,22 @@ export default createSpells({
       [
         'Using your strength of will, you cause one creature other than yourself that you touch to become so firmly entrenched within reality that it is protected from the effects of a chaos magic surge. The protected creature can make a DC 13 Charisma saving throw to negate the effect of a chaos magic surge that does not normally allow a saving throw, or it gains advantage on a saving throw that is normally allowed. Once the protected creature makes a successful saving throw allowed by surge dampener, the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'protected',
+        name: 'Protected from chaos surge',
+        lands: { on: 'use' },
+        text: [
+          'The protected creature can make a DC 13 Charisma saving throw to negate the effect of a chaos magic surge that does not normally allow a saving throw, or it gains advantage on a saving throw that is normally allowed.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'Once the protected creature makes a successful saving throw allowed by surge dampener, the spell ends.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -8900,6 +10921,102 @@ export default createSpells({
       ],
       ['Stunned: The target has advantage on Intelligence, Wisdom, and Charisma saving throws.'],
     ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Surprise blessing: Blinded',
+        lands: { on: 'use' },
+        text: [
+          'The target gains truesight out to a range of 10 feet and can see 10 feet into the Ethereal Plane.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+      {
+        key: 'charmed',
+        name: 'Surprise blessing: Charmed',
+        lands: { on: 'use' },
+        text: [
+          'The target’s Charisma score becomes 19, unless it is already higher than 19, and it gains immunity to charm effects.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+      {
+        key: 'frightened',
+        name: 'Surprise blessing: Frightened',
+        lands: { on: 'use' },
+        text: [
+          'The target emits a 10-foot-radius aura of dread. Each creature the target designates that starts its turn in the aura must make a successful Wisdom saving throw or be frightened of the target. A creature frightened in this way that starts its turn outside the aura repeats the saving throw, ending the condition on itself on a success.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+      {
+        key: 'paralyzed',
+        name: 'Surprise blessing: Paralyzed',
+        lands: { on: 'use' },
+        text: ['The target can use one extra bonus action or reaction per round.'],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+      {
+        key: 'petrified',
+        name: 'Surprise blessing: Petrified',
+        lands: { on: 'use' },
+        text: ['The target gains a +2 bonus to AC.'],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+      {
+        key: 'poisoned',
+        name: 'Surprise blessing: Poisoned',
+        lands: { on: 'use' },
+        text: [
+          'The target heals 2d6 hit points at the start of its next turn, and it gains immunity to poison damage and the ',
+          rules.poisoned,
+          ' condition.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+      {
+        key: 'stunned',
+        name: 'Surprise blessing: Stunned',
+        lands: { on: 'use' },
+        text: ['The target has advantage on Intelligence, Wisdom, and Charisma saving throws.'],
+        lasts: {
+          kind: 'until',
+          text: [
+            'This spell’s effect on the target lasts for the duration of the original condition or until the spell ends.',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   symbol_of_sorcery: {
@@ -8917,6 +11034,16 @@ export default createSpells({
         rules.stunned,
         '. A stunned creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a successful save. After this symbol explodes or when the duration expires, its power is spent and the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned by symbol',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9018,6 +11145,19 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional humanoid for each slot level above 3rd. The humanoids must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'euphoric',
+        name: 'Overcome with euphoria',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.incapacitated],
+        text: [
+          'The target automatically fails Wisdom saving throws, and attack rolls against the target have advantage.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   thunder_bolt: {
@@ -9056,6 +11196,15 @@ export default createSpells({
       [
         'This spell doesn’t function in an area affected by a [silence](https://api.open5e.com/spells/silence) spell. Very brittle material such as crystal might be shattered if it’s within range, at the GM’s discretion; a character holding such an object can protect it from harm by making a successful Dexterity saving throw.',
       ],
+    ],
+    effects: [
+      {
+        key: 'deafened',
+        name: 'Deafened by thunder',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '1d8', unit: 'round' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9113,6 +11262,15 @@ export default createSpells({
         ', and it takes 2d6 bludgeoning damage if it strikes an obstruction. The spell also emits a thunderous boom that can be heard within 400 feet.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Prone',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   thunderstorm: {
@@ -9144,6 +11302,15 @@ export default createSpells({
       [
         'A swirling wave of seawater surrounds you, crashing and rolling in a 10-foot radius around your space. The area is difficult terrain, and a creature that starts its turn there or that enters it for the first time on a turn must make a Strength saving throw. On a failed save, the creature is pushed 10 feet away from you and its speed is reduced to 0 until the start of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'speed-zero',
+        name: 'Speed reduced to 0',
+        lands: { on: 'failed-save', save: 'str' },
+        text: ['its speed is reduced to 0 until the start of its next turn.'],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'target' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9198,6 +11365,18 @@ export default createSpells({
         'An affected target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. For as long as the spell lasts, the target teleports back to its starting point at the start of each of its turns, and it must repeat the same sequence of moves and actions.',
       ],
     ],
+    effects: [
+      {
+        key: 'looped',
+        name: 'Looped',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'For as long as the spell lasts, the target teleports back to its starting point at the start of each of its turns, and it must repeat the same sequence of moves and actions.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   time_slippage: {
@@ -9216,6 +11395,24 @@ export default createSpells({
         rules.stunned,
         ' until the end of its next turn. On a success, the creature’s speed is halved and it has disadvantage on attack rolls and saving throws until the end of its next turn. The creature repeats the saving throw at the end of each of its turns, with the same effects for success and failure. In addition, the creature has disadvantage on Strength or Dexterity saving throws but advantage on Constitution or Charisma saving throws for the spell’s duration (a side effect of the chronal anomaly suffusing its body). The spell ends if the creature makes three successful saves in a row.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'chronal-anomaly',
+        name: 'Chronal anomaly',
+        lands: { on: 'use' },
+        text: [
+          'the creature has disadvantage on Strength or Dexterity saving throws but advantage on Constitution or Charisma saving throws.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9267,6 +11464,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.',
       ],
     ],
+    effects: [
+      {
+        key: 'time-vortex',
+        name: 'Time vortex',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'An affected creature can’t take reactions and rolls a d10 at the start of its turn to determine its behavior for that turn.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   timely_distraction: {
@@ -9287,6 +11496,40 @@ export default createSpells({
       ['2 · Stunned'],
       ['3 · Deafened'],
       ['4 · Prone'],
+    ],
+    effects: [
+      {
+        key: 'blinded',
+        name: 'Blinded (timely distraction)',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '3', unit: 'round' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'stunned',
+        name: 'Stunned (timely distraction)',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '3', unit: 'round' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'deafened',
+        name: 'Deafened (timely distraction)',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.deafened],
+        lasts: { kind: 'time', amount: '3', unit: 'round' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'prone',
+        name: 'Prone (timely distraction)',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.prone],
+        lasts: { kind: 'time', amount: '3', unit: 'round' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9339,6 +11582,17 @@ export default createSpells({
         'You make a choking motion while pointing at a target, which must make a successful Wisdom saving throw or become unable to communicate verbally. The target’s speech becomes garbled, and it has disadvantage on Charisma checks that require speech. The creature can cast a spell that has a verbal component only by making a successful Constitution check against your spell save DC. On a failed check, the creature’s action is used but the spell slot isn’t expended.',
       ],
     ],
+    effects: [
+      {
+        key: 'tongue-tied',
+        name: 'Tongue tied',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'The target’s speech becomes garbled, and it has disadvantage on Charisma checks that require speech. The creature can cast a spell that has a verbal component only by making a successful Constitution check against your spell save DC.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   torrent_of_fire: {
@@ -9376,6 +11630,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'paralyzed',
+        name: 'Paralyzed',
+        lands: { on: 'hit' },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   tracer: {
@@ -9391,6 +11654,22 @@ export default createSpells({
       [
         'When you cast this spell and as a bonus action on each of your turns until the spell ends, you can imbue a piece of ammunition you fire from a ranged weapon with a tiny, invisible beacon. If a ranged attack roll with an imbued piece of ammunition hits a target, the beacon is transferred to the target. The weapon that fired the ammunition is attuned to the beacon and becomes warm to the touch when it points in the direction of the target as long as the target is on the same plane of existence as you. You can have only one tracer target at a time. If you put a tracer on a different target, the effect on the previous target ends. A creature must succeed on an Intelligence (Arcana) check against your spell save DC to notice the magical beacon.',
       ],
+    ],
+    effects: [
+      {
+        key: 'tracer-beacon',
+        name: 'Tracer beacon',
+        lands: { on: 'hit' },
+        text: [
+          'The weapon that fired the ammunition is attuned to the beacon and becomes warm to the touch when it points in the direction of the target as long as the target is on the same plane of existence as you.',
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+        ends: {
+          cure: [
+            'If you put a tracer on a different target, the effect on the previous target ends.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9415,6 +11694,22 @@ export default createSpells({
       [
         'Creatures with the dragon type have disadvantage on the initial saving throw but have advantage on saving throws against this spell made after reaching the designated spot.',
       ],
+    ],
+    effects: [
+      {
+        key: 'lured',
+        name: 'Lured by treasure',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.incapacitated],
+        text: ['On its next turn, the creature must move toward that spot.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: {
+          repeatSave: ['end-of-turn'],
+          cure: [
+            'The effect also ends if the creature takes damage from you or one of your allies.',
+          ],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9537,6 +11832,22 @@ export default createSpells({
         ' for 1d6 rounds unless it makes a successful Constitution saving throw, and it treats the affected area as difficult terrain.',
       ],
     ],
+    effects: [
+      {
+        key: 'fire-elemental-stun',
+        name: 'Stunned (elemental fire)',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1d6', unit: 'round' },
+      },
+      {
+        key: 'water-elemental-paralysis',
+        name: 'Paralyzed (elemental water)',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.paralyzed],
+        lasts: { kind: 'time', amount: '1d6', unit: 'round' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   twist_the_skein: {
@@ -9573,6 +11884,15 @@ export default createSpells({
         'You can use a bonus action on your turn to move the area of the storm 30 feet in any direction.',
       ],
     ],
+    effects: [
+      {
+        key: 'exhaustion',
+        name: 'Exhaustion',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['gains one level of exhaustion'],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   uncontrollable_transformation: {
@@ -9606,6 +11926,17 @@ export default createSpells({
       ],
       ['Undermine armor has no effect on creatures that aren’t wearing armor.'],
     ],
+    effects: [
+      {
+        key: 'armor-softened',
+        name: 'Armor softened',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'its armor softens to the consistency of candle wax, decreasing the target’s AC by 2.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   unholy_defiance: {
@@ -9621,6 +11952,17 @@ export default createSpells({
       [
         'Until the spell ends, undead creatures within range have advantage on saving throws against effects that turn undead. If an undead creature within this area has the Turning Defiance trait, that creature can roll a d4 when it makes a saving throw against an effect that turns undead and add the number rolled to the saving throw.',
       ],
+    ],
+    effects: [
+      {
+        key: 'defiant',
+        name: 'Defiant',
+        lands: { on: 'use' },
+        text: [
+          'undead creatures within range have advantage on saving throws against effects that turn undead.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9690,6 +12032,16 @@ export default createSpells({
         ', and the strangler can’t attack another target. If the strangler scores a critical hit, the target begins to suffocate and can’t speak until the grapple ends.',
       ],
     ],
+    effects: [
+      {
+        key: 'grappled-by-strangler',
+        name: 'Grappled by the strangler',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled, rules.restrained],
+        lasts: { kind: 'until-removed' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   vine_trestle: {
@@ -9734,6 +12086,22 @@ export default createSpells({
         ' permanently.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'blinded',
+        name: 'Blinded',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.blinded],
+        lasts: { kind: 'time', amount: '1d4', unit: 'round' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   vital_mark: {
@@ -9774,6 +12142,15 @@ export default createSpells({
         'While concentrating on the spell, you take 2d6 necrotic damage at the end of each of your turns.',
       ],
     ],
+    effects: [
+      {
+        key: 'blinded-deafened',
+        name: 'Blinded and deafened',
+        lands: { on: 'use' },
+        conditions: [rules.blinded, rules.deafened],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   void_strike: {
@@ -9795,6 +12172,15 @@ export default createSpells({
         'At Higher Levels. When you cast the spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened of you',
+        lands: { on: 'hit' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   volley_shield: {
@@ -9813,6 +12199,17 @@ export default createSpells({
       [
         'In addition, the shield can reflect hostile spells back at their casters. When the target makes a successful saving throw against a hostile spell, the caster of the spell immediately becomes the spell’s new target. The caster is entitled to the appropriate saving throw against the returned spell, if any, and is affected by the spell as if it came from a spellcaster of the caster’s level.',
       ],
+    ],
+    effects: [
+      {
+        key: 'shielded',
+        name: 'Shielded',
+        lands: { on: 'use' },
+        text: [
+          'The shield grants the target a +5 bonus to AC and gives it resistance against nonmagical bludgeoning, piercing, and slashing damage for the duration of the spell.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9839,6 +12236,17 @@ export default createSpells({
       [
         'While the spell is in effect, you are incapable of speech and can’t cast spells that have verbal components.',
       ],
+    ],
+    effects: [
+      {
+        key: 'grappled-by-tentacles',
+        name: 'Grappled by tentacles',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled, rules.restrained],
+        text: ['it takes the same damage at the start of each of your turns.'],
+        lasts: { kind: 'time', amount: '5', unit: 'round' },
+        ends: { escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -9968,6 +12376,15 @@ export default createSpells({
       [
         'A creature you can see within range undergoes a baleful transmogrification. The target must make a successful Wisdom saving throw or suffer a flesh warp and be afflicted with a form of indefinite madness.',
       ],
+    ],
+    effects: [
+      {
+        key: 'warped-madness',
+        name: 'Flesh warp and madness',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['suffer a flesh warp and be afflicted with a form of indefinite madness.'],
+        lasts: { kind: 'until-removed' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -10103,6 +12520,15 @@ export default createSpells({
       ],
       ['As a bonus action, you can move the center of the effect 20 feet.'],
     ],
+    effects: [
+      {
+        key: 'exhaustion',
+        name: 'Exhaustion',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['gain one level of exhaustion'],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   winters_radiance: {
@@ -10118,6 +12544,17 @@ export default createSpells({
       [
         'When you cast this spell, the piercing rays of a day’s worth of sunlight reflecting off fresh snow blankets the area. A creature caught in the spell’s area must succeed on a Constitution saving throw or have disadvantage on ranged attacks and Wisdom (Perception) checks for the duration of the spell. In addition, an affected creature’s vision is hampered such that foes it targets are treated as having three-quarters cover.',
       ],
+    ],
+    effects: [
+      {
+        key: 'glare',
+        name: 'Glare',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'have disadvantage on ranged attacks and Wisdom (Perception) checks for the duration of the spell. In addition, an affected creature’s vision is hampered such that foes it targets are treated as having three-quarters cover',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -10157,6 +12594,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'withered-sight',
+        name: 'Withered sight',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'the creature has disadvantage on Wisdom (Perception) checks and all attack rolls for the duration of the spell',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   wolfsong: {
@@ -10194,6 +12643,18 @@ export default createSpells({
       [
         'You hiss a word of Void Speech. Choose one creature you can see within range. The next time the target makes a saving throw during the spell’s duration, it must roll a d4 and subtract the result from the total of the saving throw. The spell then ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'misfortune',
+        name: 'Misfortune',
+        lands: { on: 'use' },
+        text: ['it must roll a d4 and subtract the result from the total of the saving throw'],
+        lasts: {
+          kind: 'until',
+          text: ['the target makes a saving throw during the spell’s duration'],
+        },
+      },
     ],
     publication: refs.publications.deep_magic,
   },
@@ -10235,6 +12696,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage you deal with your tentacle attack increases by 1d10 for each slot level above 1st.',
       ],
     ],
+    effects: [
+      {
+        key: 'grappled',
+        name: 'Grappled',
+        lands: { on: 'hit' },
+        conditions: [rules.grappled],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.deep_magic,
   },
   yellow_sign: {
@@ -10253,6 +12724,16 @@ export default createSpells({
       [
         'A successful [remove curse](https://api.open5e.com/spells/remove-curse) spell ends both effects.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        text: ['While charmed in this way, the creature regards you as a sacred monarch'],
+        lasts: { kind: 'time', amount: '1d10', unit: 'hour' },
+      },
     ],
     publication: refs.publications.deep_magic,
   },

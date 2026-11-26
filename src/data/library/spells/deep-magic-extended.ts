@@ -129,6 +129,16 @@ export default createSpells({
         '. This spell has no effect on constructs and undead.',
       ],
     ],
+    effects: [
+      {
+        key: 'frightened',
+        name: 'Frightened',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.frightened],
+        lasts: { kind: 'until-removed' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   beguiling_gift: {
@@ -298,6 +308,17 @@ export default createSpells({
         "Deep Magic: clockwork You cause a handful of gears to orbit the target's body. These shield the spell's target from incoming attacks, granting a +2 bonus to AC and to Dexterity and Constitution saving throws for the duration, without hindering the subject's movement, vision, or outgoing attacks.",
       ],
     ],
+    effects: [
+      {
+        key: 'shielded',
+        name: 'Shielded',
+        lands: { on: 'use' },
+        text: [
+          "These shield the spell's target from incoming attacks, granting a +2 bonus to AC and to Dexterity and Constitution saving throws for the duration, without hindering the subject's movement, vision, or outgoing attacks.",
+        ],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   gift_of_azathoth: {
@@ -316,6 +337,18 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th, 6th, or 7th level, the duration increases to 48 hours. When you cast this spell using a spell slot of 8th or 9th level, the duration increases to 72 hours.',
       ],
+    ],
+    effects: [
+      {
+        key: 'death-save-advantage',
+        name: 'Death save advantage',
+        lands: { on: 'use' },
+        text: ['the target has advantage on the first three death saving throws it attempts.'],
+        lasts: {
+          kind: 'until',
+          text: ['24 hours or until the target attempts a third death saving throw'],
+        },
+      },
     ],
     publication: refs.publications.deep_magic_extended,
   },
@@ -336,6 +369,15 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a 9th-level spell slot, choose two damage types instead of one.',
       ],
     ],
+    effects: [
+      {
+        key: 'immunity-lost',
+        name: 'Immunity lost',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['lose immunity to the chosen damage type for the duration.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   gremlins: {
@@ -354,6 +396,17 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 5th or higher, the damage increases by 1d8 for each slot above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'harassed-by-spirits',
+        name: 'Harassed by spirits',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic_extended,
   },
@@ -467,6 +520,17 @@ export default createSpells({
         'You touch a willing creature and infuse it with ley energy, creating a bond between the creature and the land. For the duration of the spell, if the target is in contact with the ground, the target has advantage on saving throws and ability checks made to avoid being moved or knocked prone against its will. Additionally, the creature ignores nonmagical difficult terrain and is immune to effects from extreme environments such as heat, cold (but not cold or fire damage), and altitude.',
       ],
     ],
+    effects: [
+      {
+        key: 'anchored',
+        name: 'Anchored to the land',
+        lands: { on: 'use' },
+        text: [
+          'For the duration of the spell, if the target is in contact with the ground, the target has advantage on saving throws and ability checks made to avoid being moved or knocked prone against its will. Additionally, the creature ignores nonmagical difficult terrain and is immune to effects from extreme environments such as heat, cold (but not cold or fire damage), and altitude.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   lesser_ley_pulse: {
@@ -485,6 +549,15 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a 7th-level spell slot, choose two damage types instead of one.',
       ],
+    ],
+    effects: [
+      {
+        key: 'resistance-lost',
+        name: 'Resistance lost',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: ['lose resistance to the chosen damage type for the duration.'],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic_extended,
   },
@@ -592,6 +665,16 @@ export default createSpells({
         ' for 1 minute; a successful Constitution saving throw halves the damage and negates the stun. A stunned creature repeats the saving throw at the end of its turn, ending the effect on itself on a success. Special. A geomancer with a bound ley line can cast this spell as long as he or she is on the same plane as the bound line.',
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   ley_whip: {
@@ -651,6 +734,29 @@ export default createSpells({
         rules.poisoned,
         ' conditions.',
       ],
+    ],
+    effects: [
+      {
+        key: 'construct-traits',
+        name: 'Construct traits',
+        lands: { on: 'use' },
+        text: [
+          'The target gains resistance to all nonmagical damage and gains immunity to the ',
+          rules.blinded,
+          ', ',
+          rules.charmed,
+          ', ',
+          rules.deafened,
+          ', ',
+          rules.frightened,
+          ', ',
+          rules.petrified,
+          ', and ',
+          rules.poisoned,
+          ' conditions.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic_extended,
   },
@@ -736,6 +842,17 @@ export default createSpells({
         'Deep Magic: clockwork You can take control of a construct by voice or mental commands. The construct makes a Wisdom saving throw to resist the spell, and it gets advantage on the saving throw if its CR equals or exceeds your level in the class used to cast this spell. Once a command is given, the construct does everything it can to complete the command. Giving a new command takes an action. Constructs will risk harm, even go into combat, on your orders but will not self-destruct; giving such an order ends the spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'commanded',
+        name: 'Commanded',
+        lands: { on: 'failed-save', save: 'wis' },
+        text: [
+          'Once a command is given, the construct does everything it can to complete the command.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   molechs_blessing: {
@@ -768,6 +885,17 @@ export default createSpells({
         "Deep Magic: clockwork You wind your music box and call forth a piece of another plane of existence with which you are familiar, either through personal experience or intense study. The magic creates a bubble of space with a 30-foot radius within range of you and at a spot you designate. The portion of your plane that's inside the bubble swaps places with a corresponding portion of the plane your music box is attuned with. There is a 10% chance that the portion of the plane you summon arrives with native creatures on it. Inanimate objects and non-ambulatory life (like trees) are cut off at the edge of the bubble, while living creatures that don't fit inside the bubble are shunted outside of it before the swap occurs. Otherwise, creatures from both planes that are caught inside the bubble are sent along with their chunk of reality to the other plane for the duration of the spell unless they make a successful Charisma saving throw when the spell is cast; with a successful save, a creature can choose whether to shift planes with the bubble or leap outside of it a moment before the shift occurs. Any natural reaction between the two planes occurs normally (fire spreads, water flows, etc.) while energy (such as necrotic energy) leaks slowly across the edge of the sphere (no more than a foot or two per hour). Otherwise, creatures and effects can move freely across the boundary of the sphere; for the duration of the spell, it becomes a part of its new location to the fullest extent possible, given the natures of the two planes. The two displaced bubbles shift back to their original places automatically after 24 hours. Note that the amount of preparation involved (acquiring and attuning the music box) precludes this spell from being cast on the spur of the moment. Because of its unpredictable and potentially wide-ranging effect, it's also advisable to discuss your interest in this spell with your GM before adding it to your character's repertoire.",
       ],
     ],
+    effects: [
+      {
+        key: 'displaced-plane',
+        name: 'Displaced to another plane',
+        lands: { on: 'failed-save', save: 'cha' },
+        text: [
+          'sent along with their chunk of reality to the other plane for the duration of the spell',
+        ],
+        lasts: { kind: 'time', amount: '24', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   overclock: {
@@ -783,6 +911,17 @@ export default createSpells({
       [
         "Deep Magic: clockwork You cause a targeted piece of clockwork to speed up past the point of control for the duration of the spell. The targeted clockwork can't cast spells with verbal components or even communicate effectively (all its utterances sound like grinding gears). At the start of each of its turns, the target must make a Wisdom saving throw. If the saving throw fails, the clockwork moves at three times its normal speed in a random direction and its turn ends; it can't perform any other actions. If the saving throw succeeds, then until the end of its turn, the clockwork's speed is doubled and it gains an additional action, which must be Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object. When the spell ends, the clockwork takes 2d8 force damage. It also must be rewound or refueled and it needs to have its daily maintenance performed immediately, if it relies on any of those things.",
       ],
+    ],
+    effects: [
+      {
+        key: 'overclocked',
+        name: 'Overclocked',
+        lands: { on: 'use' },
+        text: [
+          "The targeted clockwork can't cast spells with verbal components or even communicate effectively (all its utterances sound like grinding gears). At the start of each of its turns, the target must make a Wisdom saving throw. If the saving throw fails, the clockwork moves at three times its normal speed in a random direction and its turn ends; it can't perform any other actions. If the saving throw succeeds, then until the end of its turn, the clockwork's speed is doubled and it gains an additional action, which must be Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic_extended,
   },
@@ -917,6 +1056,22 @@ export default createSpells({
         'Your eyes burn with a bright, cold light that inflicts snow blindness on a creature you target within 30 feet of you. If the target fails a Constitution saving throw, it suffers the first stage of snow blindness (see [Conditions](https://api.open5e.com/sections/conditions)), or the second stage of snow blindness if it already has the first stage. The target recovers as described in [Conditions](https://api.open5e.com/sections/conditions).',
       ],
     ],
+    effects: [
+      {
+        key: 'snow-blindness',
+        name: 'Snow blindness',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          'it suffers the first stage of snow blindness (see [Conditions](https://api.open5e.com/sections/conditions)), or the second stage of snow blindness if it already has the first stage.',
+        ],
+        lasts: {
+          kind: 'until',
+          text: [
+            'The target recovers as described in [Conditions](https://api.open5e.com/sections/conditions).',
+          ],
+        },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   soothsayers_shield: {
@@ -983,6 +1138,15 @@ export default createSpells({
         '. As a bonus action on your turn, you can cause the spire to rise or descend up to 20 feet to a maximum height of 40 feet. If you move off of the spire, it immediately collapses back into the ground. When the spire disappears, it leaves the surface from which it sprang unharmed. You can create a new spire as a bonus action for the duration of the spell.',
       ],
     ],
+    effects: [
+      {
+        key: 'prone',
+        name: 'Knocked prone',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.prone],
+        lasts: { kind: 'until-removed' },
+      },
+    ],
     publication: refs.publications.deep_magic_extended,
   },
   strength_of_the_underworld: {
@@ -998,6 +1162,17 @@ export default createSpells({
       [
         "You call on the power of the dark gods of the afterlife to strengthen the target's undead energy. The spell's target has advantage on saving throws against Turn Undead while the spell lasts. If this spell is cast on a corpse that died from darakhul fever, the corpse gains a +5 bonus on its roll to determine whether it rises as a darakhul.",
       ],
+    ],
+    effects: [
+      {
+        key: 'underworld-strength',
+        name: 'Strength of the Underworld',
+        lands: { on: 'use' },
+        text: [
+          "The spell's target has advantage on saving throws against Turn Undead while the spell lasts.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.deep_magic_extended,
   },

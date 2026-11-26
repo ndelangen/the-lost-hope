@@ -43,6 +43,23 @@ export default createSpells({
         ". During the spell's duration, the target can also cancel disadvantage on one d20 roll the target is about to make, but doing so ends the spell's effect.",
       ],
     ],
+    effects: [
+      {
+        key: 'evil-eye-ward',
+        name: 'Warded against the evil eye',
+        lands: { on: 'use' },
+        text: [
+          'While the spell lasts, the target of the spell has advantage on saving throws against being ',
+          rules.blinded,
+          ', ',
+          rules.charmed,
+          ', cursed, and ',
+          rules.frightened,
+          ". During the spell's duration, the target can also cancel disadvantage on one d20 roll the target is about to make, but doing so ends the spell's effect.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'hour' },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   bardo: {
@@ -101,6 +118,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.',
       ],
     ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned by stings',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   charming_aesthetics: {
@@ -125,6 +152,23 @@ export default createSpells({
       [
         'At Higher Levels. When you cast this spell using a spell slot of 4th level or higher, you can target one additional group of plants or animals for each slot level above 4th.',
       ],
+    ],
+    effects: [
+      {
+        key: 'charmed',
+        name: 'Charmed by enchanted plant or animal',
+        lands: { on: 'failed-save', save: 'wis' },
+        conditions: [rules.charmed],
+        text: [
+          'While the creature is ',
+          rules.charmed,
+          ' and stays within sight of the enchanted plants or animals, it has disadvantage on Wisdom (Perception) checks as well as checks to notice signs of danger.',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'day' },
+        ends: {
+          cure: ['another creature other than one of its allies does anything harmful to it'],
+        },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
@@ -179,6 +223,16 @@ export default createSpells({
         rules.restrained,
         ". When a creature enters a sphere for the first time on a turn or starts its turn in a sphere, that creature must make an Intelligence saving throw. The creature takes 5d6 psychic damage on a failed save, or half as much damage on a successful one. Once created, the spheres can't be moved. A creature in overlapping spheres doesn't suffer additional effects for being in more than one sphere at a time.",
       ],
+    ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained by unseen entities',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
@@ -298,6 +352,37 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'sleep-paralysis',
+        name: 'Sleep paralysis',
+        lands: { on: 'failed-save', save: 'int' },
+        text: ["The creature's speed is halved, and it has disadvantage on weapon attacks."],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'phantasmata',
+        name: 'Phantasmata',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.frightened],
+        text: [
+          'it must take the Dash action and move away from the point you chose by the safest available route on each of its turns, unless there is nowhere to move',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+      {
+        key: 'false-awakening',
+        name: 'False awakening',
+        lands: { on: 'failed-save', save: 'int' },
+        text: [
+          "It can't take reactions, and it must roll a d4 at the beginning of its turn to determine its behavior.",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn', 'damaged'] },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   hypnic_jerk: {
@@ -369,6 +454,16 @@ export default createSpells({
         rules.incapacitated,
         ', but it imagines itself alone and wandering through the maze. Externally, it appears dazed as it turns in place and reaches out at nonexistent barriers. Each time the target takes damage, it makes another Intelligence saving throw. On a success, the spell ends.',
       ],
+    ],
+    effects: [
+      {
+        key: 'mind-trapped',
+        name: 'Mentally trapped',
+        lands: { on: 'failed-save', save: 'int' },
+        conditions: [rules.incapacitated],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['damaged'] },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
@@ -462,6 +557,38 @@ export default createSpells({
         " force sharply tugs on the target's trousers, causing the clothing to slip down. The target must make a Dexterity saving throw. On a failed save, the target has disadvantage on its next attack roll with a two-handed weapon or loses its shield bonus to its Armor Class until the end of its next turn as it uses one hand to gather its slipping clothing. Only one of these effects can be used on a single creature at a time.",
       ],
     ],
+    effects: [
+      {
+        key: 'off-balance',
+        name: 'Off balance',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: ['be unable use a bonus action on its next turn as it regains its footing'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'sneezing',
+        name: 'Sneezing',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['have disadvantage on its first attack roll on its next turn'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'blurred-vision',
+        name: 'Blurred vision',
+        lands: { on: 'failed-save', save: 'con' },
+        text: ['its passive Perception is halved'],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+      {
+        key: 'slipped-clothing',
+        name: 'Slipped clothing',
+        lands: { on: 'failed-save', save: 'dex' },
+        text: [
+          'the target has disadvantage on its next attack roll with a two-handed weapon or loses its shield bonus to its Armor Class',
+        ],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   putrescent_faerie_circle: {
@@ -489,6 +616,22 @@ export default createSpells({
         rules.poisoned,
         ' condition).',
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned-paralyzed',
+        name: 'Poisoned and paralyzed',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned, rules.paralyzed],
+        text: [
+          'It can attempt a new Constitution saving throw at the end of each of its turns to remove the ',
+          rules.paralyzed,
+          ' condition (but not the ',
+          rules.poisoned,
+          ' condition).',
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
@@ -524,6 +667,15 @@ export default createSpells({
         " as it falls endlessly, and the portal closes. At the start of your next turn, the creatures that failed their saving throws fall through matching portals directly above their previous locations. A falling creature lands prone in the space it once occupied or the nearest unoccupied space and takes falling damage as if it fell 60 feet, regardless of the distance between the exit portal and the ground. Flying and levitating creatures can't be affected by this spell.",
       ],
     ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned in the demiplane',
+        lands: { on: 'failed-save', save: 'dex' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'start', whose: 'source' },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   remove_insulation: {
@@ -542,6 +694,19 @@ export default createSpells({
       [
         'At Higher Levels. If you cast this spell using a spell slot of 6th level or higher, the duration is 24 hours. If you use a spell slot of 8th level or higher, a creature with immunity to lightning damage no longer has advantage on its saving throw. If you use a spell slot of 9th level or higher, the spell lasts until it is dispelled.',
       ],
+    ],
+    effects: [
+      {
+        key: 'lightning-vulnerable',
+        name: 'Lightning vulnerability',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          "On a failure, a creature with immunity to lightning damage instead has resistance to lightning damage for the spell's duration, and a creature with resistance to lightning damage loses its resistance for the duration.",
+          " A creature without resistance to lightning damage that fails its saving throw takes double damage from lightning for the spell's duration.",
+        ],
+        lasts: { kind: 'time', amount: '8', unit: 'hour' },
+        ends: { cure: ['Remove curse or similar magic'] },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
@@ -585,6 +750,16 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a 9th-level slot, an additional tree becomes a treant, the undergrowth deals an additional 1d6 bludgeoning damage, and the trees inflict an additional 2d6 bludgeoning damage.',
       ],
     ],
+    effects: [
+      {
+        key: 'restrained',
+        name: 'Restrained',
+        lands: { on: 'failed-save', save: 'str' },
+        conditions: [rules.restrained],
+        lasts: { kind: 'time', amount: '10', unit: 'minute' },
+        ends: { escape: { dc: 'spell' } },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   rive: {
@@ -602,6 +777,15 @@ export default createSpells({
         rules.stunned,
         ' until the end of its next turn.',
       ],
+    ],
+    effects: [
+      {
+        key: 'stunned',
+        name: 'Stunned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.stunned],
+        lasts: { kind: 'turn', boundary: 'end', whose: 'target' },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
@@ -702,6 +886,18 @@ export default createSpells({
         'At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.',
       ],
     ],
+    effects: [
+      {
+        key: 'regeneration-suppressed',
+        name: 'Regeneration suppressed',
+        lands: { on: 'failed-save', save: 'con' },
+        text: [
+          "the target can't regain hit points from the Regeneration trait or similar spell or trait for the duration",
+        ],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
+    ],
     publication: refs.publications.warlock_zine,
   },
   threshold_slip: {
@@ -737,6 +933,16 @@ export default createSpells({
         rules.poisoned,
         '. A plant can only release this pollen once within the duration.',
       ],
+    ],
+    effects: [
+      {
+        key: 'poisoned',
+        name: 'Poisoned',
+        lands: { on: 'failed-save', save: 'con' },
+        conditions: [rules.poisoned],
+        lasts: { kind: 'time', amount: '1', unit: 'minute' },
+        ends: { repeatSave: ['end-of-turn'] },
+      },
     ],
     publication: refs.publications.warlock_zine,
   },
