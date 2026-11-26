@@ -43,16 +43,55 @@ export default createScene({
               'Nothing but water, for hours. Then a fishing fleet on the surface: riveted iron hulls, working decks, no masts. Some of them sit low in the water, as if they could go under.',
             ],
             [
-              'The crews have seen the airship. They wave flags and their arms, and shout up at it.',
+              'Above the fleet, the air tears open: a portal hangs in the sky. Barrels tumble out of it, one after another, and splash down among the ships. Then the portal closes.',
+            ],
+            [
+              'The fishers cheer and haul the barrels in. Then they see the airship, wave flags and their arms, and shout up at it.',
             ],
           ],
         },
         {
           speaker: refs.npcs.caves_of_steel_fisher,
-          say: [['Come down! Come meet us! We’re friendly!']],
+          say: [['Dust day! And visitors! Come down! Come meet us! We’re friendly!']],
+        },
+        {
+          note: [
+            [
+              'The barrels are a delivery of Arcane Dust for ',
+              refs.locations.the_caves_of_steel,
+              '. This is the hook: after the question of ',
+              refs.npcs.onana_tempest,
+              ' about Arcane Dust, the players should want a closer look. It works even when the crystal of ',
+              refs.items.little_purple,
+              ' is fully charged.',
+            ],
+            [
+              'The portals are a draft. Nobody comes through them and no ship drops the barrels, so there is nothing to chase. Who sends the Dust, and from where, is not settled.',
+            ],
+          ],
         },
       ],
       outcomes: [
+        {
+          icon: 'gi/GiAirZigzag',
+          when: [['They fly at the portal, or try to go through it.']],
+          response: [
+            [
+              'It snaps shut before they reach it, and the sky is empty again. Below, the fishers are still waving.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiConversation',
+          when: [['They ask the fishers about the barrels.']],
+          response: [
+            [
+              '“Dust, for the ships and the machines.” Nobody here takes it as a drug: ',
+              refs.npcs.the_11th_marshal,
+              ' forbids it, and they say so. Where it comes from they do not know or care: it comes, every time.',
+            ],
+          ],
+        },
         {
           icon: 'gi/GiShipBow',
           when: [['They choose to land.']],
@@ -60,7 +99,7 @@ export default createScene({
         },
         {
           icon: 'gi/GiFalling',
-          when: [['They fly on past the fleet.']],
+          when: [['They fly on past the fleet anyway.']],
           response: [
             [
               'The magical crystal of ',
@@ -252,13 +291,6 @@ export default createScene({
     {
       title: 'We hope you’ll be back',
       lines: [
-        {
-          do: [
-            [
-              'When the party leaves for the first time, barrels are floating in the sea: a Dust delivery. The fishers reel them in.',
-            ],
-          ],
-        },
         {
           speaker: refs.npcs.caves_of_steel_fisher,
           say: [['We hope you’ll be back!']],
