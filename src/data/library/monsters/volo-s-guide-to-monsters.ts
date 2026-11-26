@@ -533,7 +533,15 @@ export default createPublicationMonsters({
             text: [
               'Use Charisma (spell save ',
               { dc: 'wis' },
-              ') and omit material components. At will. Darkness. 1/day each. Confusion, Dancing Lights, Faerie Fire.',
+              ') and omit material components. At will. ',
+              refs.spells.darkness,
+              '. 1/day each. ',
+              refs.spells.confusion,
+              ', ',
+              refs.spells.dancing_lights,
+              ', ',
+              refs.spells.faerie_fire,
+              '.',
             ],
           },
           {

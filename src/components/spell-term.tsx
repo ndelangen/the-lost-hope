@@ -1,14 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { HoverPreview } from '#/components/ui/hover-preview'
+import { spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
 import type { Spell } from '#/definitions/library'
-
-/** A spell's name before its text has loaded: the key, title-cased. */
-function provisionalName(key: string) {
-  return key.replace(/_/gu, ' ').replace(/\b\w/gu, (letter) => letter.toUpperCase())
-}
 
 /**
  * A spell named in rules text: hover, focus, or tap shows the full spell. Spell text loads on
@@ -16,17 +12,15 @@ function provisionalName(key: string) {
  */
 export function SpellTerm({ spell: ref }: { spell: EntityRef<'spell'> }) {
   const [loaded, setLoaded] = useState<{ spell: Spell; label: string } | undefined>()
-  useEffect(() => {
-    let live = true
+  // The spell list loads the first time someone hovers or focuses a spell, not with the page.
+  const load = () => {
+    if (loaded) return
     void import('#/lib/library-spells').then(({ spellOf, spellLevelLabel }) => {
       const spell = spellOf(ref)
-      if (live) setLoaded({ spell, label: spellLevelLabel(spell) })
+      setLoaded({ spell, label: spellLevelLabel(spell) })
     })
-    return () => {
-      live = false
-    }
-  }, [ref])
-  const name = loaded?.spell.name ?? provisionalName(ref.key)
+  }
+  const name = spellNames[ref.key] ?? ref.key
   return (
     <HoverPreview
       interactive
@@ -50,6 +44,8 @@ export function SpellTerm({ spell: ref }: { spell: EntityRef<'spell'> }) {
     >
       <button
         type="button"
+        onPointerEnter={load}
+        onFocus={load}
         className="focus-visible:ring-ring/50 decoration-muted-foreground/70 cursor-help rounded-sm italic underline decoration-dotted underline-offset-4 outline-none focus-visible:ring-3"
       >
         {name}

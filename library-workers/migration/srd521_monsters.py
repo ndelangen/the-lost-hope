@@ -10,7 +10,12 @@ def slug(n): return re.sub(r'[^a-z0-9]+','-',n.lower().replace('’','').replace
 out=[]
 for n,i in enumerate(starts):
   name=lines[i-1]; end=(starts[n+1]-1) if n+1<len(starts) else min(len(lines),i+120)
-  body=lines[i+1:end]
+  # Each page repeats the creature's name as a running head: drop those copies, and the next
+  # creature's name before its block.
+  nxt=lines[starts[n+1]-1] if n+1<len(starts) else None
+  body=[l for l in lines[i+1:end] if l not in (name,nxt)]
+  # A running head for a group ("Crawling Claw" above "Swarm of Crawling Claws") can trail too.
+  while body and len(body[-1])<40 and not body[-1].endswith(('.',')',':')) and re.fullmatch(r"[A-Z][\w’'-]*(?: [A-Z][\w’'-]*)*",body[-1]): body.pop()
   stats={}; scores={}; saves=[]; other=[]; sections={}; cur=None; last_label=None
   for l in body:
     if l in HEADS: cur=l; sections[cur]=[]; continue

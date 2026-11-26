@@ -1,3 +1,4 @@
+import { spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
 import type { AbilityTextToken } from '#/definitions/stat-block'
 
@@ -155,7 +156,7 @@ export function plainAbilityText(segments: readonly AbilityTextSegment[]) {
         case 'rule':
           return segment.label
         case 'spell':
-          return segment.spell.key.replaceAll('_', ' ')
+          return spellNames[segment.spell.key] ?? segment.spell.key
       }
     })
     .join('')

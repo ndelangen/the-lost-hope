@@ -135,9 +135,12 @@ def spell_tokens(text):
   if not SPELL_RE: return [text]
   out=[]; pos=0
   colon=text.find(':')
+  # Some worker text writes the tiers as "At will. Detect Magic, …" or "1/day each. Fog Cloud".
+  tier=re.search(r'\b(?:At will|\d+/day(?: each)?)\.',text,re.I)
+  if tier and (colon<0 or tier.start()<colon): colon=tier.end()-1
   for m in SPELL_RE.finditer(text):
     listed=colon>=0 and m.start()>colon
-    cast=re.search(r'\bcasts? (?:the )?(?:[A-Z][\w’\']*(?:,| or| and)? )*$',text[max(0,m.start()-60):m.start()]) is not None
+    cast=re.search(r'\bcasts? (?:the )?(?:[A-Z][\w’\']*(?:,| or| and|, or|, and)? )*$',text[max(0,m.start()-80):m.start()]) is not None
     if not (listed or cast): continue
     out.append(text[pos:m.start()]); out.append({'spell':SPELLS[m.group(1).lower()]}); pos=m.end()
   out.append(text[pos:])
@@ -172,7 +175,7 @@ def extract_save(ab,text,scores,prof,issues):
       if not tm: issues.append(f'{name}: save target not understood: {who[:40]}'); return text
       target={'creatures':{'one':1,'two':2,'three':3}[tm.group(1)],'range':int(tm.group(4))}
       which=' '.join(x.strip() for x in [tm.group(3),tm.group(5)] if x and x.strip())
-      if tm.group(2).strip(): which=('that is '+tm.group(2).strip()+(' '+which if which else '')).strip()
+      if tm.group(2).strip(): which=('that is '+tm.group(2).strip()+(' and that '+which if which else '')).strip()
       if which: target['which']=which
     ab['save']=build_save(a,dc,target,[damage]+([extra] if extra else []),rest_fail,'half' if success else 'none',scores,prof,issues,name)
     ab['intent']='damage'

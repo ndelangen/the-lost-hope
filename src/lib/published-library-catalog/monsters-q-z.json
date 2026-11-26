@@ -35099,16 +35099,36 @@
       {
         "id": "printing-4f0a8b66a2fda2656635d432",
         "label": "Basic Rules (2018)",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "satyr"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 14",
+              "Hit points · 31",
+              "Hit dice · 7d8",
+              "Challenge · 1/2",
+              "Size · Medium",
+              "Type · Fey",
+              "Speed · walk 40 ft.",
+              "Str · 12",
+              "Dex · 16",
+              "Con · 11",
+              "Int · 12",
+              "Wis · 10",
+              "Cha · 14"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "basic_rules_2018"
+          {
+            "title": "Attacks",
+            "lines": [
+              "Ram · melee · +3 to hit · reach 5 ft. · 2d4 + 1 bludgeoning",
+              "Shortsword · melee · +5 to hit · reach 5 ft. · 1d6 + 3 piercing",
+              "Shortbow · ranged · +5 to hit · range 80/320 ft. · 1d6 + 3 piercing"
+            ]
           }
-        }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Combat summary"
       },
       {
         "id": "printing-e30e6711c3f12b6800c3477d",
@@ -125415,16 +125435,35 @@
       {
         "id": "printing-b9f0176a8dcac1706c553bdd",
         "label": "Basic Rules (2018)",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "troll"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 15",
+              "Hit points · 84",
+              "Hit dice · 8d10 + 40",
+              "Challenge · 5",
+              "Size · Large",
+              "Type · Giant",
+              "Speed · walk 30 ft.",
+              "Str · 18",
+              "Dex · 13",
+              "Con · 20",
+              "Int · 7",
+              "Wis · 9",
+              "Cha · 7"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "basic_rules_2018"
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +7 to hit · reach 5 ft. · 1d6 + 4 piercing",
+              "Claw · melee · +7 to hit · reach 5 ft. · 2d6 + 4 slashing"
+            ]
           }
-        }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Combat summary"
       },
       {
         "id": "printing-128b1036cc819cd4835fa952",
@@ -129029,16 +129068,32 @@
       {
         "id": "printing-d79649dffec435ddb37d746b",
         "label": "Basic Rules (2018)",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "twig_blight"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 4",
+              "Hit dice · 1d6 + 1",
+              "Challenge · 1/8",
+              "Size · Small",
+              "Type · Plant",
+              "Speed · walk 20 ft.",
+              "Str · 6",
+              "Dex · 13",
+              "Con · 12",
+              "Int · 4",
+              "Wis · 8",
+              "Cha · 3"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "basic_rules_2018"
+          {
+            "title": "Attacks",
+            "lines": ["Claws · melee · +3 to hit · reach 5 ft. · 1d4 + 1 piercing"]
           }
-        }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Combat summary"
       },
       {
         "id": "printing-ff3d98eb286f248f3620c0cc",
@@ -176863,16 +176918,32 @@
       {
         "id": "printing-89148a8b84fe6b2584ccf61d",
         "label": "Basic Rules (2018)",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "worg"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 26",
+              "Hit dice · 4d10 + 4",
+              "Challenge · 1/2",
+              "Size · Large",
+              "Type · Monstrosity",
+              "Speed · walk 50 ft.",
+              "Str · 16",
+              "Dex · 13",
+              "Con · 13",
+              "Int · 7",
+              "Wis · 11",
+              "Cha · 8"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "basic_rules_2018"
+          {
+            "title": "Attacks",
+            "lines": ["Bite · melee · +5 to hit · reach 5 ft. · 2d6 + 3 piercing"]
           }
-        }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Combat summary"
       },
       {
         "id": "printing-c299dd4838a8a3483d29c675",
@@ -179100,16 +179171,36 @@
       {
         "id": "printing-50105728a91c97886652d2b9",
         "label": "Basic Rules (2018)",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "wyvern"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 13",
+              "Hit points · 110",
+              "Hit dice · 13d10 + 39",
+              "Challenge · 6",
+              "Size · Large",
+              "Type · Dragon",
+              "Speed · walk 20 ft., fly 80 ft.",
+              "Str · 19",
+              "Dex · 10",
+              "Con · 16",
+              "Int · 5",
+              "Wis · 12",
+              "Cha · 6"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "basic_rules_2018"
+          {
+            "title": "Attacks",
+            "lines": [
+              "Bite · melee · +7 to hit · reach 10 ft. · 2d6 + 4 piercing",
+              "Claws · melee · +7 to hit · reach 5 ft. · 2d8 + 4 slashing",
+              "Stinger · melee · +7 to hit · reach 10 ft. · 2d6 + 4 piercing"
+            ]
           }
-        }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Combat summary"
       },
       {
         "id": "printing-4bf562b99d0aa2c52a8232ce",
@@ -190498,46 +190589,16 @@
       {
         "id": "srd-5-1",
         "label": "SRD 5.1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 178",
-              "Hit dice · 17d10 + 85",
-              "Challenge · 10",
-              "Type · Dragon",
-              "Speed · 40 ft., fly 80 ft., swim 40 ft.",
-              "XP · 5900",
-              "Str · 23",
-              "Dex · 14",
-              "Con · 21",
-              "Int · 16",
-              "Wis · 13",
-              "Cha · 20"
-            ]
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_gold_dragon"
           },
-          {
-            "title": "Classification",
-            "lines": ["Large dragon, lawful good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Saving Throws Dex +6, Con +9, Wis +5, Cha +9 Skills Insight +5, Perception +9, Persuasion +9, Stealth +6 Damage Immunities fire Senses blindsight 30 ft., darkvision 120 ft., passive Perception 19 Languages Common, Draconic"
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The dragon can breathe air and water."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The dragon makes three attacks: one with its bite and two with its claws. Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) piercing damage. Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) slashing damage. Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons. Fire Breath. The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one. Weakening Breath. The dragon exhales gas in a 30-foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "srd_5_1"
           }
-        ]
+        }
       },
       {
         "id": "srd-5-2-1",
@@ -205020,16 +205081,32 @@
       {
         "id": "printing-9c1348ba5c11fd5ec5ab66c9",
         "label": "Basic Rules (2018)",
-        "typed": {
-          "monster": {
-            "ref": "monster",
-            "key": "zombie"
+        "gm": [
+          {
+            "title": "Statistics",
+            "lines": [
+              "Armor class · 8",
+              "Hit points · 22",
+              "Hit dice · 3d8 + 9",
+              "Challenge · 1/4",
+              "Size · Medium",
+              "Type · Undead",
+              "Speed · walk 20 ft.",
+              "Str · 13",
+              "Dex · 6",
+              "Con · 16",
+              "Int · 3",
+              "Wis · 6",
+              "Cha · 5"
+            ]
           },
-          "publication": {
-            "ref": "publication",
-            "key": "basic_rules_2018"
+          {
+            "title": "Attacks",
+            "lines": ["Slam · melee · +3 to hit · reach 5 ft. · 1d6 + 1 bludgeoning"]
           }
-        }
+        ],
+        "edition": "2014 fifth edition",
+        "status": "Combat summary"
       },
       {
         "id": "printing-5fd63982edece1aeefe99ed0",

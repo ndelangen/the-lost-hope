@@ -4,7 +4,13 @@ import json,re,sys
 SCHOOLS=['Abjuration','Conjuration','Divination','Enchantment','Evocation','Illusion','Necromancy','Transmutation']
 lines=[re.sub(r'^Component:','Components:',l.rstrip()) for l in open(sys.argv[1],encoding='utf8')]
 # Page furniture
-lines=[l for l in lines if l.strip() and not re.fullmatch(r'\d{1,3}',l.strip()) and l.strip()!='System Reference Document 5.2.1']
+# Page furniture: the footer and the page number beside it. Other bare numbers are table cells.
+keep=[]
+for k,l in enumerate(lines):
+  if not l.strip() or l.strip()=='System Reference Document 5.2.1': continue
+  if re.fullmatch(r'\d{1,3}',l.strip()) and any(x.strip()=='System Reference Document 5.2.1' for x in lines[max(0,k-3):k+4]): continue
+  keep.append(l)
+lines=keep
 HEAD=re.compile(r'^(?:Level (\d) ('+'|'.join(SCHOOLS)+r')|('+'|'.join(SCHOOLS)+r') Cantrip) \((.*)$')
 spells=[]; i=0
 while i<len(lines):
@@ -41,7 +47,7 @@ LEAD=re.compile(r'^((?:[A-Z][\w’\'-]*)(?: (?:[A-Z][\w’\'-]*|of|the|a|an|and|
 for s in spells:
   paras=[]
   for l in s.pop('body'):
-    if not paras or LEAD.match(l): paras.append(l)
+    if not paras or (LEAD.match(l) and paras[-1].rstrip().endswith(('.',':',')'))): paras.append(l)
     elif paras[-1].endswith('-') and l[:1].islower(): paras[-1]=paras[-1][:-1]+l
     else: paras[-1]+=' '+l
   s['paragraphs']=paras

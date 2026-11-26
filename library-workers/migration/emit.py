@@ -171,7 +171,10 @@ def main():
       if m.get('page'): L.append(f'      page: {m["page"]},')
       if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
       langs=m['languages']
-      if langs and langs.lower() not in ('none','—','-','—'): L.append(f'      languages: {js([x.strip() for x in langs.split(",")])},')
+      if langs and langs.lower() not in ('none','—','-','—'):
+        # Split on commas outside parentheses: "Primordial (Ignan, Terran)" is one language.
+        names=[x.strip() for x in re.split(r',(?![^()]*\))',langs)]
+        L.append(f'      languages: {js(names)},')
       hab=next((s['lines'] for s in src['gm'] if s['title']=='Habitats'),None)
       if hab:
         hab=[h.strip().rstrip('.') for x in hab for h in x.split(',') if h.strip().rstrip('.')]

@@ -32,7 +32,19 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'Charisma sets the spell save DC at 14. These spells require no material components. 3/day each. Cure Wounds, Charm Person, Sleep. 1/day each. Calm Emotions, Lesser Restoration, Plant Growth.',
+              'Charisma sets the spell save DC at 14. These spells require no material components. 3/day each. ',
+              refs.spells.cure_wounds,
+              ', ',
+              refs.spells.charm_person,
+              ', ',
+              refs.spells.sleep,
+              '. 1/day each. ',
+              refs.spells.calm_emotions,
+              ', ',
+              refs.spells.lesser_restoration,
+              ', ',
+              refs.spells.plant_growth,
+              '.',
             ],
           },
           {
@@ -403,7 +415,11 @@ export default createPublicationMonsters({
             timing: 'trait',
             icon: 'gi/GiWizardStaff',
             text: [
-              'Charisma grants +6 to spell attacks. These spells require no material components. At will. Chill Touch, Gentle Repose.',
+              'Charisma grants +6 to spell attacks. These spells require no material components. At will. ',
+              refs.spells.chill_touch,
+              ', ',
+              refs.spells.gentle_repose,
+              '.',
             ],
           },
           {
@@ -502,7 +518,11 @@ export default createPublicationMonsters({
             text: [
               'Wisdom sets spell save ',
               { dc: 'con' },
-              '. These spells require no material components. 1/day each. Banishment, Detect Evil and Good.',
+              '. These spells require no material components. 1/day each. ',
+              refs.spells.banishment,
+              ', ',
+              refs.spells.detect_evil_and_good,
+              '.',
             ],
           },
           {
@@ -712,7 +732,15 @@ export default createPublicationMonsters({
             text: [
               'Charisma sets spell save ',
               { dc: 'cha' },
-              '. These spells require no material components. At will. Minor Illusion. 3/day. Phantasmal Force. 1/day each. Fly, Hypnotic Pattern.',
+              '. These spells require no material components. At will. ',
+              refs.spells.minor_illusion,
+              '. 3/day. ',
+              refs.spells.phantasmal_force,
+              '. 1/day each. ',
+              refs.spells.fly,
+              ', ',
+              refs.spells.hypnotic_pattern,
+              '.',
             ],
           },
           {
@@ -950,7 +978,11 @@ export default createPublicationMonsters({
             text: [
               'Wisdom is the spellcasting ability (save ',
               { dc: 'wis' },
-              '). The spells require no material components. 1/day each. Fog Cloud, Gust of Wind.',
+              '). The spells require no material components. 1/day each. ',
+              refs.spells.fog_cloud,
+              ', ',
+              refs.spells.gust_of_wind,
+              '.',
             ],
           },
           {

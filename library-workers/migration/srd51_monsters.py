@@ -4,7 +4,10 @@ Usage: srd51_monsters.py <cols.txt> <out.json> <label> <printing id>"""
 import json,re,sys
 SIZE=r'(?:Tiny|Small|Medium|Large|Huge|Gargantuan)'
 raw=[re.sub(r'[\t\r \xa0]+',' ',l.replace('\x0c','').replace('\u00ad','').replace('\u2010','-')).strip() for l in open(sys.argv[1],encoding='utf8',newline='').read().split('\n')]
-lines=[l for l in raw if l and not re.fullmatch(r'\d{1,3}',l) and not l.startswith('System Reference Document') and l!='Not for resale. Permission granted to print or photocopy this document for personal use only.']
+raw=[re.sub(r'-{2,}','-',l) for l in raw]
+# Page furniture: page numbers, running heads and legal footers.
+lines=[l for l in raw if l and not re.fullmatch(r'\d{1,3}',l) and not l.startswith('System Reference Document')
+  and 'photocopy this document' not in l and not re.match(r'Chapter \d+: ',l) and not l.startswith('Not for resale')]
 label,pid=sys.argv[3],sys.argv[4]
 starts=[i for i in range(1,len(lines)-2) if re.match(SIZE+r'(?: or '+SIZE+r')? [a-z]',lines[i],re.I) and ',' in lines[i] and lines[i+1].startswith('Armor Class')]
 HEADS={'Actions','Reactions','Legendary Actions','Bonus Actions','Lair Actions'}
@@ -16,9 +19,15 @@ for n,i in enumerate(starts):
   end=(starts[n+1]-1) if n+1<len(starts) else min(len(lines),i+150)
   body=lines[i+1:end]
   stats={}; nums=[]; other=[]; sections={'Traits':[]}; cur=None; phase='head'
-  for l in body:
+  ENTRY=re.compile(r'^[A-Z][\w’\'-]*(?: [\w’\'()/,–-]+){0,8}\. ')
+  for k,l in enumerate(body):
     if l in HEADS: cur=l; sections[cur]=[]; continue
-    if cur: sections[cur].append(l); continue
+    if cur:
+      prev=sections[cur][-1] if sections[cur] else ''
+      # After the actions, a new paragraph that is not an entry is the next chapter or lore.
+      if prev.endswith('.') and not ENTRY.match(l) and l[:1].isupper(): break
+      if len(sections[cur])>40: break
+      sections[cur].append(l); continue
     m=re.match(r'Armor Class (\d+)(?: \((.*)\))?',l)
     if m: stats['Armor class']=m.group(1)+(f' ({m.group(2)})' if m.group(2) else ''); continue
     m=re.match(r'Hit Points (\d+) \((.*)\)',l)
