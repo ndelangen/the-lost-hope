@@ -11598,78 +11598,6 @@
       {
         "id": "printing-3711a4d506ba2972242b2b64",
         "label": "DDEP1 - Corruption in Kryptgarden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 26",
-              "Hit dice · 4d10 + 4",
-              "Challenge · 1",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 10 ft., fly 80 ft.",
-              "Passive Perception · 14",
-              "XP · 200",
-              "Str · 16",
-              "Dex · 17",
-              "Con · 13",
-              "Int · 8",
-              "Wis · 14",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Kryptgarden Forest", "Above the treeline"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A large eagle with broad feathered wings. The corrupted eagle in Kryptgarden is gaunt."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Passive Perception 14. Speaks Giant Eagle. Understands Common and Auran without speaking them."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, DDEP1 - Corruption in Kryptgarden, limited release, debut August 16, 2014, p. 46."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight. The eagle has advantage on Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak attack and one Talons attack.\nBeak. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 6 (1d6 + 3) piercing damage.\nTalons. Melee weapon attack, +5 to hit, reach 5 ft., one target. On a hit, deal 10 (2d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "In the aerial interception, the eagle and giant owls target the riders on the approaching griffons."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-eagle-d2e302ad0684.png",
@@ -11679,7 +11607,17 @@
             "file": "/assets/library/beasts/giant-eagle.png",
             "credit": "The Lost Hope"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_eagle"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep1_corruption_in_kryptgarden"
+          }
+        }
       },
       {
         "id": "printing-652317e9a1a1a35cd64a6763",
@@ -13421,84 +13359,22 @@
       {
         "id": "printing-1da2555b84e90cc9f434bc6c",
         "label": "DDEP1 - Corruption in Kryptgarden",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 19",
-              "Hit dice · 3d10 + 3",
-              "Challenge · 1/4",
-              "Size · Large",
-              "Type · Beast",
-              "Speed · 5 ft., fly 60 ft.",
-              "Passive Perception · 15",
-              "XP · 50",
-              "Str · 13",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 13",
-              "Cha · 10"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Kryptgarden Forest", "Above the treeline"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A broad-winged owl. In the Kryptgarden interception, its outline is gaunt beneath the feathers."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +5", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Beast, neutral"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Darkvision 120 ft., passive Perception 15. Speaks Giant Owl. Understands Common, Elvish, and Sylvan without speaking them."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Wizards of the Coast, DDEP1 - Corruption in Kryptgarden, limited release, debut August 16, 2014, p. 46."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Flyby. The owl does not provoke opportunity attacks when it flies out of an enemy’s reach.\nKeen Hearing and Sight. It has advantage on Wisdom (Perception) checks that rely on hearing or sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Talons. Melee weapon attack, +3 to hit, reach 5 ft., one target. On a hit, deal 8 (2d6 + 1) slashing damage."
-            ]
-          },
-          {
-            "title": "Encounter ecology",
-            "lines": [
-              "The main encounter includes two giant owls. They attack the riders on the griffons alongside the giant eagle."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "art": [
           {
             "file": "/assets/library/beasts/staged/giant-owl-5a986cd46374.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "giant_owl"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ddep1_corruption_in_kryptgarden"
+          }
+        }
       },
       {
         "id": "printing-8749a92d17b67e09de18c763",

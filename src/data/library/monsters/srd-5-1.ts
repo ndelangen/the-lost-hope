@@ -1253,6 +1253,7 @@ export default createPublicationMonsters({
     },
     giant_eagle: {
       name: 'Giant Eagle',
+      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
       alignment: 'neutral good',
       languages: ['Giant Eagle', 'understands Common and Auran but can’t speak them'],
       stats: {
@@ -1416,6 +1417,7 @@ export default createPublicationMonsters({
     },
     giant_owl: {
       name: 'Giant Owl',
+      reprintedIn: [refs.publications.ddep1_corruption_in_kryptgarden],
       alignment: 'neutral',
       languages: ['Giant Owl', 'understands Common', 'Elvish', 'and Sylvan but can’t speak them'],
       stats: {

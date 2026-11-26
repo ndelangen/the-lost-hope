@@ -119,7 +119,10 @@ def main():
   types=sys.argv[1]
   rows=json.load(open(os.path.join(os.environ.get('MIGRATION_OUT',H),'out-'+types+'.json')))
   # A printing read from the source PDF wins over the worker's text of the same printing.
-  rows=sorted((r for r in rows if not r['issues']),key=lambda r:not r.get('pdf'))
+  # A printing held only for unrecorded languages can still be an unchanged reprint of a core
+  # book's stat block; it then takes that printing's languages along with everything else.
+  for r in rows: r['lang_only']=r['issues']==['languages not captured']
+  rows=sorted((r for r in rows if not r['issues'] or r['lang_only']),key=lambda r:(not r.get('pdf'),r['lang_only']))
   recs_for_pubs={}
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
     for rec in json.load(open(os.path.join(os.environ.get('LIBRARY_JSON_DIR',os.path.join(REPO,'src/lib/published-library-catalog')),f+'.json'))):
@@ -148,9 +151,10 @@ def main():
   for key,pubs in bykey.items():
     for pk,r in pubs.items():
       # An unchanged reprint points at the core book that holds the stat block.
-      target=REPRINT_OF.get(pk) or next((c for c in CORE if c!=pk and c in pubs and same_block(pubs[c]['block'],r['block']) and pk not in CORE),None)
-      if target and target in pubs and same_block(pubs[target]['block'],r['block']):
+      target=REPRINT_OF.get(pk) or next((c for c in CORE if c!=pk and c in pubs and same_block(pubs[c]['block'],r['block']) and not pubs[c].get('lang_only') and pk not in CORE),None)
+      if target and target in pubs and same_block(pubs[target]['block'],r['block']) and not pubs[target].get('lang_only'):
         reprints[(target,key)].append(pk); continue
+      if r['lang_only']: continue
       bypub[pk][key]=r
   outdir=os.path.join(REPO,'src/data/library/monsters'); os.makedirs(outdir,exist_ok=True)
   for pk,mons in bypub.items():
@@ -232,8 +236,10 @@ def main():
   # Each converted printing keeps only its place in the old catalog (label, art, link) and points
   # at its typed printing, so its statistics exist once.
   typed={}
+  kept={(pk,key) for pk,mons in bypub.items() for key in mons}|{(x,key) for (t,key),xs in reprints.items() for x in xs}
   for key,pubs in bykey.items():
-    for pk,r in pubs.items(): typed[(r['type'],r['slug'],r['printing'])]=(key,pk)
+    for pk,r in pubs.items():
+      if (pk,key) in kept: typed[(r['type'],r['slug'],r['printing'])]=(key,pk)
   cat=os.path.join(REPO,'src/lib/published-library-catalog')
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
     path=os.path.join(cat,f+'.json'); data=json.load(open(path)); changed=0
