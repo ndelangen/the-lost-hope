@@ -1,0 +1,369 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
+
+export default createPublicationMonsters({
+  publication: refs.publications.icewind_dale_rime_of_the_frostmaiden,
+  monsters: {
+    chimeric_baboon: {
+      name: 'Chimeric Baboon',
+      page: 246,
+      alignment: 'unaligned',
+      habitats: ['forest', 'hill'],
+      appearance: [['An olive-brown baboon with a long muzzle and exposed upper canines.']],
+      tableNotes: [
+        ['A creature made by the Chimeric Creator is loyal to the person who pulled its lever.'],
+      ],
+      stats: {
+        size: 'small',
+        type: 'beast',
+        cr: '0',
+        ac: 12,
+        hitDice: '1d6',
+        speed: { walk: 30, climb: 30 },
+        scores: { str: 8, dex: 14, con: 11, int: 4, wis: 12, cha: 6 },
+        abilities: [
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The baboon has advantage on an attack roll against a creature if one of the baboon’s allies is within 5 ft. of that creature and is not ',
+              rules.incapacitated,
+              '.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [
+                { dice: '1d4', type: rules.piercing, addModifier: true },
+                { dice: '1d6', type: rules.poison },
+              ],
+            },
+          },
+        ],
+      },
+    },
+    chimeric_cat: {
+      name: 'Chimeric Cat',
+      page: 246,
+      alignment: 'unaligned',
+      habitats: ['grassland', 'forest', 'urban', 'desert'],
+      appearance: [['A tabby cat with a slender pair of sensory antennae.']],
+      tableNotes: [
+        ['A creature made by the Chimeric Creator is loyal to the person who pulled its lever.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '0',
+        ac: 12,
+        hitDice: '1d4',
+        speed: { walk: 40, climb: 30 },
+        scores: { str: 3, dex: 15, con: 10, int: 3, wis: 12, cha: 7 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        senses: { blindsight: 60, tremorsense: 60 },
+        abilities: [
+          {
+            key: 'keen-smell',
+            name: 'Keen Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: ['The cat has advantage on Wisdom (Perception) checks that rely on smell.'],
+          },
+          {
+            key: 'claws',
+            name: 'Claws',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              printedBonus: 0,
+              damage: [{ dice: '1', type: rules.slashing }],
+            },
+          },
+        ],
+      },
+    },
+    chimeric_fox: {
+      name: 'Chimeric Fox',
+      page: 246,
+      alignment: 'unaligned',
+      habitats: ['Menagerie', 'Arctic', 'Forest'],
+      appearance: [
+        [
+          'A compact arctic fox with pale winter fur shifting to a mottled parchment tan along its side.',
+        ],
+      ],
+      tableNotes: [
+        ['A creature made by the Chimeric Creator is loyal to the person who pulled its lever.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '0',
+        ac: 13,
+        hitDice: '1d4',
+        speed: { walk: 30, burrow: 5 },
+        scores: { str: 2, dex: 16, con: 11, int: 3, wis: 12, cha: 6 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'keen-hearing',
+            name: 'Keen Hearing',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: ['The fox has advantage on Wisdom (Perception) checks that rely on hearing.'],
+          },
+          {
+            key: 'camouflaging-fur',
+            name: 'Camouflaging Fur',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'Its fur changes color to match its surroundings, granting advantage on Dexterity (Stealth) checks.',
+            ],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.piercing }],
+            },
+          },
+        ],
+      },
+    },
+    chimeric_hare: {
+      name: 'Chimeric Hare',
+      page: 246,
+      alignment: 'unaligned',
+      habitats: ['Menagerie', 'Arctic'],
+      appearance: [
+        ['A white snowshoe hare with upright black-tipped ears and a pair of feathered wings.'],
+      ],
+      tableNotes: [
+        ['A creature made by the Chimeric Creator is loyal to the person who pulled its lever.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '0',
+        ac: 13,
+        hitDice: '1d4',
+        speed: { walk: 20, burrow: 5, fly: 30 },
+        scores: { str: 1, dex: 17, con: 9, int: 2, wis: 11, cha: 4 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        abilities: [
+          {
+            key: 'escape',
+            name: 'Escape',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['The hare can Dash, Disengage, or Hide as a bonus action on each of its turns.'],
+          },
+        ],
+      },
+    },
+    fox: {
+      name: 'Fox',
+      page: 288,
+      alignment: 'unaligned',
+      habitats: ['Arctic', 'Forest', 'Ten-Towns outskirts'],
+      appearance: [['A white arctic fox with thick winter fur and a bushy tail.']],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '0',
+        ac: 13,
+        hitDice: '1d4',
+        speed: { walk: 30, burrow: 5 },
+        scores: { str: 2, dex: 16, con: 11, int: 3, wis: 12, cha: 6 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'keen-hearing',
+            name: 'Keen Hearing',
+            timing: 'trait',
+            icon: 'gi/GiHumanEar',
+            text: ['The fox has advantage on Wisdom (Perception) checks that depend on hearing.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1', type: rules.piercing }],
+            },
+          },
+        ],
+      },
+    },
+    giant_walrus: {
+      name: 'Giant Walrus',
+      page: 312,
+      alignment: 'unaligned',
+      habitats: ['Arctic', 'Coastal', 'Sea of Moving Ice'],
+      appearance: [
+        ['An elephant-sized walrus with thick folds of skin, bristly whiskers and two long tusks.'],
+      ],
+      stats: {
+        size: 'huge',
+        type: 'beast',
+        cr: '4',
+        ac: 9,
+        hitDice: '9d12',
+        speed: { walk: 20, swim: 40 },
+        scores: { str: 22, dex: 9, con: 16, int: 3, wis: 11, cha: 4 },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'hold-breath',
+            name: 'Hold Breath',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['The walrus can hold its breath for 30 minutes.'],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'body-flop' },
+              ' and one ',
+              { ability: 'tusks' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'body-flop',
+            name: 'Body Flop',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d8', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+          {
+            key: 'tusks',
+            name: 'Tusks',
+            timing: 'action',
+            icon: 'gi/GiBullHorns',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '3d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+    hare: {
+      name: 'Hare',
+      page: 294,
+      alignment: 'unaligned',
+      habitats: ['Arctic', 'Burrows'],
+      appearance: [
+        ['A winter snowshoe hare with relatively short ears and broad furry hind feet.'],
+      ],
+      stats: {
+        size: 'tiny',
+        type: 'beast',
+        cr: '0',
+        ac: 13,
+        hitDice: '1d4',
+        speed: { walk: 20, burrow: 5 },
+        scores: { str: 1, dex: 17, con: 9, int: 2, wis: 11, cha: 4 },
+        skills: { perception: 'proficient', stealth: 'proficient' },
+        abilities: [
+          {
+            key: 'escape',
+            name: 'Escape',
+            timing: 'bonus action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'On each of its turns, the hare can use a bonus action to Dash, Disengage, or Hide.',
+            ],
+          },
+        ],
+      },
+    },
+    walrus: {
+      name: 'Walrus',
+      page: 312,
+      alignment: 'unaligned',
+      habitats: ['Arctic', 'Coastal', 'Underwater'],
+      appearance: [
+        [
+          'A bulky marine mammal with a broad whiskered muzzle, heavy flippers, and two long ivory tusks.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1/4',
+        ac: 9,
+        hitDice: '3d10',
+        speed: { walk: 20, swim: 40 },
+        scores: { str: 15, dex: 9, con: 14, int: 3, wis: 11, cha: 4 },
+        abilities: [
+          {
+            key: 'hold-breath',
+            name: 'Hold Breath',
+            timing: 'trait',
+            icon: 'gi/GiDragonBreath',
+            text: ['The walrus can hold its breath for 10 minutes.'],
+          },
+          {
+            key: 'tusks',
+            name: 'Tusks',
+            timing: 'action',
+            icon: 'gi/GiBullHorns',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+  },
+})

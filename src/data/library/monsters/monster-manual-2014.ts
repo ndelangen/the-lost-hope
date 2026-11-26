@@ -1067,7 +1067,11 @@ export default createPublicationMonsters({
     },
     cat: {
       name: 'Cat',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.player_s_handbook_2014,
+        refs.publications.srd_5_1,
+      ],
       alignment: 'unaligned',
       habitats: ['Settlements', 'Farms', 'Woodland edges'],
       appearance: [
@@ -1411,7 +1415,11 @@ export default createPublicationMonsters({
     },
     constrictor_snake: {
       name: 'Constrictor Snake',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.player_s_handbook_2014,
+        refs.publications.srd_5_1,
+      ],
       page: 320,
       alignment: 'unaligned',
       habitats: ['Desert', 'Forest', 'Swamp', 'Underwater'],
@@ -1689,7 +1697,11 @@ export default createPublicationMonsters({
     },
     crocodile: {
       name: 'Crocodile',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex1_07_drums_in_the_marsh,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       page: 320,
       alignment: 'unaligned',
       habitats: ['Rivers', 'Marshes', 'Wetlands'],
@@ -1923,7 +1935,11 @@ export default createPublicationMonsters({
     },
     deer: {
       name: 'Deer',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+        refs.publications.srd_5_1,
+      ],
       page: 321,
       alignment: 'unaligned',
       habitats: ['Forest', 'Grassland', 'Forest edges', 'Meadows'],
@@ -3597,7 +3613,11 @@ export default createPublicationMonsters({
     },
     giant_badger: {
       name: 'Giant Badger',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep2_mulmaster_undone_v2,
+        refs.publications.srd_5_1,
+      ],
       page: 323,
       alignment: 'unaligned',
       habitats: ['Forests', 'Woodland edges', 'Burrows'],
@@ -3712,7 +3732,10 @@ export default createPublicationMonsters({
     },
     giant_centipede: {
       name: 'Giant Centipede',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.hoard_of_the_dragon_queen_online_supplement,
+      ],
       page: 323,
       alignment: 'unaligned',
       habitats: ['Underdark', 'Urban'],
@@ -4070,7 +4093,11 @@ export default createPublicationMonsters({
     },
     giant_octopus: {
       name: 'Giant Octopus',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.rise_of_tiamat_online_supplement,
+        refs.publications.srd_5_1,
+      ],
       page: 326,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Rocky reefs', 'Kelp forests'],
@@ -4226,7 +4253,10 @@ export default createPublicationMonsters({
     },
     giant_shark: {
       name: 'Giant Shark',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep2_mulmaster_undone_v2,
+      ],
       page: 328,
       alignment: 'unaligned',
       habitats: ['Underwater', 'Deep ocean'],
@@ -7729,7 +7759,11 @@ export default createPublicationMonsters({
     },
     panther: {
       name: 'Panther',
-      reprintedIn: [refs.publications.basic_rules_2018, refs.publications.srd_5_1],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddex1_08_tales_trees_tell,
+        refs.publications.srd_5_1,
+      ],
       page: 333,
       alignment: 'unaligned',
       habitats: ['Forest', 'Jungle', 'Rocky hills'],
@@ -10732,7 +10766,11 @@ export default createPublicationMonsters({
     },
     wolf: {
       name: 'Wolf',
-      reprintedIn: [refs.publications.basic_rules_2018],
+      reprintedIn: [
+        refs.publications.basic_rules_2018,
+        refs.publications.ddep1_corruption_in_kryptgarden,
+        refs.publications.rise_of_tiamat_online_supplement,
+      ],
       page: 341,
       alignment: 'unaligned',
       habitats: ['Forest', 'Grassland', 'Hills'],

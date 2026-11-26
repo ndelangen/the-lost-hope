@@ -1,0 +1,110 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
+
+export default createPublicationMonsters({
+  publication: refs.publications.morte_s_planar_parade,
+  monsters: {
+    eater_of_knowledge: {
+      name: 'Eater of Knowledge',
+      page: 29,
+      alignment: 'typically neutral evil',
+      languages: ['telepathy 120 ft.'],
+      habitats: ['Ilsensine’s domain', 'Mind flayer enclaves'],
+      appearance: [['A large biped with exposed brain tissue and a mass of corded muscle.']],
+      stats: {
+        size: 'large',
+        type: 'aberration',
+        cr: '6',
+        ac: 15,
+        armor: 'natural armor',
+        hitDice: '12d10',
+        speed: { walk: 40 },
+        scores: { str: 18, dex: 10, con: 17, int: 18, wis: 16, cha: 15 },
+        saves: { str: 'proficient', int: 'proficient' },
+        skills: { arcana: 'proficient', perception: 'proficient' },
+        damageImmunities: [rules.psychic],
+        conditionImmunities: [rules.charmed, rules.frightened],
+        abilities: [
+          {
+            key: 'spellcasting',
+            name: 'Spellcasting',
+            timing: 'action',
+            icon: 'gi/GiWizardStaff',
+            text: [
+              'As an action, cast one listed spell. Spellcasting (Psionics). Intelligence (spell save ',
+              { dc: 'str' },
+              '), no components. Once per day per spell, subject to the number of brains already consumed. 0 brains: Plane Shift (self only). 1: Detect Magic. 2: Silent Image. 3: Invisibility. 4: Hypnotic Pattern. 5: Major Image. 6 brains: Telekinesis. 7: Arcane Eye. 8: Mislead. 9: Greater Invisibility. 10 or more: Mass Suggestion.',
+            ],
+          },
+          {
+            key: 'brains-devoured',
+            name: 'Brains Devoured',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'When the party first encounters this creature, roll 1d10 for the number of brains it has consumed.',
+            ],
+          },
+          {
+            key: 'magic-resistance',
+            name: 'Magic Resistance',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: [
+              'The eater makes saving throws against spells and other magical effects with advantage.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make two ',
+              { ability: 'slam' },
+              ' attacks. If both hit the same Large or smaller creature, it is ',
+              rules.grappled,
+              ' (escape DC 14) and must pass a ',
+              { dc: 'int' },
+              ' Intelligence save or be ',
+              rules.stunned,
+              ' until that grapple ends.',
+            ],
+          },
+          {
+            key: 'slam',
+            name: 'Slam',
+            timing: 'action',
+            icon: 'gi/GiFist',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.bludgeoning, addModifier: true }],
+            },
+          },
+          {
+            key: 'extract-brain',
+            name: 'Extract Brain',
+            timing: 'action',
+            icon: 'lucide/Target',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '10d8', type: rules.piercing }],
+            },
+            text: [
+              'If the damage drops the target to 0 hit points, the eater kills it and consumes its brain.',
+            ],
+          },
+        ],
+      },
+    },
+  },
+})

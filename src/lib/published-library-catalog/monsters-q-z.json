@@ -3932,79 +3932,6 @@
       {
         "id": "printing-7881bfbe02f9e18e71d1a866",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 10",
-              "Hit dice · 3d4 + 3",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fey",
-              "Speed · 120 ft.",
-              "Passive Perception · 15",
-              "XP · 200",
-              "Str · 4",
-              "Dex · 23",
-              "Con · 13",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "The Queen of Air and Darkness cursed these tiny Fey with a pace the rest of the world can barely follow. A quickling lives at most fifteen years and often uses its speed to make others take the blame for its pranks."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +8", "Sleight Of Hand +8", "Stealth +8", "Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny fey, typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Sylvan."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Blurred Movement. The quickling imposes disadvantage on attack rolls against it. Attacks lose that disadvantage if the quickling is incapacitated or its speed is 0.\nEvasion. While not incapacitated, the quickling takes no damage on a successful Dexterity save against an effect that normally deals half damage on a success. It takes half damage on a failed save against that effect."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 8 (1d4 + 6) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 207."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 207 · https://5e.tools/bestiary.html#quickling_mpmm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#quickling_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/26045/517/1000/1000/637891713228849186.jpeg",
         "art": [
@@ -4012,83 +3939,21 @@
             "file": "/assets/library/worker-art/quickling-c86dbf93def98cad.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quickling"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-f03d8babf4df4e7be0b8b938",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 10",
-              "Hit dice · 3d4 + 3",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fey",
-              "Speed · 120 ft.",
-              "Passive Perception · 15",
-              "XP · 200",
-              "Str · 4",
-              "Dex · 23",
-              "Con · 13",
-              "Int · 10",
-              "Wis · 12",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A tiny fey whose movements blur as it darts between targets with a dagger."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +8", "Perception +5", "Sleight of Hand +8", "Stealth +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny fey, chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Sylvan."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Blurred Movement. Attacks against the quickling have disadvantage unless it is incapacitated or restrained.\nEvasion. When a Dexterity save would halve incoming damage, the quickling takes half on a failed save and no damage on a success."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The quickling makes three dagger attacks.\nDagger. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 8 (1d4 + 6) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 187."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 187 · https://5e.tools/bestiary.html#quickling_vgm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#quickling_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25706/177/1000/1000/637878890289995371.jpeg",
         "art": [
@@ -4096,7 +3961,17 @@
             "file": "/assets/library/worker-art/quickling-c86dbf93def98cad.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "quickling"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Fey"]
@@ -6393,81 +6268,23 @@
       {
         "id": "printing-00c8162d1cebdeed1fbec30a",
         "label": "Guildmasters’ Guide to Ravnica",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 40 ft., climb 30 ft.",
-              "Passive Perception · 9",
-              "XP · 200",
-              "Str · 13",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 8",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Rakdos stage performer who turns juggling knives into a flurry of attacks."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Cha +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +7", "Performance +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), chaotic evil"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any one language (usually Common)."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Performer Type. This profile gives the shared Rakdos Performer statistics with the blade juggler action options."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Nimble. Take the Disengage action."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Dagger attacks.\nDagger. Melee or ranged weapon attack, +5 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 5 (1d4 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Guildmasters’ Guide to Ravnica, p. 249, Rakdos Performer and Blade Juggler actions."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#rakdos%20performer%2c%20blade%20juggler_ggr",
         "art": [
           {
             "file": "/assets/library/worker-art/rakdos-performer-blade-juggler-8abfc09d603948fe.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rakdos_performer_blade_juggler"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "guildmasters_guide_to_ravnica"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -6696,79 +6513,23 @@
       {
         "id": "printing-20ec71fea9bbfdbd228761eb",
         "label": "Guildmasters’ Guide to Ravnica",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 22",
-              "Hit dice · 4d8 + 4",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 40 ft., climb 30 ft.",
-              "Passive Perception · 9",
-              "XP · 200",
-              "Str · 13",
-              "Dex · 17",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 8",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Rakdos stage performer who uses a barbed pole and springs out of reach."]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Cha +4"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +7", "Performance +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), chaotic evil"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any one language (usually Common)."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Performer Type. This profile gives the shared Rakdos Performer statistics with the high-wire acrobat action options."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Nimble. Take the Disengage action."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Barbed Pole attacks.\nBarbed Pole. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage. On the hit, the acrobat can jump up to 20 ft. without provoking opportunity attacks."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Guildmasters’ Guide to Ravnica, p. 249, Rakdos Performer and High-Wire Acrobat actions."
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#rakdos%20performer%2c%20high-wire%20acrobat_ggr",
         "art": [
           {
             "file": "/assets/library/worker-art/rakdos-performer-high-wire-acrobat-1ae364e9feba43a8.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rakdos_performer_high_wire_acrobat"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "guildmasters_guide_to_ravnica"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -10447,103 +10208,6 @@
       {
         "id": "printing-c959277d59d2f508041c9e4b",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 289",
-              "Hit dice · 34d8 + 136",
-              "Challenge · 19",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft., fly 50 ft.",
-              "Passive Perception · 18",
-              "XP · 22000",
-              "Str · 23",
-              "Dex · 16",
-              "Con · 19",
-              "Int · 14",
-              "Wis · 15",
-              "Cha · 19"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A commander among Tiamat's devils, a red abishai leads troops in the Nine Hells or takes control of a cult that has strayed from her orders."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +12", "Con +10", "Wis +8"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +10", "Perception +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (devil), typically lawful evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Draconic, Infernal, telepathy 120 ft."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "Cold. Bludgeoning, piercing, slashing from nonmagical attacks that are not silvered."
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Frightened, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Devil's Sight. The abishai sees through magical darkness out to the range of its darkvision.\nMagic Resistance. The abishai has advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Claw attack. The abishai can also use either Frightful Presence or Incite Fanaticism.\nBite. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 17 (2d10 + 6) force damage plus 11 (2d10) fire damage.\nFrightful Presence. The abishai chooses creatures within 120 ft. that are aware of it. Each makes a DC 18 Wisdom save. On a failure it is frightened of the abishai for 1 minute. It can repeat the save at the end of each of its turns, ending the effect on a success. A creature that succeeds or recovers gains immunity to this abishai's Frightful Presence for 24 hours.\nIncite Fanaticism. Choose up to four other creatures within 60 ft. that can see the abishai. Until the start of its next turn, each has advantage on attack rolls and is immune to the frightened condition.\nPower of the Dragon Queen. Choose one Dragon the abishai can see within 120 ft. The Dragon makes a DC 18 Charisma save with disadvantage if it is chromatic. A success grants immunity to this ability from this abishai for 1 hour. On a failure the Dragon is charmed by the abishai for 1 hour and treats it as a trusted friend to heed and protect. Damage from the abishai or one of its companions ends the charm."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 40."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 40 · https://5e.tools/bestiary.html#red%20abishai_mpmm",
-              "Darkvision (sense) · https://5e.tools/senses.html#darkvision_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#red%20abishai_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/41008/346/1000/1000/638479352424025903.png",
         "art": [
@@ -10551,109 +10215,21 @@
             "file": "/assets/library/worker-art/red-abishai-eda1124d29c30b2c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_abishai"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-4c9673c4af1e08ff675960fe",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 22",
-              "Hit points · 255",
-              "Hit dice · 30d8 + 120",
-              "Challenge · 19",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft., fly 50 ft.",
-              "Passive Perception · 18",
-              "XP · 22000",
-              "Str · 23",
-              "Dex · 16",
-              "Con · 19",
-              "Int · 14",
-              "Wis · 15",
-              "Cha · 19"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A commander among Tiamat’s abishai, it rallies followers and can turn dragons into allies."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +12", "Con +10", "Wis +8"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +10", "Perception +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (devil), lawful evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": [
-              "Cold. Bludgeoning, piercing, and slashing from nonmagical attacks made without silvered weapons."
-            ]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Fire, poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Draconic, Infernal, telepathy 120 ft."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Devil’s Sight. Magical darkness does not interfere with the abishai’s darkvision.\nMagic Resistance. The abishai has advantage on saves against spells and other magical effects.\nMagic Weapons. The abishai’s weapon attacks are magical."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The abishai may use Frightful Presence, then makes one Morningstar attack, one Claw attack, and one Bite attack.\nMorningstar. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 10 (1d8 + 6) piercing damage.\nClaw. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 17 (2d10 + 6) slashing damage.\nBite. Melee weapon attack, +12 to hit, reach 5 ft., one target. A hit deals 22 (3d10 + 6) piercing damage plus 38 (7d10) fire damage.\nFrightful Presence. Each chosen creature within 120 ft. that is aware of the abishai must make a DC 18 Wisdom save or be frightened of it for 1 minute. The creature can repeat the save at the end of each of its turns to end the effect. On a success or when the effect ends, the creature is immune to this abishai’s Frightful Presence for 24 hours.\nIncite Fanaticism. Choose up to four allies within 60 ft. that can see the abishai. For 1 minute, those allies have advantage on attack rolls and cannot be frightened.\nPower of the Dragon Queen. Choose a dragon the abishai can see within 120 ft. The dragon makes a DC 18 Charisma save. Chromatic dragons save with disadvantage. A success grants immunity to this abishai’s Power of the Dragon Queen for 1 hour. On a failure, the dragon is charmed for 1 hour and treats the abishai as a trusted friend to heed and protect. The charm ends if the abishai or its companions damage the dragon."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Mordenkainen’s Tome of Foes, p. 162. Official errata corrects the Bite’s piercing damage dice from 5d10 + 6 to 3d10 + 6."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 160 · https://5e.tools/bestiary.html#red%20abishai_mtf",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#red%20abishai_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/268/228/1000/1000/636597579766035219.png",
         "art": [
@@ -10661,7 +10237,17 @@
             "file": "/assets/library/worker-art/red-abishai-eda1124d29c30b2c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_abishai"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -11426,142 +11012,32 @@
       {
         "id": "printing-31b03aa984d05c65503d0ed7",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 2",
-              "Type · Dragon",
-              "Speed · 30 ft., climb 30 ft.",
-              "XP · 450",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 16",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 7"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/2560903-red-guard-drake",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_guard_drake"
           },
-          {
-            "title": "Habitats",
-            "lines": ["Mountains", "Caverns", "Guard posts"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A wingless red-scaled dragon guardian with a ridged spine and climbing claws."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Dragon, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Skills Perception +2. Senses: darkvision 60 ft.. Languages: understands Draconic but can't speak. Resists: fire. Passive Perception 12."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack +5, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing.\nTail. Melee weapon attack +5, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Rules source: Mordenkainen Presents: Monsters of the Multiverse, p. 151. This variant uses the Guard Drake base rules with the printed changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Guard Drake (monster) · https://5e.tools/bestiary.html#guard%20drake_mpmm"]
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
-        "source": "https://www.dndbeyond.com/monsters/2560903-red-guard-drake"
+        }
       },
       {
         "id": "printing-a1567c55fac3978fc388b51d",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Dragon",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "XP · 450",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 16",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 7"
-            ]
+        "source": "https://5e.tools/bestiary.html#red%20guard%20drake_vgm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "red_guard_drake"
           },
-          {
-            "title": "Description",
-            "lines": ["A red-scaled guard drake that can scramble up walls and withstand fire."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "underdark", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Draconic and cannot speak."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Fire."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. The drake uses Bite once and Tail once.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 158."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 158 · https://5e.tools/bestiary.html#red%20guard%20drake_vgm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
-        "source": "https://5e.tools/bestiary.html#red%20guard%20drake_vgm"
+        }
       }
     ],
     "groups": ["Dragon"],
@@ -26752,86 +26228,23 @@
       {
         "id": "printing-d39feae9ab65d7760a5dc34b",
         "label": "Guildmasters’ Guide to Ravnica",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 11",
-              "Hit dice · 2d8 + 2",
-              "Challenge · 1/2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 14",
-              "XP · 100",
-              "Str · 10",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["A Gruul scout who ambushes enemies in ruins and uses the rubble to escape."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +2", "Perception +4", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), chaotic neutral"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any one language (usually Common)."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Piecemeal armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Ambusher. In the first round of combat, the stalker has advantage on attack rolls against creatures that have yet to take a turn.\nRuin Dweller. The stalker has advantage on Dexterity (Stealth) checks to hide in ruins. Rubble does not slow it.\nSiege Monster. The stalker deals double damage to objects and structures."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Nimble Escape. Take the Disengage or Hide action."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Shortsword attacks.\nShortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Guildmasters’ Guide to Ravnica, p. 239."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Guildmasters' Guide to Ravnica, p. 239 · https://5e.tools/bestiary.html#rubblebelt%20stalker_ggr",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb",
-              "Hide (action) · https://5e.tools/actions.html#hide_phb",
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#rubblebelt%20stalker_ggr",
         "art": [
           {
             "file": "/assets/library/worker-art/rubblebelt-stalker-d3c77dfe282b1f21.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rubblebelt_stalker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "guildmasters_guide_to_ravnica"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -28763,87 +28176,6 @@
       {
         "id": "printing-c37ee243085b708372dc1083",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 37",
-              "Hit dice · 5d8 + 15",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 20 ft.",
-              "Passive Perception · 11",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 15",
-              "Con · 17",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Mobs of these demons roam the Abyss and surround intruders. Their bites carry a disease that can turn a dying victim into a manes."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (demon), typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Abyssal but can't speak."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, fire, lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Immobilizing Fear. A creature other than a demon that starts its turn within 30 ft. of one or more rutterkins makes a DC 11 Wisdom save. It has disadvantage if six or more rutterkins are within that range. On a failure the creature is frightened of the rutterkins for 1 minute and restrained while frightened this way. It can repeat the save at the end of each of its turns to end the effect. Any successful save grants immunity to every rutterkin's Immobilizing Fear for 24 hours."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 12 (3d6 + 2) piercing damage. A creature hit makes a DC 13 Constitution save against disease or becomes poisoned. It can repeat the save at the end of each long rest, ending the effect on a success. If it drops to 0 HP while poisoned by the bite, it dies and immediately becomes a living Manes. Only Wish can reverse the transformation."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 210."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 210 · https://5e.tools/bestiary.html#rutterkin_mpmm",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Manes (creature) · https://5e.tools/bestiary.html#manes_mm",
-              "Wish (spell) · https://5e.tools/spells.html#wish_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#rutterkin_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/615/1000/1000/637880557947369162.jpeg",
         "art": [
@@ -28851,92 +28183,21 @@
             "file": "/assets/library/worker-art/rutterkin-ba0c45b7560d39c3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rutterkin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-0483cebd7221ad87f6d1c21d",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 37",
-              "Hit dice · 5d8 + 15",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 20 ft.",
-              "Passive Perception · 11",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 15",
-              "Con · 17",
-              "Int · 5",
-              "Wis · 12",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Rutterkins hunt in mobs. Their numbers pin intruders in place, and a bite can turn a dying victim into an Abyssal Wretch."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (demon), chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 120 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Abyssal but can't speak."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, fire, lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Crippling Fear. When a creature other than a demon starts its turn within 30 ft. of at least three rutterkins, it makes a DC 11 Wisdom save. If six or more rutterkins are within range, it has disadvantage. Success grants immunity to all rutterkins’ Crippling Fear for 24 hours. Failure leaves the creature frightened of the rutterkins for 1 minute and restrained while frightened this way. It can repeat the save at the end of each of its turns to end the effect on a success."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 12 (3d6 + 2) piercing damage. A creature hit must succeed on a DC 13 Constitution save against disease or become poisoned. It can repeat the save at the end of each long rest to end the effect. If reduced to 0 HP while poisoned by the bite, it dies and immediately becomes a living Abyssal Wretch. Only Wish can undo the body’s transformation."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, p. 136."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 136 · https://5e.tools/bestiary.html#rutterkin_mtf",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Restrained (condition) · https://5e.tools/conditionsdiseases.html#restrained_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Abyssal wretch (creature) · https://5e.tools/bestiary.html#abyssal%20wretch_mtf",
-              "Wish (spell) · https://5e.tools/spells.html#wish_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#rutterkin_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/266/681/1000/1000/636596813456026936.png",
         "art": [
@@ -28944,7 +28205,17 @@
             "file": "/assets/library/worker-art/rutterkin-ba0c45b7560d39c3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "rutterkin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -36291,78 +35562,23 @@
       {
         "id": "printing-315467df80f4324cc1cf9598",
         "label": "Mythic Odysseys of Theros",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 33",
-              "Hit dice · 6d8 + 6",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Fey",
-              "Speed · 40 ft.",
-              "Passive Perception · 10",
-              "XP · 200",
-              "Str · 12",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 12",
-              "Wis · 10",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A celebrant who uses music, dance, or another performance to draw rivals into the festivities."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +5", "Performance +7", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fey, chaotic neutral"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Sylvan."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Enthralling Performance. After at least 1 minute of performing, choose up to four humanoids within 60 ft. who watched or listened to the whole performance. Each must succeed on a DC 13 Wisdom save or be charmed, idolizing the satyr and joining its revels. The charm ends after 1 hour, if the target takes damage, if the satyr attacks it, or if it sees the satyr attack or damage one of its allies.\nMagic Resistance. The satyr has advantage on saving throws against spells and other magical effects.\nSleepless Reveler. Magic cannot put the satyr to sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Ram attacks or two Shortbow attacks.\nRam. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (2d4 + 1) bludgeoning damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mythic Odysseys of Theros, p. 242."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mythic Odysseys of Theros, p. 242 · https://5e.tools/bestiary.html#satyr%20reveler_mot",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#satyr%20reveler_mot",
         "art": [
           {
             "file": "/assets/library/worker-art/satyr-reveler-07f28ebf3fd832d4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "satyr_reveler"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mythic_odysseys_of_theros"
+          }
+        }
       }
     ],
     "groups": ["Fey"]
@@ -40286,73 +39502,18 @@
       {
         "id": "printing-dfed831e5280c29d96fd15a3",
         "label": "Mordenkainen's Fiendish Folio Volume 1",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 18",
-              "Hit dice · 4d6 + 4",
-              "Challenge · 1",
-              "Type · Fey",
-              "Speed · walk 0 ft., fly 40 ft.",
-              "XP · 200",
-              "Str · 4",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 5",
-              "Wis · 8",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Feywild"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A small twisted fey with batlike wings, stunted legs and a barbed tail."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small Fey, lawful evil"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Senses: darkvision 30 ft.. Languages: Sylvan. Passive Perception 9."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Agile Flier. While it is flying, opportunity attacks against it have Disadvantage.\nCeaseless Screaming. A creature other than a screaming devilkin that starts its turn within 30 ft. of one or more devilkins it can hear must pass a DC 10 Wisdom save or be Incapacitated until its next turn starts.\nStunted Legs. While it is not flying, its attacks have Disadvantage and attacks against it have Advantage."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Barbed Tail. Melee weapon attack +5, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Uses the verified Mordenkainen's Fiendish Folio stat block for this creature. Check this publication for encounter-specific changes.",
-              "Rules source: Mordenkainen's Fiendish Folio, p. 19."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Fiendish Folio index · https://5e.tools/bestiary.html#screaming%20devilkin_mff"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/589036-screaming-devilkin",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/8006/152/1000/1000/637115709679464710.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/8006/152/1000/1000/637115709679464710.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "screaming_devilkin"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_fiendish_folio_volume_1"
+          }
+        }
       }
     ],
     "groups": ["Fey"],
@@ -42320,73 +41481,18 @@
       {
         "id": "printing-ef8688deba6859a03d26ce33",
         "label": "Ghosts of Saltmarsh",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 90",
-              "Hit dice · 12d10 + 24",
-              "Challenge · 5",
-              "Type · Monstrosity",
-              "Speed · 10 ft., swim 40 ft.",
-              "XP · 1800",
-              "Str · 17",
-              "Dex · 15",
-              "Con · 15",
-              "Int · 3",
-              "Wis · 12",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large Monstrosity, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Perception +4, Stealth +5. Passive Perception 14. No languages."
-            ]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Amphibious. It can breathe air and water.\nKeen Smell. It has Advantage on Perception checks that use smell.\nPack Tactics. It attacks with Advantage if an ally within 5 ft. of the target is not Incapacitated.\nSwimming Leap. After swimming at least 10 ft. it can long jump up to 25 ft. out of or across the water."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack +6, reach 5 ft., one target. Hit for 12 (2d8 + 3) piercing damage.\nClaw. Melee weapon attack +6, reach 5 ft., one target. Hit for 12 (2d8 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Coastal waters and islands at sea."]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A scaled, catlike face and clawed forelimbs give way to a finned body."]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Rules source: Tales from the Yawning Portal, p. 242.",
-              "Also published in Ghosts of Saltmarsh, p. 252. The 2014-era stat block lists piercing damage for Claw."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tales from the Yawning Portal index · https://5e.tools/bestiary.html#sea%20lion_tftyp"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/22655-sea-lion",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/14/321/1000/1000/636363347399415787.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/14/321/1000/1000/636363347399415787.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sea_lion"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "ghosts_of_saltmarsh"
+          }
+        }
       },
       {
         "id": "printing-25851c57dd332f05cfb3132d",
@@ -45017,89 +44123,23 @@
       {
         "id": "printing-40088dfa2e09d1d810a97592",
         "label": "Guildmasters’ Guide to Ravnica",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 22",
-              "Hit dice · 4d6 + 8",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Construct",
-              "Speed · 30 ft.",
-              "Passive Perception · 8",
-              "XP · 50",
-              "Str · 11",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 6",
-              "Cha · 3"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A small construct that runs errands and carries possessions for the Orzhov. It will step into a blow meant for its master."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small construct, unaligned"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Common but cannot speak."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Exhaustion, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Construct Nature. The thrull needs no air, food, drink, or sleep."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 5 (1d8 + 1) slashing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Self-Sacrifice. After an attack hits a creature within 5 ft. of the thrull, it swaps places with that creature and takes the hit instead."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Guildmasters’ Guide to Ravnica, p. 221."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Guildmasters' Guide to Ravnica, p. 221 · https://5e.tools/bestiary.html#servitor%20thrull_ggr"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#servitor%20thrull_ggr",
         "art": [
           {
             "file": "/assets/library/worker-art/servitor-thrull-15160159f8ce4782.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "servitor_thrull"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "guildmasters_guide_to_ravnica"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -45405,88 +44445,23 @@
       {
         "id": "printing-cf04a418aa48739c9d52e83b",
         "label": "Mythic Odysseys of Theros",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 58",
-              "Hit dice · 9d8 + 18",
-              "Challenge · 4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 15",
-              "XP · 1100",
-              "Str · 14",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 13",
-              "Wis · 16",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A Setessan hunter and soldier who uses woodland cover, coordinated distractions, and poison-treated weapons."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +5", "Wis +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +5", "Perception +5", "Survival +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any), any alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Leather armor and shield."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The hoplite gains advantage on an attack roll against a creature if at least one ally within 5 ft. of the hoplite is not incapacitated."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Scimitar attacks or two Longbow attacks.\nScimitar. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage plus 10 (3d6) poison damage.\nLongbow. Ranged weapon attack, +5 to hit, range 150/600 ft., one target. A hit deals 7 (1d8 + 3) piercing damage plus 10 (3d6) poison damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mythic Odysseys of Theros, p. 229."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mythic Odysseys of Theros, p. 229 · https://5e.tools/bestiary.html#setessan%20hoplite_mot",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#setessan%20hoplite_mot",
         "art": [
           {
             "file": "/assets/library/worker-art/setessan-hoplite-608b9876676fee09.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "setessan_hoplite"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mythic_odysseys_of_theros"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -45850,112 +44825,6 @@
       {
         "id": "printing-34ff6abb245c96eeb773c417",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 104",
-              "Hit dice · 16d8 + 32",
-              "Challenge · 9",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 11",
-              "XP · 5000",
-              "Str · 11",
-              "Dex · 18",
-              "Con · 14",
-              "Int · 15",
-              "Wis · 12",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A gloom weaver watches from the shadows while its presence saps the resolve of those nearby. It uses shadow magic when discovered."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +8", "Con +6"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "urban"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (elf), typically neutral evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Elvish."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Necrotic."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, exhaustion."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Burden of Time. Beasts and Humanoids other than elves have disadvantage on saving throws within 10 ft. of the gloom weaver.\nFey Ancestry. The shadar-kai has advantage on saving throws against being charmed. Magic cannot put it to sleep."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make three Shadow Spear attacks. Spellcasting can replace one attack.\nShadow Spear. Melee or ranged weapon attack, +8 to hit, reach 5 ft. or range 30/120 ft., one target. A hit deals 7 (1d6 + 4) piercing damage plus 26 (4d12) necrotic damage. The spear magically returns to the gloom weaver's hand immediately after any ranged attack."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "As an action, cast a listed spell using Charisma (spell save DC 16), without material components.\nAt will. Arcane Eye, Mage Armor, Minor Illusion, Prestidigitation, Speak with Dead.\n1/day each. Arcane Gate, Bane, Confusion, Darkness, Fear, Major Image, True Seeing."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Misty Escape (Recharge 6). When the gloom weaver takes damage, it becomes invisible and teleports to an unoccupied space it can see within 60 ft., carrying its equipment. The invisibility ends at the start of its next turn or when it attacks or casts a spell, whichever comes first."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 213."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 213 · https://5e.tools/bestiary.html#shadar-kai%20gloom%20weaver_mpmm",
-              "Arcane eye (spell) · https://5e.tools/spells.html#arcane%20eye_phb",
-              "Mage armor (spell) · https://5e.tools/spells.html#mage%20armor_phb",
-              "Minor illusion (spell) · https://5e.tools/spells.html#minor%20illusion_phb",
-              "Prestidigitation (spell) · https://5e.tools/spells.html#prestidigitation_phb",
-              "Speak with dead (spell) · https://5e.tools/spells.html#speak%20with%20dead_phb",
-              "Arcane gate (spell) · https://5e.tools/spells.html#arcane%20gate_phb",
-              "Bane (spell) · https://5e.tools/spells.html#bane_phb",
-              "Confusion (spell) · https://5e.tools/spells.html#confusion_phb",
-              "Darkness (spell) · https://5e.tools/spells.html#darkness_phb",
-              "Fear (spell) · https://5e.tools/spells.html#fear_phb",
-              "Major image (spell) · https://5e.tools/spells.html#major%20image_phb",
-              "True seeing (spell) · https://5e.tools/spells.html#true%20seeing_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Invisible (condition) · https://5e.tools/conditionsdiseases.html#invisible_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#shadar-kai%20gloom%20weaver_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/626/1000/1000/637880557965350651.jpeg",
         "art": [
@@ -45963,7 +44832,17 @@
             "file": "/assets/library/worker-art/shadar-kai-gloom-weaver-d9f9a1945fd4af3f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shadar_kai_gloom_weaver"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -57159,98 +56038,6 @@
       {
         "id": "printing-703ed1e702f8b98ac26326f4",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 136",
-              "Hit dice · 16d10 + 48",
-              "Challenge · 8",
-              "Size · Large",
-              "Type · Fiend",
-              "Speed · 40 ft.",
-              "Passive Perception · 12",
-              "XP · 3900",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 17",
-              "Int · 7",
-              "Wis · 14",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Yeenoghu grants this hyena demon to a favored worshiper after a great victory. It fights beside its master, using its stinger to immobilize prey for the war band."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4", "Con +6", "Wis +5"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "forest", "grassland", "hill"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large fiend (demon), typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Gnoll, telepathy 120 ft."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, fire, lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened, poisoned."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail Stinger attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 26 (4d10 + 4) piercing damage.\nTail Stinger. Melee weapon attack, +7 to hit, reach 15 ft., one creature. A hit deals 13 (2d8 + 4) piercing damage. The creature makes a DC 14 Constitution save or is poisoned and paralyzed while poisoned in this way. It can repeat the save at the end of each of its turns, ending the effect on a success."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Rampage. When the shoosuva reduces a creature to 0 HP with a melee attack on its own turn, it can move up to half its speed and make one Bite attack."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 216."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 216 · https://5e.tools/bestiary.html#shoosuva_mpmm",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb",
-              "Yeenoghu (creature) · https://5e.tools/bestiary.html#yeenoghu_mpmm",
-              "Gnoll fang of Yeenoghu (creature) · https://5e.tools/bestiary.html#gnoll%20fang%20of%20yeenoghu_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#shoosuva_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/638/1000/1000/637880557985496890.jpeg",
         "art": [
@@ -57258,7 +56045,17 @@
             "file": "/assets/library/worker-art/shoosuva-ae11f7a12f7bdbc4.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "shoosuva"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-474a2d9fe0429fac07071939",
@@ -67807,87 +66604,23 @@
       {
         "id": "printing-56d582370c86cf6eef279c8c",
         "label": "Guildmasters’ Guide to Ravnica",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 15",
-              "Hit points · 37",
-              "Hit dice · 5d10 + 10",
-              "Challenge · 2",
-              "Size · Large",
-              "Type · Monstrosity",
-              "Speed · 20 ft., fly 90 ft.",
-              "Passive Perception · 12",
-              "XP · 450",
-              "Str · 20",
-              "Dex · 13",
-              "Con · 14",
-              "Int · 3",
-              "Wis · 10",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An armored Boros mount large enough to carry an aerial scout or cavalry rider."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +3", "Wis +2"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Large monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Breastplate."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["None."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Sight. The roc has advantage on Wisdom (Perception) checks that rely on sight."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Beak and one Talons attack.\nBeak. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 9 (1d8 + 5) piercing damage.\nTalons. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 10 (2d4 + 5) slashing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Guildmasters’ Guide to Ravnica, p. 219."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Guildmasters' Guide to Ravnica, p. 219 · https://5e.tools/bestiary.html#skyjek%20roc_ggr",
-              "Breastplate (item) · https://5e.tools/items.html#breastplate_phb",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#skyjek%20roc_ggr",
         "art": [
           {
             "file": "/assets/library/worker-art/skyjek-roc-ebc9bd8d563e6478.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "skyjek_roc"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "guildmasters_guide_to_ravnica"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -83185,78 +81918,6 @@
       {
         "id": "printing-2084977ad6e606a076df53bd",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 11",
-              "Hit points · 17",
-              "Hit dice · 5d6",
-              "Challenge · 1/4",
-              "Size · Small",
-              "Type · Aberration",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "XP · 50",
-              "Str · 6",
-              "Dex · 13",
-              "Con · 10",
-              "Int · 9",
-              "Wis · 11",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Grues swarm ahead of more powerful star spawn. Their shrieks unsettle creatures nearby and draw attention away from their allies."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "swamp"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small aberration, typically neutral evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Deep Speech."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Psychic."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Aura of Shrieks. Creatures within 20 ft. that aren't Aberrations have disadvantage on saving throws and on attack rolls against any creature other than a star spawn grue."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Confounding Bite. Melee weapon attack, +3 to hit, reach 5 ft., one target. A hit deals 6 (2d4 + 1) piercing damage. The target must pass a DC 10 Wisdom save or attack rolls against it have advantage until the start of the grue's next turn."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 227."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 227 · https://5e.tools/bestiary.html#star%20spawn%20grue_mpmm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#star%20spawn%20grue_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/663/1000/1000/637880558025031728.jpeg",
         "art": [
@@ -83264,7 +81925,17 @@
             "file": "/assets/library/worker-art/star-spawn-grue-7fd8c39cb1b7d2ea.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "star_spawn_grue"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-d0175b14dfad7776f86ae89a",
@@ -88382,95 +87053,6 @@
       {
         "id": "printing-ec9ee364773611dafcd18a68",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 161",
-              "Hit dice · 14d12 + 70",
-              "Challenge · 10",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 5900",
-              "Str · 23",
-              "Dex · 14",
-              "Con · 21",
-              "Int · 10",
-              "Wis · 8",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Stone giants who lose themselves in the surface world treat it like a dream. Other stone giants value them as guides. As they travel, peculiar treasures and petrified creatures accumulate on their bodies."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Con +9", "Wis +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "hill", "mountain"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +14", "Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge giant, typically chaotic neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Dreamwalker's Charm. An enemy that starts its turn within 30 ft. must make a DC 13 Charisma save unless the giant is incapacitated. On a failure, the enemy is charmed by the giant and can repeat the save at the end of each of its turns, ending the charm on a success. A creature that succeeds on the save is immune to this giant's Dreamwalker's Charm for 24 hours."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Greatclub or Rock.\nGreatclub. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 24 (4d8 + 6) bludgeoning damage.\nRock. Ranged weapon attack, +10 to hit, range 60/240 ft., one target. A hit deals 22 (3d10 + 6) bludgeoning damage. If the target is a creature, it falls prone unless it succeeds on a DC 17 Strength save.\nPetrifying Touch. Touch one Medium or smaller creature within 10 ft. that the giant has charmed. On a failed DC 17 Constitution save, the target is petrified, and the giant can attach it to its body. For a petrified creature attached this way, Greater Restoration and other magic that reverses petrification work only after the giant dies. Successful magic then frees the creature and ends the petrification."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 234."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 234 · https://5e.tools/bestiary.html#stone%20giant%20dreamwalker_mpmm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#stone%20giant%20dreamwalker_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/688/1000/1000/637880558062417942.jpeg",
         "art": [
@@ -88478,100 +87060,21 @@
             "file": "/assets/library/worker-art/stone-giant-dreamwalker-8548334b931e4a3d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_giant_dreamwalker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-60e2b2b44755486cb9838a03",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 161",
-              "Hit dice · 14d12 + 70",
-              "Challenge · 10",
-              "Size · Huge",
-              "Type · Giant",
-              "Speed · 40 ft.",
-              "Passive Perception · 13",
-              "XP · 5900",
-              "Str · 23",
-              "Dex · 14",
-              "Con · 21",
-              "Int · 10",
-              "Wis · 8",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A stone giant lost in the dream it believes the surface world to be. It collects objects and creatures meaningful to it, attaching them to its stony body."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +6", "Con +9", "Wis +3"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["mountain", "hill", "coastal"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +14", "Perception +3"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Huge giant (stone giant), chaotic neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Giant."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Dreamwalker's Charm. An enemy that starts its turn within 30 ft. of the giant must make a DC 13 Charisma saving throw unless the giant is incapacitated. On a failure it is charmed by the giant. It can repeat the save at the end of each of its turns, ending the charm on a success. Once it succeeds on the save, it is immune to this giant's Dreamwalker's Charm for 24 hours."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Greatclub attacks.\nGreatclub. Melee weapon attack, +10 to hit, reach 15 ft., one target. A hit deals 19 (3d8 + 6) bludgeoning damage.\nPetrifying Touch. Touch one Medium or smaller creature within 10 ft. that this giant has charmed. The creature must succeed on a DC 17 Constitution saving throw or be petrified. The giant can attach the petrified creature to its body. While attached to the living giant, the creature is unaffected by Greater Restoration or other magic that reverses petrification. If the giant is dead, such magic works normally, ending petrification and freeing the creature.\nRock. Ranged weapon attack, +10 to hit, range 60/240 ft., one target. A hit deals 28 (4d10 + 6) bludgeoning damage. A creature hit must succeed on a DC 17 Strength saving throw or fall prone."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 150."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 150 · https://5e.tools/bestiary.html#stone%20giant%20dreamwalker_vgm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Charmed (condition) · https://5e.tools/conditionsdiseases.html#charmed_phb",
-              "Petrified (condition) · https://5e.tools/conditionsdiseases.html#petrified_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#stone%20giant%20dreamwalker_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/668/1000/1000/636330336033228985.jpeg",
         "art": [
@@ -88579,7 +87082,17 @@
             "file": "/assets/library/worker-art/stone-giant-dreamwalker-8548334b931e4a3d.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "stone_giant_dreamwalker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Giant"]
@@ -95244,69 +93757,18 @@
       {
         "id": "printing-f07ef8960aaff72ed8b056a1",
         "label": "Planescape: Adventures in the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 2",
-              "Hit dice · 1d4",
-              "Challenge · 0",
-              "Type · Celestial",
-              "Speed · 10 ft., fly 40 ft.",
-              "XP · 10",
-              "Str · 4",
-              "Dex · 17",
-              "Con · 10",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["Outer Planes", "Sigil"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A luminous flying insect with a pointed stinger."]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny Celestial, chaotic good"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": ["Languages: understands Celestial but can't speak. Passive Perception 10."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Sting. Melee weapon attack +5, reach 5 ft., one target. Hit: 2 (1d4) piercing. On an Outer Plane, the hit also injects a toxin.\nUpper Plane. The target sheds bright light within 5 ft. until the end of its next turn.\nNeutral Plane. A target maintaining Concentration makes the Constitution save caused by the hit with Disadvantage.\nLower Plane. Reduce the target's speed by 5 ft. until the end of its next turn."
-            ]
-          },
-          {
-            "title": "Bonus Actions",
-            "lines": [
-              "Illumination. Emit bright light within 5 ft. and dim light for 5 ft. more, or turn off the light."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Uses the verified Morte's Planar Parade stat block for this creature. Check this publication for encounter-specific changes.",
-              "Rules source: Morte's Planar Parade, p. 47."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Morte's Planar Parade index · https://5e.tools/bestiary.html#sunfly_mpp"]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://www.dndbeyond.com/monsters/3883564-sunfly",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/37204/529/1000/1000/638318543855359226.png"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/37204/529/1000/1000/638318543855359226.png",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "sunfly"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "planescape_adventures_in_the_multiverse"
+          }
+        }
       }
     ],
     "groups": ["Celestial"],
@@ -100568,93 +99030,18 @@
       {
         "id": "printing-e4ec1930b99519148c8624f3",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 66",
-              "Hit dice · 12d8 + 12",
-              "Challenge · 3",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 10",
-              "XP · 700",
-              "Str · 12",
-              "Dex · 18",
-              "Con · 12",
-              "Int · 14",
-              "Wis · 11",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A charming duelist who courts fame and adventure and often makes a living as a pirate or corsair."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal", "urban"]
-          },
-          {
-            "title": "Appearance",
-            "lines": ["A lightly armored, mobile fighter armed with a rapier and dagger."]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +8", "Athletics +5", "Persuasion +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), any non-lawful alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Leather armor with Suave Defense."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any one language, usually Common."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Suave Defense. While wearing light armor or no armor and wielding no shield, the swashbuckler adds its Charisma modifier to AC."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Lightfooted. The swashbuckler can Dash or Disengage as a bonus action on each of its turns."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Dagger attack and two Rapier attacks.\nDagger. Melee or ranged weapon attack, +6 to hit, reach 5 ft. or range 20/60 ft., one target. A hit deals 6 (1d4 + 4) piercing damage.\nRapier. Melee weapon attack, +6 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 217."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 217 · https://5e.tools/bestiary.html#swashbuckler_vgm",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Dash (action) · https://5e.tools/actions.html#dash_phb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#swashbuckler_vgm",
-        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/858/1000/1000/636332937533244694.jpeg"
+        "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/858/1000/1000/636332937533244694.jpeg",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "swashbuckler"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       },
       {
         "id": "printing-128bdc436aba4562b7f4aa6f",
@@ -102481,89 +100868,23 @@
       {
         "id": "printing-00ecc8a1f89bd0770c4b6113",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 40",
-              "Hit dice · 9d8",
-              "Challenge · 1",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft., climb 20 ft.",
-              "Passive Perception · 14",
-              "XP · 200",
-              "Str · 10",
-              "Dex · 17",
-              "Con · 11",
-              "Int · 13",
-              "Wis · 14",
-              "Cha · 15"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A catfolk guide and wilderness tracker. Tabaxi hunters carry stories and treasures between far-flung settlements, and know how to keep a party alive in the jungle."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +2", "Perception +4", "Stealth +5", "Survival +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (tabaxi), chaotic good"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Leather Armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common and one other language."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Feline Agility. When the hunter moves on its turn in combat, it can double its speed until the turn ends. It cannot use this again until it moves 0 ft. on one of its turns."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks using Claws, Shortsword, or Shortbow.\nClaws. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) slashing damage.\nShortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) slashing damage.\nShortbow. Ranged weapon attack, +5 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Tomb of Annihilation, appendix D, p. 232. The printed Shortsword deals slashing damage."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tomb of Annihilation, p. 232 · https://5e.tools/bestiary.html#tabaxi%20hunter_toa",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Tabaxi Minstrel (monster) · https://5e.tools/bestiary.html#tabaxi%20minstrel_toa"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tabaxi%20hunter_toa",
         "art": [
           {
             "file": "/assets/library/worker-art/tabaxi-hunter-529e0d2704cd0a15.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tabaxi_hunter"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -102578,75 +100899,6 @@
       {
         "id": "printing-6e7c45e4aff47c90da036c7d",
         "label": "Tomb of Annihilation",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 22",
-              "Hit dice · 5d8",
-              "Challenge · 1/4",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft., climb 20 ft.",
-              "Passive Perception · 13",
-              "XP · 50",
-              "Str · 10",
-              "Dex · 15",
-              "Con · 11",
-              "Int · 14",
-              "Wis · 12",
-              "Cha · 16"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A traveling catfolk singer and storyteller. Tabaxi minstrels often roam in small troupes and earn their keep by performing when they reach a settlement."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +3", "Performance +7", "Persuasion +5", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (tabaxi), chaotic good"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common and two other languages."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Feline Agility. When the minstrel moves on its turn in combat, it can double its speed until the turn ends. It cannot use this again until it moves 0 ft. on one of its turns.\nInspire (1/day). During a short rest, the minstrel spends 1 minute performing. Choose up to five other creatures that can see and hear it. At the end of the minstrel’s rest, each gains 8 temporary HP."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Claws attacks or two Dart attacks.\nClaws. Melee weapon attack, +2 to hit, reach 5 ft., one target. A hit deals 2 (1d4) slashing damage.\nDart. Ranged weapon attack, +4 to hit, range 20/60 ft., one target. A hit deals 4 (1d4 + 2) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Tomb of Annihilation, appendix D, p. 233."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Tomb of Annihilation, p. 233 · https://5e.tools/bestiary.html#tabaxi%20minstrel_toa",
-              "Tabaxi Hunter (monster) · https://5e.tools/bestiary.html#tabaxi%20hunter_toa"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tabaxi%20minstrel_toa",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/30/769/1000/1000/636395100852851058.png",
         "art": [
@@ -102654,7 +100906,17 @@
             "file": "/assets/library/worker-art/tabaxi-minstrel-bd479eff60875c0a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tabaxi_minstrel"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "tomb_of_annihilation"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -103276,97 +101538,6 @@
       {
         "id": "printing-c81802718af94816ddc90c7d",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 95",
-              "Hit dice · 10d8 + 50",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "XP · 1800",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 20",
-              "Int · 9",
-              "Wis · 9",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Abyssal magic turns warriors into tanarukks. Their allies often keep them imprisoned between battles to contain their violent attempts to seize power."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["hill", "mountain", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +2", "Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (demon), typically chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, and one other language."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Fire, poison."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. The tanarukk has advantage on saves against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Greatsword attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nGreatsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Aggressive. Move up to the tanarukk's speed toward an enemy it can see."]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Unbridled Fury. When a melee attack hits the tanarukk, make one Bite or Greatsword attack with advantage against the attacker."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 240."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 240 · https://5e.tools/bestiary.html#tanarukk_mpmm",
-              "Baphomet (creature) · https://5e.tools/bestiary.html#baphomet_mpmm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tanarukk_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/708/1000/1000/637880558089220468.jpeg",
         "art": [
@@ -103374,101 +101545,21 @@
             "file": "/assets/library/worker-art/tanarukk-362889796c9f2b5c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tanarukk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-b1fea65986e655c8b103b698",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 95",
-              "Hit dice · 10d8 + 50",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Fiend",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "XP · 1800",
-              "Str · 18",
-              "Dex · 13",
-              "Con · 20",
-              "Int · 9",
-              "Wis · 9",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": ["An orc transformed before birth by abyssal magic associated with Baphomet."]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "mountain", "hill"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Intimidation +2", "Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium fiend (demon, orc), chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Fire, poison."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Orc."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Magic Resistance. The tanarukk has advantage on saving throws against spells and other magical effects."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Aggressive. Move up to the tanarukk's speed toward a hostile creature it can see."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Greatsword attack.\nBite. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 8 (1d8 + 4) piercing damage.\nGreatsword. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 11 (2d6 + 4) slashing damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Unbridled Fury. When hit by a melee attack, make one melee weapon attack against the attacker with advantage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 186."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 186 · https://5e.tools/bestiary.html#tanarukk_vgm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tanarukk_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/772/1000/1000/636331434621056023.jpeg",
         "art": [
@@ -103476,7 +101567,17 @@
             "file": "/assets/library/worker-art/tanarukk-362889796c9f2b5c.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tanarukk"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Fiend"]
@@ -115161,92 +113262,6 @@
       {
         "id": "printing-390bb3db3c76b3eb35d49c72",
         "label": "Spelljammer: Adventures in Space",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 142",
-              "Hit dice · 19d8 + 57",
-              "Challenge · 7",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 15",
-              "XP · 2900",
-              "Str · 18",
-              "Dex · 18",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 15",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "An arena fighter eager to test its weapons and reflexes. Some mark their carapaces with the blood of their foes."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +7", "Dex +7", "Wis +5"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Acrobatics +7", "Athletics +7", "Perception +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, any alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Thri-kreen and telepathy 60 ft."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Frightened."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Gythka attacks and one Chatkcha attack.\nGythka. Melee weapon attack, +7 to hit, reach 5 ft., one target. On a hit, deal 13 (2d8 + 4) slashing damage. Roll the attack with advantage while the gladiator is below its hit point maximum.\nChatkcha. Ranged weapon attack, +7 to hit, range 30/120 ft., one target. On a hit, deal 7 (1d6 + 4) slashing damage. Roll the attack with advantage while the gladiator is below its hit point maximum."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Leap. Jump up to 20 ft. in any direction while the gladiator has a speed above 0."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Parry. If a visible attacker would hit it with a melee attack while it is wielding a melee weapon, the gladiator raises its AC by 3 against that attack."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Boo's Astral Menagerie, p. 60."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Boo's Astral Menagerie, p. 60 · https://5e.tools/bestiary.html#thri-kreen%20gladiator_bam"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#thri-kreen%20gladiator_bam",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/28079/952/1000/1000/637961800992029712.jpeg",
         "art": [
@@ -115254,7 +113269,17 @@
             "file": "/assets/library/worker-art/thri-kreen-gladiator-ed9db5cb8330d94a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "thri_kreen_gladiator"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "spelljammer_adventures_in_space"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -115269,85 +113294,6 @@
       {
         "id": "printing-46798377ee02ae38cdfaed41",
         "label": "Spelljammer: Adventures in Space",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 60",
-              "Hit dice · 11d8 + 11",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 14",
-              "XP · 450",
-              "Str · 15",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 10",
-              "Wis · 14",
-              "Cha · 9"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A forager and tracker with a color-changing shell. In Wildspace it might pursue a fugitive or head up a pirate gang."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4", "Stealth +5", "Survival +6"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, any alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Thri-kreen and telepathy 60 ft."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two attacks with Gythka or Chatkcha.\nGythka. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) slashing damage.\nChatkcha. Ranged weapon attack, +5 to hit, range 30/120 ft., one target. A hit deals 6 (1d6 + 3) slashing damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Chameleon Carapace. The hunter adjusts the color of its shell to match the surroundings’ color and texture. It gains advantage on Dexterity (Stealth) checks to hide in those surroundings.\nLeap. With a speed above 0, the hunter can jump up to 20 ft. in any direction."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Parry. While holding a melee weapon, the hunter can add 2 to its AC against a melee attack that would hit it. The attacker must be visible to it."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Boo's Astral Menagerie, p. 61."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Boo's Astral Menagerie, p. 61 · https://5e.tools/bestiary.html#thri-kreen%20hunter_bam",
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#thri-kreen%20hunter_bam",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/28079/955/1000/1000/637961800998581540.jpeg",
         "art": [
@@ -115355,7 +113301,17 @@
             "file": "/assets/library/worker-art/thri-kreen-hunter-8faad0a73130092f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "thri_kreen_hunter"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "spelljammer_adventures_in_space"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -121936,90 +119892,23 @@
       {
         "id": "printing-63d5001fcef7c5926fbeb06c",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 17",
-              "Hit points · 33",
-              "Hit dice · 6d8 + 6",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "XP · 450",
-              "Str · 14",
-              "Dex · 10",
-              "Con · 12",
-              "Int · 11",
-              "Wis · 15",
-              "Cha · 12"
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["coastal"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Animal Handling +4", "Nature +2", "Survival +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid, any alignment"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Aquan, Common."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Hold Breath. The tortle can hold its breath for 1 hour."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make four Claw attacks or two Nature's Wrath attacks.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 4 (1d4 + 2) slashing damage.\nNature's Wrath. Ranged spell attack, +4 to hit, range 90 ft., one target. A hit deals 9 (2d6 + 2) cold, fire, lightning, or thunder damage, chosen by the druid.\nShell Defense. Withdraw into the shell and gain +4 AC and advantage on Strength and Constitution saves until emerging. Inside the shell, the tortle is prone, its speed is 0 and cannot increase, and it has disadvantage on Dexterity saves. It cannot take reactions, and its only available action is a bonus action to emerge."
-            ]
-          },
-          {
-            "title": "Spellcasting",
-            "lines": [
-              "Use an action to cast one listed spell. Wisdom is the spellcasting ability (spell save DC 12).\nAt will. Druidcraft, Guidance.\n2/day each. Cure Wounds, Hold Person, Speak with Animals, Thunderwave."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 244."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 244 · https://5e.tools/bestiary.html#tortle%20druid_mpmm",
-              "Druidcraft (spell) · https://5e.tools/spells.html#druidcraft_phb",
-              "Guidance (spell) · https://5e.tools/spells.html#guidance_phb",
-              "Cure wounds (spell) · https://5e.tools/spells.html#cure%20wounds_phb",
-              "Hold person (spell) · https://5e.tools/spells.html#hold%20person_phb",
-              "Speak with animals (spell) · https://5e.tools/spells.html#speak%20with%20animals_phb",
-              "Thunderwave (spell) · https://5e.tools/spells.html#thunderwave_phb",
-              "Prone (condition) · https://5e.tools/conditionsdiseases.html#prone_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#tortle%20druid_mpmm",
         "art": [
           {
             "file": "/assets/library/worker-art/tortle-druid-d293a081de9b48ca.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "tortle_druid"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-5f5aa652ed8cfb2c81bdff31",
@@ -127017,99 +124906,23 @@
       {
         "id": "printing-74483f8db6a40d42a9ac7fe3",
         "label": "Mythic Odysseys of Theros",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 32",
-              "Hit dice · 5d8 + 10",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft., swim 30 ft.",
-              "Passive Perception · 14",
-              "XP · 450",
-              "Str · 11",
-              "Dex · 16",
-              "Con · 14",
-              "Int · 10",
-              "Wis · 15",
-              "Cha · 11"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A coastal assassin who uses venomous urchin spines to retaliate against threats to triton communities or Thassa’s sacred waters."
-            ]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Nature +4", "Perception +4", "Stealth +5"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (triton), neutral evil"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Common, Primordial."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Amphibious. The triton breathes air and water."]
-          },
-          {
-            "title": "Innate Spellcasting",
-            "lines": [
-              "Wisdom is the spellcasting ability (save DC 12). The spells require no material components.\n1/day each. Fog Cloud, Gust of Wind."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Nimble Escape. On each of its turns, the triton can Disengage or Hide."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Urchin-Spine Shortsword attacks.\nUrchin-Spine Shortsword. Melee weapon attack, +5 to hit, reach 5 ft., one target. Deal 6 (1d6 + 3) piercing damage plus 10 (3d6) poison damage on a hit. A creature reduced to 0 hit points by the attack is stable and poisoned for 1 hour, even if healed. It is paralyzed while poisoned this way.\nPoisoned Spine. Ranged weapon attack, +5 to hit, range 30/60 ft., one target. Deal 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage on a hit."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mythic Odysseys of Theros, p. 244."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mythic Odysseys of Theros, p. 244 · https://5e.tools/bestiary.html#triton%20shorestalker_mot",
-              "Fog cloud (spell) · https://5e.tools/spells.html#fog%20cloud_phb",
-              "Gust of wind (spell) · https://5e.tools/spells.html#gust%20of%20wind_phb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb",
-              "Hide (action) · https://5e.tools/actions.html#hide_phb",
-              "Poisoned (condition) · https://5e.tools/conditionsdiseases.html#poisoned_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#triton%20shorestalker_mot",
         "art": [
           {
             "file": "/assets/library/worker-art/triton-shorestalker-a457e8d0563a862f.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "triton_shorestalker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mythic_odysseys_of_theros"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -146899,89 +144712,6 @@
       {
         "id": "printing-0d2fc2af987f373d4e086e87",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 18",
-              "Hit dice · 4d4 + 8",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · 5 ft., fly 40 ft.",
-              "Passive Perception · 8",
-              "XP · 200",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 4",
-              "Wis · 7",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A vargouille looks like a flying head with wings in place of ears. It sometimes escapes the Abyss by latching on to a creature summoned to another plane."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "swamp", "underdark"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny fiend, typically chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": [
-              "Understands Abyssal, Infernal, and languages it knew before transforming. It cannot speak."
-            ]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, fire, lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage plus 10 (3d6) poison damage.\nAbyssal Curse. Choose one incapacitated Humanoid within 5 ft. The target must succeed on a DC 12 Charisma save or become cursed. Each hour the curse progresses, it loses 1 Charisma. Time spent in sunlight or the area of a Daylight spell does not count. At Charisma 2, the victim dies and its head splits off as a new vargouille. Before the transformation, Remove Curse, Greater Restoration, or similar magic ends the curse and reverses its changes.\nStunning Shriek (Recharge 5–6). Every Humanoid or Beast within 30 ft. that can hear the vargouille must succeed on a DC 12 Wisdom save or become frightened of it until the end of the vargouille’s next turn. A creature frightened this way is also stunned. Once the creature succeeds on the save or the effect ends for it, it is immune to every vargouille’s Stunning Shriek for 1 hour."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 251."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 251 · https://5e.tools/bestiary.html#vargouille_mpmm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Daylight (spell) · https://5e.tools/spells.html#daylight_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb",
-              "Paralyzed (condition) · https://5e.tools/conditionsdiseases.html#paralyzed_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#vargouille_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/733/1000/1000/637880558125803751.jpeg",
         "art": [
@@ -146989,7 +144719,17 @@
             "file": "/assets/library/worker-art/vargouille-a4aa3f4da1c50210.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vargouille"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-bb7c8fa25edaa9c8a47163f8",
@@ -147023,88 +144763,6 @@
       {
         "id": "printing-eaed55515c4eb46ce8f8fee3",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 13",
-              "Hit dice · 3d4 + 6",
-              "Challenge · 1",
-              "Size · Tiny",
-              "Type · Fiend",
-              "Speed · 5 ft., fly 40 ft.",
-              "Passive Perception · 8",
-              "XP · 200",
-              "Str · 6",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 4",
-              "Wis · 7",
-              "Cha · 2"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This Abyssal fiend looks like a severed head with bat wings in place of ears. Bright light stalls the curse it uses to make more of its kind."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "swamp", "desert"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Tiny fiend, chaotic evil"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": [
-              "Understands Abyssal, Infernal, and any languages it knew before the transformation. It can't speak."
-            ]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold, fire, lightning."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Poisoned."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Bite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage plus 10 (3d6) poison damage.\nKiss. Choose one incapacitated humanoid within 5 ft. of the vargouille. The target must pass a DC 12 Charisma save or become cursed. It loses 1 point of Charisma per hour as its head changes. Time spent in sunlight or in the area of daylight doesn't count. At Charisma 2 the target dies and its head breaks free as a new vargouille. Before the transformation finishes, remove curse, greater restoration, or similar magic can lift the curse and reverse its effects.\nStunning Shriek. Each humanoid and beast within 30 ft. that can hear the vargouille makes a DC 12 Wisdom save. A creature that fails is frightened until the end of the vargouille's next turn. It is stunned while frightened by the shriek. Once it succeeds on the save or the effect ends, it is immune to all vargouilles' Stunning Shriek for 1 hour."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 195."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 195 · https://5e.tools/bestiary.html#vargouille_vgm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb",
-              "Daylight (spell) · https://5e.tools/spells.html#daylight_phb",
-              "Remove curse (spell) · https://5e.tools/spells.html#remove%20curse_phb",
-              "Greater restoration (spell) · https://5e.tools/spells.html#greater%20restoration_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb",
-              "Stunned (condition) · https://5e.tools/conditionsdiseases.html#stunned_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#vargouille_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/804/1000/1000/636332064082839541.jpeg",
         "art": [
@@ -147112,7 +144770,17 @@
             "file": "/assets/library/worker-art/vargouille-a4aa3f4da1c50210.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "vargouille"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Fiend", "Outsider"]
@@ -163834,97 +161502,23 @@
       {
         "id": "printing-ab992d7242d1eaec3ece5e0f",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 229",
-              "Hit dice · 27d8 + 108",
-              "Challenge · 12",
-              "Size · Medium",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 15",
-              "XP · 8400",
-              "Str · 20",
-              "Dex · 16",
-              "Con · 18",
-              "Int · 12",
-              "Wis · 12",
-              "Cha · 18"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "This renowned commander can rally devoted followers and might turn a run of victories into an army command or a claim to the throne."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +9", "Dex +7", "Con +8"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +9", "Intimidation +8", "Perception +5", "Persuasion +8"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium humanoid (any race), any alignment"]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Any two languages."]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Plate armor."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Indomitable (3/day). The warlord can reroll a failed saving throw and must use the new result.\nSurvivor. At the start of its turn, the warlord regains 10 hit points if it has at least 1 hit point and is below half its hit point maximum."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two weapon attacks.\nGreatsword. Melee weapon attack, +9 to hit, reach 5 ft., one target. A hit deals 12 (2d6 + 5) slashing damage.\nShortbow. Ranged weapon attack, +7 to hit, range 80/320 ft., one target. A hit deals 6 (1d6 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Legendary actions",
-            "lines": [
-              "The warlord has three legendary actions and regains spent actions at the start of its turn. Use one option at the end of another creature’s turn.\nWeapon Attack (1 action). Make one weapon attack.\nCommand Ally (1 action). Choose an ally the warlord can see within 30 ft. If it can see and hear the warlord, the ally can use its reaction to make one weapon attack with advantage.\nFrighten Foe (2 actions). Choose a visible enemy within 30 ft. If the enemy can see and hear the warlord, it must succeed on a DC 16 Wisdom save or be frightened until the end of the warlord’s next turn."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 220."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 220 · https://5e.tools/bestiary.html#warlord_vgm",
-              "Plate armor (item) · https://5e.tools/items.html#plate%20armor_phb",
-              "Frightened (condition) · https://5e.tools/conditionsdiseases.html#frightened_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#warlord_vgm",
         "art": [
           {
             "file": "/assets/library/worker-art/warlord-f1ce819e239143e6.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "warlord"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Humanoid", "Humanoid (Any Lineage)"]
@@ -171784,146 +169378,32 @@
       {
         "id": "printing-8febe4e55048bc9cfcc5b1b1",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 2",
-              "Type · Dragon",
-              "Speed · 30 ft., climb 30 ft., burrow 20 ft.",
-              "XP · 450",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 16",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 7"
-            ]
+        "source": "https://www.dndbeyond.com/monsters/2560960-white-guard-drake",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "white_guard_drake"
           },
-          {
-            "title": "Habitats",
-            "lines": ["Arctic", "Mountains", "Guard posts"]
-          },
-          {
-            "title": "Appearance",
-            "lines": [
-              "A wingless white-scaled dragon guardian with stout burrowing and climbing claws."
-            ]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium Dragon, unaligned"]
-          },
-          {
-            "title": "Other statistics",
-            "lines": [
-              "Natural armor. Skills Perception +2. Senses: darkvision 60 ft.. Languages: understands Draconic but can't speak. Resists: cold. Passive Perception 12."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack +5, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing.\nTail. Melee weapon attack +5, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning."
-            ]
-          },
-          {
-            "title": "Table notes",
-            "lines": [
-              "Rules source: Mordenkainen Presents: Monsters of the Multiverse, p. 151. This variant uses the Guard Drake base rules with the printed changes."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": ["Guard Drake (monster) · https://5e.tools/bestiary.html#guard%20drake_mpmm"]
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
-        "source": "https://www.dndbeyond.com/monsters/2560960-white-guard-drake"
+        }
       },
       {
         "id": "printing-bcadc291162ab1d43263aed9",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 52",
-              "Hit dice · 7d8 + 21",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Dragon",
-              "Speed · 30 ft., burrow 20 ft., climb 30 ft.",
-              "Passive Perception · 12",
-              "XP · 450",
-              "Str · 16",
-              "Dex · 11",
-              "Con · 16",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 7"
-            ]
+        "source": "https://5e.tools/bestiary.html#white%20guard%20drake_vgm",
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "white_guard_drake"
           },
-          {
-            "title": "Description",
-            "lines": [
-              "A squat, wingless guard drake created with white dragon scales. It bonds with the first creature that feeds it and can learn simple commands."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["arctic", "urban"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium dragon, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Draconic but cannot speak."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Cold."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite and one Tail attack.\nBite. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 7 (1d8 + 3) piercing damage.\nTail. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 6 (1d6 + 3) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Volo's Guide to Monsters, p. 158, Guard Drake and Chromatic Guard Drakes sidebar."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 158 · https://5e.tools/bestiary.html#white%20guard%20drake_vgm"
-            ]
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
           }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
-        "source": "https://5e.tools/bestiary.html#white%20guard%20drake_vgm"
+        }
       }
     ],
     "groups": ["Dragon"],
@@ -175907,93 +173387,23 @@
       {
         "id": "printing-9590d007e47f065ed4dae893",
         "label": "Guildmasters’ Guide to Ravnica",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 12",
-              "Hit points · 31",
-              "Hit dice · 7d6 + 7",
-              "Challenge · 1/2",
-              "Size · Small",
-              "Type · Construct",
-              "Speed · 30 ft., fly 30 ft.",
-              "Passive Perception · 9",
-              "XP · 100",
-              "Str · 9",
-              "Dex · 15",
-              "Con · 12",
-              "Int · 8",
-              "Wis · 9",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A small flying construct used as an Orzhov messenger and spy. It often imitates the mannerisms of its master."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Dex +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small construct, unaligned"]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Understands Common but cannot speak."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Exhaustion, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": ["Construct Nature. The thrull needs no air, food, drink, or sleep."]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Claws. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 7 (2d4 + 2) slashing damage.\nRock. Ranged weapon attack, +4 to hit, range 20/60 ft., one target. A hit deals 5 (1d6 + 2) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Reactions",
-            "lines": [
-              "Self-Sacrifice. After an attack hits a creature within 5 ft. of the thrull, it swaps places with that creature and takes the hit instead."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Guildmasters’ Guide to Ravnica, p. 221."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Guildmasters' Guide to Ravnica, p. 221 · https://5e.tools/bestiary.html#winged%20thrull_ggr"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#winged%20thrull_ggr",
         "art": [
           {
             "file": "/assets/library/worker-art/winged-thrull-cee137527cb8cc6a.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "winged_thrull"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "guildmasters_guide_to_ravnica"
+          }
+        }
       }
     ],
     "groups": ["Construct"]
@@ -179359,98 +176769,6 @@
       {
         "id": "printing-6df52e788631ae2e7ea88ca8",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 18",
-              "Hit points · 75",
-              "Hit dice · 10d8 + 30",
-              "Challenge · 5",
-              "Size · Medium",
-              "Type · Plant",
-              "Speed · 30 ft., climb 30 ft.",
-              "Passive Perception · 14",
-              "XP · 1800",
-              "Str · 18",
-              "Dex · 12",
-              "Con · 16",
-              "Int · 10",
-              "Wis · 13",
-              "Cha · 8"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A wood woad houses a mortal soul in a body of bark and protects the place or people entrusted to it. After the rite binds its soul to a tree, it sprouts from the tree's roots on the third day."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["forest"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Athletics +7", "Perception +4", "Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium plant, typically lawful neutral"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor and shield."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Sylvan."]
-          },
-          {
-            "title": "Damage vulnerabilities",
-            "lines": ["Fire."]
-          },
-          {
-            "title": "Damage resistances",
-            "lines": ["Bludgeoning, piercing."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, frightened."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Plant Camouflage. The woad has advantage on Dexterity (Stealth) checks in terrain with plenty of concealing vegetation.\nRegeneration. The woad regains 10 hit points at the start of its turn while touching the ground. Fire damage disables this trait at the start of its next turn. It dies only if it starts its turn with 0 hit points and does not regenerate.\nTree Stride. Once on each of its turns, the woad can spend 10 ft. of movement to enter a living tree magically within 5 ft. It appears in an empty space within 5 ft. of a second living tree it can see within 60 ft. of itself. Both trees must be Large or larger."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make two Club attacks.\nClub. Melee weapon attack, +7 to hit, reach 5 ft., one target. A hit deals 14 (4d4 + 4) force damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 266."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 266 · https://5e.tools/bestiary.html#wood%20woad_mpmm",
-              "Shield (item) · https://5e.tools/items.html#shield_phb",
-              "Stealth (skill) · https://5e.tools/skills.html#stealth_phb",
-              "Druid (creature) · https://5e.tools/bestiary.html#druid_mm",
-              "Treant (creature) · https://5e.tools/bestiary.html#treant_mm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#wood%20woad_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/760/1000/1000/637880558168887785.jpeg",
         "art": [
@@ -179458,7 +176776,17 @@
             "file": "/assets/library/worker-art/wood-woad-d8adb2010acca978.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "wood_woad"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-3487a7bb9e9be1c56a56e6b6",
@@ -185385,92 +182713,6 @@
       {
         "id": "printing-f6aeca18dadc0095ebda7850",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 8",
-              "XP · 25",
-              "Str · 8",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 8",
-              "Wis · 7",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Raxivort created the xvarts in his image. Magic that would locate him points to the nearest xvart instead."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["hill", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small monstrosity, typically chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Leather armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 30 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Raxivort's Tongue. The xvart can communicate with bats, giant bats, rats, and giant rats."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage. If at least one of the xvart's allies is within 5 ft. of the target and the target is a Medium or smaller creature, the xvart can push it 5 ft.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": ["Low Cunning. Take the Disengage action."]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 267."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 267 · https://5e.tools/bestiary.html#xvart_mpmm",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Bat (creature) · https://5e.tools/bestiary.html#bat_mm",
-              "Rat (creature) · https://5e.tools/bestiary.html#rat_mm",
-              "Giant bat (creature) · https://5e.tools/bestiary.html#giant%20bat_mm",
-              "Giant rat (creature) · https://5e.tools/bestiary.html#giant%20rat_mm",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#xvart_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/766/1000/1000/637880558178088611.jpeg",
         "art": [
@@ -185478,97 +182720,21 @@
             "file": "/assets/library/worker-art/xvart-0ac9b375387fc1f3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "xvart"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-791e04ec4ee7b34c8ba0ae28",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 8",
-              "XP · 25",
-              "Str · 8",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 8",
-              "Wis · 7",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "A small, blue-skinned humanoid that looks to its pack for protection. Xvarts keep bats and rats as scouts, food and allies."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "hill"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small humanoid (xvart), chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Leather armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 30 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Overbearing Pack. The xvart has advantage on Strength (Athletics) checks to shove a creature when at least one non-incapacitated ally is within 5 ft. of the target.\nRaxivort's Tongue. The xvart can communicate with bats, rats, giant bats and giant rats."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Low Cunning. The xvart can take the Disengage action as a bonus action on each of its turns."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Volo's Guide to Monsters, p. 200."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 200 · https://5e.tools/bestiary.html#xvart_vgm",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb",
-              "Athletics (skill) · https://5e.tools/skills.html#athletics_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#xvart_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/9/820/1000/1000/636332181539382750.jpeg",
         "art": [
@@ -185576,7 +182742,17 @@
             "file": "/assets/library/worker-art/xvart-0ac9b375387fc1f3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "xvart"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Humanoid", "Monstrosity"]
@@ -185591,94 +182767,6 @@
       {
         "id": "printing-9f36755ff22c9f119f4e40e9",
         "label": "Volo's Guide to Monsters",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 13",
-              "Hit points · 7",
-              "Hit dice · 2d6",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Humanoid",
-              "Speed · 30 ft.",
-              "Passive Perception · 8",
-              "XP · 25",
-              "Str · 8",
-              "Dex · 14",
-              "Con · 10",
-              "Int · 13",
-              "Wis · 7",
-              "Cha · 7"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Each xvart tribe has one speaker who leads it and can bargain in another language."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["underdark", "hill"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Stealth +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small humanoid (xvart), chaotic evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Leather armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 30 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal and one other language, usually Common or Goblin."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Overbearing Pack. The xvart has advantage on Strength (Athletics) checks to shove a creature when at least one non-incapacitated ally is within 5 ft. of the target.\nRaxivort's Tongue. The xvart can communicate with bats, rats, giant bats and giant rats."
-            ]
-          },
-          {
-            "title": "Bonus actions",
-            "lines": [
-              "Low Cunning. The xvart can take the Disengage action as a bonus action on each of its turns."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Shortsword. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) piercing damage.\nSling. Ranged weapon attack, +4 to hit, range 30/120 ft., one target. A hit deals 4 (1d4 + 2) bludgeoning damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": [
-              "Volo's Guide to Monsters, p. 200, Xvart stat block and Xvart Speakers sidebar."
-            ]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Volo's Guide to Monsters, p. 200 · https://5e.tools/bestiary.html#xvart%20speaker_vgm",
-              "Leather armor (item) · https://5e.tools/items.html#leather%20armor_phb",
-              "Disengage (action) · https://5e.tools/actions.html#disengage_phb",
-              "Athletics (skill) · https://5e.tools/skills.html#athletics_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#xvart%20speaker_vgm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/12/819/1000/1000/636353883002611254.jpeg",
         "art": [
@@ -185686,7 +182774,17 @@
             "file": "/assets/library/worker-art/xvart-0ac9b375387fc1f3.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "xvart_speaker"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "volo_s_guide_to_monsters"
+          }
+        }
       }
     ],
     "groups": ["Humanoid"]
@@ -194993,83 +192091,6 @@
       {
         "id": "printing-f2dfdef53c6b6c429f22ea8f",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 9",
-              "Hit dice · 2d6 + 2",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Monstrosity",
-              "Speed · 30 ft., burrow 10 ft., climb 30 ft.",
-              "Passive Perception · 14",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Young kruthiks start to hunt as soon as they outgrow the nest. They burrow through rock and fight in packs."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "mountain", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +4"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 30 ft., tremorsense 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Kruthik."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Pack Tactics. The kruthik has advantage on attack rolls against a creature if one of its allies is within 5 ft. of that creature and is not incapacitated.\nTunneler. It can burrow through solid rock at half its burrowing speed and leaves a tunnel 2½ ft. across."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Stab. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 168."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 168 · https://5e.tools/bestiary.html#young%20kruthik_mpmm",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#young%20kruthik_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/779/1000/1000/637880558196780520.jpeg",
         "art": [
@@ -195077,85 +192098,21 @@
             "file": "/assets/library/worker-art/kruthik-young-f12a0e45cb2608b8.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_kruthik"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-08a67d20288a21a586a0e34d",
         "label": "Mordenkainen’s Tome of Foes",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 16",
-              "Hit points · 9",
-              "Hit dice · 2d6 + 2",
-              "Challenge · 1/8",
-              "Size · Small",
-              "Type · Monstrosity",
-              "Speed · 30 ft., burrow 10 ft., climb 30 ft.",
-              "Passive Perception · 10",
-              "XP · 25",
-              "Str · 13",
-              "Dex · 16",
-              "Con · 13",
-              "Int · 4",
-              "Wis · 10",
-              "Cha · 6"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Young kruthiks hunt as a pack in rocky warrens near sources of heat. Guards warn the hive by tapping the stone with their legs. Kruthiks tend to avoid places that smell of their dead."
-            ]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "mountain", "underdark"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Small monstrosity, unaligned"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 30 ft., tremorsense 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Kruthik."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Keen Smell. The young kruthik has advantage on Wisdom (Perception) checks that rely on smell.\nPack Tactics. Its attack roll has advantage if an ally that isn't incapacitated is within 5 ft. of the target.\nTunneler. The young kruthik can burrow through solid rock at half its burrowing speed. It leaves a tunnel 2½ ft. across."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Stab. Melee weapon attack, +5 to hit, reach 5 ft., one target. A hit deals 5 (1d4 + 3) piercing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen’s Tome of Foes, p. 211."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen's Tome of Foes, p. 211 · https://5e.tools/bestiary.html#young%20kruthik_mtf",
-              "Perception (skill) · https://5e.tools/skills.html#perception_phb",
-              "Incapacitated (condition) · https://5e.tools/conditionsdiseases.html#incapacitated_phb"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#young%20kruthik_mtf",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/281/230/1000/1000/636603640946714598.png",
         "art": [
@@ -195163,7 +192120,17 @@
             "file": "/assets/library/worker-art/kruthik-young-f12a0e45cb2608b8.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "young_kruthik"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_s_tome_of_foes"
+          }
+        }
       }
     ],
     "groups": ["Monstrosity"]
@@ -199522,94 +196489,6 @@
       {
         "id": "printing-c0bfd6a9ef463e34f17eae9d",
         "label": "Mordenkainen Presents: Monsters of the Multiverse",
-        "gm": [
-          {
-            "title": "Statistics",
-            "lines": [
-              "Armor class · 14",
-              "Hit points · 45",
-              "Hit dice · 7d8 + 14",
-              "Challenge · 2",
-              "Size · Medium",
-              "Type · Monstrosity",
-              "Speed · 30 ft.",
-              "Passive Perception · 12",
-              "XP · 450",
-              "Str · 15",
-              "Dex · 14",
-              "Con · 14",
-              "Int · 6",
-              "Wis · 11",
-              "Cha · 4"
-            ]
-          },
-          {
-            "title": "Description",
-            "lines": [
-              "Yuan-ti transform captives with a magical brew to create broodguards. They obey yuan-ti instinctively and guard eggs or patrol for intruders."
-            ]
-          },
-          {
-            "title": "Saving throws",
-            "lines": ["Str +4", "Dex +4", "Wis +2"]
-          },
-          {
-            "title": "Habitats",
-            "lines": ["desert", "forest", "underdark"]
-          },
-          {
-            "title": "Skills",
-            "lines": ["Perception +2"]
-          },
-          {
-            "title": "Classification",
-            "lines": ["Medium monstrosity, typically neutral evil"]
-          },
-          {
-            "title": "Armor",
-            "lines": ["Natural armor."]
-          },
-          {
-            "title": "Senses",
-            "lines": ["Darkvision 60 ft."]
-          },
-          {
-            "title": "Languages",
-            "lines": ["Abyssal, Common, Draconic."]
-          },
-          {
-            "title": "Damage immunities",
-            "lines": ["Poison."]
-          },
-          {
-            "title": "Condition immunities",
-            "lines": ["Charmed, paralyzed, poisoned."]
-          },
-          {
-            "title": "Traits",
-            "lines": [
-              "Reckless. At the start of its turn, the broodguard can give itself advantage on all melee weapon attacks it makes during that turn. Attack rolls against it then have advantage until the start of its next turn."
-            ]
-          },
-          {
-            "title": "Actions",
-            "lines": [
-              "Multiattack. Make one Bite attack and two Claw attacks.\nBite. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 6 (1d8 + 2) piercing damage.\nClaw. Melee weapon attack, +4 to hit, reach 5 ft., one target. A hit deals 5 (1d6 + 2) slashing damage."
-            ]
-          },
-          {
-            "title": "Printed source",
-            "lines": ["Mordenkainen Presents: Monsters of the Multiverse, p. 273."]
-          },
-          {
-            "title": "References",
-            "lines": [
-              "Mordenkainen Presents: Monsters of the Multiverse, p. 273 · https://5e.tools/bestiary.html#yuan-ti%20broodguard_mpmm"
-            ]
-          }
-        ],
-        "edition": "2014 fifth edition",
-        "status": "Stat block",
         "source": "https://5e.tools/bestiary.html#yuan-ti%20broodguard_mpmm",
         "artReference": "https://www.dndbeyond.com/avatars/thumbnails/25746/785/1000/1000/637880558205281089.jpeg",
         "art": [
@@ -199617,7 +196496,17 @@
             "file": "/assets/library/worker-art/yuan-ti-broodguard-326cb3471236a9e6.png",
             "credit": "OpenAI ImageGen"
           }
-        ]
+        ],
+        "typed": {
+          "monster": {
+            "ref": "monster",
+            "key": "yuan_ti_broodguard"
+          },
+          "publication": {
+            "ref": "publication",
+            "key": "mordenkainen_presents_monsters_of_the_multiverse"
+          }
+        }
       },
       {
         "id": "printing-458a2d914fee862817081a7c",

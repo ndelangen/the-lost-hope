@@ -1,0 +1,258 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
+
+export default createPublicationMonsters({
+  publication: refs.publications.flee_mortals,
+  monsters: {
+    goblin_spinecleaver: {
+      name: 'Goblin Spinecleaver',
+      tags: ['Goblin'],
+      alignment: 'any alignment',
+      languages: ['Common and Goblin'],
+      habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
+      appearance: [['A sturdy, hide-armored goblin carrying a greataxe and handaxe.']],
+      tableNotes: [
+        [
+          'Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.',
+        ],
+        ["Brute. Publisher's Jagged Edge Hideaway stat block."],
+      ],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1',
+        ac: 14,
+        hitDice: '6d6',
+        speed: { walk: 30, climb: 20 },
+        scores: { str: 16, dex: 14, con: 14, int: 10, wis: 10, cha: 8 },
+        skills: { athletics: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'crafty',
+            name: 'Crafty',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ["Leaving an enemy's reach doesn't trigger an opportunity attack."],
+          },
+          {
+            key: 'strong-grip',
+            name: 'Strong Grip',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ['Heavy weapons impose no disadvantage on this goblin.'],
+          },
+          {
+            key: 'greataxe',
+            name: 'Greataxe',
+            timing: 'action',
+            icon: 'gi/GiBattleAxe',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '1d12', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'handaxe',
+            name: 'Handaxe',
+            timing: 'action',
+            icon: 'gi/GiBattleAxe',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'str',
+              range: [20, 60],
+              damage: [{ dice: '1d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+          {
+            key: 'tricksy-warrior',
+            name: 'Tricksy Warrior',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'If a creature within 5 ft. misses the spinecleaver with an attack, the goblin can make a melee attack against it with disadvantage.',
+            ],
+          },
+        ],
+      },
+    },
+    goblin_underboss: {
+      name: 'Goblin Underboss',
+      tags: ['Goblin'],
+      alignment: 'any alignment',
+      languages: ['Common and Goblin'],
+      habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
+      appearance: [
+        [
+          'A well-armored goblin officer carrying a shield and weapons for fighting at close quarters or at range.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.',
+        ],
+        ["Support. Publisher's Jagged Edge Hideaway stat block."],
+      ],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '2',
+        ac: 17,
+        hitDice: '8d6',
+        speed: { walk: 30, climb: 20 },
+        scores: { str: 10, dex: 16, con: 13, int: 12, wis: 12, cha: 10 },
+        skills: { insight: 'proficient', intimidation: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'crafty',
+            name: 'Crafty',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ["Leaving an enemy's reach doesn't trigger an opportunity attack."],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make two shortsword attacks or two shortbow attacks. ',
+              { ability: 'command' },
+              ' can replace one attack.',
+            ],
+          },
+          {
+            key: 'shortsword',
+            name: 'Shortsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'shortbow',
+            name: 'Shortbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [80, 320],
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'command',
+            name: 'Command',
+            timing: 'action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'Choose a visible ally within 30 ft. that can hear the underboss. The ally can spend its reaction to move up to its speed or make one weapon attack.',
+            ],
+          },
+          {
+            key: 'get-reckless',
+            name: 'Get Reckless',
+            timing: 'bonus action',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'Willing allies within 30 ft. that can hear the underboss gain advantage on attacks until the start of its next turn. Attacks targeting those allies also have advantage until then.',
+            ],
+          },
+          {
+            key: 'cowardly-commander',
+            name: 'Cowardly Commander',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'When a visible attacker hits the underboss, redirect that hit to a willing ally within 5 ft.',
+            ],
+          },
+        ],
+      },
+    },
+    goblin_warrior: {
+      name: 'Goblin Warrior',
+      tags: ['Goblin'],
+      alignment: 'any alignment',
+      languages: ['Common and Goblin'],
+      habitats: ['Caves', 'Ruins', 'Forests', 'Jagged Edge Hideaway'],
+      appearance: [['A nimble goblin skirmisher with a shield and scimitar.']],
+      tableNotes: [
+        [
+          'Uses the verified Where Evil Lives stat block for this creature. Check this publication for encounter-specific changes.',
+        ],
+        ["Skirmisher. Publisher's Jagged Edge Hideaway stat block."],
+      ],
+      stats: {
+        size: 'small',
+        type: 'humanoid',
+        cr: '1/4',
+        ac: 15,
+        hitDice: '2d6',
+        speed: { walk: 30, climb: 20 },
+        scores: { str: 8, dex: 14, con: 12, int: 10, wis: 10, cha: 8 },
+        skills: { acrobatics: 'proficient', stealth: 'proficient' },
+        senses: { darkvision: 60 },
+        abilities: [
+          {
+            key: 'crafty',
+            name: 'Crafty',
+            timing: 'trait',
+            icon: 'gi/GiPaw',
+            text: ["Leaving an enemy's reach doesn't trigger an opportunity attack."],
+          },
+          {
+            key: 'shortsword',
+            name: 'Shortsword',
+            timing: 'action',
+            icon: 'gi/GiBroadsword',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'shortbow',
+            name: 'Shortbow',
+            timing: 'action',
+            icon: 'gi/GiCrossbow',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [80, 320],
+              damage: [{ dice: '1d6', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'fleet-foot',
+            name: 'Fleet Foot',
+            timing: 'reaction',
+            icon: 'gi/GiMagicSwirl',
+            text: [
+              'If a creature within 5 ft. misses the warrior with a melee attack, the goblin can move up to half its speed.',
+            ],
+          },
+        ],
+      },
+    },
+  },
+})

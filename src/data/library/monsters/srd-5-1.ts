@@ -1941,6 +1941,7 @@ export default createPublicationMonsters({
     },
     giant_vulture: {
       name: 'Giant Vulture',
+      reprintedIn: [refs.publications.ddep2_mulmaster_undone_v2],
       alignment: 'neutral evil',
       languages: ['understands Common but can’t speak'],
       stats: {

@@ -1,0 +1,286 @@
+import { refs } from '#/data/generated/library-refs.ts'
+import { refs as campaignRefs } from '#/data/generated/refs.ts'
+import { createPublicationMonsters } from '#/definitions/library.ts'
+
+const { rules } = campaignRefs
+
+export default createPublicationMonsters({
+  publication: refs.publications.storm_king_s_thunder,
+  monsters: {
+    giant_raven: {
+      name: 'Giant Raven',
+      page: 66,
+      alignment: 'neutral evil',
+      languages: ['understands Common but cannot speak'],
+      habitats: ['grassland', 'desert'],
+      appearance: [['A large raven with a heavy bill and glossy blue-black feathers.']],
+      tableNotes: [
+        [
+          'The Black Ravens ride these birds as mounts. At Raven Rock, 2d4 circle about 300 ft. up during the day, perch at dusk, and are absent at night. The birds leave intruders alone, remember them, and report them to the next Black Ravens they meet.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 10,
+        hitDice: '3d10',
+        speed: { walk: 10, fly: 60 },
+        scores: { str: 15, dex: 10, con: 15, int: 6, wis: 12, cha: 7 },
+        skills: { perception: 'proficient' },
+        abilities: [
+          {
+            key: 'keen-sight-and-smell',
+            name: 'Keen Sight and Smell',
+            timing: 'trait',
+            icon: 'gi/GiNoseSide',
+            text: [
+              'The raven has advantage on Wisdom (Perception) checks that rely on sight or smell.',
+            ],
+          },
+          {
+            key: 'pack-tactics',
+            name: 'Pack Tactics',
+            timing: 'trait',
+            icon: 'lucide/UsersRound',
+            text: [
+              'The raven has advantage on an attack roll against a creature if at least one of its allies is within 5 ft. of the creature and is not ',
+              rules.incapacitated,
+              '.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: [
+              'Make one ',
+              { ability: 'beak' },
+              ' attack and one ',
+              { ability: 'talons' },
+              ' attack.',
+            ],
+          },
+          {
+            key: 'beak',
+            name: 'Beak',
+            timing: 'action',
+            icon: 'gi/GiRaven',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d4', type: rules.piercing, addModifier: true }],
+            },
+          },
+          {
+            key: 'talons',
+            name: 'Talons',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 5,
+              damage: [{ dice: '2d6', type: rules.slashing, addModifier: true }],
+            },
+          },
+        ],
+      },
+    },
+    hulking_crab: {
+      name: 'Hulking Crab',
+      page: 240,
+      alignment: 'unaligned',
+      habitats: ['Underwater', 'Coastal'],
+      appearance: [['An immense crab with a rough, rock-colored shell and heavy claws.']],
+      stats: {
+        size: 'huge',
+        type: 'beast',
+        cr: '5',
+        ac: 17,
+        armor: 'natural armor',
+        hitDice: '8d12',
+        speed: { walk: 20, swim: 30 },
+        scores: { str: 19, dex: 8, con: 16, int: 3, wis: 11, cha: 3 },
+        skills: { stealth: 'proficient' },
+        senses: { blindsight: 30 },
+        abilities: [
+          {
+            key: 'amphibious',
+            name: 'Amphibious',
+            timing: 'trait',
+            icon: 'gi/GiWaterSplash',
+            text: ['The crab can breathe air and water.'],
+          },
+          {
+            key: 'shell-camouflage',
+            name: 'Shell Camouflage',
+            timing: 'trait',
+            icon: 'gi/GiInvisible',
+            text: [
+              'While motionless with eyestalks and pincers tucked in, the crab resembles a natural formation or piled debris. A creature within 30 ft. can identify it with a ',
+              { dc: 'str', save: 'int' },
+              ' Intelligence (Nature) check.',
+            ],
+          },
+          {
+            key: 'multiattack',
+            name: 'Multiattack',
+            timing: 'action',
+            icon: 'gi/GiPaw',
+            text: ['Make two ', { ability: 'claw' }, ' attacks.'],
+          },
+          {
+            key: 'claw',
+            name: 'Claw',
+            timing: 'action',
+            icon: 'gi/GiClaws',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'str',
+              reach: 10,
+              damage: [{ dice: '3d10', type: rules.bludgeoning, addModifier: true }],
+            },
+            text: [
+              'Grapple the target (escape DC 15). Each of the crab’s two claws can grapple one target at a time.',
+            ],
+          },
+        ],
+      },
+    },
+    ice_spider: {
+      name: 'Ice Spider',
+      page: 127,
+      alignment: 'unaligned',
+      habitats: ['underdark', 'forest', 'swamp', 'urban', 'desert'],
+      appearance: [['A white-furred giant spider with small red eyes.']],
+      tableNotes: [
+        [
+          'Four ice spiders attack the first time party members reach a tunnel intersection. The icy tunnel floor is difficult terrain, but creatures with Spider Climb or the spider climb spell move normally through it. After Web is used, roll a d6 at the start of each of the spider’s turns. A 5 or 6 restores the use, as does a short or long rest.',
+        ],
+      ],
+      stats: {
+        size: 'large',
+        type: 'beast',
+        cr: '1',
+        ac: 14,
+        armor: 'natural armor',
+        hitDice: '4d10',
+        speed: { walk: 30, climb: 30 },
+        scores: { str: 14, dex: 16, con: 12, int: 2, wis: 11, cha: 4 },
+        skills: { stealth: 'expert' },
+        senses: { darkvision: 60, blindsight: 10 },
+        damageResistances: [rules.cold],
+        abilities: [
+          {
+            key: 'spider-climb',
+            name: 'Spider Climb',
+            timing: 'trait',
+            icon: 'lucide/MoveUp',
+            text: [
+              'The spider can climb difficult surfaces and move upside down across ceilings without an ability check.',
+            ],
+          },
+          {
+            key: 'web-sense',
+            name: 'Web Sense',
+            timing: 'trait',
+            icon: 'gi/GiSpiderWeb',
+            text: [
+              'When touching a web, it knows the location of other creatures in contact with that web.',
+            ],
+          },
+          {
+            key: 'web-walker',
+            name: 'Web Walker',
+            timing: 'trait',
+            icon: 'gi/GiSpiderWeb',
+            text: ['Webbing does not restrict its movement.'],
+          },
+          {
+            key: 'bite',
+            name: 'Bite',
+            timing: 'action',
+            icon: 'gi/GiFangs',
+            intent: 'damage',
+            attack: {
+              kind: 'melee',
+              ability: 'dex',
+              reach: 5,
+              damage: [{ dice: '1d8', type: rules.piercing, addModifier: true }],
+            },
+            save: {
+              ability: 'con',
+              dc: 'con',
+              target: { creatures: 1, range: 5, which: 'it hits' },
+              onFail: {
+                damage: [{ dice: '2d8', type: rules.poison }],
+              },
+              onSuccess: 'half',
+            },
+            text: [
+              'If that poison damage reduces it to 0 HP, it becomes stable and remains ',
+              rules.poisoned,
+              ' for 1 hour even if it regains HP. It is ',
+              rules.paralyzed,
+              ' while ',
+              rules.poisoned,
+              ' by this effect.',
+            ],
+          },
+          {
+            key: 'web',
+            name: 'Web',
+            timing: 'action',
+            icon: 'gi/GiSpiderWeb',
+            intent: 'damage',
+            attack: {
+              kind: 'ranged',
+              ability: 'dex',
+              range: [30, 60],
+              damage: [{ dice: '1', type: rules.cold }],
+            },
+            text: [
+              'At the start of each of its turns. The ',
+              rules.restrained,
+              ' creature can use its action to burst the web with a ',
+              { dc: 'str' },
+              ' Strength check. The web has AC 10 and 5 HP, is vulnerable to fire, and is immune to poison and psychic damage. Bludgeoning damage works normally against it.',
+            ],
+            uses: 1,
+            recharge: 'Recharge 5–6',
+          },
+        ],
+      },
+    },
+    pig: {
+      name: 'Pig',
+      page: 143,
+      alignment: 'unaligned',
+      habitats: ['grassland', 'forest', 'hill'],
+      appearance: [
+        ['A fat domestic pig with pale bristly skin, a rounded snout, and a curled tail.'],
+      ],
+      tableNotes: [
+        [
+          'The pig has no effective attacks. It uses the retained ability scores and passive Perception from Boar.',
+        ],
+      ],
+      stats: {
+        size: 'medium',
+        type: 'beast',
+        cr: '0',
+        ac: 10,
+        hitDice: '1d8',
+        speed: { walk: 30 },
+        scores: { str: 13, dex: 11, con: 12, int: 2, wis: 9, cha: 5 },
+        abilities: [],
+      },
+    },
+  },
+})

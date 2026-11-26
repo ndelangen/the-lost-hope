@@ -12,8 +12,8 @@ export type Ruleset = (typeof RULESETS)[number]
 /** A book or document the library draws from. Printings name it instead of repeating it. */
 export const Publication = z.strictObject({
   name: z.string().trim().min(1).describe('As printed on the cover, e.g. `Monster Manual`'),
-  publisher: z.string().trim().min(1),
-  year: z.number().int().min(1974),
+  publisher: z.string().trim().min(1).optional().describe('Left out when the source does not say'),
+  year: z.number().int().min(1974).optional().describe('Left out when the source does not say'),
   ruleset: z.enum(RULESETS),
   pdf: z
     .string()

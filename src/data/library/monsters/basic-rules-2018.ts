@@ -53,6 +53,7 @@ export default createPublicationMonsters({
     },
     giant_lizard: {
       name: 'Giant Lizard',
+      reprintedIn: [refs.publications.hoard_of_the_dragon_queen_online_supplement],
       alignment: 'unaligned',
       habitats: ['Underdark', 'Caverns', 'Woodland', 'Wetlands'],
       appearance: [
@@ -148,6 +149,7 @@ export default createPublicationMonsters({
     },
     polar_bear: {
       name: 'Polar Bear',
+      reprintedIn: [refs.publications.rise_of_tiamat_online_supplement],
       page: 149,
       alignment: 'unaligned',
       habitats: ['Arctic coasts', 'Sea ice', 'Tundra'],

@@ -43,7 +43,8 @@ export function LibraryTypedCreature({
             <div className="flex flex-wrap items-center gap-2 text-xs font-semibold tracking-wide">
               <span className="text-teal-800 uppercase dark:text-teal-300">{category}</span>
               <span className="text-muted-foreground">
-                {heldBy.name} ({heldBy.year})
+                {heldBy.name}
+                {heldBy.year ? ` (${heldBy.year})` : ''}
               </span>
             </div>
             <h1 className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
@@ -53,7 +54,7 @@ export function LibraryTypedCreature({
             {reprints.length > 0 && (
               <p className="text-muted-foreground text-xs">
                 Also printed unchanged in{' '}
-                {reprints.map(({ name, year }) => `${name} (${year})`).join(', ')}.
+                {reprints.map(({ name, year }) => (year ? `${name} (${year})` : name)).join(', ')}.
               </p>
             )}
             {printing.appearance && (

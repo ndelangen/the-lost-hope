@@ -22,6 +22,24 @@ def icon(name,ab):
 # One key per monster across publications; renamed reprints use the current (2024) name.
 ALIASES={'giant_sea_horse':'giant_seahorse','sea_horse':'seahorse','giant_poisonous_snake':'giant_venomous_snake',
   'poisonous_snake':'venomous_snake','swarm_of_poisonous_snakes':'swarm_of_venomous_snakes','giant_rat_diseased':'diseased_giant_rat'}
+CORE=['monster_manual_2014','monster_manual_2024','srd_5_1','srd_5_2_1','basic_rules_2018']
+PUBLISHERS=['Wizards of the Coast','Kobold Press','MCDM','Ghostfire Gaming','Darrington Press','Hit Point Press','Green Ronin','Free League','Critical Role','Legendary Games','Mage Hand Press','Loot Tavern','Ghostfire']
+def catalog_pdfs():
+  import csv
+  path='/Users/me/Projects/DND/Books/output/Catalog.csv'
+  if not os.path.exists(path): return {}
+  return {re.sub(r'[^a-z0-9]','',row['Title'].lower()):row['Output path'] for row in csv.DictReader(open(path))}
+PDFS=catalog_pdfs()
+def publication_for(r,printing):
+  '''A publication other than the core books, from what the printing says about itself. Publisher
+  and year are left out when the printing does not state them.'''
+  label=r['label']; src=' '.join(next((s['lines'] for s in printing['gm'] if s['title']=='Printed source'),[]))
+  pub=next((x for x in PUBLISHERS if src.startswith(x) or (' '+x+',') in src),None)
+  ym=re.search(r'\((\d{4})\)',label) or re.search(r'\((?:[A-Z][a-z]+ )?(\d{4})\)',src)
+  rs='5e-2024' if (r['edition'] or '').startswith('2024') else '5e-2014'
+  pdf=PDFS.get(re.sub(r'[^a-z0-9]','',re.sub(r'\(.*?\)','',label).lower()))
+  name=re.sub(r' \((\d{4})\)$','',label)
+  return (keyify(label),name,pub,int(ym.group(1)) if ym else None,rs,pdf)
 def keyify(s): return re.sub(r'[^a-z0-9]+','_',s.lower()).strip('_')
 def kebab(s): return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
 def js(v): return json.dumps(v,ensure_ascii=False)
@@ -99,7 +117,13 @@ def same_block(a,b):
 def main():
   types=sys.argv[1]
   rows=json.load(open(os.path.join(os.environ.get('MIGRATION_OUT',H),'out-'+types+'.json')))
-  rows=[r for r in rows if not r['issues'] and r['label'] in PUBS]
+  rows=[r for r in rows if not r['issues']]
+  recs_for_pubs={}
+  for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
+    for rec in json.load(open(os.path.join(os.environ.get('LIBRARY_JSON_DIR',os.path.join(REPO,'src/lib/published-library-catalog')),f+'.json'))):
+      for p in rec['printings']: recs_for_pubs[(rec['type'],rec['slug'],p['id'])]=p
+  for r in rows:
+    if r['label'] not in PUBS: PUBS[r['label']]=publication_for(r,recs_for_pubs[(r['type'],r['slug'],r['printing'])])
   # appearance/habitats from the source records
   recs={}
   for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
@@ -116,7 +140,8 @@ def main():
   for h in held: print('held',h)
   for key,pubs in bykey.items():
     for pk,r in pubs.items():
-      target=REPRINT_OF.get(pk)
+      # An unchanged reprint points at the core book that holds the stat block.
+      target=REPRINT_OF.get(pk) or next((c for c in CORE if c!=pk and c in pubs and same_block(pubs[c]['block'],r['block']) and pk not in CORE),None)
       if target and target in pubs and same_block(pubs[target]['block'],r['block']):
         reprints[(target,key)].append(pk); continue
       bypub[pk][key]=r
@@ -171,6 +196,8 @@ def main():
       L.append('      },'); L.append('    },')
     L+=['  },','})','']
     txt='\n'.join(L).replace("refs.rules.","rules.").replace("import { refs as rules } from '#/data/generated/refs.ts'","import { refs as campaignRefs } from '#/data/generated/refs.ts'").replace("const refsRules = rules.rules","const { rules } = campaignRefs")
+    if 'rules.' not in txt.split('const { rules } = campaignRefs',1)[1]:
+      txt=txt.replace("import { refs as campaignRefs } from '#/data/generated/refs.ts'\n",'').replace('const { rules } = campaignRefs\n\n','')
     open(os.path.join(outdir,pk.replace('_','-')+'.ts'),'w').write(txt)
     print(pk,len(mons))
   files=sorted(pk.replace('_','-')+'.ts' for pk in bypub)
@@ -179,8 +206,13 @@ def main():
   open(os.path.join(outdir,'_index.ts'),'w').write('\n'.join(L))
   # publications
   L=["import { createPublications } from '#/definitions/library.ts'","","export default createPublications({"]
-  for label,(pk,name,pub,year,rs,pdf) in PUBS.items():
-    L.append(f'  {pk}: {{'); L.append(f'    name: {js(name)},'); L.append(f'    publisher: {js(pub)},'); L.append(f'    year: {year},'); L.append(f'    ruleset: {js(rs)},')
+  used={pk for pk in bypub}|{x for v in reprints.values() for x in v}|set(CORE)
+  for label,(pk,name,pub,year,rs,pdf) in sorted(PUBS.items(),key=lambda kv:kv[1][0]):
+    if pk not in used: continue
+    L.append(f'  {pk}: {{'); L.append(f'    name: {js(name)},')
+    if pub: L.append(f'    publisher: {js(pub)},')
+    if year: L.append(f'    year: {year},')
+    L.append(f'    ruleset: {js(rs)},')
     if pdf: L.append(f'    pdf: {js(pdf)},')
     L.append('  },')
   L+=['})','']
