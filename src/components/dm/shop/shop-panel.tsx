@@ -3,24 +3,27 @@ import { useEffect, useMemo, useState } from 'react'
 
 import { useDmMode } from '#/components/dm-mode'
 import { SearchInput } from '#/components/ui/search-input'
+import { equipmentNames } from '#/data/generated/equipment-names'
 import { magicItemNames } from '#/data/generated/magic-item-names'
-import type { MagicItem } from '#/definitions/library'
+import type { Equipment, MagicItem } from '#/definitions/library'
 import {
   SHOP_TYPES,
   SHOP_TYPE_LABELS,
   type Shop,
+  type ShopAssortments,
   type ShopType,
+  type StockItem,
   type StockLine,
 } from '#/definitions/shop'
 import { canSaveRecords, saveRecordEdits } from '#/lib/dev-records'
+import { loadAllEquipment } from '#/lib/library-equipment'
 import { loadAllMagicItems } from '#/lib/library-magic-items'
 import {
   SETTLEMENT_SIZES,
   SETTLEMENT_SIZE_LABELS,
+  describeStockLine,
   formatPrice,
-  magicItemPrice,
-  rollMagicStock,
-  rollsMagicItems,
+  rollStock,
   seededRandom,
   type SettlementSize,
   type StockCandidate,
@@ -44,6 +47,26 @@ function candidatesFrom(items: ReadonlyMap<string, MagicItem>): StockCandidate[]
       category: item.category,
     }))
 }
+
+const NAMES = { magicItem: magicItemNames, equipment: equipmentNames }
+
+/** The library records the panel shows and rolls from, loaded once DM mode is on. */
+type Library = {
+  magicItems: ReadonlyMap<string, MagicItem>
+  equipment: ReadonlyMap<string, Equipment>
+  assortments: ShopAssortments
+}
+
+async function loadLibrary(): Promise<Library> {
+  const [magicItems, equipment, { default: assortments }] = await Promise.all([
+    loadAllMagicItems(),
+    loadAllEquipment(),
+    import('#/data/library/shop-assortments'),
+  ])
+  return { magicItems, equipment, assortments }
+}
+
+const lineKey = ({ item }: StockLine) => `${item.ref}:${item.key}`
 
 /** A shop with its fields in schema order, so the data file reads the same way every time. */
 const inOrder = ({ type, keeper, stock }: Shop): Shop => ({
@@ -69,13 +92,13 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string>()
   const [size, setSize] = useState<SettlementSize>('town')
-  const [items, setItems] = useState<ReadonlyMap<string, MagicItem>>()
+  const [library, setLibrary] = useState<Library>()
   const [seed, setSeed] = useState(() => Date.now())
 
   useEffect(() => {
     if (!dmMode) return
     let live = true
-    void loadAllMagicItems().then((loaded) => live && setItems(loaded))
+    void loadLibrary().then((loaded) => live && setLibrary(loaded))
     return () => {
       live = false
     }
@@ -89,7 +112,7 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
     }
   }, [shop, draft, saving])
 
-  const candidates = useMemo(() => (items ? candidatesFrom(items) : []), [items])
+  const candidates = useMemo(() => (library ? candidatesFrom(library.magicItems) : []), [library])
 
   if (!dmMode) return null
   const shown = draft ?? shop
@@ -101,12 +124,14 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
   }
   const setStock = (stock: StockLine[]) => shown && edit({ ...shown, stock })
   const roll = (type: ShopType) => {
+    if (!library) return
     const random = seededRandom(seed)
     setSeed((current) => current + 1)
+    const assortment = library.assortments[type] ?? []
     edit({
       ...(shown ?? { stock: [] }),
       type,
-      stock: rollMagicStock({ type, size, candidates, random }),
+      stock: rollStock({ type, size, assortment, candidates, random }),
     })
   }
   const save = async () => {
@@ -192,22 +217,21 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
           <button
             type="button"
             className={`${buttonClass} border-transparent bg-indigo-600 text-white hover:bg-indigo-700`}
-            disabled={!shown || !items || !rollsMagicItems(shown.type)}
+            disabled={!shown || !library}
             onClick={() => shown && roll(shown.type)}
-            title={
-              shown && !rollsMagicItems(shown.type)
-                ? 'This kind of shop sells plain goods, which arrive with the equipment library'
-                : undefined
-            }
           >
             <Dices className="size-4" aria-hidden />
-            {items ? 'Roll stock' : 'Loading items…'}
+            {library ? 'Roll stock' : 'Loading the library…'}
           </button>
         </div>
       ) : null}
 
       {shown ? (
-        <StockTable stock={shown.stock} items={items} onChange={editable ? setStock : undefined} />
+        <StockTable
+          stock={shown.stock}
+          library={library}
+          onChange={editable ? setStock : undefined}
+        />
       ) : null}
       {shown && editable ? (
         <AddFromLibrary stock={shown.stock} onAdd={(line) => setStock([...shown.stock, line])} />
@@ -218,11 +242,11 @@ export function ShopPanel({ locationKey, shop }: { locationKey: string; shop: Sh
 
 function StockTable({
   stock,
-  items,
+  library,
   onChange,
 }: {
   stock: readonly StockLine[]
-  items: ReadonlyMap<string, MagicItem> | undefined
+  library: Library | undefined
   onChange?: (stock: StockLine[]) => void
 }) {
   if (stock.length === 0)
@@ -256,22 +280,28 @@ function StockTable({
         </thead>
         <tbody>
           {stock.map((line, index) => {
-            const item = items?.get(line.item.key)
-            const derived = item ? magicItemPrice(item) : undefined
-            const price = line.price ?? derived
+            const view = describeStockLine(line, library ?? {}, NAMES)
             return (
-              <tr key={line.item.key} className="border-border border-b last:border-0">
+              <tr key={lineKey(line)} className="border-border border-b last:border-0">
                 <td className="px-3 py-2 font-medium">
-                  {magicItemNames[line.item.key] ?? line.item.key}
-                  {item ? (
-                    <span className="text-muted-foreground block text-xs">{item.category}</span>
+                  {view.name}
+                  {view.category ? (
+                    <span className="text-muted-foreground block text-xs">{view.category}</span>
                   ) : null}
                 </td>
-                <td className="px-3 py-2 capitalize">{item?.rarity ?? '…'}</td>
+                <td className="px-3 py-2 capitalize">
+                  {line.item.ref === 'magicItem' ? (view.rarity ?? '…') : '—'}
+                </td>
                 <td className="px-3 py-2">
-                  {price ? formatPrice(price) : <span className="text-red-600">No price</span>}
-                  {line.price ? (
-                    <span className="text-muted-foreground block text-xs">set by the shop</span>
+                  {view.price ? (
+                    formatPrice(view.price)
+                  ) : library ? (
+                    <span className="text-red-600 dark:text-red-400">No price</span>
+                  ) : (
+                    '…'
+                  )}
+                  {view.priceNote ? (
+                    <span className="text-muted-foreground block text-xs">{view.priceNote}</span>
                   ) : null}
                 </td>
                 <td className="px-3 py-2">
@@ -279,8 +309,8 @@ function StockTable({
                     <input
                       type="number"
                       min={1}
-                      aria-label={`How many ${magicItemNames[line.item.key] ?? ''}`}
-                      className={`${fieldClass} w-20`}
+                      aria-label={`How many ${view.name}`}
+                      className={`${fieldClass} w-24`}
                       placeholder="Plenty"
                       value={line.quantity ?? ''}
                       onChange={(event) => {
@@ -297,7 +327,7 @@ function StockTable({
                   <td className="px-3 py-2 text-right">
                     <button
                       type="button"
-                      aria-label={`Remove ${magicItemNames[line.item.key] ?? ''}`}
+                      aria-label={`Remove ${view.name}`}
                       className="text-muted-foreground hover:text-red-600"
                       onClick={() => update(index, undefined)}
                     >
@@ -314,9 +344,18 @@ function StockTable({
   )
 }
 
-const ALL_ITEMS = Object.entries(magicItemNames).filter(([key]) => !isOlderCopy(key))
+/** Everything a shop can stock, by name: plain goods first, then magic items. */
+const ALL_ITEMS: readonly { item: StockItem; name: string }[] = [
+  ...Object.entries(equipmentNames).map(([key, name]) => ({
+    item: { ref: 'equipment' as const, key },
+    name,
+  })),
+  ...Object.entries(magicItemNames)
+    .filter(([key]) => !isOlderCopy(key))
+    .map(([key, name]) => ({ item: { ref: 'magicItem' as const, key }, name })),
+]
 
-/** A library search that adds a magic item to the stock. */
+/** A library search that adds goods or a magic item to the stock. */
 function AddFromLibrary({
   stock,
   onAdd,
@@ -326,34 +365,38 @@ function AddFromLibrary({
 }) {
   const [query, setQuery] = useState('')
   const words = query.trim().toLowerCase()
-  const listed = new Set(stock.map(({ item }) => item.key))
+  const listed = new Set(stock.map(lineKey))
   const matches =
     words.length < 2
       ? []
       : ALL_ITEMS.filter(
-          ([key, name]) => !listed.has(key) && name.toLowerCase().includes(words),
-        ).slice(0, 8)
+          ({ item, name }) =>
+            !listed.has(`${item.ref}:${item.key}`) && name.toLowerCase().includes(words),
+        ).slice(0, 10)
 
   return (
     <div className="grid gap-2">
       <SearchInput
-        placeholder="Add a magic item from the library…"
+        placeholder="Add goods or a magic item from the library…"
         value={query}
         onChange={(event) => setQuery(event.target.value)}
       />
       {matches.length > 0 ? (
         <ul className="grid gap-1">
-          {matches.map(([key, name]) => (
-            <li key={key}>
+          {matches.map(({ item, name }) => (
+            <li key={`${item.ref}:${item.key}`}>
               <button
                 type="button"
                 className="hover:bg-muted inline-flex w-full items-center gap-2 rounded-md px-2 py-1 text-left text-sm"
                 onClick={() => {
-                  onAdd({ item: { ref: 'magicItem', key } })
+                  onAdd(item.ref === 'magicItem' ? { item, quantity: 1 } : { item })
                   setQuery('')
                 }}
               >
                 <Plus className="size-4" aria-hidden /> {name}
+                <span className="text-muted-foreground text-xs">
+                  {item.ref === 'magicItem' ? 'magic item' : 'goods'}
+                </span>
               </button>
             </li>
           ))}

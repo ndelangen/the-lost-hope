@@ -1,7 +1,7 @@
 import type { EntityRef } from '#/definitions/kind'
-import type { ITEM_CATEGORIES, ITEM_RARITIES } from '#/definitions/library'
+import type { Equipment, ITEM_CATEGORIES, ITEM_RARITIES, MagicItem } from '#/definitions/library'
 import type { Price } from '#/definitions/price'
-import type { ShopType, StockLine } from '#/definitions/shop'
+import type { ShopType, StockItem, StockLine } from '#/definitions/shop'
 
 type Rarity = (typeof ITEM_RARITIES)[number]
 type Category = (typeof ITEM_CATEGORIES)[number]
@@ -52,11 +52,11 @@ export const SETTLEMENT_SIZE_LABELS: Record<SettlementSize, string> = {
 type MagicShelf = { categories?: readonly Category[]; lines: number; rarityScale?: number }
 
 const MAGIC_SHELVES: Partial<Record<ShopType, MagicShelf>> = {
-  emporium: { lines: 8 },
-  'oddities-dealer': { categories: ['Wondrous Item', 'Ring', 'Rod'], lines: 6 },
+  emporium: { lines: 5 },
+  'oddities-dealer': { categories: ['Wondrous Item', 'Ring', 'Rod'], lines: 3 },
   artificer: { categories: ['Wand', 'Rod', 'Staff', 'Wondrous Item'], lines: 5 },
-  alchemist: { categories: ['Potion'], lines: 6 },
-  herbalist: { categories: ['Potion'], lines: 3, rarityScale: 0.5 },
+  alchemist: { categories: ['Potion'], lines: 3 },
+  herbalist: { categories: ['Potion'], lines: 2, rarityScale: 0.5 },
   blacksmith: { categories: ['Weapon', 'Armor', 'Shield', 'Ammunition'], lines: 3 },
   scribe: { categories: ['Scroll'], lines: 4 },
   bookseller: { categories: ['Scroll'], lines: 2 },
@@ -64,9 +64,6 @@ const MAGIC_SHELVES: Partial<Record<ShopType, MagicShelf>> = {
   'gem-merchant': { categories: ['Ring'], lines: 1 },
   pawnbroker: { lines: 3, rarityScale: 0.5 },
 }
-
-/** Whether rolling a shop of this type can draw magic items at all. */
-export const rollsMagicItems = (type: ShopType) => MAGIC_SHELVES[type] !== undefined
 
 /**
  * How likely each rarity is on a shelf in a settlement of that size, before the shop's own scale.
@@ -141,6 +138,51 @@ export function rollMagicStock({
   return picked
 }
 
+/** How many goods a shop puts out from its assortment, before the settlement's size. */
+const GOODS_LINES = 6
+
+/**
+ * A shop's rolled stock: a handful of goods from what its kind typically sells, then magic items
+ * for a shop with a magic shelf. Magic items from the assortment follow the same rarity limits as
+ * the shelf, and nothing is listed twice.
+ */
+export function rollStock({
+  type,
+  size,
+  assortment,
+  candidates,
+  random,
+}: {
+  type: ShopType
+  size: SettlementSize
+  assortment: readonly StockItem[]
+  candidates: readonly StockCandidate[]
+  random: () => number
+}): StockLine[] {
+  const magic = new Map(candidates.map((candidate) => [candidate.item.key, candidate]))
+  const allowed = RARITY_WEIGHTS[size]
+  const pool = assortment.filter((item) => {
+    if (item.ref !== 'magicItem') return true
+    const candidate = magic.get(item.key)
+    return !!candidate && (allowed[candidate.rarity] ?? 0) > 0 && !!magicItemPrice(candidate)
+  })
+  const goods: StockLine[] = []
+  const wanted = Math.max(1, Math.round(GOODS_LINES * SIZE_LINES[size]))
+  while (goods.length < wanted && pool.length > 0) {
+    const [item] = pool.splice(Math.floor(random() * pool.length), 1)
+    if (!item) break
+    goods.push(item.ref === 'magicItem' ? { item, quantity: 1 } : { item })
+  }
+  const listed = new Set(goods.map(({ item }) => `${item.ref}:${item.key}`))
+  const shelf = rollMagicStock({
+    type,
+    size,
+    candidates: candidates.filter(({ item }) => !listed.has(`magicItem:${item.key}`)),
+    random,
+  })
+  return [...goods, ...shelf]
+}
+
 const COIN_IN_CP = { cp: 1, sp: 10, ep: 50, gp: 100, pp: 1000 } as const
 
 /** A price as the table says it, e.g. `35 gp` or `2,000 gp`. */
@@ -148,3 +190,46 @@ export const formatPrice = ({ amount, coin }: Price) => `${amount.toLocaleString
 
 /** A price in copper, for sorting a shop's stock. */
 export const priceInCopper = ({ amount, coin }: Price) => amount * COIN_IN_CP[coin]
+
+/** A stock line as the shop table shows it. */
+export type StockLineView = {
+  name: string
+  category?: string
+  rarity?: string
+  price?: Price
+  /** Why the price is what it is, when that is not the item's own printed or market price. */
+  priceNote?: 'set by the shop' | 'estimate'
+}
+
+/** What the table shows for a line, from the loaded library records (missing while loading). */
+export function describeStockLine(
+  line: StockLine,
+  library: {
+    magicItems?: ReadonlyMap<string, MagicItem>
+    equipment?: ReadonlyMap<string, Equipment>
+  },
+  names: {
+    magicItem: Readonly<Record<string, string>>
+    equipment: Readonly<Record<string, string>>
+  },
+): StockLineView {
+  const name = names[line.item.ref][line.item.key] ?? line.item.key
+  if (line.item.ref === 'magicItem') {
+    const item = library.magicItems?.get(line.item.key)
+    const market = item ? magicItemPrice(item) : undefined
+    return {
+      name,
+      category: item?.category,
+      rarity: item?.rarity,
+      price: line.price ?? market,
+      priceNote: line.price ? 'set by the shop' : undefined,
+    }
+  }
+  const item = library.equipment?.get(line.item.key)
+  return {
+    name,
+    category: item?.category,
+    price: line.price ?? item?.price,
+    priceNote: line.price ? 'set by the shop' : item?.priceEstimated ? 'estimate' : undefined,
+  }
+}

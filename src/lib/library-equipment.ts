@@ -16,3 +16,9 @@ export async function loadEquipment(
   const { default: items } = await load()
   return Object.hasOwn(items, item.key) ? items[item.key] : undefined
 }
+
+/** Every piece of equipment by key, for tools that browse it all (such as a shop's stock). */
+export async function loadAllEquipment(): Promise<ReadonlyMap<string, Equipment>> {
+  const modules = await Promise.all(Object.values(books).map((load) => load()))
+  return new Map(modules.flatMap(({ default: items }) => Object.entries(items)))
+}

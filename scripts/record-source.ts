@@ -41,6 +41,7 @@ const LIBRARY_PLURALS: Readonly<Record<string, string>> = {
   monsters: 'monster',
   spells: 'spell',
   magicItems: 'magicItem',
+  equipment: 'equipment',
 }
 
 const pluralOf = (table: Readonly<Record<string, string>>, kind: string) =>

@@ -97,9 +97,13 @@ async function missingRefs(server: ViteDevServer, record: unknown) {
   const { magicItemBooks } = (await server.ssrLoadModule(
     '/src/data/generated/magic-item-names.ts',
   )) as { magicItemBooks: Record<string, string> }
+  const { equipmentBooks } = (await server.ssrLoadModule(
+    '/src/data/generated/equipment-names.ts',
+  )) as { equipmentBooks: Record<string, string> }
   const lookup: Record<string, Record<string, unknown>> = {
     ...SOURCE_REGISTRIES,
     magicItem: magicItemBooks,
+    equipment: equipmentBooks,
   }
   return refsIn(record).filter(
     ({ ref, key }) => lookup[ref] !== undefined && !Object.hasOwn(lookup[ref], key),

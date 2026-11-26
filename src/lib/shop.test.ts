@@ -2,7 +2,13 @@ import { describe, expect, it } from 'vitest'
 
 import { Shop } from '#/definitions/shop'
 
-import { magicItemPrice, rollMagicStock, seededRandom, type StockCandidate } from './shop'
+import {
+  magicItemPrice,
+  rollMagicStock,
+  rollStock,
+  seededRandom,
+  type StockCandidate,
+} from './shop'
 
 const candidate = (
   key: string,
@@ -85,5 +91,41 @@ describe('rollMagicStock', () => {
     expect(
       rollMagicStock({ type: 'bakery', size: 'city', candidates, random: seededRandom(1) }),
     ).toEqual([])
+  })
+})
+
+describe('rollStock', () => {
+  const bread = { ref: 'equipment', key: 'bread' } as const
+  const tart = { ref: 'equipment', key: 'tart' } as const
+
+  it('stocks a bakery from its assortment, with plenty of each', () => {
+    const stock = rollStock({
+      type: 'bakery',
+      size: 'town',
+      assortment: [bread, tart],
+      candidates,
+      random: seededRandom(2),
+    })
+    expect(stock).toEqual(expect.arrayContaining([{ item: bread }, { item: tart }]))
+    expect(stock).toHaveLength(2)
+  })
+
+  it('keeps assortment magic items to what the settlement allows, and never lists one twice', () => {
+    for (let seed = 0; seed < 30; seed++) {
+      const stock = rollStock({
+        type: 'emporium',
+        size: 'village',
+        assortment: [
+          { ref: 'magicItem', key: 'vorpal' },
+          { ref: 'magicItem', key: 'healing' },
+        ],
+        candidates,
+        random: seededRandom(seed),
+      })
+      const keys = stock.map(({ item }) => item.key)
+      expect(keys).not.toContain('vorpal')
+      expect(new Set(keys).size).toBe(keys.length)
+      expect(Shop.parse({ type: 'emporium', stock }).stock).toEqual(stock)
+    }
   })
 })

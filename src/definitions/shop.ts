@@ -71,10 +71,10 @@ export const SHOP_TYPE_LABELS: Record<ShopType, string> = {
 }
 
 /**
- * What a stock line sells: an item type from the library. A campaign item is one unique object
- * with its own owner, so it is never stock.
+ * What a stock line sells: an item type from the library, magic or plain. A campaign item is one
+ * unique object with its own owner, so it is never stock.
  */
-export const StockItem = entityRefOf('magicItem')
+export const StockItem = z.union([entityRefOf('magicItem'), entityRefOf('equipment')])
 
 export type StockItem = z.infer<typeof StockItem>
 
@@ -107,3 +107,11 @@ export const Shop = z
   )
 
 export type Shop = z.infer<typeof Shop>
+
+/** What each kind of shop typically sells: the pool its stock is rolled from. */
+export const ShopAssortments = z.record(z.enum(SHOP_TYPES), z.array(StockItem).min(1))
+
+export type ShopAssortments = z.infer<typeof ShopAssortments>
+
+export const createShopAssortments = (input: z.input<typeof ShopAssortments>) =>
+  ShopAssortments.parse(input)
