@@ -19,6 +19,7 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 import { AbilityEffect } from '#/definitions/stat-block'
+import { stagedEffectProblems } from '#/definitions/status-effect'
 import { CONDITION_KEYS } from '#/lib/rules'
 
 const root = join(import.meta.dirname, '../..')
@@ -86,6 +87,7 @@ function check(
     if (!effect) continue
     if (!effect.conditions && !effect.text)
       problems.push(`effect ${effect.key} needs conditions or text`)
+    for (const problem of stagedEffectProblems(effect, CONDITION_KEYS)) problems.push(`effect ${problem}`)
     for (const condition of effect.conditions ?? [])
       if (!conditionKeys.has(condition.key))
         problems.push(`effect ${effect.key}: ${condition.key} is not a condition; say it in text`)

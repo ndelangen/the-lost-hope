@@ -21976,7 +21976,7 @@ export default createPublicationMonsters({
                   ' until the poison ends. The creature dies if its maximum drops to 0.',
                 ],
                 lasts: { kind: 'until-removed' },
-                ends: { repeatSave: ['every-24-hours'], successes: 3 },
+                ends: { repeatSave: ['every-24-hours'] },
               },
             ],
             uses: 1,
