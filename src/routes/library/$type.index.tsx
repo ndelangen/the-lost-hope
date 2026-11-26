@@ -14,9 +14,7 @@ export const Route = createFileRoute('/library/$type/')({
   beforeLoad: async ({ params: { type }, search }) => {
     const merged = MERGED_LIBRARY_TYPES[type]
     if (merged) throw redirect({ to: '/library/$type', params: { type: merged }, search })
-    const { libraryBrowseTypes, loadLibrarySearch } = await import('#/lib/published-library')
-    // Search reads printed text, which loads only once someone searches.
-    if (search.q) await loadLibrarySearch()
+    const { libraryBrowseTypes } = await import('#/lib/published-library')
     if (!isLibraryType(type) || !libraryBrowseTypes(Boolean(search.dm)).has(type)) throw notFound()
     return { libraryType: type }
   },

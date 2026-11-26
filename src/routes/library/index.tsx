@@ -6,10 +6,6 @@ import { librarySearch } from '#/lib/published-library-routing'
 export const Route = createFileRoute('/library/')({
   validateSearch: librarySearch,
   search: { middlewares: [stripSearchParams(librarySearch({}))] },
-  beforeLoad: async ({ search }) => {
-    // Search reads printed text, which loads only once someone searches.
-    if (search.q) await (await import('#/lib/published-library')).loadLibrarySearch()
-  },
   head: ({ match }) => ({
     meta: [
       { title: 'Library | The Lost Hope' },

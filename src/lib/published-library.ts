@@ -35,7 +35,17 @@ function normalize(text: string) {
   return text.normalize('NFKD').replaceAll(/\p{M}/gu, '').toLowerCase()
 }
 
-export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, group?: string) {
+/**
+ * Entries matching a search. `printedText` also matches words inside printed text, once
+ * `loadLibrarySearch` has run; leave it off for a render that must match the server's.
+ */
+export function browseLibrary(
+  dm: boolean,
+  query?: string,
+  type?: LibraryType,
+  group?: string,
+  printedText = true,
+) {
   const term = normalize(query?.trim() ?? '')
   // Split like the search index does, so "half-orc" finds printed "half-orc".
   const words = term.split(/[^\p{L}\p{N}]+/u).filter(Boolean)
@@ -46,12 +56,14 @@ export function browseLibrary(dm: boolean, query?: string, type?: LibraryType, g
     if (words.length) {
       const searchable = [name, summary, ...groups, price ?? '']
       // Printed words come from the search module; rules arrive with their text.
-      const printed = searchWords.get(record.type + '/' + record.slug)
+      const printed = printedText ? searchWords.get(record.type + '/' + record.slug) : undefined
       if (printed) searchable.push(printed.player, dm ? printed.gm : '')
       for (const printing of record.printings) {
         searchable.push(printing.label, printing.edition ?? '', printing.variantName ?? '')
         const sections = [...(printing.player ?? []), ...(dm ? (printing.gm ?? []) : [])]
-        if (!printed) searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
+        // Rules always carry their text; other entries' text may be loaded on the server only.
+        if (!printed && (printedText || record.type === 'rules'))
+          searchable.push(...sections.flatMap(({ title, lines }) => [title, ...lines]))
         const typed =
           dm &&
           printing.typed &&

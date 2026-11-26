@@ -1,9 +1,15 @@
 import { Link } from '@tanstack/react-router'
 import { ArrowLeft, BookOpen, ImageOff } from 'lucide-react'
+import { useEffect, useState } from 'react'
 
 import { LibraryImage } from '#/components/library/library-image'
 import { SearchInput } from '#/components/ui/search-input'
-import { browseLibrary, libraryBrowseTypes, libraryGroups } from '#/lib/published-library'
+import {
+  browseLibrary,
+  libraryBrowseTypes,
+  libraryGroups,
+  loadLibrarySearch,
+} from '#/lib/published-library'
 import { isLibraryType, libraryTypes, type LibraryType } from '#/lib/published-library-routing'
 
 import { LibraryAttribution } from './library-attribution'
@@ -30,7 +36,13 @@ export function LibraryBrowse({
   onSearch: (query: string | undefined, group: string | undefined) => void
   onPage: (page: number) => void
 }) {
-  const entries = browseLibrary(Boolean(dm), q, type, group)
+  // Printed-text search words load after hydration, so the server and the first client render
+  // agree; results then widen to matches inside printed text.
+  const [searchReady, setSearchReady] = useState(false)
+  useEffect(() => {
+    if (q) void loadLibrarySearch().then(() => setSearchReady(true))
+  }, [q])
+  const entries = browseLibrary(Boolean(dm), q, type, group, searchReady)
   const availableTypes = libraryBrowseTypes(Boolean(dm))
   const groups = libraryGroups(Boolean(dm), type)
   const pageCount = Math.max(1, Math.ceil(entries.length / resultsPerPage))
