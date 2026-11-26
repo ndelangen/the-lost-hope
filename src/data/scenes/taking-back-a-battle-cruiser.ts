@@ -414,6 +414,21 @@ export default createScene({
             ],
           ],
         },
+        {
+          do: [
+            [
+              'Talking him round: before the fight, the party can argue with what ',
+              refs.npcs.korrag_stonevow,
+              ' remembers, for example by telling him what really happened on that ship. Play it as a conversation. If the argument is really convincing, have ',
+              refs.pcs.devan,
+              ' roll ',
+              refs.rules.persuasion,
+              ', DC 15. Others can help with a good line, which gives him ',
+              refs.rules.advantage,
+              '.',
+            ],
+          ],
+        },
         { do: [['If ', refs.pcs.devan, ' refuses:']] },
         {
           speaker: refs.npcs.korrag_stonevow,
@@ -440,6 +455,22 @@ export default createScene({
         },
       ],
       outcomes: [
+        {
+          icon: 'gi/GiConversation',
+          when: [['They talk ', refs.npcs.korrag_stonevow, ' round.']],
+          response: [
+            [
+              'The two memories collide. ',
+              refs.npcs.korrag_stonevow,
+              ' hesitates, grabs his head, then breaks into a rage he cannot aim. He reels for the first round and does not act in it.',
+            ],
+            [
+              'The reward: the whole party goes first in this fight, in the order they choose, and has a round to deal with the others before ',
+              refs.npcs.korrag_stonevow,
+              ' comes for them.',
+            ],
+          ],
+        },
         {
           icon: 'gi/GiDeathSkull',
           when: [['They kill ', refs.npcs.durgan_ashfang, '.']],
