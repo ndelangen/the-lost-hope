@@ -93,7 +93,7 @@ export default createScene({
             [
               'The moment he picks up ',
               refs.items.dagger_of_the_zodiac_signs,
-              ', it deals 72 damage to him, and there is a sonic boom. He merges with the dagger and the sword on the spot.',
+              ', it deals 73 damage to him, and there is a sonic boom. He merges with the dagger and the sword on the spot.',
             ],
           ],
         },

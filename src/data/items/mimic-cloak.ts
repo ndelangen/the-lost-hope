@@ -20,7 +20,7 @@ export default createItem({
       refs.rules.restrained,
       '. After each ',
       refs.rules.long_rest,
-      ', its wearer must feed it or gain one level of exhaustion.',
+      ', its wearer must feed it raw meat or gain one level of exhaustion.',
     ],
   ],
 })
