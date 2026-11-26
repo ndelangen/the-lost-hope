@@ -380,10 +380,21 @@ export default createScene({
             ],
           ],
         },
-        { speaker: refs.npcs.korrag_stonevow, say: [['Stand down, soldier.']] },
+        {
+          speaker: refs.npcs.korrag_stonevow,
+          say: [['Coward. Come meet my hammer, so I may put you out of your disgraceful misery.']],
+        },
         {
           do: [
             [
+              'The party chooses: start the fight straight away, or talk first. If they talk, how the talk goes decides who goes first.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'If they talk: ',
               refs.npcs.korrag_stonevow,
               ' is sober and can talk. He blames ',
               refs.pcs.devan,
@@ -417,7 +428,7 @@ export default createScene({
         {
           do: [
             [
-              'Talking him round: before the fight, the party can argue with what ',
+              'Talking him round: the party can argue with what ',
               refs.npcs.korrag_stonevow,
               ' remembers, for example by telling him what really happened on that ship. Play it as a conversation. If the argument is really convincing, have ',
               refs.pcs.devan,
@@ -425,7 +436,7 @@ export default createScene({
               refs.rules.persuasion,
               ', DC 15. Others can help with a good line, which gives him ',
               refs.rules.advantage,
-              '.',
+              '. If the roll fails, the fight starts as usual.',
             ],
           ],
         },
