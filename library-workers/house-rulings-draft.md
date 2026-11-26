@@ -1,11 +1,11 @@
-# Shop items: proposed house rulings (draft, not in the library yet)
+# Shop items: house rulings (approved by Norbert on 2026-11-26, now in the library)
 
 Most of the 599 shop items with no printed rules are already play-ready: their one-line summary
 says what they do in the fiction, and none of them needs a roll. Ninety-three items now carry
 the rules the SRD 5.2.1 prints for them. The items below are the few whose effect will come up as
-a question at the table ("how far does it carry?", "can it be resisted?"). Each ruling is a
-proposal, labeled as a house rule, for Norbert to approve, change or drop. Nothing here is in the
-library data until approved.
+a question at the table ("how far does it carry?", "can it be resisted?"). Norbert approved all
+ten; each item's page shows its ruling under "House rule", so it is never mistaken for printed
+rules. Change a ruling in the catalog entry, and here.
 
 | Item | Summary today | Proposed house rule |
 | --- | --- | --- |

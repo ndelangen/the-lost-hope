@@ -105323,7 +105323,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "Single use. Both sleepers must hold it as they fall asleep within 5 feet of each other. They share one dream until either wakes; neither can be harmed in it."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -105710,7 +105718,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "While it stands upright, creatures behind it have Disadvantage on Wisdom (Perception) checks that rely on hearing to notice sounds from the far side, and sounds from behind it don't wake a sleeper."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -117300,7 +117316,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "Lasts 1 hour of sleep. The sleeper has Advantage on saves against effects that act through dreams."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -120166,7 +120190,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "A Utilize action on a sleeping creature within reach ends any effect that is giving it a nightmare (including the Dream spell's nightmare) unless the effect's source succeeds on a DC 13 Charisma save. Others don't wake from it."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -130622,7 +130654,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "Works only inside a warded place both readers can enter; the GM decides which of the two appointments the ward admits. Single use."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -131455,7 +131495,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "The shape is an illusion that a DC 10 Intelligence (Investigation) check reveals as false. It makes no sound and can't move."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -132689,7 +132737,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "The holder hears it anywhere in the building, even asleep, and wakes. One window per charm; it resets each dusk."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -133053,7 +133109,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "Anyone can follow the trail without a check while it lasts; rain or sweeping erases it."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -133850,7 +133914,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "Each drop sheds Dim Light in a 5-foot radius for 1 minute. Not bright enough to read by."
+            ]
+          }
+        ]
       }
     ],
     "art": [
@@ -136226,7 +136298,15 @@
       {
         "id": "original",
         "label": "Shop stock",
-        "gm": []
+        "gm": [],
+        "player": [
+          {
+            "title": "House rule",
+            "lines": [
+              "Dropping or throwing it (range 20/60 ft.) is a Utilize action. The crack is audible 600 feet away. Creatures within 10 feet make a DC 10 Constitution save or have the Deafened condition until the end of their next turn. The stone is spent."
+            ]
+          }
+        ]
       }
     ],
     "art": [
