@@ -6,6 +6,7 @@ import { defineConfig, loadEnv } from 'vite'
 import type { Connect, Plugin } from 'vite'
 
 import { devIconModulesPlugin } from './scripts/dev-icon-modules.ts'
+import { devRecordsPlugin } from './scripts/dev-records.ts'
 import { dmAuthoringPlugin } from './scripts/dm-authoring.ts'
 import { generateRefs, REFERENCE_SOURCE_PATHS } from './scripts/generate-refs.ts'
 import { libraryCatalogPlugin } from './scripts/library-catalog.ts'
@@ -116,6 +117,7 @@ const config = defineConfig(({ mode }) => {
       generatedRefsPlugin(),
       libraryCatalogPlugin(),
       dmAuthoringPlugin(),
+      devRecordsPlugin(),
       devIconModulesPlugin(),
       tanstackStart({
         pages: [

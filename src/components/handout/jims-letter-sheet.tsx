@@ -4,14 +4,9 @@ import { HAND_FONT, HandoutFonts, PRINT_FONT } from '#/components/handout/handou
 import { InkReveal } from '#/components/handout/ink-reveal'
 import { OldPaper } from '#/components/handout/old-paper'
 import { SealedScrawl } from '#/components/handout/sealed-scrawl'
-import { resolveRef } from '#/lib/campaign'
-import { JIMS_LETTER, type LetterSection, type UnsealedLetter } from '#/lib/jims-letter'
+import { JIMS_LETTER, recipientName, type UnsealedLetter } from '#/lib/jims-letter'
 import { sealedLength } from '#/lib/sealed-text'
 import { cn } from '#/lib/utils'
-
-export function recipientName(section: LetterSection): string {
-  return resolveRef(section.recipient)?.data.name.split(' ')[0] ?? section.id
-}
 
 /**
  * Jim's letter on aged paper: sealed parts show smudged ink, and opened parts write themselves in.

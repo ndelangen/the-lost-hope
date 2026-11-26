@@ -1,7 +1,7 @@
 import { Link } from '@tanstack/react-router'
 import { EyeOff, Swords } from 'lucide-react'
 
-import type { DmReferenceTarget } from '#/components/content-renderer'
+import type { DmReferenceTarget } from '#/components/dm-reference-context'
 import { DmCreatureGlance } from '#/components/dm/dm-creature-glance'
 import { ReferenceAvatar } from '#/components/entity-reference'
 import { HoverPreview } from '#/components/ui/hover-preview'

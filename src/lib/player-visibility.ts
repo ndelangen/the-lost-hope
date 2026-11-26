@@ -10,7 +10,7 @@ export const DM_FIELDS = {
   beast: ['stats', 'background'],
   pc: ['secretMemberships', 'stats', 'background'],
   npc: ['motivations', 'secretMemberships', 'stats', 'background'],
-  location: ['background'],
+  location: ['shop', 'background'],
   event: ['background'],
   session: [],
   quest: ['background'],

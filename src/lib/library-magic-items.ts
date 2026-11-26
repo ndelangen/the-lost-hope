@@ -16,3 +16,9 @@ export async function loadMagicItem(
   const { default: items } = await load()
   return Object.hasOwn(items, item.key) ? items[item.key] : undefined
 }
+
+/** Every typed magic item by key, for tools that browse them all (such as rolling shop stock). */
+export async function loadAllMagicItems(): Promise<ReadonlyMap<string, MagicItem>> {
+  const modules = await Promise.all(Object.values(books).map((load) => load()))
+  return new Map(modules.flatMap(({ default: items }) => Object.entries(items)))
+}

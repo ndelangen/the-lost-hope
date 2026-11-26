@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 import { HAND_FONT, HandoutFonts, PRINT_FONT } from '#/components/handout/handout-fonts'
-import { recipientName } from '#/components/handout/jims-letter-sheet'
 import { OldPaper } from '#/components/handout/old-paper'
+import { recipientName } from '#/lib/jims-letter'
 import { JIMS_LETTER, type LetterWords, type UnsealedLetter } from '#/lib/jims-letter'
 import { cn } from '#/lib/utils'
 

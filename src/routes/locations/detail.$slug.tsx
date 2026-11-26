@@ -3,6 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFields } from '#/components/dm/dm-fields'
+import { ShopPanel } from '#/components/dm/shop/shop-panel'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
@@ -13,6 +14,7 @@ import { PortraitGallery } from '#/components/portrait-gallery'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
+import type { Shop } from '#/definitions/shop'
 import {
   entityRefForSlug,
   getEntity,
@@ -22,6 +24,7 @@ import {
   locationParent,
   locationTypeOf,
 } from '#/lib/campaign'
+import { sourceRecordBySlug } from '#/lib/dm-campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import {
   buildLocationExplorationMap,
@@ -104,7 +107,12 @@ function LocationDetailPage() {
           ) : null}
         </Stack>
       }
-      dm={<DmFields kind="location" slug={entity.slug} />}
+      dm={
+        <>
+          <DmFields kind="location" slug={entity.slug} />
+          <LocationShop slug={entity.slug} />
+        </>
+      }
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
         <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
@@ -235,4 +243,11 @@ function SectionLabel({ children }: { children: string }) {
       {children}
     </h2>
   )
+}
+
+/** The location's shop, read from the campaign source because stock is DM-only. */
+function LocationShop({ slug }: { slug: string }) {
+  const source = sourceRecordBySlug('location', slug)
+  if (!source) return null
+  return <ShopPanel locationKey={source.key} shop={(source.record as { shop?: Shop }).shop} />
 }

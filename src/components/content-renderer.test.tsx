@@ -3,7 +3,8 @@ import { describe, expect, it } from 'vitest'
 
 import { DmReference } from '#/components/dm/dm-reference'
 
-import { ContentRenderer, DmReferenceContext } from './content-renderer'
+import { ContentRenderer } from './content-renderer'
+import { DmReferenceContext } from './dm-reference-context'
 
 describe('ContentRenderer', () => {
   it('renders an external link within an inline content run', () => {

@@ -4,6 +4,7 @@ import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema, entityRefOf } from './kind'
 import { DEFAULT_LOCATION_ILLUSTRATION, MediaUrl, Portrait } from './media'
+import { Shop } from './shop'
 import { deriveSlug } from './slug'
 
 export const LOCATION_TYPES = [
@@ -117,6 +118,7 @@ const locationFields = {
   deck: LocationDeck.optional().describe(
     'For a deck map of a vessel: which vessel, so its room board offers this deck',
   ),
+  shop: Shop.optional().describe('When the location sells things: its kind, keeper and stock'),
 }
 
 const LocationRoot = z.strictObject({

@@ -1,7 +1,7 @@
 import { Check, Lock } from 'lucide-react'
 
-import { recipientName } from '#/components/handout/jims-letter-sheet'
 import { useJimsLetterWords, useUnsealedLetter } from '#/components/handout/use-jims-letter-words'
+import { recipientName } from '#/lib/jims-letter'
 import { JIMS_LETTER } from '#/lib/jims-letter'
 import { cn } from '#/lib/utils'
 

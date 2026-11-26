@@ -2,8 +2,9 @@ import { Link } from '@tanstack/react-router'
 import { EyeOff } from 'lucide-react'
 import type { ReactNode } from 'react'
 
-import { ContentRenderer, DmReferenceContext } from '#/components/content-renderer'
+import { ContentRenderer } from '#/components/content-renderer'
 import { useDmMode } from '#/components/dm-mode'
+import { DmReferenceContext } from '#/components/dm-reference-context'
 import { DmReference } from '#/components/dm/dm-reference'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { EntityReference } from '#/components/entity-reference'
@@ -51,8 +52,9 @@ export function DmFields({ kind, slug }: { kind: EntityKind; slug: string }) {
   const source = sourceRecordBySlug(kind, slug)
   if (!source) return null
   const values = source.record as DmFieldValues
+  // A location's shop has its own panel (`ShopPanel`).
   const fields = (DM_FIELDS[kind] as readonly DmFieldName[]).filter(
-    (field) => values[field] !== undefined,
+    (field) => Object.hasOwn(FIELD_TITLES, field) && values[field] !== undefined,
   )
 
   return (

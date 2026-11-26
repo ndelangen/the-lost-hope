@@ -1,5 +1,6 @@
-import { createContext, useContext, type ComponentType } from 'react'
+import { useContext } from 'react'
 
+import { DmReferenceContext } from '#/components/dm-reference-context'
 import { EntityReference } from '#/components/entity-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { RuleTerm } from '#/components/rule-term'
@@ -10,18 +11,6 @@ import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
 import { isRuleRef, ruleOf, termLabel } from '#/lib/rules'
 import { cn } from '#/lib/utils'
-
-/** A reference a DM page renders itself: any record, or a prepared scene. */
-export type DmReferenceTarget = Reference | EntityRef<'scene'>
-
-/**
- * How DM pages render references: characters and creatures with their numbers at a glance,
- * records players have not met, and prepared scenes. The player app never provides it, so it
- * shows only what players have met.
- */
-export const DmReferenceContext = createContext<
-  ComponentType<{ reference: DmReferenceTarget }> | undefined
->(undefined)
 
 /** Player content, or DM content that may also point at prepared scenes. */
 type AnyContent = Content | DmContent

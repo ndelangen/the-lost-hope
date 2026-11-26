@@ -8,7 +8,8 @@ import {
 import { cleanup, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 
-import { ContentRenderer, DmReferenceContext } from '#/components/content-renderer'
+import { ContentRenderer } from '#/components/content-renderer'
+import { DmReferenceContext } from '#/components/dm-reference-context'
 import type { Content } from '#/definitions/content'
 import { arcs, resolveSourceRef, scenes } from '#/lib/dm-campaign'
 

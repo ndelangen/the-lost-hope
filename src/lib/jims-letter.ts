@@ -1,5 +1,6 @@
 import { refs } from '#/data/generated/refs.ts'
 import type { EntityRef } from '#/definitions/kind'
+import { resolveRef } from '#/lib/campaign'
 import { normalizePassword, unsealText, type SealedText } from '#/lib/sealed-text'
 
 const LETTER_SECTION_IDS = ['devan', 'cassian', 'swift', 'crowy'] as const
@@ -109,4 +110,9 @@ export async function unsealLetter(words: LetterWords): Promise<UnsealedLetter> 
       )) ?? undefined)
     : undefined
   return { sections, shared }
+}
+
+/** The first name of the section's recipient, as the letter addresses them. */
+export function recipientName(section: LetterSection): string {
+  return resolveRef(section.recipient)?.data.name.split(' ')[0] ?? section.id
 }

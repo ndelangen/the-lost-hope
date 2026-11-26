@@ -1,0 +1,101 @@
+import { describe, expect, it } from 'vitest'
+
+import {
+  applyRecordEdits,
+  Conflict,
+  definitionModule,
+  NotEditable,
+  readRecord,
+} from './record-source.ts'
+
+const BADESH = `import { refs } from '#/data/generated/refs.ts'
+import { create as createLocation } from '#/definitions/location.ts'
+
+// A comment that must survive.
+export default createLocation({
+  name: 'Badesh',
+  icon: 'gi/GiHutsVillage',
+  parent: refs.locations.world,
+  at: [125, 250],
+  notes: [['A small forest town — hometown of ', refs.pcs.victor_dranzig, '.']],
+})
+`
+
+const potion = { ref: 'magicItem', key: 'potion_of_healing' }
+
+describe('readRecord', () => {
+  it('reads literals and refs', () => {
+    expect(readRecord(BADESH)).toEqual({
+      name: 'Badesh',
+      icon: 'gi/GiHutsVillage',
+      parent: { ref: 'location', key: 'world' },
+      at: [125, 250],
+      notes: [['A small forest town — hometown of ', { ref: 'pc', key: 'victor_dranzig' }, '.']],
+    })
+  })
+
+  it('finds the definition module', () => {
+    expect(definitionModule(BADESH)).toBe('#/definitions/location.ts')
+  })
+})
+
+describe('applyRecordEdits', () => {
+  it('adds a field, with the library refs import it needs, and leaves the rest alone', () => {
+    const next = applyRecordEdits(BADESH, [
+      {
+        op: 'set',
+        path: ['shop'],
+        value: { type: 'alchemist', stock: [{ item: potion, quantity: 3 }] },
+      },
+    ])
+    expect(next).toContain(
+      "shop: { type: 'alchemist', stock: [{ item: libraryRefs.magicItems.potion_of_healing, quantity: 3 }] },",
+    )
+    expect(next).toContain("import { refs as libraryRefs } from '#/data/generated/library-refs.ts'")
+    expect(next).toContain('// A comment that must survive.')
+    expect(readRecord(next).shop).toEqual({
+      type: 'alchemist',
+      stock: [{ item: potion, quantity: 3 }],
+    })
+  })
+
+  it('replaces only the edited value', () => {
+    const next = applyRecordEdits(BADESH, [
+      { op: 'set', path: ['at', 0], value: 130, expected: 125 },
+    ])
+    expect(next).toBe(BADESH.replace('[125, 250]', '[130, 250]'))
+  })
+
+  it('refuses an edit when the file changed underneath', () => {
+    expect(() =>
+      applyRecordEdits(BADESH, [{ op: 'set', path: ['name'], value: 'X', expected: 'Old name' }]),
+    ).toThrow(Conflict)
+    expect(() =>
+      applyRecordEdits(BADESH, [{ op: 'set', path: ['shop'], value: {}, expected: { type: 'x' } }]),
+    ).toThrow(Conflict)
+  })
+
+  it('removes a field', () => {
+    const next = applyRecordEdits(BADESH, [{ op: 'remove', path: ['at'], expected: [125, 250] }])
+    expect(readRecord(next)).not.toHaveProperty('at')
+    expect(readRecord(next).notes).toBeDefined()
+    const last = applyRecordEdits(BADESH, [
+      { op: 'remove', path: ['notes'], expected: readRecord(BADESH).notes },
+    ])
+    expect(Object.keys(readRecord(last))).toEqual(['name', 'icon', 'parent', 'at'])
+  })
+
+  it('appends to a list', () => {
+    const next = applyRecordEdits(BADESH, [{ op: 'set', path: ['at', 2], value: 9 }])
+    expect(readRecord(next).at).toEqual([125, 250, 9])
+  })
+
+  it('refuses values the file computes', () => {
+    const computed = BADESH.replace("icon: 'gi/GiHutsVillage',", '...base,')
+    expect(() =>
+      applyRecordEdits(computed, [
+        { op: 'set', path: ['shop'], value: { type: 'bakery', stock: [] } },
+      ]),
+    ).toThrow(NotEditable)
+  })
+})
