@@ -1,5 +1,6 @@
 import { z } from 'zod'
 
+import { equipmentNames } from '#/data/generated/equipment-names'
 import { magicItemNames } from '#/data/generated/magic-item-names'
 import { spellNames } from '#/data/generated/spell-names'
 import type { Effect, EffectText, EffectTrigger } from '#/definitions/effect'
@@ -55,7 +56,8 @@ export const EffectOrigin = z.discriminatedUnion('kind', [
   }),
   z.strictObject({
     kind: z.literal('item'),
-    item: entityRefOf('magicItem'),
+    /** A magic item, or plain equipment such as Antitoxin or a Net. */
+    item: z.union([entityRefOf('magicItem'), entityRefOf('equipment')]),
     /** Who used it: drank the potion, swung the weapon, activated the wand. */
     user: z.string().optional(),
     /** The item's effect by key. */
@@ -491,7 +493,11 @@ export type OriginNames = {
 /** "Hold Person", "Bite": an origin's own name, short enough for a marker. */
 export function originName(origin: EffectOrigin, { abilityName }: OriginNames) {
   if (origin.kind === 'spell') return spellNames[origin.spell.key] ?? origin.spell.key
-  if (origin.kind === 'item') return magicItemNames[origin.item.key] ?? origin.item.key
+  if (origin.kind === 'item')
+    return (
+      (origin.item.ref === 'equipment' ? equipmentNames : magicItemNames)[origin.item.key] ??
+      origin.item.key
+    )
   return abilityName(origin.combatant, origin.ability) ?? origin.ability
 }
 

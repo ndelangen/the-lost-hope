@@ -4,6 +4,7 @@ import { ABILITY_KEYS, CONDITION_KEYS } from '#/lib/rules'
 
 import { Content } from './content'
 import { entityRefOf } from './kind'
+import { Price } from './price'
 import { PrintedStatBlock } from './stat-block'
 import { stagedEffectProblems, statusEffectSchemas } from './status-effect'
 
@@ -214,7 +215,11 @@ export const ItemEffect = z
           .strictObject({
             on: z.literal('failed-save'),
             save: z.enum(ABILITY_KEYS),
-            dc: z.number().int().positive().describe('The DC the item prints'),
+            dc: z
+              .union([z.number().int().positive(), z.literal('user')])
+              .describe(
+                'The DC the item prints, or `user`: 8 plus the user’s modifier for the save’s ability and Proficiency Bonus, as thrown Acid and Nets have',
+              ),
           })
           .describe('When the creature fails this save'),
       ])
@@ -227,6 +232,11 @@ export const ItemEffect = z
       context.addIssue({
         code: 'custom',
         message: `${effect.key}: repeats a save it never called for`,
+      })
+    if (effect.ends?.repeatSave && effect.lands.on === 'failed-save' && effect.lands.dc === 'user')
+      context.addIssue({
+        code: 'custom',
+        message: `${effect.key}: a repeated save needs a DC the item states`,
       })
   })
 
@@ -271,3 +281,64 @@ export const createMagicItems = (input: Record<string, z.input<typeof MagicItem>
   Object.fromEntries(
     Object.entries(input).map(([key, value]) => [key, MagicItem.parse(value)]),
   ) as Record<string, MagicItem>
+
+export const EQUIPMENT_CATEGORIES = [
+  'Adventuring Gear',
+  'Ammunition',
+  'Armor',
+  'Food and Drink',
+  'Mount or Vehicle',
+  'Poison',
+  'Tack and Harness',
+  'Tool',
+  'Trade Good',
+  'Weapon',
+  'Other',
+] as const
+
+/**
+ * Plain equipment: gear, tools, poisons and the goods a shop sells. Unlike a magic item it has a
+ * set price. Its effects use the item effect shape: Antitoxin's Advantage against poison, a
+ * Net's Restrained until it escapes.
+ */
+export const Equipment = z
+  .strictObject({
+  name: z.string().trim().min(1),
+  category: z.enum(EQUIPMENT_CATEGORIES),
+  detail: z
+    .string()
+    .trim()
+    .min(1)
+    .optional()
+    .describe('A finer kind, e.g. `Ingested` for a poison or `Artisan’s Tools`'),
+  price: Price.optional().describe('What it costs, as the publication prints it'),
+  priceEstimated: z
+    .literal(true)
+    .optional()
+    .describe('The price is our estimate, not printed by any book'),
+  weight: z.number().nonnegative().optional().describe('Pounds'),
+  text: Content,
+  effects: z
+    .array(ItemEffect)
+    .refine((effects) => {
+      const keys = effects.flatMap((effect) => [
+        effect.key,
+        ...(effect.becomes ? [effect.becomes.key] : []),
+      ])
+      return new Set(keys).size === keys.length
+    }, 'Effect keys are unique within the equipment')
+    .optional()
+    .describe(
+      'What it leaves on a creature, for the tracker to apply. `[]`: checked, nothing lasting; left out: not checked yet',
+    ),
+  publication: PublicationRef,
+  })
+  .refine((item) => !item.priceEstimated || item.price, 'An estimated price needs a price')
+
+export type Equipment = z.infer<typeof Equipment>
+
+/** Every piece of equipment one publication holds, by key. */
+export const createEquipment = (input: Record<string, z.input<typeof Equipment>>) =>
+  Object.fromEntries(
+    Object.entries(input).map(([key, value]) => [key, Equipment.parse(value)]),
+  ) as Record<string, Equipment>

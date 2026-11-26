@@ -12,6 +12,7 @@ import { LibraryCreatureSheet } from '#/components/library/library-creature-shee
 import { LibraryGallery } from '#/components/library/library-gallery'
 import { LibraryRuleText } from '#/components/library/library-rule-text'
 import { LibraryTypedCreature } from '#/components/library/library-typed-creature'
+import { EquipmentRules } from '#/components/library/equipment-rules'
 import { MagicItemRules } from '#/components/library/magic-item-rules'
 import {
   isLibraryType,
@@ -57,7 +58,13 @@ export const Route = createFileRoute('/library/$type/$slug')({
             await import('#/lib/library-magic-items')
           ).loadMagicItem(ref.magicItem, ref.publication)
         : undefined
-    return { entry, type, typed, magicItem, notice }
+    const equipment =
+      ref && 'equipment' in ref
+        ? await (
+            await import('#/lib/library-equipment')
+          ).loadEquipment(ref.equipment, ref.publication)
+        : undefined
+    return { entry, type, typed, magicItem, equipment, notice }
   },
   head: ({ match }) => ({
     meta: [
@@ -73,7 +80,7 @@ export const Route = createFileRoute('/library/$type/$slug')({
 })
 
 function LibraryEntryPage() {
-  const { entry, type, typed, magicItem, notice } = Route.useRouteContext()
+  const { entry, type, typed, magicItem, equipment, notice } = Route.useRouteContext()
   const search = Route.useSearch()
   const params = Route.useParams()
 
@@ -219,6 +226,7 @@ function LibraryEntryPage() {
               )}
               {printings}
               {magicItem ? <MagicItemRules item={magicItem} /> : null}
+              {equipment ? <EquipmentRules item={equipment} /> : null}
               {entry.sections.map((section) => (
                 <section key={section.title + ':' + section.lines[0]} className="grid gap-2">
                   <h2 className="text-lg font-semibold">{section.title}</h2>

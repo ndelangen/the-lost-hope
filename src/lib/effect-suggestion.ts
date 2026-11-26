@@ -498,7 +498,11 @@ export function suggestFromItemEffect(
   { user }: { user: string | undefined },
 ): EffectSuggestion {
   const { lands, ends, becomes, ...rest } = effect
-  const dc = lands.on === 'failed-save' ? lands.dc : (ends?.escape?.dc ?? 0)
+  // A DC worked out from the user's own numbers is not one the item states: the DM rolls it.
+  const dc =
+    lands.on === 'failed-save' && typeof lands.dc === 'number'
+      ? lands.dc
+      : (ends?.escape?.dc ?? 0)
   // The item prints its DC, which stands where a spell's would be the caster's.
   const spellEnds = (itemEnds: ItemEffect['ends']) =>
     itemEnds

@@ -36,11 +36,12 @@ function words(texts: Iterable<string>) {
 }
 
 /**
- * The words of each typed magic item, by key, read from the modules' string literals: a typed
- * printing's rules live there, not in the catalog, and search still finds them.
+ * The words of each typed magic item or piece of equipment, by key, read from one library
+ * folder's string literals: a typed printing's rules live there, not in the catalog, and search
+ * still finds them.
  */
-function magicItemWords() {
-  const dir = path.join(ROOT, 'src/data/library/magic-items')
+function typedWords(folder: string) {
+  const dir = path.join(ROOT, 'src/data/library', folder)
   const found = new Map<string, string[]>()
   for (const file of readdirSync(dir).filter(
     (name) => name.endsWith('.ts') && name !== '_index.ts',
@@ -66,11 +67,16 @@ function build() {
   )
   const details = new Map<string, Map<string, unknown>>()
   const search: [string, string, string][] = []
-  const typedItems = magicItemWords()
+  const typedItems = typedWords('magic-items')
+  const typedEquipment = typedWords('equipment')
   const typedText = (printings: Printing[]) =>
     printings.flatMap(({ typed }) => {
-      const key = (typed as { magicItem?: { key: string } } | undefined)?.magicItem?.key
-      return key ? (typedItems.get(key) ?? []) : []
+      const ref = typed as
+        | { magicItem?: { key: string }; equipment?: { key: string } }
+        | undefined
+      if (ref?.magicItem) return typedItems.get(ref.magicItem.key) ?? []
+      if (ref?.equipment) return typedEquipment.get(ref.equipment.key) ?? []
+      return []
     })
   const index = records.map((record) => {
     // Rules stay whole in the index: rules text links to them from every library page.

@@ -508,6 +508,10 @@ export default createPublications({
     name: 'Tal’Dorei Campaign Setting Reborn',
     ruleset: '5e-2014',
   },
+  the_lost_hope: {
+    name: 'The Lost Hope',
+    ruleset: '5e-2024',
+  },
   the_wild_beyond_the_witchlight: {
     name: 'The Wild Beyond the Witchlight',
     publisher: 'Wizards of the Coast',

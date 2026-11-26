@@ -26,6 +26,7 @@ type LibraryPrinting = {
   typed?:
     | { monster: EntityRef<'monster'>; publication: EntityRef<'publication'> }
     | { magicItem: EntityRef<'magicItem'>; publication: EntityRef<'publication'> }
+    | { equipment: EntityRef<'equipment'>; publication: EntityRef<'publication'> }
   /** The open-licensed publication whose text this printing shows, for its notice. */
   publication?: EntityRef<'publication'>
   artReference?: string

@@ -2,6 +2,7 @@ import { Sparkles, Target, TriangleAlert, Wand2 } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
+import { equipmentBooks, equipmentNames } from '#/data/generated/equipment-names'
 import { magicItemBooks, magicItemNames } from '#/data/generated/magic-item-names'
 import { spellBooks, spellNames } from '#/data/generated/spell-names'
 import type { EntityRef } from '#/definitions/kind'
@@ -26,6 +27,7 @@ import {
   type EffectOrigin,
   type OnDamage,
 } from '#/lib/encounter-combat'
+import { loadEquipment } from '#/lib/library-equipment'
 import { loadMagicItem } from '#/lib/library-magic-items'
 import { loadSpell } from '#/lib/load-spell'
 import { ABILITY_KEYS, CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
@@ -775,19 +777,29 @@ export function SpellEffect({
   )
 }
 
-/** One entry per magic-item name, preferring the SRD 5.2.1 printing where several books have it. */
+type ItemRef = EntityRef<'magicItem'> | EntityRef<'equipment'>
+
+/**
+ * One entry per item name, preferring the SRD 5.2.1 printing where several books have it: magic
+ * items, then plain equipment such as Antitoxin or a Net.
+ */
 const itemChoices = (() => {
-  const byName = new Map<string, string>()
-  for (const [key, name] of Object.entries(magicItemNames)) {
-    const current = byName.get(name)
-    if (
-      !current ||
-      (magicItemBooks[key] === 'srd-5-2-1' && magicItemBooks[current] !== 'srd-5-2-1')
-    )
-      byName.set(name, key)
+  const byName = new Map<string, { item: ItemRef; book: string }>()
+  const add = (
+    ref: ItemRef['ref'],
+    names: Readonly<Record<string, string>>,
+    books: Readonly<Record<string, string>>,
+  ) => {
+    for (const [key, name] of Object.entries(names)) {
+      const current = byName.get(name)
+      if (!current || (books[key] === 'srd-5-2-1' && current.book !== 'srd-5-2-1'))
+        byName.set(name, { item: { ref, key } as ItemRef, book: books[key]! })
+    }
   }
+  add('magicItem', magicItemNames, magicItemBooks)
+  add('equipment', equipmentNames, equipmentBooks)
   return [...byName]
-    .map(([name, key]) => ({ name, key }))
+    .map(([name, choice]) => ({ name, ...choice }))
     .toSorted((a, b) => a.name.localeCompare(b.name))
 })()
 
@@ -819,31 +831,30 @@ export function ItemEffectPicker({
     | {
         state: 'ready'
         name: string
-        item: EntityRef<'magicItem'>
+        item: ItemRef
         options: { key: string; label: string; suggestion: EffectSuggestion }[]
         chosen?: string
       }
   >()
 
-  const pick = (choice: { key: string; name: string }) => {
-    const item: EntityRef<'magicItem'> = { ref: 'magicItem', key: choice.key }
-    const book = magicItemBooks[choice.key]
-    setPicked({ state: 'loading', name: choice.name })
+  const pick = ({ item, book, name }: (typeof itemChoices)[number]) => {
+    setPicked({ state: 'loading', name })
+    const publication = { ref: 'publication', key: book.replaceAll('-', '_') } as const
     void (
-      book
-        ? loadMagicItem(item, { ref: 'publication', key: book.replaceAll('-', '_') })
-        : Promise.resolve(undefined)
+      item.ref === 'equipment'
+        ? loadEquipment(item, publication)
+        : loadMagicItem(item, publication)
     ).then((loaded) =>
       setPicked((current) =>
-        current?.name !== choice.name
+        current?.name !== name
           ? current
           : !loaded
-            ? { state: 'missing', name: choice.name }
+            ? { state: 'missing', name }
             : !loaded.effects?.length
-              ? { state: 'none', name: choice.name }
+              ? { state: 'none', name }
               : {
                   state: 'ready',
-                  name: choice.name,
+                  name,
                   item,
                   options: withStages(loaded.effects).map(({ effect }) => ({
                     key: effect.key,
@@ -969,7 +980,7 @@ export function ItemEffectPicker({
         {matches.length ? (
           <ul aria-label="Matching items" className="grid gap-0.5">
             {matches.map((item) => (
-              <li key={item.key}>
+              <li key={`${item.item.ref}:${item.item.key}`}>
                 <button
                   type="button"
                   onClick={() => pick(item)}
