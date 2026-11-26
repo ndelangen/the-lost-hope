@@ -774,7 +774,16 @@ export default createScene({
   combat: {
     morale: [
       [
-        'The Hand does not surrender. The ',
+        'The Hand does not surrender, and the ',
+        refs.npcs.hand_breaker,
+        's never run. The ',
+        refs.npcs.dust_lost_sailor,
+        's and ',
+        refs.npcs.cloaked_snatcher,
+        's are the exception: once they are the only enemies left in a room that has escape pods, they Disengage and run for one. When one of them reaches it, the pod pulls them all in and ejects, and every PC in that room hears in their mind “Do you wish to eject?”. Whoever answers yes is pulled in too.',
+      ],
+      [
+        'The Helm has no escape pods: there the ',
         refs.npcs.dust_lost_sailor,
         's fight until ',
         refs.npcs.ilsa_corrow,
