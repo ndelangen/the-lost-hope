@@ -36,7 +36,16 @@ export default createNPC({
       refs.organizations.the_eyeless_hand,
       ' keeps him dosed and uses him as muscle aboard ',
       refs.items.ride_the_lightning,
-      '. What the dust took may come back, a piece at a time.',
+      '.',
+    ],
+    [
+      'He is lost forever. What ',
+      refs.pcs.devan,
+      ' lost at ',
+      refs.npcs.the_fiddler,
+      '’s table in ',
+      refs.events.n2_e105,
+      ' was his bond with Durgan. With that gone and the dust on top, nothing of their friendship can come back, and there is no redeeming him.',
     ],
   ],
   stats: {

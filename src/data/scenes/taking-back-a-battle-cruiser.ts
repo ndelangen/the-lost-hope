@@ -387,13 +387,30 @@ export default createScene({
               refs.npcs.korrag_stonevow,
               ' is sober and can talk. He blames ',
               refs.pcs.devan,
-              ': when ',
+              ' for the squad dying in ',
+              refs.locations.fairhaven,
+              ': ',
               refs.pcs.devan,
-              ' left the squad, the squad got killed. ',
+              ' left to join a guild and never came back to help protect the city. ',
               refs.npcs.the_father,
               ' brought him back for a new chance at glory, and he offers ',
               refs.pcs.devan,
               ' a place in the squad again.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.korrag_stonevow,
+          say: [['You fled like a coward, took a ship and sailed as your friends died.']],
+        },
+        {
+          note: [
+            [
+              'He believes every word, because his memory was rewritten to fit. Each piece is close to the truth: ',
+              refs.pcs.devan,
+              ' did leave on a ship, while loading civilians onto it in ',
+              refs.events.n2_e069,
+              '. Let the players catch what is missing, and do not explain who changed his memory.',
             ],
           ],
         },
@@ -411,9 +428,9 @@ export default createScene({
               refs.pcs.devan,
               ' can spend his action on a shared memory, an old squad call, or his name. Roll ',
               refs.rules.persuasion,
-              ', DC 15. Each success breaks through for a moment: ',
+              ', DC 15. A success makes him hesitate, as if at a sound he cannot place: ',
               refs.npcs.durgan_ashfang,
-              ' loses his next turn. After three successes he remembers. Other characters can help with a good line, which gives ',
+              ' loses his next turn. Nothing more comes back, however often it works. Other characters can help with a good line, which gives ',
               refs.pcs.devan,
               ' ',
               refs.rules.advantage,
@@ -424,25 +441,13 @@ export default createScene({
       ],
       outcomes: [
         {
-          icon: 'gi/GiHand',
-          when: [[refs.pcs.devan, ' reaches ', refs.npcs.durgan_ashfang, '.']],
-          response: [
-            [
-              refs.npcs.durgan_ashfang,
-              ' remembers, in pieces. He drops his warhammer, or turns it on ',
-              refs.npcs.korrag_stonevow,
-              '. He still craves the dust, and he will need help.',
-            ],
-          ],
-        },
-        {
           icon: 'gi/GiDeathSkull',
           when: [['They kill ', refs.npcs.durgan_ashfang, '.']],
           response: [
             [
-              'As he falls, the grey leaves his eyes for one breath, and he says ',
+              'He falls a stranger. His grey eyes pass over ',
               refs.pcs.devan,
-              '’s name.',
+              ' one last time, and there is nothing in them.',
             ],
           ],
         },

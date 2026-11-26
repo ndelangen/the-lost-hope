@@ -241,7 +241,8 @@ Every question must include **what we already know** — many sit unanswered acr
 
 - **What part of Devan went missing or fell asleep during the Fiddler’s game?**
   - _Context:_ [Devan](/pcs/detail/devan) felt that a part of himself was absent and dormant, but the card’s exact target and consequences were not revealed.
-  - _Why asking:_ This is tracked as the open mystery [What Did Devan Lose to the Fiddler?](/quests/detail/what-did-devan-lose-to-the-fiddler); the affected part, cause, consequences, and recovery conditions remain unknown.
+  - _DM answer (not yet known to the party):_ he lost his bond with his best mate [Durgan Ashfang](/npcs/detail/durgan-ashfang), who is lost forever. Recorded on Durgan.
+  - _Why asking:_ This is tracked as the open mystery [What Did Devan Lose to the Fiddler?](/quests/detail/what-did-devan-lose-to-the-fiddler). Still open: when and how the party finds out, and whether anything else of Devan's went with it.
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
 - **Which NPC became permanently hostile to Swift?**
@@ -444,6 +445,11 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The `species` field owns this fact and one of the two sources is out of date.
 
 ## Session 18, The Pulse and the Boarding
+
+- **Who rewrote Korrag's memory of Devan?**
+  - _Context:_ [Korrag Stonevow](/npcs/detail/korrag-stonevow) remembers Devan fleeing Fairhaven on a ship while the squad died: a near-truth edit made after The Father revived him. Jim was The Father's ghostwriter, but he only reached the flying fortress on day 24, too late to have written it.
+  - _Why asking:_ The DM is leaving it open on purpose. Do not name an author in the data until it is settled.
+  - _Session:_ 18 (prep for Ride the Lightning)
 
 - Where did Jim go, and why did the fortress fire twice?
   - The pulse severed emotional bonds without erasing memories. The first beam was aimed at Jim but scattered over Nimbus for a reason explicitly unknown to the witnesses. The second made him disappear and left his belongings behind. Neither death nor a destination was established. His interrupted instruction to Swift only clearly includes taking the ship.
