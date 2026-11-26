@@ -85,34 +85,43 @@ export function ImageViewer({
     }
   }, [close, open])
 
+  // In local dev, a picture that can go on the player screen gets its button right on the preview.
+  const castable = playerScreen && import.meta.env.DEV ? playerScreen : undefined
+
   return (
     <>
-      <button
-        ref={triggerRef}
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-label={`View a larger ${accessibleLabel}`}
-        aria-haspopup="dialog"
-        aria-expanded={open}
-        className={cn(
-          'group relative size-full cursor-zoom-in overflow-hidden rounded-2xl focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2',
-          className,
-        )}
-      >
-        <ViewerImage
-          src={src}
-          fallbackSrc={fallbackSrc}
-          alt={alt}
-          loading="lazy"
-          sizes={previewSizes}
-          maxWidth={previewMaxWidth}
-          className="size-full object-cover"
-        />
-        <span className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/20 group-focus-visible:bg-black/20" />
-        <span className="absolute right-2 bottom-2 rounded-full bg-black/70 p-2 text-white opacity-0 shadow-sm transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
-          <Expand className="size-4" aria-hidden />
-        </span>
-      </button>
+      <div className={cn('relative size-full overflow-hidden rounded-2xl', className)}>
+        <button
+          ref={triggerRef}
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-label={`View a larger ${accessibleLabel}`}
+          aria-haspopup="dialog"
+          aria-expanded={open}
+          className="group relative block size-full cursor-zoom-in focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-inset"
+        >
+          <ViewerImage
+            src={src}
+            fallbackSrc={fallbackSrc}
+            alt={alt}
+            loading="lazy"
+            sizes={previewSizes}
+            maxWidth={previewMaxWidth}
+            className="size-full object-cover"
+          />
+          <span className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/20 group-focus-visible:bg-black/20" />
+          <span className="absolute right-2 bottom-2 rounded-full bg-black/70 p-2 text-white opacity-0 shadow-sm transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
+            <Expand className="size-4" aria-hidden />
+          </span>
+        </button>
+        {castable ? (
+          <ShowToPlayersButton
+            selection={castable}
+            compact
+            className="absolute top-2 right-2 h-9 w-9 [&_svg]:size-4"
+          />
+        ) : null}
+      </div>
 
       {open
         ? createPortal(
@@ -154,9 +163,9 @@ export function ImageViewer({
                 </h2>
               </div>
 
-              {playerScreen && import.meta.env.DEV ? (
+              {castable ? (
                 <ShowToPlayersButton
-                  selection={playerScreen}
+                  selection={castable}
                   className="absolute top-5 right-20 z-40 sm:top-8 sm:right-24"
                 />
               ) : null}

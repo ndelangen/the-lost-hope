@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { ChevronRight, ScrollText, X } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { ChevronRight, PanelLeftClose, ScrollText, X } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 
 import { LiveFight } from '#/components/dm/encounter/live-fight'
@@ -15,6 +15,11 @@ import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneScript } from '#/lib/scene-script'
 import { cn } from '#/lib/utils'
+
+/** Remembers in this browser that the DM folded the beats away beside the fight. */
+const SIDE_HIDDEN_KEY = 'the-lost-hope:dm-now-beats-hidden'
+/** Tailwind's xl: from here the beats sit beside the fight instead of in a drawer. */
+const WIDE_QUERY = '(min-width: 80rem)'
 
 const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGISTRIES.location
 
@@ -41,14 +46,47 @@ function NowRoute() {
     table.likely[0]?.key
   const scene = sceneKey ? scenes[sceneKey] : undefined
   const [beatsOpen, setBeatsOpen] = useState(false)
+  const [sideHidden, setSideHidden] = useState(false)
+  const wide = useRef(false)
 
-  // B opens and closes the beats drawer.
+  useEffect(() => {
+    try {
+      setSideHidden(window.localStorage.getItem(SIDE_HIDDEN_KEY) === '1')
+    } catch {
+      // Without storage the beats simply start shown.
+    }
+    const query = window.matchMedia(WIDE_QUERY)
+    wide.current = query.matches
+    const onChange = (event: MediaQueryListEvent) => {
+      wide.current = event.matches
+    }
+    query.addEventListener('change', onChange)
+    return () => query.removeEventListener('change', onChange)
+  }, [])
+
+  const setHidden = (hidden: boolean) => {
+    setSideHidden(hidden)
+    try {
+      window.localStorage.setItem(SIDE_HIDDEN_KEY, hidden ? '1' : '0')
+    } catch {
+      // Only this visit remembers it.
+    }
+  }
+  // Wide, the beats fold in and out beside the fight; narrow, they slide in as a drawer.
+  const toggleBeats = () => {
+    if (wide.current) setHidden(!sideHidden)
+    else setBeatsOpen((open) => !open)
+  }
+  const toggleRef = useRef(toggleBeats)
+  toggleRef.current = toggleBeats
+
+  // B shows and hides the beats.
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null
       if (target?.closest('input, textarea, select, [contenteditable="true"]')) return
       if (event.altKey || event.ctrlKey || event.metaKey) return
-      if (event.key === 'b' || event.key === 'B') setBeatsOpen((open) => !open)
+      if (event.key === 'b' || event.key === 'B') toggleRef.current()
       else if (event.key === 'Escape') setBeatsOpen(false)
     }
     window.addEventListener('keydown', onKeyDown)
@@ -111,7 +149,7 @@ function NowRoute() {
   const beatsButton = (className?: string) => (
     <button
       type="button"
-      onClick={() => setBeatsOpen((open) => !open)}
+      onClick={toggleBeats}
       className={cn(
         'border-border hover:bg-muted flex h-11 w-fit items-center gap-2 rounded-xl border-2 px-4 font-semibold',
         className,
@@ -145,12 +183,28 @@ function NowRoute() {
   // Beats on the left follow the DM down; the fight takes the rest of the width.
   // Below xl there is no room beside the fight, so the beats slide in on B instead.
   return (
-    <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-3 xl:grid-cols-[24rem_minmax(0,1fr)] 2xl:grid-cols-[28rem_minmax(0,1fr)]">
-      {beatsButton('xl:hidden')}
+    <div
+      className={cn(
+        'grid grid-cols-[minmax(0,1fr)] items-start gap-3',
+        !sideHidden && 'xl:grid-cols-[24rem_minmax(0,1fr)] 2xl:grid-cols-[28rem_minmax(0,1fr)]',
+      )}
+    >
+      {beatsButton(sideHidden ? undefined : 'xl:hidden')}
       <aside
         aria-label="Beats"
-        className="border-border bg-card hidden content-start gap-3 rounded-xl border p-3 xl:sticky xl:top-3 xl:grid xl:max-h-[calc(100vh-1.5rem)] xl:overflow-y-auto"
+        className={cn(
+          'border-border bg-card hidden content-start gap-3 rounded-xl border p-3 xl:sticky xl:top-3 xl:max-h-[calc(100vh-1.5rem)] xl:overflow-y-auto',
+          !sideHidden && 'xl:grid',
+        )}
       >
+        <button
+          type="button"
+          onClick={() => setHidden(true)}
+          className="border-border hover:bg-muted flex h-11 w-fit items-center gap-2 rounded-xl border px-3 font-semibold"
+        >
+          <PanelLeftClose className="size-5" aria-hidden /> Hide beats
+          <kbd className="text-muted-foreground border-border rounded border px-1.5 text-xs">B</kbd>
+        </button>
         {sidePanels}
         {beats}
       </aside>
