@@ -271,6 +271,16 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/DDEX3-16 - Assault on Maerimydra.pdf',
   },
+  deep_magic: {
+    name: 'Deep Magic for 5th Edition',
+    publisher: 'Kobold Press',
+    ruleset: '5e-2014',
+  },
+  deep_magic_extended: {
+    name: 'Deep Magic Extended',
+    publisher: 'Kobold Press',
+    ruleset: '5e-2014',
+  },
   fizban_s_treasury_of_dragons: {
     name: "Fizban's Treasury of Dragons",
     ruleset: '5e-2014',
@@ -308,6 +318,11 @@ export default createPublications({
   journeys_through_the_radiant_citadel: {
     name: 'Journeys through the Radiant Citadel',
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
+  kobold_press_compilation: {
+    name: 'Kobold Press Compilation',
+    publisher: 'Kobold Press',
     ruleset: '5e-2014',
   },
   monster_manual_2014: {
@@ -417,6 +432,10 @@ export default createPublications({
     publisher: 'Wizards of the Coast',
     ruleset: '5e-2014',
   },
+  spells_that_dont_suck: {
+    name: "Spells That Don't Suck",
+    ruleset: '5e-2014',
+  },
   srd_5_1: {
     name: 'System Reference Document 5.1',
     publisher: 'Wizards of the Coast',
@@ -452,6 +471,11 @@ export default createPublications({
     ruleset: '5e-2014',
     pdf: 'D&D - 5th Edition (2014)/Adventures/Tomb of Annihilation.pdf',
   },
+  tome_of_heroes: {
+    name: 'Tome of Heroes',
+    publisher: 'Kobold Press',
+    ruleset: '5e-2014',
+  },
   turn_of_fortune_s_wheel: {
     name: "Turn of Fortune's Wheel",
     ruleset: '5e-2014',
@@ -459,6 +483,11 @@ export default createPublications({
   volo_s_guide_to_monsters: {
     name: "Volo's Guide to Monsters",
     publisher: 'Wizards of the Coast',
+    ruleset: '5e-2014',
+  },
+  warlock_zine: {
+    name: 'Warlock Zine',
+    publisher: 'Kobold Press',
     ruleset: '5e-2014',
   },
   where_evil_lives: {

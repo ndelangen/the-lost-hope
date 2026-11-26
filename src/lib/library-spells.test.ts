@@ -2,10 +2,9 @@ import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/library-refs'
 import books from '#/data/library/monsters/_index'
-import spells from '#/data/library/spells'
 
 import { abilityTextSegments } from './dm-ability-text'
-import { spellLevelLabel, spellOf } from './library-spells'
+import { spellLevelLabel, spellOf, spells } from './library-spells'
 
 describe('library spells', () => {
   it('reads a spell as the SRD prints it', () => {

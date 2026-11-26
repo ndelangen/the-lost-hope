@@ -1,6 +1,9 @@
-import spells from '#/data/library/spells'
+import books from '#/data/library/spells/_index'
 import type { EntityRef } from '#/definitions/kind'
 import type { Spell } from '#/definitions/library'
+
+/** Every spell the library holds, by spell key. */
+export const spells: Readonly<Record<string, Spell>> = Object.assign({}, ...books)
 
 export function spellOf(ref: EntityRef<'spell'>): Spell {
   const spell = spells[ref.key]

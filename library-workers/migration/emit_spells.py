@@ -1,4 +1,4 @@
-"""Write src/data/library/spells.ts from spells_srd521.py output. Usage: emit_spells.py <spells.json>"""
+"""Write src/data/library/spells/srd-5-2-1.ts from spells_srd521.py output. Usage: emit_spells.py <spells.json>"""
 import json,os,re,sys
 REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..'))
 CONDS=['blinded','charmed','deafened','frightened','grappled','incapacitated','invisible','paralyzed','petrified','poisoned','prone','restrained','stunned','unconscious','exhaustion']
@@ -84,5 +84,5 @@ for s in sorted(spells,key=lambda x:key(x['name'])):
       f"    castingTime: {js(s['castingTime'])},",f"    range: {js(s['range'])},",f"    components: {js(s['components'])},",f"    duration: {js(s['duration'])},",
       "    text: ["]+[f"      {para(p)}," for p in s['paragraphs']]+["    ],","    publication: refs.publications.srd_5_2_1,","  },"]
 L+=["})",""]
-open(os.path.join(REPO,'src/data/library/spells.ts'),'w').write('\n'.join(L))
+open(os.path.join(REPO,'src/data/library/spells/srd-5-2-1.ts'),'w').write('\n'.join(L))
 print(len(spells))

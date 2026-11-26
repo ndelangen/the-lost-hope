@@ -57,7 +57,7 @@ export default createPublicationMonsters({
             },
             text: [
               'The stoneguard can immediately use its bonus action to cast ',
-              refs.spells.thunderwave,
+              refs.spells.thunderwave_srd_5_1,
               ', spending a slot and using no components.',
             ],
           },

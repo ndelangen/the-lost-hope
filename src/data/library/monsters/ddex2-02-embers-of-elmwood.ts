@@ -126,7 +126,7 @@ export default createPublicationMonsters({
             icon: 'gi/GiWizardStaff',
             text: [
               'The mephit can innately cast ',
-              refs.spells.dancing_lights,
+              refs.spells.dancing_lights_srd_5_1,
               ', requiring no material components. Its innate spellcasting ability is Charisma.',
             ],
             uses: 1,

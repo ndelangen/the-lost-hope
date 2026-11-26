@@ -132,7 +132,7 @@ export default createPublicationMonsters({
             icon: 'gi/GiMagicSwirl',
             text: [
               'Ring of Ring of Animal Influence Ring, rare This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expand 1 of its charges to cast one of the following spells:  ',
-              refs.spells.animal_friendship,
+              refs.spells.animal_friendship_srd_5_1,
               ' (save ',
               { dc: 'int' },
               ')  Fear (save ',

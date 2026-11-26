@@ -22,6 +22,15 @@ def icon(name,ab):
 # One key per monster across publications; renamed reprints use the current (2024) name.
 ALIASES={'giant_sea_horse':'giant_seahorse','sea_horse':'seahorse','giant_poisonous_snake':'giant_venomous_snake',
   'poisonous_snake':'venomous_snake','swarm_of_poisonous_snakes':'swarm_of_venomous_snakes','giant_rat_diseased':'diseased_giant_rat'}
+# Openly licensed spell books loaded from Open5e (spells_open5e.py).
+SPELL_PUBS={
+  'deep_magic':('deep_magic','Deep Magic for 5th Edition','Kobold Press',None,'5e-2014',None),
+  'deep_magic_extended':('deep_magic_extended','Deep Magic Extended','Kobold Press',None,'5e-2014',None),
+  'tome_of_heroes':('tome_of_heroes','Tome of Heroes','Kobold Press',None,'5e-2014',None),
+  'kobold_press_compilation':('kobold_press_compilation','Kobold Press Compilation','Kobold Press',None,'5e-2014',None),
+  'warlock_zine':('warlock_zine','Warlock Zine','Kobold Press',None,'5e-2014',None),
+  'spells_that_dont_suck':('spells_that_dont_suck',"Spells That Don't Suck",None,None,'5e-2014',None),
+}
 CORE=['monster_manual_2014','monster_manual_2024','srd_5_1','srd_5_2_1','basic_rules_2018']
 PUBLISHERS=['Wizards of the Coast','Kobold Press','MCDM','Ghostfire Gaming','Darrington Press','Hit Point Press','Green Ronin','Free League','Critical Role','Legendary Games','Mage Hand Press','Loot Tavern','Ghostfire']
 def catalog_pdfs():
@@ -228,6 +237,12 @@ def main():
   # publications
   L=["import { createPublications } from '#/definitions/library.ts'","","export default createPublications({"]
   used={pk for pk in bypub}|{x for v in reprints.values() for x in v}|set(CORE)
+  # Spell books need their publication too (src/data/library/spells).
+  spell_dir=os.path.join(REPO,'src/data/library/spells')
+  for f in os.listdir(spell_dir):
+    used|=set(re.findall(r'refs\.publications\.(\w+)',open(os.path.join(spell_dir,f)).read()))
+  for pk,entry in SPELL_PUBS.items():
+    if pk not in {v[0] for v in PUBS.values()}: PUBS['spells:'+pk]=entry
   for label,(pk,name,pub,year,rs,pdf) in sorted(PUBS.items(),key=lambda kv:kv[1][0]):
     if pk not in used: continue
     L.append(f'  {pk}: {{'); L.append(f'    name: {js(name)},')

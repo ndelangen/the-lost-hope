@@ -273,7 +273,7 @@ export default createPublicationMonsters({
               'Make two ',
               { ability: 'greatsword' },
               ' attacks and cast ',
-              refs.spells.fog_cloud,
+              refs.spells.fog_cloud_srd_5_1,
               '.',
             ],
           },

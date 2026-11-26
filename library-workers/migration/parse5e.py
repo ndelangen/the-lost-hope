@@ -127,12 +127,14 @@ def save_damage(m,scores,save_ab,issues,name):
 CTX={'caster':None}
 # Spell names the library holds (src/data/library/spells.ts), longest first so "Greater
 # Invisibility" wins over "Invisibility".
-_SPELLS_TS=os.path.join(os.path.dirname(__file__),'..','..','src','data','library','spells.ts')
-SPELLS={}
-if os.path.exists(_SPELLS_TS):
-  src_=open(_SPELLS_TS,encoding='utf8').read()
-  for k_,n_ in re.findall(r"^  ([a-z0-9_]+): \{\n    name: ['\"](.+?)['\"],",src_,re.M): SPELLS[n_.lower()]=k_
-SPELL_RE=re.compile(r'\b('+'|'.join(re.escape(n) for n in sorted(SPELLS,key=len,reverse=True))+r')\b',re.I) if SPELLS else None
+_SPELL_DIR=os.path.join(os.path.dirname(__file__),'..','..','src','data','library','spells')
+SPELLS={}; SPELLS_2014={}
+for f_ in ['srd-5-2-1.ts','srd-5-1.ts']:
+  p_=os.path.join(_SPELL_DIR,f_)
+  if not os.path.exists(p_): continue
+  for k_,n_ in re.findall(r"^  ([a-z0-9_]+): \{\n    name: ['\"](.+?)['\"],",open(p_,encoding='utf8').read(),re.M):
+    (SPELLS if f_=='srd-5-2-1.ts' else SPELLS_2014)[n_.lower()]=k_
+SPELL_RE=re.compile(r'\b('+'|'.join(re.escape(n) for n in sorted(set(SPELLS)|set(SPELLS_2014),key=len,reverse=True))+r')\b',re.I) if SPELLS else None
 def spell_tokens(text):
   '''Spell names in a spell list (after the first colon) or right after "cast(s)" become spell refs.'''
   if not SPELL_RE: return [text]
@@ -145,7 +147,9 @@ def spell_tokens(text):
     listed=colon>=0 and m.start()>colon
     cast=re.search(r'\bcasts? (?:the )?(?:[A-Z][\w’\']*(?:,| or| and|, or|, and)? )*$',text[max(0,m.start()-80):m.start()]) is not None
     if not (listed or cast): continue
-    out.append(text[pos:m.start()]); out.append({'spell':SPELLS[m.group(1).lower()]}); pos=m.end()
+    name=m.group(1).lower()
+    k=(SPELLS_2014.get(name) if CTX.get('edition','').startswith('2014') else None) or SPELLS.get(name) or SPELLS_2014[name]
+    out.append(text[pos:m.start()]); out.append({'spell':k}); pos=m.end()
   out.append(text[pos:])
   return [x for x in out if x!='']
 CASTER=re.compile(r'(Intelligence|Wisdom|Charisma)\b[^.]{0,40}spellcasting ability|spellcasting ability (?:is )?(Intelligence|Wisdom|Charisma)|using (Intelligence|Wisdom|Charisma)\b')
@@ -326,6 +330,7 @@ def finalize(block,scores,prof,issues):
     ab['text']=merged
 def convert(r,p):
   issues=[]
+  CTX['edition']=p.get('edition') or ''
   CTX['caster']=caster_of(' '.join(l for s_ in p['gm'] for l in s_['lines']))
   for s_ in p['gm']+(p.get('player') or []):
     t=s_['title'].lower()
