@@ -39,7 +39,7 @@ export function StatBlockSheet({
     <div className="grid gap-4">
       <StatBlockHeadline stats={stats} block={block} />
       <StatFacts stats={stats} block={block} />
-      <SavingThrows stats={stats} block={block} />
+      <SavingThrows block={block} />
       {abilityGroups(stats).map(({ key, label, note, abilities }) => {
         const Icon = GROUP_ICON[key]
         return (

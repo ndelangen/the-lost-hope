@@ -233,7 +233,7 @@ export function CombatantPanel({
 
       {stats && block ? (
         <>
-          <SavingThrows stats={stats} block={block} />
+          <SavingThrows block={block} />
           <StatFacts stats={stats} block={block} />
           <StatSource stats={stats} />
         </>

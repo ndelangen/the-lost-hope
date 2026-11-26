@@ -16,6 +16,8 @@ import {
 } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
+import { useDensity } from './density'
+
 /** How each ability timing is labelled and drawn. */
 export const TIMING = {
   action: { label: ABILITY_GROUP_LABEL.action, Icon: Swords },
@@ -59,29 +61,28 @@ export function StatBlockHeadline({ stats, block }: { stats: AnyStatBlock; block
   )
 }
 
-/** Every saving throw with its ability score, proficient saves outlined. */
-export function SavingThrows({ stats, block }: { stats: AnyStatBlock; block: DerivedStats }) {
+/** Every saving throw as a chip with its bonus, which already includes proficiency. */
+export function SavingThrows({ block }: { block: DerivedStats }) {
+  const focus = useDensity() === 'focus'
   return (
     <section aria-labelledby="saves-heading" className="grid gap-1">
       <h3 id="saves-heading" className="text-muted-foreground text-xs font-semibold uppercase">
         <RuleTerm rule={refs.rules.saving_throw}>Saving throws</RuleTerm>
       </h3>
-      <dl className="grid grid-cols-3 gap-2">
+      <dl className="grid grid-cols-3 gap-2 sm:grid-cols-6">
         {ABILITY_KEYS.map((ability) => (
           <div
             key={ability}
             className={cn(
-              'bg-muted/50 rounded-md px-2 py-1',
-              stats.saves?.[ability] && 'ring-foreground/30 ring-1',
+              'bg-muted/50 flex items-center justify-between rounded-md px-2.5',
+              focus ? 'h-11' : 'h-8',
             )}
           >
-            <dt className="text-muted-foreground text-xs">
-              <RuleTerm rule={ruleRef(ability)}>{ruleOf(ruleRef(ability)).name}</RuleTerm>
-              {stats.saves?.[ability] ? ' · proficient' : ''}
+            <dt className="text-muted-foreground text-xs font-semibold">
+              <RuleTerm rule={ruleRef(ability)} />
             </dt>
-            <dd className="font-semibold tabular-nums">d20 {signed(block.saves[ability])}</dd>
-            <dd className="text-muted-foreground text-xs tabular-nums">
-              {stats.scores[ability]} ({signed(block.modifier[ability])})
+            <dd className={cn('font-bold tabular-nums', focus ? 'text-xl' : 'text-base')}>
+              {signed(block.saves[ability])}
             </dd>
           </div>
         ))}
